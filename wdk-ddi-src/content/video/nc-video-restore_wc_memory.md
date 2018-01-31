@@ -72,12 +72,12 @@ VP_STATUS VideoPortRestoreWCMemory(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>. It typically points to the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> buffer.
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's hardware device extension.
 

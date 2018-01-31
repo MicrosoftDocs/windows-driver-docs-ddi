@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7b9aa600-dd47-4ef1-acc8-02fb1b4f51ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsIsBusEnumChildDevice, stream.ksisbusenumchilddevice, KsIsBusEnumChildDevice function [Streaming Media Devices], swenum/KsIsBusEnumChildDevice, ksfunc_5718ba1d-d377-40f8-8972-7005f4064e7c.xml
+ms.keywords: KsIsBusEnumChildDevice, ksfunc_5718ba1d-d377-40f8-8972-7005f4064e7c.xml, KsIsBusEnumChildDevice function [Streaming Media Devices], stream.ksisbusenumchilddevice, swenum/KsIsBusEnumChildDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS KsIsBusEnumChildDevice(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to a device object.
 
 
-### -param ChildDevice [out]
+#### - ChildDevice [out]
 
 Pointer to a BOOLEAN to receive the result. <b>KsIsBusEnumChildDevice</b> sets this to <b>TRUE</b> if the given device object is a child device of the demand-load bus enumerator object, or <b>FALSE</b> otherwise.
 

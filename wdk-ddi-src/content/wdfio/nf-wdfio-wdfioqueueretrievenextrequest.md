@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1cde2e20-5ce6-4c5b-b40c-0b04da76980c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest method, PFN_WDFIOQUEUERETRIEVENEXTREQUEST, wdf.wdfioqueueretrievenextrequest, kmdf.wdfioqueueretrievenextrequest, DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml
+ms.keywords: DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml, wdf.wdfioqueueretrievenextrequest, PFN_WDFIOQUEUERETRIEVENEXTREQUEST, WdfIoQueueRetrieveNextRequest method, WdfIoQueueRetrieveNextRequest, wdfio/WdfIoQueueRetrieveNextRequest, kmdf.wdfioqueueretrievenextrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfIoQueueRetrieveNextRequest(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to a framework queue object.
 
 
-### -param OutRequest [out]
+#### - OutRequest [out]
 
 A pointer to a location that receives a handle to a framework request object. If the queue is empty or the last request has been retrieved, this parameter receives <b>NULL</b>.
 

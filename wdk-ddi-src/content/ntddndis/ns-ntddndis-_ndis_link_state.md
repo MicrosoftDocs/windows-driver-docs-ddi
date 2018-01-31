@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 01d74e69-55fe-4e2e-94ab-7676f9e33403
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_LINK_STATE, ntddndis/NDIS_LINK_STATE, PNDIS_LINK_STATE, NDIS_LINK_STATE, *PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], _NDIS_LINK_STATE, netvista.ndis_link_state
+ms.keywords: ntddndis/PNDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], *PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_LINK_STATE, ntddndis/NDIS_LINK_STATE, PNDIS_LINK_STATE, _NDIS_LINK_STATE, netvista.ndis_link_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_LINK_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_LINK_STATE, NDIS_LINK_STATE"
+req.typenames: NDIS_LINK_STATE, *PNDIS_LINK_STATE
 ---
 
 # _NDIS_LINK_STATE structure
@@ -73,7 +73,7 @@ typedef struct _NDIS_LINK_STATE {
 
 
 
-### -field Header
+#### - Header
 
 The 
       <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -84,27 +84,27 @@ The
       <b>Size</b> member to NDIS_SIZEOF_LINK_STATE_REVISION_1.
 
 
-### -field MediaConnectState
+#### - MediaConnectState
 
 The media connect state for the miniport adapter. For more information, see  
       <mshelp:link keywords="netvista.oid_gen_media_connect_status_ex" tabindex="0">
  OID_GEN_MEDIA_CONNECT_STATUS_EX</mshelp:link> OID.
 
 
-### -field MediaDuplexState
+#### - MediaDuplexState
 
 The media duplex state for the miniport adapter. For more information, see <mshelp:link keywords="netvista.oid_gen_media_duplex_state" tabindex="0">
  OID_GEN_MEDIA_DUPLEX_STATE</mshelp:link> OID.
 
 
-### -field XmitLinkSpeed
+#### - XmitLinkSpeed
 
 The current transmit link speed of the miniport adapter in bits per second. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>.
  
 <div class="alert"><b>Note</b>  A value of NDIS_LINK_SPEED_UNKNOWN indicates that the
  transmit link speed is unknown.</div><div> </div>
 
-### -field RcvLinkSpeed
+#### - RcvLinkSpeed
 
 The current receive link speed of the miniport adapter in bits per second. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>.
 
@@ -112,7 +112,7 @@ The current receive link speed of the miniport adapter in bits per second. For m
 <div class="alert"><b>Note</b>  A value of NDIS_LINK_SPEED_UNKNOWN indicates that the
  receive link speed is unknown.</div><div> </div>
 
-### -field PauseFunctions
+#### - PauseFunctions
 
 The type of support for the IEEE 802.3 pause frames. This member must be one of the following
  pause functions:
@@ -149,7 +149,7 @@ Pause frame negotiation is in progress. The pause frame support that the link pa
  is unknown.
 
 
-### -field AutoNegotiationFlags
+#### - AutoNegotiationFlags
 
 The auto-negotiation settings for the miniport adapter. This member is created from a bitwise OR
  of the following flags:
@@ -193,21 +193,21 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 <mshelp:link keywords="netvista.oid_gen_media_duplex_state" tabindex="0">
  OID_GEN_MEDIA_DUPLEX_STATE</mshelp:link>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
 <mshelp:link keywords="netvista.oid_gen_media_connect_status_ex" tabindex="0">
  OID_GEN_MEDIA_CONNECT_STATUS_EX</mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

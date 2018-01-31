@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d04306e2-3479-4ba4-ac4d-bf3715487fcf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: colorfnc_8259a030-267a-4d53-93fe-73e63f0e5fd7.xml, WcsGetDefaultColorProfileSize function [Print Devices], icm/WcsGetDefaultColorProfileSize, print.wcsgetdefaultcolorprofilesize, WcsGetDefaultColorProfileSize
+ms.keywords: WcsGetDefaultColorProfileSize function [Print Devices], print.wcsgetdefaultcolorprofilesize, colorfnc_8259a030-267a-4d53-93fe-73e63f0e5fd7.xml, WcsGetDefaultColorProfileSize, icm/WcsGetDefaultColorProfileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ BOOL WcsGetDefaultColorProfileSize(
 TBD
 
 
-### -param pDeviceName [in, optional]
+#### - pDeviceName [in, optional]
 
 A pointer to the name of the device for which the default color profile is to be obtained. If <b>NULL</b>, a device-independent default profile will be used.
 
 
-### -param cptColorProfileType [in]
+#### - cptColorProfileType [in]
 
 A <a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a> value that specifies the color profile type.
 
 
-### -param cpstColorProfileSubType [in]
+#### - cpstColorProfileSubType [in]
 
 A <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> value that specifies the color profile subtype.
 
 
-### -param dwProfileID [in]
+#### - dwProfileID [in]
 
 The ID of the color space that the color profile represents.
 
 
-### -param pcbProfileName [out]
+#### - pcbProfileName [out]
 
 A pointer to a location that receives the size, in bytes, of the path name of the default color profile, including the null terminator.
 
@@ -119,13 +119,13 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
+<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
+
 <a href="..\icm\nf-icm-wcsgetdefaultcolorprofile.md">WcsGetDefaultColorProfile</a>
 
 <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
 
 <a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
-
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
  
 

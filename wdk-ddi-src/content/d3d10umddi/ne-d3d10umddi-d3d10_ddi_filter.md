@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 02d0985e-ddf3-49cb-89e4-dcadb908399f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_POINT_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, D3D10_DDI_FILTER_TEXT_1BIT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_ANISOTROPIC, D3D10_DDI_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_ANISOTROPIC, d3d10umddi/D3D10_DDI_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_LINEAR_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_POINT_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_ANISOTROPIC, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_LINEAR_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_ANISOTROPIC, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_LINEAR, UMDisplayDriver_Dx10param_Structs_326a1a60-5a3c-40c9-831c-f6c316fd6bf2.xml, D3D10_DDI_FILTER_MIN_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_MIP_LINEAR, D3D10_DDI_FILTER_ANISOTROPIC, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_ANISOTROPIC, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER enumeration [Display Devices], D3D10_DDI_FILTER_MIN_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, D3D10_DDI_FILTER_MIN_LINEAR_MAG_MIP_POINT, display.d3d10_ddi_filter, D3DWDDM1_3DDI_FILTER_MINIMUM_ANISOTROPIC, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_ANISOTROPIC, D3D10_DDI_FILTER, D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_MIP_LINEAR, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_MIN_LINEAR_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_TEXT_1BIT, D3D10_DDI_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_MIN_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_MIP_POINT, D3D10_DDI_FILTER_MIN_MAG_LINEAR_MIP_POINT
+ms.keywords: D3D10_DDI_FILTER, D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_TEXT_1BIT, d3d10umddi/D3D10_DDI_FILTER_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_MIP_POINT, D3D10_DDI_FILTER_MIN_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MINIMUM_ANISOTROPIC, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_TEXT_1BIT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_ANISOTROPIC, d3d10umddi/D3D10_DDI_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_POINT, D3D10_DDI_FILTER enumeration [Display Devices], D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_ANISOTROPIC, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_LINEAR_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_MIN_POINT_MAG_MIP_LINEAR, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_ANISOTROPIC, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_MIN_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_LINEAR_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_ANISOTROPIC, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_ANISOTROPIC, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_LINEAR, D3D10_DDI_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_LINEAR_MIP_POINT, UMDisplayDriver_Dx10param_Structs_326a1a60-5a3c-40c9-831c-f6c316fd6bf2.xml, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_MIP_POINT, D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_MIP_LINEAR, D3D10_DDI_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_LINEAR_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_LINEAR, display.d3d10_ddi_filter, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_POINT, d3d10umddi/D3D10_DDI_FILTER_COMPARISON_ANISOTROPIC, D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_MIN_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_POINT_MIP_LINEAR, d3d10umddi/D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_MIP_POINT, D3DWDDM1_3DDI_FILTER_MAXIMUM_ANISOTROPIC, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_MIN_MAG_POINT_MIP_LINEAR, D3D10_DDI_FILTER_MIN_MAG_MIP_LINEAR, d3d10umddi/D3D10_DDI_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10umddi/D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_POINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -105,120 +105,120 @@ typedef enum D3D10_DDI_FILTER {
 
 
 
-### -field D3D10_DDI_FILTER_MIN_MAG_MIP_POINT
+#### - D3D10_DDI_FILTER_MIN_MAG_MIP_POINT
 
 The sampler uses point filtering for the min (minifying), mag (magnifying), and mip filters. For more information about these types of filters, see Remarks. 
 
 
-### -field D3D10_DDI_FILTER_MIN_MAG_POINT_MIP_LINEAR
+#### - D3D10_DDI_FILTER_MIN_MAG_POINT_MIP_LINEAR
 
 
       The sampler uses point filtering for the min and mag filters and uses linear filtering for the mip filter. 
      
 
 
-### -field D3D10_DDI_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT
+#### - D3D10_DDI_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT
 
 The sampler uses point filtering for the min and mip filters and uses linear filtering for the mag filter. 
 
 
-### -field D3D10_DDI_FILTER_MIN_POINT_MAG_MIP_LINEAR
+#### - D3D10_DDI_FILTER_MIN_POINT_MAG_MIP_LINEAR
 
 
       The sampler uses point filtering for the min filter and uses linear filtering for the mag and mip filters. 
      
 
 
-### -field D3D10_DDI_FILTER_MIN_LINEAR_MAG_MIP_POINT
+#### - D3D10_DDI_FILTER_MIN_LINEAR_MAG_MIP_POINT
 
 The sampler uses linear filtering for the min filter and uses point filtering for the mag and mip filters. 
 
 
-### -field D3D10_DDI_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR
+#### - D3D10_DDI_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR
 
 
       The sampler uses linear filtering for the min and mip filters and uses point filtering for the mag filter. 
      
 
 
-### -field D3D10_DDI_FILTER_MIN_MAG_LINEAR_MIP_POINT
+#### - D3D10_DDI_FILTER_MIN_MAG_LINEAR_MIP_POINT
 
 The sampler uses linear filtering for the min and mag filters and uses point filtering for the mip filter. 
 
 
-### -field D3D10_DDI_FILTER_MIN_MAG_MIP_LINEAR
+#### - D3D10_DDI_FILTER_MIN_MAG_MIP_LINEAR
 
 
       The sampler uses linear filtering for the min, mag, and mip filters. 
      
 
 
-### -field D3D10_DDI_FILTER_ANISOTROPIC
+#### - D3D10_DDI_FILTER_ANISOTROPIC
 
 The sampler uses anisotropic filtering. 
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_POINT
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_POINT
 
 
       The sampler uses point filtering for the min, mag, and mip filters. The sampler also uses comparison filtering. 
      
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR
 
 The sampler uses point filtering for the min and mag filters and uses linear filtering for the mip filter. The sampler also uses comparison filtering. 
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT
 
 
       The sampler uses point filtering for the min and mip filters and uses linear filtering for the mag filter. The sampler also uses comparison filtering. 
      
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR
 
 The sampler uses point filtering for the min filter and uses linear filtering for the mag and mip filters. The sampler also uses comparison filtering. 
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT
 
 
       The sampler uses linear filtering for the min filter and uses point filtering for the mag and mip filters. The sampler also uses comparison filtering. 
      
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR
 
 The sampler uses linear filtering for the min and mip filters and uses point filtering for the mag filter. The sampler also uses comparison filtering. 
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT
 
 The sampler uses linear filtering for the min and mag filters and uses point filtering for the mip filter. The sampler also uses comparison filtering. 
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR
+#### - D3D10_DDI_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR
 
 
       The sampler uses linear filtering for the min, mag, and mip filters. The sampler also uses comparison filtering. 
      
 
 
-### -field D3D10_DDI_FILTER_COMPARISON_ANISOTROPIC
+#### - D3D10_DDI_FILTER_COMPARISON_ANISOTROPIC
 
 The sampler uses anisotropic and comparison filtering. 
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_POINT
 
 The sampler uses point filtering for the min (minifying), mag (magnifying), and mip filters. For more information about these types of filters, see Remarks.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_POINT_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_POINT_MIP_LINEAR
 
 
       The sampler uses point filtering for the min and mag filters and uses linear filtering for the mip filter.
@@ -226,14 +226,14 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT
 
 The sampler uses point filtering for the min and mip filters and uses linear filtering for the mag filter.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_POINT_MAG_MIP_LINEAR
 
 
       The sampler uses point filtering for the min filter and uses linear filtering for the mag and mip filters.
@@ -241,14 +241,14 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_MIP_POINT
 
 The sampler uses linear filtering for the min filter and uses point filtering for the mag and mip filters.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR
 
 
       The sampler uses linear filtering for the min and mip filters and uses point filtering for the mag filter.
@@ -256,14 +256,14 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_LINEAR_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_LINEAR_MIP_POINT
 
 The sampler uses linear filtering for the min and mag filters and uses point filtering for the mip filter.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_MIN_MAG_MIP_LINEAR
 
 
       The sampler uses linear filtering for the min, mag, and mip filters.
@@ -271,14 +271,14 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MINIMUM_ANISOTROPIC
+#### - D3DWDDM1_3DDI_FILTER_MINIMUM_ANISOTROPIC
 
 The sampler uses anisotropic filtering.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_POINT
 
 
       The sampler uses point filtering for the min, mag, and mip filters. The sampler also uses comparison filtering.
@@ -286,14 +286,14 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_POINT_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_POINT_MIP_LINEAR
 
 The sampler uses point filtering for the min and mag filters and uses linear filtering for the mip filter. The sampler also uses comparison filtering.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT
 
 
       The sampler uses point filtering for the min and mip filters and uses linear filtering for the mag filter. The sampler also uses comparison filtering.
@@ -301,14 +301,14 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_POINT_MAG_MIP_LINEAR
 
 The sampler uses point filtering for the min filter and uses linear filtering for the mag and mip filters. The sampler also uses comparison filtering.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_MIP_POINT
 
 
       The sampler uses linear filtering for the min filter and uses point filtering for the mag and mip filters. The sampler also uses comparison filtering.
@@ -316,21 +316,21 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR
 
 The sampler uses linear filtering for the min and mip filters and uses point filtering for the mag filter. The sampler also uses comparison filtering.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_LINEAR_MIP_POINT
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_LINEAR_MIP_POINT
 
 The sampler uses linear filtering for the min and mag filters and uses point filtering for the mip filter. The sampler also uses comparison filtering.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_LINEAR
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_MIN_MAG_MIP_LINEAR
 
 
       The sampler uses linear filtering for the min, mag, and mip filters. The sampler also uses comparison filtering.
@@ -338,14 +338,14 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3DWDDM1_3DDI_FILTER_MAXIMUM_ANISOTROPIC
+#### - D3DWDDM1_3DDI_FILTER_MAXIMUM_ANISOTROPIC
 
 The sampler uses anisotropic and comparison filtering.
 
 Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 
-### -field D3D10_DDI_FILTER_TEXT_1BIT
+#### - D3D10_DDI_FILTER_TEXT_1BIT
 
 A special case of filtering mode that is intended only for text filtering and the DXGI_FORMAT_R1_UNORM texture format. For more information about text filtering, see the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_settextfiltersize.md">SetTextFilterSize</a> function.
 

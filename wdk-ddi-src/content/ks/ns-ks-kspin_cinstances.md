@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 90C861C3-26E0-43C0-A4CA-FD5491995DAB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], KSPIN_CINSTANCES, *PKSPIN_CINSTANCES, ks/KSPIN_CINSTANCES, ks/PKSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], PKSPIN_CINSTANCES, stream.kspin_cinstances
+ms.keywords: ks/PKSPIN_CINSTANCES, ks/KSPIN_CINSTANCES, stream.kspin_cinstances, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], *PKSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], PKSPIN_CINSTANCES, KSPIN_CINSTANCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPIN_CINSTANCES
 product: Windows
 targetos: Windows
-req.typenames: KSPIN_CINSTANCES, *PKSPIN_CINSTANCES
+req.typenames: "*PKSPIN_CINSTANCES, KSPIN_CINSTANCES"
 ---
 
 # KSPIN_CINSTANCES structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field PossibleCount
+#### - PossibleCount
 
 Specifies the maximum number of pins the pin factory can instantiate on the filter, or KSINTANCE_INDETERMINATE if there is no maximum.
 
 
-### -field CurrentCount
+#### - CurrentCount
 
 Specifies the current number of pins the pin factory has instantiated on the filter.
 

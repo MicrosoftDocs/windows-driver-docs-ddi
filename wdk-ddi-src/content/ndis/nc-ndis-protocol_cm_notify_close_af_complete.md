@@ -78,13 +78,13 @@ VOID ProtocolCmNotifyCloseAfComplete(
 
 
 
-### -param CallMgrAfContext [in]
+#### - CallMgrAfContext [in]
 
 A handle to the call manager's AF context area that the call manager supplied to NDIS in the 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The clients final status for the AF close notification. 
      <i>Status</i> can be one of the following:
@@ -170,10 +170,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 <mshelp:link keywords="netvista.ndismcmnotifycloseaddressfamily" tabindex="0"><b>
    NdisMCmNotifyCloseAddressFamily</b></mshelp:link>
 
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
 <mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
    NdisCmNotifyCloseAddressFamily</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
  
 

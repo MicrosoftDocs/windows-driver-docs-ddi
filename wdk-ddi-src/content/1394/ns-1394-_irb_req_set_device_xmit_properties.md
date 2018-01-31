@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1E99F892-CD7C-411D-8832-08F988B9F2D7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure [Buses], IEEE.irb_req_set_device_xmit_properties, _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, 1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
+ms.keywords: IEEE.irb_req_set_device_xmit_properties, 1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure [Buses], IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES {
 
 
 
-### -field fulSpeed
+#### - fulSpeed
 
 Specifies the maximum speed for transactions to the device. The possible speed values are SPEED_FLAGS_xxx, where xxx is the (approximate) transfer rate in megabits per second. Existing hardware supports transfer rates of 100, 200, and 400 Mb/sec.
 <table>
@@ -111,7 +111,7 @@ SPEED_FLAGS_400
 Reserved.
 <div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div><div> </div>
 
-### -field fulPriority
+#### - fulPriority
 
 Specifies the priority.
 

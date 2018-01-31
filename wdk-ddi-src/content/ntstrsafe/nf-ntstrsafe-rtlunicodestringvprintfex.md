@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: da14f93d-c3db-4c54-8378-7492b79a5e18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodestringvprintfex, RtlUnicodeStringVPrintfEx, ntstrsafe/RtlUnicodeStringVPrintfEx, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml, RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringVPrintfEx, RtlUnicodeStringVPrintfEx, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml, kernel.rtlunicodestringvprintfex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS RtlUnicodeStringVPrintfEx(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that receives a formatted string. <b>RtlUnicodeStringVPrintfEx</b> creates this string from the formatting string that <i>pszFormat</i> supplies and the function's argument list. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param RemainingString [out, optional]
+#### - RemainingString [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, <b>RtlUnicodeStringVPrintfE</b> sets this structure's <b>Buffer</b> member to the end of the formatted string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
@@ -119,12 +119,12 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the content
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
 
 
-### -param pszFormat [in]
+#### - pszFormat [in]
 
 A pointer to a nul-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param argList [in]
+#### - argList [in]
 
 A <b>va_list</b>-typed argument list. Arguments in this argument list will be interpreted by the using formatting string that <i>pszFormat</i> supplies.
 

@@ -75,7 +75,7 @@ VOID ProtocolClCallConnected(
 
 
 
-### -param ProtocolVcContext [in]
+#### - ProtocolVcContext [in]
 
 Specifies the client's handle to its per-VC context area. The client originally returned this
      handle to NDIS from its 
@@ -138,10 +138,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
 <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
    ProtocolCoReceiveNetBufferLists</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
 <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 

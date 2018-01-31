@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5E6ECBCB-53AC-440B-92D9-21F5A06FCFAB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TELEPHONY_CALLCONTROLOP enumeration [Audio Devices], TELEPHONY_CALLCONTROLOP_ENABLE, ksmedia/TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP_ENABLE, TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP_DISABLE, TELEPHONY_CALLCONTROLOP_DISABLE, audio.telephony_callcontrolop
+ms.keywords: TELEPHONY_CALLCONTROLOP_ENABLE, TELEPHONY_CALLCONTROLOP enumeration [Audio Devices], audio.telephony_callcontrolop, TELEPHONY_CALLCONTROLOP_DISABLE, ksmedia/TELEPHONY_CALLCONTROLOP_DISABLE, ksmedia/TELEPHONY_CALLCONTROLOP_ENABLE, TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum  {
 
 
 
-### -field TELEPHONY_CALLCONTROLOP_DISABLE
+#### - TELEPHONY_CALLCONTROLOP_DISABLE
 
 Disables a phone call.
 
 
-### -field TELEPHONY_CALLCONTROLOP_ENABLE
+#### - TELEPHONY_CALLCONTROLOP_ENABLE
 
 Enables a phone call.
 

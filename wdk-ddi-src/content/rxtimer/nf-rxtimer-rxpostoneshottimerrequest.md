@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d3ae6401-6d1b-428f-ae74-e262682bcb10
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxPostOneShotTimerRequest, rxtimer/RxPostOneShotTimerRequest, ifsk.rxpostoneshottimerrequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, RxPostOneShotTimerRequest routine [Installable File System Drivers]
+ms.keywords: ifsk.rxpostoneshottimerrequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, RxPostOneShotTimerRequest routine [Installable File System Drivers], rxtimer/RxPostOneShotTimerRequest, RxPostOneShotTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RxPostOneShotTimerRequest(
 
 
 
-### -param pDeviceObject [in]
+#### - pDeviceObject [in]
 
 A pointer to the device object to be associated with this timer. 
 
 
-### -param pWorkItem [in]
+#### - pWorkItem [in]
 
 A pointer to the worker item.
 
 
-### -param Routine [in]
+#### - Routine [in]
 
 A pointer to the worker thread routine to call when this timer expires. 
 
 
-### -param pContext [in]
+#### - pContext [in]
 
 A pointer to the context parameter associated with this timer.
 
 
-### -param TimeInterval [in]
+#### - TimeInterval [in]
 
 The time interval, in 100-nanosecond ticks.
 
@@ -109,9 +109,9 @@ If a <b>NULL</b> pointer is passed as the <i>pWorkItem</i> parameter, this routi
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
-
 <a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
+
+<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
 
  
 

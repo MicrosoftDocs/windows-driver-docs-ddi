@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3A64DB04-EDAE-419C-947B-67201ECA8068
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange"
+ms.keywords: d3dumddi/D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], D3DDDIRANGE, display.d3dddirange, _D3DDDIRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIRANGE {
 
 
 
-### -field Offset
+#### - Offset
 
 An offset, in bytes, from the start of the buffer.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of a block of memory that begins at the buffer location specified by the <b>Offset</b> member.
 

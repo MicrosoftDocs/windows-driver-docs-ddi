@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae74d58c-3b36-4298-aa6f-4c272e7ff61c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetPowerPolicyEventCallbacks, wdf.wdfdeviceinitsetpowerpolicyeventcallbacks, kmdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks, DFDeviceObjectGeneralRef_7a73b769-9408-4349-b269-53dff2261d3d.xml, PFN_WDFDEVICEINITSETPOWERPOLICYEVENTCALLBACKS, WdfDeviceInitSetPowerPolicyEventCallbacks method
+ms.keywords: PFN_WDFDEVICEINITSETPOWERPOLICYEVENTCALLBACKS, WdfDeviceInitSetPowerPolicyEventCallbacks method, wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks, wdf.wdfdeviceinitsetpowerpolicyeventcallbacks, kmdf.wdfdeviceinitsetpowerpolicyeventcallbacks, DFDeviceObjectGeneralRef_7a73b769-9408-4349-b269-53dff2261d3d.xml, WdfDeviceInitSetPowerPolicyEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfDeviceInitSetPowerPolicyEventCallbacks(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param PowerPolicyEventCallbacks [in]
+#### - PowerPolicyEventCallbacks [in]
 
 A pointer to a caller-initialized <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_policy_event_callbacks.md">WDF_POWER_POLICY_EVENT_CALLBACKS</a> structure.
 

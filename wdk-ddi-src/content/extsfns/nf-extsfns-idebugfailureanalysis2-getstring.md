@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76F5F3E0-74BF-4DFF-9AA3-A67C03AF56F9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: extsfns/IDebugFailureAnalysis2::GetUlong, GetUlong method [Windows Debugging], IDebugFailureAnalysis2::GetString, GetString, debugger.idebugfailureanalysis2_getstring, IDebugFailureAnalysis2, IDebugFailureAnalysis2::GetUlong, GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method
+ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, GetUlong method [Windows Debugging], GetString, extsfns/IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2::GetString, debugger.idebugfailureanalysis2_getstring, IDebugFailureAnalysis2::GetUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ PFA_ENTRY GetUlong(
 
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param Str [out]
+#### - Str [out]
 
 A pointer to a buffer that receives the string value from the entry's data block.
 
 
-### -param MaxSize [in]
+#### - MaxSize [in]
 
 The size, in bytes, of the buffer pointed to by <i>Str</i>.
 
@@ -104,15 +104,15 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406612">AddString</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406612">AddString</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

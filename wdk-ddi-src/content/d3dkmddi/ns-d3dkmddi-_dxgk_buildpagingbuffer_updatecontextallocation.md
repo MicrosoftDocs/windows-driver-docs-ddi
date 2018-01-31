@@ -70,22 +70,22 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION {
 
 
 
-### -field ContextAllocation
+#### - ContextAllocation
 
 A GPU virtual address in the paging process scratch area for the context allocation being updated.
 
 
-### -field ContextAllocationSize
+#### - ContextAllocationSize
 
 The size of the context allocation.
 
 
-### -field pDriverPrivateData
+#### - pDriverPrivateData
 
 A pointer to the driver-private data that was passed in the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a>.
 
 
-### -field DriverPrivateDataSize
+#### - DriverPrivateDataSize
 
 The size of the driver-private data.
 

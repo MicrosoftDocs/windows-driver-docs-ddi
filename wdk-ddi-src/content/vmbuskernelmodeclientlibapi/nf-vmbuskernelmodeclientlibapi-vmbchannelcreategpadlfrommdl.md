@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6C63E250-1A11-45E8-B535-263806DA4A33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelcreategpadlfrommdl, VmbChannelCreateGpadlFromMdl, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_GPADL_READ_ONLY
+ms.keywords: VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcreategpadlfrommdl, VmbChannelCreateGpadlFromMdl, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelCreateGpadlFromMdl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -77,12 +77,12 @@ NTSTATUS VmbChannelCreateGpadlFromMdl(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel.  
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags. The possible values are the following:
 <table>
@@ -103,27 +103,27 @@ If you specify this value, the buffer is read-only. Otherwise, the server can wr
 </table> 
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
  A pointer to a Memory Descriptor List (MDL) chain that describes the buffer. The buffer may
 have multiple pieces, which are chained by using the MDL next pointer.
 
 
 
-### -param StartOffsetWithinMdl [in]
+#### - StartOffsetWithinMdl [in]
 
 An offset, in bytes, in the MDL at which to start the mapping.
 
 
 
-### -param DataLengthWithinMdl [in]
+#### - DataLengthWithinMdl [in]
 
 The length, in bytes, of the buffer chain. If this value is zero (0),
 use until the end of the MDL.
 
 
 
-### -param GpadlHandle [out]
+#### - GpadlHandle [out]
 
 The GPADL handle of the created MDL. Send this to the server to use with the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a> function.
 
@@ -142,9 +142,9 @@ the GPADL description to the opposite endpoint and received confirmation.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SupportDelayedService, SupportDelayedService method [Audio Devices], IServiceGroup, IServiceGroup::SupportDelayedService, SupportDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup interface [Audio Devices], SupportDelayedService method, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, audio.iservicegroup_supportdelayedservice, portcls/IServiceGroup::SupportDelayedService
+ms.keywords: SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup, IServiceGroup::SupportDelayedService, IServiceGroup interface [Audio Devices], SupportDelayedService method, portcls/IServiceGroup::SupportDelayedService, audio.iservicegroup_supportdelayedservice, SupportDelayedService, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IServiceGroup.SupportDelayedService
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IServiceGroup::SupportDelayedService method

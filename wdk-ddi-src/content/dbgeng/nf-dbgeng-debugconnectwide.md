@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B25AD9E0-FBDA-4E4F-A268-92C9AA761191
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debugconnectwide, dbgeng/DebugConnectWide, DebugConnectWide function [Windows Debugging], DebugConnectWide
+ms.keywords: debugger.debugconnectwide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide, DebugConnectWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ HRESULT DebugConnectWide(
 
 
 
-### -param RemoteOptions [in]
+#### - RemoteOptions [in]
 
 Specifies how the debugger engine will connect to the remote host.  These are the same options that get passed to the <b>-remote</b> option on the command line.  For details on the syntax of this string, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537819">Activating a Debugging Client</a>.
 
 
-### -param InterfaceId [in]
+#### - InterfaceId [in]
 
 Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560088">Using Client Objects</a>.
 
 
-### -param Interface [out]
+#### - Interface [out]
 
 Receives an interface pointer for the new client.  The type of this interface is specified by <i>InterfaceId</i>.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b58eb8f-c468-4bc6-ad50-0bc9f2dee561
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_usb_interface_select_setting_params_init_setting, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function, DFUsbRef_9f764089-ac6f-404a-8196-170547e40495.xml, wdf.wdf_usb_interface_select_setting_params_init_setting, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING
+ms.keywords: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING, wdf.wdf_usb_interface_select_setting_params_init_setting, DFUsbRef_9f764089-ac6f-404a-8196-170547e40495.xml, kmdf.wdf_usb_interface_select_setting_params_init_setting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING(
 
 
 
-### -param Params [out]
+#### - Params [out]
 
 A pointer to a driver-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
 
 
-### -param SettingIndex [in]
+#### - SettingIndex [in]
 
 An index value that identifies an alternate setting for the interface. (The interface is identified by an interface object handle that the driver passes to <a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>.) 
 
@@ -117,9 +117,9 @@ To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_p
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>
 

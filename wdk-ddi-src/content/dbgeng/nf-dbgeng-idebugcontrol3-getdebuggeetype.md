@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86f236fa-73f8-4071-b6da-6de2d276cbff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetDebuggeeType method, GetDebuggeeType method [Windows Debugging], dbgeng/IDebugControl3::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3, dbgeng/IDebugControl::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetDebuggeeType, debugger.getdebuggeetype, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetDebuggeeType, GetDebuggeeType, IDebugControl2::GetDebuggeeType
+ms.keywords: IDebugControl3, dbgeng/IDebugControl::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetDebuggeeType, debugger.getdebuggeetype, IDebugControl::GetDebuggeeType, dbgeng/IDebugControl2::GetDebuggeeType, IDebugControl2::GetDebuggeeType, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, IDebugControl interface [Windows Debugging], GetDebuggeeType method, GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, dbgeng/IDebugControl3::GetDebuggeeType, GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT GetDebuggeeType(
 
 
 
-### -param Class [out]
+#### - Class [out]
 
 Receives the class of the current target.  It will be set to one of the values in the following table.
 <table>
@@ -111,7 +111,7 @@ The current target is a user-mode target.
 </table> 
 
 
-### -param Qualifier [out]
+#### - Qualifier [out]
 
 Provides more details about the type of the target.  Its interpretation depends on the value of <i>Class</i>.  When class is DEBUG_CLASS_UNINITIALIZED, <i>Qualifier</i> returns zero.  The following values are applicable for kernel-mode targets.
 <table>

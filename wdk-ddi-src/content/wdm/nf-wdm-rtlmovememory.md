@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f6727247-e704-42d7-b4f1-ce7d20e317bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlMoveMemory, kernel.rtlmovememory, wdm/RtlMoveMemory, k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, RtlMoveMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlMoveMemory routine [Kernel-Mode Driver Architecture], k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, RtlMoveMemory, wdm/RtlMoveMemory, kernel.rtlmovememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,17 +70,17 @@ VOID RtlMoveMemory(
 
 
 
-### -param Destination [out]
+#### - Destination [out]
 
 A pointer to the destination memory block to copy the bytes to.
 
 
-### -param Source [in]
+#### - Source [in]
 
 A pointer to the source memory block to copy the bytes from.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes to copy from the source to the destination.
 

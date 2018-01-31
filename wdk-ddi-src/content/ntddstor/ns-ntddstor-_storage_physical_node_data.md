@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F6C1EE86-FB1C-467D-9E03-B238CB132D1A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_physical_node_data, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], *PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, _STORAGE_PHYSICAL_NODE_DATA, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA, ntddstor/STORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices]
+ms.keywords: STORAGE_PHYSICAL_NODE_DATA, ntddstor/STORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices], _STORAGE_PHYSICAL_NODE_DATA, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA, storage.storage_physical_node_data, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PHYSICAL_NODE_DATA
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA
+req.typenames: "*PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA"
 ---
 
 # _STORAGE_PHYSICAL_NODE_DATA structure
@@ -74,37 +74,37 @@ typedef struct _STORAGE_PHYSICAL_NODE_DATA {
 
 
 
-### -field NodeId
+#### - NodeId
 
 The hardware ID of the storage node.
 
 
-### -field AdapterCount
+#### - AdapterCount
 
 A value of 0 or 1 that indicates the adapter count in the storage node.
 
 
-### -field AdapterDataLength
+#### - AdapterDataLength
 
 The data length of the storage adapter in the storage node,  in units of kilobytes (1024 bytes).
 
 
-### -field AdapterDataOffset
+#### - AdapterDataOffset
 
 The data offset from the beginning of the data structure. The buffer contains an array of <a href="..\ntddstor\ns-ntddstor-_storage_physical_adapter_data.md">STORAGE_PHYSICAL_ADAPTER_DATA</a>.
 
 
-### -field DeviceCount
+#### - DeviceCount
 
 A value less than or equal to 1.
 
 
-### -field DeviceDataLength
+#### - DeviceDataLength
 
 The data length of the storage device in the storage node,  in units of kilobytes (1024 bytes).
 
 
-### -field DeviceDataOffset
+#### - DeviceDataOffset
 
 The data offset from the beginning of the data structure. The buffer contains an array of <a href="..\ntddstor\ns-ntddstor-_storage_physical_device_data.md">STORAGE_PHYSICAL_DEVICE_DATA</a>.
 

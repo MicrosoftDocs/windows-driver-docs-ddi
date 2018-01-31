@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3efed879-bde4-44ea-9af5-fc35a2ac27fc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-general_e5b6df4e-787c-415b-82ed-14dffa34a95e.xml, _STORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER structure pointer [Storage Devices], PSTORAGE_DEVICE_NUMBER, ntddstor/PSTORAGE_DEVICE_NUMBER, STORAGE_DEVICE_NUMBER structure [Storage Devices], ntddstor/STORAGE_DEVICE_NUMBER, storage.storage_device_number, *PSTORAGE_DEVICE_NUMBER, STORAGE_DEVICE_NUMBER
+ms.keywords: STORAGE_DEVICE_NUMBER structure [Storage Devices], STORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER structure pointer [Storage Devices], storage.storage_device_number, *PSTORAGE_DEVICE_NUMBER, structs-general_e5b6df4e-787c-415b-82ed-14dffa34a95e.xml, ntddstor/STORAGE_DEVICE_NUMBER, ntddstor/PSTORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER, _STORAGE_DEVICE_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DEVICE_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_NUMBER, STORAGE_DEVICE_NUMBER"
+req.typenames: STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER
 ---
 
 # _STORAGE_DEVICE_NUMBER structure
@@ -69,17 +69,17 @@ typedef struct _STORAGE_DEVICE_NUMBER {
 
 
 
-### -field DeviceType
+#### - DeviceType
 
 Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants indicating the type of device (such as FILE_DEVICE_DISK, FILE_DEVICE_KEYBOARD, and so forth) or a vendor-defined value for a new type of device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. 
 
 
-### -field DeviceNumber
+#### - DeviceNumber
 
 Indicates the number of this device. This value is set to 0xFFFFFFFF (-1) for the disks that represent the physical paths of an MPIO disk.
 
 
-### -field PartitionNumber
+#### - PartitionNumber
 
 Indicates the partition number of the device is returned in this member, if the device can be partitioned. Otherwise, -1 is returned. 
 

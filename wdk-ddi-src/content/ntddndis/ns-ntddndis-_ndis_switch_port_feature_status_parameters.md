@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 117ba27f-812a-406d-8120-99ba89551164
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_port_feature_status_parameters, _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
+ms.keywords: NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_port_feature_status_parameters, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,7 @@ typedef struct _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -98,60 +98,60 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-### -field PortId
+#### - PortId
 
  An NDIS_SWITCH_PORT_ID value that specifies the numeric identifier for an extensible switch port. This value uniquely identifies the port on the extensible switch for which feature status information is to be returned.
 
 
-### -field FeatureStatusType
+#### - FeatureStatusType
 
 An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_feature_status_type.md">NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE</a> enumeration value that specifies the type of the status information for a custom extensible switch port profile property.
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, this member must be set to <b>NdisSwitchPortPropertyTypeCustom</b>.</div><div> </div>
 
-### -field FeatureStatusId
+#### - FeatureStatusId
 
 An NDIS_SWITCH_OBJECT_ID value that identifies the profile property for the extensible switch port.
 
 
 
 
-### -field FeatureStatusVersion
+#### - FeatureStatusVersion
 
 An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the profile property for the extensible switch port.
 
 
 
 
-### -field SerializationVersion
+#### - SerializationVersion
 
 An NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION value that identifies the format version of the serialized port property data. This data is serialized for access by the extension from the Managed Object Format (MOF) file that defined the property.
 <div class="alert"><b>Note</b>  For Windows Server 2012, the <b>SerializationVersion</b> member must be set to NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION_1.</div><div> </div>
 
-### -field FeatureStatusInstanceId
+#### - FeatureStatusInstanceId
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that identifies the instance of the  feature status information for the extensible switch port.
 
 
 
 
-### -field FeatureStatusBufferLength
+#### - FeatureStatusBufferLength
 
 A ULONG value that specifies the size, in bytes, of the feature status buffer.
 
 
-### -field FeatureStatusBufferOffset
+#### - FeatureStatusBufferOffset
 
 A ULONG value that specifies the offset, in bytes, to the feature status buffer that follows the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure. The feature status buffer contains an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure. 
 
 The offset is measured from the start of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</b> structure up to the beginning of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a> structure. 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 
@@ -174,13 +174,13 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_property_type.md">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598274">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598274">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_property_type.md">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
 
 <b></b>
 

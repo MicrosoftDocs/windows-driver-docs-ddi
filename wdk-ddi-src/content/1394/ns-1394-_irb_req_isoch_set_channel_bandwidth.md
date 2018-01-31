@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: CBEB68C2-549F-4EB6-9AF4-4DCA6749F75D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IEEE.irb_req_isoch_set_channel_bandwidth, 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses]"
+ms.keywords: IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses], IEEE.irb_req_isoch_set_channel_bandwidth, _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH {
 
 
 
-### -field hBandwidth
+#### - hBandwidth
 
 Bandwidth handle to reset.
 
 
-### -field nMaxBytesPerFrame
+#### - nMaxBytesPerFrame
 
 Specifies the new bandwidth for <b>hBandwidth</b>.
 
 
-### -field nBandwidthUnitsRequired
+#### - nBandwidthUnitsRequired
 
 Specifies a pre-calculated value.
 

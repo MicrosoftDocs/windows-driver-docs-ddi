@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], display.dxva_configalphaload, dxva/LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], _DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, dxva/DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml
+ms.keywords: LPDXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml, DXVA_ConfigAlphaLoad structure [Display Devices], DXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], dxva/LPDXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad, dxva/DXVA_ConfigAlphaLoad, _DXVA_ConfigAlphaLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _DXVA_ConfigAlphaLoad {
 
 
 
-### -field dwFunction
+#### - dwFunction
 
 Indicates the type of query or response when using probing and locking commands. The most significant 24 bits of <b>dwFunction</b> is the <a href="https://msdn.microsoft.com/bfb1a98e-b9f0-4baa-b486-b2ff33a8bac5">DXVA_ConfigQueryOrReplyFlag</a> variable.
 
@@ -78,12 +78,12 @@ The least significant 4 bits of the <i>DXVA_ConfigQueryOrReplyFlag</i> variable 
 The least significant 8 bits of <b>dwFunction</b> is the <a href="https://msdn.microsoft.com/6db9fa71-7bc2-4eb6-afcb-b16df48f7e8b">bDXVA_Func variable</a> that, in this case, is equal to 2.
 
 
-### -field dwReservedBits
+#### - dwReservedBits
 
 Reserved bits used for packing and alignment. These bits are zero.
 
 
-### -field bConfigDataType
+#### - bConfigDataType
 
 Specifies the type of alpha-blend data to be used. This member can be set to one of the following values.
 <table>

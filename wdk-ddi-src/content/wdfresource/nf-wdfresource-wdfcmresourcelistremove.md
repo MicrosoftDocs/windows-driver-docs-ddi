@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f636d85d-f7bb-4ebe-b03f-3b9c3c17bacd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcmresourcelistremove, WdfCmResourceListRemove method, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, WdfCmResourceListRemove, wdfresource/WdfCmResourceListRemove, PFN_WDFCMRESOURCELISTREMOVE, kmdf.wdfcmresourcelistremove
+ms.keywords: kmdf.wdfcmresourcelistremove, WdfCmResourceListRemove, wdfresource/WdfCmResourceListRemove, wdf.wdfcmresourcelistremove, PFN_WDFCMRESOURCELISTREMOVE, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, WdfCmResourceListRemove method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfCmResourceListRemove
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ VOID WdfCmResourceListRemove(
 
 
 
-### -param List [in]
+#### - List [in]
 
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-### -param Index [in]
+#### - Index [in]
 
 A zero-based value that is used as an index into the resource list that <i>List</i> specifies.
 

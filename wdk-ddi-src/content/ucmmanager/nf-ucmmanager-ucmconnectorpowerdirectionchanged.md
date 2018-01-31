@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D1DB20DF-C0FD-4215-8227-CBBB18AF8BE3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmconnectorpowerdirectionchanged, UcmConnectorPowerDirectionChanged, ucmmanager/UcmConnectorPowerDirectionChanged, UcmConnectorPowerDirectionChanged method [Buses]
+ms.keywords: ucmmanager/UcmConnectorPowerDirectionChanged, buses.ucmconnectorpowerdirectionchanged, UcmConnectorPowerDirectionChanged method [Buses], UcmConnectorPowerDirectionChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ NTSTATUS UcmConnectorPowerDirectionChanged(
 
 
 
-### -param Connector [in]
+#### - Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 
 
-### -param Success [in]
+#### - Success [in]
 
 Used to indicate failure of a power-role swap that was initiated by UcmCx using <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>. 
 
 If TRUE, the operation was successful. FALSE, otherwise.
 
 
-### -param CurrentPowerRole [in]
+#### - CurrentPowerRole [in]
 
 One of the <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed flags that indicates the new data role. 
 

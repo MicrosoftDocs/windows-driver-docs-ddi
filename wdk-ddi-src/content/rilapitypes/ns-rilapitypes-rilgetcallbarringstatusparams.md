@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a33d682-5413-4026-8e43-e83548f688c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILGETCALLBARRINGSTATUSPARAMS, netvista.rilgetcallbarringstatusparams_2, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETCALLBARRINGSTATUSPARAMS, rilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
+ms.keywords: RILGETCALLBARRINGSTATUSPARAMS, *LPRILGETCALLBARRINGSTATUSPARAMS, netvista.rilgetcallbarringstatusparams_2, rilapitypes/RILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,18 @@ typedef struct _RILGETCALLBARRINGSTATUSPARAMS {
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwType
+#### - dwType
 
 
 
-### -field fAllClasses
+#### - fAllClasses
 
 
 
-### -field dwInfoClasses
+#### - dwInfoClasses
 
 

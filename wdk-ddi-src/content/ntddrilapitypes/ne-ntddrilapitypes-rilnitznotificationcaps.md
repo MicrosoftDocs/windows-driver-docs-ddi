@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fa678bfa-ebcc-4950-951a-47f9bba98131
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilnitznotificationcaps, RILNITZNOTIFICATIONCAPS, ntddrilapitypes/RIL_CAPS_NITZ_ENABLED, RIL_CAPS_NITZ_ENABLED, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CAPS_NITZ_MAX, RIL_CAPS_NITZ_MAX, ntddrilapitypes/RILNITZNOTIFICATIONCAPS
+ms.keywords: ntddrilapitypes/RILNITZNOTIFICATIONCAPS, ntddrilapitypes/RIL_CAPS_NITZ_ENABLED, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CAPS_NITZ_MAX, netvista.rilnitznotificationcaps, RIL_CAPS_NITZ_MAX, RILNITZNOTIFICATIONCAPS, RIL_CAPS_NITZ_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,10 +72,10 @@ typedef enum _RILNITZNOTIFICATIONCAPS {
 
 
 
-### -field RIL_CAPS_NITZ_ENABLED
+#### - RIL_CAPS_NITZ_ENABLED
 
 
 
-### -field RIL_CAPS_NITZ_MAX
+#### - RIL_CAPS_NITZ_MAX
 
 

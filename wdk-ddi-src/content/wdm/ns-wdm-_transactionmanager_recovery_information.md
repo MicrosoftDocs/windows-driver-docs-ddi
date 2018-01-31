@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76701df3-8e7d-43fa-8caf-6cbf89504aad
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.transactionmanager_recovery_information, *PTRANSACTIONMANAGER_RECOVERY_INFORMATION, wdm/PTRANSACTIONMANAGER_RECOVERY_INFORMATION, TRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ktm_ref_9efce7e2-3965-4659-8659-4f8262aad962.xml, TRANSACTIONMANAGER_RECOVERY_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION, wdm/TRANSACTIONMANAGER_RECOVERY_INFORMATION
+ms.keywords: wdm/PTRANSACTIONMANAGER_RECOVERY_INFORMATION, kernel.transactionmanager_recovery_information, TRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_RECOVERY_INFORMATION, *PTRANSACTIONMANAGER_RECOVERY_INFORMATION, wdm/TRANSACTIONMANAGER_RECOVERY_INFORMATION, ktm_ref_9efce7e2-3965-4659-8659-4f8262aad962.xml, TRANSACTIONMANAGER_RECOVERY_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSACTIONMANAGER_RECOVERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PTRANSACTIONMANAGER_RECOVERY_INFORMATION, TRANSACTIONMANAGER_RECOVERY_INFORMATION"
+req.typenames: TRANSACTIONMANAGER_RECOVERY_INFORMATION, *PTRANSACTIONMANAGER_RECOVERY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct _TRANSACTIONMANAGER_RECOVERY_INFORMATION {
 
 
 
-### -field LastRecoveredLsn
+#### - LastRecoveredLsn
 
 The last <a href="https://msdn.microsoft.com/4637fa0c-2f19-4f0c-bf13-f4ccac2e7284">log sequence number</a> of the last log record that KTM obtained from <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">CLFS</a> during the most recent recovery operation.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9573f6e9-80a6-4390-b2ab-4543e3b1f5f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_CHILD_CONTAINER_ID, *PDXGK_CHILD_CONTAINER_ID, display.dxgk_child_container_id, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices], _DXGK_CHILD_CONTAINER_ID, dispmprt/DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices], PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID
+ms.keywords: DXGK_CHILD_CONTAINER_ID, *PDXGK_CHILD_CONTAINER_ID, dispmprt/PDXGK_CHILD_CONTAINER_ID, dispmprt/DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices], _DXGK_CHILD_CONTAINER_ID, PDXGK_CHILD_CONTAINER_ID, display.dxgk_child_container_id, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_CHILD_CONTAINER_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID"
+req.typenames: DXGK_CHILD_CONTAINER_ID, *PDXGK_CHILD_CONTAINER_ID
 ---
 
 # _DXGK_CHILD_CONTAINER_ID structure
@@ -72,9 +72,24 @@ typedef struct _DXGK_CHILD_CONTAINER_ID {
 
 
 
-### -field EldInfo
+#### - EldInfo
 
 This structure contains the information that the operating system used to generate the container ID for the child device.
+
+
+#### PortId
+
+A ULONG64 value that contains the port ID for the child device. The operating system created this ID based on the name of the child device.
+
+
+#### ManufacturerName
+
+A USHORT value that contains the manufacturer's name. The operating system obtains this data from the child device's descriptor.
+
+
+#### ProductCode
+
+A USHORT value that contains the manufacturer's product code for the child device. The operating system obtains this data from the child device's descriptor.
 
 
 ### -field EldInfo.PortId
@@ -92,7 +107,7 @@ A USHORT value that contains the manufacturer's name. The operating system obtai
 A USHORT value that contains the manufacturer's product code for the child device. The operating system obtains this data from the child device's descriptor.
 
 
-### -field ContainerId
+#### - ContainerId
 
 The container ID for the child device. For more information, see the Remarks section.
 
@@ -112,11 +127,11 @@ For more information about Container IDs, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_get_child_container_id.md">DxgkDdiGetChildContainerId</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 28f0e98f-1f7b-4dcf-8151-e13981634617
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlsupportsperfilecontexts, ntifs/FsRtlSupportsPerFileContexts, fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts function [Installable File System Drivers]
+ms.keywords: FsRtlSupportsPerFileContexts function [Installable File System Drivers], ifsk.fsrtlsupportsperfilecontexts, FsRtlSupportsPerFileContexts, fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, ntifs/FsRtlSupportsPerFileContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

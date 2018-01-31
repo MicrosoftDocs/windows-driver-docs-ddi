@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5ba14903-1519-4edd-bc3c-a05cb040652d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsAllocateDefaultClock, KsAllocateDefaultClock function [Streaming Media Devices], stream.ksallocatedefaultclock, ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, KsAllocateDefaultClock
+ms.keywords: stream.ksallocatedefaultclock, ks/KsAllocateDefaultClock, KsAllocateDefaultClock function [Streaming Media Devices], ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, KsAllocateDefaultClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KsAllocateDefaultClock(
 
 
 
-### -param DefaultClock [out]
+#### - DefaultClock [out]
 
 Specifies the caller-allocated shared default clock structure. The current time is set to zero and the state is set to KSSTATE_STOP. Upon successful completion of this routine, the structure indicated by this pointer will contain a reference to the default clock. The data returned should be treated as opaque and reserved for system use.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml, UsbBuildGetStatusRequest, usbdlib/UsbBuildGetStatusRequest, buses.usbbuildgetstatusrequest, UsbBuildGetStatusRequest routine [Buses]
+ms.keywords: UsbBuildGetStatusRequest routine [Buses], usbdlib/UsbBuildGetStatusRequest, buses.usbbuildgetstatusrequest, UsbBuildGetStatusRequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	UsbBuildGetStatusRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 

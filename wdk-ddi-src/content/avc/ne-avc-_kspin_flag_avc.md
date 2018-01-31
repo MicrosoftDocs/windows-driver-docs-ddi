@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45a85718-8997-4c54-b283-e26247866735
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/KSPIN_FLAG_AVCMASK, avc/KSPIN_FLAG_AVC_CONNECTED, KSPIN_FLAG_AVC_PERMANENT, avc/KSPIN_FLAG_AVC, stream.kspin_flag_avc, KSPIN_FLAG_AVC enumeration [Streaming Media Devices], avc/KSPIN_FLAG_AVC_PCRONLY, KSPIN_FLAG_AVC, KSPIN_FLAG_AVC_PCRONLY, avcref_9fab0898-b113-4d2f-ae4a-8cc6b01217d9.xml, KSPIN_FLAG_AVC_FIXEDPCR, avc/KSPIN_FLAG_AVC_FIXEDPCR, KSPIN_FLAG_AVC_CONNECTED, avc/KSPIN_FLAG_AVC_PERMANENT, KSPIN_FLAG_AVCMASK, _KSPIN_FLAG_AVC
+ms.keywords: KSPIN_FLAG_AVC_PERMANENT, KSPIN_FLAG_AVC_CONNECTED, avc/KSPIN_FLAG_AVC_CONNECTED, avc/KSPIN_FLAG_AVC, KSPIN_FLAG_AVC enumeration [Streaming Media Devices], stream.kspin_flag_avc, KSPIN_FLAG_AVC_PCRONLY, KSPIN_FLAG_AVC_FIXEDPCR, avc/KSPIN_FLAG_AVC_FIXEDPCR, avcref_9fab0898-b113-4d2f-ae4a-8cc6b01217d9.xml, _KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVC_PCRONLY, KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVCMASK, KSPIN_FLAG_AVCMASK, avc/KSPIN_FLAG_AVC_PERMANENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _KSPIN_FLAG_AVC {
 
 
 
-### -field KSPIN_FLAG_AVCMASK
+#### - KSPIN_FLAG_AVCMASK
 
 The mask to isolate the AV/C defined bit flags
 
 
-### -field KSPIN_FLAG_AVC_PERMANENT
+#### - KSPIN_FLAG_AVC_PERMANENT
 
 Part of the AV/C Connect Status bitmask. Represents a permanent connection between two subunits within the same unit.
 
 
-### -field KSPIN_FLAG_AVC_CONNECTED
+#### - KSPIN_FLAG_AVC_CONNECTED
 
 Part of the AV/C Connect Status bitmask. Represents a connection that is currently active, but not necessarily permanent.
 
 
-### -field KSPIN_FLAG_AVC_PCRONLY
+#### - KSPIN_FLAG_AVC_PCRONLY
 
 No subunit plug control. Only unit input and output plugs are available, and this AVCPRECONNECTINFO structure represents one of them.
 
 
-### -field KSPIN_FLAG_AVC_FIXEDPCR
+#### - KSPIN_FLAG_AVC_FIXEDPCR
 
 Represents a permanent connection between a subunit plug and a unit (serial bus) plug. Specifying this flag implies KSPIN_FLAG_AVC_PERMANENT, although that bit is not set if this one is set.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 39b352ba-4b6f-4d9c-baf5-a479d8c74ae0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iregistrykey_newsubkey, portcls/IRegistryKey::NewSubKey, NewSubKey, IRegistryKey::NewSubKey, NewSubKey method [Audio Devices], audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, NewSubKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], NewSubKey method, IRegistryKey
+ms.keywords: audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, NewSubKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], NewSubKey method, IRegistryKey::NewSubKey, audio.iregistrykey_newsubkey, IRegistryKey, portcls/IRegistryKey::NewSubKey, NewSubKey, NewSubKey method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRegistryKey.NewSubKey
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IRegistryKey::NewSubKey method
@@ -72,32 +72,32 @@ NTSTATUS NewSubKey(
 
 
 
-### -param RegistrySubKey [out]
+#### - RegistrySubKey [out]
 
 Output pointer for the new subkey. This parameter points to a caller-allocated pointer variable into which the method writes the pointer to the new <b>IRegistryKey</b> object. This object represents the subkey being opened or created. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in]
+#### - OuterUnknown [in]
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the registry key object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies the type of access that the caller requires to the subkey that is being opened or created. This parameter is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>. For more information, see the following Remarks section.
 
 
-### -param SubKeyName [in]
+#### - SubKeyName [in]
 
 Pointer to the name that is to be assigned to the subkey. This parameter must be a valid, non-<b>NULL</b> pointer to an initialized structure of type <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>.
 
 
-### -param CreateOptions [in]
+#### - CreateOptions [in]
 
 Flags indicating the create options. Can be zero if none are desired. This parameter is required if the value of <i>RegistryKeyType</i> is <b>GeneralRegistryKey</b>; otherwise, the method does not use this parameter. For more information, see the following Remarks section.
 
 
-### -param Disposition [out, optional]
+#### - Disposition [out, optional]
 
 Output pointer for the disposition value. This parameter points to a caller-allocated ULONG variable into which the method writes a status value indicating whether a new key was created or an existing key was opened. This parameter is optional and can be specified as <b>NULL</b> if the caller does not need it. For more information, see the following Remarks section.
 
@@ -124,15 +124,15 @@ The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

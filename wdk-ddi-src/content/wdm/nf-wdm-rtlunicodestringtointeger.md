@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d9357864-d49b-44fe-b884-64c6da609789
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], RtlUnicodeStringToInteger, wdm/RtlUnicodeStringToInteger, kernel.rtlunicodestringtointeger
+ms.keywords: RtlUnicodeStringToInteger, k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger, wdm/RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS RtlUnicodeStringToInteger(
 
 
 
-### -param String [in]
+#### - String [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
 
 
-### -param Base [in, optional]
+#### - Base [in, optional]
 
 A numeric value that indicates the base (or radix) of the number that the Unicode string represents. This parameter value is optional and can be set to zero.
 
@@ -97,7 +97,7 @@ If the prefix is "0b", <b>RtlUnicodeStringToInteger</b> interprets the number in
 </ul>If the Unicode string does not contain any of these prefixes, <b>RtlUnicodeStringToInteger</b> treats the string as a base-10 integer.
 
 
-### -param Value [out]
+#### - Value [out]
 
 A pointer to a ULONG variable to which <b>RtlUnicodeStringToInteger</b> writes the integer value that results from conversion of the Unicode string.
 

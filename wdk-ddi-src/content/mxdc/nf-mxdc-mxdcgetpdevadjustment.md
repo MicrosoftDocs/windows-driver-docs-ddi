@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml, mxdc/MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment
+ms.keywords: print.mxdcgetpdevadjustment, MxdcGetPDEVAdjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml, MxdcGetPDEVAdjustment function [Print Devices], mxdc/MxdcGetPDEVAdjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ HRESULT MxdcGetPDEVAdjustment(
 
 
 
-### -param hPrinter [in]
+#### - hPrinter [in]
 
 The handle of the currently instantiated printer.
 
 
-### -param cbDevMode [in]
+#### - cbDevMode [in]
 
 The size of the <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODE</a> structure, in bytes, including the driver's private DEVMODE data.
 
 
-### -param pDevMode [in]
+#### - pDevMode [in]
 
 A copy of the DEVMODE structure that the MXDC received. The printer interface DLL uses information from this structure to return the requested data.
 
 
-### -param cbIn [in]
+#### - cbIn [in]
 
 An input parameter that designates the size of the <i>pvIn</i> parameter, in bytes. This parameter is currently not used and its value is zero.
 
 
-### -param pvIn [in, optional]
+#### - pvIn [in, optional]
 
 A parameter that consists of data that is sent to the printer interface DLL from the MXDC. This parameter is currently not used and its value is <b>NULL</b>.
 
 
-### -param cbPrintPropertiesCollection [in]
+#### - cbPrintPropertiesCollection [in]
 
 The size of the <a href="https://msdn.microsoft.com/240e14d1-d8ee-403c-b728-b14941775634">PrintPropertiesCollection</a> data structure, in bytes.
 
@@ -416,9 +416,9 @@ All rotation will be done on the imageable area. If a configuration component (U
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554157">IPrintOemUIMXDC Interface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
 
  
 

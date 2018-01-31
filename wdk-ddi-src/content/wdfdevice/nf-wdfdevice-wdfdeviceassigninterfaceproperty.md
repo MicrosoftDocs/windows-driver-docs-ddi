@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceAssignInterfaceProperty, PFN_WDFDEVICEASSIGNINTERFACEPROPERTY, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, WdfDeviceAssignInterfaceProperty
+ms.keywords: PFN_WDFDEVICEASSIGNINTERFACEPROPERTY, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, WdfDeviceAssignInterfaceProperty, wdfdevice/WdfDeviceAssignInterfaceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ NTSTATUS WdfDeviceAssignInterfaceProperty(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PropertyData [in]
+#### - PropertyData [in]
 
 A pointer to <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
 
-### -param Type [in]
+#### - Type [in]
 
 A <b>DEVPROPTYPE</b>-typed value that specifies the type of the data that is provided in <i>PropertyBuffer</i>.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Specifies the length, in bytes, of the buffer that <i>PropertyBuffer</i> points to.
 
 
-### -param PropertyBuffer [in, optional]
+#### - PropertyBuffer [in, optional]
 
 A pointer to the device interface property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
@@ -134,11 +134,11 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
 

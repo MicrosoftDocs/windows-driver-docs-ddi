@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 660fb475-fa0a-4e04-9a91-e60422ff9292
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_CPU_AFFINITY, netvista.net_dma_channel_cpu_affinity, netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, PNET_DMA_CHANNEL_CPU_AFFINITY, *PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, netdma/NET_DMA_CHANNEL_CPU_AFFINITY
+ms.keywords: netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, _NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], netdma/NET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, *PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, netvista.net_dma_channel_cpu_affinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NET_DMA_CHANNEL_CPU_AFFINITY {
 
 
 
-### -field DmaChannel
+#### - DmaChannel
 
 The DMA channel number. The values for this member range from zero through the maximum number of
      DMA channels that the DMA engine supports minus one. The DMA provider driver specifies the maximum
@@ -78,7 +78,7 @@ The DMA channel number. The values for this member range from zero through the m
      NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
 
 
-### -field CpuNumber
+#### - CpuNumber
 
 The target CPU that the DMA provider driver should associate with the MSI-X interrupts that are
      generated for the DMA channel that is specified in the 
@@ -102,13 +102,13 @@ The NetDMA interface calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
-
 <mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
    ProviderSetDmaChannelCpuAffinity</b></mshelp:link>
 
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
+   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
  
 

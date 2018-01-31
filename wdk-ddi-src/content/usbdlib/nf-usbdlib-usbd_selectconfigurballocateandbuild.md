@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2B2F721C-9201-472B-8629-352CB212235C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_SelectConfigUrbAllocateAndBuild, buses.usbd_selectconfigurballocateandbuild, USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses]
+ms.keywords: buses.usbd_selectconfigurballocateandbuild, USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses], usbdlib/USBD_SelectConfigUrbAllocateAndBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_SelectConfigUrbAllocateAndBuild
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -76,22 +76,22 @@ NTSTATUS USBD_SelectConfigUrbAllocateAndBuild(
 
 
 
-### -param USBDHandle [in]
+#### - USBDHandle [in]
 
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
 
-### -param ConfigurationDescriptor [in]
+#### - ConfigurationDescriptor [in]
 
 Pointer to a caller-allocated <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> structure that contains the configuration descriptor for the configuration to be selected. Typically, the client driver submits an URB  of the type  URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (see <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>)     to retrieve information about configurations, interfaces, endpoints, the vendor, and class-specific descriptors from a USB device. When the client driver specifies USB_CONFIGURATION_DESCRIPTOR_TYPE as the descriptor type, the request retrieves all device information in a <b>USB_CONFIGURATION_DESCRIPTOR</b> structure. The driver then passes the received pointer to    the <b>USB_CONFIGURATION_DESCRIPTOR</b> structure in the <i>ConfigurationDescriptor</i> parameter.
 
 
-### -param InterfaceList [in]
+#### - InterfaceList [in]
 
 Pointer to the first element of a caller-allocated array of <a href="..\usbdlib\ns-usbdlib-_usbd_interface_list_entry.md">USBD_INTERFACE_LIST_ENTRY</a>    structures. The length of the array depends on the number of interfaces in the configuration descriptor. For more information, see Remarks.
 
 
-### -param Urb [out]
+#### - Urb [out]
 
 Pointer to a <a href="..\usb\ns-usb-_urb.md">URB</a> structure that receives the URB allocated by <b>USBD_SelectConfigUrbAllocateAndBuild</b>. The client driver must free the URB when the driver has finished using it by calling <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>.
 

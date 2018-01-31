@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 841CC16D-BDFC-4A3F-9DDD-940A591EBEF2
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi.acpi_manipulate_global_lock_buffer, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpiioct/PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure [ACPI Devices], _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure pointer [ACPI Devices], acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+ms.keywords: acpi.acpi_manipulate_global_lock_buffer, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure [ACPI Devices], _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpiioct/PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure pointer [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+req.typenames: "*PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
 ---
 
 # _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure
@@ -68,12 +68,12 @@ typedef struct _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER {
 
 
 
-### -field Signature
+#### - Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 
 
-### -field LockObject
+#### - LockObject
 
 Defines the <b>PVOID</b> member <b>LockObject</b>.
 

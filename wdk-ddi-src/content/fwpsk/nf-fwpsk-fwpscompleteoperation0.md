@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0d584c4-ec58-4d5f-bddf-86bcfbfa6b97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteOperation0, FwpsCompleteOperation0, netvista.fwpscompleteoperation0, wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml
+ms.keywords: FwpsCompleteOperation0, FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml, netvista.fwpscompleteoperation0, fwpsk/FwpsCompleteOperation0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,13 +71,13 @@ void NTAPI FwpsCompleteOperation0(
 
 
 
-### -param completionContext [in]
+#### - completionContext [in]
 
 A completion context handle that was previously created by a call to the 
      <a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a> function.
 
 
-### -param netBufferList [in, optional]
+#### - netBufferList [in, optional]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes

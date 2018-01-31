@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc27f7b8-8de0-4eae-a22b-0e5c76378b1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluicclockstate, RILUICCLOCKSTATE, rilapitypes/RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], *LPRILUICCLOCKSTATE
+ms.keywords: RILUICCLOCKSTATE, netvista.riluicclockstate, *LPRILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCLOCKSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCLOCKSTATE
 product: Windows
 targetos: Windows
-req.typenames: RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
+req.typenames: "*LPRILUICCLOCKSTATE, RILUICCLOCKSTATE"
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ struct RILUICCLOCKSTATE {
 
 
 
-### -field cbSize
+#### - cbSize
 
 The size of the structure in bytes.
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riluicclockstateparammask.md">RILUICCLOCKSTATEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field rilUiccLock
+#### - rilUiccLock
 
 Specifies the lock of type <a href="..\rilapitypes\ns-rilapitypes-riluicclock.md">RILUICCLOCK</a>. 
 
 
-### -field dwLockState
+#### - dwLockState
 
 The current state of the lock, a bitmask of <a href="..\rilapitypes\ne-rilapitypes-riluicclockstatelockstate.md">RILUICCLOCKSTATELOCKSTATE</a>.
 
 
-### -field dwVerifyAttemptsLeft
+#### - dwVerifyAttemptsLeft
 
 The number of verification attempts that remain before the lock is blocked.
 
 
-### -field dwUnblockAttemptsLeft
+#### - dwUnblockAttemptsLeft
 
 The number of unblock attempts that remain before the lock is permanently blocked.
 

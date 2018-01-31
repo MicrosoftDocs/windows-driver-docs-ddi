@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, FsRtlRegisterUncProvider, ntifs/FsRtlRegisterUncProvider, ifsk.fsrtlregisteruncprovider
+ms.keywords: FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, FsRtlRegisterUncProvider, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS FsRtlRegisterUncProvider(
 
 
 
-### -param MupHandle [out]
+#### - MupHandle [out]
 
 A pointer to a location in which to return a MUP handle to be used when calling <b>FsRtlRegisterUncProvider</b> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS.
 
@@ -79,7 +79,7 @@ A pointer to a location in which to return a MUP handle to be used when calling 
 TBD
 
 
-### -param MailslotsSupported [in]
+#### - MailslotsSupported [in]
 
 Set to <b>TRUE</b> if the network redirector supports mailslots. This option is normally reserved for use by the Microsoft SMB redirector.
 
@@ -225,13 +225,13 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
 
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
 
  
 

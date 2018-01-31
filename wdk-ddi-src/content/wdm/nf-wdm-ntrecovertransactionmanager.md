@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 20284cad-5d65-4d22-98fa-6b6c5f6b422d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, kernel.zwrecovertransactionmanager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], NtRecoverTransactionManager, wdm/NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager, ZwRecoverTransactionManager
+ms.keywords: ZwRecoverTransactionManager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, kernel.zwrecovertransactionmanager, NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager, wdm/NtRecoverTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ZwRecoverTransactionManager(
 
 
 
-### -param TransactionManagerHandle [in]
+#### - TransactionManagerHandle [in]
 
 A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a> or <a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_RECOVER access to the object.
 
@@ -165,13 +165,13 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 <a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
 
-<a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wdm\nf-wdm-tmrecovertransactionmanager.md">TmRecoverTransactionManager</a>
 
 <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
 
  
 

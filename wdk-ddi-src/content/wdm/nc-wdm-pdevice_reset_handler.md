@@ -40,7 +40,7 @@ apiname:
 -	ResetDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ NTSTATUS ResetDevice(
 
 
 
-### -param InterfaceContext [in]
+#### - InterfaceContext [in]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_device_reset_interface_standard.md">DEVICE_RESET_INTERFACE_STANDARD</a> structure for the interface.
 
 
-### -param ResetType [in]
+#### - ResetType [in]
 
 The type of reset being  requested. Set this parameter to one of the following <a href="..\wdm\ne-wdm-_device_reset_type.md">DEVICE_RESET_TYPE</a> enumeration values.
 <ul>
@@ -88,12 +88,12 @@ The type of reset being  requested. Set this parameter to one of the following <
 </ul>For more information about how function-level and platform-level resets are implemented in the device stack, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Set to 0. Currently, no flags are defined for this routine.
 
 
-### -param ResetParameters [in, optional]
+#### - ResetParameters [in, optional]
 
 If the caller is requesting a  function-level device reset, this optional parameter can point to a <a href="..\wdm\ns-wdm-_function_level_device_reset_parameters.md">FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS</a> structure that specifies a callback routine that is called when the reset is completed.
 

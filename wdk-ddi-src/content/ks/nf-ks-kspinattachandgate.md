@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], stream.kspinattachandgate, ks/KsPinAttachAndGate
+ms.keywords: stream.kspinattachandgate, avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, KsPinAttachAndGate function [Streaming Media Devices], KsPinAttachAndGate, ks/KsPinAttachAndGate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsPinAttachAndGate(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure to use an input to the AND gate.
 
 
-### -param AndGate [in, optional]
+#### - AndGate [in, optional]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the previously initialized AND gate to connect to the relevant filter's AND gate. If this optional parameter is <b>NULL</b>, any <b>KSGATE</b> currently attached to the pin is detached.
 

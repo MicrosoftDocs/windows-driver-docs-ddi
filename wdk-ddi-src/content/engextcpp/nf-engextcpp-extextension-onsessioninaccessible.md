@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba2c158a-11be-40fe-971e-f58f19a9c1b6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension::OnSessionInaccessible, OnSessionInaccessible, EngExtCpp_Ref_3b2329d1-7a01-42d7-951c-777d9b93faa7.xml, OnSessionInaccessible method [Windows Debugging], debugger.onsessioninaccessible, ExtExtension
+ms.keywords: ExtExtension, EngExtCpp_Ref_3b2329d1-7a01-42d7-951c-777d9b93faa7.xml, OnSessionInaccessible method [Windows Debugging], ExtExtension::OnSessionInaccessible, OnSessionInaccessible, debugger.onsessioninaccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	OnSessionInaccessible
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtExtension::OnSessionInaccessible method
@@ -67,7 +67,7 @@ virtual void OnSessionInaccessible(
 
 
 
-### -param Argument [in]
+#### - Argument [in]
 
 Set to zero. (Reserved for future use).
 
@@ -90,9 +90,9 @@ This method is called when a target starts executing.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
-
 <a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
  
 

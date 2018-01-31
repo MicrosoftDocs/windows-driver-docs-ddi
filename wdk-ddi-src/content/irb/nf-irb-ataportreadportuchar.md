@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9be74e98-ba68-492c-9660-43b2f76052cd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportreadportuchar, irb/AtaPortReadPortUchar, AtaPortReadPortUchar routine [Storage Devices], AtaPortReadPortUchar, atartns_6ac346ce-b2cd-4c50-b55f-1c952a01e736.xml
+ms.keywords: atartns_6ac346ce-b2cd-4c50-b55f-1c952a01e736.xml, irb/AtaPortReadPortUchar, AtaPortReadPortUchar, storage.ataportreadportuchar, AtaPortReadPortUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ UCHAR AtaPortReadPortUchar(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 

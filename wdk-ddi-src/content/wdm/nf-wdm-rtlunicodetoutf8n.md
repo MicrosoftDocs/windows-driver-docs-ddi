@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fdbb5d74-25d5-4920-849c-8d4adce1d216
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], kernel.rtlunicodetoutf8n, wdm/RtlUnicodeToUTF8N, k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, RtlUnicodeToUTF8N
+ms.keywords: k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeToUTF8N, kernel.rtlunicodetoutf8n, RtlUnicodeToUTF8N
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUnicodeToUTF8N(
 
 
 
-### -param UTF8StringDestination [out]
+#### - UTF8StringDestination [out]
 
 A pointer to a caller-allocated destination buffer into which the routine writes the UTF-8 output string. If this parameter is <b>NULL</b>, the routine writes the required size of the output buffer to *<i>UTF8StringActualByteCount</i>. 
 
 
-### -param UTF8StringMaxByteCount [in]
+#### - UTF8StringMaxByteCount [in]
 
 Specifies the maximum number of bytes that the routine can write to the buffer that <i>UTF8StringDestination</i> points to. If <i>UTF8StringDestination</i> = <b>NULL</b>, set <i>UTF8StringMaxByteCount</i> = 0. 
 
 
-### -param UTF8StringActualByteCount [out]
+#### - UTF8StringActualByteCount [out]
 
 A pointer to a location into which the routine writes the actual number of bytes that it has written to the buffer that <i>UTF8StringDestination</i> points to. If <i>UTF8StringDestination</i> is non-<b>NULL</b>, this count never exceeds the value of <i>UTF8StringMaxByteCount</i>. If <i>UTF8StringDestination</i> is <b>NULL</b>, this count is the number of bytes that are required to contain the entire output string. 
 
 
-### -param UnicodeStringSource [in]
+#### - UnicodeStringSource [in]
 
 A pointer to the Unicode source string.
 
 
-### -param UnicodeStringByteCount [in]
+#### - UnicodeStringByteCount [in]
 
 Specifies the number of bytes in the Unicode source string that the <i>UnicodeStringSource</i> parameter points to. 
 
@@ -167,7 +167,7 @@ You can make an initial call to <b>RtlUnicodeToUTF8N</b> to obtain the required 
 
 <b>RtlUnicodeToUTF8N</b> continues to convert the input string to an output string until it reaches the end of the source buffer or the end of the destination buffer, whichever occurs first. The routine converts any null characters in the input string to null characters in the output string. If the input string contains a terminating null character, but the null character is not located at the end of the source buffer, the routine continues past the terminating null character until it reaches the end of the available buffer space.
 
-The <a href="..\ntifs\nf-ntifs-rtlutf8tounicoden.md">RtlUTF8ToUnicodeN</a> routine converts a UTF-8 string to a Unicode string.
+The <a href="..\wdm\nf-wdm-rtlutf8tounicoden.md">RtlUTF8ToUnicodeN</a> routine converts a UTF-8 string to a Unicode string.
 
 You can use <b>RtlUnicodeToUTF8N</b> and <b>RtlUTF8ToUnicode</b> routines to perform a lossless conversion of valid text strings between the Unicode and UTF-8 formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string. 
 
@@ -175,7 +175,7 @@ You can use <b>RtlUnicodeToUTF8N</b> and <b>RtlUTF8ToUnicode</b> routines to per
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlutf8tounicoden.md">RtlUTF8ToUnicodeN</a>
+<a href="..\wdm\nf-wdm-rtlutf8tounicoden.md">RtlUTF8ToUnicodeN</a>
 
  
 

@@ -70,7 +70,7 @@ LONGLONG FASTCALL KStrClockGetTime(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
@@ -91,9 +91,9 @@ You can obtain an entry point for this routine by supplying a driver-allocated <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
-
 <a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
 
  
 

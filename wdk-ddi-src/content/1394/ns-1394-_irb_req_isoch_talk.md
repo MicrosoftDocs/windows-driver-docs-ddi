@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: B42852F3-BF64-44F8-8D9C-361D623CE35A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ISOCH_TALK structure [Buses], IEEE.irb_req_isoch_talk, _IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK, 1394/IRB_REQ_ISOCH_TALK
+ms.keywords: 1394/IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK structure [Buses], IEEE.irb_req_isoch_talk, _IRB_REQ_ISOCH_TALK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _IRB_REQ_ISOCH_TALK {
 
 
 
-### -field hResource
+#### - hResource
 
 Specifies the resource handle to use for this operation. Resources are acquired through the REQUEST_ISOCH_ALLOCATE_RESOURCES request.
 
 
-### -field fulFlags
+#### - fulFlags
 
 Reserved. Drivers should set this to zero.
 
 
-### -field StartTime
+#### - StartTime
 
 Specifies the cycle time to begin operation. This member is used only if the driver specified the RESOURCE_SYNCH_ON_TIME flag when it allocated the resource handle passed in <b>u.IsochTalk.hResource</b>. (The timing resolution is per isochronous cycle, so the <b>CycleOffset</b> member of <b>StartTime</b> is not used.)
 

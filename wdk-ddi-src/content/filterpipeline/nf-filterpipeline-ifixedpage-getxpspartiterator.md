@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.ifixedpage_getxpspartiterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, GetXpsPartIterator method [Print Devices], IFixedPage, GetXpsPartIterator, IFixedPage interface [Print Devices], GetXpsPartIterator method, GetXpsPartIterator method [Print Devices], IFixedPage interface, IFixedPage::GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator
+ms.keywords: filterpipeline/IFixedPage::GetXpsPartIterator, IFixedPage interface [Print Devices], GetXpsPartIterator method, GetXpsPartIterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, GetXpsPartIterator method [Print Devices], IFixedPage interface, IFixedPage, GetXpsPartIterator method [Print Devices], print.ifixedpage_getxpspartiterator, IFixedPage::GetXpsPartIterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetXpsPartIterator(
 
 
 
-### -param pXpsPartIt [out]
+#### - pXpsPartIt [out]
 
 An iterator that you can use to enumerate all of the parts that are associated with the page.
 

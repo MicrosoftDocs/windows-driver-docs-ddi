@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 225da110-cd59-4803-bde8-26e275b3ddbd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_VideoProcess_AlphaBlendExtended, DXVA_VideoProcess_SubRects, dxva/DXVA_VideoProcess_SubRects, DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_SubStreamsExtended, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml, DXVA_VideoProcess_StretchY, DXVA_VideoProcessCaps enumeration [Display Devices], DXVA_VideoProcess_SubStreamsExtended, display.dxva_videoprocesscaps, dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_StretchY, _DXVA_VideoProcessCaps, DXVA_VideoProcess_None, DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_None, dxva/DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_YUV2RGBExtended, DXVA_VideoProcess_StretchX, DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_YUV2RGBExtended, dxva/DXVA_VideoProcess_AlphaBlendExtended
+ms.keywords: DXVA_VideoProcess_YUV2RGBExtended, DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_SubRects, DXVA_VideoProcessCaps enumeration [Display Devices], dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_YUV2RGBExtended, dxva/DXVA_VideoProcess_None, dxva/DXVA_VideoProcessCaps, DXVA_VideoProcess_None, dxva/DXVA_VideoProcess_YUV2RGB, DXVA_VideoProcess_StretchX, DXVA_VideoProcess_YUV2RGB, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcessCaps, DXVA_VideoProcess_StretchY, DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_SubStreamsExtended, dxva/DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_StretchY, DXVA_VideoProcess_AlphaBlend, _DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_SubStreams, dxva/DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_SubRects, display.dxva_videoprocesscaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,12 +76,12 @@ typedef enum _DXVA_VideoProcessCaps {
 
 
 
-### -field DXVA_VideoProcess_None
+#### - DXVA_VideoProcess_None
 
 Indicates that the deinterlace hardware can only perform basic deinterlace operations. That is, deinterlace operations that are not combined with other operations, like-color conversion, alpha blend, stretch, subsection, or substream. 
 
 
-### -field DXVA_VideoProcess_YUV2RGB
+#### - DXVA_VideoProcess_YUV2RGB
 
 Indicates that the deinterlace hardware can convert video from the YUV color space to the RGB color space. The RGB format will have at least 8 bits of precision for each color component. If possible, a buffer copy within the VMR can be avoided. All drivers should be able to support this operation for the bob deinterlace mode. 
 
@@ -89,7 +89,7 @@ Indicates that the deinterlace hardware can convert video from the YUV color spa
 Not used with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a> function.
 
 
-### -field DXVA_VideoProcess_StretchX
+#### - DXVA_VideoProcess_StretchX
 
 Indicates that aspect ratio correction can be performed simultaneously as the video is being deinterlaced if the deinterlacer is able to stretch or shrink horizontally. The enumerator should be supported for the bob deinterlace mode.
 
@@ -97,7 +97,7 @@ Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa
 
 
 
-### -field DXVA_VideoProcess_StretchY
+#### - DXVA_VideoProcess_StretchY
 
 Indicates that aspect ratio adjustment is combined with a general picture resizing operation to scale the video image.
 
@@ -105,7 +105,7 @@ Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa
 
 
 
-### -field DXVA_VideoProcess_AlphaBlend
+#### - DXVA_VideoProcess_AlphaBlend
 
 Indicates that the VMR will not perform a buffer copy when an alpha value is changed. It is rare that applications alter the constant alpha value associated with the video stream, so this is a low priority feature. The enumerator should be supported for the bob deinterlace mode.
 
@@ -114,12 +114,12 @@ Not used with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa
 
 
 
-### -field DXVA_VideoProcess_SubRects
+#### - DXVA_VideoProcess_SubRects
 
 Indicates that the deinterlace hardware can deinterlace just a subrectangle region of the video image to the specified destination position. This is useful if the video image must be cropped before being processed further as the size of the output frame is reduced. 
 
 
-### -field DXVA_VideoProcess_SubStreams
+#### - DXVA_VideoProcess_SubStreams
 
 Windows Server 2003 SP1 and later and Windows XP SP2 and later versions only.
 
@@ -130,7 +130,7 @@ Indicates that the deinterlace hardware can combine video substreams with the vi
 Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a> function.
 
 
-### -field DXVA_VideoProcess_SubStreamsExtended
+#### - DXVA_VideoProcess_SubStreamsExtended
 
 Windows Server 2003 SP1 and later and Windows XP SP2 and later versions only.
 
@@ -140,7 +140,7 @@ Indicates that necessary color adjustments can be made to the source video strea
 Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a> function.
 
 
-### -field DXVA_VideoProcess_YUV2RGBExtended
+#### - DXVA_VideoProcess_YUV2RGBExtended
 
 Windows Server 2003 SP1 and later and Windows XP SP2 and later versions only.
 
@@ -151,7 +151,7 @@ Indicates a color-space-conversion operation can be performed as the deinterlace
 Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a> function.
 
 
-### -field DXVA_VideoProcess_AlphaBlendExtended
+#### - DXVA_VideoProcess_AlphaBlendExtended
 
 Windows Server 2003 SP1 and later and Windows XP SP2 and later versions only.
 
@@ -173,9 +173,9 @@ Color space conversion performed by <b>DXVA_VideoProcess_YUV2RGB</b> is particul
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
-
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
  
 

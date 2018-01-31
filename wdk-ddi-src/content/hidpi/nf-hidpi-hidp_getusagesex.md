@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: c799ecb6-3024-491c-90d5-70e1d21b1baf
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_2a2a6e4a-c966-43d7-8159-115bb6f2376c.xml, hidpi/HidP_GetUsagesEx, HidP_GetUsagesEx routine [Human Input Devices], hid.hidp_getusagesex, HidP_GetUsagesEx
+ms.keywords: hidpi/HidP_GetUsagesEx, HidP_GetUsagesEx routine [Human Input Devices], hidfunc_2a2a6e4a-c966-43d7-8159-115bb6f2376c.xml, hid.hidp_getusagesex, HidP_GetUsagesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ NTSTATUS __stdcall HidP_GetUsagesEx(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param LinkCollection [in]
+#### - LinkCollection [in]
 
 Specifies the <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> of the button usages. If <i>LinkCollection</i> is nonzero, the routine only returns information about the buttons that this link collection contains; otherwise, if <i>LinkCollection</i> is zero, the routine returns information about all the buttons in the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> associated with <i>PreparsedData</i>.
 
 
-### -param ButtonList [in, out]
+#### - ButtonList [in, out]
 
 Pointer to a caller-allocated buffer that routine uses to return the usage and <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> identifiers for each button that is set to ON (1).
 
 
-### -param UsageLength [in, out]
+#### - UsageLength [in, out]
 
 Specifies, on input, the length, in array elements, of the <i>ButtonList</i> buffer. Specifies, on output, the number usages that are currently set to ON in the specified report.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a top-level collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
-### -param Report [in]
+#### - Report [in]
 
 Pointer to a report that contains button data.
 
 
-### -param ReportLength [in]
+#### - ReportLength [in]
 
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
@@ -203,23 +203,23 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
+<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539712">HidP_GetButtonsEx</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
-
-<a href="..\hidpi\ns-hidpi-_usage_and_page.md">USAGE_AND_PAGE</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
 <a href="..\hidpi\nf-hidpi-hidp_maxusagelistlength.md">HidP_MaxUsageListLength</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
 
+<a href="..\hidpi\ns-hidpi-_usage_and_page.md">USAGE_AND_PAGE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getscaledusagevalue.md">HidP_GetScaledUsageValue</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
  
 

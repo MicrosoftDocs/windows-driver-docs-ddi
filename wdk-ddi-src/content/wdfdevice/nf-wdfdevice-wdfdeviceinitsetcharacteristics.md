@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2937d9f1-f838-4ec4-972d-21ff43097590
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml, PFN_WDFDEVICEINITSETCHARACTERISTICS, WdfDeviceInitSetCharacteristics method, WdfDeviceInitSetCharacteristics, wdf.wdfdeviceinitsetcharacteristics, kmdf.wdfdeviceinitsetcharacteristics, wdfdevice/WdfDeviceInitSetCharacteristics
+ms.keywords: kmdf.wdfdeviceinitsetcharacteristics, WdfDeviceInitSetCharacteristics, DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml, WdfDeviceInitSetCharacteristics method, PFN_WDFDEVICEINITSETCHARACTERISTICS, wdf.wdfdeviceinitsetcharacteristics, wdfdevice/WdfDeviceInitSetCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ VOID WdfDeviceInitSetCharacteristics(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param DeviceCharacteristics [in]
+#### - DeviceCharacteristics [in]
 
 A value that consists of ORed system-defined constants that represent device characteristics. For more information, see the <b>Characteristics</b> member of the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-### -param OrInValues [in]
+#### - OrInValues [in]
 
 A Boolean value. If this value is <b>TRUE</b>, the <i>DeviceCharacteristics</i> value is ORed with existing device characteristics. If the value is <b>FALSE</b>, the <i>DeviceCharacteristics</i> value replaces existing device characteristics.
 

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 33B0C9EF-B40A-4BE7-A5AB-81FFF4698F3F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestGetTransferParameters method [Buses], SPB.spbrequestgettransferparameters, SpbRequestGetTransferParameters, spbcx/SpbRequestGetTransferParameters
+ms.keywords: SpbRequestGetTransferParameters, SpbRequestGetTransferParameters method [Buses], spbcx/SpbRequestGetTransferParameters, SPB.spbrequestgettransferparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	SpbRequestGetTransferParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -72,22 +72,22 @@ void SpbRequestGetTransferParameters(
 
 
 
-### -param SpbRequest [in]
+#### - SpbRequest [in]
 
 An <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request from which to retrieve the transfer parameters. This parameter must be a handle to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request.
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of a transfer in the I/O transfer sequence. For more information, see the following Remarks section.
 
 
-### -param TransferDescriptor [out, optional]
+#### - TransferDescriptor [out, optional]
 
 A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a> structure into which  the method writes the transfer parameters. The <i>TransferDescriptor</i> parameter is optional and can be specified as NULL if the caller does not require the transfer parameters. For more information, see the following Remarks section.
 
 
-### -param TransferBuffer [out, optional]
+#### - TransferBuffer [out, optional]
 
 A pointer to a location into which the method writes a pointer to an MDL (or an MDL chain) that describes the physical memory in the transfer buffer.  The caller must not modify the contents of this MDL. This parameter is optional and can be set to NULL if the MDL is not needed. For more information, see the following Remarks section.
 
@@ -114,15 +114,15 @@ If <i>TransferDescriptor</i> is non-NULL, the caller must call the <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
  
 

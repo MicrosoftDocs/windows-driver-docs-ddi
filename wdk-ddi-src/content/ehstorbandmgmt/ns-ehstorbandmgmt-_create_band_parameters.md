@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], CREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, storage.create_band_parameters, CREATEBAND_AUTHKEY_CACHING_ENABLED, _CREATE_BAND_PARAMETERS
+ms.keywords: "_CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], *PCREATE_BAND_PARAMETERS, storage.create_band_parameters, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], ehstorbandmgmt/CREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CREATE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: CREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS
+req.typenames: "*PCREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS"
 ---
 
 # _CREATE_BAND_PARAMETERS structure
@@ -71,12 +71,12 @@ typedef struct _CREATE_BAND_PARAMETERS {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(CREATE_BAND_PARAMETERS).
 
 
-### -field Flags
+#### - Flags
 
 Band creation flags. This value is a bitwise OR combination of the following.
 <table>
@@ -97,17 +97,17 @@ The authentication key for this band is cached, which allows automation of later
 </table> 
 
 
-### -field BandLocationInfoOffset
+#### - BandLocationInfoOffset
 
 The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a> structure. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>.
 
 
-### -field BandSecurityInfoOffset
+#### - BandSecurityInfoOffset
 
 The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a> structure. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>. If this value is 0, meaning band security info is not present, key manager metadata for the band is set to all zeros. Also, when this member is 0, the read and write lock states default to PERSISTANT_UNLOCK.
 
 
-### -field AuthKeyOffset
+#### - AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure that contains the authorization key for the new band. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>

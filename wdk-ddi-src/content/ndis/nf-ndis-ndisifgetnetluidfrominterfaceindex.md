@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cfb7f31-93ae-47a2-8da8-becfbe045f5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], netvista.ndisifgetnetluidfrominterfaceindex, ndis/NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex
+ms.keywords: net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], netvista.ndisifgetnetluidfrominterfaceindex, ndis/NdisIfGetNetLuidFromInterfaceIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ NDIS_STATUS NdisIfGetNetLuidFromInterfaceIndex(
 TBD
 
 
-### -param pNetLuid [out]
+#### - pNetLuid [out]
 
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfGetNetLuidFromInterfaceIndex</b> succeeds, NDIS writes the NET_LUID value that is associated
@@ -176,20 +176,20 @@ NDIS provides the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+<mshelp:link keywords="netvista.ndisifgetinterfaceindexfromnetluid" tabindex="0"><b>
+   NdisIfGetInterfaceIndexFromNetLuid</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
-
-<mshelp:link keywords="netvista.ndisifgetinterfaceindexfromnetluid" tabindex="0"><b>
-   NdisIfGetInterfaceIndexFromNetLuid</b></mshelp:link>
 
  
 

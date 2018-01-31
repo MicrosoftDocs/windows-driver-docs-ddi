@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b15c0ccf-0863-4415-b31f-b4217f249feb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceRequirementsListGetIoResList, kmdf.wdfioresourcerequirementslistgetioreslist, wdfresource/WdfIoResourceRequirementsListGetIoResList, PFN_WDFIORESOURCEREQUIREMENTSLISTGETIORESLIST, DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, WdfIoResourceRequirementsListGetIoResList method, wdf.wdfioresourcerequirementslistgetioreslist
+ms.keywords: WdfIoResourceRequirementsListGetIoResList, PFN_WDFIORESOURCEREQUIREMENTSLISTGETIORESLIST, DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, wdfresource/WdfIoResourceRequirementsListGetIoResList, kmdf.wdfioresourcerequirementslistgetioreslist, wdf.wdfioresourcerequirementslistgetioreslist, WdfIoResourceRequirementsListGetIoResList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceRequirementsListGetIoResList
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ WDFIORESLIST WdfIoResourceRequirementsListGetIoResList(
 
 
 
-### -param RequirementsList [in]
+#### - RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-### -param Index [in]
+#### - Index [in]
 
 A zero-based value that is used as an index into the resource requirements list that <i>RequirementsList</i> specifies. 
 
@@ -166,13 +166,13 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetcount.md">WdfIoResourceListGetCount</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
 
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md">WdfIoResourceListGetDescriptor</a>
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
  
 

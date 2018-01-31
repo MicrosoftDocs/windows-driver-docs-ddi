@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76f97976-f48b-4ead-88d6-a9e1fdb21f08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], ClfsScanLogContainers, wdm/ClfsScanLogContainers, kernel.clfsscanlogcontainers, Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml
+ms.keywords: ClfsScanLogContainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], wdm/ClfsScanLogContainers, kernel.clfsscanlogcontainers, Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ClfsScanLogContainers(
 
 
 
-### -param pcxScan [in, out]
+#### - pcxScan [in, out]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a> structure. The caller previously allocated the structure and initialized it by calling <a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>. In particular, the <b>pInfoContainer</b> member was initialized to point to an array of <a href="..\wdm\ns-wdm-_cls_container_information.md">CLFS_CONTAINER_INFORMATION</a> structures, and the <b>cContainers</b> member was initialized to the number of elements in the array. On return, the structures in the array receive descriptive information for the containers in the sequence.
 
 
-### -param eScanMode [in]
+#### - eScanMode [in]
 
 A set of flags that specify the direction of the scan and whether the scan context should be closed. The following flags are available to callers of this routine.
 <table>
@@ -144,9 +144,9 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
-
 <a href="..\wdm\ns-wdm-_cls_container_information.md">CLFS_CONTAINER_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
 
 <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
 

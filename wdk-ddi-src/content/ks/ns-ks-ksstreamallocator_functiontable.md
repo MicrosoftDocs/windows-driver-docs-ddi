@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0bc02fa8-41ca-4430-9dff-e98e39b4eeef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml, KSSTREAMALLOCATOR_FUNCTIONTABLE, ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], stream.ksstreamallocator_functiontable, KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices]
+ms.keywords: KSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], *PKSSTREAMALLOCATOR_FUNCTIONTABLE, ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices], ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, stream.ksstreamallocator_functiontable, PKSSTREAMALLOCATOR_FUNCTIONTABLE, ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field AllocateFrame
+#### - AllocateFrame
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a> routine.
 
 
-### -field FreeFrame
+#### - FreeFrame
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a> routine.
 
@@ -91,11 +91,11 @@ This property is only accessible from kernel-mode.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
 
  
 

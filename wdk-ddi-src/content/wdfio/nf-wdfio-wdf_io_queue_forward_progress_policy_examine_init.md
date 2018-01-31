@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d1d7242-ff26-47e0-a1f6-ae67b27acf22
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_io_queue_forward_progress_policy_examine_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT, kmdf.wdf_io_queue_forward_progress_policy_examine_init, DFQueueObjectRef_bd2ff7de-f07f-4557-9051-d22f23a0530c.xml
+ms.keywords: wdf.wdf_io_queue_forward_progress_policy_examine_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT, kmdf.wdf_io_queue_forward_progress_policy_examine_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT, DFQueueObjectRef_bd2ff7de-f07f-4557-9051-d22f23a0530c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT(
 
 
 
-### -param Policy [out]
+#### - Policy [out]
 
 A pointer to the driver's <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
 
 
-### -param TotalForwardProgressRequests [in]
+#### - TotalForwardProgressRequests [in]
 
 The number of request objects that the framework will attempt to reserve for use in low-memory situations. This number must be greater than zero.
 
 
-### -param EvtIoWdmIrpForForwardProgress [in]
+#### - EvtIoWdmIrpForForwardProgress [in]
 
 A pointer to the driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a> callback function.
 

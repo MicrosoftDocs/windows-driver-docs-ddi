@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 44ee3342-3677-4eee-8ddf-d0a01e9bb309
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setsymbolpathwide, SetSymbolPathWide method [Windows Debugging], dbgeng/IDebugSymbols3::SetSymbolPathWide, SetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3::SetSymbolPathWide, SetSymbolPathWide, IDebugSymbols3 interface [Windows Debugging], SetSymbolPathWide method
+ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetSymbolPathWide method, SetSymbolPathWide method [Windows Debugging], SetSymbolPathWide, IDebugSymbols3::SetSymbolPathWide, dbgeng/IDebugSymbols3::SetSymbolPathWide, debugger.setsymbolpathwide, SetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetSymbolPathWide(
 
 
 
-### -param Path [in]
+#### - Path [in]
 
 Specifies the new symbol path.  This is a string that contains symbol path elements separated by semicolons (;).  Each symbol path element can specify either a directory or a symbol server.
 

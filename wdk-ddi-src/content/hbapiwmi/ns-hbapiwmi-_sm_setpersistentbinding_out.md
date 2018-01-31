@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 42d451ab-51dc-4b59-b6e9-42e02ec1b500
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSM_SetPersistentBinding_OUT, storage.sm_setpersistentbinding_out, PSM_SetPersistentBinding_OUT structure pointer [Storage Devices], SM_SetPersistentBinding_OUT structure [Storage Devices], structs-Fibre_efdd2145-a966-477a-a896-71adb1c9a1f0.xml, hbapiwmi/SM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT, _SM_SetPersistentBinding_OUT, SM_SetPersistentBinding_OUT, *PSM_SetPersistentBinding_OUT
+ms.keywords: PSM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT structure pointer [Storage Devices], *PSM_SetPersistentBinding_OUT, SM_SetPersistentBinding_OUT, hbapiwmi/PSM_SetPersistentBinding_OUT, structs-Fibre_efdd2145-a966-477a-a896-71adb1c9a1f0.xml, SM_SetPersistentBinding_OUT structure [Storage Devices], hbapiwmi/SM_SetPersistentBinding_OUT, _SM_SetPersistentBinding_OUT, storage.sm_setpersistentbinding_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SetPersistentBinding_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_SetPersistentBinding_OUT, *PSM_SetPersistentBinding_OUT
+req.typenames: "*PSM_SetPersistentBinding_OUT, SM_SetPersistentBinding_OUT"
 ---
 
 # _SM_SetPersistentBinding_OUT structure
@@ -69,17 +69,17 @@ typedef struct _SM_SetPersistentBinding_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-### -field OutStatusCount
+#### - OutStatusCount
 
 The number of entries.
 
 
-### -field EntryStatus
+#### - EntryStatus
 
 The status of each entry.
 

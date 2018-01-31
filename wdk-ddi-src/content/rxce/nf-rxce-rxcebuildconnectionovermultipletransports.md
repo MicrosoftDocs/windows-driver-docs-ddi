@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports
+ms.keywords: rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeBuildConnectionOverMultipleTransports
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ NTSTATUS RxCeBuildConnectionOverMultipleTransports(
 
 
 
-### -param pMiniRedirectorDeviceObject [in, out]
+#### - pMiniRedirectorDeviceObject [in, out]
 
 A pointer to the mini-redirector device object.
 
@@ -87,42 +87,42 @@ A pointer to the mini-redirector device object.
 TBD
 
 
-### -param NumberOfAddresses [in]
+#### - NumberOfAddresses [in]
 
 The number of local addresses (transports).
 
 
-### -param pLocalAddressPointers [in]
+#### - pLocalAddressPointers [in]
 
 A pointer to an array of the local address handles.
 
 
-### -param pServerName [in]
+#### - pServerName [in]
 
 A pointer to the name of the server (for connection enumeration).
 
 
-### -param pConnectionInformation [in]
+#### - pConnectionInformation [in]
 
 A pointer to the connection information that specifies the remote address.
 
 
-### -param pHandler [in]
+#### - pHandler [in]
 
 A pointer to the event handler for processing receive indications.
 
 
-### -param pEventContext [in]
+#### - pEventContext [in]
 
 A pointer to the context parameter to be passed back to the event handler and used for indications.
 
 
-### -param pCompletionRoutine [in]
+#### - pCompletionRoutine [in]
 
 A pointer to a connection completion routine when this routine completed if STATUS_PENDING is initially returned.
 
 
-### -param pCompletionContext [in, out]
+#### - pCompletionContext [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RXCE_CONNECTION_COMPLETION_CONTEXT structure. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit and connection are properly initialized.
 

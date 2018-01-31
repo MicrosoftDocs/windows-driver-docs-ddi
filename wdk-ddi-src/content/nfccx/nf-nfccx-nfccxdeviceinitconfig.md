@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 98047C0F-B419-4DFE-8143-BD3917650878
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_, nfccx/NfcCxDeviceInitConfig
+ms.keywords: nfpdrivers._nfccxdeviceinitconfig_, NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NfcCxDeviceInitConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
+req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
 
 # NfcCxDeviceInitConfig function
@@ -75,12 +75,12 @@ NTSTATUS NfcCxDeviceInitConfig (
 
 
 
-### -param DeviceInit [in, out]
+#### - DeviceInit [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. 
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_client_config.md">NFC_CX_CLIENT_CONFIG</a> structure.
 
@@ -94,9 +94,9 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

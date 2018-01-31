@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86a0b7c4-ef3a-4dd9-961d-35f96182e30c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisrawreadportbufferulong, NdisRawReadPortBufferUlong macro [Network Drivers Starting with Windows Vista], NdisRawReadPortBufferUlong, ndis/NdisRawReadPortBufferUlong, miniport_port_raw_ref_0696e0e4-976c-4d17-a482-054d5d441608.xml
+ms.keywords: ndis/NdisRawReadPortBufferUlong, netvista.ndisrawreadportbufferulong, miniport_port_raw_ref_0696e0e4-976c-4d17-a482-054d5d441608.xml, NdisRawReadPortBufferUlong, NdisRawReadPortBufferUlong macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,14 +69,14 @@ VOID NdisRawReadPortBufferUlong(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <mshelp:link keywords="netvista.ndismregisterioportrange" tabindex="0"><b>
      NdisMRegisterIoPortRange</b></mshelp:link>.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a caller-allocated buffer, in resident memory, into which the ULONGs will be
      transferred from the NIC. The caller must allocate a buffer at least (
@@ -85,7 +85,7 @@ Pointer to a caller-allocated buffer, in resident memory, into which the ULONGs 
      <i>Length</i> ).
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies how many ULONGs to transfer from the NIC.
 
@@ -100,17 +100,17 @@ Specifies how many ULONGs to transfer from the NIC.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
 
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
 
  
 

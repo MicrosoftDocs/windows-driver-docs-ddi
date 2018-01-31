@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24ae7329-064f-43bf-8c1d-8aad9fdf2254
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/CREATE_DISK_GPT, *PCREATE_DISK_GPT, CREATE_DISK_GPT structure [Storage Devices], structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml, _CREATE_DISK_GPT, CREATE_DISK_GPT, PCREATE_DISK_GPT, ntdddisk/PCREATE_DISK_GPT, storage.create_disk_gpt, PCREATE_DISK_GPT structure pointer [Storage Devices]
+ms.keywords: ntdddisk/CREATE_DISK_GPT, ntdddisk/PCREATE_DISK_GPT, _CREATE_DISK_GPT, *PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Storage Devices], PCREATE_DISK_GPT, storage.create_disk_gpt, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Storage Devices], structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CREATE_DISK_GPT
 product: Windows
 targetos: Windows
-req.typenames: CREATE_DISK_GPT, *PCREATE_DISK_GPT
+req.typenames: "*PCREATE_DISK_GPT, CREATE_DISK_GPT"
 ---
 
 # _CREATE_DISK_GPT structure
@@ -68,12 +68,12 @@ typedef struct _CREATE_DISK_GPT {
 
 
 
-### -field DiskId
+#### - DiskId
 
 Specifies the GUID that uniquely identifies the disk.
 
 
-### -field MaxPartitionCount
+#### - MaxPartitionCount
 
 Specifies the maximum number of partitions allowed on the disk.
 

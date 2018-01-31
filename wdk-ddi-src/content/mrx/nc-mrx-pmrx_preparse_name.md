@@ -40,7 +40,7 @@ apiname:
 -	MRxPreparseName
 product: Windows
 targetos: Windows
-req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
+req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_PREPARSE_NAME callback
@@ -71,12 +71,12 @@ NTSTATUS MRxPreparseName(
 
 
 
-### -param RxContext [in, out]
+#### - RxContext [in, out]
 
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
 
 
-### -param Name [in]
+#### - Name [in]
 
 A pointer to a Unicode string that contains the name string.
 
@@ -101,19 +101,19 @@ RDBSS ignores the return value from <i>MRxPreparseName</i>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
-
 <a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
 
  
 

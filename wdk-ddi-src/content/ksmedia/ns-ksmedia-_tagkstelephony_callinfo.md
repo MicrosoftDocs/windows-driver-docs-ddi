@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], KSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], ksmedia/PKSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO
+ms.keywords: PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], audio.kstelephony_callinfo, *PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO, ksmedia/KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSTELEPHONY_CALLINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO"
+req.typenames: KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
 ---
 
 # _tagKSTELEPHONY_CALLINFO structure
@@ -68,12 +68,12 @@ typedef struct _tagKSTELEPHONY_CALLINFO {
 
 
 
-### -field CallType
+#### - CallType
 
 Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN packet-switched).
 
 
-### -field CallState
+#### - CallState
 
 Specifies the state of the phone call.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f4eb9d18-4352-47e2-bd5f-256e1fa831d3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iportclspower_registeradapterpowermanagement, RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method, IPortClsPower, RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, RegisterAdapterPowerManagement, portcls/IPortClsPower::RegisterAdapterPowerManagement, IPortClsPower::RegisterAdapterPowerManagement
+ms.keywords: RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, IPortClsPower, IPortClsPower::RegisterAdapterPowerManagement, portcls/IPortClsPower::RegisterAdapterPowerManagement, RegisterAdapterPowerManagement method [Audio Devices], RegisterAdapterPowerManagement, IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method, audio.iportclspower_registeradapterpowermanagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsPower.RegisterAdapterPowerManagement
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsPower::RegisterAdapterPowerManagement method
@@ -107,11 +107,11 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
+<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
 
  
 

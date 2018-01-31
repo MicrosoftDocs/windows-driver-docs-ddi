@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 87265ABB-C2B7-468F-83FC-411AD9769517
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketCommand, bthxddi/HciPacketEvent, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], HciPacketEvent, HciPacketAclData, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketAclData, BTHX_HCI_PACKET_TYPE, HciPacketCommand, bltooth.bthx_hci_packet_type"
+ms.keywords: bthxddi/HciPacketCommand, bthxddi/HciPacketAclData, HciPacketCommand, bthxddi/HciPacketEvent, HciPacketAclData, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], bltooth.bthx_hci_packet_type, _BTHX_HCI_PACKET_TYPE, HciPacketEvent, bthxddi/BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _BTHX_HCI_PACKET_TYPE {
 
 
 
-### -field HciPacketCommand
+#### - HciPacketCommand
 
 The packet represents a command.
 
 
-### -field HciPacketAclData
+#### - HciPacketAclData
 
 The packet represents ACL data.
 
 
-### -field HciPacketEvent
+#### - HciPacketEvent
 
 The packet represents an event.
 
@@ -93,9 +93,9 @@ The IOCTL_BTHX_HCI_READ and IOCTL_BTHX_HCI_WRITE IOCTLs are used to read/write d
 
 ## -see-also
 
-<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_write_hci.md">IOCTL_BTHX_HCI_WRITE</a>
-
 <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a>
+
+<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_write_hci.md">IOCTL_BTHX_HCI_WRITE</a>
 
  
 

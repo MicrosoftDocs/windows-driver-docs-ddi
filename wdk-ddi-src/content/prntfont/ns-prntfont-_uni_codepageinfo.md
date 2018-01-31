@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prntfont/UNI_CODEPAGEINFO, print.uni_codepageinfo, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, PUNI_CODEPAGEINFO structure pointer [Print Devices], *PUNI_CODEPAGEINFO, prntfont/PUNI_CODEPAGEINFO, _UNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], UNI_CODEPAGEINFO
+ms.keywords: "*PUNI_CODEPAGEINFO, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, _UNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], prntfont/PUNI_CODEPAGEINFO, UNI_CODEPAGEINFO, print.uni_codepageinfo, PUNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _UNI_CODEPAGEINFO {
 
 
 
-### -field dwCodePage
+#### - dwCodePage
 
 Identifies a Windows code page.
 
 
-### -field SelectSymbolSet
+#### - SelectSymbolSet
 
 Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer command to select the code page's symbol set.
 
 
-### -field UnSelectSymbolSet
+#### - UnSelectSymbolSet
 
 Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
 

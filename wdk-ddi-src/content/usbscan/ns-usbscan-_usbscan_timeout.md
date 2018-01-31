@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: afa900fc-7297-425b-8308-18806d7d97d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PUSBSCAN_TIMEOUT, usbscan/USBSCAN_TIMEOUT, usbscan/PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT, image.usbscan_timeout, USBSCAN_TIMEOUT, _USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml"
+ms.keywords: PUSBSCAN_TIMEOUT, usbscan/PUSBSCAN_TIMEOUT, image.usbscan_timeout, *PUSBSCAN_TIMEOUT, _USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], usbscan/USBSCAN_TIMEOUT, USBSCAN_TIMEOUT, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _USBSCAN_TIMEOUT {
 
 
 
-### -field TimeoutRead
+#### - TimeoutRead
 
 Specifies the number of seconds to wait for a read operation to time out.
 
 
-### -field TimeoutWrite
+#### - TimeoutWrite
 
 Specifies the number of seconds to wait for a write operation to time out.
 
 
-### -field TimeoutEvent
+#### - TimeoutEvent
 
 Specifies the number of seconds to wait for an interrupt to occur.
 

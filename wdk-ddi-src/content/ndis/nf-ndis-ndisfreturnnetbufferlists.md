@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 083cf25d-7436-4c4e-b29a-c9a2702b136d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreturnnetbufferlists, NdisFReturnNetBufferLists, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFReturnNetBufferLists, filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml
+ms.keywords: netvista.ndisfreturnnetbufferlists, filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFReturnNetBufferLists, NdisFReturnNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ VOID NdisFReturnNetBufferLists(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param NetBufferLists [in]
+#### - NetBufferLists [in]
 
 A pointer to a linked list of NET_BUFFER_LIST structures that are to be returned to the underlying
      driver. The linked list can contain NET_BUFFER_LIST structures from multiple previous calls to the 
@@ -89,7 +89,7 @@ A pointer to a linked list of NET_BUFFER_LIST structures that are to be returned
      FilterReceiveNetBufferLists</i></mshelp:link> function.
 
 
-### -param ReturnFlags [in]
+#### - ReturnFlags [in]
 
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero.This function supports the following flags: 
@@ -133,11 +133,11 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

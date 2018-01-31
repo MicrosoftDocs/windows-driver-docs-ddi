@@ -40,7 +40,7 @@ apiname:
 -	BusResetRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
+req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
 
 # PBUS_RESET_ROUTINE callback
@@ -73,12 +73,12 @@ typedef PBUS_RESET_ROUTINE BusResetRoutine;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the context supplied by the caller at the <b>Context</b> member of the input BUS_RESET_NOTIFY structure. 
 
 
-### -param BusResetInfo [in]
+#### - BusResetInfo [in]
 
 The bus reset information. 
 

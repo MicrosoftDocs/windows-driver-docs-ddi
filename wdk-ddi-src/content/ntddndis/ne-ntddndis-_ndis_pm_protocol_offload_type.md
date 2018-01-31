@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab9f98d3-1792-43be-b838-f9dd3953889c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdMaximum, ntddndis/NdisPMProtocolOffload80211RSNRekey, NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisPMProtocolOffloadIdUnspecified, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NDIS_PM_PROTOCOL_OFFLOAD_TYPE, miniport_power_management_ref_5fcdc741-9efa-48ff-8b03-017859bf80c0.xml, ntddndis/NdisPMProtocolOffloadIdUnspecified, ntddndis/NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffload80211RSNRekey, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMProtocolOffloadIdIPv6NS, _NDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffloadIdIPv6NS, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD_TYPE, netvista.ndis_pm_protocol_offload_type, NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffloadIdMaximum"
+ms.keywords: ntddndis/NdisPMProtocolOffloadIdMaximum, miniport_power_management_ref_5fcdc741-9efa-48ff-8b03-017859bf80c0.xml, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffload80211RSNRekey, _NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffloadIdMaximum, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffloadIdIPv6NS, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdIPv6NS, NDIS_PM_PROTOCOL_OFFLOAD_TYPE, netvista.ndis_pm_protocol_offload_type, NdisPMProtocolOffloadIdUnspecified, ntddndis/NdisPMProtocolOffloadIdIPv4ARP, NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisPMProtocolOffloadIdUnspecified, ntddndis/NdisPMProtocolOffload80211RSNRekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_PROTOCOL_OFFLOAD_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NDIS_PM_PROTOCOL_OFFLOAD_TYPE"
+req.typenames: NDIS_PM_PROTOCOL_OFFLOAD_TYPE, *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE
 ---
 
 # _NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration
@@ -72,12 +72,12 @@ typedef enum _NDIS_PM_PROTOCOL_OFFLOAD_TYPE {
 
 
 
-### -field NdisPMProtocolOffloadIdUnspecified
+#### - NdisPMProtocolOffloadIdUnspecified
 
 The offloaded protocol is not specified.
 
 
-### -field NdisPMProtocolOffloadIdIPv4ARP
+#### - NdisPMProtocolOffloadIdIPv4ARP
 
 An IPv4 ARP protocol offload. The parameters for this protocol offload type are specified in the 
      <b>IPv4ARPParameters</b> member of the 
@@ -85,21 +85,21 @@ An IPv4 ARP protocol offload. The parameters for this protocol offload type are 
      NDIS_PM_PROTOCOL_OFFLOAD</b></mshelp:link> structure.
 
 
-### -field NdisPMProtocolOffloadIdIPv6NS
+#### - NdisPMProtocolOffloadIdIPv6NS
 
 An IPv6 Neighbor Solicitation (NS) protocol offload. The parameters for this protocol offload type
      are specified in the 
      <b>IPv6NSParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
-### -field NdisPMProtocolOffload80211RSNRekey
+#### - NdisPMProtocolOffload80211RSNRekey
 
 An IEEE 802.11i Robust Security Network (RSN) 4-way and 2-way handshake protocol offload. This
      protocol offload type is specified in the 
      <b>Dot11RSNRekeyParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
-### -field NdisPMProtocolOffloadIdMaximum
+#### - NdisPMProtocolOffloadIdMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

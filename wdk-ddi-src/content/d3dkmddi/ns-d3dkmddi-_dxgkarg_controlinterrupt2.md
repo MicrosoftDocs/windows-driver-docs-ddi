@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_CONTROLINTERRUPT2, _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTTERUPT2, display.dxgkarg_controlinterrupt2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2 structure [Display Devices]
+ms.keywords: d3dkmddi/DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTTERUPT2, _DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], display.dxgkarg_controlinterrupt2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKARG_CONTROLINTERRUPT2 {
 
 
 
-### -field InterruptState
+#### - InterruptState
 
 Indicates whether  interrupts are enabled for the driver.
 
 
-### -field CrtcVsyncState
+#### - CrtcVsyncState
 
 Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
 

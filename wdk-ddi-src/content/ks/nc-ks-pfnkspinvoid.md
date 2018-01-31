@@ -73,7 +73,7 @@ void MyAVStrMiniPin(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Pointer to the relevant <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>, serving as a sink pin.
 

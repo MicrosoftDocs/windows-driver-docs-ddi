@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f5aecd1f-e0f2-47a9-aa70-767a42fefdff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetEventCallbacksWide, IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, debugger.seteventcallbackswide, SetEventCallbacksWide method [Windows Debugging], IDebugClient5::SetEventCallbacksWide, dbgeng/IDebugClient5::SetEventCallbacksWide, IDebugClient5
+ms.keywords: IDebugClient5::SetEventCallbacksWide, dbgeng/IDebugClient5::SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, debugger.seteventcallbackswide, IDebugClient5, SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetEventCallbacksWide(
 
 
 
-### -param Callbacks [in]
+#### - Callbacks [in]
 
 Specifies the interface pointer to the event callbacks object to register with this client.
 
@@ -111,11 +111,11 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
 
  
 

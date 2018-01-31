@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 59e2cd27-ec10-46e9-aa0d-4a00e2684e76
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequestcompletionparams_getioctlparameters, IWDFIoRequestCompletionParams, umdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters, GetIoctlParameters method, IWDFIoRequestCompletionParams interface, GetIoctlParameters, GetIoctlParameters method, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, IWDFIoRequestCompletionParams::GetIoctlParameters
+ms.keywords: GetIoctlParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters, wdf.iwdfiorequestcompletionparams_getioctlparameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, GetIoctlParameters method, IWDFIoRequestCompletionParams, umdf.iwdfiorequestcompletionparams_getioctlparameters, IWDFIoRequestCompletionParams::GetIoctlParameters, GetIoctlParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequestCompletionParams.GetIoctlParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -75,42 +75,42 @@ void GetIoctlParameters(
 
 
 
-### -param pIoControlCode [out, optional]
+#### - pIoControlCode [out, optional]
 
 A pointer to a variable that receives the control code that identifies the specific operation to be performed. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param ppInputMemory [out, optional]
+#### - ppInputMemory [out, optional]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the input buffer for the completion of the device I/O control request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pInputMemoryOffset [out, optional]
+#### - pInputMemoryOffset [out, optional]
 
 A pointer to a variable that receives the offset, in bytes, into the input buffer for the completion of the I/O control request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param ppOutputMemory [out, optional]
+#### - ppOutputMemory [out, optional]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the output buffer for the completion of the device I/O control request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pOutputMemoryOffset [out, optional]
+#### - pOutputMemoryOffset [out, optional]
 
 A pointer to a variable that receives the offset, in bytes, into the output buffer for the completion of the I/O control request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pOutBytes [out, optional]
+#### - pOutBytes [out, optional]
 
 A pointer to a variable that receives the number of bytes that are output for the completion of the device I/O control request.
 

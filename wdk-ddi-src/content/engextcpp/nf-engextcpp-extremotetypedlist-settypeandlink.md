@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f6e2d8e3-294d-45d8-8fc6-33af3a746244
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class, debugger.extremotetypedlist_settypeandlink, SetTypeAndLink, ExtRemoteTypedList::SetTypeAndLink, EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class [Windows Debugging], SetTypeAndLink method, ExtRemoteTypedList
+ms.keywords: ExtRemoteTypedList class [Windows Debugging], SetTypeAndLink method, debugger.extremotetypedlist_settypeandlink, ExtRemoteTypedList::SetTypeAndLink, ExtRemoteTypedList, EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, SetTypeAndLink method [Windows Debugging], SetTypeAndLink, SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTypedList.SetTypeAndLink
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTypedList::SetTypeAndLink method
@@ -71,27 +71,27 @@ void SetTypeAndLink(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 The type name for the list items.  <i>Type</i> can include a module qualifier (for example, <b>mymodule!mytype</b>).  If <i>TypeId</i> is not zero, <i>Type</i> is not used.
 
 
-### -param LinkField [in]
+#### - LinkField [in]
 
 The name of the field of the typed data structure  that contains the pointer to the next list item.  This is either the SINGLE_LIST_ENTRY structure or the LIST_ENTRY structure embedded in the list item.
 
 
-### -param TypeModBase [in]
+#### - TypeModBase [in]
 
 The location in the target's memory of the base address of the module that contains the type specified by <i>TypeId</i>.  If <i>TypeId</i> is zero, <i>TypeModBase</i> is not used.
 
 
-### -param TypeId [in]
+#### - TypeId [in]
 
 The type ID of the type relative to the module specified by <i>TypeModBase</i>.  If <i>TypeId</i> is zero, <i>Type</i> is used to specify the type of the list items.
 
 
-### -param CacheCookie [in, out, optional]
+#### - CacheCookie [in, out, optional]
 
 The cache cookie to use for caching the type information.  If <i>CacheCookie</i> is <b>NULL</b>, the debugger engine will search for the type information each time.
 
@@ -114,15 +114,15 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
-
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
 
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
 
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
 
  
 

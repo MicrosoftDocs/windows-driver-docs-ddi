@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 2abd9341-527f-43af-baa2-622b759b47cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, MsrTrackErrorType_LrcError, MsrTrackErrorType enumeration, MsrTrackErrorType, _MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_LrcError, MsrTrackErrorType_ParityError, pos.msrtrackerrortype, pointofservicedriverinterface/MsrTrackErrorType_ParityError, pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, pointofservicedriverinterface/MsrTrackErrorType_None, MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType_Unknown, MsrTrackErrorType_StartSentinelError, MsrTrackErrorType_None, pointofservicedriverinterface/MsrTrackErrorType, MsrTrackErrorType_EndSentinelError
+ms.keywords: pointofservicedriverinterface/MsrTrackErrorType_ParityError, MsrTrackErrorType, pos.msrtrackerrortype, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, pointofservicedriverinterface/MsrTrackErrorType_None, pointofservicedriverinterface/MsrTrackErrorType, MsrTrackErrorType_ParityError, _MsrTrackErrorType, MsrTrackErrorType_StartSentinelError, MsrTrackErrorType_LrcError, pointofservicedriverinterface/MsrTrackErrorType_LrcError, MsrTrackErrorType_EndSentinelError, MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, MsrTrackErrorType enumeration, pointofservicedriverinterface/MsrTrackErrorType_Unknown, MsrTrackErrorType_None
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _MsrTrackErrorType {
 
 
 
-### -field MsrTrackErrorType_Unknown
+#### - MsrTrackErrorType_Unknown
 
 An unspecified error.
 
 
-### -field MsrTrackErrorType_None
+#### - MsrTrackErrorType_None
 
 No error occurred.
 
 
-### -field MsrTrackErrorType_StartSentinelError
+#### - MsrTrackErrorType_StartSentinelError
 
 A start sentinel error.
 
 
-### -field MsrTrackErrorType_EndSentinelError
+#### - MsrTrackErrorType_EndSentinelError
 
 An end sentinel error.
 
 
-### -field MsrTrackErrorType_ParityError
+#### - MsrTrackErrorType_ParityError
 
 A parity error.
 
 
-### -field MsrTrackErrorType_LrcError
+#### - MsrTrackErrorType_LrcError
 
 A Longitudinal Redundancy Check (LRC) or checksum error.
 

@@ -40,7 +40,7 @@ apiname:
 -	pfnShaderCacheStoreValue
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback
@@ -75,29 +75,32 @@ HRESULT APIENTRY CALLBACK * pfnShaderCacheStoreValue(
 
 
 
-### -param hCacheSession
+#### - hCacheSession
 
 The handle of the cache session for the driver to use when it calls back into the runtime.
 
 
-### -param *pPrecomputedHash
+#### - *pPrecomputedHash [in]
+
+A hash value. 
 
 
+#### - *pKey [in]
 
-### -param *pKey
+A pointer to a key.
 
 
-
-### -param KeyLen
+#### - KeyLen
 
 The length of the key.
 
 
-### -param *pValue
+#### - *pValue [in]
+
+A pointer to an input value. 
 
 
-
-### -param ValueLen
+#### - ValueLen
 
 The length of the input value.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d97b852-57ba-4696-879b-d93a8f539304
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SM_SendRPL_IN, PSM_SendRPL_IN structure pointer [Storage Devices], hbapiwmi/SM_SendRPL_IN, SM_SendRPL_IN, SM_SendRPL_IN structure [Storage Devices], structs-Fibre_54275ca2-35b3-43f4-a62d-63c296b14663.xml, storage.sm_sendrpl_in, PSM_SendRPL_IN, hbapiwmi/PSM_SendRPL_IN, *PSM_SendRPL_IN"
+ms.keywords: SM_SendRPL_IN, SM_SendRPL_IN structure [Storage Devices], storage.sm_sendrpl_in, PSM_SendRPL_IN structure pointer [Storage Devices], hbapiwmi/PSM_SendRPL_IN, PSM_SendRPL_IN, _SM_SendRPL_IN, hbapiwmi/SM_SendRPL_IN, *PSM_SendRPL_IN, structs-Fibre_54275ca2-35b3-43f4-a62d-63c296b14663.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendRPL_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_SendRPL_IN, *PSM_SendRPL_IN
+req.typenames: "*PSM_SendRPL_IN, SM_SendRPL_IN"
 ---
 
 # _SM_SendRPL_IN structure
@@ -71,27 +71,27 @@ typedef struct _SM_SendRPL_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 A worldwide name (WWN) for the local port through which the read port list (RPL) command is sent.
 
 
-### -field AgentWWN
+#### - AgentWWN
 
 A worldwide name (WWN) for the port that is to be queried for a list of ports of type FC_Port. For a definition of FC_Port, see the T11 committee's <i>Fibre Channel HBA API</i> specification<i>.</i>
 
 
-### -field AgentDomain
+#### - AgentDomain
 
 The domain number for the domain controller that is to be queried for a list of ports of type FC_Port. For a definition of FC_Port, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-### -field PortIndex
+#### - PortIndex
 
 The port index of the first port in the list of ports of type FC_Port to be returned.
 
 
-### -field InRespBufferMaxSize
+#### - InRespBufferMaxSize
 
 The response buffer size.
 

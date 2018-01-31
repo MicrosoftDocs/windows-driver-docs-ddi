@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9b0cbcc4-e38a-4266-afc5-8b2755d79f4c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_type_info, *PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista], DOT11_PHY_TYPE_INFO, _DOT11_PHY_TYPE_INFO, Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, windot11/DOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO
+ms.keywords: PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista], windot11/DOT11_PHY_TYPE_INFO, _DOT11_PHY_TYPE_INFO, Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, *PDOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO, netvista.dot11_phy_type_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _DOT11_PHY_TYPE_INFO {
 
 
 
-### -field dot11PhyType
+#### - dot11PhyType
 
 The type of PHY that the 802.11 station will use for the scan. The PHY type is defined by the 
        <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a> enumeration. 
@@ -91,7 +91,7 @@ The type of PHY that the 802.11 station will use for the scan. The PHY type is d
 
 
 
-### -field bUseParameters
+#### - bUseParameters
 
 If this member is <b>TRUE</b>, the 802.11 station uses the other members of this structure to configure
      the PHY for the scan operation.
@@ -107,13 +107,13 @@ If this member is <b>FALSE</b>, the 802.11 station configures the PHY using its 
 
 
 
-### -field uProbeDelay
+#### - uProbeDelay
 
 The amount of time, in microseconds, that the 802.11 station must wait before transmitting an
      802.11 Probe Request frame during active scanning.
 
 
-### -field uMinChannelTime
+#### - uMinChannelTime
 
 The minimum amount of time, in 802.11 time units (TU), that the 802.11 station spends on each
      channel when scanning. One TU is 1024 microseconds.
@@ -123,7 +123,7 @@ This member must be greater than or equal to
      <b>uProbeDelay</b> .
 
 
-### -field uMaxChannelTime
+#### - uMaxChannelTime
 
 The maximum amount of time, in 802.11 time units (TU), that the 802.11 station spends on each
      channel when scanning.
@@ -133,7 +133,7 @@ This member must be greater than or equal to
      <b>uProbeDelay</b> .
 
 
-### -field ChDescriptionType
+#### - ChDescriptionType
 
 This member specifies the method used to interpret the entries in the 
      <b>ucChannelListBuffer</b> array. The data type for this member is the CH_DESCRIPTION_TYPE enumeration,
@@ -154,13 +154,13 @@ The channel entry is defined by a logical channel number to conform with the IEE
 The channel entry is defined, in units of megahertz (MHz), by a channel center frequency.
 
 
-### -field uChannelListSize
+#### - uChannelListSize
 
 The length, in bytes, of the 
      <b>ucChannelListBuffer</b> array. Each entry in this array is formatted as a ULONG data type.
 
 
-### -field ucChannelListBuffer
+#### - ucChannelListBuffer
 
 An array containing channel descriptions for the PHY type specified in the 
      <b>dot11PhyType</b> member.
@@ -196,9 +196,9 @@ For more information about the ExtSTA operation mode, see
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
 
  
 

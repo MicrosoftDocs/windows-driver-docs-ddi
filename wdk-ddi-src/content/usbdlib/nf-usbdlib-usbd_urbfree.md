@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_UrbFree, usbdlib/USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree
+ms.keywords: buses.usbd_urbfree, USBD_UrbFree routine [Buses], USBD_UrbFree, usbdlib/USBD_UrbFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_UrbFree
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ void USBD_UrbFree(
 
 
 
-### -param USBDHandle [in]
+#### - USBDHandle [in]
 
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
 
-### -param Urb [in]
+#### - Urb [in]
 
 Pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure to be released.
 
@@ -101,9 +101,9 @@ For a code example, see <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
-
 <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 36caaea9-2354-4ed8-9649-5eb102def8d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSQUALITY, ks/KSQUALITY, *PKSQUALITY, KSQUALITY structure [Streaming Media Devices], KSQUALITY, ks/PKSQUALITY, stream.ksquality, PKSQUALITY structure pointer [Streaming Media Devices], ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml
+ms.keywords: PKSQUALITY, *PKSQUALITY, PKSQUALITY structure pointer [Streaming Media Devices], ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml, ks/PKSQUALITY, KSQUALITY structure [Streaming Media Devices], ks/KSQUALITY, KSQUALITY, stream.ksquality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Context
+#### - Context
 
 Specifies a context parameter that was originally passed to the connection.
 
 
-### -field Proportion
+#### - Proportion
 
 Indicates the percentage of frames currently being received that are actually being used. This is expressed in units of one-tenth of a percent, where 1000 is optimal.
 
 
-### -field DeltaTime
+#### - DeltaTime
 
 Indicates the delta in native units (as indicated by the Interface) from optimal time at which the frames are being delivered, where a positive number means too late, and a negative number means too early. Zero indicates a correct delta.
 

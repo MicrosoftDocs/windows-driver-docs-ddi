@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fcc4597-b169-43a8-b2bb-dd2dd66f29dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], wdm/PKINTERRUPT_POLARITY, wdm/InterruptFallingEdge, PKINTERRUPT_POLARITY, InterruptPolarityUnknown, InterruptActiveBoth, kernel.kinterrupt_polarity, KINTERRUPT_POLARITY, InterruptFallingEdge, wdm/InterruptPolarityUnknown, wdm/InterruptActiveLow, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/KINTERRUPT_POLARITY, *PKINTERRUPT_POLARITY, InterruptActiveBothTriggerHigh, wdm/InterruptRisingEdge, InterruptActiveLow, InterruptRisingEdge, wdm/InterruptActiveBoth, wdm/InterruptActiveBothTriggerLow, InterruptActiveBothTriggerLow, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptActiveHigh, _KINTERRUPT_POLARITY, InterruptActiveHigh
+ms.keywords: KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], *PKINTERRUPT_POLARITY, InterruptActiveBothTriggerHigh, InterruptRisingEdge, _KINTERRUPT_POLARITY, KINTERRUPT_POLARITY, InterruptActiveHigh, wdm/InterruptActiveBothTriggerLow, wdm/KINTERRUPT_POLARITY, wdm/InterruptRisingEdge, wdm/PKINTERRUPT_POLARITY, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptFallingEdge, wdm/InterruptActiveBoth, PKINTERRUPT_POLARITY, wdm/InterruptActiveHigh, kernel.kinterrupt_polarity, wdm/InterruptPolarityUnknown, InterruptActiveBothTriggerLow, InterruptActiveBoth, InterruptFallingEdge, wdm/InterruptActiveLow, InterruptPolarityUnknown, PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, InterruptActiveLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,42 +75,42 @@ typedef enum _KINTERRUPT_POLARITY {
 
 
 
-### -field InterruptPolarityUnknown
+#### - InterruptPolarityUnknown
 
 The interrupt polarity is unknown.
 
 
-### -field InterruptActiveHigh
+#### - InterruptActiveHigh
 
 Active-high interrupt. The interrupt input type is level-triggered, and an interrupt request is indicated by a high signal level on the interrupt line. The request remains active as long as the line remains high.
 
 
-### -field InterruptRisingEdge
+#### - InterruptRisingEdge
 
 Rising-edge-triggered interrupt. The interrupt input type is edge-triggered, and an interrupt request is indicated by a low-to-high transition on the interrupt line.
 
 
-### -field InterruptActiveLow
+#### - InterruptActiveLow
 
 Active-low interrupt. The interrupt input type is level-triggered, and an interrupt request is indicated by a low signal level on the interrupt line. The request remains active as long as the line remains low.
 
 
-### -field InterruptFallingEdge
+#### - InterruptFallingEdge
 
 Falling-edge-triggered interrupt. The interrupt input type is edge-triggered, and an interrupt request is indicated by a high-to-low transition on the interrupt line.
 
 
-### -field InterruptActiveBoth
+#### - InterruptActiveBoth
 
 Active-both interrupt. The interrupt input type is edge-triggered, and an interrupt request is indicated by a low-to-high or a high-to-low transition on the interrupt line. After a low-to-high transition signals an interrupt request, the interrupt line remains high until a high-to-low transition signals the next interrupt request. Similarly, after a high-to-low transition signals an interrupt request, the interrupt line remains low until a low-to-high transition signals the next interrupt request.
 
 
-### -field InterruptActiveBothTriggerLow
+#### - InterruptActiveBothTriggerLow
 
 Reserved for use by the operating system.
 
 
-### -field InterruptActiveBothTriggerHigh
+#### - InterruptActiveBothTriggerHigh
 
 Reserved for use by the operating system.
 

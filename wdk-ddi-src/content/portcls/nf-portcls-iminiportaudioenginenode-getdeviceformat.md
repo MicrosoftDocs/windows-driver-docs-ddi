@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6EA01AE7-E5D5-4182-862D-2901185C2BF8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetDeviceFormat method [Audio Devices], portcls/IMiniportAudioEngineNode::GetDeviceFormat, GetDeviceFormat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getdeviceformat, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method, IMiniportAudioEngineNode::GetDeviceFormat
+ms.keywords: audio.iminiportaudioenginenode_getdeviceformat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetDeviceFormat, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method, GetDeviceFormat method [Audio Devices], GetDeviceFormat, portcls/IMiniportAudioEngineNode::GetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.GetDeviceFormat
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::GetDeviceFormat method
@@ -69,17 +69,17 @@ NTSTATUS GetDeviceFormat(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID of the device node.
 
 
-### -param pFormat [out]
+#### - pFormat [out]
 
 A structure of type  <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format for the device.
 
 
-### -param ulBufferSize [in]
+#### - ulBufferSize [in]
 
 The audio data buffer size.
 
@@ -95,9 +95,9 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
+
+<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
  
 

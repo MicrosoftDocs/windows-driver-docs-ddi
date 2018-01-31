@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac77b121-2495-4739-8c8f-96d6c48e4dc6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: usbcamdi/USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, stream.usbcamd_driverentry
+ms.keywords: stream.usbcamd_driverentry, USBCAMD_DriverEntry function [Streaming Media Devices], usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, USBCAMD_DriverEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ ULONG USBCAMD_DriverEntry(
 
 
 
-### -param Context1 [in]
+#### - Context1 [in]
 
 Pointer to the first argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the driver object that is created by the system and passed to DriverEntry.
 
 
-### -param Context2 [in]
+#### - Context2 [in]
 
 Pointer to the second argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the registry path that describes the minidriver's registry key.
 
 
-### -param DeviceContextSize [in]
+#### - DeviceContextSize [in]
 
 Specifies the size, in bytes, required for the minidriver's device-specific context.
 
@@ -93,7 +93,7 @@ Specifies the size, in bytes, required for the minidriver's device-specific cont
 TBD
 
 
-### -param ReceivePacket [in]
+#### - ReceivePacket [in]
 
 Pointer to the minidriver-defined <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 

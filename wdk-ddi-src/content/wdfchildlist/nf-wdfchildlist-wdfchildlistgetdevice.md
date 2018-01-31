@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d51ec82-4891-47f1-8fc1-b20cb611d7fe
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfchildlistgetdevice, WdfChildListGetDevice, wdfchildlist/WdfChildListGetDevice, WdfChildListGetDevice method, DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, kmdf.wdfchildlistgetdevice, PFN_WDFCHILDLISTGETDEVICE
+ms.keywords: kmdf.wdfchildlistgetdevice, PFN_WDFCHILDLISTGETDEVICE, WdfChildListGetDevice, wdf.wdfchildlistgetdevice, DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, WdfChildListGetDevice method, wdfchildlist/WdfChildListGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDFDEVICE WdfChildListGetDevice(
 
 
 
-### -param ChildList [in]
+#### - ChildList [in]
 
 A handle to a framework child-list object.
 

@@ -71,7 +71,7 @@ NTSTATUS APIENTRY DxgkDdiCheckMultiPlaneOverlaySupport2(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 Identifies the adapter containing the overlay hardware.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b0107cb1-4828-4ede-813e-934b929c9874
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], wdm/IoReportTargetDeviceChange, kernel.ioreporttargetdevicechange, IoReportTargetDeviceChange
+ms.keywords: kernel.ioreporttargetdevicechange, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, IoReportTargetDeviceChange, wdm/IoReportTargetDeviceChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS IoReportTargetDeviceChange(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 Pointer to the PDO of the device being reported.
 
 
-### -param NotificationStructure [in]
+#### - NotificationStructure [in]
 
 Pointer to a caller-supplied <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 

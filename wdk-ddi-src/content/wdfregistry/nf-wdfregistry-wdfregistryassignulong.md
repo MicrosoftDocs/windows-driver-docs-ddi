@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5a160a7-3408-4d26-83c8-2f5a7b6acaf1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryAssignULong, kmdf.wdfregistryassignulong, DFRegKeyObjectRef_2f35ea01-ade1-4bf1-a55b-6613021fcd04.xml, wdfregistry/WdfRegistryAssignULong, WdfRegistryAssignULong method, wdf.wdfregistryassignulong, PFN_WDFREGISTRYASSIGNULONG
+ms.keywords: wdfregistry/WdfRegistryAssignULong, WdfRegistryAssignULong method, DFRegKeyObjectRef_2f35ea01-ade1-4bf1-a55b-6613021fcd04.xml, PFN_WDFREGISTRYASSIGNULONG, kmdf.wdfregistryassignulong, WdfRegistryAssignULong, wdf.wdfregistryassignulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryAssignULong
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -75,17 +75,17 @@ NTSTATUS WdfRegistryAssignULong(
 
 
 
-### -param Key [in]
+#### - Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a value name. 
 
 
-### -param Value [in]
+#### - Value [in]
 
 A ULONG value that will be assigned to the value name that <i>ValueName</i> specifies.
 
@@ -158,15 +158,15 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
-
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
 
  
 

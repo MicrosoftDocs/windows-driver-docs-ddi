@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AFDDB789-E412-4EF7-8C77-2020EF81DF39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MEM_FREE, *PMEMORY_BASIC_INFORMATION, MEM_PRIVATE, MEM_COMMIT, kernel.memory_basic_information, MEM_RESERVE, PAGE_NOACCESS, PAGE_WRITECOMBINE, PAGE_EXECUTE, ntifs/MEMORY_BASIC_INFORMATION, _MEMORY_BASIC_INFORMATION, PAGE_GUARD, PMEMORY_BASIC_INFORMATION, PAGE_READWRITE, MEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PAGE_READONLY, MEM_MAPPED, ntifs/PMEMORY_BASIC_INFORMATION, PAGE_NOCACHE, MEM_IMAGE, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: MEM_MAPPED, PAGE_NOACCESS, PAGE_READWRITE, PAGE_WRITECOMBINE, MEM_RESERVE, PAGE_EXECUTE, kernel.memory_basic_information, MEMORY_BASIC_INFORMATION, PAGE_NOCACHE, PAGE_GUARD, _MEMORY_BASIC_INFORMATION, ntifs/MEMORY_BASIC_INFORMATION, MEM_COMMIT, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PAGE_READONLY, *PMEMORY_BASIC_INFORMATION, MEM_FREE, MEM_IMAGE, ntifs/PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], MEM_PRIVATE, PMEMORY_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _MEMORY_BASIC_INFORMATION {
 
 
 
-### -field BaseAddress
+#### - BaseAddress
 
 A pointer to the base address of the region of pages.
 
 
-### -field AllocationBase
+#### - AllocationBase
 
 A pointer to the base address of a range of allocated pages. The page pointed to by the <b>BaseAddress</b> member is contained within this allocation range.
 
 
-### -field AllocationProtect
+#### - AllocationProtect
 
 The memory protection option when the region was initially allocated. This member can be one of the 
 following constants defined in wdm.h, or 0 if the caller does not have access.
@@ -189,14 +189,14 @@ Disable the placement of committed
 </table> 
 
 
-### -field RegionSize
+#### - RegionSize
 
 The size of the region in bytes beginning at
                                the base address in which all pages have
                                identical attributes.
 
 
-### -field State
+#### - State
 
 The state of the pages in the region. This member can be one of the following values. 
 
@@ -242,12 +242,12 @@ Indicates reserved pages where a range of the process's virtual address space is
 </table> 
 
 
-### -field Protect
+#### - Protect
 
 The access protection of the pages in the region. This member is one of the values listed for the <b>AllocationProtect</b> member.
 
 
-### -field Type
+#### - Type
 
 The type of pages in the region. The following types are defined. 
 

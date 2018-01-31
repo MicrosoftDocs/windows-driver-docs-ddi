@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2438c994-a283-49fe-a39b-99de678df2e2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: EnumerateKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::EnumerateKey, IRegistryKey::EnumerateKey, audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, EnumerateKey, IRegistryKey interface [Audio Devices], EnumerateKey method, EnumerateKey method [Audio Devices], audio.iregistrykey_enumeratekey, IRegistryKey
+ms.keywords: EnumerateKey method [Audio Devices], IRegistryKey interface, audio.iregistrykey_enumeratekey, EnumerateKey method [Audio Devices], audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, IRegistryKey::EnumerateKey, IRegistryKey, IRegistryKey interface [Audio Devices], EnumerateKey method, portcls/IRegistryKey::EnumerateKey, EnumerateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRegistryKey.EnumerateKey
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IRegistryKey::EnumerateKey method
@@ -71,12 +71,12 @@ NTSTATUS EnumerateKey(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the subkey index. This parameter identifies the subkey for which key information is requested. If the key contains <i>n</i> subkeys, valid indices range from 0 to <i>n</i>-1. If the index exceeds this range, the method returns STATUS_NO_MORE_ENTRIES.
 
 
-### -param KeyInformationClass [in]
+#### - KeyInformationClass [in]
 
 Specifies the type of information to be returned in the buffer. Set this parameter to one of the following KEY_INFORMATION_CLASS enumeration values:
 <ul>
@@ -94,17 +94,17 @@ Specifies the type of information to be returned in the buffer. Set this paramet
 </li>
 </ul>
 
-### -param KeyInformation [out]
+#### - KeyInformation [out]
 
 Pointer to the key information buffer. This parameter points to a caller-allocated buffer into which the method writes the requested data. The buffer contains a structure of type <a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>, <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>, or <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>, depending on the value of <i>KeyInformationClass</i>. The structure is followed by a string of Unicode characters whose size depends on the type of information being requested about the key.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the size in bytes of the <i>KeyInformation</i> buffer, which the caller must set according to the given <i>KeyInformationClass</i>. For the call to succeed, the buffer must be at least as large as the data that the method writes into the buffer.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 Output pointer for the length of the resulting data. This parameter points to a caller-allocated ULONG variable into which the method writes a count specifying the number of bytes actually written into the <i>KeyInformation</i> buffer. If the specified buffer length is too small to contain the information, however, the method instead outputs the required buffer size and returns STATUS_BUFFER_OVERFLOW.
 
@@ -146,13 +146,13 @@ Indicates that no more subkeys are available (subkey index is larger than or equ
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 

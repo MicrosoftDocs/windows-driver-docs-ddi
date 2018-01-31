@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06de4432-9437-4275-8d1e-606f209e1468
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-general_f902ea12-3b3d-4eb7-9ac2-9a5abfabe13c.xml, STORAGE_BREAK_RESERVATION_REQUEST, storage.storage_break_reservation_request, PSTORAGE_BREAK_RESERVATION_REQUEST structure pointer [Storage Devices], *PSTORAGE_BREAK_RESERVATION_REQUEST, STORAGE_BREAK_RESERVATION_REQUEST structure [Storage Devices], PSTORAGE_BREAK_RESERVATION_REQUEST, ntddstor/PSTORAGE_BREAK_RESERVATION_REQUEST, ntddstor/STORAGE_BREAK_RESERVATION_REQUEST
+ms.keywords: STORAGE_BREAK_RESERVATION_REQUEST, STORAGE_BREAK_RESERVATION_REQUEST structure [Storage Devices], PSTORAGE_BREAK_RESERVATION_REQUEST, ntddstor/PSTORAGE_BREAK_RESERVATION_REQUEST, storage.storage_break_reservation_request, PSTORAGE_BREAK_RESERVATION_REQUEST structure pointer [Storage Devices], *PSTORAGE_BREAK_RESERVATION_REQUEST, ntddstor/STORAGE_BREAK_RESERVATION_REQUEST, structs-general_f902ea12-3b3d-4eb7-9ac2-9a5abfabe13c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_BREAK_RESERVATION_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_BREAK_RESERVATION_REQUEST, *PSTORAGE_BREAK_RESERVATION_REQUEST
+req.typenames: "*PSTORAGE_BREAK_RESERVATION_REQUEST, STORAGE_BREAK_RESERVATION_REQUEST"
 ---
 
 # STORAGE_BREAK_RESERVATION_REQUEST structure
@@ -71,27 +71,27 @@ typedef struct STORAGE_BREAK_RESERVATION_REQUEST {
 
 
 
-### -field Length
+#### - Length
 
 Contains the length of this structure in bytes.
 
 
-### -field _unused
+#### - _unused
 
 Reserved. Do not use. 
 
 
-### -field PathId
+#### - PathId
 
 Indicates the number of the bus to be reset. 
 
 
-### -field TargetId
+#### - TargetId
 
 Contains the number of the target device.
 
 
-### -field Lun
+#### - Lun
 
 Contains the logical unit number. 
 

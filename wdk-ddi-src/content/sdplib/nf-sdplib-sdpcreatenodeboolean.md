@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d299074f-18db-4eff-b177-4d2d3535e299
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeBoolean, SdpCreateNodeBoolean function [Bluetooth Devices], bltooth.sdpcreatenodeboolean, bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, sdplib/SdpCreateNodeBoolean
+ms.keywords: bltooth.sdpcreatenodeboolean, bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, SdpCreateNodeBoolean function [Bluetooth Devices], sdplib/SdpCreateNodeBoolean, SdpCreateNodeBoolean
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ PSDP_NODE SdpCreateNodeBoolean(
 
 
 
-### -param bVal [in]
+#### - bVal [in]
 
 The Boolean value that is used to initialize the SDP_NODE structure.
 
 
-### -param tag [in]
+#### - tag [in]
 
 A profile driver defined tag to associate with the node.
 

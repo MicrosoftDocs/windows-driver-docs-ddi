@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A16980CD-3F2F-4A67-902A-F3D72AA042D9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], *PHFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_VERSION, _HFP_BYPASS_CODEC_ID_VERSION, REQ_HFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_version, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION
+ms.keywords: audio.hfp_bypass_codec_id_version, REQ_HFP_BYPASS_CODEC_ID_V1, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum _HFP_BYPASS_CODEC_ID_VERSION {
 
 
 
-### -field REQ_HFP_BYPASS_CODEC_ID_V1
+#### - REQ_HFP_BYPASS_CODEC_ID_V1
 
 Codec ID structure version 1.
 

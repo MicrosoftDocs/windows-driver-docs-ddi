@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b1d6465-83bd-42c4-be1f-d7a2cfb74483
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], display.dxgkarg_querydependentenginegroup, DXGKARG_QUERYDEPENDENTENGINEGROUP, *INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, _DXGKARG_QUERYDEPENDENTENGINEGROUP, d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP
+ms.keywords: DXGKARG_QUERYDEPENDENTENGINEGROUP, _DXGKARG_QUERYDEPENDENTENGINEGROUP, *INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], display.dxgkarg_querydependentenginegroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKARG_QUERYDEPENDENTENGINEGROUP {
 
 
 
-### -field NodeOrdinal
+#### - NodeOrdinal
 
 [in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md">DxgkDdiQueryDependentEngineGroup</a>.
 
 
-### -field EngineOrdinal
+#### - EngineOrdinal
 
 [in] An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
 
 
-### -field DependentNodeOrdinalMask
+#### - DependentNodeOrdinalMask
 
 [out] The bitmask that describes all dependent nodes that will be affected by a reset operation.
 
@@ -97,9 +97,9 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md">DxgkDdiQueryDependentEngineGroup</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md">DxgkDdiQueryDependentEngineGroup</a>
 
  
 

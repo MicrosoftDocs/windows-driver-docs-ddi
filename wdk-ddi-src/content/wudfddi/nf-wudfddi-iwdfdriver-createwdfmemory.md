@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ea754db-3bed-48d9-825f-7ee7b5e169b7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver::CreateWdfMemory, IWDFDriver interface, CreateWdfMemory method, wudfddi/IWDFDriver::CreateWdfMemory, CreateWdfMemory, umdf.iwdfdriver_createwdfmemory, CreateWdfMemory method, IWDFDriver interface, IWDFDriver, wdf.iwdfdriver_createwdfmemory, UMDFDriverObjectRef_903775e8-0752-435b-96d9-fa1317f63289.xml, CreateWdfMemory method
+ms.keywords: CreateWdfMemory, CreateWdfMemory method, IWDFDriver interface, CreateWdfMemory method, umdf.iwdfdriver_createwdfmemory, CreateWdfMemory method, IWDFDriver interface, IWDFDriver::CreateWdfMemory, wudfddi/IWDFDriver::CreateWdfMemory, UMDFDriverObjectRef_903775e8-0752-435b-96d9-fa1317f63289.xml, wdf.iwdfdriver_createwdfmemory, IWDFDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDriver.CreateWdfMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -73,24 +73,24 @@ HRESULT CreateWdfMemory(
 
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 
             The nonzero specified size, in bytes, of data for the newly created WDF memory object's data buffer. 
           
 
 
-### -param pCallbackInterface [in, optional]
+#### - pCallbackInterface [in, optional]
 
 A pointer to the <b>IUnknown</b> interface that the framework uses to determine the object-related event callback functions that the driver subscribes to on the newly created memory object. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification. The <b>IUnknown</b> interface is used for object cleanup and disposal. If the driver passes a valid pointer, the framework will call <b>QueryInterface</b> on the <b>IUnknown</b> interface for the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a> interface. If the framework obtains the driver's <b>IObjectCleanup</b> interface, the framework can subsequently call the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> method to notify the driver that the memory object is cleaned up. 
 
 
-### -param pParentObject [in, optional]
+#### - pParentObject [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a> interface for the parent object of the created memory object. If <b>NULL</b>, the driver object becomes the default parent. 
 
 
-### -param ppWdfMemory [out]
+#### - ppWdfMemory [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for the newly created WDF memory object.
 
@@ -117,19 +117,19 @@ A UMDF driver cannot create a memory object with a zero-specified size buffer. I
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
  
 

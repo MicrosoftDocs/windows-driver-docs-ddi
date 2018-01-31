@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6226e75e-b744-46cd-b14b-e93ece1c2f61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wmilib/WmiSystemControl, kernel.wmisystemcontrol, k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml, WmiSystemControl routine [Kernel-Mode Driver Architecture], WmiSystemControl
+ms.keywords: WmiSystemControl routine [Kernel-Mode Driver Architecture], kernel.wmisystemcontrol, wmilib/WmiSystemControl, WmiSystemControl, k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WmiSystemControl
 product: Windows
 targetos: Windows
-req.typenames: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR"
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -72,22 +72,22 @@ NTSTATUS WmiSystemControl(
 
 
 
-### -param WmiLibInfo [in]
+#### - WmiLibInfo [in]
 
 A pointer to a <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that contains registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines. 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the driver's <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. 
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>.
 
 
-### -param IrpDisposition [out]
+#### - IrpDisposition [out]
 
 
       A pointer to an enumeration value of type <b>SYSCTL_IRP_DISPOSITION</b> that indicates how the IRP was handled. <b>WmiSystemControl</b> always sets this value, even when it returns a non-success NTSTATUS code.
@@ -137,25 +137,25 @@ A driver must be running at IRQL PASSIVE_LEVEL when it forwards an <b>IRP_MJ_SYS
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550813">IRP_MJ_SYSTEM_CONTROL</a>
+
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
 
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
 <a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550813">IRP_MJ_SYSTEM_CONTROL</a>
+<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
 
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
  
 

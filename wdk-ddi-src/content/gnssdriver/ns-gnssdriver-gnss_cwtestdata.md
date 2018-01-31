@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_cwtestdata, gnssdriver/PGNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], PGNSS_CWTESTDATA structure pointer [Sensor Devices], *PGNSS_CWTESTDATA, gnssdriver/GNSS_CWTESTDATA, PGNSS_CWTESTDATA, GNSS_CWTESTDATA
+ms.keywords: GNSS_CWTESTDATA structure [Sensor Devices], GNSS_CWTESTDATA, gnssdriver/GNSS_CWTESTDATA, *PGNSS_CWTESTDATA, PGNSS_CWTESTDATA, sensors.gnss_cwtestdata, PGNSS_CWTESTDATA structure pointer [Sensor Devices], gnssdriver/PGNSS_CWTESTDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_CWTESTDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA"
+req.typenames: GNSS_CWTESTDATA, *PGNSS_CWTESTDATA
 ---
 
 # GNSS_CWTESTDATA structure
@@ -72,17 +72,17 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field TestResultStatus
+#### - TestResultStatus
 
 NTSTATUS value indicating whether this fix contains a valid data, or if the GNSS engine or driver encountered any errors in getting the measurements for the carrier wave test.
 <ul>
@@ -96,12 +96,12 @@ Failed - with error code: test not implemented, carrier wave test already in pro
 </li>
 </ul>
 
-### -field SignalToNoiseRatio
+#### - SignalToNoiseRatio
 
 Signal to noise ratio in the carrier wave in dB-Hz.
 
 
-### -field Frequency
+#### - Frequency
 
 Frequency of the carrier wave detected in the measurement band.
 

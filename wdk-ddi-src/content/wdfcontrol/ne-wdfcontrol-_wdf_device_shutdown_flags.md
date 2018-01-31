@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e394f8de-7257-4baa-9057-bd4bad34212d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, wdfcontrol/WdfDeviceShutdown, wdf.wdf_device_shutdown_flags, WDF_DEVICE_SHUTDOWN_FLAGS, WdfDeviceLastChanceShutdown, WdfDeviceShutdown, wdfcontrol/WdfDeviceLastChanceShutdown, kmdf.wdf_device_shutdown_flags, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, _WDF_DEVICE_SHUTDOWN_FLAGS
+ms.keywords: DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, wdf.wdf_device_shutdown_flags, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, WDF_DEVICE_SHUTDOWN_FLAGS, WdfDeviceLastChanceShutdown, _WDF_DEVICE_SHUTDOWN_FLAGS, wdfcontrol/WdfDeviceLastChanceShutdown, WdfDeviceShutdown, wdfcontrol/WdfDeviceShutdown, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, kmdf.wdf_device_shutdown_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,12 +71,12 @@ typedef enum _WDF_DEVICE_SHUTDOWN_FLAGS {
 
 
 
-### -field WdfDeviceShutdown
+#### - WdfDeviceShutdown
 
 The driver is notified when the system is losing its power, but before file systems are flushed.
 
 
-### -field WdfDeviceLastChanceShutdown
+#### - WdfDeviceLastChanceShutdown
 
 The driver is notified when the system is losing its power, and after all file systems have been flushed.
 

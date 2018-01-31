@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPoFxActivateComponent routine [Storage Devices], storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent, StorPortPoFxActivateComponent
+ms.keywords: StorPortPoFxActivateComponent routine [Storage Devices], storport/StorPortPoFxActivateComponent, StorPortPoFxActivateComponent, storage.storportpofxactivatecomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ ULONG StorPortPoFxActivateComponent(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in, optional]
+#### - Address [in, optional]
 
 The address of a storage device unit. This parameter is <b>NULL</b> when activating a storage adapter component.
 
 
-### -param Srb [in, optional]
+#### - Srb [in, optional]
 
 The SRB triggering the component activation. This parameter is <b>NULL</b> if the miniport is activating a device component for a request not sent through Storport.
 
 
-### -param Component [in]
+#### - Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Not used. Set to 0.
 

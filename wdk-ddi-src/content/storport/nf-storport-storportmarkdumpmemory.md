@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortMarkDumpMemory, storport/StorPortMarkDumpMemory, storage.storportmarkdumpmemory, StorPortMarkDumpMemory routine [Storage Devices], MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS
+ms.keywords: StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, storport/StorPortMarkDumpMemory, StorPortMarkDumpMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortMarkDumpMemory(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in]
+#### - Address [in]
 
 The starting address of the memory range to mark.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length of the marked memory range.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Dump memory marking flags. The <i>Flags</i> parameter must be 0 or contain only the following value.
 <table>

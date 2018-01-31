@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B908A174-F977-484E-A086-6C8C9A914D6C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGORITHM, _WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_80211_OPEN, WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_WPA_NONE, netvista.wifi_auth_algorithm, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_PSK, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_RSNA, netvista.wdi_auth_algorithm, WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation]
+ms.keywords: wditypes/WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGORITHM, WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGORITHM, WDI_AUTH_ALGO_WPA, _WDI_AUTH_ALGORITHM, netvista.wdi_auth_algorithm, WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_80211_OPEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,55 +76,55 @@ typedef enum _WDI_AUTH_ALGORITHM {
 
 
 
-### -field WDI_AUTH_ALGO_80211_OPEN
+#### - WDI_AUTH_ALGO_80211_OPEN
 
 Specifies an IEEE 802.11 Open System authentication algorithm. 
 
 
-### -field WDI_AUTH_ALGO_80211_SHARED_KEY
+#### - WDI_AUTH_ALGO_80211_SHARED_KEY
 
 Specifies an IEEE 802.11 Shared Key authentication algorithm that requires the use of a pre-shared Wired Equivalent Privacy (WEP) key for the 802.11 authentication.
 
 
-### -field WDI_AUTH_ALGO_WPA
+#### - WDI_AUTH_ALGO_WPA
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process. 
 
 When the WPA algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 1 (802.1X) within the WPA information element (IE).
 
 
-### -field WDI_AUTH_ALGO_WPA_PSK
+#### - WDI_AUTH_ALGO_WPA_PSK
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm that uses preshared keys (PSK). IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a preshared key that is used on both the supplicant and authenticator. 
 
 When the WPA PSK algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the WPA IE.
 
 
-### -field WDI_AUTH_ALGO_WPA_NONE
+#### - WDI_AUTH_ALGO_WPA_NONE
 
 This value is not supported.
 
 
-### -field WDI_AUTH_ALGO_RSNA
+#### - WDI_AUTH_ALGO_RSNA
 
 Specifies an IEEE 802.11i Robust Security Network Association (RSNA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process. 
 
 When the RSNA algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 1 (802.1X) within the Robust Security Network (RSN) IE.
 
 
-### -field WDI_AUTH_ALGO_RSNA_PSK
+#### - WDI_AUTH_ALGO_RSNA_PSK
 
 Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared key that is used on both the supplicant and authenticator. 
 
 When the RSNA PSK algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the RSN IE.
 
 
-### -field WDI_AUTH_ALGO_IHV_START
+#### - WDI_AUTH_ALGO_IHV_START
 
 Specifies the start of the range that specifies proprietary authentication algorithms that are developed by an IHV. 
 
 
-### -field WDI_AUTH_ALGO_IHV_END
+#### - WDI_AUTH_ALGO_IHV_END
 
 Specifies the end of the range that specifies proprietary authentication algorithms that are developed by an IHV. 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 558b8a6c-13f7-4bfc-b94e-e8767e94c8d2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlLookupMcbEntry, ifsk.fsrtllookupmcbentry, ntifs/FsRtlLookupMcbEntry, fsrtlref_2f0e31c1-e938-4e83-9547-6999c5fb8cb4.xml, FsRtlLookupMcbEntry function [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlLookupMcbEntry, ifsk.fsrtllookupmcbentry, FsRtlLookupMcbEntry function [Installable File System Drivers], FsRtlLookupMcbEntry, fsrtlref_2f0e31c1-e938-4e83-9547-6999c5fb8cb4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

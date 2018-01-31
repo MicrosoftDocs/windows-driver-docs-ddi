@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b2d471a-649e-4289-a27a-b78893d8477b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_GetBindingCapability_IN, PSM_GetBindingCapability_IN, hbapiwmi/SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN structure pointer [Storage Devices], structs-Fibre_0aed53e6-0683-4d6c-94c7-30ee531084ab.xml, hbapiwmi/PSM_GetBindingCapability_IN, storage.sm_getbindingcapability_in, _SM_GetBindingCapability_IN, SM_GetBindingCapability_IN structure [Storage Devices]
+ms.keywords: "_SM_GetBindingCapability_IN, hbapiwmi/PSM_GetBindingCapability_IN, SM_GetBindingCapability_IN, storage.sm_getbindingcapability_in, *PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN, SM_GetBindingCapability_IN structure [Storage Devices], structs-Fibre_0aed53e6-0683-4d6c-94c7-30ee531084ab.xml, hbapiwmi/SM_GetBindingCapability_IN, PSM_GetBindingCapability_IN structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_GetBindingCapability_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_GetBindingCapability_IN, SM_GetBindingCapability_IN"
+req.typenames: SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN
 ---
 
 # _SM_GetBindingCapability_IN structure
@@ -68,12 +68,12 @@ typedef struct _SM_GetBindingCapability_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 The worldwide name (WWN) of the local port whose events the WMI client will receive.
 
 
-### -field DomainPortWWN
+#### - DomainPortWWN
 
 A worldwide name (WWN) that specifies the SAS domain worldwide name of the local port.
 

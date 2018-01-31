@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiLinkDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_LINK_DEVICE callback
@@ -72,17 +72,17 @@ NTSTATUS DxgkDdiLinkDevice(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-### -param LinkedDevice [in, out]
+#### - LinkedDevice [in, out]
 
 A pointer to a <a href="..\dispmprt\ns-dispmprt-_linked_device.md">LINKED_DEVICE</a> structure that contains information on the linked display adapter configuration.
 

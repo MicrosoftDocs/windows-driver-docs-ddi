@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A22E96FC-E219-4F6C-B8AF-AC86FAD89543
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucx_default_endpoint_event_callbacks, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], *PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses]
+ms.keywords: P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, *PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, buses._ucx_default_endpoint_event_callbacks, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses], ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,46 +74,46 @@ typedef struct _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS {
 
 
 
-### -field Size
+#### - Size
 
 The size in bytes of this structure.
 
 
-### -field EvtEndpointPurge
+#### - EvtEndpointPurge
 
 A pointer to a EVT_UCX_ENDPOINT_PURGE callback function.
 
 
-### -field EvtEndpointStart
+#### - EvtEndpointStart
 
 A pointer to a EVT_UCX_ENDPOINT_START callback function.
 
 
-### -field EvtEndpointAbort
+#### - EvtEndpointAbort
 
 A pointer to a EVT_UCX_ENDPOINT_ABORT callback function.
 
 
-### -field EvtEndpointOkToCancelTransfers
+#### - EvtEndpointOkToCancelTransfers
 
 A pointer to a EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function.
 
 
-### -field EvtDefaultEndpointUpdate
+#### - EvtDefaultEndpointUpdate
 
 A pointer to a EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Do not use.
 
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
-
 <a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 47e6da4a-fa81-40ee-9bf5-80526dc0b865
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_GetUSBDIVersion routine [Buses], usbdlib/USBD_GetUSBDIVersion, USBD_GetUSBDIVersion, buses.usbd_getusbdiversion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml
+ms.keywords: usbdlib/USBD_GetUSBDIVersion, buses.usbd_getusbdiversion, USBD_GetUSBDIVersion routine [Buses], usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml, USBD_GetUSBDIVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_GetUSBDIVersion
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ void USBD_GetUSBDIVersion(
 
 
 
-### -param VersionInformation [out]
+#### - VersionInformation [out]
 
 Pointer to caller-allocated memory for a <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that on return from the routine, contains version information about the HCD.
 
@@ -90,9 +90,9 @@ Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memor
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
 <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
  
 

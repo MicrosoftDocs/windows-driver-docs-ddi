@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 65a8d959-98f5-4545-8865-d6d81a752d48
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetSymbolEntryStringWide, debugger.getsymbolentrystringwide, GetSymbolEntryStringWide, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryStringWide method, GetSymbolEntryStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSymbolEntryStringWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolEntryStringWide
+ms.keywords: dbgeng/IDebugSymbols3::GetSymbolEntryStringWide, IDebugSymbols3::GetSymbolEntryStringWide, GetSymbolEntryStringWide, debugger.getsymbolentrystringwide, GetSymbolEntryStringWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryStringWide method, GetSymbolEntryStringWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetSymbolEntryStringWide(
 
 
 
-### -param Id [in]
+#### - Id [in]
 
 Specifies the symbols whose memory regions are being requested.  The <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure contains the module containing the symbol and the symbol ID of the symbol within the module.
 
 
-### -param Which [in]
+#### - Which [in]
 
 Specifies the index of the desired string.  Often this is zero, as most symbols contain just one string (their name).  But some symbols may contain more than one string -- for example, annotation symbols.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param StringSize [out, optional]
+#### - StringSize [out, optional]
 
 Receives the size in characters of the symbol's name.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e1b5af5d-9bb8-4bf0-898a-5972f1f09a35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamicro/SetPixelWindow, MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, SetPixelWindow function [Imaging Devices], image.setpixelwindow, SetPixelWindow
+ms.keywords: wiamicro/SetPixelWindow, SetPixelWindow function [Imaging Devices], SetPixelWindow, MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, image.setpixelwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SetPixelWindow
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ WIAMICRO_API HRESULT SetPixelWindow(
 
 
 
-### -param pScanInfo [in, out]
+#### - pScanInfo [in, out]
 
 Points to a <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure that represents the current state of the device. This is stored by the WIA Flatbed driver to guarantee synchronized settings between the microdriver and the WIA Flatbed driver.
 
 
-### -param x
+#### - x
 
 Specifies the horizontal position value for the left side of the selection rectangle in pixels. 
 
 
-### -param y
+#### - y
 
 Specifies the vertical position value for the top of the selection rectangle in pixels.
 
 
-### -param xExtent
+#### - xExtent
 
 Specifies the width of the selection rectangle in pixels. 
 
 
-### -param yExtent
+#### - yExtent
 
 Specifies the height of the selection rectangle in pixels. 
 

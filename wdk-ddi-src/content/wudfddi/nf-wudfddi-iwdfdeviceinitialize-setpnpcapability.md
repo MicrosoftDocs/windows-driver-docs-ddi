@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82892740-12f6-469b-a65c-6905d32c0b0d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetPnpCapability, IWDFDeviceInitialize::SetPnpCapability, SetPnpCapability method, umdf.iwdfdeviceinitialize_setpnpcapability, IWDFDeviceInitialize, wdf.iwdfdeviceinitialize_setpnpcapability, IWDFDeviceInitialize interface, SetPnpCapability method, wudfddi/IWDFDeviceInitialize::SetPnpCapability, SetPnpCapability method, IWDFDeviceInitialize interface, UMDFDeviceObjectRef_516aeba5-c0c2-40a0-a9e6-d1a983835a94.xml
+ms.keywords: umdf.iwdfdeviceinitialize_setpnpcapability, IWDFDeviceInitialize::SetPnpCapability, wdf.iwdfdeviceinitialize_setpnpcapability, UMDFDeviceObjectRef_516aeba5-c0c2-40a0-a9e6-d1a983835a94.xml, IWDFDeviceInitialize interface, SetPnpCapability method, SetPnpCapability, SetPnpCapability method, SetPnpCapability method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize::SetPnpCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDeviceInitialize.SetPnpCapability
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ void SetPnpCapability(
 
 
 
-### -param Capability [in]
+#### - Capability [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to set. 
 
 
-### -param Value [in]
+#### - Value [in]
 
 A WDF_TRI_STATE-typed value that identifies how to set the PnP capability that is specified by <i>Capability</i>. The following table shows the possible values.
 <table>
@@ -128,9 +128,9 @@ None
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>
 
  
 

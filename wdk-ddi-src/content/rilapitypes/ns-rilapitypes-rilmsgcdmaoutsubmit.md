@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f74fe6cb-f38c-49ab-957f-9b3d163059c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT, netvista.rilmsgcdmaoutsubmit_2
+ms.keywords: RILMSGCDMAOUTSUBMIT, netvista.rilmsgcdmaoutsubmit_2, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], *LPRILMSGCDMAOUTSUBMIT, rilapitypes/RILMSGCDMAOUTSUBMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGCDMAOUTSUBMIT
 product: Windows
 targetos: Windows
-req.typenames: RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
+req.typenames: "*LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT"
 req.product: Windows 10 or later.
 ---
 
@@ -90,94 +90,94 @@ typedef struct _RILMSGCDMAOUTSUBMIT {
 
 
 
-### -field raDestAddress
+#### - raDestAddress
 
 
 
-### -field rsaDestSubaddr
+#### - rsaDestSubaddr
 
 
 
-### -field bDigit
+#### - bDigit
 
 
 
-### -field stValidityPeriodAbs
+#### - stValidityPeriodAbs
 
 
 
-### -field stValidityPeriodRel
+#### - stValidityPeriodRel
 
 
 
-### -field stDeferredDelTimeAbs
+#### - stDeferredDelTimeAbs
 
 
 
-### -field stDeferredDelTimeRel
+#### - stDeferredDelTimeRel
 
 
 
-### -field bDeliveryAckRequest
+#### - bDeliveryAckRequest
 
 
 
-### -field bUserAckRequest
+#### - bUserAckRequest
 
 
 
-### -field bBearerReplyRequest
+#### - bBearerReplyRequest
 
 
 
-### -field dwReplySeqNumber
+#### - dwReplySeqNumber
 
 
 
-### -field dwMsgDisplayMode
+#### - dwMsgDisplayMode
 
 
 
-### -field raCallBackNumber
+#### - raCallBackNumber
 
 
 
-### -field dwMsgPriority
+#### - dwMsgPriority
 
 
 
-### -field dwMsgPrivacy
+#### - dwMsgPrivacy
 
 
 
-### -field dwTeleservice
+#### - dwTeleservice
 
 
 
-### -field dwMsgID
+#### - dwMsgID
 
 
 
-### -field dwMsgLang
+#### - dwMsgLang
 
 
 
-### -field dwMsgEncoding
+#### - dwMsgEncoding
 
 
 
-### -field cbHdrLength
+#### - cbHdrLength
 
 
 
-### -field cchMsgLength
+#### - cchMsgLength
 
 
 
-### -field rgbHdr
+#### - rgbHdr
 
 
 
-### -field rgbMsg
+#### - rgbMsg
 
 

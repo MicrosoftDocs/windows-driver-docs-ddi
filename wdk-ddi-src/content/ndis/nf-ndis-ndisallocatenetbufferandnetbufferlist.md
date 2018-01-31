@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b872eff3-2d0a-4f01-874d-e00e09195801
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, ndis/NdisAllocateNetBufferAndNetBufferList, netvista.ndisallocatenetbufferandnetbufferlist, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista], NdisAllocateNetBufferAndNetBufferList
+ms.keywords: ndis/NdisAllocateNetBufferAndNetBufferList, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, NdisAllocateNetBufferAndNetBufferList, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista], netvista.ndisallocatenetbufferandnetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ PNET_BUFFER_LIST NdisAllocateNetBufferAndNetBufferList(
 
 
 
-### -param PoolHandle [in]
+#### - PoolHandle [in]
 
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
      <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
@@ -88,7 +88,7 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
      <b>DataSize</b> member set to zero.
 
 
-### -param ContextSize [in]
+#### - ContextSize [in]
 
 The amount of 
      <i>used data space</i> in the 
@@ -97,7 +97,7 @@ The amount of
      <i>ContextSize</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -param ContextBackFill [in]
+#### - ContextBackFill [in]
 
 The amount of 
      <i>unused data space</i> (backfill space) that the caller requires. NDIS adds this value to the 
@@ -105,13 +105,13 @@ The amount of
      <i>ContextBackFill</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -param MdlChain [in, optional]
+#### - MdlChain [in, optional]
 
 A pointer to an MDL chain that NDIS uses to initialize the preallocated NET_BUFFER structure. 
      <i>MdlChain</i> can be <b>NULL</b>.
 
 
-### -param DataOffset [in]
+#### - DataOffset [in]
 
 The initial offset, in bytes, from the start of the buffer to the start of the 
      <i>used data space</i> in the MDL chain. Data space ahead of this offset is 
@@ -121,7 +121,7 @@ The initial offset, in bytes, from the start of the buffer to the start of the
      <i>DataOffset</i> must be 0.
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 The length, in bytes, of the 
      <i>used data space</i> in the MDL chain. If 
@@ -194,18 +194,18 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
 
  
 

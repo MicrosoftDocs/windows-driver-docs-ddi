@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3b0d68f9-e871-42fe-97b0-f70f1fa72bf0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PSID, ifsk.sid, *PISID, _SID, SID, ntifs/SID, SID structure [Installable File System Drivers], securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml, PSID structure pointer [Installable File System Drivers], PSID
+ms.keywords: SID, securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml, *PISID, PSID structure pointer [Installable File System Drivers], ntifs/PSID, ifsk.sid, PSID, ntifs/SID, _SID, SID structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SID
 product: Windows
 targetos: Windows
-req.typenames: "*PISID, SID"
+req.typenames: SID, *PISID
 ---
 
 # _SID structure
@@ -72,15 +72,15 @@ typedef struct _SID {
 
 
 
-### -field Revision
+#### - Revision
 
 
 
-### -field SubAuthorityCount
+#### - SubAuthorityCount
 
 
 
-### -field IdentifierAuthority
+#### - IdentifierAuthority
 
 
 
@@ -94,33 +94,33 @@ typedef struct _SID {
  
 
 
-### -field SubAuthority
+#### - SubAuthority
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
-
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
-
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-
-<a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
-
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
-
-<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
-
-<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
-
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-
 <a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 <a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
 
+<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
+
 <a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
+
+<a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
+
+<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
 
  
 

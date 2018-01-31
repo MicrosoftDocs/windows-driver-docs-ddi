@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
 product: Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+req.typenames: "*PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER PEVT_UCX_CONTROLLER_GET_CURRE
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param FrameNumber [out]
+#### - FrameNumber [out]
 
 A pointer to the current 32-bit frame number.
 

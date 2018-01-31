@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4CCDA951-A583-48C4-98D7-D278183D8893
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/DXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], PDXGK_PRE_START_INFO, display.dxgk_pre_start_info, DXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], _DXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO
+ms.keywords: dispmprt/DXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO, _DXGK_PRE_START_INFO, DXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], *PDXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], PDXGK_PRE_START_INFO, display.dxgk_pre_start_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_PRE_START_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO"
+req.typenames: DXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO
 ---
 
 # _DXGK_PRE_START_INFO structure
@@ -80,32 +80,32 @@ typedef struct _DXGK_PRE_START_INFO {
 
 
 
-### -field ReservedIn
+#### - ReservedIn
 
 This value is reserved for system use.
 
 
-### -field Input
+#### - Input
 
 The combined UINT value operated on.
 
 
-### -field SupportPreserveBootDisplay
+#### - SupportPreserveBootDisplay
 
 Flag which indicates support for preserving the timing and content of the firmware display mode across DxgkDdiStartDevice.
 
 
-### -field IsUEFIFrameBufferCpuAccessibleDuringStartup
+#### - IsUEFIFrameBufferCpuAccessibleDuringStartup
 
 Indicates that the driver can maintain same CPU virtual address mapping to the UEFI frame buffer during driver initialization.
 
 
-### -field ReservedOut
+#### - ReservedOut
 
 This value is reserved for system use.
 
 
-### -field Output
+#### - Output
 
 The combined UINT value operated on.
 

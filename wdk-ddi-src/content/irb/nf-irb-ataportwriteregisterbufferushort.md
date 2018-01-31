@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1de586c7-2fee-488d-a84e-7cc08165ad50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportwriteregisterbufferushort, AtaPortWriteRegisterBufferUshort, irb/AtaPortWriteRegisterBufferUshort, AtaPortWriteRegisterBufferUshort routine [Storage Devices], atartns_7b2b3f11-f9ae-45a0-a690-9f879bd6e478.xml
+ms.keywords: AtaPortWriteRegisterBufferUshort routine [Storage Devices], storage.ataportwriteregisterbufferushort, irb/AtaPortWriteRegisterBufferUshort, AtaPortWriteRegisterBufferUshort, atartns_7b2b3f11-f9ae-45a0-a690-9f879bd6e478.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID AtaPortWriteRegisterBufferUshort(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Contains the destination register address where the transfer should begin. This address value must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the source buffer.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to write to the HBA.
 
@@ -98,9 +98,9 @@ None
 
 <a href="..\irb\nf-irb-ataportwriteregisterbufferushort.md">AtaPortWriteRegisterBufferUshort</a>
 
-<a href="..\irb\nf-irb-ataportwriteregisterbufferuchar.md">AtaPortWriteRegisterBufferUchar</a>
-
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+<a href="..\irb\nf-irb-ataportwriteregisterbufferuchar.md">AtaPortWriteRegisterBufferUchar</a>
 
  
 

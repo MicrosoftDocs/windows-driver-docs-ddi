@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbMiracastSendMessage
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_MIRACAST_SEND_MESSAGE callback
@@ -76,29 +76,35 @@ NTSTATUS* DxgkCbMiracastSendMessage(
 
 
 
-### -param MiracastHandle [in]
+#### - MiracastHandle [in]
 
 A driver-supplied handle to the Miracast display device. This handle was originally passed in the <b>MiracastHandle</b> member of the <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a> structure in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a> function.
 
 
-### -param InputBufferSize [in]
+#### - InputBufferSize [in]
 
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param *pInputBuffer
+#### - *pInputBuffer [in]
 
+A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
+
+See Remarks for more info about the input buffer.
 
 
 ### -param OutputBufferSize
 
 
 
-### -param *pOutputBuffer
+#### - *pOutputBuffer [out]
+
+A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
+
+See Remarks for more info about the output buffer.
 
 
-
-### -param pCallback [in, optional]
+#### - pCallback [in, optional]
 
 An optional pointer, supplied by the display miniport driver, to the <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a> callback function.
 
@@ -107,7 +113,7 @@ If the display miniport driver supplies the pointer to <a href="..\dispmprt\nc-d
 See Return value and Remarks sections for more about calls to <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a>.
 
 
-### -param pCallbackContext [in, optional]
+#### - pCallbackContext [in, optional]
 
 An optional driver-supplied pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
@@ -207,11 +213,11 @@ DriverCallbackFunction(
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a>
-
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
  
 

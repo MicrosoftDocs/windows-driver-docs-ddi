@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_changesymbolstate, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState method [Windows Debugging]
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ChangeSymbolState(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies a bit-set indicating the nature of the change to the symbol state.  The following bit flags might be set.
 <table>
@@ -139,7 +139,7 @@ The type options have changed.
 </table> 
 
 
-### -param Argument [in]
+#### - Argument [in]
 
 Provides additional information about the change to the symbol state.   If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 

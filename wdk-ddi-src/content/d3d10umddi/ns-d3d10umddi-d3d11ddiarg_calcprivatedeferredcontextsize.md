@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7889400e-bd26-43b5-a860-bea9f9217002
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure [Display Devices], D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, UMDisplayDriver_Dx11param_Structs_eca4d605-7188-46b1-b429-04094a9f7db6.xml, d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, display.d3d11ddiarg_calcprivatedeferredcontextsize
+ms.keywords: display.d3d11ddiarg_calcprivatedeferredcontextsize, D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure [Display Devices], D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, UMDisplayDriver_Dx11param_Structs_eca4d605-7188-46b1-b429-04094a9f7db6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE {
 
 
 
-### -field Flags
+#### - Flags
 
 [in] A valid bitwise OR of flag values that identify how to create a rendering device. The Direct3D runtime supports the following flags:  
 

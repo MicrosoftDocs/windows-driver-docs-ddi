@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77101494-97bb-4049-8c6c-cdb4ee82f312
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER, tagKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader, ksmedia/PKS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, ksmedia/KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices]
+ms.keywords: vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices], PKS_BITMAPINFOHEADER, ksmedia/PKS_BITMAPINFOHEADER, tagKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_BITMAPINFOHEADER
 product: Windows
 targetos: Windows
-req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
+req.typenames: "*PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER"
 ---
 
 # tagKS_BITMAPINFOHEADER structure
@@ -77,57 +77,57 @@ typedef struct tagKS_BITMAPINFOHEADER {
 
 
 
-### -field biSize
+#### - biSize
 
 Specifies the size of the structure in bytes.
 
 
-### -field biWidth
+#### - biWidth
 
 Specifies the width of the bitmap in pixels.
 
 
-### -field biHeight
+#### - biHeight
 
 Specifies the height of the bitmap in pixels.
 
 
-### -field biPlanes
+#### - biPlanes
 
 Specifies the number of planes. This is always set to 1.
 
 
-### -field biBitCount
+#### - biBitCount
 
 Specifies the color bits per pixel. For example, 1, 4, 8, or 24.
 
 
-### -field biCompression
+#### - biCompression
 
 Specifies the compression scheme.
 
 
-### -field biSizeImage
+#### - biSizeImage
 
 Specifies the size of bitmap bits in bytes. (Only required if using compression.)
 
 
-### -field biXPelsPerMeter
+#### - biXPelsPerMeter
 
 Specifies the horizontal resolution in pixels per meter.
 
 
-### -field biYPelsPerMeter
+#### - biYPelsPerMeter
 
 Specifies the vertical resolution in pixels per meter.
 
 
-### -field biClrUsed
+#### - biClrUsed
 
 Specifies the number of colors used in the image.
 
 
-### -field biClrImportant
+#### - biClrImportant
 
 Specifies the number of important colors in the image.
 

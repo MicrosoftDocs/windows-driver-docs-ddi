@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f36beac8-e4fb-49ce-b49d-a1a8f32f19a5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k107_431c6c60-e2bd-4d90-9054-b950195bbec3.xml, kernel.obreferenceobjectbyhandlewithtag, wdm/ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.obreferenceobjectbyhandlewithtag, wdm/ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag routine [Kernel-Mode Driver Architecture], k107_431c6c60-e2bd-4d90-9054-b950195bbec3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,32 +74,32 @@ NTSTATUS ObReferenceObjectByHandleWithTag(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Specifies an open handle for an object. 
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies the types of access to the object that the caller requests. This parameter is a bitmask of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>. The interpretation of this field depends on the object type. Do not use any generic access rights. 
 
 
-### -param ObjectType [in, optional]
+#### - ObjectType [in, optional]
 
 A pointer to an opaque structure that specifies the object type. This parameter points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a> structure. Set <i>ObjectType</i> to <b>NULL</b> or to one of the following pointer values, which are declared in the Wdm.h header file: <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsProcessType</b>, <b>*PsThreadType</b>, <b>*SeTokenObjectType</b>, <b>*TmEnlistmentObjectType</b>, <b>*TmResourceManagerObjectType</b>, <b>*TmTransactionManagerObjectType</b>, or <b>*TmTransactionObjectType</b>. If <i>ObjectType</i> is not <b>NULL</b>, the routine verifies that the supplied object type matches the object type of the object that the <i>Handle</i> parameter specifies. 
 
 
-### -param AccessMode [in]
+#### - AccessMode [in]
 
 Specifies the access mode to use for the access check. It must be either <b>UserMode</b> or <b>KernelMode</b>. Drivers should always specify <b>UserMode</b> for handles they receive from user address space.
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.
 
 
-### -param Object [out]
+#### - Object [out]
 
 A pointer to a variable into which the routine writes a pointer to the object. The following table lists the <i>Object</i> pointer types that are designated by the possible <i>ObjectType</i> parameter values.
 <table>
@@ -212,7 +212,7 @@ PKTRANSACTION
 The structures that the pointer types reference are opaque, and drivers cannot access the structure members. Because the structures are opaque, PEPROCESS is equivalent to PKPROCESS, and PETHREAD is equivalent to PKTHREAD. 
 
 
-### -param HandleInformation [out, optional]
+#### - HandleInformation [out, optional]
 
 Drivers set this parameter to <b>NULL</b>. 
 
@@ -286,15 +286,15 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

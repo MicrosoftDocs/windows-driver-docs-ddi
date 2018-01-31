@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 71A01647-3415-4F76-A67C-D1022C8A11D9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS, *PNDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters, _NDIS_ISOLATION_PARAMETERS
+ms.keywords: NDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_ISOLATION_PARAMETERS, _NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_ISOLATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS"
+req.typenames: NDIS_ISOLATION_PARAMETERS, *PNDIS_ISOLATION_PARAMETERS
 ---
 
 # _NDIS_ISOLATION_PARAMETERS structure
@@ -72,7 +72,7 @@ typedef struct _NDIS_ISOLATION_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_ISOLATION_PARAMETERS</b>  structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -88,46 +88,46 @@ Original version for NDIS 6.40 and later.
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_ISOLATION_PARAMETERS_REVISION_1</b>.
 
 
-### -field Flags
+#### - Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
 
 
-### -field IsolationMode
+#### - IsolationMode
 
 An <a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a> enumeration value that specifies the isolation mode.
 
 
-### -field AllowUntaggedTraffic
+#### - AllowUntaggedTraffic
 
 Specifies whether the VM network adapter's port is allowed to send or receive untagged packets. If untagged packets are allowed, the VM network adapter miniport driver tags untagged packets with the default isolation ID. Otherwise, the miniport driver drops them.
 
 
-### -field NumRoutingDomainEntries
+#### - NumRoutingDomainEntries
 
 A <b>ULONG</b> value that specifies the number of <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a> in the array that follows the <b>NDIS_ISOLATION_PARAMETERS</b> structure.
 
 
-### -field FirstRoutingDomainEntryOffset
+#### - FirstRoutingDomainEntryOffset
 
 A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a> element in the array that follows the <b>NDIS_ISOLATION_PARAMETERS</b> structure. The offset is measured from the start of the <b>NDIS_ISOLATION_PARAMETERS</b> structure to the beginning of the first element of the array.
 <div class="alert"><b>Note</b>  If the value of <b>NumRoutingDomainEntries</b> is zero, this member is ignored.</div><div> </div>
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn383680">NDIS_ISOLATION_PARAMETERS_GET_FIRST_ROUTING_DOMAIN_ENTRY</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn383690">OID_GEN_ISOLATION_PARAMETERS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbackswide_loadmodule, IDebugEventCallbacksWide::LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacksWide, LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::LoadModule
+ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide::LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_loadmodule, LoadModule method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT LoadModule(
 
 
 
-### -param ImageFileHandle [in]
+#### - ImageFileHandle [in]
 
 Specifies the handle to the module's image file.  If this information is not available, <i>ImageFileHandle</i> will be <b>NULL</b>. 
 
 
-### -param BaseOffset [in]
+#### - BaseOffset [in]
 
 Specifies the base address of the module in the target's memory address space.  If this information is not available, <i>BaseOffset</i> will be <b>NULL</b>.
 
 
-### -param ModuleSize [in]
+#### - ModuleSize [in]
 
 Specifies the module's image size in bytes.  If this information is not available, <i>ModuleSize</i> will be <b>NULL</b>.
 
 
-### -param ModuleName [in, optional]
+#### - ModuleName [in, optional]
 
 Specifies the simplified module name that is used by the debugger engine.  In most cases, this matches the image file name excluding the extension. If this information is not available, <i>ModuleName</i> will be <b>NULL</b>.
 
 
-### -param ImageName [in, optional]
+#### - ImageName [in, optional]
 
 Specifies the module's image file name, which can include the path.  If this information is not available, <i>ImageName</i> will be <b>NULL</b>.
 
 
-### -param CheckSum [in]
+#### - CheckSum [in]
 
 Specifies the checksum of the module's image file.  If this information is not available, <i>CheckSum</i> will be <b>NULL</b>.
 
 
-### -param TimeDateStamp [in]
+#### - TimeDateStamp [in]
 
 Specifies the time and date stamp of the module's image file.  If this information is not available, <i>TimeDateStamp</i> will be zero.
 

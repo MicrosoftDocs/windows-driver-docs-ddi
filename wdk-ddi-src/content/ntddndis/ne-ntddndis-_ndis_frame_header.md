@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_FRAME_HEADER, PNDIS_FRAME_HEADER, netvista.ndis_frame_header, NdisFrameHeaderMaximum, NdisFrameHeaderIPv6, NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderUndefined, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderArp, _NDIS_FRAME_HEADER, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml, NdisFrameHeaderMac, ntddndis/PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderUdp, NdisFrameHeaderUndefined, ntddndis/NDIS_FRAME_HEADER, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisFrameHeaderMaximum, *PNDIS_FRAME_HEADER, NdisFrameHeaderUdp, NdisFrameHeaderArp, ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderMac
+ms.keywords: ntddndis/NdisFrameHeaderUndefined, NdisFrameHeaderArp, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], *PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv6, NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderUdp, ntddndis/NDIS_FRAME_HEADER, NdisFrameHeaderUndefined, NdisFrameHeaderUdp, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], NdisFrameHeaderIPv6, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml, netvista.ndis_frame_header, ntddndis/NdisFrameHeaderMac, PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderArp, NdisFrameHeaderIPv4, ntddndis/PNDIS_FRAME_HEADER, NdisFrameHeaderMaximum, _NDIS_FRAME_HEADER, NdisFrameHeaderMac
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_FRAME_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_FRAME_HEADER, NDIS_FRAME_HEADER"
+req.typenames: NDIS_FRAME_HEADER, *PNDIS_FRAME_HEADER
 ---
 
 # _NDIS_FRAME_HEADER enumeration
@@ -73,38 +73,38 @@ typedef enum _NDIS_FRAME_HEADER {
 
 
 
-### -field NdisFrameHeaderUndefined
+#### - NdisFrameHeaderUndefined
 
 An undefined frame header type.
 
 
-### -field NdisFrameHeaderMac
+#### - NdisFrameHeaderMac
 
 A media access control (MAC) header.
 
 
-### -field NdisFrameHeaderArp
+#### - NdisFrameHeaderArp
 
 An Address Resolution Protocol (ARP) header.
 
 
-### -field NdisFrameHeaderIPv4
+#### - NdisFrameHeaderIPv4
 
 An IP version 4 (IPv4) header.
 
 
-### -field NdisFrameHeaderIPv6
+#### - NdisFrameHeaderIPv6
 
 An IP version 6 (IPv6) header.
 
 
-### -field NdisFrameHeaderUdp
+#### - NdisFrameHeaderUdp
 
 A User Datagram Protocol
 (UDP) header.
 
 
-### -field NdisFrameHeaderMaximum
+#### - NdisFrameHeaderMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

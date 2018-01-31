@@ -74,22 +74,22 @@ void EvtVhfAsyncOperation(
 
 
 
-### -param VhfClientContext [in]
+#### - VhfClientContext [in]
 
 An opaque pointer to a HID source driver-defined buffer that the driver passed in the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure supplied to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a> to create the virtual HID device.
 
 
-### -param VhfOperationHandle [in]
+#### - VhfOperationHandle [in]
 
 An opaque handle that uniquely identifies this asynchronous operation. 
 
 
-### -param VhfOperationContext [in, optional]
+#### - VhfOperationContext [in, optional]
 
 Pointer to a buffer that can be used by the HID source driver for servicing the operation. Size of the buffer is specified by the HID source driver in the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure supplied to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a>.
 
 
-### -param HidTransferPacket [in]
+#### - HidTransferPacket [in]
 
 A pointer to a <a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure. Contains information about a HID Report and is used by the HID source driver and the HID class/mini driver pair for I/O requests to get or set a report.
 

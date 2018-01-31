@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A277FC29-AB92-4D67-9E53-F8E8B36053F9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition
+ms.keywords: SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition method
@@ -67,7 +67,7 @@ NTSTATUS SetStreamCurrentWritePosition(
 
 
 
-### -param ulCurrentWritePosition [in]
+#### - ulCurrentWritePosition [in]
 
 The current cursor position in the audio data stream.
 

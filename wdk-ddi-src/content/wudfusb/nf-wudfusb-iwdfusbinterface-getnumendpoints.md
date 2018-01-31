@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 60ec8b38-8ab2-45d8-92ab-5943fd9bba79
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface, GetNumEndPoints method, IWDFUsbInterface interface, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, umdf.iwdfusbinterface_getnumendpoints, wudfusb/IWDFUsbInterface::GetNumEndPoints, GetNumEndPoints, GetNumEndPoints method, IWDFUsbInterface::GetNumEndPoints, IWDFUsbInterface interface, GetNumEndPoints method, wdf.iwdfusbinterface_getnumendpoints
+ms.keywords: GetNumEndPoints method, IWDFUsbInterface interface, IWDFUsbInterface, IWDFUsbInterface interface, GetNumEndPoints method, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, IWDFUsbInterface::GetNumEndPoints, GetNumEndPoints, umdf.iwdfusbinterface_getnumendpoints, wudfusb/IWDFUsbInterface::GetNumEndPoints, GetNumEndPoints method, wdf.iwdfusbinterface_getnumendpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,11 +85,11 @@ The <b>GetNumEndPoints</b> method is provided for convenience because a UMDF dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
 
  
 

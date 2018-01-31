@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 050b747e-5570-4e25-81e4-eccdde4f6995
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExitProcess method [Windows Debugging], IDebugEventCallbacks, dbgeng/IDebugEventCallbacks::ExitProcess, ExitProcess, ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, IDebugEventCallbacks::ExitProcess, debugger.idebugeventcallbacks_exitprocess, IDebugEventCallbacks interface [Windows Debugging], ExitProcess method, ExitProcess method [Windows Debugging], IDebugEventCallbacks interface
+ms.keywords: dbgeng/IDebugEventCallbacks::ExitProcess, IDebugEventCallbacks interface [Windows Debugging], ExitProcess method, ExitProcess, IDebugEventCallbacks::ExitProcess, ExitProcess method [Windows Debugging], IDebugEventCallbacks interface, ExitProcess method [Windows Debugging], IDebugEventCallbacks, ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, debugger.idebugeventcallbacks_exitprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT ExitProcess(
 
 
 
-### -param ExitCode [in]
+#### - ExitCode [in]
 
 Specifies the exit code for the process. 
 

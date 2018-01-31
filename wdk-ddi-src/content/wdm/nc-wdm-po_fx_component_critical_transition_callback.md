@@ -40,7 +40,7 @@ apiname:
 -	ComponentCriticalTransitionCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -73,17 +73,17 @@ VOID ComponentCriticalTransitionCallback(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to the device context. The device driver uses this context to store information about the current power state of the device. This context is driver-defined and is opaque to PoFx. The driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a> structure that the driver used to register the device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
 
 
-### -param Component [in]
+#### - Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <b>PO_FX_CORE_DEVICE</b> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Active [in]
+#### - Active [in]
 
 Indicates whether this notification is for a transition to the F0 component power state. If TRUE, the component has just completed a transition from a low-power F<i>x</i> state to F0. If FALSE, the component is about to start a transition from F0 to a low-power F<i>x</i> state.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1669872a-4306-4773-bd7e-6f481c5e689d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.feature_data_dvd_rw_restricted_overwrite, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure [Storage Devices], *PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure pointer [Storage Devices], structs-CD-ROM_b6d53c83-8d7d-4fc1-9e42-b173219961a4.xml, _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
+ms.keywords: ntddmmc/FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, structs-CD-ROM_b6d53c83-8d7d-4fc1-9e42-b173219961a4.xml, storage.feature_data_dvd_rw_restricted_overwrite, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure [Storage Devices], *PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure pointer [Storage Devices], _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field Blank
+#### - Blank
 
 Indicates, when set to 1, that the device supports the BLANK command defined by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification, with Blanking Types of zero and one. When set to zero, this bit indicates that the device does not support this command. 
 
 
-### -field Intermediate
+#### - Intermediate
 
 Indicates, when set to 1, that the device supports writing on an intermediate state-bordered area and quick formatting (Format Type of 15 - Quick Format, as defined by the <i>MMC-3</i> specification). When set to zero, this bit indicates that the device does not support writing on an intermediate state-bordered area nor does it support quick formatting. 
 
 
-### -field DefectStatusDataRead
+#### - DefectStatusDataRead
 
 Corresponds to the Defect Status Bitmap Read (DSBR) bit as defined by the <i>MMC-3</i> specification. When set to 1, this bit indicates that the device allows initiators to read the Defect Status Bitmap of a medium. When set to zero, this bit indicates that the device does not support the reading of Defect Status Bitmap. 
 
 
-### -field DefectStatusDataGenerate
+#### - DefectStatusDataGenerate
 
 Corresponds to the Defect Status Bitmap Generate (DSBG) bit as defined by the <i>MMC-3</i> specification. When set to 1, this bit indicates that the device can generate a Defect Status Bitmap during formatting. When set to zero, this bit indicates that the device cannot generate a Defect Status Bitmap during formatting. 
 
 
-### -field Reserved0
+#### - Reserved0
 
 Reserved. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 

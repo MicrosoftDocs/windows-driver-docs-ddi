@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac62a738-bde1-49e7-9c18-519471ec1092
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure [Display Devices], _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure pointer [Display Devices], display.video_port_wcmemoryprotection_interface, video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, Video_Structs_15076908-e598-4025-8884-a9ed60b1668c.xml
+ms.keywords: VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, display.video_port_wcmemoryprotection_interface, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, Video_Structs_15076908-e598-4025-8884-a9ed60b1668c.xml, _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure [Display Devices], PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure pointer [Display Devices], video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
+req.typenames: "*PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -74,50 +74,50 @@ typedef struct _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size in bytes of this structure.
 
 
-### -field Version
+#### - Version
 
 Specifies the version of the interface to be returned by the miniport driver. The current interface version is defined in <i>video.h</i>, and has the form VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE_VERSION_<i>N</i>.
 
 
-### -field Context
+#### - Context
 
 Pointer to a miniport driver-defined context for the interface.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 Pointer to the video port driver-implemented reference routine for this interface.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 Pointer to the video port driver-implemented dereference routine for this interface.
 
 
-### -field VideoPortProtectWCMemory
+#### - VideoPortProtectWCMemory
 
 Pointer to the video port driver's <a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a> callback routine.
 
 
-### -field VideoPortRestoreWCMemory
+#### - VideoPortRestoreWCMemory
 
 Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a> callback routine.
 
 
 ## -see-also
 
-<a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
-
-<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
-
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
+
+<a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
 
  
 

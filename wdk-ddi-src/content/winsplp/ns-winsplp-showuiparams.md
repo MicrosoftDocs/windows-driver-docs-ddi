@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 63ee7f5c-ca95-4c2d-be17-56a769188f8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.showuiparams, SHOWUIPARAMS structure [Print Devices], winsplp/PSHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], winsplp/SHOWUIPARAMS, SHOWUIPARAMS, spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, *PSHOWUIPARAMS, PSHOWUIPARAMS
+ms.keywords: SHOWUIPARAMS, winsplp/SHOWUIPARAMS, PSHOWUIPARAMS, SHOWUIPARAMS structure [Print Devices], winsplp/PSHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], print.showuiparams, *PSHOWUIPARAMS, spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,21 +69,21 @@ typedef struct {
 
 
 
-### -field UIType
+#### - UIType
 
 Specifies the type of user interface element. This member can be set to a single value: <b>kMessageBox</b>.
 
 
-### -field MessageBoxParams
+#### - MessageBoxParams
 
 Specifies a <a href="..\winsplp\ns-winsplp-messagebox_params.md">MESSAGEBOX_PARAMS</a> structure that contains the information about the message box.
 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-messagebox_params.md">MESSAGEBOX_PARAMS</a>
-
 <a href="..\winsplp\nf-winsplp-splpromptuiinuserssession.md">SplPromptUIInUsersSession</a>
+
+<a href="..\winsplp\ns-winsplp-messagebox_params.md">MESSAGEBOX_PARAMS</a>
 
  
 

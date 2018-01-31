@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_ReleaseController
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
 ---
 
 # GPIO_CLIENT_RELEASE_CONTROLLER callback
@@ -71,12 +71,12 @@ NTSTATUS CLIENT_ReleaseController(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the GPIO controller.
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4BE99C71-9BA6-44E3-A54F-DE8C3440A474">device context</a>.
 

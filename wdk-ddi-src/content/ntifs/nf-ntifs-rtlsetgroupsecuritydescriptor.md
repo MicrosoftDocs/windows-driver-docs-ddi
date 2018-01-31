@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f0473975-7ab6-46ba-bdb7-eb227e6bc258
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ntifs/RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor, ifsk.rtlsetgroupsecuritydescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml
+ms.keywords: RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ntifs/RtlSetGroupSecurityDescriptor, ifsk.rtlsetgroupsecuritydescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml, RtlSetGroupSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlSetGroupSecurityDescriptor(
 
 
 
-### -param SecurityDescriptor [in, out]
+#### - SecurityDescriptor [in, out]
 
 Pointer to the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure whose primary group is to be set. <b>RtlSetGroupSecurityDescriptor</b> replaces any existing primary group with the new primary group. 
 
 
-### -param Group [in, optional]
+#### - Group [in, optional]
 
 Pointer to a security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) structure for the security descriptor's new primary owner. This pointer, not the SID structure itself, is copied into the security descriptor. If <i>Group</i> is <b>NULL</b>, <b>RtlSetGroupSecurityDescriptor</b> clears the security descriptor's primary group information. This marks the security descriptor as having no primary group. 
 
 
-### -param GroupDefaulted [in, optional]
+#### - GroupDefaulted [in, optional]
 
 Set this Boolean variable to <b>TRUE</b> if the primary group information is derived from a default mechanism. If this parameter is <b>TRUE</b>, <b>RtlSetGroupSecurityDescriptor</b> sets the SE_GROUP_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL field. If this parameter is <b>FALSE</b>, <b>RtlSetGroupSecurityDescriptor</b> clears the SE_GROUP_DEFAULTED flag. 
 
@@ -133,15 +133,15 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
 <a href="..\ntifs\nf-ntifs-rtlgetgroupsecuritydescriptor.md">RtlGetGroupSecurityDescriptor</a>
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

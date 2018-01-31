@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F3C17CD8-F423-46E7-891F-E428235CEF3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG, _UCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, *PUCM_CONNECTOR_TYPEC_CONFIG
+ms.keywords: ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, _UCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, PUCM_CONNECTOR_TYPEC_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _UCM_CONNECTOR_TYPEC_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 Size of the <b>UCM_CONNECTOR_TYPEC_CONFIG</b> structure. 
 
 
-### -field IsSupported
+#### - IsSupported
 
 TRUE indicates a Type-C connector. FALSE, otherwise.  is supported. 
 
 
-### -field SupportedOperatingModes
+#### - SupportedOperatingModes
 
 Indicates the supported operating mode of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_operating_mode.md">UCM_TYPEC_OPERATING_MODE</a>-typed flags.
 
 
-### -field SupportedPowerSourcingCapabilities
+#### - SupportedPowerSourcingCapabilities
 
 Indicates the supported power source capabilities of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_current.md">UCM_TYPEC_CURRENT</a>-typed flags.
 
 
-### -field AudioAccessoryCapable
+#### - AudioAccessoryCapable
 
 Indicates whether the connector is capable of detecting a USB Type-C analog input as 3.5 mm audio jack.
 
 
-### -field EvtSetDataRole
+#### - EvtSetDataRole
 
 A pointer to the client driver's implementation of the <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_data_role.md">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a> callback function.
 

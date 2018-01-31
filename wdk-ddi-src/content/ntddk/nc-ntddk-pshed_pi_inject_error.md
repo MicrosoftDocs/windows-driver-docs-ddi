@@ -75,12 +75,12 @@ NTSTATUS InjectError(
 
 
 
-### -param PluginContext [in, out, optional]
+#### - PluginContext [in, out, optional]
 
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
 
-### -param ErrorType [in]
+#### - ErrorType [in]
 
 The type of error to be injected into the hardware platform. Possible values are:
 
@@ -147,22 +147,22 @@ An uncorrectable nonfatal platform error.
 An uncorrectable fatal platform error.
 
 
-### -param Parameter1 [in]
+#### - Parameter1 [in]
 
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 
-### -param Parameter2 [in]
+#### - Parameter2 [in]
 
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 
-### -param Parameter3 [in]
+#### - Parameter3 [in]
 
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 
-### -param Parameter4 [in]
+#### - Parameter4 [in]
 
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 

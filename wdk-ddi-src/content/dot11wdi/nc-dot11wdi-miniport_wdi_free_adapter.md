@@ -73,7 +73,7 @@ VOID MiniportWdiFreeAdapter(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 The handle to the context area that the miniport driver allocated.
 

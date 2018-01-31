@@ -40,7 +40,7 @@ apiname:
 -	CsSetConstantBuffers
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETCONSTANTBUFFERS callback
@@ -81,7 +81,7 @@ VOID APIENTRY CsSetConstantBuffers(
 
 
 
-### -param NumBuffers [in]
+#### - NumBuffers [in]
 
  The total number of buffers to set. 
 

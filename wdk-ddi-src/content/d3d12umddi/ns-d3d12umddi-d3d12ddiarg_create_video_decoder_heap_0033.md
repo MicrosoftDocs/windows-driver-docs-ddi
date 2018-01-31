@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 158411ee-6cc1-466d-b772-fe380b55baef
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, display.d3d12ddiarg-create-video-decoder-heap-0033
+ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, display.d3d12ddiarg-create-video-decoder-heap-0033, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,42 +76,42 @@ typedef struct _D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 {
 
 
 
-### -field NodeMask
+#### - NodeMask
 
 The set of nodes.
 
 
-### -field Configuration
+#### - Configuration
 
 The video decode configuration.
 
 
-### -field DecodeWidth
+#### - DecodeWidth
 
 Decode width.
 
 
-### -field DecodeHeight
+#### - DecodeHeight
 
 Decode height.
 
 
-### -field Format
+#### - Format
 
 The resource data format.
 
 
-### -field FrameRate
+#### - FrameRate
 
 A rational number that specifies the frame rate.
 
 
-### -field BitRate
+#### - BitRate
 
 The number of bits per second.
 
 
-### -field MaxDecodePictureBufferCount
+#### - MaxDecodePictureBufferCount
 
 Maximum decode picture buffer count.
 

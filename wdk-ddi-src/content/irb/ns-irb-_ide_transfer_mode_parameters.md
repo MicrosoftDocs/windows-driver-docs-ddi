@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 66e6efd0-6651-4c87-94ba-d9d3b9191339
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], irb/IDE_TRANSFER_MODE_PARAMETERS, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml, _IDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS, storage.ide_transfer_mode_parameters, PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], irb/PIDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS
+ms.keywords: PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], storage.ide_transfer_mode_parameters, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], _IDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS, irb/IDE_TRANSFER_MODE_PARAMETERS, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml, PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS, irb/PIDE_TRANSFER_MODE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDE_TRANSFER_MODE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS"
+req.typenames: IDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS
 ---
 
 # _IDE_TRANSFER_MODE_PARAMETERS structure
@@ -72,32 +72,32 @@ typedef struct _IDE_TRANSFER_MODE_PARAMETERS {
 
 
 
-### -field ChannelNumber
+#### - ChannelNumber
 
 Indicates the channel number whose mode parameters are to be set.
 
 
-### -field DeviceType
+#### - DeviceType
 
 Contains an enumeration value of type <a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a> that indicates the type of device. The miniport driver should not select a transfer mode if the device type is <b>DeviceNotExist</b>.
 
 
-### -field IoReadySupported
+#### - IoReadySupported
 
 Indicates when <b>TRUE</b> that bit 11 of word 49 of the indicated device's identify data is set to 1. An IDE request with a function value of IRB_FUNCTION_ATA_IDENTIFY will retrieve a device's identify data. For more information about ATA identify data, see the sections on the Identify Device information packet in version 6.0 of the <i>ATA/ATAPI specification</i>.
 
 
-### -field DeviceTransferModeSupported
+#### - DeviceTransferModeSupported
 
 Contains a bitmap that indicates the supported transfer modes for each of the devices on the channel. The port driver sets this member. The miniport driver must not select a transfer mode that the port driver does not support. For more information about this member, see the <b>Remarks</b> section.
 
 
-### -field DeviceTransferModeCurrent
+#### - DeviceTransferModeCurrent
 
 Contains a bitmap that indicates the current transfer mode settings for each of the device on the channel. The port driver retrieves the current transfer mode of the devices from their identify device data. For more information about this member, see the <b>Remarks</b> section.
 
 
-### -field DeviceTransferModeSelected
+#### - DeviceTransferModeSelected
 
 Contains a bitmap that indicates the selected transfer mode settings for each of the device on the channel. The miniport driver should use this member to indicate to the port driver which transfer modes it selects. For more information about this member, see the <b>Remarks</b> section.
 
@@ -153,9 +153,9 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550143">AtaControllerTransferModeSelect</a>
-
 <a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550143">AtaControllerTransferModeSelect</a>
 
  
 

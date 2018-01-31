@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3A4D19FD-FC65-4B78-8F0E-9792EB0A9B03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, display.d3d12ddi_video_processor_input_stream_desc_0032, d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 structure [Display Devices], D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, display.d3d12ddi_video_processor_input_stream_desc_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,32 +83,32 @@ typedef struct _D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 {
 
 
 
-### -field Format
+#### - Format
 
 The DXGI format of the input texture and references.
 
 
-### -field ColorSpace
+#### - ColorSpace
 
 A DXGI_COLOR_SPACE_TYPE value that specifies the colorspace for the video processor input and reference surfaces.
 
 
-### -field SourceAspectRatio
+#### - SourceAspectRatio
 
 The source aspect ratio.
 
 
-### -field DestinationAspectRatio
+#### - DestinationAspectRatio
 
 The destination aspect ratio.
 
 
-### -field FrameRate
+#### - FrameRate
 
 The frame rate of the input video stream, specified as a DXGI_RATIONAL structure.
 
 
-### -field SourceSizeRange
+#### - SourceSizeRange
 
 Describes the minimum and maximum source rectangle size.  Video processor should allocate to handle all cases within the range.
 
@@ -118,52 +118,52 @@ Describes the minimum and maximum source rectangle size.  Video processor should
  
 
 
-### -field EnableOrientation
+#### - EnableOrientation
 
 Enable all transforms specified in D3D12DDI_VIDEO_PROCESS_ORIENTATION.
 
 
-### -field FilterFlags
+#### - FilterFlags
 
 A bitwise OR of one or more flags from the D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS enumeration specifies the filters to enable.
 
 
-### -field StereoFormat
+#### - StereoFormat
 
 Specifies whether the stream is stereo or not. If D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_SEPARATE, we have two sets of input textures and references (for the stereo interlaced case).
 
 
-### -field FieldType
+#### - FieldType
 
 Specifies the frame format as progressive or interlaced for the input stream.  See D3D12DDI_VIDEO_FIELD_TYPE.
 
 
-### -field DeinterlaceMode
+#### - DeinterlaceMode
 
 The deinterlace mode to use.  See D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS.
 
 
-### -field EnableAlphaBlending
+#### - EnableAlphaBlending
 
 The planar alpha for an input stream on the video processor.  See D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING.
 
 
-### -field LumaKey
+#### - LumaKey
 
 The luma key for an input stream on the video processor.  See D3D12DDI_VIDEO_PROCESS_LUMA_KEY for more details.
 
 
-### -field NumPastFrames
+#### - NumPastFrames
 
 The number of past frames.
 
 
-### -field NumFutureFrames
+#### - NumFutureFrames
 
 The number of future frames.
 
 
-### -field EnableAutoProcessing
+#### - EnableAutoProcessing
 
 Enables or disables automatic processing features on the video processor.
 

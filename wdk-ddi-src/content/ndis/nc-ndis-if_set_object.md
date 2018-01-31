@@ -76,7 +76,7 @@ typedef IF_SET_OBJECT *IFP_SET_OBJECT;
 
 
 
-### -param ProviderIfContext [in]
+#### - ProviderIfContext [in]
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
@@ -84,7 +84,7 @@ A handle that identifies the interface provider's context area for the interface
      NdisIfRegisterInterface</b></mshelp:link> function.
 
 
-### -param ObjectId [in]
+#### - ObjectId [in]
 
 An identifier for the object that is the target of the set request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
@@ -92,13 +92,13 @@ An identifier for the object that is the target of the set request. For a list o
      OIDs</mshelp:link>.
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 The length, in bytes, of the buffer that 
      <i>pInputBuffer</i> points to.
 
 
-### -param pInputBuffer [in]
+#### - pInputBuffer [in]
 
 A pointer to an input buffer that specifies the information that the interface provider should use
      to set the object data.

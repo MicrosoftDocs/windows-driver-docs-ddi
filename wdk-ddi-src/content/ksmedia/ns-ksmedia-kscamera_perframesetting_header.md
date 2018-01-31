@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2D8A9E54-5551-4DDF-A123-077BA73AE06D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCAMERA_PERFRAMESETTING_HEADER, *PKSCAMERA_PERFRAMESETTING_HEADER, stream.kscamera_perframesetting_header, PKSCAMERA_PERFRAMESETTING_HEADER structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER structure [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER
+ms.keywords: PKSCAMERA_PERFRAMESETTING_HEADER structure pointer [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_HEADER, *PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER structure [Streaming Media Devices], stream.kscamera_perframesetting_header, ksmedia/KSCAMERA_PERFRAMESETTING_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_PERFRAMESETTING_HEADER
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_PERFRAMESETTING_HEADER, *PKSCAMERA_PERFRAMESETTING_HEADER
+req.typenames: "*PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER"
 ---
 
 # KSCAMERA_PERFRAMESETTING_HEADER structure
@@ -72,32 +72,32 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 The size of this header, frame headers, item headers, value payloads, custom items, and custom data for all frames.
 
 
-### -field FrameCount
+#### - FrameCount
 
 The number of frame settings in this per-frame settings payload.
 
 
-### -field Id
+#### - Id
 
 Not used.
 
 
-### -field Flags
+#### - Flags
 
 Not used.
 
 
-### -field LoopCount
+#### - LoopCount
 
 The number of repeats for this per-frame setting. This is always 1.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 208fecc5-f01f-41f3-80d3-d811b3f4173a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, stream.iksclockpropertyset_kssetcorrelatedphysicaltime, ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], KsSetCorrelatedPhysicalTime, IKsClockPropertySet::KsSetCorrelatedPhysicalTime, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface
+ms.keywords: KsSetCorrelatedPhysicalTime method [Streaming Media Devices], ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, IKsClockPropertySet, IKsClockPropertySet::KsSetCorrelatedPhysicalTime, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime, stream.iksclockpropertyset_kssetcorrelatedphysicaltime, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsSetCorrelatedPhysicalTime(
 
 
 
-### -param CorrelatedTime [in]
+#### - CorrelatedTime [in]
 
 Pointer to a <a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time to which to set the underlying clock. 
 

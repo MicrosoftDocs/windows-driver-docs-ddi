@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3487addb-e196-4295-95fc-0590802e766a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetBreakpointByIndex2, IDebugControl4::GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, debugger.getbreakpointbyindex2, dbgeng/IDebugControl4::GetBreakpointByIndex2, IDebugControl4, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method
+ms.keywords: IDebugControl4::GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], dbgeng/IDebugControl4::GetBreakpointByIndex2, IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method, IDebugControl4, GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, debugger.getbreakpointbyindex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetBreakpointByIndex2(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the zero-based index of the breakpoint to return.  This is specific to the current process.  The value of <i>Index</i> should be between zero and the total number of breakpoints minus one. The total number of breakpoints can be determined by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>.
 
 
-### -param Bp [out]
+#### - Bp [out]
 
 Receives the returned breakpoint.
 
@@ -122,9 +122,9 @@ The index and returned breakpoint are specific to the current process.  The same
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>
 
  
 

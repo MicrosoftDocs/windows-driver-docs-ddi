@@ -71,12 +71,12 @@ VOID AVStrMiniAllocatorFreeFrame(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the allocator's context structure created in <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the frame to be freed.
 

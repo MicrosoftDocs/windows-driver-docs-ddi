@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b77de459-b5ac-4752-89eb-f24fdde36134
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup::AddSymbol, AddSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbol method, IDebugSymbolGroup2::AddSymbol, ComOther_936851e7-6a8b-4b42-b339-9c8aa096d684.xml, debugger.addsymbol, IDebugSymbolGroup2, AddSymbol, IDebugSymbolGroup::AddSymbol, dbgeng/IDebugSymbolGroup2::AddSymbol, AddSymbol method [Windows Debugging], AddSymbol method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], AddSymbol method
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], AddSymbol method, dbgeng/IDebugSymbolGroup2::AddSymbol, AddSymbol method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup2::AddSymbol, IDebugSymbolGroup::AddSymbol, ComOther_936851e7-6a8b-4b42-b339-9c8aa096d684.xml, AddSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup::AddSymbol, IDebugSymbolGroup interface [Windows Debugging], AddSymbol method, debugger.addsymbol, AddSymbol method [Windows Debugging], AddSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT AddSymbol(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 The symbol's name.  <i>Name</i> is examined as an expression to determine the symbol's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">type</a>.  This expression can include pointer, array, and structure dereferencing (for example, <b>*my_pointer</b>, <b>my_array[1]</b>, or <b>my_struct.some_field</b>).
 
 
-### -param Index [in, out]
+#### - Index [in, out]
 
 The index of the entry in the symbol group.  When you are calling <b>AddSymbol</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff537934">AddSymbolWide</a>, <i>Index</i> should point to the index of the symbol that you want. Or, if <i>Index</i> points to DEBUG_ANY_ID, the symbol is appended to the end of the list.   
 
@@ -119,13 +119,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 

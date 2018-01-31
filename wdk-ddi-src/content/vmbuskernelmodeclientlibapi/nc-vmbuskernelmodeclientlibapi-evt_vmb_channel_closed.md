@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_CHANNEL_CLOSED
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ typedef EVT_VMB_CHANNEL_CLOSED PFN_VMB_CHANNEL_CLOSED;
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The channel that the guest virtual machine closes.
 

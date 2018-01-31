@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDeviceIoControl, buses.ufxdeviceiocontrol, UfxDeviceIoControl method [Buses], ufxclient/UfxDeviceIoControl
+ms.keywords: UfxDeviceIoControl, buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl, UfxDeviceIoControl method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceIoControl
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ BOOLEAN UfxDeviceIoControl(
 
 
 
-### -param UfxDevice [in]
+#### - UfxDevice [in]
 
 A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
 
-### -param IoControlCode [in]
+#### - IoControlCode [in]
 
 The driver-defined or system-defined IOCTL that is associated with the request.
 

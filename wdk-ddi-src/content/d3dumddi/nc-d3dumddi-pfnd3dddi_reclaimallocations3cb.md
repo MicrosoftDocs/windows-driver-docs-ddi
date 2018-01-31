@@ -71,7 +71,7 @@ _Check_return_ HRESULT CALLBACK pfnReclaimAllocations3Cb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device.
 

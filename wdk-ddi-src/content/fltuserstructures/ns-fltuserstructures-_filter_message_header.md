@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltuserstructures/FILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], fltuserstructures/PFILTER_MESSAGE_HEADER, ifsk.filter_message_header, _FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, *PFILTER_MESSAGE_HEADER
+ms.keywords: PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], fltuserstructures/PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, FILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER, _FILTER_MESSAGE_HEADER, ifsk.filter_message_header, *PFILTER_MESSAGE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _FILTER_MESSAGE_HEADER {
 
 
 
-### -field ReplyLength
+#### - ReplyLength
 
 On output from <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>, this field receives the length, in bytes, of the expected reply, including the FILTER_REPLY_HEADER header. Set to zero if no reply is expected. 
 
 
-### -field MessageId
+#### - MessageId
 
 On output from <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>, this field receives the unique identifier (ID) for the message sent by the kernel-mode driver. If the application replies to the message, it must set this ID in the <b>MessageId</b> field of the FILTER_REPLY_HEADER header in the reply. 
 

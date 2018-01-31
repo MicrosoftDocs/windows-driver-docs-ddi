@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3f346a09-071e-4512-bf77-994d277cef4d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PropertyMaskQuery, ntddstor/STORAGE_QUERY_TYPE, PropertyQueryMaxDefined, structs-general_e76c71e4-e6ef-40d0-a0e7-5a21102efb1b.xml, storage.storage_query_type, ntddstor/PropertyExistsQuery, STORAGE_QUERY_TYPE, PropertyStandardQuery, ntddstor/PropertyStandardQuery, ntddstor/PropertyQueryMaxDefined, STORAGE_QUERY_TYPE enumeration [Storage Devices], PropertyMaskQuery, *PSTORAGE_QUERY_TYPE, PropertyExistsQuery, _STORAGE_QUERY_TYPE, PSTORAGE_QUERY_TYPE enumeration pointer [Storage Devices], ntddstor/PSTORAGE_QUERY_TYPE, PSTORAGE_QUERY_TYPE
+ms.keywords: PSTORAGE_QUERY_TYPE, ntddstor/PropertyStandardQuery, PropertyMaskQuery, STORAGE_QUERY_TYPE, STORAGE_QUERY_TYPE enumeration [Storage Devices], storage.storage_query_type, ntddstor/STORAGE_QUERY_TYPE, ntddstor/PropertyMaskQuery, PropertyStandardQuery, ntddstor/PropertyQueryMaxDefined, ntddstor/PropertyExistsQuery, structs-general_e76c71e4-e6ef-40d0-a0e7-5a21102efb1b.xml, *PSTORAGE_QUERY_TYPE, _STORAGE_QUERY_TYPE, PropertyQueryMaxDefined, PSTORAGE_QUERY_TYPE enumeration pointer [Storage Devices], ntddstor/PSTORAGE_QUERY_TYPE, PropertyExistsQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_QUERY_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+req.typenames: "*PSTORAGE_QUERY_TYPE, STORAGE_QUERY_TYPE"
 ---
 
 # _STORAGE_QUERY_TYPE enumeration
@@ -70,22 +70,22 @@ typedef enum _STORAGE_QUERY_TYPE {
 
 
 
-### -field PropertyStandardQuery
+#### - PropertyStandardQuery
 
 Instructs the port driver to report a device descriptor, an adapter descriptor or a unique hardware device ID (DUID).
 
 
-### -field PropertyExistsQuery
+#### - PropertyExistsQuery
 
 Instructs the port driver to report whether the descriptor is supported.
 
 
-### -field PropertyMaskQuery
+#### - PropertyMaskQuery
 
 Not currently supported. Do not use.
 
 
-### -field PropertyQueryMaxDefined
+#### - PropertyQueryMaxDefined
 
 Specifies the upper limit of the list of query types. This is used to validate the query type.
 
@@ -101,11 +101,11 @@ Caller defines the exact nature of an <a href="..\ntddstor\ni-ntddstor-ioctl_sto
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
  
 

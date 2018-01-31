@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerAlert, buses.ucmtcpciportcontrolleralert
+ms.keywords: buses.ucmtcpciportcontrolleralert, UcmTcpciPortControllerAlert method [Buses], UcmTcpciPortControllerAlert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID UcmTcpciPortControllerAlert(
 
 
 
-### -param PortControllerObject [in]
+#### - PortControllerObject [in]
 
 Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
 
 
-### -param AlertData
+#### - AlertData
 
 A pointer to an array of <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data.md">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a> that contains all current alerts that have not been sent to UcmTcpciCx. This value cannot be NULL.
 
 
-### -param NumberOfAlerts
+#### - NumberOfAlerts
 
 The number of items in the array pointed to by <i>AlertData</i>. This value cannot be 0.
 

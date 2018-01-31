@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PWDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, wdf.wdf_kprocessor_mode, WDF_KPROCESSOR_MODE, wudfddi_types/WdfUserMode, WdfKProcessorModeInvalid, WdfKernelMode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, WdfUserMode, WDF_KPROCESSOR_MODE enumeration, wudfddi_types/WdfKProcessorModeMaximum, PWDF_KPROCESSOR_MODE, _WDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE enumeration pointer, WdfKProcessorModeMaximum, wudfddi_types/WdfKernelMode, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid"
+ms.keywords: WdfKernelMode, wudfddi_types/WdfKProcessorModeInvalid, *PWDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE, _WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeMaximum, PWDF_KPROCESSOR_MODE, wdf.wdf_kprocessor_mode, WdfUserMode, wudfddi_types/WdfUserMode, wudfddi_types/WdfKernelMode, WdfKProcessorModeInvalid, PWDF_KPROCESSOR_MODE enumeration pointer, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, WDF_KPROCESSOR_MODE enumeration, umdf.wdf_kprocessor_mode, WdfKProcessorModeMaximum, wudfddi_types/PWDF_KPROCESSOR_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_KPROCESSOR_MODE {
 
 
 
-### -field WdfKProcessorModeInvalid
+#### - WdfKProcessorModeInvalid
 
 Reserved for system use.
 
 
-### -field WdfKernelMode
+#### - WdfKernelMode
 
 The processor mode is kernel mode.
 
 
-### -field WdfUserMode
+#### - WdfUserMode
 
 The processor mode is user mode.
 
 
-### -field WdfKProcessorModeMaximum
+#### - WdfKProcessorModeMaximum
 
 Valid enumeration values were exceeded.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bd64ef0d-b2e7-4f82-87a8-77fe98677fd9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_PROPERTY_STORE_RETRIEVE_FLAGS, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreCreateIfMissing, WdfPropertyStoreCreateVolatile, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreCreateVolatile, wudfddi_types/WdfPropertyStoreCreateIfMissing, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask, umdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreNormal, WdfPropertyStoreNormal, WdfPropertyStoreRetrieveFlagsMask, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration"
+ms.keywords: WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WdfPropertyStoreCreateIfMissing, wudfddi_types/WdfPropertyStoreNormal, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreCreateVolatile, WdfPropertyStoreCreateVolatile, WdfPropertyStoreNormal, umdf.wdf_property_store_retrieve_flags, WdfPropertyStoreCreateIfMissing, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreRetrieveFlagsMask, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,22 +76,22 @@ typedef enum _WDF_PROPERTY_STORE_RETRIEVE_FLAGS {
 
 
 
-### -field WdfPropertyStoreNormal
+#### - WdfPropertyStoreNormal
 
 Do not create the registry key if it does not exist.
 
 
-### -field WdfPropertyStoreCreateIfMissing
+#### - WdfPropertyStoreCreateIfMissing
 
 Create the registry key if it does not exist. The key will be <i>nonvolatile</i>, which means that it will not be deleted when Windows restarts.
 
 
-### -field WdfPropertyStoreCreateVolatile
+#### - WdfPropertyStoreCreateVolatile
 
 Create the registry key if it does not exist. The key will be volatile, which means that it will be deleted when Windows restarts. This flag is available in UMDF versions 1.9 and later. 
 
 
-### -field WdfPropertyStoreRetrieveFlagsMask
+#### - WdfPropertyStoreRetrieveFlagsMask
 
 Reserved for system use. 
 
@@ -105,11 +105,11 @@ Reserved for system use.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
  
 

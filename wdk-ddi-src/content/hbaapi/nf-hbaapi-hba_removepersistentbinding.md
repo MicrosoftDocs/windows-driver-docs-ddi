@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2dbdd95-ddf9-4e95-acd5-853c29cebf02
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RemovePersistentBinding routine [Storage Devices], HBA_RemovePersistentBinding, hbaapi/HBA_RemovePersistentBinding, storage.hba_removepersistentbinding, fibreHBA_rtns_d8ccc5eb-b268-4809-88e5-3cee263f6b35.xml
+ms.keywords: hbaapi/HBA_RemovePersistentBinding, HBA_RemovePersistentBinding, storage.hba_removepersistentbinding, fibreHBA_rtns_d8ccc5eb-b268-4809-88e5-3cee263f6b35.xml, HBA_RemovePersistentBinding routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ HBA_STATUS HBA_API HBA_RemovePersistentBinding(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
-### -param HbaPortWWN [in]
+#### - HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port for which to remove all persistent bindings. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-### -param Binding [in]
+#### - Binding [in]
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbinding2.md">HBA_FCPBinding2</a> that contains an array of bindings between operating system identifiers, SCSI logical unit ID descriptors (LUIDs) and fibre channel protocol (FCP) identifiers for a set of logical units. 
 
@@ -150,9 +150,9 @@ The removal of persistent bindings does not change target mappings until the ope
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

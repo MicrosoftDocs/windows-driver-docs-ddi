@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d61f9e04-e308-4844-9d46-d15faee04e75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsReleaseClassifyHandle0, fwpsk/FwpsReleaseClassifyHandle0, FwpsReleaseClassifyHandle0 function [Network Drivers Starting with Windows Vista], netvista.fwpsreleaseclassifyhandle0, wfp_ref_2_funct_3_fwps_R-Z_a488d8fc-0c0f-4580-a934-7dba9e2f98b9.xml
+ms.keywords: FwpsReleaseClassifyHandle0, wfp_ref_2_funct_3_fwps_R-Z_a488d8fc-0c0f-4580-a934-7dba9e2f98b9.xml, FwpsReleaseClassifyHandle0 function [Network Drivers Starting with Windows Vista], netvista.fwpsreleaseclassifyhandle0, fwpsk/FwpsReleaseClassifyHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ void NTAPI FwpsReleaseClassifyHandle0(
 
 
 
-### -param classifyHandle [in]
+#### - classifyHandle [in]
 
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
@@ -100,15 +100,15 @@ Any time
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
  
 

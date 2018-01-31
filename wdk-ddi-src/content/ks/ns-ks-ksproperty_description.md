@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d3d59dca-7214-493c-bb70-4391696fe017
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], ks/KSPROPERTY_DESCRIPTION, ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, PKSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION, stream.ksproperty_description, ks/PKSPROPERTY_DESCRIPTION
+ms.keywords: ks/PKSPROPERTY_DESCRIPTION, ks/KSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], *PKSPROPERTY_DESCRIPTION, ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], KSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION, stream.ksproperty_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct {
 
 
 
-### -field AccessFlags
+#### - AccessFlags
 
 Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
 
 
-### -field DescriptionSize
+#### - DescriptionSize
 
 Specifies total size in bytes of the KSPROPERTY_DESCRIPTION structure and any values entries that follow it. If the basic-support property request returns no values entries, this member is the size of KSPROPERTY_DESCRIPTION.
 
 
-### -field PropTypeSet
+#### - PropTypeSet
 
 A structure of type <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>. If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
 
 
-### -field MembersListCount
+#### - MembersListCount
 
 Specifies the number of <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a> structures to follow this header.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use. Set to zero.
 
@@ -113,11 +113,11 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
 
 <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
-
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 192684D1-3D01-4EAA-989F-2E21E7187B3B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/DEVICE_COPY_OFFLOAD_DESCRIPTOR, *PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Storage Devices], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/PDEVICE_COPY_OFFLOAD_DESCRIPTOR, storage.device_copy_offload_descriptor, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_COPY_OFFLOAD_DESCRIPTOR
+ms.keywords: "*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/DEVICE_COPY_OFFLOAD_DESCRIPTOR, storage.device_copy_offload_descriptor, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Storage Devices], _DEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,60 +78,60 @@ typedef struct _DEVICE_COPY_OFFLOAD_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to 
       the structure.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
 
 
-### -field MaximumTokenLifetime
+#### - MaximumTokenLifetime
 
 The maximum lifetime of the token, in seconds.
 
 
-### -field DefaultTokenLifetime
+#### - DefaultTokenLifetime
 
 The default lifetime of the token, in seconds.
 
 
-### -field MaximumTransferSize
+#### - MaximumTransferSize
 
 The maximum transfer size, in bytes.
 
 
-### -field OptimalTransferCount
+#### - OptimalTransferCount
 
 The optimal transfer size, in bytes.
 
 
-### -field MaximumDataDescriptors
+#### - MaximumDataDescriptors
 
 The maximum number of data descriptors.
 
 
-### -field MaximumTransferLengthPerDescriptor
+#### - MaximumTransferLengthPerDescriptor
 
 The maximum transfer length, in blocks, per descriptor.
 
 
-### -field OptimalTransferLengthPerDescriptor
+#### - OptimalTransferLengthPerDescriptor
 
 The optimal transfer length, in blocks, per descriptor.
 
 
-### -field OptimalTransferLengthGranularity
+#### - OptimalTransferLengthGranularity
 
 The granularity of the optimal transfer length, in blocks. Transfer lengths that are not an even multiple 
       of this length may be delayed.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 

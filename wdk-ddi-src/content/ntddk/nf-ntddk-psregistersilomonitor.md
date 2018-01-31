@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psregistersilomonitor, PsRegisterSiloMonitor, ntddk/PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture], ntddk/PsRegisterSiloMonitor, kernel.psregistersilomonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS PsRegisterSiloMonitor(
 
 
 
-### -param Registration [in]
+#### - Registration [in]
 
 Specifies the server silo monitor to be registered, of type <a href="..\ntddk\ns-ntddk-_silo_monitor_registration.md">SILO_MONITOR_REGISTRATION</a>. 
 
 
-### -param ReturnedMonitor [out]
+#### - ReturnedMonitor [out]
 
 Receives a pointer to the monitor. This pointer is used to make further monitor-related calls.
 

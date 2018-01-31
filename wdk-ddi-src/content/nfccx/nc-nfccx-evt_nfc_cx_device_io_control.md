@@ -74,27 +74,27 @@ void EvtNfcCxDeviceIoControl(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
 
-### -param IoControlCode [in]
+#### - IoControlCode [in]
 
 The driver-defined or system-defined I/O control code (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">IOCTL</a>) that is associated with the request.
 
@@ -115,9 +115,9 @@ The client can complete the request either synchronously or asynchronously. The 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

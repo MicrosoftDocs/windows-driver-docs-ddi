@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aec0655b-7cc0-48b6-828c-b9d39c71e5b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FileAlternateNameInformation, ntifs/FileDirectoryInformation, FileNormalizedNameInformation, ntifs/FileStandardLinkInformation, FileBasicInformation, wdm/FileNormalizedNameInformation, FileNamesInformation, wdm/FileIsRemoteDeviceInformation, FileModeInformation, ntifs/FileAlignmentInformation, ntifs/FileFullDirectoryInformation, FileCompletionInformation, FileEndOfFileInformation, ntifs/FileNetworkPhysicalNameInformation, wdm/FileIdGlobalTxDirectoryInformation, FileRenameInformationEx, FILE_INFORMATION_CLASS enumeration [Installable File System Drivers], wdm/PFILE_INFORMATION_CLASS, FileQuotaInformation, ntifs/FileVolumeNameInformation, wdm/FILE_INFORMATION_CLASS, wdm/FileBothDirectoryInformation, ntifs/FileModeInformation, FileShortNameInformation, wdm/FileIdExtdDirectoryInformation, FileIoPriorityHintInformation, wdm/FileReplaceCompletionInformation, ntifs/FileCompletionInformation, wdm/FilePipeLocalInformation, ntifs/FileObjectIdInformation, ntifs/FileIsRemoteDeviceInformation, ntifs/ FileDispositionInformationEx, wdm/FileIdInformation, wdm/FileDirectoryInformation, FileMaximumInformation, ntifs/FileStandardInformation, FileBothDirectoryInformation, FileRenameInformationBypassAccessCheck, FilePipeLocalInformation, FileMailslotSetInformation, wdm/ FileDispositionInformationEx, FileIdInformation, wdm/FileRenameInformationExBypassAccessCheck, wdm/FilePipeRemoteInformation, ntifs/FileNumaNodeInformation, ntifs/FilePipeInformation, wdm/FileStandardLinkInformation, _FILE_INFORMATION_CLASS, FileTrackingInformation, wdm/FileMailslotQueryInformation, ntifs/FileUnusedInformation, wdm/FileEaInformation, wdm/FilePositionInformation, wdm/ FileIdExtdBothDirectoryInformation, ntifs/FileMaximumInformation, FileMoveClusterInformation, PFILE_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], wdm/FileNetworkPhysicalNameInformation, FileIoCompletionNotificationInformation, ntifs/FileNetworkOpenInformation, PFILE_INFORMATION_CLASS, wdm/FileIoPriorityHintInformation, wdm/FileVolumeNameInformation, ntifs/FileReparsePointInformation, wdm/FileShortNameInformation, ntifs/FileIoPriorityHintInformation, FileAllInformation, ntifs/FileSfioVolumeInformation, wdm/FileHardLinkFullIdInformation, FileAllocationInformation, ntifs/FileQuotaInformation, wdm/FileIoCompletionNotificationInformation, FileInternalInformation, wdm/FileNamesInformation, ntifs/FileIdGlobalTxDirectoryInformation, ntifs/FileHardLinkFullIdInformation, wdm/FileAttributeTagInformation, ntifs/FileTrackingInformation, wdm/FileNameInformation, wdm/FileReparsePointInformation, ntifs/FileAllInformation, ntifs/FileEaInformation, FILE_INFORMATION_CLASS, wdm/FileUnusedInformation, wdm/FileStandardInformation, ntifs/FileIoCompletionNotificationInformation, ntifs/FileNormalizedNameInformation, FileLinkInformationBypassAccessCheck, ntifs/FileHardLinkInformation, ntifs/FileNamesInformation, FileReplaceCompletionInformation, wdm/FileAllInformation, wdm/FileIdBothDirectoryInformation, FileAttributeTagInformation, ntifs/FileMoveClusterInformation, ntifs/FileBothDirectoryInformation, FileAlignmentInformation, ntifs/FileDispositionInformation, FileNetworkOpenInformation, ntifs/FileRenameInformationBypassAccessCheck, ntifs/FILE_INFORMATION_CLASS, FileHardLinkInformation, FileIdBothDirectoryInformation, ntifs/FilePipeLocalInformation, ntifs/FileIdInformation, wdm/FileValidDataLengthInformation, wdm/FileTrackingInformation, ntifs/FileValidDataLengthInformation, FileIdExtdBothDirectoryInformation, ntifs/FileMailslotSetInformation, FileIoStatusBlockRangeInformation, ntifs/FileAllocationInformation, FileObjectIdInformation, ntifs/FileSfioReserveInformation, FileSfioVolumeInformation, ntifs/FileLinkInformationBypassAccessCheck, wdm/FileAccessInformation, FileReparsePointInformation, wdm/FileObjectIdInformation, ifsk.file_information_class, wdm/FileProcessIdsUsingFileInformation, ntifs/FilePipeRemoteInformation, wdm/FileSfioReserveInformation, FileNetworkPhysicalNameInformation, ntifs/FileNameInformation, FileIsRemoteDeviceInformation, wdm/FileMaximumInformation, FilePipeRemoteInformation, wdm/FileAlternateNameInformation, wdm/FileLinkInformation, ntifs/FileMailslotQueryInformation, wdm/FileRemoteProtocolInformation, FileCompressionInformation, ntifs/FileIdBothDirectoryInformation, ntifs/FileShortNameInformation, ntifs/FileIdExtdDirectoryInformation, wdm/FileRenameInformation, wdm/FileRenameInformationEx, wdm/FileFullDirectoryInformation, ntifs/FileIoStatusBlockRangeInformation, FileFullEaInformation, ntifs/PFILE_INFORMATION_CLASS, FileRenameInformationExBypassAccessCheck, FileEaInformation, FilePositionInformation, *PFILE_INFORMATION_CLASS, FilePipeInformation, FileHardLinkFullIdInformation, FileRemoteProtocolInformation, wdm/FileModeInformation, FileMailslotQueryInformation, wdm/FileDispositionInformation, ntifs/FileIdFullDirectoryInformation, FileStandardInformation, wdm/FileInternalInformation, wdm/FileMailslotSetInformation, FileDispositionInformationEx, wdm/FileAllocationInformation, FileAlternateNameInformation, FileProcessIdsUsingFileInformation, FileAccessInformation, ntifs/FileRemoteProtocolInformation, wdm/FileHardLinkInformation, wdm/FileAlignmentInformation, wdm/FileSfioVolumeInformation, FileStreamInformation, FileIdFullDirectoryInformation, ntifs/FilePositionInformation, ntifs/ FileIdExtdBothDirectoryInformation, FileUnusedInformation, FileFullDirectoryInformation, FileSfioReserveInformation, wdm/FileEndOfFileInformation, ntifs/FileLinkInformation, wdm/FileLinkInformationBypassAccessCheck, ntifs/FileBasicInformation, wdm/FileStreamInformation, FileValidDataLengthInformation, FileIdGlobalTxDirectoryInformation, FileVolumeNameInformation, wdm/FileNumaNodeInformation, wdm/FileBasicInformation, wdm/FileCompletionInformation, wdm/FileQuotaInformation, ntifs/FileAttributeTagInformation, FileIdExtdDirectoryInformation, wdm/FilePipeInformation, ntifs/FileCompressionInformation, FileNameInformation, wdm/FileRenameInformationBypassAccessCheck, ntifs/FileRenameInformationEx, wdm/FileIdFullDirectoryInformation, ntifs/FileStreamInformation, wdm/FileFullEaInformation, ntifs/FileAccessInformation, wdm/FileNetworkOpenInformation, ntifs/FileProcessIdsUsingFileInformation, ntifs/FileEndOfFileInformation, ntifs/FileRenameInformationExBypassAccessCheck, ntifs/FileInternalInformation, FileLinkInformation, FileDispositionInformation, wdm/FileIoStatusBlockRangeInformation, ntifs/FileReplaceCompletionInformation, FileDirectoryInformation, ntifs/FileFullEaInformation, ntifs/FileRenameInformation, FileStandardLinkInformation, FileRenameInformation, wdm/FileMoveClusterInformation, FileNumaNodeInformation, wdm/FileCompressionInformation
+ms.keywords: FileHardLinkInformation, FileMailslotQueryInformation, ntifs/FileIoStatusBlockRangeInformation, wdm/FileHardLinkInformation, ntifs/FileInternalInformation, wdm/FileIdFullDirectoryInformation, wdm/FileNumaNodeInformation, wdm/FileIdInformation, FileQuotaInformation, PFILE_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], wdm/FilePositionInformation, wdm/FileAccessInformation, FileNormalizedNameInformation, ntifs/FileNormalizedNameInformation, wdm/FileMaximumInformation, ntifs/FILE_INFORMATION_CLASS, ntifs/FileRenameInformation, ntifs/FileMailslotSetInformation, ntifs/FileAlternateNameInformation, ntifs/FileRenameInformationBypassAccessCheck, ntifs/FileIdInformation, FileHardLinkFullIdInformation, FileDirectoryInformation, wdm/FileNetworkPhysicalNameInformation, ntifs/FileStreamInformation, wdm/FileCompletionInformation, ntifs/FileIdGlobalTxDirectoryInformation, FileSfioReserveInformation, ntifs/FileIsRemoteDeviceInformation, FileReplaceCompletionInformation, FileDispositionInformation, wdm/FileLinkInformation, FileInternalInformation, wdm/FileRenameInformation, wdm/FileBothDirectoryInformation, wdm/FileUnusedInformation, ntifs/FilePipeRemoteInformation, _FILE_INFORMATION_CLASS, FileIdFullDirectoryInformation, FileAllInformation, FilePositionInformation, ntifs/FileNetworkPhysicalNameInformation, ntifs/FilePipeLocalInformation, ifsk.file_information_class, ntifs/FileCompletionInformation, FileAllocationInformation, wdm/FileNameInformation, ntifs/FileIdExtdDirectoryInformation, ntifs/FileDispositionInformation, wdm/FileIdExtdDirectoryInformation, FileCompressionInformation, ntifs/FileDirectoryInformation, wdm/FileObjectIdInformation, FileReparsePointInformation, wdm/FileLinkInformationBypassAccessCheck, wdm/ FileIdExtdBothDirectoryInformation, wdm/FileFullEaInformation, FileRenameInformation, wdm/FileEndOfFileInformation, FileModeInformation, FileIoStatusBlockRangeInformation, wdm/FileBasicInformation, wdm/FileSfioReserveInformation, wdm/FILE_INFORMATION_CLASS, wdm/FilePipeRemoteInformation, ntifs/FileQuotaInformation, wdm/FileRenameInformationEx, wdm/FileIoStatusBlockRangeInformation, ntifs/FileAttributeTagInformation, ntifs/FileMaximumInformation, ntifs/FileBasicInformation, FileFullEaInformation, wdm/FilePipeInformation, FileObjectIdInformation, ntifs/FileMoveClusterInformation, ntifs/FileTrackingInformation, FileEndOfFileInformation, wdm/FileRemoteProtocolInformation, wdm/FileAllocationInformation, FileBasicInformation, wdm/FileAlternateNameInformation, wdm/FileEaInformation, FilePipeRemoteInformation, wdm/FileSfioVolumeInformation, wdm/FileInternalInformation, ntifs/FileShortNameInformation, wdm/FileRenameInformationBypassAccessCheck, FileValidDataLengthInformation, wdm/FileVolumeNameInformation, wdm/FileMoveClusterInformation, FileBothDirectoryInformation, FileAlignmentInformation, FILE_INFORMATION_CLASS, FileNumaNodeInformation, FileStandardInformation, ntifs/FileIoCompletionNotificationInformation, FileShortNameInformation, ntifs/FileReplaceCompletionInformation, FileNamesInformation, FileStandardLinkInformation, wdm/FileRenameInformationExBypassAccessCheck, wdm/PFILE_INFORMATION_CLASS, ntifs/FilePositionInformation, ntifs/FileLinkInformationBypassAccessCheck, wdm/FileNamesInformation, *PFILE_INFORMATION_CLASS, wdm/FileNetworkOpenInformation, ntifs/FileLinkInformation, wdm/FileMailslotSetInformation, wdm/FileQuotaInformation, ntifs/FileUnusedInformation, ntifs/FileRenameInformationExBypassAccessCheck, FileEaInformation, ntifs/PFILE_INFORMATION_CLASS, FileIdExtdBothDirectoryInformation, wdm/FileProcessIdsUsingFileInformation, ntifs/FileRemoteProtocolInformation, FileProcessIdsUsingFileInformation, FileSfioVolumeInformation, FileTrackingInformation, ntifs/FileStandardInformation, wdm/FileShortNameInformation, FilePipeInformation, ntifs/FileNameInformation, FileCompletionInformation, wdm/FileIoCompletionNotificationInformation, wdm/FileIdGlobalTxDirectoryInformation, FileIdGlobalTxDirectoryInformation, FileMailslotSetInformation, wdm/FileDispositionInformation, ntifs/FileReparsePointInformation, wdm/FileStandardInformation, FileIoPriorityHintInformation, PFILE_INFORMATION_CLASS, ntifs/FileNumaNodeInformation, wdm/FileStreamInformation, ntifs/FileNetworkOpenInformation, ntifs/FileProcessIdsUsingFileInformation, ntifs/FileVolumeNameInformation, ntifs/FileAlignmentInformation, FileIdBothDirectoryInformation, FileNetworkPhysicalNameInformation, wdm/ FileDispositionInformationEx, ntifs/FileCompressionInformation, ntifs/FileFullEaInformation, FileMoveClusterInformation, wdm/FileValidDataLengthInformation, FileLinkInformationBypassAccessCheck, wdm/FileNormalizedNameInformation, FileLinkInformation, ntifs/FileAccessInformation, ntifs/FileHardLinkInformation, ntifs/FileIdBothDirectoryInformation, FileIoCompletionNotificationInformation, wdm/FileFullDirectoryInformation, ntifs/ FileDispositionInformationEx, wdm/FileAttributeTagInformation, FileRenameInformationBypassAccessCheck, FileIdExtdDirectoryInformation, wdm/FileReparsePointInformation, ntifs/FileHardLinkFullIdInformation, ntifs/FileSfioVolumeInformation, wdm/FileHardLinkFullIdInformation, ntifs/FileBothDirectoryInformation, ntifs/FilePipeInformation, ntifs/FileAllInformation, wdm/FileTrackingInformation, FileRemoteProtocolInformation, ntifs/FileObjectIdInformation, ntifs/FileValidDataLengthInformation, wdm/FileDirectoryInformation, wdm/FileCompressionInformation, FileIsRemoteDeviceInformation, FileMaximumInformation, ntifs/FileEndOfFileInformation, FileAlternateNameInformation, ntifs/FileIdFullDirectoryInformation, wdm/FileIoPriorityHintInformation, ntifs/FileEaInformation, ntifs/FileNamesInformation, ntifs/FileFullDirectoryInformation, FileRenameInformationEx, ntifs/FileRenameInformationEx, FileNetworkOpenInformation, ntifs/FileModeInformation, FileFullDirectoryInformation, FileUnusedInformation, wdm/FileMailslotQueryInformation, wdm/FileAlignmentInformation, FileStreamInformation, ntifs/ FileIdExtdBothDirectoryInformation, wdm/FileAllInformation, ntifs/FileSfioReserveInformation, wdm/FileReplaceCompletionInformation, FileAccessInformation, FileRenameInformationExBypassAccessCheck, FileIdInformation, wdm/FileIsRemoteDeviceInformation, FileDispositionInformationEx, FileAttributeTagInformation, ntifs/FileIoPriorityHintInformation, wdm/FileModeInformation, wdm/FileStandardLinkInformation, wdm/FilePipeLocalInformation, ntifs/FileMailslotQueryInformation, FILE_INFORMATION_CLASS enumeration [Installable File System Drivers], ntifs/FileAllocationInformation, FilePipeLocalInformation, ntifs/FileStandardLinkInformation, wdm/FileIdBothDirectoryInformation, FileVolumeNameInformation, FileNameInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -135,343 +135,343 @@ typedef enum _FILE_INFORMATION_CLASS {
 
 
 
-### -field FileDirectoryInformation
+#### - FileDirectoryInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTORY_INFORMATION</a> structure.  
 
 
-### -field FileFullDirectoryInformation
+#### - FileFullDirectoryInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_full_dir_information.md">FILE_FULL_DIR_INFORMATION</a> structure.
 
 
-### -field FileBothDirectoryInformation
+#### - FileBothDirectoryInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR_INFORMATION</a> structure.
 
 
-### -field FileBasicInformation
+#### - FileBasicInformation
 
 A <a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a> structure.
 
 
-### -field FileStandardInformation
+#### - FileStandardInformation
 
 A <a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a> structure.
 
 
-### -field FileInternalInformation
+#### - FileInternalInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a> structure.
 
 
-### -field FileEaInformation
+#### - FileEaInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a> structure.
 
 
 
-### -field FileAccessInformation
+#### - FileAccessInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a> structure.
 
 
-### -field FileNameInformation
+#### - FileNameInformation
 
 
 A <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a> structure.
 
 
-### -field FileRenameInformation
+#### - FileRenameInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a> structure.
 
 
-### -field FileLinkInformation
+#### - FileLinkInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a> structure.
 
 
-### -field FileNamesInformation
+#### - FileNamesInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a> structure.
 
 
 
-### -field FileDispositionInformation
+#### - FileDispositionInformation
 
 
 A <a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a> structure.
 
 
 
-### -field FilePositionInformation
+#### - FilePositionInformation
 
 
 A <a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a> structure.
 
 
 
-### -field FileFullEaInformation
+#### - FileFullEaInformation
 
 
 A <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a> structure.
 
 
 
-### -field FileModeInformation
+#### - FileModeInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a> structure.
 
 
 
-### -field FileAlignmentInformation
+#### - FileAlignmentInformation
 
 
 A <a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a> structure.
 
 
-### -field FileAllInformation
+#### - FileAllInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_all_information.md">FILE_ALL_INFORMATION</a> structure.
 
 
 
-### -field FileAllocationInformation
+#### - FileAllocationInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_allocation_information.md">FILE_ALLOCATION_INFORMATION</a> structure.
 
 
-### -field FileEndOfFileInformation
+#### - FileEndOfFileInformation
 
 
 A <a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a> structure.
 
 
 
-### -field FileAlternateNameInformation
+#### - FileAlternateNameInformation
 
 
 A <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a> structure.
 
 
 
-### -field FileStreamInformation
+#### - FileStreamInformation
 
 
 A message buffer that contains one or more <a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a> structures.
 
 
 
-### -field FilePipeInformation
+#### - FilePipeInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_pipe_information.md">FILE_PIPE_INFORMATION</a> structure.
 
 
 
-### -field FilePipeLocalInformation
+#### - FilePipeLocalInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_pipe_local_information.md">FILE_PIPE_LOCAL_INFORMATION</a> structure.
 
 
 
-### -field FilePipeRemoteInformation
+#### - FilePipeRemoteInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_pipe_remote_information.md">FILE_PIPE_REMOTE_INFORMATION</a> structure.
 
 
 
-### -field FileMailslotQueryInformation
+#### - FileMailslotQueryInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_mailslot_query_information.md">FILE_MAILSLOT_QUERY_INFORMATION</a> structure.
 
 
 
-### -field FileMailslotSetInformation
+#### - FileMailslotSetInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_mailslot_set_information.md">FILE_MAILSLOT_SET_INFORMATION</a> structure.
 
 
 
-### -field FileCompressionInformation
+#### - FileCompressionInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a> structure.
 
 
 
-### -field FileObjectIdInformation
+#### - FileObjectIdInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a> structure.
  
 
 
-### -field FileCompletionInformation
+#### - FileCompletionInformation
 
 This value is reserved for system use.
  
 
 
-### -field FileMoveClusterInformation
+#### - FileMoveClusterInformation
 
 This value is reserved for system use.
 
 
 
-### -field FileQuotaInformation
+#### - FileQuotaInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a> structure.  
 
 
 
-### -field FileReparsePointInformation
+#### - FileReparsePointInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a> structure.
 
 
 
-### -field FileNetworkOpenInformation
+#### - FileNetworkOpenInformation
 
 A <a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a> structure.
 
 
 
-### -field FileAttributeTagInformation
+#### - FileAttributeTagInformation
 
 A <a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure.
 
 
 
-### -field FileTrackingInformation
+#### - FileTrackingInformation
 
 This value is reserved for system use.
 
 
-### -field FileIdBothDirectoryInformation
+#### - FileIdBothDirectoryInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a> structure.
 
 
 
-### -field FileIdFullDirectoryInformation
+#### - FileIdFullDirectoryInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a> structure.
 
 
-### -field FileValidDataLengthInformation
+#### - FileValidDataLengthInformation
 
 
 A <a href="..\ntddk\ns-ntddk-_file_valid_data_length_information.md">FILE_VALID_DATA_LENGTH_INFORMATION</a> structure.
 
 
-### -field FileShortNameInformation
+#### - FileShortNameInformation
 
 
 A <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a> structure.
 
 
 
-### -field FileIoCompletionNotificationInformation
+#### - FileIoCompletionNotificationInformation
 
 
 This value is reserved for system use. This value is available starting with Windows Vista.
 
 
 
-### -field FileIoStatusBlockRangeInformation
+#### - FileIoStatusBlockRangeInformation
 
 This value is reserved for system use. This value is available starting with Windows Vista.
 
 
-### -field FileIoPriorityHintInformation
+#### - FileIoPriorityHintInformation
 
 A <a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a> structure. This value is available starting with Windows Vista.
 
 
-### -field FileSfioReserveInformation
+#### - FileSfioReserveInformation
 
 This value is reserved for system use. This value is available starting with Windows Vista.
 
 
 
-### -field FileSfioVolumeInformation
+#### - FileSfioVolumeInformation
 
 This value is reserved for system use. This value is available starting with Windows Vista.
 
 
 
-### -field FileHardLinkInformation
+#### - FileHardLinkInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_links_information.md">FILE_LINKS_INFORMATION</a> structure. This value is available starting with Windows Vista.
 
 
-### -field FileProcessIdsUsingFileInformation
+#### - FileProcessIdsUsingFileInformation
 
 
 A <b>FILE_PROCESS_IDS_USING_FILE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows Vista.
 
 
-### -field FileNormalizedNameInformation
+#### - FileNormalizedNameInformation
 
 A <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FILE_NAME_INFORMATION</a> structure. This value is defined starting with Windows Vista. It is supported starting with Windows 8.
 
 
 
-### -field FileNetworkPhysicalNameInformation
+#### - FileNetworkPhysicalNameInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_network_physical_name_information.md">FILE_NETWORK_PHYSICAL_NAME_INFORMATION</a> structure. This value is available starting with Windows Vista.
 
 
-### -field FileIdGlobalTxDirectoryInformation
+#### - FileIdGlobalTxDirectoryInformation
 
 
 A <a href="..\ntifs\ns-ntifs-_file_id_global_tx_dir_information.md">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure. This value is available starting with Windows 7.
 
 
 
-### -field FileIsRemoteDeviceInformation
+#### - FileIsRemoteDeviceInformation
 
 A <b>FILE_IS_REMOTE_DEVICE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 
 
-### -field FileUnusedInformation
+#### - FileUnusedInformation
 
 This value is reserved for system use. This value is available starting with Windows 7.
 
 
 
-### -field FileNumaNodeInformation
+#### - FileNumaNodeInformation
 
 A <b>FILE_NUMA_NODE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 
-### -field FileStandardLinkInformation
+#### - FileStandardLinkInformation
 
 A <b>FILE_STANDARD_LINK_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 
 
-### -field FileRemoteProtocolInformation
+#### - FileRemoteProtocolInformation
 
 A <b>FILE_REMOTE_PROTOCOL_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 
-### -field FileRenameInformationBypassAccessCheck
+#### - FileRenameInformationBypassAccessCheck
 
 A <a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a> structure. This value is available starting with Windows 10. 
 
@@ -482,7 +482,7 @@ This is a special version of the <b>FileRenameInformation</b> operation that is 
 
 
 
-### -field FileLinkInformationBypassAccessCheck
+#### - FileLinkInformationBypassAccessCheck
 
 A <a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a> structure. This value is available starting with Windows 10.
 
@@ -493,49 +493,49 @@ This is a special version of the <b>FileLinkInformation</b> operation that is us
 
 
 
-### -field FileVolumeNameInformation
+#### - FileVolumeNameInformation
 
 A <b>FILE_VOLUME_NAME_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 
-### -field FileIdInformation
+#### - FileIdInformation
 
 A <b>FILE_ID_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 
-### -field FileIdExtdDirectoryInformation
+#### - FileIdExtdDirectoryInformation
 
 A <b>FILE_ID_EXTD_DIR_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 
-### -field FileReplaceCompletionInformation
+#### - FileReplaceCompletionInformation
 
 A <a href="..\ntifs\ns-ntifs-_file_completion_information.md">FILE_COMPLETION_INFORMATION</a> structure to change or remove the completion port associated with a file handle. This value is available starting with Windows 8.1.
 
 
-### -field FileHardLinkFullIdInformation
+#### - FileHardLinkFullIdInformation
 
 A <b>FILE_LINK_ENTRY_FULL_ID_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 
-### -field FileIdExtdBothDirectoryInformation
+#### - FileIdExtdBothDirectoryInformation
 
 A <b>FILE_ID_EXTD_BOTH_DIR_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 
-### -field FileDispositionInformationEx
+#### - FileDispositionInformationEx
 
 A <a href="..\ntddk\ns-ntddk-_file_disposition_information_ex.md">FILE_DISPOSITION_INFORMATION_EX</a> structure that indicates how the operating system should delete a file. This value is available starting with Windows 10, version 1709.
 
 
-### -field FileRenameInformationEx
+#### - FileRenameInformationEx
 
 A <a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709. 
 
 
 
 
-### -field FileRenameInformationExBypassAccessCheck
+#### - FileRenameInformationExBypassAccessCheck
 
 A <a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709. 
 
@@ -558,7 +558,7 @@ This is a special version of the <b>FileRenameInformation</b> operation that is 
 
 
 
-### -field FileMaximumInformation
+#### - FileMaximumInformation
 
 
 This value is reserved for system use. This value is available starting with Windows 7.

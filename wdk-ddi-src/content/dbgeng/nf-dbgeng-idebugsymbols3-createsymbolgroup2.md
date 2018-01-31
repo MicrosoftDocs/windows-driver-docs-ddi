@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42ddf77a-14c8-4d6a-98a2-b0c67836990d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::CreateSymbolGroup2, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, dbgeng/IDebugSymbols3::CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, CreateSymbolGroup2, debugger.createsymbolgroup2, IDebugSymbols3, CreateSymbolGroup2 method [Windows Debugging]
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, dbgeng/IDebugSymbols3::CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], debugger.createsymbolgroup2, CreateSymbolGroup2, IDebugSymbols3, IDebugSymbols3::CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT CreateSymbolGroup2(
 
 
 
-### -param Group [out]
+#### - Group [out]
 
 Receives an interface pointer for the new <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a> object.
 

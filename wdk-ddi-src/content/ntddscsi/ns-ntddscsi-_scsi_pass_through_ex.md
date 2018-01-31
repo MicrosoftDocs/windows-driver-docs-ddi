@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/PSCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], storage.scsi_pass_through_ex, *PSCSI_PASS_THROUGH_EX"
+ms.keywords: SCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex, ntddscsi/PSCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], _SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,37 +82,37 @@ typedef struct _SCSI_PASS_THROUGH_EX {
 
 
 
-### -field Version
+#### - Version
 
 The version of this structure. Set to 0.
 
 
-### -field Length
+#### - Length
 
 The size of the this structure. Set to <b>sizeof</b>(SCSI_PASS_THROUGH_EX).
 
 
-### -field CdbLength
+#### - CdbLength
 
 Indicates the size in bytes of the SCSI command descriptor block in <b>Cdb</b>.
 
 
-### -field StorAddressLength
+#### - StorAddressLength
 
 The length of the storage device address structure at the offset of <b>StorAddressOffset</b> after this structure.
 
 
-### -field ScsiStatus
+#### - ScsiStatus
 
 Reports the SCSI status that was returned by the HBA or the target device.
 
 
-### -field SenseInfoLength
+#### - SenseInfoLength
 
 Indicates the size in bytes of the request-sense buffer. This member is optional and can be set to 0.
 
 
-### -field DataDirection
+#### - DataDirection
 
 
 
@@ -124,47 +124,47 @@ Indicates the size in bytes of the request-sense buffer. This member is optional
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Set to 0.
 
 
-### -field TimeOutValue
+#### - TimeOutValue
 
 Indicates the interval in seconds that the request can execute before the port driver considers it timed out.
 
 
-### -field StorAddressOffset
+#### - StorAddressOffset
 
 The location of the target storage device address structure, in bytes, from the beginning of this structure.
 
 
-### -field SenseInfoOffset
+#### - SenseInfoOffset
 
 Offset from the beginning of this structure to the request-sense buffer. Set to 0 if no request-sense buffer is present.
 
 
-### -field DataOutTransferLength
+#### - DataOutTransferLength
 
 Indicates the size in bytes of the output data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataOutTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred. If no output data buffer is present, this member is set to 0.
 
 
-### -field DataInTransferLength
+#### - DataInTransferLength
 
 Indicates the size in bytes of the input data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataInTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred. If no input data buffer is present, this member is set to 0.
 
 
-### -field DataOutBufferOffset
+#### - DataOutBufferOffset
 
 Contains an offset from the beginning of this structure to the output data buffer. The offset must respect the data alignment requirements of the device.
 
 
-### -field DataInBufferOffset
+#### - DataInBufferOffset
 
 Contains an offset from the beginning of this structure to the input data buffer. The offset must respect the data alignment requirements of the device.
 
 
-### -field Cdb
+#### - Cdb
 
 Specifies the SCSI command descriptor block to be sent to the target device.
 

@@ -78,7 +78,7 @@ VOID ProtocolTcpOffloadEvent(
 
 
 
-### -param OffloadContext [in]
+#### - OffloadContext [in]
 
 A pointer to the protocol or intermediate driver's 
      <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure for the
@@ -88,7 +88,7 @@ A pointer to the protocol or intermediate driver's
      offloading the connection.
 
 
-### -param EventType [in]
+#### - EventType [in]
 
 The event being indicated as one of the following TCP_OFFLOAD_EVENT_TYPE values:
      
@@ -119,7 +119,7 @@ Indicates that the remote host initiated an abortive disconnect by sending an ac
 Indicates a change in the preferred send backlog size.
 
 
-### -param EventSpecificInformation [in]
+#### - EventSpecificInformation [in]
 
 Specifies additional information about the event being indicated as follows:
      

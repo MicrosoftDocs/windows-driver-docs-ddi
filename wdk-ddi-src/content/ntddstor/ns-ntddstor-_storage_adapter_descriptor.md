@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 83ef2a1a-f95e-4b05-8911-e5e900192630
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR structure [Storage Devices], SRB_TYPE_SCSI_REQUEST_BLOCK, structs-general_196c7640-0a2d-4567-8958-1244c46b84a6.xml, PSTORAGE_ADAPTER_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ADDRESS_TYPE_BTL8, _STORAGE_ADAPTER_DESCRIPTOR, SRB_TYPE_STORAGE_REQUEST_BLOCK, STORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR, storage.storage_adapter_descriptor, ntddstor/PSTORAGE_ADAPTER_DESCRIPTOR
+ms.keywords: SRB_TYPE_SCSI_REQUEST_BLOCK, ntddstor/STORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR structure pointer [Storage Devices], storage.storage_adapter_descriptor, structs-general_196c7640-0a2d-4567-8958-1244c46b84a6.xml, ntddstor/PSTORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADDRESS_TYPE_BTL8, STORAGE_ADAPTER_DESCRIPTOR structure [Storage Devices], _STORAGE_ADAPTER_DESCRIPTOR, SRB_TYPE_STORAGE_REQUEST_BLOCK, PSTORAGE_ADAPTER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_ADAPTER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR
+req.typenames: PSTORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR
 ---
 
 # _STORAGE_ADAPTER_DESCRIPTOR structure
@@ -80,67 +80,67 @@ typedef struct _STORAGE_ADAPTER_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Contains the version of the structure <b>STORAGE_ADAPTER_DESCRIPTOR</b>. The value of this member will change as members are added to the structure.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the descriptor, in bytes.
 
 
-### -field MaximumTransferLength
+#### - MaximumTransferLength
 
 Specifies the maximum number of bytes the host bus adapter (HBA) can transfer in a single operation.
 
 
-### -field MaximumPhysicalPages
+#### - MaximumPhysicalPages
 
 Specifies the maximum number of discontinuous physical pages the HBA can manage in a single transfer (in other words, the extent of its scatter/gather support).
 
 
-### -field AlignmentMask
+#### - AlignmentMask
 
 Specifies the HBA's alignment requirements for transfers. A storage class driver sets the <b>AlignmentRequirement</b> field in its device objects to this value. The alignment mask indicates alignment restrictions for buffers required by the HBA for transfer operations. The valid mask values are 0 (byte aligned), 1 (word aligned), 3 (DWORD aligned), and 7 (double DWORD aligned). 
 
 
-### -field AdapterUsesPio
+#### - AdapterUsesPio
 
 Indicates when <b>TRUE</b> that the HBA uses Programmed Input/Output (PIO) and requires the use of system-space virtual addresses mapped to physical memory for data buffers. When <b>FALSE</b>, the HBA does not use PIO.
 
 
-### -field AdapterScansDown
+#### - AdapterScansDown
 
 Indicates when <b>TRUE</b> that the HBA scans down for BIOS devices, that is, the HBA begins scanning with the highest device number rather than the lowest. When <b>FALSE</b>, the HBA begins scanning with the lowest device number. This member is reserved for legacy miniport drivers.
 
 
-### -field CommandQueueing
+#### - CommandQueueing
 
 Indicates when <b>TRUE</b> that the HBA supports SCSI-tagged queuing and/or per-logical-unit internal queues, or the non-SCSI equivalent. When <b>FALSE</b>, the HBA neither supports SCSI-tagged queuing nor per-logical-unit internal queues. 
 
 
-### -field AcceleratedTransfer
+#### - AcceleratedTransfer
 
 Indicates when <b>TRUE</b> that the HBA supports synchronous transfers as a way of speeding up I/O. When <b>FALSE</b>, the HBA does not support synchronous transfers as a way of speeding up I/O. 
 
 
-### -field BusType
+#### - BusType
 
 Specifies a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566356">STORAGE_BUS_TYPE</a> that indicates the type of bus to which the device is connected.
 
 
-### -field BusMajorVersion
+#### - BusMajorVersion
 
 Specifies the major version number, if any, of the HBA. 
 
 
-### -field BusMinorVersion
+#### - BusMinorVersion
 
 Specifies the minor version number, if any, of the HBA.
 
 
-### -field SrbType
+#### - SrbType
 
 Specifies the SCSI request block (SRB) type used by the HBA.
 <table>
@@ -173,7 +173,7 @@ The HBA uses extended SCSI request blocks.
 This member is valid starting with Windows 8.
 
 
-### -field AddressType
+#### - AddressType
 
 Specifies the address type of the HBA.
 <table>
@@ -207,17 +207,17 @@ If excessive protocol errors occur on an HBA that supports synchronous transfers
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
  
 

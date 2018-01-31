@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40f4dfca-7ee6-48d2-b0a4-8a563587b2ab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfolte, RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE
+ms.keywords: rilapitypes/RILPOSITIONINFOLTE, RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfolte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ struct RILPOSITIONINFOLTE {
 
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfolteparammask.md">RILPOSITIONINFOLTEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwMobileCountryCode
+#### - dwMobileCountryCode
 
 Mobile country code (0...999)
 
 
-### -field dwMobileNetworkCode
+#### - dwMobileNetworkCode
 
 Mobile Network Code (0...999)
 
 
-### -field dwCellID
+#### - dwCellID
 
 Cell identity (28 bits)
 
 
-### -field dwEARFCN
+#### - dwEARFCN
 
 Radio Frequency Channel Number of serving cell (0...65535)
 
 
-### -field dwPhysCellID
+#### - dwPhysCellID
 
 Physical CellID (0...503)
 
 
-### -field dwTAC
+#### - dwTAC
 
 Tracking area code (0...65535)
 
 
-### -field dwRSRP
+#### - dwRSRP
 
 Average Reference Signal Received Power. Range (-1400 ... -440) in units of 0.1dBm.
 
 
-### -field dwRSRQ
+#### - dwRSRQ
 
 Average Reference Signal Received Quality. Range (-200 ... -30) in units of 0.1dBm.
 
 
-### -field dwTimingAdvance
+#### - dwTimingAdvance
 
 Timing Advance (0...255) in bit periods, where a bit period is 48/13µs
 

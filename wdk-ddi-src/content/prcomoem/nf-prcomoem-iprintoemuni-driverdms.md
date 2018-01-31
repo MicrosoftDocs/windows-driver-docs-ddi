@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemuni_driverdms, IPrintOemUni::DriverDMS, DriverDMS method [Print Devices], prcomoem/IPrintOemUni::DriverDMS, IPrintOemUni, DriverDMS method [Print Devices], IPrintOemUni interface, DriverDMS, IPrintOemUni interface [Print Devices], DriverDMS method, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml
+ms.keywords: DriverDMS method [Print Devices], IPrintOemUni::DriverDMS, DriverDMS method [Print Devices], IPrintOemUni interface, IPrintOemUni, prcomoem/IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml, DriverDMS, IPrintOemUni interface [Print Devices], DriverDMS method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT DriverDMS(
 
 
 
-### -param pDevObj
+#### - pDevObj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param pBuffer
+#### - pBuffer
 
 Caller-supplied pointer to a buffer to receive method-specified flags. (See the following Remarks section.)
 
 
-### -param cbSize
+#### - cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded
+#### - pcbNeeded
 
 Caller-supplied pointer to a location to receive the required minimum <i>pBuffer</i> size.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22945e04-9feb-4f4b-9ca6-916dab372a64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, ndis/NdisMFreeNetBufferSGList, netvista.ndismfreenetbuffersglist
+ms.keywords: ndis/NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], netvista.ndismfreenetbuffersglist, NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ VOID NdisMFreeNetBufferSGList(
 
 
 
-### -param NdisMiniportDmaHandle [in]
+#### - NdisMiniportDmaHandle [in]
 
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
@@ -82,12 +82,12 @@ A handle to a context area that NDIS uses to manage a DMA resource. The caller o
      NdisMRegisterScatterGatherDma</b></mshelp:link> function.
 
 
-### -param pSGL [in]
+#### - pSGL [in]
 
 A pointer to a miniport driver scatter/gather list buffer.
 
 
-### -param NetBuffer [in]
+#### - NetBuffer [in]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure associated with the
@@ -126,22 +126,22 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
-
-<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
-
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
-<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
-
 <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
    NdisMRegisterScatterGatherDma</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
+
+<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 <a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
+
+<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
+
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
 
  
 

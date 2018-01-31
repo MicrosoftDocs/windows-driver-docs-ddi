@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5C595F39-3F47-4B4D-B6C6-6CBC5848AA4B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntToInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntToInt, kernel.rtluinttoint, RtlUIntToInt
+ms.keywords: kernel.rtluinttoint, RtlUIntToInt function [Kernel-Mode Driver Architecture], RtlUIntToInt, ntintsafe/RtlUIntToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlUIntToInt(
 
 
 
-### -param uOperand [in]
+#### - uOperand [in]
 
 The value to be converted.
 
 
-### -param piResult [out]
+#### - piResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60896a51-63c9-46fd-96ee-9cdbb72ac30c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BRIGHTNESS_STATE structure [Display Devices], display.dxgk_brightness_state, DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, _DXGK_BRIGHTNESS_STATE
+ms.keywords: display.dxgk_brightness_state, DXGK_BRIGHTNESS_STATE structure [Display Devices], _DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,20 +75,20 @@ typedef struct _DXGK_BRIGHTNESS_STATE {
 
 
 
-### -field SmoothBrightness
+#### - SmoothBrightness
 
 [in] If set, the display miniport driver must enable smooth brightness control on the display panel.
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero.
 Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of a 32-bit value to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that <b>DXGK_BRIGHTNESS_STATE</b> contains that can hold one 32-bit value that identifies information about whether the display miniport driver must support smooth brightness control.
 

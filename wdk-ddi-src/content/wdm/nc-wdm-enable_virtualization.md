@@ -40,7 +40,7 @@ apiname:
 -	EnableVirtualization
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ NTSTATUS EnableVirtualization(
 
 
 
-### -param Context [in, out]
+#### - Context [in, out]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param NumVFs [in]
+#### - NumVFs [in]
 
 The number of PCIe virtual functions (VFs) that are to be enabled for the device. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a> routine sets the <b>NumVFs</b> member of the PCIe SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter. 
 
@@ -89,17 +89,17 @@ The number of PCIe virtual functions (VFs) that are to be enabled for the device
 
 </div><div> </div>
 
-### -param EnableVfMigration [in]
+#### - EnableVfMigration [in]
 
 A BOOLEAN value that indicates whether the multi-root I/O virtualization (MR-IOV) base function (BF) can dynamically reprovision the PCIe physical function (PF) of the device   as a VF at run time.
 <div class="alert"><b>Note</b>  This parameter is only applicable to devices that support both the SR-IOV and MR-IOV interfaces. The driver must set this parameter to <b>FALSE</b> if the device supports only the SR-IOV interface and not the MR-IOV interface.</div><div> </div>
 
-### -param EnableMigrationInterrupt [in]
+#### - EnableMigrationInterrupt [in]
 
 A BOOLEAN value that indicates whether the interrupt associated with the PF should be masked or unmasked during VF migration.
 <div class="alert"><b>Note</b>  If the <i>EnableVfMigration</i> parameters is <b>FALSE</b>, the driver must also set this parameter to <b>FALSE</b>.</div><div> </div>
 
-### -param EnableVirtualization [in]
+#### - EnableVirtualization [in]
 
 A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the <i>EnableVirtualization</i> parameter is <b>TRUE</b>, the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a> routine sets the VF Enable bit of the PCIe SR-IOV Control field. The <i>EnableVirtualization</i> routine clears this bit if the <i>EnableVirtualization</i> parameter is <b>FALSE</b>.
 

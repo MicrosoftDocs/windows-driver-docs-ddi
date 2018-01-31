@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0715e4d4-665c-42cb-9c74-48c2c558c277
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, GetJobAttributesEx, GetJobAttributesEx function [Print Devices], print.getjobattributesex, winsplp/GetJobAttributesEx
+ms.keywords: print.getjobattributesex, GetJobAttributesEx, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, winsplp/GetJobAttributesEx, GetJobAttributesEx function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ BOOL GetJobAttributesEx(
 
 
 
-### -param pPrinterName [in]
+#### - pPrinterName [in]
 
 Caller-supplied pointer to a NULL-terminated Unicode string that contains the printer name.
 
 
-### -param pDevmode [in]
+#### - pDevmode [in]
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that is passed to the print processor or printer driver.
 
 
-### -param dwLevel [in]
+#### - dwLevel [in]
 
 Caller-supplied value that indicates the type of structure pointed to by <i>pAttributeInfo</i>, as indicated in the following table. For more information, see Remarks.
 <table>
@@ -144,17 +144,17 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
 </table> 
 
 
-### -param pAttributeInfo [out]
+#### - pAttributeInfo [out]
 
 Caller-supplied pointer to an attribute information structure (<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>, <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>, <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>, or <a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>) that receives information about the print job.
 
 
-### -param nSize [in]
+#### - nSize [in]
 
 Size of the buffer, in bytes, pointed to by <i>pAttributeInfo</i>.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 If set by the caller to FILL_WITH_DEFAULTS, then the spooler will fill <i>pAttributeInfo</i> with default values from level 1 up to the level specified by <i>dwLevel</i>.
 
@@ -212,13 +212,13 @@ This function first checks whether the driver supports the attribute level that 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
  
 

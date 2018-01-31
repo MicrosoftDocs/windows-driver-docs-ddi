@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D293366B-13FA-438E-BEBD-1F0EAA693400
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_FIXDATA_BASIC structure [Sensor Devices], *PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], GNSS_FIXDATA_BASIC, gnssdriver/GNSS_FIXDATA_BASIC, sensors.gnss_fixdata_basic, gnssdriver/PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC
+ms.keywords: GNSS_FIXDATA_BASIC structure [Sensor Devices], GNSS_FIXDATA_BASIC, sensors.gnss_fixdata_basic, gnssdriver/GNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], *PGNSS_FIXDATA_BASIC, gnssdriver/PGNSS_FIXDATA_BASIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_FIXDATA_BASIC
 product: Windows
 targetos: Windows
-req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
+req.typenames: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC"
 ---
 
 # GNSS_FIXDATA_BASIC structure
@@ -73,37 +73,37 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field Latitude
+#### - Latitude
 
 Latitude value. Valid range is -180.0 to + 180.0. NaN indicates unavailable.
 
 
-### -field Longitude
+#### - Longitude
 
 Longitude value. Valid range is -90.0 to + 90.0. NaN indicates unavailable.
 
 
-### -field Altitude
+#### - Altitude
 
 Altitude value in meters (in relation to sea level). NaN indicates unavailable.
 
 
-### -field Speed
+#### - Speed
 
 Speed in meters per second. Zero or positive value. NaN indicates unavailable.
 
 
-### -field Heading
+#### - Heading
 
 Heading/direction in degrees. Valid range is 0 to 360. Zero indicates true north. NaN indicates unavailable.
 

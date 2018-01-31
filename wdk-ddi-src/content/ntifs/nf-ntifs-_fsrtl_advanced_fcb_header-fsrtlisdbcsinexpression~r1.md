@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsDbcsInExpression routine [Installable File System Drivers], ifsk.fsrtlisdbcsinexpression, ntifs/FsRtlIsDbcsInExpression, fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, FsRtlIsDbcsInExpression
+ms.keywords: ntifs/FsRtlIsDbcsInExpression, ifsk.fsrtlisdbcsinexpression, FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN FsRtlIsDbcsInExpression(
 
 
 
-### -param Expression [in]
+#### - Expression [in]
 
 A pointer to the pattern string. Can contain wildcard characters. 
 
 
-### -param Name [in]
+#### - Name [in]
 
 A pointer to the string to be compared against the pattern. Cannot contain wildcard characters. 
 

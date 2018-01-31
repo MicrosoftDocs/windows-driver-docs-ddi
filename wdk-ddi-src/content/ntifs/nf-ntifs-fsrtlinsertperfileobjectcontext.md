@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 852b8b71-8a8c-4e9e-b27e-78fc2df8d5bd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_21a21edf-cf20-4c0b-aaef-bc75656238c4.xml, ifsk.fsrtlinsertperfileobjectcontext, ntifs/FsRtlInsertPerFileObjectContext, FsRtlInsertPerFileObjectContext, FsRtlInsertPerFileObjectContext function [Installable File System Drivers]
+ms.keywords: fsrtlref_21a21edf-cf20-4c0b-aaef-bc75656238c4.xml, FsRtlInsertPerFileObjectContext function [Installable File System Drivers], ifsk.fsrtlinsertperfileobjectcontext, FsRtlInsertPerFileObjectContext, ntifs/FsRtlInsertPerFileObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlInsertPerFileObjectContext(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the file object for which to associate context information (given by the <i>Ptr</i> parameter).
 
 
-### -param Ptr [in]
+#### - Ptr [in]
 
 A pointer to a caller-allocated and initialized FSRTL_PER_FILEOBJECT_CONTEXT structure to be associated with <i>FileObject</i>. The structure can be used as-is or embedded in a driver-defined, per-file-object context information structure. To initialize the structure, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a> macro.
 
@@ -137,13 +137,13 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
  
 

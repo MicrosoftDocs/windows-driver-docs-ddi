@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.pspinfo, PPSPINFO, compstui/PPSPINFO, *PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO structure [Print Devices], _PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, compstui/PSPINFO, PSPINFO
+ms.keywords: PSPINFO structure [Print Devices], PPSPINFO, PPSPINFO structure pointer [Print Devices], cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, compstui/PPSPINFO, *PPSPINFO, PSPINFO, print.pspinfo, _PSPINFO, compstui/PSPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _PSPINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 CPSUI-supplied size, in bytes, of the PSPINFO structure.
 
 
-### -field wReserved
+#### - wReserved
 
 Reserved.
 
 
-### -field hComPropSheet
+#### - hComPropSheet
 
 CPSUI-supplied handle to the parent of the page whose handle is contained in <b>hCPSUIPage</b>.
 
 
-### -field hCPSUIPage
+#### - hCPSUIPage
 
 CPSUI-supplied handle to the property sheet page.
 
 
-### -field pfnComPropSheet
+#### - pfnComPropSheet
 
 CPSUI-supplied pointer to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
 

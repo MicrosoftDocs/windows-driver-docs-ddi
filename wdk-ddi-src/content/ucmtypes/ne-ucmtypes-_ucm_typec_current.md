@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5A603C0E-BBB8-4909-B7B0-EAADF428CB5F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtypes/UcmTypeCCurrent3000mA, ucmtypes/UCM_TYPEC_CURRENT, UcmTypeCCurrentDefaultUsb, UcmTypeCCurrent3000mA, buses.ucm_type_c_current, ucmtypes/UcmTypeCCurrentDefaultUsb, _UCM_TYPEC_CURRENT, UcmTypeCCurrentInvalid, ucmtypes/UcmTypeCCurrentInvalid, UCM_TYPEC_CURRENT enumeration [Buses], UCM_TYPEC_CURRENT, ucmtypes/UcmTypeCCurrent1500mA, UcmTypeCCurrent1500mA
+ms.keywords: UcmTypeCCurrent3000mA, UcmTypeCCurrentInvalid, UCM_TYPEC_CURRENT enumeration [Buses], buses.ucm_type_c_current, ucmtypes/UcmTypeCCurrent1500mA, UCM_TYPEC_CURRENT, ucmtypes/UcmTypeCCurrentInvalid, ucmtypes/UcmTypeCCurrentDefaultUsb, UcmTypeCCurrentDefaultUsb, ucmtypes/UcmTypeCCurrent3000mA, ucmtypes/UCM_TYPEC_CURRENT, _UCM_TYPEC_CURRENT, UcmTypeCCurrent1500mA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _UCM_TYPE_C_CURRENT {
 
 
 
-### -field UcmTypeCCurrentInvalid
+#### - UcmTypeCCurrentInvalid
 
 Indicates the power sourcing current state is invalid.
 
 
-### -field UcmTypeCCurrentDefaultUsb
+#### - UcmTypeCCurrentDefaultUsb
 
 Indicates the power sourcing current is the default USB current.
 
 
-### -field UcmTypeCCurrent1500mA
+#### - UcmTypeCCurrent1500mA
 
 Indicates the power sourcing current is 1500 mA.
 
 
-### -field UcmTypeCCurrent3000mA
+#### - UcmTypeCCurrent3000mA
 
 Indicates the power sourcing current is 3000 mA.
 

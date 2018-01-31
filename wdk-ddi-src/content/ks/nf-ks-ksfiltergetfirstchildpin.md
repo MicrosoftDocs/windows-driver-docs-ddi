@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b026908a-51d4-45a8-9c0e-1c163563bfbf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, stream.ksfiltergetfirstchildpin, KsFilterGetFirstChildPin function [Streaming Media Devices], ks/KsFilterGetFirstChildPin, KsFilterGetFirstChildPin
+ms.keywords: avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, stream.ksfiltergetfirstchildpin, KsFilterGetFirstChildPin, ks/KsFilterGetFirstChildPin, KsFilterGetFirstChildPin function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PKSPIN KsFilterGetFirstChildPin(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure to query for instantiated pins.
 
 
-### -param PinId [in]
+#### - PinId [in]
 
 The numeric ID of the pin type for which to find the first instantiated member.
 

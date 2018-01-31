@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: D0190BA1-196D-4F8B-A367-80272F094B6B
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
+ms.keywords: NfcCxSetRfDiscoveryConfig, nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NfcCxSetRfDiscoveryConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
+req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
 
 # NfcCxSetRfDiscoveryConfig function
@@ -68,12 +68,12 @@ NTSTATUS NfcCxSetRfDiscoveryConfig(
 
 
 
-### -param Device
+#### - Device
 
 A handle to a framework device object.
 
 
-### -param Config
+#### - Config
 
 A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_rf_discovery_config.md">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
 
@@ -87,9 +87,9 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

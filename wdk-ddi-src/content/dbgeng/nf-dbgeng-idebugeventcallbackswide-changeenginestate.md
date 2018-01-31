@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 14205476-3f58-4105-99a7-a3baa2eba033
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], ChangeEngineState method, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate, ChangeEngineState, IDebugEventCallbacksWide
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate, ChangeEngineState method [Windows Debugging], ChangeEngineState, IDebugEventCallbacksWide::ChangeEngineState, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeEngineState method, ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ChangeEngineState(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies a bit-set indicating the type of changes that occurred in the engine's state.  The following bit flags might be set:
 <table>
@@ -229,7 +229,7 @@ Text replacements have changed.
 </table> 
 
 
-### -param Argument [in]
+#### - Argument [in]
 
 Provides additional information about the change to the engine's state.  If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the interpretation of the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 

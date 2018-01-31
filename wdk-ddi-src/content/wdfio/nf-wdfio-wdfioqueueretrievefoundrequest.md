@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueRetrieveFoundRequest, PFN_WDFIOQUEUERETRIEVEFOUNDREQUEST, kmdf.wdfioqueueretrievefoundrequest, DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, wdfio/WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest method, wdf.wdfioqueueretrievefoundrequest
+ms.keywords: WdfIoQueueRetrieveFoundRequest, DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest, kmdf.wdfioqueueretrievefoundrequest, WdfIoQueueRetrieveFoundRequest method, PFN_WDFIOQUEUERETRIEVEFOUNDREQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfIoQueueRetrieveFoundRequest(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to a framework queue object.
 
 
-### -param FoundRequest [in]
+#### - FoundRequest [in]
 
 A handle to a framework request object that was obtained by calling <a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>.
 
 
-### -param OutRequest [out]
+#### - OutRequest [out]
 
 A pointer to a location that receives a handle to a framework request object. The driver must use this handle when processing the request.
 
@@ -159,11 +159,11 @@ For more information about the <b>WdfIoQueueRetrieveFoundRequest</b> method, see
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
 
  
 

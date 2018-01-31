@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FD8D6063-E6DD-4EA6-9675-774C58C08B40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: npivwmi/MSFC_VirtualFibrePortAttributes, _MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], npivwmi/PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes, storage.msfc_virtualfibreportattributes, *PMSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices]
+ms.keywords: MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], storage.msfc_virtualfibreportattributes, PMSFC_VirtualFibrePortAttributes, npivwmi/PMSFC_VirtualFibrePortAttributes, npivwmi/MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes, _MSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_VirtualFibrePortAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # _MSFC_VirtualFibrePortAttributes structure
@@ -73,37 +73,37 @@ typedef struct _MSFC_VirtualFibrePortAttributes {
 
 
 
-### -field Status
+#### - Status
 
 The virtual port status.
 
 
-### -field FCId
+#### - FCId
 
 The fabric ID of the virtual port.
 
 
-### -field VirtualName
+#### - VirtualName
 
 The symbolic name of the virtual port.
 
 
-### -field Tag
+#### - Tag
 
 A value for identifying the virtual port. This member provides a 128-bit width to accommodate a unique identifier.
 
 
-### -field WWPN
+#### - WWPN
 
 The world wide port name of the physical port.
 
 
-### -field WWNN
+#### - WWNN
 
 The world wide node name of the physical port.
 
 
-### -field FabricWWN
+#### - FabricWWN
 
 The world wide port name of the fabric.
 

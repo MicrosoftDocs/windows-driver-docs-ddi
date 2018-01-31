@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_FILE_TIMESTAMPS, FILE_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], PFILE_TIMESTAMPS, *PFILE_TIMESTAMPS, ntifs/File_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], ifsk.file_timestamps"
+ms.keywords: PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], _FILE_TIMESTAMPS, PFILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], FILE_TIMESTAMPS, ifsk.file_timestamps, ntifs/PFILE_TIMESTAMPS, *PFILE_TIMESTAMPS, ntifs/File_TIMESTAMPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_TIMESTAMPS
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_TIMESTAMPS, FILE_TIMESTAMPS"
+req.typenames: FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
 ---
 
 # _FILE_TIMESTAMPS structure
@@ -72,22 +72,22 @@ typedef struct _File_TIMESTAMPS {
 
 
 
-### -field CreationTime
+#### - CreationTime
 
 Specifies the creation time of a file.
 
 
-### -field LastAccessTime
+#### - LastAccessTime
 
 Specifies the last time a file was accessed.
 
 
-### -field LastWriteTime
+#### - LastWriteTime
 
 Specifies the last time a file was written to.
 
 
-### -field ChangeTime
+#### - ChangeTime
 
 Specifies the last time a file was changed or modified.
 

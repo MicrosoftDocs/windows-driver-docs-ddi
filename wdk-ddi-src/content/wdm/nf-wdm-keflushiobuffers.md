@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keflushiobuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, KeFlushIoBuffers, wdm/KeFlushIoBuffers
+ms.keywords: KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, wdm/KeFlushIoBuffers, KeFlushIoBuffers, kernel.keflushiobuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID KeFlushIoBuffers(
 
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
 A pointer to an MDL that describes the range for the I/O buffer.
 
 
-### -param ReadOperation [in]
+#### - ReadOperation [in]
 
 Specifies <b>TRUE</b> if the flush is being performed for a read operation, and <b>FALSE</b> for a write operation. For more information, see the following Remarks section.
 
 
-### -param DmaOperation [in]
+#### - DmaOperation [in]
 
 Specifies <b>TRUE</b> for a DMA transfer, <b>FALSE</b> for PIO.
 

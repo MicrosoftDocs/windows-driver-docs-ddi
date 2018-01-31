@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], ntdddisk/DISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], DISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, ntdddisk/PDISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml, *PDISK_COPY_DATA_PARAMETERS"
+ms.keywords: DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS, ntdddisk/DISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], _DISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, ntdddisk/PDISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], PDISK_COPY_DATA_PARAMETERS, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DISK_COPY_DATA_PARAMETERS {
 
 
 
-### -field SourceOffset
+#### - SourceOffset
 
 Contains the byte offset of the source for the copy. This number must be sector-aligned.
 
 
-### -field DestinationOffset
+#### - DestinationOffset
 
 Contains the byte offset of the destination of the copy. This number must be sector-aligned.
 
 
-### -field CopyLength
+#### - CopyLength
 
 Contains the number of bytes to copy. This number must be sector-aligned.
 
 
-### -field Reserved
+#### - Reserved
 
 Must be zero.
 

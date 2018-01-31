@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2db324c8-69b1-4497-b6a7-76047baeca19
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idarg_in_adapter_init, IDARG_IN_ADAPTER_INIT structure [Display Devices], IDARG_IN_ADAPTER_INIT, iddcx/IDARG_IN_ADAPTER_INIT
+ms.keywords: iddcx/IDARG_IN_ADAPTER_INIT, IDARG_IN_ADAPTER_INIT, display.idarg_in_adapter_init, IDARG_IN_ADAPTER_INIT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,21 +71,21 @@ typedef struct IDARG_IN_ADAPTER_INIT {
 
 
 
-### -field WdfDevice
+#### - WdfDevice
 
 
                      The WDF device that will be hosting this WDDM adapter object.
                  
 
 
-### -field pCaps
+#### - pCaps
 
 
                      [in] A reference  to the capabilities of the adapter.
                  
 
 
-### -field ObjectAttributes
+#### - ObjectAttributes
 
 
                      [in][optional] Object attributes that are used to initialize the WDF adapter object.

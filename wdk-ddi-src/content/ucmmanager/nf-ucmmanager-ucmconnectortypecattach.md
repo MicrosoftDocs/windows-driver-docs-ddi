@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D778E6B6-B245-41D5-B25B-1CF183146BA9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorTypeCAttach, buses.ucmconnectortypecattach, UcmConnectorTypeCAttach method [Buses], ucmmanager/UcmConnectorTypeCAttach
+ms.keywords: UcmConnectorTypeCAttach method [Buses], buses.ucmconnectortypecattach, UcmConnectorTypeCAttach, ucmmanager/UcmConnectorTypeCAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS UcmConnectorTypeCAttach(
 
 
 
-### -param Connector [in]
+#### - Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 
 
-### -param Params [in]
+#### - Params [in]
 
 A pointer to a driver-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> that has been initialized by  calling <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_attach_params_init.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>.
 
@@ -99,11 +99,11 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_attach_params_init.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>
-
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
+
+<a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_attach_params_init.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>
 
  
 

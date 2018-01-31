@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER, pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pep_work_device_power, *PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], PEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER, pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PEP_WORK_DEVICE_POWER {
 
 
 
-### -field DeviceHandle
+#### - DeviceHandle
 
 A handle that represents the registration of the device with the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
 
-### -field PowerRequired
+#### - PowerRequired
 
 Whether the device requires power. Set to TRUE if the device requires power and the device driver <u>must</u> bring the device back to the D0 power state. Set to FALSE if the device is not required to stay turned on and the driver is permitted to transition the device from D0 to a low-power state.
 

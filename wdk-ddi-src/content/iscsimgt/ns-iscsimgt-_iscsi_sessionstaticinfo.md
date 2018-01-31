@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo, storage.iscsi_sessionstaticinfo, structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml, iscsimgt/ISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo structure pointer [Storage Devices], ISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo, iscsimgt/PISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo structure [Storage Devices]"
+ms.keywords: PISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo structure pointer [Storage Devices], *PISCSI_SessionStaticInfo, _ISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo structure [Storage Devices], storage.iscsi_sessionstaticinfo, iscsimgt/ISCSI_SessionStaticInfo, structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml, ISCSI_SessionStaticInfo, iscsimgt/PISCSI_SessionStaticInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_SessionStaticInfo
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo
+req.typenames: "*PISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo"
 ---
 
 # _ISCSI_SessionStaticInfo structure
@@ -83,42 +83,42 @@ typedef struct _ISCSI_SessionStaticInfo {
 
 
 
-### -field UniqueSessionId
+#### - UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in their UniqueSessionId parameter. Do not confuse this value with the values in the <b>ISID</b> and <b>TSID</b> members.
 
 
-### -field InitiatoriSCSIName
+#### - InitiatoriSCSIName
 
 A wide character string that specifies the initiator node name.
 
 
-### -field TargetiSCSIName
+#### - TargetiSCSIName
 
 A wide character string that specifies the node name of the target.
 
 
-### -field TSID
+#### - TSID
 
 An internal value that specifies the portion of the iSCSI session ID that the target provides. The iSCSI protocol uses TSID together with ISID to identify the session. Do not confuse TSID with the session ID that <b>UniqueSessionId</b> specifies.
 
 
-### -field ISID
+#### - ISID
 
 An internal value that specifies the portion of the iSCSI session ID that the initiator provides.
 
 
-### -field InitialR2t
+#### - InitialR2t
 
 A Boolean value that indicates if the initiator must wait for a ready-to-send (R2T) request before sending data to the target. If this member is <b>TRUE</b>, the initiator must wait for a ready-to-send (R2T) request before sending data to the target. If this member is <b>FALSE</b>, the initiator can send unsolicited data within limits that the value of <b>FirstBurstLength</b> specifies.
 
 
-### -field ImmediateData
+#### - ImmediateData
 
 A Boolean value that indicates if the initiator and target have agreed to allow the transmission of immediate data in the session. (<i>Immediate data</i> is data that the initiator piggybacks onto an iSCSI command PDU.) If this member is <b>TRUE</b>, the initiator and target have agreed to allow the transmission of immediate data in this session.
 
 
-### -field Type
+#### - Type
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561567">ISCSI_SESSION_TYPE_QUALIFIERS</a> enumeration value that specifies the type of logon session.
 <table>
@@ -169,62 +169,62 @@ Session is being used to boot from target.
 </table> 
 
 
-### -field DataSequenceInOrder
+#### - DataSequenceInOrder
 
 A Boolean value that indicates whether sequences of data PDUs must be transmitted by using continuously increasing offsets, except during error recovery. If this member is <b>TRUE</b>, sequences of data PDUs must be transmitted by using continuously increasing offsets, except during error recovery. If this member is <b>FALSE</b>, sequences of data PDUs can be transmitted in any order. 
 
 The value in <b>DataSequenceInOrder</b> indicates the ordering of the sequences themselves, not the ordering of the data PDUs within each sequence. The <b>DataPduInOrder</b> member indicates the ordering of the data PDUs within each sequence. 
 
 
-### -field DataPduInOrder
+#### - DataPduInOrder
 
 A Boolean value that indicates whether the data PDUs within a sequence of data PDUs must be located at continuously increasing addresses. If this member is <b>TRUE</b>, the data PDUs within a sequence of data PDUs must be located at continuously increasing addresses, with no gaps or overlay between PDUs. If this member is <b>FALSE</b>, the data PDUs within each sequence can be in any order. 
 
 
-### -field ErrorRecoveryLevel
+#### - ErrorRecoveryLevel
 
 The level of error recovery that the initiator and the target negotiated. Higher numbers represent more elaborate recovery schemes. Currently, this member must be 0 or ULONG_VALUE_UNKNOWN.
 
 
-### -field MaxOutstandingR2t
+#### - MaxOutstandingR2t
 
 The maximum number of outstanding ready-to-transmit (R2T) requests that are allowed for each task within this session. 
 
 
-### -field FirstBurstLength
+#### - FirstBurstLength
 
 The maximum amount of unsolicited data, in bytes, that you can send within this session. 
 
 
-### -field MaxBurstLength
+#### - MaxBurstLength
 
 The maximum number of bytes that you can send within a single sequence of Data-In or Data-Out PDUs. 
 
 
-### -field MaxConnections
+#### - MaxConnections
 
 The maximum number of connections that are allowed within this session.
 
 
-### -field ConnectionCount
+#### - ConnectionCount
 
 The number of connections that currently belong to this session.
 
 
-### -field ConnectionsList
+#### - ConnectionsList
 
 A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a> structures that specifies the static configuration data for each connection that is associated with this session. <b>ConnectionCount</b> indicates the number of elements in the array.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
-
 <a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
  
 

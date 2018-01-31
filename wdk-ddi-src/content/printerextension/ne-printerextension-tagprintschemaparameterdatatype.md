@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3276C273-C950-4DC9-B338-E6E7E30DEB77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType, PrintSchemaParameterDataType enumeration [Print Devices], PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_String, tagPrintSchemaParameterDataType, PrintSchemaParameterDataType, PrintSchemaParameterDataType_String, PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_NumericString, print.tagprintschemaparameterdatatype
+ms.keywords: PrintSchemaParameterDataType_String, PrintSchemaParameterDataType enumeration [Print Devices], print.tagprintschemaparameterdatatype, printerextension/PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_String, PrintSchemaParameterDataType, tagPrintSchemaParameterDataType, PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType_NumericString, PrintSchemaParameterDataType_NumericString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,19 +70,19 @@ typedef enum tagPrintSchemaParameterDataType {
 
 
 
-### -field PrintSchemaParameterDataType_Integer
+#### - PrintSchemaParameterDataType_Integer
 
 Integer data type.
 This maps to the Print Schema’s IntegerParamType parameters.
 
 
-### -field PrintSchemaParameterDataType_NumericString
+#### - PrintSchemaParameterDataType_NumericString
 
 String data type with only numeric chars allowed.
 This maps to the Print Schema’s StringParamType parameters, with UnitType = “numeric”.
 
 
-### -field PrintSchemaParameterDataType_String
+#### - PrintSchemaParameterDataType_String
 
 String data type with arbitrary chars allowed.
 This maps to the Print Schema’s StringParamType parameters, with UnitType not equal to “numeric”.

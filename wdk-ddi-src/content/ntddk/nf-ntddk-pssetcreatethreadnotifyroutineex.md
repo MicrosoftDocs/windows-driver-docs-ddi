@@ -68,12 +68,12 @@ NTSTATUS PsSetCreateThreadNotifyRoutineEx(
 
 
 
-### -param NotifyType [in]
+#### - NotifyType [in]
 
 A <a href="..\ntddk\ne-ntddk-_pscreatethreadnotifytype.md">PSCREATETHREADNOTIFYTYPE</a> value that   indicates the type of thread notification. 
 
 
-### -param NotifyInformation [in]
+#### - NotifyInformation [in]
 
 Provides the address of the notification information
         for the specified type of thread notification. 
@@ -101,19 +101,19 @@ A driver must remove any callback function it registers before it unloads. You c
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
-
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
-
 <a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
 
 <a href="..\ntddk\nf-ntddk-psremovecreatethreadnotifyroutine.md">PsRemoveCreateThreadNotifyRoutine</a>
 
-<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
  
 

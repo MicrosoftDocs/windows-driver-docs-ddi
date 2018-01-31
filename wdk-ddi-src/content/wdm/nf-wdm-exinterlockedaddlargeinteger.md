@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ace8405b-74a7-4797-8d3d-3caf673dace2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedAddLargeInteger, k102_934a3a64-9f63-402c-8b55-db7e2b4d9d4b.xml, ExInterlockedAddLargeInteger routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedAddLargeInteger, kernel.exinterlockedaddlargeinteger
+ms.keywords: kernel.exinterlockedaddlargeinteger, ExInterlockedAddLargeInteger, wdm/ExInterlockedAddLargeInteger, ExInterlockedAddLargeInteger routine [Kernel-Mode Driver Architecture], k102_934a3a64-9f63-402c-8b55-db7e2b4d9d4b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ LARGE_INTEGER ExInterlockedAddLargeInteger(
 
 
 
-### -param Addend [in, out]
+#### - Addend [in, out]
 
 A pointer to the variable to be adjusted by the <i>Increment</i> value. 
 
 
-### -param Increment [in]
+#### - Increment [in]
 
 Specifies a value to be added to <i>Addend</i>. 
 
 
-### -param Lock [in, out]
+#### - Lock [in, out]
 
 A pointer to a spin lock to be used to synchronize access to <i>Addend</i>. 
 
@@ -109,11 +109,11 @@ Callers of <b>ExInterlockedAddLargeInteger</b> run at any IRQL. The storage for 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
 

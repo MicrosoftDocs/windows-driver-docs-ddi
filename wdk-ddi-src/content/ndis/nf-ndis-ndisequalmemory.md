@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5417b821-b51d-4789-8380-f93d113f42d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisequalmemory, ndis/NdisEqualMemory, NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml
+ms.keywords: netvista.ndisequalmemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -71,17 +71,17 @@ ULONG NdisEqualMemory(
 
 
 
-### -param Source1
+#### - Source1
 
 A pointer to the first block of memory to be compared.
 
 
-### -param Source2
+#### - Source2
 
 A pointer to the second block of memory to be compared.
 
 
-### -param Length
+#### - Length
 
 The number of bytes to be compared.
 
@@ -101,16 +101,16 @@ Callers of
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
-
 <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
+   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
 
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
  
 

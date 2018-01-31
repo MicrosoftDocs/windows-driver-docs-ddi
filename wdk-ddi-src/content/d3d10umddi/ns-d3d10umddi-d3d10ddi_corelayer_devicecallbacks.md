@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cced2221-7e8c-432a-9963-3b1de67037a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4c7782a0-4963-4f18-802e-98c8eb39c1a1.xml, d3d10umddi/D3D10DDI_CORELAYER_DEVICECALLBACKS, D3D10DDI_CORELAYER_DEVICECALLBACKS, display.d3d10ddi_corelayer_devicecallbacks
+ms.keywords: d3d10umddi/D3D10DDI_CORELAYER_DEVICECALLBACKS, D3D10DDI_CORELAYER_DEVICECALLBACKS, UMDisplayDriver_Dx10param_Structs_4c7782a0-4963-4f18-802e-98c8eb39c1a1.xml, D3D10DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], display.d3d10ddi_corelayer_devicecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,132 +92,132 @@ typedef struct D3D10DDI_CORELAYER_DEVICECALLBACKS {
 
 
 
-### -field pfnSetErrorCb
+#### - pfnSetErrorCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, which the driver uses to send errors back to the Direct3D 10 runtime because many of the driver's functions (in <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>) return void.
 
 
-### -field pfnStateVsConstBufCb
+#### - pfnStateVsConstBufCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_vs_constbuf_cb.md">pfnStateVsConstBufCb</a> function.
 
 
-### -field pfnStatePsSrvCb
+#### - pfnStatePsSrvCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ps_srv_cb.md">pfnStatePsSrvCb</a> function.
 
 
-### -field pfnStatePsShaderCb
+#### - pfnStatePsShaderCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ps_shader_cb.md">pfnStatePsShaderCb</a> function.
 
 
-### -field pfnStatePsSamplerCb
+#### - pfnStatePsSamplerCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ps_sampler_cb.md">pfnStatePsSamplerCb</a> function.
 
 
-### -field pfnStateVsShaderCb
+#### - pfnStateVsShaderCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_vs_shader_cb.md">pfnStateVsShaderCb</a> function.
 
 
-### -field pfnStatePsConstBufCb
+#### - pfnStatePsConstBufCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ps_constbuf_cb.md">pfnStatePsConstBufCb</a> function.
 
 
-### -field pfnStateIaInputLayoutCb
+#### - pfnStateIaInputLayoutCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ia_inputlayout_cb.md">pfnStateIaInputLayoutCb</a> function.
 
 
-### -field pfnStateIaVertexBufCb
+#### - pfnStateIaVertexBufCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ia_vertexbuf_cb.md">pfnStateIaVertexBufCb</a> function. 
 
 
-### -field pfnStateIaIndexBufCb
+#### - pfnStateIaIndexBufCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ia_indexbuf_cb.md">pfnStateIaIndexBufCb</a> function. 
 
 
-### -field pfnStateGsConstBufCb
+#### - pfnStateGsConstBufCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_gs_constbuf_cb.md">pfnStateGsConstBufCb</a> function. 
 
 
-### -field pfnStateGsShaderCb
+#### - pfnStateGsShaderCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_gs_shader_cb.md">pfnStateGsShaderCb</a> function. 
 
 
-### -field pfnStateIaPrimitiveTopologyCb
+#### - pfnStateIaPrimitiveTopologyCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_ia_primitive_topology_cb.md">pfnStateIaPrimitiveTopologyCb</a> function. 
 
 
-### -field pfnStateVsSrvCb
+#### - pfnStateVsSrvCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_vs_srv_cb.md">pfnStateVsSrvCb</a> function. 
 
 
-### -field pfnStateVsSamplerCb
+#### - pfnStateVsSamplerCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_vs_sampler_cb.md">pfnStateVsSamplerCb</a> function. 
 
 
-### -field pfnStateGsSrvCb
+#### - pfnStateGsSrvCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_gs_srv_cb.md">pfnStateGsSrvCb</a> function. 
 
 
-### -field pfnStateGsSamplerCb
+#### - pfnStateGsSamplerCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_gs_sampler_cb.md">pfnStateGsSamplerCb</a> function. 
 
 
-### -field pfnStateOmRenderTargetsCb
+#### - pfnStateOmRenderTargetsCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_om_rendertargets_cb.md">pfnStateOmRenderTargetsCb</a> function. 
 
 
-### -field pfnStateOmBlendStateCb
+#### - pfnStateOmBlendStateCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_om_blendstate_cb.md">pfnStateOmBlendStateCb</a> function. 
 
 
-### -field pfnStateOmDepthStateCb
+#### - pfnStateOmDepthStateCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_om_depthstate_cb.md">pfnStateOmDepthStateCb</a> function. 
 
 
-### -field pfnStateRsRastStateCb
+#### - pfnStateRsRastStateCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_rs_raststate_cb.md">pfnStateRsRastStateCb</a> function. 
 
 
-### -field pfnStateSoTargetsCb
+#### - pfnStateSoTargetsCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_so_targets_cb.md">pfnStateSoTargetsCb</a> function. 
 
 
-### -field pfnStateRsViewportsCb
+#### - pfnStateRsViewportsCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_rs_viewports_cb.md">pfnStateRsViewportsCb</a> function. 
 
 
-### -field pfnStateRsScissorCb
+#### - pfnStateRsScissorCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_rs_scissor_cb.md">pfnStateRsScissorCb</a> function. 
 
 
-### -field pfnDisableDeferredStagingResourceDestruction
+#### - pfnDisableDeferredStagingResourceDestruction
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_disable_deferred_staging_resource_destruction_cb.md">pfnDisableDeferredStagingResourceDestruction</a> function. By default, the Direct3D 10 runtime defers the destruction of staging resources until the driver indicates that the hardware no longer requires them. The driver can call this function to disable this feature if the driver does not require the deferred destruction functionality. 
 
 
-### -field pfnStateTextFilterSizeCb
+#### - pfnStateTextFilterSizeCb
 
 A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_state_textfiltersize_cb.md">pfnStateTextFilterSizeCb</a> function. 
 
@@ -233,11 +233,11 @@ The driver uses the functions with "State" in their name to retrieve the current
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
  
 

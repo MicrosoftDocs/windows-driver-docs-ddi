@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09e698cb-09f0-40e0-90ac-0a03c4e5c17b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4::SetOtherOutputMask, dbgeng/IDebugClient5::SetOtherOutputMask, dbgeng/IDebugClient3::SetOtherOutputMask, SetOtherOutputMask method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient2::SetOtherOutputMask, IDebugClient::SetOtherOutputMask, SetOtherOutputMask method [Windows Debugging], IDebugClient2::SetOtherOutputMask, IDebugClient_73639f3d-f638-472e-9f30-e33de9321b29.xml, SetOtherOutputMask method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], SetOtherOutputMask method, IDebugClient5 interface [Windows Debugging], SetOtherOutputMask method, dbgeng/IDebugClient4::SetOtherOutputMask, SetOtherOutputMask method [Windows Debugging], IDebugClient2 interface, SetOtherOutputMask, IDebugClient2 interface [Windows Debugging], SetOtherOutputMask method, dbgeng/IDebugClient::SetOtherOutputMask, SetOtherOutputMask method [Windows Debugging], IDebugClient3 interface, IDebugClient4 interface [Windows Debugging], SetOtherOutputMask method, SetOtherOutputMask method [Windows Debugging], IDebugClient4 interface, debugger.setotheroutputmask, IDebugClient3::SetOtherOutputMask, IDebugClient3 interface [Windows Debugging], SetOtherOutputMask method, IDebugClient5::SetOtherOutputMask, IDebugClient5
+ms.keywords: IDebugClient4::SetOtherOutputMask, dbgeng/IDebugClient2::SetOtherOutputMask, debugger.setotheroutputmask, IDebugClient4 interface [Windows Debugging], SetOtherOutputMask method, IDebugClient2::SetOtherOutputMask, SetOtherOutputMask method [Windows Debugging], IDebugClient3 interface, IDebugClient5, dbgeng/IDebugClient::SetOtherOutputMask, SetOtherOutputMask, IDebugClient interface [Windows Debugging], SetOtherOutputMask method, dbgeng/IDebugClient3::SetOtherOutputMask, IDebugClient_73639f3d-f638-472e-9f30-e33de9321b29.xml, IDebugClient2 interface [Windows Debugging], SetOtherOutputMask method, SetOtherOutputMask method [Windows Debugging], IDebugClient2 interface, IDebugClient3 interface [Windows Debugging], SetOtherOutputMask method, IDebugClient5 interface [Windows Debugging], SetOtherOutputMask method, SetOtherOutputMask method [Windows Debugging], IDebugClient interface, SetOtherOutputMask method [Windows Debugging], IDebugClient4 interface, IDebugClient::SetOtherOutputMask, SetOtherOutputMask method [Windows Debugging], SetOtherOutputMask method [Windows Debugging], IDebugClient5 interface, IDebugClient5::SetOtherOutputMask, dbgeng/IDebugClient5::SetOtherOutputMask, IDebugClient3::SetOtherOutputMask, dbgeng/IDebugClient4::SetOtherOutputMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,12 +72,12 @@ HRESULT SetOtherOutputMask(
 
 
 
-### -param Client [in]
+#### - Client [in]
 
 Specifies the client whose output mask will be set.
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 Specifies the new output mask for the client.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for a description of the possible values for <i>Mask</i>.
 
@@ -115,19 +115,19 @@ For an overview of output in the debugger engine, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548066">GetOtherOutputMask</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556756">SetOutputMask</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548066">GetOtherOutputMask</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
  
 

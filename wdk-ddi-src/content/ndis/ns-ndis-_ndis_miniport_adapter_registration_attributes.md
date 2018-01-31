@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f0d539a-50c5-4ecd-b62d-6b32fe7cfaba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, netvista.ndis_miniport_adapter_registration_attributes, PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, miniport_structures_ref_e7ef8530-9b42-45a5-8d51-db76d399b437.xml, ndis/NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
+ms.keywords: "_NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], miniport_structures_ref_e7ef8530-9b42-45a5-8d51-db76d399b437.xml, NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, netvista.ndis_miniport_adapter_registration_attributes, ndis/PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -95,14 +95,14 @@ Original version for NDIS 6.0.
 Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_1.
 
 
-### -field MiniportAdapterContext
+#### - MiniportAdapterContext
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
-### -field AttributeFlags
+#### - AttributeFlags
 
 A bitmask of flags that are combined with a bitwise OR. NDIS miniport drivers should set one or more of
      the following flags: 
@@ -184,7 +184,7 @@ For more information about this flag, see the Remarks section.
 Starting with NDIS 6.30 miniports, NDIS will not invoke the miniport's MiniportShutdownEx handler during a BugCheck unless this flag is set.  Most miniports should not set this flag. 
 
 
-### -field CheckForHangTimeInSeconds
+#### - CheckForHangTimeInSeconds
 
 The time-out interval, in seconds, at which NDIS should call the 
      <mshelp:link keywords="netvista.miniportcheckforhangex" tabindex="0"><i>
@@ -201,7 +201,7 @@ The  interval that NDIS uses when calling
 If this member is 0, the default time-out interval is 2 seconds.
 <div class="alert"><b>Note</b>  The time-out interval must be greater than your miniport driver's initialization time. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.</div><div> </div>
 
-### -field InterfaceType
+#### - InterfaceType
 
 The I/O bus interface type of the miniport adapter. This is usually the type of I/O bus on which
      the miniport adapter is connected. The following values are supported in NDIS 6.0: 
@@ -320,6 +320,10 @@ If the <b>NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND</b> flag is  set, NDIS do
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
 
 <a href="..\ndis\nf-ndis-ndismnetpnpevent.md">NdisMNetPnPEvent</a>
@@ -331,17 +335,13 @@ If the <b>NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND</b> flag is  set, NDIS do
 <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
    MiniportDevicePnPEventNotify</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f65c2974-4bf4-4948-ac07-527e69c96303
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIMInitializeDeviceInstanceEx, ndis/NdisIMInitializeDeviceInstanceEx, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], netvista.ndisiminitializedeviceinstanceex, intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml
+ms.keywords: intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, netvista.ndisiminitializedeviceinstanceex, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], NdisIMInitializeDeviceInstanceEx, ndis/NdisIMInitializeDeviceInstanceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NDIS_STATUS NdisIMInitializeDeviceInstanceEx(
 
 
 
-### -param DriverHandle [in]
+#### - DriverHandle [in]
 
 The miniport driver handle that the 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
@@ -81,7 +81,7 @@ The miniport driver handle that the
      <i>NdisMiniportDriverHandle</i> .
 
 
-### -param DriverInstance [in]
+#### - DriverInstance [in]
 
 A pointer to an NDIS_STRING type that describes a caller-initialized counted string in the
      system-default character set. The string contains the name of the registry key in which the driver
@@ -91,7 +91,7 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 
-### -param DeviceContext [in, optional]
+#### - DeviceContext [in, optional]
 
 A pointer to caller-supplied memory to be set up with driver-defined device context information
      about the virtual miniport, which still higher level protocol drivers that subsequently bind themselves
@@ -208,35 +208,35 @@ After NDIS calls an intermediate driver's
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
-   NdisIMCancelInitializeDeviceInstance</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
-<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
+   NdisIMDeInitializeDeviceInstance</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
    NdisAllocateMemoryWithTagPriority</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
+   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
-   NdisIMDeInitializeDeviceInstance</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
+   NdisIMCancelInitializeDeviceInstance</b></mshelp:link>
 
  
 

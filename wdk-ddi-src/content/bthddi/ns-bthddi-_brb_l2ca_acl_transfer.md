@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 8ab1365a-99bd-47b3-bf3d-8f70b4a7028a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_l2ca_acl_transfer, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices], bthddi/_BRB_L2CA_ACL_TRANSFER, _BRB_L2CA_ACL_TRANSFER, bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml
+ms.keywords: "_BRB_L2CA_ACL_TRANSFER, bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices], bltooth._brb_l2ca_acl_transfer, bthddi/_BRB_L2CA_ACL_TRANSFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,19 +76,19 @@ struct _BRB_L2CA_ACL_TRANSFER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The address of the remote device.
 
 
-### -field ChannelHandle
+#### - ChannelHandle
 
 The L2CAP channel handle that was returned by Bluetooth driver stack in response to an earlier 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
@@ -96,7 +96,7 @@ The L2CAP channel handle that was returned by Bluetooth driver stack in response
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
 
 
-### -field TransferFlags
+#### - TransferFlags
 
 A combination of flags that specifies the basic behavior of the interface. Multiple flags can be
      set at the same time. Valid flag values are described in the following table:
@@ -153,28 +153,28 @@ The read operation should be stopped after the number of milliseconds specified 
 </table> 
 
 
-### -field BufferSize
+#### - BufferSize
 
 The size, in bytes, of the buffer.
 
 
-### -field Buffer
+#### - Buffer
 
 A pointer to the input buffer.
 
 
-### -field BufferMDL
+#### - BufferMDL
 
 A pointer to the MDL input buffer.
 
 
-### -field Timeout
+#### - Timeout
 
 The duration, in milliseconds, before the read action is canceled and any data consumed to this
      point is lost.
 
 
-### -field RemainingBufferSize
+#### - RemainingBufferSize
 
 The amount of space, in bytes, left in the buffer after the BRB call.
 
@@ -206,14 +206,14 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 ## -see-also
 
-<mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link>
 
  
 

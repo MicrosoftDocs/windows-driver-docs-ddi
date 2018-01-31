@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4F47EC75-4D68-4202-9B29-8F6FB36528A5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ARM64, DEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ARM64, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, *PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, debugger.debug_processor_identification_arm64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure pointer [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_ARM64
+ms.keywords: debugger.debug_processor_identification_arm64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure pointer [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_ARM64, *PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, _DEBUG_PROCESSOR_IDENTIFICATION_ARM64, DEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure [Windows Debugging], dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ARM64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DEBUG_PROCESSOR_IDENTIFICATION_ARM64 {
 
 
 
-### -field Model
+#### - Model
 
 The model of the processor.
 
 
-### -field Revision
+#### - Revision
 
 The revision of the processor.
 
 
-### -field VendorString
+#### - VendorString
 
 A vendor specified string.
 

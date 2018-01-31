@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d579d9a3-7db1-47ed-859d-3fed99a4ee9d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DIRECTFLIP_SUPPORT structure [Display Devices], _D3DKMT_DIRECTFLIP_SUPPORT, d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT, display.d3dkmt_directflip_support, D3DKMT_DIRECTFLIP_SUPPORT
+ms.keywords: d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT, _D3DKMT_DIRECTFLIP_SUPPORT, D3DKMT_DIRECTFLIP_SUPPORT, D3DKMT_DIRECTFLIP_SUPPORT structure [Display Devices], display.d3dkmt_directflip_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DKMT_DIRECTFLIP_SUPPORT {
 
 
 
-### -field Supported
+#### - Supported
 
 If <b>TRUE</b>, the driver supports Direct Flip operations. Otherwise, the driver does not support Direct Flip operations.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9a31719-2674-4d3f-8792-b099640faa07
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], usbcamdi/USBCAMD_SelectAlternateInterface, stream.usbcamd_selectalternateinterface
+ms.keywords: stream.usbcamd_selectalternateinterface, USBCAMD_SelectAlternateInterface, usbcamdi/USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS USBCAMD_SelectAlternateInterface(
 
 
 
-### -param DeviceContext [in]
+#### - DeviceContext [in]
 
 Pointer to a device-specific context.
 
 
-### -param RequestInterface [in, out]
+#### - RequestInterface [in, out]
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 

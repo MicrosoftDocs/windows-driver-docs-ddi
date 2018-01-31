@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3257a207-dd7e-4321-b037-95d62cea6f76
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DETECTION_TYPE enumeration [Storage Devices], ntdddisk/DetectInt13, storage.detection_type, DETECTION_TYPE, ntdddisk/DetectNone, DetectInt13, DetectExInt13, _DETECTION_TYPE, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, ntdddisk/DetectExInt13, ntdddisk/DETECTION_TYPE, DetectNone
+ms.keywords: ntdddisk/DetectNone, DETECTION_TYPE, ntdddisk/DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], DetectExInt13, ntdddisk/DetectExInt13, storage.detection_type, DetectInt13, _DETECTION_TYPE, DetectNone, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, ntdddisk/DetectInt13
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DETECTION_TYPE {
 
 
 
-### -field DetectNone
+#### - DetectNone
 
 Indicates that the disk contains neither an INT 13h partition nor an extended INT 13h partition.
 
 
-### -field DetectInt13
+#### - DetectInt13
 
 Indicates that the disk has a standard INT 13h partition.
 
 
-### -field DetectExInt13
+#### - DetectExInt13
 
 Indicates that the disk contains an extended INT 13h partition. 
 

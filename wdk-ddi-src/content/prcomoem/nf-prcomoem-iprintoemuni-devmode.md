@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: df6bde70-ba14-411b-88a1-b45f2e2756ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DevMode method [Print Devices], IPrintOemUni interface, DevMode, print_unidrv-pscript_rendering_f7793c3f-de50-4699-a9f1-bf73f8171ecc.xml, prcomoem/IPrintOemUni::DevMode, DevMode method [Print Devices], IPrintOemUni interface [Print Devices], DevMode method, IPrintOemUni::DevMode, print.iprintoemuni_devmode, IPrintOemUni
+ms.keywords: print.iprintoemuni_devmode, print_unidrv-pscript_rendering_f7793c3f-de50-4699-a9f1-bf73f8171ecc.xml, DevMode, IPrintOemUni, DevMode method [Print Devices], IPrintOemUni interface, DevMode method [Print Devices], prcomoem/IPrintOemUni::DevMode, IPrintOemUni interface [Print Devices], DevMode method, IPrintOemUni::DevMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ STDMETHOD DevMode(
 
 
 
-### -param dwMode
+#### - dwMode
 
 Specifies a caller-supplied constant. See the Remarks section for more information.
 
 
-### -param pOemDMParam
+#### - pOemDMParam
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemdmparam.md">OEMDMPARAM</a> structure.
 

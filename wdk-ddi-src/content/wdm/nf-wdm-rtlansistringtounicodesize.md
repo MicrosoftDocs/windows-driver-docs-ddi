@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 32687aa7-4e14-40cb-baa3-4a97d834bf86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, kernel.rtlansistringtounicodesize, RtlAnsiStringToUnicodeSize, wdm/RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlansistringtounicodesize, RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, wdm/RtlAnsiStringToUnicodeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -89,9 +89,9 @@ Pointer to a buffer containing the ANSI string.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
-
 <a href="..\wdm\nf-wdm-rtlxansistringtounicodesize.md">RtlxAnsiStringToUnicodeSize</a>
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
 
  
 

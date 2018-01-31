@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 3F9831D1-68A9-4FDB-93C6-6983E6BFE945
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: P_SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, _SECURE_ELEMENT_AID_ROUTING_INFO, *PSECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO
+ms.keywords: "_SECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], P_SECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info, nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, *PSECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _SECURE_ELEMENT_AID_ROUTING_INFO {
 
 
 
-### -field guidSecureElementId
+#### - guidSecureElementId
 
 Secure element unique identifier returned by enumeration DDI.
 
 
 
 
-### -field cbAid
+#### - cbAid
 
 Length of applet ID buffer.
 

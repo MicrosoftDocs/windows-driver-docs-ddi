@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a3bacd56-c25a-45d1-bd9f-b19bc1f95c8f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dd_getd3dquerydata, d3dhal/DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA structure [Display Devices], _DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA, d3dstrct_ec5ab755-9f1e-4add-bcf1-73bcb01988e6.xml
+ms.keywords: d3dstrct_ec5ab755-9f1e-4add-bcf1-73bcb01988e6.xml, display.dd_getd3dquerydata, DD_GETD3DQUERYDATA structure [Display Devices], d3dhal/DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA, _DD_GETD3DQUERYDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,17 +75,17 @@ typedef struct _DD_GETD3DQUERYDATA {
 
 
 
-### -field dwQueryIndex
+#### - dwQueryIndex
 
 Specifies the index of the query type to return.
 
 
-### -field QueryType
+#### - QueryType
 
 Receives a value from the D3DQUERYTYPE enumeration that specifies the actual query capability.
 
 
-### -field gdi2
+#### - gdi2
 
 Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
@@ -103,13 +103,13 @@ For more information about D3DQUERYTYPE, see the DirectX SDK documentation.
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-
-D3DDP2OP_CREATEQUERY
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 <a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+D3DDP2OP_CREATEQUERY
 
  
 

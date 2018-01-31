@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7116B31A-D584-4B9D-AFB4-5B15B659BE54
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_OFFSET_REGION, debugger.debug_offset_region, dbgeng/PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], *PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION, _DEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging]
+ms.keywords: "_DEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION, dbgeng/PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], PDEBUG_OFFSET_REGION, debugger.debug_offset_region, dbgeng/DEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_OFFSET_REGION
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION
+req.typenames: "*PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION"
 ---
 
 # _DEBUG_OFFSET_REGION structure
@@ -68,12 +68,12 @@ typedef struct _DEBUG_OFFSET_REGION {
 
 
 
-### -field Base
+#### - Base
 
 The base value of the offset region.
 
 
-### -field Size
+#### - Size
 
 The size of the region. 
 

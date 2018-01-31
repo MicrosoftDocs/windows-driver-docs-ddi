@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_IO_PRIORITY_HINT, IoPriorityVeryLow, wdm/IoPriorityCritical, wdm/IoPriorityLow, wdm/IO_PRIORITY_HINT, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], wdm/IoPriorityNormal, wdm/IoPriorityHigh, IoPriorityHigh, IoPriorityLow, IoPriorityCritical, wdm/MaxIoPriorityTypes, MaxIoPriorityTypes, kernel.io_priority_hint, wdm/IoPriorityVeryLow, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, IO_PRIORITY_HINT, IoPriorityNormal"
+ms.keywords: wdm/IoPriorityVeryLow, wdm/IoPriorityCritical, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], MaxIoPriorityTypes, IoPriorityVeryLow, IoPriorityCritical, wdm/IO_PRIORITY_HINT, wdm/IoPriorityLow, wdm/IoPriorityNormal, wdm/MaxIoPriorityTypes, IoPriorityNormal, IoPriorityLow, IoPriorityHigh, IO_PRIORITY_HINT, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, kernel.io_priority_hint, wdm/IoPriorityHigh, _IO_PRIORITY_HINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _IO_PRIORITY_HINT {
 
 
 
-### -field IoPriorityVeryLow
+#### - IoPriorityVeryLow
 
 Specifies the lowest possible priority hint level. The system uses this value for background I/O operations.
 
 
-### -field IoPriorityLow
+#### - IoPriorityLow
 
 Specifies a low-priority hint level. 
 
 
-### -field IoPriorityNormal
+#### - IoPriorityNormal
 
 Specifies a normal-priority hint level. This value is the default setting for an IRP.
 
 
-### -field IoPriorityHigh
+#### - IoPriorityHigh
 
 Specifies a high-priority hint level. This value is reserved for use by the system.
 
 
-### -field IoPriorityCritical
+#### - IoPriorityCritical
 
 Specifies the highest-priority hint level. This value is reserved for use by the system.
 
 
-### -field MaxIoPriorityTypes
+#### - MaxIoPriorityTypes
 
 Marks the limit for priority hints. Any priority hint value must be less than <b>MaxIoPriorityTypes</b>.
 

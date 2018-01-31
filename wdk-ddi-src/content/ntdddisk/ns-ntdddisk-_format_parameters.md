@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/FORMAT_PARAMETERS, _FORMAT_PARAMETERS, *PFORMAT_PARAMETERS, FORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], PFORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], ntdddisk/PFORMAT_PARAMETERS, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, storage.format_parameters
+ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], ntdddisk/FORMAT_PARAMETERS, storage.format_parameters, PFORMAT_PARAMETERS structure pointer [Storage Devices], FORMAT_PARAMETERS, PFORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, _FORMAT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _FORMAT_PARAMETERS {
 
 
 
-### -field MediaType
+#### - MediaType
 
 Indicates format information, such as the disk size and the number of bytes per sector. For a list of the values that can be assigned to this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>. 
 
 
-### -field StartCylinderNumber
+#### - StartCylinderNumber
 
 Indicates the number of the cylinder where the formatting should begin. 
 
 
-### -field EndCylinderNumber
+#### - EndCylinderNumber
 
 Indicates the number of the cylinder where the formatting should end. 
 
 
-### -field StartHeadNumber
+#### - StartHeadNumber
 
 Indicates the number of the head where the formatting should begin. 
 
 
-### -field EndHeadNumber
+#### - EndHeadNumber
 
 Indicates the number of the head where the formatting should end. 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78912da9-ab02-459c-97b0-477949d4a71d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], PVIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES, _VIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], *PVIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges
+ms.keywords: PVIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES, *PVIDEO_PUBLIC_ACCESS_RANGES, _VIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], VIDEO_PUBLIC_ACCESS_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_PUBLIC_ACCESS_RANGES
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES"
+req.typenames: VIDEO_PUBLIC_ACCESS_RANGES, *PVIDEO_PUBLIC_ACCESS_RANGES
 ---
 
 # _VIDEO_PUBLIC_ACCESS_RANGES structure
@@ -69,7 +69,7 @@ typedef struct _VIDEO_PUBLIC_ACCESS_RANGES {
 
 
 
-### -field InIoSpace
+#### - InIoSpace
 
 Indicates the location of the range. This parameter can be one of the following values, or certain bitwise combinations of these values:
 <table>
@@ -130,12 +130,12 @@ Indicates that the address range specified should be mapped into user mode rathe
 </table> 
 
 
-### -field MappedInIoSpace
+#### - MappedInIoSpace
 
 Indicates, on the current platform, whether the registers or ports are mapped in I/O space or in memory space. A value of <b>TRUE</b> (1) indicates that the registers or ports are mapped in I/O space; a value of <b>FALSE</b> (0) indicates that the registers or ports are mapped in memory space.
 
 
-### -field VirtualAddress
+#### - VirtualAddress
 
 Pointer to the location of the registers or I/O ports as mapped under the current architecture.
 

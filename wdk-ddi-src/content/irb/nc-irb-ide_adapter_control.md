@@ -72,12 +72,12 @@ BOOLEAN AtaAdapterControl(
 
 
 
-### -param ControllerExtension [in]
+#### - ControllerExtension [in]
 
 A pointer to the controller extension.
 
 
-### -param ControlAction [in]
+#### - ControlAction [in]
 
 
       One of five actions that the miniport driver must perform as defined in the following table.
@@ -161,7 +161,7 @@ Indicates that the miniport driver should perform a vendor-defined control actio
 </table> 
 
 
-### -param Parameters [in, out]
+#### - Parameters [in, out]
 
 Parameters associated with the given action.
 

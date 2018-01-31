@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3f95caad-92e5-4d0f-bd9e-8873b05f2aaa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestretrieveoutputwdmmdl, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL, kmdf.wdfrequestretrieveoutputwdmmdl, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, wdfrequest/WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl method
+ms.keywords: WdfRequestRetrieveOutputWdmMdl, wdfrequest/WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl method, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL, kmdf.wdfrequestretrieveoutputwdmmdl, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, wdf.wdfrequestretrieveoutputwdmmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfRequestRetrieveOutputWdmMdl(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. 
 
 
-### -param Mdl [out]
+#### - Mdl [out]
 
 A pointer to a location that receives a pointer to an MDL.
 

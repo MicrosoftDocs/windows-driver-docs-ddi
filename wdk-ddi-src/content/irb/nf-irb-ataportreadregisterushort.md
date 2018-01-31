@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a0a9792c-a2a1-4079-9e1c-c41c5b872fa0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportreadregisterushort, AtaPortReadRegisterUshort routine [Storage Devices], AtaPortReadRegisterUshort, atartns_4173b6fd-0784-4279-ae9e-d51469a000c6.xml, irb/AtaPortReadRegisterUshort
+ms.keywords: AtaPortReadRegisterUshort, atartns_4173b6fd-0784-4279-ae9e-d51469a000c6.xml, irb/AtaPortReadRegisterUshort, storage.ataportreadregisterushort, AtaPortReadRegisterUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ USHORT AtaPortReadRegisterUshort(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register to be read. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
@@ -84,11 +84,11 @@ A pointer to the register to be read. The address value that is assigned to this
 
 ## -see-also
 
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
 <a href="..\irb\nf-irb-ataportreadregisterulong.md">AtaPortReadRegisterUlong</a>
 
 <a href="..\irb\nf-irb-ataportreadregisteruchar.md">AtaPortReadRegisterUchar</a>
-
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
  
 

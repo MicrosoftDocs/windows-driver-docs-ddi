@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: usbcamdi/USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand, stream.usbcamd_controlvendorcommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml, USBCAMD_ControlVendorCommand function [Streaming Media Devices]
+ms.keywords: stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml, USBCAMD_ControlVendorCommand function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,47 +77,47 @@ NTSTATUS USBCAMD_ControlVendorCommand(
 
 
 
-### -param DeviceContext [in]
+#### - DeviceContext [in]
 
 Pointer to device-specific context.
 
 
-### -param Request [in]
+#### - Request [in]
 
 Specifies the value of the <b>Request</b> field for the vendor command.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the value of the <b>Value</b> field for the vendor command.
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the value of the <b>Index</b> field for the vendor command.
 
 
-### -param Buffer [in, out, optional]
+#### - Buffer [in, out, optional]
 
 Pointer to a data buffer if the command has data. If the command does not have any data, this value is <b>NULL</b>.
 
 
-### -param BufferLength [in, out]
+#### - BufferLength [in, out]
 
 Pointer to the buffer length value. Buffer length is expressed in bytes. If the value of <i>Buffer</i> is <b>NULL</b>, <i>BufferLength</i> may also be <b>NULL</b>.
 
 
-### -param GetData [in]
+#### - GetData [in]
 
 <i>GetData</i> indicates data was sent from the device to the host.
 
 
-### -param CommandComplete [in, optional]
+#### - CommandComplete [in, optional]
 
 Pointer to a camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
 
 
-### -param CommandContext [in, optional]
+#### - CommandContext [in, optional]
 
 Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>.
 

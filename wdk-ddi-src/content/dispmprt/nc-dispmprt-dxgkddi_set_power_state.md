@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiSetPowerState
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_SET_POWER_STATE callback
@@ -73,22 +73,22 @@ NTSTATUS DxgkDdiSetPowerState(
 
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param DeviceUid [in]
+#### - DeviceUid [in]
 
 A positive integer that identifies the device for which the power state is to be set. If <i>DeviceUid</i> is equal to <b>DISPLAY_ADAPTER_HW_ID</b> (defined in Video.h), the device is the display adapter itself. Otherwise, <i>DeviceUid</i> is the identifier of a child device of the display adapter. Child device identifiers were previously assigned by the <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function.
 
 
-### -param DevicePowerState [in]
+#### - DevicePowerState [in]
 
 A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> enumeration value that supplies the power state (<b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, <b>PowerDeviceD3</b>) to which the device should be set.
 
 
-### -param ActionType [in]
+#### - ActionType [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560459">POWER_ACTION</a> enumeration value that supplies the reason (<b>PowerActionSleep</b>, <b>PowerActionHibernate</b>, <b>PowerActionShutdown</b>) for the power state change.
 

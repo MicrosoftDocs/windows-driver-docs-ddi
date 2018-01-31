@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9715ff37-397b-4102-a363-443b8076f881
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortQueueDpc, video/VideoPortQueueDpc, display.videoportqueuedpc, VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, VideoPortQueueDpc function [Display Devices]
+ms.keywords: VideoPortQueueDpc, display.videoportqueuedpc, video/VideoPortQueueDpc, VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, VideoPortQueueDpc function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOLEAN VideoPortQueueDpc(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param CallbackRoutine [in]
+#### - CallbackRoutine [in]
 
 Pointer to the miniport driver's <a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a> to be called when the DPC is scheduled. The callback routine must be nonpaged.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the miniport driver-supplied context that will be passed to <i>CallbackRoutine</i>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D953C714-6C11-4F8A-A7F9-416A00C518B4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_logumdmarker, D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER
+ms.keywords: display.d3dddicb_logumdmarker, d3dumddi/D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,38 +71,38 @@ typedef struct D3DDDICB_LOGUMDMARKER {
 
 
 
-### -field hContext
+#### - hContext
 
 [in] A handle to a Direct3D context that signals ETW marker events. This is also the context that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function will be called on.
 
 
-### -field APISequenceNumber
+#### - APISequenceNumber
 
 The API sequence number that the marker event is associated with.
 
 
-### -field Index
+#### - Index
 
 Indicates which API sequence call caused this marker event. If zero, the marker event corresponds to the latest API sequence number after a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a> function. If 1, the marker event is located at the following API sequence number. And so on.
 
 Should be -1 if no time stamps are associated with this marker event.
 
 
-### -field StringIndex
+#### - StringIndex
 
 The offset, in bytes, of the string table entry pointed to by <b>Info</b>. Can be negative if the string is passed along with the marker event.
 
 
-### -field Info
+#### - Info
 
 A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
  
 

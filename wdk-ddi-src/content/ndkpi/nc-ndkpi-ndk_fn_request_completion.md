@@ -40,7 +40,7 @@ apiname:
 -	NdkRequestCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_REQUEST_COMPLETION callback
@@ -71,12 +71,12 @@ VOID NdkRequestCompletion(
 
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 The context value passed to the NDK provider when a consumer calls an asynchronous request function. The asynchronous request function  provides the context with the with the <i>NdkRequestCompletion</i> (<i>NDK_FN_REQUEST_COMPLETION</i>) function pointer.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
 

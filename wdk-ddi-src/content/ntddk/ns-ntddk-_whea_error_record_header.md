@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, _WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], whea.whea_error_record_header, *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER
+ms.keywords: PWHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], whea.whea_error_record_header, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], ntddk/PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_RECORD_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER"
+req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
 ---
 
 # _WHEA_ERROR_RECORD_HEADER structure
@@ -82,62 +82,62 @@ typedef struct _WHEA_ERROR_RECORD_HEADER {
 
 
 
-### -field Signature
+#### - Signature
 
 The signature of the error record. This member contains the value 'REPC'.
 
 
-### -field Revision
+#### - Revision
 
 A <a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a> union that describes the revision level of the WHEA_ERROR_RECORD_HEADER structure.
 
 
-### -field SignatureEnd
+#### - SignatureEnd
 
 The end of the signature of the error record. This member contains the value 0xFFFFFFFF.
 
 
-### -field SectionCount
+#### - SectionCount
 
 The number of sections of error information that are contained in the error record.
 
 
-### -field Severity
+#### - Severity
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition described by the error record.
 
 
-### -field ValidBits
+#### - ValidBits
 
 A <a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a> union that specifies which members of the WHEA_ERROR_RECORD_HEADER structure contain valid data.
 
 
-### -field Length
+#### - Length
 
 The length, in bytes, of the error record.
 
 
-### -field Timestamp
+#### - Timestamp
 
 A <a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a> union that indicates the time that the error was reported to the operating system. This member contains valid data only if the <b>ValidBits.Timestamp</b> bit is set.
 
 
-### -field PlatformId
+#### - PlatformId
 
 A GUID that identifies the platform on which the hardware error occurred. This member contains valid data only if the <b>ValidBits.PlatformId</b> bit is set.
 
 
-### -field PartitionId
+#### - PartitionId
 
 A GUID that identifies the partition on which the hardware error occurred. This member contains valid data only if the <b>ValidBits.PartitionId</b> bit is set.
 
 
-### -field CreatorId
+#### - CreatorId
 
 A GUID that identifies the entity that created the error record. When the Windows kernel creates an error record, it sets this member to WHEA_RECORD_CREATOR_GUID.
 
 
-### -field NotifyType
+#### - NotifyType
 
 A GUID that identifies the notification mechanism by which an error condition is reported to the operating system. The following are the GUIDs for the standard notification types:
 
@@ -181,12 +181,12 @@ Nonmaskable Interrupt (NMI)
 Boot Error Record (BOOT)
 
 
-### -field RecordId
+#### - RecordId
 
 The identifier of the error record. This identifier is unique only on the system that created the error record.
 
 
-### -field Flags
+#### - Flags
 
 A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The WHEA_ERROR_RECORD_HEADER_FLAGS union is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -234,12 +234,12 @@ Reserved for system use.
 A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
 
 
-### -field PersistenceInfo
+#### - PersistenceInfo
 
 A <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a> union that is used by the error record persistence interface.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
@@ -253,17 +253,17 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
+<a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
 
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
+<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
 
  
 

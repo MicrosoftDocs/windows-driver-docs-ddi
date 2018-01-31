@@ -74,22 +74,22 @@ VOID HwVidExecuteDma(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-### -param VpDmaAdapter
+#### - VpDmaAdapter
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a call to <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>.
 
 
-### -param SGList
+#### - SGList
 
 Pointer to a <a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a> structure. The video port driver fills in the information in this structure, and passes this structure to the miniport driver.
 
 
-### -param Context
+#### - Context
 
 Pointer to the driver-determined context passed in from <b>VideoPortStartDma</b>.
 
@@ -116,15 +116,15 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 ## -see-also
 
-<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
+<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
 
 <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+
 <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
-<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
 
  
 

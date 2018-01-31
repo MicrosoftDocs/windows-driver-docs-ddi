@@ -40,7 +40,7 @@ apiname:
 -	EvtIoDeviceControl
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,27 @@ VOID EvtIoDeviceControl(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to the framework queue object that is associated with the I/O request.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
 
-### -param IoControlCode [in]
+#### - IoControlCode [in]
 
 The driver-defined or system-defined I/O control code (IOCTL) that is associated with the request.
 
@@ -153,11 +153,11 @@ A driver's <i>EvtIoDeviceControl</i> callback function should not call the follo
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforioctl.md">WdfIoTargetFormatRequestForIoctl</a>
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md">EvtIoInternalDeviceControl</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md">EvtIoInternalDeviceControl</a>
 
  
 

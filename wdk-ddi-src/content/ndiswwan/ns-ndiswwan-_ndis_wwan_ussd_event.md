@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11533451-31EC-4C55-9675-5AC7D25B6C9D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_EVENT, *PNDIS_WWAN_USSD_EVENT, netvista.ndis_wwan_ussd_event, NDIS_WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT, ndiswwan/NDIS_WWAN_USSD_EVENT, ndiswwan/PNDIS_WWAN_USSD_EVENT
+ms.keywords: "_NDIS_WWAN_USSD_EVENT, PNDIS_WWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_EVENT, ndiswwan/PNDIS_WWAN_USSD_EVENT, netvista.ndis_wwan_ussd_event, NDIS_WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT, ndiswwan/NDIS_WWAN_USSD_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_USSD_EVENT
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_USSD_EVENT, *PNDIS_WWAN_USSD_EVENT
+req.typenames: "*PNDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT"
 ---
 
 # _NDIS_WWAN_USSD_EVENT structure
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_USSD_EVENT {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_USSD_EVENT structure. The MB Service sets the header with the values that are shown in the following table when it
      sends the data structure to the miniport driver for 
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 A miniport driver must set this to WWAN_STATUS_SUCCESS for successful OID_WWAN_USSD query execution.
      
@@ -204,7 +204,7 @@ Service activation has failed. Subscription has expired. Device does not allow s
 </table> 
 
 
-### -field UssdEvent
+#### - UssdEvent
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a> object that represents a

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d4c87d5-36cd-49ba-8111-cf651f67a451
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, RIL_CD_3GPP_REJECT_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup_2, RIL_CD_OTHER_CAUSE, rilapitypes/RIL_CD_AS_CAUSE, rilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, RIL_CD_3GPP_NETWORK_CAUSE, rilapitypes/RIL_CD_OTHER_CAUSE, RIL_CD_CAUSE_MAX, RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RIL_CD_AS_CAUSE, rilapitypes/RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_IMS_SIP_CAUSE, rilapitypes/RIL_CD_IMS_SIP_CAUSE, RIL_CD_3GPP2_VENDOR_CAUSE, rilapitypes/RIL_CD_CAUSE_MAX, rilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_3GPP2_VENDOR_CAUSE, rilapitypes/RIL_CD_IMS_SIP_CAUSE, rilapitypes/RIL_CD_CAUSE_MAX, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], RIL_CD_3GPP_NETWORK_CAUSE, rilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, rilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, netvista.rilcalldisconnectdetailsdisconnectgroup_2, RIL_CD_OTHER_CAUSE, rilapitypes/RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_AS_CAUSE, RIL_CD_CAUSE_MAX, rilapitypes/RIL_CD_OTHER_CAUSE, rilapitypes/RIL_CD_AS_CAUSE, RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RIL_CD_IMS_SIP_CAUSE, rilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,30 +78,30 @@ typedef enum _RILCALLDISCONNECTDETAILSDISCONNECTGROUP {
 
 
 
-### -field RIL_CD_AS_CAUSE
+#### - RIL_CD_AS_CAUSE
 
 
 
-### -field RIL_CD_3GPP_NETWORK_CAUSE
+#### - RIL_CD_3GPP_NETWORK_CAUSE
 
 
 
-### -field RIL_CD_3GPP2_VENDOR_CAUSE
+#### - RIL_CD_3GPP2_VENDOR_CAUSE
 
 
 
-### -field RIL_CD_OTHER_CAUSE
+#### - RIL_CD_OTHER_CAUSE
 
 
 
-### -field RIL_CD_3GPP_REJECT_CAUSE
+#### - RIL_CD_3GPP_REJECT_CAUSE
 
 
 
-### -field RIL_CD_IMS_SIP_CAUSE
+#### - RIL_CD_IMS_SIP_CAUSE
 
 
 
-### -field RIL_CD_CAUSE_MAX
+#### - RIL_CD_CAUSE_MAX
 
 

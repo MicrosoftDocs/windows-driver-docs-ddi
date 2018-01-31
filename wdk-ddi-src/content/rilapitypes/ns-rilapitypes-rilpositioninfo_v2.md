@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 881e85a2-4ba2-4940-94c0-61a2d335e52a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], *LPRILPOSITIONINFO_V2, rilapitypes/RILPOSITIONINFO_V2, RILPOSITIONINFO, netvista.rilpositioninfo_v2
+ms.keywords: rilapitypes/RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, netvista.rilpositioninfo_v2, *LPRILPOSITIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPOSITIONINFO_V2
 product: Windows
 targetos: Windows
-req.typenames: RILPOSITIONINFO, *LPRILPOSITIONINFO, RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2
+req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, *LPRILPOSITIONINFO
 req.product: Windows 10 or later.
 ---
 
@@ -83,47 +83,47 @@ struct RILPOSITIONINFO_V2 {
 
 
 
-### -field cbSize
+#### - cbSize
 
 The size of the structure in bytes.
 
 
-### -field dwSystemType
+#### - dwSystemType
 
 Indicates the system type or types for which serving cell information is valid, a bitmask of one or more <a href="..\rilapitypes\ne-rilapitypes-rilsystemtype.md">RILSYSTEMTYPE</a> values. For example, on an SVLTE system, this could be <code>RIL_SYSTEMTYPE_LTE|RIL_SYSTEMTYPE_1XRTT</code>, indicating that both the CDMA cell information (including serving cell(s)) in <b>rc2kMRL</b> and <b>stLTEServingCellInfo</b> are valid.
 
 
-### -field stGSMServingCellInfo
+#### - stGSMServingCellInfo
 
 GSM serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfogsm.md">RILPOSITIONINFOGSM</a> struct.
 
 
-### -field stUMTSServingCellInfo
+#### - stUMTSServingCellInfo
 
 UMTS serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfoumts.md">RILPOSITIONINFOUMTS</a> struct.
 
 
-### -field stTDSCDMAServingCellInfo
+#### - stTDSCDMAServingCellInfo
 
 TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfo_v1.md">RILPOSITIONINFO_V1</a>.
 
 
-### -field stLTEServingCellInfo
+#### - stLTEServingCellInfo
 
 LTE serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfolte.md">RILPOSITIONINFOLTE</a> struct.
 
 
-### -field dwCntGSMNMR
+#### - dwCntGSMNMR
 
 The number of GSM network measurement reports in <b>rgNMR</b>.
 
 
-### -field rgNMR
+#### - rgNMR
 
 GSM network measurement reports, an array of <a href="..\rilapitypes\ns-rilapitypes-rilgsmnmr.md">RILGSMNMR</a> structs.
 
 
-### -field dwCntUMTSMRL
+#### - dwCntUMTSMRL
 
 The number of entries in the UMTS measured results list <b>ruMRL</b>.
 
@@ -133,7 +133,7 @@ The number of entries in the UMTS measured results list <b>ruMRL</b>.
  
 
 
-### -field dwCntTDSCDMAMRL
+#### - dwCntTDSCDMAMRL
 
 The number of entries in the TD-SCDMA measured results list <b>rtMRL</b>. This field is not present in RILPOSITIONINFO_V1.
 
@@ -143,22 +143,22 @@ The number of entries in the TD-SCDMA measured results list <b>rtMRL</b>. This f
  
 
 
-### -field dwCntEUTRAMRL
+#### - dwCntEUTRAMRL
 
 The number of entries in the EUTRAN (LTE) measured results list <b>reMRL</b>.
 
 
-### -field reMRL
+#### - reMRL
 
 E-UTRAN (LTE) measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rileutramrl.md">RILEUTRAMRL</a> structs.
 
 
-### -field dwCntC2KMRL
+#### - dwCntC2KMRL
 
 The number of entries in the cdma2000 measured results list <b>rc2kMRL</b>.
 
 
-### -field rc2kMRL
+#### - rc2kMRL
 
 The cdma2000 measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilc2kmrl.md">RILC2KMRL</a> structs.
 

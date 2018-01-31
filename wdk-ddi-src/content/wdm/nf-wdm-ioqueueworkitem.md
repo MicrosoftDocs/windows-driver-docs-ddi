@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 92ec386e-205a-4704-bd13-941dd6d7d987
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoQueueWorkItem, IoQueueWorkItem routine [Kernel-Mode Driver Architecture], kernel.ioqueueworkitem, k104_6f5cb4e5-75d1-433a-864e-19de914aa2e7.xml, wdm/IoQueueWorkItem
+ms.keywords: IoQueueWorkItem routine [Kernel-Mode Driver Architecture], wdm/IoQueueWorkItem, kernel.ioqueueworkitem, IoQueueWorkItem, k104_6f5cb4e5-75d1-433a-864e-19de914aa2e7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VOID IoQueueWorkItem(
 
 
 
-### -param IoWorkItem [in]
+#### - IoWorkItem [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure that was allocated by <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a> or initialized by <a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>.
 
 
-### -param WorkerRoutine [in]
+#### - WorkerRoutine [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566380">WorkItem</a> routine.
 
 
-### -param QueueType [in]
+#### - QueueType [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a> value that stipulates the type of system worker thread to handle the work item. Drivers must specify <b>DelayedWorkQueue</b>.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Specifies driver-specific information for the work item. The system passes this value as the <i>Context</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566380">WorkItem</a>.
 
@@ -107,11 +107,11 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566380">WorkItem</a>
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 

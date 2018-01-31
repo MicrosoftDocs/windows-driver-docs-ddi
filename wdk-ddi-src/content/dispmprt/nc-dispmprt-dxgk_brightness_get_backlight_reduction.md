@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiGetBacklightReduction
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback
@@ -71,16 +71,14 @@ NTSTATUS* DxgkDdiGetBacklightReduction(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A handle to a <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> context block that is associated with a display adapter. The display miniport driver's  function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param *BacklightInfo
+#### - *BacklightInfo [out]
 
-
-
-
+A value of type <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_backlight_info.md">DXGK_BACKLIGHT_INFO</a> that provides the current absolute level of backlight reduction.
 
 
 #### - BacklightInfo [out]

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 965aa806-90cc-4c82-a126-42ae433cba3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspingetdevice, KsPinGetDevice function [Streaming Media Devices], ks/KsPinGetDevice, KsPinGetDevice, avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml
+ms.keywords: avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, ks/KsPinGetDevice, KsPinGetDevice function [Streaming Media Devices], KsPinGetDevice, stream.kspingetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PKSDEVICE __inline KsPinGetDevice(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin for which to return the owning AVStream device.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f5192ac-aea0-4e63-b2f9-1d51e00bbf03
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure, _WDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS, wdfdriver/PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, kmdf.wdf_driver_version_available_params, DFDriverObjectRef_dea9dee4-b36b-4672-89cb-bbffe0a78f3b.xml, wdf.wdf_driver_version_available_params, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS structure pointer, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS
+ms.keywords: WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, wdf.wdf_driver_version_available_params, kmdf.wdf_driver_version_available_params, WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, _WDF_DRIVER_VERSION_AVAILABLE_PARAMS, wdfdriver/PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS structure pointer, DFDriverObjectRef_dea9dee4-b36b-4672-89cb-bbffe0a78f3b.xml, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DRIVER_VERSION_AVAILABLE_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ typedef struct _WDF_DRIVER_VERSION_AVAILABLE_PARAMS {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field MajorVersion
+#### - MajorVersion
 
 A numeric value that represents the Kernel-Mode Driver Framework library's major version number.
 
 
-### -field MinorVersion
+#### - MinorVersion
 
 A numeric value that represents the Kernel-Mode Driver Framework library's minor version number.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE
+ms.keywords: Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, VIDEO_PORT_DEBUG_REPORT_INTERFACE, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_PORT_DEBUG_REPORT_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
+req.typenames: "*PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -84,27 +84,27 @@ typedef struct _VIDEO_PORT_DEBUG_REPORT_INTERFACE {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size, in bytes, of this structure.
 
 
-### -field Version
+#### - Version
 
 Specifies the version of the interface returned by the video port driver. Currently, the only supported version is VIDEO_PORT_DEBUG_REPORT_INTERFACE_VERSION_1.
 
 
-### -field Context
+#### - Context
 
 Pointer to a context that is provided by the video port driver.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 Pointer to an interface reference function that is implemented by the video port driver.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 Pointer to an interface dereference function that is implemented by the video port driver.
 
@@ -143,15 +143,15 @@ Windows XP SP2 and subsequent service packs
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 0a468158-4beb-42e0-a990-0282041a6bf8
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: sddef/SDRT_4, SDRT_NONE, SD_RESPONSE_TYPE enumeration [Buses], sddef/SDRT_UNSPECIFIED, sddef/SDRT_3, sddef/SD_RESPONSE_TYPE, sd-structs_e0ab70a5-5006-4469-872a-ea8f6279b5d6.xml, sddef/SDRT_5B, SDRT_4, SD.sd_response_type, sddef/SDRT_1B, SDRT_5B, sddef/SDRT_NONE, SDRT_UNSPECIFIED, SDRT_6, sddef/SDRT_5, SDRT_1, SDRT_1B, SDRT_2, sddef/SDRT_2, SDRT_3, sddef/SDRT_1, SD_RESPONSE_TYPE, sddef/SDRT_6, SDRT_5
+ms.keywords: SDRT_UNSPECIFIED, SD.sd_response_type, SDRT_6, sddef/SDRT_UNSPECIFIED, SDRT_1B, SD_RESPONSE_TYPE enumeration [Buses], sddef/SDRT_3, SDRT_5B, sddef/SD_RESPONSE_TYPE, SDRT_5, sddef/SDRT_6, sddef/SDRT_1B, SDRT_3, SD_RESPONSE_TYPE, SDRT_2, sd-structs_e0ab70a5-5006-4469-872a-ea8f6279b5d6.xml, sddef/SDRT_5, SDRT_NONE, sddef/SDRT_1, SDRT_4, sddef/SDRT_NONE, sddef/SDRT_2, SDRT_1, sddef/SDRT_4, sddef/SDRT_5B
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,52 +77,52 @@ typedef enum  {
 
 
 
-### -field SDRT_UNSPECIFIED
+#### - SDRT_UNSPECIFIED
 
 Indicates that the response from the card is unspecified.
 
 
-### -field SDRT_NONE
+#### - SDRT_NONE
 
 Indicates that the command does not require a response from the card.
 
 
-### -field SDRT_1
+#### - SDRT_1
 
 Indicates a response of type R1 that contains 32 bits of card status information. For an explanation of the R1 response, see the <i>SD Card Association</i> specification.
 
 
-### -field SDRT_1B
+#### - SDRT_1B
 
 Indicates a response of type R1b that is identical to R1 with an optional busy signal transmitted on the data line. For an explanation of the R1b response, see the <i>SD Card Association </i>specification.
 
 
-### -field SDRT_2
+#### - SDRT_2
 
 Indicates a response of type R2 that contains either the contents of the Card Identification Register (CID) or the contents of the Card Specific Data Register (CSD), depending on which command provoked the response. For an explanation of the R2 response, see the <i>SD Card Association </i>specification. 
 
 
-### -field SDRT_3
+#### - SDRT_3
 
 Indicates a response of type R3 that contains the contents of the operating condition register (OCR). For an explanation of the R3 response, see the <i>SD Card Association </i>specification.
 
 
-### -field SDRT_4
+#### - SDRT_4
 
 Indicates a response of type R4 that contains the contents of the relative card address register. For an explanation of the R4 response, see the <i>SD Card Association </i>specification.
 
 
-### -field SDRT_5
+#### - SDRT_5
 
 Indicates a response of type R5 that the card uses to notify the host of an interrupt request. If the host itself generates the interrupt request, the RCA field is 0x0. For an explanation of the R5 response, see the <i>SD Card Association </i>specification.
 
 
-### -field SDRT_5B
+#### - SDRT_5B
 
 Indicates a response of type R5b. For an explanation of the R5b response, see the <i>SD Card Association </i>specification.
 
 
-### -field SDRT_6
+#### - SDRT_6
 
 Indicates a response of type R6. For an explanation of the R6 response, see the <i>SD Card Association </i>specification.
 

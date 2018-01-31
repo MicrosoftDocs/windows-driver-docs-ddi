@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D4A8DE43-3E81-4A1C-B1C0-ABE6000D9F11
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/PUSB_DEVICE_CHARACTERISTICS, *PUSB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], _USB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses], buses.usb_device_characteristics, PUSB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS
+ms.keywords: USB_DEVICE_CHARACTERISTICS, *PUSB_DEVICE_CHARACTERISTICS, usbioctl/PUSB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], _USB_DEVICE_CHARACTERISTICS, buses.usb_device_characteristics, PUSB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_DEVICE_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS"
+req.typenames: USB_DEVICE_CHARACTERISTICS, *PUSB_DEVICE_CHARACTERISTICS
 req.product: Windows 10 or later.
 ---
 
@@ -72,18 +72,18 @@ typedef struct _USB_DEVICE_CHARACTERISTICS {
 
 
 
-### -field Version
+#### - Version
 
 The version should be set to USB_DEVICE_CHARACTERISTICS_VERSION_1. 
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 
 
-### -field UsbDeviceCharacteristicsFlags
+#### - UsbDeviceCharacteristicsFlags
 
 A bitmask of flags that indicates to  the client driver the transport characteristics that are available and are returned by this structure. 
 
@@ -94,14 +94,14 @@ flag is set, <b>MaximumSendPathDelayInMilliSeconds</b> and <b>MaximumCompletionP
 
 
 
-### -field MaximumSendPathDelayInMilliSeconds
+#### - MaximumSendPathDelayInMilliSeconds
 
 Contains the maximum delay in milliseconds for any request that is submitted by the client driver and is received by the USB driver stack to the time it is programmed in the host controller, including the maximum delay associated with the network medium if it is a MA-USB host controller. 
  
 
 
 
-### -field MaximumCompletionPathDelayInMilliSeconds
+#### - MaximumCompletionPathDelayInMilliSeconds
 
 Contains the maximum delay in milliseconds the host controller completes any request for the device to the time the request is completed and sent back to the client driver.  For a MA-USB controller this includes any delay associated with the network medium. 
 

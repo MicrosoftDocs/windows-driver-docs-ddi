@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 58dd579c-3fb8-45c7-a7bc-ca0919166153
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxcequeryinformation, RxCeQueryInformation function [Installable File System Drivers], RxCeQueryInformation, rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml, rxce/RxCeQueryInformation
+ms.keywords: rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml, RxCeQueryInformation, ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeQueryInformation
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ NTSTATUS RxCeQueryInformation(
 
 
 
-### -param pVc [in]
+#### - pVc [in]
 
 A pointer to the virtual circuit associated with this connection.
 
 
-### -param InformationClass [in]
+#### - InformationClass [in]
 
 The desired information class for this query type. The value specified for <i>InformationClass</i> determines the type of information that is returned. This parameter is an enumeration defined in <i>rxcehdlr.h</i> and can be one of the following values:
 
@@ -103,12 +103,12 @@ Query the transport For information about the connection endpoint. An RXCE_CONNE
 Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success. 
 
 
-### -param pInformation [out]
+#### - pInformation [out]
 
 The caller-supplied buffer for returning information. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length of  the buffer. 
 

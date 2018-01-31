@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: f33f602e-0bce-4ac2-8bd8-8640b2376278
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.sriov_mitigated_ranges_output, *PSRIOV_MITIGATED_RANGES_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT
+ms.keywords: SRIOV_MITIGATED_RANGES_OUTPUT, _SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT structure [Buses], PCI.sriov_mitigated_ranges_output, *PSRIOV_MITIGATED_RANGES_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SRIOV_MITIGATED_RANGES_OUTPUT {
 
 
 
-### -field BasePageNumber
+#### - BasePageNumber
 
 The base address of the allocated region of pages.
 
 
-### -field PageCount
+#### - PageCount
 
 Total number of pages.
 
 
-### -field InterceptReads
+#### - InterceptReads
 
 A boolean that indicates the reads intercept bit.
 
 
-### -field InterceptWrites
+#### - InterceptWrites
 
 A boolean that indicates the write intercept bit.
 

@@ -70,7 +70,7 @@ BOOLEAN IdeHwReset(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension.
 

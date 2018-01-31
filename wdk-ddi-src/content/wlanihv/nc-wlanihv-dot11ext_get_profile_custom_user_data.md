@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtGetProfileCustomUserData
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ DWORD WINAPI * Dot11ExtGetProfileCustomUserData(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -83,7 +83,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-### -param hConnectSession [in, optional]
+#### - hConnectSession [in, optional]
 
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the 
@@ -91,20 +91,22 @@ The handle used by the operating system to reference the connection session with
      Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
 
 
-### -param dwSessionID [in]
+#### - dwSessionID [in]
 
 The session identifier (session ID) of the current user.
 
 
-### -param *pdwDataSize
+#### - *pdwDataSize [out]
+
+A pointer to a caller-supplied variable that stores the size, in bytes, of the buffer referenced
+     by 
+     <i>ppvData</i> .
 
 
+#### - *ppvData [out]
 
-### -param *ppvData
-
-
-
-
+The address of a pointer variable that stores the address of the buffer containing the user
+     data.
 
 
 #### - pdwDataSize [out]
@@ -157,14 +159,14 @@ The caller is responsible for freeing the memory allocated for the buffer pointe
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+
 <mshelp:link keywords="netvista.dot11extsetprofilecustomuserdata" tabindex="0"><b>
    Dot11ExtSetProfileCustomUserData</b></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>

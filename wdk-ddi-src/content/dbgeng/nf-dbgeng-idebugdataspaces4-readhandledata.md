@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9ad8e8c1-6aee-4eac-93e6-5997212c63d0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, debugger.readhandledata, dbgeng/IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, dbgeng/IDebugDataSpaces4::ReadHandleData, ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData, ReadHandleData method [Windows Debugging], IDebugDataSpaces4::ReadHandleData, dbgeng/IDebugDataSpaces2::ReadHandleData, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method
+ms.keywords: ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, debugger.readhandledata, IDebugDataSpaces2::ReadHandleData, ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadHandleData, ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, dbgeng/IDebugDataSpaces3::ReadHandleData, ReadHandleData method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,12 +73,12 @@ HRESULT ReadHandleData(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Specifies the system handle of the object whose data is requested.  See Handles for information about system handles.
 
 
-### -param DataType [in]
+#### - DataType [in]
 
 Specifies the data type to return for the system handle.  The following table contains the valid values, along with the corresponding return type:
 <table>
@@ -161,19 +161,19 @@ In this case, the argument <i>Buffer</i> can be considered to have type PWSTR.
 </table> 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the object data.  Upon successful completion of the method, the contents of this buffer may be accessed by casting <i>Buffer</i> to the type specified in the above table.
 
 If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be returned.
 
 
-### -param DataSize [out, optional]
+#### - DataSize [out, optional]
 
 Receives the size of the data in bytes.  If <i>DataSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -214,11 +214,11 @@ This method is only available in user-mode debugging.
 
 Handles
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
  
 

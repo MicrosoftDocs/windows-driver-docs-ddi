@@ -76,7 +76,7 @@ VOID APIENTRY* pfnResourceBarrier(
 
 
 
-### -param Count
+#### - Count
 
 Specifies a count.
 

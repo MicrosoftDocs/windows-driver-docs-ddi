@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5b9f731-e029-40c2-9fbb-d7a3b63615df
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinregisterhandshakecallback, ks/KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml
+ms.keywords: ks/KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback, avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, stream.kspinregisterhandshakecallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsPinRegisterHandshakeCallback(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to register a handshake callback.
 
 
-### -param Handshake [in]
+#### - Handshake [in]
 
 A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a> routine to be called when AVStream receives a protocol handshake request on <i>Pin</i> that it does not handle.
 
@@ -97,15 +97,15 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
-
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 <a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
 
 <a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
+
+<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
 
 <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8a64a06-41b9-429b-a5ac-6de4996c702b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], display.videoportassociateeventswithdmahandle, VideoPortAssociateEventsWithDmaHandle, VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml
+ms.keywords: VideoPortAssociateEventsWithDmaHandle function [Display Devices], VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, display.videoportassociateeventswithdmahandle, video/VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ PDMA VideoPortAssociateEventsWithDmaHandle(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pVrp [in, out]
+#### - pVrp [in, out]
 
 Pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>. 
 
 
-### -param MappedUserEvent [in]
+#### - MappedUserEvent [in]
 
 Is reserved for system use.
 
 
-### -param DisplayDriverEvent [in]
+#### - DisplayDriverEvent [in]
 
 Is reserved for system use.
 

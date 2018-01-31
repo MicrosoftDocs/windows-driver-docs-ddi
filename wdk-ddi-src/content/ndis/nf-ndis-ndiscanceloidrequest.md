@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4cb12ac3-7cb6-4773-b680-d77a55b19246
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCancelOidRequest function [Network Drivers Starting with Windows Vista], NdisCancelOidRequest, ndis_request_ref_5f7f8a9a-f773-4ca8-aba3-21fe74431e0c.xml, ndis/NdisCancelOidRequest, netvista.ndiscanceloidrequest
+ms.keywords: NdisCancelOidRequest, ndis_request_ref_5f7f8a9a-f773-4ca8-aba3-21fe74431e0c.xml, ndis/NdisCancelOidRequest, netvista.ndiscanceloidrequest, NdisCancelOidRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ VOID NdisCancelOidRequest(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 The handle returned by the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function that
      identifies the target adapter on the binding.
 
 
-### -param RequestId [in]
+#### - RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structures that are being
@@ -105,11 +105,11 @@ Protocol drivers call this function to cancel a previously issued request. The r
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
  
 

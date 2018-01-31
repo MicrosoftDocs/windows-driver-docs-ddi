@@ -40,7 +40,7 @@ apiname:
 -	NdkCqNotificationCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_CQ_NOTIFICATION_CALLBACK callback
@@ -71,12 +71,12 @@ VOID NdkCqNotificationCallback(
 
 
 
-### -param CqNotificationContext [in, optional]
+#### - CqNotificationContext [in, optional]
 
 A context area that was specified in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ)  object was created.
 
 
-### -param CqStatus [in]
+#### - CqStatus [in]
 
 Indicates the CQ error status. The following status codes are defined:
 

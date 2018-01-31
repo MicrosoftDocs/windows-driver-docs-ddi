@@ -40,7 +40,7 @@ apiname:
 -	EvtIoQueueState
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ VOID EvtIoQueueState(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to an I/O queue object.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Driver-defined context information that the driver specified when it registered the <i>EvtIoQueueState</i> callback function.
 
@@ -104,15 +104,15 @@ If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuereadynotify.md">WdfIoQueueReadyNotify</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuereadynotify.md">WdfIoQueueReadyNotify</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e34e505c-74b1-45e4-9d9f-ba7cae111156
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSFC_TargetEvent, storage.msfc_targetevent, *PMSFC_TargetEvent, _MSFC_TargetEvent, MSFC_TargetEvent structure [Storage Devices], MSFC_TargetEvent, structs-Fibre_3f8b9bd0-29b2-43f3-85ae-47324d168956.xml, PMSFC_TargetEvent structure pointer [Storage Devices], hbapiwmi/PMSFC_TargetEvent, hbapiwmi/MSFC_TargetEvent
+ms.keywords: hbapiwmi/MSFC_TargetEvent, storage.msfc_targetevent, structs-Fibre_3f8b9bd0-29b2-43f3-85ae-47324d168956.xml, PMSFC_TargetEvent, PMSFC_TargetEvent structure pointer [Storage Devices], MSFC_TargetEvent, hbapiwmi/PMSFC_TargetEvent, *PMSFC_TargetEvent, _MSFC_TargetEvent, MSFC_TargetEvent structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_TargetEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_TargetEvent, MSFC_TargetEvent"
+req.typenames: MSFC_TargetEvent, *PMSFC_TargetEvent
 ---
 
 # _MSFC_TargetEvent structure
@@ -69,17 +69,17 @@ typedef struct _MSFC_TargetEvent {
 
 
 
-### -field EventType
+#### - EventType
 
 Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a worldwide name that indicates the local port for which the event occurred. 
 
 
-### -field DiscoveredPortWWN
+#### - DiscoveredPortWWN
 
 Contains a worldwide name that indicates the remote port for which the event occurred.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61cee8ef-1070-46d4-a541-94a9f09b593b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleCreate0, netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml
+ms.keywords: fwpsk/FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml, FwpsInjectionHandleCreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS NTAPI FwpsInjectionHandleCreate0(
 
 
 
-### -param addressFamily [in, optional]
+#### - addressFamily [in, optional]
 
 The address family for which the injection handle is being created. This can be one of the
      following address families:
@@ -102,7 +102,7 @@ The IPv4 address family.
 The IPv6 address family.
 
 
-### -param flags [in]
+#### - flags [in]
 
 A flag value set by a callout driver to indicate the type of data to be injected. This flag can have
      one or more of the following values: 
@@ -147,7 +147,7 @@ Transport data will be injected by calling either the
        FwpsInjectTransportSendAsync0</b></mshelp:link> function.
 
 
-### -param injectionHandle [out]
+#### - injectionHandle [out]
 
 A pointer to a variable that receives the handle.
 

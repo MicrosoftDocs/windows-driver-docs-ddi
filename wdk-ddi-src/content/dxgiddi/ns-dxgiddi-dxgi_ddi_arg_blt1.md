@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bc7c2693-6a18-4335-8921-363981a830f1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_BLT1 structure [Display Devices], dxgiddi/DXGI_DDI_ARG_BLT1, DXGI_DDI_ARG_BLT1, display.dxgi_ddi_arg_blt1
+ms.keywords: DXGI_DDI_ARG_BLT1, display.dxgi_ddi_arg_blt1, dxgiddi/DXGI_DDI_ARG_BLT1, DXGI_DDI_ARG_BLT1 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,77 +81,77 @@ typedef struct DXGI_DDI_ARG_BLT1 {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A handle to the display device (graphics context) on which the driver performs the bitblt. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
 
 
-### -field hDstResource
+#### - hDstResource
 
 [in] A handle to the destination resource. 
 
 
-### -field DstSubresource
+#### - DstSubresource
 
 [in] The index to the destination surface within the resource. 
 
 
-### -field DstLeft
+#### - DstLeft
 
 [in] The <i>x</i>-coordinate of the upper-left corner of the destination rectangle. 
 
 
-### -field DstTop
+#### - DstTop
 
 [in] The <i>y</i>-coordinate of the upper-left corner of the destination rectangle. 
 
 
-### -field DstRight
+#### - DstRight
 
 [in] The <i>x</i>-coordinate of the lower-right corner of the destination rectangle. 
 
 
-### -field DstBottom
+#### - DstBottom
 
 [in] The <i>y</i>-coordinate of the lower-right corner of the destination rectangle. 
 
 
-### -field hSrcResource
+#### - hSrcResource
 
 [in] A handle to the source resource. 
 
 
-### -field SrcSubresource
+#### - SrcSubresource
 
 [in] The index to the source surface within the resource. 
 
 
-### -field SrcLeft
+#### - SrcLeft
 
 [in] The <i>x</i>-coordinate of the upper-left corner of the source rectangle.
 
 
-### -field SrcTop
+#### - SrcTop
 
 [in] The <i>y</i>-coordinate of the upper-left corner of the source rectangle. 
 
 
-### -field SrcRight
+#### - SrcRight
 
 [in] The <i>x</i>-coordinate of the lower-right corner of the source rectangle.
 
 
-### -field SrcBottom
+#### - SrcBottom
 
 [in] The <i>y</i>-coordinate of the lower-right corner of the destination rectangle.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a> structure that identifies the type of bitblt to perform. 
 
 
-### -field Rotate
+#### - Rotate
 
 [in] A value of type <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a> that identifies the orientation of the display mode.
 
@@ -165,13 +165,13 @@ The source rectangle specified by the members <b>SrcLeft</b>, <b>SrcTop</b>, <b>
 
 ## -see-also
 
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a>
 
  
 

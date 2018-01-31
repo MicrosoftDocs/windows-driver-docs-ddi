@@ -72,17 +72,17 @@ VOID (*TAPE_ERROR_ROUTINE)(
 
 
 
-### -param MinitapeExtension [in]
+#### - MinitapeExtension [in]
 
 Pointer to the driver-specific minitape extension. This is <b>NULL</b> if the miniclass driver did not request a minitape extension when it initialized.
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 Pointer to the SRB for the operation that failed.
 
 
-### -param TapeStatus [in, out]
+#### - TapeStatus [in, out]
 
 Pointer to the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> set by the tape class driver. The tape miniclass driver can change the TAPE_STATUS or leave it unchanged.
 
@@ -109,15 +109,15 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
  
 

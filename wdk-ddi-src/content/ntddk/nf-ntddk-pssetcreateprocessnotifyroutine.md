@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eeeea140-e469-476f-adce-4505817bc35e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsSetCreateProcessNotifyRoutine, k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pssetcreateprocessnotifyroutine, k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], ntddk/PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PsSetCreateProcessNotifyRoutine(
 
 
 
-### -param NotifyRoutine [in]
+#### - NotifyRoutine [in]
 
 Specifies the entry point of a caller-supplied process-creation callback routine. See <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
 
 
-### -param Remove [in]
+#### - Remove [in]
 
 Indicates whether the routine specified by <i>NotifyRoutine</i> should be added to or removed from the system's list of notification routines. If <b>FALSE</b>, the specified routine is added to the list. If <b>TRUE</b>, the specified routine is removed from the list.
 
@@ -130,13 +130,13 @@ After a driver-supplied routine is registered, it is called with <i>Create</i> s
 
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+<a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
 
-<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
 
-<a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
+<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
  
 

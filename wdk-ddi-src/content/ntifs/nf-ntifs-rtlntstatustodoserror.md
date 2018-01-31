@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9ba6f693-b0b7-4176-b951-7bb259bec391
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlNtStatusToDosError, ifsk.rtlntstatustodoserror, rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml, RtlNtStatusToDosError routine [Installable File System Drivers], ntifs/RtlNtStatusToDosError
+ms.keywords: ntifs/RtlNtStatusToDosError, ifsk.rtlntstatustodoserror, RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG RtlNtStatusToDosError(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 The NTSTATUS code to be converted.
 

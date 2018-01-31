@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBFN_POWER_FILTER_STATE structure pointer [Buses], USBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE, _USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, usbfnioctl/USBFN_POWER_FILTER_STATE, usbfnioctl/PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses]
+ms.keywords: usbfnioctl/PUSBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], buses.usbfn_power_filter_state, usbfnioctl/USBFN_POWER_FILTER_STATE, _USBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses], USBFN_POWER_FILTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_POWER_FILTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
+req.typenames: "*PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -72,26 +72,26 @@ typedef struct _USBFN_POWER_FILTER_STATE {
 
 
 
-### -field PState
+#### - PState
 
 USB device states for the device/controller.
 
 
-### -field Reserved
+#### - Reserved
 
 Do not use. 
 
 
-### -field DeviceState
+#### - DeviceState
 
 Describes the USB device states for the device/controller.  These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
-
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
+
+<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
 
  
 

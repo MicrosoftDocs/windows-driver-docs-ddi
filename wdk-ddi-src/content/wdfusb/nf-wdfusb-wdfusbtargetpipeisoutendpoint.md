@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 803d282b-f6eb-4cd3-91b3-899f983c9dc5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeIsOutEndpoint, WdfUsbTargetPipeIsOutEndpoint, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, kmdf.wdfusbtargetpipeisoutendpoint, WdfUsbTargetPipeIsOutEndpoint method, wdf.wdfusbtargetpipeisoutendpoint
+ms.keywords: WdfUsbTargetPipeIsOutEndpoint, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, wdfusb/WdfUsbTargetPipeIsOutEndpoint, kmdf.wdfusbtargetpipeisoutendpoint, wdf.wdfusbtargetpipeisoutendpoint, WdfUsbTargetPipeIsOutEndpoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BOOLEAN WdfUsbTargetPipeIsOutEndpoint(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object that represents a bulk pipe or interrupt pipe and was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 

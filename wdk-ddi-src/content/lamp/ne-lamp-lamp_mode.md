@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B379B6EF-C3AD-4E6F-B32D-F85228DB6A72
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: LAMP_MODE_WHITE, lamp/LAMP_MODE_WHITE, LAMP_MODE_COLOR, LAMP_MODE enumeration [Streaming Media Devices], stream.lamp_mode, LAMP_MODE, lamp/LAMP_MODE, lamp/LAMP_MODE_COLOR
+ms.keywords: stream.lamp_mode, lamp/LAMP_MODE_COLOR, LAMP_MODE_WHITE, LAMP_MODE enumeration [Streaming Media Devices], lamp/LAMP_MODE_WHITE, LAMP_MODE_COLOR, LAMP_MODE, lamp/LAMP_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _LAMP_MODE {
 
 
 
-### -field LAMP_MODE_WHITE
+#### - LAMP_MODE_WHITE
 
 Required. White light only.
 
 
-### -field LAMP_MODE_COLOR
+#### - LAMP_MODE_COLOR
 
 Optional. Color light.
 

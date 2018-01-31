@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc1d7ca2-273a-42ca-896c-aebee862a4cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_HANDLE, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml, ndischimney/NDIS_OFFLOAD_HANDLE, ndischimney/PNDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE, netvista.ndis_offload_handle, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_HANDLE"
+ms.keywords: netvista.ndis_offload_handle, _NDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], ndischimney/NDIS_OFFLOAD_HANDLE, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_HANDLE, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml, NDIS_OFFLOAD_HANDLE, ndischimney/PNDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_OFFLOAD_HANDLE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE"
+req.typenames: NDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE
 ---
 
 # _NDIS_OFFLOAD_HANDLE structure
@@ -70,12 +70,12 @@ typedef struct _NDIS_OFFLOAD_HANDLE {
 
 
 
-### -field NdisReserved
+#### - NdisReserved
 
 Reserved for use by NDIS.
 
 
-### -field MiniportOffloadContext
+#### - MiniportOffloadContext
 
 A pointer that references a host memory location into which the underlying driver writes a PVOID
      value when completing the initiate offload operation. This PVOID value references the underlying

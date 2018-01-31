@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b32c6a7e-84c2-412a-a13e-959aaddc81ac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, buses._urb_control_feature_request, _URB_CONTROL_FEATURE_REQUEST structure [Buses], usb/_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST
+ms.keywords: usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, buses._urb_control_feature_request, _URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], usb/_URB_CONTROL_FEATURE_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ struct _URB_CONTROL_FEATURE_REQUEST {
 
 
 
-### -field Hdr
+#### - Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> indicates either a set or a clear feature operation, to perform on a device, interface, endpoint or other non-standard component. <b>Hdr.Function</b> must have one of the following values:
 
@@ -96,12 +96,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-### -field UrbLink
+#### - UrbLink
 
 Reserved. Do not use.
 
 
-### -field hca
+#### - hca
 
 Reserved. Do not use.
 
@@ -111,47 +111,47 @@ Reserved. Do not use.
  
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Do not use.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved. Do not use.
 
 
-### -field Reserved3
+#### - Reserved3
 
 Reserved. Do not use.
 
 
-### -field Reserved4
+#### - Reserved4
 
 Reserved. Do not use.
 
 
-### -field Reserved5
+#### - Reserved5
 
 Reserved. Do not use.
 
 
-### -field Reserved0
+#### - Reserved0
 
 Reserved. Do not use.
 
 
-### -field FeatureSelector
+#### - FeatureSelector
 
 Specifies the USB-defined feature code to be cleared or set. Using a feature code that is invalid, cannot be set, or cannot be cleared will cause the target to stall. The bus driver will copy the value in the <b>FeatureSelector</b> member to the <b>wValue</b> field of the setup packet. 
 
 
-### -field Index
+#### - Index
 
 Specifies the device-defined index, returned by a successful configuration request, if the request is for an endpoint or interface. Otherwise, <b>Index</b> must be zero. The bus driver will copy the value in the <b>Index</b> member to the <b>wIndex</b> field of the setup packet. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. Do not use.
 
@@ -171,11 +171,11 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

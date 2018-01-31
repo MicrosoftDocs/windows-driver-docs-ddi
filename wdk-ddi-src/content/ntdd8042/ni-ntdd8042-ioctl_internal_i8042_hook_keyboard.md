@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
+req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # IOCTL_INTERNAL_I8042_HOOK_KEYBOARD IOCTL

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c477f38-c24f-45df-ab02-62ee47c0957b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ISCSI_LUNList, PISCSI_LUNList, structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml, ISCSI_LUNList, storage.iscsi_lunlist, iscsidef/PISCSI_LUNList, PISCSI_LUNList structure pointer [Storage Devices], *PISCSI_LUNList, iscsidef/ISCSI_LUNList, ISCSI_LUNList structure [Storage Devices]"
+ms.keywords: "*PISCSI_LUNList, ISCSI_LUNList, ISCSI_LUNList structure [Storage Devices], iscsidef/PISCSI_LUNList, iscsidef/ISCSI_LUNList, structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml, storage.iscsi_lunlist, PISCSI_LUNList, _ISCSI_LUNList, PISCSI_LUNList structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_LUNList
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_LUNList, *PISCSI_LUNList
+req.typenames: "*PISCSI_LUNList, ISCSI_LUNList"
 ---
 
 # _ISCSI_LUNList structure
@@ -69,17 +69,17 @@ typedef struct _ISCSI_LUNList {
 
 
 
-### -field TargetLUN
+#### - TargetLUN
 
 A LUN that is globally valid anywhere in the network.
 
 
-### -field OSLUN
+#### - OSLUN
 
 The SCSI LUN (which is valid in the local operating system) that the remote LUN is mapped to.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for Microsoft use only. 
 

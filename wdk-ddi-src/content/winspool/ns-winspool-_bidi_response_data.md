@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8e56ef0a-c652-4fca-ad87-4a0495c8de2e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA structure pointer [Print Devices], _BIDI_RESPONSE_DATA, spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, LPBIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA structure [Print Devices], print.bidi_response_data, winspool/LPBIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA, LPBIDI_RESPONSE_DATA structure pointer [Print Devices], winspool/BIDI_RESPONSE_DATA, winspool/PBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA
+ms.keywords: BIDI_RESPONSE_DATA, winspool/BIDI_RESPONSE_DATA, LPBIDI_RESPONSE_DATA structure pointer [Print Devices], winspool/LPBIDI_RESPONSE_DATA, winspool/PBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA structure [Print Devices], spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, *LPBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA structure pointer [Print Devices], LPBIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA, print.bidi_response_data, PBIDI_RESPONSE_DATA, _BIDI_RESPONSE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BIDI_RESPONSE_DATA
 product: Windows
 targetos: Windows
-req.typenames: BIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA
+req.typenames: "*PBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _BIDI_RESPONSE_DATA {
 
 
 
-### -field dwResult
+#### - dwResult
 
 Specifies the last error of the response.
 
 
-### -field dwReqNumber
+#### - dwReqNumber
 
 Specifies a number used to match a response and a request in a multirequest operation.
 
 
-### -field pSchema
+#### - pSchema
 
 Pointer to a memory location containing the first byte of the schema string.
 
 
-### -field data
+#### - data
 
 Specifies a <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a> structure containing the data associated with the schema.
 

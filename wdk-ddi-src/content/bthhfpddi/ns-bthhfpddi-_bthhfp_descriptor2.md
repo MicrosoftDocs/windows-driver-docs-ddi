@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A455F181-E1DB-47CC-96E5-AE72988366F3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_BTHHFP_DESCRIPTOR2, *PBTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2, bthhfpddi/PBTHHFP_DESCRIPTOR2, PBTHHFP_DESCRIPTOR2, PBTHHFP_DESCRIPTOR2 structure pointer [Audio Devices], bthhfpddi/BTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2 structure [Audio Devices], audio.bthhfp_descriptor2"
+ms.keywords: PBTHHFP_DESCRIPTOR2, BTHHFP_DESCRIPTOR2 structure [Audio Devices], bthhfpddi/BTHHFP_DESCRIPTOR2, bthhfpddi/PBTHHFP_DESCRIPTOR2, _BTHHFP_DESCRIPTOR2, PBTHHFP_DESCRIPTOR2 structure pointer [Audio Devices], *PBTHHFP_DESCRIPTOR2, audio.bthhfp_descriptor2, BTHHFP_DESCRIPTOR2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,37 +75,37 @@ typedef struct _BTHHFP_DESCRIPTOR2 {
 
 
 
-### -field InputPinCategory
+#### - InputPinCategory
 
 KS pin category for the input function of the paired HFP device.
 
 
-### -field OutputPinCategory
+#### - OutputPinCategory
 
 KS pin category for the output function of the paired HFP device.
 
 
-### -field ContainerId
+#### - ContainerId
 
 The PnP container ID for the paired HFP device.
 
 
-### -field SupportsVolume
+#### - SupportsVolume
 
 Indicates whether the paired HFP device supports remote volume control.
 
 
-### -field VolumePropertyValuesSize
+#### - VolumePropertyValuesSize
 
 If remote volume control is supported, this member contains the size of the data returned by the <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a> request.
 
 
-### -field FriendlyName
+#### - FriendlyName
 
 An indirect string identifying the human readable friendly name of the paired HFP device.
 
 
-### -field SupportsNREC
+#### - SupportsNREC
 
 Indicates whether the paired HFP device supports noise reduction / echo cancellation (NREC).
 
@@ -123,13 +123,13 @@ When <i>SupportsNREC</i> is set to FALSE, the audio driver should support RAW mo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
 
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
-
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
  
 

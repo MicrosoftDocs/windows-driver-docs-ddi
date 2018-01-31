@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b060bd22-113f-4f78-8763-d1d19cf198b8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildVC, rxce/RxCeBuildVC, ifsk.rxcebuildvc, RxCeBuildVC function [Installable File System Drivers], rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml
+ms.keywords: rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml, ifsk.rxcebuildvc, RxCeBuildVC function [Installable File System Drivers], RxCeBuildVC, rxce/RxCeBuildVC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeBuildVC
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ NTSTATUS RxCeBuildVC(
 
 
 
-### -param pVc [in, out]
+#### - pVc [in, out]
 
 On input, this parameter contains a pointer to a handle for an uninitialized virtual circuit. On output when this call is successful, the virtual circuit is associated with the specified connection and the state of the virtual circuit is initialized as active.
 

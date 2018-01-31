@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9006f74f-4033-4f07-816c-380d6d8b3a2d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/DeviceFailedEnumeration, NoDeviceConnected, usbioctl/USB_CONNECTION_STATUS, usbioctl/DeviceInLegacyHub, PUSB_CONNECTION_STATUS, usbioctl/DeviceCausedOvercurrent, USB_CONNECTION_STATUS enumeration [Buses], usbioctl/NoDeviceConnected, DeviceNotEnoughPower, PUSB_CONNECTION_STATUS enumeration pointer [Buses], DeviceCausedOvercurrent, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/DeviceConnected, usbioctl/DeviceEnumerating, usbioctl/DeviceReset, usbioctl/DeviceGeneralFailure, DeviceReset, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, USB_CONNECTION_STATUS, DeviceNotEnoughBandwidth, DeviceInLegacyHub, DeviceHubNestedTooDeeply, *PUSB_CONNECTION_STATUS, usbioctl/DeviceNotEnoughBandwidth, usbioctl/DeviceHubNestedTooDeeply, DeviceConnected, DeviceGeneralFailure, buses.usb_connection_status, usbioctl/DeviceNotEnoughPower, DeviceEnumerating, _USB_CONNECTION_STATUS, DeviceFailedEnumeration
+ms.keywords: DeviceGeneralFailure, DeviceNotEnoughPower, _USB_CONNECTION_STATUS, usbioctl/DeviceNotEnoughPower, usbioctl/DeviceHubNestedTooDeeply, buses.usb_connection_status, usbioctl/DeviceInLegacyHub, USB_CONNECTION_STATUS enumeration [Buses], DeviceEnumerating, DeviceNotEnoughBandwidth, DeviceReset, usbioctl/DeviceReset, usbioctl/DeviceEnumerating, usbioctl/DeviceConnected, DeviceHubNestedTooDeeply, usbioctl/DeviceGeneralFailure, DeviceConnected, usbioctl/DeviceFailedEnumeration, NoDeviceConnected, DeviceCausedOvercurrent, PUSB_CONNECTION_STATUS enumeration pointer [Buses], USB_CONNECTION_STATUS, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/DeviceNotEnoughBandwidth, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, DeviceFailedEnumeration, usbioctl/USB_CONNECTION_STATUS, usbioctl/NoDeviceConnected, *PUSB_CONNECTION_STATUS, usbioctl/DeviceCausedOvercurrent, PUSB_CONNECTION_STATUS, DeviceInLegacyHub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,59 +78,59 @@ typedef enum _USB_CONNECTION_STATUS {
 
 
 
-### -field NoDeviceConnected
+#### - NoDeviceConnected
 
 Indicates that there is no device connected to the port.
 
 
-### -field DeviceConnected
+#### - DeviceConnected
 
 Indicates that a device was successfully connected to the port.
 
 
-### -field DeviceFailedEnumeration
+#### - DeviceFailedEnumeration
 
 Indicates that an attempt was made to connect a device to the port, but the enumeration of the device failed.
 
 
-### -field DeviceGeneralFailure
+#### - DeviceGeneralFailure
 
 Indicates that an attempt was made to connect a device to the port, but the connection failed for unspecified reasons.
 
 
-### -field DeviceCausedOvercurrent
+#### - DeviceCausedOvercurrent
 
 Indicates that an attempt was made to connect a device to the port, but the attempt failed because of an overcurrent condition.
 
 
-### -field DeviceNotEnoughPower
+#### - DeviceNotEnoughPower
 
 Indicates that an attempt was made to connect a device to the port, but there was not enough power to drive the device, and the connection failed.
 
 
-### -field DeviceNotEnoughBandwidth
+#### - DeviceNotEnoughBandwidth
 
 Indicates that an attempt was made to connect a device to the port, but there was not enough bandwidth available for the device to function properly, and the connection failed.
 
 
-### -field DeviceHubNestedTooDeeply
+#### - DeviceHubNestedTooDeeply
 
 Indicates that an attempt was made to connect a device to the port, but the nesting of USB hubs was too deep, so the connection failed. 
 
 
-### -field DeviceInLegacyHub
+#### - DeviceInLegacyHub
 
 Indicates that an attempt was made to connect a device to the port of an unsupported legacy hub, and the connection failed.
 
 
-### -field DeviceEnumerating
+#### - DeviceEnumerating
 
 Indicates that a device connected to the port is currently being enumerated.  
 
 <b>Note</b>  This constant is supported in Windows Vista and later operating systems.
 
 
-### -field DeviceReset
+#### - DeviceReset
 
 Indicates that device connected to the port is currently being reset.  
 

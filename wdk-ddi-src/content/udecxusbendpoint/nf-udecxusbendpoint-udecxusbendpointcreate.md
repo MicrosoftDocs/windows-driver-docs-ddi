@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F97642A2-FE77-41D0-A194-8DE6F9B17BB0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxusbendpointcreate, UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], udecxusbendpoint/UdecxUsbEndpointCreate
+ms.keywords: udecxusbendpoint/UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate, UdecxUsbEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,12 +76,12 @@ FORCEINLINE NTSTATUS UdecxUsbEndpointCreate(
 TBD
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
 
 
-### -param UdecxUsbEndpoint [out]
+#### - UdecxUsbEndpoint [out]
 
 A pointer to a variable that receives a handle to the new UDE endpoint object that represents the simple endpoint on the  USB device.
 
@@ -100,11 +100,11 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>
 
  
 

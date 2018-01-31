@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.whea_timestamp, *PWHEA_TIMESTAMP, WHEA_TIMESTAMP, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml, _WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP
+ms.keywords: ntddk/PWHEA_TIMESTAMP, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], _WHEA_TIMESTAMP, whea.whea_timestamp, WHEA_TIMESTAMP union [WHEA Drivers and Applications], *PWHEA_TIMESTAMP, WHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_TIMESTAMP
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_TIMESTAMP, WHEA_TIMESTAMP"
+req.typenames: WHEA_TIMESTAMP, *PWHEA_TIMESTAMP
 ---
 
 # _WHEA_TIMESTAMP structure
@@ -128,7 +128,7 @@ typedef union _WHEA_TIMESTAMP {
  
 
 
-### -field AsLARGE_INTEGER
+#### - AsLARGE_INTEGER
 
 A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
 

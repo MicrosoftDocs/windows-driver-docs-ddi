@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], ifsk.fsrtlteardownperfilecontexts, fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, FsRtlTeardownPerFileContexts
+ms.keywords: FsRtlTeardownPerFileContexts routine [Installable File System Drivers], fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, FsRtlTeardownPerFileContexts, ntifs/FsRtlTeardownPerFileContexts, ifsk.fsrtlteardownperfilecontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID FsRtlTeardownPerFileContexts(
 
 
 
-### -param PerFileContextPointer [in]
+#### - PerFileContextPointer [in]
 
 A pointer to an opaque pointer that identifies the per file context structure. To retrieve this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a> macro.
 

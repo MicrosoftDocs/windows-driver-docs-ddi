@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbb01112-9d28-4dbf-88c7-3304d9d6a661
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt-createbundleobject, D3DKMT_CREATEBUNDLEOBJECT, _D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT structure [Display Devices], d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT
+ms.keywords: D3DKMT_CREATEBUNDLEOBJECT structure [Display Devices], _D3DKMT_CREATEBUNDLEOBJECT, display.d3dkmt-createbundleobject, D3DKMT_CREATEBUNDLEOBJECT, d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DKMT_CREATEBUNDLEOBJECT {
 
 
 
-### -field cObjects
+#### - cObjects
 
 The number of the DXGK object to be bundled.
 
 
-### -field phObjects
+#### - phObjects
 
 A pointer to the array of the DXGK object to be bundled.
 
 
-### -field ppObjectAttributes
+#### - ppObjectAttributes
 
 An array of pointers to object attributes for DXGK objects.
 
 
-### -field pBundleObjectAttributes
+#### - pBundleObjectAttributes
 
 Object attributes for the bundled object.
 
 
-### -field dwBundleDesiredAccess
+#### - dwBundleDesiredAccess
 
 The desired access for bundle handle.
 
 
-### -field hNtBundleHandle
+#### - hNtBundleHandle
 
 The NT bundle handle.
 

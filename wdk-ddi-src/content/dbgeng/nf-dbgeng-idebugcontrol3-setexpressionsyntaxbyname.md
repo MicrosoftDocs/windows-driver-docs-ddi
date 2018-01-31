@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b9f1618a-e4f7-4eb1-952f-0f565a068dab
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::SetExpressionSyntaxByName, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetExpressionSyntaxByName method, SetExpressionSyntaxByName method [Windows Debugging], SetExpressionSyntaxByName method [Windows Debugging], IDebugControl3 interface, IDebugControl_88ebbf3c-a6f7-41d1-84e8-291a8db101c2.xml, SetExpressionSyntaxByName, debugger.setexpressionsyntaxbyname, IDebugControl3::SetExpressionSyntaxByName
+ms.keywords: IDebugControl3, SetExpressionSyntaxByName method [Windows Debugging], IDebugControl_88ebbf3c-a6f7-41d1-84e8-291a8db101c2.xml, SetExpressionSyntaxByName, debugger.setexpressionsyntaxbyname, IDebugControl3::SetExpressionSyntaxByName, dbgeng/IDebugControl3::SetExpressionSyntaxByName, SetExpressionSyntaxByName method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], SetExpressionSyntaxByName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetExpressionSyntaxByName(
 
 
 
-### -param AbbrevName [in]
+#### - AbbrevName [in]
 
 Specifies the abbreviated name of the syntax.  It can be one of the following strings:
 
@@ -123,11 +123,11 @@ After the expression syntax has been changed, the engine sends out notification 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
  
 

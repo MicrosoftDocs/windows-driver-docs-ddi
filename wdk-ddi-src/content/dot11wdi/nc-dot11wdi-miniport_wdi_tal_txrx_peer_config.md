@@ -77,22 +77,22 @@ VOID MiniportWdiTalTxRxPeerConfig(
 
 
 
-### -param MiniportTalTxRxContext [in]
+#### - MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
+#### - PortId [in]
 
 Port ID associated with the peer.
 
 
-### -param PeerId [in]
+#### - PeerId [in]
 
 Peer ID for the peer.
 
 
-### -param pPeerCfg [in]
+#### - pPeerCfg [in]
 
 Pointer to a <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_peer_cfg.md">WDI_TXRX_PEER_CFG</a> structure that contains negotiated QoS settings.
 
@@ -106,9 +106,9 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
-
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_peer_cfg.md">WDI_TXRX_PEER_CFG</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 <a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 

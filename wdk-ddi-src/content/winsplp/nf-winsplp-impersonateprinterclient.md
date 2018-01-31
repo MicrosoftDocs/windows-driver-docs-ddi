@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8e110b2a-9d13-4e2e-8f27-5a48d838fb3c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ImpersonatePrinterClient function [Print Devices], ImpersonatePrinterClient, spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, print.impersonateprinterclient, winsplp/ImpersonatePrinterClient
+ms.keywords: spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, ImpersonatePrinterClient function [Print Devices], print.impersonateprinterclient, winsplp/ImpersonatePrinterClient, ImpersonatePrinterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOL ImpersonatePrinterClient(
 
 
 
-### -param hToken [in]
+#### - hToken [in]
 
 Caller-supplied handle to a thread. This parameter must have been previously returned by a call to <a href="..\winsplp\nf-winsplp-reverttoprinterself.md">RevertToPrinterSelf</a>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a466a158-dacf-42cc-b2ad-8af5b2c6c7d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_resourceflags, D3DDDI_RESOURCEFLAGS structure [Display Devices], D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, D3DDDI_RESOURCEFLAGS, d3dukmdt/D3DDDI_RESOURCEFLAGS, _D3DDDI_RESOURCEFLAGS
+ms.keywords: D3DDDI_RESOURCEFLAGS, display.d3dddi_resourceflags, D3DDDI_RESOURCEFLAGS structure [Display Devices], d3dukmdt/D3DDDI_RESOURCEFLAGS, _D3DDDI_RESOURCEFLAGS, D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,54 +103,54 @@ typedef struct _D3DDDI_RESOURCEFLAGS {
 
 
 
-### -field RenderTarget
+#### - RenderTarget
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field ZBuffer
+#### - ZBuffer
 
 A UINT value that specifies whether the surface is the z-buffer. The z-buffer contains bit-depth information that is used to determine which pixels are visible and which are obscured. The z-buffer contains information that cannot be displayed.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field Dynamic
+#### - Dynamic
 
 A UINT value that specifies whether the surface is updated frequently. This bit-field flag cannot be used with the <b>HintStatic</b> bit-field flag.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field HintStatic
+#### - HintStatic
 
 A UINT value that specifies whether the surface is updated infrequently but still must allow access. This bit-field flag cannot be used with the <b>Dynamic</b> bit-field flag.
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field AutogenMipmap
+#### - AutogenMipmap
 
 A UINT value that specifies whether the MIP-map sublevels for the surface are automatically generated.
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
 
-### -field DMap
+#### - DMap
 
 A UINT value that specifies whether the surface is a displacement-map texture that the displacement-map sampler can sample in the tessellation unit.
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
 
-### -field WriteOnly
+#### - WriteOnly
 
 A UINT value that specifies whether the surface can only be written to. Read access from the surface might generate a general protection fault (GPF). If the surface is read from, the read results are not meaningful.
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 
-### -field NotLockable
+#### - NotLockable
 
 A UINT value that specifies whether the render target is lockable. This bit-field flag is set on the primary and the back buffers if the flipping chain is not lockable, or on any render target that is not lockable. The driver can then do background optimization. 
 
@@ -161,42 +161,42 @@ The driver can also determine whether the depth or stencil buffer is lockable by
 Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
 
 
-### -field Points
+#### - Points
 
 A UINT value that specifies whether the surface contains vertex buffer data that can be used to render points and point sprites.
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
 
 
-### -field RtPatches
+#### - RtPatches
 
 A UINT value that specifies whether the surface contains vertex buffer data that can be used to render rt-patches.
 
 Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
 
 
-### -field NPatches
+#### - NPatches
 
 A UINT value that specifies whether the surface contains vertex buffer data that can be used to render n-patches.
 
 Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>Value</b> member (0x00000400).
 
 
-### -field SharedResource
+#### - SharedResource
 
 A UINT value that specifies whether multiple devices and processes share the surface.
 
 Setting this member is equivalent to setting the twelfth bit of the 32-bit <b>Value</b> member (0x00000800).
 
 
-### -field DiscardRenderTarget
+#### - DiscardRenderTarget
 
 A UINT value that specifies whether the preservation of the surface is required. If the surface is used as a render target, its preservation is not required. 
 
 Setting this member is equivalent to setting the thirteenth bit of the 32-bit <b>Value</b> member (0x00001000).
 
 
-### -field Video
+#### - Video
 
 A UINT value that specifies whether the surface is a render target that contains video data.
 
@@ -205,77 +205,77 @@ Note that several render targets can be created with this flag, and if two or mo
 Setting this member is equivalent to setting the fourteenth bit of the 32-bit <b>Value</b> member (0x00002000).
 
 
-### -field CaptureBuffer
+#### - CaptureBuffer
 
 A UINT value that specifies whether the resource is a capture buffer.
 
 Setting this member is equivalent to setting the fifteenth bit of the 32-bit <b>Value</b> member (0x00004000).
 
 
-### -field Primary
+#### - Primary
 
 A UINT value that specifies whether the surface is the primary surface--that is, whether the surface is currently visible to the user.
 
 Setting this member is equivalent to setting the sixteenth bit of the 32-bit <b>Value</b> member (0x00008000).
 
 
-### -field Texture
+#### - Texture
 
 A UINT value that specifies whether the surface can be used as a texture.
 
 Setting this member is equivalent to setting the seventeenth bit of the 32-bit <b>Value</b> member (0x00010000).
 
 
-### -field CubeMap
+#### - CubeMap
 
 A UINT value that specifies whether the surface is a cubic-environment map. This bit-field flag requires that the <b>Texture</b> bit-field flag is set.
 
 Setting this member is equivalent to setting the eighteenth bit of the 32-bit <b>Value</b> member (0x00020000).
 
 
-### -field Volume
+#### - Volume
 
 A UINT value that specifies whether the surface has depth, in addition to width and height--that is, whether the surface is a volume. This bit-field flag requires that the <b>Texture</b> bit-field flag is set.
 
 Setting this member is equivalent to setting the nineteenth bit of the 32-bit <b>Value</b> member (0x00040000).
 
 
-### -field VertexBuffer
+#### - VertexBuffer
 
 A UINT value that specifies whether the surface is a vertex buffer (that is, stores vertices).
 
 Setting this member is equivalent to setting the twentieth bit of the 32-bit <b>Value</b> member (0x00080000).
 
 
-### -field IndexBuffer
+#### - IndexBuffer
 
 A UINT value that specifies whether the surface is an index buffer (that is, stores indices).
 
 Setting this member is equivalent to setting the twenty-first bit of the 32-bit <b>Value</b> member (0x00100000).
 
 
-### -field DecodeRenderTarget
+#### - DecodeRenderTarget
 
 A UINT value that specifies whether the surface is used as a render target for Microsoft DirectX Video Acceleration (DirectX VA) decoding. 
 
 Setting this member is equivalent to setting the twenty-second bit of the 32-bit <b>Value</b> member (0x00200000).
 
 
-### -field DecodeCompressedBuffer
+#### - DecodeCompressedBuffer
 
 A UINT value that specifies whether the surface contains compressed buffer information for DirectX VA decoding.
 
 Setting this member is equivalent to setting the twenty-third bit of the 32-bit <b>Value</b> member (0x00400000).
 
 
-### -field VideoProcessRenderTarget
+#### - VideoProcessRenderTarget
 
 A UINT value that specifies whether the surface is used as a render target for DirectX VA video processing.
 
 Setting this member is equivalent to setting the twenty-fourth bit of the 32-bit <b>Value</b> member (0x00800000).
 
 
-### -field CpuOptimized
+#### - CpuOptimized
 
 A UINT value that specifies whether the CPU frequently accesses the resource.
 
@@ -286,7 +286,7 @@ The <b>CpuOptimized</b> flag is typically set for render targets (both stand-alo
 Setting this member is equivalent to setting the twenty-fifth bit of the 32-bit <b>Value</b> member (0x01000000).
 
 
-### -field MightDrawFromLocked
+#### - MightDrawFromLocked
 
 A UINT value that specifies whether the driver is possibly requested to draw from a vertex buffer even if the vertex buffer is locked by the Direct3D runtime. This request means that the driver can, on occasion, receive calls to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>, <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive2.md">DrawIndexedPrimitive2</a>, <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>, and <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive2.md">DrawPrimitive2</a> functions where the vertex data is referenced within a locked vertex buffer that is marked with <b>MightDrawFromLocked</b>. The runtime must make these types of calls in scenarios in which it performs software transform and lighting (rather than hardware). These scenarios do not typically occur. 
 
@@ -295,35 +295,35 @@ However, because the runtime locked the vertex buffer, the driver cannot call th
 Setting this member is equivalent to setting the twenty-sixth bit of the 32-bit <b>Value</b> member (0x02000000).
 
 
-### -field Overlay
+#### - Overlay
 
 A UINT value that specifies whether the resource is an overlay.
 
 Setting this member is equivalent to setting the twenty-seventh bit of the 32-bit <b>Value</b> member (0x04000000).
 
 
-### -field MatchGdiPrimary
+#### - MatchGdiPrimary
 
 A UINT value that specifies whether the resource is a primary surface that matches all the properties of the current GDI primary surface that was created by using the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a> structure. For example, flipping from the matching primary surface to the current GDI primary surface and vice versa is possible.
 
 Setting this member is equivalent to setting the twenty-eighth bit of the 32-bit <b>Value</b> member (0x08000000).
 
 
-### -field InterlacedRefresh
+#### - InterlacedRefresh
 
 A UINT value that specifies whether the resource is a primary surface that is meant to be used in an interlaced display mode.
 
 Setting this member is equivalent to setting the twenty-ninth bit of the 32-bit <b>Value</b> member (0x10000000).
 
 
-### -field TextApi
+#### - TextApi
 
 A UINT value that specifies whether the resource can be used for texture filtering or as an input stream source. If textures are created with the <b>TextApi</b> bit-field flag set, they cannot be used for texture filtering. If vertex buffers are created with the <b>TextApi</b> bit-field flag set, they cannot be used as input stream sources. The <b>TextApi</b> bit-field flag must be specified for vertex buffers and source surfaces that are used in calls to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a> function. 
 
 Setting this member is equivalent to setting the thirtieth bit of the 32-bit <b>Value</b> member (0x20000000).
 
 
-### -field RestrictedContent
+#### - RestrictedContent
 
 Supported in Windows 7 and later versions.
 
@@ -332,7 +332,7 @@ A UINT value that specifies whether the resource contains protected content. In 
 Setting this member is equivalent to setting the thirty-first bit of the 32-bit <b>Value</b> member (0x40000000).
 
 
-### -field RestrictSharedAccess
+#### - RestrictSharedAccess
 
 Supported in Windows 7 and later versions.
 
@@ -341,16 +341,16 @@ A UINT value that specifies whether the runtime allows only specific processes  
 Setting this member is equivalent to setting the thirty-second bit of the 32-bit <b>Value</b> member (0x80000000).
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies the type of resource to create.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
  
 

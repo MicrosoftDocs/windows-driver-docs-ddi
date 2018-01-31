@@ -40,7 +40,7 @@ apiname:
 -	NdkGetPeerAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_GET_PEER_ADDRESS callback
@@ -72,20 +72,19 @@ NTSTATUS NdkGetPeerAddress(
 
 
 
-### -param *pNdkConnector
+#### - *pNdkConnector [in]
+
+A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
 
 
-
-### -param pAddress
+#### - pAddress
 
 A remote address is returned in this buffer.
 
 
-### -param *pAddressLength
+#### - *pAddressLength
 
-
-
-
+The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 
 
 #### - pNdkConnector [in]
@@ -154,9 +153,9 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
  
 

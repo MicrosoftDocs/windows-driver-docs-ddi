@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a46d7ba9-24fc-4e06-9655-3fc6531d6891
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::CallExtensionWide, CallExtensionWide method [Windows Debugging], debugger.callextensionwide, IDebugControl4 interface [Windows Debugging], CallExtensionWide method, IDebugControl4, CallExtensionWide method [Windows Debugging], IDebugControl4 interface, CallExtensionWide, dbgeng/IDebugControl4::CallExtensionWide
+ms.keywords: dbgeng/IDebugControl4::CallExtensionWide, CallExtensionWide, IDebugControl4::CallExtensionWide, CallExtensionWide method [Windows Debugging], IDebugControl4 interface, CallExtensionWide method [Windows Debugging], debugger.callextensionwide, IDebugControl4, IDebugControl4 interface [Windows Debugging], CallExtensionWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT CallExtensionWide(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Specifies the handle of the extension library that contains the extension to call.  If <i>Handle</i> is zero, the engine will walk the extension library chain searching for the extension.
 
 
-### -param Function [in]
+#### - Function [in]
 
 Specifies the name of the extension to call.
 
 
-### -param Arguments [in, optional]
+#### - Arguments [in, optional]
 
 Specifies the arguments to pass to the extension.  <i>Arguments</i> is a string that will be parsed by the extension, just like the extension will parse arguments passed to it when called as an extension command.
 
@@ -120,13 +120,13 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546733">GetExtensionFunction</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
  
 

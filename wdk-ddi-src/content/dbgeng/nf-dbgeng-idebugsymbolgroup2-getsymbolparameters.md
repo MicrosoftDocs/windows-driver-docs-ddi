@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e6390a7c-bbe1-47d7-9411-d710c4ab58a8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup::GetSymbolParameters, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup2::GetSymbolParameters, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.getsymbolparameters, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolParameters, debugger.getsymbolparameters, IDebugSymbolGroup::GetSymbolParameters, IDebugSymbolGroup2, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters method [Windows Debugging], GetSymbolParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetSymbolParameters(
 
 
 
-### -param Start [in]
+#### - Start [in]
 
 The index in the symbol group of the first symbol whose parameters you want.  The index of a symbol is an identification number. This number ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Count [in]
+#### - Count [in]
 
 The number of symbol parameters that you want.
 
 
-### -param Params [out]
+#### - Params [out]
 
 The symbol parameters.  This array must hold at least <i>Count</i> elements.  For a description of these parameters, see <a href="..\dbgeng\ns-dbgeng-_debug_symbol_parameters.md">DEBUG_SYMBOL_PARAMETERS</a>.
 
@@ -119,13 +119,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_parameters.md">DEBUG_SYMBOL_PARAMETERS</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

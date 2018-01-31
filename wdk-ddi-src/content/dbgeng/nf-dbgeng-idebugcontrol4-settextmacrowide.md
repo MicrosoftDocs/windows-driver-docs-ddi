@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 98e93636-33e3-4642-a4fb-8590a7a0e784
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::SetTextMacroWide, SetTextMacroWide method [Windows Debugging], IDebugControl4 interface, SetTextMacroWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], SetTextMacroWide method, SetTextMacroWide, IDebugControl4, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide
+ms.keywords: IDebugControl4 interface [Windows Debugging], SetTextMacroWide method, SetTextMacroWide method [Windows Debugging], SetTextMacroWide, dbgeng/IDebugControl4::SetTextMacroWide, IDebugControl4, IDebugControl4::SetTextMacroWide, SetTextMacroWide method [Windows Debugging], IDebugControl4 interface, debugger.settextmacrowide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SetTextMacroWide(
 
 
 
-### -param Slot [in]
+#### - Slot [in]
 
 Specifies the number of the fixed-name alias.  <i>Slot</i> can take the values 0, 1, ..., 9, that represent the fixed-name aliases <b>$u0</b>, <b>$u1</b>, ..., <b>$u9</b>.
 
 
-### -param Macro [in]
+#### - Macro [in]
 
 Specifies the new value of the alias specified by <i>Slot</i>.  The <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> makes a copy of this string.
 
@@ -113,13 +113,13 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
 

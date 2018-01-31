@@ -40,7 +40,7 @@ apiname:
 -	SetVirtualFunctionData
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,27 +75,27 @@ ULONG SetVirtualFunctionData(
 
 
 
-### -param Context [in, out]
+#### - Context [in, out]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param VirtualFunction [in]
+#### - VirtualFunction [in]
 
 A zero-based value that specifies the VF on the device from which data is to be written.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the buffer that contains the configuration information to be written to the PCIe configuration space of the VF.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The offset into the PCIe configuration space data of the VF. This member specifies where this write operation begins.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the data to be written. 
 

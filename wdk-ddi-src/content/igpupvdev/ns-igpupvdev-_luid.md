@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9547d3e1-a811-4b89-be71-f7cf81e92b93
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: igpupvdev/LUID, PLUID structure pointer [Network Drivers Starting with Windows Vista], PLUID, wfp_ref_3_struct_3_fwps_P-Z_5bb7e42d-6db8-4454-a629-b65042c4c051.xml, igpupvdev/PLUID, LUID, netvista.luid, LUID structure [Network Drivers Starting with Windows Vista], _LUID, *PLUID
+ms.keywords: igpupvdev/PLUID, wfp_ref_3_struct_3_fwps_P-Z_5bb7e42d-6db8-4454-a629-b65042c4c051.xml, LUID structure [Network Drivers Starting with Windows Vista], _LUID, PLUID, igpupvdev/LUID, PLUID structure pointer [Network Drivers Starting with Windows Vista], *PLUID, netvista.luid, LUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _LUID {
 
 
 
-### -field LowPart
+#### - LowPart
 
 Low order bits.
 
 
-### -field HighPart
+#### - HighPart
 
 High order bits.
 

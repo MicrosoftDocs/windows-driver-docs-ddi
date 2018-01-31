@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt interface, SetExtendedPolicy method, umdf.iwdfinterrupt_setextendedpolicy, SetExtendedPolicy method, IWDFInterrupt interface, wudfddi/IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy, wdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy
+ms.keywords: umdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt, wdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy method, IWDFInterrupt interface, SetExtendedPolicy method, IWDFInterrupt interface, SetExtendedPolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFInterrupt.SetExtendedPolicy
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ void SetExtendedPolicy(
 
 
 
-### -param PolicyAndGroup [in]
+#### - PolicyAndGroup [in]
 
 A pointer to a caller-allocated <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure that the driver has previously initialized by calling <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>.
 
@@ -98,11 +98,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
-
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
 
  
 

@@ -73,14 +73,14 @@ VOID MiniportShutdownEx(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      The driver uses this context area to maintain state information for a miniport adapter.
 
 
-### -param ShutdownAction [in]
+#### - ShutdownAction [in]
 
 The reason why NDIS called the shutdown function. The following values are valid:
      
@@ -186,17 +186,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/57d964f1-03c7-4b54-9d04-1d187c96e052">Miniport Adapter Shutdown</a>
 
 <a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
 
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
-<a href="https://msdn.microsoft.com/57d964f1-03c7-4b54-9d04-1d187c96e052">Miniport Adapter Shutdown</a>
-
 <a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
+
+<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 

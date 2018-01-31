@@ -68,12 +68,12 @@ VOID FltReleaseContextsEx(
 
 
 
-### -param ContextsSize [in]
+#### - ContextsSize [in]
 
 The size, in bytes, of the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
 
 
-### -param Contexts [in]
+#### - Contexts [in]
 
 Pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure. 
 
@@ -102,15 +102,15 @@ When each context's reference count reaches zero, the context is freed immediate
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 47447f00-a57d-4821-b10e-1b2cf7eaad94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintReadStreamFactory::GetStream, filterpipeline/IPrintReadStreamFactory::GetStream, print.iprintreadstreamfactory_getstream, GetStream method [Print Devices], IPrintReadStreamFactory interface, GetStream method [Print Devices], GetStream, filterpipeline_0e4b4a26-da03-4719-bbce-2bb160a882e2.xml, IPrintReadStreamFactory interface [Print Devices], GetStream method, IPrintReadStreamFactory
+ms.keywords: GetStream method [Print Devices], IPrintReadStreamFactory interface, filterpipeline/IPrintReadStreamFactory::GetStream, filterpipeline_0e4b4a26-da03-4719-bbce-2bb160a882e2.xml, GetStream, IPrintReadStreamFactory::GetStream, GetStream method [Print Devices], print.iprintreadstreamfactory_getstream, IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], GetStream method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetStream(
 
 
 
-### -param ppStream [out]
+#### - ppStream [out]
 
 A pointer to an <a href="..\filterpipeline\nn-filterpipeline-iprintreadstream.md">IPrintReadStream</a> interface. The filter can use this interface to read the contents of the print ticket.
 

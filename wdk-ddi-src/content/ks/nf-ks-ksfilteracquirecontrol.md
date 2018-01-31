@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 93dfe9fe-e1af-45db-ab28-fd166f511fcc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterAcquireControl, stream.ksfilteracquirecontrol, ks/KsFilterAcquireControl, KsFilterAcquireControl function [Streaming Media Devices], avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml
+ms.keywords: KsFilterAcquireControl function [Streaming Media Devices], avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml, ks/KsFilterAcquireControl, stream.ksfilteracquirecontrol, KsFilterAcquireControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void __inline KsFilterAcquireControl(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 The <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> for which to acquire the control mutex.
 

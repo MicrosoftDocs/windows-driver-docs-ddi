@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, IPortClsStreamResourceManager2, AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, portcls/IPortClsStreamResourceManager2::AddStreamResource2
+ms.keywords: audio.iportclsstreamresourcemanager2_addstreamresource2, IPortClsStreamResourceManager2::AddStreamResource2, AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, portcls/IPortClsStreamResourceManager2::AddStreamResource2, IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, AddStreamResource2 method [Audio Devices], AddStreamResource2, IPortClsStreamResourceManager2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IPortClsStreamResourceManager2.AddStreamResource2
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsStreamResourceManager2::AddStreamResource2 method
@@ -72,23 +72,23 @@ NTSTATUS  AddStreamResource2(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 Pointer to the device object. The device object is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-### -param ResourceSet [in]
+#### - ResourceSet [in]
 
 PVOID - Reserved for future use, set to NULL. Only device-scoped resources are supported at this time.
 
 
-### -param ResourceDescriptor [in]
+#### - ResourceDescriptor [in]
 
 PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information see, <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
 
 
 
-### -param ResourceHandle [out]
+#### - ResourceHandle [out]
 
 PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>.  
 
@@ -110,13 +110,13 @@ Additional standard status codes may be returned.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
-
-<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
 
 <a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
 
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
+<a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
+
+<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
  
 

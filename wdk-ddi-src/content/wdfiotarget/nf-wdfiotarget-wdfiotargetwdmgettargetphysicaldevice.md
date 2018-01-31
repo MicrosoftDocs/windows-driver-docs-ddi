@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ad24f1b4-ac7f-46df-8f8d-14c956c73a34
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice, DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, wdf.wdfiotargetwdmgettargetphysicaldevice, kmdf.wdfiotargetwdmgettargetphysicaldevice, PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE
+ms.keywords: DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, kmdf.wdfiotargetwdmgettargetphysicaldevice, WdfIoTargetWdmGetTargetPhysicalDevice, PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, wdf.wdfiotargetwdmgettargetphysicaldevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PDEVICE_OBJECT WdfIoTargetWdmGetTargetPhysicalDevice(
 
 
 
-### -param IoTarget [in]
+#### - IoTarget [in]
 
 A handle to a remote I/O target object. This handle was obtained from a previous call to <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>.
 
@@ -102,9 +102,9 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

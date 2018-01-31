@@ -74,14 +74,14 @@ VOID NdisTcpOffloadDisconnectComplete(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
      NdisMRegisterMiniportDriver</b></mshelp:link> function.
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a single 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. The offload
@@ -179,21 +179,21 @@ Call the
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
+   MiniportTcpOffloadDisconnect</i></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
    NdisAdvanceNetBufferDataStart</b></mshelp:link>
 
-<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-   MiniportTcpOffloadDisconnect</i></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
  
 

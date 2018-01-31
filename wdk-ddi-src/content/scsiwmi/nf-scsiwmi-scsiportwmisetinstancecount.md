@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0de2c766-cd3c-46ff-bb78-f1e4c37af2c0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportwmisetinstancecount, scsiwmi/ScsiPortWmiSetInstanceCount, scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, ScsiPortWmiSetInstanceCount function [Storage Devices], ScsiPortWmiSetInstanceCount
+ms.keywords: ScsiPortWmiSetInstanceCount function [Storage Devices], storage.scsiportwmisetinstancecount, scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, scsiwmi/ScsiPortWmiSetInstanceCount, ScsiPortWmiSetInstanceCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,24 +71,24 @@ BOOLEAN ScsiPortWmiSetInstanceCount(
 
 
 
-### -param RequestContext [in]
+#### - RequestContext [in]
 
 Pointer to a structure of type <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a> that contains the request context for a WMI SRB. 
 
 
-### -param InstanceCount [in]
+#### - InstanceCount [in]
 
 Contains the number of instances for which the minidriver will provide data. 
 
 
-### -param BufferAvail [out]
+#### - BufferAvail [out]
 
 Contains, on return, the number of bytes of buffer space available for describing instance names and data. The value that is returned in this member can be passed to routines <a href="..\scsiwmi\nf-scsiwmi-scsiportwmisetdata.md">ScsiPortWmiSetData</a> and <a href="..\scsiwmi\nf-scsiwmi-scsiportwmisetinstancename.md">ScsiPortWmiSetInstanceName</a> in the <i>BufferAvail </i>parameter of those routines. 
 
 The <b>ScsiPortWmiSetInstanceCount</b> routine initializes an array of pointers to data buffers, with one array element for each instance. If there is not enough memory available in the WNODE to initialize an array of size <i>InstanceCount</i>, a zero will be returned in this member. 
 
 
-### -param SizeNeeded [out]
+#### - SizeNeeded [out]
 
 Indicates, on input, the number of bytes needed to describe the entire WNODE <i>before </i>configuring the internal arrays in the WNODE. On return, this member will contain the size of the entire WNODE, including the newly initialized arrays within the WNODE. 
 
@@ -115,11 +115,11 @@ The memory allocated for the request context must remain valid until after the m
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 <a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/ZwTerminateProcess, kernel.zwterminateprocess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml, ntddk/NtTerminateProcess, ZwTerminateProcess, NtTerminateProcess
+ms.keywords: ZwTerminateProcess, ntddk/ZwTerminateProcess, NtTerminateProcess, kernel.zwterminateprocess, ntddk/NtTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS ZwTerminateProcess(
 
 
 
-### -param ProcessHandle [in, optional]
+#### - ProcessHandle [in, optional]
 
 A handle to the process object that represents the process to be terminated. 
 
 
-### -param ExitStatus [in]
+#### - ExitStatus [in]
 
 An NTSTATUS value that the operating system uses as the final status for the process and each of its threads. 
 
@@ -150,9 +150,9 @@ Drivers must not specify the current process if resources have not been freed fr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\ntddk\nf-ntddk-zwopenprocess.md">ZwOpenProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

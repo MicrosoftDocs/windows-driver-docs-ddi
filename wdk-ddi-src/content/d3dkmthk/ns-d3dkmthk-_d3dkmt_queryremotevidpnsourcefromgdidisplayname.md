@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac0ec68a-1f2c-4a39-bf88-0e69d50b1279
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME structure [Display Devices], display.d3dkmt_queryremotevidpnsourcefromgdidisplayname, _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
+ms.keywords: "_D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, display.d3dkmt_queryremotevidpnsourcefromgdidisplayname, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME {
 
 
 
-### -field DeviceName
+#### - DeviceName
 
 [in] The name of the GDI device on which to open an adapter instance.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [out] The zero-based video present network (VidPN) source identifier for the display device that is represented by the <b>DeviceName</b> member.
 

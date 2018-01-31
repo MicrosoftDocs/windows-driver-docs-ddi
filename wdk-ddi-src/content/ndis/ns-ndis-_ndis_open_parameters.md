@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb61026c-311b-41d1-9fcb-3ac44df2025e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, ndis/NDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml
+ms.keywords: PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, ndis/NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_open_parameters, _NDIS_OPEN_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _NDIS_OPEN_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -85,7 +85,7 @@ The
      <b>Size</b> member to the NDIS_SIZEOF_OPEN_PARAMETERS_REVISION_1.
 
 
-### -field AdapterName
+#### - AdapterName
 
 A Unicode string that contains the name of the miniport adapter that NDIS passed to 
      <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> in the 
@@ -94,27 +94,27 @@ A Unicode string that contains the name of the miniport adapter that NDIS passed
      adapter that is associated with an intermediate driver.
 
 
-### -field MediumArray
+#### - MediumArray
 
 A pointer to an array of 
      <b>NdisMedium<i>Xxx</i></b> values that lists the types of media the caller can support. This list is a subset of the 
      <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a> types.
 
 
-### -field MediumArraySize
+#### - MediumArraySize
 
 The number of elements in the 
      <b>MediumArray</b> member.
 
 
-### -field SelectedMediumIndex
+#### - SelectedMediumIndex
 
 A pointer to an driver-provided UINT variable that contains an index into the 
      <b>MediumArray</b> array. NDIS writes this index which identifies the media type that the underlying
      driver uses.
 
 
-### -field FrameTypeArray
+#### - FrameTypeArray
 
 A pointer to an array of NET_FRAME_TYPE values, specifying the frame types that you want the
      protocol driver to receive. The frame type is a USHORT value that follows the destination and source MAC
@@ -136,7 +136,7 @@ typedef NET_FRAME_TYPE *PNET_FRAME_TYPE;</pre>
      guarantee that a protocol driver will receive only packets with frame types that match the types in the
      array.</div><div> </div>
 
-### -field FrameTypeArraySize
+#### - FrameTypeArraySize
 
 The number of elements in the 
      <b>FrameTypeArray</b> member. This number must be equal to or less than
@@ -154,13 +154,13 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
  
 

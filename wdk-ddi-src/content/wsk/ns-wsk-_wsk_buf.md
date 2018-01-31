@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bef653d3-5de3-4af3-8c1f-cff55619e2e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml, *PWSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, WSK_BUF, WSK_BUF structure [Network Drivers Starting with Windows Vista], wsk/WSK_BUF, _WSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], PWSK_BUF
+ms.keywords: WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], PWSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml, wsk/WSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, *PWSK_BUF, WSK_BUF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,14 +71,14 @@ typedef struct _WSK_BUF {
 
 
 
-### -field Mdl
+#### - Mdl
 
 A pointer to a memory descriptor list (MDL). The MDL can be a single MDL or the first MDL in an
      MDL chain. If the 
      <b>Length</b> member is zero, this pointer can be <b>NULL</b>.
 
 
-### -field Offset
+#### - Offset
 
 An offset to where the data starts in the MDL. If the 
      <b>Mdl</b> member points to the first MDL in an MDL chain, this offset must be within the memory buffer
@@ -87,7 +87,7 @@ An offset to where the data starts in the MDL. If the
      <b>Offset</b> member is not used.
 
 
-### -field Length
+#### - Length
 
 When a WSK_BUF structure is used to describe a buffer of data to be sent over a socket, this
      member specifies the number of bytes of data in the MDL (or MDL chain) to be sent.
@@ -118,19 +118,19 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
 
 <a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
 
  
 

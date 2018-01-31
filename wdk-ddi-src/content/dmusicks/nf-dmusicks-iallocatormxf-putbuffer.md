@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 20daf292-9476-4435-915d-f97fba3a6ec2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_8afbc000-69b1-45a5-8fe3-3f6ff8d5518d.xml, IAllocatorMXF::PutBuffer, IAllocatorMXF interface [Audio Devices], PutBuffer method, PutBuffer method [Audio Devices], dmusicks/IAllocatorMXF::PutBuffer, audio.iallocatormxf_putbuffer, PutBuffer method [Audio Devices], IAllocatorMXF interface, PutBuffer, IAllocatorMXF
+ms.keywords: IAllocatorMXF, audmp-routines_8afbc000-69b1-45a5-8fe3-3f6ff8d5518d.xml, PutBuffer method [Audio Devices], PutBuffer method [Audio Devices], IAllocatorMXF interface, audio.iallocatormxf_putbuffer, IAllocatorMXF::PutBuffer, IAllocatorMXF interface [Audio Devices], PutBuffer method, dmusicks/IAllocatorMXF::PutBuffer, PutBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

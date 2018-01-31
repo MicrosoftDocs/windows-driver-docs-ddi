@@ -68,7 +68,7 @@ NTSTATUS SerCxDeviceInitConfig(
 
 
 
-### -param DeviceInit [in, out]
+#### - DeviceInit [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that is to be configured.
 
@@ -114,9 +114,9 @@ SerCx sets a default security descriptor that the serial controller driver can, 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
  
 

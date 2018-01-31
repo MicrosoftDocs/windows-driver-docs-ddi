@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winddiui/PDCEVENT_CREATEDCPRE, winddiui/DOCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, _DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, DOCEVENT_CREATEDCPRE, print.docevent_createdcpre, PDCEVENT_CREATEDCPRE structure pointer [Print Devices], DOCEVENT_CREATEDCPRE structure [Print Devices]
+ms.keywords: DOCEVENT_CREATEDCPRE, winddiui/DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, _DOCEVENT_CREATEDCPRE, winddiui/PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE structure [Print Devices], print.docevent_createdcpre, PDCEVENT_CREATEDCPRE structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOCEVENT_CREATEDCPRE
 product: Windows
 targetos: Windows
-req.typenames: DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE
+req.typenames: "*PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _DOCEVENT_CREATEDCPRE {
 
 
 
-### -field pszDriver
+#### - pszDriver
 
 Reserved for system use. Set to zero.
 
 
-### -field pszDevice
+#### - pszDevice
 
 Pointer to the first byte of a Unicode string that contains either the device name or the port name, depending on whether print spooling is enabled or disabled. If the print job is being sent directly to the printer (spooling is disabled), this member contains the printer name. If a print job is being spooled, this member contains the port name. 
 
 
-### -field pdm
+#### - pdm
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure passed to either CreateIC or CreateDC (both described in the Microsoft Windows SDK documentation). This member can be <b>NULL</b>.
 
 
-### -field bIC
+#### - bIC
 
 Specifies whether the DEVMODEW structure pointed to by the <b>pdm</b> member is being passed to CreateIC or CreateDC. If <b>TRUE</b>, CreateIC is being called. If <b>FALSE</b>, CreateDC is being called.
 
@@ -102,9 +102,9 @@ This structure is used in conjunction with a call to <a href="..\winddiui\nf-win
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
-
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
 
  
 

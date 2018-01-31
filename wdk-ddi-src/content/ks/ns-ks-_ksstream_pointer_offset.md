@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ccbe77ee-2377-45d9-b8bf-714680c1920a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSSTREAM_POINTER_OFFSET, ks/PKSSTREAM_POINTER_OFFSET, stream.ksstream_pointer_offset, _KSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET structure pointer [Streaming Media Devices], KSSTREAM_POINTER_OFFSET structure [Streaming Media Devices], *PKSSTREAM_POINTER_OFFSET, avstruct_e210364b-520e-4d21-98ea-e22f5468e911.xml
+ms.keywords: stream.ksstream_pointer_offset, _KSSTREAM_POINTER_OFFSET, *PKSSTREAM_POINTER_OFFSET, ks/KSSTREAM_POINTER_OFFSET, ks/PKSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET structure [Streaming Media Devices], avstruct_e210364b-520e-4d21-98ea-e22f5468e911.xml, PKSSTREAM_POINTER_OFFSET structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSSTREAM_POINTER_OFFSET
 product: Windows
 targetos: Windows
-req.typenames: "*PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET"
+req.typenames: KSSTREAM_POINTER_OFFSET, *PKSSTREAM_POINTER_OFFSET
 ---
 
 # _KSSTREAM_POINTER_OFFSET structure

@@ -40,7 +40,7 @@ apiname:
 -	SynchCritSection
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ BOOLEAN SynchCritSection(
 
 
 
-### -param SynchronizeContext [in]
+#### - SynchronizeContext [in]
 
 Caller-supplied context information, specified by the driver's call to <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>.
 

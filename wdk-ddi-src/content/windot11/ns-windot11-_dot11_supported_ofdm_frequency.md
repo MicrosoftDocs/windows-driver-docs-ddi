@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79017890-c045-4996-b5d3-fa000ffff5a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SUPPORTED_OFDM_FREQUENCY, PDOT11_SUPPORTED_OFDM_FREQUENCY structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_OFDM_FREQUENCY, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY, *PDOT11_SUPPORTED_OFDM_FREQUENCY, netvista.dot11_supported_ofdm_frequency, _DOT11_SUPPORTED_OFDM_FREQUENCY, PDOT11_SUPPORTED_OFDM_FREQUENCY, Native_802.11_data_types_5a7cc235-128d-4209-a250-49ec0b2b8ad7.xml, DOT11_SUPPORTED_OFDM_FREQUENCY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_supported_ofdm_frequency, PDOT11_SUPPORTED_OFDM_FREQUENCY structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_OFDM_FREQUENCY, PDOT11_SUPPORTED_OFDM_FREQUENCY, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY, Native_802.11_data_types_5a7cc235-128d-4209-a250-49ec0b2b8ad7.xml, *PDOT11_SUPPORTED_OFDM_FREQUENCY, DOT11_SUPPORTED_OFDM_FREQUENCY structure [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_OFDM_FREQUENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SUPPORTED_OFDM_FREQUENCY
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_SUPPORTED_OFDM_FREQUENCY, DOT11_SUPPORTED_OFDM_FREQUENCY"
+req.typenames: DOT11_SUPPORTED_OFDM_FREQUENCY, *PDOT11_SUPPORTED_OFDM_FREQUENCY
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ typedef struct _DOT11_SUPPORTED_OFDM_FREQUENCY {
 
 
 
-### -field uCenterFrequency
+#### - uCenterFrequency
 
 A ULONG value that represents a channel center frequency, in MHz, that the 802.11 station can
      operate with.

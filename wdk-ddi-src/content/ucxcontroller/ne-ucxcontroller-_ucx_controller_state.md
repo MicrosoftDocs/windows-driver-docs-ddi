@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 717BE2D2-2CF3-4A8C-B7DC-41E45C56B02B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxcontroller/UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE enumeration [Buses], UcxControllerStateLost, UcxControllerStatePreserved, ucxcontroller/UcxControllerStatePreserved, buses.ucx_controller_state, UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStateLost, _UCX_CONTROLLER_STATE
+ms.keywords: UCX_CONTROLLER_STATE enumeration [Buses], UcxControllerStatePreserved, ucxcontroller/UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStateLost, UCX_CONTROLLER_STATE, buses.ucx_controller_state, _UCX_CONTROLLER_STATE, UcxControllerStateLost, ucxcontroller/UcxControllerStatePreserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _UCX_CONTROLLER_STATE {
 
 
 
-### -field UcxControllerStateLost
+#### - UcxControllerStateLost
 
 Indicates the controller state was lost after reset.
 
 
-### -field UcxControllerStatePreserved
+#### - UcxControllerStatePreserved
 
 Indicates the controller state was preserved after reset.
 

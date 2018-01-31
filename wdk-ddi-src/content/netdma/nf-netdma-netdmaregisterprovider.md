@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 35d70d0b-c1b9-433f-941d-6cb61ddf0b62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaRegisterProvider, netvista.netdmaregisterprovider, netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, NetDmaRegisterProvider
+ms.keywords: netdma/NetDmaRegisterProvider, netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], NetDmaRegisterProvider, netvista.netdmaregisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaRegisterProvider
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaRegisterProvider function
@@ -72,14 +72,14 @@ NTSTATUS NetDmaRegisterProvider(
 
 
 
-### -param ProviderContext [in]
+#### - ProviderContext [in]
 
 A pointer to a block of driver-allocated context information that stores information about the DMA
      provider. NetDMA passes the context information in subsequent calls to 
      <i>Provider</i>Xxx functions that required a DMA provider context.
 
 
-### -param pNetDmaProviderHandle [in]
+#### - pNetDmaProviderHandle [in]
 
 A pointer to a value that is a handle that 
      <b>NetDmaRegisterProvider</b> supplies to identify the DMA provider. The DMA provider driver passes this
@@ -87,7 +87,7 @@ A pointer to a value that is a handle that
      <b>NetDma<i>Xxx</i></b> functions that require a provider handle.
 
 
-### -param ProviderCharacteristics [in]
+#### - ProviderCharacteristics [in]
 
 A pointer to a 
      <mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
@@ -199,20 +199,20 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
-
 <mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
+   ProviderSetDmaChannelCpuAffinity</b></mshelp:link>
+
+<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
-<mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
-   ProviderSetDmaChannelCpuAffinity</b></mshelp:link>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
+   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
  
 

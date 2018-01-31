@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b8eb6321-928f-4366-9553-c75900fa1ac6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_RemovePort_IN, SM_RemovePort_IN, _SM_RemovePort_IN, *PSM_RemovePort_IN, structs-Fibre_0290cc86-0661-47ae-89db-3a3756c5d681.xml, hbapiwmi/PSM_RemovePort_IN, SM_RemovePort_IN structure [Storage Devices], PSM_RemovePort_IN, PSM_RemovePort_IN structure pointer [Storage Devices], storage.sm_removeport_in
+ms.keywords: SM_RemovePort_IN structure [Storage Devices], hbapiwmi/SM_RemovePort_IN, storage.sm_removeport_in, _SM_RemovePort_IN, PSM_RemovePort_IN, hbapiwmi/PSM_RemovePort_IN, SM_RemovePort_IN, PSM_RemovePort_IN structure pointer [Storage Devices], *PSM_RemovePort_IN, structs-Fibre_0290cc86-0661-47ae-89db-3a3756c5d681.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SM_RemovePort_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 A worldwide name (WWN) that indicates the port that should be removed from the list of ports whose events are reported to the WMI client.
 
 
-### -field EventType
+#### - EventType
 
 An event type value.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b15598bd-8362-44f1-83ce-b4282d6604b0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlLookupPerFileContext, FsRtlLookupPerFileContext routine [Installable File System Drivers], fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ntifs/FsRtlLookupPerFileContext, ifsk.fsrtllookupperfilecontext
+ms.keywords: ifsk.fsrtllookupperfilecontext, FsRtlLookupPerFileContext routine [Installable File System Drivers], FsRtlLookupPerFileContext, fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ntifs/FsRtlLookupPerFileContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PFSRTL_PER_FILE_CONTEXT FsRtlLookupPerFileContext(
 
 
 
-### -param PerFileContextPointer [in]
+#### - PerFileContextPointer [in]
 
 A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To retrieve this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a> macro.
 
 
-### -param OwnerId [in, optional]
+#### - OwnerId [in, optional]
 
 A pointer to a filter driver-allocated variable that uniquely identifies the owner of the per-file context structure.  The format of this variable is filter driver-specific. This parameter is optional, but must be non-<b>NULL</b> if <i>InstanceId</i> is non-<b>NULL</b>. 
 
 
-### -param InstanceId [in, optional]
+#### - InstanceId [in, optional]
 
 A pointer to a filter driver-allocated variable that can be used to distinguish among per-file context structures that are created by the same filter driver. The format of this variable is filter driver-specific. This parameter is optional.
 
@@ -102,15 +102,15 @@ If the file system does not support per-file context objects, <b>NULL</b> is ret
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
-
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, UfxFdoInit
+ms.keywords: buses.ufxfdoinit, UfxFdoInit method [Buses], ufxclient/UfxFdoInit, UfxFdoInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxFdoInit
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ NTSTATUS UfxFdoInit(
 
 
 
-### -param WdfDriver [in]
+#### - WdfDriver [in]
 
 A handle to the driver's WDF driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 
 
-### -param DeviceInit [in, out]
+#### - DeviceInit [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param FdoAttributes [in, out]
+#### - FdoAttributes [in, out]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the 
 

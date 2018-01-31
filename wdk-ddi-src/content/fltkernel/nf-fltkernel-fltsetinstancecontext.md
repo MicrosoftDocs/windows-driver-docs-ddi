@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ddeeb49b-7c7d-4faa-b2ae-cdb09adebce0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSetInstanceContext function [Installable File System Drivers], FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, ifsk.fltsetinstancecontext, fltkernel/FltSetInstanceContext, FltSetInstanceContext
+ms.keywords: FltSetInstanceContext, ifsk.fltsetinstancecontext, fltkernel/FltSetInstanceContext, FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, FltSetInstanceContext function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS FltSetInstanceContext(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the instance. 
 
 
-### -param Operation [in]
+#### - Operation [in]
 
 Flag specifying details of the operation to be performed. This parameter must be one of the following: 
 
@@ -92,12 +92,12 @@ If a context is already set for this <i>Instance</i>, replace it with <i>NewCont
 If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, set <i>NewContext</i> as the context for <i>Instance</i>. 
 
 
-### -param NewContext [in]
+#### - NewContext [in]
 
 Pointer to the new context to be set for the instance. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out]
+#### - OldContext [out]
 
 Pointer to a caller-allocated variable that receives the address of the existing instance context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
@@ -193,13 +193,13 @@ For more information about context reference counting, see <a href="https://msdn
 
 <a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMISuggestInstanceName, kernel.iowmisuggestinstancename, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], wdm/IoWMISuggestInstanceName, k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml
+ms.keywords: IoWMISuggestInstanceName, wdm/IoWMISuggestInstanceName, k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, kernel.iowmisuggestinstancename, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS IoWMISuggestInstanceName(
 
 
 
-### -param PhysicalDeviceObject [in, optional]
+#### - PhysicalDeviceObject [in, optional]
 
 If supplied, points to the driver's physical device object.
 
 
-### -param SymbolicLinkName [in, optional]
+#### - SymbolicLinkName [in, optional]
 
 If supplied, points to the symbolic link name returned from <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>. 
 
 
-### -param CombineNames [in]
+#### - CombineNames [in]
 
 If <b>TRUE</b> then the suggested names returned will combine the <i>PhysicalDeviceObject</i> and <i>SymbolicLinkName</i> information.
 
 
-### -param SuggestedInstanceName [out]
+#### - SuggestedInstanceName [out]
 
 A pointer to a buffer which upon successful completion will contain a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
 

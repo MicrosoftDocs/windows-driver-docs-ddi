@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER, SERVICE_ACTION_POPULATE_TOKEN, SERVICE_ACTION_WRITE_USING_TOKEN, TRANSFER_COUNT_UNITS_BYTES, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_EXBIBYTES, *PRECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header, TRANSFER_COUNT_UNITS_GIBIBYTES, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_TEBIBYTES, TRANSFER_COUNT_UNITS_PEBIBYTES, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_KIBIBYTES
+ms.keywords: storage.receive_token_information_header, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], TRANSFER_COUNT_UNITS_EXBIBYTES, PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_GIBIBYTES, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], TRANSFER_COUNT_UNITS_BYTES, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, SERVICE_ACTION_WRITE_USING_TOKEN, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, RECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_PEBIBYTES, SERVICE_ACTION_POPULATE_TOKEN, TRANSFER_COUNT_UNITS_KIBIBYTES, *PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_TEBIBYTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,12 +82,12 @@ typedef struct _RECEIVE_TOKEN_INFORMATION_HEADER {
 
 
 
-### -field AvailableData
+#### - AvailableData
 
 The amount of data available in the <b>SenseData</b> array and any additional result information.
 
 
-### -field ResponseToServiceAction
+#### - ResponseToServiceAction
 
 A response code indicating which command action the response is for. The service action codes are the following.
 <table>
@@ -118,12 +118,12 @@ The response information is for a WRITE USING TOKEN command.
 </table> 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field OperationStatus
+#### - OperationStatus
 
 The current status of the copy operation. The status can be one of the following values.
 <table>
@@ -211,37 +211,37 @@ The operation was terminated. Possibly by an existing resource reservation.
 </table> 
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved.
 
 
-### -field OperationCounter
+#### - OperationCounter
 
 The number of commands processed for the current copy operation.
 
 
-### -field EstimatedStatusUpdateDelay
+#### - EstimatedStatusUpdateDelay
 
 The recommended time, in milliseconds, to wait before sending the next RECEIVE COPY STATUS command for updated information about the current copy operation.
 
 
-### -field CompletionStatus
+#### - CompletionStatus
 
 SCSI status code for the copy command operation.
 
 
-### -field SenseDataFieldLength
+#### - SenseDataFieldLength
 
 The length, in bytes, of the entire data area available for sense data. This value is always &gt;=  <b>SenseDataLength</b>.
 
 
-### -field SenseDataLength
+#### - SenseDataLength
 
 The length, in bytes, of the data in <b>SenseData</b>.
 
 
-### -field TransferCountUnits
+#### - TransferCountUnits
 
 The byte units applied to <i>TransferCount</i>. Each unit expansion is a exponent in base 2. The multiplier value of <b>TRANSFER_COUNT_UNITS_KIBIBYTES</b>, for example, is 1024 and not 1000. The defined units are the following.
 <table>
@@ -332,22 +332,22 @@ Transfer count is not an exponent, but in units of logical block length.
 </table> 
 
 
-### -field TransferCount
+#### - TransferCount
 
 The length of data transferred in the operation. The unit type in <b>TransferCountUnits</b> is applied to this value to give the total byte count.
 
 
-### -field SegmentsProcessed
+#### - SegmentsProcessed
 
 The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windowssystems, this value is reserved and applications must ignore this member.
 
 
-### -field Reserved3
+#### - Reserved3
 
 Reserved.
 
 
-### -field SenseData
+#### - SenseData
 
 Sense data returned for the copy operation.
 

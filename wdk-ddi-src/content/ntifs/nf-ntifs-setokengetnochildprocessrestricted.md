@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6C42E6C4-91EB-44A3-84E1-CAFDBD5CD724
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeTokenGetNoChildProcessRestricted, SeTokenGetNoChildProcessRestricted function [Installable File System Drivers], ntifs/SeTokenGetNoChildProcessRestricted, ifsk.setokengetnochildprocessrestricted
+ms.keywords: SeTokenGetNoChildProcessRestricted function [Installable File System Drivers], SeTokenGetNoChildProcessRestricted, ntifs/SeTokenGetNoChildProcessRestricted, ifsk.setokengetnochildprocessrestricted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,23 +71,23 @@ void NTKERNELAPI SeTokenGetNoChildProcessRestricted(
 
 
 
-### -param Token [in]
+#### - Token [in]
 
 Specifies a pointer to the access token.
 
 
-### -param Enforced [out]
+#### - Enforced [out]
 
 A pointer to a boolean that returns whether the mitigation is in enforcement mode.
 
 
-### -param UnlessSecure [out]
+#### - UnlessSecure [out]
 
 A pointer to a boolean that returns whether secure process creation is enabled even if
         process creation is restricted.
 
 
-### -param AuditOnly [out]
+#### - AuditOnly [out]
 
 A pointer to a boolean that returns whether the mitigation is in audit-only mode.
 

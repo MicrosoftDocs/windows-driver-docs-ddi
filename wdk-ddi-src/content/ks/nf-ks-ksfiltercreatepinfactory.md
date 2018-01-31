@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], stream.ksfiltercreatepinfactory, ks/KsFilterCreatePinFactory, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml
+ms.keywords: KsFilterCreatePinFactory, ks/KsFilterCreatePinFactory, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, KsFilterCreatePinFactory function [Streaming Media Devices], stream.ksfiltercreatepinfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsFilterCreatePinFactory(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to create a new pin factory.
 
 
-### -param PinDescriptor [in]
+#### - PinDescriptor [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
 
 
-### -param PinID [out]
+#### - PinID [out]
 
 A pointer to the location containing the ID of the new factory.
 

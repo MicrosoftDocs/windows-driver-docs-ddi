@@ -72,17 +72,17 @@ NTSTATUS APIENTRY DxgkCbQueryVidPnInterface(
 
 
 
-### -param hVidPn [in]
+#### - hVidPn [in]
 
 [in] A handle to a VidPN object. The VidPN manager previously provided the display miniport driver with this handle by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a>, or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>.
 
 
-### -param VidPnInterfaceVersion [in]
+#### - VidPnInterfaceVersion [in]
 
 [in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_vidpn_interface_version.md">DXGK_VIDPN_INTERFACE_VERSION</a> enumerator that specifies the version of the VidPN interface being requested. Callers must set this parameter to <b>DXGK_VIDPN_INTERFACE_VERSION_V1</b>.
 
 
-### -param ppVidPnInterface [out]
+#### - ppVidPnInterface [out]
 
 [out] A pointer to a variable that receives a pointer to the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> structure.
 
@@ -146,15 +146,15 @@ The interface version specified by <i>VidPnInterfaceVersion</i> is not supported
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPN Source Mode Set Interface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPN Target Mode Set Interface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPN Target Mode Set Interface</a>
 
  
 

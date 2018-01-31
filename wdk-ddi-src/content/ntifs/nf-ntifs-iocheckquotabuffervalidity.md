@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iocheckquotabuffervalidity, IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ntifs/IoCheckQuotaBufferValidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml
+ms.keywords: ifsk.iocheckquotabuffervalidity, ntifs/IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, IoCheckQuotaBufferValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoCheckQuotaBufferValidity(
 
 
 
-### -param QuotaBuffer [in]
+#### - QuotaBuffer [in]
 
 Pointer to the buffer containing the quota entries to be checked.
 
 
-### -param QuotaLength [in]
+#### - QuotaLength [in]
 
 Length, in bytes, of <i>QuotaBuffer</i>.
 
 
-### -param ErrorOffset [out]
+#### - ErrorOffset [out]
 
 A variable to receive the offset of the offending entry in the quota buffer if an error is found. This variable is only valid if an error occurs.
 

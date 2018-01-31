@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e503b016-3271-4cce-a7fc-09c04b56716d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCurrentOplock routine [Installable File System Drivers], FltCurrentOplock, fltkernel/FltCurrentOplock, ifsk.fltcurrentoplock, FltApiRef_a_to_d_cda1ee2b-1ce2-40a3-8e55-25846f59f611.xml
+ms.keywords: FltCurrentOplock, fltkernel/FltCurrentOplock, FltApiRef_a_to_d_cda1ee2b-1ce2-40a3-8e55-25846f59f611.xml, ifsk.fltcurrentoplock, FltCurrentOplock routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN FltCurrentOplock(
 
 
 
-### -param Oplock [in]
+#### - Oplock [in]
 
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>. 
 
@@ -91,9 +91,9 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcurrentoplock.md">FsRtlCurrentOplock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
  
 

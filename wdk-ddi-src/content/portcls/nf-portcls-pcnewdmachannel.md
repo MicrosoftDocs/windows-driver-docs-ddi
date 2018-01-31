@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4a3a39ac-0db9-48a9-8da6-c2b914fa1de6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewDmaChannel function [Audio Devices], audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, audio.pcnewdmachannel, portcls/PcNewDmaChannel, PcNewDmaChannel
+ms.keywords: audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, PcNewDmaChannel function [Audio Devices], PcNewDmaChannel, portcls/PcNewDmaChannel, audio.pcnewdmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcNewDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcNewDmaChannel function
@@ -72,27 +72,27 @@ NTSTATUS PcNewDmaChannel(
 
 
 
-### -param OutDmaChannel [out]
+#### - OutDmaChannel [out]
 
 Output pointer for the DMA-channel object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in, optional]
+#### - OuterUnknown [in, optional]
 
 Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
-### -param DeviceDescription [in]
+#### - DeviceDescription [in]
 
 Pointer to a description of the physical device for which the caller is requesting a DMA object. This parameter points to a structure of type <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for the physical adapter device. This parameter points to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
@@ -131,9 +131,9 @@ The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 

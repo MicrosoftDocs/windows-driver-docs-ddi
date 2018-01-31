@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 191ea8ac-6646-44db-88eb-54dc51afef17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SETDEVICELOSTSUPPORT structure [Display Devices], D3DKMT_SETDEVICELOSTSUPPORT, display.d3dkmt-setdevicelostsupport, d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT, _D3DKMT_SETDEVICELOSTSUPPORT
+ms.keywords: display.d3dkmt-setdevicelostsupport, _D3DKMT_SETDEVICELOSTSUPPORT, D3DKMT_SETDEVICELOSTSUPPORT, D3DKMT_SETDEVICELOSTSUPPORT structure [Display Devices], d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_SETDEVICELOSTSUPPORT {
 
 
 
-### -field hDevice
+#### - hDevice
 
 A handle to the device.
 
 
-### -field Support
+#### - Support
 
 Indicates whether or not the device can recover from losing the graphics device.
 

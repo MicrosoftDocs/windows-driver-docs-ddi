@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 32a671e9-6a31-483f-881d-1c7938dc9405
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE, _D3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices], d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE, display.d3dhal_dp2texturestagestate, LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices], d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, *LPD3DHAL_DP2TEXTURESTAGESTATE
+ms.keywords: LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices], display.d3dhal_dp2texturestagestate, d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE, d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices], *LPD3DHAL_DP2TEXTURESTAGESTATE, _D3DHAL_DP2TEXTURESTAGESTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DHAL_DP2TEXTURESTAGESTATE {
 
 
 
-### -field wStage
+#### - wStage
 
 Identifies the texture stage where to update the texture state. This member can be an integer in the range 0 through 7, with the highest numbered texture being closest to the frame buffer.
 
 
-### -field TSState
+#### - TSState
 
 Specifies a D3DTEXTURESTAGESTATETYPE enumerated value that specifies the texture state to be updated. DirectX 9.0 and later applications can use values in the D3DSAMPLERSTATETYPE enumeration to control the characteristics of sampler texture-related render states. In DirectX 8.0 and earlier, these sampler states were included in the D3DTEXTURESTAGESTATETYPE enumeration. The runtime maps user-mode sampler states (D3DSAMP_<i>Xxx</i>) to kernel-mode D3DTSS_<i>Xxx</i> values so that drivers are not required to process user-mode sampler states. For more information about D3DTEXTURESTAGESTATETYPE and D3DSAMPLERSTATETYPE, see the DirectX SDK documentation.
 
 
-### -field dwValue
+#### - dwValue
 
 Specifies the value that the driver should update the texture state identified by <b>TSState</b> to.
 
@@ -102,9 +102,9 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
 D3DDP2OP_TEXTURESTAGESTATE
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
  
 

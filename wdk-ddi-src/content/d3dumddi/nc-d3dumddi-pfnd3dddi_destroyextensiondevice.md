@@ -71,12 +71,12 @@ __checkReturn HRESULT APIENTRY DestroyExtensionDevice(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param hExtension [in]
+#### - hExtension [in]
 
  A handle to the DirectX VA extension device that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a> function created.
 

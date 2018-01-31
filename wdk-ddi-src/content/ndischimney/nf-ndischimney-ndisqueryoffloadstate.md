@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97d30ba7-b67c-460b-ba80-171687495e27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisQueryOffloadState, tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista], ndis/NdisQueryOffloadState, netvista.ndisqueryoffload
+ms.keywords: tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml, NdisQueryOffloadState, netvista.ndisqueryoffload, ndis/NdisQueryOffloadState, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisQueryOffloadState(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
@@ -80,7 +80,7 @@ The handle that NDIS provided at the
      target.
 
 
-### -param OffloadBlockList [in]
+#### - OffloadBlockList [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
@@ -118,21 +118,21 @@ From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-   NdisMQueryOffloadStateComplete</b></mshelp:link>
-
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
-
 <mshelp:link keywords="netvista.protocolqueryoffloadcomplete" tabindex="0"><i>
    ProtocolQueryOffloadComplete</i></mshelp:link>
+
+<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
+   NdisMQueryOffloadStateComplete</b></mshelp:link>
 
  
 

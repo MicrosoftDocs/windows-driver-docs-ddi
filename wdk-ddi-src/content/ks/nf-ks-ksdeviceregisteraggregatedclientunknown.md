@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d4d3f653-cfdc-4567-97bc-def26484ed9f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDeviceRegisterAggregatedClientUnknown, avfunc_3e7aa517-80e8-498c-939d-1769393479fb.xml, stream.ksdeviceregisteraggregatedclientunknown, KsDeviceRegisterAggregatedClientUnknown function [Streaming Media Devices], KsDeviceRegisterAggregatedClientUnknown
+ms.keywords: KsDeviceRegisterAggregatedClientUnknown function [Streaming Media Devices], ks/KsDeviceRegisterAggregatedClientUnknown, stream.ksdeviceregisteraggregatedclientunknown, KsDeviceRegisterAggregatedClientUnknown, avfunc_3e7aa517-80e8-498c-939d-1769393479fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PUNKNOWN __inline KsDeviceRegisterAggregatedClientUnknown(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the specified AVStream device.
 
 
-### -param ClientUnknown [in]
+#### - ClientUnknown [in]
 
 A pointer to the client's undelegated <b>IUnknown</b> interface.
 

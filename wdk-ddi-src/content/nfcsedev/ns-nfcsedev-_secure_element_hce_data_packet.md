@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: A287CBC7-BB22-487E-8E06-47702DF29DCE
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET, nfpdrivers._secure_element_hce_data_packet, PSECURE_ELEMENT_HCE_DATA_PACKET, *PSECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers]
+ms.keywords: "*PSECURE_ELEMENT_HCE_DATA_PACKET, _SECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers], PSECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET, nfpdrivers._secure_element_hce_data_packet"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _SECURE_ELEMENT_HCE_DATA_PACKET {
 
 
 
-### -field bConnectionId
+#### - bConnectionId
 
 The ID of the connection established between the device and the smart card reader, on which to send and receive the HCE packet. This ID is also received from <a href="..\nfcsedev\ni-nfcsedev-ioctl_nfcse_get_next_event.md">IOCTL_NFCSE_GET_NEXT_EVENT</a> when the event type (<a href="..\nfcsedev\ne-nfcsedev-_secure_element_event_type.md">SECURE_ELEMENT_EVENT_TYPE</a>) is <b>HceActivated</b> or <b>HceDeactivated</b>. Then the <b>pbEventData</b> field of the returned <a href="..\nfcsedev\ns-nfcsedev-_secure_element_event_info.md">SECURE_ELEMENT_EVENT_INFO</a> structure is a <a href="..\nfcsedev\ns-nfcsedev-_secure_element_hce_activation_payload.md">SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD</a> structure, which contains a <b>bConnectionId</b> member.
 
 
-### -field cbPayload
+#### - cbPayload
 
 Length of ISO 7816-4 APDU buffer.
 

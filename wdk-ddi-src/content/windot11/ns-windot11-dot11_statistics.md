@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], PDOT11_STATISTICS, *PDOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, windot11/DOT11_STATISTICS, DOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_STATISTICS, netvista.dot11_statistics
+ms.keywords: PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_STATISTICS, *PDOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], DOT11_STATISTICS, netvista.dot11_statistics, windot11/PDOT11_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_STATISTICS, *PDOT11_STATISTICS
+req.typenames: "*PDOT11_STATISTICS, DOT11_STATISTICS"
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ typedef struct DOT11_STATISTICS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_STATISTICS structure. This member is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -105,7 +105,7 @@ This member must be set to
        sizeof(DOT11_STATISTICS).
 
 
-### -field ullFourWayHandshakeFailures
+#### - ullFourWayHandshakeFailures
 
 The number of four-way handshake failures that the 802.11 station encountered during Wi-Fi
      Protected Access (WPA) or Robust Security Network Association (RSNA) authentication.
@@ -115,7 +115,7 @@ If the 802.11 station is not performing the WPA or RSNA authentication, it shoul
      DOT11_STATISTICS_UNKNOWN.
 
 
-### -field ullTKIPCounterMeasuresInvoked
+#### - ullTKIPCounterMeasuresInvoked
 
 The number of times that the 802.11 station invoked countermeasures following a message integrity
      code (MIC) failure.
@@ -125,13 +125,13 @@ If the 802.11 station is not performing TKIP countermeasures, it should set this
      DOT11_STATISTICS_UNKNOWN.
 
 
-### -field ullReserved
+#### - ullReserved
 
 This member is reserved for use by the operating system. The miniport driver must not write to
      this member.
 
 
-### -field MacUcastCounters
+#### - MacUcastCounters
 
 The MAC layer counters based on unicast packets sent or received by the 802.11 station. The data
      structure for this member is the 
@@ -144,7 +144,7 @@ The MAC layer counters based on unicast packets sent or received by the 802.11 s
 
 </div><div> </div>
 
-### -field MacMcastCounters
+#### - MacMcastCounters
 
 The MAC layer counters based on multicast or broadcast packets sent or received by the 802.11
      station. The data structure for this member is the 
@@ -158,7 +158,7 @@ The MAC layer counters based on multicast or broadcast packets sent or received 
 
 </div><div> </div>
 
-### -field PhyCounters
+#### - PhyCounters
 
 An array of PHY layer counters. Each entry in this array is formatted as a 
      <mshelp:link keywords="netvista.dot11_phy_frame_statistics" tabindex="0"><b>

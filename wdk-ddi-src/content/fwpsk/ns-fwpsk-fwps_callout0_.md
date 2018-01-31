@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: df6e9980-6c9b-4d01-a1d5-e5242a3ebc66
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_CALLOUT0, wfp_ref_3_struct_3_fwps_A-E_5e9913c4-01d7-4b1c-b2d0-b4a7a28477e2.xml, FWPS_CALLOUT0_, FWPS_CALLOUT0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_callout0, fwpsk/FWPS_CALLOUT0
+ms.keywords: FWPS_CALLOUT0 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT0_, wfp_ref_3_struct_3_fwps_A-E_5e9913c4-01d7-4b1c-b2d0-b4a7a28477e2.xml, fwpsk/FWPS_CALLOUT0, FWPS_CALLOUT0, netvista.fwps_callout0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct FWPS_CALLOUT0_ {
 
 
 
-### -field calloutKey
+#### - calloutKey
 
 A callout driver-defined <b>GUID</b> that uniquely identifies the callout.
 
 
-### -field flags
+#### - flags
 
 Flags that specify callout-specific parameters. Possible flags are:
      
@@ -104,21 +104,21 @@ A callout driver specifies this flag to indicate that the callout driver's
        processed by any filters that specify the callout for the filter's action.
 
 
-### -field classifyFn
+#### - classifyFn
 
 A pointer to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a> callout function. The filter
      engine calls this function whenever there is network data to be processed by the callout.
 
 
-### -field notifyFn
+#### - notifyFn
 
 A pointer to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a> function. The filter engine calls
      this function to notify the callout driver about events that are associated with the callout.
 
 
-### -field flowDeleteFn
+#### - flowDeleteFn
 
 A pointer to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a> callout function. The filter
@@ -145,17 +145,17 @@ A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for 
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
-
 <a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a>
-
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a>
 
  
 

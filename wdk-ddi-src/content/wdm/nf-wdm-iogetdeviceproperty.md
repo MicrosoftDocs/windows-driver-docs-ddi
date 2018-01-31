@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8c3b7f81-ea6e-47ae-a396-58826d097f1f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetdeviceproperty, wdm/IoGetDeviceProperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], IoGetDeviceProperty, k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml
+ms.keywords: IoGetDeviceProperty, k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, kernel.iogetdeviceproperty, wdm/IoGetDeviceProperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS IoGetDeviceProperty(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the physical device object (PDO) for the device being queried.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 Specifies the device property being requested. Must be one of the following <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a> enumeration values:
 
@@ -188,17 +188,17 @@ Requests a number associated with the device that can be displayed in the user i
 This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Specifies the size, in bytes, of the caller-supplied <i>PropertyBuffer</i>.
 
 
-### -param PropertyBuffer [out, optional]
+#### - PropertyBuffer [out, optional]
 
 Pointer to a caller-supplied buffer to receive the property information. The buffer can be allocated from pageable memory. The type of the buffer is determined by the <i>DeviceProperty</i> (see above).
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 Pointer to a ULONG to receive the size of the property information returned at <i>PropertyBuffer</i>. If <b>IoGetDeviceProperty</b> returns STATUS_BUFFER_TOO_SMALL, it sets this parameter to the required buffer length.
 
@@ -262,13 +262,13 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
 
-<a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a>
+<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a>
 
 <a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
 

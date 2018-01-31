@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 89eaa5c2-2178-4181-bf3b-b10d179bc0eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_RTTMODE_FULL, rilapitypes/RILCALLRTTMODE, netvista.rilcallrttmode_2, RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], RILCALLRTTMODE, RIL_RTTMODE_MAX, rilapitypes/RIL_RTTMODE_MAX, rilapitypes/RIL_RTTMODE_FULL
+ms.keywords: rilapitypes/RILCALLRTTMODE, RIL_RTTMODE_FULL, netvista.rilcallrttmode_2, RIL_RTTMODE_MAX, rilapitypes/RIL_RTTMODE_MAX, RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_RTTMODE_FULL, RILCALLRTTMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,10 +73,10 @@ typedef enum _RILCALLRTTMODE {
 
 
 
-### -field RIL_RTTMODE_FULL
+#### - RIL_RTTMODE_FULL
 
 
 
-### -field RIL_RTTMODE_MAX
+#### - RIL_RTTMODE_MAX
 
 

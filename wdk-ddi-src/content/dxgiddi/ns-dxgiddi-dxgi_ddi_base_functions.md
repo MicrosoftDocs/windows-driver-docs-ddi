@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c9fd9b21-4338-4633-903f-308763cbc301
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_BASE_FUNCTIONS structure [Display Devices], DXGI_DDI_BASE_FUNCTIONS, UMDisplayDriver_Dx10param_Structs_f33992c1-f203-4058-a6c4-844b2ff8ffa9.xml, dxgiddi/DXGI_DDI_BASE_FUNCTIONS, display.dxgi_ddi_base_functions
+ms.keywords: UMDisplayDriver_Dx10param_Structs_f33992c1-f203-4058-a6c4-844b2ff8ffa9.xml, DXGI_DDI_BASE_FUNCTIONS, dxgiddi/DXGI_DDI_BASE_FUNCTIONS, DXGI_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi_ddi_base_functions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,60 +73,60 @@ typedef struct DXGI_DDI_BASE_FUNCTIONS {
 
 
 
-### -field pfnPresent
+#### - pfnPresent
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a> function.
 
 
-### -field pfnGetGammaCaps
+#### - pfnGetGammaCaps
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a> function.
 
 
-### -field pfnSetDisplayMode
+#### - pfnSetDisplayMode
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a> function.
 
 
-### -field pfnSetResourcePriority
+#### - pfnSetResourcePriority
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a> function.
 
 
-### -field pfnQueryResourceResidency
+#### - pfnQueryResourceResidency
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a> function.
 
 
-### -field pfnRotateResourceIdentities
+#### - pfnRotateResourceIdentities
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569514">RotateResourceIdentitiesDXGI</a> function.
 
 
-### -field pfnBlt
+#### - pfnBlt
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a> function.
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569514">RotateResourceIdentitiesDXGI</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a>
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 99C87D65-C633-4AA2-95DF-6AE74428C71D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/UI_TYPE, winsplp/kMessageBox, UI_TYPE enumeration [Print Devices], UI_TYPE, kMessageBox, print.ui_type
+ms.keywords: winsplp/kMessageBox, kMessageBox, UI_TYPE enumeration [Print Devices], UI_TYPE, winsplp/UI_TYPE, print.ui_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,6 +68,6 @@ typedef enum  {
 
 
 
-### -field kMessageBox
+#### - kMessageBox
 
 

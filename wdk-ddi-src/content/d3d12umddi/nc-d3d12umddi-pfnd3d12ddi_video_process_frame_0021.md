@@ -75,30 +75,32 @@ VOID APIENTRY* pfnProcessFrame(
 
 
 
-### -param hDrvCommandList
+#### - hDrvCommandList
 
 The command list used to record this process frames command.
 
 
-### -param hDrvVideoProcessor
+#### - hDrvVideoProcessor
 
 The video processor instance to use for this video process call.  
 
 
-### -param SubmissionID
+#### - SubmissionID
 
 The submission ID is a monotonically increasing integer value.  The value passed to this function must be larger than any passed video process submission for the <i>hDrvVideoProcessor</i> parameter.  Callers should use fences to track submission completion and then provide completed submission ID to drivers by using the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_processor_trim_allocations_0021.md">pfnProcessorTrimAllocations</a> function to allow driver to manage resources associated with that stream.
 
 
-### -param *pOutputParameters
+#### - *pOutputParameters
+
+The output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a> structure.
 
 
+#### - *pInputStreamParameters
 
-### -param *pInputStreamParameters
+Specifies an array of input parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a> structure.
 
 
-
-### -param NumInputStreams
+#### - NumInputStreams
 
 
 
@@ -123,9 +125,9 @@ This callback function does not return a value.
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a>
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_processor_trim_allocations_0021.md">pfnProcessorTrimAllocations</a>
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a>
+
+<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_processor_trim_allocations_0021.md">pfnProcessorTrimAllocations</a>
 
  
 

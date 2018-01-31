@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dca2b12-0542-43a9-abff-203ea34cff90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VIDEOSAMPLEFLAGS, display.dxvaddi_videosampleflags, DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS structure [Display Devices], _DXVADDI_VIDEOSAMPLEFLAGS, DXVA2_Structs_8e0fce9f-8473-4bbc-9403-fb8755090a7d.xml
+ms.keywords: DXVADDI_VIDEOSAMPLEFLAGS, _DXVADDI_VIDEOSAMPLEFLAGS, display.dxvaddi_videosampleflags, DXVA2_Structs_8e0fce9f-8473-4bbc-9403-fb8755090a7d.xml, d3dumddi/DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,37 +78,37 @@ typedef struct _DXVADDI_VIDEOSAMPLEFLAGS {
 
 
 
-### -field PaletteChanged
+#### - PaletteChanged
 
 A UINT value that specifies whether the palette of the sample frame changed. Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field SrcRectChanged
+#### - SrcRectChanged
 
 A UINT value that specifies whether the source rectangle of the sample frame changed. Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field DstRectChanged
+#### - DstRectChanged
 
 A UINT value that specifies whether the destination rectangle of the sample frame changed. Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field ColorDataChanged
+#### - ColorDataChanged
 
 A UINT value that specifies whether the color data of the sample frame changed. Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field PlanarAlphaChanged
+#### - PlanarAlphaChanged
 
 A UINT value that specifies whether the alpha (transparency) data of the sample frame changed. Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the sixth through sixteenth bits (0x0000FFE0) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field SampleData
+#### - SampleData
 
 A UINT value that contains video sample data. Setting this member is equivalent to setting the seventeenth through thirty-second bits (0xFFFF0000) of the 32-bit <b>Value</b> member. The following bits can be set:
 
@@ -119,7 +119,7 @@ DXVADDI_SAMPLEDATA_TFF (0x0002)
 DXVADDI_SAMPLEDATA_RFF_TFF_PRESENT (0x0004) 
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in DXVADDI_VIDEOSAMPLEFLAGS that can hold one 32-bit value that identifies changes in the current sample frame from the previous sample frame.
 

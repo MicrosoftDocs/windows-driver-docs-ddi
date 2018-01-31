@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, dbgeng/IDebugSymbols::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetModuleParameters, GetModuleParameters, debugger.getmoduleparameters, dbgeng/IDebugSymbols3::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::GetModuleParameters, IDebugSymbols2::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method
+ms.keywords: dbgeng/IDebugSymbols3::GetModuleParameters, IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, IDebugSymbols2::GetModuleParameters, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, dbgeng/IDebugSymbols2::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, GetModuleParameters method [Windows Debugging], GetModuleParameters, IDebugSymbols3, debugger.getmoduleparameters, dbgeng/IDebugSymbols::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetModuleParameters(
 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of modules whose parameters are desired.
 
 
-### -param Bases [in, optional]
+#### - Bases [in, optional]
 
 Specifies an array of locations in the target's virtual address space representing the base address of the modules whose parameters are desired.  The size of this array is the value of <i>Count</i>.  If <i>Bases</i> is <b>NULL</b>, the <i>Start</i> parameter is used to specify the modules by index.
 
 
-### -param Start [in]
+#### - Start [in]
 
 Specifies the index of the first module whose parameters are desired.  If <i>Bases</i> is not <b>NULL</b>, this parameter is ignored.
 
 
-### -param Params [out]
+#### - Params [out]
 
 Receives the parameters.  The size of this array is the value of <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>.
 
@@ -138,11 +138,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
-<a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

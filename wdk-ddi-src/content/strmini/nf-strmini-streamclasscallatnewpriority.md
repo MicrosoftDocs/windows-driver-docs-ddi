@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclasscallatnewpriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, StreamClassCallAtNewPriority, strmini/StreamClassCallAtNewPriority
+ms.keywords: StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority, StreamClassCallAtNewPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ VOID StreamClassCallAtNewPriority(
 
 
 
-### -param StreamObject [in, optional]
+#### - StreamObject [in, optional]
 
 Pointer to an HW_STREAM_OBJECT structure specifying the stream is associated with the routine, or <b>NULL</b> if the routine is associated with the device as a whole. There can be only one routine per stream, and only one routine for the device. This parameter is optional.
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
-### -param Priority [in]
+#### - Priority [in]
 
 Specifies one of the values listed in the following table.
 <table>
@@ -134,12 +134,12 @@ Used to allow a thread called at low priority to return to high priority so that
 </table> 
 
 
-### -param PriorityRoutine [in]
+#### - PriorityRoutine [in]
 
 Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff568462">StrMiniPriorityRoutine</a> to be called at the specified priority level.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Specifies the parameter to be passed to the <i>PriorityRoutine</i>.
 

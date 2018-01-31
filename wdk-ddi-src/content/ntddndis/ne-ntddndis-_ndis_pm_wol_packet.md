@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 154a9d3d-4bb9-4c63-a820-816b254c69c2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketUnspecified, ntddndis/NdisPMWoLPacketIPv6TcpSyn, NDIS_PM_WOL_PACKET, ntddndis/NDIS_PM_WOL_PACKET, NdisPMWoLPacketEapolRequestIdMessage, *PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketMaximum, ntddndis/PNDIS_PM_WOL_PACKET, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketEapolRequestIdMessage, ntddndis/NdisPMWoLPacketIPv4TcpSyn, PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketMagicPacket, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketUnspecified, NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketMaximum, ntddndis/NdisPMWoLPacketBitmapPattern, netvista.ndis_pm_wol_packet"
+ms.keywords: ntddndis/PNDIS_PM_WOL_PACKET, ntddndis/NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketIPv6TcpSyn, ntddndis/NdisPMWoLPacketUnspecified, NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketMagicPacket, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, ntddndis/NdisPMWoLPacketIPv4TcpSyn, netvista.ndis_pm_wol_packet, *PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketBitmapPattern, NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketMaximum, NdisPMWoLPacketBitmapPattern, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], NdisPMWoLPacketMaximum, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketMagicPacket, NdisPMWoLPacketIPv4TcpSyn, PNDIS_PM_WOL_PACKET, _NDIS_PM_WOL_PACKET, NdisPMWoLPacketEapolRequestIdMessage, NdisPMWoLPacketUnspecified
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WOL_PACKET
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PM_WOL_PACKET, *PNDIS_PM_WOL_PACKET
+req.typenames: "*PNDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET"
 ---
 
 # _NDIS_PM_WOL_PACKET enumeration
@@ -73,44 +73,44 @@ typedef enum _NDIS_PM_WOL_PACKET {
 
 
 
-### -field NdisPMWoLPacketUnspecified
+#### - NdisPMWoLPacketUnspecified
 
 The WOL packet type is not specified.
 
 
-### -field NdisPMWoLPacketBitmapPattern
+#### - NdisPMWoLPacketBitmapPattern
 
 Specifies a bitmap pattern. This packet type is specified in the 
      <b>WoLBitMapPattern</b> member of the 
      <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> structure.
 
 
-### -field NdisPMWoLPacketMagicPacket
+#### - NdisPMWoLPacketMagicPacket
 
 WOL packets based on WOL magic packet. The media access control (MAC) address in the 
      <a href="https://technet.microsoft.com/en-us/windows/hh147630.aspx">magic packet</a> is the current MAC
      address of the network adapter.
 
 
-### -field NdisPMWoLPacketIPv4TcpSyn
+#### - NdisPMWoLPacketIPv4TcpSyn
 
 An IPv4 TCP SYN wake-on-LAN packet pattern. This packet pattern is specified in the 
      <b>IPv4TcpSynParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> structure.
 
 
-### -field NdisPMWoLPacketIPv6TcpSyn
+#### - NdisPMWoLPacketIPv6TcpSyn
 
 An IPv6 TCP SYN wake-on-LAN packet pattern. This packet pattern is specified in the 
      <b>IPv6TcpSynParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> structure.
 
 
-### -field NdisPMWoLPacketEapolRequestIdMessage
+#### - NdisPMWoLPacketEapolRequestIdMessage
 
 Specifies an EAPOL request message packet. This packet type is specified in the 
      <b>EapolRequestIdMessageParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> structure.
 
 
-### -field NdisPMWoLPacketMaximum
+#### - NdisPMWoLPacketMaximum
 
 The maximum value for this enumeration. This value might change in future versions of NDIS header
      files and binaries.

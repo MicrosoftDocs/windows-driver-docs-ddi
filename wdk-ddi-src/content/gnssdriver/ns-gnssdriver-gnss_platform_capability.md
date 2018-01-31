@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A97DE517-26ED-452F-9066-94F73BC47BDE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_PLATFORM_CAPABILITY, sensors.gnss_platform_capability, *PGNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], GNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices]
+ms.keywords: sensors.gnss_platform_capability, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], gnssdriver/PGNSS_PLATFORM_CAPABILITY, gnssdriver/GNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_PLATFORM_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY
+req.typenames: "*PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY"
 ---
 
 # GNSS_PLATFORM_CAPABILITY structure
@@ -72,22 +72,22 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field SupportAgnssInjection
+#### - SupportAgnssInjection
 
 Indicates that the platform supports AGNSS injection via the location platform.
 
 
-### -field AgnssFormatSupported
+#### - AgnssFormatSupported
 
 Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) that the GNSS driver or device supports.
 

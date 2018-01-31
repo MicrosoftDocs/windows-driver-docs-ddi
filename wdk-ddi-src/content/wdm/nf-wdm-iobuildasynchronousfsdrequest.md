@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cb633146-c3ab-4a09-bbcd-5964ecbf6e44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoBuildAsynchronousFsdRequest, wdm/IoBuildAsynchronousFsdRequest, k104_bbefd6f7-02b9-497d-9d9e-aef507436cd4.xml, kernel.iobuildasynchronousfsdrequest, IoBuildAsynchronousFsdRequest routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_bbefd6f7-02b9-497d-9d9e-aef507436cd4.xml, IoBuildAsynchronousFsdRequest, wdm/IoBuildAsynchronousFsdRequest, IoBuildAsynchronousFsdRequest routine [Kernel-Mode Driver Architecture], kernel.iobuildasynchronousfsdrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ PIRP IoBuildAsynchronousFsdRequest(
 
 
 
-### -param MajorFunction [in]
+#### - MajorFunction [in]
 
 The major function code to be set in the IRP. This code can be <a href="https://msdn.microsoft.com/library/windows/hardware/ff549268">IRP_MJ_PNP</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a>.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the next-lower driver's device object. This object represents the target device for the read, write, flush, or shutdown operation.
 
 
-### -param Buffer [in, out]
+#### - Buffer [in, out]
 
 A pointer to a buffer into which data is read or from which data is written. The value of this argument is <b>NULL</b> for flush and shutdown requests.
 
 
-### -param Length [in, optional]
+#### - Length [in, optional]
 
 The length, in bytes, of the buffer pointed to by <i>Buffer</i>. For devices such as disks, this value must be an integer multiple of the sector size. Starting with Windows 8, the sector size can be 4,096 or 512 bytes. In earlier versions of Windows, the sector size is always 512 bytes. This parameter is required for read and write requests, but must be zero for flush and shutdown requests.
 
 
-### -param StartingOffset [in, optional]
+#### - StartingOffset [in, optional]
 
 A pointer to the starting offset on the input/output media. The value of this argument is zero for flush and shutdown requests.
 
 
-### -param IoStatusBlock [in, optional]
+#### - IoStatusBlock [in, optional]
 
 A pointer to the address of an I/O status block in which the to-be-called drivers return final status about the requested operation.
 
@@ -133,35 +133,35 @@ A driver that calls <b>IoBuildAsynchronousFsdRequest</b> to allocate an IRP does
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
-
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
-
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
+
 <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
 
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 <a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
 
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbypointerwithtag.md">ObReferenceObjectByPointerWithTag</a>
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: Benchmark
 ms.assetid: a0493418-2ce2-4917-bf9f-e4dc726a3847
 ms.author: windowsdriverdev
 ms.date: 1/12/2018
-ms.keywords: wdm/MmGetMdlByteCount, k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, MmGetMdlByteCount, MmGetMdlByteCount macro [Tools], kernel.mmgetmdlbytecount
+ms.keywords: MmGetMdlByteCount macro [Tools], wdm/MmGetMdlByteCount, MmGetMdlByteCount, kernel.mmgetmdlbytecount, k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,7 +68,7 @@ ULONG MmGetMdlByteCount(
 
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
@@ -82,9 +82,9 @@ Callers of <b>MmGetMdlByteCount</b> can be running at any IRQL. Usually, callers
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
 
  
 

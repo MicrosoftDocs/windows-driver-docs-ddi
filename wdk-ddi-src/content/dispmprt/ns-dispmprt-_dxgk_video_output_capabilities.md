@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a673bcea-1a56-48dc-9c63-67583e953571
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_VIDEO_OUTPUT_CAPABILITIES, dispmprt/DXGK_VIDEO_OUTPUT_CAPABILITIES, _DXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES structure [Display Devices], PDXGK_VIDEO_OUTPUT_CAPABILITIES structure pointer [Display Devices], display.dxgk_video_output_capabilities, DXGK_VIDEO_OUTPUT_CAPABILITIES, DmStructs_018a3f8f-c9bd-4000-b27d-b3dc3e46f14a.xml, dispmprt/PDXGK_VIDEO_OUTPUT_CAPABILITIES, *PDXGK_VIDEO_OUTPUT_CAPABILITIES
+ms.keywords: display.dxgk_video_output_capabilities, dispmprt/PDXGK_VIDEO_OUTPUT_CAPABILITIES, PDXGK_VIDEO_OUTPUT_CAPABILITIES, *PDXGK_VIDEO_OUTPUT_CAPABILITIES, DmStructs_018a3f8f-c9bd-4000-b27d-b3dc3e46f14a.xml, DXGK_VIDEO_OUTPUT_CAPABILITIES, _DXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES structure [Display Devices], PDXGK_VIDEO_OUTPUT_CAPABILITIES structure pointer [Display Devices], dispmprt/DXGK_VIDEO_OUTPUT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_VIDEO_OUTPUT_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES"
+req.typenames: DXGK_VIDEO_OUTPUT_CAPABILITIES, *PDXGK_VIDEO_OUTPUT_CAPABILITIES
 ---
 
 # _DXGK_VIDEO_OUTPUT_CAPABILITIES structure
@@ -69,17 +69,17 @@ typedef struct _DXGK_VIDEO_OUTPUT_CAPABILITIES {
 
 
 
-### -field InterfaceTechnology
+#### - InterfaceTechnology
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a> enumerator that indicates the type of connector the video output uses to connect to an external display device.
 
 
-### -field MonitorOrientationAwareness
+#### - MonitorOrientationAwareness
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_orientation_awareness.md">D3DKMDT_MONITOR_ORIENTATION_AWARENESS</a> enumerator that describes the video output's ability to detect the rotation angle of an external display device.
 
 
-### -field SupportsSdtvModes
+#### - SupportsSdtvModes
 
 Indicates whether the video output supports standard definition TV (SDTV) modes.
 
@@ -95,11 +95,11 @@ The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d3ed82e-3565-4b0b-bca9-1d0b91732d18
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_NODE_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S2, *PKSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2, stream.ksproperty_cameracontrol_node_s2, vidcapstruct_fda6afc4-4b0a-4161-9502-1b335b1022e2.xml, KSPROPERTY_CAMERACONTROL_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2
+ms.keywords: KSPROPERTY_CAMERACONTROL_NODE_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2 structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_NODE_S2 structure [Streaming Media Devices], vidcapstruct_fda6afc4-4b0a-4161-9502-1b335b1022e2.xml, *PKSPROPERTY_CAMERACONTROL_NODE_S2, stream.ksproperty_cameracontrol_node_s2, ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct {
 
 
 
-### -field NodeProperty
+#### - NodeProperty
 
 Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
 
 
-### -field Value1
+#### - Value1
 
 Specifies the first value of the property. This member is read/write.
 
 
-### -field Flags
+#### - Flags
 
 Indicates, for get requests, the current setting for the specified property from the values listed below. Indicates, for set requests, the desired setting for the specified property from the values listed below. This member can be set to one of the following values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -132,7 +132,7 @@ Indicates that the setting is in relative values
 </table> 
 
 
-### -field Capabilities
+#### - Capabilities
 
 Indicates the minidriver's camera control capabilities for the specified property. This member is read-only. This member can be set to one of the following values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -183,7 +183,7 @@ Indicates that the device settings are in relative values
 </table> 
 
 
-### -field Value2
+#### - Value2
 
 Specifies the second value of the property. This member is read/write.
 

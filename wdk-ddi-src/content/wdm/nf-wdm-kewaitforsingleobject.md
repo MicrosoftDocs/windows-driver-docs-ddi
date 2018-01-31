@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_de338bec-f7ef-4780-85e6-592a24314145.xml, KeWaitForMutexObject, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_de338bec-f7ef-4780-85e6-592a24314145.xml, wdm/KeWaitForSingleObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], KeWaitForMutexObject, kernel.kewaitforsingleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS KeWaitForSingleObject(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage.
 
 
-### -param WaitReason [in]
+#### - WaitReason [in]
 
 Specifies the reason for the wait. A driver should set this value to <b>Executive</b>, unless it is doing work on behalf of a user and is running in the context of a user thread, in which case it should set this value to <b>UserRequest</b>.
 
 
-### -param WaitMode [in]
+#### - WaitMode [in]
 
 Specifies whether the caller waits in <b>KernelMode</b> or <b>UserMode</b>. Lowest-level and intermediate drivers should specify <b>KernelMode</b>. If the given <i>Object</i> is a mutex, the caller must specify <b>KernelMode</b>.
 
 
-### -param Alertable [in]
+#### - Alertable [in]
 
 Specifies a Boolean value that is <b>TRUE</b> if the wait is alertable and <b>FALSE</b> otherwise.
 
 
-### -param Timeout [in, optional]
+#### - Timeout [in, optional]
 
 Pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
 
@@ -203,17 +203,17 @@ Callers of <b>KeWaitForMutexObject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 <a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
 <a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 

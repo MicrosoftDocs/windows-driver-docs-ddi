@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5532799d-5c3b-41ba-ab62-dca9c9d9eb56
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.gettypesize, GetTypeSize function [Windows Debugging], GetTypeSize, WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, wdbgexts/GetTypeSize
+ms.keywords: debugger.gettypesize, wdbgexts/GetTypeSize, GetTypeSize function [Windows Debugging], GetTypeSize, WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ __inline ULONG GetTypeSize(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies the type to return the size of.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, AdjustImageableArea, IPrintOemUIMXDC, AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, AdjustImageableArea method [Print Devices], print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
+ms.keywords: IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, print.iprintoemuimxdc_adjustimageablearea, IPrintOemUIMXDC::AdjustImageableArea, AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, AdjustImageableArea method [Print Devices], AdjustImageableArea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml, IPrintOemUIMXDC, prcomoem/IPrintOemUIMXDC::AdjustImageableArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT AdjustImageableArea(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 A handle to the printer that is currently being queried.
 
 
-### -param cbDevMode
+#### - cbDevMode
 
 The size of the <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODE</a> structure, in bytes, including appended data.
 
 
-### -param pDevMode
+#### - pDevMode
 
 A pointer to the DEVMODE structure that contains the current device settings.
 
 
-### -param cbOEMDM
+#### - cbOEMDM
 
 The number of bytes in the vendor-provided section of the DEVMODE structure.
 
 
-### -param pOEMDM
+#### - pOEMDM
 
 A pointer to the data that is contained in the vendor portion of the DEVMODE structure that <i>pDevMode</i> points to.
 
 
-### -param prclImageableArea
+#### - prclImageableArea
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that contains the printable area. This parameter is populated by UnidrvUI.dll or PS5UI.dll with data from the corresponding GPD or PPD, before the parameter is passed to the plug-in. The plug-in can then update this data before returning. 
 

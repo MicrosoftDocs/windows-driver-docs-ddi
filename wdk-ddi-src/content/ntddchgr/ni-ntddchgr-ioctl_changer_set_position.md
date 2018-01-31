@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CHANGER_SET_POSITION
 product: Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
 ---
 
 # IOCTL_CHANGER_SET_POSITION IOCTL
@@ -107,9 +107,9 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_SET_POSITION). The 
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
+
+<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
 
  
 

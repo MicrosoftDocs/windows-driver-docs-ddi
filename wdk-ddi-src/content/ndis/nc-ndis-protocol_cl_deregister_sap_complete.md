@@ -79,7 +79,7 @@ VOID ProtocolClDeregisterSapComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the client's request to deregister its SAP, which can be one of the
      following:
@@ -112,7 +112,7 @@ The call manager failed the request to close the SAP for some CM-determined reas
        ProtocolCmDeregisterSap</i></mshelp:link> function to the client.
 
 
-### -param ProtocolSapContext [in]
+#### - ProtocolSapContext [in]
 
 Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
      <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
@@ -177,20 +177,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 <a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
-
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
    NdisFreeToNPagedLookasideList</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
  
 

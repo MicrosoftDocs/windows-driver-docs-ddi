@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], USBD_SelectInterfaceUrbAllocateAndBuild
+ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild, buses.usbd_selectinterfaceurballocateandbuild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_SelectInterfaceUrbAllocateAndBuild
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ NTSTATUS USBD_SelectInterfaceUrbAllocateAndBuild(
 
 
 
-### -param USBDHandle [in]
+#### - USBDHandle [in]
 
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
 
-### -param ConfigurationHandle [in]
+#### - ConfigurationHandle [in]
 
 Handle returned by the USB driver stack in the  <b>UrbSelectConfiguration.ConfigurationHandle</b> member of the <a href="..\usb\ns-usb-_urb.md">URB</a> structure, after the driver stack completes a select-configuration  request.
 
@@ -89,7 +89,7 @@ Handle returned by the USB driver stack in the  <b>UrbSelectConfiguration.Config
 TBD
 
 
-### -param Urb [out]
+#### - Urb [out]
 
 Pointer to a  <a href="..\usb\ns-usb-_urb.md">URB</a> structure that receives the URB allocated by <b>USBD_SelectInterfaceUrbAllocateAndBuild</b>. The client driver must free the URB when the driver has finished using it by calling <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9E9AB3E0-EBDC-4EC3-BFBF-C78EE56BD699
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbfn_action, UsbfnActionNone, USBFN_ACTION, UsbfnActionDetectProprietaryCharger, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionDetectProprietaryCharger, *PUSBFN_ACTION, USBFN_ACTION enumeration [Buses], ufxbase/UsbfnActionNone, UsbfnActionNoCad, _USBFN_ACTION
+ms.keywords: UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNone, ufxbase/UsbfnActionDetectProprietaryCharger, _USBFN_ACTION, ufxbase/USBFN_ACTION, buses.usbfn_action, USBFN_ACTION, UsbfnActionNoCad, *PUSBFN_ACTION, ufxbase/UsbfnActionNoCad, UsbfnActionNone, USBFN_ACTION enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _USBFN_ACTION {
 
 
 
-### -field UsbfnActionNone
+#### - UsbfnActionNone
 
 No special action should be taken.
 
 
-### -field UsbfnActionNoCad
+#### - UsbfnActionNoCad
 
 UFX should not notify the battery manager about the detected port type or the maximum current that can be drawn from the upstream port.
 
 
-### -field UsbfnActionDetectProprietaryCharger
+#### - UsbfnActionDetectProprietaryCharger
 
 UFX should initiate proprietary charger detection by calling the client driver’s <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_proprietary_charger_detect.md">EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</a> callback function.
 

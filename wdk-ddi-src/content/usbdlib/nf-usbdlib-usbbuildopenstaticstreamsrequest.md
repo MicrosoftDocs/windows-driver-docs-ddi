@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B514B88E-2D1F-43F1-BF70-BC49294CFE93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/UsbBuildOpenStaticStreamsRequest, UsbBuildOpenStaticStreamsRequest, buses.usbbuildopenbasicstreamsrequest, UsbBuildOpenStaticStreamsRequest function [Buses]
+ms.keywords: buses.usbbuildopenbasicstreamsrequest, UsbBuildOpenStaticStreamsRequest function [Buses], UsbBuildOpenStaticStreamsRequest, usbdlib/UsbBuildOpenStaticStreamsRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UsbBuildOpenStaticStreamsRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -71,21 +71,21 @@ void UsbBuildOpenStaticStreamsRequest(
 
 
 
-### -param Urb [in, out]
+#### - Urb [in, out]
 
 Pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure to be formatted for the open-stream request (URB_FUNCTION_OPEN_STATIC_STREAMS). The caller must allocate nonpaged pool for this <b>URB</b>.
 
 
 
 
-### -param PipeHandle [in]
+#### - PipeHandle [in]
 
 An opaque handle for the pipe associated with the endpoint that contains the streams to open.
 
 The client driver obtains <b>PipeHandle</b> from a previous select-configuration request (URB_FUNCTION_SELECT_CONFIGURATION) or a select-interface request (URB_FUNCTION_SELECT_INTERFACE). 
 
 
-### -param NumberOfStreams [in]
+#### - NumberOfStreams [in]
 
 The number of streams to open. The <b>NumberOfStreams</b> value indicates the number of elements in the array pointed to by <b>Streams</b>. This value must be greater than zero and less than or equal to the maximum number of streams supported by the host controller hardware. To get the maximum number of supported streams, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>. 
 
@@ -94,7 +94,7 @@ The number streams must also be less than or equal to the maximum number of stre
 In the <b>NumberOfStreams</b> value, specify lesser of two values supported by the host controller and the USB device.
 
 
-### -param StreamInfoArray [in]
+#### - StreamInfoArray [in]
 
 Pointer to a caller-allocated, initialized array of <a href="..\usb\ns-usb-_usbd_stream_information.md">USBD_STREAM_INFORMATION</a> structures. The length of the array depends on the number of streams to open and must be the same as the <b>NumberOfStreams</b> value.
 

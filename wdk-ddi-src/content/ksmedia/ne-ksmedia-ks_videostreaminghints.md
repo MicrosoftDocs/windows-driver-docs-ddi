@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 06f26404-c955-4034-8dd3-ad641c7b8010
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_StreamingHint_PFrameRate, KS_VideoStreamingHints enumeration [Streaming Media Devices], stream.ks_videostreaminghints, ksmedia/KS_StreamingHint_KeyFrameRate, vidcapstruct_d26d7d11-bfb8-4773-8ace-05793a7a7084.xml, KS_StreamingHint_PFrameRate, ksmedia/KS_StreamingHint_FrameInterval, KS_StreamingHint_CompQuality, ksmedia/KS_StreamingHint_CompWindowSize, KS_StreamingHint_KeyFrameRate, ksmedia/KS_VideoStreamingHints, KS_VideoStreamingHints, ksmedia/KS_StreamingHint_CompQuality, KS_StreamingHint_FrameInterval, KS_StreamingHint_CompWindowSize
+ms.keywords: stream.ks_videostreaminghints, ksmedia/KS_VideoStreamingHints, vidcapstruct_d26d7d11-bfb8-4773-8ace-05793a7a7084.xml, ksmedia/KS_StreamingHint_PFrameRate, KS_StreamingHint_FrameInterval, KS_VideoStreamingHints enumeration [Streaming Media Devices], ksmedia/KS_StreamingHint_FrameInterval, KS_StreamingHint_CompQuality, KS_StreamingHint_PFrameRate, KS_VideoStreamingHints, ksmedia/KS_StreamingHint_KeyFrameRate, ksmedia/KS_StreamingHint_CompQuality, KS_StreamingHint_CompWindowSize, KS_StreamingHint_KeyFrameRate, ksmedia/KS_StreamingHint_CompWindowSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum  {
 
 
 
-### -field KS_StreamingHint_FrameInterval
+#### - KS_StreamingHint_FrameInterval
 
 Specifies compression that is based on the interval between video frames.
 
 
-### -field KS_StreamingHint_KeyFrameRate
+#### - KS_StreamingHint_KeyFrameRate
 
 Specifies compression that is based on key frames.
 
 
-### -field KS_StreamingHint_PFrameRate
+#### - KS_StreamingHint_PFrameRate
 
 Specifies compression that is based on predicted frames.
 
 
-### -field KS_StreamingHint_CompQuality
+#### - KS_StreamingHint_CompQuality
 
 Specifies compression that is based on compression quality.
 
 
-### -field KS_StreamingHint_CompWindowSize
+#### - KS_StreamingHint_CompWindowSize
 
 Specifies compression that is based on compression window size.
 

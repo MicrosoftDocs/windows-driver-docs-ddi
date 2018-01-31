@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d689ede-418e-4bf3-8c0e-82ded1085382
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfregistry/WdfRegistryQueryMemory, DFRegKeyObjectRef_97e02e2b-59d4-4041-a22d-e3a8905c096f.xml, wdf.wdfregistryquerymemory, WdfRegistryQueryMemory method, kmdf.wdfregistryquerymemory, WdfRegistryQueryMemory
+ms.keywords: wdfregistry/WdfRegistryQueryMemory, kmdf.wdfregistryquerymemory, WdfRegistryQueryMemory, wdf.wdfregistryquerymemory, WdfRegistryQueryMemory method, DFRegKeyObjectRef_97e02e2b-59d4-4041-a22d-e3a8905c096f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryQueryMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -78,32 +78,32 @@ NTSTATUS WdfRegistryQueryMemory(
 
 
 
-### -param Key [in]
+#### - Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a value name. 
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated for the data buffer. 
 
 
-### -param MemoryAttributes [in, optional]
+#### - MemoryAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new memory object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
-### -param Memory [out]
+#### - Memory [out]
 
 A pointer to a location that receives a handle to the new memory object. 
 
 
-### -param ValueType [out, optional]
+#### - ValueType [out, optional]
 
 A pointer to a location that receives the data type. For a list of data type values, see the <b>Type</b> member of <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>. This pointer is optional and can be <b>NULL</b>.
 
@@ -209,25 +209,25 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
 
  
 

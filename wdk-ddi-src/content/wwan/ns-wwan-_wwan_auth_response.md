@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CD0B90A1-032D-4F09-827F-E80607AE4EA7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], WWAN_AUTH_RESPONSE, wwan/WWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_AUTH_RESPONSE, *PWWAN_AUTH_RESPONSE, wwan/PWWAN_AUTH_RESPONSE, netvista.wwan_auth_response
+ms.keywords: "*PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_AUTH_RESPONSE, WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], netvista.wwan_auth_response, WWAN_AUTH_RESPONSE, _WWAN_AUTH_RESPONSE, wwan/PWWAN_AUTH_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,9 +73,24 @@ typedef struct _WWAN_AUTH_RESPONSE {
 
 
 
-### -field u
+#### - u
 
 The container union for the different authentication challenge methods.
+
+
+#### AuthSim
+
+The esponse from the SIM authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthSim</i>, use this member.
+
+
+#### AuthAka
+
+The response from the AKA authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthAka, </i>use this member.
+
+
+#### AuthAkap
+
+The response from the AKA' authentication method.  If <b>AuthMethod</b> is set to <i>WwanAuthAkap, </i>use this member.
 
 
 ### -field u.AuthSim
@@ -93,7 +108,7 @@ The response from the AKA authentication method. If <b>AuthMethod</b> is set to 
 The response from the AKA' authentication method.  If <b>AuthMethod</b> is set to <i>WwanAuthAkap, </i>use this member.
 
 
-### -field AuthMethod
+#### - AuthMethod
 
 The authentication challenge method used.
 
@@ -109,9 +124,9 @@ The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
 
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
-
 <a href="..\wwan\ns-wwan-_wwan_auth_aka_response.md">WWAN_AUTH_AKA_RESPONSE</a>
+
+<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
 
 <a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
 

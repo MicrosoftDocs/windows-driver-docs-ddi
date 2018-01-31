@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65828926-FDA7-4F65-AD55-B7E03639FA27
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsStartSiloMonitor, PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], PsStartSiloMonitor, kernel.psstartsilomonitor
+ms.keywords: PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], ntddk/PsStartSiloMonitor, PsStartSiloMonitor, kernel.psstartsilomonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS PsStartSiloMonitor(
 
 
 
-### -param Monitor [in]
+#### - Monitor [in]
 
 A pointer to the silo monitor.
 

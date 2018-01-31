@@ -40,7 +40,7 @@ apiname:
 -	MaskTableEntry
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS MaskTableEntry(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a> structure for the interface.
 
 
-### -param TableEntry [in]
+#### - TableEntry [in]
 
 The index of the table entry in the MSI-X hardware interrupt table.
 

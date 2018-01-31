@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9366029e-4f8b-4121-ad99-01a5116a7f46
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IDriverEntry, IDriverEntry interface, OnDeinitialize method, OnDeinitialize method, IDriverEntry interface, OnDeinitialize, wdf.idriverentry_ondeinitialize, IDriverEntry::OnDeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, umdf.idriverentry_ondeinitialize, wudfddi/IDriverEntry::OnDeinitialize, OnDeinitialize method
+ms.keywords: OnDeinitialize method, OnDeinitialize method, IDriverEntry interface, umdf.idriverentry_ondeinitialize, IDriverEntry, IDriverEntry interface, OnDeinitialize method, OnDeinitialize, wudfddi/IDriverEntry::OnDeinitialize, wdf.idriverentry_ondeinitialize, IDriverEntry::OnDeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDriverEntry.OnDeinitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void OnDeinitialize(
 
 
 
-### -param pWdfDriver [in]
+#### - pWdfDriver [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the driver object that represents the driver that the system unloads.
 

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: bc90a153-e6ff-4736-b625-1260a84bb157
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI.pci_express_enhanced_capability_header, wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure [Buses], PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure pointer [Buses], PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, pci_struct_50b450a2-7198-4021-947b-2c276ca9b274.xml"
+ms.keywords: PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure pointer [Buses], PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure [Buses], pci_struct_50b450a2-7198-4021-947b-2c276ca9b274.xml, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI.pci_express_enhanced_capability_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER {
 
 
 
-### -field CapabilityID
+#### - CapabilityID
 
 The extended capability identifier. Possible values are:
 
@@ -127,12 +127,12 @@ Virtual channel and multi-function virtual channel capability
 Root complex register block header capability
 
 
-### -field Version
+#### - Version
 
 The version of the extended capability structure. This member should be set to one for extended capability structures that are based on version 1.1 of the <i>PCIe Specification</i>.
 
 
-### -field Next
+#### - Next
 
 The offset in PCIe device configuration space to the next PCIe capability structure in the linked list of capabilities. If this is the last PCIe capability structure in the list, this member is set to zero.
 
@@ -148,11 +148,11 @@ A PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER is included at the beginning of every e
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
  
 

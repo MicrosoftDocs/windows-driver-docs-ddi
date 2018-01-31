@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaFeature, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption, IPrintSchemaFeature interface [Print Devices], GetOption method, GetOption, IPrintSchemaFeature::GetOption, GetOption method [Print Devices], IPrintSchemaFeature interface, GetOption method [Print Devices]
+ms.keywords: printerextension/IPrintSchemaFeature::GetOption, IPrintSchemaFeature::GetOption, GetOption method [Print Devices], IPrintSchemaFeature, GetOption, print.iprintschemafeature_getoption, GetOption method [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature interface [Print Devices], GetOption method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetOption(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The name of the option.
 
 
-### -param bstrNamespaceUri [in]
+#### - bstrNamespaceUri [in]
 
 The namespace URI of the option.
 
 
-### -param ppOption [out, retval]
+#### - ppOption [out, retval]
 
 The returned option.
 
@@ -103,13 +103,13 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
  
 

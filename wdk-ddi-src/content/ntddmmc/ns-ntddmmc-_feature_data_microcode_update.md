@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff9f959b-6901-43b8-b335-c0286136b747
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_MICROCODE_UPDATE structure pointer [Storage Devices], FEATURE_DATA_MICROCODE_UPDATE, storage.feature_data_microcode_update, PFEATURE_DATA_MICROCODE_UPDATE, _FEATURE_DATA_MICROCODE_UPDATE, *PFEATURE_DATA_MICROCODE_UPDATE, ntddmmc/PFEATURE_DATA_MICROCODE_UPDATE, structs-CD-ROM_e2dbda29-d727-4736-93bd-0e115b9d7948.xml, ntddmmc/FEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE structure [Storage Devices]
+ms.keywords: FEATURE_DATA_MICROCODE_UPDATE structure [Storage Devices], ntddmmc/FEATURE_DATA_MICROCODE_UPDATE, ntddmmc/PFEATURE_DATA_MICROCODE_UPDATE, PFEATURE_DATA_MICROCODE_UPDATE structure pointer [Storage Devices], storage.feature_data_microcode_update, *PFEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE, PFEATURE_DATA_MICROCODE_UPDATE, _FEATURE_DATA_MICROCODE_UPDATE, structs-CD-ROM_e2dbda29-d727-4736-93bd-0e115b9d7948.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_MICROCODE_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE"
+req.typenames: FEATURE_DATA_MICROCODE_UPDATE, *PFEATURE_DATA_MICROCODE_UPDATE
 ---
 
 # _FEATURE_DATA_MICROCODE_UPDATE structure
@@ -70,20 +70,20 @@ typedef struct _FEATURE_DATA_MICROCODE_UPDATE {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field M5
+#### - M5
 
 
 
-### -field Reserved1
+#### - Reserved1
 
 
 
-### -field Reserved2
+#### - Reserved2
 
 
 

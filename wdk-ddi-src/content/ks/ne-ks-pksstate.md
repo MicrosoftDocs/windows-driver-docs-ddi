@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSSTATE_STOP, ks/KSSTATE_STOP, ks/KSSTATE_PAUSE, PKSSTATE, ks/KSSTATE, KSSTATE_PAUSE, ks/KSSTATE_RUN, ks/PKSSTATE, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, PKSSTATE enumeration pointer [Streaming Media Devices], *PKSSTATE, KSSTATE_RUN, KSSTATE, KSSTATE_ACQUIRE, stream.ksstate, ks/KSSTATE_ACQUIRE, KSSTATE enumeration [Streaming Media Devices]
+ms.keywords: ks/KSSTATE_RUN, ks/KSSTATE_ACQUIRE, ks/KSSTATE, PKSSTATE enumeration pointer [Streaming Media Devices], *PKSSTATE, ks/KSSTATE_STOP, KSSTATE_STOP, KSSTATE, ks/PKSSTATE, ks/KSSTATE_PAUSE, KSSTATE_ACQUIRE, KSSTATE enumeration [Streaming Media Devices], KSSTATE_RUN, PKSSTATE, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, KSSTATE_PAUSE, stream.ksstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	KSSTATE
 product: Windows
 targetos: Windows
-req.typenames: "*PKSSTATE, KSSTATE"
+req.typenames: KSSTATE, *PKSSTATE
 ---
 
 # *PKSSTATE enumeration
@@ -70,22 +70,22 @@ typedef enum  {
 
 
 
-### -field KSSTATE_STOP
+#### - KSSTATE_STOP
 
 Indicates that the object is in minimum resource consumption mode.
 
 
-### -field KSSTATE_ACQUIRE
+#### - KSSTATE_ACQUIRE
 
 Indicates that the object is acquiring resources.
 
 
-### -field KSSTATE_PAUSE
+#### - KSSTATE_PAUSE
 
 Indicates that the object is preparing to make instant transition to Run state.
 
 
-### -field KSSTATE_RUN
+#### - KSSTATE_RUN
 
 Indicates that the object is actively streaming.
 

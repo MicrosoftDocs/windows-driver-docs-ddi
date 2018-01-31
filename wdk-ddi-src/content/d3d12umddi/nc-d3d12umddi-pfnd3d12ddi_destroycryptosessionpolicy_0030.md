@@ -68,12 +68,12 @@ VOID APIENTRY* PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030(
 
 
 
-### -param hDrvDevice
+#### - hDrvDevice
 
 The hardware device being processed.
 
 
-### -param hDrvCryptoSessionPolicy
+#### - hDrvCryptoSessionPolicy
 
 The crypto session policy.
 

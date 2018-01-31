@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 41e3c65a-0ab8-4f6f-af49-1aa2edbeda5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_ATTRIBUTES union [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_ATTRIBUTES, miniport_structures_ref_dc9acf58-fbc9-4b4c-8c99-33ab7a3bc653.xml, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES union pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_ADAPTER_ATTRIBUTES, netvista.ndis_miniport_adapter_attributes
+ms.keywords: netvista.ndis_miniport_adapter_attributes, NDIS_MINIPORT_ADAPTER_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_ATTRIBUTES, miniport_structures_ref_dc9acf58-fbc9-4b4c-8c99-33ab7a3bc653.xml, _NDIS_MINIPORT_ADAPTER_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES union pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_ADAPTER_ATTRIBUTES union [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MINIPORT_ADAPTER_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_ATTRIBUTES
+req.typenames: NDIS_MINIPORT_ADAPTER_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES
 ---
 
 # _NDIS_MINIPORT_ADAPTER_ATTRIBUTES structure
@@ -134,54 +134,54 @@ typedef union _NDIS_MINIPORT_ADAPTER_ATTRIBUTES {
 
 
 
-### -field Header
+#### - Header
 
 An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 
-### -field AddDeviceRegistrationAttributes
+#### - AddDeviceRegistrationAttributes
 
 An 
      <mshelp:link keywords="netvista.ndis_miniport_add_device_registration_attributes" tabindex="0"><b>
      NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</b></mshelp:link> structure.
 
 
-### -field RegistrationAttributes
+#### - RegistrationAttributes
 
 An 
      <mshelp:link keywords="netvista.ndis_miniport_adapter_registration_attributes" tabindex="0"><b>
      NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</b></mshelp:link> structure.
 
 
-### -field GeneralAttributes
+#### - GeneralAttributes
 
 An 
      <mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link> structure.
 
 
-### -field OffloadAttributes
+#### - OffloadAttributes
 
 An 
      <mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
      NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link> structure.
 
 
-### -field Native_802_11_Attributes
+#### - Native_802_11_Attributes
 
 An 
      <mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
      NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link> structure.
 
 
-### -field HardwareAssistAttributes
+#### - HardwareAssistAttributes
 
 An 
       <mshelp:link keywords="netvista.ndis_miniport_adapter_hardware_assist_attributes" tabindex="0"><b>
       NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b></mshelp:link> structure.
 
 
-### -field NDKAttributes
+#### - NDKAttributes
 
 An <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a> structure.
 
@@ -204,29 +204,29 @@ Miniport drivers pass these structures to the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_hardware_assist_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b></mshelp:link>
+<mshelp:link keywords="netvista.ndis_miniport_adapter_registration_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_registration_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<mshelp:link keywords="netvista.ndis_miniport_adapter_hardware_assist_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_miniport_add_device_registration_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
 
  
 

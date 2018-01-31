@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c486351a-b5a6-4a67-826d-6f66d04518b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAcquireDevice function [Streaming Media Devices], stream.ksacquiredevice, KsAcquireDevice, avfunc_396e6da2-9423-43ae-8a2b-24655a43037b.xml, ks/KsAcquireDevice
+ms.keywords: stream.ksacquiredevice, KsAcquireDevice function [Streaming Media Devices], KsAcquireDevice, ks/KsAcquireDevice, avfunc_396e6da2-9423-43ae-8a2b-24655a43037b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void KsAcquireDevice(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 An AVStream device for which synchronous control should be acquired.
 

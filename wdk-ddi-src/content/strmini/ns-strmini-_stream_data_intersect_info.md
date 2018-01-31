@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92a37945-4b7c-4d10-a071-ae1584590692
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.stream_data_intersect_info, strmini/PSTREAM_DATA_INTERSECT_INFO, strmini/STREAM_DATA_INTERSECT_INFO, *PSTREAM_DATA_INTERSECT_INFO, PSTREAM_DATA_INTERSECT_INFO structure pointer [Streaming Media Devices], STREAM_DATA_INTERSECT_INFO, PSTREAM_DATA_INTERSECT_INFO, strclass-struct_28443f9e-3daf-4a83-be5e-de1868590510.xml, _STREAM_DATA_INTERSECT_INFO, STREAM_DATA_INTERSECT_INFO structure [Streaming Media Devices]
+ms.keywords: PSTREAM_DATA_INTERSECT_INFO structure pointer [Streaming Media Devices], strmini/STREAM_DATA_INTERSECT_INFO, PSTREAM_DATA_INTERSECT_INFO, STREAM_DATA_INTERSECT_INFO, strmini/PSTREAM_DATA_INTERSECT_INFO, strclass-struct_28443f9e-3daf-4a83-be5e-de1868590510.xml, stream.stream_data_intersect_info, _STREAM_DATA_INTERSECT_INFO, STREAM_DATA_INTERSECT_INFO structure [Streaming Media Devices], *PSTREAM_DATA_INTERSECT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STREAM_DATA_INTERSECT_INFO
 product: Windows
 targetos: Windows
-req.typenames: STREAM_DATA_INTERSECT_INFO, *PSTREAM_DATA_INTERSECT_INFO
+req.typenames: "*PSTREAM_DATA_INTERSECT_INFO, STREAM_DATA_INTERSECT_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _STREAM_DATA_INTERSECT_INFO {
 
 
 
-### -field StreamNumber
+#### - StreamNumber
 
 Specifies the stream number. This corresponds to the offset of the stream within the minidriver's array of <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a> structures. The possible data formats depend on the stream type.
 
 
-### -field DataRange
+#### - DataRange
 
 Pointer to the data ranges to be examined for a match.
 
 
-### -field DataFormatBuffer
+#### - DataFormatBuffer
 
 Pointer to the buffer the minidriver fills in with the matching data format.
 
 
-### -field SizeOfDataFormatBuffer
+#### - SizeOfDataFormatBuffer
 
 Specifies the size in bytes of the <b>DataFormatBuffer</b>.
 

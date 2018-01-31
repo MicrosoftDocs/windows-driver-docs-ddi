@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45ec429e-d324-40c9-bedc-acd75ccb160e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsaleendpointdestroyenumhandle0, fwpsk/FwpsAleEndpointDestroyEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml, FwpsAleEndpointDestroyEnumHandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: fwpsk/FwpsAleEndpointDestroyEnumHandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista], netvista.fwpsaleendpointdestroyenumhandle0, FwpsAleEndpointDestroyEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ NTSTATUS NTAPI FwpsAleEndpointDestroyEnumHandle0(
 
 
 
-### -param engineHandle [in]
+#### - engineHandle [in]
 
 The handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
 
 
-### -param enumHandle [in, out]
+#### - enumHandle [in, out]
 
 The enumeration handle created by a previous call to 
      <mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>

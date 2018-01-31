@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 94DD7FBF-2D4F-4DD9-A49E-A9FA494BF995
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, GetSynchronizationStatus, IDebugControl6, IDebugControl6::GetSynchronizationStatus, GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, debugger.idebugcontrol6_getsynchronizationstatus, dbgeng/IDebugControl6::GetSynchronizationStatus
+ms.keywords: GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, GetSynchronizationStatus, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, IDebugControl6::GetSynchronizationStatus, IDebugControl6, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus, GetSynchronizationStatus method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetSynchronizationStatus(
 
 
 
-### -param SendsAttempted [out]
+#### - SendsAttempted [out]
 
 The number of packet sends that have been attempted by the current debugger-engine kernel transport mechanism. This number will be incremented if engine did not receive a packet "ACK" for the last packet sent by the engine to the target.
 
 
-### -param SecondsSinceLastResponse [out]
+#### - SecondsSinceLastResponse [out]
 
 The number of seconds since the last response.
 

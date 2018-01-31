@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f05931a-2327-454a-9ba7-da02cb2f13d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorUpdateModes, iddcx/IddCxMonitorUpdateModes, display.iddcxmonitorupdatemodes, IddCxMonitorUpdateModes method [Display Devices]
+ms.keywords: IddCxMonitorUpdateModes, iddcx/IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS IddCxMonitorUpdateModes(
 
 
 
-### -param MonitorObject [in]
+#### - MonitorObject [in]
 
 The monitor object being updated
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments of function 
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERIAL_LINE_CONTROL structure pointer [Serial Ports], PSERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, serports.serial_line_control, *PSERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, _SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports]
+ms.keywords: SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], ntddser/SERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL, _SERIAL_LINE_CONTROL, serports.serial_line_control, *PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], ntddser/PSERIAL_LINE_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _SERIAL_LINE_CONTROL {
 
 
 
-### -field StopBits
+#### - StopBits
 
 The number of stop bits used at the end of each character that is transmitted or received. This member is set to one of the following values.
 <table>
@@ -92,7 +92,7 @@ The number of stop bits used at the end of each character that is transmitted or
 </table> 
 
 
-### -field Parity
+#### - Parity
 
 The type of parity checking used for each character that is transmitted or received. This member is set to one of the following values.
 <table>
@@ -123,7 +123,7 @@ The type of parity checking used for each character that is transmitted or recei
 </table> 
 
 
-### -field WordLength
+#### - WordLength
 
 Data bits per character. This member indicates the number of data bits in each character value that is transmitted or received, and does not include parity bits or stop bits. <b>WordLength</b> values in the range 5 to 8 are typically supported.
 

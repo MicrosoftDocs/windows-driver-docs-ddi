@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4966ba24-35ed-453a-9483-bd3337e31b83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET90, D3DKMDT_VPPR_ROTATE90_OFFSET180, _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET180, D3DKMDT_VPPR_ROTATE90_OFFSET90, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET90, DmEnums_f69499aa-0366-4826-ada7-0c3107842fc8.xml, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET270, d3dkmdt/D3DKMDT_VPPR_UNINITIALIZED, D3DKMDT_VPPR_ROTATE90, D3DKMDT_VPPR_IDENTITY_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET270, D3DKMDT_VPPR_ROTATE270, D3DKMDT_VPPR_UNPINNED, D3DKMDT_VPPR_NOTSPECIFIED, D3DKMDT_VPPR_ROTATE270_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE90, D3DKMDT_VPPR_ROTATE180_OFFSET270, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, D3DKMDT_VPPR_UNINITIALIZED, D3DKMDT_VPPR_ROTATE270_OFFSET270, D3DKMDT_VPPR_IDENTITY_OFFSET270, d3dkmdt/D3DKMDT_VPPR_UNPINNED, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET90, D3DKMDT_VPPR_ROTATE180_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET180, D3DKMDT_VPPR_ROTATE270_OFFSET90, d3dkmdt/D3DKMDT_VPPR_IDENTITY, D3DKMDT_VPPR_ROTATE180, D3DKMDT_VPPR_IDENTITY_OFFSET180, D3DKMDT_VPPR_IDENTITY, display.d3dkmdt_vidpn_present_path_rotation, D3DKMDT_VPPR_ROTATE180_OFFSET180, D3DKMDT_VPPR_ROTATE90_OFFSET270, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration [Display Devices], D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET180, d3dkmdt/D3DKMDT_VPPR_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPR_ROTATE270, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE180
+ms.keywords: D3DKMDT_VPPR_UNINITIALIZED, D3DKMDT_VPPR_ROTATE180_OFFSET270, d3dkmdt/D3DKMDT_VPPR_UNPINNED, D3DKMDT_VPPR_ROTATE270_OFFSET90, D3DKMDT_VPPR_IDENTITY_OFFSET180, d3dkmdt/D3DKMDT_VPPR_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE90, DmEnums_f69499aa-0366-4826-ada7-0c3107842fc8.xml, D3DKMDT_VPPR_ROTATE180, D3DKMDT_VPPR_IDENTITY_OFFSET90, display.d3dkmdt_vidpn_present_path_rotation, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET180, D3DKMDT_VPPR_ROTATE180_OFFSET90, d3dkmdt/D3DKMDT_VPPR_IDENTITY, d3dkmdt/D3DKMDT_VPPR_ROTATE270, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET180, _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET270, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET270, D3DKMDT_VPPR_ROTATE270, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET90, D3DKMDT_VPPR_IDENTITY_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE180, D3DKMDT_VPPR_ROTATE90, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET270, D3DKMDT_VPPR_ROTATE90_OFFSET270, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET90, d3dkmdt/D3DKMDT_VPPR_NOTSPECIFIED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, D3DKMDT_VPPR_ROTATE270_OFFSET180, D3DKMDT_VPPR_ROTATE180_OFFSET180, D3DKMDT_VPPR_UNPINNED, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration [Display Devices], d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET90, D3DKMDT_VPPR_ROTATE270_OFFSET270, D3DKMDT_VPPR_ROTATE90_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET180, D3DKMDT_VPPR_IDENTITY, D3DKMDT_VPPR_NOTSPECIFIED, D3DKMDT_VPPR_ROTATE90_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET180, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,121 +87,121 @@ typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION {
 
 
 
-### -field D3DKMDT_VPPR_UNINITIALIZED
+#### - D3DKMDT_VPPR_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_VIDPN_PRESENT_PATH_ROTATION has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_VPPR_IDENTITY
+#### - D3DKMDT_VPPR_IDENTITY
 
 Indicates that there is no rotation.
 
 
-### -field D3DKMDT_VPPR_ROTATE90
+#### - D3DKMDT_VPPR_ROTATE90
 
 Indicates that the rotation angle is 90 degrees counter-clockwise.
 
 
-### -field D3DKMDT_VPPR_ROTATE180
+#### - D3DKMDT_VPPR_ROTATE180
 
 Indicates that the rotation angle is 180 degrees counter-clockwise.
 
 
-### -field D3DKMDT_VPPR_ROTATE270
+#### - D3DKMDT_VPPR_ROTATE270
 
 Indicates that the rotation angle is 270 degrees counter-clockwise.
 
 
-### -field D3DKMDT_VPPR_IDENTITY_OFFSET90
+#### - D3DKMDT_VPPR_IDENTITY_OFFSET90
 
 Indicates that source content is not modified in any way, and the display miniport driver should rotate this content an extra 90 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE90_OFFSET90
+#### - D3DKMDT_VPPR_ROTATE90_OFFSET90
 
 Indicates that source content is rotated 90 degrees counter-clockwise, and the driver should rotate this content an extra 90 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE180_OFFSET90
+#### - D3DKMDT_VPPR_ROTATE180_OFFSET90
 
 Indicates that source content is rotated 180 degrees counter-clockwise, and the driver should rotate this content an extra 90 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE270_OFFSET90
+#### - D3DKMDT_VPPR_ROTATE270_OFFSET90
 
 Indicates that source content is rotated 270 degrees counter-clockwise, and the driver should rotate this content an extra 90 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_IDENTITY_OFFSET180
+#### - D3DKMDT_VPPR_IDENTITY_OFFSET180
 
 Indicates that source content is not modified in any way, and the driver should rotate this content an extra 180 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE90_OFFSET180
+#### - D3DKMDT_VPPR_ROTATE90_OFFSET180
 
 Indicates that source content is rotated 90 degrees counter-clockwise, and the driver should rotate this content an extra 180 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE180_OFFSET180
+#### - D3DKMDT_VPPR_ROTATE180_OFFSET180
 
 Indicates that source content is rotated 180 degrees counter-clockwise, and the driver should rotate this content an extra 180 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE270_OFFSET180
+#### - D3DKMDT_VPPR_ROTATE270_OFFSET180
 
 Indicates that source content is rotated 270 degrees, and the driver should rotate this content an extra 180 degrees. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_IDENTITY_OFFSET270
+#### - D3DKMDT_VPPR_IDENTITY_OFFSET270
 
 Indicates that source content is not modified in any way, and the driver should rotate this content an extra 270 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE90_OFFSET270
+#### - D3DKMDT_VPPR_ROTATE90_OFFSET270
 
 Indicates that source content is rotated 90 degrees counter-clockwise, and the driver should rotate this content an extra 270 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE180_OFFSET270
+#### - D3DKMDT_VPPR_ROTATE180_OFFSET270
 
 Indicates that source content is rotated 180 degrees counter-clockwise, and the driver should rotate this content an extra 270 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_ROTATE270_OFFSET270
+#### - D3DKMDT_VPPR_ROTATE270_OFFSET270
 
 Indicates that source content is rotated 270 degrees counter-clockwise, and the driver should rotate this content an extra 270 degrees counter-clockwise. For more info, see Remarks.
 
 Supported starting with Windows 8.1 Update.
 
 
-### -field D3DKMDT_VPPR_UNPINNED
+#### - D3DKMDT_VPPR_UNPINNED
 
 Indicates that no rotation angle has been pinned for the VidPN present path.
 
 
-### -field D3DKMDT_VPPR_NOTSPECIFIED
+#### - D3DKMDT_VPPR_NOTSPECIFIED
 
 Indicates that no rotation angle (including identity) has been specified.
 

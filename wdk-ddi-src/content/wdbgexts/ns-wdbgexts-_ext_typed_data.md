@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 99abb7b6-3e20-4875-b257-c3fc4146e392
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.ext_typed_data, Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, wdbgexts/PEXT_TYPED_DATA, *PEXT_TYPED_DATA, EXT_TYPED_DATA, wdbgexts/EXT_TYPED_DATA, _EXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA
+ms.keywords: "_EXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], *PEXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], debugger.ext_typed_data, PEXT_TYPED_DATA, Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, EXT_TYPED_DATA, wdbgexts/EXT_TYPED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	EXT_TYPED_DATA
 product: Windows
 targetos: Windows
-req.typenames: EXT_TYPED_DATA, *PEXT_TYPED_DATA
+req.typenames: "*PEXT_TYPED_DATA, EXT_TYPED_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -85,13 +85,13 @@ typedef struct _EXT_TYPED_DATA {
 
 
 
-### -field Operation
+#### - Operation
 
 Specifies which suboperation the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation should perform. The interpretation of some of the other members depends on <b>Operation</b>. For a list of possible suboperations, see <a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>.
 
 
-### -field Flags
+#### - Flags
 
 Specifies the bit flags describing the target's memory in which the data resides. If no flags are present, the data is considered to be in virtual memory. One of the following flags may be present:
 <table>
@@ -142,21 +142,21 @@ The typed data is in physical memory, and this physical memory is write-combined
 </table> 
 
 
-### -field InData
+#### - InData
 
 Specifies typed data to be used as input to the operation. For details about this structure, see <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>InData</b> depends on the value of <b>Operation</b>.
 
 
-### -field OutData
+#### - OutData
 
 Receives typed data as output from the operation. Any suboperation that returns typed data to <b>OutData</b> initially copies the contents of <b>InData</b> to <b>OutData</b>, then modifies <b>OutData</b> in place, so that the input parameters in <b>InData</b> are also present in <b>OutData</b>. For details about this structure, see <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>OutData</b> depends on the value of <b>Operation</b>.
 
 
-### -field InStrIndex
+#### - InStrIndex
 
 Specifies the position of an ANSI string to be used as input to the operation. <b>InStrIndex</b> can be zero to indicate that the input parameters do not include an ANSI string.
 
@@ -165,35 +165,35 @@ The position of the string is relative to the base address of this EXT_TYPED_DAT
 The interpretation of the string depends on the value of <b>Operation</b>.
 
 
-### -field In32
+#### - In32
 
 Specifies a 32-bit parameter to be used as input to the operation.
 
 The interpretation of <b>In32</b> depends on the value of <b>Operation</b>.
 
 
-### -field Out32
+#### - Out32
 
 Receives a 32-bit value as output from the operation.
 
 The interpretation of <b>Out32</b> depends on the value of <b>Operation</b>.
 
 
-### -field In64
+#### - In64
 
 Specifies a 64-bit parameter to be used as input to the operation.
 
 The interpretation of <b>In64</b> depends on the value of <b>Operation</b>.
 
 
-### -field Out64
+#### - Out64
 
 Receives a 64-bit value as output from the operation.
 
 The interpretation of <b>Out64</b> depends on the value of <b>Operation</b>.
 
 
-### -field StrBufferIndex
+#### - StrBufferIndex
 
 Specifies the position to return an ANSI string as output from the operation. <b>StrBufferIndex</b> can be zero if no ANSI string is to be received from the operation.
 
@@ -202,37 +202,37 @@ The position of the string is relative to the base address of the returned EXT_T
 The interpretation of the string depends on the value of <b>Operation</b>.
 
 
-### -field StrBufferChars
+#### - StrBufferChars
 
 Specifies the size in characters of the ANSI string buffer specified by <b>StrBufferIndex</b>.
 
 
-### -field StrCharsNeeded
+#### - StrCharsNeeded
 
 Receives the number of characters needed by the string buffer specified by <b>StrBufferIndex</b>.
 
 
-### -field DataBufferIndex
+#### - DataBufferIndex
 
 Set to zero.
 
 
-### -field DataBufferBytes
+#### - DataBufferBytes
 
 Set to zero.
 
 
-### -field DataBytesNeeded
+#### - DataBytesNeeded
 
 Set to zero,
 
 
-### -field Status
+#### - Status
 
 Receives the status code returned by the operation. This is the same value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>.
 
 
-### -field Reserved
+#### - Reserved
 
 Set to zero.
 

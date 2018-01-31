@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0B8FF9EB-63E5-4532-B13C-CF0FF04D9A53
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete, buses.udecxusbdevicelinkpowerentrycomplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], UdecxUsbDeviceLinkPowerEntryComplete
+ms.keywords: buses.udecxusbdevicelinkpowerentrycomplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceLinkPowerEntryComplete
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ void UdecxUsbDeviceLinkPowerEntryComplete(
 
 
 
-### -param UdecxUsbDevice [in]
+#### - UdecxUsbDevice [in]
 
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 
 
-### -param CompletionStatus [in]
+#### - CompletionStatus [in]
 
 An appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code that indicates the success or failure of the asynchronous operation.
 

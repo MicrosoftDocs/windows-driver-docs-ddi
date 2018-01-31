@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prntfont/UNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, PUNIDRVINFO, prntfont/PUNIDRVINFO, print.unidrvinfo, UNIDRVINFO structure [Print Devices], *PUNIDRVINFO, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, _UNIDRVINFO
+ms.keywords: UNIDRVINFO structure [Print Devices], print.unidrvinfo, PUNIDRVINFO structure pointer [Print Devices], *PUNIDRVINFO, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, _UNIDRVINFO, PUNIDRVINFO, prntfont/UNIDRVINFO, UNIDRVINFO, prntfont/PUNIDRVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UNIDRVINFO
 product: Windows
 targetos: Windows
-req.typenames: UNIDRVINFO, *PUNIDRVINFO
+req.typenames: "*PUNIDRVINFO, UNIDRVINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -80,12 +80,12 @@ typedef struct _UNIDRVINFO {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Specifies the size, in bytes, of the UNIDRVINFO structure.
 
 
-### -field flGenFlags
+#### - flGenFlags
 
 Contains one or more bit flags describing font characteristics. The following flags are defined:
 <table>
@@ -126,7 +126,7 @@ The font is a soft font, requiring downloading.
 </table> 
 
 
-### -field wType
+#### - wType
 
 Contains an integer constant describing the font type. The following constants are defined: 
 <table>
@@ -197,7 +197,7 @@ HP PCLETTO font for LJ4 printers
 </table> 
 
 
-### -field fCaps
+#### - fCaps
 
 Contains one or more bit flags identifying limitations on the capabilities provided by a device font. The following flags are defined:
 <table>
@@ -280,47 +280,47 @@ Unidrv must send a carriage return command after each line of text.
 </table> 
 
 
-### -field wXRes
+#### - wXRes
 
 Specifies the font's x-resolution.
 
 
-### -field wYRes
+#### - wYRes
 
 Specifies the font's y-resolution.
 
 
-### -field sYAdjust
+#### - sYAdjust
 
 Specifies the amount of vertical adjustment required before output of double-height characters on dot-matrix printers.
 
 
-### -field sYMoved
+#### - sYMoved
 
 Specifies the amount of vertical cursor movement that results when a double-height character is printed on a dot-matrix printer.
 
 
-### -field wPrivateData
+#### - wPrivateData
 
 Can be used for printer-specific information such as, for example, HP DeskJet permutations.
 
 
-### -field sShift
+#### - sShift
 
 Specifies the number of pixels by which each character must be shifted. Used for the Microsoft Z1a cartridge.
 
 
-### -field SelectFont
+#### - SelectFont
 
 Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer's font selection command.
 
 
-### -field UnSelectFont
+#### - UnSelectFont
 
 Is an INVOC structure containing the printer's font deselection command.
 
 
-### -field wReserved
+#### - wReserved
 
 Not used.
 

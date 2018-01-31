@@ -40,7 +40,7 @@ apiname:
 -	WskClientEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ NTSTATUS APIENTRY WskClientEvent(
 
 
 
-### -param ClientContext [in, optional]
+#### - ClientContext [in, optional]
 
 A pointer to the context value that was specified by the 
      <i>WskClientNpi</i> parameter passed to the 
@@ -87,13 +87,13 @@ A pointer to the context value that was specified by the
 
 
 
-### -param Information [in, optional]
+#### - Information [in, optional]
 
 A pointer to a buffer that contains additional information that is associated with the event. If
      there is no additional information associated with the event, this pointer will be <b>NULL</b>.
 
 
-### -param InformationLength [in]
+#### - InformationLength [in]
 
 The length of the additional information that is contained in the buffer that is pointed to by the
      
@@ -171,9 +171,9 @@ A WSK application's <i>WskClientEvent</i> event callback function must not wait 
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
 <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
  
 

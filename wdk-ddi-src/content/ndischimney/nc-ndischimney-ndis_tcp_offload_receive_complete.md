@@ -74,14 +74,14 @@ VOID NdisTcpOffloadReceiveComplete(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
      NdisMRegisterMiniportDriver</b></mshelp:link> function.
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
@@ -203,14 +203,14 @@ Calls the
 
 ## -see-also
 
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
 <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
    NdisAdvanceNetBufferDataStart</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 

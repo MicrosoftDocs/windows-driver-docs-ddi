@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1B8B0B7D-346D-41FC-B718-60B04F10702C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_get_text_completions_in, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN, *PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_EXTENSION_COMMANDS, _DEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_SYMBOLS, PDEBUG_GET_TEXT_COMPLETIONS_IN structure pointer [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_IN structure [Windows Debugging], dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_DOT_COMMANDS
+ms.keywords: DEBUG_GET_TEXT_COMPLETIONS_NO_DOT_COMMANDS, _DEBUG_GET_TEXT_COMPLETIONS_IN, debugger.debug_get_text_completions_in, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN structure pointer [Windows Debugging], PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_EXTENSION_COMMANDS, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN, *PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_SYMBOLS, DEBUG_GET_TEXT_COMPLETIONS_IN structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _DEBUG_GET_TEXT_COMPLETIONS_IN {
 
 
 
-### -field Flags
+#### - Flags
 
 Flags. Valid flag values include the following:
 <table>
@@ -113,12 +113,12 @@ Do not include completions with symbols.
 </table> 
 
 
-### -field MatchCountLimit
+#### - MatchCountLimit
 
 The limit of matches.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5083841-a6d7-4437-9941-bd7dca2f1771
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportbuildrequestsenseirb, AtaPortBuildRequestSenseIrb, irb/AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb routine [Storage Devices], atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml
+ms.keywords: AtaPortBuildRequestSenseIrb routine [Storage Devices], irb/AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb, atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ PIDE_REQUEST_BLOCK AtaPortBuildRequestSenseIrb(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-### -param Irb [in]
+#### - Irb [in]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the failed IDE request block (IRB) for which the request sense will be issued.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2ff69f59-5fbd-43fd-afe5-9717d7928d2a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCompleteIo, IKsInterfaceHandler::KsCompleteIo, KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, KsCompleteIo method [Streaming Media Devices], ksproxy/IKsInterfaceHandler::KsCompleteIo, IKsInterfaceHandler, stream.iksinterfacehandler_kscompleteio, IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml
+ms.keywords: IKsInterfaceHandler::KsCompleteIo, IKsInterfaceHandler, stream.iksinterfacehandler_kscompleteio, KsCompleteIo, KsCompleteIo method [Streaming Media Devices], KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, ksproxy/IKsInterfaceHandler::KsCompleteIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsCompleteIo(
 
 
 
-### -param StreamSegment [in, out]
+#### - StreamSegment [in, out]
 
 Pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment to complete. 
 
@@ -100,11 +100,11 @@ Calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560710"
 
 ## -see-also
 
+<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560710">IKsPin::KsDeliver</a>
-
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
 
  
 

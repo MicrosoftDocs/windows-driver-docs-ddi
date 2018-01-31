@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D279F79-FFA8-4661-A9E9-EFA62A97EEC7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, GetGuid, debugger.idebugbreakpoint3_getguid, GetGuid method [Windows Debugging], IDebugBreakpoint3::GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3, GetGuid method [Windows Debugging], IDebugBreakpoint3 interface
+ms.keywords: dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, GetGuid method [Windows Debugging], IDebugBreakpoint3::GetGuid, GetGuid, GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, IDebugBreakpoint3, debugger.idebugbreakpoint3_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetGuid(
 
 
 
-### -param Guid [out]
+#### - Guid [out]
 
 A unique ID returned for the breakpoint.
 

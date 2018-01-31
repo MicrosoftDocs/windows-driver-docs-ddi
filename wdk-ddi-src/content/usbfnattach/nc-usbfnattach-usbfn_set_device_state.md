@@ -40,7 +40,7 @@ apiname:
 -	PFN_USBFN_SET_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY"
+req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -75,17 +75,17 @@ typedef USBFN_SET_DEVICE_STATE PFN_USBFN_SET_DEVICE_STATE;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
     A pointer to a driver-defined context.
 
 
-### -param DeviceState [in]
+#### - DeviceState [in]
 
     A <a href="..\usbfnbase\ne-usbfnbase-_usbfn_device_state.md">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
 
 
-### -param BusSpeed [in]
+#### - BusSpeed [in]
 
 A <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
 

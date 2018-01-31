@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c9e204db-f8fc-42e7-9a1b-f08099147ce7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbinterfacegetendpointinformation, WdfUsbInterfaceGetEndpointInformation method, wdfusb/WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation, kmdf.wdfusbinterfacegetendpointinformation, DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, PFN_WDFUSBINTERFACEGETENDPOINTINFORMATION
+ms.keywords: WdfUsbInterfaceGetEndpointInformation, wdfusb/WdfUsbInterfaceGetEndpointInformation, DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, PFN_WDFUSBINTERFACEGETENDPOINTINFORMATION, wdf.wdfusbinterfacegetendpointinformation, WdfUsbInterfaceGetEndpointInformation method, kmdf.wdfusbinterfacegetendpointinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ VOID WdfUsbInterfaceGetEndpointInformation(
 
 
 
-### -param UsbInterface [in]
+#### - UsbInterface [in]
 
 A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
 
 
-### -param SettingIndex [in]
+#### - SettingIndex [in]
 
 An index value that identifies an alternate setting for the interface. For more information about alternate settings, see the USB specification.
 
 
-### -param EndpointIndex [in]
+#### - EndpointIndex [in]
 
 An index value that identifies an endpoint that is associated with the specified alternate setting of the specified interface. (This index value is not the endpoint address.)
 
 
-### -param EndpointInfo [out]
+#### - EndpointInfo [out]
 
 A pointer to a caller-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in.
 
@@ -116,11 +116,11 @@ For more information about the <b>WdfUsbInterfaceGetEndpointInformation</b> meth
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumendpoints.md">WdfUsbInterfaceGetNumEndpoints</a>
+
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumendpoints.md">WdfUsbInterfaceGetNumEndpoints</a>
 
  
 

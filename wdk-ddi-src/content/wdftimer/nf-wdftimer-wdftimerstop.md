@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 394593f5-92eb-4f84-adbe-67e0e5320ff0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdftimerstop, DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, WdfTimerStop, WdfTimerStop method, wdf.wdftimerstop, wdftimer/WdfTimerStop
+ms.keywords: DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, wdf.wdftimerstop, WdfTimerStop, WdfTimerStop method, kmdf.wdftimerstop, wdftimer/WdfTimerStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfTimerStop
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ BOOLEAN WdfTimerStop(
 
 
 
-### -param Timer [in]
+#### - Timer [in]
 
 A handle to a framework timer object that was obtained by calling <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 <b>KMDF </b>A Boolean value that, if <b>TRUE</b>, specifies that the framework does not return until all queued calls to the driver's deferred procedure calls (DPCs), including the driver's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback functions, have executed. 
 
@@ -112,11 +112,11 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
-
 <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
+
+<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a92865bc-620f-434d-a185-b837924599fc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_adaptertype, d3dkmthk/D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], D3DKMT_ADAPTERTYPE, _D3DKMT_ADAPTERTYPE
+ms.keywords: display.d3dkmt_adaptertype, D3DKMT_ADAPTERTYPE, _D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], d3dkmthk/D3DKMT_ADAPTERTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _D3DKMT_ADAPTERTYPE {
 
 
 
-### -field RenderSupported
+#### - RenderSupported
 
 The adapter supports a render device.
 
 
-### -field DisplaySupported
+#### - DisplaySupported
 
 The adapter supports a display device.
 
 
-### -field SoftwareDevice
+#### - SoftwareDevice
 
 The adapter supports a non-plug and play (PnP) device that is implemented in software.
 
 
-### -field PostDevice
+#### - PostDevice
 
 The adapter supports a power-on self-test (POST) device.
 
@@ -121,7 +121,7 @@ The adapter supports a power-on self-test (POST) device.
  
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 

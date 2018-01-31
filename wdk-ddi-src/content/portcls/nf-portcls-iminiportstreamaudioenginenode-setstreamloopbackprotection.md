@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: FAC9AC9B-9C4B-4D53-A59A-8901EC8755BC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, SetStreamLoopbackProtection method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamLoopbackProtection method, SetStreamLoopbackProtection, IMiniportStreamAudioEngineNode, SetStreamLoopbackProtection method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamloopbackprotection
+ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamLoopbackProtection method, IMiniportStreamAudioEngineNode, SetStreamLoopbackProtection method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamLoopbackProtection method [Audio Devices], IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, audio.iminiportstreamaudioenginenode_setstreamloopbackprotection, portcls/IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, SetStreamLoopbackProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection method
@@ -67,7 +67,7 @@ NTSTATUS SetStreamLoopbackProtection(
 
 
 
-### -param ProtectionOption [in]
+#### - ProtectionOption [in]
 
 A CONSTRICTOR_OPTION enumeration  value that indicates status of the loopback protection option.
 
@@ -88,11 +88,11 @@ For more information about audio stream loopback protection, see <a href="https:
 
 ## -see-also
 
-CONSTRICTOR_OPTION
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450878">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>
 
 <a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
+
+CONSTRICTOR_OPTION
 
  
 

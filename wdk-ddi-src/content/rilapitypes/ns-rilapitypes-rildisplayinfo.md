@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f24d8122-ea07-477f-9cf9-4767cc0fbf86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rildisplayinfo_2, RILDISPLAYINFO, rilapitypes/RILDISPLAYINFO, *LPRILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rildisplayinfo_2, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], RILDISPLAYINFO, *LPRILDISPLAYINFO, rilapitypes/RILDISPLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,30 +74,30 @@ typedef struct _RILDISPLAYINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwType
+#### - dwType
 
 
 
-### -field dwTag
+#### - dwTag
 
 
 
-### -field dwMessageSize
+#### - dwMessageSize
 
 
 
-### -field pbMessage
+#### - pbMessage
 
 

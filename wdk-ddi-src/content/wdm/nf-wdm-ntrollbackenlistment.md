@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 30989717-bbf4-44e6-9f1b-4818a8314714
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwrollbackenlistment, ktm_ref_6e57f040-d43e-4986-a756-e35e1abc8670.xml, NtRollbackEnlistment, wdm/ZwRollbackEnlistment, wdm/NtRollbackEnlistment, ZwRollbackEnlistment routine [Kernel-Mode Driver Architecture], ZwRollbackEnlistment
+ms.keywords: ZwRollbackEnlistment, kernel.zwrollbackenlistment, NtRollbackEnlistment, ZwRollbackEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_6e57f040-d43e-4986-a756-e35e1abc8670.xml, wdm/ZwRollbackEnlistment, wdm/NtRollbackEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwRollbackEnlistment(
 
 
 
-### -param EnlistmentHandle [in]
+#### - EnlistmentHandle [in]
 
 A handle to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SUBORDINATE_RIGHTS access to the object.
 
 
-### -param TmVirtualClock [in, optional]
+#### - TmVirtualClock [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
@@ -154,15 +154,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-tmrollbackenlistment.md">TmRollbackEnlistment</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
 
  
 

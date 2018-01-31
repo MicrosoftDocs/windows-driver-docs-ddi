@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2305BE73-8363-4534-A64D-06C91F636E2F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], wdm/PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET, *PPO_FX_COMPONENT_PERF_SET, wdm/PO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], kernel.po_fx_component_perf_set, _PO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET
+ms.keywords: PO_FX_COMPONENT_PERF_SET, kernel.po_fx_component_perf_set, PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], wdm/PPO_FX_COMPONENT_PERF_SET, _PO_FX_COMPONENT_PERF_SET, wdm/PO_FX_COMPONENT_PERF_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,9 +81,19 @@ typedef struct _PO_FX_COMPONENT_PERF_SET {
 
 
 
-### -field Discrete
+#### - Discrete
 
 For sets that represent a discrete number of performance states (that is, where the <b>Type</b> member is <b>PoFxPerfStateTypeDiscrete</b>), this nested structure describes the  states.
+
+
+#### Count
+
+The number of performance states in the set.
+
+
+#### States
+
+A pointer to a <a href="..\wdm\ns-wdm-_po_fx_perf_state.md">PO_FX_PERF_STATE</a> array. The length of this array is specified by the <b>Count</b> member. Each array element describes one power state in the set.
 
 
 ### -field Discrete.Count
@@ -96,9 +106,19 @@ The number of performance states in the set.
 A pointer to a <a href="..\wdm\ns-wdm-_po_fx_perf_state.md">PO_FX_PERF_STATE</a> array. The length of this array is specified by the <b>Count</b> member. Each array element describes one power state in the set.
 
 
-### -field Range
+#### - Range
 
 For sets that represent a continuous distribution of performance states (that is, where the <b>Type</b> member is <b>PoFxPerfStateTypeRange</b>), this nested structure describes the minimum and maximum value of the range of performance states.
+
+
+#### Minimum
+
+The minimum performance state value.
+
+
+#### Maximum
+
+The maximum performance state value.
 
 
 ### -field Range.Minimum
@@ -111,22 +131,22 @@ The minimum performance state value.
 The maximum performance state value.
 
 
-### -field Name
+#### - Name
 
 An optional character string used to describe the component property controlled by the performance state set. For example, "Clock frequency" or "Memory bandwidth".
 
 
-### -field Flags
+#### - Flags
 
 Set to 0. Currently, no flags are defined for this member.
 
 
-### -field Unit
+#### - Unit
 
 A <a href="..\wdm\ne-wdm-_po_fx_perf_state_unit.md">PO_FX_PERF_STATE_UNIT</a> value that specifies the type of unit that is controlled by the performance state set. 
 
 
-### -field Type
+#### - Type
 
 A <a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a> value that specifies the type of performance states in the set (a discrete number of states or a continuous distribution of states between a minimum and maximum value). 
 

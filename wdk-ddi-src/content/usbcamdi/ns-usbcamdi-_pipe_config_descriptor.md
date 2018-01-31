@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8554a5d1-07ea-4ad5-83a4-f0c15386b3d1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PUSBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, _pipe_config_descriptor, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], *PUSBCAMD_Pipe_Config_Descriptor, stream.usbcamd_pipe_config_descriptor, usbcamdi/USBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml, USBCAMD_Pipe_Config_Descriptor
+ms.keywords: USBCAMD_Pipe_Config_Descriptor, _pipe_config_descriptor, *PUSBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], usbcamdi/USBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], stream.usbcamd_pipe_config_descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBCAMD_Pipe_Config_Descriptor
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_Pipe_Config_Descriptor, *PUSBCAMD_Pipe_Config_Descriptor
+req.typenames: "*PUSBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ typedef struct _pipe_config_descriptor {
 
 
 
-### -field StreamAssociation
+#### - StreamAssociation
 
 Specifies the type of stream. This should be set to one of the following values:
 <table>
@@ -110,7 +110,7 @@ Indicates that the stream contains both video and still data.
 </table> 
 
 
-### -field PipeConfigFlags
+#### - PipeConfigFlags
 
 Specifies the pipe characteristics. This should be set to one of the following values:
 <table>

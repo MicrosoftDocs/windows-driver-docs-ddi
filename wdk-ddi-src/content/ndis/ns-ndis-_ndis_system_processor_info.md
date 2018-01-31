@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f59b9394-7742-423d-9a6e-3a429ccb0740
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, ndis/PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO, _NDIS_SYSTEM_PROCESSOR_INFO, *PNDIS_SYSTEM_PROCESSOR_INFO, ndis/NDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SYSTEM_PROCESSOR_INFO, netvista.ndis_system_processor_info, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndis_system_processor_info, PNDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO, ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, *PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], ndis/NDIS_SYSTEM_PROCESSOR_INFO, ndis/PNDIS_SYSTEM_PROCESSOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SYSTEM_PROCESSOR_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO"
+req.typenames: NDIS_SYSTEM_PROCESSOR_INFO, *PNDIS_SYSTEM_PROCESSOR_INFO
 ---
 
 # _NDIS_SYSTEM_PROCESSOR_INFO structure
@@ -78,7 +78,7 @@ typedef struct _NDIS_SYSTEM_PROCESSOR_INFO {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -89,53 +89,53 @@ The
      <b>Size</b> member to NDIS_SIZEOF_SYSTEM_PROCESSOR_INFO_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 Reserved. Set this member to zero.
 
 
-### -field ProcessorVendor
+#### - ProcessorVendor
 
 The processor vendor specified as one of the values from the 
      <mshelp:link keywords="netvista.ndis_processor_vendor" tabindex="0"><b>
      NDIS_PROCESSOR_VENDOR</b></mshelp:link> enumeration.
 
 
-### -field NumPhysicalPackages
+#### - NumPhysicalPackages
 
 The total number of processor physical packages that are in the local computer.
 
 
-### -field NumCores
+#### - NumCores
 
 The total number of core processors that are in the local computer. For example, set this member
      to four if there are two dual core physical packages.
 
 
-### -field NumCoresPerPhysicalPackage
+#### - NumCoresPerPhysicalPackage
 
 The number of core processors that are in each physical package. For example, set this member to
      two for a dual core physical package.
 
 
-### -field MaxHyperThreadingCpusPerCore
+#### - MaxHyperThreadingCpusPerCore
 
 The maximum number of logical processors that are in each hyper-threaded core processor. For
      example, set this member to two if each hyper-threaded core processor supports two logical
      processors.
 
 
-### -field RssBaseCpu
+#### - RssBaseCpu
 
 The starting CPU number that is used for RSS.
 
 
-### -field RssCpuCount
+#### - RssCpuCount
 
 The number of processors that are used for RSS.
 
 
-### -field RssProcessors
+#### - RssProcessors
 
 A pointer to an optional caller-provided buffer that will contain the CPU numbers of the
      processors that can be used for RSS. Set this member to <b>NULL</b> if the CPU numbers are not required. To
@@ -147,7 +147,7 @@ A pointer to an optional caller-provided buffer that will contain the CPU number
      followed by undefined data.
 
 
-### -field CpuInfo
+#### - CpuInfo
 
 An array of 
      <a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a> structures. After
@@ -172,18 +172,18 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO structure in calls to th
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">NdisGetProcessorInformation</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_processor_vendor.md">NDIS_PROCESSOR_VENDOR</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 <mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
    NdisSystemActiveProcessorCount</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">NdisGetProcessorInformation</a>
 
 <a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

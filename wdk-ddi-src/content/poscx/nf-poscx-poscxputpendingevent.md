@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxputpendingevent, PosCxPutPendingEvent function, PosCxPutPendingEvent, poscx/PosCxPutPendingEvent
+ms.keywords: PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent, PosCxPutPendingEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,34 +77,34 @@ NTSTATUS PosCxPutPendingEvent(
 
 
 
-### -param device [in]
+#### - device [in]
 
 A handle to a framework device object that represents the device.
 
 
-### -param deviceInterfaceTag [in]
+#### - deviceInterfaceTag [in]
 
 The device interface associated with the event.  By default, only
           file objects that have the same tag will receive this event.
 
 
-### -param eventType [in]
+#### - eventType [in]
 
 The new event type.
 
 
-### -param rawEventDataSize [in]
+#### - rawEventDataSize [in]
 
 The raw event (without point-of-service header) buffer size in bytes.
 
 
-### -param rawEventDataPtr
+#### - rawEventDataPtr
 
 The pointer to the raw (without point-of-service header) event data.
           The caller may reuse/release <i>rawEventDataPtr</i> after <b>PosCxPutPendingEvent</b> returns.
 
 
-### -param eventAttr [in]
+#### - eventAttr [in]
 
 The event attributes.
 

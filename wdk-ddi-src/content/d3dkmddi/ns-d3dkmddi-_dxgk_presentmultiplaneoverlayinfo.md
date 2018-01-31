@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYINFO, display.dxgk_presentmultiplaneoverlayinfo, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO
+ms.keywords: "_DXGK_PRESENTMULTIPLANEOVERLAYINFO, display.dxgk_presentmultiplaneoverlayinfo, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYINFO {
 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based video present network (VidPN) source identification number of the input that is to be displayed.
 
 
-### -field PlaneListCount
+#### - PlaneListCount
 
 [in] The number of overlay planes that are available to display.
 
 
-### -field pPlaneList
+#### - pPlaneList
 
 [in] A pointer to a structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist.md">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
 

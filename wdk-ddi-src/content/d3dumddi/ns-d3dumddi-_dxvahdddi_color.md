@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac1a2fae-29f1-4143-9d43-b10db300de03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_COLOR, DXVAHDDDI_COLOR, DXVAHDDDI_COLOR union [Display Devices], display.dxvahdddi_color, _DXVAHDDDI_COLOR, DXVA2_Structs_21418f8b-824c-4505-b52a-92437c3ff508.xml
+ms.keywords: DXVAHDDDI_COLOR, DXVAHDDDI_COLOR union [Display Devices], display.dxvahdddi_color, DXVA2_Structs_21418f8b-824c-4505-b52a-92437c3ff508.xml, _DXVAHDDDI_COLOR, d3dumddi/DXVAHDDDI_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef union _DXVAHDDDI_COLOR {
 
 
 
-### -field RGB
+#### - RGB
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_rgba.md">DXVAHDDDI_COLOR_RGBA</a> structure that describes color in RGB terms. 
 
 
-### -field YCbCr
+#### - YCbCr
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a> structure that describes color in a YCbCr terms. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_rgba.md">DXVAHDDDI_COLOR_RGBA</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_rgba.md">DXVAHDDDI_COLOR_RGBA</a>
 
  
 

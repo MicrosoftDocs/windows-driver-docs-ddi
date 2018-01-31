@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbReportChunkInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback
@@ -73,21 +73,22 @@ NTSTATUS* DxgkCbReportChunkInfo(
 
 
 
-### -param MiracastHandle [in]
+#### - MiracastHandle [in]
 
 A driver-supplied handle to the Miracast display device. This handle was originally passed in the <b>MiracastHandle</b> member of the <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a> structure in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a> function.
 
 
-### -param *pChunkInfo
+#### - *pChunkInfo [in]
+
+A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a> structure that contains chunk information that is to be reported by the display miniport driver.
 
 
-
-### -param pPrivateDriverData [in]
+#### - pPrivateDriverData [in]
 
 Reserved for system use. Must be set to <b>NULL</b>.
 
 
-### -param PrivateDataDriverSize [in]
+#### - PrivateDataDriverSize [in]
 
 Reserved for system use. Must be set to zero.
 
@@ -113,13 +114,13 @@ The display miniport driver  calls this function when it wants to report chunk i
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
 
  
 

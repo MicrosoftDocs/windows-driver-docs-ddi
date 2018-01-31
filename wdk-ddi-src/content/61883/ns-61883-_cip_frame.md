@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CIP_FRAME, PCIP_FRAME, 61883/CIP_FRAME, CIP_FRAME structure [Buses], *PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, 61883/PCIP_FRAME, IEEE.cip_frame, PCIP_FRAME structure pointer [Buses], _CIP_FRAME
+ms.keywords: 61883/CIP_FRAME, _CIP_FRAME, 61883/PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, PCIP_FRAME structure pointer [Buses], *PCIP_FRAME, IEEE.cip_frame, PCIP_FRAME, CIP_FRAME structure [Buses], CIP_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,16 +79,16 @@ typedef struct _CIP_FRAME {
 
 
 
-### -field Reserved
+#### - Reserved
 
 
 
-### -field pNext
+#### - pNext
 
 Reserved for internal use.
 
 
-### -field Flags
+#### - Flags
 
 Specifies options associated with this frame. 
 
@@ -144,7 +144,7 @@ The value at <b>TimeStamp</b> is formatted for audio and music data transmission
 Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
 
 
-### -field pfnValidate
+#### - pfnValidate
 
 Points to a caller-supplied function to validate a source packet. This function uses the following prototype: The parameter <b>ValidateInfo</b> must point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537048">CIP_VALIDATE_INFO</a> structure that contains information about the frame. 
 <div class="code"><span codelanguage=""><table>
@@ -161,12 +161,12 @@ Points to a caller-supplied function to validate a source packet. This function 
 </tr>
 </table></span></div>
 
-### -field ValidateContext
+#### - ValidateContext
 
 Points to an optional caller-defined context for the function at <b>pfnValidate</b>. If the function does not require a context, <b>ValidateContext</b> can be <b>NULL</b>.
 
 
-### -field pfnNotify
+#### - pfnNotify
 
 Points to a caller-supplied function to be called by the protocol driver when the requested frame is completed. The protocol driver calls this function at IRQL = DISPATCH_LEVEL.
 
@@ -190,12 +190,12 @@ This function uses the following prototype:
 
 
 
-### -field NotifyContext
+#### - NotifyContext
 
 Points to an optional caller-defined context for the caller-supplied function at <b>pfnNotify</b>. If the function does not require a context, <b>NotifyContext</b> can be <b>NULL</b>.
 
 
-### -field Timestamp
+#### - Timestamp
 
 The time associated with completion of the frame. 
 
@@ -204,7 +204,7 @@ For packets to be received, the protocol driver sets this member to the time whe
 For packets to be transmitted, CIP-DV_STYLE_SYT or CIP_AUDIO_STYLE_SYT in <b>Flags</b> indicates the format of the timestamp.
 
 
-### -field Status
+#### - Status
 
 The status of the frame. Can be one of the following:
 
@@ -215,20 +215,20 @@ CIP_STATUS_CORRUPT_FRAME
 CIP_STATUS_FIRST_FRAME
 
 
-### -field Packet
+#### - Packet
 
 Points to the beginning of a caller-allocated data buffer to be transmitted or received with this frame. The frame length specified in the associated <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a> request indicates the size of the buffer.
 
 
-### -field CompletedBytes
+#### - CompletedBytes
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
 
  
 

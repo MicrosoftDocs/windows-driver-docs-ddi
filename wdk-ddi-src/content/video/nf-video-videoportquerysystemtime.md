@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d9b54710-6ad2-4959-9172-76c90468d343
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportquerysystemtime, video/VideoPortQuerySystemTime, VideoPortQuerySystemTime function [Display Devices], VideoPort_Functions_18c4e015-b294-40e0-8aef-7642d3a9cb27.xml, VideoPortQuerySystemTime
+ms.keywords: VideoPortQuerySystemTime function [Display Devices], display.videoportquerysystemtime, VideoPortQuerySystemTime, VideoPort_Functions_18c4e015-b294-40e0-8aef-7642d3a9cb27.xml, video/VideoPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID VideoPortQuerySystemTime(
 
 
 
-### -param CurrentTime [out]
+#### - CurrentTime [out]
 
 Pointer to a memory location that will receive the current system time.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4bf5c95f-dc08-4d1e-8e52-6d0de19df4c0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_1b73d842-9ef4-4017-b30a-26373b4797b4.xml, KSAUDIO_DYNAMIC_RANGE structure [Audio Devices], *PKSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE structure pointer [Audio Devices], PKSAUDIO_DYNAMIC_RANGE, audio.ksaudio_dynamic_range, ksmedia/PKSAUDIO_DYNAMIC_RANGE, ksmedia/KSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE
+ms.keywords: audio.ksaudio_dynamic_range, aud-prop_1b73d842-9ef4-4017-b30a-26373b4797b4.xml, KSAUDIO_DYNAMIC_RANGE structure [Audio Devices], ksmedia/KSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE, *PKSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE structure pointer [Audio Devices], PKSAUDIO_DYNAMIC_RANGE, ksmedia/PKSAUDIO_DYNAMIC_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field QuietCompression
+#### - QuietCompression
 
 Specifies the compression level for soft sounds. This value ranges from 0 to 100 percent (represented as 0xFFFFFFFF) of the linear range compression for soft sounds. The higher this value, the higher the volume of soft sounds.
 
 
-### -field LoudCompression
+#### - LoudCompression
 
 Specifies the compression level for loud sounds. This value ranges from 0 to 100 percent (represented as 0xFFFFFFFF) of the linear range compression for loud sounds. The higher this value, the lower the volume of loud sounds.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e489919c-c0a7-4792-9758-ce7b587b13cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_BLEND, display.dxgk_multiplane_overlay_blend, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_BLEND"
+ms.keywords: d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND, _DXGK_MULTIPLANE_OVERLAY_BLEND, display.dxgk_multiplane_overlay_blend, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_BLEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_BLEND {
 
 
 
-### -field AlphaBlend
+#### - AlphaBlend
 
 If set, the overlay plane should use the pre-multiplied alpha channel in this plane to blend it with the plane beneath.
 
@@ -87,7 +87,7 @@ If zero, the overlay plane should ignore data in the alpha channel and make the 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
@@ -98,7 +98,7 @@ This member is reserved and should be set to zero.
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies the type of blend operation to perform.
 

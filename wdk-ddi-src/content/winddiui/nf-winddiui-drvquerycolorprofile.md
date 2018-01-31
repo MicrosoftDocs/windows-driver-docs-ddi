@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f6eec5a1-7d73-415f-84d9-1ec3f512abaf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvQueryColorProfile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, print.drvquerycolorprofile, winddiui/DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices]
+ms.keywords: DrvQueryColorProfile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, winddiui/DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], print.drvquerycolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvQueryColorProfile
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -73,17 +73,17 @@ BOOL DrvQueryColorProfile(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 Caller-supplied printer handle.
 
 
-### -param pdevmode [in]
+#### - pdevmode [in]
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-### -param ulQueryMode
+#### - ulQueryMode
 
 One of the following caller-supplied bit flags, indicating the type of profile to be specified.
 <table>
@@ -114,17 +114,17 @@ The caller is requesting a source profile.
 </table> 
 
 
-### -param pvProfileData [out]
+#### - pvProfileData [out]
 
 Caller-supplied pointer to a buffer to receive profile information.
 
 
-### -param pcbProfileData [out]
+#### - pcbProfileData [out]
 
 Caller-supplied pointer to a value representing the size, in bytes, of the buffer pointed to by <i>pvProfileData</i>.
 
 
-### -param pflProfileData [out]
+#### - pflProfileData [out]
 
 One of the following function-supplied bit flags, indicating the type of information the function is returning.
 <table>

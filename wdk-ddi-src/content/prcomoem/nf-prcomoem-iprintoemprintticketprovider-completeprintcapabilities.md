@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 067eca3b-f487-405a-9799-bd62376f9e24
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], CompletePrintCapabilities method, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml, CompletePrintCapabilities, CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider::CompletePrintCapabilities, print.iprintoemprintticketprovider_completeprintcapabilities
+ms.keywords: CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, print.iprintoemprintticketprovider_completeprintcapabilities, CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], CompletePrintCapabilities method, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml, IPrintOemPrintTicketProvider::CompletePrintCapabilities, CompletePrintCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT CompletePrintCapabilities(
 
 
 
-### -param pPrintTicket [in]
+#### - pPrintTicket [in]
 
 A pointer to an input print ticket. Any configuration-dependent data in the print capabilities (that is, data that would be represented by a *<b>Switch</b> / *<b>Case</b> construct in a GPD file) must be based on the settings in the print ticket. If the application does not provide a print ticket, this parameter can be <b>NULL</b>. In such situations, the provider should assume default settings for feature and parameter constructs.
 
 
-### -param pCapabilities [in, out]
+#### - pCapabilities [in, out]
 
 A pointer to a partially-complete print capabilities document. When <code>IPrintOemPrintTicketProvider::CompletePrintCapabilities</code> returns, the buffer that is pointed to by <i>pCapablities</i> should contain a completed print capabilities document.
 

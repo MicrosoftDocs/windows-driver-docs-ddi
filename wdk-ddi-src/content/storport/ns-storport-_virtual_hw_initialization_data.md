@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: VIRTUAL_HW_INITIALIZATION_DATA, storage.virtual_hw_initialization_data, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml, *PVIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], storport/VIRTUAL_HW_INITIALIZATION_DATA, _VIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, storport/PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices]
+ms.keywords: VIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml, _VIRTUAL_HW_INITIALIZATION_DATA, storage.virtual_hw_initialization_data, storport/PVIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], storport/VIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,168 +102,168 @@ typedef struct _VIRTUAL_HW_INITIALIZATION_DATA {
 
 
 
-### -field ReservedUshort
+#### - ReservedUshort
 
 Reserved.
 
 
-### -field PortVersionFlags
+#### - PortVersionFlags
 
 A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
 
 
-### -field HwInitializationDataSize
+#### - HwInitializationDataSize
 
 Specifies the size of this structure in bytes, as returned by <b>sizeof</b>(). This member indicates the version of this structure that is used by the virtual miniport driver. A virtual miniport driver's <b>DriverEntry</b> routine should set this member's value for the port driver.
 
 
-### -field AdapterInterfaceType
+#### - AdapterInterfaceType
 
 The Storport driver does not support legacy buses. Therefore, most of the adapter interface types that are used with the SCSI port driver are invalid for Storport drivers. In particular, Storport does not support Isa, Eisa, MicroChannel, and TurboChannel. Furthermore, unlike the SCSI port case, a virtual miniport driver that works with the Storport driver is not required to supply values for the <b>VendorIdLength</b>, <b>VendorId</b>, <b>DeviceIdLength</b>, and <b>DeviceId</b> members.
 
 
-### -field HwInitialize
+#### - HwInitialize
 
 A pointer to the virtual miniport driver's <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
-### -field HwStartIo
+#### - HwStartIo
 
 A pointer to the virtual miniport driver's <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
-### -field HwInterrupt
+#### - HwInterrupt
 
 Not used. Virtual miniport drivers do not process interrupts.
 
 
-### -field HwFindAdapter
+#### - HwFindAdapter
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568008">VirtualHwStorFindAdapter</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
-### -field HwResetBus
+#### - HwResetBus
 
 A pointer to the virtual miniport driver's <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
-### -field HwDmaStarted
+#### - HwDmaStarted
 
 Not used. Virtual miniport drivers do not perform DMA.
 
 
-### -field HwAdapterState
+#### - HwAdapterState
 
 The Storport driver does not support legacy drivers. Therefore, this member must be <b>NULL</b>.
 
 
-### -field DeviceExtensionSize
+#### - DeviceExtensionSize
 
 Specifies the size, in bytes, that is required by the virtual miniport driver for its per-adapter non-paged device extension. A virtual miniport driver uses its device extension as storage for driver-determined adapter information. The operating system-specific port driver initializes each device extension that it allocates with zeros, and passes a pointer to the adapter-specific device extension in most calls to the virtual miniport driver. The given size does not include any virtual miniport driver-requested per-logical-unit storage.
 
 
-### -field SpecificLuExtensionSize
+#### - SpecificLuExtensionSize
 
 Specifies the size, in bytes, that is required by the virtual miniport driver for its per-logical-unit non-paged storage, if any. A virtual miniport driver can use its logical unit (LU) extensions as storage for driver-determined LU information about peripherals on the virtual bus. The operating system-specific port driver initializes each LU extension that it allocates with zeros. Leave this member set to zero if the virtual miniport driver does not maintain per-LU information for which it requires storage.
 
 
-### -field SrbExtensionSize
+#### - SrbExtensionSize
 
 Specifies the size, in bytes, that is required by the virtual miniport driver for its per-request non-paged storage, if any. Because virtual miniport drivers that work with the Storport driver must support scatter/gather lists, and the per-SRB scatter/gather lists are usually allocated in the SRB extension, this member is rarely zero.
 
 
-### -field NumberOfAccessRanges
+#### - NumberOfAccessRanges
 
 Not used. Virtual miniport drivers do not support hardware.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field MapBuffers
+#### - MapBuffers
 
 Not valid for virtual miniport drivers. The virtual miniport driver must map all data buffers into virtual address space.
 
 
-### -field NeedPhysicalAddresses
+#### - NeedPhysicalAddresses
 
 Not used. Virtual miniport drivers do not support hardware.
 
 
-### -field TaggedQueuing
+#### - TaggedQueuing
 
 Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the virtual miniport driver supports tagged queuing.
 
 
-### -field AutoRequestSense
+#### - AutoRequestSense
 
 Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the HBA can perform a request-sense operation without requiring an explicit request to do so.
 
 
-### -field MultipleRequestPerLu
+#### - MultipleRequestPerLu
 
 Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the virtual miniport driver can queue multiple requests per logical unit (LU).
 
 
-### -field ReceiveEvent
+#### - ReceiveEvent
 
 Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the virtual miniport driver supports receive events.
 
 
-### -field VendorIdLength
+#### - VendorIdLength
 
 The length, in bytes, of the vendor identifier.
 
 
-### -field VendorId
+#### - VendorId
 
 The vendor identifier.
 
 
-### -field DeviceIdLength
+#### - DeviceIdLength
 
 The length, in bytes, of the device identifier.
 
 
-### -field DeviceId
+#### - DeviceId
 
 The device identifier.
 
 
-### -field HwAdapterControl
+#### - HwAdapterControl
 
 A pointer to the virtual miniport driver's <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> routine. 
 
 
-### -field HwBuildIo
+#### - HwBuildIo
 
 
       This member is not used.
 
 
-### -field HwFreeAdapterResources
+#### - HwFreeAdapterResources
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
-### -field HwProcessServiceRequest
+#### - HwProcessServiceRequest
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a> routine.
 
 
-### -field HwCompleteServiceIrp
+#### - HwCompleteServiceIrp
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a> routine.
 
 
-### -field HwInitializeTracing
+#### - HwInitializeTracing
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a> routine.
 
 
-### -field HwCleanupTracing
+#### - HwCleanupTracing
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine.
 
@@ -279,23 +279,23 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568008">VirtualHwStorFindAdapter</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
 
 <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	SynchReadPort
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_SYNCH_READ_PORT callback
@@ -72,17 +72,17 @@ NTSTATUS SynchReadPort(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a context supplied by I8042prt.
 
 
-### -param Value [out]
+#### - Value [out]
 
 Pointer to the UCHAR value returned by the routine.
 
 
-### -param WaitForACK [in]
+#### - WaitForACK [in]
 
 Not used.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17dbc843-dc65-40d7-9cda-916127e4cfa4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCDROM_READ_TOC_EX structure pointer [Storage Devices], ntddcdrm/PCDROM_READ_TOC_EX, CDROM_READ_TOC_EX structure [Storage Devices], _CDROM_READ_TOC_EX, CDROM_READ_TOC_EX, storage.cdrom_read_toc_ex, structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml, *PCDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX, PCDROM_READ_TOC_EX
+ms.keywords: structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml, _CDROM_READ_TOC_EX, PCDROM_READ_TOC_EX, storage.cdrom_read_toc_ex, CDROM_READ_TOC_EX structure [Storage Devices], PCDROM_READ_TOC_EX structure pointer [Storage Devices], CDROM_READ_TOC_EX, *PCDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _CDROM_READ_TOC_EX {
 
 
 
-### -field Format
+#### - Format
 
 Specifies table of contents read operation, as follows:
 
@@ -119,27 +119,27 @@ Query the device for <i>absolute time in pregroove</i> (ATIP) data. The output d
 Query the device for CD-TEXT information that is recorded in the lead-in area as R-W subchannel data. The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a> structure with an appended array of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a> structures.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 
 
-### -field Msf
+#### - Msf
 
 Indicates the minute-second-frame bit. When set to one, this bit indicates that minute-second-frame (MSF) addressing must be used. When zero, it indicates that logical block addressing (LBA) must be used. 
 
 
-### -field SessionTrack
+#### - SessionTrack
 
 Specifies the starting track number for which the data will be returned, the session for which the command is targeted, or a reserved field that drivers should set to zero. Which of these values <b>SessionTrack</b> takes depends on the value of the <b>Format</b> member. 
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved
 
 
-### -field Reserved3
+#### - Reserved3
 
 Reserved
 
@@ -153,23 +153,23 @@ For further information and definitions of terms used in this reference page and
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_pma_data.md">CDROM_TOC_PMA_DATA</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_pma_data.md">CDROM_TOC_PMA_DATA</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
  
 

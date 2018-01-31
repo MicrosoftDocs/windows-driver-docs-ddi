@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 4D3DE8AE-99FB-48C8-A2FC-099CA908EC18
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCONTROLLER_ATTRIBUTE_FLAGS structure pointer [Parallel Ports], PCONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS, gpioclx/CONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS structure [Parallel Ports], GPIO.controller_attribute_flags, CONTROLLER_ATTRIBUTE_FLAGS, _CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/PCONTROLLER_ATTRIBUTE_FLAGS
+ms.keywords: CONTROLLER_ATTRIBUTE_FLAGS structure [Parallel Ports], gpioclx/CONTROLLER_ATTRIBUTE_FLAGS, GPIO.controller_attribute_flags, PCONTROLLER_ATTRIBUTE_FLAGS, gpioclx/PCONTROLLER_ATTRIBUTE_FLAGS, PCONTROLLER_ATTRIBUTE_FLAGS structure pointer [Parallel Ports], CONTROLLER_ATTRIBUTE_FLAGS, _CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _CONTROLLER_ATTRIBUTE_FLAGS {
 
 
 
-### -field MemoryMappedController
+#### - MemoryMappedController
 
 Whether the GPIO controller is memory-mapped. If this flag is set, the hardware registers of the GPIO controller are mapped to memory addresses, and can be directly accessed by a GPIO controller driver routine that is running at DIRQL. Otherwise, the registers of the GPIO controller can be accessed only by means of I/O requests, which the GPIO controller driver sends at IRQL = PASSIVE_LEVEL. For more information, see Remarks.
 
 
-### -field ActiveInterruptsAutoClearOnRead
+#### - ActiveInterruptsAutoClearOnRead
 
 Whether active interrupts are automatically cleared when the GPIO controller driver reads them. If this flag is set, GpioClx assumes that interrupts are automatically cleared when they are read and, therefore, does not explicitly request that the driver clear active interrupts during interrupt processing. Otherwise, GpioClx explicitly requests that active interrupts be cleared. For more information, see the discussion of the <b>ActiveInterruptsAutoClearOnRead</b> flag bit in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>.
 
 
-### -field FormatIoRequestsAsMasks
+#### - FormatIoRequestsAsMasks
 
 Whether callback functions that read from or write to GPIO pins should specify read and write values as 64-bit masks. If this flag is set, GpioClx uses <a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a> callbacks that read GPIO pin values into masks, and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a> callbacks that use masks to designate GPIO pins to set and clear. Otherwise, GpioClx uses <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a> callbacks that use arrays of pin numbers to specify which GPIO pins to access. For more information, see the discussion of the <b>FormatIoRequestsAsMasks</b> flag bit in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>.
 
 
-### -field DeviceIdlePowerMgmtSupported
+#### - DeviceIdlePowerMgmtSupported
 
 Whether the GPIO controller supports device-level power management. If this flag is set, the GPIO controller can be put into a low-power (D3) state when it is idle (that is, when there are no active connections to the controller). Otherwise, the GPIO controller remains in the fully on (D0) power state any time the controller is turned on.
 
 
-### -field BankIdlePowerMgmtSupported
+#### - BankIdlePowerMgmtSupported
 
 Whether the GPIO controller supports component-level power management. If this flag is set, one or more banks in the GPIO controller can be put into a low-power state independently of the other banks in the GPIO controller. Otherwise, the power states of the banks cannot be individually controlled. This flag can be set only for a GPIO controller whose registers are memory-mapped, as indicated by the <b>MemoryMappedController</b> flag. Typically, only a GPIO controller that is an integrated part of a SoC module is memory-mapped. A GPIO controller that is external the SoC module is typically not memory-mapped.
 
 
-### -field EmulateDebouncing
+#### - EmulateDebouncing
 
 Whether debouncing of input signals to GPIO pins is performed by software or by hardware. If this flag is set, the GPIO controller requires debouncing to be emulated in software by the GPIO framework extension (GpioClx). Otherwise, debouncing is performed by hardware, and software-emulated debouncing is unnecessary.
 
 
-### -field EmulateActiveBoth
+#### - EmulateActiveBoth
 
 Whether the GPIO controller driver requires GpioClx to emulate active-both interrupts in software. If this flag is set, GpioClx emulates active-both interrupts in software. Otherwise, GpioClx does not emulate active-both interrupts. For more information, see Remarks.
 
@@ -114,7 +114,7 @@ Whether the GPIO controller driver requires GpioClx to emulate active-both inter
  
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
@@ -144,21 +144,21 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
 
  
 

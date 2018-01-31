@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 81c5eced-3d68-4202-83b9-57d661fe4952
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/OEMDocumentPropertySheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, OEMDocumentPropertySheets, OEMDocumentPropertySheets function [Print Devices], print.oemdocumentpropertysheets
+ms.keywords: printoem/OEMDocumentPropertySheets, OEMDocumentPropertySheets function [Print Devices], print.oemdocumentpropertysheets, OEMDocumentPropertySheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,10 +68,10 @@ LRESULT APIENTRY OEMDocumentPropertySheets(
 
 
 
-### -param pPSUIInfo [in]
+#### - pPSUIInfo [in]
 
 
 
-### -param lParam
+#### - lParam
 
 

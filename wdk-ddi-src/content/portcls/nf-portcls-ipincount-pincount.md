@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8b7a49cc-5061-475b-ac03-cbf43954c413
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPinCount interface [Audio Devices], PinCount method, PinCount, PinCount method [Audio Devices], IPinCount interface, PinCount method [Audio Devices], portcls/IPinCount::PinCount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, audio.ipincount_pincount, IPinCount::PinCount, IPinCount
+ms.keywords: IPinCount interface [Audio Devices], PinCount method, IPinCount::PinCount, PinCount method [Audio Devices], IPinCount interface, audio.ipincount_pincount, IPinCount, PinCount method [Audio Devices], portcls/IPinCount::PinCount, PinCount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPinCount.PinCount
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPinCount::PinCount method
@@ -72,32 +72,32 @@ void PinCount(
 
 
 
-### -param PinId [in]
+#### - PinId [in]
 
 Specifies the pin ID. If a filter contains <i>n</i> pin factories, valid pin IDs range from 0 to <i>n</i>-1.
 
 
-### -param FilterNecessary [in, out]
+#### - FilterNecessary [in, out]
 
 Specifies the minimum number of pins that the pin factory should instantiate before the filter can perform I/O operations.
 
 
-### -param FilterCurrent [in, out]
+#### - FilterCurrent [in, out]
 
 Specifies the current number of pin instances. This number counts the pins that the pin factory has already instantiated on the filter.
 
 
-### -param FilterPossible [in, out]
+#### - FilterPossible [in, out]
 
 Specifies the maximum number of pins that the pin factory can instantiate on the filter. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
 
-### -param GlobalCurrent [in, out]
+#### - GlobalCurrent [in, out]
 
 Specifies the current number of pins that the pin factory has instantiated on the driver.
 
 
-### -param GlobalPossible [in, out]
+#### - GlobalPossible [in, out]
 
 Specifies the maximum number of pins that the pin factory can instantiate on the driver. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
@@ -158,19 +158,19 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 <a href="..\portcls\nn-portcls-ipincount.md">IPinCount</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
  
 

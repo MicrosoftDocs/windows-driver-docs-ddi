@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dce4a087-a14b-400b-bdc1-944c1d4d492a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WSK_SOCKET, PWSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], netvista.wsk_socket, _WSK_SOCKET, wsk/WSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml, *PWSK_SOCKET, PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], wsk/PWSK_SOCKET
+ms.keywords: WSK_SOCKET, PWSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml, wsk/PWSK_SOCKET, netvista.wsk_socket, *PWSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_SOCKET, _WSK_SOCKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _WSK_SOCKET {
 
 
 
-### -field Dispatch
+#### - Dispatch
 
 A pointer to a constant provider dispatch structure. This structure is a dispatch table that
      contains pointers to a socket's functions. Depending on the WSK 
@@ -193,22 +193,22 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 <mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
    WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 <mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
    WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 

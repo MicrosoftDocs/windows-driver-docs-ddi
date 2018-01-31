@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: ACB0AB92-5EC8-4792-AB40-853FC5AAD125
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses], buses.ucm_pd_power_data_object_get_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE
+ms.keywords: UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses], ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE, buses.ucm_pd_power_data_object_get_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ FORCEINLINE  UCM_PD_POWER_DATA_OBJECT_GET_TYPE(
 
 
 
-### -param Pdo [in]
+#### - Pdo [in]
 
 A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure that contains the type of Power Data Object.
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7e8cd99a-d1b1-4261-9643-4a84bddfdc01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauStrC2C function [Imaging Devices], wiauStrC2C, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, image.wiaustrc2c, wiautil/wiauStrC2C
+ms.keywords: wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C function [Imaging Devices], wiauStrC2C, image.wiaustrc2c, wiautil/wiauStrC2C
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT _stdcall wiauStrC2C(
 
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 Points to the ANSI string to be copied.
 
 
-### -param pszDst [out]
+#### - pszDst [out]
 
 Pointer to a memory location that receives the copied string
 
 
-### -param iSize
+#### - iSize
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pszDst</i>.
 

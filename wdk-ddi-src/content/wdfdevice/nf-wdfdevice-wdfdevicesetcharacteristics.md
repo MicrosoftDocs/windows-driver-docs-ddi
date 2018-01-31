@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07b5d7ed-fc4c-45e5-8748-2630c91d912a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICESETCHARACTERISTICS, wdfdevice/WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics method, wdf.wdfdevicesetcharacteristics, DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, kmdf.wdfdevicesetcharacteristics
+ms.keywords: wdfdevice/WdfDeviceSetCharacteristics, DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, kmdf.wdfdevicesetcharacteristics, WdfDeviceSetCharacteristics method, wdf.wdfdevicesetcharacteristics, WdfDeviceSetCharacteristics, PFN_WDFDEVICESETCHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfDeviceSetCharacteristics(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param DeviceCharacteristics [in]
+#### - DeviceCharacteristics [in]
 
 A value that consists of ORed system-defined constants that represent device characteristics. For more information, see the <b>Characteristics</b> member of the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
@@ -102,9 +102,9 @@ Each call to <b>WdfDeviceSetCharacteristics</b> overwrites the settings of any p
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetcharacteristics.md">WdfDeviceGetCharacteristics</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetcharacteristics.md">WdfDeviceGetCharacteristics</a>
 
  
 

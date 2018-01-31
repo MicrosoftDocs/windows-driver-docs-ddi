@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlgetnonvolatiletoken, RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers], ntddk/RtlGetNonVolatileToken
+ms.keywords: ntddk/RtlGetNonVolatileToken, RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers], ifsk.rtlgetnonvolatiletoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlGetNonVolatileToken(
 
 
 
-### -param NvBuffer
+#### - NvBuffer
 
 A pointer to the non-volatile memory that the returned <b>NvToken</b> is going to track state for. This should be an address obtained from a file mapping object.
 
 
-### -param Size
+#### - Size
 
 The length, in bytes, of the non-volatile memory buffer <b>NvBuffer</b> points to.
 
 
-### -param NvToken
+#### - NvToken
 
  A pointer to an opaque structure that tracks
         information about the given non-volatile memory region which <b>RtlGetNonVolatileToken</b> had returned.
@@ -153,16 +153,16 @@ This routine is currently not supported for Windows Server until the next major 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
-
-<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
+<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
 
 <a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
 
-<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
+<a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
 
 <mshelp:link keywords="ifsk.RtlFlushNonVolatileMemory" tabindex="0"><b>
 RtlFlushNonVolatileMemory</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
 
  
 

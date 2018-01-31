@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleNameStringWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, debugger.getmodulenamestringwide
+ms.keywords: debugger.getmodulenamestringwide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleNameStringWide, IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, IDebugSymbols3, GetModuleNameStringWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,7 +72,7 @@ HRESULT GetModuleNameStringWide(
 
 
 
-### -param Which [in]
+#### - Which [in]
 
 Specifies which of the module's names to return, possible values are:
 <table>
@@ -133,27 +133,27 @@ The mapped image name.  In most cases, this is <b>NULL</b>. If the debugger is m
 </table> 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
 
-### -param Base [in]
+#### - Base [in]
 
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the name of the module.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 

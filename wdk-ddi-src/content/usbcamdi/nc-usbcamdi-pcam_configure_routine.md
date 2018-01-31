@@ -76,32 +76,32 @@ NTSTATUS CamConfigure(
 
 
 
-### -param BusDeviceObject
+#### - BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param Interface
+#### - Interface
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 
-### -param ConfigurationDescriptor
+#### - ConfigurationDescriptor
 
 Pointer to an initialized <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
 
 
-### -param DataPipeIndex
+#### - DataPipeIndex
 
 Pointer to a value that indicates the index of the data pipe. The camera minidriver should fill in this value before returning.
 
 
-### -param SyncPipeIndex
+#### - SyncPipeIndex
 
 Pointer to a value that indicates the index of the sync pipe, if one is needed. The camera minidriver should fill in this value before returning.
 
@@ -126,11 +126,11 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
 
  
 

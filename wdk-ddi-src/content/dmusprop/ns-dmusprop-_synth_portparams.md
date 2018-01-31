@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 94c953ae-519b-4659-a4c9-a97db7dc31e9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SYNTH_PORTPARAMS structure [Audio Devices], aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, *PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS structure pointer [Audio Devices], PSYNTH_PORTPARAMS, audio.synth_portparams, SYNTH_PORTPARAMS, dmusprop/PSYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS, _SYNTH_PORTPARAMS
+ms.keywords: PSYNTH_PORTPARAMS structure pointer [Audio Devices], *PSYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], SYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, _SYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, dmusprop/PSYNTH_PORTPARAMS, audio.synth_portparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _SYNTH_PORTPARAMS {
 
 
 
-### -field ValidParams
+#### - ValidParams
 
 Specifies which of the SYNTH_PORTPARAMS structure members contain valid data. This member is a bitfield whose value is either zero or the bitwise OR of one or more of the following flag bits:
 
@@ -110,27 +110,27 @@ The <b>EffectsFlags</b> flag is valid.
 The <b>Share</b> field is valid.
 
 
-### -field Voices
+#### - Voices
 
 Specifies the maximum number of simultaneous voices that the application wishes to play on this port.
 
 
-### -field ChannelGroups
+#### - ChannelGroups
 
 Specifies the number of channel groups requested for this port. Each channel group contains 16 channels.
 
 
-### -field AudioChannels
+#### - AudioChannels
 
 Specifies the number of audio channels.
 
 
-### -field SampleRate
+#### - SampleRate
 
 Specifies the number of samples per second for the audio data produced by the port.
 
 
-### -field EffectsFlags
+#### - EffectsFlags
 
 Specifies the type of effects produced for audio output from this port. This member is a bitfield whose value is either zero or the bitwise OR of one or more of the following flag bits:
 
@@ -154,7 +154,7 @@ Chorus effect is enabled.
 Delay effect is enabled.
 
 
-### -field Share
+#### - Share
 
 Specifies whether the port's channel groups are shared. When this member is <b>TRUE</b>, all ports use the channel groups assigned to this port. When this member is <b>FALSE</b>, the port is opened in exclusive mode and the use of the same channel groups by other ports is not allowed.
 

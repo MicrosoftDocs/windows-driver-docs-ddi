@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
+ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY {
 
 
 
-### -field Resident
+#### - Resident
 
 Set to 0 when the allocation is evicted and set to 1 when the allocation is committed.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is not used and should be set to zero.
 
 
-### -field hAllocation
+#### - hAllocation
 
 The kernel mode driver handle returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>.
 
 
-### -field PhysicalAddress
+#### - PhysicalAddress
 
 The physical address of the allocation. The physical address (0, 0) is invalid and is used when the allocation is being evicted.  
 

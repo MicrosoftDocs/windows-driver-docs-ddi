@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ImageProcessing method [Print Devices], IPrintOemUni interface, ImageProcessing method [Print Devices], prcomoem/IPrintOemUni::ImageProcessing, IPrintOemUni interface [Print Devices], ImageProcessing method, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, print.iprintoemuni_imageprocessing, IPrintOemUni::ImageProcessing, IPrintOemUni, ImageProcessing
+ms.keywords: ImageProcessing, ImageProcessing method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], ImageProcessing method, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, IPrintOemUni, ImageProcessing method [Print Devices], prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, IPrintOemUni::ImageProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,39 +74,39 @@ HRESULT ImageProcessing(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param pSrcBitmap
+#### - pSrcBitmap
 
 Caller-supplied pointer to an input <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DIB</a>.
 
 
-### -param pBitmapInfoHeader
+#### - pBitmapInfoHeader
 
 Caller-supplied pointer to a BITMAPINFOHEADER structure that describes the bitmap pointed to by <i>pSrcBitmap</i>. The BITMAPINFOHEADER structure is described in the Microsoft Windows SDK documentation.
 
 
-### -param pColorTable
+#### - pColorTable
 
 Caller-supplied pointer to a color table. This parameter is used only if the output format is eight bits per pixel. For more information, see the following Remarks section.
 
 When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the <i>pPaletteEntry</i> parameter in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>.
 
 
-### -param dwCallbackID
+#### - dwCallbackID
 
 Caller-supplied value assigned to the *<b>IPCallbackID</b> attribute of the currently selected option for the ColorMode feature. For more information, see the following Remarks section.
 
 
-### -param pIPParams
+#### - pIPParams
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-ipparams.md">IPPARAMS</a> structure.
 
 
-### -param ppbResult [out]
+#### - ppbResult [out]
 
 Pointer to a memory location that contains the address of a buffer. The contents of the buffer depend on where the converted DIB should be sent.
 
@@ -256,9 +256,9 @@ The BITMAPINFOHEADER structure specified by <i>pBitmapInfoHeader</i> must descri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554252">IPrintOemUni::FilterGraphics</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>
 
  
 

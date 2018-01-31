@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, dbgeng/IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide, SetEventFilterCommandWide method [Windows Debugging]
+ms.keywords: dbgeng/IDebugControl4::SetEventFilterCommandWide, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetEventFilterCommandWide, IDebugControl4, debugger.seteventfiltercommandwide, SetEventFilterCommandWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SetEventFilterCommandWide(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the event filter.  <i>Index</i> can take any value between zero and one less than the total number of event filters returned by <b>GetNumberEventFilters</b> (inclusive).  For more information about the index of the filters, see Index and Exception Code.
 
 
-### -param Command [in]
+#### - Command [in]
 
 Specifies the debugger command for the engine to execute when the event occurs.
 
@@ -111,13 +111,13 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57266CAE-C069-4379-92FD-0F93FECC6EB5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelsavecontinue, VmbChannelSaveContinue, VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSaveContinue
+ms.keywords: VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsavecontinue, vmbuskernelmodeclientlibapi/VmbChannelSaveContinue, VmbChannelSaveContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbChannelSaveContinue
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -75,30 +75,30 @@ NTSTATUS VmbChannelSaveContinue(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel to save.  
 
 
-### -param SaveBuffer [out]
+#### - SaveBuffer [out]
 
 A pointer to buffer into which to save state information. 
 
 
-### -param SaveBufferSize [in]
+#### - SaveBufferSize [in]
 
 The size, in bytes, of the save buffer.
 
 
 
-### -param BytesFilled [out]
+#### - BytesFilled [out]
 
 A pointer to a variable that receives the number of bytes
 that were copied to the save buffer.
 
 
 
-### -param BytesRequired [out]
+#### - BytesRequired [out]
 
 A pointer to a variable that receives the number of
 bytes that are needed for this function to make progress on the next

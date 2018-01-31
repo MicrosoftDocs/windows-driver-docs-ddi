@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 600916e1-37c2-4766-93d9-b7d32a542542
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemoveRADIUSServer_IN structure [Storage Devices], PRemoveRADIUSServer_IN structure pointer [Storage Devices], structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml, iscsiop/PRemoveRADIUSServer_IN, storage.removeradiusserver_in, RemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN, iscsiop/RemoveRADIUSServer_IN, PRemoveRADIUSServer_IN, _RemoveRADIUSServer_IN
+ms.keywords: storage.removeradiusserver_in, PRemoveRADIUSServer_IN structure pointer [Storage Devices], structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml, iscsiop/PRemoveRADIUSServer_IN, PRemoveRADIUSServer_IN, _RemoveRADIUSServer_IN, RemoveRADIUSServer_IN, RemoveRADIUSServer_IN structure [Storage Devices], *PRemoveRADIUSServer_IN, iscsiop/RemoveRADIUSServer_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _RemoveRADIUSServer_IN {
 
 
 
-### -field RADIUSIPAddress
+#### - RADIUSIPAddress
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that specifies the address of the RADIUS server to remove.
 

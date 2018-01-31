@@ -74,22 +74,22 @@ VP_STATUS Int10AllocateBuffer(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> returns.
 
 
-### -param Seg [out]
+#### - Seg [out]
 
 Pointer to a memory location that will receive the segment address of the allocated memory buffer.
 
 
-### -param Off [out]
+#### - Off [out]
 
 Pointer to a memory location that will receive the offset within the segment specified by *<i>Seg</i>, of the allocated memory buffer.
 
 
-### -param Length [in, out]
+#### - Length [in, out]
 
 Pointer to a memory location that contains the length, in bytes, of the requested memory buffer, which can be as large as 4096. When the function returns, this memory location will contain the value 4096, whether the memory was actually allocated.
 

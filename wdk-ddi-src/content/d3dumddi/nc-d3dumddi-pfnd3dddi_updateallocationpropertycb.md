@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY pfnUpdateAllocationPropertyCb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device associated with the allocation
 

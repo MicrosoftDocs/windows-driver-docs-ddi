@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY Blt(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -153,11 +153,11 @@ The Direct3D runtime can call the user-mode display driver's <b>Blt</b> function
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
  
 

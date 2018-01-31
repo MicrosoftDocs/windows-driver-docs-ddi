@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/SubsystemInformationTypeWSL, SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32, SubsystemInformationTypeWin32, SUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, ntddk/MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/SUBSYSTEM_INFORMATION_TYPE, _SUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, *PSUBSYSTEM_INFORMATION_TYPE
+ms.keywords: ntddk/SubsystemInformationTypeWin32, _SUBSYSTEM_INFORMATION_TYPE, ntddk/SUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWin32, *PSUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, SubsystemInformationTypeWSL, ntddk/MaxSubsystemInformationType, ntddk/SubsystemInformationTypeWSL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SUBSYSTEM_INFORMATION_TYPE
 product: Windows
 targetos: Windows
-req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
+req.typenames: "*PSUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE"
 ---
 
 # _SUBSYSTEM_INFORMATION_TYPE enumeration
@@ -69,12 +69,12 @@ typedef enum _SUBSYSTEM_INFORMATION_TYPE {
 
 
 
-### -field SubsystemInformationTypeWin32
+#### - SubsystemInformationTypeWin32
 
 The subsystem type for the process or thread is Win32.
 
 
-### -field SubsystemInformationTypeWSL
+#### - SubsystemInformationTypeWSL
 
 The subsystem type for the process or thread is Windows Subsystem for Linux (WSL). For this process, these members of  the <a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a> structure are set as follows:
 <ul>
@@ -84,7 +84,7 @@ The subsystem type for the process or thread is Windows Subsystem for Linux (WSL
 </ul> The preceding member values may be NULL.
 
 
-### -field MaxSubsystemInformationType
+#### - MaxSubsystemInformationType
 
 Reserved.
 

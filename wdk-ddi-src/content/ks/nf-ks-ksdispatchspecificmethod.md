@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d23ba3a3-9fcf-46a5-88dd-42af389c8598
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices], ks/KsDispatchSpecificMethod, stream.ksdispatchspecificmethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml
+ms.keywords: KsDispatchSpecificMethod, ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod, KsDispatchSpecificMethod function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS KsDispatchSpecificMethod(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP with the method request being dispatched.
 
 
-### -param Handler [in]
+#### - Handler [in]
 
 Specifies the pointer to the specific method handler.
 

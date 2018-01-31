@@ -71,7 +71,7 @@ NTSTATUS APIENTRY DxgkDdiIsSupportedVidPn(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 

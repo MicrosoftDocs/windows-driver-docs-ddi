@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 408ae5d4-f83f-4e4a-9850-a7bae70a2da2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILDEACTIVATEPERSOPARAMS, *LPRILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILDEACTIVATEPERSOPARAMS, netvista.rildeactivatepersoparams
+ms.keywords: RILDEACTIVATEPERSOPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS, ntddrilapitypes/RILDEACTIVATEPERSOPARAMS, netvista.rildeactivatepersoparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,10 +68,10 @@ typedef struct _RILDEACTIVATEPERSOPARAMS {
 
 
 
-### -field dwPersoFeature
+#### - dwPersoFeature
 
 
 
-### -field szPassword
+#### - szPassword
 
 

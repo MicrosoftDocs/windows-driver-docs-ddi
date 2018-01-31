@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e4f9610-52f4-4807-94f0-c408ecb0673c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgi_ddi_arg_getmultiplaneoverlaycaps, _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices]
+ms.keywords: "_DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, display.dxgi_ddi_arg_getmultiplaneoverlaycaps, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A handle to the display device (graphics context) for which overlay plane capabilities are needed.
 
 The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> routine.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based video present network (VidPN) source identification number of the input for which the capabilities are queried.
 
@@ -96,11 +96,11 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a>
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
 
  
 

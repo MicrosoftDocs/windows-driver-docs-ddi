@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e85357d-9fe2-406b-bc1a-69e4357a0f8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NdisUpdateOffload, netvista.ndisupdateoffload, tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml, NdisUpdateOffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisUpdateOffload, ndischimney/NdisUpdateOffload, tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml, netvista.ndisupdateoffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisUpdateOffload(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
@@ -81,7 +81,7 @@ The handle that NDIS provided at the
      target.
 
 
-### -param OffloadBlockList [in]
+#### - OffloadBlockList [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
@@ -121,20 +121,20 @@ From the
 
 ## -see-also
 
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
-<mshelp:link keywords="netvista.protocolupdateoffloadcomplete" tabindex="0"><i>
-   ProtocolUpdateOffloadComplete</i></mshelp:link>
+<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+<mshelp:link keywords="netvista.protocolupdateoffloadcomplete" tabindex="0"><i>
+   ProtocolUpdateOffloadComplete</i></mshelp:link>
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
 
  
 

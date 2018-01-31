@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13375ae1-6908-44d8-b775-4375f4fdde4d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfControlFinishInitializing, wdf.wdfcontrolfinishinitializing, WdfControlFinishInitializing method, DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, kmdf.wdfcontrolfinishinitializing, PFN_WDFCONTROLFINISHINITIALIZING, wdfcontrol/WdfControlFinishInitializing
+ms.keywords: kmdf.wdfcontrolfinishinitializing, WdfControlFinishInitializing method, wdfcontrol/WdfControlFinishInitializing, PFN_WDFCONTROLFINISHINITIALIZING, DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, wdf.wdfcontrolfinishinitializing, WdfControlFinishInitializing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfControlFinishInitializing(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a control device object.
 

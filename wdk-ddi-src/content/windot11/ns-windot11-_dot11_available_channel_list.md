@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11fee366-5853-4702-8179-d5b764174dce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_AVAILABLE_CHANNEL_LIST, netvista.dot11_available_channel_list, Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_AVAILABLE_CHANNEL_LIST, _DOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST, windot11/PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_AVAILABLE_CHANNEL_LIST"
+ms.keywords: windot11/PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST, *PDOT11_AVAILABLE_CHANNEL_LIST, _DOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_AVAILABLE_CHANNEL_LIST, netvista.dot11_available_channel_list, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], PDOT11_AVAILABLE_CHANNEL_LIST, Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_AVAILABLE_CHANNEL_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST"
+req.typenames: DOT11_AVAILABLE_CHANNEL_LIST, *PDOT11_AVAILABLE_CHANNEL_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ typedef struct _DOT11_AVAILABLE_CHANNEL_LIST {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_AVAILABLE_CHANNEL_LIST structure. This member is
      formatted as an 
@@ -106,19 +106,19 @@ This member must be set to
        <b>sizeof</b>(DOT11_AVAILABLE_CHANNEL_LIST).
 
 
-### -field uNumOfEntries
+#### - uNumOfEntries
 
 The number of entries in the 
      <b>uChannelNumber</b> array.
 
 
-### -field uTotalNumOfEntries
+#### - uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>uChannelNumber</b> array can contain.
 
 
-### -field uChannelNumber
+#### - uChannelNumber
 
 An array that specifies the list of available operating frequency channels of the 
      <mshelp:link keywords="netvista.dsss__hrdsss__and_erp_phy_configuration" tabindex="0">DSSS, HRDSSS, and ERP PHY

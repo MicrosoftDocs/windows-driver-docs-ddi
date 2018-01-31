@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9bec95c9-785f-4578-a28a-6cffc986a3b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_child_identification_description_header, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, kmdf.wdf_child_identification_description_header, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer
+ms.keywords: PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdf.wdf_child_identification_description_header, kmdf.wdf_child_identification_description_header, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER {
 
 
 
-### -field IdentificationDescriptionSize
+#### - IdentificationDescriptionSize
 
 The size, in bytes, of a driver-defined structure that contains device identification information.
 
@@ -116,11 +116,11 @@ WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(&amp;ID_Description,
 
 ## -see-also
 
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
  
 

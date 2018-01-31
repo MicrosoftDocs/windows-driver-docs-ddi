@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 577ce93a-5a90-4e85-afc6-3791f402c238
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiautil/wiauDbgHelper2, wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, image.wiaudbghelper2
+ms.keywords: wiauDbgHelper2 function [Imaging Devices], wiauDbgHelper2, wiautil/wiauDbgHelper2, wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, image.wiaudbghelper2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ void __stdcall wiauDbgHelper2(
 
 
 
-### -param prefix
+#### - prefix
 
 Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated with the message. 
 
 
-### -param fname
+#### - fname
 
 Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgHelper2</b> is inserted.
 
@@ -121,15 +121,15 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
-
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbghelper.md">wiauDbgHelper</a>
 

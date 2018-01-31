@@ -79,36 +79,34 @@ NDIS_STATUS MiniportWdiTalTxRxInitialize(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 Handle for the IHV miniport context.
 
 
-### -param NdisMiniportDataPathHandle [in]
+#### - NdisMiniportDataPathHandle [in]
 
 Handle for the IHV miniport to use in datapath indications.
 
 
-### -param NdisWdiDataPathApi [in]
+#### - NdisWdiDataPathApi [in]
 
 Pointer to the WDI data API function table.
 
 
-### -param pMiniportTalTxRxContext [out]
+#### - pMiniportTalTxRxContext [out]
 
 The TAL device handle is a control path handle for the device (for example, MiniportContext). It is associated with the MiniportHandle, which used as context for NDIS API calls.
 
 
-### -param pMiniportDataHandlers [in, out]
+#### - pMiniportDataHandlers [in, out]
 
 The UE initializes the NDIS Header field so the LE can determine the revision and size that is safe to initialize according to traditional NDIS versioning rules.  The LE is responsible for updating the Header with the revision and size that the LE actually implements and supports before returning.
 
 
-### -param *pMiniportWdiFrameMetadataExtraSpace
+#### - *pMiniportWdiFrameMetadataExtraSpace [out]
 
-
-
-
+The LE sets the value pointed to by this parameter to the amount of space that WDI should reserve after the <a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a> for the LE to use.
 
 
 #### - pMiniportWdiFrameMetadataExtraSpace [out]
@@ -143,11 +141,11 @@ Indicates that the miniport driver successfully exchanged datapath component han
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
-
 <a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
+
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
 
  
 

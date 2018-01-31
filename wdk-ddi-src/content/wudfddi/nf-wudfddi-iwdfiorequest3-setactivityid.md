@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57CB3CED-FE46-4A74-9E23-82640B7EF1DC
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetActivityId method, IWDFIoRequest3 interface, wdf.iwdfiorequest3_setactivityid, IWDFIoRequest3, wudfddi/IWDFIoRequest3::SetActivityId, SetActivityId, IWDFIoRequest3::SetActivityId, IWDFIoRequest3 interface, SetActivityId method, umdf.iwdfiorequest3_setactivityid, SetActivityId method
+ms.keywords: SetActivityId method, IWDFIoRequest3 interface, SetActivityId method, IWDFIoRequest3, wdf.iwdfiorequest3_setactivityid, SetActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3::SetActivityId, wudfddi/IWDFIoRequest3::SetActivityId, SetActivityId, umdf.iwdfiorequest3_setactivityid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest3.SetActivityId
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ void SetActivityId(
 
 
 
-### -param ActivityId [in]
+#### - ActivityId [in]
 
 A pointer to the activity identifier GUID to store in the I/O request.
 
@@ -101,11 +101,11 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
 
 <a href="https://msdn.microsoft.com/A90FCF3C-B648-4E97-887E-FCE58D7FA13A">IWDFIoRequest3::RetrieveActivityId</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
 
  
 

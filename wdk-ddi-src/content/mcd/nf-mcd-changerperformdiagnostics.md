@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, storage.changerperformdiagnostics, mcd/ChangerPerformDiagnostics, ChangerPerformDiagnostics
+ms.keywords: ChangerPerformDiagnostics function [Storage Devices], storage.changerperformdiagnostics, mcd/ChangerPerformDiagnostics, chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, ChangerPerformDiagnostics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS ChangerPerformDiagnostics(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that represents the changer.
 
@@ -107,9 +107,9 @@ STATUS_BUFFER_TOO_SMALL
 
 ## -see-also
 
-<a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a>
-
 <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
+
+<a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a>
 
  
 

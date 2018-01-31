@@ -40,7 +40,7 @@ apiname:
 -	GetBusData
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,27 +75,27 @@ ULONG GetBusData(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a> structure for the interface.
 
 
-### -param DataType [in]
+#### - DataType [in]
 
 The type of bus data to read. For more information, see the discussion of the <i>WhichSpace</i> parameter in <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the buffer that holds the configuration information to be read from the device's configuration space. 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The offset into the bus-specific device data where this read operation begins. For example, if the <i>DataType</i> parameter is <b>PCI_WHICHSPACE_CONFIG</b>, the <i>Offset</i> parameter value is the offset into PCI Configuration Space. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of data to read. 
 
@@ -187,9 +187,9 @@ In order to read PCI Configuration data for the VF at IRQL = DISPATCH_LEVEL, the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-
 <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
 
  
 

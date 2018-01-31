@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 08faebdf-7e6d-4da4-a4c2-a0b57de437ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.token_groups, securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml, PTOKEN_GROUPS structure pointer [Installable File System Drivers], PTOKEN_GROUPS, *PTOKEN_GROUPS, ntifs/TOKEN_GROUPS, TOKEN_GROUPS structure [Installable File System Drivers], _TOKEN_GROUPS, TOKEN_GROUPS, ntifs/PTOKEN_GROUPS
+ms.keywords: PTOKEN_GROUPS, ntifs/PTOKEN_GROUPS, _TOKEN_GROUPS, ifsk.token_groups, TOKEN_GROUPS, securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml, ntifs/TOKEN_GROUPS, *PTOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Installable File System Drivers], TOKEN_GROUPS structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _TOKEN_GROUPS {
 
 
 
-### -field GroupCount
+#### - GroupCount
 
 Specifies the number of groups in the access token. 
 
@@ -83,7 +83,7 @@ Specifies the number of groups in the access token.
  
 
 
-### -field Groups
+#### - Groups
 
 Specifies an array of <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a> structures containing a set of SIDs and corresponding attributes. 
 
@@ -97,17 +97,17 @@ You can use <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a> to de
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

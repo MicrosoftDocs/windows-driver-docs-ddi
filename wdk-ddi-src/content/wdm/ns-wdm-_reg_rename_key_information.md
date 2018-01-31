@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 80ffa1dc-aa4f-40b4-936b-7e441b3b123d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PREG_RENAME_KEY_INFORMATION, REG_RENAME_KEY_INFORMATION, kernel.reg_rename_key_information, wdm/REG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_f6416cfd-5ace-4366-81a5-87b233551c7a.xml, PREG_RENAME_KEY_INFORMATION, REG_RENAME_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PREG_RENAME_KEY_INFORMATION, _REG_RENAME_KEY_INFORMATION"
+ms.keywords: REG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _REG_RENAME_KEY_INFORMATION, kernel.reg_rename_key_information, *PREG_RENAME_KEY_INFORMATION, kstruct_d_f6416cfd-5ace-4366-81a5-87b233551c7a.xml, REG_RENAME_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/REG_RENAME_KEY_INFORMATION, wdm/PREG_RENAME_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _REG_RENAME_KEY_INFORMATION {
 
 
 
-### -field Object
+#### - Object
 
 A pointer to the registry key object for the key whose name is about to be changed.
 
 
-### -field NewName
+#### - NewName
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the new name for the registry key.
 
 
-### -field CallContext
+#### - CallContext
 
 Optional driver-defined context information that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system. 
 
 
-### -field ObjectContext
+#### - ObjectContext
 
 A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system. 
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved for future use. This member is defined for Windows Vista and later versions of the Windows operating system.
 

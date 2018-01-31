@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GDIARG_STRETCHBLT, BLACKONWHITE, d3dkmddi/DXGK_GDIARG_STRETCHBLT, DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, display.dxgk_gdiarg_stretchblt, _DXGK_GDIARG_STRETCHBLT, WHITEONBLACK, DXGK_GDIARG_STRETCHBLT structure [Display Devices]
+ms.keywords: DXGK_GDIARG_STRETCHBLT structure [Display Devices], _DXGK_GDIARG_STRETCHBLT, display.dxgk_gdiarg_stretchblt, DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, d3dkmddi/DXGK_GDIARG_STRETCHBLT, WHITEONBLACK, BLACKONWHITE, DXGK_GDIARG_STRETCHBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _DXGK_GDIARG_STRETCHBLT {
 
 
 
-### -field Mode
+#### - Mode
 
 
         [in] Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
@@ -119,28 +119,28 @@ On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>O
         This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
 
 
-### -field MirrorX
+#### - MirrorX
 
 
         [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
        
 
 
-### -field MirrorY
+#### - MirrorY
 
 
         [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
        
 
 
-### -field Flags
+#### - Flags
 
 
        [in] Optional UINT value that can be used to debug driver code.
       
 
 
-### -field SrcRect
+#### - SrcRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
 
@@ -151,7 +151,7 @@ This rectangle is mapped to the destination rectangle defined by <b>DstRect</b>.
 For more information, see the Remarks section.
 
 
-### -field DstRect
+#### - DstRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
 
@@ -160,35 +160,35 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 For more information, see the Remarks section.
 
 
-### -field DstAllocationIndex
+#### - DstAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field SrcAllocationIndex
+#### - SrcAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the SrcRect source rectangle.
      
 
 
-### -field NumSubRects
+#### - NumSubRects
 
 
       The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field pSubRects
+#### - pSubRects
 
 
       [in] A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field SrcPitch
+#### - SrcPitch
 
 
       [in] The pitch of the source surface, in bytes.
@@ -221,13 +221,13 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
  
 

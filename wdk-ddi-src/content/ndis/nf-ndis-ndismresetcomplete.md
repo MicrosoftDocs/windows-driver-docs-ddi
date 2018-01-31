@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMResetComplete function [Network Drivers Starting with Windows Vista], NdisMResetComplete, ndis/NdisMResetComplete, netvista.ndismresetcomplete, miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml
+ms.keywords: NdisMResetComplete, miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], netvista.ndismresetcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,18 +72,18 @@ VOID NdisMResetComplete(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS originally passed to the 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the reset operation just completed
 
 
-### -param AddressingReset [in]
+#### - AddressingReset [in]
 
 A Boolean value that is <b>TRUE</b> if NDIS is responsible for restoring the settings for multicast
      addresses, packet filters, and task offload information. In this case, the miniport driver is

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95EF1722-5171-4A09-8676-7910E53E3868
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure [Storage Devices], storage.storage_offload_write_output, STORAGE_OFFLOAD_TOKEN_INVALID, ntddstor/STORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer [Storage Devices], PSTORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, ntddstor/PSTORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT, _STORAGE_OFFLOAD_WRITE_OUTPUT"
+ms.keywords: storage.storage_offload_write_output, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_TOKEN_INVALID, STORAGE_OFFLOAD_WRITE_OUTPUT structure [Storage Devices], PSTORAGE_OFFLOAD_WRITE_OUTPUT, _STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/STORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_WRITE_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _STORAGE_OFFLOAD_WRITE_OUTPUT {
 
 
 
-### -field OffloadWriteFlags
+#### - OffloadWriteFlags
 
 Flags indicating the result of the offload write operation. This is set to one of the following.
 <table>
@@ -102,12 +102,12 @@ The token provided for the offload write operation was invalid.
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 
 
-### -field LengthCopied
+#### - LengthCopied
 
 Bytes copied for the write request in <a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>.
 
@@ -121,11 +121,11 @@ The <b>STORAGE_OFFLOAD_WRITE_OUTPUT</b> structure is returned at the beginning o
 
 ## -see-also
 
+<a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
-<a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
 
  
 

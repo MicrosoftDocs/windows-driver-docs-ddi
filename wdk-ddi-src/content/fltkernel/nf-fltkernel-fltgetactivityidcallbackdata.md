@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltgetactivityidcallbackdata, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData
+ms.keywords: fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], ifsk.fltgetactivityidcallbackdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetActivityIdCallbackData(
 
 
 
-### -param CallbackData [in]
+#### - CallbackData [in]
 
 A pointer to the callback data containing the request with an associated activity ID.
 
 
-### -param Guid [out]
+#### - Guid [out]
 
 A pointer to the GUID structure receiving the activity ID.
 
@@ -126,9 +126,9 @@ An activity ID was returned in the <b>GUID</b> value pointed to by <i>Guid</i>.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
 
  
 

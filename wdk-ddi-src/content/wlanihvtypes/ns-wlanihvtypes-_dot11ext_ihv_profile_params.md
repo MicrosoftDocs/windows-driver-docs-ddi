@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9bf4b27c-3cf0-45a0-9e56-b01ad1ba6b19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11ext_ihv_profile_params, PDOT11EXT_IHV_PROFILE_PARAMS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3fe01c80-477b-4851-8b7e-4d4540cc22b6.xml, PDOT11EXT_IHV_PROFILE_PARAMS, _DOT11EXT_IHV_PROFILE_PARAMS, *PDOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS, wlanihvtypes/DOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS structure [Network Drivers Starting with Windows Vista], wlanihvtypes/PDOT11EXT_IHV_PROFILE_PARAMS
+ms.keywords: DOT11EXT_IHV_PROFILE_PARAMS structure [Network Drivers Starting with Windows Vista], wlanihvtypes/PDOT11EXT_IHV_PROFILE_PARAMS, PDOT11EXT_IHV_PROFILE_PARAMS, netvista.dot11ext_ihv_profile_params, DOT11EXT_IHV_PROFILE_PARAMS, _DOT11EXT_IHV_PROFILE_PARAMS, *PDOT11EXT_IHV_PROFILE_PARAMS, Native_802.11_data_types_3fe01c80-477b-4851-8b7e-4d4540cc22b6.xml, wlanihvtypes/DOT11EXT_IHV_PROFILE_PARAMS, PDOT11EXT_IHV_PROFILE_PARAMS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DOT11EXT_IHV_PROFILE_PARAMS {
 
 
 
-### -field pSsidList
+#### - pSsidList
 
 A pointer to the list of service set identifiers (SSIDs) of the basic service set (BSS) network.
      The 
@@ -80,14 +80,14 @@ A pointer to the list of service set identifiers (SSIDs) of the basic service se
      DOT11EXT_IHV_SSID_LIST</b></mshelp:link> structure.
 
 
-### -field BssType
+#### - BssType
 
 The type of the BSS network. The 
      <b>BssType</b> member contains a value defined for the 
      <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
 
 
-### -field pMSSecuritySettings
+#### - pMSSecuritySettings
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11_mssecurity_settings" tabindex="0"><b>
@@ -111,18 +111,7 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.idot11extuiproperty_dot11extuipropertygetdisplayinfo" tabindex="0"><b>
-   IDot11ExtUIProperty::Dot11ExtUIPropertyGetDisplayInfo</b></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvperformcapabilitymatch" tabindex="0"><i>
-   Dot11ExtIhvPerformCapabilityMatch</i></mshelp:link>
-
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11_mssecurity_settings.md">DOT11_MSSECURITY_SETTINGS</a>
-
-<mshelp:link keywords="netvista.dot11extihvcreatediscoveryprofiles" tabindex="0"><i>
-   Dot11ExtIhvCreateDiscoveryProfiles</i></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
    Functions</mshelp:link>
@@ -130,12 +119,23 @@ Although the IHV handler function cannot access the entire network profile, the 
 <mshelp:link keywords="netvista.idot11extuiproperty_dot11extuipropertysetdisplayinfo" tabindex="0"><b>
    IDot11ExtUIProperty::Dot11ExtUIPropertySetDisplayInfo</b></mshelp:link>
 
+<mshelp:link keywords="netvista.idot11extuiproperty_dot11extuipropertygetdisplayinfo" tabindex="0"><b>
+   IDot11ExtUIProperty::Dot11ExtUIPropertyGetDisplayInfo</b></mshelp:link>
+
 <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11_mssecurity_settings.md">DOT11_MSSECURITY_SETTINGS</a>
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_ssid_list.md">DOT11EXT_IHV_SSID_LIST</a>
+
+<mshelp:link keywords="netvista.dot11extihvcreatediscoveryprofiles" tabindex="0"><i>
+   Dot11ExtIhvCreateDiscoveryProfiles</i></mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extihvperformcapabilitymatch" tabindex="0"><i>
+   Dot11ExtIhvPerformCapabilityMatch</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
 
  
 

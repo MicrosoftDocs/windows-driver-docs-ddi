@@ -74,12 +74,12 @@ VOID EvtChildListIdentificationDescriptionCleanup(
 
 
 
-### -param ChildList [in]
+#### - ChildList [in]
 
 A handle to a framework child-list object.
 
 
-### -param IdentificationDescription [in, out]
+#### - IdentificationDescription [in, out]
 
 A pointer to a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies an identification description.
 
@@ -108,15 +108,15 @@ For more information about dynamic enumeration, see <a href="https://docs.micros
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-
 <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_duplicate.md">EvtChildListIdentificationDescriptionDuplicate</a>
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
 
  
 

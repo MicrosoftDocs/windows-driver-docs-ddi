@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/MmIsAddressValid, MmIsAddressValid, kernel.mmisaddressvalid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml
+ms.keywords: MmIsAddressValid, kernel.mmisaddressvalid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], ntddk/MmIsAddressValid, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN MmIsAddressValid(
 
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 A pointer to the nonpaged virtual address to check. The caller must ensure that this address cannot be paged out or deleted for the duration of this call. Even after the return from the call, you must not page out or delete this address. If you do page out or delete this address, the return value might be unreliable. Paging out or deleting this address might cause the computer to stop responding (that is, <i>crash</i>). 
 

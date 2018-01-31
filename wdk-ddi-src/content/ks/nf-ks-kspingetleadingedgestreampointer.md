@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05615730-dbeb-496a-b4a8-a16830b31586
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetLeadingEdgeStreamPointer, stream.kspingetleadingedgestreampointer, KsPinGetLeadingEdgeStreamPointer, avfunc_0eb1faec-c090-4647-8306-84cff42ddf9c.xml, KsPinGetLeadingEdgeStreamPointer function [Streaming Media Devices]
+ms.keywords: avfunc_0eb1faec-c090-4647-8306-84cff42ddf9c.xml, stream.kspingetleadingedgestreampointer, KsPinGetLeadingEdgeStreamPointer, ks/KsPinGetLeadingEdgeStreamPointer, KsPinGetLeadingEdgeStreamPointer function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PKSSTREAM_POINTER KsPinGetLeadingEdgeStreamPointer(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure owning the queue for which the leading edge stream pointer should be acquired.
 
 
-### -param State [in]
+#### - State [in]
 
 This parameter specifies how to acquire the leading edge stream pointer. Can be one of the following:
 
@@ -109,17 +109,17 @@ Filters that implement <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a8
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 
 <a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 <a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 <a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
 

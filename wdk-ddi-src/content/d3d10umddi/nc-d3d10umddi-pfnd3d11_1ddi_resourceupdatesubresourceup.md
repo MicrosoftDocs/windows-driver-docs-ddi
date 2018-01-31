@@ -40,7 +40,7 @@ apiname:
 -	DefaultConstantBufferUpdateSubresourceUP(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback
@@ -93,7 +93,7 @@ VOID APIENTRY* DefaultConstantBufferUpdateSubresourceUP(D3D11_1)(
 
 
 
-### -param CopyFlags
+#### - CopyFlags
 
 A value that specifies characteristics of copy operation as a bitwise <b>OR</b> of the values in the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_copy_flags.md">D3D11_1_DDI_COPY_FLAGS</a> enumeration type.
 

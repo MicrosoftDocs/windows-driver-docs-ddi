@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 869d3a3f-e2f8-4c23-864b-d40f3e67a9ec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_positions, ks/PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, ks/KSPROPERTY_POSITIONS
+ms.keywords: ks/KSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS, ks/PKSPROPERTY_POSITIONS, ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], stream.ksproperty_positions, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], KSPROPERTY_POSITIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-### -field Current
+#### - Current
 
 Specifies the current position as a 64-bit value.
 
 
-### -field Stop
+#### - Stop
 
 Specifies the stop position as a 64-bit value.
 
 
-### -field CurrentFlags
+#### - CurrentFlags
 
 A structure of type <a href="..\ks\ne-ks-ks_seeking_flags.md">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Current</b> parameter.
 
 
-### -field StopFlags
+#### - StopFlags
 
 A structure of type <a href="..\ks\ne-ks-ks_seeking_flags.md">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Stop</b> parameter.
 

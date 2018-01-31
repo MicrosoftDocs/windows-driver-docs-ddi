@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 713246FE-355B-4C01-A8DF-535BDBA0FCB8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SPLCLIENT_INFO_2_W2K, winsplp/SPLCLIENT_INFO_2_W2K, print.splclient_info_2_w2k, *LPSPLCLIENT_INFO_2, SPLCLIENT_INFO_2_W2K structure [Print Devices], SPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, _SPLCLIENT_INFO_2_V1
+ms.keywords: "_SPLCLIENT_INFO_2_V1, print.splclient_info_2_w2k, SPLCLIENT_INFO_2_W2K, winsplp/SPLCLIENT_INFO_2_W2K, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_W2K structure [Print Devices], *PSPLCLIENT_INFO_2, *LPSPLCLIENT_INFO_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _SPLCLIENT_INFO_2_V1 {
 
 
 
-### -field hSplPrinter
+#### - hSplPrinter
 
 Specifies the server-side handle to be used for direct calls.
 

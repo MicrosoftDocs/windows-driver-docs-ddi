@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83B88D3D-8FBF-4DC1-8A73-FAB306281F36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY, NDIS_NDK_LOCAL_ENDPOINT_ENTRY, _NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista], NDIS_NDK_LOCAL_ENDPOINT_ENTRY, _NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _NDIS_NDK_LOCAL_ENDPOINT_ENTRY {
 
 
 
-### -field Local
+#### - Local
 
 The local IP address and port.
 
 
-### -field UserModeOwner
+#### - UserModeOwner
 
 A BOOLEAN value that is TRUE if the connection is an NDS user-mode connection, or FALSE if it is an NDK kernel-mode connection.
 
 
-### -field Listener
+#### - Listener
 
 A BOOLEAN value that  is TRUE if the connection is a listener or FALSE if it is a shared endpoint.
 
 
-### -field OwnerPid
+#### - OwnerPid
 
 A process identifier for an NDS user-mode connection.
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 13ECDA33-2047-4F72-A8D4-5281C4BA8543
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PEDOMETER_STEP_TYPE enumeration [Sensor Devices], PedometerStepType_Force_Dword, sensorsdef/PedometerStepType_Walking, sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Unknown, sensorsdef/PedometerStepType_Max, PedometerStepType_Unknown, PedometerStepType_Max, sensorsdef/PedometerStepType_Force_Dword, sensors.pedometer_step_type, PedometerStepType_Running, PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Running, PedometerStepType_Walking
+ms.keywords: sensorsdef/PedometerStepType_Unknown, PedometerStepType_Force_Dword, PedometerStepType_Walking, sensorsdef/PedometerStepType_Max, PedometerStepType_Running, sensors.pedometer_step_type, PedometerStepType_Unknown, sensorsdef/PedometerStepType_Walking, PedometerStepType_Max, PEDOMETER_STEP_TYPE, PEDOMETER_STEP_TYPE enumeration [Sensor Devices], sensorsdef/PedometerStepType_Force_Dword, sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Running
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _PEDOMETER_STEP_TYPE {
 
 
 
-### -field PedometerStepType_Unknown
+#### - PedometerStepType_Unknown
 
 The pedometer cannot determine the step type.
 
 
-### -field PedometerStepType_Walking
+#### - PedometerStepType_Walking
 
 Indicates a step type associated with walking.
 
 
-### -field PedometerStepType_Running
+#### - PedometerStepType_Running
 
 Indicates a step type associated with running.
 
 
-### -field PedometerStepType_Max
+#### - PedometerStepType_Max
 
 Indicates that the step type is generating maximum sensor values. In this scenario, the pedometer doesn't report the step type.
 
 
-### -field PedometerStepType_Force_Dword
+#### - PedometerStepType_Force_Dword
 
 Used to force the PEDOMETER_STEP_TYPE enum to a 32-bit data type (a DWORD).
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a2fbb125-42cf-4c33-83bb-3fc875712be3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlGetGroupSecurityDescriptor, ntifs/RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml, ifsk.rtlgetgroupsecuritydescriptor
+ms.keywords: ntifs/RtlGetGroupSecurityDescriptor, ifsk.rtlgetgroupsecuritydescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml, RtlGetGroupSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlGetGroupSecurityDescriptor(
 
 
 
-### -param SecurityDescriptor [in]
+#### - SecurityDescriptor [in]
 
 Pointer to the security descriptor whose primary group information is to be returned.
 
 
-### -param Group [out]
+#### - Group [out]
 
 Pointer to a variable that receives a pointer to the security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) for the primary group. If the security descriptor does not contain a primary group, <i>*Group</i> receives <b>NULL</b>.
 
 
-### -param GroupDefaulted [out]
+#### - GroupDefaulted [out]
 
 Pointer to a Boolean variable that receives the value of the SE_GROUP_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL structure. This value is valid only if <i>*Group</i> receives a non-<b>NULL</b> value.
 
@@ -127,9 +127,9 @@ For more information about security and access control, see the Microsoft Window
 
 <a href="..\ntifs\nf-ntifs-rtlsetgroupsecuritydescriptor.md">RtlSetGroupSecurityDescriptor</a>
 
-<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 

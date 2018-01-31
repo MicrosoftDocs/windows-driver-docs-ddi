@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9895ee9a-4d8c-4cd4-8df4-fedaf864a178
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iinterruptsync_callsynchronizedroutine, IInterruptSync::CallSynchronizedRoutine, IInterruptSync, portcls/IInterruptSync::CallSynchronizedRoutine, CallSynchronizedRoutine method [Audio Devices], IInterruptSync interface, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, CallSynchronizedRoutine method [Audio Devices], CallSynchronizedRoutine, IInterruptSync interface [Audio Devices], CallSynchronizedRoutine method
+ms.keywords: CallSynchronizedRoutine method [Audio Devices], IInterruptSync interface, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, IInterruptSync, CallSynchronizedRoutine, IInterruptSync::CallSynchronizedRoutine, IInterruptSync interface [Audio Devices], CallSynchronizedRoutine method, CallSynchronizedRoutine method [Audio Devices], portcls/IInterruptSync::CallSynchronizedRoutine, audio.iinterruptsync_callsynchronizedroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IInterruptSync.CallSynchronizedRoutine
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IInterruptSync::CallSynchronizedRoutine method
@@ -68,12 +68,12 @@ NTSTATUS CallSynchronizedRoutine(
 
 
 
-### -param Routine [in]
+#### - Routine [in]
 
 Pointer to the routine that is to be called. This routine will run exclusive of the object's ISR and all other routines that are synchronized through the object. Even on multiple-processor machines, routines that are synchronized by a given object will not run concurrently. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>).
 
 
-### -param DynamicContext [in]
+#### - DynamicContext [in]
 
 A context value to be passed to the routine.
 

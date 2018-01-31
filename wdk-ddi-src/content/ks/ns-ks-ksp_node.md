@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d5f1b31-d8fe-40a3-ac23-cc442f3adbe5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksp_node, ks/PKSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], PKSP_NODE, ks/KSP_NODE, KSP_NODE structure [Streaming Media Devices], ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, *PKSP_NODE, KSP_NODE
+ms.keywords: ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, PKSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], stream.ksp_node, ks/KSP_NODE, KSP_NODE, ks/PKSP_NODE, KSP_NODE structure [Streaming Media Devices], *PKSP_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure.
 
 
-### -field NodeId
+#### - NodeId
 
 Specifies the node ID.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Should be set to zero.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6eefdbbb-59de-4cc8-a309-8353a05cba41
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], wdm/LOG_FILE_OBJECT, kstruct_c_4e9e4766-1e68-4972-92c4-3d13cdbc4cb2.xml, *PFILE_OBJECT, *PLOG_FILE_OBJECT, _FILE_OBJECT, LOG_FILE_OBJECT, FILE_OBJECT, kernel.log_file_object
+ms.keywords: wdm/LOG_FILE_OBJECT, FILE_OBJECT, LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], *PFILE_OBJECT, kstruct_c_4e9e4766-1e68-4972-92c4-3d13cdbc4cb2.xml, *PLOG_FILE_OBJECT, _FILE_OBJECT, LOG_FILE_OBJECT, kernel.log_file_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

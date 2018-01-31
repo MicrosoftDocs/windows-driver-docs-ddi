@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8725868e-00bc-45fe-ab9d-c192abd1a059
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortFreeCommonBuffer function [Display Devices], video/VideoPortFreeCommonBuffer, VideoPortFreeCommonBuffer, display.videoportfreecommonbuffer, VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml
+ms.keywords: video/VideoPortFreeCommonBuffer, VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, VideoPortFreeCommonBuffer function [Display Devices], VideoPortFreeCommonBuffer, display.videoportfreecommonbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ VOID VideoPortFreeCommonBuffer(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes of memory to be freed.
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 Pointer to the corresponding virtual address of the allocated memory range.
 
 
-### -param LogicalAddress [in]
+#### - LogicalAddress [in]
 
 Specifies the logical address of the buffer to be freed.
 
 
-### -param CacheEnabled [in]
+#### - CacheEnabled [in]
 
 Indicates whether the allocated memory is cached.
 

@@ -73,12 +73,12 @@ VOID BthInitializeBrb(
 
 
 
-### -param pBrb [in, out]
+#### - pBrb [in, out]
 
 Pointer to the BRB to initialize.
 
 
-### -param brbType [in]
+#### - brbType [in]
 
 Specifies a value from the 
      <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
@@ -112,9 +112,9 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
-
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
  
 

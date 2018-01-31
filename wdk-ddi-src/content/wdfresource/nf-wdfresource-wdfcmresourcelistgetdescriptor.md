@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5aa96fed-83ca-417e-876d-a734be6f27dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor, WdfCmResourceListGetDescriptor, PFN_WDFCMRESOURCELISTGETDESCRIPTOR, WdfCmResourceListGetDescriptor method, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, wdf.wdfcmresourcelistgetdescriptor
+ms.keywords: wdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor, PFN_WDFCMRESOURCELISTGETDESCRIPTOR, WdfCmResourceListGetDescriptor method, WdfCmResourceListGetDescriptor, kmdf.wdfcmresourcelistgetdescriptor, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfCmResourceListGetDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ PCM_PARTIAL_RESOURCE_DESCRIPTOR WdfCmResourceListGetDescriptor(
 
 
 
-### -param List [in]
+#### - List [in]
 
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-### -param Index [in]
+#### - Index [in]
 
 A zero-based value that is used as an index into the logical configuration that <i>List</i> specifies.
 

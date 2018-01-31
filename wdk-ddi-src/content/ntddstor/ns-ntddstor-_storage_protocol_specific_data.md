@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74569A0A-5828-4533-8974-4DE0B4EAAAEB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA, *PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices], storage.storage_protocol_specific_data, _STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA
+ms.keywords: PSTORAGE_PROTOCOL_SPECIFIC_DATA, _STORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], *PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices], storage.storage_protocol_specific_data, STORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PROTOCOL_SPECIFIC_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA"
+req.typenames: STORAGE_PROTOCOL_SPECIFIC_DATA, *PSTORAGE_PROTOCOL_SPECIFIC_DATA
 ---
 
 # _STORAGE_PROTOCOL_SPECIFIC_DATA structure
@@ -74,42 +74,42 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
 
 
 
-### -field ProtocolType
+#### - ProtocolType
 
 The protocol type. Values for this member are defined in the <a href="..\ntddstor\ne-ntddstor-_storage_protocol_type.md">STORAGE_PROTOCOL_TYPE</a> enumeration.
 
 
-### -field DataType
+#### - DataType
 
 The protocol data type. Data types are defined in the <a href="..\ntddstor\ne-ntddstor-_storage_protocol_nvme_data_type.md">STORAGE_PROTOCOL_NVME_DATA_TYPE</a> and <a href="..\ntddstor\ne-ntddstor-_storage_protocol_ata_data_type.md">STORAGE_PROTOCOL_ATA_DATA_TYPE</a> enumerations.
 
 
-### -field ProtocolDataRequestValue
+#### - ProtocolDataRequestValue
 
 The protocol data request value.
 
 
-### -field ProtocolDataRequestSubValue
+#### - ProtocolDataRequestSubValue
 
 The sub value of the protocol data request.
 
 
-### -field ProtocolDataOffset
+#### - ProtocolDataOffset
 
 The offset of the data buffer that is from the beginning of this structure. The typical value can be sizeof(<b>STORAGE_PROTOCOL_SPECIFIC_DATA</b>).
 
 
-### -field ProtocolDataLength
+#### - ProtocolDataLength
 
 The length of the protocol data.
 
 
-### -field FixedProtocolReturnData
+#### - FixedProtocolReturnData
 
 The returned data.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 
@@ -169,13 +169,13 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
  
 

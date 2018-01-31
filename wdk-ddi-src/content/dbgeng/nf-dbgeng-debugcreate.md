@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9dd3632c-4c88-470d-8419-10959eda0454
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DebugCreate, DebugCreate function [Windows Debugging], debugger.debugcreate, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, dbgeng/DebugCreate
+ms.keywords: DebugCreate function [Windows Debugging], dbgeng/DebugCreate, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, debugger.debugcreate, DebugCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ HRESULT DebugCreate(
 
 
 
-### -param InterfaceId [in]
+#### - InterfaceId [in]
 
 Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560088">Using Client Objects</a>.
 
 
-### -param Interface [out]
+#### - Interface [out]
 
 Receives an interface pointer for the new client.  The type of this interface is specified by <i>InterfaceId</i>.
 

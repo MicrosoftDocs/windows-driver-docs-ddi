@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 54c1bb05-37a8-4841-808b-2eb9d1ecd7a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT, display.ddvideoportconnect, DDVIDEOPORTCONNECT structure [Display Devices], ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, ksmedia/DDVIDEOPORTCONNECT, _DDVIDEOPORTCONNECT
+ms.keywords: "_DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, *LPDDVIDEOPORTCONNECT, display.ddvideoportconnect, DDVIDEOPORTCONNECT structure [Display Devices], DDVIDEOPORTCONNECT, ksmedia/DDVIDEOPORTCONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DDVIDEOPORTCONNECT
 product: Windows
 targetos: Windows
-req.typenames: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT"
+req.typenames: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT
 ---
 
 # _DDVIDEOPORTCONNECT structure
@@ -71,17 +71,17 @@ typedef struct _DDVIDEOPORTCONNECT {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Specifies the size in bytes of the DDVIDEOPORTCONNECT structure.
 
 
-### -field dwPortWidth
+#### - dwPortWidth
 
 Specifies the width of the hardware video port. This value represents the number of physical pins on the hardware video port. This member must always be filled in, even when the <b>guidTypeID</b> assumes a certain size. 
 
 
-### -field guidTypeID
+#### - guidTypeID
 
 Specifies a GUID that describes the synchronization characteristics of the hardware video port. The following port types are predefined:
 <table>
@@ -162,7 +162,7 @@ Sync information is embedded in the data stream using the Philips definition.
 </table> 
 
 
-### -field dwFlags
+#### - dwFlags
 
 Specifies a set of flags that identify the capabilities of the hardware video port connection. This member can be a bitwise OR of any of the following flags:
 <table>
@@ -253,7 +253,7 @@ When set by the driver, this flag indicates that the hardware video port is capa
 </table> 
 
 
-### -field dwReserved1
+#### - dwReserved1
 
 Reserved for system use and should be set to zero. 
 
@@ -267,9 +267,9 @@ The driver's <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a>
-
 <a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a>
+
+<a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a>
 
  
 

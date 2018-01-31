@@ -76,17 +76,17 @@ NTSTATUS NdisPDAllocateQueue(
 
 
 
-### -param ProviderHandle [in]
+#### - ProviderHandle [in]
 
 A provider handle that identifies the PD-capable miniport driver's provider object.
 
 
-### -param QueueParameters [in]
+#### - QueueParameters [in]
 
 All the parameters that are associated with the Queue. For more information see the <a href="..\ndis\ns-ndis-_ndis_pd_queue_parameters.md">NDIS_PD_QUEUE_PARAMETERS</a> structure.
 
 
-### -param NdisPDQueue
+#### - NdisPDQueue
 
 A pointer to the Queue that is to be allocated. For more information, see the <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE</a> structure.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace, WdfDeviceUnmapIoSpace, PFN_WDFDEVICEUNMAPIOSPACE, wdfdevice/WdfDeviceUnmapIoSpace
+ms.keywords: PFN_WDFDEVICEUNMAPIOSPACE, WdfDeviceUnmapIoSpace function, WdfDeviceUnmapIoSpace, wdfdevice/WdfDeviceUnmapIoSpace, wdf.wdfdeviceunmapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,19 +72,19 @@ void WdfDeviceUnmapIoSpace(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PseudoBaseAddress [in]
+#### - PseudoBaseAddress [in]
 
 The address of a location that receives a pointer to the pseudo base address.
 
 
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 

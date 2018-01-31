@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 235942ee-374e-4071-a761-793a96beab36
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_QUERY_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_query_value_key_information, PREG_QUERY_VALUE_KEY_INFORMATION, _REG_QUERY_VALUE_KEY_INFORMATION, *PREG_QUERY_VALUE_KEY_INFORMATION, kstruct_d_e4edde7e-2b83-4e18-b652-d29f2a37d921.xml, REG_QUERY_VALUE_KEY_INFORMATION, wdm/REG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_QUERY_VALUE_KEY_INFORMATION
+ms.keywords: "_REG_QUERY_VALUE_KEY_INFORMATION, kernel.reg_query_value_key_information, PREG_QUERY_VALUE_KEY_INFORMATION, wdm/REG_QUERY_VALUE_KEY_INFORMATION, REG_QUERY_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_QUERY_VALUE_KEY_INFORMATION, wdm/PREG_QUERY_VALUE_KEY_INFORMATION, kstruct_d_e4edde7e-2b83-4e18-b652-d29f2a37d921.xml, *PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _REG_QUERY_VALUE_KEY_INFORMATION {
 
 
 
-### -field Object
+#### - Object
 
 A pointer to the registry key object for the key whose value entry is being queried.
 
 
-### -field ValueName
+#### - ValueName
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the value entry to retrieve information for.
 
 
-### -field KeyValueInformationClass
+#### - KeyValueInformationClass
 
 The <a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a> value that indicates the type of information to be returned by the system. 
 
 
-### -field KeyValueInformation
+#### - KeyValueInformation
 
 A pointer to a buffer that contains the information to be returned by the system. The format of the buffer depends on the value of <b>KeyValueInformationClass</b>. For more information see <a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>.
 
 
-### -field Length
+#### - Length
 
 The size, in bytes, of the <b>KeyValueInformation</b> buffer. 
 
 
-### -field ResultLength
+#### - ResultLength
 
 A pointer to a variable that receives (from the system) the amount of valid data, in bytes, in the <b>KeyValueInformation</b> buffer. 
 
 
-### -field CallContext
+#### - CallContext
 
 Optional driver-defined context information that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
-### -field ObjectContext
+#### - ObjectContext
 
 A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system. 
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved for future use. This member is defined for Windows Vista and later versions of the Windows operating system. 
 
@@ -132,13 +132,13 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 <a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
-
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
  
 

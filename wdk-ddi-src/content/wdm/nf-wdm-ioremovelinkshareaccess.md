@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FFCD4705-4E5D-4D4E-9E6D-D06A7D21DC17
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], IoRemoveLinkShareAccess, kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess
+ms.keywords: kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess, IoRemoveLinkShareAccess, IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID IoRemoveLinkShareAccess(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to the file object, which usually is being closed by the current thread.
 
 
-### -param ShareAccess [in, out]
+#### - ShareAccess [in, out]
 
 Pointer to the share-access structure that describes how the open file object is currently being accessed. 
 
 
-### -param LinkShareAccess [in, out, optional]
+#### - LinkShareAccess [in, out, optional]
 
 Pointer to the share-access structure that describes how the open file object is currently being accessed. 
 
@@ -105,11 +105,11 @@ Callers of <b>IoRemoveLinkShareAccess</b> must be running at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+
 <a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
 
 <a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
-
-<a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
 
  
 

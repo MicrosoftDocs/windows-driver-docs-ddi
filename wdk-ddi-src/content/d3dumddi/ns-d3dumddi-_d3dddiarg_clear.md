@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f437f94c-075e-43e6-bf28-0e7c7bd78c5a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CLEAR, UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, _D3DDDIARG_CLEAR, display.d3dddiarg_clear, D3DDDIARG_CLEAR structure [Display Devices], d3dumddi/D3DDDIARG_CLEAR
+ms.keywords: D3DDDIARG_CLEAR, d3dumddi/D3DDDIARG_CLEAR, UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, D3DDDIARG_CLEAR structure [Display Devices], display.d3dddiarg_clear, _D3DDDIARG_CLEAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _D3DDDIARG_CLEAR {
 
 
 
-### -field Flags
+#### - Flags
 
 [in] A UINT value that specifies which buffers the driver should clear and how the clear operation should be performed. This member can be a bitwise OR of the following values. For more information, see the Remarks section in the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_clear.md">Clear</a> reference page.
 <table>
@@ -121,17 +121,17 @@ If rectangles are specified for clearing, the driver should clip them against th
 </table> 
 
 
-### -field FillColor
+#### - FillColor
 
 [in] The color value that the driver should clear the context's render target to.
 
 
-### -field FillDepth
+#### - FillDepth
 
 [in] The value that the driver should use to set the depth in the context's depth buffer. This member can be a value in the range from 0.0 through 1.0. 
 
 
-### -field FillStencil
+#### - FillStencil
 
 [in] The value that the driver should clear the context's stencil buffer to. This member can be an integer in the range from 0 through 2ⁿ-1, where <i>n</i> is the number of bits in the stencil buffer.
 

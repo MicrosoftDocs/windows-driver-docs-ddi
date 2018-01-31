@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e5e83b2d-e1e4-485e-80bc-ed22567e9af1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.obmaketemporaryobject, ntifs/ObMakeTemporaryObject, obref_788c8be6-d015-4a3d-b79c-725808c3677d.xml, ObMakeTemporaryObject function [Installable File System Drivers], ObMakeTemporaryObject
+ms.keywords: ntifs/ObMakeTemporaryObject, ObMakeTemporaryObject function [Installable File System Drivers], ObMakeTemporaryObject, ifsk.obmaketemporaryobject, obref_788c8be6-d015-4a3d-b79c-725808c3677d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

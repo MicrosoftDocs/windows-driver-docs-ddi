@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb26c8af-1564-4cf8-ab40-b50b4811466d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/IPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Max, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, ndis/PIPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Ah, IPsecOffloadV2Esp, netvista.ipsec_offload_v2_operation, ndis/IPsecOffloadV2Esp, ndis/IPsecOffloadV2Ah, IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_OPERATION, *PIPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Max
+ms.keywords: IPsecOffloadV2Ah, ndis/IPSEC_OFFLOAD_V2_OPERATION, netvista.ipsec_offload_v2_operation, _IPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Max, IPsecOffloadV2Esp, IPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, *PIPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Esp, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], ndis/IPsecOffloadV2Max, ndis/IPsecOffloadV2Ah, ndis/PIPSEC_OFFLOAD_V2_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	IPSEC_OFFLOAD_V2_OPERATION
 product: Windows
 targetos: Windows
-req.typenames: IPSEC_OFFLOAD_V2_OPERATION, *PIPSEC_OFFLOAD_V2_OPERATION
+req.typenames: "*PIPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION"
 ---
 
 # _IPSEC_OFFLOAD_V2_OPERATION enumeration
@@ -72,17 +72,17 @@ typedef enum _IPSEC_OFFLOAD_V2_OPERATION {
 
 
 
-### -field IPsecOffloadV2Ah
+#### - IPsecOffloadV2Ah
 
 The SA is used for authentication (integrity checking).
 
 
-### -field IPsecOffloadV2Esp
+#### - IPsecOffloadV2Esp
 
 The SA is used for encryption/decryption (confidentiality).
 
 
-### -field IPsecOffloadV2Max
+#### - IPsecOffloadV2Max
 
 Reserved for NDIS.
 

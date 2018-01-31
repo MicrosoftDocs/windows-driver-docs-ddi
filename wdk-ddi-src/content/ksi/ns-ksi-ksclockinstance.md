@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: DC8A7CE9-7FDE-4FC9-8C71-3F3368E7E5C1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSCLOCKINSTANCE, stream.ksclockinstance, ksi/KSCLOCKINSTANCE, KSCLOCKINSTANCE structure [Streaming Media Devices], PKSCLOCKINSTANCE structure pointer [Streaming Media Devices], KSCLOCKINSTANCE, PKSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE"
+ms.keywords: PKSCLOCKINSTANCE, KSCLOCKINSTANCE structure [Streaming Media Devices], ksi/PKSCLOCKINSTANCE, KSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices], *PKSCLOCKINSTANCE, stream.ksclockinstance, ksi/KSCLOCKINSTANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct {
 
 
 
-### -field Header
+#### - Header
 
 
 
-### -field DefaultClock
+#### - DefaultClock
 
 
 
-### -field Reserved
+#### - Reserved
 
 

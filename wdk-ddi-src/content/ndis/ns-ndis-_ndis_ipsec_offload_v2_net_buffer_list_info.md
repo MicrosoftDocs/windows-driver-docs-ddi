@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f528ae2f-54fc-4edc-99bf-b1958837584b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, task_offload_IPsecv2_ref_b675fa29-2688-43a5-8608-3fb750093a46.xml, *PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_net_buffer_list_info, _NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndis_ipsec_offload_v2_net_buffer_list_info, ndis/PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, task_offload_IPsecv2_ref_b675fa29-2688-43a5-8608-3fb750093a46.xml, NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, _NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,9 +82,15 @@ typedef struct _NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO {
 
 
 
-### -field Transmit
+#### - Transmit
 
 A structure that contains the following members:
+
+
+#### OffloadHandle
+
+A handle to the outbound security association (SA) for a packet that has just one IPsec payload
+       for a transport (end-to-end) connection.
 
 
 ### -field Transmit.OffloadHandle
@@ -93,9 +99,49 @@ A handle to the outbound security association (SA) for a packet that has just on
        for a transport (end-to-end) connection.
 
 
-### -field Receive
+#### - Receive
 
 A structure that contains the following members:
+
+
+#### SaDeleteReq
+
+A ULONG value that, when set, indicates that the TCP/IP transport should issue the 
+       <mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
+       OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link> OID once to delete the inbound SA that the packet was
+       received over and once again to delete the outbound SA that corresponds to the deleted inbound SA. The
+       network interface card (NIC) must not remove either of these SAs before it receives the corresponding
+       OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA request.
+
+
+#### CryptoDone
+
+A ULONG value that, when set, indicates that a NIC performed IPsec checking on at least one
+       IPsec payload in the receive packet. When this value is cleared, it indicates that the NIC did not
+       perform IPsec checking on the packet.
+
+
+#### NextCryptoDone
+
+A ULONG value that, when set, indicates that a NIC performed IPsec checking on both the tunnel
+       and transport portions of the receive packet. 
+       <b>CryptoDone</b> must also be set in this case. 
+       <b>NextCryptoDone</b> is set only if a packet has both tunnel and transport IPsec payloads; otherwise, 
+       <b>NextCryptoDone</b> is set to zero.
+
+
+#### Reserved
+
+Reserved for NDIS.
+
+
+#### CryptoStatus
+
+The result of IPsec checking that a NIC performed on a receive packet. This result can be
+       described as one of the following values:
+       
+
+
 
 
 ### -field Receive.SaDeleteReq
@@ -216,17 +262,17 @@ To set and get the IPsec information, use the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
 <mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</mshelp:link>
-
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
 
 <mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
 
  
 

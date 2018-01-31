@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7a9b20a-753c-487d-a2d5-3e1c08317519
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDDCX_PATH_FLAGS_ACTIVE, display.iddcx_path_flags, iddcx/IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_NONE, iddcx/IDDCX_PATH_FLAGS_NONE, IDDCX_PATH_FLAGS enumeration [Display Devices], iddcx/IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS_ACTIVE
+ms.keywords: iddcx/IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS, iddcx/IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_ACTIVE, display.iddcx_path_flags, IDDCX_PATH_FLAGS_NONE, IDDCX_PATH_FLAGS enumeration [Display Devices], iddcx/IDDCX_PATH_FLAGS_NONE, IDDCX_PATH_FLAGS_CHANGED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,21 +71,21 @@ typedef enum _IDDCX_PATH_FLAGS {
 
 
 
-### -field IDDCX_PATH_FLAGS_NONE
+#### - IDDCX_PATH_FLAGS_NONE
 
 
                         
                     Indicates that the path is not active and has not changed.
 
 
-### -field IDDCX_PATH_FLAGS_CHANGED
+#### - IDDCX_PATH_FLAGS_CHANGED
 
 
                         Indicates if this path has changed
                     
 
 
-### -field IDDCX_PATH_FLAGS_ACTIVE
+#### - IDDCX_PATH_FLAGS_ACTIVE
 
 
                         Indicates if this path is active

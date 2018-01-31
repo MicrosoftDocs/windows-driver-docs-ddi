@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4B044635-1088-4CED-87C7-4385E565A54A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], hidpddi/PHIDP_COLLECTION_DESC, _HIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], hid.hidp_collection_desc, hidpddi/HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC"
+ms.keywords: PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], *PHIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], _HIDP_COLLECTION_DESC, hid.hidp_collection_desc, hidpddi/HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_COLLECTION_DESC
 product: Windows
 targetos: Windows
-req.typenames: HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC
+req.typenames: "*PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC"
 ---
 
 # _HIDP_COLLECTION_DESC structure
@@ -75,47 +75,47 @@ typedef struct _HIDP_COLLECTION_DESC {
 
 
 
-### -field UsagePage
+#### - UsagePage
 
 Specifies the usage page of the usage ID specified by <b>Usage</b>.
 
 
-### -field Usage
+#### - Usage
 
 Indicates a usage ID.
 
 
-### -field CollectionNumber
+#### - CollectionNumber
 
 The index of the collection in the array of  <b>HIDP_COLLECTION_DESC</b> structure. This is a 1-based value.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for internal system use. Must be 0.
 
 
-### -field InputLength
+#### - InputLength
 
 The maximum length of an input report of this collection.
 
 
-### -field OutputLength
+#### - OutputLength
 
 The maximum length of an output report of this collection.
 
 
-### -field FeatureLength
+#### - FeatureLength
 
 The maximum length of a feature report of this collection.
 
 
-### -field PreparsedDataLength
+#### - PreparsedDataLength
 
 The length of the preparsed data pointed to by <i>PreparsedData</i>.
 
 
-### -field PreparsedData
+#### - PreparsedData
 
 A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
 

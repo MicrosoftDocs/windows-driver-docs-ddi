@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fec15098-3130-42d6-b889-579ecab6f162
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OFFER_PRIORITY_LOW, D3DKMT_OFFER_PRIORITY_NORMAL, _D3DKMT_OFFER_PRIORITY, D3DKMT_OFFER_PRIORITY, D3DKMT_OFFER_PRIORITY_HIGH, D3DKMT_OFFER_PRIORITY enumeration [Display Devices], d3dkmthk/D3DKMT_OFFER_PRIORITY, D3DKMT_OFFER_PRIORITY_AUTO, d3dkmthk/D3DKMT_OFFER_PRIORITY_NORMAL, d3dkmthk/D3DKMT_OFFER_PRIORITY_HIGH, d3dkmthk/D3DKMT_OFFER_PRIORITY_AUTO, display.d3dkmt_offer_priority, D3DKMT_OFFER_PRIORITY_LOW
+ms.keywords: d3dkmthk/D3DKMT_OFFER_PRIORITY_NORMAL, _D3DKMT_OFFER_PRIORITY, display.d3dkmt_offer_priority, D3DKMT_OFFER_PRIORITY, d3dkmthk/D3DKMT_OFFER_PRIORITY_HIGH, d3dkmthk/D3DKMT_OFFER_PRIORITY_LOW, D3DKMT_OFFER_PRIORITY_NORMAL, D3DKMT_OFFER_PRIORITY_AUTO, d3dkmthk/D3DKMT_OFFER_PRIORITY_AUTO, D3DKMT_OFFER_PRIORITY_LOW, d3dkmthk/D3DKMT_OFFER_PRIORITY, D3DKMT_OFFER_PRIORITY enumeration [Display Devices], D3DKMT_OFFER_PRIORITY_HIGH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _D3DKMT_OFFER_PRIORITY {
 
 
 
-### -field D3DKMT_OFFER_PRIORITY_LOW
+#### - D3DKMT_OFFER_PRIORITY_LOW
 
 The allocation has low value and should be discarded before other offered allocations. Specify this type for allocations that have no useful content.
 
 
-### -field D3DKMT_OFFER_PRIORITY_NORMAL
+#### - D3DKMT_OFFER_PRIORITY_NORMAL
 
 The allocation has useful content but can easily be regenerated.
 
 
-### -field D3DKMT_OFFER_PRIORITY_HIGH
+#### - D3DKMT_OFFER_PRIORITY_HIGH
 
 The allocation has useful content and cannot easily be regenerated. The video memory manager (which is part of Dxgkrnl.sys) should therefore avoid discarding this allocation before other offered allocations.
 
 
-### -field D3DKMT_OFFER_PRIORITY_AUTO
+#### - D3DKMT_OFFER_PRIORITY_AUTO
 
 The video memory manager should make a policy decision on the allocation's value based on its  priority for eviction.
 

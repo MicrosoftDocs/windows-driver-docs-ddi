@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1bd19fcd-90da-4e1a-ac9a-692c6fddc7ab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, KSWAVE_BUFFER, ksmedia/KSWAVE_BUFFER, KSWAVE_BUFFER structure [Streaming Media Devices], stream.kswave_buffer, *PKSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices], PKSWAVE_BUFFER, ksmedia/PKSWAVE_BUFFER
+ms.keywords: "*PKSWAVE_BUFFER, PKSWAVE_BUFFER, KSWAVE_BUFFER, dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, stream.kswave_buffer, KSWAVE_BUFFER structure [Streaming Media Devices], ksmedia/PKSWAVE_BUFFER, ksmedia/KSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct {
 
 
 
-### -field Attributes
+#### - Attributes
 
 Specifies the following flags:
 <table>
@@ -100,12 +100,12 @@ Indicates that the buffer is static.
 </table> 
 
 
-### -field BufferSize
+#### - BufferSize
 
 Specifies the size of the buffer, in bytes.
 
 
-### -field BufferAddress
+#### - BufferAddress
 
 Specifies the starting address of the buffer.
 

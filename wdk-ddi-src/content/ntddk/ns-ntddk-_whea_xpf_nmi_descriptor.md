@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4ffacbd6-dcdf-48a2-bf1e-6923d825bb09
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_XPF_NMI_DESCRIPTOR, whea.whea_xpf_nmi_descriptor, WHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR, _WHEA_XPF_NMI_DESCRIPTOR, ntddk/PWHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_NMI_DESCRIPTOR structure [WHEA Drivers and Applications], whearef_47fae29e-d302-4028-961c-358ac647c0cc.xml, *PWHEA_XPF_NMI_DESCRIPTOR
+ms.keywords: WHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR structure pointer [WHEA Drivers and Applications], *PWHEA_XPF_NMI_DESCRIPTOR, ntddk/WHEA_XPF_NMI_DESCRIPTOR, WHEA_XPF_NMI_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR, whearef_47fae29e-d302-4028-961c-358ac647c0cc.xml, ntddk/PWHEA_XPF_NMI_DESCRIPTOR, whea.whea_xpf_nmi_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _WHEA_XPF_NMI_DESCRIPTOR {
 
 
 
-### -field Type
+#### - Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_XPFNMI.
 
 
-### -field Enabled
+#### - Enabled
 
 A Boolean value that indicates if the error source is enabled.
 

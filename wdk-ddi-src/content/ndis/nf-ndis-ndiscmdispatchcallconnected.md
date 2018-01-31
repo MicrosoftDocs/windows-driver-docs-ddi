@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c5fcca82-ab8f-4ea9-86df-295f43fe7afa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDispatchCallConnected, netvista.ndiscmdispatchcallconnected, condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], ndis/NdisCmDispatchCallConnected
+ms.keywords: NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], NdisCmDispatchCallConnected, ndis/NdisCmDispatchCallConnected, netvista.ndiscmdispatchcallconnected, condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID NdisCmDispatchCallConnected(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle to the VC that represents the connection, which was created with 
      <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> when the call manager's 
@@ -108,17 +108,17 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
    ProtocolCoReceiveNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
+   ProtocolCmIncomingCallComplete</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">NdisMCmDispatchCallConnected</a>
 
-<mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-   ProtocolCmIncomingCallComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
  
 

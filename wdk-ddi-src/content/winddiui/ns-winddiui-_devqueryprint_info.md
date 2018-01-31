@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DEVQUERYPRINT_INFO structure [Print Devices], winddiui/DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO, print.devqueryprint_info, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, DEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices], _DEVQUERYPRINT_INFO
+ms.keywords: "_DEVQUERYPRINT_INFO, winddiui/DEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, DEVQUERYPRINT_INFO structure [Print Devices], winddiui/PDEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices], *PDEVQUERYPRINT_INFO, print.devqueryprint_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _DEVQUERYPRINT_INFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Spooler-supplied size, in bytes, of the DEVQUERYPRINT_INFO structure.
 
 
-### -field Level
+#### - Level
 
 Spooler-supplied level of the DEVQUERYPRINT_INFO structure. Currently, this member is always set to 1.
 
 
-### -field hPrinter
+#### - hPrinter
 
 Spooler-supplied printer handle.
 
 
-### -field pDevMode
+#### - pDevMode
 
 Spooler-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure describing printer characteristics required by the print job.
 
 
-### -field pszErrorStr
+#### - pszErrorStr
 
 Spooler-supplied pointer to a buffer to receive a NULL-terminated error text string, if the print job cannot be printed.
 
 
-### -field cchErrorStr
+#### - cchErrorStr
 
 Spooler-supplied size, in bytes, of the string buffer pointed to by <b>pszErrorStr</b>.
 
 
-### -field cchNeeded
+#### - cchNeeded
 
 Driver-supplied length, in bytes, of the error string supplied in the buffer pointed to by <b>pszErrorStr</b>. If the string is too large to fit in the buffer, the string should be truncated, but the untruncated length should be specified here.
 

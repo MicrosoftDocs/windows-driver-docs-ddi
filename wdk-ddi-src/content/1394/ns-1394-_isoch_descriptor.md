@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PISOCH_DESCRIPTOR structure pointer [Buses], ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses], IEEE.isoch_descriptor, 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, *PISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR, _ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR
+ms.keywords: 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, ISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses], IEEE.isoch_descriptor, _ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ typedef struct _ISOCH_DESCRIPTOR {
 
 
 
-### -field fulFlags
+#### - fulFlags
 
 Specifies various flags for this isochronous descriptor. Each attached buffer on the channel has an associated isoch descriptor. 
 
@@ -194,37 +194,37 @@ The host controller treats the data in this buffer as a sequence of headers. The
 </table> 
 
 
-### -field Mdl
+#### - Mdl
 
 Specifies the MDL representing a buffer in which the data is, or will be, contained. 
 
 
-### -field ulLength
+#### - ulLength
 
 Specifies the length of the <b>Mdl</b>.
 
 
-### -field nMaxBytesPerFrame
+#### - nMaxBytesPerFrame
 
 Specifies the maximum bytes contained in each isochronous frame. On writes, the data in the buffer is split into isochronous packets of this size.
 
 
-### -field ulSynch
+#### - ulSynch
 
 For IsochTalk requests, if the DESCRIPTOR_SYNCH_ON_SY flag is set, this member specifies the Sy field of the outgoing packet. For REQUEST_ISOCH_LISTEN requests, if the DESCRIPTOR_SYNCH_ON_SY flag is set, this member specifies the value the host controller will match against the Sy field in isochronous packet headers.
 
 
-### -field ulTag
+#### - ulTag
 
 For IsochTalk requests, this member specifies the Tag field of the outgoing packet. For REQUEST_ISOCH_LISTEN requests, if the DESCRIPTOR_SYNCH_ON_TAG flag is set, this member specifies the value the host controller will match against the Tag field in isochronous packet headers.
 
 
-### -field CycleTime
+#### - CycleTime
 
 If the DESCRIPTOR_SYNCH_ON_TIME flag is set, this member specifies the isochronous cycle time to synchronize on. (The timing resolution is per isochronous cycle. The <b>CycleOffset</b> member of the cycle time is not used.) If the DESCRIPTOR_TIME_STAMP_ON_COMPLETION flag is set, the bus driver fills this member with the isochronous cycle time on completion of the operation that used this buffer.
 
 
-### -field Callback
+#### - Callback
 
 Pointer to a callback routine. If non-NULL, the bus driver calls this routine to indicate that the associated attached buffers are ready to be detached. The callback executes at IRQL DISPATCH_LEVEL. The callback is of the following type:
 <div class="code"><span codelanguage=""><table>
@@ -238,33 +238,33 @@ Pointer to a callback routine. If non-NULL, the bus driver calls this routine to
 </tr>
 </table></span></div>
 
-### -field Context1
+#### - Context1
 
 Specifies the first parameter when the bus driver calls the routine passed in <b>Callback</b>.
 
 
-### -field Context2
+#### - Context2
 
 Specifies the second parameter when the bus driver calls the routine passed in <b>Callback</b>.
 
 
-### -field status
+#### - status
 
 For <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a> requests, this member specifies the status of the attach operation on this buffer.   If an error occurs during the processing of the <b>REQUEST_ISOCH_ATTACH_BUFFERS</b> request, the bus driver fills in the <b>status</b> member with an appropriate error code.
 
 <div class="alert"><b>Note</b>  The <b>status</b> member must be initialized to STATUS_SUCCESS before the <b>REQUEST_ISOCH_ATTACH_BUFFERS</b> request is made.</div><div> </div>
 
-### -field DeviceReserved
+#### - DeviceReserved
 
 Reserved.
 
 
-### -field BusReserved
+#### - BusReserved
 
 Reserved.
 
 
-### -field PortReserved
+#### - PortReserved
 
 Reserved.
 
@@ -308,17 +308,17 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
 
  
 

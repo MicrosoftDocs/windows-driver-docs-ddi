@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e330bd79-cd44-412e-b9aa-ca5b791750d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, _FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION, kernel.file_attribute_tag_information, FILE_ATTRIBUTE_TAG_INFORMATION, ntddk/FILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION, kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, kernel.file_attribute_tag_information, ntddk/FILE_ATTRIBUTE_TAG_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_ATTRIBUTE_TAG_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION
+req.typenames: "*PFILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION"
 ---
 
 # _FILE_ATTRIBUTE_TAG_INFORMATION structure
@@ -68,12 +68,12 @@ typedef struct _FILE_ATTRIBUTE_TAG_INFORMATION {
 
 
 
-### -field FileAttributes
+#### - FileAttributes
 
 Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags. For descriptions of these flags, see the documentation of the <b>GetFileAttributes</b> function in the Microsoft Windows SDK.
 
 
-### -field ReparseTag
+#### - ReparseTag
 
 Specifies the reparse point tag. If the <b>FileAttributes</b> member includes the FILE_ATTRIBUTE_REPARSE_POINT attribute flag, this member specifies the reparse tag. Otherwise, this member is unused.
 

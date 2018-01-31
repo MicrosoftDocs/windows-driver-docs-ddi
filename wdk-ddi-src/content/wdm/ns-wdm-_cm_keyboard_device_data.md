@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928cc1b6-4569-4ca1-9410-d864b5556b86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/CM_KEYBOARD_DEVICE_DATA, kstruct_a_db7af30d-3698-4c1a-b1ee-9b7e95e7b5fd.xml, CM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA structure [Kernel-Mode Driver Architecture], _CM_KEYBOARD_DEVICE_DATA, wdm/PCM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA, kernel.cm_keyboard_device_data, PCM_KEYBOARD_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "_CM_KEYBOARD_DEVICE_DATA, wdm/PCM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA structure [Kernel-Mode Driver Architecture], wdm/CM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.cm_keyboard_device_data, kstruct_a_db7af30d-3698-4c1a-b1ee-9b7e95e7b5fd.xml, *PCM_KEYBOARD_DEVICE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CM_KEYBOARD_DEVICE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PCM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA"
+req.typenames: CM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef struct _CM_KEYBOARD_DEVICE_DATA {
 
 
 
-### -field Version
+#### - Version
 
 The version number of this structure.
 
 
-### -field Revision
+#### - Revision
 
 The revision of this structure.
 
 
-### -field Type
+#### - Type
 
 The type of the keyboard.
 
 
-### -field Subtype
+#### - Subtype
 
 The subtype of the keyboard.
 
 
-### -field KeyboardFlags
+#### - KeyboardFlags
 
 Defined by x86 BIOS INT 16h, function 02 as:
 <table>
@@ -185,11 +185,11 @@ Right shift key is down.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

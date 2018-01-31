@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54ca9dc8-8095-4b62-9ebc-f297abb429ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], wdm/IoCreateDevice, kernel.iocreatedevice
+ms.keywords: IoCreateDevice, kernel.iocreatedevice, k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, wdm/IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,38 +74,38 @@ NTSTATUS IoCreateDevice(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
 
 
-### -param DeviceExtensionSize [in]
+#### - DeviceExtensionSize [in]
 
 Specifies the driver-determined number of bytes to be allocated for the <a href="https://msdn.microsoft.com/9ea59994-1112-4ae5-96a8-fa0670694b53">device extension</a> of the device object. The internal structure of the device extension is driver-defined.
 
 
-### -param DeviceName [in, optional]
+#### - DeviceName [in, optional]
 
 Optionally points to a buffer containing a null-terminated Unicode string that names the device object. The string must be a full path name. WDM filter and function drivers do not name their device objects. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556420">Named Device Objects</a>.
      
 <div class="alert"><b>Note</b>  If a device name is not supplied (that is, <i>DeviceName</i> is <b>NULL</b>), the device object created by <b>IoCreateDevice</b> will not (and cannot) have a discretionary access control list (DACL) associated with it. For additional information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563698">Security Descriptors</a>.</div><div> </div>
 
-### -param DeviceType [in]
+#### - DeviceType [in]
 
 Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants that indicate the type of device (such as FILE_DEVICE_DISK or FILE_DEVICE_KEYBOARD) or a vendor-defined value for a new type of device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>.
 
 
-### -param DeviceCharacteristics [in]
+#### - DeviceCharacteristics [in]
 
 Specifies one or more system-defined constants, ORed together, that provide additional information about the driver's device. For a list of possible device characteristics, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. For more information about how to specify device characteristics, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563818">Specifying Device Characteristics</a>. Most drivers specify FILE_DEVICE_SECURE_OPEN for this parameter.
 
 
-### -param Exclusive [in]
+#### - Exclusive [in]
 
 Specifies if the device object represents an <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exclusive device</a>. Most drivers set this value to <b>FALSE</b>. For more information about exclusive access, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563827">Specifying Exclusive Access to Device Objects</a>.
 
 
-### -param DeviceObject [out]
+#### - DeviceObject [out]
 
 Pointer to a variable that receives a pointer to the newly created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. The <b>DEVICE_OBJECT</b> structure is allocated from nonpaged pool.
 
@@ -136,19 +136,19 @@ If a driver's call to <b>IoCreateDevice</b> returns an error, the driver should 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
+<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
 
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md"> DEVICE_OBJECT</a>
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
  
 

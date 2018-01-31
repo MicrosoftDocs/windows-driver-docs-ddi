@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: B2D1BC45-E932-4EBC-9B7E-C45E7439E551
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestSequencePositionMax, *PSPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionInvalid, SpbRequestSequencePositionLast, spbcx/SpbRequestSequencePositionContinue, SPB_REQUEST_SEQUENCE_POSITION, SpbRequestSequencePositionSingle, spbcx/SpbRequestSequencePositionSingle, spbcx/SpbRequestSequencePositionLast, spbcx/SpbRequestSequencePositionMax, SpbRequestSequencePositionInvalid, _SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionFirst, SpbRequestSequencePositionFirst, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], spbcx/SPB_REQUEST_SEQUENCE_POSITION, SPB.spb_request_sequence_position, SpbRequestSequencePositionContinue
+ms.keywords: SpbRequestSequencePositionInvalid, *PSPB_REQUEST_SEQUENCE_POSITION, SPB.spb_request_sequence_position, SPB_REQUEST_SEQUENCE_POSITION, SpbRequestSequencePositionLast, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], SpbRequestSequencePositionFirst, spbcx/SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionContinue, spbcx/SpbRequestSequencePositionInvalid, SpbRequestSequencePositionMax, spbcx/SpbRequestSequencePositionFirst, spbcx/SpbRequestSequencePositionMax, spbcx/SpbRequestSequencePositionSingle, spbcx/SpbRequestSequencePositionLast, _SPB_REQUEST_SEQUENCE_POSITION, SpbRequestSequencePositionContinue, SpbRequestSequencePositionSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,26 +73,26 @@ typedef enum  {
 
 
 
-### -field SpbRequestSequencePositionInvalid
+#### - SpbRequestSequencePositionInvalid
 
 For internal use only.
 
 
-### -field SpbRequestSequencePositionSingle
+#### - SpbRequestSequencePositionSingle
 
 A single-transfer I/O request. This request is either a read or write (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>) request that is not part of a sequence, or it is an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> I/O control request for a sequence that consists of a single transfer.
 
 The controller should select the target before performing the transfer, and release the target after the transfer finishes.
 
 
-### -field SpbRequestSequencePositionFirst
+#### - SpbRequestSequencePositionFirst
 
 The first I/O request in a sequence. This request is the read or write request that immediately follows the lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>) I/O control request that signals the start of the sequence.
 
  The controller should select the target before performing this transfer, and the target should remain selected after the transfer finishes.
 
 
-### -field SpbRequestSequencePositionContinue
+#### - SpbRequestSequencePositionContinue
 
 An I/O request in the middle of a sequence. This request is a read or write request that is neither the first nor the last transfer in the sequence.
 
@@ -101,7 +101,7 @@ In some cases, the SPB framework extension (SpbCx) cannot identify the last tran
 The controller should already have the target selected before it starts this transfer, and the target should remain selected after the transfer finishes.
 
 
-### -field SpbRequestSequencePositionLast
+#### - SpbRequestSequencePositionLast
 
 The last I/O request in a sequence. This request is the read or write request that immediately precedes the unlock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>) I/O control request that signals the end of the sequence.
 
@@ -110,7 +110,7 @@ In some cases, SpbCx cannot identify the last transfer and labels the last trans
 The controller should already have the target selected before it starts this transfer, and should release the target after the transfer finishes.
 
 
-### -field SpbRequestSequencePositionMax
+#### - SpbRequestSequencePositionMax
 
 For internal use only.
 
@@ -142,21 +142,21 @@ For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbReque
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
-
 <a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
-<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], RtlCmEncodeMemIoResource, kernel.rtlcmencodememioresource, k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, wdm/RtlCmEncodeMemIoResource
+ms.keywords: wdm/RtlCmEncodeMemIoResource, kernel.rtlcmencodememioresource, k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, RtlCmEncodeMemIoResource, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS RtlCmEncodeMemIoResource(
 
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to update. 
 
 
-### -param Type [in]
+#### - Type [in]
 
 The resource type of the memory. This parameter can be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the range of allocated addresses.
 
 
-### -param Start [in]
+#### - Start [in]
 
 The starting address of the range of memory or I/O port addresses.
 
@@ -182,9 +182,9 @@ Lowest 32 bits must be zero.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

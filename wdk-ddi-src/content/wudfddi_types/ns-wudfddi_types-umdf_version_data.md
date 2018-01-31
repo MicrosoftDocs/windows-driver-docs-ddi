@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b83a786d-0b17-4129-bdd4-86942ad9d3ec
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PUMDF_VERSION_DATA structure pointer, umdf.umdf_version_data, *PUMDF_VERSION_DATA, PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA, wdf.umdf_version_data, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, UMDF_VERSION_DATA, UMDF_VERSION_DATA structure, wudfddi_types/PUMDF_VERSION_DATA
+ms.keywords: wdf.umdf_version_data, UMDF_VERSION_DATA structure, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, umdf.umdf_version_data, UMDF_VERSION_DATA, PUMDF_VERSION_DATA, wudfddi_types/PUMDF_VERSION_DATA, PUMDF_VERSION_DATA structure pointer, *PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct UMDF_VERSION_DATA {
 
 
 
-### -field MajorNumber
+#### - MajorNumber
 
 A number that specifies the major version of the framework. 
 
 
-### -field MinorNumber
+#### - MinorNumber
 
 A number that specifies the minor version of the framework. 
 
 
-### -field ServiceNumber
+#### - ServiceNumber
 
 A number that specifies the service of the framework. 
 
@@ -126,9 +126,9 @@ Header:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780327">Microsoft_WDF_UMDF_Version</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558909">IWDFDriver::IsVersionAvailable</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780327">Microsoft_WDF_UMDF_Version</a>
 
  
 

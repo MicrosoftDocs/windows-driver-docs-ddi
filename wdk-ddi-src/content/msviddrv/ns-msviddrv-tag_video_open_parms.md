@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BD11B67F-9229-4584-A20D-7D7C70B42977
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS, msviddrv/VIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS structure pointer [Streaming Media Devices], msviddrv/LPVIDEO_OPEN_PARMS, tag_video_open_parms, stream.video_open_parms, VIDEO_OPEN_PARMS structure [Streaming Media Devices]
+ms.keywords: LPVIDEO_OPEN_PARMS, VIDEO_OPEN_PARMS structure [Streaming Media Devices], tag_video_open_parms, stream.video_open_parms, msviddrv/VIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS structure pointer [Streaming Media Devices], VIDEO_OPEN_PARMS, msviddrv/LPVIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct tag_video_open_parms {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Set to the size of the <b>VIDEO_OPEN_PARMS</b> structure.
 
 
-### -field fccType
+#### - fccType
 
 'vcap'
 
 
-### -field fccComp
+#### - fccComp
 
 This member is not used.
 
 
-### -field dwVersion
+#### - dwVersion
 
 Specifies the version of msvideo.
 
 
-### -field dwFlags
+#### - dwFlags
 
 Specifies the type of channel.
 
 
-### -field dwError
+#### - dwError
 
 If open fails, specifies why it failed.
 
 
-### -field pV1Reserved
+#### - pV1Reserved
 
 Reserved.
 
 
-### -field pV2Reserved
+#### - pV2Reserved
 
 Reserved.
 
 
-### -field dnDevNode
+#### - dnDevNode
 
 Specifies the devnode for PnP devices.
 

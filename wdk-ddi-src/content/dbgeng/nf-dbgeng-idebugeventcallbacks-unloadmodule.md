@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2afdaee6-7714-42d4-a402-3cb85ef3b970
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, UnloadModule method [Windows Debugging], dbgeng/IDebugEventCallbacks::UnloadModule, UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, UnloadModule, debugger.idebugeventcallbacks_unloadmodule, ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, IDebugEventCallbacks::UnloadModule
+ms.keywords: UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, debugger.idebugeventcallbacks_unloadmodule, IDebugEventCallbacks, UnloadModule, IDebugEventCallbacks::UnloadModule, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, dbgeng/IDebugEventCallbacks::UnloadModule, UnloadModule method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT UnloadModule(
 
 
 
-### -param ImageBaseName [in, optional]
+#### - ImageBaseName [in, optional]
 
 Specifies the name of the module's image file, which can include the path.  If this information is not available, <i>ImageBaseName</i> will be <b>NULL</b>.
 
 
-### -param BaseOffset [in]
+#### - BaseOffset [in]
 
 Specifies the base address of the module in the target's memory address space.    If this information is not available, <i>BaseOffset</i> will be <b>NULL</b>.
 

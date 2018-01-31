@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F2870421-2A6F-4E63-AC91-E251E0B67C06
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetPacketCount method [Audio Devices], audio.iminiportwavertoutputstream_getpacketcount, IMiniportWaveRTOutputStream interface [Audio Devices], GetPacketCount method, IMiniportWaveRTOutputStream::GetPacketCount, IMiniportWaveRTOutputStream, GetPacketCount, portcls/IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream interface
+ms.keywords: audio.iminiportwavertoutputstream_getpacketcount, IMiniportWaveRTOutputStream, GetPacketCount, portcls/IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices], GetPacketCount method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRTOutputStream.GetPacketCount
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTOutputStream::GetPacketCount method
@@ -67,7 +67,7 @@ NTSTATUS GetPacketCount(
 
 
 
-### -param pPacketCount [out]
+#### - pPacketCount [out]
 
 pPacketCount returns the number of packets completely transferred from the WaveRT buffer into hardware. 
 

@@ -40,7 +40,7 @@ apiname:
 -	GetCryptoKeyExchangeType
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback
@@ -74,31 +74,31 @@ HRESULT APIENTRY* GetCryptoKeyExchangeType(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param *pCryptoType
+#### - *pCryptoType [in]
+
+A pointer to a GUID that specifies the type of encryption algorithm to query.
 
 
+#### - *pDecodeProfile [in]
 
-### -param *pDecodeProfile
+A pointer to a GUID that specifies the decoder profile to query.
 
 
-
-### -param Index [in]
+#### - Index [in]
 
 The zero-based index of the key exchange type.
 
 
-### -param *pKeyExchangeType
+#### - *pKeyExchangeType [out]
 
-
-
-
+A pointer to a GUID that specifies the supported key exchange type for the specified index.
 
 
 #### - pCryptoType [in]

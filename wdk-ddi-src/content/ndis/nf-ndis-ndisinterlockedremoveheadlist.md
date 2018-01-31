@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85cbc158-7132-4666-8161-a78251a62e4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], NdisInterlockedRemoveHeadList, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, ndis/NdisInterlockedRemoveHeadList, netvista.ndisinterlockedremoveheadlist
+ms.keywords: ndis/NdisInterlockedRemoveHeadList, NdisInterlockedRemoveHeadList, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], netvista.ndisinterlockedremoveheadlist, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -130,17 +130,17 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
 <mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
    NdisInterlockedInsertTailList</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
+   NdisInterlockedInsertHeadList</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
-
-<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
-   NdisInterlockedInsertHeadList</b></mshelp:link>
 
  
 

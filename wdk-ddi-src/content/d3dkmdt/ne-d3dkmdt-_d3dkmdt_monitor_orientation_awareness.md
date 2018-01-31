@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cea11e84-bff5-4189-9ed4-830049a44a4b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_MOA_INTERRUPTIBLE, d3dkmdt/D3DKMDT_MOA_UNINITIALIZED, D3DKMDT_MOA_INTERRUPTIBLE, DmEnums_d2570bc0-98c7-4402-b167-a4167715cc90.xml, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION_AWARENESS, d3dkmdt/D3DKMDT_MOA_NONE, d3dkmdt/D3DKMDT_MOA_POLLED, D3DKMDT_MOA_UNINITIALIZED, D3DKMDT_MONITOR_ORIENTATION_AWARENESS, _D3DKMDT_MONITOR_ORIENTATION_AWARENESS, D3DKMDT_MONITOR_ORIENTATION_AWARENESS enumeration [Display Devices], display.d3dkmdt_monitor_orientation_awareness, D3DKMDT_MOA_POLLED, D3DKMDT_MOA_NONE
+ms.keywords: "_D3DKMDT_MONITOR_ORIENTATION_AWARENESS, D3DKMDT_MOA_NONE, D3DKMDT_MOA_INTERRUPTIBLE, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION_AWARENESS, D3DKMDT_MONITOR_ORIENTATION_AWARENESS, d3dkmdt/D3DKMDT_MOA_NONE, DmEnums_d2570bc0-98c7-4402-b167-a4167715cc90.xml, d3dkmdt/D3DKMDT_MOA_INTERRUPTIBLE, D3DKMDT_MOA_UNINITIALIZED, D3DKMDT_MOA_POLLED, display.d3dkmdt_monitor_orientation_awareness, d3dkmdt/D3DKMDT_MOA_POLLED, D3DKMDT_MONITOR_ORIENTATION_AWARENESS enumeration [Display Devices], d3dkmdt/D3DKMDT_MOA_UNINITIALIZED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _D3DKMDT_MONITOR_ORIENTATION_AWARENESS {
 
 
 
-### -field D3DKMDT_MOA_UNINITIALIZED
+#### - D3DKMDT_MOA_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_MONITOR_ORIENTATION_AWARENESS has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_MOA_NONE
+#### - D3DKMDT_MOA_NONE
 
 Indicates that the video output device is unable to determine the orientation of a connected external display device.
 
 
-### -field D3DKMDT_MOA_POLLED
+#### - D3DKMDT_MOA_POLLED
 
 Indicates that the video output device can determine the orientation of a connected external display device, and the display miniport driver can be aware of changes in orientation by polling the video output device.
 
 
-### -field D3DKMDT_MOA_INTERRUPTIBLE
+#### - D3DKMDT_MOA_INTERRUPTIBLE
 
 Indicates that the video output device can generate an interrupt when the orientation of a connected external display device changes.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9bb18fd3-e803-4f51-822e-88c06d3385cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInterfaceReferenceNoOp method, DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, PFN_WDFDEVICEINTERFACEREFERENCENOOP, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp, WdfDeviceInterfaceReferenceNoOp, wdf.wdfdeviceinterfacereferencenoop, kmdf.wdfdeviceinterfacereferencenoop
+ms.keywords: WdfDeviceInterfaceReferenceNoOp, WdfDeviceInterfaceReferenceNoOp method, PFN_WDFDEVICEINTERFACEREFERENCENOOP, DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp, wdf.wdfdeviceinterfacereferencenoop, kmdf.wdfdeviceinterfacereferencenoop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDeviceInterfaceReferenceNoOp
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS"
+req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ VOID WdfDeviceInterfaceReferenceNoOp(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 This parameter is not used.
 
@@ -96,9 +96,9 @@ For more information about interface reference counts and the <b>WdfDeviceInterf
 
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
 
-<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
-
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
 
  
 

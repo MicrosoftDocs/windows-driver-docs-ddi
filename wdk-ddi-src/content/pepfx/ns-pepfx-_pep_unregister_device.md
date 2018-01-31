@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B6A0F80C-8AE2-4FFE-A3EE-F0260A8774D6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], PEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], kernel.pep_unregister_device, pepfx/PEP_UNREGISTER_DEVICE, _PEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE
+ms.keywords: "_PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, pepfx/PEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_unregister_device"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_UNREGISTER_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: PEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE
+req.typenames: "*PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE"
 ---
 
 # _PEP_UNREGISTER_DEVICE structure
@@ -67,7 +67,7 @@ typedef struct _PEP_UNREGISTER_DEVICE {
 
 
 
-### -field DeviceHandle
+#### - DeviceHandle
 
 [in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 

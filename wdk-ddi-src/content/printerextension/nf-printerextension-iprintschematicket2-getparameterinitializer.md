@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: E5403359-A757-4530-B17B-C80E8A45AA92
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetParameterInitializer method [Print Devices], IPrintSchematicket2 interface, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchemaTicket2, GetParameterInitializer, GetParameterInitializer method [Print Devices], printerextension/IPrintSchematicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices], GetParameterInitializer method, print.iprintschematicket2_getparameterinitializer, IPrintSchematicket2::GetParameterInitializer
+ms.keywords: GetParameterInitializer method [Print Devices], GetParameterInitializer, IPrintSchemaTicket2::GetParameterInitializer, GetParameterInitializer method [Print Devices], IPrintSchematicket2 interface, printerextension/IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, IPrintSchematicket2 interface [Print Devices], GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, IPrintSchemaTicket2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetParameterInitializer(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The keyword name.
 
 
-### -param bstrNamespaceUri [in]
+#### - bstrNamespaceUri [in]
 
 The keyword namespace URI.
 
 
-### -param ppParameterInitializer [out, retval]
+#### - ppParameterInitializer [out, retval]
 
 The <a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a> object.
 
@@ -96,9 +96,9 @@ The <b>GetParameterInitializer</b> method returns an <b>HRESULT</b> value. If th
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
-
 <a href="..\printerextension\nn-printerextension-iprintschematicket2.md">IPrintSchematicket2</a>
+
+<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, _DXGKARG_RECOMMENDFUNCTIONALVIDPN
+ms.keywords: display.dxgkarg_recommendfunctionalvidpn, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, DXGKARG_RECOMMENDFUNCTIONALVIDPN, _DXGKARG_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _DXGKARG_RECOMMENDFUNCTIONALVIDPN {
 
 
 
-### -field NumberOfVidPnTargets
+#### - NumberOfVidPnTargets
 
 Reserved for future use.
 
 
-### -field pVidPnTargetPrioritizationVector
+#### - pVidPnTargetPrioritizationVector
 
 Reserved for future use.
 
 
-### -field hRecommendedFunctionalVidPn
+#### - hRecommendedFunctionalVidPn
 
 A handle, provided by the caller, to an empty VidPN object. <i>DxgkDdiRecommendFunctionalVidPn</i> must add a path (source-target pair) to the VidPN's topology and must pin modes on the path's source and target. For information about adding paths to a topology and creating mode sets for video present sources and targets, see <a href="https://msdn.microsoft.com/5dedac8c-9a99-4b3a-81be-39819135cd97">VidPN Objects and Interfaces</a>.
 
 
-### -field RequestReason
+#### - RequestReason
 
 A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_recommendfunctionalvidpn_reason.md">DXGK_RECOMMENDFUNCTIONALVIDPN_REASON</a> value that indicates why the caller is requesting a functional VidPN.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 A pointer to a buffer that contains private data that is passed from a user-mode application to the display miniport driver.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 The size, in bytes, of the data block pointed to by <i>pPrivateDriverData</i>.
 

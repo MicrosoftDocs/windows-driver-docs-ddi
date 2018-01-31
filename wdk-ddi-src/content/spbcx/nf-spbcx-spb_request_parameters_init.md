@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 65C3DF3D-812D-44ED-B471-2D29ADBC2BBA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spb_request_parameters_init, SPB_REQUEST_PARAMETERS_INIT function [Buses], SPB_REQUEST_PARAMETERS_INIT, spbcx/SPB_REQUEST_PARAMETERS_INIT
+ms.keywords: SPB_REQUEST_PARAMETERS_INIT, SPB_REQUEST_PARAMETERS_INIT function [Buses], SPB.spb_request_parameters_init, spbcx/SPB_REQUEST_PARAMETERS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SPB_REQUEST_PARAMETERS_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ VOID SPB_REQUEST_PARAMETERS_INIT(
 
 
 
-### -param Parameters [out]
+#### - Parameters [out]
 
 A pointer to the <b>SPB_REQUEST_PARAMETERS</b> structure that is to be initialized.
 

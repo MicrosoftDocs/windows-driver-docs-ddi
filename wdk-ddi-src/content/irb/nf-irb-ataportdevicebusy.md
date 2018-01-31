@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 919f30b1-025d-4526-a1f6-2d14c482e474
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortDeviceBusy, AtaPortDeviceBusy routine [Storage Devices], irb/AtaPortDeviceBusy, storage.ataportdevicebusy, atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml
+ms.keywords: AtaPortDeviceBusy, irb/AtaPortDeviceBusy, storage.ataportdevicebusy, AtaPortDeviceBusy routine [Storage Devices], atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID __inline AtaPortDeviceBusy(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Specifies the logical unit number (LUN) of the device.
 
 
-### -param BusyTimeout [in]
+#### - BusyTimeout [in]
 
 Specifies the time, in seconds, for which the device is presumed to be busy.
 
@@ -110,9 +110,9 @@ The miniport driver must not call <b>AtaPortDeviceBusy</b> from its <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
-
 <a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
 
  
 

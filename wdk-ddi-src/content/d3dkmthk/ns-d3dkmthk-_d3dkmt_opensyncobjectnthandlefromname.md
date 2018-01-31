@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6435D3B7-A1B7-4417-8272-C505A5FA500E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname, _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices]
+ms.keywords: display.d3dkmt_opensyncobjectnthandlefromname, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME {
 
 
 
-### -field dwDesiredAccess
+#### - dwDesiredAccess
 
 [in] Access attributes for opening a shared monitored fence sync object, such as <b>D3DDDI_SYNC_OBJECT_WAIT</b>, <b>D3DDDI_SYNC_OBJECT_SIGNAL</b>, or <b>D3DDDI_SYNC_OBJECT_ALL_ACCESS</b>.
 
 
-### -field pObjAttrib
+#### - pObjAttrib
 
 [in] Object attributes for opening the object handle, including the shared object name information.
 
 
-### -field hNtHandle
+#### - hNtHandle
 
 [out] NT handle to the sync object that can be used to open it via <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml, iscsifnd/PISCSI_DiscoveredTargetPortal, storage.iscsi_discoveredtargetportal, PISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal"
+ms.keywords: storage.iscsi_discoveredtargetportal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], iscsifnd/ISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal, _ISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _ISCSI_DiscoveredTargetPortal {
 
 
 
-### -field Socket
+#### - Socket
 
 The socket number of the portal. 
 
 
-### -field Address
+#### - Address
 
 The network address of the portal. 
 
 
-### -field SymbolicName
+#### - SymbolicName
 
 A wide character string that indicates the portal's symbolic name.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d30a2ee4-4736-4127-95db-b86e782c3577
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcGetFileObjectFromBcb, CcGetFileObjectFromBcb routine [Installable File System Drivers], ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ntifs/CcGetFileObjectFromBcb, ifsk.ccgetfileobjectfrombcb
+ms.keywords: ifsk.ccgetfileobjectfrombcb, CcGetFileObjectFromBcb, ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, CcGetFileObjectFromBcb routine [Installable File System Drivers], ntifs/CcGetFileObjectFromBcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PFILE_OBJECT CcGetFileObjectFromBcb(
 
 
 
-### -param Bcb [in]
+#### - Bcb [in]
 
 Pointer to the pinned BCB.
 
@@ -88,13 +88,13 @@ The file object pointer is guaranteed to remain valid as long as the BCB exists.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
  
 

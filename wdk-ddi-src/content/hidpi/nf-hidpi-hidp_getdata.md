@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_GetData, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, HidP_GetData, hid.hidp_getdata, HidP_GetData routine [Human Input Devices]
+ms.keywords: HidP_GetData, hidpi/HidP_GetData, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, HidP_GetData routine [Human Input Devices], hid.hidp_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS __stdcall HidP_GetData(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
 
-### -param DataList [out]
+#### - DataList [out]
 
 Specifies a caller-allocated array of HIDP_DATA structures that the routine uses to return information about all the buttons that are currently set to ON and the data associated with values.
 
 
-### -param DataLength [in, out]
+#### - DataLength [in, out]
 
 Specifies, on input, the number of structures that the caller-allocated <i>DataList</i> array holds. Specifies, on output, the number of controls for which the routine can return data, which includes all buttons that are currently set to ON and all control values.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a> of the top-level collection associated with the HID report located at <i>Report</i>.
 
 
-### -param Report [in]
+#### - Report [in]
 
 Pointer to a HID report.
 
 
-### -param ReportLength [in]
+#### - ReportLength [in]
 
 Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> in the collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
@@ -197,11 +197,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 <a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
 
+<a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 <a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-<a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d212a29-22b9-408d-9562-b232fc91cc9f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/PWDF_USB_DEVICE_INFORMATION, *PWDF_USB_DEVICE_INFORMATION, wdf.wdf_usb_device_information, kmdf.wdf_usb_device_information, PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml, PWDF_USB_DEVICE_INFORMATION structure pointer, wdfusb/WDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION structure, _WDF_USB_DEVICE_INFORMATION
+ms.keywords: kmdf.wdf_usb_device_information, _WDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION structure pointer, WDF_USB_DEVICE_INFORMATION structure, PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION, wdfusb/WDF_USB_DEVICE_INFORMATION, wdfusb/PWDF_USB_DEVICE_INFORMATION, wdf.wdf_usb_device_information, *PWDF_USB_DEVICE_INFORMATION, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,22 +73,22 @@ typedef struct _WDF_USB_DEVICE_INFORMATION {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure. 
 
 
-### -field UsbdVersionInformation
+#### - UsbdVersionInformation
 
 A <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that provides version information for the host controller driver (HCD) and the USB specification version that the device supports.
 
 
-### -field HcdPortCapabilities
+#### - HcdPortCapabilities
 
 This member is reserved for system use.
 
 
-### -field Traits
+#### - Traits
 
 A set of bit flags that identify device traits. The flags are defined by the <a href="..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md">WDF_USB_DEVICE_TRAITS</a> enumeration.
 
@@ -102,13 +102,13 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\
 
 ## -see-also
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md">WDF_USB_DEVICE_TRAITS</a>
-
-<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md">WDF_USB_DEVICE_INFORMATION_INIT</a>
 
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md">WDF_USB_DEVICE_TRAITS</a>
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
+
+<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
 
  
 

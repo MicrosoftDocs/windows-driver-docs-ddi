@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisWriteErrorLogEntry, miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, NdisWriteErrorLogEntry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], netvista.ndiswriteerrorlogentry
+ms.keywords: NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry, ndis/NdisWriteErrorLogEntry, miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ VOID __cdecl NdisWriteErrorLogEntry(
 
 
 
-### -param NdisAdapterHandle [in]
+#### - NdisAdapterHandle [in]
 
 Specifies the handle representing the NIC that is the cause of the I/O error to be logged. This
      handle is an input parameter to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param ErrorCode [in]
+#### - ErrorCode [in]
 
 Specifies the NDIS_ERRROR_CODE_<i>XXX</i> code that best describes the I/O error as one of the following values:
      
@@ -161,7 +161,7 @@ The amount of receive buffer memory that is available is too small to receive da
 The network adapter hardware is disabled.
 
 
-### -param NumberOfErrorValues [in]
+#### - NumberOfErrorValues [in]
 
 Specifies the number of ULONG values to follow this parameter.
 
@@ -217,9 +217,9 @@ In general, a miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
 <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 

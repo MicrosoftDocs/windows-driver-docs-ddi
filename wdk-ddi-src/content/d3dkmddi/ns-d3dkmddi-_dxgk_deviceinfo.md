@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, DXGK_DEVICEINFO, display.dxgk_deviceinfo, DXGK_DEVICEINFO structure [Display Devices], _DXGK_DEVICEINFO, d3dkmddi/DXGK_DEVICEINFO
+ms.keywords: DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, display.dxgk_deviceinfo, _DXGK_DEVICEINFO, DXGK_DEVICEINFO structure [Display Devices], d3dkmddi/DXGK_DEVICEINFO, DXGK_DEVICEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,40 +72,40 @@ typedef struct _DXGK_DEVICEINFO {
 
 
 
-### -field DmaBufferSize
+#### - DmaBufferSize
 
 [out] The size, in bytes, of the buffer of hardware commands that is sent through direct memory access (DMA) to the hardware.
 
 The DMA buffer can grow and shrink after the device is created; however, the DMA buffer can never shrink smaller than the starting size that <b>DmaBufferSize</b> specifies. 
 
 
-### -field DmaBufferSegmentSet
+#### - DmaBufferSegmentSet
 
 [out] The identifiers of the segments where the DMA buffers should be made accessible to the graphics processing unit (GPU). 
 
 
-### -field DmaBufferPrivateDataSize
+#### - DmaBufferPrivateDataSize
 
 [out] The size, in bytes, of the driver-resident private data structure that is associated with each DMA buffer. Memory for this private data structure is allocated from nonpaged pool. If the driver specifies zero in <b>DmaBufferPrivateDataSize</b>, no memory is allocated for the private data structure.
 
 The private data structure that is associated with a DMA buffer is initialized to zero when the DMA buffer is created. During the lifetime of the DMA buffer, the video memory manager never accesses the private data structure that is associated with the DMA buffer.
 
 
-### -field AllocationListSize
+#### - AllocationListSize
 
 [out] The starting number of elements in an array of allocations (that is, an array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a> structures). This number is the starting number of allocations that the driver requests to be in the <b>pAllocationList</b> members of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a> and <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a> structures in calls to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> functions. 
 
 The allocation list can grow and shrink after the device is created; however, the allocation list can never shrink smaller than the starting size that <b>AllocationListSize</b> specifies. 
 
 
-### -field PatchLocationListSize
+#### - PatchLocationListSize
 
 [out] The starting number of elements in an array of patch locations (that is, an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures) for the device in user mode and kernel mode. This number is the starting number of patch locations that the driver requests to be in the <b>pPatchLocationListIn</b> members of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a> structures in calls to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> function. 
 
 The patch-location list can grow and shrink after the device is created; however, the patch-location list can never shrink smaller than the starting size that <b>PatchLocationListSize</b> specifies. 
 
 
-### -field Flags
+#### - Flags
 
 [out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfoflags.md">DXGK_DEVICEINFOFLAGS</a> structure that identifies, in bit-field flags, information about the device.
 
@@ -135,21 +135,21 @@ If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager all
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfoflags.md">DXGK_DEVICEINFOFLAGS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
  
 

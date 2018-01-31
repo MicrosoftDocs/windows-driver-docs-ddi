@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/UcmConnectorCreate, UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate
+ms.keywords: ucmmanager/UcmConnectorCreate, UcmConnectorCreate method [Buses], UcmConnectorCreate, buses.ucmconnectorcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,24 +72,24 @@ NTSTATUS UcmConnectorCreate(
 
 
 
-### -param WdfDevice [in]
+#### - WdfDevice [in]
 
 A handle to a framework device object that the client driver received in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a caller-supplied <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a> structure that is initialized by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_config_init.md">UCM_CONNECTOR_CONFIG_INIT</a>.
 
 
-### -param Attributes [in]
+#### - Attributes [in]
 
 A pointer to a caller-supplied <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new connector object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
 
 
-### -param Connector [out]
+#### - Connector [out]
 
 A pointer to a location that receives a handle to the new connector object.
 
@@ -118,9 +118,9 @@ An appropriate place for a UCM client driver to call <b>UcmConnectorCreate</b> i
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
-
 <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_config_init.md">UCM_CONNECTOR_CONFIG_INIT</a>
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
 
  
 

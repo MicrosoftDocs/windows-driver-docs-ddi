@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f6b8146e-dbe2-4c73-beb2-02868db9fb27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPinTypePuk1, wwan/WwanPinTypeNetworkSubsetPuk, WwanPinTypeNone, WwanPinTypeNetworkSubsetPuk, WwanPinTypePin1, wwan/WwanPinTypeDeviceFirstSimPuk, wwan/WwanPinTypeSvcProviderPuk, WwanPinTypePuk2, wwan/WwanPinTypeNetworkPuk, wwan/WwanPinTypeDeviceFirstSimPin, wwan/WwanPinTypeNetworkSubsetPin, wwan/WwanPinTypeCustom, wwan/WwanPinTypePuk2, WWAN_PIN_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPinTypeDeviceSimPin, WWAN_PIN_TYPE, wwan/WwanPinTypeCorporatePin, WwanPinTypeDeviceFirstSimPuk, wwan/WwanPinTypePin1, WwanPinTypeNetworkSubsetPin, wwan/WwanPinTypeDeviceSimPin, WwanPinTypeCorporatePuk, WwanPinTypeMax, WwanRef_f94cf79e-63f3-47e9-bd40-beb9cd32f0b8.xml, WwanPinTypeCustom, wwan/WwanPinTypeNone, wwan/WwanPinTypeCorporatePuk, WwanPinTypeNetworkPin, wwan/WwanPinTypePin2, PWWAN_PIN_TYPE, netvista.wwan_pin_type, WwanPinTypeSvcProviderPin, wwan/WwanPinTypeMax, WwanPinTypeNetworkPuk, _WWAN_PIN_TYPE, wwan/WwanPinTypeSvcProviderPin, PWWAN_PIN_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_PIN_TYPE, WwanPinTypePuk1, wwan/WwanPinTypeNetworkPin, WwanPinTypeSubsidyLock, WwanPinTypeCorporatePin, *PWWAN_PIN_TYPE, WwanPinTypeSvcProviderPuk, WwanPinTypePin2, wwan/WWAN_PIN_TYPE, wwan/WwanPinTypeSubsidyLock, WwanPinTypeDeviceFirstSimPin
+ms.keywords: wwan/WwanPinTypePin1, WwanPinTypeNetworkPuk, wwan/WwanPinTypeSvcProviderPuk, PWWAN_PIN_TYPE, *PWWAN_PIN_TYPE, WwanPinTypeNone, wwan/WwanPinTypeSubsidyLock, wwan/WwanPinTypePuk2, _WWAN_PIN_TYPE, WwanPinTypeSvcProviderPuk, wwan/WwanPinTypeCorporatePuk, WwanPinTypeMax, wwan/WwanPinTypeNetworkPuk, wwan/WwanPinTypeNone, wwan/WwanPinTypePin2, wwan/PWWAN_PIN_TYPE, wwan/WwanPinTypeDeviceSimPin, WwanPinTypeSvcProviderPin, wwan/WwanPinTypeNetworkSubsetPuk, WwanPinTypePin2, wwan/WwanPinTypeNetworkPin, wwan/WwanPinTypePuk1, WWAN_PIN_TYPE, WwanPinTypeNetworkSubsetPuk, WwanPinTypeDeviceFirstSimPuk, WwanPinTypeDeviceSimPin, wwan/WwanPinTypeDeviceFirstSimPin, wwan/WwanPinTypeCustom, wwan/WWAN_PIN_TYPE, WwanPinTypeDeviceFirstSimPin, wwan/WwanPinTypeNetworkSubsetPin, wwan/WwanPinTypeSvcProviderPin, wwan/WwanPinTypeCorporatePin, wwan/WwanPinTypeMax, wwan/WwanPinTypeDeviceFirstSimPuk, WwanRef_f94cf79e-63f3-47e9-bd40-beb9cd32f0b8.xml, WwanPinTypeCorporatePin, WwanPinTypePin1, netvista.wwan_pin_type, PWWAN_PIN_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPinTypeCorporatePuk, WwanPinTypeSubsidyLock, WwanPinTypeNetworkPin, WwanPinTypeCustom, WwanPinTypePuk2, WwanPinTypeNetworkSubsetPin, WwanPinTypePuk1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,93 +87,93 @@ typedef enum _WWAN_PIN_TYPE {
 
 
 
-### -field WwanPinTypeNone
+#### - WwanPinTypeNone
 
 No PIN is pending to be entered.
 
 
-### -field WwanPinTypeCustom
+#### - WwanPinTypeCustom
 
 The PIN type is a custom type and is none of the other PIN types listed in this
      enumeration.
 
 
-### -field WwanPinTypePin1
+#### - WwanPinTypePin1
 
 The PIN1 key.
 
 
-### -field WwanPinTypePin2
+#### - WwanPinTypePin2
 
 The PIN2 key.
 
 
-### -field WwanPinTypeDeviceSimPin
+#### - WwanPinTypeDeviceSimPin
 
 The device to SIM key.
 
 
-### -field WwanPinTypeDeviceFirstSimPin
+#### - WwanPinTypeDeviceFirstSimPin
 
 The device to very first SIM key.
 
 
-### -field WwanPinTypeNetworkPin
+#### - WwanPinTypeNetworkPin
 
 The network personalization key.
 
 
-### -field WwanPinTypeNetworkSubsetPin
+#### - WwanPinTypeNetworkSubsetPin
 
 The network subset personalization key.
 
 
-### -field WwanPinTypeSvcProviderPin
+#### - WwanPinTypeSvcProviderPin
 
 The service provider (SP) personalization key.
 
 
-### -field WwanPinTypeCorporatePin
+#### - WwanPinTypeCorporatePin
 
 The corporate personalization key.
 
 
-### -field WwanPinTypeSubsidyLock
+#### - WwanPinTypeSubsidyLock
 
 The subsidy unlock key.
 
 
-### -field WwanPinTypePuk1
+#### - WwanPinTypePuk1
 
 The Personal Identification Number1 Unlock Key (PUK1).
 
 
-### -field WwanPinTypePuk2
+#### - WwanPinTypePuk2
 
 The Personal Identification Number2 Unlock Key (PUK2).
 
 
-### -field WwanPinTypeDeviceFirstSimPuk
+#### - WwanPinTypeDeviceFirstSimPuk
 
 The device to very first SIM PIN unlock key.
 
 
-### -field WwanPinTypeNetworkPuk
+#### - WwanPinTypeNetworkPuk
 
 The network personalization unlock key.
 
 
-### -field WwanPinTypeNetworkSubsetPuk
+#### - WwanPinTypeNetworkSubsetPuk
 
 The network subset personalization unlock key.
 
 
-### -field WwanPinTypeSvcProviderPuk
+#### - WwanPinTypeSvcProviderPuk
 
 The service provider (SP) personalization unlock key.
 
 
-### -field WwanPinTypeCorporatePuk
+#### - WwanPinTypeCorporatePuk
 
 The corporate personalization unlock key.
 
@@ -186,7 +186,7 @@ The corporate personalization unlock key.
 
 
 
-### -field WwanPinTypeMax
+#### - WwanPinTypeMax
 
 The total number of supported PIN types.
 

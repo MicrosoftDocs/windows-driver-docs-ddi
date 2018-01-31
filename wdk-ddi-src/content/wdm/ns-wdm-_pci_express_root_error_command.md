@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 659c0612-5623-4615-b9c5-6d2656097b89
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: pci_struct_f7834746-d8b5-4765-8434-8f7837a47871.xml, PCI.pci_express_root_error_command, PCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND union [Buses], *PPCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PPCI_EXPRESS_ROOT_ERROR_COMMAND, _PCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND union pointer [Buses], PPCI_EXPRESS_ROOT_ERROR_COMMAND
+ms.keywords: "_PCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND union pointer [Buses], PCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND union [Buses], pci_struct_f7834746-d8b5-4765-8434-8f7837a47871.xml, wdm/PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI.pci_express_root_error_command, *PPCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_ROOT_ERROR_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_ROOT_ERROR_COMMAND, *PPCI_EXPRESS_ROOT_ERROR_COMMAND
+req.typenames: "*PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND"
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,7 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_COMMAND {
  
 
 
-### -field AsULONG
+#### - AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_COMMAND structure.
 

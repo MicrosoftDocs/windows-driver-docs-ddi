@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards, fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards, ifsk.fsrtldoesdbcscontainwildcards, fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FsRtlDoesDbcsContainWildCards(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 A pointer to the string to be checked.
 

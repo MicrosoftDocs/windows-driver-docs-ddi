@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71351CB7-1295-4797-802C-23A6B1C2C53F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Storage Devices], PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Storage Devices], storage.storage_device_resiliency_descriptor, _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
+ms.keywords: storage.storage_device_resiliency_descriptor, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Storage Devices], ntddstor/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Storage Devices], ntddstor/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,46 +74,46 @@ typedef struct _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to 
       the structure. Set to 
       <code>sizeof(STORAGE_DEVICE_RESILIENCY_DESCRIPTOR)</code>.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
 
 
-### -field NameOffset
+#### - NameOffset
 
 Byte offset to the null-terminated ASCII string containing the resiliency properties Name. For devices with 
       no Name property, this will be zero.
 
 
-### -field NumberOfLogicalCopies
+#### - NumberOfLogicalCopies
 
 Number of logical copies of data that are available.
 
 
-### -field NumberOfPhysicalCopies
+#### - NumberOfPhysicalCopies
 
 Number of complete copies of data that are stored.
 
 
-### -field PhysicalDiskRedundancy
+#### - PhysicalDiskRedundancy
 
 Number of disks that can fail without leading to data loss.
 
 
-### -field NumberOfColumns
+#### - NumberOfColumns
 
 Number of columns in the storage device.
 
 
-### -field Interleave
+#### - Interleave
 
 Size of a stripe unit of the storage device, in bytes. This is also referred to as the stripe width or 
       interleave of the storage device.

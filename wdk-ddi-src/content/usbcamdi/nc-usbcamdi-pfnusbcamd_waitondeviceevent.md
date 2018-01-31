@@ -77,37 +77,37 @@ NTSTATUS APIENTRY USBCAMD_WaitOnDeviceEvent(
 
 
 
-### -param DeviceContext [in]
+#### - DeviceContext [in]
 
 A pointer to device-specific context.
 
 
-### -param PipeIndex [in]
+#### - PipeIndex [in]
 
 Specifies the index of the interrupt pipe.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the read buffer.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Length of the read buffer, in bytes.
 
 
-### -param EventComplete [in]
+#### - EventComplete [in]
 
 Pointer to a camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>, which is called when the interrupt read is completed This value can be <b>NULL</b>.
 
 
-### -param EventContext [in]
+#### - EventContext [in]
 
 Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>.
 
 
-### -param LoopBack [in]
+#### - LoopBack [in]
 
 Specifies if USBCAMD is to resubmit another read request to the interrupt pipe every time an interrupt read is completed. Set to <b>TRUE</b>
 
@@ -190,11 +190,11 @@ The typical usage scenario for this function is a camera with a snapshot button 
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
+<a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a>
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
 
  
 

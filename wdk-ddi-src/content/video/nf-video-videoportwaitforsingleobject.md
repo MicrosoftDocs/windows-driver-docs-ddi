@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 574aa79e-c8ef-44de-8d0b-a550698a32e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, video/VideoPortWaitForSingleObject, display.videoportwaitforsingleobject, VideoPortWaitForSingleObject, VideoPortWaitForSingleObject function [Display Devices]
+ms.keywords: display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject, VideoPortWaitForSingleObject function [Display Devices], VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, VideoPortWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VP_STATUS VideoPortWaitForSingleObject(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param Object [in]
+#### - Object [in]
 
 Pointer to the event object.
 
 
-### -param Timeout [in]
+#### - Timeout [in]
 
 (Optional) Pointer to a time-out value that specifies the absolute or relative time at which the wait is to be completed. A negative value specifies a wait interval relative to the current time. The value should be expressed in units of 100 nanoseconds. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 

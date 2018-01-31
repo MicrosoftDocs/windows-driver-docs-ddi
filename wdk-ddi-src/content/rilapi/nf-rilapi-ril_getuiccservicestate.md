@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ce53e64-791d-4e52-a383-b9e407b5b332
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetUiccServiceState, RIL_GetUiccServiceState, netvista.ril_getuiccservicestate, RIL_GetUiccServiceState method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_getuiccservicestate, rilapi/RIL_GetUiccServiceState, RIL_GetUiccServiceState, RIL_GetUiccServiceState method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_GetUiccServiceState(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param hUiccApp
+#### - hUiccApp
 
 
 
-### -param dwService
+#### - dwService
 
 
 

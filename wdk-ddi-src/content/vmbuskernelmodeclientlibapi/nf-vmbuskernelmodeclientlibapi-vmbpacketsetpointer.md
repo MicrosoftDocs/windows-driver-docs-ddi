@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FFEBEBD0-1FF2-4F27-B028-051B117CA325
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketSetPointer, netvista.vmbpacketsetpointer, VmbPacketSetPointer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketSetPointer
+ms.keywords: VmbPacketSetPointer, VmbPacketSetPointer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketSetPointer, netvista.vmbpacketsetpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbPacketSetPointer
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -73,12 +73,12 @@ VOID VmbPacketSetPointer(
 
 
 
-### -param PacketObject [in]
+#### - PacketObject [in]
 
 A handle for a VMBus packet.
 
 
-### -param Pointer [in, optional]
+#### - Pointer [in, optional]
 
  An arbitrary pointer to save in the context of the packet.
 

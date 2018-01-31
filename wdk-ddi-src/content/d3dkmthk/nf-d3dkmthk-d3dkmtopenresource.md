@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtopenresource, D3DKMTOpenResource function [Display Devices], OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, D3DKMTOpenResource, d3dkmthk/D3DKMTOpenResource
+ms.keywords: D3DKMTOpenResource, d3dkmthk/D3DKMTOpenResource, display.d3dkmtopenresource, D3DKMTOpenResource function [Display Devices], OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,9 +126,9 @@ This function might also return other <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_CREATEALLOCATIONFLAGS, DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], display.dxgk_createallocationflags, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS"
+ms.keywords: display.dxgk_createallocationflags, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, _DXGK_CREATEALLOCATIONFLAGS, DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,19 +73,19 @@ typedef struct _DXGK_CREATEALLOCATIONFLAGS {
 
 
 
-### -field Resource
+#### - Resource
 
 A UINT value that specifies whether allocations belong to a resource. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that DXGK_CREATEALLOCATIONFLAGS contains that can hold a 32-bit value that identifies how to create allocations.
 

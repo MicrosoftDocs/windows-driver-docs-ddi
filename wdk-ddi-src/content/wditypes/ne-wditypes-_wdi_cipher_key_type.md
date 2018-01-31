@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09874F77-5A9C-4C98-996F-29BB90CAE4B6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wifi_cipher_key_type, WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], WDI_CIPHER_KEY_TYPE_IGTK, _WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, netvista.wdi_cipher_key_type, wditypes/WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, wditypes/WDI_CIPHER_KEY_TYPE_IGTK
+ms.keywords: WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, netvista.wdi_cipher_key_type, _WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, wditypes/WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], netvista.wifi_cipher_key_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WDI_CIPHER_KEY_TYPE {
 
 
 
-### -field WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY
+#### - WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY
 
 The key is a pairwise key to another station.
 
 
-### -field WDI_CIPHER_KEY_TYPE_GROUP_KEY
+#### - WDI_CIPHER_KEY_TYPE_GROUP_KEY
 
 The key is a group key.
 
 
-### -field WDI_CIPHER_KEY_TYPE_IGTK
+#### - WDI_CIPHER_KEY_TYPE_IGTK
 
 The key is an IGTK.
 

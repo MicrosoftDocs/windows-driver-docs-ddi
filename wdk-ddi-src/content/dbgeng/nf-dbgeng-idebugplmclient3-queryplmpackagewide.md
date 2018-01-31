@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 29BAAEF9-5B69-4723-BC23-A8B668E2A867
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugPlmClient3::QueryPlmPackageWide, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageWide method, QueryPlmPackageWide, debugger.idebugplmclient3_queryplmpackagewide, QueryPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, QueryPlmPackageWide method [Windows Debugging], IDebugPlmClient3, IDebugPlmClient3::QueryPlmPackageWide
+ms.keywords: IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageWide method, QueryPlmPackageWide, dbgeng/IDebugPlmClient3::QueryPlmPackageWide, QueryPlmPackageWide method [Windows Debugging], IDebugPlmClient3::QueryPlmPackageWide, QueryPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_queryplmpackagewide, IDebugPlmClient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT QueryPlmPackageWide(
 
 
 
-### -param Server [in]
+#### - Server [in]
 
 The server of the package.
 
 
-### -param PackageFullName [in]
+#### - PackageFullName [in]
 
 A pointer to the package name.
 
 
-### -param Stream [in]
+#### - Stream [in]
 
 A pointer to an output stream for results.
 

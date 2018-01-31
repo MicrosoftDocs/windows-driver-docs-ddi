@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c15d74c8-bc04-4d82-a729-6b13f778b8c7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml, hbaapi/HBA_SendRNID, HBA_SendRNID routine [Storage Devices], HBA_SendRNID, storage.hba_sendrnid
+ms.keywords: HBA_SendRNID routine [Storage Devices], storage.hba_sendrnid, fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml, HBA_SendRNID, hbaapi/HBA_SendRNID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ HBA_STATUS HBA_API HBA_SendRNID(
 TBD
 
 
-### -param Wwn [in]
+#### - Wwn [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies a port or a node from which the RNID command is issued. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
@@ -86,12 +86,12 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies a port or a node
 TBD
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that contains, in big-endian (wire) format, the payload data from the reply to the node identification request. 
 
 
-### -param RspBufferSize [in, out]
+#### - RspBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. 
 
@@ -124,9 +124,9 @@ The <b>HBA_SendRNID</b> library routine serves a purpose very similar to the <a 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
 
  
 

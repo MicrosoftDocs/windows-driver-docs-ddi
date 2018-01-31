@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2ee2b610-30c7-4932-b8f6-df5040a5bad8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects2::GetProcessIdByPeb, dbgeng/IDebugSystemObjects2::GetProcessIdByPeb, GetProcessIdByPeb, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects3::GetProcessIdByPeb, IDebugSystemObjects4::GetProcessIdByPeb, IDebugSystemObjects::GetProcessIdByPeb, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects3::GetProcessIdByPeb, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByPeb method, dbgeng/IDebugSystemObjects::GetProcessIdByPeb, GetProcessIdByPeb method [Windows Debugging], debugger.getprocessidbypeb, dbgeng/IDebugSystemObjects4::GetProcessIdByPeb, IDebugSystemObjects_f5f2396d-d537-40a0-987d-314a9dfb01ff.xml, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByPeb method, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects4 interface
+ms.keywords: GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByPeb method, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_f5f2396d-d537-40a0-987d-314a9dfb01ff.xml, IDebugSystemObjects4::GetProcessIdByPeb, GetProcessIdByPeb, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByPeb method, dbgeng/IDebugSystemObjects3::GetProcessIdByPeb, dbgeng/IDebugSystemObjects2::GetProcessIdByPeb, IDebugSystemObjects4, debugger.getprocessidbypeb, IDebugSystemObjects::GetProcessIdByPeb, dbgeng/IDebugSystemObjects::GetProcessIdByPeb, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects3::GetProcessIdByPeb, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects2::GetProcessIdByPeb, dbgeng/IDebugSystemObjects4::GetProcessIdByPeb, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT GetProcessIdByPeb(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's virtual address space of the PEB of the process whose process ID is requested.
 
 
-### -param Id [out]
+#### - Id [out]
 
 Receives the engine process ID.
 

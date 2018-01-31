@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5aaf1f90-fb75-4e5a-9316-9212a21b8fed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, PDOCUMENTPROPERTYHEADER, print.documentpropertyheader, DOCUMENTPROPERTYHEADER, winddiui/DOCUMENTPROPERTYHEADER, *PDOCUMENTPROPERTYHEADER, _DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], winddiui/PDOCUMENTPROPERTYHEADER
+ms.keywords: print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, _DOCUMENTPROPERTYHEADER, print.documentpropertyheader, DOCUMENTPROPERTYHEADER, *PDOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], winddiui/PDOCUMENTPROPERTYHEADER, winddiui/DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], PDOCUMENTPROPERTYHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOCUMENTPROPERTYHEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER"
+req.typenames: DOCUMENTPROPERTYHEADER, *PDOCUMENTPROPERTYHEADER
 req.product: Windows 10 or later.
 ---
 
@@ -75,42 +75,42 @@ typedef struct _DOCUMENTPROPERTYHEADER {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Size, in bytes, of the DOCUMENTPROPERTYHEADER structure.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Must be zero.
 
 
-### -field hPrinter
+#### - hPrinter
 
 Printer handle.
 
 
-### -field pszPrinterName
+#### - pszPrinterName
 
 Pointer to a NULL-terminated string representing the printer's name.
 
 
-### -field pdmIn
+#### - pdmIn
 
 Pointer to an input <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that the <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function should copy into the printer interface DLL's internal DEVMODEW structure (before the property sheet is displayed, if applicable). If DM_IN_BUFFER or DM_MODIFY is not set in <b>fMode</b>, this pointer is <b>NULL</b>.
 
 
-### -field pdmOut
+#### - pdmOut
 
 Pointer to an output DEVMODEW structure into which the <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function should copy the printer interface DLL's internal DEVMODEW contents (after the property sheet has been displayed, if applicable). If DM_OUT_BUFFER or DM_COPY is not set in <b>fMode</b>, this pointer is <b>NULL</b>.
 
 
-### -field cbOut
+#### - cbOut
 
 Specifies the size, in bytes, of the buffer to which <b>pdmOut</b> points. For more information, see the following Remarks section.
 
 
-### -field fMode
+#### - fMode
 
 One or more of the bit flags listed in the following table. (The flags are defined in header files Wingdi.h and Winddiui.h.)
 <table>
@@ -236,11 +236,11 @@ The input value in the <b>cbOut</b> member is not necessarily equal to the size 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
 <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 
 <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
  
 

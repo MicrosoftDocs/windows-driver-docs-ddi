@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8E4F88EF-04A9-4313-AE6A-2467DA08044A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_WFD_GO_INTENT, PDOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT, netvista._dot11_wfd_go_intent, PDOT11_WFD_GO_INTENT structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_GO_INTENT, windot11/DOT11_WFD_GO_INTENT"
+ms.keywords: PDOT11_WFD_GO_INTENT structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_GO_INTENT structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_go_intent, PDOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT, _DOT11_WFD_GO_INTENT, windot11/PDOT11_WFD_GO_INTENT, windot11/DOT11_WFD_GO_INTENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_GO_INTENT
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT
+req.typenames: "*PDOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT"
 req.product: Windows 10 or later.
 ---
 

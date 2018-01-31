@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0400ff8c-a6d5-4fbf-b2fb-eb9fd7aabd7e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, GetNextSymbolMatchWide, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatchWide method, debugger.getnextsymbolmatchwide, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatchWide method, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide, IDebugSymbols3, GetNextSymbolMatchWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetNextSymbolMatchWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetNextSymbolMatchWide(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Specifies the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a> when the search was initialized.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, the same symbol will be returned again next time one of these methods are called (with the same handle); this can be used to determine the size of the name of the symbol.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in characters of the buffer.
 
 
-### -param MatchSize [out, optional]
+#### - MatchSize [out, optional]
 
 Receives the size in characters of the name of the symbol.  If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Offset [out, optional]
+#### - Offset [out, optional]
 
 Receives the location in the target's virtual address space of the symbol.  If <i>Offset</i> is <b>NULL</b>, this information is not returned.
 
@@ -153,9 +153,9 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

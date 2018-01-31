@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml, ksmedia/PKS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], tagKS_VIDEOINFO, ksmedia/KS_VIDEOINFO, *PKS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], stream.ks_videoinfo, KS_VIDEOINFO, PKS_VIDEOINFO
+ms.keywords: ksmedia/KS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], KS_VIDEOINFO, PKS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, *PKS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], tagKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml, stream.ks_videoinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_VIDEOINFO
 product: Windows
 targetos: Windows
-req.typenames: KS_VIDEOINFO, *PKS_VIDEOINFO
+req.typenames: "*PKS_VIDEOINFO, KS_VIDEOINFO"
 ---
 
 # tagKS_VIDEOINFO structure
@@ -77,48 +77,48 @@ typedef struct tagKS_VIDEOINFO {
 
 
 
-### -field bmiColors
+#### - bmiColors
 
 Array of KS_RGBQUAD structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
 
 
-### -field dwBitMasks
+#### - dwBitMasks
 
 Array of DWORD values that specify true-color bitmasks.
 
 
-### -field TrueColorInfo
+#### - TrueColorInfo
 
 
 <a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
 
 
-### -field rcSource
+#### - rcSource
 
 Specifies a clipping rectangle that selects the portion of the active video signal to use. 
 
 
-### -field rcTarget
+#### - rcTarget
 
 Specifies a rectangle that indicates which part of the target buffer to use.
 
 
-### -field dwBitRate
+#### - dwBitRate
 
 Specifies a value that indicates the video stream's approximate data rate, in bits per second.
 
 
-### -field dwBitErrorRate
+#### - dwBitErrorRate
 
 Specifies a value that indicates the video stream's data error rate, in bit errors per second.
 
 
-### -field AvgTimePerFrame
+#### - AvgTimePerFrame
 
 Specifies the average time per frame in 100-nanosecond units.
 
 
-### -field bmiHeader
+#### - bmiHeader
 
 Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
@@ -138,9 +138,9 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
+
+<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
 
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 

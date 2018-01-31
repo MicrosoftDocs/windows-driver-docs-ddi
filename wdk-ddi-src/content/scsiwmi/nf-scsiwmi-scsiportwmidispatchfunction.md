@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 48806050-403b-4375-8b19-e867f905b761
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiDispatchFunction, scsiwmi/ScsiPortWmiDispatchFunction, ScsiPortWmiDispatchFunction routine [Storage Devices], scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, storage.scsiportwmidispatchfunction
+ms.keywords: scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, ScsiPortWmiDispatchFunction, scsiwmi/ScsiPortWmiDispatchFunction, ScsiPortWmiDispatchFunction routine [Storage Devices], storage.scsiportwmidispatchfunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ BOOLEAN ScsiPortWmiDispatchFunction(
 
 
 
-### -param WmiLibInfo [in]
+#### - WmiLibInfo [in]
 
 Pointer to a <a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a> structure that contains registration information for a miniport driver's data blocks and event blocks and defines entry points for the miniport driver's WMI library callback routines.
 
 
-### -param MinorFunction [in]
+#### - MinorFunction [in]
 
 Indicates the WMI action to perform. The miniport driver sets <i>MinorFunction</i> to <b>Srb-&gt;WmiSubFunction</b> from the input SRB.
 
 
-### -param DeviceContext [in]
+#### - DeviceContext [in]
 
 Pointer to a miniport driver-defined context value. The port driver will pass <i>DeviceContext</i> to the miniport driver's <i>HwScsiWmiXxx</i> callback routine. This value would typically point to a HW_DEVICE_EXTENSION structure.
 
 
-### -param RequestContext [in]
+#### - RequestContext [in]
 
 Pointer to a SCSIWMI_REQUEST_CONTEXT structure that contains context information for the WMI SRB. If the SRB can pend, the miniport driver must allocate this structure from the SRB extension because the request context must remain valid until after <b>ScsiPortWmiPostProcess</b> returns with the final SRB return status and buffer size. <b>ScsiPortWmiDispatchFunction </b>will pass <i>RequestContext</i> to the miniport driver's callback routine that processes this request.
 
 
-### -param DataPath [in]
+#### - DataPath [in]
 
 Pointer to a GUID that represents the data block associated with the request. The miniport driver sets <i>DataPath</i> to <b>Srb-&gt;DataPath</b> from the input SRB.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the data buffer. The miniport driver sets <i>BufferSize</i> to <b>Srb-&gt;DataTransferLength</b> from the input SRB.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the data buffer. The miniport driver sets <i>Buffer</i> to <b>Srb-&gt;DataBuffer</b> from the input SRB.
 
@@ -142,17 +142,17 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
-
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
 
  
 

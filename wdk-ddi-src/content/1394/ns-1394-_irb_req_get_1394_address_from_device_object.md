@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 457E3A4E-6845-473C-AACD-7CC00080C34B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IEEE.irb_req_get_1394_address_from_device_object, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure [Buses]
+ms.keywords: IEEE.irb_req_get_1394_address_from_device_object, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure [Buses], 1394/IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT {
 
 
 
-### -field fulFlags
+#### - fulFlags
 
 Specifies which device's node address we are querying. Zero indicates the calling device. USE_LOCAL_NODE indicates the local host controller.
 
 
-### -field NodeAddress
+#### - NodeAddress
 
 Contains the NODE_ADDRESS structure describing the device's node address. In the case of virtual devices, the bus driver returns the node address of the host controller in the stack where the virtual device's device object is loaded. 
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 06CA5F26-8042-4EAC-A381-A0C6E7023BFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses], IEEE.irb_req_isoch_modify_stream_properties, _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
+ms.keywords: IEEE.irb_req_isoch_modify_stream_properties, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses], _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES {
 
 
 
-### -field hResource
+#### - hResource
 
 The handle for the allocated resource. 
 
 
-### -field ChannelMask
+#### - ChannelMask
 
 Specifies the allocated channel. 
 
 
-### -field fulSpeed
+#### - fulSpeed
 
 Specifies the connection speed to use for communication on the channel.  The possible speed values are SPEED_FLAGS_xxx, where xxx is the (approximate) transfer rate in megabits per second. Existing hardware supports transfer rates of 100, 200, and 400 Mb/sec.
 <table>

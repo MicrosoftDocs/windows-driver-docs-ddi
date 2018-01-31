@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 510f8cda-922e-48de-b95e-daf972e906fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_createvertexshaderdecl, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], _D3DDDIARG_CREATEVERTEXSHADERDECL, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, D3DDDIARG_CREATEVERTEXSHADERDECL
+ms.keywords: D3DDDIARG_CREATEVERTEXSHADERDECL, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, display.d3dddiarg_createvertexshaderdecl, _D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_CREATEVERTEXSHADERDECL {
 
 
 
-### -field NumVertexElements
+#### - NumVertexElements
 
 [in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a> function.
 
 
-### -field ShaderHandle
+#### - ShaderHandle
 
 [out] A handle to the vertex shader declaration.
 

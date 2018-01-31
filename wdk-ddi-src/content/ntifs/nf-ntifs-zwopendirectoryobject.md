@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtCreateDirectoryObject, NtCreateDirectoryObject, k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, ntifs/ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], ZwOpenDirectoryObject, kernel.zwopendirectoryobject
+ms.keywords: NtCreateDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], kernel.zwopendirectoryobject, k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, ZwOpenDirectoryObject, ntifs/NtCreateDirectoryObject, ntifs/ZwOpenDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwOpenDirectoryObject(
 
 
 
-### -param DirectoryHandle [out]
+#### - DirectoryHandle [out]
 
 Handle for the newly opened directory object. 
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure specifying the requested types of access being requested for this directory object. A caller can specify one or a combination of the following.
 <table>
@@ -138,7 +138,7 @@ All of the preceding rights plus STANDARD_RIGHTS_REQUIRED.
 These requested access types are compared with the object's discretionary access-control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) to determine which accesses are granted or denied.
 
 
-### -param ObjectAttributes [in]
+#### - ObjectAttributes [in]
 
 Specified attributes for the directory object supplied by the caller. This parameter is initialized by calling the <b>InitializeObjectAttributes</b> macro. 
 
@@ -242,15 +242,15 @@ For more information about security and access control, see the documentation on
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

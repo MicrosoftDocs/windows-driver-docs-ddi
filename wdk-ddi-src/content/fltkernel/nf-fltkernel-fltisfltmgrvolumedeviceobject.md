@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c4165eab-c62e-436d-b4d4-a1f72ee9c1bd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml, FltIsFltMgrVolumeDeviceObject, fltkernel/FltIsFltMgrVolumeDeviceObject, ifsk.fltisfltmgrvolumedeviceobject
+ms.keywords: fltkernel/FltIsFltMgrVolumeDeviceObject, FltIsFltMgrVolumeDeviceObject, FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml, ifsk.fltisfltmgrvolumedeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FltIsFltMgrVolumeDeviceObject(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the device object (<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>) to test.
 

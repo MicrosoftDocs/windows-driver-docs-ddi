@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7fc9295b-90b4-4fa7-abcb-3e3e6a165203
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, display.d3dkmt_reclaimallocations, _D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS structure [Display Devices], D3DKMT_RECLAIMALLOCATIONS
+ms.keywords: display.d3dkmt_reclaimallocations, D3DKMT_RECLAIMALLOCATIONS structure [Display Devices], d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, _D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,24 +71,24 @@ typedef struct _D3DKMT_RECLAIMALLOCATIONS {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A D3DKMT_HANDLE data type that represents a handle to the device that created the allocations.
 
 
-### -field pResources
+#### - pResources
 
 [in] An array of <b>D3DKMT_HANDLE</b> data types that represent Direct3D runtime resource handles.
 
 
-### -field HandleList
+#### - HandleList
 
 [in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations that are to be reclaimed.
 
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
 
 
-### -field pDiscarded
+#### - pDiscarded
 
 [out] An  array of Boolean values that specify whether each resource or allocation was discarded.
 
@@ -99,7 +99,7 @@ The DirectX graphics kernel subsystem sets each Boolean value to <b>TRUE</b> if 
 The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>NULL</b>, the content of the resource or allocation can be assumed to be lost. If the driver does not need the content of the resource or allocation, setting <b>pDiscarded</b> to <b>NULL</b> might improve performance.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
 

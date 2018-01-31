@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_WHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, *PWHEA_MEMORY_ERROR_SECTION, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, ntddk/PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications]"
+ms.keywords: "_WHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_MEMORY_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION"
+req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
 ---
 
 # _WHEA_MEMORY_ERROR_SECTION structure
@@ -82,110 +82,110 @@ typedef struct _WHEA_MEMORY_ERROR_SECTION {
 
 
 
-### -field ValidBits
+#### - ValidBits
 
 A <a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
 
-### -field ErrorStatus
+#### - ErrorStatus
 
 A <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
 
 This member contains valid data only if the <b>Validbits.ErrorStatus</b> bit is set.
 
 
-### -field PhysicalAddress
+#### - PhysicalAddress
 
 The physical address where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.PhysicalAddress</b> bit is set.
 
 
-### -field PhysicalAddressMask
+#### - PhysicalAddressMask
 
 A bit mask that specifies which of the bits in the <b>PhysicalAddress</b> member contain valid address data.
 
 This member contains valid data only if the <b>Validbits.PhysicalAddressMask</b> bit is set.
 
 
-### -field Node
+#### - Node
 
 The identifier of the node that contains the memory where the memory error occurred in a system with multiple nodes.
 
 This member contains valid data only if the <b>Validbits.Node</b> bit is set.
 
 
-### -field Card
+#### - Card
 
 The card number of the card that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Card</b> bit is set.
 
 
-### -field Module
+#### - Module
 
 The module number of the module that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Module</b> bit is set.
 
 
-### -field Bank
+#### - Bank
 
 The bank number of the memory bank that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Bank</b> bit is set.
 
 
-### -field Device
+#### - Device
 
 The device number of the memory device that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Device</b> bit is set.
 
 
-### -field Row
+#### - Row
 
 The row number of the location where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Row</b> bit is set.
 
 
-### -field Column
+#### - Column
 
 The column number of the location where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Column</b> bit is set.
 
 
-### -field BitPosition
+#### - BitPosition
 
 The bit position where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.BitPosition</b> bit is set.
 
 
-### -field RequesterId
+#### - RequesterId
 
 An identifier that uniquely identifies the requester associated with the error.
 
 This member contains valid data only if the <b>Validbits.RequesterId</b> bit is set.
 
 
-### -field ResponderId
+#### - ResponderId
 
 An identifier that uniquely identifies the responder associated with the error.
 
 This member contains valid data only if the <b>Validbits.ResponderId</b> bit is set.
 
 
-### -field TargetId
+#### - TargetId
 
 The hardware address of the intended target of the transaction.
 
 This member contains valid data only if the <b>Validbits.TargetId</b> bit is set.
 
 
-### -field ErrorType
+#### - ErrorType
 
 The type of memory error that occurred. Possible values are:
 
@@ -268,13 +268,13 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
  
 

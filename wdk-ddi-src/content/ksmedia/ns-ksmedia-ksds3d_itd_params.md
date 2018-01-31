@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2c8701d5-c762-4d2c-abd7-8da90292f3c0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_169748c9-f538-47d2-ae3c-ae34cca26f00.xml, ksmedia/KSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS, ksmedia/PKSDS3D_ITD_PARAMS, audio.ksds3d_itd_params, *PKSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS structure [Audio Devices], PKSDS3D_ITD_PARAMS structure pointer [Audio Devices], PKSDS3D_ITD_PARAMS
+ms.keywords: ksmedia/KSDS3D_ITD_PARAMS, audio.ksds3d_itd_params, ksmedia/PKSDS3D_ITD_PARAMS, PKSDS3D_ITD_PARAMS structure pointer [Audio Devices], KSDS3D_ITD_PARAMS, PKSDS3D_ITD_PARAMS, *PKSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS structure [Audio Devices], aud-prop_169748c9-f538-47d2-ae3c-ae34cca26f00.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDS3D_ITD_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS"
+req.typenames: KSDS3D_ITD_PARAMS, *PKSDS3D_ITD_PARAMS
 ---
 
 # KSDS3D_ITD_PARAMS structure
@@ -72,32 +72,32 @@ typedef struct {
 
 
 
-### -field Channel
+#### - Channel
 
 Specifies the channel number (channel 0 is the left channel; channel 1 is the right channel).
 
 
-### -field VolSmoothScale
+#### - VolSmoothScale
 
 Specifies the ramp factor for scaling volume levels. For more information, see the following Remarks section.
 
 
-### -field TotalDryAttenuation
+#### - TotalDryAttenuation
 
 Specifies the attenuation factor for the "dry" signal (the original signal before applying a low-pass filter to produce a muffled effect). For more information, see the following Remarks section.
 
 
-### -field TotalWetAttenuation
+#### - TotalWetAttenuation
 
 Specifies the attenuation factor for the "wet" signal (the muffled signal after the low-pass filter is applied). For more information, see the following Remarks section.
 
 
-### -field SmoothFrequency
+#### - SmoothFrequency
 
 Specifies the sample frequency of the audio stream. When changing to a new <b>TotalDryAttenuation</b> or <b>TotalWetAttenuation</b> value, the ITD algorithm needs this value to determine the number of samples over which to apply smoothing in order to complete the transition within some fixed time interval. For example, the ITD algorithm implemented by the <a href="https://msdn.microsoft.com/827997e2-6f07-4635-ac35-4ad026b82eae">KMixer system driver</a> uses a transition time interval of roughly 1/8 second.
 
 
-### -field Delay
+#### - Delay
 
 Specifies the time delay for this channel. The delay is expressed as an integer number of samples.
 

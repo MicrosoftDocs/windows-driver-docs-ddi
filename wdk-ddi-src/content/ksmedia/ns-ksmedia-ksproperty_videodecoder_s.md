@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9444835d-0290-49e7-8f49-a1506ce282cd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_VIDEODECODER_S, ksmedia/PKSPROPERTY_VIDEODECODER_S, KSPROPERTY_VIDEODECODER_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEODECODER_S, stream.ksproperty_videodecoder_s, PKSPROPERTY_VIDEODECODER_S structure pointer [Streaming Media Devices], *PKSPROPERTY_VIDEODECODER_S, PKSPROPERTY_VIDEODECODER_S, vidcapstruct_fbca2e77-2e08-4a96-932d-706a7e8b9a2a.xml
+ms.keywords: PKSPROPERTY_VIDEODECODER_S structure pointer [Streaming Media Devices], KSPROPERTY_VIDEODECODER_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEODECODER_S, vidcapstruct_fbca2e77-2e08-4a96-932d-706a7e8b9a2a.xml, KSPROPERTY_VIDEODECODER_S, *PKSPROPERTY_VIDEODECODER_S, ksmedia/PKSPROPERTY_VIDEODECODER_S, PKSPROPERTY_VIDEODECODER_S, stream.ksproperty_videodecoder_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_VIDEODECODER_S
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_VIDEODECODER_S, KSPROPERTY_VIDEODECODER_S"
+req.typenames: KSPROPERTY_VIDEODECODER_S, *PKSPROPERTY_VIDEODECODER_S
 ---
 
 # KSPROPERTY_VIDEODECODER_S structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-### -field Value
+#### - Value
 
 Specifies the value of a request. For Set requests, the minidriver should set the property specified in <b>Property</b> to this value. For Get requests, the minidriver should return the value of the property specified in <b>Property</b>.
 
@@ -89,11 +89,11 @@ The KSPROPERTY_VIDEODECODER_S structure is shared among the KSPROPERTY_VIDEODECO
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566051">KSPROPERTY_VIDEODECODER_OUTPUT_ENABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566062">KSPROPERTY_VIDEODECODER_VCR_TIMING</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566058">KSPROPERTY_VIDEODECODER_STANDARD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566062">KSPROPERTY_VIDEODECODER_VCR_TIMING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566051">KSPROPERTY_VIDEODECODER_OUTPUT_ENABLE</a>
 
  
 

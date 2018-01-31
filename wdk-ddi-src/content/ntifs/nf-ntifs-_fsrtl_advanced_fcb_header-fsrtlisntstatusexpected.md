@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7d495d67-fe43-43d5-8a35-50c070b78b8d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsNtstatusExpected routine [Installable File System Drivers], ifsk.fsrtlisntstatusexpected, fsrtlref_c480df4e-1601-4df7-809f-b1dec9549412.xml, FsRtlIsNtstatusExpected, ntifs/FsRtlIsNtstatusExpected
+ms.keywords: ntifs/FsRtlIsNtstatusExpected, FsRtlIsNtstatusExpected, ifsk.fsrtlisntstatusexpected, FsRtlIsNtstatusExpected routine [Installable File System Drivers], fsrtlref_c480df4e-1601-4df7-809f-b1dec9549412.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FsRtlIsNtstatusExpected(
 
 
 
-### -param Exception [in]
+#### - Exception [in]
 
 Status value of the exception.
 

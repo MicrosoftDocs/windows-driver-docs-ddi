@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop method [Buses], UcmTcpciPortControllerStop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
+ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerStop, buses.ucmtcpciportcontrollerstop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID UcmTcpciPortControllerStop(
 
 
 
-### -param PortControllerObject
+#### - PortControllerObject
 
 Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
 

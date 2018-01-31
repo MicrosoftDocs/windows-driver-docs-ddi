@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.drvconvertdevmode, winddiui/DrvConvertDevMode, DrvConvertDevMode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, DrvConvertDevMode function [Print Devices]
+ms.keywords: DrvConvertDevMode function [Print Devices], DrvConvertDevMode, winddiui/DrvConvertDevMode, print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvConvertDevMode
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ BOOL DrvConvertDevMode(
 
 
 
-### -param pPrinterName [in]
+#### - pPrinterName [in]
 
 Caller-supplied pointer to a printer name string. For more information about this parameter, see the following Remarks section.
 
 
-### -param pdmIn [in]
+#### - pdmIn [in]
 
 Caller-supplied pointer to an input DEVMODEW structure. If <i>fMode</i> is CDM_DRIVER_DEFAULT, this pointer is <b>NULL</b>.
 
 
-### -param pdmOut [out]
+#### - pdmOut [out]
 
 Caller-supplied pointer to a buffer to receive an output DEVMODEW structure. If <i>fMode</i> is CDM_CONVERT the buffer contains, on input, a valid DEVMODEW structure indicating the target driver version.
 
 
-### -param pcbNeeded [in, out]
+#### - pcbNeeded [in, out]
 
 Caller-supplied pointer to the size, in bytes, of the buffer pointed to by <i>pdmOut</i>. On output, the printer interface DLL should overwrite the received size value with the actual size of the converted DEVMODEW structure. If the received buffer is too small, the printer interface DLL should overwrite the received size value with the required buffer size.
 
 
-### -param fMode [in]
+#### - fMode [in]
 
 Caller-supplied bit flag indicating the type of operation to be performed. This can be one of the following flags:
 

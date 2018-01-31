@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2b47523f-6938-4071-a0aa-91cdf05faed7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILMESSAGEIN_V1, RILMESSAGEIN_V1, RILMESSAGEIN_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v1_2
+ms.keywords: netvista.rilmessagein_v1_2, RILMESSAGEIN_V1 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMESSAGEIN_V1, RILMESSAGEIN_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _RILMESSAGEIN_V1 {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field hUiccApp
+#### - hUiccApp
 
 
 
-### -field dwAckID
+#### - dwAckID
 
 
 
-### -field rm
+#### - rm
 
 

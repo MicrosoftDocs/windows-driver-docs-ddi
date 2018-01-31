@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10AFDC4B-75E5-4E88-A614-60043848C570
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSSCATTER_GATHER structure [Streaming Media Devices], PKSSCATTER_GATHER, KSSCATTER_GATHER, *PKSSCATTER_GATHER, strmini/KSSCATTER_GATHER, strmini/PKSSCATTER_GATHER, PKSSCATTER_GATHER structure pointer [Streaming Media Devices], stream.ksscatter_gather
+ms.keywords: strmini/KSSCATTER_GATHER, PKSSCATTER_GATHER structure pointer [Streaming Media Devices], *PKSSCATTER_GATHER, KSSCATTER_GATHER, KSSCATTER_GATHER structure [Streaming Media Devices], strmini/PKSSCATTER_GATHER, PKSSCATTER_GATHER, stream.ksscatter_gather
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct {
 
 
 
-### -field PhysicalAddress
+#### - PhysicalAddress
 
 
 
-### -field Length
+#### - Length
 
 

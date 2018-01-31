@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D10C65A6-96E7-4BE0-BDD5-EFD129DC424C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExReleaseSpinLockExclusive, kernel.exreleasespinlockexclusive_, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], ExReleaseSpinLockExclusive
+ms.keywords: kernel.exreleasespinlockexclusive_, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], ExReleaseSpinLockExclusive, wdm/ExReleaseSpinLockExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ VOID ExReleaseSpinLockExclusive (
 TBD
 
 
-### -param OldIrql [in]
+#### - OldIrql [in]
 
 The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451007">ExAcquireSpinLockExclusive</a> call that acquired the spin lock.
 

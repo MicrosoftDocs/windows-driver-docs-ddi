@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 62c5f41a-1db2-4777-af86-67d2345a05c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_Highlight structure [Display Devices], LPDXVA_Highlight, *LPDXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], DXVA_Highlight, display.dxva_highlight, _DXVA_Highlight, dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml, dxva/DXVA_Highlight, dxva/LPDXVA_Highlight
+ms.keywords: dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml, dxva/DXVA_Highlight, LPDXVA_Highlight, display.dxva_highlight, DXVA_Highlight structure [Display Devices], dxva/LPDXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], *LPDXVA_Highlight, DXVA_Highlight, _DXVA_Highlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _DXVA_Highlight {
 
 
 
-### -field wHighlightActive
+#### - wHighlightActive
 
 Indicates whether a rectangular highlight area is active. Zero indicates inactive and 1 indicates active. If inactive, the highlight data must have no effect on the content of the blended picture.
 
 
-### -field wHighlightIndices
+#### - wHighlightIndices
 
 Contains four palette indexes. Each palette index consists of 4 bits. Each 2-bit index in the highlighted rectangular area of the DXPD is used to select among these four palette indexes. The 4 most significant bits are for index 3, the next 4 bits are for index 2, the next 4 bits are for index 1, and the 4 least significant bits are for index 0. 
 
 
-### -field wHighlightAlphas
+#### - wHighlightAlphas
 
 Contains four opacity values. Each opacity value consists of 4 bits. Each 2-bit index in the highlighted rectangular area of the DXPD is used to select among these four opacity values. The 4 most significant bits are for index 3, the next 4 bits are for index 2, the next 4 bits are for index 1, and the 4 least significant bits are for index 0.
 
@@ -104,7 +104,7 @@ For nonzero values, the specified blend is found using the following expression:
 </li>
 </ul>
 
-### -field HighlightRect
+#### - HighlightRect
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the area of the highlight rectangle.
 

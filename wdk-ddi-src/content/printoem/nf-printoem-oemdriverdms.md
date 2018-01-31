@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 261d4dbc-6374-4b11-80a0-64b0a2fc6abe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS, OEMDriverDMS, print.oemdriverdms, OEMDriverDMS function [Print Devices]
+ms.keywords: OEMDriverDMS, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, print.oemdriverdms, OEMDriverDMS function [Print Devices], printoem/OEMDriverDMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,18 +70,18 @@ BOOL APIENTRY OEMDriverDMS(
 
 
 
-### -param pDevObj
+#### - pDevObj
 
 
 
-### -param pBuffer [out]
+#### - pBuffer [out]
 
 
 
-### -param cbSize
+#### - cbSize
 
 
 
-### -param pcbNeeded [out]
+#### - pcbNeeded [out]
 
 

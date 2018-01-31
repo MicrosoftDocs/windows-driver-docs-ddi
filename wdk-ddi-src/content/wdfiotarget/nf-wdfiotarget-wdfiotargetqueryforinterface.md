@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetQueryForInterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, wdf.wdfiotargetqueryforinterface, WdfIoTargetQueryForInterface method, kmdf.wdfiotargetqueryforinterface, WdfIoTargetQueryForInterface, PFN_WDFIOTARGETQUERYFORINTERFACE
+ms.keywords: PFN_WDFIOTARGETQUERYFORINTERFACE, WdfIoTargetQueryForInterface method, kmdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface, wdf.wdfiotargetqueryforinterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, WdfIoTargetQueryForInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,32 +76,32 @@ NTSTATUS WdfIoTargetQueryForInterface(
 
 
 
-### -param IoTarget [in]
+#### - IoTarget [in]
 
 A handle to a remote I/O target object that was obtained from a previous call to <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>.
 
 
-### -param InterfaceType [in]
+#### - InterfaceType [in]
 
 A pointer to a GUID that identifies the interface.
 
 
-### -param Interface [out]
+#### - Interface [out]
 
 A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
-### -param Size [in]
+#### - Size [in]
 
 The size, in bytes, of the driver-allocated structure that <i>Interface</i> points to.
 
 
-### -param Version [in]
+#### - Version [in]
 
 The version number of the requested interface. The driver that exports the requested interface defines the format of this value.
 
 
-### -param InterfaceSpecificData [in, optional]
+#### - InterfaceSpecificData [in, optional]
 
 Additional interface-specific information. This parameter is optional and can be <b>NULL</b>.
 
@@ -160,9 +160,9 @@ Framework-based drivers define interfaces by calling <a href="..\wdfqueryinterfa
 
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 

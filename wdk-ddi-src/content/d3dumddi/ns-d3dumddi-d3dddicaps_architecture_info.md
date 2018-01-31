@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ad35cd3f-87bd-4d57-ab13-4cb2b268ad35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicaps_architecture_info, d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO, D3DDDICAPS_ARCHITECTURE_INFO, D3DDDICAPS_ARCHITECTURE_INFO structure [Display Devices]
+ms.keywords: D3DDDICAPS_ARCHITECTURE_INFO, D3DDDICAPS_ARCHITECTURE_INFO structure [Display Devices], d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO, display.d3dddicaps_architecture_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct D3DDDICAPS_ARCHITECTURE_INFO {
 
 
 
-### -field TileBasedDeferredRenderer
+#### - TileBasedDeferredRenderer
 
 Specifies whether a rendering device batches rendering commands and performs multipass rendering into tiles or bins over a render area. The value is <b>TRUE</b> if the rendering device batches rendering commands and <b>FALSE</b> otherwise.
 

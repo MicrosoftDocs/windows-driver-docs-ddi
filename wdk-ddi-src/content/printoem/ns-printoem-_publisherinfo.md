@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6749b2e8-a9db-48a3-96e1-8592bcfa580d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PPUBLISHERINFO, printoem/PUBLISHERINFO, print.publisherinfo, *PPUBLISHERINFO, printoem/PPUBLISHERINFO, PUBLISHERINFO, PPUBLISHERINFO structure pointer [Print Devices], print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, _PUBLISHERINFO, PUBLISHERINFO structure [Print Devices]
+ms.keywords: PUBLISHERINFO, _PUBLISHERINFO, print.publisherinfo, printoem/PUBLISHERINFO, print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, PPUBLISHERINFO structure pointer [Print Devices], PPUBLISHERINFO, printoem/PPUBLISHERINFO, PUBLISHERINFO structure [Print Devices], *PPUBLISHERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PUBLISHERINFO
 product: Windows
 targetos: Windows
-req.typenames: PUBLISHERINFO, *PPUBLISHERINFO
+req.typenames: "*PPUBLISHERINFO, PUBLISHERINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _PUBLISHERINFO {
 
 
 
-### -field dwMode
+#### - dwMode
 
 Is a set of bit flags. The only flag defined is OEM_MODE_PUBLISHER, which must be set if a rendering plug-in for Pscript5 is using "publishing mode".
 
 
-### -field wMinoutlinePPEM
+#### - wMinoutlinePPEM
 
 Specifies the minimum font size, in pixels, for which the Pscript5 driver will download TrueType fonts as outline (Type 1) fonts. A font smaller than the minimum setting will be downloaded as a bitmap (Type 3) font.
 
 
-### -field wMaxbitmapPPEM
+#### - wMaxbitmapPPEM
 
 Specifies the maximum font size, in pixels, for which the Pscript5 driver will download TrueType fonts as bitmap (Type 3) fonts. A font larger than the maximum setting will be downloaded as an outline (Type 1) font.
 

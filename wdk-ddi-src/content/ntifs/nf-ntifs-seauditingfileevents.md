@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9e9a53f-9f4a-4f44-befa-f11d1fb3372a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.seauditingfileevents, SeAuditingFileEvents routine [Installable File System Drivers], ntifs/SeAuditingFileEvents, seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml, SeAuditingFileEvents
+ms.keywords: SeAuditingFileEvents, ifsk.seauditingfileevents, seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml, SeAuditingFileEvents routine [Installable File System Drivers], ntifs/SeAuditingFileEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN SeAuditingFileEvents(
 
 
 
-### -param AccessGranted [in]
+#### - AccessGranted [in]
 
 Set to <b>TRUE</b> if the access attempt was successful, <b>FALSE</b> otherwise.
 
 
-### -param SecurityDescriptor [in]
+#### - SecurityDescriptor [in]
 
 This parameter is ignored.
 
@@ -94,15 +94,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
+<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-
-<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
 
 <a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
 
  
 

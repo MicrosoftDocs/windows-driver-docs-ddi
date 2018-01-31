@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 978fbe0a-ac10-4c83-870d-35d98775c233
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDeassignArcName routine [Kernel-Mode Driver Architecture], ntddk/IoDeassignArcName, kernel.iodeassignarcname, k104_859767ed-5969-41db-a454-b7808a1ef131.xml, IoDeassignArcName
+ms.keywords: kernel.iodeassignarcname, IoDeassignArcName, ntddk/IoDeassignArcName, k104_859767ed-5969-41db-a454-b7808a1ef131.xml, IoDeassignArcName routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -67,7 +67,7 @@ VOID IoDeassignArcName(
 
 
 
-### -param ArcName [in]
+#### - ArcName [in]
 
 Pointer to a buffered Unicode string that is the ARC name. 
 

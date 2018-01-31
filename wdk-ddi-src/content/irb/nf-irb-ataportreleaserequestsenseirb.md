@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53e5e234-c256-4581-b109-307f2f17522f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, storage.ataportreleaserequestsenseirb, AtaPortReleaseRequestSenseIrb
+ms.keywords: irb/AtaPortReleaseRequestSenseIrb, atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, storage.ataportreleaserequestsenseirb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], AtaPortReleaseRequestSenseIrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID AtaPortReleaseRequestSenseIrb(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-### -param Irb [in]
+#### - Irb [in]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the request sense IRB.
 

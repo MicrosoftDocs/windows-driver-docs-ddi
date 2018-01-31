@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9CF14B12-D94F-486D-A5FC-E7CC2730D8E9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PBUS_RESET_NOTIFY structure pointer [Buses], PBUS_RESET_NOTIFY, _BUS_RESET_NOTIFY, 61883/PBUS_RESET_NOTIFY, IEEE.bus_reset_notify, 61883/BUS_RESET_NOTIFY, *PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY structure [Buses], BUS_RESET_NOTIFY
+ms.keywords: PBUS_RESET_NOTIFY structure pointer [Buses], 61883/BUS_RESET_NOTIFY, _BUS_RESET_NOTIFY, *PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY structure [Buses], 61883/PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY, PBUS_RESET_NOTIFY, IEEE.bus_reset_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BUS_RESET_NOTIFY
 product: Windows
 targetos: Windows
-req.typenames: BUS_RESET_NOTIFY, *PBUS_RESET_NOTIFY
+req.typenames: "*PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY"
 ---
 
 # _BUS_RESET_NOTIFY structure
@@ -69,12 +69,12 @@ typedef struct _BUS_RESET_NOTIFY {
 
 
 
-### -field Flags
+#### - Flags
 
 The caller sets this member to REGISTER_BUS_RESET_NOTIFY to register to receive bus-reset notifications, or to DEREGISTER_BUS_RESET_NOTIFY to stop receiving bus-reset notifications.
 
 
-### -field pfnNotify
+#### - pfnNotify
 
 Pointer to a caller-supplied function to be called by the protocol driver when the 1394 bus is reset. 
 
@@ -94,7 +94,7 @@ This function uses the following prototype:
 </tr>
 </table></span></div>
 
-### -field Context
+#### - Context
 
 Pointer to a caller-defined context for the function at <b>pfnNotify</b>. The IEC-61883 protocol driver calls this function after a reset of the 1394 bus.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5c6e3337-8071-486a-826a-ade722eb8449
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml, *PMOUNTDEV_SUGGESTED_LINK_NAME, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices], storage.mountdev_suggested_link_name, MOUNTDEV_SUGGESTED_LINK_NAME, _MOUNTDEV_SUGGESTED_LINK_NAME
+ms.keywords: "_MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices], PMOUNTDEV_SUGGESTED_LINK_NAME, storage.mountdev_suggested_link_name, *PMOUNTDEV_SUGGESTED_LINK_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MOUNTDEV_SUGGESTED_LINK_NAME {
 
 
 
-### -field UseOnlyIfThereAreNoOtherLinks
+#### - UseOnlyIfThereAreNoOtherLinks
 
 Indicates that the mount manager should use the suggested link name only if there are no other persistent links assigned to the client. 
 
 
-### -field NameLength
+#### - NameLength
 
 Contains the length of the suggested name. 
 
 
-### -field Name
+#### - Name
 
 Contains a variable-sized array of wide characters that holds the name of the suggested link in wide characters. Drive letter names must include the full path of the symbolic link in object namespace and must have the traditional Microsoft MS-DOS syntax. For instance, drive letter "D" must be represented in this manner: "\DosDevices\D:". The alternative symbolic link path of "\??\D:" may not be used, nor may abbreviations of the symbolic link such as "D:". 
 

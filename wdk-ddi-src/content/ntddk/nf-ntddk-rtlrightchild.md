@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1b906983-b000-449b-8e82-46ade5384168
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlrightchild, rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml, RtlRightChild routine [Installable File System Drivers], RtlRightChild, ntddk/RtlRightChild
+ms.keywords: ifsk.rtlrightchild, ntddk/RtlRightChild, RtlRightChild routine [Installable File System Drivers], rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml, RtlRightChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -67,7 +67,7 @@ PRTL_SPLAY_LINKS RtlRightChild(
 
 
 
-### -param Links [in]
+#### - Links [in]
 
 Pointer to the node whose right child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
@@ -85,13 +85,13 @@ Callers of <b>RtlRightChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
 <a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 <a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd6797a3-3128-4100-81f0-82e4d6f209b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], MSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml, *PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], _MSFC_HBAPortAttributesResults, storage.msfc_hbaportattributesresults
+ms.keywords: "_MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml, PMSFC_HBAPortAttributesResults, storage.msfc_hbaportattributesresults, hbapiwmi/PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], MSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_HBAPortAttributesResults
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults"
+req.typenames: MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults
 ---
 
 # _MSFC_HBAPortAttributesResults structure
@@ -79,22 +79,22 @@ typedef struct _MSFC_HBAPortAttributesResults {
 
 
 
-### -field NodeWWN
+#### - NodeWWN
 
 Contains a 64 bit world-wide name (WWN) that uniquely identifies the fibre channel node associated with <b>PortWWN</b>. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a 64 bit world-wide name (WWN) that uniquely identifies the fibre channel port. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-### -field PortFcId
+#### - PortFcId
 
 Contains the current fibre channel address of <b>PortWWN</b>. The high order byte of this member contains the first byte of the address, and successively lower order bytes of this member contain successively lower bytes of the address. The lowest order byte of this member must be zero. 
 
 
-### -field PortType
+#### - PortType
 
 Indicates the port type. This member must have one of the following values: 
 <table>
@@ -215,7 +215,7 @@ Point to point.
 </table> 
 
 
-### -field PortState
+#### - PortState
 
 Contains the state of the port indicated by <b>PortWWN</b>. This member must have one of the following values:
 <table>
@@ -306,27 +306,27 @@ Loopback.
 </table> 
 
 
-### -field PortSupportedClassofService
+#### - PortSupportedClassofService
 
 Indicates the class of service that are supported by <b>PortWWN</b>. For a list of the differences classes of service and the values that must be assigned to this member for each class, see the ANSI standard for <i>Fibre Channel Generic Services 4th Generation</i> (FC-GS-4).
 
 
-### -field PortSupportedFc4Types
+#### - PortSupportedFc4Types
 
 Indicates the FC-4 types that are supported by <b>PortWWN</b>. For a discussion FC-4 types, see the ANSI standard for <i>Fibre Channel Generic Services 4th Generation</i> (FC-GS-4). 
 
 
-### -field PortActiveFc4Types
+#### - PortActiveFc4Types
 
 Indicates the FC-4 types that are currently available on <b>PortWWN</b>. For a discussion FC-4 types, see the ANSI standard for <i>Fibre Channel Generic Services 4th Generation</i> (FC-GS-4).
 
 
-### -field PortSupportedSpeed
+#### - PortSupportedSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> can operate. For a list of the values that this member supports, see <b>PortSpeed</b>. 
 
 
-### -field PortSpeed
+#### - PortSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> is currently operating. This member must have one of the following values: 
 <table>
@@ -397,17 +397,17 @@ The speed at which the port will operate has not yet been established.
 </table> 
 
 
-### -field PortMaxFrameSize
+#### - PortMaxFrameSize
 
 Indicates the maximum frame size, in bytes, that is supported by <b>PortWWN</b>.
 
 
-### -field FabricName
+#### - FabricName
 
 Contains the name identifier for the fabric to which <b>PortWWN</b> is attached. 
 
 
-### -field NumberofDiscoveredPorts
+#### - NumberofDiscoveredPorts
 
 Indicates the number of ports that are visible to <b>PortWWN</b>. For a more detailed explanation of the sorts of ports that this number takes into consideration, see the T11 committee's specification for <i>Fibre Channel HBA API</i> (FC-HBA). 
 

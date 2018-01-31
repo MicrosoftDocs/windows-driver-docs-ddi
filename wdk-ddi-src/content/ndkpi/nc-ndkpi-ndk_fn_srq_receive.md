@@ -40,7 +40,7 @@ apiname:
 -	NdkSrqReceive
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_SRQ_RECEIVE callback
@@ -73,11 +73,13 @@ NTSTATUS NdkSrqReceive(
 
 
 
-### -param *pNdkSrq
+#### - *pNdkSrq [in]
+
+A pointer to an NDK shared receive queue (SRQ) object
+(<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
 
 
-
-### -param RequestContext [in, optional]
+#### - RequestContext [in, optional]
 
 A context value to be returned in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for this request.
 
@@ -87,7 +89,7 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 
 
-### -param nSge [in]
+#### - nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
@@ -151,11 +153,11 @@ An error occurred.
 
 ## -see-also
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
  
 

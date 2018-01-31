@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 373D7CA9-AF1B-46E8-AE6A-F693A9214527
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], _USBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], buses.usbfn_class_information_packet_ex, USBFN_CLASS_INFORMATION_PACKET_EX, *PUSBFN_CLASS_INFORMATION_PACKET_EX
+ms.keywords: "_USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX, *PUSBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], buses.usbfn_class_information_packet_ex, PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,7 +98,7 @@ typedef struct _USBFN_CLASS_INFORMATION_PACKET_EX {
  
 
 
-### -field HasInterfaceGuid
+#### - HasInterfaceGuid
 
 Determines whether the driver has published a device interface is GUID. 
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2AA67B06-F87F-47E3-A80F-154993BAF0E8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceCreate, udecxusbdevice/UdecxUsbDeviceCreate, buses.udecxusbdevicecreate, UdecxUsbDeviceCreate function [Buses]
+ms.keywords: udecxusbdevice/UdecxUsbDeviceCreate, buses.udecxusbdevicecreate, UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceCreate
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ NTSTATUS UdecxUsbDeviceCreate(
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
+#### - UdecxUsbDeviceInit [in, out]
 
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
 
 
-### -param UdecxUsbDevice [out]
+#### - UdecxUsbDevice [out]
 
 A pointer to a variable that receives a handle to the new UDE device object that represents the virtual USB device.
 

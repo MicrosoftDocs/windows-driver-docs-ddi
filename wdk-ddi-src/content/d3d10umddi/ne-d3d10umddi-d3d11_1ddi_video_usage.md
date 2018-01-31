@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f107b9a8-d124-4fc3-80b3-dd20a87f9a86
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, D3D11_1DDI_VIDEO_USAGE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, d3d10umddi/D3D11_1DDI_VIDEO_USAGE, D3D11_1DDI_VIDEO_USAGE, D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, display.d3d11_1ddi_video_usage, D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL
+ms.keywords: D3D11_1DDI_VIDEO_USAGE enumeration [Display Devices], display.d3d11_1ddi_video_usage, d3d10umddi/D3D11_1DDI_VIDEO_USAGE, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, D3D11_1DDI_VIDEO_USAGE, D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum D3D11_1DDI_VIDEO_USAGE {
 
 
 
-### -field D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL
+#### - D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL
 
 Specifies that the device plays video at normal speed.
 
 
-### -field D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED
+#### - D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED
 
 Specifies that the device plays video at optimal speed.
 
 
-### -field D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY
+#### - D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY
 
 Specifies that the device plays video at optimal quality.
 

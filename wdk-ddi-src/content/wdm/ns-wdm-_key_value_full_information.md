@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0340cfa7-957d-4404-8dbd-d3178436de0f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml, kernel.key_value_full_information, PKEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION, _KEY_VALUE_FULL_INFORMATION, wdm/PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/KEY_VALUE_FULL_INFORMATION
+ms.keywords: KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml, wdm/KEY_VALUE_FULL_INFORMATION, _KEY_VALUE_FULL_INFORMATION, wdm/PKEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION, kernel.key_value_full_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KEY_VALUE_FULL_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION"
+req.typenames: KEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -73,47 +73,47 @@ typedef struct _KEY_VALUE_FULL_INFORMATION {
 
 
 
-### -field TitleIndex
+#### - TitleIndex
 
 Device and intermediate drivers should ignore this member. 
 
 
-### -field Type
+#### - Type
 
 Specifies the system-defined type for the registry value(s) following the <b>Name</b> member. For a summary of these types, see <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
-### -field DataOffset
+#### - DataOffset
 
 Specifies the offset from the start of this structure to the data immediately following the <b>Name</b> string.
 
 
-### -field DataLength
+#### - DataLength
 
 Specifies the number of bytes of registry information for the value entry identified by <b>Name</b>.
 
 
-### -field NameLength
+#### - NameLength
 
 Specifies the size in bytes of the following value entry name. 
 
 
-### -field Name
+#### - Name
 
 A string of Unicode characters naming a value entry of the key. 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
-
-<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
-
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+
+<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
 
  
 

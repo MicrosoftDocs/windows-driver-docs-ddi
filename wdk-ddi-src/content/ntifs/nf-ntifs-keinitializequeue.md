@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.keinitializequeue, KeInitializeQueue routine [Installable File System Drivers], keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ntifs/KeInitializeQueue, KeInitializeQueue
+ms.keywords: KeInitializeQueue routine [Installable File System Drivers], ifsk.keinitializequeue, ntifs/KeInitializeQueue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, KeInitializeQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KeInitializeQueue(
 
 
 
-### -param Queue [out]
+#### - Queue [out]
 
 Pointer to a KQUEUE structure for which the caller must provide resident storage in nonpaged pool. This structure is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -144,7 +144,7 @@ Pointer to the first entry in the thread list.
 </table> 
 
 
-### -param Count [in]
+#### - Count [in]
 
 The maximum number of threads for which the waits on the queue object can be satisfied concurrently. If this parameter is not supplied, the number of processors in the machine is used.
 
@@ -169,19 +169,19 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
-<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 <a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
 
 <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 879bae2e-f608-4678-92ae-6100e59b6d52
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionGetRequest method, wdfdmatransaction/WdfDmaTransactionGetRequest, wdf.wdfdmatransactiongetrequest, WdfDmaTransactionGetRequest, DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, PFN_WDFDMATRANSACTIONGETREQUEST, kmdf.wdfdmatransactiongetrequest
+ms.keywords: DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, WdfDmaTransactionGetRequest, WdfDmaTransactionGetRequest method, PFN_WDFDMATRANSACTIONGETREQUEST, kmdf.wdfdmatransactiongetrequest, wdf.wdfdmatransactiongetrequest, wdfdmatransaction/WdfDmaTransactionGetRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDFREQUEST WdfDmaTransactionGetRequest(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 

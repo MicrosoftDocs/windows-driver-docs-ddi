@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d1592021-7765-4553-bcb0-9124af44123f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlinsertperstreamcontext, fsrtlref_91ced881-cdb2-41ca-b569-992d6b43e2f4.xml, FsRtlInsertPerStreamContext routine [Installable File System Drivers], FsRtlInsertPerStreamContext, ntifs/FsRtlInsertPerStreamContext
+ms.keywords: FsRtlInsertPerStreamContext, ifsk.fsrtlinsertperstreamcontext, FsRtlInsertPerStreamContext routine [Installable File System Drivers], fsrtlref_91ced881-cdb2-41ca-b569-992d6b43e2f4.xml, ntifs/FsRtlInsertPerStreamContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS FsRtlInsertPerStreamContext(
 TBD
 
 
-### -param Ptr [in]
+#### - Ptr [in]
 
 Pointer to a FSRTL_PER_STREAM_CONTEXT structure that the filter driver has allocated and initialized. To initialize this structure, use the <a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a> macro. 
 
@@ -133,11 +133,9 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
-
-<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
 
 <a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
 
@@ -146,6 +144,8 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 <a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
 
 <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 

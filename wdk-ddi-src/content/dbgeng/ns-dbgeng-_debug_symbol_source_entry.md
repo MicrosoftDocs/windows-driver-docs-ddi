@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 595d5a90-6ec8-4841-a38b-c0cbf26ed082
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY structure [Windows Debugging], debugger.debug_symbol_source_entry, PDEBUG_SYMBOL_SOURCE_ENTRY structure pointer [Windows Debugging], Structures_9f8ab4b6-98b2-4a10-a450-bb73e655dd32.xml, _DEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/PDEBUG_SYMBOL_SOURCE_ENTRY, PDEBUG_SYMBOL_SOURCE_ENTRY
+ms.keywords: DEBUG_SYMBOL_SOURCE_ENTRY structure [Windows Debugging], dbgeng/PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY, Structures_9f8ab4b6-98b2-4a10-a450-bb73e655dd32.xml, debugger.debug_symbol_source_entry, PDEBUG_SYMBOL_SOURCE_ENTRY structure pointer [Windows Debugging], *PDEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/DEBUG_SYMBOL_SOURCE_ENTRY, PDEBUG_SYMBOL_SOURCE_ENTRY, _DEBUG_SYMBOL_SOURCE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_SYMBOL_SOURCE_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY"
+req.typenames: DEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY
 ---
 
 # _DEBUG_SYMBOL_SOURCE_ENTRY structure
@@ -78,62 +78,62 @@ typedef struct _DEBUG_SYMBOL_SOURCE_ENTRY {
 
 
 
-### -field ModuleBase
+#### - ModuleBase
 
 The base address, in the target's virtual address space, of the module that the source symbol came from.
 
 
-### -field Offset
+#### - Offset
 
 The location of the memory corresponding to the source code in the target's virtual address space.
 
 
-### -field FileNameId
+#### - FileNameId
 
 Identifier for the source code file name. If this information is not available, <b>FieldNameId</b> is set to zero.
 
 
-### -field EngineInternal
+#### - EngineInternal
 
 Reserved for internal debugger engine use.
 
 
-### -field Size
+#### - Size
 
 The size of the region of memory corresponding to the source code. If this information is not available, <b>Size</b> is set to one.
 
 
-### -field Flags
+#### - Flags
 
 Set to zero.
 
 
-### -field FileNameSize
+#### - FileNameSize
 
 The number of characters in the source filename, including the terminator. 
 
 
-### -field StartLine
+#### - StartLine
 
 The line number of the start of the region of source code in the file. The number of the first line in the file is one. If this information is not available, <b>StartLine</b> is set to DEBUG_ANY_ID.
 
 
-### -field EndLine
+#### - EndLine
 
 The line number of the end of the region of source code in the file. The number of the first line in the file is one. If this information is not available, <b>StartLine</b> is set to DEBUG_ANY_ID.
 
 
-### -field StartColumn
+#### - StartColumn
 
 The column number of the start of the region of source code. The number of the first column is one. If this information is not available, <b>StartLine</b> is set to DEBUG_ANY_ID.
 
 
-### -field EndColumn
+#### - EndColumn
 
 The column number of the end of the region of source code. The number of the first column is one. If this information is not available, <b>StartLine</b> is set to DEBUG_ANY_ID.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 774cce7b-37bf-495b-8087-915b164745ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetDriver method, wdf.wdfdevicegetdriver, PFN_WDFDEVICEGETDRIVER, DFDeviceObjectGeneralRef_821bd67e-0a04-4664-91e1-4fa608a8b93e.xml, wdfdevice/WdfDeviceGetDriver, kmdf.wdfdevicegetdriver, WdfDeviceGetDriver
+ms.keywords: kmdf.wdfdevicegetdriver, WdfDeviceGetDriver, DFDeviceObjectGeneralRef_821bd67e-0a04-4664-91e1-4fa608a8b93e.xml, PFN_WDFDEVICEGETDRIVER, wdfdevice/WdfDeviceGetDriver, WdfDeviceGetDriver method, wdf.wdfdevicegetdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFDRIVER WdfDeviceGetDriver(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 

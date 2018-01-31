@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E8CF5E74-2EDA-4B27-A9C0-053930FF741D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtllongadd, RtlLongAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongAdd, RtlLongAdd
+ms.keywords: RtlLongAdd, ntintsafe/RtlLongAdd, RtlLongAdd function [Kernel-Mode Driver Architecture], kernel.rtllongadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlLongAdd(
 
 
 
-### -param lAugend [in]
+#### - lAugend [in]
 
 The first value in the equation.
 
 
-### -param lAddend [in]
+#### - lAddend [in]
 
 The value to add to <i>lAugend</i>.
 
 
-### -param plResult [out]
+#### - plResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

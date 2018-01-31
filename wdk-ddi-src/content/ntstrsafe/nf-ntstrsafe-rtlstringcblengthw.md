@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74644211-7cf5-48d4-9025-7831cb449979
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbLengthW, kernel.rtlstringcblength, RtlStringCbLengthA, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml, RtlStringCbLength, ntstrsafe/RtlStringCbLengthA
+ms.keywords: kernel.rtlstringcblength, RtlStringCbLength, RtlStringCbLengthA, RtlStringCbLengthW, ntstrsafe/RtlStringCbLengthA, ntstrsafe/RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml, RtlStringCbLengthW function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS RtlStringCbLengthW(
 
 
 
-### -param psz [in]
+#### - psz [in]
 
 A pointer to a buffer that contains a null-terminated string, the length of which will be checked.
 
 
-### -param cbMax [in]
+#### - cbMax [in]
 
 The maximum number of bytes allowed in the buffer that is pointed to by <i>psz</i>, including the terminating null character. 
 

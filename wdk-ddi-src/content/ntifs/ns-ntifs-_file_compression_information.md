@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 69a360d9-6e17-4979-a4f3-219ac0739d99
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, *PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION, ntifs/FILE_COMPRESSION_INFORMATION, ifsk.file_compression_information, _FILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION
+ms.keywords: PFILE_COMPRESSION_INFORMATION, *PFILE_COMPRESSION_INFORMATION, ifsk.file_compression_information, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], ntifs/FILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _FILE_COMPRESSION_INFORMATION {
 
 
 
-### -field CompressedFileSize
+#### - CompressedFileSize
 
 The size, in bytes, of the compressed file.
 
 
-### -field CompressionFormat
+#### - CompressionFormat
 
 The compression format. This member must have one of the following values:
 <table>
@@ -118,24 +118,24 @@ LZNT1 compression format.
 </table> 
 
 
-### -field CompressionUnitShift
+#### - CompressionUnitShift
 
 The log, base 2, of the number of clusters per compression
 
 unit. In the NTFS file system, this value is NTFS_CLUSTERS_PER_COMPRESSION.
 
 
-### -field ChunkShift
+#### - ChunkShift
 
 The log, base 2, of the number of bytes in a chunk. In other words, the size in bytes of the chunk is 2 ** <b>ChunkShift</b>, or (1 &lt;&lt; <b>ChunkShift</b>). 
 
 
-### -field ClusterShift
+#### - ClusterShift
 
 The log, base 2, of the minimum number of clusters by which compression must reduce the size of the compression unit. If compression does not reduce the size of the compression unit by at least 2 ** <b>ClusterShift</b> clusters (or 1 &lt;&lt; <b>ClusterShift</b> clusters), compression will not occur. Each compression unit must occupy at least one cluster less than the uncompressed data would occupy.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved
 
@@ -144,9 +144,9 @@ Reserved
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544756">FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
 
  
 

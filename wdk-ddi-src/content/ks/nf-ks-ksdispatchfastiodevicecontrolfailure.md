@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7fb83c8d-e815-46c6-8011-75b25a4c0dd7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDispatchFastIoDeviceControlFailure, KsDispatchFastIoDeviceControlFailure, ksfunc_f8510e75-1698-4ce9-acd8-d5db73a7c035.xml, KsDispatchFastIoDeviceControlFailure function [Streaming Media Devices], stream.ksdispatchfastiodevicecontrolfailure
+ms.keywords: KsDispatchFastIoDeviceControlFailure, KsDispatchFastIoDeviceControlFailure function [Streaming Media Devices], stream.ksdispatchfastiodevicecontrolfailure, ksfunc_f8510e75-1698-4ce9-acd8-d5db73a7c035.xml, ks/KsDispatchFastIoDeviceControlFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,47 +76,47 @@ BOOLEAN KsDispatchFastIoDeviceControlFailure(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Not used.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Not used.
 
 
-### -param InputBuffer [in, optional]
+#### - InputBuffer [in, optional]
 
 Not used.
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 Not used.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 Not used.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 Not used.
 
 
-### -param IoControlCode [in]
+#### - IoControlCode [in]
 
 Not used.
 
 
-### -param IoStatus [out]
+#### - IoStatus [out]
 
 Not used.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Not used.
 

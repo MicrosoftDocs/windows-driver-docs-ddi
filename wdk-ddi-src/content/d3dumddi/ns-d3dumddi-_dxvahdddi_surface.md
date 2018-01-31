@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a0bfc9bf-777e-4da4-9414-856ec650375d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVAHDDDI_SURFACE, DXVA2_Structs_8032b044-07e9-4bb7-9367-1c3283bbf145.xml, DXVAHDDDI_SURFACE structure [Display Devices], DXVAHDDDI_SURFACE, d3dumddi/DXVAHDDDI_SURFACE, display.dxvahdddi_surface"
+ms.keywords: "_DXVAHDDDI_SURFACE, DXVAHDDDI_SURFACE, DXVA2_Structs_8032b044-07e9-4bb7-9367-1c3283bbf145.xml, d3dumddi/DXVAHDDDI_SURFACE, DXVAHDDDI_SURFACE structure [Display Devices], display.dxvahdddi_surface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVAHDDDI_SURFACE {
 
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to the resource that contains the surface. 
 
 
-### -field SubResourceIndex
+#### - SubResourceIndex
 
 [in] The zero-based index into the resource, which the handle in the <b>hResource</b> member specifies. The <b>SubResourceIndex</b> index indicates the surface. 
 

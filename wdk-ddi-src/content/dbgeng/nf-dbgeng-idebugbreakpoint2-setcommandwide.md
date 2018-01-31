@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, dbgeng/IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, SetCommandWide, SetCommandWide method [Windows Debugging], IDebugBreakpoint2::SetCommandWide
+ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, debugger.setcommandwide, IDebugBreakpoint2::SetCommandWide, SetCommandWide method [Windows Debugging], SetCommandWide, dbgeng/IDebugBreakpoint2::SetCommandWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetCommandWide(
 
 
 
-### -param Command [in]
+#### - Command [in]
 
 The command string that is executed when the breakpoint is triggered.
 

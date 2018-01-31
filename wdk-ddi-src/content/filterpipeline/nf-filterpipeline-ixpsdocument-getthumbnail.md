@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 74466609-4408-4065-a607-cd338902335d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetThumbnail method [Print Devices], IXpsDocument interface, GetThumbnail, IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, IXpsDocument, filterpipeline/IXpsDocument::GetThumbnail, print.ixpsdocument_getthumbnail, IXpsDocument interface [Print Devices], GetThumbnail method, GetThumbnail method [Print Devices]
+ms.keywords: GetThumbnail method [Print Devices], filterpipeline/IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, print.ixpsdocument_getthumbnail, GetThumbnail method [Print Devices], IXpsDocument interface, IXpsDocument, IXpsDocument interface [Print Devices], GetThumbnail method, IXpsDocument::GetThumbnail, GetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetThumbnail(
 
 
 
-### -param ppThumbnail [out]
+#### - ppThumbnail [out]
 
 The thumbnail object in the document.
 

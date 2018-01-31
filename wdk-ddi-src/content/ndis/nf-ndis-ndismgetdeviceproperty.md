@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty, ndis/NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty, NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,21 +75,21 @@ VOID NdisMGetDeviceProperty(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 The NDIS handle that identifies the miniport adapter. This handle was originally passed to the 
      <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param PhysicalDeviceObject [out, optional]
+#### - PhysicalDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the
      physical device for the miniport adapter. This pointer is optional.
 
 
-### -param FunctionalDeviceObject [out, optional]
+#### - FunctionalDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. 
@@ -97,7 +97,7 @@ A pointer to a caller-allocated buffer. The buffer receives a pointer to a
      This pointer is optional.
 
 
-### -param NextDeviceObject [out, optional]
+#### - NextDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the next device object. This next device object is
@@ -106,7 +106,7 @@ A pointer to a caller-allocated buffer. The buffer receives a pointer to a
      object that is associated with a bus driver or HAL This pointer is optional.
 
 
-### -param AllocatedResources [out, optional]
+#### - AllocatedResources [out, optional]
 
 A pointer to a caller-allocated buffer that receives a pointer to a 
      CM_RESOURCE_LIST structure. 
@@ -115,7 +115,7 @@ A pointer to a caller-allocated buffer that receives a pointer to a
      pointer is optional.
 
 
-### -param AllocatedResourcesTranslated [out, optional]
+#### - AllocatedResourcesTranslated [out, optional]
 
 A pointer to a caller-allocated buffer that receives a pointer to a 
      CM_RESOURCE_LIST structure. 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 542a8a3b-7704-434c-ad81-0cf8e1f70015
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPacketServiceStateAttached, *PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateUnknown, WwanPacketServiceStateAttaching, wwan/WwanPacketServiceStateDetached, PWWAN_PACKET_SERVICE_STATE, _WWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateAttached, WwanPacketServiceStateDetached, wwan/WWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateUnknown, wwan/WwanPacketServiceStateDetaching, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanPacketServiceStateAttaching, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, WwanPacketServiceStateDetaching, WWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_PACKET_SERVICE_STATE, netvista.wwan_packet_service_state
+ms.keywords: "*PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateDetached, wwan/WwanPacketServiceStateDetaching, wwan/PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateUnknown, WwanPacketServiceStateDetached, _WWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateAttaching, PWWAN_PACKET_SERVICE_STATE, netvista.wwan_packet_service_state, WwanPacketServiceStateUnknown, WwanPacketServiceStateDetaching, WwanPacketServiceStateAttached, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttached, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPacketServiceStateAttaching, WWAN_PACKET_SERVICE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,28 +73,28 @@ typedef enum _WWAN_PACKET_SERVICE_STATE {
 
 
 
-### -field WwanPacketServiceStateUnknown
+#### - WwanPacketServiceStateUnknown
 
 Packet service state is unknown. The miniport driver should specify this state on a failure to set
      the MB packet service state.
 
 
-### -field WwanPacketServiceStateAttaching
+#### - WwanPacketServiceStateAttaching
 
 Packet service attach action is in progress.
 
 
-### -field WwanPacketServiceStateAttached
+#### - WwanPacketServiceStateAttached
 
 Packet service is attached.
 
 
-### -field WwanPacketServiceStateDetaching
+#### - WwanPacketServiceStateDetaching
 
 Packet service detach action is in progress.
 
 
-### -field WwanPacketServiceStateDetached
+#### - WwanPacketServiceStateDetached
 
 Packet service is detached.
 

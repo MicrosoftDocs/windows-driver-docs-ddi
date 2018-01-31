@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff51d0d1-47f1-4df6-b671-d74f791d778b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleByOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, dbgeng/IDebugSymbols::GetModuleByOffset, debugger.getmodulebyoffset, IDebugSymbols3::GetModuleByOffset, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols::GetModuleByOffset, dbgeng/IDebugSymbols3::GetModuleByOffset, GetModuleByOffset, IDebugSymbols2::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method
+ms.keywords: GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols::GetModuleByOffset, IDebugSymbols2::GetModuleByOffset, IDebugSymbols3, dbgeng/IDebugSymbols2::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetModuleByOffset, IDebugSymbols3::GetModuleByOffset, IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], debugger.getmodulebyoffset, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, GetModuleByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetModuleByOffset(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies a location in the target's virtual address space which is inside the desired module's memory allocation -- for example, the address of a symbol belonging to the module.
 
 
-### -param StartIndex [in]
+#### - StartIndex [in]
 
 Specifies the index to start searching from.
 
 
-### -param Index [out, optional]
+#### - Index [out, optional]
 
 Receives the index of the module.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Base [out, optional]
+#### - Base [out, optional]
 
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 
@@ -127,15 +127,15 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
  
 

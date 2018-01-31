@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e2fc87c9-e48f-4e18-ae1b-52a7cc701e91
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfreedefaultclock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, KsFreeDefaultClock function [Streaming Media Devices], KsFreeDefaultClock, ks/KsFreeDefaultClock
+ms.keywords: stream.ksfreedefaultclock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, ks/KsFreeDefaultClock, KsFreeDefaultClock function [Streaming Media Devices], KsFreeDefaultClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID KsFreeDefaultClock(
 
 
 
-### -param DefaultClock [in]
+#### - DefaultClock [in]
 
 Specifies the previously allocated structure to free.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storport/StorPortGetActivityIdSrb, storage.storportgetactivityidsrb
+ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storage.storportgetactivityidsrb, storport/StorPortGetActivityIdSrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ ULONG StorPortGetActivityIdSrb(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 The request block to retrieve the ETW activity ID for.
 
 
-### -param ActivityId [out]
+#### - ActivityId [out]
 
 A pointer to a caller-supplied GUID to receive the ETW activity ID.
 

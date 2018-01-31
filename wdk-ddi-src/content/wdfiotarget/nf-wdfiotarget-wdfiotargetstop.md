@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3dd5aa58-e5a6-4ee3-9b88-d9cbb7eb558c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfiotargetstop, DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, wdfiotarget/WdfIoTargetStop, WdfIoTargetStop, kmdf.wdfiotargetstop, WdfIoTargetStop method
+ms.keywords: wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop, WdfIoTargetStop, DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, kmdf.wdfiotargetstop, WdfIoTargetStop method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfIoTargetStop(
 
 
 
-### -param IoTarget [in]
+#### - IoTarget [in]
 
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a> or <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
 
-### -param Action [in]
+#### - Action [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the I/O target, if the target has not completed the requests.
 
@@ -138,15 +138,15 @@ If the driver has not called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfig
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>
 
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpiperesetsynchronously.md">WdfUsbTargetPipeResetSynchronously</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpiperesetsynchronously.md">WdfUsbTargetPipeResetSynchronously</a>
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 

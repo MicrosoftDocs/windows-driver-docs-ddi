@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9B0590F4-E9B3-4999-99BD-BDB1EA413FF4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen, 1394/IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses]"
+ms.keywords: 1394/IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen, IRB_REQ_ISOCH_LISTEN structure [Buses], _IRB_REQ_ISOCH_LISTEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _IRB_REQ_ISOCH_LISTEN {
 
 
 
-### -field hResource
+#### - hResource
 
 Specifies the resource handle to use in reading data.
 
 
-### -field fulFlags
+#### - fulFlags
 
 Reserved. Device drivers must set this to zero.
 
 
-### -field StartTime
+#### - StartTime
 
 Specifies the cycle time to begin reading data. This member is used only if the driver specified the RESOURCE_SYNCH_ON_TIME flag when it allocated the resource handle passed in <b>u.IsochListen.hResource</b>. (The timing resolution is per isochronous cycle, so the <b>CycleOffset</b> member of <b>StartTime</b> is not used.)
 

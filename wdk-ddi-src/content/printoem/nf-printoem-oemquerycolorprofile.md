@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, OEMQueryColorProfile function [Print Devices], printoem/OEMQueryColorProfile, OEMQueryColorProfile
+ms.keywords: print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, printoem/OEMQueryColorProfile, OEMQueryColorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,34 +74,34 @@ BOOL APIENTRY OEMQueryColorProfile(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 
 
-### -param poemuiobj
+#### - poemuiobj
 
 
 
-### -param pPublicDM
+#### - pPublicDM
 
 
 
-### -param pOEMDM
+#### - pOEMDM
 
 
 
-### -param ulQueryMode
+#### - ulQueryMode
 
 
 
-### -param pvProfileData [out]
+#### - pvProfileData [out]
 
 
 
-### -param pcbProfileData [out]
+#### - pcbProfileData [out]
 
 
 
-### -param pflProfileData [out]
+#### - pflProfileData [out]
 
 

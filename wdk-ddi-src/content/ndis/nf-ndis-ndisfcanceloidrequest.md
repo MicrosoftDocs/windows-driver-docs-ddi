@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 67dc0769-0d65-4048-84aa-1100883bde46
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista], netvista.ndisfcanceloidrequest, NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml
+ms.keywords: ndis/NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista], netvista.ndisfcanceloidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ VOID NdisFCancelOidRequest(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param RequestId [in]
+#### - RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structures that are being
@@ -109,13 +109,13 @@ The filter driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
 
-<a href="..\ndis\nc-ndis-filter_cancel_oid_request.md">FilterCancelOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_cancel_oid_request.md">FilterCancelOidRequest</a>
 
  
 

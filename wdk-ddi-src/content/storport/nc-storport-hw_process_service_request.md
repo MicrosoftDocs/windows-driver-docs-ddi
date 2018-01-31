@@ -72,12 +72,12 @@ VOID HwStorProcessServiceRequest(
 
 
 
-### -param DeviceExtension
+#### - DeviceExtension
 
 A pointer to the virtual miniport driver's per-adapter storage area.
 
 
-### -param Irp
+#### - Irp
 
 A pointer to the I/O request.
 

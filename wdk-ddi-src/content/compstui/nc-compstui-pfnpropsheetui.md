@@ -68,12 +68,12 @@ LONG PFNPROPSHEETUI(
 
 
 
-### -param pPSUIInfo
+#### - pPSUIInfo
 
 CPSUI-supplied pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure.
 
 
-### -param lParam
+#### - lParam
 
 CPSUI-supplied integer value that is dependent on the contents of the <b>Reason</b> member of the <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure. Valid values are as follows:
 

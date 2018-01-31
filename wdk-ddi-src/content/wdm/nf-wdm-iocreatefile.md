@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928f16d4-19cb-4d80-96a6-d25357bfdc30
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCreateFile routine [Kernel-Mode Driver Architecture], k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, IoCreateFile, wdm/IoCreateFile, kernel.iocreatefile
+ms.keywords: kernel.iocreatefile, IoCreateFile routine [Kernel-Mode Driver Architecture], IoCreateFile, wdm/IoCreateFile, k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,22 +81,22 @@ NTSTATUS IoCreateFile(
 
 
 
-### -param FileHandle [out]
+#### - FileHandle [out]
 
 A pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> once the handle is no longer in use.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the type of access that the caller requires to the file or directory. See <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> for a description of the possible values for this parameter.
 
 
-### -param ObjectAttributes [in]
+#### - ObjectAttributes [in]
 
 A pointer to a structure that specifies the object's attributes, which has already been initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute for <i>ObjectAttributes</i>.
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 A pointer to a variable that receives the final completion status and information about the requested operation. On return from <b>IoCreateFile</b>, the <b>Information</b> member contains one of the following values:
 <ul>
@@ -126,17 +126,17 @@ FILE_DOES_NOT_EXIST
 </li>
 </ul>
 
-### -param AllocationSize [in, optional]
+#### - AllocationSize [in, optional]
 
 Optionally specifies the initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
 
-### -param FileAttributes [in]
+#### - FileAttributes [in]
 
 Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which are defined in Wdm.h. For a list of flags that can be used with <b>IoCreateFile</b>, see <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> in the Microsoft Windows SDK documentation.
 
 
-### -param ShareAccess [in]
+#### - ShareAccess [in]
 
 Specifies the type of share access that the caller would like to the file, as zero, or as one or a combination of the following:
 <table>
@@ -179,7 +179,7 @@ The file can be opened for delete access by other threads' calls to <b>IoCreateF
 Device and intermediate drivers usually set <i>ShareAccess</i> to zero, which gives the caller exclusive access to the open file.
 
 
-### -param Disposition [in]
+#### - Disposition [in]
 
 Specifies what to do, depending on whether the file already exists, as one of the following:
 <table>
@@ -250,7 +250,7 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </table> 
 
 
-### -param CreateOptions [in]
+#### - CreateOptions [in]
 
 Specifies the options to be applied when creating or opening the file, as a compatible combination of the following flags:
 <table>
@@ -433,27 +433,27 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 </table> 
 
 
-### -param EaBuffer [in, optional]
+#### - EaBuffer [in, optional]
 
 For device and intermediate drivers, this parameter must be a <b>NULL</b> pointer.
 
 
-### -param EaLength [in]
+#### - EaLength [in]
 
 For device and intermediate drivers, this parameter must be zero.
 
 
-### -param CreateFileType [in]
+#### - CreateFileType [in]
 
 Drivers must set this parameter to <b>CreateFileTypeNone</b>.
 
 
-### -param InternalParameters [in, optional]
+#### - InternalParameters [in, optional]
 
 Drivers must set this parameter to <b>NULL</b>.
 
 
-### -param Options [in]
+#### - Options [in]
 
 Specifies options to be used during the creation of the create request. These options can be from the following list:
 <table>

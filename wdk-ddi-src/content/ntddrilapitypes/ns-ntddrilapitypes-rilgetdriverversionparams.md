@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42167f2f-0bd5-452c-9b41-d18efac28a33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILGETDRIVERVERSIONPARAMS, ntddrilapitypes/RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS, netvista.rilgetdriverversionparams, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: netvista.rilgetdriverversionparams, RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETDRIVERVERSIONPARAMS, ntddrilapitypes/RILGETDRIVERVERSIONPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,10 +68,10 @@ typedef struct _RILGETDRIVERVERSIONPARAMS {
 
 
 
-### -field dwMinVersion
+#### - dwMinVersion
 
 
 
-### -field dwMaxVersion
+#### - dwMaxVersion
 
 

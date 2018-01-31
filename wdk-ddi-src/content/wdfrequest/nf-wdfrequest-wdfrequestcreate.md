@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 94329e5a-9efb-4e88-92a6-457098d1245f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestCreate, wdf.wdfrequestcreate, wdfrequest/WdfRequestCreate, PFN_WDFREQUESTCREATE, DFRequestObjectRef_9c240f29-fd5e-4d6e-9a54-31abb05507c5.xml, WdfRequestCreate method, kmdf.wdfrequestcreate
+ms.keywords: kmdf.wdfrequestcreate, DFRequestObjectRef_9c240f29-fd5e-4d6e-9a54-31abb05507c5.xml, PFN_WDFREQUESTCREATE, wdf.wdfrequestcreate, wdfrequest/WdfRequestCreate, WdfRequestCreate method, WdfRequestCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfRequestCreate(
 
 
 
-### -param RequestAttributes [in, optional]
+#### - RequestAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the request object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param IoTarget [in, optional]
+#### - IoTarget [in, optional]
 
 A handle to a framework I/O target object. This parameter is optional and can be <b>NULL</b>. If non-<b>NULL</b>, <b>WdfRequestCreate</b> verifies that the driver can eventually send the request to the specified I/O target.
 
 
-### -param Request [out]
+#### - Request [out]
 
 A pointer to a location that receives a handle to a framework request object. 
 
@@ -162,13 +162,13 @@ For more information about calling <b>WdfRequestCreate</b>, see <a href="https:/
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreatefromirp.md">WdfRequestCreateFromIrp</a>
 

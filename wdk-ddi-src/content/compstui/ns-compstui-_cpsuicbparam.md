@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CPSUICBPARAM, print.cpsuicbparam, *PCPSUICBPARAM, _CPSUICBPARAM, PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, compstui/CPSUICBPARAM, compstui/PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], CPSUICBPARAM structure [Print Devices]
+ms.keywords: "_CPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], CPSUICBPARAM structure [Print Devices], CPSUICBPARAM, PCPSUICBPARAM, compstui/PCPSUICBPARAM, *PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, compstui/CPSUICBPARAM, print.cpsuicbparam"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,12 +94,12 @@ typedef struct _CPSUICBPARAM {
  
 
 
-### -field cbSize
+#### - cbSize
 
 CPSUI-supplied size, in bytes, of the CPSUICBPARAM structure.
 
 
-### -field Reason
+#### - Reason
 
 CPSUI-supplied value indicating the reason it is calling the callback function. This can be one of the following values:
 
@@ -185,37 +185,37 @@ The user has changed the selected value for the option pointed to by <b>pCurItem
 The property sheet page is about to become active, and CPSUI has received a PSN_SETACTIVE notification message (described in the Windows SDK documentation). CPSUI sets <b>pCurItem</b> to the value contained in <b>pOptItem</b>, and sets <b>pOldSel</b> to point to the <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 
-### -field hDlg
+#### - hDlg
 
 CPSUI-supplied handle to the currently active dialog box.
 
 
-### -field pOptItem
+#### - pOptItem
 
 CPSUI-supplied pointer to an array of <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures. This is the same pointer that the application previously supplied in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 
-### -field cOptItem
+#### - cOptItem
 
 CPSUI-supplied number of OPTITEM structures in the array pointed to by <b>pOptItem</b>. This is the same number that the application previously supplied in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 
-### -field Flags
+#### - Flags
 
 CPSUI-supplied flags. This is the same set of flags that the application previously supplied in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 
-### -field pCurItem
+#### - pCurItem
 
 CPSUI-supplied pointer to a member of the OPTITEM array pointed to by <b>pOptItem</b>. This array member represents the "current" option, which is the one for which the callback function was called.
 
 
-### -field UserData
+#### - UserData
 
 CPSUI-supplied user data. This is the same value that the application previously supplied in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 
-### -field Result
+#### - Result
 
 Result value supplied by the <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function. By default, CPSUI sets this value to CPSUI_OK. After the callback function returns, CPSUI calls its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function with a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547087">CPSFUNC_SET_RESULT</a>, supplying the <b>Reason</b> member contents as the result value.
 

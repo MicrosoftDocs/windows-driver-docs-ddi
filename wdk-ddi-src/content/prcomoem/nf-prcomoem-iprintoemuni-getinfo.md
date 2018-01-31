@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetInfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml, GetInfo method [Print Devices], IPrintOemUni interface, print.iprintoemuni_getinfo, IPrintOemUni interface [Print Devices], GetInfo method, prcomoem/IPrintOemUni::GetInfo, IPrintOemUni::GetInfo, IPrintOemUni, GetInfo method [Print Devices]
+ms.keywords: IPrintOemUni::GetInfo, IPrintOemUni, GetInfo, print.iprintoemuni_getinfo, GetInfo method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::GetInfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml, IPrintOemUni interface [Print Devices], GetInfo method, GetInfo method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ STDMETHOD GetInfo(
 
 
 
-### -param dwMode
+#### - dwMode
 
 Contains one of the following caller-supplied integer constants.
 
@@ -97,17 +97,17 @@ The method must return a unique four-byte identification signature. The plug-in 
 The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
 
 
-### -param pBuffer
+#### - pBuffer
 
 Caller-supplied pointer to memory allocated to receive the information specified by <i>dwInfo</i>.
 
 
-### -param cbSize
+#### - cbSize
 
 Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded
+#### - pcbNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pBuffer</i>.
 
@@ -160,9 +160,9 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
 
  
 

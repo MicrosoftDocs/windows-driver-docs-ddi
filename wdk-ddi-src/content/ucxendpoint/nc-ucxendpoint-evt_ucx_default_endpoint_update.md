@@ -74,12 +74,12 @@ typedef EVT_UCX_DEFAULT_ENDPOINT_UPDATE PEVT_UCX_DEFAULT_ENDPOINT_UPDATE;
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A <a href="..\ucxendpoint\ns-ucxendpoint-_default_endpoint_update.md">DEFAULT_ENDPOINT_UPDATE</a> structure that contains the handle to the default endpoint to be updated.
 
@@ -104,9 +104,9 @@ UCX typically calls this routine to update the default endpoint's maximum packet
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
-
 <a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
  
 

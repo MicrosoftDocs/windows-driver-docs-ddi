@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5ce7786-717a-4e0f-bc57-342655a59ca1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoCallDriver, wdm/PoCallDriver, PoCallDriver routine [Kernel-Mode Driver Architecture], kernel.pocalldriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml
+ms.keywords: PoCallDriver routine [Kernel-Mode Driver Architecture], wdm/PoCallDriver, PoCallDriver, kernel.pocalldriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PoCallDriver(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the driver-created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> to which the IRP is to be routed.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to an IRP. 
 
@@ -88,7 +88,7 @@ A pointer to an IRP.
 ## -remarks
 
 
-Beginning with Windows Vista, drivers should call <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, not <b>PoCallDriver</b> to pass a power IRP to the next-lower driver. However, on Windows Server 2003, Windows XP, and Windows 2000, drivers must call <b>PoCallDriver</b>, not <b>IoCallDriver</b>  to pass a power IRP to the next-lower driver. On Windows Server 2003, Windows XP, an Windows 2000, drivers must also call <a href="..\ntifs\nf-ntifs-postartnextpowerirp.md">PoStartNextPowerIrp</a> before calling <b>PoCallDriver</b>.
+Beginning with Windows Vista, drivers should call <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, not <b>PoCallDriver</b> to pass a power IRP to the next-lower driver. However, on Windows Server 2003, Windows XP, and Windows 2000, drivers must call <b>PoCallDriver</b>, not <b>IoCallDriver</b>  to pass a power IRP to the next-lower driver. On Windows Server 2003, Windows XP, an Windows 2000, drivers must also call <a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a> before calling <b>PoCallDriver</b>.
 
 A driver that requires a new IRP should call <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>. A driver must not allocate its own power IRP.
 
@@ -112,21 +112,21 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
 
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-
-<a href="..\ntifs\nf-ntifs-postartnextpowerirp.md">PoStartNextPowerIrp</a>
-
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
  
 

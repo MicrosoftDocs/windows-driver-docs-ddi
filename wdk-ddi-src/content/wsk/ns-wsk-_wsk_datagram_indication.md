@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 061db3ca-80ed-419e-8cca-f49d1498b780
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_1e0fb168-6e03-4b73-8bb4-e3bce0c94b02.xml, PWSK_DATAGRAM_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATAGRAM_INDICATION, _WSK_DATAGRAM_INDICATION, *PWSK_DATAGRAM_INDICATION, wsk/WSK_DATAGRAM_INDICATION, wsk/PWSK_DATAGRAM_INDICATION, WSK_DATAGRAM_INDICATION structure [Network Drivers Starting with Windows Vista], PWSK_DATAGRAM_INDICATION, netvista.wsk_datagram_indication
+ms.keywords: WSK_DATAGRAM_INDICATION structure [Network Drivers Starting with Windows Vista], *PWSK_DATAGRAM_INDICATION, wsk/WSK_DATAGRAM_INDICATION, netvista.wsk_datagram_indication, PWSK_DATAGRAM_INDICATION, WSK_DATAGRAM_INDICATION, PWSK_DATAGRAM_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _WSK_DATAGRAM_INDICATION, wskref_1e0fb168-6e03-4b73-8bb4-e3bce0c94b02.xml, wsk/PWSK_DATAGRAM_INDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,19 +78,19 @@ typedef struct _WSK_DATAGRAM_INDICATION {
  
 
 
-### -field Next
+#### - Next
 
 A pointer to the next WSK_DATAGRAM_INDICATION structure in a linked list of
      WSK_DATAGRAM_INDICATION structures. If this member is <b>NULL</b>, this structure is the last
      WSK_DATAGRAM_INDICATION structure in the linked list.
 
 
-### -field Buffer
+#### - Buffer
 
 A WSK_BUF structure that describes a datagram that has been received on the socket.
 
 
-### -field ControlInfo
+#### - ControlInfo
 
 The control information that is associated with the received datagram. The control information
      data that is associated with a datagram is made up of one or more control data objects, each of which
@@ -99,13 +99,13 @@ The control information that is associated with the received datagram. The contr
      information present for the received datagram, this member is <b>NULL</b>.
 
 
-### -field ControlInfoLength
+#### - ControlInfoLength
 
 The size of the control information that is associated with the received datagram. If this value
      is zero, there is no control information present for the datagram.
 
 
-### -field RemoteAddress
+#### - RemoteAddress
 
 A pointer to a buffer that contains the remote transport address from which the received datagram
      originated. The buffer contains the specific SOCKADDR structure type that corresponds to the address
@@ -124,15 +124,15 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
 
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
  
 

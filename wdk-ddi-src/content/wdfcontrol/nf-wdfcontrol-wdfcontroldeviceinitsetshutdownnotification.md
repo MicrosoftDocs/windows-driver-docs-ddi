@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43a5a017-f5de-4906-acbb-96419b4a3f1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfControlDeviceInitSetShutdownNotification, PFN_WDFCONTROLDEVICEINITSETSHUTDOWNNOTIFICATION, kmdf.wdfcontroldeviceinitsetshutdownnotification, wdf.wdfcontroldeviceinitsetshutdownnotification, DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml, wdfcontrol/WdfControlDeviceInitSetShutdownNotification, WdfControlDeviceInitSetShutdownNotification method
+ms.keywords: WdfControlDeviceInitSetShutdownNotification method, WdfControlDeviceInitSetShutdownNotification, DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml, kmdf.wdfcontroldeviceinitsetshutdownnotification, wdfcontrol/WdfControlDeviceInitSetShutdownNotification, wdf.wdfcontroldeviceinitsetshutdownnotification, PFN_WDFCONTROLDEVICEINITSETSHUTDOWNNOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ VOID WdfControlDeviceInitSetShutdownNotification(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained by calling <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>.
 
 
-### -param Notification [in]
+#### - Notification [in]
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a> event callback function.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 One or more <a href="..\wdfcontrol\ne-wdfcontrol-_wdf_device_shutdown_flags.md">WDF_DEVICE_SHUTDOWN_FLAGS</a>-typed flags that indicate when the <a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a> callback function will be called.
 
@@ -104,13 +104,13 @@ The driver must call <b>WdfControlDeviceInitSetShutdownNotification</b> before c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 <a href="..\wdfcontrol\ne-wdfcontrol-_wdf_device_shutdown_flags.md">WDF_DEVICE_SHUTDOWN_FLAGS</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
 
  
 

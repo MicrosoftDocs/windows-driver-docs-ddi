@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ec6e75e8-f24a-4d76-b6e1-af35b5402f91
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.nmrwaitforproviderderegistercomplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForProviderDeregisterComplete, NmrWaitForProviderDeregisterComplete
+ms.keywords: netioddk/NmrWaitForProviderDeregisterComplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml, NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NTSTATUS NmrWaitForProviderDeregisterComplete(
 
 
 
-### -param NmrProviderHandle [in]
+#### - NmrProviderHandle [in]
 
 A handle used by the NMR to represent the registration of the provider module. The NMR returns
      this handle to the provider module when the provider module calls the 

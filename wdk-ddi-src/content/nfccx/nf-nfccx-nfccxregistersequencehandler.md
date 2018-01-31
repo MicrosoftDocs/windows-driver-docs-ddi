@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 30957475-D02B-434D-9FAB-BBCD5732DCA5
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers._nfccxregistersequencehandler, nfccx/NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers]
+ms.keywords: nfpdrivers._nfccxregistersequencehandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NfcCxRegisterSequenceHandler
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
+req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
 
 # NfcCxRegisterSequenceHandler function
@@ -69,17 +69,17 @@ NTSTATUS NfcCxRegisterSequenceHandler(
 
 
 
-### -param Device
+#### - Device
 
 A handle to a framework device object.
 
 
-### -param Sequence
+#### - Sequence
 
 An <a href="..\nfccx\ne-nfccx-_nfc_cx_sequence.md">NFC_CX_SEQUENCE</a>-typed enumerator.
 
 
-### -param EvtNfcCxSequenceHandler
+#### - EvtNfcCxSequenceHandler
 
 A pointer to an <a href="..\nfccx\nc-nfccx-evt_nfc_cx_sequence_handler.md">EvtNfcCxSequenceHandler</a> callback function. 
 
@@ -95,9 +95,9 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

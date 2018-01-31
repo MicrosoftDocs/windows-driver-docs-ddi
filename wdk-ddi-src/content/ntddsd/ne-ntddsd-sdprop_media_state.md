@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: b59fd639-f2e2-4765-bcc7-01934df3a0bc
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SDPMS_NO_MEDIA, ntddsd/SDPROP_MEDIA_STATE, ntddsd/SDPMS_NO_MEDIA, SDPMS_MEDIA_INSERTED, SD.sdprop_media_state, sd-structs_a2064f73-cec7-4703-95ec-8ab8adc0b4b2.xml, ntddsd/SDPMS_MEDIA_INSERTED, SDPROP_MEDIA_STATE, SDPROP_MEDIA_STATE enumeration [Buses]
+ms.keywords: ntddsd/SDPMS_MEDIA_INSERTED, SD.sdprop_media_state, SDPROP_MEDIA_STATE enumeration [Buses], ntddsd/SDPMS_NO_MEDIA, SDPMS_MEDIA_INSERTED, ntddsd/SDPROP_MEDIA_STATE, SDPMS_NO_MEDIA, sd-structs_a2064f73-cec7-4703-95ec-8ab8adc0b4b2.xml, SDPROP_MEDIA_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,21 +68,21 @@ typedef enum  {
 
 
 
-### -field SDPMS_NO_MEDIA
+#### - SDPMS_NO_MEDIA
 
 Indicates that the media is not present.
 
 
-### -field SDPMS_MEDIA_INSERTED
+#### - SDPMS_MEDIA_INSERTED
 
 Indicates that the media is inserted.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
-
 <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 

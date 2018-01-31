@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d845777c-1bc9-4ab3-9bfc-211f2231971e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CreateThread method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_createthread, IDebugEventCallbacksWide::CreateThread, dbgeng/IDebugEventCallbacksWide::CreateThread, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], CreateThread method, CreateThread, CreateThread method [Windows Debugging]
+ms.keywords: IDebugEventCallbacksWide::CreateThread, dbgeng/IDebugEventCallbacksWide::CreateThread, IDebugEventCallbacksWide interface [Windows Debugging], CreateThread method, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_createthread, CreateThread, CreateThread method [Windows Debugging], CreateThread method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT CreateThread(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Specifies the handle for the thread whose creation caused the event.  If this information is not available, <i>Handle</i> will be <b>NULL</b>.
 
 
-### -param DataOffset [in]
+#### - DataOffset [in]
 
 Specifies a block of data that the operating system maintains for this thread. The actual data in the block is operating system-specific.  If the operating system does not have such a block, <i>DataOffset</i> will be <b>NULL</b>.
 
 
-### -param StartOffset [in]
+#### - StartOffset [in]
 
 Specifies the starting location in the target's virtual address space of the thread.  If this information is not available, <i>StartOffset</i> will be <b>NULL</b>.
 

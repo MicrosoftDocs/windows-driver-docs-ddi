@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c98c04c-246a-42a0-bb40-f7771f7ae968
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetMSIInfo, storage.storportgetmsiinfo, StorPortGetMSIInfo routine [Storage Devices], storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml, storport/StorPortGetMSIInfo
+ms.keywords: storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml, StorPortGetMSIInfo, storage.storportgetmsiinfo, StorPortGetMSIInfo routine [Storage Devices], storport/StorPortGetMSIInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortGetMSIInfo(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param MessageId [in]
+#### - MessageId [in]
 
 The identifier of the message for which the information is retrieved.
 
 
-### -param InterruptInfo [out]
+#### - InterruptInfo [out]
 
 A pointer to a miniport driver-provided <a href="..\storport\ns-storport-_message_interrupt_information.md">MESSAGE_INTERRUPT_INFORMATION</a> structure that receives the information for the message specified by the <i>MessageId</i> parameter.
 

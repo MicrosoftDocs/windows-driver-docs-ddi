@@ -40,7 +40,7 @@ apiname:
 -	EvtDeviceRemoveAddedResources
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -75,17 +75,17 @@ NTSTATUS EvtDeviceRemoveAddedResources(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object to which resources will be assigned.
 
 
-### -param ResourcesRaw [in]
+#### - ResourcesRaw [in]
 
 A handle to a resource list object that identifies the raw hardware resources that the PnP manager has assigned to the device. 
 
 
-### -param ResourcesTranslated [in]
+#### - ResourcesTranslated [in]
 
 A handle to a resource list object that identifies the translated hardware resources that the PnP manager has assigned to the device. 
 

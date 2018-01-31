@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 55d6d93b-c20f-435b-ba99-2df26bd17240
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvNotifyPnpEvent, IWiaMiniDrv, drvNotifyPnpEvent method [Imaging Devices], image.iwiaminidrv_drvnotifypnpevent, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, drvNotifyPnpEvent
+ms.keywords: IWiaMiniDrv, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv::drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, drvNotifyPnpEvent, image.iwiaminidrv_drvnotifypnpevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvNotifyPnpEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ HRESULT drvNotifyPnpEvent(
 
 
 
-### -param bstrDeviceID [in]
+#### - bstrDeviceID [in]
 
 Specifies a string containing the device's unique identifier. 
 
 
-### -param ulReserved [in]
+#### - ulReserved [in]
 
 Is reserved for system use.
 

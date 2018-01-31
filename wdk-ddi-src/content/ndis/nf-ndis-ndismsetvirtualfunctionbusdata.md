@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74c6789e-22a6-42e9-bc14-8b9f93da668b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData
+ms.keywords: netvista.ndismsetvirtualfunctionbusdata, ndis/NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], NdisMSetVirtualFunctionBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,31 +72,31 @@ ULONG NdisMSetVirtualFunctionBusData(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param VFId [in]
+#### - VFId [in]
 
 The identifier of the VF to which data is written to its  PCI configuration space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a buffer that contains the data to be written to the PCI configuration space.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The offset, in units of bytes, in the PCI configuration space to which data is written.
 
 
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in units of bytes, of the data to be written.
 
@@ -125,15 +125,15 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
 <a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451925">OID_SRIOV_WRITE_VF_CONFIG_SPACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 <b></b>
 

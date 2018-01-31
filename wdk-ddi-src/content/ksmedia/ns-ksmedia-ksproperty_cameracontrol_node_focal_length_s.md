@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7562f84d-aac2-48b6-bae2-518d1f58f71f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, stream.ksproperty_cameracontrol_node_focal_length_s, KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure pointer [Streaming Media Devices], vidcapstruct_0eb477eb-b320-4055-b4aa-1e378ae202b1.xml, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S"
+ms.keywords: KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure [Streaming Media Devices], *PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure pointer [Streaming Media Devices], vidcapstruct_0eb477eb-b320-4055-b4aa-1e378ae202b1.xml, ksmedia/KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, stream.ksproperty_cameracontrol_node_focal_length_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-### -field NodeProperty
+#### - NodeProperty
 
 Specifies both the target node and the property to <i>get</i>. This member is an initialized structure of type <a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>.
 
 
-### -field lOcularFocalLength
+#### - lOcularFocalLength
 
 Specifies a value of type LONG containing the focal length of the lens closest to the camera user.
 
 
-### -field lObjectiveFocalLengthMin
+#### - lObjectiveFocalLengthMin
 
 Specifies a value of type LONG containing the minimum focal length of the lens closest to the camera subject.
 
 
-### -field lObjectiveFocalLengthMax
+#### - lObjectiveFocalLengthMax
 
 Specifies a value of type LONG containing the maximum focal length of the lens closest to the camera subject.
 

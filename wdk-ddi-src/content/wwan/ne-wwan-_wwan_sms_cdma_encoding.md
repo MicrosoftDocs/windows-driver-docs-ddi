@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f632da2-36bb-491e-b445-5c320277a446
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_a106195c-4a1c-4f95-9c38-91390dadf046.xml, wwan/WwanSmsCdmaEncoding7BitAscii, wwan/WwanSmsCdmaEncodingLatin, WwanSmsCdmaEncodingGsm7Bit, WwanSmsCdmaEncodingMax, WwanSmsCdmaEncodingIa5, *PWWAN_SMS_CDMA_ENCODING, WwanSmsCdmaEncodingShiftJis, wwan/WwanSmsCdmaEncodingMax, WwanSmsCdmaEncodingUnicode, WWAN_SMS_CDMA_ENCODING enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_CDMA_ENCODING, wwan/WwanSmsCdmaEncodingUnicode, PWWAN_SMS_CDMA_ENCODING, wwan/WwanSmsCdmaEncodingEpm, WwanSmsCdmaEncodingKorean, WwanSmsCdmaEncodingOctet, wwan/WwanSmsCdmaEncodingIa5, WwanSmsCdmaEncodingLatinHebrew, WWAN_SMS_CDMA_ENCODING, WwanSmsCdmaEncodingEpm, wwan/WwanSmsCdmaEncodingOctet, PWWAN_SMS_CDMA_ENCODING enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SMS_CDMA_ENCODING, wwan/WwanSmsCdmaEncodingGsm7Bit, WwanSmsCdmaEncoding7BitAscii, WwanSmsCdmaEncodingLatin, wwan/WwanSmsCdmaEncodingShiftJis, wwan/WwanSmsCdmaEncodingKorean, netvista.wwan_sms_cdma_encoding, wwan/WwanSmsCdmaEncodingLatinHebrew, _WWAN_SMS_CDMA_ENCODING
+ms.keywords: wwan/WwanSmsCdmaEncodingIa5, PWWAN_SMS_CDMA_ENCODING enumeration pointer [Network Drivers Starting with Windows Vista], WwanSmsCdmaEncodingUnicode, wwan/WwanSmsCdmaEncodingKorean, wwan/WwanSmsCdmaEncoding7BitAscii, *PWWAN_SMS_CDMA_ENCODING, WWAN_SMS_CDMA_ENCODING enumeration [Network Drivers Starting with Windows Vista], wwan/WwanSmsCdmaEncodingShiftJis, wwan/WwanSmsCdmaEncodingGsm7Bit, WwanSmsCdmaEncodingOctet, WwanSmsCdmaEncodingLatin, wwan/WwanSmsCdmaEncodingLatin, WwanSmsCdmaEncodingEpm, wwan/PWWAN_SMS_CDMA_ENCODING, WwanSmsCdmaEncodingGsm7Bit, wwan/WwanSmsCdmaEncodingOctet, wwan/WwanSmsCdmaEncodingUnicode, wwan/WwanSmsCdmaEncodingMax, WWAN_SMS_CDMA_ENCODING, PWWAN_SMS_CDMA_ENCODING, WwanSmsCdmaEncodingMax, WwanSmsCdmaEncodingKorean, _WWAN_SMS_CDMA_ENCODING, wwan/WWAN_SMS_CDMA_ENCODING, WwanSmsCdmaEncodingLatinHebrew, netvista.wwan_sms_cdma_encoding, WwanSmsCdmaEncodingIa5, WwanSmsCdmaEncodingShiftJis, wwan/WwanSmsCdmaEncodingEpm, WwanSmsCdmaEncoding7BitAscii, wwan/WwanSmsCdmaEncodingLatinHebrew, WwanRef_a106195c-4a1c-4f95-9c38-91390dadf046.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SMS_CDMA_ENCODING
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SMS_CDMA_ENCODING, *PWWAN_SMS_CDMA_ENCODING
+req.typenames: "*PWWAN_SMS_CDMA_ENCODING, WWAN_SMS_CDMA_ENCODING"
 req.product: Windows 10 or later.
 ---
 
@@ -79,66 +79,66 @@ typedef enum _WWAN_SMS_CDMA_ENCODING {
 
 
 
-### -field WwanSmsCdmaEncodingOctet
+#### - WwanSmsCdmaEncodingOctet
 
 The message uses octet encoding.
 
 
-### -field WwanSmsCdmaEncodingEpm
+#### - WwanSmsCdmaEncodingEpm
 
 The message uses EPM encoding.
 
 
-### -field WwanSmsCdmaEncoding7BitAscii
+#### - WwanSmsCdmaEncoding7BitAscii
 
 The message uses 7-bit ASCII encoding. The encoded message is represented in bytes per character.
 
 
-### -field WwanSmsCdmaEncodingIa5
+#### - WwanSmsCdmaEncodingIa5
 
 The message uses IA5 encoding.
 
 
-### -field WwanSmsCdmaEncodingUnicode
+#### - WwanSmsCdmaEncodingUnicode
 
 The message uses Unicode encoding.
 
 
-### -field WwanSmsCdmaEncodingShiftJis
+#### - WwanSmsCdmaEncodingShiftJis
 
 The message uses shifted JIS encoding.
 
 
-### -field WwanSmsCdmaEncodingKorean
+#### - WwanSmsCdmaEncodingKorean
 
 The message uses Korean encoding.
 
 
-### -field WwanSmsCdmaEncodingLatinHebrew
+#### - WwanSmsCdmaEncodingLatinHebrew
 
 The message uses Latin Hebrew encoding.
 
 
-### -field WwanSmsCdmaEncodingLatin
+#### - WwanSmsCdmaEncodingLatin
 
 The message uses Latin encoding.
 
 
-### -field WwanSmsCdmaEncodingGsm7Bit
+#### - WwanSmsCdmaEncodingGsm7Bit
 
 The message uses 7-bit GSM encoding.
 
 
-### -field WwanSmsCdmaEncodingMax
+#### - WwanSmsCdmaEncodingMax
 
 The total number of supported SMS CDMA encoding formats.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
-
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+
+<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
  
 

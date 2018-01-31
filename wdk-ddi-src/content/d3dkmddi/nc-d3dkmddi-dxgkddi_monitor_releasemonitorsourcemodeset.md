@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnReleaseMonitorSourceModeSet(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 [in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
 
 
-### -param hMonitorSourceModeSet [in]
+#### - hMonitorSourceModeSet [in]
 
 [in] The handle to be released.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D060CE9D-B23A-4E6C-9CC3-1DDAB0583FF8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, buses._ucx_controller_config_set_acpi_info
+ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, buses._ucx_controller_config_set_acpi_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ void UCX_CONTROLLER_CONFIG_SET_ACPI_INFO(
 
 
 
-### -param Config
+#### - Config
 
 A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure to initialize.
 
 
-### -param VendorId
+#### - VendorId
 
 A string that contains the vendor identifier for the device.
 
 
-### -param DeviceId
+#### - DeviceId
 
 A string that specifies the device identifier assigned by the manufacturer.
 
 
-### -param RevisionId
+#### - RevisionId
 
 A string that Specifies the revision level of the device described by the <b>DeviceID</b> member.
 

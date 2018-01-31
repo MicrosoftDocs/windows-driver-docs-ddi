@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74C32E55-79C6-449A-AFA3-27858CF4EA6B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList routine [Storage Devices], storage.storportinterlockedpushentryslist
+ms.keywords: storage.storportinterlockedpushentryslist, StorPortInterlockedPushEntrySList routine [Storage Devices], storport/StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortInterlockedPushEntrySList(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param SListHead [in, out]
+#### - SListHead [in, out]
 
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
 
-### -param SListEntry [in, out]
+#### - SListEntry [in, out]
 
 A pointer to an <b>STOR_SLIST_ENTRY</b> structure that represents the item to insert into the singly linked list.
 
 
-### -param Result [out]
+#### - Result [out]
 
 A pointer to a list entry pointer. The value returned is a pointer to  the previous item that existed  at the front of the list. This pervious item remains in the list behind the item new item added from <i>SListEntry</i>. If the list is empty, then <b>NULL</b> is returned in value pointed to by <i>Result</i>.
 
@@ -148,11 +148,11 @@ When allocated by the caller,  the <b>STOR_SLIST_ENTRY</b> structure pointed to 
 
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
+<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
+
 <a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
 
 <a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
-
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
  
 

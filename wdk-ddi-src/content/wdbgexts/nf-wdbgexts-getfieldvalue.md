@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4655bac3-997e-43d9-b628-b4292ae5509d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldValue, debugger.getfieldvalue, wdbgexts/GetFieldValue, WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, GetFieldValue function [Windows Debugging]
+ms.keywords: debugger.getfieldvalue, GetFieldValue, WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, GetFieldValue function [Windows Debugging], wdbgexts/GetFieldValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -71,22 +71,22 @@ __inline ULONG GetFieldValue(
 
 
 
-### -param Addr
+#### - Addr
 
 Specifies the address of the structure in the target's memory.
 
 
-### -param Type
+#### - Type
 
 Specifies the name of the type of the structure.  This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
 
-### -param Field
+#### - Field
 
 Specifies the name of the member in the structure.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield".
 
 
-### -param OutValue
+#### - OutValue
 
 Specifies the object into which the member's value is read.
 

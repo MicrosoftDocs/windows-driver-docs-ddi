@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D9A54562-0ABC-4BEA-A9E3-F1A0A4EBC095
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IPortClsPnp::RegisterAdapterPnpManagement, IPortClsPnp::RegisterAdapterPnpManagement, audio.iportclspnp_registeradapterpnpmanagement, IPortClsPnp, RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method, RegisterAdapterPnpManagement method [Audio Devices]
+ms.keywords: RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method, audio.iportclspnp_registeradapterpnpmanagement, RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp::RegisterAdapterPnpManagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsPnp.RegisterAdapterPnpManagement
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsPnp::RegisterAdapterPnpManagement method
@@ -68,12 +68,12 @@ NTSTATUS RegisterAdapterPnpManagement(
 
 
 
-### -param pUnknown [in]
+#### - pUnknown [in]
 
 Specifies a pointer to <b>IUnknown</b> of <a href="..\portcls\nn-portcls-iadapterpnpmanagement.md">IAdapterPnpManagement</a>. 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 

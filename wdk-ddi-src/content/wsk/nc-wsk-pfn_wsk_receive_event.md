@@ -40,7 +40,7 @@ apiname:
 -	WskReceiveEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ NTSTATUS APIENTRY WskReceiveEvent(
 
 
 
-### -param SocketContext [in, optional]
+#### - SocketContext [in, optional]
 
 A pointer to the socket context for the connection-oriented socket that has received the data. The
      WSK application provided this pointer to the WSK subsystem in one of the following ways:
@@ -108,7 +108,7 @@ Its
 </li>
 </ul>
 
-### -param Flags [in]
+#### - Flags [in]
 
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
@@ -159,7 +159,7 @@ The WSK subsystem called the
 </table> 
 
 
-### -param DataIndication [in, optional]
+#### - DataIndication [in, optional]
 
 A pointer to a linked list of 
      <a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a> structures that
@@ -169,17 +169,20 @@ A pointer to a linked list of
      socket as soon as possible.
 
 
-### -param BytesIndicated [in]
+#### - BytesIndicated [in]
 
 The number of bytes of received data described by the linked list of 
      <a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a> structures.
 
 
-### -param *BytesAccepted
+#### - *BytesAccepted [in, out]
 
-
-
-
+A pointer to a SIZE_T-typed variable which receives the number of bytes of received data that is
+     accepted by the WSK application. This variable needs to be set only if the WSK application accepts a
+     portion of the total number of bytes of received data. If the WSK application accepts all of the
+     received data, it does not have to set this variable. If the 
+     <i>WskReceiveEvent</i> event callback function returns a status other than STATUS_SUCCESS, the WSK
+     subsystem ignores the value of this variable.
 
 
 #### - BytesAccepted [in, out]
@@ -312,26 +315,26 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
-
-<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
 <mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
    WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
  
 

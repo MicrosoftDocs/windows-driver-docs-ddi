@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b54655ac-b7ac-4026-9d9d-75dd139ac059
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/IdePowerUnSpecified, IdePowerUnSpecified, irb/IdePowerD3, structs-ATA_82594916-763d-46c4-9a40-e1e4f0c32e13.xml, IDE_POWER_STATE, IdePowerD0, irb/IdePowerD0, IDE_POWER_STATE enumeration [Storage Devices], IdePowerD3, irb/IDE_POWER_STATE, storage.ide_power_state
+ms.keywords: IdePowerUnSpecified, IDE_POWER_STATE enumeration [Storage Devices], irb/IdePowerUnSpecified, irb/IDE_POWER_STATE, IDE_POWER_STATE, storage.ide_power_state, structs-ATA_82594916-763d-46c4-9a40-e1e4f0c32e13.xml, irb/IdePowerD3, irb/IdePowerD0, IdePowerD3, IdePowerD0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-### -field IdePowerUnSpecified
+#### - IdePowerUnSpecified
 
 Indicates that the power level is unspecified.
 
 
-### -field IdePowerD0
+#### - IdePowerD0
 
 Indicates a device power level of 0.
 
 
-### -field IdePowerD3
+#### - IdePowerD3
 
 Indicates a device power level of 3.
 

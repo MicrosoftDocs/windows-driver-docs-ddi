@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da1ac5d6-fb17-4034-8448-d582bafda870
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista], dot11wdi/PWDI_RX_METADATA, WDI_RX_METADATA, PWDI_RX_METADATA, *PWDI_RX_METADATA, netvista.wdi_rx_metadata, _WDI_RX_METADATA, dot11wdi/WDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_rx_metadata
+ms.keywords: netvista.wdi_rx_metadata, WDI_RX_METADATA, netvista.wifi_rx_metadata, PWDI_RX_METADATA, *PWDI_RX_METADATA, _WDI_RX_METADATA, dot11wdi/PWDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista], dot11wdi/WDI_RX_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDI_RX_METADATA
 product: Windows
 targetos: Windows
-req.typenames: WDI_RX_METADATA, *PWDI_RX_METADATA
+req.typenames: "*PWDI_RX_METADATA, WDI_RX_METADATA"
 ---
 
 # _WDI_RX_METADATA structure
@@ -70,7 +70,7 @@ typedef struct _WDI_RX_METADATA {
 
 
 
-### -field PayloadType
+#### - PayloadType
 
 The payload type, specified for each MPDU.
 

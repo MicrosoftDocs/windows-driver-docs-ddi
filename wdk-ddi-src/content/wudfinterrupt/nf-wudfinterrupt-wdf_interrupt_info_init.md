@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CFFE19FB-289C-4002-AB07-AE342D855B20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_interrupt_info_init_umdf, wudfinterrupt/WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT function, WDF_INTERRUPT_INFO_INIT, umdf.wdf_interrupt_info_init
+ms.keywords: wdf.wdf_interrupt_info_init_umdf, wudfinterrupt/WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT function, umdf.wdf_interrupt_info_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,9 +100,9 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
-
 <a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
  
 

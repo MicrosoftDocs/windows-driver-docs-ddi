@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbWriteDeviceSpace
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_WRITE_DEVICE_SPACE callback
@@ -75,12 +75,12 @@ NTSTATUS DxgkCbWriteDeviceSpace(
 
 
 
-### -param DeviceHandle [in]
+#### - DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-### -param DataType [in]
+#### - DataType [in]
 
 The type of write transaction to be performed. This parameter must be one of the following values, which are defined in <i>Dispmprt.h</i>:
 
@@ -107,22 +107,22 @@ Write to the configuration space of a memory controller hub that is a peer to th
 Write to the display adapter's expansion ROM.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a buffer that supplies the data to be written to the configuration space.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The offset, in bytes, into the configuration space, at which the write transaction begins.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes to be written.
 
 
-### -param BytesWritten [out]
+#### - BytesWritten [out]
 
 A pointer to a ULONG-typed variable that receives the number of bytes actually written.
 

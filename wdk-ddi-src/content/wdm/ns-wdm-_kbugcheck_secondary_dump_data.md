@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dacb98cd-46bc-49d0-8ebd-29bb2dd5b713
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml, _KBUGCHECK_SECONDARY_DUMP_DATA, PKBUGCHECK_SECONDARY_DUMP_DATA, PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], *PKBUGCHECK_SECONDARY_DUMP_DATA, wdm/PKBUGCHECK_SECONDARY_DUMP_DATA, kernel.kbugcheck_secondary_dump_data, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.kbugcheck_secondary_dump_data, PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture], wdm/PKBUGCHECK_SECONDARY_DUMP_DATA, *PKBUGCHECK_SECONDARY_DUMP_DATA, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, _KBUGCHECK_SECONDARY_DUMP_DATA, kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KBUGCHECK_SECONDARY_DUMP_DATA
 product: Windows
 targetos: Windows
-req.typenames: KBUGCHECK_SECONDARY_DUMP_DATA, *PKBUGCHECK_SECONDARY_DUMP_DATA
+req.typenames: "*PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ typedef struct _KBUGCHECK_SECONDARY_DUMP_DATA {
 
 
 
-### -field InBuffer
+#### - InBuffer
 
 Pointer to a buffer that is allocated by the system.
 
 
-### -field InBufferLength
+#### - InBufferLength
 
 Specifies the size of the buffer, in bytes, specified by the <b>InBuffer</b> member.
 
 
-### -field MaximumAllowed
+#### - MaximumAllowed
 
 Specifies the maximum amount of data that the <i>BugCheckSecondaryDumpDataCallback</i> routine can write to the crash dump file.
 
 
-### -field Guid
+#### - Guid
 
 Specifies a GUID that identifies the driver's crash dump data. (Drivers must use unique GUIDs to mark their crash dump data. Use the GuidGen.exe tool to generate GUIDs for your driver. This tool is included in the Microsoft Windows SDK.)
 
 
-### -field OutBuffer
+#### - OutBuffer
 
 Pointer to the buffer where the driver writes its crash dump data, or <b>NULL</b>.
 
 
-### -field OutBufferLength
+#### - OutBufferLength
 
 Specifies the size of the buffer, in bytes, that was specified by the <b>OutBuffer</b> member.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5574d8ee-8a52-488f-849d-9288af5fed2b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportreadregisterbufferuchar, ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], srb/ScsiPortReadRegisterBufferUchar, scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml
+ms.keywords: storage.scsiportreadregisterbufferuchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], srb/ScsiPortReadRegisterBufferUchar, scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, ScsiPortReadRegisterBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadRegisterBufferUchar
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ VOID ScsiPortReadRegisterBufferUchar(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of bytes to be read from the HBA.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fac29ced-7acc-4c2a-ac8a-171b8dd1d45e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoRetrieveIdentificationDescription method, kmdf.wdfpdoretrieveidentificationdescription, WdfPdoRetrieveIdentificationDescription, wdfpdo/WdfPdoRetrieveIdentificationDescription, PFN_WDFPDORETRIEVEIDENTIFICATIONDESCRIPTION, DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, wdf.wdfpdoretrieveidentificationdescription
+ms.keywords: WdfPdoRetrieveIdentificationDescription method, DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, kmdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription, PFN_WDFPDORETRIEVEIDENTIFICATIONDESCRIPTION, wdf.wdfpdoretrieveidentificationdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoRetrieveIdentificationDescription
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoRetrieveIdentificationDescription(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object that represents the device's physical device object (PDO).
 
 
-### -param IdentificationDescription [in, out]
+#### - IdentificationDescription [in, out]
 
 A pointer to a caller-allocated buffer that will receive the identification description. The identification description must contain a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
@@ -124,9 +124,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveaddressdescription.md">WdfPdoRetrieveAddressDescription</a>
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveaddressdescription.md">WdfPdoRetrieveAddressDescription</a>
 
  
 

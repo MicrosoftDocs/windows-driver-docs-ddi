@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2e94cf01-6edf-40ca-b25e-ce7c125e4686
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: HUB_DEVICE_CONFIG_INFO structure [Buses], usbioctl/HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO, buses.hub_device_config_info, usbioctl/PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO, _HUB_DEVICE_CONFIG_INFO_V1, *PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses]
+ms.keywords: PHUB_DEVICE_CONFIG_INFO, buses.hub_device_config_info, *PHUB_DEVICE_CONFIG_INFO, usbioctl/HUB_DEVICE_CONFIG_INFO, _HUB_DEVICE_CONFIG_INFO_V1, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], usbioctl/PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _HUB_DEVICE_CONFIG_INFO {
 
 
 
-### -field Version
+#### - Version
 
 Specifies the version number.  Must be set to 1. 
 
 
-### -field Length
+#### - Length
 
 Specifies the size of the <b>HUB_DEVICE_CONFIG_INFO</b> structure. Must be set by the caller.
 
 
-### -field HubFlags
+#### - HubFlags
 
 Specifies the hub capabilities in a <a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a> structure.  
 
 
-### -field HardwareIds
+#### - HardwareIds
 
 The PnP hardware ID multi-string for the USB device in a <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structure. 
 
 
-### -field CompatibleIds
+#### - CompatibleIds
 
  PnP compatible ID multi-string for the USB device in a <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structure. 
 
 
-### -field DeviceDescription
+#### - DeviceDescription
 
 Description of the device in a <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structure. This may be set to <b>NULL</b>.
 
@@ -125,13 +125,13 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_device_config_info.md">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a>
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
 
  
 

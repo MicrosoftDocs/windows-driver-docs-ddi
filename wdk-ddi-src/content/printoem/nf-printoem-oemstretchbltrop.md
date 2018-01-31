@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2e265dc6-3e04-4f25-ae3b-6cb7ce5ce9ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemstretchbltrop, OEMStretchBltROP, OEMStretchBltROP function [Print Devices], print_unidrv-pscript_rendering_b1617a87-83e0-4b49-b123-e1db1ed3dd70.xml, printoem/OEMStretchBltROP
+ms.keywords: print.oemstretchbltrop, print_unidrv-pscript_rendering_b1617a87-83e0-4b49-b123-e1db1ed3dd70.xml, printoem/OEMStretchBltROP, OEMStretchBltROP, OEMStretchBltROP function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,54 +80,54 @@ BOOL APIENTRY OEMStretchBltROP(
 
 
 
-### -param psoDest
+#### - psoDest
 
 
 
-### -param psoSrc
+#### - psoSrc
 
 
 
-### -param psoMask
+#### - psoMask
 
 
 
-### -param pco
+#### - pco
 
 
 
-### -param pxlo
+#### - pxlo
 
 
 
-### -param pca
+#### - pca
 
 
 
-### -param pptlHTOrg
+#### - pptlHTOrg
 
 
 
-### -param prclDest
+#### - prclDest
 
 
 
-### -param prclSrc
+#### - prclSrc
 
 
 
-### -param pptlMask
+#### - pptlMask
 
 
 
-### -param iMode
+#### - iMode
 
 
 
-### -param pbo
+#### - pbo
 
 
 
-### -param rop4
+#### - rop4
 
 

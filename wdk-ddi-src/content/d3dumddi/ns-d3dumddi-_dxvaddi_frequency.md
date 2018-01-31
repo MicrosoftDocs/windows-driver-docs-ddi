@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5bfb02f6-4482-4260-827f-54c5f74b6b46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_FREQUENCY, display.dxvaddi_frequency, _DXVADDI_FREQUENCY, DXVADDI_FREQUENCY, DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY structure [Display Devices]
+ms.keywords: display.dxvaddi_frequency, d3dumddi/DXVADDI_FREQUENCY, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], _DXVADDI_FREQUENCY, DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVADDI_FREQUENCY {
 
 
 
-### -field Numerator
+#### - Numerator
 
 [in] The numerator of the frequency fraction.
 
 
-### -field Denominator
+#### - Denominator
 
 [in] The denominator of the frequency fraction.
 

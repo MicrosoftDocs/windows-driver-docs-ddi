@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], LBA_FILTER_TABLE, _LBA_FILTER_TABLE, storage.lba_filter_table, ehstorioctl/PLBA_FILTER_TABLE, PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], ehstorioctl/LBA_FILTER_TABLE"
+ms.keywords: "*PLBA_FILTER_TABLE, PLBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], storage.lba_filter_table"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _LBA_FILTER_TABLE {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure. This is set to <b>sizeof</b>(LBA_FILTER_TABLE).
 
 
-### -field GlobalReadLock
+#### - GlobalReadLock
 
 If TRUE, LBAs not included in the filter table are not readable. Otherwise unfiltered LBAs are readable if FALSE.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field GlobalWriteLock
+#### - GlobalWriteLock
 
 If TRUE, LBAs not included in the filter table are not writeable. Otherwise unfiltered LBAs are writeable if FALSE.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved.
 
 
-### -field LbaFilterCount
+#### - LbaFilterCount
 
 The number of filter entries in the filter table.
 
 
-### -field LbaFilterSize
+#### - LbaFilterSize
 
 The size in bytes of a filter table entry. This must be set to <b>sizeof</b>(LBA_FILTER_TABLE_ENTRY).
 
@@ -131,9 +131,9 @@ Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href
 
 ## -see-also
 
-<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a>
-
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
+
+<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a>
 
  
 

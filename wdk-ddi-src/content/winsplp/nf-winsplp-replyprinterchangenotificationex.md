@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ReplyPrinterChangeNotificationEx function [Print Devices], winsplp/ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx, print.replyprinterchangenotificationex
+ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], winsplp/ReplyPrinterChangeNotificationEx, print.replyprinterchangenotificationex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ req.product: Windows 10 or later.
 
 
 
-### -param hNotify [in]
+#### - hNotify [in]
 
 
 
-### -param dwColor
+#### - dwColor
 
 
 
-### -param fdwFlags
+#### - fdwFlags
 
 
 
-### -param pdwResult [out]
+#### - pdwResult [out]
 
 
 
-### -param pPrinterNotifyInfo [in]
+#### - pPrinterNotifyInfo [in]
 
 

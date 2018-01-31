@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E347F2E1-5AF5-411A-8F05-DA4826240E02
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensorscxdeviceinitconfig, sensorscx/SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], SensorsCxDeviceInitConfig
+ms.keywords: sensors.sensorscxdeviceinitconfig, SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensorscx/SensorsCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ FORCEINLINE NTSTATUS SensorsCxDeviceInitConfig(
 
 
 
-### -param pFxDeviceInit [in, out]
+#### - pFxDeviceInit [in, out]
 
 A reference to WDFDEVICE_INIT.
 
 
-### -param pFdoAttributes [in, out]
+#### - pFdoAttributes [in, out]
 
 A reference to WDF_OBJECT_ATTRIBUTES.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 The flags for the sensor driver. Reserved set to 0.
 

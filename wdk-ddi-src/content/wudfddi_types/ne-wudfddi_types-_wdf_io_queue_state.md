@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c91b9ea0-8c42-4199-b161-2b43ba4a1833
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_io_queue_state, wudfddi/WdfIoQueueAcceptRequests, WdfIoQueuePnpHeld, WdfIoQueueDriverNoRequests, wudfddi/WdfIoQueueDispatchRequests, wudfddi/WdfIoQueueDriverNoRequests, WdfIoQueueDispatchRequests, WDF_IO_QUEUE_STATE enumeration, wudfddi/WDF_IO_QUEUE_STATE, WdfIoQueueAcceptRequests, WdfIoQueueNoRequests, wudfddi/WdfIoQueueNoRequests, wdf.wdf_io_queue_state_umdf, wudfddi/WdfIoQueuePnpHeld, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, _WDF_IO_QUEUE_STATE, *PWDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE
+ms.keywords: WdfIoQueueNoRequests, wudfddi/WdfIoQueueNoRequests, WdfIoQueueAcceptRequests, WdfIoQueuePnpHeld, WdfIoQueueDriverNoRequests, WdfIoQueueDispatchRequests, umdf.wdf_io_queue_state, wudfddi/WdfIoQueuePnpHeld, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, WDF_IO_QUEUE_STATE enumeration, wudfddi/WdfIoQueueDriverNoRequests, WDF_IO_QUEUE_STATE, wdf.wdf_io_queue_state_umdf, wudfddi/WdfIoQueueAcceptRequests, _WDF_IO_QUEUE_STATE, *PWDF_IO_QUEUE_STATE, wudfddi/WDF_IO_QUEUE_STATE, wudfddi/WdfIoQueueDispatchRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,31 +75,31 @@ typedef enum _WDF_IO_QUEUE_STATE {
 
 
 
-### -field WdfIoQueueAcceptRequests
+#### - WdfIoQueueAcceptRequests
 
 If this value is set to 1, the queue accepts requests by automatically forwarding them through the setting of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a> method or by manually forwarding each request through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a> method. 
 
 If this value is set to 0, the queue completes any automatically forwarded requests with "status canceled" or fails <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a> with "status busy".
 
 
-### -field WdfIoQueueDispatchRequests
+#### - WdfIoQueueDispatchRequests
 
 If this value is set to 1, the queue automatically presents requests to the driver, unless the queue is a <b>WdfIoQueueDispatchManual</b> type (see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>). 
 
 If this value is set to 0, the queue does not automatically dispatch requests to the driver. The setting of this status does not prevent the driver from calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a> method to manually retrieve a request from the queue.
 
 
-### -field WdfIoQueueNoRequests
+#### - WdfIoQueueNoRequests
 
 If this value is set to 1, no requests are in the queue, even requests that can be presented to the driver and that can be returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>.
 
 
-### -field WdfIoQueueDriverNoRequests
+#### - WdfIoQueueDriverNoRequests
 
 If this value is set to 1, there are no requests that the driver currently operates on that it received from the queue. 
 
 
-### -field WdfIoQueuePnpHeld
+#### - WdfIoQueuePnpHeld
 
 If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspended the queue from processing requests.
 
@@ -108,11 +108,11 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
  
 

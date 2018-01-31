@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiI2CTransmitDataToDisplay
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback
@@ -74,22 +74,22 @@ NTSTATUS DxgkDdiI2CTransmitDataToDisplay(
 
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-### -param VidPnTargetId [in]
+#### - VidPnTargetId [in]
 
 An integer that identifies one of the video present targets on the display adapter.
 
 
-### -param SevenBitI2CAddress [in]
+#### - SevenBitI2CAddress [in]
 
 The address of the I2C device to which data will be transmitted.
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 The length, in bytes, of the data to be transmitted. This parameter must be between 1 and 64, inclusive.
 

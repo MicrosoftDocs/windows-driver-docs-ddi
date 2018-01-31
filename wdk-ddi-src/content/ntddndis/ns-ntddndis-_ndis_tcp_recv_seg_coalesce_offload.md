@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F474ABFA-D811-4C03-868A-E7C23BAE2017
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, ntddndis/PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, netvista.ndis_tcp_recv_seg_coalesce_offload, ntddndis/NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, ntddndis/PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, *PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, netvista.ndis_tcp_recv_seg_coalesce_offload, PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,8 +72,13 @@ typedef struct _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD {
 
 
 
-### -field IPv4
+#### - IPv4
 
+
+
+#### Enabled
+
+A BOOLEAN value that is set to TRUE if RSC processing on IPv4 traffic is supported. Otherwise, this member is FALSE.
 
 
 ### -field IPv4.Enabled
@@ -81,8 +86,13 @@ typedef struct _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD {
 A BOOLEAN value that is set to TRUE if RSC processing on IPv4 traffic is supported. Otherwise, this member is FALSE.
 
 
-### -field IPv6
+#### - IPv6
 
+
+
+#### Enabled
+
+A BOOLEAN value that is set to TRUE if RSC processing on IPv6 traffic is supported. Otherwise, this member is FALSE.
 
 
 ### -field IPv6.Enabled

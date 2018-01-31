@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19A066BD-1099-475C-BF81-F1BE7C7778E5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PUFS_RPMB_UNIT_DESCRIPTOR structure pointer [Storage Devices], ufs/PUFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_rpmb_unit_descriptor, *PUFS_RPMB_UNIT_DESCRIPTOR, ufs/UFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR
+ms.keywords: UFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR structure [Storage Devices], ufs/UFS_RPMB_UNIT_DESCRIPTOR, *PUFS_RPMB_UNIT_DESCRIPTOR, ufs/PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_rpmb_unit_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFS_RPMB_UNIT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: UFS_RPMB_UNIT_DESCRIPTOR, *PUFS_RPMB_UNIT_DESCRIPTOR
+req.typenames: "*PUFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -83,22 +83,22 @@ typedef struct _UFS_RPMB_UNIT_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-### -field bDescriptorIDN
+#### - bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_UNIT_IDN</b>.
 
 
-### -field bUnitIndex
+#### - bUnitIndex
 
 Specifies unit index
 
 
-### -field bLUEnable
+#### - bLUEnable
 
 Specifies if the logic unit number (LUN) is enabled. If <b>bLUEnable</b> is equal to 0x00, the logical unit is disabled.
 
@@ -108,7 +108,7 @@ Specifies if the logic unit number (LUN) is enabled. If <b>bLUEnable</b> is equa
  
 
 
-### -field bLUWriteProtect
+#### - bLUWriteProtect
 
 Specifies if the logical unit is write-protected. Contains one of the following values:
 <table>
@@ -131,12 +131,12 @@ Specifies if the logical unit is write-protected. Contains one of the following 
 </table> 
 
 
-### -field bLUQueueDepth
+#### - bLUQueueDepth
 
 Specifies the logical unit queue depth. Can be any value from 0x00 to 0xff.
 
 
-### -field bPSASensitive
+#### - bPSASensitive
 
 Specifies if the logical unit is sensitive to soldering. Contains one of the following values:
 <table>
@@ -155,39 +155,39 @@ Specifies if the logical unit is sensitive to soldering. Contains one of the fol
 </table> 
 
 
-### -field bMemoryType
+#### - bMemoryType
 
 Specifies the desired memory type. Equal to 0x0F.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 
 Reserved for future use.
 
 
-### -field bLogicalBlockSize
+#### - bLogicalBlockSize
 
 Specifies the logical block size of the descriptor.
 
 
-### -field qLogicalBlockCount
+#### - qLogicalBlockCount
 
 Specifies the total number of addressable logical blocks in the logical unit.
 
 
-### -field dEraseBlockSize
+#### - dEraseBlockSize
 
 Specifies the erase block size.
 
 
-### -field bProvisioningType
+#### - bProvisioningType
 
 Specifies the provisioning type.
 
 
-### -field qPhyMemResourceCount
+#### - qPhyMemResourceCount
 
 Specifies the total physical memory resources available in the logical unit.
 

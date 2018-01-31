@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7B296D94-32DB-4190-935F-F1CC5F566706
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, 1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure [Buses], IEEE.irb_req_get_max_speed_between_devices"
+ms.keywords: IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, _IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, 1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure [Buses], IEEE.irb_req_get_max_speed_between_devices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES {
 
 
 
-### -field fulFlags
+#### - fulFlags
 
 Specifies the source device. Zero indicates the calling device. USE_LOCAL_NODE indicates the computer itself.
 <div class="alert"><b>Note</b>  In Windows 7, the new 1394 bus driver returns only the speed between the local node and the device. The USE_LOCAL_NODE flag must be set in the <b>u.GetMaxSpeedBetweenDevices.fulFlags</b> parameter.</div><div> </div>
 
-### -field ulNumberOfDestinations
+#### - ulNumberOfDestinations
 
 Specifies the number of destination devices.
 
 
-### -field hDestinationDeviceObjects
+#### - hDestinationDeviceObjects
 
 Points to an array of the device objects of the destination devices.
 
 
-### -field fulSpeed
+#### - fulSpeed
 
 Specifies the maximum speed returned.
 

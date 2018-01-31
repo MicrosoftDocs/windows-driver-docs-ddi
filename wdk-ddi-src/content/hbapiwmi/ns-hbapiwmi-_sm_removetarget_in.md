@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a32e2442-a6a8-4c1a-ab70-40fdb525bafb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SM_RemoveTarget_IN, SM_RemoveTarget_IN, hbapiwmi/PSM_RemoveTarget_IN, storage.sm_removetarget_in, *PSM_RemoveTarget_IN, PSM_RemoveTarget_IN, structs-Fibre_6efe773b-e240-40d4-bcf6-c6d141061ac3.xml, hbapiwmi/SM_RemoveTarget_IN, SM_RemoveTarget_IN structure [Storage Devices], PSM_RemoveTarget_IN structure pointer [Storage Devices]"
+ms.keywords: structs-Fibre_6efe773b-e240-40d4-bcf6-c6d141061ac3.xml, SM_RemoveTarget_IN structure [Storage Devices], SM_RemoveTarget_IN, hbapiwmi/SM_RemoveTarget_IN, *PSM_RemoveTarget_IN, hbapiwmi/PSM_RemoveTarget_IN, storage.sm_removetarget_in, _SM_RemoveTarget_IN, PSM_RemoveTarget_IN, PSM_RemoveTarget_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_RemoveTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_RemoveTarget_IN, *PSM_RemoveTarget_IN
+req.typenames: "*PSM_RemoveTarget_IN, SM_RemoveTarget_IN"
 ---
 
 # _SM_RemoveTarget_IN structure
@@ -70,22 +70,22 @@ typedef struct _SM_RemoveTarget_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 A worldwide name (WWN) that indicates the local port that should be removed from the list of ports whose events are reported to the WMI client.
 
 
-### -field DiscoveredPortWWN
+#### - DiscoveredPortWWN
 
 A worldwide name (WWN) that indicates the port that was discovered remotely. Remove this port from the list of ports whose events are reported to the WMI client.
 
 
-### -field DomainPortWWN
+#### - DomainPortWWN
 
 A worldwide name (WWN) that specifies the SAS domain worldwide name of the local port.
 
 
-### -field AllTargets
+#### - AllTargets
 
 The scope of the target events that stop reporting. If this member is zero, the WMI provider client stops reporting events that are associated with the port that is indicated by DiscoveredPortWWN. If this member is nonzero, the WMI provider stops reporting events that are associated with any target.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceD0, wdf.wdf_power_device_state, WdfPowerDeviceD2, WdfPowerDeviceD0, WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD2, wdfdevice/PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3, kmdf.wdf_power_device_state, WdfPowerDeviceD3Final, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, wdfdevice/WdfPowerDeviceInvalid, PWDF_POWER_DEVICE_STATE enumeration pointer, WdfPowerDevicePrepareForHibernation, wdfdevice/WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDevicePrepareForHibernation, PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, wdfdevice/WdfPowerDeviceD3Final, WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD3
+ms.keywords: wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD2, WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceMaximum, PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, wdfdevice/WdfPowerDeviceD0, wdf.wdf_power_device_state, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceD3Final, wdfdevice/WdfPowerDeviceD1, PWDF_POWER_DEVICE_STATE enumeration pointer, WdfPowerDeviceInvalid, kmdf.wdf_power_device_state, WdfPowerDeviceD3Final, WdfPowerDeviceMaximum, *PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD3, WDF_POWER_DEVICE_STATE, WdfPowerDeviceD2, WdfPowerDeviceD1, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,42 +77,42 @@ typedef enum _WDF_POWER_DEVICE_STATE {
 
 
 
-### -field WdfPowerDeviceInvalid
+#### - WdfPowerDeviceInvalid
 
 The device power state is invalid or unknown.
 
 
-### -field WdfPowerDeviceD0
+#### - WdfPowerDeviceD0
 
 The D0 device power state.
 
 
-### -field WdfPowerDeviceD1
+#### - WdfPowerDeviceD1
 
 The D1 device power state.
 
 
-### -field WdfPowerDeviceD2
+#### - WdfPowerDeviceD2
 
 The D2 device power state.
 
 
-### -field WdfPowerDeviceD3
+#### - WdfPowerDeviceD3
 
 The D3 device power state.
 
 
-### -field WdfPowerDeviceD3Final
+#### - WdfPowerDeviceD3Final
 
 Represents the final time that the device enters the D3 device power state. Typically, this enumerator means that the system is being turned off, the device is about to be removed, or a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/the-pnp-manager-redistributes-system-resources">resource rebalance</a> is in progress. The device might have been already removed.
 
 
-### -field WdfPowerDevicePrepareForHibernation
+#### - WdfPowerDevicePrepareForHibernation
 
 The device supports hibernation files, and the system is ready to hibernate by entering <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">system state S4</a>. The driver must not turn off the device. For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999-99a2-6175d9763b3f">Supporting Special Files</a>.
 
 
-### -field WdfPowerDeviceMaximum
+#### - WdfPowerDeviceMaximum
 
 The maximum enumerator value for this enumeration.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], *PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, wdbgexts/PDEBUG_TYPED_DATA, _DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, debugger.debug_typed_data, DEBUG_TYPED_DATA structure [Windows Debugging]
+ms.keywords: PDEBUG_TYPED_DATA structure pointer [Windows Debugging], debugger.debug_typed_data, DEBUG_TYPED_DATA structure [Windows Debugging], PDEBUG_TYPED_DATA, wdbgexts/PDEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA, _DEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_TYPED_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA"
+req.typenames: DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -78,32 +78,32 @@ typedef struct _DEBUG_TYPED_DATA {
 
 
 
-### -field ModBase
+#### - ModBase
 
 The base address of the module, in the target's virtual address space, that contains the typed data.
 
 
-### -field Offset
+#### - Offset
 
 The location of the typed data in the target's memory. <b>Offset</b> is a virtual memory address unless there are flags present in <b>Flags</b> that specify that <b>Offset</b> is a physical memory address.
 
 
-### -field EngineHandle
+#### - EngineHandle
 
 Set to zero.
 
 
-### -field Data
+#### - Data
 
 The data cast to a ULONG64. If <b>Flags</b> does not contain the DEBUG_TYPED_DATA_IS_IN_MEMORY flag, the data is not available and <b>Data</b> is set to zero.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the data.
 
 
-### -field Flags
+#### - Flags
 
 The flags describing the target's memory in which the data resides. The following bit flags can be set.
 <table>
@@ -164,29 +164,29 @@ DEBUG_TYPED_DATA_PHYSICAL_WRITE_COMBINED
 </table> 
 
 
-### -field TypeId
+#### - TypeId
 
 The type ID for the data's type.
 
 
-### -field BaseTypeId
+#### - BaseTypeId
 
 For generated types, the type ID of the type on which the data's type is based. For example, if the typed data represents a pointer (or an array), <b>BaseTypeId</b> is the type of the object pointed to (or held in the array).
 
 For other types, <b>BaseTypeId</b> is the same as <b>TypeId</b>.
 
 
-### -field Tag
+#### - Tag
 
 The symbol tag of the typed data. This is a value from the <b>SymTagEnum</b> enumeration. For descriptions of the values, see the DbgHelp API documentation.
 
 
-### -field Register
+#### - Register
 
 The index of the processor's register containing the data, or zero if the data is not contained in a register.  (Note that the zero value can represent either that the data is not in a register or that it is in the register whose index is zero.) 
 
 
-### -field Internal
+#### - Internal
 
 Internal <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> data.
 

@@ -76,7 +76,7 @@ NDIS_STATUS MiniportCoCreateVc(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information about this instance of the adapter. The miniport driver provided this handle
@@ -87,13 +87,13 @@ Specifies the handle to a miniport driver-allocated context area in which the mi
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies a handle, supplied by NDIS, that uniquely identifies the VC being created. This handle
      is opaque to the miniport driver and reserved for NDIS library use.
 
 
-### -param MiniportVcContext [out]
+#### - MiniportVcContext [out]
 
 Specifies, on output, a handle to a miniport driver-supplied context area in which the miniport
      driver maintains state about the VC.

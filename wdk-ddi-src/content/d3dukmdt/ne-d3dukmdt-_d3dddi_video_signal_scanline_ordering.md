@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0dcfd93-1706-41f7-aab5-f9e9dd58e9b3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices], d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, D3DDDI_VSSLO_OTHER, DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, display.d3dddi_video_signal_scanline_ordering, D3DDDI_VSSLO_PROGRESSIVE, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_OTHER, d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED
+ms.keywords: D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED, d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_OTHER, d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices], DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, D3DDDI_VSSLO_PROGRESSIVE, D3DDDI_VSSLO_OTHER, display.d3dddi_video_signal_scanline_ordering, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, D3DDDI_VSSLO_UNINITIALIZED, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING {
 
 
 
-### -field D3DDDI_VSSLO_UNINITIALIZED
+#### - D3DDDI_VSSLO_UNINITIALIZED
 
 Indicates that a variable of type D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING has not yet been assigned a meaningful value.
 
 
-### -field D3DDDI_VSSLO_PROGRESSIVE
+#### - D3DDDI_VSSLO_PROGRESSIVE
 
 Indicates that each field contains an entire frame.
 
 
-### -field D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST
+#### - D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST
 
 Indicates that each field contains half of a frame, and the odd scan lines are displayed first. 
 
 
-### -field D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST
+#### - D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST
 
 Indicates that each field contains half of a frame, and the even scan lines are displayed first. 
 
 
-### -field D3DDDI_VSSLO_OTHER
+#### - D3DDDI_VSSLO_OTHER
 
 Indicates that the video signal has a scan line ordering other than those given in the previous constants of this enumeration.
 

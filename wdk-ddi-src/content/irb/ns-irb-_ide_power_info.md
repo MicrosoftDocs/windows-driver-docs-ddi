@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10f6c449-f0f8-4261-825e-127c477c06eb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.power_change_info, structs-ATA_b4b67f22-359b-4c12-ad21-7de1c39a8259.xml, PIDE_POWER_INFO, POWER_CHANGE_INFO, POWER_CHANGE_INFO structure [Storage Devices], IDE_POWER_INFO, _IDE_POWER_INFO, irb/IDE_POWER_INFO, IDE_POWER_INFO structure [Storage Devices], *PIDE_POWER_INFO, PIDE_POWER_INFO structure pointer [Storage Devices], irb/PIDE_POWER_INFO
+ms.keywords: "_IDE_POWER_INFO, irb/IDE_POWER_INFO, *PIDE_POWER_INFO, POWER_CHANGE_INFO, storage.power_change_info, irb/PIDE_POWER_INFO, PIDE_POWER_INFO, IDE_POWER_INFO structure [Storage Devices], IDE_POWER_INFO, structs-ATA_b4b67f22-359b-4c12-ad21-7de1c39a8259.xml, PIDE_POWER_INFO structure pointer [Storage Devices], POWER_CHANGE_INFO structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDE_POWER_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PIDE_POWER_INFO, IDE_POWER_INFO"
+req.typenames: IDE_POWER_INFO, *PIDE_POWER_INFO
 ---
 
 # _IDE_POWER_INFO structure
@@ -68,21 +68,21 @@ typedef struct _IDE_POWER_INFO {
 
 
 
-### -field CurrentPowerState
+#### - CurrentPowerState
 
 Contains an enumeration value of type <a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a> that indicates the current power state of the device.
 
 
-### -field DesiredPowerState
+#### - DesiredPowerState
 
 Contains an enumeration value of type IDE_POWER_STATE that indicates the power state to which the device will be changed.
 
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
-
 <a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a>
+
+<a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
 
  
 

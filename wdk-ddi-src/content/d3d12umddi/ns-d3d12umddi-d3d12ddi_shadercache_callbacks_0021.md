@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EBA976B0-3B44-4482-B1B0-31A84150C056
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_SHADERCACHE_CALLBACKS_0021 structure [Display Devices], display.d3d12ddi_shadercache_callbacks_0021, D3D12DDI_SHADERCACHE_CALLBACKS_0021, d3d12umddi/D3D12DDI_SHADERCACHE_CALLBACKS_0021
+ms.keywords: D3D12DDI_SHADERCACHE_CALLBACKS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_CALLBACKS_0021, display.d3d12ddi_shadercache_callbacks_0021, D3D12DDI_SHADERCACHE_CALLBACKS_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D12DDI_SHADERCACHE_CALLBACKS_0021 {
 
 
 
-### -field pfnShaderCacheGetValueCb
+#### - pfnShaderCacheGetValueCb
 
 A callback function that gets a shader cache value. 
 
 
-### -field pfnShaderCacheStoreValueCb
+#### - pfnShaderCacheStoreValueCb
 
 A callback function that stores a shader cache value. 
 

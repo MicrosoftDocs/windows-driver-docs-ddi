@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2732ea9-4fd6-416d-8fb0-1ccf1d1ad0df
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_OVERLAYINFO, _D3DDDI_OVERLAYINFO, display.d3dddi_overlayinfo, D3D_other_Structs_b9046736-50b8-46b1-92c9-5d879ee7c64d.xml, d3dumddi/D3DDDI_OVERLAYINFO, D3DDDI_OVERLAYINFO structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDI_OVERLAYINFO, D3DDDI_OVERLAYINFO, D3DDDI_OVERLAYINFO structure [Display Devices], _D3DDDI_OVERLAYINFO, display.d3dddi_overlayinfo, D3D_other_Structs_b9046736-50b8-46b1-92c9-5d879ee7c64d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _D3DDDI_OVERLAYINFO {
 
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to the resource that is displayed by using the overlay. The resource is created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function with the <b>Overlay</b> bit-field flag set in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure that is pointed to by the <i>pResource</i> parameter.
 
 
-### -field SubResourceIndex
+#### - SubResourceIndex
 
 [in] The index to the subresource if the resource that is specified by the <b>hResource</b> member contains a list of allocations. 
 
 
-### -field DstRect
+#### - DstRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure for the destination rectangle, which contains the output coordinates for the display. 
 
 
-### -field SrcRect
+#### - SrcRect
 
 [in] A RECT structure for the source rectangle that is displayed. 
 
 
-### -field DstColorKeyLow
+#### - DstColorKeyLow
 
 [in] A value for the destination color key when the <b>DstColorKey</b> bit-field flag is set in the <b>Flags</b> member. If the color key is a range, <b>DstColorKeyLow</b> contains the low end of the range. The value is in the native format of the primary surface that is overlayed. 
 
 
-### -field DstColorKeyHigh
+#### - DstColorKeyHigh
 
 [in] The high end of the destination color key range when the <b>DstColorKeyRange</b> bit-field flag is set in <b>Flags</b>. The value is in the native format of the primary surface that is overlayed. 
 
 
-### -field SrcColorKeyLow
+#### - SrcColorKeyLow
 
 [in] A value for the source color key when the <b>SrcColorKey</b> bit-field flag is set in the <b>Flags</b> member. If the color key is a range, <b>SrcColorKeyLow</b> contains the low end of the range. The value is in the native format of the overlay resource that is displayed. 
 
 
-### -field SrcColorKeyHigh
+#### - SrcColorKeyHigh
 
 [in] The high end of the source color key range when the <b>SrcColorKeyRange</b> bit-field flag is set in <b>Flags</b>. The value is in the native format of the overlay resource that is displayed. 
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfoflags.md">D3DDDI_OVERLAYINFOFLAGS</a> structure that identifies the type of overlay operation to perform. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
 
@@ -129,17 +129,17 @@ The <b>SrcColorKey</b>, <b>SrcColorKeyRange</b>, <b>DstColorKey</b>, and <b>DstC
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfoflags.md">D3DDDI_OVERLAYINFOFLAGS</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
 
  
 

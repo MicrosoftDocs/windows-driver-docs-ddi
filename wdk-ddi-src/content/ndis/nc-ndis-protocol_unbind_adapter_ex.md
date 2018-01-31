@@ -74,12 +74,12 @@ NDIS_STATUS ProtocolUnbindAdapterEx(
 
 
 
-### -param UnbindContext [in]
+#### - UnbindContext [in]
 
 The handle that identifies the NDIS context area for this unbind operation.
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
@@ -259,24 +259,24 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
-
-<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
 
 <mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
    OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+
+<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
-
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 <mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
    ProtocolCloseAdapterCompleteEx</i></mshelp:link>

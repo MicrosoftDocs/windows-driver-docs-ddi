@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f0f1221d-3d95-4d4c-acd0-6bcd653241c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDispatchIncomingCloseCall function [Network Drivers Starting with Windows Vista], netvista.ndiscmdispatchincomingclosecall, condis_call_manager_ref_877248ee-cc60-430c-836c-d2580627363f.xml, NdisCmDispatchIncomingCloseCall, ndis/NdisCmDispatchIncomingCloseCall
+ms.keywords: NdisCmDispatchIncomingCloseCall, ndis/NdisCmDispatchIncomingCloseCall, netvista.ndiscmdispatchincomingclosecall, condis_call_manager_ref_877248ee-cc60-430c-836c-d2580627363f.xml, NdisCmDispatchIncomingCloseCall function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ VOID NdisCmDispatchIncomingCloseCall(
 
 
 
-### -param CloseStatus [in]
+#### - CloseStatus [in]
 
 Specifies a CM-determined NDIS_STATUS_<i>XXX</i>, indicating the reason for the disconnect request. During normal network operations, a call
      manager passes NDIS_STATUS_SUCCESS to indicate that it has received a request, initiated by the remote
      party, to close an active call.
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle to the VC of the call being disconnected. This handle was supplied by NDIS
      when the VC was originally created, whether by the call manager or client, with 
      <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>.
 
 
-### -param Buffer [in, optional]
+#### - Buffer [in, optional]
 
 Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
      data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>
 
 
-### -param Size [in]
+#### - Size [in]
 
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
@@ -154,22 +154,22 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
 
 <mshelp:link keywords="netvista.ndiscmdispatchincomingdropparty" tabindex="0"><b>
    NdisCmDispatchIncomingDropParty</b></mshelp:link>
 
-<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 <mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
    NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
+<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
+   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
 
  
 

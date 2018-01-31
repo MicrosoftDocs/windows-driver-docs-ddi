@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, EnumFeatures, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, IPrintCoreUI2::EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCoreUI2 interface
+ms.keywords: print.iprintcoreui2_enumfeatures, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, IPrintCoreUI2::EnumFeatures, IPrintCoreUI2, EnumFeatures, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, EnumFeatures method [Print Devices], prcomoem/IPrintCoreUI2::EnumFeatures, EnumFeatures method [Print Devices], IPrintCoreUI2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,29 +72,29 @@ HRESULT EnumFeatures(
 
 
 
-### -param poemuiobj [in]
+#### - poemuiobj [in]
 
 Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-### -param pmszFeatureList [out]
+#### - pmszFeatureList [out]
 
 Pointer to a caller-supplied buffer that receives a null-delimited list of feature keywords in MULTI_SZ format. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the feature list without having the list filled in.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureList</i>.
 
 
-### -param pcbNeeded [out]
+#### - pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the feature list.
 

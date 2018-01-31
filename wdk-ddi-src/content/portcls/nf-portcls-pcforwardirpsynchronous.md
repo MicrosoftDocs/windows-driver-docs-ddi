@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcForwardIrpSynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous
+ms.keywords: PcForwardIrpSynchronous function [Audio Devices], audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous, PcForwardIrpSynchronous, audio.pcforwardirpsynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcForwardIrpSynchronous
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcForwardIrpSynchronous function
@@ -69,12 +69,12 @@ NTSTATUS PcForwardIrpSynchronous(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the audio device's device object. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be forwarded
 

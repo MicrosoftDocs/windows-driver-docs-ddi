@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf66a04d-0892-4813-9615-845054526125
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml, CompareStorageDuids routine [Storage Devices], storduid/CompareStorageDuids, storage.comparestorageduids, CompareStorageDuids
+ms.keywords: CompareStorageDuids routine [Storage Devices], storduid/CompareStorageDuids, storage.comparestorageduids, storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml, CompareStorageDuids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ __inline DUID_MATCH_STATUS CompareStorageDuids(
 
 
 
-### -param Duid1 [in]
+#### - Duid1 [in]
 
 A pointer to a DUID to compare with the DUID that <i>Duid2</i> points to.
 
 
-### -param Duid2 [in]
+#### - Duid2 [in]
 
 A pointer to a DUID to compare with the DUID that <i>Duid1</i> points to.
 

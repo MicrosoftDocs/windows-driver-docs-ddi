@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory
+ms.keywords: ndis/NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], NdisMAllocateSharedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,23 +73,23 @@ VOID NdisMAllocateSharedMemory(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 Specifies the handle input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes to allocate.
 
 
-### -param Cached [in]
+#### - Cached [in]
 
 This parameter is ignored (cached memory is always used on x86 and x64 systems).
 
 
-### -param VirtualAddress [out]
+#### - VirtualAddress [out]
 
 Pointer to a caller-supplied variable in which this function returns the base virtual address of
      the allocation for use by the miniport driver. If 
@@ -97,7 +97,7 @@ Pointer to a caller-supplied variable in which this function returns the base vi
      was allocated.
 
 
-### -param PhysicalAddress [out]
+#### - PhysicalAddress [out]
 
 Pointer to a caller-supplied variable in which this function returns a physical address, suitable
      for use by the NIC, that corresponds to that returned at 
@@ -232,32 +232,32 @@ If a miniport driver calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
 
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
-
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
-
 <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
+<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
+   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
+   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
  
 

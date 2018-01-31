@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2b80aa77-45b3-4157-8ab5-770c827a536a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxReassociateMid, rxref_0fbfcaf6-383a-48ed-81b1-eed7521df3e7.xml, RxReassociateMid function [Installable File System Drivers], midatlax/RxReassociateMid, ifsk.rxreassociatemid
+ms.keywords: RxReassociateMid function [Installable File System Drivers], midatlax/RxReassociateMid, RxReassociateMid, rxref_0fbfcaf6-383a-48ed-81b1-eed7521df3e7.xml, ifsk.rxreassociatemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS RxReassociateMid(
 TBD
 
 
-### -param Mid
+#### - Mid
 
 The multiplex ID to be mapped.
 
@@ -111,15 +111,15 @@ RDBSS defines a MID as a 16-bit value, which can be used by both the network cli
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
 
 <a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
 
-<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
 
 <a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+
+<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8db151ca-6358-41b0-a96a-e69b9d6c2c95
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PBUS_GENERATION_NODE, PBUS_GENERATION_NODE structure pointer [Buses], BUS_GENERATION_NODE, IEEE.bus_generation_node, *PBUS_GENERATION_NODE, 61883/BUS_GENERATION_NODE, 61883_structures_41921b5c-98f0-4df8-9770-335cc579eb38.xml, BUS_GENERATION_NODE structure [Buses], _BUS_GENERATION_NODE, PBUS_GENERATION_NODE
+ms.keywords: BUS_GENERATION_NODE structure [Buses], *PBUS_GENERATION_NODE, BUS_GENERATION_NODE, IEEE.bus_generation_node, 61883/BUS_GENERATION_NODE, 61883/PBUS_GENERATION_NODE, PBUS_GENERATION_NODE, 61883_structures_41921b5c-98f0-4df8-9770-335cc579eb38.xml, _BUS_GENERATION_NODE, PBUS_GENERATION_NODE structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _BUS_GENERATION_NODE {
 
 
 
-### -field GenerationCount
+#### - GenerationCount
 
 The current bus generation count.
 
 
-### -field LocalNodeAddress
+#### - LocalNodeAddress
 
 The current node address of the local node.
 
 
-### -field DeviceNodeAddress
+#### - DeviceNodeAddress
 
 The current node address of the device.
 

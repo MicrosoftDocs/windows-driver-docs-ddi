@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 770c53bb-5e11-4bd4-a175-6ea6ae0bb782
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WSK_REGISTRATION, wsk/WSK_REGISTRATION, wsk/PWSK_REGISTRATION, *PWSK_REGISTRATION, WSK_REGISTRATION, PWSK_REGISTRATION, wskref_1ad5b68d-5a86-476c-aa04-0f11db552a01.xml, netvista.wsk_registration, WSK_REGISTRATION structure [Network Drivers Starting with Windows Vista], PWSK_REGISTRATION structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: "*PWSK_REGISTRATION, PWSK_REGISTRATION, WSK_REGISTRATION, WSK_REGISTRATION structure [Network Drivers Starting with Windows Vista], PWSK_REGISTRATION structure pointer [Network Drivers Starting with Windows Vista], _WSK_REGISTRATION, wskref_1ad5b68d-5a86-476c-aa04-0f11db552a01.xml, wsk/WSK_REGISTRATION, netvista.wsk_registration, wsk/PWSK_REGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct _WSK_REGISTRATION {
 
 
 
-### -field ReservedRegistrationState
+#### - ReservedRegistrationState
 
 Reserved for system use. Do not use.
 
 
-### -field ReservedRegistrationContext
+#### - ReservedRegistrationContext
 
 Reserved for system use. Do not use.
 
 
-### -field ReservedRegistrationLock
+#### - ReservedRegistrationLock
 
 Reserved for system use. Do not use.
 

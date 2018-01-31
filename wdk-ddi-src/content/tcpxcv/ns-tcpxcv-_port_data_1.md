@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6d2165a7-ee21-4f7d-a03c-f9bed87a3c7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PPORT_DATA_1 structure pointer [Print Devices], spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, PORT_DATA_1 structure [Print Devices], PORT_DATA_1, _PORT_DATA_1, print.port_data_1, PPORT_DATA_1, tcpxcv/PPORT_DATA_1, tcpxcv/PORT_DATA_1, *PPORT_DATA_1
+ms.keywords: tcpxcv/PORT_DATA_1, PORT_DATA_1, PORT_DATA_1 structure [Print Devices], spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, print.port_data_1, tcpxcv/PPORT_DATA_1, _PORT_DATA_1, PPORT_DATA_1, PPORT_DATA_1 structure pointer [Print Devices], *PPORT_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,72 +81,72 @@ typedef struct _PORT_DATA_1 {
 
 
 
-### -field sztPortName
+#### - sztPortName
 
 Specifies the name of the port. The MAX_PORTNAME_LEN constant is defined in tcpxcv.h.
 
 
-### -field dwVersion
+#### - dwVersion
 
 Specifies the version number of the PORT_DATA_1 structure, which is currently 1.
 
 
-### -field dwProtocol
+#### - dwProtocol
 
 Specifies the protocol to use for the port. This value can be either PROTOCOL_RAWTCP_TYPE or PROTOCOL_LPR_TYPE, constants that are defined in tcpxcv.h.
 
 
-### -field cbSize
+#### - cbSize
 
 Specifies the size, in bytes of this structure. Use <b>sizeof</b>(PORT_DATA_1) for this value.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved, must be set to zero.
 
 
-### -field sztHostAddress
+#### - sztHostAddress
 
 Specifies the IP Address or host name of the printer. The MAX_NETWORKNAME_LEN constant is defined in tcpxcv.h.
 
 
-### -field sztSNMPCommunity
+#### - sztSNMPCommunity
 
 Specifies the SNMP community name of the printer. The MAX_SNMP_COMMUNITY_STR_LEN constant is defined in tcpxcv.h.
 
 
-### -field dwDoubleSpool
+#### - dwDoubleSpool
 
 If <b>TRUE</b>, indicates that double spooling is enabled. If <b>FALSE</b>, double spooling is disabled.
 
 
-### -field sztQueue
+#### - sztQueue
 
 Specifies the LPR queue name. The MAX_QUEUENAME_LEN constant is defined in tcpxcv.h.
 
 
-### -field sztIPAddress
+#### - sztIPAddress
 
 Specifies the IP address of the printer. The MAX_IPADDR_STR_LEN constant is defined in tcpxcv.h.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved, must be set to zero.
 
 
-### -field dwPortNumber
+#### - dwPortNumber
 
 Specifies the port number of the device.
 
 
-### -field dwSNMPEnabled
+#### - dwSNMPEnabled
 
 If <b>TRUE</b>, indicates that the device supports Simple Network Management Protocol (SNMP).
 
 
-### -field dwSNMPDevIndex
+#### - dwSNMPDevIndex
 
 Specifies the SNMP device index.
 

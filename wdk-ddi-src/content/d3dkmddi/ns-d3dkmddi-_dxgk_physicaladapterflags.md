@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PHYSICALADAPTERFLAGS, _DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
+ms.keywords: "_DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,12 +76,12 @@ typedef struct _DXGK_PHYSICALADAPTERFLAGS {
 
 
 
-### -field IoMmuSupported
+#### - IoMmuSupported
 
 Indicates that the CPU and GPU share a common address space and common page tables.
 
 
-### -field GpuMmuSupported
+#### - GpuMmuSupported
 
 Indicates that the video memory manager manages the GPU memory management unit and underlying page tables to expose services to the user mode driver.
 
@@ -91,7 +91,7 @@ Indicates that the video memory manager manages the GPU memory management unit a
  
 
 
-### -field VPRPagingContextRequired
+#### - VPRPagingContextRequired
 
 Indicates that the device driver requires that move paging operations done within a Video Protected Region occur on a different paging context than standard paging operations.
 
@@ -101,12 +101,12 @@ Indicates that the device driver requires that move paging operations done withi
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
 
-### -field Value
+#### - Value
 
 The consolidated  value of the bitfield members in this structure.
 

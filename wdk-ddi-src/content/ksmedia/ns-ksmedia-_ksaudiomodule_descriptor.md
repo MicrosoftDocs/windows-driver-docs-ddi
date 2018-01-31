@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3A991D49-B873-4C03-8A5B-D91EB5E63192
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR, _KSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], audio.ksaudiomodule_descriptor, ksmedia/PKSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
+ms.keywords: "_KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR, ksmedia/PKSAUDIOMODULE_DESCRIPTOR, ksmedia/KSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIOMODULE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
+req.typenames: "*PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR"
 ---
 
 # _KSAUDIOMODULE_DESCRIPTOR structure
@@ -71,22 +71,22 @@ typedef struct _KSAUDIOMODULE_DESCRIPTOR {
 
 
 
-### -field ClassId
+#### - ClassId
 
 The ClassId of the audio module. The ClassId is an identifier that establishes what type of module this is. The value and mapping is established by the ISV and IHV.
 
 
-### -field InstanceId
+#### - InstanceId
 
 The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of a module. 
 
 
-### -field VersionMajor
+#### - VersionMajor
 
 The major version of the audio module. Usage is defined by the implementer.
 
 
-### -field VersionMinor
+#### - VersionMinor
 
 The minor version of the audio module.  Usage is defined by the implementer.
 

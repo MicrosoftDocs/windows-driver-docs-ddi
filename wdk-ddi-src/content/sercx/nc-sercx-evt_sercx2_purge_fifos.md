@@ -73,17 +73,17 @@ VOID EvtSerCx2PurgeFifos(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>.
 
 
-### -param PurgeRxFifo [in]
+#### - PurgeRxFifo [in]
 
 Whether to purge the receive FIFO. If this parameter is set to <b>TRUE</b>, purge the receive FIFO. If <b>FALSE</b>, do not purge the receive FIFO.
 
 
-### -param PurgeTxFifo [in]
+#### - PurgeTxFifo [in]
 
 Whether to purge the transmit FIFO. If this parameter is set to <b>TRUE</b>, purge the transmit FIFO. If <b>FALSE</b>, do not purge the transmit FIFO.
 

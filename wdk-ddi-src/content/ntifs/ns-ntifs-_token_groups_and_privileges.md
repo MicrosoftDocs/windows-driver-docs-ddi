@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 27d4793d-bdb4-46c5-b6e4-a2136e899adc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.token_groups_and_privileges, ntifs/TOKEN_GROUPS_AND_PRIVILEGES, _TOKEN_GROUPS_AND_PRIVILEGES, ntifs/PTOKEN_GROUPS_AND_PRIVILEGES, securitystructures_4cab5ceb-66b1-4445-a9b0-a428fc628ab5.xml, PTOKEN_GROUPS_AND_PRIVILEGES, PTOKEN_GROUPS_AND_PRIVILEGES structure pointer [Installable File System Drivers], *PTOKEN_GROUPS_AND_PRIVILEGES, TOKEN_GROUPS_AND_PRIVILEGES, TOKEN_GROUPS_AND_PRIVILEGES structure [Installable File System Drivers]
+ms.keywords: "_TOKEN_GROUPS_AND_PRIVILEGES, ntifs/TOKEN_GROUPS_AND_PRIVILEGES, ntifs/PTOKEN_GROUPS_AND_PRIVILEGES, PTOKEN_GROUPS_AND_PRIVILEGES, TOKEN_GROUPS_AND_PRIVILEGES structure [Installable File System Drivers], TOKEN_GROUPS_AND_PRIVILEGES, ifsk.token_groups_and_privileges, PTOKEN_GROUPS_AND_PRIVILEGES structure pointer [Installable File System Drivers], *PTOKEN_GROUPS_AND_PRIVILEGES, securitystructures_4cab5ceb-66b1-4445-a9b0-a428fc628ab5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TOKEN_GROUPS_AND_PRIVILEGES
 product: Windows
 targetos: Windows
-req.typenames: "*PTOKEN_GROUPS_AND_PRIVILEGES, TOKEN_GROUPS_AND_PRIVILEGES"
+req.typenames: TOKEN_GROUPS_AND_PRIVILEGES, *PTOKEN_GROUPS_AND_PRIVILEGES
 ---
 
 # _TOKEN_GROUPS_AND_PRIVILEGES structure
@@ -76,93 +76,93 @@ typedef struct _TOKEN_GROUPS_AND_PRIVILEGES {
 
 
 
-### -field SidCount
+#### - SidCount
 
 Specifies the number of SIDs in the access token. 
 
 
-### -field SidLength
+#### - SidLength
 
 Specifies the length, in bytes, required to hold all of the user SIDs and the account SID for the group. 
 
 
-### -field Sids
+#### - Sids
 
 A pointer to SID_AND_ATTRIBUTES structures that contain a set of SIDs and corresponding attributes. 
 
 
-### -field RestrictedSidCount
+#### - RestrictedSidCount
 
 Specifies the number of the restricted SIDs included in the access token. 
 
 
-### -field RestrictedSidLength
+#### - RestrictedSidLength
 
 Specifies the length, in bytes, required to hold all of the restricted SIDs. 
 
 
-### -field RestrictedSids
+#### - RestrictedSids
 
 A pointer to <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a> structures that contain a set of restricted SIDs and corresponding attributes. 
 
 
-### -field PrivilegeCount
+#### - PrivilegeCount
 
 Specifies the number of privileges included in the access token. 
 
 
-### -field PrivilegeLength
+#### - PrivilegeLength
 
 Specifies the length, in bytes, needed to hold all of the privileges. 
 
 
-### -field Privileges
+#### - Privileges
 
 A pointer to <a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a> structures that contain a set of privileges. 
 
 
-### -field AuthenticationId
+#### - AuthenticationId
 
 The locally unique identifier (LUID) of the authenticator of the token. 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
 
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-
 <a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
-
-<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
-
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
 
 <a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
 
 <a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
 
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
 <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
+
+<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+
+<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
+
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
+<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 

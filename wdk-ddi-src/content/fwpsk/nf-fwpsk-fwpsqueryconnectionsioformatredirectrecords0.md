@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE24409D-AA60-4694-8855-AB2B0F6B1635
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], FwpsQueryConnectionSioFormatRedirectRecords0, fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
+ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], netvista.fwpsqueryconnectionsioformatredirectrecords0, FwpsQueryConnectionSioFormatRedirectRecords0, fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,24 +73,24 @@ NTSTATUS FwpsQueryConnectionSioFormatRedirectRecords0(
 
 
 
-### -param RedirectRecords [in]
+#### - RedirectRecords [in]
 
 The redirect records handle that the  ALE_CONNECT_REDIRECT callout function received in the  <i>inMetaValues</i> parameter of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function. This handle can be found in the <b>redirectRecords</b>   member of the <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a> structure.
 
 A WFP redirect record is a buffer of opaque data that WFP must set on an outbound proxy connection so that the redirected connection and the original connection are logically related.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 A pointer to an output buffer that receives the redirect records. The buffer must be pointer-aligned.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 The size, in bytes, of the output buffer.
 
 
-### -param BytesTransferred [out, optional]
+#### - BytesTransferred [out, optional]
 
 A pointer to a variable that receives the number of bytes that were transferred. If the return value is <b>STATUS_BUFFER_TOO_SMALL</b>, this parameter receives the required buffer size.
 
@@ -143,17 +143,17 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
 
 <a href="https://msdn.microsoft.com/0AC78ED4-A6EC-4D62-919C-1EF7CDE8EE80">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859713">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+<a href="https://msdn.microsoft.com/E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
 
  
 

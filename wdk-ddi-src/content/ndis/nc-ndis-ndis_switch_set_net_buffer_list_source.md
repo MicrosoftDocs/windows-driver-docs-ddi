@@ -76,7 +76,7 @@ NDIS_STATUS SetNetBufferListSource(
 
 
 
-### -param NdisSwitchContext [in]
+#### - NdisSwitchContext [in]
 
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
@@ -85,12 +85,12 @@ An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch m
 
 
 
-### -param PortId [in]
+#### - PortId [in]
 
 An NDIS_SWITCH_PORT_ID value that specifies the unique identifier of the source port on the extensible switch.
 
 
-### -param NicIndex [in]
+#### - NicIndex [in]
 
 An NDIS_SWITCH_NIC_INDEX value that specifies the index of the network adapter that is connected to the extensible switch port specified by the <i>PortId</i> parameter.
 
@@ -139,13 +139,13 @@ For example, a packet that has a source port identifier of <b>NDIS_SWITCH_DEFAUL
 
 <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">NdisAllocateCloneNetBufferList</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <b></b>
 

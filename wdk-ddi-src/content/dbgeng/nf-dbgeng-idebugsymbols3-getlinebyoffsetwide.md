@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e780be4b-ac62-43c2-9767-7745ff1c7dbb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetLineByOffsetWide, debugger.getlinebyoffsetwide, IDebugSymbols3::GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetLineByOffsetWide method, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols3::GetLineByOffsetWide, GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3::GetLineByOffsetWide, debugger.getlinebyoffsetwide, GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetLineByOffsetWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetLineByOffsetWide(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's virtual address space of the instruction for which to return the source file and line number.
 
 
-### -param Line [out, optional]
+#### - Line [out, optional]
 
 Receives the line number within the source file of the instruction specified by <i>Offset</i>.  If <i>Line</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FileBuffer [out, optional]
+#### - FileBuffer [out, optional]
 
 Receives the file name of the file that contains the instruction specified by <i>Offset</i>.  If <i>FileBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FileBufferSize [in]
+#### - FileBufferSize [in]
 
 Specifies the size, in characters, of the <i>FileBuffer</i> buffer.
 
 
-### -param FileSize [out, optional]
+#### - FileSize [out, optional]
 
 Specifies the size, in characters, of the source filename.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Displacement [out, optional]
+#### - Displacement [out, optional]
 
 Receives the difference between the location specified in <i>Offset</i> and the location of the first instruction of the returned line.  If <i>Displacement</i> is <b>NULL</b>, this information is not returned.
 

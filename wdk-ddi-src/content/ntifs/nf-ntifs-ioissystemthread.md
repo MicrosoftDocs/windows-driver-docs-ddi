@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1f3dc15f-14b5-4797-83be-ba3a01a1551b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoIsSystemThread, ntifs/IoIsSystemThread, ioref_3e14f3af-c985-43a4-bc57-927483597c79.xml, IoIsSystemThread routine [Installable File System Drivers], ifsk.ioissystemthread
+ms.keywords: IoIsSystemThread routine [Installable File System Drivers], IoIsSystemThread, ifsk.ioissystemthread, ioref_3e14f3af-c985-43a4-bc57-927483597c79.xml, ntifs/IoIsSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN IoIsSystemThread(
 
 
 
-### -param Thread [in]
+#### - Thread [in]
 
 Pointer to the thread to be checked. 
 
@@ -88,9 +88,9 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
-
 <a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
  
 

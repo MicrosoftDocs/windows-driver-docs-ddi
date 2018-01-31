@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d024da2c-9629-4907-98b8-a29dc6022ac0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedRemoveHeadList, k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedRemoveHeadList
+ms.keywords: kernel.exinterlockedremoveheadlist, k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, wdm/ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], ExInterlockedRemoveHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PLIST_ENTRY ExInterlockedRemoveHeadList(
 
 
 
-### -param ListHead [in, out]
+#### - ListHead [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that serves as the list header.
 
 
-### -param Lock [in, out]
+#### - Lock [in, out]
 
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
@@ -99,15 +99,15 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
  
 

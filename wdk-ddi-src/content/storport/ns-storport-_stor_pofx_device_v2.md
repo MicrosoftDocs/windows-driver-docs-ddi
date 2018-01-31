@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1AD3B5E6-CF90-49D2-8FF7-FE309E4331CE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], PSTOR_POFX_DEVICE_V2, storport/PSTOR_POFX_DEVICE_V2, storage.stor_pofx_device_v2, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, storport/STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_V2 structure [Storage Devices], _STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_D3
+ms.keywords: storage.stor_pofx_device_v2, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, storport/PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_V2 structure [Storage Devices], PSTOR_POFX_DEVICE_V2, storport/STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_V2, _STOR_POFX_DEVICE_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POFX_DEVICE_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2"
+req.typenames: STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2
 req.product: Windows 10 or later.
 ---
 
@@ -76,32 +76,32 @@ typedef struct _STOR_POFX_DEVICE_V2 {
 
 
 
-### -field UnitMinIdleTimeoutInMS
+#### - UnitMinIdleTimeoutInMS
 
 The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
 
 
-### -field AdapterIdleTimeoutInMS
+#### - AdapterIdleTimeoutInMS
 
 The adapter idle timeout value in milliseconds. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
 
 
-### -field Version
+#### - Version
 
 The version number of this structure. Set this member to <b>STOR_POFX_DEVICE_VERSION_V2</b>.
 
 
-### -field Size
+#### - Size
 
 The size of this structure. Set this value to <b>STOR_POFX_DEVICE_SIZE</b>.
 
 
-### -field ComponentCount
+#### - ComponentCount
 
 The number of elements in the <b>Components</b> array. Set this member to 1. Currently, only a single component is supported for either a storage adapter or logical unit.
 
 
-### -field Flags
+#### - Flags
 
 The device power state capabilities flags. The miniport sets one or more of the PoFx device flags to enable or disable power state capabilities.
 
@@ -169,7 +169,7 @@ The timeout value in <b>UnitMinIdleTimeoutInMS</b>  or <b>AdapterIdleTimeoutInMS
 </table> 
 
 
-### -field Components
+#### - Components
 
 This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
@@ -189,9 +189,9 @@ The component for the storage device identified by its <b>Components</b> array i
 
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
-<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
-
 <a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+
+<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 

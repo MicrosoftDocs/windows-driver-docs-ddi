@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05e4fb47-38ef-4b46-a1bb-220c5b1a63ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_4429c61b-96d5-48cb-9ff0-5b0e3f01e0ec.xml, wdm/ClfsAllocReservedLog, ClfsAllocReservedLog, kernel.clfsallocreservedlog, ClfsAllocReservedLog routine [Kernel-Mode Driver Architecture]
+ms.keywords: Clfs_4429c61b-96d5-48cb-9ff0-5b0e3f01e0ec.xml, ClfsAllocReservedLog routine [Kernel-Mode Driver Architecture], wdm/ClfsAllocReservedLog, kernel.clfsallocreservedlog, ClfsAllocReservedLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS ClfsAllocReservedLog(
 
 
 
-### -param pvMarshalContext [in]
+#### - pvMarshalContext [in]
 
 A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
-### -param cRecords [in]
+#### - cRecords [in]
 
 The number of records in the set. This value must match the value of <i>cRecords</i> previously passed to <a href="..\wdm\nf-wdm-clfsalignreservedlog.md">ClfsAlignReservedLog</a>.
 
 
-### -param pcbAdjustment [in]
+#### - pcbAdjustment [in]
 
 A pointer to a LONGLONG-typed variable that supplies the size, in bytes, of the reservation that will hold all the records in the set. The caller previously obtained this size by calling <a href="..\wdm\nf-wdm-clfsalignreservedlog.md">ClfsAlignReservedLog</a>.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 55B9F032-A3F5-434E-9EB6-CB832DC0EB45
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSCAMERA_PROFILE_MEDIAINFO, ksmedia/KSCAMERA_PROFILE_MEDIAINFO, stream.kscamera_profile_mediainfo, _KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, *PKSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices]
+ms.keywords: ksmedia/KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, *PKSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices], PKSCAMERA_PROFILE_MEDIAINFO, _KSCAMERA_PROFILE_MEDIAINFO, stream.kscamera_profile_mediainfo, KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices], ksmedia/PKSCAMERA_PROFILE_MEDIAINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ typedef struct _KSCAMERA_PROFILE_MEDIAINFO {
 
 
 
-### -field Resolution
+#### - Resolution
 
 The X (horizontal) and Y (vertical) frame size in pixels.
 
@@ -94,7 +94,7 @@ The X (horizontal) and Y (vertical) frame size in pixels.
  
 
 
-### -field MaxFrameRate
+#### - MaxFrameRate
 
 The numerator/denominator ratio of frame rate (for example, 30 / 1 = 30fps).  This frame rate represents the maximum frame rate of the specified resolution under ideal lighting conditions.  Actual frame rate may be lower than this value.
 
@@ -111,7 +111,7 @@ For photo media information, if photo sequence cannot be enabled because of hard
  
 
 
-### -field Flags
+#### - Flags
 
 The  bitwise OR of one or more of the following flags:
 <ul>
@@ -135,22 +135,22 @@ This flag may only be set for media info on the photo pin.  Presence of this fla
 </li>
 </ul>
 
-### -field Data0
+#### - Data0
 
 Reserved. Must be set to 0.
 
 
-### -field Data1
+#### - Data1
 
 Reserved. Must be set to 0.
 
 
-### -field Data2
+#### - Data2
 
 Reserved. Must be set to 0.
 
 
-### -field Data3
+#### - Data3
 
 Reserved. Must be set to 0.
 

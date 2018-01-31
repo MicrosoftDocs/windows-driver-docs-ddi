@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed9a5391-135d-4ac2-8b72-6a92d3ff9998
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], avcstrm/PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT, _AVCSTRM_BUFFER_STRUCT, avcstrm/AVCSTRM_BUFFER_STRUCT, PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], PAVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, *PAVCSTRM_BUFFER_STRUCT, stream.avcstrm_buffer_struct
+ms.keywords: PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], stream.avcstrm_buffer_struct, PAVCSTRM_BUFFER_STRUCT, _AVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, *PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], avcstrm/PAVCSTRM_BUFFER_STRUCT, avcstrm/AVCSTRM_BUFFER_STRUCT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVCSTRM_BUFFER_STRUCT
 product: Windows
 targetos: Windows
-req.typenames: "*PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT"
+req.typenames: AVCSTRM_BUFFER_STRUCT, *PAVCSTRM_BUFFER_STRUCT
 ---
 
 # _AVCSTRM_BUFFER_STRUCT structure
@@ -71,27 +71,27 @@ typedef struct _AVCSTRM_BUFFER_STRUCT {
 
 
 
-### -field ClockProvider
+#### - ClockProvider
 
 Indicates whether the subunit driver itself serves as a clock provider. This is <b>TRUE</b> if this stream also serves as a clock provider, Otherwise, this is <b>FALSE</b>.
 
 
-### -field ClockHandle
+#### - ClockHandle
 
 Specifies a handle to a clock provider other than the subunit driver itself.
 
 
-### -field StreamHeader
+#### - StreamHeader
 
 Pointer to a kernel streaming header that describes a packet of data to be read from or written to a streaming driver pin.
 
 
-### -field FrameBuffer
+#### - FrameBuffer
 
 Pointer to a nonpaged system-space virtual address for the buffer described by the MDL.
 
 
-### -field Context
+#### - Context
 
 Pointer to a client context value.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CD51FBD6-A589-4135-8BF0-8F0075654A05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_WIM_PROVIDER_EXTERNAL_INFO, ntifs/PWIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO structure pointer [Installable File System Drivers], ifsk.wim_provider_external_info, PWIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO structure [Installable File System Drivers], ntifs/WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, *PWIM_PROVIDER_EXTERNAL_INFO"
+ms.keywords: PWIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, ntifs/WIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO structure pointer [Installable File System Drivers], ntifs/PWIM_PROVIDER_EXTERNAL_INFO, ifsk.wim_provider_external_info, _WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO structure [Installable File System Drivers], WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _WIM_PROVIDER_EXTERNAL_INFO {
 
 
 
-### -field Version
+#### - Version
 
 The WIM provider version. Set to WIM_PROVIDER_CURRENT_VERSION.
 
 
-### -field Flags
+#### - Flags
 
 The status flags for the WIM provider. Set to 0 when active. Otherwise <b>Flags</b> is set to one of the following values.
 <table>
@@ -106,12 +106,12 @@ Indicates that the provider is dismounted. Recovery will be attempted.
 </table> 
 
 
-### -field DataSourceId
+#### - DataSourceId
 
 An identifier value for the WIM file data source.
 
 
-### -field ResourceHash
+#### - ResourceHash
 
 An identifier for the object contained within the WIM.  Conventionally a hash of the contents of a file, stored within the WIM.
 

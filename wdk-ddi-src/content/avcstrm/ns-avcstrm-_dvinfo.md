@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3afd372f-556f-4c3a-804b-9bf7a8c9a438
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, avcstrm/PDVINFO, stream.dvinfo, *PDVINFO, PDVINFO, avcstrm/DVINFO, PDVINFO structure pointer [Streaming Media Devices], DVINFO structure [Streaming Media Devices], _DVINFO, DVINFO
+ms.keywords: DVINFO structure [Streaming Media Devices], PDVINFO, stream.dvinfo, _DVINFO, *PDVINFO, avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, PDVINFO structure pointer [Streaming Media Devices], avcstrm/DVINFO, DVINFO, avcstrm/PDVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _DVINFO {
 
 
 
-### -field dwDVAAuxSrc
+#### - dwDVAAuxSrc
 
 Specifies the Audio Auxiliary Data Source Pack for the first audio block (first 5 DV DIF sequences for 525-60 systems or 6 DV DIF sequences for 625-50 systems) of a frame. A DIF sequence is a data block that contains 150 DIF blocks. A DIF block consists of 80 bytes. The Audio Auxiliary Data Source Pack is defined in section D.7.1 of Part 2, Annex D, "The Pack Header Table and Contents of Packs" of the <i>Specification of Consumer-use Digital VCRs</i>.
 
 
-### -field dwDVAAuxCtl
+#### - dwDVAAuxCtl
 
 Specifies the Audio Auxiliary Data Source Control Pack for the first audio block of a frame. The Audio Auxiliary Data Control Pack is defined in section D.7.2 of Part 2, Annex D, "The Pack Header Table and Contents of Packs" of the <i>Specification of Consumer-use Digital VCRs</i>.
 
 
-### -field dwDVAAuxSrc1
+#### - dwDVAAuxSrc1
 
 Specifies the Audio Auxiliary Data Source Pack for the second audio block (second 5 DV DIF sequences for 525-60 systems or 6 DV DIF sequences for 625-50 systems) of a frame.
 
 
-### -field dwDVAAuxCtl1
+#### - dwDVAAuxCtl1
 
 Specifies the Audio Auxiliary Data Source Control Pack for the second audio block of a frame.
 
 
-### -field dwDVVAuxSrc
+#### - dwDVVAuxSrc
 
 Specifies the Video Auxiliary Data Source Pack as defined in section D.8.1 of Part 2, Annex D, "The Pack Header Table and Contents of Packs" of the <i>Specification of Consumer-use Digital VCRs</i>.
 
 
-### -field dwDVVAuxCtl
+#### - dwDVVAuxCtl
 
 Specifies the Video Auxiliary Data Source Control Pack as defined in section D.8.2 of Part 2, Annex D, "The Pack Header Table and Contents of Packs" of the <i>Specification of Consumer-use Digital VCRs</i>. 
 
 
-### -field dwDVReserved
+#### - dwDVReserved
 
 Reserved. This must be set to 0. Do not use this.
 

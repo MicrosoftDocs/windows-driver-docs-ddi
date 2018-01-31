@@ -69,12 +69,12 @@ LONG InterlockedXor(
 
 
 
-### -param Destination [in, out]
+#### - Destination [in, out]
 
 A pointer to the variable to be exclusive ORed with <i>Value</i>. The result of the operation is stored in the variable. 
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the value to be exclusive ORed with the variable that is pointed to by <i>Destination</i>. 
 
@@ -97,9 +97,9 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedor.md">InterlockedOr</a>
-
 <a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
+
+<a href="..\wdm\nf-wdm-interlockedor.md">InterlockedOr</a>
 
  
 

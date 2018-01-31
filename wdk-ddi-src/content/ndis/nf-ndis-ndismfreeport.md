@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 38d53977-ada2-41b9-8b6a-a3bd691f4525
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMFreePort, ndis_ports_ref_b5b73dda-9bc0-4d7d-a265-d50d1436c8f4.xml, NdisMFreePort function [Network Drivers Starting with Windows Vista], ndis/NdisMFreePort, netvista.ndismfreeport
+ms.keywords: ndis_ports_ref_b5b73dda-9bc0-4d7d-a265-d50d1436c8f4.xml, ndis/NdisMFreePort, NdisMFreePort function [Network Drivers Starting with Windows Vista], netvista.ndismfreeport, NdisMFreePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NDIS_STATUS NdisMFreePort(
 TBD
 
 
-### -param PortNumber [in]
+#### - PortNumber [in]
 
 The number of the NDIS port that NDIS should free. The 
      <i>PortNumber</i> value is an NDIS_PORT_NUMBER value, which has a ULONG data type. NDIS provided the port
@@ -179,15 +179,15 @@ The miniport driver must not attempt to free the default port.
 
 <a href="https://msdn.microsoft.com/ae7b608d-6105-4fdc-b805-0f0101d7c218">Freeing an NDIS Port</a>
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
 <a href="https://msdn.microsoft.com/a9edf83f-9226-4c75-a04e-1879a05df24c">Default NDIS Port</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
  
 

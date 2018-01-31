@@ -71,7 +71,7 @@ NTSTATUS APIENTRY DxgkDdiMapCpuHostAperture(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle to the display adapter.
 

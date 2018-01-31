@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltQueryDirectoryFile, fltkernel/FltQueryDirectoryFile, ifsk.fltquerydirectoryfile, FltQueryDirectoryFile routine [Installable File System Drivers], FltApiRef_p_to_z_d91e48f4-f6a2-4f36-a5f6-9e39821446c2.xml
+ms.keywords: FltQueryDirectoryFile routine [Installable File System Drivers], FltApiRef_p_to_z_d91e48f4-f6a2-4f36-a5f6-9e39821446c2.xml, ifsk.fltquerydirectoryfile, fltkernel/FltQueryDirectoryFile, FltQueryDirectoryFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NTSTATUS FltQueryDirectoryFile(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque pointer to the minifilter driver instance that initiates the I/O.
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to the file object that represents the directory to be scanned.
 
 
-### -param FileInformation [out]
+#### - FileInformation [out]
 
 Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the <i>FileInformationClass</i> parameter.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Size, in bytes, of the buffer pointed to by <i>FileInformation</i>. The caller should set this parameter according to the given <i>FileInformationClass</i>.
 
 
-### -param FileInformationClass [in]
+#### - FileInformationClass [in]
 
 Type of information to be returned about files in the directory. One of the values in the following table can be used.
 <table>
@@ -186,24 +186,24 @@ Return a single FILE_REPARSE_POINT_INFORMATION structure for the directory.
 </table> 
 
 
-### -param ReturnSingleEntry [in]
+#### - ReturnSingleEntry [in]
 
 Set to <b>TRUE</b> if only a single entry should be returned, <b>FALSE</b> otherwise. If this parameter is <b>TRUE</b>, <b>FltQueryDirectoryFile</b> returns only the first entry that is found.
 
 
-### -param FileName [in, optional]
+#### - FileName [in, optional]
 
 Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by <i>FileObject</i>. This parameter is optional and can be <b>NULL</b>. 
 
 If <i>FileName</i> is not <b>NULL</b>, only files whose names match the <i>FileName</i> string are included in the directory scan. If <i>FileName</i> is <b>NULL</b>, all files are included. If <i>RestartScan</i> is <b>FALSE</b>, the value of <i>FileName</i> is ignored.
 
 
-### -param RestartScan [in]
+#### - RestartScan [in]
 
 Set to <b>TRUE</b> if the scan is to start at the first entry in the directory. Set to <b>FALSE</b> if resuming the scan from a previous call. The caller must set this parameter to <b>TRUE</b> when calling <b>FltQueryDirectoryFile </b>for the first time.
 
 
-### -param LengthReturned [out, optional]
+#### - LengthReturned [out, optional]
 
 Receives the number of bytes actually written to the given <i>FileInformation</i> buffer.
 
@@ -261,29 +261,29 @@ Callers of <b>FltQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
 <a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTORY_INFORMATION</a>
 
 <a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
 
+<a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR_INFORMATION</a>
+
+<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
+
 <a href="..\ntifs\ns-ntifs-_file_full_dir_information.md">FILE_FULL_DIR_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-
-<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTORY_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
  
 

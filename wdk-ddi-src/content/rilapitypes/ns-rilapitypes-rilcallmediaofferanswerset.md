@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 272e2bf5-9d84-407d-9126-41bcb4f43d91
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET, netvista.rilcallmediaofferanswerset_2"
+ms.keywords: rilapitypes/RILCALLMEDIAOFFERANSWERSET, *LPRILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswerset_2, RILCALLMEDIAOFFERANSWERSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,18 @@ typedef struct _RILCALLMEDIAOFFERANSWERSET {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwType
+#### - dwType
 
 
 
-### -field dwNumberOfItems
+#### - dwNumberOfItems
 
 
 
-### -field stOfferAnswer
+#### - stOfferAnswer
 
 

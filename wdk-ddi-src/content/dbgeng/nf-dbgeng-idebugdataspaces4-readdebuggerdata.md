@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 54e4d3b9-db9d-4844-938f-c8ca8819d182
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4::ReadDebuggerData, IDebugDataSpaces3::ReadDebuggerData, IDebugDataSpaces2 interface [Windows Debugging], ReadDebuggerData method, dbgeng/IDebugDataSpaces2::ReadDebuggerData, dbgeng/IDebugDataSpaces3::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces_618b8518-3e32-4518-8e4b-38f66484d554.xml, IDebugDataSpaces interface [Windows Debugging], ReadDebuggerData method, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadDebuggerData method, ReadDebuggerData, IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], ReadDebuggerData method, debugger.readdebuggerdata, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::ReadDebuggerData, ReadDebuggerData method [Windows Debugging]
+ms.keywords: ReadDebuggerData, IDebugDataSpaces interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces3 interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces4, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces_618b8518-3e32-4518-8e4b-38f66484d554.xml, IDebugDataSpaces2::ReadDebuggerData, IDebugDataSpaces3::ReadDebuggerData, debugger.readdebuggerdata, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces2 interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces4::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], ReadDebuggerData method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces4::ReadDebuggerData, dbgeng/IDebugDataSpaces3::ReadDebuggerData, dbgeng/IDebugDataSpaces2::ReadDebuggerData, IDebugDataSpaces4 interface [Windows Debugging], ReadDebuggerData method, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces::ReadDebuggerData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ HRESULT ReadDebuggerData(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the data to retrieve.  The following values are valid:
 <table>
@@ -1614,17 +1614,17 @@ Returns the address of the kernel variable <b>KdPrintBufferSize</b>.
 </table> 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the value of the specified debugger data.  The "Return Type" column in the above table specifies the data type that is returned.  The data can be accessed by casting <i>Buffer</i> to a pointer to that type.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.
 
 
-### -param DataSize [out, optional]
+#### - DataSize [out, optional]
 
 Receives the number of bytes used in the buffer <i>Buffer</i>.  If <i>DataSize</i> is <b>NULL</b>, this information is not returned.
 

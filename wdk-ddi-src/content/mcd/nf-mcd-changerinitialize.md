@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7cb90d35-53e5-4c73-a1f5-9fc3f99cf1b2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerInitialize function [Storage Devices], ChangerInitialize, storage.changerinitialize, mcd/ChangerInitialize, chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml
+ms.keywords: ChangerInitialize, mcd/ChangerInitialize, storage.changerinitialize, chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, ChangerInitialize function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS ChangerInitialize(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object created by the changer class driver to represent this changer. 
 

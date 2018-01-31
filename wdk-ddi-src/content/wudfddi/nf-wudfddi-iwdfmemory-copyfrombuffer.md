@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e56186-f801-4684-8919-236d2429310f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CopyFromBuffer method, IWDFMemory interface, CopyFromBuffer method, IWDFMemory, IWDFMemory::CopyFromBuffer, umdf.iwdfmemory_copyfrombuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, CopyFromBuffer, IWDFMemory interface, CopyFromBuffer method, wdf.iwdfmemory_copyfrombuffer, wudfddi/IWDFMemory::CopyFromBuffer
+ms.keywords: UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, IWDFMemory interface, CopyFromBuffer method, wdf.iwdfmemory_copyfrombuffer, umdf.iwdfmemory_copyfrombuffer, IWDFMemory::CopyFromBuffer, IWDFMemory, CopyFromBuffer, CopyFromBuffer method, CopyFromBuffer method, IWDFMemory interface, wudfddi/IWDFMemory::CopyFromBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory.CopyFromBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ HRESULT CopyFromBuffer(
 
 
 
-### -param DestOffset [in]
+#### - DestOffset [in]
 
 The offset, in bytes, into the memory object to start to copy data to.
 
@@ -82,7 +82,7 @@ The offset, in bytes, into the memory object to start to copy data to.
 
 
 
-### -param NumOfBytesToCopyFrom [in]
+#### - NumOfBytesToCopyFrom [in]
 
 The number of bytes to copy from the buffer that <i>pSourceBuffer</i> points to.
 
@@ -101,9 +101,9 @@ A pointer to the source buffer that data is copied from.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
  
 

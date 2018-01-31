@@ -76,7 +76,7 @@ UINT APIENTRY* pfnGetDecodeFormatCount(
 
 
 
-### -param NodeIndex
+#### - NodeIndex
 
 The physical adapter of the device to which this operation applies.
 

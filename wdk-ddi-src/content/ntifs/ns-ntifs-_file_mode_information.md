@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_mode_information, ntifs/PFILE_MODE_INFORMATION, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, _FILE_MODE_INFORMATION, FILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_MODE_INFORMATION, ntifs/FILE_MODE_INFORMATION, PFILE_MODE_INFORMATION
+ms.keywords: FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MODE_INFORMATION, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, *PFILE_MODE_INFORMATION, kernel.file_mode_information, ntifs/PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntifs/FILE_MODE_INFORMATION, PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_MODE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION"
+req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
 ---
 
 # _FILE_MODE_INFORMATION structure
@@ -67,7 +67,7 @@ typedef struct _FILE_MODE_INFORMATION {
 
 
 
-### -field Mode
+#### - Mode
 
 Specifies the mode in which the file will be accessed following a create-file or open-file operation. This parameter is either zero or the bitwise OR of one or more of the following file option flags:
 

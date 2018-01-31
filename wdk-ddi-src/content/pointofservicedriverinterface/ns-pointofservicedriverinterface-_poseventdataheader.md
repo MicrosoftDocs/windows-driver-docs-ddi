@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posbarcodescannerimageprevieweventdata, PosBarcodeScannerImagePreviewEventData, PosEventDataHeader structure, PosBarcodeScannerImagePreviewEventData structure, pointofservicedriverinterface/PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosEventDataHeader, _PosEventDataHeader
+ms.keywords: PosEventDataHeader, pointofservicedriverinterface/PosEventDataHeader, PosBarcodeScannerImagePreviewEventData structure, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, _PosEventDataHeader, PosBarcodeScannerImagePreviewEventData, pos.posbarcodescannerimageprevieweventdata, PosEventDataHeader structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PosEventDataHeader {
 
 
 
-### -field EventType
+#### - EventType
 
 The type of event. For the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757466">BarcodeScannerImagePreviewReceived</a> event the value of this field is <b>BarcodeScannerImagePreviewReceived</b>.
 
 
-### -field DataLength
+#### - DataLength
 
 The length, in bytes, of the image preview data.
 

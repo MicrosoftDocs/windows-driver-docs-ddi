@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 828c4c42-a74f-4737-b850-5c8299e5afd6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVAHDDDI_CUSTOM_RATE_DATA, DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, display.dxvahdddi_custom_rate_data, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA"
+ms.keywords: "_DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA, display.dxvahdddi_custom_rate_data, DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
 
 
 
-### -field CustomRate
+#### - CustomRate
 
 
       [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the input and output frame rate. 
      
 
 
-### -field OutputFrames
+#### - OutputFrames
 
 [in] The number of frames that the driver outputs. 
 
 
-### -field InputInterlaced
+#### - InputInterlaced
 
 [in] A Boolean value that specifies whether the input stream is progressive (frame) or interlaced (field). 
 
 
-### -field InputFramesOrFields
+#### - InputFramesOrFields
 
 [in] The number of the input frames or fields. 
 

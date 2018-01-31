@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], MESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], storport/PMESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, storage.message_interrupt_information, _MESSAGE_INTERRUPT_INFORMATION, storport/MESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION
+ms.keywords: storage.message_interrupt_information, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, storport/PMESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], storport/MESSAGE_INTERRUPT_INFORMATION, _MESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MESSAGE_INTERRUPT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION"
+req.typenames: MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ typedef struct _MESSAGE_INTERRUPT_INFORMATION {
 
 
 
-### -field MessageId
+#### - MessageId
 
 An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes. 
 
 
-### -field MessageData
+#### - MessageData
 
 The data associated with the message. 
 
 
-### -field MessageAddress
+#### - MessageAddress
 
 The physical address associated with the message. 
 
 
-### -field InterruptVector
+#### - InterruptVector
 
 The interrupt vector associated with the message. 
 
 
-### -field InterruptLevel
+#### - InterruptLevel
 
 The interrupt level associated with the message. 
 
 
-### -field InterruptMode
+#### - InterruptMode
 
 A value of type <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
 

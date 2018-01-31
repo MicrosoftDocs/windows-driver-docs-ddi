@@ -40,7 +40,7 @@ apiname:
 -	UcxInitializeDeviceInit
 product: Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+req.typenames: "*PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ NTSTATUS UcxInitializeDeviceInit(
 
 
 
-### -param DeviceInit [in, out]
+#### - DeviceInit [in, out]
 
 A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. 
 

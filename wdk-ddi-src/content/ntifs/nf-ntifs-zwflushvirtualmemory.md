@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtFlushVirtualMemory, NtFlushVirtualMemory, kernel.zwflushvirtualmemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/ZwFlushVirtualMemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, ZwFlushVirtualMemory
+ms.keywords: ZwFlushVirtualMemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, ntifs/ZwFlushVirtualMemory, ntifs/NtFlushVirtualMemory, kernel.zwflushvirtualmemory, NtFlushVirtualMemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS ZwFlushVirtualMemory(
 
 
 
-### -param ProcessHandle [in]
+#### - ProcessHandle [in]
 
 An open handle for the process in whose context the pages to be flushed reside. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process. 
 
 
-### -param BaseAddress [in, out]
+#### - BaseAddress [in, out]
 
 A pointer to the base address of the virtual address range.
 
@@ -85,7 +85,7 @@ On entry, this parameter specifies a pointer to the initial value of the base ad
 On return, this parameter provides a pointer to a variable that will receive the base address of the flushed region.
 
 
-### -param RegionSize [in, out]
+#### - RegionSize [in, out]
 
 The size, in bytes, of the virtual address range.
 
@@ -94,7 +94,7 @@ On entry, this parameter specifies a pointer to the initial value of the size in
 On return, this parameter specifies a pointer to a variable that will receive the actual size in bytes of the flushed region of pages.
 
 
-### -param IoStatus [out]
+#### - IoStatus [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. This structure is where the value of the I/O status for the last attempted I/O operation is stored on output.
 

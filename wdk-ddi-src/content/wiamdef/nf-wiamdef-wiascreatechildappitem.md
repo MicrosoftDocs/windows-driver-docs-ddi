@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1dba59b0-5eac-4507-bd42-517a856aa864
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiascreatechildappitem, wiasCreateChildAppItem, wiamdef/wiasCreateChildAppItem, wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml, wiasCreateChildAppItem function [Imaging Devices]
+ms.keywords: wiasCreateChildAppItem function [Imaging Devices], wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml, wiasCreateChildAppItem, wiamdef/wiasCreateChildAppItem, image.wiascreatechildappitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasCreateChildAppItem
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasCreateChildAppItem(
 
 
 
-### -param pParentWiasContext [in]
+#### - pParentWiasContext [in]
 
 Pointer to the item context to which the child will be added.
 
 
-### -param lFlags
+#### - lFlags
 
 Is reserved for system use.  
 
 
-### -param bstrItemName [in]
+#### - bstrItemName [in]
 
 Specifies a string that contains the item name without path information.
 
 
-### -param bstrFullItemName [in]
+#### - bstrFullItemName [in]
 
 Specifies a string that contains the item name including path information.
 
 
-### -param ppWiasChildContext [out]
+#### - ppWiasChildContext [out]
 
 Pointer to a memory location that receives the address of the newly created child item's context.
 

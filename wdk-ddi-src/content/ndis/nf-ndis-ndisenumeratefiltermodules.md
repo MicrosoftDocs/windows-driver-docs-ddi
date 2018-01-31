@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisenumeratefiltermodules, NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules
+ms.keywords: netvista.ndisenumeratefiltermodules, ndis/NdisEnumerateFilterModules, filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], NdisEnumerateFilterModules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NDIS_STATUS NdisEnumerateFilterModules(
 
 
 
-### -param NdisHandle [in]
+#### - NdisHandle [in]
 
 An NDIS handle that was obtained during caller initialization. For more information about this
      handle, see 
@@ -93,7 +93,7 @@ If the handle is an NDIS filter module handle, NDIS returns information about al
      attached, starting with the top-most filter module.
 
 
-### -param InterfaceBuffer [in]
+#### - InterfaceBuffer [in]
 
 A pointer to a caller-allocated memory block in which NDIS returns the information for all the
      filter modules in a filter stack, starting with top-most filter. This buffer contains an 
@@ -103,20 +103,20 @@ A pointer to a caller-allocated memory block in which NDIS returns the informati
      for each filter module in the stack.
 
 
-### -param InterfaceBufferLength [in]
+#### - InterfaceBufferLength [in]
 
 The length, in bytes, of the caller-supplied memory block at the 
      <b>InterfaceBuffer</b> member.
 
 
-### -param BytesNeeded [in, out]
+#### - BytesNeeded [in, out]
 
 A pointer to a caller-supplied variable where NDIS writes the total number of bytes that NDIS
      requires to successfully return the interface information for all the filters in the filter
      stack.
 
 
-### -param BytesWritten [in, out]
+#### - BytesWritten [in, out]
 
 A pointer to a caller-supplied variable where NDIS writes the total bytes that NDIS wrote in the
      memory at 
@@ -193,9 +193,9 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
-
 <a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
+
+<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
 
  
 

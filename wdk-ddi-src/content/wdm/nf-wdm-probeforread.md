@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, ProbeForRead, wdm/ProbeForRead, kernel.probeforread
+ms.keywords: wdm/ProbeForRead, k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, ProbeForRead routine [Kernel-Mode Driver Architecture], ProbeForRead, kernel.probeforread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID ProbeForRead(
 
 
 
-### -param Address [in]
+#### - Address [in]
 
 Specifies the beginning of the user-mode buffer.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the length, in bytes, of the user-mode buffer.
 
 
-### -param Alignment [in]
+#### - Alignment [in]
 
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 

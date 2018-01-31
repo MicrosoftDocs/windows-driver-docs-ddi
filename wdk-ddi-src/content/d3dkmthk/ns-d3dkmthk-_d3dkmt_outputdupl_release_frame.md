@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98d31b6b-c31a-4509-a89f-f09932468313
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], display.d3dkmt_outputdupl_release_frame, d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME, _D3DKMT_OUTPUTDUPL_RELEASE_FRAME
+ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, _D3DKMT_OUTPUTDUPL_RELEASE_FRAME, display.d3dkmt_outputdupl_release_frame, D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], D3DKMT_OUTPUTDUPL_RELEASE_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_OUTPUTDUPL_RELEASE_FRAME {
 
 
 
-### -field hAdapter
+#### - hAdapter
 
 [in] A handle of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode handle to the graphics adapter that contains the duplicated desktop image.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology.
 

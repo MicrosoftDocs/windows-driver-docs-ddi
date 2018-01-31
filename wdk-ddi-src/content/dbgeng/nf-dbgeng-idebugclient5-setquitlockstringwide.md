@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B9A2C636-BF18-4D1B-A013-8CAE65FCC56F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::SetQuitLockStringWide, IDebugClient5::SetQuitLockStringWide, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method, SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide, SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, SetQuitLockStringWide method [Windows Debugging], IDebugClient5
+ms.keywords: dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide, IDebugClient5::SetQuitLockStringWide, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method, SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetQuitLockStringWide(
 
 
 
-### -param String [in]
+#### - String [in]
 
 A pointer to the quit lock Unicode character string.
 

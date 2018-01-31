@@ -74,12 +74,12 @@ The <b>DebugExtensionInitialize</b> callback function is called by the engine af
 
 
 
-### -param Version [out]
+#### - Version [out]
 
 Receives the version of the extension.  The high 16 bits contain the major version number, and the low 16 bits contain the minor version number.
 
 
-### -param Flags [out]
+#### - Flags [out]
 
 Set this to zero. (Reserved for future use.)
 
@@ -136,9 +136,9 @@ There may or may not be a session active when this function is called, so the ex
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
-
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_notify.md">DebugExtensionNotify</a>
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
 
  
 

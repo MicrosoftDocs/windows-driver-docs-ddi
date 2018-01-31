@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1534B7AC-8968-4AE2-A871-D8F4D4E45CA1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.serial_baud_rate, SERIAL_BAUD_RATE structure [Serial Ports], *PSERIAL_BAUD_RATE, SERIAL_BAUD_RATE, PSERIAL_BAUD_RATE structure pointer [Serial Ports], _SERIAL_BAUD_RATE, PSERIAL_BAUD_RATE, ntddser/PSERIAL_BAUD_RATE, ntddser/SERIAL_BAUD_RATE
+ms.keywords: "_SERIAL_BAUD_RATE, PSERIAL_BAUD_RATE structure pointer [Serial Ports], PSERIAL_BAUD_RATE, serports.serial_baud_rate, ntddser/PSERIAL_BAUD_RATE, ntddser/SERIAL_BAUD_RATE, *PSERIAL_BAUD_RATE, SERIAL_BAUD_RATE structure [Serial Ports], SERIAL_BAUD_RATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIAL_BAUD_RATE
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_BAUD_RATE, SERIAL_BAUD_RATE"
+req.typenames: SERIAL_BAUD_RATE, *PSERIAL_BAUD_RATE
 ---
 
 # _SERIAL_BAUD_RATE structure
@@ -67,7 +67,7 @@ typedef struct _SERIAL_BAUD_RATE {
 
 
 
-### -field BaudRate
+#### - BaudRate
 
 The baud rate. This parameter specifies the number of bits per second that a serial port is currently configured to transmit or receive. For example, a <b>BaudRate</b> value of 115200 indicates that the port is configured to transfer 115,200 bits per second.
 
@@ -83,11 +83,11 @@ For more information about some of the possible baud rates that a serial control
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_baud_rate.md">IOCTL_SERIAL_GET_BAUD_RATE</a>
+<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
 
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_baud_rate.md">IOCTL_SERIAL_GET_BAUD_RATE</a>
 
  
 

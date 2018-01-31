@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 032e203a-9cb0-4232-91fc-883528e15a81
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeLockSubjectContext, ntifs/SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], ifsk.selocksubjectcontext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
+ms.keywords: ntifs/SeLockSubjectContext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml, ifsk.selocksubjectcontext, SeLockSubjectContext routine [Installable File System Drivers], SeLockSubjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID SeLockSubjectContext(
 
 
 
-### -param SubjectContext [in]
+#### - SubjectContext [in]
 
 Pointer to a SECURITY_SUBJECT_CONTEXT structure returned by a call to <b>SeCaptureSubjectContext</b>.
 
@@ -94,11 +94,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
 <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 <a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
 
  
 

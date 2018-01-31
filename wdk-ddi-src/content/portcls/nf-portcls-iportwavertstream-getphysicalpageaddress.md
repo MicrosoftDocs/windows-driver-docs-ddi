@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 24c22102-f91d-4ea1-81fb-98052b8d0153
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveRTStream interface [Audio Devices], GetPhysicalPageAddress method, audio.iportwavertstream_getphysicalpageaddress, GetPhysicalPageAddress method [Audio Devices], portcls/IPortWaveRTStream::GetPhysicalPageAddress, GetPhysicalPageAddress method [Audio Devices], IPortWaveRTStream interface, audmp-routines_44b6b9ed-368b-4bf1-9a21-e0e0b2b90728.xml, IPortWaveRTStream, GetPhysicalPageAddress, IPortWaveRTStream::GetPhysicalPageAddress
+ms.keywords: IPortWaveRTStream::GetPhysicalPageAddress, audio.iportwavertstream_getphysicalpageaddress, IPortWaveRTStream interface [Audio Devices], GetPhysicalPageAddress method, GetPhysicalPageAddress method [Audio Devices], IPortWaveRTStream interface, GetPhysicalPageAddress method [Audio Devices], portcls/IPortWaveRTStream::GetPhysicalPageAddress, GetPhysicalPageAddress, audmp-routines_44b6b9ed-368b-4bf1-9a21-e0e0b2b90728.xml, IPortWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWaveRTStream.GetPhysicalPageAddress
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortWaveRTStream::GetPhysicalPageAddress method
@@ -68,12 +68,12 @@ PHYSICAL_ADDRESS GetPhysicalPageAddress(
 
 
 
-### -param MemoryDescriptorList [in]
+#### - MemoryDescriptorList [in]
 
 Pointer to the MDL.
 
 
-### -param Index [in]
+#### - Index [in]
 
 Index to the target page within the MDL.
 
@@ -96,13 +96,13 @@ The miniport typically calls this for each page in the MDL in order to program t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8126af29-a7ee-4ab7-8902-45b4baf33b9e">IPortWaveRTStream::GetPhysicalPagesCount </a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
-
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
+<a href="https://msdn.microsoft.com/8126af29-a7ee-4ab7-8902-45b4baf33b9e">IPortWaveRTStream::GetPhysicalPagesCount </a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
  
 

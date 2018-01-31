@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1fb0d0f9-711a-4bd4-baf6-38ccbeae6e4a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ELEMENT_STATUS_PVOLTAG, ELEMENT_STATUS_AVOLTAG, _CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_LUN_VALID, ntddchgr/CHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX, ERROR_UNHANDLED_ERROR, ERROR_LABEL_UNREADABLE, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_INVERT, ELEMENT_STATUS_INENAB, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, ERROR_SLOT_NOT_PRESENT, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, storage.changer_element_status_ex, ELEMENT_STATUS_SVALID, ERROR_LABEL_QUESTIONABLE, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], ELEMENT_STATUS_PRODUCT_DATA, PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_FULL, ELEMENT_STATUS_EXCEPT, *PCHANGER_ELEMENT_STATUS_EX, ERROR_TRAY_MALFUNCTION, ERROR_DRIVE_NOT_INSTALLED, ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_EXENAB, ELEMENT_STATUS_ID_VALID, ELEMENT_STATUS_NOT_BUS
+ms.keywords: ELEMENT_STATUS_PVOLTAG, ERROR_LABEL_UNREADABLE, ELEMENT_STATUS_SVALID, ELEMENT_STATUS_INENAB, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], ELEMENT_STATUS_INVERT, ERROR_DRIVE_NOT_INSTALLED, CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_LUN_VALID, ELEMENT_STATUS_EXENAB, ERROR_UNHANDLED_ERROR, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], storage.changer_element_status_ex, *PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_FULL, ELEMENT_STATUS_EXCEPT, ELEMENT_STATUS_NOT_BUS, PCHANGER_ELEMENT_STATUS_EX, ntddchgr/CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_PRODUCT_DATA, _CHANGER_ELEMENT_STATUS_EX, ERROR_SLOT_NOT_PRESENT, ERROR_TRAY_MALFUNCTION, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, ELEMENT_STATUS_AVOLTAG, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_ID_VALID, ERROR_LABEL_QUESTIONABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,17 +78,17 @@ typedef struct _CHANGER_ELEMENT_STATUS_EX {
 
 
 
-### -field Element
+#### - Element
 
 Specifies the element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>  to which this structure refers.
 
 
-### -field SrcElementAddress
+#### - SrcElementAddress
 
 Specifies the element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a> from which the media currently in this element was most recently moved. This member is valid only if ELEMENT_STATUS_SVALID is also set in <b>Flags</b>. This value must be a zero-based offset from the device-unique value.
 
 
-### -field Flags
+#### - Flags
 
 Indicates the status of the element, which can be one or more of the following values.
 
@@ -163,7 +163,7 @@ Primary volume information in the <b>PrimaryVolumeID</b> member is valid.
 Alternate volume information in the <b>AlternateVolumeID</b> member is valid.
 
 
-### -field ExceptionCode
+#### - ExceptionCode
 
 Indicates that the element is in an abnormal state. This member is valid only if ELEMENT_STATUS_EXCEPT is set in <b>Flags</b>. <b>ExceptionCode</b> can be set to one of the following values. 
 
@@ -198,42 +198,42 @@ The drive at this element address has a tray that must be extended to load or re
 Unknown error condition.
 
 
-### -field TargetId
+#### - TargetId
 
 Specifies the SCSI target ID of the drive at this element address for a SCSI changer. This member is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b> and ELEMENT_STATUS_ID_VALID is set in <b>Flags</b>. 
 
 
-### -field Lun
+#### - Lun
 
 Specifies the SCSI device number of the drive at this element address. This member is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b> and ELEMENT_STATUS_LUN_VALID is set in <b>Flags</b>.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use. The value of this member must be zero.
 
 
-### -field PrimaryVolumeID
+#### - PrimaryVolumeID
 
 Specifies the primary volume identifier for the media. If the changer supports a bar code reader and the reader is installed (as indicated by CHANGER_BAR_CODE_SCANNER_INSTALLED in <b>Features0</b> of <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>), the miniclass driver must set <b>PrimaryVolumeID</b> to the bar code of the media. If the changer does not support a bar code reader, the miniclass driver should set <b>PrimaryVolumeID</b> to the value previously assigned to the media using the <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a> routine with an ASSERT_PRIMARY or REPLACE_PRIMARY action. This member is valid only if ELEMENT_STATUS_PVOLTAG is also set in <b>Flags</b>. If the volume identifier is missing or unreadable, the miniclass driver should clear this flag and set the appropriate error status. This identifier must be no larger than MAX_VOLUME_ID_SIZE bytes. 
 
 
-### -field AlternateVolumeID
+#### - AlternateVolumeID
 
 Specifies alternate volume identification for the media. This member is valid for two-sided media only, and pertains to the ID of the inverted side. It never represents a bar code. The miniclass driver must set <b>AlternateVolumeID</b> to the value previously assigned to the media using the <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a> routine with an ASSERT_ALTERNATE or REPLACE_ALTERNATE action. The identifier must be no larger than MAX_VOLUME_ID_SIZE bytes and is valid only if ELEMENT_STATUS_AVOLTAG is also set in <b>Flags</b>.
 
 
-### -field VendorIdentification
+#### - VendorIdentification
 
 Contains the vendor ID. This identifier must be no larger than VENDOR_ID_LENGTH bytes. 
 
 
-### -field ProductIdentification
+#### - ProductIdentification
 
 Contains the product ID. This identifier must be no larger than PRODUCT_ID_LENGTH bytes. 
 
 
-### -field SerialNumber
+#### - SerialNumber
 
 Contains the serial number. This identifier must be no larger than SERIAL_NUMBER_LENGTH bytes. 
 
@@ -247,13 +247,13 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
-
 <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 

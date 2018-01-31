@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ccc3934c-fed4-4f9d-ae2a-d5e96bdb1e46
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPinFormatNumeric, wwan/WwanPinFormatAlphaNumeric, WwanPinFormatMax, PWWAN_PIN_FORMAT, WwanRef_f3030aa5-70d9-46d6-85e1-dc112a5889ce.xml, WWAN_PIN_FORMAT, wwan/WwanPinFormatMax, wwan/WwanPinFormatUnknown, WwanPinFormatNumeric, PWWAN_PIN_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_FORMAT enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_pin_format, *PWWAN_PIN_FORMAT, WwanPinFormatUnknown, _WWAN_PIN_FORMAT, WwanPinFormatAlphaNumeric, wwan/PWWAN_PIN_FORMAT, wwan/WWAN_PIN_FORMAT
+ms.keywords: "*PWWAN_PIN_FORMAT, netvista.wwan_pin_format, wwan/WwanPinFormatAlphaNumeric, _WWAN_PIN_FORMAT, PWWAN_PIN_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_PIN_FORMAT, wwan/PWWAN_PIN_FORMAT, WwanPinFormatUnknown, wwan/WwanPinFormatNumeric, wwan/WWAN_PIN_FORMAT, WwanPinFormatAlphaNumeric, WwanPinFormatNumeric, wwan/WwanPinFormatMax, WwanRef_f3030aa5-70d9-46d6-85e1-dc112a5889ce.xml, WWAN_PIN_FORMAT, wwan/WwanPinFormatUnknown, WwanPinFormatMax, WWAN_PIN_FORMAT enumeration [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_FORMAT, WWAN_PIN_FORMAT"
+req.typenames: WWAN_PIN_FORMAT, *PWWAN_PIN_FORMAT
 req.product: Windows 10 or later.
 ---
 
@@ -72,23 +72,23 @@ typedef enum _WWAN_PIN_FORMAT {
 
 
 
-### -field WwanPinFormatUnknown
+#### - WwanPinFormatUnknown
 
 The format of PIN is not specified.
 
 
-### -field WwanPinFormatNumeric
+#### - WwanPinFormatNumeric
 
 The format of the PIN allows only the numerical characters 0 through 9.
 
 
-### -field WwanPinFormatAlphaNumeric
+#### - WwanPinFormatAlphaNumeric
 
 The format of the PIN allows alphanumeric characters a through z (lowercase), A through Z
      (uppercase), 0 through 9 (numeric), the asterisk symbol (*), and the pound symbol (#).
 
 
-### -field WwanPinFormatMax
+#### - WwanPinFormatMax
 
 The total number of supported PIN formats.
 

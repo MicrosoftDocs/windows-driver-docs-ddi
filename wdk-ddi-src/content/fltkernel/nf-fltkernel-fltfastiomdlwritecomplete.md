@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], FltFastIoMdlWriteComplete, ifsk.fltfastiomdlwritecomplete, FsRtlMdlWriteCompleteDev, fltkernel/FsRtlMdlWriteCompleteDev
+ms.keywords: FsRtlMdlWriteCompleteDev, FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], ifsk.fltfastiomdlwritecomplete, fltkernel/FsRtlMdlWriteCompleteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ BOOLEAN FsRtlMdlWriteCompleteDev(
 
 
 
-### -param InitiatingInstance
+#### - InitiatingInstance
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the file object.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
 
-### -param MdlChain [in]
+#### - MdlChain [in]
 
 A pointer to a linked list of memory descriptor lists (MDLs) that <a href="..\fltkernel\nf-fltkernel-fltfastiopreparemdlwrite.md">FltFastIoPrepareMdlWrite</a> allocated.
 

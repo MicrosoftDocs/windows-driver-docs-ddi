@@ -40,7 +40,7 @@ apiname:
 -	DpWmiQueryDataBlock
 product: Windows
 targetos: Windows
-req.typenames: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR"
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -78,42 +78,42 @@ NTSTATUS DpWmiQueryDataBlock(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the driver's WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP.
 
 
-### -param GuidIndex [in]
+#### - GuidIndex [in]
 
 Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure it passed to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>.  
 
 
-### -param InstanceIndex [in]
+#### - InstanceIndex [in]
 
 If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a> request, <i>InstanceIndex </i>specifies a zero-based index that indicates the instance of the specified data block to be queried. If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request, <i>InstanceIndex </i>is zero.
 
 
-### -param InstanceCount [in]
+#### - InstanceCount [in]
 
 If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a> request, <i>InstanceCount </i>is 1. If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request, <i>InstanceCount </i>is the number of instances to be returned.
 
 
-### -param InstanceLengthArray [in, out]
+#### - InstanceLengthArray [in, out]
 
 Pointer to a caller-supplied, <i>InstanceCount</i>-sized array of ULONG elements. The driver fills in each array element to indicate the length of each instance that was returned.  If <i>BufferAvail</i> is zero, <i>InstanceLengthArray</i> is <b>NULL</b>.
 
 
-### -param BufferAvail [in]
+#### - BufferAvail [in]
 
 Specifies the maximum number of bytes that are available to receive data in the buffer at <i>Buffer</i>. If this value is zero, the caller is requesting that the driver specify the required buffer size in its call to <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>. See the Remarks section for more information.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to the buffer to receive instance data. If the buffer is large enough to receive all of the data, the driver writes the instance data to the buffer with each instance aligned on an 8-byte boundary. If the buffer is too small to receive all of the data, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> with <i>BufferUsed</i> set to the size required.
 
@@ -160,15 +160,15 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
 
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
+<a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
 
  
 

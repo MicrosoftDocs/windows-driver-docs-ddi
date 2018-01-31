@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 87b123ff-0188-4d45-b455-d1ec9def4d63
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_1c916f4b-b084-4587-a867-998b789bd2fa.xml, RtlStringCbCopyUnicodeString function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCopyUnicodeString, kernel.rtlstringcbcopyunicodestring, RtlStringCbCopyUnicodeString
+ms.keywords: safestrings_1c916f4b-b084-4587-a867-998b789bd2fa.xml, ntstrsafe/RtlStringCbCopyUnicodeString, RtlStringCbCopyUnicodeString, kernel.rtlstringcbcopyunicodestring, RtlStringCbCopyUnicodeString function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlStringCbCopyUnicodeString(
 
 
 
-### -param pszDest [out]
+#### - pszDest [out]
 
 A pointer to a buffer that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer at <i>pszDest</i> and terminated with a null character. 
 
 
-### -param cbDest [in]
+#### - cbDest [in]
 
 The size, in bytes, of the destination buffer that <i>pszDest</i> points to. The buffer must be large enough to contain the string and the terminating null character. The maximum number of bytes in the buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * <b>sizeof</b>(WCHAR).
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of bytes in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH * <b>sizeof</b>(WCHAR).
 
@@ -157,9 +157,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyunicodestring.md">RtlStringCchCopyUnicodeString</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestringex.md">RtlStringCbCopyUnicodeStringEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyunicodestring.md">RtlStringCchCopyUnicodeString</a>
 
  
 

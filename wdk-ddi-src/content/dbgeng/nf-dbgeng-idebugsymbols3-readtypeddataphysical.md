@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 72562325-27f9-4e80-b03f-8926adad99c1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols2::ReadTypedDataPhysical, ReadTypedDataPhysical, IDebugSymbols3, ReadTypedDataPhysical method [Windows Debugging], debugger.readtypeddataphysical, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, ReadTypedDataPhysical, IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::ReadTypedDataPhysical, debugger.readtypeddataphysical, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,32 +74,32 @@ HRESULT ReadTypedDataPhysical(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the physical address in the target computer's memory of the variable to be read.
 
 
-### -param Module [in]
+#### - Module [in]
 
 Specifies the base address of the module containing the type of the variable.
 
 
-### -param TypeId [in]
+#### - TypeId [in]
 
 Specifies the type ID of the type of the variable.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the data that was read.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.
 
 
-### -param BytesRead [out, optional]
+#### - BytesRead [out, optional]
 
 Receives the number of bytes that were read.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
@@ -147,7 +147,7 @@ This method is only available in kernel mode debugging.
 
 The number of bytes this method attempts to read is the smaller of the size of the buffer and the size of the variable.
 
-This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readphysical.md">ReadPhysical</a>.
+This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
 

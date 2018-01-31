@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: LOCK_OPERATION enumeration [Installable File System Drivers], IoReadAccess, IoWriteAccess, wdm/IoWriteAccess, wdm/LOCK_OPERATION, wdm/IoModifyAccess, ifsk.lock_operation, wdm/IoReadAccess, _LOCK_OPERATION, LOCK_OPERATION, IoModifyAccess
+ms.keywords: wdm/LOCK_OPERATION, IoWriteAccess, IoReadAccess, ifsk.lock_operation, IoModifyAccess, wdm/IoReadAccess, LOCK_OPERATION, wdm/IoModifyAccess, _LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], wdm/IoWriteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum  {
 
 
 
-### -field IoReadAccess
+#### - IoReadAccess
 
 This value indicates that a driver  can examine the contents of a buffer but cannot change the contents.
 
 
-### -field IoWriteAccess
+#### - IoWriteAccess
 
 This value indicates that a driver can examine and change the contents of a buffer. 
 
 
-### -field IoModifyAccess
+#### - IoModifyAccess
 
 This value indicates that a driver can examine and change the contents of a buffer.
 

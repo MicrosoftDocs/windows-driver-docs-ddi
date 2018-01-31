@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: feab830d-8079-4051-8974-52905f845765
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPIN_DATAFLOW_OUT, PKSPIN_DATAFLOW enumeration pointer [Streaming Media Devices], KSPIN_DATAFLOW, *PKSPIN_DATAFLOW, KSPIN_DATAFLOW enumeration [Streaming Media Devices], stream.kspin_dataflow, ks/KSPIN_DATAFLOW_IN, ks/KSPIN_DATAFLOW, PKSPIN_DATAFLOW, KSPIN_DATAFLOW_IN, KSPIN_DATAFLOW_OUT, ks/PKSPIN_DATAFLOW, ks-struct_2161b89b-ba7c-440a-9006-c3445b392b89.xml
+ms.keywords: KSPIN_DATAFLOW_OUT, KSPIN_DATAFLOW, KSPIN_DATAFLOW_IN, PKSPIN_DATAFLOW, ks/KSPIN_DATAFLOW_IN, ks/KSPIN_DATAFLOW_OUT, ks-struct_2161b89b-ba7c-440a-9006-c3445b392b89.xml, *PKSPIN_DATAFLOW, ks/KSPIN_DATAFLOW, stream.kspin_dataflow, KSPIN_DATAFLOW enumeration [Streaming Media Devices], PKSPIN_DATAFLOW enumeration pointer [Streaming Media Devices], ks/PKSPIN_DATAFLOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	KSPIN_DATAFLOW
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPIN_DATAFLOW, KSPIN_DATAFLOW"
+req.typenames: KSPIN_DATAFLOW, *PKSPIN_DATAFLOW
 ---
 
 # *PKSPIN_DATAFLOW enumeration
@@ -68,12 +68,12 @@ typedef enum  {
 
 
 
-### -field KSPIN_DATAFLOW_IN
+#### - KSPIN_DATAFLOW_IN
 
 Indicates that the pin factory instantiates data sink pins. Such pins can only be connected to data source pins. 
 
 
-### -field KSPIN_DATAFLOW_OUT
+#### - KSPIN_DATAFLOW_OUT
 
 Indicates that the pin factory instantiates data source pins. Such pins can only be connected to data sink pins.
 

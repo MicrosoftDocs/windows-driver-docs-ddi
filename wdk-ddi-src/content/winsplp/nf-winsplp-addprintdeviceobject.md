@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C01071FD-7D1D-4D6F-AFDD-355FFDA699EA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: AddPrintDeviceObject, AddPrintDeviceObject function [Print Devices], print.addprintdeviceobject, winsplp/AddPrintDeviceObject
+ms.keywords: print.addprintdeviceobject, AddPrintDeviceObject function [Print Devices], winsplp/AddPrintDeviceObject, AddPrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ HRESULT WINAPI AddPrintDeviceObject(
 
 
 
-### -param hPrinter [in]
+#### - hPrinter [in]
 
 A HANDLE to an open printer. This should be a HANDLE returned by the <b>AddPrinter</b> or <b>OpenPrinter</b> spooler functions.
 
 
-### -param phDeviceObject [out]
+#### - phDeviceObject [out]
 
 A HANDLE to the device object, if it was created successfully.
 

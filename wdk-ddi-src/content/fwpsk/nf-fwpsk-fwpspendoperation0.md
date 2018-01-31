@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03423785-83c5-4908-8c06-3be1b226c29e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], netvista.fwpspendoperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml, fwpsk/FwpsPendOperation0, FwpsPendOperation0
+ms.keywords: FwpsPendOperation0, netvista.fwpspendoperation0, fwpsk/FwpsPendOperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS NTAPI FwpsPendOperation0(
 
 
 
-### -param completionHandle [in]
+#### - completionHandle [in]
 
 A completion handle that is required to pend the current filtering operation. This parameter is
      obtained from the 
@@ -80,7 +80,7 @@ A completion handle that is required to pend the current filtering operation. Th
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function.
 
 
-### -param completionContext [out]
+#### - completionContext [out]
 
 The handle to the completion context of this pend operation. When the callout is ready to resume
      packet processing, it calls the 
@@ -212,14 +212,14 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
-
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
 <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
    FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
  
 

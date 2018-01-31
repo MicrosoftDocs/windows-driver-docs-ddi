@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ed699a3-20e5-4a1c-bce0-5a681bac9c39
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory, umdf.iwdfmemory_getsize, GetSize method, wdf.iwdfmemory_getsize, IWDFMemory interface, GetSize method, GetSize, wudfddi/IWDFMemory::GetSize, GetSize method, IWDFMemory interface, IWDFMemory::GetSize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml
+ms.keywords: wdf.iwdfmemory_getsize, GetSize method, wudfddi/IWDFMemory::GetSize, GetSize method, IWDFMemory interface, IWDFMemory, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, GetSize, IWDFMemory interface, GetSize method, IWDFMemory::GetSize, umdf.iwdfmemory_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory.GetSize
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

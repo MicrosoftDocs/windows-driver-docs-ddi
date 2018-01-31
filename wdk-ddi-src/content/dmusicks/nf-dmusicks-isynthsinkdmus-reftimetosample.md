@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 20906bcd-3059-4d10-92cb-8efdef929ccd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, dmusicks/ISynthSinkDMus::RefTimeToSample, ISynthSinkDMus::RefTimeToSample, RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus, audio.isynthsinkdmus_reftimetosample, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method
+ms.keywords: audio.isynthsinkdmus_reftimetosample, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, ISynthSinkDMus::RefTimeToSample, RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus, RefTimeToSample method [Audio Devices], dmusicks/ISynthSinkDMus::RefTimeToSample, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, RefTimeToSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ NTSTATUS RefTimeToSample(
 
 
 
-### -param pllSampleTime [out]
+#### - pllSampleTime [out]
 
 Output pointer for the sample time. This parameter points to a caller-allocated variable into which the method writes the calculated sample time.
 

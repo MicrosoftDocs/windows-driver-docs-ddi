@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b820c19d-a12b-417b-a9a3-6a3d700009c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, wiasCreatePropContext, wiamdef/wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], image.wiascreatepropcontext
+ms.keywords: image.wiascreatepropcontext, wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, wiamdef/wiasCreatePropContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasCreatePropContext
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasCreatePropContext(
 
 
 
-### -param cPropSpec
+#### - cPropSpec
 
 Specifies the total number of PROPSPEC structures in the <i>pPropSpec</i> array.
 
 
-### -param pPropSpec [in]
+#### - pPropSpec [in]
 
 Pointer to the first element of an array of PROPSPEC structures identifying which properties are changing.
 
 
-### -param cProps
+#### - cProps
 
 Specifies the number of property identifiers stored in this context.
 
 
-### -param pProps [in, optional]
+#### - pProps [in, optional]
 
 Pointer to the first element of an array of property identifiers that indicate the properties to put into this property context.
 
 
-### -param pContext [in]
+#### - pContext [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure that contains a property context.
 
@@ -171,9 +171,9 @@ WIA_IPA_FORMAT
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f7669c36-6bf0-477e-8466-46a3da015cf3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BDA_TABLE_SECTION, BDA_TABLE_SECTION structure [Streaming Media Devices], PBDA_TABLE_SECTION, *PBDA_TABLE_SECTION, bdatypes/PBDA_TABLE_SECTION, stream.bda_table_section, bdaref_cf9fff4a-3ab2-4cf1-9db8-fccd36661cad.xml, _BDA_TABLE_SECTION, PBDA_TABLE_SECTION structure pointer [Streaming Media Devices], bdatypes/BDA_TABLE_SECTION
+ms.keywords: PBDA_TABLE_SECTION structure pointer [Streaming Media Devices], PBDA_TABLE_SECTION, BDA_TABLE_SECTION, *PBDA_TABLE_SECTION, stream.bda_table_section, _BDA_TABLE_SECTION, bdatypes/BDA_TABLE_SECTION, bdaref_cf9fff4a-3ab2-4cf1-9db8-fccd36661cad.xml, bdatypes/PBDA_TABLE_SECTION, BDA_TABLE_SECTION structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_TABLE_SECTION
 product: Windows
 targetos: Windows
-req.typenames: BDA_TABLE_SECTION, *PBDA_TABLE_SECTION
+req.typenames: "*PBDA_TABLE_SECTION, BDA_TABLE_SECTION"
 ---
 
 # _BDA_TABLE_SECTION structure
@@ -70,22 +70,22 @@ typedef struct _BDA_TABLE_SECTION {
 
 
 
-### -field ulPrimarySectionId
+#### - ulPrimarySectionId
 
 Identifier of the primary table section. 
 
 
-### -field ulSecondarySectionId
+#### - ulSecondarySectionId
 
 Identifier of the secondary table section. 
 
 
-### -field ulcbSectionLength
+#### - ulcbSectionLength
 
 Size, in bytes, of the <b>argbSectionData</b> array. 
 
 
-### -field argbSectionData
+#### - argbSectionData
 
 Array of table section data.
 

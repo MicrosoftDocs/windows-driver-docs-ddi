@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D39376D8-CD1D-4E07-8017-0B552A4D2E59
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelCount method, IMiniportStreamAudioEngineNode::GetStreamChannelCount, IMiniportStreamAudioEngineNode, audio.iminiportstreamaudioenginenode_getstreamchannelcount, GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount
+ms.keywords: IMiniportStreamAudioEngineNode::GetStreamChannelCount, audio.iminiportstreamaudioenginenode_getstreamchannelcount, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelCount method, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount, GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamChannelCount method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.GetStreamChannelCount
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamChannelCount method
@@ -68,12 +68,12 @@ NTSTATUS GetStreamChannelCount(
 
 
 
-### -param targetType [in]
+#### - targetType [in]
 
 An <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a> enumerated value that specifies the  target node type.
 
 
-### -param pulChannelCount [out]
+#### - pulChannelCount [out]
 
 The number of available channels.
 

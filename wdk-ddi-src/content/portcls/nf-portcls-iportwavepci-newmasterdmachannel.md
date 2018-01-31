@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, IPortWavePci, NewMasterDmaChannel, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], portcls/IPortWavePci::NewMasterDmaChannel
+ms.keywords: IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, portcls/IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel method [Audio Devices], audio.iportwavepci_newmasterdmachannel, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel, IPortWavePci
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWavePci.NewMasterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortWavePci::NewMasterDmaChannel method
@@ -83,57 +83,57 @@ NTSTATUS NewMasterDmaChannel(
 
 
 
-### -param OuterUnknown [in, optional]
+#### - OuterUnknown [in, optional]
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
-### -param ResourceList [in, optional]
+#### - ResourceList [in, optional]
 
 Pointer to the miniport driver's resource list, which is an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
 
 
-### -param ScatterGather [in]
+#### - ScatterGather [in]
 
 Requests that the DMA channel support scatter/gather DMA. Always set this parameter to <b>TRUE</b>.
 
 
-### -param Dma32BitAddresses [in]
+#### - Dma32BitAddresses [in]
 
 Specifies the use of 32-bit addresses for DMA operations.
 
 
-### -param Dma64BitAddresses [in]
+#### - Dma64BitAddresses [in]
 
 Specifies the use of 64-bit addresses for DMA operations.
 
 
-### -param IgnoreCount [in]
+#### - IgnoreCount [in]
 
 Indicates whether to ignore the DMA controller's transfer counter. Set to <b>TRUE</b> if the DMA controller in this platform does not maintain an accurate transfer counter, and therefore requires a workaround.
 
 
-### -param DmaWidth [in]
+#### - DmaWidth [in]
 
 Not used. Set to (DMA_WIDTH)(-1).
 
 
-### -param DmaSpeed [in]
+#### - DmaSpeed [in]
 
 Not used. Set to (DMA_SPEED)(-1).
 
 
-### -param MaximumLength [in]
+#### - MaximumLength [in]
 
 Maximum number of bytes in the buffer that will be associated with this DMA channel.
 
 
-### -param DmaPort [in]
+#### - DmaPort [in]
 
 Not used. Set to 0.
 
@@ -163,15 +163,15 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

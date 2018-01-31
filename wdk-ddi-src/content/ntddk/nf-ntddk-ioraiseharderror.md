@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 140561ce-e2ad-45be-976a-86fb1d0d1e87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRaiseHardError routine [Kernel-Mode Driver Architecture], ntddk/IoRaiseHardError, k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, IoRaiseHardError, kernel.ioraiseharderror
+ms.keywords: IoRaiseHardError routine [Kernel-Mode Driver Architecture], kernel.ioraiseharderror, k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, IoRaiseHardError, ntddk/IoRaiseHardError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID IoRaiseHardError(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP that failed because of a device I/O error. 
 
 
-### -param Vpb [in, optional]
+#### - Vpb [in, optional]
 
 Pointer to the volume parameter block (VPB), if any, for the mounted file object. This parameter is <b>NULL</b> if no VPB is associated with the device object.
 
 
-### -param RealDeviceObject [in]
+#### - RealDeviceObject [in]
 
 Pointer to the device object that represents the physical device on which the I/O operation failed. 
 
@@ -117,11 +117,11 @@ Deadlock now exists: The normal kernel APC created by <b>IoRaiseHardError</b> to
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
-
 <a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
 
 <a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
 
  
 

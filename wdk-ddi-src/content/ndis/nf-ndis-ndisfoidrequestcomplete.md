@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1d72e8e3-1053-4731-a16c-fc3e4f7460e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_request_ref_df2bb357-d053-4f02-a828-46a72dc1fee7.xml, netvista.ndisfoidrequestcomplete, NdisFOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequestComplete, NdisFOidRequestComplete
+ms.keywords: netvista.ndisfoidrequestcomplete, NdisFOidRequestComplete, NdisFOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis_request_ref_df2bb357-d053-4f02-a828-46a72dc1fee7.xml, ndis/NdisFOidRequestComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ VOID NdisFOidRequestComplete(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param OidRequest [in]
+#### - OidRequest [in]
 
 A pointer to a buffer formatted as an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The filter
@@ -88,7 +88,7 @@ A pointer to a buffer formatted as an
      <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the request operation, either NDIS_STATUS_SUCCESS or any driver-determined
      NDIS_STATUS_<i>XXX</i> value except NDIS_STATUS_PENDING.
@@ -119,9 +119,9 @@ If an overlying driver originated the OID request, NDIS calls the request comple
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
  
 

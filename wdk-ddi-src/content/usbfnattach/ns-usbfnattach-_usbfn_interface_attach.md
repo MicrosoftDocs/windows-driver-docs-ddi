@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C7D7935C-0536-43E6-8924-1DC13B258007
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], usbfnattach/PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], _USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach
+ms.keywords: USBFN_INTERFACE_ATTACH structure [Buses], PUSBFN_INTERFACE_ATTACH structure pointer [Buses], _USBFN_INTERFACE_ATTACH, usbfnattach/PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach, PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_INTERFACE_ATTACH
 product: Windows
 targetos: Windows
-req.typenames: USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH
+req.typenames: "*PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _USBFN_INTERFACE_ATTACH {
 
 
 
-### -field InterfaceHeader
+#### - InterfaceHeader
 
 The interface version number.
 
 
-### -field GetAttachAction
+#### - GetAttachAction
 
 A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a> callback function.
 
 
-### -field GetAttachActionAbortOperation
+#### - GetAttachActionAbortOperation
 
 A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action_abort.md">USBFN_GET_ATTACH_ACTION_ABORT</a> callback function.
 
 
-### -field SetDeviceState
+#### - SetDeviceState
 
 A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfnattach-usbfn_set_device_state.md">USBFN_SET_DEVICE_STATE</a> callback function.
 

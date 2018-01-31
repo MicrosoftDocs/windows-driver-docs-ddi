@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0C69F19C-D048-47EB-9286-6F8C6E3398CC
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::GetQuitLockStringWide, GetQuitLockStringWide method [Windows Debugging], debugger.idebugclient5_getquitlockstringwide, GetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, GetQuitLockStringWide, IDebugClient5::GetQuitLockStringWide, IDebugClient5 interface [Windows Debugging], GetQuitLockStringWide method, IDebugClient5
+ms.keywords: GetQuitLockStringWide method [Windows Debugging], debugger.idebugclient5_getquitlockstringwide, IDebugClient5::GetQuitLockStringWide, IDebugClient5 interface [Windows Debugging], GetQuitLockStringWide method, IDebugClient5, GetQuitLockStringWide, GetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetQuitLockStringWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetQuitLockStringWide(
 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 The buffer in which to write the Unicode character string.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size of the buffer.
 
 
-### -param StringSize [out, optional]
+#### - StringSize [out, optional]
 
 A pointer to the string size.
 

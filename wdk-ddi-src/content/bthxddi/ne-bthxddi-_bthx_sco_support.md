@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: A9B303C7-868D-47EB-8279-9F655F58630C
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ScoSupportNone, BTHX_SCO_SUPPORT, _BTHX_SCO_SUPPORT, ScoSupportHCI, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], bltooth.bthx_sco_support, bthxddi/BTHX_SCO_SUPPORT, bthxddi/ScoSupportHCIBypass, *PBTHX_SCO_SUPPORT, bthxddi/ScoSupportNone, ScoSupportHCIBypass, bthxddi/ScoSupportHCI
+ms.keywords: bthxddi/ScoSupportHCI, bthxddi/ScoSupportNone, ScoSupportHCI, ScoSupportHCIBypass, bthxddi/ScoSupportHCIBypass, ScoSupportNone, BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT, bltooth.bthx_sco_support, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], bthxddi/BTHX_SCO_SUPPORT, _BTHX_SCO_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	BTHX_SCO_SUPPORT
 product: Windows
 targetos: Windows
-req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
+req.typenames: "*PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT"
 ---
 
 # _BTHX_SCO_SUPPORT enumeration
@@ -69,17 +69,17 @@ typedef enum _BTHX_SCO_SUPPORT {
 
 
 
-### -field ScoSupportNone
+#### - ScoSupportNone
 
 SCO is not supported.
 
 
-### -field ScoSupportHCI
+#### - ScoSupportHCI
 
 SCO data passes through the HCI layer (stack).
 
 
-### -field ScoSupportHCIBypass
+#### - ScoSupportHCIBypass
 
 SCO data does not pass through the HCI layer but through a sideband mechanism like an I2S channel.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f843f8ce-81ee-4b8b-8583-dde3becb5460
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAssignInstanceID, PFN_WDFPDOINITASSIGNINSTANCEID, wdf.wdfpdoinitassigninstanceid, DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, kmdf.wdfpdoinitassigninstanceid, WdfPdoInitAssignInstanceID method, wdfpdo/WdfPdoInitAssignInstanceID
+ms.keywords: wdfpdo/WdfPdoInitAssignInstanceID, PFN_WDFPDOINITASSIGNINSTANCEID, DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, kmdf.wdfpdoinitassigninstanceid, WdfPdoInitAssignInstanceID method, WdfPdoInitAssignInstanceID, wdf.wdfpdoinitassigninstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitAssignInstanceID
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoInitAssignInstanceID(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param InstanceID [in]
+#### - InstanceID [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains an <a href="https://msdn.microsoft.com/093063a6-1855-4e36-9465-1eedaa3cd0f9">instance ID</a> string. The driver can allocate the string's buffer from paged pool. 
 
@@ -130,13 +130,13 @@ The driver must call <b>WdfPdoInitAssignInstanceID</b> before calling <a href=".
 
 ## -see-also
 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md">WdfPdoInitAddHardwareID</a>
 
 <a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md">WdfPdoInitAddCompatibleID</a>
-
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e387418-a37c-492b-8ee4-b6ff8f0e53b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/STOR_SCATTER_GATHER_ELEMENT, _STOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT, storage.stor_scatter_gather_element, structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml, *PSTOR_SCATTER_GATHER_ELEMENT, storport/PSTOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices], STOR_SCATTER_GATHER_ELEMENT
+ms.keywords: structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml, *PSTOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT, storage.stor_scatter_gather_element, storport/STOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], _STOR_SCATTER_GATHER_ELEMENT, storport/PSTOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _STOR_SCATTER_GATHER_ELEMENT {
 
 
 
-### -field PhysicalAddress
+#### - PhysicalAddress
 
 Contains the physical address of the scatter/gather element. 
 
 
-### -field Length
+#### - Length
 
 Contains the length in bytes of this scatter/gather element. 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. 
 

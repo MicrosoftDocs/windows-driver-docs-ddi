@@ -40,7 +40,7 @@ apiname:
 -	NdkGetPrivilegedMemoryRegionToken
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback
@@ -71,15 +71,14 @@ VOID NdkGetPrivilegedMemoryRegionToken(
 
 
 
-### -param *pNdkPd
+#### - *pNdkPd [in]
+
+A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
 
 
+#### - *pToken [out]
 
-### -param *pToken
-
-
-
-
+A memory token value is returned in this location.
 
 
 #### - pNdkPd [in]

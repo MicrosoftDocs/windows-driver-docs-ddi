@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6ebd4b00-ec25-4383-beba-0478b3241f09
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxNameCacheActivateEntry, rxref_f8bd601f-32b7-4164-beb5-c020f3670fe7.xml, ifsk.rxnamecacheactivateentry, namcache/RxNameCacheActivateEntry, RxNameCacheActivateEntry function [Installable File System Drivers]
+ms.keywords: RxNameCacheActivateEntry function [Installable File System Drivers], RxNameCacheActivateEntry, namcache/RxNameCacheActivateEntry, rxref_f8bd601f-32b7-4164-beb5-c020f3670fe7.xml, ifsk.rxnamecacheactivateentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID RxNameCacheActivateEntry(
 
 
 
-### -param NameCacheCtl [in]
+#### - NameCacheCtl [in]
 
 A pointer to the NAME_CACHE_CONTROL structure on which to activate the entry.
 
 
-### -param NameCache [in]
+#### - NameCache [in]
 
 A pointer to the NAME_CACHE structure to activate.
 
 
-### -param LifeTime [in]
+#### - LifeTime [in]
 
 A value that indicates the valid lifetime in seconds of the cache entry. A value of 0 means to leave the current value unchanged. A value of 0 is used for reactivations after a match where you want the original lifetime preserved.
 
 
-### -param MRxContext [in]
+#### - MRxContext [in]
 
 A value of context supplied by the network mini-redirector for equality checking when making a valid entry check. An <i>MRxContext</i> value of 0 means to leave the current value unchanged. A value of 0 is used for reactivations after a match where you want the original <i>MRxContext</i> preserved.
 
@@ -108,21 +108,21 @@ The <b>RxNameCacheActivateEntry</b> routine assumes that the name cache entry is
 
 ## -see-also
 
-<a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
-
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
-
-<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
 
 <a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
 
+<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+
 <a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
 
 <a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
 
-<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
 
  
 

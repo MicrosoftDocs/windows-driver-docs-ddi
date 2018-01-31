@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 23A5BAC2-E8F3-47FF-9B63-3FFF447C33B4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DisablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3::DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging], dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide, DisablePlmPackageDebugWide, IDebugPlmClient3 interface [Windows Debugging], DisablePlmPackageDebugWide method, IDebugPlmClient3
+ms.keywords: IDebugPlmClient3 interface [Windows Debugging], DisablePlmPackageDebugWide method, DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, IDebugPlmClient3::DisablePlmPackageDebugWide, IDebugPlmClient3, debugger.idebugplmclient3_disableplmpackagedebugwide, DisablePlmPackageDebugWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT DisablePlmPackageDebugWide(
 
 
 
-### -param Server [in]
+#### - Server [in]
 
 The server of the package.
 
 
-### -param PackageFullName [in]
+#### - PackageFullName [in]
 
 A pointer to the package name.
 

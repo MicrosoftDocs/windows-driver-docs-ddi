@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 988122bf-d7de-44a3-a059-c984bf636cd0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, storage.storage_access_alignment_descriptor, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, structs-general_191220fa-6df5-478b-b60e-af8e3f62d441.xml, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Storage Devices]
+ms.keywords: ntddstor/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Storage Devices], PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, storage.storage_access_alignment_descriptor, structs-general_191220fa-6df5-478b-b60e-af8e3f62d441.xml, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Contains the size of the structure STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR. The value of this member will change as members are added to the structure.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the descriptor, in bytes.
 
 
-### -field BytesPerCacheLine
+#### - BytesPerCacheLine
 
 The number of bytes in a cache line of the device.
 
 
-### -field BytesOffsetForCacheAlignment
+#### - BytesOffsetForCacheAlignment
 
 The address offset necessary for proper cache access alignment, in bytes.
 
 
-### -field BytesPerLogicalSector
+#### - BytesPerLogicalSector
 
 The number of bytes in a logical sector of the device.
 
 
-### -field BytesPerPhysicalSector
+#### - BytesPerPhysicalSector
 
 The number of bytes in a physical sector of the device.
 
 
-### -field BytesOffsetForSectorAlignment
+#### - BytesOffsetForSectorAlignment
 
 The logical sector offset within the first physical sector where the first logical sector is placed, in bytes.
 

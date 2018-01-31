@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0db68fcd-8661-41d2-ac95-e9b6033e6aa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_crossbar_route_s, PKSPROPERTY_CROSSBAR_ROUTE_S structure pointer [Streaming Media Devices], PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S structure [Streaming Media Devices], vidcapstruct_a1d08316-6a91-4f40-93d2-b371c6e35eff.xml, ksmedia/PKSPROPERTY_CROSSBAR_ROUTE_S, *PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/KSPROPERTY_CROSSBAR_ROUTE_S
+ms.keywords: PKSPROPERTY_CROSSBAR_ROUTE_S structure pointer [Streaming Media Devices], KSPROPERTY_CROSSBAR_ROUTE_S, PKSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/KSPROPERTY_CROSSBAR_ROUTE_S, *PKSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/PKSPROPERTY_CROSSBAR_ROUTE_S, vidcapstruct_a1d08316-6a91-4f40-93d2-b371c6e35eff.xml, KSPROPERTY_CROSSBAR_ROUTE_S structure [Streaming Media Devices], stream.ksproperty_crossbar_route_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_CROSSBAR_ROUTE_S
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S"
+req.typenames: KSPROPERTY_CROSSBAR_ROUTE_S, *PKSPROPERTY_CROSSBAR_ROUTE_S
 ---
 
 # KSPROPERTY_CROSSBAR_ROUTE_S structure
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-### -field IndexInputPin
+#### - IndexInputPin
 
 Specifies the zero-based index of the input pin for which the query is being made.
 
 
-### -field IndexOutputPin
+#### - IndexOutputPin
 
 Specifies the zero-based index of the output pin for which the query is being made.
 
 
-### -field CanRoute
+#### - CanRoute
 
 Returns whether the minidriver supports routing between the pins specified by <b>IndexInputPin</b> and <b>IndexOutputPin</b>. A nonzero value indicates that routing is supported. If the minidriver does not support routing between the two pins, this value is zero.
 
@@ -99,11 +99,11 @@ If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the au
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565126">KSPROPERTY_CROSSBAR_ROUTE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
 
  
 

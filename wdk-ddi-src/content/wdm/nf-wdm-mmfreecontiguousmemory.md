@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 485c9b03-eb45-4c86-9292-ccd51ba7b080
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmfreecontiguousmemory, MmFreeContiguousMemory routine [Kernel-Mode Driver Architecture], wdm/MmFreeContiguousMemory, MmFreeContiguousMemory, k106_1b930a75-7382-4a6c-a638-3e7675f43f83.xml
+ms.keywords: kernel.mmfreecontiguousmemory, k106_1b930a75-7382-4a6c-a638-3e7675f43f83.xml, MmFreeContiguousMemory, MmFreeContiguousMemory routine [Kernel-Mode Driver Architecture], wdm/MmFreeContiguousMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID MmFreeContiguousMemory(
 
 
 
-### -param BaseAddress [in]
+#### - BaseAddress [in]
 
 Pointer to the virtual address of the memory to be freed.
 
@@ -95,9 +95,9 @@ Callers of <b>MmFreeContiguousMemory</b> must be running at IRQL = APC_LEVEL. Fo
 
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a>
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
 
  
 

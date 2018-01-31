@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 64494AB9-6F7F-4374-9081-8D65BA7D34E1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveTransmitBuffer, serports.sercxretrievetransmitbuffer, SerCxRetrieveTransmitBuffer method [Serial Ports], 1/SerCxRetrieveTransmitBuffer
+ms.keywords: SerCxRetrieveTransmitBuffer method [Serial Ports], SerCxRetrieveTransmitBuffer, serports.sercxretrievetransmitbuffer, 1/SerCxRetrieveTransmitBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS SerCxRetrieveTransmitBuffer(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The requested buffer length, in bytes. If the <b>SerCxRetrieveTransmitBuffer</b> call succeeds, the caller receives an output buffer that contains up to <i>Length</i> bytes of available data. (The available data in the buffer might be less than <i>Length</i> bytes.) <b>SerCxRetrieveTransmitBuffer</b> writes the actual number of bytes of available data to the <b>Length</b> member of the structure pointed to by the <i>BufferDescriptor</i> parameter.
 
 
-### -param BufferDescriptor [in, out]
+#### - BufferDescriptor [in, out]
 
 A pointer to a caller-allocated <a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a> structure. This structure describes the data buffer to use for the transmit operation. The caller previously called the <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize this structure. <b>SerCxRetrieveTransmitBuffer</b> writes to the <b>Buffer</b> and <b>Length</b> members of this structure.
 
@@ -140,9 +140,9 @@ The serial controller driver calls this method to acquire a buffer that contains
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
-
 <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
+
+<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
 
  
 

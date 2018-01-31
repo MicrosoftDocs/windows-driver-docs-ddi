@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ec0a052-2327-41e5-a9fa-83bcac9566f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TPT_UDPESP_ENCAPTYPE_IKE, ntddndis/NDIS_IPSEC_OFFLOAD_V1, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE, NDIS_IPSEC_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER, IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE, tcpip_offload_ref_8e1eae6b-44e5-425b-8312-ec890b8eb757.xml, PNDIS_IPSEC_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER, netvista.ndis_ipsec_offload_v1, NDIS_IPSEC_OFFLOAD_V1, IPSEC_TUN_UDPESP_ENCAPTYPE_IKE, *PNDIS_IPSEC_OFFLOAD_V1, _NDIS_IPSEC_OFFLOAD_V1, PNDIS_IPSEC_OFFLOAD_V1
+ms.keywords: netvista.ndis_ipsec_offload_v1, NDIS_IPSEC_OFFLOAD_V1, _NDIS_IPSEC_OFFLOAD_V1, PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TUN_UDPESP_ENCAPTYPE_IKE, NDIS_IPSEC_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER, *PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER, tcpip_offload_ref_8e1eae6b-44e5-425b-8312-ec890b8eb757.xml, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER, PNDIS_IPSEC_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_IPSEC_OFFLOAD_V1, ntddndis/PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_IPSEC_OFFLOAD_V1
 product: Windows
 targetos: Windows
-req.typenames: NDIS_IPSEC_OFFLOAD_V1, *PNDIS_IPSEC_OFFLOAD_V1
+req.typenames: "*PNDIS_IPSEC_OFFLOAD_V1, NDIS_IPSEC_OFFLOAD_V1"
 ---
 
 # _NDIS_IPSEC_OFFLOAD_V1 structure
@@ -93,11 +93,161 @@ typedef struct _NDIS_IPSEC_OFFLOAD_V1 {
 
 
 
-### -field Supported
+#### - Supported
 
 A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for IPsec task offload and that
      contains the following information:
      
+
+
+#### Encapsulation
+
+Encapsulation settings for IPsec. For more information about this member, see the following
+       Remarks section.
+
+
+#### AhEspCombined
+
+A ULONG value that a miniport driver sets to indicate that the hardware can perform IPsec
+       operations on send and receive packets that contain both an authentication header (AH) security
+       payload and an encapsulating security payload (ESP). A value of zero in 
+       <b>AhEspCombined</b> indicates that the NIC does not support this capability.
+
+
+#### TransportTunnelCombined
+
+A ULONG value that a miniport driver sets to indicate that the NIC can process security payloads
+       for both the transport-mode portion and the tunnel-mode portion of send and receive packets. (The
+       transport-mode portion of a packet pertains to an end-to-end connection. The tunnel-mode portion of a
+       packet pertains to a tunnel connection.) A value of zero in 
+       <b>TransportTunnelCombined</b> indicates that the NIC does not support this capability.
+
+
+#### IPv4Options
+
+A ULONG value that a miniport driver sets to indicate that the NIC can perform IPsec operations
+       on IPv4 send and receive packets whose IP headers contain IP options. A value of zero in 
+       <b>IPv4Options</b> indicates that the NIC does not support this capability.
+
+
+#### Flags
+
+The types of UDP-encapsulated ESP data packets that the NIC can parse. For a description of the
+       UDP-encapsulation types, see 
+       <a href="https://msdn.microsoft.com/126d2fd5-778e-43ff-87f6-5b0b54a83bac">UDP-ESP Encapsulation Types</a>.
+       This member can be one or more of the following flags:
+       
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TPT_UDPESP_ENCAPTYPE_IKE"></a><a id="___________ipsec_tpt_udpesp_encaptype_ike"></a><dl>
+<dt><b>
+          IPSEC_TPT_UDPESP_ENCAPTYPE_IKE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reserved for internal use.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TUN_UDPESP_ENCAPTYPE_IKE"></a><a id="___________ipsec_tun_udpesp_encaptype_ike"></a><dl>
+<dt><b>
+          IPSEC_TUN_UDPESP_ENCAPTYPE_IKE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reserved for internal use.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE"></a><a id="___________ipsec_tptovertun_udpesp_encaptype_ike"></a><dl>
+<dt><b>
+          IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reserved for internal use.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE"></a><a id="___________ipsec_tpt_udpesp_over_pure_tun_encaptype_ike"></a><dl>
+<dt><b>
+          IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reserved for internal use.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER"></a><a id="___________ipsec_tpt_udpesp_encaptype_other"></a><dl>
+<dt><b>
+          IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER</b></dt>
+</dl>
+</td>
+<td width="60%">
+When this flag is set, the NIC can parse UDP-encapsulated transport-mode packets.
+         
+
+When this flag is cleared, the NIC cannot parse UDP-encapsulated transport-mode
+         packets.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER"></a><a id="___________ipsec_tun_udpesp_encaptype_other"></a><dl>
+<dt><b>
+          IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER</b></dt>
+</dl>
+</td>
+<td width="60%">
+When this flag set, the NIC can parse UDP-encapsulated tunnel-mode packets.
+         
+
+When this flag is cleared, the NIC does not have this capability.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER"></a><a id="___________ipsec_tptovertun_udpesp_encaptype_other"></a><dl>
+<dt><b>
+          IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER</b></dt>
+</dl>
+</td>
+<td width="60%">
+When this flag is set, the NIC can parse transport over UDP-encapsulated tunnel-mode packets.
+         
+
+When this flag is cleared, the NIC does not have this capability.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER"></a><a id="___________ipsec_tpt_udpesp_over_pure_tun_encaptype_other"></a><dl>
+<dt><b>
+          IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER</b></dt>
+</dl>
+</td>
+<td width="60%">
+When this flag is set, the NIC can parse UDP-encapsulated transport over tunnel-mode packets.
+         
+
+When this flag is cleared, the NIC does not have this capability.
+
+</td>
+</tr>
+</table> 
+
+A miniport driver whose NIC is incapable of parsing UDP-encapsulated ESP packets must not set any
+       flags in the 
+       <b>Flags</b> member.
 
 
 ### -field Supported.Encapsulation
@@ -250,11 +400,48 @@ A miniport driver whose NIC is incapable of parsing UDP-encapsulated ESP packets
        <b>Flags</b> member.
 
 
-### -field IPv4AH
+#### - IPv4AH
 
 A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for AH payloads and that contains
      the following information:
      
+
+
+#### Md5
+
+A ULONG value that a miniport driver sets to indicate that the NIC can use the keyed MD5
+       algorithm for computing or validating a cryptographic checksum for an AH payload, ESP payload, or
+       both.
+
+
+#### Sha_1
+
+A ULONG value that a miniport driver sets to indicate that the NIC can use the SHA 1 algorithm
+       for computing or validating a cryptographic checksum for an AH payload, ESP payload, or both.
+
+
+#### Transport
+
+A ULONG value that a miniport driver sets to indicate that the NIC can calculate or validate the
+       cryptographic checksums for the portion of a packet that pertains to an end-to-end connection.
+
+
+#### Tunnel
+
+A ULONG value that a miniport driver sets to indicate that the NIC can calculate or validate
+       cryptographic checksums for the portion of a packet that pertains to a tunnel connection.
+
+
+#### Send
+
+A ULONG value that a miniport driver sets to indicate that the NIC can calculate cryptographic
+       checksums for send packets.
+
+
+#### Receive
+
+A ULONG value that a miniport driver sets to indicate that the NIC can validate cryptographic
+       checksums for receive packets.
 
 
 ### -field IPv4AH.Md5
@@ -294,11 +481,58 @@ A ULONG value that a miniport driver sets to indicate that the NIC can validate 
        checksums for receive packets.
 
 
-### -field IPv4ESP
+#### - IPv4ESP
 
 A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for ESP payloads and that contains
      the following information:
      
+
+
+#### Des
+
+A ULONG value that a miniport driver sets to indicate that the NIC supports the DES algorithm
+       for encrypting and decrypting ESP payloads.
+
+
+#### Reserved
+
+This member is reserved.
+
+
+#### TripleDes
+
+A ULONG value that a miniport driver sets to indicate that the NIC supports the triple-DES
+       algorithm for encrypting and decrypting ESP payloads.
+
+
+#### NullEsp
+
+A ULONG value that a miniport driver sets to indicate that the NIC supports null
+       encryption--that is, the ESP payload without encryption but with authentication information.
+
+
+#### Transport
+
+A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
+       data for the portion of a packet that pertains to an end-to-end connection.
+
+
+#### Tunnel
+
+A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
+       data for the portion of a packet that pertains to a tunnel connection.
+
+
+#### Send
+
+A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
+       payloads in send packets.
+
+
+#### Receive
+
+A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
+       payloads in receive packets.
 
 
 ### -field IPv4ESP.Des
@@ -402,25 +636,25 @@ The following flags are defined for the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
 <mshelp:link keywords="netvista.ndis_status_task_offload_current_config" tabindex="0"><b>
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</b></mshelp:link>
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v2.md">NDIS_IPSEC_OFFLOAD_V2</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v2.md">NDIS_IPSEC_OFFLOAD_V2</a>
 
  
 

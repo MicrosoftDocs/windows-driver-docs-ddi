@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 28ff3697-e2b3-4818-99d3-0b1f7a098282
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCchCopyStringN, safestrings_d48eb8f3-535f-4829-aed4-6bde1b4733e3.xml, kernel.rtlunicodestringcchcopystringn, RtlUnicodeStringCchCopyStringN function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCchCopyStringN
+ms.keywords: RtlUnicodeStringCchCopyStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcopystringn, RtlUnicodeStringCchCopyStringN, ntstrsafe/RtlUnicodeStringCchCopyStringN, safestrings_d48eb8f3-535f-4829-aed4-6bde1b4733e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlUnicodeStringCchCopyStringN(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>pszSrc </i>parameter points to (excluding the terminating <b>NULL</b>) is copied into the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 A pointer to the string to be copied. 
 
 
-### -param cchToCopy [in]
+#### - cchToCopy [in]
 
 The number of characters to be copied from the source to the destination. 
 
@@ -157,9 +157,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
 
  
 

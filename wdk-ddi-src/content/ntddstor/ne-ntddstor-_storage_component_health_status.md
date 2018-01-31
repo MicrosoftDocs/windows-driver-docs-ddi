@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6768C1D7-A964-44A7-A340-98060130FF24
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/HealthStatusNormal, ntddstor/HealthStatusUnknown, HealthStatusDisabled, *PSTORAGE_COMPONENT_HEALTH_STATUS, ntddstor/PSTORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusThrottled, _STORAGE_COMPONENT_HEALTH_STATUS, HealthStatusWarning, ntddstor/HealthStatusFailed, ntddstor/HealthStatusThrottled, storage.storage_component_health_status, ntddstor/HealthStatusDisabled, HealthStatusNormal, ntddstor/STORAGE_COMPONENT_HEALTH_STATUS, HealthStatusUnknown, STORAGE_COMPONENT_HEALTH_STATUS, HealthStatusFailed, STORAGE_COMPONENT_HEALTH_STATUS enumeration [Storage Devices], PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Storage Devices]
+ms.keywords: ntddstor/HealthStatusThrottled, ntddstor/HealthStatusUnknown, HealthStatusFailed, ntddstor/HealthStatusNormal, HealthStatusUnknown, HealthStatusThrottled, ntddstor/STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusWarning, storage.storage_component_health_status, ntddstor/HealthStatusDisabled, STORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, ntddstor/PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Storage Devices], *PSTORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusFailed, STORAGE_COMPONENT_HEALTH_STATUS enumeration [Storage Devices], HealthStatusNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _STORAGE_COMPONENT_HEALTH_STATUS {
 
 
 
-### -field HealthStatusUnknown
+#### - HealthStatusUnknown
 
 The storage device health status is unknown.
 
 
-### -field HealthStatusNormal
+#### - HealthStatusNormal
 
 The storage device is operating normally.
 
 
-### -field HealthStatusThrottled
+#### - HealthStatusThrottled
 
 The storage device has been throttled.
 
 
-### -field HealthStatusWarning
+#### - HealthStatusWarning
 
 The storage device has issued a warning.
 
 
-### -field HealthStatusDisabled
+#### - HealthStatusDisabled
 
 The storage device has been disabled.
 
 
-### -field HealthStatusFailed
+#### - HealthStatusFailed
 
 The storage device has failed.
 

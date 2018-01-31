@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f615acc4-7e3e-4390-8a6a-e68663fcc162
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisSendNetBufferLists, netvista.ndissendnetbufferlists, NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml
+ms.keywords: ndis/NdisSendNetBufferLists, NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, NdisSendNetBufferLists, netvista.ndissendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ VOID NdisSendNetBufferLists(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 A handle that identifies the target adapter. A previous call to 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> returned this
      handle.
 
 
-### -param NetBufferLists [in]
+#### - NetBufferLists [in]
 
 A pointer to a linked list of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. Each
@@ -88,14 +88,14 @@ A pointer to a linked list of
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures.
 
 
-### -param PortNumber [in]
+#### - PortNumber [in]
 
 A port number that identifies a miniport adapter port. The default port number of a miniport
      adapter is zero. Protocol drivers that do not use miniport adapter ports should specify the default
      port.
 
 
-### -param SendFlags [in]
+#### - SendFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
@@ -211,33 +211,33 @@ Until NDIS calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+<mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
+   ProtocolSendNetBufferListsComplete</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
+   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisallocateclonenetbufferlist" tabindex="0"><b>
    NdisAllocateCloneNetBufferList</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
+   NdisMSendNetBufferListsComplete</b></mshelp:link>
 
-<mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
-   ProtocolSendNetBufferListsComplete</i></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
  
 

@@ -74,7 +74,7 @@ void BluetoothPortIndicationCallback(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
@@ -86,14 +86,14 @@ For incoming remote connection request indications, this is the context specifie
      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> BRB.
 
 
-### -param Indication [in]
+#### - Indication [in]
 
 An 
      <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a> value that indicates the type
      of L2CAP event.
 
 
-### -param Parameters [in]
+#### - Parameters [in]
 
 An 
      <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a> structure that
@@ -149,13 +149,13 @@ The
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamColorSpace1
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1 callback
@@ -73,22 +73,22 @@ VOID APIENTRY* pfnVideoProcessorSetStreamColorSpace1(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param hVideoProcessor [in]
+#### - hVideoProcessor [in]
 
 A handle to the video processor object. 
 
 
-### -param StreamIndex [in]
+#### - StreamIndex [in]
 
 Indicates the input stream.
 
 
-### -param ColorSpace [in]
+#### - ColorSpace [in]
 
 Contains a <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> enumeration value identifying the color space.
 

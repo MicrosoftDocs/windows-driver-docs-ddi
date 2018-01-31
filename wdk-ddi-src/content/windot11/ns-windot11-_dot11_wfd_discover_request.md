@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 231318AA-9112-41E2-9E7A-FEC64E5FB30A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista._dot11_wfd_discover_request, *PDOT11_WFD_DISCOVER_REQUEST, windot11/ DOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST structure [Network Drivers Starting with Windows Vista], DOT11_WFD_DISCOVER_REQUEST, _DOT11_WFD_DISCOVER_REQUEST, PDOT11_WFD_DISCOVER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DISCOVER_REQUEST, PDOT11_WFD_DISCOVER_REQUEST
+ms.keywords: netvista._dot11_wfd_discover_request, _DOT11_WFD_DISCOVER_REQUEST, *PDOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST structure [Network Drivers Starting with Windows Vista], DOT11_WFD_DISCOVER_REQUEST, PDOT11_WFD_DISCOVER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_DISCOVER_REQUEST, windot11/ DOT11_WFD_DISCOVER_REQUEST, windot11/PDOT11_WFD_DISCOVER_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DISCOVER_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_DISCOVER_REQUEST, *PDOT11_WFD_DISCOVER_REQUEST
+req.typenames: "*PDOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST"
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ typedef struct _DOT11_WFD_DISCOVER_REQUEST {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the<b>OID_DOT11_WFD_DISCOVER_REQUEST</b> structure. This member is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -107,22 +107,22 @@ This member must be set to
        <b>sizeof</b>(<b>DOT11_SIZEOF_WFD_DISCOVER_REQUEST_REVISION_1</b>).
 
 
-### -field DiscoverType
+#### - DiscoverType
 
 The device discovery mode to use.
 
 
-### -field ScanType
+#### - ScanType
 
 Scanning type used during the scan phase of device discovery.
 
 
-### -field uDiscoverTimeout
+#### - uDiscoverTimeout
 
 Maximum time, in milliseconds, to complete the discovery operation. A miniport can complete a discovery in less time, however, it should not use any more time than specified by this value. This is the total time allowed for completion of all phases of device discovery.
 
 
-### -field uDeviceFilterListOffset
+#### - uDeviceFilterListOffset
 
 The offset to the list of P2P Device filters, which specifies the P2P devices and Group Owners to search for during Wi-Fi Direct device discovery. This offset is specified in bytes and is relative to the start of the buffer that contains the DOT11_WFD_DISCOVER_REQUEST structure. Each entry in the list is formatted as a DOT11_WFD_DISCOVER_DEVICE_FILTER.
 
@@ -131,22 +131,22 @@ When a list entry specifies a non-broadcast MAC address as the Device ID, the dr
 The offset in the <b>InformationBuffer</b> of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> where a list of P2P device identifiers begins. These are the identifiers to for during device discovery.
 
 
-### -field uNumDeviceFilters
+#### - uNumDeviceFilters
 
 The number of P2P device filters to use during WFD device discovery. The default value for this field is 0.
 
 
-### -field uIEsOffset
+#### - uIEsOffset
 
 The offset in the <b>InformationBuffer</b> of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure where the additional Informational Elements (IEs) begin.
 
 
-### -field uIEsLength
+#### - uIEsLength
 
 The length, in bytes, of the additional IEs which the Wi-Fi Direct device port must add to the probe request packet. If this value is 0, the system did not provide any IEs and the miniport must insert the  default IEs in the probe request packet. The default IEs are in  <b>DefaultRequestIEs</b> received earlier with an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451790">OID_DOT11_WFD_ADDITIONAL_IE</a> request.
 
 
-### -field bForceScanLegacyNetworks
+#### - bForceScanLegacyNetworks
 
 When TRUE, the Wi-Fi Direct device must also attempt to discover legacy networks. Otherwise, scanning for legacy networks is not necessary.
 

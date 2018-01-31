@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E6510000-E390-4631-9D47-5A57AB845EF6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2::AddBuffer, debugger.idebugfailureanalysis2_addbuffer, AddBuffer, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, extsfns/IDebugFailureAnalysis2::AddBuffer, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface
+ms.keywords: IDebugFailureAnalysis2, AddBuffer, debugger.idebugfailureanalysis2_addbuffer, AddBuffer method [Windows Debugging], AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, extsfns/IDebugFailureAnalysis2::AddBuffer, IDebugFailureAnalysis2::AddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ FA_ENTRY AddBuffer(
 
 
 
-### -param Tag
+#### - Tag
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param EntryType [in]
+#### - EntryType [in]
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration. This parameter specifies the data type of the data in <i>Buf</i>.
 
 
-### -param Buf [in]
+#### - Buf [in]
 
 A pointer to a buffer that contains the bytes to be written to the data block of the new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a>.
 
 
-### -param Size [in]
+#### - Size [in]
 
 The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
@@ -106,15 +106,15 @@ This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
 
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

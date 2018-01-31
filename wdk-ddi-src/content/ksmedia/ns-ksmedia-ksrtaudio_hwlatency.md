@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: dd9998d0-46e6-4b12-aa96-1e6eede15f47
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSRTAUDIO_HWLATENCY, ksmedia/KSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY structure [Audio Devices], *PKSRTAUDIO_HWLATENCY, audio.ksrtaudio_hwlatency, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], ksmedia/PKSRTAUDIO_HWLATENCY, aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, KSRTAUDIO_HWLATENCY
+ms.keywords: aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], KSRTAUDIO_HWLATENCY structure [Audio Devices], *PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY, ksmedia/KSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY, audio.ksrtaudio_hwlatency, ksmedia/PKSRTAUDIO_HWLATENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRTAUDIO_HWLATENCY
 product: Windows
 targetos: Windows
-req.typenames: KSRTAUDIO_HWLATENCY, *PKSRTAUDIO_HWLATENCY
+req.typenames: "*PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY"
 ---
 
 # KSRTAUDIO_HWLATENCY structure
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field FifoSize
+#### - FifoSize
 
 Specifies the size, in bytes, of the hardware FIFO.
 
 
-### -field ChipsetDelay
+#### - ChipsetDelay
 
 Specifies the delay through the chipset in 100-nanosecond units.
 
 
-### -field CodecDelay
+#### - CodecDelay
 
 Specifies the delay through the codec in 100-nanosecond units.
 

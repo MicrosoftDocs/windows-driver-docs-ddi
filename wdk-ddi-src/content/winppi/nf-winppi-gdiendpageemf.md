@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e15344a5-32ed-43a8-93c2-d5201617d595
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, winppi/GdiEndPageEMF, GdiEndPageEMF function [Print Devices], print.gdiendpageemf, GdiEndPageEMF
+ms.keywords: GdiEndPageEMF, winppi/GdiEndPageEMF, gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, GdiEndPageEMF function [Print Devices], print.gdiendpageemf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ BOOL GdiEndPageEMF(
 
 
 
-### -param SpoolFileHandle
+#### - SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 
 
-### -param dwOptimization
+#### - dwOptimization
 
 Caller-supplied flags. The following flag is defined:
 

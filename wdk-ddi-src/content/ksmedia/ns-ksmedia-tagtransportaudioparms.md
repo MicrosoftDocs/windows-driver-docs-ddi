@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 591ef01a-1a89-454a-ab58-a76813a9d4c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TRANSPORTAUDIOPARMS, tagTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml, ksmedia/PTRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS, stream.transportaudioparms, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], ksmedia/TRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices]
+ms.keywords: ksmedia/TRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], ksmedia/PTRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml, tagTRANSPORTAUDIOPARMS, stream.transportaudioparms, TRANSPORTAUDIOPARMS structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSPORTAUDIOPARMS
 product: Windows
 targetos: Windows
-req.typenames: "*PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS"
+req.typenames: TRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS
 ---
 
 # tagTRANSPORTAUDIOPARMS structure
@@ -71,27 +71,27 @@ typedef struct tagTRANSPORTAUDIOPARMS {
 
 
 
-### -field EnableOutput
+#### - EnableOutput
 
 Specifies the enable audio output. The default is ED_AUDIO_ALL.
 
 
-### -field EnableRecord
+#### - EnableRecord
 
 Specifies the enable audio record. The default is zero.
 
 
-### -field EnableSelsync
+#### - EnableSelsync
 
 Specifies the selsync.
 
 
-### -field Input
+#### - Input
 
 Specifies the audio input to use. For example, specify zero to use the first (zeroth) audio input.
 
 
-### -field MonitorSource
+#### - MonitorSource
 
 Indicates the monitor source. The default is zero.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3263b290-2966-4e19-9828-b91e7b2efa55
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_FRAMING_RANGE, PKS_FRAMING_RANGE structure pointer [Streaming Media Devices], KS_FRAMING_RANGE structure [Streaming Media Devices], ks/KS_FRAMING_RANGE, *PKS_FRAMING_RANGE, KS_FRAMING_RANGE, ks/PKS_FRAMING_RANGE, stream.ks_framing_range, ks-struct_a489de91-e530-4185-9344-0ab4fe426cc8.xml
+ms.keywords: PKS_FRAMING_RANGE, PKS_FRAMING_RANGE structure pointer [Streaming Media Devices], ks/PKS_FRAMING_RANGE, ks/KS_FRAMING_RANGE, KS_FRAMING_RANGE, KS_FRAMING_RANGE structure [Streaming Media Devices], stream.ks_framing_range, ks-struct_a489de91-e530-4185-9344-0ab4fe426cc8.xml, *PKS_FRAMING_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field MinFrameSize
+#### - MinFrameSize
 
 Specifies a minimum frame size of type ULONG.
 
 
-### -field MaxFrameSize
+#### - MaxFrameSize
 
 Specifies a maximum frame size of type ULONG.
 
 
-### -field Stepping
+#### - Stepping
 
 Specifies the step value that should be used to create legal values within the range defined in <b>MinFrameSize</b> and <b>MaxFrameSize</b>.
 
@@ -93,11 +93,11 @@ When specifying the <b>Stepping</b> member, ensure that the value does not excee
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
-
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
+
+<a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
 
  
 

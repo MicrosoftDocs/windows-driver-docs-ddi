@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e846a41a-9d9c-4ccb-a478-260f333333f1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: FORMATOP_MULTIPLANE_OVERLAY (0x20000000L), FORMATOP_NOALPHABLEND (0x00200000L), FORMATOP_BUMPMAP (0x00010000L), FORMATOP structure [Display Devices], D3D_other_Structs_c60ed644-61b9-4700-8944-131765951138.xml, FORMATOP_DMAP (0x00020000L), display.formatop, FORMATOP_DISPLAYMODE (0x00000400L), FORMATOP_3DACCELERATION (0x00000800L), FORMATOP_OFFSCREEN_RENDERTARGET (0x00000008L), FORMATOP_VERTEXTEXTURE (0x00800000L), FORMATOP_CAPTURE (0x08000000L), FORMATOP_CUBETEXTURE (0x00000004L), d3dumddi/FORMATOP, FORMATOP, FORMATOP_MEMBEROFGROUP_ARGB (0x00080000L), FORMATOP_OFFSCREENPLAIN (0x00004000L), FORMATOP_VIDEO_ENCODER (0x10000000L), FORMATOP_SAME_FORMAT_RENDERTARGET (0x00000010L), FORMATOP_ZSTENCIL (0x00000040L), FORMATOP_CONVERT_TO_ARGB (0x00002000L), FORMATOP_VOLUMETEXTURE (0x00000002L), FORMATOP_OVERLAY (0x04000000L), FORMATOP_PIXELSIZE (0x00001000L), FORMATOP_SRGBWRITE (0x00100000L), _FORMATOP, FORMATOP_TEXTURE (0x00000001L), FORMATOP_ZSTENCIL_WITH_ARBITRARY_COLOR_DEPTH (0x00000080L), FORMATOP_SRGBREAD (0x00008000L), FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L), FORMATOP_SAME_FORMAT_UP_TO_ALPHA_RENDERTARGET (0x00000100L), FORMATOP_PLANAR (0x02000000L), FORMATOP_AUTOGENMIPMAP (0x00400000L), FORMATOP_NOFILTER (0x00040000L)
+ms.keywords: display.formatop, FORMATOP_SRGBREAD (0x00008000L), d3dumddi/FORMATOP, FORMATOP_OFFSCREENPLAIN (0x00004000L), FORMATOP_VERTEXTEXTURE (0x00800000L), FORMATOP_BUMPMAP (0x00010000L), FORMATOP_OVERLAY (0x04000000L), FORMATOP_MULTIPLANE_OVERLAY (0x20000000L), FORMATOP_PLANAR (0x02000000L), FORMATOP_OFFSCREEN_RENDERTARGET (0x00000008L), FORMATOP_AUTOGENMIPMAP (0x00400000L), FORMATOP_NOFILTER (0x00040000L), FORMATOP_CUBETEXTURE (0x00000004L), FORMATOP_PIXELSIZE (0x00001000L), FORMATOP_ZSTENCIL_WITH_ARBITRARY_COLOR_DEPTH (0x00000080L), FORMATOP_VOLUMETEXTURE (0x00000002L), FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L), FORMATOP_ZSTENCIL (0x00000040L), FORMATOP, FORMATOP_VIDEO_ENCODER (0x10000000L), FORMATOP_CONVERT_TO_ARGB (0x00002000L), FORMATOP_3DACCELERATION (0x00000800L), FORMATOP_CAPTURE (0x08000000L), FORMATOP_NOALPHABLEND (0x00200000L), D3D_other_Structs_c60ed644-61b9-4700-8944-131765951138.xml, _FORMATOP, FORMATOP_DISPLAYMODE (0x00000400L), FORMATOP_DMAP (0x00020000L), FORMATOP_SAME_FORMAT_RENDERTARGET (0x00000010L), FORMATOP structure [Display Devices], FORMATOP_MEMBEROFGROUP_ARGB (0x00080000L), FORMATOP_TEXTURE (0x00000001L), FORMATOP_SRGBWRITE (0x00100000L), FORMATOP_SAME_FORMAT_UP_TO_ALPHA_RENDERTARGET (0x00000100L)
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _FORMATOP {
 
 
 
-### -field Format
+#### - Format
 
 [in] The <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface.
 
 
-### -field Operations
+#### - Operations
 
 [out] A valid bitwise <b>OR</b> of the following flags that indicate the operations that can be performed on surfaces with the pixel format that is specified in the <b>Format</b> member. Some of the following flags imply that other flags should be used. If a driver sets a flag that implies other flags, the driver is not required to set the implied flags, and the Direct3D runtime determines the use of the implied flags.
 
@@ -235,17 +235,17 @@ Surfaces of this format support a multiplane overlay.
 Supported starting with Windows 8.
 
 
-### -field FlipMsTypes
+#### - FlipMsTypes
 
 [out] A 32-bitmask for full-screen multiple sampling.
 
 
-### -field BltMsTypes
+#### - BltMsTypes
 
 [out] A 32-bitmask for windowed multiple sampling.
 
 
-### -field PrivateFormatBitCount
+#### - PrivateFormatBitCount
 
 [out] The bits per pixel of a pixel format that is private to the driver (that is, not one of the standard pixel formats that are defined by the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration type). 
 
@@ -256,11 +256,11 @@ Supported starting with Windows 8.
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
+
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
 
  
 

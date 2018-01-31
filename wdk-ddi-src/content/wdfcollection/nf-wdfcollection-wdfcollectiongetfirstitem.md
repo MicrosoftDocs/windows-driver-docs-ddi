@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4884de4d-6e5f-4c9f-bd49-2fc58481e9c6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCOLLECTIONGETFIRSTITEM, kmdf.wdfcollectiongetfirstitem, wdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem, DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, WdfCollectionGetFirstItem, WdfCollectionGetFirstItem method
+ms.keywords: kmdf.wdfcollectiongetfirstitem, WdfCollectionGetFirstItem method, PFN_WDFCOLLECTIONGETFIRSTITEM, wdfcollection/WdfCollectionGetFirstItem, wdf.wdfcollectiongetfirstitem, WdfCollectionGetFirstItem, DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFOBJECT WdfCollectionGetFirstItem(
 
 
 
-### -param Collection [in]
+#### - Collection [in]
 
 A handle to a collection object.
 

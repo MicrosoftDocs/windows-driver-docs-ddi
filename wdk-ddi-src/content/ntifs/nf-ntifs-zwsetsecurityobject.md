@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fbf6291e-9602-45d7-a620-702491a1d7de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwsetsecurityobject, ZwSetSecurityObject, ntifs/ZwSetSecurityObject, ntifs/NtSetSecurityObject, NtSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml
+ms.keywords: kernel.zwsetsecurityobject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, ntifs/ZwSetSecurityObject, ntifs/NtSetSecurityObject, ZwSetSecurityObject, NtSetSecurityObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwSetSecurityObject(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Handle for the object whose security state is to be set. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter.
 
 
-### -param SecurityInformation [in]
+#### - SecurityInformation [in]
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value specifying the information to be set. Can be a combination of one or more of the following. 
@@ -127,7 +127,7 @@ Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYST
 </table> 
 
 
-### -param SecurityDescriptor [in]
+#### - SecurityDescriptor [in]
 
 Pointer to the security descriptor to be set for the object.
 
@@ -264,11 +264,11 @@ Callers of <b>ZwSetSecurityObject</b> must be running at IRQL = PASSIVE_LEVEL an
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltsetsecurityobject.md">FltSetSecurityObject</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetsecurityobject.md">FltSetSecurityObject</a>
 
  
 

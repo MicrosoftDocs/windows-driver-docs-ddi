@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bf5e53fa-bafd-4325-be8e-97d1c6aa334e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING"
+ms.keywords: DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, _DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing, DXGK_TARGETMODE_DETAIL_TIMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,26 +69,26 @@ typedef struct _DXGK_TARGETMODE_DETAIL_TIMING {
 
 
 
-### -field VideoStandard
+#### - VideoStandard
 
 [in] A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>-typed value that indicates the supported video signal standard.
 
 
-### -field TimingId
+#### - TimingId
 
 [in] A UINT value that describes the registry ID of the video standard data described by <b>VideoStandard</b>. The high 8 bits indicate the target mode's video standard. The low 24 bits indicate the mode index in the video standard.
 
 
-### -field DetailTiming
+#### - DetailTiming
 
 [in] A <a href="..\d3dkmdt\ns-d3dkmdt-_displayid_detailed_timing_type_i.md">DISPLAYID_DETAILED_TIMING_TYPE_I</a>-typed value that indicates the target mode data for a video present target.
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_displayid_detailed_timing_type_i.md">DISPLAYID_DETAILED_TIMING_TYPE_I</a>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
 
  
 

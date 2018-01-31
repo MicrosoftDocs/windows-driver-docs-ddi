@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e58def50-3e35-43d9-9f7e-31283256b204
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffdo/WdfFdoInitQueryProperty, WdfFdoInitQueryProperty, DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, kmdf.wdffdoinitqueryproperty, wdf.wdffdoinitqueryproperty, WdfFdoInitQueryProperty method, PFN_WDFFDOINITQUERYPROPERTY
+ms.keywords: DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, kmdf.wdffdoinitqueryproperty, WdfFdoInitQueryProperty method, WdfFdoInitQueryProperty, wdf.wdffdoinitqueryproperty, PFN_WDFFDOINITQUERYPROPERTY, wdffdo/WdfFdoInitQueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitQueryProperty
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,27 @@ NTSTATUS WdfFdoInitQueryProperty(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator value that identifies the device property to be retrieved.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer</i>.
 
 
-### -param PropertyBuffer [out]
+#### - PropertyBuffer [out]
 
 A caller-supplied pointer to a caller-allocated buffer that receives the requested device property. This pointer can be <b>NULL</b> if the <i>BufferLength</i> parameter is zero.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 A caller-supplied location that, on return, contains the size, in bytes, of the information that <b>WdfFdoInitQueryProperty</b> stored in <i>PropertyBuffer</i>. If this method's return value is STATUS_BUFFER_TOO_SMALL, <i>ResultLength</i> receives the required buffer size.
 

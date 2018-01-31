@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 72935645-0567-4FC9-962C-3E823C08D001
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUCX_CONTROLLER_RESET_COMPLETE_INFO, _UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO structure [Buses], ucxcontroller/P_UCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO, ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO, buses._ucx_controller_reset_complete_info, P_UCX_CONTROLLER_RESET_COMPLETE_INFO structure pointer [Buses]"
+ms.keywords: "*PUCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO, buses._ucx_controller_reset_complete_info, ucxcontroller/P_UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO structure [Buses], P_UCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO structure pointer [Buses], ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO, _UCX_CONTROLLER_RESET_COMPLETE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCX_CONTROLLER_RESET_COMPLETE_INFO
 product: Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_RESET_COMPLETE_INFO, *PUCX_CONTROLLER_RESET_COMPLETE_INFO
+req.typenames: "*PUCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _UCX_CONTROLLER_RESET_COMPLETE_INFO {
 
 
 
-### -field Size
+#### - Size
 
 The size in bytes of this structure.
 
 
-### -field UcxControllerState
+#### - UcxControllerState
 
 The UCX controller state after reset. 
 
 
-### -field UcxCoordinated
+#### - UcxCoordinated
 
 Indicates if the reset was coordinated with UCX (TRUE) or not (FALSE).
 

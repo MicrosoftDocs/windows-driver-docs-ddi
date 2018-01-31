@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, WdfRequestCompleteWithPriorityBoost method, wdfrequest/WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost, wdf.wdfrequestcompletewithpriorityboost, kmdf.wdfrequestcompletewithpriorityboost
+ms.keywords: wdf.wdfrequestcompletewithpriorityboost, WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST, kmdf.wdfrequestcompletewithpriorityboost, wdfrequest/WdfRequestCompleteWithPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ VOID WdfRequestCompleteWithPriorityBoost(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to the framework request object that represents the I/O request that is being completed.
 
 
-### -param Status [in]
+#### - Status [in]
 
 An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS value</a> that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
@@ -100,7 +100,7 @@ The driver canceled the request.
 The driver encountered an error while processing the request.
 
 
-### -param PriorityBoost [in]
+#### - PriorityBoost [in]
 
 A system-defined constant value by which to increment the run-time priority of the original thread that requested the operation. Constant values are device-type-specific and are defined in <i>Wdm.h</i>. The format for the constant names is <i>XXX</i>_INCREMENT. For more information about priority boost values, see <a href="https://msdn.microsoft.com/9a501ca1-58c9-4458-b202-9581f8ce5e5f">Specifying Priority Boosts When Completing I/O Requests</a>.
 
@@ -129,11 +129,11 @@ For more information about calling <b>WdfRequestCompleteWithPriorityBoost</b>, s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7eda10df-56f8-4bb5-8f36-6246e51c1638
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, VideoPortReadPortBufferUchar function [Display Devices], video/VideoPortReadPortBufferUchar, display.videoportreadportbufferuchar, VideoPortReadPortBufferUchar
+ms.keywords: VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], display.videoportreadportbufferuchar, VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, video/VideoPortReadPortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortReadPortBufferUchar(
 
 
 
-### -param Port
+#### - Port
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer into which the UCHAR values are written.
 
 
-### -param Count
+#### - Count
 
 Specifies the number of bytes to be written to the buffer.
 
@@ -105,11 +105,11 @@ Callers of <b>VideoPortReadPortBufferUchar</b> can be running at any IRQL, provi
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

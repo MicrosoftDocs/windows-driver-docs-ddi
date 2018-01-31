@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21ca4ec1-fd5f-46bb-9760-3bb0cdb761b9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iocreateunprotectedsymboliclink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], IoCreateUnprotectedSymbolicLink, wdm/IoCreateUnprotectedSymbolicLink, k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml
+ms.keywords: kernel.iocreateunprotectedsymboliclink, IoCreateUnprotectedSymbolicLink, wdm/IoCreateUnprotectedSymbolicLink, k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS IoCreateUnprotectedSymbolicLink(
 
 
 
-### -param SymbolicLinkName [in]
+#### - SymbolicLinkName [in]
 
 Supplies the symbolic link name as a Unicode string. 
 
 
-### -param DeviceName [in]
+#### - DeviceName [in]
 
 Supplies the name of the device object to which the symbolic link name refers. 
 
@@ -101,13 +101,13 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
 <a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
 
 <a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
 
 <a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
-
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
  
 

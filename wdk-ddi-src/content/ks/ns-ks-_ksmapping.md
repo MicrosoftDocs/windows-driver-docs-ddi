@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9a5149dc-5506-4100-80fc-7cd17585d2af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSMAPPING, avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, ks/KSMAPPING, PKSMAPPING structure pointer [Streaming Media Devices], *PKSMAPPING, PKSMAPPING, KSMAPPING structure [Streaming Media Devices], _KSMAPPING, KSMAPPING, stream.ksmapping
+ms.keywords: ks/PKSMAPPING, PKSMAPPING, avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, ks/KSMAPPING, _KSMAPPING, stream.ksmapping, PKSMAPPING structure pointer [Streaming Media Devices], *PKSMAPPING, KSMAPPING structure [Streaming Media Devices], KSMAPPING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

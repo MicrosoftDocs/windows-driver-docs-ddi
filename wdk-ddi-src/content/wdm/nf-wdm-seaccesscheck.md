@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 90726c66-738f-416f-993a-84cbf2eb67d2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, SeAccessCheck routine [Kernel-Mode Driver Architecture], kernel.seaccesscheck, SeAccessCheck, wdm/SeAccessCheck
+ms.keywords: k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, SeAccessCheck, SeAccessCheck routine [Kernel-Mode Driver Architecture], kernel.seaccesscheck, wdm/SeAccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,52 +78,52 @@ BOOLEAN SeAccessCheck(
 
 
 
-### -param SecurityDescriptor [in]
+#### - SecurityDescriptor [in]
 
 Pointer to the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure that describes the security descriptor protecting the object being accessed. 
 
 
-### -param SubjectSecurityContext [in]
+#### - SubjectSecurityContext [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a> structure that specifies the subject's captured security context.
 
 
-### -param SubjectContextLocked [in]
+#### - SubjectContextLocked [in]
 
 Indicates whether the user's subject context is locked, so that it does not have to be locked again.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> bitmask for the access rights that the caller is attempting to acquire.  If the caller sets the MAXIMUM_ALLOWED bit, the routine performs all DACL checks. However, the routine does not do any privilege checks, unless the caller specifically requests them by setting the ACCESS_SYSTEM_SECURITY or WRITE_OWNER bits.
 
 
-### -param PreviouslyGrantedAccess [in]
+#### - PreviouslyGrantedAccess [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> bitmask of access rights already granted, such as access rights granted as a result of holding a privilege.
 
 
-### -param Privileges [out]
+#### - Privileges [out]
 
 Pointer to a caller-supplied variable to be set to the address of the <a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a> structure that will be used as part of the access validation, or this parameter can be <b>NULL</b>. The returned buffer, if any, must be released by the caller with <a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>.
 
 
-### -param GenericMapping [in]
+#### - GenericMapping [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a> structure associated with this object type. This value specifies the specific access rights implied by each GENERIC_<i>XXX</i> access right.
 
 
-### -param AccessMode [in]
+#### - AccessMode [in]
 
 Specifies the access mode to be used in the check, either <b>UserMode</b> or <b>KernelMode</b>.
 
 
-### -param GrantedAccess [out]
+#### - GrantedAccess [out]
 
 Pointer to a returned access mask indicating the granted access. If the caller specifies MAXIMUM_ALLOWED, and the DACL in <i>SecurityDescriptor</i> is <b>NULL</b>, then the routine returns GENERIC_ALL plus any additional access the caller explicitly requests.
 
 
-### -param AccessStatus [out]
+#### - AccessStatus [out]
 
 Pointer to the status value indicating why access was denied.
 
@@ -148,21 +148,21 @@ If this routine returns <b>FALSE</b>, the caller should use the returned <i>Acce
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
 <a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
-
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
-
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
-
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
 <a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
 
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
  
 

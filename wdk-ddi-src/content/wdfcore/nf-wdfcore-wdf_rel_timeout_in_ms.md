@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f68b9575-04e4-4046-aec4-b664d8a643d4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REL_TIMEOUT_IN_MS, kmdf.wdf_rel_timeout_in_ms, DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS function, wdfcore/WDF_REL_TIMEOUT_IN_MS, wdf.wdf_rel_timeout_in_ms
+ms.keywords: wdf.wdf_rel_timeout_in_ms, DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS, wdfcore/WDF_REL_TIMEOUT_IN_MS, kmdf.wdf_rel_timeout_in_ms, WDF_REL_TIMEOUT_IN_MS function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ LONGLONG WDF_REL_TIMEOUT_IN_MS(
 
 
 
-### -param Time [in]
+#### - Time [in]
 
 The number of milliseconds to convert.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4d1a3df6-2440-46b7-8e73-f017f5fcfa51
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteIoSpace, WdbgExts_Ref_1aa4429d-9d99-4c7c-8870-7a75ccaad6e5.xml, wdbgexts/WriteIoSpace, debugger.writeiospace, WriteIoSpace function [Windows Debugging]
+ms.keywords: debugger.writeiospace, WriteIoSpace, WriteIoSpace function [Windows Debugging], wdbgexts/WriteIoSpace, WdbgExts_Ref_1aa4429d-9d99-4c7c-8870-7a75ccaad6e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID  WriteIoSpace(
 
 
 
-### -param address
+#### - address
 
 Specifies the I/O address to write to.
 
 
-### -param data
+#### - data
 
 Specifies the address of a variable that holds the data to write. This must be at least the number of bytes contained in <i>size</i>.
 
 
-### -param size
+#### - size
 
 Specifies the address of a variable that contains the number of bytes to write. <i>Size</i> must be 1, 2, or 4. After the data is written, <i>size</i> will contain the number of bytes actually written.
 

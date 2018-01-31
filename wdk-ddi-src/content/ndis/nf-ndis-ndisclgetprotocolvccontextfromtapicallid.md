@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5c716207-b093-499a-8fad-344b5ac51e25
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista], NdisClGetProtocolVcContextFromTapiCallId, netvista.ndisclgetprotocolvccontextfromtapicallid, condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, ndis/NdisClGetProtocolVcContextFromTapiCallId
+ms.keywords: ndis/NdisClGetProtocolVcContextFromTapiCallId, netvista.ndisclgetprotocolvccontextfromtapicallid, condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, NdisClGetProtocolVcContextFromTapiCallId, NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ NDIS_STATUS NdisClGetProtocolVcContextFromTapiCallId(
 
 
 
-### -param TapiCallId [in]
+#### - TapiCallId [in]
 
 Unicode string that identifies a particular VC. This string is the Unicode version of a string
      identifier that was previously returned by the 
      <a href="..\ndis\nf-ndis-ndiscogettapicallid.md">NdisCoGetTapiCallID</a> function.
 
 
-### -param ProtocolVcContext [out]
+#### - ProtocolVcContext [out]
 
 Pointer to a caller-allocated NDIS_HANDLE that receives a handle to the client context for the VC.
      The client supplied this context to NDIS on return from its 

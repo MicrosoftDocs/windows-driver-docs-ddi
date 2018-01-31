@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3dd02d1-c259-4c17-8bd5-ee304e576a39
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SidTypeInvalid, SidTypeInvalid, ntifs/PSID_NAME_USE, ifsk.sid_name_use, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, SidTypeDomain, *PSID_NAME_USE, PSID_NAME_USE, ntifs/SidTypeUnknown, SidTypeDeletedAccount, PSID_NAME_USE enumeration pointer [Installable File System Drivers], ntifs/SID_NAME_USE, SidTypeGroup, ntifs/SidTypeUser, ntifs/SidTypeAlias, ntifs/SidTypeGroup, SidTypeLabel, SID_NAME_USE enumeration [Installable File System Drivers], SidTypeWellKnownGroup, ntifs/SidTypeDeletedAccount, ntifs/SidTypeDomain, ntifs/SidTypeComputer, SidTypeUser, SID_NAME_USE, SidTypeComputer, SidTypeAlias, SidTypeUnknown, _SID_NAME_USE, ntifs/SidTypeLabel, ntifs/SidTypeWellKnownGroup
+ms.keywords: ntifs/SID_NAME_USE, ntifs/SidTypeInvalid, _SID_NAME_USE, SidTypeWellKnownGroup, PSID_NAME_USE, ntifs/SidTypeUnknown, ntifs/SidTypeUser, SidTypeComputer, ntifs/SidTypeWellKnownGroup, SidTypeUser, SidTypeLabel, ntifs/SidTypeAlias, SidTypeGroup, ifsk.sid_name_use, SidTypeDomain, SID_NAME_USE enumeration [Installable File System Drivers], ntifs/SidTypeComputer, SidTypeDeletedAccount, ntifs/PSID_NAME_USE, ntifs/SidTypeGroup, ntifs/SidTypeLabel, PSID_NAME_USE enumeration pointer [Installable File System Drivers], SidTypeAlias, SidTypeUnknown, SidTypeInvalid, SID_NAME_USE, ntifs/SidTypeDeletedAccount, ntifs/SidTypeDomain, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, *PSID_NAME_USE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,52 +76,52 @@ typedef enum _SID_NAME_USE {
 
 
 
-### -field SidTypeUser
+#### - SidTypeUser
 
 This value indicates a user SID.
 
 
-### -field SidTypeGroup
+#### - SidTypeGroup
 
 This value indicates a group SID.
 
 
-### -field SidTypeDomain
+#### - SidTypeDomain
 
 This value indicates a domain SID.
 
 
-### -field SidTypeAlias
+#### - SidTypeAlias
 
 This value indicates an alias SID.
 
 
-### -field SidTypeWellKnownGroup
+#### - SidTypeWellKnownGroup
 
 This value indicates an SID for a well-known group.
 
 
-### -field SidTypeDeletedAccount
+#### - SidTypeDeletedAccount
 
 This value indicates a SID for a deleted account.
 
 
-### -field SidTypeInvalid
+#### - SidTypeInvalid
 
 This value indicates an invalid SID.
 
 
-### -field SidTypeUnknown
+#### - SidTypeUnknown
 
 This value indicates an unknown SID type.
 
 
-### -field SidTypeComputer
+#### - SidTypeComputer
 
 This value indicates a SID for a computer.
 
 
-### -field SidTypeLabel
+#### - SidTypeLabel
 
 
 
@@ -139,9 +139,9 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+
+<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
 
  
 

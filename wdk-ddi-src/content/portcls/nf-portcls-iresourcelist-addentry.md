@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7f4ac419-a24e-4421-9891-9fea9479e781
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AddEntry method [Audio Devices], AddEntry method [Audio Devices], IResourceList interface, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, portcls/IResourceList::AddEntry, IResourceList, audio.iresourcelist_addentry, AddEntry, IResourceList interface [Audio Devices], AddEntry method, IResourceList::AddEntry
+ms.keywords: portcls/IResourceList::AddEntry, IResourceList::AddEntry, AddEntry, audio.iresourcelist_addentry, AddEntry method [Audio Devices], IResourceList interface, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, IResourceList, IResourceList interface [Audio Devices], AddEntry method, AddEntry method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.AddEntry
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IResourceList::AddEntry method
@@ -68,12 +68,12 @@ NTSTATUS AddEntry(
 
 
 
-### -param Translated [in]
+#### - Translated [in]
 
 Pointer to a translated version of the entry. This parameter points to a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure containing the translated version of the entry to be added.
 
 
-### -param Untranslated [in]
+#### - Untranslated [in]
 
 Pointer to an untranslated version of the entry. This parameter points to a CM_PARTIAL_RESOURCE_DESCRIPTOR structure containing the untranslated (or "raw") version of the entry to be added.
 
@@ -104,9 +104,9 @@ Indicates there are no free entries in the list.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E019CCED-3511-4B7B-B6C9-09FF31B0547A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: urstypes/UrsHostInterfaceTypeXhci, UrsHostInterfaceTypeEhci, URS_HOST_INTERFACE_TYPE, urstypes/URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeXhci, URS_HOST_INTERFACE_TYPE enumeration [Buses], _URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeOther, UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeEhci, buses.urs_host_interface_type
+ms.keywords: URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeEhci, urstypes/UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, _URS_HOST_INTERFACE_TYPE, urstypes/URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeXhci, UrsHostInterfaceTypeXhci, URS_HOST_INTERFACE_TYPE enumeration [Buses], buses.urs_host_interface_type, urstypes/UrsHostInterfaceTypeOther
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _URS_HOST_INTERFACE_TYPE {
 
 
 
-### -field UrsHostInterfaceTypeEhci
+#### - UrsHostInterfaceTypeEhci
 
 Indicates an EHCI host controller.
 
 
-### -field UrsHostInterfaceTypeXhci
+#### - UrsHostInterfaceTypeXhci
 
 Indicates an xHCI host controller.
 
 
-### -field UrsHostInterfaceTypeOther
+#### - UrsHostInterfaceTypeOther
 
 Indicates a generic host controller.
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: B9CDFB62-32CF-497A-BF0F-1E4FBCA36E82
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_ISOCH_QUERY_RESOURCES, 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses], IEEE.irb_req_isoch_query_resources, IRB_REQ_ISOCH_QUERY_RESOURCES"
+ms.keywords: IRB_REQ_ISOCH_QUERY_RESOURCES, 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses], _IRB_REQ_ISOCH_QUERY_RESOURCES, IEEE.irb_req_isoch_query_resources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _IRB_REQ_ISOCH_QUERY_RESOURCES {
 
 
 
-### -field fulSpeed
+#### - fulSpeed
 
 Specifies the speed flag to use in allocating bandwidth. The possible speed values are SPEED_FLAGS_xxx, where xxx is the approximate transfer rate in megabits per second. Existing hardware supports transfer rates of 100, 200, and 400 MBps.
 <table>
@@ -110,12 +110,12 @@ SPEED_FLAGS_400
 </table> 
 
 
-### -field BytesPerFrameAvailable
+#### - BytesPerFrameAvailable
 
 On success, specifies the returned available bandwidth as expressed in bytes per isochronous frame. 
 
 
-### -field ChannelsAvailable
+#### - ChannelsAvailable
 
 On success, points to a bitmap of available channels.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 28d23e5e-4daf-4176-8d7b-af92eee8ccef
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.openlogfile2wide, OpenLogFile2Wide method [Windows Debugging], IDebugControl4::OpenLogFile2Wide, OpenLogFile2Wide, IDebugControl4 interface [Windows Debugging], OpenLogFile2Wide method, dbgeng/IDebugControl4::OpenLogFile2Wide, OpenLogFile2Wide method [Windows Debugging], IDebugControl4 interface, IDebugControl4
+ms.keywords: debugger.openlogfile2wide, dbgeng/IDebugControl4::OpenLogFile2Wide, IDebugControl4 interface [Windows Debugging], OpenLogFile2Wide method, OpenLogFile2Wide, OpenLogFile2Wide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::OpenLogFile2Wide, IDebugControl4, OpenLogFile2Wide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT OpenLogFile2Wide(
 
 
 
-### -param File [in]
+#### - File [in]
 
 Specifies the name of the log file.  <i>File</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger  was started.  If the file does not exist, it will be created.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the bit-flags that control the nature of the log file.  <i>Flags</i> can contain flags from the following table.
 <table>
@@ -141,21 +141,21 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
  
 

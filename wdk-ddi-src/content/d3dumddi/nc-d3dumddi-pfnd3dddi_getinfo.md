@@ -73,7 +73,7 @@ __checkReturn HRESULT APIENTRY GetInfo(
 
 
 
-### -param hDevice
+#### - hDevice
 
  A handle to the display device (graphics context).
 
@@ -86,7 +86,7 @@ __checkReturn HRESULT APIENTRY GetInfo(
 
 
 
-### -param DevInfoSize
+#### - DevInfoSize
 
  The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
 
@@ -158,9 +158,9 @@ The Direct3D 8 runtime sets the D3DDDIDEVINFOID_VCACHE flag in the <i>DevInfoID<
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddidevinfo_vcache.md">D3DDDIDEVINFO_VCACHE</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
  
 

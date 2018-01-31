@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba09333e-84a5-4166-a859-e09c0cf74347
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getoffsetbylinewide, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide, IDebugSymbols3, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, debugger.getoffsetbylinewide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide, IDebugSymbols3, IDebugSymbols3::GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetOffsetByLineWide(
 
 
 
-### -param Line [in]
+#### - Line [in]
 
 Specifies the line number in the source file.
 
 
-### -param File [in]
+#### - File [in]
 
 Specifies the file name of the source file.
 
 
-### -param Offset [out]
+#### - Offset [out]
 
 Receives the location in the target's virtual address space of an instruction for the specified line.
 

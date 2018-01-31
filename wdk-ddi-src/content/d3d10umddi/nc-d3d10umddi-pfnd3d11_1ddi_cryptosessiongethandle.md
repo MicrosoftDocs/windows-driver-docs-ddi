@@ -40,7 +40,7 @@ apiname:
 -	CryptoSessionGetHandle
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE callback
@@ -72,23 +72,21 @@ HRESULT APIENTRY* CryptoSessionGetHandle(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hCryptoSession [in]
+#### - hCryptoSession [in]
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>.
 
 
-### -param *pHandle
+#### - *pHandle [out]
 
-
-
-
+A handle that is created by the driver for the cryptographic session.
 
 
 #### - pHandle [out]

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 809b4cf8-e4c5-4cb6-b58f-8b6b98111361
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_DECODEBUFFERDESC structure [Display Devices], d3dumddi/DXVADDI_DECODEBUFFERDESC, DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, _DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc
+ms.keywords: DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, _DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc, d3dumddi/DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,32 +78,32 @@ typedef struct _DXVADDI_DECODEBUFFERDESC {
 
 
 
-### -field hBuffer
+#### - hBuffer
 
 [in] A handle to the buffer.
 
 
-### -field CompressedBufferType
+#### - CompressedBufferType
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the buffer.
 
 
-### -field BufferIndex
+#### - BufferIndex
 
 [in] Reserved. Do not use this member. For more information, see the Remarks section.
 
 
-### -field DataOffset
+#### - DataOffset
 
 [in] The offset of the relevant data from the beginning of the buffer, in bytes. The use of this member is currently restricted to the value zero. 
 
 
-### -field DataSize
+#### - DataSize
 
 [in] The amount of relevant data in the buffer, in bytes. The location of the last byte of content in the buffer is the value of <b>DataOffset</b> plus the value of <b>DataSize</b> minus 1.
 
 
-### -field FirstMBaddress
+#### - FirstMBaddress
 
 [in] The macroblock address of the first macroblock in the buffer that is passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of the <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> structure. The following table shows examples of macroblock addresses.
 <table>
@@ -158,7 +158,7 @@ The <b>FirstMBaddress</b> member must be zero if the data buffer is one of the f
 If the data buffer is a residual difference block data buffer, <b>FirstMBaddress</b> must have the same value as for the corresponding macroblock control command buffer. 
 
 
-### -field NumMBsInBuffer
+#### - NumMBsInBuffer
 
 [in] The number of macroblocks of data in the buffer, including skipped macroblocks. This member must be zero if the data buffer is one of the following types: picture decoding parameters, inverse-quantization matrix, AYUV, IA44/AI44, DPXD, Highlight, or DCCMD.
 
@@ -211,27 +211,27 @@ The same value as for the corresponding slice-control command buffer.
 </table> 
 
 
-### -field Width
+#### - Width
 
 [in] Reserved. Do not use this member. For more information, see the Remarks section.
 
 
-### -field Height
+#### - Height
 
 [in] Reserved. Do not use this member. For more information, see the Remarks section.
 
 
-### -field Stride
+#### - Stride
 
 [in] Reserved. Do not use this member. For more information, see the Remarks section.
 
 
-### -field ReservedBits
+#### - ReservedBits
 
 [in] Reserved bits that are used for packing and alignment. This member must be zero.
 
 
-### -field pCipherCounter
+#### - pCipherCounter
 
 [in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_hw_iv.md">DXVADDI_PVP_HW_IV</a> structure that contains a 128-bit protected video path (PVP) value. 
 
@@ -247,11 +247,11 @@ Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Dir
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_hw_iv.md">DXVADDI_PVP_HW_IV</a>
-
 <a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
 
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_hw_iv.md">DXVADDI_PVP_HW_IV</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
 

@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 06f6abf1-9b44-4cf3-96d3-2017e0f6adda
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], *PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices], winbio_ioctl/PWINBIO_DIAGNOSTICS, biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, _WINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, winbio_ioctl/WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS
+ms.keywords: WINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], _WINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS, biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, winbio_ioctl/WINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, winbio_ioctl/PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _WINBIO_DIAGNOSTICS {
 
 
 
-### -field PayloadSize
+#### - PayloadSize
 
 The total size of the payload.  This includes the fixed length structure and any variable data at the end.
 
 
-### -field WinBioHresult
+#### - WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values.
 <table>
@@ -107,12 +107,12 @@ The driver could not gather the necessary information from the device.
 </table> 
 
 
-### -field SensorStatus
+#### - SensorStatus
 
 A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536476">WINBIO_SENSOR_STATUS</a> that contains the operating status of the biometric sensor.
 
 
-### -field VendorDiagnostics
+#### - VendorDiagnostics
 
 An optional <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a> structure for vendor-specific additional information.
 

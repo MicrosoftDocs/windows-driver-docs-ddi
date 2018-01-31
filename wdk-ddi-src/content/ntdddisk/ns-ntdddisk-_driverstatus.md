@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/DRIVERSTATUS, *PDRIVERSTATUS, PDRIVERSTATUS, DRIVERSTATUS structure [Storage Devices], PDRIVERSTATUS structure pointer [Storage Devices], _DRIVERSTATUS, storage.driverstatus, ntdddisk/PDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, LPDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS, *LPDRIVERSTATUS
+ms.keywords: "*LPDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS structure [Storage Devices], structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, storage.driverstatus, _DRIVERSTATUS, DRIVERSTATUS, PDRIVERSTATUS, ntdddisk/DRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], *PDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, LPDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVERSTATUS
 product: Windows
 targetos: Windows
-req.typenames: DRIVERSTATUS, *PDRIVERSTATUS, *LPDRIVERSTATUS
+req.typenames: DRIVERSTATUS, *LPDRIVERSTATUS, *PDRIVERSTATUS
 ---
 
 # _DRIVERSTATUS structure
@@ -70,22 +70,22 @@ typedef struct _DRIVERSTATUS {
 
 
 
-### -field bDriverError
+#### - bDriverError
 
 Error code from driver, or 0 if no error.
 
 
-### -field bIDEError
+#### - bIDEError
 
 Contents of IDE Error register.
 
 
-### -field bReserved
+#### - bReserved
 
 Reserved. 
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved. 
 

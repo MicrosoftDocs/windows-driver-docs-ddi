@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06fd10ab-3478-4b01-b678-24944f17fa9d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRegisterPlugPlayNotification, k104_2210e60c-f9ca-4848-8aab-7b01d2d2ffd7.xml, kernel.ioregisterplugplaynotification, wdm/IoRegisterPlugPlayNotification, IoRegisterPlugPlayNotification routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoRegisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], kernel.ioregisterplugplaynotification, wdm/IoRegisterPlugPlayNotification, IoRegisterPlugPlayNotification, k104_2210e60c-f9ca-4848-8aab-7b01d2d2ffd7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS IoRegisterPlugPlayNotification(
 
 
 
-### -param EventCategory [in]
+#### - EventCategory [in]
 
 The category of PnP event for which the callback routine is being registered. <i>EventCategory</i> must be one of the following: 
 
@@ -96,7 +96,7 @@ PnP events in this category include query-change (GUID_HWPROFILE_QUERY_CHANGE), 
 PnP events in this category include events related to removing a device: the device's drivers received a query-remove IRP (GUID_TARGET_DEVICE_QUERY_REMOVE), the drivers completed a remove IRP (GUID_TARGET_DEVICE_REMOVE_COMPLETE), or the drivers received a cancel-remove IRP (GUID_TARGET_DEVICE_REMOVE_CANCELLED). This category is also used for custom notification events.
 
 
-### -param EventCategoryFlags [in]
+#### - EventCategoryFlags [in]
 
 Flag bits that modify the registration operation. Possible values include:
 
@@ -108,7 +108,7 @@ Flag bits that modify the registration operation. Possible values include:
 Only valid with an <i>EventCategory</i> of <b>EventCategoryDeviceInterfaceChange</b>. If set, the PnP manager calls the driver callback routine for each device interface instance that is currently registered and active and registers the callback routine for future arrivals or removals of device interface instances.
 
 
-### -param EventCategoryData [in, optional]
+#### - EventCategoryData [in, optional]
 
 A pointer to further information about the events for which <i>CallbackRoutine</i> is being registered. The information varies for different <i>EventCategory</i> values:
 <ul>
@@ -126,14 +126,14 @@ When <i>EventCategory</i> is <b>EventCategoryTargetDeviceChange</b>, <i>EventCat
 </li>
 </ul>
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 A pointer to the caller's driver object.
 
 To ensure that the driver remains loaded while it is registered for PnP notification, this call increments the reference count on <i>DriverObject</i>. The PnP manager decrements the reference count when this registration is removed.
 
 
-### -param CallbackRoutine [in]
+#### - CallbackRoutine [in]
 
 A pointer to the PnP notification callback routine to be called when the specified PnP event occurs.
 
@@ -202,12 +202,12 @@ For information about including a function declaration for the callback routine 
 The PnP manager calls driver callback routines at IRQL = PASSIVE_LEVEL.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 A pointer to a caller-allocated buffer containing context that the PnP manager passes to the callback routine.
 
 
-### -param NotificationEntry [out]
+#### - NotificationEntry [out]
 
 A pointer to an opaque value returned by this call that identifies the registration. Pass this value to the <a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a> routine to remove the registration. (In versions of Windows before Windows 7, call the <a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a> routine instead of <b>IoUnregisterPlugPlayNotificationEx</b>.)
 
@@ -237,25 +237,25 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
 
-<a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md">EvtDeviceSelfManagedIoInit</a>
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
 
 <a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
 
-<a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md">EvtDeviceSelfManagedIoInit</a>
 
-<a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
+
+<a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a>
+
+<a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
 
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+<a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
 
  
 

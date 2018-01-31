@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a30c10d4-5e85-4a59-b262-054a6fdc2fb8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml, SET_PARTITION_INFORMATION_EX structure [Storage Devices], ntdddisk/SET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], ntdddisk/PSET_PARTITION_INFORMATION_EX, _SET_PARTITION_INFORMATION_EX
+ms.keywords: PSET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX structure [Storage Devices], ntdddisk/SET_PARTITION_INFORMATION_EX, ntdddisk/PSET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, _SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], SET_PARTITION_INFORMATION_EX, structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,7 +86,7 @@ typedef struct _SET_PARTITION_INFORMATION_EX {
  
 
 
-### -field PartitionStyle
+#### - PartitionStyle
 
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table that contains the partition.
 
@@ -112,9 +112,9 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION_MBR</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">SET_PARTITION_INFORMATION_GPT</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION_MBR</a>
 
  
 

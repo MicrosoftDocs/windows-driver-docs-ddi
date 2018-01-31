@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_perf_state_unit, PepPerfStateUnitOther, *PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, _PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitOther, pepfx/PepPerfStateUnitFrequency, PepPerfStateUnitFrequency, PepPerfStateUnitMax, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitMax, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitBandwidth
+ms.keywords: "*PPEP_PERF_STATE_UNIT, PepPerfStateUnitBandwidth, PepPerfStateUnitOther, PepPerfStateUnitMax, PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitBandwidth, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitOther, _PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitMax, pepfx/PepPerfStateUnitFrequency, kernel.pep_perf_state_unit, PEP_PERF_STATE_UNIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PERF_STATE_UNIT
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT"
+req.typenames: PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT
 ---
 
 # _PEP_PERF_STATE_UNIT enumeration
@@ -70,22 +70,22 @@ typedef enum _PEP_PERF_STATE_UNIT {
 
 
 
-### -field PepPerfStateUnitOther
+#### - PepPerfStateUnitOther
 
 Some other type of measurement units not explicitly described by this enumeration.
 
 
-### -field PepPerfStateUnitFrequency
+#### - PepPerfStateUnitFrequency
 
 Hertz (frequency units).
 
 
-### -field PepPerfStateUnitBandwidth
+#### - PepPerfStateUnitBandwidth
 
 Bits per second (bandwidth units).
 
 
-### -field PepPerfStateUnitMax
+#### - PepPerfStateUnitMax
 
 Reserved for use by operating system.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: A009B276-AF91-4FDD-AB81-6992311B3744
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsPinPipe::KsGetFilterName, KsGetFilterName method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsGetFilterName method, IKsPinPipe::KsGetFilterName, KsGetFilterName, stream.ikspinpipe_ksgetfiltername, KsGetFilterName method [Streaming Media Devices], IKsPinPipe
+ms.keywords: KsGetFilterName, IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsGetFilterName method, ksproxy/IKsPinPipe::KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

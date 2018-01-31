@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c4f43f4c-a598-4bda-9325-21440f56ab17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlNextUnicodePrefix, rtlref_75c728f8-96b0-4e46-b47a-7d30ac61872c.xml, ifsk.rtlnextunicodeprefix, RtlNextUnicodePrefix, RtlNextUnicodePrefix routine [Installable File System Drivers]
+ms.keywords: rtlref_75c728f8-96b0-4e46-b47a-7d30ac61872c.xml, ntifs/RtlNextUnicodePrefix, RtlNextUnicodePrefix, ifsk.rtlnextunicodeprefix, RtlNextUnicodePrefix routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PUNICODE_PREFIX_TABLE_ENTRY RtlNextUnicodePrefix(
 
 
 
-### -param PrefixTable [in]
+#### - PrefixTable [in]
 
 Pointer to the prefix table. The table must have been initialized by calling <a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>.
 
 
-### -param Restart [in]
+#### - Restart [in]
 
 Set to <b>TRUE</b> if the enumeration is to start at the first element in the table. Set to <b>FALSE</b> if resuming the enumeration from a previous call.
 
@@ -115,11 +115,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 <a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
 
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
-
 <a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
 
 <a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+
+<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
 
  
 

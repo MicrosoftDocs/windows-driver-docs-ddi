@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoPropagateActivityIdToThread, kernel.iopropagateactivityidtothread, IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoPropagateActivityIdToThread, ntddk/IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], kernel.iopropagateactivityidtothread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS IoPropagateActivityIdToThread(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 The IRP whose ID will be propagated to the thread.
 
 
-### -param PropagatedId [out]
+#### - PropagatedId [out]
 
 A pointer to memory allocated by the caller to store the ID in the thread.
 

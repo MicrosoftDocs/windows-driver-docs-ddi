@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 95b6e441-f564-4642-8474-8e10e83177b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcollectiongetcount, kmdf.wdfcollectiongetcount, WdfCollectionGetCount method, WdfCollectionGetCount, PFN_WDFCOLLECTIONGETCOUNT, DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml, wdfcollection/WdfCollectionGetCount
+ms.keywords: PFN_WDFCOLLECTIONGETCOUNT, WdfCollectionGetCount, DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml, WdfCollectionGetCount method, wdf.wdfcollectiongetcount, kmdf.wdfcollectiongetcount, wdfcollection/WdfCollectionGetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ ULONG WdfCollectionGetCount(
 
 
 
-### -param Collection [in]
+#### - Collection [in]
 
 A handle to a collection object.
 

@@ -40,7 +40,7 @@ apiname:
 -	MyControl
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -74,24 +74,24 @@ IO_ALLOCATION_ACTION MyControl(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <i>AddDevice</i> routine.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 Caller-supplied pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure. <i>Irp</i> is equal to the value of the <b>CurrentIrp</b> member of <i>DeviceObject</i> when the callback routine was registered.
 
 
-### -param MapRegisterBase [in]
+#### - MapRegisterBase [in]
 
 In the case of <i>AdapterControl</i>, this is a caller-supplied opaque value that represents  the map registers that the system has assigned for this transfer operation. The driver passes this value to <a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>, <a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>, and <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>.
 
 In the case of <i>ControllerControl</i>, this is not used.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>.
 

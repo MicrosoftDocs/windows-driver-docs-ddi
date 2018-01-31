@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfe2ab95-e494-430d-81c7-8f209a37024f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, d3dumddi/D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC, display.d3dddiarg_lockasync, _D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices]
+ms.keywords: "_D3DDDIARG_LOCKASYNC, UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, D3DDDIARG_LOCKASYNC, display.d3dddiarg_lockasync, D3DDDIARG_LOCKASYNC structure [Display Devices], d3dumddi/D3DDDIARG_LOCKASYNC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,57 +81,57 @@ typedef struct _D3DDDIARG_LOCKASYNC {
 
 
 
-### -field Range
+#### - Range
 
 [in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock, if the <b>RangeValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
 
-### -field Area
+#### - Area
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
 
-### -field Box
+#### - Box
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock, if the <b>BoxValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to the resource to be locked. 
 
 
-### -field SubResourceIndex
+#### - SubResourceIndex
 
 [in] The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be locked.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. 
 <div class="alert"><b>Note</b>    Some flags are mutually exclusive with other flags. For more information, see the following Remarks section.</div><div> </div>
 
-### -field hCookie
+#### - hCookie
 
 [out] A handle that represents the renamed resource. This handle is valid only if the <b>Discard</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies. 
 
 
-### -field pSurfData
+#### - pSurfData
 
 [out] A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function returns this pointer to the Microsoft Direct3D runtime.
 
 
-### -field Pitch
+#### - Pitch
 
 [out] The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function returns this pitch value to the Direct3D runtime.
 
 
-### -field SlicePitch
+#### - SlicePitch
 
 [out] The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function returns this slice pitch value to the Direct3D runtime.
 
 
-### -field GpuVirtualAddress
+#### - GpuVirtualAddress
 
 This member is reserved and should be set to zero.
 
@@ -156,11 +156,11 @@ Only one of the <b>RangeValid</b>, <b>AreaValid</b>, and <b>BoxValid</b> bit-fie
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
  
 

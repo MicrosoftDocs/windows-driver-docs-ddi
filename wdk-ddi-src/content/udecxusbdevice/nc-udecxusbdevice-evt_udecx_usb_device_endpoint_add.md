@@ -40,7 +40,7 @@ apiname:
 -	EvtUsbDeviceEndpointAdd
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH"
+req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS EvtUsbDeviceEndpointAdd(
 
 
 
-### -param UdecxUsbDevice [in]
+#### - UdecxUsbDevice [in]
 
 A handle to the UDE device object for which the client driver creates an endpoint. The driver created this object in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 
 
-### -param EndpointToCreate [in]
+#### - EndpointToCreate [in]
 
 A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_endpoint_init_and_metadata.md">UDECX_USB_ENDPOINT_INIT_AND_METADATA</a>             structure that contains the endpoint descriptor.
 
@@ -100,11 +100,11 @@ In the implementation, the client driver is expected to create the endpoint by c
 
 ## -see-also
 
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
  
 

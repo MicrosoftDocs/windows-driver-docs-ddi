@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6205df9f-a6b1-4dd1-97a8-5d0d57a7ddd1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2INDEXEDLINELIST, d3dhal/D3DHAL_DP2INDEXEDLINELIST, display.d3dhal_dp2indexedlinelist, LPD3DHAL_DP2INDEXEDLINELIST, d3dstrct_895bb4b6-3e98-4275-a61d-38d89ec23a6f.xml, d3dhal/LPD3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST, LPD3DHAL_DP2INDEXEDLINELIST structure pointer [Display Devices], D3DHAL_DP2INDEXEDLINELIST structure [Display Devices], _D3DHAL_DP2INDEXEDLINELIST"
+ms.keywords: D3DHAL_DP2INDEXEDLINELIST, display.d3dhal_dp2indexedlinelist, d3dhal/D3DHAL_DP2INDEXEDLINELIST, LPD3DHAL_DP2INDEXEDLINELIST, _D3DHAL_DP2INDEXEDLINELIST, *LPD3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDLINELIST structure pointer [Display Devices], d3dstrct_895bb4b6-3e98-4275-a61d-38d89ec23a6f.xml, d3dhal/LPD3DHAL_DP2INDEXEDLINELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DHAL_DP2INDEXEDLINELIST
 product: Windows
 targetos: Windows
-req.typenames: "*LPD3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST"
+req.typenames: D3DHAL_DP2INDEXEDLINELIST, *LPD3DHAL_DP2INDEXEDLINELIST
 ---
 
 # _D3DHAL_DP2INDEXEDLINELIST structure
@@ -68,12 +68,12 @@ typedef struct _D3DHAL_DP2INDEXEDLINELIST {
 
 
 
-### -field wV1
+#### - wV1
 
 Specifies the index into the vertex buffer, identifying the first endpoint of the line.
 
 
-### -field wV2
+#### - wV2
 
 Specifies the index into the vertex buffer, identifying the second endpoint of the line.
 
@@ -103,13 +103,13 @@ When the command is D3DDP2OP_INDEXEDLINELIST2, a <a href="..\d3dhal\ns-d3dhal-_d
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
 D3DDP2OP_INDEXEDLINELIST
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

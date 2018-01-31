@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4e7d2a46-b31e-4ead-8918-b6da970eb7c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS, netvista.rilcloseuicclogicalchannelparams_2, RILCLOSEUICCLOGICALCHANNELPARAMS"
+ms.keywords: RILCLOSEUICCLOGICALCHANNELPARAMS, rilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILCLOSEUICCLOGICALCHANNELPARAMS, netvista.rilcloseuicclogicalchannelparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCLOSEUICCLOGICALCHANNELPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILCLOSEUICCLOGICALCHANNELPARAMS, *LPRILCLOSEUICCLOGICALCHANNELPARAMS
+req.typenames: "*LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,10 @@ typedef struct _RILCLOSEUICCLOGICALCHANNELPARAMS {
 
 
 
-### -field dwSlotIndex
+#### - dwSlotIndex
 
 
 
-### -field dwChannelId
+#### - dwChannelId
 
 

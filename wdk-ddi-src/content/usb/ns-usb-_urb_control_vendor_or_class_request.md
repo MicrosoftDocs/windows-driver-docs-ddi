@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, USBD_TRANSFER_DIRECTION_IN, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, buses._urb_control_vendor_or_class_request, USBD_SHORT_TRANSFER_OK, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml
+ms.keywords: usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], USBD_TRANSFER_DIRECTION_IN, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, USBD_SHORT_TRANSFER_OK, buses._urb_control_vendor_or_class_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ struct _URB_CONTROL_VENDOR_OR_CLASS_REQUEST {
 
 
 
-### -field Hdr
+#### - Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of URB_FUNCTION_CLASS_XXX or URB_FUNCTION_VENDOR_XXX GET_STATUS, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_VENDOR_OR_CLASS_REQUEST)</code>.
 
@@ -95,12 +95,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-### -field UrbLink
+#### - UrbLink
 
 Reserved. Do not use.
 
 
-### -field hca
+#### - hca
 
 Reserved. Do not use.
 
@@ -110,11 +110,11 @@ Reserved. Do not use.
  
 
 
-### -field Reserved
+#### - Reserved
 
 
 
-### -field TransferFlags
+#### - TransferFlags
 
 
 Specifies zero, one, or a combination of the following flags:
@@ -159,42 +159,42 @@ This flag should not be set unless USBD_TRANSFER_DIRECTION_IN is also set.
 </table> 
 
 
-### -field TransferBufferLength
+#### - TransferBufferLength
 
 Specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes sent to or read from the pipe in this member.
 
 
-### -field TransferBuffer
+#### - TransferBuffer
 
 Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>. The contents of this buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified this buffer will contain data read from the device on return from the host controller driver. Otherwise, this buffer contains driver-supplied data for transfer to the device.
 
 
-### -field TransferBufferMDL
+#### - TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
 
 
-### -field RequestTypeReservedBits
+#### - RequestTypeReservedBits
 
 Reserved. Do not use.
 
 
-### -field Request
+#### - Request
 
 Specifies the USB or vendor-defined request code for the device, interface, endpoint, or other device-defined target.
 
 
-### -field Value
+#### - Value
 
 Specifies a value, specific to <b>Request</b>, that becomes part of the USB-defined setup packet for the target. This value is defined by the creator of the code used in <b>Request</b>.
 
 
-### -field Index
+#### - Index
 
 Specifies the device-defined index, returned by a successful configuration request, if the request is for an endpoint or interface. Otherwise, <b>Index</b> must be zero.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. Do not use.
 
@@ -210,11 +210,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

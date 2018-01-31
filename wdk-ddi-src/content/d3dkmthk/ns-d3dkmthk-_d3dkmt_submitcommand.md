@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FA6EA2BA-938C-4377-A85A-2168C4C1F3C6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_SUBMITCOMMAND, display.d3dkmt_submitcommand, d3dkmthk/D3DKMT_SUBMITCOMMAND, D3DKMT_SUBMITCOMMAND, D3DKMT_SUBMITCOMMAND structure [Display Devices]"
+ms.keywords: display.d3dkmt_submitcommand, D3DKMT_SUBMITCOMMAND, d3dkmthk/D3DKMT_SUBMITCOMMAND, _D3DKMT_SUBMITCOMMAND, D3DKMT_SUBMITCOMMAND structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,62 +78,62 @@ typedef struct _D3DKMT_SUBMITCOMMAND {
 
 
 
-### -field Commands
+#### - Commands
 
 The GPU virtual address for the commands being submitted to the context for execution. This information is provided to the driver during command submission and is also used for debugging purposes.
 
 
-### -field CommandLength
+#### - CommandLength
 
 Specifies the length, in bytes, of the commands being submitted to the GPU. 
 
 
-### -field Flags
+#### - Flags
 
 An instance of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommandflags.md">D3DDDICB_SUBMITCOMMANDFLAGS</a> structure.
 
 
-### -field PresentHistoryToken
+#### - PresentHistoryToken
 
 This member is reserved for future use.
 
 
-### -field BroadcastContextCount
+#### - BroadcastContextCount
 
 Specifies the number of context these command should be submitted to. This count must be at least 1.
 
 
-### -field BroadcastContext
+#### - BroadcastContext
 
 Specifies the handle of the context to execute the specified commands.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 Pointer to the driver private data to submitted by the user mode driver.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Size of the private driver data information being passed. This size must be smaller than the size requested by the kernel mode  driver for submission private driver data or the call will fail.
 
 
-### -field NumPrimaries
+#### - NumPrimaries
 
 Specifies the number of primaries and swapchain back buffers being written to by the submitted commands. This is equal to the number of allocations in the <b>WrittenPrimaries</b> array.
 
 
-### -field WrittenPrimaries
+#### - WrittenPrimaries
 
 Arrays of handle to the primaries and swapchain back buffers being written to by the submitted commands.
 
 
-### -field NumHistoryBuffers
+#### - NumHistoryBuffers
 
 This member is reserved for future use.
 
 
-### -field HistoryBufferArray
+#### - HistoryBufferArray
 
 This member is reserved for future use.
 

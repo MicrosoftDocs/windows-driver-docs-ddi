@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorscx/SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], SensorsCxSensorInitialize, sensors.sensorscxsensorinitialize
+ms.keywords: SensorsCxSensorInitialize function [Sensor Devices], sensors.sensorscxsensorinitialize, SensorsCxSensorInitialize, sensorscx/SensorsCxSensorInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ FORCEINLINE NTSTATUS SensorsCxSensorInitialize(
 
 
 
-### -param Sensor [in]
+#### - Sensor [in]
 
 A reference to a sensor object.
 
 
-### -param pSensorConfig [in]
+#### - pSensorConfig [in]
 
 A list of enumeration properties. For more information, see <a href="..\sensorscx\ns-sensorscx-_sensor_config.md">SENSOR_CONFIG</a>.
 

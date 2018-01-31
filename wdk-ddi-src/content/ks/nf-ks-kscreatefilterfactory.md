@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ebfdae87-febc-4383-93f4-5d613df273a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreatefilterfactory, KsCreateFilterFactory, KsCreateFilterFactory function [Streaming Media Devices], ks/KsCreateFilterFactory, avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml
+ms.keywords: KsCreateFilterFactory function [Streaming Media Devices], avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml, ks/KsCreateFilterFactory, KsCreateFilterFactory, stream.kscreatefilterfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NTSTATUS KsCreateFilterFactory(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for which to add a filter factory. 
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> that describes the characteristics of individual filters that this factory can create.
 
 
-### -param RefString [in, optional]
+#### - RefString [in, optional]
 
 If this argument is provided, this string is used as the reference string for filters created by this factory. Otherwise, the reference GUID provided in the descriptor is used.
 
 
-### -param SecurityDescriptor [in, optional]
+#### - SecurityDescriptor [in, optional]
 
 The security descriptor to use in creation of filters by this filter factory. If <b>NULL</b>, no descriptor is provided.
 
 
-### -param CreateItemFlags [in]
+#### - CreateItemFlags [in]
 
 The following table lists the flags that the minidriver writer uses to specify the characteristics of filters that the new filter factory can create. Set this parameter to the bitwise OR of the flags below.
 <table>
@@ -146,7 +146,7 @@ Indicates that the create item should be freed when the PnP manager sends <a hre
 </table> 
 
 
-### -param SleepCallback [in, optional]
+#### - SleepCallback [in, optional]
 
 A pointer to a minidriver-provided routine that receives notifications that the device associated with this filter is going to sleep. Prototype the routine as follows:
 <div class="code"><span codelanguage=""><table>
@@ -162,7 +162,7 @@ A pointer to a minidriver-provided routine that receives notifications that the 
 </table></span></div>If this parameter is <b>NULL</b>, this filter factory is not notified that the device is going to sleep. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">Device Power States</a>.
 
 
-### -param WakeCallback [in, optional]
+#### - WakeCallback [in, optional]
 
 A pointer to a minidriver-provided routine that receives notifications that the device associated with this filter is waking up. Prototype the routine as follows:
 <div class="code"><span codelanguage=""><table>
@@ -178,7 +178,7 @@ A pointer to a minidriver-provided routine that receives notifications that the 
 </table></span></div>If this parameter is <b>NULL</b>, this filter factory is not notified that the device is waking up. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">Device Power States</a>. 
 
 
-### -param FilterFactory [out, optional]
+#### - FilterFactory [out, optional]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure that AVStream sets to point to the newly created filter factory object. If this optional parameter is unspecified, the caller is not informed about the resulting filter factory object.
 
@@ -205,13 +205,13 @@ This function should be used by minidrivers that either initialize themselves wi
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\ks\nf-ks-ksdeletefilterfactory.md">KsDeleteFilterFactory</a>
 
 <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
  
 

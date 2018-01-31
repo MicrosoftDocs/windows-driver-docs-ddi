@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration, kernel.kesethardwarecounterconfiguration, k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/KeSetHardwareCounterConfiguration, kernel.kesethardwarecounterconfiguration, k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], KeSetHardwareCounterConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS KeSetHardwareCounterConfiguration(
 
 
 
-### -param CounterArray [in]
+#### - CounterArray [in]
 
 A pointer to a <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a> array that describes the hardware counter configuration to use for thread profiling. Each array element is a structure that describes a hardware counter. Before the routine returns, it copies the contents of this array into its internal data structures.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of elements in the array that is pointed to by the <i>CounterArray</i> parameter.
 
@@ -149,13 +149,13 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
-
 <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
 
 <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
 
 <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
+
+<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
 
  
 

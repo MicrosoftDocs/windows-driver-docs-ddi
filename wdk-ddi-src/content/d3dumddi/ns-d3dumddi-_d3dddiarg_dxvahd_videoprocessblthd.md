@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16eb6131-89d5-48da-b5f8-f51b9c37e061
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml, display.d3dddiarg_dxvahd_videoprocessblthd, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
+ms.keywords: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, display.d3dddiarg_dxvahd_videoprocessblthd, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD {
 
 
 
-### -field hVideoProcessor
+#### - hVideoProcessor
 
 [in] A handle to the DirectX VA video processing device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> function.
 
 
-### -field OutputSurface
+#### - OutputSurface
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a> structure that describes the output surface to which the video processor composes. 
 
 
-### -field OutputFrame
+#### - OutputFrame
 
 [in] A zero-based frame number of the composed output frames. 
 
 
-### -field StreamCount
+#### - StreamCount
 
 [in] The number of streams to process. This number must be less than the number that the driver set in the <b>MaxStreamStates</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a> structure. 
 
 
-### -field pStreams
+#### - pStreams
 
 [in] An array of <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a> structures that describe the input streams to process. 
 
@@ -127,11 +127,11 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 

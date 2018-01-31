@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 945d921b-3024-4c4f-a50d-e996c6183db7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS, ndis/NDIS_MINIPORT_INIT_PARAMETERS, PNDIS_MINIPORT_INIT_PARAMETERS, miniport_structures_ref_064614b0-eb2a-4fdd-8b0a-d14540e6faa5.xml, *PNDIS_MINIPORT_INIT_PARAMETERS, _NDIS_MINIPORT_INIT_PARAMETERS, PNDIS_MINIPORT_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_init_parameters
+ms.keywords: miniport_structures_ref_064614b0-eb2a-4fdd-8b0a-d14540e6faa5.xml, ndis/NDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS, netvista.ndis_miniport_init_parameters, ndis/PNDIS_MINIPORT_INIT_PARAMETERS, PNDIS_MINIPORT_INIT_PARAMETERS, *PNDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_INIT_PARAMETERS, PNDIS_MINIPORT_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ typedef struct _NDIS_MINIPORT_INIT_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -87,12 +87,12 @@ The
      <b>Size</b> member to NDIS_SIZEOF_MINIPORT_INIT_PARAMETER_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 Reserved for NDIS.
 
 
-### -field AllocatedResources
+#### - AllocatedResources
 
 A pointer to an NDIS_RESOURCE_LIST-type structure that lists the hardware resources that the Plug
      and Play Manager assigned to the miniport adapter. The NDIS_RESOURCE_LIST is type definition that is
@@ -101,7 +101,7 @@ A pointer to an NDIS_RESOURCE_LIST-type structure that lists the hardware resour
      2000 and later platforms.
 
 
-### -field IMDeviceInstanceContext
+#### - IMDeviceInstanceContext
 
 A pointer to the context area for a virtual device that an intermediate driver supports. The
      driver passed this pointer to the 
@@ -111,26 +111,26 @@ A pointer to the context area for a virtual device that an intermediate driver s
      <b>IMDeviceInstanceContext</b> is <b>NULL</b>.
 
 
-### -field MiniportAddDeviceContext
+#### - MiniportAddDeviceContext
 
 A handle for a driver-allocated context area, or <b>NULL</b>. The miniport driver specifies this handle,
      if any, in the 
      <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function.
 
 
-### -field IfIndex
+#### - IfIndex
 
 The network interface index that is associated with the miniport adapter.
 
 
-### -field NetLuid
+#### - NetLuid
 
 The 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value that is associated with the
      miniport adapter.
 
 
-### -field DefaultPortAuthStates
+#### - DefaultPortAuthStates
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_port_authentication_parameters" tabindex="0"><b>
@@ -140,7 +140,7 @@ A pointer to an
      OID_GEN_PORT_AUTHENTICATION_PARAMETERS</mshelp:link>.
 
 
-### -field PciDeviceCustomProperties
+#### - PciDeviceCustomProperties
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_pci_device_custom_properties" tabindex="0"><b>
@@ -159,27 +159,27 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_gen_port_authentication_parameters" tabindex="0">
-   OID_GEN_PORT_AUTHENTICATION_PARAMETERS</mshelp:link>
+<mshelp:link keywords="netvista.ndis_pci_device_custom_properties" tabindex="0"><b>
+   NDIS_PCI_DEVICE_CUSTOM_PROPERTIES</b></mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
+<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
+   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_port_authentication_parameters" tabindex="0"><b>
    NDIS_PORT_AUTHENTICATION_PARAMETERS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+<a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
 
-<mshelp:link keywords="netvista.ndis_pci_device_custom_properties" tabindex="0"><b>
-   NDIS_PCI_DEVICE_CUSTOM_PROPERTIES</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<mshelp:link keywords="netvista.oid_gen_port_authentication_parameters" tabindex="0">
+   OID_GEN_PORT_AUTHENTICATION_PARAMETERS</mshelp:link>
 
  
 

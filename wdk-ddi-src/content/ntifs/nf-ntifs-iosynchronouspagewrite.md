@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d66b517-91cd-44f7-8dfe-853468c49352
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoSynchronousPageWrite, ifsk.iosynchronouspagewrite, IoSynchronousPageWrite function [Installable File System Drivers], ioref_9ed81b03-18f6-4641-8f4e-b12c4afcfc5d.xml, IoSynchronousPageWrite
+ms.keywords: ifsk.iosynchronouspagewrite, ioref_9ed81b03-18f6-4641-8f4e-b12c4afcfc5d.xml, IoSynchronousPageWrite, ntifs/IoSynchronousPageWrite, IoSynchronousPageWrite function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

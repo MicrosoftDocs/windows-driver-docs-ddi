@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetSystemPowerAction, wdf.iwdfdevice2_getsystempoweraction, IWDFDevice2::GetSystemPowerAction, umdf.iwdfdevice2_getsystempoweraction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, GetSystemPowerAction method, IWDFDevice2 interface, IWDFDevice2 interface, GetSystemPowerAction method, GetSystemPowerAction method, wudfddi/IWDFDevice2::GetSystemPowerAction, IWDFDevice2
+ms.keywords: wudfddi/IWDFDevice2::GetSystemPowerAction, GetSystemPowerAction method, IWDFDevice2 interface, GetSystemPowerAction, umdf.iwdfdevice2_getsystempoweraction, IWDFDevice2 interface, GetSystemPowerAction method, IWDFDevice2::GetSystemPowerAction, IWDFDevice2, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, GetSystemPowerAction method, wdf.iwdfdevice2_getsystempoweraction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.GetSystemPowerAction
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ POWER_ACTION GetSystemPowerAction();
 ## -returns
 
 
-<b>GetSystemPowerAction</b> returns a <a href="..\wudfddi\ne-wudfddi-__midl___midl_itf_wudfddi_0000_0000_0001.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+<b>GetSystemPowerAction</b> returns a <a href="..\ntpoapi\ne-ntpoapi-ppower_action.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
 
 
 

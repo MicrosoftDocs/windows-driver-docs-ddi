@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 814642f7-24df-4d64-bc2b-d76d84b2a6d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasReadMultiple, image.wiasreadmultiple, wiasFncs_c6d42143-4cd8-4f9a-bbf4-aec0ce2c0615.xml, wiasReadMultiple function [Imaging Devices], wiamdef/wiasReadMultiple
+ms.keywords: wiamdef/wiasReadMultiple, wiasFncs_c6d42143-4cd8-4f9a-bbf4-aec0ce2c0615.xml, wiasReadMultiple function [Imaging Devices], wiasReadMultiple, image.wiasreadmultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasReadMultiple
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasReadMultiple(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param ulCount
+#### - ulCount
 
 Specifies the number of properties to read.
 
 
-### -param ps [in]
+#### - ps [in]
 
 Pointer to the first element of an array of PROPSPEC structures, containing the properties to read.
 
 
-### -param pv [out]
+#### - pv [out]
 
 Pointer to the first element of an array of PROPVARIANT structures. Upon return, these structures contain new values for the properties.
 
 
-### -param pvOld [out, optional]
+#### - pvOld [out, optional]
 
 Pointer to the first element of an array of PROPVARIANT structures previously allocated by the minidriver. Upon return, the array contains the previous values of the property data. If this information is not needed, this parameter can be set to <b>NULL</b>.
 

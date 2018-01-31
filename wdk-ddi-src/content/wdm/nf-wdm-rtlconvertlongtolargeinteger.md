@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8c1f6cd3-f54b-4104-bd14-63d2c284946c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlConvertLongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_f56a300b-e5d3-4f08-8d38-f124f73ada9f.xml, kernel.rtlconvertlongtolargeinteger, RtlConvertLongToLargeInteger, wdm/RtlConvertLongToLargeInteger
+ms.keywords: RtlConvertLongToLargeInteger, kernel.rtlconvertlongtolargeinteger, wdm/RtlConvertLongToLargeInteger, RtlConvertLongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_f56a300b-e5d3-4f08-8d38-f124f73ada9f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ LARGE_INTEGER RtlConvertLongToLargeInteger(
 
 
 
-### -param SignedInteger [in]
+#### - SignedInteger [in]
 
 Specifies an integer of type LONG.
 

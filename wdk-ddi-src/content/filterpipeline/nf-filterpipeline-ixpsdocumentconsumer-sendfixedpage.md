@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ef11161d-5e73-44a8-b802-e3706b78950e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IXpsDocumentConsumer::SendFixedPage, filterpipeline/IXpsDocumentConsumer::SendFixedPage, IXpsDocumentConsumer interface [Print Devices], SendFixedPage method, filterpipeline_fbf758b4-801f-4c68-879c-2820736e459e.xml, print.ixpsdocumentconsumer_sendfixedpage, IXpsDocumentConsumer, SendFixedPage method [Print Devices], SendFixedPage method [Print Devices], IXpsDocumentConsumer interface, SendFixedPage
+ms.keywords: SendFixedPage method [Print Devices], IXpsDocumentConsumer::SendFixedPage, print.ixpsdocumentconsumer_sendfixedpage, filterpipeline/IXpsDocumentConsumer::SendFixedPage, SendFixedPage, filterpipeline_fbf758b4-801f-4c68-879c-2820736e459e.xml, IXpsDocumentConsumer, SendFixedPage method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer interface [Print Devices], SendFixedPage method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SendFixedPage(
 
 
 
-### -param pIFixedPage [in]
+#### - pIFixedPage [in]
 
 A pointer to an XPS fixed page object.
 

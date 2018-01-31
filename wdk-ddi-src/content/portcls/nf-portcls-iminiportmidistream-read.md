@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 448dc408-c47f-4c8b-8baf-a831c69c3020
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidiStream, IMiniportMidiStream::Read, Read method [Audio Devices], audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, IMiniportMidiStream interface [Audio Devices], Read method, audio.iminiportmidistream_read, Read method [Audio Devices], IMiniportMidiStream interface, Read, portcls/IMiniportMidiStream::Read
+ms.keywords: Read method [Audio Devices], Read method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream::Read, IMiniportMidiStream interface [Audio Devices], Read method, audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, IMiniportMidiStream, portcls/IMiniportMidiStream::Read, audio.iminiportmidistream_read, Read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportMidiStream.Read
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportMidiStream::Read method
@@ -69,17 +69,17 @@ NTSTATUS Read(
 
 
 
-### -param BufferAddress [in]
+#### - BufferAddress [in]
 
 Specifies the address of a caller-allocated buffer. The method copies the incoming MIDI data from the device to the buffer. The allocated size of this buffer must be greater than or equal to <i>BufferLength</i>.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Specifies the length in bytes of the buffer pointed to by <i>BufferAddress</i>.
 
 
-### -param BytesRead [out]
+#### - BytesRead [out]
 
 Output pointer to a caller-allocated variable into which the method writes a count specifying the actual number of bytes successfully read from the device into the buffer.
 

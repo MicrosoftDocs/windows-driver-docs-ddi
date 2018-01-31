@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 69720940-4D3E-43E6-B587-427ED2049FCC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/_USBDEVICE_ABORTIO, buses._usbdevice_abortio, USBDEVICE_ABORTIO, _USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], ucxusbdevice/P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses]
+ms.keywords: buses._usbdevice_abortio, ucxusbdevice/_USBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses], ucxusbdevice/P_USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO, _USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBDEVICE_ABORTIO
 product: Windows
 targetos: Windows
-req.typenames: USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO
+req.typenames: "*PUSBDEVICE_ABORTIO, USBDEVICE_ABORTIO"
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ typedef struct _USBDEVICE_ABORTIO {
 
 
 
-### -field Header
+#### - Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
@@ -81,9 +81,9 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_startio.md">USBDEVICE_STARTIO</a>
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
 
  
 

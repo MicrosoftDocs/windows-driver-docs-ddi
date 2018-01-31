@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_history_buffer_header, d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], DXGK_HISTORY_BUFFER_HEADER, _DXGK_HISTORY_BUFFER_HEADER
+ms.keywords: display.dxgk_history_buffer_header, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], _DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER, d3dkmddi/DXGK_HISTORY_BUFFER_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,21 +70,21 @@ typedef struct _DXGK_HISTORY_BUFFER_HEADER {
 
 
 
-### -field RenderCbSequence
+#### - RenderCbSequence
 
 The value of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>.<b>Value</b> member that is to be used in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function.
 
 The display miniport driver should compute this value and enter it into <b>DXGK_HISTORY_BUFFER_HEADER</b> before calling <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>.
 
 
-### -field NumTimestamps
+#### - NumTimestamps
 
 The number of time stamps that will be in the history buffer when the DMA buffer completes its execution.
 
 The driver should include all time stamps that are logged, even if the buffer must be formatted before being logged to the Event Tracing for Windows (ETW) facility.
 
 
-### -field PrivateDataSize
+#### - PrivateDataSize
 
 The size, in bytes, of optional private data that the driver stores. The driver can use this data for any purpose.
 
@@ -92,7 +92,7 @@ If zero, the driver doesn't need to store private data in the history buffer.
 <div class="alert"><b>Note</b>  This value should be a multiple of 8 bytes to ensure that time stamp data is aligned to a 64-bit boundary.</div><div> </div>If the history buffer doesn't need to be formatted when the DMA buffer completes its execution, then when the DirectX graphics kernel subsystem writes logs to ETW, it uses <b>PrivateDataSize</b> as a direct offset from the header to reference the time stamps.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use and must be set to zero.
 
@@ -106,11 +106,11 @@ Only the time stamp portion of the history buffer, along with  the number of tim
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
  
 

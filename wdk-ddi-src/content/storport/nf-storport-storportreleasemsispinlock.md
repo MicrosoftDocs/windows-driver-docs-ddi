@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5a2cf757-9dca-4717-a775-834a22c02a12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml, StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock routine [Storage Devices], storage.storportreleasemsispinlock, storport/StorPortReleaseMSISpinLock
+ms.keywords: storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml, storport/StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock, storage.storportreleasemsispinlock, StorPortReleaseMSISpinLock routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ ULONG StorPortReleaseMSISpinLock(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
@@ -80,7 +80,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 TBD
 
 
-### -param OldIrql [in]
+#### - OldIrql [in]
 
 The IRQL that the <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a> routine returned when the miniport driver acquired the spin lock.
 

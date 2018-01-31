@@ -74,12 +74,12 @@ typedef EVT_UCX_ROOTHUB_CONTROL_URB PEVT_UCX_ROOTHUB_CONTROL_URB;
 
 
 
-### -param UcxRootHub [in]
+#### - UcxRootHub [in]
 
 A handle to a UCX object that represents the root hub.
 
 
-### -param Request [in]
+#### - Request [in]
 
 Contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the feature request.
 

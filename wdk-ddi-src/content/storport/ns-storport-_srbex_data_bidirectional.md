@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], storport/SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, storport/PSRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], _SRBEX_DATA_BIDIRECTIONAL
+ms.keywords: "*PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], SRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], storport/PSRBEX_DATA_BIDIRECTIONAL, _SRBEX_DATA_BIDIRECTIONAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ typedef struct _SRBEX_DATA_BIDIRECTIONAL {
 
 
 
-### -field Type
+#### - Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypeBidirectional</b>.
 
 
-### -field Length
+#### - Length
 
 Length of the data in this structure, in bytes, starting with the <b>DataInTransferLength</b> member. Set to SRBEX_DATA_BIDIRECTIONAL_LENGTH.
 
 
-### -field DataInTransferLength
+#### - DataInTransferLength
 
 Length of the data present  in the <b>DataInBuffer</b> member.
 
 
-### -field Reserved1
+#### - Reserved1
 
 This member is reserved. Set to 0.
 
 
-### -field DataInBuffer
+#### - DataInBuffer
 
 A pointer to the buffer that contains the data sent from the device.
 
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
  
 

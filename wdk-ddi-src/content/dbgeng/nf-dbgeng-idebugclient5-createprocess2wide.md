@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b032ca68-5ac5-4a19-84fe-92058905a1d7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CreateProcess2Wide, debugger.createprocess2wide, CreateProcess2Wide method [Windows Debugging], IDebugClient5 interface, CreateProcess2Wide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], CreateProcess2Wide method, dbgeng/IDebugClient5::CreateProcess2Wide, IDebugClient5::CreateProcess2Wide, IDebugClient5
+ms.keywords: IDebugClient5 interface [Windows Debugging], CreateProcess2Wide method, CreateProcess2Wide, dbgeng/IDebugClient5::CreateProcess2Wide, IDebugClient5::CreateProcess2Wide, debugger.createprocess2wide, IDebugClient5, CreateProcess2Wide method [Windows Debugging], IDebugClient5 interface, CreateProcess2Wide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT CreateProcess2Wide(
 
 
 
-### -param Server [in]
+#### - Server [in]
 
 Specifies the process server that will be attached to the process.  If <i>Server</i> is zero, the engine will create the local process without using a process server.
 
 
-### -param CommandLine [in]
+#### - CommandLine [in]
 
 Specifies the command line to execute to create the new process.
 
 
-### -param OptionsBuffer [in]
+#### - OptionsBuffer [in]
 
 Specifies the process creation options.  <i>OptionsBuffer</i> is a pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_create_process_options.md">DEBUG_CREATE_PROCESS_OPTIONS</a> structure.
 
 
-### -param OptionsBufferSize [in]
+#### - OptionsBufferSize [in]
 
 Specifies the size of the buffer <i>OptionsBuffer</i>.  This should be set to <b>sizeof(DEBUG_CREATE_PROCESS_OPTIONS)</b>.
 
 
-### -param InitialDirectory [in, optional]
+#### - InitialDirectory [in, optional]
 
 Specifies the starting directory for the process.  If <i>InitialDirectory</i> is <b>NULL</b>, the current directory for the process server is used.
 
 
-### -param Environment [in, optional]
+#### - Environment [in, optional]
 
 Specifies an environment block for the new process.  An environment block consists of a null-terminated block of null-terminated strings.  Each string is of the form:
 <div class="code"><span codelanguage=""><table>
@@ -151,27 +151,27 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
  
 

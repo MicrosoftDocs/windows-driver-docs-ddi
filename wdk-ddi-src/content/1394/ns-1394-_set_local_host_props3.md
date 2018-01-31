@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: f49a8b86-5611-4737-9b25-e7446e155bbc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], IEEE.set_local_host_props3, 1394/PSET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, 1394/SET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3 structure [Buses], *PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3, _SET_LOCAL_HOST_PROPS3
+ms.keywords: IEEE.set_local_host_props3, SET_LOCAL_HOST_PROPS3 structure [Buses], SET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], _SET_LOCAL_HOST_PROPS3, 1394/PSET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3, 1394/SET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_LOCAL_HOST_PROPS3
 product: Windows
 targetos: Windows
-req.typenames: SET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3
+req.typenames: "*PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3"
 ---
 
 # _SET_LOCAL_HOST_PROPS3 structure
@@ -70,7 +70,7 @@ typedef struct _SET_LOCAL_HOST_PROPS3 {
 
 
 
-### -field fulFlags
+#### - fulFlags
 
 Specifies the action to be taken with the unit directory data contained in the SET_LOCAL_HOST_PROPS3 structure.
 <table>
@@ -101,17 +101,17 @@ Indicates that the data contained in the SET_LOCAL_HOST_PROPS3 structure is to b
 </table> 
 
 
-### -field hCromData
+#### - hCromData
 
 Contains a handle that is returned after one or more unit directories have been created. Drivers must store this value and pass it to the bus driver when removing these unit directories. If the SLHP_FLAG_ADD_CROM_DATA flag is set, then this is an output parameter. If the SLHP_FLAG_REMOVE_CROM_DATA flag is set, then this is an input parameter. 
 
 
-### -field nLength
+#### - nLength
 
 Contains length of the data buffer pointed to by <b>Mdl</b>.
 
 
-### -field Mdl
+#### - Mdl
 
 Pointer to the data buffer containing the unit directory information.
 

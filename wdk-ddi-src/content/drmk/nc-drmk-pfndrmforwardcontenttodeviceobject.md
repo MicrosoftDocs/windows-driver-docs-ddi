@@ -40,7 +40,7 @@ apiname:
 -	DRMForwardContentToDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMFORWARDCONTENTTODEVICEOBJECT callback
@@ -74,17 +74,17 @@ typedef PFNDRMFORWARDCONTENTTODEVICEOBJECT DRMForwardContentToDeviceObject;
 
 
 
-### -param ContentId [in]
+#### - ContentId [in]
 
 This parameter is reserved for system use.
 
 
-### -param Reserved [in]
+#### - Reserved [in]
 
 This parameter is reserved for system use.
 
 
-### -param DrmForward [in]
+#### - DrmForward [in]
 
 This parameter is reserved for system use.
 

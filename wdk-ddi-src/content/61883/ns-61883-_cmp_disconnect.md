@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7EAE617D-EFF9-4F77-9B9C-5985B864B310
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CMP_DISCONNECT, IEEE.cmp_disconnect, PCMP_DISCONNECT, _CMP_DISCONNECT, 61883/PCMP_DISCONNECT, CMP_DISCONNECT structure [Buses], *PCMP_DISCONNECT, 61883/CMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses]
+ms.keywords: PCMP_DISCONNECT structure pointer [Buses], _CMP_DISCONNECT, PCMP_DISCONNECT, IEEE.cmp_disconnect, 61883/CMP_DISCONNECT, 61883/PCMP_DISCONNECT, CMP_DISCONNECT structure [Buses], *PCMP_DISCONNECT, CMP_DISCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_DISCONNECT
 product: Windows
 targetos: Windows
-req.typenames: CMP_DISCONNECT, *PCMP_DISCONNECT
+req.typenames: "*PCMP_DISCONNECT, CMP_DISCONNECT"
 ---
 
 # _CMP_DISCONNECT structure
@@ -67,7 +67,7 @@ typedef struct _CMP_DISCONNECT {
 
 
 
-### -field hConnect
+#### - hConnect
 
 On input, a handle to the connection to break.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0818907f-3346-42a2-b123-3298ea8f9a1d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml, RxMakeLateDeviceAvailable, ifsk.rxmakelatedeviceavailable, RxMakeLateDeviceAvailable routine [Installable File System Drivers], mrx/RxMakeLateDeviceAvailable
+ms.keywords: mrx/RxMakeLateDeviceAvailable, RxMakeLateDeviceAvailable routine [Installable File System Drivers], RxMakeLateDeviceAvailable, rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml, ifsk.rxmakelatedeviceavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxMakeLateDeviceAvailable
 product: Windows
 targetos: Windows
-req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
+req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # RxMakeLateDeviceAvailable function
@@ -67,7 +67,7 @@ VOID RxMakeLateDeviceAvailable(
 
 
 
-### -param RxDeviceObject [in]
+#### - RxDeviceObject [in]
 
 A pointer to the where the created device object is to be stored.
 

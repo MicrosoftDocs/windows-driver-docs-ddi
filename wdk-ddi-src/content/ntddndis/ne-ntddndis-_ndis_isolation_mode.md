@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA4765CD-808C-438A-9CA6-5ADC27A70EC8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisIsolationModeVlan, NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNone, *PNDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], _NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeNativeVirtualSubnet, NDIS_ISOLATION_MODE, NdisIsolationModeVlan, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, NdisIsolationModeNone, NdisIsolationModeNativeVirtualSubnet
+ms.keywords: NdisIsolationModeNativeVirtualSubnet, NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeNone, NdisIsolationModeVlan, ntddndis/NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, netvista.ndis_isolation_mode, NdisIsolationModeNone, NdisIsolationModeExternalVirtualSubnet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _NDIS_ISOLATION_MODE {
 
 
 
-### -field NdisIsolationModeNone
+#### - NdisIsolationModeNone
 
 Network isolation is not supported.
 
 
-### -field NdisIsolationModeNativeVirtualSubnet
+#### - NdisIsolationModeNativeVirtualSubnet
 
 Native <b>VirtualSubnetId</b>-based isolation provided by Hyper-V Network Virtualization.
 
 
-### -field NdisIsolationModeExternalVirtualSubnet
+#### - NdisIsolationModeExternalVirtualSubnet
 
 External <b>VirtualSubnetId</b>-based isolation provided by a Hyper-V Extensible Switch extension.
 
 
-### -field NdisIsolationModeVlan
+#### - NdisIsolationModeVlan
 
 Virtual local area network (VLAN)-based isolation.
 
@@ -99,9 +99,9 @@ Virtual local area network (VLAN)-based isolation.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
 
  
 

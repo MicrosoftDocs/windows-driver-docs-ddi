@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E8E05F9B-2F83-4537-979E-024E8412D733
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlIntToShort, kernel.rtlinttoshort, RtlIntToShort, RtlIntToShort function [Kernel-Mode Driver Architecture]
+ms.keywords: ntintsafe/RtlIntToShort, RtlIntToShort, RtlIntToShort function [Kernel-Mode Driver Architecture], kernel.rtlinttoshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlIntToShort(
 
 
 
-### -param iOperand [in]
+#### - iOperand [in]
 
 The value to be converted.
 
 
-### -param psResult [out]
+#### - psResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

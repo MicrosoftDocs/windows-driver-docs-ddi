@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cecce6ae-9b26-4b5f-aad3-69630ea340a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/OEMTextOut, OEMTextOut function [Print Devices], print.oemtextout, OEMTextOut, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml
+ms.keywords: OEMTextOut, printoem/OEMTextOut, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, OEMTextOut function [Print Devices], print.oemtextout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,42 +77,42 @@ BOOL APIENTRY OEMTextOut(
 
 
 
-### -param pso
+#### - pso
 
 
 
-### -param pstro
+#### - pstro
 
 
 
-### -param pfo
+#### - pfo
 
 
 
-### -param pco
+#### - pco
 
 
 
-### -param prclExtra
+#### - prclExtra
 
 
 
-### -param prclOpaque
+#### - prclOpaque
 
 
 
-### -param pboFore
+#### - pboFore
 
 
 
-### -param pboOpaque
+#### - pboOpaque
 
 
 
-### -param pptlOrg
+#### - pptlOrg
 
 
 
-### -param mix
+#### - mix
 
 

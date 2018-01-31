@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 381A59EE-BA1C-4810-842B-1D3E4D964486
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: GPIO_PIN_IORESTRICTION_TYPE, IoRestrictionInputOnly, kernel.gpio_pin_iorestriction_type, pepfx/IoRestrictionNoneAndPreserve, IoRestrictionOutputOnly, pepfx/IoRestrictionOutputOnly, IoRestrictionNone, pepfx/IoRestrictionNone, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], IoRestrictionNoneAndPreserve, pepfx/GPIO_PIN_IORESTRICTION_TYPE, _GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionInputOnly
+ms.keywords: pepfx/IoRestrictionNoneAndPreserve, _GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/IoRestrictionOutputOnly, pepfx/IoRestrictionNone, IoRestrictionInputOnly, IoRestrictionNoneAndPreserve, GPIO_PIN_IORESTRICTION_TYPE, IoRestrictionOutputOnly, pepfx/IoRestrictionInputOnly, pepfx/GPIO_PIN_IORESTRICTION_TYPE, kernel.gpio_pin_iorestriction_type, IoRestrictionNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _GPIO_PIN_IORESTRICTION_TYPE {
 
 
 
-### -field IoRestrictionNone
+#### - IoRestrictionNone
 
 Indicates that the GPIO pin is not restricted to either input or output. When no IO restriction is described, it is assumed to be <b>IoRestrictionNone</b>. 
 
 
-### -field IoRestrictionInputOnly
+#### - IoRestrictionInputOnly
 
 Indicates that the GPIO pin is restricted to input. 
 
 
-### -field IoRestrictionOutputOnly
+#### - IoRestrictionOutputOnly
 
 Indicates that the GPIO pin is restricted to output. 
 
 
-### -field IoRestrictionNoneAndPreserve
+#### - IoRestrictionNoneAndPreserve
 
 Indicates that the GPIO pin is not restricted to either input or output and that the mode should be preserved when the driver is unloaded. 
 

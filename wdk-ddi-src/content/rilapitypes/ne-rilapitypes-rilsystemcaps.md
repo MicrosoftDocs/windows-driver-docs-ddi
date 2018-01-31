@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d8148f94-d3f0-4578-83a3-024e64c9258b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSYSTEMCAPS, RIL_SYSTEMCAPS_VOICEDATA, RILSYSTEMCAPS, rilapitypes/RIL_SYSTEMCAPS_ALL, netvista.rilsystemcaps_2, RIL_SYSTEMCAPS_ALL, rilapitypes/RIL_SYSTEMCAPS_VOICEDATA
+ms.keywords: rilapitypes/RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, rilapitypes/RILSYSTEMCAPS, netvista.rilsystemcaps_2, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SYSTEMCAPS_VOICEDATA, RILSYSTEMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,10 +73,10 @@ typedef enum _RILSYSTEMCAPS {
 
 
 
-### -field RIL_SYSTEMCAPS_VOICEDATA
+#### - RIL_SYSTEMCAPS_VOICEDATA
 
 
 
-### -field RIL_SYSTEMCAPS_ALL
+#### - RIL_SYSTEMCAPS_ALL
 
 

@@ -76,7 +76,7 @@ VOID FilterSendNetBufferLists(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
@@ -87,7 +87,7 @@ A handle to the context area for the filter module. The filter driver created an
 
 
 
-### -param PortNumber [in]
+#### - PortNumber [in]
 
 A port number that identifies a miniport adapter port. Miniport adapter port numbers are assigned
      by calling the 
@@ -95,7 +95,7 @@ A port number that identifies a miniport adapter port. Miniport adapter port num
      value identifies the default port of a miniport adapter.
 
 
-### -param SendFlags [in]
+#### - SendFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with an OR operation.
       To clear all the flags, set this member to zero. This function supports the following flags:
@@ -268,34 +268,34 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-   FilterSendNetBufferListsComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
-
-<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
-
-<mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
-   FilterCancelSendNetBufferLists</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
+   NdisFSendNetBufferListsComplete</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
 
-<mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisFSendNetBufferListsComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
+   FilterCancelSendNetBufferLists</i></mshelp:link>
+
+<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
+   FilterSendNetBufferListsComplete</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
  
 

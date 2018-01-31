@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsNameInExpression routine [Installable File System Drivers], FsRtlIsNameInExpression, fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
+ms.keywords: ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression, fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, FsRtlIsNameInExpression routine [Installable File System Drivers], FsRtlIsNameInExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ BOOLEAN FsRtlIsNameInExpression(
 
 
 
-### -param Expression [in]
+#### - Expression [in]
 
 A pointer to the pattern string. Can contain wildcard characters. If <i>IgnoreCase</i> is <b>TRUE</b>, <i>Expression</i> must be uppercase. 
 
 
-### -param Name [in]
+#### - Name [in]
 
 A pointer to the string to be compared against the pattern. Cannot contain wildcard characters. 
 
 
-### -param IgnoreCase [in]
+#### - IgnoreCase [in]
 
 Set to <b>TRUE</b> for case-insensitive matching, <b>FALSE</b> otherwise.
 
 
-### -param UpcaseTable [in, optional]
+#### - UpcaseTable [in, optional]
 
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 28c708b7-82bb-4246-bde8-88d471c8120c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPartFont interface [Print Devices], SetFontOptions method, SetFontOptions, filterpipeline/IPartFont::SetFontOptions, SetFontOptions method [Print Devices], IPartFont interface, SetFontOptions method [Print Devices], filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, print.ipartfont_setfontoptions, IPartFont, IPartFont::SetFontOptions
+ms.keywords: print.ipartfont_setfontoptions, SetFontOptions, IPartFont::SetFontOptions, filterpipeline/IPartFont::SetFontOptions, SetFontOptions method [Print Devices], SetFontOptions method [Print Devices], IPartFont interface, filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, IPartFont interface [Print Devices], SetFontOptions method, IPartFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetFontOptions(
 
 
 
-### -param options [in]
+#### - options [in]
 
 An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0002.md">ExpsFontOptions</a>-typed value that describes the options for the font.
 

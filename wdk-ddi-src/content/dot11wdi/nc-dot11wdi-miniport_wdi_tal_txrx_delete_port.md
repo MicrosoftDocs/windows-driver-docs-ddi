@@ -75,12 +75,12 @@ VOID MiniportWdiTalTxRxDeletePort(
 
 
 
-### -param MiniportTalTxRxContext [in]
+#### - MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
+#### - PortId [in]
 
 Port ID that specifies the deleted port.
 

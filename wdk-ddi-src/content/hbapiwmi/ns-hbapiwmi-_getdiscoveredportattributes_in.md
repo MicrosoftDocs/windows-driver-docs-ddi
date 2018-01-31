@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 99129f8e-c047-4e9f-bcaa-3cbcd2d30915
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_GetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN structure [Storage Devices], structs-Fibre_5154a471-3acc-4eea-86c7-2292ccc230fb.xml, PGetDiscoveredPortAttributes_IN structure pointer [Storage Devices], *PGetDiscoveredPortAttributes_IN, hbapiwmi/GetDiscoveredPortAttributes_IN, PGetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN, hbapiwmi/PGetDiscoveredPortAttributes_IN, storage.getdiscoveredportattributes_in"
+ms.keywords: "*PGetDiscoveredPortAttributes_IN, structs-Fibre_5154a471-3acc-4eea-86c7-2292ccc230fb.xml, hbapiwmi/PGetDiscoveredPortAttributes_IN, storage.getdiscoveredportattributes_in, PGetDiscoveredPortAttributes_IN, PGetDiscoveredPortAttributes_IN structure pointer [Storage Devices], _GetDiscoveredPortAttributes_IN, hbapiwmi/GetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN structure [Storage Devices], GetDiscoveredPortAttributes_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _GetDiscoveredPortAttributes_IN {
 
 
 
-### -field PortIndex
+#### - PortIndex
 
 Indicates the index within the specified HBA of the port of type Nx_Port to query. For a definition of Nx_Port, see the T11 committee's specification for <i>Fibre Channel HBA API</i> (FC-HBA).
 
 
-### -field DiscoveredPortIndex
+#### - DiscoveredPortIndex
 
 Indicates the index within the specified HBA of the port of type FC_Port to query. For a definition of FC_Port, see the T11 committee's specification for <i>Fibre Channel HBA API</i> (FC-HBA).
 

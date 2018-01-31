@@ -72,12 +72,12 @@ NTSTATUS APIENTRY USBCAMD_SetIsoPipeState(
 
 
 
-### -param DeviceContext [in]
+#### - DeviceContext [in]
 
 Pointer to device-specific context.
 
 
-### -param PipeStateFlags [in]
+#### - PipeStateFlags [in]
 
 Specifies the isochronous pipe state. This argument should be set to either of the following values:
 <table>

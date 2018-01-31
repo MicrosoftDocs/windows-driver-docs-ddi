@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 512e3fd5-7ea5-423c-a628-0db6b30fd708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.driver_object, wdm/DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], wdm/PDRIVER_OBJECT, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, _DRIVER_OBJECT, DRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], PDRIVER_OBJECT, *PDRIVER_OBJECT
+ms.keywords: kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, kernel.driver_object, wdm/PDRIVER_OBJECT, PDRIVER_OBJECT, _DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], DRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], *PDRIVER_OBJECT, wdm/DRIVER_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,7 +87,7 @@ typedef struct _DRIVER_OBJECT {
  
 
 
-### -field DeviceObject
+#### - DeviceObject
 
 Pointer to the device objects created by the driver. This member is automatically updated when the driver calls <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> successfully. A driver can use this member and the <b>NextDevice</b> member of <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> to step through a list of all the device objects that the driver created.
 
@@ -112,7 +112,7 @@ Pointer to the device objects created by the driver. This member is automaticall
  
 
 
-### -field DriverExtension
+#### - DriverExtension
 
 Pointer to the driver extension. The only accessible member of the driver extension is <b>DriverExtension-&gt;AddDevice</b>, into which a driver's <b>DriverEntry</b> routine stores the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
@@ -122,32 +122,32 @@ Pointer to the driver extension. The only accessible member of the driver extens
  
 
 
-### -field HardwareDatabase
+#### - HardwareDatabase
 
 Pointer to the <b>\Registry\Machine\Hardware</b> path to the hardware configuration information in the registry.
 
 
-### -field FastIoDispatch
+#### - FastIoDispatch
 
 Pointer to a structure defining the driver's fast I/O entry points. This member is used only by FSDs and network transport drivers.
 
 
-### -field DriverInit
+#### - DriverInit
 
 The entry point for the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, which is set up by the I/O manager.
 
 
-### -field DriverStartIo
+#### - DriverStartIo
 
 The entry point for the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine, if any, which is set by the <b>DriverEntry</b> routine when the driver initializes. If a driver has no <i>StartIo</i> routine, this member is <b>NULL</b>.
 
 
-### -field DriverUnload
+#### - DriverUnload
 
 The entry point for the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine, if any, which is set by the <b>DriverEntry</b> routine when the driver initializes. If a driver has no <i>Unload</i> routine, this member is <b>NULL</b>.
 
 
-### -field MajorFunction
+#### - MajorFunction
 
 A dispatch table consisting of an array of entry points for the driver's <i>DispatchXxx</i> routines. The array's index values are the <b>IRP_MJ_<i>XXX</i></b> values representing each <a href="https://msdn.microsoft.com/11c5b1a9-74c0-47fb-8cce-a008ece9efae">IRP major function code</a>. Each driver must set entry points in this array for the <b>IRP_MJ_<i>XXX</i></b> requests that the driver handles. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566407">Writing Dispatch Routines</a>.
 
@@ -203,7 +203,7 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
@@ -211,7 +211,7 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
  
 

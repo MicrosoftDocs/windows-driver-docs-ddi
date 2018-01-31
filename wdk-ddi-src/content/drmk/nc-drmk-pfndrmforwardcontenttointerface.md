@@ -40,7 +40,7 @@ apiname:
 -	DRMForwardContentToInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMFORWARDCONTENTTOINTERFACE callback
@@ -74,17 +74,17 @@ typedef PFNDRMFORWARDCONTENTTOINTERFACE DRMForwardContentToInterface;
 
 
 
-### -param ContentId [in]
+#### - ContentId [in]
 
 This parameter is reserved for system use.
 
 
-### -param pUnknown [in]
+#### - pUnknown [in]
 
 This parameter is reserved for system use.
 
 
-### -param NumMethods [in]
+#### - NumMethods [in]
 
 This parameter is reserved for system use.
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5EEE0B7D-2857-42D1-A387-9D38DAC2E368
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddser/PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports], PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], _SERIAL_QUEUE_SIZE, serports.serial_queue_size, ntddser/SERIAL_QUEUE_SIZE
+ms.keywords: SERIAL_QUEUE_SIZE, _SERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], ntddser/SERIAL_QUEUE_SIZE, ntddser/PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE, serports.serial_queue_size, SERIAL_QUEUE_SIZE structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SERIAL_QUEUE_SIZE {
 
 
 
-### -field InSize
+#### - InSize
 
 Number of bytes requested for the input buffer. For more information, see Remarks.
 
 
-### -field OutSize
+#### - OutSize
 
 Not used. Set to zero.
 

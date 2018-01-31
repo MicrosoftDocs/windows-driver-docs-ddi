@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: ce1f9f1b-2215-4b39-b5e6-a5076f02af64
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PSDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], sdpnode/SDP_NODE_DATA, bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml, _SDP_NODE_DATA, SDP_NODE_DATA, PSDP_NODE_DATA, PSDP_NODE_DATA union pointer [Bluetooth Devices], bltooth.sdp_node_data, sdpnode/PSDP_NODE_DATA"
+ms.keywords: bltooth.sdp_node_data, sdpnode/PSDP_NODE_DATA, PSDP_NODE_DATA, *PSDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], PSDP_NODE_DATA union pointer [Bluetooth Devices], _SDP_NODE_DATA, sdpnode/SDP_NODE_DATA, bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml, SDP_NODE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SDP_NODE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PSDP_NODE_DATA, SDP_NODE_DATA"
+req.typenames: SDP_NODE_DATA, *PSDP_NODE_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -101,105 +101,105 @@ typedef union _SDP_NODE_DATA {
  
 
 
-### -field int128
+#### - int128
 
 The union member for a 128-bit integer.
 
 
-### -field uint128
+#### - uint128
 
 The union member for an unsigned 128-bit integer.
 
 
-### -field uuid128
+#### - uuid128
 
 The union member for a 128-bit universally unique identifier (UUID).
 
 
-### -field uuid32
+#### - uuid32
 
 The union member for a 32-bit UUID.
 
 
-### -field uuid16
+#### - uuid16
 
 
       The union member for a 16-bit UUID.
      
 
 
-### -field int64
+#### - int64
 
 
       The union member for a 64-bit integer.
      
 
 
-### -field uint64
+#### - uint64
 
 The union member for an unsigned 64-bit integer.
 
 
-### -field int32
+#### - int32
 
 The union member for a 32-bit integer.
 
 
-### -field uint32
+#### - uint32
 
 The union member for an unsigned 32-bit integer.
 
 
-### -field int16
+#### - int16
 
 The union member for a 16-bit integer.
 
 
-### -field uint16
+#### - uint16
 
 The union member for an unsigned 16-bit integer.
 
 
-### -field int8
+#### - int8
 
 The union reserved for an 8-bit integer.
 
 
-### -field uint8
+#### - uint8
 
 The union member for an unsigned 8-bit integer.
 
 
-### -field boolean
+#### - boolean
 
 The union member for a Boolean value.
 
 
-### -field string
+#### - string
 
 
       The union member for a string value.
      
 
 
-### -field url
+#### - url
 
 The union member for a URL value.
 
 
-### -field sequence
+#### - sequence
 
 An 
      <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a> structure that references
      the elements of a sequence.
 
 
-### -field alternative
+#### - alternative
 
 An SDP_NODE_HEADER structure that references the elements of an alternate list sequence.
 
 
-### -field container
+#### - container
 
 A list of pointers to user-mode specific interfaces.
 
@@ -245,11 +245,11 @@ The header specifies the type of data. Driver developers can access links to pee
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 

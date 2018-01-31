@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3f9ec3ca-a494-4a0a-87d8-1275b3b2a0b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMUpgradePrinter, OEMUpgradePrinter function [Print Devices], print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, print.oemupgradeprinter, printoem/OEMUpgradePrinter
+ms.keywords: OEMUpgradePrinter, print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, printoem/OEMUpgradePrinter, print.oemupgradeprinter, OEMUpgradePrinter function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,10 +68,10 @@ BOOL APIENTRY OEMUpgradePrinter(
 
 
 
-### -param dwLevel
+#### - dwLevel
 
 
 
-### -param pDriverUpgradeInfo
+#### - pDriverUpgradeInfo
 
 

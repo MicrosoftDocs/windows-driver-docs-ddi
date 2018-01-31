@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 27B43684-6564-41A0-9F0D-D49F88D1F14D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PEP_PPM_QUERY_IDLE_STATES, PPEP_PPM_QUERY_IDLE_STATES, pep_x/PPEP_PPM_QUERY_IDLE_STATES, PPEP_PPM_QUERY_IDLE_STATES structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_IDLE_STATES structure [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_IDLE_STATES, _PEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES, kernel.pep_ppm_query_idle_states
+ms.keywords: pep_x/PPEP_PPM_QUERY_IDLE_STATES, _PEP_PPM_QUERY_IDLE_STATES, *PPEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES, kernel.pep_ppm_query_idle_states, PEP_PPM_QUERY_IDLE_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_IDLE_STATES structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_IDLE_STATES, pep_x/PEP_PPM_QUERY_IDLE_STATES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_QUERY_IDLE_STATES
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_QUERY_IDLE_STATES, *PPEP_PPM_QUERY_IDLE_STATES
+req.typenames: "*PPEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES"
 ---
 
 # _PEP_PPM_QUERY_IDLE_STATES structure
@@ -69,17 +69,17 @@ typedef struct _PEP_PPM_QUERY_IDLE_STATES {
 
 
 
-### -field Count
+#### - Count
 
 [in] The number of elements in the <b>IdleStates</b> array. This member is set to the <b>IdleStateCount</b> value that the PEP previously supplied for this processor in response to the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
 
 
-### -field MaximumCoordinatedProcessors
+#### - MaximumCoordinatedProcessors
 
 [out] The maximum number of secondary processors that are subordinate to this processor for any transitions to idle states. A primary processor can enter the selected idle state only after the secondary processors have entered their corresponding idle states. The PEP must set the <b>MaximumCoordinatedProcessors</b> member to a number that is less than the total number of processors in the hardware platform.
 
 
-### -field IdleStates
+#### - IdleStates
 
 [in] The first element in an array of <a href="..\pep_x\ns-pep_x-_pep_processor_idle_state.md">PEP_PROCESSOR_IDLE_STATE</a> structures. Each array element describes one of the idle states of this processor. If the array contains more than one element, the additional elements immediately follow the end of the <b>PEP_PPM_QUERY_IDLE_STATES</b> structure. The number of array elements is specified by the <b>Count</b> member. The buffer that PoFx allocates to hold this structure is guaranteed to be large enough to contain the <b>PEP_PPM_QUERY_IDLE_STATES</b> structure plus any array elements that follow this structure. Each idle state is identified by its array index. If the array contains N elements, idle state indexes range from 0 to N–1.
 
@@ -93,11 +93,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
+<a href="..\pep_x\ns-pep_x-_pep_processor_idle_state.md">PEP_PROCESSOR_IDLE_STATE</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
 
-<a href="..\pep_x\ns-pep_x-_pep_processor_idle_state.md">PEP_PROCESSOR_IDLE_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
  
 

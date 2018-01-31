@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43695fa9-32e1-4bd5-b146-88d6d03fe9fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlEqualMemory, kernel.rtlequalmemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], RtlEqualMemory, k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml
+ms.keywords: kernel.rtlequalmemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], wdm/RtlEqualMemory, k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml, RtlEqualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -80,7 +80,7 @@ TBD
 TBD
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes to be compared. 
 

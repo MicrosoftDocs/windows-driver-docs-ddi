@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 99843150-9e27-4f09-a3ba-5ff87d3f1c88
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WcsTranslateColors function [Print Devices], icm/WcsTranslateColors, colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml, WcsTranslateColors, print.wcstranslatecolors
+ms.keywords: icm/WcsTranslateColors, WcsTranslateColors function [Print Devices], print.wcstranslatecolors, WcsTranslateColors, colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,52 +76,52 @@ BOOL WcsTranslateColors(
 
 
 
-### -param hColorTransform [in]
+#### - hColorTransform [in]
 
 A handle to the WCS color transform to use.
 
 
-### -param nColors [in]
+#### - nColors [in]
 
 The number of elements in the array pointed to by <i>pInputData</i> and <i>pOutputData</i>.
 
 
-### -param nInputChannels [in]
+#### - nInputChannels [in]
 
 The number of channels per element in the array pointed to by <i>pInputData</i>.
 
 
-### -param cdtInput [in]
+#### - cdtInput [in]
 
 The input <a href="..\icm\ne-icm-colordatatype.md">COLORDATATYPE</a> color data type.
 
 
-### -param cbInput [in]
+#### - cbInput [in]
 
 The buffer size, in bytes, of <i>pInputData</i>.
 
 
-### -param pInputData [in]
+#### - pInputData [in]
 
 A pointer to an array of input colors.
 
 
-### -param nOutputChannels [in]
+#### - nOutputChannels [in]
 
 The number of channels per element in the array pointed to by <i>pOutputData</i>.
 
 
-### -param cdtOutput [in]
+#### - cdtOutput [in]
 
 The output <a href="..\icm\ne-icm-colordatatype.md">COLORDATATYPE</a> color data type.
 
 
-### -param cbOutput [in]
+#### - cbOutput [in]
 
 The buffer size, in bytes, of <i>pOutputData</i>.
 
 
-### -param pOutputData [out]
+#### - pOutputData [out]
 
 A pointer to an array of colors that receives the results of the color translation.
 

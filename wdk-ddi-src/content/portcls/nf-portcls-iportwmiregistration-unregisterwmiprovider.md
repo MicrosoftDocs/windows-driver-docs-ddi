@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51c43e1a-ec8e-4dd2-ab08-b90cd89d9b5d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, IPortWMIRegistration, audio.iportwmiregistration_unregisterwmiprovider, IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, portcls/IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider
+ms.keywords: IPortWMIRegistration::UnregisterWMIProvider, portcls/IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider, IPortWMIRegistration, audio.iportwmiregistration_unregisterwmiprovider, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWMIRegistration.UnregisterWMIProvider
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortWMIRegistration::UnregisterWMIProvider method

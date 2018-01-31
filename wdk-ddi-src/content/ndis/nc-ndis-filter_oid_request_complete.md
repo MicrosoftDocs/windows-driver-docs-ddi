@@ -75,14 +75,14 @@ VOID FilterOidRequestComplete(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param OidRequest [in]
+#### - OidRequest [in]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that the filter
@@ -90,7 +90,7 @@ A pointer to the
      <a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the request set by an underlying driver or by NDIS. This parameter determines
      what 
@@ -173,17 +173,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
+<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
 
-<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a8089653-a14b-4542-bf20-b1b596b1b4ea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS, _KS_VIDEO_STREAM_CONFIG_CAPS, PKS_VIDEO_STREAM_CONFIG_CAPS structure pointer [Streaming Media Devices], vidcapstruct_43cae18b-0430-4a1e-9bac-7de2e32388a6.xml, ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS, stream.ks_video_stream_config_caps, KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS structure [Streaming Media Devices], PKS_VIDEO_STREAM_CONFIG_CAPS
+ms.keywords: vidcapstruct_43cae18b-0430-4a1e-9bac-7de2e32388a6.xml, PKS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS structure [Streaming Media Devices], stream.ks_video_stream_config_caps, KS_VIDEO_STREAM_CONFIG_CAPS, PKS_VIDEO_STREAM_CONFIG_CAPS structure pointer [Streaming Media Devices], ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS, _KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_VIDEO_STREAM_CONFIG_CAPS
 product: Windows
 targetos: Windows
-req.typenames: KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS
+req.typenames: "*PKS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS"
 ---
 
 # _KS_VIDEO_STREAM_CONFIG_CAPS structure
@@ -87,7 +87,7 @@ typedef struct _KS_VIDEO_STREAM_CONFIG_CAPS {
 
 
 
-### -field guid
+#### - guid
 
 GUID that specifies the video format type. Possible values include:
 
@@ -106,67 +106,67 @@ KSDATAFORMAT_SPECIFIER_MPEG2_VIDEO
 This GUID is identical to the DirectShow AM_MEDIA_TYPE enumeration. For more information about AM_MEDIA_TYPE, see the DirectX SDK documentation.
 
 
-### -field VideoStandard
+#### - VideoStandard
 
 Specifies the analog video standards that are supported by the stream. This member can be set to one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
 
 
-### -field InputSize
+#### - InputSize
 
 Specifies the size of the incoming signal. <b>InputSize</b> indicates the image rectangle's width and height, in pixels. This is the largest signal that the filter can digitize with each pixel remaining unique. 
 
 
-### -field MinCroppingSize
+#### - MinCroppingSize
 
 Specifies the smallest cropping rectangle allowed, as specified in the <b>rcSource</b> member of the <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a> structure, which is associated with the <b>DataRange</b> member. 
 
 
-### -field MaxCroppingSize
+#### - MaxCroppingSize
 
 Specifies the largest cropping rectangle allowed, as specified in the <b>rcSource</b> member of the KS_VIDEOINFOHEADER structure, which is associated with the <b>DataRange</b> member. 
 
 
-### -field CropGranularityX
+#### - CropGranularityX
 
 Specifies the horizontal granularity of the cropping size. For example, valid widths could be specified as even multiples of four. 
 
 
-### -field CropGranularityY
+#### - CropGranularityY
 
 Specifies the vertical granularity of the cropping size. For example, valid heights could be specified as even multiples of four. 
 
 
-### -field CropAlignX
+#### - CropAlignX
 
 Specifies the horizontal alignment of the cropping rectangle inside <b>InputSize</b>. For example, the minidriver could specify that valid rectangles must start on a boundary that is a multiple of four. 
 
 
-### -field CropAlignY
+#### - CropAlignY
 
 Specifies the vertical alignment of the cropping rectangle inside <b>InputSize</b>. For example, the minidriver could specify that valid rectangles must start on a boundary that is a multiple of four.
 
 
-### -field MinOutputSize
+#### - MinOutputSize
 
 Specifies the smallest bitmap that this pin can produce.
 
 
-### -field MaxOutputSize
+#### - MaxOutputSize
 
 Specifies the largest bitmap that this pin can produce.
 
 
-### -field OutputGranularityX
+#### - OutputGranularityX
 
 Specifies the granularity of the output bitmap width.
 
 
-### -field OutputGranularityY
+#### - OutputGranularityY
 
 Specifies the granularity of the output bitmap height.
 
 
-### -field StretchTapsX
+#### - StretchTapsX
 
 Specifies one of the following values to indicate how well the filter can stretch the image's width.
 <table>
@@ -217,7 +217,7 @@ The filter uses a higher-order (smoother) form of interpolation.
 </table> 
 
 
-### -field StretchTapsY
+#### - StretchTapsY
 
 Specifies one of the following values to indicate how well the filter can stretch the image's height.
 <table>
@@ -268,7 +268,7 @@ The filter uses a higher-order (smoother) form of interpolation.
 </table> 
 
 
-### -field ShrinkTapsX
+#### - ShrinkTapsX
 
 Specifies one of the following values to indicate how well the filter can shrink the image's width.
 <table>
@@ -319,7 +319,7 @@ The filter uses a higher-order (smoother) form of interpolation.
 </table> 
 
 
-### -field ShrinkTapsY
+#### - ShrinkTapsY
 
 Specifies one of the following values to indicate how well the filter can shrink the image's height.
 <table>
@@ -370,22 +370,22 @@ The filter uses a higher-order (smoother) form of interpolation.
 </table> 
 
 
-### -field MinFrameInterval
+#### - MinFrameInterval
 
 Specifies the minimum frame rate allowed. This value applies to capture filters only.
 
 
-### -field MaxFrameInterval
+#### - MaxFrameInterval
 
 Specifies the maximum frame rate allowed. This value applies to capture filters only.
 
 
-### -field MinBitsPerSecond
+#### - MinBitsPerSecond
 
 Specifies the minimum data rate, in bits per second, that this pin can produce.
 
 
-### -field MaxBitsPerSecond
+#### - MaxBitsPerSecond
 
 Specifies the maximum data rate, in bits per second, that this pin can produce.
 

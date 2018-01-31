@@ -69,17 +69,17 @@ NTSTATUS RtlDWordPtrSub(
 
 
 
-### -param dwMinuend [in]
+#### - dwMinuend [in]
 
 The value from which <i>dwSubtrahend</i> is subtracted.
 
 
-### -param dwSubtrahend [in]
+#### - dwSubtrahend [in]
 
 The value to subtract from <i>dwMinuend</i>.
 
 
-### -param pdwResult [out]
+#### - pdwResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

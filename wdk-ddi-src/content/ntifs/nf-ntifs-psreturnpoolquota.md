@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 12ceb592-97ca-41c9-89d0-26fd2dc87981
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.psreturnpoolquota, psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml, PsReturnPoolQuota routine [Installable File System Drivers], ntifs/PsReturnPoolQuota, PsReturnPoolQuota
+ms.keywords: ifsk.psreturnpoolquota, psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml, ntifs/PsReturnPoolQuota, PsReturnPoolQuota routine [Installable File System Drivers], PsReturnPoolQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID PsReturnPoolQuota(
 
 
 
-### -param Process [in]
+#### - Process [in]
 
 Pointer to the process whose quota is to be returned.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 Type of pool quota to return, which can be one of the following: 
 <ul>
@@ -87,7 +87,7 @@ Type of pool quota to return, which can be one of the following:
 <b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
 
 
-### -param Amount [in]
+#### - Amount [in]
 
 Number of bytes to return to the pool quota for this process. 
 

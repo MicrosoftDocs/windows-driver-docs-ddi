@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c0177da-5e5f-4e3e-aef2-05d8079bfb95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass, display.d3dkmtsetprocessschedulingpriorityclass, D3DKMTSetProcessSchedulingPriorityClass
+ms.keywords: OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, D3DKMTSetProcessSchedulingPriorityClass, D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], display.d3dkmtsetprocessschedulingpriorityclass, d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,9 +126,9 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md">D3DKMTGetProcessSchedulingPriorityClass</a>
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
 
  
 

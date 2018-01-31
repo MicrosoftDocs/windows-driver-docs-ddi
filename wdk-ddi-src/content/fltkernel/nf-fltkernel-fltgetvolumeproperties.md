@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1e975626-fa47-456f-a2a9-48506c67cbe5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetVolumeProperties routine [Installable File System Drivers], ifsk.fltgetvolumeproperties, fltkernel/FltGetVolumeProperties, FltGetVolumeProperties, FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml
+ms.keywords: FltGetVolumeProperties routine [Installable File System Drivers], FltGetVolumeProperties, ifsk.fltgetvolumeproperties, fltkernel/FltGetVolumeProperties, FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS FltGetVolumeProperties(
 
 
 
-### -param Volume [in]
+#### - Volume [in]
 
 Opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param VolumeProperties [out]
+#### - VolumeProperties [out]
 
 Pointer to a caller-allocated buffer that receives the requested volume property information. If <i>Length</i> is zero on input, this parameter is ignored. Otherwise, this parameter is required and cannot be <b>NULL</b>. 
 
@@ -85,7 +85,7 @@ Pointer to a caller-allocated buffer that receives the requested volume property
 TBD
 
 
-### -param LengthReturned [out]
+#### - LengthReturned [out]
 
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in <i>VolumeProperties</i>. If <b>FltGetVolumeProperties</b> returns STATUS_BUFFER_TOO_SMALL, or if <i>Length</i> is zero on input, this parameter instead receives the size, in bytes, of the buffer needed to hold the volume properties. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -139,9 +139,9 @@ The buffer that the <i>VolumeProperties</i> parameter points to is not large eno
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_volume_properties.md">FLT_VOLUME_PROPERTIES</a>
-
 <a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_volume_properties.md">FLT_VOLUME_PROPERTIES</a>
 
  
 

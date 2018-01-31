@@ -40,7 +40,7 @@ apiname:
 -	WskFreeAddressInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ VOID WSKAPI * WskFreeAddressInfo(
 
 
 
-### -param Client [in]
+#### - Client [in]
 
 [in] A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
@@ -85,7 +85,7 @@ VOID WSKAPI * WskFreeAddressInfo(
      WskCaptureProviderNPI</b></mshelp:link> function.
 
 
-### -param AddrInfo [in]
+#### - AddrInfo [in]
 
 [in] A pointer to a linked list of one or more <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structures that contain response
      information about the host. This pointer was returned through the 
@@ -110,11 +110,11 @@ None
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
 
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
  
 

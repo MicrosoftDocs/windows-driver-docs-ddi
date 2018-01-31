@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 272165BE-3DF2-410C-B60A-31B48A3F3231
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptTryToAcquireLock method, wdfinterrupt/WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock, kmdf.wdfinterrupttrytoacquirelock, wdf.wdfinterrupttrytoacquirelock, PFN_WDFINTERRUPTTRYTOACQUIRELOCK
+ms.keywords: kmdf.wdfinterrupttrytoacquirelock, WdfInterruptTryToAcquireLock, PFN_WDFINTERRUPTTRYTOACQUIRELOCK, WdfInterruptTryToAcquireLock method, wdfinterrupt/WdfInterruptTryToAcquireLock, wdf.wdfinterrupttrytoacquirelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BOOLEAN WdfInterruptTryToAcquireLock(
 
 
 
-### -param Interrupt [in]
+#### - Interrupt [in]
 
 A handle to a framework interrupt object.
 
@@ -102,9 +102,11 @@ When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_workitem.md">EvtInterruptWorkItem</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
 <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
 
@@ -112,9 +114,7 @@ When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 <a href="..\wdfsync\nf-wdfsync-wdfwaitlockacquire.md">WdfWaitLockAcquire</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_workitem.md">EvtInterruptWorkItem</a>
 
  
 

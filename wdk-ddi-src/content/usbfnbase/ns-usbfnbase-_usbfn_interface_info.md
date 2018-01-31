@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 54647A9E-E0AB-4DE7-93FB-D0232D6AC646
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbfn_interface_info, PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses], USBFN_INTERFACE_INFO structure [Buses], usbfnbase/PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO, _USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO
+ms.keywords: USBFN_INTERFACE_INFO structure [Buses], PUSBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO, buses.usbfn_interface_info, PUSBFN_INTERFACE_INFO structure pointer [Buses], usbfnbase/PUSBFN_INTERFACE_INFO, _USBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_INTERFACE_INFO
 product: Windows
 targetos: Windows
-req.typenames: USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO
+req.typenames: "*PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _USBFN_INTERFACE_INFO {
 
 
 
-### -field InterfaceNumber
+#### - InterfaceNumber
 
 The index number of the interface.
 
 
-### -field Speed
+#### - Speed
 
 The operating bus speed indicated by <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flags.
 
 
-### -field Size
+#### - Size
 
 Specifies the total length, in bytes, of all data for the interface. 
 
 
-### -field InterfaceDescriptorSet
+#### - InterfaceDescriptorSet
 
 Pointer to the first element in the array of that contains the interface descriptor set.  
 

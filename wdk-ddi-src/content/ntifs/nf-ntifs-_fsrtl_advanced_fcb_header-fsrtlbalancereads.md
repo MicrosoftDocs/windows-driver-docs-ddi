@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlBalanceReads, fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, FsRtlBalanceReads routine [Installable File System Drivers], FsRtlBalanceReads, ifsk.fsrtlbalancereads
+ms.keywords: FsRtlBalanceReads routine [Installable File System Drivers], fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, FsRtlBalanceReads, ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS FsRtlBalanceReads(
 
 
 
-### -param TargetDevice [in]
+#### - TargetDevice [in]
 
 A pointer to the device object from which the device starts the balanced read. 
 

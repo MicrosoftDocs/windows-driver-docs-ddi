@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 758733a4-9657-48a4-bbcc-f266c72c1d6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsCopyStreamDataToBuffer0, fwpsk/FwpsCopyStreamDataToBuffer0, netvista.fwpscopystreamdatatobuffer0, FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml
+ms.keywords: FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml, netvista.fwpscopystreamdatatobuffer0, fwpsk/FwpsCopyStreamDataToBuffer0, FwpsCopyStreamDataToBuffer0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,26 +72,26 @@ void NTAPI FwpsCopyStreamDataToBuffer0(
 
 
 
-### -param calloutStreamData [in]
+#### - calloutStreamData [in]
 
 A pointer to a 
      <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure that contains
      the stream data to be copied.
 
 
-### -param buffer [in, out]
+#### - buffer [in, out]
 
 A pointer to a location in memory that will store the copy of the stream data pointed to by the 
      <i>calloutStreamData</i> parameter. The size of the buffer must be greater than or equal to 
      <i>bytesToCopy</i>.
 
 
-### -param bytesToCopy [in]
+#### - bytesToCopy [in]
 
 The amount of data, in bytes, to be copied into the receiving buffer.
 
 
-### -param bytesCopied [out]
+#### - bytesCopied [out]
 
 A pointer to a variable that receives the size, in bytes, of the stream data copied to the memory
      location pointed to by the 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15eeeb07-b71f-4868-8854-6a5034d3f8c6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.hardware_counter, _HARDWARE_COUNTER, ntddk/HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER, PHARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], *PHARDWARE_COUNTER, HARDWARE_COUNTER, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml
+ms.keywords: kernel.hardware_counter, *PHARDWARE_COUNTER, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, ntddk/HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER, PHARDWARE_COUNTER, HARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HARDWARE_COUNTER
 product: Windows
 targetos: Windows
-req.typenames: "*PHARDWARE_COUNTER, HARDWARE_COUNTER"
+req.typenames: HARDWARE_COUNTER, *PHARDWARE_COUNTER
 ---
 
 # _HARDWARE_COUNTER structure
@@ -69,7 +69,7 @@ typedef struct _HARDWARE_COUNTER {
 
 
 
-### -field Type
+#### - Type
 
 Specifies the type of the hardware counter. Set this member to the following <a href="..\ntddk\ne-ntddk-_hardware_counter_type.md">HARDWARE_COUNTER_TYPE</a> enumeration value:
 <ul>
@@ -79,12 +79,12 @@ Specifies the type of the hardware counter. Set this member to the following <a 
 </li>
 </ul>
 
-### -field Reserved
+#### - Reserved
 
 Reserved for use by the operating system. Initialize this member to zero. 
 
 
-### -field Index
+#### - Index
 
 Specifies the hardware counter index. Each hardware counter in a performance monitoring unit (PMU) for a processor is identified by an index.
 
@@ -100,11 +100,11 @@ The <b>Type</b> member specifies the type of hardware counter that is described 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
-
 <a href="..\ntddk\ne-ntddk-_hardware_counter_type.md">HARDWARE_COUNTER_TYPE</a>
 
 <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
+
+<a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
 
  
 

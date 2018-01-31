@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_INVOC, INVOC, PINVOC, prntfont/PINVOC, INVOC structure [Print Devices], *PINVOC, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, print.invoc, prntfont/INVOC, PINVOC structure pointer [Print Devices]"
+ms.keywords: INVOC structure [Print Devices], _INVOC, prntfont/PINVOC, PINVOC, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, print.invoc, *PINVOC, PINVOC structure pointer [Print Devices], INVOC, prntfont/INVOC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INVOC
 product: Windows
 targetos: Windows
-req.typenames: "*PINVOC, INVOC"
+req.typenames: INVOC, *PINVOC
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _INVOC {
 
 
 
-### -field dwCount
+#### - dwCount
 
 Specifies the number of characters in the command.
 
 
-### -field loOffset
+#### - loOffset
 
 Indicates one of the following:
 

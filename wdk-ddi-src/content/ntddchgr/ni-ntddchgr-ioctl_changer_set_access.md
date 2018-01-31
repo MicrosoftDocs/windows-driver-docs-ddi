@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CHANGER_SET_ACCESS
 product: Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
 ---
 
 # IOCTL_CHANGER_SET_ACCESS IOCTL
@@ -107,9 +107,9 @@ The <b>Information</b> field is set to the number of bytes set. The <b>Status</b
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_set_access.md">CHANGER_SET_ACCESS</a>
-
 <a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_set_access.md">CHANGER_SET_ACCESS</a>
 
  
 

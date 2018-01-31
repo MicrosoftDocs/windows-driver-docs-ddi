@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f43137ed-2ea3-4b7c-8d61-bda76bcb5f34
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismrestartcomplete, ndis/NdisMRestartComplete, NdisMRestartComplete, miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, NdisMRestartComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisMRestartComplete, netvista.ndismrestartcomplete, NdisMRestartComplete, NdisMRestartComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisMRestartComplete(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
@@ -80,7 +80,7 @@ The miniport adapter handle that NDIS passed to the
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the restart operation. The following status values are supported:
      

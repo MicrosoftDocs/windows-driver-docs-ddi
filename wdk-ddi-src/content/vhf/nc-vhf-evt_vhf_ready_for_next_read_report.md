@@ -71,7 +71,7 @@ void EvtVhfReadyForNextReadReport(
 
 
 
-### -param VhfClientContext [in]
+#### - VhfClientContext [in]
 
 Pointer to the HID source driver-defined context structure that the driver passed in the previous call to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a> to create the virtual HID device.
 

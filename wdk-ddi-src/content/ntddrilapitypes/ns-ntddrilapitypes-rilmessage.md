@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b776b060-79bf-4848-807d-1999d38075ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILMESSAGE, netvista.rilmessage, ntddrilapitypes/RILMESSAGE, RILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILMESSAGE structure [Network Drivers Starting with Windows Vista], netvista.rilmessage, ntddrilapitypes/RILMESSAGE, *LPRILMESSAGE, RILMESSAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ typedef struct _RILMESSAGE {
 
 
 
-### -field msgUnion
+#### - msgUnion
 
 
 
@@ -119,27 +119,27 @@ typedef struct _RILMESSAGE {
  
 
 
-### -field RILMSGUNION
+#### - RILMSGUNION
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field raSvcCtrAddress
+#### - raSvcCtrAddress
 
 
 
-### -field dwType
+#### - dwType
 
 
 
-### -field dwFlags
+#### - dwFlags
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 491217e9-8cc1-47de-af37-92db377a8c2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/OEMDevMode, OEMDevMode function [Print Devices], print.oemdevmode, print_obsoletefunctions_7a402f29-f8ab-48cc-951f-89b21f45aebd.xml, OEMDevMode
+ms.keywords: OEMDevMode, print_obsoletefunctions_7a402f29-f8ab-48cc-951f-89b21f45aebd.xml, printoem/OEMDevMode, OEMDevMode function [Print Devices], print.oemdevmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,10 +68,10 @@ BOOL APIENTRY OEMDevMode(
 
 
 
-### -param dwMode
+#### - dwMode
 
 
 
-### -param pOemDMParam
+#### - pOemDMParam
 
 

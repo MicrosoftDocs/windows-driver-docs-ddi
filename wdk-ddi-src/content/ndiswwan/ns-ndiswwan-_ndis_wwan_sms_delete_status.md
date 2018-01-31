@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78591487-d534-4e9e-852a-5826b8a98a9b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SMS_DELETE_STATUS, WwanRef_aa4755ba-7eac-42ef-8901-170593ed60af.xml, NDIS_WWAN_SMS_DELETE_STATUS structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SMS_DELETE_STATUS, netvista.ndis_wwan_sms_delete_status, PNDIS_WWAN_SMS_DELETE_STATUS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SMS_DELETE_STATUS, *PNDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS, ndiswwan/PNDIS_WWAN_SMS_DELETE_STATUS
+ms.keywords: ndiswwan/PNDIS_WWAN_SMS_DELETE_STATUS, _NDIS_WWAN_SMS_DELETE_STATUS, ndiswwan/NDIS_WWAN_SMS_DELETE_STATUS, netvista.ndis_wwan_sms_delete_status, PNDIS_WWAN_SMS_DELETE_STATUS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_DELETE_STATUS, WwanRef_aa4755ba-7eac-42ef-8901-170593ed60af.xml, NDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SMS_DELETE_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_SMS_DELETE_STATUS {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SMS_DELETE_STATUS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of the SMS delete operation.
 

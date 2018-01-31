@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6b4d4f4-63d5-496c-9082-f2e8d1a174ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_request_direct_ref_b61f2fdf-0fb8-4df8-8637-a4db671d008f.xml, NdisFDirectOidRequestComplete, NdisFDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFDirectOidRequestComplete, netvista.ndisfdirectoidrequestcomplete
+ms.keywords: ndis_request_direct_ref_b61f2fdf-0fb8-4df8-8637-a4db671d008f.xml, NdisFDirectOidRequestComplete, ndis/NdisFDirectOidRequestComplete, NdisFDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfdirectoidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ VOID NdisFDirectOidRequestComplete(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param OidRequest [in]
+#### - OidRequest [in]
 
 A pointer to a buffer that is formatted as an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The filter
@@ -90,7 +90,7 @@ A pointer to a buffer that is formatted as an
      FilterDirectOidRequest</i></mshelp:link> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the request operation: NDIS_STATUS_SUCCESS or any driver-determined
      NDIS_STATUS_<i>Xxx</i> value except NDIS_STATUS_PENDING.
@@ -122,14 +122,14 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-   ProtocolDirectOidRequestComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
+
+<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
+   ProtocolDirectOidRequestComplete</i></mshelp:link>
 
 <mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
    FilterDirectOidRequestComplete</i></mshelp:link>

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e43f782-c89c-4926-83db-efe737544065
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_OFFER_PRIORITY_HIGH, _D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY, d3dukmdt/D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY_HIGH, d3dukmdt/D3DDDI_OFFER_PRIORITY_AUTO, d3dukmdt/D3DDDI_OFFER_PRIORITY_LOW, D3DDDI_OFFER_PRIORITY enumeration [Display Devices], D3DDDI_OFFER_PRIORITY_LOW, d3dukmdt/D3DDDI_OFFER_PRIORITY_NONE, display.d3dddi_offer_priority, d3dukmdt/D3DDDI_OFFER_PRIORITY_NORMAL, D3DDDI_OFFER_PRIORITY_NORMAL, D3DDDI_OFFER_PRIORITY_AUTO, D3DDDI_OFFER_PRIORITY_NONE
+ms.keywords: D3DDDI_OFFER_PRIORITY_NONE, display.d3dddi_offer_priority, D3DDDI_OFFER_PRIORITY, d3dukmdt/D3DDDI_OFFER_PRIORITY, d3dukmdt/D3DDDI_OFFER_PRIORITY_LOW, d3dukmdt/D3DDDI_OFFER_PRIORITY_HIGH, D3DDDI_OFFER_PRIORITY_LOW, D3DDDI_OFFER_PRIORITY_HIGH, D3DDDI_OFFER_PRIORITY_NORMAL, D3DDDI_OFFER_PRIORITY_AUTO, d3dukmdt/D3DDDI_OFFER_PRIORITY_NORMAL, D3DDDI_OFFER_PRIORITY enumeration [Display Devices], d3dukmdt/D3DDDI_OFFER_PRIORITY_AUTO, _D3DDDI_OFFER_PRIORITY, d3dukmdt/D3DDDI_OFFER_PRIORITY_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,36 +71,36 @@ typedef enum _D3DDDI_OFFER_PRIORITY {
 
 
 
-### -field D3DDDI_OFFER_PRIORITY_NONE
+#### - D3DDDI_OFFER_PRIORITY_NONE
 
 The allocation should not be offered.
 <div class="alert"><b>Note</b>  Do not use this value in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div><div> </div>
 
-### -field D3DDDI_OFFER_PRIORITY_LOW
+#### - D3DDDI_OFFER_PRIORITY_LOW
 
 The allocation has low value and should be discarded before other offered allocations. Specify this type for allocations that have no useful content.
 
 
-### -field D3DDDI_OFFER_PRIORITY_NORMAL
+#### - D3DDDI_OFFER_PRIORITY_NORMAL
 
 The allocation has useful content but can easily be regenerated.
 
 
-### -field D3DDDI_OFFER_PRIORITY_HIGH
+#### - D3DDDI_OFFER_PRIORITY_HIGH
 
 The allocation has useful content and cannot easily be regenerated. The video memory manager (which is part of Dxgkrnl.sys) should therefore avoid discarding this allocation before other offered allocations.
 
 
-### -field D3DDDI_OFFER_PRIORITY_AUTO
+#### - D3DDDI_OFFER_PRIORITY_AUTO
 
 The video memory manager should make a policy decision on the allocation's value based on its  priority for eviction.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
  
 

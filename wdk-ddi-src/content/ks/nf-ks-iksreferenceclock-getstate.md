@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, stream.iksreferenceclock_getstate, IKsReferenceClock interface [Streaming Media Devices], GetState method, IKsReferenceClock::GetState, GetState, GetState method [Streaming Media Devices], GetState method [Streaming Media Devices], IKsReferenceClock interface, ks/IKsReferenceClock::GetState
+ms.keywords: stream.iksreferenceclock_getstate, GetState method [Streaming Media Devices], IKsReferenceClock interface, ks/IKsReferenceClock::GetState, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, IKsReferenceClock::GetState, GetState, IKsReferenceClock interface [Streaming Media Devices], GetState method, GetState method [Streaming Media Devices], IKsReferenceClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS GetState(
 
 
 
-### -param State [out]
+#### - State [out]
 
 Points to a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> structure that indicates the streaming state of the underlying clock.
 

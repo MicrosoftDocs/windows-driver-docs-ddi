@@ -72,12 +72,12 @@ NTSTATUS APIENTRY DxgkDdiCreateProcess(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle to the display adapter.
 
 
-### -param pArgs [in, out]
+#### - pArgs [in, out]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
 

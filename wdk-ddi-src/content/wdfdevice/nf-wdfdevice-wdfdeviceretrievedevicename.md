@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, wdf.wdfdeviceretrievedevicename, WdfDeviceRetrieveDeviceName, PFN_WDFDEVICERETRIEVEDEVICENAME, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, kmdf.wdfdeviceretrievedevicename
+ms.keywords: PFN_WDFDEVICERETRIEVEDEVICENAME, wdf.wdfdeviceretrievedevicename, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, WdfDeviceRetrieveDeviceName, kmdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfDeviceRetrieveDeviceName(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param String [in]
+#### - String [in]
 
 A handle to a framework string object that receives the device name.
 

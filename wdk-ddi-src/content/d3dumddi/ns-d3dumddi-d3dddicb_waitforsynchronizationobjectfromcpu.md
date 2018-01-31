@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0F5BEDBF-6871-4343-88D1-85E7620171EF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_waitforsynchronizationobjectfromcpu, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, WaitAny, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices]
+ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_waitforsynchronizationobjectfromcpu, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
 
 
 
-### -field ObjectCount
+#### - ObjectCount
 
 [in] The number of synchronization objects in the <b>ObjectHandleArray</b> and fence values in the <b>FenceValueArray</b>. 
 
 
-### -field ObjectHandleArray
+#### - ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events to wait for.
 
 
-### -field FenceValueArray
+#### - FenceValueArray
 
 [in] An array of 64-bit monitored fence values to wait for, each corresponding to an object in the <b>ObjectHandleArray</b>.
 
 
-### -field hAsyncEvent
+#### - hAsyncEvent
 
 [in] When not <b>NULL</b>, specifies the event to be signaled when the wait condition is satisfied. When <b>NULL</b>, the call will not return until the wait condition is satisfied.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
 <table>

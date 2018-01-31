@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a8e0be5-8eed-47f1-88df-43f3776def7f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_f10955b1-ab90-46dc-8e53-1c395af6f0bc.xml, video/VideoPortReadRegisterBufferUshort, VideoPortReadRegisterBufferUshort function [Display Devices], VideoPortReadRegisterBufferUshort, display.videoportreadregisterbufferushort
+ms.keywords: display.videoportreadregisterbufferushort, VideoPortReadRegisterBufferUshort function [Display Devices], VideoPort_Functions_f10955b1-ab90-46dc-8e53-1c395af6f0bc.xml, VideoPortReadRegisterBufferUshort, video/VideoPortReadRegisterBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortReadRegisterBufferUshort(
 
 
 
-### -param Register
+#### - Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer into which the USHORT values are written.
 
 
-### -param Count
+#### - Count
 
 Specifies the number of USHORT values to be written to the buffer.
 
@@ -105,11 +105,11 @@ Callers of <b>VideoPortReadRegisterBufferUshort</b> can be running at any IRQL, 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

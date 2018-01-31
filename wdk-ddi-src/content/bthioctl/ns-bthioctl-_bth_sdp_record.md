@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 29aeb49a-1647-46ee-a88e-f088f8a2548f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], PBTH_SDP_RECORD, _BTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], bthioctl/BTH_SDP_RECORD, bltooth.bth_sdp_record, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, *PBTH_SDP_RECORD, bthioctl/PBTH_SDP_RECORD
+ms.keywords: bthioctl/PBTH_SDP_RECORD, PBTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, _BTH_SDP_RECORD, *PBTH_SDP_RECORD, BTH_SDP_RECORD, bltooth.bth_sdp_record, BTH_SDP_RECORD structure [Bluetooth Devices], bthioctl/BTH_SDP_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_SDP_RECORD
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_SDP_RECORD, BTH_SDP_RECORD"
+req.typenames: BTH_SDP_RECORD, *PBTH_SDP_RECORD
 ---
 
 # _BTH_SDP_RECORD structure
@@ -72,7 +72,7 @@ typedef struct _BTH_SDP_RECORD {
 
 
 
-### -field fSecurity
+#### - fSecurity
 
 A combination of flags that specifies the security attributes of the SDP record. Valid flag values
      are listed in the following table.
@@ -135,7 +135,7 @@ No security is required to access this record.
 </table> 
 
 
-### -field fOptions
+#### - fOptions
 
 A combination of flags that specifies the publication options for the SDP record. Valid flag
      values are listed in the following table.
@@ -170,7 +170,7 @@ The record should be obtainable if specifically requested, but it should not be 
 </table> 
 
 
-### -field fCodService
+#### - fCodService
 
 
 
@@ -214,12 +214,12 @@ The record should be obtainable if specifically requested, but it should not be 
 
 
 
-### -field recordLength
+#### - recordLength
 
 The size, in bytes, of the record.
 
 
-### -field record
+#### - record
 
 
       The SDP record in its raw stream format. The first byte is defined in this structure, with the

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d8a2fa19-8f44-4088-b515-69c9f2119714
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInsertUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinsertunicodeprefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml, RtlInsertUnicodePrefix, ntifs/RtlInsertUnicodePrefix
+ms.keywords: RtlInsertUnicodePrefix, ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml, ifsk.rtlinsertunicodeprefix, RtlInsertUnicodePrefix routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN RtlInsertUnicodePrefix(
 
 
 
-### -param PrefixTable [in]
+#### - PrefixTable [in]
 
 Pointer to the prefix table. The table must have been initialized by calling <a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>.
 
 
-### -param Prefix [in]
+#### - Prefix [in]
 
 Pointer to the name string to be inserted with the element at <i>PrefixTableEntry</i>. 
 
 
-### -param PrefixTableEntry [out]
+#### - PrefixTableEntry [out]
 
 Pointer to caller-allocated storage, which must be at least <b>sizeof</b>(UNICODE_PREFIX_TABLE_ENTRY), for the element to be inserted for the new prefix. <b>RtlInsertUnicodePrefix</b> initializes this element, which should be considered opaque by the caller. 
 
@@ -108,15 +108,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
 
 <a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
 
+<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
-
-<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
 
  
 

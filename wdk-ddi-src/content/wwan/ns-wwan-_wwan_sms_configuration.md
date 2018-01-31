@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85075b9d-72a7-4f3e-8a25-888689f9d5e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_d68f5af0-d14e-4b01-a77d-4d3fea6db828.xml, _WWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_configuration, *PWWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION, wwan/PWWAN_SMS_CONFIGURATION
+ms.keywords: PWWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WwanRef_d68f5af0-d14e-4b01-a77d-4d3fea6db828.xml, netvista.wwan_sms_configuration, wwan/WWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CONFIGURATION, wwan/PWWAN_SMS_CONFIGURATION, _WWAN_SMS_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _WWAN_SMS_CONFIGURATION {
 
 
 
-### -field ScAddress
+#### - ScAddress
 
 A NULL-terminated string with a maximum length of 15 digits that represents the Service Center
      (SC) address. This member is used by all text messages for sending and receiving. For PDU-style SMS
@@ -92,7 +92,7 @@ The number can be in any of the following formats:
      <b>ScAddress</b> member and should not update this member thereafter.
 
 
-### -field SmsFormat
+#### - SmsFormat
 
 The SMS message format that should be used for the unsolicited indication of new SMS message
      arrivals. CDMA-based devices support only the 
@@ -100,7 +100,7 @@ The SMS message format that should be used for the unsolicited indication of new
      <b>WwanSmsFormatCdma</b> format does not apply to GSM-based devices.
 
 
-### -field ulMaxMessageIndex
+#### - ulMaxMessageIndex
 
 The maximum number of messages that can be stored on the device. Miniport drivers report this
      value for 

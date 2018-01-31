@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d816b4d7-cc99-4a83-9fd2-c7c0659d0318
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_QUERYAUTHENICATEDCHANNEL, display.d3dddiarg_queryauthenticatedchannel, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml, d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL"
+ms.keywords: "_D3DDDIARG_QUERYAUTHENICATEDCHANNEL, display.d3dddiarg_queryauthenticatedchannel, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DDDIARG_QUERYAUTHENTICATEDCHANNEL {
 
 
 
-### -field InputSize
+#### - InputSize
 
 [in] The size, in bytes, of the input data that the <b>pInputData</b> member points to. 
 
 
-### -field pInputData
+#### - pInputData
 
 [in] A pointer to a buffer that describes the information to query. The buffer that <b>pInputData</b> points to is defined identically to the input buffer that is passed to the <b>IDirect3DAuthenticatedChannel::Query</b> method. For more information about <b>IDirect3DAuthenticatedChannel::Query</b>, see the Windows SDK documentation. 
 
 
-### -field OutputSize
+#### - OutputSize
 
 [in] The size, in bytes, of the output data that the <b>pOutputData</b> member points to. 
 
 
-### -field pOutputData
+#### - pOutputData
 
 [in/out] A pointer to a buffer that describes the information that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a> function returns. The buffer that <b>pOutputData</b> points to is defined identically to the output buffer that the <b>IDirect3DAuthenticatedChannel::Query</b> method returns. 
 

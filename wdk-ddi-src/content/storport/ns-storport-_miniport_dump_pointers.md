@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], storage.miniport_dump_pointers, *PMINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml, _MINIPORT_DUMP_POINTERS, storport/MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], PMINIPORT_DUMP_POINTERS
+ms.keywords: PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], storport/MINIPORT_DUMP_POINTERS, *PMINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, storport/PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], PMINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml, _MINIPORT_DUMP_POINTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,67 +90,67 @@ typedef struct _MINIPORT_DUMP_POINTERS {
  
 
 
-### -field AdapterObject
+#### - AdapterObject
 
 Set to <b>NULL</b>.
 
 
-### -field Version
+#### - Version
 
 Set to DUMP_MINIPORT_VERSION_1.
 
 
-### -field Size
+#### - Size
 
 Set to sizeof(MINIPORT_DUMP_POINTERS).
 
 
-### -field DriverName
+#### - DriverName
 
 The wide-character name of the miniport driver without path information (for example, Miniport.sys).
 
 
-### -field MappedRegisterBase
+#### - MappedRegisterBase
 
 Set to zero.
 
 
-### -field CommonBufferSize
+#### - CommonBufferSize
 
 The size of the common buffer that is required. The size must not be greater than 64 KB (65,536 bytes).
 
 
-### -field MiniportPrivateDumpData
+#### - MiniportPrivateDumpData
 
 The context that is to be passed to the miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine during the crash dump. The context is passed in the <b>Reserved</b> member or, starting with Windows 8, the <b>MiniportDumpData</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure.
 
 
-### -field SystemIoBusNumber
+#### - SystemIoBusNumber
 
 Specifies the system-assigned number of the I/O bus to which the HBA is connected. The Storport driver initializes this member. Miniport drivers that work with the Storport driver must not change this member. For more information, see the <b>SystemIoBusNumber</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
 
-### -field AdapterInterfaceType
+#### - AdapterInterfaceType
 
 Identifies the I/O bus interface. The Storport driver initializes this member. Miniport drivers that work with the Storport driver must not modify this member. For more information, see the <b>AdapterInterfaceType</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
 
-### -field MaximumTransferLength
+#### - MaximumTransferLength
 
 Specifies the maximum number of bytes the HBA can transfer in a single transfer operation in crashdump mode. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates an unlimited maximum transfer size. This value is specific to the dump operation of the miniport and may differ from the value in the <b>MaximumTransferLength</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
 
-### -field NumberOfPhysicalBreaks
+#### - NumberOfPhysicalBreaks
 
 Specifies the maximum number of breaks between address ranges that a data buffer can have to create scatter/gather lists. In other words, the number of scatter/gather list entries that the adapter can support minus one. For more information, see the <b>NumberOfPhysicalBreaks</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
 
-### -field AlignmentMask
+#### - AlignmentMask
 
 Contains a mask that indicates the alignment restrictions for buffers that are required by the HBA for transfer operations. Valid mask values are also restricted by characteristics of the memory managers on different versions of the Microsoft Windows operating systems. The valid mask values are 0 (byte aligned), 0x1 (word aligned), 0x3 (DWORD aligned), and 0x7 (double DWORD aligned). The miniport driver should set this mask if the HBA supports scatter/gather. The same considerations apply to the <b>AlignmentMask</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
 
-### -field NumberOfAccessRanges
+#### - NumberOfAccessRanges
 
 Specifies the number of <b>AccessRanges</b> elements in the array. For more information, see the <b>NumberOfAccessRanges</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
@@ -160,22 +160,22 @@ Specifies the number of <b>AccessRanges</b> elements in the array. For more info
  
 
 
-### -field NumberOfBuses
+#### - NumberOfBuses
 
 Specifies the number of buses that are controlled by the adapter. By default, the value of this member is zero. For more information, see the <b>NumberOfBuses</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
 
-### -field Master
+#### - Master
 
 Indicates, when <b>TRUE</b>, that the HBA is a bus master. The Storport driver initializes this member to <b>TRUE</b>, because its miniport drivers must support bus-mastering DMA. Miniport drivers that work with the Storport driver must not change this value. For more information, see the <b>Master</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
 
-### -field MapBuffers
+#### - MapBuffers
 
 Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. For more information, see the <b>MapBuffers</b> member of <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>.
 
 
-### -field MaximumNumberOfTargets
+#### - MaximumNumberOfTargets
 
 Specifies the number of target peripherals that the adapter can control. For more information, see the <b>MaximumNumberOfTargets</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>. 
 
@@ -196,11 +196,11 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
  
 

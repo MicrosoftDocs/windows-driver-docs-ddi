@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aba0ebc8-2c92-4d27-a35b-9ac25ac6e5ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, DXGK_I2C_INTERFACE structure [Display Devices], _DXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], dispmprt/PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE, dispmprt/DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, display.dxgk_i2c_interface, *PDXGK_I2C_INTERFACE
+ms.keywords: dispmprt/PDXGK_I2C_INTERFACE, _DXGK_I2C_INTERFACE, DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, PDXGK_I2C_INTERFACE, dispmprt/DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, display.dxgk_i2c_interface, *PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], DXGK_I2C_INTERFACE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _DXGK_I2C_INTERFACE {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Version
+#### - Version
 
 The version number of the I2C interface. Version number constants are defined in <i>Dispmprt.h</i> (for example, DXGK_I2C_INTERFACE_VERSION_1).
 
 
-### -field Context
+#### - Context
 
 A pointer to a private context block.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display miniport driver.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display miniport driver.
 
 
-### -field DxgkDdiI2CTransmitDataToDisplay
+#### - DxgkDdiI2CTransmitDataToDisplay
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_i2c_transmit_data_to_display.md">DxgkDdiI2CTransmitDataToDisplay</a> function.
 
 
-### -field DxgkDdiI2CReceiveDataFromDisplay
+#### - DxgkDdiI2CReceiveDataFromDisplay
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_i2c_receive_data_from_display.md">DxgkDdiI2CReceiveDataFromDisplay</a> function.
 

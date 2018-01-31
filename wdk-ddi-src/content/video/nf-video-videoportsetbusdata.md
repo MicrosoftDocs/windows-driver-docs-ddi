@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2a9ce391-718e-4be0-9699-7612b63d31f0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportsetbusdata, VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, video/VideoPortSetBusData, VideoPortSetBusData, VideoPortSetBusData function [Display Devices]
+ms.keywords: display.videoportsetbusdata, VideoPortSetBusData function [Display Devices], VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, VideoPortSetBusData, video/VideoPortSetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,36 +73,36 @@ ULONG VideoPortSetBusData(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param BusDataType
+#### - BusDataType
 
 Specifies the type of bus data to be set. Currently, its value can be one of <b>Cmos</b>, <b>EisaConfiguration</b>, or <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses might be supported in the future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>.
       
      
 
 
-### -param SlotNumber
+#### - SlotNumber
 
 For a <i>BusDataType</i> value of <b>Cmos</b>, specifies the location of the device on the bus. This parameter should be zero for all other bus types.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a caller-supplied storage area with configuration information specific to <i>BusDataType</i>.
 
 When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.
 
 
-### -param Offset
+#### - Offset
 
 Specifies the byte offset within the PCI_COMMON_CONFIG structure at which the caller-supplied configuration values begin. A miniport driver can use PCI_COMMON_HDR_LENGTH to specify the offset of the device-specific area in PCI_COMMON_CONFIG.
 
 
-### -param Length
+#### - Length
 
 Specifies the number of bytes in <i>Buffer</i>.
 
@@ -127,17 +127,17 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
  
 

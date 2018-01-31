@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a87a9976-f844-4e69-82d3-2d426e359763
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IQueueCallbackWrite::OnWrite, umdf.iqueuecallbackwrite_onwrite, OnWrite, IQueueCallbackWrite interface, OnWrite method, IQueueCallbackWrite, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, OnWrite method, IQueueCallbackWrite interface, wudfddi/IQueueCallbackWrite::OnWrite, OnWrite method, wdf.iqueuecallbackwrite_onwrite
+ms.keywords: umdf.iqueuecallbackwrite_onwrite, OnWrite method, OnWrite method, IQueueCallbackWrite interface, OnWrite, IQueueCallbackWrite, IQueueCallbackWrite::OnWrite, wdf.iqueuecallbackwrite_onwrite, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, IQueueCallbackWrite interface, OnWrite method, wudfddi/IQueueCallbackWrite::OnWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackWrite.OnWrite
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ void  OnWrite(
 
 
 
-### -param pWdfQueue [in]
+#### - pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from. 
 
 
-### -param pWdfRequest [in]
+#### - pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object. 
 
 
-### -param NumOfBytesToWrite [in]
+#### - NumOfBytesToWrite [in]
 
 The size, in bytes, of the write buffer for the request.
 
@@ -109,13 +109,13 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackwrite.md">IQueueCallbackWrite</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackwrite.md">IQueueCallbackWrite</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 

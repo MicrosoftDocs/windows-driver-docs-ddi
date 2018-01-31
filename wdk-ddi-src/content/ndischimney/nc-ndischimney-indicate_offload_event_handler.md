@@ -78,7 +78,7 @@ VOID ProtocolIndicateOffloadEvent(
 
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 A handle to a context area that was allocated by the protocol driver. The driver maintains the per
      binding context information in this context area. The driver supplied this handle to NDIS when the
@@ -86,7 +86,7 @@ A handle to a context area that was allocated by the protocol driver. The driver
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-### -param OffloadBlockList [in]
+#### - OffloadBlockList [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
@@ -108,7 +108,7 @@ The underlying offload target supplies a valid
      <i>OffloadBlockList</i> pointer.
 
 
-### -param IndicationCode [in]
+#### - IndicationCode [in]
 
 The event being indicated as one of the following INDICATE_OFFLOAD_EVENT values:
      
@@ -143,17 +143,17 @@ The implementation of this function for intermediate drivers is to be determined
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
-
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
-
 <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
+
+<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
 
  
 

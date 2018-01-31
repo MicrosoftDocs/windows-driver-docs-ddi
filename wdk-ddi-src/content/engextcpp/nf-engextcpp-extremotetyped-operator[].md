@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped::ErtIoctl, ExtRemoteTyped class [Windows Debugging], EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::operator[], ExtRemoteTyped::GetSimpleValue, debugger.extremotetyped, engextcpp/ExtRemoteTyped, ExtRemoteTyped::Copy, ErtIoctl, ExtRemoteTyped::Clear, operator=, Copy, operator[], Clear, ExtRemoteTyped::operator=, ExtRemoteTyped, GetSimpleValue
+ms.keywords: debugger.extremotetyped, GetSimpleValue, Copy, ExtRemoteTyped::GetSimpleValue, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped::operator=, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::Clear, ErtIoctl, operator=, engextcpp/ExtRemoteTyped, operator[], ExtRemoteTyped class [Windows Debugging], described, Clear, ExtRemoteTyped::Copy, ExtRemoteTyped::operator[], ExtRemoteTyped::ErtIoctl, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::operator[] method
@@ -266,9 +266,9 @@ Indicates whether or not the destructor for this instance of <b>ExtRemoteTyped</
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
  
 

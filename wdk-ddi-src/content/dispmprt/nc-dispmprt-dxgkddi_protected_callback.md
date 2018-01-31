@@ -40,7 +40,7 @@ apiname:
 -	DxgkProtectedCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_PROTECTED_CALLBACK callback
@@ -76,14 +76,14 @@ VOID DxgkProtectedCallback(
 
 
 
-### -param ProtectedCallbackContext [in]
+#### - ProtectedCallbackContext [in]
 
 
       A pointer to driver-defined information that was specified in a previous call to <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>.
      
 
 
-### -param ProtectionStatus [in]
+#### - ProtectionStatus [in]
 
 Status of the display adapter's protected state. If STATUS_SUCCESS, the adapter was successfully protected from access. A failure status code indicates that the adapter is not protected.
 

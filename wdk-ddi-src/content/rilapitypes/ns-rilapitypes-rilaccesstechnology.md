@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0bcbc0c-8783-43b2-a4af-3dad4aaff142
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilaccesstechnology_2, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], RILACCESSTECHNOLOGY, rilapitypes/RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
+ms.keywords: RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY, netvista.rilaccesstechnology_2, rilapitypes/RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _RILACCESSTECHNOLOGY {
 
 
 
-### -field kindUnion
+#### - kindUnion
 
 
 
@@ -106,19 +106,19 @@ typedef struct _RILACCESSTECHNOLOGY {
  
 
 
-### -field RILACCESSTECHNOLOGYKINDUNION
+#### - RILACCESSTECHNOLOGYKINDUNION
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwSystemType
+#### - dwSystemType
 
 
 

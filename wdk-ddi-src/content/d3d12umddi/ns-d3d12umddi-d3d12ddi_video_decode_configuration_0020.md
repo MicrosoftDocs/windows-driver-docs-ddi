@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D689A7F3-87ED-4247-A28D-333C05C958F8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_decode_configuration, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
+ms.keywords: D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, display.d3d12ddi_video_decode_configuration, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 {
 
 
 
-### -field DecodeProfile
+#### - DecodeProfile
 
 The profile for the decoder we want, e.g., HEVC_10BIT, HEVC_8BIT, H264_MAIN.
 
 
-### -field BitstreamEncryption
+#### - BitstreamEncryption
 
 The GUID identifying the encryption, e.g., D3D12DDI_DECODER_ENCRYPTION_HW_CENC.  
 
 
-### -field InterlaceType
+#### - InterlaceType
 
 The interlace type used by the coded frames.  See D3D12DDI_VIDEO_CODED_INTERLACE_TYPE. 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e79ae2ac-6636-491d-8c98-70a5ff3a23ef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin::KsIncrementPendingIoCount, KsIncrementPendingIoCount method [Streaming Media Devices], IKsPin, IKsPin interface [Streaming Media Devices], KsIncrementPendingIoCount method, ksproxy/IKsPin::KsIncrementPendingIoCount, stream.ikspin_ksincrementpendingiocount, ksproxy_c654f701-d58e-4953-ad55-76d98096b7f0.xml, KsIncrementPendingIoCount, KsIncrementPendingIoCount method [Streaming Media Devices], IKsPin interface
+ms.keywords: KsIncrementPendingIoCount method [Streaming Media Devices], IKsPin interface, stream.ikspin_ksincrementpendingiocount, IKsPin::KsIncrementPendingIoCount, KsIncrementPendingIoCount method [Streaming Media Devices], KsIncrementPendingIoCount, IKsPin, ksproxy/IKsPin::KsIncrementPendingIoCount, IKsPin interface [Streaming Media Devices], KsIncrementPendingIoCount method, ksproxy_c654f701-d58e-4953-ad55-76d98096b7f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,13 +99,13 @@ The client calls the <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559872">IKsInterfaceHandler::KsSetPin</a>
-
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560709">IKsPin::KsDecrementPendingIoCount</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559872">IKsInterfaceHandler::KsSetPin</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+
+<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c7c0d40-a51e-4656-b262-233f0af8db0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, *LPD3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], D3DHAL_DP2MULTIPLYTRANSFORM, display.d3dhal_dp2multiplytransform, LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], LPD3DHAL_DP2MULTIPLYTRANSFORM, _D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml
+ms.keywords: D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml, *LPD3DHAL_DP2MULTIPLYTRANSFORM, _D3DHAL_DP2MULTIPLYTRANSFORM, display.d3dhal_dp2multiplytransform, d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, LPD3DHAL_DP2MULTIPLYTRANSFORM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _D3DHAL_DP2MULTIPLYTRANSFORM {
 
 
 
-### -field xfrmType
+#### - xfrmType
 
 Specifies the current transform being modified.
 <table>
@@ -113,7 +113,7 @@ Specifies the current world transformation.
 </table> 
 
 
-### -field matrix
+#### - matrix
 
 Specifies the matrix used to modify the current transform.
 

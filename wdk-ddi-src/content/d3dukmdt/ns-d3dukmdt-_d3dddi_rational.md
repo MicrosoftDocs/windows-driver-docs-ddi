@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6ae3b68-d9a0-45b3-bf5d-00c09b87709f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_RATIONAL structure [Display Devices], D3DDDI_RATIONAL, DmStructs_68540737-a888-46aa-99d7-83a071f3f604.xml, display.d3dddi_rational, d3dukmdt/D3DDDI_RATIONAL, _D3DDDI_RATIONAL
+ms.keywords: D3DDDI_RATIONAL structure [Display Devices], DmStructs_68540737-a888-46aa-99d7-83a071f3f604.xml, D3DDDI_RATIONAL, display.d3dddi_rational, d3dukmdt/D3DDDI_RATIONAL, _D3DDDI_RATIONAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDI_RATIONAL {
 
 
 
-### -field Numerator
+#### - Numerator
 
 [in] The numerator of the frequency fraction.
 
 
-### -field Denominator
+#### - Denominator
 
 [in] The denominator of the frequency fraction.
 

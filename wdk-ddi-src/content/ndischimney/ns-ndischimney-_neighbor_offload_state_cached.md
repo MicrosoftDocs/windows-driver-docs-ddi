@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dedffa8-9745-4668-8646-0e896942b9c8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNEIGHBOR_OFFLOAD_STATE_CACHED, NEIGHBOR_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], netvista.neighbor_offload_state_cached, PNEIGHBOR_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_CACHED, *PNEIGHBOR_OFFLOAD_STATE_CACHED, ndischimney/NEIGHBOR_OFFLOAD_STATE_CACHED, NEIGHBOR_OFFLOAD_STATE_CACHED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CACHED, tcp_chim_struct_053f9a79-057c-4d4b-8ad1-2910f0ad4a9a.xml
+ms.keywords: ndischimney/NEIGHBOR_OFFLOAD_STATE_CACHED, PNEIGHBOR_OFFLOAD_STATE_CACHED, tcp_chim_struct_053f9a79-057c-4d4b-8ad1-2910f0ad4a9a.xml, netvista.neighbor_offload_state_cached, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CACHED, _NEIGHBOR_OFFLOAD_STATE_CACHED, NEIGHBOR_OFFLOAD_STATE_CACHED, PNEIGHBOR_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], NEIGHBOR_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], *PNEIGHBOR_OFFLOAD_STATE_CACHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NEIGHBOR_OFFLOAD_STATE_CACHED
 product: Windows
 targetos: Windows
-req.typenames: "*PNEIGHBOR_OFFLOAD_STATE_CACHED, NEIGHBOR_OFFLOAD_STATE_CACHED"
+req.typenames: NEIGHBOR_OFFLOAD_STATE_CACHED, *PNEIGHBOR_OFFLOAD_STATE_CACHED
 ---
 
 # _NEIGHBOR_OFFLOAD_STATE_CACHED structure
@@ -72,7 +72,7 @@ typedef struct _NEIGHBOR_OFFLOAD_STATE_CACHED {
 
 
 
-### -field Header
+#### - Header
 
 An 
      <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
@@ -83,12 +83,12 @@ An
      <b>Header</b> is reserved.
 
 
-### -field DlDestinationAddress
+#### - DlDestinationAddress
 
 Specifies the media access control (MAC) address of the next hop (neighbor).
 
 
-### -field HostReachabilityDelta
+#### - HostReachabilityDelta
 
 The host stack's current time minus 
      <b>HostReachabilityDelta</b> is the last time that the host stack confirmed neighbor reachability (see
@@ -124,16 +124,16 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_CACHED structure is a
 
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
 
  
 

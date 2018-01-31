@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry, fltkernel/FltAddOpenReparseEntry, FltRemoveOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers]
+ms.keywords: FltAddOpenReparseEntry, FltRemoveOpenReparseEntry, ifsk.fltremoveopenreparseentry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,18 +74,18 @@ void FltAddOpenReparseEntry(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 The filter to dereference.
 
 
-### -param Data [in]
+#### - Data [in]
 
 The create operation to remove open reparse information
                        from.
 
 
-### -param OpenReparseEntry [in]
+#### - OpenReparseEntry [in]
 
 The open reparse information to remove, of type <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a>.
 

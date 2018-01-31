@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c275d89-e01d-445b-8c60-ae5268cd28c3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdffdoinitallocandqueryproperty, PFN_WDFFDOINITALLOCANDQUERYPROPERTY, WdfFdoInitAllocAndQueryProperty, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml
+ms.keywords: WdfFdoInitAllocAndQueryProperty, wdf.wdffdoinitallocandqueryproperty, PFN_WDFFDOINITALLOCANDQUERYPROPERTY, DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, kmdf.wdffdoinitallocandqueryproperty, WdfFdoInitAllocAndQueryProperty method, wdffdo/WdfFdoInitAllocAndQueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitAllocAndQueryProperty
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,27 @@ NTSTATUS WdfFdoInitAllocAndQueryProperty(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator value that identifies the device property to be retrieved.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed enumerator value that specifies the type of memory to be allocated.
 
 
-### -param PropertyMemoryAttributes [in, optional]
+#### - PropertyMemoryAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the memory object that <b>WdfFdoInitAllocAndQueryProperty</b> will allocate. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param PropertyMemory [out]
+#### - PropertyMemory [out]
 
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object. 
 

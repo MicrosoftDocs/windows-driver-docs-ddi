@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bf66149-c2d1-4a81-9c61-8504d2652877
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_3a628b71-7686-45ef-8217-6501cd3c3eed.xml, kernel.rtlunicodestringcchcopyn, ntstrsafe/RtlUnicodeStringCchCopyN, RtlUnicodeStringCchCopyN, RtlUnicodeStringCchCopyN function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUnicodeStringCchCopyN function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCchCopyN, safestrings_3a628b71-7686-45ef-8217-6501cd3c3eed.xml, kernel.rtlunicodestringcchcopyn, RtlUnicodeStringCchCopyN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlUnicodeStringCchCopyN(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 
-### -param cchToCopy [in]
+#### - cchToCopy [in]
 
 The number of characters to be copied from the source to the destination. 
 
@@ -157,9 +157,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
 
  
 

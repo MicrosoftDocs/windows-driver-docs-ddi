@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 119a8c88-f181-40f5-8a12-5d663c5a1534
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POFFLOAD_ALGO_INFO, 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, _OFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/POFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO, netvista.offload_algo_info, OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/OFFLOAD_ALGO_INFO
+ms.keywords: 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, ntddndis/POFFLOAD_ALGO_INFO, netvista.offload_algo_info, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], *POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO, ntddndis/OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO, _OFFLOAD_ALGO_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_ALGO_INFO
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO
+req.typenames: "*POFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO"
 ---
 
 # _OFFLOAD_ALGO_INFO structure
@@ -69,7 +69,7 @@ typedef struct _OFFLOAD_ALGO_INFO {
 
 
 
-### -field algoIdentifier
+#### - algoIdentifier
 
 The confidentiality or integrity algorithm used for the SA. 
      
@@ -121,7 +121,7 @@ Specifies the keyed MD5 algorithm.
 Specifies the SHA 1 algorithm.
 
 
-### -field algoKeylen
+#### - algoKeylen
 
 The length, in bytes, of the key for the algorithm. The key is contained in the buffer at 
      <b>KeyMat</b>Â¸ which is the variable-length array specified in the 
@@ -147,7 +147,7 @@ If both an integrity and a confidentiality algorithm (
      integrity algorithm.
 
 
-### -field algoRounds
+#### - algoRounds
 
 The number of transformation rounds that the encryption algorithm performs.
 <div class="alert"><b>Note</b>  This member is only used for 
@@ -167,9 +167,9 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
-
 <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
+
+<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
 
  
 

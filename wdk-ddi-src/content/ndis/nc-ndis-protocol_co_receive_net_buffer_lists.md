@@ -77,14 +77,14 @@ VOID ProtocolCoReceiveNetBufferLists(
 
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 A handle to a context area that the protocol driver allocated to maintain state information for a
      binding. This handle was passed to NDIS in a previous call to 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>.
 
 
-### -param ProtocolVcContext [in]
+#### - ProtocolVcContext [in]
 
 A handle to a protocol driver-allocated context area in which this driver maintains the
      per-virtual connection (VC) run-time state information. A client or stand-alone call manager supplied
@@ -93,7 +93,7 @@ A handle to a protocol driver-allocated context area in which this driver mainta
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-### -param NetBufferLists [in]
+#### - NetBufferLists [in]
 
 A linked list of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the
@@ -101,13 +101,13 @@ A linked list of
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
 
 
-### -param NumberOfNetBufferLists [in]
+#### - NumberOfNetBufferLists [in]
 
 The number of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
 
-### -param ReceiveFlags [in]
+#### - ReceiveFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
@@ -204,27 +204,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<mshelp:link keywords="netvista.ndismcoindicatereceivenetbufferlists" tabindex="0"><b>
+   NdisMCoIndicateReceiveNetBufferLists</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545115">CoNDIS Protocol Driver Send and Receive Functions</a>
 
-<mshelp:link keywords="netvista.ndismcoindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMCoIndicateReceiveNetBufferLists</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">NdisReturnNetBufferLists</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">ProtocolCoSendNetBufferListsComplete</a>
-
 <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
    MiniportReturnNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">NdisReturnNetBufferLists</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">ProtocolCoSendNetBufferListsComplete</a>
 
  
 

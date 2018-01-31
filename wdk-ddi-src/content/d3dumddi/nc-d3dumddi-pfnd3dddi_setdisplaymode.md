@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY SetDisplayMode(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
@@ -122,9 +122,9 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member of the
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdisplaymode.md">D3DDDIARG_SETDISPLAYMODE</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
  
 

@@ -70,12 +70,12 @@ PVOID InterlockedCompareExchangePointer(
 
 
 
-### -param Destination [in, out]
+#### - Destination [in, out]
 
 A pointer to a PVOID value. If (*<i>Destination</i>) = <i>Comparand</i>, then the routine sets (*<i>Destination</i>) to <i>Exchange</i>.
 
 
-### -param Exchange [in]
+#### - Exchange [in]
 
 Specifies the PVOID value to set (*<i>Destination</i>) to.
 
@@ -115,11 +115,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
 
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
 
  
 

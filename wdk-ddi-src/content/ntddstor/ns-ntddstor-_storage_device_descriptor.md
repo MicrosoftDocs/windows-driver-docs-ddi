@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 99b270a0-0634-41a8-9de7-d2a2d4c3059f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_device_descriptor, STORAGE_DEVICE_DESCRIPTOR structure [Storage Devices], PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Storage Devices], structs-general_3c393126-f5c8-47d8-bfb5-6127ce656e9a.xml, _STORAGE_DEVICE_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_DESCRIPTOR, ntddstor/STORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR
+ms.keywords: ntddstor/PSTORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR, _STORAGE_DEVICE_DESCRIPTOR, ntddstor/STORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Storage Devices], structs-general_3c393126-f5c8-47d8-bfb5-6127ce656e9a.xml, storage.storage_device_descriptor, STORAGE_DEVICE_DESCRIPTOR structure [Storage Devices], PSTORAGE_DEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: PSTORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR
+req.typenames: STORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR
 ---
 
 # _STORAGE_DEVICE_DESCRIPTOR structure
@@ -82,70 +82,70 @@ typedef struct _STORAGE_DEVICE_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Indicates the size of the 
       <b>STORAGE_DEVICE_DESCRIPTOR</b> structure. The 
       value of this member will change as members are added to the structure.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the descriptor in bytes, including ID strings which are appended to the 
       structure.
 
 
-### -field DeviceType
+#### - DeviceType
 
 Specifies the device type as defined by the Small Computer Systems Interface (SCSI) specification.
 
 
-### -field DeviceTypeModifier
+#### - DeviceTypeModifier
 
 Specifies the device type modifier, if any, as defined by the SCSI specification. If no device type 
       modifier exists, this member is zero.
 
 
-### -field RemovableMedia
+#### - RemovableMedia
 
 Indicates when <b>TRUE</b> that the device's media (if any) is removable. If the device 
       has no media, this member should be ignored. When <b>FALSE</b> the device's media is not 
       removable.
 
 
-### -field CommandQueueing
+#### - CommandQueueing
 
 Indicates when <b>TRUE</b> that the device supports multiple outstanding commands (SCSI 
       tagged queuing or equivalent). When <b>FALSE</b>, the device does not support SCSI-tagged 
       queuing or the equivalent. The STORPORT driver is responsible for synchronizing the commands.
 
 
-### -field VendorIdOffset
+#### - VendorIdOffset
 
 Specifies the byte offset from the beginning of the structure to a <b>NULL</b>-terminated ASCII string that 
       contains the device's vendor ID. If the device has no vendor ID, this member is zero.
 
 
-### -field ProductIdOffset
+#### - ProductIdOffset
 
 Specifies the byte offset from the beginning of the structure to a <b>NULL</b>-terminated ASCII string that 
       contains the device's product ID. If the device has no product ID, this member is zero.
 
 
-### -field ProductRevisionOffset
+#### - ProductRevisionOffset
 
 Specifies the byte offset from the beginning of the structure to a <b>NULL</b>-terminated ASCII string that 
       contains the device's product revision string. If the device has no product revision string, this member is 
       zero.
 
 
-### -field SerialNumberOffset
+#### - SerialNumberOffset
 
 Specifies the byte offset from the beginning of the structure to a <b>NULL</b>-terminated ASCII string that 
       contains the device's serial number. If the device has no serial number, this member is zero.
 
 
-### -field BusType
+#### - BusType
 
 Specifies an enumerator value of type 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566356">STORAGE_BUS_TYPE</a> that indicates the type of bus to 
@@ -153,12 +153,12 @@ Specifies an enumerator value of type
       structure (if any).
 
 
-### -field RawPropertiesLength
+#### - RawPropertiesLength
 
 Indicates the number of bytes of bus-specific data that have been appended to this descriptor.
 
 
-### -field RawDeviceProperties
+#### - RawDeviceProperties
 
 Contains an array of length one that serves as a place holder for the first byte of the bus specific 
       property data.
@@ -181,17 +181,17 @@ An application or driver can determine the required buffer size by casting the r
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
  
 

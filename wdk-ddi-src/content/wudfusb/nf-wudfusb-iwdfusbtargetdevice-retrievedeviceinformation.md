@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, RetrieveDeviceInformation method, RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_retrievedeviceinformation, IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, umdf.iwdfusbtargetdevice_retrievedeviceinformation
+ms.keywords: IWDFUsbTargetDevice::RetrieveDeviceInformation, IWDFUsbTargetDevice, RetrieveDeviceInformation method, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_retrievedeviceinformation, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, RetrieveDeviceInformation, umdf.iwdfusbtargetdevice_retrievedeviceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,18 +72,18 @@ HRESULT RetrieveDeviceInformation(
 
 
 
-### -param InformationType [in]
+#### - InformationType [in]
 
 The type of information that the UMDF driver requests about the device.  
 
 
 
-### -param BufferLength [in, out]
+#### - BufferLength [in, out]
 
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrieveDeviceInformation</b> supplies in <i>Buffer</i>. On output, this parameter contains the size that <b>RetrieveDeviceInformation</b> requires for <i>Buffer</i>.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer that receives the buffer that contains the device information.
 
@@ -149,9 +149,9 @@ The <b>RetrieveDeviceInformation</b> method generates a UMDF request and synchro
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d77b188e-45b2-47c3-bee5-557886925d3f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWriteRegisterBufferUlong routine [Storage Devices], storage.scsiportwriteregisterbufferulong, srb/ScsiPortWriteRegisterBufferUlong, scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml, ScsiPortWriteRegisterBufferUlong
+ms.keywords: scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml, storage.scsiportwriteregisterbufferulong, ScsiPortWriteRegisterBufferUlong, srb/ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortWriteRegisterBufferUlong
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ VOID ScsiPortWriteRegisterBufferUlong(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer containing the data to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG values to be transferred to the HBA.
 

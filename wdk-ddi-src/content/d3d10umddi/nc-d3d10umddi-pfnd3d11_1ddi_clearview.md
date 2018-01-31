@@ -40,7 +40,7 @@ apiname:
 -	ClearView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CLEARVIEW callback
@@ -75,7 +75,7 @@ VOID APIENTRY* ClearView(
 
 
 
-### -param hDevice
+#### - hDevice
 
 A handle to the display device (graphics context).
 
@@ -84,19 +84,21 @@ A handle to the display device (graphics context).
 
 
 
-### -param *hView
+#### - *hView
 
+A pointer to the resource view to clear.
 
 
 ### -param Color[4]
 
 
 
-### -param *pRect
+#### - *pRect [in]
+
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <i>ClearView</i> clears the entire surface.
 
 
-
-### -param NumRects
+#### - NumRects
 
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
 
@@ -175,11 +177,11 @@ However, video views of a video surface (such as views provided to the <a href="
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a>
 
  
 

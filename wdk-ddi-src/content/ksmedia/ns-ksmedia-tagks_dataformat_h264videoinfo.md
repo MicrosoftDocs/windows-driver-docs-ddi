@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6D2C0245-542E-4749-B8F3-531BFA3800E3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_DATAFORMAT_H264VIDEOINFO, tagKS_DATAFORMAT_H264VIDEOINFO, ksmedia/KS_DATAFORMAT_H264VIDEOINFO, *PKS_DATAFORMAT_H264VIDEOINFO, stream.ks_dataformat_h264videoinfo, KS_DATAFORMAT_H264VIDEOINFO structure [Streaming Media Devices], KS_DATAFORMAT_H264VIDEOINFO, PKS_DATAFORMAT_H264VIDEOINFO structure pointer [Streaming Media Devices], PKS_DATAFORMAT_H264VIDEOINFO
+ms.keywords: PKS_DATAFORMAT_H264VIDEOINFO, stream.ks_dataformat_h264videoinfo, KS_DATAFORMAT_H264VIDEOINFO structure [Streaming Media Devices], ksmedia/KS_DATAFORMAT_H264VIDEOINFO, ksmedia/PKS_DATAFORMAT_H264VIDEOINFO, *PKS_DATAFORMAT_H264VIDEOINFO, tagKS_DATAFORMAT_H264VIDEOINFO, PKS_DATAFORMAT_H264VIDEOINFO structure pointer [Streaming Media Devices], KS_DATAFORMAT_H264VIDEOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATAFORMAT_H264VIDEOINFO
 product: Windows
 targetos: Windows
-req.typenames: KS_DATAFORMAT_H264VIDEOINFO, *PKS_DATAFORMAT_H264VIDEOINFO
+req.typenames: "*PKS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO"
 ---
 
 # tagKS_DATAFORMAT_H264VIDEOINFO structure
@@ -68,12 +68,12 @@ typedef struct _KS_DATAFORMAT_H264VIDEOINFO {
 
 
 
-### -field DataFormat
+#### - DataFormat
 
 Specifies the major identifier for the format. 
 
 
-### -field H264VideoInfoHeader
+#### - H264VideoInfoHeader
 
 Specifies the details of the video stream.
 

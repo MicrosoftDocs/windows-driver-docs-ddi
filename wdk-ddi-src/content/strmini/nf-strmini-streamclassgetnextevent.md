@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2f83163-4529-4627-8959-2b4cd6b88828
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], stream.streamclassgetnextevent, strmini/StreamClassGetNextEvent, strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml
+ms.keywords: StreamClassGetNextEvent, strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, strmini/StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], stream.streamclassgetnextevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,22 +78,22 @@ PKSEVENT_ENTRY StreamClassGetNextEvent(
 TBD
 
 
-### -param HwStreamObject [in, optional]
+#### - HwStreamObject [in, optional]
 
 Pointer to a <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>. Set to <b>NULL</b> to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
 
 
-### -param EventGuid [in, optional]
+#### - EventGuid [in, optional]
 
 Specifies the event set to match when walking the queue, or <b>NULL</b> to match any event set.
 
 
-### -param EventItem [in]
+#### - EventItem [in]
 
 Specifies the event ID to match when walking the queue, or -1 to match any event.
 
 
-### -param CurrentEvent [in, optional]
+#### - CurrentEvent [in, optional]
 
 Pointer to an event in the event queue, or <b>NULL</b>.
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: FC7566C0-95FD-450C-897E-C57870386512
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfc_cx_hardware_event, PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT, nfccx/PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], _NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], nfccx/NFC_CX_HARDWARE_EVENT
+ms.keywords: PNFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], NFC_CX_HARDWARE_EVENT, nfccx/NFC_CX_HARDWARE_EVENT, nfccx/PNFC_CX_HARDWARE_EVENT, _NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT, nfpdrivers.nfc_cx_hardware_event, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,21 +69,21 @@ typedef struct _NFC_CX_HARDWARE_EVENT {
 
 
 
-### -field HardwareStatus
+#### - HardwareStatus
 
 An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
 
 
-### -field HostAction
+#### - HostAction
 
 An <a href="..\nfccx\ne-nfccx-_nfc_cx_host_action.md">NFC_CX_HOST_ACTION</a>-typed enumerator.
 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

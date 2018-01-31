@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e5c4b23-cb62-4320-9e55-d0da67b62aa1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, IDARG_OUT_MONITORARRIVAL, iddcx/IDARG_OUT_MONITORARRIVAL
+ms.keywords: IDARG_OUT_MONITORARRIVAL structure [Display Devices], iddcx/IDARG_OUT_MONITORARRIVAL, display.idarg_out_monitorarrival, IDARG_OUT_MONITORARRIVAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct IDARG_OUT_MONITORARRIVAL {
 
 
 
-### -field OsAdapterLuid
+#### - OsAdapterLuid
 
 
                      LUID of the adapter where this monitor is exposed to the OS
     . 
 <div class="alert"><b>Note</b>  There are no API/DDI calls the driver can make with this information. Its only use is to pass it to companion applications so they can identify the monitor they control.</div><div> </div>
 
-### -field OsTargetId
+#### - OsTargetId
 
 
                      DMM VidPn target id of the target this monitor is exposed to the OS. 

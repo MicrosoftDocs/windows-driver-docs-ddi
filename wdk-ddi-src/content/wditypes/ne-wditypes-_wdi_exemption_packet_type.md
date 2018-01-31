@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7F584EBE-9ACB-4AC7-9472-34322F24EF74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wifi_exemption_packet_type, netvista.wdi_exemption_packet_type, WDI_EXEMPT_PACKET_TYPE_MULTICAST, WDI_EXEMPTION_PACKET_TYPE, WDI_EXEMPTION_PACKET_TYPE enumeration [Device and Driver Installation], WDI_EXEMPT_PACKET_TYPE_BOTH, WDI_EXEMPT_PACKET_TYPE_UNICAST, _WDI_EXEMPTION_PACKET_TYPE, wditypes/WDI_EXEMPT_PACKET_TYPE_BOTH, wditypes/WDI_EXEMPTION_PACKET_TYPE, wditypes/WDI_EXEMPT_PACKET_TYPE_MULTICAST, wditypes/WDI_EXEMPT_PACKET_TYPE_UNICAST
+ms.keywords: WDI_EXEMPTION_PACKET_TYPE enumeration [Device and Driver Installation], WDI_EXEMPT_PACKET_TYPE_MULTICAST, netvista.wifi_exemption_packet_type, wditypes/WDI_EXEMPTION_PACKET_TYPE, _WDI_EXEMPTION_PACKET_TYPE, WDI_EXEMPT_PACKET_TYPE_UNICAST, wditypes/WDI_EXEMPT_PACKET_TYPE_MULTICAST, WDI_EXEMPT_PACKET_TYPE_BOTH, WDI_EXEMPTION_PACKET_TYPE, wditypes/WDI_EXEMPT_PACKET_TYPE_BOTH, wditypes/WDI_EXEMPT_PACKET_TYPE_UNICAST, netvista.wdi_exemption_packet_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WDI_EXEMPTION_PACKET_TYPE {
 
 
 
-### -field WDI_EXEMPT_PACKET_TYPE_UNICAST
+#### - WDI_EXEMPT_PACKET_TYPE_UNICAST
 
 Exempt unicast packets only.
 
 
-### -field WDI_EXEMPT_PACKET_TYPE_MULTICAST
+#### - WDI_EXEMPT_PACKET_TYPE_MULTICAST
 
 Exempt multicast and broadcast packets only.
 
 
-### -field WDI_EXEMPT_PACKET_TYPE_BOTH
+#### - WDI_EXEMPT_PACKET_TYPE_BOTH
 
 Exempt all packet types.
 

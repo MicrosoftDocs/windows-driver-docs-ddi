@@ -40,7 +40,7 @@ apiname:
 -	EvtDmaEnablerFlush
 product: Windows
 targetos: Windows
-req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
+req.typenames: "*PWDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ NTSTATUS EvtDmaEnablerFlush(
 
 
 
-### -param DmaEnabler [in]
+#### - DmaEnabler [in]
 
 A handle to a DMA enabler object.  
 

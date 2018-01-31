@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, *PPMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration, pmi/PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], _PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PMI_THRESHOLD_CONFIGURATION
+ms.keywords: pmi/PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION, PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, *PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration, pmi/PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], _PMI_THRESHOLD_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PMI_THRESHOLD_CONFIGURATION {
 
 
 
-### -field LowerThreshold
+#### - LowerThreshold
 
 The lower threshold of the power meter, in units of milliwatts (mW).
 
 
-### -field UpperThreshold
+#### - UpperThreshold
 
 The upper threshold of the power meter, in units of milliwatts (mW).
 

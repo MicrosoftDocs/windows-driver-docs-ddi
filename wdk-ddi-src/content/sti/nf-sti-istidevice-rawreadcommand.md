@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: fc6b46af-d3e3-4a49-a354-c0effee6a005
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: sti/IStiDevice::RawReadCommand, IStiDevice interface [Imaging Devices], RawReadCommand method, IStiDevice, IStiDevice::RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices], IStiDevice interface, RawReadCommand, image.istidevice_rawreadcommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml
+ms.keywords: RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices], IStiDevice interface, IStiDevice::RawReadCommand, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand, IStiDevice interface [Imaging Devices], RawReadCommand method, RawReadCommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT RawReadCommand(
 
 
 
-### -param lpBuffer [in, out]
+#### - lpBuffer [in, out]
 
 Caller-supplied pointer to a buffer to receive data read from the device.
 
 
-### -param lpdwNumberOfBytes [in, out]
+#### - lpdwNumberOfBytes [in, out]
 
 Caller-supplied pointer to a DWORD. The caller must load the DWORD with the number of bytes in the buffer pointed to by <i>lpBuffer</i>. On return, it will contain the number of bytes actually read.
 
 
-### -param lpOverlapped [in, optional]
+#### - lpOverlapped [in, optional]
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 

@@ -40,7 +40,7 @@ apiname:
 -	NdkGetSharedEndpointLocalAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback
@@ -72,20 +72,19 @@ NTSTATUS NdkGetSharedEndpointLocalAddress(
 
 
 
-### -param *pNdkSharedEndpoint
+#### - *pNdkSharedEndpoint [in]
+
+A pointer to an NDK shared endpoint object  (<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>).
 
 
-
-### -param pAddress
+#### - pAddress
 
 A local address is returned in this buffer.
 
 
-### -param *pAddressLength
+#### - *pAddressLength
 
-
-
-
+The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 
 
 #### - pNdkSharedEndpoint [in]

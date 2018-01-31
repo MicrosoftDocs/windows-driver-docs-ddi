@@ -76,26 +76,26 @@ NDIS_STATUS ProtocolCmRegisterSap(
 
 
 
-### -param CallMgrAfContext [in]
+#### - CallMgrAfContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-open AF state. The call manager supplied this handle to NDIS from its 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
 
 
-### -param Sap [in]
+#### - Sap [in]
 
 Pointer to a media-specific CO_SAP structure that contains the specific SAP that a
      connection-oriented client is registering.
 
 
-### -param NdisSapHandle [in]
+#### - NdisSapHandle [in]
 
 Specifies a handle, supplied by NDIS, that uniquely identifies this SAP. This handle is opaque to
      the call manager and reserved for NDIS library use.
 
 
-### -param CallMgrSapContext [out]
+#### - CallMgrSapContext [out]
 
 On return, specifies the handle to a call manager-supplied context area in which the call manager
      maintains state about this SAP.
@@ -264,13 +264,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 <a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, display.d3d11_1ddiarg_createvideoprocessorinputview, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure pointer [Display Devices]
+ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, display.d3d11_1ddiarg_createvideoprocessorinputview, d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure pointer [Display Devices], d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW {
 
 
 
-### -field hDrvResource
+#### - hDrvResource
 
 A handle to the video decoder input resource.
 
 
-### -field hDrvVideoProcessorEnum
+#### - hDrvVideoProcessorEnum
 
 A handle to the video processor enumeration.
 
 
-### -field FourCC
+#### - FourCC
 
 A FOURCC code that the application uses to override the surface format. A value of zero indicates that the application will not override the resource format.
 
@@ -91,17 +91,17 @@ For example, if a new video standard emerges that requires a new substream forma
 For more information about FOURCC codes, see <a href="http://go.microsoft.com/fwlink/p/?linkid=231686">Video FOURCCs</a>.
 
 
-### -field MipSlice
+#### - MipSlice
 
 The identifier of the MIP-map slice.
 
 
-### -field FirstArraySlice
+#### - FirstArraySlice
 
 The identifier of the first array slice.
 
 
-### -field ArraySize
+#### - ArraySize
 
 The number of array slices for the texture.
 

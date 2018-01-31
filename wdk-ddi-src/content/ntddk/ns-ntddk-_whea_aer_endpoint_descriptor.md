@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2b77853d-2c34-4902-90e3-b9a58d56e88e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_AER_ENDPOINT_DESCRIPTOR, whea.whea_aer_endpoint_descriptor, PWHEA_AER_ENDPOINT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whearef_06cb1486-51b0-457d-a0d0-b902c6c43cfc.xml, WHEA_AER_ENDPOINT_DESCRIPTOR, *PWHEA_AER_ENDPOINT_DESCRIPTOR, _WHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/PWHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR structure [WHEA Drivers and Applications]
+ms.keywords: whea.whea_aer_endpoint_descriptor, ntddk/PWHEA_AER_ENDPOINT_DESCRIPTOR, _WHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/WHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR, whearef_06cb1486-51b0-457d-a0d0-b902c6c43cfc.xml, *PWHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR structure [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_AER_ENDPOINT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR"
+req.typenames: WHEA_AER_ENDPOINT_DESCRIPTOR, *PWHEA_AER_ENDPOINT_DESCRIPTOR
 ---
 
 # _WHEA_AER_ENDPOINT_DESCRIPTOR structure
@@ -77,37 +77,37 @@ typedef struct _WHEA_AER_ENDPOINT_DESCRIPTOR {
 
 
 
-### -field Type
+#### - Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_AERENDPOINT.
 
 
-### -field Enabled
+#### - Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field BusNumber
+#### - BusNumber
 
 The endpoint's bus number.
 
 
-### -field Slot
+#### - Slot
 
 A <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the endpoint is located in the system.
 
 
-### -field DeviceControl
+#### - DeviceControl
 
 The contents of the endpoint's Device Control register.
 
 
-### -field Flags
+#### - Flags
 
 An AER_ENDPOINT_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_ENDPOINT_DESCRIPTOR structure can be written to by the operating system. The AER_ENDPOINT_DESCRIPTOR_FLAGS union is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -161,22 +161,22 @@ Reserved for system use.
 A USHORT representation of the contents of the AER_ENDPOINT_DESCRIPTOR_FLAGS union.
 
 
-### -field UncorrectableErrorMask
+#### - UncorrectableErrorMask
 
 The contents of the endpoint's Uncorrectable Error Mask register.
 
 
-### -field UncorrectableErrorSeverity
+#### - UncorrectableErrorSeverity
 
 The contents of the endpoint's Uncorrectable Error Severity register.
 
 
-### -field CorrectableErrorMask
+#### - CorrectableErrorMask
 
 The contents of the endpoint's Correctable Error Mask register.
 
 
-### -field AdvancedCapsAndControl
+#### - AdvancedCapsAndControl
 
 The contents of the endpoint's Advanced Error Capabilities and Control register.
 

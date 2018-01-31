@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9044d045-a997-4660-815d-07dad0ac832e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11EXT_IHV_DISCOVERY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_IHV_DISCOVERY_PROFILE, *PDOT11EXT_IHV_DISCOVERY_PROFILE, Native_802.11_data_types_38fefdc4-fa98-4986-822b-807caa03b205.xml, DOT11EXT_IHV_DISCOVERY_PROFILE, netvista.dot11ext_ihv_discovery_profile, wlanihv/PDOT11EXT_IHV_DISCOVERY_PROFILE, DOT11EXT_IHV_DISCOVERY_PROFILE structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_DISCOVERY_PROFILE, PDOT11EXT_IHV_DISCOVERY_PROFILE
+ms.keywords: "*PDOT11EXT_IHV_DISCOVERY_PROFILE, netvista.dot11ext_ihv_discovery_profile, PDOT11EXT_IHV_DISCOVERY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_38fefdc4-fa98-4986-822b-807caa03b205.xml, wlanihv/DOT11EXT_IHV_DISCOVERY_PROFILE, _DOT11EXT_IHV_DISCOVERY_PROFILE, DOT11EXT_IHV_DISCOVERY_PROFILE structure [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_DISCOVERY_PROFILE, wlanihv/PDOT11EXT_IHV_DISCOVERY_PROFILE, PDOT11EXT_IHV_DISCOVERY_PROFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11EXT_IHV_DISCOVERY_PROFILE
 product: Windows
 targetos: Windows
-req.typenames: DOT11EXT_IHV_DISCOVERY_PROFILE, *PDOT11EXT_IHV_DISCOVERY_PROFILE
+req.typenames: "*PDOT11EXT_IHV_DISCOVERY_PROFILE, DOT11EXT_IHV_DISCOVERY_PROFILE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,14 @@ typedef struct _DOT11EXT_IHV_DISCOVERY_PROFILE {
 
 
 
-### -field IhvConnectivityProfile
+#### - IhvConnectivityProfile
 
 The IHV connectivity profile specified by a 
      <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
      DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link> structure.
 
 
-### -field IhvSecurityProfile
+#### - IhvSecurityProfile
 
 The IHV security profile specified by a 
      <mshelp:link keywords="netvista.dot11ext_ihv_security_profile" tabindex="0"><b>

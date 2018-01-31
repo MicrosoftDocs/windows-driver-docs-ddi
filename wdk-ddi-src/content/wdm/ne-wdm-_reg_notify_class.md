@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ec47d47-1de3-43af-9a71-7fa366ba2d1a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RegNtPostQueryKey, REG_NOTIFY_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/RegNtPostQueryKeySecurity, _REG_NOTIFY_CLASS, wdm/RegNtSetValueKey, wdm/RegNtPreOpenKey, wdm/RegNtPostDeleteValueKey, RegNtSetInformationKey, RegNtDeleteValueKey, wdm/RegNtPostEnumerateKey, RegNtPostDeleteKey, wdm/RegNtDeleteValueKey, RegNtPreQueryMultipleValueKey, wdm/RegNtPreLoadKey, wdm/RegNtPostUnLoadKey, RegNtDeleteKey, wdm/RegNtPostLoadKey, RegNtPostSetInformationKey, RegNtPreQueryKey, RegNtPreDeleteValueKey, wdm/RegNtPostQueryMultipleValueKey, wdm/RegNtPreSaveKey, RegNtPreDeleteKey, wdm/RegNtPostRenameKey, wdm/RegNtPostQueryKeyName, wdm/RegNtPreCreateKeyEx, RegNtPreReplaceKey, wdm/RegNtPostReplaceKey, wdm/REG_NOTIFY_CLASS, RegNtQueryMultipleValueKey, sysenum_b6fa1e3a-74d4-4925-b7c9-60d905c48f50.xml, RegNtPreOpenKey, RegNtRenameKey, RegNtEnumerateValueKey, wdm/RegNtPreQueryMultipleValueKey, RegNtPostSetValueKey, RegNtPostQueryMultipleValueKey, RegNtPostCreateKeyEx, wdm/RegNtPostSetValueKey, wdm/RegNtPostCreateKeyEx, RegNtPreRestoreKey, RegNtPreEnumerateKey, wdm/RegNtPostOpenKey, wdm/RegNtPreQueryKeySecurity, wdm/RegNtPostFlushKey, wdm/RegNtPreEnumerateValueKey, wdm/RegNtSetInformationKey, wdm/RegNtQueryMultipleValueKey, RegNtPreSetValueKey, wdm/RegNtPreDeleteKey, RegNtPostReplaceKey, RegNtPreQueryValueKey, RegNtPreKeyHandleClose, RegNtPostKeyHandleClose, wdm/RegNtPreFlushKey, wdm/RegNtCallbackObjectContextCleanup, wdm/RegNtPreReplaceKey, wdm/RegNtPreSetKeySecurity, RegNtPreQueryKeyName, wdm/RegNtPreQueryValueKey, wdm/RegNtKeyHandleClose, wdm/RegNtRenameKey, wdm/RegNtQueryValueKey, RegNtPostDeleteValueKey, RegNtPreEnumerateValueKey, RegNtPostCreateKey, wdm/RegNtPostEnumerateValueKey, RegNtPostRestoreKey, RegNtPreSaveKey, wdm/RegNtPreSetValueKey, wdm/MaxRegNtNotifyClass, wdm/RegNtPreUnLoadKey, RegNtPreOpenKeyEx, RegNtPreUnLoadKey, RegNtPostEnumerateKey, RegNtPostSaveKey, wdm/RegNtPreOpenKeyEx, RegNtPostFlushKey, wdm/RegNtPreKeyHandleClose, wdm/RegNtPreQueryKey, wdm/RegNtPreQueryKeyName, RegNtPostLoadKey, RegNtEnumerateKey, wdm/RegNtDeleteKey, wdm/RegNtPostSetInformationKey, RegNtPreCreateKey, wdm/RegNtPreCreateKey, RegNtPostEnumerateValueKey, RegNtPostQueryKeyName, MaxRegNtNotifyClass, RegNtPreCreateKeyEx, wdm/RegNtPreDeleteValueKey, wdm/RegNtPreRenameKey, kernel.reg_notify_class, RegNtQueryValueKey, RegNtPreFlushKey, RegNtSetValueKey, wdm/RegNtEnumerateValueKey, RegNtCallbackObjectContextCleanup, RegNtPostQueryValueKey, RegNtPostQueryKeySecurity, wdm/RegNtPostDeleteKey, RegNtPostUnLoadKey, RegNtPostOpenKey, RegNtPreSetKeySecurity, RegNtKeyHandleClose, wdm/RegNtEnumerateKey, wdm/RegNtPostCreateKey, wdm/RegNtPostRestoreKey, REG_NOTIFY_CLASS, wdm/RegNtPreSetInformationKey, RegNtPostOpenKeyEx, wdm/RegNtPreRestoreKey, RegNtQueryKey, wdm/RegNtQueryKey, wdm/RegNtPostKeyHandleClose, wdm/RegNtPreEnumerateKey, RegNtPostRenameKey, wdm/RegNtPostSaveKey, RegNtPostQueryKey, RegNtPreQueryKeySecurity, RegNtPostSetKeySecurity, RegNtPreLoadKey, wdm/RegNtPostQueryValueKey, RegNtPreSetInformationKey, wdm/RegNtPostSetKeySecurity, wdm/RegNtPostOpenKeyEx, RegNtPreRenameKey
+ms.keywords: "_REG_NOTIFY_CLASS, wdm/RegNtPreCreateKey, RegNtPostRenameKey, RegNtPreReplaceKey, RegNtQueryMultipleValueKey, RegNtPostFlushKey, wdm/RegNtPreQueryKeyName, RegNtPreQueryKeyName, RegNtPostSaveKey, wdm/RegNtPostSaveKey, RegNtCallbackObjectContextCleanup, wdm/RegNtPostQueryValueKey, wdm/RegNtPreRenameKey, wdm/RegNtPreLoadKey, wdm/RegNtPostQueryMultipleValueKey, wdm/RegNtSetValueKey, RegNtQueryValueKey, RegNtPostSetKeySecurity, RegNtEnumerateValueKey, wdm/RegNtQueryValueKey, wdm/RegNtRenameKey, RegNtPostReplaceKey, wdm/REG_NOTIFY_CLASS, RegNtPreSetInformationKey, wdm/RegNtPreEnumerateKey, RegNtKeyHandleClose, RegNtPostRestoreKey, RegNtPostQueryKeyName, RegNtPostQueryKey, wdm/RegNtPostCreateKeyEx, kernel.reg_notify_class, wdm/RegNtPreOpenKey, wdm/RegNtDeleteKey, RegNtDeleteKey, RegNtPostQueryMultipleValueKey, RegNtRenameKey, wdm/RegNtPreSetInformationKey, wdm/RegNtEnumerateKey, wdm/RegNtPostRenameKey, sysenum_b6fa1e3a-74d4-4925-b7c9-60d905c48f50.xml, wdm/RegNtPreRestoreKey, wdm/RegNtCallbackObjectContextCleanup, wdm/RegNtPreQueryMultipleValueKey, RegNtPreEnumerateValueKey, RegNtPostSetValueKey, wdm/RegNtPreOpenKeyEx, RegNtQueryKey, wdm/RegNtPostSetValueKey, RegNtPostSetInformationKey, RegNtPreFlushKey, MaxRegNtNotifyClass, wdm/RegNtSetInformationKey, RegNtPreQueryKey, wdm/RegNtPreUnLoadKey, RegNtPreDeleteValueKey, RegNtPreCreateKeyEx, wdm/RegNtPostLoadKey, wdm/RegNtPreDeleteValueKey, wdm/RegNtPostOpenKeyEx, wdm/RegNtPreReplaceKey, RegNtPreQueryMultipleValueKey, RegNtPostQueryValueKey, RegNtPostUnLoadKey, wdm/RegNtPostQueryKey, wdm/RegNtQueryKey, RegNtSetInformationKey, RegNtPreQueryKeySecurity, RegNtPostOpenKey, wdm/RegNtDeleteValueKey, wdm/RegNtPostSetInformationKey, wdm/RegNtPostDeleteValueKey, wdm/RegNtPreQueryKey, RegNtSetValueKey, wdm/RegNtPostDeleteKey, wdm/RegNtEnumerateValueKey, wdm/RegNtPostQueryKeyName, RegNtPreRenameKey, RegNtPreQueryValueKey, RegNtPostDeleteValueKey, wdm/RegNtPreFlushKey, REG_NOTIFY_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/RegNtKeyHandleClose, RegNtPostLoadKey, RegNtPreRestoreKey, wdm/RegNtPostKeyHandleClose, RegNtEnumerateKey, RegNtPostDeleteKey, wdm/RegNtPostEnumerateKey, wdm/RegNtPreSaveKey, wdm/RegNtPreSetValueKey, RegNtPostEnumerateKey, RegNtPostEnumerateValueKey, REG_NOTIFY_CLASS, RegNtPostCreateKeyEx, RegNtPreOpenKey, wdm/RegNtPostEnumerateValueKey, RegNtPreUnLoadKey, wdm/RegNtPostSetKeySecurity, wdm/RegNtPreKeyHandleClose, wdm/RegNtPreCreateKeyEx, wdm/MaxRegNtNotifyClass, wdm/RegNtPostOpenKey, RegNtPostCreateKey, RegNtPreSetValueKey, wdm/RegNtPreDeleteKey, RegNtPostKeyHandleClose, RegNtPreLoadKey, wdm/RegNtQueryMultipleValueKey, RegNtPreKeyHandleClose, wdm/RegNtPreQueryKeySecurity, wdm/RegNtPostReplaceKey, wdm/RegNtPostQueryKeySecurity, RegNtPostQueryKeySecurity, wdm/RegNtPostUnLoadKey, wdm/RegNtPreSetKeySecurity, wdm/RegNtPostRestoreKey, RegNtPreSetKeySecurity, wdm/RegNtPostCreateKey, RegNtPreOpenKeyEx, RegNtDeleteValueKey, RegNtPreDeleteKey, RegNtPreCreateKey, wdm/RegNtPreEnumerateValueKey, RegNtPostOpenKeyEx, wdm/RegNtPostFlushKey, wdm/RegNtPreQueryValueKey, RegNtPreSaveKey, RegNtPreEnumerateKey"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -129,308 +129,308 @@ enum REG_NOTIFY_CLASS {
 
 
 
-### -field RegNtDeleteKey
+#### - RegNtDeleteKey
 
 Specifies that a thread is attempting to delete a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreDeleteKey
+#### - RegNtPreDeleteKey
 
 Specifies that a thread is attempting to delete a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtSetValueKey
+#### - RegNtSetValueKey
 
 Specifies that a thread is attempting to set a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreSetValueKey
+#### - RegNtPreSetValueKey
 
 Specifies that a thread is attempting to set a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtDeleteValueKey
+#### - RegNtDeleteValueKey
 
 Specifies that a thread is attempting to delete a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreDeleteValueKey
+#### - RegNtPreDeleteValueKey
 
 Specifies that a thread is attempting to delete a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtSetInformationKey
+#### - RegNtSetInformationKey
 
 Specifies that a thread is attempting to set the metadata for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreSetInformationKey
+#### - RegNtPreSetInformationKey
 
 Specifies that a thread is attempting to set the metadata for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtRenameKey
+#### - RegNtRenameKey
 
 Specifies that a thread is attempting to rename a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreRenameKey
+#### - RegNtPreRenameKey
 
 Specifies that a thread is attempting to rename a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtEnumerateKey
+#### - RegNtEnumerateKey
 
 Specifies that a thread is attempting to enumerate a subkey of a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreEnumerateKey
+#### - RegNtPreEnumerateKey
 
 Specifies that a thread is attempting to enumerate a subkey of a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtEnumerateValueKey
+#### - RegNtEnumerateValueKey
 
 Specifies that a thread is attempting to enumerate a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreEnumerateValueKey
+#### - RegNtPreEnumerateValueKey
 
 Specifies that a thread is attempting to enumerate a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtQueryKey
+#### - RegNtQueryKey
 
 Specifies that a thread is attempting to read the metadata for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreQueryKey
+#### - RegNtPreQueryKey
 
 Specifies that a thread is attempting to read the metadata for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtQueryValueKey
+#### - RegNtQueryValueKey
 
 Specifies that a thread is attempting to read a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreQueryValueKey
+#### - RegNtPreQueryValueKey
 
 Specifies that a thread is attempting to read a value entry for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtQueryMultipleValueKey
+#### - RegNtQueryMultipleValueKey
 
 Specifies that a thread is attempting to query multiple value entries for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on only Windows XP.
 
 
-### -field RegNtPreQueryMultipleValueKey
+#### - RegNtPreQueryMultipleValueKey
 
 Specifies that a thread is attempting to query multiple value entries for a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPreCreateKey
+#### - RegNtPreCreateKey
 
 Specifies that a thread is attempting to create a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
 
 
-### -field RegNtPostCreateKey
+#### - RegNtPostCreateKey
 
 Specifies that a thread has successfully created a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
 
 
-### -field RegNtPreOpenKey
+#### - RegNtPreOpenKey
 
 Specifies that a thread is attempting to open an existing key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
 
 
-### -field RegNtPostOpenKey
+#### - RegNtPostOpenKey
 
 Specifies that a thread has successfully opened an existing key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
 
 
-### -field RegNtKeyHandleClose
+#### - RegNtKeyHandleClose
 
 Specifies that a thread is attempting to close a key handle. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 
-### -field RegNtPreKeyHandleClose
+#### - RegNtPreKeyHandleClose
 
 Specifies that a thread is attempting to close a key handle. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system. Drivers can monitor this registry operation but they cannot block or modify it.
 
 
-### -field RegNtPostDeleteKey
+#### - RegNtPostDeleteKey
 
 Specifies that the system has attempted to delete the key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostSetValueKey
+#### - RegNtPostSetValueKey
 
 Specifies that the system has attempted to set a value entry for a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostDeleteValueKey
+#### - RegNtPostDeleteValueKey
 
 Specifies that the system has attempted to delete a value entry for a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostSetInformationKey
+#### - RegNtPostSetInformationKey
 
 Specifies that the system has attempted to set the key's metadata. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostRenameKey
+#### - RegNtPostRenameKey
 
 Specifies that the system has attempted to rename the key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostEnumerateKey
+#### - RegNtPostEnumerateKey
 
 Specifies that the system has attempted to enumerate the subkey of a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostEnumerateValueKey
+#### - RegNtPostEnumerateValueKey
 
 Specifies that the system has attempted to enumerate the value entry of a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostQueryKey
+#### - RegNtPostQueryKey
 
 Specifies that the system has attempted to query the metadata for a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostQueryValueKey
+#### - RegNtPostQueryValueKey
 
 Specifies that the system has attempted to query a value entry for the key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostQueryMultipleValueKey
+#### - RegNtPostQueryMultipleValueKey
 
 Specifies that the system has attempted to query multiple value entries for the key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostKeyHandleClose
+#### - RegNtPostKeyHandleClose
 
 Specifies that the system has attempted to close a key handle. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPreCreateKeyEx
+#### - RegNtPreCreateKeyEx
 
 Specifies that a thread is attempting to create a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostCreateKeyEx
+#### - RegNtPostCreateKeyEx
 
 Specifies that the system has attempted to create a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPreOpenKeyEx
+#### - RegNtPreOpenKeyEx
 
 Specifies that a thread is attempting to open an existing key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPostOpenKeyEx
+#### - RegNtPostOpenKeyEx
 
 Specifies that the system has attempted to open an existing key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Server 2003 and later versions of the Windows operating system.
 
 
-### -field RegNtPreFlushKey
+#### - RegNtPreFlushKey
 
 Specifies that a thread is attempting to write a key to disk. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPostFlushKey
+#### - RegNtPostFlushKey
 
 Specifies that the system has attempted to write a key to disk. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPreLoadKey
+#### - RegNtPreLoadKey
 
 Specifies that a thread is attempting to load a registry hive from a file. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPostLoadKey
+#### - RegNtPostLoadKey
 
 Specifies that the system has attempted to load a registry hive from a file. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPreUnLoadKey
+#### - RegNtPreUnLoadKey
 
 Specifies that a thread is attempting to unload a registry hive. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPostUnLoadKey
+#### - RegNtPostUnLoadKey
 
 Specifies that the system has attempted to unload a registry hive. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPreQueryKeySecurity
+#### - RegNtPreQueryKeySecurity
 
 Specifies that a thread is attempting to obtain a registry key's security information. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPostQueryKeySecurity
+#### - RegNtPostQueryKeySecurity
 
 Specifies that a thread has attempted to obtain a registry key's security information. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPreSetKeySecurity
+#### - RegNtPreSetKeySecurity
 
 Specifies that a thread is attempting to set a registry key's security information. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPostSetKeySecurity
+#### - RegNtPostSetKeySecurity
 
 Specifies that a thread has attempted to set a registry key's security information. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtCallbackObjectContextCleanup
+#### - RegNtCallbackObjectContextCleanup
 
 
       Specifies that the driver has called <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a> or the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine has just finished processing a <b>RegNtPreKeyHandleClose</b> class value. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
-### -field RegNtPreRestoreKey
+#### - RegNtPreRestoreKey
 
 Specifies that a thread is attempting to restore a registry key's information. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista SP2 and later versions of the Windows operating system. 
 
 
-### -field RegNtPostRestoreKey
+#### - RegNtPostRestoreKey
 
 Specifies that a thread has attempted to restore a registry key's information. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista SP2 and later versions of the Windows operating system.
 
 
-### -field RegNtPreSaveKey
+#### - RegNtPreSaveKey
 
 Specifies that a thread is attempting to save a registry key's information. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista SP2 and later versions of the Windows operating system.
 
 
-### -field RegNtPostSaveKey
+#### - RegNtPostSaveKey
 
 Specifies that a thread has attempted to save a registry key's information. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista SP2 and later versions of the Windows operating system.
 
 
-### -field RegNtPreReplaceKey
+#### - RegNtPreReplaceKey
 
 Specifies that a thread is attempting to replace a registry key's information. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista SP2 and later versions of the Windows operating system.
 
 
-### -field RegNtPostReplaceKey
+#### - RegNtPostReplaceKey
 
 Specifies that a thread has attempted to replace a registry key's information. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows Vista SP2 and later versions of the Windows operating system.
 
 
-### -field RegNtPreQueryKeyName
+#### - RegNtPreQueryKeyName
 
 Specifies that a thread is attempting to obtain the full path of a registry key. Use this value on Windows 10 and later versions of the Windows operating system.
 
 
-### -field RegNtPostQueryKeyName
+#### - RegNtPostQueryKeyName
 
 Specifies that a thread has attempted to obtain the full path of a registry key. Use this value on Windows 10 and later versions of the Windows operating system.
 
 
-### -field MaxRegNtNotifyClass
+#### - MaxRegNtNotifyClass
 
 Specifies the maximum value in this enumeration type.
 

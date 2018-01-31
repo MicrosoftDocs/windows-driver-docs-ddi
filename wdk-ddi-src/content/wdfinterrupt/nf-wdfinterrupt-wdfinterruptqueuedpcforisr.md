@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ba9a292d-12c8-41b5-bddb-7c8ebf4fdc48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptQueueDpcForIsr, wdf.wdfinterruptqueuedpcforisr, DFInterruptObjectRef_c77c2aa3-e142-4226-aa9d-fb31d408e335.xml, WdfInterruptQueueDpcForIsr, WdfInterruptQueueDpcForIsr method, kmdf.wdfinterruptqueuedpcforisr
+ms.keywords: wdf.wdfinterruptqueuedpcforisr, WdfInterruptQueueDpcForIsr method, DFInterruptObjectRef_c77c2aa3-e142-4226-aa9d-fb31d408e335.xml, kmdf.wdfinterruptqueuedpcforisr, WdfInterruptQueueDpcForIsr, wdfinterrupt/WdfInterruptQueueDpcForIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BOOLEAN WdfInterruptQueueDpcForIsr(
 
 
 
-### -param Interrupt [in]
+#### - Interrupt [in]
 
 A handle to a framework interrupt object.
 
@@ -104,9 +104,9 @@ In KMDF 1.11 and later, a driver can call <b>WdfInterruptQueueDpcForIsr</b> from
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
-
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 

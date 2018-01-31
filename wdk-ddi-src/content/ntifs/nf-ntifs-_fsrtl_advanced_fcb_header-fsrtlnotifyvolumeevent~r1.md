@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyVolumeEvent routine [Installable File System Drivers], ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent, fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml
+ms.keywords: fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ifsk.fsrtlnotifyvolumeevent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], ntifs/FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlNotifyVolumeEvent(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a file object for the given volume. 
 
 
-### -param EventCode [in]
+#### - EventCode [in]
 
 Specifies an event code for the event that is occurring. This code can be one of the following values.
 <table>
@@ -301,9 +301,9 @@ To register for volume event notification, applications must call the Microsoft 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
-
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
+<a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
 
  
 

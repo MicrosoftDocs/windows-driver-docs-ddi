@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B8AA23C6-EFFC-47C3-9AD2-72421463CDBA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_WFD_DISCOVER_DEVICE_FILTER, *PDOT11_WFD_DISCOVER_DEVICE_FILTER, DOT11_WFD_DISCOVER_DEVICE_FILTER structure [Network Drivers Starting with Windows Vista], windot11/DOT11_WFD_DISCOVER_DEVICE_FILTER, DOT11_WFD_DISCOVER_DEVICE_FILTER, PDOT11_WFD_DISCOVER_DEVICE_FILTER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_DEVICE_FILTER, netvista.dot11_wfd_discover_device_filter, windot11/PDOT11_WFD_DISCOVER_DEVICE_FILTER
+ms.keywords: windot11/PDOT11_WFD_DISCOVER_DEVICE_FILTER, PDOT11_WFD_DISCOVER_DEVICE_FILTER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_DEVICE_FILTER, windot11/DOT11_WFD_DISCOVER_DEVICE_FILTER, DOT11_WFD_DISCOVER_DEVICE_FILTER structure [Network Drivers Starting with Windows Vista], *PDOT11_WFD_DISCOVER_DEVICE_FILTER, DOT11_WFD_DISCOVER_DEVICE_FILTER, PDOT11_WFD_DISCOVER_DEVICE_FILTER, netvista.dot11_wfd_discover_device_filter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DISCOVER_DEVICE_FILTER
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_DISCOVER_DEVICE_FILTER, *PDOT11_WFD_DISCOVER_DEVICE_FILTER
+req.typenames: "*PDOT11_WFD_DISCOVER_DEVICE_FILTER, DOT11_WFD_DISCOVER_DEVICE_FILTER"
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ typedef struct _DOT11_WFD_DISCOVER_DEVICE_FILTER {
 
 
 
-### -field DeviceID
+#### - DeviceID
 
 The device address of a P2P Device or Group Owner to be discovered by the local P2P device.
 
 
-### -field ucBitmask
+#### - ucBitmask
 
 Filters which instances of the P2P device to discover. Possible values include:
 
@@ -118,7 +118,7 @@ The local P2P device discovers a group with P2P group ID matching the specified 
 </table> 
 
 
-### -field GroupSSID
+#### - GroupSSID
 
 If GroupSSID is not a zero-length SSID, this member specifies the SSID of a P2P group that the local P2P device discovers. If this is the P2P wildcard SSID ("DIRECT-"), the local P2P device discovers all groups with P2P Group ID matching the desired device ID.
 

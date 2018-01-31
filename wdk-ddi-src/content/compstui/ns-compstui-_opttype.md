@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 041dd438-e837-4912-bda7-de654204198b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_OPTTYPE, print.opttype, *POPTTYPE, OPTTYPE structure [Print Devices], POPTTYPE, compstui/OPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, OPTTYPE, compstui/POPTTYPE, POPTTYPE structure pointer [Print Devices]"
+ms.keywords: OPTTYPE structure [Print Devices], *POPTTYPE, compstui/OPTTYPE, OPTTYPE, POPTTYPE structure pointer [Print Devices], print.opttype, compstui/POPTTYPE, POPTTYPE, _OPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,17 +75,17 @@ typedef struct _OPTTYPE {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Size, in bytes, of the OPTTYPE structure.
 
 
-### -field Type
+#### - Type
 
 Specifies the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
 
-### -field Flags
+#### - Flags
 
 Optional bit flags that modify the option's characteristics. The following flags can be set in any combination.
 
@@ -106,34 +106,34 @@ Valid only if the option type is or <a href="https://msdn.microsoft.com/library/
 All the OPTPARAM structures to which <b>pOptParam</b> points are disabled, so that none of the parameter values are user-selectable.
 
 
-### -field Count
+#### - Count
 
 Specifies the number of <a href="..\compstui\ns-compstui-_optparam.md">OPTPARAM</a> structures to which <b>pOptParam</b> points. This member's value is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
 
-### -field BegCtrlID
+#### - BegCtrlID
 
 If <b>pDlgPage</b> in <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> identifies a CPSUI-supplied page, or if <b>DlgTemplateID</b> in <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> identifies a CPSUI-supplied template, <b>BegCtrlID</b> is not used.
 
 Otherwise, <b>BegCtrlID</b> must contain the first of a sequentially numbered set of Windows control identifiers. Control identifier usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
 
-### -field pOptParam
+#### - pOptParam
 
 Pointer to an array of <a href="..\compstui\ns-compstui-_optparam.md">OPTPARAM</a> structures describing the parameter values that a user can select for the option.
 
 
-### -field Style
+#### - Style
 
 Specifies flags that can be used to modify the option's display characteristics. The flags that can be specified are dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
 
-### -field wReserved
+#### - wReserved
 
 Reserved, must be initialized to zero.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved, must be initialized to zero.
 

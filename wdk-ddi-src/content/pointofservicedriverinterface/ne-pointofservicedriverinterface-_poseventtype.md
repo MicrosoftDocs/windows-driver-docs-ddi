@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 2ba0c81f-2eff-48bf-8c3e-9047a398f735
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: StatusUpdated, pointofservicedriverinterface/BarcodeScannerTriggerReleased, MagneticStripeReaderErrorOccurred, _PosEventType, DrawerOpened, pointofservicedriverinterface/BarcodeScannerErrorOccurred, _Max, pointofservicedriverinterface/StatusUpdated, pointofservicedriverinterface/BarcodeScannerDataReceived, pointofservicedriverinterface/BarcodeScannerTriggerPressed, pointofservicedriverinterface/PosEventType, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, BarcodeScannerDataReceived, pointofservicedriverinterface/_Max, pointofservicedriverinterface/InvalidEvent, ReleaseDeviceRequested, BarcodeScannerImagePreviewReceived, PosEventType, PosEventType enumeration, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/DrawerClosed, MagneticStripeReaderDataReceived, pointofservicedriverinterface/ReleaseDeviceRequested, pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/MagneticStripeReaderDataReceived, BarcodeScannerErrorOccurred, pos.poseventtype, pointofservicedriverinterface/AlarmTimeoutExpired, BarcodeScannerTriggerReleased, BarcodeScannerTriggerPressed, DrawerClosed, InvalidEvent, PointOfServicePrinterErrorOccurred, AlarmTimeoutExpired, pointofservicedriverinterface/DrawerOpened
+ms.keywords: BarcodeScannerErrorOccurred, BarcodeScannerTriggerPressed, pointofservicedriverinterface/BarcodeScannerDataReceived, pointofservicedriverinterface/BarcodeScannerTriggerPressed, BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/StatusUpdated, MagneticStripeReaderErrorOccurred, AlarmTimeoutExpired, pointofservicedriverinterface/BarcodeScannerTriggerReleased, pointofservicedriverinterface/BarcodeScannerErrorOccurred, PosEventType, DrawerOpened, DrawerClosed, pointofservicedriverinterface/InvalidEvent, _PosEventType, _Max, pointofservicedriverinterface/DrawerClosed, PosEventType enumeration, ReleaseDeviceRequested, BarcodeScannerTriggerReleased, pointofservicedriverinterface/DrawerOpened, pointofservicedriverinterface/ReleaseDeviceRequested, InvalidEvent, MagneticStripeReaderDataReceived, pointofservicedriverinterface/AlarmTimeoutExpired, PointOfServicePrinterErrorOccurred, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/_Max, StatusUpdated, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, pointofservicedriverinterface/MagneticStripeReaderDataReceived, pos.poseventtype, BarcodeScannerDataReceived, pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/PosEventType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,7 +81,7 @@ typedef enum _PosEventType {
 
 
 
-### -field InvalidEvent
+#### - InvalidEvent
 
 The event code is not valid.
 
@@ -90,72 +90,72 @@ The event code is not valid.
 
 
 
-### -field ReleaseDeviceRequested
+#### - ReleaseDeviceRequested
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn790033">ReleaseDeviceRequested</a> event.
 
 
-### -field StatusUpdated
+#### - StatusUpdated
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn790040">StatusUpdated</a> event.
 
 
-### -field BarcodeScannerTriggerPressed
+#### - BarcodeScannerTriggerPressed
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757468">BarcodeScannerTriggerPressed</a> event.
 
 
-### -field BarcodeScannerTriggerReleased
+#### - BarcodeScannerTriggerReleased
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757469">BarcodeScannerTriggerReleased</a> event.
 
 
-### -field BarcodeScannerDataReceived
+#### - BarcodeScannerDataReceived
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757463">BarcodeScannerDataReceived</a> event.
 
 
-### -field BarcodeScannerErrorOccurred
+#### - BarcodeScannerErrorOccurred
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757464">BarcodeScannerErrorOccurred</a> event.
 
 
-### -field BarcodeScannerImagePreviewReceived
+#### - BarcodeScannerImagePreviewReceived
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757466">BarcodeScannerImagePreviewReceived</a> event.
 
 
-### -field MagneticStripeReaderDataReceived
+#### - MagneticStripeReaderDataReceived
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772149">MagneticStripeReaderDataReceived</a> event.
 
 
-### -field MagneticStripeReaderErrorOccurred
+#### - MagneticStripeReaderErrorOccurred
 
 Represents the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772151">MagneticStripeReaderErrorOccured</a> event.
 
 
-### -field PointOfServicePrinterErrorOccurred
+#### - PointOfServicePrinterErrorOccurred
 
 Represents the PointOfServicePrinterErrorOccurred event.
 
 
-### -field AlarmTimeoutExpired
+#### - AlarmTimeoutExpired
 
 Represents the AlarmTimeoutExpired event.
 
 
-### -field DrawerClosed
+#### - DrawerClosed
 
 Represents the DrawerClosed event.
 
 
-### -field DrawerOpened
+#### - DrawerOpened
 
 Represents the DrawerOpened event.
 
 
-### -field _Max
+#### - _Max
 
 Represents the _Max event.
 

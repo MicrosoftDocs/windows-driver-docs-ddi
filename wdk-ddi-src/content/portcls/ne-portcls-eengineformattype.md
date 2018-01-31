@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C16DE51F-6552-4379-B866-D7653B1BA9F2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.eengineformattype, portcls/eEngineFormatType, eEngineFormatType enumeration [Audio Devices], eMixFormat, portcls/eSupportedDeviceFormats, eEngineFormatType, portcls/eDeviceFormat, eSupportedDeviceFormats, eDeviceFormat, portcls/eMixFormat
+ms.keywords: portcls/eMixFormat, portcls/eDeviceFormat, eDeviceFormat, eMixFormat, eEngineFormatType enumeration [Audio Devices], portcls/eEngineFormatType, eSupportedDeviceFormats, audio.eengineformattype, eEngineFormatType, portcls/eSupportedDeviceFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _eEngineFormatType {
 
 
 
-### -field eMixFormat
+#### - eMixFormat
 
 Indicates a data format for the Mixer.
 
 
-### -field eDeviceFormat
+#### - eDeviceFormat
 
 Indicates the default data format for the audio adapter.
 
 
-### -field eSupportedDeviceFormats
+#### - eSupportedDeviceFormats
 
 Indicates all the data formats supported by the audio adapter.
 

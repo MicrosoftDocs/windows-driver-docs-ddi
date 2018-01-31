@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bd4b32b1-e8ba-485f-bfb6-15c8c44926af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getoffsetexpressionwide, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, IDebugBreakpoint2::GetOffsetExpressionWide, GetOffsetExpressionWide, GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpressionWide method, GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpressionWide method, IDebugBreakpoint2, IDebugBreakpoint2::GetOffsetExpressionWide, GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, debugger.getoffsetexpressionwide, GetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, GetOffsetExpressionWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetOffsetExpressionWide(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 The expression string that evaluates to the location on the target that triggers the breakpoint.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size, in characters, of the buffer that <i>Buffer </i>points to.
 
 
-### -param ExpressionSize [out, optional]
+#### - ExpressionSize [out, optional]
 
 The size, in characters, of the expression string.  If <i>ExpressionSize</i> is <b>NULL</b>, this information is not returned.
 

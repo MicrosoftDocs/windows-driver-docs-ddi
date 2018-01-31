@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7566f92d-0e25-44bf-a2b3-587bb11a7d03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvPrinterEvent, winddiui/DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml
+ms.keywords: DrvPrinterEvent function [Print Devices], print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, print.drvprinterevent, winddiui/DrvPrinterEvent, DrvPrinterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvPrinterEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ BOOL DrvPrinterEvent(
 
 
 
-### -param pPrinterName [in]
+#### - pPrinterName [in]
 
 Caller-supplied pointer to a NULL-terminated printer name string. The string format can be \\<i>Machine</i>\<i>PrinterName</i> to specify a remote printer, or <i>PrinterName</i> to specify a local printer.
 
 
-### -param DriverEvent
+#### - DriverEvent
 
 Caller-supplied event code identifying the event. The following event codes are defined:
 <table>
@@ -181,7 +181,7 @@ The PRINTER_EVENT_INITIALIZE event specifies a <b>NULL</b> lParam parameter valu
 </table> 
 
 
-### -param Flags
+#### - Flags
 
 Caller-supplied bit flag, defined as follows:
 <table>
@@ -204,7 +204,7 @@ If set, the function <b>mustnot</b> display a user interface. During the install
 </table> 
 
 
-### -param lParam
+#### - lParam
 
 Not used unless the <i>DriverEvent</i> parameter is set to PRINTER_EVENT_ATTRIBUTES_CHANGED. In this case, <i>lParam</i> contains the address of a PRINTER_EVENT_ATTRIBUTES_INFO structure. (See the preceding description of the <i>DriverEvent</i> parameter.) For all other values of the <i>DriverEvent</i> parameter, the <i>lParam</i> parameter is <b>NULL</b>.
 

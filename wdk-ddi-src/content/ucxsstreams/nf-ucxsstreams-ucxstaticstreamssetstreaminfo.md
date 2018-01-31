@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxstaticstreamssetstreaminfo, UcxStaticStreamsSetStreamInfo method [Buses], UcxStaticStreamsSetStreamInfo
+ms.keywords: UcxStaticStreamsSetStreamInfo, buses._ucxstaticstreamssetstreaminfo, UcxStaticStreamsSetStreamInfo method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ inline void UcxStaticStreamsSetStreamInfo(
 
 
 
-### -param StaticStreams [in]
+#### - StaticStreams [in]
 
                 The handle to the Static Streams object just been created. 
 
 
-### -param StreamInfo [in]
+#### - StreamInfo [in]
 
                 A pointer to a <a href="..\ucxsstreams\ns-ucxsstreams-_stream_info.md">STREAM_INFO</a> structure that contains static stream-related information.
 

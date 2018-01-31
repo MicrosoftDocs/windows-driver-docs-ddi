@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e06bbf6f-f636-4fb1-8195-b74512d4cd13
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSMETHOD_SET structure [Streaming Media Devices], ks/PKSMETHOD_SET, PKSMETHOD_SET, ks-struct_c3d1123f-8d2a-491b-a748-df8d88c7d9bc.xml, *PKSMETHOD_SET, PKSMETHOD_SET structure pointer [Streaming Media Devices], ks/KSMETHOD_SET, stream.ksmethod_set, KSMETHOD_SET
+ms.keywords: ks/KSMETHOD_SET, stream.ksmethod_set, KSMETHOD_SET structure [Streaming Media Devices], PKSMETHOD_SET structure pointer [Streaming Media Devices], ks/PKSMETHOD_SET, *PKSMETHOD_SET, KSMETHOD_SET, ks-struct_c3d1123f-8d2a-491b-a748-df8d88c7d9bc.xml, PKSMETHOD_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct {
 
 
 
-### -field Set
+#### - Set
 
 Specifies a GUID the identifies the kernel streaming method set. For more information about method set GUIDs, see <b>Remarks</b>.
 
 
-### -field MethodsCount
+#### - MethodsCount
 
 Specifies the number of methods in this method set.
 
 
-### -field MethodItem
+#### - MethodItem
 
 Points to an array of <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
 
 
-### -field FastIoCount
+#### - FastIoCount
 
 Reserved for system use. Do not use.
 
 
-### -field FastIoTable
+#### - FastIoTable
 
 Reserved for system use. Do not use.
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 27F537D8-45B2-43D9-A614-3558534C9DBA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_SATELLITEINFO structure pointer [Sensor Devices], GNSS_SATELLITEINFO structure [Sensor Devices], sensors.gnss_satelliteinfo, GNSS_SATELLITEINFO, PGNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO, gnssdriver/GNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO
+ms.keywords: gnssdriver/PGNSS_SATELLITEINFO, sensors.gnss_satelliteinfo, PGNSS_SATELLITEINFO structure pointer [Sensor Devices], GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO, gnssdriver/GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_SATELLITEINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO"
+req.typenames: GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 ---
 
 # GNSS_SATELLITEINFO structure
@@ -71,27 +71,27 @@ typedef struct {
 
 
 
-### -field SatelliteId
+#### - SatelliteId
 
 Pseudorandom noise (PRN) code or other identification for the satellite.
 
 
-### -field UsedInPositiong
+#### - UsedInPositiong
 
 Indicates whether this was simply a visible satellite or actually used in the positioning.
 
 
-### -field Elevation
+#### - Elevation
 
 Elevation value
 
 
-### -field Azimuth
+#### - Azimuth
 
 Azimuth value.
 
 
-### -field SignalToNoiseRatio
+#### - SignalToNoiseRatio
 
 Signal to noise ratio.
 

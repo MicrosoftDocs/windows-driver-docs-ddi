@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 11fd8fc0-98aa-4b06-973c-2b175144da42
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR structure [Audio Devices], PPCFILTER_DESCRIPTOR, portcls/PPCFILTER_DESCRIPTOR, audio.pcfilter_descriptor, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], portcls/PCFILTER_DESCRIPTOR, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, PCFILTER_DESCRIPTOR"
+ms.keywords: portcls/PCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, portcls/PPCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR structure [Audio Devices], *PPCFILTER_DESCRIPTOR, audio.pcfilter_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -208,15 +208,15 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 ## -see-also
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_8.md">PCNODE_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_8.md">PCNODE_DESCRIPTOR</a>
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
  
 

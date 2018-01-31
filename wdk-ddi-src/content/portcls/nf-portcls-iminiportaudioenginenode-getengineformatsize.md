@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0874EC25-3ABE-410B-B5AC-E98020378D7E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetEngineFormatSize, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, audio.iminiportaudioenginenode_getengineformatsize
+ms.keywords: GetEngineFormatSize, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, IMiniportAudioEngineNode, GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetEngineFormatSize, IMiniportAudioEngineNode::GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], audio.iminiportaudioenginenode_getengineformatsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.GetEngineFormatSize
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::GetEngineFormatSize method
@@ -69,17 +69,17 @@ NTSTATUS GetEngineFormatSize(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID of the audio engine node.
 
 
-### -param formatType [in]
+#### - formatType [in]
 
 An enum of type <a href="..\portcls\ne-portcls-eengineformattype.md">eEngineFormatType</a> that represents the audio data format type.
 
 
-### -param pulFormatSize [out]
+#### - pulFormatSize [out]
 
 The data buffer size for the format type.
 
@@ -93,9 +93,9 @@ The data buffer size for the format type.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
 <a href="..\portcls\ne-portcls-eengineformattype.md">eEngineFormatType</a>
+
+<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
  
 

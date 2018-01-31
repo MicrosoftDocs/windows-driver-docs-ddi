@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 483147CF-B15D-435C-B5AA-31723D4C2A85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerResetComplete, buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete, UcxControllerResetComplete method [Buses]
+ms.keywords: UcxControllerResetComplete, ucxcontroller/UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void UcxControllerResetComplete(
 
 
 
-### -param Controller [in]
+#### - Controller [in]
 
 A handle to the controller object to reset. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>.
 

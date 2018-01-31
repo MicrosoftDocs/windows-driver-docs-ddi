@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f3d6cd6-e138-4114-8fac-03cbe1c7aa68
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writepointer, wdbgexts/WritePointer, WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml, WritePointer function [Windows Debugging], WritePointer
+ms.keywords: WritePointer function [Windows Debugging], WritePointer, debugger.writepointer, wdbgexts/WritePointer, WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG WritePointer(
 
 
 
-### -param Address
+#### - Address
 
 Specifies the address to write the pointer to.
 
 
-### -param Pointer
+#### - Pointer
 
 Specifies the value of the pointer.  If the target uses 32-bit pointers, <i>Pointer</i> is a 32-bit value that has been sign-extended to 64-bits.
 

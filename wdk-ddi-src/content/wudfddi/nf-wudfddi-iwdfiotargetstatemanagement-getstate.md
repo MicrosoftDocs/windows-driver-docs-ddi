@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f915294f-457f-4913-b4b0-e94e1806a06d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, GetState method, wdf.iwdfiotargetstatemanagement_getstate, GetState method, IWDFIoTargetStateManagement interface, GetState method, GetState, umdf.iwdfiotargetstatemanagement_getstate, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, IWDFIoTargetStateManagement::GetState, wudfddi/IWDFIoTargetStateManagement::GetState
+ms.keywords: IWDFIoTargetStateManagement, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, GetState method, IWDFIoTargetStateManagement interface, umdf.iwdfiotargetstatemanagement_getstate, GetState, IWDFIoTargetStateManagement::GetState, GetState method, IWDFIoTargetStateManagement interface, GetState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTargetStateManagement.GetState
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560265">IWDFRemoteTarget::GetState</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
 
  
 

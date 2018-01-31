@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata, PosBarcodeScanDataTypeData
+ms.keywords: pointofservicedriverinterface/PosBarcodeScanDataTypeData, _PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata, PosBarcodeScanDataTypeData structure, PosBarcodeScanDataTypeData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PosBarcodeScanDataTypeData {
 
 
 
-### -field dataLengthInBytes
+#### - dataLengthInBytes
 
 The size of the buffer that contains the symbologies, including the size of the <b>PosBarcodeScanDataTypeData</b> structure.
 
 
-### -field scanDataTypes_0
+#### - scanDataTypes_0
 
 The start of the DWORD array of symbologies.
 

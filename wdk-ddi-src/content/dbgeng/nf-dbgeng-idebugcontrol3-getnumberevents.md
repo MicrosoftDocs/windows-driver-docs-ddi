@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb570110-a0a5-4a95-9a26-c4e4ada309b2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetNumberEvents method, IDebugControl3, IDebugControl3::GetNumberEvents, debugger.getnumberevents, dbgeng/IDebugControl3::GetNumberEvents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, GetNumberEvents method [Windows Debugging], GetNumberEvents method [Windows Debugging], IDebugControl3 interface, GetNumberEvents
+ms.keywords: IDebugControl3, IDebugControl3::GetNumberEvents, IDebugControl3 interface [Windows Debugging], GetNumberEvents method, GetNumberEvents method [Windows Debugging], dbgeng/IDebugControl3::GetNumberEvents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, GetNumberEvents, GetNumberEvents method [Windows Debugging], IDebugControl3 interface, debugger.getnumberevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetNumberEvents(
 
 
 
-### -param Events [out]
+#### - Events [out]
 
 Receives the number of events stored in the target.  If the target offers multiple events, <i>Events</i> will be set to the number of events available.  Otherwise, <i>Events</i> will be set to one.
 
@@ -120,11 +120,11 @@ For more information, see the topic <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
 
  
 

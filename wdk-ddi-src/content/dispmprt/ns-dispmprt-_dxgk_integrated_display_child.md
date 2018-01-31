@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A3E28664-B286-4E4A-85DD-4EAAC7D257F0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], display.dxgk_integrated_display_child, DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD, _DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD
+ms.keywords: dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD, display.dxgk_integrated_display_child, _DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_INTEGRATED_DISPLAY_CHILD
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD"
+req.typenames: DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD
 ---
 
 # _DXGK_INTEGRATED_DISPLAY_CHILD structure
@@ -68,7 +68,7 @@ typedef struct _DXGK_INTEGRATED_DISPLAY_CHILD {
 
 
 
-### -field InterfaceTechnology
+#### - InterfaceTechnology
 
 Provides the type of connection used for the integrated display.  Typically, this would be one of the inherently internal display types:
 <ul>
@@ -86,7 +86,7 @@ Provides the type of connection used for the integrated display.  Typically, thi
 <li>D3DKMDT_VOT_UDI_EXTERNAL</li>
 </ul>
 
-### -field DescriptorLength
+#### - DescriptorLength
 
 The size in bytes of the descriptor which will be in the Descriptor field of the DXGK_QUERYINTEGRATEDDISPLAYOUT structure.
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetAuthAlgorithm
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ DWORD WINAPI * Dot11ExtSetAuthAlgorithm(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -79,7 +79,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-### -param dwAuthAlgo [in]
+#### - dwAuthAlgo [in]
 
 A 
      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a> enumerator value
@@ -114,6 +114,8 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 <mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
    Dot11ExtPreAssociateCompletion</b></mshelp:link>
 
@@ -122,8 +124,6 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 <mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

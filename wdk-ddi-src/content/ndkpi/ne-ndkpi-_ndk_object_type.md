@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8CB39DF6-00DA-4480-A44E-62CAF1DB35CE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndkpi/NdkObjectTypeMax, NDK_OBJECT_TYPE, NdkObjectTypePd, ndkpi/NdkObjectTypePd, NdkObjectTypeSharedEndpoint, _NDK_OBJECT_TYPE, NdkObjectTypeMr, NdkObjectTypeListener, ndkpi/NdkObjectTypeCq, ndkpi/NdkObjectTypeConnector, NDK_OBJECT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkObjectTypeUndefined, NdkObjectTypeSrq, ndkpi/NdkObjectTypeMr, NdkObjectTypeAdapter, NdkObjectTypeQp, NdkObjectTypeConnector, NdkObjectTypeCq, netvista.ndk_object_type, ndkpi/NDK_OBJECT_TYPE, ndkpi/NdkObjectTypeAdapter, NdkObjectTypeMax, ndkpi/NdkObjectTypeSharedEndpoint, NdkObjectTypeMw, ndkpi/NdkObjectTypeMw, ndkpi/NdkObjectTypeListener, ndkpi/NdkObjectTypeUndefined, ndkpi/NdkObjectTypeQp, ndkpi/NdkObjectTypeSrq
+ms.keywords: ndkpi/NdkObjectTypeListener, _NDK_OBJECT_TYPE, ndkpi/NDK_OBJECT_TYPE, ndkpi/NdkObjectTypeSrq, ndkpi/NdkObjectTypeAdapter, NdkObjectTypeListener, netvista.ndk_object_type, ndkpi/NdkObjectTypeSharedEndpoint, ndkpi/NdkObjectTypeUndefined, NDK_OBJECT_TYPE, ndkpi/NdkObjectTypeCq, NdkObjectTypeMr, NDK_OBJECT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkObjectTypeQp, NdkObjectTypeCq, ndkpi/NdkObjectTypeQp, NdkObjectTypeSrq, NdkObjectTypeSharedEndpoint, ndkpi/NdkObjectTypeMw, NdkObjectTypeMw, NdkObjectTypeMax, ndkpi/NdkObjectTypeMax, ndkpi/NdkObjectTypePd, NdkObjectTypePd, NdkObjectTypeUndefined, NdkObjectTypeAdapter, ndkpi/NdkObjectTypeMr, ndkpi/NdkObjectTypeConnector, NdkObjectTypeConnector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,62 +78,62 @@ typedef enum _NDK_OBJECT_TYPE {
 
 
 
-### -field NdkObjectTypeUndefined
+#### - NdkObjectTypeUndefined
 
 Specifies  an undefined NDK  object.
 
 
-### -field NdkObjectTypeAdapter
+#### - NdkObjectTypeAdapter
 
 Specifies an NDK adapter object (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>).
 
 
-### -field NdkObjectTypeQp
+#### - NdkObjectTypeQp
 
 Specifies an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
 
 
-### -field NdkObjectTypeCq
+#### - NdkObjectTypeCq
 
 Specifies an NDK completion queue (CQ) object (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
 
 
-### -field NdkObjectTypeMr
+#### - NdkObjectTypeMr
 
 Specifies an NDK memory region (MR) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>).
 
 
-### -field NdkObjectTypeMw
+#### - NdkObjectTypeMw
 
 Specifies an NDK memory window (MW) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>).
 
 
-### -field NdkObjectTypePd
+#### - NdkObjectTypePd
 
 Specifies an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
 
 
-### -field NdkObjectTypeSharedEndpoint
+#### - NdkObjectTypeSharedEndpoint
 
 Specifies an NDK shared endpoint object (<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>).
 
 
-### -field NdkObjectTypeConnector
+#### - NdkObjectTypeConnector
 
 Specifies an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
 
 
-### -field NdkObjectTypeListener
+#### - NdkObjectTypeListener
 
 Specifies an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
 
 
-### -field NdkObjectTypeSrq
+#### - NdkObjectTypeSrq
 
 Specifies an NDK shared receive queue (SRQ) object (<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
 
 
-### -field NdkObjectTypeMax
+#### - NdkObjectTypeMax
 
 The maximum value for this enumeration. This value might change in future versions of the header files and binaries. 
 
@@ -149,27 +149,27 @@ NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJ
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
 
  
 

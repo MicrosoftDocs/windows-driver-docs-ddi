@@ -71,12 +71,12 @@ BOOLEAN IdeHwStartIo(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the miniport driver per channel device extension.
 
 
-### -param Irb [in]
+#### - Irb [in]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) to process.
 

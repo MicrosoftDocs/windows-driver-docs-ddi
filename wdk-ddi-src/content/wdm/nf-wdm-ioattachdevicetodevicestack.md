@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6377f980-dd56-4bef-91e7-7557866132d6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioattachdevicetodevicestack, k104_18c6aeef-4362-49f9-88a3-6d2a970eb0d7.xml, wdm/IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoAttachDeviceToDeviceStack, k104_18c6aeef-4362-49f9-88a3-6d2a970eb0d7.xml, wdm/IoAttachDeviceToDeviceStack, kernel.ioattachdevicetodevicestack, IoAttachDeviceToDeviceStack routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PDEVICE_OBJECT IoAttachDeviceToDeviceStack(
 
 
 
-### -param SourceDevice [in]
+#### - SourceDevice [in]
 
 Pointer to the caller-created device object.
 
 
-### -param TargetDevice [in]
+#### - TargetDevice [in]
 
 Pointer to another driver's device object, such as a pointer returned by a preceding call to <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>.
 
@@ -105,11 +105,11 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
 <a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 

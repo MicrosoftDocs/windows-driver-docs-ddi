@@ -40,7 +40,7 @@ apiname:
 -	NdkModifySrq
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_MODIFY_SRQ callback
@@ -74,28 +74,29 @@ NTSTATUS NdkModifySrq(
 
 
 
-### -param *pNdkSrq
+#### - *pNdkSrq [in]
+
+A pointer to an NDK shared receive queue (SRQ) object (<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
 
 
-
-### -param SrqDepth [in]
+#### - SrqDepth [in]
 
 
 The new size of the SRQ. The new size must be less than or equal to the  size that is specified in the <b>MaxSrqDepth</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure.
 A size of zero means no depth modification is requested. That is,  the existing SRQ depth value must be preserved.
 
 
-### -param NotifyThreshold [in]
+#### - NotifyThreshold [in]
 
 The number of queued receive requests  that will trigger an SRQ notification callback. If this value is greater than zero,  the NDK provider must arm the SRQ notification to trigger  when the number of queued receive requests falls below the specified  value. If the number of queued receive requests is already below the threshold value at the time of this function call, an SRQ notification must be generated. After an SRQ notification is generated, further notifications are disarmed until the NDK consumer invokes this function again with a non-zero threshold value. If a threshold value of zero is specified, the provider must preserve the current SRQ notification threshold and arming status.
 
 
-### -param RequestCompletion [in]
+#### - RequestCompletion [in]
 
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>).
 
 
-### -param RequestContext [in, optional]
+#### - RequestContext [in, optional]
 
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 

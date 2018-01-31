@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0df38de0-bc05-45a3-8efa-9d7a0fc2a08e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendReportLUNs, storage.hba_sendreportluns, HBA_SendReportLUNs routine [Storage Devices], fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml, hbaapi/HBA_SendReportLUNs
+ms.keywords: storage.hba_sendreportluns, fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml, HBA_SendReportLUNs routine [Storage Devices], hbaapi/HBA_SendReportLUNs, HBA_SendReportLUNs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,22 +82,22 @@ TBD
 TBD
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that receives the output data of the SCSI report LUNs command.
 
 
-### -param RspBufferSize [in]
+#### - RspBufferSize [in]
 
 Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.
 
 
-### -param pSenseBuffer [out]
+#### - pSenseBuffer [out]
 
 Pointer to a buffer that receives the SCSI sense data.
 
 
-### -param SenseBufferSize [in]
+#### - SenseBufferSize [in]
 
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
 
@@ -193,9 +193,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

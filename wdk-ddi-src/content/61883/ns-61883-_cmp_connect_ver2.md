@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2A2C1478-0512-4F84-90B9-B9C62B5D44DA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CMP_CONNECT_VER2, _CMP_CONNECT_VER2, *PCMP_CONNECT_VER2, IEEE.cmp_connect_ver2, CMP_CONNECT, CMP_CONNECT_VER2 structure, 61883/PCMP_CONNECT_VER2, CMP_CONNECT_VER2, *PCMP_CONNECT, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer
+ms.keywords: "*PCMP_CONNECT_VER2, CMP_CONNECT_VER2, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, 61883/PCMP_CONNECT_VER2, _CMP_CONNECT_VER2, IEEE.cmp_connect_ver2, *PCMP_CONNECT, CMP_CONNECT_VER2 structure, 61883/CMP_CONNECT_VER2, CMP_CONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct _CMP_CONNECT_VER2 {
 
 
 
-### -field hOutputPlug
+#### - hOutputPlug
 
 On input, a handle to the output plug to use for the connection. If <b>hOutputPlug</b> is <b>NULL</b>, the connection is for input only.
 
 
-### -field hInputPlug
+#### - hInputPlug
 
 On input, handle to the input plug to use for the connection. If <b>hInputPlug</b> is <b>NULL</b>, the connection is for output only.
 
 
-### -field Type
+#### - Type
 
 On input, the type of the requested connection.
 
@@ -100,14 +100,14 @@ A broadcast connection.
 A connection between a single output plug and one or more input plugs. 
 
 
-### -field Format
+#### - Format
 
 The requested data format.
 
 On input, a pointer to a <a href="..\61883\ns-61883-_cip_data_format_ver2.md">CIP_DATA_FORMAT_VER2</a> structure that specifies the format of the connection.
 
 
-### -field hConnect
+#### - hConnect
 
 On output, the handle for the created connection.
 

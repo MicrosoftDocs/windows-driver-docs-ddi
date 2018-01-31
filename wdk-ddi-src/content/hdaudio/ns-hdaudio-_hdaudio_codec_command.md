@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], HDAUDIO_CODEC_COMMAND structure [Audio Devices], hdaudio/PHDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, audio.hdaudio_codec_command, hdaudio/HDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND, _HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND
+ms.keywords: aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], PHDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], hdaudio/HDAUDIO_CODEC_COMMAND, audio.hdaudio_codec_command, _HDAUDIO_CODEC_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HDAUDIO_CODEC_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND
+req.typenames: "*PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND"
 ---
 
 # _HDAUDIO_CODEC_COMMAND structure
@@ -81,11 +81,31 @@ typedef struct _HDAUDIO_CODEC_COMMAND {
 
 
 
-### -field Verb8
+#### - Verb8
 
 Specifies an 8-bit payload command format. The members in the following table are part of the Verb8 structure.
 		   
 		
+
+
+#### Data
+
+Specifies an 8-bit data payload value for the 8-bit payload command format.
+
+
+#### VerbId
+
+Specifies a 12-bit verb identifier for the 8-bit payload command format.
+
+
+#### Node
+
+Specifies an 8-bit node identifier for the 8-bit payload command format.
+
+
+#### CodecAddress
+
+Specifies a 4-bit codec address for the 8-bit payload command format.
 
 
 ### -field Verb8.Data
@@ -108,11 +128,31 @@ Specifies an 8-bit node identifier for the 8-bit payload command format.
 Specifies a 4-bit codec address for the 8-bit payload command format.
 
 
-### -field Verb16
+#### - Verb16
 
 Specifies an 16-bit payload command format. The members in the following table are part of the Verb16 structure.
 		   
 		
+
+
+#### Data
+
+Specifies an 16-bit data payload value for the 16-bit payload command format.
+
+
+#### VerbId
+
+Specifies a 4-bit verb identifier for the 16-bit payload command format.
+
+
+#### Node
+
+Specifies an 8-bit node identifier for the 16-bit payload command format.
+
+
+#### CodecAddress
+
+Specifies a 4-bit codec address for the 16-bit payload command format.
 
 
 ### -field Verb16.Data
@@ -135,7 +175,7 @@ Specifies an 8-bit node identifier for the 16-bit payload command format.
 Specifies a 4-bit codec address for the 16-bit payload command format.
 
 
-### -field Command
+#### - Command
 
 Specifies a 32-bit codec command that contains payload data, a verb identifier, a node identifier, and a codec address.
 
@@ -151,9 +191,9 @@ The validity of individual members depends on the type of command sent.
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
+
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
  
 

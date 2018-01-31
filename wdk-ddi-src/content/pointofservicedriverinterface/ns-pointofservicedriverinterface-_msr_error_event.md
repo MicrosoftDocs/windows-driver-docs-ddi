@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: daab2df5-4d23-4fe3-b357-74b2615e6d1e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PMSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, MSR_ERROR_EVENT, MSR_ERROR_EVENT structure, pos.msr_error_event, *PMSR_ERROR_EVENT, _MSR_ERROR_EVENT
+ms.keywords: pointofservicedriverinterface/MSR_ERROR_EVENT, *PMSR_ERROR_EVENT, _MSR_ERROR_EVENT, PMSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, MSR_ERROR_EVENT structure, MSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, pos.msr_error_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSR_ERROR_EVENT
 product: Windows
 targetos: Windows
-req.typenames: MSR_ERROR_EVENT, *PMSR_ERROR_EVENT
+req.typenames: "*PMSR_ERROR_EVENT, MSR_ERROR_EVENT"
 ---
 
 # _MSR_ERROR_EVENT structure
@@ -76,52 +76,52 @@ typedef struct _MSR_ERROR_EVENT {
 
 
 
-### -field Header
+#### - Header
 
 Track 4 error status.
 
 
-### -field Track1Status
+#### - Track1Status
 
 Track 1 error status.
 
 
-### -field Track2Status
+#### - Track2Status
 
 Track 2 error status.
 
 
-### -field Track3Status
+#### - Track3Status
 
 Track 3 error status.
 
 
-### -field Track4Status
+#### - Track4Status
 
 Track 4 error status.
 
 
-### -field Severity
+#### - Severity
 
 Severity of the error.
 
 
-### -field Reason
+#### - Reason
 
 Reason for the error.
 
 
-### -field ExtendedReason
+#### - ExtendedReason
 
 Additional information about the error.
 
 
-### -field CardData
+#### - CardData
 
 Data read from a swiped magnetic stripe card.
 
 
-### -field Message
+#### - Message
 
 NULL terminated error message.
 

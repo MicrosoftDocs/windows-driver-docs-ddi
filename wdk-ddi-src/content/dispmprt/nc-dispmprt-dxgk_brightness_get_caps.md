@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiGetBrightnessCaps
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_GET_CAPS callback
@@ -71,16 +71,14 @@ NTSTATUS* DxgkDdiGetBrightnessCaps(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param *BrightnessCaps
+#### - *BrightnessCaps [in]
 
-
-
-
+A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a> structure that represents the brightness control capabilities of the display panel.
 
 
 #### - BrightnessCaps [in]

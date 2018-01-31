@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_PrepareController
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
 ---
 
 # GPIO_CLIENT_PREPARE_CONTROLLER callback
@@ -73,22 +73,22 @@ NTSTATUS CLIENT_PrepareController(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the GPIO controller.
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4BE99C71-9BA6-44E3-A54F-DE8C3440A474">device context</a>.
 
 
-### -param ResourcesRaw [in]
+#### - ResourcesRaw [in]
 
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the raw (bus-relative) hardware resources that the Plug and Play (PnP) manager has assigned to the GPIO controller device.
 
 
-### -param ResourcesTranslated [in]
+#### - ResourcesTranslated [in]
 
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the translated (system-physical) hardware resources that the PnP manager has assigned to the GPIO controller device.
 
@@ -123,11 +123,11 @@ Although the <i>CLIENT_PrepareController</i> callback function is called at IRQL
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439411">CLIENT_ReleaseController</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439411">CLIENT_ReleaseController</a>
 
  
 

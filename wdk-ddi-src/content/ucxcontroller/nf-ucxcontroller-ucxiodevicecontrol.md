@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl, UcxIoDeviceControl method [Buses], UcxIoDeviceControl
+ms.keywords: ucxcontroller/UcxIoDeviceControl, buses._ucxiodevicecontrol, UcxIoDeviceControl method [Buses], UcxIoDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,29 +72,29 @@ BOOL UcxIoDeviceControl(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that represents the user-mode IOCTL request. 
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer 
         is available.
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer 
         is available.
 
 
-### -param IoControlCode [in]
+#### - IoControlCode [in]
 
 The driver-defined or system-defined IOCTL that is 
         associated with the request.

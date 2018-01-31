@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, print.branchofficejobdata, PBranchOfficeJobData structure pointer [Print Devices], winsplp/BranchOfficeJobData, *PBranchOfficeJobData, winsplp/PBranchOfficeJobData
+ms.keywords: PBranchOfficeJobData, BranchOfficeJobData structure [Print Devices], BranchOfficeJobData, winsplp/PBranchOfficeJobData, *PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], winsplp/BranchOfficeJobData, print.branchofficejobdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BranchOfficeJobData
 product: Windows
 targetos: Windows
-req.typenames: "*PBranchOfficeJobData, BranchOfficeJobData"
+req.typenames: BranchOfficeJobData, *PBranchOfficeJobData
 req.product: Windows 10 or later.
 ---
 
@@ -76,8 +76,33 @@ typedef struct {
 
 
 
-### -field JobInfo
+#### - JobInfo
 
+
+
+#### LogJobPrinted
+
+Describes  the <b>BranchOfficeJobDataPrinted</b> type member <b>LogJobPrinted</b>.
+
+
+#### LogJobRendered
+
+Describes the <b>BranchOfficeJobDataRendered</b> type member <b>LogJobRendered</b>.
+
+
+#### LogJobError
+
+Describes the <b>BranchOfficeJobDataError</b> type member <b>LogJobError</b>.
+
+
+#### LogPipelineFailed
+
+Describes the <b>BranchOfficeJobDataPipelineFailed</b> type member <b>LogPipelineFailed</b>.
+
+
+#### LogOfflineFileFull
+
+Describes the <b>BranchOfficeLogOfflineFileFull</b> type member <b>LogOfflineFileFull</b>.
 
 
 ### -field JobInfo.LogJobPrinted
@@ -105,12 +130,12 @@ Describes the <b>BranchOfficeJobDataPipelineFailed</b> type member <b>LogPipelin
 Describes the <b>BranchOfficeLogOfflineFileFull</b> type member <b>LogOfflineFileFull</b>.
 
 
-### -field eEventType
+#### - eEventType
 
 Specifies the type of event to be logged.
 
 
-### -field JobId
+#### - JobId
 
 Specifies the ID of the job on the client.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 45DFA669-8520-4EA5-8B36-822BDC8C958D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/PPRINTER_NOTIFY_INIT, print.printer_notify_init, _PRINTER_NOTIFY_INIT, *LPPRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT, LPPRINTER_NOTIFY_INIT structure pointer [Print Devices], PPRINTER_NOTIFY_INIT, winsplp/PRINTER_NOTIFY_INIT, PPRINTER_NOTIFY_INIT structure pointer [Print Devices], LPPRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT structure [Print Devices], winsplp/LPPRINTER_NOTIFY_INIT
+ms.keywords: LPPRINTER_NOTIFY_INIT, winsplp/PPRINTER_NOTIFY_INIT, _PRINTER_NOTIFY_INIT, winsplp/PRINTER_NOTIFY_INIT, print.printer_notify_init, LPPRINTER_NOTIFY_INIT structure pointer [Print Devices], winsplp/LPPRINTER_NOTIFY_INIT, PPRINTER_NOTIFY_INIT, *LPPRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT, PPRINTER_NOTIFY_INIT structure pointer [Print Devices], PRINTER_NOTIFY_INIT structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRINTER_NOTIFY_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*LPPRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT"
+req.typenames: PRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, *LPPRINTER_NOTIFY_INIT
 req.product: Windows 10 or later.
 ---
 
@@ -70,14 +70,14 @@ typedef struct _PRINTER_NOTIFY_INIT {
 
 
 
-### -field Size
+#### - Size
 
 
 
-### -field Reserved
+#### - Reserved
 
 
 
-### -field PollTime
+#### - PollTime
 
 

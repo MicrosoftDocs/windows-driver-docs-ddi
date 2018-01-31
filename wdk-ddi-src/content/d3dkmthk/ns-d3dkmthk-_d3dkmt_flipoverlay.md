@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_FLIPOVERLAY structure [Display Devices], d3dkmthk/D3DKMT_FLIPOVERLAY, OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, D3DKMT_FLIPOVERLAY, display.d3dkmt_flipoverlay, _D3DKMT_FLIPOVERLAY
+ms.keywords: display.d3dkmt_flipoverlay, d3dkmthk/D3DKMT_FLIPOVERLAY, D3DKMT_FLIPOVERLAY structure [Display Devices], OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, _D3DKMT_FLIPOVERLAY, D3DKMT_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMT_FLIPOVERLAY {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device that the overlay is associated with.
 
 
-### -field hOverlay
+#### - hOverlay
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the create-overlay function and that identifies the kernel-mode overlay object to be flipped.
 
 
-### -field hSource
+#### - hSource
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to a block of private data, which is passed from the OpenGL ICD to the display miniport driver. 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 

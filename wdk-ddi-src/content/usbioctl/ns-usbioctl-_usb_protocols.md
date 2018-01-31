@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F970A7FB-DF6F-414B-8B4B-C7E4C5C620B1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_PROTOCOLS, buses.usb_protocols, _USB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, usbioctl/USB_PROTOCOLS, *PUSB_PROTOCOLS, USB_PROTOCOLS union [Buses], PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses]
+ms.keywords: USB_PROTOCOLS union [Buses], *PUSB_PROTOCOLS, USB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, _USB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], PUSB_PROTOCOLS, buses.usb_protocols, usbioctl/USB_PROTOCOLS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,36 +78,36 @@ typedef union _USB_PROTOCOLS {
 
 
 
-### -field Usb110
+#### - Usb110
 
 If <b>TRUE</b>, the port supports the protocols that are defined in the USB 1.1 Specification. This indicates that the port supports full-speed and low-speed operations.  <b>Usb110</b> is always TRUE for high-speed ports because those ports support full-speed and low-speed operations through split transactions and transaction translators.
 
 
-### -field Usb200
+#### - Usb200
 
 If <b>TRUE</b>, the port supports the protocols that are defined USB 2.0 Specification. This indicates that the port supports high-speed operations.
 
 
-### -field Usb300
+#### - Usb300
 
 If <b>TRUE</b>, the port supports the protocols that are defined USB 3.0 Specification. This indicates that the port supports SuperSpeed operations.
 
 
-### -field ReservedMBZ
+#### - ReservedMBZ
 
 Reserved. Do not use.
 
 
-### -field ul
+#### - ul
 
 A bitmask that indicates the USB signaling protocols that are supported by the port.
 
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-
 <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2.md">USB_NODE_CONNECTION_INFORMATION_EX_V2</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
 
  
 

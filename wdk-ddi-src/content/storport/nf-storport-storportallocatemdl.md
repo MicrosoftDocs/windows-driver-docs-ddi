@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 45450486-3264-4fc8-8051-f7c48997e3dd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAllocateMdl routine [Storage Devices], StorPortAllocateMdl, storage.storportallocatemdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
+ms.keywords: StorPortAllocateMdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml, storage.storportallocatemdl, StorPortAllocateMdl routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortAllocateMdl(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param BufferPointer [in]
+#### - BufferPointer [in]
 
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 This parameter specifies the length, in bytes, of the buffer that the MDL is to describe.
 
 
-### -param Mdl [out]
+#### - Mdl [out]
 
 A pointer to receive the allocated MDL.
 

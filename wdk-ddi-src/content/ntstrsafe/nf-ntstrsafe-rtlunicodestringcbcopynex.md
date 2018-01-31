@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08b2e13c-bbd6-4344-83cb-3bb911c5da70
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_d890ac48-9708-4149-a023-cc5198393084.xml, RtlUnicodeStringCbCopyNEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCbCopyNEx, kernel.rtlunicodestringcbcopynex, RtlUnicodeStringCbCopyNEx
+ms.keywords: RtlUnicodeStringCbCopyNEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringCbCopyNEx, safestrings_d890ac48-9708-4149-a023-cc5198393084.xml, kernel.rtlunicodestringcbcopynex, ntstrsafe/RtlUnicodeStringCbCopyNEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUnicodeStringCbCopyNEx(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of bytes in the <i>DestinationString </i>structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>SourceString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbToCopy [in]
+#### - cbToCopy [in]
 
 The number of bytes to be copied from the source to the destination. 
 
 
-### -param RemainingString [out, optional]
+#### - RemainingString [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IPnpCallback::OnQueryStop, IPnpCallback::OnQueryStop, OnQueryStop, OnQueryStop method, OnQueryStop method, IPnpCallback interface, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, IPnpCallback, wdf.ipnpcallback_onquerystop, IPnpCallback interface, OnQueryStop method, umdf.ipnpcallback_onquerystop
+ms.keywords: OnQueryStop method, IPnpCallback::OnQueryStop, OnQueryStop, OnQueryStop method, IPnpCallback interface, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, IPnpCallback, IPnpCallback interface, OnQueryStop method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallback.OnQueryStop
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT OnQueryStop(
 
 
 
-### -param pWdfDevice [in]
+#### - pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that will be stopped.
 
@@ -99,11 +99,11 @@ For more information about the <b>OnQueryStop</b> callback method, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
  
 

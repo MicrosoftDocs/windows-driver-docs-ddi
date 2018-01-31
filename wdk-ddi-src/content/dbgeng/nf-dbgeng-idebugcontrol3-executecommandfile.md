@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b8f53d7-361c-40a3-b93c-39e653bd9032
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], ExecuteCommandFile method, dbgeng/IDebugControl3::ExecuteCommandFile, IDebugControl3, ExecuteCommandFile, IDebugControl2::ExecuteCommandFile, IDebugControl interface [Windows Debugging], ExecuteCommandFile method, IDebugControl::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], debugger.executecommandfile, IDebugControl2 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, IDebugControl3::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3, IDebugControl2 interface [Windows Debugging], ExecuteCommandFile method, ExecuteCommandFile method [Windows Debugging], IDebugControl interface, ExecuteCommandFile method [Windows Debugging], IDebugControl3 interface, ExecuteCommandFile method [Windows Debugging], IDebugControl2 interface, IDebugControl::ExecuteCommandFile, dbgeng/IDebugControl::ExecuteCommandFile, IDebugControl2::ExecuteCommandFile, dbgeng/IDebugControl2::ExecuteCommandFile, IDebugControl3 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl3::ExecuteCommandFile, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, debugger.executecommandfile, ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl interface [Windows Debugging], ExecuteCommandFile method, dbgeng/IDebugControl3::ExecuteCommandFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT ExecuteCommandFile(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies where to send the output of the command.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-### -param CommandFile [in]
+#### - CommandFile [in]
 
 Specifies the name of the file that contains the commands to execute.  This file is opened for reading and its contents are interpreted as if they had been typed into the debugger console.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies execution options for the command.  The default options are to log the command but not to send it to the output.  For details about the values that <i>Flags</i> can take, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>.
 
@@ -119,13 +119,13 @@ This method reads the specified file and execute the commands one line at a time
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

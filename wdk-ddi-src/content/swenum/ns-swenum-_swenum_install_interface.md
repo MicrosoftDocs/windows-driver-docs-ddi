@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05280f35-7728-464e-9a8a-e45ab797e8a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/PSWENUM_INSTALL_INTERFACE, ks-struct_64848a64-102a-44ec-b5d1-331526828c60.xml, *PSWENUM_INSTALL_INTERFACE, stream.swenum_install_interface, _SWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE structure pointer [Streaming Media Devices], swenum/SWENUM_INSTALL_INTERFACE, SWENUM_INSTALL_INTERFACE structure [Streaming Media Devices], SWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE
+ms.keywords: swenum/SWENUM_INSTALL_INTERFACE, SWENUM_INSTALL_INTERFACE, _SWENUM_INSTALL_INTERFACE, stream.swenum_install_interface, ks-struct_64848a64-102a-44ec-b5d1-331526828c60.xml, *PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE structure pointer [Streaming Media Devices], SWENUM_INSTALL_INTERFACE structure [Streaming Media Devices], swenum/PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SWENUM_INSTALL_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PSWENUM_INSTALL_INTERFACE, SWENUM_INSTALL_INTERFACE"
+req.typenames: SWENUM_INSTALL_INTERFACE, *PSWENUM_INSTALL_INTERFACE
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _SWENUM_INSTALL_INTERFACE {
 
 
 
-### -field DeviceId
+#### - DeviceId
 
 GUID that specifies the demand-load bus enumerator object's device ID.
 
 
-### -field InterfaceId
+#### - InterfaceId
 
 GUID that specifies the demand-load bus enumerator object's interface ID.
 
 
-### -field ReferenceString
+#### - ReferenceString
 
 A reference string that a driver can use to uniquely identify multiple interface instances of the same type for a single device.
 

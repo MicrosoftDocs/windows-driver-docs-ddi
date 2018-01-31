@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice::GetDefaultIoQueue, GetDefaultIoQueue method, GetDefaultIoQueue, IWDFDevice interface, GetDefaultIoQueue method, GetDefaultIoQueue method, IWDFDevice interface, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, wudfddi/IWDFDevice::GetDefaultIoQueue, umdf.iwdfdevice_getdefaultioqueue, IWDFDevice, wdf.iwdfdevice_getdefaultioqueue
+ms.keywords: wdf.iwdfdevice_getdefaultioqueue, IWDFDevice interface, GetDefaultIoQueue method, wudfddi/IWDFDevice::GetDefaultIoQueue, GetDefaultIoQueue method, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, GetDefaultIoQueue, IWDFDevice, IWDFDevice::GetDefaultIoQueue, umdf.iwdfdevice_getdefaultioqueue, GetDefaultIoQueue method, IWDFDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.GetDefaultIoQueue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetDefaultIoQueue(
 
 
 
-### -param ppWdfIoQueue [out]
+#### - ppWdfIoQueue [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the default I/O queue object.
 
@@ -91,9 +91,9 @@ For more information about queue objects, see <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
  
 

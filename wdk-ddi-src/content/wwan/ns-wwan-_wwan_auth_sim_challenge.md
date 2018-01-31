@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E07F3ED0-2F20-40D9-AAAE-49C81168B998
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_SIM_CHALLENGE, _WWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE, netvista.wwan_auth_sim_challenge, *PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_CHALLENGE
+ms.keywords: WWAN_AUTH_SIM_CHALLENGE, *PWWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_auth_sim_challenge, WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_SIM_CHALLENGE, _WWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,7 +86,7 @@ typedef struct _WWAN_AUTH_SIM_CHALLENGE {
  
 
 
-### -field n
+#### - n
 
 The number of random number challenges.
 

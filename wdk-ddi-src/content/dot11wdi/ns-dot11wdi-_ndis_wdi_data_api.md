@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8C26D62E-711A-4CE7-BD2B-D78B794C67FB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista], NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], NDIS_WDI_DATA_API, netvista.ndis_wdi_data_api, PNDIS_WDI_DATA_API, _NDIS_WDI_DATA_API, dot11wdi/PNDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API, dot11wdi/NDIS_WDI_DATA_API
+ms.keywords: netvista.ndis_wdi_data_api, dot11wdi/NDIS_WDI_DATA_API, _NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API, PNDIS_WDI_DATA_API, NDIS_WDI_DATA_API, dot11wdi/PNDIS_WDI_DATA_API, NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,7 +84,7 @@ typedef struct _NDIS_WDI_DATA_API {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -105,82 +105,82 @@ Set the
         <b>Size</b> member to NDIS_SIZEOF_WDI_DATA_API_REVISION_1.
 
 
-### -field TxDequeueIndication
+#### - TxDequeueIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a> callback function.
 
 
-### -field TxTransferCompleteIndication
+#### - TxTransferCompleteIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_transfer_complete_ind.md">NdisWdiTxTransferCompleteIndication</a> callback function.
 
 
-### -field TxSendCompleteIndication
+#### - TxSendCompleteIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_complete_ind.md">NdisWdiTxSendCompleteIndication</a> callback function.
 
 
-### -field TxQueryRATIDState
+#### - TxQueryRATIDState
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_query_ra_tid_state.md">NdisWdiTxQueryRATIDState</a> callback function.
 
 
-### -field TxSendPauseIndication
+#### - TxSendPauseIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a> callback function.
 
 
-### -field TxSendRestartIndication
+#### - TxSendRestartIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_restart_ind.md">NdisWdiTxSendRestartIndication</a> callback function.
 
 
-### -field TxReleaseFrameIndication
+#### - TxReleaseFrameIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_release_frames_ind.md">NdisWdiTxReleaseFrameIndication</a> callback function.
 
 
-### -field TxInjectFrameIndication
+#### - TxInjectFrameIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_inject_frame_ind.md">NdisWdiTxInjectFrameIndication</a> callback function.
 
 
-### -field TxAbortConfirm
+#### - TxAbortConfirm
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">NdisWdiTxAbortConfirm</a> callback function.
 
 
-### -field RxInorderDataIndication
+#### - RxInorderDataIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_rx_inorder_data_ind.md">NdisWdiRxInorderDataIndication</a> callback function.
 
 
-### -field RxStopConfirm
+#### - RxStopConfirm
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_rx_stop_confirm.md">NdisWdiRxStopConfirm</a> callback function.
 
 
-### -field RxFlushConfirm
+#### - RxFlushConfirm
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_rx_flush_confirm.md">NdisWdiRxFlushConfirm</a> callback function.
 
 
-### -field PeerCreateIndication
+#### - PeerCreateIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_create_ind.md">NdisWdiPeerCreateIndication</a> callback function.
 
 
-### -field PeerDeleteIndication
+#### - PeerDeleteIndication
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">NdisWdiPeerDeleteIndication</a> callback function.
 
 
-### -field AllocateWiFiFrameMetaData
+#### - AllocateWiFiFrameMetaData
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_allocate_wdi_frame_metadata.md">NdisWdiAllocateWiFiFrameMetaData</a> callback function.
 
 
-### -field FreeWiFiFrameMetaData
+#### - FreeWiFiFrameMetaData
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_free_wdi_frame_metadata.md">NdisWdiFreeWiFiFrameMetaData</a> callback function.
 

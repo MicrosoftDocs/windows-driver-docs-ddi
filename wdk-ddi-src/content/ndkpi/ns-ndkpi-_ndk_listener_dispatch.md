@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CF44B920-428A-4CD0-94BF-15F80189D9C3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_LISTENER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndkpi/NDK_LISTENER_DISPATCH, ndkpi/PNDK_LISTENER_DISPATCH, NDK_LISTENER_DISPATCH, PNDK_LISTENER_DISPATCH, _NDK_LISTENER_DISPATCH, netvista.ndk_listener_dispatch, NDK_LISTENER_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndkpi/NDK_LISTENER_DISPATCH, _NDK_LISTENER_DISPATCH, ndkpi/PNDK_LISTENER_DISPATCH, netvista.ndk_listener_dispatch, NDK_LISTENER_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER_DISPATCH, PNDK_LISTENER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_LISTENER_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _NDK_LISTENER_DISPATCH {
 
 
 
-### -field NdkCloseListener
+#### - NdkCloseListener
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a> dispatch function.
 
 
-### -field NdkQueryExtension
+#### - NdkQueryExtension
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
-### -field NdkListen
+#### - NdkListen
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a> dispatch function.
 
 
-### -field NdkGetLocalAddress
+#### - NdkGetLocalAddress
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a> dispatch function.
 
 
-### -field NdkControlConnectEvents
+#### - NdkControlConnectEvents
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_CONTROL_CONNECT_EVENTS</a> dispatch function.
 
@@ -105,17 +105,17 @@ The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-n
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_connect_events.md">NDK_FN_CONTROL_CONNECT_EVENTS</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_connect_events.md">NDK_FN_CONTROL_CONNECT_EVENTS</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
  
 

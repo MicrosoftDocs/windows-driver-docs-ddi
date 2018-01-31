@@ -73,21 +73,22 @@ VOID APIENTRY* pfnSetExtendedFeatureCallbacks(
 
 
 
-### -param hDevice
+#### - hDevice
 
 The handle of a device.
 
 
-### -param Table
+#### - Table
 
 A value for an implementation of video.
 
 
-### -param *pTable
+#### - *pTable [in]
+
+A pointer to a table value.
 
 
-
-### -param TableSize
+#### - TableSize
 
 The size of the table. 
 

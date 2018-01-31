@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37A9A957-344F-48F6-93DE-D81DE5C20076
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION structure [Display Devices], *INOUT_PDXGKARG_CREATEPROTECTEDSESSION, _DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION, display.dxgkarg_createprotectedsession
+ms.keywords: d3dkmddi/DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION structure [Display Devices], *INOUT_PDXGKARG_CREATEPROTECTEDSESSION, display.dxgkarg_createprotectedsession, _DXGKARG_CREATEPROTECTEDSESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,18 +69,18 @@ typedef struct _DXGKARG_CREATEPROTECTEDSESSION {
 
 
 
-### -field hProtectedSession
+#### - hProtectedSession
 
 An assigned value for the protected session that was passed to DxgkDdiCreateProtectedSession.
 
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 A pointer to the driver data.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 The size of the data.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ResetPDEV method [Print Devices], IPrintOemUni interface, ResetPDEV, print.iprintoemuni_resetpdev, IPrintOemUni, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, IPrintOemUni::ResetPDEV, ResetPDEV method [Print Devices], prcomoem/IPrintOemUni::ResetPDEV, IPrintOemUni interface [Print Devices], ResetPDEV method
+ms.keywords: IPrintOemUni interface [Print Devices], ResetPDEV method, IPrintOemUni::ResetPDEV, IPrintOemUni, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemUni interface, print.iprintoemuni_resetpdev, ResetPDEV, prcomoem/IPrintOemUni::ResetPDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ STDMETHOD ResetPDEV(
 
 
 
-### -param pdevobjOld
+#### - pdevobjOld
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure containing current PDEV information.
 
 
-### -param pdevobjNew
+#### - pdevobjNew
 
 Caller-supplied pointer to a DEVOBJ structure into which the method should place new PDEV information.
 

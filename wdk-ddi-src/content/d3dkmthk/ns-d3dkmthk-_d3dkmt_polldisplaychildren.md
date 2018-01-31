@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39d62c39-a892-4ccd-aea6-32d102d1891c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, display.d3dkmt_polldisplaychildren, D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], _D3DKMT_POLLDISPLAYCHILDREN
+ms.keywords: d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], _D3DKMT_POLLDISPLAYCHILDREN, OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, display.d3dkmt_polldisplaychildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _D3DKMT_POLLDISPLAYCHILDREN {
 
 
 
-### -field hAdapter
+#### - hAdapter
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the graphics adapter to query for connectivity status of child devices.
 
 
-### -field NonDestructiveOnly
+#### - NonDestructiveOnly
 
 [in] A UINT value that specifies whether the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpolldisplaychildren.md">D3DKMTPollDisplayChildren</a> function should be only nondestructive. A nonzero value indicates only a nondestructive call; a zero value indicates the call can be destructive (that is, the call can cause visual artifacts on the screen). 
 
 
-### -field SynchronousPolling
+#### - SynchronousPolling
 
 Supported beginning with Windows 7 operating system.
 
@@ -92,21 +92,21 @@ Supported beginning with Windows 7 operating system.
 If the display miniport driver needs to poll child devices after receiving notice of an ACPI event, the runtime should set <b>SynchronousPolling</b> to a nonzero value.
 
 
-### -field DisableModeReset
+#### - DisableModeReset
 
 Supported beginning with Windows 7 operating system.
 
 [in] A UINT value that specifies whether any reactions of the display miniport driver to discoveries of new child devices are disabled during the polling interval. If set to a nonzero value, such reactions of the driver are disabled during the polling interval. In this case, set the <b>SynchronousPolling</b>parameter when setting <b>DisableModeReset</b>. Otherwise, normal reactions of the driver to discoveries of new child devices are allowed.
 
 
-### -field PollAllAdapters
+#### - PollAllAdapters
 
 Supported beginning with Windows 7 operating system.
 
 [in] A UINT value that specifies whether all child devices are polled. If set to a nonzero value, all child devices are polled. Otherwise, only the child devices that are on the specified adapter are discovered in the polling.
 
 
-### -field PollInterruptible
+#### - PollInterruptible
 
 Supported beginning with Windows 7 operating system.
 
@@ -117,7 +117,7 @@ HPD-aware devices are those for which, in a call to <a href="..\dispmprt\nc-disp
 For more information on HPD-aware devices, see <a href="https://msdn.microsoft.com/170d2d5d-fd46-431d-9672-61fa048f7dd2">Monitor Hot Plug Detection</a>.
 
 
-### -field Reserved
+#### - Reserved
 
 Supported beginning with Windows 7 operating system.
 
@@ -126,9 +126,9 @@ Supported beginning with Windows 7 operating system.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpolldisplaychildren.md">D3DKMTPollDisplayChildren</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
  
 

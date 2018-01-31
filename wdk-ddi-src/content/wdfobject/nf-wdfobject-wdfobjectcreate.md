@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd56c529-c7ad-4fc4-8fcc-950a1e8e21e5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, wdf.wdfobjectcreate, WdfObjectCreate method, PFN_WDFOBJECTCREATE, WdfObjectCreate, kmdf.wdfobjectcreate, wdfobject/WdfObjectCreate
+ms.keywords: kmdf.wdfobjectcreate, WdfObjectCreate method, PFN_WDFOBJECTCREATE, DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, wdfobject/WdfObjectCreate, wdf.wdfobjectcreate, WdfObjectCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfObjectCreate(
 
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Object [out]
+#### - Object [out]
 
 A pointer to a location that receives a handle to the new framework object.
 
@@ -104,13 +104,13 @@ For more information about the <b>WdfObjectCreate</b> method, see <a href="https
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
  
 

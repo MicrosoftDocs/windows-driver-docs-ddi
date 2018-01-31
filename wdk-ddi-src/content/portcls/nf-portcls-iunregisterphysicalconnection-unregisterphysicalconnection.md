@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e8b99549-0fe2-4c8a-ad93-6689ebddee40
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iunregisterphysicalconnection_unregisterphysicalconnection, IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, UnregisterPhysicalConnection method [Audio Devices], portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection
+ms.keywords: UnregisterPhysicalConnection method [Audio Devices], audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, IUnregisterPhysicalConnection, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, audio.iunregisterphysicalconnection_unregisterphysicalconnection, UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IUnregisterPhysicalConnection.UnregisterPhysicalConnection
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IUnregisterPhysicalConnection::UnregisterPhysicalConnection method
@@ -71,27 +71,27 @@ NTSTATUS UnregisterPhysicalConnection(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-### -param FromUnknown [in]
+#### - FromUnknown [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of a port driver object. The port driver object that is associated with <i>FromUnknown</i> is bound to the subdevice that supplies the connection's data source pin.
 
 
-### -param FromPin [in]
+#### - FromPin [in]
 
 Specifies a pin ID. This parameter identifies the data source (output) pin on the filter that is associated with the <i>FromUnknown</i> interface.
 
 
-### -param ToUnknown [in]
+#### - ToUnknown [in]
 
 Pointer to the <b>IPort</b> interface of a port driver object. The port driver object that is associated with <i>ToUnknown</i> is bound to the subdevice that supplies the connection's data sink pin.
 
 
-### -param ToPin [in]
+#### - ToPin [in]
 
 Specifies a pin ID. This parameter identifies the data sink (input) pin on the filter that is associated with the <i>ToUnknown</i> interface.
 
@@ -112,13 +112,13 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
-
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
+<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
 
  
 

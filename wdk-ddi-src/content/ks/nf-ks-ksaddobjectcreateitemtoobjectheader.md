@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9946e896-7f1a-4ff2-afa5-9e231047af11
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsAddObjectCreateItemToObjectHeader, KsAddObjectCreateItemToObjectHeader function [Streaming Media Devices], ksfunc_de112daa-c37a-4d5b-b646-5fc45fd8ae1c.xml, KsAddObjectCreateItemToObjectHeader, stream.ksaddobjectcreateitemtoobjectheader
+ms.keywords: ksfunc_de112daa-c37a-4d5b-b646-5fc45fd8ae1c.xml, ks/KsAddObjectCreateItemToObjectHeader, stream.ksaddobjectcreateitemtoobjectheader, KsAddObjectCreateItemToObjectHeader, KsAddObjectCreateItemToObjectHeader function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS KsAddObjectCreateItemToObjectHeader(
 
 
 
-### -param Header [in]
+#### - Header [in]
 
 Points to the object header that contains the previously allocated child- create table.
 
 
-### -param Create [in]
+#### - Create [in]
 
 Specifies the create dispatch function to use.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Specifies the context parameter.
 
 
-### -param ObjectClass [in]
+#### - ObjectClass [in]
 
 Specifies a pointer to a <b>NULL</b>-terminated character string that is used for comparison on create requests. This pointer must remain valid while the object is active.
 
 
-### -param SecurityDescriptor [in, optional]
+#### - SecurityDescriptor [in, optional]
 
 Specifies the security descriptor. This must remain valid while the object is active.
 

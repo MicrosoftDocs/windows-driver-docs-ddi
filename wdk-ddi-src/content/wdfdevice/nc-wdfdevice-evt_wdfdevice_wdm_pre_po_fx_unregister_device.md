@@ -76,12 +76,12 @@ void EvtDeviceWdmPrePoFxUnregisterDevice(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PoHandle [in]
+#### - PoHandle [in]
 
 A handle that represents the device’s registration with the power framework.
 

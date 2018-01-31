@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EBD9D4CA-E032-4BB3-A802-D2D7A39E9A42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SYS_CAPS_INFO, wwan/WWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_SYS_CAPS_INFO, wwan/PWWAN_SYS_CAPS_INFO, netvista.wwan_sys_caps, _WWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/PWWAN_SYS_CAPS_INFO, *PWWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO, netvista.wwan_sys_caps, PWWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SYS_CAPS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SYS_CAPS_INFO
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SYS_CAPS_INFO, *PWWAN_SYS_CAPS_INFO
+req.typenames: "*PWWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,33 +71,33 @@ typedef struct WWAN_SYS_CAPS_INFO {
 
 
 
-### -field NumberOfExecutors
+#### - NumberOfExecutors
 
 Denotes the number of <i>executors</i> (MBB instances) that are supported by the modem in its current configuration.
 
 
-### -field NumberOfSlots
+#### - NumberOfSlots
 
 Denotes the number of slots that are physically present on the modem. Each slot reported must be capable of receiving a UICC card; the slots themselves can be a heterogeneous mix if needed - mini SIM, micro SIM, nano SIM, or any standard as defined by ETSI. The number of slots <b>must</b> be at least equal to or greater than the number of executors supported. The "greater than" provision allows for the use of non-telephony UICC cards (such as for security, NFC, etc.).
 
 
-### -field Concurrency
+#### - Concurrency
 
 Denotes the number of executors that may be active at the same time, where 1 ≤ Concurrency ≤ NumberOfExecutors. For example, a dual-standby modem would have a <b>Concurrency</b> of 1 while a dual-active modem would have a <b>Concurrency</b> of 2.
 
 
-### -field ModemID
+#### - ModemID
 
 A unique 64-bit number that identifies the modem. This is required to distinguish one modem from others if there is more than one modem present in a device. The modem ID should be constant across reboots or device removal and insertion.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sys_caps_info.md">NDIS_WWAN_SYS_CAPS_INFO</a>
 
 <a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
+
+<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
 
  
 

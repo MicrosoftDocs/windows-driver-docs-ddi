@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ac26d5cb-b342-42ec-ad76-23cefe509566
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ifsk.fsrtlnotifyuninitializesync, FsRtlNotifyUninitializeSync, ntifs/FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers]
+ms.keywords: ifsk.fsrtlnotifyuninitializesync, ntifs/FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers], fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, FsRtlNotifyUninitializeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID FsRtlNotifyUninitializeSync(
 
 
 
-### -param NotifySync [in]
+#### - NotifySync [in]
 
 A pointer to a location that contains a pointer to the opaque synchronization object.
 

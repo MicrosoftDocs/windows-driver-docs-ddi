@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cc348bc8-137a-4abd-9f0e-4c5fb521428f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/PIO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], ntddscsi/IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], _IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, PIO_SCSI_CAPABILITIES, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml, *PIO_SCSI_CAPABILITIES
+ms.keywords: PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], _IO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml, IO_SCSI_CAPABILITIES, ntddscsi/IO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, *PIO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], ntddscsi/PIO_SCSI_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _IO_SCSI_CAPABILITIES {
 
 
 
-### -field Length
+#### - Length
 
 Contains the length in bytes of this structure. 
 
 
-### -field MaximumTransferLength
+#### - MaximumTransferLength
 
 Contains the maximum size, in bytes, of a single SCSI request block (SRB). 
 
 
-### -field MaximumPhysicalPages
+#### - MaximumPhysicalPages
 
 Contains the maximum number of physical pages per data buffer. 
 
 
-### -field SupportedAsynchronousEvents
+#### - SupportedAsynchronousEvents
 
 When <b>TRUE</b>, indicates that the host adapter supports SCSI asynchronous receive-event operations. 
 
 
-### -field AlignmentMask
+#### - AlignmentMask
 
 Contains the alignment mask for data transfers. The host adapter requires that data to be transferred must be aligned on an address that is an integer multiple of the value in this field. 
 
 
-### -field TaggedQueuing
+#### - TaggedQueuing
 
 When <b>TRUE</b>, indicates that the host adapter supports tagged queuing.
 
 
-### -field AdapterScansDown
+#### - AdapterScansDown
 
 When <b>TRUE</b>, indicates that the host adapter scans down for BIOS devices. 
 
 
-### -field AdapterUsesPio
+#### - AdapterUsesPio
 
 When <b>TRUE</b>, indicates that the host adapter uses programmed I/O. 
 

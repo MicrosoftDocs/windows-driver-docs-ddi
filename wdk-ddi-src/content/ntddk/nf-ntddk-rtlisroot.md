@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 74b3894e-972f-430b-bb8f-20fa46bf8b7d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsRoot routine [Installable File System Drivers], RtlIsRoot, ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml, ifsk.rtlisroot
+ms.keywords: ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml, ifsk.rtlisroot, RtlIsRoot routine [Installable File System Drivers], RtlIsRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -67,7 +67,7 @@ BOOLEAN RtlIsRoot(
 
 
 
-### -param Links [in]
+#### - Links [in]
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
@@ -83,11 +83,11 @@ Callers of <b>RtlIsRoot</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
 <a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
 
 <a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
  
 

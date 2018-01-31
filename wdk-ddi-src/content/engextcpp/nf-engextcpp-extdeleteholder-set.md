@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtBuffer, ExtCheckedPointer::Set, ExtRemoteTyped class [Windows Debugging], Set method, Set method [Windows Debugging], ExtRemoteTyped class, Set method [Windows Debugging], ExtDeleteHolder, debugger.extremotetyped_set_bool, ExtCheckedPointer, ExtBuffer::Set, ExtDeleteHolder::Set, Set
+ms.keywords: ExtBuffer::Set, ExtCheckedPointer::Set, Set, ExtDeleteHolder, ExtRemoteTyped class [Windows Debugging], Set method, ExtDeleteHolder::Set, debugger.extremotetyped_set_bool, Set method [Windows Debugging], ExtRemoteTyped class, ExtBuffer, Set method [Windows Debugging], ExtCheckedPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.Set
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtDeleteHolder::Set method
@@ -105,17 +105,17 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544384">ExtRemoteTyped::SetPrint</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR, ULONG64, bool)</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR, ULONG64)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544384">ExtRemoteTyped::SetPrint</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR)</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR, ULONG64, bool)</a>
 
  
 

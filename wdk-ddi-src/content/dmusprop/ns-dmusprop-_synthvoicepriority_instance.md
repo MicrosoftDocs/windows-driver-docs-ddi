@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: dc9acd16-c515-4e47-9a0b-9dec46e30f74
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, audio.synthvoicepriority_instance, *PSYNTHVOICEPRIORITY_INSTANCE, dmusprop/SYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], PSYNTHVOICEPRIORITY_INSTANCE, _SYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices]
+ms.keywords: PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], _SYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices], PSYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, SYNTHVOICEPRIORITY_INSTANCE, dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, audio.synthvoicepriority_instance, dmusprop/SYNTHVOICEPRIORITY_INSTANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYNTHVOICEPRIORITY_INSTANCE
 product: Windows
 targetos: Windows
-req.typenames: SYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE
+req.typenames: "*PSYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE"
 ---
 
 # _SYNTHVOICEPRIORITY_INSTANCE structure
@@ -68,12 +68,12 @@ typedef struct _SYNTHVOICEPRIORITY_INSTANCE {
 
 
 
-### -field ChannelGroup
+#### - ChannelGroup
 
 Specifies the channel group that the voice belongs to. Channel groups are numbered beginning at zero. Each channel group contains 16 channels.
 
 
-### -field Channel
+#### - Channel
 
 Specifies the channel that the voice is on. This member contains a channel number in the range 0 through 15. It identifies a channel in the channel group.
 

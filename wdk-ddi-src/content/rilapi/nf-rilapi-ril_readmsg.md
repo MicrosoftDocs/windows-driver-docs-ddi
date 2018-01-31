@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a38c089b-a5f4-4fd2-ab94-ead53228c5e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_ReadMsg, RIL_ReadMsg, netvista.ril_readmsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_readmsg, rilapi/RIL_ReadMsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista], RIL_ReadMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_ReadMsg(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param hUiccApp
+#### - hUiccApp
 
 
 
-### -param dwIndex
+#### - dwIndex
 
 
 

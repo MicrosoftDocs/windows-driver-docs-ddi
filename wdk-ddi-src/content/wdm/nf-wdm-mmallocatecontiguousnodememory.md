@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08960797-4846-46D4-8DD9-3A935EAD7D48
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, MmAllocateContiguousNodeMemory
+ms.keywords: MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], wdm/MmAllocateContiguousNodeMemory, kernel.mmallocatecontiguousnodememory, MmAllocateContiguousNodeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ PVOID MmAllocateContiguousNodeMemory(
 
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 The size, in bytes, of the block of contiguous memory to allocate. For more information, see Remarks.
 
 
-### -param LowestAcceptableAddress [in]
+#### - LowestAcceptableAddress [in]
 
 The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device  should set <i>LowestAcceptableAddress</i> to 0x0000000000800000.
 
 
-### -param HighestAcceptableAddress [in]
+#### - HighestAcceptableAddress [in]
 
 The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set <i>HighestAcceptableAddress</i> to 0x0000000000FFFFFF.
 
 
-### -param BoundaryAddressMultiple [in, optional]
+#### - BoundaryAddressMultiple [in, optional]
 
 The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions. For more information, see Remarks.
 
 
-### -param Protect [in]
+#### - Protect [in]
 
 Flag bits that specify the protection to use for the allocated memory. The caller must set one (but not both) of the following flag bits in the <i>Protect</i> parameter.
 <table>
@@ -130,7 +130,7 @@ In addition, the caller can set one (but not both) of the following optional fla
 If neither PAGE_NOCACHE nor PAGE_WRITECOMBINE is specified, the allocated memory is fully cached. In this case, the effect is similar to calling <b>MmAllocateContiguousMemorySpecifyCache</b> with <i>CacheType</i> set to <b>MmCached</b>.
 
 
-### -param PreferredNode [in]
+#### - PreferredNode [in]
 
 The preferred node number. If a multiprocessor system contains N nodes, the nodes are numbered from 0 to N-1. If the caller sets <i>PreferredNode</i> to MM_ANY_NODE_OK, the routine chooses which node to allocate memory from. Otherwise, if memory in the specified address range cannot be allocated from the preferred node, the routine returns <b>NULL</b>.
 
@@ -165,13 +165,13 @@ If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter,
 
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a>
+
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
 
  
 

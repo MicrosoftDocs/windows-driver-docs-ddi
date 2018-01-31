@@ -71,7 +71,7 @@ VOID StrMiniInterrupt(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the minidriver's device extension.
 

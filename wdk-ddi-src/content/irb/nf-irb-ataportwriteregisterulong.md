@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62abbee8-cd62-4106-9a7e-c93bfc916769
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportwriteregisterulong, AtaPortWriteRegisterUlong, atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml, AtaPortWriteRegisterUlong routine [Storage Devices], irb/AtaPortWriteRegisterUlong
+ms.keywords: AtaPortWriteRegisterUlong, storage.ataportwriteregisterulong, AtaPortWriteRegisterUlong routine [Storage Devices], irb/AtaPortWriteRegisterUlong, atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID AtaPortWriteRegisterUlong(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the destination register. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the value to write to the register for the HBA.
 
@@ -92,9 +92,9 @@ None
 
 <a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
 
-<a href="..\irb\nf-irb-ataportwriteregisterushort.md">AtaPortWriteRegisterUshort</a>
-
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+<a href="..\irb\nf-irb-ataportwriteregisterushort.md">AtaPortWriteRegisterUshort</a>
 
  
 

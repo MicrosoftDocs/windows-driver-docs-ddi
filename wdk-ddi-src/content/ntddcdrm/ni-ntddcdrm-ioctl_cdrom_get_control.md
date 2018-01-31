@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_CONTROL IOCTL

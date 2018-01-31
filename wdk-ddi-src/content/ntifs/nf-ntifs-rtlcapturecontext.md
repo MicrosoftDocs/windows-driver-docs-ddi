@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3edd10c-ea4f-4e2d-96f2-3d1cb3804512
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], ntifs/RtlCaptureContext, ifsk.rtlcapturecontext, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml
+ms.keywords: rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml, RtlCaptureContext function [Installable File System Drivers], ntifs/RtlCaptureContext, ifsk.rtlcapturecontext, RtlCaptureContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID RtlCaptureContext(
 
 
 
-### -param ContextRecord [out]
+#### - ContextRecord [out]
 
 A pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> structure.
 

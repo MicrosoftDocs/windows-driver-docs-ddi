@@ -76,38 +76,39 @@ HRESULT APIENTRY CALLBACK * pfnShaderCacheGetValueCb(
 
 
 
-### -param hRTDevice
+#### - hRTDevice
 
 The handle of the device for the driver to use when it calls back into the runtime.
 
 
-### -param hRTPSO
+#### - hRTPSO
 
 The handle of a PSO.
 
 
-### -param *pPrecomputedHash
+#### - *pPrecomputedHash [in]
+
+A hash value.
 
 
+#### - *pKey [in]
 
-### -param *pKey
+A pointer to a key.
 
 
-
-### -param KeyLen
+#### - KeyLen
 
 The length of the key.
 
 
-### -param *pValue
+#### - *pValue [out, optional]
+
+A pointer to an output value. 
 
 
+#### - *pValueLen [in, out]
 
-### -param *pValueLen
-
-
-
-
+The length of the output value.
 
 
 #### - pPrecomputedHash [in]

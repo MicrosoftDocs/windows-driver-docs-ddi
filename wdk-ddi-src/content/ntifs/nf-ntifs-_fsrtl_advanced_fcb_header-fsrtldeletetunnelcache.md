@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bda13dc9-a9cc-4946-aadb-b073e5df787a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, FsRtlDeleteTunnelCache, FsRtlDeleteTunnelCache routine [Installable File System Drivers], ntifs/FsRtlDeleteTunnelCache, ifsk.fsrtldeletetunnelcache
+ms.keywords: FsRtlDeleteTunnelCache routine [Installable File System Drivers], fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, ifsk.fsrtldeletetunnelcache, ntifs/FsRtlDeleteTunnelCache, FsRtlDeleteTunnelCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID FsRtlDeleteTunnelCache(
 
 
 
-### -param Cache [in]
+#### - Cache [in]
 
 Pointer to the tunnel cache structure to delete. The tunnel cache must have been initialized by calling <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>.
 

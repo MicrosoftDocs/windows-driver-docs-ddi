@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a9659f77-e84b-471a-a778-a4628d89ce19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PSPLCLIENT_INFO_1 structure pointer [Print Devices], poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, winsplp/SPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1 structure pointer [Print Devices], LPSPLCLIENT_INFO_1, _SPLCLIENT_INFO_1, SPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1, winsplp/LPSPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], print.splclient_info_1, winsplp/PSPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1
+ms.keywords: PSPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], SPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1, winsplp/LPSPLCLIENT_INFO_1, print.splclient_info_1, winsplp/SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, _SPLCLIENT_INFO_1, winsplp/PSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1 structure pointer [Print Devices], LPSPLCLIENT_INFO_1 structure pointer [Print Devices], poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SPLCLIENT_INFO_1
 product: Windows
 targetos: Windows
-req.typenames: SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1
+req.typenames: "*PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, SPLCLIENT_INFO_1"
 req.product: Windows 10 or later.
 ---
 
@@ -74,37 +74,37 @@ typedef struct _SPLCLIENT_INFO_1 {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Size of the SPLCLIENT_INFO_1 structure.
 
 
-### -field pMachineName
+#### - pMachineName
 
 Not used.
 
 
-### -field pUserName
+#### - pUserName
 
 Not used.
 
 
-### -field dwBuildNum
+#### - dwBuildNum
 
 The build number of the version of the NT-based operating system running on the client, as returned by the Microsoft Window SDK <b>GetVersionEx</b> function.
 
 
-### -field dwMajorVersion
+#### - dwMajorVersion
 
 The major version number of the NT-based operating system print spooler running on the client.
 
 
-### -field dwMinorVersion
+#### - dwMinorVersion
 
 The minor version number of the NT-based operating system print spooler running on the client.
 
 
-### -field wProcessorArchitecture
+#### - wProcessorArchitecture
 
 The client's processor architecture, as returned by the Window SDK <b>GetSystemInfo</b> function.
 

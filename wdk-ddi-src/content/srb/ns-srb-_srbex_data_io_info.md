@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D4B99D6F-0A0C-49CE-A8E2-19C1A835EDA6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, _SRBEX_DATA_IO_INFO, storage.srbex_data_io_info, REQUEST_INFO_TEMPORARY_FLAG, storport/PSRBEX_DATA_IO_INFO, storport/SRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, REQUEST_INFO_PAGING_IO_FLAG, SRBEX_DATA_IO_INFO structure [Storage Devices], REQUEST_INFO_WRITE_THROUGH_FLAG, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], *PSRBEX_DATA_IO_INFO
+ms.keywords: REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, PSRBEX_DATA_IO_INFO, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, storport/SRBEX_DATA_IO_INFO, REQUEST_INFO_WRITE_THROUGH_FLAG, SRBEX_DATA_IO_INFO, _SRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices], REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, storage.srbex_data_io_info, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], REQUEST_INFO_NO_CACHE_FLAG, *PSRBEX_DATA_IO_INFO, storport/PSRBEX_DATA_IO_INFO, REQUEST_INFO_PAGING_IO_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_IO_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO"
+req.typenames: SRBEX_DATA_IO_INFO, *PSRBEX_DATA_IO_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -76,17 +76,17 @@ typedef struct _SRBEX_DATA_IO_INFO {
 
 
 
-### -field Type
+#### - Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypeIoInfo</b>.
 
 
-### -field Length
+#### - Length
 
 Length of the data in this structure, in bytes, starting with the <b>Flags</b> member. Set to SRBEX_DATA_IO_INFO_LENGTH.
 
 
-### -field Flags
+#### - Flags
 
 Flags set for handling the request. May be a combination of these values:
 <table>
@@ -171,34 +171,34 @@ This flag is available starting with Windows 8.1 Update.
 </table> 
 
 
-### -field Key
+#### - Key
 
 A tag value to identify a block of data transferred.
 
 
-### -field RWLength
+#### - RWLength
 
 The length, in bytes of the data to transfer.
 
 
-### -field IsWriteRequest
+#### - IsWriteRequest
 
 TRUE if the I/O operation in the SRB is a write request. Otherwise, FALSE; the I/O operation is a read request.
 
 
-### -field CachePriority
+#### - CachePriority
 
 Priority level for a hybrid cache read or write.
 
 This member is valid starting with Windows 8.1 Update.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved. Set to 0.
 
 
-### -field Reserved1
+#### - Reserved1
 
 This member is reserved. Set to 0.
 
@@ -207,7 +207,7 @@ This member is present starting with Windows 8.1 Update.
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
  
 

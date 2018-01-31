@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3981ab65-2d21-4188-88dc-04eb7aff0869
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltQueryEaFile, FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, FltQueryEaFile function [Installable File System Drivers], ifsk.fltqueryeafile, FltQueryEaFile
+ms.keywords: fltkernel/FltQueryEaFile, FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers], ifsk.fltqueryeafile, FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,52 +76,52 @@ NTSTATUS FltQueryEaFile(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the minifilter driver instance that the <i>QueryEa</i> operation is to be sent to. The instance must be attached to the volume where the file resides. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 File object pointer for the file. 
 
 
-### -param ReturnedEaData [out]
+#### - ReturnedEaData [out]
 
 Pointer to a caller-supplied <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured input buffer where the extended attribute values are to be returned. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length, in bytes, of the buffer that the <i>ReturnedEaData</i> parameter points to. 
 
 
-### -param ReturnSingleEntry [in]
+#### - ReturnSingleEntry [in]
 
 Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should return only the first entry that is found. 
 
 
-### -param EaList [in, optional]
+#### - EaList [in, optional]
 
 Pointer to a caller-supplied <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>-structured input buffer specifying the extended attributes to be queried. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param EaListLength [in]
+#### - EaListLength [in]
 
 Length, in bytes, of the buffer that the <i>EaList</i> parameter points to. 
 
 
-### -param EaIndex [in, optional]
+#### - EaIndex [in, optional]
 
 Index of the entry at which to begin scanning the file's extended-attribute list. This parameter is ignored if the <i>EaList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param RestartScan [in]
+#### - RestartScan [in]
 
 Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should begin the scan at the first entry in the file's extended-attribute list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryEaFile</b>. 
 
 
-### -param LengthReturned [out, optional]
+#### - LengthReturned [out, optional]
 
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>ReturnedEaData</i> buffer. This parameter is optional and can be <b>NULL</b>. 
 
@@ -174,13 +174,13 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
  
 

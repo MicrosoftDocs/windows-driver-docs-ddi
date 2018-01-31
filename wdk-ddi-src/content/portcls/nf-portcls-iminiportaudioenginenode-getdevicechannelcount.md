@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 978193AE-55CD-4255-8722-A1E008E98F08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelCount method, IMiniportAudioEngineNode::GetDeviceChannelCount, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getdevicechannelcount, IMiniportAudioEngineNode, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount
+ms.keywords: audio.iminiportaudioenginenode_getdevicechannelcount, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelCount method, IMiniportAudioEngineNode::GetDeviceChannelCount, IMiniportAudioEngineNode, GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.GetDeviceChannelCount
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::GetDeviceChannelCount method
@@ -69,17 +69,17 @@ NTSTATUS GetDeviceChannelCount(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID of the node that represents the audio device.
 
 
-### -param targetType [in]
+#### - targetType [in]
 
 An <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a> enumerated value that specifies the types of target nodes in the channels. For example, there could be Volume, Mute or PeakMeter nodes.
 
 
-### -param pulChannelCount [out]
+#### - pulChannelCount [out]
 
 The number of channels supported by the audio device.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f3de5514-9a7f-4e27-9be0-4aec4b84a5a7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintPipelinePropertyBag::DeleteProperty, filterpipeline_816db2e4-811c-467f-a7c3-65d2e35c0107.xml, IPrintPipelinePropertyBag interface [Print Devices], DeleteProperty method, print.iprintpipelinepropertybag_deleteproperty, DeleteProperty method [Print Devices], DeleteProperty method [Print Devices], IPrintPipelinePropertyBag interface, DeleteProperty, IPrintPipelinePropertyBag, filterpipeline/IPrintPipelinePropertyBag::DeleteProperty
+ms.keywords: print.iprintpipelinepropertybag_deleteproperty, DeleteProperty method [Print Devices], IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag::DeleteProperty, DeleteProperty method [Print Devices], IPrintPipelinePropertyBag, DeleteProperty, IPrintPipelinePropertyBag interface [Print Devices], DeleteProperty method, filterpipeline/IPrintPipelinePropertyBag::DeleteProperty, filterpipeline_816db2e4-811c-467f-a7c3-65d2e35c0107.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ BOOL DeleteProperty(
 
 
 
-### -param pszName [in]
+#### - pszName [in]
 
 The name of the property to delete from the property bag.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 418E66FA-BECD-4F9F-B28C-962995C637B9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT, _FSCTL_OFFLOAD_READ_OUTPUT, *PFSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, ifsk.fsctl_offload_read_output, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], FSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT
+ms.keywords: OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, PFSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], OFFLOAD_READ_FLAG_FILE_TOO_SMALL, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, FSCTL_OFFLOAD_READ_OUTPUT, ifsk.fsctl_offload_read_output, _FSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], ntifs/FSCTL_OFFLOAD_READ_OUTPUT, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT, *PFSCTL_OFFLOAD_READ_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _FSCTL_OFFLOAD_READ_OUTPUT {
 
 
 
-### -field Size
+#### - Size
 
 The size of this structure. Set this member to <b>sizeof</b>(FSCTL_OFFLOAD_READ_OUTPUT).
 
 
-### -field Flags
+#### - Flags
 
  Result flags. This value is a bitwise <b>OR</b> combination of these values:
 <table>
@@ -119,12 +119,12 @@ The offload operation cannot complete beyond the selected range. An non-offloade
 </table> 
 
 
-### -field TransferLength
+#### - TransferLength
 
 The length, in bytes, of data represented by <b>Token</b>.
 
 
-### -field Token
+#### - Token
 
 A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>, representing a file data within a range specified in <a href="..\ntifs\ns-ntifs-_fsctl_offload_read_input.md">FSCTL_OFFLOAD_READ_INPUT</a>. The contents of <b>Token</b>  must remain unmodified between offload operations.
 
@@ -144,11 +144,11 @@ The  copy provider retains the data read for the duration in the <b>TokenTimeToL
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsctl_offload_read_input.md">FSCTL_OFFLOAD_READ_INPUT</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
+
+<a href="..\ntifs\ns-ntifs-_fsctl_offload_read_input.md">FSCTL_OFFLOAD_READ_INPUT</a>
 
  
 

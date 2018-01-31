@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetVersion method [Audio Devices], IPortClsVersion interface, IPortClsVersion::GetVersion, GetVersion method [Audio Devices], audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, GetVersion, audio.iportclsversion_getversion, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion, portcls/IPortClsVersion::GetVersion
+ms.keywords: GetVersion, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, GetVersion method [Audio Devices], IPortClsVersion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion, GetVersion method [Audio Devices], IPortClsVersion interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsVersion.GetVersion
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsVersion::GetVersion method
@@ -310,9 +310,9 @@ The version numbers in the preceding table are listed in roughly chronological o
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
-
 <a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
+
+<a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
 
  
 

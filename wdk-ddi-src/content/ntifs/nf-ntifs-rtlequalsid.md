@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4976fc27-c28a-46ec-ac07-19505cda8f14
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], ifsk.rtlequalsid, rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml, RtlEqualSid
+ms.keywords: rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml, ntifs/RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], ifsk.rtlequalsid, RtlEqualSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN RtlEqualSid(
 
 
 
-### -param Sid1 [in]
+#### - Sid1 [in]
 
 Pointer to the first SID structure to compare. Must point to a valid SID. 
 
 
-### -param Sid2 [in]
+#### - Sid2 [in]
 
 Pointer to the second SID structure to compare. Must point to a valid SID. 
 

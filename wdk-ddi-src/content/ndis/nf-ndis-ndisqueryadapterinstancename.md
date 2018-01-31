@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd6fade6-9b9b-4b38-8e53-c70c40c1165f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisQueryAdapterInstanceName, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndisqueryadapterinstancename, ndis/NdisQueryAdapterInstanceName, protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml
+ms.keywords: NdisQueryAdapterInstanceName, netvista.ndisqueryadapterinstancename, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml, ndis/NdisQueryAdapterInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NDIS_STATUS NdisQueryAdapterInstanceName(
 TBD
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 A handle that identifies the binding to the target physical NIC or virtual adapter of the
      next-lower driver to which the caller is bound. Typically, 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1f46926-8c2b-46ff-9adb-5332fba17e3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_CIP_HDR2_MPEGTS, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], *PCIP_HDR2_MPEGTS, stream.cip_hdr2_mpegts, avcstrm/CIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS, avcstrm/PCIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS structure [Streaming Media Devices]"
+ms.keywords: CIP_HDR2_MPEGTS structure [Streaming Media Devices], PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], PCIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, _CIP_HDR2_MPEGTS, avcstrm/CIP_HDR2_MPEGTS, stream.cip_hdr2_mpegts, avcstrm/PCIP_HDR2_MPEGTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _CIP_HDR2_MPEGTS {
 
 
 
-### -field TSF
+#### - TSF
 
 Time-shift flag. This is not used for opening a stream.
 
 
-### -field RSV23bit
+#### - RSV23bit
 
 Reserved bits. This must be 0. Do not use this.
 
 
-### -field FMT
+#### - FMT
 
 CIP format. For example, 000000 = DV and 100000 = MPEGTS.
 
 
-### -field Bit10
+#### - Bit10
 
 Must be set to 1:0
 

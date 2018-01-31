@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3AF74BA9-168C-4EB0-B219-CC6BA58E1BCD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 enumeration [Display Devices], display.d3d12ddi_video_decode_support_flags, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 enumeration [Display Devices], display.d3d12ddi_video_decode_support_flags, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 {
 
 
 
-### -field D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE
+#### - D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE
 
 No Flags set.
 
 
-### -field D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED
+#### - D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED
 
 Indicates if real-time decoding is supported with the specified input data.  The presence of this flag is a hint that the decoder is capable of decoding the compressed bitstream fast enough to support realtime decoding.  The absence of this flag indicates that the decoder with the specified input parameters is only appropriate for non-realtime scenarios like transcoding.  
 

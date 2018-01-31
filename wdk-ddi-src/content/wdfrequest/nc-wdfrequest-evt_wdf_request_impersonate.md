@@ -40,7 +40,7 @@ apiname:
 -	EvtRequestImpersonate
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ void EvtRequestImpersonate(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that represents the I/O request that requires impersonation.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 A pointer to a context that was previously supplied in the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestimpersonate.md">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required. 
 

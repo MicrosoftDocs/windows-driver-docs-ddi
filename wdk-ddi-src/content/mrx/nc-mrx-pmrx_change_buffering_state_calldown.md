@@ -40,7 +40,7 @@ apiname:
 -	MRxCompleteBufferingStateChangeRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
+req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback
@@ -72,17 +72,17 @@ NTSTATUS MRxCompleteBufferingStateChangeRequest(
 
 
 
-### -param RxContext [in, out]
+#### - RxContext [in, out]
 
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
 
-### -param SrvOpen [in, out]
+#### - SrvOpen [in, out]
 
 A pointer to a context parameter for use by the network mini-redirector callback routine.
 
 
-### -param MRxContext [in]
+#### - MRxContext [in]
 
 A pointer to the SRV_OPEN structure and the associated FCB structure to be changed.
 

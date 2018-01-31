@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06be6c3b-cc1a-4e57-8700-03357215d624
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: XSTATE_MASK_GSSE, KeSaveExtendedProcessorState, XSTATE_MASK_LEGACY_FLOATING_POINT, kernel.kesaveextendedprocessorstate, wdm/KeSaveExtendedProcessorState, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml
+ms.keywords: wdm/KeSaveExtendedProcessorState, XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, kernel.kesaveextendedprocessorstate, KeSaveExtendedProcessorState, XSTATE_MASK_GSSE, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS KeSaveExtendedProcessorState(
 
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 A 64-bit feature mask. The bits in this mask identify the extended processor feature states to save. If a mask bit is one, the routine saves the state of the feature that is identified by this bit. If a mask bit is zero, the state for the corresponding feature is not saved. This mask must not identify extended processor features that the operating system has not enabled. To obtain a mask of the enabled features, call the <a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a> routine.
 
@@ -122,7 +122,7 @@ The Intel Sandy Bridge (formerly Gesher) SSE extension.
 </table> 
 
 
-### -param XStateSave [out]
+#### - XStateSave [out]
 
 A pointer to a caller-allocated buffer into which the routine writes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a> structure. This structure contains the saved state information for the extended processor features indicated by the <i>Mask</i> parameter. The buffer must be large enough to contain this structure.
 
@@ -170,15 +170,15 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
-
-<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
 
 <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
 
-<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
+<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+
+<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
 
  
 

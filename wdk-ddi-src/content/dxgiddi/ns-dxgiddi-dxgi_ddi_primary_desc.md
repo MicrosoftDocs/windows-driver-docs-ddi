@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb6db822-c6d3-43d0-91af-49d19189ed83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_PRIMARY_DESC, UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, DXGI_DDI_PRIMARY_DESC structure [Display Devices], display.dxgi_ddi_primary_desc, dxgiddi/DXGI_DDI_PRIMARY_DESC
+ms.keywords: DXGI_DDI_PRIMARY_DESC, UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, DXGI_DDI_PRIMARY_DESC structure [Display Devices], dxgiddi/DXGI_DDI_PRIMARY_DESC, display.dxgi_ddi_primary_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct DXGI_DDI_PRIMARY_DESC {
 
 
 
-### -field Flags
+#### - Flags
 
 [in] A valid bitwise OR of any of the following values that indicates how the resource is displayed. 
 <table>
@@ -115,17 +115,17 @@ The primary represents a stereo back buffer.
 </table> 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the primary surface is created on. 
 
 
-### -field ModeDesc
+#### - ModeDesc
 
 [in] A <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a> structure that describes the display mode. 
 
 
-### -field DriverFlags
+#### - DriverFlags
 
 [out] A valid bitwise OR of values that indicate how the driver can display the resource. 
 
@@ -134,9 +134,9 @@ The DXGI_DDI_PRIMARY_DRIVER_FLAG_NO_SCANOUT (0x1) value is currently the only su
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
  
 

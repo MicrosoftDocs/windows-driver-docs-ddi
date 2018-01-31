@@ -68,12 +68,12 @@ This callback allows the kernel mode driver to indicate that the current multipl
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 Indicates the adapter on which the current multiplane overlay hardware configuration is no longer supported.
 
 
-### -param VidPnSourceId [in]
+#### - VidPnSourceId [in]
 
 Indicates the VidPnSourceId on which the current multiplane overlay hardware configuration is no longer supported.
 

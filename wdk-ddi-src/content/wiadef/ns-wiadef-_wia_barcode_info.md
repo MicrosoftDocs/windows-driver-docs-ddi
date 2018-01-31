@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2E659DDC-4012-4EA2-8E6C-033F2AB526B8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiadef/WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], _WIA_BARCODE_INFO, image.wia_barcode_info, WIA_BARCODE_INFO
+ms.keywords: WIA_BARCODE_INFO structure [Imaging Devices], WIA_BARCODE_INFO, wiadef/WIA_BARCODE_INFO, image.wia_barcode_info, _WIA_BARCODE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,22 +76,22 @@ typedef struct _WIA_BARCODE_INFO {
 
 
 
-### -field Size
+#### - Size
 
 The total size of this structure, in bytes.
 
 
-### -field Type
+#### - Type
 
 The barcode type. One of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706268">WIA_IPS_SUPPORTED_BARCODE_TYPES</a> values.
 
 
-### -field Page
+#### - Page
 
 The page number where the barcode was detected. A zero-based index referring to the current scan job.
 
 
-### -field Confidence
+#### - Confidence
 
 The confidence level. A value in the range from 0 (no confidence) to 10 (maximum confidence).
 
@@ -106,17 +106,17 @@ The confidence level. A value in the range from 0 (no confidence) to 10 (maximum
  
 
 
-### -field Rotation
+#### - Rotation
 
 The rotation of the barcode, in degrees. A value in the rage from 0 to 359. This value can be 0 if it is unknown.
 
 
-### -field Length
+#### - Length
 
 The number of text characters in the character string containing the decoded barcode text, excluding the length of the NULL terminator.
 
 
-### -field Text
+#### - Text
 
 Placeholder for the character string containing the decoded barcode text (double byte characters, NULL terminated).
 

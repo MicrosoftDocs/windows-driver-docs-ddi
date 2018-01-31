@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e690c596-d339-4489-97f3-02cacfdc5b04
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S structure pointer [Streaming Media Devices], stream.ksevent_tuner_initiate_scan_s, KSEVENT_TUNER_INITIATE_SCAN_S structure [Streaming Media Devices], ksmedia/PKSEVENT_TUNER_INITIATE_SCAN_S, vidcapstruct_569c5d77-3ec5-48ed-bf87-0c41297d8f9b.xml, ksmedia/KSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S
+ms.keywords: "*PKSEVENT_TUNER_INITIATE_SCAN_S, ksmedia/PKSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S, ksmedia/KSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S structure [Streaming Media Devices], vidcapstruct_569c5d77-3ec5-48ed-bf87-0c41297d8f9b.xml, KSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S structure pointer [Streaming Media Devices], stream.ksevent_tuner_initiate_scan_s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSEVENT_TUNER_INITIATE_SCAN_S
 product: Windows
 targetos: Windows
-req.typenames: KSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S
+req.typenames: "*PKSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S"
 ---
 
 # KSEVENT_TUNER_INITIATE_SCAN_S structure
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field EventData
+#### - EventData
 
 A structure of type <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> that specifies the standard event structure, which contains the event handle that the driver notifies about the scan operation. 
 
 
-### -field StartFrequency
+#### - StartFrequency
 
 The initial frequency, in Hz, for a scan operation. 
 
 
-### -field EndFrequency
+#### - EndFrequency
 
 The final frequency, in Hz, for a scan operation.  
 

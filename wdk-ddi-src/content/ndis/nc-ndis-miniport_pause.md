@@ -73,7 +73,7 @@ NDIS_STATUS MiniportPause(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
@@ -304,42 +304,42 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
-
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 <a href="..\ndis\nf-ndis-ndismpausecomplete.md">NdisMPauseComplete</a>
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<mshelp:link keywords="netvista.ndis_miniport_pause_parameters" tabindex="0"><b>
+   NDIS_MINIPORT_PAUSE_PARAMETERS</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
+   MiniportDevicePnPEventNotify</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
    MiniportReturnNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
+   NdisMSendNetBufferListsComplete</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-   MiniportDevicePnPEventNotify</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_pause_parameters" tabindex="0"><b>
-   NDIS_MINIPORT_PAUSE_PARAMETERS</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile
+ms.keywords: ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], FsRtlQueryKernelEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,51 +77,51 @@ NTSTATUS FsRtlQueryKernelEaFile(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a <b>FileObject</b> to send the QueryEA request to.
 
 
-### -param ReturnedEaData [out]
+#### - ReturnedEaData [out]
 
 A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured output buffer, where the extended attribute values are to be returned.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the length, in bytes, of <b>ReturnedEaData</b>
 
 
-### -param ReturnSingleEntry [in]
+#### - ReturnSingleEntry [in]
 
 Specifies whether only a single entry should be returned
         rather than filling the buffer with as many EAs as possible.
 
 
-### -param EaList [in]
+#### - EaList [in]
 
 A pointer to a caller-supplied <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>-structured input buffer, which specifies the extended attributes to be queried. This parameter is optional and can be<b> NULL</b>.
 
 
-### -param EaListLength [in]
+#### - EaListLength [in]
 
 Specifies the length of <b>EaList</b>, if an EA list was
         supplied.
 
 
-### -param EaIndex [in, optional]
+#### - EaIndex [in, optional]
 
 Supplies the optional index of an EA whose value is to be
         returned.  If specified, then only that EA is returned.
 
 
-### -param RestartScan [in]
+#### - RestartScan [in]
 
 Specifies whether the scan of the EAs should be restarted
         from the beginning.
 
 
-### -param LengthReturned [out, optional]
+#### - LengthReturned [out, optional]
 
 Specifies the amount of valid data that is returned in the
         <b>ReturnedEaData</b> buffer.
@@ -193,11 +193,11 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
 
 <a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
 
  
 

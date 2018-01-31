@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetLogicalUnit routine [Storage Devices], storport/StorPortGetLogicalUnit, storage.storportgetlogicalunit, StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml
+ms.keywords: storage.storportgetlogicalunit, StorPortGetLogicalUnit routine [Storage Devices], storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml, StorPortGetLogicalUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API PVOID StorPortGetLogicalUnit(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine is called. The port driver frees this memory when it removes the device. 
 
 
-### -param PathId [in]
+#### - PathId [in]
 
 Identifies the SCSI bus. 
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Identifies the target controller or device on the bus. 
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Identifies the logical unit (LU) number of the target device. 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3ceacb96-1c60-4310-b96f-6fb396c1d6ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltReadFile, ifsk.fltreadfile, FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers]
+ms.keywords: ifsk.fltreadfile, fltkernel/FltReadFile, FltReadFile function [Installable File System Drivers], FltReadFile, FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS FltReadFile(
 
 
 
-### -param InitiatingInstance [in]
+#### - InitiatingInstance [in]
 
 Opaque instance pointer for the minifilter driver instance that is initiating the read request. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the file that the data is to be read from. This file object must be currently open. Calling <b>FltReadFile</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param ByteOffset [in, optional]
+#### - ByteOffset [in, optional]
 
 Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the read operation is to begin. 
 
@@ -96,17 +96,17 @@ If the file object that <i>FileObject</i> points to was opened for synchronous I
 If the file object that <i>FileObject</i> points to was opened for asynchronous I/O, this parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a caller-allocated buffer that receives the data that is read from the file. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Bitmask of flags specifying the type of read operation to be performed. 
 <table>
@@ -160,17 +160,17 @@ This flag is available for Windows Vista and later versions of the Windows opera
 </table> 
 
 
-### -param BytesRead [out, optional]
+#### - BytesRead [out, optional]
 
 Pointer to a caller-allocated variable that receives the number of bytes read from the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>. 
 
 
-### -param CallbackRoutine [in, optional]
+#### - CallbackRoutine [in, optional]
 
 Pointer to a <a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param CallbackContext [in, optional]
+#### - CallbackContext [in, optional]
 
 Context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored. 
 
@@ -225,23 +225,23 @@ If multiple threads call <b>FltReadFile</b> for the same file object, and the fi
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
 
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
  
 

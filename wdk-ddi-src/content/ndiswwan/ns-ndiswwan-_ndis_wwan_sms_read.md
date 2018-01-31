@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c15c16f-773b-415d-80a1-fd0b3bcf6fbf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SMS_READ, netvista.ndis_wwan_sms_read, ndiswwan/NDIS_WWAN_SMS_READ, _NDIS_WWAN_SMS_READ, PNDIS_WWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7264d34b-78a0-4537-a386-bd77d210d7ae.xml, *PNDIS_WWAN_SMS_READ, PNDIS_WWAN_SMS_READ
+ms.keywords: NDIS_WWAN_SMS_READ, PNDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], WwanRef_7264d34b-78a0-4537-a386-bd77d210d7ae.xml, _NDIS_WWAN_SMS_READ, netvista.ndis_wwan_sms_read, ndiswwan/PNDIS_WWAN_SMS_READ, ndiswwan/NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ, PNDIS_WWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SMS_READ
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ
+req.typenames: "*PNDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ"
 ---
 
 # _NDIS_WWAN_SMS_READ structure
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_SMS_READ {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SMS_READ structure. The
      MB Service sets the header with the values that are shown in the following table when it sends the data
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field SmsRead
+#### - SmsRead
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a> object that represents the

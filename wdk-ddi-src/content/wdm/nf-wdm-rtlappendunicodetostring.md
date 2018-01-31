@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 688f033b-1f0e-4f0a-9ccd-457ba726d728
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlappendunicodetostring, RtlAppendUnicodeToString routine [Kernel-Mode Driver Architecture], RtlAppendUnicodeToString, wdm/RtlAppendUnicodeToString, k109_7bbe9676-db08-4bf2-b2d5-37b257621336.xml
+ms.keywords: RtlAppendUnicodeToString, kernel.rtlappendunicodetostring, RtlAppendUnicodeToString routine [Kernel-Mode Driver Architecture], wdm/RtlAppendUnicodeToString, k109_7bbe9676-db08-4bf2-b2d5-37b257621336.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS RtlAppendUnicodeToString(
 
 
 
-### -param Destination [in, out]
+#### - Destination [in, out]
 
 A pointer to the buffered string. 
 
 
-### -param Source [in, optional]
+#### - Source [in, optional]
 
 A pointer to the null-terminated string to append to the <i>Destination</i> string.
 

@@ -230,9 +230,9 @@ Attempting the simultaneous use of multiple textures and MIP mapped trilinear fi
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
 
  
 

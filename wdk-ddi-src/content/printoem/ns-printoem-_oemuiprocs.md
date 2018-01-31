@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POEMUIPROCS structure pointer [Print Devices], OEMUIPROCS structure [Print Devices], *POEMUIPROCS, print.oemuiprocs, OEMUIPROCS, printoem/OEMUIPROCS, _OEMUIPROCS, POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, printoem/POEMUIPROCS
+ms.keywords: print.oemuiprocs, POEMUIPROCS structure pointer [Print Devices], printoem/POEMUIPROCS, printoem/OEMUIPROCS, POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, OEMUIPROCS, *POEMUIPROCS, _OEMUIPROCS, OEMUIPROCS structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _OEMUIPROCS {
 
 
 
-### -field DrvGetDriverSetting
+#### - DrvGetDriverSetting
 
 Pointer to the printer driver's <b>DrvGetDriverSetting</b> function. (To obtain this function's address in kernel mode, see <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a>.)
 
 
-### -field DrvUpdateUISetting
+#### - DrvUpdateUISetting
 
 Pointer to the printer driver's <b>DrvUpdateUISetting</b> function.
 

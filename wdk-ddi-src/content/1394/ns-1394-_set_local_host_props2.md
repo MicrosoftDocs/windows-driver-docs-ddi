@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ec4b8630-500d-494a-9a86-2f9cf9f9227b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2, PSET_LOCAL_HOST_PROPS2 structure pointer [Buses], 1394stct_e2833905-04e9-4824-a437-4b9f724aaaa4.xml, _SET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2 structure [Buses], 1394/PSET_LOCAL_HOST_PROPS2, 1394/SET_LOCAL_HOST_PROPS2, IEEE.set_local_host_props2
+ms.keywords: "*PSET_LOCAL_HOST_PROPS2, 1394/PSET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2 structure [Buses], IEEE.set_local_host_props2, 1394/SET_LOCAL_HOST_PROPS2, 1394stct_e2833905-04e9-4824-a437-4b9f724aaaa4.xml, PSET_LOCAL_HOST_PROPS2 structure pointer [Buses], SET_LOCAL_HOST_PROPS2, _SET_LOCAL_HOST_PROPS2, PSET_LOCAL_HOST_PROPS2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SET_LOCAL_HOST_PROPS2 {
 
 
 
-### -field GapCountLowerBound
+#### - GapCountLowerBound
 
 Specifies lower bound of the gap count.
 

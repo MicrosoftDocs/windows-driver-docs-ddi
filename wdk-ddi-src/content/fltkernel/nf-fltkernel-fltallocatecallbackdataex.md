@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f03851a4-e1e9-4fee-b264-c2f91c6e8180
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAllocateCallbackDataEx routine [Installable File System Drivers], FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex, fltkernel/FltAllocateCallbackDataEx, FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml
+ms.keywords: FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex, FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml, FltAllocateCallbackDataEx routine [Installable File System Drivers], fltkernel/FltAllocateCallbackDataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS FltAllocateCallbackDataEx(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 An opaque instance pointer to the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param FileObject [in, optional]
+#### - FileObject [in, optional]
 
 A pointer to a file object to be used in the I/O operation. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A value of zero or the following flag:
 
@@ -90,7 +90,7 @@ A value of zero or the following flag:
 If this flag is set, the routine preallocates all the memory needed by the filter manager for additional structures to be used in an I/O request.
 
 
-### -param RetNewCallbackData [out]
+#### - RetNewCallbackData [out]
 
 A pointer to a caller-allocated variable that receives the address of the newly allocated callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure.
 

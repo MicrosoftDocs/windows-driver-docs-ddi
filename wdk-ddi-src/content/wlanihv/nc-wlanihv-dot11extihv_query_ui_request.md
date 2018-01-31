@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvQueryUIRequest
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ DWORD APIENTRY Dot11ExtIhvQueryUIRequest(
 
 
 
-### -param hIhvExtAdapter [in, optional]
+#### - hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -85,7 +85,7 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-### -param connectionPhase [in]
+#### - connectionPhase [in]
 
 The current connection phase. The data type for this member is the 
      <b>DOT11EXT_IHV_CONNECTION_PHASE</b> enumeration:
@@ -115,11 +115,12 @@ Specifies the connection phase after the IHV Extensions DLL completes a post-ass
        Operations</mshelp:link>.
 
 
-### -param *ppIhvUIRequest
+#### - *ppIhvUIRequest [out]
 
-
-
-
+The address of a pointer to a 
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.
+     The IHV Extensions DLL must allocate a buffer for the DOT11EXT_IHV_UI_REQUEST structure by calling 
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>.
 
 
 #### - ppIhvUIRequest [out]
@@ -174,13 +175,13 @@ For example, if
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, *PKSNODEPROPERTY, PKSNODEPROPERTY, ksmedia/KSNODEPROPERTY, audio.ksnodeproperty, KSNODEPROPERTY structure [Audio Devices], KSNODEPROPERTY, PKSNODEPROPERTY structure pointer [Audio Devices], ksmedia/PKSNODEPROPERTY
+ms.keywords: PKSNODEPROPERTY structure pointer [Audio Devices], ksmedia/KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], *PKSNODEPROPERTY, aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, KSNODEPROPERTY, ksmedia/PKSNODEPROPERTY, PKSNODEPROPERTY, audio.ksnodeproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSNODEPROPERTY
 product: Windows
 targetos: Windows
-req.typenames: KSNODEPROPERTY, *PKSNODEPROPERTY
+req.typenames: "*PKSNODEPROPERTY, KSNODEPROPERTY"
 ---
 
 # KSNODEPROPERTY structure
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies the property to get or set. This member is a structure of type <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
 
 
-### -field NodeId
+#### - NodeId
 
 Specifies the node ID. This member identifies the target node for the property request.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for internal use by operating system. Do not use.
 
@@ -95,9 +95,9 @@ See the discussion of the KSNODEPROPERTY structure in <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a9afbac3-9494-466c-b36b-26a5839913f1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpcidevice/UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize, buses.ucmtcpcideviceinitinitialize, UcmTcpciDeviceInitInitialize method [Buses]
+ms.keywords: UcmTcpciDeviceInitInitialize method [Buses], ucmtcpcidevice/UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize, buses.ucmtcpcideviceinitinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS UcmTcpciDeviceInitInitialize(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. 
 

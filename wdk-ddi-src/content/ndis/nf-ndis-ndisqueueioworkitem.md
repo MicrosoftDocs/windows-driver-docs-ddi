@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5065217-a74e-41b6-bc23-59b39948a450
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisqueueioworkitem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista], NdisQueueIoWorkItem, ndis/NdisQueueIoWorkItem
+ms.keywords: ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, netvista.ndisqueueioworkitem, NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisQueueIoWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ VOID NdisQueueIoWorkItem(
 
 
 
-### -param NdisIoWorkItemHandle [in]
+#### - NdisIoWorkItemHandle [in]
 
 A handle to a private <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure that was returned by a previous call to the 
      <mshelp:link keywords="netvista.ndisallocateioworkitem" tabindex="0"><b>
      NdisAllocateIoWorkItem</b></mshelp:link> function.
 
 
-### -param Routine [in]
+#### - Routine [in]
 
 The entry point to the function that NDIS calls to process the work item. NDIS calls this routine
      in the context of a system thread. 
@@ -102,7 +102,7 @@ A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a p
      NdisAllocateIoWorkItem</b></mshelp:link> function.
 
 
-### -param WorkItemContext [in]
+#### - WorkItemContext [in]
 
 A pointer to a caller-supplied context area that NDIS passes through to the callback routine. 
      <i>WorkItemContext</i> can be any caller-specified data that the driver requires to manage the work
@@ -166,15 +166,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
-
-<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
+<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
 
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
-<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
+
+<a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
 
  
 

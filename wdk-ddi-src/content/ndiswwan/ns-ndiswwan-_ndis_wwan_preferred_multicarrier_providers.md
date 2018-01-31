@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4856D1DF-8A31-4290-91C6-A4FC289BDC35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, *PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, netvista.ndis_wwan_preferred_multicarrier_providers, PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_preferred_multicarrier_providers, *PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, *PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
+req.typenames: "*PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS"
 ---
 
 # _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 Miniport drivers must set this member to WWAN_STATUS_SUCCESS for unsolicited events. WWAN_STATUS_SUCCESS is also specified for successful execution of OID_WWAN_PREFERRED_MULTICARRIER_PROVIDERS <i>set</i> requests.  The following table shows other possible error status codes (other members need not be updated by miniport driver):
 <table>
@@ -156,7 +156,7 @@ A <i>set</i> request is not supported
 <table></table> 
 
 
-### -field PreferredListHeader
+#### - PreferredListHeader
 
  A formatted WWAN_LIST_HEADER object that represents a list of preferred multi-carrier providers, including the number of providers in the list.
 
@@ -166,9 +166,9 @@ Response to  <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
-
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
 
  
 

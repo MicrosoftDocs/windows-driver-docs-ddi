@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c57da7f2-d484-479c-9d8a-626789d8b23e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UcmTcpciPortControllerDisplayOutStatusOn, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOn, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration [Buses], buses._ucmtcpci_port_controller_displayport_display_out_status, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOff, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UcmTcpciPortControllerDisplayOutStatusOff
+ms.keywords: ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOn, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOff, UcmTcpciPortControllerDisplayOutStatusOff, buses._ucmtcpci_port_controller_displayport_display_out_status, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UcmTcpciPortControllerDisplayOutStatusOn, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS {
 
 
 
-### -field UcmTcpciPortControllerDisplayOutStatusOff
+#### - UcmTcpciPortControllerDisplayOutStatusOff
 
 Display out status is enabled.
 
 
-### -field UcmTcpciPortControllerDisplayOutStatusOn
+#### - UcmTcpciPortControllerDisplayOutStatusOn
 
 Display out status is enabled.
 

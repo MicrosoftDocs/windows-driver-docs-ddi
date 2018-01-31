@@ -73,17 +73,17 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 
 
 
-### -param hVidPn [in]
+#### - hVidPn [in]
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>.
 
 
-### -param VidPnSourceId [in]
+#### - VidPnSourceId [in]
 
 [in] An integer that identifies one of the video present sources associated with the VidPN object.
 
 
-### -param NumMethods [in]
+#### - NumMethods [in]
 
 [in] The number of elements in the <i>pSupportedMethodSet</i> array.
 

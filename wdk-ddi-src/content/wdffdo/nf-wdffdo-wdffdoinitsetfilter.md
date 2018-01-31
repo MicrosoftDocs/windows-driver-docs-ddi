@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6e195025-4e70-44fa-a12d-0a98417381a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoInitSetFilter, WdfFdoInitSetFilter method, wdf.wdffdoinitsetfilter, kmdf.wdffdoinitsetfilter, PFN_WDFFDOINITSETFILTER, DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, wdffdo/WdfFdoInitSetFilter
+ms.keywords: wdffdo/WdfFdoInitSetFilter, PFN_WDFFDOINITSETFILTER, WdfFdoInitSetFilter, wdf.wdffdoinitsetfilter, WdfFdoInitSetFilter method, kmdf.wdffdoinitsetfilter, DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitSetFilter
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ VOID WdfFdoInitSetFilter(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 

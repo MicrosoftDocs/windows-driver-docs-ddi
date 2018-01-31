@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_SetUsageValueArray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, hid.hidp_setusagevaluearray, hidpi/HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices]
+ms.keywords: hid.hidp_setusagevaluearray, HidP_SetUsageValueArray routine [Human Input Devices], HidP_SetUsageValueArray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, hidpi/HidP_SetUsageValueArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,47 +76,47 @@ NTSTATUS __stdcall HidP_SetUsageValueArray(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
 
-### -param UsagePage [in]
+#### - UsagePage [in]
 
 Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> of a usage.
 
 
-### -param LinkCollection [in]
+#### - LinkCollection [in]
 
 Specifies the <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> that contains the usage. If <i>LinkCollection</i> is nonzero, the routine only sets the usage, if one exists, in this link collection. If <i>LinkCollection</i> is zero, the routine sets the first usage it finds in the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> associated with <i>PreparsedData</i>.
 
 
-### -param Usage [in]
+#### - Usage [in]
 
 Specifies the usage.
 
 
-### -param UsageValue [in]
+#### - UsageValue [in]
 
 Pointer to a caller-allocated buffer that contains the data associated with the usage value array.
 
 
-### -param UsageValueByteLength [in]
+#### - UsageValueByteLength [in]
 
 Specifies the length, in bytes, of the <i>UsageValue</i> buffer.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a top-level's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
-### -param Report [in, out]
+#### - Report [in, out]
 
 Pointer to a HID report.
 
 
-### -param ReportLength [in]
+#### - ReportLength [in]
 
 Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
@@ -261,9 +261,9 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 <a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
 <a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
  
 

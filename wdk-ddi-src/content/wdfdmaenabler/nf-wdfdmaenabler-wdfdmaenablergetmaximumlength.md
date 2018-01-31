@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f37359b9-807e-43dc-a66b-7b32c0921f06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMAENABLERGETMAXIMUMLENGTH, WdfDmaEnablerGetMaximumLength method, WdfDmaEnablerGetMaximumLength, kmdf.wdfdmaenablergetmaximumlength, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength
+ms.keywords: wdf.wdfdmaenablergetmaximumlength, kmdf.wdfdmaenablergetmaximumlength, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, WdfDmaEnablerGetMaximumLength, PFN_WDFDMAENABLERGETMAXIMUMLENGTH, WdfDmaEnablerGetMaximumLength method, wdfdmaenabler/WdfDmaEnablerGetMaximumLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ size_t WdfDmaEnablerGetMaximumLength(
 
 
 
-### -param DmaEnabler [in]
+#### - DmaEnabler [in]
 
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>. 
 

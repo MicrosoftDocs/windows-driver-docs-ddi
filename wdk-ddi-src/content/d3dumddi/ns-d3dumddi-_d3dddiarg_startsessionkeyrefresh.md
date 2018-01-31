@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7494ea8-e639-4466-9d56-07d164f57b5b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_63d20fb4-b769-45bf-8e3f-badb7b8e52e2.xml, D3DDDIARG_STARTSESSIONKEYREFRESH, d3dumddi/D3DDDIARG_STARTSESSIONKEYREFRESH, display.d3dddiarg_startsessionkeyrefresh, D3DDDIARG_STARTSESSIONKEYREFRESH structure [Display Devices], _D3DDDIARG_STARTSESSIONKEYREFRESH
+ms.keywords: d3dumddi/D3DDDIARG_STARTSESSIONKEYREFRESH, display.d3dddiarg_startsessionkeyrefresh, _D3DDDIARG_STARTSESSIONKEYREFRESH, D3DDDIARG_STARTSESSIONKEYREFRESH, UMDisplayDriver_param_Structs_63d20fb4-b769-45bf-8e3f-badb7b8e52e2.xml, D3DDDIARG_STARTSESSIONKEYREFRESH structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_STARTSESSIONKEYREFRESH {
 
 
 
-### -field hCryptoSession
+#### - hCryptoSession
 
 [in] A handle to the encryption session that is created in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function. 
 
 
-### -field pRandomNumber
+#### - pRandomNumber
 
 [out] A pointer to a buffer that contains the status sequence number for the random start. 
 
 
-### -field RandomNumberSize
+#### - RandomNumberSize
 
 [in/out] The size, in bytes, of the number that the <b>pRandomNumber</b> member points to. 
 

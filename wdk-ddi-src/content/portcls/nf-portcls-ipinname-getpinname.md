@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97fa159c-ce71-4ce2-8d40-def7671d014c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IPinName::GetPinName, audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, IPinName interface [Audio Devices], GetPinName method, GetPinName, audio.ipinname_getpinname, GetPinName method [Audio Devices], IPinName, GetPinName method [Audio Devices], IPinName interface, IPinName::GetPinName
+ms.keywords: GetPinName method [Audio Devices], IPinName interface, IPinName interface [Audio Devices], GetPinName method, audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, IPinName, GetPinName, audio.ipinname_getpinname, GetPinName method [Audio Devices], portcls/IPinName::GetPinName, IPinName::GetPinName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPinName.GetPinName
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPinName::GetPinName method
@@ -69,17 +69,17 @@ NTSTATUS GetPinName(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies a pointer to an I/O request packet (IRP) structure. 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Specifies a pointer to the underlying kernel streaming (KS) pin.
 
 
-### -param Data [out]
+#### - Data [out]
 
 Specifies a pointer to the buffer that holds the data for the <code>GetPinName</code> method.
 
@@ -118,11 +118,11 @@ KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-ipinname.md">IPinName</a>
-
 <a href="https://msdn.microsoft.com/fd4a4afd-2c17-4002-87ae-21501b1d75c1">Pin Category Property</a>
 
 <a href="https://msdn.microsoft.com/e0937d20-dd5b-453f-99f6-4e501f0f0e5b">Friendly Names for Audio Endpoint Devices</a>
+
+<a href="..\portcls\nn-portcls-ipinname.md">IPinName</a>
 
  
 

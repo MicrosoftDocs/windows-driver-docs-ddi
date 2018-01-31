@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45af16ee-7405-44a4-ad14-e2cf9d916164
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_03a0e9f7-37b7-4591-8cbc-e1d189c82ef2.xml, PKSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S, ksmedia/KSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S, ksmedia/PKSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S structure pointer [Streaming Media Devices], stream.ksproperty_timecode_s, KSPROPERTY_TIMECODE_S structure [Streaming Media Devices]
+ms.keywords: KSPROPERTY_TIMECODE_S structure [Streaming Media Devices], KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S structure pointer [Streaming Media Devices], stream.ksproperty_timecode_s, ksmedia/PKSPROPERTY_TIMECODE_S, vidcapstruct_03a0e9f7-37b7-4591-8cbc-e1d189c82ef2.xml, ksmedia/KSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_TIMECODE_S
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S
+req.typenames: "*PKSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S"
 ---
 
 # KSPROPERTY_TIMECODE_S structure
@@ -68,21 +68,21 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-### -field TimecodeSamp
+#### - TimecodeSamp
 
 Specifies the timecode sample. Timecode, absolute track number (ATN) and relative time counter (RTC) are in the <b>TimecodeSamp.timecode.dwFrames</b> member.
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksproperty_timecode_node_s.md">KSPROPERTY_TIMECODE_NODE_S</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
 

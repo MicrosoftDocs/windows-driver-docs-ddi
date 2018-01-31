@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 558E8162-7B1F-41AB-A04C-113E94C97DB6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelinitsetmaximumexternaldata, VmbChannelInitSetMaximumExternalData, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumExternalData, VmbChannelInitSetMaximumExternalData function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbchannelinitsetmaximumexternaldata, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumExternalData, VmbChannelInitSetMaximumExternalData, VmbChannelInitSetMaximumExternalData function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelInitSetMaximumExternalData
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -75,19 +75,19 @@ NTSTATUS VmbChannelInitSetMaximumExternalData(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A pointer to a Kernel Mode Client Library (KMCL) channel.
 
 
 
-### -param DataSize [in]
+#### - DataSize [in]
 
 The maximum size of external data.
 
 
 
-### -param ChainLength [in]
+#### - ChainLength [in]
 
 The maximum number of Memory Descriptor Lists (MDLs) in an incoming MDL chain.
 

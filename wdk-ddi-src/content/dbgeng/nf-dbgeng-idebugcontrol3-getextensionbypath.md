@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 32755878-3f52-4e52-b093-1678c8b8bb42
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::GetExtensionByPath, IDebugControl3, IDebugControl2::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], GetExtensionByPath method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetExtensionByPath, IDebugControl3::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetExtensionByPath, IDebugControl::GetExtensionByPath, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, GetExtensionByPath method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetExtensionByPath method, IDebugControl interface [Windows Debugging], GetExtensionByPath method, IDebugControl2 interface [Windows Debugging], GetExtensionByPath method, debugger.getextensionbypath, GetExtensionByPath
+ms.keywords: GetExtensionByPath method [Windows Debugging], IDebugControl3 interface, IDebugControl3, GetExtensionByPath method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetExtensionByPath method, dbgeng/IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, GetExtensionByPath, IDebugControl3::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], IDebugControl interface, IDebugControl::GetExtensionByPath, IDebugControl interface [Windows Debugging], GetExtensionByPath method, debugger.getextensionbypath, GetExtensionByPath method [Windows Debugging], IDebugControl2::GetExtensionByPath, IDebugControl3 interface [Windows Debugging], GetExtensionByPath method, dbgeng/IDebugControl::GetExtensionByPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT GetExtensionByPath(
 
 
 
-### -param Path [in]
+#### - Path [in]
 
 Specifies the fully qualified path and file name of the extension library.
 
 
-### -param Handle [out]
+#### - Handle [out]
 
 Receives the handle of the extension library.
 

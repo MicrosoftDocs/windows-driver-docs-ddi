@@ -76,7 +76,7 @@ void EvtUcxEndpointSetCharacteristic(
 
 
 
-### -param UcxEndpointCharacteristic [in]
+#### - UcxEndpointCharacteristic [in]
 
 A pointer to a <a href="..\ucxendpoint\ns-ucxendpoint-_ucx_endpoint_characteristic.md">UCX_ENDPOINT_CHARACTERISTIC</a> structure that contains endpoint characteristics.
 

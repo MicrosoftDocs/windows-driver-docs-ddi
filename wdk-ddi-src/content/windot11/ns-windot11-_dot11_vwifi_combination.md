@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 05be98a8-dad2-4539-b725-e898db19a789
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_VWIFI_COMBINATION, windot11/DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_vwifi_combination, PDOT11_VWIFI_COMBINATION, Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, _DOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: windot11/PDOT11_VWIFI_COMBINATION, Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, windot11/DOT11_VWIFI_COMBINATION, _DOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], netvista.dot11_vwifi_combination, DOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_COMBINATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_VWIFI_COMBINATION
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION"
+req.typenames: DOT11_VWIFI_COMBINATION, *PDOT11_VWIFI_COMBINATION
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ typedef struct _DOT11_VWIFI_COMBINATION {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_VWIFI_COMBINATION structure. This member is formatted as
      an 
@@ -104,19 +104,19 @@ This member must be set to
        sizeof(DOT11_VWIFI_COMBINATION).
 
 
-### -field uNumInfrastructure
+#### - uNumInfrastructure
 
 The number of 802.11 infrastructure stations supported. For more information, see the following
      Remarks section.
 
 
-### -field uNumAdhoc
+#### - uNumAdhoc
 
 The number of Adhoc Stations supported. For more information, see the following Remarks
      section.
 
 
-### -field uNumSoftAP
+#### - uNumSoftAP
 
 The number of Soft AP Stations supported. For more information, see the following Remarks
      section.

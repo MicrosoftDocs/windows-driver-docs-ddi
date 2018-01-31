@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 41f7c240-4e50-4d6c-82aa-902ab05bf715
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_SetData routine [Human Input Devices], hidpi/HidP_SetData, HidP_SetData, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hid.hidp_setdata
+ms.keywords: HidP_SetData routine [Human Input Devices], hid.hidp_setdata, HidP_SetData, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hidpi/HidP_SetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS __stdcall HidP_SetData(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
 
-### -param DataList [in, out]
+#### - DataList [in, out]
 
 Pointer to a caller-allocated array of <a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a> structures that specify which buttons and usage values to set.
 
 
-### -param DataLength [in, out]
+#### - DataLength [in, out]
 
 Specifies, on input, the number of members in the <i>DataList</i> array. For information about the output value, see the Remarks section.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a top-level's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
-### -param Report [in]
+#### - Report [in]
 
 Pointer to a HID report.
 
 
-### -param ReportLength [in]
+#### - ReportLength [in]
 
 Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
@@ -243,21 +243,21 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_unsetusages.md">HidP_UnsetUsages</a>
-
-<a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
-
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
+<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_unsetusages.md">HidP_UnsetUsages</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
 
  
 

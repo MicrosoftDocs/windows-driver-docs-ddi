@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d391a7ed-220e-412a-8e32-22b206c7a062
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], ClfsReadRestartArea, wdm/ClfsReadRestartArea, Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, kernel.clfsreadrestartarea
+ms.keywords: ClfsReadRestartArea, wdm/ClfsReadRestartArea, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, kernel.clfsreadrestartarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS ClfsReadRestartArea(
 
 
 
-### -param pvMarshalContext [in, out]
+#### - pvMarshalContext [in, out]
 
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
-### -param ppvRestartBuffer [out]
+#### - ppvRestartBuffer [out]
 
 A pointer to a variable that receives a pointer to the data buffer of the restart record.
 
 
-### -param pcbRestartBuffer [out]
+#### - pcbRestartBuffer [out]
 
 A pointer to a ULONG-typed variable that receives the size, in bytes, of the data buffer pointed to by <i>pcbRestartBuffer</i>. This is the length of the data buffer of the restart record.
 
 
-### -param plsn [out]
+#### - plsn [out]
 
 A pointer to a CLFS_LSN structure that receives the LSN of the restart record that was read.
 
 
-### -param ppvReadContext [out]
+#### - ppvReadContext [out]
 
 A pointer to a variable that receives a pointer to an opaque read context. The caller can pass this context to <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a> or <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>. When the caller has finished using the read context, it must free the context by calling <a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>.
 
@@ -118,13 +118,13 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
-
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
+
+<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
 
 <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
 
-<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
+<a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
 
  
 

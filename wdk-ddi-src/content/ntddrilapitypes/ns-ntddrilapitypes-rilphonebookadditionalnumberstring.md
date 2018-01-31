@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1d201c4d-606d-4461-ad3d-df48d3455724
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, *LPRILPHONEBOOKADDITIONALNUMBERSTRING
+ms.keywords: ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, netvista.rilphonebookadditionalnumberstring, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKADDITIONALNUMBERSTRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILPHONEBOOKADDITIONALNUMBERSTRING {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwNumId
+#### - dwNumId
 
 
 
-### -field wszText
+#### - wszText
 
 

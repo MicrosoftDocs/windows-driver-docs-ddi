@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, EnablePDEV, EnablePDEV method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::EnablePDEV, EnablePDEV method [Print Devices], IPrintOemUni interface [Print Devices], EnablePDEV method, print.iprintoemuni_enablepdev, IPrintOemUni, IPrintOemUni::EnablePDEV
+ms.keywords: EnablePDEV method [Print Devices], prcomoem/IPrintOemUni::EnablePDEV, EnablePDEV method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, IPrintOemUni, IPrintOemUni interface [Print Devices], EnablePDEV method, IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev, EnablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,52 +77,52 @@ STDMETHOD EnablePDEV(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param pPrinterName
+#### - pPrinterName
 
 Caller-supplied pointer to a text string representing the logical address of the printer.
 
 
-### -param cPatterns
+#### - cPatterns
 
 Caller-supplied value representing the number of HSURF-typed surface handles contained in the buffer pointed to by <i>phsurfPatterns</i>.
 
 
-### -param phsurfPatterns
+#### - phsurfPatterns
 
 Caller-supplied pointer to a buffer that is large enough to contain <i>cPatterns</i> number of HSURF-typed surface handles. The handles represent surface fill patterns.
 
 
-### -param cjGdiInfo
+#### - cjGdiInfo
 
 Caller-supplied value representing the size of the structure pointed to by <i>pGdiInfo</i>.
 
 
-### -param pGdiInfo
+#### - pGdiInfo
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a> structure.
 
 
-### -param cjDevInfo
+#### - cjDevInfo
 
 Caller-supplied value representing the size of the structure pointed to by <i>pDevInfo</i>.
 
 
-### -param pDevInfo
+#### - pDevInfo
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a> structure.
 
 
-### -param pded
+#### - pded
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556206">DRVENABLEDATA</a> structure containing the addresses of the printer driver's graphics DDI hooking functions. For more information, see the following Remarks section.
 
 
-### -param pDevOem [out]
+#### - pDevOem [out]
 
 Receives a method-supplied pointer to a private PDEV structure. (For more information, see the following Remarks section.)
 

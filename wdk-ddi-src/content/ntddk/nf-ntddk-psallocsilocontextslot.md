@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psallocsilocontextslot, PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], ntddk/PsAllocSiloContextSlot
+ms.keywords: PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], PsAllocSiloContextSlot, kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PsAllocSiloContextSlot(
 
 
 
-### -param Reserved [in]
+#### - Reserved [in]
 
 This parameter is reserved for future use and <b>must be set to zero</b>. 
 <div class="alert"><b>Warning</b>  Setting <i>Reserved</i> to a non-zero value causes the system to execute an <b>ASSERT</b> on a checked build.</div><div> </div>
 
-### -param ReturnedContextSlot [out]
+#### - ReturnedContextSlot [out]
 
 A pointer to a caller-allocated variable that receives the newly allocated slot index. This parameter is required and it cannot be <b>NULL</b>.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f3e3654f-d317-4a8c-aa18-bbac86b06286
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_ON_ALL, RILOPERATORNAMESPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_ON_SYSTEMTYPE, rilapitypes/RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_SYSTEMTYPE, rilapitypes/RIL_PARAM_ON_COUNTRY_CODE, rilapitypes/RIL_PARAM_ON_LONGNAME, RIL_PARAM_ON_ALL, rilapitypes/RILOPERATORNAMESPARAMMASK, netvista.riloperatornamesparammask, RIL_PARAM_ON_LONGNAME, RILOPERATORNAMESPARAMMASK, RIL_PARAM_ON_SHORTNAME, RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_COUNTRY_CODE
+ms.keywords: rilapitypes/RIL_PARAM_ON_LONGNAME, rilapitypes/RILOPERATORNAMESPARAMMASK, RILOPERATORNAMESPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_ALL, RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_COUNTRY_CODE, RILOPERATORNAMESPARAMMASK, netvista.riloperatornamesparammask, rilapitypes/RIL_PARAM_ON_COUNTRY_CODE, RIL_PARAM_ON_LONGNAME, rilapitypes/RIL_PARAM_ON_SYSTEMTYPE, rilapitypes/RIL_PARAM_ON_SHORTNAME, RIL_PARAM_ON_SYSTEMTYPE, rilapitypes/RIL_PARAM_ON_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,27 +76,27 @@ enum RILOPERATORNAMESPARAMMASK {
 
 
 
-### -field RIL_PARAM_ON_LONGNAME
+#### - RIL_PARAM_ON_LONGNAME
 
 
 
-### -field RIL_PARAM_ON_SHORTNAME
+#### - RIL_PARAM_ON_SHORTNAME
 
 
 
-### -field RIL_PARAM_ON_NUMNAME
+#### - RIL_PARAM_ON_NUMNAME
 
 
 
-### -field RIL_PARAM_ON_COUNTRY_CODE
+#### - RIL_PARAM_ON_COUNTRY_CODE
 
 
 
-### -field RIL_PARAM_ON_SYSTEMTYPE
+#### - RIL_PARAM_ON_SYSTEMTYPE
 
 
 
-### -field RIL_PARAM_ON_ALL
+#### - RIL_PARAM_ON_ALL
 
 
 

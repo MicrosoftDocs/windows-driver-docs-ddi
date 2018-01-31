@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_ISSUPPORTEDVIDPN, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN, display.dxgkarg_issupportedvidpn, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, DXGKARG_ISSUPPORTEDVIDPN"
+ms.keywords: DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, display.dxgkarg_issupportedvidpn, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN, _DXGKARG_ISSUPPORTEDVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKARG_ISSUPPORTEDVIDPN {
 
 
 
-### -field hDesiredVidPn
+#### - hDesiredVidPn
 
 A handle to the VidPN object in question.
 
 
-### -field IsVidPnSupported
+#### - IsVidPnSupported
 
 A Boolean variable that receives <b>TRUE</b> if the VidPN is supported and <b>FALSE</b> if the VidPN is not supported.
 

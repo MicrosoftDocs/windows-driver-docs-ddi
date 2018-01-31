@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f15823dd-a9c5-46a8-a376-41b831450b66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_removeallpersistentbindings, HBA_RemoveAllPersistentBindings, HBA_RemoveAllPersistentBindings routine [Storage Devices], hbaapi/HBA_RemoveAllPersistentBindings, fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml
+ms.keywords: storage.hba_removeallpersistentbindings, HBA_RemoveAllPersistentBindings, fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml, hbaapi/HBA_RemoveAllPersistentBindings, HBA_RemoveAllPersistentBindings routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ HBA_STATUS HBA_API HBA_RemoveAllPersistentBindings(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
-### -param HbaPortWWN [in]
+#### - HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port for which to remove all persistent bindings. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
@@ -144,9 +144,9 @@ The removal of persistent bindings does not change target mappings until the ope
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F94435C2-A2FC-44F4-8A21-E56CBEB8CC37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlshortsub, RtlShortSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlShortSub, RtlShortSub
+ms.keywords: RtlShortSub function [Kernel-Mode Driver Architecture], kernel.rtlshortsub, RtlShortSub, ntintsafe/RtlShortSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlShortSub(
 
 
 
-### -param sMinuend [in]
+#### - sMinuend [in]
 
 The value from which <i>sSubtrahend</i> is subtracted.
 
 
-### -param sSubtrahend [in]
+#### - sSubtrahend [in]
 
 The value to subtract from <i>sMinuend</i>.
 
 
-### -param psResult [out]
+#### - psResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dcedbdd0-178b-4e44-aaaa-25a5b219324a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, ntddndis/NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_property_delete_parameters, _NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS"
+ms.keywords: NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, ntddndis/NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, _NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, netvista.ndis_switch_property_delete_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, *PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS
+req.typenames: "*PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS"
 ---
 
 # _NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure
@@ -71,7 +71,7 @@ typedef struct _NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -87,24 +87,24 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-### -field PropertyType
+#### - PropertyType
 
  An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a> enumeration value that specifies the type of extensible switch property that will be deleted.
 
 
-### -field PropertyId
+#### - PropertyId
 
 A GUID value that identifies the property for the extensible switch.
 
 
 
 
-### -field PropertyInstanceId
+#### - PropertyInstanceId
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that specifies the instance identifier of the  extensible switch property.
 
@@ -124,9 +124,9 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598281">OID_SWITCH_PROPERTY_DELETE</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a>
 
 <b></b>
 

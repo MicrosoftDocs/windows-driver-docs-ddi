@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cee3de1f-eaee-40e9-97a9-979e75e22c0a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, DFQueueObjectRef_cfd7143c-1ca1-4ecf-a840-0007971f9197.xml, *PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, kmdf.wdf_io_queue_forward_progress_policy, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure pointer, _WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, wdfio/PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, wdf.wdf_io_queue_forward_progress_policy
+ms.keywords: wdfio/PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, wdf.wdf_io_queue_forward_progress_policy, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure, PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, *PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, DFQueueObjectRef_cfd7143c-1ca1-4ecf-a840-0007971f9197.xml, _WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure pointer, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, kmdf.wdf_io_queue_forward_progress_policy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY"
+req.typenames: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, *PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY
 req.product: Windows 10 or later.
 ---
 
@@ -75,32 +75,32 @@ typedef struct _WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY {
 
 
 
-### -field Size
+#### - Size
 
 The length, in bytes, of this structure.
 
 
-### -field TotalForwardProgressRequests
+#### - TotalForwardProgressRequests
 
 The number of request objects that the framework will attempt to reserve for use in low-memory situations. This number must be greater than zero.
 
 
-### -field ForwardProgressReservedPolicy
+#### - ForwardProgressReservedPolicy
 
 A <a href="..\wdfio\ne-wdfio-_wdf_io_forward_progress_reserved_policy.md">WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</a>-typed value that specifies how the framework will allocate request objects during low-memory situations. 
 
 
-### -field ForwardProgressReservePolicySettings
+#### - ForwardProgressReservePolicySettings
 
 A <a href="..\wdfio\ns-wdfio-_wdf_io_forward_progress_reserved_policy_settings.md">WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS</a> structure that contains additional values that are specific to the policy that the <b>ForwardProgressReservedPolicy</b> member specifies. This member should be <b>NULL</b> unless the driver provides an <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a> callback function.
 
 
-### -field EvtIoAllocateResourcesForReservedRequest
+#### - EvtIoAllocateResourcesForReservedRequest
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoAllocateRequestResources
+#### - EvtIoAllocateRequestResources
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_request_resources.md">EvtIoAllocateRequestResources</a> callback function, or <b>NULL</b>.
 

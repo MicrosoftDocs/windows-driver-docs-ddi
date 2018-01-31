@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5d82342e-c800-44ac-8618-468355d14dd0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, kernel.pounregistersystemstate, PoUnregisterSystemState, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], wdm/PoUnregisterSystemState
+ms.keywords: PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], PoUnregisterSystemState, kernel.pounregistersystemstate, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, wdm/PoUnregisterSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>PoUnregisterSystemState</b> routine cancels a system state registration created by <a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>.
+The <b>PoUnregisterSystemState</b> routine cancels a system state registration created by <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>.
 
 
 ## -syntax
@@ -68,7 +68,7 @@ VOID PoUnregisterSystemState(
 
 
 
-### -param StateHandle [in, out]
+#### - StateHandle [in, out]
 
 A pointer to a handle previously returned by <b>PoRegisterSystemState</b>.
 
@@ -89,7 +89,7 @@ This routine cancels a system busy state registration established by <b>PoRegist
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>
+<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
 
  
 

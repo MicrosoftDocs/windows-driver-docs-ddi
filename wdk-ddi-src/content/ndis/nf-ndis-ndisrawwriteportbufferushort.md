@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 457b13e5-5917-4aa2-b471-bc9fde14f950
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_port_raw_ref_43adee77-b540-4147-92a3-0035618064de.xml, NdisRawWritePortBufferUshort macro [Network Drivers Starting with Windows Vista], netvista.ndisrawwriteportbufferushort, ndis/NdisRawWritePortBufferUshort, NdisRawWritePortBufferUshort
+ms.keywords: NdisRawWritePortBufferUshort, netvista.ndisrawwriteportbufferushort, ndis/NdisRawWritePortBufferUshort, miniport_port_raw_ref_43adee77-b540-4147-92a3-0035618064de.xml, NdisRawWritePortBufferUshort macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,19 +70,19 @@ VOID NdisRawWritePortBufferUshort(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <mshelp:link keywords="netvista.ndismregisterioportrange" tabindex="0"><b>
      NdisMRegisterIoPortRange</b></mshelp:link>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a caller-allocated resident buffer containing the USHORTs to be written.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of USHORTs to write to the I/O port.
 
@@ -100,17 +100,17 @@ A miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
 
  
 

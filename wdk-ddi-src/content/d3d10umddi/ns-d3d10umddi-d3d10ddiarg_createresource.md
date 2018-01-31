@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d67a00e-a3ba-4a19-ac6b-0b12d079435c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10ddiarg_createresource, D3D10DDIARG_CREATERESOURCE structure [Display Devices], D3D10DDIARG_CREATERESOURCE, UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, d3d10umddi/D3D10DDIARG_CREATERESOURCE
+ms.keywords: d3d10umddi/D3D10DDIARG_CREATERESOURCE, D3D10DDIARG_CREATERESOURCE, UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, display.d3d10ddiarg_createresource, D3D10DDIARG_CREATERESOURCE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,64 +78,64 @@ typedef struct D3D10DDIARG_CREATERESOURCE {
 
 
 
-### -field pMipInfoList
+#### - pMipInfoList
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mipinfo.md">D3D10DDI_MIPINFO</a> structures that contains dimensions for MIP levels. For resource formats where a single pixel or texel cannot be referenced directly with a byte address, the dimensions of the physical resource are typically larger or equal to the texel dimensions, in order to satisfy the necessary space requirements. For example, to create a fully mipped BC1 Texture2D, where the most detailed level is 8x8, the <b>pMipInfoList</b> array is:  { { 8, 8, 1, 8, 8, 1 }, { 4, 4, 1, 4, 4, 1 }, { 2, 2, 1, 4, 4, 1 }, { 1, 1, 1, 4, 4, 1 } }.
 
 
-### -field pInitialDataUP
+#### - pInitialDataUP
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddiarg_subresource_up.md">D3D10_DDIARG_SUBRESOURCE_UP</a> structures that provides initialization information for the resource's list of subresources.
 
 
-### -field ResourceDimension
+#### - ResourceDimension
 
 [in] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a> that indicates the resource type and dimensionality.
 
 
-### -field Usage
+#### - Usage
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a> that indicates how the resource is used.
 
 
-### -field BindFlags
+#### - BindFlags
 
 [in] A valid bitwise OR of <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a> values that indicates how the resource is bound.
 
 
-### -field MapFlags
+#### - MapFlags
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a> that indicates the access level to map to the resource.
 
 
-### -field MiscFlags
+#### - MiscFlags
 
 [in] A valid bitwise OR of <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a> values that indicates miscellaneous information about the resource.
 
 
-### -field Format
+#### - Format
 
 [in] A value of type <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> that indicates the pixel format of the resource.
 
 
-### -field SampleDesc
+#### - SampleDesc
 
 [in] A value of type <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> that describes the sample count and quality of the resource.
 
 
-### -field MipLevels
+#### - MipLevels
 
 [in] The number of MIP-map levels for the resource.
 
 
-### -field ArraySize
+#### - ArraySize
 
 [in] The number of array elements for a 2-D texture or 1-D texture. <b>ArraySize</b> must be set to 6 for a cube texture.
 
 Beginning in Windows 8, if the driver must create a stereo back buffer, it should set this member to a value of 2.
 
 
-### -field pPrimaryDesc
+#### - pPrimaryDesc
 
 [in, out] A pointer to a <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a> structure that describes a resource that is used as a primary.
 
@@ -148,27 +148,27 @@ If <b>pPrimaryDesc</b> is set to <b>NULL</b>, the runtime will use the created r
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddiarg_subresource_up.md">D3D10_DDIARG_SUBRESOURCE_UP</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mipinfo.md">D3D10DDI_MIPINFO</a>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>
+<a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
 
-<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mipinfo.md">D3D10DDI_MIPINFO</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
-
-<a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
 
  
 

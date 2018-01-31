@@ -126,11 +126,11 @@ The freed virtual address should not be accessed immediately after the call. If 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdategpuvirtualaddress.md">UpdateGpuVirtualAddress</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_freegpuvirtualaddress.md">D3DKMT_FREEGPUVIRTUALADDRESS</a>
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmapgpuvirtualaddress.md">MapGpuVirtualAddress</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_freegpuvirtualaddress.md">D3DKMT_FREEGPUVIRTUALADDRESS</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdategpuvirtualaddress.md">UpdateGpuVirtualAddress</a>
 
  
 

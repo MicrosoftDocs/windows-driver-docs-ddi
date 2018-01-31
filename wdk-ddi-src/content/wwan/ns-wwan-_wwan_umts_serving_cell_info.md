@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62257D65-DCB9-43C3-A862-DAB31C27EF0A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], wwan/WWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO, netvista.wwan_umts_serving_cell_info, wwan/PWWAN_UMTS_SERVING_CELL_INFO, _WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO
+ms.keywords: PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO, wwan/WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO, _WWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_umts_serving_cell_info, wwan/PWWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_UMTS_SERVING_CELL_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO"
+req.typenames: WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -80,62 +80,62 @@ typedef struct _WWAN_UMTS_SERVING_CELL_INFO {
 
 
 
-### -field ProviderIdOffset
+#### - ProviderIdOffset
 
 The offset in bytes, calculated from the beginning of this structure, to a numeric (0-9) string called <i>ProviderId</i> that represents the network provider identity. This string is a concatenation of a three-digit Mobile Country Code (MCC) and a two or three-digit Mobile Network Code (MNC). This member can be NULL when no <i>ProviderId</i> information is returned.
 
 
-### -field ProviderIdSize
+#### - ProviderIdSize
 
 The size, in bytes, used for <i>ProviderId</i>.
 
 
-### -field LocationAreaCode
+#### - LocationAreaCode
 
 The Location Area Code (0-65535). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field CellId
+#### - CellId
 
 The Cell ID (0-268435455). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field FrequencyInfoUL
+#### - FrequencyInfoUL
 
 The Frequency Info Uplink (0-16383). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field FrequencyInfoDL
+#### - FrequencyInfoDL
 
 The Frequency Info Downlink (0-16383). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field FrequencyInfoNT
+#### - FrequencyInfoNT
 
 The Frequency Info for TDD (0-16383). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field UARFCN
+#### - UARFCN
 
 The UTRA Absolute Radio Frequency Channel Number for the serving cell (0-16383). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field PrimaryScramblingCode
+#### - PrimaryScramblingCode
 
 The Primary Scrambling Code of the serving cell (0-511). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field RSCP
+#### - RSCP
 
 The Received Signal Code Power of the serving cell. The range is -120 to -25, in units of 1dBm. Use 0xFFFFFFFF when this information is not available.
 
 
-### -field ECNO
+#### - ECNO
 
 The signal to noise ratio of the serving cell; the ratio of the received energy per PN chip for the CPICH to the total received. The range is -50 to 0, in units of 1dBm. Use 1 when this information is not available.
 
 
-### -field PathLoss
+#### - PathLoss
 
 The path loss of the serving cell (46-173). Use 0xFFFFFFFF when this information is not available.
 
@@ -155,11 +155,11 @@ The data buffer containing <i>ProviderId</i>.
 
 <a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
 
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
  
 

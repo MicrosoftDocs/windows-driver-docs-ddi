@@ -40,7 +40,7 @@ apiname:
 -	MRxSrvCallWinnerNotify
 product: Windows
 targetos: Windows
-req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
+req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_SRVCALL_WINNER_NOTIFY callback
@@ -76,7 +76,7 @@ NTSTATUS MRxSrvCallWinnerNotify(
 
 
 
-### -param ThisMinirdrIsTheWinner [in]
+#### - ThisMinirdrIsTheWinner [in]
 
 A Boolean value that indicates that this network mini-redirector was chosen.
 
@@ -120,19 +120,19 @@ When multiple redirectors are installed for handling the same UNC namespace, the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
-
 <a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
 
  
 

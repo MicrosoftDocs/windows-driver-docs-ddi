@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5d4e5454-f44f-483a-a389-c8973263fbaa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_USERDATA, USERDATA, PUSERDATA structure pointer [Print Devices], USERDATA structure [Print Devices], *PUSERDATA, PUSERDATA, print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, print.userdata, printoem/PUSERDATA, printoem/USERDATA"
+ms.keywords: USERDATA structure [Print Devices], printoem/PUSERDATA, USERDATA, PUSERDATA, print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, PUSERDATA structure pointer [Print Devices], _USERDATA, *PUSERDATA, printoem/USERDATA, print.userdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _USERDATA {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Size, in bytes, of the USERDATA structure.
 
 
-### -field dwItemID
+#### - dwItemID
 
 Printer feature identifier.
 
 
-### -field pKeyWordName
+#### - pKeyWordName
 
 Pointer to a nonlocalized text string identifying a printer feature.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved.
 

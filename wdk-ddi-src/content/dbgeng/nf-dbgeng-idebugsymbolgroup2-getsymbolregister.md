@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b95ca8c-604b-4497-9798-02f362095709
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolRegister method, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::GetSymbolRegister, ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, IDebugSymbolGroup2::GetSymbolRegister, GetSymbolRegister method [Windows Debugging], GetSymbolRegister method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolRegister, debugger.getsymbolregister
+ms.keywords: dbgeng/IDebugSymbolGroup2::GetSymbolRegister, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolRegister method, IDebugSymbolGroup2::GetSymbolRegister, IDebugSymbolGroup2, ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, GetSymbolRegister, GetSymbolRegister method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.getsymbolregister, GetSymbolRegister method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetSymbolRegister(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the symbol to return the register for. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Register [out]
+#### - Register [out]
 
 The index of the register that contains the value or a pointer to the value of the symbol.
 
@@ -123,9 +123,9 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

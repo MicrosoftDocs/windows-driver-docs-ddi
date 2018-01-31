@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7453EEB1-F974-4AEB-93C4-A75A79E1FE19
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltPropagateActivityIdToThread routine [Installable File System Drivers], FltPropagateActivityIdToThread, fltkernel/FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread
+ms.keywords: ifsk.fltpropagateactivityidtothread, fltkernel/FltPropagateActivityIdToThread, FltPropagateActivityIdToThread routine [Installable File System Drivers], FltPropagateActivityIdToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS FltPropagateActivityIdToThread(
 
 
 
-### -param CallbackData [in]
+#### - CallbackData [in]
 
 A pointer to the callback data containing the request with an associated activity ID.
 
@@ -79,7 +79,7 @@ A pointer to the callback data containing the request with an associated activit
 TBD
 
 
-### -param OriginalId [out]
+#### - OriginalId [out]
 
 On return, the <b>GUID</b> pointer referenced by <i>OriginalId</i> points to the activity ID that was previously set for the thread.
 

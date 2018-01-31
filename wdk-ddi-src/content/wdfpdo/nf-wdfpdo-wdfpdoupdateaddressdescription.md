@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, WdfPdoUpdateAddressDescription method, PFN_WDFPDOUPDATEADDRESSDESCRIPTION, wdfpdo/WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription, DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml
+ms.keywords: PFN_WDFPDOUPDATEADDRESSDESCRIPTION, WdfPdoUpdateAddressDescription, DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, kmdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, wdf.wdfpdoupdateaddressdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoUpdateAddressDescription
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoUpdateAddressDescription(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object that represents a device's physical device object (PDO).
 
 
-### -param AddressDescription [in, out]
+#### - AddressDescription [in, out]
 
 A pointer to a caller-allocated buffer that contains an address description. The address description must contain a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 

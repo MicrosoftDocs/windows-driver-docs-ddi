@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2b620e4f-8c26-479a-8b06-4e558b0813e5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, ksmedia/KSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], KSDATAFORMAT_DSOUND, audio.ksdataformat_dsound, KSDATAFORMAT_DSOUND structure [Audio Devices], PKSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND
+ms.keywords: "*PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], ksmedia/PKSDATAFORMAT_DSOUND, aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, KSDATAFORMAT_DSOUND, ksmedia/KSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices], PKSDATAFORMAT_DSOUND, audio.ksdataformat_dsound"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field DataFormat
+#### - DataFormat
 
 Specifies the stream's data format. This member is a structure of type <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>.
 
 
-### -field BufferDesc
+#### - BufferDesc
 
 Describes the DirectSound buffer. This member is a structure of type <a href="..\ksmedia\ns-ksmedia-ksdsound_bufferdesc.md">KSDSOUND_BUFFERDESC</a>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e7d4d09-067b-4658-ab2a-319dc9e6d8db
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_updateoverlay, D3DKMT_UPDATEOVERLAY, _D3DKMT_UPDATEOVERLAY, d3dkmthk/D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY structure [Display Devices], OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml
+ms.keywords: "_D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY, display.d3dkmt_updateoverlay, OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, d3dkmthk/D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,26 +69,26 @@ typedef struct _D3DKMT_UPDATEOVERLAY {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device that the overlay is associated with.
 
 
-### -field hOverlay
+#### - hOverlay
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the create-overlay function and that identifies the kernel-mode overlay object to modify. 
 
 
-### -field OverlayInfo
+#### - OverlayInfo
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a> structure that describes modification information for the kernel-mode overlay object. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdateoverlay.md">D3DKMTUpdateOverlay</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdateoverlay.md">D3DKMTUpdateOverlay</a>
 
  
 

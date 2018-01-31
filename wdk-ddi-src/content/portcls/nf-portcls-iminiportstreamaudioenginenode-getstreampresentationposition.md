@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreampresentationposition, GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
+ms.keywords: IMiniportStreamAudioEngineNode, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreampresentationposition, GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamPresentationPosition method
@@ -67,7 +67,7 @@ NTSTATUS GetStreamPresentationPosition(
 
 
 
-### -param pPresentationPosition [out]
+#### - pPresentationPosition [out]
 
 A <a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a> structure that represents the current cursor position in the audio data stream.
 
@@ -83,9 +83,9 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
+
+<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
  
 

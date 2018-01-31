@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b89ee18b-229d-4ec7-8c69-1b75ad0f3448
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_Online, BarcodeStatusUpdateType_Extended, BarcodeStatus enumeration, BarcodeStatusUpdateType_Online, pos.barcodestatus, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatus, _BarcodeStatus, BarcodeStatusUpdateType_Offline, BarcodeStatus
+ms.keywords: pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, BarcodeStatusUpdateType_Off, BarcodeStatus enumeration, pointofservicecommontypes/BarcodeStatus, BarcodeStatusUpdateType_OffOrOffline, _BarcodeStatus, BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_Extended, BarcodeStatusUpdateType_Online, pointofservicecommontypes/BarcodeStatusUpdateType_Off, BarcodeStatusUpdateType_Offline, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, pos.barcodestatus, pointofservicecommontypes/BarcodeStatusUpdateType_Online
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _BarcodeStatus {
 
 
 
-### -field BarcodeStatusUpdateType_Online
+#### - BarcodeStatusUpdateType_Online
 
 The device is online. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Standard</b> or <b>Advanced</b>.
 
 
-### -field BarcodeStatusUpdateType_Off
+#### - BarcodeStatusUpdateType_Off
 
 The device power is off or detached from the terminal. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
 
 
-### -field BarcodeStatusUpdateType_Offline
+#### - BarcodeStatusUpdateType_Offline
 
 The device power is on, but it is not ready or unable to respond to requests. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
 
 
-### -field BarcodeStatusUpdateType_OffOrOffline
+#### - BarcodeStatusUpdateType_OffOrOffline
 
 The device power is off or the device is offline. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Standard</b>.
 
 
-### -field BarcodeStatusUpdateType_Extended
+#### - BarcodeStatusUpdateType_Extended
 
 Vendor specific status information.
 

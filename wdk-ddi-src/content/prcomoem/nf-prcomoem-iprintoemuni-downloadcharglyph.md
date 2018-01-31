@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1ce7ebaa-759e-418a-af07-e530b1102567
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemUni::DownloadCharGlyph, DownloadCharGlyph method [Print Devices], IPrintOemUni interface, IPrintOemUni::DownloadCharGlyph, DownloadCharGlyph, print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml, DownloadCharGlyph method [Print Devices], IPrintOemUni interface [Print Devices], DownloadCharGlyph method, IPrintOemUni, print.iprintoemuni_downloadcharglyph
+ms.keywords: IPrintOemUni::DownloadCharGlyph, DownloadCharGlyph method [Print Devices], IPrintOemUni interface [Print Devices], DownloadCharGlyph method, DownloadCharGlyph, IPrintOemUni, DownloadCharGlyph method [Print Devices], IPrintOemUni interface, print.iprintoemuni_downloadcharglyph, prcomoem/IPrintOemUni::DownloadCharGlyph, print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT DownloadCharGlyph(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param pUFObj
+#### - pUFObj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
 
 
-### -param hGlyph
+#### - hGlyph
 
 Caller-supplied glyph handle.
 
 
-### -param pdwWidth
+#### - pdwWidth
 
 Caller-supplied pointer to receive the method-supplied width of the character.
 
 
-### -param pdwResult [out]
+#### - pdwResult [out]
 
 Receives a method-supplied value representing the amount of printer memory, in bytes, required to store the character glyph. If the operation fails, the returned value should be zero.
 

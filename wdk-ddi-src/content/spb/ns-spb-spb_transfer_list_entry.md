@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: e13b7a7e-4acb-4a77-ac46-94af2ebccc20
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/PSPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY structure [Buses], PSPB_TRANSFER_LIST_ENTRY structure pointer [Buses], *PSPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY, spb/SPB_TRANSFER_LIST_ENTRY, SPB.spb_transfer_list_entry, PSPB_TRANSFER_LIST_ENTRY
+ms.keywords: PSPB_TRANSFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_list_entry, *PSPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY, spb/SPB_TRANSFER_LIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SPB_TRANSFER_LIST_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY"
+req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ typedef struct SPB_TRANSFER_LIST_ENTRY {
 
 
 
-### -field Direction
+#### - Direction
 
 The direction of the transfer.  This member is set to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a> enumeration values:
 <ul>
@@ -78,12 +78,12 @@ The direction of the transfer.  This member is set to one of the following <a hr
 <li><b>SpbTransferDirectionToDevice</b></li>
 </ul>
 
-### -field DelayInUs
+#### - DelayInUs
 
 An optional delay, in microseconds, before this transfer begins. For more information, see the description of the <b>DelayInUs</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>.
 
 
-### -field Buffer
+#### - Buffer
 
 The buffer for this transfer. This member uses one of the following buffer formats: simple buffer, scatter-gather list, or (for kernel-mode clients) MDL. For more information about buffer formats, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>.
 
@@ -97,15 +97,15 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
  
 

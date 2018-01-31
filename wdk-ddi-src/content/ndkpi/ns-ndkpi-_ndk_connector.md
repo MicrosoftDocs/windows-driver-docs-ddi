@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B2E4D369-CCCF-4654-875F-69E90FEA1FF9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndk_connector, _NDK_CONNECTOR, NDK_CONNECTOR, ndkpi/PNDK_CONNECTOR, PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], ndkpi/NDK_CONNECTOR, PNDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], netvista.ndk_connector, PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR, ndkpi/PNDK_CONNECTOR, _NDK_CONNECTOR, NDK_CONNECTOR, ndkpi/NDK_CONNECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _NDK_CONNECTOR {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure for the <b>NDK_CONNECTOR</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeConnector</b>.
 
 
-### -field Dispatch
+#### - Dispatch
 
 A pointer to an <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a> structure that defines dispatch functions for the NDK connector object.
 
@@ -87,19 +87,19 @@ An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="..\
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
 <a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
  
 

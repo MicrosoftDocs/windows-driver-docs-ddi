@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_HID_ACTIVATE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
+req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
 
 # IOCTL_HID_ACTIVATE_DEVICE IOCTL

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49DDDEF8-F949-4674-A18B-9BB091D163C2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlWriteNonVolatileMemory routine [Installable File System Drivers], RtlWriteNonVolatileMemory, ntddk/RtlWriteNonVolatileMemory, ifsk.rtlwritenonvolatilememory
+ms.keywords: ntddk/RtlWriteNonVolatileMemory, ifsk.rtlwritenonvolatilememory, RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,28 +71,28 @@ NTSTATUS RtlWriteNonVolatileMemory(
 
 
 
-### -param NvToken
+#### - NvToken
 
  A pointer to an opaque structure that has
         information about various properties of the non-volatile memory region which <a href="..\ntddk\nf-ntddk-rtlgetnonvolatiletoken.md">RtlGetNonVolatileToken</a> had returned.
 
 
-### -param NvDestination
+#### - NvDestination
 
 A pointer to the non-volatile destination buffer to copy to.
 
 
-### -param Source
+#### - Source
 
 A pointer to the source buffer to copy from.
 
 
-### -param Size
+#### - Size
 
 The length, in bytes, of the copy operation.
 
 
-### -param Flags
+#### - Flags
 
 Reserved for future use.
 
@@ -146,9 +146,9 @@ The request was successful.
 
 <a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
 
-<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
-
 <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
 
 <a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
 

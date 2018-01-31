@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f1875578-33c1-4d9e-865b-f1f5391f4aca
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceFormatRequestForString, DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, kmdf.wdfusbtargetdeviceformatrequestforstring, wdf.wdfusbtargetdeviceformatrequestforstring, WdfUsbTargetDeviceFormatRequestForString method, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORSTRING, wdfusb/WdfUsbTargetDeviceFormatRequestForString
+ms.keywords: PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORSTRING, kmdf.wdfusbtargetdeviceformatrequestforstring, WdfUsbTargetDeviceFormatRequestForString, wdfusb/WdfUsbTargetDeviceFormatRequestForString, DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, wdf.wdfusbtargetdeviceformatrequestforstring, WdfUsbTargetDeviceFormatRequestForString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,32 +78,32 @@ NTSTATUS WdfUsbTargetDeviceFormatRequestForString(
 
 
 
-### -param UsbDevice [in]
+#### - UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param Memory [in]
+#### - Memory [in]
 
 A handle to a framework memory object.
 
 
-### -param Offset [in, optional]
+#### - Offset [in, optional]
 
 A pointer to a caller-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the output buffer, for storing the string descriptor. If this pointer is <b>NULL</b>, the descriptor is stored at the beginning of the output buffer, and the maximum string length is the buffer length. 
 
 
-### -param StringIndex [in]
+#### - StringIndex [in]
 
 An index value that identifies the string. This index value is obtained from a <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>, <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>, or <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure.
 
 
-### -param LangID [in, optional]
+#### - LangID [in, optional]
 
 A language identifier. The string will be retrieved for the language that this identifier specifies. For information about obtaining a device's supported language identifiers, see the USB specification. 
 
@@ -171,25 +171,25 @@ For more information about the <b>WdfUsbTargetDeviceFormatRequestForString</b> m
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
-
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9e4ca8a6-f33f-4403-a52f-f242ce40aac8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumberpossibleexecutingprocessortypes, IDebugControl3 interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, IDebugControl3, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl2::GetNumberPossibleExecutingProcessorTypes, IDebugControl_62f066c6-6ffb-4323-ad82-786a8a763783.xml, IDebugControl interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, dbgeng/IDebugControl::GetNumberPossibleExecutingProcessorTypes, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, dbgeng/IDebugControl2::GetNumberPossibleExecutingProcessorTypes, IDebugControl::GetNumberPossibleExecutingProcessorTypes, GetNumberPossibleExecutingProcessorTypes, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetNumberPossibleExecutingProcessorTypes, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl interface, IDebugControl3::GetNumberPossibleExecutingProcessorTypes
+ms.keywords: IDebugControl::GetNumberPossibleExecutingProcessorTypes, IDebugControl3, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl3 interface, GetNumberPossibleExecutingProcessorTypes, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetNumberPossibleExecutingProcessorTypes, IDebugControl interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, IDebugControl2 interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl3::GetNumberPossibleExecutingProcessorTypes, IDebugControl2::GetNumberPossibleExecutingProcessorTypes, debugger.getnumberpossibleexecutingprocessortypes, IDebugControl_62f066c6-6ffb-4323-ad82-786a8a763783.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetNumberPossibleExecutingProcessorTypes(
 
 
 
-### -param Number [out]
+#### - Number [out]
 
 Receives the number of processor types.
 
@@ -107,13 +107,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548130">GetPossibleExecutingProcessorTypes</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548130">GetPossibleExecutingProcessorTypes</a>
 
  
 

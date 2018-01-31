@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7dea199f-ef98-4f7b-a3e4-de52fc23c8ef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/RtlNumberGenericTableElements, RtlNumberGenericTableElements routine [Installable File System Drivers], rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml, ifsk.rtlnumbergenerictableelements, RtlNumberGenericTableElements
+ms.keywords: ntddk/RtlNumberGenericTableElements, RtlNumberGenericTableElements, rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml, ifsk.rtlnumbergenerictableelements, RtlNumberGenericTableElements routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG RtlNumberGenericTableElements(
 
 
 
-### -param Table [in]
+#### - Table [in]
 
 Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>.
 
@@ -96,9 +96,9 @@ Callers of <b>RtlNumberGenericTableElements</b> must be running at IRQL &lt; DIS
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
-
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, KSJACK_SINK_INFORMATION structure [Audio Devices], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], *PKSJACK_SINK_INFORMATION, _tagKSJACK_SINK_INFORMATION, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION
+ms.keywords: "*PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, _tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSJACK_SINK_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION"
+req.typenames: KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION
 ---
 
 # _tagKSJACK_SINK_INFORMATION structure
@@ -75,42 +75,42 @@ typedef struct _tagKSJACK_SINK_INFORMATION {
 
 
 
-### -field ConnType
+#### - ConnType
 
 Specifies the connection type of the sink. This parameter is an enumeration of type <a href="http://go.microsoft.com/fwlink/p/?linkid=143848">KSJACK_SINK_CONNECTIONTYPE</a>. 
 
 
-### -field ManufacturerId
+#### - ManufacturerId
 
 Specifies the sink manufacturer ID.
 
 
-### -field ProductId
+#### - ProductId
 
 Specifies the sink product ID.
 
 
-### -field AudioLatency
+#### - AudioLatency
 
 Specifies the sink audio latency.
 
 
-### -field HDCPCapable
+#### - HDCPCapable
 
 Specifies that this jack sink provides support for High-bandwidth Digital Content Protection (HDCP).
 
 
-### -field AICapable
+#### - AICapable
 
 Specifies that this jack sink provides support for the following data packet types: audio content protection (ACP), international standard recording code-1 (ISRC1), and ISRC2.
 
 
-### -field SinkDescriptionLength
+#### - SinkDescriptionLength
 
 Specifies the length of the <b>SinkDescription</b>[] member.
 
 
-### -field SinkDescription
+#### - SinkDescription
 
 Specifies a string that contains the sink name, which must be NULL-terminated. The maximum length is defined by the MAX_SINK_DESCRIPTION_NAME_LENGTH constant (31  characters, plus a terminating <b>NULL</b>).
 

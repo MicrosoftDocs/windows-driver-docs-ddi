@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue method, IWDFIoRequest interface, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, IWDFIoRequest interface, ForwardToIoQueue method, ForwardToIoQueue, umdf.iwdfiorequest_forwardtoioqueue, IWDFIoRequest, IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue method, wdf.iwdfiorequest_forwardtoioqueue
+ms.keywords: ForwardToIoQueue method, IWDFIoRequest interface, IWDFIoRequest interface, ForwardToIoQueue method, IWDFIoRequest, ForwardToIoQueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, wudfddi/IWDFIoRequest::ForwardToIoQueue, umdf.iwdfiorequest_forwardtoioqueue, wdf.iwdfiorequest_forwardtoioqueue, ForwardToIoQueue method, IWDFIoRequest::ForwardToIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.ForwardToIoQueue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT ForwardToIoQueue(
 
 
 
-### -param pDestination [in]
+#### - pDestination [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the destination queue object.
 
@@ -99,15 +99,15 @@ The request cannot be cancelable. If the driver previously called the <a href="h
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
  
 

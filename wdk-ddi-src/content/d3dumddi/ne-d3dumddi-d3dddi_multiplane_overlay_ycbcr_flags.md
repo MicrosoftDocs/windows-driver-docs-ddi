@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d28170a4-2cf3-4e42-bc76-afdb8c3bce70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, display.d3dddi_multiplane_overlay_ycbcr_flags, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
+ms.keywords: display.d3dddi_multiplane_overlay_ycbcr_flags, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS {
 
 
 
-### -field D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE
+#### - D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE
 
 YUV values range from 16 to 235, inclusive, instead of the default range of 0 to 255, inclusive.
 
 
-### -field D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709
+#### - D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709
 
 YUV values should be converted using the BT.709 standard, instead of the default BT.601 conversion.
 
 
-### -field D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
+#### - D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 
 YUV values contain xvYCC data, instead of conventional YCbCr data.
 

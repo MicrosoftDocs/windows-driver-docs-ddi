@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A7917082-4C3F-445A-AD26-32DE670754E5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], portcls/PcGetPhysicalDeviceObject, audio.pcgetphysicaldeviceobject
+ms.keywords: PcGetPhysicalDeviceObject function [Audio Devices], portcls/PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject, audio.pcgetphysicaldeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcGetPhysicalDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcGetPhysicalDeviceObject function
@@ -69,12 +69,12 @@ PORTCLASSAPI NTSTATUS NTAPI PcGetPhysicalDeviceObject(
 
 
 
-### -param pDeviceObject [in]
+#### - pDeviceObject [in]
 
 Pointer to the device object for the device.
 
 
-### -param ppPhysicalObject [out]
+#### - ppPhysicalObject [out]
 
 Pointer to the physical object for the device.
 

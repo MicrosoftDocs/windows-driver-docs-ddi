@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d671ea6e-19cb-4a90-b345-ea544c9561cd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetThreadIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdsByIndex method, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2::GetThreadIdsByIndex, debugger.getthreadidsbyindex, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetThreadIdsByIndex, GetThreadIdsByIndex, dbgeng/IDebugSystemObjects3::GetThreadIdsByIndex, dbgeng/IDebugSystemObjects2::GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects::GetThreadIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdsByIndex method, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects4::GetThreadIdsByIndex, IDebugSystemObjects_fa12ac17-9a66-45c0-9c91-11236a4a3eab.xml, dbgeng/IDebugSystemObjects::GetThreadIdsByIndex
+ms.keywords: dbgeng/IDebugSystemObjects4::GetThreadIdsByIndex, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects3::GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, debugger.getthreadidsbyindex, IDebugSystemObjects::GetThreadIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects_fa12ac17-9a66-45c0-9c91-11236a4a3eab.xml, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdsByIndex method, dbgeng/IDebugSystemObjects2::GetThreadIdsByIndex, IDebugSystemObjects4, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects interface [Windows Debugging], GetThreadIdsByIndex method, dbgeng/IDebugSystemObjects::GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, GetThreadIdsByIndex method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetThreadIdsByIndex, IDebugSystemObjects4::GetThreadIdsByIndex, GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2::GetThreadIdsByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ HRESULT GetThreadIdsByIndex(
 
 
 
-### -param Start [in]
+#### - Start [in]
 
 Specifies the index of the first thread whose IDs are requested.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of threads whose IDs are requested.
 
 
-### -param Ids [out, optional]
+#### - Ids [out, optional]
 
 Receives the engine thread IDs.  If <i>Ids</i> is <b>NULL</b>, this information is not returned; otherwise, <i>Ids</i> is treated as an array of <i>Count</i> ULONG valuess.
 
 
-### -param SysIds [out, optional]
+#### - SysIds [out, optional]
 
 Receives the system thread IDs.  If <i>SysIds</i> is <b>NULL</b>, this information is not returned; otherwise, <i>SysIds</i> is treated as an array of <i>Count</i> ULONG values.
 

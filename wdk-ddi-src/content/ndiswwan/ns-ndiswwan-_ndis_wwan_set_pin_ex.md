@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F08180ED-DC5A-4DA0-A42A-48511BC63DF8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX, ndiswwan/NDIS_WWAN_SET_PIN_EX, netvista.ndis_wwan_set_pin_ex
+ms.keywords: NDIS_WWAN_SET_PIN_EX, ndiswwan/NDIS_WWAN_SET_PIN_EX, ndiswwan/PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_PIN_EX, netvista.ndis_wwan_set_pin_ex, PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN_EX, _NDIS_WWAN_SET_PIN_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_SET_PIN_EX {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_PIN_EX structure. The MB
      Service sets the header with the values that are shown in the following table when it sends the data
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field PinAction
+#### - PinAction
 
 A formatted WWAN_PIN_ACTION object that represents an action to perform with a Personal Identification Number (PIN).
 

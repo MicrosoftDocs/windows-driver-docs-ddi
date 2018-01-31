@@ -68,7 +68,7 @@ NTSTATUS APIENTRY DXGKDDI_GETPOSTCOMPOSITIONCAPS(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 Identifies the adapter containing the overlay hardware.
 

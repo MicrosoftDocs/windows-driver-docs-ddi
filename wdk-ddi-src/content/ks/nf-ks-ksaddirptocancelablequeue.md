@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 399ca0d6-6355-40f8-ac2c-c69d7ae699e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsAddIrpToCancelableQueue, ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, stream.ksaddirptocancelablequeue, KsAddIrpToCancelableQueue, KsAddIrpToCancelableQueue function [Streaming Media Devices]
+ms.keywords: ks/KsAddIrpToCancelableQueue, stream.ksaddirptocancelablequeue, KsAddIrpToCancelableQueue function [Streaming Media Devices], ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, KsAddIrpToCancelableQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ VOID KsAddIrpToCancelableQueue(
 
 
 
-### -param QueueHead [in, out]
+#### - QueueHead [in, out]
 
 Specifies the driver-allocated storage for the head of the queue on which to add the IRP.
 
 
-### -param SpinLock [in]
+#### - SpinLock [in]
 
 Points to driver's spin lock for queue access to the queue specified at <i>QueueHead</i>. A copy of this pointer is kept in the IRP's KSQUEUE_SPINLOCK_IRP_STORAGE(Irp) for use by the cancel routine, if necessary.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP to add to the queue specified at <i>QueueHead</i>.
 
 
-### -param ListLocation [in]
+#### - ListLocation [in]
 
 Indicates whether this IRP should be placed at the beginning or end of the queue. This value must be KsListEntryTail or KsListEntryHead.
 
 
-### -param DriverCancel [in, optional]
+#### - DriverCancel [in, optional]
 
 Optional parameter that specifies a driver-supplied cancel routine to use. If this is <b>NULL</b>, the standard <a href="https://msdn.microsoft.com/library/windows/hardware/ff561011">KsCancelRoutine</a> is used.
 

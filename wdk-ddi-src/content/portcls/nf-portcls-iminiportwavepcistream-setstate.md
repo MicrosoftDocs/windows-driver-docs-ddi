@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ae029e17-7229-49a6-bf5f-96e0cb143d5b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavepcistream_setstate, SetState method [Audio Devices], IMiniportWavePciStream interface, SetState method [Audio Devices], IMiniportWavePciStream, SetState, portcls/IMiniportWavePciStream::SetState, IMiniportWavePciStream interface [Audio Devices], SetState method, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml, IMiniportWavePciStream::SetState
+ms.keywords: SetState method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream::SetState, IMiniportWavePciStream interface [Audio Devices], SetState method, audio.iminiportwavepcistream_setstate, SetState, SetState method [Audio Devices], IMiniportWavePciStream, portcls/IMiniportWavePciStream::SetState, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWavePciStream.SetState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWavePciStream::SetState method
@@ -67,7 +67,7 @@ NTSTATUS SetState(
 
 
 
-### -param State [in]
+#### - State [in]
 
 Specifies the new state of the stream. This parameter is a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 

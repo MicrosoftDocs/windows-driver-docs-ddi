@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2fe73705-4b44-4c75-8677-3325b6be9250
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltgetfilterfrominstance, fltkernel/FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers], FltGetFilterFromInstance, FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml
+ms.keywords: FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml, fltkernel/FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers], FltGetFilterFromInstance, ifsk.fltgetfilterfrominstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetFilterFromInstance(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the instance. 
 
 
-### -param RetFilter [out]
+#### - RetFilter [out]
 
 Pointer to a caller-allocated variable that receives an opaque filter pointer for the minifilter driver. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -117,11 +117,11 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstances.md">FltEnumerateInstances</a>
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstances.md">FltEnumerateInstances</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e61e9e3f-b70f-4b0a-8e64-4c7c4c086130
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetPreferredOperatorList, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetPreferredOperatorList, netvista.ril_setpreferredoperatorlist
+ms.keywords: netvista.ril_setpreferredoperatorlist, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], RIL_SetPreferredOperatorList, rilapi/RIL_SetPreferredOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,23 +74,23 @@ HRESULT  RIL_SetPreferredOperatorList(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param hUiccApp
+#### - hUiccApp
 
 
 
-### -param dwPreferredListSize
+#### - dwPreferredListSize
 
 
 
-### -param lpPreferredList
+#### - lpPreferredList
 
 
 

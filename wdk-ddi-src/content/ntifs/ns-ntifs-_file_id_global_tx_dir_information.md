@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4c4a0458-8ab3-4ef0-b455-c7a70737f322
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], FILE_ID_GLOBAL_TX_DIR_INFORMATION, _FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION
+ms.keywords: ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_ID_GLOBAL_TX_DIR_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION"
+req.typenames: FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION
 ---
 
 # _FILE_ID_GLOBAL_TX_DIR_INFORMATION structure
@@ -80,41 +80,41 @@ typedef struct _FILE_ID_GLOBAL_TX_DIR_INFORMATION {
 
 
 
-### -field NextEntryOffset
+#### - NextEntryOffset
 
 
 The byte offset from the beginning of this entry, at which the next FILE_ID_FULL_DIR_INFORMATION entry is located if multiple entries are present in a buffer. A value of zero indicates no other entries follow this one. 
 
 
 
-### -field FileIndex
+#### - FileIndex
 
 
 The byte offset of the file within the parent directory. For file systems in which the position of a file within the parent directory is not fixed and can be changed to maintain sort order, this field should be set to 0 and is ignored.
 
 
 
-### -field CreationTime
+#### - CreationTime
 
 The time when the file was created. 
 
 
 
-### -field LastAccessTime
+#### - LastAccessTime
 
 
 The last time the file was accessed.
 
 
 
-### -field LastWriteTime
+#### - LastWriteTime
 
 
 The last time information was written to the file.
 
 
 
-### -field ChangeTime
+#### - ChangeTime
 
 
 
@@ -122,21 +122,21 @@ The last time the file was changed.
 
 
 
-### -field EndOfFile
+#### - EndOfFile
 
 
 The absolute new end-of-file position as a byte offset from the start of the file. EndOfFile specifies the offset to the byte immediately following the last valid byte in the file. 
 
 
 
-### -field AllocationSize
+#### - AllocationSize
 
 
 The file allocation size in bytes. The value of this field is an integer multiple of the cluster size.
 
 
 
-### -field FileAttributes
+#### - FileAttributes
 
 The file attributes.
 
@@ -181,28 +181,28 @@ The file attributes.
 
 
 
-### -field FileNameLength
+#### - FileNameLength
 
  
 The length, in bytes, of the file name contained within the <b>FileName</b> member.
 
 
 
-### -field FileId
+#### - FileId
 
  
 A file reference number for the file. The file system generates this number and assigns it to the file. For file systems that do not support <b>FileId</b>, this field is set to 0 and ignored.
 
 
 
-### -field LockingTransactionId
+#### - LockingTransactionId
 
  
 A GUID value of the transaction that has this file locked for modification. The file system generates and assigns this value. 
 
 
 
-### -field TxInfoFlags
+#### - TxInfoFlags
 
 A bitwise OR of zero or more of the following values. 
 <table>
@@ -235,7 +235,7 @@ The transaction's ID must be contained in the <b>LockingTransactionId</b> member
 If the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag is not set, the other flags must not be set. If flags other than FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED are set, the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag must be set.
 
 
-### -field FileName
+#### - FileName
 
 
 A sequence of Unicode characters containing the file name. 

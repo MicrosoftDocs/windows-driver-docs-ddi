@@ -78,41 +78,41 @@ NTSTATUS MiracastIoControl(
 
 
 
-### -param hMiracastDeviceHandle [in]
+#### - hMiracastDeviceHandle [in]
 
 A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
 
 
-### -param HardwareAccess [in]
+#### - HardwareAccess [in]
 
 A Boolean value that indicates whether this I/O control request from the user-mode display driver needs to flush all the pending GPU DMA buffers.
 
 We don't recommend that the driver set this value to <b>TRUE</b> except when necessary, because flushing the GPU will create substantial processing overhead.
 
 
-### -param InputBufferSize [in]
+#### - InputBufferSize [in]
 
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param *pInputBuffer
+#### - *pInputBuffer [in]
+
+A pointer to the input buffer. The <i>InputBufferSize</i> parameter specifies the size of the buffer.
 
 
-
-### -param OutputBufferSize [in]
+#### - OutputBufferSize [in]
 
 The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
-### -param *pOutputBuffer
+#### - *pOutputBuffer [out]
+
+A driver-supplied pointer to the output buffer. The <i>OutputBufferSize</i> parameter specifies the size of the buffer.
 
 
+#### - *pBytesReturned [out, optional]
 
-### -param *pBytesReturned
-
-
-
-
+An optional driver-supplied pointer to a <b>UINT</b>-type variable that holds the number of bytes that the display miniport driver returned.
 
 
 #### - pInputBuffer [in]
@@ -150,11 +150,11 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
 
  
 

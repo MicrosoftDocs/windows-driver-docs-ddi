@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bab2c478-4e46-40d9-a4b6-6f322b18ab0a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kequerymaximumprocessorcount, wdm/KeQueryMaximumProcessorCount, KeQueryMaximumProcessorCount, k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, wdm/KeQueryMaximumProcessorCount, KeQueryMaximumProcessorCount, kernel.kequerymaximumprocessorcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,9 +91,9 @@ Windows 7 and later versions of Windows support processor groups. Drivers that 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a>
-
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+
+<a href="..\ntddk\nf-ntddk-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a>
 
  
 

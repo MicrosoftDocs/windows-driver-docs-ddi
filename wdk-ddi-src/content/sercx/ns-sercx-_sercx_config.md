@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2CBCBA07-C489-4475-A856-8748FBFDC141
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/PSERCX_CONFIG, PSERCX_CONFIG, *PSERCX_CONFIG, PSERCX_CONFIG structure pointer [Serial Ports], SERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], _SERCX_CONFIG, 1/SERCX_CONFIG, serports.sercx_config
+ms.keywords: 1/PSERCX_CONFIG, PSERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], PSERCX_CONFIG structure pointer [Serial Ports], _SERCX_CONFIG, 1/SERCX_CONFIG, serports.sercx_config, SERCX_CONFIG, *PSERCX_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,67 +80,67 @@ typedef struct _SERCX_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure. The <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
-### -field PowerManaged
+#### - PowerManaged
 
 Whether the controller queue should be power-managed. If set to <b>WdfTrue</b>, the controller queue should be power-managed.  If set to <b>WdfFalse</b>, the controller queue not be power-managed. If set to <b>WdfDefault</b>, the controller queue should be power-managed unless the driver calls the <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a> method. For more information, see the description of the <b>PowerManaged</b> member in <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>.
 
 
-### -field EvtSerCxFileOpen
+#### - EvtSerCxFileOpen
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_fileopen.md">EvtSerCxFileOpen</a> callback function. This member is optional and can be set to NULL.
 
 
-### -field EvtSerCxFileClose
+#### - EvtSerCxFileClose
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_fileclose.md">EvtSerCxFileClose</a> callback function. This member is optional and can be set to NULL.
 
 
-### -field EvtSerCxFileCleanup
+#### - EvtSerCxFileCleanup
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a> callback function. This member is optional and can be set to NULL.
 
 
-### -field EvtSerCxTransmit
+#### - EvtSerCxTransmit
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a> callback function. This member is required to point to a valid callback function.
 
 
-### -field EvtSerCxReceive
+#### - EvtSerCxReceive
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a> callback function. This member is required to point to a valid callback function.
 
 
-### -field EvtSerCxWaitmask
+#### - EvtSerCxWaitmask
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a> callback function. This member is required to point to a valid callback function.
 
 
-### -field EvtSerCxPurge
+#### - EvtSerCxPurge
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_purge.md">EvtSerCxPurge</a> callback function. This member is optional and can be set to NULL.
 
 
-### -field EvtSerCxControl
+#### - EvtSerCxControl
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a> callback function. This member is required to point to a valid callback function.
 
 
-### -field EvtSerCxApplyConfig
+#### - EvtSerCxApplyConfig
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a> callback function. This member is required to point to a valid callback function.
 
 
-### -field EvtSerCxTransmitCancel
+#### - EvtSerCxTransmitCancel
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_transmit_cancel.md">EvtSerCxTransmitCancel</a> callback function. This member is optional and can be set to NULL.
 
 
-### -field EvtSerCxReceiveCancel
+#### - EvtSerCxReceiveCancel
 
 A pointer to the controller driver's <a href="..\sercx\nc-sercx-evt_sercx_receive_cancel.md">EvtSerCxReceiveCancel</a> callback function. This member is optional and can be set to NULL.
 
@@ -154,35 +154,35 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx_receive_cancel.md">EvtSerCxReceiveCancel</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a>
-
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx_purge.md">EvtSerCxPurge</a>
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx_transmit_cancel.md">EvtSerCxTransmitCancel</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a>
+<a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a>
 
 <a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
 
-<a href="..\sercx\nc-sercx-evt_sercx_fileopen.md">EvtSerCxFileOpen</a>
+<a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
 
-<a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
 
 <a href="..\sercx\nc-sercx-evt_sercx_fileclose.md">EvtSerCxFileClose</a>
 
+<a href="..\sercx\nc-sercx-evt_sercx_fileopen.md">EvtSerCxFileOpen</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_receive_cancel.md">EvtSerCxReceiveCancel</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
+
+<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
+
 <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
 
-<a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
+<a href="..\sercx\nc-sercx-evt_sercx_purge.md">EvtSerCxPurge</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_transmit_cancel.md">EvtSerCxTransmitCancel</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a>
 
  
 

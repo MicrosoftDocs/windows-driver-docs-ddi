@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4a37bfed-cf8e-4c97-a9fe-a44d910bed92
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_FILE_FS_FULL_SIZE_INFORMATION, *PFILE_FS_FULL_SIZE_INFORMATION, PFILE_FS_FULL_SIZE_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_7ba05d64-c04e-48cf-84f1-48ad8de5d35b.xml, FILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION structure [Installable File System Drivers], ntddk/FILE_FS_FULL_SIZE_INFORMATION, PFILE_FS_FULL_SIZE_INFORMATION, ntddk/PFILE_FS_FULL_SIZE_INFORMATION, ifsk.file_fs_full_size_information"
+ms.keywords: "*PFILE_FS_FULL_SIZE_INFORMATION, ntddk/FILE_FS_FULL_SIZE_INFORMATION, PFILE_FS_FULL_SIZE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION structure [Installable File System Drivers], ifsk.file_fs_full_size_information, ntddk/PFILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION, PFILE_FS_FULL_SIZE_INFORMATION, fileinformationstructures_7ba05d64-c04e-48cf-84f1-48ad8de5d35b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FS_FULL_SIZE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_FS_FULL_SIZE_INFORMATION, *PFILE_FS_FULL_SIZE_INFORMATION
+req.typenames: "*PFILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION"
 ---
 
 # _FILE_FS_FULL_SIZE_INFORMATION structure
@@ -71,31 +71,31 @@ typedef struct _FILE_FS_FULL_SIZE_INFORMATION {
 
 
 
-### -field TotalAllocationUnits
+#### - TotalAllocationUnits
 
 Total number of allocation units on the volume that are available to the user associated with the calling thread. 
 
 <b>Microsoft Windows 2000 and later:</b> If per-user quotas are in use, this value may be less than the total number of allocation units on the disk. 
 
 
-### -field CallerAvailableAllocationUnits
+#### - CallerAvailableAllocationUnits
 
 Total number of free allocation units on the volume that are available to the user associated with the calling thread. 
 
 <b>Windows 2000 and later:</b> If per-user quotas are in use, this value may be less than the total number of free allocation units on the disk. 
 
 
-### -field ActualAvailableAllocationUnits
+#### - ActualAvailableAllocationUnits
 
 Total number of free allocation units on the volume. 
 
 
-### -field SectorsPerAllocationUnit
+#### - SectorsPerAllocationUnit
 
 Number of sectors in each allocation unit. 
 
 
-### -field BytesPerSector
+#### - BytesPerSector
 
 Number of bytes in each sector. 
 

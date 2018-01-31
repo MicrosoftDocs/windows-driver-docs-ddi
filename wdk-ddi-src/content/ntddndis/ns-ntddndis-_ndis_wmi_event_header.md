@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b9e2c393-cf77-4193-ba59-b8eb914ef1e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WMI_EVENT_HEADER, ntddndis/PNDIS_WMI_EVENT_HEADER, ntddndis/NDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER structure [Network Drivers Starting with Windows Vista], netvista.ndis_wmi_event_header, ndis_wmi_ref_ebe1bff7-7e6d-47e7-b79c-3e53a733ac54.xml, PNDIS_WMI_EVENT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER
+ms.keywords: ndis_wmi_ref_ebe1bff7-7e6d-47e7-b79c-3e53a733ac54.xml, ntddndis/NDIS_WMI_EVENT_HEADER, _NDIS_WMI_EVENT_HEADER, PNDIS_WMI_EVENT_HEADER structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER, netvista.ndis_wmi_event_header, ntddndis/PNDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WMI_EVENT_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER"
+req.typenames: NDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER
 ---
 
 # _NDIS_WMI_EVENT_HEADER structure
@@ -74,7 +74,7 @@ typedef struct _NDIS_WMI_EVENT_HEADER {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for this
@@ -85,18 +85,18 @@ The
      sizeof(NDIS_WMI_EVENT_HEADER).
 
 
-### -field IfIndex
+#### - IfIndex
 
 The NDIS interface index of the NDIS miniport adapter interface that is associated with the
      GUID.
 
 
-### -field NetLuid
+#### - NetLuid
 
 The NDIS network interface name of the miniport adapter.
 
 
-### -field RequestId
+#### - RequestId
 
 An identifier for the request. If a miniport driver must complete a request immediately and it
      completes the request with a status of NDIS_STATUS_INDICATION_REQUIRED, the miniport driver uses this 
@@ -115,24 +115,24 @@ For more information about this member, see
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
 
 
-### -field PortNumber
+#### - PortNumber
 
 The miniport adapter port, if any. If the GUID is not specific to a port, 
      <b>PortNumber</b> is zero.
 
 
-### -field DeviceNameLength
+#### - DeviceNameLength
 
 The length, in bytes, of the device name.
 
 
-### -field DeviceNameOffset
+#### - DeviceNameOffset
 
 The offset, in bytes, to the beginning of the device name from the beginning of the
      NDIS_WMI_EVENT_HEADER structure.
 
 
-### -field Padding
+#### - Padding
 
 This member is reserved.
 

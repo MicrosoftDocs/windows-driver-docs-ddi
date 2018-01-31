@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: E7A2FC77-86B0-4990-93DC-2A04E33A426C
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], *PCHANNEL_CONFIG_RESULTS_ENHANCED, _CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], bltooth.channel_config_results_enhanced, CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED
+ms.keywords: bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED, bltooth.channel_config_results_enhanced, PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANNEL_CONFIG_RESULTS_ENHANCED
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED"
+req.typenames: CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCED
 ---
 
 # _CHANNEL_CONFIG_RESULTS_ENHANCED structure
@@ -68,12 +68,12 @@ typedef struct _CHANNEL_CONFIG_RESULTS_ENHANCED {
 
 
 
-### -field Params
+#### - Params
 
 Channel parameters for the given direction of the channel
 
 
-### -field ExtraOptionsBufferSize
+#### - ExtraOptionsBufferSize
 
 Amount of buffer required to retrieve the current extra options for the given direction
 

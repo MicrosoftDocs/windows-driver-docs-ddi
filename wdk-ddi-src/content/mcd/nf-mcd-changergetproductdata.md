@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2723a34-d9c2-40c9-b6c9-6441ead63d2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mcd/ChangerGetProductData, ChangerGetProductData, ChangerGetProductData function [Storage Devices], storage.changergetproductdata, chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml
+ms.keywords: ChangerGetProductData, mcd/ChangerGetProductData, ChangerGetProductData function [Storage Devices], chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, storage.changergetproductdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS ChangerGetProductData(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that represents the changer. 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP. 
 
@@ -100,9 +100,9 @@ The changer class driver checks the output buffer length in the I/O stack locati
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">CHANGER_PRODUCT_DATA</a>
+
+<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
 
  
 

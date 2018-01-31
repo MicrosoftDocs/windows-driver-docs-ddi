@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B45E2463-1EBC-4F32-B3AD-8331E664BB24
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelcreategpadlfrombuffer, VmbChannelCreateGpadlFromBuffer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromBuffer, VmbChannelCreateGpadlFromBuffer, VMBUS_CHANNEL_GPADL_READ_ONLY
+ms.keywords: VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromBuffer, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromBuffer, VmbChannelCreateGpadlFromBuffer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcreategpadlfrombuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelCreateGpadlFromBuffer
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -77,12 +77,12 @@ NTSTATUS
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
  A handle for a channel.  
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags. The possible values are the following:
 <table>
@@ -104,20 +104,20 @@ If you specify this value, the buffer is read-only. Otherwise, the server can wr
 </table> 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
  The buffer, which is probed and locked
 until the GPADL is torn down.
 
 
 
-### -param ByteCount [in]
+#### - ByteCount [in]
 
 The length of the buffer, in bytes.
 
 
 
-### -param GpadlHandle [out]
+#### - GpadlHandle [out]
 
 A GPADL handle of the created Memory Descriptor List (MDL). Send this to the server to use with the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a> function.
 
@@ -136,9 +136,9 @@ The GPADL must be deleted by using the <a href="..\vmbuskernelmodeclientlibapi\n
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
 
  
 

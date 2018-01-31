@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05298ffe-75e5-444e-9843-54dd063f59f5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method
+ms.keywords: WdfCompanionCreateTaskQueue method, WdfCompanionCreateTaskQueue, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,18 +72,18 @@ NTSTATUS WdfCompanionCreateTaskQueue(
 
 
 
-### -param Companion [in]
+#### - Companion [in]
 
 
 
-### -param Config [in]
+#### - Config [in]
 
 
 
-### -param QueueAttributes [in, optional]
+#### - QueueAttributes [in, optional]
 
 
 
-### -param Queue [out, optional]
+#### - Queue [out, optional]
 
 

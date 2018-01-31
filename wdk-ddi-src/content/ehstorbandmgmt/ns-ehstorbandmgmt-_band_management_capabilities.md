@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 102C7CEC-B1DD-49F6-AB7F-0CE0A22EBE54
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: BAND_MANAGEMENT_CAPABILITIES, CAPS_BANDCROSSING_SUPPORTED, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], *PBAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, CAPS_SID_SECURED, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], MEDIAKEY_PROTECTEDBY_AUTHKEY, storage.band_management_capabilities, CAPS_ACTIVATED, 0, _BAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES
+ms.keywords: CAPS_SID_SECURED, BAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], MEDIAKEY_PROTECTEDBY_VENDORSCHEME, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], storage.band_management_capabilities, CAPS_ACTIVATED, _BAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES, MEDIAKEY_PROTECTEDBY_AUTHKEY, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, 0, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, CAPS_BANDCROSSING_SUPPORTED, *PBAND_MANAGEMENT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _BAND_MANAGEMENT_CAPABILITIES {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(BAND_MANAGEMENT_CAPABILITIES).
 
 
-### -field Capabilities
+#### - Capabilities
 
 Security capability flags for a storage device. This is a bitwise OR value of the following flags.
 <table>
@@ -120,7 +120,7 @@ SID authority is secured. If set, the default SID pin cannot be used to modify t
 </table> 
 
 
-### -field KeyProtectionMechanism
+#### - KeyProtectionMechanism
 
 The mechanism used to protect the media keys. This member is set to one of the following.
 <table>
@@ -161,27 +161,27 @@ Keys are encrypted by keys derived from band authentication keys. Key derivation
 </table> 
 
 
-### -field MinAuthKeyLength
+#### - MinAuthKeyLength
 
 The minimum length, in bytes, of the  band authentication or erase keys accepted by the storage device.
 
 
-### -field MaxAuthKeyLength
+#### - MaxAuthKeyLength
 
 The maximum length, in bytes, of the  band authentication or erase keys accepted by the storage device.
 
 
-### -field MaxBandCount
+#### - MaxBandCount
 
 The maximum number of simultaneous bands configured in the storage device. This includes the global band.
 
 
-### -field MaxSimultaneousReencryptionCount
+#### - MaxSimultaneousReencryptionCount
 
 The number of simultaneous band re-encryptions the hardware on the device supports. If this member is 0, hardware-driven band re-encryptions are not supported.
 
 
-### -field BandMetadataSize
+#### - BandMetadataSize
 
 The size, in bytes, of the per band metadata store.
 
@@ -195,9 +195,9 @@ If <b>CAPS_ACTIVATED</b> is not set in <b>Capabilities</b>, security functionali
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
 
  
 

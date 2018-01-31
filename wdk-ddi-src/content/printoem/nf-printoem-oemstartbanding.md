@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: dc9a1cf4-89d5-46d4-b914-1bc8368d3a42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemstartbanding, printoem/OEMStartBanding, OEMStartBanding, OEMStartBanding function [Print Devices], print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml
+ms.keywords: print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml, printoem/OEMStartBanding, OEMStartBanding, print.oemstartbanding, OEMStartBanding function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,10 +69,10 @@ BOOL APIENTRY OEMStartBanding(
 
 
 
-### -param pso
+#### - pso
 
 
 
-### -param pptl
+#### - pptl
 
 

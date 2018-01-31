@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocatorMode_User, ksproxy/KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], ksproxy/KsAllocatorMode_User, KsAllocatorMode_Kernel, KSALLOCATORMODE, ksproxy/KsAllocatorMode_Kernel, stream.ksallocatormode
+ms.keywords: stream.ksallocatormode, ksproxy/KsAllocatorMode_Kernel, KsAllocatorMode_Kernel, ksproxy/KsAllocatorMode_User, KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], KsAllocatorMode_User, ksproxy/KSALLOCATORMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,10 +68,10 @@ typedef enum  {
 
 
 
-### -field KsAllocatorMode_User
+#### - KsAllocatorMode_User
 
 
 
-### -field KsAllocatorMode_Kernel
+#### - KsAllocatorMode_Kernel
 
 

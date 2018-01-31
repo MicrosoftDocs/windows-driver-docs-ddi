@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_CHANNEL_RESTORE_PACKET
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -80,30 +80,30 @@ typedef EVT_VMB_CHANNEL_RESTORE_PACKET PFN_VMB_CHANNEL_RESTORE_PACKET;
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The channel on which the packet arrives.
 
 
-### -param LibBuf [in]
+#### - LibBuf [in]
 
 Pointer to packet object state internal to the Kernel Mode Client Library (KMCL).
 
 
 
-### -param LibBufSize [in]
+#### - LibBufSize [in]
 
 Size of the <i>LibBuf</i> parameter, in bytes.
 
 
 
-### -param SaveBuf [in]
+#### - SaveBuf [in]
 
 Pointer to transaction state specific to the VSP.
 
 
 
-### -param SaveBufSize [in]
+#### - SaveBufSize [in]
 
 Size of the <i>SaveBuf</i> parameter, in bytes.
 
@@ -131,9 +131,9 @@ callback function, then this is provided in <i>SaveBuf</i>, and restored by the 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_restore_packet.md">EvtVmbChannelSavePacket</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketrestore.md">VmbPacketRestore</a>
 

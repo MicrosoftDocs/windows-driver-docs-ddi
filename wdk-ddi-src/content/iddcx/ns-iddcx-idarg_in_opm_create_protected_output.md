@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5727881-de35-4a61-bf54-0552d2de454b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure [Display Devices], iddcx/IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT, display.idarg_in_opm_create_protected_output, IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
+ms.keywords: iddcx/IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT, display.idarg_in_opm_create_protected_output, IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT, IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT {
 
 
 
-### -field VideoOutputSemantics
+#### - VideoOutputSemantics
 
 
                      [in] Type of video output semantics used for this context.

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6fa0cf86-35f4-4e5d-bced-ebd2ec499b64
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, KeInitializeCrashDumpHeader, kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeInitializeCrashDumpHeader, k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, wdm/KeInitializeCrashDumpHeader, kernel.keinitializecrashdumpheader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS KeInitializeCrashDumpHeader(
 
 
 
-### -param DumpType [in]
+#### - DumpType [in]
 
 Specifies the type of dump file. The only valid value is DUMP_TYPE_FULL.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies flags for the dump file. The only valid value is 0.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to the buffer that receives the header information.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer pointed to by <i>Buffer</i>.
 
 
-### -param BufferNeeded [out, optional]
+#### - BufferNeeded [out, optional]
 
 Optionally, a pointer to a variable that receives the size necessary to hold the complete header information.
 

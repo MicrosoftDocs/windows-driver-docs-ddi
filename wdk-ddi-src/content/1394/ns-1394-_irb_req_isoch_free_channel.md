@@ -67,7 +67,7 @@ typedef struct _IRB_REQ_ISOCH_FREE_CHANNEL {
 
 
 
-### -field nChannel
+#### - nChannel
 
 Specifies which allocated channel to release.
 

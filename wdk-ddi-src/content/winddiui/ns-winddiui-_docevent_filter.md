@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER, print.docevent_filter, *PDOCEVENT_FILTER, DOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], _DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, winddiui/DOCEVENT_FILTER
+ms.keywords: "_DOCEVENT_FILTER, winddiui/DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], *PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, DOCEVENT_FILTER, PDOCEVENT_FILTER, print.docevent_filter, winddiui/PDOCEVENT_FILTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOCEVENT_FILTER
 product: Windows
 targetos: Windows
-req.typenames: "*PDOCEVENT_FILTER, DOCEVENT_FILTER"
+req.typenames: DOCEVENT_FILTER, *PDOCEVENT_FILTER
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef struct _DOCEVENT_FILTER {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Spooler-supplied size, in bytes, of this structure. The spooler initializes this member to <b>sizeof</b>(DOCEVENT_FILTER).
 
 
-### -field cElementsAllocated
+#### - cElementsAllocated
 
 Spooler-supplied number of elements in the <b>aDocEventCall</b> array member. The spooler initializes this member to DOCUMENTEVENT_LAST - 1. (The DOCUMENTEVENT_LAST constant is defined in header file Winddiui.h.)
 
 
-### -field cElementsNeeded
+#### - cElementsNeeded
 
 Driver-supplied total number of elements needed in the <b>aDocEventCall</b> array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
 
 
-### -field cElementsReturned
+#### - cElementsReturned
 
 Driver-supplied number of DOCUMENTEVENT_<i>XXX </i>events that it placed in the <b>aDocEventCall</b> array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
 
 
-### -field aDocEventCall
+#### - aDocEventCall
 
 Driver-filled array of DWORDs listing all of the DOCUMENTEVENT_<i>XXX</i> events to which the printer driver will respond. The spooler initializes this member to 0.
 

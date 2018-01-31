@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8fd7aeea-f8b2-4f53-b4b6-65240ff0c7b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFastUnlockSingle routine [Installable File System Drivers], FsRtlFastUnlockSingle, ntifs/FsRtlFastUnlockSingle, fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, ifsk.fsrtlfastunlocksingle
+ms.keywords: ifsk.fsrtlfastunlocksingle, ntifs/FsRtlFastUnlockSingle, fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,42 +74,42 @@ NTSTATUS FsRtlFastUnlockSingle(
 
 
 
-### -param FileLock [in]
+#### - FileLock [in]
 
 A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the file object for the file.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 A pointer to a variable that specifies the starting byte offset within the file of the range to be unlocked.
 
 
-### -param Length [in]
+#### - Length [in]
 
 A pointer to a variable that specifies the length, in bytes, of the range to be unlocked.
 
 
-### -param ProcessId [in]
+#### - ProcessId [in]
 
 A pointer to the process ID for the process.
 
 
-### -param Key [in]
+#### - Key [in]
 
 The key for the byte-range lock.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 An optional context pointer to be used when completing IRPs. 
 
 
-### -param AlreadySynchronized [in]
+#### - AlreadySynchronized [in]
 
 This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
@@ -123,9 +123,9 @@ The <b>FsRtlFastUnlockSingle</b> routine returns STATUS_SUCCESS or an error stat
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
  
 

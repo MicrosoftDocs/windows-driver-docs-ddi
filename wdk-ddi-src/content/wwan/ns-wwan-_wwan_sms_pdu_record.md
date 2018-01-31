@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 20200222-8539-497e-891e-2d29c3207c56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD, _WWAN_SMS_PDU_RECORD, WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, PWWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_sms_pdu_record
+ms.keywords: WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_PDU_RECORD, netvista.wwan_sms_pdu_record, _WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD, wwan/PWWAN_SMS_PDU_RECORD, WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, *PWWAN_SMS_PDU_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _WWAN_SMS_PDU_RECORD {
 
 
 
-### -field MessageIndex
+#### - MessageIndex
 
 An index into the virtual message store that is maintained by the miniport driver. This index is
      1-based and the maximum index is 
@@ -80,13 +80,13 @@ An index into the virtual message store that is maintained by the miniport drive
      message, this must be set to WWAN_MESSAGE_INDEX_NONE.
 
 
-### -field MsgStatus
+#### - MsgStatus
 
 The status of the record that represents whether the SMS message is new (unread), old (read), a
      draft, or sent.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the record.
      
@@ -98,7 +98,7 @@ For CDMA-based devices, this represents the number of bytes in the
      <b>PduData</b> .
 
 
-### -field PduData
+#### - PduData
 
 For GSM-based devices, a NULL-terminated string that contains the content of the record coded in a
      hexadecimal string format (according to the 3GPP TS 27.005 and 3GPP TS 23.040 standards) that represents

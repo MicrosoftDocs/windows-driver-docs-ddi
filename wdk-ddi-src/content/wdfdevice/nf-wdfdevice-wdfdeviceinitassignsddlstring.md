@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f7d2511-5a9b-476e-a771-a528c2bead10
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitAssignSDDLString method, wdf.wdfdeviceinitassignsddlstring, WdfDeviceInitAssignSDDLString, wdfdevice/WdfDeviceInitAssignSDDLString, kmdf.wdfdeviceinitassignsddlstring, DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml
+ms.keywords: wdfdevice/WdfDeviceInitAssignSDDLString, WdfDeviceInitAssignSDDLString, kmdf.wdfdeviceinitassignsddlstring, WdfDeviceInitAssignSDDLString method, DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml, wdf.wdfdeviceinitassignsddlstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfDeviceInitAssignSDDLString(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param SDDLString [in, optional]
+#### - SDDLString [in, optional]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that describes a Unicode string. This string is an SDDL representation of a security descriptor.
 

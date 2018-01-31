@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTargetStateManagement interface, Stop method, umdf.iwdfiotargetstatemanagement_stop, IWDFIoTargetStateManagement, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, Stop method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_stop, Stop, Stop method, IWDFIoTargetStateManagement::Stop, wudfddi/IWDFIoTargetStateManagement::Stop
+ms.keywords: Stop, Stop method, IWDFIoTargetStateManagement, wudfddi/IWDFIoTargetStateManagement::Stop, IWDFIoTargetStateManagement interface, Stop method, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, umdf.iwdfiotargetstatemanagement_stop, Stop method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_stop, IWDFIoTargetStateManagement::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTargetStateManagement.Stop
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT Stop(
 
 
 
-### -param Action [in]
+#### - Action [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that identifies how to handle sent I/O when the I/O target object is stopped.
 
@@ -115,9 +115,9 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
 
  
 

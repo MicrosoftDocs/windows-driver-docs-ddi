@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2EC0C859-5479-4A55-9180-DB9938400DF7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetStreamAttributeSteppings, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamAttributeSteppings method, GetStreamAttributeSteppings method [Audio Devices], GetStreamAttributeSteppings method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode
+ms.keywords: IMiniportStreamAudioEngineNode, GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamAttributeSteppings method, GetStreamAttributeSteppings method [Audio Devices], GetStreamAttributeSteppings method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings method
@@ -69,17 +69,17 @@ NTSTATUS GetStreamAttributeSteppings(
 
 
 
-### -param targetType [in]
+#### - targetType [in]
 
 An <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a> enumerated value that specifies the  target node type.
 
 
-### -param pKsPropStepLong [out]
+#### - pKsPropStepLong [out]
 
 A structure of type <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the audio stream attribute.
 
 
-### -param ui32DataSize [in]
+#### - ui32DataSize [in]
 
 The allowed stepping value.
 

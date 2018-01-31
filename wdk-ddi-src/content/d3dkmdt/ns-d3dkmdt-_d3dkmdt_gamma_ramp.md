@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a875a1e-ef4f-4851-9329-f1fd2aca261f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_gamma_ramp, DmStructs_bb8721fc-b604-45e4-b3c8-ff27bda95e5b.xml, d3dkmdt/D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP structure [Display Devices], _D3DKMDT_GAMMA_RAMP
+ms.keywords: D3DKMDT_GAMMA_RAMP, d3dkmdt/D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP structure [Display Devices], display.d3dkmdt_gamma_ramp, DmStructs_bb8721fc-b604-45e4-b3c8-ff27bda95e5b.xml, _D3DKMDT_GAMMA_RAMP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,17 +94,17 @@ typedef struct _D3DKMDT_GAMMA_RAMP {
  
 
 
-### -field Type
+#### - Type
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_gammaramp_type.md">D3DDDI_GAMMARAMP_TYPE</a> enumerator that specifies the format of the lookup table. 
 
 
-### -field DataSize
+#### - DataSize
 
 The size, in bytes, of the lookup table pointed to by <i>Data</i>.
 
 
-### -field Data
+#### - Data
 
 [in] A union that contains one of the following ways to access the lookup table data depending on the value in the Type member:
 

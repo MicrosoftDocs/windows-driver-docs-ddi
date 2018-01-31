@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 64e46fd5-f6bf-425d-b2a5-c938f8e565b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAUDIO_CHANNEL_CONFIG, audio.ksaudio_channel_config, *PKSAUDIO_CHANNEL_CONFIG, ksmedia/KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices]
+ms.keywords: KSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, ksmedia/PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], *PKSAUDIO_CHANNEL_CONFIG, audio.ksaudio_channel_config, PKSAUDIO_CHANNEL_CONFIG, ksmedia/KSAUDIO_CHANNEL_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIO_CHANNEL_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
+req.typenames: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG"
 ---
 
 # KSAUDIO_CHANNEL_CONFIG structure
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-### -field ActiveSpeakerPositions
+#### - ActiveSpeakerPositions
 
 Specifies both the number of channels and the assignment of those channels to speaker positions. This member is a bitmask in which each bit within the mask corresponds to a particular speaker position. If a mask bit is set, the audio stream contains a channel that is assigned to the speaker position that the mask bit represents. The number of channels in the stream is obtained by counting how many number ones appear in the bitmask. For more information, see the following Remarks section.
 
@@ -615,9 +615,9 @@ Side Right (8 MSBs)
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
+
+<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
 
  
 

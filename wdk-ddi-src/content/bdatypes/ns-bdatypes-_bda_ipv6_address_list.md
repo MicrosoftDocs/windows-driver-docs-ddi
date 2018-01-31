@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45C8C690-7545-47D5-8E98-FB976797AA1A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/BDA_IPv6_ADDRESS_LIST, bdatypes/PBDA_IPv6_ADDRESS_LIST, *PBDA_IPv6_ADDRESS_LIST, PBDA_IPv6_ADDRESS_LIST structure pointer [Streaming Media Devices], BDA_IPv6_ADDRESS_LIST, _BDA_IPv6_ADDRESS_LIST, PBDA_IPv6_ADDRESS_LIST, stream.bda_ipv6_address_list, BDA_IPv6_ADDRESS_LIST structure [Streaming Media Devices]
+ms.keywords: BDA_IPv6_ADDRESS_LIST, bdatypes/BDA_IPv6_ADDRESS_LIST, *PBDA_IPv6_ADDRESS_LIST, PBDA_IPv6_ADDRESS_LIST structure pointer [Streaming Media Devices], BDA_IPv6_ADDRESS_LIST structure [Streaming Media Devices], stream.bda_ipv6_address_list, bdatypes/PBDA_IPv6_ADDRESS_LIST, PBDA_IPv6_ADDRESS_LIST, _BDA_IPv6_ADDRESS_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,10 +68,10 @@ typedef struct _BDA_IPv6_ADDRESS_LIST {
 
 
 
-### -field ulcAddresses
+#### - ulcAddresses
 
 
 
-### -field rgAddressl
+#### - rgAddressl
 
 

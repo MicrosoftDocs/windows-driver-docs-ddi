@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c785e23-5b80-4518-8a90-3f46e8ad9b1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ENG_EVENT structure [Display Devices], ntddvdeo/ENG_EVENT, PENG_EVENT, *PENG_EVENT, Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, *PEVENT, ENG_EVENT, ntddvdeo/PENG_EVENT, PENG_EVENT structure pointer [Display Devices], display.eng_event, _ENG_EVENT
+ms.keywords: Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, ntddvdeo/ENG_EVENT, _ENG_EVENT, ntddvdeo/PENG_EVENT, PENG_EVENT, *PEVENT, *PENG_EVENT, PENG_EVENT structure pointer [Display Devices], ENG_EVENT structure [Display Devices], ENG_EVENT, display.eng_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ENG_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PEVENT, ENG_EVENT, *PENG_EVENT"
+req.typenames: "*PEVENT, *PENG_EVENT, ENG_EVENT"
 ---
 
 # _ENG_EVENT structure
@@ -68,12 +68,12 @@ typedef struct _ENG_EVENT {
 
 
 
-### -field pKEvent
+#### - pKEvent
 
 Reserved for system use.
 
 
-### -field fFlags
+#### - fFlags
 
 Reserved for system use.
 

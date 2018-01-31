@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eea0c2d7-0338-4f34-acae-6ab869011696
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlinitperstreamcontext, fsrtlref_13a48f5e-d3e7-49fa-8c4c-bb2d061f2b2a.xml, FsRtlInitPerStreamContext, ntifs/FsRtlInitPerStreamContext, FsRtlInitPerStreamContext function [Installable File System Drivers]
+ms.keywords: ifsk.fsrtlinitperstreamcontext, FsRtlInitPerStreamContext, fsrtlref_13a48f5e-d3e7-49fa-8c4c-bb2d061f2b2a.xml, FsRtlInitPerStreamContext function [Installable File System Drivers], ntifs/FsRtlInitPerStreamContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -150,21 +150,21 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
-
 <a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
-
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
 
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
+
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 

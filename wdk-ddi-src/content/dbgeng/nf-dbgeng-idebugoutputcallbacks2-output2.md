@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, debugger.idebugoutputcallbacks2_output2, dbgeng/IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], DEBUG_OUTCBI_DML, Output2, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2::Output2, DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface
+ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, Output2, Output2 method [Windows Debugging], IDebugOutputCallbacks2, DEBUG_OUTCBI_TEXT, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, debugger.idebugoutputcallbacks2_output2, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output2, IDebugOutputCallbacks2::Output2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT Output2(
 
 
 
-### -param Which [in]
+#### - Which [in]
 
  The kind of notification that is coming in. 
 <table>
@@ -130,17 +130,17 @@ content in any format.
 </table> 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags that are part of the notification payload.
 
 
-### -param Arg [in]
+#### - Arg [in]
 
 Arguments that are part of the notification payload.
 
 
-### -param Text [in, optional]
+#### - Text [in, optional]
 
 A pointer to text that is part of the notification payload.
 

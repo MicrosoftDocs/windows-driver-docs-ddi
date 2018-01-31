@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDEREGISTERS, IDEREGISTERS structure [Storage Devices], IDEREGISTERS, storage.ideregisters, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, *PIDEREGISTERS, irb/PIDEREGISTERS, irb/IDEREGISTERS
+ms.keywords: structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, IDEREGISTERS, irb/IDEREGISTERS, irb/PIDEREGISTERS, *PIDEREGISTERS, PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], IDEREGISTERS structure [Storage Devices], _IDEREGISTERS, storage.ideregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDEREGISTERS
 product: Windows
 targetos: Windows
-req.typenames: "*PIDEREGISTERS, IDEREGISTERS"
+req.typenames: IDEREGISTERS, *PIDEREGISTERS
 ---
 
 # _IDEREGISTERS structure
@@ -74,42 +74,42 @@ typedef struct _IDEREGISTERS {
 
 
 
-### -field bFeaturesReg
+#### - bFeaturesReg
 
 Specifies the contents of the ATA features register.
 
 
-### -field bSectorCountReg
+#### - bSectorCountReg
 
 Specifies the contents of the ATA Sector Count register.
 
 
-### -field bSectorNumberReg
+#### - bSectorNumberReg
 
 Specifies the contents of the ATA Sector Number register.
 
 
-### -field bCylLowReg
+#### - bCylLowReg
 
 Specifies the contents of the ATA Cylinder Low register.
 
 
-### -field bCylHighReg
+#### - bCylHighReg
 
 Specifies the contents of the ATA Cylinder High register.
 
 
-### -field bDriveHeadReg
+#### - bDriveHeadReg
 
 Specifies the contents of the ATA Device/Head register.
 
 
-### -field bCommandReg
+#### - bCommandReg
 
 Specifies the contents of the ATA Command register.
 
 
-### -field bReserved
+#### - bReserved
 
 Reserved for future use. The miniport driver shall not use this field.
 

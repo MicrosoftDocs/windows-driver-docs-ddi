@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCompleteMediaType, IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, IKsDataTypeCompletion, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, stream.iksdatatypecompletion_kscompletemediatype, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices]
+ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, IKsDataTypeCompletion, stream.iksdatatypecompletion_kscompletemediatype, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT KsCompleteMediaType(
 
 
 
-### -param FilterHandle [in]
+#### - FilterHandle [in]
 
 Handle to the underlying KS filter.
 
 
-### -param PinFactoryId [in]
+#### - PinFactoryId [in]
 
 Identifier of the pin factory against which the media type is being completed.
 
 
-### -param AmMediaType [in, out]
+#### - AmMediaType [in, out]
 
 Pointer to a AM_MEDIA_TYPE structure that describes the format of the media samples. <b>KsCompleteMediaType</b> receives partially specified media samples, completes the specification, and returns.
 
@@ -104,9 +104,9 @@ For more information about <b>IAMStreamConfig::SetFormat</b> and AM_MEDIA_TYPE, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
 
  
 

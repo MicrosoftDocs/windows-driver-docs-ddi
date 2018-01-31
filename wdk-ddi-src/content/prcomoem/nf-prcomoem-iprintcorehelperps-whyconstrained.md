@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 23953142-9246-41cf-91b4-75b1a3f6128e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreHelperPS, WhyConstrained, WhyConstrained method [Print Devices], print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml, print.iprintcorehelperps_whyconstrained, prcomoem/IPrintCoreHelperPS::WhyConstrained, IPrintCoreHelperPS::WhyConstrained, IPrintCoreHelperPS interface [Print Devices], WhyConstrained method, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface
+ms.keywords: WhyConstrained method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices], WhyConstrained method, WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreHelperPS::WhyConstrained, prcomoem/IPrintCoreHelperPS::WhyConstrained, IPrintCoreHelperPS, print.iprintcorehelperps_whyconstrained, print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ STDMETHOD WhyConstrained(
 
 
 
-### -param pDevmode [in, optional]
+#### - pDevmode [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelperPS::WhyConstrained</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter. 
 
 
-### -param pszFeatureKeyword [in]
+#### - pszFeatureKeyword [in]
 
 A pointer to an ANSI string that contains the name of the feature. The feature name should correspond to the keyword that is used in the PPD file.
 
 
-### -param pszOptionKeyword [in]
+#### - pszOptionKeyword [in]
 
 A pointer to an ANSI string that contains the name of the option. The option name should correspond to the keyword that is used in the PPD file.
 
 
-### -param ppFOConstraints [out]
+#### - ppFOConstraints [out]
 
 A pointer to an array of <a href="..\prcomoem\ns-prcomoem-_print_feature_option.md">PRINT_FEATURE_OPTION</a> elements. When <b>IPrintCoreHelperPS::WhyConstrained</b> returns, the array contains a list of feature-element pairs of the options that constrain the options that are specified in the <i>pszOptionKeyword </i>parameter.
 
 
-### -param pdwNumOptions [out]
+#### - pdwNumOptions [out]
 
 A pointer to a variable that receives the number of feature-option pairs in the array that is pointed to by the <i>ppFOConstraints</i> parameter.
 

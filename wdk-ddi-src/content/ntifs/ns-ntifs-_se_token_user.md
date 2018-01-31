@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PSE_TOKEN_USER, SE_TOKEN_USER, ntifs/SE_TOKEN_USER, _SE_TOKEN_USER, ntifs/PSE_TOKEN_USER, ifsk.se_token_user, SE_TOKEN_USER structure [Installable File System Drivers], PSE_TOKEN_USER structure pointer [Installable File System Drivers]
+ms.keywords: ntifs/SE_TOKEN_USER, PSE_TOKEN_USER, ntifs/PSE_TOKEN_USER, SE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], _SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], ifsk.se_token_user
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SE_TOKEN_USER
 product: Windows
 targetos: Windows
-req.typenames: PSE_TOKEN_USER, SE_TOKEN_USER
+req.typenames: SE_TOKEN_USER, PSE_TOKEN_USER
 ---
 
 # _SE_TOKEN_USER structure
@@ -127,11 +127,11 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
-
 <a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
 
  
 

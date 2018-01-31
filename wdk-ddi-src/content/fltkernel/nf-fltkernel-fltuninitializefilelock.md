@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 15f0a4f4-70f3-4a26-92a2-728e363205f3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltUninitializeFileLock, fltkernel/FltUninitializeFileLock, ifsk.fltuninitializefilelock, FltApiRef_p_to_z_ad1332a2-5434-423c-91d6-de939e1cb28a.xml, FltUninitializeFileLock routine [Installable File System Drivers]
+ms.keywords: ifsk.fltuninitializefilelock, FltUninitializeFileLock routine [Installable File System Drivers], FltApiRef_p_to_z_ad1332a2-5434-423c-91d6-de939e1cb28a.xml, fltkernel/FltUninitializeFileLock, FltUninitializeFileLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID FltUninitializeFileLock(
 
 
 
-### -param FileLock [in]
+#### - FileLock [in]
 
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a> or <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>.
 
@@ -94,19 +94,19 @@ To free an initialized FILE_LOCK structure, call <a href="..\fltkernel\nf-fltker
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock.md">FsRtlUninitializeFileLock</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
 
  
 

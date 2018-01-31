@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1501ea9-a55b-4fbc-990b-2172c7369bb1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], PFEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], storage.feature_data_dvd_plus_r, structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml, _FEATURE_DATA_DVD_PLUS_R, ntddmmc/FEATURE_DATA_DVD_PLUS_R, ntddmmc/PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R
+ms.keywords: structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml, _FEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R, storage.feature_data_dvd_plus_r, ntddmmc/PFEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R, ntddmmc/FEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], FEATURE_DATA_DVD_PLUS_R
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_DVD_PLUS_R
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R"
+req.typenames: FEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R
 ---
 
 # _FEATURE_DATA_DVD_PLUS_R structure
@@ -70,22 +70,22 @@ typedef struct _FEATURE_DATA_DVD_PLUS_R {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field Write
+#### - Write
 
 Indicates, when set to 1, that the device has an ability that was not specified in the DVD-ROM profile, to write to DVD+R discs according to <i>DVD+R 4.7 Gbytes Basic Format Specifications.</i> When set to 0, the device has no extra ability beyond what is specified in the profile. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved. 
 

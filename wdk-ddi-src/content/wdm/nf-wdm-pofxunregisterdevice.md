@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FC4B1B4D-31D8-4E63-A3A5-07A1099997A8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxUnregisterDevice, kernel.pofxunregisterdevice, wdm/PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pofxunregisterdevice, wdm/PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture], PoFxUnregisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID PoFxUnregisterDevice(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
@@ -95,9 +95,9 @@ A device driver that calls this routine must previously have called the <a href=
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
-
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
  
 

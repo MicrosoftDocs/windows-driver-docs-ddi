@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 275AE285-6309-4A03-A02C-DBE8D44727CE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, PEP_PROCESSOR_FEEDBACK_COUNTER, kernel.pep_processor_feedback_counter, _PEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_FEEDBACK_TYPE_RELATIVE, *PPEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_FEEDBACK_COUNTER
+ms.keywords: PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, kernel.pep_processor_feedback_counter, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER, PPEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_TYPE_RELATIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PROCESSOR_FEEDBACK_COUNTER
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER"
+req.typenames: PEP_PROCESSOR_FEEDBACK_COUNTER, *PPEP_PROCESSOR_FEEDBACK_COUNTER
 ---
 
 # _PEP_PROCESSOR_FEEDBACK_COUNTER structure
@@ -73,12 +73,12 @@ typedef struct _PEP_PROCESSOR_FEEDBACK_COUNTER {
 
 
 
-### -field Affinitized
+#### - Affinitized
 
 Identifies the counter process affinity. If set to 1, the counter must be read while executing on the target processor, otherwise, it will be set to 0.
 
 
-### -field Type
+#### - Type
 
 Specifies the data type of the counter.
 
@@ -118,7 +118,7 @@ The feedback counter returns two incrementing values: the nominal count, and the
 </table> 
 
 
-### -field Counter
+#### - Counter
 
 Specifies the data the counter is providing.
 
@@ -161,12 +161,12 @@ The feedback counter returns the current processor performance. The nominal rate
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
 
-### -field NominalRate
+#### - NominalRate
 
 Specifies the nominal rate of the counter. 
 

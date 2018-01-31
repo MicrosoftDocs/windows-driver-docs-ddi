@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: DeviceThermalState, KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], ks/PKSDEVICE_THERMAL_DISPATCH, KsDevice, PKSDEVICE_THERMAL_DISPATCH, Engaged, _KSDEVICE_THERMAL_DISPATCH, Percentage, ks/KSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch
+ms.keywords: KSDEVICE_THERMAL_DISPATCH, ks/KSDEVICE_THERMAL_DISPATCH, ks/PKSDEVICE_THERMAL_DISPATCH, DeviceThermalState, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], _KSDEVICE_THERMAL_DISPATCH, Percentage, stream.ksdevice_thermal_dispatch, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], Engaged, *PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH, KsDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDEVICE_THERMAL_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH
+req.typenames: "*PKSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH"
 ---
 
 # _KSDEVICE_THERMAL_DISPATCH structure
@@ -68,7 +68,7 @@ typedef struct _KSDEVICE_THERMAL_DISPATCH {
 
 
 
-### -field ActiveCooling
+#### - ActiveCooling
 
 The active thermal callback notification. The routine is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -104,7 +104,7 @@ void
 [out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. For more information, see the <a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a> routine.
 
 
-### -field PassiveCooling
+#### - PassiveCooling
 
 The passive thermal callback notification.. The routine is defined as follows:
 <div class="code"><span codelanguage=""><table>

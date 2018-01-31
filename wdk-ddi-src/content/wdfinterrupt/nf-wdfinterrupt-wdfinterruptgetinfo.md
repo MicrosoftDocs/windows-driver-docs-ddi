@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 11f086af-bda7-4dab-8c4b-0db2e89588d1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptGetInfo, DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml, wdf.wdfinterruptgetinfo, kmdf.wdfinterruptgetinfo, WdfInterruptGetInfo method, WdfInterruptGetInfo, PFN_WDFINTERRUPTGETINFO
+ms.keywords: DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml, WdfInterruptGetInfo, wdfinterrupt/WdfInterruptGetInfo, WdfInterruptGetInfo method, wdf.wdfinterruptgetinfo, kmdf.wdfinterruptgetinfo, PFN_WDFINTERRUPTGETINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfInterruptGetInfo(
 
 
 
-### -param Interrupt [in]
+#### - Interrupt [in]
 
 A handle to the interrupt object.
 
 
-### -param Info [out]
+#### - Info [out]
 
 A pointer to a caller-allocated <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure that has been initialized by calling <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>.
 
@@ -110,13 +110,13 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
-
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, wdm/IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], kernel.iogetbootdiskinformation, IoGetBootDiskInformation
+ms.keywords: IoGetBootDiskInformation, kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation, k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS IoGetBootDiskInformation(
 
 
 
-### -param BootDiskInformation [in, out]
+#### - BootDiskInformation [in, out]
 
 Pointer to a caller-allocated buffer that the routine uses to return information about the boot and system disks. The routine fills this buffer in with either a <a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a> or a <a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a> structure.
 
 
-### -param Size [in]
+#### - Size [in]
 
 Specifies the size, in bytes, of the buffer specified by <i>BootDiskInformation</i>. Should be either <b>sizeof</b>(<b>BOOTDISK_INFORMATION</b>) or <b>sizeof</b>(<b>BOOTDISK_INFORMATION_EX</b>).
 
@@ -138,13 +138,13 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
+
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
 
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
 <a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61ddfdf9-65cf-482b-80fe-bc5a71f905cd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitregisterpowerpolicystatechangecallback, PFN_WDFDEVICEINITREGISTERPOWERPOLICYSTATECHANGECALLBACK, WdfDeviceInitRegisterPowerPolicyStateChangeCallback method, DFDeviceObjectGeneralRef_207ca167-9049-4661-baea-1a17158c3e82.xml, wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback, WdfDeviceInitRegisterPowerPolicyStateChangeCallback, kmdf.wdfdeviceinitregisterpowerpolicystatechangecallback
+ms.keywords: DFDeviceObjectGeneralRef_207ca167-9049-4661-baea-1a17158c3e82.xml, wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback, WdfDeviceInitRegisterPowerPolicyStateChangeCallback method, PFN_WDFDEVICEINITREGISTERPOWERPOLICYSTATECHANGECALLBACK, kmdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdf.wdfdeviceinitregisterpowerpolicystatechangecallback, WdfDeviceInitRegisterPowerPolicyStateChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfDeviceInitRegisterPowerPolicyStateChangeCallback(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param PowerPolicyState [in]
+#### - PowerPolicyState [in]
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_policy_state.md">WDF_DEVICE_POWER_POLICY_STATE</a> enumerator that identifies the power policy machine state for which the driver is requesting notification.
 
 
-### -param EvtDevicePowerPolicyStateChange [in]
+#### - EvtDevicePowerPolicyStateChange [in]
 
 A caller-supplied pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_power_policy_state_change_notification.md">EvtDevicePowerPolicyStateChange</a> event callback function.
 
 
-### -param CallbackTypes [in]
+#### - CallbackTypes [in]
 
 An ORed combination of <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
 

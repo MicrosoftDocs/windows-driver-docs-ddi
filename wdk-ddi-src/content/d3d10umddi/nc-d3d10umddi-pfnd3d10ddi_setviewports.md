@@ -40,7 +40,7 @@ apiname:
 -	SetViewports
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETVIEWPORTS callback
@@ -77,12 +77,12 @@ VOID APIENTRY SetViewports(
 
 
 
-### -param NumViewports [in]
+#### - NumViewports [in]
 
  The total number of viewports that the <i>pViewports</i> parameter specifies. 
 
 
-### -param ClearViewports [in]
+#### - ClearViewports [in]
 
  The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
 
@@ -155,11 +155,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_viewport.md">D3D10_DDI_VIEWPORT</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_viewport.md">D3D10_DDI_VIEWPORT</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: efd2eea8-2b05-49a2-b136-a3e1e3e739c5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRT, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, NewStream method [Audio Devices], IMiniportWaveRT interface, NewStream method [Audio Devices], NewStream, IMiniportWaveRT::NewStream, audio.iminiportwavert_newstream, portcls/IMiniportWaveRT::NewStream, IMiniportWaveRT interface [Audio Devices], NewStream method
+ms.keywords: IMiniportWaveRT::NewStream, IMiniportWaveRT interface [Audio Devices], NewStream method, portcls/IMiniportWaveRT::NewStream, IMiniportWaveRT, NewStream, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, NewStream method [Audio Devices], audio.iminiportwavert_newstream, NewStream method [Audio Devices], IMiniportWaveRT interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRT.NewStream
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRT::NewStream method
@@ -71,27 +71,27 @@ NTSTATUS NewStream(
 
 
 
-### -param Stream [out]
+#### - Stream [out]
 
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable, into which the <code>NewStream</code> method writes a pointer to the <b>IMiniportWaveRTStream</b> interface of the new stream object. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
 
 
-### -param PortStream [in]
+#### - PortStream [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>.
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Specifies a pin ID that identifies the pin to be opened. If the filter descriptor of the WaveRT miniport driver specifies a total of <i>n</i> pin factories on the filter, valid values for the <i>Pin</i> parameter are in the range 0 to <i>n</i>-1. For more information about filter descriptors, see the <a href="https://msdn.microsoft.com/e836f941-274f-4e27-8069-753ef9ef2a06">Filter Factories</a> topic. 
 
 
-### -param Capture [in]
+#### - Capture [in]
 
 Specifies a Boolean value that indicates whether to create a capture stream or a render stream. This parameter is <b>TRUE</b> for a capture (input) stream, and <b>FALSE</b> for a playback (output) stream.
 
 
-### -param DataFormat [in]
+#### - DataFormat [in]
 
 Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
 
@@ -130,13 +130,13 @@ The <i>DataFormat</i> parameter, which specifies the data format of the stream, 
 
 <a href="..\portcls\nn-portcls-iminiportwavertstream.md">IPortWaveRTStream</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
-
 IMiniportWaveRTStream
 
 <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
 
  
 

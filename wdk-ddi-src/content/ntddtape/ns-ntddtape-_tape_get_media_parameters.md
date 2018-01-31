@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3e12c431-4f6d-4d07-be52-e4809e8bc798
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/PTAPE_GET_MEDIA_PARAMETERS, _TAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Storage Devices], PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS, ntddtape/TAPE_GET_MEDIA_PARAMETERS, structs-tape_19ce668d-65dd-40d6-a668-d34e540cc686.xml, storage.tape_get_media_parameters, TAPE_GET_MEDIA_PARAMETERS structure [Storage Devices], *PTAPE_GET_MEDIA_PARAMETERS
+ms.keywords: PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Storage Devices], *PTAPE_GET_MEDIA_PARAMETERS, structs-tape_19ce668d-65dd-40d6-a668-d34e540cc686.xml, storage.tape_get_media_parameters, ntddtape/TAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Storage Devices], _TAPE_GET_MEDIA_PARAMETERS, ntddtape/PTAPE_GET_MEDIA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TAPE_GET_MEDIA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS"
+req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
 ---
 
 # _TAPE_GET_MEDIA_PARAMETERS structure
@@ -71,27 +71,27 @@ typedef struct _TAPE_GET_MEDIA_PARAMETERS {
 
 
 
-### -field Capacity
+#### - Capacity
 
 Indicates the total number of bytes of user data the tape can hold. 
 
 
-### -field Remaining
+#### - Remaining
 
 Indicates the number of bytes from the current position to the end of the tape. 
 
 
-### -field BlockSize
+#### - BlockSize
 
 Indicates the block size, in bytes, or zero if the drive is using variable block size. 
 
 
-### -field PartitionCount
+#### - PartitionCount
 
 Indicates the number of partitions on the tape. If the tape is not partitioned, <b>PartitionCount</b> is 1. 
 
 
-### -field WriteProtected
+#### - WriteProtected
 
 Is set to <b>TRUE</b> if the tape is write-protected. 
 

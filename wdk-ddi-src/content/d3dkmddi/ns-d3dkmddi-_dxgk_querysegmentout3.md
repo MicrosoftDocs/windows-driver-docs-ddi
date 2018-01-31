@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4a78a998-7eab-4499-a280-96ca6d6ff5a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_querysegmentout3, DXGK_QUERYSEGMENTOUT3, _DXGK_QUERYSEGMENTOUT3, d3dkmddi/DXGK_QUERYSEGMENTOUT3, DXGK_QUERYSEGMENTOUT3 structure [Display Devices]
+ms.keywords: DXGK_QUERYSEGMENTOUT3 structure [Display Devices], display.dxgk_querysegmentout3, d3dkmddi/DXGK_QUERYSEGMENTOUT3, DXGK_QUERYSEGMENTOUT3, _DXGK_QUERYSEGMENTOUT3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGK_QUERYSEGMENTOUT3 {
 
 
 
-### -field NbSegment
+#### - NbSegment
 
 [out] The number of memory segments that the driver supports.
 
 
-### -field pSegmentDescriptor
+#### - pSegmentDescriptor
 
 [out] An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor3.md">DXGK_SEGMENTDESCRIPTOR3</a> structures that the driver populates with information about the segments it supports. The size of the array is the value that <b>NbSegment</b> specifies.
 
 
-### -field PagingBufferSegmentId
+#### - PagingBufferSegmentId
 
 [out] The identifier of the segment that the video memory manager should allocate the paging buffer from. This segment must be an aperture segment.
 
 
-### -field PagingBufferSize
+#### - PagingBufferSize
 
 [out] The size, in bytes, that the video memory manager should allocate for the paging buffer.
 
 
-### -field PagingBufferPrivateDataSize
+#### - PagingBufferPrivateDataSize
 
 [out] The size, in bytes, of the driver-resident private data structure that is associated with each paging buffer. Memory for this private data structure is allocated from nonpaged pool. If the driver specifies zero for <b>PagingBufferPrivateDataSize</b>, no memory is allocated for the private data structure.
 
@@ -109,13 +109,13 @@ The video memory manager allocates a paging buffer either from an aperture segme
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor3.md">DXGK_SEGMENTDESCRIPTOR3</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor3.md">DXGK_SEGMENTDESCRIPTOR3</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
  
 

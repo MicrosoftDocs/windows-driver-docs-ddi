@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71E43364-CBD6-4628-B51C-B41315E0E800
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information, *PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_OBJECT_INFORMATION
+ms.keywords: PPEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information, PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION, _PEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, *PPEP_ACPI_QUERY_OBJECT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_QUERY_OBJECT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION"
+req.typenames: PEP_ACPI_QUERY_OBJECT_INFORMATION, *PPEP_ACPI_QUERY_OBJECT_INFORMATION
 ---
 
 # _PEP_ACPI_QUERY_OBJECT_INFORMATION structure
@@ -76,14 +76,29 @@ typedef struct _PEP_ACPI_QUERY_OBJECT_INFORMATION {
 
 
 
-### -field DUMMYUNIONNAME
+#### - DUMMYUNIONNAME
 
 The query result. If the specified object is a control method, the platform extension plug-in (PEP) writes the query result to the <b>MethodObject</b> member of this union.
+
+
+#### MethodObject
+
+[out] Information about a control method object.
 
 
 ### -field DUMMYUNIONNAME.MethodObject
 
 [out] Information about a control method object.
+
+
+#### MethodObject.InputArgumentCount
+
+The number of input arguments expected by the control method.
+
+
+#### MethodObject.OutputArgumentCount
+
+The number of output arguments produced by the control method.
 
 
 ### -field DUMMYUNIONNAME.MethodObject.InputArgumentCount
@@ -96,22 +111,22 @@ The number of input arguments expected by the control method.
 The number of output arguments produced by the control method.
 
 
-### -field DeviceHandle
+#### - DeviceHandle
 
 [in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
 
 
-### -field Name
+#### - Name
 
 [in] A <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a> union that specifies the path-relative, four-character name of the object.
 
 
-### -field Type
+#### - Type
 
 [in] A <a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a> enumeration value that specifies the object type. Currently, a control method is the only object type that is defined for this member (<b>Type</b> = <b>PepAcpiObjectTypeMethod</b>).
 
 
-### -field ObjectFlags
+#### - ObjectFlags
 
 [in] A set of input flags. No flags are currently defined for this member, which is always set to PEP_ACPI_OBJECT_FLAG_NONE (0x0).
 
@@ -125,13 +140,13 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629114">PEP_NOTIFY_ACPI_QUERY_OBJECT_INFORMATION</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a>
+<a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
 
  
 

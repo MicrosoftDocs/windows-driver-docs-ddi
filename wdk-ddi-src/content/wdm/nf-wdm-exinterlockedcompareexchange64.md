@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7d13ca70-e05a-49e0-8dd8-5ab47b4d8169
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml, wdm/ExInterlockedCompareExchange64, ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], kernel.exinterlockedcompareexchange64, ExInterlockedCompareExchange64
+ms.keywords: ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], ExInterlockedCompareExchange64, k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml, kernel.exinterlockedcompareexchange64, wdm/ExInterlockedCompareExchange64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -71,12 +71,12 @@ LONGLONG ExInterlockedCompareExchange64(
 
 
 
-### -param Destination [in, out]
+#### - Destination [in, out]
 
 A pointer to an integer that will be compared and possibly replaced.
 
 
-### -param Exchange [in]
+#### - Exchange [in]
 
 A pointer to an integer that will replace the one at <i>Destination</i> if the comparison results in equality.
 
@@ -86,7 +86,7 @@ A pointer to an integer that will replace the one at <i>Destination</i> if the c
 TBD
 
 
-### -param Lock [in]
+#### - Lock [in]
 
 A pointer to a caller-allocated spin-lock that is used if the host system does not support an 8-byte atomic compare-and-exchange operation. 
 

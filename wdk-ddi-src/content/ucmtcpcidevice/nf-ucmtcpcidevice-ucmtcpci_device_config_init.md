@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 8845f8f7-683e-487b-924b-596dbbfb98f2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmtcpci_device_config_init, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], UCMTCPCI_DEVICE_CONFIG_INIT, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT
+ms.keywords: UCMTCPCI_DEVICE_CONFIG_INIT, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], buses.ucmtcpci_device_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID UCMTCPCI_DEVICE_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 A pointer to the driver-allocated <a href="..\ucmtcpcidevice\ns-ucmtcpcidevice-_ucmtcpci_device_config.md">UCMTCPCI_DEVICE_CONFIG</a> structure.
 

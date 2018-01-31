@@ -40,7 +40,7 @@ apiname:
 -	EvtUsbTargetPipeReadersFailed
 product: Windows
 targetos: Windows
-req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
+req.typenames: "*PWDF_TRI_STATE, WDF_TRI_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -75,17 +75,17 @@ BOOLEAN EvtUsbTargetPipeReadersFailed(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS value</a> that the pipe's I/O target returned.
 
 
-### -param UsbdStatus [in]
+#### - UsbdStatus [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_STATUS</a>-typed status value that the pipe's I/O target returned.
 

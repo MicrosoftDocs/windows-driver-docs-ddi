@@ -74,7 +74,7 @@ _Check_return_ HRESULT APIENTRY CALLBACK* pfnDeallocate2Cb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C3E5CEC6-34A2-48DF-B963-677C69A97E0B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/StorageCryptoKeySizeUnknown, STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE, StorageCryptoKeySize192Bits, storage.storage_crypto_key_size, StorageCryptoKeySize128Bits, ntddstor/StorageCryptoKeySize128Bits, ntddstor/StorageCryptoKeySize192Bits, ntddstor/StorageCryptoKeySize512Bits, _STORAGE_CRYPTO_KEY_SIZE, ntddstor/StorageCryptoKeySize256Bits, StorageCryptoKeySize256Bits, *PSTORAGE_CRYPTO_KEY_SIZE, StorageCryptoKeySize512Bits, StorageCryptoKeySizeUnknown, ntddstor/STORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices]
+ms.keywords: StorageCryptoKeySize256Bits, _STORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], ntddstor/StorageCryptoKeySize256Bits, StorageCryptoKeySize512Bits, *PSTORAGE_CRYPTO_KEY_SIZE, StorageCryptoKeySizeUnknown, STORAGE_CRYPTO_KEY_SIZE, ntddstor/StorageCryptoKeySize128Bits, ntddstor/StorageCryptoKeySize512Bits, STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], ntddstor/STORAGE_CRYPTO_KEY_SIZE, ntddstor/StorageCryptoKeySize192Bits, storage.storage_crypto_key_size, StorageCryptoKeySize128Bits, StorageCryptoKeySize192Bits, ntddstor/StorageCryptoKeySizeUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _STORAGE_CRYPTO_KEY_SIZE {
 
 
 
-### -field StorageCryptoKeySizeUnknown
+#### - StorageCryptoKeySizeUnknown
 
 Reserved for system use.
 
 
-### -field StorageCryptoKeySize128Bits
+#### - StorageCryptoKeySize128Bits
 
 Reserved for system use.
 
 
-### -field StorageCryptoKeySize192Bits
+#### - StorageCryptoKeySize192Bits
 
 Reserved for system use.
 
 
-### -field StorageCryptoKeySize256Bits
+#### - StorageCryptoKeySize256Bits
 
 Reserved for system use.
 
 
-### -field StorageCryptoKeySize512Bits
+#### - StorageCryptoKeySize512Bits
 
 Reserved for system use.
 

@@ -40,7 +40,7 @@ apiname:
 -	NdkGetListenerLocalAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback
@@ -72,20 +72,19 @@ NTSTATUS NdkGetListenerLocalAddress(
 
 
 
-### -param *pNdkListener
+#### - *pNdkListener [in]
+
+A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
 
 
-
-### -param pAddress
+#### - pAddress
 
 A local address for a listener is returned in this buffer.
 
 
-### -param *pAddressLength
+#### - *pAddressLength
 
-
-
-
+The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 
 
 #### - pNdkListener [in]

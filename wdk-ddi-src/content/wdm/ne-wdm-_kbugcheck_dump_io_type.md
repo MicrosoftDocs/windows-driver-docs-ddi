@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KbDumpIoHeader, wdm/KbDumpIoSecondaryData, wdm/KbDumpIoInvalid, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], _KBUGCHECK_DUMP_IO_TYPE, KbDumpIoSecondaryData, wdm/KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, wdm/KbDumpIoHeader, wdm/KbDumpIoComplete, KbDumpIoInvalid, KBUGCHECK_DUMP_IO_TYPE, KbDumpIoComplete, wdm/KbDumpIoBody, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, KbDumpIoBody
+ms.keywords: wdm/KBUGCHECK_DUMP_IO_TYPE, KbDumpIoSecondaryData, _KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoInvalid, KbDumpIoBody, wdm/KbDumpIoBody, kernel.kbugcheck_dump_io_type, KbDumpIoInvalid, KbDumpIoHeader, wdm/KbDumpIoComplete, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/KbDumpIoSecondaryData, KbDumpIoComplete, wdm/KbDumpIoHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _KBUGCHECK_DUMP_IO_TYPE {
 
 
 
-### -field KbDumpIoInvalid
+#### - KbDumpIoInvalid
 
 Reserved for system use. Do not use.
 
 
-### -field KbDumpIoHeader
+#### - KbDumpIoHeader
 
 Specifies that crash dump data is header information.
 
 
-### -field KbDumpIoBody
+#### - KbDumpIoBody
 
 Specifies that the crash dump data is part of the main body of the crash dump, such as the memory state at the time of the bug check.
 
 
-### -field KbDumpIoSecondaryData
+#### - KbDumpIoSecondaryData
 
 Specifies that the crash dump data is data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a> routine.
 
 
-### -field KbDumpIoComplete
+#### - KbDumpIoComplete
 
 Specifies that the crash dump data has been completely written.
 

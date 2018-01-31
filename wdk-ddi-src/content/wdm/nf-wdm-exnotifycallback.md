@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExNotifyCallback, k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, ExNotifyCallback routine [Kernel-Mode Driver Architecture], kernel.exnotifycallback, ExNotifyCallback
+ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID ExNotifyCallback(
 
 
 
-### -param CallbackObject [in]
+#### - CallbackObject [in]
 
 A pointer to the callback object for which all registered callback routines will be called.
 
 
-### -param Argument1 [in, optional]
+#### - Argument1 [in, optional]
 
 Specifies the parameter that is passed as <i>Argument1</i> of the callback routine.
 
 
-### -param Argument2 [in, optional]
+#### - Argument2 [in, optional]
 
 Specifies the parameter that is passed as <i>Argument2</i> of the callback routine. 
 

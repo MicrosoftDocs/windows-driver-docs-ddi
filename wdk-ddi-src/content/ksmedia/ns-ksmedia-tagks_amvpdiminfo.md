@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], ksmedia/PKS_AMVPDIMINFO, tagKS_AMVPDIMINFO, PKS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, ksmedia/KS_AMVPDIMINFO, *PKS_AMVPDIMINFO, stream.ks_amvpdiminfo
+ms.keywords: ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, *PKS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], KS_AMVPDIMINFO, PKS_AMVPDIMINFO, tagKS_AMVPDIMINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_AMVPDIMINFO
 product: Windows
 targetos: Windows
-req.typenames: KS_AMVPDIMINFO, *PKS_AMVPDIMINFO
+req.typenames: "*PKS_AMVPDIMINFO, KS_AMVPDIMINFO"
 ---
 
 # tagKS_AMVPDIMINFO structure
@@ -71,27 +71,27 @@ typedef struct tagKS_AMVPDIMINFO {
 
 
 
-### -field dwFieldWidth
+#### - dwFieldWidth
 
 Specifies the field width.
 
 
-### -field dwFieldHeight
+#### - dwFieldHeight
 
 Specifies the field height.
 
 
-### -field dwVBIWidth
+#### - dwVBIWidth
 
 Specifies the VBI data width.
 
 
-### -field dwVBIHeight
+#### - dwVBIHeight
 
 Specifies the VBI data height.
 
 
-### -field rcValidRegion
+#### - rcValidRegion
 
 Describes a valid rectangle for data cropping.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e6823b9c-9717-49ab-8e67-c1d522774826
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAllocatePool, storage.storportallocatepool, storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml, StorPortAllocatePool routine [Storage Devices], storport/StorPortAllocatePool
+ms.keywords: storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml, storport/StorPortAllocatePool, StorPortAllocatePool, StorPortAllocatePool routine [Storage Devices], storage.storportallocatepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortAllocatePool(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 The size, in bytes, of the block of memory being allocated.
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 The pool tag for the allocated memory. Drivers specify the pool tag as a string of four characters, delimited by single quotation marks. The string is usually specified in reverse order. The ASCII value of each character in the tag must be between zero and 127.
 
 
-### -param BufferPointer [out]
+#### - BufferPointer [out]
 
 A pointer to the address of the allocated memory block or <b>NULL</b> if not successful. 
 

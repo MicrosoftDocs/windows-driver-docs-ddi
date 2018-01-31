@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8136eec2-1d4b-4233-bb93-7203d932816b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Continue, xpsrassvc/IXpsRasterizerNotificationCallback::Continue, IXpsRasterizerNotificationCallback interface [Print Devices], Continue method, IXpsRasterizerNotificationCallback, IXpsRasterizerNotificationCallback::Continue, Continue method [Print Devices], IXpsRasterizerNotificationCallback interface, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, Continue method [Print Devices], print.ixpsrasterizernotificationcallback_continue
+ms.keywords: IXpsRasterizerNotificationCallback::Continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, IXpsRasterizerNotificationCallback, IXpsRasterizerNotificationCallback interface [Print Devices], Continue method, print.ixpsrasterizernotificationcallback_continue, Continue, Continue method [Print Devices], xpsrassvc/IXpsRasterizerNotificationCallback::Continue, Continue method [Print Devices], IXpsRasterizerNotificationCallback interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,11 +106,11 @@ For an example implementation of the <code>Continue</code> method, see the XpsRa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
-
 <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554295">IPrintPipelineFilter::ShutdownOperation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
 
  
 

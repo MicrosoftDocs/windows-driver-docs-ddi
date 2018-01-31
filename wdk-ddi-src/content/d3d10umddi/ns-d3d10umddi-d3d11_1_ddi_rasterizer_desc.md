@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a78655b3-3ca3-4632-9ac4-3efae6b10a0c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1_ddi_rasterizer_desc, d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices], D3D11_1_DDI_RASTERIZER_DESC
+ms.keywords: d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC, display.d3d11_1_ddi_rasterizer_desc, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct D3D11_1_DDI_RASTERIZER_DESC {
 
 
 
-### -field FillMode
+#### - FillMode
 
 [in] A value that specifies the fill mode for primitives. This member must be set to one of the following values from the D3D10_DDI_FILL_MODE enumeration.
 <table>
@@ -108,7 +108,7 @@ Fills solids.
 </table> 
 
 
-### -field CullMode
+#### - CullMode
 
 [in] A value that specifies how back-facing triangles are culled, if at all. This member must be set to one of the following values from the D3D10_DDI_CULL_MODE enumeration.
 <table>
@@ -149,47 +149,47 @@ Cull back faces.
 </table> 
 
 
-### -field FrontCounterClockwise
+#### - FrontCounterClockwise
 
 [in] A Boolean value that specifies whether vertices that are provided in a counter-clockwise order (with respect to the rasterizer) are front facing. <b>TRUE</b> indicates they are; <b>FALSE</b> indicates that counter-clockwise vertices indicate back facing. 
 
 
-### -field DepthBias
+#### - DepthBias
 
 [in] A depth-bias constant to use in biasing formulas. For more information about <b>DepthBias</b>, see the Remarks section. 
 
 
-### -field DepthBiasClamp
+#### - DepthBiasClamp
 
 [in] A single-precision float vector that is used in biasing formulas. For more information about <b>DepthBiasClamp</b>, see the Remarks section. 
 
 
-### -field SlopeScaledDepthBias
+#### - SlopeScaledDepthBias
 
 [in] A single-precision float vector that is used in biasing formulas. For more information about <b>SlopeScaledDepthBias</b>, see the Remarks section. 
 
 
-### -field DepthClipEnable
+#### - DepthClipEnable
 
 [in] A Boolean value that specifies whether the driver should clip vertex z coordinates against the viewport depth range. <b>TRUE</b> indicates to clip; <b>FALSE</b> indicates not to clip. 
 
 
-### -field ScissorEnable
+#### - ScissorEnable
 
 [in] A Boolean value that specifies whether the driver should discard pixels that fall outside the appropriate scissor rectangular area. <b>TRUE</b> indicates to discard; <b>FALSE</b> indicates not to discard. 
 
 
-### -field MultisampleEnable
+#### - MultisampleEnable
 
 [in] A Boolean value that specifies whether the driver must follow multiple-sampled rasterization rules. <b>TRUE</b> indicates to follow the rules; <b>FALSE</b> indicates following the rules is not required. Multiple-sampled rasterization rules hold true even if render targets contain only a single sample.  
 
 
-### -field AntialiasedLineEnable
+#### - AntialiasedLineEnable
 
 [in] A Boolean value that specifies whether the driver should render lines that follow the antialiased line rasterization rules. <b>TRUE</b> indicates to follow the rules; <b>FALSE</b> indicates following the rules is not required. The driver ignores the value in <b>AntialiasedLineEnable</b> if multiple-sampling rasterization rules are used instead. 
 
 
-### -field ForcedSampleCount
+#### - ForcedSampleCount
 
 [in] During rendering of unordered access vews (UAVs) or rendering target views (RTVs), specifies whether to force a sample count, and if so, the maximum sample count. Valid values are 0, 1, 4, 8, and 16.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b27f26f-c98d-4979-b60e-0ed5965f637c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PFILE_EA_INFORMATION, ntifs/PFILE_EA_INFORMATION, PFILE_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_EA_INFORMATION structure [Kernel-Mode Driver Architecture], ntifs/FILE_EA_INFORMATION, PFILE_EA_INFORMATION, kernel.file_ea_information, _FILE_EA_INFORMATION, FILE_EA_INFORMATION, kstruct_b_f78f051a-aa8f-4611-a699-1f706ac74f1f.xml"
+ms.keywords: FILE_EA_INFORMATION, kernel.file_ea_information, _FILE_EA_INFORMATION, FILE_EA_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_EA_INFORMATION, kstruct_b_f78f051a-aa8f-4611-a699-1f706ac74f1f.xml, *PFILE_EA_INFORMATION, ntifs/PFILE_EA_INFORMATION, ntifs/FILE_EA_INFORMATION, PFILE_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _FILE_EA_INFORMATION {
 
 
 
-### -field EaSize
+#### - EaSize
 
 Specifies the combined length, in bytes, of the extended attributes for the file.
 

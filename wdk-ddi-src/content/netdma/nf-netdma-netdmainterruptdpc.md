@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93d7e4dd-70ee-4490-bffd-9b07511ee9fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netvista.netdmainterruptdpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, NetDmaInterruptDpc, netdma/NetDmaInterruptDpc
+ms.keywords: NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, netdma/NetDmaInterruptDpc, netvista.netdmainterruptdpc, NetDmaInterruptDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaInterruptDpc
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaInterruptDpc function
@@ -72,7 +72,7 @@ VOID NetDmaInterruptDpc(
 
 
 
-### -param NetDmaChannelHandle [in]
+#### - NetDmaChannelHandle [in]
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from NetDMA
      in a call to the 
@@ -80,7 +80,7 @@ A handle that identifies the DMA channel. The DMA provider driver received this 
      ProviderAllocateDmaChannel</b></mshelp:link> function.
 
 
-### -param DmaDescriptor [in, optional]
+#### - DmaDescriptor [in, optional]
 
 A pointer to the last DMA descriptor that was processed.
 

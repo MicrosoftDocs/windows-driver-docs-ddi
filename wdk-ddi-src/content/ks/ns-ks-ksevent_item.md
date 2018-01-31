@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a501a693-bea1-43eb-af8c-5512c8ee9d50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksevent_item, PKSEVENT_ITEM structure pointer [Streaming Media Devices], KSEVENT_ITEM, *PKSEVENT_ITEM, ks/PKSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], ks/KSEVENT_ITEM, PKSEVENT_ITEM, ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml
+ms.keywords: PKSEVENT_ITEM, *PKSEVENT_ITEM, stream.ksevent_item, KSEVENT_ITEM, ks/KSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, KSEVENT_ITEM structure [Streaming Media Devices], ks/PKSEVENT_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct {
 
 
 
-### -field EventId
+#### - EventId
 
 Specifies the unique ID of the event within the event set.
 
 
-### -field DataInput
+#### - DataInput
 
 Specifies the size in bytes of event data. The event data begins with a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that describes how the client should be notified when the event occurs, optionally followed by any additional parameters that specify when the event occurs. Must be at least <b>sizeof</b>(KSEVENTDATA).
 
 
-### -field ExtraEntryData
+#### - ExtraEntryData
 
 Specifies the size in bytes of any additional memory that the system should allocate for each enable request for this event. The driver uses this memory to store any data it needs to keep track of the event request. The memory is allocated directly after the event enable request's <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure.
 
 
-### -field AddHandler
+#### - AddHandler
 
 Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a> callback routine. Not used by the stream class driver. For AVStream minidrivers only.
 
 
-### -field RemoveHandler
+#### - RemoveHandler
 
 Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksremoveevent.md">AVStrMiniRemoveEvent</a> callback routine. Not used by the stream class driver. For AVStream minidrivers only.
 
 
-### -field SupportHandler
+#### - SupportHandler
 
 Not used by the stream class driver.
 
@@ -111,13 +111,13 @@ Not used by the stream class driver.
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
-
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
-
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
  
 

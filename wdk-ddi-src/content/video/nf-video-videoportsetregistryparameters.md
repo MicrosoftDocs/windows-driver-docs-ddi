@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39cf1829-2caf-44e0-8528-acb0def0dd54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetRegistryParameters function [Display Devices], display.videoportsetregistryparameters, VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, VideoPortSetRegistryParameters, video/VideoPortSetRegistryParameters
+ms.keywords: VideoPortSetRegistryParameters function [Display Devices], video/VideoPortSetRegistryParameters, VideoPortSetRegistryParameters, display.videoportsetregistryparameters, VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VP_STATUS VideoPortSetRegistryParameters(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Pointer to a buffer containing a null-terminated Unicode string that names the value entry for which data is being written in the registry.
 
 
-### -param ValueData [in]
+#### - ValueData [in]
 
 Pointer to a buffer containing the values to be written for the <i>ValueName</i> entry.
 
 
-### -param ValueLength
+#### - ValueLength
 
 Specifies the size, in bytes, of the data to be written to the registry.
 
@@ -117,11 +117,11 @@ In a checked build of any version of the operating system, a value name that beg
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
+
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
 
 <a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 

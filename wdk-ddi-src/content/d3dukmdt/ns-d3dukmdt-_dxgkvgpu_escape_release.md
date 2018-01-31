@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 96BA0967-BA65-483D-9165-C7ADE05C0216
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkvgpu_escape_release, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE
+ms.keywords: "_DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_RELEASE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DXGKVGPU_ESCAPE_RELEASE {
 
 
 
-### -field Header
+#### - Header
 
 The header that is being operated on.
 

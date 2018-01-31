@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8a25d44b-c83b-4454-858b-117dbb6cc4b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMGradientFill function [Print Devices], print.oemgradientfill, print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, printoem/OEMGradientFill, OEMGradientFill
+ms.keywords: print.oemgradientfill, printoem/OEMGradientFill, print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, OEMGradientFill, OEMGradientFill function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,42 +77,42 @@ BOOL APIENTRY OEMGradientFill(
 
 
 
-### -param psoDest
+#### - psoDest
 
 
 
-### -param pco
+#### - pco
 
 
 
-### -param pxlo
+#### - pxlo
 
 
 
-### -param pVertex
+#### - pVertex
 
 
 
-### -param nVertex
+#### - nVertex
 
 
 
-### -param pMesh
+#### - pMesh
 
 
 
-### -param nMesh
+#### - nMesh
 
 
 
-### -param prclExtents
+#### - prclExtents
 
 
 
-### -param pptlDitherOrg
+#### - pptlDitherOrg
 
 
 
-### -param ulMode
+#### - ulMode
 
 

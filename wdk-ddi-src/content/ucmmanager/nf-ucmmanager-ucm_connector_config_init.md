@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F9076ED0-A9D2-441A-A084-941C05EF9CCA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_CONNECTOR_CONFIG_INIT, ucmmanager/UCM_CONNECTOR_CONFIG_INIT, buses.ucm_connector_config_init, UCM_CONNECTOR_CONFIG_INIT function [Buses]
+ms.keywords: ucmmanager/UCM_CONNECTOR_CONFIG_INIT, buses.ucm_connector_config_init, UCM_CONNECTOR_CONFIG_INIT, UCM_CONNECTOR_CONFIG_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ FORCEINLINE void UCM_CONNECTOR_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a> structure to initialize.
 
 
-### -param ConnectorId [in]
+#### - ConnectorId [in]
 
 The identifier to assign to the connector object. If there is only one connector, pass 0.
 

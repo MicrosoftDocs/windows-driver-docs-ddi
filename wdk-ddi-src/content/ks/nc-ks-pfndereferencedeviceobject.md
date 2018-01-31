@@ -70,7 +70,7 @@ VOID KStrDereferenceDeviceObject(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a device extension of the device's PDO.
 

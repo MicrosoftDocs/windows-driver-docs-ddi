@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 727b2e29-9e2d-4386-a30b-5727e1261fad
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsgetcontainername, Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, ClfsGetContainerName, ClfsGetContainerName routine [Kernel-Mode Driver Architecture], wdm/ClfsGetContainerName
+ms.keywords: kernel.clfsgetcontainername, Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, wdm/ClfsGetContainerName, ClfsGetContainerName, ClfsGetContainerName routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS ClfsGetContainerName(
 
 
 
-### -param plfoLog [in]
+#### - plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents a CLFS log. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
-### -param cidLogicalContainer [in]
+#### - cidLogicalContainer [in]
 
 The logical identifier of a container in the CLFS log.
 
 
-### -param puszContainerName [out]
+#### - puszContainerName [out]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure. The <b>Buffer</b> member of <i>puszContainerName</i> must point to a caller-allocated buffer that receives the path name of the container. The <b>MaximumLength</b> member must supply the size of the buffer.
 
 
-### -param pcActualLenContainerName [out, optional]
+#### - pcActualLenContainerName [out, optional]
 
 A pointer to a ULONG-typed variable that receives the actual length, in Unicode characters, of the container's path name. This parameter can be <b>NULL</b>.
 
@@ -147,9 +147,9 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
-
 <a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer</a>
+
+<a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
 
  
 

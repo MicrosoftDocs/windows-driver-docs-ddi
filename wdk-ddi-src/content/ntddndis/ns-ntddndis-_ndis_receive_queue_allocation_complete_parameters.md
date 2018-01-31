@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1aae1bc7-24c6-46a3-be0e-f028d6b70774
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_receive_queue_allocation_complete_parameters, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, virtual_machine_queue_ref_6427710d-2634-40e1-bd03-a93fdedfd5a3.xml, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
+ms.keywords: netvista.ndis_receive_queue_allocation_complete_parameters, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, virtual_machine_queue_ref_6427710d-2634-40e1-bd03-a93fdedfd5a3.xml, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -82,17 +82,17 @@ The
      <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS_REVISION_1</b>.
 
 
-### -field Flags
+#### - Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-### -field QueueId
+#### - QueueId
 
 An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a receive queue identifier. This identifier is an integer value between zero and the number of queues that the network adapter supports. A value of <b>NDIS_DEFAULT_RECEIVE_QUEUE_ID</b> specifies the default receive queue.
 
 
-### -field CompletionStatus
+#### - CompletionStatus
 
 An <b>NDIS_STATUS</b> value that contains an NDIS_STATUS_<i>Xxx</i> completion status code. The miniport driver
      provides this status code to indicate the completion status of a queue. The miniport driver can use
@@ -113,13 +113,13 @@ The <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b> structure is used w
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
-   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <mshelp:link keywords="netvista.ndis_receive_queue_allocation_complete_array" tabindex="0"><b>
    NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
+   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_OEMCUIPPARAM, printoem/OEMCUIPPARAM, OEMCUIPPARAM, *POEMCUIPPARAM, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, OEMCUIPPARAM structure [Print Devices], print.oemcuipparam"
+ms.keywords: printoem/OEMCUIPPARAM, _OEMCUIPPARAM, *POEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, print.oemcuipparam, OEMCUIPPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OEMCUIPPARAM
 product: Windows
 targetos: Windows
-req.typenames: OEMCUIPPARAM, *POEMCUIPPARAM
+req.typenames: "*POEMCUIPPARAM, OEMCUIPPARAM"
 req.product: Windows 10 or later.
 ---
 
@@ -82,47 +82,47 @@ typedef struct _OEMCUIPPARAM {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Size of the OEMCUIPPARAM structure. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field poemuiobj
+#### - poemuiobj
 
 Pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-### -field hPrinter
+#### - hPrinter
 
 Handle to the printer. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field pPrinterName
+#### - pPrinterName
 
 String containing the printer name. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field hModule
+#### - hModule
 
 Handle to the user interface plug-in. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field hOEMHeap
+#### - hOEMHeap
 
 Handle to a heap from which space can be allocated by calling the <b>HeapAlloc</b> function (described in the Microsoft Windows SDK documentation). Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field pPublicDM
+#### - pPublicDM
 
 Pointer to the printer's public DEVMODEW structure. Valid only if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554159">IPrintOemUI::CommonUIProp</a> method's <i>dwMode</i> argument is OEMCUIP_DOCPROP. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field pOEMDM
+#### - pOEMDM
 
 Pointer to the user interface plug-in's private DEVMODEW members. Valid only if the <b>IPrintOemUI::CommonUIProp</b> method's <i>dwMode</i> argument is OEMCUIP_DOCPROP. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field dwFlags
+#### - dwFlags
 
 
 
@@ -137,17 +137,17 @@ Contains the contents of the <b>fMode</b> member of the <a href="..\winddiui\ns-
 Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
 
 
-### -field pDrvOptItems
+#### - pDrvOptItems
 
 Pointer to the printer driver's <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> array. Not valid the first time <b>IPrintOemUI::CommonUIProp</b> is called. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field cDrvOptItems
+#### - cDrvOptItems
 
 Count of OPTITEM structures in the array pointed to by <b>pDrvOptItems</b>. Supplied by the Unidrv or Pscript5 driver.
 
 
-### -field pOEMOptItems
+#### - pOEMOptItems
 
 Pointer to an array of OPTITEM structures. Supplied by <b>IPrintOemUI::CommonUIProp</b> caller. The second time the <b>IPrintOemUI::CommonUIProp</b> method is called, it must place OPTITEM structures defined by the user interface plug-in in this array, and it must place the structure count in <b>cOEMOptItems</b>. For each OPTITEM structure placed in the array, you must do the following:
 <ul>
@@ -162,19 +162,19 @@ Allocate space for OPTTYPES and OPTPARAMS structures by calling the Windows SDK 
 </ul>Not valid the first time <b>IPrintOemUI::CommonUIProp</b> is called.
 
 
-### -field cOEMOptItems
+#### - cOEMOptItems
 
 Count of OPTITEM structures contained in the array pointed by <b>pOEMOptItems</b>. Supplied by the Unidrv or Pscript5 driver.
 
 The first time the <b>IPrintOemUI::CommonUIProp</b> method is called, the caller-supplied value for <b>cOEMOptItems</b> is zero. The <b>IPrintOemUI::CommonUIProp</b> method must change this value to indicate the number of OPTITEM structures that the method supplies. The second time it is called, <b>IPrintOemUI::CommonUIProp</b> must supply the number of OPTITEM structures actually added to the array pointed to by <b>pOEMOptItems</b>.
 
 
-### -field pOEMUserData
+#### - pOEMUserData
 
 Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is called, to provide the <b>OEMCUIPCallback</b> function with optional extra input information.
 
 
-### -field OEMCUIPCallback
+#### - OEMCUIPCallback
 
 Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is called, to return the address of a callback function of type <a href="..\printoem\nc-printoem-oemcuipcallback.md">OEMCUIPCALLBACK</a>.
 

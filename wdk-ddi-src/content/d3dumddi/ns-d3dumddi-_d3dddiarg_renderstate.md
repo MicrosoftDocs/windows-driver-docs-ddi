@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 177a2578-2bd4-4a11-a3fd-fec226a64c22
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_renderstate, _D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], D3DDDIARG_RENDERSTATE, UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, d3dumddi/D3DDDIARG_RENDERSTATE
+ms.keywords: display.d3dddiarg_renderstate, D3DDDIARG_RENDERSTATE, UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, D3DDDIARG_RENDERSTATE structure [Display Devices], d3dumddi/D3DDDIARG_RENDERSTATE, _D3DDDIARG_RENDERSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_RENDERSTATE {
 
 
 
-### -field State
+#### - State
 
 [in] A D3DDDIRENDERSTATETYPE-typed value that indicates the render state to be updated. For a definition of each value, see the corresponding value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a> enumeration type in the DirectX documentation.
 
 
-### -field Value
+#### - Value
 
 [in] The value to which the driver should update the render state that is identified by the <b>State</b> member. For more information about values that can be updated for each render state, see the definition of the corresponding render state in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a> enumeration type in the DirectX documentation.
 

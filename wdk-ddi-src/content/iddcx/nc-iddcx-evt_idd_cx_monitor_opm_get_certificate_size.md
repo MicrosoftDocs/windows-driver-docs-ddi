@@ -74,21 +74,21 @@ typedef EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE PFN_IDD_CX_MONITOR_OPM_GET_C
 
 
 
-### -param AdapterObject [in]
+#### - AdapterObject [in]
 
 
                     
                 The object for the adapter that the OPM certificate size will be gotten for.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 
                     
                 Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b>.
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 
                     

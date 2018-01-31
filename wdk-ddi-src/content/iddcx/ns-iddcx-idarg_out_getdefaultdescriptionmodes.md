@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e172d33-e4af-4345-a979-6b4549565ec7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, display.idarg_out_getdefaultdescriptionmodes, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices]
+ms.keywords: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_out_getdefaultdescriptionmodes, iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
 
 
 
-### -field DefaultMonitorModeBufferOutputCount
+#### - DefaultMonitorModeBufferOutputCount
 
 
                      [out] If the <a href="..\iddcx\ns-iddcx-idarg_in_parsemonitordescription.md">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description.
@@ -77,7 +77,7 @@ typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
                  
 
 
-### -field PreferredMonitorModeIdx
+#### - PreferredMonitorModeIdx
 
 
                      [out] Index into the <b>pMonitorModes</b> array of the preferred monitor mode. A value of <b>NO_PREFERRED_MODE</b> indicates that there is no preferred monitor mode.

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25ebb316-e801-44fa-bb80-dffe9051db7e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetModuleByModuleName2, GetModuleByModuleName2, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2 method, dbgeng/IDebugSymbols3::GetModuleByModuleName2, IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, IDebugSymbols3, debugger.getmodulebymodulename2, GetModuleByModuleName2 method [Windows Debugging], GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols3, GetModuleByModuleName2, IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, IDebugSymbols3::GetModuleByModuleName2, dbgeng/IDebugSymbols3::GetModuleByModuleName2, GetModuleByModuleName2 method [Windows Debugging], debugger.getmodulebymodulename2, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2 method, GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetModuleByModuleName2(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 Specifies the name of the desired module.
 
 
-### -param StartIndex [in]
+#### - StartIndex [in]
 
 Specifies the index to start searching from.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies a bit-set containing options used when searching for the module with the specified name.  <i>Flags</i> may contain the following bit-flags:
 <table>
@@ -112,12 +112,12 @@ Do not search the unloaded modules.
 </table> 
 
 
-### -param Index [out, optional]
+#### - Index [out, optional]
 
 Receives the index of the first module with the name <i>Name</i>.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Base [out, optional]
+#### - Base [out, optional]
 
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09B574FA-BCBA-4370-8F9F-BF30CE0BE52D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock, ndis/NdisDprAcquireReadWriteLock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], NdisDprAcquireReadWriteLock, ndis/NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,13 +72,13 @@ VOID NdisDprAcquireReadWriteLock(
 
 
 
-### -param Lock [in, out]
+#### - Lock [in, out]
 
 A pointer to an opaque variable that represents a lock. The caller can use this lock to access
      shared resources.
 
 
-### -param fWrite [in]
+#### - fWrite [in]
 
 A Boolean value. If the value is TRUE, this function is provided with write access to shared
      resources; if the value is FALSE, this function is provided with read access.
@@ -153,25 +153,25 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
-   MiniportSynchronizeInterrupt</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
-
-<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisDprReleaseReadWriteLock</a>
+<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
+   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
-
 <a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a>
+
+<mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
+   MiniportSynchronizeInterrupt</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
-<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisDprReleaseReadWriteLock</a>
 
  
 

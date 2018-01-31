@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoRegisterDeviceInterface, k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], kernel.ioregisterdeviceinterface
+ms.keywords: IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], kernel.ioregisterdeviceinterface, k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, wdm/IoRegisterDeviceInterface, IoRegisterDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS IoRegisterDeviceInterface(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 A pointer to the PDO for the device.
 
 
-### -param InterfaceClassGuid [in]
+#### - InterfaceClassGuid [in]
 
 A pointer to the class GUID that identifies the functionality (the device interface class) being registered.
 
 
-### -param ReferenceString [in, optional]
+#### - ReferenceString [in, optional]
 
 Optionally points to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>. The string must not contain any path separator characters ("/" or "\"). Function drivers typically specify <b>NULL</b> for this parameter. Filter drivers must specify <b>NULL</b>.
 
@@ -90,7 +90,7 @@ Reference strings are only used by a few bus drivers, such as <i>swenum</i>, whi
 On Microsoft Windows 98/Me systems, the <i>ReferenceString</i> value can be no longer than MAX_PATH characters. There is no length limit on Windows 2000 and later versions of Windows.
 
 
-### -param SymbolicLinkName [out]
+#### - SymbolicLinkName [out]
 
 A pointer to a Unicode string structure allocated by the caller. If this routine is successful, it initializes the Unicode string and allocates the string buffer containing the kernel-mode path to the symbolic link for an instance of the specified device interface class. 
 
@@ -144,13 +144,13 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
-<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
+<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
 
 <a href="..\wdm\nf-wdm-ioopendeviceinterfaceregistrykey.md">IoOpenDeviceInterfaceRegistryKey</a>
 
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
  
 

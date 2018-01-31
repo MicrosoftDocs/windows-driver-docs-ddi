@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcFastCopyWrite routine [Installable File System Drivers], ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite, CcFastCopyWrite
+ms.keywords: ifsk.ccfastcopywrite, CcFastCopyWrite routine [Installable File System Drivers], CcFastCopyWrite, ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ntifs/CcFastCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID CcFastCopyWrite(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length in bytes of the data to be written.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer from which the data is to be copied.
 
@@ -124,9 +124,9 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
 
  
 

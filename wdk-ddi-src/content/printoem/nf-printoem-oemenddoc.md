@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 268a22ba-1dce-4326-bdf4-4d7e7e83257c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, OEMEndDoc, print.oemenddoc, printoem/OEMEndDoc, OEMEndDoc function [Print Devices]
+ms.keywords: print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, print.oemenddoc, OEMEndDoc, OEMEndDoc function [Print Devices], printoem/OEMEndDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,10 +69,10 @@ BOOL APIENTRY OEMEndDoc(
 
 
 
-### -param pso
+#### - pso
 
 
 
-### -param fl
+#### - fl
 
 

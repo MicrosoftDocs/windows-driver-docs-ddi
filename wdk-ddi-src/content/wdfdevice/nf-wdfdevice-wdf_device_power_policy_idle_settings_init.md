@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5a80021-1d9d-42f4-9344-9dd8d9524d0b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, wdf.wdf_device_power_policy_idle_settings_init, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, kmdf.wdf_device_power_policy_idle_settings_init, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml
+ms.keywords: WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, kmdf.wdf_device_power_policy_idle_settings_init, wdf.wdf_device_power_policy_idle_settings_init, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(
 
 
 
-### -param Settings [out]
+#### - Settings [out]
 
 A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
 
-### -param IdleCaps [in]
+#### - IdleCaps [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO, *PIMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], kernel.image_info, IMAGE_INFO, _IMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], PIMAGE_INFO
+ms.keywords: ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO, PIMAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, *PIMAGE_INFO, kernel.image_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IMAGE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PIMAGE_INFO, IMAGE_INFO"
+req.typenames: IMAGE_INFO, *PIMAGE_INFO
 ---
 
 # _IMAGE_INFO structure
@@ -84,71 +84,71 @@ typedef struct _IMAGE_INFO {
 
 
 
-### -field ImageAddressingMode
+#### - ImageAddressingMode
 
 Always set to IMAGE_ADDRESSING_MODE_32BIT.
 
 
-### -field SystemModeImage
+#### - SystemModeImage
 
 Set either to one for newly loaded kernel-mode components, such as drivers, or to zero for images that are mapped into user space.
 
 
-### -field ImageMappedToAllPids
+#### - ImageMappedToAllPids
 
 Always set to zero.
 
 
-### -field ExtendedInfoPresent
+#### - ExtendedInfoPresent
 
 If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure is part of a larger, extended version of the image information structure (see <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>). Added in Windows Vista. For more information, see "Extended version of the image information structure" later in this Remarks section.
 
 
-### -field MachineTypeMismatch
+#### - MachineTypeMismatch
 
 Always set to zero. Added in Windows 8/Windows Server 2012.
 
 
-### -field ImageSignatureLevel
+#### - ImageSignatureLevel
 
 The level of signature with which code integrity has labeled the image. This value is one of the <code>#define SE_SIGNING_LEVEL_*</code> constants in ntddk.h. Added in Windows 8.1/Windows Server 2012 R2.
 
 
-### -field ImageSignatureType
+#### - ImageSignatureType
 
 The type of signature with which code integrity has labeled the image. This value is a <b>SE_IMAGE_SIGNATURE_TYPE</b> enumeration value,  defined in ntddk.h. Added in Windows 8.1/Windows Server 2012 R2.
 
 
-### -field ImagePartialMap
+#### - ImagePartialMap
 
 This value is non-zero if the image mapping view called out for is a partial view that does not map the entire image; 0 if the view maps the entire image. Added in Windows 10/Windows Server 2016.
 
 
-### -field Reserved
+#### - Reserved
 
 Always set to zero.
 
 
-### -field Properties
+#### - Properties
 
 
 
-### -field ImageBase
+#### - ImageBase
 
 Set to the virtual base address of the image.
 
 
-### -field ImageSelector
+#### - ImageSelector
 
 Always set to zero.
 
 
-### -field ImageSize
+#### - ImageSize
 
 Set to the virtual size, in bytes, of the image.
 
 
-### -field ImageSectionNumber
+#### - ImageSectionNumber
 
 Always set to zero.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9c8227ea-53e4-47c9-ab74-84e42b0cbbe5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCopySendNetBufferListInfo, netvista.ndiscopysendnetbufferlistinfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopySendNetBufferListInfo, ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml
+ms.keywords: ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, NdisCopySendNetBufferListInfo, ndis/NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], netvista.ndiscopysendnetbufferlistinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID NdisCopySendNetBufferListInfo(
 
 
 
-### -param DestNetBufferList [in]
+#### - DestNetBufferList [in]
 
 A pointer to the destination <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
 
 
-### -param SrcNetBufferList [in]
+#### - SrcNetBufferList [in]
 
 A pointer to the source <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
 

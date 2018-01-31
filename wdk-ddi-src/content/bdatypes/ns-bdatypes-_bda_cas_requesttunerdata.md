@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 09347A56-C3F8-4E0D-A557-CECB7BBC7DB8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/PBDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], _BDA_CAS_REQUESTTUNERDATA, bdatypes/BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], *PBDA_CAS_REQUESTTUNERDATA
+ms.keywords: PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], *PBDA_CAS_REQUESTTUNERDATA, _BDA_CAS_REQUESTTUNERDATA, bdatypes/BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, bdatypes/PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata, PBDA_CAS_REQUESTTUNERDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,18 +70,18 @@ typedef struct _BDA_CAS_REQUESTTUNERDATA {
 
 
 
-### -field ucRequestPriority
+#### - ucRequestPriority
 
 
 
-### -field ucRequestReason
+#### - ucRequestReason
 
 
 
-### -field ucRequestConsequences
+#### - ucRequestConsequences
 
 
 
-### -field ulEstimatedTime
+#### - ulEstimatedTime
 
 

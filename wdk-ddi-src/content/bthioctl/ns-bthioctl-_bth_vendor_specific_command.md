@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c37844d9-206a-4060-8b46-9afe691fe8f9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_VENDOR_SPECIFIC_COMMAND, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], PBTH_VENDOR_SPECIFIC_COMMAND, bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices]
+ms.keywords: PBTH_VENDOR_SPECIFIC_COMMAND, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, _BTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], BTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,13 +71,13 @@ typedef struct _BTH_VENDOR_SPECIFIC_COMMAND {
 
 
 
-### -field ManufacturerId
+#### - ManufacturerId
 
 The manufacturer identifier of the radio. Radios that have this manufacturer identifier can
      receive the vendor-specific command.
 
 
-### -field LmpVersion
+#### - LmpVersion
 
 A UCHAR that contains the link management protocol (LMP) version. If the LMP version of a radio is
      greater than this value, the command is sent to the radio. Otherwise, the radio does not receive the
@@ -85,7 +85,7 @@ A UCHAR that contains the link management protocol (LMP) version. If the LMP ver
      <b>LmpVersion</b> is zero, all radios will receive the vendor-specific command.
 
 
-### -field MatchAnySinglePattern
+#### - MatchAnySinglePattern
 
 A BOOLEAN value that specifies if all the patterns in the 
      <b>Data</b> member must match or only one pattern must match to associate an event with a vendor-specific
@@ -96,7 +96,7 @@ A BOOLEAN value that specifies if all the patterns in the
      <b>MatchAnySinglePattern</b> is <b>TRUE</b>, matching any pattern associates an event with the command.
 
 
-### -field HciHeader
+#### - HciHeader
 
 A 
      <a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a> structure that
@@ -105,7 +105,7 @@ A
      not include the size of the patterns.
 
 
-### -field Data
+#### - Data
 
 A UCHAR array that contains the data and patterns for the command that is specified in the 
      <b>HciHeader</b> member. Patterns are specified with 
@@ -140,9 +140,9 @@ If such patterns are specified, the
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
+
+<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
 
 <a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
 

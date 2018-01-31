@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSessionStateConnected, wdm/IoSessionStateLoggedOn, IoSessionStateDisconnectedLoggedOn, *PIO_SESSION_STATE, kernel.io_session_state, IoSessionStateMax, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IoSessionStateInitialized, _IO_SESSION_STATE, wdm/IoSessionStateMax, IoSessionStateCreated, wdm/IoSessionStateDisconnectedLoggedOn, IO_SESSION_STATE, wdm/IoSessionStateTerminated, PIO_SESSION_STATE, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, IoSessionStateDisconnected, wdm/IoSessionStateLoggedOff, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateDisconnected, IoSessionStateLoggedOn, wdm/IoSessionStateInitialized, wdm/PIO_SESSION_STATE, wdm/IO_SESSION_STATE, IoSessionStateConnected, wdm/IoSessionStateCreated, IoSessionStateTerminated, IoSessionStateLoggedOff
+ms.keywords: sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, *PIO_SESSION_STATE, wdm/IO_SESSION_STATE, wdm/IoSessionStateDisconnected, _IO_SESSION_STATE, IoSessionStateMax, wdm/PIO_SESSION_STATE, IO_SESSION_STATE, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IoSessionStateConnected, wdm/IoSessionStateLoggedOff, wdm/IoSessionStateTerminated, IoSessionStateDisconnected, IoSessionStateLoggedOff, wdm/IoSessionStateLoggedOn, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateLoggedOn, IoSessionStateCreated, IoSessionStateTerminated, wdm/IoSessionStateConnected, wdm/IoSessionStateDisconnectedLoggedOn, PIO_SESSION_STATE, IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateMax, kernel.io_session_state, wdm/IoSessionStateCreated, IoSessionStateInitialized, wdm/IoSessionStateInitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	IO_SESSION_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PIO_SESSION_STATE, IO_SESSION_STATE"
+req.typenames: IO_SESSION_STATE, *PIO_SESSION_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -76,47 +76,47 @@ typedef enum _IO_SESSION_STATE {
 
 
 
-### -field IoSessionStateCreated
+#### - IoSessionStateCreated
 
 The session has been created.
 
 
-### -field IoSessionStateInitialized
+#### - IoSessionStateInitialized
 
 The session has been initialized but has not yet been created.
 
 
-### -field IoSessionStateConnected
+#### - IoSessionStateConnected
 
 The session is connected but the user has not yet logged on.
 
 
-### -field IoSessionStateDisconnected
+#### - IoSessionStateDisconnected
 
 The session has been disconnected.
 
 
-### -field IoSessionStateDisconnectedLoggedOn
+#### - IoSessionStateDisconnectedLoggedOn
 
 The session was disconnected while the user was logged on.
 
 
-### -field IoSessionStateLoggedOn
+#### - IoSessionStateLoggedOn
 
 The user is logged on to the session.
 
 
-### -field IoSessionStateLoggedOff
+#### - IoSessionStateLoggedOff
 
 The user has logged off of the session. 
 
 
-### -field IoSessionStateTerminated
+#### - IoSessionStateTerminated
 
 The session has been terminated.
 
 
-### -field IoSessionStateMax
+#### - IoSessionStateMax
 
 Specifies the maximum value in this enumeration type. 
 
@@ -147,9 +147,9 @@ The event that causes the transition (a table entry in a white box)
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
-
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
+
+<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVCPRECONNECTINFO, _AVCPRECONNECTINFO, avc/PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, AVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], avc/AVCPRECONNECTINFO, *PAVCPRECONNECTINFO, stream.avcpreconnectinfo, AVCPRECONNECTINFO structure [Streaming Media Devices]
+ms.keywords: avc/AVCPRECONNECTINFO, AVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, PAVCPRECONNECTINFO, *PAVCPRECONNECTINFO, stream.avcpreconnectinfo, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], avc/PAVCPRECONNECTINFO, _AVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVCPRECONNECTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PAVCPRECONNECTINFO, AVCPRECONNECTINFO"
+req.typenames: AVCPRECONNECTINFO, *PAVCPRECONNECTINFO
 ---
 
 # _AVCPRECONNECTINFO structure
@@ -72,32 +72,32 @@ typedef struct _AVCPRECONNECTINFO {
 
 
 
-### -field DeviceID
+#### - DeviceID
 
 A GUID representing the unit as a whole. All subunits within the same unit share the same GUID. No two units share the same GUID.
 
 
-### -field SubunitAddress
+#### - SubunitAddress
 
 The encoded subunit type and subunit ID of the subunit.
 
 
-### -field SubunitPlugNumber
+#### - SubunitPlugNumber
 
 The plug number (within the subunit) described by the AVCPRECONNECTINFO structure.
 
 
-### -field DataFlow
+#### - DataFlow
 
 The direction of data flow on this subunit plug. Destination plugs have KSPIN_DATAFLOW_IN; source plugs have KSPIN_DATAFLOW_OUT.
 
 
-### -field Flags
+#### - Flags
 
 A bitmap with one or more bits set from the KSPIN_FLAG_AVC enumeration.
 
 
-### -field UnitPlugNumber
+#### - UnitPlugNumber
 
 The plug number (within the subunit) described by the AVCPRECONNECTINFO structure.
 

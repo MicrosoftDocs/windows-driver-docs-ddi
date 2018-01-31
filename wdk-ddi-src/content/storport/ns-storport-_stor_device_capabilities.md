@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_DEVICE_CAPABILITIES structure [Storage Devices], _STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES, storport/PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], storage.stor_device_capabilities, PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES
+ms.keywords: PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES, storport/PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], STOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], _STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, *PSTOR_DEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,27 +79,27 @@ typedef struct _STOR_DEVICE_CAPABILITIES {
 
 
 
-### -field Version
+#### - Version
 
 Specifies the version of the structure. Set to STOR_DEVICE_CAPABILITIES_EX_VERSION_1 by Storport.
 
 
-### -field DeviceD1
+#### - DeviceD1
 
 Specifies whether the device hardware supports the D1 power state. Miniport drivers set this bit to 0.
 
 
-### -field DeviceD2
+#### - DeviceD2
 
 Specifies whether the device hardware supports the D2 power state. Miniport drivers set this bit to 0.
 
 
-### -field LockSupported
+#### - LockSupported
 
 Specifies whether the device supports physical-device locking that prevents device ejection. This member pertains to ejecting a LUN or a unit device.
 
 
-### -field EjectSupported
+#### - EjectSupported
 
 Specifies whether the device supports software-controlled device ejection while the system is in the <b>PowerSystemWorking</b> state. This member pertains to ejecting a LUN or unit device.
 
@@ -109,27 +109,27 @@ Specifies whether the device supports software-controlled device ejection while 
  
 
 
-### -field DockDevice
+#### - DockDevice
 
 Specifies whether the device is a docking peripheral.
 
 
-### -field UniqueID
+#### - UniqueID
 
 Specifies whether the device's instance ID is unique system-wide. This bit is clear if the instance ID is unique only within the scope of the bus.
 
 
-### -field SilentInstall
+#### - SilentInstall
 
 Specifies whether <b>Device Manager</b> should suppress all installation dialog boxes; except required dialog boxes such as "no compatible drivers found."
 
 
-### -field SurpriseRemovalOK
+#### - SurpriseRemovalOK
 
 Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with <b>StorRemoveDevice</b> as the <b>PnPAction</b> in the <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in. 
 
 
-### -field NoDisplayInUI
+#### - NoDisplayInUI
 
 Do not display the device in the user interface. If this bit is set, the device is never displayed in the user interface, even if the device is present but fails to start. Miniport drivers do not set this bit.
 
@@ -159,9 +159,9 @@ Starting with Windows 8, miniports should use the <a href="..\storport\ns-storp
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
-
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+<a href="..\storport\ns-storport-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
 
 <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 

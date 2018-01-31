@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45bc4d3f-d573-4a11-8d25-160cb8f233f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATECRYPTOSESSION, _D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession, UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], d3dumddi/D3DDDIARG_CREATECRYPTOSESSION
+ms.keywords: d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession, _D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _D3DDDIARG_CREATECRYPTOSESSION {
 
 
 
-### -field CryptoType
+#### - CryptoType
 
 [in] A GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function creates. The GUID can be one of the following:
 
@@ -86,12 +86,12 @@ A GUID that indicates the 128 bit AES-CRT block cipher.
 A GUID that indicates a proprietary encryption algorithm. 
 
 
-### -field DecodeProfile
+#### - DecodeProfile
 
  [in] A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses for the encryption session that the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function creates. The driver uses this decode profile in conjunction with the encryption type that the <b>CryptoType</b> member specifies. 
 
 
-### -field hCryptoSession
+#### - hCryptoSession
 
 [in/out] A handle to the encryption session. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the encryption session in subsequent calls. 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0e7fccd1-1ced-41e7-8e75-8f4fa496ea06
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspin_descriptor, ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, KSPIN_DESCRIPTOR structure [Streaming Media Devices], *PKSPIN_DESCRIPTOR, ks/PKSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices], ks/KSPIN_DESCRIPTOR
+ms.keywords: KSPIN_DESCRIPTOR structure [Streaming Media Devices], stream.kspin_descriptor, ks/PKSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR, ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices], PKSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR, ks/KSPIN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPIN_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
+req.typenames: "*PKSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR"
 ---
 
 # KSPIN_DESCRIPTOR structure
@@ -83,67 +83,67 @@ typedef struct {
 
 
 
-### -field ConstrainedDataRangesCount
+#### - ConstrainedDataRangesCount
 
 Specifies the number of entries in the array pointed to by <b>ConstrainedDataRanges</b>.
 
 
-### -field ConstrainedDataRanges
+#### - ConstrainedDataRanges
 
 Points to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures. Indicates the set of data ranges the pin type currently supports, based on the driver's internal state.
 
 
-### -field Reserved
+#### - Reserved
 
 Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
 
 
-### -field InterfacesCount
+#### - InterfacesCount
 
 Specifies the size of the array pointed to by <b>Interfaces</b>.
 
 
-### -field Interfaces
+#### - Interfaces
 
 An array of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> structures specifying the interfaces supported by this pin type.
 
 
-### -field MediumsCount
+#### - MediumsCount
 
 Specifies the number of elements in the array pointed to by <b>Mediums</b>.
 
 
-### -field Mediums
+#### - Mediums
 
 An array of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structures specifying the mediums supported by this pin type.
 
 
-### -field DataRangesCount
+#### - DataRangesCount
 
 Specifies the size of the array pointed to by <b>DataRanges</b>.
 
 
-### -field DataRanges
+#### - DataRanges
 
 An array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures specifying the data ranges supported by this pin type.
 
 
-### -field DataFlow
+#### - DataFlow
 
 Specifies either <b>KSPIN_DATAFLOW_IN</b> or KSPIN_DATAFLOW_OUT. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>.
 
 
-### -field Communication
+#### - Communication
 
 Specifies KSPIN_COMMUNICATION_NONE, KSPIN_COMMUNICATION_SINK, KSPIN_COMMUNICATION_SOURCE, KSPIN_COMMUNICATION_BOTH or KSPIN_COMMUNICATION_BRIDGE. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a> for the meaning of each value.
 
 
-### -field Category
+#### - Category
 
 Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifies the general category of functionality that the pin provides. Examples of KS pin category GUIDs are KSNODETYPE_SPEAKER, KSNODETYPE_HEADPHONES, and KSNODETYPE_MICROPHONE, which are all defined in <i>Ksmedia.h</i>. Also see <a href="https://msdn.microsoft.com/fd4a4afd-2c17-4002-87ae-21501b1d75c1">Pin Category Property</a>.
 
 
-### -field Name
+#### - Name
 
 Specifies the GUID of the localized Unicode string name for the pin type, stored in the Registry.
 
@@ -161,11 +161,11 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 12378915-fa3d-4054-bb06-6eb8b292559c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbspec/PUSB_INTERFACE_DESCRIPTOR, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], PUSB_INTERFACE_DESCRIPTOR, _USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], buses.usb_interface_descriptor
+ms.keywords: "_USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, *PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], usbspec/PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], buses.usb_interface_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _USB_INTERFACE_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 The length, in bytes, of the descriptor.
 
 
-### -field bDescriptorType
+#### - bDescriptorType
 
 The descriptor type. <b>bDescriptor</b> must be set to USB_INTERFACE_DESCRIPTOR_TYPE.
 
 
-### -field bInterfaceNumber
+#### - bInterfaceNumber
 
 The index number of the interface.
 
 
-### -field bAlternateSetting
+#### - bAlternateSetting
 
 The index number of the alternate setting of the interface.
 
 
-### -field bNumEndpoints
+#### - bNumEndpoints
 
 The number of endpoints that are used by the interface, excluding the default status endpoint.
 
 
-### -field bInterfaceClass
+#### - bInterfaceClass
 
 The class code of the device that the USB specification group assigned.
 
 
-### -field bInterfaceSubClass
+#### - bInterfaceSubClass
 
 The subclass code of the device that the USB specification group assigned.
 
 
-### -field bInterfaceProtocol
+#### - bInterfaceProtocol
 
 The protocol code of the device that the USB specification group assigned.
 
 
-### -field iInterface
+#### - iInterface
 
 The index of a string descriptor that describes the interface. For information about this field, see section 9.6.5 in the "Universal Serial Bus Revision 2.0" specification  at <a href="http://www.usb.org/developers/docs/">USB Technology</a>.
 

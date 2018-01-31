@@ -68,7 +68,7 @@ ULONG VideoPortGetAssociatedDeviceID(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the child device object, a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>.
 

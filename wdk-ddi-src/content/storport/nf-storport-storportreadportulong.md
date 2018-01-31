@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b04ef64a-cf1f-4de5-acb3-e57687f64719
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortUlong routine [Storage Devices], StorPortReadPortUlong, storport/StorPortReadPortUlong, storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml, storage.storportreadportulong
+ms.keywords: StorPortReadPortUlong routine [Storage Devices], storport/StorPortReadPortUlong, storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml, StorPortReadPortUlong, storage.storportreadportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ STORPORT_API ULONG StorPortReadPortUlong(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the address from which to read. 
 
@@ -96,9 +96,9 @@ For more information, see the <a href="..\srb\nf-srb-scsiportreadportulong.md">S
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
-
 <a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>
+
+<a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
 
  
 

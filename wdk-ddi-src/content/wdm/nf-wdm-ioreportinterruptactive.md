@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41C3AC04-14AF-4C37-9557-F9FF494F234B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReportInterruptActive, wdm/IoReportInterruptActive, kernel.ioreportinterruptactive, IoReportInterruptActive routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoReportInterruptActive routine [Kernel-Mode Driver Architecture], IoReportInterruptActive, kernel.ioreportinterruptactive, wdm/IoReportInterruptActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoReportInterruptActive(
 
 
 
-### -param Parameters [in]
+#### - Parameters [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_report_interrupt_active_state_parameters.md">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a> structure that contains the connection context associated with the interrupt. The caller received this context from the <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> call that registered the ISR.
 
@@ -95,13 +95,13 @@ For more information about <b>IoReportInterruptActive</b>, see <a href="https://
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
-<a href="..\wdm\ns-wdm-_io_report_interrupt_active_state_parameters.md">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a>
+<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
 
 <a href="..\wdm\nf-wdm-ioreportinterruptinactive.md">IoReportInterruptInactive</a>
 
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
+<a href="..\wdm\ns-wdm-_io_report_interrupt_active_state_parameters.md">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a>
 
  
 

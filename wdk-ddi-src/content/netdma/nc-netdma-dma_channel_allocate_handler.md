@@ -40,7 +40,7 @@ apiname:
 -	ProviderAllocateDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_CHANNEL_ALLOCATE_HANDLER callback
@@ -76,7 +76,7 @@ NTSTATUS ProviderAllocateDmaChannel(
 
 
 
-### -param ProviderContext [in]
+#### - ProviderContext [in]
 
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
@@ -84,7 +84,7 @@ A pointer that identifies a DMA provider's context area. The DMA provider driver
      NetDmaRegisterProvider</b></mshelp:link> function.
 
 
-### -param ChannelParameters [in]
+#### - ChannelParameters [in]
 
 A pointer to a 
      <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
@@ -92,17 +92,18 @@ A pointer to a
      channel.
 
 
-### -param NetDmaChannelHandle [in]
+#### - NetDmaChannelHandle [in]
 
 A handle that identifies the DMA channel. Provider drivers pass this handle to 
      <b>NetDma<i>Xxx</i></b> functions to identify the DMA channel.
 
 
-### -param *pProviderChannelContext
+#### - *pProviderChannelContext [out]
 
-
-
-
+A pointer to a value that is a pointer to a DMA provider's context area for the DMA channel. The
+     DMA provider driver allocates this context area before returning from 
+     <i>ProviderAllocateDmaChannel</i>. NetDMA passes the context area pointer to 
+     <i>ProviderXxx</i> functions that require a provider channel context.
 
 
 #### - pProviderChannelContext [out]
@@ -205,11 +206,11 @@ NetDMA calls
 
 <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
-<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
  
 

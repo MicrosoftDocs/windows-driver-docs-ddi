@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 560A7CD9-5D9D-434B-ACEE-5852CC9A2CC3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista], VmbClientChannelInitSetRingBufferPageCount, netvista.vmbclientchannelinitsetringbufferpagecount
+ms.keywords: VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista], netvista.vmbclientchannelinitsetringbufferpagecount, VmbClientChannelInitSetRingBufferPageCount, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbClientChannelInitSetRingBufferPageCount
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -75,18 +75,18 @@ NTSTATUS
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel.  
 
 
-### -param IncomingPageCount [in]
+#### - IncomingPageCount [in]
 
 Number of pages to allocate for the incoming ring     buffer.
 
 
 
-### -param OutgoingPageCount [in]
+#### - OutgoingPageCount [in]
 
 Number of pages to allocate for the outgoing ring
 buffer.

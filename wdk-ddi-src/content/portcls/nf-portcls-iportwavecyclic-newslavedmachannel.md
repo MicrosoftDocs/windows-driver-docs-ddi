@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4d20bd03-9fde-4fcf-a90b-5933221cda93
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: NewSlaveDmaChannel, IPortWaveCyclic::NewSlaveDmaChannel, audmp-routines_63146fe2-162d-4457-9dda-807f1d3931ac.xml, portcls/IPortWaveCyclic::NewSlaveDmaChannel, IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], NewSlaveDmaChannel method, NewSlaveDmaChannel method [Audio Devices], IPortWaveCyclic interface, NewSlaveDmaChannel method [Audio Devices], audio.iportwavecyclic_newslavedmachannel
+ms.keywords: NewSlaveDmaChannel method [Audio Devices], NewSlaveDmaChannel, audmp-routines_63146fe2-162d-4457-9dda-807f1d3931ac.xml, audio.iportwavecyclic_newslavedmachannel, portcls/IPortWaveCyclic::NewSlaveDmaChannel, IPortWaveCyclic interface [Audio Devices], NewSlaveDmaChannel method, NewSlaveDmaChannel method [Audio Devices], IPortWaveCyclic interface, IPortWaveCyclic::NewSlaveDmaChannel, IPortWaveCyclic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWaveCyclic.NewSlaveDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortWaveCyclic::NewSlaveDmaChannel method
@@ -73,37 +73,37 @@ NTSTATUS NewSlaveDmaChannel(
 
 
 
-### -param DmaChannel [out]
+#### - DmaChannel [out]
 
 Pointer to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a> interface. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in]
+#### - OuterUnknown [in]
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 Pointer to an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object. This resource list contains the resource that describes the DMA channel.
 
 
-### -param DmaIndex [in]
+#### - DmaIndex [in]
 
 Index in the resource list of the DMA-channel descriptor. The function uses this value as a call parameter to the <i>ResourceList</i> object's IResourceList::Find<i>xxx</i>Entry method.
 
 
-### -param MaximumLength [in]
+#### - MaximumLength [in]
 
 Maximum length in bytes of the cyclic DMA buffer that will be associated with this channel.
 
 
-### -param DemandMode [in]
+#### - DemandMode [in]
 
 Indicates whether the device associated with the DMA channel supports demand mode.
 
 
-### -param DmaSpeed [in]
+#### - DmaSpeed [in]
 
 The DMA speed can be specified as one of the following DMA_SPEED enumeration values: <b>Compatible</b>, <b>TypeA</b>, <b>TypeB</b>, <b>TypeC</b>, or <b>TypeF</b>.
 
@@ -128,15 +128,15 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536900">IPortWaveCyclic::NewMasterDmaChannel</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 <a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
 

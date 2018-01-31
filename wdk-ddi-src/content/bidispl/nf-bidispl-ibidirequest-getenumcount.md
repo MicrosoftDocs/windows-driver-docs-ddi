@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetEnumCount, IBidiRequest::GetEnumCount, IBidiRequest interface [Print Devices], IBidiRequest::GetEnumCount method, print.ibidirequest_ibidirequest__getenumcount, _win32_IBidiRequest_GetEnumCount, IBidiRequest, gdi.ibidirequest_ibidirequest__getenumcount, IBidiRequest::IBidiRequest::GetEnumCount, IBidiRequest::GetEnumCount method [Print Devices], bidispl/IBidiRequest::IBidiRequest::GetEnumCount, IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest interface
+ms.keywords: IBidiRequest::IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, bidispl/IBidiRequest::IBidiRequest::GetEnumCount, _win32_IBidiRequest_GetEnumCount, IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest interface, print.ibidirequest_ibidirequest__getenumcount, GetEnumCount, IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest::GetEnumCount method, IBidiRequest::GetEnumCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT IBidiRequest::GetEnumCount(
 
 
 
-### -param pdwTotal [out]
+#### - pdwTotal [out]
 
 A pointer to a variable that receives the number of output results.
 
@@ -138,11 +138,11 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dd144975">IBidiRequest::GetOutputData</a>
 

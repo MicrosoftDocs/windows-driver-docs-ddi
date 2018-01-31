@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 59be582c-0f56-45d8-b407-e588ee0f7f8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KoRelease function [Streaming Media Devices], KoRelease, ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, stream.korelease, kcom/KoRelease
+ms.keywords: ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, KoRelease, stream.korelease, KoRelease function [Streaming Media Devices], kcom/KoRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ void KoRelease(
 
 
 
-### -param ClassId [in]
+#### - ClassId [in]
 
 The CLSID of the object whose reference count will be decremented.
 

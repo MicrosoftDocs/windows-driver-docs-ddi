@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 94e5153a-3ce5-400c-b53a-5323b34a6c34
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HwNUnregisterClient, gpiobtn.hwnunregisterclient, HwNUnregisterClient function, hwnclx/HwNUnregisterClient
+ms.keywords: HwNUnregisterClient, gpiobtn.hwnunregisterclient, hwnclx/HwNUnregisterClient, HwNUnregisterClient function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	HwNUnregisterClient
 product: Windows
 targetos: Windows
-req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
+req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---
 
 # HwNUnregisterClient function
@@ -70,7 +70,7 @@ FORCEINLINE NTSTATUS  HwNUnregisterClient(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 Handle to the client drivers framework driver object. 
 
@@ -84,9 +84,9 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
  
 

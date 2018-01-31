@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a125161d-c086-45a4-9b66-4c13d9ed5f11
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreateclock, ksfunc_ba840ce8-a1c9-4ede-8d2e-6e2829ad9b11.xml, ks/KsCreateClock, KsCreateClock function [Streaming Media Devices], KsCreateClock
+ms.keywords: KsCreateClock, ksfunc_ba840ce8-a1c9-4ede-8d2e-6e2829ad9b11.xml, KsCreateClock function [Streaming Media Devices], stream.kscreateclock, ks/KsCreateClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsCreateClock(
 
 
 
-### -param ConnectionHandle [in]
+#### - ConnectionHandle [in]
 
 Specifies the handle to the connection on which to create the clock.
 
 
-### -param ClockCreate [in]
+#### - ClockCreate [in]
 
 Specifies clock create parameters. This currently consists of a flag that must be set to zero.
 
 
-### -param ClockHandle [out]
+#### - ClockHandle [out]
 
 Specifies the new clock handle.
 

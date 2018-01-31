@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 358b1aa9-4bfd-4bed-94f7-1b021c732a02
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFCancelSendNetBufferLists, ndis/NdisFCancelSendNetBufferLists, filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], netvista.ndisfcancelsendnetbufferlists
+ms.keywords: NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], NdisFCancelSendNetBufferLists, filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, ndis/NdisFCancelSendNetBufferLists, netvista.ndisfcancelsendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ VOID NdisFCancelSendNetBufferLists(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param CancelId [in]
+#### - CancelId [in]
 
 The cancellation identifier. This identifier specifies the network data for the transmission that
      is being canceled.
@@ -118,16 +118,16 @@ NDIS returns canceled send data that the filter driver originated to the
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-   FilterSendNetBufferListsComplete</i></mshelp:link>
+<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
    FilterCancelSendNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
+   FilterSendNetBufferListsComplete</i></mshelp:link>
 
  
 

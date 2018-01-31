@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6EDCC69B-F156-416B-9824-5E26F9834D14
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_ENCAPSULATION_802_1H, WDI_ENCAPSULATION_RFC_1042, netvista.wdi_encapsulation_type, wditypes/WDI_ENCAPSULATION_TYPE, wditypes/WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_802_1H, _WDI_ENCAPSULATION_TYPE, netvista.wifi_encapsulation_type, WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation]
+ms.keywords: WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_802_1H, wditypes/WDI_ENCAPSULATION_802_1H, netvista.wifi_encapsulation_type, WDI_ENCAPSULATION_TYPE, wditypes/WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation], netvista.wdi_encapsulation_type, wditypes/WDI_ENCAPSULATION_TYPE, _WDI_ENCAPSULATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _WDI_ENCAPSULATION_TYPE {
 
 
 
-### -field WDI_ENCAPSULATION_RFC_1042
+#### - WDI_ENCAPSULATION_RFC_1042
 
 The encapsulation that is defined in IETF RFC 1042.
 
 
-### -field WDI_ENCAPSULATION_802_1H
+#### - WDI_ENCAPSULATION_802_1H
 
 The encapsulation that is defined in the IEEE 802.1h-1997 standard.
 

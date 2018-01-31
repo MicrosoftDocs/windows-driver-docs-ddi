@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 312DED8E-570E-4DEC-B084-36894970F49F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista], VmbChannelSendSynchronousRequest, vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest
+ms.keywords: VmbChannelSendSynchronousRequest, vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest, netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelSendSynchronousRequest
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -79,48 +79,48 @@ NTSTATUS VmbChannelSendSynchronousRequest(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for the channel.  
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Data to send.
 
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size, in bytes, of the data to send.
 
 
 
-### -param ExternalDataMdl [in, optional]
+#### - ExternalDataMdl [in, optional]
 
 A Memory Descriptor List (MDL) that describes an additional buffer to     send.
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Standard flags.
 
 
-### -param CompletionBuffer [out]
+#### - CompletionBuffer [out]
 
 Buffer in which to store completion packet results.
 
 
 
-### -param CompletionBufferSize [in, out, optional]
+#### - CompletionBufferSize [in, out, optional]
 
 The size, in bytes, of the <i>CompletionBuffer</i> value. This value must be     rounded up to nearest 8 bytes, or else the function fails. On success,
 returns the number of bytes written into <i>CompletionBuffer</i>.
 
 
 
-### -param Timeout [in, optional]
+#### - Timeout [in, optional]
 
 A timeout in the style of the <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a> routing.
 After this time elapses, the packet is cancelled. For a timeout of zero (0), if a packet does not fir in the ring buffer, it is not queued.

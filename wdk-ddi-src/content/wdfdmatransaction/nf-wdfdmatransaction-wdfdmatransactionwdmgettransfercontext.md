@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext, kmdf.wdfdmatransactionwdmgettransfercontext, WdfDmaTransactionWdmGetTransferContext method, PFN_WDFDMATRANSACTIONWDMGETTRANSFERCONTEXT, WdfDmaTransactionWdmGetTransferContext
+ms.keywords: wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, WdfDmaTransactionWdmGetTransferContext, PFN_WDFDMATRANSACTIONWDMGETTRANSFERCONTEXT, wdf.wdfdmatransactionwdmgettransfercontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ PVOID WdfDmaTransactionWdmGetTransferContext(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to an initialized DMA transaction object from which to retrieve the transfer context.
 

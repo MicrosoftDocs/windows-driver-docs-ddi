@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ac5994a7-411c-47f2-ba1d-2d49c727de8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_3acc4a2d-78ef-418a-ab15-a9e306110baf.xml, netvista.fwps_packet_list_inbound_ipsec_information0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_3acc4a2d-78ef-418a-ab15-a9e306110baf.xml, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_packet_list_inbound_ipsec_information0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_ {
 
 
 
-### -field isSecure
+#### - isSecure
 
 A value that indicates whether IPsec tunnel mode or IPsec transport mode processing has been performed
      on the packet list.
 
 
-### -field isTransportMode
+#### - isTransportMode
 
 A value that indicates whether IPsec has applied a transport mode security association to the packet
      list.
 
 
-### -field isTunnelMode
+#### - isTunnelMode
 
 A value that indicates whether IPsec has applied a tunnel mode security association to the packet
      list.
 
 
-### -field isTransportModeVerified
+#### - isTransportModeVerified
 
 A value that indicates whether the packet list has been verified against the IPsec transport mode
      filter in the inbound transport layer.
 
 
-### -field isTunnelModeVerified
+#### - isTunnelModeVerified
 
 A value that indicates whether the packet list has been verified against the IPsec tunnel mode filter
      in the inbound transport layer.
 
 
-### -field isDeTunneled
+#### - isDeTunneled
 
 A value that indicates whether the packet list has been detunneled by IPsec.
 

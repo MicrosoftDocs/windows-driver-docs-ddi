@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ded54c88-3da0-42ec-88be-865d3cb87651
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeClearEvent, kernel.keclearevent, k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, KeClearEvent routine [Kernel-Mode Driver Architecture], KeClearEvent
+ms.keywords: k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, wdm/KeClearEvent, KeClearEvent, kernel.keclearevent, KeClearEvent routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KeClearEvent(
 
 
 
-### -param Event [in, out]
+#### - Event [in, out]
 
 Pointer to an initialized dispatcher object of type event for which the caller supplies the storage. 
 
@@ -93,13 +93,13 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
 <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
 <a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
  
 

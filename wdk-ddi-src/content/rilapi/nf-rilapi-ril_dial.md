@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 755a834b-6590-4289-99b1-058690c1ad4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_Dial, RIL_Dial method [Network Drivers Starting with Windows Vista], RIL_Dial, netvista.ril_dial
+ms.keywords: netvista.ril_dial, rilapi/RIL_Dial, RIL_Dial method [Network Drivers Starting with Windows Vista], RIL_Dial
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,31 +76,31 @@ HRESULT  RIL_Dial(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwExecutor
+#### - dwExecutor
 
 
 
-### -param lpraAddress
+#### - lpraAddress
 
 
 
-### -param dwOptions
+#### - dwOptions
 
 
 
-### -param dwType
+#### - dwType
 
 
 
-### -param lprcmOfferAnswer
+#### - lprcmOfferAnswer
 
 
 

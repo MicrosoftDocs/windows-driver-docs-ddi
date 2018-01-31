@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e3ffbf18-151b-42da-8fc1-ae07c152738c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, wdm/ClfsReserveAndAppendLog, kernel.clfsreserveandappendlog, ClfsReserveAndAppendLog
+ms.keywords: ClfsReserveAndAppendLog, kernel.clfsreserveandappendlog, wdm/ClfsReserveAndAppendLog, Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,42 +77,42 @@ NTSTATUS ClfsReserveAndAppendLog(
 
 
 
-### -param pvMarshalContext [in]
+#### - pvMarshalContext [in]
 
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
-### -param rgWriteEntries [in, optional]
+#### - rgWriteEntries [in, optional]
 
 A pointer to an array of <a href="..\wdm\ns-wdm-_cls_write_entry.md">CLFS_WRITE_ENTRY</a> structures, each of which holds a pointer to a buffer of data that will become part of the record that is appended to the log. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
 
 
-### -param cWriteEntries [in]
+#### - cWriteEntries [in]
 
 The number of elements in the array pointed to by <i>rgWriteEntries</i>. This parameter must be zero if <i>rgWriteEntries</i> is <b>NULL</b>.
 
 
-### -param plsnUndoNext [in, optional]
+#### - plsnUndoNext [in, optional]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the undo-next LSN of the record to be appended.
 
 
-### -param plsnPrevious [in, optional]
+#### - plsnPrevious [in, optional]
 
 A pointer to a CLFS_LSN structure that supplies the previous LSN of the record to be appended.
 
 
-### -param cReserveRecords [in]
+#### - cReserveRecords [in]
 
 The number of elements in the array pointed to by <i>rgcbReservation</i>. This parameter must be zero if <i>rgcbReservation</i> is <b>NULL</b> or the CLFS_FLAG_USE_RESERVATION flag of <i>fFlags</i> is set.
 
 
-### -param rgcbReservation [in, out]
+#### - rgcbReservation [in, out]
 
 A pointer to an array of LONGLONG-typed variables. The caller sets each element of the array to the size, in bytes, of a record that must have space reserved for it. On return, each array element receives that actual size of the space reserved for the record. This includes the space required for headers and alignment. If the reservation value is negative, a reserved record that most nearly matches the absolute value of the provided negative value will be freed. This parameter can be <b>NULL</b> if <i>cReserveRecords</i> is zero and must be <b>NULL</b> if the CLFS_FLAG_USE_RESERVATION flag of <i>fFlags</i> is set.
 
 
-### -param fFlags [in]
+#### - fFlags [in]
 
 This parameter can be zero or any combination of the following flags.
 <table>
@@ -153,7 +153,7 @@ The current record is placed in reserved space in a log I/O block within the mar
 </table> 
 
 
-### -param plsn [out, optional]
+#### - plsn [out, optional]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that receives the LSN of the appended record. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
 
@@ -258,13 +258,13 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
-
-<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
-
 <a href="..\wdm\ns-wdm-_cls_write_entry.md">CLFS_WRITE_ENTRY</a>
 
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
+
+<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
+
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
  
 

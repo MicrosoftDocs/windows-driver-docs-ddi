@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], wwan/WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS, netvista.wwan_ip_configuration_flags
+ms.keywords: netvista.wwan_ip_configuration_flags, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], wwan/WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,7 @@ typedef union {
  
 
 
-### -field Value
+#### - Value
 
 Reserved. Do not use.
 

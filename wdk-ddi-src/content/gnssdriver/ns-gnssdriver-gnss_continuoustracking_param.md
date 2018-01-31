@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D69D317C-5B42-4709-87AF-4323DF2EBE2D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PGNSS_CONTINUOUSTRACKING_PARAM, PGNSS_CONTINUOUSTRACKING_PARAM, PGNSS_CONTINUOUSTRACKING_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_CONTINUOUSTRACKING_PARAM, gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM, sensors.gnss_continuoustracking_param, GNSS_CONTINUOUSTRACKING_PARAM structure [Sensor Devices], GNSS_CONTINUOUSTRACKING_PARAM"
+ms.keywords: gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM, PGNSS_CONTINUOUSTRACKING_PARAM structure pointer [Sensor Devices], sensors.gnss_continuoustracking_param, gnssdriver/PGNSS_CONTINUOUSTRACKING_PARAM, PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_CONTINUOUSTRACKING_PARAM
 product: Windows
 targetos: Windows
-req.typenames: GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM
+req.typenames: "*PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM"
 ---
 
 # GNSS_CONTINUOUSTRACKING_PARAM structure
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field PreferredInterval
+#### - PreferredInterval
 
 Specifies the preferred interval of receiving fixes for a continuous tracking session. The units for this value is seconds.
 

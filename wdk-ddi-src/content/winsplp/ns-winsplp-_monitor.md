@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPMONITOR, _MONITOR, winsplp/LPMONITOR, MONITOR, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, *LPMONITOR, winsplp/MONITOR, LPMONITOR structure pointer [Print Devices], MONITOR structure [Print Devices], print.monitor
+ms.keywords: spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, MONITOR structure [Print Devices], _MONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, *LPMONITOR, winsplp/LPMONITOR, LPMONITOR, winsplp/MONITOR, print.monitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MONITOR
 product: Windows
 targetos: Windows
-req.typenames: MONITOR, *LPMONITOR
+req.typenames: "*LPMONITOR, MONITOR"
 req.product: Windows 10 or later.
 ---
 
@@ -145,96 +145,96 @@ typedef struct _MONITOR {
 
 
 
-### -field pfnEnumPorts
+#### - pfnEnumPorts
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548754">EnumPorts</a> function. (Port monitors only.)
 
 
-### -field pfnOpenPort
+#### - pfnOpenPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a> function.
 
 
-### -field pfnOpenPortEx
+#### - pfnOpenPortEx
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a> function. (Language monitors only.)
 
 
-### -field pfnStartDocPort
+#### - pfnStartDocPort
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a> function.
 
 
-### -field pfnWritePort
+#### - pfnWritePort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a> function.
 
 
-### -field pfnReadPort
+#### - pfnReadPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a> function.
 
 
-### -field pfnEndDocPort
+#### - pfnEndDocPort
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a> function.
 
 
-### -field pfnClosePort
+#### - pfnClosePort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a> function.
 
 
-### -field pfnAddPort
+#### - pfnAddPort
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> function.
 
 
-### -field pfnAddPortEx
+#### - pfnAddPortEx
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff545025">AddPortEx</a> function. (Port monitors only.)
 
 
-### -field pfnConfigurePort
+#### - pfnConfigurePort
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546286">ConfigurePort</a> function.
 
 
-### -field pfnDeletePort
+#### - pfnDeletePort
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547427">DeletePort</a> function.
 
 
-### -field pfnGetPrinterDataFromPort
+#### - pfnGetPrinterDataFromPort
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a> function.
 
 
-### -field pfnSetPortTimeOuts
+#### - pfnSetPortTimeOuts
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a> function. (Port monitors only.)
 
 
-### -field pfnXcvOpenPort
+#### - pfnXcvOpenPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function. (Port monitors only.)
 
 
-### -field pfnXcvDataPort
+#### - pfnXcvDataPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function. (Port monitors only.)
 
 
-### -field pfnXcvClosePort
+#### - pfnXcvClosePort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a> function. (Port monitors only.)
 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
-
 <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
+
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
 
  
 

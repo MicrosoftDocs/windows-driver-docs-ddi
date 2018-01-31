@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4216BA1-FC5C-4A3B-BB74-E071BD2048F8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetComponentResidency, wdm/PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentresidency
+ms.keywords: kernel.pofxsetcomponentresidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], PoFxSetComponentResidency, wdm/PoFxSetComponentResidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID PoFxSetComponentResidency(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-### -param Component [in]
+#### - Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Residency [in]
+#### - Residency [in]
 
 The estimated residency time, in 100-nanosecond units. This parameter is a hint to PoFx about how long the component is likely to remain idle after a transition from the active condition to the idle condition. For more information, see Remarks.
 

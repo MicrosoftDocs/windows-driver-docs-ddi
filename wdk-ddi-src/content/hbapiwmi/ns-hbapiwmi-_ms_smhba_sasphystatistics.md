@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bb2ab242-9002-4760-86b2-1aaf203ff710
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ms_smhba_sasphystatistics, *PMS_SMHBA_SASPHYSTATISTICS, hbapiwmi/MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS, structs-Fibre_7059d482-c967-4f18-8c03-b113573cff2f.xml, PMS_SMHBA_SASPHYSTATISTICS structure pointer [Storage Devices], _MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS structure [Storage Devices], hbapiwmi/PMS_SMHBA_SASPHYSTATISTICS, PMS_SMHBA_SASPHYSTATISTICS
+ms.keywords: hbapiwmi/MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS, *PMS_SMHBA_SASPHYSTATISTICS, hbapiwmi/PMS_SMHBA_SASPHYSTATISTICS, PMS_SMHBA_SASPHYSTATISTICS structure pointer [Storage Devices], _MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS structure [Storage Devices], PMS_SMHBA_SASPHYSTATISTICS, structs-Fibre_7059d482-c967-4f18-8c03-b113573cff2f.xml, storage.ms_smhba_sasphystatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _MS_SMHBA_SASPHYSTATISTICS {
 
 
 
-### -field SecondsSinceLastReset
+#### - SecondsSinceLastReset
 
 The number of seconds since the statistics were last reset.
 
 
-### -field TxFrames
+#### - TxFrames
 
 The number of transmitted SAS frames across all protocols and classes.
 
 
-### -field TxWords
+#### - TxWords
 
 The number of transmitted SAS words across all protocols and classes.
 
 
-### -field RxFrames
+#### - RxFrames
 
 The number of received SAS frames across all protocols and classes.
 
 
-### -field RxWords
+#### - RxWords
 
 The number of received SAS words across all protocols and classes.
 
 
-### -field InvalidDwordCount
+#### - InvalidDwordCount
 
 The number of invalid DWORDs.
 
 
-### -field RunningDisparityErrorCount
+#### - RunningDisparityErrorCount
 
 The number of disparity error counts.
 
 
-### -field LossofDwordSyncCount
+#### - LossofDwordSyncCount
 
 The loss of synchronization count.
 
 
-### -field PhyResetProblemCount
+#### - PhyResetProblemCount
 
 A count of the number of physical link reset problems.
 

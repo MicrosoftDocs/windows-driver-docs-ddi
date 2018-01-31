@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.monitorinit, PMONITORINIT structure pointer [Print Devices], _MONITORINIT, PMONITORINIT, *PMONITORINIT, winsplp/PMONITORINIT, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, MONITORINIT, winsplp/MONITORINIT, MONITORINIT structure [Print Devices]
+ms.keywords: winsplp/PMONITORINIT, MONITORINIT structure [Print Devices], *PMONITORINIT, PMONITORINIT structure pointer [Print Devices], MONITORINIT, print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, PMONITORINIT, winsplp/MONITORINIT, _MONITORINIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MONITORINIT
 product: Windows
 targetos: Windows
-req.typenames: "*PMONITORINIT, MONITORINIT"
+req.typenames: MONITORINIT, *PMONITORINIT
 req.product: Windows 10 or later.
 ---
 
@@ -73,41 +73,41 @@ typedef struct _MONITORINIT {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Size, in bytes, of the MONITORINIT structure.
 
 
-### -field hSpooler
+#### - hSpooler
 
 Spooler handle, for use as input to functions identified by the MONITORREG structure.
 
 
-### -field hckRegistryRoot
+#### - hckRegistryRoot
 
 Registry handle, for use as input to functions identified by the MONITORREG structure.
 
 
-### -field pMonitorReg
+#### - pMonitorReg
 
 Pointer to a <a href="..\winsplp\ns-winsplp-_monitorreg.md">MONITORREG</a> structure.
 
 
-### -field bLocal
+#### - bLocal
 
 <b>TRUE</b> if the monitor is being called by a local node spooler. <b>FALSE</b> if the monitor is being called by a cluster spooler. (Monitors can usually ignore this member.)
 
 
-### -field pszServerName
+#### - pszServerName
 
 Caller-supplied pointer to a string representing a server name.
 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorreg.md">MONITORREG</a>
-
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
+
+<a href="..\winsplp\ns-winsplp-_monitorreg.md">MONITORREG</a>
 
  
 

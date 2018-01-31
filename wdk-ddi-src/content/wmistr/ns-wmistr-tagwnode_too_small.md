@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb3d8e2a-20f6-41fc-a220-de93eb83f359
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: tagWNODE_TOO_SMALL, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, wmistr/WNODE_TOO_SMALL, *PWNODE_TOO_SMALL, PWNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], wmistr/PWNODE_TOO_SMALL, WNODE_TOO_SMALL, kernel.wnode_too_small
+ms.keywords: WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], wmistr/PWNODE_TOO_SMALL, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, tagWNODE_TOO_SMALL, *PWNODE_TOO_SMALL, wmistr/WNODE_TOO_SMALL, WNODE_TOO_SMALL, PWNODE_TOO_SMALL, kernel.wnode_too_small
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct tagWNODE_TOO_SMALL {
 
 
 
-### -field WnodeHeader
+#### - WnodeHeader
 
 Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
@@ -79,7 +79,7 @@ Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure t
  
 
 
-### -field SizeNeeded
+#### - SizeNeeded
 
 Specifies the size of the buffer needed to receive all of the <b>WNODE_<i>XXX</i></b> data to be returned.
 

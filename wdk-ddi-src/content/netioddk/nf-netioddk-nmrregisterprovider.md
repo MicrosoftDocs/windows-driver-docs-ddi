@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, netvista.nmrregisterprovider, netioddk/NmrRegisterProvider, NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista]
+ms.keywords: NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, NmrRegisterProvider, netioddk/NmrRegisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS NmrRegisterProvider(
 
 
 
-### -param ProviderCharacteristics [in]
+#### - ProviderCharacteristics [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.npi_provider_characteristics" tabindex="0"><b>
@@ -80,7 +80,7 @@ A pointer to an
      the provider module is registered with the NMR.
 
 
-### -param ProviderContext [in]
+#### - ProviderContext [in]
 
 A pointer to a caller-supplied context for the registration. The provider module uses this context
      to keep track of the state of the provider registration. The contents of the provider module's
@@ -91,7 +91,7 @@ A pointer to a caller-supplied context for the registration. The provider module
      long as the provider module is registered with the NMR.
 
 
-### -param NmrProviderHandle [out]
+#### - NmrProviderHandle [out]
 
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the provider module. The provider module must save this handle and pass it as a parameter to the 
@@ -168,11 +168,11 @@ A provider module typically calls the
 
 ## -see-also
 
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
-
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
  
 

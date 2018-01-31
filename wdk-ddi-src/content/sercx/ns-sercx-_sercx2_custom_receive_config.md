@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 815DB069-4AB5-4C00-BB7A-BAAA4050C8CF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG structure pointer [Serial Ports], *PSERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG structure [Serial Ports], 2/PSERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG, serports.sercx2_custom_receive_config, _SERCX2_CUSTOM_RECEIVE_CONFIG, 2/SERCX2_CUSTOM_RECEIVE_CONFIG
+ms.keywords: serports.sercx2_custom_receive_config, 2/PSERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG structure [Serial Ports], PSERCX2_CUSTOM_RECEIVE_CONFIG, *PSERCX2_CUSTOM_RECEIVE_CONFIG, 2/SERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_CUSTOM_RECEIVE_CONFIG, _SERCX2_CUSTOM_RECEIVE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERCX2_CUSTOM_RECEIVE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG"
+req.typenames: SERCX2_CUSTOM_RECEIVE_CONFIG, *PSERCX2_CUSTOM_RECEIVE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ typedef struct _SERCX2_CUSTOM_RECEIVE_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure. The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
-### -field Alignment
+#### - Alignment
 
 Data alignment requirement. Specifies how the starting address of a transfer in a custom-receive transaction must be aligned in memory. Set this member to the appropriate FILE_<i>XXX</i>_ALIGNMENT constant in the Wdm.h header file. For example, FILE_WORD_ALIGNMENT indicates that the starting address must be aligned to two-byte boundary in memory, FILE_LONG_ALIGNMENT indicates that the address must be aligned to a four-byte boundary, and so on.
 
 
-### -field MinimumTransactionLength
+#### - MinimumTransactionLength
 
 The minimum length, in bytes, of a data transfer in a custom-receive transaction. If the length of the buffer in a read (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>) request is less than this minimum length, SerCx2 uses programmed I/O (PIO) for the transaction.
 
 
-### -field MaximumTransactionLength
+#### - MaximumTransactionLength
 
 The maximum length, in bytes, of a data transfer in a custom-receive transaction. If the size of the buffer in the read request is larger than this maximum length, SerCx2 uses multiple custom-receive transactions to handle the request, and limits each transaction to the maximum length.
 
 
-### -field MinimumTransferUnit
+#### - MinimumTransferUnit
 
 The minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit. To indicate that the default minimum transfer unit should be used, set this member to zero. For more information about the default minimum transfer unit, see <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>.
 
 
-### -field Exclusive
+#### - Exclusive
 
 Whether to use custom-receive transactions exclusively to handle write (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>) requests. Set to <b>TRUE</b> to indicate that read requests should use custom-receive transactions exclusively. Set to <b>FALSE</b> to indicate that read requests can use a combination of custom-receive transactions and PIO-receive transactions.
 
@@ -118,13 +118,13 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceive
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
-
 <a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
 
 <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+<a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
 
  
 

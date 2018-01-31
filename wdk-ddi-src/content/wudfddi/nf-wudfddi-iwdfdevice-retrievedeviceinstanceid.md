@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveDeviceInstanceId method, IWDFDevice interface, wdf.iwdfdevice_retrievedeviceinstanceid, RetrieveDeviceInstanceId method, IWDFDevice::RetrieveDeviceInstanceId, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, umdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice, wudfddi/IWDFDevice::RetrieveDeviceInstanceId, IWDFDevice interface, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId
+ms.keywords: wdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice interface, RetrieveDeviceInstanceId method, IWDFDevice, IWDFDevice::RetrieveDeviceInstanceId, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, wudfddi/IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDevice interface, umdf.iwdfdevice_retrievedeviceinstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.RetrieveDeviceInstanceId
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT RetrieveDeviceInstanceId(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the identifier of an instance of the device, if the supplied buffer is non-<b>NULL</b> and <b>RetrieveDeviceInstanceId</b> is successful. 
 
 
-### -param pdwSizeInChars [in, out]
+#### - pdwSizeInChars [in, out]
 
 A pointer to a variable that receives the number of characters, including the <b>NULL</b> character, in the string that <i>Buffer</i> points to.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTargetStateManagement, umdf.iwdfiotargetstatemanagement_remove, Remove method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_remove, IWDFIoTargetStateManagement interface, Remove method, Remove method, IWDFIoTargetStateManagement::Remove, wudfddi/IWDFIoTargetStateManagement::Remove, Remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml
+ms.keywords: wudfddi/IWDFIoTargetStateManagement::Remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Remove method, Remove, umdf.iwdfiotargetstatemanagement_remove, wdf.iwdfiotargetstatemanagement_remove, Remove method, IWDFIoTargetStateManagement interface, Remove method, IWDFIoTargetStateManagement::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTargetStateManagement.Remove
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT Remove(
 
 
 
-### -param bIsSurpriseRemove [in]
+#### - bIsSurpriseRemove [in]
 
 A BOOL value which, if <b>TRUE</b>, specifies that the device was unexpectly removed ("surprise removal").   However, the framework ignores this parameter.
 

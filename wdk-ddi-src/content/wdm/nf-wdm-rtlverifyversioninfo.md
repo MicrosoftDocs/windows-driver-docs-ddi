@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlVerifyVersionInfo, wdm/RtlVerifyVersionInfo, k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], kernel.rtlverifyversioninfo
+ms.keywords: RtlVerifyVersionInfo, wdm/RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], kernel.rtlverifyversioninfo, k109_c0301686-a323-499f-ac04-3bc414b016cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS RtlVerifyVersionInfo(
 
 
 
-### -param VersionInfo [in]
+#### - VersionInfo [in]
 
 Pointer to an <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system. 
 
 
-### -param TypeMask [in]
+#### - TypeMask [in]
 
 Specifies which members of <i>VersionInfo</i> to compare with the corresponding attributes of the currently running version of the operating system. <i>TypeMask</i> is set to a logical OR of one or more of the following values.
                         
@@ -168,7 +168,7 @@ VER_PRODUCT_TYPE
 </table> 
 
 
-### -param ConditionMask [in]
+#### - ConditionMask [in]
 
 Specifies how to compare each <b>VersionInfo</b> member. To set the value of <i>ConditionMask</i>, a caller should use the <b>VER_SET_CONDITION</b> macro:
 						  
@@ -457,11 +457,11 @@ If the major service pack version exceeds the minimum required, then the minor s
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
+
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-
-<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
  
 

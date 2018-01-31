@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50AACCAB-EFEA-42B7-8A34-FE110C7CDEED
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalPfns, VmbPacketSendWithExternalPfns, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, netvista.vmbpacketsendwithexternalpfns, VmbPacketSendWithExternalPfns function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbpacketsendwithexternalpfns, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalPfns, VmbPacketSendWithExternalPfns function [Network Drivers Starting with Windows Vista], VmbPacketSendWithExternalPfns, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbPacketSendWithExternalPfns
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -77,37 +77,37 @@ NTSTATUS VmbPacketSendWithExternalPfns(
 
 
 
-### -param PacketObject [in]
+#### - PacketObject [in]
 
 A handle to the VMBus packet object.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A buffer that contains the command packet that is sent
 through the VMBus ring buffer.
 
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The length, in bytes, of the buffer in the <i>Buffer</i> parameter. 
 
 
-### -param ExternalDataPfns [in]
+#### - ExternalDataPfns [in]
 
 An array of Page Frame 
 Numbers that describe a data buffer associated with 
 the packet.
 
 
-### -param PfnLength [in]
+#### - PfnLength [in]
 
 The number of PFNs to send from 
 <i>ExternalDataPfns</i>. The final referenced array index is  ExternalDataPfns[PfnOffset+PfnLength-1] inclusive.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags. The following are pertinent flags:
 <table>

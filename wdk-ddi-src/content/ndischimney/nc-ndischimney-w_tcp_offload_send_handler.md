@@ -75,7 +75,7 @@ NDIS_STATUS MiniportTcpOffloadSend(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
@@ -86,7 +86,7 @@ The handle to an offload-target allocated context area in which the offload targ
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param MiniportOffloadContext [in]
+#### - MiniportOffloadContext [in]
 
 A pointer to a memory location that contains a PVOID value. This PVOID value references the
      miniport offload context that contains the state object for the TCP connection on which the data is to
@@ -94,7 +94,7 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
      object.
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
@@ -164,13 +164,13 @@ The host stack will not request the offload target to send urgent data.
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
  
 

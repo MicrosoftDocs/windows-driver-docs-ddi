@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtDeclBuffer, ExtBuffer, operator= method [Windows Debugging], ExtDeclAlignedBuffer, ExtDeclBuffer::operator=, ExtRemoteTyped class [Windows Debugging], operator= method, operator=, ExtDeleteHolder, ExtDeclAlignedBuffer::operator=, ExtCheckedPointer, ExtBuffer::operator=, ExtCheckedPointer::operator=, operator= method [Windows Debugging], ExtRemoteTyped class, ExtDeleteHolder::operator=, debugger.extremotetyped_operatorequals_debug_typed_data
+ms.keywords: ExtDeleteHolder::operator=, debugger.extremotetyped_operatorequals_debug_typed_data, operator= method [Windows Debugging], ExtDeclBuffer, ExtBuffer::operator=, ExtDeleteHolder, ExtDeclAlignedBuffer::operator=, ExtCheckedPointer::operator=, operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtDeclBuffer::operator=, ExtBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, ExtCheckedPointer, ExtDeclAlignedBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.operator=
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtDeleteHolder::operator= method
@@ -94,11 +94,11 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
-<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6B2B0A88-9F63-4A68-894B-38424FBE161E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], NdisMDeregisterWdiMiniportDriver, netvista.ndismderegisterwdiminiportdriver, dot11wdi/NdisMDeregisterWdiMiniportDriver
+ms.keywords: NdisMDeregisterWdiMiniportDriver, netvista.ndismderegisterwdiminiportdriver, dot11wdi/NdisMDeregisterWdiMiniportDriver, NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID NdisMDeregisterWdiMiniportDriver(
 
 
 
-### -param NdisMiniportDriverHandle [in]
+#### - NdisMiniportDriverHandle [in]
 
 The NDIS handle for a miniport driver.
 

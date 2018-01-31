@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9f5f3baa-49a0-4711-88c0-b9ff8d87ae1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Invalid, pointofservicedriverinterface/MsrAuthenticateDevice, pointofservicedriverinterface/UpdateStatistics, pointofservicedriverinterface/ResetStatistics, pointofservicedriverinterface/MsrRetrieveDeviceAuthentication, pointofservicedriverinterface/SetProperty, MsrRetrieveDeviceAuthentication, MsrDeAuthenticateDevice, ReleaseDevice, RetainDevice, ResetStatistics, UpdateStatistics, pointofservicedriverinterface/GetProperty, pointofservicedriverinterface/RetainDevice, pointofservicedriverinterface/PosDeviceControlType, pointofservicedriverinterface/ReleaseDevice, pointofservicedriverinterface/MsrUpdateKey, pointofservicedriverinterface/CheckHealth, CheckHealth, GetProperty, BarcodeScannerInjectEvent, MsrAuthenticateDevice, pointofservicedriverinterface/MsrDeAuthenticateDevice, ClaimDevice, pointofservicedriverinterface/GetDeviceBasics, RetrieveStatistics, PosDeviceControlType, GetDeviceBasics, _PosDeviceControlType, SetProperty, _MaxDeviceControlType, PosDeviceControlType enumeration, pointofservicedriverinterface/Invalid, pointofservicedriverinterface/RetrieveStatistics, pointofservicedriverinterface/ClaimDevice, MsrUpdateKey, pointofservicedriverinterface/_MaxDeviceControlType, pointofservicedriverinterface/BarcodeScannerInjectEvent, pos.posdevicecontroltype
+ms.keywords: MsrRetrieveDeviceAuthentication, pos.posdevicecontroltype, UpdateStatistics, pointofservicedriverinterface/ReleaseDevice, PosDeviceControlType, ResetStatistics, pointofservicedriverinterface/UpdateStatistics, _PosDeviceControlType, pointofservicedriverinterface/PosDeviceControlType, pointofservicedriverinterface/BarcodeScannerInjectEvent, SetProperty, pointofservicedriverinterface/ResetStatistics, pointofservicedriverinterface/RetrieveStatistics, pointofservicedriverinterface/GetProperty, MsrDeAuthenticateDevice, pointofservicedriverinterface/MsrAuthenticateDevice, pointofservicedriverinterface/CheckHealth, RetainDevice, MsrUpdateKey, pointofservicedriverinterface/_MaxDeviceControlType, PosDeviceControlType enumeration, pointofservicedriverinterface/Invalid, ReleaseDevice, RetrieveStatistics, BarcodeScannerInjectEvent, Invalid, pointofservicedriverinterface/RetainDevice, MsrAuthenticateDevice, pointofservicedriverinterface/MsrDeAuthenticateDevice, pointofservicedriverinterface/SetProperty, CheckHealth, pointofservicedriverinterface/ClaimDevice, ClaimDevice, GetDeviceBasics, pointofservicedriverinterface/MsrRetrieveDeviceAuthentication, pointofservicedriverinterface/MsrUpdateKey, pointofservicedriverinterface/GetDeviceBasics, _MaxDeviceControlType, GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,82 +87,82 @@ typedef enum _PosDeviceControlType {
 
 
 
-### -field Invalid
+#### - Invalid
 
 The event code is not valid.
 
 
-### -field GetProperty
+#### - GetProperty
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>.
 
 
-### -field SetProperty
+#### - SetProperty
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>.
 
 
-### -field ClaimDevice
+#### - ClaimDevice
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.
 
 
-### -field ReleaseDevice
+#### - ReleaseDevice
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_release_device.md">IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE</a>.
 
 
-### -field RetainDevice
+#### - RetainDevice
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_retain_device.md">IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE</a>.
 
 
-### -field RetrieveStatistics
+#### - RetrieveStatistics
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics.md">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a>.
 
 
-### -field ResetStatistics
+#### - ResetStatistics
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_reset_statistics.md">IOCTL_POINT_OF_SERVICE_RESET_STATISTICS</a>.
 
 
-### -field UpdateStatistics
+#### - UpdateStatistics
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics.md">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a>.
 
 
-### -field CheckHealth
+#### - CheckHealth
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_check_health.md">IOCTL_POINT_OF_SERVICE_CHECK_HEALTH</a>.
 
 
-### -field GetDeviceBasics
+#### - GetDeviceBasics
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_device_basics.md">IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS</a>.
 
 
-### -field BarcodeScannerInjectEvent
+#### - BarcodeScannerInjectEvent
 
 Unused.
 
 
-### -field MsrRetrieveDeviceAuthentication
+#### - MsrRetrieveDeviceAuthentication
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_retrieve_device_authentication.md">IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION</a>.
 
 
-### -field MsrAuthenticateDevice
+#### - MsrAuthenticateDevice
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device.md">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>.
 
 
-### -field MsrDeAuthenticateDevice
+#### - MsrDeAuthenticateDevice
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_deauthenticate_device.md">IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE</a>.
 
 
-### -field MsrUpdateKey
+#### - MsrUpdateKey
 
 Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_update_key.md">IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY</a>.
 
@@ -335,7 +335,7 @@ Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinte
 
 
 
-### -field _MaxDeviceControlType
+#### - _MaxDeviceControlType
 
 
 

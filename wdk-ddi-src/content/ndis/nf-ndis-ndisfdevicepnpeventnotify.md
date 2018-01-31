@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ae5dd48b-7777-4232-89ad-ac4464e03e57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFDevicePnPEventNotify, NdisFDevicePnPEventNotify, netvista.ndisfdevicepnpeventnotify, NdisFDevicePnPEventNotify function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_56e249ae-0200-4c98-b20c-03cc8d3fdd7d.xml
+ms.keywords: netvista.ndisfdevicepnpeventnotify, NdisFDevicePnPEventNotify, ndis/NdisFDevicePnPEventNotify, filter_ndis_functions_ref_56e249ae-0200-4c98-b20c-03cc8d3fdd7d.xml, NdisFDevicePnPEventNotify function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ VOID NdisFDevicePnPEventNotify(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param NetDevicePnPEvent [in]
+#### - NetDevicePnPEvent [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a> structure that

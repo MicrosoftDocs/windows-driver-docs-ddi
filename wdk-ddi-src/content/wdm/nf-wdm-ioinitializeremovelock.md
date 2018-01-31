@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d85bab78-0e9e-4e71-a09b-40954df81c87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], IoInitializeRemoveLock, kernel.ioinitializeremovelock, k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml, wdm/IoInitializeRemoveLock
+ms.keywords: wdm/IoInitializeRemoveLock, IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], IoInitializeRemoveLock, kernel.ioinitializeremovelock, k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -71,7 +71,7 @@ VOID IoInitializeRemoveLock(
 
 
 
-### -param Lock [in]
+#### - Lock [in]
 
 Pointer to a caller-supplied <b>IO_REMOVE_LOCK</b> structure that this routine initializes with information about the lock, including a counter and a synchronization event. A driver writer must allocate this structure as part of the device object's device extension.
 

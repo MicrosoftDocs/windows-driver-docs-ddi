@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72567e37-f37f-43f6-8a3a-3d184cb8de13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILUMTSMRL, RILUMTSMRL, *LPRILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], netvista.rilumtsmrl
+ms.keywords: netvista.rilumtsmrl, *LPRILUMTSMRL, RILUMTSMRL, rilapitypes/RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUMTSMRL
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUMTSMRL, RILUMTSMRL"
+req.typenames: RILUMTSMRL, *LPRILUMTSMRL
 req.product: Windows 10 or later.
 ---
 
@@ -77,52 +77,52 @@ struct RILUMTSMRL {
 
 
 
-### -field dwParams
+#### - dwParams
 
  A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilumtsmrlparammask.md">RILUMTSMRLPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwMobileCountryCode
+#### - dwMobileCountryCode
 
 Country code (0...999)
 
 
-### -field dwMobileNetworkCode
+#### - dwMobileNetworkCode
 
 Mobile network code (0...999)
 
 
-### -field dwLocationAreaCode
+#### - dwLocationAreaCode
 
 Location area code (0...65535)
 
 
-### -field dwCellID
+#### - dwCellID
 
 UMTS cell ID (0...268435455)
 
 
-### -field dwUARFCN
+#### - dwUARFCN
 
 UTRA absolute radio frequency channel number (0...16383)
 
 
-### -field dwPrimaryScramblingCode
+#### - dwPrimaryScramblingCode
 
 Primary Scrambling Code (0...511)
 
 
-### -field dwRSCP
+#### - dwRSCP
 
 Received signal code power of serving cell. Range (-1200 ... -250) in units of 0.1dBm, i.e., -250 represents -25dBm.
 
 
-### -field dwECNO
+#### - dwECNO
 
 Signal to noise ratio of serving cell; the ratio of the received energy per PN chip for the CPICH to the total received power spectral density at the antenna. Range (-500...0) in units of 0.1dBm.
 
 
-### -field dwPathLoss
+#### - dwPathLoss
 
 Path loss.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 775d08ad-40c2-44b7-af02-6c182301e46f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENTS_FMUTEXUNSAFE, ks/KSEVENTS_FMUTEXUNSAFE, KSEVENTS_SPINLOCK, ks/KSEVENTS_LOCKTYPE, KSEVENTS_INTERRUPT, KSEVENTS_MUTEX, ks/KSEVENTS_SPINLOCK, KSEVENTS_NONE, ks/KSEVENTS_INTERRUPT, ks/KSEVENTS_FMUTEX, KSEVENTS_ERESOURCE, ks-struct_293dbf13-1dbe-478e-83fb-d38e17e4a697.xml, stream.ksevents_locktype, KSEVENTS_FMUTEX, ks/KSEVENTS_NONE, KSEVENTS_LOCKTYPE enumeration [Streaming Media Devices], ks/KSEVENTS_ERESOURCE, KSEVENTS_LOCKTYPE, ks/KSEVENTS_MUTEX
+ms.keywords: KSEVENTS_FMUTEX, ks/KSEVENTS_ERESOURCE, KSEVENTS_FMUTEXUNSAFE, ks/KSEVENTS_FMUTEXUNSAFE, ks/KSEVENTS_SPINLOCK, KSEVENTS_ERESOURCE, KSEVENTS_NONE, ks/KSEVENTS_LOCKTYPE, KSEVENTS_MUTEX, KSEVENTS_LOCKTYPE enumeration [Streaming Media Devices], ks/KSEVENTS_NONE, stream.ksevents_locktype, KSEVENTS_SPINLOCK, ks/KSEVENTS_FMUTEX, ks/KSEVENTS_INTERRUPT, ks-struct_293dbf13-1dbe-478e-83fb-d38e17e4a697.xml, KSEVENTS_LOCKTYPE, ks/KSEVENTS_MUTEX, KSEVENTS_INTERRUPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,37 +73,37 @@ typedef enum  {
 
 
 
-### -field KSEVENTS_NONE
+#### - KSEVENTS_NONE
 
 No lock.
 
 
-### -field KSEVENTS_SPINLOCK
+#### - KSEVENTS_SPINLOCK
 
 Lock is assumed to be a KSPIN_LOCK.
 
 
-### -field KSEVENTS_MUTEX
+#### - KSEVENTS_MUTEX
 
 Lock is assumed to be a KMUTEX.
 
 
-### -field KSEVENTS_FMUTEX
+#### - KSEVENTS_FMUTEX
 
 Lock is assumed to be a FAST_MUTEX and is acquired by raising IRQL to APC_LEVEL.
 
 
-### -field KSEVENTS_FMUTEXUNSAFE
+#### - KSEVENTS_FMUTEXUNSAFE
 
 Lock is assumed to be a FAST_MUTEX and is acquired without raising IRQL to APC_LEVEL.
 
 
-### -field KSEVENTS_INTERRUPT
+#### - KSEVENTS_INTERRUPT
 
 Lock is assumed to be an interrupt synchronization spin lock.
 
 
-### -field KSEVENTS_ERESOURCE
+#### - KSEVENTS_ERESOURCE
 
 Lock is assumed to be an ERESOURCE.
 

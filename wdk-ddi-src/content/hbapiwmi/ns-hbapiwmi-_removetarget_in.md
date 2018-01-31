@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54fcbb64-09ce-4f18-963b-fee2627d4231
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PRemoveTarget_IN, storage.removetarget_in, PRemoveTarget_IN structure pointer [Storage Devices], hbapiwmi/RemoveTarget_IN, RemoveTarget_IN structure [Storage Devices], *PRemoveTarget_IN, PRemoveTarget_IN, _RemoveTarget_IN, RemoveTarget_IN, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml
+ms.keywords: "*PRemoveTarget_IN, _RemoveTarget_IN, PRemoveTarget_IN, hbapiwmi/PRemoveTarget_IN, storage.removetarget_in, RemoveTarget_IN, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml, hbapiwmi/RemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemoveTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PRemoveTarget_IN, RemoveTarget_IN"
+req.typenames: RemoveTarget_IN, *PRemoveTarget_IN
 ---
 
 # _RemoveTarget_IN structure
@@ -69,17 +69,17 @@ typedef struct _RemoveTarget_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 Contains a worldwide name that indicates the local port that should be removed from the list of ports whose events are reported to the WMI client.. 
 
 
-### -field DiscoveredPortWWN
+#### - DiscoveredPortWWN
 
 Contains a worldwide name that indicates the remote discovered port that should be removed from the list of ports whose events are reported to the WMI client.. 
 
 
-### -field AllTargets
+#### - AllTargets
 
 Indicates the scope of the target events to cease reporting. If this member is zero, the WMI provider client will cease reporting events associated with the port that is indicated by <b>DiscoveredPortWWN</b>. If this member is nonzero, the WMI provider will cease reporting all events associated any target. 
 

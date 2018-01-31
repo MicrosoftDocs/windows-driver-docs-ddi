@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: b0528932-d7a8-46d7-bd94-6fd729a9d7f2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.isensordriver_onclientsubscribetoevents, OnClientSubscribeToEvents, ISensorDriver::OnClientSubscribeToEvents, ISensorDriver, OnClientSubscribeToEvents method [Sensor Devices]
+ms.keywords: ISensorDriver, sensors.isensordriver_onclientsubscribetoevents, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT OnClientSubscribeToEvents(
 
 
 
-### -param pClientFile
+#### - pClientFile
 
 Pointer to an IWDFFile interface that represents the file object for the application requesting event notifications.
 
 
-### -param pwszSensorID
+#### - pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting event notifications.
 

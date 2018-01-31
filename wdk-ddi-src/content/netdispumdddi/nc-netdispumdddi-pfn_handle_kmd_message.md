@@ -75,36 +75,36 @@ NTSTATUS HandleKernelModeMessage(
 
 
 
-### -param pMiracastContext [in]
+#### - pMiracastContext [in]
 
 A pointer to a context associated with a display adapter.
 
 The operating system obtained the context when it called the Miracast user-mode driver's <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
 
 
-### -param InputBufferSize [in]
+#### - InputBufferSize [in]
 
 The size of the input buffer <i>pInputBuffer</i>, supplied by the operating system.
 
 
-### -param *pInputBuffer
+#### - *pInputBuffer [in]
+
+A pointer to the input buffer, supplied by the operating system.
 
 
-
-### -param OutputBufferSize [in]
+#### - OutputBufferSize [in]
 
 The size of the output buffer <i>pOutputBuffer</i>, supplied by the operating system.
 
 
-### -param *pOutputBuffer
+#### - *pOutputBuffer [out]
+
+A pointer to the output buffer, supplied by the operating system.
 
 
+#### - *pBytesReturned [out]
 
-### -param *pBytesReturned
-
-
-
-
+A pointer to a buffer, supplied by the operating system, that holds the number of returned bytes that the display miniport driver wrote in <i>pOutputBuffer</i>.
 
 
 #### - pInputBuffer [in]
@@ -131,15 +131,15 @@ On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
  
 

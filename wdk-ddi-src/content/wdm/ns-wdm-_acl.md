@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: wdm/ACL, wdm/PACL, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, *PACL, PACL, ACL, ifsk.acl, PACL structure pointer [Installable File System Drivers], ACL structure [Installable File System Drivers], _ACL
+ms.keywords: wdm/ACL, ACL structure [Installable File System Drivers], ACL, wdm/PACL, ifsk.acl, PACL structure pointer [Installable File System Drivers], PACL, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, *PACL, _ACL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _ACL {
 
 
 
-### -field AclRevision
+#### - AclRevision
 
 Revision level of the ACL. 
 
@@ -81,22 +81,22 @@ Revision level of the ACL.
 <b>Microsoft Windows 2000 and later:</b> This value can be ACL_REVISION or ACL_REVISION_DS. It must be ACL_REVISION_DS if the ACL contains an object-specific ACE. 
 
 
-### -field Sbz1
+#### - Sbz1
 
 A zero byte of padding that aligns the <b>AclRevision</b> member on a 16-bit boundary. 
 
 
-### -field AclSize
+#### - AclSize
 
 Size, in bytes, of the ACL. This value includes both the ACL structure and all the ACEs. 
 
 
-### -field AceCount
+#### - AceCount
 
 Number of ACEs stored in the ACL. 
 
 
-### -field Sbz2
+#### - Sbz2
 
 Two zero bytes of padding that align the ACL structure on a 32-bit boundary. 
 
@@ -160,25 +160,25 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
-
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
-
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
+<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
-
 <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
+
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+
+<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
 <a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
 <a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ca68dac-ead1-431e-a97e-af99ef966417
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure [Display Devices], display.d3d12ddi-video-process-input-stream-rate-info-0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
+ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure [Display Devices], display.d3d12ddi-video-process-input-stream-rate-info-0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 {
 
 
 
-### -field OutputIndex
+#### - OutputIndex
 
 The output index.
 
 
-### -field InputFrameOrField
+#### - InputFrameOrField
 
 The input frame or field.
 

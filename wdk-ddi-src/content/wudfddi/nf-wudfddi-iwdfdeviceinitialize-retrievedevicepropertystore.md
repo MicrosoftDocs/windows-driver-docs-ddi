@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d03610-b195-4691-8ee9-26c93560700c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDeviceInitialize::RetrieveDevicePropertyStore, IWDFDeviceInitialize, RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, RetrieveDevicePropertyStore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore, umdf.iwdfdeviceinitialize_retrievedevicepropertystore
+ms.keywords: umdf.iwdfdeviceinitialize_retrievedevicepropertystore, RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, IWDFDeviceInitialize::RetrieveDevicePropertyStore, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, IWDFDeviceInitialize, wdf.iwdfdeviceinitialize_retrievedevicepropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDeviceInitialize.RetrieveDevicePropertyStore
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ HRESULT RetrieveDevicePropertyStore(
 
 
 
-### -param pcwszServiceName [in, optional]
+#### - pcwszServiceName [in, optional]
 
 A pointer to a <b>NULL</b>-terminated string that represents the name of the device property store. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not supply a name for a device property store. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed value that identifies how to retrieve the device property store. 
 
 
-### -param ppPropStore [out]
+#### - ppPropStore [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a> interface that is used to retrieve device properties.
 
 
-### -param pDisposition [out, optional]
+#### - pDisposition [out, optional]
 
 A pointer to a variable that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value that identifies whether the framework created the device property store or the device property store already existed. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the disposition information. 
 
@@ -112,13 +112,13 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
 
  
 

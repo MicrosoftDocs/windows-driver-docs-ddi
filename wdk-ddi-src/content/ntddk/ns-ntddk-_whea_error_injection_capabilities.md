@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 77f982e4-6f35-4d4a-9c00-9ae34eacfbd3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES, ntddk/PWHEA_ERROR_INJECTION_CAPABILITIES, whearef_f040c2a7-cded-4903-a19c-c1163870c010.xml, WHEA_ERROR_INJECTION_CAPABILITIES union [WHEA Drivers and Applications], *PWHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES, _WHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES union pointer [WHEA Drivers and Applications], whea.whea_error_injection_capabilities
+ms.keywords: "*PWHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES union [WHEA Drivers and Applications], _WHEA_ERROR_INJECTION_CAPABILITIES, whea.whea_error_injection_capabilities, ntddk/PWHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES union pointer [WHEA Drivers and Applications], whearef_f040c2a7-cded-4903-a19c-c1163870c010.xml, ntddk/WHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_INJECTION_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES"
+req.typenames: WHEA_ERROR_INJECTION_CAPABILITIES, *PWHEA_ERROR_INJECTION_CAPABILITIES
 ---
 
 # _WHEA_ERROR_INJECTION_CAPABILITIES structure
@@ -182,7 +182,7 @@ typedef union _WHEA_ERROR_INJECTION_CAPABILITIES {
  
 
 
-### -field AsULONG
+#### - AsULONG
 
 A ULONG representation of the contents of the WHEA_ERROR_INJECTION_CAPABILITIES union.
 
@@ -286,11 +286,11 @@ A user-mode WHEA management application calls the <a href="https://msdn.microsof
 
 ## -see-also
 
+<a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559516">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
 
  
 

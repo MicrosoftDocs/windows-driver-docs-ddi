@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0098aa2c-4ee4-49e4-a480-2402e771742f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method, debugger.gettypenamewide, GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeNameWide method [Windows Debugging], GetTypeNameWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetTypeNameWide, IDebugSymbols3::GetTypeNameWide
+ms.keywords: IDebugSymbols3, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide, GetTypeNameWide, IDebugSymbols3::GetTypeNameWide, GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetTypeNameWide(
 
 
 
-### -param Module [in]
+#### - Module [in]
 
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
 
 
-### -param TypeId [in]
+#### - TypeId [in]
 
 Specifies the type ID of the type.
 
 
-### -param NameBuffer [out, optional]
+#### - NameBuffer [out, optional]
 
 Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param NameBufferSize [in]
+#### - NameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -151,7 +151,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nf-dbgeng-idebugsymbols-gettypesize.md">GetTypeSize</a>
+<a href="..\wdbgexts\nf-wdbgexts-gettypesize.md">GetTypeSize</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

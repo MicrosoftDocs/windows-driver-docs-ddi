@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 93078225-3487-46db-b13e-e2013be86d97
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, *PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], stream.bda_filter_template, _BDA_FILTER_TEMPLATE, bdasup/BDA_FILTER_TEMPLATE, bdasup/PBDA_FILTER_TEMPLATE
+ms.keywords: BDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE, _BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], bdasup/PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], stream.bda_filter_template, bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, bdasup/BDA_FILTER_TEMPLATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_FILTER_TEMPLATE
 product: Windows
 targetos: Windows
-req.typenames: BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE
+req.typenames: "*PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE"
 ---
 
 # _BDA_FILTER_TEMPLATE structure
@@ -69,30 +69,30 @@ typedef struct _BDA_FILTER_TEMPLATE {
 
 
 
-### -field pFilterDescriptor
+#### - pFilterDescriptor
 
 Points to a KSFILTER_DESCRIPTOR structure that describes a template for a filter for the BDA device. 
 
 
-### -field ulcPinPairs
+#### - ulcPinPairs
 
 Number of pairs of pins in the <b>pPinPairs</b> array.
 
 
-### -field pPinPairs
+#### - pPinPairs
 
 Array of BDA_PIN_PAIRING structures that describe the topology between a pair of the filter's input and output pins. 
 
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
-
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
 
 <a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
  
 

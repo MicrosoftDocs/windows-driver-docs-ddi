@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 31bfa863-459f-4fb2-af41-2d40d0396dd7
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HIDD_ATTRIBUTES, hidsdi/HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml, HIDD_ATTRIBUTES structure [Human Input Devices], hid.hidd_attributes, _HIDD_ATTRIBUTES, PHIDD_ATTRIBUTES, PHIDD_ATTRIBUTES structure pointer [Human Input Devices], hidsdi/PHIDD_ATTRIBUTES
+ms.keywords: PHIDD_ATTRIBUTES, hid.hidd_attributes, PHIDD_ATTRIBUTES structure pointer [Human Input Devices], HIDD_ATTRIBUTES structure [Human Input Devices], hidsdi/HIDD_ATTRIBUTES, HIDD_ATTRIBUTES, hidsdi/PHIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml, _HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDD_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES"
+req.typenames: HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES
 ---
 
 # _HIDD_ATTRIBUTES structure
@@ -70,22 +70,22 @@ typedef struct _HIDD_ATTRIBUTES {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size, in bytes, of a HIDD_ATTRIBUTES structure.
 
 
-### -field VendorID
+#### - VendorID
 
 Specifies a HID device's vendor ID.
 
 
-### -field ProductID
+#### - ProductID
 
 Specifies a HID device's product ID.
 
 
-### -field VersionNumber
+#### - VersionNumber
 
 Specifies the manufacturer's revision number for a HIDClass device.
 

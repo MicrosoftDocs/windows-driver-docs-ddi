@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], netvista.tcp_offload_state_const"
+ms.keywords: netvista.tcp_offload_state_const, *PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml, TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, _TCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TCP_OFFLOAD_STATE_CONST
 product: Windows
 targetos: Windows
-req.typenames: TCP_OFFLOAD_STATE_CONST, *PTCP_OFFLOAD_STATE_CONST
+req.typenames: "*PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST"
 ---
 
 # _TCP_OFFLOAD_STATE_CONST structure
@@ -77,7 +77,7 @@ typedef struct _TCP_OFFLOAD_STATE_CONST {
 
 
 
-### -field Header
+#### - Header
 
 An 
      <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
@@ -88,7 +88,7 @@ An
      <b>Header</b> is reserved.
 
 
-### -field Flags
+#### - Flags
 
 A bitmask that can be set to zero or any of the following flags, combined with bitwise OR:
      
@@ -120,33 +120,33 @@ The host stack sets this flag to cause the offload target to use scale factors (
        option.
 
 
-### -field RemotePort
+#### - RemotePort
 
 The destination port number (see RFC 793).
 
 
-### -field LocalPort
+#### - LocalPort
 
 The source port number (see RFC 793).
 
 
-### -field SndWindScale
+#### - SndWindScale
 
 The send window scale factor (see RFC 1323).
 
 
-### -field RcvWindScale
+#### - RcvWindScale
 
 The receive window scale factor (see RFC 1323).
 
 
-### -field RemoteMss
+#### - RemoteMss
 
 The initial maximum segment size (MSS) advertised by the remote endpoint during TCP connection
      setup. (For more information about MSS, see RFC 2581.)
 
 
-### -field HashValue
+#### - HashValue
 
 A 32-bit hash value that the offload target uses for 
      <mshelp:link keywords="netvista.receive_side_scaling_on_an_offloaded_tcp_connection" tabindex="0">receive side
@@ -176,13 +176,13 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CONST structure is associa
 
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
 
  
 

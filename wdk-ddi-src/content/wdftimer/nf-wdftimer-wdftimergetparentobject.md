@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16ac6fea-9eea-4062-8ab9-fd14d80118a6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdftimer/WdfTimerGetParentObject, PFN_WDFTIMERGETPARENTOBJECT, WdfTimerGetParentObject method, wdf.wdftimergetparentobject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, kmdf.wdftimergetparentobject, WdfTimerGetParentObject
+ms.keywords: PFN_WDFTIMERGETPARENTOBJECT, WdfTimerGetParentObject method, wdf.wdftimergetparentobject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, wdftimer/WdfTimerGetParentObject, WdfTimerGetParentObject, kmdf.wdftimergetparentobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfTimerGetParentObject
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ WDFOBJECT WdfTimerGetParentObject(
 
 
 
-### -param Timer [in]
+#### - Timer [in]
 
 A handle to a framework timer object that was obtained by calling <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>.
 

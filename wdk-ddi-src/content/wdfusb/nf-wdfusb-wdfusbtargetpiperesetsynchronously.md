@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d29fb09-0ddc-4b61-8f85-c0e69d891bc5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeResetSynchronously method, wdfusb/WdfUsbTargetPipeResetSynchronously, WdfUsbTargetPipeResetSynchronously, kmdf.wdfusbtargetpiperesetsynchronously, PFN_WDFUSBTARGETPIPERESETSYNCHRONOUSLY, DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, wdf.wdfusbtargetpiperesetsynchronously
+ms.keywords: PFN_WDFUSBTARGETPIPERESETSYNCHRONOUSLY, DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, wdfusb/WdfUsbTargetPipeResetSynchronously, kmdf.wdfusbtargetpiperesetsynchronously, wdf.wdfusbtargetpiperesetsynchronously, WdfUsbTargetPipeResetSynchronously method, WdfUsbTargetPipeResetSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfUsbTargetPipeResetSynchronously(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-### -param Request [in, optional]
+#### - Request [in, optional]
 
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param RequestOptions [in, optional]
+#### - RequestOptions [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
@@ -212,13 +212,13 @@ For more information about the <b>WdfUsbTargetPipeResetSynchronously</b> method 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeabortsynchronously.md">WdfUsbTargetPipeAbortSynchronously</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeabortsynchronously.md">WdfUsbTargetPipeAbortSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
  
 

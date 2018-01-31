@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFileObjectGetFlags method, wdffileobject/WdfFileObjectGetFlags, DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, kmdf.wdffileobjectgetflags, WdfFileObjectGetFlags, PFN_WDFFILEOBJECTGETFLAGS, wdf.wdffileobjectgetflags
+ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, WdfFileObjectGetFlags, kmdf.wdffileobjectgetflags, PFN_WDFFILEOBJECTGETFLAGS, wdf.wdffileobjectgetflags, wdffileobject/WdfFileObjectGetFlags, WdfFileObjectGetFlags method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ ULONG WdfFileObjectGetFlags(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A handle to a framework file object.
 

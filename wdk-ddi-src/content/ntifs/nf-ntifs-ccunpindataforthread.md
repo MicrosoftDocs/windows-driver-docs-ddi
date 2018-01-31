@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccunpindataforthread, ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ntifs/CcUnpinDataForThread
+ms.keywords: ntifs/CcUnpinDataForThread, CcUnpinDataForThread, ifsk.ccunpindataforthread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID CcUnpinDataForThread(
 
 
 
-### -param Bcb [in]
+#### - Bcb [in]
 
 Pointer to the BCB for the pages to be released.
 
 
-### -param ResourceThreadId [in]
+#### - ResourceThreadId [in]
 
 Identifies the thread that originally acquired the BCB. Must match the owner pointer used in the call to <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>.
 

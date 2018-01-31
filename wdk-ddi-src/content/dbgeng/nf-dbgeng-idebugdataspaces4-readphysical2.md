@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ad376a6f-b8e3-40ba-9b00-df1410c1293c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.readphysical2, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadPhysical2, ReadPhysical2, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, IDebugDataSpaces4::ReadPhysical2
+ms.keywords: ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2 method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces4, IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT ReadPhysical2(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the physical address of the memory to read.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the properties of the physical memory to be read.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
 <table>
@@ -127,17 +127,17 @@ The physical memory is write-combined.
 </table> 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the memory that is read.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in bytes, of the <i>Buffer</i> buffer.  This is the maximum number of bytes that will be read.
 
 
-### -param BytesRead [out, optional]
+#### - BytesRead [out, optional]
 
 Receives the number of bytes read from the target's memory.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
@@ -178,11 +178,11 @@ The flags DEBUG_PHYSICAL_CACHED, DEBUG_PHYSICAL_UNCACHED, and DEBUG_PHYSICAL_WRI
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561441">WritePhysical2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554313">ReadPhysical</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
  
 

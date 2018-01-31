@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aed0a69e-868c-4c7d-b601-003ff357da38
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista], nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml, netioddk/NmrWaitForClientDeregisterComplete, netvista.nmrwaitforclientderegistercomplete, NmrWaitForClientDeregisterComplete
+ms.keywords: NmrWaitForClientDeregisterComplete, NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista], netvista.nmrwaitforclientderegistercomplete, nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml, netioddk/NmrWaitForClientDeregisterComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NTSTATUS NmrWaitForClientDeregisterComplete(
 
 
 
-### -param NmrClientHandle [in]
+#### - NmrClientHandle [in]
 
 A handle used by the NMR to represent the registration of the client module. The NMR returns this
      handle to the client module when the client module calls the 

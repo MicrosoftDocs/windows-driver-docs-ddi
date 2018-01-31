@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f57abfc5-d6ae-474b-bea9-bfc53dff7f57
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::GetAdder, IDebugBreakpoint2, debugger.getadder, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, GetAdder method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetAdder method, GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::GetAdder, GetAdder, IDebugBreakpoint2::GetAdder, dbgeng/IDebugBreakpoint2::GetAdder, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method, GetAdder method [Windows Debugging]
+ms.keywords: IDebugBreakpoint2, IDebugBreakpoint interface [Windows Debugging], GetAdder method, dbgeng/IDebugBreakpoint::GetAdder, GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, GetAdder method [Windows Debugging], GetAdder method [Windows Debugging], IDebugBreakpoint interface, debugger.getadder, dbgeng/IDebugBreakpoint2::GetAdder, IDebugBreakpoint2::GetAdder, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, GetAdder, IDebugBreakpoint::GetAdder, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetAdder(
 
 
 
-### -param Adder [out]
+#### - Adder [out]
 
 An <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a> interface pointer to the client object that added the breakpoint.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49fb1062-9709-4691-9655-8cbf3c5055fb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCompressBuffer function [Installable File System Drivers], COMPRESSION_ENGINE_MAXIMUM, COMPRESSION_FORMAT_XPRESS_HUFF, ifsk.rtlcompressbuffer, ntifs/RtlCompressBuffer, COMPRESSION_FORMAT_NONE, RtlCompressBuffer, COMPRESSION_FORMAT_XPRESS, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml, COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_ENGINE_STANDARD, COMPRESSION_ENGINE_HIBER
+ms.keywords: RtlCompressBuffer function [Installable File System Drivers], ntifs/RtlCompressBuffer, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, COMPRESSION_FORMAT_NONE, ifsk.rtlcompressbuffer, RtlCompressBuffer, COMPRESSION_FORMAT_DEFAULT, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml, COMPRESSION_ENGINE_STANDARD, COMPRESSION_ENGINE_HIBER, COMPRESSION_ENGINE_MAXIMUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS RtlCompressBuffer(
 
 
 
-### -param CompressionFormatAndEngine [in]
+#### - CompressionFormatAndEngine [in]
 
 A bitmask that specifies the compression format and engine type. This parameter must be set to  a  valid bitwise OR combination of one format type and one engine type. For example, COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD.
 
@@ -167,37 +167,37 @@ Not supported by this function.
 </table> 
 
 
-### -param UncompressedBuffer [in]
+#### - UncompressedBuffer [in]
 
 A pointer to a caller-allocated buffer (allocated from paged or non-paged pool) that contains the data to be compressed. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param UncompressedBufferSize [in]
+#### - UncompressedBufferSize [in]
 
 The size, in bytes, of the <i>UncompressedBuffer</i> buffer.
 
 
-### -param CompressedBuffer [out]
+#### - CompressedBuffer [out]
 
 A pointer to a caller-allocated buffer (allocated from paged or non-paged pool) that receives the compressed data. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param CompressedBufferSize [in]
+#### - CompressedBufferSize [in]
 
 The size, in bytes, of the <i>CompressedBuffer</i> buffer.
 
 
-### -param UncompressedChunkSize [in]
+#### - UncompressedChunkSize [in]
 
 The chunk size to use when compressing the <i>UncompressedBuffer</i> buffer. This parameter must be one of the following values:  512, 1024, 2048, or 4096. The operating system uses 4096, and the recommended value for this parameter is also 4096.
 
 
-### -param FinalCompressedSize [out]
+#### - FinalCompressedSize [out]
 
 A pointer to a caller-allocated variable that receives the size, in bytes, of the compressed data stored in <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param WorkSpace [in]
+#### - WorkSpace [in]
 
 A pointer to a caller-allocated work space buffer used by the <b>RtlCompressBuffer</b> function during compression. Use the <a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
@@ -313,13 +313,13 @@ To extract an uncompressed fragment from a compressed buffer, use the <a href=".
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-
 <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
-<a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+
+<a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
 
  
 

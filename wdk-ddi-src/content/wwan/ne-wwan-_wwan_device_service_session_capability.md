@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57B41604-0189-48ED-847F-74C09C7746E8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionReadSupported, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, WwanDeviceServiceSessionWriteSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionReadSupported
+ms.keywords: "_WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, wwan/WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionWriteSupported, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY"
+req.typenames: WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef enum _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY {
 
 
 
-### -field WwanDeviceServiceSessionNotSupported
+#### - WwanDeviceServiceSessionNotSupported
 
 The device service does not support device service sessions.
 
 
-### -field WwanDeviceServiceSessionWriteSupported
+#### - WwanDeviceServiceSessionWriteSupported
 
 The device service supports write operations from Windows to the miniport driver.
 
 
-### -field WwanDeviceServiceSessionReadSupported
+#### - WwanDeviceServiceSessionReadSupported
 
 The device service supports read indication  notifications on a session for data read from the device.
 

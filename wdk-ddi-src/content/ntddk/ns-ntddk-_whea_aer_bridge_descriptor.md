@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 33cc9d34-cffb-410d-9948-37c8a409e0a5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, PWHEA_AER_BRIDGE_DESCRIPTOR, _WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications]
+ms.keywords: whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml, *PWHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, _WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,37 +80,37 @@ typedef struct _WHEA_AER_BRIDGE_DESCRIPTOR {
 
 
 
-### -field Type
+#### - Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_AERBRIDGE.
 
 
-### -field Enabled
+#### - Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field BusNumber
+#### - BusNumber
 
 The bridge's primary bus number.
 
 
-### -field Slot
+#### - Slot
 
 A <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the bridge is located in the system.
 
 
-### -field DeviceControl
+#### - DeviceControl
 
 The contents of the bridge's Device Control register.
 
 
-### -field Flags
+#### - Flags
 
 An AER_BRIDGE_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_BRIDGE_DESCRIPTOR structure can be written to by the operating system. The AER_BRIDGE_DESCRIPTOR_FLAGS union is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -182,37 +182,37 @@ Reserved for system use.
 A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
 
 
-### -field UncorrectableErrorMask
+#### - UncorrectableErrorMask
 
 The contents of the bridge's Uncorrectable Error Mask register.
 
 
-### -field UncorrectableErrorSeverity
+#### - UncorrectableErrorSeverity
 
 The contents of the bridge's Uncorrectable Error Severity register.
 
 
-### -field CorrectableErrorMask
+#### - CorrectableErrorMask
 
 The contents of the bridge's Correctable Error Mask register.
 
 
-### -field AdvancedCapsAndControl
+#### - AdvancedCapsAndControl
 
 The contents of the bridge's Advanced Error Capabilities and Control register.
 
 
-### -field SecondaryUncorrectableErrorMask
+#### - SecondaryUncorrectableErrorMask
 
 The contents of the bridge's Secondary Uncorrectable Error Mask register.
 
 
-### -field SecondaryUncorrectableErrorSev
+#### - SecondaryUncorrectableErrorSev
 
 The contents of the bridge's Secondary Uncorrectable Error Severity register.
 
 
-### -field SecondaryCapsAndControl
+#### - SecondaryCapsAndControl
 
 The contents of the bridge's Secondary Error Capabilities and Control register.
 

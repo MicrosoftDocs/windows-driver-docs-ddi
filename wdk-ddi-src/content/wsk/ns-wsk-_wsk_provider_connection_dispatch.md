@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70a86809-07f2-4723-9e50-4dbdd31ff900
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WSK_PROVIDER_CONNECTION_DISPATCH, netvista.wsk_provider_connection_dispatch, *PWSK_PROVIDER_CONNECTION_DISPATCH, wsk/WSK_PROVIDER_CONNECTION_DISPATCH, PWSK_PROVIDER_CONNECTION_DISPATCH, wsk/PWSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH structure [Network Drivers Starting with Windows Vista], PWSK_PROVIDER_CONNECTION_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wskref_b6ef1db8-e10d-44bd-a3df-9dee672b2b9e.xml, WSK_PROVIDER_CONNECTION_DISPATCH"
+ms.keywords: PWSK_PROVIDER_CONNECTION_DISPATCH, PWSK_PROVIDER_CONNECTION_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_PROVIDER_CONNECTION_DISPATCH, wskref_b6ef1db8-e10d-44bd-a3df-9dee672b2b9e.xml, wsk/PWSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH, netvista.wsk_provider_connection_dispatch, *PWSK_PROVIDER_CONNECTION_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_PROVIDER_CONNECTION_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: WSK_PROVIDER_CONNECTION_DISPATCH, *PWSK_PROVIDER_CONNECTION_DISPATCH
+req.typenames: "*PWSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH"
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,7 @@ typedef struct _WSK_PROVIDER_CONNECTION_DISPATCH {
 
 
 
-### -field Basic
+#### - Basic
 
 The members of the 
      <mshelp:link keywords="netvista.wsk_provider_basic_dispatch" tabindex="0"><b>
@@ -86,58 +86,58 @@ The members of the
      <b>WSK_PROVIDER_CONNECTION_DISPATCH</b> structure.
 
 
-### -field WskBind
+#### - WskBind
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a> function for the socket.
 
 
-### -field WskConnect
+#### - WskConnect
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a> function for the socket.
 
 
-### -field WskGetLocalAddress
+#### - WskGetLocalAddress
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a> function for the
      socket.
 
 
-### -field WskGetRemoteAddress
+#### - WskGetRemoteAddress
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a> function for the
      socket.
 
 
-### -field WskSend
+#### - WskSend
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a> function for the socket.
 
 
-### -field WskReceive
+#### - WskReceive
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a> function for the socket.
 
 
-### -field WskDisconnect
+#### - WskDisconnect
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a> function for the
      socket.
 
 
-### -field WskRelease
+#### - WskRelease
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a> function for the socket.
 
 
-### -field WskConnectEx
+#### - WskConnectEx
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_connect_ex.md">WskConnectEx</a> function for the
@@ -192,40 +192,40 @@ The WSK subsystem calls the WSK application's
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
  
 

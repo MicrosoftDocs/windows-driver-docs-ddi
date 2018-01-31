@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 45ceff8e-a013-45de-be2e-42c6ca30147e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], _USBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, usb/PUSBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, USBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR
+ms.keywords: "_USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], usb/USBD_ISO_PACKET_DESCRIPTOR, usb/PUSBD_ISO_PACKET_DESCRIPTOR, usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml, *PUSBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _USBD_ISO_PACKET_DESCRIPTOR {
 
 
 
-### -field Offset
+#### - Offset
 
 Specifies the offset, in bytes, of the buffer for this packet from the beginning of the entire isochronous transfer buffer.
 
 
-### -field Length
+#### - Length
 
  Set by the host controller to indicate the actual number of bytes received from the device for isochronous IN transfers. <b>Length</b> not used for isochronous OUT transfers.
 
 
-### -field Status
+#### - Status
 
 Contains the status, on return from the host controller driver, of this transfer packet.
 
@@ -94,13 +94,13 @@ This structure is used as part of an isochronous transfer request to the host co
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ERASEBAND_AUTHKEY_CACHING_ENABLED, storage.erase_band_parameters, ERASE_BAND_PARAMETERS structure [Storage Devices], ehstorbandmgmt/ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, _ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], *PERASE_BAND_PARAMETERS
+ms.keywords: ERASE_BAND_PARAMETERS structure [Storage Devices], storage.erase_band_parameters, ERASEBAND_AUTHKEY_CACHING_ENABLED, ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], PERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS, _ERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ERASE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS"
+req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
 ---
 
 # _ERASE_BAND_PARAMETERS structure
@@ -72,12 +72,12 @@ typedef struct _ERASE_BAND_PARAMETERS {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(ERASE_BAND_PARAMETERS).
 
 
-### -field Flags
+#### - Flags
 
 Delete operation flags. This value is a bitwise OR combination of the following.
 <table>
@@ -98,22 +98,22 @@ The new authentication key for this band is cached allowing for automation of la
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 
 
-### -field BandId
+#### - BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
 
-### -field BandStart
+#### - BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
 
-### -field NewAuthKeyOffset
+#### - NewAuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new authorization key for the band. The offset is from the beginning of <b>ERASE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>

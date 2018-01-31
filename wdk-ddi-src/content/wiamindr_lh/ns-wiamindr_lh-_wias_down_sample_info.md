@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: af9d35d8-9e3c-4be0-8ba4-a0b548b1d7ac
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml, WIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, _WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], image.wias_down_sample_info, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices]
+ms.keywords: wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, image.wias_down_sample_info, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], _WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_DOWN_SAMPLE_INFO
 product: Windows
 targetos: Windows
-req.typenames: WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO
+req.typenames: "*PWIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -79,62 +79,62 @@ typedef struct _WIAS_DOWN_SAMPLE_INFO {
 
 
 
-### -field ulOriginalWidth
+#### - ulOriginalWidth
 
 Specifies the width, in pixels, of the input data.
 
 
-### -field ulOriginalHeight
+#### - ulOriginalHeight
 
 Specifies the height, in pixels, of the input data.
 
 
-### -field ulBitsPerPixel
+#### - ulBitsPerPixel
 
 Specifies the number of bits per pixel of the input data.
 
 
-### -field ulXRes
+#### - ulXRes
 
 Specifies the horizontal resolution of the input data.
 
 
-### -field ulYRes
+#### - ulYRes
 
 Specifies the vertical resolution of the input data.
 
 
-### -field ulDownSampledWidth
+#### - ulDownSampledWidth
 
 Specifies the width, in pixels, of the output data.
 
 
-### -field ulDownSampledHeight
+#### - ulDownSampledHeight
 
 Specifies the width, in pixels, of the output data.
 
 
-### -field ulActualSize
+#### - ulActualSize
 
 Specifies the number of bytes placed in the destination buffer.
 
 
-### -field ulDestBufSize
+#### - ulDestBufSize
 
 Specifies the size, in bytes, of the destination buffer.
 
 
-### -field ulSrcBufSize
+#### - ulSrcBufSize
 
 Specifies the size, in bytes, of the source buffer.
 
 
-### -field pSrcBuffer
+#### - pSrcBuffer
 
 Points to the source buffer.
 
 
-### -field pDestBuffer
+#### - pDestBuffer
 
 Points to the destination buffer.
 

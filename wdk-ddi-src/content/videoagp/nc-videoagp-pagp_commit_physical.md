@@ -40,7 +40,7 @@ apiname:
 -	AgpCommitPhysical
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -74,22 +74,22 @@ BOOLEAN APIENTRY AgpCommitPhysical(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the device extension of the miniport driver.
 
 
-### -param PhysicalReserveContext [in]
+#### - PhysicalReserveContext [in]
 
 Identifies a reserved physical address range. The context handle is obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
 
 
-### -param Pages [in]
+#### - Pages [in]
 
 Specifies the number of pages of system memory to commit.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the page offset at which to commit the pages. The offset is applied to the reserved physical address range associated with <b>PhysicalReserveContext</b>.
 
@@ -120,9 +120,9 @@ When a video miniport driver calls <b>AgpCommitPhysical</b>, a portion of the ph
 
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
-
 <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
+
+<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
 
  
 

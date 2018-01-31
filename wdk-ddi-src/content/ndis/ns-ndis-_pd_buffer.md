@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 91555FBA-30F5-4CED-BA0D-2F0BE40BFF9E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.pd_buffer, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], PD_BUFFER, ndis/PD_BUFFER, _PD_BUFFER, ndis/PPD_BUFFER, PPD_BUFFER
+ms.keywords: PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], ndis/PPD_BUFFER, PD_BUFFER, _PD_BUFFER, netvista.pd_buffer, PPD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], ndis/PD_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,7 +132,7 @@ typedef struct _PD_BUFFER {
 
 
 
-### -field NextPDBuffer
+#### - NextPDBuffer
 
 A pointer to the next <b>PD_BUFFER</b> structure in the queue.
 
@@ -142,13 +142,208 @@ A pointer to the next <b>PD_BUFFER</b> structure in the queue.
  
 
 
-### -field NextPartialPDBuffer
+#### - NextPartialPDBuffer
 
 A pointer to the next partial <b>PD_BUFFER</b> structure in the queue.
 
 
-### -field MetaDataV0
+#### - MetaDataV0
 
+
+
+#### RxFilterContext
+
+The provider sets this to the filter context value obtained
+                from the matched filter that steered the packet to the receive
+                queue. Filter context values are specified by the clients
+                when configuring filters.
+
+
+#### GftFlowEntryId
+
+If one of the RxGftExceptionPacket or RxGftCopyPacket or RxGftSamplePacket bits are set, the RxFilterContext value is
+                overwritten with a GFT flow entry Id value.
+
+
+#### RxHashValue
+
+The hash value computed for the incoming packet
+            that is steered to the receive queue using RSS.
+
+
+#### RxIPHeaderChecksumSucceeded
+
+A common RX offload field that indicates if the IP header checksum succeeded.
+
+
+#### RxTCPChecksumSucceeded
+
+A common RX offload field that indicates if the TCP checksum succeeded.
+
+
+#### RxUDPChecksumSucceeded
+
+A common RX offload field that indicates if the UDP checksum succeeded.
+
+
+#### RxIPHeaderChecksumFailed
+
+A common RX offload field that indicates if the IP header checksum failed.
+
+
+#### RxTCPChecksumFailed
+
+A common RX offload field that indicates if the TCP checksum failed.
+
+
+#### RxUDPChecksumFailed
+
+A common RX offload field that indicates if the UDP checksum failed.
+
+
+#### RxHashComputed
+
+A common RX offload field that indicates if the hash is computed.
+
+
+#### RxHashWithL4PortNumbers
+
+A common RX offload field that indicates the hash is computed with L4 port numbers.
+
+
+#### RxGftExceptionPacket
+
+A common RX offload field that indicates this is a GFT exception packet.
+
+
+#### RxGftCopyPacket
+
+A common RX offload field that indicates this is a GFT copy packet.
+
+
+#### RxGftSamplePacket
+
+A common RX offload field that indicates this is a GFT sample packet.
+
+
+#### RxReserved1
+
+Reserved.
+
+
+#### RxCoalescedSegCount
+
+A common RX offload field that contains the amount of coalesced segments.
+
+
+#### RxRscTcpTimestampDelta
+
+A common RX offload field that contains RSC and TCP timestamp difference.
+
+
+#### RxOffloads
+
+RX offloads for this buffer.
+
+
+#### TxIsIPv4
+
+A common TX offload field that indicates this packet is IPv4.
+
+
+#### TxIsIPv6
+
+A common TX offload field that indicates this packet is IPv6.
+
+
+#### TxTransportHeaderOffset
+
+A common TX offload field that contains the packet's header offset.
+
+
+#### TxMSS
+
+A common TX offload field that contains the maximum segment size of this packet.
+
+
+#### TxComputeIPHeaderChecksum
+
+A common TX offload field that indicates the IP header checksum is computed.
+
+
+#### TxComputeTCPChecksum
+
+A common TX offload field that indicates the TCP checksum is computed.
+
+
+#### TxComputeUDPChecksum
+
+A common TX offload field that indicates the UDP checksum is computed.
+
+
+#### TxIsEncapsulatedPacket
+
+A common TX offload field that indicates the packet is encapsulated.
+
+
+#### TxInnerPacketOffsetsValid
+
+A common TX offload field that indicates the inner packet offsets are valid.
+
+
+#### TxReserved1
+
+Reserved.
+
+
+#### TxInnerFrameOffset
+
+A common TX offload field that contains the inner frame offset.
+
+
+#### TxInnerIpHeaderRelativeOffset
+
+A common TX offload field that contains the inner IP header relative offset.
+
+
+#### TxInnerIsIPv6
+
+A common TX offload field that indicates the inner packet is IPv6.
+
+
+#### TxInnerTcpOptionsPresent
+
+A common TX offload field that indicates the inner TCP options are present.
+
+
+#### TxOffloads
+
+TX offloads for this buffer.
+
+
+#### VirtualSubnetInfo
+
+The virtual subnet information.
+
+
+#### Ieee8021qInfo
+
+The IEEE 802.1Q information.
+
+
+#### GftSourceVPortId
+
+The GFT source virtual port ID.
+
+
+#### Reserved
+
+Reserved for system use.
+
+
+#### ProviderScratch
+
+A scratch field that the PD provider can use for its own purposes while the PD_BUFFER is sitting in the provider queue (in other words, posted by the client but not yet drained back by the client). Once the PD_BUFFER is drained by the client, there is no guarantee that the contents of this field will be preserved.
 
 
 ### -field MetaDataV0.RxFilterContext
@@ -351,22 +546,22 @@ Reserved for system use.
 A scratch field that the PD provider can use for its own purposes while the PD_BUFFER is sitting in the provider queue (in other words, posted by the client but not yet drained back by the client). Once the PD_BUFFER is drained by the client, there is no guarantee that the contents of this field will be preserved.
 
 
-### -field PDClientReserved
+#### - PDClientReserved
 
 Reserved for system use. Do not use.
 
 
-### -field PDClientContext
+#### - PDClientContext
 
 The client and the provider are not allowed to modify this field.      If a client has allocated the <b>PD_BUFFER</b> with a non-zero value for      ClientContextSize, then the PDClientContext refers to a buffer size      of ClientContextSize. Otherwise, this field is NULL.
 
 
-### -field DataBufferVirtualAddress
+#### - DataBufferVirtualAddress
 
 This field represents the address that hosts and software can use to access/modify the packet contents. The actual packet data is always at  DataBufferVirtualAddress+DataStart. The provider and the      platform never modify the value of this field after the <b>PD_BUFFER</b>      initialization.
 
 
-### -field DataBufferDmaLogicalAddress
+#### - DataBufferDmaLogicalAddress
 
 This field represents the logical memory location used for storing the packet data. The provider
 must use for DMA. The actual packet data is always at
@@ -375,20 +570,20 @@ must use for DMA. The actual packet data is always at
     initialization.
 
 
-### -field DataBufferSize
+#### - DataBufferSize
 
 This is the total size of the allocated data buffer. The provider and the platform must never modify the value of this field
     after the <b>PD_BUFFER</b> initialization. This data type is <b>ULONG</b> instead of
     <b>USHORT</b> because of large send offload.
 
 
-### -field PDClientContextSize
+#### - PDClientContextSize
 
 When this value is non-zero, it is the size of the buffer pointed to by PDClientContext.
     The value of this field must only be modified by the platform. The platform does not change the value of this field after the <b>PD_BUFFER</b> allocation.
 
 
-### -field Attributes
+#### - Attributes
 
 The attributes must never be modified by the provider. The table below lists attributes that this <b>PD_BUFFER</b> structure can have.
 <table>
@@ -405,7 +600,7 @@ or providers.</td>
 </table> 
 
 
-### -field Flags
+#### - Flags
 
 The following table lists flags that this <b>PD_BUFFER</b> structure can have.
 <table>
@@ -420,7 +615,7 @@ The following table lists flags that this <b>PD_BUFFER</b> structure can have.
 </table> 
 
 
-### -field DataStart
+#### - DataStart
 
 This field denotes where the packet starts relative to the original starting address of the allocated data buffer. The provider must never modify this field. The provider adds this value to the
     DataBufferDmaLogicalAddress value to derive the actual
@@ -430,7 +625,7 @@ This field denotes where the packet starts relative to the original starting add
     is posted to a receive/transmit queue.
 
 
-### -field DataLength
+#### - DataLength
 
 The length of the this packet or partial packet data.
 

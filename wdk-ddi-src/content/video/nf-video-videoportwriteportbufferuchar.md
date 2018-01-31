@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b07cd86b-a980-478b-832b-484a1b0ca981
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml, display.videoportwriteportbufferuchar, VideoPortWritePortBufferUchar, VideoPortWritePortBufferUchar function [Display Devices], video/VideoPortWritePortBufferUchar
+ms.keywords: VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml, VideoPortWritePortBufferUchar function [Display Devices], VideoPortWritePortBufferUchar, display.videoportwriteportbufferuchar, video/VideoPortWritePortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortWritePortBufferUchar(
 
 
 
-### -param Port
+#### - Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer containing the bytes to be written.
 
 
-### -param Count
+#### - Count
 
 Specifies the number of bytes to be transferred to the adapter.
 

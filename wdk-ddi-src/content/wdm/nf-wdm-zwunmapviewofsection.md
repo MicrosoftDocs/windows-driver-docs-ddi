@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebc67162-4e36-4af8-bc3b-764633dcda5d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwUnmapViewOfSection, NtUnmapViewOfSection, kernel.zwunmapviewofsection, wdm/NtUnmapViewOfSection, k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture]
+ms.keywords: k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, wdm/ZwUnmapViewOfSection, kernel.zwunmapviewofsection, NtUnmapViewOfSection, wdm/NtUnmapViewOfSection, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwUnmapViewOfSection(
 
 
 
-### -param ProcessHandle [in]
+#### - ProcessHandle [in]
 
 Handle to a process object that was previously passed to <a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>.
 
 
-### -param BaseAddress [in, optional]
+#### - BaseAddress [in, optional]
 
 Pointer to the base virtual address of the view to unmap. This value can be any virtual address within the view.
 

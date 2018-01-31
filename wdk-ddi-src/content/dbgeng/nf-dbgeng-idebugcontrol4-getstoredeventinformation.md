@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 94cc33bf-cd44-4892-a4e1-991eb6339cc3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetStoredEventInformation method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetStoredEventInformation method, GetStoredEventInformation, IDebugControl4, GetStoredEventInformation method [Windows Debugging], IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
+ms.keywords: IDebugControl4::GetStoredEventInformation, dbgeng/IDebugControl4::GetStoredEventInformation, GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, IDebugControl4 interface [Windows Debugging], GetStoredEventInformation method, IDebugControl4, GetStoredEventInformation method [Windows Debugging], IDebugControl4 interface, GetStoredEventInformation method [Windows Debugging], debugger.getstoredeventinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,47 +75,47 @@ HRESULT GetStoredEventInformation(
 
 
 
-### -param Type [out]
+#### - Type [out]
 
 Receives the type of the stored event.  For a list of possible types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541478">DEBUG_EVENT_XXX</a>.
 
 
-### -param ProcessId [out]
+#### - ProcessId [out]
 
 Receives the process ID of the process in which the event occurred.  If this information is not available, DEBUG_ANY_ID will be returned instead.
 
 
-### -param ThreadId [out]
+#### - ThreadId [out]
 
 Receives the thread ID of the thread in which the last event occurred.  If this information is not available, DEBUG_ANY_ID will be returned instead.
 
 
-### -param Context [out, optional]
+#### - Context [out, optional]
 
 Receives the <a href="https://msdn.microsoft.com/f14b6361-9962-4fa3-bb1a-dfde066754b9">thread context</a> of the stored event.  The type of the thread context is the CONTEXT structure for the target's effective processor at the time of the event.  The <i>Context</i> buffer must be large enough to hold this structure.  If <i>Context</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ContextSize [in]
+#### - ContextSize [in]
 
 Specifies the size, in bytes, of the buffer that <i>Context</i> specifies.
 
 
-### -param ContextUsed [out, optional]
+#### - ContextUsed [out, optional]
 
 Receives the size in bytes of the context.  If <i>ContextUsed</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ExtraInformation [out, optional]
+#### - ExtraInformation [out, optional]
 
 Receives extra information about the event.  The contents of this extra information depends on the type of the event.  If <i>ExtraInformation</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ExtraInformationSize [in]
+#### - ExtraInformationSize [in]
 
 Specifies the size, in bytes, of the buffer that <i>ExtraInformation</i> specifies.
 
 
-### -param ExtraInformationUsed [out, optional]
+#### - ExtraInformationUsed [out, optional]
 
 Receives the size in bytes of extra information.  If <i>ExtraInformationUsed</i> is <b>NULL</b>, this information is not returned.
 
@@ -157,9 +157,9 @@ For more information, see the topic <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546982">GetLastEventInformation</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546982">GetLastEventInformation</a>
 
  
 

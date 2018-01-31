@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c7a13b-511a-4e9d-a0e6-9fb27126b1d2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml, iscsicfg/PISCSI_ENCRYPTION_TYPES, ISCSI_ENCRYPT_NONE, iscsicfg/ISCSI_ENCRYPT_NONE, ISCSI_ENCRYPT_AES_CTR, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], ISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1, iscsicfg/ISCSI_ENCRYPT_AES_CTR, iscsicfg/ISCSI_ENCRYPTION_TYPES, PISCSI_ENCRYPTION_TYPES, *PISCSI_ENCRYPTION_TYPES, ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], storage.iscsi_encryption_types, ISCSI_ENCRYPT_3DES_HMAC_SHA1
+ms.keywords: ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], ISCSI_ENCRYPT_NONE, iscsicfg/PISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_NONE, ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPT_AES_CTR, PISCSI_ENCRYPTION_TYPES, structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml, iscsicfg/ISCSI_ENCRYPTION_TYPES, *PISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_AES_CTR, ISCSI_ENCRYPTION_TYPES, storage.iscsi_encryption_types, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-### -field ISCSI_ENCRYPT_NONE
+#### - ISCSI_ENCRYPT_NONE
 
 No type of encryption is supported. 
 
 
-### -field ISCSI_ENCRYPT_3DES_HMAC_SHA1
+#### - ISCSI_ENCRYPT_3DES_HMAC_SHA1
 
 The initiator or target supports triple data encryption standard (DES), hashed message authentication code (HMAC), and the secure hash algorithm, version 1. 
 
 
-### -field ISCSI_ENCRYPT_AES_CTR
+#### - ISCSI_ENCRYPT_AES_CTR
 
 The initiator or target supports advanced encryption standard (AES) counter mode (CTR). 
 

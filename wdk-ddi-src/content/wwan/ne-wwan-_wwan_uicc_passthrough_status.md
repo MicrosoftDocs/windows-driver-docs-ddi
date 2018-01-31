@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93D35A64-8394-41C2-BFB8-C8DE93619E75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_uicc_passthrough_status, wwan/WWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], wwan/WwanUiccPassThroughMaximum, WwanUiccPassThroughDisabled, WwanUiccPassThroughMaximum, WwanUiccPassThroughEnabled, wwan/WwanUiccPassThroughDisabled, *PWWAN_UICC_PASSTHROUGH_STATUS, _WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughEnabled
+ms.keywords: WwanUiccPassThroughEnabled, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughMaximum, WwanUiccPassThroughDisabled, *PWWAN_UICC_PASSTHROUGH_STATUS, _WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughDisabled, WwanUiccPassThroughMaximum, WWAN_UICC_PASSTHROUGH_STATUS, netvista.wwan_uicc_passthrough_status, wwan/WwanUiccPassThroughEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_UICC_PASSTHROUGH_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS"
+req.typenames: WWAN_UICC_PASSTHROUGH_STATUS, *PWWAN_UICC_PASSTHROUGH_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ typedef enum _WWAN_UICC_PASSTHROUGH_STATUS {
 
 
 
-### -field WwanUiccPassThroughDisabled
+#### - WwanUiccPassThroughDisabled
 
 Indicates that passthrough to the UICC is disabled. When UICC passthrough is disabled, the MB host treats the UICC as a regular Telecom UICC and expects a Telecom UICC file system to be present on the UICC.
 
 
-### -field WwanUiccPassThroughEnabled
+#### - WwanUiccPassThroughEnabled
 
 Indicates that passthrough to the UICC is enabled. When UICC passthrough is enabled, the modem miniport adapter treats the UICC as if it were in a passthrough mode that enables communication between the host and UICC, even if the UICC has no Telecom UICC file system. The miniport adapter does not send any APDUs to the card and does not interfere at any time with the communication between the host and the UICC.
 
@@ -93,9 +93,9 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
-
 <a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_INFO</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
  
 

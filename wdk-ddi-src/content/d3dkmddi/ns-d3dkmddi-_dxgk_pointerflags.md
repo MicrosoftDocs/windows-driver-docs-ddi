@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d49a089-700e-42c0-a1f3-7b181b8aef96
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_POINTERFLAGS structure [Display Devices], display.dxgk_pointerflags, DXGK_POINTERFLAGS, d3dkmddi/DXGK_POINTERFLAGS, _DXGK_POINTERFLAGS, DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml
+ms.keywords: d3dkmddi/DXGK_POINTERFLAGS, display.dxgk_pointerflags, DXGK_POINTERFLAGS, _DXGK_POINTERFLAGS, DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml, DXGK_POINTERFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,27 +75,27 @@ typedef struct _DXGK_POINTERFLAGS {
 
 
 
-### -field Monochrome
+#### - Monochrome
 
 A UINT value that specifies whether the mouse pointer can display in monochrome. Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Color
+#### - Color
 
 A UINT value that specifies whether the mouse pointer can display in color and with transparency (alpha). Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field MaskedColor
+#### - MaskedColor
 
 A UINT value that specifies whether the mouse pointer can display in color and with a mask value in the transparency (alpha) bits. Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that DXGK_POINTERFLAGS contains that can hold a 32-bit value that identifies mouse pointer capabilities.
 
@@ -111,11 +111,11 @@ The driver always specifies a color mouse pointer by using a A8R8G8B8 pixel form
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
  
 

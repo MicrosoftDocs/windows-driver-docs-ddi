@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70427fad-6a3d-40bb-9523-787c14fa1e39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetRelatedDeviceObject, wdm/IoGetRelatedDeviceObject, kernel.iogetrelateddeviceobject, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], wdm/IoGetRelatedDeviceObject, IoGetRelatedDeviceObject, kernel.iogetrelateddeviceobject, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PDEVICE_OBJECT IoGetRelatedDeviceObject(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to the file object. 
 

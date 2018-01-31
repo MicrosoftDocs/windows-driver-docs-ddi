@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 50815b33-d417-4499-9423-f65697396200
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetVolumeName, FltGetVolumeName, ifsk.fltgetvolumename, FltGetVolumeName routine [Installable File System Drivers], FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml
+ms.keywords: FltGetVolumeName, FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml, fltkernel/FltGetVolumeName, FltGetVolumeName routine [Installable File System Drivers], ifsk.fltgetvolumename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltGetVolumeName(
 
 
 
-### -param Volume [in]
+#### - Volume [in]
 
 An opaque pointer for the volume. 
 
 
-### -param VolumeName [in, out, optional]
+#### - VolumeName [in, out, optional]
 
 A pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the volume's non-persistent device object name (for example, "\Device\HarddiskVolume1") when STATUS_SUCCESS is returned.  Be aware that pool for the <b>Buffer</b> member of this structure is caller-allocated also. This parameter is optional and can be <b>NULL</b>. However, <i>VolumeName</i> must be non-<b>NULL</b> if <i>BufferSizeNeeded</i> is <b>NULL</b>.
 
 
-### -param BufferSizeNeeded [out, optional]
+#### - BufferSizeNeeded [out, optional]
 
 A pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume name.   If <b>FltGetVolumeName</b> returns STATUS_BUFFER_TOO_SMALL, <i>BufferSizeNeeded</i> receives the size of the buffer (pointed to by the <b>Buffer</b> member of the UNICODE_STRING structure) that is required for this routine to succeed.
 
@@ -179,9 +179,9 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3468b29d-e62c-46b4-b95e-06df846ebd81
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml, SYSAUDIO_INSTANCE_INFO, ksmedia/PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO, audio.sysaudio_instance_info, SYSAUDIO_INSTANCE_INFO structure [Audio Devices], PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices], ksmedia/SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO
+ms.keywords: audio.sysaudio_instance_info, SYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO, aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml, *PSYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO structure [Audio Devices], PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices], ksmedia/PSYSAUDIO_INSTANCE_INFO, ksmedia/SYSAUDIO_INSTANCE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSAUDIO_INSTANCE_INFO
 product: Windows
 targetos: Windows
-req.typenames: SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO
+req.typenames: "*PSYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO"
 ---
 
 # SYSAUDIO_INSTANCE_INFO structure
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies the property. This parameter is a structure of type <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
 
 
-### -field Flags
+#### - Flags
 
 Flags specifying how to configure the virtual audio device. Currently, the only flag bit defined for this parameter is SYSAUDIO_FLAGS_DONT_COMBINE_PINS. If set, this flag bit instructs SysAudio not to combine rendering pins. For more information, see the following Remarks section.
 
 
-### -field DeviceNumber
+#### - DeviceNumber
 
 Specifies the device ID. This member identifies the virtual audio device that is to be opened by the property request. If SysAudio enumerates <i>N</i> virtual audio devices (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>), the valid device IDs range from 0 to <i>N</i>-1.
 
@@ -99,13 +99,13 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
 
  
 

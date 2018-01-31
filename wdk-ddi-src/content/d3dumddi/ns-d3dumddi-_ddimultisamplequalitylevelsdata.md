@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48eeea6a-6a1d-43f7-a74c-3ca896c7b2d4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA, DDIMULTISAMPLEQUALITYLEVELSDATA, display.ddimultisamplequalitylevelsdata, _DDIMULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: DDIMULTISAMPLEQUALITYLEVELSDATA, _DDIMULTISAMPLEQUALITYLEVELSDATA, D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], display.ddimultisamplequalitylevelsdata, d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,35 +70,35 @@ typedef struct _DDIMULTISAMPLEQUALITYLEVELSDATA {
 
 
 
-### -field Format
+#### - Format
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the surface format of the multiple-sampled render target.
 
 
-### -field Flip
+#### - Flip
 
 [in] A Boolean value that specifies whether the resolution is flip or bit-block transfer (blt) style. <b>TRUE</b> indicates flip-style resolution; <b>FALSE</b> indicates blt-style resolution.
 
 
-### -field MsType
+#### - MsType
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>-typed value that indicates the level of full-scene multiple sampling. If the display device supports maskable multiple sampling (that is, more than one sample for a multiple-sample render-target format plus antialias support), the user-mode display driver must provide the number of quality levels for the D3DDDIMULTISAMPLE_NONMASKABLE (1) value.
 
 
-### -field QualityLevels
+#### - QualityLevels
 
 [in] The number of multiple-sample quality levels that the user-mode display driver supports for the render-target format that is specified by the <b>Format</b>, <b>bFlip</b>, and <b>MSType</b> members.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 

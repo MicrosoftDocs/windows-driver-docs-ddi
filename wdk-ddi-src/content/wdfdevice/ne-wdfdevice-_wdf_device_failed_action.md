@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 260fdda5-bc97-4522-96ca-1c29d41e8542
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_DEVICE_FAILED_ACTION, WdfDeviceFailedNoRestart, wdfdevice/WdfDeviceFailedUndefined, wdfdevice/WdfDeviceFailedAttemptRestart, kmdf.wdf_device_failed_action, wdf.wdf_device_failed_action, WDF_DEVICE_FAILED_ACTION, wdfdevice/WdfDeviceFailedNoRestart, WdfDeviceFailedUndefined, WDF_DEVICE_FAILED_ACTION enumeration, wdfdevice/WDF_DEVICE_FAILED_ACTION, WdfDeviceFailedAttemptRestart, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml"
+ms.keywords: wdf.wdf_device_failed_action, WdfDeviceFailedUndefined, wdfdevice/WdfDeviceFailedUndefined, WdfDeviceFailedAttemptRestart, kmdf.wdf_device_failed_action, _WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION enumeration, WdfDeviceFailedNoRestart, wdfdevice/WdfDeviceFailedAttemptRestart, wdfdevice/WdfDeviceFailedNoRestart, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, wdfdevice/WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _WDF_DEVICE_FAILED_ACTION {
 
 
 
-### -field WdfDeviceFailedUndefined
+#### - WdfDeviceFailedUndefined
 
 For internal use only.
 
 
-### -field WdfDeviceFailedAttemptRestart
+#### - WdfDeviceFailedAttemptRestart
 
 Supported in KMDF and starting in UMDF version 2.15.  If the device's drivers are not supporting other devices that are plugged into the computer, the I/O manager unloads the drivers. Next, the Plug and Play manager attempts to restart the device by requesting the bus driver to reenumerate its devices. If the bus driver supports reenumeration, your driver will be reloaded, if it was unloaded. If several consecutive restart attempts fail (because the restarted driver again reports an error), the framework stops trying to restart the device.
 
 
-### -field WdfDeviceFailedNoRestart
+#### - WdfDeviceFailedNoRestart
 
 If the device's drivers are not supporting other devices on the system, the I/O manager unloads the drivers. 
 

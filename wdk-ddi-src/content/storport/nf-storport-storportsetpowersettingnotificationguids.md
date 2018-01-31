@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, StorPortSetPowerSettingNotificationGuids, Adaptive Setting, storport/StorPortSetPowerSettingNotificationGuids, HIPM/DIPM Setting
+ms.keywords: Adaptive Setting, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], StorPortSetPowerSettingNotificationGuids, HIPM/DIPM Setting, storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortSetPowerSettingNotificationGuids(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param GuidCount [in]
+#### - GuidCount [in]
 
 The number of GUIDs in the <i>Guid</i> array.
 
 
-### -param Guid [in]
+#### - Guid [in]
 
 An array of power setting GUIDs to register for notification. A typical use for registering these GUIDs is for SATA miniports to receive notifications for AHCI Link Power Management setting changes. The  AHCI Link Power Management settings defined by the Microsoft AHCI StorPort miniport driver are the following.
 
@@ -185,9 +185,9 @@ The AHCI Link Power management settings are part of the Disk Settings subgroup (
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
  
 

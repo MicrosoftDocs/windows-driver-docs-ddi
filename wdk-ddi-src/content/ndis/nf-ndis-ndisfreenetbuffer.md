@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9b5fe91b-29ae-4c83-b405-4a90e4375b4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreenetbuffer, ndis/NdisFreeNetBuffer, ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, NdisFreeNetBuffer, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFreeNetBuffer, ndis/NdisFreeNetBuffer, netvista.ndisfreenetbuffer, ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisFreeNetBuffer(
 
 
 
-### -param NetBuffer [in]
+#### - NetBuffer [in]
 
 A pointer to a NET_BUFFER structure that was allocated by calling 
      <b>NdisAllocateNetBuffer</b>.
@@ -87,9 +87,9 @@ None
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
  
 

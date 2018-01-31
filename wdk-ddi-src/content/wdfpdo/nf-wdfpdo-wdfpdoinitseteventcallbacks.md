@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7ce47eab-c1d7-4a0d-accb-c8a925aa3d1d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, wdf.wdfpdoinitseteventcallbacks, WdfPdoInitSetEventCallbacks method, kmdf.wdfpdoinitseteventcallbacks, PFN_WDFPDOINITSETEVENTCALLBACKS, WdfPdoInitSetEventCallbacks, wdfpdo/WdfPdoInitSetEventCallbacks
+ms.keywords: DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, kmdf.wdfpdoinitseteventcallbacks, WdfPdoInitSetEventCallbacks, WdfPdoInitSetEventCallbacks method, PFN_WDFPDOINITSETEVENTCALLBACKS, wdfpdo/WdfPdoInitSetEventCallbacks, wdf.wdfpdoinitseteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitSetEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ VOID WdfPdoInitSetEventCallbacks(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param DispatchTable [in]
+#### - DispatchTable [in]
 
 A pointer to a caller-allocated <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a> structure.
 
@@ -100,9 +100,9 @@ The driver must call <b>WdfPdoInitSetEventCallbacks</b> before calling <a href="
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a>
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
+
+<a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a>
 
  
 

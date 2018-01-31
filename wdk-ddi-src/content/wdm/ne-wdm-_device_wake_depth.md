@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C8829785-1EB7-4F29-9279-F2FC2A3C0ABD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DeviceWakeDepthMaximum, wdm/DeviceWakeDepthD2, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], *PDEVICE_WAKE_DEPTH, wdm/DEVICE_WAKE_DEPTH, DeviceWakeDepthD3cold, wdm/DeviceWakeDepthMaximum, DEVICE_WAKE_DEPTH, kernel.device_wake_depth, wdm/DeviceWakeDepthD1, DeviceWakeDepthD0, wdm/DeviceWakeDepthD3hot, _DEVICE_WAKE_DEPTH, DeviceWakeDepthD1, DeviceWakeDepthD2, wdm/DeviceWakeDepthD0, DeviceWakeDepthD3hot, wdm/DeviceWakeDepthNotWakeable, DeviceWakeDepthNotWakeable, wdm/DeviceWakeDepthD3cold
+ms.keywords: wdm/DEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthNotWakeable, wdm/DeviceWakeDepthD3hot, *PDEVICE_WAKE_DEPTH, DeviceWakeDepthD2, wdm/DeviceWakeDepthD2, DeviceWakeDepthD1, DeviceWakeDepthD3cold, DeviceWakeDepthNotWakeable, DeviceWakeDepthD0, wdm/DeviceWakeDepthD1, DeviceWakeDepthMaximum, wdm/DeviceWakeDepthD0, DeviceWakeDepthD3hot, wdm/DeviceWakeDepthD3cold, wdm/DeviceWakeDepthMaximum, kernel.device_wake_depth, _DEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,37 +74,37 @@ typedef enum _DEVICE_WAKE_DEPTH {
 
 
 
-### -field DeviceWakeDepthNotWakeable
+#### - DeviceWakeDepthNotWakeable
 
 There is no device power state that can trigger a wake signal.
 
 
-### -field DeviceWakeDepthD0
+#### - DeviceWakeDepthD0
 
 D0 is the deepest device power state from which the device can trigger a wake signal. For more information, see Remarks.
 
 
-### -field DeviceWakeDepthD1
+#### - DeviceWakeDepthD1
 
 D1 is the deepest low-power device power state from which the device can trigger a wake signal.
 
 
-### -field DeviceWakeDepthD2
+#### - DeviceWakeDepthD2
 
 D2 is the deepest low-power device power state from which the device can trigger a wake signal.
 
 
-### -field DeviceWakeDepthD3hot
+#### - DeviceWakeDepthD3hot
 
 D3hot is the deepest low-power device power state from which the device can trigger a wake signal.
 
 
-### -field DeviceWakeDepthD3cold
+#### - DeviceWakeDepthD3cold
 
 D3cold is the deepest low-power device power state from which the device can trigger a wake signal.
 
 
-### -field DeviceWakeDepthMaximum
+#### - DeviceWakeDepthMaximum
 
 Reserved for use by the operating system.
 

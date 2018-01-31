@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_CACHE_INFORMATION, _DISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], *PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, storage.disk_cache_information, DISK_CACHE_INFORMATION structure [Storage Devices]
+ms.keywords: structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, *PDISK_CACHE_INFORMATION, storage.disk_cache_information, ntdddisk/PDISK_CACHE_INFORMATION, _DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], PDISK_CACHE_INFORMATION structure pointer [Storage Devices], ntdddisk/DISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DISK_CACHE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
+req.typenames: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION"
 ---
 
 # _DISK_CACHE_INFORMATION structure
@@ -124,37 +124,37 @@ typedef struct _DISK_CACHE_INFORMATION {
  
 
 
-### -field ParametersSavable
+#### - ParametersSavable
 
 Indicates, when set to 1, that the device is capable of saving any parameters in nonvolatile storage.
 
 
-### -field ReadCacheEnabled
+#### - ReadCacheEnabled
 
 Indicates, when set to 1, that the read cache is enabled.
 
 
-### -field WriteCacheEnabled
+#### - WriteCacheEnabled
 
 Indicates, when set to 1, that the write cache is enabled.
 
 
-### -field ReadRetentionPriority
+#### - ReadRetentionPriority
 
 Determines the likelihood of various types of data remaining in the cache. By means of this value, for instance, data cached from a READ or WRITE operation might be given a different priority than data cached under other circumstances, such as prefetch operations. Thus a value of <b>EqualPriority</b> indicates that no data is held in the cache on a preferential basis. When <b>ReadRetentionPriority</b> is set to <b>EqualPriority</b>, all types of data have equal access to cache memory. On the other hand, a value of <b>KeepPrefetchedData</b> indicates that a preference is to be given to prefetched data while a value of <b>KeepReadData</b> indicates that a preference is to be given to data cached from a READ operation. For more information about the values that can be assigned to this member see the <a href="..\ntdddisk\ne-ntdddisk-disk_cache_retention_priority.md">DISK_CACHE_RETENTION_PRIORITY</a> enumeration. 
 
 
-### -field WriteRetentionPriority
+#### - WriteRetentionPriority
 
 See discussion under <b>ReadRetentionPriority</b>.
 
 
-### -field DisablePrefetchTransferLength
+#### - DisablePrefetchTransferLength
 
 Disables prefetching. Prefetching might be disabled whenever the number of blocks requested exceeds the value in <b>DisablePrefetchTransferLength</b>. When zero, prefetching is disabled no matter what the size of the block request.
 
 
-### -field PrefetchScalar
+#### - PrefetchScalar
 
 When <b>TRUE</b>, Indicates that <b>ScalarPrefetch.Maximum</b> should be used together with the transfer length to calculate the amount of data that can be prefetched. When <b>FALSE</b>, <b>BlockPrefetch.Maximum</b> will be the maximum number of disk blocks that can be prefetched.
 

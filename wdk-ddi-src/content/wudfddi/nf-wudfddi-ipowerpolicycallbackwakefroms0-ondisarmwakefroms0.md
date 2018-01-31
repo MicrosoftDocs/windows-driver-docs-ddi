@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04c1eecd-c87f-45c5-be7b-0fbd8e114594
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, OnDisarmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, UMDFDeviceObjectRef_f12fda31-6979-43bf-af04-e46814728ed4.xml, OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method, umdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0
+ms.keywords: umdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, IPowerPolicyCallbackWakeFromS0 interface, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0, wdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, UMDFDeviceObjectRef_f12fda31-6979-43bf-af04-e46814728ed4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void OnDisarmWakeFromS0(
 
 
 
-### -param pWdfDevice [in]
+#### - pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 

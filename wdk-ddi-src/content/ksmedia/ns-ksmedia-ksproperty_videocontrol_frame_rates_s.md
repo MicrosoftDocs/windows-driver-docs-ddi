@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fbd45594-a7cb-4376-b05c-d1e09462c78c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure pointer [Streaming Media Devices], vidcapstruct_6f4d2262-8995-4b48-9029-595a7e7c1e15.xml, ksmedia/PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, stream.ksproperty_videocontrol_frame_rates_s, ksmedia/KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure [Streaming Media Devices]
+ms.keywords: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, stream.ksproperty_videocontrol_frame_rates_s, ksmedia/PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure [Streaming Media Devices], vidcapstruct_6f4d2262-8995-4b48-9029-595a7e7c1e15.xml, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
+req.typenames: "*PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S"
 ---
 
 # KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-### -field StreamIndex
+#### - StreamIndex
 
 Contains the zero-based index of the stream.
 
 
-### -field RangeIndex
+#### - RangeIndex
 
 Contains the zero-based index into the range list. The value at this location specifies the range in which frame rate information is being requested.
 
 
-### -field Dimensions
+#### - Dimensions
 
 Specifies the width and height of the image.
 
@@ -99,9 +99,9 @@ The minidriver should return a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIP
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
  
 

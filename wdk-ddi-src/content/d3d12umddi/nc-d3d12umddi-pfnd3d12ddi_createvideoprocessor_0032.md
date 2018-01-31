@@ -69,16 +69,17 @@ HRESULT APIENTRY* PFND3D12DDI_CREATEVIDEOPROCESSOR_0032(
 
 
 
-### -param hDrvDevice
+#### - hDrvDevice
 
 The hardware device being processed.
 
 
-### -param *pArgs
+#### - *pArgs [in]
+
+The arguments used to create a video processor.
 
 
-
-### -param hDrvVideoProcessor
+#### - hDrvVideoProcessor
 
 The video processor.
 

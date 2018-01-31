@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4f0941ea-ccbb-4345-82c0-ec5d88862b05
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceResetPortSynchronously method, wdf.wdfusbtargetdeviceresetportsynchronously, WdfUsbTargetDeviceResetPortSynchronously, PFN_WDFUSBTARGETDEVICERESETPORTSYNCHRONOUSLY, DFUsbRef_423196d9-8f58-462a-91b3-9d747a12d6df.xml, wdfusb/WdfUsbTargetDeviceResetPortSynchronously, kmdf.wdfusbtargetdeviceresetportsynchronously
+ms.keywords: wdfusb/WdfUsbTargetDeviceResetPortSynchronously, wdf.wdfusbtargetdeviceresetportsynchronously, PFN_WDFUSBTARGETDEVICERESETPORTSYNCHRONOUSLY, DFUsbRef_423196d9-8f58-462a-91b3-9d747a12d6df.xml, kmdf.wdfusbtargetdeviceresetportsynchronously, WdfUsbTargetDeviceResetPortSynchronously, WdfUsbTargetDeviceResetPortSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS WdfUsbTargetDeviceResetPortSynchronously(
 
 
 
-### -param UsbDevice [in]
+#### - UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 

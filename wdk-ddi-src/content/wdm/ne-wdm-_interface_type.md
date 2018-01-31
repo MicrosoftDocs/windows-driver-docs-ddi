@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Vmcs, wdm/Internal, NuBus, wdm/PNPISABus, Isa, MicroChannel, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], Internal, wdm/Isa, wdm/InternalPowerBus, PNPBus, wdm/MPIBus, wdm/VMEBus, *PINTERFACE_TYPE, PCIBus, PINTERFACE_TYPE, wdm/PCIBus, wdm/PNPBus, PCMCIABus, wdm/ACPIBus, INTERFACE_TYPE, wdm/ProcessorInternal, MPIBus, wdm/TurboChannel, wdm/INTERFACE_TYPE, TurboChannel, wdm/Eisa, Eisa, wdm/NuBus, wdm/Vmcs, MaximumInterfaceType, wdm/MicroChannel, _INTERFACE_TYPE, wdm/MaximumInterfaceType, wdm/InterfaceTypeUndefined, wdm/CBus, wdm/PCMCIABus, wdm/MPSABus, VMEBus, ACPIBus, CBus, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, PNPISABus, ProcessorInternal, MPSABus, InternalPowerBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PINTERFACE_TYPE, kernel.interface_type, InterfaceTypeUndefined
+ms.keywords: PNPISABus, InternalPowerBus, kernel.interface_type, PCIBus, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/ProcessorInternal, _INTERFACE_TYPE, wdm/MaximumInterfaceType, InterfaceTypeUndefined, VMEBus, NuBus, Internal, *PINTERFACE_TYPE, Vmcs, CBus, wdm/TurboChannel, wdm/MicroChannel, wdm/VMEBus, wdm/InterfaceTypeUndefined, wdm/PCIBus, MPSABus, wdm/Internal, ACPIBus, wdm/Eisa, TurboChannel, PNPBus, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PCMCIABus, wdm/NuBus, MPIBus, wdm/PNPISABus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], MaximumInterfaceType, PINTERFACE_TYPE, MicroChannel, wdm/Vmcs, wdm/CBus, wdm/ACPIBus, wdm/PINTERFACE_TYPE, wdm/PNPBus, wdm/MPIBus, Eisa, PCMCIABus, wdm/MPSABus, wdm/Isa, Isa, wdm/InternalPowerBus, ProcessorInternal, INTERFACE_TYPE, wdm/INTERFACE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	INTERFACE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PINTERFACE_TYPE, INTERFACE_TYPE"
+req.typenames: INTERFACE_TYPE, *PINTERFACE_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -87,102 +87,102 @@ typedef enum _INTERFACE_TYPE {
 
 
 
-### -field InterfaceTypeUndefined
+#### - InterfaceTypeUndefined
 
 Indicates that the interface type is undefined. 
 
 
-### -field Internal
+#### - Internal
 
 For internal use only. 
 
 
-### -field Isa
+#### - Isa
 
 Indicates that the interface is published by the ISA bus driver. 
 
 
-### -field Eisa
+#### - Eisa
 
 Indicates that the interface is published by the EISA bus driver. 
 
 
-### -field MicroChannel
+#### - MicroChannel
 
 Indicates that the interface is published by the MicroChannel bus driver.
 
 
-### -field TurboChannel
+#### - TurboChannel
 
 Indicates that the interface is published by the TurboChannel bus driver.
 
 
-### -field PCIBus
+#### - PCIBus
 
 Indicates that the interface is published by the PCI bus driver.
 
 
-### -field VMEBus
+#### - VMEBus
 
 Indicates that the interface is published by the VME bus driver.
 
 
-### -field NuBus
+#### - NuBus
 
 Indicates that the interface is published by the NuBus driver.
 
 
-### -field PCMCIABus
+#### - PCMCIABus
 
 Indicates that the interface is published by the PCMCIA bus driver.
 
 
-### -field CBus
+#### - CBus
 
 Indicates that the interface is published by the Cbus driver.
 
 
-### -field MPIBus
+#### - MPIBus
 
 Indicates that the interface is published by the MPI bus driver.
 
 
-### -field MPSABus
+#### - MPSABus
 
 Indicates that the interface is published by the MPSA bus driver.
 
 
-### -field ProcessorInternal
+#### - ProcessorInternal
 
 Indicates that the interface is published by the ISA bus driver.
 
 
-### -field InternalPowerBus
+#### - InternalPowerBus
 
 Indicates that the interface is published for an internal power bus. Some devices have power control ports that allow them to share power control with other devices. The Windows architecture represents these devices as slots on a virtual bus called an "internal power bus." 
 
 
-### -field PNPISABus
+#### - PNPISABus
 
 Indicates that the interface is published by the PNPISA bus driver.
 
 
-### -field PNPBus
+#### - PNPBus
 
 Indicates that the interface is published by the PNP bus driver.
 
 
-### -field Vmcs
+#### - Vmcs
 
 Reserved for use by the operating system.
 
 
-### -field ACPIBus
+#### - ACPIBus
 
 Indicates that the interface is published by the ACPI bus driver. The ACPI bus driver enumerates devices that are described in the ACPI firmware of the hardware platform. These devices might physically reside on buses that are controlled by other bus drivers, but the ACPI bus driver must enumerate these devices because the other bus drivers cannot detect them. This interface type is defined starting with Windows 8.
 
 
-### -field MaximumInterfaceType
+#### - MaximumInterfaceType
 
 Marks the upper limit of the possible bus types.
 
@@ -191,15 +191,15 @@ Marks the upper limit of the possible bus types.
 
 <a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
  
 

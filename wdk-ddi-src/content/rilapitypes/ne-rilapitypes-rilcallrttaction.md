@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e4a28382-25f9-427d-ba7a-3b35c01f50fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CALLRTTACTION_REJECT, rilapitypes/RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_MAX, RIL_CALLRTTACTION_ACCEPT, rilapitypes/RIL_CALLRTTACTION_MAX, RIL_CALLRTTACTION_REJECT, netvista.rilcallrttaction_2, rilapitypes/RIL_CALLRTTACTION_ASK, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLRTTACTION, RILCALLRTTACTION, RIL_CALLRTTACTION_ASK
+ms.keywords: rilapitypes/RILCALLRTTACTION, RIL_CALLRTTACTION_REJECT, RILCALLRTTACTION, RIL_CALLRTTACTION_ASK, RIL_CALLRTTACTION_ACCEPT, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLRTTACTION_MAX, rilapitypes/RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_MAX, rilapitypes/RIL_CALLRTTACTION_REJECT, netvista.rilcallrttaction_2, rilapitypes/RIL_CALLRTTACTION_ASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILCALLRTTACTION {
 
 
 
-### -field RIL_CALLRTTACTION_REJECT
+#### - RIL_CALLRTTACTION_REJECT
 
 
 
-### -field RIL_CALLRTTACTION_ASK
+#### - RIL_CALLRTTACTION_ASK
 
 
 
-### -field RIL_CALLRTTACTION_ACCEPT
+#### - RIL_CALLRTTACTION_ACCEPT
 
 
 
-### -field RIL_CALLRTTACTION_MAX
+#### - RIL_CALLRTTACTION_MAX
 
 

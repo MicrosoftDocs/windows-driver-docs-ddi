@@ -40,7 +40,7 @@ apiname:
 -	MyBugCheckCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -80,7 +80,7 @@ VOID MyBugCheckCallback(
 
 
 
-### -param Reason [in]
+#### - Reason [in]
 
 Specifies the reason for the call to the callback routine. This value can be one of the following as defined in  <a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
 
@@ -90,17 +90,17 @@ Specifies the reason for the call to the callback routine. This value can be one
 <li><b>KbCallbackSecondaryDumpData</b>: This callback function provides data to the system to append to the crash dump file when the system issues a bug check.</li>
 </ul>
 
-### -param Record [in]
+#### - Record [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a> structure that the driver supplied when it registered this callback. For more information, see the description of the <i>CallbackRecord</i> parameter in <a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>.
 
 
-### -param ReasonSpecificData [in, out]
+#### - ReasonSpecificData [in, out]
 
 A pointer to a <a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a> structure. This pointer is cast to type PVOID. Certain members of this structure are filled in by the operating system before it calls the callback routine, and other members must be filled in by the callback routine. For more information, see the following Remarks section.
 
 
-### -param ReasonSpecificDataLength [in]
+#### - ReasonSpecificDataLength [in]
 
 Specifies the size, in bytes, of the buffer that the <i>ReasonSpecificData</i> parameter points to. 
 <ul>
@@ -187,15 +187,15 @@ A <i>BugCheckSecondaryDumpDataCallback</i> is very restricted in the actions it 
 
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
 
-<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
-
 <a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
 <a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
+
+<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
 
  
 

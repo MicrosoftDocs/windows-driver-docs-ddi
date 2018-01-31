@@ -40,7 +40,7 @@ apiname:
 -	IO_SESSION_NOTIFICATION_FUNCTION
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ NTSTATUS IO_SESSION_NOTIFICATION_FUNCTION(
 
 
 
-### -param SessionObject [in]
+#### - SessionObject [in]
 
 Pointer to an opaque, system object that contains information about the user session. The driver can pass this pointer value to the <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a> routine as the <i>ContainerObject</i> parameter value.
 
 
-### -param IoObject [in]
+#### - IoObject [in]
 
 Pointer to an I/O object owned by the driver. This parameter is the I/O object pointer that the driver supplied to the <a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a> routine when the driver previously registered to receive notifications of session events. The <b>IoRegisterContainerNotification</b> routine's <i>NotificationInformation</i> parameter points to an <a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a> structure whose <b>IoObject</b> member points to the I/O object.
 
 
-### -param Event [in]
+#### - Event [in]
 
 An <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a> enumeration constant that indicates which session event caused the notification callback.
 
 
-### -param Context [in]
+#### - Context [in]
 
 The context value that the driver previously supplied to the <b>IoRegisterContainerNotification</b> routine when the driver registered to receive notifications of session events. In the <b>IoRegisterContainerNotification</b> call, the driver supplied a pointer to an <b>IO_SESSION_STATE_NOTIFICATION</b> structure whose <b>Context</b> member contains the context value.
 
 
-### -param NotificationPayload [in]
+#### - NotificationPayload [in]
 
 Pointer to a payload buffer that contains an <a href="..\wdm\ns-wdm-_io_session_connect_info.md">IO_SESSION_CONNECT_INFO</a> structure.
 
 
-### -param PayloadLength [in]
+#### - PayloadLength [in]
 
 The size, in bytes, of the buffer pointed to by <i>NotificationPayload</i>. The buffer size never needs exceeds the constant value IO_SESSION_MAX_PAYLOAD_SIZE, which is defined in the Wdm.h header file.
 
@@ -121,15 +121,15 @@ To receive notifications of session events, a driver calls the <b>IoRegisterCont
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
-
 <a href="..\wdm\ns-wdm-_io_session_connect_info.md">IO_SESSION_CONNECT_INFO</a>
-
-<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
 
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
+
+<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
+
+<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
 
  
 

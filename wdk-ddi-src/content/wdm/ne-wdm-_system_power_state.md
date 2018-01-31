@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PowerSystemShutdown, PowerSystemUnspecified, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PowerSystemSleeping2, _SYSTEM_POWER_STATE, PowerSystemSleeping1, PowerSystemSleeping2, wdm/PowerSystemUnspecified, wdm/PowerSystemMaximum, wdm/PowerSystemSleeping3, kernel.system_power_state, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PowerSystemWorking, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PSYSTEM_POWER_STATE, wdm/SYSTEM_POWER_STATE, PowerSystemSleeping3, wdm/PowerSystemWorking, wdm/PowerSystemHibernate, SYSTEM_POWER_STATE, PowerSystemHibernate, wdm/PowerSystemSleeping1, PowerSystemShutdown, PowerSystemMaximum, PSYSTEM_POWER_STATE, wdm/PSYSTEM_POWER_STATE
+ms.keywords: SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], wdm/PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemSleeping1, wdm/PowerSystemShutdown, _SYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, wdm/PowerSystemMaximum, PowerSystemWorking, SYSTEM_POWER_STATE, PowerSystemSleeping2, wdm/SYSTEM_POWER_STATE, PowerSystemSleeping3, wdm/PowerSystemWorking, wdm/PowerSystemSleeping2, PowerSystemShutdown, wdm/PowerSystemUnspecified, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, wdm/PSYSTEM_POWER_STATE, PowerSystemMaximum, kernel.system_power_state, wdm/PowerSystemSleeping1, *PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SYSTEM_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE, SYSTEM_POWER_STATE"
+req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -75,42 +75,42 @@ typedef enum _SYSTEM_POWER_STATE {
 
 
 
-### -field PowerSystemUnspecified
+#### - PowerSystemUnspecified
 
 Indicates an unspecified system power state. 
 
 
-### -field PowerSystemWorking
+#### - PowerSystemWorking
 
 Indicates maximum system power, which corresponds to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564591">system working state S0</a>. 
 
 
-### -field PowerSystemSleeping1
+#### - PowerSystemSleeping1
 
 Indicates a <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">system sleeping state</a> less than <b>PowerSystemWorking</b> and greater than <b>PowerSystemSleeping2</b>, which corresponds to system power state S1. 
 
 
-### -field PowerSystemSleeping2
+#### - PowerSystemSleeping2
 
 Indicates a system sleeping state less than <b>PowerSystemSleeping1</b> and greater than <b>PowerSystemSleeping3</b>, which corresponds to system power state S2. 
 
 
-### -field PowerSystemSleeping3
+#### - PowerSystemSleeping3
 
 Indicates a system sleeping state less than <b>PowerSystemSleeping2</b> and greater than <b>PowerSystemHibernate</b>, which corresponds to system power state S3. 
 
 
-### -field PowerSystemHibernate
+#### - PowerSystemHibernate
 
 Indicates the lowest-powered sleeping state, which corresponds to system power state S4. 
 
 
-### -field PowerSystemShutdown
+#### - PowerSystemShutdown
 
 Indicates the system is turned off, which corresponds to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564572">system shutdown state S5</a>. 
 
 
-### -field PowerSystemMaximum
+#### - PowerSystemMaximum
 
 The number of system power state values for this enumeration type that represents actual power states. This value is the number of elements in the <b>DeviceState</b> member of the <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a> structure for a device. The other system power state values are less than this value.
 

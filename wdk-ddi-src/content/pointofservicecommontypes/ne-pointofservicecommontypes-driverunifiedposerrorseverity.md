@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: a8c592fa-2736-49e4-8d4d-8729baef9c49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Fatal, Unrecoverable, pointofservicecommontypes/Recoverable, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, pointofservicecommontypes/Unrecoverable, UnknownErrorSeverity, Warning, pos.unifiedposerrorseverity, DriverUnifiedPosErrorSeverity, pointofservicecommontypes/Fatal, Recoverable, pointofservicecommontypes/Warning, AssistanceRequired, pointofservicecommontypes/UnknownErrorSeverity, pointofservicecommontypes/ AssistanceRequired, DriverUnifiedPosErrorSeverity enumeration
+ms.keywords: DriverUnifiedPosErrorSeverity, Unrecoverable, pointofservicecommontypes/Recoverable, pointofservicecommontypes/ AssistanceRequired, pointofservicecommontypes/Unrecoverable, AssistanceRequired, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, DriverUnifiedPosErrorSeverity enumeration, Fatal, pointofservicecommontypes/Fatal, pointofservicecommontypes/Warning, Recoverable, pointofservicecommontypes/UnknownErrorSeverity, pos.unifiedposerrorseverity, Warning, UnknownErrorSeverity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _DriverUnifiedPosErrorSeverity {
 
 
 
-### -field UnknownErrorSeverity
+#### - UnknownErrorSeverity
 
 The severity of the error is not known.
 
 
-### -field Warning
+#### - Warning
 
 The error or warning is informational.
 
 
-### -field Recoverable
+#### - Recoverable
 
 The device can recover from the error without closing the application or rebooting.
 
 
-### -field Unrecoverable
+#### - Unrecoverable
 
 The device is still working, but it must close the application to recover from the error.
 
 
-### -field AssistanceRequired
+#### - AssistanceRequired
 
 Intervention is needed to respond to the error.
 
 
-### -field Fatal
+#### - Fatal
 
 The error requires that the device be rebooted.
 

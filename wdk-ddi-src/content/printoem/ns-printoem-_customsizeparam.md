@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/PCUSTOMSIZEPARAM, _CUSTOMSIZEPARAM, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, PCUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM, printoem/CUSTOMSIZEPARAM, print.customsizeparam, CUSTOMSIZEPARAM, CUSTOMSIZEPARAM structure [Print Devices], PCUSTOMSIZEPARAM structure pointer [Print Devices]
+ms.keywords: printoem/CUSTOMSIZEPARAM, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, _CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], CUSTOMSIZEPARAM structure [Print Devices], CUSTOMSIZEPARAM, print.customsizeparam, printoem/PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CUSTOMSIZEPARAM
 product: Windows
 targetos: Windows
-req.typenames: CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM
+req.typenames: "*PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _CUSTOMSIZEPARAM {
 
 
 
-### -field dwOrder
+#### - dwOrder
 
 Specifies the order in which a custom page size parameter is placed on the PostScript interpreter's operand stack. For example, a parameter for which <b>dwOrder</b> is set to 1 is placed on the stack first. A parameter for which <b>dwOrder</b> is set to 2 is placed on the stack second, and so on.
 
 
-### -field lMinVal
+#### - lMinVal
 
 Specifies the minimum value of the custom page size parameter.
 
 
-### -field lMaxVal
+#### - lMaxVal
 
 Specifies the maximum value of the custom page size parameter.
 

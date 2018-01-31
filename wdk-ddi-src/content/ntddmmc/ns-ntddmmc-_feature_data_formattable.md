@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 658ea6a4-309d-4f78-9a02-f93e7d945325
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE, storage.feature_data_formattable, FEATURE_DATA_FORMATTABLE structure [Storage Devices], *PFEATURE_DATA_FORMATTABLE, ntddmmc/FEATURE_DATA_FORMATTABLE, ntddmmc/PFEATURE_DATA_FORMATTABLE, PFEATURE_DATA_FORMATTABLE structure pointer [Storage Devices], structs-CD-ROM_27503157-de29-4c39-bb7a-b17528984f7f.xml, PFEATURE_DATA_FORMATTABLE"
+ms.keywords: storage.feature_data_formattable, ntddmmc/PFEATURE_DATA_FORMATTABLE, _FEATURE_DATA_FORMATTABLE, PFEATURE_DATA_FORMATTABLE structure pointer [Storage Devices], *PFEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE, PFEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE structure [Storage Devices], structs-CD-ROM_27503157-de29-4c39-bb7a-b17528984f7f.xml, ntddmmc/FEATURE_DATA_FORMATTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,44 +76,44 @@ typedef struct _FEATURE_DATA_FORMATTABLE {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field FullCertification
+#### - FullCertification
 
 
 
-### -field QuickCertification
+#### - QuickCertification
 
 
 
-### -field SpareAreaExpansion
+#### - SpareAreaExpansion
 
 
 
-### -field RENoSpareAllocated
+#### - RENoSpareAllocated
 
 
 
-### -field Reserved1
+#### - Reserved1
 
 
 
-### -field Reserved2
+#### - Reserved2
 
 
 
-### -field RRandomWritable
+#### - RRandomWritable
 
 
 
-### -field Reserved3
+#### - Reserved3
 
 
 
-### -field Reserved4
+#### - Reserved4
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5329a688-ca72-456c-b9fa-32a922783d97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRADIOSTATEPASSWORD, netvista.rilradiostatepassword, ntddrilapitypes/RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], *LPRILRADIOSTATEPASSWORD
+ms.keywords: RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRADIOSTATEPASSWORD, netvista.rilradiostatepassword, *LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRADIOSTATEPASSWORD
 product: Windows
 targetos: Windows
-req.typenames: RILRADIOSTATEPASSWORD, *LPRILRADIOSTATEPASSWORD
+req.typenames: "*LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD"
 ---
 
 # RILRADIOSTATEPASSWORD structure
@@ -68,10 +68,10 @@ typedef struct _RILRADIOSTATEPASSWORD {
 
 
 
-### -field dwPasswordId
+#### - dwPasswordId
 
 
 
-### -field wszPassword
+#### - wszPassword
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14fb5b30-7169-4d8a-ad72-d0ee86da7f98
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinattachorgate, KsPinAttachOrGate, KsPinAttachOrGate function [Streaming Media Devices], ks/KsPinAttachOrGate, avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml
+ms.keywords: KsPinAttachOrGate function [Streaming Media Devices], ks/KsPinAttachOrGate, stream.kspinattachorgate, KsPinAttachOrGate, avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsPinAttachOrGate(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure to use an input to the OR gate.
 
 
-### -param OrGate [in, optional]
+#### - OrGate [in, optional]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the previously initialized OR gate to connect to the relevant filter's AND gate. If this optional parameter is NULL, any <b>KSGATE</b> currently attached to the pin is detached.
 
@@ -99,9 +99,9 @@ Do not leave an unattached OR gate at filter creation time. Instead, create the 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
-
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
 
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 

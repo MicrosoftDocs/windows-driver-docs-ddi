@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ab1fb259-edcb-4e19-9afb-18aa6688764a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, ReadPort, ReadPort function [Print Devices], winsplp/ReadPort, print.readport
+ms.keywords: winsplp/ReadPort, spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, print.readport, ReadPort function [Print Devices], ReadPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ BOOL ReadPort(
 
 
 
-### -param hPort [in]
+#### - hPort [in]
 
 Caller-supplied port handle.
 
 
-### -param pBuffer [out]
+#### - pBuffer [out]
 
 Caller-supplied pointer to a buffer to receive data read from the port.
 
 
-### -param cbBuffer
+#### - cbBuffer
 
 Caller-supplied size, in bytes, of <i>pBuffer</i>.
 
 
-### -param pcbRead [out]
+#### - pcbRead [out]
 
 Caller-supplied pointer to a location to receive the number of bytes successfully read from the port.
 
@@ -126,15 +126,15 @@ It is acceptable for a language monitor to call a port monitor's <code>ReadPort<
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
-
 <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
  
 

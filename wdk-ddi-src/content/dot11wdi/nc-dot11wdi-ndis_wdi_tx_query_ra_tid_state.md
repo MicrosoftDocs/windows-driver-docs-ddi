@@ -77,31 +77,32 @@ VOID NdisWdiTxQueryRATIDState(
 
 
 
-### -param NdisMiniportDataPathHandle [in]
+#### - NdisMiniportDataPathHandle [in]
 
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
+#### - PortId [in]
 
 The port ID.
 
 
-### -param PeerId [in]
+#### - PeerId [in]
 
 The peer ID.
 
 
-### -param ExTid [in]
+#### - ExTid [in]
 
 The Extended Traffic ID (TID)
 
 
-### -param *pWifiStatus
+#### - *pWifiStatus [out]
+
+Indicates the result of the query operation.  See the <i>Remarks</i> section for more information.
 
 
-
-### -param pQueueLength [out]
+#### - pQueueLength [out]
 
 The number of backlogged frames in the specified RA/TID  or Port queue.
 
@@ -129,15 +130,15 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
-
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aacddaea-3a6f-4018-92ac-fe4aa2ddabd3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DriverEvent method [Print Devices], IPrintOemUI interface, DriverEvent method [Print Devices], IPrintOemUI, prcomoem/IPrintOemUI::DriverEvent, print.iprintoemui_driverevent, IPrintOemUI interface [Print Devices], DriverEvent method, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml, IPrintOemUI::DriverEvent, DriverEvent
+ms.keywords: IPrintOemUI interface [Print Devices], DriverEvent method, DriverEvent, DriverEvent method [Print Devices], IPrintOemUI interface, DriverEvent method [Print Devices], print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml, prcomoem/IPrintOemUI::DriverEvent, IPrintOemUI::DriverEvent, IPrintOemUI, print.iprintoemui_driverevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT DriverEvent(
 
 
 
-### -param dwDriverEvent
+#### - dwDriverEvent
 
 Caller-supplied bit flag indicating the event that has occurred. Valid flags are listed in the following table.
 <table>
@@ -102,7 +102,7 @@ The driver has just been installed.
 </table> 
 
 
-### -param dwLevel
+#### - dwLevel
 
 Caller-supplied value indicating the type of structure pointed to by the <i>pDriverInfo</i> parameter, as indicated in the following table.
 <table>
@@ -145,12 +145,12 @@ DRIVER_INFO_3
 The DRIVER_INFO_<i>N</i> structures are described in the Microsoft Windows SDK documentation.
 
 
-### -param pDriverInfo
+#### - pDriverInfo
 
 Caller-supplied pointer to a structure whose type is identified by the <i>dwLevel</i> parameter.
 
 
-### -param lParam
+#### - lParam
 
 Caller-supplied flags. See the following Remarks section.
 

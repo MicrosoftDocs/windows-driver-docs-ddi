@@ -73,27 +73,26 @@ NTSTATUS StartMiracastSession(
 
 
 
-### -param pMiracastContext [in]
+#### - pMiracastContext [in]
 
 A pointer to a context associated with a display adapter.
 
 The operating system obtained the context when it called the Miracast user-mode driver's <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
 
 
-### -param MiracastRTSPSocket [in]
+#### - MiracastRTSPSocket [in]
 
 The operating system-supplied network socket handle of the Real Time Streaming Protocol (RTSP). 
 <div class="alert"><b>Note</b>  The Miracast user-mode driver should not close this socket. When the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> function is called, the operating system will close this socket.</div><div> </div>
 
-### -param *pWfdConnectionStats
+#### - *pWfdConnectionStats [in]
+
+A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a> structure that indicates the Wi-Fi Direct connection statistics.
 
 
+#### - *pSessionInfo [out]
 
-### -param *pSessionInfo
-
-
-
-
+A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a> structure that the Miracast user-mode driver should complete after it has obtained the capabilities of the Miracast sink.
 
 
 #### - pWfdConnectionStats [in]
@@ -143,15 +142,15 @@ The driver should also set the value of these members of <a href="..\netdispumdd
 
 ## -see-also
 
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
 
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
  
 

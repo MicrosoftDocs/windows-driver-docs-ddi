@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b56657ac-98ff-482a-a2af-ffbfb8602248
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_TRANSFERFLAGS structure [Display Devices], display.dxgk_transferflags, _DXGK_TRANSFERFLAGS, d3dkmddi/DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS, DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml
+ms.keywords: "_DXGK_TRANSFERFLAGS, d3dkmddi/DXGK_TRANSFERFLAGS, display.dxgk_transferflags, DXGK_TRANSFERFLAGS structure [Display Devices], DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, DXGK_TRANSFERFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,47 +77,47 @@ typedef struct _DXGK_TRANSFERFLAGS {
 
 
 
-### -field Swizzle
+#### - Swizzle
 
 [in] A UINT value that specifies whether the driver should swizzle the source to the destination during the transfer. Note that for multiple-level allocations (for example, MIP-map textures), the driver should swizzle all levels of the allocations. For more information about swizzling allocations, see <a href="https://msdn.microsoft.com/c9be52d9-36b2-4a0f-9629-01b31293af38">Locking Swizzled Allocations</a>.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Unswizzle
+#### - Unswizzle
 
 [in] A UINT value that specifies whether the driver should unswizzle the source to the destination during the transfer. Note that for multiple-level allocations (for example, MIP-map textures), the driver should unswizzle all levels of the allocations. For more information about swizzling allocations, see <a href="https://msdn.microsoft.com/c9be52d9-36b2-4a0f-9629-01b31293af38">Locking Swizzled Allocations</a>.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field AllocationIsIdle
+#### - AllocationIsIdle
 
 [in] A UINT value that specifies whether the graphics processing unit (GPU) is using the given allocation. If this member is set, the GPU is not using the given allocation; that is, no work was queued or will be queued to the GPU until the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> returns.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field TransferStart
+#### - TransferStart
 
 [in] A UINT value that specifies whether the transfer operation is starting. If this member is set, the transfer operation is starting.
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field TransferEnd
+#### - TransferEnd
 
 [in] A UINT value that specifies whether the transfer operation is ending. If this member is set, the transfer operation is ending.
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that DXGK_TRANSFERFLAGS contains that can hold a 32-bit value that identifies the transfer-operation type.
 

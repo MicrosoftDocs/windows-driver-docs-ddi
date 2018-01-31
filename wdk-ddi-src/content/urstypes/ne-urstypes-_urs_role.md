@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_URS_ROLE, buses.urs_role, *PURS_ROLE, urstypes/URS_ROLE, URS_ROLE, UrsRoleHost, urstypes/UrsRoleNone, URS_ROLE, *PURS_ROLE, urstypes/UrsRoleFunction, URS_ROLE enumeration [Buses], URS_ROLE, *PURS_ROLE enumeration [Buses], UrsRoleFunction, UrsRoleNone, urstypes/UrsRoleHost"
+ms.keywords: buses.urs_role, URS_ROLE, *PURS_ROLE, *PURS_ROLE, UrsRoleNone, urstypes/UrsRoleNone, _URS_ROLE, UrsRoleHost, urstypes/UrsRoleFunction, URS_ROLE enumeration [Buses], urstypes/UrsRoleHost, UrsRoleFunction, URS_ROLE, *PURS_ROLE enumeration [Buses], URS_ROLE, urstypes/URS_ROLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _URS_ROLE {
 
 
 
-### -field UrsRoleNone
+#### - UrsRoleNone
 
 Internal use only. Must be 0.
 
 
-### -field UrsRoleHost
+#### - UrsRoleHost
 
 Indicates the host role of the controller.
 
 
-### -field UrsRoleFunction
+#### - UrsRoleFunction
 
 Indicates the function role of the controller.
 

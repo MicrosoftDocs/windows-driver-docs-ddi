@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cc76765-871e-4cd0-b927-b0b4d3d746b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_HD_SPLIT_PARAMETERS, ntddndis/NDIS_HD_SPLIT_PARAMETERS, _NDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml, netvista.ndis_hd_split_parameters, *PNDIS_HD_SPLIT_PARAMETERS
+ms.keywords: PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_hd_split_parameters, ntddndis/NDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS, ntddndis/PNDIS_HD_SPLIT_PARAMETERS, _NDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_HD_SPLIT_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -80,7 +80,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_HD_SPLIT_PARAMETERS_REVISION_1.
 
 
-### -field HDSplitCombineFlags
+#### - HDSplitCombineFlags
 
 A set of flags that specify the current header-data split settings of a miniport adapter. A
      protocol driver or user-mode application can specify a bitwise OR of the following flags:

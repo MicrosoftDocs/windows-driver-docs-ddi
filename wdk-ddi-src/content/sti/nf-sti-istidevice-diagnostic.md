@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: eee5c6d7-17a3-461f-85e0-17f6b7114b19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::Diagnostic, stifnc_68471629-529f-48c5-bcaf-8be60f5f50c0.xml, IStiDevice interface [Imaging Devices], Diagnostic method, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiDevice interface, sti/IStiDevice::Diagnostic, image.istidevice_diagnostic, IStiDevice, Diagnostic
+ms.keywords: image.istidevice_diagnostic, sti/IStiDevice::Diagnostic, Diagnostic, IStiDevice interface [Imaging Devices], Diagnostic method, Diagnostic method [Imaging Devices], stifnc_68471629-529f-48c5-bcaf-8be60f5f50c0.xml, Diagnostic method [Imaging Devices], IStiDevice interface, IStiDevice::Diagnostic, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT Diagnostic(
 
 
 
-### -param pBuffer [in, out]
+#### - pBuffer [in, out]
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_diag.md">STI_DIAG</a> structure specifying the type of tests to be run. On return, the structure contains status information.
 

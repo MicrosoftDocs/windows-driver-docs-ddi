@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 50B76D96-120C-4C86-89ED-7F298E50B1A4
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PPCM_DATA_FORMAT, PCM_DATA_FORMAT, bltooth.pcm_data_format, PCM_DATA_FORMAT enumeration [Bluetooth Devices], PPCM_DATA_FORMAT enumeration pointer [Bluetooth Devices], bthddi/PPCM_DATA_FORMAT, bthddi/, _PCM_DATA_FORMAT, *PPCM_DATA_FORMAT, bthddi/PCM_DATA_FORMAT
+ms.keywords: PPCM_DATA_FORMAT, _PCM_DATA_FORMAT, bthddi/, bltooth.pcm_data_format, PPCM_DATA_FORMAT enumeration pointer [Bluetooth Devices], PCM_DATA_FORMAT, PCM_DATA_FORMAT enumeration [Bluetooth Devices], bthddi/PCM_DATA_FORMAT, bthddi/PPCM_DATA_FORMAT, *PPCM_DATA_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PCM_DATA_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: "*PPCM_DATA_FORMAT, PCM_DATA_FORMAT"
+req.typenames: PCM_DATA_FORMAT, *PPCM_DATA_FORMAT
 ---
 
 # _PCM_DATA_FORMAT enumeration

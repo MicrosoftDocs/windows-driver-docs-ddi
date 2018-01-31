@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/OEMOutputCharStr, OEMOutputCharStr, print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, OEMOutputCharStr function [Print Devices]
+ms.keywords: OEMOutputCharStr function [Print Devices], printoem/OEMOutputCharStr, OEMOutputCharStr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, print.oemoutputcharstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,23 +71,23 @@ VOID APIENTRY OEMOutputCharStr(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 
 
-### -param pUFObj
+#### - pUFObj
 
 
 
-### -param dwType
+#### - dwType
 
 
 
-### -param dwCount
+#### - dwCount
 
 
 
-### -param pGlyph [in]
+#### - pGlyph [in]
 
 
 

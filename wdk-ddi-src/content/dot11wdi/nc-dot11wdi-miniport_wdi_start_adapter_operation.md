@@ -75,7 +75,7 @@ typedef MINIPORT_WDI_START_ADAPTER_OPERATION (*MINIPORT_WDI_START_OPERATION_HAND
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 The handle to the context area that the miniport driver allocated.
 

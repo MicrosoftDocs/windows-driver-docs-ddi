@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70df85b6-286a-45a2-813d-adb54daee122
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, display.d3dddiarg_checkdirectflipsupport
+ms.keywords: "_D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, display.d3dddiarg_checkdirectflipsupport"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DDDIARG_CHECKDIRECTFLIPSUPPORT {
 
 
 
-### -field hAppSwapchainResource
+#### - hAppSwapchainResource
 
 [in] A resource in the application's swapchain.
 
 
-### -field hDWMSwapchainResource
+#### - hDWMSwapchainResource
 
 [in] A resource in the DWM's swapchain.
 
 
-### -field CheckDirectFlipFlags
+#### - CheckDirectFlipFlags
 
 [in] If this member has a value of <b>D3DDDI_CHECKDIRECTFLIP_IMMEDIATE</b>, seamless flipping should occur immediately and does not have to be synchronized with a VSync interrupt.
 
 
-### -field Supported
+#### - Supported
 
 [out] Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
 

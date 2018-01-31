@@ -40,7 +40,7 @@ apiname:
 -	CmpMonitorRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
+req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
 
 # PCMP_MONITOR_ROUTINE callback
@@ -72,7 +72,7 @@ typedef PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
 
 
 
-### -param MonitorInfo [in]
+#### - MonitorInfo [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
 

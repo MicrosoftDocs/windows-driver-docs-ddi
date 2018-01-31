@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9677C044-354B-4575-B2EC-187D1B4E8C61
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], storport/PSTOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES, _STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], storage.stor_unit_attributes, PSTOR_UNIT_ATTRIBUTES
+ms.keywords: storage.stor_unit_attributes, STOR_UNIT_ATTRIBUTES structure [Storage Devices], storport/PSTOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], _STOR_UNIT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _STOR_UNIT_ATTRIBUTES {
 
 
 
-### -field DeviceAttentionSupported
+#### - DeviceAttentionSupported
 
 Set to 1 if device attention is supported for the unit. Otherwise, set to 0.
 
 
-### -field AsyncNotificationSupported
+#### - AsyncNotificationSupported
 
 Set to 1 if the device supports asynchronous notifications. Otherwise, set to 0.
 
 
-### -field D3ColdNotSupported
+#### - D3ColdNotSupported
 
 Set to 1 if the D3 Cold power state is NOT supported. Otherwise, set to 0.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved bits. Must be set to 0.
 
@@ -102,9 +102,9 @@ If the miniport driver supports asynchronous notifications, the <b>AsyncNotifica
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a>
-
 <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
+
+<a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a>
 
  
 

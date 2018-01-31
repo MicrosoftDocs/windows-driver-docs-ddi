@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUnifiedPropertyStore, GetPropertyData method, IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_getpropertydata, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, wdf.iwdfunifiedpropertystore_getpropertydata, IWDFUnifiedPropertyStore interface, GetPropertyData method, GetPropertyData, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
+ms.keywords: IWDFUnifiedPropertyStore interface, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, wdf.iwdfunifiedpropertystore_getpropertydata, umdf.iwdfunifiedpropertystore_getpropertydata, GetPropertyData, IWDFUnifiedPropertyStore, GetPropertyData method, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData, GetPropertyData method, IWDFUnifiedPropertyStore interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUnifiedPropertyStore.GetPropertyData
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -77,37 +77,37 @@ HRESULT GetPropertyData(
 
 
 
-### -param PropertyKey [in]
+#### - PropertyKey [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that specifies the device property key.
 
 
-### -param Lcid [in]
+#### - Lcid [in]
 
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Reserved for system use. Drivers should set this value to 0.
 
 
-### -param PropertyDataSize [in]
+#### - PropertyDataSize [in]
 
 The size, in bytes, of the buffer that <i>PropertyData</i> points to.
 
 
-### -param PropertyData [out, optional]
+#### - PropertyData [out, optional]
 
 A pointer to the device property data.
 
 
-### -param PropertyDataRequiredSize [out]
+#### - PropertyDataRequiredSize [out]
 
 A pointer to a ULONG to receive the size of the property information that is returned in <i>PropertyData</i>.
 
 
-### -param PropertyType [out]
+#### - PropertyType [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a> value. If <b>GetPropertyData</b> completes successfully, the method uses <i>PropertyType</i> to supply the type of data that is returned in the <i>PropertyData</i> buffer. 
 
@@ -188,17 +188,17 @@ For more information about accessing the registry, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPropertyData</a>
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPropertyData</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
  
 

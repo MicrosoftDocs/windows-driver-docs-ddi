@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_MULTISAMPLEMETHOD, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], display.d3dkmt_multisamplemethod, _D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml
+ms.keywords: D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod, _D3DKMT_MULTISAMPLEMETHOD, OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_MULTISAMPLEMETHOD {
 
 
 
-### -field NumSamples
+#### - NumSamples
 
 [out] The number of subpixels that are used in the multiple-sampling method (for example, 2 for 2x and 8 for 8x multiple-sampling).
 
 
-### -field NumQualityLevels
+#### - NumQualityLevels
 
 [out] The upper bound on the quality range that is supported for the multiple-sampling method. The range extends from zero through the reported maximum quality setting.
 
 
-### -field Reserved
+#### - Reserved
 
 [out] Reserved.
 

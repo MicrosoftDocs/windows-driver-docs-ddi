@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl3::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, debugger.getdumpformatflags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags, dbgeng/IDebugControl3::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method, dbgeng/IDebugControl2::GetDumpFormatFlags, IDebugControl2::GetDumpFormatFlags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method
+ms.keywords: debugger.getdumpformatflags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, IDebugControl3, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, IDebugControl3::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags, dbgeng/IDebugControl2::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetDumpFormatFlags, IDebugControl2::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetDumpFormatFlags(
 
 
 
-### -param FormatFlags [out]
+#### - FormatFlags [out]
 
 Receives the flags that describe the information included in a dump file.  Different dump files support different sets of format information.  For example, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541497">DEBUG_FORMAT_XXX</a> for a description of the flags used for user-mode Minidump files.
 
@@ -108,11 +108,11 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_createdcfrommemory, _D3DKMT_CREATEDCFROMMEMORY, D3DKMT_CREATEDCFROMMEMORY, d3dkmthk/D3DKMT_CREATEDCFROMMEMORY, D3DKMT_CREATEDCFROMMEMORY structure [Display Devices], OpenGL_Structs_b56e280f-e29b-4781-942a-a36024786d9e.xml
+ms.keywords: D3DKMT_CREATEDCFROMMEMORY, D3DKMT_CREATEDCFROMMEMORY structure [Display Devices], d3dkmthk/D3DKMT_CREATEDCFROMMEMORY, OpenGL_Structs_b56e280f-e29b-4781-942a-a36024786d9e.xml, display.d3dkmt_createdcfrommemory, _D3DKMT_CREATEDCFROMMEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,56 +75,56 @@ typedef struct _D3DKMT_CREATEDCFROMMEMORY {
 
 
 
-### -field pMemory
+#### - pMemory
 
 [in] A pointer to a block of memory for the display context.
 
 
-### -field Format
+#### - Format
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format for the memory block that <b>pMemory</b> points to.
 
 
-### -field Width
+#### - Width
 
 [in] The width, in pixels, of the memory block that <b>pMemory</b> points to.
 
 
-### -field Height
+#### - Height
 
 [in] The height, in pixels, of the memory block that <b>pMemory</b> points to.
 
 
-### -field Pitch
+#### - Pitch
 
 [in] The pitch, in bytes, of the memory block that <b>pMemory</b> points to--that is, the distance in bytes to the start of the next line.
 
 
-### -field hDeviceDc
+#### - hDeviceDc
 
 [in] A handle to the display context for the device.
 
 
-### -field pColorTable
+#### - pColorTable
 
 [in] An array of 2, 4, 16, or 256 PALETTEENTRY structures that are used to initialize the colors for the memory block that <b>pMemory</b> points to. For more information about PALETTEENTRY, see the Microsoft Window SDK documentation.
 
 
-### -field hDc
+#### - hDc
 
 [out] A handle to the display context. The OpenGL runtime generates a handle and passes it back to the driver.
 
 
-### -field hBitmap
+#### - hBitmap
 
 [out] A handle to a bitmap that is related to the display context. The OpenGL runtime generates a handle and passes it back to the driver.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedcfrommemory.md">D3DKMTCreateDCFromMemory</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
  
 

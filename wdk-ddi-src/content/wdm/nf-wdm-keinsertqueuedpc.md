@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1fc6880-23d1-4154-9305-4a918efd4a1d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], KeInsertQueueDpc, wdm/KeInsertQueueDpc, kernel.keinsertqueuedpc, k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml
+ms.keywords: KeInsertQueueDpc, KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], kernel.keinsertqueuedpc, wdm/KeInsertQueueDpc, k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOLEAN KeInsertQueueDpc(
 
 
 
-### -param Dpc [in, out]
+#### - Dpc [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure for the DPC object. This structure must have been initialized by either <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a> or <a href="..\wdm\nf-wdm-keinitializethreadeddpc.md">KeInitializeThreadedDpc</a>.
 
 
-### -param SystemArgument1 [in, optional]
+#### - SystemArgument1 [in, optional]
 
 Specifies driver-determined context data. This value is passed as the <i>SystemArgument1</i> parameter to the DPC object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine. 
 
 
-### -param SystemArgument2 [in, optional]
+#### - SystemArgument2 [in, optional]
 
 Specifies driver-determined context data. This value is passed as the <i>SystemArgument2</i> parameter to the DPC object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine. 
 
@@ -103,13 +103,13 @@ Note that a particular DPC object and the function that it represents can each b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
 
-<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
+<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
 
  
 

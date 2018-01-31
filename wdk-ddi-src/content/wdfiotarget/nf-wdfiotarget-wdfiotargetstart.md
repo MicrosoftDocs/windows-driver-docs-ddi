@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d270910-f0ff-4305-bd68-caa36d3a02c5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetStart, PFN_WDFIOTARGETSTART, WdfIoTargetStart method, DFIOTargetRef_40667bdf-5de8-4728-9c55-4a88f7a51704.xml, kmdf.wdfiotargetstart, wdf.wdfiotargetstart, WdfIoTargetStart
+ms.keywords: PFN_WDFIOTARGETSTART, WdfIoTargetStart method, wdfiotarget/WdfIoTargetStart, wdf.wdfiotargetstart, kmdf.wdfiotargetstart, DFIOTargetRef_40667bdf-5de8-4728-9c55-4a88f7a51704.xml, WdfIoTargetStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS WdfIoTargetStart(
 
 
 
-### -param IoTarget [in]
+#### - IoTarget [in]
 
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a> or <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>, or from a method that a specialized I/O target provides.
 
@@ -125,15 +125,15 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
 
  
 

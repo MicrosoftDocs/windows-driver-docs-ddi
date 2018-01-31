@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9F01D093-226E-4CB4-8085-812115EBA671
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorscx/SensorsCxSensorDataReady, SensorsCxSensorDataReady, sensors.sensorscxsensordataready, SensorsCxSensorDataReady function [Sensor Devices]
+ms.keywords: SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady, SensorsCxSensorDataReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ FORCEINLINE NTSTATUS SensorsCxSensorDataReady(
 
 
 
-### -param Sensor [in]
+#### - Sensor [in]
 
 A reference to a sensor object.
 
 
-### -param pSensorData [in]
+#### - pSensorData [in]
 
 A list of <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
 
@@ -111,11 +111,11 @@ This function is implemented by the class extension and the driver must call it.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt219125">EvtSensorSetBatchLatency</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
 
 <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt219125">EvtSensorSetBatchLatency</a>
 
  
 

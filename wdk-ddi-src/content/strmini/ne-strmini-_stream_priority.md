@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 790A00A5-1107-4686-B690-80D07B69AF62
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: High, strmini/PSTREAM_PRIORITY, LowToHigh, STREAM_PRIORITY, Low, strmini/LowToHigh, strmini/Low, Dispatch, strmini/STREAM_PRIORITY, stream.stream_priority, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], strmini/High, _STREAM_PRIORITY, PSTREAM_PRIORITY, *PSTREAM_PRIORITY, STREAM_PRIORITY enumeration [Streaming Media Devices], strmini/Dispatch
+ms.keywords: strmini/PSTREAM_PRIORITY, High, strmini/LowToHigh, strmini/Low, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], STREAM_PRIORITY enumeration [Streaming Media Devices], strmini/High, strmini/Dispatch, _STREAM_PRIORITY, Dispatch, LowToHigh, stream.stream_priority, *PSTREAM_PRIORITY, strmini/STREAM_PRIORITY, Low, STREAM_PRIORITY, PSTREAM_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,22 +72,22 @@ typedef enum _STREAM_PRIORITY {
 
 
 
-### -field High
+#### - High
 
 Highest priority, IRQL equal to the adapter's ISR.
 
 
-### -field Dispatch
+#### - Dispatch
 
 Medium priority, IRQL equal to dispatch level.
 
 
-### -field Low
+#### - Low
 
 Lowest priority, IRQL equal to passive or APC level.
 
 
-### -field LowToHigh
+#### - LowToHigh
 
 Go from low priority to high priority.
 

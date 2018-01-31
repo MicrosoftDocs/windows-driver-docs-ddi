@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisRetreatNetBufferDataStart, netvista.ndisretreatnetbufferdatastart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], NdisRetreatNetBufferDataStart
+ms.keywords: ndis/NdisRetreatNetBufferDataStart, netvista.ndisretreatnetbufferdatastart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NDIS_STATUS NdisRetreatNetBufferDataStart(
 
 
 
-### -param NetBuffer [in]
+#### - NetBuffer [in]
 
 A pointer to a previously allocated NET_BUFFER structure.
 
 
-### -param DataOffsetDelta [in]
+#### - DataOffsetDelta [in]
 
 The amount of 
      <i>used data space</i> to add. NDIS adjusts the 
@@ -87,14 +87,14 @@ The amount of
      <i>unused data space</i> to satisfy the request, NDIS allocates additional memory.
 
 
-### -param DataBackFill [in]
+#### - DataBackFill [in]
 
 If NDIS must allocate memory, this parameter specifies the amount of data space, in addition to
      the value of the 
      <i>DataOffsetDelta</i> parameter, to allocate.
 
 
-### -param AllocateMdlHandler [in, optional]
+#### - AllocateMdlHandler [in, optional]
 
 An optional entry point for an 
      <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a> function. If the caller

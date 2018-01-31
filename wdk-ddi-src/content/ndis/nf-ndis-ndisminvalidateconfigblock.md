@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26D07A41-C431-41F1-9F5E-880B48CC2F0B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMInvalidateConfigBlock
+ms.keywords: NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], netvista.ndisminvalidateconfigblock, NdisMInvalidateConfigBlock, ndis/NdisMInvalidateConfigBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,19 +70,19 @@ VOID NdisMInvalidateConfigBlock(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param VFId [in]
+#### - VFId [in]
 
 The identifier of the VF for which the device location is returned.
 
 
-### -param BlockMask [in]
+#### - BlockMask [in]
 
 A ULONGLONG value that specifies a bitmask for the first 64 VF configuration blocks. Each bit in the bitmask corresponds to a VF configuration block. If the bit is set to one, the data associated with the corresponding VF configuration block has changed.
 
@@ -167,13 +167,13 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
+<a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
 
 <b></b>
 

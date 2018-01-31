@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 05f853a9-395a-4b2b-b681-0010dd019bbc
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidsdi/HidD_GetPhysicalDescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, HidD_GetPhysicalDescriptor, hid.hidd_getphysicaldescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices]
+ms.keywords: hid.hidd_getphysicaldescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], hidsdi/HidD_GetPhysicalDescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, HidD_GetPhysicalDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN __stdcall HidD_GetPhysicalDescriptor(
 
 
 
-### -param HidDeviceObject [in]
+#### - HidDeviceObject [in]
 
 Specifies an open handle to a top-level collection.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a caller-allocated buffer that the routine uses to return the requested physical descriptor.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Specifies the length, in bytes, of the buffer at <i>Buffer</i>.
 
@@ -102,15 +102,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="..\hidsdi\nf-hidsdi-hidd_getmanufacturerstring.md">HidD_GetManufacturerString</a>
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
 
 <a href="..\hidclass\ni-hidclass-ioctl_get_physical_descriptor.md">IOCTL_GET_PHYSICAL_DESCRIPTOR</a>
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getmanufacturerstring.md">HidD_GetManufacturerString</a>
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
 
  
 

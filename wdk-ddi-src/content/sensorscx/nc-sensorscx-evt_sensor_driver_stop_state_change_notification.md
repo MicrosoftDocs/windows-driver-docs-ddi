@@ -68,7 +68,7 @@ NTSTATUS EvtSensorDriverStopStateChangeNotification(
 
 
 
-### -param Sensors
+#### - Sensors
 
 Holds information on the sensor being handled by the driver.
 

@@ -73,22 +73,22 @@ NTSTATUS APIENTRY pfnGetMonitorFrequencyRangeSet(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 [in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
 
 
-### -param VideoPresentTargetId [in]
+#### - VideoPresentTargetId [in]
 
 [in] An integer that identifies one of the video present targets on the display adapter. The returned monitor frequency range set object describes the frequency ranges available on the monitor that is connected to this video present target.
 
 
-### -param phMonitorFrequencyRangeSet [out]
+#### - phMonitorFrequencyRangeSet [out]
 
 [out] A pointer to a variable that receives a handle to the monitor frequency range set object.
 
 
-### -param ppMonitorFrequencyRangeSetInterface [out]
+#### - ppMonitorFrequencyRangeSetInterface [out]
 
 [out] A pointer to a variable that receives a pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorfrequencyrangeset_interface.md">DXGK_MONITORFREQUENCYRANGESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor frequency range set object.
 

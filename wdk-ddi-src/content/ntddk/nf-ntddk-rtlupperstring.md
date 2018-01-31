@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a120831-deac-4075-9aa7-8ae39ac29363
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUpperString routine [Kernel-Mode Driver Architecture], RtlUpperString, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, kernel.rtlupperstring, ntddk/RtlUpperString
+ms.keywords: ntddk/RtlUpperString, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, kernel.rtlupperstring, RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID RtlUpperString(
 
 
 
-### -param DestinationString [in, out]
+#### - DestinationString [in, out]
 
 Pointer to the buffer for the converted destination string. 
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 Pointer to the source string to be converted to uppercase. 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fc52e06d-c826-43c2-ac61-4f56fd808d43
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*POB_POST_OPERATION_INFORMATION, kernel.ob_post_operation_information, POB_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/OB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION, _OB_POST_OPERATION_INFORMATION, wdm/POB_POST_OPERATION_INFORMATION, kstruct_c_6ef8c6e1-d537-47e0-875f-08f884362459.xml"
+ms.keywords: POB_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], OB_POST_OPERATION_INFORMATION, wdm/OB_POST_OPERATION_INFORMATION, wdm/POB_POST_OPERATION_INFORMATION, *POB_POST_OPERATION_INFORMATION, kernel.ob_post_operation_information, POB_POST_OPERATION_INFORMATION, _OB_POST_OPERATION_INFORMATION, kstruct_c_6ef8c6e1-d537-47e0-875f-08f884362459.xml, OB_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,22 +80,22 @@ typedef struct _OB_POST_OPERATION_INFORMATION {
 
 
 
-### -field KernelHandle
+#### - KernelHandle
 
 A ULONG value that specifies whether the handle is a kernel handle. If this value is <b>TRUE</b>, the handle is a kernel handle. Otherwise, the handle is not a kernel handle.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field Flags
+#### - Flags
 
 Reserved. Use the <b>KernelHandle</b> member instead. 
 
 
-### -field Operation
+#### - Operation
 
 The type of handle operation. This member might be one of the following values:
 
@@ -112,27 +112,27 @@ A new handle to a process or thread was created. Use <b>Parameters-&gt;CreateHan
 A process or thread handle was duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
 
 
-### -field Object
+#### - Object
 
 A pointer to the process or thread object that is the target of the handle operation.
 
 
-### -field ObjectType
+#### - ObjectType
 
 A pointer to the object type of the object. This type can be <b>PsProcessType</b> for a process or <b>PsThreadType</b> for a thread. 
 
 
-### -field CallContext
+#### - CallContext
 
 A pointer to driver-specific context information for the operation. This value is the value that the <i>OperationInformation</i>-&gt;<b>CallContext</b> member specifies to the <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a> routine. 
 
 
-### -field ReturnStatus
+#### - ReturnStatus
 
 The NTSTATUS value for the handle operation.
 
 
-### -field Parameters
+#### - Parameters
 
 A pointer to an <a href="..\wdm\ns-wdm-_ob_post_operation_parameters.md">OB_POST_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid. The pointer is valid only when <b>ReturnStatus</b> is a success code.
 
@@ -146,9 +146,9 @@ Unlike the <a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERA
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 <a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a>
 

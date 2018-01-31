@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fa6530a4-13b7-472b-a571-682323edc64e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PTARGET_DEVICE_CUSTOM_NOTIFICATION, kernel.target_device_custom_notification, wdm/PTARGET_DEVICE_CUSTOM_NOTIFICATION, wdm/TARGET_DEVICE_CUSTOM_NOTIFICATION, TARGET_DEVICE_CUSTOM_NOTIFICATION, kstruct_d_b83ddfbd-9448-4a91-8a64-ab060ba7614f.xml, *PTARGET_DEVICE_CUSTOM_NOTIFICATION, _TARGET_DEVICE_CUSTOM_NOTIFICATION, TARGET_DEVICE_CUSTOM_NOTIFICATION structure [Kernel-Mode Driver Architecture], PTARGET_DEVICE_CUSTOM_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PTARGET_DEVICE_CUSTOM_NOTIFICATION, TARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _TARGET_DEVICE_CUSTOM_NOTIFICATION, kernel.target_device_custom_notification, wdm/PTARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION, kstruct_d_b83ddfbd-9448-4a91-8a64-ab060ba7614f.xml, wdm/TARGET_DEVICE_CUSTOM_NOTIFICATION, TARGET_DEVICE_CUSTOM_NOTIFICATION structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _TARGET_DEVICE_CUSTOM_NOTIFICATION {
 
 
 
-### -field Version
+#### - Version
 
 Specifies the version of the data structure, currently 1. 
 
 
-### -field Size
+#### - Size
 
 Specifies the size of the structure, in bytes, including the first three standard members plus the event-specific data. 
 
 
-### -field Event
+#### - Event
 
 Specifies a GUID identifying the event. GUIDs for custom event notification are defined by the components that use this mechanism. 
 
 
-### -field FileObject
+#### - FileObject
 
 Pointer to a file object for the device.
 
 
-### -field NameBufferOffset
+#### - NameBufferOffset
 
 Specifies the offset, in bytes, from beginning of <b>CustomDataBuffer</b> where text begins. A value of -1 indicates that there is no text.
 
 
-### -field CustomDataBuffer
+#### - CustomDataBuffer
 
 A variable-length buffer, optionally containing binary data at the start of the buffer, followed by an optional text buffer (word-aligned). 
 
@@ -116,9 +116,9 @@ This structure accommodates both a variable-length binary data buffer and a vari
 
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
-
 <a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>
+
+<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
 
  
 

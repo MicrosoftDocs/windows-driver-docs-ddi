@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvOneXIndicateResult
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ DWORD APIENTRY Dot11ExtIhvOneXIndicateResult(
 
 
 
-### -param hIhvExtAdapter [in, optional]
+#### - hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -83,14 +83,14 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-### -param msOneXResult [in]
+#### - msOneXResult [in]
 
 The result of the 802.1X authentication operation specified through a 
      <a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a> enumeration
      value.
 
 
-### -param pDot11MsOneXResultParams [in, optional]
+#### - pDot11MsOneXResultParams [in, optional]
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11_msonex_result_params" tabindex="0"><b>
@@ -132,18 +132,18 @@ For more information about using the 802.1X module for authentication, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">DOT11_MSONEX_RESULT_PARAMS</a>
 
 <a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a>
-
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">DOT11_MSONEX_RESULT_PARAMS</a>
+<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
+   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
 
  
 

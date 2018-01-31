@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 47142adb-4d22-41eb-b455-93409bbffffb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], buses.ucmtcpciportcontrollersethardwarerequestqueue, UcmTcpciPortControllerSetHardwareRequestQueue
+ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue, buses.ucmtcpciportcontrollersethardwarerequestqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID UcmTcpciPortControllerSetHardwareRequestQueue(
 
 
 
-### -param PortControllerObject
+#### - PortControllerObject
 
 Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
 
 
-### -param HardwareRequestQueue
+#### - HardwareRequestQueue
 
 A handle to the framework queue object to assign.
 

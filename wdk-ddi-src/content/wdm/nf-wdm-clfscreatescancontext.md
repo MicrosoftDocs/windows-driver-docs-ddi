@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3392e43-8463-4d21-9206-34d09f3c7f59
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext, ClfsCreateScanContext
+ms.keywords: wdm/ClfsCreateScanContext, kernel.clfscreatescancontext, ClfsCreateScanContext, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ NTSTATUS ClfsCreateScanContext(
 
 
 
-### -param plfoLog [in]
+#### - plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
-### -param cFromContainer [in]
+#### - cFromContainer [in]
 
 The index of the first container to be scanned. Containers are indexed starting at zero.
 
 
-### -param cContainers [in]
+#### - cContainers [in]
 
 The number of containers to be scanned with each call to <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>.
 
 
-### -param eScanMode [in]
+#### - eScanMode [in]
 
  A set of flags that specify whether the scan context is set up for scanning forward or backward and whether the scan context should be reinitialized. The following three flags are available for callers of this routine.
 <table>
@@ -133,7 +133,7 @@ If <i>pcxScan</i> points to a CLFS_SCAN_CONTEXT structure that is being passed t
 If <i>pcxScan</i> points to a CLFS_SCAN_CONTEXT structure that has been passed to this routine previously, the CLFS_SCAN_INIT flag must be set. Also, one and only one of the direction flags (CLFS_SCAN_FORWARD or CLFS_SCAN_BACKWARD) must be set.
 
 
-### -param pcxScan [in, out]
+#### - pcxScan [in, out]
 
 A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a> structure whose members are initialized by this routine. This structure is later passed to <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>.
 

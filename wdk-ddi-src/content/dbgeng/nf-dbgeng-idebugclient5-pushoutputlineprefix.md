@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20446E2D-94D3-43D6-ABBF-2FA15F089659
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PushOutputLinePrefix, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method, IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], dbgeng/IDebugClient5::PushOutputLinePrefix, debugger.idebugclient5_pushoutputlineprefix, IDebugClient5
+ms.keywords: IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, IDebugClient5, dbgeng/IDebugClient5::PushOutputLinePrefix, debugger.idebugclient5_pushoutputlineprefix, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method, PushOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT PushOutputLinePrefix(
 
 
 
-### -param NewPrefix [in, optional]
+#### - NewPrefix [in, optional]
 
 A pointer to the new output line prefix.
 
 
-### -param Handle [out]
+#### - Handle [out]
 
 The handle of the previous output line prefix.
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1189fe8d-7b94-46ed-9090-bfe40f244e6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiamdef/wiasWritePropGuid, wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices], image.wiaswritepropguid
+ms.keywords: wiamdef/wiasWritePropGuid, image.wiaswritepropguid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWritePropGuid
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ HRESULT _stdcall wiasWritePropGuid(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param propid
+#### - propid
 
 Specifies the property identifier.
 
@@ -100,15 +100,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f27fe6d-fe34-4006-a8b1-d2f2190ec044
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, display.d3dddiarg_configureauthenticatedchannel, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml
+ms.keywords: UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], display.d3dddiarg_configureauthenticatedchannel, d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL {
 
 
 
-### -field InputSize
+#### - InputSize
 
 [in] The size, in bytes, of the input data that the <b>pInputData</b> member points to. 
 
 
-### -field pInputData
+#### - pInputData
 
 [in] A pointer to a buffer that describes the configuration data to set. The definition of the input buffer depends on the configuration data that is set. The buffer that <b>pInputData</b> points to is defined identically to the input buffer that is passed to the <b>IDirect3DAuthenticatedChannel::Configure</b> method. For more information about <b>IDirect3DAuthenticatedChannel::Configure</b>, see the Windows SDK documentation. 
 
 
-### -field pOutputData
+#### - pOutputData
 
 [in/out] A pointer to a buffer that describes the information that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function returns. 
 

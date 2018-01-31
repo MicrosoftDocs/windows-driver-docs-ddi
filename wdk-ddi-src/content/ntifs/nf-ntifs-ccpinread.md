@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcPinRead, CcPinRead routine [Installable File System Drivers], ntifs/CcPinRead, ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread
+ms.keywords: ntifs/CcPinRead, CcPinRead routine [Installable File System Drivers], ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, CcPinRead, ifsk.ccpinread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN CcPinRead(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file in which a range of data is to be pinned.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the cached file where the desired data resides.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length of desired data in bytes.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
 <table>
@@ -138,12 +138,12 @@ The data is to be pinned only if a BCB already exists. Otherwise, the pin fails 
 </table> 
 
 
-### -param Bcb [out]
+#### - Bcb [out]
 
 On the first call this returns a pointer to a buffer control block (BCB). This pointer must be supplied as input on all subsequent calls for this buffer.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer containing the pinned data.
 
@@ -180,13 +180,13 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 

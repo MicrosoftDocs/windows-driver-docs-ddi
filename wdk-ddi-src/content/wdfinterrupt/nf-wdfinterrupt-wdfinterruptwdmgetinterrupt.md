@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b301e9f6-264d-43d9-a344-b34dcd659d04
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptWdmGetInterrupt, wdf.wdfinterruptwdmgetinterrupt, WdfInterruptWdmGetInterrupt, kmdf.wdfinterruptwdmgetinterrupt, DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, WdfInterruptWdmGetInterrupt method
+ms.keywords: DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, wdfinterrupt/WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt, kmdf.wdfinterruptwdmgetinterrupt, WdfInterruptWdmGetInterrupt method, wdf.wdfinterruptwdmgetinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PKINTERRUPT WdfInterruptWdmGetInterrupt(
 
 
 
-### -param Interrupt [in]
+#### - Interrupt [in]
 
 A handle to a framework interrupt object.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69181a7c-62bd-4df0-95fc-fe6c3ab14209
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_ALLOCATIONINFO structure [Display Devices], D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml, _D3DDDI_ALLOCATIONINFO, display.d3dddi_allocationinfo, D3DDDI_ALLOCATIONINFO, d3dukmdt/D3DDDI_ALLOCATIONINFO
+ms.keywords: "_D3DDDI_ALLOCATIONINFO, display.d3dddi_allocationinfo, D3DDDI_ALLOCATIONINFO structure [Display Devices], d3dukmdt/D3DDDI_ALLOCATIONINFO, D3DDDI_ALLOCATIONINFO, D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,9 +84,45 @@ typedef struct _D3DDDI_ALLOCATIONINFO {
 
 
 
-### -field Flags
+#### - Flags
 
 [in] A union that contains either a structure (with the first three members that are described in the following list) or a 32-bit value (in the <b>Value</b> member) that indentifies the type of allocation:
+
+
+#### Primary
+
+[in] A UINT that specifies whether the allocation is part of the desktop. Such an allocation is implicitly accessible to the CPU. A primary allocation can be either pinned down at creation or not pinned down at creation. 
+
+Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
+
+
+#### Stereo
+
+[in] Supported beginning with Windows 8.
+
+A UINT that specifies whether the allocation is a stereo primary allocation. The <b>Stereo</b> member can be set only when the <b>Primary</b> member is set.
+
+Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
+
+
+#### Reserved
+
+[in] Supported beginning with Windows 8.
+
+This member is reserved and should be set to zero.
+
+Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
+
+
+[in] This member is reserved and should be set to zero.
+
+Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
+
+
+
+#### Value
+
+[in] A 32-bit value that identifies the type of allocation. 
 
 
 ### -field Flags.Primary
@@ -125,29 +161,29 @@ Setting this member to zero is equivalent to setting the remaining 31 bits (0xFF
 [in] A 32-bit value that identifies the type of allocation. 
 
 
-### -field hAllocation
+#### - hAllocation
 
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation. This kernel-mode allocation handle is associated with the kernel-mode resource handle (if non-<b>NULL</b>) that the Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns in the <b>hKMResource</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_allocate.md">D3DDDICB_ALLOCATE</a> structure. The user-mode display driver can use this kernel-mode allocation handle to reference the allocation in the command buffer.
 
 
-### -field pSystemMem
+#### - pSystemMem
 
 [in] A pointer to system memory that the Direct3D runtime preallocated. Otherwise, this member is <b>NULL</b> if the allocation is to use video memory. 
 
 If the allocation is in system memory, the user-mode display driver should assign the buffer in the <b>pSysMem</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a> structure for the resource to <b>pSystemMem</b>. This buffer is specified when the Direct3D runtime calls the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function to create resources. 
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in/out] A pointer to buffer that contains optional private data that might be required by the display miniport driver to create the allocation. The display miniport driver can also return data in the buffer. When the contents of the buffer are passed to the display miniport driver, the contents must be in a format that the display miniport driver can process. 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology if the allocation is for the primary surface. The driver should set <b>VidPnSourceId</b> only for primary allocation types and not for any other type of allocation. If the driver sets <b>VidPnSourceId</b> for any other allocation type in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function, <b>pfnAllocateCb</b> returns D3DDDI_ID_NOTAPPLICABLE.
 
@@ -177,19 +213,19 @@ The allocation is allocated according to preferences; otherwise, the allocation 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_allocate.md">D3DDDICB_ALLOCATE</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
 

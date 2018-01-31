@@ -40,7 +40,7 @@ apiname:
 -	pfnSetHardwareProtection
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback
@@ -72,17 +72,17 @@ VOID APIENTRY* pfnSetHardwareProtection(
 
 
 
-### -param hDevice
+#### - hDevice
 
 A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param hResource
+#### - hResource
 
 A handle to the resource object that was created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>DDI. 
 
 
-### -param Protected
+#### - Protected
 
 Indicates that the buffer should be protected.
 
@@ -110,9 +110,9 @@ Destroying and re-creating the DWM swap chain buffers is a heavyweight operation
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
  
 

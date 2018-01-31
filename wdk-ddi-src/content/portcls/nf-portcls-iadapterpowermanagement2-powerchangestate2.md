@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 72068476-5821-4646-88b3-06f3a1917fca
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAdapterPowerManagement2 interface [Audio Devices], PowerChangeState2 method, PowerChangeState2, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2 method [Audio Devices], IAdapterPowerManagement2 interface, portcls/IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2 method [Audio Devices], audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, IAdapterPowerManagement2
+ms.keywords: IAdapterPowerManagement2 interface [Audio Devices], PowerChangeState2 method, portcls/IAdapterPowerManagement2::PowerChangeState2, audio.iadapterpowermanagement2_powerchangestate2, PowerChangeState2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, IAdapterPowerManagement2, PowerChangeState2 method [Audio Devices], IAdapterPowerManagement2 interface, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2 method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IAdapterPowerManagement2.PowerChangeState2
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IAdapterPowerManagement2::PowerChangeState2 method
@@ -68,12 +68,12 @@ void PowerChangeState2(
 
 
 
-### -param NewDeviceState [in]
+#### - NewDeviceState [in]
 
 Specifies the new power state that Portcls has requested for the device. This parameter is an enumeration of type <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>.
 
 
-### -param NewSystemState [in]
+#### - NewSystemState [in]
 
 Specifies the new power state that Portcls has requested for the system. This parameter is an enumeration of type <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>.
 
@@ -96,15 +96,15 @@ For more information about system power states, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a>
+<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>
 
+<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
+
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a>
 
  
 

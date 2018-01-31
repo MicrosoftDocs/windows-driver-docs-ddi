@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 282eccaf-7cb9-4675-9cc3-9261ed1322ca
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetPortStatistics routine [Storage Devices], fibreHBA_rtns_cd33c55b-4c61-4353-ba28-8497e09b49dd.xml, storage.hba_getportstatistics, HBA_GetPortStatistics, hbaapi/HBA_GetPortStatistics
+ms.keywords: fibreHBA_rtns_cd33c55b-4c61-4353-ba28-8497e09b49dd.xml, storage.hba_getportstatistics, HBA_GetPortStatistics routine [Storage Devices], HBA_GetPortStatistics, hbaapi/HBA_GetPortStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ HBA_STATUS HBA_API HBA_GetPortStatistics(
 TBD
 
 
-### -param PortIndex [in]
+#### - PortIndex [in]
 
 Contains an index that identifies which port on the HBA to query for statistics. 
 
@@ -132,11 +132,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the st
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

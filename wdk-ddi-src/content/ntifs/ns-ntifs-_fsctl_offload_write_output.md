@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7293940B-A316-43C5-A5E8-6ED70EC6FDF8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FSCTL_OFFLOAD_WRITE_OUTPUT, ntifs/PFSCTL_OFFLOAD_WRITE_OUTPUT, PFSCTL_OFFLOAD_WRITE_OUTPUT structure pointer [Installable File System Drivers], OFFLOAD_READ_FLAG_FILE_TOO_SMALL, FSCTL_OFFLOAD_WRITE_OUTPUT, ifsk.fsctl_offload_write_output, FSCTL_OFFLOAD_WRITE_OUTPUT structure [Installable File System Drivers], *PFSCTL_OFFLOAD_WRITE_OUTPUT, PFSCTL_OFFLOAD_WRITE_OUTPUT, _FSCTL_OFFLOAD_WRITE_OUTPUT
+ms.keywords: ntifs/PFSCTL_OFFLOAD_WRITE_OUTPUT, ntifs/FSCTL_OFFLOAD_WRITE_OUTPUT, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, FSCTL_OFFLOAD_WRITE_OUTPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_WRITE_OUTPUT structure pointer [Installable File System Drivers], FSCTL_OFFLOAD_WRITE_OUTPUT, ifsk.fsctl_offload_write_output, PFSCTL_OFFLOAD_WRITE_OUTPUT, *PFSCTL_OFFLOAD_WRITE_OUTPUT, _FSCTL_OFFLOAD_WRITE_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _FSCTL_OFFLOAD_WRITE_OUTPUT {
 
 
 
-### -field Size
+#### - Size
 
 The size of this structure. Set this member to <b>sizeof</b>(FSCTL_OFFLOAD_WRITE_OUTPUT).
 
 
-### -field Flags
+#### - Flags
 
  Result flags for the offload write operation. This value is either 0 or the following:
 <table>
@@ -96,7 +96,7 @@ The file to write to is too small for an offload operation.
 </table> 
 
 
-### -field LengthWritten
+#### - LengthWritten
 
 The length of data written for the transfer specified in <a href="..\ntifs\ns-ntifs-_fsctl_offload_write_input.md">FSCTL_OFFLOAD_WRITE_INPUT</a>.
 

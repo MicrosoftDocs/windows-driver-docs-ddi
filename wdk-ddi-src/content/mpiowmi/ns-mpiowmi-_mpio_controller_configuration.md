@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af608197-fa2b-474f-aa87-eb933a57b8cc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiowmi/MPIO_CONTROLLER_CONFIGURATION, PMPIO_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], PMPIO_CONTROLLER_CONFIGURATION, MPIO_CONTROLLER_CONFIGURATION structure [Storage Devices], mpiowmi/PMPIO_CONTROLLER_CONFIGURATION, structs-scsibus_1859c081-42ae-47f9-a4fb-a55db52b6752.xml, _MPIO_CONTROLLER_CONFIGURATION, *PMPIO_CONTROLLER_CONFIGURATION, MPIO_CONTROLLER_CONFIGURATION, storage.mpio_controller_configuration
+ms.keywords: "*PMPIO_CONTROLLER_CONFIGURATION, storage.mpio_controller_configuration, MPIO_CONTROLLER_CONFIGURATION, mpiowmi/MPIO_CONTROLLER_CONFIGURATION, PMPIO_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], structs-scsibus_1859c081-42ae-47f9-a4fb-a55db52b6752.xml, _MPIO_CONTROLLER_CONFIGURATION, mpiowmi/PMPIO_CONTROLLER_CONFIGURATION, PMPIO_CONTROLLER_CONFIGURATION, MPIO_CONTROLLER_CONFIGURATION structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_CONTROLLER_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: MPIO_CONTROLLER_CONFIGURATION, *PMPIO_CONTROLLER_CONFIGURATION
+req.typenames: "*PMPIO_CONTROLLER_CONFIGURATION, MPIO_CONTROLLER_CONFIGURATION"
 ---
 
 # _MPIO_CONTROLLER_CONFIGURATION structure
@@ -68,12 +68,12 @@ typedef struct _MPIO_CONTROLLER_CONFIGURATION {
 
 
 
-### -field NumberControllers
+#### - NumberControllers
 
 An unsigned 32-bitfield that represents the total number of controllers on the system that are known to MPIO.
 
 
-### -field ControllerInfo
+#### - ControllerInfo
 
 An array with information about all the controllers and all targets in the system. The number of elements of the array is given by <i>NumberControllers</i> and each element of the array is an instance of an MPIO_CONTROLLER_INFO structure.
 

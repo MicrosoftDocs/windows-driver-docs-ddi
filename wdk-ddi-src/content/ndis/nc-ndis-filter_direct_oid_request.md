@@ -74,14 +74,14 @@ NDIS_STATUS FilterDirectOidRequest(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param OidRequest [in]
+#### - OidRequest [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
@@ -319,20 +319,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-   NdisFDirectOidRequestComplete</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
 
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
+<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+
 <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+
+<mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
+   NdisFDirectOidRequestComplete</b></mshelp:link>
 
 <mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
    FilterDirectOidRequestComplete</i></mshelp:link>

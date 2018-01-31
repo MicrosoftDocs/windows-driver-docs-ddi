@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8d6d1283-b64e-4c3b-8a45-376cfe76a19d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.cdrom_toc_full_toc_data_block, PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices], structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml, *PCDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK
+ms.keywords: ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK, storage.cdrom_toc_full_toc_data_block, *PCDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_FULL_TOC_DATA_BLOCK, structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml, ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_TOC_FULL_TOC_DATA_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK"
+req.typenames: CDROM_TOC_FULL_TOC_DATA_BLOCK, *PCDROM_TOC_FULL_TOC_DATA_BLOCK
 ---
 
 # _CDROM_TOC_FULL_TOC_DATA_BLOCK structure
@@ -74,12 +74,12 @@ typedef struct _CDROM_TOC_FULL_TOC_DATA_BLOCK {
 
 
 
-### -field SessionNumber
+#### - SessionNumber
 
 Contains the number of the session that the track belongs to. 
 
 
-### -field Control
+#### - Control
 
 Indicates the attributes of the track. 
 
@@ -112,7 +112,7 @@ Indicates that the track contains nonaudio data.
 Indicates that the track contains four channels of audio data.
 
 
-### -field Adr
+#### - Adr
 
 Indicates the type of information encoded in the Q subchannel of the block where this table of contents entry was found.
 
@@ -152,38 +152,38 @@ Q subchannel encodes media catalog number.
 Q subchannel encodes ISRC. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 
 
-### -field Point
+#### - Point
 
 Defines various types of information within the table of contents lead-in area. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS).
 
 
-### -field MsfExtra
+#### - MsfExtra
 
 See specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member. 
 
 
-### -field Zero
+#### - Zero
 
 Contains the value of the zero bit.
 
 
-### -field Msf
+#### - Msf
 
 Contains the minute, second, and frame. Msf[0] contains the minutes field. Msf[1] contains the seconds field, and Msf[2] contains the frames field. MSF is a format similar to logical block addressing. 
 
 
 ## -see-also
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
 
  
 

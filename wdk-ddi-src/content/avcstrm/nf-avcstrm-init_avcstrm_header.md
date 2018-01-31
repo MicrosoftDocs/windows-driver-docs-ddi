@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: INIT_AVCSTRM_HEADER, stream.init_avcstrm_header, avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices]
+ms.keywords: avcstrm/INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], INIT_AVCSTRM_HEADER, stream.init_avcstrm_header, avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,12 +68,12 @@ VOID INIT_AVCSTRM_HEADER(
 
 
 
-### -param AVCStrm [in]
+#### - AVCStrm [in]
 
 Points to a caller-allocated AVC_STREAM_REQUEST_BLOCK structure.
 
 
-### -param Request [in]
+#### - Request [in]
 
 Indicates the type of the request (function code) from the <a href="..\avcstrm\ne-avcstrm-_avcstrm_function.md">AVCSTRM_FUNCTION</a> enumeration. Each function code is documented under the <a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a> topic.
 
@@ -92,25 +92,25 @@ The macro is defined as follows:
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
 
 <a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
 
-<a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+
+<a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a>
 
  
 

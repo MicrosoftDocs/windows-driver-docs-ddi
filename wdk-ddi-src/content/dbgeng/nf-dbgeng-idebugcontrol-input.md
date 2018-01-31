@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.input, IDebugControl interface [Windows Debugging], Input method, dbgeng/IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, IDebugControl::Input, Input method [Windows Debugging], IDebugControl, Input, Input method [Windows Debugging], IDebugControl interface
+ms.keywords: IDebugControl interface [Windows Debugging], Input method, Input, IDebugControl, debugger.input, IDebugControl::Input, Input method [Windows Debugging], dbgeng/IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT Input(
 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the input string from the engine.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-### -param InputSize [out, optional]
+#### - InputSize [out, optional]
 
 Receives the number of characters returned in <i>Buffer</i>.  If <i>InputSize</i> is <b>NULL</b>, this information is not returned.
 

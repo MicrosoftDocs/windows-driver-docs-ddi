@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 458d8a08-7212-4888-9bb3-07a470541c8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisinitializereadwritelock, NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeReadWriteLock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml
+ms.keywords: ndis/NdisInitializeReadWriteLock, NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], netvista.ndisinitializereadwritelock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID NdisInitializeReadWriteLock(
 
 
 
-### -param Lock [out]
+#### - Lock [out]
 
 A pointer to an opaque 
      <b>NDIS_RW_LOCK</b> variable that represents a lock. The caller can use this lock to gain write or read

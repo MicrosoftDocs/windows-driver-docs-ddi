@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 3115b0c2-0190-4c5c-8b31-dbafddc9c44d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: parports.par_query_information, PAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION, ntddpar/PAR_QUERY_INFORMATION, ntddpar/PPAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION structure pointer [Parallel Ports], *PPAR_QUERY_INFORMATION, cisspd_d7d19b6f-e1a0-4ad7-b0ee-b8e291e63956.xml, PAR_QUERY_INFORMATION structure [Parallel Ports], _PAR_QUERY_INFORMATION
+ms.keywords: PAR_QUERY_INFORMATION structure [Parallel Ports], cisspd_d7d19b6f-e1a0-4ad7-b0ee-b8e291e63956.xml, *PPAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION, ntddpar/PAR_QUERY_INFORMATION, _PAR_QUERY_INFORMATION, ntddpar/PPAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION structure pointer [Parallel Ports], parports.par_query_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PAR_QUERY_INFORMATION {
 
 
 
-### -field Status
+#### - Status
 
 Specifies the operating status of a parallel port. The value of <b>Status</b> is a bitwise OR of one or more of the following flags:
 
@@ -115,11 +115,11 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_in
 
 ## -see-also
 
+<a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
-
-<a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
 
  
 

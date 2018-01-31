@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3bbad723-86bf-4206-9e51-52a66efaec20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListContext, netvista.ndisallocatenetbufferlistcontext, ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, NdisAllocateNetBufferListContext
+ms.keywords: ndis/NdisAllocateNetBufferListContext, NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, NdisAllocateNetBufferListContext, netvista.ndisallocatenetbufferlistcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,25 +75,25 @@ NDIS_STATUS NdisAllocateNetBufferListContext(
 
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
 
-### -param ContextSize [in]
+#### - ContextSize [in]
 
 The amount of context space to allocate in the NET_BUFFER_LIST_CONTEXT structure. This amount must
      be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -param ContextBackFill [in]
+#### - ContextBackFill [in]
 
 The amount of memory, in addition to the value of 
      <i>ContextSize</i>, to allocate if NDIS must allocate memory to satisfy the request. This amount must be
      a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -param PoolTag [in]
+#### - PoolTag [in]
 
 A kernel pool tag that NDIS uses to allocate the memory for the NET_BUFFER_LIST_CONTEXT structure,
      if allocation is required. The tag is a string, delimited by single quotation marks, with up to four
@@ -171,9 +171,9 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

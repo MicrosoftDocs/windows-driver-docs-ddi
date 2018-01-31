@@ -40,7 +40,7 @@ apiname:
 -	ResizeTilePool
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM1_3DDI_RESIZETILEPOOL callback
@@ -74,17 +74,17 @@ VOID APIENTRY* ResizeTilePool(
 
 
 
-### -param hDevice
+#### - hDevice
 
 A handle to the display device (graphics context).
 
 
-### -param hTilePool
+#### - hTilePool
 
 A handle to the tile pool to resize.
 
 
-### -param NewSizeInBytes
+#### - NewSizeInBytes
 
 The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB or zero.
 

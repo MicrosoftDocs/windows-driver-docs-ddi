@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2d97d31f-d8c6-45d6-9aee-69397a523bbd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.write_register_uchar, wdm/WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_REGISTER_UCHAR, k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml
+ms.keywords: k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR, kernel.write_register_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID WRITE_REGISTER_UCHAR(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a byte to be written to the register. 
 

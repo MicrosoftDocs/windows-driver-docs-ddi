@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 302d87be-a276-49ea-98f2-89e1f231c3c6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], KsPinRegisterAggregatedClientUnknown, ks/KsPinRegisterAggregatedClientUnknown, avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, stream.kspinregisteraggregatedclientunknown
+ms.keywords: KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, stream.kspinregisteraggregatedclientunknown, ks/KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PUNKNOWN __inline KsPinRegisterAggregatedClientUnknown(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure.
 
 
-### -param ClientUnknown [in]
+#### - ClientUnknown [in]
 
 A pointer to an <b>IUnknown</b> interface.
 

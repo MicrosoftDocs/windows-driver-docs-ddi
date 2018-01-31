@@ -74,21 +74,21 @@ typedef EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION PFN_IDD_CX_MONITOR_OPM_GET_INFOMAT
 
 
 
-### -param OpmCxtObject [in]
+#### - OpmCxtObject [in]
 
 
                     
                 The object for the OPM context that information will be gotten from.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 
                     
                 Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b>.
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 
                     

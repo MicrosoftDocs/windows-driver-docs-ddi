@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 36883440-805F-4588-AA04-3A7BCBEB6D76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxusbdevicecreate, ucxusbdevice/UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses], UcxUsbDeviceCreate
+ms.keywords: UcxUsbDeviceCreate, buses._ucxusbdevicecreate, ucxusbdevice/UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,24 +71,24 @@ NTSTATUS UcxUsbDeviceCreate(
 
 
 
-### -param Controller [in]
+#### - Controller [in]
 
 A handle to the controller object. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>.
 
 
-### -param UsbDeviceInit [out]
+#### - UsbDeviceInit [out]
 
 A pointer to a <b>UCXUSBDEVICE_INIT</b> structure that describes various configuration
         operations for creating the USB device object. The driver specifies function pointers to its callback functions in this structure.
     This structure is managed by UCX.
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
 
 
-### -param UsbDevice [out]
+#### - UsbDevice [out]
 
 A pointer to a variable that receives a handle to the new USB device object.
 

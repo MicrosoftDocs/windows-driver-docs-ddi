@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54FD0308-7E40-40C7-BA3A-FF1EFFBE0DB6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], PsCreateSiloContext, kernel.pscreatesilocontext
+ms.keywords: kernel.pscreatesilocontext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], PsCreateSiloContext, ntddk/PsCreateSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS PsCreateSiloContext(
 
 
 
-### -param Silo [in]
+#### - Silo [in]
 
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
 
-### -param Size [in]
+#### - Size [in]
 
 The size, in bytes, of the portion of the object defined by the caller.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 The type of pool to allocate from. This parameter is required and must be one of the following: <b>NonPagedPoolNx</b> or <b>PagedPool</b>.
 
 
-### -param ContextCleanupCallback [in, optional]
+#### - ContextCleanupCallback [in, optional]
 
 A pointer to a <a href="..\ntddk\nc-ntddk-silo_context_cleanup_callback.md">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param ReturnedSiloContext
+#### - ReturnedSiloContext
 
 A pointer to a caller-allocated variable that receives the address of the newly created object. 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], DXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml, display.dxgkargcb_getcaptureaddress, _DXGKARGCB_GETCAPTUREADDRESS, *INOUT_PDXGKARGCB_GETCAPTUREADDRESS
+ms.keywords: DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml, _DXGKARGCB_GETCAPTUREADDRESS, *INOUT_PDXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, display.dxgkargcb_getcaptureaddress, DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
 
 
 
-### -field hAllocation
+#### - hAllocation
 
 [in] A handle to the allocation that is associated with the capture buffer to retrieve information on. 
 
 
-### -field SegmentId
+#### - SegmentId
 
 [out] The identifier of the segment for the capture buffer. The allocation that is associated with the capture buffer is currently paged in this segment.
 
 
-### -field PhysicalAddress
+#### - PhysicalAddress
 
 [out] The physical address of the capture buffer.
 

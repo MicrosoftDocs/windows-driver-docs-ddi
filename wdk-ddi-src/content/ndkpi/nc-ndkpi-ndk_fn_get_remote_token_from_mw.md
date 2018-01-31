@@ -40,7 +40,7 @@ apiname:
 -	NdkGetRemoteTokenFromMw
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback
@@ -70,11 +70,9 @@ UINT32 NdkGetRemoteTokenFromMw(
 
 
 
-### -param *pNdkMw
+#### - *pNdkMw [in]
 
-
-
-
+A pointer to an NDK memory window (MW) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>).
 
 
 #### - pNdkMw [in]
@@ -99,9 +97,9 @@ The
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
  
 

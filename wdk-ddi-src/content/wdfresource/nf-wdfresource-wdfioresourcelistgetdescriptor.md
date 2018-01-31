@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioresourcelistgetdescriptor, WdfIoResourceListGetDescriptor method, WdfIoResourceListGetDescriptor, PFN_WDFIORESOURCELISTGETDESCRIPTOR, DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, kmdf.wdfioresourcelistgetdescriptor, wdfresource/WdfIoResourceListGetDescriptor
+ms.keywords: DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, wdfresource/WdfIoResourceListGetDescriptor, kmdf.wdfioresourcelistgetdescriptor, PFN_WDFIORESOURCELISTGETDESCRIPTOR, WdfIoResourceListGetDescriptor, WdfIoResourceListGetDescriptor method, wdf.wdfioresourcelistgetdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceListGetDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ PIO_RESOURCE_DESCRIPTOR WdfIoResourceListGetDescriptor(
 
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 
-### -param Index [in]
+#### - Index [in]
 
 A zero-based value that is used as an index into the logical configuration that <i>ResourceList</i> specifies.
 

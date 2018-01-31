@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f6944297-9aca-4912-a398-c5f3a3e8d4b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD interface [Imaging Devices], DeviceReset method, stiusd/IStiUSD::DeviceReset, DeviceReset method [Imaging Devices], IStiUSD interface, IStiUSD, DeviceReset method [Imaging Devices], image.istiusd_devicereset, IStiUSD::DeviceReset, DeviceReset, stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml
+ms.keywords: stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml, DeviceReset method [Imaging Devices], image.istiusd_devicereset, IStiUSD::DeviceReset, IStiUSD interface [Imaging Devices], DeviceReset method, DeviceReset method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::DeviceReset, DeviceReset, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.DeviceReset
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 

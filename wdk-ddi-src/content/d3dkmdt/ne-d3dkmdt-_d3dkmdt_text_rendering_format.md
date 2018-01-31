@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73ec5d3c-d8f6-4db9-b55f-317eab3b4a39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, display.d3dkmdt_text_rendering_format, D3DKMDT_TRF_UNINITIALIZED, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], _D3DKMDT_TEXT_RENDERING_FORMAT
+ms.keywords: "_D3DKMDT_TEXT_RENDERING_FORMAT, display.d3dkmdt_text_rendering_format, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, D3DKMDT_TRF_UNINITIALIZED, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum _D3DKMDT_TEXT_RENDERING_FORMAT {
 
 
 
-### -field D3DKMDT_TRF_UNINITIALIZED
+#### - D3DKMDT_TRF_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_TEXT_RENDERING_FORMAT has not yet been assigned a meaningful value.
 

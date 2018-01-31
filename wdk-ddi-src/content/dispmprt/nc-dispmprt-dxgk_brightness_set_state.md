@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiSetBrightnessState
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_SET_STATE callback
@@ -71,16 +71,14 @@ NTSTATUS* DxgkDdiSetBrightnessState(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param *BrightnessState
+#### - *BrightnessState [in]
 
-
-
-
+A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_state.md">DXGK_BRIGHTNESS_STATE</a> structure that indicates that the display miniport driver should enable the smooth brightness control for the integrated display panel.
 
 
 #### - BrightnessState [in]

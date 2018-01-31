@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3e1c4469-7ae2-4ac8-8dfe-ff8c4cae3d20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdffdoaddstaticchild, WdfFdoAddStaticChild method, WdfFdoAddStaticChild, PFN_WDFFDOADDSTATICCHILD, DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, wdffdo/WdfFdoAddStaticChild, kmdf.wdffdoaddstaticchild
+ms.keywords: kmdf.wdffdoaddstaticchild, PFN_WDFFDOADDSTATICCHILD, wdffdo/WdfFdoAddStaticChild, DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, wdf.wdffdoaddstaticchild, WdfFdoAddStaticChild, WdfFdoAddStaticChild method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoAddStaticChild
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS WdfFdoAddStaticChild(
 
 
 
-### -param Fdo [in]
+#### - Fdo [in]
 
 A handle to a framework device object that represents the parent device.
 
 
-### -param Child [in]
+#### - Child [in]
 
 A handle to a framework device object that represents the child device.
 

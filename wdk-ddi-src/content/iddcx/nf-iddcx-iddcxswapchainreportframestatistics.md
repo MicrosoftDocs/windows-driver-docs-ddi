@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0dd32160-93d4-4fb8-aed1-9267f38e9909
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxSwapChainReportFrameStatistics method [Display Devices], iddcx/IddCxSwapChainReportFrameStatistics, display.iddcxswapchainreportframestatistics, IddCxSwapChainReportFrameStatistics
+ms.keywords: IddCxSwapChainReportFrameStatistics method [Display Devices], IddCxSwapChainReportFrameStatistics, iddcx/IddCxSwapChainReportFrameStatistics, display.iddcxswapchainreportframestatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS IddCxSwapChainReportFrameStatistics(
 
 
 
-### -param SwapChainObject [in]
+#### - SwapChainObject [in]
 
 The swap-chain object whose current frame is being queried.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments to the function
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, storage.cdrom_exclusive_access, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], ntddcdrm/CDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS"
+ms.keywords: ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, storage.cdrom_exclusive_access, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, *PCDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _CDROM_EXCLUSIVE_ACCESS {
 
 
 
-### -field RequestType
+#### - RequestType
 
 An <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>-typed enumeration value that specifies the type of operation.
 
 
-### -field Flags
+#### - Flags
 
 A flag that specifies the characteristics of the operation. The meaning of the flag depends on the type of operation that <b>RequestType</b> specifies. The following table describes the possible values for <b>RequestType</b> and <b>Flags</b>:
 <table>

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ddd2cc89-1747-46e8-ade0-c4ccb10584f6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.outputpromptvalistwide, OutputPromptVaListWide, IDebugControl4, dbgeng/IDebugControl4::OutputPromptVaListWide, OutputPromptVaListWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], OutputPromptVaListWide method, IDebugControl4::OutputPromptVaListWide, OutputPromptVaListWide method [Windows Debugging]
+ms.keywords: IDebugControl4 interface [Windows Debugging], OutputPromptVaListWide method, OutputPromptVaListWide, OutputPromptVaListWide method [Windows Debugging], IDebugControl4, IDebugControl4::OutputPromptVaListWide, dbgeng/IDebugControl4::OutputPromptVaListWide, OutputPromptVaListWide method [Windows Debugging], IDebugControl4 interface, debugger.outputpromptvalistwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OutputPromptVaListWide(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies an output control that determines which of the client's output callbacks will receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-### -param Format [in, optional]
+#### - Format [in, optional]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -253,7 +253,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the output callbacks.
 
 
-### -param Args [in]
+#### - Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>. This method does not call <b>va_end</b>.
 
@@ -299,13 +299,13 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
 
  
 

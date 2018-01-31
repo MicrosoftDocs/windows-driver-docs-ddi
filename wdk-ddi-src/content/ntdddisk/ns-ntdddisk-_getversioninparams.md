@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dcbfa8d2-c2ea-43ae-9d77-ce95a430a514
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGETVERSIONINPARAMS, _GETVERSIONINPARAMS, *LPGETVERSIONINPARAMS, ntdddisk/LPGETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], LPGETVERSIONINPARAMS, ntdddisk/GETVERSIONINPARAMS, storage.getversioninparams, GETVERSIONINPARAMS structure [Storage Devices], PGETVERSIONINPARAMS structure pointer [Storage Devices], structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml, GETVERSIONINPARAMS, *PGETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS
+ms.keywords: ntdddisk/GETVERSIONINPARAMS, *LPGETVERSIONINPARAMS, *PGETVERSIONINPARAMS, GETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], LPGETVERSIONINPARAMS, _GETVERSIONINPARAMS, storage.getversioninparams, structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml, ntdddisk/LPGETVERSIONINPARAMS, PGETVERSIONINPARAMS structure pointer [Storage Devices], GETVERSIONINPARAMS structure [Storage Devices], PGETVERSIONINPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _GETVERSIONINPARAMS {
 
 
 
-### -field bVersion
+#### - bVersion
 
 Contains an integer that indicates the version number of the binary driver. 
 
 
-### -field bRevision
+#### - bRevision
 
 Contains an integer that indicates the revision number of the binary driver. 
 
 
-### -field bReserved
+#### - bReserved
 
 Reserved. 
 
 
-### -field bIDEDeviceMap
+#### - bIDEDeviceMap
 
 Contains the bitmap. The following table explains the meaning of the bitmap:
 <table>
@@ -178,7 +178,7 @@ The device is an ATAPI drive, and it is the subordinate device on the secondary 
 </table> 
 
 
-### -field fCapabilities
+#### - fCapabilities
 
 Contains the bitmask of driver capabilities. 
 <table>
@@ -219,7 +219,7 @@ The device supports SMART commands.
 </table> 
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved. 
 

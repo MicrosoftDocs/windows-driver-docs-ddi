@@ -76,14 +76,14 @@ VOID FilterReturnNetBufferLists(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param NetBufferLists [in]
+#### - NetBufferLists [in]
 
 A linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the filter driver indicated by calling the 
      <mshelp:link keywords="netvista.ndisfindicatereceivenetbufferlists" tabindex="0"><b>
@@ -92,7 +92,7 @@ A linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</
      <b>NdisFIndicateReceiveNetBufferLists</b>.
 
 
-### -param ReturnFlags [in]
+#### - ReturnFlags [in]
 
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero.This function supports the following flags: 
@@ -196,24 +196,24 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a>
+<mshelp:link keywords="netvista.ndisfindicatereceivenetbufferlists" tabindex="0"><b>
+   NdisFIndicateReceiveNetBufferLists</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.ndisfindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisFIndicateReceiveNetBufferLists</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
  
 

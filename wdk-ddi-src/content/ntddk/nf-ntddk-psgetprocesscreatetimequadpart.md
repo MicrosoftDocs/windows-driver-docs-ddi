@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d202b6d9-9964-4c95-acd3-f641e8f9d879
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetProcessCreateTimeQuadPart, k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], ntddk/PsGetProcessCreateTimeQuadPart, kernel.psgetprocesscreatetimequadpart
+ms.keywords: PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, kernel.psgetprocesscreatetimequadpart, ntddk/PsGetProcessCreateTimeQuadPart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ LONGLONG PsGetProcessCreateTimeQuadPart(
 
 
 
-### -param Process [in]
+#### - Process [in]
 
 A pointer to the EPROCESS structure that represents the process. Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a> and <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> routines to obtain a pointer to the EPROCESS structure for a process. 
 
@@ -83,9 +83,9 @@ A pointer to the EPROCESS structure that represents the process. Drivers can use
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
  
 

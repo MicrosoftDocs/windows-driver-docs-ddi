@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19e40a1b-fcbf-4510-a7c0-aa9a61f2f651
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PHBA_FCPSCSIENTRY, storage.hba_fcpscsientry, PHBA_FCPSCSIENTRY structure pointer [Storage Devices], HBA_FcpScsiEntry, hbaapi/PHBA_FCPSCSIENTRY, HBA_FCPSCSIENTRY structure [Storage Devices], HBA_FCPSCSIENTRY, HBA_FcpScsiEntry structure [Storage Devices], hbaapi/HBA_FcpScsiEntry, *PHBA_FCPSCSIENTRY, structs-Fibre_32b32b55-43e6-484c-a7fb-5c477864b735.xml
+ms.keywords: PHBA_FCPSCSIENTRY, PHBA_FCPSCSIENTRY structure pointer [Storage Devices], HBA_FcpScsiEntry, hbaapi/PHBA_FCPSCSIENTRY, HBA_FcpScsiEntry structure [Storage Devices], structs-Fibre_32b32b55-43e6-484c-a7fb-5c477864b735.xml, HBA_FCPSCSIENTRY, storage.hba_fcpscsientry, hbaapi/HBA_FcpScsiEntry, *PHBA_FCPSCSIENTRY, HBA_FCPSCSIENTRY structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FCPSCSIENTRY
 product: Windows
 targetos: Windows
-req.typenames: HBA_FCPSCSIENTRY, *PHBA_FCPSCSIENTRY
+req.typenames: "*PHBA_FCPSCSIENTRY, HBA_FCPSCSIENTRY"
 ---
 
 # HBA_FcpScsiEntry structure
@@ -68,12 +68,12 @@ typedef struct HBA_FcpScsiEntry {
 
 
 
-### -field ScsiId
+#### - ScsiId
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that holds information that the operating system uses to identify a SCSI device. 
 
 
-### -field FcpId
+#### - FcpId
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a> that uniquely identifies the device anywhere on the fibre channel network. 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e6eb5998-50ad-4ad9-8368-4cd29e4f7777
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspingetnextsiblingpin, KsPinGetNextSiblingPin function [Streaming Media Devices], avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, ks/KsPinGetNextSiblingPin, KsPinGetNextSiblingPin
+ms.keywords: KsPinGetNextSiblingPin function [Streaming Media Devices], stream.kspingetnextsiblingpin, avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, ks/KsPinGetNextSiblingPin, KsPinGetNextSiblingPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PKSPIN KsPinGetNextSiblingPin(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to find the next instantiated sibling pin.
 
@@ -89,9 +89,9 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
-
 <a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
+
+<a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 

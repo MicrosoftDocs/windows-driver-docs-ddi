@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4b3af4d-8bb2-42a4-a8d9-baa643a90418
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeTearDownVC, ifsk.rxceteardownvc, rxce/RxCeTearDownVC, rxref_12c4b02d-b629-4543-bf74-aeaa14f6f05d.xml, RxCeTearDownVC function [Installable File System Drivers]
+ms.keywords: ifsk.rxceteardownvc, rxce/RxCeTearDownVC, RxCeTearDownVC, RxCeTearDownVC function [Installable File System Drivers], rxref_12c4b02d-b629-4543-bf74-aeaa14f6f05d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeTearDownVC
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ NTSTATUS RxCeTearDownVC(
 
 
 
-### -param pVc [in]
+#### - pVc [in]
 
 A pointer to a handle for an virtual circuit structure to be torn down. 
 

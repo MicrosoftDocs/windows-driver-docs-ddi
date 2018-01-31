@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60221D44-79C0-4043-A4AF-1200C2F087F6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PEP_INFORMATION, pepfx/PPEP_INFORMATION, *PPEP_INFORMATION, pepfx/PEP_INFORMATION, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.pep_information, PPEP_INFORMATION"
+ms.keywords: pepfx/PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], *PPEP_INFORMATION, pepfx/PEP_INFORMATION, PPEP_INFORMATION, PEP_INFORMATION, kernel.pep_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _PEP_INFORMATION {
 
 
 
-### -field Version
+#### - Version
 
 The current version number for this structure. Set this member to PEP_INFORMATION_VERSION.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure. Set this member to <b>sizeof</b>(<b>PEP_INFORMATION</b>).
 
 
-### -field AcceptDeviceNotification
+#### - AcceptDeviceNotification
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a> callback routine. This member is required to point to a valid callback routine.
 
 
-### -field AcceptProcessorNotification
+#### - AcceptProcessorNotification
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a> callback routine. This member is optional and can be NULL if the PEP is not prepared to handle PPM notifications from PoFx.
 
 
-### -field AcceptAcpiNotification
+#### - AcceptAcpiNotification
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a> callback routine. This member is optional and can be NULL if the PEP is not prepared to handle ACPI notifications from PoFx.
 
@@ -109,13 +109,13 @@ The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregist
 
 <a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
 
  
 

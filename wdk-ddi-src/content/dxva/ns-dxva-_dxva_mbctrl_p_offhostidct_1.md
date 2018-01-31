@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53a474a8-6cbd-4fe0-84d2-bf557b86ed71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_MBctrl_P_OffHostIDCT_1, display.dxva_mbctrl_p_offhostidct_1, DXVA_MBctrl_P_OffHostIDCT_1, *LPDXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml, dxva/DXVA_MBctrl_P_OffHostIDCT_1"
+ms.keywords: DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], dxva/DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1, *LPDXVA_MBctrl_P_OffHostIDCT_1, _DXVA_MBctrl_P_OffHostIDCT_1, dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml, display.dxva_mbctrl_p_offhostidct_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _DXVA_MBctrl_P_OffHostIDCT_1 {
 
 
 
-### -field wMBaddress
+#### - wMBaddress
 
 Specifies the macroblock address of the current macroblock in raster scan order. For examples of macroblock addresses see <a href="https://msdn.microsoft.com/f04c5462-db7c-4917-b8ef-22a630c82994">macroblock addresses</a>.
 
 
-### -field wMBtype
+#### - wMBtype
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
 <table>
@@ -256,12 +256,12 @@ Indicates that the macroblock is coded as intra, and no motion vectors are used 
 </table> 
 
 
-### -field dwMB_SNL
+#### - dwMB_SNL
 
 Specifies the number of skipped macroblocks to be generated following the current macroblock and indicates the location of the residual difference data for the blocks of the current macroblock. This member contains two variables: <i>MBskipsFollowing</i> in the most significant 8 bits and <i>MBdataLocation</i> in the least significant 24 bits. <i>MBskipsFollowing</i> indicates the number of skipped macroblocks to be generated following the current macroblock. <i>MBdataLocation</i> is an index into the IDCT residual difference block data buffer. This index indicates the location of the residual difference data for the blocks of the current macroblock, expressed as a multiple of 32 bits.
 
 
-### -field wPatternCode
+#### - wPatternCode
 
 Indicates whether residual difference data is sent for each block in the macroblock.
 
@@ -270,7 +270,7 @@ Bit (11-<i>i</i>) of <b>wPatternCode</b> (where <i>i</i> is the index of the blo
 If the <b>bConfigSpatialResidInterleaved </b>member of <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> is 1, host-based residual differences are sent in a chroma-interleaved form matching that of the YUV pixel format in use. In this case, each Cb and spatially corresponding Cr pair of blocks is treated as a single residual difference data structure unit. This does not alter the value or meaning of <b>wPatternCode</b>, but it implies that both members of each pair of Cb and Cr data blocks are sent whenever either of these data blocks has the corresponding bit set in <b>wPatternCode</b>. If the bit in <b>wPatternCode</b> for a particular data block is zero, the corresponding residual difference data values must be sent as zero whenever this pairing requires sending a residual difference data block for a block with a <b>wPatternCode</b> bit equal to zero.
 
 
-### -field bNumCoef
+#### - bNumCoef
 
 Each value in the <b>bNumCoef</b> array indicates the number of coefficients in the residual difference data buffer for each block <i>i</i> of the macroblock. 
 
@@ -281,7 +281,7 @@ This member is used only when the <i>HostResidDiff</i> flag (bit 10 in <b>wMBtyp
 The purpose of <b>bNumCoef</b> is to indicate the quantity of data present for each block in the residual difference data buffer, expressed as the number of coefficients present. When the <b>bConfig4GroupedCoefs</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1, <b>bNumCoef</b> may contain either the actual number of coefficients sent for the block or that value rounded up to be a multiple of four. The data for these coefficients is found in the residual difference buffer in the same order.
 
 
-### -field MVector
+#### - MVector
 
 An array containing the value of the motion vector(s) for the macroblock, each represented using a <a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a> structure.
 
@@ -301,15 +301,15 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
 <a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
-
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
-
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 753BBA25-B0D5-4EBC-BA47-07ABEBCBA47D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldMaximum, ntddndis/NdisIPv6HeaderFieldUndefined, NdisIPv6HeaderFieldUndefined, PNDIS_IPV6_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldProtocol, netvista.ndis_ipv6_header_field, _NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldProtocol, ntddndis/NDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldMaximum
+ms.keywords: NDIS_IPV6_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD, ntddndis/PNDIS_IPV6_HEADER_FIELD, *PNDIS_IPV6_HEADER_FIELD, PNDIS_IPV6_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], NdisIPv6HeaderFieldMaximum, ntddndis/NdisIPv6HeaderFieldUndefined, ntddndis/NdisIPv6HeaderFieldProtocol, PNDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldUndefined, NdisIPv6HeaderFieldProtocol, _NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldMaximum, netvista.ndis_ipv6_header_field
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_IPV6_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD"
+req.typenames: NDIS_IPV6_HEADER_FIELD, *PNDIS_IPV6_HEADER_FIELD
 ---
 
 # _NDIS_IPV6_HEADER_FIELD enumeration
@@ -69,17 +69,17 @@ typedef enum _NDIS_IPV6_HEADER_FIELD {
 
 
 
-### -field NdisIPv6HeaderFieldUndefined
+#### - NdisIPv6HeaderFieldUndefined
 
 An undefined IPv6 header field.
 
 
-### -field NdisIPv6HeaderFieldProtocol
+#### - NdisIPv6HeaderFieldProtocol
 
 The IPv6 protocol field.
 
 
-### -field NdisIPv6HeaderFieldMaximum
+#### - NdisIPv6HeaderFieldMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

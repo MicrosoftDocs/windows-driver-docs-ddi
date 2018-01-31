@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e17c81a6-8c4e-41f0-bd98-f7a9a0f20893
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvDeviceCommand method, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand, IWiaMiniDrv::drvDeviceCommand, drvDeviceCommand, drvDeviceCommand method [Imaging Devices], IWiaMiniDrv interface, drvDeviceCommand method [Imaging Devices], image.iwiaminidrv_drvdevicecommand
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv::drvDeviceCommand, IWiaMiniDrv interface [Imaging Devices], drvDeviceCommand method, image.iwiaminidrv_drvdevicecommand, drvDeviceCommand method [Imaging Devices], IWiaMiniDrv interface, drvDeviceCommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, drvDeviceCommand method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvDeviceCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvDeviceCommand
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 

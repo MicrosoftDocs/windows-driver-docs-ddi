@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_CHANNEL_PROCESSING_COMPLETE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -77,12 +77,12 @@ typedef EVT_VMB_CHANNEL_PROCESSING_COMPLETE PFN_VMB_CHANNEL_PROCESSING_COMPLETE;
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The channel one which the packets are delivered.
 
 
-### -param PacketsProcessed [in]
+#### - PacketsProcessed [in]
 
 The number of packets which were delivered in this batch.
 

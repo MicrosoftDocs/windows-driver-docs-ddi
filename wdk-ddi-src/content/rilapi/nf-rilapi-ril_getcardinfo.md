@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d865993b-10cc-4fa2-a00f-34eb1d4e299b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getcardinfo, rilapi/RIL_GetCardInfo, RIL_GetCardInfo method [Network Drivers Starting with Windows Vista], RIL_GetCardInfo
+ms.keywords: RIL_GetCardInfo method [Network Drivers Starting with Windows Vista], RIL_GetCardInfo, netvista.ril_getcardinfo, rilapi/RIL_GetCardInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetCardInfo(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwSlotIndex
+#### - dwSlotIndex
 
 
 

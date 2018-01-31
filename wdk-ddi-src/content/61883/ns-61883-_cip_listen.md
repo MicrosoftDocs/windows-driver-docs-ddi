@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CIP_LISTEN, _CIP_LISTEN, PCIP_LISTEN structure pointer [Buses], PCIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, IEEE.cip_listen, *PCIP_LISTEN, CIP_LISTEN structure [Buses]
+ms.keywords: PCIP_LISTEN, *PCIP_LISTEN, 61883/PCIP_LISTEN, 61883/CIP_LISTEN, IEEE.cip_listen, _CIP_LISTEN, CIP_LISTEN structure [Buses], PCIP_LISTEN structure pointer [Buses], CIP_LISTEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _CIP_LISTEN {
 
 
 
-### -field hConnect
+#### - hConnect
 
 On input, the handle of the connection to begin isochronous reception.
 

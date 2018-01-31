@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fe732082-5aa1-4265-a76a-bd2e5b733557
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_POWER_COMPONENT_TYPE, _DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_MAX, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], DXGK_POWER_COMPONENT_MONITOR_REFRESH, DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_ENGINE, display.dxgk_power_component_type, d3dkmddi/DXGK_POWER_COMPONENT_TYPE
+ms.keywords: d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, DXGK_POWER_COMPONENT_MONITOR, DXGK_POWER_COMPONENT_MONITOR_REFRESH, display.dxgk_power_component_type, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_MAX, d3dkmddi/DXGK_POWER_COMPONENT_MAX, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], d3dkmddi/DXGK_POWER_COMPONENT_TYPE, _DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ typedef enum _DXGK_POWER_COMPONENT_TYPE {
 
 
 
-### -field DXGK_POWER_COMPONENT_ENGINE
+#### - DXGK_POWER_COMPONENT_ENGINE
 
 Indicates that the component is a  GPU engine.
 <div class="alert"><b>Note</b>  An engine can have only one power component assigned.</div><div> </div>
 
-### -field DXGK_POWER_COMPONENT_MONITOR
+#### - DXGK_POWER_COMPONENT_MONITOR
 
 Indicates a monitor that is connected to a VidPN target and can have its power managed. A typical component of this type is an LCD panel backlight.
 
 
-### -field DXGK_POWER_COMPONENT_MONITOR_REFRESH
+#### - DXGK_POWER_COMPONENT_MONITOR_REFRESH
 
 Indicates hardware that scans out from a VidPN source and generates a signal for a VidPN target.
 
@@ -96,7 +96,7 @@ A typical component of this type is a self-refreshing monitor, which can display
 
 
 
-### -field DXGK_POWER_COMPONENT_OTHER
+#### - DXGK_POWER_COMPONENT_OTHER
 
 Indicates a component for which the idle state is managed entirely by the display miniport driver. The DirectX graphics kernel subsystem passes this information to the <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">Power Management Framework</a>.
 
@@ -109,7 +109,7 @@ Indicates a component for which the idle state is managed entirely by the displa
 
 
 
-### -field DXGK_POWER_COMPONENT_MAX
+#### - DXGK_POWER_COMPONENT_MAX
 
 A maximum value that is used for testing purposes.
 

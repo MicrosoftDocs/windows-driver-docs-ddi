@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1039D4CB-11BA-4131-8CCE-7DCEE4B849D3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, CdromWritePerformance, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], storage.cdrom_performance_type, ntddcdrm/ CdromWritePerformance, CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE, _CDROM_PERFORMANCE_TYPE, CdromReadPerformance
+ms.keywords: storage.cdrom_performance_type, CdromWritePerformance, _CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE, ntddcdrm/PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE, CdromReadPerformance, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], PCDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, ntddcdrm/CdromReadPerformance, ntddcdrm/CDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_PERFORMANCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE
+req.typenames: "*PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE"
 ---
 
 # _CDROM_PERFORMANCE_TYPE enumeration
@@ -68,12 +68,12 @@ typedef enum _CDROM_PERFORMANCE_TYPE {
 
 
 
-### -field CdromReadPerformance
+#### - CdromReadPerformance
 
 Requests streaming read performance data.
 
 
-### -field CdromWritePerformance
+#### - CdromWritePerformance
 
 Requests streaming write performance data.
 

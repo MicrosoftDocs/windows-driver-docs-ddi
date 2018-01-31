@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 946e0206-7609-4dc7-91c2-a6aadad91751
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface
+ms.keywords: UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ void OnReaderCompletion(
 
 
 
-### -param pPipe [in]
+#### - pPipe [in]
 
 A pointer to the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface for the USB pipe on which the driver has enabled a continuous reader.
 
 
-### -param pMemory [in]
+#### - pMemory [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for a read buffer that contains data that was read from the USB pipe.
 
 
-### -param NumBytesTransferred [in]
+#### - NumBytesTransferred [in]
 
 The number of bytes that the read buffer contains.
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to driver-supplied context information that the driver provided when it previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff560395">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>.
 
@@ -137,9 +137,9 @@ For more information about the <b>OnReaderCompletion</b> callback function and U
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
+
+<a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a>
 
  
 

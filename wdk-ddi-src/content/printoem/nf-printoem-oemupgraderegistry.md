@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 780ae330-907e-4e77-a5f9-cb44811f289f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMUpgradeRegistry, print.oemupgraderegistry, printoem/OEMUpgradeRegistry, print_obsoletefunctions_5837e384-9879-4909-8dfa-f3c74486bde0.xml, OEMUpgradeRegistry function [Print Devices]
+ms.keywords: OEMUpgradeRegistry, OEMUpgradeRegistry function [Print Devices], printoem/OEMUpgradeRegistry, print.oemupgraderegistry, print_obsoletefunctions_5837e384-9879-4909-8dfa-f3c74486bde0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,15 +69,15 @@ BOOL APIENTRY OEMUpgradeRegistry(
 
 
 
-### -param dwLevel
+#### - dwLevel
 
 
 
-### -param pDriverUpgradeInfo
+#### - pDriverUpgradeInfo
 
 
 
-### -param pfnUpgrade
+#### - pfnUpgrade
 
 
 

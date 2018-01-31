@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 134d224a-d472-4d74-be3e-069dbb46a65c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvUnLockWiaDevice, drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, drvUnLockWiaDevice, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, image.iwiaminidrv_drvunlockwiadevice
+ms.keywords: wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice, IWiaMiniDrv, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, image.iwiaminidrv_drvunlockwiadevice, IWiaMiniDrv::drvUnLockWiaDevice, drvUnLockWiaDevice, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, drvUnLockWiaDevice method [Imaging Devices], drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvUnLockWiaDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -123,9 +123,9 @@ The minidriver's implementation of the <b>IWiaMiniDrv::drvUnLockWiaDevice</b> me
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544995">IWiaMiniDrv::drvLockWiaDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate
+ms.keywords: iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate, display.iddcxadapterupdatemaxdisplaypipelinerate, IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS IddCxAdapterUpdateMaxDisplayPipelineRate(
 
 
 
-### -param hOsAdapterContext [in]
+#### - hOsAdapterContext [in]
 
 This is the OS context handle for this adapter returned by the <b>IddCxStart</b> call
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments to the function
 

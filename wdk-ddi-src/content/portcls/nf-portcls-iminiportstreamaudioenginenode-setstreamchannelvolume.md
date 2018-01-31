@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0110979E-8C57-4394-B43E-BCC7B178A0AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelVolume method, SetStreamChannelVolume method [Audio Devices]
+ms.keywords: IMiniportStreamAudioEngineNode, SetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamChannelVolume method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelVolume method, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, IMiniportStreamAudioEngineNode::SetStreamChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.SetStreamChannelVolume
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::SetStreamChannelVolume method
@@ -70,22 +70,22 @@ NTSTATUS SetStreamChannelVolume(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The audio stream channel.
 
 
-### -param TargetVolume [in]
+#### - TargetVolume [in]
 
 The volume level to be applied to the audio stream.
 
 
-### -param CurveType [in]
+#### - CurveType [in]
 
 The curve algorithm that will be used  to set the volume level. The curve types are represented by the members of the <a href="..\ksmedia\ne-ksmedia-audio_curve_type.md">AUDIO_CURVE_TYPE</a> enum.
 
 
-### -param CurveDuration [in]
+#### - CurveDuration [in]
 
 The length of time over which the curve algorithm will be applied.
 

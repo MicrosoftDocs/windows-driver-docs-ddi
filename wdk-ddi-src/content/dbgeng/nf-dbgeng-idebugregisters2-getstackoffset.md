@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7368a2d6-fea3-411e-85d9-c09764bb3b8e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters::GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, GetStackOffset method [Windows Debugging], GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters interface [Windows Debugging], GetStackOffset method, IDebugRegisters2::GetStackOffset, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method, dbgeng/IDebugRegisters2::GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, debugger.getstackoffset, IDebugRegisters2
+ms.keywords: debugger.getstackoffset, GetStackOffset, IDebugRegisters2, GetStackOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters::GetStackOffset, IDebugRegisters interface [Windows Debugging], GetStackOffset method, dbgeng/IDebugRegisters2::GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method, GetStackOffset method [Windows Debugging], IDebugRegisters2::GetStackOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetStackOffset(
 
 
 
-### -param Offset [out]
+#### - Offset [out]
 
 Receives the location in the process's virtual address space of the current thread's current stack location.
 

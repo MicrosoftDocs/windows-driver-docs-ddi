@@ -72,12 +72,12 @@ VOID CamNewVideoFrame(
 
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param FrameContext
+#### - FrameContext
 
 Pointer to the camera minidriver's frame context.
 

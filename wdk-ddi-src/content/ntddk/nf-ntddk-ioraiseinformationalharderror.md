@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14e9a28c-65cc-4e90-8220-85f1981c8cd7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoRaiseInformationalHardError, IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], IoRaiseInformationalHardError, kernel.ioraiseinformationalharderror, k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml
+ms.keywords: k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml, IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], ntddk/IoRaiseInformationalHardError, kernel.ioraiseinformationalharderror, IoRaiseInformationalHardError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN IoRaiseInformationalHardError(
 
 
 
-### -param ErrorStatus [in]
+#### - ErrorStatus [in]
 
 The error status code (IO_ERR_<i>XXX</i>). 
 
 
-### -param String [in, optional]
+#### - String [in, optional]
 
 A pointer to a Unicode string, which provides additional information about the error. Some NT status codes require a string parameter, such as a file or directory name. If the specified <i>ErrorStatus</i> value does not require a string parameter, set <i>String</i> to <b>NULL</b>.
 
 
-### -param Thread [in, optional]
+#### - Thread [in, optional]
 
 A pointer to the thread whose IRP was failed due to the error specified by the <i>ErrorStatus</i> parameter.
 
@@ -110,11 +110,11 @@ Starting with Windows Vista, if the routine is called from a thread in session 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
-
 <a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 <a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
 
  
 

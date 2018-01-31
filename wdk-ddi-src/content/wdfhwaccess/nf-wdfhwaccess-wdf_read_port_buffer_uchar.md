@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1A205DD3-FCE2-4EA1-A6B3-CE60300EC651
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_PORT_BUFFER_UCHAR function, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR, WDF_READ_PORT_BUFFER_UCHAR, wdf.wdf_read_port_buffer_uchar
+ms.keywords: WDF_READ_PORT_BUFFER_UCHAR function, WDF_READ_PORT_BUFFER_UCHAR, wdf.wdf_read_port_buffer_uchar, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WDF_READ_PORT_BUFFER_UCHAR(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a buffer into which an array of UCHAR values is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of bytes to be read into the buffer.
 

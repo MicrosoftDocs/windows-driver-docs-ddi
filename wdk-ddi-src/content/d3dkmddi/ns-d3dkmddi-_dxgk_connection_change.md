@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0B0D640C-3E4B-4DE0-AA11-C751F210C77A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], DXGK_CONNECTION_CHANGE structure [Display Devices], DXGK_CONNECTION_CHANGE, _DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change, PDXGK_CONNECTION_CHANGE
+ms.keywords: "*PDXGK_CONNECTION_CHANGE, d3dkmddi/DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], _DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], d3dkmddi/PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_CONNECTION_CHANGE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE
+req.typenames: "*PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE"
 ---
 
 # _DXGK_CONNECTION_CHANGE structure
@@ -83,7 +83,7 @@ typedef struct _DXGK_CONNECTION_CHANGE {
 
 
 
-### -field MonitorConnect
+#### - MonitorConnect
 
 
 
@@ -97,7 +97,7 @@ This is the video output technology of the monitor which has been connected.  In
  
 
 
-### -field TargetConnect
+#### - TargetConnect
 
 
 
@@ -121,7 +121,7 @@ The target id for which the change is being reported.  This target id must have 
  
 
 
-### -field TargetJoin
+#### - TargetJoin
 
 
 
@@ -145,22 +145,22 @@ The target id for which the change is being reported.  This target id must have 
  
 
 
-### -field ConnectionChangeId
+#### - ConnectionChangeId
 
 The per target unique id for the transition being reported.  This value must be unique across all targets on the adapter and must be monotonically increasing for each change reported.
 
 
-### -field TargetId
+#### - TargetId
 
 The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.
 
 
-### -field ConnectionStatus
+#### - ConnectionStatus
 
 The status of the connection.
 
 
-### -field Reserved
+#### - Reserved
 
 This value is reserved for system use.
 

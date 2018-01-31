@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c392a13-4db4-4b22-aacf-4450eb1e191c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], netvista.offload_security_association, 216offload_3c6a958b-81b2-4f18-b974-b0669b6294e1.xml, ntddndis/OFFLOAD_SECURITY_ASSOCIATION, POFFLOAD_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], POFFLOAD_SECURITY_ASSOCIATION, ntddndis/POFFLOAD_SECURITY_ASSOCIATION, _OFFLOAD_SECURITY_ASSOCIATION"
+ms.keywords: "_OFFLOAD_SECURITY_ASSOCIATION, POFFLOAD_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], ntddndis/OFFLOAD_SECURITY_ASSOCIATION, 216offload_3c6a958b-81b2-4f18-b974-b0669b6294e1.xml, OFFLOAD_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], ntddndis/POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION, POFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION, netvista.offload_security_association"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_SECURITY_ASSOCIATION
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ---
 
 # _OFFLOAD_SECURITY_ASSOCIATION structure
@@ -71,7 +71,7 @@ typedef struct _OFFLOAD_SECURITY_ASSOCIATION {
 
 
 
-### -field Operation
+#### - Operation
 
 The Internet Protocol security (IPsec) operation for which the SA is to be used. The following
      operations are supported:
@@ -90,24 +90,24 @@ The SA will be used for authentication (integrity checking).
 The SA will be used for encryption/decryption (confidentiality).
 
 
-### -field SPI
+#### - SPI
 
 The Security Parameters Index (SPI) for the SA.
 
 
-### -field IntegrityAlgo
+#### - IntegrityAlgo
 
 The integrity (authentication) algorithm for the SA, formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a> structure.
 
 
-### -field ConfAlgo
+#### - ConfAlgo
 
 The confidentiality (encryption/decryption) algorithm for the SA, formatted as an
      OFFLOAD_ALGO_INFO structure.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved.
 

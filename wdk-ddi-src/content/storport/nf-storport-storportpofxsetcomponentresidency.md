@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 78DFB17E-5351-419A-9B9B-8CBCD7548910
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency, StorPortPoFxSetComponentResidency
+ms.keywords: StorPortPoFxSetComponentResidency routine [Storage Devices], storport/StorPortPoFxSetComponentResidency, storage.storportpofxsetcomponentresidency, StorPortPoFxSetComponentResidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ ULONG StorPortPoFxSetComponentResidency(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
 
 
-### -param Address [in, optional]
+#### - Address [in, optional]
 
 The address of a storage device unit. This parameter is <b>NULL</b> when setting the residency of  a storage adapter component.
 
 
-### -param Component [in]
+#### - Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Residency [in]
+#### - Residency [in]
 
 The estimated residency time, in 100-nanosecond units. This parameter is a hint to power management framework (PoFx) about how long the component is likely to remain idle after a transition from the active condition to the idle condition.
 

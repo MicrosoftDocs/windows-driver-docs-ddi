@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 333f54e8-738e-4d1f-8fd7-93f282d9b9d8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtCreateKey, kernel.zwcreatekey, wdm/NtCreateKey, ZwCreateKey, k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, wdm/ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture], wdm/ZwCreateKey, k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, wdm/NtCreateKey, kernel.zwcreatekey, NtCreateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS ZwCreateKey(
 
 
 
-### -param KeyHandle [out]
+#### - KeyHandle [out]
 
 Pointer to a HANDLE variable that receives a handle to the key.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify one or more of the following access rights, which are specific to object directories:
 <table>
@@ -199,22 +199,22 @@ STANDARD_RIGHTS_ALL, KEY_QUERY_VALUE, KEY_SET_VALUE, KEY_CREATE_SUB_KEY, KEY_ENU
 </table> 
 
 
-### -param ObjectAttributes [in]
+#### - ObjectAttributes [in]
 
 Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 
-### -param TitleIndex
+#### - TitleIndex
 
 Device and intermediate drivers set this parameter to zero. 
 
 
-### -param Class [in, optional]
+#### - Class [in, optional]
 
 Pointer to a Unicode string that contains the key's object class. This information is used by the configuration manager. 
 
 
-### -param CreateOptions [in]
+#### - CreateOptions [in]
 
 Specifies the options to apply when creating or opening a key, specified as a compatible combination of the following flags.
 <table>
@@ -265,7 +265,7 @@ Key should be created or opened with special privileges that allow backup and re
 </table> 
 
 
-### -param Disposition [out, optional]
+#### - Disposition [out, optional]
 
 Pointer to a variable that receives a value indicating whether a new key was created or an existing one opened.
 <table>
@@ -337,27 +337,27 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\ntifs\nf-ntifs-zwnotifychangekey.md">ZwNotifyChangeKey</a>
 

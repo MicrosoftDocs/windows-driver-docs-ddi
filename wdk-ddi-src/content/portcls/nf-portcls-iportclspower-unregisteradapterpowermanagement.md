@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4c8734b1-d7f5-476b-a85f-1d3f4df888b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, portcls/IPortClsPower::UnregisterAdapterPowerManagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower, UnregisterAdapterPowerManagement, audio.iportclspower_unregisteradapterpowermanagement, IPortClsPower::UnregisterAdapterPowerManagement, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method
+ms.keywords: UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower, IPortClsPower::UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, UnregisterAdapterPowerManagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method, audio.iportclspower_unregisteradapterpowermanagement, portcls/IPortClsPower::UnregisterAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsPower.UnregisterAdapterPowerManagement
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsPower::UnregisterAdapterPowerManagement method
@@ -94,9 +94,9 @@ The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
-
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 

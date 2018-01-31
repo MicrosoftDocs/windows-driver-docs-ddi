@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 228b95b0-1087-422f-a995-809743c6103e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetButtonCaps routine [Human Input Devices], HidP_GetButtonCaps, hid.hidp_getbuttoncaps, hidpi/HidP_GetButtonCaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml
+ms.keywords: hid.hidp_getbuttoncaps, HidP_GetButtonCaps, hidpi/HidP_GetButtonCaps, HidP_GetButtonCaps routine [Human Input Devices], hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS __stdcall HidP_GetButtonCaps(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param ButtonCaps [out]
+#### - ButtonCaps [out]
 
 Pointer to a caller-allocated buffer that the routine uses to return a button capability array for the specified report type.
 
 
-### -param ButtonCapsLength [in, out]
+#### - ButtonCapsLength [in, out]
 
 Specifies the length on input, in array elements, of the buffer provided at <i>ButtonCaps</i>. On output, this parameter is set to the actual number of elements that the routine returns.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a top-level collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
@@ -145,9 +145,9 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 <a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 

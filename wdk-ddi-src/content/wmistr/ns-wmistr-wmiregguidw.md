@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9f240ea-5689-4d33-8da7-b1cb7e66bc5b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WMIREGGUIDW structure [Kernel-Mode Driver Architecture], wmistr/WMIREGGUID, WMIREGGUID, kernel.wmiregguid, WMIREGGUIDW, PWMIREGGUID, wmistr/PWMIREGGUID, PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml, *PWMIREGGUIDW, WMIREGGUID structure [Kernel-Mode Driver Architecture]
+ms.keywords: PWMIREGGUID, wmistr/WMIREGGUID, wmistr/PWMIREGGUID, WMIREGGUIDW structure [Kernel-Mode Driver Architecture], WMIREGGUIDW, *PWMIREGGUIDW, PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], WMIREGGUID, kernel.wmiregguid, WMIREGGUID structure [Kernel-Mode Driver Architecture], kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WMIREGGUID
 product: Windows
 targetos: Windows
-req.typenames: "*PWMIREGGUIDW, WMIREGGUIDW"
+req.typenames: WMIREGGUIDW, *PWMIREGGUIDW
 req.product: Windows 10 or later.
 ---
 
@@ -101,12 +101,12 @@ typedef struct {
  
 
 
-### -field Guid
+#### - Guid
 
 Specifies the GUID that represents the block to register or update.
 
 
-### -field Flags
+#### - Flags
 
 Indicates characteristics of the block to register or update. 
 
@@ -161,7 +161,7 @@ The block can be written only to a log file and can be accessed only through use
 The GUID acts as the control GUID for enabling or disabling the trace GUIDs associated with it in the MOF file. This flag is valid only if WMIREG_FLAG_TRACED_GUID is also set. Only NT kernel-mode data providers set this flag.
 
 
-### -field InstanceCount
+#### - InstanceCount
 
 Specifies the number of static instance names to be defined for this block. If the block is being registered with dynamic instance names, WMI ignores <b>InstanceCount</b>.
 
@@ -197,11 +197,11 @@ A driver can register or update a block with either static or dynamic instance n
 
 ## -see-also
 
+<a href="..\wmistr\ns-wmistr-wmireginfow.md">WMIREGINFO</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
-
-<a href="..\wmistr\ns-wmistr-wmireginfow.md">WMIREGINFO</a>
 
  
 

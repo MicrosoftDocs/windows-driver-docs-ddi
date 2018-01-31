@@ -70,7 +70,7 @@ VOID KStrItemFreeCallback(
 
 
 
-### -param CreateItem [in]
+#### - CreateItem [in]
 
 Specifies a create item that was previously allocated by <a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>.
 

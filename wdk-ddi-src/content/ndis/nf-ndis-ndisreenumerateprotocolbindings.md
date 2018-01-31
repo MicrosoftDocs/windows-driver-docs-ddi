@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e47d812b-2fbb-44c4-a441-bd30ae89a5eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReEnumerateProtocolBindings, protocol_ndis_functions_ref_097465b9-b6e9-435a-8ac4-6d302363e946.xml, ndis/NdisReEnumerateProtocolBindings, NdisReEnumerateProtocolBindings function [Network Drivers Starting with Windows Vista], netvista.ndisreenumerateprotocolbindings
+ms.keywords: NdisReEnumerateProtocolBindings, NdisReEnumerateProtocolBindings function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_097465b9-b6e9-435a-8ac4-6d302363e946.xml, netvista.ndisreenumerateprotocolbindings, ndis/NdisReEnumerateProtocolBindings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisReEnumerateProtocolBindings(
 
 
 
-### -param NdisProtocolHandle [in]
+#### - NdisProtocolHandle [in]
 
 A handle representing the calling protocol driver. The driver obtained this handle with a previous
      call to the 
@@ -123,15 +123,15 @@ An intermediate driver should call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 <a href="https://msdn.microsoft.com/b2b2a15d-4183-4022-bb08-2d97aa26d4b1">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
  
 

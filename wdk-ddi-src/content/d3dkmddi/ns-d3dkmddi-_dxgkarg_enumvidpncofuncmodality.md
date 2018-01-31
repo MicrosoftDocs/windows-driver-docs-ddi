@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], DXGKARG_ENUMVIDPNCOFUNCMODALITY, DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, _DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality
+ms.keywords: DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, _DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality, DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKARG_ENUMVIDPNCOFUNCMODALITY {
 
 
 
-### -field hConstrainingVidPn
+#### - hConstrainingVidPn
 
 A handle to the VidPn object for which the cofunctional modes are being requested.
 
 
-### -field EnumPivotType
+#### - EnumPivotType
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_enumcofuncmodality_pivot_type.md">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a> enumerator that supplies the enumeration pivot type.
 
 
-### -field EnumPivot
+#### - EnumPivot
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a> structure.
 

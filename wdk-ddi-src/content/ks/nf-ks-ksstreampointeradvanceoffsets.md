@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0377371b-b755-4473-a449-9a85e1ca456c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreampointeradvanceoffsets, KsStreamPointerAdvanceOffsets, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, ks/KsStreamPointerAdvanceOffsets
+ms.keywords: KsStreamPointerAdvanceOffsets, ks/KsStreamPointerAdvanceOffsets, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, stream.ksstreampointeradvanceoffsets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,26 +71,26 @@ NTSTATUS KsStreamPointerAdvanceOffsets(
 
 
 
-### -param StreamPointer [in]
+#### - StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer for which to advance the offsets. <i>StreamPointer</i> should be in the locked state when this function is called.
 
 
-### -param InUsed [in]
+#### - InUsed [in]
 
 The number of bytes to advance the input pointer of this stream pointer. 
 
 (StreamPointer -&gt; OffsetIn)
 
 
-### -param OutUsed [in]
+#### - OutUsed [in]
 
 The number of bytes to advance the output pointer of this stream pointer 
 
 (StreamPointer -&gt; OffsetOut)
 
 
-### -param Eject [in]
+#### - Eject [in]
 
 This parameter indicates whether the stream pointer should be advanced to the next data frame If this parameter is set to <b>TRUE</b>, AVStream advances the stream pointer regardless of whether advancing the offsets causes the stream pointer to point to the end of a frame.
 
@@ -115,11 +115,11 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 <a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
 
 <a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
 

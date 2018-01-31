@@ -77,37 +77,37 @@ NTSTATUS CamConfigureEx(
 
 
 
-### -param BusDeviceObject
+#### - BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param Interface
+#### - Interface
 
 Pointer to the <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 
-### -param ConfigurationDescriptor
+#### - ConfigurationDescriptor
 
 Pointer to the <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
 
 
-### -param PipeConfigListSize
+#### - PipeConfigListSize
 
 Specifies the number of elements in the <i>PipeConfig</i> array.
 
 
-### -param PipeConfig
+#### - PipeConfig
 
 Pointer to a <a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a> array describing the association between pipes and streams.
 
 
-### -param DeviceDescriptor
+#### - DeviceDescriptor
 
 Pointer to the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> for this device.
 
@@ -136,13 +136,13 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
-
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+<a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 

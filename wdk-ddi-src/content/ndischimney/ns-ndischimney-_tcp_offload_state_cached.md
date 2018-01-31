@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 953154eb-e6f3-4013-a68f-1a358953c7ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED, _TCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml, netvista.tcp_offload_state_cached, ndischimney/TCP_OFFLOAD_STATE_CACHED
+ms.keywords: ndischimney/TCP_OFFLOAD_STATE_CACHED, netvista.tcp_offload_state_cached, PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml, _TCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_CACHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TCP_OFFLOAD_STATE_CACHED
 product: Windows
 targetos: Windows
-req.typenames: TCP_OFFLOAD_STATE_CACHED, *PTCP_OFFLOAD_STATE_CACHED
+req.typenames: "*PTCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED"
 ---
 
 # _TCP_OFFLOAD_STATE_CACHED structure
@@ -81,7 +81,7 @@ typedef struct _TCP_OFFLOAD_STATE_CACHED {
 
 
 
-### -field Header
+#### - Header
 
 An 
      <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
@@ -92,7 +92,7 @@ An
      <b>Header</b> is reserved.
 
 
-### -field Flags
+#### - Flags
 
 A bitmask that can be set to zero or any of the following flags, combined with bitwise OR: 
      
@@ -134,12 +134,12 @@ The host stack sets this flag to indicate that the default receive window size (
        the offload target must advertise a new receive window size to the peer.
 
 
-### -field InitialRcvWnd
+#### - InitialRcvWnd
 
 The default receive window (from socket option SO_RCVBUF).
 
 
-### -field RcvIndicationSize
+#### - RcvIndicationSize
 
 When non-<b>NULL</b>, the optimum number of data bytes that the offload target should supply in a single
      call to the 
@@ -159,25 +159,25 @@ When <b>NULL</b>,
      <i>NdisTcpOffloadReceiveHandler</i> function.
 
 
-### -field KaProbeCount
+#### - KaProbeCount
 
 The number of keepalive probes that the offload target should send to determine whether a TCP
      connection is intact (see RFC 1122).
 
 
-### -field KaTimeout
+#### - KaTimeout
 
 This member specifies, in clock ticks, the timeout interval for inactivity before sending a
      keepalive probe (see RFC 1122).
 
 
-### -field KaInterval
+#### - KaInterval
 
 This member specifies, in clock ticks, the timeout after which to retransmit a keepalive frame if
      no response is received to a keepalive probe (see RFC 1122).
 
 
-### -field MaxRT
+#### - MaxRT
 
 This member specifies, in clock ticks, the maximum time that the offload target should spend
      retransmitting a segment. If the value of 
@@ -196,7 +196,7 @@ This member specifies, in clock ticks, the maximum time that the offload target 
      the current TCP segment.
 
 
-### -field FlowLabel
+#### - FlowLabel
 
 This member marks host-labeled packets for special handling by intervening routers--for example,
      nondefault QoS or "real-time" service (see RFC 2460). This variable is set through a socket option and
@@ -204,7 +204,7 @@ This member marks host-labeled packets for special handling by intervening route
      connection is over IPv6.
 
 
-### -field TtlOrHopLimit
+#### - TtlOrHopLimit
 
 If the TCP connection is over IPv4, then this member specifies the time to live (see RFC 791).
      This variable is set through a socket option and can vary during the lifetime of the TCP connection. 
@@ -215,7 +215,7 @@ If the TCP connection is over IPv6, then this member specifies the number of rou
      lifetime of the TCP connection.
 
 
-### -field TosOrTrafficClass
+#### - TosOrTrafficClass
 
 If the TCP connection is over IPv4, then this member specifies the type of service for routing a
      packet (see RFC 2474). This variable is set through a socket option and can vary during the lifetime of
@@ -228,7 +228,7 @@ If the TCP connection is over IPv6, then this member prioritizes values for pack
      connection.
 
 
-### -field UserPriority
+#### - UserPriority
 
 A 3-bit priority value. If the offload target supports 802.1p packet information, it must insert
      this priority value into the 
@@ -280,15 +280,15 @@ Reset that connection's delegated KeepaliveTimeoutDelta variable when the host s
 
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

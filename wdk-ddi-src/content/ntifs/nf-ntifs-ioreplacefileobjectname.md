@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1550a35f-2733-4ee8-9715-d82f96eb5da7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_3e18058f-46a0-4345-9d67-2e211bbb84a8.xml, IoReplaceFileObjectName routine [Installable File System Drivers], ntifs/IoReplaceFileObjectName, ifsk.ioreplacefileobjectname, IoReplaceFileObjectName
+ms.keywords: ioref_3e18058f-46a0-4345-9d67-2e211bbb84a8.xml, ifsk.ioreplacefileobjectname, IoReplaceFileObjectName, ntifs/IoReplaceFileObjectName, IoReplaceFileObjectName routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoReplaceFileObjectName(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to the file object whose file name is being replaced. 
 
 
-### -param NewFileName [in]
+#### - NewFileName [in]
 
 Pointer to the string buffer for the new name for the file object.
 
 
-### -param FileNameLength [in]
+#### - FileNameLength [in]
 
 Length, in bytes, of the new name for the file object. 
 

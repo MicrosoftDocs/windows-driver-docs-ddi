@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7f8a6c5-15d5-4a24-a351-4fa5d6c72fbd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_894dbc3c-af92-4916-8205-539062946dbe.xml, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], wdm/ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite, kernel.exacquireresourceexclusivelite
+ms.keywords: kernel.exacquireresourceexclusivelite, k102_894dbc3c-af92-4916-8205-539062946dbe.xml, wdm/ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN ExAcquireResourceExclusiveLite(
 
 
 
-### -param Resource [in, out]
+#### - Resource [in, out]
 
 A pointer to the resource to acquire.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired. 
 
@@ -115,21 +115,21 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
-
-<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
-
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+<a href="..\wdm\nf-wdm-exreinitializeresourcelite.md">ExReinitializeResourceLite</a>
 
 <a href="..\wdm\nf-wdm-exgetsharedwaitercount.md">ExGetSharedWaiterCount</a>
 
-<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
-
-<a href="..\wdm\nf-wdm-exreinitializeresourcelite.md">ExReinitializeResourceLite</a>
+<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
 
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
+
+<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
+
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
 
  
 

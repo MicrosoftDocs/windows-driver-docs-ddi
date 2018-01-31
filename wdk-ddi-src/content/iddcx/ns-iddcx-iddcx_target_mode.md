@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 10bb23fa-ff1e-4bda-ba64-59a19da5f87e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_TARGET_MODE, display.iddcx_target_mode, iddcx/IDDCX_TARGET_MODE, IDDCX_TARGET_MODE structure [Display Devices]
+ms.keywords: IDDCX_TARGET_MODE structure [Display Devices], iddcx/IDDCX_TARGET_MODE, IDDCX_TARGET_MODE, display.iddcx_target_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,20 +71,20 @@ typedef struct IDDCX_TARGET_MODE {
 
 
 
-### -field Size
+#### - Size
 
 
                      Total size of the structure.
                  
 
 
-### -field TargetVideoSignalInfo
+#### - TargetVideoSignalInfo
 
 The details of the target mode signal. 
                  
 
 
-### -field RequiredBandwidth
+#### - RequiredBandwidth
 
 The display pipeline bandwidth required for this mode.
                  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4679415f-63d2-48b5-a6d4-edc54e8b3b0c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeQueryAuthenticationIdToken, ifsk.sequeryauthenticationidtoken, ntifs/SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml
+ms.keywords: seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml, ntifs/SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], ifsk.sequeryauthenticationidtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS SeQueryAuthenticationIdToken(
 
 
 
-### -param Token [in]
+#### - Token [in]
 
 Pointer to an access token.
 
 
-### -param AuthenticationId [out]
+#### - AuthenticationId [out]
 
 Authentication ID of the access token. (An Authentication ID is the locally unique identifier, or <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>, that is assigned to the logon session that the access token represents. There can be many tokens representing a single logon session.) 
 
@@ -110,19 +110,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
 
 <a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
-
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
  
 

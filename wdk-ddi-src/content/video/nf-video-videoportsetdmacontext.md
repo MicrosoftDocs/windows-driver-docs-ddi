@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f357612-c07d-42fe-a49f-59acec80a8bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetDmaContext function [Display Devices], VideoPortSetDmaContext, video/VideoPortSetDmaContext, display.videoportsetdmacontext, VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml
+ms.keywords: display.videoportsetdmacontext, VideoPortSetDmaContext, VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, video/VideoPortSetDmaContext, VideoPortSetDmaContext function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortSetDmaContext(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pDma [out]
+#### - pDma [out]
 
 Pointer to a DMA handle. 
 
 
-### -param InstanceContext [in]
+#### - InstanceContext [in]
 
 Pointer to the DMA context to set.
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WheaErrSrcTypeIPFMCA, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeMax, WheaErrSrcTypeSCIGeneric, *PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeGeneric, _WHEA_ERROR_SOURCE_TYPE, ntddk/PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeCPE, ntddk/WheaErrSrcTypeCMC, WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypeGeneric, ntddk/WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeMCE, WheaErrSrcTypeINIT, ntddk/WheaErrSrcTypeNMI, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeMCE, WheaErrSrcTypeIPFCMC, WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeMax, whea.whea_error_source_type, ntddk/WheaErrSrcTypeBOOT, PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeIPFMCA, WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeCPE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications]
+ms.keywords: ntddk/WheaErrSrcTypeCMC, _WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeIPFCPE, PWHEA_ERROR_SOURCE_TYPE, ntddk/WHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeSCIGeneric, ntddk/WheaErrSrcTypeCPE, WheaErrSrcTypeGeneric, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeGeneric, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypePCIe, WheaErrSrcTypeMax, WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeCMC, WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeBOOT, WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypeMCE, whea.whea_error_source_type, WheaErrSrcTypeSCIGeneric, *PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeMax, WheaErrSrcTypeCPE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WheaErrSrcTypeMCE, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeINIT, WheaErrSrcTypeNMI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_SOURCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE"
+req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
 ---
 
 # _WHEA_ERROR_SOURCE_TYPE enumeration
@@ -79,62 +79,62 @@ typedef enum _WHEA_ERROR_SOURCE_TYPE {
 
 
 
-### -field WheaErrSrcTypeMCE
+#### - WheaErrSrcTypeMCE
 
 A machine check exception (MCE).
 
 
-### -field WheaErrSrcTypeCMC
+#### - WheaErrSrcTypeCMC
 
 A corrected machine check (CMC).
 
 
-### -field WheaErrSrcTypeCPE
+#### - WheaErrSrcTypeCPE
 
 A corrected platform error (CPE).
 
 
-### -field WheaErrSrcTypeNMI
+#### - WheaErrSrcTypeNMI
 
 A nonmaskable interrupt (NMI).
 
 
-### -field WheaErrSrcTypePCIe
+#### - WheaErrSrcTypePCIe
 
 A PCI Express (PCIe) error.
 
 
-### -field WheaErrSrcTypeGeneric
+#### - WheaErrSrcTypeGeneric
 
 A type of error source that does not conform to any of the other WHEA_ERROR_SOURCE_TYPE enumeration values.
 
 
-### -field WheaErrSrcTypeINIT
+#### - WheaErrSrcTypeINIT
 
 An Itanium processor INIT error.
 
 
-### -field WheaErrSrcTypeBOOT
+#### - WheaErrSrcTypeBOOT
 
 A boot error source.
 
 
-### -field WheaErrSrcTypeSCIGeneric
+#### - WheaErrSrcTypeSCIGeneric
 
 A service control interrupt (SCI).
 
 
-### -field WheaErrSrcTypeIPFMCA
+#### - WheaErrSrcTypeIPFMCA
 
 An Itanium processor machine check abort (MCA).
 
 
-### -field WheaErrSrcTypeIPFCMC
+#### - WheaErrSrcTypeIPFCMC
 
 An Itanium processor corrected machine check (CMC).
 
 
-### -field WheaErrSrcTypeIPFCPE
+#### - WheaErrSrcTypeIPFCPE
 
 An Itanium processor corrected platform error (CPE).
 
@@ -147,7 +147,7 @@ An Itanium processor corrected platform error (CPE).
 
 
 
-### -field WheaErrSrcTypeMax
+#### - WheaErrSrcTypeMax
 
 The maximum number of error source types that can report hardware errors.
 

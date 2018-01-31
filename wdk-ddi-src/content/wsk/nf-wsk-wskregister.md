@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, netvista.wskregister
+ms.keywords: WskRegister, wsk/WskRegister, netvista.wskregister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, WskRegister function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskRegister
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -73,12 +73,12 @@ NTSTATUS WskRegister(
 
 
 
-### -param WskClientNpi [in]
+#### - WskClientNpi [in]
 
 A pointer to the client NPI implemented by the WSK application.
 
 
-### -param WskRegistration [out]
+#### - WskRegistration [out]
 
 A pointer to a memory location that identifies a WSK application's registration instance. This
      memory location will be initialized by the 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8c343094-0927-4cdd-be39-93dcb25f6bf6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_register_action, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION, WwanRegisterActionAutomatic, PWWAN_REGISTER_ACTION, wwan/WwanRegisterActionManual, wwan/PWWAN_REGISTER_ACTION, wwan/WwanRegisterActionMax, *PWWAN_REGISTER_ACTION, _WWAN_REGISTER_ACTION, WwanRegisterActionMax, wwan/WwanRegisterActionAutomatic, WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, WwanRegisterActionManual, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_REGISTER_ACTION
+ms.keywords: WwanRegisterActionAutomatic, wwan/WWAN_REGISTER_ACTION, WwanRegisterActionMax, WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, PWWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION, wwan/WwanRegisterActionManual, WwanRegisterActionManual, wwan/PWWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION, wwan/WwanRegisterActionAutomatic, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterActionMax, _WWAN_REGISTER_ACTION, netvista.wwan_register_action
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ typedef enum _WWAN_REGISTER_ACTION {
 
 
 
-### -field WwanRegisterActionAutomatic
+#### - WwanRegisterActionAutomatic
 
 Automatically register with provider and then packet-attach, if required.
 
 
-### -field WwanRegisterActionManual
+#### - WwanRegisterActionManual
 
 Manually register with provider and then packet-attach, if required.
 
 
-### -field WwanRegisterActionMax
+#### - WwanRegisterActionMax
 
 The total number of supported registration actions.
 

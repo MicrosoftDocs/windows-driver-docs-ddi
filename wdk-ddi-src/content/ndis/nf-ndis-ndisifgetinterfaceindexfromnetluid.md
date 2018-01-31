@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6aaa4ae9-fd3c-4cdd-ac37-0533c45143af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfGetInterfaceIndexFromNetLuid, NdisIfGetInterfaceIndexFromNetLuid function [Network Drivers Starting with Windows Vista], netvista.ndisifgetinterfaceindexfromnetluid, ndis/NdisIfGetInterfaceIndexFromNetLuid, net_if_functions_ref_d375ff1d-3f7f-4f11-8fd3-c41340276d30.xml
+ms.keywords: netvista.ndisifgetinterfaceindexfromnetluid, ndis/NdisIfGetInterfaceIndexFromNetLuid, net_if_functions_ref_d375ff1d-3f7f-4f11-8fd3-c41340276d30.xml, NdisIfGetInterfaceIndexFromNetLuid function [Network Drivers Starting with Windows Vista], NdisIfGetInterfaceIndexFromNetLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,14 +72,14 @@ NDIS_STATUS NdisIfGetInterfaceIndexFromNetLuid(
 
 
 
-### -param NetLuid [in]
+#### - NetLuid [in]
 
 A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value that identifies a network
      interface.
 
 
-### -param pIfIndex [out]
+#### - pIfIndex [out]
 
 A pointer to a caller-supplied interface index variable. If 
      <b>NdisIfGetInterfaceIndexFromNetLuid</b> succeeds, NDIS writes the network interface index that is
@@ -170,18 +170,18 @@ NDIS provides the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 <mshelp:link keywords="netvista.ndisifgetnetluidfrominterfaceindex" tabindex="0"><b>
    NdisIfGetNetLuidFromInterfaceIndex</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 

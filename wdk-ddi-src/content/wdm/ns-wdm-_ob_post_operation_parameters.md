@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd0551fc-c276-45c3-a560-bded300a4535
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], wdm/OB_POST_OPERATION_PARAMETERS, kernel.ob_post_operation_parameters, wdm/POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, *POB_POST_OPERATION_PARAMETERS
+ms.keywords: OB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], kernel.ob_post_operation_parameters, _OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, wdm/OB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OB_POST_OPERATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS
+req.typenames: "*POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -69,21 +69,21 @@ typedef union _OB_POST_OPERATION_PARAMETERS {
 
 
 
-### -field CreateHandleInformation
+#### - CreateHandleInformation
 
 An <a href="..\wdm\ns-wdm-_ob_post_create_handle_information.md">OB_POST_CREATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being opened.
 
 
-### -field DuplicateHandleInformation
+#### - DuplicateHandleInformation
 
 An <a href="..\wdm\ns-wdm-_ob_post_duplicate_handle_information.md">OB_POST_DUPLICATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being duplicated.
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
 <a href="..\wdm\ns-wdm-_ob_post_create_handle_information.md">OB_POST_CREATE_HANDLE_INFORMATION</a>
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 <a href="..\wdm\ns-wdm-_ob_post_duplicate_handle_information.md">OB_POST_DUPLICATE_HANDLE_INFORMATION</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a93d3a2-0274-4b14-9c4b-9ed31a48e600
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_DISCARDCONTENTFLAGS structure [Display Devices], DXGK_DISCARDCONTENTFLAGS, _DXGK_DISCARDCONTENTFLAGS, display.dxgk_discardcontentflags, DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, d3dkmddi/DXGK_DISCARDCONTENTFLAGS
+ms.keywords: DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, d3dkmddi/DXGK_DISCARDCONTENTFLAGS, DXGK_DISCARDCONTENTFLAGS structure [Display Devices], DXGK_DISCARDCONTENTFLAGS, display.dxgk_discardcontentflags, _DXGK_DISCARDCONTENTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,28 +73,28 @@ typedef struct _DXGK_DISCARDCONTENTFLAGS {
 
 
 
-### -field AllocationIsIdle
+#### - AllocationIsIdle
 
 [in] A UINT value that specifies whether the allocation that is referenced in the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> is idle. If this member is not set, the driver should determine that the allocation is either currently busy or might become busy. If this member is set, the video memory manager guarantees that the allocation remains idle for the duration of the call to <i>DxgkDdiBuildPagingBuffer</i>.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that DXGK_DISCARDCONTENTFLAGS contains that can hold a 32-bit value that identifies the discard-content-operation type.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
  
 

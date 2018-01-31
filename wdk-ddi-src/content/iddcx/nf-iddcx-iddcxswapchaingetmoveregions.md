@@ -71,17 +71,17 @@ HRESULT IddCxSwapChainGetMoveRegions(
 
 
 
-### -param SwapChainObject [in]
+#### - SwapChainObject [in]
 
 The swap-chain object whose current frame is being queried.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments of the function
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 Output arguments of the function
 

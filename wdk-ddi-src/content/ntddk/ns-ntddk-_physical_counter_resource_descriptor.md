@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b4c35a1-04b9-4d4d-9a57-2f5711ec7418
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kstruct_c_d1ca3bce-f598-4c61-9832-defae021d224.xml, kernel.physical_counter_resource_descriptor, ntddk/PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+ms.keywords: ntddk/PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], kstruct_c_d1ca3bce-f598-4c61-9832-defae021d224.xml, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kernel.physical_counter_resource_descriptor, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+req.typenames: "*PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR"
 ---
 
 # _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure
@@ -76,14 +76,39 @@ typedef struct _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR {
 
 
 
-### -field u
+#### - u
 
 A union that can contain a <b>CounterIndex</b>, <b>ExtendedRegisterAddress</b>, or <b>Range</b> value.
+
+
+#### CounterIndex
+
+A physical counter index. 
+
+
+#### ExtendedRegisterAddress
+
+An extended configuration register address. 
+
+
+#### Range
+
+A range of counter indexes. 
 
 
 ### -field u.Range
 
 A range of counter indexes. 
+
+
+#### Range.Begin
+
+The starting counter index of a block of contiguous counters. 
+
+
+#### Range.End
+
+The ending counter index of a block of contiguous counters. 
 
 
 ### -field u.Range.Begin
@@ -106,7 +131,7 @@ A physical counter index.
 An extended configuration register address. 
 
 
-### -field Type
+#### - Type
 
 Indicates the type of counter resource described by the structure. Set this parameter to one of the following <a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a> enumeration constants:
 <ul>
@@ -128,7 +153,7 @@ Indicates the type of counter resource described by the structure. Set this para
 </li>
 </ul>
 
-### -field Flags
+#### - Flags
 
 No flags are currently defined. Set this member to zero.
 
@@ -144,9 +169,9 @@ To specify a set of counter resources, a kernel-mode client can provide an array
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
-
 <a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a>
+
+<a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
 
  
 

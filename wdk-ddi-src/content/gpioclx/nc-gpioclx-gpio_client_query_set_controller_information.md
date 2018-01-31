@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_QuerySetControllerInformation
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
 ---
 
 # GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION callback
@@ -72,17 +72,17 @@ NTSTATUS CLIENT_QuerySetControllerInformation(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4BE99C71-9BA6-44E3-A54F-DE8C3440A474">device context</a>.
 
 
-### -param InputBuffer [in]
+#### - InputBuffer [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a> structure that describes the type of attributes that the caller is requesting.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 An optional pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a> structure into which the function writes the values of the requested attributes.
 
@@ -124,9 +124,9 @@ Implementing a <i>CLIENT_QuerySetControllerInformation</i> function is optional.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698240">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
 
  
 

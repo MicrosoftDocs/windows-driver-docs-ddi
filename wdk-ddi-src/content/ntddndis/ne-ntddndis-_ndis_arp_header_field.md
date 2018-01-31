@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63DA6329-C673-48A0-8E36-67035E2DB4C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisARPHeaderFieldUndefined, NdisARPHeaderFieldSPA, NdisARPHeaderFieldMaximum, ntddndis/NdisARPHeaderFieldMaximum, NDIS_ARP_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], *PNDIS_ARP_HEADER_FIELD, ntddndis/NdisARPHeaderFieldTPA, ntddndis/NdisARPHeaderFieldUndefined, _NDIS_ARP_HEADER_FIELD, ntddndis/NdisARPHeaderFieldOperation, PNDIS_ARP_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_ARP_HEADER_FIELD, ntddndis/NdisARPHeaderFieldSPA, ntddndis/NDIS_ARP_HEADER_FIELD, netvista.ndis_arp_header_field, NdisARPHeaderFieldOperation, NdisARPHeaderFieldTPA, NDIS_ARP_HEADER_FIELD, PNDIS_ARP_HEADER_FIELD
+ms.keywords: "*PNDIS_ARP_HEADER_FIELD, NdisARPHeaderFieldOperation, ntddndis/NdisARPHeaderFieldOperation, netvista.ndis_arp_header_field, NdisARPHeaderFieldMaximum, _NDIS_ARP_HEADER_FIELD, ntddndis/NdisARPHeaderFieldUndefined, NdisARPHeaderFieldTPA, NDIS_ARP_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisARPHeaderFieldSPA, ntddndis/PNDIS_ARP_HEADER_FIELD, ntddndis/NdisARPHeaderFieldSPA, PNDIS_ARP_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_ARP_HEADER_FIELD, NdisARPHeaderFieldUndefined, ntddndis/NdisARPHeaderFieldMaximum, PNDIS_ARP_HEADER_FIELD, ntddndis/NDIS_ARP_HEADER_FIELD, ntddndis/NdisARPHeaderFieldTPA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_ARP_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_ARP_HEADER_FIELD, NDIS_ARP_HEADER_FIELD"
+req.typenames: NDIS_ARP_HEADER_FIELD, *PNDIS_ARP_HEADER_FIELD
 ---
 
 # _NDIS_ARP_HEADER_FIELD enumeration
@@ -71,27 +71,27 @@ typedef enum _NDIS_ARP_HEADER_FIELD {
 
 
 
-### -field NdisARPHeaderFieldUndefined
+#### - NdisARPHeaderFieldUndefined
 
 An undefined ARP header field.
 
 
-### -field NdisARPHeaderFieldOperation
+#### - NdisARPHeaderFieldOperation
 
 The ARP operation field.
 
 
-### -field NdisARPHeaderFieldSPA
+#### - NdisARPHeaderFieldSPA
 
 The ARP source protocol address (SPA) field.
 
 
-### -field NdisARPHeaderFieldTPA
+#### - NdisARPHeaderFieldTPA
 
 The ARP target protocol address (TPA) field.
 
 
-### -field NdisARPHeaderFieldMaximum
+#### - NdisARPHeaderFieldMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

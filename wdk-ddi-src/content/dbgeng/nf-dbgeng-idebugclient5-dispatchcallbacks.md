@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 05fb9569-c2d6-4650-b1c3-8b86ed7ef07d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient interface [Windows Debugging], DispatchCallbacks method, dbgeng/IDebugClient2::DispatchCallbacks, DispatchCallbacks method [Windows Debugging], dbgeng/IDebugClient5::DispatchCallbacks, dbgeng/IDebugClient3::DispatchCallbacks, IDebugClient_faf284c2-ca0f-4e00-bd74-08817338a808.xml, IDebugClient2 interface [Windows Debugging], DispatchCallbacks method, debugger.dispatchcallbacks, DispatchCallbacks, IDebugClient2::DispatchCallbacks, dbgeng/IDebugClient::DispatchCallbacks, IDebugClient3 interface [Windows Debugging], DispatchCallbacks method, DispatchCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], DispatchCallbacks method, IDebugClient3::DispatchCallbacks, IDebugClient4 interface [Windows Debugging], DispatchCallbacks method, dbgeng/IDebugClient4::DispatchCallbacks, DispatchCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient::DispatchCallbacks, DispatchCallbacks method [Windows Debugging], IDebugClient interface, DispatchCallbacks method [Windows Debugging], IDebugClient5 interface, DispatchCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient4::DispatchCallbacks, IDebugClient5::DispatchCallbacks, IDebugClient5
+ms.keywords: dbgeng/IDebugClient::DispatchCallbacks, DispatchCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient4::DispatchCallbacks, IDebugClient3::DispatchCallbacks, IDebugClient::DispatchCallbacks, IDebugClient_faf284c2-ca0f-4e00-bd74-08817338a808.xml, dbgeng/IDebugClient2::DispatchCallbacks, IDebugClient5::DispatchCallbacks, IDebugClient5, IDebugClient4 interface [Windows Debugging], DispatchCallbacks method, debugger.dispatchcallbacks, DispatchCallbacks, IDebugClient2 interface [Windows Debugging], DispatchCallbacks method, dbgeng/IDebugClient3::DispatchCallbacks, IDebugClient interface [Windows Debugging], DispatchCallbacks method, dbgeng/IDebugClient4::DispatchCallbacks, IDebugClient3 interface [Windows Debugging], DispatchCallbacks method, IDebugClient5 interface [Windows Debugging], DispatchCallbacks method, dbgeng/IDebugClient5::DispatchCallbacks, DispatchCallbacks method [Windows Debugging], DispatchCallbacks method [Windows Debugging], IDebugClient interface, DispatchCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient2::DispatchCallbacks, DispatchCallbacks method [Windows Debugging], IDebugClient4 interface, DispatchCallbacks method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT DispatchCallbacks(
 
 
 
-### -param Timeout [in]
+#### - Timeout [in]
 
 Specifies how many milliseconds to wait before this method will return.  If <i>Timeout</i> is INFINITE, this method will not return until <a href="https://msdn.microsoft.com/library/windows/hardware/ff543265">ExitDispatch</a> is called or an error occurs.
 
@@ -126,21 +126,21 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545475">FlushCallbacks</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545475">FlushCallbacks</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543265">ExitDispatch</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
  
 

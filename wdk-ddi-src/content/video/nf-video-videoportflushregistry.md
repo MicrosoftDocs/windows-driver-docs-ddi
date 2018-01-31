@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b940eec-dac6-4a01-afc8-73115bf994c3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortFlushRegistry, VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, VideoPortFlushRegistry function [Display Devices], VideoPortFlushRegistry, display.videoportflushregistry
+ms.keywords: VideoPortFlushRegistry function [Display Devices], video/VideoPortFlushRegistry, VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, display.videoportflushregistry, VideoPortFlushRegistry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VP_STATUS VideoPortFlushRegistry(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 

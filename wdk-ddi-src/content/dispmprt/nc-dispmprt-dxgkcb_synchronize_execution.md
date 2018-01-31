@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbSynchronizeExecution
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_SYNCHRONIZE_EXECUTION callback
@@ -74,12 +74,12 @@ NTSTATUS DxgkCbSynchronizeExecution(
 
 
 
-### -param DeviceHandle [in]
+#### - DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-### -param SynchronizeRoutine [in]
+#### - SynchronizeRoutine [in]
 
 A pointer to a function, implemented by the display miniport driver, that will be synchronized with <i>DxgkDdiInterruptRoutine</i>. The function must conform to the following prototype:
 <div class="code"><span codelanguage=""><table>
@@ -93,17 +93,17 @@ A pointer to a function, implemented by the display miniport driver, that will b
 </tr>
 </table></span></div>
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a context block, created by the display miniport driver, that will be passed to <i>SynchronizeRoutine</i>.
 
 
-### -param MessageNumber [in]
+#### - MessageNumber [in]
 
 The number of the interrupt message with which <i>SynchronizeRoutine</i> will be synchronized. If the interrupt is line-based, this parameter must be zero.
 
 
-### -param ReturnValue [out]
+#### - ReturnValue [out]
 
 A pointer to a Boolean variable that receives the return value of <i>SynchronizeRoutine</i>.
 
@@ -156,9 +156,9 @@ The function was unable to synchronize execution, possibly because the interrupt
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
  
 

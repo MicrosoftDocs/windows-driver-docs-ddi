@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B97E27A1-0D95-41AA-8FF6-A92F70FBAD28
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UsbfnBusSpeedSuper, *PUSBFN_BUS_SPEED, UsbfnBusSpeedLow, buses.usbfn_bus_speed, usbfnbase/UsbfnBusSpeedLow, USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedFull, UsbfnBusSpeedHigh, UsbfnBusSpeedMaximum, _USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedSuper, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedMaximum
+ms.keywords: usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedMaximum, buses.usbfn_bus_speed, UsbfnBusSpeedFull, USBFN_BUS_SPEED, *PUSBFN_BUS_SPEED, UsbfnBusSpeedLow, UsbfnBusSpeedMaximum, usbfnbase/USBFN_BUS_SPEED, UsbfnBusSpeedSuper, _USBFN_BUS_SPEED, UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedSuper, USBFN_BUS_SPEED enumeration [Buses], usbfnbase/UsbfnBusSpeedLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_BUS_SPEED
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_BUS_SPEED, USBFN_BUS_SPEED"
+req.typenames: USBFN_BUS_SPEED, *PUSBFN_BUS_SPEED
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef enum _USBFN_BUS_SPEED {
 
 
 
-### -field UsbfnBusSpeedLow
+#### - UsbfnBusSpeedLow
 
 A low bandwidth bus speed of 1.5 Mbit per second.
 
 
-### -field UsbfnBusSpeedFull
+#### - UsbfnBusSpeedFull
 
 A full bandwidth bus speed of 12 MBit per second.
 
 
-### -field UsbfnBusSpeedHigh
+#### - UsbfnBusSpeedHigh
 
 A high bus speed of 480 Mbit per second.
 
 
-### -field UsbfnBusSpeedSuper
+#### - UsbfnBusSpeedSuper
 
 A SuperSpeed mode bus speed of 5 Gbit per second.
 
 
-### -field UsbfnBusSpeedMaximum
+#### - UsbfnBusSpeedMaximum
 
 The maximum value of the enumeration.
 

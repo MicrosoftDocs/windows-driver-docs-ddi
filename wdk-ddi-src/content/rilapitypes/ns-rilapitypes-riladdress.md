@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d329069d-5455-4c37-b190-02a7bd1e789a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress, RILADDRESS, rilapitypes/RILADDRESS"
+ms.keywords: RILADDRESS structure [Network Drivers Starting with Windows Vista], RILADDRESS, rilapitypes/RILADDRESS, *LPRILADDRESS, netvista.riladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILADDRESS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILADDRESS, RILADDRESS"
+req.typenames: RILADDRESS, *LPRILADDRESS
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ struct RILADDRESS {
 
 
 
-### -field cbSize
+#### - cbSize
 
 The size of the structure in bytes.
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riladdressparammask.md">RILADDRESSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwType
+#### - dwType
 
 The type of address. Possible values are shown in the following table.
 <table>
@@ -183,7 +183,7 @@ Internet email address (RFC 822)
 </table> 
 
 
-### -field dwNumPlan
+#### - dwNumPlan
 
 The numbering scheme of the address. Possible values are shown in the following table.
 <table>
@@ -264,7 +264,7 @@ ERMES numbering plan (ETSI DE/PS 3 01-3)
 </table> 
 
 
-### -field wszAddress
+#### - wszAddress
 
 An array of address characters. The minimum length of this array is 3. When <b>dwType</b> is set to <b>RIL_ADDRTYPE_INTERNATIONAL</b>, the plus sign (+) is not prefixed to <b>wszAddress</b>. It is up to the client or modem to attach the symbol.
 

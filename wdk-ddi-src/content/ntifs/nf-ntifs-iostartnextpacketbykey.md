@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25cf9026-fd5d-4998-b7ff-f7be048ef2a1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoStartNextPacketByKey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture], wdm/IoStartNextPacketByKey, k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, kernel.iostartnextpacketbykey
+ms.keywords: k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, wdm/IoStartNextPacketByKey, kernel.iostartnextpacketbykey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture], IoStartNextPacketByKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID IoStartNextPacketByKey(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for which the IRP is to be dequeued.
 
 
-### -param Cancelable [in]
+#### - Cancelable [in]
 
 Specifies whether IRPs in the device queue can be canceled.
 
 
-### -param Key [in]
+#### - Key [in]
 
 Specifies the sort key that determines which entry to remove from the queue.
 
@@ -106,11 +106,11 @@ Callers of <b>IoStartNextPacketByKey</b> must be running at IRQL &lt;= DISPATCH_
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\ntifs\nf-ntifs-iostartpacket.md">IoStartPacket</a>
-
-<a href="..\ntifs\nf-ntifs-iostartnextpacket.md">IoStartNextPacket</a>
+<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
 
  
 

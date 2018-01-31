@@ -40,7 +40,7 @@ apiname:
 -	CsSetConstantBuffers(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_SETCONSTANTBUFFERS callback
@@ -83,7 +83,7 @@ VOID APIENTRY* CsSetConstantBuffers(D3D11_1)(
 
 
 
-### -param NumBuffers [in]
+#### - NumBuffers [in]
 
  The total number of buffers to set. 
 
@@ -92,15 +92,14 @@ VOID APIENTRY* CsSetConstantBuffers(D3D11_1)(
 
 
 
-### -param *pFirstConstant
+#### - *pFirstConstant [in, optional]
+
+A pointer to the first constant in the buffer pointed to by <i>StartBuffer</i>.
 
 
+#### - *pNumConstants [in, optional]
 
-### -param *pNumConstants
-
-
-
-
+The number of constants in the  buffer pointed to by  <i>StartBuffer</i>.
 
 
 #### - hDevice [in]

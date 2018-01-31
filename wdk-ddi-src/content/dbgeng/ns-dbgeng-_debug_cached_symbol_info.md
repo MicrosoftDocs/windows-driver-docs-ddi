@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC7914B6-DCE1-45D1-84D3-5FF1449AD565
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], _DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], dbgeng/DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info, dbgeng/PDEBUG_CACHED_SYMBOL_INFO
+ms.keywords: dbgeng/DEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info, PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], _DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DEBUG_CACHED_SYMBOL_INFO {
 
 
 
-### -field ModBase
+#### - ModBase
 
 A module base.
 
 
-### -field Arg1
+#### - Arg1
 
 An argument value.
 
 
-### -field Arg2
+#### - Arg2
 
 An argument value.
 
 
-### -field Id
+#### - Id
 
 An ID.
 
 
-### -field Arg3
+#### - Arg3
 
 An argument value.
 

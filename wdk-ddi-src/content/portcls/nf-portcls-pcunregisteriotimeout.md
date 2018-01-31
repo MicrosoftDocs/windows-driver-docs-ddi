@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcUnregisterIoTimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, audio.pcunregisteriotimeout, PcUnregisterIoTimeout function [Audio Devices], PcUnregisterIoTimeout
+ms.keywords: PcUnregisterIoTimeout function [Audio Devices], portcls/PcUnregisterIoTimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, audio.pcunregisteriotimeout, PcUnregisterIoTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcUnregisterIoTimeout
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcUnregisterIoTimeout function
@@ -70,18 +70,18 @@ NTSTATUS PcUnregisterIoTimeout(
 
 
 
-### -param pDeviceObject [in]
+#### - pDeviceObject [in]
 
 Pointer to the same device object that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>. The device object is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-### -param pTimerRoutine [in]
+#### - pTimerRoutine [in]
 
 Pointer to the same I/O-timer callback routine that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
 
 
 
-### -param pContext [in]
+#### - pContext [in]
 
 Pointer to the same driver-determined context that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
 

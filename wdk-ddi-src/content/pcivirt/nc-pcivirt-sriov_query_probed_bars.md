@@ -75,14 +75,14 @@ typedef SRIOV_QUERY_PROBED_BARS *PSRIOV_QUERY_PROBED_BARS;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a driver-defined context.
                     
                 
 
 
-### -param BaseRegisterValues [out]
+#### - BaseRegisterValues [out]
 
 A pointer to an array of variables that is bounded by the number of BARs in a PCI device.
 

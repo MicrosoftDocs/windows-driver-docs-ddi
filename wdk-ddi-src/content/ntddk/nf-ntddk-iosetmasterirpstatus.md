@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68C7C46B-AFDB-449D-99B5-1F9A5A9AFFA4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoSetMasterIrpStatus, kernel.iosetmasterirpstatus, IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/IoSetMasterIrpStatus, kernel.iosetmasterirpstatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], IoSetMasterIrpStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID IoSetMasterIrpStatus(
 
 
 
-### -param MasterIrp [in, out]
+#### - MasterIrp [in, out]
 
 A pointer to the master <a href="..\wdm\ns-wdm-_irp.md">IRP</a>. For more information, see Remarks.
 
 
-### -param Status [in]
+#### - Status [in]
 
 An NTSTATUS value to compare to the <b>Status</b> member of the <a href="https://msdn.microsoft.com/59147bd1-6cd7-4fbe-b7bc-52e09ab88576">I/O status block</a> in the master IRP.
 

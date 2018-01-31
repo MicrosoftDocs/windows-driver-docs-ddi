@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5C2BF433-11C0-425A-B14A-7A0275F7DF51
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CustomTransmitTransactionInitializeComplete method [Serial Ports], SerCx2CustomTransmitTransactionInitializeComplete, serports.sercx2customtransmittransactioninitializecomplete, 2/SerCx2CustomTransmitTransactionInitializeComplete
+ms.keywords: serports.sercx2customtransmittransactioninitializecomplete, 2/SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete method [Serial Ports], SerCx2CustomTransmitTransactionInitializeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID SerCx2CustomTransmitTransactionInitializeComplete(
 
 
 
-### -param CustomTransmitTransaction [in]
+#### - CustomTransmitTransaction [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a> method to create this object.
 
 
-### -param InitSuccess [in]
+#### - InitSuccess [in]
 
 Whether the initialization was successful. If <b>TRUE</b>, the initialization succeeded. If <b>FALSE</b>, the initialization failed.
 
@@ -99,11 +99,11 @@ For more information, see <a href="https://msdn.microsoft.com/E72E68BC-A60A-41BE
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_initialize.md">EvtSerCx2CustomTransmitTransactionInitialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
 
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_initialize.md">EvtSerCx2CustomTransmitTransactionInitialize</a>
+<a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
 
  
 

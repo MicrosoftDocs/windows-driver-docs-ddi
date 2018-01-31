@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9cdc0fc-e292-4142-a070-50a25a2a5673
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAddPort_IN structure pointer [Storage Devices], PAddPort_IN, structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml, *PAddPort_IN, hbapiwmi/AddPort_IN, AddPort_IN, _AddPort_IN, storage.addport_in, AddPort_IN structure [Storage Devices], hbapiwmi/PAddPort_IN
+ms.keywords: AddPort_IN, storage.addport_in, PAddPort_IN, *PAddPort_IN, hbapiwmi/AddPort_IN, structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml, _AddPort_IN, hbapiwmi/PAddPort_IN, AddPort_IN structure [Storage Devices], PAddPort_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddPort_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PAddPort_IN, AddPort_IN"
+req.typenames: AddPort_IN, *PAddPort_IN
 ---
 
 # _AddPort_IN structure
@@ -67,7 +67,7 @@ typedef struct _AddPort_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a worldwide name that indicates the port whose events are to be reported. 
 

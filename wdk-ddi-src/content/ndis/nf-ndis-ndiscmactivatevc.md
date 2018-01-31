@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9091426c-3174-4367-b7c7-5684877efe9c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCmActivateVc, condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, netvista.ndiscmactivatevc, NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndiscmactivatevc, condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], NdisCmActivateVc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NDIS_STATUS NdisCmActivateVc(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle identifying the VC on which to set call parameters. The call manager either
      obtained this handle from 
@@ -80,7 +80,7 @@ Specifies the handle identifying the VC on which to set call parameters. The cal
      client-initiated outgoing call.
 
 
-### -param CallParameters [in, out]
+#### - CallParameters [in, out]
 
 Pointer to a CM-allocated resident buffer, formatted as a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>, containing all the
@@ -163,26 +163,26 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 <a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
 
-<mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
-   ProtocolCmActivateVcComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+<mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
+   ProtocolCmActivateVcComplete</i></mshelp:link>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314eb897-a441-41c7-8b74-a853de70e066
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, debugger.getpebaddress, GetPebAddress, wdbgexts/GetPebAddress, GetPebAddress function [Windows Debugging]
+ms.keywords: wdbgexts/GetPebAddress, GetPebAddress function [Windows Debugging], debugger.getpebaddress, GetPebAddress, WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ __inline VOID GetPebAddress(
 
 
 
-### -param CurrentThread
+#### - CurrentThread
 
 Specifies an operating system thread whose PEB's address will be returned.
 
@@ -78,7 +78,7 @@ In kernel-mode debugging, this is the location of the KTHREAD structure, which i
 In user-mode debugging, <i>CurrentThread</i> is ignored.
 
 
-### -param Address
+#### - Address
 
 Receives the address of the PEB for the current operating system process or, in kernel-mode debugging, when <i>CurrentThread</i> is not <b>NULL</b>, for the system process that contains the thread that is specified by <i>CurrentThread</i>.
 

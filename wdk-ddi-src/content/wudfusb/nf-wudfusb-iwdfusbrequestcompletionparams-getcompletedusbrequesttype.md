@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce20ed09-2f4d-4cc0-9185-a3a72dd73165
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams interface, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, GetCompletedUsbRequestType method, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml, wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method, GetCompletedUsbRequestType
+ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method, wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml, GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method, wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, GetCompletedUsbRequestType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

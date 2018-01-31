@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PBTH_SDP_STREAM_RESPONSE, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bthioctl/PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], bthioctl/BTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE, _BTH_SDP_STREAM_RESPONSE"
+ms.keywords: bthioctl/PBTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, _BTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE, bthioctl/BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_SDP_STREAM_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
+req.typenames: "*PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE"
 ---
 
 # _BTH_SDP_STREAM_RESPONSE structure
@@ -69,18 +69,18 @@ typedef struct _BTH_SDP_STREAM_RESPONSE {
 
 
 
-### -field requiredSize
+#### - requiredSize
 
 The size, in bytes, of the entire SDP record. This value can be useful if the output buffer is too
      small to hold the entire record.
 
 
-### -field responseSize
+#### - responseSize
 
 The size, in bytes, of the raw SDP record stream that follows this structure.
 
 
-### -field response
+#### - response
 
 The first byte of the SDP record stream.
 
@@ -103,10 +103,10 @@ The
 
 ## -see-also
 
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
+
 <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
 
  
 

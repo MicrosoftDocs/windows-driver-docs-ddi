@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F03F5BE6-B2F2-4A9A-8D6D-1ACC9F08C890
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/WDI_TXRX_MPDU_PN, netvista.wdi_txrx_mpdu_pn, _WDI_TXRX_MPDU_PN, WDI_TXRX_MPDU_PN union [Network Drivers Starting with Windows Vista], WDI_TXRX_MPDU_PN
+ms.keywords: netvista.wdi_txrx_mpdu_pn, WDI_TXRX_MPDU_PN union [Network Drivers Starting with Windows Vista], WDI_TXRX_MPDU_PN, _WDI_TXRX_MPDU_PN, dot11wdi/WDI_TXRX_MPDU_PN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef union _WDI_TXRX_MPDU_PN {
 
 
 
-### -field Pn24
+#### - Pn24
 
 WEP: 24-bit PN
 
 
-### -field Pn48
+#### - Pn48
 
 TKIP or CCMP: 48-bit PN
 
 
-### -field Pn128
+#### - Pn128
 
 WAPI: 128-bit PN
 

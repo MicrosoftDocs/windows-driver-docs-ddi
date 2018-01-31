@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storport/StorPortGetDataInBufferSystemAddress, storage.storportgetdatainbuffersystemaddress
+ms.keywords: StorPortGetDataInBufferSystemAddress, storage.storportgetdatainbuffersystemaddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storport/StorPortGetDataInBufferSystemAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ ULONG StorPortGetDataInBufferSystemAddress(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 The request block to containing the input data buffer.
 
 
-### -param SystemAddress [out]
+#### - SystemAddress [out]
 
 A pointer to  a an  address  value to receive the system address for the input data buffer in <i>Srb</i>.
 

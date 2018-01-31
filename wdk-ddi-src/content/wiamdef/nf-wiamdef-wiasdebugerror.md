@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: fcddc83d-5fb1-43ad-9abd-8d5e2549b580
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasdebugerror, wiamdef/wiasDebugError, wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml, wiasDebugError function [Imaging Devices], wiasDebugError
+ms.keywords: wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml, wiasDebugError, wiasDebugError function [Imaging Devices], wiamdef/wiasDebugError, image.wiasdebugerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasDebugError
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ VOID __cdecl wiasDebugError(
 
 
 
-### -param hInstance
+#### - hInstance
 
 Is the module handle of calling module.
 

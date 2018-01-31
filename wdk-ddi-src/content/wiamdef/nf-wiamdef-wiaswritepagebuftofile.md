@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: aa04ef8c-5b69-4d7e-8af4-8cbdb680a23a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, image.wiaswritepagebuftofile, wiasWritePageBufToFile function [Imaging Devices], wiamdef/wiasWritePageBufToFile
+ms.keywords: image.wiaswritepagebuftofile, wiasWritePageBufToFile, wiamdef/wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices], wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWritePageBufToFile
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ HRESULT _stdcall wiasWritePageBufToFile(
 
 
 
-### -param pmdtc [in]
+#### - pmdtc [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure.
 
@@ -131,11 +131,11 @@ if (!WriteFile((HANDLE)(LONG_PTR)pmdtc-&gt;hFile,
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftostream.md">wiasWritePageBufToStream</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftostream.md">wiasWritePageBufToStream</a>
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
  
 

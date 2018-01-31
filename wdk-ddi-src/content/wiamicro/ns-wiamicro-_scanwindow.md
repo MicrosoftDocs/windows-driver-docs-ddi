@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c4b507ac-af32-4949-add0-e19c00e328fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamicro/SCANWINDOW, *PSCANWINDOW, PSCANWINDOW, MicroDrv_b89f7f9d-a1e6-4a61-83e3-659c6f3a9d13.xml, _SCANWINDOW, SCANWINDOW, PSCANWINDOW structure pointer [Imaging Devices], SCANWINDOW structure [Imaging Devices], wiamicro/PSCANWINDOW, image.scanwindow
+ms.keywords: PSCANWINDOW, wiamicro/PSCANWINDOW, wiamicro/SCANWINDOW, _SCANWINDOW, *PSCANWINDOW, SCANWINDOW, SCANWINDOW structure [Imaging Devices], PSCANWINDOW structure pointer [Imaging Devices], image.scanwindow, MicroDrv_b89f7f9d-a1e6-4a61-83e3-659c6f3a9d13.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCANWINDOW
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _SCANWINDOW {
 
 
 
-### -field xPos
+#### - xPos
 
 Specifies the horizontal position of the left edge of the scan window in pixels.
 
 
-### -field yPos
+#### - yPos
 
 Specifies the vertical position of the top edge of the scan window in pixels.
 
 
-### -field xExtent
+#### - xExtent
 
 Specifies the width of the scan window in pixels.
 
 
-### -field yExtent
+#### - yExtent
 
 Specifies the height of the scan window in pixels.
 

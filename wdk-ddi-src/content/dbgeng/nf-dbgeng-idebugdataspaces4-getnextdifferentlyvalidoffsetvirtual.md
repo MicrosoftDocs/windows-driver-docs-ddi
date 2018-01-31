@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f55cc21-606d-4c7c-8650-51cb686700b3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface, debugger.getnextdifferentlyvalidoffsetvirtual, IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual
+ms.keywords: debugger.getnextdifferentlyvalidoffsetvirtual, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetNextDifferentlyValidOffsetVirtual(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies a start address.  The address returned in <i>NextOffset</i> will be the next address whose validity might be defined differently from this one.
 
 
-### -param NextOffset [out]
+#### - NextOffset [out]
 
 Receives the address of the next address whose validity might be defined differently from the address in <i>Offset</i>.
 

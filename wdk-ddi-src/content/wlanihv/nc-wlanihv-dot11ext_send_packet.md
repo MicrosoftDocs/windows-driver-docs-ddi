@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSendPacket
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ DWORD WINAPI * Dot11ExtSendPacket(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -81,19 +81,19 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-### -param uPacketLen [in]
+#### - uPacketLen [in]
 
 The length, in bytes, of the caller-allocated buffer referenced by the 
      <i>pvPacket</i> parameter.
 
 
-### -param pvPacket [in]
+#### - pvPacket [in]
 
 A pointer to a caller-allocated buffer that contains the data to be transmitted, as described in
      the Remarks section.
 
 
-### -param hSendCompletion [in, optional]
+#### - hSendCompletion [in, optional]
 
 A handle value that uniquely identifies the send packet. 
      
@@ -166,15 +166,15 @@ Payload
 
 ## -see-also
 
-<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<mshelp:link keywords="netvista.dot11extihvsendpacketcompletion" tabindex="0"><i>
+   Dot11ExtIhvSendPacketCompletion</i></mshelp:link>
 
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
    Functions</mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extihvsendpacketcompletion" tabindex="0"><i>
-   Dot11ExtIhvSendPacketCompletion</i></mshelp:link>
+<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

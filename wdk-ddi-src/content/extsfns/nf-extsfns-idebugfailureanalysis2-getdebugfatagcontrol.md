@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AC69BCF1-B5C2-4A2F-AEF0-1BC4EBD0BE66
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2::GetDebugFATagControl, GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2 interface, GetDebugFATagControl, IDebugFailureAnalysis2, debugger.idebugfailureanalysis2_getdebugfatagcontrol, extsfns/IDebugFailureAnalysis2::GetDebugFATagControl, IDebugFailureAnalysis2 interface [Windows Debugging], GetDebugFATagControl method, GetDebugFATagControl method [Windows Debugging]
+ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetDebugFATagControl method, GetDebugFATagControl, debugger.idebugfailureanalysis2_getdebugfatagcontrol, extsfns/IDebugFailureAnalysis2::GetDebugFATagControl, GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2::GetDebugFATagControl, GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ VOID GetDebugFATagControl(
 
 
 
-### -param FATagControl [out]
+#### - FATagControl [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a> interface.
 

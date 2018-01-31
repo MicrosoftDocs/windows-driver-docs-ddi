@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 0c92e8d5-eb98-4789-a221-ebf891cd3876
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], *PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml, _WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR
+ms.keywords: WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml, whea.whea_aer_rootport_descriptor, PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR, *PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, _WHEA_AER_ROOTPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,37 +78,37 @@ typedef struct _WHEA_AER_ROOTPORT_DESCRIPTOR {
 
 
 
-### -field Type
+#### - Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_AERROOTPORT.
 
 
-### -field Enabled
+#### - Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field BusNumber
+#### - BusNumber
 
 The root port's bus number.
 
 
-### -field Slot
+#### - Slot
 
 A <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the root port is located in the system.
 
 
-### -field DeviceControl
+#### - DeviceControl
 
 The contents of the root port's Device Control register.
 
 
-### -field Flags
+#### - Flags
 
 An AER_ROOTPORT_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_ROOTPORT_DESCRIPTOR structure can be written to by the operating system. The AER_ROOTPORT_DESCRIPTOR_FLAGS union is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -168,27 +168,27 @@ Reserved for system use.
 A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
 
 
-### -field UncorrectableErrorMask
+#### - UncorrectableErrorMask
 
 The contents of the root port's Uncorrectable Error Mask register.
 
 
-### -field UncorrectableErrorSeverity
+#### - UncorrectableErrorSeverity
 
 The contents of the root port's Uncorrectable Error Severity register.
 
 
-### -field CorrectableErrorMask
+#### - CorrectableErrorMask
 
 The contents of the root port's Correctable Error Mask register.
 
 
-### -field AdvancedCapsAndControl
+#### - AdvancedCapsAndControl
 
 The contents of the root port's Advanced Error Capabilities and Control register.
 
 
-### -field RootErrorCommand
+#### - RootErrorCommand
 
 The contents of the root port's Root Error Command register.
 

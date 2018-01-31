@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e36bca55-63d0-41ef-83b9-8f0cfd450323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_TRIM_DESCRIPTOR, ntddstor/DEVICE_TRIM_DESCRIPTOR, _DEVICE_TRIM_DESCRIPTOR, storage.device_trim_descriptor, ntddstor/PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], *PDEVICE_TRIM_DESCRIPTOR, structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml, PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices]
+ms.keywords: PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_TRIM_DESCRIPTOR, ntddstor/DEVICE_TRIM_DESCRIPTOR, storage.device_trim_descriptor, ntddstor/PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml, *PDEVICE_TRIM_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DEVICE_TRIM_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Contains the size of the structure DEVICE_TRIM_DESCRIPTOR. The value of this member will change as members are added to the structure.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the descriptor, in bytes.
 
 
-### -field TrimEnabled
+#### - TrimEnabled
 
 Specifies whether trim is enabled for the device.
 

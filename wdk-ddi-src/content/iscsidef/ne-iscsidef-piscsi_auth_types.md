@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1d38829-53bc-42a5-acaf-c1ad89b8b563
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_AUTH_TYPES enumeration pointer [Storage Devices], structs-iSCSI_a55ac905-6962-416f-a197-778a24eae524.xml, iscsidef/PISCSI_AUTH_TYPES, ISCSI_NO_AUTH_TYPE, iscsidef/ISCSI_CHAP_AUTH_TYPE, storage.iscsi_auth_types, iscsidef/ISCSI_NO_AUTH_TYPE, ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidef/ISCSI_AUTH_TYPES, PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [Storage Devices], ISCSI_AUTH_TYPES, iscsidef/ISCSI_MUTUAL_CHAP_AUTH_TYPE, *PISCSI_AUTH_TYPES
+ms.keywords: iscsidef/ISCSI_NO_AUTH_TYPE, storage.iscsi_auth_types, iscsidef/ISCSI_CHAP_AUTH_TYPE, *PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [Storage Devices], iscsidef/PISCSI_AUTH_TYPES, iscsidef/ISCSI_AUTH_TYPES, PISCSI_AUTH_TYPES enumeration pointer [Storage Devices], iscsidef/ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, PISCSI_AUTH_TYPES, structs-iSCSI_a55ac905-6962-416f-a197-778a24eae524.xml, ISCSI_AUTH_TYPES, ISCSI_CHAP_AUTH_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-### -field ISCSI_NO_AUTH_TYPE
+#### - ISCSI_NO_AUTH_TYPE
 
 No authentication type was specified. 
 
 
-### -field ISCSI_CHAP_AUTH_TYPE
+#### - ISCSI_CHAP_AUTH_TYPE
 
 Challenge handshake authentication protocol (CHAP).
 
 
-### -field ISCSI_MUTUAL_CHAP_AUTH_TYPE
+#### - ISCSI_MUTUAL_CHAP_AUTH_TYPE
 
 Mutual (2-way) CHAP authentication.
 

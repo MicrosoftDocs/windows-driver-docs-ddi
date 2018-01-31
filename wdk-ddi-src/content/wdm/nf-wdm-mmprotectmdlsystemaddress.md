@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, MmProtectMdlSystemAddress, wdm/MmProtectMdlSystemAddress, kernel.mmprotectmdlsystemaddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.mmprotectmdlsystemaddress, MmProtectMdlSystemAddress, k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], wdm/MmProtectMdlSystemAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS MmProtectMdlSystemAddress(
 
 
 
-### -param MemoryDescriptorList [in]
+#### - MemoryDescriptorList [in]
 
 Specifies the memory address range to set the protection type for. 
 
 
-### -param NewProtect [in]
+#### - NewProtect [in]
 
 Specifies the new protection setting for the memory pages. Drivers should specify one of the following values:
 

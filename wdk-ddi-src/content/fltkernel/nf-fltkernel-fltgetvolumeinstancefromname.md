@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25455faa-2197-4b2a-bce8-db9764153e51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetVolumeInstanceFromName, ifsk.fltgetvolumeinstancefromname, FltGetVolumeInstanceFromName, FltApiRef_e_to_o_78e7987d-7f24-4c51-b263-502005595c6d.xml, FltGetVolumeInstanceFromName routine [Installable File System Drivers]
+ms.keywords: ifsk.fltgetvolumeinstancefromname, FltGetVolumeInstanceFromName, fltkernel/FltGetVolumeInstanceFromName, FltGetVolumeInstanceFromName routine [Installable File System Drivers], FltApiRef_e_to_o_78e7987d-7f24-4c51-b263-502005595c6d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FltGetVolumeInstanceFromName(
 
 
 
-### -param Filter [in, optional]
+#### - Filter [in, optional]
 
 Opaque filter pointer for the minifilter driver that owns the instance. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param Volume [in]
+#### - Volume [in]
 
 Opaque pointer for the volume that the instance is attached to. Must be a valid volume handle. This parameter is required and cannot be <b>NULL</b>. (Setting this parameter to an invalid value causes the system to ASSERT on a checked build.) 
 
 
-### -param InstanceName [in, optional]
+#### - InstanceName [in, optional]
 
 Pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the instance name for the instance on the volume. (This is the <i>InstanceName</i> value that was passed to <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a> or <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a> when the instance was created.) This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltGetVolumeInstanceFromName</b> returns the highest matching instance that is found. 
 
 
-### -param RetInstance [out]
+#### - RetInstance [out]
 
 Pointer to a caller-allocated variable that receives an opaque instance pointer for the instance that matches the values for <i>Filter</i>, <i>Volume</i>, and <i>InstanceName</i>. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -144,11 +144,11 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
  
 

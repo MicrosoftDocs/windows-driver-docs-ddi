@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff622111-e4c3-47eb-9509-dbe86d0d5acf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPOSITIONINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v1_2, *LPRILPOSITIONINFO_V1, RILPOSITIONINFO_V1, rilapitypes/RILPOSITIONINFO_V1
+ms.keywords: RILPOSITIONINFO_V1, RILPOSITIONINFO_V1 structure [Network Drivers Starting with Windows Vista], *LPRILPOSITIONINFO_V1, rilapitypes/RILPOSITIONINFO_V1, netvista.rilpositioninfo_v1_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,54 +80,54 @@ typedef struct _RILPOSITIONINFO_V1 {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwSystemType
+#### - dwSystemType
 
 
 
-### -field stGSMServingCellInfo
+#### - stGSMServingCellInfo
 
 
 
-### -field stUMTSServingCellInfo
+#### - stUMTSServingCellInfo
 
 
 
-### -field stLTEServingCellInfo
+#### - stLTEServingCellInfo
 
 
 
-### -field dwCntGSMNMR
+#### - dwCntGSMNMR
 
 
 
-### -field rgNMR
+#### - rgNMR
 
 
 
-### -field dwCntUMTSMRL
+#### - dwCntUMTSMRL
 
 
 
-### -field ruMRL
+#### - ruMRL
 
 
 
-### -field dwCntEUTRAMRL
+#### - dwCntEUTRAMRL
 
 
 
-### -field reMRL
+#### - reMRL
 
 
 
-### -field dwCntC2KMRL
+#### - dwCntC2KMRL
 
 
 
-### -field rc2kMRL
+#### - rc2kMRL
 
 

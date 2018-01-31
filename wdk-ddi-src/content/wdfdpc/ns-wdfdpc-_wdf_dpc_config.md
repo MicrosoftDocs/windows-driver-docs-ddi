@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e4203a9d-98f4-47f2-80ea-51074e4c0713
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDpcObjectRef_797caee0-a119-4bae-837b-461e74022868.xml, wdf.wdf_dpc_config, PWDF_DPC_CONFIG, *PWDF_DPC_CONFIG, kmdf.wdf_dpc_config, WDF_DPC_CONFIG structure, wdfdpc/WDF_DPC_CONFIG, _WDF_DPC_CONFIG, wdfdpc/PWDF_DPC_CONFIG, WDF_DPC_CONFIG, PWDF_DPC_CONFIG structure pointer
+ms.keywords: wdf.wdf_dpc_config, kmdf.wdf_dpc_config, _WDF_DPC_CONFIG, PWDF_DPC_CONFIG structure pointer, wdfdpc/PWDF_DPC_CONFIG, WDF_DPC_CONFIG, wdfdpc/WDF_DPC_CONFIG, *PWDF_DPC_CONFIG, DFDpcObjectRef_797caee0-a119-4bae-837b-461e74022868.xml, WDF_DPC_CONFIG structure, PWDF_DPC_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _WDF_DPC_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field EvtDpcFunc
+#### - EvtDpcFunc
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function.
 
 
-### -field AutomaticSerialization
+#### - AutomaticSerialization
 
 A Boolean value that, if <b>TRUE</b>, indicates that the framework will synchronize execution of the DPC object's <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function with callback functions from other objects that are underneath the DPC object's parent. For more information, see the following Remarks section.
 
@@ -106,13 +106,13 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 
 <a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
 
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
+<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	DriverEntry
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -72,11 +72,12 @@ NTSTATUS DriverEntry(
 
 
 
-### -param *DriverObject
+#### - *DriverObject [in]
+
+A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
-
-### -param RegistryPath [in]
+#### - RegistryPath [in]
 
 A pointer to a counted Unicode string specifying the path to the driver's registry key.
 

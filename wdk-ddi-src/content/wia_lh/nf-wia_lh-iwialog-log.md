@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bca012b4-76ae-4ba5-99b4-92a367774de7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaLog interface [Imaging Devices], Log method, IWiaLog, image.iwialog_log, wia_lh/IWiaLog::Log, Log, IWiaLog::Log, Log method [Imaging Devices], IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log method [Imaging Devices], IWiaLog interface
+ms.keywords: Log, Log method [Imaging Devices], IWiaLog interface, image.iwialog_log, Log method [Imaging Devices], wia_lh/IWiaLog::Log, IWiaLog, IWiaLog interface [Imaging Devices], Log method, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, IWiaLog::Log
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT Log(
 
 
 
-### -param lFlags [in]
+#### - lFlags [in]
 
 Specifies the type of diagnostic message. This parameter can be WIA_WARNING, WIA_TRACE or WIA_ERROR.
 
@@ -81,7 +81,7 @@ Specifies the type of diagnostic message. This parameter can be WIA_WARNING, WIA
 
 
 
-### -param lDetail [in]
+#### - lDetail [in]
 
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
 <table>
@@ -142,7 +142,7 @@ User-defined log levels.
 </table> 
 
 
-### -param bstrText [in]
+#### - bstrText [in]
 
 Specifies the error text. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 

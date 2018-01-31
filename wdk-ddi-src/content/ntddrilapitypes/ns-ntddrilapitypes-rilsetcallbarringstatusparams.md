@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e524d3d-d9dc-4d95-ad13-258cd51bc532
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILSETCALLBARRINGSTATUSPARAMS, ntddrilapitypes/RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, netvista.rilsetcallbarringstatusparams, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSETCALLBARRINGSTATUSPARAMS, *LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, netvista.rilsetcallbarringstatusparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETCALLBARRINGSTATUSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSETCALLBARRINGSTATUSPARAMS, *LPRILSETCALLBARRINGSTATUSPARAMS
+req.typenames: "*LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS"
 ---
 
 # RILSETCALLBARRINGSTATUSPARAMS structure
@@ -73,30 +73,30 @@ typedef struct _RILSETCALLBARRINGSTATUSPARAMS {
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwType
+#### - dwType
 
 
 
-### -field fAllClasses
+#### - fAllClasses
 
 
 
-### -field dwInfoClasses
+#### - dwInfoClasses
 
 
 
-### -field fPassword
+#### - fPassword
 
 
 
-### -field szPassword
+#### - szPassword
 
 
 
-### -field dwStatus
+#### - dwStatus
 
 

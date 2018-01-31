@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c2a8422d-15f0-45df-bc54-946fb3d11a22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PmiConfigurationChangedEvent, powermeter.pmi_event_type, PmiThresholdEvent, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiThresholdEvent, PmiEventMax, pmi/PmiEventMax, pmi/PmiConfigurationChangedEvent, PmiAveragingIntervalChangedEvent, pmi/PMI_EVENT_TYPE, PmiCapabilitiesChangedEvent, pmi/PmiBudgetEvent, PmiBudgetEvent, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PmiAveragingIntervalChangedEvent, PMI_EVENT_TYPE, pmi/PmiCapabilitiesChangedEvent
+ms.keywords: PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], powermeter.pmi_event_type, PmiCapabilitiesChangedEvent, PmiBudgetEvent, pmi/PmiBudgetEvent, PmiAveragingIntervalChangedEvent, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, PMI_EVENT_TYPE, pmi/PmiConfigurationChangedEvent, pmi/PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, pmi/PmiThresholdEvent, pmi/PmiEventMax, pmi/PMI_EVENT_TYPE, PmiEventMax, pmi/PmiAveragingIntervalChangedEvent, PmiThresholdEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum  {
 
 
 
-### -field PmiCapabilitiesChangedEvent
+#### - PmiCapabilitiesChangedEvent
 
 The event was caused by a change in the PMI capabilities of the power meter.
 
 
-### -field PmiThresholdEvent
+#### - PmiThresholdEvent
 
 The event was caused because the power level exceeded a configured threshold of the power meter.
 
 
-### -field PmiConfigurationChangedEvent
+#### - PmiConfigurationChangedEvent
 
 The event was caused by a change in the PMI configuration of the power meter.
 
 
-### -field PmiBudgetEvent
+#### - PmiBudgetEvent
 
 The event was caused because the power budget exceeded or fell below the configured budget of the power meter.
 
 
-### -field PmiAveragingIntervalChangedEvent
+#### - PmiAveragingIntervalChangedEvent
 
 The event was caused because the interval, during which the power meter averages power measurement data, was changed.
 
 
-### -field PmiEventMax
+#### - PmiEventMax
 
 The maximum number of PMI event types.
 
@@ -111,9 +111,9 @@ The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVE
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
-
 <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
  
 

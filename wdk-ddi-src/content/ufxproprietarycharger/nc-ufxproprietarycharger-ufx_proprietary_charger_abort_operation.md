@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
 product: Windows
 targetos: Windows
-req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
+req.typenames: "*PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ typedef UFX_PROPRIETARY_CHARGER_ABORT_OPERATION PFN_UFX_PROPRIETARY_CHARGER_ABOR
 
 
 
-### -param Context [in]
+#### - Context [in]
 
     A pointer to a driver-defined context.
 

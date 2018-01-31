@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ff96ea2b-a1f9-417c-98e6-fbf9cc9f6827
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfobject/WdfObjectDereferenceActual, WdfObjectDereferenceActual, wdf.wdfobjectdereferenceactual, kmdf.wdfobjectdereferenceactual, DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, WdfObjectDereferenceActual method
+ms.keywords: DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, wdf.wdfobjectdereferenceactual, WdfObjectDereferenceActual, wdfobject/WdfObjectDereferenceActual, kmdf.wdfobjectdereferenceactual, WdfObjectDereferenceActual method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ VOID WdfObjectDereferenceActual(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle to a framework object.
 
 
-### -param Tag [in, optional]
+#### - Tag [in, optional]
 
 A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>.
 
 
-### -param Line [in]
+#### - Line [in]
 
 A numeric value that represents a line number in a driver source file.
 
 
-### -param File [in, optional]
+#### - File [in, optional]
 
 A pointer to a null-terminated constant character string that represents the name of a driver source file. This parameter is optional and can be <b>NULL</b>.
 
@@ -120,9 +120,9 @@ For more information about object reference counts, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
  
 

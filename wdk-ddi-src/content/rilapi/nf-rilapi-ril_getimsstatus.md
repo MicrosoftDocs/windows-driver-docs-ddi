@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78b2621e-e969-48ba-b742-ca6e52518874
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getimsstatus, rilapi/RIL_GetIMSStatus, RIL_GetIMSStatus, RIL_GetIMSStatus method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_getimsstatus, RIL_GetIMSStatus, rilapi/RIL_GetIMSStatus, RIL_GetIMSStatus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetIMSStatus(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwExecutor
+#### - dwExecutor
 
 
 

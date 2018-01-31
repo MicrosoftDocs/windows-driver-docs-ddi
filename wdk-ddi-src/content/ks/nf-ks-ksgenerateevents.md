@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3c96012f-8307-417c-be8f-bb466c576669
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGenerateEvents, stream.ksgenerateevents, KsGenerateEvents function [Streaming Media Devices], avfunc_47306d1b-67f9-4ea6-81bb-3b76b848667a.xml, ks/KsGenerateEvents
+ms.keywords: avfunc_47306d1b-67f9-4ea6-81bb-3b76b848667a.xml, KsGenerateEvents, stream.ksgenerateevents, ks/KsGenerateEvents, KsGenerateEvents function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ void KsGenerateEvents(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 The object on which to generate events. This can be an AVStream filter or pin object.
 
 
-### -param EventSet [in, optional]
+#### - EventSet [in, optional]
 
 The event set GUID to match to determine which events to generate. If this parameter is <b>NULL</b>, set GUID is not taken into account for determining matching events.
 
 
-### -param EventId [in]
+#### - EventId [in]
 
 The event ID to match to determine which events to generate.
 
 
-### -param DataSize [in]
+#### - DataSize [in]
 
 The size in bytes of the data with which to generate the data event.
 
 
-### -param Data [in, optional]
+#### - Data [in, optional]
 
 A pointer to a data buffer to include in the event notification. If the driver does not need to convey additional information via the notification, set this optional parameter to <b>NULL</b>.
 
 
-### -param CallBack [in, optional]
+#### - CallBack [in, optional]
 
 A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is <b>NULL</b>, no callback verification is performed to determine whether an event should be generated (only <i>EventSet </i>and <i>EventId</i> are used).
 
 
-### -param CallBackContext [in, optional]
+#### - CallBackContext [in, optional]
 
 A pointer to a caller-specified context that is passed to the callback function <i>CallBack</i>.
 
@@ -143,11 +143,11 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
 
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 

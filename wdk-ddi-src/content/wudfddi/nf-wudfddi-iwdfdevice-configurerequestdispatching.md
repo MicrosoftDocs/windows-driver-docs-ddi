@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b3318695-e9f2-480a-9133-9008ef0002b7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, wdf.iwdfdevice_configurerequestdispatching, ConfigureRequestDispatching method, IWDFDevice interface, IWDFDevice, umdf.iwdfdevice_configurerequestdispatching, ConfigureRequestDispatching method, ConfigureRequestDispatching, IWDFDevice::ConfigureRequestDispatching, IWDFDevice interface, ConfigureRequestDispatching method, wudfddi/IWDFDevice::ConfigureRequestDispatching
+ms.keywords: wudfddi/IWDFDevice::ConfigureRequestDispatching, ConfigureRequestDispatching method, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, IWDFDevice interface, ConfigureRequestDispatching method, ConfigureRequestDispatching method, IWDFDevice interface, IWDFDevice, umdf.iwdfdevice_configurerequestdispatching, IWDFDevice::ConfigureRequestDispatching, wdf.iwdfdevice_configurerequestdispatching, ConfigureRequestDispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.ConfigureRequestDispatching
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ HRESULT ConfigureRequestDispatching(
 
 
 
-### -param pQueue [in]
+#### - pQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue to configure. 
 
 
-### -param RequestType [in]
+#### - RequestType [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type to be queued. The only valid <b>WDF_REQUEST_TYPE</b> values are <b>WdfRequestCreate</b>, <b>WdfRequestRead</b>, <b>WdfRequestWrite</b>, and <b>WdfRequestDeviceIoControl</b>.
 
 
-### -param Forward [in]
+#### - Forward [in]
 
 A BOOL value that specifies whether requests of the specified type are queued. <b>TRUE</b> indicates to enable queuing requests; <b>FALSE</b> indicates to disable queuing requests.
 
@@ -96,11 +96,11 @@ A BOOL value that specifies whether requests of the specified type are queued. <
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4cb6e9af-ddd0-48d9-9f07-43c828e4187b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerExchangeMedium, storage.changerexchangemedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium
+ms.keywords: storage.changerexchangemedium, mcd/ChangerExchangeMedium, ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS ChangerExchangeMedium(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that represents the changer. 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP. 
 
@@ -113,13 +113,13 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_exchange_medium.md">CHANGER_EXCHANGE_MEDIUM</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 <a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ECAB84B8-1C39-473C-A6AE-41D1EBDB1FF4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfinterrupt/WdfIrqPriorityNormal, WdfIrqPriorityHigh, wudfinterrupt/WdfIrqPriorityHigh, wdf.wdf_interrupt_priority_umdf, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, *PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY enumeration pointer, _WDF_INTERRUPT_PRIORITY, wudfinterrupt/WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityUndefined, WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, wudfinterrupt/WdfIrqPriorityLow, WdfIrqPriorityLow, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, umdf.wdf_interrupt_priority
+ms.keywords: wudfinterrupt/WdfIrqPriorityUndefined, WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityLow, PWDF_INTERRUPT_PRIORITY enumeration pointer, _WDF_INTERRUPT_PRIORITY, WdfIrqPriorityHigh, wudfinterrupt/WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityNormal, wudfinterrupt/WdfIrqPriorityNormal, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, wdf.wdf_interrupt_priority_umdf, WdfIrqPriorityUndefined, PWDF_INTERRUPT_PRIORITY, umdf.wdf_interrupt_priority, wudfinterrupt/WdfIrqPriorityHigh, *PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,22 +74,22 @@ typedef enum _WDF_INTERRUPT_PRIORITY {
 
 
 
-### -field WdfIrqPriorityUndefined
+#### - WdfIrqPriorityUndefined
 
 The relative priority of a device's interrupt is undefined.
 
 
-### -field WdfIrqPriorityLow
+#### - WdfIrqPriorityLow
 
 The device's interrupt has a relatively low priority, typically because the interrupt does not have to be serviced immediately.
 
 
-### -field WdfIrqPriorityNormal
+#### - WdfIrqPriorityNormal
 
 The device's interrupt priority is neither relatively low nor relatively high.
 
 
-### -field WdfIrqPriorityHigh
+#### - WdfIrqPriorityHigh
 
 The device's interrupt has a relatively high priority, typically because the interrupt must be serviced immediately.
 

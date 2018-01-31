@@ -70,7 +70,7 @@ BOOLEAN IdeHwInterrupt(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension.
 
@@ -135,9 +135,9 @@ The worker routine must clear the interrupt on the HBA before it returns <b>TRUE
 
 <a href="..\irb\nf-irb-ataportrequestworkerroutine.md">AtaPortRequestWorkerRoutine</a>
 
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
-
 <a href="..\irb\nf-irb-ataportcompleteallactiverequests.md">AtaPortCompleteAllActiveRequests</a>
+
+<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
 
  
 

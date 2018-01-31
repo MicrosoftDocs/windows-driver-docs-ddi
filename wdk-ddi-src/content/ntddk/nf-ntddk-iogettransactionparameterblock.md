@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iogettransactionparameterblock, IoGetTransactionParameterBlock, ntddk/IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml
+ms.keywords: IoGetTransactionParameterBlock, ntddk/IoGetTransactionParameterBlock, ifsk.iogettransactionparameterblock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PTXN_PARAMETER_BLOCK IoGetTransactionParameterBlock(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a file object for the file. 
 

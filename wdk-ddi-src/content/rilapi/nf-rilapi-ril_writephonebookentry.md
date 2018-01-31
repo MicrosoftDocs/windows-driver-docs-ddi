@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03fc6240-ccc8-48de-87e0-b1ee5db3bac8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_WritePhonebookEntry, netvista.ril_writephonebookentry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], rilapi/RIL_WritePhonebookEntry
+ms.keywords: netvista.ril_writephonebookentry, RIL_WritePhonebookEntry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], rilapi/RIL_WritePhonebookEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ HRESULT  RIL_WritePhonebookEntry(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param hUiccApp
+#### - hUiccApp
 
 
 
-### -param dwStoreLocation
+#### - dwStoreLocation
 
 
 
-### -param lpEntry
+#### - lpEntry
 
 
 
-### -param lpLockVerification
+#### - lpLockVerification
 
 
 

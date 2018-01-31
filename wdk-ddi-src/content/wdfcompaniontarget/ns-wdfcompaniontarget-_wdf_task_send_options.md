@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb2fd11c-c6a5-4499-a340-f96ffcfbbe0f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcompaniontarget/WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, wdf.wdf_task_send_options, PWDF_TASK_SEND_OPTIONS, _WDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, *PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS
+ms.keywords: wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, wdf.wdf_task_send_options, _WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, WDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_TASK_SEND_OPTIONS
 product: Windows
 targetos: Windows
-req.typenames: WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS
+req.typenames: "*PWDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -70,14 +70,14 @@ typedef struct _WDF_TASK_SEND_OPTIONS {
 
 
 
-### -field Size
+#### - Size
 
 
 
-### -field Flags
+#### - Flags
 
 
 
-### -field Timeout
+#### - Timeout
 
 

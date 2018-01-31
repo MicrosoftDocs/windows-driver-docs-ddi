@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7288a7e5-8e64-4ac3-9779-edc27a3888bb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfObjectContextGetObject, WdfObjectContextGetObject method, DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, kmdf.wdfobjectcontextgetobject, PFN_WDFOBJECTCONTEXTGETOBJECT, wdf.wdfobjectcontextgetobject, wdfobject/WdfObjectContextGetObject
+ms.keywords: kmdf.wdfobjectcontextgetobject, WdfObjectContextGetObject method, WdfObjectContextGetObject, wdf.wdfobjectcontextgetobject, PFN_WDFOBJECTCONTEXTGETOBJECT, wdfobject/WdfObjectContextGetObject, DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFOBJECT WdfObjectContextGetObject(
 
 
 
-### -param ContextPointer [in]
+#### - ContextPointer [in]
 
 A pointer to object context space. The driver can obtain this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a>.
 

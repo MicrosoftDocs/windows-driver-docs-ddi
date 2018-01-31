@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 70156bfa-8271-42f6-9a22-0d0b77e63b66
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbInterfaceGetDescriptor, WdfUsbInterfaceGetDescriptor method, DFUsbRef_eb98efa1-720d-408c-824f-59cfef80bbba.xml, wdfusb/WdfUsbInterfaceGetDescriptor, wdf.wdfusbinterfacegetdescriptor, PFN_WDFUSBINTERFACEGETDESCRIPTOR, kmdf.wdfusbinterfacegetdescriptor
+ms.keywords: wdf.wdfusbinterfacegetdescriptor, WdfUsbInterfaceGetDescriptor method, kmdf.wdfusbinterfacegetdescriptor, PFN_WDFUSBINTERFACEGETDESCRIPTOR, wdfusb/WdfUsbInterfaceGetDescriptor, DFUsbRef_eb98efa1-720d-408c-824f-59cfef80bbba.xml, WdfUsbInterfaceGetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ VOID WdfUsbInterfaceGetDescriptor(
 
 
 
-### -param UsbInterface [in]
+#### - UsbInterface [in]
 
 A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
 
 
-### -param SettingIndex [in]
+#### - SettingIndex [in]
 
 An index value that identifies an alternate setting for the interface. For more information about alternate settings, see the USB specification.
 
 
-### -param InterfaceDescriptor [out]
+#### - InterfaceDescriptor [out]
 
 A pointer to a caller-allocated <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that the framework fills in.
 
@@ -112,9 +112,9 @@ For more information about the <b>WdfUsbInterfaceGetDescriptor</b> method and US
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
  
 

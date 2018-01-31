@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c382689e-907c-473c-9ab1-da963d7f3ba3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml, IoWMIAllocateInstanceIds, kernel.iowmiallocateinstanceids, IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], wdm/IoWMIAllocateInstanceIds
+ms.keywords: IoWMIAllocateInstanceIds, wdm/IoWMIAllocateInstanceIds, IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], kernel.iowmiallocateinstanceids, k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS IoWMIAllocateInstanceIds(
 
 
 
-### -param Guid [in]
+#### - Guid [in]
 
 Pointer to the GUID for which to generate instance identifiers. 
 
 
-### -param InstanceCount [in]
+#### - InstanceCount [in]
 
 Specifies how many instance identifiers should be provided. 
 
 
-### -param FirstInstanceId [out]
+#### - FirstInstanceId [out]
 
 Pointer to the first instance identifier that the driver should use. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 348e44f2-4386-4b45-9d68-c996d471578f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCFILELOCKSTATUS, *LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS, netvista.riluiccfilelockstatus
+ms.keywords: netvista.riluiccfilelockstatus, RILUICCFILELOCKSTATUS, *LPRILUICCFILELOCKSTATUS, rilapitypes/RILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCFILELOCKSTATUS
 product: Windows
 targetos: Windows
-req.typenames: RILUICCFILELOCKSTATUS, *LPRILUICCFILELOCKSTATUS
+req.typenames: "*LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ struct RILUICCFILELOCKSTATUS {
 
 
 
-### -field cbSize
+#### - cbSize
 
 The size of the structure in bytes.
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riluiccfilelockstatusparammask.md">RILUICCFILELOCKSTATUSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwAccessCondition
+#### - dwAccessCondition
 
 Specifies the access condition for the file. These values correspond to those specified in ETSI TS 102 221 section 9.5.1. The access condition should be one of <a href="..\rilapitypes\ne-rilapitypes-riluiccfilelockstatusaccesscondition.md">RILUICCFILELOCKSTATUSACCESSCONDITION</a>.
 
 
-### -field bPinRef
+#### - bPinRef
 
 A byte array specifying the application PIN references made by this application (keys for PIN1 and PIN2).
 

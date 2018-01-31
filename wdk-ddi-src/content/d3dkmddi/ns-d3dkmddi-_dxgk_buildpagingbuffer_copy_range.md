@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BA35F50C-7399-41DC-A10B-2F5E4BB24B49
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BUILDPAGINGBUFFER_COPY_RANGE, DXGK_BUILDPAGINGBUFFER_COPY_RANGE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPY_RANGE, display.dxgk_buildpagingbuffer_copy_range, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPY_RANGE
+ms.keywords: display.dxgk_buildpagingbuffer_copy_range, _DXGK_BUILDPAGINGBUFFER_COPY_RANGE, DXGK_BUILDPAGINGBUFFER_COPY_RANGE structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPY_RANGE, DXGK_BUILDPAGINGBUFFER_COPY_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_COPY_RANGE {
 
 
 
-### -field NumPageTableEntries
+#### - NumPageTableEntries
 
 The number of page table entries to copy.
 
 
-### -field SrcPageTableAddress
+#### - SrcPageTableAddress
 
 The virtual address of the source page table for the range. The address is aligned to 64KB boundary.
 
 
-### -field DstPageTableAddress
+#### - DstPageTableAddress
 
 The virtual address of the destination page table for the range. The address is aligned to 64KB boundary.
 
 
-### -field SrcStartPteIndex
+#### - SrcStartPteIndex
 
 The index of the first page table entry in the source page table for the range.
 
 
-### -field DstStartPteIndex
+#### - DstStartPteIndex
 
 The index of the first page table entry in the destination page table for the range.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
  
 

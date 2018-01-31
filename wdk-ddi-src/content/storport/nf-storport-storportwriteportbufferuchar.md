@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortBufferUchar routine [Storage Devices], StorPortWritePortBufferUchar, storage.storportwriteportbufferuchar, storport/StorPortWritePortBufferUchar, storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml
+ms.keywords: StorPortWritePortBufferUchar routine [Storage Devices], storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml, storage.storportwriteportbufferuchar, StorPortWritePortBufferUchar, storport/StorPortWritePortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API VOID StorPortWritePortBufferUchar(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Contains the address of the port to be written to. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Contains the number of data items of size <b>sizeof</b>(UCHAR) to be written. 
 

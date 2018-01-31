@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 404e1893-8ee2-429c-b7e3-e6d8d01eaa1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_pipe_direction_out, kmdf.wdf_usb_pipe_direction_out, WDF_USB_PIPE_DIRECTION_OUT, wdfusb/WDF_USB_PIPE_DIRECTION_OUT, DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml, WDF_USB_PIPE_DIRECTION_OUT function
+ms.keywords: wdf.wdf_usb_pipe_direction_out, wdfusb/WDF_USB_PIPE_DIRECTION_OUT, WDF_USB_PIPE_DIRECTION_OUT function, DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml, WDF_USB_PIPE_DIRECTION_OUT, kmdf.wdf_usb_pipe_direction_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ BOOLEAN WDF_USB_PIPE_DIRECTION_OUT(
 
 
 
-### -param EndpointAddress [in]
+#### - EndpointAddress [in]
 
 A USB endpoint address.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d0321907-0a3c-43cc-97f1-a3a7e9b84311
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCFILEPATH, netvista.riluiccfilepath_2, RILUICCFILEPATH, *LPRILUICCFILEPATH
+ms.keywords: rilapitypes/RILUICCFILEPATH, netvista.riluiccfilepath_2, *LPRILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], RILUICCFILEPATH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct _RILUICCFILEPATH {
 
 
 
-### -field hUiccApp
+#### - hUiccApp
 
 
 
-### -field dwFilePathLen
+#### - dwFilePathLen
 
 
 
-### -field wFilePath
+#### - wFilePath
 
 

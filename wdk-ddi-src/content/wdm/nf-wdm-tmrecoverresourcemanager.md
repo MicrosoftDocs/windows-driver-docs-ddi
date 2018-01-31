@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TmRecoverResourceManager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, TmRecoverResourceManager
+ms.keywords: TmRecoverResourceManager, kernel.tmrecoverresourcemanager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], wdm/TmRecoverResourceManager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NTSTATUS TmRecoverResourceManager(
 
 
 
-### -param ResourceManager [in]
+#### - ResourceManager [in]
 
 A pointer to a resource manager object. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a> or <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a> provided.
 

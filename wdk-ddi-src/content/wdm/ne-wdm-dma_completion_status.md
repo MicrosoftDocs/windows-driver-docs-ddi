@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.dma_completion_status, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], DmaComplete, wdm/DmaComplete, DmaCancelled, wdm/DMA_COMPLETION_STATUS, DmaError, DmaAborted, DMA_COMPLETION_STATUS, wdm/DmaAborted, wdm/DmaError, wdm/DmaCancelled
+ms.keywords: wdm/DmaAborted, DmaCancelled, wdm/DMA_COMPLETION_STATUS, DMA_COMPLETION_STATUS, DmaAborted, DmaError, wdm/DmaCancelled, wdm/DmaComplete, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/DmaError, kernel.dma_completion_status, DmaComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,22 +74,22 @@ typedef enum  {
 
 
 
-### -field DmaComplete
+#### - DmaComplete
 
 The DMA transfer completed successfully.
 
 
-### -field DmaAborted
+#### - DmaAborted
 
 Not used.
 
 
-### -field DmaError
+#### - DmaError
 
 The DMA transfer did not complete successfully because an error occurred.
 
 
-### -field DmaCancelled
+#### - DmaCancelled
 
 The DMA transfer did not complete successfully because the client canceled the transfer.
 

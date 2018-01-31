@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 14775785-27e3-4bfa-ad69-695869ebb5d6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric.winbio_update_firmware, WINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE structure pointer [Biometric Devices], _WINBIO_UPDATE_FIRMWARE, biometric_ref_e4f6a748-a0a4-4dcd-883a-a00e568acf7f.xml, winbio_ioctl/PWINBIO_UPDATE_FIRMWARE, WINBIO_UPDATE_FIRMWARE structure [Biometric Devices], *PWINBIO_UPDATE_FIRMWARE, winbio_ioctl/WINBIO_UPDATE_FIRMWARE
+ms.keywords: winbio_ioctl/WINBIO_UPDATE_FIRMWARE, *PWINBIO_UPDATE_FIRMWARE, _WINBIO_UPDATE_FIRMWARE, winbio_ioctl/PWINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE structure pointer [Biometric Devices], WINBIO_UPDATE_FIRMWARE structure [Biometric Devices], biometric_ref_e4f6a748-a0a4-4dcd-883a-a00e568acf7f.xml, biometric.winbio_update_firmware, WINBIO_UPDATE_FIRMWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WINBIO_UPDATE_FIRMWARE
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_UPDATE_FIRMWARE, *PWINBIO_UPDATE_FIRMWARE
+req.typenames: "*PWINBIO_UPDATE_FIRMWARE, WINBIO_UPDATE_FIRMWARE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _WINBIO_UPDATE_FIRMWARE {
 
 
 
-### -field PayloadSize
+#### - PayloadSize
 
 Specifies the total size of the payload, which includes the fixed length structure and any variable data at the end.
 
 
-### -field FirmwareData
+#### - FirmwareData
 
 Specifies a structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a> that contains the vendor-specific firmware image.
 

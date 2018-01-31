@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2ef0961b-4f7c-46a8-8cfa-aabbfc213565
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetExecutorRFState, netvista.ril_getexecutorrfstate
+ms.keywords: RIL_GetExecutorRFState, rilapi/RIL_GetExecutorRFState, netvista.ril_getexecutorrfstate, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetExecutorRFState(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwExecutor
+#### - dwExecutor
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 559a98e0-61fd-4234-a595-e533e7eaafe8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wskref_131878e6-5665-47e1-9b84-0dcbdecb9444.xml, _WSK_CLIENT_DATAGRAM_DISPATCH, wsk/WSK_CLIENT_DATAGRAM_DISPATCH, netvista.wsk_client_datagram_dispatch, WSK_CLIENT_DATAGRAM_DISPATCH, wsk/PWSK_CLIENT_DATAGRAM_DISPATCH, WSK_CLIENT_DATAGRAM_DISPATCH structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: WSK_CLIENT_DATAGRAM_DISPATCH structure [Network Drivers Starting with Windows Vista], wskref_131878e6-5665-47e1-9b84-0dcbdecb9444.xml, *PWSK_CLIENT_DATAGRAM_DISPATCH, netvista.wsk_client_datagram_dispatch, WSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH, _WSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_CLIENT_DATAGRAM_DISPATCH, wsk/PWSK_CLIENT_DATAGRAM_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_CLIENT_DATAGRAM_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_CLIENT_DATAGRAM_DISPATCH, WSK_CLIENT_DATAGRAM_DISPATCH"
+req.typenames: WSK_CLIENT_DATAGRAM_DISPATCH, *PWSK_CLIENT_DATAGRAM_DISPATCH
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ typedef struct _WSK_CLIENT_DATAGRAM_DISPATCH {
 
 
 
-### -field WskReceiveFromEvent
+#### - WskReceiveFromEvent
 
 A pointer to the WSK application's 
      <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a> event callback
@@ -89,12 +89,12 @@ A WSK application passes a pointer to a WSK_CLIENT_DATAGRAM_DISPATCH structure t
 
 ## -see-also
 
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+
+<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
+   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2d1b967-32fb-437a-a0bd-e0028acee022
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisProcessorVendorAuthenticAMD, NdisProcessorVendorUnknown, ntddndis/NdisProcessorVendorUnknown, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_VENDOR, _NDIS_PROCESSOR_VENDOR, *PNDIS_PROCESSOR_VENDOR, netvista.ndis_processor_vendor, ntddndis/NDIS_PROCESSOR_VENDOR, ntddndis/PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, NdisProcessorVendorGenuinIntel, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorGenuinIntel
+ms.keywords: NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorAuthenticAMD, ntddndis/NDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorGenuinIntel, PNDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], NdisProcessorVendorGenuinIntel, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], NdisProcessorVendorUnknown, ntddndis/PNDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorUnknown, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, *PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, _NDIS_PROCESSOR_VENDOR, netvista.ndis_processor_vendor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _NDIS_PROCESSOR_VENDOR {
 
 
 
-### -field NdisProcessorVendorUnknown
+#### - NdisProcessorVendorUnknown
 
 The processor vendor is unknown.
 
 
-### -field NdisProcessorVendorGenuinIntel
+#### - NdisProcessorVendorGenuinIntel
 
 The processor vendor is Intel.
 
@@ -83,7 +83,7 @@ The processor vendor is Intel.
 
 
 
-### -field NdisProcessorVendorAuthenticAMD
+#### - NdisProcessorVendorAuthenticAMD
 
 The processor vendor is AMD.
 

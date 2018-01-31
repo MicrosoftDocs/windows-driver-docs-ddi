@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57FF3890-6B37-45EB-BB02-22B2ADDFAA90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/ZoneConditionClosed, STORAGE_ZONE_CONDITION, ZoneConditionConventional, ZoneConditionReadOnly, ntddstor/ZoneConditionOffline, ZoneConditionOffline, storage.storage_zone_condition, ntddstor/ZoneConditionImplicitlyOpened, *PSTORAGE_ZONE_CONDITION, _STORAGE_ZONE_CONDITION, ntddstor/PSTORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ZoneConditionClosed, PSTORAGE_ZONE_CONDITION, ZoneConditionImplicitlyOpened, ZoneConditionFull, ntddstor/ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionFull, ntddstor/ZoneConditionConventional, ZoneConditionEmpty, ntddstor/ZoneConditionEmpty, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ntddstor/STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionReadOnly
+ms.keywords: STORAGE_ZONE_CONDITION enumeration [Storage Devices], ZoneConditionOffline, ntddstor/ZoneConditionOffline, storage.storage_zone_condition, ZoneConditionConventional, ZoneConditionImplicitlyOpened, ntddstor/ZoneConditionClosed, PSTORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened, ntddstor/PSTORAGE_ZONE_CONDITION, _STORAGE_ZONE_CONDITION, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/STORAGE_ZONE_CONDITION, ZoneConditionClosed, ZoneConditionFull, ZoneConditionEmpty, ntddstor/ZoneConditionExplicitlyOpened, *PSTORAGE_ZONE_CONDITION, ntddstor/ZoneConditionReadOnly, ZoneConditionReadOnly, STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionEmpty, ntddstor/ZoneConditionImplicitlyOpened, ntddstor/ZoneConditionFull, ntddstor/ZoneConditionConventional
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_ZONE_CONDITION
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
+req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # _STORAGE_ZONE_CONDITION enumeration
@@ -77,42 +77,42 @@ typedef enum _STORAGE_ZONE_CONDITION {
 
 
 
-### -field ZoneConditionConventional
+#### - ZoneConditionConventional
 
 N/A
 
 
-### -field ZoneConditionEmpty
+#### - ZoneConditionEmpty
 
 N/A
 
 
-### -field ZoneConditionImplicitlyOpened
+#### - ZoneConditionImplicitlyOpened
 
 N/A
 
 
-### -field ZoneConditionExplicitlyOpened
+#### - ZoneConditionExplicitlyOpened
 
 N/A
 
 
-### -field ZoneConditionClosed
+#### - ZoneConditionClosed
 
 N/A
 
 
-### -field ZoneConditionReadOnly
+#### - ZoneConditionReadOnly
 
 N/A
 
 
-### -field ZoneConditionFull
+#### - ZoneConditionFull
 
 N/A
 
 
-### -field ZoneConditionOffline
+#### - ZoneConditionOffline
 
 N/A
 

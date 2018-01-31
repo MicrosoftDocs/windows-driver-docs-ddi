@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 753FC177-D430-40E5-98CD-B3BDFD47ACEF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code, DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE
+ms.keywords: display.dxgk_fault_error_code, d3dkmdt/DXGK_FAULT_ERROR_CODE, _DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], DXGK_FAULT_ERROR_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,19 +76,19 @@ typedef struct _DXGK_FAULT_ERROR_CODE {
 
 
 
-### -field IsDeviceSpecificCode
+#### - IsDeviceSpecificCode
 
 When set, this indicates that the GPU error code is specific to the particular vendor. In this case, <b>DeviceSpecificCode</b> should be set to a vendor specific error code.
 
 When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_general_error_code.md">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
 
-### -field GeneralErrorCode
+#### - GeneralErrorCode
 
 General error code defined by <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_general_error_code.md">DXGK_GENERAL_ERROR_CODE</a>.
 
 
-### -field IsDeviceSpecificCodeReservedBit
+#### - IsDeviceSpecificCodeReservedBit
 
 Same as <b>IsDeviceSpecificCode</b> member above:
 
@@ -97,7 +97,7 @@ When set, this indicates that the GPU error code is specific to the particular v
 When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_general_error_code.md">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
 
-### -field DeviceSpecificCode
+#### - DeviceSpecificCode
 
 A device specific error code.
 

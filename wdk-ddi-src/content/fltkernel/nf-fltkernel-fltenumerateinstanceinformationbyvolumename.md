@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BBABE50B-98FF-440E-B5B0-11C8F901D8FE
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltenumerateinstanceinformationbyvolumename, fltkernel/FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers]
+ms.keywords: FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers], ifsk.fltenumerateinstanceinformationbyvolumename, FltEnumerateInstanceInformationByVolumeName, fltkernel/FltEnumerateInstanceInformationByVolumeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS FltEnumerateInstanceInformationByVolumeName(
 
 
 
-### -param VolumeName [in]
+#### - VolumeName [in]
 
 The name of the volume to enumerate filter instances for.
 
 
-### -param Index [in]
+#### - Index [in]
 
 Zero-based index of the minifilter driver instance or legacy filter driver for which the information is requested.
 
 
-### -param InformationClass [in]
+#### - InformationClass [in]
 
 Type of information to be returned for the minifilter driver instance or legacy filter driver. This parameter can have one of the following values.
 <table>
@@ -134,17 +134,17 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="..\flt
 </table> 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value.
 
 
-### -param BytesReturned [out]
+#### - BytesReturned [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltEnumerateInstanceInformationByVolumeName</b> returns <b>STATUS_BUFFER_TOO_SMALL</b> and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>.
 
@@ -269,9 +269,9 @@ This routine will return both legacy filter driver information and minifilter dr
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbydeviceobject.md">FltEnumerateInstanceInformationByDeviceObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 

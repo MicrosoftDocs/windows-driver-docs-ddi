@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B073D354-14FB-477E-BBD7-8BD282696EF4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetGfxState method [Audio Devices], audio.iminiportaudioenginenode_setgfxstate, SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], SetGfxState method, SetGfxState, portcls/IMiniportAudioEngineNode::SetGfxState, IMiniportAudioEngineNode::SetGfxState, IMiniportAudioEngineNode
+ms.keywords: SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetGfxState method, IMiniportAudioEngineNode::SetGfxState, IMiniportAudioEngineNode, SetGfxState, portcls/IMiniportAudioEngineNode::SetGfxState, SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setgfxstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.SetGfxState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::SetGfxState method
@@ -68,12 +68,12 @@ NTSTATUS SetGfxState(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID of the GFX node.
 
 
-### -param bEnable [in]
+#### - bEnable [in]
 
 The state of the GFX node.
 

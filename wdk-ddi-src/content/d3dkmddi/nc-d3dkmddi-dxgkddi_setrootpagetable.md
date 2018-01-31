@@ -77,12 +77,12 @@ VOID APIENTRY DxgkDdiSetRootPageTable(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle to the display adapter.
 
 
-### -param pSetPageTable [in]
+#### - pSetPageTable [in]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setrootpagetable.md">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
 

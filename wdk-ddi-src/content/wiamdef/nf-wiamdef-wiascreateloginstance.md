@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7a340187-51c5-4997-b4d0-5b89ea8e16c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasCreateLogInstance, wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml, wiasCreateLogInstance function [Imaging Devices], image.wiascreateloginstance, wiamdef/wiasCreateLogInstance
+ms.keywords: wiamdef/wiasCreateLogInstance, wiasCreateLogInstance function [Imaging Devices], wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml, wiasCreateLogInstance, image.wiascreateloginstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasCreateLogInstance
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ HRESULT _stdcall wiasCreateLogInstance(
 
 
 
-### -param pModuleHandle [in]
+#### - pModuleHandle [in]
 
 Pointer to the module handle, which is used to filter output.
 
 
-### -param ppIWiaLogEx [out]
+#### - ppIWiaLogEx [out]
 
 Pointer to a memory location that receives the address of the logging interface.
 

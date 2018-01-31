@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00833038-1fff-4103-9508-07cb8cbfa846
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmAddPartyComplete, condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml
+ms.keywords: NdisCmAddPartyComplete, ndis/NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete, condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,26 +72,26 @@ VOID NdisCmAddPartyComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the call manager's add-party operation, either NDIS_STATUS_SUCCESS
      or any NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-### -param NdisPartyHandle [in]
+#### - NdisPartyHandle [in]
 
 Specifies the handle identifying the party. This handle was input to the call manager's 
      <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
 
 
-### -param CallMgrPartyContext [in, optional]
+#### - CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area in which the call manager will
      maintain party-specific state information if the add-party operation succeeded. Otherwise, this
      parameter can be <b>NULL</b> because it is ignored.
 
 
-### -param CallParameters [in]
+#### - CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that contains the call
@@ -170,18 +170,18 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 <mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
    NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
  
 

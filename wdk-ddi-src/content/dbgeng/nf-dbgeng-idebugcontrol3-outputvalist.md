@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl::OutputVaList, dbgeng/IDebugControl3::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, debugger.outputvalist, OutputVaList method [Windows Debugging], OutputVaList, IDebugControl2::OutputVaList, IDebugControl3::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], OutputVaList method, dbgeng/IDebugControl::OutputVaList
+ms.keywords: IDebugControl3, OutputVaList method [Windows Debugging], IDebugControl interface, IDebugControl2::OutputVaList, IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, IDebugControl2 interface [Windows Debugging], OutputVaList method, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging], IDebugControl2 interface, OutputVaList method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::OutputVaList, IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, IDebugControl3 interface [Windows Debugging], OutputVaList method, OutputVaList, dbgeng/IDebugControl3::OutputVaList, debugger.outputvalist, IDebugControl::OutputVaList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT OutputVaList(
 
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-### -param Format [in]
+#### - Format [in]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -253,7 +253,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 </table> 
 
 
-### -param Args [in]
+#### - Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
@@ -291,17 +291,17 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
  
 

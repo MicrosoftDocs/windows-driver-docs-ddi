@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 12261b88-681e-4623-b5af-abaae756e3e1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging], RemoveSymbolByNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, IDebugSymbolGroup2, IDebugSymbolGroup2::RemoveSymbolByNameWide, debugger.removesymbolbynamewide, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByNameWide method
+ms.keywords: dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging], IDebugSymbolGroup2::RemoveSymbolByNameWide, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByNameWide method, RemoveSymbolByNameWide, IDebugSymbolGroup2, debugger.removesymbolbynamewide, RemoveSymbolByNameWide method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT RemoveSymbolByNameWide(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 The name of the symbol to remove from the symbol group.
 
@@ -109,13 +109,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
  
 

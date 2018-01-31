@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbUnmapMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_UNMAP_MEMORY callback
@@ -71,12 +71,12 @@ NTSTATUS DxgkCbUnmapMemory(
 
 
 
-### -param DeviceHandle [in]
+#### - DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 The beginning address of the range to be unmapped. This address can be a virtual address in system space, a virtual address in the address space of a user-mode process, or an address in I/O space.
 

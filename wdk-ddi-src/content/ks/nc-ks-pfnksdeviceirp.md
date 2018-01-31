@@ -83,12 +83,12 @@ NTSTATUS AVStrMiniDeviceQueryRemove(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> that dispatched the IRP.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 The IRP issued by <i>Device</i>.
 
@@ -159,9 +159,9 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 364db984-1107-4381-ade3-413e238b9796
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure pointer [Audio Devices], PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, ksmedia/KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, ksmedia/PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, aud-prop_0c408e4a-d94e-4458-9b31-da185dc42747.xml, KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure [Audio Devices], audio.ksrtaudio_notification_event_property"
+ms.keywords: ksmedia/KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure [Audio Devices], audio.ksrtaudio_notification_event_property, PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure pointer [Audio Devices], *PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, aud-prop_0c408e4a-d94e-4458-9b31-da185dc42747.xml, ksmedia/PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, *PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
+req.typenames: "*PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY"
 ---
 
 # KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 A KSPROPERTY structure that the client initializes appropriately prior to calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff537387">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a>.
 
 
-### -field NotificationEvent
+#### - NotificationEvent
 
 Specifies a user-mode event handle to be registered or unregistered for event notifications.
 
@@ -89,13 +89,13 @@ The <b>NotificationEvent</b> member is a user-mode event handle that, when regis
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
 
-<b>KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</b>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
+<b>KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</b>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	EvtWmiInstanceExecuteMethod
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
+req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -78,32 +78,32 @@ NTSTATUS EvtWmiInstanceExecuteMethod(
 
 
 
-### -param WmiInstance [in]
+#### - WmiInstance [in]
 
 A handle to a WMI instance object.
 
 
-### -param MethodId [in]
+#### - MethodId [in]
 
 A value that identifies a method in a provider instance. This value corresponds to the <a href="https://msdn.microsoft.com/e2d281b3-913c-43ad-921c-80dc8be09aa0">WmiMethodId</a> value that is specified in the provider's MOF file.
 
 
-### -param InBufferSize [in]
+#### - InBufferSize [in]
 
 The number of bytes of input data.
 
 
-### -param OutBufferSize [in]
+#### - OutBufferSize [in]
 
 The number of bytes of output data that the buffer that <i>Buffer</i> points to can hold.
 
 
-### -param Buffer [in, out]
+#### - Buffer [in, out]
 
 A pointer to a buffer that is used for input, output, or both, as determined by the specified method. If both input and output data are provided, the driver overwrites the input data with the output data.
 
 
-### -param BufferUsed [out]
+#### - BufferUsed [out]
 
 A pointer to a location that receives the number of bytes that the driver wrote into the output buffer. If the output buffer size that the <i>OutBufferSize</i> parameter specifies is too small, the driver sets this location to the required buffer size.  
 
@@ -132,15 +132,15 @@ For more information about the <i>EvtWmiInstanceExecuteMethod</i> callback funct
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
-
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
-
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
 
  
 

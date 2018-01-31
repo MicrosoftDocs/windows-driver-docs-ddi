@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a44a45bf-4c21-4507-a89b-4130622bdd06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idarg_in_i2c_receive, IDARG_IN_I2C_RECEIVE structure [Display Devices], iddcx/IDARG_IN_I2C_RECEIVE, IDARG_IN_I2C_RECEIVE
+ms.keywords: IDARG_IN_I2C_RECEIVE structure [Display Devices], iddcx/IDARG_IN_I2C_RECEIVE, IDARG_IN_I2C_RECEIVE, display.idarg_in_i2c_receive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,28 +71,28 @@ typedef struct IDARG_IN_I2C_RECEIVE {
 
 
 
-### -field SevenBitI2CAddress
+#### - SevenBitI2CAddress
 
 
                      [in] The address of the I2C device from which data will be received.
                  
 
 
-### -field Flags
+#### - Flags
 
 
                      [in] Flags for the receive operation.
                  
 
 
-### -field DataSizeInBytes
+#### - DataSizeInBytes
 
 
                      [in] The size, in bytes, of the buffer pointed to by <b>pData</b>.
                  
 
 
-### -field pData
+#### - pData
 
 
                      [out] A pointer to a buffer that receives the data.

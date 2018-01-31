@@ -71,12 +71,12 @@ LONGLONG FASTCALL KStrClockGetCorrelatedTime(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
 
-### -param SystemTime [out]
+#### - SystemTime [out]
 
 A pointer to a 64-bit integer containing the number of clock ticks since system boot.
 
@@ -93,7 +93,7 @@ This routine returns the current system time as a value of type LONGLONG. This v
 
 You can obtain an entry point for this routine by supplying a driver-allocated <a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a> structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request.
 
-The system time is acquired from <a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
+The system time is acquired from <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
 
 Both time values are specified in 100 nanosecond units.
 
@@ -101,13 +101,13 @@ Both time values are specified in 100 nanosecond units.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
+<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
 
-<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
 
  
 

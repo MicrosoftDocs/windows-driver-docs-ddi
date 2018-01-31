@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2c1242ea-5d77-464e-9203-ef2236ea4619
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRegKeyObjectRef_d3260d42-afdc-4858-a0b4-e2ae90327066.xml, WdfRegistryQueryString method, WdfRegistryQueryString, wdf.wdfregistryquerystring, wdfregistry/WdfRegistryQueryString, kmdf.wdfregistryquerystring
+ms.keywords: wdfregistry/WdfRegistryQueryString, WdfRegistryQueryString method, WdfRegistryQueryString, wdf.wdfregistryquerystring, kmdf.wdfregistryquerystring, DFRegKeyObjectRef_d3260d42-afdc-4858-a0b4-e2ae90327066.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryQueryString
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -75,17 +75,17 @@ NTSTATUS WdfRegistryQueryString(
 
 
 
-### -param Key [in]
+#### - Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a name for the registry value. 
 
 
-### -param String [in]
+#### - String [in]
 
 A handle to a framework string object. The framework will assign the registry value's string data to this object.
 
@@ -202,21 +202,21 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 ## -see-also
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
 <a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
 
 <a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
 
  
 

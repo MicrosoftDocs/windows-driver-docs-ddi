@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45941a4d-12e0-4a80-b04e-9e349126f5ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_supported_dsss_channel_list, _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST
+ms.keywords: "_DOT11_SUPPORTED_DSSS_CHANNEL_LIST, windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_supported_dsss_channel_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,19 +71,19 @@ typedef struct _DOT11_SUPPORTED_DSSS_CHANNEL_LIST {
 
 
 
-### -field uNumOfEntries
+#### - uNumOfEntries
 
 The number of entries in the 
      <b>dot11SupportedDSSSChannel</b> array.
 
 
-### -field uTotalNumOfEntries
+#### - uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>dot11SupportedDSSSChannel</b> array can contain.
 
 
-### -field dot11SupportedDSSSChannel
+#### - dot11SupportedDSSSChannel
 
 An array that specifies the list of supported frequency channels that the NIC can operate with.
      Each element in this list is formatted as a 
@@ -102,10 +102,10 @@ A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when q
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">DOT11_SUPPORTED_DSSS_CHANNEL</a>
-
 <mshelp:link keywords="netvista.oid_dot11_supported_dsss_channel_list" tabindex="0">
    OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</mshelp:link>
+
+<a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">DOT11_SUPPORTED_DSSS_CHANNEL</a>
 
  
 

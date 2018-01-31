@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9e08a57-c9dd-4703-b29d-c169ba77f194
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, kernel.rtlcreatesecuritydescriptor, RtlCreateSecurityDescriptor, RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], wdm/RtlCreateSecurityDescriptor
+ms.keywords: RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, RtlCreateSecurityDescriptor, wdm/RtlCreateSecurityDescriptor, kernel.rtlcreatesecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS RtlCreateSecurityDescriptor(
 
 
 
-### -param SecurityDescriptor [out]
+#### - SecurityDescriptor [out]
 
 Pointer to the buffer for the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> to be initialized.
 
 
-### -param Revision [in]
+#### - Revision [in]
 
 Specifies the revision level to assign to the security descriptor. Set this parameter to SECURITY_DESCRIPTOR_REVISION.
 
@@ -126,11 +126,11 @@ A successful call to this routine initializes a security descriptor. The fields 
 
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
 <a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
  
 

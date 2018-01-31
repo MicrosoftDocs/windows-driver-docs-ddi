@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4453534e-ce2b-4b0d-a93d-3d17185083fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_vidpn_present_path_scaling, D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration [Display Devices], D3DKMDT_VPPS_IDENTITY, D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, D3DKMDT_VPPS_CENTERED, D3DKMDT_VPPS_NOTSPECIFIED, D3DKMDT_VPPS_CUSTOM, D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_UNPINNED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_UNPINNED, d3dkmdt/D3DKMDT_VPPS_IDENTITY, d3dkmdt/D3DKMDT_VPPS_NOTSPECIFIED, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_CENTERED, D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_UNINITIALIZED, DmEnums_a2e5faad-ade2-4a1d-b096-f221bf0bdf20.xml, d3dkmdt/D3DKMDT_VPPS_CUSTOM
+ms.keywords: "_D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_CUSTOM, d3dkmdt/D3DKMDT_VPPS_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_CENTERED, d3dkmdt/D3DKMDT_VPPS_STRETCHED, D3DKMDT_VPPS_RESERVED1, D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_CUSTOM, DmEnums_a2e5faad-ade2-4a1d-b096-f221bf0bdf20.xml, D3DKMDT_VPPS_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPS_UNPINNED, display.d3dkmdt_vidpn_present_path_scaling, D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, d3dkmdt/D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, d3dkmdt/D3DKMDT_VPPS_UNINITIALIZED, D3DKMDT_VPPS_IDENTITY, D3DKMDT_VPPS_CENTERED, D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration [Display Devices], D3DKMDT_VPPS_UNPINNED, d3dkmdt/D3DKMDT_VPPS_IDENTITY, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,53 +75,53 @@ typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_SCALING {
 
 
 
-### -field D3DKMDT_VPPS_UNINITIALIZED
+#### - D3DKMDT_VPPS_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_VIDPN_PRESENT_PATH_SCALING has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_VPPS_IDENTITY
+#### - D3DKMDT_VPPS_IDENTITY
 
 Indicates the identity transformation; the source content is presented with no change. Note that this transformation is available only if the path's source mode has the same spatial resolution as the path's target mode.
 
 
-### -field D3DKMDT_VPPS_CENTERED
+#### - D3DKMDT_VPPS_CENTERED
 
 Indicates the centering transformation; the source content is presented unscaled, centered with respect to the spatial resolution of the target mode.
 
 
-### -field D3DKMDT_VPPS_STRETCHED
+#### - D3DKMDT_VPPS_STRETCHED
 
 Indicates that the source content is scaled to fit the path's target, and the aspect ratio of the source is not preserved.
 
 
-### -field D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX
+#### - D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX
 
 Indicates that the source content is scaled to fit the path's target while preserving the aspect ratio of the source.
 
 This constant value is available beginning with Windows 7. See further information in the Remarks section.
 
 
-### -field D3DKMDT_VPPS_CUSTOM
+#### - D3DKMDT_VPPS_CUSTOM
 
 Indicates that the path is capable of displaying one or more scaling modes that are not described by other constants of this enumeration.
 
 This constant value is available beginning with Windows 7. See further information in the Remarks section.
 
 
-### -field D3DKMDT_VPPS_RESERVED1
+#### - D3DKMDT_VPPS_RESERVED1
 
 Reserved for system use. Do not use this value. This value will never be passed to a driver.
 
 This constant value is available beginning with Windows 7.
 
 
-### -field D3DKMDT_VPPS_UNPINNED
+#### - D3DKMDT_VPPS_UNPINNED
 
 Indicates that no scaling transformation has been pinned for the VidPN present source.
 
 
-### -field D3DKMDT_VPPS_NOTSPECIFIED
+#### - D3DKMDT_VPPS_NOTSPECIFIED
 
 Indicates that no transformation has been specified. See further information in the Remarks section.
 

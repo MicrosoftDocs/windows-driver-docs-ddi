@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F494ED4C-DA2F-4630-B0CA-8B3BE7D26A80
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, IWDFIoRequest3, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, IWDFIoRequest3::SetUserModeDriverInitiatedIo, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo, wdf.iwdfiorequest3_setusermodedriverinitiatedio, SetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, umdf.iwdfiorequest3_setusermodedriverinitiatedio
+ms.keywords: IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, wdf.iwdfiorequest3_setusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, IWDFIoRequest3::SetUserModeDriverInitiatedIo, IWDFIoRequest3, SetUserModeDriverInitiatedIo, umdf.iwdfiorequest3_setusermodedriverinitiatedio, SetUserModeDriverInitiatedIo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest3.SetUserModeDriverInitiatedIo
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ void SetUserModeDriverInitiatedIo(
 
 
 
-### -param IsUserModeDriverInitiated [in]
+#### - IsUserModeDriverInitiated [in]
 
 A Boolean value that, if <b>TRUE</b>, indicates that the request should be treated as though it was initiated by a UMDF driver. If <b>FALSE</b>, this parameter indicates that the request should be treated as though it came from an application.
 

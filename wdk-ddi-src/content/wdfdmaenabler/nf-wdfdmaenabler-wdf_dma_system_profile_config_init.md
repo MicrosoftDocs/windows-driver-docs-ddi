@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C3E9B4D6-A1BB-425E-A131-D93C3219D28B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_dma_system_profile_config_init, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, wdf.wdf_dma_system_profile_config_init, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function
+ms.keywords: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, kmdf.wdf_dma_system_profile_config_init, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, wdf.wdf_dma_system_profile_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,17 +79,17 @@ void WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT(
 TBD
 
 
-### -param Address [in]
+#### - Address [in]
 
 The translated address of the register to target for DMA. For more information, see Remarks.
 
 
-### -param DmaWidth [in]
+#### - DmaWidth [in]
 
 The width of the register specified by <b>Address</b>.
 
 
-### -param DmaDescriptor [in]
+#### - DmaDescriptor [in]
 
 The translated resource descriptor for the DMA channel assigned 
       the device during <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>.
@@ -120,9 +120,9 @@ Depending on the System on a Chip (SoC) design, the <i>Address</i> parameter mig
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>
 

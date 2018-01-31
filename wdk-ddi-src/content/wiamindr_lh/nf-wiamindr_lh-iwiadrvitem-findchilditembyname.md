@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 04f446f2-cd59-4191-be0c-60140ecee3b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FindChildItemByName method [Imaging Devices], DrvItem_afe8c47f-ebf9-484e-94bf-fdcd4713ea2a.xml, IWiaDrvItem::FindChildItemByName, IWiaDrvItem interface [Imaging Devices], FindChildItemByName method, wiamindr_lh/IWiaDrvItem::FindChildItemByName, image.iwiadrvitem_findchilditembyname, FindChildItemByName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem, FindChildItemByName
+ms.keywords: FindChildItemByName method [Imaging Devices], IWiaDrvItem::FindChildItemByName, FindChildItemByName, FindChildItemByName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], FindChildItemByName method, DrvItem_afe8c47f-ebf9-484e-94bf-fdcd4713ea2a.xml, wiamindr_lh/IWiaDrvItem::FindChildItemByName, IWiaDrvItem, image.iwiadrvitem_findchilditembyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaDrvItem.FindChildItemByName
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 

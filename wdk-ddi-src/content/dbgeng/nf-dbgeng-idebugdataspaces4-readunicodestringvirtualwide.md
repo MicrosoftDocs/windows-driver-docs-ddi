@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadUnicodeStringVirtualWide method [Windows Debugging], debugger.readunicodestringvirtualwide, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide
+ms.keywords: ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, debugger.readunicodestringvirtualwide, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT ReadUnicodeStringVirtualWide(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location of the string in the process's virtual address space.
 
 
-### -param MaxBytes [in]
+#### - MaxBytes [in]
 
 Specifies the maximum number of bytes to read from the target.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 <div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div><div> </div>
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param StringBytes [out, optional]
+#### - StringBytes [out, optional]
 
 Receives the size, in bytes, of the string.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 
@@ -150,11 +150,11 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
  
 

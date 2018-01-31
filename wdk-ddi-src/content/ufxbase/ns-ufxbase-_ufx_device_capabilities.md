@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], ufxbase/PUFX_DEVICE_CAPABILITIES
+ms.keywords: buses.ufx_device_capabilities, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES structure [Buses], PUFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, ufxbase/PUFX_DEVICE_CAPABILITIES, ufxbase/UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _UFX_DEVICE_CAPABILITIES {
 
 
 
-### -field Size
+#### - Size
 
 Size of the <b>UFX_DEVICE_CAPABILITIES</b> structure.
 
 
-### -field MaxSpeed
+#### - MaxSpeed
 
 Indicates the maximum USB speed supported by the device.
 
 
-### -field RemoteWakeSignalDelay
+#### - RemoteWakeSignalDelay
 
 The minimum time interval in milliseconds to wait after being suspended before requesting remote wakeup.
 
 
-### -field PdcpSupported
+#### - PdcpSupported
 
 If  <b>true</b>, indicates the client driver supports proprietary charger detection.
 
 
-### -field InEndpointBitmap
+#### - InEndpointBitmap
 
 A bitmap that defines which endpoint numbers can support an IN endpoint.  Bit 0 indicates endpoint address 0, bit 1 indicates endpoint address 1, etc.   Bit 0 (the default control endpoint) is required to be set to 1.
 
 
-### -field OutEndpointBitmap
+#### - OutEndpointBitmap
 
 A bitmap that defines which endpoint numbers can support an OUT endpoint.  Bit 0 indicates endpoint address 0, bit 1 indicates endpoint address 1, etc.   Bit 0 (the default control endpoint) is required to be set to 1.
 

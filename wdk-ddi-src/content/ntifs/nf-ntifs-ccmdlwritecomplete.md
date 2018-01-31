@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMdlWriteComplete, ntifs/CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, CcMdlWriteComplete routine [Installable File System Drivers], ifsk.ccmdlwritecomplete
+ms.keywords: CcMdlWriteComplete routine [Installable File System Drivers], CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID CcMdlWriteComplete(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 File object pointer that was passed to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Value of <i>FileOffset</i> that was passed to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>.
 
 
-### -param MdlChain [in]
+#### - MdlChain [in]
 
 Address of the MDL chain returned by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e061c8c3-b0f9-4341-b064-91df43303f70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltFreeDeferredIoWorkItem, FltApiRef_e_to_o_677ca3fc-8c9e-4e3e-8ed4-00a25779913d.xml, FltFreeDeferredIoWorkItem, ifsk.fltfreedeferredioworkitem, FltFreeDeferredIoWorkItem routine [Installable File System Drivers]
+ms.keywords: ifsk.fltfreedeferredioworkitem, FltFreeDeferredIoWorkItem, fltkernel/FltFreeDeferredIoWorkItem, FltFreeDeferredIoWorkItem routine [Installable File System Drivers], FltApiRef_e_to_o_677ca3fc-8c9e-4e3e-8ed4-00a25779913d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID FltFreeDeferredIoWorkItem(
 
 
 
-### -param FltWorkItem [in]
+#### - FltWorkItem [in]
 
 Opaque pointer to the work item to be freed. 
 
@@ -91,9 +91,9 @@ The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reser
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
 
  
 

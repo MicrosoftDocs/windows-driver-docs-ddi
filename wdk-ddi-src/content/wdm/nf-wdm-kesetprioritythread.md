@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 400176a1-9192-424b-be37-9386cc3ffbb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetPriorityThread routine [Kernel-Mode Driver Architecture], wdm/KeSetPriorityThread, kernel.kesetprioritythread, k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, KeSetPriorityThread
+ms.keywords: KeSetPriorityThread routine [Kernel-Mode Driver Architecture], kernel.kesetprioritythread, wdm/KeSetPriorityThread, k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, KeSetPriorityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ KPRIORITY KeSetPriorityThread(
 
 
 
-### -param Thread [in, out]
+#### - Thread [in, out]
 
 Pointer to the driver-created thread.
 
 
-### -param Priority [in]
+#### - Priority [in]
 
 Specifies the priority of the driver-created thread, usually to the real-time priority value, LOW_REALTIME_PRIORITY. The value LOW_PRIORITY is reserved for system use. 
 
@@ -95,9 +95,9 @@ If a call to <b>KeSetPriorityThread</b> resets the thread's priority to a lower 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
-
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
 
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c2137849-aff0-4bf7-abab-b92e17aaef70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, KsPinGenerateEvents, ks/KsPinGenerateEvents, stream.kspingenerateevents, KsPinGenerateEvents function [Streaming Media Devices]
+ms.keywords: avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, KsPinGenerateEvents function [Streaming Media Devices], KsPinGenerateEvents, ks/KsPinGenerateEvents, stream.kspingenerateevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,32 +74,32 @@ void _inline KsPinGenerateEvents(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure on which to generate events. 
 
 
-### -param EventSet [in, optional]
+#### - EventSet [in, optional]
 
 A pointer to the event set GUID to match to determine which events to generate. If this parameter is <b>NULL</b>, set GUID is not taken into account for determining matching events.
 
 
-### -param EventId [in]
+#### - EventId [in]
 
 The event ID to match to determine which events to generate.
 
 
-### -param DataSize [in]
+#### - DataSize [in]
 
 The size in bytes of the data with which to generate the data event.
 
 
-### -param Data [in, optional]
+#### - Data [in, optional]
 
 A pointer to a data buffer. Specify if generating a data event.
 
 
-### -param CallBack [in, optional]
+#### - CallBack [in, optional]
 
 A pointer to a caller-specified function that is called to determine whether a given event should be generated. If <b>NULL</b>, no callback verification is performed to determine whether an event should be generated (only <i>EventSet </i>and <i>EventId</i> are used). Prototype as follows:
 <div class="code"><span codelanguage=""><table>
@@ -116,7 +116,7 @@ A pointer to a caller-specified function that is called to determine whether a g
 </table></span></div><b>KsPinGenerateEvents</b> passes the <i>CallBackContext</i> parameter unchanged as the <i>Context</i> parameter for the callback. The callback function returns <b>TRUE</b> if <i>EventEntry</i> should be generated. Otherwise, it returns <b>FALSE</b>. 
 
 
-### -param CallBackContext [in, optional]
+#### - CallBackContext [in, optional]
 
 A pointer to a caller-specified context that is passed to the callback function <i>CallBack</i>. 
 
@@ -155,11 +155,11 @@ The event is present in <i>Pin's </i>event list and <i>EventId </i>matches the e
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
 
 <a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
-
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1F43EEDC-5DB4-4ABE-BBC6-A4A51FCAF0B6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeTimer routine [Storage Devices], StorPortInitializeTimer, storport/StorPortInitializeTimer, storage.storportinitializetimer
+ms.keywords: storage.storportinitializetimer, StorPortInitializeTimer routine [Storage Devices], StorPortInitializeTimer, storport/StorPortInitializeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortInitializeTimer(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param TimerHandle [out]
+#### - TimerHandle [out]
 
 A pointer to an opaque buffer that holds context information for the timer.
 
@@ -163,13 +163,13 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
 
 <a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
  
 

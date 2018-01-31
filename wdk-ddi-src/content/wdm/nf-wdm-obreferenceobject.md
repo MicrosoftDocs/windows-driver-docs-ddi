@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.obreferenceobject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObReferenceObject, wdm/ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, wdm/ObReferenceObject, ObfReferenceObject
+ms.keywords: ObReferenceObject routine [Kernel-Mode Driver Architecture], ObReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, wdm/ObfReferenceObject, kernel.obreferenceobject, ObfReferenceObject, wdm/ObReferenceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,7 +69,7 @@ VOID ObReferenceObject(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 Pointer to the object. The caller obtained this parameter either when it created the object or from a preceding call to <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> after it opened the object. 
 
@@ -87,13 +87,13 @@ When the reference count for an object reaches zero, a kernel-mode component can
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
  
 

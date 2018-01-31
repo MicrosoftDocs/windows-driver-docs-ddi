@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CC8BEC9A-87F6-4C50-A8FA-ED2A2A5D2934
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_TYPE, _NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_UART, nfccx/NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_I2C, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_SPI, nfccx/NFC_CX_TRANSPORT_SPI, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_UART, nfpdrivers.nfc_cx_transport_type, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers]
+ms.keywords: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_TRANSPORT_UART, nfpdrivers.nfc_cx_transport_type, nfccx/NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_I2C, nfccx/NFC_CX_TRANSPORT_SPI, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_SPI, NFC_CX_TRANSPORT_UART, _NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_TRANSPORT_CUSTOM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
+req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
 
 # _NFC_CX_TRANSPORT_TYPE enumeration
@@ -70,31 +70,31 @@ typedef enum _NFC_CX_TRANSPORT_TYPE {
 
 
 
-### -field NFC_CX_TRANSPORT_I2C
+#### - NFC_CX_TRANSPORT_I2C
 
 Specifies an Inter-Integrated Circuit (I2C) bus.
 
 
-### -field NFC_CX_TRANSPORT_SPI
+#### - NFC_CX_TRANSPORT_SPI
 
 Specifies a Serial Peripheral Interface (SPI).
 
 
-### -field NFC_CX_TRANSPORT_UART
+#### - NFC_CX_TRANSPORT_UART
 
 Specifies a Universal Asynchronous Receiver/Transmitter (UART).
 
 
-### -field NFC_CX_TRANSPORT_CUSTOM
+#### - NFC_CX_TRANSPORT_CUSTOM
 
 Specifies a custom transport type.
 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6876E96D-E249-4B7C-A496-27E3F4A7F7E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_CloseHandle, USBD_CloseHandle routine [Buses], USBD_CloseHandle, buses.usbd_unregister
+ms.keywords: USBD_CloseHandle, buses.usbd_unregister, usbdlib/USBD_CloseHandle, USBD_CloseHandle routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_CloseHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ VOID USBD_CloseHandle(
 
 
 
-### -param USBDHandle [in]
+#### - USBDHandle [in]
 
 USBD handle to be closed. The handle is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
@@ -90,9 +90,9 @@ A client driver should call <b>USBD_CloseHandle</b> in the driver's routine that
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
-
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
  
 

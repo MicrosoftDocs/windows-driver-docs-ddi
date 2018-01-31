@@ -72,7 +72,7 @@ VOID APIENTRY* PFND3D12DDI_SETVIEWINSTANCEMASK_0033(
 
 
 
-### -param Mask
+#### - Mask
 
 The mask that will be set.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0bc31a97-661c-463d-a043-9f86f63bb4b4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdasup/BdaMethodCreatePin, BdaMethodCreatePin, stream.bdamethodcreatepin, BdaMethodCreatePin function [Streaming Media Devices], bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml
+ms.keywords: bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml, BdaMethodCreatePin function [Streaming Media Devices], BdaMethodCreatePin, stream.bdamethodcreatepin, bdasup/BdaMethodCreatePin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS BdaMethodCreatePin(
 TBD
 
 
-### -param pKSMethod [in]
+#### - pKSMethod [in]
 
 Points to a <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 
-### -param pulPinFactoryID [out, optional]
+#### - pulPinFactoryID [out, optional]
 
 Points to a variable that receives the identifier of the pin factory. 
 
@@ -110,13 +110,13 @@ If a BDA minidriver must create a pin without relying on the network provider, t
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
-<a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
+
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+<a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 

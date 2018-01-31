@@ -40,7 +40,7 @@ apiname:
 -	FreeCommonBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,27 +75,27 @@ VOID FreeCommonBuffer(
 
 
 
-### -param DmaAdapter [in]
+#### - DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes to deallocate.
 
 
-### -param LogicalAddress [in]
+#### - LogicalAddress [in]
 
 Specifies the logical address of the allocated memory range.
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 Pointer to the corresponding virtual address of the allocated memory range.
 
 
-### -param CacheEnabled [in]
+#### - CacheEnabled [in]
 
 Indicates whether the allocated memory is cached.
 
@@ -121,11 +121,11 @@ To release a common buffer, a driver calls <b>FreeCommonBuffer</b> to unmap both
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, GetPipeWriteParameters method, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, IWDFUsbRequestCompletionParams::GetPipeWriteParameters
+ms.keywords: IWDFUsbRequestCompletionParams::GetPipeWriteParameters, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, IWDFUsbRequestCompletionParams, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters, GetPipeWriteParameters method, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, GetPipeWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ void GetPipeWriteParameters(
 
 
 
-### -param ppWriteMemory [out, optional]
+#### - ppWriteMemory [out, optional]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface, for access to the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pBytesWritten [out, optional]
+#### - pBytesWritten [out, optional]
 
 A pointer to a variable that receives the size, in bytes, of the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pWriteMemoryOffset [out, optional]
+#### - pWriteMemoryOffset [out, optional]
 
 A pointer to a variable that receives the offset, in bytes, into the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 

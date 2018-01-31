@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2381c1c2-d7fc-4cb2-bbdf-2a95c78c34d0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmGetPhysicalAddress, kernel.mmgetphysicaladdress, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, ntddk/MmGetPhysicalAddress
+ms.keywords: MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], MmGetPhysicalAddress, ntddk/MmGetPhysicalAddress, k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, kernel.mmgetphysicaladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PHYSICAL_ADDRESS MmGetPhysicalAddress(
 
 
 
-### -param BaseAddress [in]
+#### - BaseAddress [in]
 
 Pointer to the virtual address for which to return the physical address. 
 
@@ -92,11 +92,11 @@ Callers of <b>MmGetPhysicalAddress</b> can be running at any IRQL, provided that
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554588">MmIsNonPagedSystemAddressValid</a>
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
 
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
 
-<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
  
 

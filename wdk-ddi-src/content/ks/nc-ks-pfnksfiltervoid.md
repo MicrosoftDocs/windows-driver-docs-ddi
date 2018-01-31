@@ -70,7 +70,7 @@ NTSTATUS AVStrMiniFilterReset(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> to return to its previous state.
 

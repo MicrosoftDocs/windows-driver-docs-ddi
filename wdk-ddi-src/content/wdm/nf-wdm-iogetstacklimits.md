@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetStackLimits routine [Kernel-Mode Driver Architecture], kernel.iogetstacklimits, IoGetStackLimits, k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, wdm/IoGetStackLimits
+ms.keywords: k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], wdm/IoGetStackLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID IoGetStackLimits(
 
 
 
-### -param LowLimit [out]
+#### - LowLimit [out]
 
 Pointer to a caller-supplied variable in which this routine returns the lower offset of the current thread's stack frame.
 
 
-### -param HighLimit [out]
+#### - HighLimit [out]
 
 Pointer to a caller-supplied variable in which this routine returns the higher offset of the current thread's stack frame.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3188E2EE-E011-476D-9DDC-1DF61ECF9413
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecx_usb_device_plug_in_options_init, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses]
+ms.keywords: udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses], UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, buses.udecx_usb_device_plug_in_options_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ FORCEINLINE void UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT(
 
 
 
-### -param Options [out]
+#### - Options [out]
 
 A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure to initialize.
 

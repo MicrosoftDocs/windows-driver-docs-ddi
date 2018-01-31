@@ -75,17 +75,17 @@ NDIS_STATUS NdisFGetOptionalSwitchHandlers(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
 
 
-### -param NdisSwitchContext [out]
+#### - NdisSwitchContext [out]
 
 A pointer to the NDIS_SWITCH_CONTEXT value that identifies the extensible switch module to which the extension is attached. When  the  extension calls an extensible switch  handler  function, it must set the     <i>NdisSwitchContext</i> parameter to the value of this handle.
 
 
-### -param NdisSwitchHandlers [in, out]
+#### - NdisSwitchHandlers [in, out]
 
 A pointer to a caller-allocated  <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
 

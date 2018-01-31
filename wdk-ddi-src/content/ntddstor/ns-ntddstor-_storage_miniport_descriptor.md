@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30497CA8-70B6-48F9-B5D5-45E606A3226E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR, ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor, PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], _STORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], *PSTORAGE_MINIPORT_DESCRIPTOR
+ms.keywords: "_STORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor, ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], *PSTORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR, ntddstor/STORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,50 +75,50 @@ typedef struct _STORAGE_MINIPORT_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to 
       the structure.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
 
 
-### -field Portdriver
+#### - Portdriver
 
 Type of port driver as enumerated by the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/mt668773">STORAGE_PORT_CODE_SET</a> enumeration.
 
 
-### -field LUNResetSupported
+#### - LUNResetSupported
 
 Indicates whether a LUN reset is supported.
 
 
-### -field TargetResetSupported
+#### - TargetResetSupported
 
 Indicates whether a target reset is supported.
 
 
-### -field IoTimeoutValue
+#### - IoTimeoutValue
 
 <b>Introduced in Windows 8:  </b>Indicates the timeout value for the device, in milliseconds (ms).
 
 
-### -field ExtraIoInfoSupported
+#### - ExtraIoInfoSupported
 
 <b>Introduced in Windows 8.1:  </b>Indicates if extra I/O info is supported.
 
 
-### -field Reserved0
+#### - Reserved0
 
 <b>Introduced in Windows 8.1:  </b>Reserved for future use.
 
 
-### -field Reserved1
+#### - Reserved1
 
 <b>Introduced in Windows 8.1:  </b>Reserved for future use.
 

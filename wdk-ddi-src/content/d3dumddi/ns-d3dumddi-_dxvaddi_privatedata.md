@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51e520db-fbec-4c6b-a23c-4d401de9ae63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_PRIVATEDATA, display.dxvaddi_privatedata, DXVADDI_PRIVATEDATA structure [Display Devices], DXVADDI_PRIVATEDATA, DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, _DXVADDI_PRIVATEDATA
+ms.keywords: DXVADDI_PRIVATEDATA, _DXVADDI_PRIVATEDATA, DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, d3dumddi/DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA structure [Display Devices], display.dxvaddi_privatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVADDI_PRIVATEDATA {
 
 
 
-### -field pData
+#### - pData
 
 [in] A pointer to a buffer that contains decoder data.
 
 
-### -field DataSize
+#### - DataSize
 
 [in] The size, in bytes, of the buffer that is pointed to by <b>pData</b>.
 

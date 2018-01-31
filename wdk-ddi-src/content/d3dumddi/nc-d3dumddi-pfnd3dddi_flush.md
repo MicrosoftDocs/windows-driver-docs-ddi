@@ -70,7 +70,7 @@ __checkReturn HRESULT APIENTRY Flush(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -121,9 +121,9 @@ To submit commands to the display miniport driver, the user-mode display driver'
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, *PCDROM_OPC_INFO_TYPE, SimpleOpcInfo, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], storage.cdrom_opc_info_type, _CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE
+ms.keywords: CDROM_OPC_INFO_TYPE, *PCDROM_OPC_INFO_TYPE, SimpleOpcInfo, ntddcdrm/CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], PCDROM_OPC_INFO_TYPE, _CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type, ntddcdrm/PCDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, CDROM_OPC_INFO_TYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum _CDROM_OPC_INFO_TYPE {
 
 
 
-### -field SimpleOpcInfo
+#### - SimpleOpcInfo
 
 Specifies the wrapper for the SEND OPC INFORMATION command from the Multimedia Commands (MMC) specification.
 

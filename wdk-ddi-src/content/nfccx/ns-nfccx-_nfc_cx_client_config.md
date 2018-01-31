@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8E005C77-4234-4B32-90F2-E4A8A7CD6305
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: "_NFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], PNFC_CX_CLIENT_CONFIG, nfpdrivers.nfc_cx_client_config, NFC_CX_CLIENT_CONFIG, *PNFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], nfccx/_NFC_CX_CLIENT_CONFIG"
+ms.keywords: PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], nfpdrivers.nfc_cx_client_config, nfccx/_NFC_CX_CLIENT_CONFIG, _NFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, *PNFC_CX_CLIENT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,68 +75,68 @@ typedef struct _NFC_CX_CLIENT_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 Size of this structure in bytes.
 
 
 
 
-### -field IsPowerPolicyOwner
+#### - IsPowerPolicyOwner
 
  A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator. 
 
 
-### -field PowerIdleTimeout
+#### - PowerIdleTimeout
 
 IdleTimeout value, in milliseconds. Default is 1 second.
 
 
 
 
-### -field PowerIdleType
+#### - PowerIdleType
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_idle_timeout_type.md">WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</a>-typed enumerator.
 
 
 
 
-### -field BusType
+#### - BusType
 
  An <a href="..\nfccx\ne-nfccx-_nfc_cx_transport_type.md">NFC_CX_TRANSPORT_TYPE</a>-typed enumerator.
 
 
 
 
-### -field DriverFlags
+#### - DriverFlags
 
  Combination of <a href="..\nfccx\ne-nfccx-_nfc_cx_driver_flags.md">NFC_CX_DRIVER_FLAGS</a> values.
 
 
 
 
-### -field DeviceMode
+#### - DeviceMode
 
  Device mode.
 
 
 
 
-### -field EvtNfcCxWriteNciPacket
+#### - EvtNfcCxWriteNciPacket
 
 Pointer to an <a href="..\nfccx\nc-nfccx-evt_nfc_cx_write_nci_packet.md">EvtNfcCxWriteNciPacket</a> callback.
 
 
-### -field EvtNfcCxDeviceIoControl
+#### - EvtNfcCxDeviceIoControl
 
 Pointer to an <a href="..\nfccx\nc-nfccx-evt_nfc_cx_device_io_control.md">EvtNfcCxDeviceIoControl</a> callback.
 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

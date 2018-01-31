@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFInterrupt::Disable, Disable method, IWDFInterrupt interface, umdf.iwdfinterrupt_disable, Disable, wdf.iwdfinterrupt_disable, IWDFInterrupt::Disable, IWDFInterrupt interface, Disable method, IWDFInterrupt, Disable method
+ms.keywords: IWDFInterrupt, IWDFInterrupt::Disable, Disable method, IWDFInterrupt interface, umdf.iwdfinterrupt_disable, Disable method, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable, Disable, IWDFInterrupt interface, Disable method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFInterrupt.Disable
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

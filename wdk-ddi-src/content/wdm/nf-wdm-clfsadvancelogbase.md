@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 00f776f7-83c5-4856-a1d3-8b76122d3986
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_d8f1a522-ef50-47fe-bd39-f18f2f176a3b.xml, ClfsAdvanceLogBase routine [Kernel-Mode Driver Architecture], kernel.clfsadvancelogbase, ClfsAdvanceLogBase, wdm/ClfsAdvanceLogBase
+ms.keywords: Clfs_d8f1a522-ef50-47fe-bd39-f18f2f176a3b.xml, wdm/ClfsAdvanceLogBase, kernel.clfsadvancelogbase, ClfsAdvanceLogBase routine [Kernel-Mode Driver Architecture], ClfsAdvanceLogBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS ClfsAdvanceLogBase(
 
 
 
-### -param pvMarshalContext [in, out]
+#### - pvMarshalContext [in, out]
 
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
-### -param plsnBase [in]
+#### - plsnBase [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that contains the new base LSN. This parameter must be the LSN of one of the records in the stream. Also, this parameter must be greater than or equal to the stream's current base LSN and less than or equal to the stream's current last LSN.
 
 
-### -param fFlags [in]
+#### - fFlags [in]
 
 This parameter is reserved for system use. Callers must set this parameter to zero.
 

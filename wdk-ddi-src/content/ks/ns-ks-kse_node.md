@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89446165-cdc3-414d-bcce-f2c978d94547
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSE_NODE, KSE_NODE, *PKSE_NODE, KSE_NODE structure [Streaming Media Devices], PKSE_NODE, ks/PKSE_NODE, ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, stream.kse_node, PKSE_NODE structure pointer [Streaming Media Devices]
+ms.keywords: "*PKSE_NODE, ks/PKSE_NODE, PKSE_NODE structure pointer [Streaming Media Devices], KSE_NODE structure [Streaming Media Devices], ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, stream.kse_node, KSE_NODE, PKSE_NODE, ks/KSE_NODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Event
+#### - Event
 
 A structure of type <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a> that identifies the requested event.
 
 
-### -field NodeId
+#### - NodeId
 
 Specifies the node ID.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Should be set to zero.
 

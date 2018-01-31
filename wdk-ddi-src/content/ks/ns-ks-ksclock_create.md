@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 72986a01-de40-4b8f-9dfc-d26f4999e66b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSCLOCK_CREATE, ks/PKSCLOCK_CREATE, PKSCLOCK_CREATE structure pointer [Streaming Media Devices], *PKSCLOCK_CREATE, KSCLOCK_CREATE structure [Streaming Media Devices], KSCLOCK_CREATE, stream.ksclock_create, ks-struct_8202019a-97e5-4d76-9594-93189e3c1c30.xml, PKSCLOCK_CREATE
+ms.keywords: ks/KSCLOCK_CREATE, stream.ksclock_create, KSCLOCK_CREATE, *PKSCLOCK_CREATE, PKSCLOCK_CREATE structure pointer [Streaming Media Devices], KSCLOCK_CREATE structure [Streaming Media Devices], ks/PKSCLOCK_CREATE, PKSCLOCK_CREATE, ks-struct_8202019a-97e5-4d76-9594-93189e3c1c30.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-### -field CreateFlags
+#### - CreateFlags
 
 Currently consists of a flags item, which must be set to zero.
 

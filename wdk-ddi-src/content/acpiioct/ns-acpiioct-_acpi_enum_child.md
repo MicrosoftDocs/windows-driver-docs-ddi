@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: baa0292a-b327-4fc0-9235-b1b977f93bf9
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_ENUM_CHILD structure [ACPI Devices], *PACPI_ENUM_CHILD, acpiioct/ACPI_ENUM_CHILD, _ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, ACPI_ENUM_CHILD, acpi.acpi_enum_child
+ms.keywords: acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, acpiioct/ACPI_ENUM_CHILD, _ACPI_ENUM_CHILD, ACPI_ENUM_CHILD, acpi.acpi_enum_child, *PACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _ACPI_ENUM_CHILD {
 
 
 
-### -field Flags
+#### - Flags
 
 A flag value that the ACPI driver sets to ACPI_OBJECT_HAS_CHILDREN if the enumerated child object has child objects; otherwise, the ACPI driver does not set this value.
 
 
-### -field NameLength
+#### - NameLength
 
 The number of characters, including a NULL-terminated character, in the ASCII string that the <b>Name</b> array contains.
 
 
-### -field Name
+#### - Name
 
 A NULL-terminated ASCII string that contains the path and name of an object in an ACPI namespace. For more information about the format of the path and name, see the Remarks section later in this topic.
 
@@ -97,9 +97,9 @@ For information about how to enumerate child objects of a device, see <a href="h
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
  
 

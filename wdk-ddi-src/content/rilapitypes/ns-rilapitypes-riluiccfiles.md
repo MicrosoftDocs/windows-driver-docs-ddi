@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 282cd191-03c5-4599-9a61-e84221ef9143
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluiccfiles_2, RILUICCFILES structure [Network Drivers Starting with Windows Vista], *LPRILUICCFILES, rilapitypes/RILUICCFILES, RILUICCFILES
+ms.keywords: RILUICCFILES structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCFILES, RILUICCFILES, *LPRILUICCFILES, netvista.riluiccfiles_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCFILES
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUICCFILES, RILUICCFILES"
+req.typenames: RILUICCFILES, *LPRILUICCFILES
 req.product: Windows 10 or later.
 ---
 
@@ -70,14 +70,14 @@ typedef struct _RILUICCFILES {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwNumFiles
+#### - dwNumFiles
 
 
 
-### -field filePath
+#### - filePath
 
 

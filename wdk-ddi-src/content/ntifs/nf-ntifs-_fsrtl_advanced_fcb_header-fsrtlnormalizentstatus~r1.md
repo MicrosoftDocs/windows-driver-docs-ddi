@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml, FsRtlNormalizeNtstatus routine [Installable File System Drivers], ntifs/FsRtlNormalizeNtstatus, FsRtlNormalizeNtstatus, ifsk.fsrtlnormalizentstatus
+ms.keywords: ifsk.fsrtlnormalizentstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], FsRtlNormalizeNtstatus, ntifs/FsRtlNormalizeNtstatus, fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlNormalizeNtstatus(
 
 
 
-### -param Exception [in]
+#### - Exception [in]
 
 Status value of the exception.
 
 
-### -param GenericException [in]
+#### - GenericException [in]
 
 Generic status value to return if <i>Exception</i> is not within the set of exceptions handled by the filter.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6b48327a-885c-418e-b7d1-c3995642cf1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_76db9e4c-412e-48a6-b2ae-e6877195dd05.xml, FsRtlMdlReadCompleteDev, ntifs/FsRtlMdlReadCompleteDev, ifsk.fsrtlmdlreadcompletedev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers]
+ms.keywords: FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fsrtlref_76db9e4c-412e-48a6-b2ae-e6877195dd05.xml, ifsk.fsrtlmdlreadcompletedev, FsRtlMdlReadCompleteDev, ntifs/FsRtlMdlReadCompleteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN FsRtlMdlReadCompleteDev(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the file object.
 
 
-### -param MdlChain [in]
+#### - MdlChain [in]
 
 On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
 
 
-### -param DeviceObject [in, optional]
+#### - DeviceObject [in, optional]
 
 The device object for the device that contains the file.
 

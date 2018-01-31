@@ -72,17 +72,17 @@ NTSTATUS APIENTRY pfnAssignSourceModeSet(
 
 
 
-### -param hVidPn [in]
+#### - hVidPn [in]
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a> or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>.
 
 
-### -param VidPnSourceId [in]
+#### - VidPnSourceId [in]
 
 [in] An integer that identifies one of the video present sources associated with the VidPN object.
 
 
-### -param hVidPnSourceModeSet [in]
+#### - hVidPnSourceModeSet [in]
 
 [in] A handle to the source mode set object that is to be assigned to the source identified by <i>VidPnSourceId</i>. The display miniport driver previously obtained this handle by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset.md">pfnCreateNewSourceModeSet</a>.
 

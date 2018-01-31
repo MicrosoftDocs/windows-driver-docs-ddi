@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 7A93C53C-8E60-4C57-BDEC-6868AB5E400D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpioclx/GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, *PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure [Parallel Ports], PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure pointer [Parallel Ports], gpioclx/PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO.gpio_save_restore_bank_hardware_context_parameters
+ms.keywords: GPIO.gpio_save_restore_bank_hardware_context_parameters, gpioclx/PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, gpioclx/GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, *PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure pointer [Parallel Ports], _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure [Parallel Ports], PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS {
 
 
 
-### -field BankId
+#### - BankId
 
 The identifier for this bank of GPIO pins. If N is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to N–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
 
 
-### -field State
+#### - State
 
 The target component power state. A save operation occurs before the specified bank of GPIO pins makes the transition from the F0 (fully on) state to the target component power state, Fx. A restore operation occurs after the bank makes the transition from Fx to F0.
 
 
-### -field Flags
+#### - Flags
 
 A set of flags to control bank hardware save and restore operations. If the <b>CriticalTransition</b> flag bit is set, this idle state transition is being done as part of a critical transition in which the power engine plug-in (PEP) puts the system into a low-power state.
 
@@ -93,11 +93,11 @@ The <i>Parameters</i> parameter of the <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AF001441-4031-4E29-B459-1597BFCAEF4C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PPM_CST_STATE, pepfx/PEP_PPM_CST_STATE, PEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, pepfx/PPEP_PPM_CST_STATE, _PEP_PPM_CST_STATE"
+ms.keywords: PEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, _PEP_PPM_CST_STATE, pepfx/PPEP_PPM_CST_STATE, pepfx/PEP_PPM_CST_STATE, *PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_CST_STATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_CST_STATE, *PPEP_PPM_CST_STATE
+req.typenames: "*PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE"
 ---
 
 # _PEP_PPM_CST_STATE structure
@@ -74,22 +74,22 @@ typedef struct _PEP_PPM_CST_STATE {
 
 
 
-### -field Type
+#### - Type
 
 The C-state type (0 = C0, 1 = C1, 2 = C2, and so on).
 
 
-### -field Latency
+#### - Latency
 
 The worst-case latency, in microseconds, to enter and exit this C state. There are no restrictions on latency size.
 
 
-### -field Power
+#### - Power
 
 The average power consumption, in milliwatts, of the processor when in this C state.
 
 
-### -field AddressSpaceId
+#### - AddressSpaceId
 
 The register address space ID (_ASI) for this C state. This member specifies the address space in which the register for this C state is located. The following IDs are defined for this member.
 <table>
@@ -128,17 +128,17 @@ The register address space ID (_ASI) for this C state. This member specifies the
 </table> 
 
 
-### -field BitWidth
+#### - BitWidth
 
 The register bit width (_RBW) for this C state. This member specifies the width, in bits, of the register for this C state.
 
 
-### -field BitOffset
+#### - BitOffset
 
 The register bit offset (_RBO) for this C state. This member specifies the offset, in bits, from the register address specified in the <b>Address</b> member to the start of the register for this C state.
 
 
-### -field AccessSize
+#### - AccessSize
 
 The register access size (_ASZ) code for this C state. This member specifies the number of bytes to read during an access of the register for this C state. Valid access size codes are shown in the following table.
 <table>
@@ -169,7 +169,7 @@ The register access size (_ASZ) code for this C state. This member specifies the
 </table> 
 
 
-### -field Address
+#### - Address
 
 The register address (_ADR) for this C state.
 

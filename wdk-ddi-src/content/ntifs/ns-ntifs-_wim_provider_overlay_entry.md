@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8D1C9C8B-0545-42D7-860F-E2263457E61F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: WIM_PROVIDER_OVERLAY_ENTRY structure [Installable File System Drivers], PWIM_PROVIDER_OVERLAY_ENTRY structure pointer [Installable File System Drivers], *PWIM_PROVIDER_OVERLAY_ENTRY, WIM_BOOT_NOT_OS_WIM, ifsk.wim_provider_overlay_entry, WIM_BOOT_OS_WIM, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, _WIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, ntifs/WIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_OVERLAY_ENTRY, ntifs/PWIM_PROVIDER_OVERLAY_ENTRY
+ms.keywords: ifsk.wim_provider_overlay_entry, WIM_PROVIDER_OVERLAY_ENTRY structure [Installable File System Drivers], WIM_BOOT_NOT_OS_WIM, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_BOOT_OS_WIM, ntifs/PWIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY structure pointer [Installable File System Drivers], ntifs/WIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY, _WIM_PROVIDER_OVERLAY_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,27 +73,27 @@ typedef struct _WIM_PROVIDER_OVERLAY_ENTRY {
 
 
 
-### -field NextEntryOffset
+#### - NextEntryOffset
 
 The offset to the next WIM_PROVIDER_OVERLAY_ENTRY structure returned in the enumeration. Set to 0 if there are no further entries.
 
 
-### -field DataSourceId
+#### - DataSourceId
 
 The specific identifier an overlay entry. A single WIM GUID, such as in the <b>WimGuid</b> member, may have multiple  data source identifiers.
 
 
-### -field WimGuid
+#### - WimGuid
 
 A unique identifier of a WIM file.
 
 
-### -field WimFileNameOffset
+#### - WimFileNameOffset
 
 The offset, in bytes, from the beginning of this structure of the file name for the WIM file to add as a backing source. The file name is a NULL terminated string of <b>WCHAR</b> character values.
 
 
-### -field WimType
+#### - WimType
 
 The type of WIM file set as a backing source. The WIM file type is set to one of the following values.
 <table>
@@ -124,12 +124,12 @@ The WIM file contains non-operating system files.
 </table> 
 
 
-### -field WimIndex
+#### - WimIndex
 
 The index of the image in the WIM file specified at <b>WimFileNameOffset</b>.
 
 
-### -field Flags
+#### - Flags
 
 The status flags for the WIM provider. Set to 0 when active. Otherwise <b>Flags</b> is set to one of the following values.
 <table>

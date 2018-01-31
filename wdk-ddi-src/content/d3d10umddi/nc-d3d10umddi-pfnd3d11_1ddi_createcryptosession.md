@@ -40,7 +40,7 @@ apiname:
 -	CreateCryptoSession
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CREATECRYPTOSESSION callback
@@ -73,23 +73,24 @@ HRESULT APIENTRY* CreateCryptoSession(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param *pCreateData
+#### - *pCreateData [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createcryptosession.md">D3D11_1DDIARG_CREATECRYPTOSESSION</a> structure. This structure specifies the attributes of the cryptographic session to be created.
 
 
-
-### -param hCryptoSession [in]
+#### - hCryptoSession [in]
 
 A handle to the driver's private data for the cryptographic session. For more information, see the Remarks section.
 
 
-### -param hRTCryptoSession [in]
+#### - hRTCryptoSession [in]
 
 A handle to the cryptographic session that the driver should use when it calls back into the Direct3D runtime.
 
@@ -177,11 +178,11 @@ If the <b>DecodeProfile</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createcryptosession.md">D3D11_1DDIARG_CREATECRYPTOSESSION</a>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatecryptosessionsize.md">CalcPrivateCryptoSessionSize</a>
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createcryptosession.md">D3D11_1DDIARG_CREATECRYPTOSESSION</a>
 
  
 

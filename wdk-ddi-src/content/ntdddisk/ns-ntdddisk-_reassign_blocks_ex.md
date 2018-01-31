@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1BE17A0-39F1-496A-AD53-46A3F136D793
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PREASSIGN_BLOCKS_EX, _REASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], PREASSIGN_BLOCKS_EX, storage.reassign_blocks_ex, REASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices]"
+ms.keywords: PREASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], *PREASSIGN_BLOCKS_EX, storage.reassign_blocks_ex, _REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REASSIGN_BLOCKS_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PREASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX"
+req.typenames: REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX
 ---
 
 # _REASSIGN_BLOCKS_EX structure
@@ -69,17 +69,17 @@ typedef struct _REASSIGN_BLOCKS_EX {
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field Count
+#### - Count
 
 Contains the number of blocks in the array pointed to by <b>BlockNumber</b> to reassign.
 
 
-### -field BlockNumber
+#### - BlockNumber
 
 Contains an array of block numbers corresponding to damaged blocks. These numbers will be reassigned to good blocks taken from the device's spare block pool.
 

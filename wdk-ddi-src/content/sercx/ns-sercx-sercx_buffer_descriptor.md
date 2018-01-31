@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 0F13A5B2-CD35-4127-B2E3-F4027D098CB2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], 1/SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], 1/PSERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR, serports.sercx_buffer_descriptor
+ms.keywords: 1/PSERCX_BUFFER_DESCRIPTOR, serports.sercx_buffer_descriptor, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], 1/SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], PSERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _SERCX_BUFFER_DESCRIPTOR {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.  The <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a> and <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a> methods use this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
-### -field Buffer
+#### - Buffer
 
 The virtual memory address of the buffer. The memory for the buffer is nonpaged.
 
 
-### -field Length
+#### - Length
 
 The number of bytes available in the buffer. This size determines the maximize number of bytes that can be transferred by the receive or transmit operation.
 
@@ -100,11 +100,11 @@ The controller driver must call the <a href="..\sercx\nf-sercx-sercx_buffer_desc
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
+<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
 
 <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
 
-<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
+<a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
 
  
 

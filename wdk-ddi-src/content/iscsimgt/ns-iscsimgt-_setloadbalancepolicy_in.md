@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1895fed-a006-45f6-a38a-1767202cbf4f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSetLoadBalancePolicy_IN, _SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], PSetLoadBalancePolicy_IN structure pointer [Storage Devices], storage.setloadbalancepolicy_in, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml, iscsimgt/SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN"
+ms.keywords: "*PSetLoadBalancePolicy_IN, iscsimgt/SetLoadBalancePolicy_IN, _SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN structure pointer [Storage Devices], storage.setloadbalancepolicy_in, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml, SetLoadBalancePolicy_IN structure [Storage Devices], SetLoadBalancePolicy_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetLoadBalancePolicy_IN {
 
 
 
-### -field LoadBalancePolicies
+#### - LoadBalancePolicies
 
 A structure that contains the information that is required for setting the load balance policy.
 

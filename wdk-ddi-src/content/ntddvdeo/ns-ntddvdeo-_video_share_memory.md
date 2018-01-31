@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2339da67-78cd-49d4-a70c-fd774706fe3f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_SHARE_MEMORY structure pointer [Display Devices], _VIDEO_SHARE_MEMORY, ntddvdeo/VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY structure [Display Devices], Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, PVIDEO_SHARE_MEMORY, ntddvdeo/PVIDEO_SHARE_MEMORY, display.video_share_memory, *PVIDEO_SHARE_MEMORY
+ms.keywords: "*PVIDEO_SHARE_MEMORY, display.video_share_memory, Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, PVIDEO_SHARE_MEMORY, ntddvdeo/VIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY structure pointer [Display Devices], VIDEO_SHARE_MEMORY structure [Display Devices], ntddvdeo/PVIDEO_SHARE_MEMORY, _VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _VIDEO_SHARE_MEMORY {
 
 
 
-### -field ProcessHandle
+#### - ProcessHandle
 
 Is a handle to the current process. This member is usually set to <b>NtCurrentProcess</b>, a macro defined in <i>Ntddk.h</i>.
 
 
-### -field ViewOffset
+#### - ViewOffset
 
 Indicates the byte offset from the beginning of the <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">frame buffer</a>. This member is usually set to 0.
 
 
-### -field ViewSize
+#### - ViewSize
 
 Indicates the size, in bytes, of the frame buffer.
 
 
-### -field RequestedVirtualAddress
+#### - RequestedVirtualAddress
 
 Indicates the location of the requested frame buffer in the process's memory. This member is normally set to <b>NULL</b>, which means the display driver writer does not care about the precise location of the requested memory. If this member is set to a non-<b>NULL</b> value, the display driver writer intends that the frame buffer be located at that address. In this case, the display driver writer must be certain that the location specified is not already in use for another purpose.
 
@@ -101,9 +101,9 @@ For structures used in mapping into kernel-mode video memory, see <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory_information.md">VIDEO_SHARE_MEMORY_INFORMATION</a>
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory_information.md">VIDEO_SHARE_MEMORY_INFORMATION</a>
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 

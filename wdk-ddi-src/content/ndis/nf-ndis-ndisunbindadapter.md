@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 47aacc23-f7d1-4c14-9541-3207debef327
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisUnbindAdapter, NdisUnbindAdapter function [Network Drivers Starting with Windows Vista], netvista.ndisunbindadapter, NdisUnbindAdapter, protocol_ndis_functions_ref_99324c18-23da-4ed1-9ccc-ab73ac342c50.xml
+ms.keywords: protocol_ndis_functions_ref_99324c18-23da-4ed1-9ccc-ab73ac342c50.xml, netvista.ndisunbindadapter, NdisUnbindAdapter function [Network Drivers Starting with Windows Vista], ndis/NdisUnbindAdapter, NdisUnbindAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NDIS_STATUS NdisUnbindAdapter(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 A handle that the protocol driver obtained from a call to the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function. The handle
@@ -133,9 +133,9 @@ Before the call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 

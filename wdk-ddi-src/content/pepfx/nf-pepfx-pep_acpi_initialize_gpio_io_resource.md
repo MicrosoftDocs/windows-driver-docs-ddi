@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function
@@ -81,70 +81,70 @@ VOID PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE(
 
 
 
-### -param Shareable [in]
+#### - Shareable [in]
 
 Indicates if the device can be shared.
 
 
-### -param CanWake [in]
+#### - CanWake [in]
 
 Indicates if the device can be woken from a low-power state.
 
 
-### -param PinConfig [in]
+#### - PinConfig [in]
 
 A <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
-### -param DebounceTimeout [in]
+#### - DebounceTimeout [in]
 
 Specifies the hardware debounce wait time, in hundredths of milliseconds.
 
 
-### -param DriveStrength [in]
+#### - DriveStrength [in]
 
 
 
-### -param IoRestriction [in]
+#### - IoRestriction [in]
 
 
 
-### -param ResourceSourceIndex [in]
+#### - ResourceSourceIndex [in]
 
 This parameter should always be zero.
 
 
-### -param ResourceSourceName [in]
+#### - ResourceSourceName [in]
 
 This parameter should always be "ResourceConsumer."
 
 
-### -param ResourceUsage [in]
+#### - ResourceUsage [in]
 
 Indicates if this device is in use.
 
 
-### -param VendorData [in]
+#### - VendorData [in]
 
 A pointer to a raw data buffer containing vendor-defined byte data to be decoded by the OS driver. 
 
 
-### -param VendorDataLength [in]
+#### - VendorDataLength [in]
 
 The size of the buffer in the <i>VendorData</i> partameter.
 
 
-### -param PinTable [in]
+#### - PinTable [in]
 
 A list of pin numbers on the resource. 
 
 
-### -param PinCount [in]
+#### - PinCount [in]
 
 The number of pins described by the <i>PinTable</i> parameter.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>.
 
@@ -158,9 +158,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
+
+<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 
  
 

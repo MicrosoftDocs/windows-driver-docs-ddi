@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a36e9d57-c820-43db-a6e0-e935bffca254
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetdevicenumanode, k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, IoGetDeviceNumaNode, IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceNumaNode
+ms.keywords: IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, IoGetDeviceNumaNode, wdm/IoGetDeviceNumaNode, kernel.iogetdevicenumanode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS IoGetDeviceNumaNode(
 
 
 
-### -param Pdo [in]
+#### - Pdo [in]
 
 A pointer to a physical device object (PDO). This parameter points to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents a physical device. 
 
 
-### -param NodeNumber [out]
+#### - NodeNumber [out]
 
 A pointer to a location into which the routine writes the node number, if the node number is known. 
 
@@ -131,9 +131,9 @@ If a system does not have a NUMA architecture, the routine writes zero to the lo
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\ntddk\nf-ntddk-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

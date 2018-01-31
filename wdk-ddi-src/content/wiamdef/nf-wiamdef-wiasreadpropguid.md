@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 287bf42b-253a-4d1a-8879-c3ab89b6743a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiamdef/wiasReadPropGuid, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices], image.wiasreadpropguid
+ms.keywords: wiasReadPropGuid function [Imaging Devices], wiasReadPropGuid, wiamdef/wiasReadPropGuid, image.wiasreadpropguid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasReadPropGuid
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ HRESULT _stdcall wiasReadPropGuid(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param propid
+#### - propid
 
 Specifies the property identifier.
 
@@ -92,7 +92,7 @@ TBD
 TBD
 
 
-### -param bMustExist
+#### - bMustExist
 
 Indicates whether the property must exist. If set to <b>TRUE</b>, the property must exist; if set to <b>FALSE</b>, the property does not have to exist.
 
@@ -116,13 +116,13 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
 

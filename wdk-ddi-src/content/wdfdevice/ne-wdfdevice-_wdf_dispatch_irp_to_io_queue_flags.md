@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6A205F51-990F-4721-B4C7-B96E944D2A54
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_forward_irp_to_io_queue_options_flags, _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS, kmdf.wdf_forward_irp_to_io_queue_flags, kmdf.wdf_dispatch_irp_to_io_queue_flags, WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, wdfdevice/WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, wdf.wdf_dispatch_irp_to_io_queue_flags, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS enumeration
+ms.keywords: kmdf.wdf_forward_irp_to_io_queue_options_flags, WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, kmdf.wdf_forward_irp_to_io_queue_flags, wdfdevice/WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS, _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, kmdf.wdf_dispatch_irp_to_io_queue_flags, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS enumeration, WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, wdf.wdf_dispatch_irp_to_io_queue_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS {
 
 
 
-### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS
+#### - WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS
 
 No flags are set.
 
 
-### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK
+#### - WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK
 
 Specifies that the framework should call the <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function before inserting the request into the queue.
 
 
-### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP
+#### - WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP
 
 Specifies that the IRP was preprocessed by the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a> callback function.  Accordingly, the framework adjusts the IRP's stack location to the next entry before inserting it into the queue.
 

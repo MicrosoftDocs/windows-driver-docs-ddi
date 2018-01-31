@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 955859d2-7c4f-454c-8621-84bacf0b9770
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRequeue, wdfrequest/WdfRequestRequeue, DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, kmdf.wdfrequestrequeue, PFN_WDFREQUESTREQUEUE, WdfRequestRequeue method, wdf.wdfrequestrequeue
+ms.keywords: wdfrequest/WdfRequestRequeue, WdfRequestRequeue method, WdfRequestRequeue, kmdf.wdfrequestrequeue, DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, PFN_WDFREQUESTREQUEUE, wdf.wdfrequestrequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS WdfRequestRequeue(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. 
 

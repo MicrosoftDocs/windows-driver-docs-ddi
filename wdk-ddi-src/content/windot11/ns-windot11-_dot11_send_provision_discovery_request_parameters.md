@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1F764A80-71FC-445A-AADE-09660D1C250B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, _DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_send_provision_discovery_request_parameters, DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS"
+ms.keywords: DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, netvista.dot11_send_provision_discovery_request_parameters, *PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, _DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS
+req.typenames: "*PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ typedef struct _DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -99,51 +99,51 @@ The type, revision, and size of the <b>DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PA
 </table> 
 
 
-### -field DialogToken
+#### - DialogToken
 
 The dialog token to send  in the provision discovery request packet.
 
 
-### -field PeerDeviceAddress
+#### - PeerDeviceAddress
 
 The destination address of the WFD device receiving the provision discovery packet.
 
 
-### -field uSendTimeout
+#### - uSendTimeout
 
 The maximum time, in milliseconds, allowed to send the provision discovery request. If the time-out expires before the miniport has successfully transmitted the provision discovery response, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439783">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE</a> with a failure status.
 
 
-### -field GroupCapability
+#### - GroupCapability
 
 The capability values that are included in the Group Capability bitmask of the Peer-to-Peer (P2P) Capability Information Element (IE) in  a provision discovery request.
 
 
-### -field GroupID
+#### - GroupID
 
 The group identifier to include in the provision discovery request.
 
 
-### -field bUseGroupID
+#### - bUseGroupID
 
 If TRUE, the value in <b>GroupID</b> should be included in the provision discovery request.
 
 
-### -field uIEsOffset
+#### - uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) the Wi-Fi Direct (WFD) port must add to the provision discovery request packet. This offset is from the start of the buffer that contains this structure.
 
 
-### -field uIEsLength
+#### - uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/69490609-60CB-426F-8ED7-F8B35CDFCE2A">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_REQUEST</a>
-
 <a href="..\windot11\ns-windot11-_dot11_send_provision_discovery_request_parameters.md">DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/69490609-60CB-426F-8ED7-F8B35CDFCE2A">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_REQUEST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439783">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE</a>
 

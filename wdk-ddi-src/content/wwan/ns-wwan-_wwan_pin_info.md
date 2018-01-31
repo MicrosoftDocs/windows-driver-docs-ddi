@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0711645f-791b-4643-95c3-604ecce2a5ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_aae7d248-25b1-465b-9314-66a16aca4993.xml, WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_PIN_INFO, PWWAN_PIN_INFO, _WWAN_PIN_INFO, wwan/PWWAN_PIN_INFO, netvista.wwan_pin_info, WWAN_PIN_INFO, PWWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_PIN_INFO
+ms.keywords: WWAN_PIN_INFO, _WWAN_PIN_INFO, WwanRef_aae7d248-25b1-465b-9314-66a16aca4993.xml, PWWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], PWWAN_PIN_INFO, netvista.wwan_pin_info, WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_PIN_INFO, wwan/WWAN_PIN_INFO, *PWWAN_PIN_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _WWAN_PIN_INFO {
 
 
 
-### -field PinType
+#### - PinType
 
 The type of PIN required to unlock the information stored on the device.
 
 
-### -field PinState
+#### - PinState
 
 The state of PIN-entry required to unlock the device.
      
@@ -84,7 +84,7 @@ The state of PIN-entry required to unlock the device.
 This value indicates whether the device requires a PIN to be entered or not.
 
 
-### -field AttemptsRemaining
+#### - AttemptsRemaining
 
 The number of attempts that remain for any pin-related operations such as enter, enable, disable,
      and change.

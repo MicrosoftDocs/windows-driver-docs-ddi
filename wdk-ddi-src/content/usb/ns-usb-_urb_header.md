@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d23b9332-1e9d-4592-9674-3e5d8fc1d11e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: URB_FUNCTION_CLEAR_FEATURE_TO_DEVICE, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, URB_FUNCTION_ISOCH_TRANSFER, URB_FUNCTION_CLEAR_FEATURE_TO_INTERFACE, URB_FUNCTION_RESET_PIPE, buses._urb_header, URB_FUNCTION_GET_FRAME_LENGTH, URB_FUNCTION_VENDOR_ENDPOINT, URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR, URB_FUNCTION_SET_FRAME_LENGTH, URB_FUNCTION_VENDOR_INTERFACE, URB_FUNCTION_CLASS_INTERFACE, _URB_HEADER, URB_FUNCTION_CONTROL_TRANSFER, usb/_URB_HEADER, URB_FUNCTION_VENDOR_DEVICE, usbstrct_588f903a-8690-4295-94b0-8b9162ff190e.xml, URB_FUNCTION_ABORT_PIPE, URB_FUNCTION_SET_DESCRIPTOR_TO_DEVICE, URB_FUNCTION_GET_STATUS_FROM_OTHER, URB_FUNCTION_CLEAR_FEATURE_TO_OTHER, URB_FUNCTION_CONTROL_TRANSFER_EX, URB_FUNCTION_CLASS_OTHER, URB_FUNCTION_CLASS_ENDPOINT, URB_FUNCTION_CLOSE_STATIC_STREAMS, URB_FUNCTION_RELEASE_FRAME_LENGTH_CONTROL, URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE, URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL, URB_FUNCTION_GET_STATUS_FROM_DEVICE, URB_FUNCTION_SET_FEATURE_TO_OTHER, URB_FUNCTION_SET_FEATURE_TO_INTERFACE, URB_FUNCTION_SET_FEATURE_TO_DEVICE, URB_FUNCTION_SYNC_RESET_PIPE, URB_FUNCTION_CLEAR_FEATURE_TO_ENDPOINT, URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACE, URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACE, URB_FUNCTION_GET_CONFIGURATION, URB_FUNCTION_SET_DESCRIPTOR_TO_ENDPOINT, URB_FUNCTION_SYNC_CLEAR_STALL, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER_USING_CHAINED_MDL, URB_FUNCTION_OPEN_STATIC_STREAMS, URB_FUNCTION_SET_FEATURE_TO_ENDPOINT, URB_FUNCTION_ISOCH_TRANSFER_USING_CHAINED_MDL, _URB_HEADER structure [Buses], URB_FUNCTION_GET_STATUS_FROM_ENDPOINT, URB_FUNCTION_GET_CURRENT_FRAME_NUMBER, URB_FUNCTION_GET_DESCRIPTOR_FROM_ENDPOINT, URB_FUNCTION_GET_STATUS_FROM_INTERFACE, URB_FUNCTION_VENDOR_OTHER, URB_FUNCTION_CLASS_DEVICE, URB_FUNCTION_SELECT_CONFIGURATION, URB_FUNCTION_SELECT_INTERFACE, URB_FUNCTION_TAKE_FRAME_LENGTH_CONTROL, URB_FUNCTION_GET_INTERFACE
+ms.keywords: URB_FUNCTION_VENDOR_ENDPOINT, URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL, URB_FUNCTION_CONTROL_TRANSFER_EX, URB_FUNCTION_CLOSE_STATIC_STREAMS, usb/_URB_HEADER, URB_FUNCTION_GET_CURRENT_FRAME_NUMBER, URB_FUNCTION_CLASS_INTERFACE, URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACE, URB_FUNCTION_CLASS_ENDPOINT, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER_USING_CHAINED_MDL, URB_FUNCTION_SET_DESCRIPTOR_TO_ENDPOINT, URB_FUNCTION_OPEN_STATIC_STREAMS, URB_FUNCTION_ISOCH_TRANSFER_USING_CHAINED_MDL, URB_FUNCTION_CLEAR_FEATURE_TO_OTHER, URB_FUNCTION_GET_FRAME_LENGTH, URB_FUNCTION_SELECT_INTERFACE, _URB_HEADER structure [Buses], URB_FUNCTION_SET_FEATURE_TO_ENDPOINT, URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR, URB_FUNCTION_SET_FEATURE_TO_OTHER, URB_FUNCTION_GET_STATUS_FROM_OTHER, URB_FUNCTION_RESET_PIPE, URB_FUNCTION_VENDOR_DEVICE, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, URB_FUNCTION_GET_STATUS_FROM_ENDPOINT, URB_FUNCTION_CLASS_OTHER, URB_FUNCTION_SET_FRAME_LENGTH, URB_FUNCTION_VENDOR_OTHER, URB_FUNCTION_SELECT_CONFIGURATION, URB_FUNCTION_SYNC_CLEAR_STALL, URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACE, URB_FUNCTION_ABORT_PIPE, URB_FUNCTION_CLEAR_FEATURE_TO_DEVICE, URB_FUNCTION_CONTROL_TRANSFER, URB_FUNCTION_SET_FEATURE_TO_INTERFACE, URB_FUNCTION_CLEAR_FEATURE_TO_ENDPOINT, URB_FUNCTION_GET_INTERFACE, URB_FUNCTION_SET_DESCRIPTOR_TO_DEVICE, usbstrct_588f903a-8690-4295-94b0-8b9162ff190e.xml, URB_FUNCTION_ISOCH_TRANSFER, URB_FUNCTION_SYNC_RESET_PIPE, URB_FUNCTION_SET_FEATURE_TO_DEVICE, URB_FUNCTION_GET_CONFIGURATION, URB_FUNCTION_GET_STATUS_FROM_DEVICE, URB_FUNCTION_CLEAR_FEATURE_TO_INTERFACE, URB_FUNCTION_VENDOR_INTERFACE, buses._urb_header, URB_FUNCTION_TAKE_FRAME_LENGTH_CONTROL, URB_FUNCTION_GET_STATUS_FROM_INTERFACE, _URB_HEADER, URB_FUNCTION_RELEASE_FRAME_LENGTH_CONTROL, URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE, URB_FUNCTION_CLASS_DEVICE, URB_FUNCTION_GET_DESCRIPTOR_FROM_ENDPOINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ struct _URB_HEADER {
 
 
 
-### -field Length
+#### - Length
 
 Specifies the length, in bytes, of the URB. For URB requests that use data structures other than <b>_URB_HEADER</b>, this member must be set to the length of the entire URB request structure, not the _URB_HEADER size.
 
 
-### -field Function
+#### - Function
 
 
 Specifies a numeric code indicating the requested operation for this URB. One of the following values must be set:
@@ -388,17 +388,17 @@ Closes all opened streams in the specified bulk endpoint. If set, the URB is use
 Available in Windows 8. For information about formatting an URB for a close-stream request, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
 
-### -field Status
+#### - Status
 
 Contains a USBD_STATUS_<i>XXX</i> code on return from the host controller driver.
 
 
-### -field UsbdDeviceHandle
+#### - UsbdDeviceHandle
 
 Reserved. Do not use.
 
 
-### -field UsbdFlags
+#### - UsbdFlags
 
 Reserved. Do not use.
 
@@ -414,37 +414,37 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_feature_request.md">_URB_CONTROL_FEATURE_REQUEST</a>
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="..\usb\ns-usb-_urb_control_vendor_or_class_request.md">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a>
-
-<a href="..\usb\ns-usb-_urb_control_get_configuration_request.md">_URB_CONTROL_GET_CONFIGURATION_REQUEST</a>
-
-<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
-
-<a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
+<a href="..\usb\ns-usb-_urb_get_current_frame_number.md">_URB_GET_CURRENT_FRAME_NUMBER</a>
 
 <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
 <a href="..\usb\ns-usb-_urb_pipe_request.md">_URB_PIPE_REQUEST</a>
 
-<a href="..\usb\ns-usb-_urb_os_feature_descriptor_request.md">_URB_OS_FEATURE_DESCRIPTOR_REQUEST</a>
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 <a href="..\usb\ns-usb-_urb_bulk_or_interrupt_transfer.md">_URB_BULK_OR_INTERRUPT_TRANSFER</a>
 
-<a href="..\usb\ns-usb-_urb_get_current_frame_number.md">_URB_GET_CURRENT_FRAME_NUMBER</a>
+<a href="..\usb\ns-usb-_urb_control_get_configuration_request.md">_URB_CONTROL_GET_CONFIGURATION_REQUEST</a>
 
-<a href="..\usb\ns-usb-_urb_select_interface.md">_URB_SELECT_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usb\ns-usb-_urb_control_get_interface_request.md">_URB_CONTROL_GET_INTERFACE_REQUEST</a>
 
+<a href="..\usb\ns-usb-_urb_select_interface.md">_URB_SELECT_INTERFACE</a>
+
+<a href="..\usb\ns-usb-_urb_os_feature_descriptor_request.md">_URB_OS_FEATURE_DESCRIPTOR_REQUEST</a>
+
+<a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
+
 <a href="..\usb\ns-usb-_urb_control_transfer.md">_URB_CONTROL_TRANSFER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
+
+<a href="..\usb\ns-usb-_urb_control_vendor_or_class_request.md">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a>
+
+<a href="..\usb\ns-usb-_urb_control_feature_request.md">_URB_CONTROL_FEATURE_REQUEST</a>
 
  
 

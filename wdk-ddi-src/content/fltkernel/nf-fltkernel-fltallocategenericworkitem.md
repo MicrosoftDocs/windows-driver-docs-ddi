@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1be555a5-9fa7-4179-8a36-803b8792db86
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltAllocateGenericWorkItem, FltAllocateGenericWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_06bae00e-f41d-4cc9-8664-94e06d004458.xml, ifsk.fltallocategenericworkitem, FltAllocateGenericWorkItem
+ms.keywords: fltkernel/FltAllocateGenericWorkItem, FltApiRef_a_to_d_06bae00e-f41d-4cc9-8664-94e06d004458.xml, FltAllocateGenericWorkItem, ifsk.fltallocategenericworkitem, FltAllocateGenericWorkItem function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,9 +86,9 @@ To free the work item, a minifilter driver typically calls <a href="..\fltkernel
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>
 
  
 

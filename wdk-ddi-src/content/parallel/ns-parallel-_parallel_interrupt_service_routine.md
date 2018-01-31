@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: dff10a68-f7c4-4f7a-a3f7-3697fc88992a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], PARALLEL_INTERRUPT_SERVICE_ROUTINE, _PARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, parports.parallel_interrupt_service_routine, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports]
+ms.keywords: parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, _PARALLEL_INTERRUPT_SERVICE_ROUTINE, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE, parports.parallel_interrupt_service_routine, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], PARALLEL_INTERRUPT_SERVICE_ROUTINE, PPARALLEL_INTERRUPT_SERVICE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARALLEL_INTERRUPT_SERVICE_ROUTINE
 product: Windows
 targetos: Windows
-req.typenames: "*PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE"
+req.typenames: PARALLEL_INTERRUPT_SERVICE_ROUTINE, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE
 ---
 
 # _PARALLEL_INTERRUPT_SERVICE_ROUTINE structure
@@ -70,17 +70,17 @@ typedef struct _PARALLEL_INTERRUPT_SERVICE_ROUTINE {
 
 
 
-### -field InterruptServiceRoutine
+#### - InterruptServiceRoutine
 
 Pointer to an interrupt service routine.
 
 
-### -field InterruptServiceContext
+#### - InterruptServiceContext
 
 Pointer to a context for the interrupt service routine.
 
 
-### -field DeferredPortCheckRoutine
+#### - DeferredPortCheckRoutine
 
 Pointer to an optional deferred port check routine:
 <div class="code"><span codelanguage=""><table>
@@ -105,7 +105,7 @@ Pointer to an optional deferred port check routine:
 Pointer to a context for the deferred port check routine.
 
 
-### -field DeferredPortCheckContext
+#### - DeferredPortCheckContext
 
 Pointer to an optional context for the deferred port check routine.
 

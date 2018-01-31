@@ -40,7 +40,7 @@ apiname:
 -	EvtUsbDeviceSetFunctionSuspendAndWake
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH"
+req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
@@ -74,22 +74,22 @@ NTSTATUS EvtUsbDeviceSetFunctionSuspendAndWake(
 
 
 
-### -param UdecxWdfDevice [in]
+#### - UdecxWdfDevice [in]
 
 A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
-### -param UdecxUsbDevice [in]
+#### - UdecxUsbDevice [in]
 
 A handle to UDE device object. The client driver created this object in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 
 
-### -param Interface [in]
+#### - Interface [in]
 
 This value is the <b>bInterfaceNumber</b> of the interface that is waking up. 
 
 
-### -param FunctionPower [in]
+#### - FunctionPower [in]
 
 A <a href="..\udecxusbdevice\ne-udecxusbdevice-_udecx_usb_device_function_power.md">UDECX_USB_DEVICE_FUNCTION_POWER</a>-type value that indicates whether the interface can suspend and send wake signal to the host controller.
 

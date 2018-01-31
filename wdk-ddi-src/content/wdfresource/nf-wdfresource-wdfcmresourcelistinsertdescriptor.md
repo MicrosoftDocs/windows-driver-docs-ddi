@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18406f06-d60c-401e-a745-54caf1d0c21d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCmResourceListInsertDescriptor, wdf.wdfcmresourcelistinsertdescriptor, DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, kmdf.wdfcmresourcelistinsertdescriptor, wdfresource/WdfCmResourceListInsertDescriptor, PFN_WDFCMRESOURCELISTINSERTDESCRIPTOR, WdfCmResourceListInsertDescriptor method
+ms.keywords: WdfCmResourceListInsertDescriptor, PFN_WDFCMRESOURCELISTINSERTDESCRIPTOR, DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, wdf.wdfcmresourcelistinsertdescriptor, wdfresource/WdfCmResourceListInsertDescriptor, WdfCmResourceListInsertDescriptor method, kmdf.wdfcmresourcelistinsertdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfCmResourceListInsertDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -73,17 +73,17 @@ NTSTATUS WdfCmResourceListInsertDescriptor(
 
 
 
-### -param List [in]
+#### - List [in]
 
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 
-### -param Index [in]
+#### - Index [in]
 
 A zero-based value that is used as an index into the logical configuration that <i>List</i> specifies. To add a resource descriptor to the end of the resource list, specify WDF_INSERT_AT_END or the return value from <a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistgetcount.md">WdfCmResourceListGetCount</a>.
 
@@ -164,15 +164,15 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+<a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a>
 
 <a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistappenddescriptor.md">WdfCmResourceListAppendDescriptor</a>
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
-<a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a>
-
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
 
  
 

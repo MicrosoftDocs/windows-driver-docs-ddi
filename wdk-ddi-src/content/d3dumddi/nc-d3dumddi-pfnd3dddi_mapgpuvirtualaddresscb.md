@@ -75,7 +75,7 @@ HRESULT APIENTRY CALLBACK* pfnMapGpuVirtualAddressCb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device.
 

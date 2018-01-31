@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d9b4bba-0216-48cf-81aa-160b7252ba20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_FLT_RELATED_CONTEXTS, FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, FLT_RELATED_CONTEXTS structure [Installable File System Drivers], fltkernel/FLT_RELATED_CONTEXTS, ifsk.flt_related_contexts, fltkernel/PFLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], FLT_RELATED_CONTEXTS"
+ms.keywords: FLT_RELATED_CONTEXTS, fltkernel/PFLT_RELATED_CONTEXTS, FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, _FLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], PFLT_RELATED_CONTEXTS, fltkernel/FLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS structure [Installable File System Drivers], *PFLT_RELATED_CONTEXTS, ifsk.flt_related_contexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_RELATED_CONTEXTS
 product: Windows
 targetos: Windows
-req.typenames: "*PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS"
+req.typenames: FLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS
 ---
 
 # _FLT_RELATED_CONTEXTS structure
@@ -72,32 +72,32 @@ typedef struct _FLT_RELATED_CONTEXTS {
 
 
 
-### -field VolumeContext
+#### - VolumeContext
 
 Opaque pointer to the minifilter's context for the volume that the <b>Volume</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure points to. 
 
 
-### -field InstanceContext
+#### - InstanceContext
 
 Opaque pointer to the minifilter driver's context for the instance that the <b>Instance</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure points to. 
 
 
-### -field FileContext
+#### - FileContext
 
 On Windows Vista and later, this member is an opaque pointer to the minifilter driver's per-file context for the stream handle that the <b>FileObject</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure points to. On Windows operating systems earlier than Windows Vista, this member is reserved for system use. 
 
 
-### -field StreamContext
+#### - StreamContext
 
 Opaque pointer to the minifilter's stream context for the stream handle that the <b>FileObject</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure points to. 
 
 
-### -field StreamHandleContext
+#### - StreamHandleContext
 
 Opaque pointer to the minifilter's stream handle context for the stream handle that the <b>FileObject</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure points to. 
 
 
-### -field TransactionContext
+#### - TransactionContext
 
 On Windows Vista and later, this member is an opaque pointer to the minifilter's transaction context for the transaction that the <b>Transaction</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure points to. On Windows operating systems earlier than Windows Vista, this member is reserved for system use. 
 
@@ -119,13 +119,13 @@ For more information about using contexts, see the reference entry for <a href="
 
 <a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontexts.md">FltReleaseContexts</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
  
 

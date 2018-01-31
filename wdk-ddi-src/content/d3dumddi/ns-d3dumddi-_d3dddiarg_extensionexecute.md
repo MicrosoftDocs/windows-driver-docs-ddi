@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adc3e8a0-b261-47dc-ada2-bd21cb3ca954
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], _D3DDDIARG_EXTENSIONEXECUTE, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute, D3DDDIARG_EXTENSIONEXECUTE
+ms.keywords: D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], _D3DDDIARG_EXTENSIONEXECUTE, UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDIARG_EXTENSIONEXECUTE {
 
 
 
-### -field hExtension
+#### - hExtension
 
 [in] A handle to the DirectX VA extension device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a> function.
 
 
-### -field Function
+#### - Function
 
 [in] A specific operation to perform. The possible values for this member are defined by the extension device.
 
 
-### -field pPrivateInput
+#### - pPrivateInput
 
 [in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the extension operation.
 
 
-### -field pPrivateOutput
+#### - pPrivateOutput
 
 [in] A pointer to a DXVADDI_PRIVATEDATA structure that contains data about the extension operation that the driver returns.
 
 
-### -field NumBuffers
+#### - NumBuffers
 
 [in] The number of buffers in the list that is pointed to by <b>pBuffers</b>.
 
 
-### -field pBuffers
+#### - pBuffers
 
 
       [in] A pointer to a list of <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatebuffer.md">DXVADDI_PRIVATEBUFFER</a> structures that describe private buffers that an extension device uses to perform an extended operation.
@@ -106,13 +106,13 @@ typedef struct _D3DDDIARG_EXTENSIONEXECUTE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatebuffer.md">DXVADDI_PRIVATEBUFFER</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatebuffer.md">DXVADDI_PRIVATEBUFFER</a>
 
  
 

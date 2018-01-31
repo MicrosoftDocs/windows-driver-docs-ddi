@@ -40,7 +40,7 @@ apiname:
 -	RILSENDSUPSERVICEDATARESPONSEPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS"
+req.typenames: RILSENDSUPSERVICEDATARESPONSEPARAMS, *LPRILSENDSUPSERVICEDATARESPONSEPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -70,14 +70,14 @@ typedef struct _RILSENDSUPSERVICEDATARESPONSEPARAMS {
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwDataSize
+#### - dwDataSize
 
 
 
-### -field wszData
+#### - wszData
 
 

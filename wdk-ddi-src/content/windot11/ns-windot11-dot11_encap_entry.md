@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d17547c5-47a3-4d10-b27f-6a3bbf7aad03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], windot11/DOT11_ENCAP_ENTRY, Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], DOT11_ENCAP_ENTRY, windot11/PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY, netvista.dot11_encap_entry, *PDOT11_ENCAP_ENTRY
+ms.keywords: "*PDOT11_ENCAP_ENTRY, windot11/DOT11_ENCAP_ENTRY, netvista.dot11_encap_entry, windot11/PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ENCAP_ENTRY, Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], DOT11_ENCAP_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ENCAP_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: DOT11_ENCAP_ENTRY, *PDOT11_ENCAP_ENTRY
+req.typenames: "*PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY"
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ typedef struct DOT11_ENCAP_ENTRY {
 
 
 
-### -field usEtherType
+#### - usEtherType
 
 The value of the IEEE EtherType in big-endian byte order. 
      
@@ -82,7 +82,7 @@ If the
      list.
 
 
-### -field usEncapType
+#### - usEncapType
 
 The type of encapsulation that is performed on the EtherType specified by the 
      <b>usEtherType</b> member. The 

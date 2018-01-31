@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1788d9b6-5e5e-48b6-b746-fd078768892f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient2 interface [Windows Debugging], GetInputCallbacks method, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, dbgeng/IDebugClient5::GetInputCallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient4::GetInputCallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], GetInputCallbacks method, GetInputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetInputCallbacks method, IDebugClient3 interface [Windows Debugging], GetInputCallbacks method, GetInputCallbacks method [Windows Debugging], IDebugClient interface, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient interface [Windows Debugging], GetInputCallbacks method, GetInputCallbacks method [Windows Debugging], IDebugClient4::GetInputCallbacks, IDebugClient::GetInputCallbacks, dbgeng/IDebugClient::GetInputCallbacks, dbgeng/IDebugClient3::GetInputCallbacks, IDebugClient5::GetInputCallbacks, IDebugClient3::GetInputCallbacks, GetInputCallbacks, debugger.getinputcallbacks, dbgeng/IDebugClient2::GetInputCallbacks, IDebugClient2::GetInputCallbacks, IDebugClient5
+ms.keywords: IDebugClient3 interface [Windows Debugging], GetInputCallbacks method, IDebugClient3::GetInputCallbacks, dbgeng/IDebugClient2::GetInputCallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface, GetInputCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient::GetInputCallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface [Windows Debugging], GetInputCallbacks method, GetInputCallbacks method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient5::GetInputCallbacks, IDebugClient5, IDebugClient interface [Windows Debugging], GetInputCallbacks method, IDebugClient2 interface [Windows Debugging], GetInputCallbacks method, IDebugClient5::GetInputCallbacks, dbgeng/IDebugClient4::GetInputCallbacks, dbgeng/IDebugClient3::GetInputCallbacks, IDebugClient4::GetInputCallbacks, debugger.getinputcallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient5 interface [Windows Debugging], GetInputCallbacks method, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, GetInputCallbacks method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient::GetInputCallbacks, IDebugClient2::GetInputCallbacks, GetInputCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT GetInputCallbacks(
 
 
 
-### -param Callbacks [out]
+#### - Callbacks [out]
 
 Receives an interface pointer for the <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a> object registered with the client.
 
@@ -115,19 +115,19 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
  
 

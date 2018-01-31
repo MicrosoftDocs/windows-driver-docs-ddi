@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID
+ms.keywords: StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, StorPortIsDeviceOperationAllowed, storport/StorPortIsDeviceOperationAllowed, STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ ULONG StorPortIsDeviceOperationAllowed(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in]
+#### - Address [in]
 
 The address of a storage device unit.
 
 
-### -param DeviceOperation [in]
+#### - DeviceOperation [in]
 
 A pointer to a GUID specifying a device management operation class. The following GUID is valid.
 <table>
@@ -102,7 +102,7 @@ The device is enabled to receive secured provisioning commands.
 </table> 
 
 
-### -param AllowedFlag [out]
+#### - AllowedFlag [out]
 
  TRUE when the operation specified in <i>DeviceOperation</i> is allowed. Otherwise, FALSE.
 

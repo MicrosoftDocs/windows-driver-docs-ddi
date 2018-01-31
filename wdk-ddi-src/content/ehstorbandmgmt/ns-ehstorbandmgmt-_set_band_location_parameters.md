@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43F60B45-A587-49FE-BB59-DC1215A46F04
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], _SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], *PSET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS
+ms.keywords: "_SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], SET_BAND_LOCATION_PARAMETERS structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _SET_BAND_LOCATION_PARAMETERS {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(SET_BAND_LOCATION_PARAMETERS).
 
 
-### -field BandId
+#### - BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
 
-### -field BandStart
+#### - BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
 
-### -field AuthKeyOffset
+#### - AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authorization key for the band. The offset is from the beginning of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>
@@ -117,7 +117,7 @@ The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> 
 A variable-length byte array that contains the key data.
 
 
-### -field BandLocationInfoOffset
+#### - BandLocationInfoOffset
 
 The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a> structure. The offset is from the beginning of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>.
 
@@ -135,9 +135,9 @@ If <b>BandID</b> and <b>BandStart </b> are both set to –1,  then the <a href="
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
 
  
 

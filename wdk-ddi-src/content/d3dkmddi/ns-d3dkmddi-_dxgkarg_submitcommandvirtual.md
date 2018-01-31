@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7BBB4BEC-82F1-44B9-A0C2-1073517A4116
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_SUBMITCOMMANDVIRTUAL, display.dxgkarg_submitcommandvirtual, DXGKARG_SUBMITCOMMANDVIRTUAL structure [Display Devices], d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL, _DXGKARG_SUBMITCOMMANDVIRTUAL
+ms.keywords: d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL, DXGKARG_SUBMITCOMMANDVIRTUAL structure [Display Devices], _DXGKARG_SUBMITCOMMANDVIRTUAL, display.dxgkarg_submitcommandvirtual, DXGKARG_SUBMITCOMMANDVIRTUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,62 +80,62 @@ typedef struct _DXGKARG_SUBMITCOMMANDVIRTUAL {
 
 
 
-### -field hContext
+#### - hContext
 
 The handle returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>.
 
 
-### -field DmaBufferVirtualAddress
+#### - DmaBufferVirtualAddress
 
 The virtual address for the DMA buffer in the context of the submitting process.
 
 
-### -field DmaBufferSize
+#### - DmaBufferSize
 
 The size of the DMA buffer in bytes.
 
 
-### -field pDmaBufferPrivateData
+#### - pDmaBufferPrivateData
 
 A pointer to the driver-private data buffer.
 
 
-### -field DmaBufferPrivateDataSize
+#### - DmaBufferPrivateDataSize
 
 The size of the driver-private data buffer in bytes.
 
 
-### -field DmaBufferUmdPrivateDataSize
+#### - DmaBufferUmdPrivateDataSize
 
 Size of the private driver data, in bytes, that was set by the user mode driver in <b>SubmitCommandCb</b>. When <b>SubmitCommandCb</b> is called, the DirectX graphics kernel allocates a buffer for the private driver data with the size equal to <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>::<b>DmaBufferPrivateDataSize</b>. This size was reported by the kernel mode driver in the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> call. The DirectX graphics kernel copies the driver private data from the <b>SubmitCommandCb</b> to the allocated buffer.
 
 
-### -field SubmissionFenceId
+#### - SubmissionFenceId
 
 A unique identifier that the driver can write into the fence command in the ring buffer, which is the buffer where DMA buffers are queued for the GPU to run. For more information about these types of identifiers, see <a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for a flip operation. This member is valid only when the <b>Flip</b> or <b>FlipWithNoWait</b> bit-field flag is set in the <b>Flags</b> member.
 
 
-### -field FlipInterval
+#### - FlipInterval
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). <b>FlipInterval</b> is valid only if the <b>Flip</b> bit-field flag is set (that is, <b>TRUE</b>) in the <b>Flags</b> member.
 
 
-### -field Flags
+#### - Flags
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_submitcommandflags.md">DXGK_SUBMITCOMMANDFLAGS</a> structure that identifies information about the DMA buffer to submit.
 
 
-### -field EngineOrdinal
+#### - EngineOrdinal
 
 Reserved for future use.
 
 
-### -field NodeOrdinal
+#### - NodeOrdinal
 
 The zero-based index of the node that the context is created for. Identifies the node when the context is <b>NULL</b>.
 
@@ -144,13 +144,13 @@ The zero-based index of the node that the context is created for. Identifies the
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>
+<a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
 
-<a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
 
  
 

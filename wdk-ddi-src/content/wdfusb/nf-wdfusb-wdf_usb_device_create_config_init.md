@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 01053A65-45A4-4232-A9F2-1651DC820026
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_DEVICE_CREATE_CONFIG_INIT function, kmdf.wdf_usbtarget_device_config_init, kmdf.wdf_usb_device_create_config_init, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG_INIT, wdf.wdf_usb_device_create_config_init, WDF_USB_DEVICE_CREATE_CONFIG_INIT
+ms.keywords: WDF_USB_DEVICE_CREATE_CONFIG_INIT function, WDF_USB_DEVICE_CREATE_CONFIG_INIT, kmdf.wdf_usb_device_create_config_init, kmdf.wdf_usbtarget_device_config_init, wdf.wdf_usb_device_create_config_init, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ void WDF_USB_DEVICE_CREATE_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 A pointer to a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a> structure.
 
 
-### -param USBDClientContractVersion [in]
+#### - USBDClientContractVersion [in]
 
 The contract version that the client driver supports. <b>USBDClientContractVersion</b> must be USBD_CLIENT_CONTRACT_VERSION_602. 
 

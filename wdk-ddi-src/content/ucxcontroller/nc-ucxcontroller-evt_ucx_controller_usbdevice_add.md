@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_CONTROLLER_USBDEVICE_ADD
 product: Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+req.typenames: "*PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -75,17 +75,17 @@ typedef EVT_UCX_CONTROLLER_USBDEVICE_ADD PEVT_UCX_CONTROLLER_USBDEVICE_ADD;
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param UcxUsbDeviceInfo [in]
+#### - UcxUsbDeviceInfo [in]
 
 Pointer to a <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucxusbdevice_info.md">UCXUSBDEVICE_INFO</a> structure.
 
 
-### -param UsbDeviceInit [in]
+#### - UsbDeviceInit [in]
 
 Pointer to an opaque structure containing initialization
     information.  Callbacks for the device object are associated with this structure.

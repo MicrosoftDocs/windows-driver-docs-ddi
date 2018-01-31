@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 4755f4c3-305e-41a5-afdf-eda8e8e81b74
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER, _PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], PCI.pci_express_slot_control_register, PPCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER
+ms.keywords: PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], *PPCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI.pci_express_slot_control_register, _PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml, PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], PPCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,7 +146,7 @@ typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
  
 
 
-### -field AsUSHORT
+#### - AsUSHORT
 
 A USHORT representation of the contents of the PCI_EXPRESS_SLOT_CONTROL_REGISTER structure.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc2c907c-1e3b-418c-85f8-9902dc83f7ab
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_setinformation, SetInformation method, IWDFIoRequest interface, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, IWDFIoRequest::SetInformation, umdf.iwdfiorequest_setinformation, SetInformation method, IWDFIoRequest, wudfddi/IWDFIoRequest::SetInformation, IWDFIoRequest interface, SetInformation method, SetInformation
+ms.keywords: wudfddi/IWDFIoRequest::SetInformation, IWDFIoRequest, umdf.iwdfiorequest_setinformation, IWDFIoRequest interface, SetInformation method, SetInformation, SetInformation method, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, SetInformation method, IWDFIoRequest interface, wdf.iwdfiorequest_setinformation, IWDFIoRequest::SetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.SetInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void SetInformation(
 
 
 
-### -param Information [in]
+#### - Information [in]
 
 A ULONG_PTR value that specifies the size of information to set for the request.
 

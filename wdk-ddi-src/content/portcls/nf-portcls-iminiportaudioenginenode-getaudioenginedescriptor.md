@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B8D09AB4-1F36-44E1-8D4F-33E7E4DBBFE3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode::GetAudioEngineDescriptor, audio.iminiportaudioenginenode_getaudioenginedescriptor, GetAudioEngineDescriptor method [Audio Devices], portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor, GetAudioEngineDescriptor, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface
+ms.keywords: audio.iminiportaudioenginenode_getaudioenginedescriptor, IMiniportAudioEngineNode::GetAudioEngineDescriptor, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.GetAudioEngineDescriptor
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::GetAudioEngineDescriptor method
@@ -68,12 +68,12 @@ NTSTATUS GetAudioEngineDescriptor(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID of the audio engine node.
 
 
-### -param pAudioEngineDescriptor [out]
+#### - pAudioEngineDescriptor [out]
 
 Audio engine descriptor object. This parameter is of type <a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_descriptor.md">KSAUDIOENGINE_DESCRIPTOR</a>.
 

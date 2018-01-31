@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_REVISION union pointer [WHEA Drivers and Applications], whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml, ntddk/WHEA_REVISION, *PWHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], ntddk/PWHEA_REVISION, _WHEA_REVISION, PWHEA_REVISION, WHEA_REVISION, whea.whea_revision
+ms.keywords: WHEA_REVISION, PWHEA_REVISION, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml, whea.whea_revision, PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION union [WHEA Drivers and Applications], _WHEA_REVISION, ntddk/PWHEA_REVISION, ntddk/WHEA_REVISION, *PWHEA_REVISION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,7 +86,7 @@ typedef union _WHEA_REVISION {
  
 
 
-### -field AsUSHORT
+#### - AsUSHORT
 
 A USHORT representation of the contents of the WHEA_REVISION union.
 

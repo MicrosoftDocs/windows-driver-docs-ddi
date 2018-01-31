@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69A8792B-954E-49AF-A306-25B94183E58A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS structure [Kernel-Mode Driver Architecture], pep_x/PEP_PPM_QUERY_LP_SETTINGS, PPEP_PPM_QUERY_LP_SETTINGS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_LP_SETTINGS, kernel.pep_ppm_query_lp_settings, *PPEP_PPM_QUERY_LP_SETTINGS, pep_x/PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS
+ms.keywords: PPEP_PPM_QUERY_LP_SETTINGS structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_LP_SETTINGS, *PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS, kernel.pep_ppm_query_lp_settings, pep_x/PPEP_PPM_QUERY_LP_SETTINGS, pep_x/PEP_PPM_QUERY_LP_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_QUERY_LP_SETTINGS
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_QUERY_LP_SETTINGS, *PPEP_PPM_QUERY_LP_SETTINGS
+req.typenames: "*PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS"
 ---
 
 # _PEP_PPM_QUERY_LP_SETTINGS structure
@@ -67,7 +67,7 @@ typedef struct _PEP_PPM_QUERY_LP_SETTINGS {
 
 
 
-### -field RegistryRoot
+#### - RegistryRoot
 
 [out] The kernel handle to the registry root that contains the settings for a platform power scenario. For more information, see Remarks.
 

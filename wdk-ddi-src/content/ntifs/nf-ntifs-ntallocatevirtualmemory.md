@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwallocatevirtualmemory
+ms.keywords: ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ZwAllocateVirtualMemory, NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory, ntifs/NtAllocateVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS ZwAllocateVirtualMemory(
 
 
 
-### -param ProcessHandle [in]
+#### - ProcessHandle [in]
 
 A handle for the process for which the mapping should be done. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
 
-### -param BaseAddress [in, out]
+#### - BaseAddress [in, out]
 
 A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of this parameter is non-<b>NULL</b>, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of this parameter is <b>NULL</b>, the operating system will determine where to allocate the region.
 
 
-### -param ZeroBits [in]
+#### - ZeroBits [in]
 
 The number of high-order address bits that must be zero in the base address of the section view. This value must be less than 21 and is used only when the operating system determines where to allocate the region, as when <i>BaseAddress</i> is <b>NULL</b>.
 
 
-### -param RegionSize [in, out]
+#### - RegionSize [in, out]
 
 A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of this parameter specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. <i>*RegionSize</i> cannot be zero on input. 
 
 
-### -param AllocationType [in]
+#### - AllocationType [in]
 
 A bitmask containing flags that specify the type of allocation to be performed. The following table describes these flags.
 <table>
@@ -162,7 +162,7 @@ The specified region should be created at the highest virtual address possible b
 </table> 
 
 
-### -param Protect [in]
+#### - Protect [in]
 
 A bitmask containing page protection flags that specify the protection desired for the committed region of pages. The following table describes these flags.
 <table>

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1CD1D065-9A96-42D5-807E-B439B4273920
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MetadataId_Standard_Start, MetadataId_Custom_Start, ksmedia/MetadataId_Custom_Start, KSCAMERA_MetadataId enumeration [Streaming Media Devices], MetadataId_Standard_End, KSCAMERA_MetadataId, MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, ksmedia/MetadataId_Standard_Start, ksmedia/KSCAMERA_MetadataId, ksmedia/MetadataId_PhotoConfirmation, stream.kscamera_metadataid
+ms.keywords: MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, MetadataId_Standard_Start, KSCAMERA_MetadataId enumeration [Streaming Media Devices], KSCAMERA_MetadataId, MetadataId_Custom_Start, ksmedia/MetadataId_Custom_Start, ksmedia/MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_Start, stream.kscamera_metadataid, MetadataId_Standard_End, ksmedia/KSCAMERA_MetadataId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,12 +70,12 @@ typedef enum  {
 
 
 
-### -field MetadataId_Standard_Start
+#### - MetadataId_Standard_Start
 
 This represent the standard start metadata ID.
 
 
-### -field MetadataId_PhotoConfirmation
+#### - MetadataId_PhotoConfirmation
 
 This represents the photo confirmation metadata ID
 
@@ -100,12 +100,12 @@ This represents the photo confirmation metadata ID
 
 
 
-### -field MetadataId_Standard_End
+#### - MetadataId_Standard_End
 
 This represent the standard end  metadata ID.
 
 
-### -field MetadataId_Custom_Start
+#### - MetadataId_Custom_Start
 
 This represents the lowest acceptable custom metadata ID.
 

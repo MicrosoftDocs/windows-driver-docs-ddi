@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 08f31584-b3ea-4e6e-b8ce-17813ca7c06b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfQueryBindingIfIndex, NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, netvista.ndisifquerybindingifindex, ndis/NdisIfQueryBindingIfIndex
+ms.keywords: NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfQueryBindingIfIndex, net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, netvista.ndisifquerybindingifindex, NdisIfQueryBindingIfIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ NDIS_STATUS NdisIfQueryBindingIfIndex(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 A handle that identifies the binding for which NDIS should obtain the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> values and network interface indexes.
@@ -84,7 +84,7 @@ A handle that identifies the binding for which NDIS should obtain the
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-### -param pBoundIfIndex [out]
+#### - pBoundIfIndex [out]
 
 A pointer to a caller-supplied interface index variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the network interface index of
@@ -92,14 +92,14 @@ A pointer to a caller-supplied interface index variable. If
      stack.
 
 
-### -param pBoundIfNetLuid [out]
+#### - pBoundIfNetLuid [out]
 
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the NET_LUID value of the network
      interface that is associated with the specified binding and is highest in the driver stack.
 
 
-### -param pLowestIfIndex [out]
+#### - pLowestIfIndex [out]
 
 A pointer to a caller-supplied interface index variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the network interface index of
@@ -107,7 +107,7 @@ A pointer to a caller-supplied interface index variable. If
      stack.
 
 
-### -param pLowestIfNetLuid [out]
+#### - pLowestIfNetLuid [out]
 
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the NET_LUID value of the network
@@ -172,11 +172,11 @@ Protocol drivers can also obtain the interface index and NET_LUID of the highest
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
  
 

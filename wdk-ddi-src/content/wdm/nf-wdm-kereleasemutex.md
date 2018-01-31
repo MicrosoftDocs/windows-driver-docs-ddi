@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeReleaseMutex routine [Kernel-Mode Driver Architecture], wdm/KeReleaseMutex, k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, KeReleaseMutex, kernel.kereleasemutex
+ms.keywords: KeReleaseMutex, wdm/KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], kernel.kereleasemutex, k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ LONG KeReleaseMutex(
 
 
 
-### -param Mutex [in, out]
+#### - Mutex [in, out]
 
 A pointer to an initialized mutex object for which the caller provides the storage.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Specifies whether the call to <b>KeReleaseMutex</b> is to be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseMutex</b> call must be followed by a call to <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
 
@@ -115,15 +115,15 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
 <a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
  
 

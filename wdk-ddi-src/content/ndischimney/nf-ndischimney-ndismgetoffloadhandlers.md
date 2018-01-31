@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a78acf5d-07ec-487c-97bd-daca8d08863c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NdisMGetOffloadHandlers, NdisMGetOffloadHandlers, netvista.ndismgetoffloadhandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml
+ms.keywords: netvista.ndismgetoffloadhandlers, ndischimney/NdisMGetOffloadHandlers, NdisMGetOffloadHandlers, tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NDIS_STATUS NdisMGetOffloadHandlers(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The handle to a context area that is offload target-allocated in which the offload target
      maintains state information about this instance of the adapter. The offload target provided this handle
@@ -82,7 +82,7 @@ The handle to a context area that is offload target-allocated in which the offlo
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param ChimneyType [in]
+#### - ChimneyType [in]
 
 A chimney type that is one of the following NDIS_CHIMNEY_OFFLOAD_TYPE values:
      
@@ -97,7 +97,7 @@ All other NDIS_CHIMNEY_OFFLOAD_TYPE values are currently reserved.
 The TCP chimney offload type.
 
 
-### -param OffloadHandlers [out]
+#### - OffloadHandlers [out]
 
 A pointer to a variable supplied by the offload target. The size of this variable is 
      sizeof(PNDIS_OFFLOAD_EVENT_HANDLERS). If the call to the 
@@ -227,14 +227,14 @@ The offload target copies the entry points from the chimney-specific structure i
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <mshelp:link keywords="netvista.ndis_tcp_offload_event_handlers" tabindex="0"><b>
    NDIS_TCP_OFFLOAD_EVENT_HANDLERS</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

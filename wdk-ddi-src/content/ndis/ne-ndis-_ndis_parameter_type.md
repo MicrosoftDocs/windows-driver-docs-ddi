@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f17e390a-fa13-4435-ad1e-3fecc035ec41
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_PARAMETER_TYPE, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, _NDIS_PARAMETER_TYPE, ndis/NDIS_PARAMETER_TYPE, NdisParameterString, NdisParameterBinary, ndis/NdisParameterBinary, NdisParameterHexInteger, NdisParameterMultiString, ndis/NdisParameterInteger, ndis/PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE, ndis/NdisParameterHexInteger, ndis/NdisParameterString, NdisParameterInteger, ndis/NdisParameterMultiString, PNDIS_PARAMETER_TYPE, netvista.ndis_parameter_type, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: ndis/PNDIS_PARAMETER_TYPE, ndis/NdisParameterInteger, netvista.ndis_parameter_type, NdisParameterInteger, NDIS_PARAMETER_TYPE, NdisParameterMultiString, ndis/NdisParameterString, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterBinary, PNDIS_PARAMETER_TYPE, _NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE, ndis/NdisParameterMultiString, ndis/NdisParameterHexInteger, ndis/NDIS_PARAMETER_TYPE, NdisParameterString, ndis/NdisParameterBinary, NdisParameterHexInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PARAMETER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE"
+req.typenames: NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE
 ---
 
 # _NDIS_PARAMETER_TYPE enumeration
@@ -71,27 +71,27 @@ typedef enum _NDIS_PARAMETER_TYPE {
 
 
 
-### -field NdisParameterInteger
+#### - NdisParameterInteger
 
 An integer in decimal notation.
 
 
-### -field NdisParameterHexInteger
+#### - NdisParameterHexInteger
 
 An integer in hexadecimal notation.
 
 
-### -field NdisParameterString
+#### - NdisParameterString
 
 A string of type NDIS_STRING.
 
 
-### -field NdisParameterMultiString
+#### - NdisParameterMultiString
 
 A multistring parameter of the REG_MULTI_SZ type.
 
 
-### -field NdisParameterBinary
+#### - NdisParameterBinary
 
 A binary value of type REG_BINARY.
 

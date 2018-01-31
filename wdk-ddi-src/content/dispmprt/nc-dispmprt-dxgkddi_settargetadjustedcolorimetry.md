@@ -40,7 +40,7 @@ apiname:
 -	DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback
@@ -69,17 +69,17 @@ NTSTATUS APIENTRY DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 [in] Identifies the adapter.
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 [in] The identifier of a display adapter's video present target.
 
 
-### -param AdjustedColorimetry [in]
+#### - AdjustedColorimetry [in]
 
 [in] A DXGK_COLORIMETRY structure containing the colorimetry related fields for the monitor attached to this target after the OS has processed the display device descriptor, all overrides and any adjustments.
 

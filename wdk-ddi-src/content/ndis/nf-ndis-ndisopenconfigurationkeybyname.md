@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9ce7f40f-28f1-4303-9f7a-24ff1213bab1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisOpenConfigurationKeyByName, netvista.ndisopenconfigurationkeybyname, NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByName, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml
+ms.keywords: ndis/NdisOpenConfigurationKeyByName, netvista.ndisopenconfigurationkeybyname, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], NdisOpenConfigurationKeyByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisOpenConfigurationKeyByName(
 
 
 
-### -param Status [out]
+#### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of its attempt
      to open the registry key. Possible return values are one of the following:
@@ -93,7 +93,7 @@ NDIS has initialized accessed to the subkey specified by
 The key could not be opened.
 
 
-### -param ConfigurationHandle [in]
+#### - ConfigurationHandle [in]
 
 The handle to a registry key for which a subkey should be opened. Typically, 
      <i>ConfigurationHandle</i> is returned by the 
@@ -101,7 +101,7 @@ The handle to a registry key for which a subkey should be opened. Typically,
      NdisOpenConfigurationEx</b></mshelp:link> function.
 
 
-### -param SubKeyName [in]
+#### - SubKeyName [in]
 
 A pointer to an NDIS_STRING type containing a caller-supplied, counted string in the
      system-default character set that specifies the name of the registry subkey to open. For Microsoft
@@ -110,7 +110,7 @@ A pointer to an NDIS_STRING type containing a caller-supplied, counted string in
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 
-### -param SubKeyHandle [out]
+#### - SubKeyHandle [out]
 
 A pointer to a caller-supplied variable in which this function returns a handle to the opened
      subkey if this call is successful.
@@ -154,24 +154,24 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
 <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
    NdisOpenConfigurationKeyByIndex</b></mshelp:link>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreHelperPS::GetFeatureAttribute, GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml, GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface
+ms.keywords: GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml, print.iprintcorehelperps_getfeatureattribute, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, GetFeatureAttribute, IPrintCoreHelperPS::GetFeatureAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetFeatureAttribute(
 
 
 
-### -param pszFeatureKeyword [in]
+#### - pszFeatureKeyword [in]
 
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the feature keyword to query for. This value can be obtained from a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551977">IPrintCoreHelperPS::EnumFeatures</a>.
 
 
-### -param pszAttribute [in]
+#### - pszAttribute [in]
 
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the attribute that was requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all of the supported feature attribute names instead of specifying a specific feature attribute name. 
 
 
-### -param pdwDataType [out]
+#### - pdwDataType [out]
 
 A pointer to a variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration type, which is defined in printoem.h.
 
@@ -92,7 +92,7 @@ A pointer to a variable that receives a value that specifies the data type of th
 
 
 
-### -param pcbSize [out]
+#### - pcbSize [out]
 
 A pointer to a variable that receives the size, in bytes, of the buffer that is pointed to by the <i>pbData</i> parameter. 
 
@@ -174,9 +174,9 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
 
  
 

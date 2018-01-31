@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, FltIsDirectory, FltIsDirectory routine [Installable File System Drivers], fltkernel/FltIsDirectory, ifsk.fltisdirectory
+ms.keywords: FltIsDirectory routine [Installable File System Drivers], FltIsDirectory, FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, fltkernel/FltIsDirectory, ifsk.fltisdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltIsDirectory(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to an already opened file object. 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the instance associated with this file object. 
 
 
-### -param IsDirectory [out]
+#### - IsDirectory [out]
 
 Pointer to a caller-supplied Boolean variable. On return, this variable receives <b>TRUE</b> if the file object represents a directory, <b>FALSE</b> otherwise. 
 

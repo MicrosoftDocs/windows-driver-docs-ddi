@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C2D4EB3E-0A39-4458-B0E7-C6D943AB4203
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetGfxState, GetGfxState method [Audio Devices], audio.iminiportaudioenginenode_getgfxstate, IMiniportAudioEngineNode interface [Audio Devices], GetGfxState method, portcls/IMiniportAudioEngineNode::GetGfxState, IMiniportAudioEngineNode, GetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetGfxState
+ms.keywords: GetGfxState, GetGfxState method [Audio Devices], IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetGfxState, portcls/IMiniportAudioEngineNode::GetGfxState, audio.iminiportaudioenginenode_getgfxstate, GetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], GetGfxState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.GetGfxState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::GetGfxState method
@@ -68,12 +68,12 @@ NTSTATUS GetGfxState(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID of the GFX node.
 
 
-### -param pbEnable [out]
+#### - pbEnable [out]
 
 Pointer to a <b>BOOL</b> data type.
 

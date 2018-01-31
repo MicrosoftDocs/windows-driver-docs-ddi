@@ -40,7 +40,7 @@ apiname:
 -	pfnGetContentProtectionCaps
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS callback
@@ -73,26 +73,26 @@ HRESULT APIENTRY* pfnGetContentProtectionCaps(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param *pCryptoType
+#### - *pCryptoType [in]
+
+A pointer to a GUID that specifies the type of encryption algorithm to query.
 
 
+#### - *pDecodeProfile [in]
 
-### -param *pDecodeProfile
-
-
-
-### -param *pCaps
+A pointer to a GUID that specifies the decoder profile to query.
 
 
+#### - *pCaps [out]
 
-
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a> structure that contains the protection capabilities for the specified encryption algorithm and decoder profile.
 
 
 #### - pCryptoType [in]

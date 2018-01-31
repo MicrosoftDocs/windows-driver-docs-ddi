@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dc8ea8b0-6aa0-4372-973a-42c545c27e18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCLFS_STREAM_ID_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLFS_STREAM_ID_INFORMATION, PPCLFS_STREAM_ID_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_STREAM_ID_INFORMATION, *PCLFS_STREAM_ID_INFORMATION, PCLFS_STREAM_ID_INFORMATION, CLFS_STREAM_ID_INFORMATION, CLFS_STREAM_ID_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_a_bfefe413-124f-49c3-8742-c1f1a524f5a6.xml, wdm/PCLFS_STREAM_ID_INFORMATION, wdm/CLFS_STREAM_ID_INFORMATION, wdm/PPCLFS_STREAM_ID_INFORMATION, kernel.clfs_stream_id_information
+ms.keywords: CLFS_STREAM_ID_INFORMATION, wdm/PCLFS_STREAM_ID_INFORMATION, kernel.clfs_stream_id_information, PCLFS_STREAM_ID_INFORMATION, _CLFS_STREAM_ID_INFORMATION, CLFS_STREAM_ID_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_STREAM_ID_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_STREAM_ID_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PCLFS_STREAM_ID_INFORMATION, wdm/PPCLFS_STREAM_ID_INFORMATION, kstruct_a_bfefe413-124f-49c3-8742-c1f1a524f5a6.xml, wdm/CLFS_STREAM_ID_INFORMATION, PPCLFS_STREAM_ID_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLFS_STREAM_ID_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: CLFS_STREAM_ID_INFORMATION, *PCLFS_STREAM_ID_INFORMATION, PPCLFS_STREAM_ID_INFORMATION
+req.typenames: CLFS_STREAM_ID_INFORMATION, PPCLFS_STREAM_ID_INFORMATION, *PCLFS_STREAM_ID_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct _CLFS_STREAM_ID_INFORMATION {
 
 
 
-### -field StreamIdentifier
+#### - StreamIdentifier
 
 An 8-bit value that identifies a stream.
 

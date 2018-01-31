@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95526c2d-19bf-4f4a-abfa-e5be73c1a6a5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_SendCTPassThruV2, storage.hba_sendctpassthruv2, HBA_SendCTPassThruV2 routine [Storage Devices], HBA_SendCTPassThruV2, fibreHBA_rtns_8ed894f5-3f6c-4b71-a149-8e5624643aa0.xml
+ms.keywords: HBA_SendCTPassThruV2 routine [Storage Devices], hbaapi/HBA_SendCTPassThruV2, fibreHBA_rtns_8ed894f5-3f6c-4b71-a149-8e5624643aa0.xml, storage.hba_sendctpassthruv2, HBA_SendCTPassThruV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,22 +77,22 @@ HBA_STATUS HBA_API HBA_SendCTPassThruV2(
 TBD
 
 
-### -param HbaPortWWN [in]
+#### - HbaPortWWN [in]
 
 Contains the worldwide name (WWN) of the port from which to issue the command. For a definition of worldwide names, see the T11 committee's specification for <i>Fibre Channel HBA API</i>. 
 
 
-### -param pReqBuffer [in]
+#### - pReqBuffer [in]
 
 Pointer to a buffer that contains the full frame of the common transport command in big-endian format.
 
 
-### -param ReqBufferSize [in]
+#### - ReqBufferSize [in]
 
 Indicates the size of the buffer pointed to by <i>pReqBuffer</i>:
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that contains the payload data from the reply to the common transport command in big-endian (wire) format. 
 
@@ -133,13 +133,13 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendctpassthru.md">HBA_SendCTPassThru</a>
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_sendctpassthru.md">HBA_SendCTPassThru</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

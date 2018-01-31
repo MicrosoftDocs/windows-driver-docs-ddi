@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8832adbc-c2ab-4742-94a0-4e33d03eaaf1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaDeregisterProvider, netvista.netdmaderegisterprovider, NetDmaDeregisterProvider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml
+ms.keywords: netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netvista.netdmaderegisterprovider, NetDmaDeregisterProvider, netdma/NetDmaDeregisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaDeregisterProvider
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaDeregisterProvider function
@@ -70,7 +70,7 @@ VOID NetDmaDeregisterProvider(
 
 
 
-### -param NetDmaProviderHandle [in]
+#### - NetDmaProviderHandle [in]
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
@@ -114,9 +114,9 @@ Call
 
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
-
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
  
 

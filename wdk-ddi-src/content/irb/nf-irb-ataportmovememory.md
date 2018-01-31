@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9d724bb-cc65-428c-ad48-21b227f3c8b1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortMoveMemory routine [Storage Devices], atartns_9ecea2c5-892f-4d04-9865-30598ac4e5d6.xml, AtaPortMoveMemory, irb/AtaPortMoveMemory, storage.ataportmovememory
+ms.keywords: storage.ataportmovememory, irb/AtaPortMoveMemory, atartns_9ecea2c5-892f-4d04-9865-30598ac4e5d6.xml, AtaPortMoveMemory routine [Storage Devices], AtaPortMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID AtaPortMoveMemory(
 
 
 
-### -param WriteBuffer [out]
+#### - WriteBuffer [out]
 
 A pointer to the destination buffer.
 
 
-### -param ReadBuffer [in]
+#### - ReadBuffer [in]
 
 A pointer to the source buffer.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>.
 

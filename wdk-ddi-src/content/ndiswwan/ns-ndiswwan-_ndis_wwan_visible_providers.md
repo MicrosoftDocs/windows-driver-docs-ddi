@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ed30def8-41c5-4fa9-8098-80f47ddaaa99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_45997454-b06e-4291-82f5-57e29d8afa7e.xml, NDIS_WWAN_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS, _NDIS_WWAN_VISIBLE_PROVIDERS, netvista.ndis_wwan_visible_providers, ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS, PNDIS_WWAN_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_VISIBLE_PROVIDERS
+ms.keywords: WwanRef_45997454-b06e-4291-82f5-57e29d8afa7e.xml, *PNDIS_WWAN_VISIBLE_PROVIDERS, _NDIS_WWAN_VISIBLE_PROVIDERS, PNDIS_WWAN_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_visible_providers, NDIS_WWAN_VISIBLE_PROVIDERS, PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_VISIBLE_PROVIDERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # _NDIS_WWAN_VISIBLE_PROVIDERS structure
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_VISIBLE_PROVIDERS {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_VISIBLE_PROVIDERS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 A miniport driver must set this to WWAN_STATUS_SUCCESS for successful execution of query to the
      OID_WWAN_VISIBLE_PROVIDER.
@@ -207,7 +207,7 @@ Service activation has failed. Subscription has expired. Device does not allow s
 </table> 
 
 
-### -field VisibleListHeader
+#### - VisibleListHeader
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents a

@@ -40,7 +40,7 @@ apiname:
 -	flowDeleteFn
 product: Windows
 targetos: Windows
-req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
+req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
 
 # FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback
@@ -74,7 +74,7 @@ void NTAPI flowDeleteFn(
 
 
 
-### -param layerId [in]
+#### - layerId [in]
 
 The run-time identifier for the filtering layer at which the data flow is being terminated. For
      more information, see 
@@ -82,7 +82,7 @@ The run-time identifier for the filtering layer at which the data flow is being 
      Identifiers</mshelp:link>.
 
 
-### -param calloutId [in]
+#### - calloutId [in]
 
 The run-time identifier for the callout in the filter engine. This is the same identifier that was
      returned when the callout driver called either the 
@@ -91,7 +91,7 @@ The run-time identifier for the callout in the filter engine. This is the same i
      register the callout with the filter engine.
 
 
-### -param flowContext [in]
+#### - flowContext [in]
 
 The most recent context that has been associated with the data flow by a call to the 
      <a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a> function.
@@ -149,15 +149,15 @@ The FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 type is defined as a pointer to the
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoBuildDeviceIoControlRequest, k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, kernel.iobuilddeviceiocontrolrequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], IoBuildDeviceIoControlRequest
+ms.keywords: wdm/IoBuildDeviceIoControlRequest, k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], IoBuildDeviceIoControlRequest, kernel.iobuilddeviceiocontrolrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,47 +76,47 @@ PIRP IoBuildDeviceIoControlRequest(
 
 
 
-### -param IoControlCode [in]
+#### - IoControlCode [in]
 
 Supplies the I/O control code (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">IOCTL</a>) to be used in the request. For information about device type-specific I/O control codes, see device type-specific sections in the Windows Driver Kit (WDK). 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Supplies a pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for the next-lower driver's device object, which represents the target device.
 
 
-### -param InputBuffer [in, optional]
+#### - InputBuffer [in, optional]
 
 Supplies a pointer to an input buffer to be passed to the lower driver, or <b>NULL</b> if the request does not pass input data to lower drivers.
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 Supplies the length, in bytes, of the input buffer. If <i>InputBuffer</i> is <b>NULL</b>, <i>InputBufferLength</i> must be zero.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 Supplies a pointer to an output buffer in which the lower driver is to return data, or <b>NULL</b> if the request does not require lower drivers to return data.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 Supplies the length, in bytes, of the output buffer. If <i>OutputBuffer</i> is <b>NULL</b>, <i>OutputBufferLength</i> must be zero.
 
 
-### -param InternalDeviceIoControl [in]
+#### - InternalDeviceIoControl [in]
 
 If <b>TRUE</b>, the routine sets the IRP's major function code to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>. Otherwise, the routine sets the IRP's major function code to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>.
 
 
-### -param Event [in, optional]
+#### - Event [in, optional]
 
 Supplies a pointer to a caller-allocated and initialized event object. The I/O manager sets the event to the Signaled state when a lower-level driver completes the requested operation. After calling <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, the driver can wait for the event object. The <i>Event</i> parameter is optional and can be set to NULL. However, if <i>Event</i> is NULL, the caller must supply an <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine for the IRP to notify the caller when the operation completes.
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 Specifies an I/O status block to be set when the request is completed by lower drivers.
 
@@ -149,23 +149,23 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
  
 

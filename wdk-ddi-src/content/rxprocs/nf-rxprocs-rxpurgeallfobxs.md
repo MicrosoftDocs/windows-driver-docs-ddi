@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d2a31be-1b59-48a8-8cde-61d7f7319724
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxPurgeAllFobxs, ifsk.rxpurgeallfobxs, rxprocs/RxPurgeAllFobxs, rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml, RxPurgeAllFobxs function [Installable File System Drivers]
+ms.keywords: RxPurgeAllFobxs function [Installable File System Drivers], rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml, rxprocs/RxPurgeAllFobxs, ifsk.rxpurgeallfobxs, RxPurgeAllFobxs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID RxPurgeAllFobxs(
 
 
 
-### -param RxDeviceObject
+#### - RxDeviceObject
 
 A pointer to the mini-redirector device object for which the purge should be done.
 
@@ -108,11 +108,11 @@ The <b>Flink</b> and <b>Blink</b> members for a list entry are <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
-
 <a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxscavengeallfobxs.md">RxScavengeAllFobxs</a>
+
+<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
 
  
 

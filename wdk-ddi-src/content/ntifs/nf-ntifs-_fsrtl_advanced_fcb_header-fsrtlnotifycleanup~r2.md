@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 90cc2c3b-8fb2-4450-9c20-06e1e4d1fe47
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml, ifsk.fsrtlnotifycleanup, FsRtlNotifyCleanup routine [Installable File System Drivers], FsRtlNotifyCleanup, ntifs/FsRtlNotifyCleanup
+ms.keywords: fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml, FsRtlNotifyCleanup, ifsk.fsrtlnotifycleanup, FsRtlNotifyCleanup routine [Installable File System Drivers], ntifs/FsRtlNotifyCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID FsRtlNotifyCleanup(
 
 
 
-### -param NotifySync [in]
+#### - NotifySync [in]
 
 A pointer to an opaque synchronization object for <i>NotifyList</i>. 
 
 
-### -param NotifyList [in]
+#### - NotifyList [in]
 
 A pointer to the head of a notify list. Each element in the list is an opaque notify structure.
 
 
-### -param FsContext [in]
+#### - FsContext [in]
 
 A unique value assigned by the file system to identify a notify structure as belonging to a particular file object.
 
@@ -100,13 +100,13 @@ If a notify structure is found that matches <i>FsContext</i>, <b>FsRtlNotifyClea
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory~r9.md">FsRtlNotifyFullChangeDirectory</a>
 
  
 

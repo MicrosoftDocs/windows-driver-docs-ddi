@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e27c6af5-c9fa-4fe6-ad39-82ea59a0f27b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldNameWide method [Windows Debugging], IDebugSymbols3::GetFieldNameWide, GetFieldNameWide, dbgeng/IDebugSymbols3::GetFieldNameWide, GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, debugger.getfieldnamewide
+ms.keywords: IDebugSymbols3, GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetFieldNameWide, GetFieldNameWide, IDebugSymbols3::GetFieldNameWide, debugger.getfieldnamewide, IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, GetFieldNameWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetFieldNameWide(
 
 
 
-### -param Module [in]
+#### - Module [in]
 
 Specifies the base address of the module in which the structure was defined.
 
 
-### -param TypeId [in]
+#### - TypeId [in]
 
 Specifies the type ID of the structure.
 
 
-### -param FieldIndex [in]
+#### - FieldIndex [in]
 
 Specifies the index of the desired field within the structure. 
 
 
-### -param NameBuffer [out, optional]
+#### - NameBuffer [out, optional]
 
 Receives the field's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param NameBufferSize [in]
+#### - NameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 Receives the size in characters of the field's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 

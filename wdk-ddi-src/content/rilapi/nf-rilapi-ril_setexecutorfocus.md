@@ -73,19 +73,19 @@ HRESULT  RIL_SetExecutorFocus(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param pfFocusState
+#### - pfFocusState
 
 
 
-### -param dwExecutorCount
+#### - dwExecutorCount
 
 
 

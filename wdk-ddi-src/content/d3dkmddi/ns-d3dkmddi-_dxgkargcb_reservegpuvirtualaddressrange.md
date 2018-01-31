@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D555E595-4319-4FCC-84A7-52FA3F278FFD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*INOUT_PDXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, display.dxgkargcb_reservegpuvirtualaddressrange, DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure [Display Devices], DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE"
+ms.keywords: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure [Display Devices], DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, display.dxgkargcb_reservegpuvirtualaddressrange, _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, *INOUT_PDXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,37 +77,37 @@ typedef struct _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE {
 
 
 
-### -field AllowUserModeMapping
+#### - AllowUserModeMapping
 
 Allow the user mode driver to map allocations to the range.
 
 
-### -field Flags
+#### - Flags
 
 A single value containing the flags set in the structure.
 
 
-### -field hDxgkProcess
+#### - hDxgkProcess
 
 The handle that was passed to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>.
 
 
-### -field SizeInBytes
+#### - SizeInBytes
 
 The size of the address range in bytes, this must be set to an integral multiple of the address space covered by a single page table entry.
 
 
-### -field Alignment
+#### - Alignment
 
 The number of bytes to align the start address to. Must be a multiple of the address space covered by a single page table entry and a power of 2.
 
 
-### -field StartVirtualAddress
+#### - StartVirtualAddress
 
 The starting location of the reserved address range.
 
 
-### -field BaseAddress
+#### - BaseAddress
 
 The base virtual address of the virtual address range in bytes. It must be aligned to the size of the address space, covered by a single page table entry.
 

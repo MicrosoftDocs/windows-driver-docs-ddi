@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a21f3304-9181-4027-9a7e-d590037b4b0f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kesettargetprocessordpcex, k105_86dff32b-f370-4233-a3ec-d8fb3cc5b4cc.xml, wdm/KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeSetTargetProcessorDpcEx, kernel.kesettargetprocessordpcex, KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx routine [Kernel-Mode Driver Architecture], k105_86dff32b-f370-4233-a3ec-d8fb3cc5b4cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KeSetTargetProcessorDpcEx(
 
 
 
-### -param Dpc [in, out]
+#### - Dpc [in, out]
 
 A pointer to the caller's <a href="https://msdn.microsoft.com/ae8758f5-0e23-4db2-9eac-aab31d98247b">DPC object</a>. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure, which is an opaque, system structure that represents the DPC object. This object must previously have been initialized by the <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a> routine.
 
 
-### -param ProcNumber [in]
+#### - ProcNumber [in]
 
 A pointer to a caller-allocated <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the target processor on which the DPC will be queued and executed. This structure specifies a group and a processor within this group.
 
@@ -120,15 +120,15 @@ For more information about DPC queues, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-
 <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
-
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 

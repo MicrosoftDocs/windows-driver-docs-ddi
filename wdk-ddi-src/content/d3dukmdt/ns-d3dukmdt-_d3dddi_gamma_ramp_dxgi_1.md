@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5c67404-3baf-44f1-8b19-f099cf71c178
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_GAMMA_RAMP_DXGI_1 structure [Display Devices], display.d3dddi_gamma_ramp_dxgi_1, D3DDDI_GAMMA_RAMP_DXGI_1, d3dukmdt/D3DDDI_GAMMA_RAMP_DXGI_1, _D3DDDI_GAMMA_RAMP_DXGI_1, DmStructs_378e6432-010f-453c-8e59-d32f243543f0.xml
+ms.keywords: d3dukmdt/D3DDDI_GAMMA_RAMP_DXGI_1, D3DDDI_GAMMA_RAMP_DXGI_1, DmStructs_378e6432-010f-453c-8e59-d32f243543f0.xml, display.d3dddi_gamma_ramp_dxgi_1, D3DDDI_GAMMA_RAMP_DXGI_1 structure [Display Devices], _D3DDDI_GAMMA_RAMP_DXGI_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDI_GAMMA_RAMP_DXGI_1 {
 
 
 
-### -field Scale
+#### - Scale
 
 A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structure that holds the scale for the gamma function.
 
 
-### -field Offset
+#### - Offset
 
 A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structure that holds the offset for the gamma function.
 
 
-### -field GammaCurve
+#### - GammaCurve
 
 An array of <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
 

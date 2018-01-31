@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeToNPagedLookasideList, netvista.ndisfreetonpagedlookasidelist, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, ndis/NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], netvista.ndisfreetonpagedlookasidelist, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, ndis/NdisFreeToNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -107,11 +107,11 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
 <mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
    NdisInitializeNPagedLookasideList</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisdeletenpagedlookasidelist" tabindex="0"><b>
    NdisDeleteNPagedLookasideList</b></mshelp:link>

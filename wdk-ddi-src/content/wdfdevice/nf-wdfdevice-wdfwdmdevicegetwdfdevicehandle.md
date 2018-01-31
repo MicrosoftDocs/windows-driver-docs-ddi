@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8083af10-1b35-4600-b409-e895d35f7ccc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWdmDeviceGetWdfDeviceHandle method, DFDeviceObjectGeneralRef_0b05680a-5252-4932-802d-ee24a0092116.xml, WdfWdmDeviceGetWdfDeviceHandle, wdfdevice/WdfWdmDeviceGetWdfDeviceHandle, wdf.wdfwdmdevicegetwdfdevicehandle, kmdf.wdfwdmdevicegetwdfdevicehandle, PFN_WDFWDMDEVICEGETWDFDEVICEHANDLE
+ms.keywords: DFDeviceObjectGeneralRef_0b05680a-5252-4932-802d-ee24a0092116.xml, PFN_WDFWDMDEVICEGETWDFDEVICEHANDLE, WdfWdmDeviceGetWdfDeviceHandle method, wdfdevice/WdfWdmDeviceGetWdfDeviceHandle, WdfWdmDeviceGetWdfDeviceHandle, kmdf.wdfwdmdevicegetwdfdevicehandle, wdf.wdfwdmdevicegetwdfdevicehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDFDEVICE WdfWdmDeviceGetWdfDeviceHandle(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to a WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that the calling driver created.
 

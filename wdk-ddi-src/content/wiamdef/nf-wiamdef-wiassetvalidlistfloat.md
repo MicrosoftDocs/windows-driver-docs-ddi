@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e1a833aa-fc8b-4506-aba8-ba6dc9a375ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasSetValidListFloat function [Imaging Devices], wiamdef/wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml, image.wiassetvalidlistfloat, wiasSetValidListFloat
+ms.keywords: wiamdef/wiasSetValidListFloat, image.wiassetvalidlistfloat, wiasSetValidListFloat function [Imaging Devices], wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasSetValidListFloat
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasSetValidListFloat(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param propid
+#### - propid
 
 Specifies the identifier of the property to be updated.
 
 
-### -param ulCount
+#### - ulCount
 
 Specifies the number of items in the <i>plValues</i> array.
 
 
-### -param fNom
+#### - fNom
 
 Specifies the property's nominal value.
 
 
-### -param pfValues [in]
+#### - pfValues [in]
 
 Pointer to the first element of an array of valid property values.
 
@@ -106,17 +106,17 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
 
  
 

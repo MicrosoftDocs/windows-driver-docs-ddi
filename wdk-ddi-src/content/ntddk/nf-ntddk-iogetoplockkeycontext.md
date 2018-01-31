@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx, IoGetOplockKeyContext, IoGetOplockKeyContextEx routine [Installable File System Drivers], IoGetOplockKeyContextEx
+ms.keywords: IoGetOplockKeyContext, ntddk/IoGetOplockKeyContextEx, ifsk.iogetoplockkeycontext, IoGetOplockKeyContextEx routine [Installable File System Drivers], IoGetOplockKeyContextEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ POPLOCK_KEY_ECP_CONTEXT IoGetOplockKeyContextEx(
 
 
 
-### -param FileObject
+#### - FileObject
 
 The file object to query for an oplock key context.
 
@@ -89,13 +89,13 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
+<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
 <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
 
-<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
 
  
 

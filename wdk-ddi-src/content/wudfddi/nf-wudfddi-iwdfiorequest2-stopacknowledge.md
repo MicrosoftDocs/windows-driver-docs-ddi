@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, StopAcknowledge method, StopAcknowledge method, IWDFIoRequest2 interface, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, IWDFIoRequest2::StopAcknowledge, umdf.iwdfiorequest2_stopacknowledge, StopAcknowledge method, wdf.iwdfiorequest2_stopacknowledge, StopAcknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
+ms.keywords: StopAcknowledge method, IWDFIoRequest2 interface, StopAcknowledge method, wdf.iwdfiorequest2_stopacknowledge, StopAcknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, IWDFIoRequest2, umdf.iwdfiorequest2_stopacknowledge, IWDFIoRequest2::StopAcknowledge, IWDFIoRequest2 interface, StopAcknowledge method, wudfddi/IWDFIoRequest2::StopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.StopAcknowledge
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void StopAcknowledge(
 
 
 
-### -param Requeue [in]
+#### - Requeue [in]
 
 A Boolean value that, if <b>TRUE</b>, causes the framework to requeue the request into the queue so that the framework will deliver it to the driver again. If <b>FALSE</b>, the framework does not requeue the request. For more information, see the following Remarks section.
 
@@ -125,11 +125,11 @@ Before calling <b>StopAcknowledge</b>, the driver's <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556865">IQueueCallbackIoResume::OnIoResume</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556865">IQueueCallbackIoResume::OnIoResume</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
 
  
 

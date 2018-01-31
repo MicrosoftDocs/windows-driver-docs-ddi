@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f15743a-1ea7-4260-b2cb-f2871acb27f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.ddicheckoverlaysupportinput, D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, _DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT
+ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, _DDICHECKOVERLAYSUPPORTINPUT, d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,49 +75,49 @@ typedef struct _DDICHECKOVERLAYSUPPORTINPUT {
 
 
 
-### -field OverlayWidth
+#### - OverlayWidth
 
 [in] The width of the overlay in pixels. 
 
 
-### -field OverlayHeight
+#### - OverlayHeight
 
 [in] The height of the overlay in pixels. 
 
 
-### -field OverlayFormat
+#### - OverlayFormat
 
 
       [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the overlay. 
      
 
 
-### -field DisplayWidth
+#### - DisplayWidth
 
 [in] The screen width of the display in pixels. 
 
 
-### -field DisplayHeight
+#### - DisplayHeight
 
 [in] The screen height of the display in pixels. 
 
 
-### -field DisplayRefreshRate
+#### - DisplayRefreshRate
 
 [in] The refresh rate of the display. 
 
 
-### -field DisplayFormat
+#### - DisplayFormat
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the display. 
 
 
-### -field DisplayScanLineOrdering
+#### - DisplayScanLineOrdering
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_scanlineordering.md">D3DDDI_SCANLINEORDERING</a>-typed value that indicates how the scan lines are drawn on the display. 
 
 
-### -field DisplayRotation
+#### - DisplayRotation
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>-typed value that indicates how the display is oriented. 
 
@@ -131,9 +131,9 @@ The runtime specifies a pointer to a DDICHECKOVERLAYSUPPORTINPUT structure in th
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_scanlineordering.md">D3DDDI_SCANLINEORDERING</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_scanlineordering.md">D3DDDI_SCANLINEORDERING</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 

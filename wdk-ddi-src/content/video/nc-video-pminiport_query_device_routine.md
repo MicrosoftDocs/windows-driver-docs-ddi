@@ -79,17 +79,17 @@ VP_STATUS HwVidQueryDeviceCallback(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-### -param Context
+#### - Context
 
 Pointer to the context value set up by <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>. Usually, it points to the VIDEO_PORT_CONFIG_INFO buffer or to an offset in that buffer.
 
 
-### -param DeviceDataType
+#### - DeviceDataType
 
 Specifies the type of configuration information that was requested, which is one of the following:
 
@@ -106,7 +106,7 @@ Specifies the type of configuration information that was requested, which is one
 Miniport drivers of x86-type video adapters usually specify <b>VpBusData</b>, particularly for adapters on EISA buses. The <b>VpControllerData</b> and <b>VpMonitorData</b> values have meaning only on ARC-compliant platforms. The <b>VpCmosData</b> and <b>VpMachineData</b> values are seldom used.  
 
 
-### -param Identifier
+#### - Identifier
 
 Pointer to the name of the device as determined by the ARC firmware. This parameter should be used only on ARC-compliant platforms. Otherwise, this pointer should be <b>NULL</b>.
 
@@ -115,22 +115,22 @@ Pointer to the name of the device as determined by the ARC firmware. This parame
 
 
 
-### -param ConfigurationData
+#### - ConfigurationData
 
 Pointer to hardware configuration data. The format of this data is determined by the specified <i>DeviceDataType</i> and by the <b>AdapterInterfaceType</b> value in the VIDEO_PORT_CONFIG_INFO.
 
 
-### -param ConfigurationDataLength
+#### - ConfigurationDataLength
 
 Specifies the size in bytes of the <i>ConfigurationData</i> buffer. In effect, this indicates how much information was collected from the registry and stored in the <i>ConfigurationData</i> buffer allocated by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param ComponentInformation
+#### - ComponentInformation
 
 Reserved for system use.
 
 
-### -param ComponentInformationLength
+#### - ComponentInformationLength
 
 Reserved for system use.
 
@@ -168,15 +168,15 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
  
 

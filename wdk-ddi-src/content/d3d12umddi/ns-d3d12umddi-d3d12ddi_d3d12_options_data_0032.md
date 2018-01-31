@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23b2a512-9828-4d1c-9282-2df6a1a80d85
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0032, D3D12DDI_D3D12_OPTIONS_DATA_0032, display.d3d12ddi-d3d12-options-data-0032, D3D12DDI_D3D12_OPTIONS_DATA_0032 structure [Display Devices]
+ms.keywords: display.d3d12ddi-d3d12-options-data-0032, D3D12DDI_D3D12_OPTIONS_DATA_0032 structure [Display Devices], D3D12DDI_D3D12_OPTIONS_DATA_0032, d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _D3D12DDI_D3D12_OPTIONS_DATA_0032 {
 
 
 
-### -field ResourceBindingTier
+#### - ResourceBindingTier
 
 Resource binding tier.
 
 
-### -field ConservativeRasterizationTier
+#### - ConservativeRasterizationTier
 
 Conservative rasterization tier.
 
 
-### -field TiledResourcesTier
+#### - TiledResourcesTier
 
 Tile resources tier.
 
 
-### -field CrossNodeSharingTier
+#### - CrossNodeSharingTier
 
 Cross node sharing tier.
 
 
-### -field VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
+#### - VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
 
 VP and RT array index from any shader feeding rasterizer supported without GS emulation.
 
 
-### -field OutputMergerLogicOp
+#### - OutputMergerLogicOp
 
 Output merger logic option.
 
 
-### -field ResourceHeapTier
+#### - ResourceHeapTier
 
 Resource heap tier.
 
 
-### -field DepthBoundsTestSupported
+#### - DepthBoundsTestSupported
 
 Depth bounds test supported.
 
 
-### -field ProgrammableSamplePositionsTier
+#### - ProgrammableSamplePositionsTier
 
 Programmable sample positions tier.
 
 
-### -field CopyQueueTimestampQueriesSupported
+#### - CopyQueueTimestampQueriesSupported
 
 Copy queue timestamp queries supported.
 
 
-### -field WriteBufferImmediateQueueFlags
+#### - WriteBufferImmediateQueueFlags
 
 Write buffer immediate queue flags.
 

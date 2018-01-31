@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D020B8AA-7353-47E1-A111-82BFE6F5F03D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice3_assigns0idlesettingsex, AssignS0IdleSettingsEx method, IWDFDevice3, AssignS0IdleSettingsEx method, IWDFDevice3 interface, AssignS0IdleSettingsEx, IWDFDevice3::AssignS0IdleSettingsEx, IWDFDevice3 interface, AssignS0IdleSettingsEx method, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx, umdf.iwdfdevice3_assigns0idlesettingsex
+ms.keywords: AssignS0IdleSettingsEx method, IWDFDevice3 interface, IWDFDevice3::AssignS0IdleSettingsEx, wdf.iwdfdevice3_assigns0idlesettingsex, AssignS0IdleSettingsEx method, IWDFDevice3 interface, AssignS0IdleSettingsEx method, umdf.iwdfdevice3_assigns0idlesettingsex, IWDFDevice3, AssignS0IdleSettingsEx, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.AssignS0IdleSettingsEx
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ HRESULT AssignS0IdleSettingsEx(
 
 
 
-### -param IdleSettings [in]
+#### - IdleSettings [in]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wudf_device_power_policy_idle_settings.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure that was initialized by a call to the <a href="..\wudfdevice\nf-wudfdevice-wudf_device_power_policy_idle_settings_init.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a> macro.
 
@@ -96,11 +96,11 @@ For more information about idle power-down, see <a href="https://docs.microsoft.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
  
 

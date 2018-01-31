@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfverifierdbgbreakpoint, DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint function, WdfVerifierDbgBreakPoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
+ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint function, WdfVerifierDbgBreakPoint, wdfverifier/WdfVerifierDbgBreakPoint, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfVerifierDbgBreakPoint
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
+req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
 ---
 

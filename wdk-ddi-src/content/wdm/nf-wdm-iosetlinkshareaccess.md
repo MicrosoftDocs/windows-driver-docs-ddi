@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 206D74F6-09D5-4C04-8A0A-A7765E64BB27
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iosetlinkshareaccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture], wdm/IoSetLinkShareAccess, IoSetLinkShareAccess
+ms.keywords: IoSetLinkShareAccess, wdm/IoSetLinkShareAccess, kernel.iosetlinkshareaccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ void IoSetLinkShareAccess(
 
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
 
 
-### -param DesiredShareAccess [in]
+#### - DesiredShareAccess [in]
 
 Specifies the desired type of shared access to the file object for the current open request. The value of this parameter is usually the same as the <i>ShareAccess</i> parameter that is passed to the file system or highest-level driver by the I/O manager when the open request was made. This value can be zero, or any combination of the following:
 
@@ -90,22 +90,22 @@ FILE_SHARE_WRITE
 FILE_SHARE_DELETE
 
 
-### -param FileObject [in, out]
+#### - FileObject [in, out]
 
 A pointer to the file object for which to check access for the current open request.
 
 
-### -param ShareAccess [in, out]
+#### - ShareAccess [in, out]
 
 A pointer to the common share-access data structure that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
-### -param LinkShareAccess [in, out, optional]
+#### - LinkShareAccess [in, out, optional]
 
 A pointer to the common link share-access data structure (<a href="..\wdm\ns-wdm-_link_share_access.md">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
-### -param IoShareAccessFlags [in]
+#### - IoShareAccessFlags [in]
 
 A bitmask of these flags:
 
@@ -125,11 +125,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
-
 <a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
 
 <a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+
+<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
 
  
 

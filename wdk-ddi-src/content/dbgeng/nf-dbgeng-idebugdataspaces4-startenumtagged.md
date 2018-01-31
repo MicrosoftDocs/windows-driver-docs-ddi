@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, StartEnumTagged, debugger.startenumtagged
+ms.keywords: IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces4, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, debugger.startenumtagged, IDebugDataSpaces3::StartEnumTagged, StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, StartEnumTagged method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT StartEnumTagged(
 
 
 
-### -param Handle [out]
+#### - Handle [out]
 
 Receives the handle identifying the enumeration.  This handle can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547874">GetNextTagged</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542978">EndEnumTagged</a>.
 

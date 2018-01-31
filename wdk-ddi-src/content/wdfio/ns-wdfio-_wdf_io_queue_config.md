@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_CONFIG, wdf.wdf_io_queue_config, wdfio/WDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, WDF_IO_QUEUE_CONFIG structure, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, _WDF_IO_QUEUE_CONFIG, *PWDF_IO_QUEUE_CONFIG, wdfio/PWDF_IO_QUEUE_CONFIG
+ms.keywords: PWDF_IO_QUEUE_CONFIG structure pointer, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, *PWDF_IO_QUEUE_CONFIG, wdfio/WDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, wdfio/PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, WDF_IO_QUEUE_CONFIG, _WDF_IO_QUEUE_CONFIG, wdf.wdf_io_queue_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,7 +88,11 @@ typedef struct _WDF_IO_QUEUE_CONFIG {
 
 
 
-### -field Settings
+#### - Settings
+
+
+
+#### Parallel
 
 
 
@@ -96,22 +100,27 @@ typedef struct _WDF_IO_QUEUE_CONFIG {
 
 
 
+#### Parallel.NumberOfPresentedRequests
+
+For the parallel <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
+
+
 ### -field Settings.Parallel.NumberOfPresentedRequests
 
 For the parallel <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
 
 
-### -field Size
+#### - Size
 
 The length, in bytes, of this structure.
 
 
-### -field DispatchType
+#### - DispatchType
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a> enumerator that identifies the request dispatching type for the queue.
 
 
-### -field PowerManaged
+#### - PowerManaged
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that, if set to <b>WdfTrue</b>, indicates that the framework handles power management of the queue. 
 
@@ -124,57 +133,57 @@ Drivers above the <a href="https://docs.microsoft.com/en-us/windows-hardware/dri
 For more information about power-managed I/O queues, see <a href="https://msdn.microsoft.com/2e1bf9d2-615b-49b0-b677-f41b23c42eda">Power Management for I/O Queues</a>. 
 
 
-### -field AllowZeroLengthRequests
+#### - AllowZeroLengthRequests
 
 A Boolean value that, if <b>TRUE</b>, indicates that the driver expects to receive read or write requests that have a buffer length of zero, so the framework delivers these requests to the driver. If <b>FALSE</b>, the framework does not deliver these requests to the driver; instead, it completes them with a completion status of STATUS_SUCCESS.
 
 
-### -field DefaultQueue
+#### - DefaultQueue
 
 A Boolean value that, if <b>TRUE</b>, indicates that the queue will be the device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a>. If <b>FALSE</b>, the queue will not be the device's default queue.
 
 
-### -field EvtIoDefault
+#### - EvtIoDefault
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_default.md">EvtIoDefault</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoRead
+#### - EvtIoRead
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoWrite
+#### - EvtIoWrite
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_write.md">EvtIoWrite</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoDeviceControl
+#### - EvtIoDeviceControl
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoInternalDeviceControl
+#### - EvtIoInternalDeviceControl
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md">EvtIoInternalDeviceControl</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoStop
+#### - EvtIoStop
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoResume
+#### - EvtIoResume
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_resume.md">EvtIoResume</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtIoCanceledOnQueue
+#### - EvtIoCanceledOnQueue
 
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md">EvtIoCanceledOnQueue</a> callback function, or <b>NULL</b>.
 
 
-### -field Driver
+#### - Driver
 
 For internal use only.  Set to NULL. This member is available in version 1.11 and later versions of KMDF.
 
@@ -196,13 +205,13 @@ For parallel queues,
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
  
 

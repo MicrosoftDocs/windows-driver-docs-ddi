@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.drvspldevicecaps, DrvSplDeviceCaps function [Print Devices], DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
+ms.keywords: DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, winddiui/DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, DrvSplDeviceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvSplDeviceCaps
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ DWORD DrvSplDeviceCaps(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 Caller-supplied handle to the printer.
 

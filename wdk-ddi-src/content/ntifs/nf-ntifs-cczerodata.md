@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.cczerodata, CcZeroData routine [Installable File System Drivers], CcZeroData, ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ntifs/CcZeroData
+ms.keywords: CcZeroData routine [Installable File System Drivers], ifsk.cczerodata, CcZeroData, ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ntifs/CcZeroData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ BOOLEAN CcZeroData(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a file object (<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
 
 
-### -param StartOffset [in]
+#### - StartOffset [in]
 
 A pointer to a variable that specifies the byte offset within the file to the first byte that is to be zeroed.
 
 
-### -param EndOffset [in]
+#### - EndOffset [in]
 
 A pointer to a variable that specifies the byte offset within the file to the last byte that is to be zeroed.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Set to <b>TRUE</b> if the caller should be put into a wait state until the entire byte range has been zeroed. Otherwise, this parameter is set to <b>FALSE</b>.
 
@@ -127,11 +127,11 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
-
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
 
  
 

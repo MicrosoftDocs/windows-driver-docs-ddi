@@ -40,7 +40,7 @@ apiname:
 -	GetScatterGatherList
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -78,42 +78,42 @@ NTSTATUS GetScatterGatherList(
 
 
 
-### -param DmaAdapter [in]
+#### - DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that represents the target device for the DMA operation.
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
 Pointer to the MDL that describes the buffer at <i>MdlAddress</i> in the current IRP.
 
 
-### -param CurrentVa [in]
+#### - CurrentVa [in]
 
 Pointer to the current virtual address in the MDL for the buffer to be mapped for a DMA transfer operation.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the length, in bytes, to be mapped. 
 
 
-### -param ExecutionRoutine [in]
+#### - ExecutionRoutine [in]
 
 Pointer to a driver-supplied <a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a> routine, which is called at DISPATCH_LEVEL when the system DMA controller or bus-master adapter is available.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the driver-determined context passed to the driver's <i>AdapterListControl</i> routine when it is called. 
 
 
-### -param WriteToDevice [in]
+#### - WriteToDevice [in]
 
 Indicates the direction of the DMA transfer: <b>TRUE</b> for a transfer from the buffer to the device, and <b>FALSE</b> otherwise. 
 
@@ -186,19 +186,19 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
-
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
 
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
  
 

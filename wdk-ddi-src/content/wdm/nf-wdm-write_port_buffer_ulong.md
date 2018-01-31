@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f786456-344a-4fc3-bc13-8d4253f4039a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, WRITE_PORT_BUFFER_ULONG, wdm/WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], kernel.write_port_buffer_ulong
+ms.keywords: WRITE_PORT_BUFFER_ULONG, wdm/WRITE_PORT_BUFFER_ULONG, k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, kernel.write_port_buffer_ulong, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ The <b>WRITE_PORT_BUFFER_ULONG</b> routine writes a number of ULONG values from 
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer from which an array of ULONG values is to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG values to be written to the port. 
 

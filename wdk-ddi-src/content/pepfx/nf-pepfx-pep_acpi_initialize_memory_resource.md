@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44EC5408-626A-4FDA-A777-C1A733D690F1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, kernel.pep_acpi_initialize_memory_resource, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_memory_resource, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function
@@ -72,32 +72,32 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_MEMORY_RESOURCE(
 
 
 
-### -param ReadWrite [in]
+#### - ReadWrite [in]
 
 If true, indicates that the resource is read/write. Otherwise, it's read-only.
 
 
-### -param MinimumAddress [in]
+#### - MinimumAddress [in]
 
 Specifies the minimum acceptable starting address for the IO range.
 
 
-### -param MaximumAddress [in]
+#### - MaximumAddress [in]
 
 Specifies the maximum acceptable starting address for the IO range.
 
 
-### -param Alignment [in]
+#### - Alignment [in]
 
 Specifies the alignment granularity for the memory address assigned.
 
 
-### -param MemorySize [in]
+#### - MemorySize [in]
 
 Specifies the number of bytes in the memory range.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>.
 

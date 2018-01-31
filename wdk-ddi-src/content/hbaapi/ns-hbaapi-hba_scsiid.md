@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2acb40c-cb6e-45b4-b0be-911f6b37094e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ScsiId structure [Storage Devices], structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml, storage.hba_scsiid, HBA_SCSIID structure [Storage Devices], *PHBA_SCSIID, hbaapi/HBA_ScsiId, hbaapi/PHBA_SCSIID, PHBA_SCSIID structure pointer [Storage Devices], HBA_SCSIID, PHBA_SCSIID, HBA_ScsiId
+ms.keywords: HBA_ScsiId, HBA_SCSIID structure [Storage Devices], storage.hba_scsiid, PHBA_SCSIID structure pointer [Storage Devices], structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml, hbaapi/HBA_ScsiId, hbaapi/PHBA_SCSIID, HBA_ScsiId structure [Storage Devices], PHBA_SCSIID, *PHBA_SCSIID, HBA_SCSIID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_SCSIID
 product: Windows
 targetos: Windows
-req.typenames: HBA_SCSIID, *PHBA_SCSIID
+req.typenames: "*PHBA_SCSIID, HBA_SCSIID"
 ---
 
 # HBA_ScsiId structure
@@ -70,22 +70,22 @@ typedef struct HBA_ScsiId {
 
 
 
-### -field OSDeviceName
+#### - OSDeviceName
 
 Contains a name assigned to the device by the operating system. For example: "\device\ScsiPort3."
 
 
-### -field ScsiBusNumber
+#### - ScsiBusNumber
 
 Contains the number assigned by the operating system to SCSI bus that the device is on. 
 
 
-### -field ScsiTargetNumber
+#### - ScsiTargetNumber
 
 Contains the target ID number assigned by the operating system to the target device.  
 
 
-### -field ScsiOSLun
+#### - ScsiOSLun
 
 Contains the logical unit number assigned by the operating system to the logical unit. 
 

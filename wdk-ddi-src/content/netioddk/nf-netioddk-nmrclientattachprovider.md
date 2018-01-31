@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, netioddk/NmrClientAttachProvider
+ms.keywords: NmrClientAttachProvider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, netvista.nmrclientattachprovider, netioddk/NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS NmrClientAttachProvider(
 
 
 
-### -param NmrBindingHandle [in]
+#### - NmrBindingHandle [in]
 
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
@@ -81,7 +81,7 @@ A handle used by the NMR to represent the binding between the client module and 
      function.
 
 
-### -param ClientBindingContext [in]
+#### - ClientBindingContext [in]
 
 A pointer to a caller-supplied context for the binding between the client module and the provider
      module. The client module uses this context to keep track of the state of the binding. The contents of
@@ -92,7 +92,7 @@ A pointer to a caller-supplied context for the binding between the client module
      valid and resident in memory as long as the provider module is attached to the client module.
 
 
-### -param ClientDispatch [in]
+#### - ClientDispatch [in]
 
 A pointer to a constant structure that contains the dispatch table of 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
@@ -103,7 +103,7 @@ A pointer to a constant structure that contains the dispatch table of
      dispatch table structure, the client module must set this parameter to <b>NULL</b>.
 
 
-### -param ProviderBindingContext [out]
+#### - ProviderBindingContext [out]
 
 A pointer to a variable that receives a pointer to the provider module's context for the binding
      between the client module and the provider module. The provider module uses this context to keep track
@@ -114,7 +114,7 @@ A pointer to a variable that receives a pointer to the provider module's context
      provider module's binding context.
 
 
-### -param ProviderDispatch [out]
+#### - ProviderDispatch [out]
 
 A pointer to a variable that receives a pointer to a structure that contains the dispatch table of
      

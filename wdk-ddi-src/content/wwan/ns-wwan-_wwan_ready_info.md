@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db8730e-a1da-428b-9938-fd9f3f71283a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_READY_INFO, WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, _WWAN_READY_INFO, wwan/WWAN_READY_INFO, WWAN_READY_INFO, *PWWAN_READY_INFO, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_READY_INFO, netvista.wwan_ready_info, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_READY_INFO, netvista.wwan_ready_info, *PWWAN_READY_INFO, wwan/PWWAN_READY_INFO, wwan/WWAN_READY_INFO, PWWAN_READY_INFO, _WWAN_READY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _WWAN_READY_INFO {
 
 
 
-### -field ReadyState
+#### - ReadyState
 
 The ready-state of the device.
 
 
-### -field EmergencyMode
+#### - EmergencyMode
 
 The emergency mode of the device. For more information, see <a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>.
 
 
-### -field SubscriberId
+#### - SubscriberId
 
 A NULL-terminated string of digits that represents the identity of the subscriber.
 
@@ -96,14 +96,14 @@ Miniport drivers must specify this string when the device ready-state changes to
 For single-carrier multi-mode functions, the GSM <b>SubscriberId</b> format must be used.  This does not apply to multi-carrier multi-mode functions as the <b>SubscriberId</b> may change.
 
 
-### -field SimIccId
+#### - SimIccId
 
 A NULL-terminated string of digits that represents the International Circuit Card (ICC) ID of the SIM. The ICC ID varies from between 15 to 20 digits in length and is represented in alphanumeric characters. Miniport drivers must specify this string when the device ready-state changes to <b>WwanReadyStateInitialized</b> and also when the device is locked, waiting for entry of PIN1 and PUK1 keys.
 
 Miniport drivers must specify this value for all devices where <b>WwanCellularClass</b> equals <b>WwanCellularClassGsm</b>. Miniport drivers of CDMA-based devices must specify this value for devices where <b>SimClass</b> equals <b>WwanSimClassSimRemovable</b>.
 
 
-### -field CdmaShortMsgSize
+#### - CdmaShortMsgSize
 
 The SMS character length that is supported by the network or the device, whichever is less, if the device is CDMA-based.
 
@@ -114,7 +114,7 @@ CDMA-based devices that do not support SMS should set this member to WWAN_CDMA_S
 This member does not apply to GSM-based devices. Miniport drivers of GSM-based devices should specify WWAN_CDMA_SHORT_MSG_SIZE_UNKNOWN.
 
 
-### -field TNListHeader
+#### - TNListHeader
 
 A list of telephone numbers (TNs) that are assigned to the subscriber identity.
 
@@ -129,9 +129,9 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
-
 <a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
 
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0786c63d-ce4e-47c1-b54f-47f1da90cb64
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM1_3DDI_TRIM_MEMORY, d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices], D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, display.d3d11_1_ddi_flush_flags, D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS
+ms.keywords: d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY, display.d3d11_1_ddi_flush_flags, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, D3DWDDM1_3DDI_TRIM_MEMORY, D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,12 +70,12 @@ typedef enum D3D11_1_DDI_FLUSH_FLAGS {
 
 
 
-### -field D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS
+#### - D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS
 
 The driver should not submit command buffers if there have been no new commands since the last time the driver submitted a command buffer.
 
 
-### -field D3DWDDM1_3DDI_TRIM_MEMORY
+#### - D3DWDDM1_3DDI_TRIM_MEMORY
 
 The driver should free as much memory as it can. However, it should not free any memory that the driver requires to continue operating. Using this constant value therefore should not introduce new opportunities to run out of memory.
 

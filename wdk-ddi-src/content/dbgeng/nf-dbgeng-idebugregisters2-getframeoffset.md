@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09473106-3ab8-43ee-a424-2930b6bd3fcf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFrameOffset, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, IDebugRegisters interface [Windows Debugging], GetFrameOffset method, IDebugRegisters::GetFrameOffset, IDebugRegisters2::GetFrameOffset, debugger.getframeoffset, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset method, dbgeng/IDebugRegisters2::GetFrameOffset, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters::GetFrameOffset, IDebugRegisters2, GetFrameOffset method [Windows Debugging], IDebugRegisters interface, GetFrameOffset method [Windows Debugging]
+ms.keywords: GetFrameOffset method [Windows Debugging], GetFrameOffset method [Windows Debugging], IDebugRegisters interface, debugger.getframeoffset, IDebugRegisters interface [Windows Debugging], GetFrameOffset method, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetFrameOffset, IDebugRegisters2, IDebugRegisters2::GetFrameOffset, GetFrameOffset, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset method, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, dbgeng/IDebugRegisters::GetFrameOffset, IDebugRegisters::GetFrameOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetFrameOffset(
 
 
 
-### -param Offset [out]
+#### - Offset [out]
 
 The location in the target's virtual address space of the stack frame for the current function.
 
@@ -112,9 +112,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
  
 

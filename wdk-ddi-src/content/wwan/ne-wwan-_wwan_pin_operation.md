@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1b21b4b4-a35d-47c4-9cd6-e31e2dfbe59f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanPinOperationChange, wwan/WwanPinOperationChange, WwanPinOperationMax, netvista.wwan_pin_operation, WWAN_PIN_OPERATION, WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPinOperationMax, PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_PIN_OPERATION, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml, _WWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION, WwanPinOperationEnter, WwanPinOperationEnable, wwan/PWWAN_PIN_OPERATION, wwan/WwanPinOperationEnter, WwanPinOperationDisable, wwan/WWAN_PIN_OPERATION, wwan/WwanPinOperationDisable, wwan/WwanPinOperationEnable
+ms.keywords: PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanPinOperationChange, wwan/WwanPinOperationEnable, WWAN_PIN_OPERATION, _WWAN_PIN_OPERATION, PWWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION, WwanPinOperationMax, WwanPinOperationEnter, wwan/WwanPinOperationEnter, WwanPinOperationDisable, WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], WwanPinOperationChange, wwan/WwanPinOperationMax, netvista.wwan_pin_operation, wwan/WwanPinOperationDisable, WwanPinOperationEnable, wwan/PWWAN_PIN_OPERATION, wwan/WWAN_PIN_OPERATION, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_OPERATION
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_OPERATION, WWAN_PIN_OPERATION"
+req.typenames: WWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION
 req.product: Windows 10 or later.
 ---
 
@@ -73,27 +73,27 @@ typedef enum _WWAN_PIN_OPERATION {
 
 
 
-### -field WwanPinOperationEnter
+#### - WwanPinOperationEnter
 
 Enter the specified PIN into the device.
 
 
-### -field WwanPinOperationEnable
+#### - WwanPinOperationEnable
 
 Enable the specified PIN.
 
 
-### -field WwanPinOperationDisable
+#### - WwanPinOperationDisable
 
 Disable the specified PIN.
 
 
-### -field WwanPinOperationChange
+#### - WwanPinOperationChange
 
 Change the specified PIN.
 
 
-### -field WwanPinOperationMax
+#### - WwanPinOperationMax
 
 The total number of supported PIN operations.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b72187de-a2ac-446f-bb06-9ca380454122
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExDeleteLookasideListEx, k102_35b6c2b4-58a3-4900-b8dc-63ed0a53b80f.xml, ExDeleteLookasideListEx, ExDeleteLookasideListEx routine [Kernel-Mode Driver Architecture], kernel.exdeletelookasidelistex
+ms.keywords: k102_35b6c2b4-58a3-4900-b8dc-63ed0a53b80f.xml, ExDeleteLookasideListEx routine [Kernel-Mode Driver Architecture], kernel.exdeletelookasidelistex, ExDeleteLookasideListEx, wdm/ExDeleteLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExDeleteLookasideListEx(
 
 
 
-### -param Lookaside [in, out]
+#### - Lookaside [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a> structure that describes a lookaside list. This structure was previously initialized by the <a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a> routine. 
 
@@ -93,9 +93,9 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
-
 <a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
  
 

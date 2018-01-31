@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a63079ab-45ec-44b2-8769-f5b30f378972
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml, wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT, wdf.wdf_wmi_provider_config_init, WDF_WMI_PROVIDER_CONFIG_INIT function, WDF_WMI_PROVIDER_CONFIG_INIT, kmdf.wdf_wmi_provider_config_init
+ms.keywords: wdf.wdf_wmi_provider_config_init, WDF_WMI_PROVIDER_CONFIG_INIT function, kmdf.wdf_wmi_provider_config_init, WDF_WMI_PROVIDER_CONFIG_INIT, DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml, wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_WMI_PROVIDER_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 A pointer to a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure.
 
 
-### -param Guid [in]
+#### - Guid [in]
 
 A pointer to a GUID that identifies a WMI data provider's data block. 
 

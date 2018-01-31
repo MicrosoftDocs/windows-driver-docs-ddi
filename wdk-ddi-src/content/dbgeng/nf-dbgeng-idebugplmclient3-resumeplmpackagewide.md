@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC69357E-425B-440B-93D0-918E8586D5DF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, ResumePlmPackageWide, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, ResumePlmPackageWide method [Windows Debugging], debugger.idebugplmclient3_resumeplmpackagewide, IDebugPlmClient3 interface [Windows Debugging], ResumePlmPackageWide method, IDebugPlmClient3::ResumePlmPackageWide, IDebugPlmClient3
+ms.keywords: IDebugPlmClient3::ResumePlmPackageWide, debugger.idebugplmclient3_resumeplmpackagewide, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], ResumePlmPackageWide method, ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, ResumePlmPackageWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT ResumePlmPackageWide(
 
 
 
-### -param Server [in]
+#### - Server [in]
 
 The server of the package.
 
 
-### -param PackageFullName [in]
+#### - PackageFullName [in]
 
 A pointer to the package name.
 

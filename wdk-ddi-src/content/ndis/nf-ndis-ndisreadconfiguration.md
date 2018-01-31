@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_STATUS_FAILURE, netvista.ndisreadconfiguration, ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, NDIS_STATUS_SUCCESS, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], NdisReadConfiguration, NDIS_STATUS_RESOURCES
+ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_SUCCESS, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, ndis/NdisReadConfiguration, netvista.ndisreadconfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], NdisReadConfiguration, NDIS_STATUS_RESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ VOID NdisReadConfiguration(
 
 
 
-### -param Status [out]
+#### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following values.
@@ -120,7 +120,7 @@ The requested information could not be found under the opened registry key desig
 </table> 
 
 
-### -param ParameterValue [out]
+#### - ParameterValue [out]
 
 A pointer to a memory location where NDIS supplies a pointer to an 
      <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
@@ -131,7 +131,7 @@ A pointer to a memory location where NDIS supplies a pointer to an
      NDIS_CONFIGURATION_PARAMETER</b> structure.
 
 
-### -param ConfigurationHandle [in]
+#### - ConfigurationHandle [in]
 
 The handle to a registry key that was returned by the 
      <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>, 
@@ -141,7 +141,7 @@ The handle to a registry key that was returned by the
      NdisOpenConfigurationKeyByName</b></mshelp:link> function.
 
 
-### -param Keyword [in]
+#### - Keyword [in]
 
 A pointer to a caller-supplied NDIS_STRING type describing a counted string, in the system-default
      character set, specifying the name of the entry under the open registry key for which to return the
@@ -192,7 +192,7 @@ NdisVersion
 </table> 
 
 
-### -param ParameterType [in]
+#### - ParameterType [in]
 
 The type of the value entry that is specified as one of the 
      <a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a> enumeration values.
@@ -254,41 +254,41 @@ For more information about setup and installation files, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
 
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
 <a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
-
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
-
-<mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
-   NdisAnsiStringToUnicodeString</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisunicodestringtoansistring" tabindex="0"><b>
    NdisUnicodeStringToAnsiString</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
-
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
 <a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+
+<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
+   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
+   NdisAnsiStringToUnicodeString</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
 <mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
    NdisOpenConfigurationKeyByName</b></mshelp:link>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
  
 

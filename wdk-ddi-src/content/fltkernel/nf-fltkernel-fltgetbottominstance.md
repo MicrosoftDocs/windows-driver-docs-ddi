@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a5e7379a-6501-4245-92ce-0474baa33e2c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltgetbottominstance, FltGetBottomInstance, fltkernel/FltGetBottomInstance, FltGetBottomInstance function [Installable File System Drivers], FltApiRef_e_to_o_14e06d93-d5c8-4154-9184-d30beef6c126.xml
+ms.keywords: FltGetBottomInstance function [Installable File System Drivers], ifsk.fltgetbottominstance, fltkernel/FltGetBottomInstance, FltGetBottomInstance, FltApiRef_e_to_o_14e06d93-d5c8-4154-9184-d30beef6c126.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetBottomInstance(
 
 
 
-### -param Volume [in]
+#### - Volume [in]
 
 Opaque pointer for the volume. 
 
 
-### -param Instance [out]
+#### - Instance [out]
 
 Pointer to a caller-allocated variable that receives an opaque instance pointer for the bottom instance for this volume. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -117,17 +117,17 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetupperinstance.md">FltGetUpperInstance</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetupperinstance.md">FltGetUpperInstance</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetlowerinstance.md">FltGetLowerInstance</a>
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 52b2b97e-217b-445b-9c7a-093808f37aba
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PSPEED_MAP, PSPEED_MAP, SPEED_MAP, 1394/SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, 1394/PSPEED_MAP, _SPEED_MAP, PSPEED_MAP structure pointer [Buses], IEEE.speed_map, SPEED_MAP structure [Buses]"
+ms.keywords: "*PSPEED_MAP, IEEE.speed_map, 1394/SPEED_MAP, _SPEED_MAP, SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, 1394/PSPEED_MAP, SPEED_MAP structure [Buses], PSPEED_MAP structure pointer [Buses], PSPEED_MAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SPEED_MAP {
 
 
 
-### -field SPD_Length
+#### - SPD_Length
 
 Specifies the number of quadlets in the speed map.
 
 
-### -field SPD_CRC
+#### - SPD_CRC
 
 Specifies the CRC value for the speed map.
 
 
-### -field SPD_Generation
+#### - SPD_Generation
 
 Specifies the generation count for the bus reset that corresponds to this speed map.
 
 
-### -field SPD_Speed_Code
+#### - SPD_Speed_Code
 
 Specifies an array of speed codes. Currently, the possible values are:
 

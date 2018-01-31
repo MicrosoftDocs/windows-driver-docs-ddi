@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0b4fab4-1a3c-4075-8881-f2aa38fba15e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWSK_TDI_MAP_INFO, _WSK_TDI_MAP_INFO, netvista.wsk_tdi_map_info, PWSK_TDI_MAP_INFO structure pointer [Network Drivers Starting with Windows Vista], wskref_27c8b9f2-49b9-4358-aeac-be81e5aeb297.xml, WSK_TDI_MAP_INFO structure [Network Drivers Starting with Windows Vista], wsk/WSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO, wsk/PWSK_TDI_MAP_INFO"
+ms.keywords: WSK_TDI_MAP_INFO, wsk/WSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO structure [Network Drivers Starting with Windows Vista], wsk/PWSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO, wskref_27c8b9f2-49b9-4358-aeac-be81e5aeb297.xml, netvista.wsk_tdi_map_info, _WSK_TDI_MAP_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,13 +71,13 @@ typedef struct _WSK_TDI_MAP_INFO {
 
 
 
-### -field ElementCount
+#### - ElementCount
 
 The number of structures contained in the array pointed to by the 
      <b>Map</b> member.
 
 
-### -field Map
+#### - Map
 
 A pointer to an array of 
      <a href="..\wsk\ns-wsk-_wsk_tdi_map.md">WSK_TDI_MAP</a> structures. Each WSK_TDI_MAP

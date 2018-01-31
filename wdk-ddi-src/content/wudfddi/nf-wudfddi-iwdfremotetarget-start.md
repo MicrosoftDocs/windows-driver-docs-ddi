@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0f21d34-21f2-48ac-994f-e050f4447745
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFRemoteTarget::Start, IWDFRemoteTarget interface, Start method, Start method, IWDFRemoteTarget interface, wdf.iwdfremotetarget_start, IWDFRemoteTarget::Start, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, Start, Start method, IWDFRemoteTarget, umdf.iwdfremotetarget_start
+ms.keywords: UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, wdf.iwdfremotetarget_start, IWDFRemoteTarget::Start, Start, IWDFRemoteTarget interface, Start method, Start method, IWDFRemoteTarget interface, umdf.iwdfremotetarget_start, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget::Start, Start method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteTarget.Start
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

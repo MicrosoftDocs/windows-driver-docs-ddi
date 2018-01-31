@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 406508b2-7509-4d2b-ac22-63644eedcec0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IoWritePartitionTable routine [Storage Devices], rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, IoWritePartitionTable, ntddk/IoWritePartitionTable, storage.iowritepartitiontable
+ms.keywords: IoWritePartitionTable routine [Storage Devices], storage.iowritepartitiontable, ntddk/IoWritePartitionTable, rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, IoWritePartitionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS FASTCALL IoWritePartitionTable(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object representing the disk whose partition tables are to be written.
 
 
-### -param SectorSize [in]
+#### - SectorSize [in]
 
 Specifies the size in bytes of sectors on the device.
 
 
-### -param SectorsPerTrack [in]
+#### - SectorsPerTrack [in]
 
 Specifies the track size on the device.
 
 
-### -param NumberOfHeads [in]
+#### - NumberOfHeads [in]
 
 Specifies the number of tracks per cylinder.
 
 
-### -param PartitionBuffer [in]
+#### - PartitionBuffer [in]
 
 Pointer to the drive layout buffer that contains the partition list entries. For more detailed information see <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>.
 

@@ -73,7 +73,7 @@ NDIS_STATUS MiniportCoDeleteVc(
 
 
 
-### -param MiniportVcContext [in]
+#### - MiniportVcContext [in]
 
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 

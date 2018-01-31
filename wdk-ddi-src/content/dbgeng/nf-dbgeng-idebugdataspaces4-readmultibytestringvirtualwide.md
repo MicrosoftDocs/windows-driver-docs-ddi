@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5429b533-1b85-426e-8540-6c72034d42dd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtualWide method, IDebugDataSpaces4::ReadMultiByteStringVirtualWide, ReadMultiByteStringVirtualWide, debugger.readmultibytestringvirtualwide, IDebugDataSpaces_c5a99b4a-a468-459e-acc1-f3a4f224f645.xml, ReadMultiByteStringVirtualWide method [Windows Debugging], ReadMultiByteStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtualWide
+ms.keywords: ReadMultiByteStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadMultiByteStringVirtualWide method [Windows Debugging], debugger.readmultibytestringvirtualwide, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtualWide method, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtualWide, IDebugDataSpaces_c5a99b4a-a468-459e-acc1-f3a4f224f645.xml, IDebugDataSpaces4::ReadMultiByteStringVirtualWide, ReadMultiByteStringVirtualWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT ReadMultiByteStringVirtualWide(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location of the string in the process's virtual address space.
 
 
-### -param MaxBytes [in]
+#### - MaxBytes [in]
 
 Specifies the maximum number of bytes to read from the target.
 
 
-### -param CodePage [in]
+#### - CodePage [in]
 
 Specifies the code page to use to convert the multibyte string read from the target into a Unicode string.  For example, CP_ACP is the ANSI code page.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param StringBytes [out, optional]
+#### - StringBytes [out, optional]
 
 Receives the size, in bytes, of the string in the target.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 
@@ -160,11 +160,11 @@ Note that even if S_OK is returned, the buffer may not have been large enough to
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554357">ReadUnicodeStringVirtualWide</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554300">ReadMultiByteStringVirtual</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
  
 

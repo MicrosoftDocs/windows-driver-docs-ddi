@@ -74,7 +74,7 @@ NDIS_STATUS ProtocolNetPnPEvent(
 
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 The handle to a protocol-driver-allocated context area in which this driver maintains per-binding
      run-time state information. The protocol driver supplied this handle when it called the 
@@ -317,11 +317,11 @@ Event-specific information. For example, with a
 A protocol driver should always succeed a 
     <b>NetEventQueryPower</b> event. After establishing an active connection, a
     protocol driver can call the 
-    <a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a> function to
+    <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a> function to
     register a continuously busy state. As long as the state registration is in effect, the power manager
     does not attempt to put the system to sleep. After the connection becomes inactive, the protocol driver
     cancels the state registration by calling the 
-    <a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a> function. A
+    <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a> function. A
     protocol driver should never try to prevent the system from transitioning to the sleeping state by
     failing a 
     <b>NetEventQueryPower</b> event. Note that a 
@@ -387,13 +387,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
 
-<a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>
+<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
 
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 

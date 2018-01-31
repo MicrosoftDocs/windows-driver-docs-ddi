@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5520685c-c438-460b-aac5-791098e14044
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDereferenceBusObject, stream.ksdereferencebusobject, KsDereferenceBusObject, KsDereferenceBusObject function [Streaming Media Devices], ksfunc_e3b1ab42-bb78-44f7-bc34-64edcf843471.xml
+ms.keywords: KsDereferenceBusObject function [Streaming Media Devices], ksfunc_e3b1ab42-bb78-44f7-bc34-64edcf843471.xml, ks/KsDereferenceBusObject, KsDereferenceBusObject, stream.ksdereferencebusobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KsDereferenceBusObject(
 
 
 
-### -param Header [in]
+#### - Header [in]
 
 Points to a header previously allocated by <b>KsAllocateDeviceHeader</b> that also contains the PnP device stack object.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers]
+ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, rxce/RxCeQueryTransportInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeQueryTransportInformation
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ NTSTATUS RxCeQueryTransportInformation(
 
 
 
-### -param pTransport
+#### - pTransport
 
 A pointer to the transport.
 
 
-### -param pTransportInformation
+#### - pTransportInformation
 
 A pointer to the caller-supplied buffer for returning information. 
 
@@ -126,9 +126,9 @@ QualityOfService
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
-
 <a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
+
+<a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
 
  
 

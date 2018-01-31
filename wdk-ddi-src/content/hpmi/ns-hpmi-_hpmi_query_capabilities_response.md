@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 2D7B6278-6D7A-41C4-B21A-D531CD8DCD91
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PHPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], _HPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response, HPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE
+ms.keywords: PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, _HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response, HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,18 +69,18 @@ typedef struct _HPMI_QUERY_CAPABILITIES_RESPONSE {
 
 
 
-### -field Version
+#### - Version
 
 Set to HPMI_QUERY_CAPABILITIES_VERSION_1.  
 
 
-### -field RequestService
+#### - RequestService
 
 Requests one or more Windows services as defined by
     HPMI_REQUEST_SERVICE_XXX.
 
 
-### -field SdbCapabilities
+#### - SdbCapabilities
 
 Specifies Software Defined Battery (SDB) features supported by the system.
     

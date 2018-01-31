@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3e8ae4d-a923-406e-ad1a-f7ed7277f676
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: FindTranslatedEntry method [Audio Devices], IResourceList interface, FindTranslatedEntry, audmp-routines_a4100c1c-8955-46bb-a9cc-8cee22609598.xml, IResourceList, IResourceList::FindTranslatedEntry, IResourceList interface [Audio Devices], FindTranslatedEntry method, audio.iresourcelist_findtranslatedentry, portcls/IResourceList::FindTranslatedEntry, FindTranslatedEntry method [Audio Devices]
+ms.keywords: FindTranslatedEntry method [Audio Devices], FindTranslatedEntry method [Audio Devices], IResourceList interface, audio.iresourcelist_findtranslatedentry, IResourceList, FindTranslatedEntry, audmp-routines_a4100c1c-8955-46bb-a9cc-8cee22609598.xml, portcls/IResourceList::FindTranslatedEntry, IResourceList interface [Audio Devices], FindTranslatedEntry method, IResourceList::FindTranslatedEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.FindTranslatedEntry
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IResourceList::FindTranslatedEntry method
@@ -68,12 +68,12 @@ PCM_PARTIAL_RESOURCE_DESCRIPTOR FindTranslatedEntry(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 Identifies the resource type of the entry to find. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the entry to find. If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a> method returns a value <i>n</i> for the number of entries of type <i>Type</i>, valid indices range from 0 to <i>n</i>-1. If <i>Index</i> is zero, for example, the method returns a pointer to the translated version of the first occurrence of an entry of the specified type from the resource list.
 
@@ -100,11 +100,11 @@ For more information about translated and untranslated (or "raw") resources, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536984">IResourceList::FindUntranslatedEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536984">IResourceList::FindUntranslatedEntry</a>
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 

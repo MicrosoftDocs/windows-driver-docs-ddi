@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2B010641-4CFA-40B6-AB77-BE9F85347134
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_CONFIG, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CONFIG, netvista.ndis_pd_config, ntddndis/NDIS_PD_CONFIG
+ms.keywords: "_NDIS_PD_CONFIG, NDIS_PD_CONFIG, netvista.ndis_pd_config, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PD_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _NDIS_PD_CONFIG {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CONFIG</b> structure. Set the members of this structure as follows:
 <ul>
@@ -80,22 +80,22 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_CONFIG_REVISION_1</b></li>
 </ul>
 
-### -field Flags
+#### - Flags
 
 This member is reserved and must be set to 0.
 
 
-### -field Enabled
+#### - Enabled
 
 A <b>BOOLEAN</b> value that is set to <b>TRUE</b> if the PDPI provider's  PacketDirect capability is enabled. Otherwise, this member is <b>FALSE</b>.
 
 
-### -field CapabilitiesOffset
+#### - CapabilitiesOffset
 
 If the <b>CapabilitiesSize</b> member is greater than zero, this is a <b>ULONG</b>-aligned pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure.
 
 
-### -field CapabilitiesSize
+#### - CapabilitiesSize
 
 If this member is greater than zero, it contains the size of the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure that the <b>CapabilitiesOffset</b> member points to.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eefbec75-f441-492b-becb-98434253dd62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exraisestatus, k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, ExRaiseStatus, wdm/ExRaiseStatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exraisestatus, ExRaiseStatus, k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, ExRaiseStatus routine [Kernel-Mode Driver Architecture], wdm/ExRaiseStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExRaiseStatus(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies one of the system-defined STATUS_<i>XXX</i> values. 
 

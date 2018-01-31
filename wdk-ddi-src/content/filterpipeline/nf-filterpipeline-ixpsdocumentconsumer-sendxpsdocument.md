@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SendXpsDocument, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, print.ixpsdocumentconsumer_sendxpsdocument, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, IXpsDocumentConsumer::SendXpsDocument
+ms.keywords: IXpsDocumentConsumer, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer::SendXpsDocument, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method, print.ixpsdocumentconsumer_sendxpsdocument, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, SendXpsDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SendXpsDocument(
 
 
 
-### -param pIXpsDocument [in]
+#### - pIXpsDocument [in]
 
 A pointer to the XPS document object to send.
 

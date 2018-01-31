@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7AACFA1A-4B56-4B51-91B6-5FA30918E516
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, storage.device_write_aggregation_descriptor, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Storage Devices], ntddstor/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Storage Devices]
+ms.keywords: ntddstor/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Storage Devices], PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, storage.device_write_aggregation_descriptor, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Storage Devices], ntddstor/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,18 +69,18 @@ typedef struct _DEVICE_WRITE_AGGREGATION_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Contains the size, in bytes, of this structure. The value of this member will change as members are added 
       to the structure.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the descriptor, in bytes.
 
 
-### -field BenefitsFromWriteAggregation
+#### - BenefitsFromWriteAggregation
 
 <b>TRUE</b> if the device benefits from write aggregation.
 

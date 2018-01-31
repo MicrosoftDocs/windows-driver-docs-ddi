@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 1A188828-51CE-4C80-92CB-2C01861082CD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCONFIGURABLE_CHARGER_PROPERTY_HEADER, CONFIGURABLE_CHARGER_PROPERTY_HEADER structure [Battery Devices], PCONFIGURABLE_CHARGER_PROPERTY_HEADER structure pointer [Battery Devices], battery.configurable_charger_property_header, _CONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROPERTY_HEADER, CONFIGURABLE_CHARGER_PROPERTY_HEADER, charging/CONFIGURABLE_CHARGER_PROPERTY_HEADER, charging/PCONFIGURABLE_CHARGER_PROPERTY_HEADER
+ms.keywords: CONFIGURABLE_CHARGER_PROPERTY_HEADER structure [Battery Devices], PCONFIGURABLE_CHARGER_PROPERTY_HEADER, battery.configurable_charger_property_header, charging/CONFIGURABLE_CHARGER_PROPERTY_HEADER, charging/PCONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROPERTY_HEADER, _CONFIGURABLE_CHARGER_PROPERTY_HEADER, PCONFIGURABLE_CHARGER_PROPERTY_HEADER structure pointer [Battery Devices], CONFIGURABLE_CHARGER_PROPERTY_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _CONFIGURABLE_CHARGER_PROPERTY_HEADER {
 
 
 
-### -field Size
+#### - Size
 
 Size of the structure.
 
 
-### -field ChargerId
+#### - ChargerId
 
 The charger ID.
 
 
-### -field PropertyId
+#### - PropertyId
 
 The ID of the property to be configured.
 

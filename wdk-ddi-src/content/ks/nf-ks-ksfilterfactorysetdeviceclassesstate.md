@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66515f08-b652-4aa0-8f22-b5ff0a407d6a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactorySetDeviceClassesState, ks/KsFilterFactorySetDeviceClassesState, avfunc_a88f0816-e755-450f-b8b7-83dee85171f9.xml, KsFilterFactorySetDeviceClassesState function [Streaming Media Devices], stream.ksfilterfactorysetdeviceclassesstate
+ms.keywords: stream.ksfilterfactorysetdeviceclassesstate, avfunc_a88f0816-e755-450f-b8b7-83dee85171f9.xml, ks/KsFilterFactorySetDeviceClassesState, KsFilterFactorySetDeviceClassesState function [Streaming Media Devices], KsFilterFactorySetDeviceClassesState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsFilterFactorySetDeviceClassesState(
 
 
 
-### -param FilterFactory [in]
+#### - FilterFactory [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to change device class status.
 
 
-### -param NewState [in]
+#### - NewState [in]
 
 If set to <b>TRUE</b>, the device classes are enabled; if <b>FALSE</b>, they are disabled.
 

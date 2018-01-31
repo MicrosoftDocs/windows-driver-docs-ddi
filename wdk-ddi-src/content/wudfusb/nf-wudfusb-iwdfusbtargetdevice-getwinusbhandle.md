@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice::GetWinUsbHandle, IWDFUsbTargetDevice interface, GetWinUsbHandle method, GetWinUsbHandle, umdf.iwdfusbtargetdevice_getwinusbhandle, GetWinUsbHandle method, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, IWDFUsbTargetDevice, GetWinUsbHandle method, IWDFUsbTargetDevice interface
+ms.keywords: IWDFUsbTargetDevice::GetWinUsbHandle, umdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle, IWDFUsbTargetDevice, GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, IWDFUsbTargetDevice interface, GetWinUsbHandle method, GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_getwinusbhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af94f36f-6e1a-4ac5-be6d-64a9a8dade9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPropertyHandler, stream.kspropertyhandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, KsPropertyHandler function [Streaming Media Devices], ks/KsPropertyHandler
+ms.keywords: KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, stream.kspropertyhandler, ks/KsPropertyHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsPropertyHandler(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP with the property request being handled.
 
 
-### -param PropertySetsCount [in]
+#### - PropertySetsCount [in]
 
 Specifies the number of property sets being passed.
 
 
-### -param PropertySet [in]
+#### - PropertySet [in]
 
 Points to an array of <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a> structures. The driver should provide one structure for each property set it wants KsPropertyHandler to handle.
 

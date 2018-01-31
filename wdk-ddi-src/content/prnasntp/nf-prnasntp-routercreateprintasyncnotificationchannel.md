@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11f9a438-861f-42ef-b4f5-f64b0b9d658a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml, prnasntp/RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices], RouterCreatePrintAsyncNotificationChannel, print.routercreateprintasyncnotificationchannel
+ms.keywords: print.routercreateprintasyncnotificationchannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml, RouterCreatePrintAsyncNotificationChannel, prnasntp/RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ HRESULT RouterCreatePrintAsyncNotificationChannel(
 
 
 
-### -param pName [in]
+#### - pName [in]
 
 A pointer to a null-terminated string that specifies the name of the printer or print server.
 
 
-### -param pNotificationType [in]
+#### - pNotificationType [in]
 
 A pointer to a GUID that represents the type of notifications sent through this channel.
 
@@ -88,12 +88,12 @@ A pointer to a GUID that represents the type of notifications sent through this 
 TBD
 
 
-### -param eConversationStyle [in]
+#### - eConversationStyle [in]
 
 The type of communication: unidirectional or bidirectional.
 
 
-### -param pCallback [in]
+#### - pCallback [in]
 
 A pointer to the callback function that is called to deliver the response notifications, when bidirectional communication is in effect. This parameter is ignored when unidirectional communication is in effect.
 

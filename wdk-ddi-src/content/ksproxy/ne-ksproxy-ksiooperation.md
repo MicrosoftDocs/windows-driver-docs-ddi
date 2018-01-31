@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 993909CB-B00C-40C0-ADDA-DB4389D9812E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/KsIoOperation_Write, KsIoOperation_Write, KSIOOPERATION, ksproxy/KSIOOPERATION, KSIOOPERATION enumeration [Streaming Media Devices], ksproxy/KsIoOperation_Read, KsIoOperation_Read, stream.ksiooperation
+ms.keywords: stream.ksiooperation, ksproxy/KSIOOPERATION, KSIOOPERATION, KsIoOperation_Write, KSIOOPERATION enumeration [Streaming Media Devices], ksproxy/KsIoOperation_Read, KsIoOperation_Read, ksproxy/KsIoOperation_Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,10 +68,10 @@ typedef enum  {
 
 
 
-### -field KsIoOperation_Write
+#### - KsIoOperation_Write
 
 
 
-### -field KsIoOperation_Read
+#### - KsIoOperation_Read
 
 

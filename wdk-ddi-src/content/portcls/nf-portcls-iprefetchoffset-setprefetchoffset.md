@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fef8e8b8-7e79-4d88-b643-9b371e4297fd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetPreFetchOffset method [Audio Devices], IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface, IPreFetchOffset interface [Audio Devices], SetPreFetchOffset method, SetPreFetchOffset, audio.iprefetchoffset_setprefetchoffset, portcls/IPreFetchOffset::SetPreFetchOffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml, IPreFetchOffset
+ms.keywords: portcls/IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset method [Audio Devices], IPreFetchOffset, SetPreFetchOffset, SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface, IPreFetchOffset::SetPreFetchOffset, audio.iprefetchoffset_setprefetchoffset, IPreFetchOffset interface [Audio Devices], SetPreFetchOffset method, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPreFetchOffset.SetPreFetchOffset
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPreFetchOffset::SetPreFetchOffset method
@@ -67,7 +67,7 @@ VOID SetPreFetchOffset(
 
 
 
-### -param PreFetchOffset [in]
+#### - PreFetchOffset [in]
 
 Specifies the prefetch offset size in bytes.
 
@@ -102,15 +102,15 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536727">IMiniportWavePciStream::GetPosition</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
 
  
 

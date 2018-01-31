@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ef637329-a291-445b-8ac7-6e55d5d7931e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaLog::InitializeLog, IWiaLog interface [Imaging Devices], InitializeLog method, IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, IWiaLog, image.iwialog_initializelog, wia_lh/IWiaLog::InitializeLog, InitializeLog, InitializeLog method [Imaging Devices], IWiaLog interface, InitializeLog method [Imaging Devices]
+ms.keywords: InitializeLog, image.iwialog_initializelog, IWiaLog::InitializeLog, IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, IWiaLog, InitializeLog method [Imaging Devices], IWiaLog interface, wia_lh/IWiaLog::InitializeLog, InitializeLog method [Imaging Devices], IWiaLog interface [Imaging Devices], InitializeLog method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT InitializeLog(
 
 
 
-### -param hInstance [in]
+#### - hInstance [in]
 
 Specifies the module handle. This parameter indicates which module is calling the method.
 

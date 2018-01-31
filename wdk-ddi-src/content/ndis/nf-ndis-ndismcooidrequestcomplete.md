@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18242351-3dec-40df-b112-2335253903d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMCoOidRequestComplete
+ms.keywords: NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisMCoOidRequestComplete, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, ndis/NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ VOID NdisMCoOidRequestComplete(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 A miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
@@ -93,7 +93,7 @@ TBD
 TBD
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the request operation, either NDIS_STATUS_SUCCESS,
      NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> value 
@@ -145,10 +145,7 @@ A call to
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
@@ -156,7 +153,10 @@ A call to
 
 <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
+   ProtocolCoOidRequestComplete</i></mshelp:link>
 
  
 

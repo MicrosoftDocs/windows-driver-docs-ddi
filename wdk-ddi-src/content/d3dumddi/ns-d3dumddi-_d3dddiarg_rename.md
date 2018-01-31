@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ecddaf4-bce7-4ea0-b53d-e4872fa21f81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_RENAME, D3DDDIARG_RENAME, D3DDDIARG_RENAME structure [Display Devices], _D3DDDIARG_RENAME, display.d3dddiarg_rename, UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml
+ms.keywords: "_D3DDDIARG_RENAME, UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, d3dumddi/D3DDDIARG_RENAME, display.d3dddiarg_rename, D3DDDIARG_RENAME structure [Display Devices], D3DDDIARG_RENAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _D3DDDIARG_RENAME {
 
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to the resource to be renamed. 
 
 
-### -field SubResourceIndex
+#### - SubResourceIndex
 
 [in] The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be renamed.
 
 
-### -field hCookie
+#### - hCookie
 
 [in] A handle that represents the renamed surface instance that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function previously returned. 
 
 
-### -field GpuVirtualAddress
+#### - GpuVirtualAddress
 
 This member is reserved and should be set to zero.
 
@@ -96,9 +96,9 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
  
 

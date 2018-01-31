@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 55a034e7-68fa-4f4a-b7c6-da215405375a
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SD.sffdisk_dpcmd, SFFDISK_DP_IS_SUPPORTED, SFFDISK_DPCMD enumeration [Buses], SFFDISK_DPCMD, sffdisk/SFFDISK_DP_UNLOCK_DEVICE, SFFDISK_DP_UNLOCK_DEVICE, sffdisk/SFFDISK_DP_SET_PASSWORD, sffdisk/SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DPCMD, sffdisk/SFFDISK_DP_IS_SUPPORTED, sd-structs_794e7b1e-49e0-4385-ab34-235f00e1a7b2.xml, SFFDISK_DP_RESET_DEVICE_ALL_DATA, SFFDISK_DP_LOCK_DEVICE, SFFDISK_DP_SET_PASSWORD, sffdisk/SFFDISK_DP_LOCK_DEVICE
+ms.keywords: SFFDISK_DPCMD enumeration [Buses], SFFDISK_DP_LOCK_DEVICE, sffdisk/SFFDISK_DP_LOCK_DEVICE, sd-structs_794e7b1e-49e0-4385-ab34-235f00e1a7b2.xml, SFFDISK_DP_RESET_DEVICE_ALL_DATA, SFFDISK_DP_SET_PASSWORD, SFFDISK_DP_UNLOCK_DEVICE, sffdisk/SFFDISK_DP_UNLOCK_DEVICE, sffdisk/SFFDISK_DPCMD, SD.sffdisk_dpcmd, SFFDISK_DP_IS_SUPPORTED, sffdisk/SFFDISK_DP_SET_PASSWORD, SFFDISK_DPCMD, sffdisk/SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DP_IS_SUPPORTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum  {
 
 
 
-### -field SFFDISK_DP_IS_SUPPORTED
+#### - SFFDISK_DP_IS_SUPPORTED
 
 The operation requests verification from the card that it supports command class 7.
 
 
-### -field SFFDISK_DP_SET_PASSWORD
+#### - SFFDISK_DP_SET_PASSWORD
 
 The operation sets the password.
 
 
-### -field SFFDISK_DP_LOCK_DEVICE
+#### - SFFDISK_DP_LOCK_DEVICE
 
 The operation locks the device.
 
 
-### -field SFFDISK_DP_UNLOCK_DEVICE
+#### - SFFDISK_DP_UNLOCK_DEVICE
 
 The operation unlocks the device.
 
 
-### -field SFFDISK_DP_RESET_DEVICE_ALL_DATA
+#### - SFFDISK_DP_RESET_DEVICE_ALL_DATA
 
 The operation resets the device.
 

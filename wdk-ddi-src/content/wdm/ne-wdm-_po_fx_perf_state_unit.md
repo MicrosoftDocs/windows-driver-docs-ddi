@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E16657AE-9EEF-4E36-AAC5-5BF822006F1C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxPerfStateUnitOther, PO_FX_PERF_STATE_UNIT, wdm/PPO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitMaximum, _PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitBandwidth, wdm/PoFxPerfStateUnitFrequency, PPO_FX_PERF_STATE_UNIT enumeration pointer [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateUnitOther, wdm/PoFxPerfStateUnitMaximum, PPO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitBandwidth, PoFxPerfStateUnitFrequency, wdm/PO_FX_PERF_STATE_UNIT, kernel.po_fx_perf_state_unit
+ms.keywords: PO_FX_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateUnitBandwidth, kernel.po_fx_perf_state_unit, PoFxPerfStateUnitOther, wdm/PoFxPerfStateUnitOther, PoFxPerfStateUnitFrequency, wdm/PoFxPerfStateUnitBandwidth, wdm/PO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitMaximum, *PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT, wdm/PPO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitMaximum, PPO_FX_PERF_STATE_UNIT enumeration pointer [Kernel-Mode Driver Architecture], wdm/PoFxPerfStateUnitFrequency, _PO_FX_PERF_STATE_UNIT, PPO_FX_PERF_STATE_UNIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_PERF_STATE_UNIT
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef enum _PO_FX_PERF_STATE_UNIT {
 
 
 
-### -field PoFxPerfStateUnitOther
+#### - PoFxPerfStateUnitOther
 
 Indicates that the performance states control a unit other than frequency or bandwidth.
 
 
-### -field PoFxPerfStateUnitFrequency
+#### - PoFxPerfStateUnitFrequency
 
 Indicates that the performance states control frequency, measured in Hz.
 
 
-### -field PoFxPerfStateUnitBandwidth
+#### - PoFxPerfStateUnitBandwidth
 
 Indicates that the performance states control bandwidth, measured in bits per second.
 
 
-### -field PoFxPerfStateUnitMaximum
+#### - PoFxPerfStateUnitMaximum
 
 This value is reserved for system use.
 

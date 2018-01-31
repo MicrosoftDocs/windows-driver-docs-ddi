@@ -40,7 +40,7 @@ apiname:
 -	IKsPropertySet
 product: Windows
 targetos: Windows
-req.typenames: DRMRIGHTS, *PDRMRIGHTS
+req.typenames: "*PDRMRIGHTS, DRMRIGHTS"
 ---
 
 # IKsPropertySet interface

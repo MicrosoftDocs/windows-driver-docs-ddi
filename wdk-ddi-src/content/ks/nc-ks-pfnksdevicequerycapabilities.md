@@ -72,17 +72,17 @@ NTSTATUS AVStrMiniDeviceQueryCapabilities(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> that dispatched the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> issued by <i>Device</i>.
 
 
-### -param Capabilities [in, out]
+#### - Capabilities [in, out]
 
 Pointer to the DEVICE_CAPABILITIES structure that describes PnP and Power capabilities of <i>Device</i>.
 
@@ -105,9 +105,9 @@ This routine is called when an <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
  
 

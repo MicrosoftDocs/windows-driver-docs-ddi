@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 78ff21da-be0f-4b57-9162-1052a6c12b5c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml, RtlCompareMemoryUlong routine [Installable File System Drivers], RtlCompareMemoryUlong, ifsk.rtlcomparememoryulong, ntifs/RtlCompareMemoryUlong
+ms.keywords: ntifs/RtlCompareMemoryUlong, RtlCompareMemoryUlong routine [Installable File System Drivers], rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml, ifsk.rtlcomparememoryulong, RtlCompareMemoryUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ SIZE_T RtlCompareMemoryUlong(
 
 
 
-### -param Source [in]
+#### - Source [in]
 
 Pointer to a block of memory. Must be aligned on a ULONG boundary. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Number of bytes over which the comparison should be done. Must be a multiple of <b>sizeof(</b>ULONG<b>)</b>. 
 
 
-### -param Pattern [in]
+#### - Pattern [in]
 
 Pattern to be compared byte by byte, repeatedly, through the specified memory range. 
 

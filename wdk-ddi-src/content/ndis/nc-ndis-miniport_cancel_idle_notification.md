@@ -73,7 +73,7 @@ VOID MiniportCancelIdleNotification(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for a network adapter.
 
@@ -115,9 +115,9 @@ For guidelines on how to implement the <i>MiniportCancelIdleNotification</i> han
 
 <a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a>
 
-<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
-
 <a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
+
+<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
 
 <b></b>
 

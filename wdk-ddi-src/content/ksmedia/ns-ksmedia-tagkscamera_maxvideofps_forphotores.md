@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4230F7E1-DC36-4265-9E82-907EE82E9DFF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, PKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_MAXVIDEOFPS_FORPHOTORES, KSCAMERA_MAXVIDEOFPS_FORPHOTORES structure [Streaming Media Devices], KSCAMERA_MAXVIDEOFPS_FORPHOTORES, PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, stream.kscamera_maxvideofps_forphotores, tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES, ksmedia/PKSCAMERA_MAXVIDEOFPS_FORPHOTORES"
+ms.keywords: ksmedia/KSCAMERA_MAXVIDEOFPS_FORPHOTORES, tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES, PKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure pointer [Streaming Media Devices], stream.kscamera_maxvideofps_forphotores, KSCAMERA_MAXVIDEOFPS_FORPHOTORES structure [Streaming Media Devices], PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, KSCAMERA_MAXVIDEOFPS_FORPHOTORES, ksmedia/PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, *PKSCAMERA_MAXVIDEOFPS_FORPHOTORES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_MAXVIDEOFPS_FORPHOTORES
 product: Windows
 targetos: Windows
-req.typenames: "*PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, KSCAMERA_MAXVIDEOFPS_FORPHOTORES"
+req.typenames: KSCAMERA_MAXVIDEOFPS_FORPHOTORES, *PKSCAMERA_MAXVIDEOFPS_FORPHOTORES
 ---
 
 # tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure
@@ -72,32 +72,32 @@ typedef struct _KSCAMERA_MAXVIDEOFPS_FORPHOTORES {
 
 
 
-### -field PhotoResWidth
+#### - PhotoResWidth
 
 The photo resolution width in pixels.
 
 
-### -field PhotoResHeight
+#### - PhotoResHeight
 
 The photo resolution height in pixels.
 
 
-### -field PreviewFPSNum
+#### - PreviewFPSNum
 
 The numerator value of the preview frame rate.
 
 
-### -field PreviewFPSDenom
+#### - PreviewFPSDenom
 
 The denominator value of the preview frame rate.
 
 
-### -field CaptureFPSNum
+#### - CaptureFPSNum
 
 The numerator value of the capture frame rate.
 
 
-### -field CaptureFPSDenom
+#### - CaptureFPSDenom
 
 The denominator value of the capture frame rate.
 

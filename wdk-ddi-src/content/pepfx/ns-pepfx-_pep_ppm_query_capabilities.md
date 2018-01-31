@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D33FA62B-9DC8-4AC4-85FC-726C39FB76F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_query_capabilities, *PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, pepfx/PEP_PPM_QUERY_CAPABILITIES, _PEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture]
+ms.keywords: "*PPEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, pepfx/PPEP_PPM_QUERY_CAPABILITIES, _PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PEP_PPM_QUERY_CAPABILITIES {
 
 
 
-### -field FeedbackCounterCount
+#### - FeedbackCounterCount
 
 [out] The number of processor performance feedback counters supported by the PEP for this processor. On x86/AMD64 platforms, this must be zero.
 
 
-### -field IdleStateCount
+#### - IdleStateCount
 
 [out] The number of processor idle states that the PEP supports. The PEP is not required to support the same number of idle states for all processors. The PEP can set <b>IdleStateCount</b> = 0 to indicate that it doesn't support any idle states, in which case the PEP doesn't need to implement any other notifications that deal with processor idle states.
 
 
-### -field PerformanceStatesSupported
+#### - PerformanceStatesSupported
 
 [out] Whether the PEP supports performance state controls. Set to TRUE if the PEP supports performance states, or to FALSE if it does not.
 
 
-### -field ParkingSupported
+#### - ParkingSupported
 
 [out] Whether the PEP supports supplying core parking hints. Set to TRUE if the PEP can indicate which cores to park, or to FALSE if it cannot.
 

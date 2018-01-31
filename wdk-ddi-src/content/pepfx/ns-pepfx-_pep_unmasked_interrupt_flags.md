@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A385FBF9-2222-49E0-A708-1638C0D2FF7A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, _PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, PEP_UNMASKED_INTERRUPT_FLAGS, _PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], *PPEP_UNMASKED_INTERRUPT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef union _PEP_UNMASKED_INTERRUPT_FLAGS {
  
 
 
-### -field AsUSHORT
+#### - AsUSHORT
 
 A USHORT value that contains all of the unmasked interrupt flags.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportquerysystemtime, ScsiPortQuerySystemTime routine [Storage Devices], scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime, ScsiPortQuerySystemTime
+ms.keywords: storage.scsiportquerysystemtime, ScsiPortQuerySystemTime routine [Storage Devices], ScsiPortQuerySystemTime, scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortQuerySystemTime
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ VOID ScsiPortQuerySystemTime(
 
 
 
-### -param CurrentTime [out]
+#### - CurrentTime [out]
 
 Pointer to the current time, on return. 
 

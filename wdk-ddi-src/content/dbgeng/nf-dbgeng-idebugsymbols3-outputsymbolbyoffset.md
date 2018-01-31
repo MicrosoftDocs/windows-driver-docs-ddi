@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a9b3ac31-2001-45cc-a917-de687419b561
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, debugger.outputsymbolbyoffset, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, IDebugSymbols3
+ms.keywords: IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, debugger.outputsymbolbyoffset, OutputSymbolByOffset method [Windows Debugging], dbgeng/IDebugSymbols3::OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OutputSymbolByOffset(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies where to send the output. For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the flags used to determine what information is printed with the symbol.
 
@@ -119,7 +119,7 @@ This allows the <i>Offset</i> parameter to specify any address within the symbol
 </table> 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the process's virtual address space of the symbol to be printed.
 

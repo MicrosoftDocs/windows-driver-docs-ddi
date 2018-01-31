@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e81ec3da-a863-467f-82ec-1fa7ee6401b1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFInterruptObjectRef_eb73ee25-bee4-4c0a-a070-7893bd5b699a.xml, kmdf.wdf_interrupt_config_init, wdf.wdf_interrupt_config_init, WDF_INTERRUPT_CONFIG_INIT, WDF_INTERRUPT_CONFIG_INIT function, wdfinterrupt/WDF_INTERRUPT_CONFIG_INIT
+ms.keywords: WDF_INTERRUPT_CONFIG_INIT, wdfinterrupt/WDF_INTERRUPT_CONFIG_INIT, WDF_INTERRUPT_CONFIG_INIT function, DFInterruptObjectRef_eb73ee25-bee4-4c0a-a070-7893bd5b699a.xml, kmdf.wdf_interrupt_config_init, wdf.wdf_interrupt_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID WDF_INTERRUPT_CONFIG_INIT(
 
 
 
-### -param Configuration [out]
+#### - Configuration [out]
 
 A pointer to a <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure.
 
 
-### -param EvtInterruptIsr [in]
+#### - EvtInterruptIsr [in]
 
 A pointer to the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a> callback function.
 
 
-### -param EvtInterruptDpc [in, optional]
+#### - EvtInterruptDpc [in, optional]
 
 A pointer to the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function, or <b>NULL</b>.
 
@@ -105,11 +105,11 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
-
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
 
  
 

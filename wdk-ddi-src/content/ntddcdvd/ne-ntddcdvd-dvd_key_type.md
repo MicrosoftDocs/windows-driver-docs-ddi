@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec080043-a147-4002-8d0c-ed383182ec40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/DvdSetRpcKey, storage.dvd_key_type, ntddcdvd/DvdAsf, DVD_KEY_TYPE, ntddcdvd/DvdDiskKey, DvdGetRpcKey, ntddcdvd/DvdGetRpcKey, ntddcdvd/DvdTitleKey, ntddcdvd/DvdChallengeKey, DvdSetRpcKey, ntddcdvd/DvdBusKey1, DvdBusKey1, ntddcdvd/DvdBusKey2, DvdAsf, DVD_KEY_TYPE enumeration [Storage Devices], structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, DvdBusKey2, DvdTitleKey, ntddcdvd/DVD_KEY_TYPE, DvdChallengeKey, DvdDiskKey, ntddcdvd/DvdInvalidateAGID, DvdInvalidateAGID
+ms.keywords: DVD_KEY_TYPE, ntddcdvd/DvdAsf, DvdBusKey1, ntddcdvd/DvdTitleKey, DvdAsf, DVD_KEY_TYPE enumeration [Storage Devices], ntddcdvd/DvdInvalidateAGID, DvdDiskKey, ntddcdvd/DvdChallengeKey, DvdSetRpcKey, ntddcdvd/DvdBusKey2, ntddcdvd/DVD_KEY_TYPE, DvdChallengeKey, ntddcdvd/DvdSetRpcKey, ntddcdvd/DvdDiskKey, ntddcdvd/DvdGetRpcKey, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, storage.dvd_key_type, ntddcdvd/DvdBusKey1, DvdTitleKey, DvdGetRpcKey, DvdBusKey2, DvdInvalidateAGID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,47 +75,47 @@ typedef enum  {
 
 
 
-### -field DvdChallengeKey
+#### - DvdChallengeKey
 
 Gets a challenge key. This is used during the authentication key exchange process.
 
 
-### -field DvdBusKey1
+#### - DvdBusKey1
 
 Gets the first bus key. 
 
 
-### -field DvdBusKey2
+#### - DvdBusKey2
 
 Gets the second bus key. 
 
 
-### -field DvdTitleKey
+#### - DvdTitleKey
 
 Gets a title key that is obfuscated by a bus key.
 
 
-### -field DvdAsf
+#### - DvdAsf
 
 Gets the current state of the authentication success flag (ASF).
 
 
-### -field DvdSetRpcKey
+#### - DvdSetRpcKey
 
 Sets the region playback contents (RPC) for the logical unit. 
 
 
-### -field DvdGetRpcKey
+#### - DvdGetRpcKey
 
 Gets the region playback contents (RPC) for the logical unit. 
 
 
-### -field DvdDiskKey
+#### - DvdDiskKey
 
 Gets the disc key. 
 
 
-### -field DvdInvalidateAGID
+#### - DvdInvalidateAGID
 
 Invalidates the specified authentication grant ID (AGID).
 
@@ -131,11 +131,11 @@ Drivers can issue a report key command to retrieve key data by means of an <a hr
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_send_key.md">IOCTL_DVD_SEND_KEY</a>
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
 
  
 

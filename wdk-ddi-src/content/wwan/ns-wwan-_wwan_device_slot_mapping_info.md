@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 48DD867C-1235-4955-A01E-FF46C850DA31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWWAN_DEVICE_SLOT_MAPPING_INFO, _WWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SLOT_MAPPING_INFO, WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_device_slot_mappings, wwan/PWWAN_DEVICE_SLOT_MAPPING_INFO, WWAN_DEVICE_SLOT_MAPPING_INFO, wwan/WWAN_DEVICE_SLOT_MAPPING_INFO"
+ms.keywords: WWAN_DEVICE_SLOT_MAPPING_INFO, _WWAN_DEVICE_SLOT_MAPPING_INFO, WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SLOT_MAPPING_INFO, *PWWAN_DEVICE_SLOT_MAPPING_INFO, netvista.wwan_device_slot_mappings, wwan/WWAN_DEVICE_SLOT_MAPPING_INFO, wwan/PWWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SLOT_MAPPING_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_SLOT_MAPPING_INFO, WWAN_DEVICE_SLOT_MAPPING_INFO"
+req.typenames: WWAN_DEVICE_SLOT_MAPPING_INFO, *PWWAN_DEVICE_SLOT_MAPPING_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -90,11 +90,11 @@ The number of mappings, which is always equal to the number of executors.
 
 <a href="https://msdn.microsoft.com/54AF3447-7918-49CE-945A-DC8DC1E78CBF">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_slot_mapping_info.md">NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_device_slot_mapping_info.md">NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO</a>
 
 <a href="https://msdn.microsoft.com/7825C20E-FB56-420D-B516-1ADA0C7C382E">NDIS_STATUS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_slot_mapping_info.md">NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
  
 

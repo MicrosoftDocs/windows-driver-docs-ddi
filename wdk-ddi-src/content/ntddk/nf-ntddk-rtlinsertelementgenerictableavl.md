@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BF7563F8-F1C5-4300-94A2-7D884DA7DFA2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInsertElementGenericTableAvl, ntddk/RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictableavl
+ms.keywords: ifsk.rtlinsertelementgenerictableavl, RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], ntddk/RtlInsertElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ PVOID RtlInsertElementGenericTableAvl(
 
 
 
-### -param Table [in]
+#### - Table [in]
 
 Pointer to a generic Adelson-Velsky/Landis (AVL) table (<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>) that was initialized by a call to <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A caller-allocated buffer that contains the user data to copy into the new element. For more information, see <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>. 
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Size in bytes of data in <i>Buffer.</i>
 
 
-### -param NewElement [out, optional]
+#### - NewElement [out, optional]
 
 On output, a value of <b>TRUE</b> means the insertion of the new element in the generic table was successful. A value of <b>FALSE</b> means the insertion failed.
 

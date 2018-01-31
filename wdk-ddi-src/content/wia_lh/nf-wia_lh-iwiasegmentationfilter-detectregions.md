@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiasegmentationfilter_detectregions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, DetectRegions, IWiaSegmentationFilter, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, IWiaSegmentationFilter::DetectRegions, wia_lh/IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices]
+ms.keywords: IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, IWiaSegmentationFilter, DetectRegions, image.iwiasegmentationfilter_detectregions, wia_lh/IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, DetectRegions method [Imaging Devices], IWiaSegmentationFilter::DetectRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT DetectRegions(
 
 
 
-### -param lFlags [in]
+#### - lFlags [in]
 
 Currently unused. Should be set to zero. 
 
 
-### -param pInputStream [in, optional]
+#### - pInputStream [in, optional]
 
 Specifies a pointer to the <b>IStream</b> preview image.
 
 
-### -param pWiaItem2 [in, optional]
+#### - pWiaItem2 [in, optional]
 
 Specifies a pointer to the <b>IWiaItem2</b> item for which <i>pInputStream</i> was acquired. The segmentation filter creates child items for this item. 
 

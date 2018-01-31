@@ -68,10 +68,10 @@ DWORD APIENTRY OEMTTDownloadMethod(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 
 
-### -param pUFObj
+#### - pUFObj
 
 

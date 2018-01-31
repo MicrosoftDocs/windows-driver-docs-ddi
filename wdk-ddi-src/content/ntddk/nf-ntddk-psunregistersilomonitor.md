@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1B85AD5-F626-4177-8218-428B617A97F6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsUnregisterSiloMonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture], PsUnregisterSiloMonitor, kernel.psunregistersilomonitor
+ms.keywords: ntddk/PsUnregisterSiloMonitor, kernel.psunregistersilomonitor, PsUnregisterSiloMonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void PsUnregisterSiloMonitor(
 
 
 
-### -param Monitor [in]
+#### - Monitor [in]
 
 The server silo monitor to unregister.
 

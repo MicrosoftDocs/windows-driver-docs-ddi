@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 591d8f63-ab3e-48b7-8fe4-98dcdf9464f1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, AACS_CERTIFICATE, *PAACS_CERTIFICATE, ntddcdvd/AACS_CERTIFICATE, _AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], storage.aacs_certificate, PAACS_CERTIFICATE structure pointer [Storage Devices], PAACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE
+ms.keywords: structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, AACS_CERTIFICATE structure [Storage Devices], storage.aacs_certificate, ntddcdvd/AACS_CERTIFICATE, AACS_CERTIFICATE, PAACS_CERTIFICATE, _AACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], *PAACS_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AACS_CERTIFICATE {
 
 
 
-### -field Nonce
+#### - Nonce
 
 A cryptographically random 160-bit nonce value.
 
 
-### -field Certificate
+#### - Certificate
 
 A 92-byte certificate.
 

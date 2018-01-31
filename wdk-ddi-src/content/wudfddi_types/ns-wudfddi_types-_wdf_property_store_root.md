@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 431ae991-35e0-4cf7-a3e0-57591abfe5c5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/PWDF_PROPERTY_STORE_ROOT, wdf.wdf_property_store_root, *PWDF_PROPERTY_STORE_ROOT, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, wudfddi_types/WDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure, WDF_PROPERTY_STORE_ROOT, _WDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, PWDF_PROPERTY_STORE_ROOT structure pointer
+ms.keywords: wudfddi_types/WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, PWDF_PROPERTY_STORE_ROOT structure pointer, wdf.wdf_property_store_root, wudfddi_types/PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure, _WDF_PROPERTY_STORE_ROOT, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_PROPERTY_STORE_ROOT
 product: Windows
 targetos: Windows
-req.typenames: WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT
+req.typenames: "*PWDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT"
 req.product: Windows 10 or later.
 ---
 
@@ -83,12 +83,29 @@ typedef struct _WDF_PROPERTY_STORE_ROOT {
 
 
 
-### -field Qualifier
+#### - Qualifier
+
+
+
+#### HardwareKey
+
+
+
+#### DeviceInterfaceKey
+
+
+
+#### LegacyHardwareKey
 
 
 
 ### -field Qualifier.HardwareKey
 
+
+
+#### HardwareKey.ServiceName
+
+A pointer to a <b>NULL</b>-terminated character string that identifies a driver-specific subkey under a device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">hardware key</a> in the registry. For more information about this member, see the following Remarks section.
 
 
 ### -field Qualifier.HardwareKey.ServiceName
@@ -98,6 +115,16 @@ A pointer to a <b>NULL</b>-terminated character string that identifies a driver-
 
 ### -field Qualifier.DeviceInterfaceKey
 
+
+
+#### DeviceInterfaceKey.InterfaceGUID
+
+A pointer to a GUID that identifies a device interface. The driver must have previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a> to register the device interface.
+
+
+#### DeviceInterfaceKey.ReferenceString
+
+A pointer to a <b>NULL</b>-terminated character string that identifies a reference string for a device interface. The driver must specify this member if it specified a reference string when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>. Otherwise, this member must be <b>NULL</b>.
 
 
 ### -field Qualifier.DeviceInterfaceKey.InterfaceGUID
@@ -114,17 +141,22 @@ A pointer to a <b>NULL</b>-terminated character string that identifies a referen
 
 
 
+#### LegacyHardwareKey.LegacyMapName
+
+A pointer to a <b>NULL</b>-terminated character string that identifies a subkey under the <b>HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP</b> key in the registry. This key is used by only a few older drivers.
+
+
 ### -field Qualifier.LegacyHardwareKey.LegacyMapName
 
 A pointer to a <b>NULL</b>-terminated character string that identifies a subkey under the <b>HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP</b> key in the registry. This key is used by only a few older drivers.
 
 
-### -field LengthCb
+#### - LengthCb
 
 The length, in bytes, of this structure.
 
 
-### -field RootClass
+#### - RootClass
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
 

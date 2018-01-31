@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a9685f8-f201-4d1b-aef6-c4ac78100a80
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, display.d3dddi_kerneloverlayinfo, _D3DDDI_KERNELOVERLAYINFO
+ms.keywords: D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], d3dukmdt/D3DDDI_KERNELOVERLAYINFO, D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, display.d3dddi_kerneloverlayinfo, _D3DDDI_KERNELOVERLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,38 +71,38 @@ typedef struct _D3DDDI_KERNELOVERLAYINFO {
 
 
 
-### -field hAllocation
+#### - hAllocation
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation to be displayed.
 
 
-### -field DstRect
+#### - DstRect
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a> structure that contains the overlay destination rectangle in device coordinates.
 
 
-### -field SrcRect
+#### - SrcRect
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a> structure that contains the overlay source rectangle in device coordinates.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to a block of private data, which is passed from the user-mode display driver to the display miniport driver. 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
 
  
 

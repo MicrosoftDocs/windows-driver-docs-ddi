@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiGetChildContainerId
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_GET_CHILD_CONTAINER_ID callback
@@ -72,19 +72,19 @@ _Check_return_ NTSTATUS* DxgkDdiGetChildContainerId(
 
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 
 
-### -param ChildUid [in]
+#### - ChildUid [in]
 
 A ULONG value that uniquely identifies the child device. The display miniport driver  previously provided this identifier when its  <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function was called.
 
 
-### -param ContainerId [in, out]
+#### - ContainerId [in, out]
 
 A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a> structure. For more information, see the Remarks section.
 
@@ -143,13 +143,13 @@ For more information about Container IDs, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f595816-29b5-4efc-a00c-77597dd9fa48
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENRESOURCEFROMNTHANDLE, _D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], display.d3dkmt_openresourcefromnthandle, d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE
+ms.keywords: display.d3dkmt_openresourcefromnthandle, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE, _D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,69 +81,69 @@ typedef struct _D3DKMT_OPENRESOURCEFROMNTHANDLE {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A D3DKMT_HANDLE data type that represents the device.
 
 
-### -field hNtHandle
+#### - hNtHandle
 
 [in] An NT handle to the process.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] The number of allocations associated with the resource.
 
 
-### -field pOpenAllocationInfo2
+#### - pOpenAllocationInfo2
 
 [in] This member is reserved and should be set to zero.
 
 
-### -field PrivateRuntimeDataSize
+#### - PrivateRuntimeDataSize
 
 [in] The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
 
 
-### -field pPrivateRuntimeData
+#### - pPrivateRuntimeData
 
 [in] A caller-supplied buffer where the runtime private data associated with this resource will be copied to.
 
 
-### -field ResourcePrivateDriverDataSize
+#### - ResourcePrivateDriverDataSize
 
 [in] The size, in bytes, of the  buffer pointed to by the <b>pResourcePrivateDriverData</b> member.
 
 
-### -field pResourcePrivateDriverData
+#### - pResourcePrivateDriverData
 
 [in] A caller-supplied buffer where the driver private data associated with the resource will be copied to.
 
 
-### -field TotalPrivateDriverDataBufferSize
+#### - TotalPrivateDriverDataBufferSize
 
 [in] The size, in bytes, of the buffer pointed to by the <b>pTotalPrivateDriverDataBuffer</b> member.
 
 [out] The size, in bytes, of  the data written to <b>pTotalPrivateDriverDataBuffer</b>.
 
 
-### -field pTotalPrivateDriverDataBuffer
+#### - pTotalPrivateDriverDataBuffer
 
 [in] A pointer to a caller-supplied buffer where the driver private data will be stored.
 
 
-### -field hResource
+#### - hResource
 
 [out] A handle to the resource in this process.
 
 
-### -field hKeyedMutex
+#### - hKeyedMutex
 
 [out] A handle to the keyed mutex in this process.
 
 
-### -field pKeyedMutexPrivateRuntimeData
+#### - pKeyedMutexPrivateRuntimeData
 
 [in] A buffer that contains initial private data.
 
@@ -152,23 +152,23 @@ The data in this buffer will be copied only if the keyed mutex does not already 
 If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivateRuntimeDataSize</b> member must be zero.
 
 
-### -field KeyedMutexPrivateRuntimeDataSize
+#### - KeyedMutexPrivateRuntimeDataSize
 
 [in] The size, in bytes, of the buffer pointed to by the <b>pKeyedMutexPrivateRuntimeData</b> member.
 
 
-### -field hSyncObject
+#### - hSyncObject
 
 [out] A handle to the synchronization object in this process.
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
 
  
 

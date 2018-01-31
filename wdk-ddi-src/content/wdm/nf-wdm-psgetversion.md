@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: db3d2e34-3d83-423d-b446-2800d53a8220
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PsGetVersion, kernel.psgetversion, k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, PsGetVersion function [Kernel-Mode Driver Architecture], PsGetVersion
+ms.keywords: kernel.psgetversion, wdm/PsGetVersion, PsGetVersion function [Kernel-Mode Driver Architecture], PsGetVersion, k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ BOOLEAN PsGetVersion(
 
 
 
-### -param MajorVersion [out, optional]
+#### - MajorVersion [out, optional]
 
 Points to a caller-supplied variable that this routine sets to the major version of the operating system. This optional parameter can be <b>NULL</b>. 
 
 
-### -param MinorVersion [out, optional]
+#### - MinorVersion [out, optional]
 
 Points to a caller-supplied variable that this routine sets to the minor version of the operating system. This optional parameter can be <b>NULL</b>. 
 
 
-### -param BuildNumber [out, optional]
+#### - BuildNumber [out, optional]
 
 Points to a caller-supplied variable that this routine sets to the current build number of the operating system. This optional parameter can be <b>NULL</b>. 
 
 
-### -param CSDVersion [out, optional]
+#### - CSDVersion [out, optional]
 
 Points to a caller-allocated buffer in which this routine returns the current service-pack version as a Unicode string only during system driver initialization. This optional parameter can be <b>NULL</b>. 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e3a6d757-68c5-49d1-92cc-0ebf6ba6bbec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaValidateNodeProperty, bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, BdaValidateNodeProperty function [Streaming Media Devices], bdasup/BdaValidateNodeProperty, stream.bdavalidatenodeproperty
+ms.keywords: BdaValidateNodeProperty function [Streaming Media Devices], stream.bdavalidatenodeproperty, bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, bdasup/BdaValidateNodeProperty, BdaValidateNodeProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,13 +108,13 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564286">KSPROPERTY_BDA_AUTODEMODULATE_START</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566542">KSPROPSETID_BdaFrequencyFilter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564355">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566542">KSPROPSETID_BdaFrequencyFilter</a>
 
  
 

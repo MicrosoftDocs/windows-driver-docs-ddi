@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ce7a843-0053-4351-ba79-161d83e245ac
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeSendUrbSynchronously method, WdfUsbTargetPipeSendUrbSynchronously, DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, wdf.wdfusbtargetpipesendurbsynchronously, wdfusb/WdfUsbTargetPipeSendUrbSynchronously, PFN_WDFUSBTARGETPIPESENDURBSYNCHRONOUSLY, kmdf.wdfusbtargetpipesendurbsynchronously
+ms.keywords: wdfusb/WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously, kmdf.wdfusbtargetpipesendurbsynchronously, PFN_WDFUSBTARGETPIPESENDURBSYNCHRONOUSLY, DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, wdf.wdfusbtargetpipesendurbsynchronously, WdfUsbTargetPipeSendUrbSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfUsbTargetPipeSendUrbSynchronously(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-### -param Request [in, optional]
+#### - Request [in, optional]
 
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param RequestOptions [in, optional]
+#### - RequestOptions [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param Urb [in]
+#### - Urb [in]
 
 A pointer to a driver-initialized <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
@@ -214,9 +214,9 @@ For more information about the <b>WdfUsbTargetPipeSendUrbSynchronously</b> metho
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 

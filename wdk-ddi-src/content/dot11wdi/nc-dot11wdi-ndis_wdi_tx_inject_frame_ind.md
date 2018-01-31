@@ -80,47 +80,47 @@ VOID NdisWdiTxInjectFrameIndication(
 
 
 
-### -param NdisMiniportDataPathHandle [in]
+#### - NdisMiniportDataPathHandle [in]
 
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
+#### - PortId [in]
 
 The port ID. 
 
 
-### -param PeerId [in]
+#### - PeerId [in]
 
 The peer ID. When <b>TargetPriorityQueueing</b> is true, this must be set to the wildcard value.
 
 
-### -param ExTid [in]
+#### - ExTid [in]
 
 The extended TID.
 
 
-### -param pNBL [in]
+#### - pNBL [in]
 
 Pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain.
 
 
-### -param bIsUnicast [in]
+#### - bIsUnicast [in]
 
 Specifies if the frames are to a unicast receiver address.
 
 
-### -param bUseLegacyRates [in]
+#### - bUseLegacyRates [in]
 
 Specifies if legacy rates should be used to send the frames.
 
 
-### -param Ethertype [in]
+#### - Ethertype [in]
 
 Specifies the Ethertype of the frames.
 
 
-### -param ExemptionAction [in]
+#### - ExemptionAction [in]
 
 Specifies the ExemptionAction of the frames.
 
@@ -134,17 +134,17 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_exemption_action_type.md">WDI_EXEMPTION_ACTION_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_exemption_action_type.md">WDI_EXEMPTION_ACTION_TYPE</a>
 
  
 

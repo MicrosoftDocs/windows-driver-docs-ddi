@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ntifs/CcScheduleReadAheadEx, ifsk.ccschedulereadaheadex
+ms.keywords: ntifs/CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, CcScheduleReadAheadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID CcScheduleReadAheadEx(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the file on which read-ahead is to be performed.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the cached file where the last read occurred.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length in bytes of the range that was last read.
 
 
-### -param IoIssuerThread [in]
+#### - IoIssuerThread [in]
 
 The thread issuing the read ahead request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 
@@ -108,19 +108,19 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
 <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
-
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-
-<b>CcCopyReadEx</b>
 
 <a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
+<b>CcCopyReadEx</b>
+
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
  
 

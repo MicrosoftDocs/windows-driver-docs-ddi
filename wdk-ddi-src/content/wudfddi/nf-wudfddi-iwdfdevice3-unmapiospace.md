@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3, UnmapIoSpace, wudfddi/IWDFDevice3::UnmapIoSpace, umdf.iwdfdevice3_unmapiospace, IWDFDevice3::UnmapIoSpace, UnmapIoSpace method, wdf.iwdfdevice3_unmapiospace, UnmapIoSpace method, IWDFDevice3 interface, IWDFDevice3 interface, UnmapIoSpace method
+ms.keywords: wudfddi/IWDFDevice3::UnmapIoSpace, umdf.iwdfdevice3_unmapiospace, wdf.iwdfdevice3_unmapiospace, UnmapIoSpace method, IWDFDevice3 interface, UnmapIoSpace method, UnmapIoSpace method, IWDFDevice3 interface, UnmapIoSpace, IWDFDevice3, IWDFDevice3::UnmapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.UnmapIoSpace
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ VOID UnmapIoSpace(
 
 
 
-### -param PseudoBaseAddress [in]
+#### - PseudoBaseAddress [in]
 
 Pointer to the pseudo base address obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a> method to which the physical address range was mapped.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies the number of bytes that were mapped.
 

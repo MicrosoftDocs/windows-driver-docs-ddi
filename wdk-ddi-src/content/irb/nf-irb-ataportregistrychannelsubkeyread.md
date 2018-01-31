@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50fc7a8c-64ee-4a0c-9106-a071a7cefc34
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortRegistryChannelSubkeyRead routine [Storage Devices], AtaPortRegistryChannelSubkeyRead, atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, storage.ataportregistrychannelsubkeyread, irb/AtaPortRegistryChannelSubkeyRead
+ms.keywords: AtaPortRegistryChannelSubkeyRead, atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, storage.ataportregistrychannelsubkeyread, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN __inline AtaPortRegistryChannelSubkeyRead(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-### -param ControllerNumber [in]
+#### - ControllerNumber [in]
 
 Contains the controller number. 
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Contains the name of the registry value from which to read. 
 
 
-### -param ValueType [in]
+#### - ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
 <table>
@@ -128,7 +128,7 @@ A null-terminated. Unicode string.
 </table> 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 A pointer to the destination buffer where the data that is read from the registry will be written. 
 
@@ -162,11 +162,11 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyRead</b> either dur
 
 ## -see-also
 
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
-
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
 
 <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
 

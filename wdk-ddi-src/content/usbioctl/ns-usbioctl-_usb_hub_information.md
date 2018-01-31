@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f65789b6-b2d1-4e5d-92b3-10730e76661a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_HUB_INFORMATION, buses.usb_hub_information, USB_HUB_INFORMATION structure [Buses], usbioctl/USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml, _USB_HUB_INFORMATION, PUSB_HUB_INFORMATION, usbioctl/PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION structure pointer [Buses], *PUSB_HUB_INFORMATION
+ms.keywords: usbioctl/USB_HUB_INFORMATION, PUSB_HUB_INFORMATION structure pointer [Buses], USB_HUB_INFORMATION, buses.usb_hub_information, usbioctl/PUSB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml, _USB_HUB_INFORMATION, PUSB_HUB_INFORMATION, *PUSB_HUB_INFORMATION, USB_HUB_INFORMATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,23 +69,23 @@ typedef struct _USB_HUB_INFORMATION {
 
 
 
-### -field HubDescriptor
+#### - HubDescriptor
 
 A <a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the hub descriptor.
 
 
-### -field HubIsBusPowered
+#### - HubIsBusPowered
 
 A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the hub is bus-powered; <b>FALSE</b>, the hub is self-powered.
 
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
 
  
 

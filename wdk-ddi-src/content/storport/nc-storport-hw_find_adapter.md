@@ -76,32 +76,32 @@ ULONG HwStorFindAdapter(
 
 
 
-### -param DeviceExtension
+#### - DeviceExtension
 
 Supplies a per adapter storage area.
 
 
-### -param HwContext [in]
+#### - HwContext [in]
 
 Set to NULL.
 
 
-### -param BusInformation [in]
+#### - BusInformation [in]
 
 Set to NULL.
 
 
-### -param ArgumentString [in]
+#### - ArgumentString [in]
 
 Supplies a <b>NULL</b>-terminated string with context information about the driver.
 
 
-### -param ConfigInfo [in, out]
+#### - ConfigInfo [in, out]
 
 Supplies an initialized <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure that the miniport driver uses during initialization.
 
 
-### -param Reserved3 [in]
+#### - Reserved3 [in]
 
 Reserved for system use. 
 
@@ -197,11 +197,11 @@ HW_FIND_ADAPTER (
 
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
  
 

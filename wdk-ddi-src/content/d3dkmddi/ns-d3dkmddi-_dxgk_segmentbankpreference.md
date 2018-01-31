@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ff292137-4d95-4388-aae9-f6436b403c6a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_58615e96-0b7c-49a9-8966-0f627d7078f7.xml, display.dxgk_segmentbankpreference, d3dkmddi/DXGK_SEGMENTBANKPREFERENCE, _DXGK_SEGMENTBANKPREFERENCE, DXGK_SEGMENTBANKPREFERENCE structure [Display Devices], DXGK_SEGMENTBANKPREFERENCE
+ms.keywords: DmStructs_58615e96-0b7c-49a9-8966-0f627d7078f7.xml, display.dxgk_segmentbankpreference, DXGK_SEGMENTBANKPREFERENCE structure [Display Devices], d3dkmddi/DXGK_SEGMENTBANKPREFERENCE, DXGK_SEGMENTBANKPREFERENCE, _DXGK_SEGMENTBANKPREFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,63 +79,63 @@ typedef struct _DXGK_SEGMENTBANKPREFERENCE {
 
 
 
-### -field Bank0
+#### - Bank0
 
 [out] The identifier of the highest priority preferred bank, or 0 if no preference is required. Valid values are from 1 to 127.
 
 This member is equivalent to the first 7 bits of the 32-bit <b>Value</b> member (0x0000007F). 
 
 
-### -field Direction0
+#### - Direction0
 
 [out] The direction in which <b>Bank0</b> should be scanned to locate a free area of memory. A value of 0 indicates a bottom-up search (that is, low address to high address), and a value of 1 indicates a top-bottom search (that is, high address to low address).
 
 This member is equivalent to the eighth bit of the 32-bit <b>Value</b> member (0x00000080). 
 
 
-### -field Bank1
+#### - Bank1
 
 [out] The identifier of the next highest priority preferred bank, or 0 if no preference is required. Valid values are from 1 to 127.
 
 This member is equivalent to bits 9 through 15 of the 32-bit <b>Value</b> member (0x00007F00). 
 
 
-### -field Direction1
+#### - Direction1
 
 [out] The direction in which <b>Bank1</b> should be scanned to locate a free hole of memory. A value of 0 indicates a bottom-up search (that is, low address to high address), and a value of 1 indicates a top-bottom search (that is, high address to low address).
 
 This member is equivalent to the sixteenth bit of the 32-bit <b>Value</b> member (0x00008000). 
 
 
-### -field Bank2
+#### - Bank2
 
 [out] The identifier of the next highest priority preferred bank, or 0 if no preference is required. Valid values are from 1 to 127.
 
 This member is equivalent to bits 17 through 23 of the 32-bit <b>Value</b> member (0x007F0000). 
 
 
-### -field Direction2
+#### - Direction2
 
 [out] The direction in which <b>Bank2</b> should be scanned to locate a free hole of memory. A value of 0 indicates a bottom-up search (that is, low address to high address), and a value of 1 indicates a top-bottom search (that is, high address to low address).
 
 This member is equivalent to the twenty-fourth bit of the 32-bit <b>Value</b> member (0x00800000). 
 
 
-### -field Bank3
+#### - Bank3
 
 [out] The identifier of the next highest priority preferred bank, or 0 if no preference is required. Valid values are from 1 to 127.
 
 This member is equivalent to bits 25 through 31 of the 32-bit <b>Value</b> member (0x7F000000). 
 
 
-### -field Direction3
+#### - Direction3
 
 [out] The direction in which <b>Bank3</b> should be scanned to locate a free hole of memory. A value of 0 indicates a bottom-up search (that is, low address to high address), and a value of 1 indicates a top-bottom search (that is, high address to low address).
 
 This member is equivalent to the thirty-secondbit of the 32-bit <b>Value</b> member (0x80000000). 
 
 
-### -field Value
+#### - Value
 
 [out] A member in the union that DXGK_SEGMENTBANKPREFERENCE contains that can hold a 32-bit value that identifies bank preferences.
 
@@ -151,15 +151,15 @@ The display miniport driver can indicate up to four bank preferences in the <b>H
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
  
 

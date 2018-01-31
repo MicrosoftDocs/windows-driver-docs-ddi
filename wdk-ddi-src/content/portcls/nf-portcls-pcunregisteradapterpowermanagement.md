@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a25ee83f-e267-4966-9be2-ddcbc44b5c15
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcUnregisterAdapterPowerManagement, audpc-routines_c879c8bb-7466-4683-9a39-2a802f1e6529.xml, PcUnregisterAdapterPowerManagement function [Audio Devices], PcUnregisterAdapterPowerManagement, audio.pcunregisteradapterpowermanagement
+ms.keywords: PcUnregisterAdapterPowerManagement, PcUnregisterAdapterPowerManagement function [Audio Devices], portcls/PcUnregisterAdapterPowerManagement, audpc-routines_c879c8bb-7466-4683-9a39-2a802f1e6529.xml, audio.pcunregisteradapterpowermanagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcUnregisterAdapterPowerManagement
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcUnregisterAdapterPowerManagement function
@@ -68,7 +68,7 @@ PORTCLASSAPI NTSTATUS NTAPI PcUnregisterAdapterPowerManagement(
 
 
 
-### -param pDeviceObject [in]
+#### - pDeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 

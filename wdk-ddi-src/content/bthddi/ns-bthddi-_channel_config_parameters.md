@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c2201e3c-c680-4a22-adf5-5131fb138066
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: CHANNEL_CONFIG_PARAMETERS, _CHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, bthddi/PCHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters, CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], bthddi/CHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS
+ms.keywords: CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], CHANNEL_CONFIG_PARAMETERS, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, *PCHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], bthddi/CHANNEL_CONFIG_PARAMETERS, bthddi/PCHANNEL_CONFIG_PARAMETERS, _CHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters, PCHANNEL_CONFIG_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANNEL_CONFIG_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS"
+req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 ---
 
 # _CHANNEL_CONFIG_PARAMETERS structure
@@ -73,7 +73,7 @@ typedef struct _CHANNEL_CONFIG_PARAMETERS {
 
 
 
-### -field Flags
+#### - Flags
 
 A flag or combination of flags that specifies which members of this structure contain data. Valid
      flag values are listed in the following table.
@@ -130,29 +130,29 @@ If set, the
 </table> 
 
 
-### -field Mtu
+#### - Mtu
 
 The message transfer units for the specified channel direction.
 
 
-### -field FlushTO
+#### - FlushTO
 
 The flush timeout for the specified channel direction.
 
 
-### -field NumExtraOptions
+#### - NumExtraOptions
 
 The number of items specified in the array that is specified in the 
      <b>ExtraOptions</b> member.
 
 
-### -field ExtraOptions
+#### - ExtraOptions
 
 The number of items specified in the array that is specified in the 
      <b>ExtraOptions</b> member.
 
 
-### -field Flow
+#### - Flow
 
 The QoS settings for the specified channel direction.
 

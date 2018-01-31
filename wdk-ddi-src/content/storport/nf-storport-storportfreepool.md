@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5886fa3-dc37-4764-9304-3609a4ced0ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml, storage.storportfreepool, StorPortFreePool, storport/StorPortFreePool, StorPortFreePool routine [Storage Devices]
+ms.keywords: storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml, StorPortFreePool routine [Storage Devices], storage.storportfreepool, storport/StorPortFreePool, StorPortFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortFreePool(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param BufferPointer [in]
+#### - BufferPointer [in]
 
 A pointer to the block of memory to free. This must be a pointer that was returned by a previous call to the <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a> routine.
 

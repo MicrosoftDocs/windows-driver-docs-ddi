@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwSetValueKey, kernel.zwsetvaluekey, ZwSetValueKey, NtSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, wdm/NtSetValueKey
+ms.keywords: wdm/NtSetValueKey, k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, wdm/ZwSetValueKey, kernel.zwsetvaluekey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], NtSetValueKey, ZwSetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS ZwSetValueKey(
 
 
 
-### -param KeyHandle [in]
+#### - KeyHandle [in]
 
 Handle to the registry key to write a value entry for. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>. 
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Pointer to the name of the value entry for which the data is to be written. This parameter can be a <b>NULL</b> pointer if the value entry has no name. If a name string is specified and the given name is not unique relative to its containing key, the data for an existing value entry is replaced.
 
 
-### -param TitleIndex [in, optional]
+#### - TitleIndex [in, optional]
 
 This parameter is reserved. Device and intermediate drivers should set this parameter to zero.
 
 
-### -param Type [in]
+#### - Type [in]
 
 One of the following system-defined types of data to write.
 <table>
@@ -220,12 +220,12 @@ A list of hardware resources that a physical device is using, detected and writt
 </table> 
 <div class="alert"><b>Note</b>   Device drivers should not attempt to call <b>ZwSetValueKey</b> to explicitly write value entries in a subkey of the <b>\Registry...\ResourceMap</b> key. Only the system can write value entries to the <b>\Registry...\HardwareDescription</b> tree.</div><div> </div>
 
-### -param Data [in, optional]
+#### - Data [in, optional]
 
 Pointer to a caller-allocated buffer that contains the data for the value entry.
 
 
-### -param DataSize [in]
+#### - DataSize [in]
 
 Specifies the size, in bytes, of the <i>Data</i> buffer. If <i>Type</i> is REG_<i>XXX</i>_SZ, this value must include space for any terminating zeros. 
 
@@ -251,23 +251,23 @@ For more information about working with registry keys, see <a href="https://msdn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
 
  
 

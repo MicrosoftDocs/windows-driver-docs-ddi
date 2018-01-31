@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d8a6c85-474c-4e86-99a9-ac113edbe7b3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILUICCTOOLKITPROFILE, rilapitypes/RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitprofile_2"
+ms.keywords: RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], *LPRILUICCTOOLKITPROFILE, netvista.riluicctoolkitprofile_2, rilapitypes/RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct _RILUICCTOOLKITPROFILE {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwProfileSize
+#### - dwProfileSize
 
 
 
-### -field bProfile
+#### - bProfile
 
 

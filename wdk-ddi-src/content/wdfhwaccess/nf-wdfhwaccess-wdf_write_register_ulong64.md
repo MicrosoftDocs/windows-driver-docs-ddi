@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 471B6165-24A0-45E1-AD7F-B7D3468DF573
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WRITE_REGISTER_ULONG64, WDF_WRITE_REGISTER_ULONG64 function, wdfhwaccess/WDF_WRITE_REGISTER_ULONG64, wdf.wdf_write_register_ulong64
+ms.keywords: WDF_WRITE_REGISTER_ULONG64, WDF_WRITE_REGISTER_ULONG64 function, wdf.wdf_write_register_ulong64, wdfhwaccess/WDF_WRITE_REGISTER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ void WDF_WRITE_REGISTER_ULONG64(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a ULONG64 value to write to the register.
 

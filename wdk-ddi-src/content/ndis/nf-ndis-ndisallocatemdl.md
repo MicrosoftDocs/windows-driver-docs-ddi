@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4863fe31-2c89-47af-99ed-02055e67621d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatemdl, NdisAllocateMdl, ndis/NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml
+ms.keywords: ndis/NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], netvista.ndisallocatemdl, NdisAllocateMdl, ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,13 +72,13 @@ PMDL NdisAllocateMdl(
 
 
 
-### -param NdisHandle [in]
+#### - NdisHandle [in]
 
 An NDIS handle that was obtained during caller initialization. For more information, see 
      <a href="https://msdn.microsoft.com/752b0d64-2ca3-4dc0-a6cd-642e96af1f8f">Obtaining Pool Handles</a>.
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 <div class="alert"><b>Important</b>  <p class="note">The <b>VirtualAddress</b> parameter for <b>NdisAllocateMdl</b> only accepts memory from the nonpaged pool. In other words, it requires memory from <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>*(NonPagedNx), <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>, or <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>. In particular, it should <b>not</b> be used with memory from the stack, paged pool, driver global data, or other memory regions.
@@ -88,7 +88,7 @@ A pointer to the base virtual address of the buffer that the MDL is to describe.
 
 </div><div> </div>
 
-### -param Length [in]
+#### - Length [in]
 
 The size, in bytes, of the memory buffer.
 
@@ -119,19 +119,19 @@ All MDLs that are allocated by calling
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
-
-<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
-
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>
-
 <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
+
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8ceaa9de-195f-4a89-bc3e-323256097248
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: INTERNAL_I8042_START_INFORMATION, hid.internal_i8042_start_information, PINTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION structure [Human Input Devices], PINTERNAL_I8042_START_INFORMATION structure pointer [Human Input Devices], ntdd8042/INTERNAL_I8042_START_INFORMATION, i8042ref_bf7bcffd-5c6b-47b4-be53-2b543990b2fa.xml, _INTERNAL_I8042_START_INFORMATION, ntdd8042/PINTERNAL_I8042_START_INFORMATION
+ms.keywords: "_INTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION structure pointer [Human Input Devices], INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION, i8042ref_bf7bcffd-5c6b-47b4-be53-2b543990b2fa.xml, ntdd8042/PINTERNAL_I8042_START_INFORMATION, hid.internal_i8042_start_information, ntdd8042/INTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION structure [Human Input Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _INTERNAL_I8042_START_INFORMATION {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size, in bytes, of an INTERNAL_I8042_START_INFORMATION structure.
 
 
-### -field InterruptObject
+#### - InterruptObject
 
 Pointer to an interrupt object. I8042prt supplies the interrupt object.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 825AA3FC-1D2E-4D71-8F21-C89A249B3F1A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, buses.ucm_pd_request_data_object_init_ulong, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function [Buses]
+ms.keywords: UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function [Buses], UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, buses.ucm_pd_request_data_object_init_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ void UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG(
 TBD
 
 
-### -param UlongInLittleEndian [in]
+#### - UlongInLittleEndian [in]
 
 The ULONG value to set in the <b>Ul</b> member of   <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_request_data_object.md">UCM_PD_REQUEST_DATA_OBJECT</a>.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetdeviceinterfacealias, IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceInterfaceAlias, k104_e33a51e9-4576-4558-9967-9ea27467c326.xml
+ms.keywords: k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacealias, wdm/IoGetDeviceInterfaceAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS IoGetDeviceInterfaceAlias(
 
 
 
-### -param SymbolicLinkName [in]
+#### - SymbolicLinkName [in]
 
 Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a> or in a PnP notification structure.
 
 
-### -param AliasInterfaceClassGuid [in]
+#### - AliasInterfaceClassGuid [in]
 
 Pointer to a GUID specifying the interface class of the alias to retrieve.
 
 
-### -param AliasSymbolicLinkName [out]
+#### - AliasSymbolicLinkName [out]
 
 Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a> when it is no longer needed.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 38e1bb07-be98-494b-a9c9-a83edef367e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMQueryDeviceSupport, OEMQueryDeviceSupport function [Print Devices], printoem/OEMQueryDeviceSupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, print.oemquerydevicesupport
+ms.keywords: OEMQueryDeviceSupport function [Print Devices], print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, print.oemquerydevicesupport, OEMQueryDeviceSupport, printoem/OEMQueryDeviceSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,34 +75,34 @@ BOOL APIENTRY OEMQueryDeviceSupport(
 
 
 
-### -param pso
+#### - pso
 
 
 
-### -param pxlo
+#### - pxlo
 
 
 
-### -param pxo
+#### - pxo
 
 
 
-### -param iType
+#### - iType
 
 
 
-### -param cjIn
+#### - cjIn
 
 
 
-### -param pvIn [in]
+#### - pvIn [in]
 
 
 
-### -param cjOut
+#### - cjOut
 
 
 
-### -param pvOut [out]
+#### - pvOut [out]
 
 

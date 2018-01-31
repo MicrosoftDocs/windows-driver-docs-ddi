@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: B52012DB-922A-43A2-A175-7F7887C290F1
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PLPI_STATE_DESCRIPTOR structure pointer [ACPI Devices], acpitabl/LPI_STATE_DESCRIPTOR, acpi.lpi_state_descriptor, acpitabl/PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR structure [ACPI Devices], LPI_STATE_DESCRIPTOR, PLPI_STATE_DESCRIPTOR, _LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR
+ms.keywords: LPI_STATE_DESCRIPTOR structure [ACPI Devices], PLPI_STATE_DESCRIPTOR structure pointer [ACPI Devices], *PLPI_STATE_DESCRIPTOR, acpitabl/PLPI_STATE_DESCRIPTOR, acpi.lpi_state_descriptor, _LPI_STATE_DESCRIPTOR, PLPI_STATE_DESCRIPTOR, acpitabl/LPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LPI_STATE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR
+req.typenames: "*PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR"
 ---
 
 # _LPI_STATE_DESCRIPTOR structure
@@ -76,52 +76,52 @@ typedef struct _LPI_STATE_DESCRIPTOR {
 
 
 
-### -field Type
+#### - Type
 
 The type.
 
 
-### -field Length
+#### - Length
 
 The length.
 
 
-### -field UniqueId
+#### - UniqueId
 
 A unique ID.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 
 
-### -field Flags
+#### - Flags
 
 State flags.
 
 
-### -field EntryTrigger
+#### - EntryTrigger
 
 An entry trigger.
 
 
-### -field Residency
+#### - Residency
 
 A residency value.
 
 
-### -field Latency
+#### - Latency
 
 A latency value.
 
 
-### -field ResidencyCounter
+#### - ResidencyCounter
 
 Residency counter.
 
 
-### -field ResidencyCounterFrequency
+#### - ResidencyCounterFrequency
 
 Residency counter frequency. 
 

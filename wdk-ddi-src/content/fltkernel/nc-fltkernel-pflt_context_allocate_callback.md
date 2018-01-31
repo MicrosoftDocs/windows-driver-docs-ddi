@@ -72,7 +72,7 @@ PVOID ContextAllocateCallback(
 
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 The type of pool to allocate. This parameter is required and must be one of the following: 
 
@@ -83,12 +83,12 @@ The type of pool to allocate. This parameter is required and must be one of the 
 Must be <b>NonPagedPool</b> if the <i>ContextType</i> parameter is FLT_VOLUME_CONTEXT. 
 
 
-### -param Size [in]
+#### - Size [in]
 
 The size, in bytes, of the entire context, including both the portion defined by the filter manager and the portion defined by the minifilter driver. 
 
 
-### -param ContextType [in]
+#### - ContextType [in]
 
 The type of context. This parameter is required and must be one of the following values: 
 
@@ -125,15 +125,15 @@ For more information about context registration, see the reference entry for <a 
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_context_free_callback.md">PFLT_CONTEXT_FREE_CALLBACK</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_context_cleanup_callback.md">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_context_free_callback.md">PFLT_CONTEXT_FREE_CALLBACK</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_context_cleanup_callback.md">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
  
 

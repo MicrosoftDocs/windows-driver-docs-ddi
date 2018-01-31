@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 246573DB-5FEB-4068-8DB8-950F5EDFD1A9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient6_seteventcontextcallbacks, IDebugClient6, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, dbgeng/IDebugClient6::SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks, IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, SetEventContextCallbacks
+ms.keywords: SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, SetEventContextCallbacks method [Windows Debugging], debugger.idebugclient6_seteventcontextcallbacks, SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks, dbgeng/IDebugClient6::SetEventContextCallbacks, IDebugClient6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT SetEventContextCallbacks(
 
 
 
-### -param Callbacks [in, optional]
+#### - Callbacks [in, optional]
 
 The interface pointer to the event callbacks object.
 

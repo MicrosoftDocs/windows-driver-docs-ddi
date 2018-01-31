@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9B4EBCA4-8370-4F00-9853-6EE8408367BE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptablePropertyBag::SetString, SetString, SetString method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setstring, SetString method [Print Devices], IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], SetString method, printerextension/IPrinterScriptablePropertyBag::SetString
+ms.keywords: IPrinterScriptablePropertyBag, print.iprinterscriptablepropertybag_setstring, SetString method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag::SetString, SetString, SetString method [Print Devices], printerextension/IPrinterScriptablePropertyBag::SetString, IPrinterScriptablePropertyBag interface [Print Devices], SetString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetString(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The property to set.
 
 
-### -param bstrValue [in]
+#### - bstrValue [in]
 
 The property value to set.
 

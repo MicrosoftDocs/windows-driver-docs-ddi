@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], ContentKeySize, pContentKey, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, display.d3d11_1ddi_video_decoder_config, D3D11_1DDI_VIDEO_DECODER_CONFIG
+ms.keywords: D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], display.d3d11_1ddi_video_decoder_config, pContentKey, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, D3D11_1DDI_VIDEO_DECODER_CONFIG, ContentKeySize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,7 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_CONFIG {
 
 
 
-### -field guidConfigBitstreamEncryption
+#### - guidConfigBitstreamEncryption
 
 
             Defines the encryption protocol type for bit-stream data buffers. If no encryption is applied, the value is <b>DXVA_NoEncrypt</b> (a GUID name defined in Dxva.h). If <b>ConfigBitstreamRaw</b> is 0, the value must be <b>DXVA_NoEncrypt</b>.
@@ -118,37 +118,37 @@ Set to the size of the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_
 </table> 
 
 
-### -field guidConfigMBcontrolEncryption
+#### - guidConfigMBcontrolEncryption
 
 Defines the encryption protocol type for macro block control data buffers. If no encryption is applied, the value is <b>DXVA_NoEncrypt</b> (a GUID name defined in Dxva.h). If <b>ConfigBitstreamRaw</b> is 1, the value must be <b>DXVA_NoEncrypt</b>.
           
 
 
-### -field guidConfigResidDiffEncryption
+#### - guidConfigResidDiffEncryption
 
 Defines the encryption protocol type for residual difference decoding data buffers (buffers containing spatial-domain data or sets of transform-domain coefficients for accelerator-based inverse discrete cosine transform [IDCT]). If no encryption is applied, the value is <b>DXVA_NoEncrypt</b> (a GUID name defined in Dxva.h). If <b>ConfigBitstreamRaw</b> is 1, the value must be <b>DXVA_NoEncrypt</b>.
           
 
 
-### -field ConfigBitstreamRaw
+#### - ConfigBitstreamRaw
 
 Indicates whether the host-decoder sends raw bit-stream data. If the value is 1, the data for the pictures will be sent in bit-stream buffers as raw bit-stream content. If the value is 0, picture data will be sent using macroblock control command buffers. If either <b>ConfigResidDiffHost</b> or <b>ConfigResidDiffAccelerator</b> is 1, the value must be 0.
           
 
 
-### -field ConfigMBcontrolRasterOrder
+#### - ConfigMBcontrolRasterOrder
 
 Specifies whether macroblock control commands are in raster scan order or in arbitrary order. If the value is 1, the macroblock control commands within each macroblock control command buffer are in raster-scan order. If the value is 0, the order is arbitrary. For some types of bit streams, forcing raster order either greatly increases the number of required macroblock control buffers that must be processed, or requires host reordering of the control information. Therefore, supporting arbitrary order can be more efficient.
           
 
 
-### -field ConfigResidDiffHost
+#### - ConfigResidDiffHost
 
 Contains the host residual difference configuration. If the value is 1, some residual difference decoding data may be sent as blocks in the spatial domain from the host. If the value is 0, spatial domain data will not be sent.
           
 
 
-### -field ConfigSpatialResid8
+#### - ConfigSpatialResid8
 
 Indicates the word size used to represent residual difference spatial-domain blocks for predicted (non-intra) pictures when using host-based residual difference decoding.
           
@@ -181,7 +181,7 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
           
 
 
-### -field ConfigResid8Subtraction
+#### - ConfigResid8Subtraction
 
 
             If the value is 1, 8-bit difference overflow blocks are subtracted rather than added. The value must be 0 unless <b>ConfigSpatialResid8</b> is 1.
@@ -191,7 +191,7 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
             The ability to subtract differences rather than add them enables 8-bit difference decoding to be fully compliant with the full Â±255 range of values required in video decoder specifications, because +255 cannot be represented as the addition of two signed 8-bit numbers, but any number in the range Â±255 can be represented as the difference between two signed 8-bit numbers (+255 = +127 minus –128).
 
 
-### -field ConfigSpatialHost8or9Clipping
+#### - ConfigSpatialHost8or9Clipping
 
 
             If the value is 1, spatial-domain blocks for intra macroblocks must be clipped to an 8-bit range on the host and spatial-domain blocks for non-intra macroblocks must be clipped to a 9-bit range on the host. If the value is 0, no such clipping is necessary by the host.
@@ -202,14 +202,14 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
           
 
 
-### -field ConfigSpatialResidInterleaved
+#### - ConfigSpatialResidInterleaved
 
 
             If the value is 1, any spatial-domain residual difference data must be sent in a chrominance-interleaved form matching the YUV format chrominance interleaving pattern. The value must be 0 unless <b>ConfigResidDiffHost</b> is 1 and the YUV format is NV12 or NV21.
           
 
 
-### -field ConfigIntraResidUnsigned
+#### - ConfigIntraResidUnsigned
 
 
             Indicates the method of representation of spatial-domain blocks of residual difference data for intra blocks when using host-based difference decoding.
@@ -246,7 +246,7 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
           
 
 
-### -field ConfigResidDiffAccelerator
+#### - ConfigResidDiffAccelerator
 
 
             If the value is 1, transform-domain blocks of coefficient data may be sent from the host for accelerator-based IDCT. If the value is 0, accelerator-based IDCT will not be used. If both <b>ConfigResidDiffHost</b> and <b>ConfigResidDiffAccelerator</b> are 1, this indicates that some residual difference decoding will be done on the host and some on the accelerator, as indicated by macroblock-level control commands.
@@ -257,7 +257,7 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
           
 
 
-### -field ConfigHostInverseScan
+#### - ConfigHostInverseScan
 
 
             If the value is 1, the inverse scan for transform-domain block processing will be performed on the host, and absolute indices will be sent instead for any transform coefficients. If the value is 0, the inverse scan will be performed on the accelerator.
@@ -268,7 +268,7 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
           
 
 
-### -field ConfigSpecificIDCT
+#### - ConfigSpecificIDCT
 
 
             If the value is 1, the IDCT specified in Annex W of ITU-T Recommendation H.263 is used. If the value is 0, any compliant IDCT can be used for off-host IDCT.
@@ -283,21 +283,21 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
           
 
 
-### -field Config4GroupedCoefs
+#### - Config4GroupedCoefs
 
 
             If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
           
 
 
-### -field ConfigMinRenderTargetBuffCount
+#### - ConfigMinRenderTargetBuffCount
 
 
             Specifies how many frames the decoder device processes at any one time.
           
 
 
-### -field ConfigDecoderSpecific
+#### - ConfigDecoderSpecific
 
 
             Contains decoder-specific configuration information.

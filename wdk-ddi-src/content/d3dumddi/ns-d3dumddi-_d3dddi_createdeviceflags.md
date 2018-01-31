@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9415dc9-352a-4e93-a0c1-2519c8c89762
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags, D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], D3DDDI_CREATEDEVICEFLAGS, _D3DDDI_CREATEDEVICEFLAGS
+ms.keywords: "_D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags, D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], d3dumddi/D3DDDI_CREATEDEVICEFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,14 +74,14 @@ typedef struct _D3DDDI_CREATEDEVICEFLAGS {
 
 
 
-### -field AllowMultithreading
+#### - AllowMultithreading
 
 A UINT value that specifies whether the user-mode display driver can run multiple threads simultaneously when it processes calls to its functions from the Microsoft Direct3D runtime. For situations where the driver must disable multi-threading even when <b>AllowMultithreading</b> is set, see <a href="https://msdn.microsoft.com/906d6b31-a447-4a94-b1a5-cd3028722db7">Supporting Multiple Processors</a>. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field AllowFlipBatching
+#### - AllowFlipBatching
 
 A UINT value that specifies whether the user-mode display driver can queue flip operation requests so the driver can process them later on another thread. This flag applies only to when a driver implements its own threading. In this situation, the driver is not required to immediately call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a> function when its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a> function is called. 
 
@@ -90,12 +90,12 @@ The Direct3D runtime enforces a queued present limit (currently set to 1) to ens
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFD) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in D3DDDI_CREATEDEVICEFLAGS that can hold one 32-bit value that identifies how to create the device.
 

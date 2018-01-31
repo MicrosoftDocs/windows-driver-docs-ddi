@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc4026e5-6613-4787-9218-22d1d3e447c3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO, netvista.rilphonebookadditionalnumberinfo, RILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilphonebookadditionalnumberinfo, *LPRILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO structure [Network Drivers Starting with Windows Vista], RILPHONEBOOKADDITIONALNUMBERINFO, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKADDITIONALNUMBERINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO"
+req.typenames: RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO
 ---
 
 # RILPHONEBOOKADDITIONALNUMBERINFO structure
@@ -69,14 +69,14 @@ typedef struct _RILPHONEBOOKADDITIONALNUMBERINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwRilPBANSSize
+#### - dwRilPBANSSize
 
 
 
-### -field RilPBANS
+#### - RilPBANS
 
 

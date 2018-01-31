@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ff9cea5d-a93f-4d3c-b034-d2bf85484df3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlLookupFirstMatchingElementGenericTableAvl, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupfirstmatchingelementgenerictableavl, ntddk/RtlLookupFirstMatchingElementGenericTableAvl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml
+ms.keywords: RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ntddk/RtlLookupFirstMatchingElementGenericTableAvl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml, ifsk.rtllookupfirstmatchingelementgenerictableavl, RtlLookupFirstMatchingElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PVOID RtlLookupFirstMatchingElementGenericTableAvl(
 
 
 
-### -param Table [in]
+#### - Table [in]
 
 A pointer to the generic Adelson-Velsky/Landis (AVL) table (<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>).
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A buffer that contains the search data.
 
 
-### -param RestartKey [out]
+#### - RestartKey [out]
 
 On output, contains a search context to use with an enumeration routine, such as <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>.
 

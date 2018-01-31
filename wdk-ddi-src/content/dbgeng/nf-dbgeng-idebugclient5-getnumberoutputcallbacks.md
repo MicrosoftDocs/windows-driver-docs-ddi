@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20bc6141-8c4a-4a98-acb3-506840893db6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumberoutputcallbacks, GetNumberOutputCallbacks method [Windows Debugging], dbgeng/IDebugClient5::GetNumberOutputCallbacks, GetNumberOutputCallbacks, IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml, IDebugClient5::GetNumberOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetNumberOutputCallbacks method, GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient5
+ms.keywords: dbgeng/IDebugClient5::GetNumberOutputCallbacks, GetNumberOutputCallbacks method [Windows Debugging], GetNumberOutputCallbacks, GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient5, debugger.getnumberoutputcallbacks, IDebugClient5::GetNumberOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetNumberOutputCallbacks method, IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetNumberOutputCallbacks(
 
 
 
-### -param Count [out]
+#### - Count [out]
 
 Receives the number of output callbacks that have been registered.
 
@@ -107,15 +107,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 

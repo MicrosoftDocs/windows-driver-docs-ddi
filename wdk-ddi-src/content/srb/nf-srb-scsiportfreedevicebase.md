@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 391f3b20-175f-4b27-b30f-34ccc43ca650
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase routine [Storage Devices], srb/ScsiPortFreeDeviceBase, scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, storage.scsiportfreedevicebase
+ms.keywords: scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase routine [Storage Devices], srb/ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortFreeDeviceBase
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ VOID ScsiPortFreeDeviceBase(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param MappedAddress [in]
+#### - MappedAddress [in]
 
 Pointer to the base address of the range to be freed. This address must be the same as that returned by <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>.
 
@@ -98,9 +98,9 @@ If a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
-
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
  
 

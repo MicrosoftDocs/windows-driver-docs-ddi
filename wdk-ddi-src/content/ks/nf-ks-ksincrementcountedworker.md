@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 282ffc00-ca62-4729-afe3-c13ea8069a18
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksincrementcountedworker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, ks/KsIncrementCountedWorker, KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices]
+ms.keywords: stream.ksincrementcountedworker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, KsIncrementCountedWorker function [Streaming Media Devices], KsIncrementCountedWorker, ks/KsIncrementCountedWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG KsIncrementCountedWorker(
 
 
 
-### -param Worker [in]
+#### - Worker [in]
 
 Contains the previously allocated worker.
 
@@ -89,9 +89,9 @@ This should be called after an addition has been made to the worker's list of ta
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a>
-
 <a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
+
+<a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a>
 
  
 

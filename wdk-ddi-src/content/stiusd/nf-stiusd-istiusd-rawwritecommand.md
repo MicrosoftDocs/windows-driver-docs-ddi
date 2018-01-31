@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c1b03ff5-1924-4221-b177-15214a8bf4f1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawWriteCommand method [Imaging Devices], IStiUSD interface, IStiUSD, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, IStiUSD::RawWriteCommand, RawWriteCommand, RawWriteCommand method [Imaging Devices], image.istiusd_rawwritecommand, IStiUSD interface [Imaging Devices], RawWriteCommand method, stiusd/IStiUSD::RawWriteCommand
+ms.keywords: IStiUSD::RawWriteCommand, RawWriteCommand, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, stiusd/IStiUSD::RawWriteCommand, image.istiusd_rawwritecommand, RawWriteCommand method [Imaging Devices], IStiUSD interface [Imaging Devices], RawWriteCommand method, RawWriteCommand method [Imaging Devices], IStiUSD interface, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.RawWriteCommand
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ HRESULT RawWriteCommand(
 
 
 
-### -param lpBuffer
+#### - lpBuffer
 
 Caller-supplied pointer to a buffer containing data to be sent to the device.
 
 
-### -param nNumberOfBytes
+#### - nNumberOfBytes
 
 Caller-supplied number of bytes to be written. This is the number of bytes in the buffer pointed to by <i>lpBuffer</i>.
 
 
-### -param lpOverlapped
+#### - lpOverlapped
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 

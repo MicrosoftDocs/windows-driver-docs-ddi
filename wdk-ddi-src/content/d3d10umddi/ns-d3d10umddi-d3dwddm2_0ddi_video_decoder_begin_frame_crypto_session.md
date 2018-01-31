@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EC08022F-319E-4E49-A003-B98EEADAA0CC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices], D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices], display.d3d11_video_decoder_begin_frame_crypto_session, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
+ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices], display.d3d11_video_decoder_begin_frame_crypto_session, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices], D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION {
 
 
 
-### -field hCryptoSession
+#### - hCryptoSession
 
 A handle to a cryptographic session object created using <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>. 
 
 
-### -field pBlob
+#### - pBlob
 
 A pointer to an IHV-defined blob allocated by an upstream DRM component.  The blob identifies the sealed decryption key to be used for the current frame.
 
 
-### -field BlobSize
+#### - BlobSize
 
 Size of the IHV-defined blob referenced in the <b>pBlob</b> member.
 
 
-### -field pKeyInfoId
+#### - pKeyInfoId
 
 A pointer to a <b>GUID</b> identifying the hardware key.
 
 
-### -field pPrivateData
+#### - pPrivateData
 
 The definition of this buffer is dependent on the implementation of the secure environment. It may contain data specific to the current frame.
 
 
-### -field PrivateDataSize
+#### - PrivateDataSize
 
 Contains the size of the memory buffer referenced by the <b>pPrivateData</b> member.
 

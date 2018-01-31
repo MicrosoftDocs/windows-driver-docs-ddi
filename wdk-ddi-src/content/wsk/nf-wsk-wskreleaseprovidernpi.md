@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/WskReleaseProviderNPI, WskReleaseProviderNPI, netvista.wskreleaseprovidernpi, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
+ms.keywords: wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], WskReleaseProviderNPI, netvista.wskreleaseprovidernpi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskReleaseProviderNPI
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ VOID WskReleaseProviderNPI(
 
 
 
-### -param WskRegistration [in]
+#### - WskRegistration [in]
 
 A pointer to the memory location initialized by 
      <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK

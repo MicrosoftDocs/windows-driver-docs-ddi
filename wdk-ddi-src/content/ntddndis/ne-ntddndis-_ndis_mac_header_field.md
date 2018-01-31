@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31db285c-a7e7-4ba5-ba07-a60cfcfa9af9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMacHeaderFieldVlanId, NdisMacHeaderFieldSourceAddress, virtual_machine_queue_ref_e521f802-ada1-444a-bf43-63405f40e45a.xml, _NDIS_MAC_HEADER_FIELD, PNDIS_MAC_HEADER_FIELD, ntddndis/NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldProtocol, NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldPriority, ntddndis/NdisMacHeaderFieldUndefined, *PNDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldSourceAddress, netvista.ndis_mac_header_field, ntddndis/NdisMacHeaderFieldDestinationAddress, NdisMacHeaderFieldProtocol, ntddndis/NdisMacHeaderFieldPacketType, ntddndis/PNDIS_MAC_HEADER_FIELD, PNDIS_MAC_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], NdisMacHeaderFieldPriority, NdisMacHeaderFieldMaximum, ntddndis/NdisMacHeaderFieldVlanId, NdisMacHeaderFieldDestinationAddress, ntddndis/NdisMacHeaderFieldMaximum, NdisMacHeaderFieldUndefined, NdisMacHeaderFieldPacketType, NDIS_MAC_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NdisMacHeaderFieldVlanId, NDIS_MAC_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisMacHeaderFieldSourceAddress, virtual_machine_queue_ref_e521f802-ada1-444a-bf43-63405f40e45a.xml, NdisMacHeaderFieldUndefined, ntddndis/PNDIS_MAC_HEADER_FIELD, netvista.ndis_mac_header_field, NdisMacHeaderFieldPriority, ntddndis/NdisMacHeaderFieldDestinationAddress, ntddndis/NdisMacHeaderFieldPriority, ntddndis/NdisMacHeaderFieldProtocol, ntddndis/NdisMacHeaderFieldSourceAddress, NdisMacHeaderFieldPacketType, ntddndis/NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldMaximum, _NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldUndefined, NdisMacHeaderFieldVlanId, *PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldDestinationAddress, NdisMacHeaderFieldProtocol, PNDIS_MAC_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisMacHeaderFieldPacketType, PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldMaximum, NDIS_MAC_HEADER_FIELD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MAC_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: NDIS_MAC_HEADER_FIELD, *PNDIS_MAC_HEADER_FIELD
+req.typenames: "*PNDIS_MAC_HEADER_FIELD, NDIS_MAC_HEADER_FIELD"
 ---
 
 # _NDIS_MAC_HEADER_FIELD enumeration
@@ -74,46 +74,46 @@ typedef enum _NDIS_MAC_HEADER_FIELD {
 
 
 
-### -field NdisMacHeaderFieldUndefined
+#### - NdisMacHeaderFieldUndefined
 
 An undefined MAC header field.
 
 
-### -field NdisMacHeaderFieldDestinationAddress
+#### - NdisMacHeaderFieldDestinationAddress
 
 A destination address field.
 
 
-### -field NdisMacHeaderFieldSourceAddress
+#### - NdisMacHeaderFieldSourceAddress
 
 A source address field.
 
 
-### -field NdisMacHeaderFieldProtocol
+#### - NdisMacHeaderFieldProtocol
 
 A protocol field in the DEC/Intel/Xerox (DIX) Ethernet
 
 MAC header.
 
 
-### -field NdisMacHeaderFieldVlanId
+#### - NdisMacHeaderFieldVlanId
 
 A virtual local area network (VLAN) identifier field.
 
 
-### -field NdisMacHeaderFieldPriority
+#### - NdisMacHeaderFieldPriority
 
 A VLAN priority field.
 
 
-### -field NdisMacHeaderFieldPacketType
+#### - NdisMacHeaderFieldPacketType
 
 A packet type field in the IEEE 802.2 subnetwork access protocol (SNAP) header of an 802.3
 
 MAC header.
 
 
-### -field NdisMacHeaderFieldMaximum
+#### - NdisMacHeaderFieldMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

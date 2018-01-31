@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a718c4d-21c9-4dfd-844a-0053a379196d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgmwisummary, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWISUMMARY, ntddrilapitypes/RILMSGMWISUMMARY, RILMSGMWISUMMARY
+ms.keywords: ntddrilapitypes/RILMSGMWISUMMARY, RILMSGMWISUMMARY, netvista.rilmsgmwisummary, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWISUMMARY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGMWISUMMARY
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGMWISUMMARY, RILMSGMWISUMMARY"
+req.typenames: RILMSGMWISUMMARY, *LPRILMSGMWISUMMARY
 ---
 
 # RILMSGMWISUMMARY structure
@@ -71,22 +71,22 @@ typedef struct _RILMSGMWISUMMARY {
 
 
 
-### -field dwMwiType
+#### - dwMwiType
 
 
 
-### -field dwNumberOfNewMessages
+#### - dwNumberOfNewMessages
 
 
 
-### -field dwNumberOfOldMessages
+#### - dwNumberOfOldMessages
 
 
 
-### -field dwNumberOfNewUrgentMessages
+#### - dwNumberOfNewUrgentMessages
 
 
 
-### -field dwNumberOfOldUrgentMessages
+#### - dwNumberOfOldUrgentMessages
 
 

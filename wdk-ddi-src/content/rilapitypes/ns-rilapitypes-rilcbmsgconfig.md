@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7cdab678-5c83-4590-b911-5961db89e7ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig_2, rilapitypes/RILCBMSGCONFIG, RILCBMSGCONFIG"
+ms.keywords: RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], *LPRILCBMSGCONFIG, RILCBMSGCONFIG, netvista.rilcbmsgconfig_2, rilapitypes/RILCBMSGCONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,26 +73,26 @@ typedef struct _RILCBMSGCONFIG {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwGWLConfigInfoSize
+#### - dwGWLConfigInfoSize
 
 
 
-### -field GWLConfigInfo
+#### - GWLConfigInfo
 
 
 
-### -field dwCDMAConfigInfoSize
+#### - dwCDMAConfigInfoSize
 
 
 
-### -field CDMAConfigInfo
+#### - CDMAConfigInfo
 
 

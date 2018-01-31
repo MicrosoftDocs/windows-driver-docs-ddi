@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress, buses.udecxusbendpointinitsetendpointaddress
+ms.keywords: UdecxUsbEndpointInitSetEndpointAddress function [Buses], UdecxUsbEndpointInitSetEndpointAddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress, buses.udecxusbendpointinitsetendpointaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE void UdecxUsbEndpointInitSetEndpointAddress(
 
 
 
-### -param Init [in, out]
+#### - Init [in, out]
 
 A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 
-### -param EndpointAddress [in]
+#### - EndpointAddress [in]
 
 Specifies the USB-defined endpoint address. The four low-order bits specify the endpoint number. The high-order bit specifies the direction of data flow on this endpoint: 1 for in, 0 for out.
 
@@ -89,11 +89,11 @@ This function does not return a value.
 
 ## -see-also
 
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
  
 

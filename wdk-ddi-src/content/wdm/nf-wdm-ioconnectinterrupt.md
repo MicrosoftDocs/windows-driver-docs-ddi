@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a0f9a339-f548-47a2-92ab-ccd341592384
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoConnectInterrupt, k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, wdm/IoConnectInterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], kernel.ioconnectinterrupt
+ms.keywords: k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], wdm/IoConnectInterrupt, IoConnectInterrupt, kernel.ioconnectinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,57 +78,57 @@ NTSTATUS IoConnectInterrupt(
 
 
 
-### -param InterruptObject [out]
+#### - InterruptObject [out]
 
 Pointer to the address of driver-supplied storage for a pointer to a set of interrupt objects. This pointer must be passed in subsequent calls to <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>.
 
 
-### -param ServiceRoutine [in]
+#### - ServiceRoutine [in]
 
 Pointer to the entry point for the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine.
 
 
-### -param ServiceContext [in, optional]
+#### - ServiceContext [in, optional]
 
 Pointer to the driver-determined context that will be supplied to the <i>InterruptService</i> routine when it is called. The <i>ServiceContext</i> area must be in resident memory: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the device driver. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff559930">Providing ISR Context Information</a> for details.
 
 
-### -param SpinLock [in, optional]
+#### - SpinLock [in, optional]
 
 Pointer to an initialized spin lock, for which the driver supplies the storage, that will be used to synchronize access to driver-determined data shared by other driver routines. This parameter is required if the ISR handles more than one vector or if the driver has more than one ISR. Otherwise, the driver need not allocate storage for an interrupt spin lock and the input pointer is <b>NULL</b>.
 
 
-### -param Vector [in]
+#### - Vector [in]
 
 Specifies the interrupt vector passed in the interrupt resource at the <b>u.Interrupt.Vector</b> member of <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 
-### -param Irql [in]
+#### - Irql [in]
 
 Specifies the DIRQL passed in the interrupt resource at the <b>u.Interrupt.Level</b> member of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>.
 
 
-### -param SynchronizeIrql [in]
+#### - SynchronizeIrql [in]
 
 Specifies the DIRQL at which the ISR will run. If the ISR handles more than one interrupt vector or the driver has more than one ISR, this value must be the highest of the <i>Irql</i> values passed at <b>u.Interrupt.Level</b> in each interrupt resource. Otherwise, the <i>Irql</i> and <i>SynchronizeIrql</i> values are identical.
 
 
-### -param InterruptMode [in]
+#### - InterruptMode [in]
 
 Specifies whether the device interrupt is <b>LevelSensitive</b> or <b>Latched</b>.
 
 
-### -param ShareVector [in]
+#### - ShareVector [in]
 
 Specifies whether the interrupt vector is sharable. 
 
 
-### -param ProcessorEnableMask [in]
+#### - ProcessorEnableMask [in]
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value representing the set of processors on which device interrupts can occur in this platform. This value is passed in the interrupt resource at <b>u.Interrupt.Affinity</b>. 
 
 
-### -param FloatingSave [in]
+#### - FloatingSave [in]
 
 Specifies whether to save the floating-point stack when the driver's device interrupts. For x86-based and Itanium-based platforms, this value must be set to <b>FALSE</b>. For more information about saving floating-point and MMX state, see <a href="https://msdn.microsoft.com/73414084-4054-466a-b64c-5c81b224be92">Using Floating Point or MMX in a WDM Driver</a>. 
 
@@ -169,15 +169,15 @@ Kernel routines that use the KAFFINITY type include <b>IoConnectInterrupt</b>, <
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
-
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
  
 

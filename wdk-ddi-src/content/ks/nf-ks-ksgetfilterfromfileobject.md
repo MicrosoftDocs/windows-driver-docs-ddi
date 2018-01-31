@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: eb4ca943-43cb-4eac-8a73-484a7b8acafe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGetFilterFromFileObject, KsGetFilterFromFileObject, stream.ksgetfilterfromfileobject, avfunc_4c336bce-3064-471e-bd79-daa1888e14b8.xml, KsGetFilterFromFileObject function [Streaming Media Devices]
+ms.keywords: avfunc_4c336bce-3064-471e-bd79-daa1888e14b8.xml, stream.ksgetfilterfromfileobject, ks/KsGetFilterFromFileObject, KsGetFilterFromFileObject, KsGetFilterFromFileObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PKSFILTER __inline KsGetFilterFromFileObject(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> for which to return the associated AVStream filter object.
 
@@ -90,11 +90,11 @@ It is the responsibility of the minidriver to verify that <i>FileObject</i> is a
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
+
 <a href="..\ks\nf-ks-ksgetdevicefordeviceobject.md">KsGetDeviceForDeviceObject</a>
 
 <a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
-
-<a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
 
  
 

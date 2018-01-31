@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], netvista.ndisifallocatenetluidindex, ndis/NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml
+ms.keywords: ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], netvista.ndisifallocatenetluidindex, NdisIfAllocateNetLuidIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ NDIS_STATUS NdisIfAllocateNetLuidIndex(
 TBD
 
 
-### -param pNetLuidIndex [out]
+#### - pNetLuidIndex [out]
 
 A pointer to a caller-supplied 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> index variable. If allocation is
@@ -163,13 +163,13 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
-
 <a href="..\ndis\nf-ndis-ndisiffreenetluidindex.md">NdisIfFreeNetLuidIndex</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
+
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
  
 

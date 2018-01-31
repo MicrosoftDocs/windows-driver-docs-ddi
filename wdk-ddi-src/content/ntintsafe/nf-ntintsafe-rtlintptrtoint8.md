@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3AF29469-C376-4EF7-B8A0-88ADCA8FEE4F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIntPtrToInt8, RtlIntPtrToInt8 function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrToInt8, kernel.rtlintptrtoint8
+ms.keywords: RtlIntPtrToInt8 function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrToInt8, kernel.rtlintptrtoint8, RtlIntPtrToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlIntPtrToInt8(
 
 
 
-### -param iOperand [in]
+#### - iOperand [in]
 
 The value to be converted.
 
 
-### -param pi8Result [out]
+#### - pi8Result [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

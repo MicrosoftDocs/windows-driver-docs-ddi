@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c49f40b8-feb4-4dfd-9a2b-c800f3b5343a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanCellularClassGsm, PWWAN_CELLULAR_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_CELLULAR_CLASS, WwanCellularClassCdma, _WWAN_CELLULAR_CLASS, netvista.wwan_cellular_class, WwanCellularClassMax, wwan/WwanCellularClassCdma, wwan/WwanCellularClassMax, wwan/WWAN_CELLULAR_CLASS, WwanCellularClassUnknown, wwan/WwanCellularClassGsm, PWWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/WwanCellularClassUnknown, WwanRef_cbffbef4-6a05-4042-abf0-7495fadf869d.xml, wwan/PWWAN_CELLULAR_CLASS
+ms.keywords: WwanCellularClassMax, *PWWAN_CELLULAR_CLASS, WwanCellularClassUnknown, wwan/WwanCellularClassGsm, wwan/PWWAN_CELLULAR_CLASS, wwan/WWAN_CELLULAR_CLASS, netvista.wwan_cellular_class, WWAN_CELLULAR_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/WwanCellularClassUnknown, wwan/WwanCellularClassCdma, PWWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS, WwanRef_cbffbef4-6a05-4042-abf0-7495fadf869d.xml, WwanCellularClassCdma, PWWAN_CELLULAR_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_CELLULAR_CLASS, wwan/WwanCellularClassMax, WwanCellularClassGsm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,22 +72,22 @@ typedef enum _WWAN_CELLULAR_CLASS {
 
 
 
-### -field WwanCellularClassUnknown
+#### - WwanCellularClassUnknown
 
 The device uses an unknown cellular technology.
 
 
-### -field WwanCellularClassGsm
+#### - WwanCellularClassGsm
 
 The device uses GSM-based technology.
 
 
-### -field WwanCellularClassCdma
+#### - WwanCellularClassCdma
 
 The device uses CDMA-based technology.
 
 
-### -field WwanCellularClassMax
+#### - WwanCellularClassMax
 
 The total number of supported cellular classes.
 

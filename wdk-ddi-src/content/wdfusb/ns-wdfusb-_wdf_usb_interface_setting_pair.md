@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6f169ae-6c4c-4c27-8532-75a76b66cc5a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_USB_INTERFACE_SETTING_PAIR, wdfusb/WDF_USB_INTERFACE_SETTING_PAIR, DFUsbRef_e8de7f02-5d9b-4cba-9e7c-dc4562256f9e.xml, *PWDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR, PWDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR structure, wdf.wdf_usb_interface_setting_pair, kmdf.wdf_usb_interface_setting_pair, wdfusb/PWDF_USB_INTERFACE_SETTING_PAIR, PWDF_USB_INTERFACE_SETTING_PAIR structure pointer"
+ms.keywords: wdf.wdf_usb_interface_setting_pair, WDF_USB_INTERFACE_SETTING_PAIR, wdfusb/PWDF_USB_INTERFACE_SETTING_PAIR, PWDF_USB_INTERFACE_SETTING_PAIR structure pointer, _WDF_USB_INTERFACE_SETTING_PAIR, wdfusb/WDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR, DFUsbRef_e8de7f02-5d9b-4cba-9e7c-dc4562256f9e.xml, PWDF_USB_INTERFACE_SETTING_PAIR, kmdf.wdf_usb_interface_setting_pair, WDF_USB_INTERFACE_SETTING_PAIR structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _WDF_USB_INTERFACE_SETTING_PAIR {
 
 
 
-### -field UsbInterface
+#### - UsbInterface
 
 A handle to a framework USB interface object.
 
 
-### -field SettingIndex
+#### - SettingIndex
 
 A device-specific index value that identifies an alternate setting for the interface. Alternate settings are described in the USB specification.
 

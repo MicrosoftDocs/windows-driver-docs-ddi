@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E22C5985-13A8-4A55-A97B-DABD7E475BD3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers._secure_element_proto_routing_info, PSECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, _SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], *PSECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO
+ms.keywords: P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], nfpdrivers._secure_element_proto_routing_info, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, PSECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING_INFO, _SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SECURE_ELEMENT_PROTO_ROUTING_INFO
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING_INFO
+req.typenames: "*PSECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO"
 ---
 
 # _SECURE_ELEMENT_PROTO_ROUTING_INFO structure
@@ -69,12 +69,12 @@ typedef struct _SECURE_ELEMENT_PROTO_ROUTING_INFO {
 
 
 
-### -field guidSecureElementId
+#### - guidSecureElementId
 
 Secure element unique identifier returned by enumeration DDI.
 
 
-### -field eRfProtocolType
+#### - eRfProtocolType
 
 NFC Forum RF protocol.
 

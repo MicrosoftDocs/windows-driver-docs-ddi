@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8be10470-3761-4120-8987-00d6fcc9a989
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILIMSFAILURE, RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILIMSFAILURE, netvista.rilimsfailure"
+ms.keywords: RILIMSFAILURE, ntddrilapitypes/RILIMSFAILURE, *LPRILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], netvista.rilimsfailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,30 +73,30 @@ typedef struct _RILIMSFAILURE {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwMessageType
+#### - dwMessageType
 
 
 
-### -field dwMessageSubType
+#### - dwMessageSubType
 
 
 
-### -field dwErrorCode
+#### - dwErrorCode
 
 
 
-### -field wszErrorString
+#### - wszErrorString
 
 

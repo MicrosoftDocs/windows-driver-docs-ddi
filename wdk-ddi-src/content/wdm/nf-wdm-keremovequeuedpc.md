@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f4b076f-006b-47cd-b970-8beed8d7e804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], wdm/KeRemoveQueueDpc, kernel.keremovequeuedpc, KeRemoveQueueDpc
+ms.keywords: KeRemoveQueueDpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], kernel.keremovequeuedpc, k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, wdm/KeRemoveQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN KeRemoveQueueDpc(
 
 
 
-### -param Dpc [in, out]
+#### - Dpc [in, out]
 
 A pointer to an initialized DPC object that was queued by a previous call to the <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> routine.
 
@@ -91,9 +91,9 @@ Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
  
 

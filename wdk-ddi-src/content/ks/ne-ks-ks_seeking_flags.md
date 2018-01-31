@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e27872e-4f38-4d0e-92bc-5e759a9db195
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_seeking_flags, KS_SEEKING_FLAGS, ks/KS_SEEKING_NoPositioning, KS_SEEKING_RelativePositioning, ks/KS_SEEKING_SeekToKeyFrame, KS_SEEKING_ReturnTime, KS_SEEKING_SeekToKeyFrame, ks-struct_edea1d66-55d6-4705-ae8f-b940946b87e0.xml, KS_SEEKING_PositioningBitsMask, KS_SEEKING_NoPositioning, ks/KS_SEEKING_RelativePositioning, ks/KS_SEEKING_PositioningBitsMask, ks/KS_SEEKING_FLAGS, KS_SEEKING_AbsolutePositioning, ks/KS_SEEKING_AbsolutePositioning, ks/KS_SEEKING_ReturnTime, KS_SEEKING_FLAGS enumeration [Streaming Media Devices], KS_SEEKING_IncrementalPositioning, ks/KS_SEEKING_IncrementalPositioning
+ms.keywords: KS_SEEKING_FLAGS enumeration [Streaming Media Devices], KS_SEEKING_AbsolutePositioning, KS_SEEKING_RelativePositioning, ks/KS_SEEKING_IncrementalPositioning, ks/KS_SEEKING_SeekToKeyFrame, KS_SEEKING_ReturnTime, ks/KS_SEEKING_NoPositioning, ks/KS_SEEKING_RelativePositioning, ks-struct_edea1d66-55d6-4705-ae8f-b940946b87e0.xml, stream.ks_seeking_flags, KS_SEEKING_SeekToKeyFrame, KS_SEEKING_FLAGS, KS_SEEKING_IncrementalPositioning, ks/KS_SEEKING_ReturnTime, ks/KS_SEEKING_PositioningBitsMask, KS_SEEKING_PositioningBitsMask, ks/KS_SEEKING_FLAGS, KS_SEEKING_NoPositioning, ks/KS_SEEKING_AbsolutePositioning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,31 +73,31 @@ typedef enum  {
 
 
 
-### -field KS_SEEKING_NoPositioning
+#### - KS_SEEKING_NoPositioning
 
 
 
-### -field KS_SEEKING_AbsolutePositioning
+#### - KS_SEEKING_AbsolutePositioning
 
 
 
-### -field KS_SEEKING_RelativePositioning
+#### - KS_SEEKING_RelativePositioning
 
 
 
-### -field KS_SEEKING_IncrementalPositioning
+#### - KS_SEEKING_IncrementalPositioning
 
 
 
-### -field KS_SEEKING_PositioningBitsMask
+#### - KS_SEEKING_PositioningBitsMask
 
 
 
-### -field KS_SEEKING_SeekToKeyFrame
+#### - KS_SEEKING_SeekToKeyFrame
 
 
 
-### -field KS_SEEKING_ReturnTime
+#### - KS_SEEKING_ReturnTime
 
 
 

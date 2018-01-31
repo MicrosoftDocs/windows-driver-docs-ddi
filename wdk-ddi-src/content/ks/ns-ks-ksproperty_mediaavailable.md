@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b6818fd5-e351-4eac-a802-af8229b82fb3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSPROPERTY_MEDIAAVAILABLE, ks/KSPROPERTY_MEDIAAVAILABLE, PKSPROPERTY_MEDIAAVAILABLE structure pointer [Streaming Media Devices], ks-struct_bb14a2ee-bf9b-4a73-ae35-967aea3d7086.xml, PKSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE structure [Streaming Media Devices], stream.ksproperty_mediaavailable, KSPROPERTY_MEDIAAVAILABLE
+ms.keywords: PKSPROPERTY_MEDIAAVAILABLE structure pointer [Streaming Media Devices], KSPROPERTY_MEDIAAVAILABLE, ks/KSPROPERTY_MEDIAAVAILABLE, ks-struct_bb14a2ee-bf9b-4a73-ae35-967aea3d7086.xml, *PKSPROPERTY_MEDIAAVAILABLE, ks/PKSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE structure [Streaming Media Devices], PKSPROPERTY_MEDIAAVAILABLE, stream.ksproperty_mediaavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_MEDIAAVAILABLE
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE
+req.typenames: "*PKSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE"
 ---
 
 # KSPROPERTY_MEDIAAVAILABLE structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Earliest
+#### - Earliest
 
 Pointer to a variable that receives the earliest time for efficient seeking.
 
 
-### -field Latest
+#### - Latest
 
 Pointer to a variable that receives the latest time for efficient seeking.
 

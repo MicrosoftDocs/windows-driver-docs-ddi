@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ecafa166-356e-48d6-84c4-0f0c339289ac
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: NODE_ADDRESS, NODE_ADDRESS structure [Buses], IEEE.node_address, PNODE_ADDRESS, 1394/NODE_ADDRESS, _NODE_ADDRESS, PNODE_ADDRESS structure pointer [Buses], 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, *PNODE_ADDRESS, 1394/PNODE_ADDRESS
+ms.keywords: 1394/PNODE_ADDRESS, NODE_ADDRESS structure [Buses], _NODE_ADDRESS, 1394/NODE_ADDRESS, PNODE_ADDRESS, NODE_ADDRESS, 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, PNODE_ADDRESS structure pointer [Buses], IEEE.node_address, *PNODE_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NODE_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: "*PNODE_ADDRESS, NODE_ADDRESS"
+req.typenames: NODE_ADDRESS, *PNODE_ADDRESS
 ---
 
 # _NODE_ADDRESS structure
@@ -68,21 +68,21 @@ typedef struct _NODE_ADDRESS {
 
 
 
-### -field NA_Node_Number
+#### - NA_Node_Number
 
 Specifies the 6-bit node number. This member contains bits 10-15 of the node address.
 
 
-### -field NA_Bus_Number
+#### - NA_Bus_Number
 
 Specifies the 10-bit bus number. This member specifies bits 0-10 of the node address. 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
 
  
 

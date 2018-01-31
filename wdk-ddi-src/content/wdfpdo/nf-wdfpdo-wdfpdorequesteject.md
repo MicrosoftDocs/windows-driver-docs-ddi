@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40cd83c0-701a-436f-a3c3-b0ab14848a92
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, wdf.wdfpdorequesteject, kmdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject, PFN_WDFPDOREQUESTEJECT, WdfPdoRequestEject method, WdfPdoRequestEject
+ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, kmdf.wdfpdorequesteject, PFN_WDFPDOREQUESTEJECT, WdfPdoRequestEject method, wdfpdo/WdfPdoRequestEject, wdf.wdfpdorequesteject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoRequestEject
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ VOID WdfPdoRequestEject(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object that represents the device's physical device object (PDO).
 
@@ -98,11 +98,11 @@ For more information about <b>WdfPdoRequestEject</b> and <a href="..\wdfchildlis
 
 ## -see-also
 
+<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
+
 <a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
 
 <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
-
-<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
 
  
 

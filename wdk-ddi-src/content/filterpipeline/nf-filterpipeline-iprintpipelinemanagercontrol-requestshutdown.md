@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RequestShutdown method [Print Devices], filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, RequestShutdown, IPrintPipelineManagerControl, print.iprintpipelinemanagercontrol_requestshutdown, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, IPrintPipelineManagerControl::RequestShutdown
+ms.keywords: RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown, RequestShutdown, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], IPrintPipelineManagerControl, filterpipeline/IPrintPipelineManagerControl::RequestShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT RequestShutdown(
 
 
 
-### -param hrReason [in]
+#### - hrReason [in]
 
 An <b>HRESULT</b> value that indicates the reason for the lack of memory.
 
 
-### -param pReason [in]
+#### - pReason [in]
 
 Not used. Set to <b>NULL</b>.
 

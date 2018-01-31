@@ -40,7 +40,7 @@ apiname:
 -	ProviderResetChannel
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_RESET_HANDLER callback
@@ -74,7 +74,7 @@ NTSTATUS ProviderResetChannel(
 
 
 
-### -param ProviderChannelContext [in]
+#### - ProviderChannelContext [in]
 
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
@@ -148,11 +148,11 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
-
 <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
  
 

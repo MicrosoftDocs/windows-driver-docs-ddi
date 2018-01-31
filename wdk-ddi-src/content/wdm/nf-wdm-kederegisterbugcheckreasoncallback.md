@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a2a8940-afe2-48f5-bcf0-abd6413eeb85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_f767309b-2c8a-4460-a43f-06aec0f7d401.xml, wdm/KeDeregisterBugCheckReasonCallback, KeDeregisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], KeDeregisterBugCheckReasonCallback, kernel.kederegisterbugcheckreasoncallback
+ms.keywords: KeDeregisterBugCheckReasonCallback, KeDeregisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], kernel.kederegisterbugcheckreasoncallback, k105_f767309b-2c8a-4460-a43f-06aec0f7d401.xml, wdm/KeDeregisterBugCheckReasonCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN KeDeregisterBugCheckReasonCallback(
 
 
 
-### -param CallbackRecord [in, out]
+#### - CallbackRecord [in, out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a> structure. <i>CallbackRecord</i> must be the same value that was passed to <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a> when the callback was registered.
 

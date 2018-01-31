@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: QuerySupported method [Streaming Media Devices], ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, QuerySupported, IKsPropertySet::QuerySupported, ksproxy/IKsPropertySet::QuerySupported, IKsPropertySet, QuerySupported method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_querysupported
+ms.keywords: QuerySupported method [Streaming Media Devices], ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, ksproxy/IKsPropertySet::QuerySupported, IKsPropertySet, QuerySupported method [Streaming Media Devices], IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, QuerySupported, IKsPropertySet::QuerySupported, stream.ikspropertyset_querysupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT QuerySupported(
 
 
 
-### -param PropSet [in]
+#### - PropSet [in]
 
 GUID that identifies the property set.
 
 
-### -param Id [in]
+#### - Id [in]
 
 Identifier of the property within the property set. 
 
 
-### -param TypeSupport [out]
+#### - TypeSupport [out]
 
 Pointer to a variable that receives a bitmask enumerating the flags that indicate the support that the underlying driver provides. A driver can support a bitwise OR combination of the following flags: 
 <table>
@@ -173,9 +173,9 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
 
  
 

@@ -71,7 +71,7 @@ VOID HwStorCompleteServiceIrp(
 
 
 
-### -param DeviceExtension
+#### - DeviceExtension
 
 A pointer to the virtual miniport driver's per-adapter storage area.
 

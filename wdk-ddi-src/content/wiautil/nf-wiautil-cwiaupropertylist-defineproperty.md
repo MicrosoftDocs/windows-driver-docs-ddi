@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 599c97af-1285-4fb9-af0b-edcd48249692
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DefineProperty method [Imaging Devices], wiautil/CWiauPropertyList::DefineProperty, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, image.cwiaupropertylist_defineproperty, CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList, DefineProperty, CWiauPropertyList interface [Imaging Devices], DefineProperty method
+ms.keywords: CWiauPropertyList, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, DefineProperty method [Imaging Devices], CWiauPropertyList interface [Imaging Devices], DefineProperty method, CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_defineproperty, wiautil/CWiauPropertyList::DefineProperty, DefineProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT DefineProperty(
 
 
 
-### -param pIdx
+#### - pIdx
 
 Pointer to a memory location that receives the index for the newly added property. Many other methods in this class use a property's index in order to identify the property.
 
 
-### -param PropId
+#### - PropId
 
 Specifies a property ID constant.
 
 
-### -param PropName
+#### - PropName
 
 Pointer to a name string for the property.
 
 
-### -param Access
+#### - Access
 
 Specifies the type of access for the property, usually either WIA_PROP_READ (read-only) or WIA_PROP_RW (read/write).
 
 
-### -param SubType
+#### - SubType
 
 Specifies the property subtype, one of WIA_PROP_FLAG, WIA_PROP_LIST, WIA_PROP_RANGE, or WIA_PROP_NONE. The first three constants indicate, respectively, that a property is a set of flag values, a list of values, or a range of values. The fourth constant indicates that a property is none of these.
 

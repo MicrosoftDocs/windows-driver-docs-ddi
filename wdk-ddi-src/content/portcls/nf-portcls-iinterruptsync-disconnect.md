@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 799273eb-0ff6-4815-ac32-8fbb01f457e2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iinterruptsync_disconnect, Disconnect method [Audio Devices], IInterruptSync interface, IInterruptSync, IInterruptSync::Disconnect, Disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, Disconnect method [Audio Devices], portcls/IInterruptSync::Disconnect, IInterruptSync interface [Audio Devices], Disconnect method
+ms.keywords: IInterruptSync, audio.iinterruptsync_disconnect, Disconnect method [Audio Devices], IInterruptSync interface, portcls/IInterruptSync::Disconnect, Disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, Disconnect method [Audio Devices], IInterruptSync interface [Audio Devices], Disconnect method, IInterruptSync::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IInterruptSync.Disconnect
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IInterruptSync::Disconnect method

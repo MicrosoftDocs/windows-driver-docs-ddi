@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeFieldOffset, ExtRemoteTyped::GetTypeFieldOffset, debugger.extremotetyped_gettypefieldoffset, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, ExtRemoteTyped, GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, ExtRemoteTyped::GetTypeFieldOffset, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, GetTypeFieldOffset method [Windows Debugging], debugger.extremotetyped_gettypefieldoffset, ExtRemoteTyped, GetTypeFieldOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetTypeFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::GetTypeFieldOffset method
@@ -68,12 +68,12 @@ static ULONG GetTypeFieldOffset(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 The name of the type of the structure. This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
 
-### -param Field [in]
+#### - Field [in]
 
 The name of the member in the structure.  You can specify sub-members  by using a dot operator (.) (for example, <b>mymember.mysubmember</b>).
 

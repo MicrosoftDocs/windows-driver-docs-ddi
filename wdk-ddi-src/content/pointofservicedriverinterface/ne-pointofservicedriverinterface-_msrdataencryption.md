@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 3e587242-2d7e-4b1f-8fcd-e0acada91524
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_MsrDataEncryption, MsrDataEncryption, MsrDataEncryption_None, pointofservicedriverinterface/MsrDataEncryption_None, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption_ExtendedBase, pos.msrdataencryption, MsrDataEncryption enumeration, MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase"
+ms.keywords: MsrDataEncryption, pos.msrdataencryption, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption, _MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_None, MsrDataEncryption_ExtendedBase, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption enumeration, MsrDataEncryption_None, MsrDataEncryption_3DEA_DUKPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _MsrDataEncryption {
 
 
 
-### -field MsrDataEncryption_None
+#### - MsrDataEncryption_None
 
 Indicates no encryption algorithm.
 
 
-### -field MsrDataEncryption_3DEA_DUKPT
+#### - MsrDataEncryption_3DEA_DUKPT
 
 The Triple Data Encryption Standard (DES) Derived Unique Key Per Transaction (DUKPT) encryption algorithm.
 
 
-### -field MsrDataEncryption_AES
+#### - MsrDataEncryption_AES
 
 The Advanced Encryption Standard (AES).
 
 
-### -field MsrDataEncryption_ExtendedBase
+#### - MsrDataEncryption_ExtendedBase
 
 A vendor-specific encryption algorithm. Service-specific values begin at 0x01000000 and are reserved for additional encryption algorithms.
 

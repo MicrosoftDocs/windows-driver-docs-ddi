@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ParseDescriptors, usbdlib/USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml, buses.usbd_parsedescriptors
+ms.keywords: usbdlib/USBD_ParseDescriptors, buses.usbd_parsedescriptors, USBD_ParseDescriptors routine [Buses], usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml, USBD_ParseDescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_ParseDescriptors
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ PUSB_COMMON_DESCRIPTOR USBD_ParseDescriptors(
 
 
 
-### -param DescriptorBuffer [in]
+#### - DescriptorBuffer [in]
 
 Pointer to a configuration descriptor that contains the descriptor for which to search.
 
 
-### -param TotalLength [in]
+#### - TotalLength [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>DescriptorBuffer</i>.
 
 
-### -param StartPosition [in]
+#### - StartPosition [in]
 
 Pointer to the address within the configuration descriptor, provided at <i>DescriptorBuffer</i>, to begin searching from. To search from the beginning of the configuration descriptor, the parameters <i>DescriptorBuffer</i> and <i>StartPosition</i> must be the same address.
 
 
-### -param DescriptorType [in]
+#### - DescriptorType [in]
 
 Specifies the descriptor type code as assigned by USB. The following values are valid for USB-defined descriptor types:
 

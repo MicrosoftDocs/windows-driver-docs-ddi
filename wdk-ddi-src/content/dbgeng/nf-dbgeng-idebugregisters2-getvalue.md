@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 227d7b4f-bf94-4763-bb1f-32efbc087bb1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getvalue, GetValue method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2 interface [Windows Debugging], GetValue method, GetValue method [Windows Debugging], GetValue method [Windows Debugging], IDebugRegisters2 interface, GetValue, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, dbgeng/IDebugRegisters::GetValue, IDebugRegisters::GetValue, IDebugRegisters interface [Windows Debugging], GetValue method, IDebugRegisters2, dbgeng/IDebugRegisters2::GetValue, IDebugRegisters2::GetValue
+ms.keywords: IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, IDebugRegisters::GetValue, IDebugRegisters2, GetValue method [Windows Debugging], GetValue method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2 interface [Windows Debugging], GetValue method, dbgeng/IDebugRegisters::GetValue, GetValue method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetValue, debugger.getvalue, IDebugRegisters interface [Windows Debugging], GetValue method, GetValue, dbgeng/IDebugRegisters2::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetValue(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Specifies the index of the register whose value is requested.
 
 
-### -param Value [out]
+#### - Value [out]
 
 Receives the value of the register.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
 
@@ -136,13 +136,13 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
  
 

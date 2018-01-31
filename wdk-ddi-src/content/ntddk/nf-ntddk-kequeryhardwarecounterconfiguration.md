@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ac33177-38fc-4027-95c9-c2cf9ccdaa52
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryHardwareCounterConfiguration, k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, ntddk/KeQueryHardwareCounterConfiguration, kernel.kequeryhardwarecounterconfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration, kernel.kequeryhardwarecounterconfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS KeQueryHardwareCounterConfiguration(
 
 
 
-### -param CounterArray [out]
+#### - CounterArray [out]
 
 A pointer to a caller-allocated buffer into which the routine writes an array of elements of type <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>. Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer. 
 
 
-### -param MaximumCount [in]
+#### - MaximumCount [in]
 
 Specifies the maximum number of elements that the routine can write to the buffer that is pointed to by the <i>CounterArray</i> parameter. The size of the caller-allocated buffer must be at least <i>MaximumCount</i> * <b>sizeof</b>(<b>HARDWARE_COUNTER</b>) bytes. 
 
 
-### -param Count [out]
+#### - Count [out]
 
 A pointer to a location into which the routine writes the number of array elements that it has written to the buffer that is pointed to by the <i>CounterArray</i> parameter. If the buffer length that is specified by <i>MaximumCount</i> is not large enough to contain the entire array, the routine writes the required length to *<i>Count</i> and returns STATUS_BUFFER_TOO_SMALL. 
 

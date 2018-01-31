@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2a5cccb3-24aa-404a-b887-2ccbe98a0673
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestSetInformation method, wdf.wdfrequestsetinformation, kmdf.wdfrequestsetinformation, DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, WdfRequestSetInformation, PFN_WDFREQUESTSETINFORMATION, wdfrequest/WdfRequestSetInformation
+ms.keywords: PFN_WDFREQUESTSETINFORMATION, DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, wdf.wdfrequestsetinformation, WdfRequestSetInformation, wdfrequest/WdfRequestSetInformation, kmdf.wdfrequestsetinformation, WdfRequestSetInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfRequestSetInformation(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param Information [in]
+#### - Information [in]
 
 Driver-defined completion status information for the request.
 
@@ -106,9 +106,9 @@ For more information about <b>WdfRequestSetInformation</b>, see <a href="https:/
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetinformation.md">WdfRequestGetInformation</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetinformation.md">WdfRequestGetInformation</a>
 
  
 

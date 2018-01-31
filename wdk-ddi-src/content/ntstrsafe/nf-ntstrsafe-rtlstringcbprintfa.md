@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbPrintfW, ntstrsafe/RtlStringCbPrintfW, kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfA, RtlStringCbPrintfA, RtlStringCbPrintf, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
+ms.keywords: RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml, ntstrsafe/RtlStringCbPrintfA, RtlStringCbPrintfA, RtlStringCbPrintf, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS RtlStringCbPrintfW(
 
 
 
-### -param pszDest [out]
+#### - pszDest [out]
 
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list. 
 
 
-### -param cbDest [in]
+#### - cbDest [in]
 
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character. 
 
@@ -87,7 +87,7 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(W
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
 
 
-### -param pszFormat [in]
+#### - pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/en-us/library/56e442dc.aspx">formatting directives</a>.
 

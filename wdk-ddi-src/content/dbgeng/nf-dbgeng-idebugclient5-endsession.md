@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 521a0e4a-99c6-4ad4-886d-3fff9855e1fd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient interface [Windows Debugging], EndSession method, dbgeng/IDebugClient::EndSession, EndSession method [Windows Debugging], IDebugClient2 interface, IDebugClient5 interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging], IDebugClient interface, IDebugClient2 interface [Windows Debugging], EndSession method, IDebugClient5::EndSession, EndSession method [Windows Debugging], IDebugClient4 interface, debugger.endsession, dbgeng/IDebugClient4::EndSession, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, IDebugClient4 interface [Windows Debugging], EndSession method, IDebugClient2::EndSession, EndSession method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient3::EndSession, dbgeng/IDebugClient2::EndSession, EndSession, IDebugClient4::EndSession, IDebugClient5, dbgeng/IDebugClient5::EndSession, EndSession method [Windows Debugging], IDebugClient3::EndSession, EndSession method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], EndSession method, IDebugClient::EndSession
+ms.keywords: dbgeng/IDebugClient2::EndSession, IDebugClient interface [Windows Debugging], EndSession method, IDebugClient4 interface [Windows Debugging], EndSession method, IDebugClient3::EndSession, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, IDebugClient3 interface [Windows Debugging], EndSession method, IDebugClient5, IDebugClient2 interface [Windows Debugging], EndSession method, dbgeng/IDebugClient4::EndSession, EndSession method [Windows Debugging], debugger.endsession, dbgeng/IDebugClient3::EndSession, IDebugClient2::EndSession, IDebugClient::EndSession, EndSession method [Windows Debugging], IDebugClient4 interface, EndSession method [Windows Debugging], IDebugClient2 interface, EndSession method [Windows Debugging], IDebugClient interface, IDebugClient4::EndSession, dbgeng/IDebugClient::EndSession, IDebugClient5 interface [Windows Debugging], EndSession method, IDebugClient5::EndSession, EndSession method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::EndSession, EndSession, EndSession method [Windows Debugging], IDebugClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT EndSession(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies how to end the session.  <i>Flags</i> can be one of the following values:
 <table>

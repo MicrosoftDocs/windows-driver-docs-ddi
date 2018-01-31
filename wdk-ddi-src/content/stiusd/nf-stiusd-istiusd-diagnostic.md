@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bf99c34e-5a71-4f2b-8dca-bed87d18b352
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD interface [Imaging Devices], Diagnostic method, IStiUSD, stiusd/IStiUSD::Diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, Diagnostic method [Imaging Devices], IStiUSD interface, Diagnostic method [Imaging Devices], image.istiusd_diagnostic, IStiUSD::Diagnostic, Diagnostic
+ms.keywords: Diagnostic, IStiUSD interface [Imaging Devices], Diagnostic method, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, IStiUSD::Diagnostic, stiusd/IStiUSD::Diagnostic, Diagnostic method [Imaging Devices], IStiUSD, Diagnostic method [Imaging Devices], IStiUSD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.Diagnostic
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ HRESULT Diagnostic(
 
 
 
-### -param pBuffer
+#### - pBuffer
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_diag.md">STI_DIAG</a> structure to receive testing status information.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9bb24ca3-2684-4873-8136-c560f3374310
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.vram_surface_info_property_s, ksmedia/VRAM_SURFACE_INFO_PROPERTY_S, VRAM_SURFACE_INFO_PROPERTY_S, VRAM_SURFACE_INFO_PROPERTY_S structure [Streaming Media Devices], ksmedia/PVRAM_SURFACE_INFO_PROPERTY_S, avstruct_f0149912-f7c6-4cf5-bc5e-107c03c7823f.xml, PVRAM_SURFACE_INFO_PROPERTY_S, *PVRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S structure pointer [Streaming Media Devices]
+ms.keywords: PVRAM_SURFACE_INFO_PROPERTY_S structure pointer [Streaming Media Devices], stream.vram_surface_info_property_s, ksmedia/VRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S, *PVRAM_SURFACE_INFO_PROPERTY_S, ksmedia/PVRAM_SURFACE_INFO_PROPERTY_S, avstruct_f0149912-f7c6-4cf5-bc5e-107c03c7823f.xml, VRAM_SURFACE_INFO_PROPERTY_S structure [Streaming Media Devices], VRAM_SURFACE_INFO_PROPERTY_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 This member specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-### -field pVramSurfaceInfo
+#### - pVramSurfaceInfo
 
 This member specifies a pointer to a structure of type <a href="..\ksmedia\ns-ksmedia-vram_surface_info.md">VRAM_SURFACE_INFO</a>.
 

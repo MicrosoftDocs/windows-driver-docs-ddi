@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E079527D-1687-4A12-B86E-96C89CE458CE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelCleanup, netvista.vmbchannelcleanup, vmbuskernelmodeclientlibapi/VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista]
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcleanup, VmbChannelCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelCleanup
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ VOID VmbChannelCleanup(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The channel to clean up. 
 

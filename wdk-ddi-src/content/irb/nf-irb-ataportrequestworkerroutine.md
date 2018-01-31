@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d9a6886-aeec-4d61-8c9d-056d1409b905
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportrequestworkerroutine, AtaPortRequestWorkerRoutine routine [Storage Devices], irb/AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine, atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml
+ms.keywords: irb/AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine, atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, AtaPortRequestWorkerRoutine routine [Storage Devices], storage.ataportrequestworkerroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN __inline AtaPortRequestWorkerRoutine(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension. 
 

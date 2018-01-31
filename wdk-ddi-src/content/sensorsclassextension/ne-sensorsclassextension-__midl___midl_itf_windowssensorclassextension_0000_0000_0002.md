@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 63df4f99-ddc2-4a0b-b19b-63390771d529
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensorconnectiontype, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SENSOR_CONNECTION_TYPE_PC_ATTACHED, Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, sensorsclassextension/SensorConnectionType, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SensorConnectionType enumeration [Sensor Devices], SensorConnectionType, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL
+ms.keywords: SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SensorConnectionType enumeration [Sensor Devices], sensors.sensorconnectiontype, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SensorConnectionType, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED, Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SENSOR_CONNECTION_TYPE_PC_ATTACHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ enum SensorConnectionType {
 
 
 
-### -field SENSOR_CONNECTION_TYPE_PC_INTEGRATED
+#### - SENSOR_CONNECTION_TYPE_PC_INTEGRATED
 
 Indicates that the sensor is built into the computer.
 
 
-### -field SENSOR_CONNECTION_TYPE_PC_ATTACHED
+#### - SENSOR_CONNECTION_TYPE_PC_ATTACHED
 
 Indicates that the sensor is attached to the computer, such as through a peripheral device.
 
 
-### -field SENSOR_CONNECTION_TYPE_PC_EXTERNAL
+#### - SENSOR_CONNECTION_TYPE_PC_EXTERNAL
 
 Indicates that the sensor is connected by external means, such as through a network connection.
 

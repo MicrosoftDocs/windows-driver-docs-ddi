@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb129e02-ae01-4bbc-a81f-809f1a27060c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VSS_PAL_K, D3DKMDT_VSS_PAL_G, D3DKMDT_VSS_APPLE, D3DKMDT_VSS_VESA_GTF, D3DKMDT_VSS_PAL_N, D3DKMDT_VIDEO_SIGNAL_STANDARD, D3DKMDT_VSS_PAL_K1, d3dkmdt/D3DKMDT_VSS_PAL_D, D3DKMDT_VSS_SECAM_L1, D3DKMDT_VSS_PAL_L, display.d3dkmdt_video_signal_standard, d3dkmdt/D3DKMDT_VSS_VESA_CVT, d3dkmdt/D3DKMDT_VSS_UNINITIALIZED, d3dkmdt/D3DKMDT_VSS_IBM, d3dkmdt/D3DKMDT_VSS_NTSC_443, D3DKMDT_VSS_SECAM_D, d3dkmdt/D3DKMDT_VSS_APPLE, D3DKMDT_VSS_SECAM_G, D3DKMDT_VSS_EIA_861B, D3DKMDT_VSS_PAL_H, D3DKMDT_VSS_SECAM_B, d3dkmdt/D3DKMDT_VSS_EIA_861, d3dkmdt/D3DKMDT_VSS_PAL_L, d3dkmdt/D3DKMDT_VSS_SECAM_L, D3DKMDT_VSS_EIA_861A, D3DKMDT_VSS_NTSC_443, D3DKMDT_VSS_IBM, D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration [Display Devices], d3dkmdt/D3DKMDT_VSS_PAL_B, d3dkmdt/D3DKMDT_VSS_VESA_GTF, d3dkmdt/D3DKMDT_VSS_SECAM_H, d3dkmdt/D3DKMDT_VSS_VESA_DMT, d3dkmdt/D3DKMDT_VSS_SECAM_K, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VSS_EIA_861A, d3dkmdt/D3DKMDT_VSS_OTHER, d3dkmdt/D3DKMDT_VSS_PAL_NC, d3dkmdt/D3DKMDT_VSS_NTSC_M, d3dkmdt/D3DKMDT_VSS_PAL_I, D3DKMDT_VSS_UNINITIALIZED, d3dkmdt/D3DKMDT_VSS_PAL_N, D3DKMDT_VSS_VESA_DMT, D3DKMDT_VSS_SECAM_L, d3dkmdt/D3DKMDT_VSS_SECAM_L1, d3dkmdt/D3DKMDT_VSS_SECAM_D, d3dkmdt/D3DKMDT_VSS_PAL_M, d3dkmdt/D3DKMDT_VSS_PAL_K, D3DKMDT_VSS_PAL_B, DmEnums_8174e59a-c264-4642-b770-d4e38236a6b7.xml, d3dkmdt/D3DKMDT_VSS_SECAM_K1, D3DKMDT_VSS_SECAM_K, D3DKMDT_VSS_SECAM_K1, d3dkmdt/D3DKMDT_VSS_EIA_861B, D3DKMDT_VSS_PAL_D, d3dkmdt/D3DKMDT_VSS_PAL_G, D3DKMDT_VSS_PAL_NC, d3dkmdt/D3DKMDT_VSS_PAL_H, _D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VSS_NTSC_J, d3dkmdt/D3DKMDT_VSS_SECAM_G, D3DKMDT_VSS_EIA_861, d3dkmdt/D3DKMDT_VSS_SECAM_B, D3DKMDT_VSS_VESA_CVT, D3DKMDT_VSS_PAL_I, D3DKMDT_VSS_PAL_B1, d3dkmdt/D3DKMDT_VSS_PAL_K1, D3DKMDT_VSS_NTSC_J, D3DKMDT_VSS_PAL_M, D3DKMDT_VSS_SECAM_H, D3DKMDT_VSS_OTHER, D3DKMDT_VSS_NTSC_M, d3dkmdt/D3DKMDT_VSS_PAL_B1
+ms.keywords: D3DKMDT_VSS_IBM, d3dkmdt/D3DKMDT_VSS_PAL_D, d3dkmdt/D3DKMDT_VSS_UNINITIALIZED, D3DKMDT_VSS_VESA_GTF, d3dkmdt/D3DKMDT_VSS_VESA_DMT, D3DKMDT_VSS_PAL_B1, D3DKMDT_VSS_PAL_L, d3dkmdt/D3DKMDT_VSS_SECAM_L, d3dkmdt/D3DKMDT_VSS_IBM, D3DKMDT_VSS_NTSC_443, D3DKMDT_VSS_PAL_NC, D3DKMDT_VSS_OTHER, d3dkmdt/D3DKMDT_VSS_PAL_G, d3dkmdt/D3DKMDT_VSS_PAL_L, d3dkmdt/D3DKMDT_VSS_SECAM_L1, D3DKMDT_VSS_UNINITIALIZED, D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration [Display Devices], D3DKMDT_VSS_PAL_B, D3DKMDT_VSS_SECAM_L, d3dkmdt/D3DKMDT_VSS_PAL_B1, d3dkmdt/D3DKMDT_VSS_PAL_M, D3DKMDT_VSS_SECAM_D, d3dkmdt/D3DKMDT_VSS_OTHER, D3DKMDT_VSS_PAL_G, d3dkmdt/D3DKMDT_VSS_EIA_861B, d3dkmdt/D3DKMDT_VSS_EIA_861A, d3dkmdt/D3DKMDT_VSS_VESA_GTF, D3DKMDT_VSS_PAL_I, D3DKMDT_VSS_NTSC_J, d3dkmdt/D3DKMDT_VSS_SECAM_K, d3dkmdt/D3DKMDT_VSS_VESA_CVT, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_STANDARD, D3DKMDT_VSS_PAL_D, _D3DKMDT_VIDEO_SIGNAL_STANDARD, D3DKMDT_VSS_SECAM_L1, D3DKMDT_VSS_VESA_DMT, d3dkmdt/D3DKMDT_VSS_NTSC_M, D3DKMDT_VSS_SECAM_B, D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VSS_SECAM_K1, DmEnums_8174e59a-c264-4642-b770-d4e38236a6b7.xml, d3dkmdt/D3DKMDT_VSS_PAL_NC, D3DKMDT_VSS_EIA_861A, D3DKMDT_VSS_NTSC_M, d3dkmdt/D3DKMDT_VSS_SECAM_D, D3DKMDT_VSS_EIA_861, d3dkmdt/D3DKMDT_VSS_PAL_K, d3dkmdt/D3DKMDT_VSS_PAL_K1, d3dkmdt/D3DKMDT_VSS_PAL_B, D3DKMDT_VSS_SECAM_G, D3DKMDT_VSS_PAL_M, d3dkmdt/D3DKMDT_VSS_NTSC_J, D3DKMDT_VSS_PAL_K, D3DKMDT_VSS_PAL_K1, D3DKMDT_VSS_SECAM_K, D3DKMDT_VSS_SECAM_K1, d3dkmdt/D3DKMDT_VSS_SECAM_H, D3DKMDT_VSS_VESA_CVT, d3dkmdt/D3DKMDT_VSS_APPLE, D3DKMDT_VSS_PAL_N, D3DKMDT_VSS_SECAM_H, d3dkmdt/D3DKMDT_VSS_EIA_861, display.d3dkmdt_video_signal_standard, d3dkmdt/D3DKMDT_VSS_NTSC_443, d3dkmdt/D3DKMDT_VSS_PAL_H, d3dkmdt/D3DKMDT_VSS_SECAM_B, d3dkmdt/D3DKMDT_VSS_SECAM_G, D3DKMDT_VSS_APPLE, D3DKMDT_VSS_PAL_H, D3DKMDT_VSS_EIA_861B, d3dkmdt/D3DKMDT_VSS_PAL_I, d3dkmdt/D3DKMDT_VSS_PAL_N
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,167 +99,167 @@ typedef enum _D3DKMDT_VIDEO_SIGNAL_STANDARD {
 
 
 
-### -field D3DKMDT_VSS_UNINITIALIZED
+#### - D3DKMDT_VSS_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_VIDEO_SIGNAL_STANDARD has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_VSS_VESA_DMT
+#### - D3DKMDT_VSS_VESA_DMT
 
 Represents the Video Electronics Standards Association (VESA) Display Monitor Timing (DMT) standard.
 
 
-### -field D3DKMDT_VSS_VESA_GTF
+#### - D3DKMDT_VSS_VESA_GTF
 
 Represents the VESA Generalized Timing Formula (GTF) standard.
 
 
-### -field D3DKMDT_VSS_VESA_CVT
+#### - D3DKMDT_VSS_VESA_CVT
 
 Represents the VESA Coordinated Video Timing (CVT) standard.
 
 
-### -field D3DKMDT_VSS_IBM
+#### - D3DKMDT_VSS_IBM
 
 Represents the IBM standard.
 
 
-### -field D3DKMDT_VSS_APPLE
+#### - D3DKMDT_VSS_APPLE
 
 Represents the Apple standard.
 
 
-### -field D3DKMDT_VSS_NTSC_M
+#### - D3DKMDT_VSS_NTSC_M
 
 Represents the National Television Standards Committee (NTSC) standard.
 
 
-### -field D3DKMDT_VSS_NTSC_J
+#### - D3DKMDT_VSS_NTSC_J
 
 Represents the NTSC standard.
 
 
-### -field D3DKMDT_VSS_NTSC_443
+#### - D3DKMDT_VSS_NTSC_443
 
 Represents the NTSC standard.
 
 
-### -field D3DKMDT_VSS_PAL_B
+#### - D3DKMDT_VSS_PAL_B
 
 Represents the Phase Alteration Line (PAL) standard.
 
 
-### -field D3DKMDT_VSS_PAL_B1
+#### - D3DKMDT_VSS_PAL_B1
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_G
+#### - D3DKMDT_VSS_PAL_G
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_H
+#### - D3DKMDT_VSS_PAL_H
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_I
+#### - D3DKMDT_VSS_PAL_I
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_D
+#### - D3DKMDT_VSS_PAL_D
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_N
+#### - D3DKMDT_VSS_PAL_N
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_NC
+#### - D3DKMDT_VSS_PAL_NC
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_SECAM_B
+#### - D3DKMDT_VSS_SECAM_B
 
 Represents the Systeme Electronic Pour Couleur Avec Memoire (SECAM) standard.
 
 
-### -field D3DKMDT_VSS_SECAM_D
+#### - D3DKMDT_VSS_SECAM_D
 
 Represents the SECAM standard.
 
 
-### -field D3DKMDT_VSS_SECAM_G
+#### - D3DKMDT_VSS_SECAM_G
 
 Represents the SECAM standard.
 
 
-### -field D3DKMDT_VSS_SECAM_H
+#### - D3DKMDT_VSS_SECAM_H
 
 Represents the SECAM standard.
 
 
-### -field D3DKMDT_VSS_SECAM_K
+#### - D3DKMDT_VSS_SECAM_K
 
 Represents the SECAM standard.
 
 
-### -field D3DKMDT_VSS_SECAM_K1
+#### - D3DKMDT_VSS_SECAM_K1
 
 Represents the SECAM standard.
 
 
-### -field D3DKMDT_VSS_SECAM_L
+#### - D3DKMDT_VSS_SECAM_L
 
 Represents the SECAM standard.
 
 
-### -field D3DKMDT_VSS_SECAM_L1
+#### - D3DKMDT_VSS_SECAM_L1
 
 Represents the SECAM standard.
 
 
-### -field D3DKMDT_VSS_EIA_861
+#### - D3DKMDT_VSS_EIA_861
 
 Represents the Electronics Industries Association (EIA) standard.
 
 
-### -field D3DKMDT_VSS_EIA_861A
+#### - D3DKMDT_VSS_EIA_861A
 
 Represents the EIA standard.
 
 
-### -field D3DKMDT_VSS_EIA_861B
+#### - D3DKMDT_VSS_EIA_861B
 
 Represents the EIA standard.
 
 
-### -field D3DKMDT_VSS_PAL_K
+#### - D3DKMDT_VSS_PAL_K
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_K1
+#### - D3DKMDT_VSS_PAL_K1
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_L
+#### - D3DKMDT_VSS_PAL_L
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_PAL_M
+#### - D3DKMDT_VSS_PAL_M
 
 Represents the PAL standard.
 
 
-### -field D3DKMDT_VSS_OTHER
+#### - D3DKMDT_VSS_OTHER
 
 Represents any video standard other than those represented by the previous constants in this enumeration.
 

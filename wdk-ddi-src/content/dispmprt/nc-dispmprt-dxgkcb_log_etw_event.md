@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbLogEtwEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_LOG_ETW_EVENT callback
@@ -77,17 +77,17 @@ VOID DxgkCbLogEtwEvent(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 A constant that specifies the event type. These constants  are defined in Evntrace.h and have the form of <b>EVENT_TRACE_TYPE_XX</b>.
 
 
-### -param EventBufferSize [in]
+#### - EventBufferSize [in]
 
 The size, in bytes, of the buffer pointed to by <i>EventBuffer</i>. There is a significant performance penalty if the buffer is larger than 256 bytes.
 
 
-### -param EventBuffer [in]
+#### - EventBuffer [in]
 
 A pointer to a buffer that contains the information to be logged.
 

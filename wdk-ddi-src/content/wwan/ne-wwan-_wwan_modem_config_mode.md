@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1AA3EDCC-EB6E-4118-8081-CA1914140683
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_modem_config_mode, wwan/WwanModemConfigModeModemCentric, wwan/PWWAN_MODEM_CONFIG_MODE, _WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeMax, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE, WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeHostCentric, PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeModemCentric, *PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeUnknown, WwanModemConfigModeMax, wwan/WwanModemConfigModeUnknown
+ms.keywords: WwanModemConfigModeUnknown, wwan/WwanModemConfigModeUnknown, WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigModeHostCentric, wwan/PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeModemCentric, WwanModemConfigModeMax, wwan/WwanModemConfigModeMax, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_modem_config_mode, WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeModemCentric, wwan/WWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE, _WWAN_MODEM_CONFIG_MODE, *PWWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _WWAN_MODEM_CONFIG_MODE {
 
 
 
-### -field WwanModemConfigModeUnknown
+#### - WwanModemConfigModeUnknown
 
 The modem configuration mode is currently not available.
 
 
-### -field WwanModemConfigModeModemCentric
+#### - WwanModemConfigModeModemCentric
 
 The modem configuration mode is modem centric. The modem is responsible for the selection process of configuration based on UICC info or any other vendor-specified algorithm.
 
 
-### -field WwanModemConfigModeHostCentric
+#### - WwanModemConfigModeHostCentric
 
 The modem configuration mode is host centric. The host will inform the modem which configuration file the modem will use.
 
 
-### -field WwanModemConfigModeMax
+#### - WwanModemConfigModeMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

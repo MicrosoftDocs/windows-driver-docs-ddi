@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: D57D356F-DC11-4C27-97D3-DF40BF2AB490
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_FLR_MASK_ALL, DEBUG_FLR_INVALID, extsfns/..., FA_TAG, DEBUG_FLR_RESERVED, _DEBUG_FLR_PARAM_TYPE, debugger.debug_flr_param_type, ..., extsfns/DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], extsfns/DEBUG_FLR_INVALID, DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_MASK_ALL, extsfns/DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_RESERVED
+ms.keywords: extsfns/DEBUG_FLR_RESERVED, DEBUG_FLR_DRIVER_OBJECT, FA_TAG, DEBUG_FLR_RESERVED, DEBUG_FLR_INVALID, debugger.debug_flr_param_type, DEBUG_FLR_MASK_ALL, ..., DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_INVALID, extsfns/DEBUG_FLR_DRIVER_OBJECT, _DEBUG_FLR_PARAM_TYPE, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], extsfns/DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_MASK_ALL, extsfns/...
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,15 +73,15 @@ typedef enum _DEBUG_FLR_PARAM_TYPE {
 
 
 
-### -field DEBUG_FLR_INVALID
+#### - DEBUG_FLR_INVALID
 
 
 
-### -field DEBUG_FLR_RESERVED
+#### - DEBUG_FLR_RESERVED
 
 
 
-### -field DEBUG_FLR_DRIVER_OBJECT
+#### - DEBUG_FLR_DRIVER_OBJECT
 
 
 
@@ -2989,7 +2989,7 @@ typedef enum _DEBUG_FLR_PARAM_TYPE {
 
 
 
-### -field DEBUG_FLR_MASK_ALL
+#### - DEBUG_FLR_MASK_ALL
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68753690-A6DC-46BE-9981-F395B98C3245
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxRegisterPluginEx routine [Kernel-Mode Driver Architecture], pepfx/PoFxRegisterPluginEx, PoFxRegisterPluginEx, kernel.pofxregisterpluginex
+ms.keywords: PoFxRegisterPluginEx, pepfx/PoFxRegisterPluginEx, kernel.pofxregisterpluginex, PoFxRegisterPluginEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PoFxRegisterPluginEx
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PoFxRegisterPluginEx function
@@ -70,12 +70,12 @@ NTSTATUS PoFxRegisterPluginEx(
 
 
 
-### -param PepInformation [in]
+#### - PepInformation [in]
 
 A pointer to a <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a> structure that contains pointers to one or more callback routines that are implemented by the PEP. These routines handle notifications that are sent to the PEP by PoFx.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A set of flag bits for configuring the PEP interface. Set this member to zero or to the following value.
 <table>
@@ -90,7 +90,7 @@ A set of flag bits for configuring the PEP interface. Set this member to zero or
 </table> 
 
 
-### -param KernelInformation [in, out]
+#### - KernelInformation [in, out]
 
 A pointer to a <a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v1.md">PEP_KERNEL_INFORMATION</a> structure.
 
@@ -158,9 +158,9 @@ The PEP must call <b>PoFxRegisterPluginEx</b> at IRQL = PASSIVE_LEVEL.
 
 <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
-<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
-
 <a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v1.md">PEP_KERNEL_INFORMATION</a>
+
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
  
 

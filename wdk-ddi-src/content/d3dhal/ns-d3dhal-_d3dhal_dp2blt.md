@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d0cdc50-a194-4eda-8bba-f6e5c06ff32c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2blt, d3dhal/LPD3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, D3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, *LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], LPD3DHAL_DP2BLT structure pointer [Display Devices], _D3DHAL_DP2BLT
+ms.keywords: d3dhal/LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT, *LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, _D3DHAL_DP2BLT, D3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, display.d3dhal_dp2blt, D3DHAL_DP2BLT structure [Display Devices], LPD3DHAL_DP2BLT structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,37 +77,37 @@ typedef struct _D3DHAL_DP2BLT {
 
 
 
-### -field dwSource
+#### - dwSource
 
 Specifies the handle to the source surface.
 
 
-### -field rSource
+#### - rSource
 
 Specifies a RECTL structure that specifies the upper left and lower right points of a rectangle on the source surface. These points define the area of the source blit data and its position on the source surface.
 
 
-### -field dwSourceMipLevel
+#### - dwSourceMipLevel
 
 Specifies the sublevel of a MIP-map texture that is the source of the blt. 
 
 
-### -field dwDest
+#### - dwDest
 
 Specifies the handle to the destination surface.
 
 
-### -field rDest
+#### - rDest
 
 Specifies a RECTL structure that specifies the upper left and lower right points of a rectangle on the destination surface. These points define the area in which the blit should occur and its position on the destination surface.
 
 
-### -field dwDestMipLevel
+#### - dwDestMipLevel
 
 Specifies the sublevel of a MIP-map texture that is the destination for the blt.
 
 
-### -field Flags
+#### - Flags
 
 Specifies a flag that indicates the type of filtering that the driver must perform. This member is set to zero to indicate that the driver can use its own filtering technique or is set to one of the following flags.
 <table>
@@ -149,9 +149,9 @@ The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the t
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-D3DDP2OP_BLT
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+D3DDP2OP_BLT
 
  
 

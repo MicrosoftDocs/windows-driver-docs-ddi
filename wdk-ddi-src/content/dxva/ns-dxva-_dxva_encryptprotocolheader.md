@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, _DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, DXVA_EncryptProtocolHeader structure [Display Devices]
+ms.keywords: DXVA_EncryptProtocolHeader, dxva/DXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, _DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], dxva/LPDXVA_EncryptProtocolHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_EncryptProtocolHeader
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader"
+req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 ---
 
 # _DXVA_EncryptProtocolHeader structure
@@ -69,19 +69,19 @@ typedef struct _DXVA_EncryptProtocolHeader {
 
 
 
-### -field dwFunction
+#### - dwFunction
 
 Indicates whether encryption is being used and the operation to which encryption applies. The 24 most significant bits of <b>dwFunction</b> indicate that an encryption protocol is being used. These bits must be 0xFFFF00 when sent by the host software decoder, and 0xFFFF08 when sent by the accelerator. The 8 least significant bits of <b>dwFunction</b> contain a <a href="https://msdn.microsoft.com/6db9fa71-7bc2-4eb6-afcb-b16df48f7e8b">bDXVA_Func</a> variable that indicates the operation to which the encryption protocol applies. Currently, the only relevant defined value of <i>bDXVA_Func</i> for use in these bits is 1, which indicates that the encryption protocol applies to compressed picture decoding.
 
 There are only two possible values for <b>dwFunction</b> in this structure: 0xFFFF0001 when sent by a host software decoder, and 0xFFFF0801 when sent by the hardware accelerator.
 
 
-### -field ReservedBits
+#### - ReservedBits
 
 Reserved bits used for packing and alignment. This must be zero.
 
 
-### -field guidEncryptProtocol
+#### - guidEncryptProtocol
 
 Contains the GUID associated with the encryption protocol.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, ifsk.rxcebuildaddress, RxCeBuildAddress function [Installable File System Drivers], rxce/RxCeBuildAddress, RxCeBuildAddress
+ms.keywords: RxCeBuildAddress function [Installable File System Drivers], rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, ifsk.rxcebuildaddress, RxCeBuildAddress, rxce/RxCeBuildAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeBuildAddress
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ NTSTATUS RxCeBuildAddress(
 
 
 
-### -param pAddress [in, out]
+#### - pAddress [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RDBSS connection engine address structure. On output when this call is successful, the data members in the RXCE_ADDRESS structure will be properly initialized.
 
 
-### -param pTransport [in]
+#### - pTransport [in]
 
 A pointer to the transport with which this address is to be associated.
 
 
-### -param pTransportAddress [in]
+#### - pTransportAddress [in]
 
 A pointer to the transport address to be associated with the binding.
 
 
-### -param pHandler [in]
+#### - pHandler [in]
 
 A pointer to the event handler associated with the registration.
 
 
-### -param pEventContext [in]
+#### - pEventContext [in]
 
 A pointer to the context parameter to be passed back to the event handler.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/TapeDriveTimetoClean, TapeDriveReadWarning, ntddtape/TapeDriveWriteError, TapeDriveWriteError, TapeDriveReadWriteError, ntddtape/TapeDriveScsiConnectionError, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, ntddtape/TapeDriveHardwareError, TapeDriveTimetoClean, TapeDriveMediaLifeExpired, storage.tape_drive_problem_type, TapeDriveUnsupportedMedia, TapeDriveScsiConnectionError, ntddtape/TapeDriveReadWriteWarning, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadError, ntddtape/TapeDriveWriteWarning, ntddtape/TapeDriveReadWarning, _TAPE_DRIVE_PROBLEM_TYPE, TapeDriveProblemNone, ntddtape/TapeDriveReadError, TapeDriveHardwareError, TapeDriveCleanDriveNow, ntddtape/TapeDriveMediaLifeExpired, TapeDriveReadWriteWarning, ntddtape/TapeDriveSnappedTape, TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveProblemNone, ntddtape/TapeDriveReadWriteError, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], ntddtape/TapeDriveUnsupportedMedia, TapeDriveWriteWarning, ntddtape/TapeDriveCleanDriveNow, TapeDriveSnappedTape
+ms.keywords: ntddtape/TapeDriveTimetoClean, TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWarning, TapeDriveCleanDriveNow, ntddtape/TapeDriveSnappedTape, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveReadWriteError, ntddtape/TapeDriveProblemNone, _TAPE_DRIVE_PROBLEM_TYPE, TapeDriveWriteError, ntddtape/TapeDriveHardwareError, TapeDriveReadWriteError, ntddtape/TapeDriveUnsupportedMedia, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], TapeDriveProblemNone, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadWriteWarning, TapeDriveMediaLifeExpired, storage.tape_drive_problem_type, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveReadError, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveReadWriteWarning, ntddtape/TapeDriveWriteWarning, TapeDriveWriteWarning, TapeDriveReadWarning, ntddtape/TapeDriveMediaLifeExpired, TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveReadError, TapeDriveHardwareError, TapeDriveTimetoClean, TapeDriveSnappedTape, ntddtape/TapeDriveWriteError, TapeDriveScsiConnectionError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,72 +80,72 @@ typedef enum _TAPE_DRIVE_PROBLEM_TYPE {
 
 
 
-### -field TapeDriveProblemNone
+#### - TapeDriveProblemNone
 
 Indicates that there is no tape drive problem.
 
 
-### -field TapeDriveReadWriteWarning
+#### - TapeDriveReadWriteWarning
 
 Indicates that the tape drive is having problems doing reads or writes. This is a warning.
 
 
-### -field TapeDriveReadWriteError
+#### - TapeDriveReadWriteError
 
 Indicates that the tape drive is having problems doing reads or writes. This is a severe error.
 
 
-### -field TapeDriveReadWarning
+#### - TapeDriveReadWarning
 
 Indicates that the tape drive is having problems doing reads. This is a warning.
 
 
-### -field TapeDriveWriteWarning
+#### - TapeDriveWriteWarning
 
 Indicates that the tape drive is having problems doing writes. This is a warning.
 
 
-### -field TapeDriveReadError
+#### - TapeDriveReadError
 
 Indicates that the tape drive is having problems doing reads. This is a severe error.
 
 
-### -field TapeDriveWriteError
+#### - TapeDriveWriteError
 
 Indicates that the tape drive is having problems doing writes. This is a severe error.
 
 
-### -field TapeDriveHardwareError
+#### - TapeDriveHardwareError
 
 Indicates that the tape drive had a hardware error.
 
 
-### -field TapeDriveUnsupportedMedia
+#### - TapeDriveUnsupportedMedia
 
 Indicates that the media format is not supported.
 
 
-### -field TapeDriveScsiConnectionError
+#### - TapeDriveScsiConnectionError
 
 Indicates that there is a SCSI cable or connection error.
 
 
-### -field TapeDriveTimetoClean
+#### - TapeDriveTimetoClean
 
 Indicates that the tape drive requires cleaning.
 
 
-### -field TapeDriveCleanDriveNow
+#### - TapeDriveCleanDriveNow
 
 Indicates that the tape drive requires cleaning.
 
 
-### -field TapeDriveMediaLifeExpired
+#### - TapeDriveMediaLifeExpired
 
 Indicates that the media life has expired. Media needs to be replaced.
 
 
-### -field TapeDriveSnappedTape
+#### - TapeDriveSnappedTape
 
 Indicates that the tape has snapped.
 

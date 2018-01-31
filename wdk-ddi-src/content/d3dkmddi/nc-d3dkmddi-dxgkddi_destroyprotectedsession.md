@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_DESTROYPROTECTEDSESSION(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 The handle generated for the adapter.
 
 
-### -param hProtectedSession [in]
+#### - hProtectedSession [in]
 
 The driver generated handle driver returned at DxgkDdiCreateProtectedSession.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, IDebugControl4, ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ExecuteCommandFileWide
+ms.keywords: ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, debugger.executecommandfilewide, ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4::ExecuteCommandFileWide, IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, IDebugControl4, dbgeng/IDebugControl4::ExecuteCommandFileWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT ExecuteCommandFileWide(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies where to send the output of the command.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-### -param CommandFile [in]
+#### - CommandFile [in]
 
 Specifies the name of the file that contains the commands to execute.  This file is opened for reading and its contents are interpreted as if they had been typed into the debugger console.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies execution options for the command.  The default options are to log the command but not to send it to the output.  For details about the values that <i>Flags</i> can take, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>.
 

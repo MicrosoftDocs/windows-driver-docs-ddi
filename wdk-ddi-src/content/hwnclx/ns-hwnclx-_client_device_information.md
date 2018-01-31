@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: ae438f89-27b7-423f-9f82-b103ba70b7b5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, CLIENT_DEVICE_INFORMATION structure, hwnclx/CLIENT_DEVICE_INFORMATION, *PCLIENT_DEVICE_INFORMATION, _CLIENT_DEVICE_INFORMATION
+ms.keywords: "*PCLIENT_DEVICE_INFORMATION, hwnclx/CLIENT_DEVICE_INFORMATION, _CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, gpiobtn._client_device_information, CLIENT_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION"
+req.typenames: CLIENT_DEVICE_INFORMATION, *PCLIENT_DEVICE_INFORMATION
 ---
 
 # _CLIENT_DEVICE_INFORMATION structure
@@ -72,26 +72,26 @@ typedef struct _CLIENT_DEVICE_INFORMATION {
 
 
 
-### -field Version
+#### - Version
 
 Specifies the version number of this structure. This value must be provided by the client driver to the class extension. The class extension is responsible for verifying that this version is supported. The hardware notification payload version number is <b>HWN_DEVICE_INFORMATION_VERSION</b>. 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the <b>CLIENT_DEVICE_INFORMATION</b> data structure.
 
 
-### -field TotalHwNs
+#### - TotalHwNs
 
 The total number of hardware notifications that the client device driver provides.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
  
 

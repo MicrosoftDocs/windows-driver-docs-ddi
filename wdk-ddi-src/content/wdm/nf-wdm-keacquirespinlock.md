@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 10999175-4793-4045-8a74-a9a491724ec9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, wdm/KeAcquireSpinLock, KeAcquireSpinLock, kernel.keacquirespinlock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], kernel.keacquirespinlock, wdm/KeAcquireSpinLock, k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, KeAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -121,13 +121,13 @@ The caller should release the spin lock with <b>KeReleaseSpinLock</b> as quickly
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
 
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
  
 

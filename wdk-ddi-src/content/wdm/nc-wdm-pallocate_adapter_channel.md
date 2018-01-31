@@ -40,7 +40,7 @@ apiname:
 -	AllocateAdapterChannel
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,27 +75,27 @@ NTSTATUS AllocateAdapterChannel(
 
 
 
-### -param DmaAdapter [in]
+#### - DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that represents the target device for a requested DMA operation.
 
 
-### -param NumberOfMapRegisters [in]
+#### - NumberOfMapRegisters [in]
 
 Specifies the number of map registers to be used in the transfer. This value is the lesser of the number of map registers needed to satisfy the current transfer request, and the number of available map registers returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>. 
 
 
-### -param ExecutionRoutine [in]
+#### - ExecutionRoutine [in]
 
 Pointer to a driver-supplied <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a> routine. The routine is called when the system DMA controller or bus-master adapter becomes available.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the driver-determined context to be passed to the <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a> routine. 
 
@@ -159,23 +159,23 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
-
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
-
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 <a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
 
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
 
  
 

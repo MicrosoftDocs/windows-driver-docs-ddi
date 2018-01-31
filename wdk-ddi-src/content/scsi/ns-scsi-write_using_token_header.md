@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PWRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER, storage.write_using_token_header, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices]"
+ms.keywords: WRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], PWRITE_USING_TOKEN_HEADER, storage.write_using_token_header, scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, *PWRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _WRITE_USING_TOKEN_HEADER {
 
 
 
-### -field WriteUsingTokenDataLength
+#### - WriteUsingTokenDataLength
 
 The length of this structure beginning with the <i>Immediate</i> parameter and include all of the elements of the <b>BlockDeviceRangeDescriptor</b> array.
 
 
-### -field Immediate
+#### - Immediate
 
 If set, the status of the WRITE USING TOKEN command is returned immediately after receipt and validation of the token ROD and range descriptors. Otherwise, status is returned after all command processing is complete.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved bits.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved.
 
 
-### -field BlockOffsetIntoToken
+#### - BlockOffsetIntoToken
 
 The offset, in logical blocks,  in the ROD for <b>Token</b> indicating the start of the source data for the offload write data operation.
 
 
-### -field Token
+#### - Token
 
 A token created by a previous the POPULATE TOKEN command operation.
 
 
-### -field Reserved3
+#### - Reserved3
 
 Reserved.
 
 
-### -field BlockDeviceRangeDescriptorListLength
+#### - BlockDeviceRangeDescriptorListLength
 
 The length, in bytes, for all  of the <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
 
 
-### -field BlockDeviceRangeDescriptor
+#### - BlockDeviceRangeDescriptor
 
 An array of <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the destination data blocks for the offload write data transfer.
 
@@ -130,9 +130,9 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
-
 <a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
+
+<a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
 
  
 

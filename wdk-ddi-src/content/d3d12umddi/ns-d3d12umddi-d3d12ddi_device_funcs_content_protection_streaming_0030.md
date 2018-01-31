@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5ddf67c1-5ee7-4948-b631-45aeb031a293
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030, display.d3d12ddi-device-funcs-content-protection-streaming-0030, D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030 structure [Display Devices]
+ms.keywords: D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030, display.d3d12ddi-device-funcs-content-protection-streaming-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,62 +78,62 @@ typedef struct _D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030 {
 
 
 
-### -field pfnCalcPrivateCryptoSessionSize
+#### - pfnCalcPrivateCryptoSessionSize
 
 Calculate private crypto session size.
 
 
-### -field pfnCreateCryptoSession
+#### - pfnCreateCryptoSession
 
 Create crypto session.
 
 
-### -field pfnCalcPrivateOpenedCryptoSessionSize
+#### - pfnCalcPrivateOpenedCryptoSessionSize
 
 Calculate private opened crypto session size.
 
 
-### -field pfnOpenCryptoSession
+#### - pfnOpenCryptoSession
 
 Open crypto session.
 
 
-### -field pfnDestroyCryptoSession
+#### - pfnDestroyCryptoSession
 
 Destroy crypto session.
 
 
-### -field pfnGetKeyBaseData
+#### - pfnGetKeyBaseData
 
 Get key base data.
 
 
-### -field pfnCalcPrivateCryptoSessionPolicySize
+#### - pfnCalcPrivateCryptoSessionPolicySize
 
 Calculate private crypto session policy size.
 
 
-### -field pfnCreateCryptoSessionPolicy
+#### - pfnCreateCryptoSessionPolicy
 
 Create crypto session policy.
 
 
-### -field pfnCalcPrivateOpenedCryptoSessionPolicySize
+#### - pfnCalcPrivateOpenedCryptoSessionPolicySize
 
 Calculate private opened crypto session policy size.
 
 
-### -field pfnOpenCryptoSessionPolicy
+#### - pfnOpenCryptoSessionPolicy
 
 Open crypto session policy.
 
 
-### -field pfnDestroyCryptoSessionPolicy
+#### - pfnDestroyCryptoSessionPolicy
 
 Destroy crypto session policy.
 
 
-### -field pfnTransformEncryptedData
+#### - pfnTransformEncryptedData
 
 Transform encrypted data.
 

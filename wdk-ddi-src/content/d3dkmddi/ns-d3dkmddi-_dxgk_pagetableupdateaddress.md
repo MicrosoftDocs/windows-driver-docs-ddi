@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39013276-C76A-4E31-80DD-26C17A020BD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_pagetableupdateaddress, _DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS, d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices]
+ms.keywords: display.dxgk_pagetableupdateaddress, DXGK_PAGETABLEUPDATEADDRESS, _DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,26 +71,26 @@ typedef struct _DXGK_PAGETABLEUPDATEADDRESS {
 
 
 
-### -field CpuVirtual
+#### - CpuVirtual
 
 The CPU virtual address of the page table to update.
 
 
-### -field GpuPhysical
+#### - GpuPhysical
 
 The GPU physical address of the page table to update.
 
 
-### -field GpuVirtual
+#### - GpuVirtual
 
 The GPU virtual address of the page table to update.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
  
 

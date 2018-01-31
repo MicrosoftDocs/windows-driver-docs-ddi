@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0a4c7ffc-94f9-4068-b650-1da43e45d0ad
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TOPOLOGY_MAP, 1394/TOPOLOGY_MAP, *PTOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, PTOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], 1394/PTOPOLOGY_MAP, _TOPOLOGY_MAP, PTOPOLOGY_MAP structure pointer [Buses], IEEE.topology_map
+ms.keywords: TOPOLOGY_MAP structure [Buses], PTOPOLOGY_MAP structure pointer [Buses], TOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, _TOPOLOGY_MAP, IEEE.topology_map, PTOPOLOGY_MAP, 1394/PTOPOLOGY_MAP, *PTOPOLOGY_MAP, 1394/TOPOLOGY_MAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TOPOLOGY_MAP
 product: Windows
 targetos: Windows
-req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
+req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
 
 # _TOPOLOGY_MAP structure
@@ -72,32 +72,32 @@ typedef struct _TOPOLOGY_MAP {
 
 
 
-### -field TOP_Length
+#### - TOP_Length
 
 Specifies the length in quadlets of the topology map.
 
 
-### -field TOP_CRC
+#### - TOP_CRC
 
 Specifies the CRC value for the topology map.
 
 
-### -field TOP_Generation
+#### - TOP_Generation
 
 Specifies the bus reset generation for which the topology map was created.
 
 
-### -field TOP_Node_Count
+#### - TOP_Node_Count
 
 Specifies the number of nodes in the topology map.
 
 
-### -field TOP_Self_ID_Count
+#### - TOP_Self_ID_Count
 
 Specifies the number of entries in <b>TOP_Self_ID_Array</b>.
 
 
-### -field TOP_Self_ID_Array
+#### - TOP_Self_ID_Array
 
 Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff538073">SELF_ID</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff538080">SELF_ID_MORE</a> structures (the two structures are the same size).
 

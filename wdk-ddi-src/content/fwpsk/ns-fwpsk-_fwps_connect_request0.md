@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dee5586d-62fd-4e08-854c-c7d44be60a71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml, fwpsk/FWPS_CONNECT_REQUEST0, _FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0
+ms.keywords: wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml, FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_CONNECT_REQUEST0, _FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0, FWPS_CONNECT_REQUEST0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,28 +84,28 @@ typedef struct _FWPS_CONNECT_REQUEST0 {
  
 
 
-### -field previousVersion
+#### - previousVersion
 
 The previous version of the connect request data. This read-only field records the modification history of the connect request. If the connect
      request data has not been previously modified by another WFP filter, 
      <i>previousVersion</i> will be set to <b>NULL</b>.
 
 
-### -field localAddressAndPort
+#### - localAddressAndPort
 
 The local transport address of the connect request. This is an IPV4 or IPV6 address and TCP port
      formatted as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a> structure.
 
 
-### -field remoteAddressAndPort
+#### - remoteAddressAndPort
 
 The remote transport address of the connect request. This is an IPV4 or IPV6 address and TCP/UDP
      port formatted as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a> structure.
 
 
-### -field portReservationToken
+#### - portReservationToken
 
 A token used to reserve the appropriate port. The token is obtained when a port is reserved by
      calling either 
@@ -113,7 +113,7 @@ A token used to reserve the appropriate port. The token is obtained when a port 
      <a href="https://msdn.microsoft.com/AFD2EFD1-55AF-49C9-8109-D4D1B7BB7C94">CreatePersistentUdpPortReservation</a>.
 
 
-### -field localRedirectTargetPID
+#### - localRedirectTargetPID
 
 The process identifier of the local host process that will be handling traffic to the address
      specified in 
@@ -121,7 +121,7 @@ The process identifier of the local host process that will be handling traffic t
      engine.
 
 
-### -field modifierFilterId
+#### - modifierFilterId
 
 The value of the 
      <b>FilterId</b> member of the 
@@ -131,18 +131,18 @@ The value of the
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>.
 
 
-### -field localRedirectHandle
+#### - localRedirectHandle
 
  The    redirect handle that the callout driver created by calling the <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a> function.
 <div class="alert"><b>Note</b>  Starting with Windows 8, the <b>localRedirectHandle</b> must be populated for redirection to work.</div><div> </div>
 
-### -field localRedirectContext
+#### - localRedirectContext
 
 A callout driver context area that the callout driver allocated by calling the 
     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> function.
 <div class="alert"><b>Note</b>  Starting with Windows 8,  memory allocated for <b>localRedirectContext</b> will have its ownership taken by WFP, and will be freed when the proxied flow is removed.</div><div> </div>
 
-### -field localRedirectContextSize
+#### - localRedirectContextSize
 
 The    size, in bytes, of the callout-supplied context area.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
@@ -188,16 +188,9 @@ Call
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
-   FwpsAcquireWritableLayerDataPointer0</b></mshelp:link>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
 
 <mshelp:link keywords="netvista.using_bind_or_connect_redirection" tabindex="0">Using Bind or Connect
    Redirection</mshelp:link>
@@ -205,6 +198,13 @@ Call
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+<mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
+   FwpsAcquireWritableLayerDataPointer0</b></mshelp:link>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
  
 

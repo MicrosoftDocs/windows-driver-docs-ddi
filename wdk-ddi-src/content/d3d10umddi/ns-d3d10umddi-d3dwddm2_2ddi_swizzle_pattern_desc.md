@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AD3D5847-862F-41AA-90C0-0F8A1D0A617B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure [Display Devices], display.d3dwddm2_2ddi_swizzle_pattern_desc, d3d10umddi/D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
+ms.keywords: d3d10umddi/D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, display.d3dwddm2_2ddi_swizzle_pattern_desc, D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC {
 
 
 
-### -field InterleavePatternSourceBits
+#### - InterleavePatternSourceBits
 
 The interleave pattern source bits.
 
 
-### -field InterleavePatternXORSourceBits
+#### - InterleavePatternXORSourceBits
 
 The interleave pattern XOR source bits.
 
 
-### -field InterleavePatternXOR2SourceBits
+#### - InterleavePatternXOR2SourceBits
 
 The interleave pattern second XOR source bits.
 
 
-### -field InterleavePatternXOR3SourceBits
+#### - InterleavePatternXOR3SourceBits
 
 The interleave pattern third XOR source bits.
 
 
-### -field InterleavePatternXOR4SourceBits
+#### - InterleavePatternXOR4SourceBits
 
 The interleave pattern fourth XOR source bits.
 
 
-### -field PostambleXORSourceBits
+#### - PostambleXORSourceBits
 
 Postamble XOR source bits.
 
 
-### -field PostambleXOR2SourceBits
+#### - PostambleXOR2SourceBits
 
 Postamble second XOR source bits.
 
 
-### -field PostambleXORImmediate
+#### - PostambleXORImmediate
 
 A postamble XOR immediate value. 
 
 
-### -field Flags
+#### - Flags
 
 Flags. For more information, see the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_swizzle_pattern_flags.md">D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS</a> enumeration. 
 

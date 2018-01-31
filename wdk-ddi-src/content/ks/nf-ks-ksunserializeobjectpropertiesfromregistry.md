@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e08ddef7-5942-4943-9dbe-9658279892f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsUnserializeObjectPropertiesFromRegistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices], stream.ksunserializeobjectpropertiesfromregistry, KsUnserializeObjectPropertiesFromRegistry
+ms.keywords: ks/KsUnserializeObjectPropertiesFromRegistry, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices], KsUnserializeObjectPropertiesFromRegistry, stream.ksunserializeobjectpropertiesfromregistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsUnserializeObjectPropertiesFromRegistry(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Specifies the file object whose properties are being set.
 
 
-### -param ParentKey [in, optional]
+#### - ParentKey [in, optional]
 
 Optionally contains a handle to the parent of the path, or <b>NULL</b>. The Parent Key and/or the <i>RegistryPath</i> must be passed.
 
 
-### -param RegistryPath [in, optional]
+#### - RegistryPath [in, optional]
 
 Optionally contains the path to the key whose subkeys will be enumerated as property sets, or otherwise <b>NULL</b>. The <i>ParentKey</i> and/or the Registry Path must be passed.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c3512a79-884f-4f38-9942-63a4a464585c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_GetRegistryKeyValue, stream.usbcamd_getregistrykeyvalue, USBCAMD_GetRegistryKeyValue function [Streaming Media Devices], usbcmdpr_f93ab3a6-f063-4c69-819d-1aed77b8efe6.xml, usbcamdi/USBCAMD_GetRegistryKeyValue
+ms.keywords: stream.usbcamd_getregistrykeyvalue, USBCAMD_GetRegistryKeyValue, usbcmdpr_f93ab3a6-f063-4c69-819d-1aed77b8efe6.xml, USBCAMD_GetRegistryKeyValue function [Streaming Media Devices], usbcamdi/USBCAMD_GetRegistryKeyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS USBCAMD_GetRegistryKeyValue(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Handle to a valid and open device registry key.
 
 
-### -param KeyNameString [in]
+#### - KeyNameString [in]
 
 Pointer to the string buffer describing the key type.
 
 
-### -param KeyNameStringLength [in]
+#### - KeyNameStringLength [in]
 
 Specifies the length, in characters, of <i>KeyNameString</i>.
 
 
-### -param Data [in]
+#### - Data [in]
 
 Pointer to a caller-specified value or structure.
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 Specifies the length, in bytes, of the value or structure at <i>Data.</i>
 

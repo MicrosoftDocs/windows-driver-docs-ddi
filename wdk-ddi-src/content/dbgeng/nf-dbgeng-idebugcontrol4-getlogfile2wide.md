@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8c11811f-c3d3-494b-98d7-15540d5afb24
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetLogFile2Wide, GetLogFile2Wide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetLogFile2Wide, dbgeng/IDebugControl4::GetLogFile2Wide, GetLogFile2Wide method [Windows Debugging], IDebugControl4, IDebugControl4 interface [Windows Debugging], GetLogFile2Wide method, debugger.getlogfile2wide
+ms.keywords: IDebugControl4 interface [Windows Debugging], GetLogFile2Wide method, dbgeng/IDebugControl4::GetLogFile2Wide, GetLogFile2Wide, debugger.getlogfile2wide, IDebugControl4, IDebugControl4::GetLogFile2Wide, GetLogFile2Wide method [Windows Debugging], GetLogFile2Wide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetLogFile2Wide(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the name of the currently open log file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param FileSize [out, optional]
+#### - FileSize [out, optional]
 
 Receives the size, in characters, of the name of the log file.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Flags [out]
+#### - Flags [out]
 
 Receives the bit-flags that were used when opening the log file.  See the <i>Flags</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a> for a description of these flags.
 
@@ -145,15 +145,15 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: F077B970-F146-43BC-BB92-A836C8843890
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], PKSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE, stream.ksgraphmanager_functiontable, ks/KSGRAPHMANAGER_FUNCTIONTABLE
+ms.keywords: stream.ksgraphmanager_functiontable, PKSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE, ks/PKSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,6 +67,6 @@ typedef struct _KSGRAPHMANAGER_FUNCTIONTABLE {
 
 
 
-### -field NotifyEvent
+#### - NotifyEvent
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0dfa2eb8-a7f6-46d9-9599-5e2aaf583f78
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnRemoteInterfaceRemoval, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, IRemoteInterfaceCallbackRemoval, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval interface, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method
+ms.keywords: IRemoteInterfaceCallbackRemoval, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval interface, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void OnRemoteInterfaceRemoval(
 
 
 
-### -param pWdfRemoteInterface [in]
+#### - pWdfRemoteInterface [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterface.md">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>.
 
@@ -95,11 +95,11 @@ For more information about a driver's <b>OnRemoteInterfaceRemoval</b> event call
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md">IRemoteInterfaceCallbackRemoval</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556889">IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent</a>
+
+<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md">IRemoteInterfaceCallbackRemoval</a>
 
  
 

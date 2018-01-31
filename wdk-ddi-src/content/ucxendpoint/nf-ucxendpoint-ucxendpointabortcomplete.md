@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 754BCC74-1EC2-429E-A711-E8958665A5A8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxendpointabortcomplete, UcxEndpointAbortComplete, UcxEndpointAbortComplete method [Buses], ucxendpoint/UcxEndpointAbortComplete
+ms.keywords: UcxEndpointAbortComplete method [Buses], UcxEndpointAbortComplete, buses._ucxendpointabortcomplete, ucxendpoint/UcxEndpointAbortComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void UcxEndpointAbortComplete(
 
 
 
-### -param Endpoint [in]
+#### - Endpoint [in]
 
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3f34183-7595-47b6-a2f1-c32650734a04
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_POOL enumeration [Display Devices], d3dukmdt/D3DDDIPOOL_STAGINGMEM, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM, D3DDDIPOOL_NONLOCALVIDMEM, D3DDDIPOOL_VIDEOMEMORY, d3dukmdt/D3DDDI_POOL, D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, D3DDDI_POOL, _D3DDDI_POOL, D3DDDIPOOL_STAGINGMEM, display.d3dddi_pool, D3DDDIPOOL_SYSTEMMEM, d3dukmdt/D3DDDIPOOL_LOCALVIDMEM, D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, d3dukmdt/D3DDDIPOOL_SYSTEMMEM
+ms.keywords: d3dukmdt/D3DDDIPOOL_STAGINGMEM, _D3DDDI_POOL, D3DDDI_POOL, D3DDDIPOOL_STAGINGMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, D3DDDIPOOL_NONLOCALVIDMEM, D3DDDIPOOL_VIDEOMEMORY, display.d3dddi_pool, d3dukmdt/D3DDDIPOOL_SYSTEMMEM, D3DDDI_POOL enumeration [Display Devices], D3DDDIPOOL_LOCALVIDMEM, D3DDDIPOOL_SYSTEMMEM, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM, D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, d3dukmdt/D3DDDI_POOL, d3dukmdt/D3DDDIPOOL_LOCALVIDMEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,27 +73,27 @@ typedef enum _D3DDDI_POOL {
 
 
 
-### -field D3DDDIPOOL_SYSTEMMEM
+#### - D3DDDIPOOL_SYSTEMMEM
 
 Resources exist in system memory.
 
 
-### -field D3DDDIPOOL_VIDEOMEMORY
+#### - D3DDDIPOOL_VIDEOMEMORY
 
 Resources exist in display memory.
 
 
-### -field D3DDDIPOOL_LOCALVIDMEM
+#### - D3DDDIPOOL_LOCALVIDMEM
 
 Resources exist in true, local display memory rather than nonlocal display memory (for example, AGP memory).
 
 
-### -field D3DDDIPOOL_NONLOCALVIDMEM
+#### - D3DDDIPOOL_NONLOCALVIDMEM
 
 Resources exist in nonlocal display memory (for example, AGP memory) rather than true, local display memory.
 
 
-### -field D3DDDIPOOL_STAGINGMEM
+#### - D3DDDIPOOL_STAGINGMEM
 
 Resources exist in staging memory that the user-mode display driver has allocated. This value indicates to the driver that it should allocate its own staging memory rather than use allocated Direct3D 10Level 9 memory.
 

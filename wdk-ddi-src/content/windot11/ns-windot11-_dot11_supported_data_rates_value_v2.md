@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2407204b-215c-481e-876d-740bc3d55ee3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_supported_data_rates_value_v2, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_DATA_RATES_VALUE_V1, DOT11_SUPPORTED_DATA_RATES_VALUE_V2, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, windot11/DOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_DATA_RATES_VALUE_V1, Native_802.11_data_types_20f2b1ba-9639-4a8b-b5c1-f7441300bea5.xml, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, windot11/PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, _DOT11_SUPPORTED_DATA_RATES_VALUE_V2
+ms.keywords: DOT11_SUPPORTED_DATA_RATES_VALUE_V1, windot11/DOT11_SUPPORTED_DATA_RATES_VALUE_V2, _DOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_DATA_RATES_VALUE_V1, Native_802.11_data_types_20f2b1ba-9639-4a8b-b5c1-f7441300bea5.xml, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, windot11/PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure [Network Drivers Starting with Windows Vista], netvista.dot11_supported_data_rates_value_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SUPPORTED_DATA_RATES_VALUE_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2"
+req.typenames: DOT11_SUPPORTED_DATA_RATES_VALUE_V2, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V2
 req.product: Windows 10 or later.
 ---
 
@@ -70,13 +70,13 @@ typedef struct _DOT11_SUPPORTED_DATA_RATES_VALUE_V2 {
 
 
 
-### -field ucSupportedTxDataRatesValue
+#### - ucSupportedTxDataRatesValue
 
 An array of the transmit data rates supported by the Physical Layer Convergence Procedure (PLCP)
      and Physical Media Dependent (PMD) sublayer of the PHY.
 
 
-### -field ucSupportedRxDataRatesValue
+#### - ucSupportedRxDataRatesValue
 
 An array of the receive data rates supported by the PLCP and PMD of the PHY.
 
@@ -104,16 +104,16 @@ If the number of supported rates in either array is less than 255, the miniport 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
+<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
 <mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>
 
-<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
-
 <mshelp:link keywords="netvista.oid_dot11_supported_data_rates_value" tabindex="0">
    OID_DOT11_SUPPORTED_DATA_RATES_VALUE</mshelp:link>
+
+<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
 
  
 

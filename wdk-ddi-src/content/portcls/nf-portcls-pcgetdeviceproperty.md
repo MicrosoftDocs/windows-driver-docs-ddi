@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75d66965-ab97-4f67-b62f-e7fedbf524a6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcGetDeviceProperty, audio.pcgetdeviceproperty, portcls/PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml
+ms.keywords: PcGetDeviceProperty, audio.pcgetdeviceproperty, PcGetDeviceProperty function [Audio Devices], audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcGetDeviceProperty
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcGetDeviceProperty function
@@ -72,27 +72,27 @@ NTSTATUS PcGetDeviceProperty(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for the device. This parameter points to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> system structure but is cast to type PVOID.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 Specifies the Plug and Play device property that is requested. For a list of property specifier values, see the following Remarks section.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Specifies the length in bytes of the buffer that is to receive the requested property data.
 
 
-### -param PropertyBuffer [out]
+#### - PropertyBuffer [out]
 
 Pointer to a caller-allocated buffer into which the method is to write the requested property data. The buffer must be large enough to contain the number of bytes specified in <i>BufferLength</i>.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 Pointer to a caller-allocated variable into which the method outputs a count specifying the number of bytes actually written to the buffer. If the buffer size specified in <i>BufferLength</i> is too small to hold the property data, the method instead outputs the number of bytes required for the property data and returns STATUS_BUFFER_TOO_SMALL.
 

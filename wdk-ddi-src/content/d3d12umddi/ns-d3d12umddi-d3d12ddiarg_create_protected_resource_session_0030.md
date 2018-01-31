@@ -67,7 +67,7 @@ typedef struct _D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030 {
 
 
 
-### -field NodeMask
+#### - NodeMask
 
 Represents the set of nodes.
 

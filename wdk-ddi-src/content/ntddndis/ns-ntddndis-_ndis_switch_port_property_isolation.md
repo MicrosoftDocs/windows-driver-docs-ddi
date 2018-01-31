@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 142AF97B-601E-44FB-8548-90CB152B8760
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_switch_port_property_isolation, PNDIS_SWITCH_PORT_PROPERTY_ISOLATION, NDIS_SWITCH_PORT_PROPERTY_ISOLATION structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ISOLATION, *PNDIS_SWITCH_PORT_PROPERTY_ISOLATION, _NDIS_SWITCH_PORT_PROPERTY_ISOLATION, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ISOLATION, NDIS_SWITCH_PORT_PROPERTY_ISOLATION, PNDIS_SWITCH_PORT_PROPERTY_ISOLATION structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_SWITCH_PORT_PROPERTY_ISOLATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_ISOLATION, *PNDIS_SWITCH_PORT_PROPERTY_ISOLATION, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ISOLATION, netvista.ndis_switch_port_property_isolation, NDIS_SWITCH_PORT_PROPERTY_ISOLATION, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ISOLATION, NDIS_SWITCH_PORT_PROPERTY_ISOLATION structure [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_ISOLATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_PROPERTY_ISOLATION
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_PORT_PROPERTY_ISOLATION, *PNDIS_SWITCH_PORT_PROPERTY_ISOLATION
+req.typenames: "*PNDIS_SWITCH_PORT_PROPERTY_ISOLATION, NDIS_SWITCH_PORT_PROPERTY_ISOLATION"
 ---
 
 # _NDIS_SWITCH_PORT_PROPERTY_ISOLATION structure
@@ -71,7 +71,7 @@ typedef struct _NDIS_SWITCH_PORT_PROPERTY_ISOLATION {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_ISOLATION</b>  structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -87,33 +87,33 @@ Original version for NDIS 6.40 and later.
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_SWITCH_PORT_PROPERTY_ISOLATION_REVISION_1</b>.
 
 
-### -field Flags
+#### - Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-### -field IsolationMode
+#### - IsolationMode
 
 An <a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a> enumeration value that specifies the isolation mode.
 
 
-### -field AllowUntaggedTraffic
+#### - AllowUntaggedTraffic
 
 Specifies whether the VM network adapter port is allowed to send or receive untagged packets. If untagged packets are allowed, the VM network adapter miniport driver tags untagged packets with the default isolation ID specified by the <b>DefaultIsolationId</b> member. Otherwise, the miniport driver drops them.
 
 
-### -field DefaultIsolationId
+#### - DefaultIsolationId
 
 The default isolation ID that is applied to tagged packets if the <b>AllowUntaggedTraffic</b> member is <b>TRUE</b>.
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
 
  
 

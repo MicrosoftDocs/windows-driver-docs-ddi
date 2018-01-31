@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7b9f38f5-7fc9-4670-975d-b7bfeefb2cb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnalignedStringCchLengthW, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcchlength, RtlUnalignedStringCchLength, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml, ntstrsafe/RtlUnalignedStringCchLengthW
+ms.keywords: RtlUnalignedStringCchLengthW, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcchlength, ntstrsafe/RtlUnalignedStringCchLengthW, RtlUnalignedStringCchLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlUnalignedStringCchLengthW(
 
 
 
-### -param psz [in]
+#### - psz [in]
 
 Supplies a pointer to a buffer that contains a null-terminated string whose length <b>RtlUnalignedStringCchLengthW</b> will check. 
 
 
-### -param cchMax [in]
+#### - cchMax [in]
 
 Supplies the maximum number of characters that are allowed in the buffer that <i>psz</i> points to, including the terminating NULL character. This value cannot exceed NTSTRSAFE_MAX_CCH. 
 
 
-### -param pcchLength [out, optional]
+#### - pcchLength [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in characters, of the string that is contained in the buffer that <i>psz</i> points to. The length does not include the string's terminating NULL character.
 

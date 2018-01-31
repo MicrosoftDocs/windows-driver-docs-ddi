@@ -75,17 +75,17 @@ VOID MiniportProcessSGList(
 
 
 
-### -param pDO [in]
+#### - pDO [in]
 
 Miniport drivers should ignore this parameter.
 
 
-### -param Reserved [in]
+#### - Reserved [in]
 
 Miniport drivers should ignore this parameter.
 
 
-### -param pSGL [in]
+#### - pSGL [in]
 
 A pointer to a scatter/gather list buffer. This is not necessarily the same buffer as the one the
      driver specified in the call to the 
@@ -93,7 +93,7 @@ A pointer to a scatter/gather list buffer. This is not necessarily the same buff
      NdisMAllocateNetBufferSGList</b></mshelp:link> function
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a context area that the miniport driver created prior to calling 
      <b>NdisMAllocateNetBufferSGList</b>.
@@ -167,10 +167,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
 <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
    NdisMRegisterScatterGatherDma</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
 
  
 

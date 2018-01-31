@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 15AE3B05-1FD4-4ADB-B92F-9098225A920B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_hdr_metadata, d3dkmddi/DXGK_HDR_METADATA, DXGK_HDR_METADATA, DXGK_HDR_METADATA structure [Display Devices], _DXGK_HDR_METADATA
+ms.keywords: DXGK_HDR_METADATA, _DXGK_HDR_METADATA, DXGK_HDR_METADATA structure [Display Devices], d3dkmddi/DXGK_HDR_METADATA, display.dxgk_hdr_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGK_HDR_METADATA {
 
 
 
-### -field Type
+#### - Type
 
 Indicates the type of the HDR metadata.
 
 
-### -field Size
+#### - Size
 
 Indicates the size of the HDR metadata.
 
 
-### -field pMetaData
+#### - pMetaData
 
 Pointer to the HDR metadata.
 

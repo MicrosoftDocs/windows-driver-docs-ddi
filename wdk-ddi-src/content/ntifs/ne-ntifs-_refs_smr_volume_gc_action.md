@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9A9D174A-0E9E-4B3A-BF91-3000128C58C7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PREFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION enumeration [Installable File System Drivers], ntifs/PREFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStartFullSpeed, ntifs/SmrGcActionStart, SmrGcActionStartFullSpeed, SmrGcActionPause, PREFS_SMR_VOLUME_GC_ACTION enumeration pointer [Installable File System Drivers], ntifs/SmrGcActionPause, REFS_SMR_VOLUME_GC_ACTION, ntifs/REFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, SmrGcActionStop, _REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStop, SmrGcActionStart, PREFS_SMR_VOLUME_GC_ACTION"
+ms.keywords: PREFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION enumeration pointer [Installable File System Drivers], ntifs/REFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, ntifs/PREFS_SMR_VOLUME_GC_ACTION, SmrGcActionPause, *PREFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStart, ntifs/SmrGcActionPause, SmrGcActionStartFullSpeed, SmrGcActionStart, REFS_SMR_VOLUME_GC_ACTION enumeration [Installable File System Drivers], _REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStop, ntifs/SmrGcActionStartFullSpeed, SmrGcActionStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _REFS_SMR_VOLUME_GC_ACTION {
 
 
 
-### -field SmrGcActionStart
+#### - SmrGcActionStart
 
 Specifies to start garbage collection or resume from a previously paused garbage collection.  By default, garbage collection is off on Shingled Magnetic Recording (SMR) volumes.  Only users with admin rights can modify this setting.
 
 
-### -field SmrGcActionStartFullSpeed
+#### - SmrGcActionStartFullSpeed
 
 Specifies to start or resume garbage collection at full speed.  Issuing Read/ Write I/O up to one SMR band size (256mb) at a time.
 
 
-### -field SmrGcActionPause
+#### - SmrGcActionPause
 
 Specifies to temporarily stop the garbage collection if it's in progress.  If the garbage collection is not in progress, there will be no operation.
 
 
-### -field SmrGcActionStop
+#### - SmrGcActionStop
 
 Specifies to stop the garbage collection process and removes the ability to resume.  If garbage collection was paused previously, this will clear the ability to resume from the point of the pause.
 

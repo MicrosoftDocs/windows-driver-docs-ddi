@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a1ce43d-ba2c-489c-b37f-d98b9cf1d6b0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_676b0467-3a23-4aac-8f72-7fd53ef399dd.xml, PKSVPSURFACEPARAMS, KSVPSURFACEPARAMS, stream.ksvpsurfaceparams, *PKSVPSURFACEPARAMS, PKSVPSURFACEPARAMS structure pointer [Streaming Media Devices], ksmedia/KSVPSURFACEPARAMS, ksmedia/PKSVPSURFACEPARAMS, KSVPSURFACEPARAMS structure [Streaming Media Devices]
+ms.keywords: stream.ksvpsurfaceparams, ksmedia/KSVPSURFACEPARAMS, *PKSVPSURFACEPARAMS, PKSVPSURFACEPARAMS, dvdref_676b0467-3a23-4aac-8f72-7fd53ef399dd.xml, ksmedia/PKSVPSURFACEPARAMS, KSVPSURFACEPARAMS, PKSVPSURFACEPARAMS structure pointer [Streaming Media Devices], KSVPSURFACEPARAMS structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field dwPitch
+#### - dwPitch
 
 Specifies the pitch (byte count between subsequent lines) of the video port surface.
 
 
-### -field dwXOrigin
+#### - dwXOrigin
 
 Indicates the x-origin of the video port surface.
 
 
-### -field dwYOrigin
+#### - dwYOrigin
 
 Indicates the y-origin of the video port surface.
 

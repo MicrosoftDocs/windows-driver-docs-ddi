@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e79ed9a1-b271-4c0a-a82f-9fecab930569
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoSetSystemWake, wdm/PoSetSystemWake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, kernel.posetsystemwake, PoSetSystemWake routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoSetSystemWake, wdm/PoSetSystemWake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, PoSetSystemWake routine [Kernel-Mode Driver Architecture], kernel.posetsystemwake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID PoSetSystemWake(
 
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to the wait/wake IRP.
 

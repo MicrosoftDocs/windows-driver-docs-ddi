@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66041ccb-e63a-4843-85ec-d93b924bb335
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCloneStreamData0, FwpsCloneStreamData0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml, netvista.fwpsclonestreamdata0
+ms.keywords: netvista.fwpsclonestreamdata0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml, FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCloneStreamData0, FwpsCloneStreamData0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS NTAPI FwpsCloneStreamData0(
 
 
 
-### -param calloutStreamData [in, out]
+#### - calloutStreamData [in, out]
 
 A pointer to the original 
      <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure that is to
@@ -82,7 +82,7 @@ A pointer to the original
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure cloned.
 
 
-### -param netBufferListPoolHandle [in, optional]
+#### - netBufferListPoolHandle [in, optional]
 
 A 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool handle that was
@@ -90,7 +90,7 @@ A
      <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param netBufferPoolHandle [in, optional]
+#### - netBufferPoolHandle [in, optional]
 
 A 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> pool handle that was obtained from a
@@ -99,13 +99,13 @@ A
      NdisAllocateNetBufferPool</b></mshelp:link> function. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param allocateCloneFlags [in]
+#### - allocateCloneFlags [in]
 
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
 
-### -param netBufferListChain [out]
+#### - netBufferListChain [out]
 
 A pointer to a location that receives a pointer to a chain of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that describe
@@ -182,15 +182,15 @@ A callout should call the
 
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsdiscardclonedstreamdata0.md">FwpsDiscardClonedStreamData0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
  
 

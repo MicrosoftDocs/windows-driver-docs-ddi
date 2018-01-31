@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3857CA53-6992-410A-96D1-EEA9CC586EDF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PURS_CONFIG, URS_CONFIG structure [Buses], ursdevice/PURS_CONFIG, _URS_CONFIG, PURS_CONFIG structure pointer [Buses], PURS_CONFIG, ursdevice/URS_CONFIG, URS_CONFIG, buses.urs_config"
+ms.keywords: PURS_CONFIG structure pointer [Buses], buses.urs_config, PURS_CONFIG, URS_CONFIG structure [Buses], ursdevice/PURS_CONFIG, ursdevice/URS_CONFIG, URS_CONFIG, _URS_CONFIG, *PURS_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,31 +71,31 @@ typedef struct _URS_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size of this structure.
 
 
-### -field HostInterfaceType
+#### - HostInterfaceType
 
 A <a href="..\urstypes\ne-urstypes-_urs_host_interface_type.md">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of USB host controller: EHCI, xHCI, or other.
 
 
-### -field EvtUrsFilterRemoveResourceRequirements
+#### - EvtUrsFilterRemoveResourceRequirements
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595921">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> callback function.
 
 
-### -field EvtUrsSetRole
+#### - EvtUrsSetRole
 
 A pointer to an <a href="..\ursdevice\nc-ursdevice-evt_urs_set_role.md">EVT_URS_SET_ROLE</a> callback function.
 
 
 ## -see-also
 
-<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
-
 <a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>
+
+<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
 
  
 

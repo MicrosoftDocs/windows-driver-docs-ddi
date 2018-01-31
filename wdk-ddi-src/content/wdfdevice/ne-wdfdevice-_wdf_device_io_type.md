@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ad08e4f-7a9b-4052-888e-ae01c9c105c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoUndefined, wdfdevice/WdfDeviceIoDirect, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, wdf.wdf_device_io_type, wdfdevice/PWDF_DEVICE_IO_TYPE, kmdf.wdf_device_io_type, wdfdevice/WdfDeviceIoBuffered, WdfDeviceIoBuffered, WDF_DEVICE_IO_TYPE, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, wdfdevice/WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoNeither, wdfdevice/WdfDeviceIoUndefined, wdfdevice/WDF_DEVICE_IO_TYPE, WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, WdfDeviceIoDirect, _WDF_DEVICE_IO_TYPE
+ms.keywords: wdfdevice/WdfDeviceIoDirect, wdfdevice/WdfDeviceIoUndefined, wdfdevice/PWDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, WdfDeviceIoDirect, wdfdevice/WdfDeviceIoBufferedOrDirect, WdfDeviceIoBuffered, kmdf.wdf_device_io_type, wdfdevice/WDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoUndefined, WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoBuffered, PWDF_DEVICE_IO_TYPE enumeration pointer, _WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoNeither, wdf.wdf_device_io_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,29 +74,29 @@ typedef enum _WDF_DEVICE_IO_TYPE {
 
 
 
-### -field WdfDeviceIoUndefined
+#### - WdfDeviceIoUndefined
 
 Reserved for system use.
 
 
-### -field WdfDeviceIoNeither
+#### - WdfDeviceIoNeither
 
 <b>UMDF </b>This value is not used by UMDF drivers. A UMDF driver can access device I/O control requests that specify the METHOD_NEITHER buffer access method by setting the <b>UmdfMethodNeitherAction</b> INF directive and using <b>WdfDeviceIoBuffered</b> or <b>WdfDeviceIoDirect</b>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives in INF Files</a>.
 
 <b>KMDF </b>Neither buffered nor direct I/O will be used to access data buffers.
 
 
-### -field WdfDeviceIoBuffered
+#### - WdfDeviceIoBuffered
 
 Buffered I/O will be used to access data buffers.
 
 
-### -field WdfDeviceIoDirect
+#### - WdfDeviceIoDirect
 
 Direct I/O will be used to access data buffers.
 
 
-### -field WdfDeviceIoBufferedOrDirect
+#### - WdfDeviceIoBufferedOrDirect
 
 This value is not used by KMDF drivers.
 
@@ -119,11 +119,11 @@ The <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFI
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
  
 

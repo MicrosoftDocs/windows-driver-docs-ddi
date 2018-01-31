@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ff07613-7c40-4310-856a-a44dc97c7f20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_IN_ADAPTER_INIT_FINISHED, IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices], display.idarg_in_adapter_init_finished, IDARG_IN_ADAPTER_INIT_FINISHED
+ms.keywords: IDARG_IN_ADAPTER_INIT_FINISHED, iddcx/IDARG_IN_ADAPTER_INIT_FINISHED, display.idarg_in_adapter_init_finished, IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct IDARG_IN_ADAPTER_INIT_FINISHED {
 
 
 
-### -field AdapterInitStatus
+#### - AdapterInitStatus
 
 
                      The initialization status of the adapter.

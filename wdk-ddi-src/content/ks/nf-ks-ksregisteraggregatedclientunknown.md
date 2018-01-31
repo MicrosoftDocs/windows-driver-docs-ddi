@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b0e18e39-2435-4823-aab4-ba52d218294a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, KsRegisterAggregatedClientUnknown, stream.ksregisteraggregatedclientunknown, ks/KsRegisterAggregatedClientUnknown
+ms.keywords: KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, stream.ksregisteraggregatedclientunknown, KsRegisterAggregatedClientUnknown, ks/KsRegisterAggregatedClientUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PUNKNOWN KsRegisterAggregatedClientUnknown(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 A pointer to the AVStream object to become the outer unknown interface.
 
 
-### -param ClientUnknown [in]
+#### - ClientUnknown [in]
 
 A pointer to an <b>IUnknown</b> interface.
 
@@ -101,15 +101,15 @@ Minidrivers do not need to be running in a C++ environment to use this function.
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksfilterfactoryregisteraggregatedclientunknown.md">KsFilterFactoryRegisterAggregatedClientUnknown</a>
+
+<a href="..\ks\nf-ks-kspinregisteraggregatedclientunknown.md">KsPinRegisterAggregatedClientUnknown</a>
+
 <a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
 
 <a href="..\ks\nf-ks-ksdeviceregisteraggregatedclientunknown.md">KsDeviceRegisterAggregatedClientUnknown</a>
 
 <a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
-
-<a href="..\ks\nf-ks-kspinregisteraggregatedclientunknown.md">KsPinRegisterAggregatedClientUnknown</a>
-
-<a href="..\ks\nf-ks-ksfilterfactoryregisteraggregatedclientunknown.md">KsFilterFactoryRegisterAggregatedClientUnknown</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 42dc9bbe-b00d-4187-ab07-0c268a061298
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue interface, GetState method, wdf.iwdfioqueue_getstate, GetState method, IWDFIoQueue interface, IWDFIoQueue, umdf.iwdfioqueue_getstate, GetState method, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, GetState, IWDFIoQueue::GetState, wudfddi/IWDFIoQueue::GetState
+ms.keywords: IWDFIoQueue::GetState, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, umdf.iwdfioqueue_getstate, wdf.iwdfioqueue_getstate, IWDFIoQueue interface, GetState method, GetState, IWDFIoQueue, GetState method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::GetState, GetState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.GetState
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ WDF_IO_QUEUE_STATE GetState(
 
 
 
-### -param pulNumOfRequestsInQueue [out]
+#### - pulNumOfRequestsInQueue [out]
 
 A pointer to a variable that receives the number of I/O requests that are currently in the I/O queue (that is, that have not been delivered to the driver).
 
 
-### -param pulNumOfRequestsInDriver [out]
+#### - pulNumOfRequestsInDriver [out]
 
 A pointer to a variable that receives the number of I/O requests that the driver accepted from the I/O queue but that the driver has not completed, canceled, or forwarded to another I/O queue.
 

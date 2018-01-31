@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0CA3B49C-B2A7-497D-A97B-4AC845074BEC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/PUDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UdecxUsbDeviceWakeEnabled, udecxusbdevice/UdecxUsbDeviceWakeDisabled, udecxusbdevice/UdecxUsbDeviceWakeNotApplicable, UDECX_USB_DEVICE_WAKE_SETTING, _UDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING, UdecxUsbDeviceWakeDisabled, UdecxUsbDeviceWakeEnabled, buses.udecx_usb_device_wake_setting, UdecxUsbDeviceWakeNotApplicable, *PUDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING enumeration pointer [Buses], UDECX_USB_DEVICE_WAKE_SETTING enumeration [Buses]
+ms.keywords: PUDECX_USB_DEVICE_WAKE_SETTING enumeration pointer [Buses], *PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING, buses.udecx_usb_device_wake_setting, udecxusbdevice/UDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING enumeration [Buses], _UDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UdecxUsbDeviceWakeNotApplicable, PUDECX_USB_DEVICE_WAKE_SETTING, UdecxUsbDeviceWakeNotApplicable, udecxusbdevice/UdecxUsbDeviceWakeDisabled, udecxusbdevice/PUDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UdecxUsbDeviceWakeEnabled, UdecxUsbDeviceWakeEnabled, UdecxUsbDeviceWakeDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	UDECX_USB_DEVICE_WAKE_SETTING
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef enum _UDECX_USB_DEVICE_WAKE_SETTING {
 
 
 
-### -field UdecxUsbDeviceWakeDisabled
+#### - UdecxUsbDeviceWakeDisabled
 
 The USB device cannot send a wake signal to the host controller.
 
 
-### -field UdecxUsbDeviceWakeEnabled
+#### - UdecxUsbDeviceWakeEnabled
 
 The USB device can send a wake signal to the host controller.
 
 
-### -field UdecxUsbDeviceWakeNotApplicable
+#### - UdecxUsbDeviceWakeNotApplicable
 
 This value is used only if the USB device is a SuperSpeed device.
 

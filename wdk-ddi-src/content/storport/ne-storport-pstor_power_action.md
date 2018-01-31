@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPowerActionReserved, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, storport/PSTOR_POWER_ACTION, storport/StorPowerActionWarmEject, PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storport/StorPowerActionShutdownOff, storport/StorPowerActionHibernate, StorPowerActionWarmEject, StorPowerActionShutdownReset, StorPowerActionSleep, StorPowerActionNone, StorPowerActionHibernate, *PSTOR_POWER_ACTION, STOR_POWER_ACTION, StorPowerActionReserved, StorPowerActionShutdownOff, storage.stor_power_action, storport/STOR_POWER_ACTION, storport/StorPowerActionShutdown, storport/StorPowerActionShutdownReset, storport/StorPowerActionNone, STOR_POWER_ACTION enumeration [Storage Devices], storport/StorPowerActionSleep, StorPowerActionShutdown
+ms.keywords: storport/STOR_POWER_ACTION, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, StorPowerActionWarmEject, PSTOR_POWER_ACTION, StorPowerActionReserved, storport/StorPowerActionWarmEject, storport/PSTOR_POWER_ACTION, StorPowerActionShutdown, storport/StorPowerActionReserved, StorPowerActionHibernate, storport/StorPowerActionShutdownReset, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], StorPowerActionSleep, storport/StorPowerActionSleep, storport/StorPowerActionHibernate, StorPowerActionShutdownOff, storport/StorPowerActionShutdown, STOR_POWER_ACTION, storport/StorPowerActionNone, storport/StorPowerActionShutdownOff, *PSTOR_POWER_ACTION, StorPowerActionShutdownReset, StorPowerActionNone, STOR_POWER_ACTION enumeration [Storage Devices], storage.stor_power_action
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,42 +75,42 @@ typedef enum  {
 
 
 
-### -field StorPowerActionNone
+#### - StorPowerActionNone
 
 No system shutdown is about to occur.
 
 
-### -field StorPowerActionReserved
+#### - StorPowerActionReserved
 
 Reserved.
 
 
-### -field StorPowerActionSleep
+#### - StorPowerActionSleep
 
 The system is entering standby.
 
 
-### -field StorPowerActionHibernate
+#### - StorPowerActionHibernate
 
 The system is entering hibernation.
 
 
-### -field StorPowerActionShutdown
+#### - StorPowerActionShutdown
 
 The system is shutting down, but the type of shutdown is not known.
 
 
-### -field StorPowerActionShutdownReset
+#### - StorPowerActionShutdownReset
 
 The system is shutting down and resetting.
 
 
-### -field StorPowerActionShutdownOff
+#### - StorPowerActionShutdownOff
 
 The system is shutting down and powering off.
 
 
-### -field StorPowerActionWarmEject
+#### - StorPowerActionWarmEject
 
 The system is preparing for ejection.
 

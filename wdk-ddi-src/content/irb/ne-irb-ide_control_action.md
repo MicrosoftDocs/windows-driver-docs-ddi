@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a63d1a2f-d560-492f-9b73-198e42cb4300
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/IdePowerDown, IdeStop, irb/IdeVendorDefined, irb/IdePowerUp, storage.ide_control_action, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml, IdeVendorDefined, IdeStart, irb/IdeStop, IdePowerUp, IDE_CONTROL_ACTION enumeration [Storage Devices], IdePowerDown, IDE_CONTROL_ACTION, irb/IDE_CONTROL_ACTION, irb/IdeStart
+ms.keywords: irb/IdeStart, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml, irb/IdePowerDown, irb/IdeVendorDefined, IDE_CONTROL_ACTION enumeration [Storage Devices], IDE_CONTROL_ACTION, IdeStop, storage.ide_control_action, IdePowerUp, IdeVendorDefined, IdePowerDown, irb/IdePowerUp, irb/IdeStop, irb/IDE_CONTROL_ACTION, IdeStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,29 +71,29 @@ typedef enum  {
 
 
 
-### -field IdeStart
+#### - IdeStart
 
 Indicates that the miniport driver should start the channel.
 
 
-### -field IdeStop
+#### - IdeStop
 
 Indicates that the miniport driver should stop the channel.
 
 
-### -field IdePowerUp
+#### - IdePowerUp
 
 Indicates that the miniport driver should power up the channel.
 
 
-### -field IdePowerDown
+#### - IdePowerDown
 
 
       Indicates that the miniport driver should power down the channel.
      
 
 
-### -field IdeVendorDefined
+#### - IdeVendorDefined
 
 Indicates that the miniport driver should perform a vendor-defined control action.
 

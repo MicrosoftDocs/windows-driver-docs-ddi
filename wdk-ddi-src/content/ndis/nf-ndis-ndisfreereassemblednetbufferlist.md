@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bcbb0c56-1500-45b2-bd20-03726ef7da77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeReassembledNetBufferList, netvista.ndisfreereassemblednetbufferlist, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml, NdisFreeReassembledNetBufferList, NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisfreereassemblednetbufferlist, NdisFreeReassembledNetBufferList, NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml, ndis/NdisFreeReassembledNetBufferList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ VOID NdisFreeReassembledNetBufferList(
 
 
 
-### -param ReassembledNetBufferList [in]
+#### - ReassembledNetBufferList [in]
 
 A pointer to a NET_BUFFER_LIST structure that the driver allocated by calling the 
      <mshelp:link keywords="netvista.ndisallocatereassemblednetbufferlist" tabindex="0"><b>
      NdisAllocateReassembledNetBufferList</b></mshelp:link> function.
 
 
-### -param DataOffsetDelta [in]
+#### - DataOffsetDelta [in]
 
 The number of bytes to advance (add to) the 
      <b>DataOffset</b> member of the reassembled NET_BUFFER structure before freeing the structure. This value
@@ -89,7 +89,7 @@ The number of bytes to advance (add to) the
      <b>NdisAllocateReassembledNetBufferList</b>.
 
 
-### -param FreeReassembleFlags [in]
+#### - FreeReassembleFlags [in]
 
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
@@ -115,12 +115,12 @@ None
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <mshelp:link keywords="netvista.ndisallocatereassemblednetbufferlist" tabindex="0"><b>
    NdisAllocateReassembledNetBufferList</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

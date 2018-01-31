@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0A2D1D8F-8C82-4335-9FBF-4515A8DC20C1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PBUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS, ks/PBUS_INTERFACE_MEDIUMS, ks/BUS_INTERFACE_MEDIUMS, stream.bus_interface_mediums, BUS_INTERFACE_MEDIUMS structure [Streaming Media Devices], PBUS_INTERFACE_MEDIUMS structure pointer [Streaming Media Devices], PBUS_INTERFACE_MEDIUMS"
+ms.keywords: stream.bus_interface_mediums, PBUS_INTERFACE_MEDIUMS structure pointer [Streaming Media Devices], *PBUS_INTERFACE_MEDIUMS, ks/BUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS structure [Streaming Media Devices], PBUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS, ks/PBUS_INTERFACE_MEDIUMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Interface
+#### - Interface
 
 Specifies the standard interface header.
 
 
-### -field QueryMediumsList
+#### - QueryMediumsList
 
 Specifies the interface definition.
 

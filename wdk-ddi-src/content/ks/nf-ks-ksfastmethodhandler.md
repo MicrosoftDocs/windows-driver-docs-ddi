@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 829e96e7-7063-4de3-b13a-0b0d12ba1f44
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, KsFastMethodHandler function [Streaming Media Devices], stream.ksfastmethodhandler, ks/KsFastMethodHandler, KsFastMethodHandler
+ms.keywords: ks/KsFastMethodHandler, KsFastMethodHandler function [Streaming Media Devices], ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, stream.ksfastmethodhandler, KsFastMethodHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ BOOLEAN KsFastMethodHandler(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Specifies the file object on which the request was made.
 
 
-### -param Method [in]
+#### - Method [in]
 
 Specifies the original method parameter. This will always be on FILE_LONG_ALIGNMENT, but may not be on FILE_QUAD_ALIGNMENT.
 
 
-### -param MethodLength [in]
+#### - MethodLength [in]
 
 Specifies the length indicated by the caller of the method parameter.
 
 
-### -param Data [in, out]
+#### - Data [in, out]
 
 Specifies the original unaligned data parameter.
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 Specifies the length indicated by the caller of the data parameter.
 
 
-### -param IoStatus [out]
+#### - IoStatus [out]
 
 Specifies an aligned structure that is used to return error status and information.
 
 
-### -param MethodSetsCount [in]
+#### - MethodSetsCount [in]
 
 Indicates the number of method set structures being passed.
 
 
-### -param MethodSet [in]
+#### - MethodSet [in]
 
 Specifies the pointer to the list of method set information.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT, wdf.wdf_read_register_buffer_ushort, WDF_READ_REGISTER_BUFFER_USHORT function
+ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT function, wdf.wdf_read_register_buffer_ushort, WDF_READ_REGISTER_BUFFER_USHORT, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WDF_READ_REGISTER_BUFFER_USHORT(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a buffer into which an array of USHORT values is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to be read into the buffer.
 

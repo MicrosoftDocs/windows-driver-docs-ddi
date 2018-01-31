@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4b3c2fc8-d7c3-4223-a88e-5db9ad852618
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, *PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
+ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], *PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,42 +77,42 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA {
 
 
 
-### -field CCStatus
+#### - CCStatus
 
 A 
                      <b>UCMTCPCI_PORT_CONTROLLER_CC_STATUS</b> structure that contains status information about the CC lines of the port controller.
                  This structure is defined in UcmTcpciSpec.h.
 
 
-### -field PowerStatus
+#### - PowerStatus
 
 A 
                      <b>UCMTCPCI_PORT_CONTROLLER_POWER_STATUS</b> structure that contains the power status of the port controller.
                  This structure is defined in UcmTcpciSpec.h.
 
 
-### -field FaultStatus
+#### - FaultStatus
 
 A 
                      <b>UCMTCPCI_PORT_CONTROLLER_FAULT_STATUS</b> structure that contains the fault status of the port controller.
                  This structure is defined in UcmTcpciSpec.h.
 
 
-### -field ReceiveBuffer
+#### - ReceiveBuffer
 
 
                      A pointer to a 
                  <a href="https://msdn.microsoft.com/d051efa0-b637-41d8-935f-0d6e2e7eeca6">UCMTCPCI_PORT_CONTROLLER_RECEIVE_BUFFER</a> structure that represents the buffer for receiving the alert from the port controller. This structure is defined in UcmTcpciSpec.h.
 
 
-### -field Size
+#### - Size
 
 Size of this structure.
                      
                  
 
 
-### -field AlertType
+#### - AlertType
 
 A <a href="..\ucmtcpciportcontroller\ne-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_type.md">UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE</a> value that indicates the type of hardware alert.
                      

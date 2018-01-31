@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 11126cc9-43a1-41b1-adc9-13af57157d74
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: MappingAvailable method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream::MappingAvailable, MappingAvailable method [Audio Devices], audio.iminiportwavepcistream_mappingavailable, IMiniportWavePciStream, MappingAvailable, audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml, IMiniportWavePciStream interface [Audio Devices], MappingAvailable method, portcls/IMiniportWavePciStream::MappingAvailable
+ms.keywords: MappingAvailable method [Audio Devices], IMiniportWavePciStream interface, portcls/IMiniportWavePciStream::MappingAvailable, IMiniportWavePciStream::MappingAvailable, MappingAvailable, audio.iminiportwavepcistream_mappingavailable, IMiniportWavePciStream interface [Audio Devices], MappingAvailable method, IMiniportWavePciStream, MappingAvailable method [Audio Devices], audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWavePciStream.MappingAvailable
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWavePciStream::MappingAvailable method
@@ -92,9 +92,9 @@ See the discussion of allocator framing in <a href="https://msdn.microsoft.com/6
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
-
 <a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
  
 

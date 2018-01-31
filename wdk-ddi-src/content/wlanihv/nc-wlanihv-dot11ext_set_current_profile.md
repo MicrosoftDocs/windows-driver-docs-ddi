@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetCurrentProfile
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ DWORD WINAPI * Dot11ExtSetCurrentProfile(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -82,7 +82,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-### -param hConnectSession [in, optional]
+#### - hConnectSession [in, optional]
 
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the 
@@ -90,7 +90,7 @@ The handle used by the operating system to reference the connection session with
      Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
 
 
-### -param pIhvConnProfile [in, optional]
+#### - pIhvConnProfile [in, optional]
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
@@ -98,7 +98,7 @@ A pointer to a
      profile.
 
 
-### -param pIhvSecProfile [in, optional]
+#### - pIhvSecProfile [in, optional]
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11ext_ihv_security_profile" tabindex="0"><b>
@@ -154,13 +154,13 @@ The IHV Extensions DLL must not call
 
 ## -see-also
 
+<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
+   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+
 <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
    DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1DA632FF-FD5F-4C4C-8B8E-5AC26069094A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], wdm/MmProbeAndLockSelectedPages, kernel.mmprobeandlockselectedpages_, MmProbeAndLockSelectedPages
+ms.keywords: MmProbeAndLockSelectedPages, kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages, MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VOID MmProbeAndLockSelectedPages (
 
 
 
-### -param MemoryDescriptorList [in, out]
+#### - MemoryDescriptorList [in, out]
 
 A pointer to a memory descriptor list (MDL) that specifies a virtual memory buffer. If the routine successfully locks the pages in memory, the MDL is updated to describe the underlying physical pages.
 
 
-### -param SegmentArray [in]
+#### - SegmentArray [in]
 
 A pointer to an array of buffer segments that contain the virtual memory pages.
 
 
-### -param AccessMode [in]
+#### - AccessMode [in]
 
 Specifies the access mode in which to probe the arguments, either KernelMode or UserMode.
 
 
-### -param Operation [in]
+#### - Operation [in]
 
 Specifies the type of operation for which the caller wants the access rights probed and the pages locked. Set this parameter to IoReadAccess, IoWriteAccess, or IoModifyAccess. IoReadAccess indicates that the driver can examine the contents of the buffer but cannot change the contents. IoWriteAccess and IoModifyAccess, which are equivalent, indicate that the driver has both read and write access to the buffer. 
 

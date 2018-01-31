@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DEVICE_POWER_STATE, _DEVICE_POWER_STATE, PowerDeviceD3, wudfddi/PowerDeviceD3, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PowerDeviceD0, PowerDeviceD0, wudfddi/DEVICE_POWER_STATE, wudfddi/PowerDeviceD1, wudfddi/PDEVICE_POWER_STATE, PowerDeviceD1, wudfddi/PowerDeviceMaximum, DEVICE_POWER_STATE enumeration, umdf.device_power_state, PowerDeviceD2, PowerDeviceMaximum, wdf.device_power_state, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, PowerDeviceUnspecified, wudfddi/PowerDeviceUnspecified, PDEVICE_POWER_STATE, wudfddi/PowerDeviceD2, *PDEVICE_POWER_STATE
+ms.keywords: "*PDEVICE_POWER_STATE, wudfddi/DEVICE_POWER_STATE, DEVICE_POWER_STATE, wudfddi/PowerDeviceD3, umdf.device_power_state, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, DEVICE_POWER_STATE enumeration, PowerDeviceMaximum, wudfddi/PowerDeviceMaximum, PowerDeviceUnspecified, PowerDeviceD1, PowerDeviceD3, wudfddi/PowerDeviceUnspecified, PowerDeviceD0, wudfddi/PowerDeviceD2, PDEVICE_POWER_STATE, wdf.device_power_state, _DEVICE_POWER_STATE, wudfddi/PowerDeviceD0, wudfddi/PowerDeviceD1, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PDEVICE_POWER_STATE, PowerDeviceD2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
+req.typenames: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -75,32 +75,32 @@ typedef enum _DEVICE_POWER_STATE {
 
 
 
-### -field PowerDeviceUnspecified
+#### - PowerDeviceUnspecified
 
 The device power state is unspecified.
 
 
-### -field PowerDeviceD0
+#### - PowerDeviceD0
 
 The device's working (D0) state. This is the device's highest power state.
 
 
-### -field PowerDeviceD1
+#### - PowerDeviceD1
 
 The device's D1 <a href="https://msdn.microsoft.com/f594a63f-10ce-439d-abe3-d342555d98f0">sleeping state</a>.
 
 
-### -field PowerDeviceD2
+#### - PowerDeviceD2
 
 The device's D2 sleeping state.
 
 
-### -field PowerDeviceD3
+#### - PowerDeviceD3
 
 The device's D3 sleeping state.
 
 
-### -field PowerDeviceMaximum
+#### - PowerDeviceMaximum
 
 For system use only.
 

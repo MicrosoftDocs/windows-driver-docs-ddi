@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b9aca2-4630-45e2-bed4-f701018c86a5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacks, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, Breakpoint, debugger.idebugeventcallbacks_breakpoint, IDebugEventCallbacks::Breakpoint, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, dbgeng/IDebugEventCallbacks::Breakpoint, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method
+ms.keywords: IDebugEventCallbacks::Breakpoint, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, debugger.idebugeventcallbacks_breakpoint, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, IDebugEventCallbacks, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, Breakpoint, dbgeng/IDebugEventCallbacks::Breakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT Breakpoint(
 
 
 
-### -param Bp [in]
+#### - Bp [in]
 
 Specifies a pointer to the <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> object corresponding to the breakpoint that was triggered.
 

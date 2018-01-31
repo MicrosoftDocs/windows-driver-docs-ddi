@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B3135A43-A328-4103-AB75-A37F02322F70
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DevQueryPrint, DevQueryPrint function [Print Devices], print.devqueryprint, winsplp/DevQueryPrint
+ms.keywords: DevQueryPrint function [Print Devices], winsplp/DevQueryPrint, print.devqueryprint, DevQueryPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ BOOL WINAPI DevQueryPrint(
 
 
 
-### -param hPrinter [in]
+#### - hPrinter [in]
 
 
 
-### -param pDevMode [in]
+#### - pDevMode [in]
 
 
 
-### -param pResID [out]
+#### - pResID [out]
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fd5967cc-fb30-4882-9567-4617b9f9e723
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltclose, FltClose function [Installable File System Drivers], FltApiRef_a_to_d_f50e2397-1161-4e6e-9688-2baa417f6845.xml, FltClose, fltkernel/FltClose
+ms.keywords: FltClose, FltApiRef_a_to_d_f50e2397-1161-4e6e-9688-2baa417f6845.xml, ifsk.fltclose, fltkernel/FltClose, FltClose function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS FltClose(
 
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 Handle created by a successful call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> or <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>. 
 
@@ -107,9 +107,9 @@ Handle created by a successful call to <a href="..\fltkernel\nf-fltkernel-fltcre
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
  
 

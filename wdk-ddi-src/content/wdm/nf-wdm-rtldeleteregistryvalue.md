@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4bbedc96-a7e2-40bd-98f3-c1136f70564d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlDeleteRegistryValue, RtlDeleteRegistryValue, kernel.rtldeleteregistryvalue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml
+ms.keywords: RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml, wdm/RtlDeleteRegistryValue, kernel.rtldeleteregistryvalue, RtlDeleteRegistryValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NTSTATUS RtlDeleteRegistryValue(
 
 
 
-### -param RelativeTo [in]
+#### - RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 <table>
@@ -151,12 +151,12 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
 </table> 
 
 
-### -param Path [in]
+#### - Path [in]
 
 Specifies the registry path according to the <i>RelativeTo</i> value. If RTL_REGISTRY_HANDLE is set, <i>Path</i> is a handle to be used directly.
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Pointer to the value name to be removed from the registry.
 
@@ -181,13 +181,13 @@ On Windows 2000 and later versions of Windows, the routine leaves the handle ope
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
 <a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
+
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
 
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5a3fa72c-241e-4270-92eb-70f135d79871
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest interface, UnmarkCancelable method, wudfddi/IWDFIoRequest::UnmarkCancelable, umdf.iwdfiorequest_unmarkcancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, wdf.iwdfiorequest_unmarkcancelable, IWDFIoRequest, UnmarkCancelable, UnmarkCancelable method, IWDFIoRequest interface, UnmarkCancelable method, IWDFIoRequest::UnmarkCancelable
+ms.keywords: UnmarkCancelable method, IWDFIoRequest::UnmarkCancelable, IWDFIoRequest, UnmarkCancelable, wdf.iwdfiorequest_unmarkcancelable, umdf.iwdfiorequest_unmarkcancelable, IWDFIoRequest interface, UnmarkCancelable method, UnmarkCancelable method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.UnmarkCancelable
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -122,13 +122,13 @@ If <b>UnmarkCancelable</b> returns HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED), 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
  
 

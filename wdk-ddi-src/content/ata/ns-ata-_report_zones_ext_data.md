@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c6b4b7c-548d-42c0-af9b-cf0d65bf2e45
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_REPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], REPORT_ZONES_EXT_DATA, ata/REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA structure [Storage Devices], storage.report_zones_ext_data"
+ms.keywords: ata/REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data, ata/PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], REPORT_ZONES_EXT_DATA structure [Storage Devices], PREPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA, _REPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,37 +76,37 @@ typedef struct _REPORT_ZONES_EXT_DATA {
 
 
 
-### -field ZoneListLength
+#### - ZoneListLength
 
 N/A
 
 
-### -field SAME
+#### - SAME
 
 N/A
 
 
-### -field Reserved0
+#### - Reserved0
 
 Reserved for future use.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved for future use.
 
 
-### -field MaxLBA
+#### - MaxLBA
 
 N/A
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved for future use.
 
 
-### -field Reserved3
+#### - Reserved3
 
 Reserved for future use.
 

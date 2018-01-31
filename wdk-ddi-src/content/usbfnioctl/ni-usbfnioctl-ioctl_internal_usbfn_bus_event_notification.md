@@ -114,9 +114,9 @@ UFX completes this request in response to an event on the bus. It is recommended
 
 ## -see-also
 
-<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
-
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a>
+
+<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
 
  
 

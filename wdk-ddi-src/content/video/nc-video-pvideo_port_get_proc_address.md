@@ -72,12 +72,12 @@ PVOID VideoPortGetProcAddress(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's hardware device extension.
 
 
-### -param FunctionName [in]
+#### - FunctionName [in]
 
 Pointer to a null-terminated ASCII string that contains the name of the function being searched for.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d6cebb0d-87ca-4e40-8a87-9579a1026567
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PPDEV_ADJUST_GRAPHICS_RESOLUTION, print.pdev_adjust_graphics_resolution, PDEV_ADJUST_GRAPHICS_RESOLUTION structure [Print Devices], PPDEV_ADJUST_GRAPHICS_RESOLUTION, _PDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION structure pointer [Print Devices], PDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PPDEV_ADJUST_GRAPHICS_RESOLUTION, print_unidrv-pscript_rendering_4e6d42c6-744c-4451-85a3-f5769c0ebfd3.xml"
+ms.keywords: printoem/PPDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PDEV_ADJUST_GRAPHICS_RESOLUTION, *PPDEV_ADJUST_GRAPHICS_RESOLUTION, PDEV_ADJUST_GRAPHICS_RESOLUTION structure [Print Devices], _PDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION structure pointer [Print Devices], print_unidrv-pscript_rendering_4e6d42c6-744c-4451-85a3-f5769c0ebfd3.xml, PDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION, print.pdev_adjust_graphics_resolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PDEV_ADJUST_GRAPHICS_RESOLUTION
 product: Windows
 targetos: Windows
-req.typenames: PDEV_ADJUST_GRAPHICS_RESOLUTION, *PPDEV_ADJUST_GRAPHICS_RESOLUTION
+req.typenames: "*PPDEV_ADJUST_GRAPHICS_RESOLUTION, PDEV_ADJUST_GRAPHICS_RESOLUTION"
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct _PDEV_ADJUST_GRAPHICS_RESOLUTION {
 
 
 
-### -field ptGraphicsResolution
+#### - ptGraphicsResolution
 
 A POINT structure that specifies the resolution of the graphics area, in dots per inch (DPI).
 

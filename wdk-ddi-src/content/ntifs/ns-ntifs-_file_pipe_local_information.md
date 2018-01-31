@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7ca66b75-e5ff-46a6-8a40-47aa53bf0f6f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_PIPE_LOCAL_INFORMATION structure [Installable File System Drivers], FILE_PIPE_LOCAL_INFORMATION, ifsk.file_pipe_local_information, ntifs/PFILE_PIPE_LOCAL_INFORMATION, ntifs/FILE_PIPE_LOCAL_INFORMATION, PFILE_PIPE_LOCAL_INFORMATION structure pointer [Installable File System Drivers], PFILE_PIPE_LOCAL_INFORMATION, _FILE_PIPE_LOCAL_INFORMATION, *PFILE_PIPE_LOCAL_INFORMATION
+ms.keywords: ifsk.file_pipe_local_information, ntifs/PFILE_PIPE_LOCAL_INFORMATION, PFILE_PIPE_LOCAL_INFORMATION, ntifs/FILE_PIPE_LOCAL_INFORMATION, _FILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_LOCAL_INFORMATION structure pointer [Installable File System Drivers], *PFILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ typedef struct _FILE_PIPE_LOCAL_INFORMATION {
 
 
 
-### -field NamedPipeType
+#### - NamedPipeType
 
 One of the following named pipe types. 
 <table>
@@ -95,7 +95,7 @@ One of the following named pipe types.
 </table> 
 
 
-### -field NamedPipeConfiguration
+#### - NamedPipeConfiguration
 
 One of the following named pipe configurations.
 
@@ -125,48 +125,48 @@ One of the following named pipe configurations.
 </table> 
 
 
-### -field MaximumInstances
+#### - MaximumInstances
 
 
 The maximum number of instances that can be created for this pipe. The first instance of the pipe must specify this value.
 
 
 
-### -field CurrentInstances
+#### - CurrentInstances
 
 
 The number of current named pipe instances.
 
 
 
-### -field InboundQuota
+#### - InboundQuota
 
  
 The inbound quota, in bytes, for the named pipe.
 
 
 
-### -field ReadDataAvailable
+#### - ReadDataAvailable
 
 
 The amount of data available, in bytes, to be read from the named pipe.
 
 
-### -field OutboundQuota
+#### - OutboundQuota
 
 
 The outbound quota, in bytes, for the named pipe.
 
 
 
-### -field WriteQuotaAvailable
+#### - WriteQuotaAvailable
 
 
 
 The write quota, in bytes, for the named pipe.
 
 
-### -field NamedPipeState
+#### - NamedPipeState
 
 The connection status for the named pipe. This state has one of the following values.
 <table>
@@ -198,7 +198,7 @@ The connection status for the named pipe. This state has one of the following va
 </table> 
 
 
-### -field NamedPipeEnd
+#### - NamedPipeEnd
 
 The type of the named pipe end, which specifies whether this is the client or the server side of a named pipe.
 <table>

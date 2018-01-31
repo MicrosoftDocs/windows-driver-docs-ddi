@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e398b1a3-60bf-4a4a-b5c2-1dc11cf3dae1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_088d7013-3c56-4bfc-8e68-250b8e020a52.xml, D3D10_1_DDI_BLEND_DESC structure [Display Devices], d3d10umddi/D3D10_1_DDI_BLEND_DESC, D3D10_1_DDI_BLEND_DESC, display.d3d10_1_ddi_blend_desc
+ms.keywords: UMDisplayDriver_Dx10param_Structs_088d7013-3c56-4bfc-8e68-250b8e020a52.xml, D3D10_1_DDI_BLEND_DESC structure [Display Devices], D3D10_1_DDI_BLEND_DESC, display.d3d10_1_ddi_blend_desc, d3d10umddi/D3D10_1_DDI_BLEND_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,24 +69,24 @@ typedef struct D3D10_1_DDI_BLEND_DESC {
 
 
 
-### -field AlphaToCoverageEnable
+#### - AlphaToCoverageEnable
 
 [in] A Boolean value that specifies whether transparency coverage is enabled. <b>TRUE</b> indicates transparency coverage is enabled; <b>FALSE</b> indicates transparency coverage is disabled. This member is relevant for multiple-sample antialiasing only.
 
 
-### -field IndependentBlendEnable
+#### - IndependentBlendEnable
 
 [in] A Boolean value that specifies only whether the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a> function replicated the first entry in the array that the <b>RenderTarget</b> member specifies to the other entries of that array. <b>TRUE</b> indicates the first entry was not replicated; <b>FALSE</b> indicates that the first entry in the array in the <b>RenderTarget</b> member is replicated to the other entries of the array. 
 
 
-### -field RenderTarget
+#### - RenderTarget
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_render_target_blend_desc1.md">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a> structures that indicate the blend state for each associated render target.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_render_target_blend_desc1.md">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
 
@@ -94,7 +94,7 @@ typedef struct D3D10_1_DDI_BLEND_DESC {
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createblendstate.md">CreateBlendState(D3D10_1)</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_render_target_blend_desc1.md">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a>
 
  
 

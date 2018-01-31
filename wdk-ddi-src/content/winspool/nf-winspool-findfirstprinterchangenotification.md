@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f6d2034a-0906-42ea-a4bd-9cdb1b36c5cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification function [Print Devices], print.findfirstprinterchangenotification
+ms.keywords: FindFirstPrinterChangeNotification, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification function [Print Devices], winspool/FindFirstPrinterChangeNotification, spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ BOOL FindFirstPrinterChangeNotification(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 Caller-supplied printer handle, identifying the printer for which event notification is being requested. This handle must have been previously obtained from OpenPrinter (described in the Microsoft Windows SDK documentation).
 
@@ -86,12 +86,12 @@ Caller-supplied printer handle, identifying the printer for which event notifica
 TBD
 
 
-### -param fdwOptions
+#### - fdwOptions
 
 Not used.
 
 
-### -param pPrinterNotifyOptions
+#### - pPrinterNotifyOptions
 
 Caller-supplied pointer to a PRINTER_NOTIFY_OPTIONS structure (described in the Windows SDK documentation).
 
@@ -167,11 +167,11 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+<a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a>
 
 <a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>
 
-<a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
 
  
 

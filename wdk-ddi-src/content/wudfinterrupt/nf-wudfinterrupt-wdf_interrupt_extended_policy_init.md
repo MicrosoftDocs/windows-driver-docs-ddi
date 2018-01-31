@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6CD02F5B-0E34-46F5-8AEA-3B30293E1875
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_interrupt_extended_policy_init, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT, wdf.wdf_interrupt_extended_policy_init_umdf, WDF_INTERRUPT_EXTENDED_POLICY_INIT, WDF_INTERRUPT_EXTENDED_POLICY_INIT function
+ms.keywords: WDF_INTERRUPT_EXTENDED_POLICY_INIT function, WDF_INTERRUPT_EXTENDED_POLICY_INIT, wdf.wdf_interrupt_extended_policy_init_umdf, umdf.wdf_interrupt_extended_policy_init, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

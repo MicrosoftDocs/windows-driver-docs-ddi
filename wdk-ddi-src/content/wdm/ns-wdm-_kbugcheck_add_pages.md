@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], *PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES, wdm/KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, _KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES
+ms.keywords: kernel.kbugcheck_add_pages, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], wdm/KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES, _KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KBUGCHECK_ADD_PAGES
 product: Windows
 targetos: Windows
-req.typenames: KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES
+req.typenames: "*PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ typedef struct _KBUGCHECK_ADD_PAGES {
 
 
 
-### -field Context
+#### - Context
 
 Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, <b>Context</b> is <b>NULL</b>.
 
 
-### -field Flags
+#### - Flags
 
 
       Contains flags that describe the add-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits: 
@@ -103,17 +103,17 @@ Indicates that the <b>Address</b> member contains a physical address.
 Indicates that the callback routine requests that it be called again so that it can add more pages.
 
 
-### -field BugCheckCode
+#### - BugCheckCode
 
 Contains a bug check code, which specifies the reason for the bug check. The callback routine can use this information to decide whether to add any pages to the crash dump file. For a full list of bug check codes, see the Bugcodes.h    header file.
 
 
-### -field Address
+#### - Address
 
 Specifies the physical or virtual address of the page or pages that the callback routine requests be added to the crash dump file.
 
 
-### -field Count
+#### - Count
 
 Specifies the number of contiguous pages to add to the crash dump file, starting from the virtual or physical address that is specified by the <b>Address</b> member. If <b>Count</b> &gt; 1 and <b>Address</b> is a virtual address, the pages are contiguous in virtual memory space. If <b>Count</b> &gt; 1 and <b>Address</b> is a physical address, the pages are contiguous in physical memory space. The callback routine can set this member to zero to indicate that it does not need to add any pages to the crash dump file.
 

@@ -70,7 +70,7 @@ VOID AVStrMiniDeleteAllocator(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the allocator's context structure created by <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>.
 
@@ -97,9 +97,9 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>
 
-<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
-
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
 
  
 

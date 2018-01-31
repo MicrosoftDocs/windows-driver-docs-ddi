@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5D1B228D-81D9-47FE-8CF2-41AAD9148667
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicewdmdispatchirptoioqueue, WdfDeviceWdmDispatchIrpToIoQueue method, WdfDeviceWdmDispatchIrpToIoQueue, kmdf.wdfdevicewdmforwardirptoioqueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue, kmdf.wdfdevicewdmdispatchirptoioqueue
+ms.keywords: wdf.wdfdevicewdmdispatchirptoioqueue, kmdf.wdfdevicewdmforwardirptoioqueue, kmdf.wdfdevicewdmdispatchirptoioqueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue method, WdfDeviceWdmDispatchIrpToIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfDeviceWdmDispatchIrpToIoQueue(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 A pointer to an IRP structure.
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to a framework queue object.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bitwise <b>OR</b> of <a href="..\wdfdevice\ne-wdfdevice-_wdf_dispatch_irp_to_io_queue_flags.md">WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS</a>-typed flags.
 
@@ -120,9 +120,9 @@ If the driver calls <b>WdfDeviceWdmDispatchIrpToIoQueue</b> from within a <a hre
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a>
 
  
 

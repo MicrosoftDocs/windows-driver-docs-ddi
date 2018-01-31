@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07aed86f-870e-431b-b1bb-403395c35946
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiProviderCreate, WdfWmiProviderCreate method, kmdf.wdfwmiprovidercreate, wdfwmi/WdfWmiProviderCreate, wdf.wdfwmiprovidercreate, PFN_WDFWMIPROVIDERCREATE, DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml
+ms.keywords: wdf.wdfwmiprovidercreate, PFN_WDFWMIPROVIDERCREATE, DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml, kmdf.wdfwmiprovidercreate, WdfWmiProviderCreate method, wdfwmi/WdfWmiProviderCreate, WdfWmiProviderCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfWmiProviderCreate(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object that will be the new provider object's parent object. The device object cannot be a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>.
 
 
-### -param WmiProviderConfig [in]
+#### - WmiProviderConfig [in]
 
 A pointer to a caller-initialized <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure that contains configuration information about the WMI data block.
 
 
-### -param ProviderAttributes [in, optional]
+#### - ProviderAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the new WMI provider object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param WmiProvider [out]
+#### - WmiProvider [out]
 
 A pointer to a location that receives a handle to the new WMI provider object.
 
@@ -180,15 +180,15 @@ For more information about the <b>WdfWmiProviderCreate</b> method, see <a href="
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergetdevice.md">WdfWmiProviderGetDevice</a>
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergetdevice.md">WdfWmiProviderGetDevice</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
  
 

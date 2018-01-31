@@ -68,7 +68,7 @@ NTSTATUS  EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION(
 
 
 
-### -param Sensors [in]
+#### - Sensors [in]
 
 Holds information on the sensors handled by the sensor driver.
 

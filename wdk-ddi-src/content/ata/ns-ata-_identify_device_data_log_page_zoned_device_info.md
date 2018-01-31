@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2F0B6C1F-54CC-47CF-B0D0-A53FAB80AF91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.identify_device_data_log_page_zoned_device_info, ata/PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure pointer [Storage Devices], *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, ata/IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure [Storage Devices], PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
+ms.keywords: PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure pointer [Storage Devices], IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, storage.identify_device_data_log_page_zoned_device_info, ata/IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure [Storage Devices], *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, ata/PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,8 +102,23 @@ typedef struct _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO {
 
 
 
-### -field ZonedDeviceCapabilities
+#### - ZonedDeviceCapabilities
 
+
+
+#### URSWRZ
+
+N/A
+
+
+#### Reserved
+
+N/A
+
+
+#### Valid
+
+N/A
 
 
 ### -field ZonedDeviceCapabilities.URSWRZ
@@ -121,8 +136,18 @@ N/A
 N/A
 
 
-### -field ZonedDeviceSettings
+#### - ZonedDeviceSettings
 
+
+
+#### Reserved
+
+N/A
+
+
+#### Valid
+
+N/A
 
 
 ### -field ZonedDeviceSettings.Reserved
@@ -135,8 +160,23 @@ N/A
 N/A
 
 
-### -field OptimalNumberOfOpenSequentialWritePreferredZones
+#### - OptimalNumberOfOpenSequentialWritePreferredZones
 
+
+
+#### Number
+
+N/A
+
+
+#### Reserved
+
+N/A
+
+
+#### Valid
+
+N/A
 
 
 ### -field OptimalNumberOfOpenSequentialWritePreferredZones.Number
@@ -154,8 +194,23 @@ N/A
 N/A
 
 
-### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones
+#### - OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones
 
+
+
+#### Number
+
+N/A
+
+
+#### Reserved
+
+N/A
+
+
+#### Valid
+
+N/A
 
 
 ### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Number
@@ -173,8 +228,23 @@ N/A
 N/A
 
 
-### -field MaxNumberOfOpenSequentialWriteRequiredZones
+#### - MaxNumberOfOpenSequentialWriteRequiredZones
 
+
+
+#### Number
+
+N/A
+
+
+#### Reserved
+
+N/A
+
+
+#### Valid
+
+N/A
 
 
 ### -field MaxNumberOfOpenSequentialWriteRequiredZones.Number
@@ -192,8 +262,23 @@ N/A
 N/A
 
 
-### -field Version
+#### - Version
 
+
+
+#### ZacMinorVersion
+
+N/A
+
+
+#### Reserved0
+
+N/A
+
+
+#### Valid
+
+N/A
 
 
 ### -field Version.ZacMinorVersion
@@ -211,12 +296,12 @@ N/A
 N/A
 
 
-### -field Header
+#### - Header
 
 N/A
 
 
-### -field Reserved
+#### - Reserved
 
 N/A
 

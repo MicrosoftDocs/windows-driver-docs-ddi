@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79327b2b-e97b-42dc-8d15-9d774c424cae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/TcpReceiveBytesTransferred, RscTcpTimestampDelta, ndis/MaxNetBufferListInfo, ndis/NetBufferListHashValue, NetBufferListInfoReserved1, ndis/NetBufferListCorrelationId, ndis/VirtualSubnetInfo, *PNDIS_NET_BUFFER_LIST_INFO, ndis/NetBufferListHashInfo, VirtualSubnetInfo, ndis/PNDIS_NET_BUFFER_LIST_INFO, TcpReceiveBytesTransferred, SwitchForwardingReserved, NDIS_NET_BUFFER_LIST_INFO enumeration [Network Drivers Starting with Windows Vista], NetBufferListHashValue, ndis/TcpLargeSendNetBufferListInfo, ndis/IPsecOffloadV2HeaderNetBufferListInfo, TcpRecvSegCoalesceInfo, PNDIS_NET_BUFFER_LIST_INFO, ndis/NetBufferListFrameType, ndis/TcpIpChecksumNetBufferListInfo, IPsecOffloadV2TunnelNetBufferListInfo, ndis/NetBufferListInfoReserved2, ndis/IPsecOffloadV2TunnelNetBufferListInfo, ndis/MediaSpecificInformation, MediaSpecificInformationEx, ndis/NetBufferListInfoReserved1, _NDIS_NET_BUFFER_LIST_INFO, NetBufferListFilteringInfo, NDIS_NET_BUFFER_LIST_INFO, NetBufferListCancelId, ndis/NetBufferListFilteringInfo, ndis/RscTcpTimestampDelta, NetBufferListProtocolId, IPsecOffloadV2NetBufferListInfo, NetBufferListCorrelationId, ndis/TcpRecvSegCoalesceInfo, ndis/TcpReceiveNoPush, ndis/IPsecOffloadV1NetBufferListInfo, ndis/SwitchForwardingDetail, ndis/MediaSpecificInformationEx, IMReserved, IPsecOffloadV1NetBufferListInfo, TcpReceiveNoPush, NblReAuthWfpFlowContext, WfpNetBufferListInfo, SwitchForwardingDetail, Ieee8021QNetBufferListInfo, ndis/NDIS_NET_BUFFER_LIST_INFO, ndis/TcpSendOffloadsSupplementalNetBufferListInfo, PNDIS_NET_BUFFER_LIST_INFO enumeration pointer [Network Drivers Starting with Windows Vista], MaxNetBufferListInfo, ClassificationHandleNetBufferListInfo, ndis/TcpOffloadBytesTransferred, TcpSendOffloadsSupplementalNetBufferListInfo, NblOriginalInterfaceIfIndex, NetBufferListHashInfo, ndis/NetBufferListCancelId, ndis/WfpNetBufferListInfo, ndis/ClassificationHandleNetBufferListInfo, TcpIpChecksumNetBufferListInfo, MediaSpecificInformation, NetBufferListFrameType, ndis/NetBufferListProtocolId, netvista.ndis_net_buffer_list_info, IPsecOffloadV2HeaderNetBufferListInfo, ndis/NblOriginalInterfaceIfIndex, NetBufferListInfoReserved2, TcpLargeSendNetBufferListInfo, ndis/IMReserved, ndis/IPsecOffloadV2NetBufferListInfo, ndis/NblReAuthWfpFlowContext, TcpOffloadBytesTransferred, ndis/Ieee8021QNetBufferListInfo, ndis/SwitchForwardingReserved, ndis_netbuf_enums_ref_c6cf9a86-d578-449f-bce0-850f8bbf04f3.xml
+ms.keywords: ndis/MediaSpecificInformationEx, ndis/TcpSendOffloadsSupplementalNetBufferListInfo, ndis/IPsecOffloadV1NetBufferListInfo, ndis_netbuf_enums_ref_c6cf9a86-d578-449f-bce0-850f8bbf04f3.xml, NetBufferListFilteringInfo, NetBufferListCancelId, ndis/Ieee8021QNetBufferListInfo, ndis/NetBufferListHashInfo, ndis/NetBufferListInfoReserved1, ndis/IPsecOffloadV2HeaderNetBufferListInfo, ClassificationHandleNetBufferListInfo, MediaSpecificInformationEx, SwitchForwardingDetail, IMReserved, ndis/NblOriginalInterfaceIfIndex, ndis/RscTcpTimestampDelta, IPsecOffloadV2HeaderNetBufferListInfo, ndis/TcpRecvSegCoalesceInfo, ndis/TcpLargeSendNetBufferListInfo, NblReAuthWfpFlowContext, ndis/TcpReceiveBytesTransferred, ndis/VirtualSubnetInfo, ndis/TcpReceiveNoPush, NetBufferListHashInfo, TcpOffloadBytesTransferred, ndis/NblReAuthWfpFlowContext, _NDIS_NET_BUFFER_LIST_INFO, TcpReceiveNoPush, ndis/NetBufferListCancelId, NetBufferListHashValue, IPsecOffloadV2NetBufferListInfo, ndis/SwitchForwardingReserved, IPsecOffloadV1NetBufferListInfo, ndis/NetBufferListHashValue, TcpLargeSendNetBufferListInfo, ndis/NDIS_NET_BUFFER_LIST_INFO, NDIS_NET_BUFFER_LIST_INFO, ndis/NetBufferListCorrelationId, ndis/NetBufferListInfoReserved2, TcpIpChecksumNetBufferListInfo, TcpReceiveBytesTransferred, ndis/TcpOffloadBytesTransferred, netvista.ndis_net_buffer_list_info, ndis/NetBufferListProtocolId, ndis/IPsecOffloadV2TunnelNetBufferListInfo, VirtualSubnetInfo, PNDIS_NET_BUFFER_LIST_INFO enumeration pointer [Network Drivers Starting with Windows Vista], NblOriginalInterfaceIfIndex, WfpNetBufferListInfo, NetBufferListProtocolId, NetBufferListCorrelationId, RscTcpTimestampDelta, NetBufferListFrameType, ndis/NetBufferListFrameType, SwitchForwardingReserved, ndis/SwitchForwardingDetail, NetBufferListInfoReserved1, TcpRecvSegCoalesceInfo, PNDIS_NET_BUFFER_LIST_INFO, *PNDIS_NET_BUFFER_LIST_INFO, NetBufferListInfoReserved2, Ieee8021QNetBufferListInfo, ndis/ClassificationHandleNetBufferListInfo, ndis/WfpNetBufferListInfo, ndis/NetBufferListFilteringInfo, TcpSendOffloadsSupplementalNetBufferListInfo, ndis/MaxNetBufferListInfo, MaxNetBufferListInfo, NDIS_NET_BUFFER_LIST_INFO enumeration [Network Drivers Starting with Windows Vista], IPsecOffloadV2TunnelNetBufferListInfo, ndis/IPsecOffloadV2NetBufferListInfo, ndis/PNDIS_NET_BUFFER_LIST_INFO, ndis/TcpIpChecksumNetBufferListInfo, ndis/IMReserved, MediaSpecificInformation, ndis/MediaSpecificInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -113,7 +113,7 @@ typedef enum _NDIS_NET_BUFFER_LIST_INFO {
 
 
 
-### -field TcpIpChecksumNetBufferListInfo
+#### - TcpIpChecksumNetBufferListInfo
 
 Identifies checksum information that is used in offloading checksum tasks from the TCP/IP protocol
      to a miniport driver. When 
@@ -123,13 +123,13 @@ Identifies checksum information that is used in offloading checksum tasks from t
      the checksum information to be accessed as a single <b>PVOID</b> value or as bit fields.
 
 
-### -field TcpOffloadBytesTransferred
+#### - TcpOffloadBytesTransferred
 
 Identifies a <b>ULONG</b> value that is the number of data bytes that were transferred in a TCP chimney
      offload send, receive, or disconnect operation.
 
 
-### -field IPsecOffloadV1NetBufferListInfo
+#### - IPsecOffloadV1NetBufferListInfo
 
 Identifies Internet Protocol security (IPsec) information that is used in offloading IPsec tasks
      from the TCP/IP protocol to a miniport driver. When 
@@ -138,7 +138,7 @@ Identifies Internet Protocol security (IPsec) information that is used in offloa
      NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b></mshelp:link> structure.
 
 
-### -field IPsecOffloadV2NetBufferListInfo
+#### - IPsecOffloadV2NetBufferListInfo
 
 Specifies Internet protocol security offload version 2 (IPsecV2) information that is used in
       offloading IPsec tasks from the TCP/IP protocol to a miniport driver. When you specify 
@@ -147,7 +147,7 @@ Specifies Internet protocol security offload version 2 (IPsecV2) information tha
       NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</b></mshelp:link> structure.
 
 
-### -field TcpLargeSendNetBufferListInfo
+#### - TcpLargeSendNetBufferListInfo
 
 Identifies information that is used in offloading the segmentation of a large TCP packet from the
      TCP/IP protocol to a miniport adapter for large send offload version 1 (LSOV1) and large send offload
@@ -173,18 +173,18 @@ Before passing a large TCP packet to a miniport driver for segmentation, the TCP
      segmented from the large TCP packet.
 
 
-### -field TcpReceiveNoPush
+#### - TcpReceiveNoPush
 
 Identifies a <b>Boolean</b> value that represents the push mode of a TCP chimney offload receive request.
      If <b>TRUE</b>, the receive request is in non-push mode. Otherwise, the receive request is in push mode.
 
 
-### -field ClassificationHandleNetBufferListInfo
+#### - ClassificationHandleNetBufferListInfo
 
 Reserved.
 
 
-### -field Ieee8021QNetBufferListInfo
+#### - Ieee8021QNetBufferListInfo
 
 Identifies 802.1Q information about a packet. When 
      <b>Ieee8021QNetBufferListInfo</b> is specified, 
@@ -198,7 +198,7 @@ Identifies 802.1Q information about a packet. When
      NDIS_NET_BUFFER_LIST_8021Q_INFO</b> structure for transmit and receive operations.
 
 
-### -field NetBufferListCancelId
+#### - NetBufferListCancelId
 
 Identifies a <b>ULONG_PTR</b> value that is a cancellation identifier for the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. To cancel the
@@ -211,7 +211,7 @@ Identifies a <b>ULONG_PTR</b> value that is a cancellation identifier for the
      cancellation identifier.
 
 
-### -field MediaSpecificInformation
+#### - MediaSpecificInformation
 
 Identifies a PVOID value that is the address of a driver-allocated buffer. This buffer contains
      any media-specific out-of-band data that accompanies the 
@@ -221,12 +221,12 @@ Identifies a PVOID value that is the address of a driver-allocated buffer. This 
      indication.
 
 
-### -field NetBufferListFrameType
+#### - NetBufferListFrameType
 
 Identifies a <b>USHORT</b> value that is the frame type of the received Ethernet packets.
 
 
-### -field NetBufferListProtocolId
+#### - NetBufferListProtocolId
 
 Identifies a <b>UCHAR</b> value that is a protocol identifier as one of the following values: 
      
@@ -254,7 +254,7 @@ The IPX protocol.
 The NetBEUI protocol.
 
 
-### -field NetBufferListHashValue
+#### - NetBufferListHashValue
 
 On the receive path, 
      <b>NetBufferListHashValue</b> identifies a <b>ULONG</b> value that is the RSS hash value that a NIC calculated,
@@ -272,7 +272,7 @@ For more information, see
      Data</mshelp:link>.
 
 
-### -field NetBufferListHashInfo
+#### - NetBufferListHashInfo
 
 Identifies a <b>ULONG</b> value that is the RSS hash information, which includes the hash function and
      hash type. For more information, see 
@@ -280,13 +280,13 @@ Identifies a <b>ULONG</b> value that is the RSS hash information, which includes
      Data</mshelp:link>.
 
 
-### -field WfpNetBufferListInfo
+#### - WfpNetBufferListInfo
 
 Reserved for use by the Windows Filtering Platform (WFP). No drivers, including WFP callout
      drivers, can store information by using this value.
 
 
-### -field IPsecOffloadV2TunnelNetBufferListInfo
+#### - IPsecOffloadV2TunnelNetBufferListInfo
 
 Specifies IPsecV2 tunnel information that is used in offloading IPsec tasks from the TCP/IP protocol
       to a miniport driver. When you specify 
@@ -295,7 +295,7 @@ Specifies IPsecV2 tunnel information that is used in offloading IPsec tasks from
       NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</b></mshelp:link> structure.
 
 
-### -field IPsecOffloadV2HeaderNetBufferListInfo
+#### - IPsecOffloadV2HeaderNetBufferListInfo
 
 Specifies IPsecV2 header information that is used in offloading IPsec tasks from the TCP/IP protocol
       to a miniport driver. When you specify <b>IPsecOffloadV2HeaderNetBufferListInfo</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
@@ -303,12 +303,12 @@ Specifies IPsecV2 header information that is used in offloading IPsec tasks from
       NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</b></mshelp:link> structure.
 
 
-### -field NetBufferListCorrelationId
+#### - NetBufferListCorrelationId
 
 Reserved.
 
 
-### -field NetBufferListFilteringInfo
+#### - NetBufferListFilteringInfo
 
 Specifies filtering information that is used in the virtual machine queue (VMQ) interface, the single root I/O virtualization (SR-IOV) interface, and NDIS packet coalescing. When you specify 
      <b>NetBufferListFilteringInfo</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
@@ -320,7 +320,7 @@ Starting with NDIS 6.20, receive indications made by miniport drivers that suppo
      NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure.  The driver also sets the <b>FilterId</b> member of the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure to zero. 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, the miniport driver that supports SR-IOV or packet coalescing must set the <b>QueueId</b> to <b>NDIS_DEFAULT_RECEIVE_QUEUE_ID</b> and the <b>FilterId</b> member to zero.</div><div> </div>
 
-### -field MediaSpecificInformationEx
+#### - MediaSpecificInformationEx
 
 Identifies a pointer to a driver-allocated 
      <mshelp:link keywords="netvista.ndis_nbl_media_specific_information_ex" tabindex="0"><b>
@@ -332,17 +332,17 @@ Identifies a pointer to a driver-allocated
      media-specific information.
 
 
-### -field NblOriginalInterfaceIfIndex
+#### - NblOriginalInterfaceIfIndex
 
 Reserved.
 
 
-### -field NblReAuthWfpFlowContext
+#### - NblReAuthWfpFlowContext
 
 Reserved.
 
 
-### -field TcpReceiveBytesTransferred
+#### - TcpReceiveBytesTransferred
 
 Identifies a <b>ULONG</b> value that is the number of data bytes that were received by the host stack and
      filled in the receive request that is being processed as a TCP chimney offload receive operation.
@@ -352,37 +352,37 @@ Identifies a <b>ULONG</b> value that is the number of data bytes that were recei
 
 
 
-### -field SwitchForwardingReserved
+#### - SwitchForwardingReserved
 
 Reserved for NDIS.
 
 
-### -field SwitchForwardingDetail
+#### - SwitchForwardingDetail
 
 Identifies a pointer to a driver-allocated <a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a> structure. This  structure specifies the information for forwarding a packet to one or more  ports of a Hyper-V extensible switch. The driver allocates this structure by calling <a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a> and frees the structure by calling <a href="https://msdn.microsoft.com/08AE3160-276F-4D1F-9D02-AD5AF38CDED2">FreeNetBufferListForwardingContext</a>.
 
 
-### -field VirtualSubnetInfo
+#### - VirtualSubnetInfo
 
 Identifies a pointer to a driver-allocated <a href="..\ndis\ns-ndis-_ndis_net_buffer_list_virtual_subnet_info.md">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a> structure. 
 
 
-### -field IMReserved
+#### - IMReserved
 
 Reserved for NDIS.
 
 
-### -field TcpRecvSegCoalesceInfo
+#### - TcpRecvSegCoalesceInfo
 
 Identifies a pointer to a driver-allocated <a href="..\ndis\ns-ndis-_ndis_rsc_nbl_info.md">NDIS_RSC_NBL_INFO</a> union containing receive segment coalescing (RSC) counter information. For more information, see the <a href="..\ndis\ns-ndis-_ndis_rsc_nbl_info.md">NDIS_RSC_NBL_INFO</a> documentation.
 
 
-### -field RscTcpTimestampDelta
+#### - RscTcpTimestampDelta
 
 Identifies a pointer to a driver-allocated <a href="..\ndis\ns-ndis-_ndis_rsc_nbl_info.md">NDIS_RSC_NBL_INFO</a> union containing RSC timestamp information. For more information, see the <a href="..\ndis\ns-ndis-_ndis_rsc_nbl_info.md">NDIS_RSC_NBL_INFO</a> documentation.
 
 
-### -field TcpSendOffloadsSupplementalNetBufferListInfo
+#### - TcpSendOffloadsSupplementalNetBufferListInfo
 
 Identifies a pointer to a driver-allocated <a href="..\ndis\ns-ndis-_ndis_tcp_send_offloads_supplemental_net_buffer_list_info.md">NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO</a> structure containing additional out-of-band information for encapsulated packets.
 
@@ -403,17 +403,17 @@ Identifies a pointer to a driver-allocated <a href="..\ndis\ns-ndis-_ndis_tcp_se
 
 
 
-### -field NetBufferListInfoReserved1
+#### - NetBufferListInfoReserved1
 
 Reserved for NDIS.
 
 
-### -field NetBufferListInfoReserved2
+#### - NetBufferListInfoReserved2
 
 Reserved for NDIS.
 
 
-### -field MaxNetBufferListInfo
+#### - MaxNetBufferListInfo
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 
@@ -435,46 +435,46 @@ Use these enumeration values with the
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
+
 <mshelp:link keywords="netvista.ndis_ipsec_offload_v2_tunnel_net_buffer_list_info" tabindex="0"><b>
    NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <mshelp:link keywords="netvista.ndis_net_buffer_list_8021q_info" tabindex="0"><b>
    NDIS_NET_BUFFER_LIST_8021Q_INFO</b></mshelp:link>
 
+<mshelp:link keywords="netvista.ndis_ipsec_offload_v2_net_buffer_list_info" tabindex="0"><b>
+   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</b></mshelp:link>
+
 <mshelp:link keywords="netvista.ndis_tcp_ip_checksum_net_buffer_list_info" tabindex="0"><b>
    NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
-
-<mshelp:link keywords="netvista.ndis_tcp_large_send_offload_net_buffer_list_info" tabindex="0"><b>
-   NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_virtual_subnet_info.md">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-<mshelp:link keywords="netvista.ndis_ipsec_offload_v2_net_buffer_list_info" tabindex="0"><b>
-   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</b></mshelp:link>
+<mshelp:link keywords="netvista.ndis_net_buffer_list_filtering_info" tabindex="0"><b>
+   NDIS_NET_BUFFER_LIST_FILTERING_INFO</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_nbl_media_specific_information_ex" tabindex="0"><b>
    NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</b></mshelp:link>
 
+<mshelp:link keywords="netvista.ndis_tcp_large_send_offload_net_buffer_list_info" tabindex="0"><b>
+   NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
+
+<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_virtual_subnet_info.md">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a>
+
 <mshelp:link keywords="netvista.ndis_ipsec_offload_v2_header_net_buffer_list_info" tabindex="0"><b>
    NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</b></mshelp:link>
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 <mshelp:link keywords="netvista.ndis_ipsec_offload_v1_net_buffer_list_info" tabindex="0"><b>
    NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_net_buffer_list_filtering_info" tabindex="0"><b>
-   NDIS_NET_BUFFER_LIST_FILTERING_INFO</b></mshelp:link>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f1e96d8a-910e-4808-b9a3-e8c530158872
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcxswapchainsetdevice, IddCxSwapChainSetDevice method [Display Devices], iddcx/IddCxSwapChainSetDevice, IddCxSwapChainSetDevice
+ms.keywords: display.iddcxswapchainsetdevice, IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], iddcx/IddCxSwapChainSetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ HRESULT IddCxSwapChainSetDevice(
 
 
 
-### -param SwapChainObject [in]
+#### - SwapChainObject [in]
 
 The swap-chain object that will be setup with a particular DXGI device.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments to the function
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFFDOGETDEFAULTCHILDLIST, kmdf.wdffdogetdefaultchildlist, wdf.wdffdogetdefaultchildlist, WdfFdoGetDefaultChildList method, DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, WdfFdoGetDefaultChildList, wdffdo/WdfFdoGetDefaultChildList
+ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, wdffdo/WdfFdoGetDefaultChildList, kmdf.wdffdogetdefaultchildlist, PFN_WDFFDOGETDEFAULTCHILDLIST, WdfFdoGetDefaultChildList method, wdf.wdffdogetdefaultchildlist, WdfFdoGetDefaultChildList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoGetDefaultChildList
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ WDFCHILDLIST WdfFdoGetDefaultChildList(
 
 
 
-### -param Fdo [in]
+#### - Fdo [in]
 
 A handle to a framework device object.
 

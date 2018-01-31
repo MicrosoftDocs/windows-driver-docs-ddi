@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetKInterrupt method [Audio Devices], IInterruptSync::GetKInterrupt, IInterruptSync interface [Audio Devices], GetKInterrupt method, audio.iinterruptsync_getkinterrupt, IInterruptSync, portcls/IInterruptSync::GetKInterrupt, GetKInterrupt method [Audio Devices], IInterruptSync interface, GetKInterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml
+ms.keywords: audio.iinterruptsync_getkinterrupt, IInterruptSync, IInterruptSync interface [Audio Devices], GetKInterrupt method, GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices], IInterruptSync interface, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, IInterruptSync::GetKInterrupt, GetKInterrupt, portcls/IInterruptSync::GetKInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IInterruptSync.GetKInterrupt
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IInterruptSync::GetKInterrupt method
@@ -90,9 +90,9 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
-
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
 
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 

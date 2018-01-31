@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 62c2182c-af55-4482-a890-803f92dc863a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDDCX_MONITOR_INFO, IDDCX_MONITOR_INFO, display.iddcx_monitor_info, IDDCX_MONITOR_INFO structure [Display Devices]
+ms.keywords: IDDCX_MONITOR_INFO, IDDCX_MONITOR_INFO structure [Display Devices], iddcx/IDDCX_MONITOR_INFO, display.iddcx_monitor_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ typedef struct IDDCX_MONITOR_INFO {
 
 
 
-### -field Size
+#### - Size
 
 
                      Total size of the structure
                  
 
 
-### -field MonitorType
+#### - MonitorType
 
 The monitor connector type of the monitor
                  
 
 
-### -field ConnectorIndex
+#### - ConnectorIndex
 
 
                      This is a zero-based unique identifier for this connector. It should be unique for this adapter and the value should not change for this connector across system reboot or driver upgrade. 
 <div class="alert"><b>Note</b>  The value has to be between 0 and the <a href="..\iddcx\ns-iddcx-iddcx_adapter_caps.md">IDDCX_ADAPTER_CAPS</a> value MaxMonitorsSupported minus 1.
                  </div><div> </div>
 
-### -field MonitorDescription
+#### - MonitorDescription
 
 
                      Pointer to the monitor description for the monitor. If the monitor does not have any description data, this should be set to NULL
                  
 
 
-### -field MonitorContainerId
+#### - MonitorContainerId
 
 
                      Container Id of the monitor being connected. If any device is also inside the monitor (eg audio, touch etc), then those devices should all have the same container id.

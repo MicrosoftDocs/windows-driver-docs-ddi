@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeDpc, storport/StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
+ms.keywords: StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml, storage.storportinitializedpc, StorPortInitializeDpc routine [Storage Devices], storport/StorPortInitializeDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID StorPortInitializeDpc(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the per-adapter device extension. 
 
 
-### -param Dpc [out]
+#### - Dpc [out]
 
 Pointer to a buffer where a DPC object of type <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a> will be created. The caller must ensure that the size in bytes of this buffer is greater than or equal to <b>sizeof</b>(STOR_DPC). 
 
 
-### -param HwDpcRoutine [in]
+#### - HwDpcRoutine [in]
 
 Pointer to the DPC routine that corresponds to the DPC object pointed to by <i>Dpc</i>. The prototype for this deferred routine is defined in Storport.h as follows: 
 <div class="code"><span codelanguage=""><table>

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D995FB36-177A-44BF-9326-EB2820DB0962
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportregistrywriteadapterkey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storport/StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey
+ms.keywords: storport/StorPortRegistryWriteAdapterKey, storage.storportregistrywriteadapterkey, StorPortRegistryWriteAdapterKey routine [Storage Devices], StorPortRegistryWriteAdapterKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ STORPORT_STATUS StorPortRegistryWriteAdapterKey(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
-### -param SubKeyName [in, optional]
+#### - SubKeyName [in, optional]
 
 The miniport subkey.
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 The name of the Value under the key.
 
 
-### -param ValueType [in]
+#### - ValueType [in]
 
 One of the following registry data types.
 <table>
@@ -230,12 +230,12 @@ REG_QWORD_LITTLE_ENDIAN
 </table> 
 
 
-### -param ValueData [in]
+#### - ValueData [in]
 
 Pointer to a the data that contains the registry data to be written. The data is converted from UNICODE to a NULL-terminated ASCII string.
 
 
-### -param ValueDataLength [in]
+#### - ValueDataLength [in]
 
 Specifies the size of the data pointed to by <i>ValueData</i>.
 

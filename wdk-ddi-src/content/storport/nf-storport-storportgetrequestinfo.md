@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3B0A25E8-6DBC-4AA9-A0D0-DDB36B402F43
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetRequestInfo, StorPortGetRequestInfo, storage.storportgetrequestinfo, StorPortGetRequestInfo routine [Storage Devices]
+ms.keywords: storport/StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], StorPortGetRequestInfo, storage.storportgetrequestinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ ULONG StorPortGetRequestInfo(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 A pointer to the SRB to be queried.
 
 
-### -param RequestInfo [out]
+#### - RequestInfo [out]
 
 A pointer to a caller-supplied <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> structure.
 

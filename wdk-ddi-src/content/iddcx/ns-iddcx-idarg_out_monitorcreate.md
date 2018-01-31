@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 713cd675-56a8-42d8-ac75-4af227c55dec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_MONITORCREATE structure [Display Devices], display.idarg_out_monitorcreate, IDARG_OUT_MONITORCREATE, iddcx/IDARG_OUT_MONITORCREATE
+ms.keywords: IDARG_OUT_MONITORCREATE, display.idarg_out_monitorcreate, iddcx/IDARG_OUT_MONITORCREATE, IDARG_OUT_MONITORCREATE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct IDARG_OUT_MONITORCREATE {
 
 
 
-### -field MonitorObject
+#### - MonitorObject
 
 
                      [out] Handle the driver can use to identify this monitor when calling OS functions.

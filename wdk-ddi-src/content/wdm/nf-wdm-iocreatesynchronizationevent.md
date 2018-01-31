@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ce068ad0-3826-4f5d-a41c-2c3a40200f30
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], kernel.iocreatesynchronizationevent, IoCreateSynchronizationEvent, k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml, wdm/IoCreateSynchronizationEvent
+ms.keywords: wdm/IoCreateSynchronizationEvent, IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], IoCreateSynchronizationEvent, kernel.iocreatesynchronizationevent, k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PKEVENT IoCreateSynchronizationEvent(
 
 
 
-### -param EventName [in]
+#### - EventName [in]
 
 Pointer to a buffer containing a null-terminated Unicode string that names the event.
 
 
-### -param EventHandle [out]
+#### - EventHandle [out]
 
 Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="https://msdn.microsoft.com/4015d7bd-48f6-489b-a0e5-eca83758c5bb">kernel handle</a>. 
 
@@ -111,13 +111,13 @@ The driver creates a named event object in the \\BaseNamedObjects object directo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
 <a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
  
 

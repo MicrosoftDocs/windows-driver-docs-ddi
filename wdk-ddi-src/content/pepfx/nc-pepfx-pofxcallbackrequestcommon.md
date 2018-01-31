@@ -40,7 +40,7 @@ apiname:
 -	RequestCommon
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKREQUESTCOMMON callback
@@ -71,12 +71,12 @@ NTSTATUS RequestCommon(
 
 
 
-### -param RequestId [in]
+#### - RequestId [in]
 
 A request ID that specifies the operation being requested. 
 
 
-### -param Data [in, out, optional]
+#### - Data [in, out, optional]
 
 A pointer to a data structure that contains the input data and/or result data for the request specified by the <i>RequestId</i> parameter. 
 

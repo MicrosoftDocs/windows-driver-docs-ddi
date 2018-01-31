@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7dab0240-67c3-4412-a7a5-bb98d84c6bdd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_COPY_PROTECTION, ksmedia/PKSAUDIO_COPY_PROTECTION, audio.ksaudio_copy_protection, PKSAUDIO_COPY_PROTECTION structure pointer [Audio Devices], *PKSAUDIO_COPY_PROTECTION, aud-prop_94eac763-0c97-406d-b255-686ac82f908c.xml, ksmedia/KSAUDIO_COPY_PROTECTION, PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION structure [Audio Devices]
+ms.keywords: KSAUDIO_COPY_PROTECTION, PKSAUDIO_COPY_PROTECTION structure pointer [Audio Devices], KSAUDIO_COPY_PROTECTION structure [Audio Devices], PKSAUDIO_COPY_PROTECTION, audio.ksaudio_copy_protection, ksmedia/PKSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION, aud-prop_94eac763-0c97-406d-b255-686ac82f908c.xml, ksmedia/KSAUDIO_COPY_PROTECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIO_COPY_PROTECTION
 product: Windows
 targetos: Windows
-req.typenames: "*PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION"
+req.typenames: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION
 ---
 
 # KSAUDIO_COPY_PROTECTION structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field fCopyrighted
+#### - fCopyrighted
 
 Indicates whether the stream is copyrighted. If <b>TRUE</b>, the stream is copyrighted. If <b>FALSE</b>, the stream is not copyrighted and is not subject to copy protection.
 
 
-### -field fOriginal
+#### - fOriginal
 
 Indicates whether the stream is an original, first-generation copy of a stream or a second-generation copy of the original. If <b>TRUE</b>, the stream is original. If <b>FALSE</b>, it is a second-generation copy.
 

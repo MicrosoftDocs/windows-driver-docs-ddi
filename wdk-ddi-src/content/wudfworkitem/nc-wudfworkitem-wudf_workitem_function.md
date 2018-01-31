@@ -75,11 +75,9 @@ typedef void WUDF_WORKITEM_FUNCTION;
 
 
 
-### -param *pWorkItem
+#### - *pWorkItem [in]
 
-
-
-
+A pointer to an  <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a> interface.
 
 
 #### - pWorkItem [in]
@@ -109,9 +107,9 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 ## -see-also
 
-<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
-
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+
+<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 

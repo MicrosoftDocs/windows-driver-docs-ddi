@@ -40,7 +40,7 @@ apiname:
 -	WskListen
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -73,14 +73,14 @@ NTSTATUS WSKAPI * WskListen(
 
 
 
-### -param Socket [in]
+#### - Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the stream socket that is listening for an incoming connection. This socket must have previously been bound to a local transport address by calling <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the listen operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -159,15 +159,15 @@ A WSK application can call the <b>WskListen</b> function only on a stream socket
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
 <a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
  
 

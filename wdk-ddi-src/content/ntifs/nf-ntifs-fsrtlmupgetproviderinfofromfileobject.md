@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3f4d8c5c-3a83-4027-8d9e-5ff7db4a6853
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlmupgetproviderinfofromfileobject, fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], ntifs/FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject
+ms.keywords: fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, ifsk.fsrtlmupgetproviderinfofromfileobject, FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], ntifs/FsRtlMupGetProviderInfoFromFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FsRtlMupGetProviderInfoFromFileObject(
 
 
 
-### -param pFileObject [in]
+#### - pFileObject [in]
 
 A pointer to a file object of a file that is located on a remote file system.
 
 
-### -param Level [in]
+#### - Level [in]
 
 The level of information that is returned by the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine. For more information about the possible values for this parameter, see the Remarks section.
 
 
-### -param pBuffer [out]
+#### - pBuffer [out]
 
 A pointer to a buffer that receives the information that is returned by the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine. For more information about the format of the data that is returned in this buffer, see the Remarks section.
 
 
-### -param pBufferSize [in, out]
+#### - pBufferSize [in, out]
 
 A pointer to a ULONG-typed variable that contains the size, in bytes, of the buffer that is pointed to by the <i>pBuffer</i> parameter. If the routine succeeds, this variable receives the size, in bytes, of data that is returned in the buffer.
 

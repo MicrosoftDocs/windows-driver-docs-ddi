@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ab30d24f-4f14-4a84-a6e1-1a2506b4ba87
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSOBJECTTYPE, KsObjectTypeFilterFactory, ks/KsObjectTypeFilter, stream.ksobjecttype, KsObjectTypePin, ks/KsObjectTypeDevice, ks/KsObjectTypePin, KSOBJECTTYPE enumeration [Streaming Media Devices], ks/KSOBJECTTYPE, ks-struct_b8010334-0906-4d4b-8c65-b3919b7b8257.xml, ks/KsObjectTypeFilterFactory, KsObjectTypeFilter, KsObjectTypeDevice
+ms.keywords: KsObjectTypePin, ks/KsObjectTypeFilterFactory, stream.ksobjecttype, ks/KsObjectTypeDevice, KsObjectTypeFilter, KSOBJECTTYPE enumeration [Streaming Media Devices], ks-struct_b8010334-0906-4d4b-8c65-b3919b7b8257.xml, ks/KsObjectTypePin, ks/KsObjectTypeFilter, KSOBJECTTYPE, KsObjectTypeDevice, KsObjectTypeFilterFactory, ks/KSOBJECTTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,37 +70,37 @@ typedef enum  {
 
 
 
-### -field KsObjectTypeDevice
+#### - KsObjectTypeDevice
 
 Specifies that the object is a device.
 
 
-### -field KsObjectTypeFilterFactory
+#### - KsObjectTypeFilterFactory
 
 Specifies that the object is a filter factory.
 
 
-### -field KsObjectTypeFilter
+#### - KsObjectTypeFilter
 
 Specifies that the object is a filter.
 
 
-### -field KsObjectTypePin
+#### - KsObjectTypePin
 
 Specifies that the object is a pin.
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
-
-<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+<a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
 
 <a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
 
-<a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
-
 <a href="..\ks\nf-ks-ksgetpinfromfileobject.md">KsGetPinFromFileObject</a>
+
+<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+
+<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
 
  
 

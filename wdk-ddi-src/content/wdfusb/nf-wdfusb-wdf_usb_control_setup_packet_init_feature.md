@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ef3f7b9f-8b4b-4d47-8457-17452e3e918a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, wdf.wdf_usb_control_setup_packet_init_feature, DFUsbRef_becbf646-e647-4337-a1cb-05a72c3dd215.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, kmdf.wdf_usb_control_setup_packet_init_feature
+ms.keywords: WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, wdf.wdf_usb_control_setup_packet_init_feature, kmdf.wdf_usb_control_setup_packet_init_feature, DFUsbRef_becbf646-e647-4337-a1cb-05a72c3dd215.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ VOID WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE(
 
 
 
-### -param Packet [out]
+#### - Packet [out]
 
 A pointer to a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 
-### -param BmRequestRecipient [in]
+#### - BmRequestRecipient [in]
 
 A <a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>-typed value that is stored in the <b>Packet.bm.Request.Recipient</b> member of the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure. 
 
 
-### -param FeatureSelector [in]
+#### - FeatureSelector [in]
 
 A feature-specific value that is stored in the <b>Packet.wValue.Value</b> member of the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 
-### -param Index [in]
+#### - Index [in]
 
 A feature-specific index value that is stored in the <b>Packet.wIndex.Value</b> member of the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 
-### -param SetFeature [in]
+#### - SetFeature [in]
 
 A Boolean value that, if <b>TRUE</b>, indicates that the specified feature will be set. If <b>FALSE</b>, the specified feature will be cleared.
 
@@ -166,17 +166,17 @@ Sets other structure members by using the <b>WDF_USB_CONTROL_SETUP_PACKET_INIT_F
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
+
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
-
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
 
  
 

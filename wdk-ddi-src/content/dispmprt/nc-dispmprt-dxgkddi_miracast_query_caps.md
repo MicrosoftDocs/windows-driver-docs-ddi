@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiMiracastQueryCaps
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_MIRACAST_QUERY_CAPS callback
@@ -74,23 +74,21 @@ NTSTATUS* DxgkDdiMiracastQueryCaps(
 
 
 
-### -param DriverContext [in]
+#### - DriverContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param MiracastCapsSize [in]
+#### - MiracastCapsSize [in]
 
 The size, supplied by the operating system, of the <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a> structure pointed to by the <i>MiracastCaps</i> parameter.
 
 The driver should check this value before it fills the structure.
 
 
-### -param *MiracastCaps
+#### - *MiracastCaps [out]
 
-
-
-
+A pointer to an operating system-provided buffer that holds a <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a> structure that the driver fills with Miracast device capabilities.
 
 
 #### - MiracastCaps [out]

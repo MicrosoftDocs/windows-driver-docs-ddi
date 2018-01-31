@@ -40,7 +40,7 @@ apiname:
 -	GetMipPacking
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM1_3DDI_GETMIPPACKING callback
@@ -73,25 +73,28 @@ VOID APIENTRY* GetMipPacking(
 
 
 
-### -param hDevice
+#### - hDevice
 
 A handle to the display device (graphics context).
 
 
-### -param hTiledResource
+#### - hTiledResource
 
 A handle to the tiled resource.
 
 
-### -param *pNumPackedMips
+#### - *pNumPackedMips [out]
+
+A pointer to a variable that receives the number of mips that are packed, for a given array slice, including any mips that don't use the standard tile shapes.
+
+If there is no packing, a value of zero should be returned.
 
 
+#### - *pNumTilesForPackedMips [out]
 
-### -param *pNumTilesForPackedMips
+A pointer to a variable that receives the number of tiles that the packed mips fit into, for a given array slice.
 
-
-
-
+This parameter is ignored if *<i>pNumPackedMips</i> returns zero.
 
 
 #### - pNumPackedMips [out]

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cdf52fe7-40ac-4baf-aaa0-c23b40574376
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml, _WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR, ntddk/WHEA_XPF_MCE_DESCRIPTOR, ntddk/PWHEA_XPF_MCE_DESCRIPTOR, whea.whea_xpf_mce_descriptor, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_XPF_MCE_DESCRIPTOR
+ms.keywords: WHEA_XPF_MCE_DESCRIPTOR, _WHEA_XPF_MCE_DESCRIPTOR, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml, *PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_xpf_mce_descriptor, PWHEA_XPF_MCE_DESCRIPTOR, ntddk/WHEA_XPF_MCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,22 +73,22 @@ typedef struct _WHEA_XPF_MCE_DESCRIPTOR {
 
 
 
-### -field Type
+#### - Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_XPFMCE.
 
 
-### -field Enabled
+#### - Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
 
-### -field NumberOfBanks
+#### - NumberOfBanks
 
 The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
 
 
-### -field Flags
+#### - Flags
 
 An XPF_MCE_FLAGS union that indicates which of the members of the WHEA_XPF_MCE_DESCRIPTOR structure can be written to by the operating system. The XPF_MCE_FLAGS union is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -130,17 +130,17 @@ Reserved for system use.
 A ULONG representation of the contents of the XPF_MCE_FLAGS union.
 
 
-### -field MCG_Capability
+#### - MCG_Capability
 
 The contents of the processor's IA32_MCG_CAP model-specific register. This register contains capability information about the machine check architecture of the processor. For more information about the IA32_MCG_CAP register, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 
-### -field MCG_GlobalControl
+#### - MCG_GlobalControl
 
 The contents of the processor's IA32_MCG_CTL model-specific register. This register controls the reporting of machine check exceptions. For more information about the IA32_MCG_CTL register, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 
-### -field Banks
+#### - Banks
 
 An array of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
 
@@ -154,9 +154,9 @@ A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
 
  
 

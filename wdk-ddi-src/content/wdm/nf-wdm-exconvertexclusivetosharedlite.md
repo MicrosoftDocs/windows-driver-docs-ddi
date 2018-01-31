@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 140de330-7e6d-4f23-96cb-ea1228c8036c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExConvertExclusiveToSharedLite, wdm/ExConvertExclusiveToSharedLite, k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, kernel.exconvertexclusivetosharedlite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture]
+ms.keywords: k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], ExConvertExclusiveToSharedLite, wdm/ExConvertExclusiveToSharedLite, kernel.exconvertexclusivetosharedlite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExConvertExclusiveToSharedLite(
 
 
 
-### -param Resource [in, out]
+#### - Resource [in, out]
 
 A pointer to the resource for which the access should be converted.
 

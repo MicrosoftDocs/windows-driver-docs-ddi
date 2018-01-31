@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e982200c-f30c-423e-bd85-03365850c996
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pssetcreateprocessnotifyroutineex, PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], ntddk/PsSetCreateProcessNotifyRoutineEx, k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml
+ms.keywords: ntddk/PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx, kernel.pssetcreateprocessnotifyroutineex, k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PsSetCreateProcessNotifyRoutineEx(
 
 
 
-### -param NotifyRoutine [in]
+#### - NotifyRoutine [in]
 
 A pointer to the <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> routine to register or remove. The operating system calls this routine whenever a new process is created.
 
 
-### -param Remove [in]
+#### - Remove [in]
 
 A Boolean value that specifies whether <b>PsSetCreateProcessNotifyRoutineEx</b> will add or remove a specified routine from the list of callback routines. If this parameter is <b>TRUE</b>, the specified routine is removed from the list of callback routines. If this parameter is <b>FALSE</b>, the specified routine is added to the list of callback routines. If <i>Remove</i> is <b>TRUE</b>, the system also waits for all in-flight callback routines to complete before returning.
 
@@ -137,11 +137,11 @@ The operating system calls the driver's process-notify routine at PASSIVE_LEVEL 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a>
-
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
 
 <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a>
+
+<a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint, OEMPaint, OEMPaint function [Print Devices], print.oempaint
+ms.keywords: printoem/OEMPaint, OEMPaint function [Print Devices], OEMPaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, print.oempaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,23 +72,23 @@ BOOL APIENTRY OEMPaint(
 
 
 
-### -param pso
+#### - pso
 
 
 
-### -param pco
+#### - pco
 
 
 
-### -param pbo
+#### - pbo
 
 
 
-### -param pptlBrushOrg
+#### - pptlBrushOrg
 
 
 
-### -param mix
+#### - mix
 
 
 

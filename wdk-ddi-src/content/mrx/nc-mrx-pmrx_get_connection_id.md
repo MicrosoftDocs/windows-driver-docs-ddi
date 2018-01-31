@@ -40,7 +40,7 @@ apiname:
 -	MRxGetConnectionId
 product: Windows
 targetos: Windows
-req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
+req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_GET_CONNECTION_ID callback
@@ -71,12 +71,12 @@ NTSTATUS MRxGetConnectionId(
 
 
 
-### -param RxContext [in, out]
+#### - RxContext [in, out]
 
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
 
 
-### -param UniqueId [in, out]
+#### - UniqueId [in, out]
 
 A pointer to the connection ID when the routine returns. 
 

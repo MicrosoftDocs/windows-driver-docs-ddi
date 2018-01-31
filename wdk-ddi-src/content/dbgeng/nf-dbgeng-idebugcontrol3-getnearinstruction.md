@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76387681-cac6-4c35-9095-28942a856c30
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNearInstruction method [Windows Debugging], IDebugControl2 interface, IDebugControl3, GetNearInstruction method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetNearInstruction, IDebugControl3 interface [Windows Debugging], GetNearInstruction method, dbgeng/IDebugControl::GetNearInstruction, dbgeng/IDebugControl2::GetNearInstruction, GetNearInstruction method [Windows Debugging], IDebugControl interface, debugger.getnearinstruction, dbgeng/IDebugControl3::GetNearInstruction, IDebugControl_2c12e1fe-0f9b-45d6-9ff4-477bc42b2275.xml, IDebugControl interface [Windows Debugging], GetNearInstruction method, GetNearInstruction method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetNearInstruction method, IDebugControl3::GetNearInstruction, GetNearInstruction, IDebugControl2::GetNearInstruction
+ms.keywords: GetNearInstruction method [Windows Debugging], IDebugControl3 interface, IDebugControl3, dbgeng/IDebugControl2::GetNearInstruction, GetNearInstruction method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetNearInstruction, GetNearInstruction method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetNearInstruction method, IDebugControl3 interface [Windows Debugging], GetNearInstruction method, IDebugControl_2c12e1fe-0f9b-45d6-9ff4-477bc42b2275.xml, GetNearInstruction, dbgeng/IDebugControl::GetNearInstruction, GetNearInstruction method [Windows Debugging], IDebugControl interface, IDebugControl2::GetNearInstruction, IDebugControl interface [Windows Debugging], GetNearInstruction method, dbgeng/IDebugControl3::GetNearInstruction, debugger.getnearinstruction, IDebugControl::GetNearInstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetNearInstruction(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the process's virtual address space from which to start looking for the desired instruction.
 
 
-### -param Delta [in]
+#### - Delta [in]
 
 Specifies the number of instructions from <i>Offset</i> of the desired instruction.  If <i>Delta</i> is negative, the returned offset is before <i>Offset</i> (see the Remarks section for more information).
 
 
-### -param NearOffset [out]
+#### - NearOffset [out]
 
 Receives the location in the process's virtual address space of the instruction that is <i>Delta</i> instructions away from <i>Offset</i>.
 

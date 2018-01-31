@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/WMILIB_CONTEXT, kernel.wmilib_context, *PWMILIB_CONTEXT, wmilib/PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PWMILIB_CONTEXT, WMILIB_CONTEXT, _WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture]
+ms.keywords: wmilib/WMILIB_CONTEXT, kernel.wmilib_context, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wmilib/PWMILIB_CONTEXT, PWMILIB_CONTEXT, *PWMILIB_CONTEXT, _WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], WMILIB_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WMILIB_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PWMILIB_CONTEXT, WMILIB_CONTEXT"
+req.typenames: WMILIB_CONTEXT, *PWMILIB_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -75,42 +75,42 @@ typedef struct _WMILIB_CONTEXT {
 
 
 
-### -field GuidCount
+#### - GuidCount
 
 Specifies the number of blocks registered by the driver.
 
 
-### -field GuidList
+#### - GuidList
 
 Pointer to an array of <b>GuidCount</b> <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a> structures that contain registration information for each block.
 
 
-### -field QueryWmiRegInfo
+#### - QueryWmiRegInfo
 
 Pointer to the driver's <a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a> routine, which is a required entry point for drivers that call WMI library support routines.
 
 
-### -field QueryWmiDataBlock
+#### - QueryWmiDataBlock
 
 Pointer to the driver's <a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a> routine, which is a required entry point for drivers that call WMI library support routines.
 
 
-### -field SetWmiDataBlock
+#### - SetWmiDataBlock
 
 Pointer to the driver's <a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a> routine, which is an optional entry point for drivers that call WMI library support routines. If the driver does not implement this routine, it must set this member to <b>NULL</b>. In this case, WMI returns STATUS_WMI_READ_ONLY to the caller in response to any <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a> request.
 
 
-### -field SetWmiDataItem
+#### - SetWmiDataItem
 
 Pointer to the driver's <a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a> routine, which is an optional entry point for drivers that call WMI library support routines. If the driver does not implement this routine, it must set this member to <b>NULL</b>. In this case, WMI returns STATUS_WMI_READ_ONLY to the caller in response to any <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a> request.
 
 
-### -field ExecuteWmiMethod
+#### - ExecuteWmiMethod
 
 Pointer to the driver's <a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a> routine, which is an optional entry point for drivers that call WMI library support routines. If the driver does not implement this routine, it must set this member to <b>NULL</b>. In this case, WMI returns STATUS_INVALID_DEVICE_REQUEST to the caller in response to any <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request.
 
 
-### -field WmiFunctionControl
+#### - WmiFunctionControl
 
 Pointer to the driver's <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a> routine, which is an optional entry point for drivers that call WMI library support routines. If the driver does not implement this routine, it must set this member to <b>NULL</b>. In this case, WMI returns STATUS_SUCCESS to the caller in response to any <b>IRP_MN_ENABLE_<i>XXX</i></b> or <b>IRP_MN_DISABLE_<i>XXX</i></b> request.
 
@@ -128,21 +128,21 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
 
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
 
-<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
-
 <a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
 
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
  
 

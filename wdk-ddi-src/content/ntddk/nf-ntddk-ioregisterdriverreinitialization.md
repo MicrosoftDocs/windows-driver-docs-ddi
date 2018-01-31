@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioregisterdriverreinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], ntddk/IoRegisterDriverReinitialization, IoRegisterDriverReinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml
+ms.keywords: kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], IoRegisterDriverReinitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID IoRegisterDriverReinitialization(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 Pointer to the driver object that was input to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 
-### -param DriverReinitializationRoutine [in]
+#### - DriverReinitializationRoutine [in]
 
 Pointer to the driver's <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine. 
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Pointer to the context to be passed to the driver's <i>Reinitialize</i> routine.
 
@@ -108,9 +108,9 @@ Usually, a driver with a <i>Reinitialize</i> routine is a higher-level driver th
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
  
 

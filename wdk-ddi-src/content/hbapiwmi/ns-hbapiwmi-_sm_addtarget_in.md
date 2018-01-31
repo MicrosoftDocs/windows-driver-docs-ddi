@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02bf5e91-bce0-4b8d-aec6-659ed1efd2b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_AddTarget_IN, SM_AddTarget_IN, PSM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], *PSM_AddTarget_IN, hbapiwmi/PSM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices], _SM_AddTarget_IN, storage.sm_addtarget_in, structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml
+ms.keywords: PSM_AddTarget_IN, *PSM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], hbapiwmi/SM_AddTarget_IN, SM_AddTarget_IN, structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml, _SM_AddTarget_IN, storage.sm_addtarget_in, hbapiwmi/PSM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_AddTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_AddTarget_IN, *PSM_AddTarget_IN
+req.typenames: "*PSM_AddTarget_IN, SM_AddTarget_IN"
 ---
 
 # _SM_AddTarget_IN structure
@@ -70,22 +70,22 @@ typedef struct _SM_AddTarget_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 The worldwide name (WWN) of the local port whose events the WMI client will receive.
 
 
-### -field DiscoveredPortWWN
+#### - DiscoveredPortWWN
 
 A worldwide name (WWN) that specifies the discovered target whose events the WMI client will receive.
 
 
-### -field DomainPortWWN
+#### - DomainPortWWN
 
 A worldwide name (WWN) that specifies the SAS domain worldwide name of the local port.
 
 
-### -field AllTargets
+#### - AllTargets
 
 The scope of the target events to report. If this member is zero, the WMI client will receive events that are associated with the port that is indicated by DiscoveredPortWWN. If this member is nonzero, the WMI client will receive events that are associated with all currently discovered targets as well as targets that are discovered in the future.
 

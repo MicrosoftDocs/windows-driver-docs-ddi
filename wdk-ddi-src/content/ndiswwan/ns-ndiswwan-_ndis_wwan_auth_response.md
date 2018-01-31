@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9F991E80-5155-45CE-9547-7354EE7EC4DB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_WWAN_AUTH_RESPONSE, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_AUTH_RESPONSE, netvista.ndis_wwan_auth_response, NDIS_WWAN_AUTH_RESPONSE"
+ms.keywords: netvista.ndis_wwan_auth_response, _NDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_AUTH_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE"
+req.typenames: NDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE
 ---
 
 # _NDIS_WWAN_AUTH_RESPONSE structure
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_AUTH_RESPONSE {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_AUTH_RESPONSE structure. The
      MB service sets the header with the values that are shown in the following table when it sends the data
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of the response received for authentication challenge operation. The miniport driver returns one of the following WWAN_STATUS values as appropriate.
 <table>
@@ -159,7 +159,7 @@ WWAN_STATUS_AUTH_AMF_NOT_SET
 </table> 
 
 
-### -field AuthResponse
+#### - AuthResponse
 
 A formatted <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a> object that represents the challenge posed by one of the authentication methods. This member (within WWAN_AUTH_RESPONSE) should be set even when <b>uStatus</b> is other than WWAN_STATUS_SUCCESS.
 

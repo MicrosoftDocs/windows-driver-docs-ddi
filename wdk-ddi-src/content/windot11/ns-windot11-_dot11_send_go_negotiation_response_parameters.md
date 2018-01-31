@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F5EC240C-6438-477C-A5D3-B018B52AC4F0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, netvista.dot11_send_go_negotiation_response_parameters, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, *PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
+ms.keywords: "*PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, windot11/DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_send_go_negotiation_response_parameters, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
+req.typenames: DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, *PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -81,7 +81,7 @@ typedef struct _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -104,12 +104,12 @@ The type, revision, and size of the <b>DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAME
 </table> 
 
 
-### -field PeerDeviceAddress
+#### - PeerDeviceAddress
 
 The Peer-to-Peer (P2P) address of the Wi-Fi Direct (WFD) device that originated the GO negotiation request.
 
 
-### -field DialogToken
+#### - DialogToken
 
 The dialog token received from the GO negotiation request packet. This dialog token must be included in  the GO negotiation response  packet.
 
@@ -119,52 +119,52 @@ The dialog token received from the GO negotiation request packet. This dialog to
  
 
 
-### -field uSendTimeout
+#### - uSendTimeout
 
 The maximum time, in milliseconds, allowed to send the GO negotiation response. If the time-out expires before the miniport has successfully transmitted the GO negotiation response, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439776">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE</a> with a failure status.
 
 
-### -field Status
+#### - Status
 
 The status information to include in the GO  negotiation response.
 
 
-### -field GroupOwnerIntent
+#### - GroupOwnerIntent
 
 The value for GO intent. This should be included in the Group Owner Intent attribute of the GO negotiation request.
 
 
-### -field MinimumConfigTimeout
+#### - MinimumConfigTimeout
 
 The configuration time-out required by the system  to change its mode of operation to a P2P Group Owner or a P2P Client. The miniport driver can set this with a larger value if necessary.
 
 
-### -field IntendedInterfaceAddress
+#### - IntendedInterfaceAddress
 
 The P2P interface address that is intended for the P2P group.
 
 
-### -field GroupCapability
+#### - GroupCapability
 
 The capability values that are included in the Group Capability bitmask of the P2P Capability Information Element (IE) in  the GO negotiation response.
 
 
-### -field GroupID
+#### - GroupID
 
 The group identifier to include in the Group ID attribute of the GO negotiation response.
 
 
-### -field bUseGroupID
+#### - bUseGroupID
 
 If TRUE, the value in <b>GroupID</b> should be included in the GO negotiation response.
 
 
-### -field uIEsOffset
+#### - uIEsOffset
 
 The offset, in bytes,  of the array of additional IEs that the Wi-Fi Direct (WFD) port must add to the GO negotiation response packet. This offset is from the start of the buffer that contains this structure.
 
 
-### -field uIEsLength
+#### - uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 

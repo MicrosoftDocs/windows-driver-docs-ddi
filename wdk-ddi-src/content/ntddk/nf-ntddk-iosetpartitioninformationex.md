@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e663a9aa-ed83-4d85-b110-390f0c03a724
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, IoSetPartitionInformationEx, storage.iosetpartitioninformationex, IoSetPartitionInformationEx routine [Storage Devices], ntddk/IoSetPartitionInformationEx
+ms.keywords: ntddk/IoSetPartitionInformationEx, IoSetPartitionInformationEx routine [Storage Devices], rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, storage.iosetpartitioninformationex, IoSetPartitionInformationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoSetPartitionInformationEx(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object representing the device on which the partition type is to be set.
 
 
-### -param PartitionNumber [in]
+#### - PartitionNumber [in]
 
 Specifies the partition number on the device whose partition type is to be set.
 
 
-### -param PartitionInfo [in]
+#### - PartitionInfo [in]
 
 A structure whose <i>PartitionType</i> member specifies the type for the partition. For the currently defined <i>PartitionType</i> values <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>.
 
@@ -112,15 +112,15 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
-
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
-
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
 
  
 

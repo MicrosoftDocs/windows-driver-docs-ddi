@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, dbgeng/WritePhysical, debugger.writephysical, WritePhysical, WritePhysical function [Windows Debugging]
+ms.keywords: WritePhysical, dbgeng/WritePhysical, WritePhysical function [Windows Debugging], WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, debugger.writephysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ __inline VOID WritePhysical(
 
 
 
-### -param address [in]
+#### - address [in]
 
 Specifies the physical address to write.
 
 
-### -param buf [in]
+#### - buf [in]
 
 Specifies the address of an array of bytes to hold the data that is written.
 
 
-### -param size [in]
+#### - size [in]
 
 Specifies the number of bytes to write. 
 
 
-### -param sizew [out, optional]
+#### - sizew [out, optional]
 
 Receives the number of bytes actually written.
 

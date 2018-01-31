@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7969f683-3426-4863-8afe-d9cbe490a4b5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestretrieveunsafeuseroutputbuffer, PFN_WDFREQUESTRETRIEVEUNSAFEUSEROUTPUTBUFFER, wdf.wdfrequestretrieveunsafeuseroutputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer, WdfRequestRetrieveUnsafeUserOutputBuffer, WdfRequestRetrieveUnsafeUserOutputBuffer method, DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml
+ms.keywords: WdfRequestRetrieveUnsafeUserOutputBuffer, DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, kmdf.wdfrequestretrieveunsafeuseroutputbuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, WdfRequestRetrieveUnsafeUserOutputBuffer method, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer, PFN_WDFREQUESTRETRIEVEUNSAFEUSEROUTPUTBUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfRequestRetrieveUnsafeUserOutputBuffer(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param MinimumRequiredLength [in]
+#### - MinimumRequiredLength [in]
 
 The minimum buffer size, in bytes, that the driver needs to process the I/O request.
 
 
-### -param OutputBuffer [out]
+#### - OutputBuffer [out]
 
 A pointer to a location that receives the buffer's address.
 
 
-### -param Length [out, optional]
+#### - Length [out, optional]
 
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 

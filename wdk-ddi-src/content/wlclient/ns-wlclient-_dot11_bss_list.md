@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5c31c4d-8c46-4af1-90de-0311cc90c6c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_BSS_LIST, PDOT11_BSS_LIST, Native_802.11_data_types_9b32efe4-bc69-4e6b-9475-449a77c110da.xml, wlclient/PDOT11_BSS_LIST, wlclient/DOT11_BSS_LIST, DOT11_BSS_LIST, netvista.dot11_bss_list, *PDOT11_BSS_LIST, PDOT11_BSS_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_BSS_LIST structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: Native_802.11_data_types_9b32efe4-bc69-4e6b-9475-449a77c110da.xml, wlclient/PDOT11_BSS_LIST, *PDOT11_BSS_LIST, PDOT11_BSS_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_BSS_LIST, wlclient/DOT11_BSS_LIST, netvista.dot11_bss_list, DOT11_BSS_LIST structure [Network Drivers Starting with Windows Vista], _DOT11_BSS_LIST, PDOT11_BSS_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _DOT11_BSS_LIST {
 
 
 
-### -field uNumOfBytes
+#### - uNumOfBytes
 
 The length, in bytes, of the data within the buffer referenced by the 
      <b>pucBuffer</b> member.
@@ -86,7 +86,7 @@ The length, in bytes, of the data within the buffer referenced by the
  
 
 
-### -field pucBuffer
+#### - pucBuffer
 
 A pointer to a buffer that contains a list of 
      <a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a> structures. Each
@@ -111,19 +111,19 @@ The 802.11 Beacon and Probe Response frames within the
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
-
-<mshelp:link keywords="netvista.dot11extihvperformcapabilitymatch" tabindex="0"><i>
-   Dot11ExtIhvPerformCapabilityMatch</i></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvcreatediscoveryprofiles" tabindex="0"><i>
-   Dot11ExtIhvCreateDiscoveryProfiles</i></mshelp:link>
-
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
    Functions</mshelp:link>
 
 <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+
+<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
+
+<mshelp:link keywords="netvista.dot11extihvcreatediscoveryprofiles" tabindex="0"><i>
+   Dot11ExtIhvCreateDiscoveryProfiles</i></mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extihvperformcapabilitymatch" tabindex="0"><i>
+   Dot11ExtIhvPerformCapabilityMatch</i></mshelp:link>
 
  
 

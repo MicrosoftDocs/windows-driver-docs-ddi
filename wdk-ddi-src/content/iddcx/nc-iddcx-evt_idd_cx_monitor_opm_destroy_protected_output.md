@@ -72,7 +72,7 @@ typedef EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT PFN_IDD_CX_MONITOR_OPM_D
 
 
 
-### -param OpmCxtObject [in]
+#### - OpmCxtObject [in]
 
 
                     

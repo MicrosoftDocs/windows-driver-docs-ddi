@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_MODEM_CONFIG_STATUS, wwan/PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status"
+ms.keywords: netvista.wwan_modem_config_status, WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, _WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], *PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_MODEM_CONFIG_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS"
+req.typenames: WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef struct _WWAN_MODEM_CONFIG_STATUS {
 
 
 
-### -field ConfigState
+#### - ConfigState
 
 The modem's config state. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>.
 
 
-### -field ConfigReason
+#### - ConfigReason
 
 The reason why the modem's config state change was triggered. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_reason.md">WWAN_MODEM_CONFIG_REASON</a>.
 
 
-### -field PreviousConfigID
+#### - PreviousConfigID
 
 The previous config file's Config ID.
 
 
-### -field CurrentConfigID
+#### - CurrentConfigID
 
 The current config file's Config ID.
 
 
-### -field DefaultOrNot
+#### - DefaultOrNot
 
 Indicates if the default config file was selected, if available. 
 
@@ -118,9 +118,9 @@ If the same config file is selected as the currently activated one, the MBB driv
 
 <a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
 
-<a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>
-
 <a href="..\wwan\ne-wwan-_wwan_modem_config_reason.md">WWAN_MODEM_CONFIG_REASON</a>
+
+<a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>
 
  
 

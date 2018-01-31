@@ -75,27 +75,27 @@ VP_STATUS Int10ReadMemory(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> returns.
 
 
-### -param Seg [in]
+#### - Seg [in]
 
 Specifies the segment address of the buffer to be read.
 
 
-### -param Off [in]
+#### - Off [in]
 
 Specifies the offset within the segment indicated by the <i>Seg</i> parameter.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a memory location that indicates the beginning of the output buffer. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Is the length, in bytes, of the output buffer specified by the <i>Buffer</i> parameter.
 

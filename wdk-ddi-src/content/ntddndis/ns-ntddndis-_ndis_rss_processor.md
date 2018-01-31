@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d823303-01ec-4587-a11c-f641cfd7c10f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_cbab90a4-91cf-4df3-a9dc-94f3cacf2039.xml, PNDIS_RSS_PROCESSOR structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_rss_processor, ntddndis/PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR structure [Network Drivers Starting with Windows Vista], PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR, ntddndis/NDIS_RSS_PROCESSOR, _NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR
+ms.keywords: PNDIS_RSS_PROCESSOR, _NDIS_RSS_PROCESSOR, ntddndis/NDIS_RSS_PROCESSOR, PNDIS_RSS_PROCESSOR structure pointer [Network Drivers Starting with Windows Vista], NDIS_RSS_PROCESSOR structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PROCESSOR, netvista.ndis_rss_processor, *PNDIS_RSS_PROCESSOR, ndis_processor_group_ref_cbab90a4-91cf-4df3-a9dc-94f3cacf2039.xml, ntddndis/PNDIS_RSS_PROCESSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RSS_PROCESSOR
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR"
+req.typenames: NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR
 ---
 
 # _NDIS_RSS_PROCESSOR structure
@@ -70,12 +70,12 @@ typedef struct _NDIS_RSS_PROCESSOR {
 
 
 
-### -field ProcNum
+#### - ProcNum
 
 The processor number that is assigned to the processor.
 
 
-### -field PreferenceIndex
+#### - PreferenceIndex
 
 The preference rating of the processor, which is based on Non-Uniform Memory Access (NUMA) distance.
       A lower value for 
@@ -87,7 +87,7 @@ When choosing between multiple processors, miniport drivers should select the pr
       <b>PreferenceIndex</b> value. This results in less overhead for the driver.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for NDIS.
 

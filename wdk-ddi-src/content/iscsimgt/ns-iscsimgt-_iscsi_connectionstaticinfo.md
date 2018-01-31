@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14d4464e-d4e8-446c-8822-0b16c984313c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], iscsimgt/ISCSI_ConnectionStaticInfo, structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml, ISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, _ISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices]"
+ms.keywords: iscsimgt/ISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml, ISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, *PISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, _ISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_ConnectionStaticInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo"
+req.typenames: ISCSI_ConnectionStaticInfo, *PISCSI_ConnectionStaticInfo
 ---
 
 # _ISCSI_ConnectionStaticInfo structure
@@ -81,17 +81,17 @@ typedef struct _ISCSI_ConnectionStaticInfo {
 
 
 
-### -field UniqueConnectionId
+#### - UniqueConnectionId
 
 The connection identifier (ID) that the operating system and application software use to uniquely identify the connection. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in the <i>UniqueConnectionId</i> parameter. Do not confuse this value with the connection ID (CID).
 
 
-### -field CID
+#### - CID
 
 The iSCSI connection ID (CID) for this connection instance. The iSCSI protocol uses this value to identify the connection.
 
 
-### -field State
+#### - State
 
 The type of connection state. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
 <table>
@@ -132,12 +132,12 @@ The initiator has sent a valid logoff command, but the connection has not yet be
 </table> 
 
 
-### -field Protocol
+#### - Protocol
 
 The transport protocol that is used to establish this connection instance. For a list of values that you can assign to this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561494">ISCSI_CONNECTION_PROTOCOL_TYPE_QUALIFIERS</a>.
 
 
-### -field HeaderIntegrity
+#### - HeaderIntegrity
 
 The name of the iSCSI header digest scheme that is associated with this connection session. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
 <table>
@@ -168,7 +168,7 @@ The session is using a 32-bit CRC digest.
 </table> 
 
 
-### -field DataIntegrity
+#### - DataIntegrity
 
 The name of the iSCSI data digest scheme that is associated with this connection session. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
 <table>
@@ -199,64 +199,64 @@ The session is using a 32-bit CRC digest.
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for Microsoft use only. You must set this member to 0.
 
 
-### -field MaxRecvDataSegmentLength
+#### - MaxRecvDataSegmentLength
 
 The maximum data payload size, in bytes, that is supported for command or data PDUs within this connection session.
 
 
-### -field AuthType
+#### - AuthType
 
 The type of authentication that is used to establish a connection. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>, which is defined in <i>Mgmt.mof</i>, does specify values for this member; but if your software includes <i>Iscsidsc.h</i>, it can use the <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a> enumeration to assign values to this member.
 
 
-### -field LocalAddr
+#### - LocalAddr
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that holds the IP address of the local network card that the initiator uses to connect to the network.
 
 
-### -field LocalPort
+#### - LocalPort
 
 The local port number that this connection instance uses.
 
 
-### -field RemoteAddr
+#### - RemoteAddr
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that holds the IP address of the remote network card that this connection instance uses.
 
 
-### -field RemotePort
+#### - RemotePort
 
 The remote port number that the initiator used to make the connection.
 
 
-### -field EstimatedThroughput
+#### - EstimatedThroughput
 
 The estimated throughput, in bytes per second, of the connection.
 
 
-### -field MaxDatagramSize
+#### - MaxDatagramSize
 
 The maximum size, in bytes, of the datagram that the transport supports.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
 <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561494">ISCSI_CONNECTION_PROTOCOL_TYPE_QUALIFIERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
  
 

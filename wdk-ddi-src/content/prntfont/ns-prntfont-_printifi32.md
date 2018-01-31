@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: prntfont/PRINTIFI32, *PPRINTIFI32, PRINTIFI32 structure [Display Devices], PPRINTIFI32, display.printifi32, PRINTIFI32, prntfont/PPRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, PPRINTIFI32 structure pointer [Display Devices], _PRINTIFI32
+ms.keywords: "*PPRINTIFI32, _PRINTIFI32, PPRINTIFI32, display.printifi32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, PRINTIFI32, prntfont/PRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PRINTIFI32 structure [Display Devices], prntfont/PPRINTIFI32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,37 +126,37 @@ typedef struct _PRINTIFI32 {
 
 
 
-### -field cjThis
+#### - cjThis
 
 Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff567416">IFIEXTRA</a> structure.
 
 
-### -field cjIfiExtra
+#### - cjIfiExtra
 
 Specifies the size in bytes of the IFIEXTRA structure that follows this structure. A value of zero indicates that no IFIEXTRA structure is present.
 
 
-### -field dpwszFamilyName
+#### - dpwszFamilyName
 
 Specifies the offset in bytes to a null-terminated Unicode string containing the family name of the font (for example, "Times Roman"). Generally, this string immediately follows this structure. This string should be the same as the name recorded in the <b>lfFaceName</b> member of the Win32 LOGFONT structure.
 
 
-### -field dpwszStyleName
+#### - dpwszStyleName
 
 Specifies the offset in bytes to a null-terminated Unicode string describing the style of the font (for example, "Bold").
 
 
-### -field dpwszFaceName
+#### - dpwszFaceName
 
 Specifies the offset in bytes to a null-terminated Unicode string representing the unique and complete name of the font. The name contains the family and subfamily names of the font (for example, "Times New Roman Bold").
 
 
-### -field dpwszUniqueName
+#### - dpwszUniqueName
 
 Specifies the offset in bytes to a null-terminated Unicode string representing the unique identifier of the font (for example, "Monotype:Times New Roman:1990").
 
 
-### -field dpFontSim
+#### - dpFontSim
 
 Specifies the offset in bytes from the beginning of this structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566017">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
 
@@ -165,29 +165,29 @@ Note that if a font is italic by design, the driver should not indicate font sup
 The offsets in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566017">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
 
 
-### -field lEmbedId
+#### - lEmbedId
 
 Specifies the Embedding ID of the font. This value is TrueType-specific and should be set to zero by all other font providers.
 
 
-### -field lItalicAngle
+#### - lItalicAngle
 
 Specifies the italic angle of the font. This value is TrueType-specific and should be set to zero by all other font providers.
 
 
-### -field lCharBias
+#### - lCharBias
 
 Specifies the character bias. This value is TrueType-specific and should be set to zero by all other font providers.
 
 
-### -field dpCharSets
+#### - dpCharSets
 
 Specifies the offset from the beginning of this structure to an array containing a list of all Windows character sets supported by this font. The array is 16 bytes in size and is always terminated with DEFAULT_CHARSET. The first value of the array should identify the Windows character set that has the best and most complete coverage in the font; this value should also be stored in <b>jWinCharSet</b>. For instance, if this is a Japanese font that also supports US ANSI and Cyrillic character sets, then <b>jWinCharSet</b> should be set to SHIFTJIS_CHARSET and the array identified by <b>dpCharSets</b> would contain SHIFTJIS_CHARSET, ANSI_CHARSET, RUSSIAN_CHARSET, DEFAULT_CHARSET.
 
 If this font does not support more than one Windows character set, <b>dpCharSets</b> should be set to zero.
 
 
-### -field jWinCharSet
+#### - jWinCharSet
 
 Identifies the character set best supported by this font. If the font supports only a single Windows character set, the driver should store the corresponding value in <b>jWinCharSet</b>. The driver should not store DEFAULT_CHARSET in this field. This member can be one of the following values:
 <table>
@@ -368,7 +368,7 @@ This font supports the Vietnamese character set.
 </table> 
 
 
-### -field jWinPitchAndFamily
+#### - jWinPitchAndFamily
 
 Specifies the pitch of the font. The two low-order bits specify the pitch of the font and can be one of the following values:
 <table>
@@ -467,12 +467,12 @@ Fonts with variable stroke width (proportionally spaced) and without serifs, suc
 </table> 
 
 
-### -field usWinWeight
+#### - usWinWeight
 
 Specifies the weight of the font in the range 0 to 1000 (for example, 400 is normal and 700 is bold). This value is provided to the application in the <b>lfWeight</b> member of the Win32 LOGFONT structure.
 
 
-### -field flInfo
+#### - flInfo
 
 Specifies additional information about the font. This field can be a combination of the following flag values:
 
@@ -714,7 +714,7 @@ Indicates that the font is a TrueType font.
 Indicates that this font is a PostScript screen font (either Type1 or OpenType PostScript).
 
 
-### -field fsSelection
+#### - fsSelection
 
 Specifies a combination of the following flags:
 <table>
@@ -795,7 +795,7 @@ Set if all the characters of the font are underscored by default; otherwise unde
 </table> 
 
 
-### -field fsType
+#### - fsType
 
 This is a TrueType-specific bitfield indicating certain properties for the font, such as font embedding and licensing rights for the font. Embeddable fonts can be stored in a document. When a document with embedded fonts is opened on a system that does not have the font installed (the remote system), the embedded font can be loaded for temporary (and in some cases permanent) use on that system by an embedding-aware application. Embedding licensing rights are granted by the font vendor. The following flags can be set:
 <table>
@@ -851,212 +851,212 @@ Applications that implement support for font embedding, either through use of th
 If multiple embedding bits are set, the <i>least</i> restrictive license granted takes precedence. For example, if bits 1 and 3 are set, bit 3 takes precedence over bit 1and the font can be embedded with Editable rights. For compatibility purposes, most vendors granting Editable embedding rights also set the Preview &amp; Print bit (0x000C). This permits an application that only supports Preview &amp; Print embedding to detect that font embedding is allowed.
 
 
-### -field fwdUnitsPerEm
+#### - fwdUnitsPerEm
 
 Specifies the em-height of the font.
 
 
-### -field fwdLowestPPEm
+#### - fwdLowestPPEm
 
 Specifies the smallest readable size of the font, in pixels. This value is ignored for bitmap fonts.
 
 
-### -field fwdWinAscender
+#### - fwdWinAscender
 
 Specifies the Windows ascender value for the font.
 
 
-### -field fwdWinDescender
+#### - fwdWinDescender
 
 Specifies the Windows descender value for the font.
 
 
-### -field fwdMacAscender
+#### - fwdMacAscender
 
 Specifies the Macintosh ascender value for the font.
 
 
-### -field fwdMacDescender
+#### - fwdMacDescender
 
 Specifies the Macintosh descender value for the font. This number is typically less than zero. It measures the signed displacement from the base line of the lowest descender in the Macintosh character set.
 
 
-### -field fwdMacLineGap
+#### - fwdMacLineGap
 
 Specifies the Macintosh line gap for the font. The suggested Macintosh interline spacing is equal to <b>fwdMacLineGap</b> + <b>fwdMacAscender</b> âˆ’ <b>fwdMacDescender</b>.
 
 
-### -field fwdTypoAscender
+#### - fwdTypoAscender
 
 Specifies the typographic ascender value for the font.
 
 
-### -field fwdTypoDescender
+#### - fwdTypoDescender
 
 Specifies the typographic descender value for the font. This value specifies the signed displacement of the lowest descender from the baseline.
 
 
-### -field fwdTypoLineGap
+#### - fwdTypoLineGap
 
 Specifies the typographic line gap for the font.
 
 
-### -field fwdAveCharWidth
+#### - fwdAveCharWidth
 
 Specifies the arithmetic average of the width of all of the 26 lower case letters 'a' through 'z' of the Latin alphabet and the space character. If any of the 26 lowercase letters are not present, then this member should be set equal to the weighted average of all glyphs in the font.
 
 
-### -field fwdMaxCharInc
+#### - fwdMaxCharInc
 
 Specifies the maximum character increment of all glyphs in the font.
 
 
-### -field fwdCapHeight
+#### - fwdCapHeight
 
 Specifies the height of the optical line describing the top of the uppercase 'H' in font units (FUnits). This might not be the same as the measured height of the uppercase 'H.' If this information does not exist, <b>fwdCapHeight</b> should be set to zero, which indicates that it is undefined.
 
 
-### -field fwdXHeight
+#### - fwdXHeight
 
 Specifies the height of the optical line describing the height of the lowercase 'x' in font units. This might not be the same as the measured height of the lowercase 'x.' A value of zero indicates that this member is undefined.
 
 
-### -field fwdSubscriptXSize
+#### - fwdSubscriptXSize
 
 Specifies the suggested character width (the size along the baseline direction) of the subscript font.
 
 
-### -field fwdSubscriptYSize
+#### - fwdSubscriptYSize
 
 Specifies the suggested character height (the size along the ascender direction) of the subscript font.
 
 
-### -field fwdSubscriptXOffset
+#### - fwdSubscriptXOffset
 
 Specifies the suggested offset in the baseline direction of the subscript character. The offset is with respect to the character origin of the base character.
 
 
-### -field fwdSubscriptYOffset
+#### - fwdSubscriptYOffset
 
 Specifies the suggested offset in the baseline direction of the subscript character. The offset is taken from the character origin of the base character.
 
 
-### -field fwdSuperscriptXSize
+#### - fwdSuperscriptXSize
 
 Specifies the suggested character width (the size along the baseline direction) of the superscript font.
 
 
-### -field fwdSuperscriptYSize
+#### - fwdSuperscriptYSize
 
 Specifies the suggested character height (the size along the ascender direction) of the superscript font.
 
 
-### -field fwdSuperscriptXOffset
+#### - fwdSuperscriptXOffset
 
 Specifies the suggested offset in the baseline direction of the superscript character. The offset is taken from the character origin of the base character.
 
 
-### -field fwdSuperscriptYOffset
+#### - fwdSuperscriptYOffset
 
 Specifies the suggested offset in the baseline direction of the superscript character. The offset is taken from the character origin of the base character.
 
 
-### -field fwdUnderscoreSize
+#### - fwdUnderscoreSize
 
 Specifies the suggested width of the underscore bar, in font units.
 
 
-### -field fwdUnderscorePosition
+#### - fwdUnderscorePosition
 
 Specifies the suggested displacement, in font units, from the base line to the middle of the underscore bar.
 
 
-### -field fwdStrikeoutSize
+#### - fwdStrikeoutSize
 
 Specifies the suggested width of the strike-out bar, in font coordinates.
 
 
-### -field fwdStrikeoutPosition
+#### - fwdStrikeoutPosition
 
 Specifies the suggested displacement of the middle of the strikeout bar from the baseline.
 
 
-### -field chFirstChar
+#### - chFirstChar
 
 Specifies the lowest supported character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
 
 
-### -field chLastChar
+#### - chLastChar
 
 Specifies the highest supported character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
 
 
-### -field chDefaultChar
+#### - chDefaultChar
 
 Specifies the default character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
 
 
-### -field chBreakChar
+#### - chBreakChar
 
 Specifies the break character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
 
 
-### -field wcFirstChar
+#### - wcFirstChar
 
 Specifies the supported character with the smallest Unicode character code.
 
 
-### -field wcLastChar
+#### - wcLastChar
 
 Specifies the supported character with the largest Unicode character code.
 
 
-### -field wcDefaultChar
+#### - wcDefaultChar
 
 Specifies the character to be substituted when an application requests a character that is not supported by the font.
 
 
-### -field wcBreakChar
+#### - wcBreakChar
 
 Specifies the code point of the space character or its equivalent.
 
 
-### -field ptlBaseline
+#### - ptlBaseline
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
 
 
-### -field ptlAspect
+#### - ptlAspect
 
 Specifies a POINTL structure that contains the aspect ratio of the pixel centers for which the bitmap font was designed. This value is used only by bitmap fonts.
 
 
-### -field ptlCaret
+#### - ptlCaret
 
 Specifies a POINTL structure that contains the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
 
 
-### -field rclFontBox
+#### - rclFontBox
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
 
 
-### -field achVendId
+#### - achVendId
 
 Specifies a four character identifier for the font vendor. Identifiers are documented in the Microsoft TrueType specification.
 
 
-### -field cKerningPairs
+#### - cKerningPairs
 
 Specifies the number of kerning pairs associated with this font.
 
 
-### -field ulPanoseCulture
+#### - ulPanoseCulture
 
 Specifies the manner in which to interpret the panose number. This number should be set to FM_PANOSE_CULTURE_LATIN for Latin-based fonts. See the Microsoft Window SDK documentation for information about the PANOSE structure.
 
 
-### -field panose
+#### - panose
 
 Is an array of 10 bytes used to describe the visual characteristics of a given typeface. These characteristics are then used to associate the font with other fonts of similar appearance having different names. See the Window SDK documentation for information about the PANOSE structure.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 43729964-9338-45ab-ad59-406176c1ae9f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanStructDeviceServiceCommandId, WwanStructTN, wwan/WwanStructReserved2, WwanStructMax, WwanStructProvider, WwanStructReserved3, wwan/WwanStructSmsCdma, *PWWAN_STRUCT_TYPE, wwan/WwanStructProvider2, wwan/WwanStructSmsPdu, wwan/WwanStructTN, wwan/PWWAN_STRUCT_TYPE, PWWAN_STRUCT_TYPE, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, WwanStructDeviceServiceGuid, wwan/WwanStructContext, wwan/WwanStructMax, WwanStructDeviceCellularClass, WwanStructProvider2, WwanStructSmsCdma, WwanStructReserved1, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanStructDeviceServiceEntry, WwanStructReserved0, WwanStructContext, wwan/WwanStructDeviceCellularClass, wwan/WwanStructReserved0, netvista.wwan_struct_type, wwan/WwanStructProvider, _WWAN_STRUCT_TYPE, WwanStructReserved2, wwan/WwanStructDeviceServiceGuid, WWAN_STRUCT_TYPE, wwan/WwanStructReserved1, wwan/WwanStructReserved3, WwanStructSmsPdu, wwan/WwanStructDeviceServiceEntry, wwan/WWAN_STRUCT_TYPE, WwanStructDeviceServiceCommandId
+ms.keywords: WwanStructReserved0, WwanStructDeviceServiceCommandId, WwanStructProvider, WwanStructMax, WwanStructSmsPdu, _WWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE, wwan/WWAN_STRUCT_TYPE, WwanStructProvider2, WwanStructReserved2, wwan/WwanStructProvider, *PWWAN_STRUCT_TYPE, wwan/WwanStructReserved0, wwan/WwanStructReserved2, WwanStructTN, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, wwan/WwanStructSmsCdma, WwanStructDeviceServiceEntry, WwanStructReserved1, wwan/WwanStructMax, wwan/WwanStructDeviceServiceGuid, WwanStructDeviceCellularClass, WwanStructSmsCdma, wwan/WwanStructDeviceCellularClass, WwanStructDeviceServiceGuid, wwan/WwanStructDeviceServiceEntry, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanStructContext, WwanStructContext, wwan/WwanStructReserved1, PWWAN_STRUCT_TYPE, wwan/WwanStructReserved3, netvista.wwan_struct_type, wwan/PWWAN_STRUCT_TYPE, wwan/WwanStructProvider2, wwan/WwanStructDeviceServiceCommandId, wwan/WwanStructSmsPdu, WwanStructReserved3, wwan/WwanStructTN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,7 +83,7 @@ typedef enum _WWAN_STRUCT_TYPE {
 
 
 
-### -field WwanStructTN
+#### - WwanStructTN
 
 The elements are NULL-terminated strings of Telephone Number (TNs), with each string having
      WWAN_TN_LEN characters.
@@ -94,7 +94,7 @@ The elements are NULL-terminated strings of Telephone Number (TNs), with each st
      represent a list of TNs assigned to the device.
 
 
-### -field WwanStructContext
+#### - WwanStructContext
 
 The elements are of type 
      <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>.
@@ -106,7 +106,7 @@ The elements are of type
      contexts.
 
 
-### -field WwanStructProvider
+#### - WwanStructProvider
 
 The elements are of type 
      <a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>.
@@ -117,45 +117,45 @@ Both <a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_
      value to represent a list of network providers for WWAN 1.0 miniport drivers.
 
 
-### -field WwanStructSmsPdu
+#### - WwanStructSmsPdu
 
 The elements are of type 
      <a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>.
 
 
-### -field WwanStructReserved0
+#### - WwanStructReserved0
 
 The value is reserved for future use. Do not use.
 
 
-### -field WwanStructReserved1
+#### - WwanStructReserved1
 
 The value is reserved for future use. Do not use.
 
 
-### -field WwanStructReserved2
+#### - WwanStructReserved2
 
 The value is reserved for future use. Do not use.
 
 
-### -field WwanStructSmsCdma
+#### - WwanStructSmsCdma
 
 The elements are of type 
      <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>.
 
 
-### -field WwanStructReserved3
+#### - WwanStructReserved3
 
 The value is reserved for future use. Do not use.
 
 
-### -field WwanStructDeviceServiceEntry
+#### - WwanStructDeviceServiceEntry
 
 The elements are of type 
      <a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>.
 
 
-### -field WwanStructProvider2
+#### - WwanStructProvider2
 
 The elements are of type 
      <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>.
@@ -175,13 +175,13 @@ The following OIDs use this value to represent a list of network providers for W
 
 
 
-### -field WwanStructDeviceServiceGuid
+#### - WwanStructDeviceServiceGuid
 
 The elements are of type 
      GUID.
 
 
-### -field WwanStructDeviceServiceCommandId
+#### - WwanStructDeviceServiceCommandId
 
 The elements are of type ULONG.
 
@@ -226,7 +226,7 @@ The elements are of type ULONG.
 
 
 
-### -field WwanStructMax
+#### - WwanStructMax
 
 The total number of supported types.
 
@@ -241,23 +241,23 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
 
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 <a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
-
 <a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
 
  
 

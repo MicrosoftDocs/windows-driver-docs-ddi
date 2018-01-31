@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PKSAC3_BIT_STREAM_MODE, audio.ksac3_bit_stream_mode, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], ksmedia/KSAC3_BIT_STREAM_MODE, aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], PKSAC3_BIT_STREAM_MODE"
+ms.keywords: KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE, aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, ksmedia/KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], audio.ksac3_bit_stream_mode, ksmedia/PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAC3_BIT_STREAM_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE"
+req.typenames: KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE
 ---
 
 # KSAC3_BIT_STREAM_MODE structure
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-### -field BitStreamMode
+#### - BitStreamMode
 
 Specifies the bit-stream mode. The <b>BitStreamMode</b> member is set to a value in the range 0 to 7. Specify the value of this member as one of the following constants:
 <table>

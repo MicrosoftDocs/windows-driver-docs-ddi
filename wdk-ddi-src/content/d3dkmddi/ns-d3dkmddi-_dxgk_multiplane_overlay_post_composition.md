@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71D57E42-C1E7-4A0E-80B3-DD39388552C5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices]"
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION {
 
 
 
-### -field Flags
+#### - Flags
 
 A DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure indicating additional transform information.
 
 
-### -field SrcRect
+#### - SrcRect
 
 Contains the source rect of the virtual mode.
 
 
-### -field DstRect
+#### - DstRect
 
 Contains the destination rect of the virtual mode.
 
 
-### -field Rotation
+#### - Rotation
 
 Indicates additional rotation that should occur on the final image.
 

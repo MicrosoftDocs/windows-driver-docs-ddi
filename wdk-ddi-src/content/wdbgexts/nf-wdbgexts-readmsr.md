@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1cb51f88-a943-43e6-af18-0e9e301d8382
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadMsr, ReadMsr function [Windows Debugging], debugger.readmsr, WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, wdbgexts/ReadMsr
+ms.keywords: WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, ReadMsr, ReadMsr function [Windows Debugging], wdbgexts/ReadMsr, debugger.readmsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ __inline VOID ReadMsr(
 
 
 
-### -param MsrReg
+#### - MsrReg
 
 Specifies the ID number of the MSR.
 
 
-### -param MsrValue
+#### - MsrValue
 
 Receives the value of the MSR.
 

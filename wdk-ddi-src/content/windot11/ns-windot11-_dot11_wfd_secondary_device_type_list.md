@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ABD61A6C-EE0A-49AF-AE8C-75014C2A09D4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, *PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, windot11/ DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_secondary_device_type_list, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, windot11/PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST"
+ms.keywords: PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, windot11/PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure [Network Drivers Starting with Windows Vista], _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, *PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, netvista._dot11_wfd_secondary_device_type_list, windot11/ DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST {
 
 
 
-### -field Header
+#### - Header
 
 Specifies the type, revision and size of the <b>DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST</b> structure. The required settings for the members of <b>Header</b> are the following:
 <table>
@@ -94,17 +94,17 @@ Specifies the type, revision and size of the <b>DOT11_WFD_SECONDARY_DEVICE_TYPE_
 </table> 
 
 
-### -field uNumOfEntries
+#### - uNumOfEntries
 
 The number of entries present in <b>SecondaryDeviceTypes</b>.
 
 
-### -field uTotalNumOfEntries
+#### - uTotalNumOfEntries
 
 The maximum number of entries the <b>SecondaryDeviceTypes</b> array can contain.
 
 
-### -field SecondaryDeviceTypes
+#### - SecondaryDeviceTypes
 
 An array of secondary device types.
 

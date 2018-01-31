@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryAuxiliaryCounterFrequency, wdm/KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency
+ms.keywords: kernel.kequeryauxiliarycounterfrequency, wdm/KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], KeQueryAuxiliaryCounterFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KeQueryAuxiliaryCounterFrequency(
 
 
 
-### -param AuxiliaryCounterFrequency [out, optional]
+#### - AuxiliaryCounterFrequency [out, optional]
 
 A pointer to a variable to which <b>KeQueryAuxiliaryCounterFrequency</b> writes the auxiliary counter frequency, in ticks per second. This parameter can be NULL.
 

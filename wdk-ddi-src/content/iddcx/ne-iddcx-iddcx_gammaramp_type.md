@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40fa5169-e295-429c-a63d-3e4ab9c14672
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, display.iddcx_gammaramp_type, IDDCX_GAMMARAMP_TYPE, iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT, iddcx/IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE enumeration [Display Devices]
+ms.keywords: IDDCX_GAMMARAMP_TYPE enumeration [Display Devices], display.iddcx_gammaramp_type, IDDCX_GAMMARAMP_TYPE_DEFAULT, iddcx/IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE, iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT, iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, IDDCX_GAMMARAMP_TYPE_RGB256x3x16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,21 +71,21 @@ typedef enum _IDDCX_GAMMARAMP_TYPE {
 
 
 
-### -field IDDCX_GAMMARAMP_TYPE_UNINITIALIZED
+#### - IDDCX_GAMMARAMP_TYPE_UNINITIALIZED
 
 
                         
                     Indicates that an <b>IDDCX_GAMMARAMP_TYPE</b> variable has not yet been assigned a meaningful value.
 
 
-### -field IDDCX_GAMMARAMP_TYPE_DEFAULT
+#### - IDDCX_GAMMARAMP_TYPE_DEFAULT
 
 
                         The gamma ramp is the default ramp
                     
 
 
-### -field IDDCX_GAMMARAMP_TYPE_RGB256x3x16
+#### - IDDCX_GAMMARAMP_TYPE_RGB256x3x16
 
 
                         Indicates that the gamma lookup table contains three arrays, one each for the red, green, and blue color channels. Each array has 256 16-bit values.

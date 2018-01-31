@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19121888-ad5c-4596-a7ec-a95fbffda685
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_VIDEODESC, _DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], d3dumddi/DXVADDI_VIDEODESC, display.dxvaddi_videodesc, DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml
+ms.keywords: DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml, d3dumddi/DXVADDI_VIDEODESC, display.dxvaddi_videodesc, _DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], DXVADDI_VIDEODESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,53 +74,53 @@ typedef struct _DXVADDI_VIDEODESC {
 
 
 
-### -field SampleWidth
+#### - SampleWidth
 
 [in] The width of the video sample, in pixels.
 
 
-### -field SampleHeight
+#### - SampleHeight
 
 [in] The height of the video sample, in pixels.
 
 
-### -field SampleFormat
+#### - SampleFormat
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
 
 
-### -field Format
+#### - Format
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> structure that describes the extended format of the video sample.
 
 
-### -field InputSampleFreq
+#### - InputSampleFreq
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_frequency.md">DXVADDI_FREQUENCY</a> structure that defines the frequency of incoming video.
 
 
-### -field OutputFrameFreq
+#### - OutputFrameFreq
 
 [in] A DXVADDI_FREQUENCY structure that defines the frame rate of output video.
 
 
-### -field UABProtectionLevel
+#### - UABProtectionLevel
 
 [in] A UINT value that specifies the level of data protection that is required when the user accessible bus is present.
 
 
-### -field Reserved
+#### - Reserved
 
 [in] Reserved. Do not use this member.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_frequency.md">DXVADDI_FREQUENCY</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
  
 

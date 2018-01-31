@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, wdm/IoAllocateMdl, IoAllocateMdl, kernel.ioallocatemdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoAllocateMdl routine [Kernel-Mode Driver Architecture], wdm/IoAllocateMdl, kernel.ioallocatemdl, IoAllocateMdl, k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ PMDL IoAllocateMdl(
 
 
 
-### -param VirtualAddress [in, optional]
+#### - VirtualAddress [in, optional]
 
 Pointer to the base virtual address of the buffer the MDL is to describe.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the length, in bytes, of the buffer that the MDL is to describe. For more information, see the following Remarks section.
 
 
-### -param SecondaryBuffer [in]
+#### - SecondaryBuffer [in]
 
 Indicates whether the buffer is a primary or secondary buffer. This parameter determines how the MDL is to be linked to the IRP. All buffers except the first buffer described by an MDL in an IRP are considered secondary buffers. This field must be <b>FALSE</b> if no IRP is associated with the MDL. For more information, see the following Remarks section.
 
 
-### -param ChargeQuota [in]
+#### - ChargeQuota [in]
 
 Reserved for system use. Drivers must set this parameter to <b>FALSE</b>.
 
 
-### -param Irp [in, out, optional]
+#### - Irp [in, out, optional]
 
 Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is non-<b>NULL</b>, the allocated MDL is associated with the specified IRP's MDL list, according to the value of <i>SecondaryBuffer</i>. 
 

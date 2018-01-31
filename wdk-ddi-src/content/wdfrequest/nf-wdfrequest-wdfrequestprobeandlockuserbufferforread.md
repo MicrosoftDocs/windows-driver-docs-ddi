@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68fbaa04-ca7a-46b4-a7ca-c3d44443c2af
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORREAD, kmdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, wdf.wdfrequestprobeandlockuserbufferforread, WdfRequestProbeAndLockUserBufferForRead
+ms.keywords: DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORREAD, kmdf.wdfrequestprobeandlockuserbufferforread, WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, wdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfRequestProbeAndLockUserBufferForRead(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the request's input buffer. For more information, see the following Remarks section.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the request's input buffer.
 
 
-### -param MemoryObject [out]
+#### - MemoryObject [out]
 
 A pointer to a location that receives a handle to a framework memory object that represents the user input buffer.
 
@@ -188,11 +188,11 @@ For more information about <b>WdfRequestProbeAndLockUserBufferForRead</b>, see <
 
 ## -see-also
 
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer.md">WdfRequestRetrieveUnsafeUserInputBuffer</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite.md">WdfRequestProbeAndLockUserBufferForWrite</a>
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
  
 

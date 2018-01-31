@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dabd472f-9877-4434-a534-e07a047e092f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], NdisMCoIndicateReceiveNetBufferLists, netvista.ndismcoindicatereceivenetbufferlists, condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, ndis/NdisMCoIndicateReceiveNetBufferLists
+ms.keywords: ndis/NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], netvista.ndismcoindicatereceivenetbufferlists, condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, NdisMCoIndicateReceiveNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisMCoIndicateReceiveNetBufferLists(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 A handle that identifies a virtual connection (VC). The miniport driver obtained this handle as an
      input parameter to its 
@@ -82,20 +82,20 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
      service access point (SAP) to indicate an incoming-call notification on.
 
 
-### -param NetBufferLists [in]
+#### - NetBufferLists [in]
 
 A linked list of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the
      miniport driver allocated.
 
 
-### -param NumberOfNetBufferLists [in]
+#### - NumberOfNetBufferLists [in]
 
 The number of NET_BUFFER_LIST structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
 
-### -param CoReceiveFlags [in]
+#### - CoReceiveFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
@@ -178,7 +178,7 @@ The caller of
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
@@ -187,7 +187,7 @@ The caller of
 <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
    MiniportReturnNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

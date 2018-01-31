@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 98d38c84-ed3a-4119-9a05-f8211f220467
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoSetFileOrigin, ntddk/IoSetFileOrigin, ifsk.iosetfileorigin, ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, IoSetFileOrigin routine [Installable File System Drivers]
+ms.keywords: IoSetFileOrigin routine [Installable File System Drivers], ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, ifsk.iosetfileorigin, IoSetFileOrigin, ntddk/IoSetFileOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoSetFileOrigin(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to the file object. 
 
 
-### -param Remote [in]
+#### - Remote [in]
 
 Set to <b>TRUE</b> to set the FO_REMOTE_ORIGIN flag on the file object, <b>FALSE</b> to clear it. 
 

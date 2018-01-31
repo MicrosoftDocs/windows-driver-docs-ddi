@@ -78,30 +78,30 @@ NTSTATUS EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 
 
-### -param InputBuffer [in, optional]
+#### - InputBuffer [in, optional]
 
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 
 
-### -param BytesWritten [in]
+#### - BytesWritten [in]
 
 
 
-### -param TaskOperationCode [in]
+#### - TaskOperationCode [in]
 
 

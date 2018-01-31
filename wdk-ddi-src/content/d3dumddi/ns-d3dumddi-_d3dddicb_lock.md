@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e8d563fe-937a-48cb-9c7b-f282d12a9fcf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_lock, d3dumddi/D3DDDICB_LOCK, _D3DDDICB_LOCK, D3D_param_Structs_84ac7e9c-e228-4ace-9e1b-74af8c52af85.xml, D3DDDICB_LOCK, D3DDDICB_LOCK structure [Display Devices]
+ms.keywords: D3DDDICB_LOCK structure [Display Devices], d3dumddi/D3DDDICB_LOCK, D3DDDICB_LOCK, D3D_param_Structs_84ac7e9c-e228-4ace-9e1b-74af8c52af85.xml, display.d3dddicb_lock, _D3DDDICB_LOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,41 +75,41 @@ typedef struct _D3DDDICB_LOCK {
 
 
 
-### -field hAllocation
+#### - hAllocation
 
 [in/out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns this handle. Therefore, the user-mode display driver should use this handle to lock the allocation.
 
 If the <b>Discard</b> bit-field flag is set in the <b>Flags</b> member, the video memory manager creates a new instance of the allocation and returns a new handle that represents the new instance.
 
 
-### -field PrivateDriverData
+#### - PrivateDriverData
 
 [in] Private data (for example, MIP level) that is sent from the user-mode display driver to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function.
 
 
-### -field NumPages
+#### - NumPages
 
 [in] The number of pages in the page list that is pointed to by <b>pPages</b>.
 
 
-### -field pPages
+#### - pPages
 
 [in] An array of pages to lock. Each page in the array is described by an integer offset. Zero means the first page in the surface, one means the second, and so on.
 
 
-### -field pData
+#### - pData
 
 [out] A pointer to the memory that is returned from the display miniport driver and memory manager. When locking a memory page list, the pointer that is returned is a pointer to the first memory page.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a> structure that identifies, in bit-field flags, how to lock the allocation.
 
 Note that specifying some flags together is invalid and that some flags depend on other flags. For more information about specifying these flags, see the Remarks section of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>.
 
 
-### -field GpuVirtualAddress
+#### - GpuVirtualAddress
 
 This member is reserved and should be set to zero.
 

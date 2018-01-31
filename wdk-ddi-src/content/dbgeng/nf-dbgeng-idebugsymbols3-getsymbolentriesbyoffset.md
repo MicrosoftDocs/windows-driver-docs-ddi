@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93df59dc-adae-49b7-acf4-1cfdd142fd96
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsymbolentriesbyoffset, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, GetSymbolEntriesByOffset, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3, GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolentriesbyoffset, IDebugSymbols3::GetSymbolEntriesByOffset, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, GetSymbolEntriesByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, GetSymbolEntriesByOffset method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetSymbolEntriesByOffset(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies a location in the process's memory address space within the desired symbol's range.  Not all symbols have a known range, so, for best results, use the base address of the symbol.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Set to zero.
 
 
-### -param Ids [out, optional]
+#### - Ids [out, optional]
 
 Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Displacements [out, optional]
+#### - Displacements [out, optional]
 
 Receives the differences between the base addresses of the found symbols and the given address according to the symbol's range.  
 
 
-### -param IdsCount [in]
+#### - IdsCount [in]
 
 Specifies the number of entries that the arrays <i>Ids</i> and <i>Displacements</i> can hold.
 
 
-### -param Entries [out, optional]
+#### - Entries [out, optional]
 
 Receives the number of symbols located at <i>Offset</i>.  If <i>Entries</i> is <b>NULL</b>, this information is not returned.
 

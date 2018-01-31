@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 11d603e9-6db1-44a2-b4e3-d85ffe0d5c25
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PSDP_NODE structure pointer [Bluetooth Devices], *PSDP_NODE, PSDP_NODE, sdpnode/PSDP_NODE, SDP_NODE, bltooth.sdp_node, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, sdpnode/SDP_NODE, _SDP_NODE, SDP_NODE structure [Bluetooth Devices]
+ms.keywords: SDP_NODE, PSDP_NODE, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, sdpnode/SDP_NODE, bltooth.sdp_node, *PSDP_NODE, sdpnode/PSDP_NODE, _SDP_NODE, SDP_NODE structure [Bluetooth Devices], PSDP_NODE structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,26 +72,26 @@ typedef struct _SDP_NODE {
 
 
 
-### -field hdr
+#### - hdr
 
 An 
      <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a> structure that contains
      links to peer SDP_NODE structures and the data type of the current node.
 
 
-### -field DataSize
+#### - DataSize
 
 The size, in bytes, of the 
      <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a> union held in the 
      <b>u</b> member.
 
 
-### -field u
+#### - u
 
 An SDP_NODE_DATA union that contains the data associated with the SDP record's node.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use. Do not use.
 

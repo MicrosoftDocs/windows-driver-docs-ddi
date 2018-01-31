@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: b256e6fd-d44f-482a-836d-a812634b4b3a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_HID_XFER_PACKET, hidclass/HID_XFER_PACKET, HID_XFER_PACKET, hidclass/PHID_XFER_PACKET, hid.hid_xfer_packet, *PHID_XFER_PACKET, PHID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml, PHID_XFER_PACKET structure pointer [Human Input Devices]"
+ms.keywords: hid.hid_xfer_packet, PHID_XFER_PACKET, HID_XFER_PACKET, _HID_XFER_PACKET, hidclass/PHID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml, hidclass/HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], *PHID_XFER_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HID_XFER_PACKET
 product: Windows
 targetos: Windows
-req.typenames: "*PHID_XFER_PACKET, HID_XFER_PACKET"
+req.typenames: HID_XFER_PACKET, *PHID_XFER_PACKET
 ---
 
 # _HID_XFER_PACKET structure
@@ -69,17 +69,17 @@ typedef struct _HID_XFER_PACKET {
 
 
 
-### -field reportBuffer
+#### - reportBuffer
 
 Pointer to a report buffer.
 
 
-### -field reportBufferLen
+#### - reportBufferLen
 
 Specifies the length of the report at <b>reportBuffer</b>.
 
 
-### -field reportId
+#### - reportId
 
 Specifies the report ID of the report contained at <b>reportBuffer</b>. This parameter is optional, and, if not specified, should be set to zero.
 
@@ -97,9 +97,9 @@ The HID class driver uses this structure to specify information about a HID repo
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
  
 

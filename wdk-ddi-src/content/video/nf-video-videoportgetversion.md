@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportgetversion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, VideoPortGetVersion, video/VideoPortGetVersion
+ms.keywords: video/VideoPortGetVersion, display.videoportgetversion, VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VP_STATUS VideoPortGetVersion(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pVpOsVersionInfo [in, out]
+#### - pVpOsVersionInfo [in, out]
 
 Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
 

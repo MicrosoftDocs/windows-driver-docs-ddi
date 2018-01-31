@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7316327-C860-4138-A19B-3326CE9210C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_HDR_METADATA_HDR10 structure [Display Devices], D3DDDI_HDR_METADATA_HDR10, display.d3dddi_hdr_metadata_hdr10, d3dukmdt/D3DDDI_HDR_METADATA_HDR10, _D3DDDI_HDR_METADATA_HDR10
+ms.keywords: d3dukmdt/D3DDDI_HDR_METADATA_HDR10, display.d3dddi_hdr_metadata_hdr10, _D3DDDI_HDR_METADATA_HDR10, D3DDDI_HDR_METADATA_HDR10 structure [Display Devices], D3DDDI_HDR_METADATA_HDR10
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _D3DDDI_HDR_METADATA_HDR10 {
 
 
 
-### -field RedPrimary
+#### - RedPrimary
 
 The chromaticity coordinates of the 1.0 red value. Index 0 contains the X coordinate and index 1 contains the Y coordinate. 
 
 
-### -field GreenPrimary
+#### - GreenPrimary
 
 The chromaticity coordinates of the 1.0 green value. Index 0 contains the X coordinate and index 1 contains the Y coordinate. 
 
 
-### -field BluePrimary
+#### - BluePrimary
 
 The chromaticity coordinates of the 1.0 blue value. Index 0 contains the X coordinate and index 1 contains the Y coordinate. 
 
@@ -93,22 +93,22 @@ The chromaticity coordinates of the 1.0 blue value. Index 0 contains the X coord
  
 
 
-### -field MaxMasteringLuminance
+#### - MaxMasteringLuminance
 
 The maximum number of nits of the display used to master the content. 
 
 
-### -field MinMasteringLuminance
+#### - MinMasteringLuminance
 
 The minimum number of nits of the display used to master the content.
 
 
-### -field MaxContentLightLevel
+#### - MaxContentLightLevel
 
 The maximum nit value used anywhere in the content. 
 
 
-### -field MaxFrameAverageLightLevel
+#### - MaxFrameAverageLightLevel
 
 The per-frame average of the maximum nit values. 
 

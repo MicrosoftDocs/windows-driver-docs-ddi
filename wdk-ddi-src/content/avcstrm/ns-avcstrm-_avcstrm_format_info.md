@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: de8e262b-bcb9-4549-94cc-0a73df45bddc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.avcstrm_format_info, avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, *PAVCSTRM_FORMAT_INFO, avcstrm/AVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO, avcstrm/PAVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], AVCSTRM_FORMAT_INFO structure [Streaming Media Devices], _AVCSTRM_FORMAT_INFO
+ms.keywords: "*PAVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO, stream.avcstrm_format_info, avcstrm/AVCSTRM_FORMAT_INFO, avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, avcstrm/PAVCSTRM_FORMAT_INFO, _AVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], AVCSTRM_FORMAT_INFO structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,47 +78,47 @@ typedef struct _AVCSTRM_FORMAT_INFO {
 
 
 
-### -field SizeOfThisBlock
+#### - SizeOfThisBlock
 
 Specifies the size of this data structure, in bytes.
 
 
-### -field AVCStrmFormat
+#### - AVCStrmFormat
 
 Specifies one of the AV/C streaming subunit formats defined in <a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>.
 
 
-### -field cipHdr1
+#### - cipHdr1
 
 Specifies the definition of the first quadlet of the two quadlet CIP header.
 
 
-### -field cipHdr2
+#### - cipHdr2
 
 Specifies the definition of the second quadlet of the two quadlet CIP header.
 
 
-### -field SrcPacketsPerFrame
+#### - SrcPacketsPerFrame
 
 Specifies the number of source packets to fill a data frame.
 
 
-### -field FrameSize
+#### - FrameSize
 
 Specifies the data buffer size.
 
 
-### -field NumOfRcvBuffers
+#### - NumOfRcvBuffers
 
 Specifies the number of receiving buffers.
 
 
-### -field NumOfXmtBuffers
+#### - NumOfXmtBuffers
 
 Specifies the number of transmitting buffers.
 
 
-### -field OptionFlags
+#### - OptionFlags
 
 Specifies any option flags. Currently, only one flag is defined:
 <table>
@@ -143,17 +143,17 @@ Strip the SPH (source packet header) from the 192-byte data packet for MPEG2TS.
 </table> 
 
 
-### -field AvgTimePerFrame
+#### - AvgTimePerFrame
 
 Specifies the average time per frame in 100 nanosecond units.
 
 
-### -field BlockPeriod
+#### - BlockPeriod
 
 Specifies the block period. This is used for transmit only. It is calculated from 1/ BlockPerSecond * 1,000,000,000 picoseconds. For SDDV, it transmits one block per 1394 cycle. 1/(29.97 * 250) * 1,000,000,000,000 = 133,466,800 picoseconds.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Do not use. Must be set to 0.
 
@@ -162,13 +162,13 @@ Reserved. Do not use. Must be set to 0.
 
 <a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>
 
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
+
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_syt.md">CIP_HDR2_SYT</a>
 
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
 
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
-
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
 
  
 

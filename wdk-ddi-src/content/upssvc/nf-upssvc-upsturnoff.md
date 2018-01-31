@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPSTurnOff function [Battery Devices], UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff, upssvc/UPSTurnOff, UPSTurnOff
+ms.keywords: battery.upsturnoff, UPSTurnOff, upssvc/UPSTurnOff, UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, UPSTurnOff function [Battery Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void UPSTurnOff(
 
 
 
-### -param aTurnOffDelay [in]
+#### - aTurnOffDelay [in]
 
 Specifies the minimum amount of time, in seconds, to wait before turning off the UPS unit's power outlets.
 

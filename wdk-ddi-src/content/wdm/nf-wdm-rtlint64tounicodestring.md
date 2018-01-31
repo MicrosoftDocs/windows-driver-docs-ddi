@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 36f146a7-cdc2-4b88-bd9a-5008bf94c180
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlint64tounicodestring, RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], wdm/RtlInt64ToUnicodeString, k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml
+ms.keywords: k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, wdm/RtlInt64ToUnicodeString, RtlInt64ToUnicodeString, kernel.rtlint64tounicodestring, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS RtlInt64ToUnicodeString(
 
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the ULONGLONG value to convert. 
 
 
-### -param Base [in, optional]
+#### - Base [in, optional]
 
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
 <table>
@@ -126,7 +126,7 @@ Decimal
 </table> 
 
 
-### -param String [in, out]
+#### - String [in, out]
 
 Pointer to the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
 

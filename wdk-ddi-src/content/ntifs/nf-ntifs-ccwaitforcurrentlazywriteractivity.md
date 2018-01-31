@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eda2198d-d9c9-498a-b94f-5ebdaae417be
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_a216c467-24be-4ea5-9c53-71cf1fe1c47d.xml, ifsk.ccwaitforcurrentlazywriteractivity, CcWaitForCurrentLazyWriterActivity routine [Installable File System Drivers], ntifs/CcWaitForCurrentLazyWriterActivity, CcWaitForCurrentLazyWriterActivity
+ms.keywords: ccref_a216c467-24be-4ea5-9c53-71cf1fe1c47d.xml, CcWaitForCurrentLazyWriterActivity routine [Installable File System Drivers], ifsk.ccwaitforcurrentlazywriteractivity, ntifs/CcWaitForCurrentLazyWriterActivity, CcWaitForCurrentLazyWriterActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,11 @@ To prevent deadlock, the caller should release any currently held synchronizatio
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
 
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 

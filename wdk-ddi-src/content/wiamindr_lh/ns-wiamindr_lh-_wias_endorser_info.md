@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4874ddab-5443-4e03-8f49-493682dabac1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WIAS_ENDORSER_INFO, wiamindr_lh/WIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO, wiamindr_lh/PWIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml, image.wias_endorser_info, PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], *PWIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices]"
+ms.keywords: image.wias_endorser_info, _WIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices], PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], PWIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO, wiamindr_lh/PWIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml, wiamindr_lh/WIAS_ENDORSER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_ENDORSER_INFO
 product: Windows
 targetos: Windows
-req.typenames: WIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO
+req.typenames: "*PWIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _WIAS_ENDORSER_INFO {
 
 
 
-### -field ulPageCount
+#### - ulPageCount
 
 Specifies the value that will replace the $PAGE_COUNT$ token, provided that the endorser string contains that token.
 
 
-### -field ulNumEndorserValues
+#### - ulNumEndorserValues
 
 Specifies the number of token/value pairs. This member will be 0 if there are no custom token/value pairs.
 
 
-### -field pEndorserValues
+#### - pEndorserValues
 
 Points to an array of <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a> structures, holding custom token/value pairs. If the value of the <b>ulNumEndorserValues</b> member is 0, this member should be <b>NULL</b>.
 

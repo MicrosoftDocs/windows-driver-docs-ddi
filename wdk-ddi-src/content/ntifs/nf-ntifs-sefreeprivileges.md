@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5b8ba64e-3147-45b4-9861-da2186c2ba10
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeFreePrivileges routine [Kernel-Mode Driver Architecture], seref_e40724d7-f170-4dbd-89a6-2cdcdd13e87d.xml, ntifs/SeFreePrivileges, kernel.sefreeprivileges, SeFreePrivileges
+ms.keywords: seref_e40724d7-f170-4dbd-89a6-2cdcdd13e87d.xml, kernel.sefreeprivileges, SeFreePrivileges routine [Kernel-Mode Driver Architecture], SeFreePrivileges, ntifs/SeFreePrivileges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID SeFreePrivileges(
 
 
 
-### -param Privileges [in]
+#### - Privileges [in]
 
 Pointer to the privilege set to be freed.
 
@@ -88,13 +88,13 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
-
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-
 <a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
 
 <a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
+
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
 
  
 

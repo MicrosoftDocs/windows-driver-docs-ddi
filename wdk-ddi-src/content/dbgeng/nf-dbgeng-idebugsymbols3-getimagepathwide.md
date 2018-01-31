@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 884a5577-3ae8-4444-bf09-3fe4f72dc7d9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetImagePathWide, GetImagePathWide method [Windows Debugging], GetImagePathWide, IDebugSymbols3::GetImagePathWide, debugger.getimagepathwide, IDebugSymbols3 interface [Windows Debugging], GetImagePathWide method, IDebugSymbols3
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetImagePathWide method, GetImagePathWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetImagePathWide, GetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, GetImagePathWide, IDebugSymbols3, IDebugSymbols3::GetImagePathWide, debugger.getimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetImagePathWide(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the executable image path.  This is a string that contains directories separated by semicolons (<b>;</b>).  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param PathSize [out, optional]
+#### - PathSize [out, optional]
 
 Receives the size, in characters, of the executable image path.
 
@@ -130,9 +130,9 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

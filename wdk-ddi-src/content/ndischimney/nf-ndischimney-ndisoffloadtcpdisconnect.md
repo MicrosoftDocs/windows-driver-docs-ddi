@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisOffloadTcpDisconnect, netvista.ndisoffloadtcpdisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml
+ms.keywords: NdisOffloadTcpDisconnect, ndischimney/NdisOffloadTcpDisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpdisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NDIS_STATUS NdisOffloadTcpDisconnect(
 
 
 
-### -param NdisOffloadHandle [in]
+#### - NdisOffloadHandle [in]
 
 A pointer to an 
      <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure in the
@@ -85,7 +85,7 @@ A pointer to an
      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a single 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. Only one 
@@ -93,7 +93,7 @@ A pointer to a single
      NET_BUFFER_LIST structure.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 As one of the following values, the type of disconnect to be performed:
      
@@ -165,20 +165,20 @@ The same
 
 ## -see-also
 
+<mshelp:link keywords="netvista.ndistcpoffloaddisconnectcomplete" tabindex="0"><b>
+   NdisTcpOffloadDisconnectComplete</b></mshelp:link>
+
 <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
    MiniportTcpOffloadDisconnect</i></mshelp:link>
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 <mshelp:link keywords="netvista.protocoltcpoffloaddisconnectcomplete" tabindex="0"><i>
    ProtocolTcpOffloadDisconnectComplete</i></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.ndistcpoffloaddisconnectcomplete" tabindex="0"><b>
-   NdisTcpOffloadDisconnectComplete</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

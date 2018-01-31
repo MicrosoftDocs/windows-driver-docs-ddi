@@ -67,7 +67,7 @@ VOID *PDXGK_REMOVAL_NOTIFICATION(
 
 
 
-### -param GraphicsDeviceHandle
+#### - GraphicsDeviceHandle
 
 A handle to the graphics device.
 

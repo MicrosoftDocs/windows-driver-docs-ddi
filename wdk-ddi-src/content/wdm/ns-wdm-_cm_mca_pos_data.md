@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2b14eef2-dac4-48c8-b2a2-96bf085171aa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_CM_MCA_POS_DATA, *PCM_MCA_POS_DATA, CM_MCA_POS_DATA, kstruct_a_a0edcef2-abf9-4660-8f40-76a2f8ff1193.xml, wdm/CM_MCA_POS_DATA, CM_MCA_POS_DATA structure [Kernel-Mode Driver Architecture], kernel.cm_mca_pos_data, PCM_MCA_POS_DATA, PCM_MCA_POS_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_MCA_POS_DATA"
+ms.keywords: "_CM_MCA_POS_DATA, PCM_MCA_POS_DATA, CM_MCA_POS_DATA structure [Kernel-Mode Driver Architecture], kstruct_a_a0edcef2-abf9-4660-8f40-76a2f8ff1193.xml, *PCM_MCA_POS_DATA, PCM_MCA_POS_DATA structure pointer [Kernel-Mode Driver Architecture], CM_MCA_POS_DATA, wdm/CM_MCA_POS_DATA, wdm/PCM_MCA_POS_DATA, kernel.cm_mca_pos_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,23 +72,23 @@ typedef struct _CM_MCA_POS_DATA {
 
 
 
-### -field AdapterId
+#### - AdapterId
 
 
 
-### -field PosData1
+#### - PosData1
 
 
 
-### -field PosData2
+#### - PosData2
 
 
 
-### -field PosData3
+#### - PosData3
 
 
 
-### -field PosData4
+#### - PosData4
 
 
 

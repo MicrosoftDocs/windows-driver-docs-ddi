@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveTransmitMdl, 1/SerCxRetrieveTransmitMdl, serports.sercxretrievetransmitmdl, SerCxRetrieveTransmitMdl method [Serial Ports]
+ms.keywords: serports.sercxretrievetransmitmdl, SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], 1/SerCxRetrieveTransmitMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS SerCxRetrieveTransmitMdl(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param Mdl [out]
+#### - Mdl [out]
 
 A pointer to a location into which the method writes a pointer to the MDL.
 

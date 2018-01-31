@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 34a37d29-c517-45dc-b94d-abffaa91cb31
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HardwareRemoval, HciDisconnect, L2CAP_DISCONNECT_REASON, RadioPoweredDown, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, _L2CAP_DISCONNECT_REASON, bltooth.l2cap_disconnect_reason, bthddi/HciDisconnect, bthddi/RadioPoweredDown, bthddi/HardwareRemoval, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], bthddi/L2capDisconnectRequest, bthddi/L2CAP_DISCONNECT_REASON, L2capDisconnectRequest
+ms.keywords: bltooth.l2cap_disconnect_reason, L2CAP_DISCONNECT_REASON, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], HciDisconnect, bthddi/L2CAP_DISCONNECT_REASON, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, L2capDisconnectRequest, _L2CAP_DISCONNECT_REASON, HardwareRemoval, RadioPoweredDown, bthddi/L2capDisconnectRequest, bthddi/HciDisconnect, bthddi/RadioPoweredDown, bthddi/HardwareRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,24 +71,24 @@ typedef enum _L2CAP_DISCONNECT_REASON {
 
 
 
-### -field HciDisconnect
+#### - HciDisconnect
 
 The value specifies for the profile driver that the Bluetooth driver stack has received a
      disconnect notification from the host controller interface (HCI) layer.
 
 
-### -field L2capDisconnectRequest
+#### - L2capDisconnectRequest
 
 This value specifies for the profile driver that a disconnect request has been received from a
      remote device.
 
 
-### -field RadioPoweredDown
+#### - RadioPoweredDown
 
 This value specifies for the profile driver that the local radio has been turned off.
 
 
-### -field HardwareRemoval
+#### - HardwareRemoval
 
 This value specifies for the profile driver that the local radio has been physically
      removed.

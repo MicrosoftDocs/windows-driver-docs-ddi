@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_querysegmentin4, DXGK_QUERYSEGMENTIN4 structure [Display Devices], d3dkmddi/DXGK_QUERYSEGMENTIN4, _DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4
+ms.keywords: DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4 structure [Display Devices], _DXGK_QUERYSEGMENTIN4, d3dkmddi/DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DXGK_QUERYSEGMENTIN4 {
 
 
 
-### -field PhysicalAdapterIndex
+#### - PhysicalAdapterIndex
 
 A zero-based physical adapter index in a linked display adapter  (LDA) link. Zero for non-LDA configurations. 
 

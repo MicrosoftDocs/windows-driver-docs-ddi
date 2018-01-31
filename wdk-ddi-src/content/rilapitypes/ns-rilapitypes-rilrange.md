@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f14aa2bc-1eeb-4c17-836a-52046ba388f1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], *LPRILRANGE, netvista.rilrange_2, rilapitypes/RILRANGE
+ms.keywords: RILRANGE, *LPRILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRANGE, netvista.rilrange_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRANGE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILRANGE, RILRANGE"
+req.typenames: RILRANGE, *LPRILRANGE
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,10 @@ typedef struct _RILRANGE {
 
 
 
-### -field dwMinValue
+#### - dwMinValue
 
 
 
-### -field dwMaxValue
+#### - dwMaxValue
 
 

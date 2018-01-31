@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba87554-766d-45e2-8257-584ee78dd873
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS, virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml, netvista.ndis_receive_queue_parameters, _NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS
+ms.keywords: virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS, netvista.ndis_receive_queue_parameters, _NDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_QUEUE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS
+req.typenames: "*PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS"
 ---
 
 # _NDIS_RECEIVE_QUEUE_PARAMETERS structure
@@ -82,7 +82,7 @@ typedef struct _NDIS_RECEIVE_QUEUE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -105,7 +105,7 @@ Original version for NDIS 6.20.
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_1</b>.
 
 
-### -field Flags
+#### - Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of the following flags. The following flags are valid for the 
      <mshelp:link keywords="netvista.oid_receive_filter_allocate_queue" tabindex="0">
@@ -161,31 +161,31 @@ The setting in the
        <b>QueueName</b> member changed.
 
 
-### -field QueueType
+#### - QueueType
 
 An 
      <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
      value that specifies the type of the receive queue.
 
 
-### -field QueueId
+#### - QueueId
 
 An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a receive queue identifier. This identifier is an integer value between zero and the number of queues that the network adapter supports. A value of <b>NDIS_DEFAULT_RECEIVE_QUEUE_ID</b> specifies the default receive queue.
 
 
-### -field QueueGroupId
+#### - QueueGroupId
 
 This member is reserved for NDIS.
 
 
-### -field ProcessorAffinity
+#### - ProcessorAffinity
 
 A <b>GROUP_AFFINITY</b> value that specifies the group number and a bitmap of the CPUs that this queue
      can be associated with. At least one processor must be specified. Therefore, the value must not be
      zero.
 
 
-### -field NumSuggestedReceiveBuffers
+#### - NumSuggestedReceiveBuffers
 
 A <b>ULONG</b> value that contains a suggested value for the number of receive buffers that the network adapter should use to support the queue. This number can be adjusted relative to the resources that the
      miniport driver has available or in proportion to the number that the network adapter uses for other
@@ -193,12 +193,12 @@ A <b>ULONG</b> value that contains a suggested value for the number of receive b
      value.
 
 
-### -field MSIXTableEntry
+#### - MSIXTableEntry
 
 This member is reserved for NDIS.
 
 
-### -field LookaheadSize
+#### - LookaheadSize
 
 A <b>ULONG</b> value for the size, in bytes, of the lookahead size requirement for this queue. A network adapter that supports lookahead in VM queues splits a received packet at an offset equal to or greater
      than the requested lookahead size and uses DMA to transfer the lookahead data and the post-lookahead
@@ -213,24 +213,24 @@ A <b>ULONG</b> value for the size, in bytes, of the lookahead size requirement f
      <b>LookaheadSize</b> is invalid.
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. The value of this member must be zero.</div><div> </div>
 
-### -field VmName
+#### - VmName
 
 An <b>NDIS_VM_NAME</b> value that contains the description of the virtual machine that users read.
 
 
-### -field QueueName
+#### - QueueName
 
 An <b>NDIS_QUEUE_NAME</b> value that contains the description of the queue that users read.
 
 
-### -field PortId
+#### - PortId
 
 A ULONG value that contains the unique identifier of a port on the Hyper-V extensible switch to which the VM queue is attached.
 
 
 
 
-### -field InterruptCoalescingDomainId
+#### - InterruptCoalescingDomainId
 
 This member is reserved for NDIS.
 
@@ -256,12 +256,10 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <mshelp:link keywords="netvista.oid_receive_filter_allocate_queue" tabindex="0">
    OID_RECEIVE_FILTER_ALLOCATE_QUEUE</mshelp:link>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
 
 <mshelp:link keywords="netvista.oid_receive_filter_queue_parameters" tabindex="0">
    OID_RECEIVE_FILTER_QUEUE_PARAMETERS</mshelp:link>
@@ -269,7 +267,9 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
 
  
 

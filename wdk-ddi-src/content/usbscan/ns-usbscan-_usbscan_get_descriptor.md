@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 250c0022-ceaa-40c6-8431-9ec53438fdb9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PUSBSCAN_GET_DESCRIPTOR structure pointer [Imaging Devices], image.usbscan_get_descriptor, PUSBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR, usbscan/USBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR, _USBSCAN_GET_DESCRIPTOR, usbscan/PUSBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR structure [Imaging Devices], stifnc_1e92e306-420d-47ec-bb8a-8c906c3b62ea.xml
+ms.keywords: USBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR structure [Imaging Devices], PUSBSCAN_GET_DESCRIPTOR, _USBSCAN_GET_DESCRIPTOR, image.usbscan_get_descriptor, usbscan/USBSCAN_GET_DESCRIPTOR, stifnc_1e92e306-420d-47ec-bb8a-8c906c3b62ea.xml, PUSBSCAN_GET_DESCRIPTOR structure pointer [Imaging Devices], usbscan/PUSBSCAN_GET_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _USBSCAN_GET_DESCRIPTOR {
 
 
 
-### -field DescriptorType
+#### - DescriptorType
 
 Same as the <i>DescriptorType</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>.
 
 
-### -field Index
+#### - Index
 
 Same as the <i>Index</i> parameter to <b>UsbBuildGetDescriptorRequest</b>.
 
 
-### -field LanguageId
+#### - LanguageId
 
 Same as the <i>LanguageId</i> parameter to <b>UsbBuildGetDescriptorRequest</b>.
 

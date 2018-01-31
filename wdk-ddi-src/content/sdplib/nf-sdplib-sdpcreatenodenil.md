@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 53312cb8-a974-4394-969b-2a39def64109
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_funcs_5f7d1244-67e0-436e-8658-8adcc2aa3a65.xml, SdpCreateNodeNil function [Bluetooth Devices], bltooth.sdpcreatenodenil, sdplib/SdpCreateNodeNil, SdpCreateNodeNil
+ms.keywords: bltooth.sdpcreatenodenil, SdpCreateNodeNil, SdpCreateNodeNil function [Bluetooth Devices], bth_funcs_5f7d1244-67e0-436e-8658-8adcc2aa3a65.xml, sdplib/SdpCreateNodeNil
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ PSDP_NODE SdpCreateNodeNil(
 
 
 
-### -param tag [in]
+#### - tag [in]
 
 A profile driver defined tag to associate with the node.
 

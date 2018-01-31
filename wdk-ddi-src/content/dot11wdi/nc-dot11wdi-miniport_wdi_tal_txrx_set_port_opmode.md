@@ -76,17 +76,17 @@ VOID MiniportWdiTalTxRxSetPortOpMode(
 
 
 
-### -param MiniportTalTxRxContext [in]
+#### - MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
+#### - PortId [in]
 
 Port ID for the port.
 
 
-### -param Opmode [in]
+#### - Opmode [in]
 
 
 <a href="..\dot11wdi\ne-dot11wdi-_wdi_operation_mode.md">WDI_OPERATION_MODE</a> value that specifies the operation mode for the port.
@@ -101,9 +101,9 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
-
 <a href="..\dot11wdi\ne-dot11wdi-_wdi_operation_mode.md">WDI_OPERATION_MODE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 <a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 

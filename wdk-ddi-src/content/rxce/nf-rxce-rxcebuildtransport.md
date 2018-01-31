@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml, ifsk.rxcebuildtransport, RxCeBuildTransport function [Installable File System Drivers], rxce/RxCeBuildTransport
+ms.keywords: rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, RxCeBuildTransport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeBuildTransport
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ NTSTATUS RxCeBuildTransport(
 TBD
 
 
-### -param pTransportName [in]
+#### - pTransportName [in]
 
 A pointer to the Unicode binding string for the desired transport.
 
 
-### -param QualityOfService [in]
+#### - QualityOfService [in]
 
 The quality of service desired from the transport.
 

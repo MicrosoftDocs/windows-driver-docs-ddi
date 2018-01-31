@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 347edff7-b209-4b60-aabc-5ee7963c8164
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_surfaceinfo, D3DDDI_SURFACEINFO, D3D_other_Structs_03e742b5-062c-46d3-bedf-25aee3582dfc.xml, d3dukmdt/D3DDDI_SURFACEINFO, D3DDDI_SURFACEINFO structure [Display Devices], _D3DDDI_SURFACEINFO
+ms.keywords: "_D3DDDI_SURFACEINFO, D3DDDI_SURFACEINFO structure [Display Devices], D3DDDI_SURFACEINFO, d3dukmdt/D3DDDI_SURFACEINFO, display.d3dddi_surfaceinfo, D3D_other_Structs_03e742b5-062c-46d3-bedf-25aee3582dfc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,43 +72,43 @@ typedef struct _D3DDDI_SURFACEINFO {
 
 
 
-### -field Width
+#### - Width
 
 [in] The width, in pixels, of the surface or volume or the length, in pixels, of the linear resource.
 
 
-### -field Height
+#### - Height
 
 [in] The height, in pixels, of the surface or volume.
 
 
-### -field Depth
+#### - Depth
 
 [in] The depth, in pixels, of the volume.
 
 
-### -field pSysMem
+#### - pSysMem
 
 [in] A pointer to a buffer that contains the contents of the resource if the resource exists in system memory and <b>NULL</b> if the resource exists in video memory.
 
 Note that this member is valid only if the <b>Pool</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure for creating the resource is set to the D3DDDIPOOL_SYSTEMMEM value.
 
 
-### -field SysMemPitch
+#### - SysMemPitch
 
 [in] The pitch, in bytes, of the surface--that is, the distance, in bytes, to the start of the next line.
 
 
-### -field SysMemSlicePitch
+#### - SysMemSlicePitch
 
 [in] The slice, in bytes, of the volume.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
  
 

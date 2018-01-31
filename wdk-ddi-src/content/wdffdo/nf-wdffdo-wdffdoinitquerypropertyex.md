@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8377EE4-A7A1-4063-A7DC-53D0D8C6E0C3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoInitQueryPropertyEx, wdf.wdffdoinitquerypropertyex, WdfFdoInitQueryPropertyEx method, PFN_WDFFDOINITQUERYPROPERTYEX, wdffdo/WdfFdoInitQueryPropertyEx
+ms.keywords: PFN_WDFFDOINITQUERYPROPERTYEX, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, WdfFdoInitQueryPropertyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitQueryPropertyEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -78,27 +78,27 @@ NTSTATUS WdfFdoInitQueryPropertyEx(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to be retrieved.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer</i>.
 
 
-### -param PropertyBuffer [out]
+#### - PropertyBuffer [out]
 
 A caller-supplied pointer to a caller-allocated buffer that receives the requested information. The pointer can be <b>NULL</b> if the <i>BufferLength</i> parameter is zero.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 A caller-supplied location that, on return, contains the 
                   size, in bytes, of the information that the method stored in 
@@ -107,7 +107,7 @@ A caller-supplied location that, on return, contains the
                   buffer size.
 
 
-### -param Type [out]
+#### - Type [out]
 
 A pointer to a <b>DEVPROPTYPE</b> variable that, on return, contains the property type value
                   of the property 

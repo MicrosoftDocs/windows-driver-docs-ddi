@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/BoundExceptionHandled, wdm/BOUND_CALLBACK_STATUS, _BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS, BoundExceptionHandled, BoundExceptionContinueSearch, wdm/BoundExceptionMaximum, BoundExceptionError, kernel.bound_callback_status, wdm/BoundExceptionContinueSearch, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/BoundExceptionError, BOUND_CALLBACK_STATUS, BoundExceptionMaximum
+ms.keywords: BoundExceptionMaximum, wdm/BoundExceptionHandled, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionMaximum, _BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, BoundExceptionContinueSearch, BoundExceptionError, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionError, *PBOUND_CALLBACK_STATUS, kernel.bound_callback_status, BoundExceptionHandled, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	BOUND_CALLBACK_STATUS
 product: Windows
 targetos: Windows
-req.typenames: BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
+req.typenames: "*PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef enum _BOUND_CALLBACK_STATUS {
 
 
 
-### -field BoundExceptionContinueSearch
+#### - BoundExceptionContinueSearch
 
 The bounds exception was not handled by the callback, and the exception should continue to propagate.  
 
 
-### -field BoundExceptionHandled
+#### - BoundExceptionHandled
 
 The exception was handled by the callback, and the exception should not propagate any further. 
 
 
-### -field BoundExceptionError
+#### - BoundExceptionError
 
 The user mode process should be terminated by the system.
 
 
-### -field BoundExceptionMaximum
+#### - BoundExceptionMaximum
 
 This value is not currently used.
 

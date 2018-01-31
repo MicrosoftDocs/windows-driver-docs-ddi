@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55d63dcc-7728-4982-ad1c-e1ca40cc941e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/FEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ, PFEATURE_DATA_CD_READ structure pointer [Storage Devices], structs-CD-ROM_8b31a56d-f370-4b85-8f37-a88041276a20.xml, storage.feature_data_cd_read, PFEATURE_DATA_CD_READ, _FEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ structure [Storage Devices], ntddmmc/PFEATURE_DATA_CD_READ, *PFEATURE_DATA_CD_READ
+ms.keywords: "_FEATURE_DATA_CD_READ, storage.feature_data_cd_read, PFEATURE_DATA_CD_READ, structs-CD-ROM_8b31a56d-f370-4b85-8f37-a88041276a20.xml, ntddmmc/FEATURE_DATA_CD_READ, PFEATURE_DATA_CD_READ structure pointer [Storage Devices], FEATURE_DATA_CD_READ, ntddmmc/PFEATURE_DATA_CD_READ, *PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_CD_READ
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ"
+req.typenames: FEATURE_DATA_CD_READ, *PFEATURE_DATA_CD_READ
 ---
 
 # _FEATURE_DATA_CD_READ structure
@@ -72,30 +72,30 @@ typedef struct _FEATURE_DATA_CD_READ {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field CDText
+#### - CDText
 
 Indicates, when set to 1, that the device supports format code 0x05 of the READ/TOC/PMA/ATIP command, as defined in the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. When set to zero, CD-Text is not supported. 
 
 
-### -field C2ErrorData
+#### - C2ErrorData
 
 Indicates, when set to 1, that the device supports the C2 error pointers as described in the <i>MMC-3 </i>specification. When set to zero, it indicates that the device does not support C2 error pointers.
 
 
-### -field Reserved01
+#### - Reserved01
 
 
 
-### -field DigitalAudioPlay
+#### - DigitalAudioPlay
 
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved. 
 

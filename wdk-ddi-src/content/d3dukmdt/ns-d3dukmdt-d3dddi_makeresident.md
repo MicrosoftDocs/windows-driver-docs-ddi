@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16F04DFD-3AF6-48E0-9BCF-9FE0FC397F91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], D3DDDI_MAKERESIDENT, display.d3dddi_makeresident
+ms.keywords: D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], display.d3dddi_makeresident, d3dukmdt/D3DDDI_MAKERESIDENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,49 +73,49 @@ typedef struct D3DDDI_MAKERESIDENT {
 
 
 
-### -field hPagingQueue
+#### - hPagingQueue
 
 [in] Paging queue on the device that created the input allocations. This queue will be used for residency operations.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in/out] On input, the number of allocation handles in the <b>AllocationList</b> array and allocation priority values in the <b>PriorityList</b> array. On output,
                                                     the number of allocations successfully made resident.
 
 
-### -field AllocationList
+#### - AllocationList
 
 [in] An array of <b>NumAllocations</b> allocation handles to make resident. All allocations must be created on the device <b>hPagingQueue</b> is created for.
 
 
-### -field PriorityList
+#### - PriorityList
 
 [in] An array of <b>NumAllocations</b> specifying residency priority for each of the input allocations. This value is currently ignored and may be set to <b>NULL</b>.
 
 
-### -field Flags
+#### - Flags
 
 [in] Specifies memory residency behavior as documented in <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident_flags.md">D3DDDI_MAKERESIDENT_FLAGS</a>.
 
 
-### -field PagingFenceValue
+#### - PagingFenceValue
 
 [out] When <b>MakeResident</b> returns <b>E_PENDING</b>, this member indicates the paging queue fence value to wait on. 
 
 
-### -field NumBytesToTrim
+#### - NumBytesToTrim
 
 [out] When <b>MakeResident</b> returns <b>E_OUTOFMEMORY</b>, this member indicates the number of bytes over budget the application would be if the allocation(s) were made resident. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident_flags.md">D3DDDI_MAKERESIDENT_FLAGS</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident_flags.md">D3DDDI_MAKERESIDENT_FLAGS</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>
 
  
 

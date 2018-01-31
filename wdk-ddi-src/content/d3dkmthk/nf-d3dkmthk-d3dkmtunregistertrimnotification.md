@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C90A5200-F6AF-4B7B-BB66-D76D4C3AA8EE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification, d3dkmthk/D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices]
+ms.keywords: d3dkmthk/D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification, D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

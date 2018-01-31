@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ecb2ae2e-d57d-4192-965b-2ac9b16debf3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX, *PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX structure [Network Drivers Starting with Windows Vista], netvista.ipsec_offload_v2_add_sa_ex, IPSEC_OFFLOAD_V2_ADD_SA_EX, _IPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "_IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX, *PIPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX structure [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX structure pointer [Network Drivers Starting with Windows Vista], netvista.ipsec_offload_v2_add_sa_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,9 +89,19 @@ typedef struct _IPSEC_OFFLOAD_V2_ADD_SA_EX {
 
 
 
-### -field IPv4Endpoints
+#### - IPv4Endpoints
 
 The IPv4 endpoint addresses. This structure contains the following members:
+
+
+#### SrcAddr
+
+The IPv4 address of the source host (the host that is sending the packets).
+
+
+#### DestAddr
+
+The IPv4 address of the destination host (the host that is receiving the packets).
 
 
 ### -field IPv4Endpoints.SrcAddr
@@ -104,9 +114,19 @@ The IPv4 address of the source host (the host that is sending the packets).
 The IPv4 address of the destination host (the host that is receiving the packets).
 
 
-### -field IPv6Endpoints
+#### - IPv6Endpoints
 
 The IPv6 endpoint addresses. This structure contains the following members:
+
+
+#### SrcAddr
+
+The IPv6 address of the source host (the host that is sending the packets).
+
+
+#### DestAddr
+
+The IPv6 address of the destination host (the host that is receiving the packets).
 
 
 ### -field IPv6Endpoints.SrcAddr
@@ -119,7 +139,7 @@ The IPv6 address of the source host (the host that is sending the packets).
 The IPv6 address of the destination host (the host that is receiving the packets).
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -130,7 +150,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_IPSEC_OFFLOAD_V2_ADD_SA_EX_REVISION_1.
 
 
-### -field NumExtHdrs
+#### - NumExtHdrs
 
 The number of IPsec extension headers. This member can be one of the following values.
      
@@ -202,7 +222,7 @@ UDP ESP
 </table> 
 
 
-### -field Flags
+#### - Flags
 
 A bitmask that indicates whether the SA that is being added is an inbound or outbound SA as
      follows:
@@ -223,7 +243,7 @@ If this flag is set, the addresses are IPv6. Otherwise, the addresses are IPv4
 If this flag is set, the SA is inbound. Otherwise, the SA is outbound.
 
 
-### -field OffloadHandle
+#### - OffloadHandle
 
 The handle to the newly created SA. The miniport driver supplies this handle before completing the
      
@@ -239,7 +259,7 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link> request.
 
 
-### -field UdpEspEncapsulation
+#### - UdpEspEncapsulation
 
 The UDP ESP encapsulation type. This member can be one or more of the following flags:
      
@@ -275,7 +295,7 @@ The tunnel-mode portion of a packet is not UDP-encapsulated. The transport-mode 
        packet is UDP-encapsulated and ESP-protected.
 
 
-### -field SecAssoc
+#### - SecAssoc
 
 An array with two elements that contain the information about the IPsec operations (AH, ESP, or
      both) for the SA. The number of provided elements is specified in the 
@@ -293,13 +313,13 @@ The TCP/IP transport specifies one or two IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION 
      operations is supported: encryption/decryption (ESP) followed by authentication (AH).
 
 
-### -field KeyLength
+#### - KeyLength
 
 The length, in bytes, of the buffer at 
      <b>KeyOffset</b>.
 
 
-### -field KeyOffset
+#### - KeyOffset
 
 The offset, in bytes, from the beginning of the IPSEC_OFFLOAD_V2_ADD_SA_EX structure to the beginning of a variable-length array that contains keys for the SA that is specified at 
      <b>SecAssoc</b>. If both an encryption algorithm and an authentication algorithm are specified by the 
@@ -314,12 +334,12 @@ The offset, in bytes, from the beginning of the IPSEC_OFFLOAD_V2_ADD_SA_EX struc
      <b>KeyLength</b> members, respectively.
 
 
-### -field SourceSwitchPortId
+#### - SourceSwitchPortId
 
 Reserved.
 
 
-### -field VlanId
+#### - VlanId
 
 Reserved.
 
@@ -350,27 +370,27 @@ This structure is nearly identical to the previous version,
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_ipsec_offload_v2_tunnel_net_buffer_list_info" tabindex="0"><b>
-   NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</b></mshelp:link>
-
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</mshelp:link>
-
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
-<mshelp:link keywords="netvista.ndis_ipsec_offload_v2_net_buffer_list_info" tabindex="0"><b>
-   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ipsec_offload_v2_security_association" tabindex="0"><b>
-   IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</b></mshelp:link>
+<mshelp:link keywords="netvista.ndis_ipsec_offload_v2_tunnel_net_buffer_list_info" tabindex="0"><b>
+   NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ipsec_offload_v2_algorithm_info" tabindex="0"><b>
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</mshelp:link>
+
+<mshelp:link keywords="netvista.ipsec_offload_v2_security_association" tabindex="0"><b>
+   IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</b></mshelp:link>
+
+<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>
+
+<mshelp:link keywords="netvista.ndis_ipsec_offload_v2_net_buffer_list_info" tabindex="0"><b>
+   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</b></mshelp:link>
 
  
 

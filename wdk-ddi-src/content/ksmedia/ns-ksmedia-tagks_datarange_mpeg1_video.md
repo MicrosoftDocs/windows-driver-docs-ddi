@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0b715c9b-9a5a-4ef6-b3cc-c17964e55bc1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_MPEG1_VIDEO, PKS_DATARANGE_MPEG1_VIDEO structure pointer [Streaming Media Devices], tagKS_DATARANGE_MPEG1_VIDEO, ksmedia/KS_DATARANGE_MPEG1_VIDEO, *PKS_DATARANGE_MPEG1_VIDEO, stream.ks_datarange_mpeg1_video, ksmedia/PKS_DATARANGE_MPEG1_VIDEO, KS_DATARANGE_MPEG1_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_MPEG1_VIDEO, vidcapstruct_caa12154-017f-4796-bc84-3c132475a75e.xml
+ms.keywords: vidcapstruct_caa12154-017f-4796-bc84-3c132475a75e.xml, ksmedia/PKS_DATARANGE_MPEG1_VIDEO, stream.ks_datarange_mpeg1_video, KS_DATARANGE_MPEG1_VIDEO structure [Streaming Media Devices], ksmedia/KS_DATARANGE_MPEG1_VIDEO, tagKS_DATARANGE_MPEG1_VIDEO, KS_DATARANGE_MPEG1_VIDEO, PKS_DATARANGE_MPEG1_VIDEO structure pointer [Streaming Media Devices], PKS_DATARANGE_MPEG1_VIDEO, *PKS_DATARANGE_MPEG1_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_MPEG1_VIDEO
 product: Windows
 targetos: Windows
-req.typenames: KS_DATARANGE_MPEG1_VIDEO, *PKS_DATARANGE_MPEG1_VIDEO
+req.typenames: "*PKS_DATARANGE_MPEG1_VIDEO, KS_DATARANGE_MPEG1_VIDEO"
 ---
 
 # tagKS_DATARANGE_MPEG1_VIDEO structure
@@ -73,37 +73,37 @@ typedef struct tagKS_DATARANGE_MPEG1_VIDEO {
 
 
 
-### -field DataRange
+#### - DataRange
 
 Specifies the major identifier for the format.
 
 
-### -field bFixedSizeSamples
+#### - bFixedSizeSamples
 
 Specifies that all the samples are the same size if set to <b>TRUE</b>.
 
 
-### -field bTemporalCompression
+#### - bTemporalCompression
 
 Specifies whether each sample can stand independently on its own, without relying on previous or future samples.
 
 
-### -field StreamDescriptionFlags
+#### - StreamDescriptionFlags
 
 Unused and should be set to zero.
 
 
-### -field MemoryAllocationFlags
+#### - MemoryAllocationFlags
 
 Unused and should be set to zero.
 
 
-### -field ConfigCaps
+#### - ConfigCaps
 
 Specifies the configuration of the stream, including scaling, cropping, and frame and data rates.
 
 
-### -field VideoInfoHeader
+#### - VideoInfoHeader
 
 Specifies the details of the video stream.
 

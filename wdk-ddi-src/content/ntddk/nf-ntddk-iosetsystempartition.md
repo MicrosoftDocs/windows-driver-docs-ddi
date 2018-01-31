@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1606881-da8b-4034-bbdf-53c75e594032
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetSystemPartition, IoSetSystemPartition routine [Kernel-Mode Driver Architecture], k104_b0beef8e-9d45-4125-a722-0a7189876308.xml, kernel.iosetsystempartition, ntddk/IoSetSystemPartition
+ms.keywords: IoSetSystemPartition routine [Kernel-Mode Driver Architecture], IoSetSystemPartition, ntddk/IoSetSystemPartition, kernel.iosetsystempartition, k104_b0beef8e-9d45-4125-a722-0a7189876308.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS IoSetSystemPartition(
 
 
 
-### -param VolumeNameString [in]
+#### - VolumeNameString [in]
 
 Pointer to a Unicode string that specifies the MS-DOS name of the system partition. 
 

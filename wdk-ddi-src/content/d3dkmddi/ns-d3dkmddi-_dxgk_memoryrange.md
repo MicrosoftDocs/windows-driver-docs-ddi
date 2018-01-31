@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 68B9465D-BA5E-4DE3-8A55-B344399FBB5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MEMORYRANGE, display.dxgk_memoryrange, DXGK_MEMORYRANGE structure [Display Devices], d3dkmddi/DXGK_MEMORYRANGE, _DXGK_MEMORYRANGE
+ms.keywords: d3dkmddi/DXGK_MEMORYRANGE, display.dxgk_memoryrange, DXGK_MEMORYRANGE, DXGK_MEMORYRANGE structure [Display Devices], _DXGK_MEMORYRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,23 +71,23 @@ typedef struct _DXGK_MEMORYRANGE {
 
 
 
-### -field SegmentOffset
+#### - SegmentOffset
 
 The offset from the start of the segment in bytes. The value must be aligned to the segment page boundary.
 
 
-### -field SizeInBytes
+#### - SizeInBytes
 
 The number of byte in the range. The value must be multiple of the segment page size.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentmemorystate.md">DXGK_QUERYSEGMENTMEMORYSTATE</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
  
 

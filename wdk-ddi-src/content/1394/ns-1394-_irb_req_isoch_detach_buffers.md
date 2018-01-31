@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 60ED83BD-4AFA-432F-B918-9006815C8D47
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ISOCH_DETACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_DETACH_BUFFERS, IEEE.irb_req_isoch_detach_buffers, 1394/IRB_REQ_ISOCH_DETACH_BUFFERS, IRB_REQ_ISOCH_DETACH_BUFFERS
+ms.keywords: IRB_REQ_ISOCH_DETACH_BUFFERS structure [Buses], 1394/IRB_REQ_ISOCH_DETACH_BUFFERS, _IRB_REQ_ISOCH_DETACH_BUFFERS, IRB_REQ_ISOCH_DETACH_BUFFERS, IEEE.irb_req_isoch_detach_buffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _IRB_REQ_ISOCH_DETACH_BUFFERS {
 
 
 
-### -field hResource
+#### - hResource
 
 Specifies the resource handle to detach buffers from.
 
 
-### -field nNumberOfDescriptors
+#### - nNumberOfDescriptors
 
 Specifies the number of elements in the <b>pIsochDescriptor</b> array.
 
 
-### -field pIsochDescriptor
+#### - pIsochDescriptor
 
 Points to an array of ISOCH_DESCRIPTOR structures that describe the buffers to be detached. The device driver should use the same ISOCH_DESCRIPTOR structure for a buffer that it used to attach the buffer.
 

@@ -40,7 +40,7 @@ apiname:
 -	ConfigureAuthenticatedChannel
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback
@@ -74,32 +74,31 @@ HRESULT APIENTRY* ConfigureAuthenticatedChannel(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hCAuthChannel [in]
+#### - hCAuthChannel [in]
 
 A handle to the authenticated channel object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function. 
 
 
-### -param InputDataSize [in]
+#### - InputDataSize [in]
 
 The size, in bytes, of the array that is specified by the <i>pInputData</i> parameter.
 
 
-### -param *pInputData
+#### - *pInputData [in]
+
+A pointer to a byte array that contains input data for the command. For more information, see the Remarks section.
 
 
+#### - *pOutputData [out]
 
-### -param *pOutputData
-
-
-
-
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a> structure. For more information, see the Remarks section.
 
 
 #### - pInputData [in]
@@ -269,9 +268,9 @@ The <i>InputDataSize</i> parameter is less than the size of the <a href="..\d3d1
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
 
  
 

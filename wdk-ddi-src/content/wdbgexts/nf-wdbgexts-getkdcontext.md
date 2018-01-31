@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetKdContext function [Windows Debugging], GetKdContext, debugger.getkdcontext, WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, wdbgexts/GetKdContext
+ms.keywords: GetKdContext, wdbgexts/GetKdContext, WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, GetKdContext function [Windows Debugging], debugger.getkdcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,7 +68,7 @@ ULONG GetKdContext(
 
 
 
-### -param ppi
+#### - ppi
 
 Points to the following structure:
 <pre class="syntax" xml:space="preserve"><code>typedef struct _tagPROCESSORINFO {

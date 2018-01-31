@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorioctl/SILO_DRIVER_CAPABILITIES, _SILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, SILO_DRIVER_CAPABILITIES structure [Storage Devices], PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], CAP_ON_DEMAND_AUTHENTICATION, *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities, PSILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES
+ms.keywords: SILO_DRIVER_CAPABILITIES structure [Storage Devices], *PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities, CAP_BANDING_SUPPORT, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], PSILO_DRIVER_CAPABILITIES, _SILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SILO_DRIVER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # _SILO_DRIVER_CAPABILITIES structure
@@ -71,12 +71,12 @@ typedef struct _SILO_DRIVER_CAPABILITIES {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure. This is set to <b>sizeof</b>(SILO_DRIVER_CAPABILITIES).
 
 
-### -field Capabilities
+#### - Capabilities
 
 Capability flags for the silo driver. This is a bitwise OR combination of the following.
 <table>
@@ -107,17 +107,17 @@ The silo driver supports banding of LBA ranges.
 </table> 
 
 
-### -field MaxLbaFilterCount
+#### - MaxLbaFilterCount
 
 Maximum number of LBA filter entries the silo driver can provide in a <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
 
-### -field RedirectedIoctlListCount
+#### - RedirectedIoctlListCount
 
 The number of redirected IOCTLs in the list following this structure.
 
 
-### -field RedirectedIoctlListOffset
+#### - RedirectedIoctlListOffset
 
 The offset of the redirected IOCTL list from the beginning of this structure. This will typically be <b>sizeof</b>(SILO_DRIVER_CAPABILITIES).
 
@@ -133,11 +133,11 @@ To receive band management requests from the enhanced storage class driver, a si
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
 
  
 

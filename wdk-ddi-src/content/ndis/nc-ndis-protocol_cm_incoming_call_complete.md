@@ -78,20 +78,20 @@ VOID ProtocolCmIncomingCallComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Indicates the final status of the operation to dispatch an incoming call to a connection-oriented
      client.
 
 
-### -param CallMgrVcContext [in]
+#### - CallMgrVcContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle from its 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-### -param CallParameters [in]
+#### - CallParameters [in]
 
 Pointer to the call parameters as specified by the call manager in the call to 
      <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>.
@@ -157,11 +157,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
  
 

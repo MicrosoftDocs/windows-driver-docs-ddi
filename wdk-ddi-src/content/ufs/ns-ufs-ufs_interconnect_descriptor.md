@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C6EAA96-40E9-467F-903B-AE44CE5B77CF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PUFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR, ufs/PUFS_INTERCONNECT_DESCRIPTOR, storage.ufs_interconnect_descriptor, ufs/UFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices]
+ms.keywords: UFS_INTERCONNECT_DESCRIPTOR, storage.ufs_interconnect_descriptor, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], ufs/PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], PUFS_INTERCONNECT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _UFS_INTERCONNECT_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-### -field bDescriptorIDN
+#### - bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_INTERCONNECT_IDN</b>.
 
 
-### -field bcdUniproVersion
+#### - bcdUniproVersion
 
 Specifies the MIPI UniPro℠ version number in Binary Coded Decimal (BCD) format.
 
 
-### -field bcdMphyVersion
+#### - bcdMphyVersion
 
 Specifies the MIPI M-PHY® version number in BCD format.
 

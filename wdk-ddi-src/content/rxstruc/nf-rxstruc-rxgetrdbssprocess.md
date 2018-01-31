@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d3717c2-c809-48b9-a84b-1e69a04b767e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, rxstruc/RxGetRDBSSProcess, RxGetRDBSSProcess function [Installable File System Drivers], ifsk.rxgetrdbssprocess, RxGetRDBSSProcess
+ms.keywords: rxstruc/RxGetRDBSSProcess, ifsk.rxgetrdbssprocess, RxGetRDBSSProcess function [Installable File System Drivers], rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, RxGetRDBSSProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,9 +83,9 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxdriverentry.md">RxDriverEntry</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxdriverentry.md">RxDriverEntry</a>
 
  
 

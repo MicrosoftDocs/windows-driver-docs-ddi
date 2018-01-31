@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSENSOR_CONFIG, sensors.sensor_config, SENSOR_CONFIG, _SENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], PSENSOR_CONFIG structure pointer [Sensor Devices], *PSENSOR_CONFIG, sensorscx/PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG
+ms.keywords: SENSOR_CONFIG, sensorscx/PSENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], *PSENSOR_CONFIG, PSENSOR_CONFIG, sensors.sensor_config, PSENSOR_CONFIG structure pointer [Sensor Devices], sensorscx/SENSOR_CONFIG, _SENSOR_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _SENSOR_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The allocated size of this structure (in bytes).
 
 
-### -field pEnumerationList
+#### - pEnumerationList
 
 The list of enumerations. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
 

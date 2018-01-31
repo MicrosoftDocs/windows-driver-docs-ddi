@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76a1294f-d098-4751-9b59-923993379c6e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, netvista.ndisretreatnetbufferlistdatastart, ndis/NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista], netvista.ndisretreatnetbufferlistdatastart, NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, ndis/NdisRetreatNetBufferListDataStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,26 +76,26 @@ NDIS_STATUS NdisRetreatNetBufferListDataStart(
 
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
 
-### -param DataOffsetDelta [in]
+#### - DataOffsetDelta [in]
 
 The amount of additional 
      <i>used data space</i> in each NET_BUFFER structure. If there is not enough 
      <i>unused data space</i> to satisfy the request, NDIS allocates more memory.
 
 
-### -param DataBackFill [in]
+#### - DataBackFill [in]
 
 If NDIS must allocate memory, this parameter specifies the amount of data space in addition to the
      value of the 
      <i>DataOffsetDelta</i> parameter to allocate.
 
 
-### -param AllocateMdlHandler [in, optional]
+#### - AllocateMdlHandler [in, optional]
 
 An optional entry point for an 
      <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a> function. If the caller
@@ -104,7 +104,7 @@ An optional entry point for an
      <i>NetAllocateMdl</i> to allocate an MDL and memory.
 
 
-### -param FreeMdlHandler [in, optional]
+#### - FreeMdlHandler [in, optional]
 
 An optional entry point for an 
      <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a> function. If the caller
@@ -188,22 +188,22 @@ Call the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferlistdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferListDataStart</b></mshelp:link>
+<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
+   NdisRetreatNetBufferDataStart</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
    NdisAdvanceNetBufferDataStart</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-   NdisRetreatNetBufferDataStart</b></mshelp:link>
+<mshelp:link keywords="netvista.ndisadvancenetbufferlistdatastart" tabindex="0"><b>
+   NdisAdvanceNetBufferListDataStart</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
 
  
 

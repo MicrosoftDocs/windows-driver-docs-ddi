@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ca73b7cf-56c0-4e83-8804-59f73fbd4714
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/RtlDelete, rtlref_637fb420-7027-4426-a4a0-7ae887ad1950.xml, RtlDelete routine [Installable File System Drivers], ifsk.rtldelete, RtlDelete
+ms.keywords: ntddk/RtlDelete, RtlDelete, ifsk.rtldelete, RtlDelete routine [Installable File System Drivers], rtlref_637fb420-7027-4426-a4a0-7ae887ad1950.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PRTL_SPLAY_LINKS RtlDelete(
 
 
 
-### -param Links [in]
+#### - Links [in]
 
 Pointer to the node to be deleted. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
@@ -94,13 +94,13 @@ Callers of <b>RtlDelete</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 <a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
 <a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
 <a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
  
 

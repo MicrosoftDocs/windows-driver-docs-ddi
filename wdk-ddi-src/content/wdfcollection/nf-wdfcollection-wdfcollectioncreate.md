@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b185b1ca-6fd9-4508-b001-d1853f2948c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcollection/WdfCollectionCreate, DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, wdf.wdfcollectioncreate, kmdf.wdfcollectioncreate, WdfCollectionCreate, WdfCollectionCreate method, PFN_WDFCOLLECTIONCREATE
+ms.keywords: WdfCollectionCreate, DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, kmdf.wdfcollectioncreate, WdfCollectionCreate method, PFN_WDFCOLLECTIONCREATE, wdf.wdfcollectioncreate, wdfcollection/WdfCollectionCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfCollectionCreate(
 
 
 
-### -param CollectionAttributes [in, optional]
+#### - CollectionAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Collection [out]
+#### - Collection [out]
 
 A pointer to a location that receives a handle to the new collection object.
 
@@ -134,9 +134,9 @@ For more information about object collections, see <a href="https://docs.microso
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
 

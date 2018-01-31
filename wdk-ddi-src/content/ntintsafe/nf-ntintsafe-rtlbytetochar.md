@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A571B2C7-F97E-4717-AA22-D25DE47469E8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlByteToChar, RtlByteToChar, kernel.rtlbytetochar, RtlByteToChar function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlByteToChar function [Kernel-Mode Driver Architecture], RtlByteToChar, ntintsafe/RtlByteToChar, kernel.rtlbytetochar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlByteToChar(
 
 
 
-### -param bOperand [in]
+#### - bOperand [in]
 
 The value to be converted.
 
 
-### -param pch [out]
+#### - pch [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

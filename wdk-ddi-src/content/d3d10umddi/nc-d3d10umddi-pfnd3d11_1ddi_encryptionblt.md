@@ -40,7 +40,7 @@ apiname:
 -	EncryptionBlt
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_ENCRYPTIONBLT callback
@@ -75,41 +75,42 @@ VOID APIENTRY* EncryptionBlt(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hCryptoSession [in]
+#### - hCryptoSession [in]
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
-### -param hSrcResource [in]
+#### - hSrcResource [in]
 
 A handle to the resource that contains the source data.
 
 
-### -param hDstResource [in]
+#### - hDstResource [in]
 
 A pointer to the resource where the encrypted data is to be written.
 
 
 
 
-### -param IVSize [in]
+#### - IVSize [in]
 
 The size, in bytes, of the initialization vector (IV).
 
 
-### -param *pIV
+#### - *pIV [in]
+
+A pointer to a block of memory that contains the initialization vector that is required to encrypt the bitblt data. For more information, see the Remarks section.
+<div class="alert"><b>Note</b>  <p class="note">If <i>pIV</i> is NULL, the graphics adapter does not require a separate initialization vector to encrypt the data. That is, the session key is used to encrypt the data. 
 
 
-
-
-
+</div><div> </div>
 
 #### - pIV [in]
 

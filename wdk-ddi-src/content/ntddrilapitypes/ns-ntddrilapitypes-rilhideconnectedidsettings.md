@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a0445969-b4b5-43f3-a8dc-a8d61bf44d94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILHIDECONNECTEDIDSETTINGS, *LPRILHIDECONNECTEDIDSETTINGS, netvista.rilhideconnectedidsettings
+ms.keywords: netvista.rilhideconnectedidsettings, RILHIDECONNECTEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILHIDECONNECTEDIDSETTINGS {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwStatus
+#### - dwStatus
 
 
 
-### -field dwProvisioning
+#### - dwProvisioning
 
 

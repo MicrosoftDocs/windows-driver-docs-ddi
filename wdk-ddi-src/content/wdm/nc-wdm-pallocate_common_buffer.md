@@ -40,7 +40,7 @@ apiname:
 -	AllocateCommonBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ PVOID AllocateCommonBuffer(
 
 
 
-### -param DmaAdapter [in]
+#### - DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes of memory to allocate.
 
 
-### -param LogicalAddress [out]
+#### - LogicalAddress [out]
 
 Pointer to a variable that receives the logical address the device can use to access the allocated buffer. Use this address rather than calling <a href="..\ntddk\nf-ntddk-mmgetphysicaladdress.md">MmGetPhysicalAddress</a> because the system can take into account any platform-specific memory restrictions.
 
 
-### -param CacheEnabled [in]
+#### - CacheEnabled [in]
 
 Specifies whether the allocated memory can be cached.
 
@@ -140,9 +140,9 @@ Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, d
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 <a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
 

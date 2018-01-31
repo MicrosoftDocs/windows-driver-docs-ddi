@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: daef347a-26d4-46cf-82b4-a5852fe49b71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PDXGK_CHILD_DEVICE_HPD_AWARENESS, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], d3dkmdt/HpdAwarenessInterruptible, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], HpdAwarenessUninitialized, d3dkmdt/HpdAwarenessAlwaysConnected, _DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessPolled, HpdAwarenessNone, DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessUninitialized, display.dxgk_child_device_hpd_awareness, HpdAwarenessAlwaysConnected, PDXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessInterruptible, HpdAwarenessPolled, d3dkmdt/HpdAwarenessNone"
+ms.keywords: "_DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessInterruptible, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, d3dkmdt/HpdAwarenessPolled, d3dkmdt/HpdAwarenessAlwaysConnected, d3dkmdt/HpdAwarenessNone, HpdAwarenessAlwaysConnected, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS, display.dxgk_child_device_hpd_awareness, d3dkmdt/HpdAwarenessUninitialized, DXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessNone, *PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessInterruptible, PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessUninitialized, HpdAwarenessPolled"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_CHILD_DEVICE_HPD_AWARENESS
 product: Windows
 targetos: Windows
-req.typenames: DXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS
+req.typenames: "*PDXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS"
 ---
 
 # _DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration
@@ -71,27 +71,27 @@ typedef enum _DXGK_CHILD_DEVICE_HPD_AWARENESS {
 
 
 
-### -field HpdAwarenessUninitialized
+#### - HpdAwarenessUninitialized
 
 Indicates that a variable of type DXGK_CHILD_DEVICE_HPD_AWARENESS has not yet been assigned a meaningful value.
 
 
-### -field HpdAwarenessAlwaysConnected
+#### - HpdAwarenessAlwaysConnected
 
 Indicates that the child device is always connected; that is, it does not serve as a connector for external devices.
 
 
-### -field HpdAwarenessNone
+#### - HpdAwarenessNone
 
 Reserved for system use. You should not use this value.
 
 
-### -field HpdAwarenessPolled
+#### - HpdAwarenessPolled
 
 Indicates that the display miniport driver is able to determine whether an external device is connected to the child device by polling the child device.
 
 
-### -field HpdAwarenessInterruptible
+#### - HpdAwarenessInterruptible
 
 Indicates that the child device is able to generate an interrupt when an external device is connected or disconnected.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5F1606D8-1E6F-494F-AE70-07A1EC1FEA47
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_i2c_resource
+ms.keywords: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, kernel.pep_acpi_initialize_spb_i2c_resource, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function
@@ -77,27 +77,27 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE(
 
 
 
-### -param SlaveAddress [in]
+#### - SlaveAddress [in]
 
 The I2C bus address for this connection.
 
 
-### -param DeviceInitiated [in]
+#### - DeviceInitiated [in]
 
 If true, indicates that communication over this connection is initiated by the device.
 
 
-### -param ConnectionSpeed [in]
+#### - ConnectionSpeed [in]
 
 The maximum speed, in hertz, supported by this connection.
 
 
-### -param AddressingMode [in]
+#### - AddressingMode [in]
 
 Indicates that this device is in addressing mode.
 
 
-### -param ResourceSource [in]
+#### - ResourceSource [in]
 
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
@@ -105,32 +105,32 @@ qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
 
-### -param ResourceSourceIndex [in]
+#### - ResourceSourceIndex [in]
 
 This parameter should always be set to zero.
 
 
-### -param ResourceUsage [in]
+#### - ResourceUsage [in]
 
 Indicates if the resource is in use.
 
 
-### -param SharedMode [in]
+#### - SharedMode [in]
 
 Indicates if the resource is shared.
 
 
-### -param VendorData [in]
+#### - VendorData [in]
 
 A pointer to optional data that is specific to the serial bus connection type.
 
 
-### -param VendorDataLength [in]
+#### - VendorDataLength [in]
 
 The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_i2c_resource.md">PEP_ACPI_SPB_I2C_RESOURCE</a>.
 

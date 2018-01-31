@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, IPrintReadStream, IPrintReadStream interface [Print Devices], ReadBytes method, ReadBytes method [Print Devices], print.iprintreadstream_readbytes, ReadBytes, filterpipeline/IPrintReadStream::ReadBytes, ReadBytes method [Print Devices], IPrintReadStream interface
+ms.keywords: ReadBytes, ReadBytes method [Print Devices], print.iprintreadstream_readbytes, filterpipeline/IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, IPrintReadStream::ReadBytes, ReadBytes method [Print Devices], IPrintReadStream interface, IPrintReadStream interface [Print Devices], ReadBytes method, IPrintReadStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT ReadBytes(
 
 
 
-### -param pvBuffer [out]
+#### - pvBuffer [out]
 
 A pointer to the buffer that the bytes will be read into..
 
 
-### -param cbRequested [in]
+#### - cbRequested [in]
 
 The number of bytes that are requested for the read.
 
 
-### -param pcbRead [out]
+#### - pcbRead [out]
 
 A pointer to the number of bytes actually read.
 
 
-### -param pbEndOfFile [out]
+#### - pbEndOfFile [out]
 
 A pointer to a <b>BOOL</b> value that indicates whether the end of file (EOF) was read.
 

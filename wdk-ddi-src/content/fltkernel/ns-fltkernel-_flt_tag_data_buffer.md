@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a101e0c8-7121-42b6-aa0e-299f37af8e47
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/PFLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, _FLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], PFLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers]
+ms.keywords: FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER, FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, ifsk.flt_tag_data_buffer, _FLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], fltkernel/PFLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -183,17 +183,17 @@ typedef struct _FLT_TAG_DATA_BUFFER {
  
 
 
-### -field FileTag
+#### - FileTag
 
 Reparse point tag. 
 
 
-### -field TagDataLength
+#### - TagDataLength
 
 Size, in bytes, of the reparse data pointed to by the <b>DataBuffer</b> member.
 
 
-### -field UnparsedNameLength
+#### - UnparsedNameLength
 
 Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object.  For more information about the <b>FileName</b> member, see <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
 
@@ -304,11 +304,11 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 <a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
 
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
  
 

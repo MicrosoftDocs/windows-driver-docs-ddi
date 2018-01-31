@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a39b7cb-cd05-4fb8-9e50-7425e689a36f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSFASTPROPERTY_ITEM structure [Streaming Media Devices], ks/PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM, ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, PKSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM, ks/KSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], stream.ksfastproperty_item
+ms.keywords: ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, ks/KSFASTPROPERTY_ITEM, ks/PKSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], *PKSFASTPROPERTY_ITEM, stream.ksfastproperty_item, PKSFASTPROPERTY_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSFASTPROPERTY_ITEM
 product: Windows
 targetos: Windows
-req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
+req.typenames: "*PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM"
 ---
 
 # KSFASTPROPERTY_ITEM structure
@@ -76,32 +76,32 @@ typedef struct {
 
 
 
-### -field GetPropertyHandler
+#### - GetPropertyHandler
 
 Points to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a> routine that specifies the fast handler for retrieving the property. If this is <b>NULL</b>, the property cannot be read with a fast handler.
 
 
-### -field GetSupported
+#### - GetSupported
 
 A boolean value that indicates if the driver has supplied a get property handler.
 
 
-### -field SetPropertyHandler
+#### - SetPropertyHandler
 
 Points to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a> routine that specifies the fast handler for setting the property. If this is <b>NULL</b>, the property cannot be set with a fast handler.
 
 
-### -field SetSupported
+#### - SetSupported
 
 A boolean value that indicates if the driver has supplied a set property handler.
 
 
-### -field PropertyId
+#### - PropertyId
 
 Specifies the identifier of the specific property within the set.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved and set to zero.
 

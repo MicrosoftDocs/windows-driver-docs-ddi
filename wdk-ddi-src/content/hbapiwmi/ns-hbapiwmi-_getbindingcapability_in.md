@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd4046db-f9f5-4c9e-8886-29504c727f67
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_GetBindingCapability_IN, GetBindingCapability_IN structure [Storage Devices], hbapiwmi/GetBindingCapability_IN, structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml, PGetBindingCapability_IN structure pointer [Storage Devices], GetBindingCapability_IN, *PGetBindingCapability_IN, storage.getbindingcapability_in, PGetBindingCapability_IN, hbapiwmi/PGetBindingCapability_IN"
+ms.keywords: "_GetBindingCapability_IN, GetBindingCapability_IN, hbapiwmi/PGetBindingCapability_IN, structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml, *PGetBindingCapability_IN, storage.getbindingcapability_in, PGetBindingCapability_IN structure pointer [Storage Devices], PGetBindingCapability_IN, hbapiwmi/GetBindingCapability_IN, GetBindingCapability_IN structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _GetBindingCapability_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a worldwide name that indicates the port whose persistent bindings are to be retrieved. 
 

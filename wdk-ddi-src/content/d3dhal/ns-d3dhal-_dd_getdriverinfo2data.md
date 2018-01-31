@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f1b3e432-6972-49ff-9fce-b642c1be17ea
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DD_GETDRIVERINFO2DATA, display.dd_getdriverinfo2data, DD_GETDRIVERINFO2DATA structure [Display Devices], d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml, DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA"
+ms.keywords: DD_GETDRIVERINFO2DATA structure [Display Devices], d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml, DD_GETDRIVERINFO2DATA, display.dd_getdriverinfo2data, _DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _DD_GETDRIVERINFO2DATA {
 
 
 
-### -field dwReserved
+#### - dwReserved
 
 Specifies a reserved field. Driver should not read or write.
 
 
-### -field dwMagic
+#### - dwMagic
 
 Specifies the magic number. Has the value 
 	  D3DGDI2_MAGIC if this is a 
@@ -89,7 +89,7 @@ Specifies the magic number. Has the value
 	  call.
 
 
-### -field dwType
+#### - dwType
 
 Specifies the type of information requested, which can contain one of the following D3DGDI2_TYPE_<i>Xxx</i> 
 	values. Driver should only read (not write) this member.
@@ -335,7 +335,7 @@ Is used to query the driver for the number of
 </table> 
 
 
-### -field dwExpectedSize
+#### - dwExpectedSize
 
 Specifies the expected size, in bytes, of the information requested. Driver should only read (not write) this member.
 
@@ -420,35 +420,35 @@ DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+
 <a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>
 
 <a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_multisamplequalitylevelsdata.md">DD_MULTISAMPLEQUALITYLEVELSDATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
 
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
 <a href="..\d3dhal\ns-d3dhal-_dd_dxversion.md">DD_DXVERSION</a>
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
 
 <a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
-
-<a href="..\d3dhal\ns-d3dhal-_dd_multisamplequalitylevelsdata.md">DD_MULTISAMPLEQUALITYLEVELSDATA</a>
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551716">DD_STEREOMODE</a>
 
-<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
 
  
 

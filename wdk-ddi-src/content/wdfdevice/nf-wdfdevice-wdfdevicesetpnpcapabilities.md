@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fba8bc7d-b776-44e8-a4bf-12de707f2e4f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceSetPnpCapabilities, DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, kmdf.wdfdevicesetpnpcapabilities, WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities method, PFN_WDFDEVICESETPNPCAPABILITIES, wdf.wdfdevicesetpnpcapabilities
+ms.keywords: DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, kmdf.wdfdevicesetpnpcapabilities, wdfdevice/WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities method, wdf.wdfdevicesetpnpcapabilities, PFN_WDFDEVICESETPNPCAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfDeviceSetPnpCapabilities(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PnpCapabilities [in]
+#### - PnpCapabilities [in]
 
 A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md">WDF_DEVICE_PNP_CAPABILITIES</a> structure.
 

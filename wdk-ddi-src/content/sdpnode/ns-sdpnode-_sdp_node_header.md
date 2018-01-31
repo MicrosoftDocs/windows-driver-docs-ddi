@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2c756db7-b7a9-493a-8fb1-8bbc741f8c63
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PSDP_NODE_HEADER structure pointer [Bluetooth Devices], *PSDP_NODE_HEADER, PSDP_NODE_HEADER, sdpnode/SDP_NODE_HEADER, bltooth.sdp_node_header, sdpnode/PSDP_NODE_HEADER, _SDP_NODE_HEADER, bth_structs_9fc0ef9d-c505-4cd8-8ea7-78988215c68a.xml, SDP_NODE_HEADER structure [Bluetooth Devices], SDP_NODE_HEADER
+ms.keywords: "_SDP_NODE_HEADER, PSDP_NODE_HEADER structure pointer [Bluetooth Devices], SDP_NODE_HEADER structure [Bluetooth Devices], sdpnode/SDP_NODE_HEADER, PSDP_NODE_HEADER, bltooth.sdp_node_header, bth_structs_9fc0ef9d-c505-4cd8-8ea7-78988215c68a.xml, SDP_NODE_HEADER, sdpnode/PSDP_NODE_HEADER, *PSDP_NODE_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _SDP_NODE_HEADER {
 
 
 
-### -field Link
+#### - Link
 
 A linked-list structure that is used to link peer SDP record nodes when this structure is part of
      an 
@@ -81,14 +81,14 @@ A linked-list structure that is used to link peer SDP record nodes when this str
      <b>u.alternative</b> part of the individual SDP_NODE structure.
 
 
-### -field Type
+#### - Type
 
 The data type of the 
      <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a> union held in the 
      <b>u</b> member of the SDP_NODE structure.
 
 
-### -field SpecificType
+#### - SpecificType
 
 Extra information about the data type associated with the 
      <b>SDP_NODE_DATA</b> union that is associated with the SDP record element.
@@ -116,11 +116,11 @@ The header specifies the type of data. Driver developers can access links to pee
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
-
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 

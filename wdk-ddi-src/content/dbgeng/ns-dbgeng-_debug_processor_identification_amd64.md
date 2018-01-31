@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 71E28D54-19D2-4A62-9A63-633186F67AD5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, debugger.debug_processor_identification_amd64, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_AMD64, PDEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_AMD64
+ms.keywords: dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure pointer [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, debugger.debug_processor_identification_amd64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64, _DEBUG_PROCESSOR_IDENTIFICATION_AMD64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_AMD64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_PROCESSOR_IDENTIFICATION_AMD64
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64"
+req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFICATION_AMD64
 ---
 
 # _DEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure
@@ -70,22 +70,22 @@ typedef struct _DEBUG_PROCESSOR_IDENTIFICATION_AMD64 {
 
 
 
-### -field Family
+#### - Family
 
 The family of the processor.
 
 
-### -field Model
+#### - Model
 
 The model of the processor.
 
 
-### -field Stepping
+#### - Stepping
 
 The stepping value of the processor.
 
 
-### -field VendorString
+#### - VendorString
 
 A vendor specified string.
 

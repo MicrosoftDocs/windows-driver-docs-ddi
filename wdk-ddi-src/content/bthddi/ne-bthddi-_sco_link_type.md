@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 6867a88d-6bce-46eb-894a-cc034a1c3ece
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/ScoLinkType, SCO_LINK_TYPE, bthddi/eScoLinkType, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], *PSCO_LINK_TYPE, _SCO_LINK_TYPE, bltooth.sco_link_type, eScoLinkType, bthddi/SCO_LINK_TYPE, PSCO_LINK_TYPE, bthddi/PSCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], ScoLinkType
+ms.keywords: PSCO_LINK_TYPE, ScoLinkType, bthddi/eScoLinkType, bthddi/PSCO_LINK_TYPE, SCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], *PSCO_LINK_TYPE, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/ScoLinkType, SCO_LINK_TYPE enumeration [Bluetooth Devices], eScoLinkType, bltooth.sco_link_type, _SCO_LINK_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SCO_LINK_TYPE
 product: Windows
 targetos: Windows
-req.typenames: SCO_LINK_TYPE, *PSCO_LINK_TYPE
+req.typenames: "*PSCO_LINK_TYPE, SCO_LINK_TYPE"
 ---
 
 # _SCO_LINK_TYPE enumeration
@@ -69,12 +69,12 @@ typedef enum _SCO_LINK_TYPE {
 
 
 
-### -field ScoLinkType
+#### - ScoLinkType
 
 This value indicates that the link used by the connection is a SCO link.
 
 
-### -field eScoLinkType
+#### - eScoLinkType
 
 This value indicates that the link used by the connection is an eSCO link.
 

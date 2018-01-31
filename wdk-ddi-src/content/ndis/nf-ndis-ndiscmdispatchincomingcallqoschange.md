@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eee2625e-6dc8-4f54-81e9-2d31d25f62d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDispatchIncomingCallQoSChange, condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, ndis/NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], netvista.ndiscmdispatchincomingcallqoschange
+ms.keywords: condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, ndis/NdisCmDispatchIncomingCallQoSChange, netvista.ndiscmdispatchincomingcallqoschange, NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID NdisCmDispatchIncomingCallQoSChange(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle to the VC for which the change in QoS is being requested. The call manager
      originally obtained this handle either when it called 
@@ -79,7 +79,7 @@ Specifies the handle to the VC for which the change in QoS is being requested. T
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-### -param CallParameters [in]
+#### - CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the new
@@ -124,24 +124,24 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+<mshelp:link keywords="netvista.ndismcmdispatchincomingcallqoschange" tabindex="0"><b>
+   NdisMCmDispatchIncomingCallQoSChange</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
    ProtocolCoReceiveNetBufferLists</i></mshelp:link>
 
-<mshelp:link keywords="netvista.ndismcmdispatchincomingcallqoschange" tabindex="0"><b>
-   NdisMCmDispatchIncomingCallQoSChange</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
 <mshelp:link keywords="netvista.protocolclincomingcallqoschange" tabindex="0"><i>
    ProtocolClIncomingCallQosChange</i></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e36aba12-51fc-486c-a92c-47f72a4bcb0a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_video_present_target, D3DKMDT_VIDEO_PRESENT_TARGET structure [Display Devices], d3dkmdt/D3DKMDT_VIDEO_PRESENT_TARGET, D3DKMDT_VIDEO_PRESENT_TARGET, _D3DKMDT_VIDEO_PRESENT_TARGET, DmStructs_ef451c58-7ee5-4c52-9afe-9aab45114186.xml
+ms.keywords: d3dkmdt/D3DKMDT_VIDEO_PRESENT_TARGET, _D3DKMDT_VIDEO_PRESENT_TARGET, D3DKMDT_VIDEO_PRESENT_TARGET structure [Display Devices], DmStructs_ef451c58-7ee5-4c52-9afe-9aab45114186.xml, D3DKMDT_VIDEO_PRESENT_TARGET, display.d3dkmdt_video_present_target
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMDT_VIDEO_PRESENT_TARGET {
 
 
 
-### -field Id
+#### - Id
 
 An integer that uniquely identifies the video present target.
 
 
-### -field VideoOutputTechnology
+#### - VideoOutputTechnology
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a> enumerator that indicates the target's output technology (for example HD15, DVI, HDMI).
 
 
-### -field VideoOutputHpdAwareness
+#### - VideoOutputHpdAwareness
 
 A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_child_device_hpd_awareness.md">DXGK_CHILD_DEVICE_HPD_AWARENESS</a> enumeration that indicates the target's ability to detect that a monitor has been hot plugged or unplugged.
 
 
-### -field MonitorOrientationAwareness
+#### - MonitorOrientationAwareness
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_orientation_awareness.md">D3DKMDT_MONITOR_ORIENTATION_AWARENESS</a> enumerator that indicates the target's ability to detect that a connected monitor (or other display device) has been rotated.
 
 
-### -field SupportsSdtvModes
+#### - SupportsSdtvModes
 
 Indicates whether the video output supports standard definition TV (SDTV) modes.
 
@@ -109,13 +109,13 @@ For more information about video present targets, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_source.md">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_source.md">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
 
  
 

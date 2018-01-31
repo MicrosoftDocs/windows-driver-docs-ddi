@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db5ff69f-dcae-4016-a078-c8edb2390c6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCoActivateVcComplete, NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, netvista.ndismcoactivatevccomplete, NdisMCoActivateVcComplete
+ms.keywords: NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], netvista.ndismcoactivatevccomplete, ndis/NdisMCoActivateVcComplete, NdisMCoActivateVcComplete, condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisMCoActivateVcComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 
 
@@ -81,7 +81,7 @@ VOID NdisMCoActivateVcComplete(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
@@ -90,7 +90,7 @@ Specifies the handle identifying the VC. The caller obtained this handle from it
      MiniportCoActivateVc</i></mshelp:link> function.
 
 
-### -param CallParameters [in]
+#### - CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>, supplied by the call
@@ -136,16 +136,16 @@ A call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
-<mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
-   ProtocolCmActivateVcComplete</i></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+<mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
+   ProtocolCmActivateVcComplete</i></mshelp:link>
 
  
 

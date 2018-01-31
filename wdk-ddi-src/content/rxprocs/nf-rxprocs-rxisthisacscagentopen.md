@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b3bd9b9f-e859-4d7f-9735-5995cb3ef6e8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml, RxIsThisACscAgentOpen, ifsk.rxisthisacscagentopen, rxprocs/RxIsThisACscAgentOpen, RxIsThisACscAgentOpen function [Installable File System Drivers]
+ms.keywords: RxIsThisACscAgentOpen, rxprocs/RxIsThisACscAgentOpen, rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml, RxIsThisACscAgentOpen function [Installable File System Drivers], ifsk.rxisthisacscagentopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN RxIsThisACscAgentOpen(
 
 
 
-### -param RxContext [in]
+#### - RxContext [in]
 
 A pointer to the RX_CONTEXT structure.
 

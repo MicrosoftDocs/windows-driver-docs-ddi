@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netdma/NetDmaIsr, netvista.netdmaisr, NetDmaIsr function [Network Drivers Starting with Windows Vista]
+ms.keywords: netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr, netdma/NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], NetDmaIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaIsr
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaIsr function
@@ -73,7 +73,7 @@ VOID NetDmaIsr(
 
 
 
-### -param NetDmaChannelHandle [in]
+#### - NetDmaChannelHandle [in]
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
@@ -81,12 +81,12 @@ A handle that identifies the DMA channel. The DMA provider driver received this 
      ProviderAllocateDmaChannel</b></mshelp:link> function.
 
 
-### -param DmaDescriptor [in]
+#### - DmaDescriptor [in]
 
 The physical address of the DMA descriptor that is associated with the interrupt.
 
 
-### -param pCpuNumber [out]
+#### - pCpuNumber [out]
 
 The number of the CPU that is associated with the interrupt DPC. The NetDMA interface writes this
      CPU number at the provided address before 

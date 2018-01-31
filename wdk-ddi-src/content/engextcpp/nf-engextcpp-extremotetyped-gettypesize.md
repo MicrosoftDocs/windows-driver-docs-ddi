@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b681f00-6cec-4598-abee-e9a97bd53582
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::GetTypeSize, debugger.extremotetyped_gettypesize, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, GetTypeSize, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, GetTypeSize method [Windows Debugging], ExtRemoteTyped, EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml
+ms.keywords: GetTypeSize, debugger.extremotetyped_gettypesize, EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, GetTypeSize method [Windows Debugging], ExtRemoteTyped::GetTypeSize, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetTypeSize
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::GetTypeSize method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxRegisterCrashdumpDevice, kernel.pofxregistercrashdumpdevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], PoFxRegisterCrashdumpDevice
+ms.keywords: kernel.pofxregistercrashdumpdevice, wdm/PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS PoFxRegisterCrashdumpDevice(
 
 
 
-### -param Handle
+#### - Handle
 
 A handle that represents the registration of the crash-dump device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE0D4A9A-F85D-4AA4-8A21-1BEC86837444
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_selftestconfig, *PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], PGNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], gnssdriver/GNSS_SELFTESTCONFIG
+ms.keywords: GNSS_SELFTESTCONFIG structure [Sensor Devices], gnssdriver/PGNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG, gnssdriver/GNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, sensors.gnss_selftestconfig, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field TestType
+#### - TestType
 
 The type of self-test requested.
 
@@ -92,7 +92,7 @@ The type of self-test requested.
  
 
 
-### -field InBufLen
+#### - InBufLen
 
 The length of the buffer for passing in any additional information about the self-test.
 

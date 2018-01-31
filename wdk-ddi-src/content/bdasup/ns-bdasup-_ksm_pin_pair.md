@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a38e1215-4689-4b75-9a32-4d6570694b77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksm_pin_pair, PKSM_PIN_PAIR structure pointer [Streaming Media Devices], bdasup/KSM_PIN_PAIR, KSM_PIN_PAIR, KSM_PIN_PAIR structure [Streaming Media Devices], _KSM_PIN_PAIR, *PKSM_PIN_PAIR, bdasup/PKSM_PIN_PAIR, bdaref_4d2071d5-ba64-4026-95a9-0763dc2f13cf.xml, PKSM_PIN_PAIR
+ms.keywords: bdaref_4d2071d5-ba64-4026-95a9-0763dc2f13cf.xml, stream.ksm_pin_pair, bdasup/KSM_PIN_PAIR, bdasup/PKSM_PIN_PAIR, PKSM_PIN_PAIR structure pointer [Streaming Media Devices], *PKSM_PIN_PAIR, KSM_PIN_PAIR structure [Streaming Media Devices], PKSM_PIN_PAIR, KSM_PIN_PAIR, _KSM_PIN_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _KSM_PIN_PAIR {
 
 
 
-### -field Method
+#### - Method
 
 KSMETHOD structure that describes a method and request type of a method request.
 
 
-### -field InputPinId
+#### - InputPinId
 
 Identifier of an input pin of the filter.
 
 
-### -field OutputPinId
+#### - OutputPinId
 
 Identifier of an output pin of the filter.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
-
 <a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
  
 

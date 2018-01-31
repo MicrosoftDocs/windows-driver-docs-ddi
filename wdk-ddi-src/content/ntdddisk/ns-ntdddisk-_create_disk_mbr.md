@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: afc0e705-ae98-486b-82d3-4f21fca89e70
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Storage Devices], ntdddisk/CREATE_DISK_MBR, structs-disk_680fcaf9-080c-4e38-be53-ed9899539d9b.xml, PCREATE_DISK_MBR, *PCREATE_DISK_MBR, PCREATE_DISK_MBR structure pointer [Storage Devices], _CREATE_DISK_MBR, storage.create_disk_mbr
+ms.keywords: "_CREATE_DISK_MBR, structs-disk_680fcaf9-080c-4e38-be53-ed9899539d9b.xml, PCREATE_DISK_MBR structure pointer [Storage Devices], ntdddisk/PCREATE_DISK_MBR, ntdddisk/CREATE_DISK_MBR, *PCREATE_DISK_MBR, storage.create_disk_mbr, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Storage Devices], PCREATE_DISK_MBR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _CREATE_DISK_MBR {
 
 
 
-### -field Signature
+#### - Signature
 
 Specifies the disk signature value, which uniquely identifies the disk.
 

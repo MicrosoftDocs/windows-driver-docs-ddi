@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FC0F6C02-C53A-4F7E-B718-70788FA807F3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucxcontrollersetidstrings, UcxControllerSetIdStrings function [Buses], ucxcontroller/UcxControllerSetIdStrings, UcxControllerSetIdStrings
+ms.keywords: UcxControllerSetIdStrings, buses.ucxcontrollersetidstrings, UcxControllerSetIdStrings function [Buses], ucxcontroller/UcxControllerSetIdStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,17 +78,17 @@ NTSTATUS UcxControllerSetIdStrings(
 TBD
 
 
-### -param ManufacturerNameString [in]
+#### - ManufacturerNameString [in]
 
 A string that contains the name of controller manufacturer.
 
 
-### -param ModelNameString [in]
+#### - ModelNameString [in]
 
 A string that contains the name of device model.
 
 
-### -param ModelNumberString [in]
+#### - ModelNumberString [in]
 
 A string that contains the revision number of the device model.
 

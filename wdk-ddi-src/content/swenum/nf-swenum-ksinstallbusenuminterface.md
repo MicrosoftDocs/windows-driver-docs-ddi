@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d9703786-c46e-4466-a229-9ed0348cb45e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsInstallBusEnumInterface, KsInstallBusEnumInterface function [Streaming Media Devices], stream.ksinstallbusenuminterface, swenum/KsInstallBusEnumInterface, ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml
+ms.keywords: ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, KsInstallBusEnumInterface function [Streaming Media Devices], KsInstallBusEnumInterface, stream.ksinstallbusenuminterface, swenum/KsInstallBusEnumInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS KsInstallBusEnumInterface(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to an IRP that contains a SWENUM_INSTALL_INTERFACE structure that specifies the demand-load bus enumerator object interface to install. For information about this structure, see the Remarks section below.
 
@@ -92,9 +92,9 @@ The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INS
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
-
 <a href="..\swenum\ns-swenum-_swenum_install_interface.md">SWENUM_INSTALL_INTERFACE</a>
+
+<a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCLOCK_DISPATCH, stream.ksclock_dispatch, _KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], KSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], ks/KSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml
+ms.keywords: KSCLOCK_DISPATCH structure [Streaming Media Devices], PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], *PKSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, ks/KSCLOCK_DISPATCH, _KSCLOCK_DISPATCH, stream.ksclock_dispatch, KSCLOCK_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCLOCK_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: "*PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH"
+req.typenames: KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH
 ---
 
 # _KSCLOCK_DISPATCH structure
@@ -144,17 +144,17 @@ The function should be prototyped as follows:
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
  
 

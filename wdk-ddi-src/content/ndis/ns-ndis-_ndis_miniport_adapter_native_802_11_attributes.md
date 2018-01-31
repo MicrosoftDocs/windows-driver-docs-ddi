@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_miniport_adapter_native_802_11_attributes, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7b3396ce-7830-4b08-8df4-e0d8f49c7144.xml, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+ms.keywords: NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_adapter_native_802_11_attributes, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, Native_802.11_data_types_7b3396ce-7830-4b08-8df4-e0d8f49c7144.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES"
+req.typenames: NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 ---
 
 # _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure
@@ -82,7 +82,7 @@ typedef struct {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure. This
      member is formatted as an 
@@ -121,7 +121,7 @@ For later versions of the Windows operating systems, this member must be set to
         NDIS_SIZEOF_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES_REVISION_2.
 
 
-### -field OpModeCapability
+#### - OpModeCapability
 
 A bitmask of the miniport driver's supported operation modes. This bitmask is defined through the
      following:
@@ -153,7 +153,7 @@ Specifies that the miniport driver supports the Extensible Station (ExtSTA) oper
 Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
 
 
-### -field NumOfTXBuffers
+#### - NumOfTXBuffers
 
 The maximum number of media access control (MAC) service data unit (MSDU) packets that the 802.11
      station can hold in its transmit queue. The miniport driver must support a minimum transmit queue depth
@@ -164,25 +164,25 @@ The value of this member must not include the number of transmit buffers that th
      to send packets on its own, such as Beacon packets or 802.11 control packets.
 
 
-### -field NumOfRXBuffers
+#### - NumOfRXBuffers
 
 The maximum number of MSDU packets that the 802.11 station can buffer in its receive queue. The
      miniport driver must support a minimum receive queue depth of 64.
 
 
-### -field MultiDomainCapabilityImplemented
+#### - MultiDomainCapabilityImplemented
 
 A Boolean value that, if <b>TRUE</b>, specifies that the 802.11 station can operate in multiple
      regulatory domains. For more information about 802.11 regulatory domains, refer to the IEEE 802.11d-2001
      standard.
 
 
-### -field NumSupportedPhys
+#### - NumSupportedPhys
 
 The number of PHYs on the 802.11 station.
 
 
-### -field SupportedPhyAttributes
+#### - SupportedPhyAttributes
 
 A pointer to an array of 
      <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a> structures. This
@@ -203,7 +203,7 @@ A pointer to an array of
  
 
 
-### -field ExtSTAAttributes
+#### - ExtSTAAttributes
 
 A pointer to a 
      <a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a> structure
@@ -213,7 +213,7 @@ A pointer to a
      Mode</mshelp:link>.
 
 
-### -field VWiFiAttributes
+#### - VWiFiAttributes
 
 A pointer to a 
       <a href="..\windot11\ns-windot11-dot11_vwifi_attributes.md">DOT11_VWIFI_ATTRIBUTES</a> structure
@@ -223,7 +223,7 @@ A pointer to a
 This member is available beginning with Windows 7.
 
 
-### -field ExtAPAttributes
+#### - ExtAPAttributes
 
 A pointer to a 
       <a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a> structure
@@ -233,7 +233,7 @@ A pointer to a
 This member is available beginning with Windows 7.
 
 
-### -field WFDAttributes
+#### - WFDAttributes
 
 A pointer to a 
       <a href="..\windot11\ns-windot11-_dot11_wfd_attributes.md">DOT11_WFD_ATTRIBUTES</a> structure
@@ -284,20 +284,24 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-   Mode</mshelp:link>
-
-<a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
+<a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a>
 
 <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+<a href="..\windot11\ns-windot11-_dot11_wfd_attributes.md">DOT11_WFD_ATTRIBUTES</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+
+<a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
+
+<mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
+   Mode</mshelp:link>
 
 <mshelp:link keywords="netvista.native_802_11_miniport_driver_initialization" tabindex="0">Native 802.11 Miniport
    Driver Initialization</mshelp:link>
@@ -305,10 +309,6 @@ The
 <a href="..\windot11\ns-windot11-dot11_vwifi_attributes.md">DOT11_VWIFI_ATTRIBUTES</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\windot11\ns-windot11-_dot11_wfd_attributes.md">DOT11_WFD_ATTRIBUTES</a>
 
  
 

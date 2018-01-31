@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1801fc27-53bf-4ac5-be41-072dfd8b0696
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlCompareMemory, kernel.rtlcomparememory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, RtlCompareMemory
+ms.keywords: k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, wdm/RtlCompareMemory, RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], kernel.rtlcomparememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ SIZE_T RtlCompareMemory(
 
 
 
-### -param Source1 [in]
+#### - Source1 [in]
 
 A pointer to the first block of memory.
 
 
-### -param Source2 [in]
+#### - Source2 [in]
 
 A pointer to the second block of memory.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes to compare.
 

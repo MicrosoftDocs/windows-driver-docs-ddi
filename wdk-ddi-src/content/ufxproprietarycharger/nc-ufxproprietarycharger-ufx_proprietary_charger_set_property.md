@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
+req.typenames: "*PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef UFX_PROPRIETARY_CHARGER_SET_PROPERTY PFN_UFX_PROPRIETARY_CHARGER_SET_PRO
 
 
 
-### -param Context [in]
+#### - Context [in]
 
     A pointer to a driver-defined context.
 
 
-### -param Property [in]
+#### - Property [in]
 
     A pointer to a <b>CONFIGURABLE_CHARGER_PROPERTY_HEADER</b> structure (defined in charging.h) that describes the configurable charger property to set.
 

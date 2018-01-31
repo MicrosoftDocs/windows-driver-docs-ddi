@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismwritelogdata, ndis/NdisMWriteLogData, miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista]
+ms.keywords: miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, netvista.ndismwritelogdata, NdisMWriteLogData, ndis/NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,18 +71,18 @@ NDIS_STATUS NdisMWriteLogData(
 
 
 
-### -param LogHandle [in]
+#### - LogHandle [in]
 
 Specifies the handle returned by 
      <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>.
 
 
-### -param LogBuffer [in]
+#### - LogBuffer [in]
 
 Pointer to a driver-allocated buffer containing the information to be written.
 
 
-### -param LogBufferSize [in]
+#### - LogBufferSize [in]
 
 Specifies how many bytes of data to copy into the log file.
 
@@ -155,17 +155,17 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
-
 <a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
 <mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
    NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
+<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
+   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 

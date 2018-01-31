@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD1F59DA-3D84-422B-A862-8F4C5E1AA515
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_DEVICE_DESCRIPTOR structure [Storage Devices], PUFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR, storage.ufs_device_descriptor, ufs/PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], *PUFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR
+ms.keywords: "*PUFS_DEVICE_DESCRIPTOR, storage.ufs_device_descriptor, ufs/UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR structure [Storage Devices], PUFS_DEVICE_DESCRIPTOR, ufs/PUFS_DEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,17 +105,17 @@ typedef struct _UFS_DEVICE_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-### -field bDescriptorIDN
+#### - bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_DEVICE_IDN</b>.
 
 
-### -field bDevice
+#### - bDevice
 
 Specifies the device type.
 <table>
@@ -134,7 +134,7 @@ Specifies the device type.
 </table> 
 
 
-### -field bDeviceClass
+#### - bDeviceClass
 
 Specifies the device class.
 <table>
@@ -153,7 +153,7 @@ Specifies the device class.
 </table> 
 
 
-### -field bDeviceSubClass
+#### - bDeviceSubClass
 
 Specifies the UFS mass storage subclasses in a bit map as follows:
 <table>
@@ -180,7 +180,7 @@ Specifies the UFS mass storage subclasses in a bit map as follows:
 </table> 
 
 
-### -field bProtocol
+#### - bProtocol
 
 Specifies the protocol support by the UFS device.
 <table>
@@ -199,17 +199,17 @@ Specifies the protocol support by the UFS device.
 </table> 
 
 
-### -field bNumberLU
+#### - bNumberLU
 
 Specifies the number of Logical Units. This does not include the number of well known logical units.
 
 
-### -field bNumberWLU
+#### - bNumberWLU
 
 Specifies the number of well known logical units.
 
 
-### -field bBootEnable
+#### - bBootEnable
 
 Specifies if a device's boot feature is enabled.
 <table>
@@ -232,7 +232,7 @@ Specifies if a device's boot feature is enabled.
 </table> 
 
 
-### -field bDescrAccessEn
+#### - bDescrAccessEn
 
 Indicates whether the Device Descriptor can be
 read after the partial initialization phase of the
@@ -257,7 +257,7 @@ boot sequence.
 </table> 
 
 
-### -field bInitPowerMode
+#### - bInitPowerMode
 
 <b>bInitPowerMode</b> defines the Power Mode
 after device initialization or hardware reset.
@@ -281,13 +281,13 @@ after device initialization or hardware reset.
 </table> 
 
 
-### -field bHighPriorityLUN
+#### - bHighPriorityLUN
 
 <b>bHighPriorityLUN</b> defines the high priority
 logical unit.
 
 
-### -field bSecureRemovalType
+#### - bSecureRemovalType
 
 Specifies the secure removal type.
 <table>
@@ -324,7 +324,7 @@ define mechanism.</td>
 </table> 
 
 
-### -field bSecurityLU
+#### - bSecurityLU
 
 Specifies if there is support for security LU's
 <table>
@@ -347,7 +347,7 @@ Specifies if there is support for security LU's
 </table> 
 
 
-### -field bBackgroundOpsTermLat
+#### - bBackgroundOpsTermLat
 
 <b>bBackgroundOpsTermLat</b> defines the maximum latency for starting data transmission when background
 operations are ongoing. The termination latency limit applies to two cases:
@@ -358,72 +358,72 @@ transfer and send a DATA IN UPIU or a RTT UPIU within the latency limit.</li>
 expected to terminate background operations within the latency limit.</li>
 </ul>
 
-### -field bInitActiveICCLevel
+#### - bInitActiveICCLevel
 
 <b>bInitActiveICCLevel</b> defines the <b>bActiveICCLevel</b>
 value after power on or reset. The range of the value is from 0x00 to 0x0F. 
 
 
-### -field wSpecVersion
+#### - wSpecVersion
 
 Indicates the specification version in Binary Coded Decimal (BCD) format.
 
 
-### -field wManufactureDate
+#### - wManufactureDate
 
 Specifies the manufacturing date  in BCD format as 0xMMYY.
 
 
-### -field iManufacturerName
+#### - iManufacturerName
 
 Contains an index value to the string which contains the manufacturer's name.
 
 
-### -field iProductName
+#### - iProductName
 
 Contains an index value to the string which contains the product's name.
 
 
-### -field iSerialNumberID
+#### - iSerialNumberID
 
 Contains an index value to the string which contains the serial's number.
 
 
-### -field iOemID
+#### - iOemID
 
 Contains an index value to the string which contains the OEM ID.
 
 
-### -field wManufacturerID
+#### - wManufacturerID
 
 Specifies the Manufacturer ID of the device.
 
 
-### -field bUD0BaseOffset
+#### - bUD0BaseOffset
 
 Specifies the Offset of Unit Descriptor 0's configurable
 parameters within the Configuration
 Descriptor, <a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>.
 
 
-### -field bUDConfigPLength
+#### - bUDConfigPLength
 
 Total size of a <b>UFS_UNIT_CONFIG_DESCRIPTOR</b>'s
 parameters.
 
 
-### -field bDeviceRTTCap
+#### - bDeviceRTTCap
 
 Specifies the maximum number of outstanding READY TO TRANSFER UPIU'S
 supported by device. The minimum value is 2.
 
 
-### -field wPeriodicRTCUpdate
+#### - wPeriodicRTCUpdate
 
 Specifies the frequency and method of real-time clock updates. Bits 10 to 15 are reserved.
 
 
-### -field bUFSFeaturesSupport
+#### - bUFSFeaturesSupport
 
 Specifies which features are supported on this device. A feature is supported if its related bit is set to 1.
 <table>
@@ -450,7 +450,7 @@ Specifies which features are supported on this device. A feature is supported if
 </table> 
 
 
-### -field bFFUTimeout
+#### - bFFUTimeout
 
 The maximum time, in seconds, that access
 to the device is limited or not possible through
@@ -458,25 +458,25 @@ any ports associated due to execution of a
 WRITE BUFFER command.
 
 
-### -field bQueueDepth
+#### - bQueueDepth
 
 Specifies the queue depth. If this member is equal to 0, the device implements the per-LU
 queuing architecture.
 
 
-### -field wDeviceVersion
+#### - wDeviceVersion
 
 Specifies the device version.
 
 
-### -field bNumSecureWPArea
+#### - bNumSecureWPArea
 
 Specifies the total number of
 Secure Write Protect Areas supported by the
 device. The value of this member is between <b>bNumberLU</b> and 32
 
 
-### -field dPSAMaxDataSize
+#### - dPSAMaxDataSize
 
 Specifies the maximum
 amount of data that may be written during the
@@ -488,18 +488,18 @@ pre-soldering phase of the PSA flow.
  
 
 
-### -field iProductRevisionLevel
+#### - iProductRevisionLevel
 
 Specifies the index to the string which contains the Product
 Revision Level.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved for future use.
 
@@ -523,23 +523,23 @@ If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if t
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiReportLuns_OUT, iscsiop/ScsiReportLuns_OUT, *PScsiReportLuns_OUT, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml, _ScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], PScsiReportLuns_OUT, storage.scsireportluns_out, ScsiReportLuns_OUT structure [Storage Devices], iscsiop/PScsiReportLuns_OUT
+ms.keywords: iscsiop/PScsiReportLuns_OUT, *PScsiReportLuns_OUT, PScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], iscsiop/ScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], storage.scsireportluns_out, _ScsiReportLuns_OUT, ScsiReportLuns_OUT, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _ScsiReportLuns_OUT {
 
 
 
-### -field Status
+#### - Status
 
 The status of the <b>ScsiReportLuns</b> method. This member will contain 0 if the REPORT LUNS operation succeeds and ISDSC_SCSI_REQUEST_FAILED if the operation fails. If the REPORT LUNS operation fails, <b>ScsiStatus</b> will contain the SCSI status of the SCSI command. SCSI status qualifiers are documented in the <i>SCSI Primary Commands</i> specification. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.  
 
 
-### -field ResponseBufferSize
+#### - ResponseBufferSize
 
 The size, in bytes, of the buffer at <b>ResponseBuffer</b><i>.</i>
 
 
-### -field ScsiStatus
+#### - ScsiStatus
 
 The status of the SCSI REPORT LUNS command. 
 
 
-### -field SenseBuffer
+#### - SenseBuffer
 
 A buffer that holds the SCSI sense data that the SCSI REPORT LUNS command received. 
 
 
-### -field ResponseBuffer
+#### - ResponseBuffer
 
 A buffer that holds the response data that the SCSI REPORT LUNS command received. 
 
@@ -105,15 +105,15 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_scsireportluns_in.md">ScsiReportLuns_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
  
 

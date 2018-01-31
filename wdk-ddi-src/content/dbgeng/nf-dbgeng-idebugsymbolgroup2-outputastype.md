@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ab8c19c8-73c0-4c70-9a5d-9cf9d182157d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, dbgeng/IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, OutputAsType method [Windows Debugging], debugger.outputastype, IDebugSymbolGroup::OutputAsType, OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup2, IDebugSymbolGroup2::OutputAsType
+ms.keywords: ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup::OutputAsType, OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, dbgeng/IDebugSymbolGroup2::OutputAsType, OutputAsType, debugger.outputastype, dbgeng/IDebugSymbolGroup::OutputAsType, OutputAsType method [Windows Debugging], IDebugSymbolGroup interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OutputAsType(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the entry in this symbol group.  The <i>index</i> of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Type [in]
+#### - Type [in]
 
 The name of the type of the symbol that you want.  If the name begins with an exclamation mark (<b>!</b>), the name is treated as an extension.  For more information about how to use an extension as a type, see the Remarks section.
 
@@ -117,13 +117,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

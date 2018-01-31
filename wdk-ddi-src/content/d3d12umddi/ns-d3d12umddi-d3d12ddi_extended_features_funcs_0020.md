@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36AAD6F2-3220-4F9A-AA10-BA8D87948D09
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, display.d3d12ddi_extended_features_funcs_0020, d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, D3D12DDI_EXTENDED_FEATURES_FUNCS_0020 structure [Display Devices]
+ms.keywords: D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, display.d3d12ddi_extended_features_funcs_0020, D3D12DDI_EXTENDED_FEATURES_FUNCS_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3D12DDI_EXTENDED_FEATURES_FUNCS_0020 {
 
 
 
-### -field pfnGetSupportedExtendedFeatures
+#### - pfnGetSupportedExtendedFeatures
 
 A pointer for a callback function to get supported extended features.
 
 
-### -field pfnGetSupportedExtendedFeatureVersions
+#### - pfnGetSupportedExtendedFeatureVersions
 
 A pointer for a callback function to get the supported versions of extended features.
 
 
-### -field pfnEnableExtendedFeature
+#### - pfnEnableExtendedFeature
 
 A pointer for a callback function to enable an extended feature.
 

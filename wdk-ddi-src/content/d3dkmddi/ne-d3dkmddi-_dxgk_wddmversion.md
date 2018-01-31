@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKDDI_WDDMv2, DXGK_WDDMVERSION, _DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices], d3dkmddi/DXGK_WDDMVERSION, DXGKDDI_WDDMv1, display.dxgk_wddmversion, d3dkmddi/DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv2, DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, d3dkmddi/DXGKDDI_WDDMv1, DXGKDDI_WDDMv1_2
+ms.keywords: d3dkmddi/DXGK_WDDMVERSION, _DXGK_WDDMVERSION, display.dxgk_wddmversion, d3dkmddi/DXGKDDI_WDDMv1, DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, d3dkmddi/DXGKDDI_WDDMv2, DXGKDDI_WDDMv2, DXGKDDI_WDDMv1, DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv1_2, DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,7 +69,7 @@ typedef enum _DXGK_WDDMVERSION {
 
 
 
-### -field DXGKDDI_WDDMv1
+#### - DXGKDDI_WDDMv1
 
 Reserved for system use.
 
@@ -80,7 +80,7 @@ with the Windows 7 WDK (Version 7600), set the <b>WDDMVersion</b> member of the
 
 
 
-### -field DXGKDDI_WDDMv1_2
+#### - DXGKDDI_WDDMv1_2
 
 Supported beginning with Windows 8.
 
@@ -91,7 +91,7 @@ Reserved for system use.
 
 
 
-### -field DXGKDDI_WDDMv2
+#### - DXGKDDI_WDDMv2
 
 Reserved for system use.
 

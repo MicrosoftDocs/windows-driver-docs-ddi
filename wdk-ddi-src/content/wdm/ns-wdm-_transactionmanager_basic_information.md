@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bffa1bd2-143c-4d32-a886-0a2e82320dc8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PTRANSACTIONMANAGER_BASIC_INFORMATION, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION, wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml, kernel.transactionmanager_basic_information, TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_BASIC_INFORMATION, _TRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION"
+ms.keywords: TRANSACTIONMANAGER_BASIC_INFORMATION, wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.transactionmanager_basic_information, *PTRANSACTIONMANAGER_BASIC_INFORMATION, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION, ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml, _TRANSACTIONMANAGER_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSACTIONMANAGER_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION
+req.typenames: "*PTRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _TRANSACTIONMANAGER_BASIC_INFORMATION {
 
 
 
-### -field TmIdentity
+#### - TmIdentity
 
 A GUID that KTM has assigned to a transaction manager object.
 
 
-### -field VirtualClock
+#### - VirtualClock
 
 The <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">virtual clock value</a> that is currently associated with a transaction manager object.
 

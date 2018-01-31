@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 10084238-dfeb-42a5-9bf0-06cb9b4f440c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTGetMultisampleMethodList, D3DKMTGetMultisampleMethodList, display.d3dkmtgetmultisamplemethodlist, D3DKMTGetMultisampleMethodList function [Display Devices], OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml
+ms.keywords: D3DKMTGetMultisampleMethodList, d3dkmthk/D3DKMTGetMultisampleMethodList, D3DKMTGetMultisampleMethodList function [Display Devices], display.d3dkmtgetmultisamplemethodlist, OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4da1dcb-435d-4e32-8114-3b0ae4352000
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetCurrentThreadId, PsGetCurrentThreadId, PsGetCurrentThreadId routine [Kernel-Mode Driver Architecture], k108_eae0d8bf-f2fe-49dd-b3b7-6da9114f844a.xml, kernel.psgetcurrentthreadid
+ms.keywords: kernel.psgetcurrentthreadid, ntddk/PsGetCurrentThreadId, k108_eae0d8bf-f2fe-49dd-b3b7-6da9114f844a.xml, PsGetCurrentThreadId, PsGetCurrentThreadId routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,9 +75,9 @@ The <b>PsGetCurrentThreadId</b> routine returns the thread ID of the current thr
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
-
 <a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
 <a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 

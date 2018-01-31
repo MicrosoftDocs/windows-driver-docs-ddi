@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5b6a608-af1f-4030-b83a-a6f64ff3a264
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterioportrange, NdisMDeregisterIoPortRange, ndis/NdisMDeregisterIoPortRange, miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml
+ms.keywords: NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterioportrange, miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange, NdisMDeregisterIoPortRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,23 +73,23 @@ VOID NdisMDeregisterIoPortRange(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 Specifies the handle input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param InitialPort [in]
+#### - InitialPort [in]
 
 Specifies the bus-relative address of the first port in the range of ports.
 
 
-### -param NumberOfPorts [in]
+#### - NumberOfPorts [in]
 
 Specifies the number of ports in the range.
 
 
-### -param PortOffset [in]
+#### - PortOffset [in]
 
 Specifies the mapped base port address returned by 
      <b>NdisMRegisterIoPortRange</b>.
@@ -133,11 +133,11 @@ After it calls
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

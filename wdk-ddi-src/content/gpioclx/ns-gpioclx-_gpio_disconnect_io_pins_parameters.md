@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 79ABCF93-4EC3-49D5-9943-C820B0B8CF66
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_DISCONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_DISCONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], gpioclx/GPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO.gpio_disconnect_io_pins_parameters, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS, _GPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS
+ms.keywords: gpioclx/PGPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], GPIO_DISCONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], _GPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO.gpio_disconnect_io_pins_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GPIO_DISCONNECT_IO_PINS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: GPIO_DISCONNECT_IO_PINS_PARAMETERS, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS
+req.typenames: "*PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS"
 ---
 
 # _GPIO_DISCONNECT_IO_PINS_PARAMETERS structure
@@ -71,27 +71,27 @@ typedef struct _GPIO_DISCONNECT_IO_PINS_PARAMETERS {
 
 
 
-### -field BankId
+#### - BankId
 
 The identifier for the bank that contains the GPIO pins. If M is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
 
 
-### -field PinNumberTable
+#### - PinNumberTable
 
 A pointer to an array of PIN_NUMBER values. Each array element specifies the number of a GPIO pin to disconnect from. If the GPIO controller has N pins, the pins are numbered 0 to N–1. The number of elements in this array is specified by the <b>PinCount</b> member.
 
 
-### -field PinCount
+#### - PinCount
 
 The number of elements in the <b>PinNumberTable</b> array.
 
 
-### -field DisconnectMode
+#### - DisconnectMode
 
 Whether the GPIO pins in the connection that is being closed are configured as inputs or as outputs. The value of this member is <b>ConnectModeInput</b> for a read-only connection, <b>ConnectModeOutput</b> for a write-only connection, or (<b>ConnectModeInput</b> | <b>ConnectModeOutput</b>) for a read/write connection. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>.
 
 
-### -field DisconnectFlags
+#### - DisconnectFlags
 
 A set of flags that control how the GPIO pins are to be configured after they are closed. If the <b>PreserveConfiguration</b> flag bit is set, the GPIO controller driver preserves the configuration of the pins after they are disconnected. For more information, see Remarks.
 
@@ -109,13 +109,13 @@ For example, a peripheral device driver might open a logical connection to a GPI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
  
 

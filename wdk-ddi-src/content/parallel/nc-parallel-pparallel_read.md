@@ -71,27 +71,27 @@ typedef NTSTATUS ( *PPARALLEL_READ)(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a read buffer that the caller allocates.
 
 
-### -param NumBytesToRead [in]
+#### - NumBytesToRead [in]
 
 Specifies the number of bytes to read. Must less than or equal to the number of bytes in the caller-allocated read buffer.
 
 
-### -param NumBytesRead [out]
+#### - NumBytesRead [out]
 
 Specifies the number of bytes that were actually read from the parallel device and saved in the caller-allocated read buffer.
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 Not used.
 

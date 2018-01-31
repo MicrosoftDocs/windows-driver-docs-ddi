@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ad8dc740-c297-43e7-beb9-d93019955fd3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.mountmgr_drive_letter_information, MOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml, *PMOUNTMGR_DRIVE_LETTER_INFORMATION, _MOUNTMGR_DRIVE_LETTER_INFORMATION
+ms.keywords: MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml, _MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], storage.mountmgr_drive_letter_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MOUNTMGR_DRIVE_LETTER_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION
+req.typenames: "*PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION"
 ---
 
 # _MOUNTMGR_DRIVE_LETTER_INFORMATION structure
@@ -68,12 +68,12 @@ typedef struct _MOUNTMGR_DRIVE_LETTER_INFORMATION {
 
 
 
-### -field DriveLetterWasAssigned
+#### - DriveLetterWasAssigned
 
 Indicates when <b>TRUE</b> that member <b>CurrentDriveLetter</b> contains a drive letter. When <b>FALSE</b>, a driver letter was not assigned to the device. 
 
 
-### -field CurrentDriveLetter
+#### - CurrentDriveLetter
 
 Contains either an existing or a newly assigned drive letter in the form of a single ASCII character (for example, "D") if <b>DriveLetterWasAssigned</b> is <b>TRUE</b>. 
 

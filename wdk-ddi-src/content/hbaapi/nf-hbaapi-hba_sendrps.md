@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6a79896a-0591-40dd-8e2d-6e3796556564
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_SendRPS, HBA_SendRPS, storage.hba_sendrps, HBA_SendRPS routine [Storage Devices], fibreHBA_rtns_753d25be-cb77-4e65-ab1b-1f2b77d65ec8.xml
+ms.keywords: storage.hba_sendrps, HBA_SendRPS routine [Storage Devices], HBA_SendRPS, hbaapi/HBA_SendRPS, fibreHBA_rtns_753d25be-cb77-4e65-ab1b-1f2b77d65ec8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ HBA_STATUS HBA_API HBA_SendRPS(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the local HBA through which the request is sent. 
 
@@ -104,7 +104,7 @@ TBD
 TBD
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that receives the results of the RPS request, if the request succeeds. If the destination port or domain controller rejects the request, this buffer holds the link service reject (LS_RJT) payload data. If the amount of returned data exceeds the buffer size specified in <i>RspBufferSize</i>, the data is truncated to the buffer size<i>. </i>The payload data is in big-endian format (higher order bytes are in lower addresses). 
 
@@ -204,9 +204,9 @@ Returned if an unspecified error occurred that prevented the execution of the RP
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

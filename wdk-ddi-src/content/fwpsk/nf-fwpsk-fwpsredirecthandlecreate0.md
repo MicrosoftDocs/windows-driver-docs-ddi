@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], netvista.fwpsredirecthandlecreate0, fwpsk/FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0
+ms.keywords: FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0, FwpsRedirectHandleCreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS NTAPI FwpsRedirectHandleCreate0(
 
 
 
-### -param providerGuid
+#### - providerGuid
 
 The provider GUID.
 
 
-### -param flags
+#### - flags
 
 Reserved.  Set to zero.
 
 
-### -param redirectHandle
+#### - redirectHandle
 
 A pointer to the variable that receives the handle.
 
@@ -142,11 +142,11 @@ After a callout driver has finished using a redirect handle, it must call the <a
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a>
+
+<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
 
  
 

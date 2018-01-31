@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 6053f535-da9c-4f9d-885f-01f29cabd9ee
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure pointer [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpi.acpi_eval_input_buffer_complex_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure [ACPI Devices], acpi-meth-eval-ref_d66cba5a-75fb-4127-9f7f-d0ecf08c4b6e.xml"
+ms.keywords: acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure pointer [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, acpi.acpi_eval_input_buffer_complex_ex, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpi-meth-eval-ref_d66cba5a-75fb-4127-9f7f-d0ecf08c4b6e.xml, ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX"
+req.typenames: "*PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_EX"
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure
@@ -71,29 +71,29 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX {
 
 
 
-### -field Signature
+#### - Signature
 
 The signature of an extended complex input buffer, which must be set to ACPI_EVAL_INPUT_BUFFER_COMPLEX_SIGNATURE_EX. 
 
 
-### -field MethodName
+#### - MethodName
 
 A NULL-terminated ASCII string that contains the path and name of a control method in an ACPI namespace. The maximum number of characters that the string can contain, including a NULL terminator, is 256. 
 
 For more information about how to supply the path and name of a control method, see the Remarks section later in this topic.
 
 
-### -field Size
+#### - Size
 
 The number of bytes that the <b>Argument</b> array contains.
 
 
-### -field ArgumentCount
+#### - ArgumentCount
 
 The number of variable-length ACPI_METHOD_ARGUMENT structures that the <b>Argument</b> array contains. The <b>Argument</b> array can hold a maximum of seven argument structures.
 
 
-### -field Argument
+#### - Argument
 
 An array of ACPI_METHOD_ARGUMENT structures.
 
@@ -133,11 +133,11 @@ For more information about how to obtain the fully qualified path and name of a 
 
 ## -see-also
 
+<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
 
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
  
 

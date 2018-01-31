@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2f891543-0222-45c8-97cd-719ec5dd2fa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetAdditionalCacheAttributes, ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, CcSetAdditionalCacheAttributes routine [Installable File System Drivers], ntifs/CcSetAdditionalCacheAttributes, ifsk.ccsetadditionalcacheattributes
+ms.keywords: CcSetAdditionalCacheAttributes, ntifs/CcSetAdditionalCacheAttributes, CcSetAdditionalCacheAttributes routine [Installable File System Drivers], ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, ifsk.ccsetadditionalcacheattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID CcSetAdditionalCacheAttributes(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file.
 
 
-### -param DisableReadAhead [in]
+#### - DisableReadAhead [in]
 
 Set to <b>TRUE</b> to disable read-ahead, <b>FALSE</b> to enable it. The caller must specify a value for <i>DisableReadAhead</i> in each call to <b>CcSetAdditionalCacheAttributes</b>, even if a value was already specified in a previous call.
 
 
-### -param DisableWriteBehind [in]
+#### - DisableWriteBehind [in]
 
 Set to <b>TRUE</b> to disable write-behind, <b>FALSE</b> to enable it. The caller must specify a value for <i>DisableWriteBehind</i> in each call to <b>CcSetAdditionalCacheAttributes</b>, even if a value was already specified in a previous call.
 
@@ -100,11 +100,11 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
 
  
 

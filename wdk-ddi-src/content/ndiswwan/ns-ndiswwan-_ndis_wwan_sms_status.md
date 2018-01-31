@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ab05cae-6902-4150-9af3-52981ba820b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SMS_STATUS, ndiswwan/PNDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS, _NDIS_WWAN_SMS_STATUS, netvista.ndis_wwan_sms_status, WwanRef_7f7554d1-07d3-451b-b36c-0c03d589c6f8.xml, ndiswwan/NDIS_WWAN_SMS_STATUS, PNDIS_WWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndiswwan/NDIS_WWAN_SMS_STATUS, ndiswwan/PNDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_STATUS, WwanRef_7f7554d1-07d3-451b-b36c-0c03d589c6f8.xml, *PNDIS_WWAN_SMS_STATUS, netvista.ndis_wwan_sms_status, _NDIS_WWAN_SMS_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SMS_STATUS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS
+req.typenames: "*PNDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS"
 ---
 
 # _NDIS_WWAN_SMS_STATUS structure
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SMS_STATUS {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SMS_STATUS structure. The
      MB Service sets the header with the values that are shown in the following table when it sends the data
@@ -118,12 +118,12 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of the SMS operation.
 
 
-### -field SmsStatus
+#### - SmsStatus
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_sms_status.md">WWAN_SMS_STATUS</a> object that represents the

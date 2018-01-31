@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41560DC4-EE5E-4756-8540-ACC19835A9DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], PoFxPowerOnCrashdumpDevice, kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice
+ms.keywords: kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS PoFxPowerOnCrashdumpDevice(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle that represents the registration of the crash-dump device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 A pointer to a device-specific context. This pointer is passed as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a> callback routine that is implemented by the platform extension plug-in (PEP) for the device. The context information is stored in a format that is defined by the device driver and is understood by the PEP. This context is opaque to the operating system. The driver can set this parameter to NULL if the PEP does not require a context.
 

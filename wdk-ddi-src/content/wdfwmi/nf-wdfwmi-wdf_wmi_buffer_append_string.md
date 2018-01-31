@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_wmi_buffer_append_string, WDF_WMI_BUFFER_APPEND_STRING function, WDF_WMI_BUFFER_APPEND_STRING, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING, DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, wdf.wdf_wmi_buffer_append_string
+ms.keywords: WDF_WMI_BUFFER_APPEND_STRING, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING, DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, wdf.wdf_wmi_buffer_append_string, kmdf.wdf_wmi_buffer_append_string, WDF_WMI_BUFFER_APPEND_STRING function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WDF_WMI_BUFFER_APPEND_STRING(
 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a destination buffer that receives the string.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The length, in bytes, of the destination buffer that receives the string.
 
 
-### -param String [in]
+#### - String [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the string to be copied.
 
 
-### -param RequiredSize [out]
+#### - RequiredSize [out]
 
 A pointer to a location that receives the number of bytes that are required to store the specified string in the destination buffer.
 

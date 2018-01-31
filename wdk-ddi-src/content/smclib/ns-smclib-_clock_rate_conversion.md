@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: c3011034-c77c-4699-9c04-b1163faa79fc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CLOCK_RATE_CONVERSION structure [Smart Card Reader Devices], smartcrd.clock_rate_conversion, CLOCK_RATE_CONVERSION, PCLOCK_RATE_CONVERSION, scstruct_260d5a02-28d8-4ef4-ac2a-e81d3ac2814a.xml, _CLOCK_RATE_CONVERSION, smclib/PCLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION, smclib/CLOCK_RATE_CONVERSION, PCLOCK_RATE_CONVERSION structure pointer [Smart Card Reader Devices]
+ms.keywords: scstruct_260d5a02-28d8-4ef4-ac2a-e81d3ac2814a.xml, CLOCK_RATE_CONVERSION structure [Smart Card Reader Devices], PCLOCK_RATE_CONVERSION structure pointer [Smart Card Reader Devices], PCLOCK_RATE_CONVERSION, _CLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION, smclib/PCLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION, smclib/CLOCK_RATE_CONVERSION, smartcrd.clock_rate_conversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLOCK_RATE_CONVERSION
 product: Windows
 targetos: Windows
-req.typenames: CLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION
+req.typenames: "*PCLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _CLOCK_RATE_CONVERSION {
 
 
 
-### -field F
+#### - F
 
 Contains a value that calculates the elementary time unit (ETU). The ETU indicates the space of transmission time that is occupied by a single bit of data. For more information, see the <i>ISO 7816-3 Specification</i>. 
 
 
-### -field fs
+#### - fs
 
 Contains the maximum clock frequency that is allowed.  For more information, see the <i>ISO 7816-3 Specification</i>. 
 

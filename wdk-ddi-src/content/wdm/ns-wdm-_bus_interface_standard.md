@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cebe5b45-2a7a-4e33-aacb-5cc3ee112808
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PBUS_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], BUS_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], BUS_INTERFACE_STANDARD, wdm/PBUS_INTERFACE_STANDARD, wdm/BUS_INTERFACE_STANDARD, PBUS_INTERFACE_STANDARD, drvr_interface_fbfd342b-15f3-485b-98e4-513beb7db0f5.xml, kernel.bus_interface_standard, *PBUS_INTERFACE_STANDARD, _BUS_INTERFACE_STANDARD
+ms.keywords: PBUS_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], drvr_interface_fbfd342b-15f3-485b-98e4-513beb7db0f5.xml, BUS_INTERFACE_STANDARD, wdm/BUS_INTERFACE_STANDARD, _BUS_INTERFACE_STANDARD, PBUS_INTERFACE_STANDARD, wdm/PBUS_INTERFACE_STANDARD, *PBUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], kernel.bus_interface_standard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _BUS_INTERFACE_STANDARD {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Version
+#### - Version
 
 The driver-defined interface version.
 
 
-### -field Context
+#### - Context
 
 A pointer to interface-specific context information.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
-### -field TranslateBusAddress
+#### - TranslateBusAddress
 
 A pointer to a <a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a> routine that translates addresses on the parent bus to logical addresses.
 
 
-### -field GetDmaAdapter
+#### - GetDmaAdapter
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/gg604851">GetDmaAdapter</a> routine that returns a DMA adapter structure (<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>) for the target device.
 
 
-### -field SetBusData
+#### - SetBusData
 
 A pointer to a <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine that writes data to the device's configuration space.
 
 
-### -field GetBusData
+#### - GetBusData
 
 A pointer to a <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine that reads data from the device's configuration space.
 
@@ -152,33 +152,33 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
 
 <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
-
-<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-
-<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE_CONFIG </a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
-<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg604851">GetDmaAdapter</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE_CONFIG </a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+
+<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
 
  
 

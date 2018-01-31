@@ -79,13 +79,13 @@ typedef NPI_PROVIDER_ATTACH_CLIENT_FN * PNPI_PROVIDER_ATTACH_CLIENT_FN;
 
 
 
-### -param NmrBindingHandle [in]
+#### - NmrBindingHandle [in]
 
 A handle used by the NMR to represent the binding between the client module and the provider
      module.
 
 
-### -param ProviderContext [in]
+#### - ProviderContext [in]
 
 A pointer to the provider module's registration context. The provider module passes this pointer
      to the NMR when it calls the 
@@ -93,7 +93,7 @@ A pointer to the provider module's registration context. The provider module pas
      register itself with the NMR.
 
 
-### -param ClientRegistrationInstance [in]
+#### - ClientRegistrationInstance [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.npi_registration_instance" tabindex="0"><b>
@@ -101,7 +101,7 @@ A pointer to an
      data.
 
 
-### -param ClientBindingContext [in]
+#### - ClientBindingContext [in]
 
 A pointer to the client module's context for the binding between the client module and the
      provider module. The client module uses this context to keep track of the state of the binding. The
@@ -111,19 +111,36 @@ A pointer to the client module's context for the binding between the client modu
      require the client module's binding context.
 
 
-### -param *ClientDispatch
+#### - *ClientDispatch [in]
+
+A pointer to a constant structure that contains the dispatch table of 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
+     client module. The contents of the structure are 
+     NPI-specific. If the 
+     NPI does not define a client
+     dispatch table structure, then this pointer is <b>NULL</b>.
 
 
+#### - *ProviderBindingContext [out]
 
-### -param *ProviderBindingContext
+A pointer to a variable into which the provider module will store a pointer to its context for the
+     binding between the client module and the provider module. The provider module uses this context to keep
+     track of the state of the binding. The contents of the provider module's binding context are opaque to
+     the client module. The client module passes this pointer to the provider module whenever it calls one of
+     the provider module's 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
+     provider module's binding context. The provider module must make sure that this context remains valid
+     and resident in memory as long as the client module is attached to the provider module.
 
 
+#### - **ProviderDispatch [out]
 
-### -param **ProviderDispatch
-
-
-
-
+A pointer to a variable into which the provider module will store a pointer to a constant
+     structure that contains the dispatch table of 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
+     module. The provider module must make sure that this structure remains valid and resident in memory as
+     long as the client module is attached to the provider module. The contents of the structure are 
+     NPI-specific.
 
 
 #### - ClientDispatch [in]
@@ -259,19 +276,19 @@ The NMR calls a provider module's
 
 <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
-
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
 <mshelp:link keywords="netvista.nmrproviderdetachclientcomplete" tabindex="0"><b>
    NmrProviderDetachClientComplete</b></mshelp:link>
 
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
 <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
    ProviderCleanupBindingContext</i></mshelp:link>
+
+<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket, print.iprintschematicket_notifyxmlchanged, NotifyXmlChanged method [Print Devices], printerextension/IPrintSchemaTicket::NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged
+ms.keywords: NotifyXmlChanged method [Print Devices], IPrintSchemaTicket::NotifyXmlChanged, IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method, NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, printerextension/IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, print.iprintschematicket_notifyxmlchanged, IPrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,9 +90,9 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
-
 <a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
+
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
  
 

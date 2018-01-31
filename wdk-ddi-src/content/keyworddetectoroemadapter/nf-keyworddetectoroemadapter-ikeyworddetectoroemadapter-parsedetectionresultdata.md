@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97C92A85-BE00-4B95-80D1-20FE7A31BCA9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ParseDetectionResultData method [Audio Devices], IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], ParseDetectionResultData method, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, audio.ikeyworddetectoroemadapter_parsedetectionresultdata
+ms.keywords: IKeywordDetectorOemAdapter, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter::ParseDetectionResultData, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData, IKeywordDetectorOemAdapter interface [Audio Devices], ParseDetectionResultData method, ParseDetectionResultData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,23 +78,23 @@ HRESULT ParseDetectionResultData(
 
 
 
-### -param Result [in]
+#### - Result [in]
 
 A pointer to the <a href="..\ksmedia\ns-ksmedia-sounddetector_patternheader.md">SOUNDDETECTOR_PATTERNHEADER</a> from the DDI.
 
 
 
-### -param KeywordId [out]
+#### - KeywordId [out]
 
 Identifies a keyword function. The driver may return 0 to indicate no match.
 
 
-### -param LangId [out]
+#### - LangId [out]
 
 Identifies a language.
 
 
-### -param pIsUserMatch [out]
+#### - pIsUserMatch [out]
 
 Indicates if the user matched.
 
@@ -213,17 +213,17 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
-
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946533">IMiniportWaveRTInputStream::GetReadPacket</a>
 
 <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
 
 <a href="..\ksmedia\ns-ksmedia-sounddetector_patternheader.md">SOUNDDETECTOR_PATTERNHEADER</a>
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+
+<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
 
  
 

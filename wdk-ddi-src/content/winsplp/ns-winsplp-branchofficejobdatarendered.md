@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67A296B3-5D59-475E-9026-EDAB90C8E3DD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], BranchOfficeJobDataRendered structure [Print Devices], *PBranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered, print.branchofficejobdatarendered, winsplp/BranchOfficeJobDataRendered
+ms.keywords: "*PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, print.branchofficejobdatarendered, PBranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], winsplp/BranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the 64-bit size of the job.
 
 
-### -field ICMMethod
+#### - ICMMethod
 
 Describes the <b>DWORD</b> type member <b>ICMMethod</b>.
 
 
-### -field Color
+#### - Color
 
 Describes the <b>short</b> type member <b>Color</b>.
 
 
-### -field PrintQuality
+#### - PrintQuality
 
 Describes the <b>short</b> type member <b>PrintQuality</b>.
 
 
-### -field YResolution
+#### - YResolution
 
 Describes the <b>short</b> type member <b>YResolution</b>.
 
 
-### -field Copies
+#### - Copies
 
 Describes the <b>short</b> type member <b>Copies</b>.
 
 
-### -field TTOption
+#### - TTOption
 
 Describes the <b>short</b> type member <b>TTOption</b>.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2c289de-fff7-4e21-8ef5-2ff3006a4ea5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilc2kmrl, *LPRILC2KMRL, rilapitypes/RILC2KMRL, RILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], RILC2KMRL, netvista.rilc2kmrl, rilapitypes/RILC2KMRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ struct RILC2KMRL {
 
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of RILC2KMRLPARAMMASK enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field fServing
+#### - fServing
 
 Indicates whether this is a serving cell. There may be more than one serving cell at a time.
 
 
-### -field dwNID
+#### - dwNID
 
 Network ID (0...65535).
 
 
-### -field dwSID
+#### - dwSID
 
 System ID (0...32767).
 
 
-### -field dwBaseStationID
+#### - dwBaseStationID
 
 Base station ID (0...65535).
 
 
-### -field dwBaseLat
+#### - dwBaseLat
 
 Base station Latitude (0...4194303) encoded in units of 0.25 seconds, expressed in two’s complement representation within the low 22 bits of the DWORD. This is a signed field with North latitudes represented by positive values.
 
 
-### -field dwBaseLong
+#### - dwBaseLong
 
 Base station Longitude (0...8388607) encoded in units of 0.25 seconds, expressed in two’s complement representation within the low 23 bits of the DWORD. This is a signed field with East longitudes represented by positive values.
 
 
-### -field dwRefPN
+#### - dwRefPN
 
 Base station PN number (0...511).
 
 
-### -field dwGPSSeconds
+#### - dwGPSSeconds
 
 GPS seconds; the time at which this arrived from the base station.
 
 
-### -field dwPilotStrength
+#### - dwPilotStrength
 
 Signal strength of pilot (0...63).
 

@@ -74,7 +74,7 @@ VOID MiniportRemoveDevice(
 
 
 
-### -param MiniportAddDeviceContext [in]
+#### - MiniportAddDeviceContext [in]
 
 A handle for a driver-allocated context area that the miniport driver registered with NDIS in the 
      <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function.
@@ -145,12 +145,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
 
  
 

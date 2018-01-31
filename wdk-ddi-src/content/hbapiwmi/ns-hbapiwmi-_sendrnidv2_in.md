@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b9c0833d-96ac-41cb-815f-b2df27f46cb4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SendRNIDV2_IN, PSendRNIDV2_IN structure pointer [Storage Devices], PSendRNIDV2_IN, hbapiwmi/SendRNIDV2_IN, *PSendRNIDV2_IN, SendRNIDV2_IN structure [Storage Devices], storage.sendrnidv2_in, hbapiwmi/PSendRNIDV2_IN, structs-Fibre_5411860d-c8c8-4f4d-b4cc-751973c3d02e.xml, SendRNIDV2_IN"
+ms.keywords: SendRNIDV2_IN, SendRNIDV2_IN structure [Storage Devices], structs-Fibre_5411860d-c8c8-4f4d-b4cc-751973c3d02e.xml, PSendRNIDV2_IN structure pointer [Storage Devices], _SendRNIDV2_IN, hbapiwmi/PSendRNIDV2_IN, *PSendRNIDV2_IN, PSendRNIDV2_IN, storage.sendrnidv2_in, hbapiwmi/SendRNIDV2_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendRNIDV2_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a worldwide name for the local port through which the version 2 request node identification data (RNIDV2) command is sent. 
 
 
-### -field DestWWN
+#### - DestWWN
 
 Contains a worldwide name for the destination port. 
 
 
-### -field DestFCID
+#### - DestFCID
 
 Contains an address identifier of the destination port. For a description of the values that this member can have, see the T11 committee's specification for <i>Fibre Channel HBA API</i>.
 
 
-### -field NodeIdDataFormat
+#### - NodeIdDataFormat
 
 Indicates the node identification data format. For a description of the values that this member can have, see the T11 committee's specification for <i>Fibre Channel HBA API</i>. 
 

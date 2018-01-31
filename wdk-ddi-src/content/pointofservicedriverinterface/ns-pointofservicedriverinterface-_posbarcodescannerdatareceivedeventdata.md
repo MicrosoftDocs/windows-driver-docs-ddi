@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData, _PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata, PosBarcodeScannerDataReceivedEventData structure
+ms.keywords: "_PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PosBarcodeScannerDataReceivedEventData {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> header information for this event.
 
 
-### -field DataType
+#### - DataType
 
 Indicates which <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_barcodesymbology.md">BarcodeSymbology</a> is associated with the scan data.
 
 
-### -field ScanDataLength
+#### - ScanDataLength
 
 Indicates the number of bytes of raw scanned data.
 
 
-### -field ScanDataLabelLength
+#### - ScanDataLabelLength
 
 Indicates the number of bytes of decoded scan data. A label is the decoded scan data in which the header and footer information has been removed, leaving only the raw scanner data. 
 

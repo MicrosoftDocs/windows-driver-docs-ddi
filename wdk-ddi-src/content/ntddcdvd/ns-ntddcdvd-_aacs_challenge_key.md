@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1eb7978-cbfc-4ffd-b345-a320e9152f03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/AACS_CHALLENGE_KEY, *PAACS_CHALLENGE_KEY, PAACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY structure [Storage Devices], PAACS_CHALLENGE_KEY structure pointer [Storage Devices], structs-DVD_7a8e1eeb-73f5-4d10-83c6-13bac3130c91.xml, ntddcdvd/PAACS_CHALLENGE_KEY, _AACS_CHALLENGE_KEY, storage.aacs_challenge_key
+ms.keywords: "*PAACS_CHALLENGE_KEY, ntddcdvd/PAACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY, PAACS_CHALLENGE_KEY, _AACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY structure [Storage Devices], ntddcdvd/AACS_CHALLENGE_KEY, structs-DVD_7a8e1eeb-73f5-4d10-83c6-13bac3130c91.xml, storage.aacs_challenge_key, PAACS_CHALLENGE_KEY structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AACS_CHALLENGE_KEY {
 
 
 
-### -field EllipticCurvePoint
+#### - EllipticCurvePoint
 
 The elliptical curve (ECC) point data.
 
 
-### -field Signature
+#### - Signature
 
 The signature that the client uses to verify that the ECC point is valid for the current Advanced Access Content System (AACS) authentication sequence.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], *INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, _DXGKARG_CREATEPERIODICFRAMENOTIFICATION
+ms.keywords: DXGKARG_CREATEPERIODICFRAMENOTIFICATION, _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], *INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DXGKARG_CREATEPERIODICFRAMENOTIFICATION {
 
 
 
-### -field hAdapter
+#### - hAdapter
 
 A handle to the adapter associated with VidPnSourceID.
 
@@ -81,17 +81,17 @@ A handle to the adapter associated with VidPnSourceID.
  
 
 
-### -field Time
+#### - Time
 
 Represents an offset before the VSync. The Time value may not be longer than a VSync interval while in VSync mode. In units of 100ns.
 
 
-### -field NotificationID
+#### - NotificationID
 
 Represents an ID for the notification that will be used to track which interrupt has fired from the GPU.
 
 
-### -field hNotification
+#### - hNotification
 
 A Handle to the notification object, later used to destroy the object.
 

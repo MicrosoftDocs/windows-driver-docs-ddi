@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_L2CA_PING, bltooth._brb_l2ca_ping, _BRB_L2CA_PING structure [Bluetooth Devices], bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, _BRB_L2CA_PING
+ms.keywords: "_BRB_L2CA_PING, bltooth._brb_l2ca_ping, bthddi/_BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices], bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ struct _BRB_L2CA_PING {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The address of the device that the ping is sent to.
 
 
-### -field PingRequestLength
+#### - PingRequestLength
 
 The length, in bytes, of the data to send in the ping signal.
 
 
-### -field PingRequestData
+#### - PingRequestData
 
 The data to send in the ping signal.
 
 
-### -field PingResponseLength
+#### - PingResponseLength
 
 The length, in bytes, of the data that the remote device responded to the ping signal with.
 
 
-### -field PingResponseData
+#### - PingResponseData
 
 The data that the remote device responded to the ping signal with.
 

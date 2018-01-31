@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxcanceltimerrequest, rxtimer/RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], RxCancelTimerRequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml
+ms.keywords: RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest, rxtimer/RxCancelTimerRequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RxCancelTimerRequest(
 
 
 
-### -param pDeviceObject [in]
+#### - pDeviceObject [in]
 
 A pointer to the device object that initialized the timer. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
 
-### -param Routine [in]
+#### - Routine [in]
 
 A pointer to the worker thread routine to call when this timer expires. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
 
-### -param pContext [in]
+#### - pContext [in]
 
 A pointer to the context parameter that was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this timer was initialized.
 

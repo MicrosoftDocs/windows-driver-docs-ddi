@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e0e1bd3e-ee8d-40f2-904d-d6dcc4185406
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Storage Devices], _STORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR, structs-general_65dcf7da-1241-4d3d-b8c6-a53c15c0763c.xml, STORAGE_DEVICE_ID_DESCRIPTOR structure [Storage Devices], storage.storage_device_id_descriptor, ntddstor/STORAGE_DEVICE_ID_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_ID_DESCRIPTOR
+ms.keywords: ntddstor/STORAGE_DEVICE_ID_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_ID_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR, storage.storage_device_id_descriptor, structs-general_65dcf7da-1241-4d3d-b8c6-a53c15c0763c.xml, STORAGE_DEVICE_ID_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DEVICE_ID_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR
+req.typenames: PSTORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR
 ---
 
 # _STORAGE_DEVICE_ID_DESCRIPTOR structure
@@ -70,22 +70,22 @@ typedef struct _STORAGE_DEVICE_ID_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 Indicates the version of the descriptor.
 
 
-### -field Size
+#### - Size
 
 Indicates the size in bytes of the descriptor.
 
 
-### -field NumberOfIdentifiers
+#### - NumberOfIdentifiers
 
 Contains the number of identifiers reported by the device in the <b>Identifiers</b> array.
 
 
-### -field Identifiers
+#### - Identifiers
 
 Contains a variable-length array of identification descriptors.
 
@@ -99,13 +99,13 @@ The device descriptor consists of an array of device IDs taken from the SCSI-3 v
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
-<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
  
 

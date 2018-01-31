@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSDATAFORMAT, ks/KSDATAFORMAT, PKSDATARANGE, *PKSDATARANGE, *PKSDATAFORMAT, stream.ksdataformat, KSDATAFORMAT structure [Streaming Media Devices], KSDATARANGE, ks/PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], KSDATARANGE structure [Streaming Media Devices], ks/PKSDATARANGE, ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/KSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], KSDATAFORMAT
+ms.keywords: PKSDATARANGE structure pointer [Streaming Media Devices], *PKSDATAFORMAT, ks/KSDATARANGE, ks/KSDATAFORMAT, PKSDATARANGE, KSDATAFORMAT, ks/PKSDATAFORMAT, ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, *PKSDATARANGE, KSDATARANGE structure [Streaming Media Devices], KSDATAFORMAT structure [Streaming Media Devices], stream.ksdataformat, PKSDATAFORMAT, KSDATARANGE, ks/PKSDATARANGE, PKSDATAFORMAT structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDATAFORMAT
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDATARANGE, KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE"
+req.typenames: KSDATAFORMAT, *PKSDATARANGE, KSDATARANGE, *PKSDATAFORMAT
 ---
 
 # KSDATAFORMAT structure
@@ -73,37 +73,37 @@ typedef struct {
 
 
 
-### -field FormatSize
+#### - FormatSize
 
 Specifies the size, in bytes, of the KSDATAFORMAT structure. This must be at least <b>sizeof</b>(KSDATAFORMAT), but can be larger for specific settings of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b>. See the descriptions for these members for more information. 
 
 
-### -field Flags
+#### - Flags
 
 Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> of <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a> structures.
 
 
-### -field SampleSize
+#### - SampleSize
 
 Specifies the sample size of the data, for fixed sample sizes, or zero, if the format has a variable sample size.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Drivers must set this member to zero.
 
 
-### -field MajorFormat
+#### - MajorFormat
 
 Specifies the general format type. The data formats that are currently supported can be found in the KSDATAFORMAT_TYPE_XXX symbolic constants in the <i>ksmedia.h</i> header file that is included in the Windows Driver Kit (WDK). A data stream that has no particular format should use KSDATAFORMAT_TYPE_STREAM (defined in <i>ks.h</i>) as the value for its <b>MajorFormat</b>. For more information about this member, see <b>Remarks</b>.
 
 
-### -field SubFormat
+#### - SubFormat
 
 Specifies the subformat of a general format type. The data subformats that are currently supported can be found in the KSDATAFORMAT_SUBTYPE_XXX symbolic constants in the <i>ksmedia.h</i> header file that is included in the WDK. Major formats that do not support subformats should use the KSDATAFORMAT_SUBTYPE_NONE value for this member. For more information about this member, see <b>Remarks</b>.
 
 
-### -field Specifier
+#### - Specifier
 
 Specifies additional data format type information for a specific setting of <b>MajorFormat</b> and <b>SubFormat</b>. 
 	  The significance of this field is determined by the major format (and subformat, if the major format supports subformats). For example, <b>Specifier</b> can represent a particular encoding of a subformat, or it can be used to specify what type of data structure follows KSDATAFORMAT in memory.

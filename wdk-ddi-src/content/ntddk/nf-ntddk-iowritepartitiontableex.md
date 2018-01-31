@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b49ea2db-bb1e-4293-bfac-cbb3e62bca91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddk/IoWritePartitionTableEx, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml, IoWritePartitionTableEx routine [Storage Devices], storage.iowritepartitiontableex, IoWritePartitionTableEx
+ms.keywords: rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml, IoWritePartitionTableEx, storage.iowritepartitiontableex, IoWritePartitionTableEx routine [Storage Devices], ntddk/IoWritePartitionTableEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS IoWritePartitionTableEx(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object representing the disk whose partition tables are to be written.
 
@@ -149,11 +149,11 @@ In order tot create or delete partitions a full description of the system must b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
 
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
  
 

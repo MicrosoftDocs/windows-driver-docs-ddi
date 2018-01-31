@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FFCD2329-FD6A-48AE-8E9D-56AA7D79B174
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsDaxVolume routine [Installable File System Drivers], FsRtlIsDaxVolume, ifsk.fsrtlisdaxvolume, ntifs/FsRtlIsDaxVolume
+ms.keywords: ifsk.fsrtlisdaxvolume, ntifs/FsRtlIsDaxVolume, FsRtlIsDaxVolume, FsRtlIsDaxVolume routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FsRtlIsDaxVolume(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A file object for a file, on the volume which is being queried.
 

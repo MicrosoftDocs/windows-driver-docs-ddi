@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3EA8FE2A-85CE-4C81-81EB-F08028F0F822
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfaentrytags_gettagbyname, extsfns/IDebugFAEntryTags::GetTagByName, IDebugFAEntryTags::GetTagByName, GetTagByName method [Windows Debugging], IDebugFAEntryTags interface, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetTagByName method, GetTagByName, GetTagByName method [Windows Debugging]
+ms.keywords: IDebugFAEntryTags::GetTagByName, extsfns/IDebugFAEntryTags::GetTagByName, GetTagByName method [Windows Debugging], IDebugFAEntryTags interface, IDebugFAEntryTags, debugger.idebugfaentrytags_gettagbyname, GetTagByName, GetTagByName method [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], GetTagByName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetTagByName(
 
 
 
-### -param PluginId [in]
+#### - PluginId [in]
 
 A pointer to a null-terminated string that specifies the identifier of an analysis extension plug-in. This parameter can be <b>NULL</b>.
 
 
-### -param TagName [in]
+#### - TagName [in]
 
 A pointer to a null-terminated string that specifies the name to search for.
 
 
-### -param Tag [out]
+#### - Tag [out]
 
 A pointer to a variable that receives either a value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration or the value of a custom tag. If this method does not find a tag that has the specified name, nothing is written to this parameter.
 
@@ -107,15 +107,15 @@ If you specify a <i>PluginId</i>, this method does the following:
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983428">Metadata Files for Analysis Extension Plug-ins</a>
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

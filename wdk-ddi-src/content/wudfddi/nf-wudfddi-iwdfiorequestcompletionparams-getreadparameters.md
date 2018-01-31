@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequestCompletionParams interface, GetReadParameters method, IWDFIoRequestCompletionParams, GetReadParameters method, IWDFIoRequestCompletionParams interface, umdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, GetReadParameters, GetReadParameters method, IWDFIoRequestCompletionParams::GetReadParameters, wdf.iwdfiorequestcompletionparams_getreadparameters
+ms.keywords: IWDFIoRequestCompletionParams interface, GetReadParameters method, GetReadParameters method, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, wdf.iwdfiorequestcompletionparams_getreadparameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams::GetReadParameters, GetReadParameters, umdf.iwdfiorequestcompletionparams_getreadparameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequestCompletionParams.GetReadParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,21 +72,21 @@ void  GetReadParameters(
 
 
 
-### -param ppReadMemory [out]
+#### - ppReadMemory [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the read buffer for the completion of the read request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pBytesRead [out]
+#### - pBytesRead [out]
 
 A pointer to a variable that receives the size, in bytes, of the read buffer for the completion of the read request.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pReadMemoryOffset [out]
+#### - pReadMemoryOffset [out]
 
 A pointer to a variable that receives the offset, in bytes, into the read buffer for the completion of the read request.
 

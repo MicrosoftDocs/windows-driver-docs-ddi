@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 054d1673-0c1a-4ceb-821a-d61bf28392cf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/CLS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS, PCLS_IO_STATISTICS, *PCLS_IO_STATISTICS, wdm/PPCLS_IO_STATISTICS, PCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PCLFS_IO_STATISTICS, kstruct_a_2e43db78-8c4e-462f-ad85-8c799be2f2e3.xml, wdm/PPCLFS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PPCLS_IO_STATISTICS, PCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], *PCLFS_IO_STATISTICS, CLS_IO_STATISTICS, kernel.clfs_io_statistics, wdm/PCLS_IO_STATISTICS, CLFS_IO_STATISTICS, CLS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], PPCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], _CLS_IO_STATISTICS, wdm/CLFS_IO_STATISTICS, wdm/PCLFS_IO_STATISTICS
+ms.keywords: wdm/PPCLS_IO_STATISTICS, kernel.clfs_io_statistics, wdm/PCLS_IO_STATISTICS, PPCLFS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], *PCLFS_IO_STATISTICS, CLS_IO_STATISTICS, PCLFS_IO_STATISTICS, wdm/CLFS_IO_STATISTICS, PPCLS_IO_STATISTICS, _CLS_IO_STATISTICS, kstruct_a_2e43db78-8c4e-462f-ad85-8c799be2f2e3.xml, CLFS_IO_STATISTICS, wdm/PPCLFS_IO_STATISTICS, PCLS_IO_STATISTICS, wdm/CLS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], PCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], wdm/PCLFS_IO_STATISTICS, PPCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLS_IO_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS, CLS_IO_STATISTICS"
+req.typenames: PPCLS_IO_STATISTICS, *PCLS_IO_STATISTICS, CLS_IO_STATISTICS
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef struct _CLS_IO_STATISTICS {
 
 
 
-### -field hdrIoStats
+#### - hdrIoStats
 
 A <a href="..\wdm\ns-wdm-_cls_io_statistics_header.md">CLFS_IO_STATISTICS_HEADER</a> structure that holds header information for the set of statistics.
 
 
-### -field cFlush
+#### - cFlush
 
 The number of data flushes.
 
 
-### -field cbFlush
+#### - cbFlush
 
 The number of bytes of data flushed.
 
 
-### -field cMetaFlush
+#### - cMetaFlush
 
 The number of metadata flushes.
 
 
-### -field cbMetaFlush
+#### - cbMetaFlush
 
 The number of bytes of metadata flushed. 
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: EC6EDD7A-B57F-4350-9EB9-56721EAC19BD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], sensors.gnss_drivercommand_param, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM
+ms.keywords: GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], GNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM, sensors.gnss_drivercommand_param, gnssdriver/GNSS_DRIVERCOMMAND_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,17 +75,17 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field CommandType
+#### - CommandType
 
 Identifies the specific command that the driver is required to execute.
 
@@ -97,7 +97,7 @@ This is a well-defined list of GNSS driver commands, as defined by the <a href="
  
 
 
-### -field CommandDataSize
+#### - CommandDataSize
 
 Size of the configuration data being sent to the driver.
 

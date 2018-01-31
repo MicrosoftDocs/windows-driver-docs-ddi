@@ -72,20 +72,19 @@ NTSTATUS NTAPI* CreateMiracastContext(
 
 
 
-### -param hMiracastDeviceHandle [in]
+#### - hMiracastDeviceHandle [in]
 
 A handle to the current Miracast display device, supplied by the operating system.
 
 
-### -param *pMiracastCallbacks
+#### - *pMiracastCallbacks [in]
+
+A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a> structure that has pointers to callback functions, supplied by the operating system,  that the Miracast user-mode driver can call.
 
 
+#### - *ppMiracastContext [out]
 
-### -param *ppMiracastContext
-
-
-
-
+A pointer to a buffer, supplied by the operating system, that holds the Miracast context that the Miracast user-mode driver returns.
 
 
 #### - pMiracastCallbacks [in]
@@ -116,13 +115,13 @@ The driver can call the callback functions pointed to by <i>pMiracastCallbacks</
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
 
  
 

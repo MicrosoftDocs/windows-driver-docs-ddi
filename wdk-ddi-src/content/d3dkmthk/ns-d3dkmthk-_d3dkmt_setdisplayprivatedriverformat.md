@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a99a3b15-8c91-4aef-a82c-665c8494fa57
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dkmt_setdisplayprivatedriverformat, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
+ms.keywords: display.d3dkmt_setdisplayprivatedriverformat, OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A handle to the device that requests to change the private-format attribute of a video present source.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to set a private-format attribute on (that is, the identifier of the primary surface to set a private-format attribute on). 
 
 
-### -field PrivateDriverFormatAttribute
+#### - PrivateDriverFormatAttribute
 
 [in] A UINT value that specifies the private-format attribute to set for the video present source that the <b>VidPnSourceId</b> member specifies. 
 

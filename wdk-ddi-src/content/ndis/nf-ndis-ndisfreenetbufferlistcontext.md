@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5554790-a7a2-4c0d-a6ae-585ea909cd3d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeNetBufferListContext, netvista.ndisfreenetbufferlistcontext, NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, NdisFreeNetBufferListContext
+ms.keywords: netvista.ndisfreenetbufferlistcontext, ndis/NdisFreeNetBufferListContext, ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, NdisFreeNetBufferListContext, NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ VOID NdisFreeNetBufferListContext(
 
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
 
-### -param ContextSize [in]
+#### - ContextSize [in]
 
 The amount of context space to free.
 

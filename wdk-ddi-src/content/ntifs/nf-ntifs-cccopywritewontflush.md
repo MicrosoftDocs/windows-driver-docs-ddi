@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ad2b3372-f8b4-49dc-ba20-2ee89d60f41f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyWriteWontFlush, ntifs/CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], ifsk.cccopywritewontflush, ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml
+ms.keywords: CcCopyWriteWontFlush, ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, ntifs/CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], ifsk.cccopywritewontflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN CcCopyWriteWontFlush(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the cached file where the data is to be written.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length in bytes of the data to be copied.
 
@@ -93,11 +93,11 @@ Length in bytes of the data to be copied.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+
 <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
 <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
 
  
 

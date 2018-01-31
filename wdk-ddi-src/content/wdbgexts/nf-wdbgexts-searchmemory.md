@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7e07c47e-803b-44fa-9d0f-aa86475246d2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SearchMemory, wdbgexts/SearchMemory, WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, SearchMemory function [Windows Debugging], debugger.searchmemory
+ms.keywords: WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, wdbgexts/SearchMemory, debugger.searchmemory, SearchMemory function [Windows Debugging], SearchMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ __inline VOID SearchMemory(
 
 
 
-### -param SearchAddress
+#### - SearchAddress
 
 Specifies the address in the target's virtual memory from which to start the search.
 
 
-### -param SearchLength
+#### - SearchLength
 
 Specifies the size, in bytes, of the memory to search.  For a successful match, the pattern must be found before <i>SearchLength</i> bytes have been examined.
 
 
-### -param PatternLength
+#### - PatternLength
 
 Specifies the size, in bytes, of the pattern to search for.
 
 
-### -param Pattern
+#### - Pattern
 
 Specifies the pattern to search for.
 
 
-### -param FoundAddress
+#### - FoundAddress
 
 Receives the location of the pattern, found in the target's virtual memory.  If the pattern was not found, the value in <i>FoundAddress</i> is unchanged by this function.
 

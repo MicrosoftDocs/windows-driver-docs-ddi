@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d6567f1-9e2a-405f-ae8d-eb531cc29275
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetFileObject method, IWDFIoRequest::GetFileObject, GetFileObject, wdf.iwdfiorequest_getfileobject, umdf.iwdfiorequest_getfileobject, wudfddi/IWDFIoRequest::GetFileObject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, IWDFIoRequest interface, GetFileObject method, IWDFIoRequest, GetFileObject method, IWDFIoRequest interface
+ms.keywords: GetFileObject, wudfddi/IWDFIoRequest::GetFileObject, IWDFIoRequest interface, GetFileObject method, umdf.iwdfiorequest_getfileobject, IWDFIoRequest, GetFileObject method, IWDFIoRequest::GetFileObject, wdf.iwdfiorequest_getfileobject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, GetFileObject method, IWDFIoRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetFileObject
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetFileObject(
 
 
 
-### -param ppFileObject [out]
+#### - ppFileObject [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object. Note that returning <b>NULL</b> is valid.
 
@@ -91,9 +91,9 @@ When your driver calls <b>GetFileObject</b>, the framework increments the refere
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
  
 

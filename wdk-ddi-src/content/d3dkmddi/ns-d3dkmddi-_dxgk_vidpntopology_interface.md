@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, display.dxgk_vidpntopology_interface, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], _DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE
+ms.keywords: DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], _DXGK_VIDPNTOPOLOGY_INTERFACE, display.dxgk_vidpntopology_interface, DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,64 +78,64 @@ typedef struct _DXGK_VIDPNTOPOLOGY_INTERFACE {
 
 
 
-### -field pfnGetNumPaths
+#### - pfnGetNumPaths
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getnumpaths.md">pfnGetNumPaths</a> function.
 
 
-### -field pfnGetNumPathsFromSource
+#### - pfnGetNumPathsFromSource
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getnumpathsfromsource.md">pfnGetNumPathsFromSource</a> function.
 
 
-### -field pfnEnumPathTargetsFromSource
+#### - pfnEnumPathTargetsFromSource
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_enumpathtargetsfromsource.md">pfnEnumPathTargetsFromSource</a> function.
 
 
-### -field pfnGetPathSourceFromTarget
+#### - pfnGetPathSourceFromTarget
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getpathsourcefromtarget.md">pfnGetPathSourceFromTarget</a> function.
 
 
-### -field pfnAcquirePathInfo
+#### - pfnAcquirePathInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_acquirepathinfo.md">pfnAcquirePathInfo</a> function.
 
 
-### -field pfnAcquireFirstPathInfo
+#### - pfnAcquireFirstPathInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_acquirefirstpathinfo.md">pfnAcquireFirstPathInfo</a> function.
 
 
-### -field pfnAcquireNextPathInfo
+#### - pfnAcquireNextPathInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_acquirenextpathinfo.md">pfnAcquireNextPathInfo</a> function.
 
 
-### -field pfnUpdatePathSupportInfo
+#### - pfnUpdatePathSupportInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_updatepathsupportinfo.md">pfnUpdatePathSupportInfo</a> function.
 
 
-### -field pfnReleasePathInfo
+#### - pfnReleasePathInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_releasepathinfo.md">pfnReleasePathInfo</a> function.
 
 
-### -field pfnCreateNewPathInfo
+#### - pfnCreateNewPathInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_createnewpathinfo.md">pfnCreateNewPathInfo</a> function.
 
 
-### -field pfnAddPath
+#### - pfnAddPath
 
 
       A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_addpath.md">pfnAddPath</a> function.
      
 
 
-### -field pfnRemovePath
+#### - pfnRemovePath
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_removepath.md">pfnRemovePath</a> function.
 

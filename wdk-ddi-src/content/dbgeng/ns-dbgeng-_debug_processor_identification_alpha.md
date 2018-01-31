@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AE0DB2CC-6364-4B50-8CD3-8EF8B495FBED
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging]
+ms.keywords: PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA {
 
 
 
-### -field Type
+#### - Type
 
 The type of the processor.
 
 
-### -field Revision
+#### - Revision
 
 The revision of the processor.
 

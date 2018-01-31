@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2F73ECD7-EC58-43A9-89F8-E0268510A498
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoQueryFullDriverPath, kernel.ioqueryfulldriverpath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], wdm/IoQueryFullDriverPath
+ms.keywords: kernel.ioqueryfulldriverpath, wdm/IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], IoQueryFullDriverPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoQueryFullDriverPath(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This structure must be the driver object for the calling driver.
 
 
-### -param FullPath [out]
+#### - FullPath [out]
 
 A pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure. On successful return, this structure contains the path name.
 

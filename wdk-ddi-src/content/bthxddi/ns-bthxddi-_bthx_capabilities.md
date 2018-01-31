@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: BEC06C82-E103-4255-ACDD-9FB28E8E2DE5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.bthx_capabilities, _BTHX_CAPABILITIES, BTHX_CAPABILITIES structure [Bluetooth Devices], bthxddi/BTHX_CAPABILITIES, PBTHX_CAPABILITIES, bthxddi/PBTHX_CAPABILITIES, *PBTHX_CAPABILITIES, PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], BTHX_CAPABILITIES
+ms.keywords: PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], _BTHX_CAPABILITIES, BTHX_CAPABILITIES structure [Bluetooth Devices], bthxddi/BTHX_CAPABILITIES, bltooth.bthx_capabilities, *PBTHX_CAPABILITIES, bthxddi/PBTHX_CAPABILITIES, BTHX_CAPABILITIES, PBTHX_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _BTHX_CAPABILITIES {
 
 
 
-### -field MaxAclTransferInSize
+#### - MaxAclTransferInSize
 
 The maximum size, in bytes, of the ACL packets the transport layer can accept.
 
 
-### -field ScoSupport
+#### - ScoSupport
 
 The type of SCO supported. This must be set to <b>ScoSupportHCIBypass</b>.
 
 
-### -field MaxScoChannels
+#### - MaxScoChannels
 
 The maximum supported number of SCO channels. This must be set to 1.
 
 
-### -field IsDeviceIdleCapable
+#### - IsDeviceIdleCapable
 
 Whether the device supports idle/sleep power state. TRUE if the device can support idle (in low duty cycle state), else FALSE.
 
 
-### -field IsDeviceWakeCapable
+#### - IsDeviceWakeCapable
 
 Whether the device supports remote wake. TRUE if the device supports waking the system from sleep, else FALSE.
 

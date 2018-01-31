@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b0f4de6-b800-4bc0-ae1d-97d877e3b91e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.gettypeidwide, GetTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetTypeIdWide, IDebugSymbols3::GetTypeIdWide, GetTypeIdWide, IDebugSymbols3, GetTypeIdWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetTypeIdWide method
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetTypeIdWide method, IDebugSymbols3::GetTypeIdWide, dbgeng/IDebugSymbols3::GetTypeIdWide, GetTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, debugger.gettypeidwide, GetTypeIdWide method [Windows Debugging], GetTypeIdWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetTypeIdWide(
 
 
 
-### -param Module [in]
+#### - Module [in]
 
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.  If <i>Name</i> contains a module name, <i>Module</i> is ignored. 
 
 
-### -param Name [in]
+#### - Name [in]
 
 Specifies the name of the type whose type ID is desired.  If <i>Name</i> is a module-qualified name (for example <b>mymodule!main</b>), the <i>Module</i> parameter is ignored.
 
 
-### -param TypeId [out]
+#### - TypeId [out]
 
 Receives the type ID of the symbol.
 
@@ -133,9 +133,9 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548062">GetOffsetTypeId</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548062">GetOffsetTypeId</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

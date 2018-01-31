@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO structure pointer [Storage Devices], PDISK_INT13_INFO, ntdddisk/DISK_INT13_INFO, *PDISK_INT13_INFO, _DISK_INT13_INFO, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, DISK_INT13_INFO, storage.disk_int13_info, ntdddisk/PDISK_INT13_INFO
+ms.keywords: ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, *PDISK_INT13_INFO, PDISK_INT13_INFO, DISK_INT13_INFO, _DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO structure pointer [Storage Devices], storage.disk_int13_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct _DISK_INT13_INFO {
 
 
 
-### -field DriveSelect
+#### - DriveSelect
 
 Corresponds to the Device/Head register defined in the <i>AT Attachment (ATA)</i> specification. When zero, the fourth bit of this register indicates that drive zero is selected. When 1, it indicates that drive one is selected. The values of bits 0, 1, 2, 3, and 6 depend on the command in the command register. Bits 5 and 7 are no longer used. For more information about the values that the Device/Head register can hold, see the ATA specification.
 
 
-### -field MaxCylinders
+#### - MaxCylinders
 
 Indicates the maximum number of cylinders on the disk. 
 
 
-### -field SectorsPerTrack
+#### - SectorsPerTrack
 
 Indicates the number of sectors per track. 
 
 
-### -field MaxHeads
+#### - MaxHeads
 
 Indicates the maximum number of disk heads. 
 
 
-### -field NumberDrives
+#### - NumberDrives
 
 Indicates the number of drives. 
 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_disk_ex_int13_info.md">DISK_EX_INT13_INFO</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
 
  
 

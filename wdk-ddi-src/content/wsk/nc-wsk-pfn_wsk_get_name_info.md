@@ -40,7 +40,7 @@ apiname:
 -	WskGetNameInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -81,7 +81,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
 
 
 
-### -param Client [in]
+#### - Client [in]
 
 [in] A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
@@ -91,14 +91,14 @@ NTSTATUS WSKAPI * WskGetNameInfo(
      WskCaptureProviderNPI</b></mshelp:link> function.
 
 
-### -param SockAddr [in]
+#### - SockAddr [in]
 
 [in] A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure that contains the IP address
      and port number of the socket.
 
 
-### -param SockAddrLength [in]
+#### - SockAddrLength [in]
 
 [in] Specifies the length, in bytes, of the buffer pointed to by the 
      <i>SockAddr</i> parameter. The value of 
@@ -106,7 +106,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a> structure.
 
 
-### -param NodeName [out, optional]
+#### - NodeName [out, optional]
 
 [out] An optional pointer to a 
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
@@ -118,7 +118,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
      <i>ServiceBuffer</i> must not both be <b>NULL</b>.
 
 
-### -param ServiceName [out, optional]
+#### - ServiceName [out, optional]
 
 [out] An optional pointer to a 
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
@@ -130,7 +130,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
      <i>ServiceBuffer</i> must not both be <b>NULL</b>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 [in] A ULONG value that is used to customize the processing of this function.
      
@@ -171,7 +171,7 @@ Indicates that the function returns the port number of the service instead of it
        IP address.
 
 
-### -param OwningProcess [in, optional]
+#### - OwningProcess [in, optional]
 
 [in] An optional pointer to the process from which the function retrieves the security context.
      This security context indicates the user account context in which the function processes the name
@@ -185,7 +185,7 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param OwningThread [in, optional]
+#### - OwningThread [in, optional]
 
 [in] An optional pointer to the thread from which the function retrieves the security context.
      This parameter can be non-<b>NULL</b> only if 
@@ -196,7 +196,7 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 [in/out] A pointer to an I/O request packet (IRP) to use to complete the request asynchronously.
      Upon completion of the request, 
@@ -290,17 +290,17 @@ The process to which the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
  
 

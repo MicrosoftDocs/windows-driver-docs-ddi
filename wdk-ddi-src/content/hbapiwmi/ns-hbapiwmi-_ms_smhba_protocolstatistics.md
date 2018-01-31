@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb992a5e-41fe-4bb3-9f53-785135af8a32
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MS_SMHBA_PROTOCOLSTATISTICS structure [Storage Devices], _MS_SMHBA_PROTOCOLSTATISTICS, storage.ms_smhba_protocolstatistics, PMS_SMHBA_PROTOCOLSTATISTICS, structs-Fibre_c49fbe22-4575-4738-810b-c9b53d5cc40c.xml, hbapiwmi/PMS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS structure pointer [Storage Devices]
+ms.keywords: hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS structure [Storage Devices], storage.ms_smhba_protocolstatistics, MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/PMS_SMHBA_PROTOCOLSTATISTICS, structs-Fibre_c49fbe22-4575-4738-810b-c9b53d5cc40c.xml, _MS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _MS_SMHBA_PROTOCOLSTATISTICS {
 
 
 
-### -field SecondsSinceLastReset
+#### - SecondsSinceLastReset
 
 The number of seconds since the statistics were last reset.
 
 
-### -field InputRequests
+#### - InputRequests
 
 The number of input requests.
 
 
-### -field OutputRequests
+#### - OutputRequests
 
 The number of output requests.
 
 
-### -field ControlRequests
+#### - ControlRequests
 
 The number of control requests.
 
 
-### -field InputMegabytes
+#### - InputMegabytes
 
 The number of megabytes of data that has been input.
 
 
-### -field OutputMegabytes
+#### - OutputMegabytes
 
 The number of megabytes of data that has been output.
 

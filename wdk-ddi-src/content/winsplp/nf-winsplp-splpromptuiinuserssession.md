@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5e458e3b-cfe2-4d48-b386-34d2a6c1d15e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.splpromptuiinuserssession, SplPromptUIInUsersSession function [Print Devices], spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, winsplp/SplPromptUIInUsersSession, SplPromptUIInUsersSession
+ms.keywords: print.splpromptuiinuserssession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], winsplp/SplPromptUIInUsersSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ BOOL SplPromptUIInUsersSession(
 
 
 
-### -param hPrinter [in]
+#### - hPrinter [in]
 
 Handle to the printer.
 
 
-### -param JobId [in]
+#### - JobId [in]
 
 Specifies the print job.
 
 
-### -param pUIParams [in]
+#### - pUIParams [in]
 
 Pointer to a <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a> structure that contains values that determine the appearance and behavior of the message box.
 
 
-### -param pResponse [out]
+#### - pResponse [out]
 
 Pointer to a memory location that contains either the user's response or the IDASYNC constant. For more information, see the Remarks section.
 

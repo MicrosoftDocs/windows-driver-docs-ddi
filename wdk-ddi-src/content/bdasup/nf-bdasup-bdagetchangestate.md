@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fd111e80-fc3e-4f21-97cb-1f75ae34d1e9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bdagetchangestate, BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdasup/BdaGetChangeState, bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml
+ms.keywords: stream.bdagetchangestate, bdasup/BdaGetChangeState, bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, BdaGetChangeState function [Streaming Media Devices], BdaGetChangeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS BdaGetChangeState(
 TBD
 
 
-### -param pChangeState [out, optional]
+#### - pChangeState [out, optional]
 
 Points to a variable that receives the current change state of BDA topology. The BDA change state can be one of the following values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a> enumerated type:
 <table>
@@ -136,13 +136,13 @@ Return the current change state for both BDA topology and the BDA filter.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563417">KSMETHOD_BDA_GET_CHANGE_STATE</a>
 
 <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563417">KSMETHOD_BDA_GET_CHANGE_STATE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bc10d76f-da09-457a-b469-ef59d1cb09d9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_l2ca_unregister_server, _BRB_L2CA_UNREGISTER_SERVER, bthddi/_BRB_L2CA_UNREGISTER_SERVER, _BRB_L2CA_UNREGISTER_SERVER structure [Bluetooth Devices], bth_structs_211f7f5f-0a2d-487e-9720-78076b36e012.xml
+ms.keywords: bthddi/_BRB_L2CA_UNREGISTER_SERVER, _BRB_L2CA_UNREGISTER_SERVER, bth_structs_211f7f5f-0a2d-487e-9720-78076b36e012.xml, _BRB_L2CA_UNREGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_unregister_server
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,26 +71,26 @@ struct _BRB_L2CA_UNREGISTER_SERVER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The address of the remote device.
 
 
-### -field ServerHandle
+#### - ServerHandle
 
 The handle of the L2CAP server to unregister, as returned earlier from a previous 
      <mshelp:link keywords="bltooth.brb_l2ca_register_server" tabindex="0"><b>
      BRB_L2CA_REGISTER_SERVER</b></mshelp:link> request.
 
 
-### -field Psm
+#### - Psm
 
 The Protocol/Service Multiplexer (PSM) that was specified in a previous 
      <mshelp:link keywords="bltooth.brb_l2ca_register_server" tabindex="0"><b>
@@ -109,9 +109,9 @@ To unregister itself as a L2CAP server, a profile driver should
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
 

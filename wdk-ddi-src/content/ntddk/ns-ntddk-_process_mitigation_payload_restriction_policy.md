@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy
+ms.keywords: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,12 +84,86 @@ typedef struct _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY {
 
 
 
-### -field DUMMYUNIONNAME
+#### - DUMMYUNIONNAME
+
+
+
+#### Flags
+
+Bitwise of flags in this structure.
+
+
+#### DUMMYSTRUCTNAME
 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
+
+
+#### DUMMYSTRUCTNAME.EnableExportAddressFilter
+
+If set this enables the Export Address Filter mitigation in enforcement mode for the process.
+
+
+#### DUMMYSTRUCTNAME.AuditExportAddressFilter
+
+If set this enables the Export Address Filter mitigation in audit mode for the process.
+
+
+#### DUMMYSTRUCTNAME.EnableExportAddressFilterPlus
+
+If set this enables the Export Address Filter Plus mitigation in enforcement mode for the process.
+
+
+#### DUMMYSTRUCTNAME.AuditExportAddressFilterPlus
+
+If set this enables the Export Address Filter mitigation in audit mode for the process.
+
+
+#### DUMMYSTRUCTNAME.EnableImportAddressFilter
+
+If set this enables the Import Address Filter mitigation in enforcement mode for the process.
+
+
+#### DUMMYSTRUCTNAME.AuditImportAddressFilter
+
+If set this enables the Import Address Filter mitigation in enforcement mode for the process.
+
+
+#### DUMMYSTRUCTNAME.EnableRopStackPivot
+
+If set this enables the stack pivot anti-ROP (Return-oriented-programming) mitigation in enforcement mode for the process.
+
+
+#### DUMMYSTRUCTNAME.AuditRopStackPivot
+
+If set this enables the stack pivot anti-ROP (Return-oriented-programming) mitigation in audit mode for the process.
+
+
+#### DUMMYSTRUCTNAME.EnableRopCallerCheck
+
+If set this enables the caller check anti-ROP (Return-oriented-programming) mitigation in enforcement mode for the process. Applies to 32-bit processes only.
+
+
+#### DUMMYSTRUCTNAME.AuditRopCallerCheck
+
+If set this enables the caller check anti-ROP (Return-oriented-programming) mitigation in audit mode for the process. Applies to 32-bit processes only.
+
+
+#### DUMMYSTRUCTNAME.EnableRopSimExec
+
+If set this enables the simulated execution anti-ROP (Return-oriented-programming) mitigation in enforcement mode for the process. Applies to 32-bit processes only.
+
+
+#### DUMMYSTRUCTNAME.AuditRopSimExec
+
+If set this enables the simulated execution anti-ROP (Return-oriented-programming) mitigation in audit mode for the process. Applies to 32-bit processes only.
+
+
+#### DUMMYSTRUCTNAME.ReservedFlags
+
+Reserved.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableExportAddressFilter

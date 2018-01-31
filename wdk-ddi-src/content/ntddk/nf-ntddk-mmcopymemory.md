@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2B5492CD-B24D-44B5-BDAE-0B43A1AF1FCA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmCopyMemory, ntddk/MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory
+ms.keywords: ntddk/MmCopyMemory, MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS MmCopyMemory(
 
 
 
-### -param TargetAddress [in]
+#### - TargetAddress [in]
 
 A pointer to a caller-supplied buffer. This buffer must be in nonpageable  memory.
 
 
-### -param SourceAddress [in]
+#### - SourceAddress [in]
 
 An <a href="..\ntddk\ns-ntddk-_mm_copy_address.md">MM_COPY_ADDRESS</a> structure, passed by value, that contains either the virtual address or the physical address of the data to be copied to the buffer pointed to by <i>TargetAddress</i>.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 The number of bytes to copy from <i>SourceAddress</i> to <i>TargetAddress</i>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags that indicate whether <i>SourceAddress</i> is a virtual address or a physical address. The following flag bits are defined for this parameter.
 <table>
@@ -108,7 +108,7 @@ Flags that indicate whether <i>SourceAddress</i> is a virtual address or a physi
 These two flag bits are mutually exclusive. The caller must set one or the other, but not both.
 
 
-### -param NumberOfBytesTransferred [out]
+#### - NumberOfBytesTransferred [out]
 
 A pointer to a location to which the routine writes the number of bytes successfully copied from the <i>SourceAddress</i> location to the buffer at <i>TargetAddress</i>.
 
@@ -135,9 +135,9 @@ If memory at the virtual address specified by <i>SourceAddress</i> is not reside
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
-
 <a href="..\ntddk\ns-ntddk-_mm_copy_address.md">MM_COPY_ADDRESS</a>
+
+<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
 
  
 

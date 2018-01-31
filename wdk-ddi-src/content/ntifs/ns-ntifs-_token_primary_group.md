@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c9a7f63-7fe8-48a9-b4d0-10586e6b86bc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.token_primary_group, ntifs/PTOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Installable File System Drivers], securitystructures_8d3bc1f9-abc5-4ac3-8351-cf2c56db6a20.xml, ntifs/TOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Installable File System Drivers], *PTOKEN_PRIMARY_GROUP, _TOKEN_PRIMARY_GROUP
+ms.keywords: ifsk.token_primary_group, _TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Installable File System Drivers], ntifs/TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, ntifs/PTOKEN_PRIMARY_GROUP, securitystructures_8d3bc1f9-abc5-4ac3-8351-cf2c56db6a20.xml, *PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TOKEN_PRIMARY_GROUP
 product: Windows
 targetos: Windows
-req.typenames: "*PTOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP"
+req.typenames: TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP
 ---
 
 # _TOKEN_PRIMARY_GROUP structure
@@ -67,22 +67,22 @@ typedef struct _TOKEN_PRIMARY_GROUP {
 
 
 
-### -field PrimaryGroup
+#### - PrimaryGroup
 
 Pointer to a SID structure representing a group that will become the primary group of any objects created by a process using this access token. The SID must be one of the group SIDs already in the token. 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

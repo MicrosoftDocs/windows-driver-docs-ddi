@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12029cfd-58d0-4621-8cbc-c07e68db61b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_FILTER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_info, NDIS_RECEIVE_FILTER_INFO, ntddndis/PNDIS_RECEIVE_FILTER_INFO, virtual_machine_queue_ref_4c711292-ce17-4eb9-a051-c32f8ad6f49e.xml, _NDIS_RECEIVE_FILTER_INFO, ntddndis/NDIS_RECEIVE_FILTER_INFO, *PNDIS_RECEIVE_FILTER_INFO, PNDIS_RECEIVE_FILTER_INFO
+ms.keywords: netvista.ndis_receive_filter_info, PNDIS_RECEIVE_FILTER_INFO, ntddndis/PNDIS_RECEIVE_FILTER_INFO, PNDIS_RECEIVE_FILTER_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO, ntddndis/NDIS_RECEIVE_FILTER_INFO, virtual_machine_queue_ref_4c711292-ce17-4eb9-a051-c32f8ad6f49e.xml, _NDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,7 +91,7 @@ typedef struct _NDIS_RECEIVE_FILTER_INFO {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -113,17 +113,17 @@ The driver sets the
         <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_INFO_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR of flags. This member is reserved for NDIS.
 
 
-### -field FilterType
+#### - FilterType
 
 The type of the receive filter.
 
 
-### -field FilterId
+#### - FilterId
 
 A receive filter identifier. The filter identifier
      is an integer from one up to and including the number of receive filters that the network adapter
@@ -144,10 +144,10 @@ The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <mshelp:link keywords="netvista.ndis_receive_filter_info_array" tabindex="0"><b>
    NDIS_RECEIVE_FILTER_INFO_ARRAY</b></mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMFreeSharedMemory, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], netvista.ndismfreesharedmemory, ndis/NdisMFreeSharedMemory, NdisMFreeSharedMemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,30 +75,30 @@ VOID NdisMFreeSharedMemory(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 Specifies the handle originally input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes originally allocated.
 
 
-### -param Cached [in]
+#### - Cached [in]
 
 Specifies <b>TRUE</b> if the original allocation was cacheable.
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 Specifies the base virtual address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
 
-### -param PhysicalAddress [in]
+#### - PhysicalAddress [in]
 
 Specifies the corresponding physical address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
@@ -161,19 +161,19 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
 <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
    MiniportSharedMemoryAllocateComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	WskCloseSocket
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -73,14 +73,14 @@ NTSTATUS WSKAPI * WskCloseSocket(
 
 
 
-### -param Socket [in]
+#### - Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being closed.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the close operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -186,7 +186,7 @@ For connection-oriented sockets, the
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 <mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
    WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
@@ -195,11 +195,11 @@ For connection-oriented sockets, the
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
  
 

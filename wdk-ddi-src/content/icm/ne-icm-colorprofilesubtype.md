@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CPST_NONE, CPST_PERCEPTUAL, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_RELATIVE_COLORIMETRIC, icm/CPST_NONE, CPST_ABSOLUTE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, icm/CPST_ABSOLUTE_COLORIMETRIC, COLORPROFILESUBTYPE, icm/CPST_SATURATION, print.colorprofilesubtype, CPST_SATURATION, icm/CPST_PERCEPTUAL, CPST_CUSTOM_WORKING_SPACE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, COLORPROFILESUBTYPE enumeration [Print Devices], icm/COLORPROFILESUBTYPE, CPST_RELATIVE_COLORIMETRIC, *PCOLORPROFILESUBTYPE, icm/CPST_RGB_WORKING_SPACE
+ms.keywords: print.colorprofilesubtype, icm/CPST_ABSOLUTE_COLORIMETRIC, icm/CPST_RELATIVE_COLORIMETRIC, icm/CPST_PERCEPTUAL, icm/CPST_SATURATION, icm/CPST_RGB_WORKING_SPACE, CPST_NONE, CPST_CUSTOM_WORKING_SPACE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, icm/COLORPROFILESUBTYPE, CPST_RELATIVE_COLORIMETRIC, icm/CPST_NONE, *PCOLORPROFILESUBTYPE, CPST_ABSOLUTE_COLORIMETRIC, COLORPROFILESUBTYPE enumeration [Print Devices], COLORPROFILESUBTYPE, CPST_PERCEPTUAL, CPST_SATURATION, CPST_RGB_WORKING_SPACE, icm/CPST_CUSTOM_WORKING_SPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,37 +73,37 @@ typedef enum  {
 
 
 
-### -field CPST_PERCEPTUAL
+#### - CPST_PERCEPTUAL
 
 Specifies a perceptual rendering intent for WCS gamut map model profiles (GMMPs).
 
 
-### -field CPST_RELATIVE_COLORIMETRIC
+#### - CPST_RELATIVE_COLORIMETRIC
 
 Specifies a relative colorimetric rendering intent for WCS GMMPs.
 
 
-### -field CPST_SATURATION
+#### - CPST_SATURATION
 
 Specifies a saturation rendering intent for WCS GMMPs.
 
 
-### -field CPST_ABSOLUTE_COLORIMETRIC
+#### - CPST_ABSOLUTE_COLORIMETRIC
 
 Specifies an absolute colorimetric rendering intent for WCS GMMPs.
 
 
-### -field CPST_NONE
+#### - CPST_NONE
 
 Specifies that the color profile subtype is not applicable to the selected color profile type.
 
 
-### -field CPST_RGB_WORKING_SPACE
+#### - CPST_RGB_WORKING_SPACE
 
 Specifies the RGB color working space for ICC profiles or WCS device model profiles (DMPs).
 
 
-### -field CPST_CUSTOM_WORKING_SPACE
+#### - CPST_CUSTOM_WORKING_SPACE
 
 Specifies a custom color working space.
 

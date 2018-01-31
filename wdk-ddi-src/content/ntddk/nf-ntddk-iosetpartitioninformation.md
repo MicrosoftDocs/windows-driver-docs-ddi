@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3f1a6e3f-3bbc-4cc5-8efe-e3cf6ac3adf5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddk/IoSetPartitionInformation, storage.iosetpartitioninformation, rtns-disk_58012dfd-a95d-4af6-a09d-e1a4bcb458e2.xml, IoSetPartitionInformation, IoSetPartitionInformation routine [Storage Devices]
+ms.keywords: storage.iosetpartitioninformation, IoSetPartitionInformation, IoSetPartitionInformation routine [Storage Devices], ntddk/IoSetPartitionInformation, rtns-disk_58012dfd-a95d-4af6-a09d-e1a4bcb458e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS FASTCALL IoSetPartitionInformation(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object representing the device on which the partition type is to be set.
 
 
-### -param SectorSize [in]
+#### - SectorSize [in]
 
 Specifies the size, in bytes, of sectors on the disk.
 
 
-### -param PartitionNumber [in]
+#### - PartitionNumber [in]
 
 Specifies the partition number on the device whose partition type is to be set.
 
 
-### -param PartitionType [in]
+#### - PartitionType [in]
 
 Specifies the type for the partition. For a list of some of the key partition types see <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>. 
 
@@ -116,9 +116,9 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
-
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
+
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: edc257bc-2805-47d8-827a-536e5d74793b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowRemoveContext0, FwpsFlowRemoveContext0, netvista.fwpsflowremovecontext0
+ms.keywords: fwpsk/FwpsFlowRemoveContext0, netvista.fwpsflowremovecontext0, FwpsFlowRemoveContext0, wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS NTAPI FwpsFlowRemoveContext0(
 
 
 
-### -param flowId [in]
+#### - flowId [in]
 
 A run-time identifier that specifies the data flow from which to remove the context. The run-time
      identifier for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE
@@ -79,7 +79,7 @@ A run-time identifier that specifies the data flow from which to remove the cont
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
 
 
-### -param layerId [in]
+#### - layerId [in]
 
 The run-time identifier for the filtering layer from which the context is being removed. For more
      information, see 
@@ -89,7 +89,7 @@ The run-time identifier for the filtering layer from which the context is being 
      <a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a> function to associate the context with the data flow.
 
 
-### -param calloutId [in]
+#### - calloutId [in]
 
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called either the 
@@ -161,15 +161,15 @@ If the
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
 
  
 

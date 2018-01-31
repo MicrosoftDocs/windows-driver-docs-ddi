@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 731ae55e-8cfb-4b76-b811-dbdabd8dd067
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortWriteRegisterUchar, storage.storportwriteregisteruchar, StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml, StorPortWriteRegisterUchar routine [Storage Devices]
+ms.keywords: StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices], storage.storportwriteregisteruchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml, storport/StorPortWriteRegisterUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ STORPORT_API VOID StorPortWriteRegisterUchar(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory space range returned by <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>. 
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the value to be written to the HBA's register.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c9fa1506-ffef-44a8-9b25-9033280e0c33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2, print.iprintcoreui2_drvupgraderegistrysetting, prcomoem/IPrintCoreUI2::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintCoreUI2 interface, DrvUpgradeRegistrySetting, IPrintCoreUI2::DrvUpgradeRegistrySetting, IPrintCoreUI2 interface [Print Devices], DrvUpgradeRegistrySetting method, print_unidrv-pscript_ui_e7337077-8ed0-4c41-a182-99764e17b55c.xml, DrvUpgradeRegistrySetting method [Print Devices]
+ms.keywords: IPrintCoreUI2::DrvUpgradeRegistrySetting, IPrintCoreUI2, DrvUpgradeRegistrySetting method [Print Devices], print_unidrv-pscript_ui_e7337077-8ed0-4c41-a182-99764e17b55c.xml, prcomoem/IPrintCoreUI2::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintCoreUI2 interface, print.iprintcoreui2_drvupgraderegistrysetting, IPrintCoreUI2 interface [Print Devices], DrvUpgradeRegistrySetting method, DrvUpgradeRegistrySetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ STDMETHOD DrvUpgradeRegistrySetting(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 Caller-supplied printer handle.
 
 
-### -param pFeature
+#### - pFeature
 
 Caller-supplied pointer to a string identifying a printer feature name contained in the printer's GPD or PPD file.
 
 
-### -param pOption
+#### - pOption
 
 Caller-supplied pointer to a string identifying an option name, associated with the specified feature, contained in the printer's GPD or PPD file.
 

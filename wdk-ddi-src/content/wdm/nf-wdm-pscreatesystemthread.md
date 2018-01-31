@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsCreateSystemThread, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.pscreatesystemthread, wdm/PsCreateSystemThread
+ms.keywords: wdm/PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.pscreatesystemthread, PsCreateSystemThread, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ NTSTATUS PsCreateSystemThread(
 
 
 
-### -param ThreadHandle [out]
+#### - ThreadHandle [out]
 
 Points to a variable that will receive the handle. The driver must close the handle with <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> once the handle is no longer in use. This handle is a kernel handle for Windows Vista and later versions of Windows. In earlier versions of Windows, the handle might not be a kernel handle.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the requested types of access to the created thread.
 
 
-### -param ObjectAttributes [in, optional]
+#### - ObjectAttributes [in, optional]
 
 Points to a structure that specifies the object's attributes. OBJ_PERMANENT, OBJ_EXCLUSIVE, and OBJ_OPENIF are not valid attributes for a thread object. On Windows XP and later versions of Windows, if the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute for <i>ObjectAttributes</i>. Drivers for Microsoft Windows 2000 and Windows 98/Me must only call <b>PsCreateSystemThread</b> from the system process context. For Windows Vista and later versions of Windows, the handle will be a kernel handle.
 
 
-### -param ProcessHandle [in, optional]
+#### - ProcessHandle [in, optional]
 
 Specifies an open handle for the process in whose address space the thread is to be run. The caller's thread must have PROCESS_CREATE_THREAD access to this process. If this parameter is not supplied, the thread will be created in the initial system process. This value should be <b>NULL</b> for a driver-created thread. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
 
-### -param ClientId [out, optional]
+#### - ClientId [out, optional]
 
 Points to a structure that receives the client identifier of the new thread. This value should be <b>NULL</b> for a driver-created thread.
 
 
-### -param StartRoutine [in]
+#### - StartRoutine [in]
 
 The entry point for the newly created system thread. This parameter is a function pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a> routine that receives a single argument, which is the <i>StartContext</i> parameter value supplied by the caller.
 
 
-### -param StartContext [in, optional]
+#### - StartContext [in, optional]
 
 Supplies a single argument that is passed to the thread when it begins execution.
 
@@ -147,15 +147,15 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
 
 <a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
 <a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
 
  
 

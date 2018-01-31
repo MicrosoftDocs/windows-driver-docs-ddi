@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f6f50bba-cda5-41ed-9e0b-1aea5113a22b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, NdisSetCoalescableTimerObject, ndis/NdisSetCoalescableTimerObject, netvista.ndissetcoalescabletimerobject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndissetcoalescabletimerobject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, ndis/NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], NdisSetCoalescableTimerObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,14 +75,14 @@ BOOLEAN NdisSetCoalescableTimerObject(
 
 
 
-### -param TimerObject [in]
+#### - TimerObject [in]
 
 A handle to a timer object that NDIS provides when a driver calls the 
      <mshelp:link keywords="netvista.ndisallocatetimerobject" tabindex="0"><b>
      NdisAllocateTimerObject</b></mshelp:link> function.
 
 
-### -param DueTime [in]
+#### - DueTime [in]
 
 The absolute or relative time at which the timer will expire. If the value of the 
      <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time.
@@ -91,7 +91,7 @@ The absolute or relative time at which the timer will expire. If the value of th
      expiration times are not affected by system time changes.
 
 
-### -param MillisecondsPeriod [in, optional]
+#### - MillisecondsPeriod [in, optional]
 
 The optional periodic time interval, in milliseconds, that elapses between every instance when the
      timer fires and the next call to the 
@@ -100,7 +100,7 @@ The optional periodic time interval, in milliseconds, that elapses between every
      non-periodic.
 
 
-### -param FunctionContext [in, optional]
+#### - FunctionContext [in, optional]
 
 A pointer to a caller-supplied context area that NDIS passes to the associated 
      <i>NetTimerCallback</i> function when a timer fires. If this parameter is <b>NULL</b>, NDIS uses the default
@@ -109,7 +109,7 @@ A pointer to a caller-supplied context area that NDIS passes to the associated
      NDIS_TIMER_CHARACTERISTICS</b></mshelp:link> structure.
 
 
-### -param Tolerance [in, optional]
+#### - Tolerance [in, optional]
 
 The tolerance, in milliseconds, between the timer period specified by 
      <i>MillisecondsPeriod</i> and the initial time interval specified by 
@@ -197,17 +197,17 @@ To cancel a timer, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
-
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
  
 

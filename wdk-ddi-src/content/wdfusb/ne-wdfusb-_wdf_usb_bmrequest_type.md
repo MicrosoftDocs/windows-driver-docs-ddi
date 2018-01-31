@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c20e7aec-32e7-401d-8c40-aa6ac191e857
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: BmRequestVendor, wdfusb/WDF_USB_BMREQUEST_TYPE, wdfusb/BmRequestClass, WDF_USB_BMREQUEST_TYPE, kmdf.wdf_usb_bmrequest_type, _WDF_USB_BMREQUEST_TYPE, BmRequestClass, wdfusb/BmRequestVendor, BmRequestStandard, wdfusb/BmRequestStandard, WDF_USB_BMREQUEST_TYPE enumeration, wdf.wdf_usb_bmrequest_type, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml
+ms.keywords: wdfusb/WDF_USB_BMREQUEST_TYPE, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml, wdf.wdf_usb_bmrequest_type, BmRequestVendor, kmdf.wdf_usb_bmrequest_type, _WDF_USB_BMREQUEST_TYPE, BmRequestClass, wdfusb/BmRequestStandard, wdfusb/BmRequestVendor, BmRequestStandard, WDF_USB_BMREQUEST_TYPE enumeration, wdfusb/BmRequestClass, WDF_USB_BMREQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _WDF_USB_BMREQUEST_TYPE {
 
 
 
-### -field BmRequestStandard
+#### - BmRequestStandard
 
 The data transfer is a standard USB control transfer.
 
 
-### -field BmRequestClass
+#### - BmRequestClass
 
 The data transfer is a device class-specific USB control transfer.
 
 
-### -field BmRequestVendor
+#### - BmRequestVendor
 
 The data transfer is a vendor-specific USB control transfer.
 

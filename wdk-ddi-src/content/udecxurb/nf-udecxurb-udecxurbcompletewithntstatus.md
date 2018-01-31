@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses]
+ms.keywords: UdecxUrbCompleteWithNtStatus function [Buses], udecxurb/UdecxUrbCompleteWithNtStatus, buses.udecxurbcompletewithntstatus, UdecxUrbCompleteWithNtStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUrbCompleteWithNtStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH"
+req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ FORCEINLINE void UdecxUrbCompleteWithNtStatus(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
 
 
-### -param NtStatus [in]
+#### - NtStatus [in]
 
 A <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a>-typed value that indicates the success or failure of the completed URB request. 
 

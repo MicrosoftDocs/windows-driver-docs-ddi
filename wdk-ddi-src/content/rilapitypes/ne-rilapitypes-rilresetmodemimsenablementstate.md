@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6cce25c0-a192-4472-b0ac-3b4fadf8f9e2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RILRESETMODEMIMSENABLEMENTSTATE, netvista.rilresetmodemimsenablementstate_2, RIL_RESETMODEM_ENABLED, rilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, rilapitypes/RIL_RESETMODEM_ENABLED
+ms.keywords: RILRESETMODEMIMSENABLEMENTSTATE, rilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], netvista.rilresetmodemimsenablementstate_2, rilapitypes/RIL_RESETMODEM_ENABLED, RIL_RESETMODEM_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,6 +72,6 @@ typedef enum _RILRESETMODEMIMSENABLEMENTSTATE {
 
 
 
-### -field RIL_RESETMODEM_ENABLED
+#### - RIL_RESETMODEM_ENABLED
 
 

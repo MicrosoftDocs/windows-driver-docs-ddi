@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c771f360-3641-4e3e-9536-86b31af97932
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033, D3D12DDI_DEVICE_FUNCS_CORE_0033 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_CORE_0033, display.d3d12ddi-device-funcs-core-0033
+ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0033 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033, D3D12DDI_DEVICE_FUNCS_CORE_0033, display.d3d12ddi-device-funcs-core-0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -158,462 +158,462 @@ typedef struct _D3D12DDI_DEVICE_FUNCS_CORE_0033 {
 
 
 
-### -field pfnCheckFormatSupport
+#### - pfnCheckFormatSupport
 
 Check format support.
 
 
-### -field pfnCheckMultisampleQualityLevels
+#### - pfnCheckMultisampleQualityLevels
 
 Check multi sample quality levels.
 
 
-### -field pfnGetMipPacking
+#### - pfnGetMipPacking
 
 Get MIP packing.
 
 
-### -field pfnCalcPrivateElementLayoutSize
+#### - pfnCalcPrivateElementLayoutSize
 
 Calculate private element layout size.
 
 
-### -field pfnCreateElementLayout
+#### - pfnCreateElementLayout
 
 Create element layout.
 
 
-### -field pfnDestroyElementLayout
+#### - pfnDestroyElementLayout
 
 Destroy element layout.
 
 
-### -field pfnCalcPrivateBlendStateSize
+#### - pfnCalcPrivateBlendStateSize
 
 Calculate private blend state size.
 
 
-### -field pfnCreateBlendState
+#### - pfnCreateBlendState
 
 Create blend state.
 
 
-### -field pfnDestroyBlendState
+#### - pfnDestroyBlendState
 
 Destroy blend state.
 
 
-### -field pfnCalcPrivateDepthStencilStateSize
+#### - pfnCalcPrivateDepthStencilStateSize
 
 Calculate private depth stencil state size.
 
 
-### -field pfnCreateDepthStencilState
+#### - pfnCreateDepthStencilState
 
 Create depth stencil state.
 
 
-### -field pfnDestroyDepthStencilState
+#### - pfnDestroyDepthStencilState
 
 Destroy depth stencil state.
 
 
-### -field pfnCalcPrivateRasterizerStateSize
+#### - pfnCalcPrivateRasterizerStateSize
 
 Calculate private rasterizer state size.
 
 
-### -field pfnCreateRasterizerState
+#### - pfnCreateRasterizerState
 
 Create rasterizer state.
 
 
-### -field pfnDestroyRasterizerState
+#### - pfnDestroyRasterizerState
 
 Destroy rasterizer state.
 
 
-### -field pfnCalcPrivateShaderSize
+#### - pfnCalcPrivateShaderSize
 
 Calculate private shader size.
 
 
-### -field pfnCreateVertexShader
+#### - pfnCreateVertexShader
 
 Create vertex shader.
 
 
-### -field pfnCreatePixelShader
+#### - pfnCreatePixelShader
 
 Create pixel shader.
 
 
-### -field pfnCreateGeometryShader
+#### - pfnCreateGeometryShader
 
 Create geometry shader.
 
 
-### -field pfnCreateComputeShader
+#### - pfnCreateComputeShader
 
 Create compute shader.
 
 
-### -field pfnCalcPrivateGeometryShaderWithStreamOutput
+#### - pfnCalcPrivateGeometryShaderWithStreamOutput
 
 Calculate private geometry shader with stream output.
 
 
-### -field pfnCreateGeometryShaderWithStreamOutput
+#### - pfnCreateGeometryShaderWithStreamOutput
 
 Create geometry shader with stream output.
 
 
-### -field pfnCalcPrivateTessellationShaderSize
+#### - pfnCalcPrivateTessellationShaderSize
 
 Calculate private tessellation shader size.
 
 
-### -field pfnCreateHullShader
+#### - pfnCreateHullShader
 
 Create hull shader.
 
 
-### -field pfnCreateDomainShader
+#### - pfnCreateDomainShader
 
 Create domain shader.
 
 
-### -field pfnDestroyShader
+#### - pfnDestroyShader
 
 Destroy shader.
 
 
-### -field pfnCalcPrivateCommandQueueSize
+#### - pfnCalcPrivateCommandQueueSize
 
 Calculate private command queue size.
 
 
-### -field pfnCreateCommandQueue
+#### - pfnCreateCommandQueue
 
 Create command queue.
 
 
-### -field pfnDestroyCommandQueue
+#### - pfnDestroyCommandQueue
 
 Destroy command queue.
 
 
-### -field pfnCalcPrivateCommandAllocatorSize
+#### - pfnCalcPrivateCommandAllocatorSize
 
 Calculate private command allocator size.
 
 
-### -field pfnCreateCommandAllocator
+#### - pfnCreateCommandAllocator
 
 Create command allocator.
 
 
-### -field pfnDestroyCommandAllocator
+#### - pfnDestroyCommandAllocator
 
 Destroy command allocator.
 
 
-### -field pfnResetCommandAllocator
+#### - pfnResetCommandAllocator
 
 Reset command allocator.
 
 
-### -field pfnCalcPrivatePipelineStateSize
+#### - pfnCalcPrivatePipelineStateSize
 
 Calculate private pipeline state size.
 
 
-### -field pfnCreatePipelineState
+#### - pfnCreatePipelineState
 
 Create pipeline state.
 
 
-### -field pfnDestroyPipelineState
+#### - pfnDestroyPipelineState
 
 Destroy pipeline state.
 
 
-### -field pfnCalcPrivateCommandListSize
+#### - pfnCalcPrivateCommandListSize
 
 Calculate private command list size.
 
 
-### -field pfnCreateCommandList
+#### - pfnCreateCommandList
 
 Create command list.
 
 
-### -field pfnDestroyCommandList
+#### - pfnDestroyCommandList
 
 Destroy command list.
 
 
-### -field pfnCalcPrivateFenceSize
+#### - pfnCalcPrivateFenceSize
 
 Calculate private fence size.
 
 
-### -field pfnCreateFence
+#### - pfnCreateFence
 
 Create fence.
 
 
-### -field pfnDestroyFence
+#### - pfnDestroyFence
 
 Destroy fence.
 
 
-### -field pfnCalcPrivateDescriptorHeapSize
+#### - pfnCalcPrivateDescriptorHeapSize
 
 Calculate private descriptor heap size.
 
 
-### -field pfnCreateDescriptorHeap
+#### - pfnCreateDescriptorHeap
 
 Create descriptor heap.
 
 
-### -field pfnDestroyDescriptorHeap
+#### - pfnDestroyDescriptorHeap
 
 Destroy descriptor heap.
 
 
-### -field pfnGetDescriptorSizeInBytes
+#### - pfnGetDescriptorSizeInBytes
 
 Get descriptor size in bytes.
 
 
-### -field pfnGetCPUDescriptorHandleForHeapStart
+#### - pfnGetCPUDescriptorHandleForHeapStart
 
 Get CPU descriptor handle for heap start.
 
 
-### -field pfnGetGPUDescriptorHandleForHeapStart
+#### - pfnGetGPUDescriptorHandleForHeapStart
 
 Get GPU descriptor handle for heap start.
 
 
-### -field pfnCreateShaderResourceView
+#### - pfnCreateShaderResourceView
 
 Create shader resource view.
 
 
-### -field pfnCreateConstantBufferView
+#### - pfnCreateConstantBufferView
 
 Create constant buffer view.
 
 
-### -field pfnCreateSampler
+#### - pfnCreateSampler
 
 Create sampler.
 
 
-### -field pfnCreateUnorderedAccessView
+#### - pfnCreateUnorderedAccessView
 
 Create unordered access view.
 
 
-### -field pfnCreateRenderTargetView
+#### - pfnCreateRenderTargetView
 
 Create render target view.
 
 
-### -field pfnCreateDepthStencilView
+#### - pfnCreateDepthStencilView
 
 Create depth stencil view.
 
 
-### -field pfnCalcPrivateRootSignatureSize
+#### - pfnCalcPrivateRootSignatureSize
 
 Calculate private root signature size.
 
 
-### -field pfnCreateRootSignature
+#### - pfnCreateRootSignature
 
 Create root signature.
 
 
-### -field pfnDestroyRootSignature
+#### - pfnDestroyRootSignature
 
 Destroy root signature.
 
 
-### -field pfnMapHeap
+#### - pfnMapHeap
 
 Map heap.
 
 
-### -field pfnUnmapHeap
+#### - pfnUnmapHeap
 
 Unmap heap.
 
 
-### -field pfnCalcPrivateHeapAndResourceSizes
+#### - pfnCalcPrivateHeapAndResourceSizes
 
 Calculate private heap and resource sizes.
 
 
-### -field pfnCreateHeapAndResource
+#### - pfnCreateHeapAndResource
 
 Create heap and resource.
 
 
-### -field pfnDestroyHeapAndResource
+#### - pfnDestroyHeapAndResource
 
 Destroy heap and resource.
 
 
-### -field pfnMakeResident
+#### - pfnMakeResident
 
 Make resident.
 
 
-### -field pfnEvict
+#### - pfnEvict
 
 Evict.
 
 
-### -field pfnCalcPrivateOpenedHeapAndResourceSizes
+#### - pfnCalcPrivateOpenedHeapAndResourceSizes
 
 Calculate private opened heap and resource sizes.
 
 
-### -field pfnOpenHeapAndResource
+#### - pfnOpenHeapAndResource
 
 Open heap and resource.
 
 
-### -field pfnCopyDescriptors
+#### - pfnCopyDescriptors
 
 Copy descriptors.
 
 
-### -field pfnCopyDescriptorsSimple
+#### - pfnCopyDescriptorsSimple
 
 Copy descriptors sample.
 
 
-### -field pfnCalcPrivateQueryHeapSize
+#### - pfnCalcPrivateQueryHeapSize
 
 Calculate private query heap size.
 
 
-### -field pfnCreateQueryHeap
+#### - pfnCreateQueryHeap
 
 Create query heap.
 
 
-### -field pfnDestroyQueryHeap
+#### - pfnDestroyQueryHeap
 
 Destroy query heap.
 
 
-### -field pfnCalcPrivateCommandSignatureSize
+#### - pfnCalcPrivateCommandSignatureSize
 
 Calculate private command signature size.
 
 
-### -field pfnCreateCommandSignature
+#### - pfnCreateCommandSignature
 
 Create command signature.
 
 
-### -field pfnDestroyCommandSignature
+#### - pfnDestroyCommandSignature
 
 Destroy command signature.
 
 
-### -field pfnCheckResourceVirtualAddress
+#### - pfnCheckResourceVirtualAddress
 
 Check resource virtual address.
 
 
-### -field pfnCheckResourceAllocationInfo
+#### - pfnCheckResourceAllocationInfo
 
 Check resource allocation info.
 
 
-### -field pfnCheckSubresourceInfo
+#### - pfnCheckSubresourceInfo
 
 check subresource info.
 
 
-### -field pfnCheckExistingResourceAllocationInfo
+#### - pfnCheckExistingResourceAllocationInfo
 
 Check existing resource allocation info.
 
 
-### -field pfnOfferResources
+#### - pfnOfferResources
 
 Offer resources.
 
 
-### -field pfnReclaimResources
+#### - pfnReclaimResources
 
 Reclaim resources.
 
 
-### -field pfnGetImplicitPhysicalAdapterMask
+#### - pfnGetImplicitPhysicalAdapterMask
 
 Get implicit physical adapter mask.
 
 
-### -field pfnGetPresentPrivateDriverDataSize
+#### - pfnGetPresentPrivateDriverDataSize
 
 Get present private driver data size.
 
 
-### -field pfnQueryNodeMap
+#### - pfnQueryNodeMap
 
 Query node map.
 
 
-### -field pfnRetrieveShaderComment
+#### - pfnRetrieveShaderComment
 
 Retrieve shader comment.
 
 
-### -field pfnCheckResourceAllocationHandle
+#### - pfnCheckResourceAllocationHandle
 
 Check resource allocation handle.
 
 
-### -field pfnCalcPrivatePipelineLibrarySize
+#### - pfnCalcPrivatePipelineLibrarySize
 
 Calculate private pipeline library size.
 
 
-### -field pfnCreatePipelineLibrary
+#### - pfnCreatePipelineLibrary
 
 Create pipeline library.
 
 
-### -field pfnDestroyPipelineLibrary
+#### - pfnDestroyPipelineLibrary
 
 Destroy pipeline library.
 
 
-### -field pfnAddPipelineStateToLibrary
+#### - pfnAddPipelineStateToLibrary
 
 Add pipeline state to library.
 
 
-### -field pfnCalcSerializedLibrarySize
+#### - pfnCalcSerializedLibrarySize
 
 Calculate serialized library size.
 
 
-### -field pfnSerializeLibrary
+#### - pfnSerializeLibrary
 
 Serialize library.
 
 
-### -field pfnGetDebugAllocationInfo
+#### - pfnGetDebugAllocationInfo
 
 Get debug allocation info.
 

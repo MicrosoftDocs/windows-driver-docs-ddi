@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c1acc574-6e9e-40a1-8892-00572fcc545c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GBA_UNKNOWN, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], oemrilapitypes/RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_ME_SUPPORTED, RIL_GBA_U_SUPPORTED, RILGBACAPABLE, RIL_GBA_ME_SUPPORTED, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_U_SUPPORTED, RIL_GBA_NOT_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RILGBACAPABLE
+ms.keywords: netvista.rilgbacapable, oemrilapitypes/RILGBACAPABLE, oemrilapitypes/RIL_GBA_UNKNOWN, RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_ME_SUPPORTED, RIL_GBA_ME_SUPPORTED, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RILGBACAPABLE, RIL_GBA_U_SUPPORTED, oemrilapitypes/RIL_GBA_U_SUPPORTED, RIL_GBA_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,18 +70,18 @@ typedef enum _RILGBACAPABLE {
 
 
 
-### -field RIL_GBA_UNKNOWN
+#### - RIL_GBA_UNKNOWN
 
 
 
-### -field RIL_GBA_NOT_SUPPORTED
+#### - RIL_GBA_NOT_SUPPORTED
 
 
 
-### -field RIL_GBA_ME_SUPPORTED
+#### - RIL_GBA_ME_SUPPORTED
 
 
 
-### -field RIL_GBA_U_SUPPORTED
+#### - RIL_GBA_U_SUPPORTED
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DBB172A0-957E-4FAC-9727-D72B060E3193
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS, *PNET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.net_buffer_list_pool_parameters, _NET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS
+ms.keywords: "*PNET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.net_buffer_list_pool_parameters, PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS, _NET_BUFFER_LIST_POOL_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct _NET_BUFFER_LIST_POOL_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -91,7 +91,7 @@ Original version for NDIS 6.0.
 Set the <b>Size</b> member to NDIS_SIZEOF_NET_BUFFER_LIST_POOL_PARAMETERS_REVISION_1.
 
 
-### -field ProtocolId
+#### - ProtocolId
 
 The type of caller. Miniport, filter, and intermediate drivers set this field to zero
        (NDIS_PROTOCOL_ID_DEFAULT). Protocol drivers use one of the following values:
@@ -120,7 +120,7 @@ Specifies the IPX protocol.
 Specifies the NetBEUI protocol.
 
 
-### -field fAllocateNetBuffer
+#### - fAllocateNetBuffer
 
 If this member is set to TRUE, NDIS allocates a pool of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is initialized with one 
        <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. 
@@ -131,7 +131,7 @@ If this member is set to FALSE, NDIS allocates a pool of <a href="..\ndis\ns-ndi
 For more information, see the Remarks section.
 
 
-### -field ContextSize
+#### - ContextSize
 
 The size, in bytes, of the preallocated 
        <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure
@@ -139,7 +139,7 @@ The size, in bytes, of the preallocated
        <b>ContextSize</b> must be a multiple of the value that is defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -field PoolTag
+#### - PoolTag
 
 A kernel pool tag that the caller uses when it allocates NET_BUFFER_LIST structures from this
        pool. The tag is a string, delimited by single quotation marks, with up to four characters, usually
@@ -147,7 +147,7 @@ A kernel pool tag that the caller uses when it allocates NET_BUFFER_LIST structu
        <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are allocated from this pool.
 
 
-### -field DataSize
+#### - DataSize
 
 The default data size, in bytes, for data buffers that are associated with this 
        <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool, if any. NDIS uses
@@ -181,11 +181,11 @@ The <i>Parameters</i> parameter of the <a href="..\ndis\nf-ndis-ndisallocatenetb
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

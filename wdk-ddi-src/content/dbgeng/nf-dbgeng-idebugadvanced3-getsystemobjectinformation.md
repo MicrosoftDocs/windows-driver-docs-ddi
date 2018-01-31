@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7e95a16e-e62d-49df-9889-fab0a85f9cbc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced2::GetSystemObjectInformation, IDebugAdvanced3::GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, debugger.getsystemobjectinformation, IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, GetSystemObjectInformation, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced3::GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml
+ms.keywords: IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, GetSystemObjectInformation method [Windows Debugging], dbgeng/IDebugAdvanced3::GetSystemObjectInformation, IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced3::GetSystemObjectInformation, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, GetSystemObjectInformation, IDebugAdvanced2::GetSystemObjectInformation, debugger.getsystemobjectinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ HRESULT GetSystemObjectInformation(
 
 
 
-### -param Which [in]
+#### - Which [in]
 
 Specifies the type of object and the type of information to return about that object.  <i>Which</i> can take the following value.
 <table>
@@ -94,7 +94,7 @@ Returns details of the thread specified by engine thread ID.
 </table> 
 
 
-### -param Arg64 [in]
+#### - Arg64 [in]
 
 Specifies a 64-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
@@ -106,7 +106,7 @@ Specifies a 64-bit argument.  This parameter has the following interpretations d
 Not used.
 
 
-### -param Arg32 [in]
+#### - Arg32 [in]
 
 Specifies a 32-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
@@ -118,7 +118,7 @@ Specifies a 32-bit argument.  This parameter has the following interpretations d
 The engine thread ID of the desired thread.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the requested information.  The type of data returned in <i>Buffer</i> depends on the value of <i>Which</i>.
 <table>
@@ -141,12 +141,12 @@ DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
 </table> 
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in bytes, of the buffer <i>Buffer</i>.
 
 
-### -param InfoSize [out, optional]
+#### - InfoSize [out, optional]
 
 Receives the size of the information that is returned.
 
@@ -188,11 +188,11 @@ The method was successful. However, the information would not fit in the buffer 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
 
  
 

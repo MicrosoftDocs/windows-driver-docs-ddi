@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EE7ABC3D-948B-481B-B254-40A05EDEB83D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses.ucx_default_endpoint_event_callbacks_init
+ms.keywords: ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, buses.ucx_default_endpoint_event_callbacks_init, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ FORCEINLINE void UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT(
 
 
 
-### -param Callbacks [out]
+#### - Callbacks [out]
 
 A pointer to a <a href="..\ucxendpoint\ns-ucxendpoint-_ucx_default_endpoint_event_callbacks.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS</a> structure that contains pointers to the client driver's event callback functions.
 
 
-### -param EvtEndpointPurge [in]
+#### - EvtEndpointPurge [in]
 
 A pointer to client driver's implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_purge.md">EVT_UCX_ENDPOINT_PURGE</a>                     event callback function.
 
 
-### -param EvtEndpointStart [in]
+#### - EvtEndpointStart [in]
 
 A pointer to client driver's implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_start.md">EVT_UCX_ENDPOINT_START</a>                     event callback function.
 
 
-### -param EvtEndpointAbort [in]
+#### - EvtEndpointAbort [in]
 
 A pointer to client driver's implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_abort.md">EVT_UCX_ENDPOINT_ABORT</a>                     event callback function.
 
 
-### -param EvtEndpointOkToCancelTransfers [in]
+#### - EvtEndpointOkToCancelTransfers [in]
 
 A pointer to client driver's implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_ok_to_cancel_transfers.md">EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS</a>    event callback function.
 
 
-### -param EvtDefaultEndpointUpdate [in]
+#### - EvtDefaultEndpointUpdate [in]
 
 A pointer to client driver's implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_default_endpoint_update.md">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>    event callback function.
 

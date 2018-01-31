@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: afe92cb5-519a-46a3-a66d-c01b6a2c780b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIA_PROPERTY_CONTEXT structure [Imaging Devices], wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], wiamindr_lh/WIA_PROPERTY_CONTEXT, image.wia_property_context, wiamindr_lh/PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT, _WIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT, *PWIA_PROPERTY_CONTEXT
+ms.keywords: image.wia_property_context, WIA_PROPERTY_CONTEXT, _WIA_PROPERTY_CONTEXT, *PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT structure [Imaging Devices], wiamindr_lh/WIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], wiamindr_lh/PWIA_PROPERTY_CONTEXT, wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIA_PROPERTY_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: WIA_PROPERTY_CONTEXT, *PWIA_PROPERTY_CONTEXT
+req.typenames: "*PWIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _WIA_PROPERTY_CONTEXT {
 
 
 
-### -field cProps
+#### - cProps
 
 Specifies the number of property identifiers stored in this structure.
 
 
-### -field pProps
+#### - pProps
 
 Is an array of property identifiers that indicate the properties being written.
 
 
-### -field pChanged
+#### - pChanged
 
 Is an array of Boolean values indicating which properties are changing. A member of this array is <b>TRUE</b> if the corresponding property is changing, and <b>FALSE</b> if the corresponding property is not changing. That is, if <b>pChanged</b>[n] is <b>TRUE</b>, <b>pProps</b>[n] will be changed, and if <b>pChanged</b>[n] is <b>FALSE</b>, <b>pProps</b>[n] will not be changed.
 
@@ -96,25 +96,25 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasupdatevalidformat.md">wiasUpdateValidFormat</a>
+<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasupdatescanrect.md">wiasUpdateScanRect</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetpropchanged.md">wiasSetPropChanged</a>
+<a href="..\wiamdef\nf-wiamdef-wiasupdatevalidformat.md">wiasUpdateValidFormat</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
 
+<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
+
 <a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetpropchanged.md">wiasSetPropChanged</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02fe418f-1793-4585-9891-1274a4ddba74
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryInformation method, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, debugger.getsymbolentryinformation
+ms.keywords: GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], debugger.getsymbolentryinformation, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryInformation method, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetSymbolEntryInformation(
 
 
 
-### -param Id [in]
+#### - Id [in]
 
 Specifies the module and symbol ID of the desired symbol.  For details on this structure, see <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>.
 
 
-### -param Info [out]
+#### - Info [out]
 
 Receives the symbol entry information for the symbol.  For details on this structure, see <a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>.
 

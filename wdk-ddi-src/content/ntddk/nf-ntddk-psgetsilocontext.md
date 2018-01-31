@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08C795F2-64F9-4EFE-AA25-3B2FCB31D062
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetSiloContext routine [Kernel-Mode Driver Architecture], ntddk/PsGetSiloContext, PsGetSiloContext, kernel.psgetsilocontext
+ms.keywords: kernel.psgetsilocontext, PsGetSiloContext, ntddk/PsGetSiloContext, PsGetSiloContext routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS PsGetSiloContext(
 
 
 
-### -param Silo [in]
+#### - Silo [in]
 
 The silo where the silo context is to exist. This parameter is required and it cannot be <b>NULL</b>.
 
 
-### -param ContextSlot [in]
+#### - ContextSlot [in]
 
 The slot where the silo context is to exist. A slot allocated by the <a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> routine.
 
 
-### -param ReturnedSiloContext
+#### - ReturnedSiloContext
 
 Receives a referenced pointer to the silo context. On failure, the value received will be <b>NULL</b>.
 

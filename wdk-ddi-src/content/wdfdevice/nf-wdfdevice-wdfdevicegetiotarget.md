@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a0749324-8b4e-4b82-8c51-b1b8883d521e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicegetiotarget, DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, WdfDeviceGetIoTarget, wdfdevice/WdfDeviceGetIoTarget, PFN_WDFDEVICEGETIOTARGET, kmdf.wdfdevicegetiotarget, WdfDeviceGetIoTarget method
+ms.keywords: WdfDeviceGetIoTarget method, wdf.wdfdevicegetiotarget, wdfdevice/WdfDeviceGetIoTarget, DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, kmdf.wdfdevicegetiotarget, WdfDeviceGetIoTarget, PFN_WDFDEVICEGETIOTARGET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFIOTARGET WdfDeviceGetIoTarget(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 

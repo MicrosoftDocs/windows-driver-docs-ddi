@@ -40,7 +40,7 @@ apiname:
 -	SetRenderTargets
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11DDI_SETRENDERTARGETS callback
@@ -88,7 +88,7 @@ VOID APIENTRY SetRenderTargets(
 
 
 
-### -param NumRTVs [in]
+#### - NumRTVs [in]
 
  The number of elements in the array that <i>phRenderTargetView</i> specifies for the render target views (RTVs) to set. 
 
@@ -105,7 +105,7 @@ VOID APIENTRY SetRenderTargets(
 
 
 
-### -param NumUAVs [in]
+#### - NumUAVs [in]
 
  The number of unordered access view objects (UAVs) to set. 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fcad4b8e-4273-43ff-8077-a96d1bd4640a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceInitSetIoType, DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, PFN_WDFDEVICEINITSETIOTYPE, kmdf.wdfdeviceinitsetiotype, wdf.wdfdeviceinitsetiotype, WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method
+ms.keywords: WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method, wdfdevice/WdfDeviceInitSetIoType, DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, PFN_WDFDEVICEINITSETIOTYPE, kmdf.wdfdeviceinitsetiotype, wdf.wdfdeviceinitsetiotype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ void WdfDeviceInitSetIoType(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param IoType [in]
+#### - IoType [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed enumerator that identifies the method that the driver will use to access data buffers that it receives for read and write requests.
 
@@ -108,9 +108,9 @@ For more information about buffer-access methods, see <a href="https://docs.micr
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
-
 <a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0"> IWDFDeviceInitialize2::SetIoTypePreference</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
 

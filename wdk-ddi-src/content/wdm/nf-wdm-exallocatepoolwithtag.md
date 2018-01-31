@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a9951e7b-60a2-4bf2-913c-b7291d7c3173
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, ExAllocatePoolWithTag, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], wdm/ExAllocatePoolWithTag, kernel.exallocatepoolwithtag
+ms.keywords: k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], kernel.exallocatepoolwithtag, ExAllocatePoolWithTag, wdm/ExAllocatePoolWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ PVOID ExAllocatePoolWithTag(
 
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 The type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>.
 
@@ -79,12 +79,12 @@ You can modify the <i>PoolType</i> value by bitwise-ORing this value with the PO
 Similarly, you can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is supported starting with Windows XP.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 The number of bytes to allocate.
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 The pool tag to use for the allocated memory. Specify the pool tag as a character literal of up to four characters delimited by single quotation marks (for example, 'Tag1'). The string is usually specified in reverse order (for example, '1gaT'). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x126 (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
 
@@ -122,13 +122,13 @@ Callers of <b>ExAllocatePoolWithTag</b> must be executing at IRQL &lt;= DISPATCH
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
 
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
  
 

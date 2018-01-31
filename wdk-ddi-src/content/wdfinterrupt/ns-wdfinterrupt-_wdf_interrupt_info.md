@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7e626306-6ad9-4d99-a578-60bf69a3e73d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_interrupt_info, WDF_INTERRUPT_INFO structure, DFInterruptObjectRef_3f4ade63-40f9-4d5a-96a0-e4f7013171d5.xml, *PWDF_INTERRUPT_INFO, wdfinterrupt/PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, kmdf.wdf_interrupt_info, PWDF_INTERRUPT_INFO, _WDF_INTERRUPT_INFO, wdfinterrupt/WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO
+ms.keywords: WDF_INTERRUPT_INFO, kmdf.wdf_interrupt_info, _WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, wdfinterrupt/WDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, PWDF_INTERRUPT_INFO, DFInterruptObjectRef_3f4ade63-40f9-4d5a-96a0-e4f7013171d5.xml, wdf.wdf_interrupt_info, wdfinterrupt/PWDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_INTERRUPT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -81,62 +81,62 @@ typedef struct _WDF_INTERRUPT_INFO {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Reserved1
+#### - Reserved1
 
 This member is reserved for future use. 
 
 
-### -field TargetProcessorSet
+#### - TargetProcessorSet
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed value that specifies the interrupt's processor affinity.
 
 
-### -field Reserved2
+#### - Reserved2
 
 This member is reserved for future use. 
 
 
-### -field MessageNumber
+#### - MessageNumber
 
 If the <b>MessageSignaled</b> member is <b>TRUE</b>, this is the interrupt's message number.
 
 
-### -field Vector
+#### - Vector
 
 The interrupt vector.
 
 
-### -field Irql
+#### - Irql
 
 The IRQL at which the device interrupts.
 
 
-### -field Mode
+#### - Mode
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered.
 
 
-### -field Polarity
+#### - Polarity
 
 A <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>-typed enumerator that identifies the interrupt signal's polarity.
 
 
-### -field MessageSignaled
+#### - MessageSignaled
 
 A Boolean value that, if <b>TRUE</b>, indicates that the interrupt is message-signaled. If <b>FALSE</b>, the interrupt is not message-signaled.
 
 
-### -field ShareDisposition
+#### - ShareDisposition
 
 A CM_SHARE_DISPOSITION-typed enumerator that indicates whether the interrupt is being shared. The value is <b>CmResourceShareShared</b> if the interrupt is being shared or <b>CmResourceShareDeviceExclusive</b> if the interrupt is not being shared. The CM_SHARE_DISPOSITION enumeration type is defined in <i>Wdm.h</i>.
 
 
-### -field Group
+#### - Group
 
 A value that identifies the processor group that the <b>TargetProcessorSet</b> member applies to. This value is zero if the computer has only one processor group or if the operating system does not support processor groups. The <b>Group</b> member is available in version 1.9 and later versions of KMDF.
 
@@ -150,15 +150,15 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="..\wdfi
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
 <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
 
  
 

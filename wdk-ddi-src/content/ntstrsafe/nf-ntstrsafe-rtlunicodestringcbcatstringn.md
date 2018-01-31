@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bc2139d2-9d59-4d19-a4b5-ce0a993a9846
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodestringcbcatstringn, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], RtlUnicodeStringCbCatStringN, ntstrsafe/RtlUnicodeStringCbCatStringN, safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml
+ms.keywords: RtlUnicodeStringCbCatStringN, ntstrsafe/RtlUnicodeStringCbCatStringN, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml, kernel.rtlunicodestringcbcatstringn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlUnicodeStringCbCatStringN(
 
 
 
-### -param DestinationString [in, out]
+#### - DestinationString [in, out]
 
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 A caller-supplied pointer to a null-terminated string. This string will be concatenated to the end of the destination string that is contained in the <b>UNICODE_STRING</b> structure that <i>DestinationString</i> points to.
 
 
-### -param cbToAppend [in]
+#### - cbToAppend [in]
 
 The maximum number of bytes to append to the string that the <i>DestinationString</i> parameter describes.
 

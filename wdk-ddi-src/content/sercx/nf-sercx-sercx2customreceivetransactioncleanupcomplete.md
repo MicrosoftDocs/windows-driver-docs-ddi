@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 45CCCD97-94FD-457B-8315-06DC701B22A2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CustomReceiveTransactionCleanupComplete method [Serial Ports], SerCx2CustomReceiveTransactionCleanupComplete, 2/SerCx2CustomReceiveTransactionCleanupComplete, serports.sercx2customreceivetransactioncleanupcomplete
+ms.keywords: SerCx2CustomReceiveTransactionCleanupComplete, 2/SerCx2CustomReceiveTransactionCleanupComplete, serports.sercx2customreceivetransactioncleanupcomplete, SerCx2CustomReceiveTransactionCleanupComplete method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID SerCx2CustomReceiveTransactionCleanupComplete(
 
 
 
-### -param CustomReceiveTransaction [in]
+#### - CustomReceiveTransaction [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml, IPrintOemUni::TTYGetInfo, TTYGetInfo method [Print Devices], TTYGetInfo, TTYGetInfo method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::TTYGetInfo, print.iprintoemuni_ttygetinfo, IPrintOemUni interface [Print Devices], TTYGetInfo method
+ms.keywords: print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml, print.iprintoemuni_ttygetinfo, TTYGetInfo, IPrintOemUni, prcomoem/IPrintOemUni::TTYGetInfo, TTYGetInfo method [Print Devices], IPrintOemUni interface [Print Devices], TTYGetInfo method, TTYGetInfo method [Print Devices], IPrintOemUni interface, IPrintOemUni::TTYGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,12 +72,12 @@ HRESULT TTYGetInfo(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param dwInfoIndex
+#### - dwInfoIndex
 
 Caller-supplied constant identifying the type of information being requested. The following constant values are defined:
 
@@ -110,17 +110,17 @@ The <i>pOutputBuf</i> parameter points to a DWORD in which the method should ret
 The <i>pOutputBuf</i> parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY_INFO_NUM_UFMS in a query.) The method should return the resource IDs of the <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">UFMs</a> for 10,12, and 17 CPI fonts. 
 
 
-### -param pOutputBuf
+#### - pOutputBuf
 
 Caller-supplied pointer to a buffer to receive the requested information.
 
 
-### -param dwSize
+#### - dwSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputBuf</i>.
 
 
-### -param pcbcNeeded
+#### - pcbcNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pOutputBuf</i>. If the number of bytes required is smaller than the number specified by <i>dwSize</i>, the method should supply the required size and return E_FAIL.
 

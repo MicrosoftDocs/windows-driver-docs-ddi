@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 770962e3-0339-46f8-a789-7c9bbf9e058f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_association_completion_parameters, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_association_completion_parameters, DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, DOT11_ASSOCIATION_COMPLETION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ASSOCIATION_COMPLETION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
+req.typenames: "*PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -98,7 +98,7 @@ typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. This member
      is formatted as an 
@@ -130,20 +130,20 @@ This member must be set to
        <code>sizeof(DOT11_ASSOCIATION_COMPLETION_PARAMETERS)</code>.
 
 
-### -field MacAddr
+#### - MacAddr
 
 The media access control (MAC) address of the access point (AP) (for infrastructure BSS networks)
      or peer station (for independent BSS (IBSS) networks) that the 802.11 station attempted to connect
      to.
 
 
-### -field uStatus
+#### - uStatus
 
 The completion status of the association operation, as specified by a value defined for 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>.
 
 
-### -field bReAssocReq
+#### - bReAssocReq
 
 A Boolean value that indicates whether the 802.11 station sent an 802.11 Association or
      Reassociation frame to the AP. If <b>TRUE</b>, the 802.11 station sent an 801.11 Reassociation Request frame to
@@ -156,7 +156,7 @@ A value of <b>TRUE</b> for the
      <b>dot11_BSS_type_infrastructure</b>.
 
 
-### -field bReAssocResp
+#### - bReAssocResp
 
 A Boolean value that indicates whether the 802.11 station received an 802.11 Association or
      Reassociation frame from the AP. If <b>TRUE</b>, the 802.11 station received an 802.11 Reassociation Response
@@ -170,7 +170,7 @@ A value of <b>TRUE</b> for the
      <b>dot11_BSS_type_infrastructure</b>.
 
 
-### -field uAssocReqOffset
+#### - uAssocReqOffset
 
 The offset of the request frame that is used in the association operation. The frame does not
       include the 802.11 MAC header.
@@ -208,7 +208,7 @@ If the
       <b>uAssocReqSize</b> to zero.
 
 
-### -field uAssocReqSize
+#### - uAssocReqSize
 
 The length of the request frame that is used in the association operation. The length of the frame
      does not include the 802.11 MAC header.
@@ -220,7 +220,7 @@ If the
      <b>uAssocReqSize</b> member to zero.
 
 
-### -field uAssocRespOffset
+#### - uAssocRespOffset
 
 The offset of the response frame that is used in the association operation. The frame does not
       include the 802.11 MAC header.
@@ -255,7 +255,7 @@ If the
       operation.
 
 
-### -field uAssocRespSize
+#### - uAssocRespSize
 
 The length of the response frame that is used in the association operation. The length of the frame
       does not include the 802.11 MAC header.
@@ -266,7 +266,7 @@ If the
       <b>uAssocRespSize</b> member to zero.
 
 
-### -field uBeaconOffset
+#### - uBeaconOffset
 
 The offset of the last received 802.11 Beacon or Probe Response frames. The miniport driver must
       exclude the 802.11 MAC header for these frames when making the 
@@ -281,13 +281,13 @@ This offset is relative to the start of the buffer, which contains the
       <b>uBeaconOffset</b> and 
       <b>uBeaconSize</b> members to zero.</div><div> </div>
 
-### -field uBeaconSize
+#### - uBeaconSize
 
 The length of the last received 802.11 Beacon frame. The length of the frame does not include the
      802.11 MAC header.
 
 
-### -field uIHVDataOffset
+#### - uIHVDataOffset
 
 The offset of a block of data in a proprietary format that is defined by the IHV. The IHV can use
       this data block for any purposes that are related to the 
@@ -303,7 +303,7 @@ If the miniport driver is not returning IHV data in the
       <b>uIHVDataOffset</b> to zero.
 
 
-### -field uIHVDataSize
+#### - uIHVDataSize
 
 The length of the block of data that is used by the IHV for the 
      <mshelp:link keywords="netvista.ndis_status_dot11_association_completion" tabindex="0">
@@ -312,7 +312,7 @@ The length of the block of data that is used by the IHV for the
      <b>uIHVDataSize</b> to zero.
 
 
-### -field AuthAlgo
+#### - AuthAlgo
 
 The authentication algorithm that the 802.11 station resolved with the AP or peer station during
      the association operation. For more information about the data type for the 
@@ -324,7 +324,7 @@ The miniport driver must set this member to zero if
      <b>uStatus</b> is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
 
-### -field UnicastCipher
+#### - UnicastCipher
 
 The unicast cipher algorithm that the 802.11 station resolved with the AP or peer station during
      the association operation. For more information about the data type for the 
@@ -336,7 +336,7 @@ The miniport driver must set this member to zero if
      <b>uStatus</b> is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
 
-### -field MulticastCipher
+#### - MulticastCipher
 
 The multicast cipher algorithm that the 802.11 station resolved with the AP or peer station during
      the association operation. For more information about the data type for the 
@@ -348,7 +348,7 @@ The miniport driver must set this member to zero if
      <b>uStatus</b> is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
 
-### -field uActivePhyListOffset
+#### - uActivePhyListOffset
 
 The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive
       packets on the BSS network connection.
@@ -380,14 +380,14 @@ The miniport driver must set the
       <b>uStatus</b> is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
 
-### -field uActivePhyListSize
+#### - uActivePhyListSize
 
 The length of the active PHY list. The 
      <b>uActivePhyListSize</b> member must be a multiple of 
      <code>sizeof(ULONG)</code>.
 
 
-### -field bFourAddressSupported
+#### - bFourAddressSupported
 
 A Boolean value that, if set to <b>TRUE</b>, specifies that the 802.11 station has associated with an AP
      that supports distribution system (DS) services for ISO Layer 2 bridging on any station in the BSS
@@ -416,7 +416,7 @@ The
 </li>
 </ul>
 
-### -field bPortAuthorized
+#### - bPortAuthorized
 
 A Boolean value that, if set to <b>TRUE</b>, specifies that the 802.11 station has successfully performed
      port authorization during the association operation. Port authorization could be based on either the
@@ -440,7 +440,7 @@ The
      Access</mshelp:link>.
 
 
-### -field ucActiveQoSProtocol
+#### - ucActiveQoSProtocol
 
 A flag that specifies the quality of service (QoS) protocol that is currently active for this
      association. This member is either zero (indicating that no QoS protocol is active) or one of the
@@ -460,7 +460,7 @@ The NIC is using the 802.11 WMM QoS protocol.
 The NIC is using the 802.11e QoS protocol.
 
 
-### -field DSInfo
+#### - DSInfo
 
 A DOT11_DS_INFO value that specifies whether the 802.11 station is connected to the same DS from
      the previous association operation.
@@ -493,7 +493,7 @@ The miniport driver cannot determine whether the DS has changed after the associ
        operation.
 
 
-### -field uEncapTableOffset
+#### - uEncapTableOffset
 
 The offset of the list of IEEE EtherType encapsulations for the BSS association.
 
@@ -509,17 +509,17 @@ For more information about the EtherType encapsulation list, see
       Encapsulation</mshelp:link>.
 
 
-### -field uEncapTableSize
+#### - uEncapTableSize
 
 The length of the EtherType encapsulation list.
 
 
-### -field MulticastMgmtCipher
+#### - MulticastMgmtCipher
 
 The multicast cipher algorithm the NIC chooses (negotiates) for the association for management frame protection (MFP). If MFP is negotiated, this member should be DOT11_CIPHER_ALGO_BIP. If MFP is not negotiated, this field should be DOT11_CIPHER_ALGO_NONE.
 
 
-### -field uAssocComebackTime
+#### - uAssocComebackTime
 
 When a (re)association fails with 802.11 reason code 30 ("Association request rejected temporarily, try again later.") this member indicates the value of the association comeback time requested by the access point (AP). The 802.11 disassociation reason code is present in the lowest 16 bits of <b>uStatus</b> when responding to an association request.
 
@@ -564,26 +564,26 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\windot11\ns-windot11-dot11_encap_entry.md">DOT11_ENCAP_ENTRY</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
 OID_DOT11_DESIRED_BSS_TYPE
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
 <mshelp:link keywords="netvista.ndis_status_dot11_association_completion" tabindex="0">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</mshelp:link>
 
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
+
 <a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

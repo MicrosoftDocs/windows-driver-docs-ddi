@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8d670887-e8bb-4b99-99ae-16c0dd9c4431
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics, _MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, storage.msiscsi_initiatorloginstatistics, *PMSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, iscsiprf/MSiSCSI_InitiatorLoginStatistics
+ms.keywords: PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], _MSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics, PMSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, *PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], iscsiprf/MSiSCSI_InitiatorLoginStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct _MSiSCSI_InitiatorLoginStatistics {
 
 
 
-### -field UniqueAdapterId
+#### - UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
 
 
-### -field LoginAcceptRsps
+#### - LoginAcceptRsps
 
 The number of login accept responses. 
 
 
-### -field LoginOtherFailRsps
+#### - LoginOtherFailRsps
 
 The number of failed responses.
 
 
-### -field LoginRedirectRsps
+#### - LoginRedirectRsps
 
 The number of redirect responses.
 
 
-### -field LoginAuthFailRsps
+#### - LoginAuthFailRsps
 
 The number of logon responses that failed because the initiator and target did not have compatible authentication algorithms.
 
 
-### -field LoginAuthenticateFails
+#### - LoginAuthenticateFails
 
 The number of logons that failed because of a target authentication failure (the initiator and target did not have matching credentials).
 
 
-### -field LoginNegotiateFails
+#### - LoginNegotiateFails
 
 The number of logons that failed because of negotiation failures.
 
 
-### -field LogoutNormals
+#### - LogoutNormals
 
 The number of logoff PDUs with a reason code of 0.
 
 
-### -field LogoutOtherCodes
+#### - LogoutOtherCodes
 
 The number of logoff PDUs with a status code other than 0.
 
 
-### -field LoginFailures
+#### - LoginFailures
 
 The number of times that a logon attempt by the initiator has failed.
 

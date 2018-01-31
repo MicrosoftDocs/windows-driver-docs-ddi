@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 642a085f-03d4-438a-8584-c1f420161e94
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_sendreadcapacity, HBA_SendReadCapacity, fibreHBA_rtns_0defc2d1-5d08-4d31-981e-09dbb0d700a7.xml, hbaapi/HBA_SendReadCapacity, HBA_SendReadCapacity routine [Storage Devices]
+ms.keywords: hbaapi/HBA_SendReadCapacity, HBA_SendReadCapacity, storage.hba_sendreadcapacity, fibreHBA_rtns_0defc2d1-5d08-4d31-981e-09dbb0d700a7.xml, HBA_SendReadCapacity routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,22 +88,22 @@ TBD
 TBD
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that receives the output data of the SCSI read capacity command.
 
 
-### -param RspBufferSize [in]
+#### - RspBufferSize [in]
 
 Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.
 
 
-### -param pSenseBuffer [out]
+#### - pSenseBuffer [out]
 
 Pointer to a buffer that receives the SCSI sense data.
 
 
-### -param SenseBufferSize [in]
+#### - SenseBufferSize [in]
 
 On input, indicates on input the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
 
@@ -204,9 +204,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

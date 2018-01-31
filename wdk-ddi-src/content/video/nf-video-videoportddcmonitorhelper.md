@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e4bd9c7-73be-47bc-b4e7-daea7781c46b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, VideoPortDDCMonitorHelper function [Display Devices], display.videoportddcmonitorhelper, VideoPortDDCMonitorHelper, video/VideoPortDDCMonitorHelper
+ms.keywords: video/VideoPortDDCMonitorHelper, VideoPortDDCMonitorHelper function [Display Devices], VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, VideoPortDDCMonitorHelper, display.videoportddcmonitorhelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ BOOLEAN VideoPortDDCMonitorHelper(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the miniport driver's device extension.
 
 
-### -param DDCControl [in]
+#### - DDCControl [in]
 
 A pointer to a <a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a> structure.
 
 
-### -param EdidBuffer [in, out]
+#### - EdidBuffer [in, out]
 
 A pointer to a buffer in which the video port driver returns the <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">EDID</a> structure. For ACPI devices, the first four bytes are preset by the video port driver to indicate an attempt to read the <i>EDID</i>. 
 
 
-### -param EdidBufferSize [in]
+#### - EdidBufferSize [in]
 
 The size in bytes of the buffer to which <i>EdidBuffer</i> points.
 
@@ -136,15 +136,15 @@ No EDID
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
-
 <a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
 
 <a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
 

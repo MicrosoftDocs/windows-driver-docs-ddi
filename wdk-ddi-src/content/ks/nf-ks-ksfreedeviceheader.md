@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7e30dde-ace5-47f0-a1e8-b8337ada1550
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_25c133a5-3c21-476f-84f5-b208284d9234.xml, ks/KsFreeDeviceHeader, KsFreeDeviceHeader function [Streaming Media Devices], stream.ksfreedeviceheader, KsFreeDeviceHeader
+ms.keywords: KsFreeDeviceHeader, ksfunc_25c133a5-3c21-476f-84f5-b208284d9234.xml, ks/KsFreeDeviceHeader, stream.ksfreedeviceheader, KsFreeDeviceHeader function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KsFreeDeviceHeader(
 
 
 
-### -param Header [in]
+#### - Header [in]
 
 Indicates the device header to free that had been previously allocated by <b>KsAllocateDeviceHeader</b>.
 

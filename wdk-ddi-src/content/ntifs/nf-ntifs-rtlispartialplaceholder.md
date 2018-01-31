@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsPartialPlaceholder, ifsk.rtlispartialplaceholder, ntifs/RtlIsPartialPlaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlispartialplaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers], ntifs/RtlIsPartialPlaceholder, RtlIsPartialPlaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN RtlIsPartialPlaceholder(
 
 
 
-### -param FileAttributes [in]
+#### - FileAttributes [in]
 
 Specifies the file attributes of a file or directory.
 
 
-### -param ReparseTag [in]
+#### - ReparseTag [in]
 
 The ReparseTag or EaSize of a file or directory.
 

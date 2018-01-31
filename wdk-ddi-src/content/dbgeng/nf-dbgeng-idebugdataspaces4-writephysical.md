@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ec691a7c-a569-49dd-af13-bfbf403be297
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WritePhysical method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical method [Windows Debugging], IDebugDataSpaces2 interface, WritePhysical method [Windows Debugging], WritePhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2 interface [Windows Debugging], WritePhysical method, dbgeng/IDebugDataSpaces2::WritePhysical, IDebugDataSpaces3 interface [Windows Debugging], WritePhysical method, IDebugDataSpaces2::WritePhysical, dbgeng/IDebugDataSpaces3::WritePhysical, IDebugDataSpaces_0e781d56-64f8-4518-b748-5afe9f43c429.xml, WritePhysical, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical method, WritePhysical method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces::WritePhysical, dbgeng/IDebugDataSpaces4::WritePhysical, IDebugDataSpaces4, debugger.writephysical3, IDebugDataSpaces interface [Windows Debugging], WritePhysical method, IDebugDataSpaces4::WritePhysical, IDebugDataSpaces3::WritePhysical, IDebugDataSpaces::WritePhysical
+ms.keywords: WritePhysical, IDebugDataSpaces::WritePhysical, debugger.writephysical3, IDebugDataSpaces2::WritePhysical, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], WritePhysical method, WritePhysical method [Windows Debugging], IDebugDataSpaces4::WritePhysical, dbgeng/IDebugDataSpaces4::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces3 interface, WritePhysical method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical method, WritePhysical method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces interface [Windows Debugging], WritePhysical method, IDebugDataSpaces3::WritePhysical, dbgeng/IDebugDataSpaces::WritePhysical, dbgeng/IDebugDataSpaces2::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces_0e781d56-64f8-4518-b748-5afe9f43c429.xml, IDebugDataSpaces2 interface [Windows Debugging], WritePhysical method, dbgeng/IDebugDataSpaces3::WritePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ HRESULT WritePhysical(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the physical address of the memory to write the data to.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Specifies the data to write.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
 
-### -param BytesWritten [out, optional]
+#### - BytesWritten [out, optional]
 
 Receives the number of bytes written to the target's memory.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 

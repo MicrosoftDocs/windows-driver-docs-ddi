@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 935E4BAD-2B4E-44DD-8AE6-A0FD1FE9F2BF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNext method [Windows Debugging], extsfns/IDebugFailureAnalysis2::GetNext, GetNext method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_getnext, IDebugFailureAnalysis2::GetNext, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetNext method, GetNext
+ms.keywords: IDebugFailureAnalysis2, GetNext, IDebugFailureAnalysis2::GetNext, IDebugFailureAnalysis2 interface [Windows Debugging], GetNext method, extsfns/IDebugFailureAnalysis2::GetNext, debugger.idebugfailureanalysis2_getnext, GetNext method [Windows Debugging], GetNext method [Windows Debugging], IDebugFailureAnalysis2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ PFA_ENTRY GetNext(
 
 
 
-### -param Entry [in]
+#### - Entry [in]
 
 A pointer to an <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. The search starts after this <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a>. If this parameter is <b>NULL</b>, the starts at the beginning of the collection of FA entries.
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param TagMask [in]
+#### - TagMask [in]
 
 A mask that restricts the search to a subset of all possible tags. See Remarks. To search all possible tags, set this parameter to <b>DEBUG_FLR_MASK_ALL</b>.
 
@@ -130,15 +130,15 @@ DEBUG_FLR_FILE_LINE,
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983422">NextEntry</a>
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
 
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

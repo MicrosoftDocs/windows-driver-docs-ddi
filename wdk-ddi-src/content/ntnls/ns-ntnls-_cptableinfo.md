@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PCPTABLEINFO, ntnls/CPTABLEINFO, ntnls/PCPTABLEINFO, kernel.cptableinfo, CPTABLEINFO structure [Kernel-Mode Driver Architecture], _CPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], CPTABLEINFO, PCPTABLEINFO"
+ms.keywords: "*PCPTABLEINFO, _CPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], ntnls/PCPTABLEINFO, PCPTABLEINFO, CPTABLEINFO structure [Kernel-Mode Driver Architecture], kernel.cptableinfo, CPTABLEINFO, ntnls/CPTABLEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CPTABLEINFO
 product: Windows
 targetos: Windows
-req.typenames: CPTABLEINFO, *PCPTABLEINFO
+req.typenames: "*PCPTABLEINFO, CPTABLEINFO"
 ---
 
 # _CPTABLEINFO structure
@@ -78,62 +78,62 @@ typedef struct _CPTABLEINFO {
 
 
 
-### -field CodePage
+#### - CodePage
 
 Specifies the code page number.
 
 
-### -field MaximumCharacterSize
+#### - MaximumCharacterSize
 
 Specifies the maximum length in bytes of a character.
 
 
-### -field DefaultChar
+#### - DefaultChar
 
 Specifies the default character (MB).
 
 
-### -field UniDefaultChar
+#### - UniDefaultChar
 
 Specifies the default character (Unicode).
 
 
-### -field TransDefaultChar
+#### - TransDefaultChar
 
 Specifies the translation of the default character (Unicode).
 
 
-### -field TransUniDefaultChar
+#### - TransUniDefaultChar
 
 Specifies the translation of the Unicode default character (MB).
 
 
-### -field DBCSCodePage
+#### - DBCSCodePage
 
 Specifies non-zero for DBCS code pages.
 
 
-### -field LeadByte
+#### - LeadByte
 
 Specifies the lead byte ranges.
 
 
-### -field MultiByteTable
+#### - MultiByteTable
 
 Specifies a pointer to a MB translation table.
 
 
-### -field WideCharTable
+#### - WideCharTable
 
 Specifies a pointer to a WC translation table.
 
 
-### -field DBCSRanges
+#### - DBCSRanges
 
 Specifies a pointer to DBCS ranges.
 
 
-### -field DBCSOffsets
+#### - DBCSOffsets
 
 Specifies a pointer to DBCS offsets.
 

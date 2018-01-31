@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 49b69282-137d-4bb5-92f5-4d27cedbb6d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAdvanceNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_b03aee2c-859d-425f-9b07-91b324505ff4.xml, ndis/NdisAdvanceNetBufferDataStart, NdisAdvanceNetBufferDataStart, netvista.ndisadvancenetbufferdatastart
+ms.keywords: NdisAdvanceNetBufferDataStart function [Network Drivers Starting with Windows Vista], netvista.ndisadvancenetbufferdatastart, ndis_netbuf_functions_ref_b03aee2c-859d-425f-9b07-91b324505ff4.xml, ndis/NdisAdvanceNetBufferDataStart, NdisAdvanceNetBufferDataStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ VOID NdisAdvanceNetBufferDataStart(
 
 
 
-### -param NetBuffer [in]
+#### - NetBuffer [in]
 
 A pointer to a previously allocated 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
 
 
-### -param DataOffsetDelta [in]
+#### - DataOffsetDelta [in]
 
 The amount of 
      <i>used data space</i> to release. NDIS adjusts the value of the 
      <b>DataOffset</b> member of the NET_BUFFER structure accordingly.
 
 
-### -param FreeMdl [in]
+#### - FreeMdl [in]
 
 A BOOLEAN value that, if <b>TRUE</b>, requests NDIS to free any MDLs that become unused in the advance
      operation. If 
      <i>FreeMdl</i> is <b>FALSE</b>, NDIS retains unused MDLs for use in subsequent retreat operations.
 
 
-### -param FreeMdlHandler [in, optional]
+#### - FreeMdlHandler [in, optional]
 
 An optional entry point for an 
      <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a> function. If the caller
@@ -139,10 +139,10 @@ When protocol drivers call
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 <mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
    NdisRetreatNetBufferDataStart</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
 

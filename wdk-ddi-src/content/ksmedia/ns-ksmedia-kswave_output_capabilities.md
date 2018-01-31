@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f7d534d-bfd8-4aca-a14d-97c047fb5aeb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_7660f724-15c2-419f-a0d9-c432069547a3.xml, KSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_OUTPUT_CAPABILITIES structure pointer [Streaming Media Devices], PKSWAVE_OUTPUT_CAPABILITIES, ksmedia/PKSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES, stream.kswave_output_capabilities, ksmedia/KSWAVE_OUTPUT_CAPABILITIES
+ms.keywords: "*PKSWAVE_OUTPUT_CAPABILITIES, PKSWAVE_OUTPUT_CAPABILITIES, stream.kswave_output_capabilities, KSWAVE_OUTPUT_CAPABILITIES structure [Streaming Media Devices], ksmedia/PKSWAVE_OUTPUT_CAPABILITIES, PKSWAVE_OUTPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_7660f724-15c2-419f-a0d9-c432069547a3.xml, KSWAVE_OUTPUT_CAPABILITIES, ksmedia/KSWAVE_OUTPUT_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,102 +86,102 @@ typedef struct {
 
 
 
-### -field MaximumChannelsPerConnection
+#### - MaximumChannelsPerConnection
 
 Specifies the maximum number of channels per connection.
 
 
-### -field MinimumBitsPerSample
+#### - MinimumBitsPerSample
 
 Specifies the minimum bits per sample.
 
 
-### -field MaximumBitsPerSample
+#### - MaximumBitsPerSample
 
 Specifies the maximum bits per sample.
 
 
-### -field MinimumSampleFrequency
+#### - MinimumSampleFrequency
 
 Specifies the minimum sampling frequency.
 
 
-### -field MaximumSampleFrequency
+#### - MaximumSampleFrequency
 
 Specifies the maximum sampling frequency.
 
 
-### -field TotalConnections
+#### - TotalConnections
 
 Indicates the total number of connections.
 
 
-### -field StaticConnections
+#### - StaticConnections
 
 Indicates the number of static connections.
 
 
-### -field StreamingConnections
+#### - StreamingConnections
 
 Indicates the number of streaming connections.
 
 
-### -field ActiveConnections
+#### - ActiveConnections
 
 Indicates the number of active connections.
 
 
-### -field ActiveStaticConnections
+#### - ActiveStaticConnections
 
 Indicates the number of active static connections.
 
 
-### -field ActiveStreamingConnections
+#### - ActiveStreamingConnections
 
 Indicates the number of active streaming connections.
 
 
-### -field Total3DConnections
+#### - Total3DConnections
 
 Indicates the total number of 3D connections.
 
 
-### -field Static3DConnections
+#### - Static3DConnections
 
 Indicates the number of static 3D connections.
 
 
-### -field Streaming3DConnections
+#### - Streaming3DConnections
 
 Indicates the number of streaming 3D connections.
 
 
-### -field Active3DConnections
+#### - Active3DConnections
 
 Indicates the number of active 3D connections.
 
 
-### -field ActiveStatic3DConnections
+#### - ActiveStatic3DConnections
 
 Indicates the number of static 3D connections.
 
 
-### -field ActiveStreaming3DConnections
+#### - ActiveStreaming3DConnections
 
 Indicates the number of streaming 3D connections.
 
 
-### -field TotalSampleMemory
+#### - TotalSampleMemory
 
 Specifies the total amount of sample memory.
 
 
-### -field FreeSampleMemory
+#### - FreeSampleMemory
 
 Specifies the available free sample memory.
 
 
-### -field LargestFreeContiguousSampleMemory
+#### - LargestFreeContiguousSampleMemory
 
 Specifies the largest, free contiguous amount of sample memory.
 

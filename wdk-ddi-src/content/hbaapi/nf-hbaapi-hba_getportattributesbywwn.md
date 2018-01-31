@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79d63b5e-78b0-452a-aa84-695c59a7d4a5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetPortAttributesByWWN, hbaapi/HBA_GetPortAttributesByWWN, storage.hba_getportattributesbywwn, fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, HBA_GetPortAttributesByWWN routine [Storage Devices]
+ms.keywords: HBA_GetPortAttributesByWWN routine [Storage Devices], HBA_GetPortAttributesByWWN, hbaapi/HBA_GetPortAttributesByWWN, fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, storage.hba_getportattributesbywwn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ HBA_STATUS HBA_API HBA_GetPortAttributesByWWN(
 TBD
 
 
-### -param PortWWN [in]
+#### - PortWWN [in]
 
 Contains the worldwide name (WWN) of the port whose attributes to retrieve. For a definition of worldwide names, see the T11 committee's <i>Fibre Channel HBA API </i>specification .
 
@@ -111,11 +111,11 @@ The <b>HBA_GetPortAttributesByWWN</b> routine serves a purpose very similar to t
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, wdm/ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], kernel.exregistercallback, ExRegisterCallback
+ms.keywords: k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, wdm/ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], ExRegisterCallback, kernel.exregistercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ PVOID ExRegisterCallback(
 
 
 
-### -param CallbackObject [in, out]
+#### - CallbackObject [in, out]
 
 A pointer to a callback object obtained from the <a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a> routine.
 
 
-### -param CallbackFunction [in]
+#### - CallbackFunction [in]
 
 A pointer to a driver-implemented callback routine, which must be nonpageable. The callback routine must conform to the following prototype:
 <div class="code"><span codelanguage=""><table>
@@ -112,7 +112,7 @@ A pointer to a parameter defined by the callback object.
 A pointer to a parameter defined by the callback object.
 
 
-### -param CallbackContext [in, optional]
+#### - CallbackContext [in, optional]
 
 A pointer to a caller-defined structure of data items to be passed as the context parameter of the callback routine each time it is called. Typically the context is part of the caller's device object extension.
 
@@ -147,15 +147,15 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
-
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+<a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
 
 <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
 
 <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
-<a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
+<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
+
+<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
 
  
 

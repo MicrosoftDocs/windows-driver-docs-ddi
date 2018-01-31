@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfmemory/WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, WdfMemoryCreate, DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, wdf.wdfmemorycreate
+ms.keywords: WdfMemoryCreate, wdf.wdfmemorycreate, WdfMemoryCreate method, wdfmemory/WdfMemoryCreate, DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, kmdf.wdfmemorycreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,17 +78,17 @@ NTSTATUS WdfMemoryCreate(
 
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new memory object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
 
 
-### -param PoolTag [in, optional]
+#### - PoolTag [in, optional]
 
 A driver-defined pool tag for the allocated memory. Debuggers display this tag. Drivers typically specify a character string of up to four characters, delimited by single quotation marks, in reverse order (for example, 'dcba'). The ASCII value of each character in the tag must be between 0 and 127. Debugging your driver is easier if each pool tag is unique. 
 
@@ -97,17 +97,17 @@ If <i>PoolTag</i> is zero, the framework provides a default pool tag that uses t
 For KMDF versions 1.5 and later, your driver can use the <b>DriverPoolTag</b> member of the <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a> structure to specify a default pool tag.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The nonzero specified size, in bytes, of the buffer. 
 
 
-### -param Memory [out]
+#### - Memory [out]
 
 A pointer to a location that receives a handle to the new memory object.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 A pointer to a location that receives a pointer to the buffer that is associated with the new memory object. This parameter is optional and can be <b>NULL</b>.
 
@@ -176,17 +176,17 @@ If your driver specifies <b>PagedPool</b> for <i>PoolType</i>, the <b>WdfMemoryC
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 

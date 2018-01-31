@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bbde78d-49f4-4181-9d92-312010322a7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoGetFunctionCodeFromCtlCode, kernel.iogetfunctioncodefromctlcode, IoGetFunctionCodeFromCtlCode, k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture]
+ms.keywords: k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, IoGetFunctionCodeFromCtlCode, kernel.iogetfunctioncodefromctlcode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture], wdm/IoGetFunctionCodeFromCtlCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,7 +68,7 @@ ULONG IoGetFunctionCodeFromCtlCode(
 
 
 
-### -param ControlCode [in]
+#### - ControlCode [in]
 
 The IOCTL_<i>XXX</i> (or FSCTL_<i>XXX</i>) value, which can be obtained from the driver's I/O stack location of the IRP at <b>Parameters.DeviceIoControl.IoControlCode</b>.
 

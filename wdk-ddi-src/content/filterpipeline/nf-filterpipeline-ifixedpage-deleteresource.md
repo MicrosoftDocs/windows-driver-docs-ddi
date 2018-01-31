@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11aefa65-9f1c-4a6e-aac0-8727c6e00a02
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IFixedPage::DeleteResource, DeleteResource method [Print Devices], IFixedPage interface, print.ifixedpage_deleteresource, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, IFixedPage, DeleteResource method [Print Devices], filterpipeline/IFixedPage::DeleteResource, DeleteResource, IFixedPage interface [Print Devices], DeleteResource method
+ms.keywords: IFixedPage interface [Print Devices], DeleteResource method, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, DeleteResource method [Print Devices], IFixedPage interface, filterpipeline/IFixedPage::DeleteResource, IFixedPage, DeleteResource method [Print Devices], DeleteResource, print.ifixedpage_deleteresource, IFixedPage::DeleteResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT DeleteResource(
 
 
 
-### -param uri [in]
+#### - uri [in]
 
 The URI to the resource that should be unassociated from the page.
 

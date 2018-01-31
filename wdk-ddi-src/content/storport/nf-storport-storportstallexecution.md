@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d635d93b-3e69-4ce5-9dc0-60186417d009
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportstallexecution, StorPortStallExecution, storport/StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml, StorPortStallExecution routine [Storage Devices]
+ms.keywords: StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml, StorPortStallExecution routine [Storage Devices], storage.storportstallexecution, storport/StorPortStallExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ STORPORT_API VOID StorPortStallExecution(
 
 
 
-### -param Delay [in]
+#### - Delay [in]
 
 Specifies the delay interval, in microseconds. The given value must be less than a full millisecond. 
 

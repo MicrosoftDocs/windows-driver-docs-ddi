@@ -76,22 +76,22 @@ TAPE_STATUS (*TAPE_PROCESS_COMMAND_ROUTINE)(
 
 
 
-### -param MinitapeExtension [in, out]
+#### - MinitapeExtension [in, out]
 
 Pointer to the driver-specific minitape extension. This is <b>NULL</b> if the miniclass driver did not request a minitape extension when it initialized.
 
 
-### -param CommandExtension [in, out]
+#### - CommandExtension [in, out]
 
 Pointer to the command extension. This is <b>NULL</b> if the miniclass driver did not request a command extension when it initialized.
 
 
-### -param CommandParameters [in, out]
+#### - CommandParameters [in, out]
 
 Pointer to a buffer allocated by the caller that contains a <a href="..\ntddtape\ns-ntddtape-_tape_create_partition.md">TAPE_CREATE_PARTITION</a> structure.
 
 
-### -param Srb [in, out]
+#### - Srb [in, out]
 
 Pointer to an SRB allocated and partially filled in by the tape class driver. <i>TAPE_PROCESS_COMMAND_ROUTINE</i> must fill in the CDB in the SRB. 
 <ul>
@@ -123,17 +123,17 @@ Pointer to an SRB allocated and partially filled in by the tape class driver. <i
 </li>
 </ul>
 
-### -param CallNumber [in]
+#### - CallNumber [in]
 
 Specifies the number of times <i>TAPE_PROCESS_COMMAND_ROUTINE</i> has been called to process a given tape command. <i>CallNumber</i> is zero the first time this routine is called and is incremented for each subsequent call until the miniclass driver returns a <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> value that indicates the command is complete.
 
 
-### -param StatusOfLastCommand [in, optional]
+#### - StatusOfLastCommand [in, optional]
 
 Specifies the status of the last command. In the first call to <i>TAPE_PROCESS_COMMAND_ROUTINE</i> to process a given request, <i>StatusOfLastCommand </i>is TAPE_STATUS_SUCCESS. In subsequent calls, <i>StatusOfLastCommand </i>is either TAPE_STATUS_SUCCESS or an error status if an error occurred and the tape miniclass driver set RETURN_ERRORS in <i>RetryFlags</i> in the previous call. 
 
 
-### -param RetryFlags [in, out]
+#### - RetryFlags [in, out]
 
 Pointer to a variable that specifies what action the tape class driver should take when a tape device reports an error.
 
@@ -280,13 +280,13 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-<a href="..\minitape\nf-minitape-tapeclassallocatesrbbuffer.md">TapeClassAllocateSrbBuffer</a>
-
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 <a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+<a href="..\minitape\nf-minitape-tapeclassallocatesrbbuffer.md">TapeClassAllocateSrbBuffer</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57220a12-e53d-482a-afb6-09bfbbf0d870
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverMiniportUnload method, DFDriverObjectRef_aac24375-fae4-4310-b273-d3d2f4c13d69.xml, wdf.wdfdriverminiportunload, kmdf.wdfdriverminiportunload, wdfminiport/WdfDriverMiniportUnload, WdfDriverMiniportUnload
+ms.keywords: wdfminiport/WdfDriverMiniportUnload, DFDriverObjectRef_aac24375-fae4-4310-b273-d3d2f4c13d69.xml, WdfDriverMiniportUnload method, wdf.wdfdriverminiportunload, kmdf.wdfdriverminiportunload, WdfDriverMiniportUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDriverMiniportUnload
 product: Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
+req.typenames: "*PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ VOID WdfDriverMiniportUnload(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 
@@ -96,13 +96,13 @@ For more information about miniport drivers, see <a href="https://docs.microsoft
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
 
 <a href="..\wdfminiport\nf-wdfminiport-wdfdeviceminiportcreate.md">WdfDeviceMiniportCreate</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
 
  
 

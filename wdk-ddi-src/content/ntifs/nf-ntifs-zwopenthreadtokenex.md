@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: def462ee-30c6-44c0-8639-f8f7d3d0b69e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenThreadTokenEx, k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, NtOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], ntifs/ZwOpenThreadTokenEx, ntifs/NtOpenThreadTokenEx, kernel.zwopenthreadtokenex
+ms.keywords: ZwOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx, k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, NtOpenThreadTokenEx, ntifs/NtOpenThreadTokenEx, kernel.zwopenthreadtokenex, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,30 +72,30 @@ NTSTATUS ZwOpenThreadTokenEx(
 
 
 
-### -param ThreadHandle [in]
+#### - ThreadHandle [in]
 
 Handle to the thread whose access token is to be opened. The handle must have THREAD_QUERY_INFORMATION access. Use the <b>NtCurrentThread</b> macro to specify the current thread. 
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) to determine which access rights are granted or denied. 
 
 
-### -param OpenAsSelf [in]
+#### - OpenAsSelf [in]
 
 Boolean value specifying whether the access check is to be made against the security context of the thread calling <b>ZwOpenThreadTokenEx</b> or against the security context of the process for the calling thread. 
 
 If this parameter is <b>FALSE</b>, the access check is performed using the security context for the calling thread. If the thread is impersonating a client, this security context can be that of a client process. If this parameter is <b>TRUE</b>, the access check is made using the security context of the process for the calling thread. 
 
 
-### -param HandleAttributes [in]
+#### - HandleAttributes [in]
 
 Attributes for the created handle. Only OBJ_KERNEL_HANDLE is currently supported. If the caller is not running in the system process context, it must specify OBJ_KERNEL_HANDLE for this parameter. 
 
 
-### -param TokenHandle [out]
+#### - TokenHandle [out]
 
 Pointer to a caller-allocated variable that receives a handle to the newly opened access token. 
 
@@ -197,19 +197,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\ntifs\nf-ntifs-zwopenprocesstokenex.md">ZwOpenProcessTokenEx</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

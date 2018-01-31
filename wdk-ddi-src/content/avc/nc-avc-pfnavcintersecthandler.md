@@ -73,12 +73,12 @@ typedef NTSTATUS ( *PFNAVCINTERSECTHANDLER)(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 An optional value expected by the intersect handler. This value is either provided by the subunit driver (if the subunit driver provides the intersect handler), or by the lower driver providing the intersect handler.
 
 
-### -param PinId [in]
+#### - PinId [in]
 
 Specifies the offset (or ID) of the pin for which the intersection is being done.
 
@@ -91,12 +91,12 @@ Specifies the offset (or ID) of the pin for which the intersection is being done
 
 
 
-### -param DataBufferSize [in]
+#### - DataBufferSize [in]
 
 The size of the buffer passed by the <b>Data</b> member. If this is nonzero, then the intersect handler should attempt to return the data format resulting from a matching pair of data ranges. If this is zero, then the intersect handler should provide the required buffer size in <b>ReportedDataSize</b>, and return STATUS_BUFFER_OVERFLOW.
 
 
-### -param Data [out, optional]
+#### - Data [out, optional]
 
 An optional buffer to receive the data format resulting from a matching pair of data ranges. This member is ignored if <b>DataBufferSize </b>is zero.
 
@@ -202,13 +202,13 @@ The handler is used in conjunction with the <b>AVC_FUNCTION_GET_PIN_DESCRIPTOR</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
-
-<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
+<a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
 
 <a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
+<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
 
  
 

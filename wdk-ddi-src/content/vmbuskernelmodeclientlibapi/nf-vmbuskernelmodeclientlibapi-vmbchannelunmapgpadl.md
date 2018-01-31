@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EE300158-D7D8-4353-B205-362232A22568
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelUnmapGpadl, vmbuskernelmodeclientlibapi/VmbChannelUnmapGpadl, netvista.vmbchannelunmapgpadl, VmbChannelUnmapGpadl function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelUnmapGpadl, netvista.vmbchannelunmapgpadl, vmbuskernelmodeclientlibapi/VmbChannelUnmapGpadl, VmbChannelUnmapGpadl function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbChannelUnmapGpadl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ VOID VmbChannelUnmapGpadl(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel.  
 
 
-### -param GpadlHandle [in]
+#### - GpadlHandle [in]
 
 The handle of the GPADL to unmap.
 

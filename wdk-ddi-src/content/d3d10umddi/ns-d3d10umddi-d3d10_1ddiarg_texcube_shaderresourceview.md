@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89d0b6fa-b990-43a9-a943-76d270b507cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10_1ddiarg_texcube_shaderresourceview, UMDisplayDriver_Dx10param_Structs_4988e1af-5552-4f7c-be15-5c54f88b9975.xml, d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices]
+ms.keywords: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10_1ddiarg_texcube_shaderresourceview, UMDisplayDriver_Dx10param_Structs_4988e1af-5552-4f7c-be15-5c54f88b9975.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW {
 
 
 
-### -field MostDetailedMip
+#### - MostDetailedMip
 
 [in] The identifier of the most detailed MIP-map. 
 
 
-### -field MipLevels
+#### - MipLevels
 
 [in] The number of MIP-map levels for the texture. 
 
 
-### -field First2DArrayFace
+#### - First2DArrayFace
 
 [in] The identifier of the first 2-D texture that comprises one or more cube textures. 
 
 
-### -field NumCubes
+#### - NumCubes
 
 [in] The number of cube textures for a shader resource view. 
 
@@ -108,13 +108,13 @@ The value in the <b>First2DArrayFace</b> member added with 6 multiplied by the n
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createshaderresourceview.md">CreateShaderResourceView(D3D10_1)</a>
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D10_1)</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddiarg_createshaderresourceview.md">D3D10_1DDIARG_CREATESHADERRESOURCEVIEW</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D10_1)</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createshaderresourceview.md">CreateShaderResourceView(D3D10_1)</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
  
 

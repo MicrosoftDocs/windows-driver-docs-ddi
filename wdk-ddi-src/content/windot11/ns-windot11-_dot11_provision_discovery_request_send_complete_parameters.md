@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E805581C-8DFF-4690-8BBF-6037A707F58C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, netvista.dot11_provision_discovery_request_send_complete_parameters, _DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
+ms.keywords: "_DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, netvista.dot11_provision_discovery_request_send_complete_parameters, DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -97,32 +97,32 @@ The type, revision, and size of the <b>DOT11_PROVISION_DISCOVERY_REQUEST_SEND_CO
 </table> 
 
 
-### -field PeerDeviceAddress
+#### - PeerDeviceAddress
 
 The Peer-to-Peer (P2P) device address of the Wi-Fi Direct (WFD) device that the provision discovery request was sent to.
 
 
-### -field ReceiverAddress
+#### - ReceiverAddress
 
 The receiver device address used in the provision discovery request.
 
 
-### -field DialogToken
+#### - DialogToken
 
 The dialog token used for the provision discovery request packet. This token must match the token sent with the <a href="https://msdn.microsoft.com/69490609-60CB-426F-8ED7-F8B35CDFCE2A">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_REQUEST</a> request.
 
 
-### -field Status
+#### - Status
 
 The status for the provision discovery request that was sent.
 
 
-### -field uIEsOffset
+#### - uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) that were included in the provision discovery request packet. This offset is from the start of the buffer that contains this structure.
 
 
-### -field uIEsLength
+#### - uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 

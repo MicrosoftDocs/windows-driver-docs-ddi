@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9224991-DB36-4250-861A-6C21E29F91EF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlestate, wdm/PoFxCompleteIdleState, PoFxCompleteIdleState
+ms.keywords: PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], wdm/PoFxCompleteIdleState, PoFxCompleteIdleState, kernel.pofxcompleteidlestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID PoFxCompleteIdleState(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-### -param Component [in]
+#### - Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
@@ -97,9 +97,9 @@ PoFx calls the driver's <i>ComponentIdleStateCallback</i> routine to tell the dr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
-
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 

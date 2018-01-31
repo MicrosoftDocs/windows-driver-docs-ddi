@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d80bcf24-4d53-4ec9-897d-d3243c7fda25
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags, _D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices]
+ms.keywords: D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct _D3DKMT_OUTPUTDUPLPRESENTFLAGS {
 
 
 
-### -field ProtectedContentBlankedOut
+#### - ProtectedContentBlankedOut
 
 Specifies whether the desktop image might contain protected content that was already blanked out (black) in the desktop image.
 
@@ -84,7 +84,7 @@ Specifies whether the desktop image might contain protected content that was alr
 The application can use this information to notify the remote user that some of the desktop content might be protected and therefore not visible.
 
 
-### -field RemoteSession
+#### - RemoteSession
 
 Specifies if the present operation is directed to a remote session
 
@@ -93,7 +93,7 @@ Specifies if the present operation is directed to a remote session
 If <b>TRUE</b>, the present operation will go through a GDI path.
 
 
-### -field FullScreenPresent
+#### - FullScreenPresent
 
 Specifies if the present operation is to the full screen.
 
@@ -105,14 +105,14 @@ Specifies if the present operation is to the full screen.
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies the DDA present options.
 

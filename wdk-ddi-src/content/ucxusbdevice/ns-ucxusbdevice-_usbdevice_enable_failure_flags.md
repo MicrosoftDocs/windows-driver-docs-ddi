@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B239E637-2920-48A5-9F45-D3089140C8A2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBDEVICE_ENABLE_FAILURE_FLAGS structure [Buses], P_USBDEVICE_ENABLE_FAILURE_FLAGS structure pointer [Buses], USBDEVICE_ENABLE_FAILURE_FLAGS, ucxusbdevice/_USBDEVICE_ENABLE_FAILURE_FLAGS, ucxusbdevice/P_USBDEVICE_ENABLE_FAILURE_FLAGS, buses._usbdevice_enable_failure_flags, _USBDEVICE_ENABLE_FAILURE_FLAGS, P_USBDEVICE_ENABLE_FAILURE_FLAGS
+ms.keywords: "_USBDEVICE_ENABLE_FAILURE_FLAGS, ucxusbdevice/P_USBDEVICE_ENABLE_FAILURE_FLAGS, P_USBDEVICE_ENABLE_FAILURE_FLAGS structure pointer [Buses], USBDEVICE_ENABLE_FAILURE_FLAGS structure [Buses], P_USBDEVICE_ENABLE_FAILURE_FLAGS, ucxusbdevice/_USBDEVICE_ENABLE_FAILURE_FLAGS, buses._usbdevice_enable_failure_flags, USBDEVICE_ENABLE_FAILURE_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _USBDEVICE_ENABLE_FAILURE_FLAGS {
 
 
 
-### -field InsufficientHardwareResourcesForDefaultEndpoint
+#### - InsufficientHardwareResourcesForDefaultEndpoint
 
 Insufficient  hardware resources for  transfers to the default endpoint. 
 
 
-### -field InsufficientHardwareResourcesForDevice
+#### - InsufficientHardwareResourcesForDevice
 
 Insufficient hardware resources to enable transfers.
 
 
-### -field Reserved
+#### - Reserved
 
 Do not use.
 

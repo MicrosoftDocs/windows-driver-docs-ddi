@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl::GetPageSize, IDebugControl::GetPageSize, IDebugControl2::GetPageSize, IDebugControl3 interface [Windows Debugging], GetPageSize method, GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, debugger.getpagesize, IDebugControl3::GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl3::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetPageSize
+ms.keywords: IDebugControl3, dbgeng/IDebugControl::GetPageSize, IDebugControl2::GetPageSize, IDebugControl::GetPageSize, debugger.getpagesize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl2::GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, GetPageSize method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetPageSize, GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl2 interface [Windows Debugging], GetPageSize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetPageSize(
 
 
 
-### -param Size [out]
+#### - Size [out]
 
 Receives the page size.
 

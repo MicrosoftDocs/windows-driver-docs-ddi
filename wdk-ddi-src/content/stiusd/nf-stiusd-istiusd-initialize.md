@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::Initialize, Initialize method [Imaging Devices], IStiUSD, stiusd/IStiUSD::Initialize, Initialize, image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, Initialize method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], Initialize method
+ms.keywords: IStiUSD::Initialize, Initialize method [Imaging Devices], IStiUSD interface, Initialize method [Imaging Devices], image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize, Initialize, IStiUSD interface [Imaging Devices], Initialize method, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.Initialize
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ HRESULT Initialize(
 
 
 
-### -param dwStiVersion
+#### - dwStiVersion
 
 Caller-supplied STI version number. This value is defined by STI_VERSION in <i>Sti.h</i>.
 
 
-### -param hParametersKey
+#### - hParametersKey
 
 Caller-supplied handle to the registry key under which device-specific information is to be stored.
 

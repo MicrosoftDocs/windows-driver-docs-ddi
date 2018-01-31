@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset, IDebugSymbols3, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, GetFunctionEntryByOffset, IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, GetFunctionEntryByOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetFunctionEntryByOffset(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies a location in the current process's virtual address space of the function's implementation.  This is the value returned in the <i>Offset</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a> and <a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>, and the value of the <b>Offset</b> field in the <a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a> structure.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies a bit-flag which alters the behavior of this method.  If the bit DEBUG_GETFNENT_RAW_ENTRY_ONLY is not set, the engine will provide artificial entries for well known cases.  If this bit is set the artificial entries are not used.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the function entry information.  If the effective processor is an x86, this is the FPO_DATA structure for the function.  For all other architectures, this is the IMAGE_FUNCTION_ENTRY structure for that architecture.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size of the buffer <i>Buffer</i>.
 
 
-### -param BufferNeeded [out, optional]
+#### - BufferNeeded [out, optional]
 
 Specifies the size of the function entry information.
 
@@ -152,13 +152,13 @@ The structures FPO_DATA and IMAGE_FUNCTION_ENTRY are documented in "Image Help L
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
+
+<a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

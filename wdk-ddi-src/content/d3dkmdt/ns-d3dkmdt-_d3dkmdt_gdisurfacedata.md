@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ae789dd-2454-4ed6-bd26-5ebfd9c33768
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_GDISURFACEDATA, _D3DKMDT_GDISURFACEDATA, D3DKMDT_GDISURFACEDATA structure [Display Devices], display.d3dkmdt_gdisurfacedata, d3dkmdt/D3DKMDT_GDISURFACEDATA, DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml
+ms.keywords: D3DKMDT_GDISURFACEDATA structure [Display Devices], display.d3dkmdt_gdisurfacedata, DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, d3dkmdt/D3DKMDT_GDISURFACEDATA, _D3DKMDT_GDISURFACEDATA, D3DKMDT_GDISURFACEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _D3DKMDT_GDISURFACEDATA {
 
 
 
-### -field Width
+#### - Width
 
 [in] The width of the surface, in pixels.
 
 
-### -field Height
+#### - Height
 
 [in] The height of the surface, in pixels.
 
 
-### -field Format
+#### - Format
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The following formats are supported:
 
@@ -99,17 +99,17 @@ D3DDDIFMT_A8
 The D3DDDIFMT_A8 format is used only for D3DKMDT_GDISURFACE_STAGING and D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE staging surface types from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a> enumeration.
 
 
-### -field Type
+#### - Type
 
 [in] A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>-typed value that indicates the surface type.
 
 
-### -field Flags
+#### - Flags
 
 [in] Reserved for future use. Must be zero.
 
 
-### -field Pitch
+#### - Pitch
 
 [out] The width of the surface, which includes padding, in bytes. The display miniport driver must return the pitch value for all allocations of <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a> type D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE,  D3DKMDT_GDISURFACE_EXISTINGSYSMEM, and D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER.
 
@@ -123,13 +123,13 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
 
  
 

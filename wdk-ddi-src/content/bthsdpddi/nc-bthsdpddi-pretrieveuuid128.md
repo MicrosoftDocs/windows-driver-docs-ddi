@@ -73,16 +73,14 @@ void SdpRetrieveUuid128(
 
 
 
-### -param Stream
+#### - Stream
 
 A pointer to an unaligned 128-bit UUID.
 
 
-### -param *uuid128
+#### - *uuid128
 
-
-
-
+A pointer to an aligned variable to receive the 128-bit UUID.
 
 
 #### - uuid128

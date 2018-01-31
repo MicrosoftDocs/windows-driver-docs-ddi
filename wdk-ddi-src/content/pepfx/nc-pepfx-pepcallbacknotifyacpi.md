@@ -40,7 +40,7 @@ apiname:
 -	AcceptAcpiNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # PEPCALLBACKNOTIFYACPI callback
@@ -71,12 +71,12 @@ BOOLEAN AcceptAcpiNotification(
 
 
 
-### -param Notification [in]
+#### - Notification [in]
 
 The ACPI notification ID. This parameter specifies the type of ACPI notification that PoFx is sending. For a list of ACPI notification IDs, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt186628">ACPI notifications</a>.
 
 
-### -param Data [in, out, optional]
+#### - Data [in, out, optional]
 
 A pointer to a PoFx-allocated structure that contains the input and/or output data for this notification. The type of this structure depends on the notification ID specified by <i>Notification</i>. For a list of the structure types that are defined for the various ACPI notification IDs, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt186628">ACPI notifications</a>.
 
@@ -101,9 +101,9 @@ The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called vari
 
 <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
-<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
-
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
  
 

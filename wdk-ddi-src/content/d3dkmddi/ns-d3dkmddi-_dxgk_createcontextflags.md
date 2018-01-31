@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7cadf78-c908-4034-889d-b5c7d0ffdaad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATECONTEXTFLAGS, display.dxgk_createcontextflags, DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, _DXGK_CREATECONTEXTFLAGS
+ms.keywords: display.dxgk_createcontextflags, d3dkmddi/DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS structure [Display Devices], DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, _DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,14 +76,14 @@ typedef struct _DXGK_CREATECONTEXTFLAGS {
 
 
 
-### -field SystemContext
+#### - SystemContext
 
 A UINT value that specifies whether contexts that a driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function creates are system contexts for the engine that the <b>EngineAffinity</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a> structure specifies. A system context is created for the paging engine only.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field GdiContext
+#### - GdiContext
 
 A UINT value that specifies whether the contexts that a driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function creates are GDI-specific contexts for the engine that the <b>EngineAffinity</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a> structure specifies.
 
@@ -92,7 +92,7 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 This member is available beginning with Windows 7.
 
 
-### -field VirtualAddressing
+#### - VirtualAddressing
 
 A UINT value that specifies whether the contexts that a driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function creates use virtual addressing.
 
@@ -101,7 +101,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 Supported starting with Windows 10.
 
 
-### -field SystemProtectedContext
+#### - SystemProtectedContext
 
 A UINT value that specifies whether the context being used to modify the VPR will have access to allocations outside the VPR.
 
@@ -113,12 +113,12 @@ Supported starting with Windows 10.
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFFB) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that DXGK_CREATECONTEXTFLAGS contains that can hold a 32-bit value that identifies how to create contexts.
 

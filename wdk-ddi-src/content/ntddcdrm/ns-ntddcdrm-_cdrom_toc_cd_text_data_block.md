@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 119386fe-1eff-4dac-b9d5-54baefcf6e12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK structure [Storage Devices], storage.cdrom_toc_cd_text_data_block, structs-CD-ROM_6bdb8d21-6388-4505-b9a1-1b3e1e594e02.xml, PCDROM_TOC_CD_TEXT_DATA_BLOCK structure pointer [Storage Devices], ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK, _CDROM_TOC_CD_TEXT_DATA_BLOCK, *PCDROM_TOC_CD_TEXT_DATA_BLOCK
+ms.keywords: structs-CD-ROM_6bdb8d21-6388-4505-b9a1-1b3e1e594e02.xml, CDROM_TOC_CD_TEXT_DATA_BLOCK, PCDROM_TOC_CD_TEXT_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK, *PCDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA_BLOCK, storage.cdrom_toc_cd_text_data_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_TOC_CD_TEXT_DATA_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK"
+req.typenames: CDROM_TOC_CD_TEXT_DATA_BLOCK, *PCDROM_TOC_CD_TEXT_DATA_BLOCK
 ---
 
 # _CDROM_TOC_CD_TEXT_DATA_BLOCK structure
@@ -78,17 +78,17 @@ typedef struct _CDROM_TOC_CD_TEXT_DATA_BLOCK {
 
 
 
-### -field Text
+#### - Text
 
 Contains text descriptor data in the form of 8-bit ASCII characters.
 
 
-### -field WText
+#### - WText
 
 Contains text descriptor data in the form of 16-bit (wide) characters.
 
 
-### -field PackType
+#### - PackType
 
 Indicates the type of pack data, as follows:
 
@@ -177,37 +177,37 @@ UPC/EAN code of the album and ISRC code of each track.
 Size information for the block. 
 
 
-### -field TrackNumber
+#### - TrackNumber
 
 See specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member. 
 
 
-### -field ExtensionFlag
+#### - ExtensionFlag
 
 Must be set to zero. 
 
 
-### -field SequenceNumber
+#### - SequenceNumber
 
 See specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member. 
 
 
-### -field CharacterPosition
+#### - CharacterPosition
 
 See specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member. 
 
 
-### -field BlockNumber
+#### - BlockNumber
 
 See specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member.  
 
 
-### -field Unicode
+#### - Unicode
 
 Indicates, when set to 1, that the text is stored in Unicode format. 
 
 
-### -field CRC
+#### - CRC
 
 Contains the cyclic redundancy check.
 

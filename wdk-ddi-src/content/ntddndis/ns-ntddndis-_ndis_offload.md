@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9d1447f1-aae8-4c27-a27b-e521c0c8ca97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_OFFLOAD, ntddndis/PNDIS_OFFLOAD, NDIS_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD, IPSEC_OFFLOAD_V2_AND_UDP_CHECKSUM_COEXISTENCE, netvista.ndis_offload, IPSEC_OFFLOAD_V2_AND_TCP_CHECKSUM_COEXISTENCE, tcpip_offload_ref_e5f796e9-714c-43f9-98e4-1d0de0dcc8ee.xml, PNDIS_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OFFLOAD, _NDIS_OFFLOAD, NDIS_OFFLOAD
+ms.keywords: ntddndis/NDIS_OFFLOAD, *PNDIS_OFFLOAD, IPSEC_OFFLOAD_V2_AND_TCP_CHECKSUM_COEXISTENCE, netvista.ndis_offload, NDIS_OFFLOAD, PNDIS_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD, _NDIS_OFFLOAD, ntddndis/PNDIS_OFFLOAD, tcpip_offload_ref_e5f796e9-714c-43f9-98e4-1d0de0dcc8ee.xml, IPSEC_OFFLOAD_V2_AND_UDP_CHECKSUM_COEXISTENCE, NDIS_OFFLOAD structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_OFFLOAD
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_OFFLOAD, NDIS_OFFLOAD"
+req.typenames: NDIS_OFFLOAD, *PNDIS_OFFLOAD
 ---
 
 # _NDIS_OFFLOAD structure
@@ -79,7 +79,7 @@ typedef struct _NDIS_OFFLOAD {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -108,35 +108,35 @@ Set the <b>Revision</b> and <b>Size</b> members of the <a href="..\ntddndis\ns-n
 
 
 
-### -field Checksum
+#### - Checksum
 
 Checksum offload information in an 
      <mshelp:link keywords="netvista.ndis_tcp_ip_checksum_offload" tabindex="0"><b>
      NDIS_TCP_IP_CHECKSUM_OFFLOAD</b></mshelp:link> structure.
 
 
-### -field LsoV1
+#### - LsoV1
 
 Large send offload version 1 (LSOV1) information in an 
      <mshelp:link keywords="netvista.ndis_tcp_large_send_offload_v1" tabindex="0"><b>
      NDIS_TCP_LARGE_SEND_OFFLOAD_V1</b></mshelp:link> structure.
 
 
-### -field IPsecV1
+#### - IPsecV1
 
 Internet protocol security (IPsec) offload information in an 
      <mshelp:link keywords="netvista.ndis_ipsec_offload_v1" tabindex="0"><b>
      NDIS_IPSEC_OFFLOAD_V1</b></mshelp:link> structure.
 
 
-### -field LsoV2
+#### - LsoV2
 
 Large send offload version 2 (LSOV2) offload information in an 
      <mshelp:link keywords="netvista.ndis_tcp_large_send_offload_v2" tabindex="0"><b>
      NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b></mshelp:link> structure.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR  of flags that specify properties that the network adapter supports. The following flags are defined.
 <table>
@@ -169,19 +169,19 @@ The network adapter supports IPsecV2 and UDP checksums.
 </table> 
 
 
-### -field IPsecV2
+#### - IPsecV2
 
 Internet protocol security (IPsec) offload version 2 information in an 
       <a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v2.md">NDIS_IPSEC_OFFLOAD_V2</a> structure.
 
 
-### -field Rsc
+#### - Rsc
 
 
 <a href="https://msdn.microsoft.com/9CB2AB1C-924C-4A19-B1E7-70C8C5C05B46">Receive Segment Coalescing (RSC)</a> offload information in    an <a href="..\ntddndis\ns-ntddndis-_ndis_tcp_recv_seg_coalesce_offload.md">NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD</a> structure.
 
 
-### -field EncapsulatedPacketTaskOffloadGre
+#### - EncapsulatedPacketTaskOffloadGre
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a> information in an <a href="..\ntddndis\ns-ntddndis-_ndis_encapsulated_packet_task_offload.md">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a> structure. This member should only be set by miniport drivers that support task offloads for NVGRE-formatted packets.<div class="alert"><b>Note</b>  This member is available only in NDIS 6.30 and later. </div>
@@ -221,45 +221,45 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
-
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
-
-<a href="https://msdn.microsoft.com/043A09F9-7D5D-4401-9645-19FDBD614659">Determining the RSC Capabilities of a Network Adapter</a>
-
-<mshelp:link keywords="netvista.ndis_tcp_large_send_offload_v1" tabindex="0"><b>
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</b></mshelp:link>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_tcp_ip_checksum_offload.md">NDIS_TCP_IP_CHECKSUM_OFFLOAD</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
-
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v2.md">NDIS_IPSEC_OFFLOAD_V2</a>
 
 <mshelp:link keywords="netvista.ndis_status_task_offload_current_config" tabindex="0"><b>
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v2.md">NDIS_IPSEC_OFFLOAD_V2</a>
+<mshelp:link keywords="netvista.ndis_tcp_large_send_offload_v1" tabindex="0"><b>
+   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_tcp_large_send_offload_v2" tabindex="0"><b>
    NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b></mshelp:link>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
+
+<a href="https://msdn.microsoft.com/043A09F9-7D5D-4401-9645-19FDBD614659">Determining the RSC Capabilities of a Network Adapter</a>
+
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
 
  
 

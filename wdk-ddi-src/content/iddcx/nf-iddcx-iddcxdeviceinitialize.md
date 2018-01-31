@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4967e897-1a71-4f17-ad5b-9cc9916b0087
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxDeviceInitialize method [Display Devices], iddcx/IddCxDeviceInitialize, IddCxDeviceInitialize, display.iddcxdeviceinitialize
+ms.keywords: display.iddcxdeviceinitialize, IddCxDeviceInitialize method [Display Devices], IddCxDeviceInitialize, iddcx/IddCxDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS IddCxDeviceInitialize(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 The WDF device that is being initialized.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 18be278c-2d69-472b-9baf-7c35f8abe879
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATEDEVICE structure [Display Devices], display.d3dddiarg_createdevice, d3dumddi/D3DDDIARG_CREATEDEVICE, UMDisplayDriver_param_Structs_42cad924-5200-4737-9d17-4464767f9e93.xml, D3DDDIARG_CREATEDEVICE, _D3DDDIARG_CREATEDEVICE
+ms.keywords: UMDisplayDriver_param_Structs_42cad924-5200-4737-9d17-4464767f9e93.xml, D3DDDIARG_CREATEDEVICE, D3DDDIARG_CREATEDEVICE structure [Display Devices], _D3DDDIARG_CREATEDEVICE, display.d3dddiarg_createdevice, d3dumddi/D3DDDIARG_CREATEDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,71 +81,71 @@ typedef struct _D3DDDIARG_CREATEDEVICE {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in/out] A handle to the display device (graphics context). On input to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a> function, <b>hDevice</b> specifies the handle that the driver should use when it calls back into the Microsoft Direct3D runtime. 
 
 The driver generates a unique handle and passes it back to the Direct3D runtime. On output from the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a> function, <b>hDevice</b> specifies the handle that the Direct3D runtime uses in subsequent driver calls to identify the display device.
 
 
-### -field Interface
+#### - Interface
 
 [in] The Direct3D/DirectDraw interface version (for example, 7, 8, or 9) that creates the device. 
 
 
-### -field Version
+#### - Version
 
 [in] A number that the driver can use to identify when the Direct3D/DirectDraw runtime was built. For example, the driver can use the version number to differentiate between a runtime that is released with Windows Vista and a runtime that is released with a subsequent service pack, which might contain a fix that the driver requires. 
 
 
-### -field pCallbacks
+#### - pCallbacks
 
 [in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a> structure that contains a table of Direct3D runtime callback functions that the driver can use.
 
 
-### -field pCommandBuffer
+#### - pCommandBuffer
 
 [in] Obsolete. To receive a pointer to the first buffer that the user-mode display driver can use to batch commands, the driver must first call the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function to create a context for the newly created device.
 
 
-### -field CommandBufferSize
+#### - CommandBufferSize
 
 [in] Obsolete.
 
 
-### -field pAllocationList
+#### - pAllocationList
 
 [in] Obsolete. To receive an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a> structures for the starting allocation list, the driver must first call the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function to create a context for the newly created device.
 
 
-### -field AllocationListSize
+#### - AllocationListSize
 
 [in] Obsolete.
 
 
-### -field pPatchLocationList
+#### - pPatchLocationList
 
 [in] Obsolete. To receive an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures for the starting patch-location list, the driver must first call the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function to create a context for the newly created device.
 
 
-### -field PatchLocationListSize
+#### - PatchLocationListSize
 
 [in] Obsolete.
 
 
-### -field pDeviceFuncs
+#### - pDeviceFuncs
 
 
       [out] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
      
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_createdeviceflags.md">D3DDDI_CREATEDEVICEFLAGS</a> structure that identifies how to create the device. 
 
 
-### -field CommandBuffer
+#### - CommandBuffer
 
 This member is reserved and should be set to zero.
 
@@ -154,13 +154,13 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_createdeviceflags.md">D3DDDI_CREATEDEVICEFLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_createdeviceflags.md">D3DDDI_CREATEDEVICEFLAGS</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 

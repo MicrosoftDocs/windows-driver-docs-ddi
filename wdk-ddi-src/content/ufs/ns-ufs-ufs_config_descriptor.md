@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B65A2268-6959-4630-97DA-C0CFD37D9174
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_CONFIG_DESCRIPTOR structure [Storage Devices], ufs/PUFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_config_descriptor, PUFS_CONFIG_DESCRIPTOR, ufs/UFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR
+ms.keywords: ufs/PUFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR, storage.ufs_config_descriptor, UFS_CONFIG_DESCRIPTOR structure [Storage Devices], PUFS_CONFIG_DESCRIPTOR structure pointer [Storage Devices], PUFS_CONFIG_DESCRIPTOR, ufs/UFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,65 +79,65 @@ typedef struct _UFS_CONFIG_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 Specifies the size, in bytes, of this descriptor.
 
 
-### -field bDescriptorIDN
+#### - bDescriptorIDN
 
 Specifies the Configuration Descriptor Type Identifier. This descriptor will have a value of <b>UFS_DESC_CONFIGURATION_IDN</b>.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved for future use.
 
 
-### -field bBootEnable
+#### - bBootEnable
 
 Specifies if a device's boot feature is enabled.
 
 
-### -field bDescrAccessEn
+#### - bDescrAccessEn
 
 Enables access to the Device Descriptor after the
 partial initialization phase of the boot sequence.
 
 
-### -field bInitPowerMode
+#### - bInitPowerMode
 
 Specifies the power mode after device initialization
 or hardware reset.
 
 
-### -field bHighPriorityLUN
+#### - bHighPriorityLUN
 
 <b>bHighPriorityLUN</b> configures the high priority logical unit.
 
 
-### -field bSecureRemovalType
+#### - bSecureRemovalType
 
 Configures the secure removal type.
 
 
-### -field bInitActiveICCLevel
+#### - bInitActiveICCLevel
 
 Configures the ICC level in Active mode after device
 initialization or hardware reset.
 
 
-### -field wPeriodicRTCUpdate
+#### - wPeriodicRTCUpdate
 
 Specifies the frequency and method of real-time clock updates.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved for future use.
 
 
-### -field UnitConfig
+#### - UnitConfig
 
 Contains the configurable parameters of the Unit Descriptor. 
 

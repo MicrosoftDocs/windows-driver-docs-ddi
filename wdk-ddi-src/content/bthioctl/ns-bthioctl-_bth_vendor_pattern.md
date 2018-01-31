@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 694020c6-dd0a-46c7-9122-cd86ce28d03a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthioctl/BTH_VENDOR_PATTERN, bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml, bltooth.bth_vendor_pattern, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], bthioctl/PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN structure [Bluetooth Devices], *PBTH_VENDOR_PATTERN, _BTH_VENDOR_PATTERN, PBTH_VENDOR_PATTERN
+ms.keywords: PBTH_VENDOR_PATTERN, bthioctl/PBTH_VENDOR_PATTERN, bltooth.bth_vendor_pattern, BTH_VENDOR_PATTERN structure [Bluetooth Devices], bthioctl/BTH_VENDOR_PATTERN, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], BTH_VENDOR_PATTERN, _BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN, bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_VENDOR_PATTERN
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN"
+req.typenames: BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN
 ---
 
 # _BTH_VENDOR_PATTERN structure
@@ -69,18 +69,18 @@ typedef struct _BTH_VENDOR_PATTERN {
 
 
 
-### -field Offset
+#### - Offset
 
 The offset, in bytes, of the pattern from the beginning of the event data, excluding the event
      header.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the pattern.
 
 
-### -field Pattern
+#### - Pattern
 
 A buffer that contains pattern data.
 

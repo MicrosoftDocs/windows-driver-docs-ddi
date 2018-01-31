@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef8a132a-f593-4a25-bb9e-b4ed57801db2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAssignArcName routine [Kernel-Mode Driver Architecture], k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, ntddk/IoAssignArcName, kernel.ioassignarcname, IoAssignArcName
+ms.keywords: kernel.ioassignarcname, k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, ntddk/IoAssignArcName, IoAssignArcName routine [Kernel-Mode Driver Architecture], IoAssignArcName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,12 +68,12 @@ VOID IoAssignArcName(
 
 
 
-### -param ArcName [in]
+#### - ArcName [in]
 
 Pointer to a buffer containing the ARC name of the device. The ARC name must be a Unicode string.
 
 
-### -param DeviceName [in]
+#### - DeviceName [in]
 
 Pointer to a buffer containing the name of the device object, representing the same device. The device object name must be a Unicode string. 
 

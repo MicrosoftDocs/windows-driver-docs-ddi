@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 20d76582-4138-4a45-940b-a8e9207946a5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_STRING_DESCRIPTOR structure pointer [Buses], usbspec/PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, _USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses]
+ms.keywords: usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, usbspec/PUSB_STRING_DESCRIPTOR, buses.usb_string_descriptor, _USB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR structure pointer [Buses], USB_STRING_DESCRIPTOR structure [Buses], USB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_STRING_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
+req.typenames: "*PUSB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _USB_STRING_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 Specifies the length, in bytes, of the descriptor.
 
 
-### -field bDescriptorType
+#### - bDescriptorType
 
 Specifies the descriptor type. Must always be USB_STRING_DESCRIPTOR_TYPE.
 
 
-### -field bString
+#### - bString
 
 Pointer to a client-allocated buffer that contains, on return from the host controller driver, a Unicode string with the requested string descriptor.
 

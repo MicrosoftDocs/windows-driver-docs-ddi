@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7F0BD23A-A375-43D5-B106-31E206DB6EC4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PROCESSOR_PARK_STATE, pepfx/PPEP_PROCESSOR_PARK_STATE, *PPEP_PROCESSOR_PARK_STATE, PEP_PROCESSOR_PARK_STATE, PPEP_PROCESSOR_PARK_STATE, kernel.pep_processor_park_state, PPEP_PROCESSOR_PARK_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_PROCESSOR_PARK_STATE structure [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PARK_STATE
+ms.keywords: kernel.pep_processor_park_state, _PEP_PROCESSOR_PARK_STATE, PPEP_PROCESSOR_PARK_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PROCESSOR_PARK_STATE, PPEP_PROCESSOR_PARK_STATE, *PPEP_PROCESSOR_PARK_STATE, PEP_PROCESSOR_PARK_STATE, pepfx/PPEP_PROCESSOR_PARK_STATE, PEP_PROCESSOR_PARK_STATE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PROCESSOR_PARK_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PROCESSOR_PARK_STATE, PEP_PROCESSOR_PARK_STATE"
+req.typenames: PEP_PROCESSOR_PARK_STATE, *PPEP_PROCESSOR_PARK_STATE
 ---
 
 # _PEP_PROCESSOR_PARK_STATE structure
@@ -69,26 +69,26 @@ typedef struct _PEP_PROCESSOR_PARK_STATE {
 
 
 
-### -field Processor
+#### - Processor
 
 Specifies the <b>PEPHANDLE</b> associated with this processor.
 
 
-### -field Parked
+#### - Parked
 
 Specifies whether or not this processor is parked.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_park_mask.md">PEP_PPM_PARK_MASK</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186768">PEP_NOTIFY_PPM_PARK_MASK notification</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_ppm_park_mask.md">PEP_PPM_PARK_MASK</a>
 
  
 

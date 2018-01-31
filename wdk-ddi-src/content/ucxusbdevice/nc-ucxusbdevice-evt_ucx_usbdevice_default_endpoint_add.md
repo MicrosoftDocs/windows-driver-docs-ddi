@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
 product: Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
+req.typenames: "*PSTREAM_INFO, STREAM_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -76,17 +76,17 @@ typedef EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD PEVT_UCX_USBDEVICE_DEFAULT_ENDPOI
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param UcxUsbDevice [in]
+#### - UcxUsbDevice [in]
 
 A handle to a UCX object that represents the USB device.
 
 
-### -param MaxPacketSize [in]
+#### - MaxPacketSize [in]
 
 Maximum packet size for transfers on this endpoint.
 
@@ -129,11 +129,11 @@ Then, the callback  function typically creates a WDF queue associated with the e
 
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
+<a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 

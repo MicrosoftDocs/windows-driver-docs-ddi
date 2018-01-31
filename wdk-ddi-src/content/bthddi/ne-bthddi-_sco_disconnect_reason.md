@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ScoHardwareRemoval, bthddi/ScoDisconnectRequest, bltooth.sco_disconnect_reason, bthddi/ScoRadioPoweredDown, PSCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON, ScoDisconnectRequest, bthddi/SCO_DISCONNECT_REASON, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, _SCO_DISCONNECT_REASON, ScoHciDisconnect, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], bthddi/PSCO_DISCONNECT_REASON, bthddi/ScoHardwareRemoval, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], ScoRadioPoweredDown, SCO_DISCONNECT_REASON, bthddi/ScoHciDisconnect
+ms.keywords: PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], bthddi/PSCO_DISCONNECT_REASON, bthddi/ScoRadioPoweredDown, bthddi/ScoHciDisconnect, bthddi/ScoHardwareRemoval, _SCO_DISCONNECT_REASON, ScoDisconnectRequest, bthddi/SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bthddi/ScoDisconnectRequest, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, *PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoHardwareRemoval, PSCO_DISCONNECT_REASON, ScoRadioPoweredDown, ScoHciDisconnect, SCO_DISCONNECT_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,24 +71,24 @@ typedef enum _SCO_DISCONNECT_REASON {
 
 
 
-### -field ScoHciDisconnect
+#### - ScoHciDisconnect
 
 This value specifies to the profile driver that the Bluetooth driver stack has received a
      disconnect notification from the host controller interface (HCI) layer.
 
 
-### -field ScoDisconnectRequest
+#### - ScoDisconnectRequest
 
 This value specifies to the profile driver that a disconnect request has been received from the
      remote device.
 
 
-### -field ScoRadioPoweredDown
+#### - ScoRadioPoweredDown
 
 This value specifies to the profile driver that the local radio has been turned off.
 
 
-### -field ScoHardwareRemoval
+#### - ScoHardwareRemoval
 
 This value specifies to the profile driver that the local radio has been physically
      removed.

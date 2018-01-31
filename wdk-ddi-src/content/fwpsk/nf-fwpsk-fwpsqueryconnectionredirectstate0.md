@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db0a5ac-edab-4e84-b378-30ed0c23cd4b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0
+ms.keywords: FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionRedirectState0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,18 +72,18 @@ FWPS_CONNECTION_REDIRECT_STATE NTAPI FwpsQueryConnectionRedirectState0(
 
 
 
-### -param redirectRecords
+#### - redirectRecords
 
 The redirect records handle  indicated to ALE_CONNECT_REDIRECT callout by the classify metadata.
 
 
-### -param redirectHandle
+#### - redirectHandle
 
 A redirect handle that was previously created by a call to the 
      <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a> function.
 
 
-### -param redirectContext
+#### - redirectContext
 
 An optional handle to the redirect context. If the pointer is specified, and if the connection
      redirect state 

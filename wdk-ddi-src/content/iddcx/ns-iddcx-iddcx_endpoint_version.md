@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ad6220e3-9b6a-4a46-978b-31edfb2c8b9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDDCX_ENDPOINT_VERSION, IDDCX_ENDPOINT_VERSION, display.iddcx_endpoint_version, IDDCX_ENDPOINT_VERSION structure [Display Devices]
+ms.keywords: IDDCX_ENDPOINT_VERSION structure [Display Devices], IDDCX_ENDPOINT_VERSION, iddcx/IDDCX_ENDPOINT_VERSION, display.iddcx_endpoint_version
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,35 +73,35 @@ typedef struct IDDCX_ENDPOINT_VERSION {
 
 
 
-### -field Size
+#### - Size
 
 
                      Total size of the structure.
                  
 
 
-### -field MajorVer
+#### - MajorVer
 
 
                      The major version defined by the driver.
                  
 
 
-### -field MinorVer
+#### - MinorVer
 
 
                      The minor version defined by the driver.
                  
 
 
-### -field Build
+#### - Build
 
 
                      The build number defined by the driver.
                  
 
 
-### -field SKU
+#### - SKU
 
 
                      The SKU type defined by the driver.

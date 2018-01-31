@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_CONTEXT_STATE, _WWAN_CONTEXT_STATE, WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, wwan/WWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE, netvista.wwan_context_state, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE
+ms.keywords: WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_context_state, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, _WWAN_CONTEXT_STATE, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_CONTEXT_STATE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE
+req.typenames: "*PWWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ typedef struct _WWAN_CONTEXT_STATE {
 
 
 
-### -field uNwError
+#### - uNwError
 
 A network-specific error. The following table shows the connection failure values as documented in
      the 
@@ -167,24 +167,24 @@ No APN or unknown APN is provided in the activation request.
 </table> 
 
 
-### -field ConnectionId
+#### - ConnectionId
 
 The MB Service specifies a value for this member at the time of the connect request by using
      OID_WWAN_CONNECT. Miniport drivers must copy this value and use it when they notify the MB Service on
      subsequent connection state changes.
 
 
-### -field ActivationState
+#### - ActivationState
 
 The current activation state of the device.
 
 
-### -field VoiceCallState
+#### - VoiceCallState
 
 The current voice call state of the device.
 
 
-### -field IPType
+#### - IPType
 
 A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 

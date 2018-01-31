@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8284fdd4-26de-4622-b164-f33aee1d8742
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscosendnetbufferlists, condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], NdisCoSendNetBufferLists, ndis/NdisCoSendNetBufferLists
+ms.keywords: condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisCoSendNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID NdisCoSendNetBufferLists(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 A handle to a virtual connection (VC) that identifies the target of the send request.
 
 
-### -param NetBufferLists [in]
+#### - NetBufferLists [in]
 
 A pointer to a linked list of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. Each
@@ -85,7 +85,7 @@ A pointer to a linked list of
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures.
 
 
-### -param SendFlags [in]
+#### - SendFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
@@ -201,27 +201,27 @@ Until NDIS calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
+   MiniportCoSendNetBufferLists</i></mshelp:link>
 
 <mshelp:link keywords="netvista.ndismcosendnetbufferlistscomplete" tabindex="0"><b>
    NdisMCoSendNetBufferListsComplete</b></mshelp:link>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
+   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisallocateclonenetbufferlist" tabindex="0"><b>
    NdisAllocateCloneNetBufferList</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
-   MiniportCoSendNetBufferLists</i></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 <mshelp:link keywords="netvista.protocolcosendnetbufferlistscomplete" tabindex="0"><i>
    ProtocolCoSendNetBufferListsComplete</i></mshelp:link>

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 606CF45C-5398-4157-92A7-382B6162D806
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_IHV_TASK_PRIORITY enumeration [Network Drivers Starting with Windows Vista], WDI_IHV_TASK_PRIORITY_MEDIUM, netvista.wdi_ihv_task_priority, WDI_IHV_TASK_PRIORITY, wditypes/WDI_IHV_TASK_PRIORITY_MEDIUM, WDI_IHV_TASK_PRIORITY_LOW, _WDI_IHV_TASK_PRIORITY, netvista.wifi_ihv_task_priority, wditypes/WDI_IHV_TASK_PRIORITY_LOW, WDI_IHV_TASK_PRIORITY_HIGH, wditypes/WDI_IHV_TASK_PRIORITY_HIGH, wditypes/WDI_IHV_TASK_PRIORITY
+ms.keywords: "_WDI_IHV_TASK_PRIORITY, netvista.wifi_ihv_task_priority, WDI_IHV_TASK_PRIORITY_HIGH, netvista.wdi_ihv_task_priority, wditypes/WDI_IHV_TASK_PRIORITY_HIGH, wditypes/WDI_IHV_TASK_PRIORITY_LOW, WDI_IHV_TASK_PRIORITY_LOW, WDI_IHV_TASK_PRIORITY, WDI_IHV_TASK_PRIORITY enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_IHV_TASK_PRIORITY_MEDIUM, WDI_IHV_TASK_PRIORITY_MEDIUM, wditypes/WDI_IHV_TASK_PRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WDI_IHV_TASK_PRIORITY {
 
 
 
-### -field WDI_IHV_TASK_PRIORITY_HIGH
+#### - WDI_IHV_TASK_PRIORITY_HIGH
 
 High priority.
 
 
-### -field WDI_IHV_TASK_PRIORITY_MEDIUM
+#### - WDI_IHV_TASK_PRIORITY_MEDIUM
 
 Medium priority.
 
 
-### -field WDI_IHV_TASK_PRIORITY_LOW
+#### - WDI_IHV_TASK_PRIORITY_LOW
 
 Low priority.
 

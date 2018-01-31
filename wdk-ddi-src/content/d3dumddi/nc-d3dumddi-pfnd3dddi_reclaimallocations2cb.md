@@ -71,7 +71,7 @@ _Check_return_ HRESULT APIENTRY CALLBACK* pfnReclaimAllocations2Cb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device.
 

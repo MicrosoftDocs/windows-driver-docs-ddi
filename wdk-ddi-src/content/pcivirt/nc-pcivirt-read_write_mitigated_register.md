@@ -78,43 +78,43 @@ typedef READ_WRITE_MITIGATED_REGISTER *PREAD_WRITE_MITIGATED_REGISTER;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a driver-defined context.
                     
                 
 
 
-### -param VfIndex [in]
+#### - VfIndex [in]
 
 A zero-based index of the VF to which this read/write operation applies.
 
 
-### -param Read [in]
+#### - Read [in]
 
 
                     
                 A boolean that indicates whether to perform a read or a write operation. TRUE indicates read, FALSE otherwise.
 
 
-### -param BarIndex [in]
+#### - BarIndex [in]
 
 The BAR that maps the address space being mitigated.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The offset in number of bytes into the BAR at which this access begins.
 
 
-### -param Length [in]
+#### - Length [in]
 
 
                     
                 The length in bytes of this read or write operation.
 
 
-### -param Data [in, out]
+#### - Data [in, out]
 
 A pointer to a buffer that contains the data to read or write.
 

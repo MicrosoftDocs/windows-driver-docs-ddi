@@ -40,7 +40,7 @@ apiname:
 -	WskControlClient
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -79,7 +79,7 @@ NTSTATUS WSKAPI * WskControlClient(
 
 
 
-### -param Client [in]
+#### - Client [in]
 
 A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
@@ -89,7 +89,7 @@ A pointer to a
      WskCaptureProviderNPI</b></mshelp:link> function.
 
 
-### -param ControlCode [in]
+#### - ControlCode [in]
 
 The control operation that is being performed. A WSK application can specify one of the following
      control codes:
@@ -135,13 +135,13 @@ Control whether the WSK subsystem will divert network I/O to
        <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transports.
 
 
-### -param InputSize [in]
+#### - InputSize [in]
 
 The number of bytes of data in the buffer that is pointed to by the 
      <i>InputBuffer</i> parameter.
 
 
-### -param InputBuffer [in, optional]
+#### - InputBuffer [in, optional]
 
 A caller-allocated buffer that supplies any input data that is required to perform the specified
      control operation. If no input data is required for the specified control operation, the WSK application
@@ -149,13 +149,13 @@ A caller-allocated buffer that supplies any input data that is required to perfo
      <i>InputSize</i> parameter to zero.
 
 
-### -param OutputSize [in]
+#### - OutputSize [in]
 
 The size, in bytes, of the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 A caller-allocated buffer that receives any output data that is returned by the specified control
      operation. If no output data is returned by the specified control operation, the WSK application should
@@ -163,11 +163,32 @@ A caller-allocated buffer that receives any output data that is returned by the 
      <i>OutputSize</i> parameter to zero.
 
 
-### -param *OutputSizeReturned
+#### - *OutputSizeReturned [out, optional]
 
+A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
+     the buffer that is pointed to by the 
+     <i>OutputBuffer</i> parameter. A WSK application should set this pointer to <b>NULL</b> except when all of the
+     following are true:
+     
+<ul>
+<li>
+The 
+       <i>Irp</i> parameter is <b>NULL</b>.
 
+</li>
+<li>
+The operation that is being performed returns output data in the buffer that is pointed to by the 
+       <i>OutputBuffer</i> parameter.
 
-### -param Irp [in, out]
+</li>
+<li>
+The number of bytes of output data that is returned by the operation that is being performed is
+       unknown.
+
+</li>
+</ul>
+
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -298,15 +319,15 @@ If the
 
 <a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
  
 

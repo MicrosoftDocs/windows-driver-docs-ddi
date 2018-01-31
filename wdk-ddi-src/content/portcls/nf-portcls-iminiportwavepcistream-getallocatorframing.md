@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0b140ddc-52b5-4aee-afeb-5b2be57fe7b7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetAllocatorFraming method [Audio Devices], audio.iminiportwavepcistream_getallocatorframing, IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method, IMiniportWavePciStream, GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, portcls/IMiniportWavePciStream::GetAllocatorFraming, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, IMiniportWavePciStream::GetAllocatorFraming, GetAllocatorFraming
+ms.keywords: IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, portcls/IMiniportWavePciStream::GetAllocatorFraming, IMiniportWavePciStream, GetAllocatorFraming, GetAllocatorFraming method [Audio Devices], audio.iminiportwavepcistream_getallocatorframing, IMiniportWavePciStream::GetAllocatorFraming
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWavePciStream.GetAllocatorFraming
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWavePciStream::GetAllocatorFraming method
@@ -67,7 +67,7 @@ NTSTATUS GetAllocatorFraming(
 
 
 
-### -param AllocatorFraming [out]
+#### - AllocatorFraming [out]
 
 Pointer to a <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
 

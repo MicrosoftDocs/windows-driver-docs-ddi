@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 148cf294-0410-4704-93ce-338529a214ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentEventIndex method [Windows Debugging], IDebugControl3, GetCurrentEventIndex, GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, dbgeng/IDebugControl3::GetCurrentEventIndex
+ms.keywords: IDebugControl3::GetCurrentEventIndex, dbgeng/IDebugControl3::GetCurrentEventIndex, IDebugControl3, GetCurrentEventIndex method [Windows Debugging], GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface, GetCurrentEventIndex, debugger.getcurrenteventindex, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetCurrentEventIndex(
 
 
 
-### -param Index [out]
+#### - Index [out]
 
 Receives the index of the current event in the target.  The index will be a number between zero and one less than the number of events returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>.  The index of the first event is zero.
 
@@ -105,11 +105,11 @@ Targets that do not have fixed sets of events will always return zero to <i>Inde
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
 
  
 

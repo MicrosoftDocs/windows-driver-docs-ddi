@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml, NDIS_TCP_CONNECTION_OFFLOAD
+ms.keywords: PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, _NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_TCP_CONNECTION_OFFLOAD
 product: Windows
 targetos: Windows
-req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
+req.typenames: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD"
 ---
 
 # _NDIS_TCP_CONNECTION_OFFLOAD structure
@@ -78,7 +78,7 @@ typedef struct _NDIS_TCP_CONNECTION_OFFLOAD {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -92,32 +92,32 @@ The
      <b>NDIS_SIZEOF_TCP_CONNECTION_OFFLOAD_REVISION_1</b>.
 
 
-### -field Encapsulation
+#### - Encapsulation
 
 Encapsulation settings for TCP chimney offload. For more information about this member, see the following Remarks section.
 
 
-### -field SupportIPv4
+#### - SupportIPv4
 
 A ULONG value that an offload target sets to indicate that it supports IPv4. The TCP/IP driver
      stack sets this member to enable IPv4.
 
 
-### -field SupportIPv6
+#### - SupportIPv6
 
 A ULONG value that an offload target sets to indicate that it supports IPv6. The TCP/IP driver
      stack sets this member to enable IPv6. Note that an offload target can support both IPv4 and
      IPv6.
 
 
-### -field SupportIPv6ExtensionHeaders
+#### - SupportIPv6ExtensionHeaders
 
 A ULONG value that an offload target sets to indicate that it supports IPv6 extension headers
      (that is, routing, fragmentation/reassembly, authentication, encapsulation, hop-by-hop processing, and
      destination options). The TCP/IP driver stack sets this member to enable IPv6 extension headers.
 
 
-### -field SupportSack
+#### - SupportSack
 
 A ULONG value that an offload target sets to indicate that it supports TCP selective
      acknowledgments (SACKs) for both transmit and receive operations. The TCP/IP driver stack sets this
@@ -130,7 +130,7 @@ If an offload target sets the
      SACK option and process the rest of the TCP segment normally.
 
 
-### -field CongestionAlgorithm
+#### - CongestionAlgorithm
 
 Reserved for future use.
      
@@ -140,13 +140,13 @@ If you are an independent hardware vendor (IHV) and you want to implement nondef
      <a href="mailto:offloadt@microsoft.com">External TCP Offload Triage</a>.
 
 
-### -field TcpConnectionOffloadCapacity
+#### - TcpConnectionOffloadCapacity
 
 A ULONG value that an offload target sets to indicate the maximum number of offloaded TCP
      connections that it supports. This number includes both IPv4 and IPv6 connections.
 
 
-### -field Flags
+#### - Flags
 
 Reserved.
 
@@ -249,26 +249,26 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
+   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
 
 <mshelp:link keywords="netvista.oid_tcp_connection_offload_current_config" tabindex="0">
    OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</mshelp:link>
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<mshelp:link keywords="netvista.ndis_status_tcp_connection_offload_hardware_capabilities" tabindex="0"><b>
+   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</b></mshelp:link>
 
 <mshelp:link keywords="netvista.oid_tcp_connection_offload_hardware_capabilities" tabindex="0">
    OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_status_tcp_connection_offload_hardware_capabilities" tabindex="0"><b>
-   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</b></mshelp:link>
-
 <mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

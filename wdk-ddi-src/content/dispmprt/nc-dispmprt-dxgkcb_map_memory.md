@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbMapMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_MAP_MEMORY callback
@@ -76,41 +76,56 @@ NTSTATUS DxgkCbMapMemory(
 
 
 
-### -param DeviceHandle [in]
+#### - DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-### -param TranslatedAddress [in]
+#### - TranslatedAddress [in]
 
 The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling <a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The size, in bytes, of the range to be mapped.
 
 
-### -param InIoSpace [in]
+#### - InIoSpace [in]
 
 A Boolean value that specifies whether the range is in I/O space (<b>TRUE</b>) or memory space (<b>FALSE</b>).
 
 
-### -param MapToUserMode [in]
+#### - MapToUserMode [in]
 
 A Boolean value that specifies whether the range is mapped into user-mode space or system space. If <b>TRUE</b>, the range is mapped into the (user-mode) virtual address space of the current process. If <b>FALSE</b>, the range is mapped into system space. If <i>InIoSpace</i> is <b>TRUE</b>, this parameter is ignored.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 A <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
 
 
-### -param *VirtualAddress
+#### - *VirtualAddress [out]
 
-
-
-
+A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
+<table>
+<tr>
+<td></td>
+<td><i>MapToUserMode</i> is <b>FALSE</b></td>
+<td><i>MapToUserMode</i> is <b>TRUE</b></td>
+</tr>
+<tr>
+<td><i>InIoSpace</i> is <b>FALSE</b></td>
+<td>READ_REGISTER_X WRITE_REGISTER_X</td>
+<td>User-mode code performs ordinary memory access.</td>
+</tr>
+<tr>
+<td><i>InIoSpace</i> is <b>TRUE</b></td>
+<td>READ_PORT_X WRITE_PORT_X</td>
+<td>Not possible.</td>
+</tr>
+</table> 
 
 
 #### - VirtualAddress [out]

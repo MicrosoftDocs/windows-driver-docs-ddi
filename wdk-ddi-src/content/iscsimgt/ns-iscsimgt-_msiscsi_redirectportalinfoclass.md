@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fcddf029-748b-4300-9f87-a103d961918a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], storage.msiscsi_redirectportalinfoclass, _MSiSCSI_RedirectPortalInfoClass, *PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass, iscsimgt/MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], MSiSCSI_RedirectPortalInfoClass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml, iscsimgt/PMSiSCSI_RedirectPortalInfoClass
+ms.keywords: MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], _MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml, PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], iscsimgt/MSiSCSI_RedirectPortalInfoClass, iscsimgt/PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass, storage.msiscsi_redirectportalinfoclass, *PMSiSCSI_RedirectPortalInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MSiSCSI_RedirectPortalInfoClass {
 
 
 
-### -field UniqueAdapterId
+#### - UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID).
 
 
-### -field SessionCount
+#### - SessionCount
 
 The number of sessions for which this structure contains information.
 
 
-### -field RedirectSessionList
+#### - RedirectSessionList
 
 An array of structures that contains as many ISCSI_RedirectSessionInfo structures as specified in the connection count.
 

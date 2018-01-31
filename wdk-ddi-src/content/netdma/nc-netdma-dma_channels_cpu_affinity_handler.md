@@ -40,7 +40,7 @@ apiname:
 -	ProviderSetDmaChannelCpuAffinity
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_CHANNELS_CPU_AFFINITY_HANDLER callback
@@ -76,7 +76,7 @@ NTSTATUS ProviderSetDmaChannelCpuAffinity(
 
 
 
-### -param ProviderContext [in]
+#### - ProviderContext [in]
 
 A pointer that identifies a DMA provider's context area. The DMA provider driver passed this
      pointer to NetDMA in a call to the 
@@ -84,7 +84,7 @@ A pointer that identifies a DMA provider's context area. The DMA provider driver
      NetDmaRegisterProvider</b></mshelp:link> function.
 
 
-### -param CpuAffinityArray [in]
+#### - CpuAffinityArray [in]
 
 A pointer to an array of 
      <mshelp:link keywords="netvista.net_dma_channel_cpu_affinity" tabindex="0"><b>
@@ -92,7 +92,7 @@ A pointer to an array of
      are associated with the DMA provider.
 
 
-### -param CpuAffinityArraySize [in]
+#### - CpuAffinityArraySize [in]
 
 The length, in bytes, of the buffer at 
      <i>CpuAffinityArray</i> .
@@ -181,17 +181,17 @@ NetDMA calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+<mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
+   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
 
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_cpu_affinity.md">NET_DMA_CHANNEL_CPU_AFFINITY</a>
 
-<mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
-   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
-
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
+   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
  
 

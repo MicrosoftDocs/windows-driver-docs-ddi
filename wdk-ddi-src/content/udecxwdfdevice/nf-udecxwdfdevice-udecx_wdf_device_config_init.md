@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EC26EDCA-1C9E-4D06-A970-71FB96FEB0DF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT, buses.udecx_wdf_device_config_init, UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses]
+ms.keywords: UDECX_WDF_DEVICE_CONFIG_INIT, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT, buses.udecx_wdf_device_config_init, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE void UDECX_WDF_DEVICE_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 A pointer to a <a href="..\udecxwdfdevice\ns-udecxwdfdevice-_udecx_wdf_device_config.md">UDECX_WDF_DEVICE_CONFIG</a> structure to initialize.
 
 
-### -param EvtUdecxWdfDeviceQueryUsbCapability [in]
+#### - EvtUdecxWdfDeviceQueryUsbCapability [in]
 
 A pointer to an <a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_query_usb_capability.md">EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY</a> callback function.
 
@@ -89,9 +89,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\udecxwdfdevice\ns-udecxwdfdevice-_udecx_wdf_device_config.md">UDECX_WDF_DEVICE_CONFIG</a>
-
 <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>
+
+<a href="..\udecxwdfdevice\ns-udecxwdfdevice-_udecx_wdf_device_config.md">UDECX_WDF_DEVICE_CONFIG</a>
 
  
 

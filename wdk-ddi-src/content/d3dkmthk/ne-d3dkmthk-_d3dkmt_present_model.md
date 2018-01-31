@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4663cc8e-ce69-4454-afff-03d4a8d82dfb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_PM_REDIRECTED_FLIP, D3DKMT_PM_UNINITIALIZED, D3DKMT_PM_REDIRECTED_VISTABLT, D3DKMT_PRESENT_MODEL, d3dkmthk/D3DKMT_PM_SCREENCAPTUREFENCE, d3dkmthk/D3DKMT_PM_REDIRECTED_VISTABLT, d3dkmthk/D3DKMT_PM_REDIRECTED_FLIP, OpenGL_Structs_b2e4c00b-9072-449d-84c0-7958200e7d9a.xml, D3DKMT_PM_REDIRECTED_GDI, d3dkmthk/D3DKMT_PM_UNINITIALIZED, D3DKMT_PM_REDIRECTED_GDI_SYSMEM, d3dkmthk/D3DKMT_PM_REDIRECTED_BLT, d3dkmthk/D3DKMT_PRESENT_MODEL, d3dkmthk/D3DKMT_PM_REDIRECTED_COMPOSITION, D3DKMT_PM_REDIRECTED_BLT, display.d3dkmt_present_model, D3DKMT_PRESENT_MODEL enumeration [Display Devices], d3dkmthk/D3DKMT_PM_REDIRECTED_GDI, D3DKMT_PM_REDIRECTED_COMPOSITION, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI_SYSMEM, D3DKMT_PM_SCREENCAPTUREFENCE, _D3DKMT_PRESENT_MODEL
+ms.keywords: D3DKMT_PM_REDIRECTED_GDI, D3DKMT_PM_SCREENCAPTUREFENCE, d3dkmthk/D3DKMT_PM_REDIRECTED_BLT, OpenGL_Structs_b2e4c00b-9072-449d-84c0-7958200e7d9a.xml, d3dkmthk/D3DKMT_PM_REDIRECTED_FLIP, d3dkmthk/D3DKMT_PM_REDIRECTED_VISTABLT, D3DKMT_PM_REDIRECTED_COMPOSITION, d3dkmthk/D3DKMT_PM_REDIRECTED_COMPOSITION, D3DKMT_PM_REDIRECTED_BLT, _D3DKMT_PRESENT_MODEL, display.d3dkmt_present_model, D3DKMT_PM_REDIRECTED_GDI_SYSMEM, D3DKMT_PM_UNINITIALIZED, D3DKMT_PM_REDIRECTED_VISTABLT, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI, d3dkmthk/D3DKMT_PM_SCREENCAPTUREFENCE, D3DKMT_PRESENT_MODEL, D3DKMT_PM_REDIRECTED_FLIP, D3DKMT_PRESENT_MODEL enumeration [Display Devices], d3dkmthk/D3DKMT_PM_REDIRECTED_GDI_SYSMEM, d3dkmthk/D3DKMT_PRESENT_MODEL, d3dkmthk/D3DKMT_PM_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _D3DKMT_PRESENT_MODEL {
 
 
 
-### -field D3DKMT_PM_UNINITIALIZED
+#### - D3DKMT_PM_UNINITIALIZED
 
 The present-operation model is not initialized. 
 
 
-### -field D3DKMT_PM_REDIRECTED_GDI
+#### - D3DKMT_PM_REDIRECTED_GDI
 
 The present-operation model is redirected GDI. 
 
 
-### -field D3DKMT_PM_REDIRECTED_FLIP
+#### - D3DKMT_PM_REDIRECTED_FLIP
 
 The present-operation model is redirected flip. 
 
 
-### -field D3DKMT_PM_REDIRECTED_BLT
+#### - D3DKMT_PM_REDIRECTED_BLT
 
 The present-operation model is redirected bit-block transfer (bitblt). 
 
 
-### -field D3DKMT_PM_REDIRECTED_VISTABLT
+#### - D3DKMT_PM_REDIRECTED_VISTABLT
 
 The present-operation model is redirected Windows Vista bitblt.
 
 
-### -field D3DKMT_PM_SCREENCAPTUREFENCE
+#### - D3DKMT_PM_SCREENCAPTUREFENCE
 
 The present-operation model is screen capture through a fence. 
 
 
-### -field D3DKMT_PM_REDIRECTED_GDI_SYSMEM
+#### - D3DKMT_PM_REDIRECTED_GDI_SYSMEM
 
 The present-operation model is redirected system GDI. 
 
 
-### -field D3DKMT_PM_REDIRECTED_COMPOSITION
+#### - D3DKMT_PM_REDIRECTED_COMPOSITION
 
 The present-operation model is redirected composition swap chain presentation. This type of presentation is used for XAML-based apps.
 

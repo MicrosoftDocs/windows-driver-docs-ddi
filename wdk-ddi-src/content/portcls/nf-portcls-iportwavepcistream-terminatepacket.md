@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b85c37ff-b8f0-43df-bce2-f8a85ec050a7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TerminatePacket method [Audio Devices], IPortWavePciStream interface, IPortWavePciStream::TerminatePacket, IPortWavePciStream interface [Audio Devices], TerminatePacket method, TerminatePacket, audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml, audio.iportwavepcistream_terminatepacket, IPortWavePciStream, portcls/IPortWavePciStream::TerminatePacket, TerminatePacket method [Audio Devices]
+ms.keywords: TerminatePacket method [Audio Devices], IPortWavePciStream interface, TerminatePacket method [Audio Devices], portcls/IPortWavePciStream::TerminatePacket, audio.iportwavepcistream_terminatepacket, IPortWavePciStream, audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml, IPortWavePciStream interface [Audio Devices], TerminatePacket method, TerminatePacket, IPortWavePciStream::TerminatePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWavePciStream.TerminatePacket
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortWavePciStream::TerminatePacket method

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B64849A6-DDB1-4BD1-B4B6-1E38DE9237E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTypeCOperatingModeInvalid, buses.ucm_type_c_operating_mode, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeDfp, ucmtypes/UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeUfp, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UCM_TYPEC_OPERATING_MODE, UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeDrp, _UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDfp
+ms.keywords: buses.ucm_type_c_operating_mode, UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeUfp, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeDfp, UCM_TYPEC_OPERATING_MODE, ucmtypes/UCM_TYPEC_OPERATING_MODE, _UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeInvalid, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UcmTypeCOperatingModeInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _UCM_TYPEC_OPERATING_MODE {
 
 
 
-### -field UcmTypeCOperatingModeInvalid
+#### - UcmTypeCOperatingModeInvalid
 
 Indicates the operating mode is invalid.
 
 
-### -field UcmTypeCOperatingModeDfp
+#### - UcmTypeCOperatingModeDfp
 
 Indicates the operating mode is set to downstream-facing port.
 
 
-### -field UcmTypeCOperatingModeUfp
+#### - UcmTypeCOperatingModeUfp
 
 Indicates the operating mode is set to upstream-facing port.
 
 
-### -field UcmTypeCOperatingModeDrp
+#### - UcmTypeCOperatingModeDrp
 
 Indicates the operating mode is set to dual-role port. 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4fa3093-a328-4d90-bc51-0e7a6db1ed58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PHBAFCPID, hbapiwmi/HBAFCPID, PHBAFCPID, HBAFCPID, PHBAFCPID structure pointer [Storage Devices], structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, _HBAFCPID, storage.hbafcpid, *PHBAFCPID, HBAFCPID structure [Storage Devices]
+ms.keywords: hbapiwmi/HBAFCPID, HBAFCPID structure [Storage Devices], PHBAFCPID, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, _HBAFCPID, storage.hbafcpid, PHBAFCPID structure pointer [Storage Devices], HBAFCPID, hbapiwmi/PHBAFCPID, *PHBAFCPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAFCPID
 product: Windows
 targetos: Windows
-req.typenames: HBAFCPID, *PHBAFCPID
+req.typenames: "*PHBAFCPID, HBAFCPID"
 ---
 
 # _HBAFCPID structure
@@ -70,22 +70,22 @@ typedef struct _HBAFCPID {
 
 
 
-### -field Fcid
+#### - Fcid
 
 Contains the identifier that indicates which port is to be queried for information about the logical unit. For a discussion of the values that this member have, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-### -field NodeWWN
+#### - NodeWWN
 
 Contains the 64 bit world-wide name (WWN) of the node (machine) to which the logical unit is connected. If an HBA has multiple ports and is associated with more than one node, this member will contain a name chosen from among the names of the associated nodes. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains the 64 bit world-wide name of the port to be queried for information about the logical unit. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-### -field FcpLun
+#### - FcpLun
 
 Contains a 64-bit fibre channel protocol (FCP) number for the logical unit. 
 
@@ -101,9 +101,9 @@ For more information about the fibre channel protocol (FCP), see the T11 committ
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
+<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
 
  
 

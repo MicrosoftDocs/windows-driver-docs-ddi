@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0946287-3ED2-4DE1-A3D7-46611B25BB93
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSaveBegin, VmbChannelSaveBegin function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSaveBegin, netvista.vmbchannelsavebegin
+ms.keywords: VmbChannelSaveBegin function [Network Drivers Starting with Windows Vista], VmbChannelSaveBegin, vmbuskernelmodeclientlibapi/VmbChannelSaveBegin, netvista.vmbchannelsavebegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbChannelSaveBegin
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ NTSTATUS VmbChannelSaveBegin(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for the channel to save.  
 
@@ -94,9 +94,9 @@ all the state is saved, and then calls the <a href="..\vmbuskernelmodeclientliba
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend.md">VmbChannelSaveEnd</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue.md"> VmbChannelSaveContinue</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend.md">VmbChannelSaveEnd</a>
 
  
 

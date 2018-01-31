@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c61e343a-5276-4cb8-87ff-9852ad167ff5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveOutputMemory, kmdf.wdfrequestretrieveoutputmemory, DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, PFN_WDFREQUESTRETRIEVEOUTPUTMEMORY, wdfrequest/WdfRequestRetrieveOutputMemory, wdf.wdfrequestretrieveoutputmemory, WdfRequestRetrieveOutputMemory method
+ms.keywords: PFN_WDFREQUESTRETRIEVEOUTPUTMEMORY, DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, WdfRequestRetrieveOutputMemory, wdf.wdfrequestretrieveoutputmemory, WdfRequestRetrieveOutputMemory method, wdfrequest/WdfRequestRetrieveOutputMemory, kmdf.wdfrequestretrieveoutputmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfRequestRetrieveOutputMemory(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. 
 
 
-### -param Memory [out]
+#### - Memory [out]
 
 A pointer to a location that receives a handle to a framework memory object. 
 
@@ -178,9 +178,9 @@ For more information about <b>WdfRequestRetrieveOutputMemory</b>, see <a href="h
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
 

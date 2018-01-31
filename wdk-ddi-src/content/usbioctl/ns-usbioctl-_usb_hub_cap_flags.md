@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4f3f01f2-d5ef-4b41-8733-ac44952dc9a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], *PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, _USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml, USB_HUB_CAP_FLAGS union [Buses], PUSB_HUB_CAP_FLAGS
+ms.keywords: USB_HUB_CAP_FLAGS union [Buses], USB_HUB_CAP_FLAGS, *PUSB_HUB_CAP_FLAGS, _USB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], usbioctl/USB_HUB_CAP_FLAGS, usbioctl/PUSB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,56 +78,56 @@ typedef union _USB_HUB_CAP_FLAGS {
 
 
 
-### -field HubIsHighSpeedCapable
+#### - HubIsHighSpeedCapable
 
 If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
 
 
-### -field HubIsHighSpeed
+#### - HubIsHighSpeed
 
 If <b>TRUE</b>, the hub is high speed.
 
 
-### -field HubIsMultiTtCapable
+#### - HubIsMultiTtCapable
 
 If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
 
 
-### -field HubIsMultiTt
+#### - HubIsMultiTt
 
 If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
 
 
-### -field HubIsRoot
+#### - HubIsRoot
 
 If <b>TRUE</b>, the hub is the root hub.
 
 
-### -field HubIsArmedWakeOnConnect
+#### - HubIsArmedWakeOnConnect
 
 If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
 
 
-### -field HubIsBusPowered
+#### - HubIsBusPowered
 
 A boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the hub is bus-powered; <b>FALSE</b>, the hub is self-powered.
 
 
-### -field ReservedMBZ
+#### - ReservedMBZ
 
 Reserved. Do not use.
 
 
-### -field ul
+#### - ul
 
 A bitmask that represents the hub capabilities.
 
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
 
  
 

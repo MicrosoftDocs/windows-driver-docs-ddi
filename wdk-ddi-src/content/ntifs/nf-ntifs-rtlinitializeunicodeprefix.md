@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8891641a-392c-4c2b-aa5a-9464774d8610
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_cc6170fe-7f41-45ac-909c-75e341ad8d9c.xml, ntifs/RtlInitializeUnicodePrefix, RtlInitializeUnicodePrefix, ifsk.rtlinitializeunicodeprefix, RtlInitializeUnicodePrefix routine [Installable File System Drivers]
+ms.keywords: RtlInitializeUnicodePrefix routine [Installable File System Drivers], rtlref_cc6170fe-7f41-45ac-909c-75e341ad8d9c.xml, ntifs/RtlInitializeUnicodePrefix, RtlInitializeUnicodePrefix, ifsk.rtlinitializeunicodeprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID RtlInitializeUnicodePrefix(
 
 
 
-### -param PrefixTable [out]
+#### - PrefixTable [out]
 
 Pointer to caller-allocated buffer, which must be at least <b>sizeof</b>(UNICODE_PREFIX_TABLE), for the prefix table header. <b>RtlInitializeUnicodePrefix</b> initializes this header, which should be considered opaque by the caller. 
 
@@ -92,15 +92,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
+
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
-<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
 
 <a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
 
-<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
-
-<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
 
  
 

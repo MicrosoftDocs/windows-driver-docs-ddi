@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 31C7A629-3B5E-44BA-AE03-3331E3200FC6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsInsertSiloContext, PsInsertSiloContext, kernel.psinsertsilocontext, PsInsertSiloContext routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.psinsertsilocontext, PsInsertSiloContext, ntddk/PsInsertSiloContext, PsInsertSiloContext routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS PsInsertSiloContext(
 
 
 
-### -param Silo [in]
+#### - Silo [in]
 
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
 
-### -param ContextSlot [in]
+#### - ContextSlot [in]
 
 A slot allocated by the <a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> routine. 
 
 
-### -param SiloContext [in]
+#### - SiloContext [in]
 
 A pointer to the object created by the <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>. 
 

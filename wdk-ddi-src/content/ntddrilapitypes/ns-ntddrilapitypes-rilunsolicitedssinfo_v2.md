@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4b93f1e-8559-4145-a122-74d62b146afa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO, netvista.rilunsolicitedssinfo_v2, ntddrilapitypes/RILUNSOLICITEDSSINFO_V2
+ms.keywords: "*LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUNSOLICITEDSSINFO_V2, netvista.rilunsolicitedssinfo_v2, *LPRILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUNSOLICITEDSSINFO_V2
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2"
+req.typenames: "*LPRILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO"
 ---
 
 # RILUNSOLICITEDSSINFO_V2 structure
@@ -76,42 +76,42 @@ typedef struct _RILUNSOLICITEDSSINFO_V2 {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwID
+#### - dwID
 
 
 
-### -field dwNotificationCode
+#### - dwNotificationCode
 
 
 
-### -field raAddress
+#### - raAddress
 
 
 
-### -field rsaSubAddress
+#### - rsaSubAddress
 
 
 
-### -field dwCUGIndex
+#### - dwCUGIndex
 
 
 
-### -field dwHistorynfoLength
+#### - dwHistorynfoLength
 
 
 
-### -field wszHistoryInfo
+#### - wszHistoryInfo
 
 

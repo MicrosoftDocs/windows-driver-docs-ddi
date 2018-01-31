@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5e481453-1e01-46b4-a04e-e9c575cd65b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml, display.d3d10_ddi_query_data_pipeline_statistics, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS
+ms.keywords: D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d10_ddi_query_data_pipeline_statistics, d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS {
 
 
 
-### -field IAVertices
+#### - IAVertices
 
 The number of input assembler (IA) veritces. 
 
 
-### -field IAPrimitives
+#### - IAPrimitives
 
 The number of IA primitives. 
 
 
-### -field VSInvocations
+#### - VSInvocations
 
 The number of vertex shader (VS) invocations. 
 
 
-### -field GSInvocations
+#### - GSInvocations
 
 The number of geometry shader (GS) invocations. 
 
 
-### -field GSPrimitives
+#### - GSPrimitives
 
 The number of GS primitives. 
 
 
-### -field CInvocations
+#### - CInvocations
 
 The number of clipper invocations. 
 
 
-### -field CPrimitives
+#### - CPrimitives
 
 The number of clipper primitives. 
 
 
-### -field PSInvocations
+#### - PSInvocations
 
 The number of pixel shader (PS) invocations. 
 
@@ -125,9 +125,9 @@ The driver associates a D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure with 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
  
 

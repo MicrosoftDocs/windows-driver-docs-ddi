@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0fa761c-8e28-4067-ae9e-d39e2853fb05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], netvista.rilnetworkcode, RILNETWORKCODE, *LPRILNETWORKCODE
+ms.keywords: RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], *LPRILNETWORKCODE, RILNETWORKCODE, rilapitypes/RILNETWORKCODE, netvista.rilnetworkcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILNETWORKCODE
 product: Windows
 targetos: Windows
-req.typenames: RILNETWORKCODE, *LPRILNETWORKCODE
+req.typenames: "*LPRILNETWORKCODE, RILNETWORKCODE"
 req.product: Windows 10 or later.
 ---
 
@@ -75,42 +75,42 @@ struct RILNETWORKCODE {
 
 
 
-### -field cbSize
+#### - cbSize
 
 The size of the structure in bytes.
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilnetworkcodeparammask.md">RILNETWORKCODEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 This field is unused.
 
 
-### -field dwMCC
+#### - dwMCC
 
 Mobile Country Code, if applicable. For RIL_SYSTEMTYPE_1XRTT and RIL_SYSTEMTYPE_EVDO it is network-dependent whether this value is available; further, the MCC provided by some 3GPP2 networks may not be accurate.
 
 
-### -field dwMNC
+#### - dwMNC
 
 Mobile Network Code. For RIL_SYSTEMTYPE_1XRTT and RIL_SYSTEMTYPE_EVDO it is network-dependent whether this value is available; further, the MCC provided by some 3GPP2 networks may not be accurate.
 
 
-### -field dwSID
+#### - dwSID
 
 System ID, if applicable. This is available only for RIL_SYSTEMTYPE_1XRTT.
 
 
-### -field dwNID
+#### - dwNID
 
 Network ID, if applicable. This is available only for RIL_SYSTEMTYPE_1XRTT.
 
 
-### -field dwRI
+#### - dwRI
 
 Roaming indicator, if applicable. This is available only for RIL_SYSTEMTYPE_1XRTT and RIL_SYSTEMTYPE_EVDO.
 

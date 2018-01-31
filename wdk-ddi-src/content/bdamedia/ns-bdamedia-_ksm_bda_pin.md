@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e7778ba-cf4f-44e8-91ce-c53458d3db9a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksm_bda_pin, PKSM_BDA_PIN, *PKSM_BDA_PIN, bdamedia/KSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices], bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, KSM_BDA_PIN structure [Streaming Media Devices], KSM_BDA_PIN, _KSM_BDA_PIN, bdamedia/PKSM_BDA_PIN
+ms.keywords: KSM_BDA_PIN structure [Streaming Media Devices], PKSM_BDA_PIN structure pointer [Streaming Media Devices], _KSM_BDA_PIN, KSM_BDA_PIN, *PKSM_BDA_PIN, PKSM_BDA_PIN, bdamedia/KSM_BDA_PIN, stream.ksm_bda_pin, bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, bdamedia/PKSM_BDA_PIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _KSM_BDA_PIN {
 
 
 
-### -field PinId
+#### - PinId
 
 Member of the union in KSM_BDA_PIN that contains the identifier (ID) of a pin factory of a filter.
 
 
-### -field PinType
+#### - PinType
 
 Member of the union in KSM_BDA_PIN that contains the value that specifies the pin type.
 
 
-### -field Method
+#### - Method
 
 KSMETHOD structure that describes a method and request type of a method request.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 

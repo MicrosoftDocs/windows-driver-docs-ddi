@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b3a20db-aa03-4017-a10a-ae84a6ed31c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3d11_1ddiarg_createauthenticatedchannel, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+ms.keywords: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], display.d3d11_1ddiarg_createauthenticatedchannel, d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL {
 
 
 
-### -field ChannelType
+#### - ChannelType
 
 Specifies the type of channel, as a member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
 
 
-### -field hChannel
+#### - hChannel
 
 A handle to the authenticated channel object.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
 
  
 

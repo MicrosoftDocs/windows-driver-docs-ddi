@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5020d2c6-f435-4d22-98a3-23318ffc0baf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/TAPE_CREATE_PARTITION, structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml, storage.tape_create_partition, PTAPE_CREATE_PARTITION structure pointer [Storage Devices], *PTAPE_CREATE_PARTITION, _TAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION structure [Storage Devices], PTAPE_CREATE_PARTITION, ntddtape/PTAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION
+ms.keywords: "*PTAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION, structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml, PTAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION structure pointer [Storage Devices], TAPE_CREATE_PARTITION structure [Storage Devices], ntddtape/PTAPE_CREATE_PARTITION, ntddtape/TAPE_CREATE_PARTITION, storage.tape_create_partition, _TAPE_CREATE_PARTITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _TAPE_CREATE_PARTITION {
 
 
 
-### -field Method
+#### - Method
 
 Indicates the method used to create the partitions. This member can have one of the following values: 
 <table>
@@ -110,12 +110,12 @@ Partitions the tape into the number and size of partitions specified by <b>Count
 </table> 
 
 
-### -field Count
+#### - Count
 
 Indicates the number of partitions to create.
 
 
-### -field Size
+#### - Size
 
 Indicates the size of each partition, in bytes.
 

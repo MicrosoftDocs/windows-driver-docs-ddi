@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, WriteToErrorLog method [Imaging Devices], stiusd/IStiDeviceControl::WriteToErrorLog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, IStiDeviceControl, image.istidevicecontrol_writetoerrorlog, WriteToErrorLog, IStiDeviceControl::WriteToErrorLog
+ms.keywords: IStiDeviceControl::WriteToErrorLog, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, IStiDeviceControl, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], stiusd/IStiDeviceControl::WriteToErrorLog, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, image.istidevicecontrol_writetoerrorlog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDeviceControl.WriteToErrorLog
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT WriteToErrorLog(
 
 
 
-### -param dwMessageType
+#### - dwMessageType
 
 Caller-supplied constant value representing the message type. The following values are defined in <i>Sti.h</i>:
 
@@ -81,12 +81,12 @@ STI_TRACE_WARNING
 STI_TRACE_ERROR
 
 
-### -param pszMessage
+#### - pszMessage
 
 Caller-supplied pointer to a message string to be written to the log file.
 
 
-### -param dwErrorCode
+#### - dwErrorCode
 
 <i>Not used</i>.
 

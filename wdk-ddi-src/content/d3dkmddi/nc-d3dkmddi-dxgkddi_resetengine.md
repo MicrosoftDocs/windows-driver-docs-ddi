@@ -72,12 +72,12 @@ NTSTATUS APIENTRY DxgkDdiResetEngine(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-### -param pResetEngine [in, out]
+#### - pResetEngine [in, out]
 
 A value of type  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_resetengine.md">DXGKARG_RESETENGINE</a> that specifies nodes that are to be reset and supplies a fence identifier for the last aborted packet.
 
@@ -104,9 +104,9 @@ For more information, see  <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_resetengine.md">DXGKARG_RESETENGINE</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
  
 

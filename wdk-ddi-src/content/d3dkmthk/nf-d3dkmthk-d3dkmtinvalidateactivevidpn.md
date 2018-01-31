@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7cac46d-b64d-4362-99ab-179aa6525ba2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn, d3dkmthk/D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices]
+ms.keywords: display.d3dkmtinvalidateactivevidpn, d3dkmthk/D3DKMTInvalidateActiveVidPn, OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, D3DKMTInvalidateActiveVidPn function [Display Devices], D3DKMTInvalidateActiveVidPn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

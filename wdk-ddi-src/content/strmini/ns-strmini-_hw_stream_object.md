@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0cb2041a-844d-4ddb-9dab-e1c77c28835a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PHW_STREAM_OBJECT, strmini/HW_STREAM_OBJECT, PHW_STREAM_OBJECT, _HW_STREAM_OBJECT, PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], HW_STREAM_OBJECT, strmini/PHW_STREAM_OBJECT, HW_STREAM_OBJECT structure [Streaming Media Devices], stream.hw_stream_object, strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml"
+ms.keywords: HW_STREAM_OBJECT structure [Streaming Media Devices], HW_STREAM_OBJECT, PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], strmini/PHW_STREAM_OBJECT, stream.hw_stream_object, _HW_STREAM_OBJECT, strmini/HW_STREAM_OBJECT, PHW_STREAM_OBJECT, *PHW_STREAM_OBJECT, strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HW_STREAM_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: HW_STREAM_OBJECT, *PHW_STREAM_OBJECT
+req.typenames: "*PHW_STREAM_OBJECT, HW_STREAM_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -81,72 +81,72 @@ typedef struct _HW_STREAM_OBJECT {
 
 
 
-### -field SizeOfThisPacket
+#### - SizeOfThisPacket
 
 Specifies the size, in bytes, of this structure.
 
 
-### -field StreamNumber
+#### - StreamNumber
 
 Specifies the offset of the stream within the minidriver's <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a> structure.
 
 
-### -field HwStreamExtension
+#### - HwStreamExtension
 
 Points to the stream extension, a buffer allocated by the class driver for the minidriver to use to hold private information about this stream. The minidriver sets the size of the buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself with the stream class driver.
 
 
-### -field ReceiveDataPacket
+#### - ReceiveDataPacket
 
 Pointer to the stream's <a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveStreamDataPacket</a> routine.
 
 
-### -field ReceiveControlPacket
+#### - ReceiveControlPacket
 
 Pointer to the stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a> routine.
 
 
-### -field HwClockObject
+#### - HwClockObject
 
 Contains the stream's clock object. See <a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a> for details.
 
 
-### -field Dma
+#### - Dma
 
 If <b>TRUE</b>, the device uses DMA to transfer data for this stream.
 
 
-### -field Pio
+#### - Pio
 
 If <b>TRUE</b>, the device uses programmed I/O to transfer data for this stream. Note that both the <b>Pio</b> and <b>Dma</b> members may be <b>TRUE</b>.
 
 
-### -field HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
-### -field StreamHeaderMediaSpecific
+#### - StreamHeaderMediaSpecific
 
 Specifies the size in bytes of the media-specific, per-stream header extension.
 
 
-### -field StreamHeaderWorkspace
+#### - StreamHeaderWorkspace
 
 Specifies the size of the per-stream-header workspace.
 
 
-### -field Allocator
+#### - Allocator
 
 Specifies <b>TRUE</b> if the driver uses allocators. Most minidrivers set this value to <b>FALSE</b>. 
 
 
-### -field HwEventRoutine
+#### - HwEventRoutine
 
 Pointer to the stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568457">StrMiniEvent</a> routine
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Do not use.
 

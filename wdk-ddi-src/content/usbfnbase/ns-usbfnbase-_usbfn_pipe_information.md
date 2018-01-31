@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F8BBD279-3694-4559-83B3-9312EF4153C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBFN_PIPE_INFORMATION, usbfnbase/PUSBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION, buses.usbfn_pipe_information, USBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION structure pointer [Buses], *PUSBFN_PIPE_INFORMATION, _USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION structure [Buses]
+ms.keywords: buses.usbfn_pipe_information, PUSBFN_PIPE_INFORMATION structure pointer [Buses], *PUSBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION, usbfnbase/PUSBFN_PIPE_INFORMATION, _USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _USBFN_PIPE_INFORMATION {
 
 
 
-### -field EpDesc
+#### - EpDesc
 
 Describes the endpoint descriptor in a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure.
 
 
-### -field PipeId
+#### - PipeId
 
 The pipe identifier (ID).
 

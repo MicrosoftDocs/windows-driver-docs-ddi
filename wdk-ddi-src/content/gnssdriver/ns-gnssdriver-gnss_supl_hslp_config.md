@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 08CCC4A8-2D85-436D-B18E-77C91A24F59C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], gnssdriver/PGNSS_SUPL_HSLP_CONFIG, sensors.gnss_supl_hslp_config, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_HSLP_CONFIG
+ms.keywords: PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, sensors.gnss_supl_hslp_config, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], *PGNSS_SUPL_HSLP_CONFIG, gnssdriver/GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_SUPL_HSLP_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG"
+req.typenames: GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG
 ---
 
 # GNSS_SUPL_HSLP_CONFIG structure
@@ -72,12 +72,12 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
@@ -92,7 +92,7 @@ Version number.
  
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 

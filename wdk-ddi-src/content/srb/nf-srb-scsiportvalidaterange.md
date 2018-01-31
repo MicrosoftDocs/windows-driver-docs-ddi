@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a9ad58c2-16fc-410a-abc7-01c3f2354b88
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortValidateRange routine [Storage Devices], ScsiPortValidateRange, storage.scsiportvalidaterange, scsiprt_a5bae9f5-7912-4607-890d-ca08fda0c19c.xml, srb/ScsiPortValidateRange
+ms.keywords: ScsiPortValidateRange, scsiprt_a5bae9f5-7912-4607-890d-ca08fda0c19c.xml, srb/ScsiPortValidateRange, storage.scsiportvalidaterange, ScsiPortValidateRange routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortValidateRange
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -74,32 +74,32 @@ BOOLEAN ScsiPortValidateRange(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param BusType [in]
+#### - BusType [in]
 
 Specifies the value of the <b>AdapterInterfaceType</b> member in the PORT_CONFIGURATION_INFORMATION structure when <i>HwScsiFindAdapter</i> is called.
 
 
-### -param SystemIoBusNumber [in]
+#### - SystemIoBusNumber [in]
 
 Specifies the value of the <b>SystemIoBusNumber</b> member in the configuration information when <i>HwScsiFindAdapter</i> is called.
 
 
-### -param IoAddress [in]
+#### - IoAddress [in]
 
 Specifies a bus-relative base address for the range of ports or device memory to be validated <i>before</i> the miniport driver's <i>HwScsiFindAdapter</i> routine attempts to map the access range for the adapter at that address.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies the size in bytes or number of elements in the range.
 
 
-### -param InIoSpace [in]
+#### - InIoSpace [in]
 
 Indicates when TRUE that the range is in I/O space, rather than in memory. When <b>FALSE</b>, the range is in memory space. 
 
@@ -153,15 +153,15 @@ Use the mapped logical addresses with the <b>ScsiPortRead/Write</b><i>Xxx</i> to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
-
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
 <a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
 
 <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
  
 

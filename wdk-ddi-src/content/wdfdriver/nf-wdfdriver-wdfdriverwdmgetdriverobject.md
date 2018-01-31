@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9755557-6d5d-4ef0-b868-f05e5b82da78
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverWdmGetDriverObject, PFN_WDFDRIVERWDMGETDRIVEROBJECT, wdfdriver/WdfDriverWdmGetDriverObject, wdf.wdfdriverwdmgetdriverobject, WdfDriverWdmGetDriverObject method, kmdf.wdfdriverwdmgetdriverobject, DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml
+ms.keywords: DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, WdfDriverWdmGetDriverObject method, WdfDriverWdmGetDriverObject, kmdf.wdfdriverwdmgetdriverobject, wdfdriver/WdfDriverWdmGetDriverObject, PFN_WDFDRIVERWDMGETDRIVEROBJECT, wdf.wdfdriverwdmgetdriverobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PDRIVER_OBJECT WdfDriverWdmGetDriverObject(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 

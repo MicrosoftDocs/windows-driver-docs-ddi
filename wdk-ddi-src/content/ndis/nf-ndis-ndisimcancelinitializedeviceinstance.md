@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisimcancelinitializedeviceinstance, ndis/NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance, intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista]
+ms.keywords: intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ NDIS_STATUS NdisIMCancelInitializeDeviceInstance(
 
 
 
-### -param DriverHandle [in]
+#### - DriverHandle [in]
 
 The miniport driver handle that the 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
@@ -80,7 +80,7 @@ The miniport driver handle that the
      <i>NdisMiniportDriverHandle</i> parameter.
 
 
-### -param DeviceInstance [in]
+#### - DeviceInstance [in]
 
 A pointer to an NDIS_STRING type that describes a caller-initialized counted string in the
      system-default character set. The string contains the name of the registry key in which the driver
@@ -120,10 +120,10 @@ An intermediate driver calls the
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
    NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 

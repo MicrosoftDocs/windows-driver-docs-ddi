@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 52bc00d5-313c-444d-91d9-8f95640e7d81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_f385c5d4-bc63-4aae-b021-b503f6a5336f.xml, video/VideoPortWriteRegisterBufferUshort, VideoPortWriteRegisterBufferUshort, VideoPortWriteRegisterBufferUshort function [Display Devices], display.videoportwriteregisterbufferushort
+ms.keywords: VideoPort_Functions_f385c5d4-bc63-4aae-b021-b503f6a5336f.xml, VideoPortWriteRegisterBufferUshort function [Display Devices], VideoPortWriteRegisterBufferUshort, video/VideoPortWriteRegisterBufferUshort, display.videoportwriteregisterbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortWriteRegisterBufferUshort(
 
 
 
-### -param Register
+#### - Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer containing the USHORT values to be written.
 
 
-### -param Count
+#### - Count
 
 Specifies the number of USHORT values to be transferred to the adapter.
 

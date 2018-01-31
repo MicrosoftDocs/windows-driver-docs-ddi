@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5c2d5d5-550e-42e5-b86a-f17e361925dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmsecurevirtualmemory, k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, MmSecureVirtualMemory, ntddk/MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: MmSecureVirtualMemory, k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], ntddk/MmSecureVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ HANDLE MmSecureVirtualMemory(
 
 
 
-### -param Address [in]
+#### - Address [in]
 
 The beginning of the user virtual address range to secure.
 
 
-### -param Size [in]
+#### - Size [in]
 
 The size, in bytes, of the virtual address range to secure.
 
 
-### -param ProbeMode [in]
+#### - ProbeMode [in]
 
 The most restrictive protection type that is allowed. Use PAGE_READWRITE to specify that address range must remain both readable and writable, or use PAGE_READONLY to specify the address range must only remain readable.
 

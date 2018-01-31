@@ -71,7 +71,7 @@ __checkResult HRESULT APIENTRY CALLBACK pfnSignalSynchronizationObjectCb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to a display device (that is, the graphics context).
 

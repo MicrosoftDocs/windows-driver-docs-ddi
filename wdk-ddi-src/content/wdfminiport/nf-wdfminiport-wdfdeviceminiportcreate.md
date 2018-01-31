@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d74dedbd-f418-4ea3-ae76-c0da9c5f2fb9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceminiportcreate, PFN_WDFDEVICEMINIPORTCREATE, wdf.wdfdeviceminiportcreate, DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, WdfDeviceMiniportCreate method, WdfDeviceMiniportCreate, wdfminiport/WdfDeviceMiniportCreate
+ms.keywords: DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, wdfminiport/WdfDeviceMiniportCreate, wdf.wdfdeviceminiportcreate, kmdf.wdfdeviceminiportcreate, PFN_WDFDEVICEMINIPORTCREATE, WdfDeviceMiniportCreate, WdfDeviceMiniportCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDeviceMiniportCreate
 product: Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
+req.typenames: "*PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -76,32 +76,32 @@ NTSTATUS WdfDeviceMiniportCreate(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 A handle to the driver's framework driver object, obtained by a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>.
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to a WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object (FDO) for the miniport driver.
 
 
-### -param AttachedDeviceObject [in, optional]
+#### - AttachedDeviceObject [in, optional]
 
 A pointer to a WDM DEVICE_OBJECT structure that represents the next-lower device object in the device stack.
 
 
-### -param Pdo [in, optional]
+#### - Pdo [in, optional]
 
 A pointer to a WDM DEVICE_OBJECT structure that represents the physical device object (PDO) for the device.
 
 
-### -param Device [out]
+#### - Device [out]
 
 A pointer to a location that receives a handle to the new framework device object.
 
@@ -193,11 +193,11 @@ For more information about miniport drivers, see <a href="https://docs.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 <a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
 
  
 

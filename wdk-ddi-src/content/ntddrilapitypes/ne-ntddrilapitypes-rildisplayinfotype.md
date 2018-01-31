@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0da424f5-2970-497c-8965-af627fd582ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rildisplayinfotype, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE
+ms.keywords: RILDISPLAYINFOTYPE, netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

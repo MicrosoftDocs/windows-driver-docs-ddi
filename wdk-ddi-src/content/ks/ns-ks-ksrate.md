@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dc8f23d5-14bb-43be-807a-041ca9c30a76
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSRATE, KSRATE, *PKSRATE, ks/KSRATE, stream.ksrate, ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, KSRATE structure [Streaming Media Devices], ks/PKSRATE, PKSRATE structure pointer [Streaming Media Devices]
+ms.keywords: ks/KSRATE, KSRATE structure [Streaming Media Devices], ks/PKSRATE, ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, PKSRATE, KSRATE, stream.ksrate, *PKSRATE, PKSRATE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct {
 
 
 
-### -field PresentationStart
+#### - PresentationStart
 
 Specifies the start point for the rate in presentation time units.
 
 
-### -field Duration
+#### - Duration
 
 Specifies the duration of the rate in presentation time units.
 
 
-### -field Interface
+#### - Interface
 
 A structure of type <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> that specifies either the interface used in the connection this rate request is being sent to, or the interface of a related connection. This allows the time units to be interpreted by the pin.
 
 
-### -field Rate
+#### - Rate
 
 Specifies the rate in terms of 1/10th percentage points, where 1000 is the nominal 1.0 rate, 500 is 0.5 rate, and so on. Negative numbers indicate reverse rates.
 
 
-### -field Flags
+#### - Flags
 
 Possible flag values are listed in the following table.
 <table>

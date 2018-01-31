@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f54c35da-d455-4700-b8b9-c4479bc95088
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, debugger.searchvirtual2, dbgeng/IDebugDataSpaces4::SearchVirtual2, SearchVirtual2 method [Windows Debugging], SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, SearchVirtual2
+ms.keywords: dbgeng/IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, SearchVirtual2, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, SearchVirtual2 method [Windows Debugging], debugger.searchvirtual2, IDebugDataSpaces4::SearchVirtual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT SearchVirtual2(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the process's virtual address space to start searching for the pattern.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies how far to search for the pattern.  A successful match requires the entire pattern to be found before <i>Length</i> bytes have been examined.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies a bit field of flags for the search.  Currently, the only bit-flag that can be set is DEBUG_VSEARCH_WRITABLE_ONLY, which restricts the search to writable memory.
 
 
-### -param Pattern [in]
+#### - Pattern [in]
 
 Specifies the pattern to search for.
 
 
-### -param PatternSize [in]
+#### - PatternSize [in]
 
 Specifies the size, in bytes, of the pattern.  This must be a multiple of the granularity of the pattern.
 
 
-### -param PatternGranularity [in]
+#### - PatternGranularity [in]
 
 Specifies the granularity of the pattern.  For a successful match, the difference between the location of the found pattern and <i>Offset</i> must be a multiple of <i>PatternGranularity</i>.
 
 
-### -param MatchOffset [out]
+#### - MatchOffset [out]
 
 Receives the location in the process's virtual address space of the pattern, if it was found.
 

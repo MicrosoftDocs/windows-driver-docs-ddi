@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0157FA09-C227-4BB2-BB75-0AB5802BC150
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSRTAUDIO_GETREADPACKET_INFO, audio.ksrtaudio_getreadpacket_info, *PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO
+ms.keywords: KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, audio.ksrtaudio_getreadpacket_info, KSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO, ksmedia/KSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], *PKSRTAUDIO_GETREADPACKET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _KSRTAUDIO_GETREADPACKET_INFO {
 
 
 
-### -field PacketNumber
+#### - PacketNumber
 
 Returns the packet number relative to the start of capture. 
 
 
-### -field Flags
+#### - Flags
 
 Reserved for future use. Must be set to 0. 
 
 
-### -field PerformanceCounterValue
+#### - PerformanceCounterValue
 
 Returns the performance counter value corresponding to the sampling instant of the first sample in the packet. 
 
 
-### -field MoreData
+#### - MoreData
 
 Returns TRUE if there is more data ready immediately. The OS may optionally immediately call this routine again after processing the packet to get the next packet information. If the driver returns FALSE, then capture is operating at real time. 
 

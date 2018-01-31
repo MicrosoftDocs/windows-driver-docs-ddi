@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: e0920576-de0f-44bd-8d95-85dde4ee6817
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR structure [Biometric Devices], winbio_ioctl/PWINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR, _WINBIO_GET_INDICATOR, biometric_ref_2ff9c2b7-38fd-4419-aa90-a87cceef3cda.xml, *PWINBIO_GET_INDICATOR, biometric.winbio_get_indicator, PWINBIO_GET_INDICATOR structure pointer [Biometric Devices], winbio_ioctl/WINBIO_GET_INDICATOR
+ms.keywords: PWINBIO_GET_INDICATOR, winbio_ioctl/PWINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR, _WINBIO_GET_INDICATOR, biometric_ref_2ff9c2b7-38fd-4419-aa90-a87cceef3cda.xml, winbio_ioctl/WINBIO_GET_INDICATOR, *PWINBIO_GET_INDICATOR, biometric.winbio_get_indicator, WINBIO_GET_INDICATOR structure [Biometric Devices], PWINBIO_GET_INDICATOR structure pointer [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WINBIO_GET_INDICATOR {
 
 
 
-### -field PayloadSize
+#### - PayloadSize
 
 Specifies the total size of the payload, which includes the fixed length structure and any variable data at the end.
 
 
-### -field WinBioHresult
+#### - WinBioHresult
 
 Specifies an HRESULT that contains the status of the I/O operation. See <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_indicator.md">IOCTL_BIOMETRIC_GET_INDICATOR</a> for possible values.
 
 
-### -field IndicatorStatus
+#### - IndicatorStatus
 
 Specifies a WINBIO_INDICATOR_STATUS, which indicates whether the indicator light is on or off.
 

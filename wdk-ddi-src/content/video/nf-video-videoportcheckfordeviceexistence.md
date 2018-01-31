@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e0480a5-39d3-4977-9c0f-508bcf6c29a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCheckForDeviceExistence function [Display Devices], video/VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence, VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, display.videoportcheckfordeviceexistence
+ms.keywords: display.videoportcheckfordeviceexistence, VideoPortCheckForDeviceExistence function [Display Devices], VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, VideoPortCheckForDeviceExistence, video/VideoPortCheckForDeviceExistence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ BOOLEAN VideoPortCheckForDeviceExistence(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VendorId [in]
+#### - VendorId [in]
 
 Specifies the vendor ID.
 
 
-### -param DeviceId [in]
+#### - DeviceId [in]
 
 Specifies the device ID.
 
 
-### -param RevisionId [in]
+#### - RevisionId [in]
 
 Specifies the revision ID.
 
 
-### -param SubVendorId [in]
+#### - SubVendorId [in]
 
 Specifies the subvendor ID.
 
 
-### -param SubSystemId [in]
+#### - SubSystemId [in]
 
 Specifies the subsystem ID.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Is a set of flags that determine whether the <i>RevisionID</i> and <i>SubSystemID</i> parameters should be used in checking for the new device. This parameter can be the logical OR of the following values:
 <table>

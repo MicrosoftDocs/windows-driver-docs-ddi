@@ -40,7 +40,7 @@ apiname:
 -	*PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+req.typenames: "*PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION *PF
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param ChangeNotificationFlags [in]
+#### - ChangeNotificationFlags [in]
 
  A bitwise option of flags that indicate the type transport characteristics in which UCX is interested. The flags are defined in <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transport_characteristics_change_flags.md">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS</a>.
 

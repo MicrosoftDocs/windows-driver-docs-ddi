@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, netvista.nmrregisterclient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, NmrRegisterClient
+ms.keywords: NmrRegisterClient function [Network Drivers Starting with Windows Vista], NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, netioddk/NmrRegisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS NmrRegisterClient(
 
 
 
-### -param ClientCharacteristics [in]
+#### - ClientCharacteristics [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.npi_client_characteristics" tabindex="0"><b>
@@ -80,7 +80,7 @@ A pointer to an
      client module is registered with the NMR.
 
 
-### -param ClientContext [in]
+#### - ClientContext [in]
 
 A pointer to a caller-supplied context for the registration. The client module uses this context
      to keep track of the state of the client registration. The contents of the client module's registration
@@ -91,7 +91,7 @@ A pointer to a caller-supplied context for the registration. The client module u
      memory as long as the client module is registered with the NMR.
 
 
-### -param NmrClientHandle [out]
+#### - NmrClientHandle [out]
 
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the client module. The client module must save this handle and pass it as a parameter to the 
@@ -168,11 +168,11 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
  
 

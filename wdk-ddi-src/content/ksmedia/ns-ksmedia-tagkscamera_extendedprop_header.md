@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2CE89C1E-8FE8-4304-BD3F-5A926CAC74B4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, KSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, tagKSCAMERA_EXTENDEDPROP_HEADER
+ms.keywords: PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, tagKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ typedef struct _KSCAMERA_EXTENDEDPROP_HEADER {
 
 
 
-### -field Version
+#### - Version
 
 The extended property version number. This is set to 1.
 
 
-### -field PinId
+#### - PinId
 
 The pin ID that corresponds with the property.  If <b>PinId</b> is set to (ULONG)-1, the control applies to the filter.  Otherwise, the camera driver must route this control to the corresponding pin when that pin is created (or if already available).
 
 
-### -field Size
+#### - Size
 
 The total size, in bytes of the entire payload. This includes the <b>KSCAMERA_EXTENDEDPROP_HEADER</b> structure and the following control specific payload data.
 
 
-### -field Result
+#### - Result
 
 For a set operation, this is 0.  For queries, <b>Result</b> contains any failure code the driver provides for the most recent control operation.
 
 
-### -field Flags
+#### - Flags
 
 The settings in <b>Flags</b> may vary depending on the control.
 
 The high order bit of the <b>Flags</b> value is reserved.  This bit serves as the cancel flag and is defined as <b>KSCAMERA_EXTENDEDPROP_FLAG_CANCELOPERATION</b>.  This flag is only meaningful for asynchronous controls.
 
 
-### -field Capability
+#### - Capability
 
 This member is read only and indicates the standard capabilities of the control. The following capabilities are defined.
 <table>

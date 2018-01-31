@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7350ffec-2993-4f05-b031-3d633a6f17ad
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_VIDEOPROCAMP_NODE_S, PKSPROPERTY_VIDEOPROCAMP_NODE_S structure pointer [Streaming Media Devices], KSPROPERTY_VIDEOPROCAMP_NODE_S structure [Streaming Media Devices], vidcapstruct_d7d544d4-dd33-4498-9104-c63fa5a48079.xml, *PKSPROPERTY_VIDEOPROCAMP_NODE_S, stream.ksproperty_videoprocamp_node_s, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S, ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S
+ms.keywords: ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S, *PKSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S, PKSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S, vidcapstruct_d7d544d4-dd33-4498-9104-c63fa5a48079.xml, stream.ksproperty_videoprocamp_node_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_VIDEOPROCAMP_NODE_S
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_VIDEOPROCAMP_NODE_S, *PKSPROPERTY_VIDEOPROCAMP_NODE_S
+req.typenames: "*PKSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S"
 ---
 
 # KSPROPERTY_VIDEOPROCAMP_NODE_S structure
@@ -70,17 +70,17 @@ typedef struct {
 
 
 
-### -field NodeProperty
+#### - NodeProperty
 
 Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 
-### -field Value
+#### - Value
 
 Specifies the value of a request. For Set requests, the minidriver should set the property specified in <b>Property</b> to this value. For Get requests, the minidriver should return the value of the property specified in <b>Property</b>.
 
 
-### -field Flags
+#### - Flags
 
 Specifies the flags of a request. For Set requests, this value indicates the desired setting. For Get requests, this value contains the current setting. This member can be set to one of the values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -111,7 +111,7 @@ Indicates that the property is to be adjusted automatically.
 </table> 
 
 
-### -field Capabilities
+#### - Capabilities
 
 Specifies the capabilities of a property. This member has meaning only for Get requests. The minidriver should return the capabilities of the VideoProcAmp with respect to the property specified in <b>Property</b>. This member should be set to one of the following values:
 <table>

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: df1da549-1677-42ef-9644-3d9c5df66894
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, AllocateBufferWithNotification, IMiniportWaveRTStreamNotification
+ms.keywords: AllocateBufferWithNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, IMiniportWaveRTStreamNotification, AllocateBufferWithNotification method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTStreamNotification::AllocateBufferWithNotification method
@@ -72,32 +72,32 @@ NTSTATUS AllocateBufferWithNotification(
 
 
 
-### -param NotificationCount [in]
+#### - NotificationCount [in]
 
 Specifies the number of notifications wanted per buffer cycle.  Valid values are 1 or 2, where 1 indicates a single notification at the end of the cyclic buffer and 2 indicates two notifications per buffer cycle, one at the mid-point of the buffer and one at the end.
 
 
-### -param RequestedSize [in]
+#### - RequestedSize [in]
 
 Specifies the requested size, in bytes, of the audio buffer.
 
 
-### -param AudioBufferMdl [out]
+#### - AudioBufferMdl [out]
 
 Output pointer for a memory descriptor list (<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL.
 
 
-### -param ActualSize [out]
+#### - ActualSize [out]
 
 Output pointer for the actual size, in bytes, of the allocated buffer. This parameter points to a ULONG variable into which the method writes the size value.
 
 
-### -param OffsetFromFirstPage [out]
+#### - OffsetFromFirstPage [out]
 
 Output pointer for the offset (in bytes) of the buffer, from the start of the first page in the MDL. This parameter points to a caller-allocated ULONG variable into which the method writes the offset value.
 
 
-### -param CacheType [out]
+#### - CacheType [out]
 
 Specifies the type of caching that the client requests for the audio buffer. This parameter is a <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a> enumeration value
 
@@ -157,15 +157,15 @@ The device is not ready.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>
-
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
 
  
 

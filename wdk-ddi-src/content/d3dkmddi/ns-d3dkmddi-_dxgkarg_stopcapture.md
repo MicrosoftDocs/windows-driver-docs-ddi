@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09b1275f-9755-44f7-ab8a-1b6797bfefde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_52028d90-8c11-425c-80ca-533664035fa5.xml, d3dkmddi/DXGKARG_STOPCAPTURE, display.dxgkarg_stopcapture, DXGKARG_STOPCAPTURE structure [Display Devices], _DXGKARG_STOPCAPTURE, DXGKARG_STOPCAPTURE
+ms.keywords: DmStructs_52028d90-8c11-425c-80ca-533664035fa5.xml, d3dkmddi/DXGKARG_STOPCAPTURE, DXGKARG_STOPCAPTURE structure [Display Devices], _DXGKARG_STOPCAPTURE, DXGKARG_STOPCAPTURE, display.dxgkarg_stopcapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DXGKARG_STOPCAPTURE {
 
 
 
-### -field hAllocation
+#### - hAllocation
 
 [in] A handle to the allocation that is used for a capture buffer. The display miniport driver stops the capture hardware from using the allocation.
 

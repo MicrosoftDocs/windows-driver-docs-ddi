@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c428e30d-ce86-4ca0-bc65-45d84a7c910e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, netvista.ndismderegisterminiportdriver, ndis/NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver
+ms.keywords: ndis/NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterminiportdriver, NdisMDeregisterMiniportDriver, miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisMDeregisterMiniportDriver(
 
 
 
-### -param NdisMiniportDriverHandle [in]
+#### - NdisMiniportDriverHandle [in]
 
 The handle that the miniport driver obtained in a previous call to 
      <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>.

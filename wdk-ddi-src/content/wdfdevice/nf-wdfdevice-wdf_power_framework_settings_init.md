@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26F872A2-7727-4346-BA80-779D082EAE9D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_POWER_FRAMEWORK_SETTINGS_INIT, wdf.wdf_power_framework_settings_init, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT, kmdf.wdf_power_framework_settings_init, WDF_POWER_FRAMEWORK_SETTINGS_INIT function
+ms.keywords: wdf.wdf_power_framework_settings_init, WDF_POWER_FRAMEWORK_SETTINGS_INIT, kmdf.wdf_power_framework_settings_init, WDF_POWER_FRAMEWORK_SETTINGS_INIT function, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ void WDF_POWER_FRAMEWORK_SETTINGS_INIT(
 
 
 
-### -param PowerFrameworkSettings [out]
+#### - PowerFrameworkSettings [out]
 
 A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0679ade4-9bbd-4bbc-ad2a-46bf35cac645
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_DESTROYALLOCATION, d3dkmddi/DXGKARG_DESTROYALLOCATION, _DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION structure [Display Devices], display.dxgkarg_destroyallocation, DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml
+ms.keywords: DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml, DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION structure [Display Devices], display.dxgkarg_destroyallocation, d3dkmddi/DXGKARG_DESTROYALLOCATION, _DXGKARG_DESTROYALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGKARG_DESTROYALLOCATION {
 
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] The number of elements in the array that <b>pAllocationList</b> specifies, which represents the number of allocations to release.
 
 
-### -field pAllocationList
+#### - pAllocationList
 
 [in] An array of handles to the allocations to release.
 
 
-### -field hResource
+#### - hResource
 
 [in/out] A handle to a resource. The display miniport driver cleans up this handle if it must release the resource along with the allocations.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_destroyallocationflags.md">DXGK_DESTROYALLOCATIONFLAGS</a> structure that identifies how to release the allocations.
 
@@ -99,15 +99,15 @@ The handles in the array that the <b>pAllocationList</b> member specifies are ha
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_destroyallocationflags.md">DXGK_DESTROYALLOCATIONFLAGS</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_destroyallocationflags.md">DXGK_DESTROYALLOCATIONFLAGS</a>
 
  
 

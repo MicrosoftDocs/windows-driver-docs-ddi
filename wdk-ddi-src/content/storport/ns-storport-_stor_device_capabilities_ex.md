@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6DCD1F8A-45E3-4084-9688-AE59597D65AF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], STOR_DEVICE_CAPABILITIES_EX, _STOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], PSTOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/STOR_DEVICE_CAPABILITIES_EX
+ms.keywords: STOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX, _STOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], storport/PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], storage.stor_device_capabilities_ex, storport/STOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_DEVICE_CAPABILITIES_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX"
+req.typenames: STOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX
 req.product: Windows 10 or later.
 ---
 
@@ -85,32 +85,32 @@ typedef struct _STOR_DEVICE_CAPABILITIES_EX {
 
 
 
-### -field Version
+#### - Version
 
 Specifies the version of the structure. Set to STOR_DEVICE_CAPABILITIES_EX_VERSION_1 by Storport.
 
 
-### -field Size
+#### - Size
 
 Specifies the size of the structure. Set to <b>sizeof</b>(STOR_DEVICE_CAPABILITIES_EX) by Storport.
 
 
-### -field DeviceD1
+#### - DeviceD1
 
 Specifies whether the device hardware supports the D1 power state. Miniport drivers set this bit to 0.
 
 
-### -field DeviceD2
+#### - DeviceD2
 
 Specifies whether the device hardware supports the D2 power state. Miniport drivers set this bit to 0.
 
 
-### -field LockSupported
+#### - LockSupported
 
 Specifies whether the device supports physical-device locking that prevents device ejection. This member pertains to ejecting a LUN or a unit device.
 
 
-### -field EjectSupported
+#### - EjectSupported
 
 Specifies whether the device supports software-controlled device ejection while the system is in the <b>PowerSystemWorking</b> state. This member pertains to ejecting a LUN or unit device.
 
@@ -120,52 +120,52 @@ Specifies whether the device supports software-controlled device ejection while 
  
 
 
-### -field DockDevice
+#### - DockDevice
 
 Specifies whether the device is a docking peripheral.
 
 
-### -field UniqueID
+#### - UniqueID
 
 Specifies whether the device's instance ID is unique system-wide. This bit is clear if the instance ID is unique only within the scope of the bus.
 
 
-### -field SilentInstall
+#### - SilentInstall
 
 Specifies whether <b>Device Manager</b> should suppress all installation dialog boxes; except required dialog boxes such as "no compatible drivers found."
 
 
-### -field RawDeviceOK
+#### - RawDeviceOK
 
 Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called raw mode.
 
 
-### -field SurpriseRemovalOK
+#### - SurpriseRemovalOK
 
 Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with <b>StorRemoveDevice</b> as the <b>PnPAction</b> in the <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in. 
 
 
-### -field NoDisplayInUI
+#### - NoDisplayInUI
 
 Do not display the device in the user interface. If this bit is set, the device is never displayed in the user interface, even if the device is present but fails to start. Miniport drivers do not set this bit.
 
 
-### -field DefaultWriteCacheEnabled
+#### - DefaultWriteCacheEnabled
 
 The storage device's write cache is enabled by default at initialization.
 
 
-### -field Reserved0
+#### - Reserved0
 
 Reserved bits.
 
 
-### -field Address
+#### - Address
 
 LUN address of the storage unit device.
 
 
-### -field UINumber
+#### - UINumber
 
 Specifies a number associated with the device that can be displayed in the user interface. 
 
@@ -173,7 +173,7 @@ This number might be an ID value chosen to make locating the physical device eas
 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved bits.
 
@@ -196,13 +196,13 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
-
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
-<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
 
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 057b548a-d9e4-4db4-b34f-d867b7be3971
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamicro/Scan, image.scan, Scan function [Imaging Devices], MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, Scan
+ms.keywords: MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, image.scan, wiamicro/Scan, Scan, Scan function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	Scan
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ WIAMICRO_API HRESULT Scan(
 
 
 
-### -param pScanInfo [in, out]
+#### - pScanInfo [in, out]
 
 Specifies the <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure that represents the microdriver's settings. This is stored by the WIA Flatbed driver to guarantee that the settings between the microdriver and the WIA Flatbed driver are synchronized. 
 
 
-### -param lPhase
+#### - lPhase
 
 Specifies the scan phase requested. This parameter can be set to one of the following values.
 <table>
@@ -120,12 +120,12 @@ The data returned from this function should be in raw format without any header.
 </table> 
 
 
-### -param pBuffer [out]
+#### - pBuffer [out]
 
 Specifies the buffer that will be filled with scanned data by the microdriver. This buffer is allocated by the WIA Flatbed Driver and is guaranteed to be at least <i>lLength</i> bytes in length.
 
 
-### -param lLength
+#### - lLength
 
 Specifies the requested amount of data that will be scanned. The microdriver must never overfill the buffer pointed to by <i>pBuffer</i>.
 
@@ -150,9 +150,9 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
 <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
 

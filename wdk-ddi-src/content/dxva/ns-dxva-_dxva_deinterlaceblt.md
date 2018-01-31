@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0512a825-9cec-4ca0-9686-df5b3d2b216b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_DeinterlaceBlt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], dxva/DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt"
+ms.keywords: dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, DXVA_DeinterlaceBlt structure [Display Devices], DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt, dxva/DXVA_DeinterlaceBlt, _DXVA_DeinterlaceBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,43 +74,43 @@ typedef struct _DXVA_DeinterlaceBlt {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size of this structure in bytes.
 
 
-### -field Reserved
+#### - Reserved
 
 
 
-### -field rtTarget
+#### - rtTarget
 
 Identifies the location of the output frame within the sequence of input frames. If only deinterlacing is performed, the target time should coincide with either the starting display time of a reference sample, as defined in the <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a> structure, or the midpoint between the starting display time and the ending display time. For more information, see Remarks.
 
 If a frame rate conversion is requested, the <b>rtTarget</b> time can be different from any of the <b>rtStart</b> times of the reference samples.
 
 
-### -field DstRect
+#### - DstRect
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the upper left and lower right points of a rectangle on the destination surface. These points define the area in which the bit-block transfer should occur and its position on the destination surface.
 
 
-### -field SrcRect
+#### - SrcRect
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the upper left and lower right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer and its position on the source surface.
 
 
-### -field NumSourceSurfaces
+#### - NumSourceSurfaces
 
 Specifies the number of valid surfaces passed in the <b>Source</b> array.
 
 
-### -field Alpha
+#### - Alpha
 
 Specifies the transparency of the output image as it is written to the destination surface. A value of  0.0F indicates transparent. A value of 1.0F indicates opaque.
 
 
-### -field Source
+#### - Source
 
 An array of <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a> structures that specify the reference input samples needed for this deinterlacing or frame-rate conversion operation.
 
@@ -124,11 +124,11 @@ When creating a single frame from one field in a sample, as defined in the <a hr
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
 <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
 
 <a href="https://msdn.microsoft.com/0aa68d0c-8c2b-41fe-9e46-a41b157fbd98">DeinterlaceBlt</a>
-
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
  
 

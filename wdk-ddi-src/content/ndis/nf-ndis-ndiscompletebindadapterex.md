@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, netvista.ndiscompletebindadapterex, ndis/NdisCompleteBindAdapterEx
+ms.keywords: netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, ndis/NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], NdisCompleteBindAdapterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ VOID NdisCompleteBindAdapterEx(
 TBD
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the completed bind operation. This parameter can be one of the following
      values:

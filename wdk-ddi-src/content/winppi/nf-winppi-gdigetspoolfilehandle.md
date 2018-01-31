@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c820ee94-29c2-4478-884c-49dd68cd713a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, GdiGetSpoolFileHandle, winppi/GdiGetSpoolFileHandle, GdiGetSpoolFileHandle function [Print Devices], print.gdigetspoolfilehandle
+ms.keywords: gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, print.gdigetspoolfilehandle, GdiGetSpoolFileHandle function [Print Devices], winppi/GdiGetSpoolFileHandle, GdiGetSpoolFileHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ HANDLE GdiGetSpoolFileHandle(
 
 
 
-### -param pwszPrinterName
+#### - pwszPrinterName
 
 Caller-supplied pointer to a string representing the name of the target printer. See the following Remarks section.
 
 
-### -param pDevmode
+#### - pDevmode
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. See the following Remarks section.
 
 
-### -param pwszDocName
+#### - pwszDocName
 
 Caller-supplied pointer to the print job's document name. See the following Remarks section.
 

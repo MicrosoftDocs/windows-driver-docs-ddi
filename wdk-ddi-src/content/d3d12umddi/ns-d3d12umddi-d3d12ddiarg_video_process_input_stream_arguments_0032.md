@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6eafa0c-1b5e-4723-9317-60f1507f12ea
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, display.d3d12ddiarg-video-process-input-stream-arguments-0032
+ms.keywords: display.d3d12ddiarg-video-process-input-stream-arguments-0032, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,32 +74,32 @@ typedef struct _D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 {
 
 
 
-### -field InputStream
+#### - InputStream
 
 The input stream of bytes.
 
 
-### -field Transform
+#### - Transform
 
 The video process transform.
 
 
-### -field Flags
+#### - Flags
 
 The video process input stream flags.
 
 
-### -field RateInfo
+#### - RateInfo
 
 The rate of the video process input stream.
 
 
-### -field FilterLevels
+#### - FilterLevels
 
 The video process filter levels.
 
 
-### -field AlphaBlending
+#### - AlphaBlending
 
 The video process alpha blending.
 

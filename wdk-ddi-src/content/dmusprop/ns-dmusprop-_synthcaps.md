@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d9d7327f-a413-4828-b204-e08198d0fe9e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusprop/SYNTHCAPS, PSYNTHCAPS, SYNTHCAPS structure [Audio Devices], SYNTHCAPS, _SYNTHCAPS, *PSYNTHCAPS, dmusprop/PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], audio.synthcaps, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml
+ms.keywords: SYNTHCAPS structure [Audio Devices], aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, SYNTHCAPS, dmusprop/PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], PSYNTHCAPS, *PSYNTHCAPS, dmusprop/SYNTHCAPS, audio.synthcaps, _SYNTHCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _SYNTHCAPS {
 
 
 
-### -field Guid
+#### - Guid
 
 Specifies the class ID for the synthesizer's miniport driver interface.
 
 
-### -field Flags
+#### - Flags
 
 Specifies the general capabilities of the driver. This member is a bitfield whose value is either zero or the bitwise OR of one or more of the following flag bits:
 
@@ -131,27 +131,27 @@ The driver supports downloadable sample collections (DLS Level 2).
 The synth can use system memory.
 
 
-### -field MemorySize
+#### - MemorySize
 
 Specifies the amount of sample memory on the device (in bytes). This field should contain the value SYNTH_PC_SYSTEMMEMORY if the device uses system memory for sample memory with no limitation on the amount of memory allocated.
 
 
-### -field MaxChannelGroups
+#### - MaxChannelGroups
 
 Specifies the maximum number of channel groups this driver supports. Each channel group represents a set of 16 MIDI channels and has associated with it all the state that a MIDI hardware device would keep, which includes DLS, GM, GS, XG, or other mode information. DLS downloads, however, are per-driver and can be used by any of the channel groups. This prevents wasting memory by downloading several copies of the same DLS sample, one per channel group.
 
 
-### -field MaxVoices
+#### - MaxVoices
 
 Specifies the maximum number of voices that the rendering device supports. If the property handler is unable to provide a valid number for this member, it should set the member to (ULONG)-1.
 
 
-### -field MaxAudioChannels
+#### - MaxAudioChannels
 
 Specifies the maximum number of audio channels that the rendering device supports. If the property handler is unable to provide a valid number for this member, it should set the member to (ULONG)-1.
 
 
-### -field EffectFlags
+#### - EffectFlags
 
 Specifies the effects that the rendering device is capable of producing. This member is a bitfield whose value is either zero or the bitwise OR of the following flag bits:
 
@@ -175,7 +175,7 @@ Rendering device can produce chorus effect.
 Rendering device can produce delay effect.
 
 
-### -field Description
+#### - Description
 
 Contains a text description of the device. This member is a WCHAR array containing a null-terminated string (for example, "Microsoft MPU-401").
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9fcc8cee-61a1-417c-9e69-5c658dab80b2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewServiceGroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, audio.pcnewservicegroup, PcNewServiceGroup function [Audio Devices], portcls/PcNewServiceGroup
+ms.keywords: portcls/PcNewServiceGroup, PcNewServiceGroup function [Audio Devices], PcNewServiceGroup, audio.pcnewservicegroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcNewServiceGroup
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcNewServiceGroup function
@@ -69,12 +69,12 @@ NTSTATUS PcNewServiceGroup(
 
 
 
-### -param OutServiceGroup [out]
+#### - OutServiceGroup [out]
 
 Pointer to the service-group object created by this function. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in, optional]
+#### - OuterUnknown [in, optional]
 
 Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1B13BBB1-4184-4166-A61F-CC266D0391BF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], DXGK_QUERYPAGETABLELEVELDESCIN, _DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin, d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN
+ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN, _DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGK_QUERYPAGETABLELEVELDESCIN {
 
 
 
-### -field LevelIndex
+#### - LevelIndex
 
 A zero-based physical adapter index (engine ordinal) for which the data is queried.
 
 
-### -field PhysicalAdapterIndex
+#### - PhysicalAdapterIndex
 
 A zero-based page table level index for the information requested.
 

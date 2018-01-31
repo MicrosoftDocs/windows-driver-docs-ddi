@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71b595be-61ac-4a8f-af5e-d504e5091e0c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxinitializecontext, RxInitializeContext function [Installable File System Drivers], rxcontx/RxInitializeContext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml, RxInitializeContext
+ms.keywords: ifsk.rxinitializecontext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml, RxInitializeContext, rxcontx/RxInitializeContext, RxInitializeContext function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxInitializeContext
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ VOID RxInitializeContext(
 
 
 
-### -param Irp [in, optional]
+#### - Irp [in, optional]
 
 A pointer to the IRP to be encapsulated by this RX_CONTEXT structure.
 
 
-### -param RxDeviceObject [in]
+#### - RxDeviceObject [in]
 
 A pointer to the device object to which this RX_CONTEXT and IRP apply.
 
 
-### -param InitialContextFlags [in]
+#### - InitialContextFlags [in]
 
 The set of initial values for <i>Flags</i> member of the RX_CONTEXT data structure to be stored in the RX_CONTEXT structure. These initial values can be any combination of the following enumerations:
 
@@ -103,7 +103,7 @@ When this value is set, the operation must succeed. This value is not currently 
 When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
 
 
-### -param RxContext [in, out]
+#### - RxContext [in, out]
 
 Pointer to the RX_CONTEXT to be initialized.
 
@@ -179,23 +179,23 @@ Sets the RX_CONTEXT members based on the <i>Irp</i>. These include <b>CurrentIrp
 
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
-
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
 
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
 
 <a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
 
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
 
 <a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
+
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
 
  
 

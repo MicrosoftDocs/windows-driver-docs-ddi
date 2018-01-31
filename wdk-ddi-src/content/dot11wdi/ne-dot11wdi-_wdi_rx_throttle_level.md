@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 637c0892-8d73-45b7-b679-ff3a0ba78a9c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_RxThrottleLevelAggressive, dot11wdi/WDI_RxThrottleLevelMedium, dot11wdi/WDI_RxThrottleLevelAggressive, WDI_RxThrottleLevelMedium, WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RxThrottleLevelNone, WDI_RX_THROTTLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], WDI_RxThrottleLevelNone, _WDI_RX_THROTTLE_LEVEL, netvista.wifi_rx_throttle_level, netvista.wdi_rx_throttle_level, dot11wdi/WDI_RX_THROTTLE_LEVEL
+ms.keywords: dot11wdi/WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RxThrottleLevelAggressive, dot11wdi/WDI_RxThrottleLevelNone, _WDI_RX_THROTTLE_LEVEL, WDI_RX_THROTTLE_LEVEL, WDI_RxThrottleLevelMedium, netvista.wifi_rx_throttle_level, WDI_RX_THROTTLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], WDI_RxThrottleLevelAggressive, dot11wdi/WDI_RxThrottleLevelMedium, WDI_RxThrottleLevelNone, netvista.wdi_rx_throttle_level
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _WDI_RX_THROTTLE_LEVEL {
 
 
 
-### -field WDI_RxThrottleLevelNone
+#### - WDI_RxThrottleLevelNone
 
 No throttling.
 
 
-### -field WDI_RxThrottleLevelMedium
+#### - WDI_RxThrottleLevelMedium
 
 Medium throttling.
 
 
-### -field WDI_RxThrottleLevelAggressive
+#### - WDI_RxThrottleLevelAggressive
 
 Aggressive throttling.
 

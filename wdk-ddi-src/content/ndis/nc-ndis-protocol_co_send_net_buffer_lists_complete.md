@@ -77,7 +77,7 @@ VOID ProtocolCoSendNetBufferListsComplete(
 
 
 
-### -param ProtocolVcContext [in]
+#### - ProtocolVcContext [in]
 
 A handle to a protocol driver-allocated context area in which this driver maintains the
      per-virtual connection (VC) run-time state information. A client or stand-alone call manager supplied
@@ -86,7 +86,7 @@ A handle to a protocol driver-allocated context area in which this driver mainta
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-### -param NetBufferLists [in]
+#### - NetBufferLists [in]
 
 A pointer to a list of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the
@@ -95,7 +95,7 @@ A pointer to a list of
      NdisCoSendNetBufferLists</b></mshelp:link> function.
 
 
-### -param SendCompleteFlags [in]
+#### - SendCompleteFlags [in]
 
 NDIS flags that can be combined with a bitwise OR operation. To clear all of the flags, set this
      parameter to zero. 
@@ -180,20 +180,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
 <mshelp:link keywords="netvista.ndismcosendnetbufferlistscomplete" tabindex="0"><b>
    NdisMCoSendNetBufferListsComplete</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545115">CoNDIS Protocol Driver Send and Receive Functions</a>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">ProtocolCoReceiveNetBufferLists</a>
 
 <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545115">CoNDIS Protocol Driver Send and Receive Functions</a>
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
  
 

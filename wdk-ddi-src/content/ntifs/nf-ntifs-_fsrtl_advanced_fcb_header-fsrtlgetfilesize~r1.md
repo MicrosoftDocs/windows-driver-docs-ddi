@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 82fcf0da-e945-4cb4-90fc-bb095119ef20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlGetFileSize routine [Installable File System Drivers], ifsk.fsrtlgetfilesize, FsRtlGetFileSize, ntifs/FsRtlGetFileSize, fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml
+ms.keywords: ntifs/FsRtlGetFileSize, FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, ifsk.fsrtlgetfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlGetFileSize(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to the file object to query. 
 
 
-### -param FileSize [out]
+#### - FileSize [out]
 
 A pointer to a large integer that receives the file size on output.
 

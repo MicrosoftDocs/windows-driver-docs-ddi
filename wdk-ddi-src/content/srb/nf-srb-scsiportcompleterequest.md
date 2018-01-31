@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9cd17a86-6652-414d-a80d-2e61c0ac99b6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, ScsiPortCompleteRequest routine [Storage Devices], storage.scsiportcompleterequest, ScsiPortCompleteRequest, srb/ScsiPortCompleteRequest
+ms.keywords: ScsiPortCompleteRequest routine [Storage Devices], srb/ScsiPortCompleteRequest, scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, storage.scsiportcompleterequest, ScsiPortCompleteRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortCompleteRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -73,27 +73,27 @@ VOID ScsiPortCompleteRequest(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param PathId [in]
+#### - PathId [in]
 
 Identifies the SCSI bus; SP_UNTAGGED indicates all buses controlled by the HBA.
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Identifies the target controller or device on the given buses; SP_UNTAGGED indicates all targets on the bus.
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Identifies the logical unit for the given target controller or device; SP_UNTAGGED indicates all logical units for the given target controllers on the given buses.
 
 
-### -param SrbStatus [in]
+#### - SrbStatus [in]
 
 Specifies the completion status to be set in the <b>SrbStatus </b>member of each SRB.
 

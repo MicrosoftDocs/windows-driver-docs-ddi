@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFSendNetBufferListsComplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, ndis/NdisFSendNetBufferListsComplete, NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfsendnetbufferlistscomplete
+ms.keywords: netvista.ndisfsendnetbufferlistscomplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFSendNetBufferListsComplete, NdisFSendNetBufferListsComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisFSendNetBufferListsComplete(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
@@ -85,7 +85,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 TBD
 
 
-### -param SendCompleteFlags [in]
+#### - SendCompleteFlags [in]
 
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the following flags:
 
@@ -146,9 +146,9 @@ The filter driver can complete send requests in any order. For example, the filt
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 

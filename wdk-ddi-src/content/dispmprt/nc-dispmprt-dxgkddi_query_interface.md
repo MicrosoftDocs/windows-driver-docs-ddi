@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiQueryInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_QUERY_INTERFACE callback
@@ -71,12 +71,12 @@ NTSTATUS DxgkDdiQueryInterface(
 
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-### -param QueryInterface [in]
+#### - QueryInterface [in]
 
 A pointer to a <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a> structure in which the display miniport driver should return information about the interface it supports.
 

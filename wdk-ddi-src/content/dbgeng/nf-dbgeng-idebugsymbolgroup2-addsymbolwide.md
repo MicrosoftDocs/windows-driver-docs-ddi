@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1c363649-4eff-4ad1-bc31-b060e2eb15d5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide, IDebugSymbolGroup2, IDebugSymbolGroup2::AddSymbolWide, AddSymbolWide method [Windows Debugging]
+ms.keywords: AddSymbolWide, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, IDebugSymbolGroup2, IDebugSymbolGroup2::AddSymbolWide, AddSymbolWide method [Windows Debugging], dbgeng/IDebugSymbolGroup2::AddSymbolWide, AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.addsymbolwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT AddSymbolWide(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 The symbol's name.  <i>Name</i> is examined as an expression to determine the symbol's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">type</a>.  This expression can include pointer, array, and structure dereferencing (for example, <b>*my_pointer</b>, <b>my_array[1]</b>, or <b>my_struct.some_field</b>).
 
 
-### -param Index [in, out]
+#### - Index [in, out]
 
 The index of the entry in the symbol group.  When you are calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a> or <b>AddSymbolWide</b>, <i>Index</i> should point to the index of the symbol that you want. Or, if <i>Index</i> points to DEBUG_ANY_ID, the symbol is appended to the end of the list.   
 
@@ -118,13 +118,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

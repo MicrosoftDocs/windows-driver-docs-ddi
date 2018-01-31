@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 95BDB715-E476-48EF-9867-112CF665B66D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], ifsk.flt_createfile_target_ecp_context, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT, _FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT
+ms.keywords: PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], FLT_CREATEFILE_TARGET_ECP_CONTEXT, _FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], *PFLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLTTCFL_AUTO_REPARSE, PFLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_CREATEFILE_TARGET_ECP_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT
+req.typenames: "*PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT"
 ---
 
 # _FLT_CREATEFILE_TARGET_ECP_CONTEXT structure
@@ -70,22 +70,22 @@ typedef struct _FLT_CREATEFILE_TARGET_ECP_CONTEXT {
 
 
 
-### -field Instance
+#### - Instance
 
 The filter instance attached to the adjusted target.
 
 
-### -field Volume
+#### - Volume
 
 The adjusted target volume.
 
 
-### -field FileNameInformation
+#### - FileNameInformation
 
 The file information for the adjusted target.
 
 
-### -field Flags
+#### - Flags
 
 Flags controlling the reparse operation. This value can be either 0 or the following.
 <table>
@@ -460,9 +460,9 @@ CrossVolumeCreateExit:
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 

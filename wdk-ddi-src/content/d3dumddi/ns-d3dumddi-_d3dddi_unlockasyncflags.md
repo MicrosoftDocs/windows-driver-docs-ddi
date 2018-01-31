@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c31e4a4e-7bc7-43a2-8f86-e79012064fa2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_UNLOCKASYNCFLAGS structure [Display Devices], d3dumddi/D3DDDI_UNLOCKASYNCFLAGS, D3D_other_Structs_d42c29f4-23e8-4b5c-8710-2e4153c857bf.xml, D3DDDI_UNLOCKASYNCFLAGS, _D3DDDI_UNLOCKASYNCFLAGS, display.d3dddi_unlockasyncflags
+ms.keywords: D3D_other_Structs_d42c29f4-23e8-4b5c-8710-2e4153c857bf.xml, d3dumddi/D3DDDI_UNLOCKASYNCFLAGS, display.d3dddi_unlockasyncflags, _D3DDDI_UNLOCKASYNCFLAGS, D3DDDI_UNLOCKASYNCFLAGS, D3DDDI_UNLOCKASYNCFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,19 +73,19 @@ typedef struct _D3DDDI_UNLOCKASYNCFLAGS {
 
 
 
-### -field NotifyOnly
+#### - NotifyOnly
 
 A UINT value that specifies whether the unlock call is for notification only. The Microsoft Direct3D runtime sets <b>NotifyOnly</b> to <b>TRUE</b> when it unlocks runtime-allocated system memory surfaces. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in D3DDDI_UNLOCKASYNCFLAGS that can hold one 32-bit value that identifies how to unlock a resource.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76842444-e733-4dee-b83b-db4ef22f697e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCatNExA, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml, RtlStringCbCatNExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCatNExA, kernel.rtlstringcbcatnex, ntstrsafe/RtlStringCbCatNExW, STRSAFE_FILL_ON_FAILURE, STRSAFE_NULL_ON_FAILURE, RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], RtlStringCbCatNEx
+ms.keywords: STRSAFE_NULL_ON_FAILURE, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml, RtlStringCbCatNExW, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, kernel.rtlstringcbcatnex, RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_NO_TRUNCATION, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCatNEx, ntstrsafe/RtlStringCbCatNExW, RtlStringCbCatNExA, ntstrsafe/RtlStringCbCatNExA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,12 +76,12 @@ NTSTATUS RtlStringCbCatNExW(
 
 
 
-### -param pszDest [in, out, optional]
+#### - pszDest [in, out, optional]
 
 A pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cbMaxAppend</i> bytes, is added to the end of the string at <i>pszDest</i>, and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbDest [in]
+#### - cbDest [in]
 
 The size of the destination buffer, in bytes. The buffer must be large enough to include both strings and the terminating null character.
 
@@ -92,7 +92,7 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
 
-### -param pszSrc [in, optional]
+#### - pszSrc [in, optional]
 
 A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>. The <i>pszSrc</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
@@ -102,17 +102,17 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 TBD
 
 
-### -param ppszDestEnd [out, optional]
+#### - ppszDestEnd [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, then after the concatenation operation completes, the function loads that address with a pointer to the destination buffer's resulting <b>NULL</b> string terminator. 
 
 
-### -param pcbRemaining [out, optional]
+#### - pcbRemaining [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including bytes used for the terminating null character.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 <table>
@@ -298,11 +298,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatexw.md">RtlStringCbCatEx</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnw.md">RtlStringCbCatN</a>
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
 
  
 

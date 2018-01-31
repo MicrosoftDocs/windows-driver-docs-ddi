@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a13b5411-a0dd-4a54-98a8-419e2f0e95b8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_3796aa61-042a-435d-bfa9-c77c6a0dff98.xml, *PFILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/PFILE_DISPOSITION_INFORMATION, _FILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_DISPOSITION_INFORMATION, kernel.file_disposition_information, ntddk/FILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION
+ms.keywords: FILE_DISPOSITION_INFORMATION, _FILE_DISPOSITION_INFORMATION, *PFILE_DISPOSITION_INFORMATION, kernel.file_disposition_information, ntddk/FILE_DISPOSITION_INFORMATION, ntddk/PFILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_3796aa61-042a-435d-bfa9-c77c6a0dff98.xml, PFILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _FILE_DISPOSITION_INFORMATION {
 
 
 
-### -field DeleteFile
+#### - DeleteFile
 
 Indicates whether the operating system file should delete the file when the file is closed. Set this member to <b>TRUE</b> to delete the file when it is closed. Otherwise, set to <b>FALSE</b>. Setting this member to <b>FALSE</b> has no effect if the handle was opened with FILE_FLAG_DELETE_ON_CLOSE.
 
@@ -83,9 +83,9 @@ A file marked for deletion is not actually deleted until all open handles for th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
  
 

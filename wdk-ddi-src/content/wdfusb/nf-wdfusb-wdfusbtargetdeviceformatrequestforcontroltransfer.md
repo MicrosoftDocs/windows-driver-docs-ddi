@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 72ba7550-9153-4ff7-8478-c9cc71151a25
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer, DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCONTROLTRANSFER, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer method, WdfUsbTargetDeviceFormatRequestForControlTransfer
+ms.keywords: wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCONTROLTRANSFER, DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, WdfUsbTargetDeviceFormatRequestForControlTransfer method, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfUsbTargetDeviceFormatRequestForControlTransfer(
 
 
 
-### -param UsbDevice [in]
+#### - UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. For more information, see the following Remarks section.
 
 
-### -param SetupPacket [in]
+#### - SetupPacket [in]
 
 A pointer to a caller-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure that describes the control transfer.
 
 
-### -param TransferMemory [in, optional]
+#### - TransferMemory [in, optional]
 
 A handle to a framework memory object that describes either an input or an output buffer, depending on the device-specific command. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param TransferOffset [in, optional]
+#### - TransferOffset [in, optional]
 
 A pointer to a caller-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the buffer that <i>TransferMemory</i> specifies. If this pointer is <b>NULL</b>, the framework uses the entire buffer. 
 
@@ -209,9 +209,9 @@ For more information about the <b>WdfUsbTargetDeviceFormatRequestForControlTrans
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously.md">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
 
  
 

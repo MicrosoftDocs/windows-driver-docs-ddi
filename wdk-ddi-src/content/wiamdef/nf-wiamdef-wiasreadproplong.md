@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 77fc58fd-1bcf-4a68-b083-fa2bfa3ac312
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasReadPropLong function [Imaging Devices], wiamdef/wiasReadPropLong, image.wiasreadproplong, wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, wiasReadPropLong
+ms.keywords: wiasReadPropLong function [Imaging Devices], wiamdef/wiasReadPropLong, wiasReadPropLong, wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, image.wiasreadproplong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasReadPropLong
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasReadPropLong(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param propid
+#### - propid
 
 Specifies the property identifier.
 
 
-### -param plVal [out]
+#### - plVal [out]
 
 Pointer to a memory location that receives the value of the property.
 
 
-### -param plValOld [out, optional]
+#### - plValOld [out, optional]
 
 Pointer to a memory location that receives the property's previous value. If this information is not needed, set this parameter to <b>NULL</b>.
 
 
-### -param bMustExist
+#### - bMustExist
 
 Indicates whether the property must exist. If set to <b>TRUE</b>, the property must exist, if set to <b>FALSE</b>, the property does not have to exist.
 
@@ -106,15 +106,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: afffe6c3-a6d1-4e43-ba2b-f64269c44ec0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLogBasicInformationPhysical, wdm/ClfsLogBasicInformation, PCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], *PCLFS_LOG_INFORMATION_CLASS, PCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], wdm/PCLS_LOG_INFORMATION_CLASS, wdm/CLFS_LOG_INFORMATION_CLASS, wdm/ClfsLogStreamIdentifierInformation, wdm/ClfsLogPhysicalNameInformation, *PCLS_LOG_INFORMATION_CLASS, CLS_LOG_INFORMATION_CLASS, PCLFS_LOG_INFORMATION_CLASS, PPCLFS_LOG_INFORMATION_CLASS, ClfsLogStreamIdentifierInformation, ClfsLogPhysicalLsnInformation, ClfsLogBasicInformation, wdm/PPCLS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ClfsLogSystemMarkingInformation, wdm/ClfsLogSystemMarkingInformation, wdm/ClfsLogBasicInformationPhysical, PPCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], kernel.clfs_log_information_class, PPCLS_LOG_INFORMATION_CLASS, sysenum_b63b4055-ea69-4955-8684-b42b148a3b7c.xml, ClfsLogPhysicalNameInformation, wdm/PPCLFS_LOG_INFORMATION_CLASS, wdm/PCLFS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], _CLS_LOG_INFORMATION_CLASS, CLS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/ClfsLogPhysicalLsnInformation, wdm/CLS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS, PCLS_LOG_INFORMATION_CLASS
+ms.keywords: wdm/PPCLFS_LOG_INFORMATION_CLASS, PCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], wdm/ClfsLogPhysicalLsnInformation, wdm/PPCLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS, wdm/PCLS_LOG_INFORMATION_CLASS, *PCLS_LOG_INFORMATION_CLASS, wdm/ClfsLogStreamIdentifierInformation, wdm/ClfsLogBasicInformation, ClfsLogPhysicalNameInformation, ClfsLogStreamIdentifierInformation, CLS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], *PCLFS_LOG_INFORMATION_CLASS, PCLS_LOG_INFORMATION_CLASS, PPCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], PPCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], PPCLFS_LOG_INFORMATION_CLASS, wdm/ClfsLogBasicInformationPhysical, ClfsLogBasicInformation, wdm/CLFS_LOG_INFORMATION_CLASS, wdm/ClfsLogPhysicalNameInformation, wdm/PCLFS_LOG_INFORMATION_CLASS, PCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], _CLS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], kernel.clfs_log_information_class, wdm/ClfsLogSystemMarkingInformation, ClfsLogPhysicalLsnInformation, CLS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS, ClfsLogBasicInformationPhysical, PCLFS_LOG_INFORMATION_CLASS, sysenum_b63b4055-ea69-4955-8684-b42b148a3b7c.xml, ClfsLogSystemMarkingInformation, wdm/CLS_LOG_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _CLS_LOG_INFORMATION_CLASS {
 
 
 
-### -field ClfsLogBasicInformation
+#### - ClfsLogBasicInformation
 
 Indicates that the request is for basic information about a CLFS stream and its underlying physical log. The information is returned in a <a href="..\wdm\ns-wdm-_cls_information.md">CLFS_INFORMATION</a> structure. Most of the structure members contain information about the underlying physical log, but some members contain information that is specific to the stream.
 
 
-### -field ClfsLogBasicInformationPhysical
+#### - ClfsLogBasicInformationPhysical
 
 Indicates that the request is for basic information about the physical log that underlies a CLFS stream. The information is returned in a <b>CLFS_INFORMATION</b> structure. All of the structure members contain information about the underlying physical log.
 
 
-### -field ClfsLogPhysicalNameInformation
+#### - ClfsLogPhysicalNameInformation
 
 Indicates that the request is for information about the name of a physical CLFS log. The information is returned in a <b>CLFS_LOG_NAME_INFORMATION</b> structure.
 
 
-### -field ClfsLogStreamIdentifierInformation
+#### - ClfsLogStreamIdentifierInformation
 
 Indicates that the request is for a CLFS stream identifier. The information is returned in a <a href="..\wdm\ns-wdm-_clfs_stream_id_information.md">CLFS_STREAM_ID_INFORMATION</a> structure.
 
 
-### -field ClfsLogSystemMarkingInformation
+#### - ClfsLogSystemMarkingInformation
 
 Count of system marking references. This enumeration constant is supported only in Windows Vista and later versions of Windows.
 
 
-### -field ClfsLogPhysicalLsnInformation
+#### - ClfsLogPhysicalLsnInformation
 
 Maps virtual LSNs to physical LSNs; only valid for physical logs. This enumeration constant is supported only in Windows Vista and later versions of Windows.
 

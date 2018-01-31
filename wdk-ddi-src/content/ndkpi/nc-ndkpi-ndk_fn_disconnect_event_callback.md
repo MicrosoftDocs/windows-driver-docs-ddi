@@ -40,7 +40,7 @@ apiname:
 -	NdkDisconnectEventCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_DISCONNECT_EVENT_CALLBACK callback
@@ -70,7 +70,7 @@ VOID NdkDisconnectEventCallback(
 
 
 
-### -param DisconnectEventContext [in, optional]
+#### - DisconnectEventContext [in, optional]
 
 A context area that was specified in the <i>DisconnectEvent</i> parameter of the <i>NdkCompleteConnect</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a>)  or <i>NdkAccept</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>)  function when the completion queue (CQ)  object was created.
 
@@ -91,9 +91,9 @@ None
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a>
 
  
 

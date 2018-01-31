@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology, _DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY, DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, DXGK_GPUENGINETOPOLOGY structure [Display Devices]
+ms.keywords: "_DXGK_GPUENGINETOPOLOGY, d3dkmddi/DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology, DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGK_GPUENGINETOPOLOGY {
 
 
 
-### -field NbAsymetricProcessingNodes
+#### - NbAsymetricProcessingNodes
 
 [out] The number of parallel engines that the GPU supports. If the driver does not set the <b>MultiEngineAware</b> bit-field flag in the <b>SchedulingCaps</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure, the Microsoft DirectX graphics kernel subsystem ignores the setting of <b>NbAsymetricProcessingNodes</b>.
 
 
-### -field Reserved
+#### - Reserved
 
 [out] An array of 32-bit values that are reserved for future use. The <b>DXGK_MAX_ASYMETRICAL_PROCESSING_NODES</b> constant, which is defined as 64, indicates the maximum number of asymmetrical processing nodes that the driver can signal.
 

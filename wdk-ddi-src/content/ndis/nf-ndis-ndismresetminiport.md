@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 614C6E21-00D0-4F57-9E09-D1BAB166BA42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMResetMiniport, netvista.ndismresetminiport, NdisMResetMiniport, NdisMResetMiniport function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMResetMiniport function [Network Drivers Starting with Windows Vista], NdisMResetMiniport, ndis/NdisMResetMiniport, netvista.ndismresetminiport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void NdisMResetMiniport(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 

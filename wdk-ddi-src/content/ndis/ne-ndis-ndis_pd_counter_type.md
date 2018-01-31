@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 36DA5A61-2DA4-4CD1-8BA5-74444DC002F0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PDCounterTypeTransmitQueue, netvista.ndis_pd_counter_type, NDIS_PD_COUNTER_TYPE, PDCounterTypeTransmitQueue, NDIS_PD_COUNTER_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis/PDCounterTypeReceiveFilter, ndis/PDCounterTypeUnknown, PDCounterTypeMax, PDCounterTypeUnknown, PDCounterTypeReceiveFilter, ndis/PDCounterTypeReceiveQueue, PDCounterTypeReceiveQueue, ndis/PDCounterTypeMax, ndis/NDIS_PD_COUNTER_TYPE
+ms.keywords: NDIS_PD_COUNTER_TYPE, PDCounterTypeReceiveQueue, PDCounterTypeMax, ndis/PDCounterTypeTransmitQueue, ndis/PDCounterTypeMax, ndis/PDCounterTypeUnknown, netvista.ndis_pd_counter_type, PDCounterTypeTransmitQueue, PDCounterTypeUnknown, ndis/PDCounterTypeReceiveQueue, ndis/PDCounterTypeReceiveFilter, PDCounterTypeReceiveFilter, NDIS_PD_COUNTER_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_COUNTER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _NDIS_PD_COUNTER_TYPE {
 
 
 
-### -field PDCounterTypeUnknown
+#### - PDCounterTypeUnknown
 
 The counter type is not known.
 
 
-### -field PDCounterTypeReceiveQueue
+#### - PDCounterTypeReceiveQueue
 
 The counter is a receive queue counter.
 
 
-### -field PDCounterTypeTransmitQueue
+#### - PDCounterTypeTransmitQueue
 
 The counter is a transmit queue counter.
 
 
-### -field PDCounterTypeReceiveFilter
+#### - PDCounterTypeReceiveFilter
 
 The counter is a receive filter counter.
 
 
-### -field PDCounterTypeMax
+#### - PDCounterTypeMax
 
 The maximum value for this enumeration. This value might change in future versions of NDIS header files and binaries.
 

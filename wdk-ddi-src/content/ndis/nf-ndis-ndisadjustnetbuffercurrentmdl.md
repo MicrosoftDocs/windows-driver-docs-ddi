@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d05793b-cb35-435d-aa59-6ac380668d91
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAdjustNetBufferCurrentMdl, ndis/NdisAdjustNetBufferCurrentMdl, NdisAdjustNetBufferCurrentMdl function [Network Drivers Starting with Windows Vista], netvista.ndisadjustnetbuffercurrentmdl, ndis_netbuf_functions_ref_a555c8dc-ed71-46b9-8922-32bfad03f2a1.xml
+ms.keywords: NdisAdjustNetBufferCurrentMdl function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_a555c8dc-ed71-46b9-8922-32bfad03f2a1.xml, netvista.ndisadjustnetbuffercurrentmdl, ndis/NdisAdjustNetBufferCurrentMdl, NdisAdjustNetBufferCurrentMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisAdjustNetBufferCurrentMdl(
 
 
 
-### -param NetBuffer [in]
+#### - NetBuffer [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.

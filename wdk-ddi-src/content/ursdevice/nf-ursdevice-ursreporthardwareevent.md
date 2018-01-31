@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ursdevice/UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], UrsReportHardwareEvent, buses.ursreporthardwareevent
+ms.keywords: buses.ursreporthardwareevent, UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], ursdevice/UrsReportHardwareEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE NTSTATUS UrsReportHardwareEvent(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-### -param HardwareEvent [in]
+#### - HardwareEvent [in]
 
 A <a href="..\urstypes\ne-urstypes-_urs_hardware_event.md">URS_HARDWARE_EVENT</a>-type value that indicates the type of event that occurred.
 

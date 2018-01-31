@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9484610b-4cbd-4c4e-9e60-ef052702325c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OnClientDisconnect, ISensorDriver, sensors.isensordriver_onclientdisconnect, OnClientDisconnect method [Sensor Devices], sensorsclassextension/ISensorDriver::OnClientDisconnect, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, ISensorDriver::OnClientDisconnect, OnClientDisconnect method [Sensor Devices], ISensorDriver interface
+ms.keywords: OnClientDisconnect, OnClientDisconnect method [Sensor Devices], sensorsclassextension/ISensorDriver::OnClientDisconnect, ISensorDriver::OnClientDisconnect, ISensorDriver, sensors.isensordriver_onclientdisconnect, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, OnClientDisconnect method [Sensor Devices], ISensorDriver interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT OnClientDisconnect(
 
 
 
-### -param pClientFile [in]
+#### - pClientFile [in]
 
 Pointer to an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that represents the file object for the client that disconnected.
 
 
-### -param pwszSensorID [in]
+#### - pwszSensorID [in]
 
 <b>LPWSTR</b> that contains the ID for the sensor from which the client application is disconnecting.
 

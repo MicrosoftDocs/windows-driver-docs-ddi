@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], ACPI_EVAL_OUTPUT_BUFFER_V1, acpi.acpi_eval_output_buffer, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml
+ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER, acpi.acpi_eval_output_buffer, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_OUTPUT_BUFFER_V1
 product: Windows
 targetos: Windows
-req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER
+req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER
 ---
 
 # _ACPI_EVAL_OUTPUT_BUFFER_V1 structure
@@ -70,22 +70,22 @@ typedef struct _ACPI_EVAL_OUTPUT_BUFFER_V1 {
 
 
 
-### -field Signature
+#### - Signature
 
 The signature of the output buffer, which must be set to ACPI_EVAL_OUTPUT_BUFFER_SIGNATURE.
 
 
-### -field Length
+#### - Length
 
 The size, in bytes, of the output buffer. This size includes the storage for the <b>ACPI_EVAL_OUTPUT_BUFFER</b> structure at the start of the output buffer, plus any additional storage that might be required for data in the <b>Argument</b> array that extends past the end of the <b>ACPI_EVAL_OUTPUT_BUFFER</b> structure.
 
 
-### -field Count
+#### - Count
 
 The number of <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structures that the <b>Argument</b> array contains.
 
 
-### -field Argument
+#### - Argument
 
 An array of <b>ACPI_METHOD_ARGUMENT</b> structures. For more information, see Remarks.
 

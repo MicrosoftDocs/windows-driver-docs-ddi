@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e77aece7-df27-42d8-8e25-6907a5401ff9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestallocatetimer, WdfRequestAllocateTimer method, wdfrequest/WdfRequestAllocateTimer, DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, kmdf.wdfrequestallocatetimer, PFN_WDFREQUESTALLOCATETIMER, WdfRequestAllocateTimer
+ms.keywords: kmdf.wdfrequestallocatetimer, WdfRequestAllocateTimer, wdfrequest/WdfRequestAllocateTimer, PFN_WDFREQUESTALLOCATETIMER, DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer method, wdf.wdfrequestallocatetimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS WdfRequestAllocateTimer(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 

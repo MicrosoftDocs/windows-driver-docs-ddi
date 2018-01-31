@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IBidiRequestContainer::GetRequestCount method [Print Devices], IBidiRequestContainer interface, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, IBidiRequestContainer::IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, IBidiRequestContainer::GetRequestCount method [Print Devices], GetRequestCount, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer::GetRequestCount method, IBidiRequestContainer, IBidiRequestContainer::GetRequestCount, bidispl/IBidiRequestContainer::IBidiRequestContainer::GetRequestCount
+ms.keywords: IBidiRequestContainer interface [Print Devices], IBidiRequestContainer::GetRequestCount method, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, bidispl/IBidiRequestContainer::IBidiRequestContainer::GetRequestCount, IBidiRequestContainer::IBidiRequestContainer::GetRequestCount, GetRequestCount, IBidiRequestContainer::GetRequestCount, IBidiRequestContainer::GetRequestCount method [Print Devices], IBidiRequestContainer interface, _win32_IBidiRequestContainer_GetRequestCount, IBidiRequestContainer, IBidiRequestContainer::GetRequestCount method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT IBidiRequestContainer::GetRequestCount(
 
 
 
-### -param puCount [out]
+#### - puCount [out]
 
 Pointer to a variable that receives the number of requests.
 
@@ -122,9 +122,9 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
  
 

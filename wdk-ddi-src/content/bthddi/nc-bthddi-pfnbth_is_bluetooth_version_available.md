@@ -73,12 +73,12 @@ BOOLEAN IsBluetoothVersionAvailable(
 
 
 
-### -param MajorVersion [in]
+#### - MajorVersion [in]
 
 This parameter specifies the major version number of Bluetooth that is requested.
 
 
-### -param MinorVersion [in]
+#### - MinorVersion [in]
 
 This parameter specifies the minor version number of Bluetooth that is requested.
 

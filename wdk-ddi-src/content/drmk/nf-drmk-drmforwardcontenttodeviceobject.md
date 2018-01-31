@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: drmk/DrmForwardContentToDeviceObject, audio.drmforwardcontenttodeviceobject, DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml
+ms.keywords: DrmForwardContentToDeviceObject function [Audio Devices], DrmForwardContentToDeviceObject, audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject, aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmForwardContentToDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # DrmForwardContentToDeviceObject function
@@ -70,17 +70,17 @@ NTSTATUS DrmForwardContentToDeviceObject(
 
 
 
-### -param ContentId [in]
+#### - ContentId [in]
 
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
 
-### -param Reserved [in, optional]
+#### - Reserved [in, optional]
 
 Reserved for future use. Set to <b>NULL</b>.
 
 
-### -param DrmForward [in]
+#### - DrmForward [in]
 
 Pointer to a <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a> structure specifying a device object and file object that identify the target device and a KS audio pin on that device, respectively. The structure also contains the context value that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>set-property request passes to the device.
 
@@ -197,19 +197,19 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
 <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
 
-<a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
+<a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
 <a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
  
 

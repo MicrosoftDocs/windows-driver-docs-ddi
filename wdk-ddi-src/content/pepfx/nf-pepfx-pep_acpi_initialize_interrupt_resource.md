@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A89AB86B-4DC9-43ED-9EE6-1D4B693DAB91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, kernel.pep_acpi_initialize_interrupt_resource
+ms.keywords: pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, kernel.pep_acpi_initialize_interrupt_resource, PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function
@@ -74,42 +74,42 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE(
 
 
 
-### -param ResourceUsage [in]
+#### - ResourceUsage [in]
 
 Indicates if this device is in use.
 
 
-### -param EdgeLevel [in]
+#### - EdgeLevel [in]
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
-### -param InterruptLevel [in]
+#### - InterruptLevel [in]
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
 
-### -param ShareType [in]
+#### - ShareType [in]
 
 Indicates if the device can be shared.
 
 
-### -param Wake [in]
+#### - Wake [in]
 
 Indicates if the device can be woken from a low-power state.
 
 
-### -param PinTable [in]
+#### - PinTable [in]
 
 A list of pin numbers on the resource. 
 
 
-### -param PinCount [in]
+#### - PinCount [in]
 
 The number of pins described by the <i>PinTable</i> parameter.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_interrupt_resource.md">PEP_ACPI_INTERRUPT_RESOURCE</a>.
 

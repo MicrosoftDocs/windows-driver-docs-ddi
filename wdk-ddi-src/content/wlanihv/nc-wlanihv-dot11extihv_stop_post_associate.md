@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvStopPostAssociate
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ DWORD APIENTRY Dot11ExtIhvStopPostAssociate(
 
 
 
-### -param hIhvExtAdapter [in, optional]
+#### - hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -85,7 +85,7 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-### -param pPeer [in]
+#### - pPeer [in]
 
 A pointer to a 
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> structure, which
@@ -95,7 +95,7 @@ A pointer to a
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div><div> </div>
 
-### -param dot11AssocStatus [in]
+#### - dot11AssocStatus [in]
 
 A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> type that specifies the
@@ -148,19 +148,19 @@ For more information about the post-association operation, see
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <mshelp:link keywords="netvista.ndis_status_dot11_disassociation" tabindex="0">
    NDIS_STATUS_DOT11_DISASSOCIATION</mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
 <mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
  
 

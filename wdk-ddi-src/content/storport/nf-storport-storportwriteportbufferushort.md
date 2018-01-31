@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortBufferUshort routine [Storage Devices], StorPortWritePortBufferUshort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, storport/StorPortWritePortBufferUshort, storage.storportwriteportbufferushort
+ms.keywords: storage.storportwriteportbufferushort, StorPortWritePortBufferUshort, storport/StorPortWritePortBufferUshort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, StorPortWritePortBufferUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API VOID StorPortWritePortBufferUshort(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Contains the address of the port to be written to. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
 
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferushort.m
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>
-
 <a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>
+
+<a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>
 
  
 

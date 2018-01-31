@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsDeviceInitialize function [Buses], ursdevice/UrsDeviceInitialize, buses.ursdeviceinitialize, UrsDeviceInitialize
+ms.keywords: UrsDeviceInitialize, ursdevice/UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE NTSTATUS UrsDeviceInitialize(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-### -param Config [in]
+#### - Config [in]
 
  A pointer to a <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> structure that the client driver initialized by calling <a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>.
 

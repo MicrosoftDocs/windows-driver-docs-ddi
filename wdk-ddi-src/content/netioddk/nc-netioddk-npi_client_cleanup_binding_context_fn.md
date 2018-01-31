@@ -75,7 +75,7 @@ typedef NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN * PNPI_CLIENT_CLEANUP_BINDING_CONT
 
 
 
-### -param ClientBindingContext [in]
+#### - ClientBindingContext [in]
 
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it has detached. The client module passes this pointer to the NMR when it
@@ -120,15 +120,15 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
-
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
+<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+
 <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
  
 

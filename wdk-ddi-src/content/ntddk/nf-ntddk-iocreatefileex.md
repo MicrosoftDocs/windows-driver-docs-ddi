@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 47d5e7e2-bc97-4413-b1ca-ef958288902c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ntddk/IoCreateFileEx
+ms.keywords: ntddk/IoCreateFileEx, IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,12 +81,12 @@ NTSTATUS IoCreateFileEx(
 
 
 
-### -param FileHandle [out]
+#### - FileHandle [out]
 
 A pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> as soon as the handle is no longer being used.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 A bitmask of flags (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>) that specifies the type of access that the caller requires to the file or directory. This set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects.
 <table>
@@ -297,7 +297,7 @@ The directory can be traversed, that is, it can be part of the pathname of a fil
 The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA <i>DesiredAccess</i> flags are incompatible with creating or opening a directory file.
 
 
-### -param ObjectAttributes [in]
+#### - ObjectAttributes [in]
 
 
       A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object include the following.
@@ -360,7 +360,7 @@ A set of flags that controls the file object attributes. If the caller is runnin
 </table> 
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 A pointer to a variable of type <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileEx</b>, the <b>Information</b> member of the variable contains one of the following values:
 <ul>
@@ -372,12 +372,12 @@ A pointer to a variable of type <a href="..\wdm\ns-wdm-_io_status_block.md">IO_S
 <li>FILE_DOES_NOT_EXIST</li>
 </ul>
 
-### -param AllocationSize [in, optional]
+#### - AllocationSize [in, optional]
 
 Optionally specifies the initial allocation size, in bytes, for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
 
-### -param FileAttributes [in]
+#### - FileAttributes [in]
 
 Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by any other flag or by a combination (through a bitwise OR operation) of compatible flags. Possible <i>FileAttributes</i> flags include the following.
 <table>
@@ -448,7 +448,7 @@ A temporary file should be created.
 </table> 
 
 
-### -param ShareAccess [in]
+#### - ShareAccess [in]
 
 Specifies the type of share access to the file that the caller would like, as zero, or one, or a combination of the following flags. To request exclusive access, set this parameter to zero. If the IO_IGNORE_SHARE_ACCESS_CHECK flag is specified in the <i>Options</i> parameter, the I/O manager ignores the <i>ShareAccess</i> parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for this parameter, even when you use the IO_IGNORE_SHARE_ACCESS_CHECK flag. To help you avoid sharing violation errors, specify all the following share access flags.
 <table>
@@ -491,7 +491,7 @@ The file can be opened for delete access by other threads' calls to <b>IoCreateF
 Device drivers and intermediate drivers usually set <i>ShareAccess</i> to zero, which gives the caller exclusive access to the open file.
 
 
-### -param Disposition [in]
+#### - Disposition [in]
 
 One of the following values can be used to specify how the file should be handled when the file already exists.
 <table>
@@ -562,7 +562,7 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </table> 
 
 
-### -param CreateOptions [in]
+#### - CreateOptions [in]
 
 Specifies the options to be applied when creating or opening the file, as a compatible combination of the following flags.
 <table>
@@ -745,27 +745,27 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 </table> 
 
 
-### -param EaBuffer [in, optional]
+#### - EaBuffer [in, optional]
 
 A pointer to a caller-supplied variable of type <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a> that contains extended attribute (EA) information to be applied to the file.  For device and intermediate drivers, this parameter must be <b>NULL</b>.
 
 
-### -param EaLength [in]
+#### - EaLength [in]
 
 Length, in bytes, of <i>EaBuffer</i>.  For device drivers and intermediate drivers, this parameter must be zero.
 
 
-### -param CreateFileType [in]
+#### - CreateFileType [in]
 
 Drivers must set this parameter to CreateFileTypeNone.
 
 
-### -param InternalParameters [in, optional]
+#### - InternalParameters [in, optional]
 
 Drivers must set this parameter to <b>NULL</b>.
 
 
-### -param Options [in]
+#### - Options [in]
 
 Specifies options to be used during the generation of the create request. Zero or more of the following bit flag values can be used.
 <table>
@@ -826,7 +826,7 @@ Open the file's parent directory.
 </table> 
 
 
-### -param DriverContext [in, optional]
+#### - DriverContext [in, optional]
 
 An optional pointer to an <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a> structure that was previously initialized by the <a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a> routine.  The IO_DRIVER_CREATE_CONTEXT structure can be used to pass additional parameters to the <b>IoCreateFileEx</b> and <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a> routines.  See the following Remarks section for more information.
 
@@ -1020,45 +1020,45 @@ If the I/O request does not go to the top of the driver stack, that is if the <i
 
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
 
 <a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
 
-<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
  
 

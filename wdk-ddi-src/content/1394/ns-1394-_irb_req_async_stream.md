@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], IEEE.irb_req_async_stream, IRB_REQ_ASYNC_STREAM, _IRB_REQ_ASYNC_STREAM
+ms.keywords: 1394/IRB_REQ_ASYNC_STREAM, _IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], IEEE.irb_req_async_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _IRB_REQ_ASYNC_STREAM {
 
 
 
-### -field nNumberOfBytesToStream
+#### - nNumberOfBytesToStream
 
 Specifies the number of bytes to write.
 
 
-### -field fulFlags
+#### - fulFlags
 
 Reserved. Drivers must set this to zero.
 
 
-### -field Mdl
+#### - Mdl
 
 Specifies the source buffer.
 
 
-### -field ulTag
+#### - ulTag
 
 Specifies the Tag field for any packets generated from this request.
 
 
-### -field nChannel
+#### - nChannel
 
 Specifies the channel to which the data will be written.
 
 
-### -field ulSynch
+#### - ulSynch
 
 Specifies the Sy field for any packets generated from this request.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Drivers must set this to zero.
 
 
-### -field nSpeed
+#### - nSpeed
 
 Specifies the transfer rate. The possible speed values are SPEED_FLAGS_xxx, where xxx is the (approximate) transfer rate in megabits per second. Existing hardware currently supports transfer rates of 100, 200, and 400 Mb/sec.
 <table>

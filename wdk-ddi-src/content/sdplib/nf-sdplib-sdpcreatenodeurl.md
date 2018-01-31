@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 9f06dbfb-2bd5-4a58-848b-a5f0de337166
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.sdpcreatenodeurl, SdpCreateNodeUrl, sdplib/SdpCreateNodeUrl, bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml, SdpCreateNodeUrl function [Bluetooth Devices]
+ms.keywords: SdpCreateNodeUrl function [Bluetooth Devices], bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml, SdpCreateNodeUrl, sdplib/SdpCreateNodeUrl, bltooth.sdpcreatenodeurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ PSDP_NODE SdpCreateNodeUrl(
 
 
 
-### -param url [in]
+#### - url [in]
 
 A pointer to the URL value that is used to initialize the SDP_NODE structure.
 
 
-### -param urlLength
+#### - urlLength
 
 An unsigned long integer value that holds the length of the URL.
 
 
-### -param tag [in]
+#### - tag [in]
 
 A profile driver defined tag to associate with the node.
 
@@ -128,11 +128,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
  
 

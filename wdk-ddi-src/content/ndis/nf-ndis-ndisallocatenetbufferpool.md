@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc27758a-a793-48a1-a6ab-bd193aa9c61a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateNetBufferPool, NdisAllocateNetBufferPool function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_f12d38a1-161d-4209-95ea-6e66fcbef255.xml, ndis/NdisAllocateNetBufferPool, netvista.ndisallocatenetbufferpool
+ms.keywords: NdisAllocateNetBufferPool function [Network Drivers Starting with Windows Vista], NdisAllocateNetBufferPool, ndis/NdisAllocateNetBufferPool, ndis_netbuf_functions_ref_f12d38a1-161d-4209-95ea-6e66fcbef255.xml, netvista.ndisallocatenetbufferpool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NDIS_HANDLE NdisAllocateNetBufferPool(
 
 
 
-### -param NdisHandle [in, optional]
+#### - NdisHandle [in, optional]
 
 An NDIS handle that was obtained during caller initialization.
 
 
-### -param Parameters [in]
+#### - Parameters [in]
 
 A pointer to a NET_BUFFER_POOL_PARAMETERS structure that defines the parameters for the pool. The
      structure is defined as follows:
@@ -176,18 +176,18 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
-<a href="..\ndis\nf-ndis-ndisfreenetbufferpool.md">NdisFreeNetBufferPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <mshelp:link keywords="netvista.ndisallocatenetbuffermdlanddata" tabindex="0"><b>
    NdisAllocateNetBufferMdlAndData</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
+
 <a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisfreenetbufferpool.md">NdisFreeNetBufferPool</a>
 
  
 

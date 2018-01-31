@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BE1D09C4-8EC0-4BF3-A943-20EDD44F9CF1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_BREADCRUMB_V1, GNSS_BREADCRUMB_V1 structure [Sensor Devices], *PGNSS_BREADCRUMB_V1, gnssdriver/PGNSS_BREADCRUMB_V1, sensors.gnss_breadcrumb_v1, PGNSS_BREADCRUMB_V1, gnssdriver/GNSS_BREADCRUMB_V1, PGNSS_BREADCRUMB_V1 structure pointer [Sensor Devices]
+ms.keywords: GNSS_BREADCRUMB_V1, gnssdriver/GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1, sensors.gnss_breadcrumb_v1, PGNSS_BREADCRUMB_V1, PGNSS_BREADCRUMB_V1 structure pointer [Sensor Devices], GNSS_BREADCRUMB_V1 structure [Sensor Devices], gnssdriver/PGNSS_BREADCRUMB_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_BREADCRUMB_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_BREADCRUMB_V1, GNSS_BREADCRUMB_V1"
+req.typenames: GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1
 ---
 
 # GNSS_BREADCRUMB_V1 structure
@@ -77,57 +77,57 @@ typedef struct {
 
 
 
-### -field FixTimeStamp
+#### - FixTimeStamp
 
 Contains the breadcrumb fix timestamp value.
 
 
-### -field Latitude
+#### - Latitude
 
 Contains the breadcrumb longitude value at the time of the fix.
 
 
-### -field Longitude
+#### - Longitude
 
 Contains the breadcrumb latitude at the time of the fix.
 
 
-### -field HorizontalAccuracy
+#### - HorizontalAccuracy
 
 Contains the breadcrumb horizontal altitude value.
 
 
-### -field Speed
+#### - Speed
 
 Contains the speed value at the time of the breadcrumb fix.
 
 
-### -field SpeedAccuracy
+#### - SpeedAccuracy
 
 Contains the breadcrumb speed accuracy value.
 
 
-### -field Altitude
+#### - Altitude
 
 Contains the breadcrumb altitude value at the time of the fix.
 
 
-### -field AltitudeAccuracy
+#### - AltitudeAccuracy
 
 Contains the breadcrumb altitude accuracy value.
 
 
-### -field Heading
+#### - Heading
 
 Contains the breadcrumb heading value at the time of the fix.
 
 
-### -field HeadingAccuracy
+#### - HeadingAccuracy
 
 Contains the breadcrumb heading accuracy value.
 
 
-### -field FixSuccess
+#### - FixSuccess
 
 A Boolean type that contains the fix success value.
 

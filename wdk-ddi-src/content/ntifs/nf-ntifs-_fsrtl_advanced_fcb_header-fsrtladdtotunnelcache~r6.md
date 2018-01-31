@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71cac8fd-d544-4f66-a3ba-f0b267e46d1e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtladdtotunnelcache, fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, FsRtlAddToTunnelCache routine [Installable File System Drivers], ntifs/FsRtlAddToTunnelCache, FsRtlAddToTunnelCache
+ms.keywords: FsRtlAddToTunnelCache routine [Installable File System Drivers], fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, FsRtlAddToTunnelCache, ifsk.fsrtladdtotunnelcache, ntifs/FsRtlAddToTunnelCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,37 +73,37 @@ VOID FsRtlAddToTunnelCache(
 
 
 
-### -param Cache [in]
+#### - Cache [in]
 
 Pointer to a tunnel cache initialized by <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>.
 
 
-### -param DirectoryKey [in]
+#### - DirectoryKey [in]
 
 Key value of the directory containing the file that is being deleted or renamed. The directory key is a unique unsigned 64-bit identifier that is generated and assigned to the directory by the file system.
 
 
-### -param ShortName [in]
+#### - ShortName [in]
 
 Unicode string containing the short (8.3) name for the file. If <i>KeyByShortName</i> is <b>FALSE</b>, <i>ShortName</i> is optional.
 
 
-### -param LongName [in]
+#### - LongName [in]
 
 Unicode string containing the long name for the file. A long file name is a name for a file or directory that exceeds the standard 8.3 file name format. If <i>KeyByShortName</i> is <b>TRUE</b>, <i>LongName</i> is optional.
 
 
-### -param KeyByShortName [in]
+#### - KeyByShortName [in]
 
 Set to <b>TRUE</b> if the file name to be deleted from the directory is the short name for the file, <b>FALSE</b> if it is the long name. 
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 Length in bytes of the information to be stored in the tunnel cache entry for this file. The value of this parameter is file-system-specific, but it must be the same for all entries in the tunnel cache.
 
 
-### -param Data [in]
+#### - Data [in]
 
 Pointer to a buffer that contains file-system-specific information to be stored in the tunnel cache entry for this file.
 
@@ -130,13 +130,13 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletekeyfromtunnelcache~r1.md">FsRtlDeleteKeyFromTunnelCache</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
 
  
 

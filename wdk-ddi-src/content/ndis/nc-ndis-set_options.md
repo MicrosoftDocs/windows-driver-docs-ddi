@@ -73,7 +73,7 @@ NDIS_STATUS SetOptions(
 
 
 
-### -param NdisDriverHandle [in]
+#### - NdisDriverHandle [in]
 
 A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
      NdisMRegisterMiniportDriver</b></mshelp:link> for miniport drivers, <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
@@ -81,7 +81,7 @@ A handle that identifies a driver. NDIS returns this handle to the driver when i
      NdisFRegisterFilterDriver</b></mshelp:link> for filter drivers).
 
 
-### -param DriverContext [in]
+#### - DriverContext [in]
 
 The handle that the driver passed to 
      <b>NdisRegisterXxxDriver</b> that identifies the driver context area, where Xxx is the type of driver (Miniport, Protocol, or Filter).
@@ -288,20 +288,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
 <mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
    NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
 <mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
 
  
 

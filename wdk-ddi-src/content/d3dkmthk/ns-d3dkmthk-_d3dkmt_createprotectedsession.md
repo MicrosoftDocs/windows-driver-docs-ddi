@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ec42f5a-df33-4da3-a959-64cb400f3177
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEPROTECTEDSESSION, D3DKMT_CREATEPROTECTEDSESSION structure [Display Devices], _D3DKMT_CREATEPROTECTEDSESSION, display.d3dkmt-createprotectedsession, d3dkmthk/D3DKMT_CREATEPROTECTEDSESSION
+ms.keywords: "_D3DKMT_CREATEPROTECTEDSESSION, D3DKMT_CREATEPROTECTEDSESSION, display.d3dkmt-createprotectedsession, d3dkmthk/D3DKMT_CREATEPROTECTEDSESSION, D3DKMT_CREATEPROTECTEDSESSION structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _D3DKMT_CREATEPROTECTEDSESSION {
 
 
 
-### -field hDevice
+#### - hDevice
 
 A handle for the device.
 
 
-### -field hSyncObject
+#### - hSyncObject
 
 A monitored fence handle associated with the session.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 Private driver data.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Size of private driver data.
 
 
-### -field pPrivateRuntimeData
+#### - pPrivateRuntimeData
 
 Private runtime data.
 
 
-### -field PrivateRuntimeDataSize
+#### - PrivateRuntimeDataSize
 
 Size of private runtime data.
 
 
-### -field hHandle
+#### - hHandle
 
 The protected session handle.
 

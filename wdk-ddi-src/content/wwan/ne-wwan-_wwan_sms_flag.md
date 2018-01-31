@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6620d6c8-2b8a-440e-acf4-fb08570b13bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanSmsFlagMax, _WWAN_SMS_FLAG, WwanSmsFlagDraft, wwan/WwanSmsFlagOld, wwan/WwanSmsFlagMax, *PWWAN_SMS_FLAG, wwan/WwanSmsFlagSent, wwan/WwanSmsFlagAll, WwanSmsFlagAll, wwan/WWAN_SMS_FLAG, WwanSmsFlagOld, WwanSmsFlagIndex, wwan/WwanSmsFlagIndex, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_SMS_FLAG, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_SMS_FLAG, WWAN_SMS_FLAG, WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagNew, wwan/WwanSmsFlagDraft, WwanSmsFlagNew, netvista.wwan_sms_flag, WwanSmsFlagSent
+ms.keywords: wwan/PWWAN_SMS_FLAG, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], wwan/WwanSmsFlagDraft, netvista.wwan_sms_flag, wwan/WWAN_SMS_FLAG, wwan/WwanSmsFlagSent, *PWWAN_SMS_FLAG, wwan/WwanSmsFlagIndex, WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagAll, PWWAN_SMS_FLAG, wwan/WwanSmsFlagNew, WwanSmsFlagAll, WWAN_SMS_FLAG, WwanSmsFlagNew, WwanSmsFlagIndex, WwanSmsFlagMax, WwanSmsFlagDraft, WwanSmsFlagSent, WwanSmsFlagOld, wwan/WwanSmsFlagOld, wwan/WwanSmsFlagMax, _WWAN_SMS_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,37 +74,37 @@ typedef enum _WWAN_SMS_FLAG {
 
 
 
-### -field WwanSmsFlagAll
+#### - WwanSmsFlagAll
 
 No filter is set.
 
 
-### -field WwanSmsFlagIndex
+#### - WwanSmsFlagIndex
 
 Filter based on the value of an index.
 
 
-### -field WwanSmsFlagNew
+#### - WwanSmsFlagNew
 
 Filter for new (unread) messages.
 
 
-### -field WwanSmsFlagOld
+#### - WwanSmsFlagOld
 
 Filter for old (read) messages.
 
 
-### -field WwanSmsFlagSent
+#### - WwanSmsFlagSent
 
 Filter for sent messages.
 
 
-### -field WwanSmsFlagDraft
+#### - WwanSmsFlagDraft
 
 Filter for draft messages.
 
 
-### -field WwanSmsFlagMax
+#### - WwanSmsFlagMax
 
 The total number of filter flags.
 

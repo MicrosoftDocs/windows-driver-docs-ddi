@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], wdmsec/RtlInitUnicodeString, RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, kernel.wdmlibrtlinitunicodestringex, wdmsec/WdmlibRtlInitUnicodeStringEx
+ms.keywords: kernel.wdmlibrtlinitunicodestringex, WdmlibRtlInitUnicodeStringEx, RtlInitUnicodeString, wdmsec/RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], wdmsec/WdmlibRtlInitUnicodeStringEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS WdmlibRtlInitUnicodeStringEx(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 A pointer to the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to be initialized.
 
 
-### -param SourceString [in, optional]
+#### - SourceString [in, optional]
 
 A pointer to a null-terminated wide-character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
 

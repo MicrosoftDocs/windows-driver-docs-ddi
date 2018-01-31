@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3733de1-63ef-43b8-b669-dbe7e573b499
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportreleasecommonbuffer, VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, video/VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer function [Display Devices]
+ms.keywords: VideoPortReleaseCommonBuffer function [Display Devices], video/VideoPortReleaseCommonBuffer, VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, display.videoportreleasecommonbuffer, VideoPortReleaseCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ VOID VideoPortReleaseCommonBuffer(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VpDmaAdapter [in]
+#### - VpDmaAdapter [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This is the structure returned after a call to <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes of memory to be freed.
 
 
-### -param LogicalAddress [in]
+#### - LogicalAddress [in]
 
 Specifies the logical address of the buffer to be freed.
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 Pointer to the corresponding virtual address of the allocated memory range. This value was obtained in a prior call to <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>.
 
 
-### -param CacheEnabled [in]
+#### - CacheEnabled [in]
 
 Indicates whether the allocated memory is cached. A value of <b>TRUE</b> indicates that the allocated memory is cached.
 
@@ -121,9 +121,9 @@ The parameters passed to <b>VideoPortFreeCommonBuffer</b> must match exactly tho
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
-
 <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
+
+<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
  
 

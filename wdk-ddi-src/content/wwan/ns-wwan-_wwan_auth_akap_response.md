@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5BD4AC50-6029-41BE-A825-9290189F29B8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_AUTH_AKAP_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_RESPONSE, wwan/PWWAN_AUTH_AKAP_RESPONSE, wwan/WWAN_AUTH_AKAP_RESPONSE, netvista.wwan_auth_akap_response, _WWAN_AUTH_AKAP_RESPONSE, PWWAN_AUTH_AKAP_RESPONSE, WWAN_AUTH_AKAP_RESPONSE structure [Network Drivers Starting with Windows Vista], *PWWAN_AUTH_AKAP_RESPONSE
+ms.keywords: PWWAN_AUTH_AKAP_RESPONSE, wwan/WWAN_AUTH_AKAP_RESPONSE, netvista.wwan_auth_akap_response, WWAN_AUTH_AKAP_RESPONSE structure [Network Drivers Starting with Windows Vista], PWWAN_AUTH_AKAP_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_RESPONSE, wwan/PWWAN_AUTH_AKAP_RESPONSE, *PWWAN_AUTH_AKAP_RESPONSE, _WWAN_AUTH_AKAP_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_AUTH_AKAP_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_AUTH_AKAP_RESPONSE, *PWWAN_AUTH_AKAP_RESPONSE
+req.typenames: "*PWWAN_AUTH_AKAP_RESPONSE, WWAN_AUTH_AKAP_RESPONSE"
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ typedef struct _WWAN_AUTH_AKAP_RESPONSE {
  
 
 
-### -field ResLength
+#### - ResLength
 
 The length of the response in the <b>Res</b> member.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b58174f-aa38-4ea3-8e08-41434684e9ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtMakeTemporaryObject, k111_54a6768d-3f33-4c9e-8068-810401cad810.xml, ZwMakeTemporaryObject routine [Kernel-Mode Driver Architecture], kernel.zwmaketemporaryobject, NtMakeTemporaryObject, ZwMakeTemporaryObject, wdm/ZwMakeTemporaryObject
+ms.keywords: k111_54a6768d-3f33-4c9e-8068-810401cad810.xml, ZwMakeTemporaryObject, kernel.zwmaketemporaryobject, NtMakeTemporaryObject, wdm/ZwMakeTemporaryObject, ZwMakeTemporaryObject routine [Kernel-Mode Driver Architecture], wdm/NtMakeTemporaryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ZwMakeTemporaryObject(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Handle to an object of any type. 
 
@@ -97,15 +97,15 @@ A temporary object has a name only as long as its handle count is greater than z
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1b720e3e-8858-4567-ada3-30ac0dcf9696
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey method, DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, WdfFdoInitOpenRegistryKey, wdf.wdffdoinitopenregistrykey, kmdf.wdffdoinitopenregistrykey
+ms.keywords: wdf.wdffdoinitopenregistrykey, DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, WdfFdoInitOpenRegistryKey, kmdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitOpenRegistryKey
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -77,12 +77,12 @@ NTSTATUS WdfFdoInitOpenRegistryKey(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-### -param DeviceInstanceKeyType [in]
+#### - DeviceInstanceKeyType [in]
 
 Specifies which key or subkey to open.  This is a bitwise OR of the following flags (which are defined in <i>Wdm.h</i>).
 <table>
@@ -149,7 +149,7 @@ Similarly, a UMDF driver uses these flags to open the <b>ServiceName</b> subkey 
 </table> 
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>-typed value that specifies access rights that the driver is requesting for the specified registry key.
 
@@ -206,12 +206,12 @@ If you are writing a UMDF driver, use the following table.
 As a best practice, ask for only the types of access that your driver needs.
 
 
-### -param KeyAttributes [in, optional]
+#### - KeyAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Key [out]
+#### - Key [out]
 
 A pointer to a location that receives a handle to the new registry-key object.
 
@@ -291,9 +291,9 @@ or more information about the registry, hardware and software keys, and registry
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
 
  
 

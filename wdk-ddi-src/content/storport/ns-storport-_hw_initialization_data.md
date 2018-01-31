@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54f460da-2dfb-4a9d-9b25-edb90f3bfdd5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, *PHW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__storport_, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, storport/HW_INITIALIZATION_DATA, STOR_MAP_ALL_BUFFERS, STOR_FEATURE_VIRTUAL_MINIPORT, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_MAP_NO_BUFFERS, SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_RESUME_CAPABLE, storport/PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, _HW_INITIALIZATION_DATA, ADDRESS_TYPE_FLAG_BTL8, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_ATA_PASS_THROUGH
+ms.keywords: STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, STOR_FEATURE_VIRTUAL_MINIPORT, storport/HW_INITIALIZATION_DATA, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_MAP_NO_BUFFERS, STOR_MAP_ALL_BUFFERS, *PHW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, _HW_INITIALIZATION_DATA structure [Storage Devices], SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_DUMP_RESUME_CAPABLE, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, STOR_FEATURE_DUMP_POINTERS, HW_INITIALIZATION_DATA, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, ADDRESS_TYPE_FLAG_BTL8, storage.hw_initialization_data__storport_, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_MAP_NON_READ_WRITE_BUFFERS, HW_INITIALIZATION_DATA structure [Storage Devices], storport/PHW_INITIALIZATION_DATA, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml, PHW_INITIALIZATION_DATA structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,86 +112,86 @@ typedef struct _HW_INITIALIZATION_DATA {
  
 
 
-### -field PortVersionFlags
+#### - PortVersionFlags
 
 Flags to indicate supported features.
 
 
-### -field HwInitializationDataSize
+#### - HwInitializationDataSize
 
 Specifies the size of this structure in bytes, as returned by <b>sizeof</b>(HW_INITIALIZATION_DATA). In effect, this member indicates the version of this structure being used by the miniport driver. A miniport driver's DriverEntry routine should set this member's value for the port driver.
 
 
-### -field AdapterInterfaceType
+#### - AdapterInterfaceType
 
 The Storport driver does not support legacy buses. Therefore, most of the adapter interface types used with the SCSI Port driver are invalid for Storport. In particular, <b>Isa</b>, <b>Eisa</b>, <b>MicroChannel</b>, and <b>TurboChannel</b> are not supported. Furthermore, unlike the SCSI Port case, a miniport driver that works with the Storport driver is not required to supply values for the <b>VendorIdLength</b>, <b>VendorId</b>, <b>DeviceIdLength</b>, and <b>DeviceId</b> members.
 
 
-### -field HwInitialize
+#### - HwInitialize
 
 Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine, which is a required entry point for all miniport drivers. 
 
 
-### -field HwStartIo
+#### - HwStartIo
 
 Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine, which is a required entry point for all miniport drivers. 
 
 
-### -field HwInterrupt
+#### - HwInterrupt
 
 Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a> routine, which is a required entry point for all miniport drivers.  
 
 
-### -field HwFindAdapter
+#### - HwFindAdapter
 
 Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine, which is a required entry point for all miniport drivers. 
 
 
-### -field HwResetBus
+#### - HwResetBus
 
 Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a> routine, which is a required entry point for all miniport drivers. 
 
 
-### -field HwDmaStarted
+#### - HwDmaStarted
 
 The Storport driver does not support subordinate-mode DMA. Therefore, this member must be <b>NULL</b>.
 
 
-### -field HwAdapterState
+#### - HwAdapterState
 
 The Storport driver does not support legacy drivers. Therefore, this member must be <b>NULL</b>.
 
 
-### -field DeviceExtensionSize
+#### - DeviceExtensionSize
 
 Specifies the size, in bytes, required by the miniport driver for its per-adapter device extension. A miniport driver uses its device extension as storage for driver-determined host bus adapter (HBA) information. The operating system-specific port driver initializes each device extension one time, when it first allocates the extension and fills it with zeros. It passes a pointer to the HBA-specific device extension in every call to a miniport driver. The given size does not include any miniport driver-requested per-logical-unit storage. The size of per-logical-unit storage is specified via the <b>SpecificLuExtensionSize</b> field, described later in this topic.
 
 Although SCSIPort re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> receive a zeroed-out device extension, Storport does not follow that model. Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> for a given adapter receives a zeroed-out device extension. Subsequent calls to <b>HwStorFindAdapter</b> and other miniport functions receive the device extension as last modified by the miniport. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize it's initialization procedure.
 
 
-### -field SpecificLuExtensionSize
+#### - SpecificLuExtensionSize
 
 Specifies the size in bytes required by the miniport driver for its per-logical-unit storage, if any. A miniport driver can use its LU extensions as storage for driver-determined logical-unit information about  peripherals on the bus. The Storport driver initializes each LU extension it allocates with zeros. Leave this member set to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="..\storport\nf-storport-storportgetuncachedextension.md">StorPortGetUncachedExtension</a>.
 
 
-### -field SrbExtensionSize
+#### - SrbExtensionSize
 
 Specifies the size, in bytes, required by the miniport driver for its per-request storage, if any. A miniport driver can use SRB extensions as storage for driver-determined, request-specific information, such as data necessary to process a particular request. The Storport driver does not initialize SRB extensions, but sets a pointer to this storage in each SRB it sends to the miniport driver. An SRB extension can be safely accessed by the HBA hardware. Because miniport drivers that work with the Storport driver must support scatter/gather lists, and the per-SRB scatter/gather lists are usually allocated in the SRB extension, this member is rarely zero. Leave this member set to zero if the miniport driver does not maintain per-SRB information for which it requires storage. 
 
 This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="..\storport\nf-storport-storportgetuncachedextension.md">StorPortGetUncachedExtension.</a>.
 
 
-### -field NumberOfAccessRanges
+#### - NumberOfAccessRanges
 
 Specifies how many access ranges the adapter uses. Each is a range either of memory addresses or I/O port addresses. 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use and not available for use by miniport drivers.
 
 
-### -field MapBuffers
+#### - MapBuffers
 
 Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. The <b>MapBuffers</b> member can have one of the following values.
 <table>
@@ -242,57 +242,57 @@ Map the buffer for all I/O including read and write requests. This value is vali
 </table> 
 
 
-### -field NeedPhysicalAddresses
+#### - NeedPhysicalAddresses
 
 Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport driver must translate certain types of addresses to physical addresses. Miniport drivers that work with the Storport driver must support bus-master DMA, so they will always be required to do address translation. 
 
 
-### -field TaggedQueuing
+#### - TaggedQueuing
 
 Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport driver supports SCSI tagged queuing. All miniport drivers that work with the Storport driver must support tagged queuing.
 
 
-### -field AutoRequestSense
+#### - AutoRequestSense
 
 Must be <b>TRUE</b>. A value of <b>TRUE</b> indicates that the HBA can perform a request-sense operation without requiring an explicit request to do so. All miniport drivers that work with the Storport driver must support SCSI Auto-Request Sense. 
 
 
-### -field MultipleRequestPerLu
+#### - MultipleRequestPerLu
 
 Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport driver can queue multiple requests per logical unit. Miniport drivers that work with the Storport driver must support multiple requests per logical unit.
 
 
-### -field ReceiveEvent
+#### - ReceiveEvent
 
 The Storport driver ignores this member.
 
 
-### -field VendorIdLength
+#### - VendorIdLength
 
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
 
 
-### -field VendorId
+#### - VendorId
 
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
 
 
-### -field DeviceIdLength
+#### - DeviceIdLength
 
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
 
 
-### -field DeviceId
+#### - DeviceId
 
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
 
 
-### -field HwAdapterControl
+#### - HwAdapterControl
 
 Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> routine. This is a required routine because miniport drivers that work with the Storport driver require PnP support. 
 
 
-### -field HwBuildIo
+#### - HwBuildIo
 
 Pointer to an optional <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine. 
 
@@ -503,23 +503,23 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
  
 

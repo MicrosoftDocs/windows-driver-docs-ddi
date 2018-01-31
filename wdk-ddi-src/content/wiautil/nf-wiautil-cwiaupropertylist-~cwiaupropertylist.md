@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8b847c3e-f773-44d0-a033-3e40bc2e01fc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "~CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface [Imaging Devices], ~CWiauPropertyList method, CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist__cwiaupropertylist, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, ~CWiauPropertyList, CWiauPropertyList, wiautil/CWiauPropertyList::~CWiauPropertyList"
+ms.keywords: CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, image.cwiaupropertylist__cwiaupropertylist, wiautil/CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList interface [Imaging Devices], ~CWiauPropertyList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,9 +76,9 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540389">CWiauPropertyList::CWiauPropertyList</a>
+
+<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
 
  
 

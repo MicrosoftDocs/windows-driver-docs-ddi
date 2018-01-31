@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsReferenceSoftwareBusObject, swenum/KsReferenceSoftwareBusObject, stream.ksreferencesoftwarebusobject, ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, KsReferenceSoftwareBusObject function [Streaming Media Devices]
+ms.keywords: KsReferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, KsReferenceSoftwareBusObject, stream.ksreferencesoftwarebusobject, swenum/KsReferenceSoftwareBusObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS KsReferenceSoftwareBusObject(
 
 
 
-### -param Header [in]
+#### - Header [in]
 
 Pointer to the device header (extension) of the demand-load bus enumerator.
 
@@ -96,9 +96,9 @@ The device object remains active and enumerated until the reference count return
 
 <a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
 
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
-
 <a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
+
+<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
  
 

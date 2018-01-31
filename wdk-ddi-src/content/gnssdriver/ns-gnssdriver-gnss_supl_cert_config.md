@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG, gnssdriver/GNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], sensors.gnss_supl_cert_config
+ms.keywords: sensors.gnss_supl_cert_config, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG, gnssdriver/GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field CertAction
+#### - CertAction
 
 A <a href="..\gnssdriver\ne-gnssdriver-gnss_supl_cert_action.md">GNSS_SUPL_CERT_ACTION</a> enumeration value that specifies the action to take on the certificate.
 <table></table> 
@@ -127,7 +127,7 @@ Delete all the certificates injected to the GNSS driver previously. The values o
  
 
 
-### -field CertSize
+#### - CertSize
 
 The size of the certificate in bytes.
 

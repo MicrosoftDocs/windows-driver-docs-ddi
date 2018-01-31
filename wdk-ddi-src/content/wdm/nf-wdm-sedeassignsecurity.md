@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7060b86-8ff6-4229-94e0-7965ae59aa90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml, kernel.sedeassignsecurity, wdm/SeDeassignSecurity, SeDeassignSecurity routine [Kernel-Mode Driver Architecture], SeDeassignSecurity
+ms.keywords: SeDeassignSecurity routine [Kernel-Mode Driver Architecture], kernel.sedeassignsecurity, SeDeassignSecurity, wdm/SeDeassignSecurity, k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS SeDeassignSecurity(
 
 
 
-### -param SecurityDescriptor [in, out]
+#### - SecurityDescriptor [in, out]
 
 Pointer to the buffered <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> being released.
 

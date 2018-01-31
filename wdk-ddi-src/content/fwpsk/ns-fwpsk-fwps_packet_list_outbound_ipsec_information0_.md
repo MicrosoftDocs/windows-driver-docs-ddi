@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18312157-f41c-474d-9cf4-446d8b189c4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, netvista.fwps_packet_list_outbound_ipsec_information0
+ms.keywords: netvista.fwps_packet_list_outbound_ipsec_information0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,25 +71,25 @@ typedef struct FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_ {
 
 
 
-### -field isIPsecPolicyMatch
+#### - isIPsecPolicyMatch
 
 A value that indicates whether the packet list matched an IPsec filter at the outbound transport
      layer.
 
 
-### -field isTransportPolicyMatch
+#### - isTransportPolicyMatch
 
 A value that indicates whether the packet list matched an IPsec transport mode filter at the outbound
      transport layer.
 
 
-### -field isTunnelPolicyMatch
+#### - isTunnelPolicyMatch
 
 A value that indicates whether the packet list matched an IPsec tunnel mode filter at the outbound
      transport layer.
 
 
-### -field isTunnelIPinIP
+#### - isTunnelIPinIP
 
 A value that indicates whether the packet list matched an IP-in-IP filter for IPsec tunnel mode.
 

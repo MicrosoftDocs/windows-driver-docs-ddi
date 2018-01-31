@@ -73,7 +73,7 @@ NDIS_STATUS MiniportCoDeactivateVc(
 
 
 
-### -param MiniportVcContext [in]
+#### - MiniportVcContext [in]
 
 Specified the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information per-VC. The miniport driver supplied this handle to NDIS from its 
@@ -168,9 +168,9 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcodeactivatevccomplete.md">NdisMCoDeactivateVcComplete</a>
-
 <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+<a href="..\ndis\nf-ndis-ndismcodeactivatevccomplete.md">NdisMCoDeactivateVcComplete</a>
 
  
 

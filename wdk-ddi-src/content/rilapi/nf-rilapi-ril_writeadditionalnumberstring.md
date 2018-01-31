@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9ddf148b-7d36-4a95-a866-57e26220a549
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_WriteAdditionalNumberString method [Network Drivers Starting with Windows Vista], RIL_WriteAdditionalNumberString, rilapi/RIL_WriteAdditionalNumberString, netvista.ril_writeadditionalnumberstring
+ms.keywords: netvista.ril_writeadditionalnumberstring, RIL_WriteAdditionalNumberString, rilapi/RIL_WriteAdditionalNumberString, RIL_WriteAdditionalNumberString method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_WriteAdditionalNumberString(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param hUiccApp
+#### - hUiccApp
 
 
 
-### -param lpRilPBANS
+#### - lpRilPBANS
 
 
 

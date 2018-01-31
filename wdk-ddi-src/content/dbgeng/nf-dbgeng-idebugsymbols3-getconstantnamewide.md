@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide, IDebugSymbols3, GetConstantNameWide method [Windows Debugging], IDebugSymbols3::GetConstantNameWide, GetConstantNameWide, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols3, debugger.getconstantnamewide, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, dbgeng/IDebugSymbols3::GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, GetConstantNameWide method [Windows Debugging], GetConstantNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetConstantNameWide(
 
 
 
-### -param Module [in]
+#### - Module [in]
 
 Specifies the base address of the module in which the constant was defined.
 
 
-### -param TypeId [in]
+#### - TypeId [in]
 
 Specifies the type ID of the constant.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the value of the constant.
 
 
-### -param NameBuffer [out, optional]
+#### - NameBuffer [out, optional]
 
 Receives the constant's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param NameBufferSize [in]
+#### - NameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 Receives the size in characters of the constant's name.
 

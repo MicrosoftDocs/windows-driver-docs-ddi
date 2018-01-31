@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2389fb1e-b16a-4d0a-b347-8b8a0f1cf061
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsi/INQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml, *PINQUIRYDATA, _INQUIRYDATA, INQUIRYDATA, storage.inquirydata, PINQUIRYDATA, scsi/PINQUIRYDATA, INQUIRYDATA structure [Storage Devices]
+ms.keywords: INQUIRYDATA, _INQUIRYDATA, *PINQUIRYDATA, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml, PINQUIRYDATA structure pointer [Storage Devices], PINQUIRYDATA, storage.inquirydata, scsi/INQUIRYDATA, INQUIRYDATA structure [Storage Devices], scsi/PINQUIRYDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,12 +107,12 @@ typedef struct _INQUIRYDATA {
 
 
 
-### -field DeviceType
+#### - DeviceType
 
 Specifies the type of device. For a complete list of symbolic constants that indicate the various device types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. 
 
 
-### -field DeviceTypeQualifier
+#### - DeviceTypeQualifier
 
 Indicates whether the device is present or not. The values that this member can take are as follows:
 <table>
@@ -153,32 +153,32 @@ The operating system does not support this device.
 </table> 
 
 
-### -field DeviceTypeModifier
+#### - DeviceTypeModifier
 
 Specifies the device type modifier, if any, as defined by SCSI. If no device type modifier exists, this member is zero.
 
 
-### -field RemovableMedia
+#### - RemovableMedia
 
 Indicates, when <b>TRUE</b>, that the media is removable, and when <b>FALSE</b> that the media is not removable.
 
 
-### -field Versions
+#### - Versions
 
 Indicates the version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-### -field ResponseDataFormat
+#### - ResponseDataFormat
 
 Indicates the SCSI standard that governs the response data format. The value of this member must be 2. 
 
 
-### -field HiSupport
+#### - HiSupport
 
 Indicates, when zero, that the target does not use the hierarchical addressing model to assign LUNs to logical units. A value of 1 indicates the target uses the hierarchical addressing model to assign LUNs to logical units. 
 
 
-### -field NormACA
+#### - NormACA
 
 Indicates, when set to one, that the operating system supports setting the NACA bit to one in the control byte of the command descriptor block (CDB). A value of zero indicates that the system does not support setting the NACA bit to one. For more information about the function of the NACA bit and the control byte in a CDB, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
@@ -188,27 +188,27 @@ Indicates, when set to one, that the operating system supports setting the NACA 
  
 
 
-### -field AERC
+#### - AERC
 
 Indicates, when set to one, that the target device supports the asynchronous event reporting capability. A value of zero indicates that the target device does not support asynchronous event reports. Details of the asynchronous event reporting support are protocol-specific. For more information about asynchronous even reporting, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-### -field AdditionalLength
+#### - AdditionalLength
 
 Specifies the length in bytes of the parameters of the command descriptor block (CDB). 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. 
 
 
-### -field SoftReset
+#### - SoftReset
 
 Indicates, when set to one, that the target device supports soft resets. A value of zero indicates that the target does not support soft resets. 
 
 
-### -field CommandQueue
+#### - CommandQueue
 
 Indicates, when set to one, that the target device supports command queuing for this logical unit. However, a value of zero does not necessarily indicate that the target device does not support command queuing. The meaning of these values depends on the values present in the SCSI inquiry data. For information about the meaning of the command queuing bit, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
@@ -218,52 +218,52 @@ Indicates, when set to one, that the target device supports command queuing for 
  
 
 
-### -field LinkedCommands
+#### - LinkedCommands
 
 Indicates, when set to one, that the operating system supports linked commands. A value of zero indicates the operating system does not support linked commands. 
 
 
-### -field Synchronous
+#### - Synchronous
 
 Indicates, when set to one, that the target supports synchronous data transfer. A value of zero indicates that the target does not support synchronous data transfer. 
 
 
-### -field Wide16Bit
+#### - Wide16Bit
 
 Indicates, when set to one, that the target supports 16-bit wide data transfers. A value of zero indicates that the device does not support 16-bit wide data transfers. 
 
 
-### -field Wide32Bit
+#### - Wide32Bit
 
 Indicates, when set to one, that the target supports 32-bit wide data transfers. A value of zero indicates that the device does not support 32-bit wide data transfers. 
 
 
-### -field RelativeAddressing
+#### - RelativeAddressing
 
 Indicates, when set to one, that the operating system supports the relative addressing mode. A value of zero indicates the operating system does not support relative addressing. 
 
 
-### -field VendorId
+#### - VendorId
 
 Contains eight bytes of ASCII data that identifies the vendor of the product.
 
 
-### -field ProductId
+#### - ProductId
 
 Contains sixteen bytes of ASCII data that indicates the product ID, as defined by the vendor. The data shall be left-aligned within this field and the unused bytes filled with ASCII blanks.
 
 
-### -field ProductRevisionLevel
+#### - ProductRevisionLevel
 
 Contains four bytes of ASCII data that indicates the product revision level, as defined by the vendor. 
 
 
-### -field VendorSpecific
+#### - VendorSpecific
 
 Contains 20 bytes of vendor-specific data. 
 
 
-### -field Reserved3
+#### - Reserved3
 
 Reserved. 
 

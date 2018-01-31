@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], kernel.file_standard_information_ex, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture]
+ms.keywords: PFILE_STANDARD_INFORMATION_EX, wdm/FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], wdm/PFILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, _FILE_STANDARD_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_STANDARD_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX
+req.typenames: "*PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX"
 req.product: Windows 10 or later.
 ---
 
@@ -74,37 +74,37 @@ typedef struct _FILE_STANDARD_INFORMATION_EX {
 
 
 
-### -field AllocationSize
+#### - AllocationSize
 
 The file allocation size in bytes. Usually, this value is a multiple of the sector or cluster size of the underlying physical device. 
 
 
-### -field EndOfFile
+#### - EndOfFile
 
 The end of file location as a byte offset.
 
 
-### -field NumberOfLinks
+#### - NumberOfLinks
 
 The number of hard links to the file.
 
 
-### -field DeletePending
+#### - DeletePending
 
 The delete pending status. <b>TRUE</b> indicates that a file deletion has been requested.
 
 
-### -field Directory
+#### - Directory
 
 The file directory status. <b>TRUE</b> indicates the file object represents a directory. 
 
 
-### -field AlternateStream
+#### - AlternateStream
 
 The alternate data stream status. <b>TRUE</b> indicates the file object represents an alternate data stream. 
 
 
-### -field MetadataAttribute
+#### - MetadataAttribute
 
 The metadata attribute status. <b>TRUE</b> indicates the file object represents a metadata attribute. 
 
@@ -118,11 +118,11 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

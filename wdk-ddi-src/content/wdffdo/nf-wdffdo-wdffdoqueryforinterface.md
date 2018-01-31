@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdffdoqueryforinterface, wdffdo/WdfFdoQueryForInterface, WdfFdoQueryForInterface method, wdf.wdffdoqueryforinterface, WdfFdoQueryForInterface, DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, PFN_WDFFDOQUERYFORINTERFACE
+ms.keywords: DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, PFN_WDFFDOQUERYFORINTERFACE, wdffdo/WdfFdoQueryForInterface, kmdf.wdffdoqueryforinterface, WdfFdoQueryForInterface method, WdfFdoQueryForInterface, wdf.wdffdoqueryforinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoQueryForInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -81,27 +81,27 @@ NTSTATUS WdfFdoQueryForInterface(
 TBD
 
 
-### -param InterfaceType [in]
+#### - InterfaceType [in]
 
 A pointer to a GUID that identifies the interface.
 
 
-### -param Interface [out]
+#### - Interface [out]
 
 A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
-### -param Size [in]
+#### - Size [in]
 
 The size, in bytes, of the driver-allocated structure that represents the requested interface.
 
 
-### -param Version [in]
+#### - Version [in]
 
 The version number of the requested interface. The format of this value is defined by the driver that exports the requested interface.
 
 
-### -param InterfaceSpecificData [in, optional]
+#### - InterfaceSpecificData [in, optional]
 
 Additional interface-specific information. This parameter is optional and can be <b>NULL</b>.
 

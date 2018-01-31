@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiI2CReceiveDataFromDisplay
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback
@@ -75,22 +75,22 @@ NTSTATUS DxgkDdiI2CReceiveDataFromDisplay(
 
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-### -param VidPnTargetId [in]
+#### - VidPnTargetId [in]
 
 An integer that identifies one of the video present targets on the display adapter.
 
 
-### -param SevenBitI2CAddress [in]
+#### - SevenBitI2CAddress [in]
 
 The address of the I2C device from which data will be received.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A value that specifies whether the length of the data is supplied as part of the data transmitted by the I2C device. This parameter must be set to one of the following values.
 <table>
@@ -121,12 +121,12 @@ The data length is supplied by the I2C device as part of the data that it transm
 </table> 
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 The length, in bytes, of the buffer pointed to by <i>Data</i>.
 
 
-### -param Data [out]
+#### - Data [out]
 
 A pointer to a buffer that receives the data. The buffer can be in paged memory.
 

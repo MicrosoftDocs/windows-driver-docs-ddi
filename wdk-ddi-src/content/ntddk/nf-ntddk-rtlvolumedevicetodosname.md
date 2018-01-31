@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e25db70f-04bf-4fb1-8ff5-2beb4c825797
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlvolumedevicetodosname, ntddk/RtlVolumeDeviceToDosName, k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlvolumedevicetodosname, RtlVolumeDeviceToDosName, k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, ntddk/RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS RtlVolumeDeviceToDosName(
 
 
 
-### -param VolumeDeviceObject [in]
+#### - VolumeDeviceObject [in]
 
 Pointer to a device object that represents a volume device object created by a storage class driver.
 
 
-### -param DosName [out]
+#### - DosName [out]
 
 Pointer to a Unicode string containing the MS-DOS path of the volume device object specified by <i>VolumeDeviceObject</i>. 
 

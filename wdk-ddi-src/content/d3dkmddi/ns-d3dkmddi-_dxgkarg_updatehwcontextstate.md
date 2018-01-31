@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39BF7EBF-DD13-41F0-9F54-78E5D82CAB4F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, _DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate
+ms.keywords: DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], _DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate, d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGKARG_UPDATEHWCONTEXTSTATE {
 
 
 
-### -field hHwContext
+#### - hHwContext
 
 The hardware context whose priority or execution state is being changed.
 
 
-### -field ContextSwitchFence
+#### - ContextSwitchFence
 
 Context switch fence value associated with this state change request.
 
 
-### -field Priority
+#### - Priority
 
 Execution priority of this context relative to other running contexts on this node.
 
 
-### -field Flags
+#### - Flags
 
 Context execution state flags.
 

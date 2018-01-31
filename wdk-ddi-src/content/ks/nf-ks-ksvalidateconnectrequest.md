@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 64343a8a-9629-469e-95a3-b9c140cdd324
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsValidateConnectRequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, stream.ksvalidateconnectrequest, ks/KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices]
+ms.keywords: KsValidateConnectRequest, ks/KsValidateConnectRequest, stream.ksvalidateconnectrequest, KsValidateConnectRequest function [Streaming Media Devices], ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ NTSTATUS KsValidateConnectRequest(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to an IRP specifying the connection request.
 
 
-### -param DescriptorsCount [in]
+#### - DescriptorsCount [in]
 
 Specifies the number of pin descriptors passed.
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 Specifies a pointer to the list of <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a> structures.
 
 
-### -param Connect [out]
+#### - Connect [out]
 
 Specifies a location in which to place a pointer to the <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a> pointer passed to the create request. If <b>KsValidateConnectRequest</b>  returns success, then Connect+1 will contain a pointer to the KSDATAFORMAT with which the pin was opened.
 

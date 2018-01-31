@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, print.iprintcorehelperps_getglobalattribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, GetGlobalAttribute, IPrintCoreHelperPS::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface
+ms.keywords: IPrintCoreHelperPS::GetGlobalAttribute, IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, GetGlobalAttribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, IPrintCoreHelperPS, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT GetGlobalAttribute(
 
 
 
-### -param pszAttribute [in]
+#### - pszAttribute [in]
 
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the requested attribute. If this parameter is <b>NULL</b>, the caller is requesting a list of all of the supported global attribute names instead of specifying a specific global attribute name. 
 
 
-### -param pdwDataType [out]
+#### - pdwDataType [out]
 
 A pointer to variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration type, which is defined in printoem.h. 
 
@@ -86,7 +86,7 @@ A pointer to variable that receives a value that specifies the data type of the 
 
 
 
-### -param pcbSize [out]
+#### - pcbSize [out]
 
 A pointer to a variable that specifies the size, in bytes, of the buffer that is pointed to by the <i>pbData</i> parameter. 
 
@@ -164,9 +164,9 @@ For more information about <b>IPrintCoreHelperPS::GetGlobalAttribute</b>, see <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551998">IPrintCoreHelperPS::GetFeatureAttribute</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
 
  
 

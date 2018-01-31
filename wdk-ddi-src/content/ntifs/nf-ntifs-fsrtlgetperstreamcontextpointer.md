@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3f9294a-23c0-450a-ae29-22add8176540
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], FsRtlGetPerStreamContextPointer, ifsk.fsrtlgetperstreamcontextpointer, ntifs/FsRtlGetPerStreamContextPointer
+ms.keywords: FsRtlGetPerStreamContextPointer function [Installable File System Drivers], fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, ntifs/FsRtlGetPerStreamContextPointer, ifsk.fsrtlgetperstreamcontextpointer, FsRtlGetPerStreamContextPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -93,8 +93,6 @@ The stream context pointer points to a <a href="..\ntifs\ns-ntifs-_fsrtl_advance
 
 <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
@@ -104,6 +102,8 @@ The stream context pointer points to a <a href="..\ntifs\ns-ntifs-_fsrtl_advance
 <a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
 
 <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 

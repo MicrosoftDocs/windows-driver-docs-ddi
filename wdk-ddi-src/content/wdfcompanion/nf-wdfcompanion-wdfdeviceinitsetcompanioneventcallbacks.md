@@ -70,11 +70,11 @@ VOID WdfDeviceInitSetCompanionEventCallbacks(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 
 
-### -param CompanionEventCallbacks [in]
+#### - CompanionEventCallbacks [in]
 
 
 

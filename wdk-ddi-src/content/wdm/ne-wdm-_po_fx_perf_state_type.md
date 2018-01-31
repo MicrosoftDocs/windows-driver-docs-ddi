@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxPerfStateTypeRange, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeDiscrete, wdm/PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeMaximum, kernel.po_fx_perf_state_type, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], *PPO_FX_PERF_STATE_TYPE, _PO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeRange, PoFxPerfStateTypeMaximum, PO_FX_PERF_STATE_TYPE
+ms.keywords: PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeRange, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeMaximum, *PPO_FX_PERF_STATE_TYPE, wdm/PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_TYPE, kernel.po_fx_perf_state_type, PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeRange, PoFxPerfStateTypeMaximum, PO_FX_PERF_STATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _PO_FX_PERF_STATE_TYPE {
 
 
 
-### -field PoFxPerfStateTypeDiscrete
+#### - PoFxPerfStateTypeDiscrete
 
 Indicates that the performance state set contains a discrete number of states.
 
 
-### -field PoFxPerfStateTypeRange
+#### - PoFxPerfStateTypeRange
 
 Indicates that the performance state set contains a continuous distribution of  states between a minimum and maximum value.
 
 
-### -field PoFxPerfStateTypeMaximum
+#### - PoFxPerfStateTypeMaximum
 
 This value is reserved for system use.
 

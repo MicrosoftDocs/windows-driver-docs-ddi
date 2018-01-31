@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e04558e3-a95a-408b-961b-e8ea7ac9136d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities, DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, WdfDeviceSetPowerCapabilities method, kmdf.wdfdevicesetpowercapabilities, PFN_WDFDEVICESETPOWERCAPABILITIES, wdf.wdfdevicesetpowercapabilities
+ms.keywords: WdfDeviceSetPowerCapabilities method, PFN_WDFDEVICESETPOWERCAPABILITIES, wdf.wdfdevicesetpowercapabilities, kmdf.wdfdevicesetpowercapabilities, DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, wdfdevice/WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfDeviceSetPowerCapabilities(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PowerCapabilities [in]
+#### - PowerCapabilities [in]
 
 A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure.
 
@@ -133,11 +133,11 @@ A driver typically calls <b>WdfDeviceSetPowerCapabilities</b> from within one of
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_capabilities_init.md">WDF_DEVICE_POWER_CAPABILITIES_INIT</a>
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpnpcapabilities.md">WdfDeviceSetPnpCapabilities</a>
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_capabilities_init.md">WDF_DEVICE_POWER_CAPABILITIES_INIT</a>
 
  
 

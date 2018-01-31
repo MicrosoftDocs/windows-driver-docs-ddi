@@ -218,15 +218,15 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 ## -see-also
 
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+
 <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
-
 <mshelp:link keywords="bltooth.bth_sdp_attribute_search_request" tabindex="0"><b>
    BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</b></mshelp:link>
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
 
  
 

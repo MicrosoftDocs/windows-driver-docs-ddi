@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f5acd64c-c5a8-4977-8059-cc0bd12ef0c0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadTeb method, dbgeng/IDebugSystemObjects4::GetCurrentThreadTeb, IDebugSystemObjects4::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects::GetCurrentThreadTeb, IDebugSystemObjects4, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadTeb method, GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadTeb method, GetCurrentThreadTeb, IDebugSystemObjects3::GetCurrentThreadTeb, GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2::GetCurrentThreadTeb, IDebugSystemObjects::GetCurrentThreadTeb, debugger.getcurrentthreadteb, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadTeb method, dbgeng/IDebugSystemObjects2::GetCurrentThreadTeb, GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects3::GetCurrentThreadTeb, IDebugSystemObjects_d496c1cf-524f-469f-9cb6-1476f972ae9a.xml, GetCurrentThreadTeb method [Windows Debugging]
+ms.keywords: IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadTeb method, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadTeb method, GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3::GetCurrentThreadTeb, GetCurrentThreadTeb, IDebugSystemObjects2::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects3::GetCurrentThreadTeb, GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4, GetCurrentThreadTeb method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetCurrentThreadTeb, GetCurrentThreadTeb method [Windows Debugging], dbgeng/IDebugSystemObjects2::GetCurrentThreadTeb, IDebugSystemObjects_d496c1cf-524f-469f-9cb6-1476f972ae9a.xml, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadTeb method, IDebugSystemObjects4::GetCurrentThreadTeb, IDebugSystemObjects::GetCurrentThreadTeb, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadTeb method, debugger.getcurrentthreadteb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT GetCurrentThreadTeb(
 
 
 
-### -param Offset [out]
+#### - Offset [out]
 
 Receives the location in the target's virtual address space of the TEB for the current thread.
 

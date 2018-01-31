@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PFCP_SEND_RESPONSE, _FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], FCP_SEND_RESPONSE, IEEE.fcp_send_response, PFCP_SEND_RESPONSE structure pointer [Buses], 61883/PFCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE
+ms.keywords: FCP_SEND_RESPONSE, IEEE.fcp_send_response, *PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], FCP_SEND_RESPONSE structure [Buses], 61883/PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, _FCP_SEND_RESPONSE, PFCP_SEND_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,19 +73,19 @@ typedef struct _FCP_SEND_RESPONSE {
 
 
 
-### -field NodeAddress
+#### - NodeAddress
 
 On input, if the protocol driver is being used to control a virtual device, <b>NodeAddress</b> must contain the node address of the device that sent the FCP request obtained with GetFcpRequest so the 1394 bus driver can route the response to the correct device. 
 
 If the protocol driver is being used to control a physical device, <b>NodeAddress</b> is not used.
 
 
-### -field Length
+#### - Length
 
 On input, the length of the frame payload in bytes, including the FCP header.
 
 
-### -field Frame
+#### - Frame
 
 On input, a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537113">FCP_FRAME</a> structure that contains the FCP response to send to the device.
 

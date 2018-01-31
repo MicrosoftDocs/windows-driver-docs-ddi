@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b9a5ca5c-2d1c-4974-bef8-6003a4d6e864
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml, ifsk.sesetaccessstategenericmapping, SeSetAccessStateGenericMapping routine [Installable File System Drivers], SeSetAccessStateGenericMapping, ntifs/SeSetAccessStateGenericMapping
+ms.keywords: ntifs/SeSetAccessStateGenericMapping, seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml, SeSetAccessStateGenericMapping routine [Installable File System Drivers], SeSetAccessStateGenericMapping, ifsk.sesetaccessstategenericmapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID SeSetAccessStateGenericMapping(
 
 
 
-### -param AccessState [in, out]
+#### - AccessState [in, out]
 
 Pointer to the ACCESS_STATE structure to be modified.
 
 
-### -param GenericMapping [in]
+#### - GenericMapping [in]
 
 Pointer to a GENERIC<b>_</b>MAPPING structure to be copied into the ACCESS_STATE structure specified by <i>AccessState</i>. 
 

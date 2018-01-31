@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IBidiRequest interface [Print Devices], IBidiRequest::GetResult method, print.ibidirequest_ibidirequest__getresult, bidispl/IBidiRequest::IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, IBidiRequest, IBidiRequest::IBidiRequest::GetResult, IBidiRequest::GetResult, GetResult, gdi.ibidirequest_ibidirequest__getresult, IBidiRequest::GetResult method [Print Devices], IBidiRequest interface, IBidiRequest::GetResult method [Print Devices]
+ms.keywords: IBidiRequest::GetResult method [Print Devices], IBidiRequest interface, bidispl/IBidiRequest::IBidiRequest::GetResult, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, IBidiRequest::IBidiRequest::GetResult, IBidiRequest interface [Print Devices], IBidiRequest::GetResult method, IBidiRequest, gdi.ibidirequest_ibidirequest__getresult, IBidiRequest::GetResult method [Print Devices], GetResult, print.ibidirequest_ibidirequest__getresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT IBidiRequest::GetResult(
 
 
 
-### -param phr [out]
+#### - phr [out]
 
 Pointer to a variable that specifies the status of the bidi request.
 
@@ -133,11 +133,11 @@ Note that the return value indicates whether the method was successful. It does 
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
  
 

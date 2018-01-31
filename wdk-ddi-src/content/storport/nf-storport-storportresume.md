@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2a1e380b-ddad-495b-a921-ebd85525d1a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortResume, StorPortResume routine [Storage Devices], storprt_3970ca06-96f5-4d0a-84b0-781145133788.xml, storage.storportresume, StorPortResume
+ms.keywords: StorPortResume, StorPortResume routine [Storage Devices], storport/StorPortResume, storage.storportresume, storprt_3970ca06-96f5-4d0a-84b0-781145133788.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ STORPORT_API BOOLEAN StorPortResume(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 

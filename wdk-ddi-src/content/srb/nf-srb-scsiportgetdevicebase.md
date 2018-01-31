@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d8d14818-4b84-4c65-a29e-2cd97e8bfbe9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortGetDeviceBase, storage.scsiportgetdevicebase, ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml
+ms.keywords: ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], storage.scsiportgetdevicebase, scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml, srb/ScsiPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortGetDeviceBase
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -74,32 +74,32 @@ PVOID ScsiPortGetDeviceBase(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param BusType [in]
+#### - BusType [in]
 
 Specifies the interface type of the I/O bus on which the HBA is connected. The miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine obtains the value for this parameter from the <b>AdapterInterfaceType</b> member of the input PORT_CONFIGURATION_INFORMATION.
 
 
-### -param SystemIoBusNumber [in]
+#### - SystemIoBusNumber [in]
 
 Specifies the system-assigned number of the I/O bus on which the HBA is connected. The <i>HwScsiFindAdapter</i> routine obtains the value for this parameter from the <b>SystemIoBusNumber</b> member of the input PORT_CONFIGURATION_INFORMATION.
 
 
-### -param IoAddress [in]
+#### - IoAddress [in]
 
 Specifies the bus-relative base address of a range used by the HBA. The <i>HwScsiFindAdapter</i> routine obtains the value for this parameter from one of the <b>AccessRanges</b> elements in the PORT_CONFIGURATION_INFORMATION if the port driver supplies range-configuration information. Otherwise, this address can be a value returned by <b>ScsiPortGetBusData</b> or a miniport driver-supplied default value. Avoid using a base address of zero because its successful return status can conflict with the error status (<b>NULL</b>).
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies the size in bytes of the range that the mapping should cover. The <i>HwScsiFindAdapter</i> routine obtains the value of this parameter from the same <b>AccessRanges</b> element as <i>IoAddress</i> if the port driver supplies range configuration information. Otherwise, this value can be returned by <b>ScsiPortGetBusData</b> or a miniport driver-supplied default. In any case, the driver must not access the hardware outside of the returned, mapped range.
 
 
-### -param InIoSpace [in]
+#### - InIoSpace [in]
 
 <b>TRUE</b> indicates the range to be mapped is in I/O space, and the miniport driver will pass mapped addresses in this range to the <b>ScsiPort...Port</b><i>Xxx</i> to communicate with the HBA. The <i>HwScsiFindAdapter</i> routine obtains the value of this parameter from the same <b>AccessRanges</b> element as <i>IoAddress</i>. Note that a miniport driver <i>must invert</i> the value of the <b>InMemorySpace</b> member in an ACCESS_RANGE-type element before it is passed to <b>ScsiPortGetDeviceBase</b> as the <i>InIoSpace</i> argument. <b>FALSE</b> indicates that the range to be mapped is in memory space. 
 
@@ -153,11 +153,11 @@ If <i>HwScsiFindAdapter</i> determines that a particular HBA is not one that the
 
 ## -see-also
 
+<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
+
 <a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
 
 <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
-<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
 
 <a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 

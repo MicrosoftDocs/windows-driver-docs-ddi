@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 10d1889b-d79c-4c06-a012-77414c88ce17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iosettoplevelirp, IoSetTopLevelIrp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml, IoSetTopLevelIrp routine [Installable File System Drivers], ntifs/IoSetTopLevelIrp
+ms.keywords: ntifs/IoSetTopLevelIrp, ifsk.iosettoplevelirp, IoSetTopLevelIrp routine [Installable File System Drivers], IoSetTopLevelIrp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID IoSetTopLevelIrp(
 
 
 
-### -param Irp [in, optional]
+#### - Irp [in, optional]
 
 I/O request packet (IRP) pointer to be stored in the <b>TopLevelIrp</b> field of the current thread.
 

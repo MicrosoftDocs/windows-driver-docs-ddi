@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9c1d1d7-4222-4c8c-92eb-497d13952bed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriverCreatedFile interface, Close method, Close, wudfddi/IWDFDriverCreatedFile::Close, umdf.iwdfdrivercreatedfile_close, IWDFDriverCreatedFile, IWDFDriverCreatedFile::Close, wdf.iwdfdrivercreatedfile_close, Close method, Close method, IWDFDriverCreatedFile interface, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml
+ms.keywords: Close, wdf.iwdfdrivercreatedfile_close, Close method, IWDFDriverCreatedFile, IWDFDriverCreatedFile::Close, IWDFDriverCreatedFile interface, Close method, wudfddi/IWDFDriverCreatedFile::Close, Close method, IWDFDriverCreatedFile interface, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, umdf.iwdfdrivercreatedfile_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDriverCreatedFile.Close
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

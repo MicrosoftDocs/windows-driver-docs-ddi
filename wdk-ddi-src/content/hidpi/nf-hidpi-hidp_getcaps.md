@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: a43baab5-26d9-43f7-bc13-3b0864769e68
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, HidP_GetCaps routine [Human Input Devices], hidpi/HidP_GetCaps, HidP_GetCaps, hid.hidp_getcaps
+ms.keywords: hidpi/HidP_GetCaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hid.hidp_getcaps, HidP_GetCaps, HidP_GetCaps routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS __stdcall HidP_GetCaps(
 
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a top-level collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
-### -param Capabilities [out]
+#### - Capabilities [out]
 
 Pointer to a caller-allocated buffer that the routine uses to return a collection's HIDP_CAPS structure.
 
@@ -125,15 +125,15 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_descriptor.md">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
+
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getpreparseddata.md">HidD_GetPreparsedData</a>
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_descriptor.md">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
  
 

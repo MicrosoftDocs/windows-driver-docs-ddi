@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9D30F8BE-C376-48FD-A76C-6069F332BC11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_enumerate_device_service_commands, PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, *PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, ndiswwan/PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, ndiswwan/NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: ndiswwan/PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, *PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, ndiswwan/NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_enumerate_device_service_commands
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field DeviceServiceGuid
+#### - DeviceServiceGuid
 
 The GUID of the device service for which commands should be enumerated.
 

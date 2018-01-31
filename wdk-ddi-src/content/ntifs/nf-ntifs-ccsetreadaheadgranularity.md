@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3ab0c8b8-1f41-48b7-9c42-ea843ebcd82e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccsetreadaheadgranularity, CcSetReadAheadGranularity, CcSetReadAheadGranularity routine [Installable File System Drivers], ccref_9b995224-0e59-43c6-b827-c15d9ae6e86c.xml, ntifs/CcSetReadAheadGranularity
+ms.keywords: CcSetReadAheadGranularity, CcSetReadAheadGranularity routine [Installable File System Drivers], ntifs/CcSetReadAheadGranularity, ifsk.ccsetreadaheadgranularity, ccref_9b995224-0e59-43c6-b827-c15d9ae6e86c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID CcSetReadAheadGranularity(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file whose read-ahead granularity is to be set.
 
 
-### -param Granularity [in]
+#### - Granularity [in]
 
 Specifies the desired read-ahead granularity, which must be an even power of two and must be greater than or equal to PAGE_SIZE.
 

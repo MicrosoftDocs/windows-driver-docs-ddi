@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 375af8a1-9e05-4830-9074-6313b4e082d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml, netvista.fwpmbfestatesubscribechanges0
+ms.keywords: fwpmk/FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], netvista.fwpmbfestatesubscribechanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	FwpmBfeStateSubscribeChanges0
 product: Windows
 targetos: Windows
-req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
+req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
 
 # FwpmBfeStateSubscribeChanges0 function
@@ -73,14 +73,14 @@ NTSTATUS NTAPI FwpmBfeStateSubscribeChanges0(
 
 
 
-### -param deviceObject [in, out]
+#### - deviceObject [in, out]
 
 A pointer to a device object that was previously created by the callout driver. For more
      information about how a callout driver creates a device object, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>.
 
 
-### -param callback [in]
+#### - callback [in]
 
 A pointer to a callout driver-provided service state change callback function. The filter engine
      calls this function whenever there is a change in the state of the filter engine.
@@ -138,14 +138,14 @@ The filter engine is stopping.
 The filter engine is running.
 
 
-### -param context [in, optional]
+#### - context [in, optional]
 
 A pointer to a callout driver-provided context that is passed to the callback function specified
      in the 
      <i>Callback</i> parameter.
 
 
-### -param changeHandle [out]
+#### - changeHandle [out]
 
 A pointer to a variable that receives a handle that is associated with the registration of the
      callback function. A callout driver passes this handle to the
@@ -216,12 +216,12 @@ A callout driver must deregister the callback function by calling the
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
-
 <mshelp:link keywords="netvista.fwpmbfestateunsubscribechanges0" tabindex="0"><b>
    FwpmBfeStateUnsubscribeChanges0</b></mshelp:link>
 
 <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
+
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
 
  
 

@@ -73,14 +73,14 @@ typedef EVT_IDD_CX_MONITOR_I2C_TRANSMIT PFN_IDD_CX_MONITOR_I2C_TRANSMIT;
 
 
 
-### -param MonitorObject [in]
+#### - MonitorObject [in]
 
 
                     
                 A handle used by the OS to identify the monitor to return I2C data to.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 
                     

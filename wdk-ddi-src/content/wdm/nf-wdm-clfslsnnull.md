@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 858fb84a-8df8-4748-ab09-3f7c4aca905c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnNull, kernel.clfslsnnull, wdm/ClfsLsnNull, ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml
+ms.keywords: ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml, wdm/ClfsLsnNull, kernel.clfslsnnull, ClfsLsnNull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ BOOLEAN ClfsLsnNull(
 
 
 
-### -param plsn [in]
+#### - plsn [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the LSN to be tested.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10AC7347-6C6B-4A37-9298-B773ADCB3FDA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAcquireAndRemoveOnlySingleItem, stream.ksirp_removal_operation, ks/KsAcquireAndRemove, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], KsAcquireOnly, KsAcquireOnlySingleItem, ks/KsAcquireOnly, ks/KsAcquireOnlySingleItem, ks/KsAcquireAndRemoveOnlySingleItem, KsAcquireAndRemove, ks/KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION
+ms.keywords: KsAcquireOnlySingleItem, ks/KsAcquireAndRemoveOnlySingleItem, KsAcquireOnly, ks/KsAcquireOnly, KSIRP_REMOVAL_OPERATION, ks/KsAcquireOnlySingleItem, KsAcquireAndRemove, ks/KSIRP_REMOVAL_OPERATION, stream.ksirp_removal_operation, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], ks/KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,18 +70,18 @@ typedef enum  {
 
 
 
-### -field KsAcquireOnly
+#### - KsAcquireOnly
 
 
 
-### -field KsAcquireAndRemove
+#### - KsAcquireAndRemove
 
 
 
-### -field KsAcquireOnlySingleItem
+#### - KsAcquireOnlySingleItem
 
 
 
-### -field KsAcquireAndRemoveOnlySingleItem
+#### - KsAcquireAndRemoveOnlySingleItem
 
 

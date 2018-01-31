@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4286a059-ef44-4a11-8e8e-ab030583f58d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKDT_OPM_DVI_CHARACTERISTICS, DmEnums_4bcf670e-2b55-4278-80a4-71c7c820dae6.xml, display.dxgkdt_opm_dvi_characteristics, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, _DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKDT_OPM_DVI_CHARACTERISTICS, DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, DXGKDT_OPM_DVI_CHARACTERISTICS enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0
+ms.keywords: DXGKDT_OPM_DVI_CHARACTERISTICS enumeration [Display Devices], DmEnums_4bcf670e-2b55-4278-80a4-71c7c820dae6.xml, DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, display.dxgkdt_opm_dvi_characteristics, DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, _DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKDT_OPM_DVI_CHARACTERISTICS, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DXGKDT_OPM_DVI_CHARACTERISTICS {
 
 
 
-### -field DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0
+#### - DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0
 
 Indicates that the DVI electrical characteristics are version 1.0. 
 
 
-### -field DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE
+#### - DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE
 
 Indicates that the DVI electrical characteristics are version 1.1 or later. 
 
 
-### -field DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG
+#### - DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 

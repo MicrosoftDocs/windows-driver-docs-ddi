@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 44b7f841-40e5-4d7d-adca-b70b4a8ef55c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, DmStructs_8a17e0fc-7c6c-4c95-bbdb-471beef9e830.xml, D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure [Display Devices], display.d3dkmdt_vidpn_present_path_scaling_support, D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
+ms.keywords: display.d3dkmdt_vidpn_present_path_scaling_support, DmStructs_8a17e0fc-7c6c-4c95-bbdb-471beef9e830.xml, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure [Display Devices], _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,29 +71,29 @@ typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT {
 
 
 
-### -field Identity
+#### - Identity
 
 The path is capable of displaying content with no transformation.
 
 
-### -field Centered
+#### - Centered
 
 The path is capable of displaying centered content.
 
 
-### -field Stretched
+#### - Stretched
 
 The path is capable of displaying scaled content.
 
 
-### -field AspectRatioCenteredMax
+#### - AspectRatioCenteredMax
 
 The path is capable of scaling source content to fit the target while preserving the aspect ratio of the source.
 
 This member is available beginning with Windows 7.
 
 
-### -field Custom
+#### - Custom
 
 The path is capable of displaying one or more scaling modes that are not described by other members of this structure.
 

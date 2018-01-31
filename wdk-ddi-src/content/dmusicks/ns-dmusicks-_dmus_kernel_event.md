@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 652f64e2-310b-46c9-8b00-c827a7475b07
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.dmus_kernel_event, DMUS_KERNEL_EVENT structure [Audio Devices], DMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], *PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT, dmusicks/PDMUS_KERNEL_EVENT, _DMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, dmusicks/DMUS_KERNEL_EVENT
+ms.keywords: PDMUS_KERNEL_EVENT, dmusicks/DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], audio.dmus_kernel_event, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, DMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT, _DMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], dmusicks/PDMUS_KERNEL_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DMUS_KERNEL_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT"
+req.typenames: DMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT
 ---
 
 # _DMUS_KERNEL_EVENT structure
@@ -79,8 +79,23 @@ typedef struct _DMUS_KERNEL_EVENT {
 
 
 
-### -field uData
+#### - uData
 
+
+
+#### abData
+
+A byte array containing <b>cbEvent</b> bytes of event data. The event data are typically MIDI status and data bytes. This member of <b>uData</b> is used if <b>cbEvent</b> is less than or equal to <b>sizeof</b>(PBYTE).
+
+
+#### pbData
+
+Pointer to a buffer containing <b>cbEvent</b> bytes of event data. The event data are typically MIDI status and data bytes. This member of <b>uData</b> is used if <b>uFlags</b> is set to DMUS_KEF_EVENT_COMPLETE and <b>cbEvent</b> is greater than <b>sizeof</b>(PBYTE).
+
+
+#### pPackageEvt
+
+Pointer to a chain of events, which is in the form of a linked list of DMUS_KERNEL_EVENT structures. The event data typically consist of MIDI status and data bytes. The events in the list are to be handled together. This member of <b>uData</b> is used if <b>uFlags</b> is set to DMUS_KEF_PACKAGE_EVENT.
 
 
 ### -field uData.abData
@@ -98,30 +113,30 @@ Pointer to a buffer containing <b>cbEvent</b> bytes of event data. The event dat
 Pointer to a chain of events, which is in the form of a linked list of DMUS_KERNEL_EVENT structures. The event data typically consist of MIDI status and data bytes. The events in the list are to be handled together. This member of <b>uData</b> is used if <b>uFlags</b> is set to DMUS_KEF_PACKAGE_EVENT.
 
 
-### -field bReserved
+#### - bReserved
 
 
       Miniport drivers should not modify this member. Reserved for future use. Do not use.
 
 
-### -field cbStruct
+#### - cbStruct
 
 
       Miniport drivers should not modify this member.
        This member specifies the size of the DMUS_KERNEL_EVENT structure itself and could change in the future.
 
 
-### -field cbEvent
+#### - cbEvent
 
 Specifies the unrounded number of event bytes referred to by <b>uData</b>.
 
 
-### -field usChannelGroup
+#### - usChannelGroup
 
 Specifies which channel group (set of 16 MIDI channels) receives or originated this event. This is unique only within the target MIDI device (miniport driver).
 
 
-### -field usFlags
+#### - usFlags
 
 Specifies whether an event is a package and whether this event concludes the message. A package encapsulates a list of events that should be dealt with atomically. This member is a bitfield that can be set to the bitwise OR of one or more of the following flag bits:
 
@@ -143,17 +158,17 @@ Specifies that this event is an incomplete package or SysEx message (see Windows
 Specifies that this event is a package. The <b>uData.pPackageEvt</b> field contains a pointer to a chain of events which should be dealt with atomically.
 
 
-### -field ullPresTime100ns
+#### - ullPresTime100ns
 
 Specifies the presentation time for this event. This 64-bit value is expressed in 100-nanosecond units. The master clock should be used to evaluate this presentation time.
 
 
-### -field ullBytePosition
+#### - ullBytePosition
 
 8 16
 
 
-### -field pNextEvt
+#### - pNextEvt
 
 Pointer to the next event in the list, or <b>NULL</b> if no event follows. This facilitates passing chains of identically time-stamped messages to the miniport driver. Additionally, hardware that does its own mixing can receive or transmit groups of messages at one time.
 

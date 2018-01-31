@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54399050-740f-4af8-ad85-cd3060f14af4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortReleaseQueueTag, AtaPortReleaseQueueTag routine [Storage Devices], AtaPortReleaseQueueTag, storage.ataportreleasequeuetag, atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml
+ms.keywords: atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml, storage.ataportreleasequeuetag, AtaPortReleaseQueueTag, AtaPortReleaseQueueTag routine [Storage Devices], irb/AtaPortReleaseQueueTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,17 +78,17 @@ VOID AtaPortReleaseQueueTag(
 TBD
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Specifies the logical unit number of the device.
 
 
-### -param QueueTag [in]
+#### - QueueTag [in]
 
 Specifies the queue tag to be freed.
 

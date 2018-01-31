@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50D4BFB7-B5AC-4202-B426-F152B06C9F46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_destroyallocation2flags, _D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS
+ms.keywords: d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ typedef struct _D3DDDICB_DESTROYALLOCATION2FLAGS {
 
 
 
-### -field AssumeNotInUse
+#### - AssumeNotInUse
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ Instructs the video memory manager to assume that commands queued prior to the d
 </table> 
 
 
-### -field SynchronousDestroy
+#### - SynchronousDestroy
 
 <table>
 <tr>
@@ -144,17 +144,17 @@ Instructs the video memory manager to assume that commands queued prior to the d
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
 
-### -field SystemUseOnly
+#### - SystemUseOnly
 
 This member is reserved and should not be used by the user mode driver.
 
 
-### -field Value
+#### - Value
 
 The consolidated value of the fields in the structure.
 

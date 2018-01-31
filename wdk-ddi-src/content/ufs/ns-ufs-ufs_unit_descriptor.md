@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D76C266-875A-40AC-9B26-F17978971783
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ufs_unit_descriptor, ufs/PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], ufs/UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices]
+ms.keywords: UFS_UNIT_DESCRIPTOR structure [Storage Devices], ufs/PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR, ufs/UFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_unit_descriptor, UFS_UNIT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFS_UNIT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR"
+req.typenames: UFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -84,22 +84,22 @@ typedef struct _UFS_UNIT_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-### -field bDescriptorIDN
+#### - bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_UNIT_IDN</b>.
 
 
-### -field bUnitIndex
+#### - bUnitIndex
 
 Specifies unit index
 
 
-### -field bLUEnable
+#### - bLUEnable
 
 Specifies if the logic unit number (LUN) is enabled. If <b>bLUEnable</b> is equal to 0x00, the logical unit is disabled.
 
@@ -109,7 +109,7 @@ Specifies if the logic unit number (LUN) is enabled. If <b>bLUEnable</b> is equa
  
 
 
-### -field bLUWriteProtect
+#### - bLUWriteProtect
 
 Specifies if the logical unit is write-protected. Contains one of the following values:
 <table>
@@ -132,12 +132,12 @@ Specifies if the logical unit is write-protected. Contains one of the following 
 </table> 
 
 
-### -field bLUQueueDepth
+#### - bLUQueueDepth
 
 Specifies the logical unit queue depth. Can be any value from 0x00 to 0xff.
 
 
-### -field bPSASensitive
+#### - bPSASensitive
 
 Specifies if the logical unit is sensitive to soldering. Contains one of the following values:
 <table>
@@ -156,47 +156,47 @@ Specifies if the logical unit is sensitive to soldering. Contains one of the fol
 </table> 
 
 
-### -field bMemoryType
+#### - bMemoryType
 
 Specifies the desired memory type. The <b>wSupportedMemoryTypes</b> parameter in the <a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a> indicates which memory types are supported by the device
 
 
-### -field bDataReliability
+#### - bDataReliability
 
 Specifies if the device is protected against a power failure during a write operation to the logical unit. 
 
 
-### -field bLogicalBlockSize
+#### - bLogicalBlockSize
 
 Specifies the logical block size of the descriptor. Set the value of this equal to the corresponding value in <b>dOptimalLogicalBlockSize</b> of <a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a> for the specific logical unit memory type.
 
 
-### -field qLogicalBlockCount
+#### - qLogicalBlockCount
 
 Specifies the total number of addressable logical blocks in the logical unit.
 
 
-### -field dEraseBlockSize
+#### - dEraseBlockSize
 
 Specifies the erase block size.
 
 
-### -field bProvisioningType
+#### - bProvisioningType
 
 Specifies the provisioning type.
 
 
-### -field qPhyMemResourceCount
+#### - qPhyMemResourceCount
 
 Specifies the total physical memory resources available in the logical unit.
 
 
-### -field wContextCapabilities
+#### - wContextCapabilities
 
 Specifies the number of contexts to be supported in each logical unit.
 
 
-### -field bLargeUnitGranularity_M1
+#### - bLargeUnitGranularity_M1
 
 Specifies the Large Unit granularity, minus one.
 
@@ -215,9 +215,9 @@ Specifies the boot LUN id.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
 <a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
  
 

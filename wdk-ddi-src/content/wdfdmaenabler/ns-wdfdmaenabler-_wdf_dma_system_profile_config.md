@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 80131AB6-4A2B-4D99-9289-CE9FE26E0695
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, wdf.wdf_dma_system_profile_config, kmdf.wdf_dma_system_profile_config, _WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure
+ms.keywords: wdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, _WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,33 +75,33 @@ typedef struct _WDF_DMA_SYSTEM_PROFILE_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size of this structure in bytes.
 
 
-### -field DemandMode
+#### - DemandMode
 
 Specifies that the transfer is controlled by the device's DMA  
       request line specified in the <b>DmaDescriptor</b> member of this structure. See more information in Remarks.
 
 
-### -field LoopedTransfer
+#### - LoopedTransfer
 
 Specifies that the DMA adapter should loop around the specified transfer if the length is greater than the size of the buffer.
 
 
-### -field DmaWidth
+#### - DmaWidth
 
 The width of the register specified by <b>DeviceAddress</b>. Possible values are Width8Bits, Width16Bits, Width32Bits, and Width64Bits.
 
 
-### -field DeviceAddress
+#### - DeviceAddress
 
 The translated address to or from which the DMA controller transfers. The driver can specify an offset from this base address on each transaction by calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetdeviceaddressoffset.md">WdfDmaTransactionSetDeviceAddressOffset</a>.
 
 
-### -field DmaDescriptor
+#### - DmaDescriptor
 
 The translated resource descriptor for the DMA channel assigned 
       the device during <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>. This provides the DMA request line for the adapter.

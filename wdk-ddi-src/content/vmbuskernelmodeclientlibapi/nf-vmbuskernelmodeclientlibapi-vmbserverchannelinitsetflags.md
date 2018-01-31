@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F6DBD055-8B6F-4B2B-B584-3C06979DD6DF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbServerChannelInitSetFlags function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetFlags, netvista.vmbserverchannelinitsetflags, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetFlags
+ms.keywords: VmbServerChannelInitSetFlags, VmbServerChannelInitSetFlags function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetflags, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbServerChannelInitSetFlags
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ NTSTATUS VmbServerChannelInitSetFlags(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel.  
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A collection of bit flags to set.
 

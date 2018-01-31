@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoRegisterSystemState, kernel.poregistersystemstate, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, PoRegisterSystemState
+ms.keywords: PoRegisterSystemState, wdm/PoRegisterSystemState, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, kernel.poregistersystemstate, PoRegisterSystemState routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PVOID PoRegisterSystemState(
 
 
 
-### -param StateHandle [in, out]
+#### - StateHandle [in, out]
 
 A pointer to a caller-supplied buffer for a registration state handle. The size, in bytes, of the buffer is <b>sizeof</b>(ULONG). If <b>NULL</b>, this is a new registration. If non-<b>NULL</b>, this parameter points to a handle that was returned by a previous call to <b>PoRegisterSystemState</b>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Indicates the type of activity, as specified by a bitwise OR of one or more of the following values:
 
@@ -131,7 +131,7 @@ The settings are continuous and should remain in effect until explicitly changed
 ## -remarks
 
 
-<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>.
+<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>.
 
 The <i>Flags</i> parameter specifies the type of activity in progress. Drivers can specify any combination of the flags.
 
@@ -145,9 +145,9 @@ To set the system power state, call <a href="..\wdm\nf-wdm-posetsystemstate.md">
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
-<a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>
+<a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
 
  
 

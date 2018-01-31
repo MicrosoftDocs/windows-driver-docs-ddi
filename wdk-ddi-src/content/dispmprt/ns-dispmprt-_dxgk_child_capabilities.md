@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6ab6a505-ad02-4dce-8061-bba13081208a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES, dispmprt/PDXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES structure pointer [Display Devices], DmStructs_886366a4-949a-4171-abcf-e318df848285.xml, display.dxgk_child_capabilities, dispmprt/DXGK_CHILD_CAPABILITIES, _DXGK_CHILD_CAPABILITIES, *PDXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES structure [Display Devices]
+ms.keywords: PDXGK_CHILD_CAPABILITIES structure pointer [Display Devices], DmStructs_886366a4-949a-4171-abcf-e318df848285.xml, _DXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES structure [Display Devices], DXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES, display.dxgk_child_capabilities, dispmprt/PDXGK_CHILD_CAPABILITIES, *PDXGK_CHILD_CAPABILITIES, dispmprt/DXGK_CHILD_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,11 +74,26 @@ typedef struct _DXGK_CHILD_CAPABILITIES {
 
 
 
-### -field Type
+#### - Type
 
 
       A union that can contain either video output information or other information in the following members. 
      
+
+
+#### VideoOutput
+
+A <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure that contains information about a video output. This member is meaningful only if the child device has type <b>TypeVideoOutput</b>.
+
+
+#### Other
+
+A structure whose only member must be equal to zero if the child device has type <b>TypeOther</b>.
+
+
+#### IntegratedDisplayChild
+
+Returns the integrated display child specific fields of the child capabilities.
 
 
 ### -field Type.MustBeZero
@@ -106,7 +121,7 @@ A UINT value that must be equal to zero.
 Returns the integrated display child specific fields of the child capabilities.
 
 
-### -field HpdAwareness
+#### - HpdAwareness
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_child_device_hpd_awareness.md">DXGK_CHILD_DEVICE_HPD_AWARENESS</a> enumerator that indicates the child device's level of hot-plug awareness.
 
@@ -124,11 +139,11 @@ If a child device is of type <b>TypeOther</b>, then <b>Type.Other.MustBeZero</b>
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
  
 

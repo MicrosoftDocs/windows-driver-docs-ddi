@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A927CAF9-EF7F-47CC-9BDE-B6E13597368E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dwddm1_3ddi_tiled_resource_coordinate, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
+ms.keywords: display.d3dwddm1_3ddi_tiled_resource_coordinate, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE {
 
 
 
-### -field X
+#### - X
 
 The <i>x</i> coordinate of the tiled resource. Used for buffer, 1-D, 2-D, and 3-D rendering.
 
 
-### -field Y
+#### - Y
 
 The <i>y</i> coordinate of the tiled resource. Used for 2-D and 3-D rendering.
 
 
-### -field Z
+#### - Z
 
 The <i>z</i> coordinate of the tiled resource. Used for 3-D rendering.
 
 
-### -field Subresource
+#### - Subresource
 
 The subresource of the tiled resource. Used to index into mipmaps and arrays for 1-D, 2-D, and 3-D rendering.
 

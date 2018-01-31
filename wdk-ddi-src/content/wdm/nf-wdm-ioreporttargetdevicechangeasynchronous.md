@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
+ms.keywords: kernel.ioreporttargetdevicechangeasynchronous, IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, wdm/IoReportTargetDeviceChangeAsynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS IoReportTargetDeviceChangeAsynchronous(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 Pointer to the PDO of the device being reported. 
 
 
-### -param NotificationStructure [in]
+#### - NotificationStructure [in]
 
 Pointer to a caller-supplied <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
@@ -85,7 +85,7 @@ Pointer to a caller-supplied <a href="..\wdm\ns-wdm-_target_device_custom_notifi
 The PnP manager fills in the <i>NotificationStructure</i>.<b>FileObject</b> field when it sends notifications to registrants.
 
 
-### -param Callback [in, optional]
+#### - Callback [in, optional]
 
 Optionally points to a caller-supplied routine that the PnP manager calls after it finishes notifying drivers that registered for this custom event.
 
@@ -108,7 +108,7 @@ VOID
 The PnP manager calls device-change-complete callback routines at IRQL = PASSIVE_LEVEL.
 
 
-### -param Context [in, out]
+#### - Context [in, out]
 
 Optionally points to a caller-supplied context structure that the PnP manager passes to the <i>Callback</i> routine. The caller must allocate this structure from nonpaged memory. 
 
@@ -154,9 +154,9 @@ Callers of <b>IoReportTargetDeviceChangeAsynchronous</b> must be running at IRQL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
-
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
 
  
 

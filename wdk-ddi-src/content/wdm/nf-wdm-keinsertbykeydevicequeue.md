@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fa395673-108f-4cf0-b05f-a160aa0b02ea
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInsertByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_14a9196c-2ce0-4384-9e72-b957523f49b6.xml, KeInsertByKeyDeviceQueue, kernel.keinsertbykeydevicequeue, wdm/KeInsertByKeyDeviceQueue
+ms.keywords: KeInsertByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], kernel.keinsertbykeydevicequeue, wdm/KeInsertByKeyDeviceQueue, KeInsertByKeyDeviceQueue, k105_14a9196c-2ce0-4384-9e72-b957523f49b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOLEAN KeInsertByKeyDeviceQueue(
 
 
 
-### -param DeviceQueue [in, out]
+#### - DeviceQueue [in, out]
 
 Pointer to a control object of the device queue type for which the caller provides the storage.
 
 
-### -param DeviceQueueEntry [in, out]
+#### - DeviceQueueEntry [in, out]
 
 Pointer to the device queue entry to be inserted into the device queue according to the specific key value.
 
 
-### -param SortKey [in]
+#### - SortKey [in]
 
 Specifies the sort-key value that determines the position in the device queue in which to insert the entry. 
 
@@ -107,13 +107,13 @@ This routine is for code that queues an I/O request to a device driver.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
-
-<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
-
 <a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
+<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+
 <a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314fdeea-10be-4cb3-8bd7-9b1b4b12e534
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExpandSymbol, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::ExpandSymbol, IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method, ExpandSymbol method [Windows Debugging], dbgeng/IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup2::ExpandSymbol, IDebugSymbolGroup2, IDebugSymbolGroup::ExpandSymbol, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, debugger.expandsymbol
+ms.keywords: ExpandSymbol method [Windows Debugging], ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method, dbgeng/IDebugSymbolGroup2::ExpandSymbol, debugger.expandsymbol, IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup2::ExpandSymbol, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup::ExpandSymbol, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, IDebugSymbolGroup2, ExpandSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT ExpandSymbol(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the symbol whose children will be added or removed.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Expand [in]
+#### - Expand [in]
 
 A Boolean value that specifies whether to add or remove the symbols children from the symbol group.  If <i>Expand</i> is true, the children are added.  If <i>Expand</i> is false, the children are removed.
 
@@ -135,11 +135,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

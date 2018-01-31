@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 34894a89-73ba-4744-97b9-7c1f124431f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], RIL_GetOperatorList, rilapi/RIL_GetOperatorList, netvista.ril_getoperatorlist
+ms.keywords: RIL_GetOperatorList, rilapi/RIL_GetOperatorList, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getoperatorlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_GetOperatorList(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwExecutor
+#### - dwExecutor
 
 
 
-### -param dwSystemTypes
+#### - dwSystemTypes
 
 
 

@@ -69,12 +69,12 @@ HRESULT APIENTRY CALLBACK* PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030(
 
 
 
-### -param hRTDevice
+#### - hRTDevice
 
 The hardware device being processed.
 
 
-### -param hRTProtectedSession
+#### - hRTProtectedSession
 
 The protected session.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters::SetValues, SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters::SetValues, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues, IDebugRegisters2::SetValues, dbgeng/IDebugRegisters2::SetValues, SetValues method [Windows Debugging], IDebugRegisters2, IDebugRegisters interface [Windows Debugging], SetValues method, debugger.setvalues
+ms.keywords: SetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, debugger.setvalues, SetValues method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters2::SetValues, IDebugRegisters2 interface [Windows Debugging], SetValues method, dbgeng/IDebugRegisters::SetValues, SetValues method [Windows Debugging], IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT SetValues(
 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of registers for which to set the values.
 
 
-### -param Indices [in, optional]
+#### - Indices [in, optional]
 
 Specifies an array that contains the indices of the registers for which to set the values.  The number of elements in this array is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
 
-### -param Start [in]
+#### - Start [in]
 
 If <i>Indices</i> is <b>NULL</b>, the registers will be set consecutively starting at this index.  Otherwise it is ignored.
 
 
-### -param Values [in]
+#### - Values [in]
 
 Specifies the array that contains values to which to set the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
 
@@ -156,13 +156,13 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
 
  
 

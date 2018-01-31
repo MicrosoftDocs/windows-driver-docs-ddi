@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 896209d0-d545-495b-b743-98c0b9d976ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PTP_VENDOR_DATA_IN structure [Imaging Devices], ptpusd/PPTP_VENDOR_DATA_IN, _PTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml, *PPTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, PTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices]
+ms.keywords: image.ptp_vendor_data_in, ptpusd/PTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], _PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml, PTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], PPTP_VENDOR_DATA_IN, ptpusd/PPTP_VENDOR_DATA_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,32 +74,32 @@ typedef struct _PTP_VENDOR_DATA_IN {
 
 
 
-### -field OpCode
+#### - OpCode
 
 Specifies the command opcode. These codes are defined in the PIMA 15740:2000 standard.
 
 
-### -field SessionId
+#### - SessionId
 
 Specifies the session ID. This member is not currently used by the PTP driver and should be set to 0.
 
 
-### -field TransactionId
+#### - TransactionId
 
 Specifies the transaction ID. This member is not currently used by the PTP driver and should be set to 0.
 
 
-### -field Params
+#### - Params
 
 Is an array consisting of PTP_MAX_PARAMS (defined in <i>Ptpusd.h</i>) elements, representing the parameters of the command.
 
 
-### -field NumParams
+#### - NumParams
 
 Specifies the actual number of elements in the <b>Params</b> array.
 
 
-### -field NextPhase
+#### - NextPhase
 
 Indicates whether to read data from the device, write data to the device, or neither. This member can be set to one of the following values:
 <table>
@@ -140,7 +140,7 @@ Write data to the device.
 </table> 
 
 
-### -field VendorWriteData
+#### - VendorWriteData
 
 Is an array containing an (optional) first byte to write to the device.
 

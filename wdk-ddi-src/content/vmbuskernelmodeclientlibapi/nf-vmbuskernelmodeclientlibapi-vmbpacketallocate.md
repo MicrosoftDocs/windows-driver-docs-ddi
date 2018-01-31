@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F121A7BC-5504-4CF5-8C8A-0568D6C4F77F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbpacketallocate, vmbuskernelmodeclientlibapi/VmbPacketAllocate, VmbPacketAllocate function [Network Drivers Starting with Windows Vista], VmbPacketAllocate
+ms.keywords: netvista.vmbpacketallocate, VmbPacketAllocate, VmbPacketAllocate function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbPacketAllocate
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ VMBPACKET VmbPacketAllocate(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel.  
 

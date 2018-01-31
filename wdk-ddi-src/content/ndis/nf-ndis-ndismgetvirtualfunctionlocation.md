@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], netvista.ndismgetvirtualfunctionlocation, NdisMGetVirtualFunctionLocation
+ms.keywords: NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,29 +72,29 @@ VOID NdisMGetVirtualFunctionLocation(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param VFId [in]
+#### - VFId [in]
 
 The identifier of the VF for which the device location is returned.
 
 
-### -param SegmentNumber [out]
+#### - SegmentNumber [out]
 
 A pointer to a caller-supplied variable in which this function returns a USHORT value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
 
-### -param BusNumber [out]
+#### - BusNumber [out]
 
 A pointer to a caller-supplied variable in which this function returns a UCHAR value. This value specifies the current PCI bus number on which the device is attached.
 
 
-### -param FunctionNumber [out]
+#### - FunctionNumber [out]
 
 A pointer to a caller-supplied variable in which this function returns a UCHAR value. This value specifies the function number of a logical device on the device.
 
@@ -133,13 +133,13 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451557">NDIS_MAKE_RID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 <b></b>
 

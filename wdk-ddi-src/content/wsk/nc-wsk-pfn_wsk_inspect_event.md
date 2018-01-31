@@ -40,7 +40,7 @@ apiname:
 -	WskInspectEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ WSK_INSPECT_ACTION APIENTRY WskInspectEvent(
 
 
 
-### -param SocketContext [in, optional]
+#### - SocketContext [in, optional]
 
 A pointer to the socket context for the listening socket on which the incoming connection request
      was received. The WSK application provided this pointer to the WSK subsystem when it called the 
@@ -84,21 +84,21 @@ A pointer to the socket context for the listening socket on which the incoming c
      socket.
 
 
-### -param LocalAddress [in]
+#### - LocalAddress [in]
 
 A pointer to a buffer that contains the local transport address on which the incoming connection
      request arrived. The buffer contains the specific SOCKADDR structure type that corresponds to the
      address family that the WSK application specified when it created the listening socket.
 
 
-### -param RemoteAddress [in]
+#### - RemoteAddress [in]
 
 A pointer to a buffer that contains the remote transport address from which the incoming
      connection request originated. The buffer contains the specific SOCKADDR structure type that corresponds
      to the address family that the WSK application specified when it created the listening socket.
 
 
-### -param InspectID [in, optional]
+#### - InspectID [in, optional]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure. The contents of
@@ -223,21 +223,21 @@ A WSK application's <i>WskInspectEvent</i> event callback function must not wait
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
 
 <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 

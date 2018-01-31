@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd7a8fc6-0d68-4d80-b622-90cd981f9d13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/OEMCopyBits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, OEMCopyBits, OEMCopyBits function [Print Devices], print.oemcopybits
+ms.keywords: OEMCopyBits function [Print Devices], print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, printoem/OEMCopyBits, print.oemcopybits, OEMCopyBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,26 +73,26 @@ BOOL  APIENTRY OEMCopyBits(
 
 
 
-### -param psoDest
+#### - psoDest
 
 
 
-### -param psoSrc
+#### - psoSrc
 
 
 
-### -param pco
+#### - pco
 
 
 
-### -param pxlo
+#### - pxlo
 
 
 
-### -param prclDest
+#### - prclDest
 
 
 
-### -param pptlSrc
+#### - pptlSrc
 
 

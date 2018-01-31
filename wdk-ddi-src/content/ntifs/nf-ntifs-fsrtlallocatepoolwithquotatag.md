@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 241525fd-c21b-4c24-91a0-6a79df4faea7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAllocatePoolWithQuotaTag, fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], ntifs/FsRtlAllocatePoolWithQuotaTag, ifsk.fsrtlallocatepoolwithquotatag
+ms.keywords: FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, ifsk.fsrtlallocatepoolwithquotatag, ntifs/FsRtlAllocatePoolWithQuotaTag, FsRtlAllocatePoolWithQuotaTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,7 +69,7 @@ PVOID FsRtlAllocatePoolWithQuotaTag(
 
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 Type of pool to allocate. One of the following:
 
@@ -83,12 +83,12 @@ Type of pool to allocate. One of the following:
 
 <div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used.</div><div> </div>
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Number of bytes to allocate.
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 Specifies the pool tag for the allocated memory. Drivers normally specify the pool tag as a string of one to four 7-bit ASCII characters, delimited by single quotation marks (for example, 'abcd'). This parameter is required and cannot be zero. 
 
@@ -108,11 +108,11 @@ Callers of <b>FsRtlAllocatePoolWithQuotaTag</b> must be running at IRQL &lt;= DI
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545659">FsRtlAllocatePoolWithQuota</a>
+
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545659">FsRtlAllocatePoolWithQuota</a>
 
  
 

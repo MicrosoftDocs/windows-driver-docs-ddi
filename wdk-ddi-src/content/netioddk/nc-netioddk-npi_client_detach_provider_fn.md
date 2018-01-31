@@ -73,7 +73,7 @@ typedef NPI_CLIENT_DETACH_PROVIDER_FN * PNPI_CLIENT_DETACH_PROVIDER_FN;
 
 
 
-### -param ClientBindingContext [in]
+#### - ClientBindingContext [in]
 
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it is detaching. The client module passes this pointer to the NMR when it
@@ -166,21 +166,21 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
-
 <mshelp:link keywords="netvista.nmrclientdetachprovidercomplete" tabindex="0"><b>
    NmrClientDetachProviderComplete</b></mshelp:link>
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
-
-<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
-
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
+   ProviderCleanupBindingContext</i></mshelp:link>
 
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
-<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-   ProviderCleanupBindingContext</i></mshelp:link>
+<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+
+<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
 
  
 

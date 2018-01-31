@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetReadPacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, IMiniportWaveRTInputStream::GetReadPacket, portcls/IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket, IMiniportWaveRTInputStream, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, GetReadPacket method [Audio Devices]
+ms.keywords: audio.iminiportwavertinputstream_getreadpacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream, GetReadPacket method [Audio Devices], portcls/IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket, IMiniportWaveRTInputStream::GetReadPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRTInputStream.GetReadPacket
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTInputStream::GetReadPacket method
@@ -73,12 +73,12 @@ NTSTATUS GetReadPacket(
 
 
 
-### -param PacketNumber [out]
+#### - PacketNumber [out]
 
 Returns the packet number relative to the start of capture.  
 
 
-### -param Flags [out]
+#### - Flags [out]
 
 Reserved for future use. Must be set to 0.
 
@@ -88,7 +88,7 @@ Reserved for future use. Must be set to 0.
 
 
 
-### -param MoreData [out]
+#### - MoreData [out]
 
  Returns <b>TRUE</b> if there is more data ready immediately. The OS may optionally immediately call this routine again after processing the packet to get the next packet information. If the driver returns <b>FALSE</b>, then capture is operating at real time. 
 

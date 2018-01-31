@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5513804b-f785-4617-81b6-1cecc72d6051
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestmarkcancelableex, PFN_WDFREQUESTMARKCANCELABLEEX, WdfRequestMarkCancelableEx method, kmdf.wdfrequestmarkcancelableex, WdfRequestMarkCancelableEx, DFRequestObjectRef_6601e5df-d8a6-42b5-9e71-a46918a6bc1f.xml, wdfrequest/WdfRequestMarkCancelableEx
+ms.keywords: wdfrequest/WdfRequestMarkCancelableEx, DFRequestObjectRef_6601e5df-d8a6-42b5-9e71-a46918a6bc1f.xml, WdfRequestMarkCancelableEx, WdfRequestMarkCancelableEx method, wdf.wdfrequestmarkcancelableex, kmdf.wdfrequestmarkcancelableex, PFN_WDFREQUESTMARKCANCELABLEEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfRequestMarkCancelableEx(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param EvtRequestCancel [in]
+#### - EvtRequestCancel [in]
 
 A pointer to a driver-defined <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> callback function, which the framework calls if it cancels the I/O request.
 
@@ -179,13 +179,13 @@ After the framework has dequeued the request from the second queue and delivered
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
+
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
 

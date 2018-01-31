@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fc0a6c04-a348-470d-b8eb-9564f2ff7ef9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_OTHER, IDDCX_TRANSMISSION_TYPE, IDDCX_TRANSMISSION_TYPE_WIRED_OTHER, display.iddcx_transmission_type, IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB, IDDCX_TRANSMISSION_TYPE_UNINITIALIZED, IDDCX_TRANSMISSION_TYPE_WIRED_USB, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER, IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_UNINITIALIZED, IDDCX_TRANSMISSION_TYPE enumeration [Display Devices], iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE, IDDCX_TRANSMISSION_TYPE_OTHER, IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB, IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_USB, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_OTHER, IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER
+ms.keywords: iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_OTHER, IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB, iddcx/IDDCX_TRANSMISSION_TYPE_OTHER, IDDCX_TRANSMISSION_TYPE enumeration [Display Devices], IDDCX_TRANSMISSION_TYPE, iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST, IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_USB, IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER, IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB, iddcx/IDDCX_TRANSMISSION_TYPE_UNINITIALIZED, IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST, IDDCX_TRANSMISSION_TYPE_OTHER, IDDCX_TRANSMISSION_TYPE_UNINITIALIZED, iddcx/IDDCX_TRANSMISSION_TYPE, IDDCX_TRANSMISSION_TYPE_WIRED_USB, IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER, IDDCX_TRANSMISSION_TYPE_WIRED_OTHER, display.iddcx_transmission_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,70 +78,70 @@ typedef enum _IDDCX_TRANSMISSION_TYPE {
 
 
 
-### -field IDDCX_TRANSMISSION_TYPE_UNINITIALIZED
+#### - IDDCX_TRANSMISSION_TYPE_UNINITIALIZED
 
 
                         
                     Indicates that an <b>IDDCX_TRANSMISSION_TYPE</b> variable has not yet been assigned a meaningful value.
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRED_USB
+#### - IDDCX_TRANSMISSION_TYPE_WIRED_USB
 
 
                         Video data is being transmitted over wired USB
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST
+#### - IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST
 
 
                         Video data is being transmitted over wired Miracast link
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRED_OTHER
+#### - IDDCX_TRANSMISSION_TYPE_WIRED_OTHER
 
 
                         Video data is being transmitted over a wired connect not already described
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB
+#### - IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB
 
 
                         Video data is being transmitted over wireless MA-USB
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER
+#### - IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER
 
 
                         Video data is being transmitted over wireless network not using MA-USB but the device is enumerated on the USB bus
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER
+#### - IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER
 
 
                         Video data is being transmitted over a WiFi wireless network
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST
+#### - IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST
 
 
                         Video data is being transmitted over wireless Miracast link
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER
+#### - IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER
 
 
                         Video data is being transmitted over a non-WiFi wireless network not described above
                     
 
 
-### -field IDDCX_TRANSMISSION_TYPE_OTHER
+#### - IDDCX_TRANSMISSION_TYPE_OTHER
 
 
                         Video data is being transmitted over a link type that is not covered by the above defines

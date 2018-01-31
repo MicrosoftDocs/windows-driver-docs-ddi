@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de02d40d-3438-4a34-9e2b-07a7d9c4c8ac
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerGetMaximumScatterGatherElements, wdfdmaenabler/WdfDmaEnablerGetMaximumScatterGatherElements, DFDmaObjectRef_34ec0aef-b846-4b23-b9b3-01e8834821f7.xml, wdf.wdfdmaenablergetmaximumscattergatherelements, PFN_WDFDMAENABLERGETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablergetmaximumscattergatherelements, WdfDmaEnablerGetMaximumScatterGatherElements method
+ms.keywords: wdfdmaenabler/WdfDmaEnablerGetMaximumScatterGatherElements, kmdf.wdfdmaenablergetmaximumscattergatherelements, PFN_WDFDMAENABLERGETMAXIMUMSCATTERGATHERELEMENTS, DFDmaObjectRef_34ec0aef-b846-4b23-b9b3-01e8834821f7.xml, wdf.wdfdmaenablergetmaximumscattergatherelements, WdfDmaEnablerGetMaximumScatterGatherElements method, WdfDmaEnablerGetMaximumScatterGatherElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ size_t WdfDmaEnablerGetMaximumScatterGatherElements(
 
 
 
-### -param DmaEnabler [in]
+#### - DmaEnabler [in]
 
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>. 
 

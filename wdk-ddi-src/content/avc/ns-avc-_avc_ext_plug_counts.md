@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ffae774e-8ec9-49da-bdc6-b56beb45c4c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/AVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS structure pointer [Streaming Media Devices], PAVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS structure [Streaming Media Devices], stream.avc_ext_plug_counts, AVC_EXT_PLUG_COUNTS, *PAVC_EXT_PLUG_COUNTS, avc/PAVC_EXT_PLUG_COUNTS, _AVC_EXT_PLUG_COUNTS, avcref_171f4765-bb9f-4056-a238-d4822af50a3d.xml
+ms.keywords: AVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS structure pointer [Streaming Media Devices], AVC_EXT_PLUG_COUNTS structure [Streaming Media Devices], stream.avc_ext_plug_counts, avc/AVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS, avcref_171f4765-bb9f-4056-a238-d4822af50a3d.xml, _AVC_EXT_PLUG_COUNTS, avc/PAVC_EXT_PLUG_COUNTS, *PAVC_EXT_PLUG_COUNTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AVC_EXT_PLUG_COUNTS {
 
 
 
-### -field ExtInputs
+#### - ExtInputs
 
 Ignored on input. On output, this contains the count of external input plugs.
 
 
-### -field ExtOutputs
+#### - ExtOutputs
 
 Ignored on input. On output, this contains the count of external output plugs.
 

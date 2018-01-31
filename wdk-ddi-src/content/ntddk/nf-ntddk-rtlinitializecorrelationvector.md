@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlinitializecorrelationvector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], RtlInitializeCorrelationVector, ntddk/RtlInitializeCorrelationVector
+ms.keywords: kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector, RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 
-### -param CorrelationVector [in, out]
+#### - CorrelationVector [in, out]
 
 A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
 
 
-### -param Version [in]
+#### - Version [in]
 
 The version of the correlation vector. Possible values are: 
 <ul>
@@ -86,7 +86,7 @@ The version of the correlation vector. Possible values are:
 <li>RTL_CORRELATION_VECTOR_VERSION_CURRENT</li>
 </ul>
 
-### -param Guid [in]
+#### - Guid [in]
 
 The GUID to initialize the correlation vector. The first 22 bytes
             of the correlation vector are a base64 representation of the GUID. This value must not be NULL.

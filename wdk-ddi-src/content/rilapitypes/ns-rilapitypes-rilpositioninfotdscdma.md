@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b7b2592-8a67-4eb0-8e87-354fd5f215c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfotdscdma, *LPRILPOSITIONINFOTDSCDMA
+ms.keywords: RILPOSITIONINFOTDSCDMA, netvista.rilpositioninfotdscdma, *LPRILPOSITIONINFOTDSCDMA, rilapitypes/RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPOSITIONINFOTDSCDMA
 product: Windows
 targetos: Windows
-req.typenames: RILPOSITIONINFOTDSCDMA, *LPRILPOSITIONINFOTDSCDMA
+req.typenames: "*LPRILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA"
 req.product: Windows 10 or later.
 ---
 
@@ -77,52 +77,52 @@ struct RILPOSITIONINFOTDSCDMA {
 
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfotdscdmaparammask.md">RILPOSITIONINFOTDSCDMAPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set
 
 
-### -field dwMobileCountryCode
+#### - dwMobileCountryCode
 
 Mobile country code (0...999).
 
 
-### -field dwMobileNetworkCode
+#### - dwMobileNetworkCode
 
 Mobile Network Code (0...999).
 
 
-### -field dwLocationAreaCode
+#### - dwLocationAreaCode
 
 Location Area Code (0...65535).
 
 
-### -field dwCellID
+#### - dwCellID
 
 Cell ID (0...268435455)).
 
 
-### -field dwUARFCN
+#### - dwUARFCN
 
 Channel number for serving cell (0...16383).
 
 
-### -field dwCellParameterID
+#### - dwCellParameterID
 
 Cell parameter ID (0...127).
 
 
-### -field dwTimingAdvance
+#### - dwTimingAdvance
 
 Timing Advance (0...1023), same value for all timeslots.
 
 
-### -field dwRSCP
+#### - dwRSCP
 
 Received signal code power of serving cell. Range (−128...−25) in units of 1dBm in Q8 L3 filtered.
 
 
-### -field dwPathLoss
+#### - dwPathLoss
 
 Path loss of serving cell (46...158).
 

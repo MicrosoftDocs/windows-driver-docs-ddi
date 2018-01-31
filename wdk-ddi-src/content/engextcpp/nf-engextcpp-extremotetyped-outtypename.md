@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fda88a3d-4cdf-4be1-87a7-29e312453686
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_1dd0e308-16ca-4b91-8ad6-7c2d4c7d8da8.xml, ExtRemoteTyped interface [Windows Debugging], OutTypeName method, OutTypeName method [Windows Debugging], ExtRemoteTyped, ExtRemoteTyped::OutTypeName, OutTypeName, debugger.extremotetyped_outtypename, OutTypeName method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: ExtRemoteTyped interface [Windows Debugging], OutTypeName method, OutTypeName method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_1dd0e308-16ca-4b91-8ad6-7c2d4c7d8da8.xml, OutTypeName, debugger.extremotetyped_outtypename, OutTypeName method [Windows Debugging], ExtRemoteTyped::OutTypeName, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.OutTypeName
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::OutTypeName method

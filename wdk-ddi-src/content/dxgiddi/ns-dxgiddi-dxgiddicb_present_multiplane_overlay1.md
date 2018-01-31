@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AA716307-C235-47B2-BEB6-586FD6013280
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices], display.dxgiddicb_present_multiplane_overlay1
+ms.keywords: display.dxgiddicb_present_multiplane_overlay1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 {
 
 
 
-### -field pDXGIContext
+#### - pDXGIContext
 
 A handle to the DXGI context. This handle is opaque to the driver. The driver should assign the handle from the pDXGIContext member DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY1 structure that the driver received in a call to its pfnPresentMultiplaneOverlay function to this member.
 
 
-### -field PresentPlaneCount
+#### - PresentPlaneCount
 
 The number of planes in the array that the ppPresentPlanes member specifies.
 
 
-### -field ppPresentPlanes
+#### - ppPresentPlanes
 
 An array of pointers to a structure of type DXGIDDI_MULTIPLANE_OVERLAY_PLANE_INFO that specify information about the multiplane overlay planes.
 

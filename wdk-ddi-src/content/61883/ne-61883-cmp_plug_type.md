@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 97A19F3D-5669-4E4B-A377-7BE5A84DF63A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cmp_plug_type, 61883/CMP_PlugOut, CMP_PLUG_TYPE, CMP_PLUG_TYPE enumeration [Buses], CMP_PlugIn, CMP_PlugOut, 61883/CMP_PLUG_TYPE, 61883/CMP_PlugIn
+ms.keywords: 61883/CMP_PLUG_TYPE, CMP_PLUG_TYPE enumeration [Buses], CMP_PlugOut, 61883/CMP_PlugOut, CMP_PlugIn, CMP_PLUG_TYPE, 61883/CMP_PlugIn, IEEE.cmp_plug_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum  {
 
 
 
-### -field CMP_PlugOut
+#### - CMP_PlugOut
 
 An out plug.
 
 
-### -field CMP_PlugIn
+#### - CMP_PlugIn
 
 An in plug.
 

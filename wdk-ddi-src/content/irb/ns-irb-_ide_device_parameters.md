@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], storage.ide_device_parameters, *PIDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], irb/IDE_DEVICE_PARAMETERS, _IDE_DEVICE_PARAMETERS
+ms.keywords: structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, irb/IDE_DEVICE_PARAMETERS, irb/PIDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS, _IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], storage.ide_device_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDE_DEVICE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS"
+req.typenames: IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS
 ---
 
 # _IDE_DEVICE_PARAMETERS structure
@@ -88,7 +88,7 @@ typedef struct _IDE_DEVICE_PARAMETERS {
 
 
 
-### -field Chs
+#### - Chs
 
 Specifies the drive geometry with the values for the number of cylinders, heads per cylinder, and the sectors per track. This member is defined when <b>AddressTranslation</b> is equal to <b>ChsMode</b>.
 
@@ -113,42 +113,42 @@ Specifies the drive geometry with the values for the number of cylinders, heads 
  
 
 
-### -field MaxLba
+#### - MaxLba
 
 Specifies the maximum user-addressable logical block address (LBA). This member is defined when <b>AddressTranslation</b> is equal to either <b>LbaMode</b> or <b>Lba48BitMode</b>.
 
 
-### -field Version
+#### - Version
 
 Indicates the size of the <i>Device</i> parameters structure. The miniport driver should verify that sizeof(IDE_DEVICE_PARAMETERS) is less than or equal to the <b>Version</b> field.
 
 
-### -field IdeDeviceType
+#### - IdeDeviceType
 
 Indicates the type of the device. The allowed device types are <i>DeviceIsAta</i> for ATA devices, <i>DeviceIsAtapi</i> for ATAPI devices, and <i>DeviceNotExist</i> if no device was found at that address. The other fields in this structure are not valid if the <b>IdeDeviceType</b> is set to <i>DeviceNotExist</i>.
 
 
-### -field TargetId
+#### - TargetId
 
 Specifies the target ID of the device.
 
 
-### -field MaximumLun
+#### - MaximumLun
 
 The miniport driver must update this field to indicate the maximum logical unit number supported by this device. By default, the member is set to 0 indicating the existence of just one LUN.
 
 
-### -field NumberOfOverlappedRequests
+#### - NumberOfOverlappedRequests
 
 The miniport driver must update this field to specify the number of overlapped requests it can handle for this device. By default, the member is set to 1.
 
 
-### -field MaxBlockXfer
+#### - MaxBlockXfer
 
 Specifies the number of sectors in a block of data to be transferred. This value applies to the data blocks used in ATA block transfer commands such as Read Multiple (0xC4), Write Multiple (0xC5). For more information about the ReadMultiple and WriteMultiple commands, see the <i>ATA Specification</i>.
 
 
-### -field DeviceCharacteristics
+#### - DeviceCharacteristics
 
 Specifies the device characteristics. The table below lists the characteristics that could be set in this member. The high byte of this member is opaque and shall not be changed by the ATA miniport.
 <table>
@@ -209,32 +209,32 @@ Indicates that the device supports Media Status Notification.
 </table> 
 
 
-### -field AddressTranslation
+#### - AddressTranslation
 
 Contains an enumeration value of type <a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
 
 
-### -field BytesPerLogicalSector
+#### - BytesPerLogicalSector
 
 This member specifies the number of bytes per logical sector (LBA) for the given device.
 
 
-### -field BytesPerPhysicalSector
+#### - BytesPerPhysicalSector
 
 This member specifies the number of bytes per physical sector (that is, the smallest amount of data that the device can physically write internally) for the given device.
 
 
-### -field BytesOffsetForSectorAlignment
+#### - BytesOffsetForSectorAlignment
 
 This member specifies the location of sector 0 within the first physical sector as defined in the ATA specification represented in bytes.
 
 
-### -field TransferModeSupported
+#### - TransferModeSupported
 
 Contains a bitmap that indicates the supported transfer modes.
 
 
-### -field TransferModeSelected
+#### - TransferModeSelected
 
 Indicates the selected transfer modes on the device. The miniport driver must set this member.
 
@@ -248,11 +248,11 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
+
 <a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
 
 <a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
 
  
 

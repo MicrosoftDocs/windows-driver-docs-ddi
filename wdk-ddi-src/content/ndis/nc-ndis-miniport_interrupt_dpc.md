@@ -77,7 +77,7 @@ VOID MiniportInterruptDPC(
 
 
 
-### -param MiniportInterruptContext [in]
+#### - MiniportInterruptContext [in]
 
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
@@ -86,7 +86,7 @@ A handle to a block of interrupt context information. The miniport driver suppli
      NdisMRegisterInterruptEx</b></mshelp:link> function.
 
 
-### -param MiniportDpcContext [in]
+#### - MiniportDpcContext [in]
 
 A pointer to a context area that the miniport driver supplied when it called the 
      <a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a> or 
@@ -97,7 +97,7 @@ A pointer to a context area that the miniport driver supplied when it called the
      <i>MiniportDpcContext</i> is <b>NULL</b>.
 
 
-### -param ReceiveThrottleParameters [in]
+#### - ReceiveThrottleParameters [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_receive_throttle_parameters" tabindex="0"><b>
@@ -106,7 +106,7 @@ A pointer to an
      driver should indicate in a DPC.
 
 
-### -param NdisReserved2 [in]
+#### - NdisReserved2 [in]
 
 Reserved for NDIS.
 
@@ -224,18 +224,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-<mshelp:link keywords="netvista.ndis_receive_throttle_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_THROTTLE_PARAMETERS</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
@@ -245,11 +234,22 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<mshelp:link keywords="netvista.ndis_receive_throttle_parameters" tabindex="0"><b>
+   NDIS_RECEIVE_THROTTLE_PARAMETERS</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
  
 

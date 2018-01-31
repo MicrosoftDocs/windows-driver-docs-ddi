@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnGetNumDescriptors(
 
 
 
-### -param hMonitorDescriptorSet [in]
+#### - hMonitorDescriptorSet [in]
 
 [in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset.md">pfnGetMonitorDescriptorSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
-### -param pNumMonitorDescriptors [out]
+#### - pNumMonitorDescriptors [out]
 
 [out] A SIZE_T-typed variable that receives the number of descriptors in the set.
 

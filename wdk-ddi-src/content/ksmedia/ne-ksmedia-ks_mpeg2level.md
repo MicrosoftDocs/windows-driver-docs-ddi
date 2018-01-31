@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5ba271ba-ed92-402e-9ef9-ac198a8ea510
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_MPEG2Level, KS_MPEG2Level_High1440, KS_MPEG2Level, ksmedia/KS_MPEG2Level_Main, vidcapstruct_a97daeef-93e4-4ded-98dc-f583c1893095.xml, ksmedia/KS_MPEG2Level_High1440, stream.ks_mpeg2level, ksmedia/KS_MPEG2Level_High, KS_MPEG2Level_Main, KS_MPEG2Level enumeration [Streaming Media Devices], KS_MPEG2Level_High, ksmedia/KS_MPEG2Level_Low, KS_MPEG2Level_Low
+ms.keywords: ksmedia/KS_MPEG2Level_Main, KS_MPEG2Level enumeration [Streaming Media Devices], ksmedia/KS_MPEG2Level_Low, KS_MPEG2Level_Main, KS_MPEG2Level, KS_MPEG2Level_High1440, ksmedia/KS_MPEG2Level, ksmedia/KS_MPEG2Level_High, ksmedia/KS_MPEG2Level_High1440, KS_MPEG2Level_High, vidcapstruct_a97daeef-93e4-4ded-98dc-f583c1893095.xml, KS_MPEG2Level_Low, stream.ks_mpeg2level
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum  {
 
 
 
-### -field KS_MPEG2Level_Low
+#### - KS_MPEG2Level_Low
 
 Specifies the low MPEG-2 resolution, or 352 × 240 at 30 frames per second.
 
 
-### -field KS_MPEG2Level_Main
+#### - KS_MPEG2Level_Main
 
 Specifies the main MPEG-2 resolution, or 720 × 480 at 30 frames per second.
 
 
-### -field KS_MPEG2Level_High1440
+#### - KS_MPEG2Level_High1440
 
 Specifies the high-1440 MPEG-2 resolution, or 1440 × 1152 at 30 frames per second.
 
 
-### -field KS_MPEG2Level_High
+#### - KS_MPEG2Level_High
 
 Specifies the high MPEG-2 resolution, or 1920 × 1080 at 30 frames per second.
 

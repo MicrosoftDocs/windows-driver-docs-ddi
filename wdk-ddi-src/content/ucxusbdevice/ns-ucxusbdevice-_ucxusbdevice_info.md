@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E6875195-D6C4-4CEB-8381-8CBA732223A5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_UCXUSBDEVICE_INFO, ucxusbdevice/P_UCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO structure pointer [Buses], UCXUSBDEVICE_INFO structure [Buses], P_UCXUSBDEVICE_INFO, buses._ucxusbdevice_info, UCXUSBDEVICE_INFO, ucxusbdevice/_UCXUSBDEVICE_INFO, *PUCXUSBDEVICE_INFO"
+ms.keywords: ucxusbdevice/P_UCXUSBDEVICE_INFO, *PUCXUSBDEVICE_INFO, buses._ucxusbdevice_info, P_UCXUSBDEVICE_INFO, _UCXUSBDEVICE_INFO, ucxusbdevice/_UCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO structure pointer [Buses], UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCXUSBDEVICE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PUCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO"
+req.typenames: UCXUSBDEVICE_INFO, *PUCXUSBDEVICE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _UCXUSBDEVICE_INFO {
 
 
 
-### -field Size
+#### - Size
 
 The size in bytes of this structure.
 
 
-### -field DeviceSpeed
+#### - DeviceSpeed
 
 Defines the device speed of the USB device or hub.
 
 
-### -field TtHub
+#### - TtHub
 
 A handle to the USB  device object that represents the TT hub.
 
 
-### -field PortPath
+#### - PortPath
 
 The port path for the USB device or hub.
 

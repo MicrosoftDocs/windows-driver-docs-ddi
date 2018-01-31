@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2AFE312D-8CCE-4A91-A23E-D5C6D2B0B01A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, wwan/WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, wwan/PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, netvista.wwan_device_service_supported_commands
+ms.keywords: WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, wwan/PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, netvista.wwan_device_service_supported_commands, *PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, wwan/WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 product: Windows
 targetos: Windows
-req.typenames: WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+req.typenames: "*PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS {
 
 
 
-### -field DeviceServiceGuid
+#### - DeviceServiceGuid
 
 The GUID of the device service command.
 
 
-### -field ListHeader
+#### - ListHeader
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents the

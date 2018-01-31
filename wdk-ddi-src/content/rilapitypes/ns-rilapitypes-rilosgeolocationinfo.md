@@ -40,7 +40,7 @@ apiname:
 -	RILOSGEOLOCATIONINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO"
+req.typenames: RILOSGEOLOCATIONINFO, *LPRILOSGEOLOCATIONINFO
 req.product: Windows 10 or later.
 ---
 
@@ -84,70 +84,70 @@ typedef struct _RILOSGEOLOCATIONINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwLatitude
+#### - dwLatitude
 
 
 
-### -field dwLongitude
+#### - dwLongitude
 
 
 
-### -field dwAltitude
+#### - dwAltitude
 
 
 
-### -field dwAccuracy
+#### - dwAccuracy
 
 
 
-### -field dwLocationInformationMask
+#### - dwLocationInformationMask
 
 
 
-### -field stTimeStamp
+#### - stTimeStamp
 
 
 
-### -field wszAddressLine1
+#### - wszAddressLine1
 
 
 
-### -field wszAddressLine2
+#### - wszAddressLine2
 
 
 
-### -field wszCity
+#### - wszCity
 
 
 
-### -field wszState
+#### - wszState
 
 
 
-### -field wszCountry
+#### - wszCountry
 
 
 
-### -field wszPostalCode
+#### - wszPostalCode
 
 
 
-### -field wszFormattedAddress
+#### - wszFormattedAddress
 
 
 
-### -field wszCountryCode
+#### - wszCountryCode
 
 
 
-### -field wszRegionCode
+#### - wszRegionCode
 
 

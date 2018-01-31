@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce0f5e42-3f4e-48e1-9e73-96bca96e8e23
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], RemoveBreakpoint method, RemoveBreakpoint method [Windows Debugging], RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface, IDebugControl2::RemoveBreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, RemoveBreakpoint method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::RemoveBreakpoint, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl3, RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::RemoveBreakpoint, IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, dbgeng/IDebugControl2::RemoveBreakpoint, IDebugControl3::RemoveBreakpoint, debugger.removebreakpoint, IDebugControl::RemoveBreakpoint
+ms.keywords: IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, IDebugControl3, IDebugControl::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], RemoveBreakpoint, dbgeng/IDebugControl::RemoveBreakpoint, IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl2::RemoveBreakpoint, dbgeng/IDebugControl2::RemoveBreakpoint, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method, RemoveBreakpoint method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface, RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], RemoveBreakpoint method, debugger.removebreakpoint, IDebugControl3::RemoveBreakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT RemoveBreakpoint(
 
 
 
-### -param Bp [in]
+#### - Bp [in]
 
 Specifies an interface pointer to breakpoint to remove.
 
@@ -109,13 +109,13 @@ After <b>RemoveBreakpoint</b> and <b>RemoveBreakpoint2</b> are called, the break
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

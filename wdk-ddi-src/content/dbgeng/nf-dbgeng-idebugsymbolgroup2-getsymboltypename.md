@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e15b418e-bf4a-49c0-bdb3-24973513e654
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2::GetSymbolTypeName, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, debugger.getsymboltypename, IDebugSymbolGroup2, ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml
+ms.keywords: ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolTypeName, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName, debugger.getsymboltypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetSymbolTypeName(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the symbol whose type name you want. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 The name of the symbol's type.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 The size, in characters, of the name of the symbol's type.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -135,11 +135,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
 <a href="https://msdn.microsoft.com/09aa3ba9-d5b6-4c08-93f1-f7beca9350a1">IDebugSymbols::GetTypeName</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

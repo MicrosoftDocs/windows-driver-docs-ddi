@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: efb3617d-86be-4380-ad1a-0a333d248168
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIORESOURCEREQUIREMENTSLISTAPPENDIORESLIST, kmdf.wdfioresourcerequirementslistappendioreslist, WdfIoResourceRequirementsListAppendIoResList, wdf.wdfioresourcerequirementslistappendioreslist, wdfresource/WdfIoResourceRequirementsListAppendIoResList, WdfIoResourceRequirementsListAppendIoResList method, DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml
+ms.keywords: PFN_WDFIORESOURCEREQUIREMENTSLISTAPPENDIORESLIST, kmdf.wdfioresourcerequirementslistappendioreslist, wdf.wdfioresourcerequirementslistappendioreslist, WdfIoResourceRequirementsListAppendIoResList method, WdfIoResourceRequirementsListAppendIoResList, DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, wdfresource/WdfIoResourceRequirementsListAppendIoResList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceRequirementsListAppendIoResList
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS WdfIoResourceRequirementsListAppendIoResList(
 
 
 
-### -param RequirementsList [in]
+#### - RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-### -param IoResList [in]
+#### - IoResList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
@@ -139,9 +139,9 @@ For more information about resource requirements lists, see <a href="https://doc
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistinsertioreslist.md">WdfIoResourceRequirementsListInsertIoResList</a>
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistinsertioreslist.md">WdfIoResourceRequirementsListInsertIoResList</a>
 
  
 

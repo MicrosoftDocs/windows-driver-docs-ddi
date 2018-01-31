@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: de2a908a-a032-4b61-963e-e5028ccdba11
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_uncorrectable_error_severity, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
+ms.keywords: wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_uncorrectable_error_severity, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -190,7 +190,7 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
  
 
 
-### -field AsULONG
+#### - AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
 
@@ -281,11 +281,11 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a href
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
  
 

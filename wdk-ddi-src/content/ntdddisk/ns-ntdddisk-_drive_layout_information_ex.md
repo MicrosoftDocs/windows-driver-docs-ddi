@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e077f9a6-1d94-4d17-9166-b23756df6cc8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_DRIVE_LAYOUT_INFORMATION_EX, storage.drive_layout_information_ex, structs-disk_e6755f07-50a7-48db-a39c-4485f3fb7b93.xml, DRIVE_LAYOUT_INFORMATION_EX structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_EX, ntdddisk/DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Storage Devices], ntdddisk/PDRIVE_LAYOUT_INFORMATION_EX"
+ms.keywords: ntdddisk/PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX, ntdddisk/DRIVE_LAYOUT_INFORMATION_EX, structs-disk_e6755f07-50a7-48db-a39c-4485f3fb7b93.xml, DRIVE_LAYOUT_INFORMATION_EX, storage.drive_layout_information_ex, _DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVE_LAYOUT_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX
+req.typenames: "*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX"
 ---
 
 # _DRIVE_LAYOUT_INFORMATION_EX structure
@@ -88,17 +88,17 @@ typedef struct _DRIVE_LAYOUT_INFORMATION_EX {
  
 
 
-### -field PartitionStyle
+#### - PartitionStyle
 
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table the disk contains.
 
 
-### -field PartitionCount
+#### - PartitionCount
 
 Indicates the number of partitions detected on the disk.
 
 
-### -field PartitionEntry
+#### - PartitionEntry
 
 Contains a variable-length array of <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a> structures, one for each partition on the drive. 
 
@@ -122,15 +122,15 @@ This structure is used for both reading and writing disk partition information. 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_gpt.md">DRIVE_LAYOUT_INFORMATION_GPT</a>
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontableex.md">IoWritePartitionTableEx</a>
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_gpt.md">DRIVE_LAYOUT_INFORMATION_GPT</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_mbr.md">DRIVE_LAYOUT_INFORMATION_MBR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontableex.md">IoWritePartitionTableEx</a>
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
  
 

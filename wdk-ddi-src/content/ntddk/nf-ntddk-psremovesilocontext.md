@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3323EF1B-9EB3-4D56-A9A5-0A8397F8A235
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psremovesilocontext, PsRemoveSiloContext, ntddk/PsRemoveSiloContext, PsRemoveSiloContext routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsRemoveSiloContext routine [Kernel-Mode Driver Architecture], kernel.psremovesilocontext, ntddk/PsRemoveSiloContext, PsRemoveSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS PsRemoveSiloContext(
 
 
 
-### -param Silo [in]
+#### - Silo [in]
 
 The silo from which the object is to be removed. This parameter is required and it cannot be <b>NULL</b>.
 
 
-### -param ContextSlot [in]
+#### - ContextSlot [in]
 
 A slot allocated by the <a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> routine.
 

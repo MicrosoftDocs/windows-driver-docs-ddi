@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.disk_cache_retention_priority, KeepPrefetchedData, ntdddisk/KeepPrefetchedData, KeepReadData, EqualPriority, ntdddisk/EqualPriority, DISK_CACHE_RETENTION_PRIORITY, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml, ntdddisk/KeepReadData, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], ntdddisk/DISK_CACHE_RETENTION_PRIORITY
+ms.keywords: EqualPriority, DISK_CACHE_RETENTION_PRIORITY, ntdddisk/KeepPrefetchedData, ntdddisk/EqualPriority, KeepReadData, storage.disk_cache_retention_priority, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, ntdddisk/KeepReadData, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml, KeepPrefetchedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-### -field EqualPriority
+#### - EqualPriority
 
 Indicates that no data is held in the cache on a preferential basis. All types of data have equal access to cache memory. 
 
 
-### -field KeepPrefetchedData
+#### - KeepPrefetchedData
 
 Indicates that a preference is to be given to prefetched data. 
 
 
-### -field KeepReadData
+#### - KeepReadData
 
 Indicates that a preference is to be given to data cached from a READ operation.
 

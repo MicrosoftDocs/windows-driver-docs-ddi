@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5bb69443-8ccd-4157-8815-fb3423b57e30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauFormatConverter::IsFormatSupported, IsFormatSupported, CWiauFormatConverter interface [Imaging Devices], IsFormatSupported method, wiauFncs_894f0261-249e-4b7c-aaa1-43a52bd48fbf.xml, IsFormatSupported method [Imaging Devices], CWiauFormatConverter interface, IsFormatSupported method [Imaging Devices], CWiauFormatConverter, image.cwiauformatconverter_isformatsupported, wiautil/CWiauFormatConverter::IsFormatSupported
+ms.keywords: IsFormatSupported, CWiauFormatConverter::IsFormatSupported, IsFormatSupported method [Imaging Devices], image.cwiauformatconverter_isformatsupported, wiautil/CWiauFormatConverter::IsFormatSupported, IsFormatSupported method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter interface [Imaging Devices], IsFormatSupported method, CWiauFormatConverter, wiauFncs_894f0261-249e-4b7c-aaa1-43a52bd48fbf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ BOOL IsFormatSupported(
 
 
 
-### -param pguidFormat
+#### - pguidFormat
 
 Points to the GUID of the format. The format GUIDs are defined in <i>gdiplusimaging.h</i>.
 
@@ -82,9 +82,9 @@ The method returns <b>TRUE</b> if the format indicated by the format GUID is sup
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540369">CWiauFormatConverter::ConvertToBmp</a>
+
+<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
 
  
 

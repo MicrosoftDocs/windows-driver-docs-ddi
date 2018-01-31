@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ac705ff9-8019-47f9-8842-05f9152af29c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetRequestAttributes method, kmdf.wdfdeviceinitsetrequestattributes, WdfDeviceInitSetRequestAttributes, wdfdevice/WdfDeviceInitSetRequestAttributes, wdf.wdfdeviceinitsetrequestattributes, PFN_WDFDEVICEINITSETREQUESTATTRIBUTES, DFDeviceObjectGeneralRef_30c50afa-81a1-4f3c-a2b0-987920922a4f.xml
+ms.keywords: kmdf.wdfdeviceinitsetrequestattributes, WdfDeviceInitSetRequestAttributes, wdf.wdfdeviceinitsetrequestattributes, WdfDeviceInitSetRequestAttributes method, PFN_WDFDEVICEINITSETREQUESTATTRIBUTES, DFDeviceObjectGeneralRef_30c50afa-81a1-4f3c-a2b0-987920922a4f.xml, wdfdevice/WdfDeviceInitSetRequestAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfDeviceInitSetRequestAttributes(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param RequestAttributes [in]
+#### - RequestAttributes [in]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the device's request objects.
 

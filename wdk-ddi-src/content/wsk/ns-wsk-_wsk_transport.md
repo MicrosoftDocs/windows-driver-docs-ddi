@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWSK_TRANSPORT, wsk/WSK_TRANSPORT, wsk/PWSK_TRANSPORT, netvista.wsk_transport, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], _WSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, PWSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], WSK_TRANSPORT"
+ms.keywords: wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, *PWSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, _WSK_TRANSPORT, netvista.wsk_transport, WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], PWSK_TRANSPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _WSK_TRANSPORT {
 
 
 
-### -field Version
+#### - Version
 
 The version of the transport. The format of the version number is transport-specific.
 
 
-### -field SocketType
+#### - SocketType
 
 The type of socket that is supported by the transport. This member can be one of the following:
      
@@ -105,21 +105,21 @@ Supports unreliable connectionless datagram communication.
 Supports raw access to the transport protocol.
 
 
-### -field Protocol
+#### - Protocol
 
 The protocol that is supported by the transport. For more information about the protocols that are
      supported for each supported address family, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
-### -field AddressFamily
+#### - AddressFamily
 
 The address family that is supported by the transport. For more information about supported
      address families, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
-### -field ProviderId
+#### - ProviderId
 
 The identifier of the transport provider that implements the transport.
 
@@ -152,11 +152,11 @@ A single transport provider can support multiple combinations of values for the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
  
 

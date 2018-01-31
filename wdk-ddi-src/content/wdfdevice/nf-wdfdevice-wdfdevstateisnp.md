@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 49584600-e470-4be8-9111-3e890a9fedfd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevStateIsNP, WdfDevStateIsNP method, DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml, PFN_WDFDEVSTATEISNP, wdf.wdfdevstateisnp, wdfdevice/WdfDevStateIsNP, kmdf.wdfdevstateisnp
+ms.keywords: wdf.wdfdevstateisnp, WdfDevStateIsNP method, DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml, kmdf.wdfdevstateisnp, wdfdevice/WdfDevStateIsNP, WdfDevStateIsNP, PFN_WDFDEVSTATEISNP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BOOLEAN WdfDevStateIsNP(
 
 
 
-### -param State [in]
+#### - State [in]
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a>-typed enumerator or a <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_policy_state.md">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator.
 
@@ -94,9 +94,9 @@ To obtain the current state of the framework's power state machine, a driver can
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpageable.md">WdfDeviceInitSetPowerPageable</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpageable.md">WdfDeviceInitSetPowerPageable</a>
 
  
 

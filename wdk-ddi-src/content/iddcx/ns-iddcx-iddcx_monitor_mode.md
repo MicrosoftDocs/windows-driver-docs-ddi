@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95e1778a-4f65-40ee-8ad2-f797ce9e95b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_MONITOR_MODE, iddcx/IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], display.iddcx_monitor_mode
+ms.keywords: iddcx/IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], IDDCX_MONITOR_MODE, display.iddcx_monitor_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,21 +70,21 @@ typedef struct IDDCX_MONITOR_MODE {
 
 
 
-### -field Size
+#### - Size
 
 
                      Total size of the structure.
                  
 
 
-### -field Origin
+#### - Origin
 
 
                      Where the driver derived this mode from.
                  
 
 
-### -field MonitorVideoSignalInfo
+#### - MonitorVideoSignalInfo
 
 
                      This is the details of the Monitor mode.

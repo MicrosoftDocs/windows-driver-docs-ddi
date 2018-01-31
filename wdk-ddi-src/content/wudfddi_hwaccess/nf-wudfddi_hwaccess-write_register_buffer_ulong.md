@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0FBDC2F0-81E3-4EF3-9ECB-77AD8195E0CC
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.write_register_buffer_ulong, WRITE_REGISTER_BUFFER_ULONG, umdf.write_register_buffer_ulong, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG, WRITE_REGISTER_BUFFER_ULONG function
+ms.keywords: wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG, umdf.write_register_buffer_ulong, WRITE_REGISTER_BUFFER_ULONG function, wdf.write_register_buffer_ulong, WRITE_REGISTER_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_REGISTER_BUFFER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ void WRITE_REGISTER_BUFFER_ULONG(
 
 
 
-### -param pDevice [in]
+#### - pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a buffer from which an array of ULONG values is to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG values to write to the register.
 

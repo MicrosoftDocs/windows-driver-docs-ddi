@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e397d36c-3f28-4a70-9b4a-f13be094d47b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfilterfactorygetnextsiblingfilterfactory, ks/KsFilterFactoryGetNextSiblingFilterFactory, KsFilterFactoryGetNextSiblingFilterFactory, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices], avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml
+ms.keywords: stream.ksfilterfactorygetnextsiblingfilterfactory, KsFilterFactoryGetNextSiblingFilterFactory, ks/KsFilterFactoryGetNextSiblingFilterFactory, avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PKSFILTERFACTORY __inline KsFilterFactoryGetNextSiblingFilterFactory(
 
 
 
-### -param FilterFactory [in]
+#### - FilterFactory [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to return the next filter factory of its parent device.
 
@@ -88,11 +88,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
 <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
 
 <a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
-
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
  
 

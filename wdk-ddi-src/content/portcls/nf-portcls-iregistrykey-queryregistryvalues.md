@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eb3aa7ec-65f7-4e3d-8059-e9627de9818c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRegistryKey::QueryRegistryValues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, QueryRegistryValues method [Audio Devices], IRegistryKey interface, audio.iregistrykey_queryregistryvalues, portcls/IRegistryKey::QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues, IRegistryKey interface [Audio Devices], QueryRegistryValues method, IRegistryKey
+ms.keywords: audio.iregistrykey_queryregistryvalues, IRegistryKey interface [Audio Devices], QueryRegistryValues method, QueryRegistryValues method [Audio Devices], IRegistryKey::QueryRegistryValues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, IRegistryKey, portcls/IRegistryKey::QueryRegistryValues, QueryRegistryValues method [Audio Devices], IRegistryKey interface, QueryRegistryValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRegistryKey.QueryRegistryValues
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IRegistryKey::QueryRegistryValues method
@@ -68,12 +68,12 @@ NTSTATUS QueryRegistryValues(
 
 
 
-### -param QueryTable [in]
+#### - QueryTable [in]
 
 Pointer to an array of one or more RTL_QUERY_REGISTRY_TABLE structures. (This structure is described in <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>.) Each structure specifies the value name and subkey name for a registry entry that the caller is querying. Each structure also contains a function pointer to a caller-supplied <b>QueryRoutine</b> callback that the <code>QueryRegistryValues</code> method will call with information about the corresponding registry entry. The array must be terminated by a structure with a <b>Name</b> member that is <b>NULL</b>.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 This is a caller-defined context value. The <code>QueryRegistryValues</code> method passes this value as a call parameter to each of the <b>QueryRoutine</b> callbacks. The context value is typically a pointer to a caller-defined structure containing context data that the caller's <b>QueryRoutine</b> accesses. The context value is cast to pointer type PVOID, but the <code>QueryRegistryValues</code> method performs no validation of the pointer.
 

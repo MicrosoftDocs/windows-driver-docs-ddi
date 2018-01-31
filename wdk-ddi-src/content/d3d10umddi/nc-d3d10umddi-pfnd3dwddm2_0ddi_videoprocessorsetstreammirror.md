@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamMirror
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback
@@ -75,34 +75,34 @@ VOID APIENTRY* pfnVideoProcessorSetStreamMirror(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param hVideoProcessor [in]
+#### - hVideoProcessor [in]
 
 Handle to the video processor object.
 
 
-### -param StreamIndex [in]
+#### - StreamIndex [in]
 
 Indicates the input stream.
 
 
-### -param Enable [in]
+#### - Enable [in]
 
 Indicates whether mirroring support is enabled or disabled.
 
 
-### -param FlipHorizontal [in]
+#### - FlipHorizontal [in]
 
 Indicates whether the input stream should be flipped horizontally.
 
 
 <div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div><div> </div>
 
-### -param FlipVertical [in]
+#### - FlipVertical [in]
 
 Indicates whether the input stream should be flipped vertically.
 

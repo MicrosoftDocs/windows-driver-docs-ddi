@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a1651745-08f0-44f2-bb9f-825d6497db42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni interface [Print Devices], FilterGraphics method, FilterGraphics, FilterGraphics method [Print Devices], prcomoem/IPrintOemUni::FilterGraphics, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml, print.iprintoemuni_filtergraphics, IPrintOemUni::FilterGraphics, IPrintOemUni, FilterGraphics method [Print Devices], IPrintOemUni interface
+ms.keywords: IPrintOemUni::FilterGraphics, FilterGraphics method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml, IPrintOemUni, print.iprintoemuni_filtergraphics, FilterGraphics, FilterGraphics method [Print Devices], prcomoem/IPrintOemUni::FilterGraphics, IPrintOemUni interface [Print Devices], FilterGraphics method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT FilterGraphics(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param pBuf
+#### - pBuf
 
 Caller-supplied pointer to a buffer containing scan line data to be printed.
 
 
-### -param dwLen
+#### - dwLen
 
 Caller-supplied value representing the length, in bytes, of the data pointed to by <i>pBuf</i>.
 
@@ -189,19 +189,19 @@ The <code>IPrintOemUni::FilterGraphics</code> method gives you access to the sca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556281">DrvSendPage</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
 
 <a href="..\printoem\nf-printoem-oemfiltergraphics.md">OEMFilterGraphics</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556281">DrvSendPage</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
 
  
 

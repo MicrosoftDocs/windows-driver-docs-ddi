@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 98993973-91a4-456a-9343-c744408055ed
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cip_validate_info, 61883/PCIP_VALIDATE_INFO, *PCIP_VALIDATE_INFO, _CIP_VALIDATE_INFO, CIP_VALIDATE_INFO, PCIP_VALIDATE_INFO, 61883/CIP_VALIDATE_INFO, 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml, CIP_VALIDATE_INFO structure [Buses], PCIP_VALIDATE_INFO structure pointer [Buses]
+ms.keywords: 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml, IEEE.cip_validate_info, CIP_VALIDATE_INFO structure [Buses], *PCIP_VALIDATE_INFO, PCIP_VALIDATE_INFO, _CIP_VALIDATE_INFO, PCIP_VALIDATE_INFO structure pointer [Buses], 61883/CIP_VALIDATE_INFO, 61883/PCIP_VALIDATE_INFO, CIP_VALIDATE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_VALIDATE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PCIP_VALIDATE_INFO, CIP_VALIDATE_INFO"
+req.typenames: CIP_VALIDATE_INFO, *PCIP_VALIDATE_INFO
 ---
 
 # _CIP_VALIDATE_INFO structure
@@ -70,22 +70,22 @@ typedef struct _CIP_VALIDATE_INFO {
 
 
 
-### -field hConnect
+#### - hConnect
 
 A handle to the connection.
 
 
-### -field Context
+#### - Context
 
 Points to the context provided by the caller at <b>ValidateContext</b> in the input CIP_FRAME structure.
 
 
-### -field TimeStamp
+#### - TimeStamp
 
 The timestamp of the current source packet.
 
 
-### -field Packet
+#### - Packet
 
 The packet offset for the current source packet.
 

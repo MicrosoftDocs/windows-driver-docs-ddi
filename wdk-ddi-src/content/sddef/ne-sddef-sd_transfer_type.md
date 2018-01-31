@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 5ae1c898-d06e-42ff-bddb-42d6748dac0f
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: sddef/SDTT_MULTI_BLOCK_NO_CMD12, SDTT_SINGLE_BLOCK, SDTT_UNSPECIFIED, sd-structs_5a149cc8-e6ba-4700-ad7c-148429d9731f.xml, SDTT_MULTI_BLOCK, SD_TRANSFER_TYPE enumeration [Buses], SD.sd_transfer_type, sddef/SDTT_SINGLE_BLOCK, sddef/SDTT_CMD_ONLY, SD_TRANSFER_TYPE, SDTT_MULTI_BLOCK_NO_CMD12, sddef/SD_TRANSFER_TYPE, sddef/SDTT_MULTI_BLOCK, sddef/SDTT_UNSPECIFIED, SDTT_CMD_ONLY
+ms.keywords: sd-structs_5a149cc8-e6ba-4700-ad7c-148429d9731f.xml, SDTT_SINGLE_BLOCK, sddef/SDTT_CMD_ONLY, sddef/SD_TRANSFER_TYPE, sddef/SDTT_UNSPECIFIED, sddef/SDTT_MULTI_BLOCK, SD_TRANSFER_TYPE enumeration [Buses], SD.sd_transfer_type, SDTT_MULTI_BLOCK_NO_CMD12, SDTT_CMD_ONLY, SDTT_UNSPECIFIED, sddef/SDTT_MULTI_BLOCK_NO_CMD12, sddef/SDTT_SINGLE_BLOCK, SDTT_MULTI_BLOCK, SD_TRANSFER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum  {
 
 
 
-### -field SDTT_UNSPECIFIED
+#### - SDTT_UNSPECIFIED
 
 Unspecified.
 
 
-### -field SDTT_CMD_ONLY
+#### - SDTT_CMD_ONLY
 
 Indicates that the request involves a transfer of command information or small amounts of data over the CMD line only. It does not involve a data transfer over the DAT lines. This transfer type includes operations such as card selection, the transfer of descriptors during initialization of a card, or the retrieval of a byte of information from a card register.
 
 
-### -field SDTT_SINGLE_BLOCK
+#### - SDTT_SINGLE_BLOCK
 
 Indicates that the request reads or writes a single block. The I/O block size register specifies the size, in bytes, of a block.
 
 
-### -field SDTT_MULTI_BLOCK
+#### - SDTT_MULTI_BLOCK
 
 Indicates that the request reads or writes multiple blocks of data. The I/O block size register specifies the size, in bytes, of a block.
 
 
-### -field SDTT_MULTI_BLOCK_NO_CMD12
+#### - SDTT_MULTI_BLOCK_NO_CMD12
 
 Indicates that the request reads or writes multiple blocks of data. The transfer terminates automatically and does not require termination by a CMD12 command. For a description of the CMD12 command, see the <i>MultiMedia Card</i> specification.
 

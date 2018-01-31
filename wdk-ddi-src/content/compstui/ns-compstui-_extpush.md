@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EXTPUSH structure [Print Devices], _EXTPUSH, compstui/EXTPUSH, PEXTPUSH, *PEXTPUSH, EXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush, compstui/PEXTPUSH, PEXTPUSH structure pointer [Print Devices]
+ms.keywords: PEXTPUSH, print.extpush, EXTPUSH structure [Print Devices], compstui/EXTPUSH, EXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, compstui/PEXTPUSH, *PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	EXTPUSH
 product: Windows
 targetos: Windows
-req.typenames: "*PEXTPUSH, EXTPUSH"
+req.typenames: EXTPUSH, *PEXTPUSH
 ---
 
 # _EXTPUSH structure
@@ -104,12 +104,12 @@ typedef struct _EXTPUSH {
  
 
 
-### -field cbSize
+#### - cbSize
 
 Size, in bytes, of the EXTPUSH structure.
 
 
-### -field Flags
+#### - Flags
 
 Bit flags, which can be one of the following:
 
@@ -176,12 +176,12 @@ If set, <b>hDlgTemplate</b> contains a template handle.
 If not set, <b>DlgTemplateID</b> contains a template resource identifier.
 
 
-### -field pTitle
+#### - pTitle
 
 String identifier, representing the push button title. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
 
 
-### -field IconID
+#### - IconID
 
 One of the following icon identifiers:
 <ul>
@@ -196,7 +196,7 @@ An icon handle. If a handle is specified, EPF_ICONID_AS_HICON must be set in the
 </ul>CPSUI displays the icon next to the push button. If this value is zero, an icon is not displayed.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved, must be initialized to zero.
 

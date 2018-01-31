@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7A10B5E7-293E-4E28-BAB8-E189891A851A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlLookupElementGenericTableAvl routine [Installable File System Drivers], RtlLookupElementGenericTableAvl, ntddk/RtlLookupElementGenericTableAvl, ifsk.rtllookupelementgenerictableavl
+ms.keywords: RtlLookupElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictableavl, RtlLookupElementGenericTableAvl, ntddk/RtlLookupElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PVOID RtlLookupElementGenericTableAvl(
 
 
 
-### -param Table [in]
+#### - Table [in]
 
 Pointer to the generic Adelson-Velsky/Landis (AVL) table (<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A buffer of search data to pass to the <i>CompareRoutine</i> that was registered when <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a> initialized the generic table. For more information, see the description of <b>RtlInitializeGenericTableAvl</b>.
 
@@ -111,11 +111,11 @@ The caller-supplied <i>CompareRoutine</i> contains pageable code.
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
 <a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
-
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
 
  
 

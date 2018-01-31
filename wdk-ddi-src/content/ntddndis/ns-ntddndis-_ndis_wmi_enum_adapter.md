@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 89fa481a-b6f4-4948-8fda-e1e19c58da28
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WMI_ENUM_ADAPTER, ntddndis/PNDIS_WMI_ENUM_ADAPTER, ndis_wmi_ref_a64c64b4-2108-4b99-937d-098197c5a72c.xml, netvista.ndis_wmi_enum_adapter, NDIS_WMI_ENUM_ADAPTER structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WMI_ENUM_ADAPTER, NDIS_WMI_ENUM_ADAPTER, _NDIS_WMI_ENUM_ADAPTER
+ms.keywords: ntddndis/PNDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER, _NDIS_WMI_ENUM_ADAPTER, *PNDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], ndis_wmi_ref_a64c64b4-2108-4b99-937d-098197c5a72c.xml, NDIS_WMI_ENUM_ADAPTER structure [Network Drivers Starting with Windows Vista], NDIS_WMI_ENUM_ADAPTER, ntddndis/NDIS_WMI_ENUM_ADAPTER, netvista.ndis_wmi_enum_adapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _NDIS_WMI_ENUM_ADAPTER {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for this
@@ -84,24 +84,24 @@ The
      sizeof(NDIS_WMI_ENUM_ADAPTER).
 
 
-### -field IfIndex
+#### - IfIndex
 
 The NDIS interface index of the NDIS miniport adapter interface that is associated with the
      GUID.
 
 
-### -field NetLuid
+#### - NetLuid
 
 The NDIS network interface name of the miniport adapter.
 
 
-### -field DeviceNameLength
+#### - DeviceNameLength
 
 The length, in bytes, of the device name of the NDIS miniport adapter interface that is associated
      with the GUID.
 
 
-### -field DeviceName
+#### - DeviceName
 
 The device name of the NDIS miniport adapter interface that is associated with the GUID. The
      device name is a null-terminated wide character string.

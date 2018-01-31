@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f03506f6-404e-4635-a9ad-f2f36164ff2f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR, storport/PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, storage.pri_reservation_descriptor, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], *PPRI_RESERVATION_DESCRIPTOR
+ms.keywords: storport/PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], *PPRI_RESERVATION_DESCRIPTOR, storport/PPRI_RESERVATION_DESCRIPTOR, structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], storage.pri_reservation_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct {
 
 
 
-### -field ReservationKey
+#### - ReservationKey
 
 The reservation key under which the persistent reservation is held.
 
 
-### -field ScopeSpecificAddress
+#### - ScopeSpecificAddress
 
 The ScopeSpecificAddress field contains the element address, that has zeros placed in the most significant bits to fit the field.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Must be zero.
 
 
-### -field Type
+#### - Type
 
 The type of the persistent reservation as present in the Persistent Reserve Out command that created the persistent reservation.
 
 
-### -field Scope
+#### - Scope
 
 The scope of the persistent reservation as present in the Persistent Reserve Out command that created the persistent reservation.
 
 
-### -field Obsolete
+#### - Obsolete
 
 Reserved. Must be zero.
 

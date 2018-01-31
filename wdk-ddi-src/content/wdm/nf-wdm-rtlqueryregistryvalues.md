@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlQueryRegistryValues, kernel.rtlqueryregistryvalues, RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml
+ms.keywords: RtlQueryRegistryValues, k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], wdm/RtlQueryRegistryValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ NTSTATUS RtlQueryRegistryValues(
 
 
 
-### -param RelativeTo [in]
+#### - RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined path as one of the following.
 <table>
@@ -167,12 +167,12 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use.
 </table> 
 
 
-### -param Path [in]
+#### - Path [in]
 
 Pointer to either an absolute registry path or a path relative to the known location specified by the <i>RelativeTo</i> parameter. Note that the names of keys in such a path must be known to the caller, including the last key in the path. If the RTL_REGISTRY_HANDLE flag is specified, this parameter is a registry handle for an already opened key to be queried directly.
 
 
-### -param QueryTable [in, out]
+#### - QueryTable [in, out]
 
 Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff559969">QueryRoutine</a> function that will be called for each value name that exists in the registry. The table must be terminated with a <b>NULL</b> table entry, which is a table entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The structure for query table entries is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -340,12 +340,12 @@ A pointer to the default value to be returned if no matching key is found and th
 Specifies the length, in bytes, of the <b>DefaultData</b> member. If <b>DefaultType</b> is REG_SZ, REG_EXPAND_SZ, or REG_MULTI_SZ, callers can optionally specify zero to indicate <b>RtlQueryRegistryValues</b> should compute the length based on the default data value. If <b>DefaultType</b> = REG_NONE, this member is ignored.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Specifies the value passed as the <i>Context</i> parameter of a <i>QueryRoutine</i> function each time it is called.
 
 
-### -param Environment [in, optional]
+#### - Environment [in, optional]
 
 Pointer to the environment used when expanding variable values in REG_EXPAND_SZ registry values, or a <b>NULL</b> pointer (optional).
 
@@ -522,17 +522,17 @@ See <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a> for a description
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559969">QueryRoutine</a>
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559969">QueryRoutine</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
  
 

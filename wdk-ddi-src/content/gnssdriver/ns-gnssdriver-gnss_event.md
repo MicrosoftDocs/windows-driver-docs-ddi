@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_EVENT structure [Sensor Devices], *PGNSS_EVENT, gnssdriver/PGNSS_EVENT, gnssdriver/GNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], sensors.gnss_event, GNSS_EVENT, PGNSS_EVENT
+ms.keywords: PGNSS_EVENT structure pointer [Sensor Devices], GNSS_EVENT, *PGNSS_EVENT, PGNSS_EVENT, sensors.gnss_event, gnssdriver/PGNSS_EVENT, gnssdriver/GNSS_EVENT, GNSS_EVENT structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,47 +83,47 @@ typedef struct {
 
 
 
-### -field FixData
+#### - FixData
 
 This structure is filled if EventType is GNSS_Fix_Available.
 
 
-### -field AgnssRequest
+#### - AgnssRequest
 
 This structure is filled if EventType is GNSS_Require_Agnss.
 
 
-### -field NiRequest
+#### - NiRequest
 
 This structure is filled if EventType is GNSS_Event_Ni.
 
 
-### -field ErrorInformation
+#### - ErrorInformation
 
 This structure is filled if EventType is GNSS_Error.
 
 
-### -field NmeaData
+#### - NmeaData
 
 This structure is filled if EventType is GNSS_Event_NmeaData.
 
 
-### -field GeofenceAlertData
+#### - GeofenceAlertData
 
 This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
 
 
-### -field BreadcrumbAlertData
+#### - BreadcrumbAlertData
 
 This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 
 
-### -field GeofencesTrackingStatus
+#### - GeofencesTrackingStatus
 
 This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
 
 
-### -field DriverRequestData
+#### - DriverRequestData
 
 This structure is filled if EventType is GNSS_Event_DriverRequest.
 
@@ -133,24 +133,24 @@ This structure is filled if EventType is GNSS_Event_DriverRequest.
  
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field EventType
+#### - EventType
 
 Event type.
 
 Depending on the event type, a specific data element of the union will be filled.
 
 
-### -field EventDataSize
+#### - EventDataSize
 
 The size of the event data union contained in this event.
 

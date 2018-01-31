@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14CA5FD1-00CB-474B-A2A3-4264CAFA063A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], display.d3dddicb_signalsynchronizationobjectfromcpu
+ms.keywords: d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], display.d3dddicb_signalsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 
 
-### -field ObjectCount
+#### - ObjectCount
 
 [in] The number of synchronization objects in the <b>ObjectHandleArray</b> and fence values in the <b>FenceValueArray</b>. 
 
 
-### -field ObjectHandleArray
+#### - ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events to signal.
 
 
-### -field FenceValueArray
+#### - FenceValueArray
 
 [in] An array of 64 bit monitored fence values to signal, each corresponding to an object in the <b>ObjectHandleArray</b>.
 

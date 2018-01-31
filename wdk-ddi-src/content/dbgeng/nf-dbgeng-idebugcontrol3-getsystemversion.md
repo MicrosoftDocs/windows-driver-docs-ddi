@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9418ac12-3de0-4477-a725-437700c4d83c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, debugger.getsystemversion, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetSystemVersion, IDebugControl3::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl2::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, GetSystemVersion, IDebugControl interface [Windows Debugging], GetSystemVersion method, dbgeng/IDebugControl2::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl2 interface
+ms.keywords: GetSystemVersion method [Windows Debugging], IDebugControl2 interface, GetSystemVersion, IDebugControl3, GetSystemVersion method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetSystemVersion method, IDebugControl2::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, dbgeng/IDebugControl3::GetSystemVersion, IDebugControl interface [Windows Debugging], GetSystemVersion method, dbgeng/IDebugControl::GetSystemVersion, IDebugControl3::GetSystemVersion, debugger.getsystemversion, IDebugControl::GetSystemVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,52 +78,52 @@ HRESULT GetSystemVersion(
 
 
 
-### -param PlatformId [out]
+#### - PlatformId [out]
 
 Receives the platform ID. <i>PlatformId</i> is always VER_PLATFORM_WIN32_NT for NT-based Windows.   
 
 
-### -param Major [out]
+#### - Major [out]
 
 Receives 0xF if the target's operating system is a <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">free build</a>, or 0xC if the operating system is a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">checked build</a>.
 
 
-### -param Minor [out]
+#### - Minor [out]
 
 Receives the build number for the target's operating system.
 
 
-### -param ServicePackString [out, optional]
+#### - ServicePackString [out, optional]
 
 Receives the string for the service pack level of the target computer.  If <i>ServicePackString</i> is <b>NULL</b>, this information is not returned.  If no service pack is installed, <i>ServicePackString</i> can be empty.
 
 
-### -param ServicePackStringSize [in]
+#### - ServicePackStringSize [in]
 
 Specifies the size, in characters, of the buffer that <i>ServicePackString</i> specifies.
 
 
-### -param ServicePackStringUsed [out, optional]
+#### - ServicePackStringUsed [out, optional]
 
 Receives the size, in characters, of the string of the service pack level.  If <i>ServicePackStringUsed</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ServicePackNumber [out]
+#### - ServicePackNumber [out]
 
 Receives the service pack level of the target's operating system.
 
 
-### -param BuildString [out, optional]
+#### - BuildString [out, optional]
 
 Receives the string that identifies the build of the system.  If <i>BuildString</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BuildStringSize [in]
+#### - BuildStringSize [in]
 
 Specifies the size, in characters, of the buffer that <i>BuildString</i> specifies.
 
 
-### -param BuildStringUsed [out, optional]
+#### - BuildStringUsed [out, optional]
 
 Receives the size, in characters, of the string that identifies the build.  If <i>BuildStringUsed</i> is <b>NULL</b>, this information is not returned.
 
@@ -172,13 +172,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

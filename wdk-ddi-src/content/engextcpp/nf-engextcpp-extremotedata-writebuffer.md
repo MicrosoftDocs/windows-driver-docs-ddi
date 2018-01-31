@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b50f0cf3-4cd5-4f9e-9749-49b1c9365a8f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData::WriteBuffer, EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, ExtRemoteData, WriteBuffer, WriteBuffer method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_writebuffer, ExtRemoteData class [Windows Debugging], WriteBuffer method, WriteBuffer method [Windows Debugging]
+ms.keywords: ExtRemoteData class [Windows Debugging], WriteBuffer method, WriteBuffer method [Windows Debugging], debugger.extremotedata_writebuffer, WriteBuffer, WriteBuffer method [Windows Debugging], ExtRemoteData class, EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, ExtRemoteData, ExtRemoteData::WriteBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.WriteBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteData::WriteBuffer method
@@ -69,12 +69,12 @@ ULONG WriteBuffer(
 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Specifies the data to write to the target.
 
 
-### -param Bytes [in]
+#### - Bytes [in]
 
 Specifies the number of bytes to write.  The <i>Buffer</i> buffer must be at least this size.
 
@@ -99,9 +99,9 @@ Specifies what happens if the debugger engine is unable to write all the data to
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544088">ExtRemoteData::ReadBuffer</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	ProviderFreeDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_CHANNEL_FREE_HANDLER callback
@@ -75,7 +75,7 @@ VOID ProviderFreeDmaChannel(
 
 
 
-### -param ProviderChannelContext [in]
+#### - ProviderChannelContext [in]
 
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 

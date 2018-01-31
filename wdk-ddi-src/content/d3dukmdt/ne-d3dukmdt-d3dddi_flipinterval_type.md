@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fbfc270c-b8e3-4467-b99d-2d5932a50114
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_FLIPINTERVAL_TYPE, display.d3dddi_flipinterval_type, D3DDDI_FLIPINTERVAL_THREE, d3dukmdt/D3DDDI_FLIPINTERVAL_TWO, D3DDDI_FLIPINTERVAL_ONE, d3dukmdt/D3DDDI_FLIPINTERVAL_THREE, D3DDDI_FLIPINTERVAL_TWO, D3D_other_Structs_389c16ef-e25c-498e-994f-324efb96052c.xml, d3dukmdt/D3DDDI_FLIPINTERVAL_ONE, d3dukmdt/D3DDDI_FLIPINTERVAL_IMMEDIATE, d3dukmdt/D3DDDI_FLIPINTERVAL_TYPE, d3dukmdt/D3DDDI_FLIPINTERVAL_FOUR, D3DDDI_FLIPINTERVAL_IMMEDIATE, D3DDDI_FLIPINTERVAL_TYPE enumeration [Display Devices], D3DDDI_FLIPINTERVAL_FOUR
+ms.keywords: D3DDDI_FLIPINTERVAL_TYPE, d3dukmdt/D3DDDI_FLIPINTERVAL_TYPE, display.d3dddi_flipinterval_type, D3DDDI_FLIPINTERVAL_FOUR, d3dukmdt/D3DDDI_FLIPINTERVAL_TWO, d3dukmdt/D3DDDI_FLIPINTERVAL_IMMEDIATE, d3dukmdt/D3DDDI_FLIPINTERVAL_THREE, D3D_other_Structs_389c16ef-e25c-498e-994f-324efb96052c.xml, d3dukmdt/D3DDDI_FLIPINTERVAL_ONE, D3DDDI_FLIPINTERVAL_THREE, D3DDDI_FLIPINTERVAL_TYPE enumeration [Display Devices], d3dukmdt/D3DDDI_FLIPINTERVAL_FOUR, D3DDDI_FLIPINTERVAL_IMMEDIATE, D3DDDI_FLIPINTERVAL_ONE, D3DDDI_FLIPINTERVAL_TWO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum D3DDDI_FLIPINTERVAL_TYPE {
 
 
 
-### -field D3DDDI_FLIPINTERVAL_IMMEDIATE
+#### - D3DDDI_FLIPINTERVAL_IMMEDIATE
 
 Indicates to perform the flip immediately without waiting for a vertical sync to occur. 
 
 
-### -field D3DDDI_FLIPINTERVAL_ONE
+#### - D3DDDI_FLIPINTERVAL_ONE
 
 Indicates to perform the flip on every vertical sync. 
 
 
-### -field D3DDDI_FLIPINTERVAL_TWO
+#### - D3DDDI_FLIPINTERVAL_TWO
 
 Indicates to perform the flip on every other vertical sync. 
 
 
-### -field D3DDDI_FLIPINTERVAL_THREE
+#### - D3DDDI_FLIPINTERVAL_THREE
 
 Indicates to perform the flip on every third vertical sync.
 
 
-### -field D3DDDI_FLIPINTERVAL_FOUR
+#### - D3DDDI_FLIPINTERVAL_FOUR
 
 Indicates to perform the flip on every fourth vertical sync.
 

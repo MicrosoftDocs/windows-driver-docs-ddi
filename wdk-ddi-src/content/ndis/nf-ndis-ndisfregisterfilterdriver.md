@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, netvista.ndisfregisterfilterdriver, ndis/NdisFRegisterFilterDriver, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], NdisFRegisterFilterDriver
+ms.keywords: NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, NdisFRegisterFilterDriver, ndis/NdisFRegisterFilterDriver, netvista.ndisfregisterfilterdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NDIS_STATUS NdisFRegisterFilterDriver(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 A pointer to an opaque driver object that the filter driver received in its 
      <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
@@ -83,7 +83,7 @@ A pointer to an opaque driver object that the filter driver received in its
      Drivers</b></mshelp:link>.)
 
 
-### -param FilterDriverContext [in]
+#### - FilterDriverContext [in]
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
@@ -94,7 +94,7 @@ A handle to a driver-allocated context area where the driver maintains state and
 TBD
 
 
-### -param NdisFilterDriverHandle [out]
+#### - NdisFilterDriverHandle [out]
 
 A pointer to a handle variable. If the call to 
      <b>
@@ -248,19 +248,19 @@ Filter drivers call the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
 
 <mshelp:link keywords="netvista.driverentry_of_ndis_filter_drivers" tabindex="0"><b>DriverEntry of NDIS Filter
    Drivers</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
    NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
  
 

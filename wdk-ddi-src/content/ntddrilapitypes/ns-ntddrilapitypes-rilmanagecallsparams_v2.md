@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7a4e0930-b499-4abd-bbf6-326ae928b5c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILMANAGECALLSPARAMS_V2, RILMANAGECALLSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], RILMANAGECALLSPARAMS_V2, ntddrilapitypes/RILMANAGECALLSPARAMS_V2, netvista.rilmanagecallsparams_v2"
+ms.keywords: netvista.rilmanagecallsparams_v2, RILMANAGECALLSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], *LPRILMANAGECALLSPARAMS_V2, ntddrilapitypes/RILMANAGECALLSPARAMS_V2, RILMANAGECALLSPARAMS_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILMANAGECALLSPARAMS_V2 {
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwCommand
+#### - dwCommand
 
 
 
-### -field dwID
+#### - dwID
 
 
 
-### -field fHasOfferAnswer
+#### - fHasOfferAnswer
 
 
 
-### -field rcmOfferAnswer
+#### - rcmOfferAnswer
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bcbbddc7-6675-4555-bd05-588762148554
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlcreatesystemvolumeinformationfolder, RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml, ntifs/RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlcreatesystemvolumeinformationfolder, ntifs/RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS RtlCreateSystemVolumeInformationFolder(
 
 
 
-### -param VolumeRootPath [in]
+#### - VolumeRootPath [in]
 
 A pointer to a path to the root of the volume.
 
@@ -111,9 +111,9 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
  
 

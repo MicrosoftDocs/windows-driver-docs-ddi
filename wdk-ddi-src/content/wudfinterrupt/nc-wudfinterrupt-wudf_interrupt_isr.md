@@ -79,12 +79,12 @@ BOOLEAN OnInterruptIsr(
 
 
 
-### -param MessageID [in]
+#### - MessageID [in]
 
 If the device is using message-signaled interrupts (MSIs), this parameter is the message number that identifies the device's hardware interrupt message. Otherwise, this value is 0.
 
 
-### -param Reserved [in]
+#### - Reserved [in]
 
 Reserved for system use.
 

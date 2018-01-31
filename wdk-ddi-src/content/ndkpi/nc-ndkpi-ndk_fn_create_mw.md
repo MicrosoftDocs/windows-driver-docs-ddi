@@ -40,7 +40,7 @@ apiname:
 -	NdkCreateMw
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_CREATE_MW callback
@@ -73,25 +73,24 @@ NTSTATUS NdkCreateMw(
 
 
 
-### -param *pNdkPd
+#### - *pNdkPd [in]
+
+A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
 
 
-
-### -param CreateCompletion [in]
+#### - CreateCompletion [in]
 
 A pointer to an <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
-### -param RequestContext [in, optional]
+#### - RequestContext [in, optional]
 
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 
-### -param **ppNdkMw
+#### - **ppNdkMw
 
-
-
-
+A pointer to a created MW object (<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>) is returned in this location if  the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 #### - pNdkPd [in]
@@ -174,13 +173,13 @@ The <i>NdkCreateMw</i> function creates an  NDK memory window (MW) object that c
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
  
 

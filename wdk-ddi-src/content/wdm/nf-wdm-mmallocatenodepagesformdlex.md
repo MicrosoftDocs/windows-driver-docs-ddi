@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 491327A4-87B5-4206-9D47-007CE14E1327
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx, kernel.mmallocatenodepagesformdlex, MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatenodepagesformdlex, wdm/MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ PMDL MmAllocateNodePagesForMdlEx(
 
 
 
-### -param LowAddress [in]
+#### - LowAddress [in]
 
 The physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocateNodePagesForMdlEx</b> cannot allocate the requested number of bytes in the first address range, the routine iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocateNodePagesForMdlEx</b> adds the value of <i>SkipBytes</i> to the previous start address to calculate the start of the next address range.
 
 
-### -param HighAddress [in]
+#### - HighAddress [in]
 
 The physical address of the end of the first address range that the allocated pages can come from.
 
 
-### -param SkipBytes [in]
+#### - SkipBytes [in]
 
 The number of bytes to skip from the start of the previous address range that the allocated pages can come from. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes.
 
 
-### -param TotalBytes [in]
+#### - TotalBytes [in]
 
 The total number of bytes to allocate for the MDL.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 A <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 
-### -param IdealNode [in]
+#### - IdealNode [in]
 
 The ideal node number. If a multiprocessor system contains N nodes, valid node numbers are in the range 0 to N-1. Your driver can call the <a href="..\ntddk\nf-ntddk-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a> routine to get the highest node number. A single-processor or non-NUMA multiprocessor system has only one node, node 0, from which to allocate memory. For a NUMA multiprocessor system, the allocation is made from the ideal node, if possible. If insufficient memory is available in the ideal node to satisfy the allocation request, and the caller does not set the MM_ALLOCATE_FROM_LOCAL_NODE_ONLY flag, <b>MmAllocateNodePagesForMdlEx</b> will try to allocate memory from other nodes.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags for this operation. Set this parameter to zero or to the bitwise-OR of one or more of the following flag bits:
 <ul>
@@ -172,17 +172,17 @@ By default, <b>MmAllocateNodePagesForMdlEx</b> fills the pages that it allocates
 
 <a href="..\ntddk\nf-ntddk-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a>
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7754d47f-9e21-44c7-8a6f-141d18623ddf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, netvista.ndis_protocol_pause_parameters, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml, *PNDIS_PROTOCOL_PAUSE_PARAMETERS, _NDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS
+ms.keywords: NDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS, *PNDIS_PROTOCOL_PAUSE_PARAMETERS, netvista.ndis_protocol_pause_parameters, ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_PROTOCOL_PAUSE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,12 +83,12 @@ The
      <b>Size</b> member to NDIS_SIZEOF_PROTOCOL_PAUSE_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 Reserved.
 
 
-### -field PauseReason
+#### - PauseReason
 
 <div class="alert"><b>Note</b>  This member is deprecated for NDIS 6.40 and later drivers.</div><div> </div>The value will always be NDIS_PAUSE_NDIS_INTERNAL.
 
@@ -106,9 +106,9 @@ To specify the pause parameters for a binding, NDIS passes a pointer to an
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
  
 

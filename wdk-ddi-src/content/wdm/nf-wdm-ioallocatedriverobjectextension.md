@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e4e4e721-5b5c-48e8-99cb-d04c6b0eb807
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], wdm/IoAllocateDriverObjectExtension, k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, kernel.ioallocatedriverobjectextension, IoAllocateDriverObjectExtension
+ms.keywords: kernel.ioallocatedriverobjectextension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], IoAllocateDriverObjectExtension, k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, wdm/IoAllocateDriverObjectExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS IoAllocateDriverObjectExtension(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 Pointer to a driver object to which the context area will be associated.
 
 
-### -param ClientIdentificationAddress [in]
+#### - ClientIdentificationAddress [in]
 
 Specifies a unique identifier for the context area to be allocated.
 
 
-### -param DriverObjectExtensionSize [in]
+#### - DriverObjectExtensionSize [in]
 
 Specifies the length, in bytes, of the context area to be allocated.
 
 
-### -param DriverObjectExtension [out]
+#### - DriverObjectExtension [out]
 
 Pointer to, on completion, the allocated context area. 
 

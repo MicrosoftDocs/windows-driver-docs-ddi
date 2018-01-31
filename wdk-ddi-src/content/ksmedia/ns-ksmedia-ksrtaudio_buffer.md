@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b80efaf0-ecee-40cd-befb-2139a20840a5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSRTAUDIO_BUFFER, ksmedia/KSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], *PKSRTAUDIO_BUFFER, audio.ksrtaudio_buffer, aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], ksmedia/PKSRTAUDIO_BUFFER
+ms.keywords: ksmedia/PKSRTAUDIO_BUFFER, audio.ksrtaudio_buffer, PKSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, KSRTAUDIO_BUFFER structure [Audio Devices], KSRTAUDIO_BUFFER, ksmedia/KSRTAUDIO_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRTAUDIO_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: "*PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER"
+req.typenames: KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER
 ---
 
 # KSRTAUDIO_BUFFER structure
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field BufferAddress
+#### - BufferAddress
 
 Specifies the base address of the cyclic buffer. This is a virtual memory address through which the user-mode client can directly access the buffer. The driver writes the actual base address of the allocated buffer into this member.
 
 
-### -field ActualBufferSize
+#### - ActualBufferSize
 
 Specifies the buffer size, in bytes. The driver sets this member to the actual size of the allocated buffer.
 
 
-### -field CallMemoryBarrier
+#### - CallMemoryBarrier
 
 Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE </a>,
 
@@ -95,9 +95,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537494">KSRTAUDIO_BUFFER_PROPERTY</a>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
  
 

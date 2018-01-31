@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0503B73-EDFA-4742-BAFA-4FEE56F0A3C8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE, pepfx/PEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE, _PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: PPEP_PLATFORM_IDLE_STATE, *PPEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE, _PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PLATFORM_IDLE_STATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PLATFORM_IDLE_STATE, *PPEP_PLATFORM_IDLE_STATE
+req.typenames: "*PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE"
 ---
 
 # _PEP_PLATFORM_IDLE_STATE structure
@@ -73,39 +73,39 @@ typedef struct _PEP_PLATFORM_IDLE_STATE {
 
 
 
-### -field InitiatingProcessor
+#### - InitiatingProcessor
 
 A <b>POHANDLE</b> value that identifies the processor that initiates the transition to this platform idle state, or <b>NULL</b> if any processor can initiate the transition. If non-NULL, this handle represents the registration of the processor (as a device) with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
 
 
-### -field InitiatingState
+#### - InitiatingState
 
 The index of the processor idle state that the processor enters to initiate the platform's entry to the specified platform idle state. If the <b>IdleStates</b> array in the <a href="..\pepfx\ns-pepfx-_pep_ppm_query_idle_states_v2.md">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure contains N elements, the idle states are numbered 0 to Nâ€“1 in the order in which they appear in the array.
 
 
-### -field Latency
+#### - Latency
 
 The worst-case latency, in 100-nanosecond units, that the platform requires to wake from this idle state in response to a wake event.
 
 
-### -field BreakEvenDuration
+#### - BreakEvenDuration
 
 The minimum amount of time, specified in 100-nanosecond units, that the platform must spend in this idle state to make a transition to this state worthwhile. PoFx uses this member value as a hint to avoid switching the platform to an idle state unless the platform is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
 
 
 
 
-### -field DependencyArrayUsed
+#### - DependencyArrayUsed
 
 The number of items in <b>DependencyArray</b> which were filled in by the PEP.
 
 
-### -field DependencyArrayCount
+#### - DependencyArrayCount
 
 The number of elements in the <b>DependencyArray</b> array. The array contains one element for each processor in the hardware platform.
 
 
-### -field DependencyArray
+#### - DependencyArray
 
 The first element in an array of <a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a> structures. This array specifies the set of dependencies that the platform idle state has on each processor. If the platform contains N processors, the array contains N elements, and processors are numbered 0 to N-1 in the order in which they are represented in the array.
 
@@ -119,11 +119,11 @@ This structure is used in conjunction with the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a>
+
 <a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_ppm_query_idle_states_v2.md">PEP_PPM_QUERY_IDLE_STATES_V2</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_ppm_query_platform_state.md">PEP_PPM_QUERY_PLATFORM_STATE</a>
 

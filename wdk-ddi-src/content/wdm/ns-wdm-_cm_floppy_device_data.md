@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ef0d242-4ed6-4c48-85b8-0fc87d3fe39b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_CM_FLOPPY_DEVICE_DATA, wdm/CM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA structure [Kernel-Mode Driver Architecture], CM_FLOPPY_DEVICE_DATA, kernel.cm_floppy_device_data, PCM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA, kstruct_a_7ec8badb-4d88-479e-b0dc-ce88660b8449.xml, wdm/PCM_FLOPPY_DEVICE_DATA, PCM_FLOPPY_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: "_CM_FLOPPY_DEVICE_DATA, kstruct_a_7ec8badb-4d88-479e-b0dc-ce88660b8449.xml, wdm/PCM_FLOPPY_DEVICE_DATA, PCM_FLOPPY_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/CM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA, PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA structure [Kernel-Mode Driver Architecture], kernel.cm_floppy_device_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,103 +85,103 @@ typedef struct _CM_FLOPPY_DEVICE_DATA {
 
 
 
-### -field Version
+#### - Version
 
 The version number of this structure.
 
 
-### -field Revision
+#### - Revision
 
 The revision of this structure.
 
 
-### -field Size
+#### - Size
 
 The floppy disk density size.
 
 
-### -field MaxDensity
+#### - MaxDensity
 
 The maximum density.
 
 
-### -field MountDensity
+#### - MountDensity
 
 The mount density.
 
 
-### -field StepRateHeadUnloadTime
+#### - StepRateHeadUnloadTime
 
 The step rate head unload time in milliseconds.
 
 
-### -field HeadLoadTime
+#### - HeadLoadTime
 
 The head load time in milliseconds.
 
 
-### -field MotorOffTime
+#### - MotorOffTime
 
 The motor off time in seconds.
 
 
-### -field SectorLengthCode
+#### - SectorLengthCode
 
 Indicates the sector size as an exponent in the formula ((2**<i>code</i>) * 128). 
 
 
-### -field SectorPerTrack
+#### - SectorPerTrack
 
 The number of sectors per track.
 
 
-### -field ReadWriteGapLength
+#### - ReadWriteGapLength
 
 The read/write gap length, in bytes.
 
 
-### -field DataTransferLength
+#### - DataTransferLength
 
 The data transfer length, in bytes, not including the synchronization field.
 
 
-### -field FormatGapLength
+#### - FormatGapLength
 
 The format gap length, in bytes.
 
 
-### -field FormatFillCharacter
+#### - FormatFillCharacter
 
 The format fill character.
 
 
-### -field HeadSettleTime
+#### - HeadSettleTime
 
 The head settle time in milliseconds.
 
 
-### -field MotorSettleTime
+#### - MotorSettleTime
 
 The motor settle time in milliseconds.
 
 
-### -field MaximumTrackValue
+#### - MaximumTrackValue
 
 The maximum track number on the media. Track numbers are zero-based values.
 
 
-### -field DataTransferRate
+#### - DataTransferRate
 
 The value written to the Datarate register before accessing the media. 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

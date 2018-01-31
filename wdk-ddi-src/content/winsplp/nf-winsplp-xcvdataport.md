@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: XcvDataPort, XcvDataPort function [Print Devices], spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, winsplp/XcvDataPort, print.xcvdataport
+ms.keywords: print.xcvdataport, XcvDataPort function [Print Devices], winsplp/XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ DWORD XcvDataPort(
 
 
 
-### -param hXcv [in]
+#### - hXcv [in]
 
 Caller-supplied printer handle, obtained by calling <b>OpenPrinter</b> (described in the Microsoft Windows SDK documentation). This handle is created and returned by the <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function.
 
 
-### -param pszDataName [in]
+#### - pszDataName [in]
 
 Caller-supplied pointer to a string representing the name of the data being requested. For more information, see the following Remarks section.
 
 
-### -param pInputData [in]
+#### - pInputData [in]
 
 Caller-supplied pointer to a buffer containing input data.
 
 
-### -param cbInputData
+#### - cbInputData
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pInputData</i>.
 
 
-### -param pOutputData [out]
+#### - pOutputData [out]
 
 Caller-supplied pointer to a buffer to receive output data.
 
 
-### -param cbOutputData
+#### - cbOutputData
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputData</i>.
 
 
-### -param pcbOutputNeeded [out]
+#### - pcbOutputNeeded [out]
 
 Caller-supplied pointer to a location to receive the minimum size, in bytes, required for the buffer pointed to by <i>pOutputData</i>.
 

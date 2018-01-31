@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 881253d2-b44d-4c41-ad72-b0143dc50803
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortEnablePassiveInitialization, storage.storportenablepassiveinitialization, StorPortEnablePassiveInitialization routine [Storage Devices], StorPortEnablePassiveInitialization, storprt_faea18e4-c684-4010-aca4-177132c011c5.xml
+ms.keywords: storage.storportenablepassiveinitialization, storport/StorPortEnablePassiveInitialization, StorPortEnablePassiveInitialization, storprt_faea18e4-c684-4010-aca4-177132c011c5.xml, StorPortEnablePassiveInitialization routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PSILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], ntddk/SILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, _SILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], *PSILO_MONITOR_REGISTRATION
+ms.keywords: ntddk/SILO_MONITOR_REGISTRATION, _SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], ntddk/PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SILO_MONITOR_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION
+req.typenames: "*PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION"
 ---
 
 # _SILO_MONITOR_REGISTRATION structure
@@ -86,32 +86,32 @@ typedef struct _SILO_MONITOR_REGISTRATION {
  
 
 
-### -field Version
+#### - Version
 
 Set to <b>SERVER_SILO_MONITOR_REGISTRATION_VERSION</b>.
 
 
-### -field MonitorHost
+#### - MonitorHost
 
 If <b>true</b>, a create notification will be delivered for the host context.
 
 
-### -field MonitorExistingSilos
+#### - MonitorExistingSilos
 
 If <b>true</b>, create and terminate notifications will be delivered for any silos that currently exist at the time of registration; otherwise, only notifications for new silos will be delivered.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field CreateCallback
+#### - CreateCallback
 
 A pointer to a callback that is invoked whenever a new server silo is created on the system.  This value may be <b>NULL</b>.  This gives drivers to opportunity to handle the event and set up per-silo data structures.
 
 
-### -field TerminateCallback
+#### - TerminateCallback
 
 A pointer to a callback that is invoked whenever a server silo is terminated (about to be destroyed) on the system.  This value may be <b>NULL</b>.  This gives drivers the opportunity to complete work within the silo and begin tearing down their per-silo data structures.
 

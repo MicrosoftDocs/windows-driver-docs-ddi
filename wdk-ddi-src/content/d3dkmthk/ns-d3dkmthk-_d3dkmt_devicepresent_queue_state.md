@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DEVICEPRESENT_QUEUE_STATE structure [Display Devices], d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE, _D3DKMT_DEVICEPRESENT_QUEUE_STATE, display.d3dkmt_devicepresent_queue_state, D3DKMT_DEVICEPRESENT_QUEUE_STATE
+ms.keywords: "_D3DKMT_DEVICEPRESENT_QUEUE_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE, D3DKMT_DEVICEPRESENT_QUEUE_STATE structure [Display Devices], D3DKMT_DEVICEPRESENT_QUEUE_STATE, display.d3dkmt_devicepresent_queue_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_DEVICEPRESENT_QUEUE_STATE {
 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 Indicates the present source id.
 
 
-### -field bQueuedPresentLimitReached
+#### - bQueuedPresentLimitReached
 
 Indicates whether the queued present limit has been reached.
 

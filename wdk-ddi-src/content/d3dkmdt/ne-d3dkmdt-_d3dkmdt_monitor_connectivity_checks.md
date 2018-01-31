@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8a32fef1-e404-478d-8b99-064ed456e37c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_MCC_ENFORCE, DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices], D3DKMDT_MCC_UNINITIALIZED, d3dkmdt/D3DKMDT_MCC_ENFORCE, d3dkmdt/D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MCC_IGNORE, _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, display.d3dkmdt_monitor_connectivity_checks, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
+ms.keywords: D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices], DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml, d3dkmdt/D3DKMDT_MCC_ENFORCE, d3dkmdt/D3DKMDT_MCC_IGNORE, D3DKMDT_MCC_ENFORCE, _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MCC_UNINITIALIZED, display.d3dkmdt_monitor_connectivity_checks, D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS {
 
 
 
-### -field D3DKMDT_MCC_UNINITIALIZED
+#### - D3DKMDT_MCC_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_MONITOR_CONNECTIVITY_CHECKS has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_MCC_IGNORE
+#### - D3DKMDT_MCC_IGNORE
 
 Indicates that <b>DxgkDdiCommitVidPn</b> does not need to verify that monitors are connected.
 
 
-### -field D3DKMDT_MCC_ENFORCE
+#### - D3DKMDT_MCC_ENFORCE
 
 Indicates that <b>DxgkDdiCommitVidPn</b> must verify that monitors are connected.
 

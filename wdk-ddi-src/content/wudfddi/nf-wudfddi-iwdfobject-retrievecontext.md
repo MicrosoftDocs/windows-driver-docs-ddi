@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b76acae1-3c37-4095-bf8b-1785dc90f378
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFObject interface, RetrieveContext method, RetrieveContext method, IWDFObject interface, IWDFObject::RetrieveContext, umdf.iwdfobject_retrievecontext, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext, IWDFObject, RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, RetrieveContext method
+ms.keywords: UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, IWDFObject, IWDFObject::RetrieveContext, umdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext, wdf.iwdfobject_retrievecontext, RetrieveContext method, IWDFObject interface, IWDFObject interface, RetrieveContext method, RetrieveContext method, RetrieveContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.RetrieveContext
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT RetrieveContext(
 
 
 
-### -param ppvContext [out]
+#### - ppvContext [out]
 
 A pointer to a buffer that receives a pointer to the previously registered context. 
 

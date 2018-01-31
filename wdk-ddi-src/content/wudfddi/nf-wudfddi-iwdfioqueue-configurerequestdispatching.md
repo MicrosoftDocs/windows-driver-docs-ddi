@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376b0cc3-8189-499e-ad7f-5844f8cb4221
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, ConfigureRequestDispatching method, IWDFIoQueue::ConfigureRequestDispatching, IWDFIoQueue interface, ConfigureRequestDispatching method, wdf.iwdfioqueue_configurerequestdispatching, ConfigureRequestDispatching method, IWDFIoQueue interface, ConfigureRequestDispatching, wudfddi/IWDFIoQueue::ConfigureRequestDispatching
+ms.keywords: UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, ConfigureRequestDispatching method, IWDFIoQueue interface, ConfigureRequestDispatching method, ConfigureRequestDispatching, IWDFIoQueue interface, ConfigureRequestDispatching method, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, wdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue::ConfigureRequestDispatching, IWDFIoQueue, umdf.iwdfioqueue_configurerequestdispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.ConfigureRequestDispatching
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT ConfigureRequestDispatching(
 
 
 
-### -param RequestType [in]
+#### - RequestType [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type to be queued. The only valid values are <b>WdfRequestCreate</b>, <b>WdfRequestRead</b>, <b>WdfRequestWrite</b>, and <b>WdfRequestDeviceIoControl</b>.
 
 
-### -param Forward [in]
+#### - Forward [in]
 
 A BOOL value that specifies whether requests of the specified type are queued. <b>TRUE</b> indicates to enable queuing requests; <b>FALSE</b> indicates to disable queuing requests.
 

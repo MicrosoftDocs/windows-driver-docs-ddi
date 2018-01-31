@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvPopulateFilterServices function [Print Devices], DrvPopulateFilterServices, filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
+ms.keywords: DrvPopulateFilterServices, filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices, DrvPopulateFilterServices function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ HRESULT WINAPI DrvPopulateFilterServices(
 
 
 
-### -param pPropertyBag [in]
+#### - pPropertyBag [in]
 
 Pointer to a print pipeline property bag.
 
@@ -90,9 +90,9 @@ The <a href="https://msdn.microsoft.com/7567c514-3034-4db0-9622-31d14eb3772e">XP
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a>
 
-<a href="https://msdn.microsoft.com/586247bd-6d06-4728-a5f0-ee3fe1d09321">Filter pipeline configuration file</a>
-
 <a href="https://msdn.microsoft.com/7567c514-3034-4db0-9622-31d14eb3772e">XPSDrv printer driver</a>
+
+<a href="https://msdn.microsoft.com/586247bd-6d06-4728-a5f0-ee3fe1d09321">Filter pipeline configuration file</a>
 
  
 

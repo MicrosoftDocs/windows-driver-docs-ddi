@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14df0604-39cd-4743-a051-894d63f4417c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDISK_PARTITION_INFO, _DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices], *PDISK_PARTITION_INFO, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, ntdddisk/DISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Storage Devices], storage.disk_partition_info, ntdddisk/PDISK_PARTITION_INFO, DISK_PARTITION_INFO
+ms.keywords: PDISK_PARTITION_INFO structure pointer [Storage Devices], structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, _DISK_PARTITION_INFO, ntdddisk/PDISK_PARTITION_INFO, storage.disk_partition_info, *PDISK_PARTITION_INFO, PDISK_PARTITION_INFO, DISK_PARTITION_INFO, ntdddisk/DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,12 +107,12 @@ typedef struct _DISK_PARTITION_INFO {
  
 
 
-### -field SizeOfPartitionInfo
+#### - SizeOfPartitionInfo
 
 Size of this structure in bytes. Set to <b>sizeof</b>(DISK_PARTITION_INFO).
 
 
-### -field PartitionStyle
+#### - PartitionStyle
 
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table the disk contains.
 

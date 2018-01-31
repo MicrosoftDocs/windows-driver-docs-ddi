@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a97f39b7-9356-45f1-b0a2-bd18eb4c7467
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PMSiSCSI_HBASessionConfig, _MSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig, iscsimgt/PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml, MSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], storage.msiscsi_hbasessionconfig, iscsimgt/MSiSCSI_HBASessionConfig"
+ms.keywords: storage.msiscsi_hbasessionconfig, *PMSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig, _MSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], iscsimgt/PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], iscsimgt/MSiSCSI_HBASessionConfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_HBASessionConfig
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig
+req.typenames: "*PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig"
 ---
 
 # _MSiSCSI_HBASessionConfig structure
@@ -72,7 +72,7 @@ typedef struct _MSiSCSI_HBASessionConfig {
 
 
 
-### -field InitialR2T
+#### - InitialR2T
 
 A Boolean value that indicates if the HBA initiator requests permission from the target to transmit unsolicited SCSI data whenever it establishes a new session. If this member is <b>TRUE</b>, the HBA initiator requests permission from the target to transmit unsolicited SCSI data whenever it establishes a new session. By default, the initiator does not transmit SCSI data until the target solicits the data by sending a ready-to-transmit (R2T) request, with a buffer offset of 0 and a desired transfer length equal to the minimum of the first burst size and the expected data transfer. 
 
@@ -81,29 +81,29 @@ If <b>InitialR2T</b> is <b>TRUE</b>, the initiator sends a protocol data unit (P
 If this member is <b>FALSE</b>, all sessions that the initiator creates follow the default behavior. For more information about the InitialR2T key, see the <i>IP Storage Working Group</i> specification. 
 
 
-### -field ImmediateData
+#### - ImmediateData
 
 A Boolean value that indicates if the initiator requests permission from the target to transmit immediate data whenever it establishes a new session. If this member is <b>TRUE</b>, the initiator requests permission from the target to transmit immediate data whenever it establishes a new session. (<i>Immediate data</i> is data that the initiator piggybacks onto an iSCSI command PDU.) 
 
 The session's policy with regard to immediate data is determined by a negotiation between the initiator and the target. For more information about how the values in <b>ImmediateData</b> and <b>InitialR2T</b> affect the negotiation, see the <i>IP Storage Working Group</i> specification.
 
 
-### -field MaxRecvDataSegmentLength
+#### - MaxRecvDataSegmentLength
 
 The maximum length, in bytes, of a PDU data segment.
 
 
-### -field MaxBurstLength
+#### - MaxBurstLength
 
 The maximum length, in bytes, of the SCSI data payload in a sequence of input (Data-In) PDUs or solicited output (Data-Out) PDUs.
 
 
-### -field FirstBurstLength
+#### - FirstBurstLength
 
 The maximum amount, in bytes, of unsolicited data that an initiator can send to a target during the execution of a single SCSI command. This amount includes the immediate data, if any, and the sequence of unsolicited Data-Out PDUs, if any, that follow the command.
 
 
-### -field MaxOutstandingR2T
+#### - MaxOutstandingR2T
 
 The maximum number of outstanding R2T requests for each task, excluding the first R2T that initiates the task. An R2T is considered <i>outstanding</i> until the last data PDU (with the F bit set to 1) is transferred, or until a sequence reception time-out occurs for that PDU data sequence.
 

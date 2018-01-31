@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1500E2C2-240F-4087-9275-9FD4170B8BED
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsRuntimePower, portcls/IPortClsRuntimePower::RegisterPowerControlCallback, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method, IPortClsRuntimePower::RegisterPowerControlCallback, audio.iportclsruntimepower_registerpowercontrolcallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, RegisterPowerControlCallback
+ms.keywords: audio.iportclsruntimepower_registerpowercontrolcallback, IPortClsRuntimePower, portcls/IPortClsRuntimePower::RegisterPowerControlCallback, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method, RegisterPowerControlCallback, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsRuntimePower.RegisterPowerControlCallback
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsRuntimePower::RegisterPowerControlCallback method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 03820d4d-d013-40fb-a686-1b228f178f50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_AdapterEvent, storage.msiscsi_adapterevent, iscsiop/MSiSCSI_AdapterEvent, _MSiSCSI_AdapterEvent, structs-iSCSI_86ec7324-3d5c-44d2-8972-691504f1c5e1.xml, PMSiSCSI_AdapterEvent structure pointer [Storage Devices], MSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent structure [Storage Devices], iscsiop/PMSiSCSI_AdapterEvent, *PMSiSCSI_AdapterEvent
+ms.keywords: MSiSCSI_AdapterEvent, _MSiSCSI_AdapterEvent, PMSiSCSI_AdapterEvent structure pointer [Storage Devices], PMSiSCSI_AdapterEvent, *PMSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent structure [Storage Devices], iscsiop/MSiSCSI_AdapterEvent, storage.msiscsi_adapterevent, structs-iSCSI_86ec7324-3d5c-44d2-8972-691504f1c5e1.xml, iscsiop/PMSiSCSI_AdapterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_AdapterEvent
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_AdapterEvent, *PMSiSCSI_AdapterEvent
+req.typenames: "*PMSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent"
 ---
 
 # _MSiSCSI_AdapterEvent structure
@@ -68,12 +68,12 @@ typedef struct _MSiSCSI_AdapterEvent {
 
 
 
-### -field UniqueAdapterId
+#### - UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
 
 
-### -field EventCode
+#### - EventCode
 
 An <a href="..\iscsiop\ne-iscsiop-piscsi_adapter_event_code.md">ISCSI_ADAPTER_EVENT_CODE</a> enumeration value that indicates the type of adapter event that occurred.
 

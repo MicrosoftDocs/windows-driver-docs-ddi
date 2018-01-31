@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMATRANSACTIONALLOCATERESOURCES, WdfDmaTransactionAllocateResources method, WdfDmaTransactionAllocateResources, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources
+ms.keywords: WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources, PFN_WDFDMATRANSACTIONALLOCATERESOURCES, WdfDmaTransactionAllocateResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,27 +76,27 @@ NTSTATUS WdfDmaTransactionAllocateResources(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to the DMA transaction object for which DMA resources should be reserved.
 
 
-### -param DmaDirection [in]
+#### - DmaDirection [in]
 
 A <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>-typed value specifying the DMA transfer direction for which the resources are being reserved. If the driver did not specify a duplex profile, the framework ignores this value.
 
 
-### -param RequiredMapRegisters [in]
+#### - RequiredMapRegisters [in]
 
 The number of map registers the driver wants to reserve. If zero, the framework derives the required number of map registers from the initialized transaction.
 
 
-### -param EvtReserveDmaFunction [in]
+#### - EvtReserveDmaFunction [in]
 
 A pointer to the driver's <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_reserve_dma.md">EvtReserveDma</a> event callback function.
 
 
-### -param EvtReserveDmaContext [in]
+#### - EvtReserveDmaContext [in]
 
 A pointer to a buffer containing the context to be provided to the driver's <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_reserve_dma.md">EvtReserveDma</a> event callback function.
 
@@ -178,15 +178,15 @@ To call <b>WdfDmaTransactionAllocateResources</b> in a non-blocking manner, the 
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
  
 

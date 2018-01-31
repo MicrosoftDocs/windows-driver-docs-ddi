@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71CDBF47-B32D-4084-B2F6-9F8C037FCB79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 structure [Display Devices], display.d3d12ddi_resource_allocation_info_0022
+ms.keywords: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, d3d12umddi/D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, display.d3d12ddi_resource_allocation_info_0022, D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 {
 
 
 
-### -field ResourceDataSize
+#### - ResourceDataSize
 
 The data size of  the resource. 
 
@@ -85,37 +85,37 @@ The data size of  the resource.
  
 
 
-### -field AdditionalDataSize
+#### - AdditionalDataSize
 
 The additional data size.
 
 
-### -field ResourceDataAlignment
+#### - ResourceDataAlignment
 
 The data alignment of the resource.
 
 
-### -field AdditionalDataHeaderAlignment
+#### - AdditionalDataHeaderAlignment
 
 The data alignment of the additional header.
 
 
-### -field AdditionalDataAlignment
+#### - AdditionalDataAlignment
 
 The additional data alignment. 
 
 
-### -field Layout
+#### - Layout
 
 The texture layout as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_texture_layout.md">D3D12DDI_TEXTURE_LAYOUT</a> value. 
 
 
-### -field MipLevelSwizzleTransition
+#### - MipLevelSwizzleTransition
 
 The MIP level for a swizzle transition.
 
 
-### -field PlaneSliceSwizzleTransition
+#### - PlaneSliceSwizzleTransition
 
 The plane slice for a swizzle transition. 
 

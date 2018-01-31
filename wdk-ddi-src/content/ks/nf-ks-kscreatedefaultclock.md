@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], stream.kscreatedefaultclock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, KsCreateDefaultClock
+ms.keywords: KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock, ks/KsCreateDefaultClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS KsCreateDefaultClock(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP with the clock-create request being handled.
 
 
-### -param DefaultClock [in]
+#### - DefaultClock [in]
 
 Specifies an initialize default clock structure that is shared among any instance of the default clock for the parent.
 

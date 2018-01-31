@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA114D60-60EE-4D1D-B42C-A84CE54C8B95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_COPYFLAGS structure [Display Devices], d3dumddi/D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS, display.d3dddiarg_copyflags
+ms.keywords: display.d3dddiarg_copyflags, D3DDDIARG_COPYFLAGS, d3dumddi/D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,42 +76,42 @@ typedef struct D3DDDIARG_COPYFLAGS {
 
 
 
-### -field NoOverwrite
+#### - NoOverwrite
 
 Specifies that the caller guarantees that the portion of the surface that is being written to with new data is not currently being referenced or accessed by any previous render operation. The driver can take advantage of this capability to optimize performance and memory usage.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Discard
+#### - Discard
 
 Specifies that the user-mode display driver can discard previous contents of the entire resource. The driver can take advantage of this capability to optimize performance and memory usage.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field Reserved1
+#### - Reserved1
 
 This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting bits 3 through 24 (0x00FFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field BoxValid
+#### - BoxValid
 
 Specifies that a destination region of the subresource to be copied to is valid. When not set, the entire subresource must be updated.
 
 Setting this member is equivalent to setting the twenty-fifth bit of the 32-bit <b>Value</b> member (0x01000000).
 
 
-### -field Reserved2
+#### - Reserved2
 
 This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting bits 26 through 32 (0xFE000000) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that <b>D3DDDIARG_COPYFLAGS</b> contains that can hold a 32-bit value that identifies how to handle the existing contents of a resource during a copy or update operation.
 

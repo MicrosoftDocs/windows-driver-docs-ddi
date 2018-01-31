@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 832da270-e1e1-41bf-a9cf-0b363c0d2d74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsReadPreviousRestartArea, kernel.clfsreadpreviousrestartarea, ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], ClfsReadPreviousRestartArea, Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml
+ms.keywords: Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml, ClfsReadPreviousRestartArea, wdm/ClfsReadPreviousRestartArea, ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], kernel.clfsreadpreviousrestartarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS ClfsReadPreviousRestartArea(
 
 
 
-### -param pvReadContext [in]
+#### - pvReadContext [in]
 
 A pointer to a read context obtained by a previous call to <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>.
 
 
-### -param ppvRestartBuffer [out]
+#### - ppvRestartBuffer [out]
 
 A pointer to a variable that receives a pointer to the data buffer of the restart record that is read.
 
 
-### -param pcbRestartBuffer [out]
+#### - pcbRestartBuffer [out]
 
 A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by *<i>ppvRestartBuffer</i>. This is the length of the data buffer of the restart record that is read.
 
 
-### -param plsnRestart [out]
+#### - plsnRestart [out]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that receives the previous LSN of the restart record that was read.
 
@@ -116,9 +116,9 @@ With the <b>ReadPreviousLogRestartArea</b> routine, clients can implement a form
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
-
 <a href="..\wdm\nf-wdm-clfswriterestartarea.md">ClfsWriteRestartArea</a>
+
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
 

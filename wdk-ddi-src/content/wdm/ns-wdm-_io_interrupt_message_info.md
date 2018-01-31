@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d740d55e-6549-494d-9b2a-39d5c2e670d3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_e1d88b03-cc13-433c-b821-43315d776deb.xml, PIO_INTERRUPT_MESSAGE_INFO structure pointer [Kernel-Mode Driver Architecture], IO_INTERRUPT_MESSAGE_INFO structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO, IO_INTERRUPT_MESSAGE_INFO, kernel.io_interrupt_message_info, wdm/PIO_INTERRUPT_MESSAGE_INFO, *PIO_INTERRUPT_MESSAGE_INFO, _IO_INTERRUPT_MESSAGE_INFO, wdm/IO_INTERRUPT_MESSAGE_INFO
+ms.keywords: PIO_INTERRUPT_MESSAGE_INFO structure pointer [Kernel-Mode Driver Architecture], IO_INTERRUPT_MESSAGE_INFO, _IO_INTERRUPT_MESSAGE_INFO, *PIO_INTERRUPT_MESSAGE_INFO, wdm/PIO_INTERRUPT_MESSAGE_INFO, kernel.io_interrupt_message_info, IO_INTERRUPT_MESSAGE_INFO structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO, kstruct_b_e1d88b03-cc13-433c-b821-43315d776deb.xml, wdm/IO_INTERRUPT_MESSAGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _IO_INTERRUPT_MESSAGE_INFO {
 
 
 
-### -field UnifiedIrql
+#### - UnifiedIrql
 
 Specifies the IRQL at which the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a> routine runs. If the driver specified an interrupt spin lock for its interrupts, <b>UnifiedIrql</b> also specifies the IRQL at which the interrupt spin lock is acquired. 
 
 
-### -field MessageCount
+#### - MessageCount
 
 Specifies the number of message-signaled interrupts allocated for the driver.
 
 
-### -field MessageInfo
+#### - MessageInfo
 
 Variable-length array that specifies an <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">IO_INTERRUPT_MESSAGE_INFO_ENTRY</a> structure for each message-signaled interrupt allocated for the driver. The <b>MessageCount</b> member specifies the number of entries in this array. 
 
@@ -94,11 +94,11 @@ When a driver calls <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInt
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
+
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
 
 <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
 
  
 

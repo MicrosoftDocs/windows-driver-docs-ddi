@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 572477c7-8588-415e-b66f-adab977ab373
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtQueryQuotaInformationFile, ntifs/ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_226a807c-d14d-403f-bbef-f5b4e6491039.xml, NtQueryQuotaInformationFile, kernel.zwqueryquotainformationfile
+ms.keywords: NtQueryQuotaInformationFile, ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile routine [Kernel-Mode Driver Architecture], ntifs/ZwQueryQuotaInformationFile, ntifs/NtQueryQuotaInformationFile, k111_226a807c-d14d-403f-bbef-f5b4e6491039.xml, kernel.zwqueryquotainformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,47 +76,47 @@ NTSTATUS ZwQueryQuotaInformationFile(
 
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 A handle for the file object that represents the file or volume for which the quota information is requested.
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 The address of the caller's I/O status block.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A buffer to receive the quota information for the volume. The quota information is formatted as one or more <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a> structures. The <b>NextEntryOffset</b> field in the <b>FILE_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length in bytes of the buffer.
 
 
-### -param ReturnSingleEntry [in]
+#### - ReturnSingleEntry [in]
 
 A Boolean value that indicates if only a single entry should be returned rather than filling the buffer with as many entries as possible.
 
 
-### -param SidList [in, optional]
+#### - SidList [in, optional]
 
 An optional list of SIDs whose quota information is to be returned. Each entry in the list is a <a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a> structure. The <b>NextEntryOffset</b> field in the <b>FILE_GET_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
 
-### -param SidListLength [in]
+#### - SidListLength [in]
 
 The length in bytes of the <b>SID</b> list, if one was specified.
 
 
-### -param StartSid [in, optional]
+#### - StartSid [in, optional]
 
 An optional pointer to the <b>SID</b> of the entry at which to begin scanning the quota information. This parameter should be set if the returned information is to start with an entry other than the first SID. This parameter is ignored if a <i>SidList</i> parameter is specified. 
 
 
-### -param RestartScan [in]
+#### - RestartScan [in]
 
 A Boolean value that indicates whether the scan of the quota information is to be restarted from the beginning. Set this parameter to <b>TRUE</b> if the scan of the quota information is to start at the first entry in the volume's quota information list. Set to <b>FALSE</b> if resuming the scan from a previous call to <b>ZwQueryQuotaInformationFile</b>. The caller must set this parameter to <b>TRUE</b> when calling <b>ZwQueryQuotaInformationFile</b> for the first time.
 
@@ -192,9 +192,11 @@ If the underlying file system does not support quota information (FAT and CDFS f
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
@@ -202,11 +204,9 @@ If the underlying file system does not support quota information (FAT and CDFS f
 
 <a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
 
-<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
+<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-zwsetquotainformationfile.md">ZwSetQuotaInformationFile</a>
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
  
 

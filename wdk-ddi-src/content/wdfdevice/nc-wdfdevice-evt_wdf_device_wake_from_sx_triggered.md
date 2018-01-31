@@ -73,7 +73,7 @@ VOID EvtDeviceWakeFromSxTriggered(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
@@ -102,11 +102,11 @@ For more information about this callback function, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_disarm_wake_from_sx.md">EvtDeviceDisarmWakeFromSx</a>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_s0_triggered.md">EvtDeviceWakeFromS0Triggered</a>
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_disarm_wake_from_sx.md">EvtDeviceDisarmWakeFromSx</a>
 
  
 

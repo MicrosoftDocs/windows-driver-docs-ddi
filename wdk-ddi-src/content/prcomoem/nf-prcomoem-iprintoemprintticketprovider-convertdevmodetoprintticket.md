@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b2e029b7-32c0-4cef-8388-9d30aa5610d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemprintticketprovider_convertdevmodetoprintticket, ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, ConvertDevModeToPrintTicket method [Print Devices], print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket, IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method
+ms.keywords: print.iprintoemprintticketprovider_convertdevmodetoprintticket, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket, IPrintOemPrintTicketProvider, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml, ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method, ConvertDevModeToPrintTicket method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT ConvertDevModeToPrintTicket(
 
 
 
-### -param cbDevmode [in]
+#### - cbDevmode [in]
 
 The size, in bytes, of the input <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. The size includes both the public and private portions of this structure.
 
 
-### -param pDevmode [in]
+#### - pDevmode [in]
 
 A pointer to the input DEVMODEW structure.
 
 
-### -param cbDrvPrivateSize [in]
+#### - cbDrvPrivateSize [in]
 
 The size, in bytes, of the plug-in's private DEVMODEW structure. 
 
 
-### -param pPrivateDevmode [in]
+#### - pPrivateDevmode [in]
 
 A pointer to the plug-in's private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-### -param pPrintTicket [in, out]
+#### - pPrintTicket [in, out]
 
 A pointer to the partially-completed print ticket. When <code>IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</code> returns, all of the entries in the print ticket should be filled in.
 

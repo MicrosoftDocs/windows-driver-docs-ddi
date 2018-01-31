@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd5f29f7-e9c6-48c4-8704-5db37b8c6337
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_ea947de9-aea4-4e66-8686-f4ca5a1385c4.xml, wdf.wdfrequestgetinformation, WdfRequestGetInformation, kmdf.wdfrequestgetinformation, wdfrequest/WdfRequestGetInformation, WdfRequestGetInformation method, PFN_WDFREQUESTGETINFORMATION
+ms.keywords: WdfRequestGetInformation, DFRequestObjectRef_ea947de9-aea4-4e66-8686-f4ca5a1385c4.xml, PFN_WDFREQUESTGETINFORMATION, kmdf.wdfrequestgetinformation, WdfRequestGetInformation method, wdf.wdfrequestgetinformation, wdfrequest/WdfRequestGetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ ULONG_PTR WdfRequestGetInformation(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7c524181-c438-47ae-9180-1b0c623f24dc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl2::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], SetEffectiveProcessorType method, dbgeng/IDebugControl2::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], IDebugControl interface, IDebugControl::SetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging], SetEffectiveProcessorType method, debugger.seteffectiveprocessortype, IDebugControl interface [Windows Debugging], SetEffectiveProcessorType method, dbgeng/IDebugControl::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], dbgeng/IDebugControl3::SetEffectiveProcessorType, IDebugControl_284f54f4-897e-4329-b588-5eae0c638179.xml, SetEffectiveProcessorType
+ms.keywords: IDebugControl::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl3, SetEffectiveProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetEffectiveProcessorType, IDebugControl_284f54f4-897e-4329-b588-5eae0c638179.xml, SetEffectiveProcessorType method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], SetEffectiveProcessorType, dbgeng/IDebugControl3::SetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging], SetEffectiveProcessorType method, IDebugControl interface [Windows Debugging], SetEffectiveProcessorType method, IDebugControl2 interface [Windows Debugging], SetEffectiveProcessorType method, debugger.seteffectiveprocessortype, IDebugControl2::SetEffectiveProcessorType, dbgeng/IDebugControl::SetEffectiveProcessorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT SetEffectiveProcessorType(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies the type of the processor.  For possible values, see the <i>Type</i> parameter in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a>.
 
@@ -109,11 +109,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546595">GetEffectiveProcessorType</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

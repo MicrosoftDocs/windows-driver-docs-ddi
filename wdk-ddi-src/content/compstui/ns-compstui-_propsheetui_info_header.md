@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/PPROPSHEETUI_INFO_HEADER, compstui/PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, PROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER, _PROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], print.propsheetui_info_header
+ms.keywords: "_PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, compstui/PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], print.propsheetui_info_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,12 +90,12 @@ typedef struct _PROPSHEETUI_INFO_HEADER {
  
 
 
-### -field cbSize
+#### - cbSize
 
 CPSUI-supplied size, in bytes, of the PROPSHEETUI_INFO_HEADER structure.
 
 
-### -field Flags
+#### - Flags
 
 Optional, application-specified bit flags that modify the property sheet page's appearance. The flags listed in the following table can be used in any combination.
 <table>
@@ -156,17 +156,17 @@ If set, the <b>hIcon</b>/<b>IconID</b> union contains an icon handle. If not set
 </table> 
 
 
-### -field pTitle
+#### - pTitle
 
 String identifier, representing text to be displayed in the property sheet's title bar. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero. For printer interface DLLs, the string typically contains the printer's name.
 
 
-### -field hWndParent
+#### - hWndParent
 
 Handle to the window to be used as the parent of the property sheet. By default, CPSUI supplies the window handle that it received for the <i>hWndOwner</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546148">CommonPropertySheetUI</a>, but the application can overwrite that handle with another.
 
 
-### -field hInst
+#### - hInst
 
 Application-supplied instance handle, which CPSUI uses when loading application resources.
 

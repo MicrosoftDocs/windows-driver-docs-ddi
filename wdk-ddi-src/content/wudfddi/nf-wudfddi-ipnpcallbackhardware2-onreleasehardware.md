@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnReleaseHardware method, umdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2 interface, OnReleaseHardware method, wdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware, OnReleaseHardware method, IPnpCallbackHardware2 interface, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2, IPnpCallbackHardware2::OnReleaseHardware
+ms.keywords: wudfddi/IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2, OnReleaseHardware method, IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2 interface, OnReleaseHardware method, OnReleaseHardware method, OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, wdf.ipnpcallbackhardware2_onreleasehardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallbackHardware2.OnReleaseHardware
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT OnReleaseHardware(
 
 
 
-### -param pWdfDevice [in]
+#### - pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the framework device object.
 
 
-### -param pWdfResourcesTranslated [in]
+#### - pWdfResourcesTranslated [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
@@ -105,9 +105,9 @@ For information about parsing hardware resources, see <a href="https://docs.micr
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
 
  
 

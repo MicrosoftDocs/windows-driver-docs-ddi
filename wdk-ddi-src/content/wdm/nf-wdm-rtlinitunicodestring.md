@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c6ef7438-36a6-4da6-b745-2985d9b30614
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlInitUnicodeString, RtlInitUnicodeString routine [Kernel-Mode Driver Architecture], RtlInitUnicodeString, k109_10e59fa9-6f57-45db-bc11-520660f43b13.xml, kernel.rtlinitunicodestring
+ms.keywords: RtlInitUnicodeString, kernel.rtlinitunicodestring, RtlInitUnicodeString routine [Kernel-Mode Driver Architecture], k109_10e59fa9-6f57-45db-bc11-520660f43b13.xml, wdm/RtlInitUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID RtlInitUnicodeString(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
-### -param SourceString [in, optional]
+#### - SourceString [in, optional]
 
 For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
 
@@ -115,9 +115,9 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
-
 <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2f2c8cb5-0e84-467f-9671-735575835c3a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_CA_MODULE_UI, _BDA_CA_MODULE_UI, BDA_CA_MODULE_UI, stream.bda_ca_module_ui, BDA_CA_MODULE_UI structure [Streaming Media Devices], bdatypes/PBDA_CA_MODULE_UI, PBDA_CA_MODULE_UI structure pointer [Streaming Media Devices], bdaref_470f210b-d1cb-4615-a7c5-a4d8e21833d1.xml, bdatypes/BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI
+ms.keywords: bdatypes/PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI, bdatypes/BDA_CA_MODULE_UI, PBDA_CA_MODULE_UI structure pointer [Streaming Media Devices], BDA_CA_MODULE_UI structure [Streaming Media Devices], bdaref_470f210b-d1cb-4615-a7c5-a4d8e21833d1.xml, PBDA_CA_MODULE_UI, _BDA_CA_MODULE_UI, stream.bda_ca_module_ui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_CA_MODULE_UI
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI"
+req.typenames: BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI
 ---
 
 # _BDA_CA_MODULE_UI structure
@@ -69,17 +69,17 @@ typedef struct _BDA_CA_MODULE_UI {
 
 
 
-### -field ulFormat
+#### - ulFormat
 
 Value that specifies the format of the UI. 
 
 
-### -field ulbcDesc
+#### - ulbcDesc
 
 Number of descriptors in the <b>ulDesc</b> array. 
 
 
-### -field ulDesc
+#### - ulDesc
 
 Array of descriptors for the UI. 
 

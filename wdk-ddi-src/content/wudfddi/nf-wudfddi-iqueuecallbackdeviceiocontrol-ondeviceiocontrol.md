@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ed0eac1a-8e41-44c3-a538-9ec48492425f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IQueueCallbackDeviceIoControl, OnDeviceIoControl method, OnDeviceIoControl method, IQueueCallbackDeviceIoControl interface, IQueueCallbackDeviceIoControl interface, OnDeviceIoControl method, UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, IQueueCallbackDeviceIoControl::OnDeviceIoControl, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, OnDeviceIoControl
+ms.keywords: UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, IQueueCallbackDeviceIoControl, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, OnDeviceIoControl, IQueueCallbackDeviceIoControl interface, OnDeviceIoControl method, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, OnDeviceIoControl method, IQueueCallbackDeviceIoControl::OnDeviceIoControl, OnDeviceIoControl method, IQueueCallbackDeviceIoControl interface, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackDeviceIoControl.OnDeviceIoControl
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -74,17 +74,17 @@ void  OnDeviceIoControl(
 
 
 
-### -param pWdfQueue [in]
+#### - pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from. 
 
 
-### -param pWdfRequest [in]
+#### - pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object. 
 
 
-### -param ControlCode [in]
+#### - ControlCode [in]
 
 The driver-defined or system-defined I/O control code (IOCTL) that identifies the specific operation to be performed and that is associated with the request.
 
@@ -134,11 +134,11 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 

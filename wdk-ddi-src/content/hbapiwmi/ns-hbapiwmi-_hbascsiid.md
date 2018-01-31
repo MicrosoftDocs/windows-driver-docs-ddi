@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 654892eb-96eb-49e4-be1e-d5144b146903
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBAScsiID, HBAScsiID structure [Storage Devices], storage.hbascsiid, hbapiwmi/HBAScsiID, _HBAScsiID, *PHBAScsiID, PHBAScsiID, PHBAScsiID structure pointer [Storage Devices], structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml, hbapiwmi/PHBAScsiID
+ms.keywords: hbapiwmi/HBAScsiID, *PHBAScsiID, PHBAScsiID, HBAScsiID structure [Storage Devices], HBAScsiID, hbapiwmi/PHBAScsiID, _HBAScsiID, structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml, storage.hbascsiid, PHBAScsiID structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAScsiID
 product: Windows
 targetos: Windows
-req.typenames: "*PHBAScsiID, HBAScsiID"
+req.typenames: HBAScsiID, *PHBAScsiID
 ---
 
 # _HBAScsiID structure
@@ -70,22 +70,22 @@ typedef struct _HBAScsiID {
 
 
 
-### -field ScsiBusNumber
+#### - ScsiBusNumber
 
 Contains the bus number. 
 
 
-### -field ScsiTargetNumber
+#### - ScsiTargetNumber
 
 Contains the target device number. 
 
 
-### -field ScsiOSLun
+#### - ScsiOSLun
 
 Contains the logical unit number (LUN). 
 
 
-### -field OSDeviceName
+#### - OSDeviceName
 
 Contains a nonpersistent target name such as "\Device\HarddiskVolume1".
 

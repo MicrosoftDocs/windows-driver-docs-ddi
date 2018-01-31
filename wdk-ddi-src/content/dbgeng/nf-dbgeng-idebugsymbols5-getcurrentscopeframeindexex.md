@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D8198BB-583F-4828-8131-61EB17621F32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols5::GetCurrentScopeFrameIndexEx, IDebugSymbols5, GetCurrentScopeFrameIndexEx, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], GetCurrentScopeFrameIndexEx method, debugger.idebugsymbols5_getcurrentscopeframeindexex, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx
+ms.keywords: GetCurrentScopeFrameIndexEx, IDebugSymbols5::GetCurrentScopeFrameIndexEx, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], GetCurrentScopeFrameIndexEx method, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface, debugger.idebugsymbols5_getcurrentscopeframeindexex, IDebugSymbols5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetCurrentScopeFrameIndexEx(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param Index [out]
+#### - Index [out]
 
 A pointer to an index that this function gets.
 

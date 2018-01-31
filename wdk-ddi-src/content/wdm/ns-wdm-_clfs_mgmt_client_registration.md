@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f4f7ece-efe4-49f7-a6ce-bc131d1c1968
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION structure [Kernel-Mode Driver Architecture], wdm/PCLFS_MGMT_CLIENT_REGISTRATION, _CLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION, kstruct_a_b4089ae7-0e80-4da0-b062-cda3d5aa65f4.xml, kernel.clfs_mgmt_client_registration, *PCLFS_MGMT_CLIENT_REGISTRATION
+ms.keywords: kstruct_a_b4089ae7-0e80-4da0-b062-cda3d5aa65f4.xml, CLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION structure [Kernel-Mode Driver Architecture], kernel.clfs_mgmt_client_registration, wdm/PCLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], *PCLFS_MGMT_CLIENT_REGISTRATION, _CLFS_MGMT_CLIENT_REGISTRATION, wdm/CLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLFS_MGMT_CLIENT_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: CLFS_MGMT_CLIENT_REGISTRATION, *PCLFS_MGMT_CLIENT_REGISTRATION
+req.typenames: "*PCLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION"
 req.product: Windows 10 or later.
 ---
 
@@ -74,46 +74,46 @@ typedef struct _CLFS_MGMT_CLIENT_REGISTRATION {
 
 
 
-### -field Version
+#### - Version
 
 The version of the <b>CLFS_MGMT_CLIENT_REGISTRATION</b> structure. Set this to <b>CLFS_MGMT_CLIENT_REGISTRATION_VERSION</b>.
 
 
-### -field AdvanceTailCallback
+#### - AdvanceTailCallback
 
 A pointer to the log's <a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a> function.
 
 
-### -field AdvanceTailCallbackData
+#### - AdvanceTailCallbackData
 
 A pointer to user-defined data that will be supplied to the <i>ClfsAdvanceTailCallback</i> function when the function is invoked. 
 
 
-### -field LogGrowthCompleteCallback
+#### - LogGrowthCompleteCallback
 
 A pointer to the log's <a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a> function.
 
 
-### -field LogGrowthCompleteCallbackData
+#### - LogGrowthCompleteCallbackData
 
 A pointer to user-defined data that will be supplied to the <i>ClfsLogGrowthCompleteCallback</i> function when the function is invoked. 
 
 
-### -field LogUnpinnedCallback
+#### - LogUnpinnedCallback
 
 A pointer to the log's <a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md">ClfsLogUnpinnedCallback</a> function.
 
 
-### -field LogUnpinnedCallbackData
+#### - LogUnpinnedCallbackData
 
 A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCallback</i> function when the function is invoked. 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
-
 <a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a>
+
+<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
 
 <a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md">ClfsLogUnpinnedCallback</a>
 

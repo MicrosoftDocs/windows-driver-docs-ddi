@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c0c61c6a-35fe-410a-b3e8-70d33557bb9b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLineWide method, GetSourceEntriesByLineWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByLineWide, IDebugSymbols3::GetSourceEntriesByLineWide, GetSourceEntriesByLineWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSourceEntriesByLineWide, IDebugSymbols3, debugger.getsourceentriesbylinewide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLineWide method, GetSourceEntriesByLineWide method [Windows Debugging], GetSourceEntriesByLineWide, debugger.getsourceentriesbylinewide, IDebugSymbols3, IDebugSymbols3::GetSourceEntriesByLineWide, dbgeng/IDebugSymbols3::GetSourceEntriesByLineWide, GetSourceEntriesByLineWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetSourceEntriesByLineWide(
 
 
 
-### -param Line [in]
+#### - Line [in]
 
 Specifies the line in the source file for which to query.  The number for the first line is <b>1</b>.
 
 
-### -param File [in]
+#### - File [in]
 
 Specifies the source file.  The symbols for each module in the target are queried for this file.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies bit flags that control the behavior of this method.  <i>Flags</i> can be any combination of values from the following table.
 <table>
@@ -137,12 +137,12 @@ Only return at most one result.  If DEBUG_GSEL_ALLOW_LOWER or DEBUG_GSEL_ALLOW_H
 To use the default set of flags, set <i>Flags</i> to DEBUG_GSEL_DEFAULT.  This has all the flags in the previous table turned off.
 
 
-### -param Entries [out, optional]
+#### - Entries [out, optional]
 
 Receives the locations in the target's memory that correspond to the source lines queried for.  Each entry in this array is of type <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> and contains the source line number along with a location in the target's memory.
 
 
-### -param EntriesCount [in]
+#### - EntriesCount [in]
 
 Specifies the number of entries in the <i>Entries</i> array.
 
@@ -215,9 +215,9 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
-
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

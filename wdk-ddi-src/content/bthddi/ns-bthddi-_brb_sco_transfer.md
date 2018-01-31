@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_SCO_TRANSFER structure [Bluetooth Devices], _BRB_SCO_TRANSFER, bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, bltooth._brb_sco_transfer, bthddi/_BRB_SCO_TRANSFER"
+ms.keywords: bltooth._brb_sco_transfer, _BRB_SCO_TRANSFER structure [Bluetooth Devices], bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, _BRB_SCO_TRANSFER, bthddi/_BRB_SCO_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,19 +75,19 @@ struct _BRB_SCO_TRANSFER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The Bluetooth address of the remote device.
 
 
-### -field ChannelHandle
+#### - ChannelHandle
 
 The SCO channel handle that was returned by Bluetooth driver stack in response to an earlier 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a> or 
@@ -95,7 +95,7 @@ The SCO channel handle that was returned by Bluetooth driver stack in response t
      BRB_SCO_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
 
 
-### -field TransferFlags
+#### - TransferFlags
 
 Flags that specify the basic behavior of the BRB. Valid flag values are listed in the following
      table.
@@ -129,25 +129,25 @@ If this bit is set, the BRB writes isochronousdata to a remote device through th
 </table> 
 
 
-### -field BufferSize
+#### - BufferSize
 
 The size, in bytes, of the input buffer described by the 
      <b>Buffer</b> member of this structure.
 
 
-### -field Buffer
+#### - Buffer
 
 A pointer to the input buffer. This value should be <b>NULL</b> when the 
      <b>Buffer</b> member is not used.
 
 
-### -field BufferMDL
+#### - BufferMDL
 
 A pointer to the MDL input buffer. This value should be <b>NULL</b> when the 
      <b>BufferMDL</b> member is not used.
 
 
-### -field DataTag
+#### - DataTag
 
 
 
@@ -184,13 +184,13 @@ If both
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
 <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a>
 
  
 

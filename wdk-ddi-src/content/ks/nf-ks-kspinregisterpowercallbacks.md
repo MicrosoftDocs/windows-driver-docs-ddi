@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e498a907-8d20-4d00-9411-8e82030af223
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinRegisterPowerCallbacks function [Streaming Media Devices], ks/KsPinRegisterPowerCallbacks, KsPinRegisterPowerCallbacks, stream.kspinregisterpowercallbacks, avfunc_2e133cdb-6afa-47a7-8d3b-8293b63428b5.xml
+ms.keywords: stream.kspinregisterpowercallbacks, avfunc_2e133cdb-6afa-47a7-8d3b-8293b63428b5.xml, KsPinRegisterPowerCallbacks function [Streaming Media Devices], ks/KsPinRegisterPowerCallbacks, KsPinRegisterPowerCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ void KsPinRegisterPowerCallbacks(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to register power callbacks. Note that the pin must actually process (be pin-centric) in order to receive power notification messages.
 
 
-### -param Sleep [in, optional]
+#### - Sleep [in, optional]
 
 This parameter supplies the address of a <a href="..\ks\nc-ks-pfnkspinpower.md">AVStrMiniPinPower</a>  function that handles sleep requests for the device. Optional.
 
 
-### -param Wake [in, optional]
+#### - Wake [in, optional]
 
 This parameter supplies the address of a <a href="..\ks\nc-ks-pfnkspinpower.md">AVStrMiniPinPower</a>  function that handles wake requests for the device. Optional.
 

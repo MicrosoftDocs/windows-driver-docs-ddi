@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1A7632BB-1DA6-4D03-8A3A-6468A2E4DF71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, DXGK_INTERRUPT_ENABLE, _DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_INTERRUPT_ENABLE, DXGK_VSYNC_DISABLE_KEEP_PHASE, DXGK_VSYNC_DISABLE_NO_PHASE, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices], DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, display.dxgk_crtc_vsync_state
+ms.keywords: DXGK_VSYNC_DISABLE_NO_PHASE, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices], DXGK_CRTC_VSYNC_STATE, DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, _DXGK_CRTC_VSYNC_STATE, DXGK_VSYNC_DISABLE_KEEP_PHASE, display.dxgk_crtc_vsync_state, d3dkmddi/DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_INTERRUPT_ENABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,12 +73,12 @@ typedef enum _DXGK_CRTC_VSYNC_STATE {
 
 
 
-### -field DXGK_VSYNC_DISABLE_KEEP_PHASE
+#### - DXGK_VSYNC_DISABLE_KEEP_PHASE
 
 Indicates that the VSYNC interrupt is disabled and the display driver will ensure that any request to re-enter the VSYNC enabled state will do so in the phase of interrupts prior to disable.
 
 
-### -field DXGK_VSYNC_DISABLE_NO_PHASE
+#### - DXGK_VSYNC_DISABLE_NO_PHASE
 
 Indicates that the VSYNC interrupt is disabled, but that the display driver will not require re-entering the VSYNC enabled state in phase of prior interrupts.
 

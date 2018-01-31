@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CFA879CC-6124-4E1C-B440-358455A5E6EF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED, ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET, ifsk.atomic_create_ecp_context, ATOMIC_CREATE_ECP_CONTEXT structure [Installable File System Drivers], PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET, ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET, ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED, ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET, PATOMIC_CREATE_ECP_CONTEXT structure pointer [Installable File System Drivers], ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK, ntifs/PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT, ntifs/ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK, _ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT
+ms.keywords: ifsk.atomic_create_ecp_context, PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET, ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET, ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK, ntifs/ATOMIC_CREATE_ECP_CONTEXT, _ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED, ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET, ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT, ATOMIC_CREATE_ECP_CONTEXT, PATOMIC_CREATE_ECP_CONTEXT structure pointer [Installable File System Drivers], ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED, ntifs/PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET, ATOMIC_CREATE_ECP_CONTEXT structure [Installable File System Drivers], ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK, *PATOMIC_CREATE_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,12 +82,12 @@ typedef struct _ATOMIC_CREATE_ECP_CONTEXT {
 
 
 
-### -field Size
+#### - Size
 
 The size of the context structure.
 
 
-### -field InFlags
+#### - InFlags
 
 Flags that indicate the requested supplemental operation(s) to be performed with the create operation.
 <table>
@@ -173,7 +173,7 @@ perform all of the requested supplemental operations.
 </table> 
 
 
-### -field OutFlags
+#### - OutFlags
 
 Flags that indicate the actual supplemental operation(s) performed with a successful create operation.
 <table>
@@ -240,42 +240,42 @@ Use this flag value as a mask to determine the supplemental operations that were
 </table> 
 
 
-### -field ReparseBufferLength
+#### - ReparseBufferLength
 
 The length of the <b>ReparseBuffer</b> member. This value can't exceed the <b>MAXIMUM_REPARSE_DATA_BUFFER_SIZE</b> (16K).
 
 
-### -field ReparseBuffer
+#### - ReparseBuffer
 
 The optional value that indicates the type of buffer used in the create operation. Possible values are <b>REPARSE_DATA_BUFFER</b> or <b>REPARSE_GUID_DATA_BUFFER</b>.
 
 
-### -field FileSize
+#### - FileSize
 
 The optional value that is used with <b>ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED</b> to indicate the requested file size to be set on the file.
 
 
-### -field ValidDataLength
+#### - ValidDataLength
 
 The optional value that is used with <b>ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED</b> to indicate the requested valid data length to be set on the file.
 
 
-### -field FileTimestamps
+#### - FileTimestamps
 
 Pointer to an optional <a href="..\ntifs\ns-ntifs-_file_timestamps.md">FILE_TIMESTAMPS</a> structure which contains  the last recorded instance of specific actions on a file.
 
 
-### -field FileAttributes
+#### - FileAttributes
 
 Specifies the attributes of a file.
 
 
-### -field UsnSourceInfo
+#### - UsnSourceInfo
 
 Specifies optional Update Sequence Number (USN) source info flags.
 
 
-### -field Usn
+#### - Usn
 
 Specifies the Update Sequence Number (USN). This value is filled at the end of <b>GUID_ECP_ATOMIC_CREATE</b> .
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 06dce5c0-f893-47c7-bee9-1b7f61137ba0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiaminidrv_drvinititemproperties, drvInitItemProperties, IWiaMiniDrv interface [Imaging Devices], drvInitItemProperties method, IWiaMiniDrv, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, drvInitItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvInitItemProperties, wiamindr_lh/IWiaMiniDrv::drvInitItemProperties, drvInitItemProperties method [Imaging Devices]
+ms.keywords: IWiaMiniDrv, drvInitItemProperties, IWiaMiniDrv::drvInitItemProperties, drvInitItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvInitItemProperties method [Imaging Devices], image.iwiaminidrv_drvinititemproperties, wiamindr_lh/IWiaMiniDrv::drvInitItemProperties, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, IWiaMiniDrv interface [Imaging Devices], drvInitItemProperties method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvInitItemProperties
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -119,17 +119,17 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetdrvitem.md">wiasGetDrvItem</a>
 
+<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
 
  
 

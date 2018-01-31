@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a172f53c-9993-4d52-ae3f-35a8ab5745f6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetAdapterAttributes routine [Storage Devices], storage.hba_getadapterattributes, fibreHBA_rtns_f7675f0c-2f71-428e-871b-90c51a1b5bc4.xml, HBA_GetAdapterAttributes, hbaapi/HBA_GetAdapterAttributes
+ms.keywords: fibreHBA_rtns_f7675f0c-2f71-428e-871b-90c51a1b5bc4.xml, HBA_GetAdapterAttributes, hbaapi/HBA_GetAdapterAttributes, HBA_GetAdapterAttributes routine [Storage Devices], storage.hba_getadapterattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

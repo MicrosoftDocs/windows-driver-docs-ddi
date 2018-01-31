@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 86834d99-34bd-487a-bbd4-4c0143d849a0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_GENERIC_ERROR_DATA_ENTRY, PWHEA_GENERIC_ERROR_DATA_ENTRY structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY structure [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY, ntddk/PWHEA_GENERIC_ERROR_DATA_ENTRY, whearef_9e532654-fd5a-4936-8465-f9d6f9eafad2.xml, _WHEA_GENERIC_ERROR_DATA_ENTRY_V2, WHEA_GENERIC_ERROR_DATA_ENTRY_V2, whea.whea_generic_error_data_entry, PWHEA_GENERIC_ERROR_DATA_ENTRY, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY
+ms.keywords: "*PWHEA_GENERIC_ERROR_DATA_ENTRY, whea.whea_generic_error_data_entry, WHEA_GENERIC_ERROR_DATA_ENTRY, ntddk/WHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY_V2, PWHEA_GENERIC_ERROR_DATA_ENTRY structure pointer [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, PWHEA_GENERIC_ERROR_DATA_ENTRY, ntddk/PWHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY structure [WHEA Drivers and Applications], whearef_9e532654-fd5a-4936-8465-f9d6f9eafad2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_GENERIC_ERROR_DATA_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2"
+req.typenames: "*PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY_V2, WHEA_GENERIC_ERROR_DATA_ENTRY"
 ---
 
 # _WHEA_GENERIC_ERROR_DATA_ENTRY_V2 structure
@@ -75,7 +75,7 @@ typedef struct _WHEA_GENERIC_ERROR_DATA_ENTRY {
 
 
 
-### -field SectionType
+#### - SectionType
 
 A GUID that identifies the type of error data that is contained in the error data section. The standard section types are defined as follows:
 
@@ -131,17 +131,17 @@ The error data section contains PCI/PCI-X device error data. This data is descri
 The error data section contains processor error data that is specific to the x86 or x64 processor architecture. This data is described by a <a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure.
 
 
-### -field ErrorSeverity
+#### - ErrorSeverity
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition that is described by the error data section.
 
 
-### -field Revision
+#### - Revision
 
 A <a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a> union that describes the revision level of the WHEA_GENERIC_ERROR_DATA_ENTRY structure.
 
 
-### -field ValidBits
+#### - ValidBits
 
 A bitwise OR'ed combination of values that specifies which members of this structure contain valid data. Possible values are:
 
@@ -158,7 +158,7 @@ A single bit that indicates that the <b>FRUId</b> member contains valid data.
 A single bit that indicates that the <b>FRUText</b> member contains valid data.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR'ed combination of values that describes the error data section. Possible values are:
 
@@ -195,17 +195,17 @@ A single bit that indicates that a resource could not be queried for error infor
 A single bit that indicates that the reported error is a latent error (one not yet consumed) that could result in a more severe error when it is consumed.
 
 
-### -field ErrorDataLength
+#### - ErrorDataLength
 
 The length, in bytes, of the error data that is contained in the <b>Data</b> member.
 
 
-### -field FRUId
+#### - FRUId
 
 A GUID that identifies the Field Replaceable Unit (FRU) that contains the hardware where the error occurred. This member contains valid data only if the <b>0x01</b> bit is set in the <b>ValidBits</b> member.
 
 
-### -field FRUText
+#### - FRUText
 
 A character string that identifies the Field Replaceable Unit (FRU) that contains the hardware where the error occurred. This member contains valid data only if the <b>0x02</b> bit is set in the <b>ValidBits</b> member.
 
@@ -215,7 +215,7 @@ A character string that identifies the Field Replaceable Unit (FRU) that contain
  
 
 
-### -field Data
+#### - Data
 
 A variable-sized buffer that contains the error data for the error data section. The format of the data that is contained in this buffer is determined by the section type that is specified in the <b>SectionType</b> member.
 

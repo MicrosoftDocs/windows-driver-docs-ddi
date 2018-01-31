@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ffacfd4e-9ceb-477a-8b2f-17d7c590fd81
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcRegisterPhysicalConnectionToExternal, PcRegisterPhysicalConnectionToExternal function [Audio Devices], audio.pcregisterphysicalconnectiontoexternal, audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, PcRegisterPhysicalConnectionToExternal
+ms.keywords: audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, portcls/PcRegisterPhysicalConnectionToExternal, audio.pcregisterphysicalconnectiontoexternal, PcRegisterPhysicalConnectionToExternal, PcRegisterPhysicalConnectionToExternal function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcRegisterPhysicalConnectionToExternal
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcRegisterPhysicalConnectionToExternal function
@@ -72,27 +72,27 @@ NTSTATUS PcRegisterPhysicalConnectionToExternal(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for the device. This is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-### -param FromUnknown [in]
+#### - FromUnknown [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of a port driver object. The port driver object that is associated with <i>FromUnknown</i> is bound to the subdevice that supplies the connection's data source (output) pin.
 
 
-### -param FromPin [in]
+#### - FromPin [in]
 
 Specifies a pin ID. This parameter identifies the source (output) pin on the filter that is associated with the <i>FromUnknown</i> interface.
 
 
-### -param ToString [in]
+#### - ToString [in]
 
 Pointer to a null-terminated Unicode string containing the symbolic link name of the external filter that supplies the sink pin for the connection.
 
 
-### -param ToPin [in]
+#### - ToPin [in]
 
 Specifies a pin ID. This parameter identifies the sink (input) pin on the external filter named by <i>ToString</i>.
 
@@ -121,17 +121,17 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
 <a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537029">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
-
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
 
  
 

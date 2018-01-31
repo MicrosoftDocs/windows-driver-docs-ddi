@@ -40,7 +40,7 @@ apiname:
 -	HDAudioBdlIsr
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
+req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PHDAUDIO_BDL_ISR callback
@@ -71,11 +71,12 @@ VOID HDAudioBdlIsr(
 
 
 
-### -param *Context
+#### - *Context [in]
+
+The HD Audio bus driver calls the ISR with the same context value that the client specified in the context parameter of the preceding SetupDmaEngineWithBdl call. For more information, see <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">PSETUP_DMA_ENGINE_WITH_BDL</a>.
 
 
-
-### -param InterruptBitMask [in]
+#### - InterruptBitMask [in]
 
 The interruptBitMask parameter contains the bits from the HD Audio controller device's stream status register that indicate the reason for the interrupt. The following table shows the meaning of the individual bits in interruptBitMask.
 <table>

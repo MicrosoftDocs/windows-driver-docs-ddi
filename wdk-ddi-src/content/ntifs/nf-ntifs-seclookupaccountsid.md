@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecLookupAccountSid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ifsk.seclookupaccountsid, ntifs/SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers]
+ms.keywords: ifsk.seclookupaccountsid, ntifs/SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, SecLookupAccountSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS SecLookupAccountSid(
 
 
 
-### -param Sid [in]
+#### - Sid [in]
 
 A pointer to the SID to look up. 
 
 
-### -param NameSize [out]
+#### - NameSize [out]
 
 A pointer to a variable that specifies the size of the <i>NameBuffer</i>. On input, this value specifies the size in bytes of the input <i>NameBuffer</i>. If the function fails because the buffer is too small, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>NameBuffer</i>.
 
 
-### -param NameBuffer [in, out]
+#### - NameBuffer [in, out]
 
 A pointer to the <i>NameBuffer</i>. 
 
@@ -93,7 +93,7 @@ A pointer to the <i>NameBuffer</i>.
 TBD
 
 
-### -param NameUse [out]
+#### - NameUse [out]
 
 A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
 
@@ -221,9 +221,9 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 <a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
 
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+
+<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 

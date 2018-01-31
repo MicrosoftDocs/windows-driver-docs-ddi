@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent method [Print Devices], IPrinterExtensionEvent, OnDriverEvent, OnDriverEvent method [Print Devices], IPrinterExtensionEvent interface, print.iprinterextensionevent_ondriverevent, IPrinterExtensionEvent interface [Print Devices], OnDriverEvent method, IPrinterExtensionEvent::OnDriverEvent
+ms.keywords: printerextension/IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices], IPrinterExtensionEvent interface, IPrinterExtensionEvent interface [Print Devices], OnDriverEvent method, IPrinterExtensionEvent::OnDriverEvent, IPrinterExtensionEvent, OnDriverEvent, print.iprinterextensionevent_ondriverevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT OnDriverEvent(
 
 
 
-### -param pEventArgs [in]
+#### - pEventArgs [in]
 
 The event arguments.
 

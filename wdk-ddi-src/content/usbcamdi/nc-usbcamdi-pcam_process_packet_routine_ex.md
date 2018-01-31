@@ -80,47 +80,47 @@ ULONG CamProcessUSBPacketEx(
 
 
 
-### -param BusDeviceObject
+#### - BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param CurrentFrameContext
+#### - CurrentFrameContext
 
 Pointer to the camera minidriver's frame context.
 
 
-### -param SyncPacket
+#### - SyncPacket
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the sync pipe. This value is <b>NULL</b> if the interface has only one pipe.
 
 
-### -param SyncBuffer
+#### - SyncBuffer
 
 Pointer to the data for the <i>SyncPacket</i>.
 
 
-### -param DataPacket
+#### - DataPacket
 
 Specifies the isochronous packet descriptor from data pipe.
 
 
-### -param DataBuffer
+#### - DataBuffer
 
 Pointer to <i>DataPacket.</i>
 
 
-### -param FrameComplete
+#### - FrameComplete
 
 Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether this is the first data packet for a new video frame.
 
 
-### -param PacketFlag
+#### - PacketFlag
 
 Pointer to a value that the minidriver sets to indicate the contents of the current frame. It should be set to one of the following values:
 <table>
@@ -161,7 +161,7 @@ The current frame is for the still pin.
 </table> 
 
 
-### -param ValidDataOffset
+#### - ValidDataOffset
 
 Pointer to a ULONG value that indicates an offset from the beginning of the packet. USBCAMD should start the copy from this offset. This eliminates the extra buffer copy in the case of an in-band signal. If the camera is not using in-band signaling, <i>ValidDataOffset</i> should be set to zero.
 
@@ -188,9 +188,9 @@ This function is optional.
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
-
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
 
  
 

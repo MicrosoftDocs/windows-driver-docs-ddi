@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9144b167-7fa4-4854-bf0c-e98192f07db8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10ddiarg_buffer_shaderresourceview, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices], D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW
+ms.keywords: display.d3d10ddiarg_buffer_shaderresourceview, UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,31 +74,31 @@ typedef struct D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW {
 
 
 
-### -field FirstElement
+#### - FirstElement
 
 
 
-### -field ElementOffset
+#### - ElementOffset
 
 [in] The offset (that is, the number of elements) between the beginning of the buffer and the first element that is to be used in the view, starting at 0. 
 
 
-### -field NumElements
+#### - NumElements
 
 
 
-### -field ElementWidth
+#### - ElementWidth
 
 [in] The number of elements in the view. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
 
  
 

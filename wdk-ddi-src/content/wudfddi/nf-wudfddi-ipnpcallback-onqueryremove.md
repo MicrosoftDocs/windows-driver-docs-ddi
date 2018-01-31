@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnQueryRemove method, IPnpCallback interface, wdf.ipnpcallback_onqueryremove, OnQueryRemove method, OnQueryRemove, IPnpCallback::OnQueryRemove, IPnpCallback, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, wudfddi/IPnpCallback::OnQueryRemove, IPnpCallback interface, OnQueryRemove method, umdf.ipnpcallback_onqueryremove
+ms.keywords: OnQueryRemove method, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, IPnpCallback::OnQueryRemove, OnQueryRemove, OnQueryRemove method, IPnpCallback interface, IPnpCallback interface, OnQueryRemove method, umdf.ipnpcallback_onqueryremove, IPnpCallback, wdf.ipnpcallback_onqueryremove, wudfddi/IPnpCallback::OnQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallback.OnQueryRemove
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT OnQueryRemove(
 
 
 
-### -param pWdfDevice [in]
+#### - pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that will be removed.
 
@@ -97,11 +97,11 @@ For more information about the <b>OnQueryRemove</b> callback method, see <a href
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
  
 

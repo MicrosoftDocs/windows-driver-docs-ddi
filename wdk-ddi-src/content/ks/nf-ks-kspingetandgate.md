@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: abd4da69-c0c3-442f-af58-e77362c637da
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetAndGate, stream.kspingetandgate, avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, KsPinGetAndGate function [Streaming Media Devices], KsPinGetAndGate
+ms.keywords: KsPinGetAndGate function [Streaming Media Devices], stream.kspingetandgate, avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, ks/KsPinGetAndGate, KsPinGetAndGate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PKSGATE KsPinGetAndGate(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> for which to return the processing control gate.
 

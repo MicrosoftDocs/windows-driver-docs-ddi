@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 31BF5607-51EA-4FBF-A754-872FBD45915D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC, *PUCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC structure [Buses], PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC structure pointer [Buses], _UCX_USBDEVICE_CHARACTERISTIC, buses.ucx_usbdevice_characteristic
+ms.keywords: "*PUCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC, _UCX_USBDEVICE_CHARACTERISTIC, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC, buses.ucx_usbdevice_characteristic, UCX_USBDEVICE_CHARACTERISTIC structure [Buses], PUCX_USBDEVICE_CHARACTERISTIC structure pointer [Buses], ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _UCX_USBDEVICE_CHARACTERISTIC {
 
 
 
-### -field PathDelay
+#### - PathDelay
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_characteristic_path_delay.md">UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY</a>-typed value that indicates the path delay values for the endpoint.
 
 
-### -field Size
+#### - Size
 
 Size of this structure.
 
 
-### -field CharacteristicType
+#### - CharacteristicType
 
 A <a href="..\ucxusbdevice\ne-ucxusbdevice-_ucx_usbdevice_characteristic_type.md">UCX_USBDEVICE_CHARACTERISTIC_TYPE</a>-type value that indicates the type of device characteristic.
 

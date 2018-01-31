@@ -72,7 +72,7 @@ __checkReturn HRESULT APIENTRY CreatePixelShader(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugcontrol5_getcontextstacktraceex, dbgeng/IDebugControl5::GetContextStackTraceEx, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, GetContextStackTraceEx, IDebugControl5, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, GetContextStackTraceEx method [Windows Debugging], IDebugControl5::GetContextStackTraceEx
+ms.keywords: GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::GetContextStackTraceEx, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, IDebugControl5::GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], debugger.idebugcontrol5_getcontextstacktraceex, GetContextStackTraceEx, IDebugControl5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,42 +74,42 @@ HRESULT GetContextStackTraceEx(
 
 
 
-### -param StartContext [in, optional]
+#### - StartContext [in, optional]
 
 Specifies the register context for the top of the stack.
 
 
-### -param StartContextSize [in]
+#### - StartContextSize [in]
 
 Specifies the size, in bytes, of the <i>StartContext</i> register context.
 
 
-### -param Frames [out, optional]
+#### - Frames [out, optional]
 
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.  If <i>Frames</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FramesSize [in]
+#### - FramesSize [in]
 
 Specifies the number of items in the array <i>Frames</i>.
 
 
-### -param FrameContexts [out, optional]
+#### - FrameContexts [out, optional]
 
 Receives the reconstructed register context for each frame in the stack.  The entries in this array correspond to the entries in the <i>Frames</i> array.  The type of the thread context is the CONTEXT structure for the target's effective processor.  If <i>FrameContexts</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FrameContextsSize [in]
+#### - FrameContextsSize [in]
 
 Specifies the size, in bytes, of the memory pointed to by <i>FrameContexts</i>.  The number of stack frames returned equals the number of contexts returned, and <i>FrameContextsSize</i> must equal <i>FramesSize</i> times <i>FrameContextsEntrySize</i>.
 
 
-### -param FrameContextsEntrySize [in]
+#### - FrameContextsEntrySize [in]
 
 Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 
 
-### -param FramesFilled [out, optional]
+#### - FramesFilled [out, optional]
 
 Receives the number of frames that were placed in the array <i>Frames</i> and contexts in <i>FrameContexts</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
 
@@ -152,9 +152,9 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
 

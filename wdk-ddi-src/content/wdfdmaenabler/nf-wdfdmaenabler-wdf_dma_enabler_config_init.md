@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b01efb50-a3b2-4ffd-83e6-daa0ebbc6484
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_dma_enabler_config_init, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_INIT, wdf.wdf_dma_enabler_config_init, DFDmaObjectRef_2d577e59-2038-4850-a67c-6e7f3b795387.xml, WDF_DMA_ENABLER_CONFIG_INIT, WDF_DMA_ENABLER_CONFIG_INIT function
+ms.keywords: kmdf.wdf_dma_enabler_config_init, WDF_DMA_ENABLER_CONFIG_INIT function, WDF_DMA_ENABLER_CONFIG_INIT, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_INIT, wdf.wdf_dma_enabler_config_init, DFDmaObjectRef_2d577e59-2038-4850-a67c-6e7f3b795387.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID WDF_DMA_ENABLER_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 A pointer to a driver-allocated <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
-### -param Profile [in]
+#### - Profile [in]
 
 A value for the <b>Profile</b> member of the <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
-### -param MaximumLength [in]
+#### - MaximumLength [in]
 
 A value for the <b>MaximumLength</b> member of the <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
 

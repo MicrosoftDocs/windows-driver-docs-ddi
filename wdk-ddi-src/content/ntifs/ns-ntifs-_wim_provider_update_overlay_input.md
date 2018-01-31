@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FA100AE0-4725-426F-B57B-C32AC9B75477
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure [Installable File System Drivers], WIM_PROVIDER_UPDATE_OVERLAY_INPUT, ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT, ifsk.wim_provider_update_overlay_input, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], PWIM_PROVIDER_ADD_OVERLAY_INPUT, _WIM_PROVIDER_UPDATE_OVERLAY_INPUT, ntifs/WIM_PROVIDER_ADD_OVERLAY_INPUT, *PWIM_PROVIDER_UPDATE_OVERLAY_INPUT, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], WIM_PROVIDER_ADD_OVERLAY_INPUT
+ms.keywords: "_WIM_PROVIDER_UPDATE_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure [Installable File System Drivers], WIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/WIM_PROVIDER_ADD_OVERLAY_INPUT, ifsk.wim_provider_update_overlay_input, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], PWIM_PROVIDER_ADD_OVERLAY_INPUT, WIM_PROVIDER_UPDATE_OVERLAY_INPUT, *PWIM_PROVIDER_UPDATE_OVERLAY_INPUT, ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIM_PROVIDER_ADD_OVERLAY_INPUT
 product: Windows
 targetos: Windows
-req.typenames: "*PWIM_PROVIDER_UPDATE_OVERLAY_INPUT, WIM_PROVIDER_UPDATE_OVERLAY_INPUT"
+req.typenames: WIM_PROVIDER_UPDATE_OVERLAY_INPUT, *PWIM_PROVIDER_UPDATE_OVERLAY_INPUT
 ---
 
 # _WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure
@@ -69,17 +69,17 @@ typedef struct _WIM_PROVIDER_ADD_OVERLAY_INPUT {
 
 
 
-### -field DataSourceId
+#### - DataSourceId
 
 An identifier value for the WIM file data source to update.
 
 
-### -field WimFileNameOffset
+#### - WimFileNameOffset
 
 The offset, in bytes, from the beginning of this structure of the file name for the WIM file to add as a backing source. The file name is a string of <b>WCHAR</b> character values.
 
 
-### -field WimFileNameLength
+#### - WimFileNameLength
 
 The length, in bytes, of the file name at found at  <b>WimFileNameOffset</b>.
 
@@ -97,11 +97,11 @@ The WIM file name includes a terminating NULL character. <b>WimFileNameLength</b
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632437">FSCTL_ADD_OVERLAY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
 
  
 

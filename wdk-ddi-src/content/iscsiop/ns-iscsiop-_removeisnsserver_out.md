@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 42866b25-280c-492c-8e98-1a04a46561a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemoveiSNSServer_OUT, PRemoveiSNSServer_OUT, *PRemoveiSNSServer_OUT, PRemoveiSNSServer_OUT structure pointer [Storage Devices], iscsiop/RemoveiSNSServer_OUT, RemoveiSNSServer_OUT structure [Storage Devices], structs-iSCSI_8d8df1a1-3b89-42a1-9ef8-3e749a94b531.xml, _RemoveiSNSServer_OUT, storage.removeisnsserver_out, iscsiop/PRemoveiSNSServer_OUT
+ms.keywords: storage.removeisnsserver_out, _RemoveiSNSServer_OUT, *PRemoveiSNSServer_OUT, RemoveiSNSServer_OUT structure [Storage Devices], RemoveiSNSServer_OUT, iscsiop/PRemoveiSNSServer_OUT, PRemoveiSNSServer_OUT, iscsiop/RemoveiSNSServer_OUT, structs-iSCSI_8d8df1a1-3b89-42a1-9ef8-3e749a94b531.xml, PRemoveiSNSServer_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _RemoveiSNSServer_OUT {
 
 
 
-### -field Status
+#### - Status
 
 On output from <b>RemoveISNSServer</b>, the status of the operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 

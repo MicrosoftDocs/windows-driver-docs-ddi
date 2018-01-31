@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: f7e055ac-df7c-4993-b7aa-f455c4548d5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_MsrStatusUpdateType, MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType_Online, MsrStatusUpdateType_Unauthenticated, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, pointofservicedriverinterface/MsrStatusUpdateType_Extended, MsrStatusUpdateType_Extended, MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType, MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Offline, MsrStatusUpdateType_Off, MsrStatusUpdateType enumeration, MsrStatusUpdateType_OffOrOffline, pointofservicedriverinterface/MsrStatusUpdateType_Off, pos.msrstatusupdatetype"
+ms.keywords: pointofservicedriverinterface/MsrStatusUpdateType_Offline, MsrStatusUpdateType_Off, _MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, MsrStatusUpdateType_Authenticated, MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, MsrStatusUpdateType, MsrStatusUpdateType enumeration, MsrStatusUpdateType_Extended, MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Extended, pointofservicedriverinterface/MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Unauthenticated, pointofservicedriverinterface/MsrStatusUpdateType_Off, pos.msrstatusupdatetype, pointofservicedriverinterface/MsrStatusUpdateType_Online, MsrStatusUpdateType_OffOrOffline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,37 +73,37 @@ typedef enum _MsrStatusUpdateType {
 
 
 
-### -field MsrStatusUpdateType_Online
+#### - MsrStatusUpdateType_Online
 
 The device is powered on. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Standard</b> or <b>Advanced</b>.
 
 
-### -field MsrStatusUpdateType_Off
+#### - MsrStatusUpdateType_Off
 
 The device is powered off or is detached from the terminal. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
 
 
-### -field MsrStatusUpdateType_Offline
+#### - MsrStatusUpdateType_Offline
 
 The device is powered on but is not ready, or is unable, to respond to requests. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
 
 
-### -field MsrStatusUpdateType_OffOrOffline
+#### - MsrStatusUpdateType_OffOrOffline
 
 The device is either off or offline. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Standard</b>.
 
 
-### -field MsrStatusUpdateType_Unauthenticated
+#### - MsrStatusUpdateType_Unauthenticated
 
 The device is not authenticated. This is valid if the device supports authentication.
 
 
-### -field MsrStatusUpdateType_Authenticated
+#### - MsrStatusUpdateType_Authenticated
 
 The device is authenticated. This is valid if the device supports authentication.
 
 
-### -field MsrStatusUpdateType_Extended
+#### - MsrStatusUpdateType_Extended
 
 Vendor-specific status information. Reported in IMagneticStripeReaderStatusUpdatedEventArgs.ExtendedStatus.
 

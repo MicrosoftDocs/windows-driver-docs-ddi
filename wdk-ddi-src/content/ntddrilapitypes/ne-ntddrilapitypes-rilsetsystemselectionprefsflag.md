@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 081f4a23-43d8-4ad4-806c-1b6322e057d5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_SSSPFLAG_ALL, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SSSPFLAG_ENFORCESCAN, RIL_SSSPFLAG_ALL, netvista.rilsetsystemselectionprefsflag, RIL_SSSPFLAG_APPLYIMMEDIATELY, RIL_SSSPFLAG_ENFORCESCAN, RILSETSYSTEMSELECTIONPREFSFLAG, ntddrilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY
+ms.keywords: ntddrilapitypes/RIL_SSSPFLAG_ENFORCESCAN, RILSETSYSTEMSELECTIONPREFSFLAG, ntddrilapitypes/RIL_SSSPFLAG_ALL, netvista.rilsetsystemselectionprefsflag, RIL_SSSPFLAG_ENFORCESCAN, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, RIL_SSSPFLAG_ALL, RIL_SSSPFLAG_APPLYIMMEDIATELY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILSETSYSTEMSELECTIONPREFSFLAG {
 
 
 
-### -field RIL_SSSPFLAG_APPLYIMMEDIATELY
+#### - RIL_SSSPFLAG_APPLYIMMEDIATELY
 
 
 
-### -field RIL_SSSPFLAG_ENFORCESCAN
+#### - RIL_SSSPFLAG_ENFORCESCAN
 
 
 
-### -field RIL_SSSPFLAG_ALL
+#### - RIL_SSSPFLAG_ALL
 
 

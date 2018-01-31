@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 087888ce-e08a-4f9f-adac-419a638e65bd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_usb_device_select_config_params_init_urb, wdf.wdf_usb_device_select_config_params_init_urb, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB, DFUsbRef_bb81c111-ac7f-4f37-bda6-c09ebc32e5fd.xml, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB
+ms.keywords: DFUsbRef_bb81c111-ac7f-4f37-bda6-c09ebc32e5fd.xml, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function, kmdf.wdf_usb_device_select_config_params_init_urb, wdf.wdf_usb_device_select_config_params_init_urb, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB(
 
 
 
-### -param Params [out]
+#### - Params [out]
 
 A pointer to the driver's <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure.
 
 
-### -param Urb [in]
+#### - Urb [in]
 
 A pointer to a <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
@@ -117,9 +117,9 @@ To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_param
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksmergeautomationtables, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], ks/KsMergeAutomationTables
+ms.keywords: ks/KsMergeAutomationTables, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, stream.ksmergeautomationtables, KsMergeAutomationTables function [Streaming Media Devices], KsMergeAutomationTables
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsMergeAutomationTables(
 
 
 
-### -param AutomationTableAB [out]
+#### - AutomationTableAB [out]
 
 A pointer to the location at which a pointer to a <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a> is deposited. This structure is the resulting merged automation table.
 
 
-### -param AutomationTableA [in, optional]
+#### - AutomationTableA [in, optional]
 
 A pointer to a <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a> structure representing the first of the two automation tables to merge. This table is the dominant table with respect to duplicate entries. If <b>NULL</b>, <i>AutomationTableB</i> is copied into <i>AutomationTableAB</i> and optionally placed in <i>Bag</i>.
 
 
-### -param AutomationTableB [in, optional]
+#### - AutomationTableB [in, optional]
 
 A pointer to a <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a> structure representing the second of the two automation tables to merge. If <b>NULL</b>, <i>AutomationTableA</i> is copied into <i>AutomationTableAB</i> and optionally placed in <i>Bag</i>.
 
 
-### -param Bag [in, optional]
+#### - Bag [in, optional]
 
 The newly created automation table is placed in this KSOBJECT_BAG (equivalent to type PVOID) for later clean up. This parameter is optional.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f96ef86-1155-4483-915e-706cc18c3bca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DD_GETDDIVERSIONDATA, _DD_GETDDIVERSIONDATA, display.dd_getddiversiondata, DD_GETDDIVERSIONDATA structure [Display Devices], d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, d3dhal/DD_GETDDIVERSIONDATA
+ms.keywords: "_DD_GETDDIVERSIONDATA, DD_GETDDIVERSIONDATA structure [Display Devices], d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, display.dd_getddiversiondata, DD_GETDDIVERSIONDATA, d3dhal/DD_GETDDIVERSIONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _DD_GETDDIVERSIONDATA {
 
 
 
-### -field gdi2
+#### - gdi2
 
 Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
 
 
-### -field dwDXVersion
+#### - dwDXVersion
 
 Specifies the version of the DirectX runtime that makes the request. For example, the DirectX 9.0 runtime specifies 9. 
 
 
-### -field dwDDIVersion
+#### - dwDDIVersion
 
 Receives the version of the DDI that the driver supports. 
 
@@ -99,9 +99,9 @@ For example, suppose that a hardware vendor builds his display driver with a pre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
  
 

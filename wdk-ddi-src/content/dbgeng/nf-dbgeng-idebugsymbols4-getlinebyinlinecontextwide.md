@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5DCD8407-1C30-475F-9741-62DB9C86297B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContextWide method, GetLineByInlineContextWide method [Windows Debugging], dbgeng/IDebugSymbols4::GetLineByInlineContextWide, IDebugSymbols4, IDebugSymbols4::GetLineByInlineContextWide, GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide, GetLineByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface
+ms.keywords: GetLineByInlineContextWide, GetLineByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContextWide method, IDebugSymbols4::GetLineByInlineContextWide, GetLineByInlineContextWide method [Windows Debugging], dbgeng/IDebugSymbols4::GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT GetLineByInlineContextWide(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 An offset for the line.
 
 
-### -param InlineContext [in]
+#### - InlineContext [in]
 
 The inline context. 
 
 
-### -param Line [out, optional]
+#### - Line [out, optional]
 
 A pointer to the returned line.
 
 
-### -param FileBuffer [out]
+#### - FileBuffer [out]
 
 A pointer to a buffer for a Unicode character string.
 
 
-### -param FileBufferSize [in]
+#### - FileBufferSize [in]
 
 The size of the file buffer.
 
 
-### -param FileSize [out, optional]
+#### - FileSize [out, optional]
 
 A pointer to the length of the file.
 
 
-### -param Displacement [out, optional]
+#### - Displacement [out, optional]
 
 A pointer to the displacement value of the file.
 

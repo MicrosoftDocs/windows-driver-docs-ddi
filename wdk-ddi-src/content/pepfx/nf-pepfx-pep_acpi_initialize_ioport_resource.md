@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7F9F8EF-3FDC-41D9-BB89-9EB93ED1A504
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_INITIALIZE_IOPORT_RESOURCE, PEP_ACPI_INITIALIZE_IOPORT_RESOURCE, kernel.pep_acpi_initialize_ioport_resource, PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_IOPORT_RESOURCE, PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_ioport_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function
@@ -72,34 +72,34 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_IOPORT_RESOURCE(
 
 
 
-### -param Decode [in]
+#### - Decode [in]
 
 Specifies how to decode the resource address. If bit 0 is a 1, this indicates that the logical device decodes 16-bit addresses. If bit 0 is 0, this indicates that the logical device only decodes the first 10 bits of the address.
 
 Bits 1 to 7 of this parameter are reserved and must be set to zero.
 
 
-### -param MinimumAddress [in]
+#### - MinimumAddress [in]
 
 Specifies the minimum acceptable starting address for the IO range.
 
 
-### -param MaximumAddress [in]
+#### - MaximumAddress [in]
 
 Specifies the maximum acceptable starting address for the IO range.
 
 
-### -param Alignment [in]
+#### - Alignment [in]
 
 Specifies the alignment granularity for the IO address assigned.
 
 
-### -param PortLength [in]
+#### - PortLength [in]
 
 Specifies the number of bytes in the IO range.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>.
 

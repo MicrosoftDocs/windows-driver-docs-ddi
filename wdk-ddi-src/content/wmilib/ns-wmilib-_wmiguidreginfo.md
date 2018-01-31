@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bf36e54-5caa-4dc6-b659-ea0c1ac450f0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], *PWMIGUIDREGINFO, wmilib/PWMIGUIDREGINFO, kernel.wmiguidreginfo, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], _WMIGUIDREGINFO, PWMIGUIDREGINFO, WMIGUIDREGINFO, kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, wmilib/WMIGUIDREGINFO
+ms.keywords: PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, kernel.wmiguidreginfo, PWMIGUIDREGINFO, WMIGUIDREGINFO, *PWMIGUIDREGINFO, wmilib/PWMIGUIDREGINFO, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], wmilib/WMIGUIDREGINFO, _WMIGUIDREGINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WMIGUIDREGINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWMIGUIDREGINFO, WMIGUIDREGINFO"
+req.typenames: WMIGUIDREGINFO, *PWMIGUIDREGINFO
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _WMIGUIDREGINFO {
 
 
 
-### -field Guid
+#### - Guid
 
 Pointer to the GUID that identifies the block. The memory that contains the GUID can be paged unless it is also used to call <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>.
 
 
-### -field InstanceCount
+#### - InstanceCount
 
 Specifies the number of instances defined for the block.
 
 
-### -field Flags
+#### - Flags
 
 Flag bits that indicate characteristics of the block. These flag bits are defined in the Wmistr.h header file. WMI ORs the <b>Flags</b> parameter value with the flag bits set by the driver in the <i>RegFlags</i> parameter of its <a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a> routine, which apply to all of the data blocks and event blocks registered by the driver. <b>Flags</b> therefore supplements the driver's default settings for a given block.
 
@@ -124,19 +124,19 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
+
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
 
  
 

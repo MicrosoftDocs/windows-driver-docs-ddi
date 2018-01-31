@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4e94c9cc-eaa9-4de1-8f17-d24a5ed19507
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtEnumerateValueKey, kernel.zwenumeratevaluekey, wdm/ZwEnumerateValueKey, k111_bea1b1ab-2cfe-4d17-abd3-1a45652c70a5.xml, ZwEnumerateValueKey, ZwEnumerateValueKey routine [Kernel-Mode Driver Architecture], wdm/NtEnumerateValueKey
+ms.keywords: ZwEnumerateValueKey routine [Kernel-Mode Driver Architecture], wdm/ZwEnumerateValueKey, ZwEnumerateValueKey, NtEnumerateValueKey, wdm/NtEnumerateValueKey, kernel.zwenumeratevaluekey, k111_bea1b1ab-2cfe-4d17-abd3-1a45652c70a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,32 +74,32 @@ NTSTATUS ZwEnumerateValueKey(
 
 
 
-### -param KeyHandle [in]
+#### - KeyHandle [in]
 
 Handle to the registry key that you want to enumerate value entries for. A successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a> creates this handle.
 
 
-### -param Index [in]
+#### - Index [in]
 
 The zero-based index of the subkey that you want value information for.
 
 
-### -param KeyValueInformationClass [in]
+#### - KeyValueInformationClass [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a> value that determines the type of information returned in the <i>KeyValueInformation</i> buffer.
 
 
-### -param KeyValueInformation [out, optional]
+#### - KeyValueInformation [out, optional]
 
 Pointer to a caller-allocated buffer that receives the requested information.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the size, in bytes, of the <i>KeyValueInformation</i> buffer.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 Pointer to a variable that receives the size, in bytes, of the value information. If this routine returns STATUS_SUCCESS, the variable indicates the amount of data returned. If this routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, the variable indicates the buffer size that is required to hold the value information. 
 
@@ -175,21 +175,21 @@ For more information about working with registry keys, see <a href="https://msdn
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

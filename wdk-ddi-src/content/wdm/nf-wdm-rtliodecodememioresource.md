@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a6bdbd68-b4ec-467f-9892-e968243e8994
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIoDecodeMemIoResource, k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], wdm/RtlIoDecodeMemIoResource, kernel.rtliodecodememioresource
+ms.keywords: RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtliodecodememioresource, wdm/RtlIoDecodeMemIoResource, RtlIoDecodeMemIoResource, k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONGLONG RtlIoDecodeMemIoResource(
 
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to provide the address information for.
 
 
-### -param Alignment [out, optional]
+#### - Alignment [out, optional]
 
 A pointer to a variable that receives the alignment, in bytes, of the address range. This parameter can be <b>NULL</b>. 
 
 
-### -param MinimumAddress [out, optional]
+#### - MinimumAddress [out, optional]
 
 A pointer to a variable that receives the minimum address of the address range. This parameter can be <b>NULL</b>.
 
 
-### -param MaximumAddress [out, optional]
+#### - MaximumAddress [out, optional]
 
 A pointer to a variable that receives the maximum address of the address range. This parameter can be <b>NULL</b>.
 
@@ -107,9 +107,9 @@ The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md"
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a>
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
  
 

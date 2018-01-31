@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, PCI_PMC structure [Buses], wdm/PCI_PMC, PPCI_PMC, PCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, PCI.pci_pmc, wdm/PPCI_PMC, *PPCI_PMC
+ms.keywords: "_PCI_PMC, *PPCI_PMC, PPCI_PMC structure pointer [Buses], PPCI_PMC, PCI.pci_pmc, wdm/PPCI_PMC, wdm/PCI_PMC, PCI_PMC structure [Buses], PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_PMC
 product: Windows
 targetos: Windows
-req.typenames: PCI_PMC, *PPCI_PMC
+req.typenames: "*PPCI_PMC, PCI_PMC"
 req.product: Windows 10 or later.
 ---
 
@@ -82,8 +82,48 @@ typedef struct _PCI_PMC {
 
 
 
-### -field Support
+#### - Support
 
+
+
+#### Rsvd2
+
+Reserved. 
+
+
+#### D1
+
+Reserved. 
+
+
+#### D2
+
+Reserved. 
+
+
+#### PMED0
+
+Indicates that the device can assert the PME signal from D0. 
+
+
+#### PMED1
+
+Indicates that the device can assert the PME signal from D1. 
+
+
+#### PMED2
+
+Indicates that the device can assert the PME signal from D2. 
+
+
+#### PMED3Hot
+
+Indicates that the device can assert the PME signal from D3. 
+
+
+#### PMED3Cold
+
+Indicates that the device can assert the PME signal from D3. 
 
 
 ### -field Support.Rsvd2
@@ -131,27 +171,27 @@ Indicates that the device can assert the PME signal from D3.
  
 
 
-### -field Version
+#### - Version
 
 Contains a 3-bit integer that indicates the version of the <i>PCI Power Management Interface Specification </i>that the device complies with. For a list of values that can be assigned to this member, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field PMEClock
+#### - PMEClock
 
 Indicates, when 1, that the device relies on the presence of the PCI clock for operation of the PME signal. When this member is a "0", no PCI clock is required to generate the PME signal. 
 
 
-### -field Rsvd1
+#### - Rsvd1
 
 Reserved. 
 
 
-### -field DeviceSpecificInitialization
+#### - DeviceSpecificInitialization
 
 Indicates when 1 that the device requires a special initialization. For more information about this value, see the <i>PCI Local Bus Specification</i>.
 
 
-### -field Rsvd2
+#### - Rsvd2
 
 Reserved. 
 

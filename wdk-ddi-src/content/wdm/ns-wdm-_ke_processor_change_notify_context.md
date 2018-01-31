@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b8b8e2af-487c-4d7b-8af0-b6365d4703b0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
+ms.keywords: PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], kernel.ke_processor_change_notify_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
+req.typenames: "*PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ typedef struct _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT {
 
 
 
-### -field State
+#### - State
 
 The state of the processor add operation. Possible values are as follows:
 
@@ -93,17 +93,17 @@ The operating system has successfully added the processor. At this state, a devi
 The operating system failed to add the processor. If a device driver receives this notification, it should free any per-processor data structures that it allocated for the new processor when it received the <b>KeProcessorAddStartNotify</b> notification.
 
 
-### -field NtNumber
+#### - NtNumber
 
 The processor index of the new processor. For information about the relationship between a processor index and a processor number, see <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>.
 
 
-### -field Status
+#### - Status
 
 If the <b>State</b> member contains <b>KeProcessorAddFailureNotify</b>, this member contains the error status that indicates why the processor add operation failed.
 
 
-### -field ProcNumber
+#### - ProcNumber
 
 The processor number of the new processor. This member is a <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that specifies a group number and a group-relative processor number.
 
@@ -123,11 +123,11 @@ A device driver's callback function that receives these notifications must not m
 
 ## -see-also
 
+<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+
 <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
 
 <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
-
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
  
 

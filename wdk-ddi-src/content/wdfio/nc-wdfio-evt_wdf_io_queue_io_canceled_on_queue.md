@@ -40,7 +40,7 @@ apiname:
 -	EvtIoCanceledOnQueue
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ VOID EvtIoCanceledOnQueue(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to an I/O queue object.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a request object.
 
@@ -134,9 +134,9 @@ If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
 
  
 

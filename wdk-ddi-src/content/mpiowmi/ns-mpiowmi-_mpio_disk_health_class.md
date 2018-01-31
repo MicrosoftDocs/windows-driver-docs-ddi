@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 07b04bad-9d52-4a32-8834-48cd5803844c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.mpio_disk_health_class, MPIO_DISK_HEALTH_CLASS, mpiowmi/MPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS structure pointer [Storage Devices], PMPIO_DISK_HEALTH_CLASS, *PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS structure [Storage Devices], structs-scsibus_b3dfb95d-08eb-4eb6-80bb-3437282a65d6.xml, mpiowmi/PMPIO_DISK_HEALTH_CLASS, _MPIO_DISK_HEALTH_CLASS
+ms.keywords: "*PMPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS, structs-scsibus_b3dfb95d-08eb-4eb6-80bb-3437282a65d6.xml, storage.mpio_disk_health_class, mpiowmi/MPIO_DISK_HEALTH_CLASS, _MPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS structure [Storage Devices], mpiowmi/PMPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_DISK_HEALTH_CLASS
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS"
+req.typenames: MPIO_DISK_HEALTH_CLASS, *PMPIO_DISK_HEALTH_CLASS
 ---
 
 # _MPIO_DISK_HEALTH_CLASS structure
@@ -82,82 +82,82 @@ typedef struct _MPIO_DISK_HEALTH_CLASS {
 
 
 
-### -field Name
+#### - Name
 
 The name of this multi-path disk.
 
 
-### -field NumberReads
+#### - NumberReads
 
 An unsigned 64-bitfield that specifies the number of read requests that are serviced by this multi-path disk.
 
 
-### -field NumberWrites
+#### - NumberWrites
 
 An unsigned 64-bitfield that specifies the number of write requests that are serviced by this multi-path disk.
 
 
-### -field NumberBytesRead
+#### - NumberBytesRead
 
 An unsigned 64-bitfield that specifies the total number of bytes that are read from this multi-path disk.
 
 
-### -field NumberBytesWritten
+#### - NumberBytesWritten
 
 An unsigned 64-bitfield that specifies the total number of bytes that are written to this multi-path disk.
 
 
-### -field NumberRetries
+#### - NumberRetries
 
 An unsigned 64-bitfield that specifies the total number of retries for this multi-path disk.
 
 
-### -field NumberIoErrors
+#### - NumberIoErrors
 
 An unsigned 64-bitfield that specifies the total number of I/O errors that are encountered by this multi-path disk.
 
 
-### -field CreateTime
+#### - CreateTime
 
 A 64-bit integer that specifies the system time when the health packet was created for this multi-path disk.
 
 
-### -field PathFailures
+#### - PathFailures
 
 A 64-bit integer that specifies the total number of path failures for this multi-path disk.
 
 
-### -field FailTime
+#### - FailTime
 
 A 64-bit integer that specifies the system time when this multi-path disk went offline or failed.
 
 
-### -field DeviceOffline
+#### - DeviceOffline
 
 A Boolean field that indicates whether the multi-path disk is offline or has failed.
 
 
-### -field NumberReadsWrap
+#### - NumberReadsWrap
 
 An unsigned character field that specifies the total number of times that the <i>NumberReads</i> parameter has rolled around to zero.
 
 
-### -field NumberWritesWrap
+#### - NumberWritesWrap
 
 An unsigned character field that specifies the total number of times the <i>NumberWrites</i> parameter has rolled around to zero.
 
 
-### -field NumberBytesReadWrap
+#### - NumberBytesReadWrap
 
 An unsigned character field that specifies the total number of times that the <i>NumberBytesRead</i> parameter has rolled around to zero.
 
 
-### -field NumberBytesWrittenWrap
+#### - NumberBytesWrittenWrap
 
 An unsigned character field that specifies the total number of times that the <i>NumberBytesWritten</i> parameter has rolled around to zero.
 
 
-### -field Pad
+#### - Pad
 
 Should be zero.
 

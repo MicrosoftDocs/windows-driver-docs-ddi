@@ -71,7 +71,7 @@ HRESULT  APIENTRY* pfnCreateVideoProcessor(
 
 
 
-### -param hDrvDevice
+#### - hDrvDevice
 
 The handle of a device driver.
 
@@ -80,7 +80,7 @@ The handle of a device driver.
 
 
 
-### -param hDrvVideoProcessor
+#### - hDrvVideoProcessor
 
 The handle of a video processor.
 

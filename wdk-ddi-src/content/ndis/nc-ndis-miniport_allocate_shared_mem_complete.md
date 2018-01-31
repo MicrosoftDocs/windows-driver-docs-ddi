@@ -79,7 +79,7 @@ VOID MiniportSharedMemoryAllocateComplete(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 The handle to a context area allocated by the miniport driver in which the driver maintains state
      information for a NIC. The driver allocates this context area in the 
@@ -87,26 +87,26 @@ The handle to a context area allocated by the miniport driver in which the drive
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param VirtualAddress [in]
+#### - VirtualAddress [in]
 
 The base virtual address of the shared memory that the miniport driver allocated by calling 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>. 
      <i>VirtualAddress</i> is <b>NULL</b> if the allocation attempt failed.
 
 
-### -param PhysicalAddress [in]
+#### - PhysicalAddress [in]
 
 The base physical address for the NIC to use that is mapped to the address that the 
      <i>VirtualAddress</i> parameter specifies.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes that 
      <b>NdisMAllocateSharedMemoryAsyncEx</b> allocated.
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a context area that the miniport driver specified in the preceding call to 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
@@ -176,13 +176,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
+   NdisMRegisterScatterGatherDma</b></mshelp:link>
+
 <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
 
  
 

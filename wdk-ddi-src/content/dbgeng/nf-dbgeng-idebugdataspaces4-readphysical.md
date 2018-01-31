@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8df51985-9208-46ce-8802-6bc5ec707ab2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadPhysical method [Windows Debugging], ReadPhysical method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, IDebugDataSpaces::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces3::ReadPhysical, ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces2::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces4, debugger.readphysical3, ReadPhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical method, dbgeng/IDebugDataSpaces::ReadPhysical, dbgeng/IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces2 interface [Windows Debugging], ReadPhysical method
+ms.keywords: IDebugDataSpaces::ReadPhysical, IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces4, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, ReadPhysical method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces2 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces interface [Windows Debugging], ReadPhysical method, ReadPhysical method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical method, dbgeng/IDebugDataSpaces::ReadPhysical, debugger.readphysical3, ReadPhysical method [Windows Debugging], dbgeng/IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4::ReadPhysical, ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces2 interface, ReadPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging], ReadPhysical method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ HRESULT ReadPhysical(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the physical address of the memory to read.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the memory that is read.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.
 
 
-### -param BytesRead [out, optional]
+#### - BytesRead [out, optional]
 
 Receives the number of bytes read from the target's memory.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 

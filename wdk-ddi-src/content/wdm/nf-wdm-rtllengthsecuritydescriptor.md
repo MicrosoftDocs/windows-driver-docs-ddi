@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e06888eb-2ced-46c0-bdbf-3bad57020bf7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlLengthSecurityDescriptor, RtlLengthSecurityDescriptor routine [Kernel-Mode Driver Architecture], kernel.rtllengthsecuritydescriptor, k109_ea245194-f36b-4b47-9d81-2d72fc19d5bc.xml, RtlLengthSecurityDescriptor
+ms.keywords: RtlLengthSecurityDescriptor, RtlLengthSecurityDescriptor routine [Kernel-Mode Driver Architecture], wdm/RtlLengthSecurityDescriptor, k109_ea245194-f36b-4b47-9d81-2d72fc19d5bc.xml, kernel.rtllengthsecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG RtlLengthSecurityDescriptor(
 
 
 
-### -param SecurityDescriptor [in]
+#### - SecurityDescriptor [in]
 
 Pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>. 
 
@@ -84,11 +84,11 @@ Pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRI
 
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
  
 

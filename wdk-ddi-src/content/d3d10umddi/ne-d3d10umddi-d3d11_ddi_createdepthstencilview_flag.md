@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 197ba249-f7a4-4c98-914c-ecb8984ffd5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, UMDisplayDriver_Dx11param_Structs_1148b880-7553-4a83-b602-c6b80d79b29f.xml, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration [Display Devices], d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, display.d3d11_ddi_createdepthstencilview_flag, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL
+ms.keywords: d3d10umddi/D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration [Display Devices], d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, display.d3d11_ddi_createdepthstencilview_flag, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, UMDisplayDriver_Dx11param_Structs_1148b880-7553-4a83-b602-c6b80d79b29f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG {
 
 
 
-### -field D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH
+#### - D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH
 
 The driver should create a read-only depth view. 
 
 
-### -field D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL
+#### - D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL
 
 The driver should create a read-only stencil view.
 
 
-### -field D3D11_DDI_CREATE_DSV_FLAG_MASK
+#### - D3D11_DDI_CREATE_DSV_FLAG_MASK
 
 A mask value that indicates the valid bitfields in a bitwise OR combination of the values from this enumeration. 
 
@@ -93,9 +93,9 @@ D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG values are specified in the <b>Flags</b> m
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createdepthstencilview.md">D3D11DDIARG_CREATEDEPTHSTENCILVIEW</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createdepthstencilview.md">CreateDepthStencilView(D3D11)</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createdepthstencilview.md">D3D11DDIARG_CREATEDEPTHSTENCILVIEW</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9892cf0e-23ee-496f-9078-4a2a1fdb19d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_BIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER, print.bidi_request_container, winspool/PBIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER, winspool/LPBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER structure pointer [Print Devices], BIDI_REQUEST_CONTAINER structure [Print Devices], BIDI_REQUEST_CONTAINER, spoolfnc_26c43d0f-69f8-415c-8653-79ef503fe139.xml, winspool/BIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER structure pointer [Print Devices], *PBIDI_REQUEST_CONTAINER"
+ms.keywords: LPBIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER structure pointer [Print Devices], winspool/LPBIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, print.bidi_request_container, BIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER structure [Print Devices], PBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER, winspool/PBIDI_REQUEST_CONTAINER, winspool/BIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER structure pointer [Print Devices], spoolfnc_26c43d0f-69f8-415c-8653-79ef503fe139.xml, _BIDI_REQUEST_CONTAINER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BIDI_REQUEST_CONTAINER
 product: Windows
 targetos: Windows
-req.typenames: "*PBIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER"
+req.typenames: BIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _BIDI_REQUEST_CONTAINER {
 
 
 
-### -field Version
+#### - Version
 
 Specifies the version of the bidi API Schema, which is currently 1.
 
 
-### -field Flags
+#### - Flags
 
 Is a set of flags reserved for system use. This must be zero.
 
 
-### -field Count
+#### - Count
 
 Specifies the number of bidi requests in the <b>aData</b> member. A container can contain zero or more requests, although a value of zero is valid only if the action is BIDI_ACTION_ENUM_SCHEMA.
 
 
-### -field aData
+#### - aData
 
 Is an array of <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a> structures, each holding a single bidi request. 
 

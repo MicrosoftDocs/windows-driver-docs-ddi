@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ffe53d9-ea57-4561-a889-e6369ef0d5d3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadMsr, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces3::ReadMsr, IDebugDataSpaces interface [Windows Debugging], ReadMsr method, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2::ReadMsr, dbgeng/IDebugDataSpaces::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4::ReadMsr, IDebugDataSpaces4, IDebugDataSpaces::ReadMsr, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, debugger.readmsr2, dbgeng/IDebugDataSpaces3::ReadMsr, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, ReadMsr method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadMsr
+ms.keywords: ReadMsr, IDebugDataSpaces2::ReadMsr, IDebugDataSpaces4, IDebugDataSpaces::ReadMsr, debugger.readmsr2, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces3::ReadMsr, dbgeng/IDebugDataSpaces4::ReadMsr, ReadMsr method [Windows Debugging], dbgeng/IDebugDataSpaces2::ReadMsr, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces4::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces::ReadMsr, dbgeng/IDebugDataSpaces3::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT ReadMsr(
 
 
 
-### -param Msr [in]
+#### - Msr [in]
 
 Specifies the MSR address.
 
 
-### -param Value [out]
+#### - Value [out]
 
 Receives the value of the MSR.
 

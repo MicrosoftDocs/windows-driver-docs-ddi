@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 85112ddb-47e6-4874-bd64-a7e4d7ca0fd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_EXTRACTBUNDLEOBJECT structure [Display Devices], _D3DKMT_EXTRACTBUNDLEOBJECT, d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT, D3DKMT_EXTRACTBUNDLEOBJECT, display.d3dkmt-extractbundleobject
+ms.keywords: D3DKMT_EXTRACTBUNDLEOBJECT structure [Display Devices], display.d3dkmt-extractbundleobject, d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT, _D3DKMT_EXTRACTBUNDLEOBJECT, D3DKMT_EXTRACTBUNDLEOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_EXTRACTBUNDLEOBJECT {
 
 
 
-### -field hNtBundleHandle
+#### - hNtBundleHandle
 
 The NT bundle handle.
 
 
-### -field cObjects
+#### - cObjects
 
 The number of the DXGK object to be unbundled.
 
 
-### -field pdwDesiredAccess
+#### - pdwDesiredAccess
 
 The desired access for each NT handle for DXGK objects.
 
 
-### -field phNtHandles
+#### - phNtHandles
 
 The pointer to an array of NT handles for each DXGK object.
 

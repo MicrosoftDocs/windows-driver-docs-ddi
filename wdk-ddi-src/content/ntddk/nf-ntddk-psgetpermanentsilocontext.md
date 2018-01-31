@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C1AEFC8F-6488-4582-9835-DAD07D4ACB17
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetPermanentSiloContext, PsGetPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetpermanentsilocontext, ntddk/PsGetPermanentSiloContext
+ms.keywords: kernel.psgetpermanentsilocontext, ntddk/PsGetPermanentSiloContext, PsGetPermanentSiloContext, PsGetPermanentSiloContext routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS PsGetPermanentSiloContext(
 
 
 
-### -param Silo [in]
+#### - Silo [in]
 
 The silo in which the object was inserted. This parameter is required and it cannot be <b>NULL</b>.
 
 
-### -param ContextSlot [in]
+#### - ContextSlot [in]
 
 The read-only slot that was previously allocated by<a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> and made read-only by <a href="..\ntddk\nf-ntddk-psmakesilocontextpermanent.md">PsMakeSiloContextPermanent</a>.
 
 
-### -param ReturnedSiloContext
+#### - ReturnedSiloContext
 
 A pointer to a caller-allocated variable that receives the address of the existing object. This parameter is required and it cannot be <b>NULL</b>.
 

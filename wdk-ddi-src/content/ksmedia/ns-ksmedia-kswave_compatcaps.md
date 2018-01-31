@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92e6090e-6a31-45d9-ac6d-a20bf180f12e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], PKSWAVE_COMPATCAPS, stream.kswave_compatcaps, ksmedia/PKSWAVE_COMPATCAPS, dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, KSWAVE_COMPATCAPS structure [Streaming Media Devices], ksmedia/KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS
+ms.keywords: PKSWAVE_COMPATCAPS, dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, *PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], KSWAVE_COMPATCAPS, ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, stream.kswave_compatcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSWAVE_COMPATCAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS"
+req.typenames: KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS
 ---
 
 # KSWAVE_COMPATCAPS structure
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-### -field ulDeviceType
+#### - ulDeviceType
 
 Specifies the following flags:
 <table>

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_ADDRESS_TYPE_BTL8, _STOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], *PSTOR_ADDRESS, storport/STOR_ADDRESS, storage.stor_address, STOR_ADDRESS_TYPE_UNKNOWN, storport/PSTOR_ADDRESS, STOR_ADDRESS
+ms.keywords: STOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], storport/PSTOR_ADDRESS, STOR_ADDRESS_TYPE_BTL8, storage.stor_address, PSTOR_ADDRESS, *PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], storport/STOR_ADDRESS, STOR_ADDRESS_TYPE_UNKNOWN, _STOR_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _STOR_ADDRESS {
 
 
 
-### -field Type
+#### - Type
 
 The address type. This can be one of the following:
 <table>
@@ -103,26 +103,26 @@ The address is an 8-bit Bus-Target-LUN address.
 </table> 
 
 
-### -field Port
+#### - Port
 
 The host bus adapter (HBA) port number.
 
 
-### -field AddressLength
+#### - AddressLength
 
 The byte length of the <b>AddressData</b>. If <b>Type</b> is set to <b>STOR_ADDRESS_TYPE_BTL8</b>, this value is <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
 
 
-### -field AddressData
+#### - AddressData
 
 The address data specific to an address type.
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
-
 <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
+
+<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
  
 

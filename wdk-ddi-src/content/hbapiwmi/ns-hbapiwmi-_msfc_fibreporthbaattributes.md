@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e8a31f48-bad2-49d1-81be-d345d87a0fd5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msfc_fibreporthbaattributes, hbapiwmi/PMSFC_FibrePortHBAAttributes, _MSFC_FibrePortHBAAttributes, structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml, PMSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], MSFC_FibrePortHBAAttributes structure [Storage Devices], MSFC_FibrePortHBAAttributes, hbapiwmi/MSFC_FibrePortHBAAttributes
+ms.keywords: PMSFC_FibrePortHBAAttributes, structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml, *PMSFC_FibrePortHBAAttributes, _MSFC_FibrePortHBAAttributes, hbapiwmi/MSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], storage.msfc_fibreporthbaattributes, MSFC_FibrePortHBAAttributes structure [Storage Devices], MSFC_FibrePortHBAAttributes, hbapiwmi/PMSFC_FibrePortHBAAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MSFC_FibrePortHBAAttributes {
 
 
 
-### -field UniquePortId
+#### - UniquePortId
 
 Unique identifier for the port. This identifier must be unique among all ports on all adapters. The same value for the identifier must be used for the same port in other classes that expose port information.
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-### -field Attributes
+#### - Attributes
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a> that contains information about the port attributes. 
 

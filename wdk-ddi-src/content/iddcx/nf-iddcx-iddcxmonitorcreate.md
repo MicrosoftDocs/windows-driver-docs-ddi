@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], iddcx/IddCxMonitorCreate, display.iddcxmonitorcreate
+ms.keywords: iddcx/IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], IddCxMonitorCreate, display.iddcxmonitorcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS IddCxMonitorCreate(
 
 
 
-### -param AdapterObject [in]
+#### - AdapterObject [in]
 
 The adapter object that is hosting the newly arrived monitor
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments to the function
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 Output arguments to the function
 

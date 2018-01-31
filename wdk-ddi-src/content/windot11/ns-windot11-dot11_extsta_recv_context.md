@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 517be11b-a15d-43ac-aefd-f425fa6f63e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_c3f69d82-f4b2-4a2a-b864-9b4eebc9e3ff.xml, windot11/PDOT11_EXTSTA_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_recv_context, windot11/DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTAP_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT structure [Network Drivers Starting with Windows Vista], DOT11_EXTSTA_RECV_CONTEXT
+ms.keywords: DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTAP_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT structure [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_recv_context, PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_EXTSTA_RECV_CONTEXT, windot11/DOT11_EXTSTA_RECV_CONTEXT, windot11/PDOT11_EXTSTA_RECV_CONTEXT, Native_802.11_data_types_c3f69d82-f4b2-4a2a-b864-9b4eebc9e3ff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct DOT11_EXTSTA_RECV_CONTEXT {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_EXTSTA_RECV_CONTEXT structure. This member is formatted
      as an 
@@ -113,7 +113,7 @@ This member must be set to
        sizeof(DOT11_EXTSTA_RECV_CONTEXT).
 
 
-### -field uReceiveFlags
+#### - uReceiveFlags
 
 The attributes of the received packet data specified through a bitmask. 
      
@@ -147,31 +147,31 @@ If this bit is set, the NIC sets the timestamp information in the
        <b>ullTimestamp</b> member.
 
 
-### -field uPhyId
+#### - uPhyId
 
 The identifier (ID) of the PHY on which the 802.11 station received the packet.
 
 
-### -field uChCenterFrequency
+#### - uChCenterFrequency
 
 The channel center frequency, in units of megahertz (MHz), of the frequency band on which the
      802.11 station received the packet.
 
 
-### -field usNumberOfMPDUsReceived
+#### - usNumberOfMPDUsReceived
 
 The number of media access control (MAC) protocol data unit (MPDU) fragments received and
      reassembled by the 802.11 station for the packet. The value of 
      <b>usNumberOfMPDUsReceived</b> must be from one through the value of DOT11_MAX_NUM_OF_FRAGMENTS.
 
 
-### -field lRSSI
+#### - lRSSI
 
 The received signal strength indication (RSSI) value for the last received MPDU fragment of the
      802.11 packet. The RSSI value is in units of decibels referenced to 1.0 milliwatts (dBm).
 
 
-### -field ucDataRate
+#### - ucDataRate
 
 The data rate at which the 802.11 station received the packet. The value of 
      <b>ucDataRate</b> is the value of the 
@@ -181,7 +181,7 @@ The data rate at which the 802.11 station received the packet. The value of
      OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>.
 
 
-### -field uSizeMediaSpecificInfo
+#### - uSizeMediaSpecificInfo
 
 The size, in bytes, of the media specific information at the 
      <b>pvMediaSpecificInfo</b> member. 
@@ -191,7 +191,7 @@ The size, in bytes, of the media specific information at the
 <div class="alert"><b>Note</b>  This member is currently reserved for future use and must contain
      zero.</div><div> </div>
 
-### -field pvMediaSpecificInfo
+#### - pvMediaSpecificInfo
 
 A pointer to a buffer that contains media-specific infomration. The mininiport driver can set this
      member if the miniport driver passes media-specific OOB data to an IHV-specific 802.3 protocol driver.
@@ -205,7 +205,7 @@ The native 802.11 framework copies this pointer to the
 <div class="alert"><b>Note</b>  IHV extensions are currently unable to receive the 
      <b>MediaSpecificInformation</b>.</div><div> </div>
 
-### -field ullTimestamp
+#### - ullTimestamp
 
 An 802.11 timing synchronization function (TSF) timer value, in microseconds, that specifies the
      time when the packet was received. This member is provided to support 
@@ -283,19 +283,19 @@ For more information about Native 802.11 receive operations, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-<mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-   OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
+   OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
  
 

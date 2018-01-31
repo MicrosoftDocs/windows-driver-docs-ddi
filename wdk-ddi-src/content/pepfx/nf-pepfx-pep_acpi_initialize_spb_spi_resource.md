@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76568167-283C-4966-B7FC-0E8CDCD19B60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, kernel.pep_acpi_initialize_spb_spi_resource, PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
+ms.keywords: kernel.pep_acpi_initialize_spb_spi_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function
@@ -81,53 +81,53 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE(
 
 
 
-### -param DeviceSelection [in]
+#### - DeviceSelection [in]
 
 The device selection value. This value is
 specific to the device and may refer to a chip-select line, GPIO
 line, or other line selection mechanism.
 
 
-### -param DeviceSelectionPolarity [in]
+#### - DeviceSelectionPolarity [in]
 
 The polarity of the clock. If zero, this indicates the
 clock is low during the first phase. If 1, this indicates the
 clock is high during the first phase.
 
 
-### -param WireMode [in]
+#### - WireMode [in]
 
 When zero, indicates that this device produces and consumes this resource. Otherwise, this device only consumes this resource.
 
 
-### -param DataBitLength [in]
+#### - DataBitLength [in]
 
 The size, in bits, of the smallest unit of transfer.
 
 
-### -param SlaveMode [in]
+#### - SlaveMode [in]
 
 Indicates if the resource is operating in slave mode.
 
 
-### -param ConnectionSpeed [in]
+#### - ConnectionSpeed [in]
 
 The maximum speed, in hertz, supported by this connection.
 
 
-### -param ClockPolarity [in]
+#### - ClockPolarity [in]
 
 The polarity of the clock. If zero, this indicates the
 clock is low during the first phase. If 1, this indicates the
 clock is high during the first phase.
 
 
-### -param ClockPhase [in]
+#### - ClockPhase [in]
 
 The phase of the clock pulse on which to capture data.
 
 
-### -param ResourceSource [in]
+#### - ResourceSource [in]
 
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
@@ -135,32 +135,32 @@ qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
 
-### -param ResourceSourceIndex [in]
+#### - ResourceSourceIndex [in]
 
 This parameter should always be set to zero.
 
 
-### -param ResourceUsage [in]
+#### - ResourceUsage [in]
 
 Indicates if the resource is in use.
 
 
-### -param SharedMode [in]
+#### - SharedMode [in]
 
 Indicates if the resource is shared.
 
 
-### -param VendorData [in]
+#### - VendorData [in]
 
 A pointer to optional data that is specific to the serial bus connection type.
 
 
-### -param VendorDataLength [in]
+#### - VendorDataLength [in]
 
 The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_spi_resource.md">PEP_ACPI_SPB_SPI_RESOURCE</a>.
 

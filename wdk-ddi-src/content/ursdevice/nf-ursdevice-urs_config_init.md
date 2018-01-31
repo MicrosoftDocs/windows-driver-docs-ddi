@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: URS_CONFIG_INIT, ursdevice/URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init
+ms.keywords: URS_CONFIG_INIT, buses.urs_config_init, URS_CONFIG_INIT function [Buses], ursdevice/URS_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ FORCEINLINE void URS_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
  A pointer to a <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> structure to initialize.
 
 
-### -param HostInterfaceType [in]
+#### - HostInterfaceType [in]
 
  A <a href="..\urstypes\ne-urstypes-_urs_host_interface_type.md">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of host controller that the dual-role controller implements.
 
 
-### -param EvtUrsFilterRemoveResourceRequirements [in]
+#### - EvtUrsFilterRemoveResourceRequirements [in]
 
  A  pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt595921">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> callback function that is implemented by the  client driver.
 

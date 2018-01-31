@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 75c909b1-8eb5-4887-b528-d3ac465ee12b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsAddEvent, avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, KsAddEvent function [Streaming Media Devices], stream.ksaddevent, KsAddEvent
+ms.keywords: avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent, KsAddEvent function [Streaming Media Devices], KsAddEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsAddEvent(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 The object to which to add the event.
 
 
-### -param EventEntry [in]
+#### - EventEntry [in]
 
 A pointer to an <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure describing the event to add to <i>Object</i>.
 
@@ -97,13 +97,13 @@ After events have been added to the event list, these events can be generated as
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
-
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 <a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 

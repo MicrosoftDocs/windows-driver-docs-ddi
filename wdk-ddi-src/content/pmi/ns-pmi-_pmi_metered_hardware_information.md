@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 44dcfd41-7f0e-487e-8b08-5f301f17e7c1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], PMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], *PPMI_METERED_HARDWARE_INFORMATION, PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml, PPMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information, pmi/PMI_METERED_HARDWARE_INFORMATION, pmi/PPMI_METERED_HARDWARE_INFORMATION, _PMI_METERED_HARDWARE_INFORMATION
+ms.keywords: "*PPMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information, PPMI_METERED_HARDWARE_INFORMATION, pmi/PPMI_METERED_HARDWARE_INFORMATION, _PMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], pmi/PMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PMI_METERED_HARDWARE_INFORMATION {
 
 
 
-### -field MeteredHardwareCount
+#### - MeteredHardwareCount
 
 A value that specifies the number of device identifiers that are returned in the <b>MeteredHardware</b> member.
 
 
-### -field MeteredHardware
+#### - MeteredHardware
 
 A Unicode string that specifies the name of each device that is powered by the circuit on which the power meter provides measurement data. Individual device paths are delimited by a <b>NULL</b> character, and the whole list is terminated with a double <b>NULL</b>. The format of the device name is \\Device\xyz". 
 <div class="alert"><b>Note</b>  For systemwide power meters, this member returns <b>NULL</b>.</div><div> </div>
@@ -89,9 +89,9 @@ If the query request completes successfully, the request returns a <a href="..\p
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
 <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
  
 

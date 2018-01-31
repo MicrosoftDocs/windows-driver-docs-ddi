@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 4EF45183-335C-40FC-8693-BF3D17B18DF2
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG, _NFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config
+ms.keywords: nfpdrivers.nfc_cx_rf_discovery_config, NFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], *PNFC_CX_RF_DISCOVERY_CONFIG, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, _NFC_CX_RF_DISCOVERY_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_RF_DISCOVERY_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
+req.typenames: "*PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG"
 ---
 
 # _NFC_CX_RF_DISCOVERY_CONFIG structure
@@ -73,47 +73,47 @@ typedef struct _NFC_CX_RF_DISCOVERY_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
  Size of this structure in bytes.
 
 
-### -field TotalDuration
+#### - TotalDuration
 
  Total duration of the single discovery period in milliseconds. Default is 300 milliseconds.
 
 This member corresponds to TOTAL_DURATION specified in the NCI specification. Values can be between 0 to 0xFFFF.  Use an appropriate value that factors into account both the discovery latency as well as power consumption.
 
 
-### -field PollConfig
+#### - PollConfig
 
 Combination of <a href="..\nfccx\ne-nfccx-_nfc_cx_poll_mode_config.md">NFC_CX_POLL_MODE_CONFIG</a> values. 
 
 This member enables configuration of poll mode settings. The default enables polling for passive poll NFC-A, passive poll NFC-B, and passive poll NFC-F (212 and 424k). Its recommended that NFC clients configure additional active modes if they are supported.
 
 
-### -field NfcIPMode
+#### - NfcIPMode
 
  Combination of <a href="..\nfccx\ne-nfccx-_nfc_cx_nfcip_mode_config.md">NFC_CX_NFCIP_MODE_CONFIG</a> values.
 
 This member enables configuration of NFC-IP initiator mode settings. The value corresponds to combination of NFC_CX_NFCIP_MODE_CONFIG enum. The default enables polling for passive poll NFC-A and passive poll NFC-F (212 and 424k) phases.
 
 
-### -field NfcIPTgtMode
+#### - NfcIPTgtMode
 
  Combination of <a href="..\nfccx\ne-nfccx-_nfc_cx_nfcip_tgt_mode_config.md">NFC_CX_NFCIP_TGT_MODE_CONFIG</a> values.
 
 This member enables configuration of NFC-IP target mode settings. The default enables passive listen NFC-A and passive listen NFC-F phases.
 
 
-### -field NfcCEMode
+#### - NfcCEMode
 
  Combination of <a href="..\nfccx\ne-nfccx-_nfc_cx_ce_mode_config.md">NFC_CX_CE_MODE_CONFIG</a> values. 
 
 This member enables configuration of NFC-CE mode settings. The default enables passive listen NFC-A, passive listen NFC-B, and passive listen NFC-F phases.
 
 
-### -field BailoutConfig
+#### - BailoutConfig
 
 Combination of <a href="..\nfccx\ne-nfccx-_nfc_cx_poll_bailout_config.md">NFC_CX_POLL_BAILOUT_CONFIG</a> values. Default is disabled.
 
@@ -122,9 +122,9 @@ This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

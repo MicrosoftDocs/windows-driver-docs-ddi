@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc91133a-ae6a-447a-8519-65fbe2929521
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasCreateDrvItem function [Imaging Devices], wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, image.wiascreatedrvitem, wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
+ms.keywords: wiasCreateDrvItem function [Imaging Devices], wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml, image.wiascreatedrvitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasCreateDrvItem
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -74,37 +74,37 @@ HRESULT _stdcall wiasCreateDrvItem(
 
 
 
-### -param lObjectFlags
+#### - lObjectFlags
 
 Specifies the object item type, which must be WiaItemTypeFolder or WiaItemTypeFile (possibly the bitwise OR of these). These flags are described in the Microsoft Windows SDK documentation.
 
 
-### -param bstrItemName
+#### - bstrItemName
 
 Specifies a string that contains the item name without path information.
 
 
-### -param bstrFullItemName
+#### - bstrFullItemName
 
 Specifies a string that contains the item name with path information.
 
 
-### -param pIMiniDrv [in, out]
+#### - pIMiniDrv [in, out]
 
 Pointer to the <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv Interface</a> of the current minidriver.
 
 
-### -param cbDevSpecContext
+#### - cbDevSpecContext
 
 Specifies the size in bytes of the device specific context.
 
 
-### -param ppDevSpecContext [out]
+#### - ppDevSpecContext [out]
 
 Pointer to a memory location that receives the address of the device specific context. Set this to <b>NULL</b> if the information is not needed.
 
 
-### -param ppIWiaDrvItem [out]
+#### - ppIWiaDrvItem [out]
 
 Pointer to a memory location that receives the address of an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a> for the newly created <b>IWiaDrvItem</b> object.
 

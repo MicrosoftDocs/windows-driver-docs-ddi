@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltFlushBuffers, ifsk.fltflushbuffers, FltFlushBuffers routine [Installable File System Drivers], FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, fltkernel/FltFlushBuffers
+ms.keywords: FltFlushBuffers, ifsk.fltflushbuffers, fltkernel/FltFlushBuffers, FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, FltFlushBuffers routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS FltFlushBuffers(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
 

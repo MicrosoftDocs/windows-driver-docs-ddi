@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f044a344-4768-499b-85b4-714062111b2c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedAddLargeStatistic routine [Kernel-Mode Driver Architecture], k102_232887d0-d6f0-4664-bcff-221f371bfe6a.xml, ExInterlockedAddLargeStatistic, kernel.exinterlockedaddlargestatistic, wdm/ExInterlockedAddLargeStatistic
+ms.keywords: wdm/ExInterlockedAddLargeStatistic, ExInterlockedAddLargeStatistic routine [Kernel-Mode Driver Architecture], k102_232887d0-d6f0-4664-bcff-221f371bfe6a.xml, ExInterlockedAddLargeStatistic, kernel.exinterlockedaddlargestatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,12 +69,12 @@ VOID ExInterlockedAddLargeStatistic(
 
 
 
-### -param Addend [in]
+#### - Addend [in]
 
 A pointer to the LARGE_INTEGER variable that is incremented by the value of <i>Increment</i>.
 
 
-### -param Increment [in]
+#### - Increment [in]
 
 Specifies a ULONG value that is added to the variable that <i>Addend</i> points to. 
 
@@ -92,9 +92,9 @@ Support routines that do interlocked operations must not cause a page fault. Nei
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
-
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
  
 

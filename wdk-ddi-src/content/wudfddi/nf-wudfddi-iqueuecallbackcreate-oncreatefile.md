@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IQueueCallbackCreate, wdf.iqueuecallbackcreate_oncreatefile, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, IQueueCallbackCreate interface, OnCreateFile method, umdf.iqueuecallbackcreate_oncreatefile, OnCreateFile method, wudfddi/IQueueCallbackCreate::OnCreateFile, OnCreateFile, OnCreateFile method, IQueueCallbackCreate interface, IQueueCallbackCreate::OnCreateFile
+ms.keywords: UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, OnCreateFile method, IQueueCallbackCreate interface, wdf.iqueuecallbackcreate_oncreatefile, umdf.iqueuecallbackcreate_oncreatefile, OnCreateFile, IQueueCallbackCreate, OnCreateFile method, IQueueCallbackCreate interface, OnCreateFile method, wudfddi/IQueueCallbackCreate::OnCreateFile, IQueueCallbackCreate::OnCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackCreate.OnCreateFile
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ void OnCreateFile(
 
 
 
-### -param pWdfQueue [in]
+#### - pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from. 
 
@@ -82,7 +82,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> 
 
 
 
-### -param pWdfFileObject [in]
+#### - pWdfFileObject [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is associated with the device. This information is provided for convenience because the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a> method to obtain the file object. 
 
@@ -114,21 +114,21 @@ A UMDF driver might be required to open registry keys or files while it imperson
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], netvista.dot11_incoming_assoc_decision, PDOT11_INCOMING_ASSOC_DECISION, Revision, _DOT11_INCOMING_ASSOC_DECISION, Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], Type, Size, windot11/DOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION
+ms.keywords: PDOT11_INCOMING_ASSOC_DECISION, Size, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_DECISION, Type, windot11/DOT11_INCOMING_ASSOC_DECISION, Revision, Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, *PDOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_INCOMING_ASSOC_DECISION, _DOT11_INCOMING_ASSOC_DECISION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _DOT11_INCOMING_ASSOC_DECISION {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_INCOMING_ASSOC_DECISION structure. This member is
      formatted as an 
@@ -125,26 +125,26 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field PeerMacAddr
+#### - PeerMacAddr
 
 The media access control (MAC) address of the peer station that the 802.11 station attempted to
      connect to.
 
 
-### -field bAccept
+#### - bAccept
 
 A Boolean value that indicates whether the miniport driver accepts the incoming association
      request. If <b>TRUE</b>, the driver instructs the NIC to accept the association request. Otherwise, the NIC
      should reject the request.
 
 
-### -field usReasonCode
+#### - usReasonCode
 
 A USHORT value that represents a reason code to include in the NIC's association response if 
      <b>bAccept</b> is <b>FALSE</b>.
 
 
-### -field uAssocResponseIEsOffset
+#### - uAssocResponseIEsOffset
 
 The offset of the additional information elements (IEs), in bytes, which the NIC must add to the
      association response frame that it sends to the peer station that seeks association. This offset is relative
@@ -152,7 +152,7 @@ The offset of the additional information elements (IEs), in bytes, which the NIC
      is zero.
 
 
-### -field uAssocResponseIEsLength
+#### - uAssocResponseIEsLength
 
 The length of the additional information elements (IEs), in bytes, which the NIC must add to the
      probe response frame that it sends to the peer station that seeks association. The default value is
@@ -170,10 +170,10 @@ This structure is used with
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <mshelp:link keywords="netvista.oid_dot11_incoming_association_decision" tabindex="0">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 64EE1896-DD19-42AD-92D7-3B3498A83E75
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure pointer [Near-Field Proximity Drivers], *PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, _SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, nfpdrivers.secure_element_set_card_emulation_mode_info, nfcsedev/PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, nfcsedev/SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure [Near-Field Proximity Drivers]
+ms.keywords: nfcsedev/SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, nfpdrivers.secure_element_set_card_emulation_mode_info, SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure [Near-Field Proximity Drivers], nfcsedev/PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure pointer [Near-Field Proximity Drivers], _SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, *PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO {
 
 
 
-### -field guidSecureElementId
+#### - guidSecureElementId
 
 This is a unique identifier for the secure element.
 
 
-### -field eMode
+#### - eMode
 
 Card emulation mode: off, power dependent, or power-independent.
 

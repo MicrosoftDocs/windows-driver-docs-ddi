@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4c5d8834-a78d-443e-bfec-1d9fcddb9331
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::GetCapabilities, GetCapabilities, IStiDevice, image.istidevice_getcapabilities, stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, sti/IStiDevice::GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], GetCapabilities method
+ms.keywords: stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, GetCapabilities method [Imaging Devices], image.istidevice_getcapabilities, GetCapabilities, GetCapabilities method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetCapabilities, IStiDevice interface [Imaging Devices], GetCapabilities method, IStiDevice::GetCapabilities, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetCapabilities(
 
 
 
-### -param pDevCaps [in, out]
+#### - pDevCaps [in, out]
 
 Caller-supplied pointer to an empty <a href="..\sti\ns-sti-_sti_dev_caps.md">STI_DEV_CAPS</a> structure.
 

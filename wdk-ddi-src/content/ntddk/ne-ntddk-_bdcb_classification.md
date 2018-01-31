@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01627E7A-460F-4E49-B98C-0FCCFAB2F8BB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: BdCbClassificationKnownBadImageBootCritical, _BDCB_CLASSIFICATION, *PBDCB_CLASSIFICATION, ntddk/BdCbClassificationEnd, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], BDCB_CLASSIFICATION, BdCbClassificationKnownBadImage, BdCbClassificationUnknownImage, kernel.bdcb_classification, ntddk/BdCbClassificationUnknownImage, ntddk/BdCbClassificationKnownGoodImage, BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationKnownBadImage, ntddk/BdCbClassificationKnownBadImageBootCritical, BdCbClassificationEnd, ntddk/BDCB_CLASSIFICATION
+ms.keywords: kernel.bdcb_classification, ntddk/BdCbClassificationUnknownImage, BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationKnownGoodImage, BdCbClassificationKnownBadImageBootCritical, BdCbClassificationUnknownImage, ntddk/BdCbClassificationKnownBadImageBootCritical, ntddk/BdCbClassificationEnd, _BDCB_CLASSIFICATION, BDCB_CLASSIFICATION, BdCbClassificationEnd, ntddk/BdCbClassificationKnownBadImage, BdCbClassificationKnownBadImage, *PBDCB_CLASSIFICATION, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], ntddk/BDCB_CLASSIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _BDCB_CLASSIFICATION {
 
 
 
-### -field BdCbClassificationUnknownImage
+#### - BdCbClassificationUnknownImage
 
 The boot start image has not been inspected by anti-malware or anti-malware does not have enough information to determine whether the binary is malware.
 
 
-### -field BdCbClassificationKnownGoodImage
+#### - BdCbClassificationKnownGoodImage
 
 The boot start image has been inspected by anti-malware and found not to be malware.
 
 
-### -field BdCbClassificationKnownBadImage
+#### - BdCbClassificationKnownBadImage
 
 The boot start image has been inspected by anti-malware and found to be malware.
 
 
-### -field BdCbClassificationKnownBadImageBootCritical
+#### - BdCbClassificationKnownBadImageBootCritical
 
 The boot start image has been inspected by anti-malware and found to be malware, but the anti-malware boot-start driver also knows it to be critical to the success of the boot.
 
 
-### -field BdCbClassificationEnd
+#### - BdCbClassificationEnd
 
 Do not use. Reserved for future use.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2de12d5-ed9e-42ac-b3e8-a3a567e4ab4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoIs32bitProcess, k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, IoIs32bitProcess routine [Kernel-Mode Driver Architecture], kernel.iois32bitprocess, wdm/IoIs32bitProcess
+ms.keywords: IoIs32bitProcess routine [Kernel-Mode Driver Architecture], IoIs32bitProcess, wdm/IoIs32bitProcess, k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, kernel.iois32bitprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN IoIs32bitProcess(
 
 
 
-### -param Irp [in, optional]
+#### - Irp [in, optional]
 
 Optional pointer to the IRP containing the current I/O request. Note that this must be the original IRP that was issued by the I/O manager. If the caller is a fast I/O dispatch routine (and thus there is no IRP), the caller should set this parameter to <b>NULL</b>.
 

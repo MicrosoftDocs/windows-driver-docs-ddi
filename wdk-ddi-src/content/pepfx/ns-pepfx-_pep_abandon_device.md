@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15F54054-F20B-43A6-8BCD-3A1C47433B12
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_abandon_device, PPEP_ABANDON_DEVICE, _PEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE, pepfx/PPEP_ABANDON_DEVICE, pepfx/PEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_ABANDON_DEVICE, pepfx/PPEP_ABANDON_DEVICE, PPEP_ABANDON_DEVICE, _PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE, pepfx/PEP_ABANDON_DEVICE, kernel.pep_abandon_device, PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PEP_ABANDON_DEVICE {
 
 
 
-### -field DeviceId
+#### - DeviceId
 
 [in] A string that uniquely identifies the device. This member is a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
-### -field DeviceAccepted
+#### - DeviceAccepted
 
 [out] Whether the PEP claims ownership of the device. The PEP sets this member to TRUE to claim ownership of the device, or to FALSE to indicate that it does not own the device.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: baa48d1b-b7da-4f89-b2e8-9a9ae2086527
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnIoStop method, IQueueCallbackIoStop interface, wdf.iqueuecallbackiostop_oniostop, OnIoStop, IQueueCallbackIoStop::OnIoStop, UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml, umdf.iqueuecallbackiostop_oniostop, IQueueCallbackIoStop, IQueueCallbackIoStop interface, OnIoStop method, OnIoStop method, wudfddi/IQueueCallbackIoStop::OnIoStop
+ms.keywords: OnIoStop method, wudfddi/IQueueCallbackIoStop::OnIoStop, IQueueCallbackIoStop interface, OnIoStop method, IQueueCallbackIoStop::OnIoStop, UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml, OnIoStop method, IQueueCallbackIoStop interface, wdf.iqueuecallbackiostop_oniostop, umdf.iqueuecallbackiostop_oniostop, IQueueCallbackIoStop, OnIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackIoStop.OnIoStop
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ void OnIoStop(
 
 
 
-### -param pWdfQueue [in]
+#### - pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that processing of the I/O request is stopped from. 
 
 
-### -param pWdfRequest [in]
+#### - pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object whose processing is stopped. 
 
 
-### -param ActionFlags [in]
+#### - ActionFlags [in]
 
 A valid bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_stop_action_flags.md">WDF_REQUEST_STOP_ACTION_FLAGS</a>-typed values that identifies the state of a stop action request.
 
@@ -117,13 +117,13 @@ If the <b>WdfRequestStopRequestCancelable</b> flag is set in the <i>ActionFlags<
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559051">IWDFIoRequest2::StopAcknowledge</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackiostop.md">IQueueCallbackIoStop</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackiostop.md">IQueueCallbackIoStop</a>
 
  
 

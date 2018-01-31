@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eece67ed-faff-4166-8fa0-d501df9c1363
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSynchronizeAccess, storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storprt_25ee1679-940a-4758-9828-123a9ad24268.xml
+ms.keywords: StorPortSynchronizeAccess, storprt_25ee1679-940a-4758-9828-123a9ad24268.xml, storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ STORPORT_API BOOLEAN StorPortSynchronizeAccess(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param SynchronizedAccessRoutine [in]
+#### - SynchronizedAccessRoutine [in]
 
 Pointer to a caller-supplied routine whose execution is to be synchronized with the execution of the ISR associated with the interrupt objects. For a prototype of this routine, see the Remarks section later in this topic. 
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Pointer to a context area to be passed to the caller-supplied callback routine when it is called. 
 

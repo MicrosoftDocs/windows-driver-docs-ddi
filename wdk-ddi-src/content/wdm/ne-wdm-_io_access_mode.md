@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_ACCESS_MODE, wdm/IO_ACCESS_MODE, RandomAccess, _IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess, SequentialAccess, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], kernel.io_access_mode
+ms.keywords: kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, RandomAccess, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], _IO_ACCESS_MODE, IO_ACCESS_MODE, SequentialAccess, wdm/SequentialAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _IO_ACCESS_MODE {
 
 
 
-### -field SequentialAccess
+#### - SequentialAccess
 
 Indicates that the input/output will be sent down in a sequential order.
 
 
-### -field RandomAccess
+#### - RandomAccess
 
 Indicates that the input/output might not be in a predictable order.
 

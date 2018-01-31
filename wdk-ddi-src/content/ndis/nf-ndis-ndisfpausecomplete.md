@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f5730d3-6e6c-490f-b2e5-e2d3615b4c3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfpausecomplete, ndis/NdisFPauseComplete, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, NdisFPauseComplete, NdisFPauseComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisFPauseComplete, netvista.ndisfpausecomplete, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, NdisFPauseComplete function [Network Drivers Starting with Windows Vista], NdisFPauseComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisFPauseComplete(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 

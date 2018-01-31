@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d09b95d9-4b45-4da5-9c61-8e30ed4fa1d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltEnumerateInstances, FltEnumerateInstances, FltEnumerateInstances routine [Installable File System Drivers], FltApiRef_e_to_o_3875fd52-c8b1-4d79-9f90-83297dbbb44c.xml, ifsk.fltenumerateinstances
+ms.keywords: fltkernel/FltEnumerateInstances, FltEnumerateInstances, FltApiRef_e_to_o_3875fd52-c8b1-4d79-9f90-83297dbbb44c.xml, ifsk.fltenumerateinstances, FltEnumerateInstances routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS FltEnumerateInstances(
 
 
 
-### -param Volume [in, optional]
+#### - Volume [in, optional]
 
 Opaque pointer for the volume for which the caller wants to enumerate minifilter driver instances. If <b>NULL</b>, instances for all volumes are enumerated. Must be non-<b>NULL</b> if <i>Filter</i> is <b>NULL</b>. 
 
 
-### -param Filter [in, optional]
+#### - Filter [in, optional]
 
 Opaque filter pointer for the minifilter driver whose instances are to be enumerated. If <b>NULL</b>, instances for all minifilter drivers are enumerated. Must be non-<b>NULL</b> if <i>Volume</i> is <b>NULL</b>. 
 
 
-### -param InstanceList [out]
+#### - InstanceList [out]
 
 Pointer to a caller-allocated buffer that receives an array of opaque instance pointers. 
 
 
-### -param InstanceListSize [in]
+#### - InstanceListSize [in]
 
 Number of opaque instance pointers that the buffer that <i>InstanceList</i> points to can hold. 
 
 
-### -param NumberInstancesReturned [out]
+#### - NumberInstancesReturned [out]
 
 Pointer to a caller-allocated variable that receives the number of opaque instance pointers returned in the array that <i>InstanceList </i>points to. If <i>InstanceListSize</i> is too small, <b>FltEnumerateInstances</b> returns STATUS_BUFFER_TOO_SMALL and sets <i>NumberInstancesReturned</i> to point to the number of matching instances found. 
 
@@ -157,17 +157,17 @@ To enumerate all minifilter driver instances on a given volume, call <a href="..
 
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltenumeratefilters.md">FltEnumerateFilters</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 
  
 

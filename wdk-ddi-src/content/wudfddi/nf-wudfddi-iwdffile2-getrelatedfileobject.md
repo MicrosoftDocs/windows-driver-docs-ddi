@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, IWDFFile2::GetRelatedFileObject, umdf.iwdffile2_getrelatedfileobject, wdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject method, wudfddi/IWDFFile2::GetRelatedFileObject, IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject, IWDFFile2, GetRelatedFileObject method, IWDFFile2 interface
+ms.keywords: wudfddi/IWDFFile2::GetRelatedFileObject, IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject method, IWDFFile2 interface, IWDFFile2, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, wdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject, umdf.iwdffile2_getrelatedfileobject, IWDFFile2::GetRelatedFileObject, GetRelatedFileObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFFile2.GetRelatedFileObject
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetRelatedFileObject(
 
 
 
-### -param ppRelatedFileObj [out]
+#### - ppRelatedFileObj [out]
 
 The address of a location that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of a UMDF file object. This file object is related to the file object that exposes the <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a> interface's parent <b>IWDFFile</b> interface.
 

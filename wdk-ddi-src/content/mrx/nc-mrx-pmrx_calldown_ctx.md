@@ -40,7 +40,7 @@ apiname:
 -	MRxStart
 product: Windows
 targetos: Windows
-req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
+req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_CALLDOWN_CTX callback
@@ -71,12 +71,12 @@ NTSTATUS MRxStart(
 
 
 
-### -param RxContext [in, out]
+#### - RxContext [in, out]
 
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that requested the network mini-redirector to start. 
 
 
-### -param RxDeviceObject [in, out]
+#### - RxDeviceObject [in, out]
 
 A pointer to the RDBSS_DEVICE_OBJECT structure for this network mini-redirector. 
 

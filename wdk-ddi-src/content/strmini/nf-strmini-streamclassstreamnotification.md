@@ -74,7 +74,7 @@ VOID  StreamClassStreamNotification(
 
 
 
-### -param NotificationType [in]
+#### - NotificationType [in]
 
 This is an enumeration value that contains the type of notification that the minidriver is sending.
 
@@ -111,7 +111,7 @@ Signals that all events that match the criteria specified in the <i>EventSet</i>
 Deletes the event specified by the <i>EventEntry</i> parameter.
 
 
-### -param StreamObject [in]
+#### - StreamObject [in]
 
 Points to the stream object of the stream that the class driver is being notified about.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c8cbbdc-ac2e-462e-9d5c-484305a41302
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setpixelshaderconst, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, D3DDDIARG_SETPIXELSHADERCONSTB, _D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONSTI, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices]
+ms.keywords: D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONSTI, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], display.d3dddiarg_setpixelshaderconst, D3DDDIARG_SETPIXELSHADERCONSTB, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, _D3DDDIARG_SETPIXELSHADERCONST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_SETPIXELSHADERCONST {
 
 
 
-### -field Register
+#### - Register
 
 [in] The index of the first pixel shader constant register whose value is set.
 
 
-### -field Count
+#### - Count
 
 [in] The number of constant registers to set and, therefore, the number of values in the array that is passed in the <i>pRegisters</i> parameter in the call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a>, <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconsti.md">SetPixelShaderConstI</a>, or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a> function.
 
@@ -111,11 +111,11 @@ typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;</pre>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconsti.md">SetPixelShaderConstI</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a>
 
  
 

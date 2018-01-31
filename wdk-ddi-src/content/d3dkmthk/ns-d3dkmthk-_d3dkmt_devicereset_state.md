@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_DEVICERESET_STATE, OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, _D3DKMT_DEVICERESET_STATE, D3DKMT_DEVICERESET_STATE, D3DKMT_DEVICERESET_STATE structure [Display Devices], display.d3dkmt_devicereset_state
+ms.keywords: "_D3DKMT_DEVICERESET_STATE, display.d3dkmt_devicereset_state, OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, D3DKMT_DEVICERESET_STATE structure [Display Devices], D3DKMT_DEVICERESET_STATE, d3dkmthk/D3DKMT_DEVICERESET_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,19 +73,19 @@ typedef struct _D3DKMT_DEVICERESET_STATE {
 
 
 
-### -field DesktopSwitched
+#### - DesktopSwitched
 
 A UINT value that specifies whether the desktop that the calling process is created on switched from being visible to being invisible. For example, when the security screen appears because a user pressed CTRL+ALT+DEL, the desktop that the calling process is created on becomes invisible. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies reset status.
 

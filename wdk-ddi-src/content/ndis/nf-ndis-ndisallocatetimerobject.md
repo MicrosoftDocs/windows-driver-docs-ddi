@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: feb5e4cf-7e23-434e-9dc5-bb445a6f5606
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatetimerobject, ndis/NdisAllocateTimerObject, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml, NdisAllocateTimerObject
+ms.keywords: ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml, netvista.ndisallocatetimerobject, ndis/NdisAllocateTimerObject, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], NdisAllocateTimerObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,14 +72,14 @@ NDIS_STATUS NdisAllocateTimerObject(
 
 
 
-### -param NdisHandle [in]
+#### - NdisHandle [in]
 
 An NDIS handle that was obtained during caller initialization. For more information about
      obtaining NDIS handles, see 
      <a href="https://msdn.microsoft.com/752b0d64-2ca3-4dc0-a6cd-642e96af1f8f">Obtaining Pool Handles</a>.
 
 
-### -param TimerCharacteristics [in]
+#### - TimerCharacteristics [in]
 
 A pointer to a caller-supplied 
      <mshelp:link keywords="netvista.ndis_timer_characteristics" tabindex="0"><b>
@@ -87,7 +87,7 @@ A pointer to a caller-supplied
      object.
 
 
-### -param pTimerObject [out]
+#### - pTimerObject [out]
 
 A pointer to an NDIS timer object handle that NDIS provides to identify the timer object in
      subsequent calls to 
@@ -177,11 +177,11 @@ To free a timer object, you must call the
 
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
-<a href="..\ndis\nf-ndis-ndisfreetimerobject.md">NdisFreeTimerObject</a>
-
 <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+
+<a href="..\ndis\nf-ndis-ndisfreetimerobject.md">NdisFreeTimerObject</a>
 
  
 

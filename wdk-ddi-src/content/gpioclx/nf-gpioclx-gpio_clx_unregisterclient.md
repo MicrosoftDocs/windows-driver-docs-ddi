@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 2ECBF3D9-F613-4829-B2E0-FF5E21A596EC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO.gpio_clx_unregisterclient, GPIO_CLX_UnregisterClient, GPIO_CLX_UnregisterClient method [Parallel Ports], gpioclx/GPIO_CLX_UnregisterClient
+ms.keywords: GPIO_CLX_UnregisterClient method [Parallel Ports], GPIO.gpio_clx_unregisterclient, gpioclx/GPIO_CLX_UnregisterClient, GPIO_CLX_UnregisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS GPIO_CLX_UnregisterClient(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 A WDFDRIVER handle to the framework driver object for the GPIO controller driver.
 
@@ -108,9 +108,9 @@ Typically, the GPIO controller driver calls this method from its <a href="..\wdf
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
 
  
 

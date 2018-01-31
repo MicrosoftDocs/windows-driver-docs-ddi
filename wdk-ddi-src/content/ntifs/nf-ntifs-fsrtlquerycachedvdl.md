@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5D4F3D70-6E2B-4B2E-91A4-6852AF8FEAD0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlquerycachedvdl, ntifs/FsRtlQueryCachedVdl, FsRtlQueryCachedVdl routine [Installable File System Drivers], FsRtlQueryCachedVdl
+ms.keywords: FsRtlQueryCachedVdl, FsRtlQueryCachedVdl routine [Installable File System Drivers], ntifs/FsRtlQueryCachedVdl, ifsk.fsrtlquerycachedvdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlQueryCachedVdl(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 The file object to retrieve the cached VDL for.
 
 
-### -param Vdl [out]
+#### - Vdl [out]
 
  A pointer to a caller supplied value which receives the VDL.
 

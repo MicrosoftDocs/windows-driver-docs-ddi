@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dc549e51-2f25-45b5-925f-3481294e0b35
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxprocs/RxMapSystemBuffer, rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml, ifsk.rxmapsystembuffer, RxMapSystemBuffer function [Installable File System Drivers], RxMapSystemBuffer
+ms.keywords: RxMapSystemBuffer, rxprocs/RxMapSystemBuffer, RxMapSystemBuffer function [Installable File System Drivers], rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml, ifsk.rxmapsystembuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PVOID RxMapSystemBuffer(
 
 
 
-### -param RxContext [in]
+#### - RxContext [in]
 
 A pointer to the RX_CONTEXT structure for this request.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 A pointer to the IRP for this request.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c73ea2b0-e87a-4fb1-9164-ff14d43f1426
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/PDEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging], DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], *PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS, Structures_d79dd552-1acf-4023-99e0-418639a54782.xml, dbgeng/DEBUG_SYMBOL_PARAMETERS, debugger.debug_symbol_parameters, _DEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS
+ms.keywords: DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], PDEBUG_SYMBOL_PARAMETERS, dbgeng/PDEBUG_SYMBOL_PARAMETERS, dbgeng/DEBUG_SYMBOL_PARAMETERS, debugger.debug_symbol_parameters, Structures_d79dd552-1acf-4023-99e0-418639a54782.xml, DEBUG_SYMBOL_PARAMETERS, _DEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging], *PDEBUG_SYMBOL_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _DEBUG_SYMBOL_PARAMETERS {
 
 
 
-### -field Module
+#### - Module
 
 The location in the target's virtual address space of the base of the module to which the symbol belongs.
 
 
-### -field TypeId
+#### - TypeId
 
 The type ID of the symbol.
 
 
-### -field ParentSymbol
+#### - ParentSymbol
 
 The index within the symbol group of the symbol's parent symbol.  If the parent symbol is not known, <b>ParentSymbol</b> is DEBUG_ANY_ID.
 
 
-### -field SubElements
+#### - SubElements
 
 The number of children of the symbol.  If this symbol has never been expanded within this symbol group, this number will be an estimate that is based on the symbol's type.
 
 
-### -field Flags
+#### - Flags
 
 The symbol flags.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541692">DEBUG_SYMBOL_XXX</a> for details.
 
 
-### -field Reserved
+#### - Reserved
 
 Set to zero.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e41472c-4c9d-4727-af08-a350e1967ef0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_PRIVATEBUFFER, _DXVADDI_PRIVATEBUFFER, display.dxvaddi_privatebuffer, DXVADDI_PRIVATEBUFFER structure [Display Devices], d3dumddi/DXVADDI_PRIVATEBUFFER, DXVA2_Structs_90012dba-8a0c-4685-a528-1a57265e5688.xml
+ms.keywords: DXVADDI_PRIVATEBUFFER, DXVA2_Structs_90012dba-8a0c-4685-a528-1a57265e5688.xml, DXVADDI_PRIVATEBUFFER structure [Display Devices], d3dumddi/DXVADDI_PRIVATEBUFFER, display.dxvaddi_privatebuffer, _DXVADDI_PRIVATEBUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXVADDI_PRIVATEBUFFER {
 
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to the resource that contains the private buffer for the decode operation. 
 
 
-### -field SubResourceIndex
+#### - SubResourceIndex
 
 [in] The index to the private buffer within the resource.
 
 
-### -field DataOffset
+#### - DataOffset
 
 [in] The offset to the relevant data, in bytes, from the beginning of the buffer.
 
 
-### -field DataSize
+#### - DataSize
 
 [in] The size of the relevant data, in bytes.
 

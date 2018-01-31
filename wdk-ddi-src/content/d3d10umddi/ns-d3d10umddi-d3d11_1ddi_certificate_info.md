@@ -71,26 +71,26 @@ typedef struct D3D11_1DDI_CERTIFICATE_INFO {
 
 
 
-### -field ChannelType
+#### - ChannelType
 
 A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> value that specifies the type of Direct3D authenticated channel.
 
 
-### -field CryptoSessionType
+#### - CryptoSessionType
 
 A GUID that indicates the cryptographic session.
 
 
-### -field CertificateType
+#### - CertificateType
 
 A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_certificate_type.md">D3D11_1DDI_CERTIFICATE_TYPE</a> value that specifies the type of authenticated certificate that is used to establish trust and perform a key exchange.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_certificate_type.md">D3D11_1DDI_CERTIFICATE_TYPE</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
 
  
 

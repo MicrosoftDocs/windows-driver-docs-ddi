@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b195c6df-79c4-427d-b722-309f43a4e150
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionSetMaximumLength method, wdf.wdfdmatransactionsetmaximumlength, PFN_WDFDMATRANSACTIONSETMAXIMUMLENGTH, WdfDmaTransactionSetMaximumLength, kmdf.wdfdmatransactionsetmaximumlength, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml
+ms.keywords: wdf.wdfdmatransactionsetmaximumlength, WdfDmaTransactionSetMaximumLength method, DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, PFN_WDFDMATRANSACTIONSETMAXIMUMLENGTH, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength, kmdf.wdfdmatransactionsetmaximumlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfDmaTransactionSetMaximumLength(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 
 
-### -param MaximumLength [in]
+#### - MaximumLength [in]
 
 The maximum size, in bytes, that the device can handle in a single DMA transfer operation. If your driver must run on versions of the Microsoft Windows operating systems that support a maximum of 16 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554406">map registers</a>, <i>MaximumLength</i> must be less than 65536.
 

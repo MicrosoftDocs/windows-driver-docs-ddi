@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ceb6647a-a43e-4ab1-88d4-49927103ecba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_SET_ON, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, *PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, netvista.ndis_offload_parameters, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, _NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, ntddndis/NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_SET_OFF, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED
+ms.keywords: NDIS_OFFLOAD_SET_ON, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, _NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, ntddndis/NDIS_OFFLOAD_PARAMETERS, netvista.ndis_offload_parameters, PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, ntddndis/PNDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_SET_OFF, *PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_OFFLOAD_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS"
+req.typenames: NDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS
 ---
 
 # _NDIS_OFFLOAD_PARAMETERS structure
@@ -97,7 +97,7 @@ typedef struct _NDIS_OFFLOAD_PARAMETERS {
 
 
 
-### -field RscIPv4
+#### - RscIPv4
 
 Indicates Receive Segment Coalescing state for IPv4.
 <table>
@@ -138,7 +138,7 @@ The RSC state is disabled.
 </table> 
 
 
-### -field RscIPv6
+#### - RscIPv6
 
 Indicates Receive Segment Coalescing state for IPv6.
 <table>
@@ -179,7 +179,7 @@ The RSC state is disabled.
 </table> 
 
 
-### -field EncapsulatedPacketTaskOffload
+#### - EncapsulatedPacketTaskOffload
 
 A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows: 
 <div class="alert"><b>Note</b>  For receive side offloads such as VMQ and RSS, there are other set OIDs that the protocol driver sends down to enable and configure the offload parameters (for example, queues, hash, and indirection table). The <b>EncapsulatedPacketTaskOffload</b> member is supplemental to those OIDs and instructs the NIC to also do these offloads for encapsulated packets.</div><div> </div><table>
@@ -223,7 +223,7 @@ Disables NVGRE task offloads.
 </table> 
 
 
-### -field EncapsulationTypes
+#### - EncapsulationTypes
 
 This field is effective only when the <b>EncapsulatedPacketTaskOffload</b> is set to <b>NDIS_OFFLOAD_SET_ON</b>. If the <b>EncapsulatedPacketTaskOffload</b> member is not set to <b>NDIS_OFFLOAD_SET_ON</b>, this member is zero. A protocol driver must set <b>EncapsulationTypes</b> to the bitwise OR of the flags corresponding to encapsulation types that it requires. It can select flags from the following:
 <table>
@@ -270,7 +270,7 @@ Specifies GRE MAC  encapsulation (NVGRE).
  
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -336,37 +336,37 @@ Set the
 </table> 
 
 
-### -field IPv4Checksum
+#### - IPv4Checksum
 
 The IPv4 checksum setting of the miniport adapter. For more information, see the following Remarks
      section.
 
 
-### -field TCPIPv4Checksum
+#### - TCPIPv4Checksum
 
 The IPv4 checksum setting of the miniport adapter for TCP packets. For more information, see the
      following Remarks section.
 
 
-### -field UDPIPv4Checksum
+#### - UDPIPv4Checksum
 
 The IPv4 checksum setting of the miniport adapter for UDP packets. For more information, see the
      following Remarks section.
 
 
-### -field TCPIPv6Checksum
+#### - TCPIPv6Checksum
 
 The IPv6 checksum setting of the miniport adapter for TCP packets. For more information, see the
      following Remarks section.
 
 
-### -field UDPIPv6Checksum
+#### - UDPIPv6Checksum
 
 The IPv6 checksum setting of the miniport adapter for UDP packets. For more information, see the
      following Remarks section.
 
 
-### -field LsoV1
+#### - LsoV1
 
 The large send offload version 1 (LSOV1) setting of the miniport adapter. This setting should be
      one of the following values:
@@ -409,7 +409,7 @@ LSOV1 is enabled.
 </table> 
 
 
-### -field IPsecV1
+#### - IPsecV1
 
 The Internet protocol security (IPsec) offload setting of the miniport adapter. This setting
      should be one of the following values:
@@ -474,7 +474,7 @@ The IPsec offload AH and ESP features areenabled for transmit and receive.
 </table> 
 
 
-### -field LsoV2IPv4
+#### - LsoV2IPv4
 
 The IPv4 large send offload version 2 (LSOV2) setting of the miniport adapter. This setting should
      be one of the following values:
@@ -517,7 +517,7 @@ LSOV2 for IPv4 is enabled.
 </table> 
 
 
-### -field LsoV2IPv6
+#### - LsoV2IPv6
 
 The IPv6 LSOV2 setting of the miniport adapter. These settings are specified as one of the
      following values:
@@ -560,7 +560,7 @@ LSOV2 for IPv6 is enabled.
 </table> 
 
 
-### -field TcpConnectionIPv4
+#### - TcpConnectionIPv4
 
 The IPv4 connection offload setting of the miniport adapter. These settings are specified as one
      of the following values:
@@ -583,7 +583,7 @@ The miniport driver should not change the current setting.
 </table> 
 
 
-### -field TcpConnectionIPv6
+#### - TcpConnectionIPv6
 
 The IPv6 connection offload setting of the miniport adapter. These settings are specified as one
      of the following values:
@@ -606,13 +606,13 @@ The miniport driver should not change the current setting.
 </table> 
 
 
-### -field Flags
+#### - Flags
 
 A set of flags that can be combined with a bitwise OR operation. Set this member to zero. There
      are currently no flags defined.
 
 
-### -field IPsecV2
+#### - IPsecV2
 
 The Internet protocol security (IPsec) offload version 2 setting of a miniport adapter that supports
       IPv6 and IPv4. This member specifies the setting for both IPv6 and IPv4 support. This setting should be
@@ -677,7 +677,7 @@ The IPsec offload version 2A H and ESP features are enabled for transmit and rec
 </table> 
 
 
-### -field IPsecV2IPv4
+#### - IPsecV2IPv4
 
 The Internet protocol security (IPsec) offload version 2 setting of a miniport adapter that supports
       IPv4 and does not support IPv6. If the miniport driver supports IPv6, the 
@@ -776,10 +776,10 @@ The preceding members can have one of the following values:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
-
 <mshelp:link keywords="netvista.oid_tcp_offload_hardware_capabilities" tabindex="0">
    OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

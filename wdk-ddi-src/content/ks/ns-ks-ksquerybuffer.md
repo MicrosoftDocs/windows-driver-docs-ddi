@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, *PKSQUERYBUFFER, stream.ksquerybuffer, PKSQUERYBUFFER, KSQUERYBUFFER, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices]
+ms.keywords: KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, ks/KSQUERYBUFFER, KSQUERYBUFFER, ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/PKSQUERYBUFFER, *PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], stream.ksquerybuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Event
+#### - Event
 
 Specifies the description of the original event, with the KSEVENT_TYPE_QUERYBUFFER flag set instead of the KSEVENT_TYPE_ENABLEBUFFERED flag.
 
 
-### -field EventData
+#### - EventData
 
 A pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
 
 
-### -field Reserved
+#### - Reserved
 
 Not used, and set to zero.
 
@@ -153,9 +153,9 @@ life is good.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
 
  
 

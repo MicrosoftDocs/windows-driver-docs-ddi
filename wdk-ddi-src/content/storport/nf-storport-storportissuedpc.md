@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a0c46c51-f6c4-4609-9dba-b730f33c3ed6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortIssueDpc, storport/StorPortIssueDpc, StorPortIssueDpc routine [Storage Devices], storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml, storage.storportissuedpc
+ms.keywords: storage.storportissuedpc, StorPortIssueDpc routine [Storage Devices], StorPortIssueDpc, storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml, storport/StorPortIssueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ BOOLEAN StorPortIssueDpc(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the per-adapter device extension. 
 
 
-### -param Dpc [in]
+#### - Dpc [in]
 
 Pointer to a buffer containing an initialized DPC object of type <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a> returned by the <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a> routine. 
 
 
-### -param SystemArgument1 [in]
+#### - SystemArgument1 [in]
 
 Pointer to caller-supplied information that will be passed to the deferred routine. 
 
 
-### -param SystemArgument2 [in]
+#### - SystemArgument2 [in]
 
 Pointer to caller-supplied information that will be passed to the deferred routine. 
 

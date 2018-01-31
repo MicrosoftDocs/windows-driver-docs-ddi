@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 20636a37-8cc5-4ee2-91b1-53edf4911b49
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCbCatStringNEx function [Kernel-Mode Driver Architecture], safestrings_e032e11b-4526-4f1f-9e1a-3ae387e8c49d.xml, kernel.rtlunicodestringcbcatstringnex, RtlUnicodeStringCbCatStringNEx, ntstrsafe/RtlUnicodeStringCbCatStringNEx
+ms.keywords: ntstrsafe/RtlUnicodeStringCbCatStringNEx, kernel.rtlunicodestringcbcatstringnex, RtlUnicodeStringCbCatStringNEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringCbCatStringNEx, safestrings_e032e11b-4526-4f1f-9e1a-3ae387e8c49d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUnicodeStringCbCatStringNEx(
 
 
 
-### -param DestinationString [in, out]
+#### - DestinationString [in, out]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 A caller-supplied pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the <b>UNICODE_STRING</b> structure that <i>DestinationString</i> points to. <i>pszSrc</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbToAppend [in]
+#### - cbToAppend [in]
 
 The maximum number of bytes to append to the string that the <i>DestinationString</i> parameter describes.
 
 
-### -param RemainingString [out, optional]
+#### - RemainingString [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
@@ -205,9 +205,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatstringnex.md">RtlUnicodeStringCchCatStringNEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatstringn.md">RtlUnicodeStringCbCatStringN</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatstringnex.md">RtlUnicodeStringCchCatStringNEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a1b5094-4abd-4d57-8d8c-b385fb0d46de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices], KsFlushClient method, ksproxy/IKsQualityForwarder::KsFlushClient, IKsQualityForwarder, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, KsFlushClient, KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface, IKsQualityForwarder::KsFlushClient, stream.iksqualityforwarder_ksflushclient
+ms.keywords: IKsQualityForwarder, IKsQualityForwarder::KsFlushClient, IKsQualityForwarder interface [Streaming Media Devices], KsFlushClient method, ksproxy/IKsQualityForwarder::KsFlushClient, KsFlushClient, KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, stream.iksqualityforwarder_ksflushclient, KsFlushClient method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ VOID KsFlushClient(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Pointer to the <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a> interface for the pin from which to flush information.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c9c09ae-5b7a-4482-8f6b-1ad5ede5b3f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaNotificationProviderRemoval, NET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista], netdma/NetDmaNotificationProviderRemoval, netdma/NetDmaNotificationChannelArrival, _NET_DMA_PNP_NOTIFICATION_CODE, netdma/PNET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderPowerUp, netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, NetDmaNotificationProviderRegistered, netdma/NetDmaNotificationProviderArrival, NetDmaNotificationMax, netvista.net_dma_pnp_notification_code, NetDmaNotificationChannelArrival, *PNET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationMax, netdma/NetDmaNotificationProviderRegistered, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], netdma/NET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderArrival, netdma/NetDmaNotificationProviderPowerUp, NetDmaNotificationProviderPowerDown, netdma/NetDmaNotificationProviderPowerDown
+ms.keywords: "*PNET_DMA_PNP_NOTIFICATION_CODE, netdma/PNET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE, netvista.net_dma_pnp_notification_code, NET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationProviderRegistered, _NET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderRegistered, NetDmaNotificationProviderRemoval, netdma/NetDmaNotificationProviderRemoval, NetDmaNotificationMax, netdma/NetDmaNotificationProviderPowerDown, NetDmaNotificationProviderArrival, netdma/NET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderArrival, NetDmaNotificationChannelArrival, NetDmaNotificationProviderPowerDown, NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationChannelArrival, netdma/NetDmaNotificationMax, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista], NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NET_DMA_PNP_NOTIFICATION_CODE
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # _NET_DMA_PNP_NOTIFICATION_CODE enumeration
@@ -74,43 +74,43 @@ typedef enum _NET_DMA_PNP_NOTIFICATION_CODE {
 
 
 
-### -field NetDmaNotificationProviderRegistered
+#### - NetDmaNotificationProviderRegistered
 
 The NetDMA provider is registered. NetDMA uses this event in the NetDMA client interface.
 
 
-### -field NetDmaNotificationProviderArrival
+#### - NetDmaNotificationProviderArrival
 
 The NetDMA provider is available for a client to use. NetDMA uses this event in the NetDMA client
      interface.
 
 
-### -field NetDmaNotificationProviderRemoval
+#### - NetDmaNotificationProviderRemoval
 
 The NetDMA provider was removed. NetDMA uses this event in the NetDMA client interface.
 
 
-### -field NetDmaNotificationChannelArrival
+#### - NetDmaNotificationChannelArrival
 
 The NetDMA channel is available for a client to use. NetDMA uses this event in the NetDMA client
      interface.
 
 
-### -field NetDmaNotificationProviderPowerDown
+#### - NetDmaNotificationProviderPowerDown
 
 The NetDMA provider is powering down. A NetDMA provider driver issues the 
      <b>NetDmaNotificationProviderPowerDown</b> notification before it sets the DMA provider to a low-power
      state.
 
 
-### -field NetDmaNotificationProviderPowerUp
+#### - NetDmaNotificationProviderPowerUp
 
 The NetDMA provider is powered up. NetDMA provider drivers issue the 
      <b>NetDmaNotificationProviderPowerUp</b> notification after the DMA provider is back to a working power
      state.
 
 
-### -field NetDmaNotificationMax
+#### - NetDmaNotificationMax
 
 The total number of supported NetDMA PnP events.
 

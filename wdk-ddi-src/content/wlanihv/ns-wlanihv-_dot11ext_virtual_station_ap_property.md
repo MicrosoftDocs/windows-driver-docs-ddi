@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6edad03-63fc-4a27-b999-9014d3735861
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, Native_802.11_data_types_13a72b1b-41e4-4651-a4d5-a120a628defd.xml, wlanihv/DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, netvista.dot11ext_virtual_station_ap_property, wlanihv/PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, DOT11EXT_VIRTUAL_STATION_AP_PROPERTY structure [Network Drivers Starting with Windows Vista], *PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY
+ms.keywords: netvista.dot11ext_virtual_station_ap_property, wlanihv/DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, DOT11EXT_VIRTUAL_STATION_AP_PROPERTY structure [Network Drivers Starting with Windows Vista], PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, wlanihv/PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, *PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, Native_802.11_data_types_13a72b1b-41e4-4651-a4d5-a120a628defd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11EXT_VIRTUAL_STATION_AP_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, *PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY
+req.typenames: "*PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY, DOT11EXT_VIRTUAL_STATION_AP_PROPERTY"
 req.product: Windows 10 or later.
 ---
 
@@ -74,40 +74,40 @@ typedef struct _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY {
 
 
 
-### -field dot11SSID
+#### - dot11SSID
 
 A 
      <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a> structure that contains the service
      set identifier (SSID) used by the virtual station AP.
 
 
-### -field dot11AuthAlgo
+#### - dot11AuthAlgo
 
 A 
      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a> structure that
      contains the authentication algorithm used by the virtual station AP.
 
 
-### -field dot11CipherAlgo
+#### - dot11CipherAlgo
 
 A 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> structure that
      contains the cipher algorithm used by the virtual station AP.
 
 
-### -field bIsPassPhrase
+#### - bIsPassPhrase
 
 A Boolean value that indicates how the operating system should interpret the value of the 
      <b>ucKeyData</b> member. For more information, see the following Remarks section.
 
 
-### -field dwKeyLength
+#### - dwKeyLength
 
 The length, in bytes, of the useful part of the 
      <b>ucKeyData</b> member. For more information, see the following Remarks section.
 
 
-### -field ucKeyData
+#### - ucKeyData
 
 A UCHAR value that specifies the key used by the virtual station AP's Preshared Keys (PSK)
      authentication algorithm. For more information, see the following Remarks section.

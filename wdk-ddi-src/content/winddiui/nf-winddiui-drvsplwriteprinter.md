@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c42bb90a-3c38-4c0c-b523-10e740a027c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_interface-graphics_a59ea0df-c5d8-4a84-8b57-21dfa4f382c4.xml, winddiui/DrvSplWritePrinter, print.drvsplwriteprinter, DrvSplWritePrinter, DrvSplWritePrinter function [Print Devices]
+ms.keywords: winddiui/DrvSplWritePrinter, DrvSplWritePrinter function [Print Devices], DrvSplWritePrinter, print.drvsplwriteprinter, print_interface-graphics_a59ea0df-c5d8-4a84-8b57-21dfa4f382c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvSplWritePrinter
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -71,18 +71,18 @@ BOOL WINAPI DrvSplWritePrinter(
 
 
 
-### -param hDriver
+#### - hDriver
 
 
 
-### -param pBuf
+#### - pBuf
 
 
 
-### -param cbBuf
+#### - cbBuf
 
 
 
-### -param pcWritten
+#### - pcWritten
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0BD6FCB7-1705-4343-AD41-7362FE095ECB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode::GetStreamChannelVolume, GetStreamChannelVolume, GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelVolume method, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, IMiniportStreamAudioEngineNode
+ms.keywords: GetStreamChannelVolume, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, IMiniportStreamAudioEngineNode, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelVolume method, GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode::GetStreamChannelVolume, GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.GetStreamChannelVolume
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamChannelVolume method
@@ -68,12 +68,12 @@ NTSTATUS GetStreamChannelVolume(
 
 
 
-### -param ulChannel [in]
+#### - ulChannel [in]
 
 The audio stream channel.
 
 
-### -param plValue [out]
+#### - plValue [out]
 
 The current volume level.
 

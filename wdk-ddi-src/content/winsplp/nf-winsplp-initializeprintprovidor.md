@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54a5009d-9893-4766-b9fd-7e7474b55949
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: InitializePrintProvidor, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml, print.initializeprintprovidor, InitializePrintProvidor function [Print Devices], winsplp/InitializePrintProvidor
+ms.keywords: InitializePrintProvidor function [Print Devices], InitializePrintProvidor, print.initializeprintprovidor, winsplp/InitializePrintProvidor, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ BOOL InitializePrintProvidor(
 
 
 
-### -param pPrintProvidor [out]
+#### - pPrintProvidor [out]
 
 Caller-supplied address of a <a href="..\winsplp\ns-winsplp-_printprovidor.md">PRINTPROVIDOR</a> structure, to be filled in by the print provider.
 
 
-### -param cbPrintProvidor [in]
+#### - cbPrintProvidor [in]
 
 Caller-supplied size, in bytes, of the PRINTPROVIDOR structure pointed to by <i>pPrintProvidor</i>.
 
 
-### -param pFullRegistryPath [in, optional]
+#### - pFullRegistryPath [in, optional]
 
 Caller-supplied pointer to a string representing the full registry path to the provider's registry entry.
 

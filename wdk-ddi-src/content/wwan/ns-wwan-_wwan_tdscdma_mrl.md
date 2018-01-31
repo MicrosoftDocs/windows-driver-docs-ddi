@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D919EF5E-502C-4983-AFC5-F3F6E6CC8C3B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_TDSCDMA_MRL, wwan/WWAN_TDSCDMA_MRL, *PWWAN_TDSCDMA_MRL, netvista.wwan_tdscdma_mrl, _WWAN_TDSCDMA_MRL
+ms.keywords: wwan/WWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_tdscdma_mrl, _WWAN_TDSCDMA_MRL, WWAN_TDSCDMA_MRL structure [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL, *PWWAN_TDSCDMA_MRL, wwan/PWWAN_TDSCDMA_MRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_TDSCDMA_MRL
 product: Windows
 targetos: Windows
-req.typenames: WWAN_TDSCDMA_MRL, *PWWAN_TDSCDMA_MRL
+req.typenames: "*PWWAN_TDSCDMA_MRL, WWAN_TDSCDMA_MRL"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ typedef struct _WWAN_TDSCDMA_MRL {
 
 
 
-### -field ElementCount
+#### - ElementCount
 
 The count of MRL entries following this member.
 
@@ -89,11 +89,11 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_tds
 
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl_info.md">WWAN_TDSCDMA_MRL_INFO</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
  
 

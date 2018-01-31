@@ -77,14 +77,14 @@ VOID ProtocolDirectOidRequestComplete(
 
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      per-binding run-time state. The driver supplied this handle when it called the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-### -param OidRequest [in]
+#### - OidRequest [in]
 
 A pointer to the protocol driver-supplied 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that was
@@ -92,7 +92,7 @@ A pointer to the protocol driver-supplied
      <b>NdisDirectOidRequest</b> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the request. The underlying driver or NDIS determines this final status. This
      parameter determines what 
@@ -219,11 +219,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 

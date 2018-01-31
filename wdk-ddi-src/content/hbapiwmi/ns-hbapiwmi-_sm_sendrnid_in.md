@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7d94fc94-bfc6-4666-a321-71a0643f3140
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSM_SendRNID_IN, SM_SendRNID_IN structure [Storage Devices], _SM_SendRNID_IN, *PSM_SendRNID_IN, storage.sm_sendrnid_in, structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml, hbapiwmi/SM_SendRNID_IN, PSM_SendRNID_IN structure pointer [Storage Devices], SM_SendRNID_IN, PSM_SendRNID_IN
+ms.keywords: PSM_SendRNID_IN structure pointer [Storage Devices], SM_SendRNID_IN, SM_SendRNID_IN structure [Storage Devices], hbapiwmi/PSM_SendRNID_IN, storage.sm_sendrnid_in, hbapiwmi/SM_SendRNID_IN, PSM_SendRNID_IN, *PSM_SendRNID_IN, _SM_SendRNID_IN, structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendRNID_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_SendRNID_IN, *PSM_SendRNID_IN
+req.typenames: "*PSM_SendRNID_IN, SM_SendRNID_IN"
 ---
 
 # _SM_SendRNID_IN structure
@@ -71,27 +71,27 @@ typedef struct _SM_SendRNID_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 The worldwide name (WWN) of the local port.
 
 
-### -field DestWWN
+#### - DestWWN
 
 The worldwide name (WWN) of the destination port.
 
 
-### -field DestFCID
+#### - DestFCID
 
 The address identifier of the destination port.
 
 
-### -field NodeIdDataFormat
+#### - NodeIdDataFormat
 
 The node identification data format.
 
 
-### -field InRespBufferMaxSize
+#### - InRespBufferMaxSize
 
 The maximum response buffer size.
 

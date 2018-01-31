@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: e1ee536f-40e4-48b7-b2d0-6ead22520ec8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ADDRESS_OFFSET, 1394/PADDRESS_OFFSET, 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, _ADDRESS_OFFSET, PADDRESS_OFFSET structure pointer [Buses], 1394/ADDRESS_OFFSET, PADDRESS_OFFSET, ADDRESS_OFFSET structure [Buses], IEEE.address_offset, *PADDRESS_OFFSET
+ms.keywords: ADDRESS_OFFSET, IEEE.address_offset, 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, PADDRESS_OFFSET, _ADDRESS_OFFSET, ADDRESS_OFFSET structure [Buses], 1394/ADDRESS_OFFSET, PADDRESS_OFFSET structure pointer [Buses], *PADDRESS_OFFSET, 1394/PADDRESS_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _ADDRESS_OFFSET {
 
 
 
-### -field Off_High
+#### - Off_High
 
 Specifies the high order offset for a IEEE 1394 address.
 
 
-### -field Off_Low
+#### - Off_Low
 
 Specifies the low order offset for a IEEE 1394 address.
 

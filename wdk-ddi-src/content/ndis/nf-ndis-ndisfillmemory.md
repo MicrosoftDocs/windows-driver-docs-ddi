@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d974c56-5925-4ad5-a3c0-0c17e8488431
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfillmemory, ndis/NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, NdisFillMemory
+ms.keywords: ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, netvista.ndisfillmemory, ndis/NdisFillMemory, NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,17 +70,17 @@ VOID NdisFillMemory(
 
 
 
-### -param Destination [in]
+#### - Destination [in]
 
 A pointer to the buffer to be filled.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes to be filled.
 
 
-### -param Fill [in]
+#### - Fill [in]
 
 The value to fill the buffer.
 
@@ -97,9 +97,9 @@ Callers of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-
 <a href="..\wdm\nf-wdm-rtlequalmemory.md">RtlEqualMemory</a>
+
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
  
 

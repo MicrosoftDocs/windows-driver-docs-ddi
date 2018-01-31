@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 82700669-b98f-486c-a7a6-cd7138300f11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.istiusd_rawwritedata, IStiUSD, IStiUSD interface [Imaging Devices], RawWriteData method, RawWriteData, RawWriteData method [Imaging Devices], IStiUSD interface, IStiUSD::RawWriteData, stiusd/IStiUSD::RawWriteData, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, RawWriteData method [Imaging Devices]
+ms.keywords: IStiUSD::RawWriteData, image.istiusd_rawwritedata, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, RawWriteData, stiusd/IStiUSD::RawWriteData, RawWriteData method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], RawWriteData method, RawWriteData method [Imaging Devices], IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.RawWriteData
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT RawWriteData(
 
 
 
-### -param lpBuffer
+#### - lpBuffer
 
 Caller-supplied pointer to a buffer containing data to be sent to the device.
 
@@ -80,7 +80,7 @@ Caller-supplied pointer to a buffer containing data to be sent to the device.
 
 
 
-### -param lpOverlapped
+#### - lpOverlapped
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 

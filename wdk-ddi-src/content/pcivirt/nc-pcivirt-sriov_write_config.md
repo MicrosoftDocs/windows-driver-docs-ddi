@@ -76,29 +76,29 @@ typedef SRIOV_WRITE_CONFIG *PSRIOV_WRITE_CONFIG;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a driver-defined context.
                     
                 
 
 
-### -param Data [in]
+#### - Data [in]
 
 A pointer to buffer that contains the data to be written to the configuration space.
 
 
-### -param VfIndex [in]
+#### - VfIndex [in]
 
 A zero-based index of the VF to which this write operation applies.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 An offset in bytes to the start of the VF’s configuration space where the write begins.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the data to write to the configuration space.
 

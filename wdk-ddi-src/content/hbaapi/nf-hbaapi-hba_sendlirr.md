@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e38d297-1e26-4605-a242-3f0180ac0360
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml, HBA_SendLIRR routine [Storage Devices], storage.hba_sendlirr, hbaapi/HBA_SendLIRR, HBA_SendLIRR
+ms.keywords: HBA_SendLIRR routine [Storage Devices], storage.hba_sendlirr, HBA_SendLIRR, fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml, hbaapi/HBA_SendLIRR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ HBA_STATUS HBA_API HBA_SendLIRR(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which to send the LIR request. 
 
 
-### -param SourceWWN [in]
+#### - SourceWWN [in]
 
 Contains the worldwide name (WWN) of the local port from which to issue the command and which will receive link incident records from the destination port referenced by <i>DestWWN</i>. For a definition of worldwide names, see the T11 committee's specification for <i>Fibre Channel HBA API</i>. 
 
 
-### -param DestWWN [in]
+#### - DestWWN [in]
 
 Contains the WWN of the remote destination port that will report link incident records to the source port. For a definition of worldwide names, see the T11 committee's specification for <i>Fibre Channel HBA API</i>. 
 
 
-### -param Function [in]
+#### - Function [in]
 
 Specifies the action to take. This member either registers a source port to receive link incident records and specifies the mode of registration, or it de-registers a source port that is already registered. This member must have one of the following values.
 <table>
@@ -151,14 +151,14 @@ Indicates that the source port is removed from the registration list for records
 For further explanation of the available registration modes, see the T11 committee's <i>Fibre Channel Framing and Signaling</i> specification.
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies the type of records whose delivery is affected by the link incident record request (LIRR). When 0, the LIRR governs the delivery of common link incident records, so if the source port is registering to receive records, then the source port is added to the destination port's registration list for common link incident records. If the source port is de-registering, then it is removed from that list. 
 
 If <i>Type </i>is nonzero, then it specifies the format type of the records for which the source port is registering or de-registering. For a list of the types of formats and their corresponding values, see the FC-4 type codes table in the T11 committee's <i>Fibre Channel Framing and Signaling</i> specification. 
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that receives the payload data of the response to the LIRR, if the LIRR succeeds. If the destination port rejects the request, this buffer holds the link service reject (LS_RJT) payload data. If the amount of returned data exceeds the buffer size specified in <i>RspBufferSize</i>, the data is truncated to the buffer size<i>. </i>The payload data is in big-endian format (higher order bytes are in lower addresses). 
 
@@ -244,9 +244,9 @@ Returned if an unspecified error occurred that prevented the execution of the LI
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::operator*, operator*, EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, debugger.extremotetyped_operator_, operator* method [Windows Debugging], ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], operator* method, operator* method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: operator* method [Windows Debugging], ExtRemoteTyped interface, operator* method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], operator* method, EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, ExtRemoteTyped::operator*, debugger.extremotetyped_operator_, operator*, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.operator*
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::operator* method

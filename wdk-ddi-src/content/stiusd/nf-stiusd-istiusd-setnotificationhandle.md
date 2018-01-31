@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 096e9b7a-fc50-46a2-b67a-7128dba13321
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.istiusd_setnotificationhandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, SetNotificationHandle, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD, SetNotificationHandle method [Imaging Devices], IStiUSD interface [Imaging Devices], SetNotificationHandle method, IStiUSD::SetNotificationHandle, stiusd/IStiUSD::SetNotificationHandle
+ms.keywords: IStiUSD::SetNotificationHandle, SetNotificationHandle, IStiUSD interface [Imaging Devices], SetNotificationHandle method, stiusd/IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], image.istiusd_setnotificationhandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.SetNotificationHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ HRESULT SetNotificationHandle(
 
 
 
-### -param hEvent
+#### - hEvent
 
 Caller-supplied handle to a Win32 event, created by calling <b>CreateEvent</b>.
 

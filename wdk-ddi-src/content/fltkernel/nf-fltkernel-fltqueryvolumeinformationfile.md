@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3f93ce0a-f1f0-4b5b-aaf3-ce6698eb5055
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltqueryvolumeinformationfile, FileFsAttributeInformation, FltQueryVolumeInformationFile function [Installable File System Drivers], FileFsDeviceInformation, FileFsDriverPathInformation, FileFsSizeInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FileFsVolumeInformation, FileFsObjectIdInformation, FltQueryVolumeInformationFile, FileFsControlInformation, FileFsSectorSizeInformation, fltkernel/FltQueryVolumeInformationFile, FileFsFullSizeInformation
+ms.keywords: FileFsAttributeInformation, FltQueryVolumeInformationFile, FileFsSectorSizeInformation, fltkernel/FltQueryVolumeInformationFile, FileFsSizeInformation, FltQueryVolumeInformationFile function [Installable File System Drivers], FileFsControlInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FileFsDriverPathInformation, FileFsDeviceInformation, FileFsObjectIdInformation, ifsk.fltqueryvolumeinformationfile, FileFsFullSizeInformation, FileFsVolumeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS FltQueryVolumeInformationFile(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 File object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FsInformation [out]
+#### - FsInformation [out]
 
 Pointer to a caller-allocated buffer that receives information about the file. The <i>FsInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Size, in bytes, of the <i>FsInformation</i> buffer. 
 
 
-### -param FsInformationClass [in]
+#### - FsInformationClass [in]
 
 Type of volume information to be returned. One of the following:
 <table>
@@ -193,7 +193,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS
 </table> 
 
 
-### -param LengthReturned [out, optional]
+#### - LengthReturned [out, optional]
 
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>FsInformation</i> buffer. This parameter is optional and can be <b>NULL</b>. 
 
@@ -235,25 +235,25 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
 
+<a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a>
+
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+
 <b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
 
-<a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
 
  
 

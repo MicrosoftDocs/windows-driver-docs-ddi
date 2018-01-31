@@ -72,14 +72,14 @@ PBRB BthAllocateBrb(
 
 
 
-### -param brbType [in]
+#### - brbType [in]
 
 Specifies a value from the 
      <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
-### -param tag [in]
+#### - tag [in]
 
 Specifies a 4-byte 
      pool tag that uniquely identifies the driver that does the memory
@@ -110,9 +110,9 @@ Profile drivers obtain a pointer to the
 
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
-pool tag
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+pool tag
 
  
 

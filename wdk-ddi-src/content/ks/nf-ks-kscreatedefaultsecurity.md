@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2992a62b-7c3c-4bf5-ba3a-26c26c419f98
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateDefaultSecurity function [Streaming Media Devices], ks/KsCreateDefaultSecurity, KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, stream.kscreatedefaultsecurity
+ms.keywords: KsCreateDefaultSecurity, ks/KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, stream.kscreatedefaultsecurity, KsCreateDefaultSecurity function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsCreateDefaultSecurity(
 
 
 
-### -param ParentSecurity [in, optional]
+#### - ParentSecurity [in, optional]
 
 Points to the parent object's security descriptor, describing inherited security parameters. This argument is optional.
 
 
-### -param DefaultSecurity [out]
+#### - DefaultSecurity [out]
 
 Points to the place in which to put the returned default security descriptor.
 

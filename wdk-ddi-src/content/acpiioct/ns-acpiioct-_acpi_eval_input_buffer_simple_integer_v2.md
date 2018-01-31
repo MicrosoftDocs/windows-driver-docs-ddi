@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 47771F52-5927-40DC-907E-0FC9C3FD451A
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, acpi.acpi_eval_input_buffer_simple_integer_v2, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure pointer [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2
+ms.keywords: PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, acpi.acpi_eval_input_buffer_simple_integer_v2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure pointer [ACPI Devices], acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2
 product: Windows
 targetos: Windows
-req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2
+req.typenames: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2"
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure
@@ -72,7 +72,7 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 {
 
 
 
-### -field DUMMYUNIONNAME
+#### - DUMMYUNIONNAME
 
 Defines the method name member of <b>DUMMYUNIONNAME</b>.
 
@@ -87,12 +87,12 @@ Defines the method name member of <b>DUMMYUNIONNAME</b>.
  
 
 
-### -field Signature
+#### - Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 
 
-### -field IntegerArgument
+#### - IntegerArgument
 
 Defines the <b>ULONG</b> member <b>IntegerArgument</b>.
 

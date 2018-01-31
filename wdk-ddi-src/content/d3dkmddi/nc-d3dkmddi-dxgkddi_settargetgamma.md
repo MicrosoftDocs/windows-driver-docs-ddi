@@ -70,12 +70,12 @@ NTSTATUS NTSTATUS DXGKDDI_SETTARGETGAMMA(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle that identifies the adapter.
 
 
-### -param pSetTargetGammaArg [in]
+#### - pSetTargetGammaArg [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settargetgamma.md">DXGKARG_SETTARGETGAMMA</a> structure that provides the target id to be modified and provides the gamma ramp to be set.
 

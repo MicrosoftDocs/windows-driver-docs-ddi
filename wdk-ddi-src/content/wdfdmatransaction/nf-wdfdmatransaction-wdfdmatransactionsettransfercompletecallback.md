@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B97FF6B1-BFCB-4293-B2F0-EE08E12CFCFF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactionsettransfercompletecallback, WdfDmaTransactionSetTransferCompleteCallback, PFN_WDFDMATRANSACTIONSETTRANSFERCOMPLETECALLBACK, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback method, wdf.wdfdmatransactionsettransfercompletecallback
+ms.keywords: PFN_WDFDMATRANSACTIONSETTRANSFERCOMPLETECALLBACK, wdf.wdfdmatransactionsettransfercompletecallback, WdfDmaTransactionSetTransferCompleteCallback method, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback, kmdf.wdfdmatransactionsettransfercompletecallback, WdfDmaTransactionSetTransferCompleteCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ void WdfDmaTransactionSetTransferCompleteCallback(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to an initialized DMA transaction object for which to set or clear the transfer completion callback.
 
 
-### -param DmaCompletionRoutine [in, optional]
+#### - DmaCompletionRoutine [in, optional]
 
 A pointer to the driver's <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete.md">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL to clear a previously set callback function.
 
 
-### -param DmaCompletionContext [in, optional]
+#### - DmaCompletionContext [in, optional]
 
 A pointer to a buffer containing the driver-specified context to be provided to the driver's <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete.md">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL.
 
@@ -116,9 +116,9 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
-
 <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete.md">EvtDmaTransactionDmaTransferComplete</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
 
  
 

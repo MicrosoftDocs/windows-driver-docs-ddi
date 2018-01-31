@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bd4e762d-b3d5-4a4c-bdeb-998cd72783b4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, dbgeng/IDebugDataSpaces3::WriteBusData, dbgeng/IDebugDataSpaces::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2::WriteBusData, dbgeng/IDebugDataSpaces2::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::WriteBusData, IDebugDataSpaces3::WriteBusData, WriteBusData method [Windows Debugging], WriteBusData, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces4, IDebugDataSpaces::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::WriteBusData, IDebugDataSpaces interface [Windows Debugging], WriteBusData method, debugger.writebusdata
+ms.keywords: WriteBusData, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::WriteBusData, IDebugDataSpaces4::WriteBusData, dbgeng/IDebugDataSpaces3::WriteBusData, IDebugDataSpaces interface [Windows Debugging], WriteBusData method, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces2::WriteBusData, dbgeng/IDebugDataSpaces::WriteBusData, IDebugDataSpaces2::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, debugger.writebusdata, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, IDebugDataSpaces::WriteBusData, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces3::WriteBusData, WriteBusData method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,37 +76,37 @@ HRESULT WriteBusData(
 
 
 
-### -param BusDataType [in]
+#### - BusDataType [in]
 
 Specifies the bus data type of the bus to write to.  For details of allowed values see the documentation for the BUS_DATA_TYPE enumeration in the Microsoft Windows SDK.
 
 
-### -param BusNumber [in]
+#### - BusNumber [in]
 
 Specifies the system-assigned number of the bus.  This is usually zero, unless the system has more than one bus of the same bus data type.
 
 
-### -param SlotNumber [in]
+#### - SlotNumber [in]
 
 Specifies the logical slot number on the bus.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the offset in the bus data to start writing to.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Specifies the data to write to the bus.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
 
-### -param BytesWritten [out, optional]
+#### - BytesWritten [out, optional]
 
 Receives the number of bytes written to the bus.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 

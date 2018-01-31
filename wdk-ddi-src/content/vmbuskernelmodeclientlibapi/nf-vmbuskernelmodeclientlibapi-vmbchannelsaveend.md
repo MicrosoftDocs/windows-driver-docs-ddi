@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0E61AF98-DC71-4234-B337-71B2AF65D858
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelsaveend, VmbChannelSaveEnd function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSaveEnd, VmbChannelSaveEnd
+ms.keywords: VmbChannelSaveEnd, vmbuskernelmodeclientlibapi/VmbChannelSaveEnd, netvista.vmbchannelsaveend, VmbChannelSaveEnd function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbChannelSaveEnd
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ VOID VmbChannelSaveEnd(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle of the channel that was saved. 
 

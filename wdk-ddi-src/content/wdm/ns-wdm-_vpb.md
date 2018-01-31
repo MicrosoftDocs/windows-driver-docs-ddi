@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_VPB, *PVPB, VPB_DIRECT_WRITES_ALLOWED, PVPB, VPB_LOCKED, VPB_REMOVE_PENDING, VPB_RAW_MOUNT, VPB structure [Installable File System Drivers], VPB, wdm/PVPB, wdm/VPB, ifsk.vpb, VPB_PERSISTENT, VPB_MOUNTED, PVPB structure pointer [Installable File System Drivers]"
+ms.keywords: "*PVPB, PVPB structure pointer [Installable File System Drivers], wdm/PVPB, wdm/VPB, VPB, VPB_REMOVE_PENDING, PVPB, ifsk.vpb, VPB_LOCKED, VPB_RAW_MOUNT, VPB_DIRECT_WRITES_ALLOWED, VPB structure [Installable File System Drivers], VPB_MOUNTED, VPB_PERSISTENT, _VPB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ typedef struct _VPB {
 
 
 
-### -field DeviceObject
+#### - DeviceObject
 
 A read/write member, set by the file system driver, which points to a device object of type <b>FILE_DEVICE_DISK_FILE_SYSTEM</b>. This device object is created by the file system driver to represent the mounted volume.
 
@@ -86,22 +86,22 @@ A read/write member, set by the file system driver, which points to a device obj
  
 
 
-### -field RealDevice
+#### - RealDevice
 
 A read-only member, set by the I/O manager, which points to the device object for a physical or virtual disk device that contains the mountable logical volume (pointed to by <b>DeviceObject</b>).
 
 
-### -field Type
+#### - Type
 
 A read-only member that is used by the system to indicate that the structure is a VPB object.
 
 
-### -field Size
+#### - Size
 
 A read-only member that is used by the system to indicate that the structure is a VPB object.
 
 
-### -field Flags
+#### - Flags
 
 <table>
 <tr>
@@ -171,22 +171,22 @@ Indicates that direct write operations to the volume are allowed.  This flag is 
 </table> 
 
 
-### -field VolumeLabelLength
+#### - VolumeLabelLength
 
 A read/write member that specifies the length of the volume label, in bytes. This member must be set by the file system driver. If the volume has no label, this member must be set to zero.
 
 
-### -field SerialNumber
+#### - SerialNumber
 
 A read/write member that specifies the serial number associated with the file system volume.  This member should be set by the file system driver, if available.
 
 
-### -field ReferenceCount
+#### - ReferenceCount
 
 A read-only member that specifies the reference count for the VPB structure. If the reference count for the VPB structure is greater than zero, the I/O manager does not deallocate the VPB structure. Be aware that <b>ReferenceCount</b> can be considered a read/write member when a file system driver must keep the volume present to process a tear down request.
 
 
-### -field VolumeLabel
+#### - VolumeLabel
 
 A read/write member, set by the file system driver, that specifies the label of the mounted volume.  The length of the volume label must be 32 wide-characters or less. Currently <b>MAXIMUM_VOLUME_LABEL_LENGTH</b> is defined as follows:
 
@@ -220,9 +220,9 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 <a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

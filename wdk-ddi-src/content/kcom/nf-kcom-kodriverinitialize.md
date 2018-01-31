@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed61d135-967d-4e7c-b437-09c9e0e6f3c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kodriverinitialize, kcom/KoDriverInitialize, ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml, KoDriverInitialize, KoDriverInitialize function [Streaming Media Devices]
+ms.keywords: KoDriverInitialize function [Streaming Media Devices], kcom/KoDriverInitialize, stream.kodriverinitialize, KoDriverInitialize, ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS KoDriverInitialize(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 Pointer to a driver object to initialize that handles the kernel streaming interface.
 
 
-### -param RegistryPathName [in]
+#### - RegistryPathName [in]
 
 Pointer to the registry path that is associated with the driver object.
 
 
-### -param CreateObjectHandler [in]
+#### - CreateObjectHandler [in]
 
 Pointer to a function used to create new objects.
 

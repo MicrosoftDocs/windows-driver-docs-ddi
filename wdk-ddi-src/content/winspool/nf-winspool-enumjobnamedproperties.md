@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EnumJobNamedProperties, print.enumjobnamedproperties, EnumJobNamedProperties function [Print Devices], winspool/EnumJobNamedProperties
+ms.keywords: EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, EnumJobNamedProperties, winspool/EnumJobNamedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,18 +71,18 @@ DWORD WINAPI EnumJobNamedProperties(
 
 
 
-### -param hPrinter [in]
+#### - hPrinter [in]
 
 
 
-### -param JobId [in]
+#### - JobId [in]
 
 
 
-### -param pcProperties [out]
+#### - pcProperties [out]
 
 
 
-### -param ppProperties [out]
+#### - ppProperties [out]
 
 

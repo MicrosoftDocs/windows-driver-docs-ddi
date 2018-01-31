@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GETSETBUSDATA structure [Windows Debugging], PBUSDATA structure pointer [Windows Debugging], BUSDATA structure [Windows Debugging], _GETSETBUSDATA, debugger.ig_get_bus_data, *PBUSDATA, WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, GETSETBUSDATA, BUSDATA, PBUSDATA, wdbgexts/PBUSDATA, wdbgexts/GETSETBUSDATA
+ms.keywords: GETSETBUSDATA, debugger.ig_get_bus_data, wdbgexts/PBUSDATA, PBUSDATA, BUSDATA, *PBUSDATA, GETSETBUSDATA structure [Windows Debugging], PBUSDATA structure pointer [Windows Debugging], _GETSETBUSDATA, BUSDATA structure [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, wdbgexts/GETSETBUSDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,34 +74,34 @@ typedef struct _GETSETBUSDATA {
 
 
 
-### -field BusDataType
+#### - BusDataType
 
 Specifies the bus data type to use.  For details of allowed values, see the documentation for the BUS_DATA_TYPE enumeration in the Platform SDK.
 
 
-### -field BusNumber
+#### - BusNumber
 
 Specifies the system-assigned number of the bus.  This is usually zero, unless the system has more than one bus of the same bus data type.
 
 
-### -field SlotNumber
+#### - SlotNumber
 
 Specifies the logical slot number on the bus.
 
 
-### -field Buffer
+#### - Buffer
 
 Specifies the buffer that contains the memory to write to the bus, or to receive the memory that is read from the bus.
 
 The size of <b>Buffer</b> must be at least the value of <b>Length</b>.
 
 
-### -field Offset
+#### - Offset
 
 Specifies the offset in the bus data to start reading from or writing to.
 
 
-### -field Length
+#### - Length
 
 Specifies the number of bytes to read from or write to the bus when the <b>Ioctl</b> operation is called.  Upon returning, <b>Length</b> is set to the number of bytes actually read or written.
 

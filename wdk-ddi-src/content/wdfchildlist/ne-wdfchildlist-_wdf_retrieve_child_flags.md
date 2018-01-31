@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43294943-cc73-45d4-8e0b-e7d29420bb7e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRetrieveAllChildren, wdfchildlist/WdfRetrieveMissingChildren, wdfchildlist/WdfRetrievePendingChildren, wdfchildlist/WDF_RETRIEVE_CHILD_FLAGS, DFDeviceObjectChildListRef_f82096f7-f6f9-4e49-a3e3-2641f60f98d9.xml, WdfRetrievePresentChildren, WDF_RETRIEVE_CHILD_FLAGS, wdf.wdf_retrieve_child_flags, wdfchildlist/WdfRetrieveAddedChildren, wdfchildlist/WdfRetrieveAllChildren, _WDF_RETRIEVE_CHILD_FLAGS, wdfchildlist/WdfRetrievePresentChildren, kmdf.wdf_retrieve_child_flags, WdfRetrieveMissingChildren, WdfRetrievePendingChildren, WdfRetrieveAddedChildren, WdfRetrieveUnspecified, wdfchildlist/WdfRetrieveUnspecified, WDF_RETRIEVE_CHILD_FLAGS enumeration
+ms.keywords: WDF_RETRIEVE_CHILD_FLAGS, WdfRetrievePresentChildren, wdfchildlist/WdfRetrieveAddedChildren, WdfRetrieveAllChildren, wdfchildlist/WDF_RETRIEVE_CHILD_FLAGS, WdfRetrieveMissingChildren, wdfchildlist/WdfRetrieveMissingChildren, WDF_RETRIEVE_CHILD_FLAGS enumeration, wdfchildlist/WdfRetrievePresentChildren, WdfRetrievePendingChildren, wdfchildlist/WdfRetrieveAllChildren, WdfRetrieveAddedChildren, kmdf.wdf_retrieve_child_flags, WdfRetrieveUnspecified, wdfchildlist/WdfRetrieveUnspecified, DFDeviceObjectChildListRef_f82096f7-f6f9-4e49-a3e3-2641f60f98d9.xml, wdfchildlist/WdfRetrievePendingChildren, _WDF_RETRIEVE_CHILD_FLAGS, wdf.wdf_retrieve_child_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,32 +75,32 @@ typedef enum _WDF_RETRIEVE_CHILD_FLAGS {
 
 
 
-### -field WdfRetrieveUnspecified
+#### - WdfRetrieveUnspecified
 
 Reserved for internal use only.
 
 
-### -field WdfRetrievePresentChildren
+#### - WdfRetrievePresentChildren
 
 Calls to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a> will retrieve child devices for which a framework device object exists.
 
 
-### -field WdfRetrieveMissingChildren
+#### - WdfRetrieveMissingChildren
 
 Calls to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a> will retrieve child devices that are marked as missing. 
 
 
-### -field WdfRetrievePendingChildren
+#### - WdfRetrievePendingChildren
 
 Calls to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a> will retrieve child devices that the driver has reported as present, but for which a framework device object has not been created (because the framework has not called the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a> callback function). 
 
 
-### -field WdfRetrieveAddedChildren
+#### - WdfRetrieveAddedChildren
 
 Calls to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a> will retrieve child devices that are present or pending.
 
 
-### -field WdfRetrieveAllChildren
+#### - WdfRetrieveAllChildren
 
 Calls to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a> will retrieve child devices that are present, pending, or missing.
 
@@ -114,13 +114,13 @@ Before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiterati
 
 ## -see-also
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
 
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
 
  
 

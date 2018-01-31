@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a1f15890-ded8-4aba-8b67-6f1fb1490178
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.tapeclasszeromemory, TapeClassZeroMemory, minitape/TapeClassZeroMemory, tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml, TapeClassZeroMemory routine [Storage Devices]
+ms.keywords: TapeClassZeroMemory routine [Storage Devices], tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml, storage.tapeclasszeromemory, minitape/TapeClassZeroMemory, TapeClassZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	TapeClassZeroMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
+req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeClassZeroMemory function
@@ -69,12 +69,12 @@ VOID TapeClassZeroMemory(
 
 
 
-### -param Buffer [in, out]
+#### - Buffer [in, out]
 
 Pointer to the buffer that needs to be cleared.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size of the buffer, in bytes.
 

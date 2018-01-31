@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], UcxStaticStreamsCreate
+ms.keywords: ucxsstreams/UcxStaticStreamsCreate, UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS UcxStaticStreamsCreate(
 
 
 
-### -param Endpoint [in]
+#### - Endpoint [in]
 
 A handle to the endpoint object that supports static streams. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
 
@@ -81,7 +81,7 @@ A handle to the endpoint object that supports static streams. The client driver 
 TBD
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the stream object. 
 

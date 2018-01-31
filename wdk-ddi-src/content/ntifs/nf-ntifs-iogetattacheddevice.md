@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 18083431-37b5-49e9-9c69-8b6cd7b5f736
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetAttachedDevice, ifsk.iogetattacheddevice, ntifs/IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml
+ms.keywords: ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], ntifs/IoGetAttachedDevice, ifsk.iogetattacheddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PDEVICE_OBJECT IoGetAttachedDevice(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the device object for which the topmost attached device is to be returned.
 
@@ -84,14 +84,14 @@ A pointer to the device object for which the topmost attached device is to be re
 
 If the device object specified by <i>DeviceObject</i> has no other device objects attached to it, <i>DeviceObject</i> and the returned pointer are equal.
 
-<b>IoGetAttachedDevice</b> differs from <a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a> in the following respects:
+<b>IoGetAttachedDevice</b> differs from <a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a> in the following respects:
 <ul>
 <li>
 <b>IoGetAttachedDevice</b> does not increment the reference count on the device object. (Thus no matching call to <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> is required.)
 
 </li>
 <li>
-Callers of <b>IoGetAttachedDevice</b> must ensure that no device objects are added to or removed from the stack while <b>IoGetAttachedDevice</b> is executing. Callers that cannot do this must use <a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a> instead.
+Callers of <b>IoGetAttachedDevice</b> must ensure that no device objects are added to or removed from the stack while <b>IoGetAttachedDevice</b> is executing. Callers that cannot do this must use <a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a> instead.
 
 </li>
 </ul>
@@ -101,7 +101,7 @@ Callers of <b>IoGetAttachedDevice</b> must ensure that no device objects are add
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
  
 

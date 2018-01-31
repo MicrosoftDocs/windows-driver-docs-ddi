@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 28255569-57ce-44b7-9d53-9e8797b914c5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_service_attribute_search_request, bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST"
+ms.keywords: BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml, bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_service_attribute_search_request, bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST"
+req.typenames: BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 ---
 
 # _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure
@@ -78,7 +78,7 @@ typedef struct _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST {
  
 
 
-### -field searchFlags
+#### - searchFlags
 
 
 
@@ -86,14 +86,14 @@ typedef struct _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST {
 
 
 
-### -field uuids
+#### - uuids
 
 An array of UUIDs that represent the services for which to query. Each entry can be a 2-byte,
      4-byte, or 16-byte type, and there can be a maximum of 12 entries. The array can be terminated before
      all 12 entries are used if a UUID entry contains all zeros.
 
 
-### -field range
+#### - range
 
 A variable-length array of 
      <a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> structures that
@@ -119,12 +119,12 @@ The Bluetooth driver stack determines the number of array items in the
 
 ## -see-also
 
-<mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
-   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+<mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
+   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
 
  
 

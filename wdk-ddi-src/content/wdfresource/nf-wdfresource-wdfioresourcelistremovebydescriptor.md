@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c4968449-eba0-4f7a-98e6-6955d3333495
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListRemoveByDescriptor method, DFResourceObjectRef_4bd88d52-ea6d-43c1-9477-8338e6bf1cdb.xml, WdfIoResourceListRemoveByDescriptor, wdf.wdfioresourcelistremovebydescriptor, PFN_WDFIORESOURCELISTREMOVEBYDESCRIPTOR, wdfresource/WdfIoResourceListRemoveByDescriptor, kmdf.wdfioresourcelistremovebydescriptor
+ms.keywords: wdfresource/WdfIoResourceListRemoveByDescriptor, DFResourceObjectRef_4bd88d52-ea6d-43c1-9477-8338e6bf1cdb.xml, WdfIoResourceListRemoveByDescriptor, PFN_WDFIORESOURCELISTREMOVEBYDESCRIPTOR, WdfIoResourceListRemoveByDescriptor method, kmdf.wdfioresourcelistremovebydescriptor, wdf.wdfioresourcelistremovebydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceListRemoveByDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ VOID WdfIoResourceListRemoveByDescriptor(
 
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
@@ -106,9 +106,9 @@ For more information about resource requirements lists and logical configuration
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistremove.md">WdfIoResourceListRemove</a>
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
  
 

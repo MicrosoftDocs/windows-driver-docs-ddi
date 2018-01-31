@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9B6EA552-B576-45F3-A0BD-7EB721638D7F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEHWCONTEXT, _D3DKMT_CREATEHWCONTEXT, display.d3dkmt_createhwcontext, D3DKMT_CREATEHWCONTEXT structure [Display Devices], d3dkmthk/D3DKMT_CREATEHWCONTEXT
+ms.keywords: "_D3DKMT_CREATEHWCONTEXT, D3DKMT_CREATEHWCONTEXT, D3DKMT_CREATEHWCONTEXT structure [Display Devices], display.d3dkmt_createhwcontext, d3dkmthk/D3DKMT_CREATEHWCONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,39 +73,39 @@ typedef struct _D3DKMT_CREATEHWCONTEXT {
 
 
 
-### -field hDevice
+#### - hDevice
 
 Handle to the device owning this context.
 
 
-### -field NodeOrdinal
+#### - NodeOrdinal
 
 Identifier for the node targetted by this context.
 
 
 
-### -field EngineAffinity
+#### - EngineAffinity
 
 Engine affinity within the specified node.
 
 
-### -field Flags
+#### - Flags
 
 Context creation flags.
 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Size of private driver data.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 Private driver data.
 
 
-### -field hHwContext
+#### - hHwContext
 
 Handle of the created context.
 

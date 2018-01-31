@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtQuerySecurityObject, ZwQuerySecurityObject, ntifs/ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], NtQuerySecurityObject, k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject
+ms.keywords: NtQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], ntifs/NtQuerySecurityObject, ZwQuerySecurityObject, ntifs/ZwQuerySecurityObject, kernel.zwquerysecurityobject, k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS ZwQuerySecurityObject(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Handle for the object whose security descriptor is to be queried. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter. 
 
 
-### -param SecurityInformation [in]
+#### - SecurityInformation [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value specifying the information to be queried.
 <table>
@@ -128,17 +128,17 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
 </table> 
 
 
-### -param SecurityDescriptor [out]
+#### - SecurityDescriptor [out]
 
 Caller-allocated buffer that <b>ZwQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Size, in bytes, of the buffer pointed to by <i>SecurityDescriptor</i>. 
 
 
-### -param LengthNeeded [out]
+#### - LengthNeeded [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes required to store the copied security descriptor. 
 
@@ -216,15 +216,15 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltquerysecurityobjec
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
-<a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
  
 

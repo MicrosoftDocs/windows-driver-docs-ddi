@@ -40,7 +40,7 @@ apiname:
 -	ClfsLogUnpinnedCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ VOID ClfsLogUnpinnedCallback(
 
 
 
-### -param LogFile [in]
+#### - LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose tail has become unpinned.
 
 
-### -param ClientData [in]
+#### - ClientData [in]
 
 A pointer to client-supplied information. You specify this data in the <b>LogUnpinnedCallbackData</b> member of the <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a> structure.
 

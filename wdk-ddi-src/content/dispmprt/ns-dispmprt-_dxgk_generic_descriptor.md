@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 181df1a6-044d-406d-bc6d-1b35b3d744fc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GENERIC_DESCRIPTOR structure [Display Devices], PDXGK_GENERIC_DESCRIPTOR, *PDXGK_GENERIC_DESCRIPTOR, dispmprt/PDXGK_GENERIC_DESCRIPTOR, display.dxgk_generic_descriptor, DmStructs_f77c03e6-d887-43ba-9499-ce1740cb6c9e.xml, DXGK_GENERIC_DESCRIPTOR, PDXGK_GENERIC_DESCRIPTOR structure pointer [Display Devices], dispmprt/DXGK_GENERIC_DESCRIPTOR, _DXGK_GENERIC_DESCRIPTOR
+ms.keywords: dispmprt/PDXGK_GENERIC_DESCRIPTOR, display.dxgk_generic_descriptor, _DXGK_GENERIC_DESCRIPTOR, *PDXGK_GENERIC_DESCRIPTOR, DmStructs_f77c03e6-d887-43ba-9499-ce1740cb6c9e.xml, PDXGK_GENERIC_DESCRIPTOR, dispmprt/DXGK_GENERIC_DESCRIPTOR, DXGK_GENERIC_DESCRIPTOR structure [Display Devices], DXGK_GENERIC_DESCRIPTOR, PDXGK_GENERIC_DESCRIPTOR structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGK_GENERIC_DESCRIPTOR {
 
 
 
-### -field HardwareId
+#### - HardwareId
 
 A single wide-character string, terminated by two wide NULL characters, that holds the hardware ID of the child device.
 
 
-### -field InstanceId
+#### - InstanceId
 
 A single wide-character string, terminated by two wide NULL characters, that holds the instance ID of the child device.
 
 
-### -field CompatibleId
+#### - CompatibleId
 
 A sequence of wide-character strings, each of which is terminated by a single wide NULL character. The last string in the sequence is terminated by two wide NULL characters.
 
 
-### -field DeviceText
+#### - DeviceText
 
 A single wide-character string, terminated by two wide NULL characters, that holds the device text of the child device.
 

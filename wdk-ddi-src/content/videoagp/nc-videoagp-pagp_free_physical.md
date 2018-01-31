@@ -40,7 +40,7 @@ apiname:
 -	AgpFreePhysical
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -74,22 +74,22 @@ VOID APIENTRY AgpFreePhysical(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the device extension of the miniport driver.
 
 
-### -param PhysicalReserveContext [in]
+#### - PhysicalReserveContext [in]
 
 Identifies a reserved physical address range. This context handle was obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
 
 
-### -param Pages [in]
+#### - Pages [in]
 
 Specifies the number of pages of system memory that the video port driver should unmap.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the page offset into the reserved physical address range identified by <b>PhysicalReserveContext</b> that indicates the actual base address at which to unmap system memory.
 

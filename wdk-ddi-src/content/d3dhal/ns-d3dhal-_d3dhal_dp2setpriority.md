@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5101c150-b294-4bf4-b33c-f0fe0f54d727
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2SETPRIORITY, _D3DHAL_DP2SETPRIORITY, display.d3dhal_dp2setpriority, LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, D3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY structure [Display Devices], *LPD3DHAL_DP2SETPRIORITY, LPD3DHAL_DP2SETPRIORITY, d3dhal/LPD3DHAL_DP2SETPRIORITY
+ms.keywords: LPD3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY structure [Display Devices], *LPD3DHAL_DP2SETPRIORITY, LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], d3dhal/D3DHAL_DP2SETPRIORITY, _D3DHAL_DP2SETPRIORITY, display.d3dhal_dp2setpriority, d3dhal/LPD3DHAL_DP2SETPRIORITY, d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, D3DHAL_DP2SETPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DHAL_DP2SETPRIORITY {
 
 
 
-### -field dwDDSurface
+#### - dwDDSurface
 
 Specifies the handle of the texture. 
 
 
-### -field dwPriority
+#### - dwPriority
 
 Specifies the priority of the <b>dwDDDestSurface</b> texture. A texture's priority value can be set anywhere in the range from 0 to 0xFFFFFFFF.
 

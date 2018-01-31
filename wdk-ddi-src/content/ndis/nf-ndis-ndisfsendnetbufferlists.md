@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fe0896ab-2d20-465f-a8bc-bfc0033701d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
+ms.keywords: netvista.ndisfsendnetbufferlists, NdisFSendNetBufferLists, filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFSendNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisFSendNetBufferLists(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
@@ -84,7 +84,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 TBD
 
 
-### -param PortNumber [in]
+#### - PortNumber [in]
 
 A port number that identifies a miniport adapter port. Miniport adapter port numbers are assigned
      by calling the 
@@ -92,7 +92,7 @@ A port number that identifies a miniport adapter port. Miniport adapter port num
      value identifies the default port of a miniport adapter.
 
 
-### -param SendFlags [in]
+#### - SendFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
@@ -206,20 +206,20 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
    FilterSendNetBufferListsComplete</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
  
 

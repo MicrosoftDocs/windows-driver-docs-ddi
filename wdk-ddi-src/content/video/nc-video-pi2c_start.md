@@ -72,12 +72,12 @@ BOOLEAN I2CStart(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's per-adapter device extension.
 
 
-### -param I2CCallbacks [in]
+#### - I2CCallbacks [in]
 
 Pointer to an <a href="..\video\ns-video-_i2c_callbacks.md">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
 

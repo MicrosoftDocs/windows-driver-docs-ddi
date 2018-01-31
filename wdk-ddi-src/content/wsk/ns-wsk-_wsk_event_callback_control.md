@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 152e142a-dda4-4540-b1a9-14625f4653bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/PWSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml, PWSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], *PWSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], _WSK_EVENT_CALLBACK_CONTROL, wsk/WSK_EVENT_CALLBACK_CONTROL
+ms.keywords: PWSK_EVENT_CALLBACK_CONTROL, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml, WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], wsk/WSK_EVENT_CALLBACK_CONTROL, _WSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], WSK_EVENT_CALLBACK_CONTROL, *PWSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wsk/PWSK_EVENT_CALLBACK_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_EVENT_CALLBACK_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL"
+req.typenames: WSK_EVENT_CALLBACK_CONTROL, *PWSK_EVENT_CALLBACK_CONTROL
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ typedef struct _WSK_EVENT_CALLBACK_CONTROL {
 
 
 
-### -field NpiId
+#### - NpiId
 
 A pointer to a 
      <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
@@ -81,7 +81,7 @@ A pointer to a
      interface.
 
 
-### -field EventMask
+#### - EventMask
 
 A ULONG value that contains a bitwise OR of event flags for the event callback functions that are
      being enabled or disabled. For information about the event flags for the standard WSK event callback
@@ -113,14 +113,14 @@ For more information about enabling and disabling a socket's event callback func
 
 ## -see-also
 
-<mshelp:link keywords="netvista.wsk_set_static_event_callbacks" tabindex="0"><b>
-   WSK_SET_STATIC_EVENT_CALLBACKS</b></mshelp:link>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+<mshelp:link keywords="netvista.wsk_set_static_event_callbacks" tabindex="0"><b>
+   WSK_SET_STATIC_EVENT_CALLBACKS</b></mshelp:link>
 
  
 

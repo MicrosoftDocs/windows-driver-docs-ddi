@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 025c29d3-1167-4aa3-8399-01dab5729267
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaTransferCallback interface [Imaging Devices], GetNextStream method, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices], IWiaTransferCallback interface, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, GetNextStream, IWiaTransferCallback::GetNextStream, wia_lh/IWiaTransferCallback::GetNextStream, IWiaTransferCallback, image.iwiatransfercallback_getnextstream
+ms.keywords: IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, IWiaTransferCallback, wia_lh/IWiaTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], IWiaTransferCallback interface, GetNextStream method [Imaging Devices], IWiaTransferCallback::GetNextStream, IWiaTransferCallback interface [Imaging Devices], GetNextStream method, image.iwiatransfercallback_getnextstream, GetNextStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT GetNextStream(
 
 
 
-### -param lFlags [in]
+#### - lFlags [in]
 
 Is reserved. Set to zero. 
 
 
-### -param bstrItemName [in]
+#### - bstrItemName [in]
 
 Specifies a string containing the name of the item.
 
 
-### -param bstrFullItemName [in]
+#### - bstrFullItemName [in]
 
 Specifies a string containing the full name of the item. 
 
 
-### -param ppDestination [out]
+#### - ppDestination [out]
 
 Specifies a pointer to the output stream. 
 

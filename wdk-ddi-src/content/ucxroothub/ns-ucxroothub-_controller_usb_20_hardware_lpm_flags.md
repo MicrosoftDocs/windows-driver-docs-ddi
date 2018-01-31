@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B8CEBCEA-7F1F-4E4B-B04E-D914D5875027
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
+ms.keywords: "_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,17 +87,17 @@ typedef union _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS {
  
 
 
-### -field L1CapabilitySupported
+#### - L1CapabilitySupported
 
 Indicates support for L1 transitions.
 
 
-### -field BeslLpmCapabilitySupported
+#### - BeslLpmCapabilitySupported
 
 Indicates Best Effort Service latency (BESL) latency support. 
 
 
-### -field AsUchar
+#### - AsUchar
 
 The size of structure represented as a char (8-bit) value.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0B7FC33E-A417-48E4-99CC-D1FFC340A405
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_protocol_command, _STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND, ntddstor/PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices]
+ms.keywords: "_STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices], ntddstor/PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], storage.storage_protocol_command, PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PROTOCOL_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND"
+req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 ---
 
 # _STORAGE_PROTOCOL_COMMAND structure
@@ -85,22 +85,22 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 
 
-### -field Version
+#### - Version
 
 The version of this structure. This should be set to <b>STORAGE_PROTOCOL_STRUCTURE_VERSION</b>.
 
 
-### -field Length
+#### - Length
 
 The size of this structure. This should be set to sizeof(<b>STORAGE_PROTOCOL_COMMAND</b>).
 
 
-### -field ProtocolType
+#### - ProtocolType
 
 The protocol type.
 
 
-### -field Flags
+#### - Flags
 
 Flags set for this request. The following are valid flags.
 <table>
@@ -115,7 +115,7 @@ Flags set for this request. The following are valid flags.
 </table> 
 
 
-### -field ReturnStatus
+#### - ReturnStatus
 
 The status of the request made to the storage device. In Windows 10, possible values include: 
 <table>
@@ -162,67 +162,67 @@ The status of the request made to the storage device. In Windows 10, possible v
 </table> 
 
 
-### -field ErrorCode
+#### - ErrorCode
 
 The error code for this request. This is optionally set.
 
 
-### -field CommandLength
+#### - CommandLength
 
 The length of the command. A non-zero value must be set by the caller.
 
 
-### -field ErrorInfoLength
+#### - ErrorInfoLength
 
 The length of the error buffer. This is optionally set and can be set to 0.
 
 
-### -field DataToDeviceTransferLength
+#### - DataToDeviceTransferLength
 
 The size of the buffer that is to be transferred to the device. This is only used with a WRITE request.
 
 
-### -field DataFromDeviceTransferLength
+#### - DataFromDeviceTransferLength
 
 The size of the buffer this is to be transferred from the device. This is only used with a READ request.
 
 
-### -field TimeOutValue
+#### - TimeOutValue
 
 How long to wait for the device until timing out. This is set in units of seconds.
 
 
-### -field ErrorInfoOffset
+#### - ErrorInfoOffset
 
 The offset of the error buffer. This must be pointer-aligned.
 
 
-### -field DataToDeviceBufferOffset
+#### - DataToDeviceBufferOffset
 
 The offset of the buffer that is to be transferred to the device. This must be pointer-aligned and is only used with a WRITE request.
 
 
-### -field DataFromDeviceBufferOffset
+#### - DataFromDeviceBufferOffset
 
 The offset of the buffer that is to be transferred from the device. This must be pointer-aligned and is only used with a READ request.
 
 
-### -field CommandSpecific
+#### - CommandSpecific
 
 Command-specific data passed along with the command. This depends on the command from the driver, and is optionally set.
 
 
-### -field Reserved0
+#### - Reserved0
 
 Reserved for future use.
 
 
-### -field FixedProtocolReturnData
+#### - FixedProtocolReturnData
 
 The return data. This is optionally set. Some protocols such as NVMe, may return a small amount of data (DWORD0 from completion queue entry) without the need of a separate device data transfer.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved for future use.
 

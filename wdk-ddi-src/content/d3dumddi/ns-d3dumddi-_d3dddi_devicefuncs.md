@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7345cd67-c10c-46f0-bd56-6f18929f4aa6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_DEVICEFUNCS structure [Display Devices], D3DDDI_DEVICEFUNCS, _D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs, D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml
+ms.keywords: d3dumddi/D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs, _D3DDDI_DEVICEFUNCS, D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml, D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -212,738 +212,738 @@ typedef struct _D3DDDI_DEVICEFUNCS {
 
 
 
-### -field pfnSetRenderState
+#### - pfnSetRenderState
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setrenderstate.md">SetRenderState</a> function that updates the render state.
 
 
-### -field pfnUpdateWInfo
+#### - pfnUpdateWInfo
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatewinfo.md">UpdateWInfo</a> function that updates the w range for w buffering.
 
 
-### -field pfnValidateDevice
+#### - pfnValidateDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_validatedevice.md">ValidateDevice</a> function that returns the number of passes in which the hardware can perform the blending operations that are specified in the current state. 
 
 
-### -field pfnSetTextureStageState
+#### - pfnSetTextureStageState
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexturestagestate.md">SetTextureStageState</a> function that updates the state of a texture at a particular stage in a multiple-texture group.
 
 
-### -field pfnSetTexture
+#### - pfnSetTexture
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexture.md">SetTexture</a> function that sets a texture to a particular stage in a multiple-texture group.
 
 
-### -field pfnSetPixelShader
+#### - pfnSetPixelShader
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshader.md">SetPixelShader</a> function that sets the current pixel shader.
 
 
-### -field pfnSetPixelShaderConst
+#### - pfnSetPixelShaderConst
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a> function that sets one or more pixel shader constant registers with float values.
 
 
-### -field pfnSetStreamSourceUm
+#### - pfnSetStreamSourceUm
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a> function that binds a vertex stream source to a user memory buffer.
 
 
-### -field pfnSetIndices
+#### - pfnSetIndices
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setindices.md">SetIndices</a> function that sets the current index buffer.
 
 
-### -field pfnSetIndicesUm
+#### - pfnSetIndicesUm
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setindicesum.md">SetIndicesUM</a> function that binds an index buffer to a user memory buffer.
 
 
-### -field pfnDrawPrimitive
+#### - pfnDrawPrimitive
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a> function that draws nonindexed primitives in which the Microsoft Direct3D runtime has not transformed the vertex data.
 
 
-### -field pfnDrawIndexedPrimitive
+#### - pfnDrawIndexedPrimitive
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a> function that draws indexed primitives in which the Direct3D runtime has not transformed the vertex data.
 
 
-### -field pfnDrawRectPatch
+#### - pfnDrawRectPatch
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawrectpatch.md">DrawRectPatch</a> function that draws a new or cached rectangular patch or updates the specification of a previously defined patch.
 
 
-### -field pfnDrawTriPatch
+#### - pfnDrawTriPatch
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawtripatch.md">DrawTriPatch</a> function that draws a new or cached triangular patch or updates the specification of a previously defined patch.
 
 
-### -field pfnDrawPrimitive2
+#### - pfnDrawPrimitive2
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive2.md">DrawPrimitive2</a> function that draws nonindexed primitives in which the Direct3D runtime has transformed the vertex data.
 
 
-### -field pfnDrawIndexedPrimitive2
+#### - pfnDrawIndexedPrimitive2
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive2.md">DrawIndexedPrimitive2</a> function that draws indexed primitives in which the Direct3D runtime has transformed the vertex data.
 
 
-### -field pfnVolBlt
+#### - pfnVolBlt
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_volblt.md">VolBlt</a> function that performs a bit-block transfer (bitblt) from a source volume texture to a destination volume texture.
 
 
-### -field pfnBufBlt
+#### - pfnBufBlt
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_bufblt.md">BufBlt</a> function that performs a bitblt from a source vertex or index buffer to a destination vertex or index buffer.
 
 
-### -field pfnTexBlt
+#### - pfnTexBlt
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt.md">TexBlt</a> function that performs a bitblt from a source texture to a destination texture.
 
 
-### -field pfnStateSet
+#### - pfnStateSet
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_stateset.md">StateSet</a> function that performs a state-set operation.
 
 
-### -field pfnSetPriority
+#### - pfnSetPriority
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpriority.md">SetPriority</a> function that sets the eviction-from-memory priority for a managed texture.
 
 
-### -field pfnClear
+#### - pfnClear
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_clear.md">Clear</a> function that performs hardware-assisted clearing on the rendering target, depth buffer, or stencil buffer.
 
 
-### -field pfnUpdatePalette
+#### - pfnUpdatePalette
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatepalette.md">UpdatePalette</a> function that updates a texture palette.
 
 
-### -field pfnSetPalette
+#### - pfnSetPalette
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpalette.md">SetPalette</a> function that sets the palette for a texture.
 
 
-### -field pfnSetVertexShaderConst
+#### - pfnSetVertexShaderConst
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConst</a> function that sets one or more vertex shader constant registers with float values.
 
 
-### -field pfnMultiplyTransform
+#### - pfnMultiplyTransform
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_multiplytransform.md">MultiplyTransform</a> function that multiplies a current transform.
 
 
-### -field pfnSetTransform
+#### - pfnSetTransform
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settransform.md">SetTransform</a> function that sets up a transform.
 
 
-### -field pfnSetViewport
+#### - pfnSetViewport
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setviewport.md">SetViewport</a> function that informs guard-band aware drivers of the view-clipping rectangle.
 
 
-### -field pfnSetZRange
+#### - pfnSetZRange
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setzrange.md">SetZRange</a> function that informs the driver about the range of z values.
 
 
-### -field pfnSetMaterial
+#### - pfnSetMaterial
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmaterial.md">SetMaterial</a> function that sets the material properties that devices on the system use to create the required effect during rendering.
 
 
-### -field pfnSetLight
+#### - pfnSetLight
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a> function that sets properties for a light source.
 
 
-### -field pfnCreateLight
+#### - pfnCreateLight
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createlight.md">CreateLight</a> function that creates a light source.
 
 
-### -field pfnDestroyLight
+#### - pfnDestroyLight
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroylight.md">DestroyLight</a> function that deactivates a light source.
 
 
-### -field pfnSetClipPlane
+#### - pfnSetClipPlane
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setclipplane.md">SetClipPlane</a> function that sets a clip plane.
 
 
-### -field pfnGetInfo
+#### - pfnGetInfo
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getinfo.md">GetInfo</a> function that retrieves information about the device.
 
 
-### -field pfnLock
+#### - pfnLock
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function that locks a resource or a surface within the resource.
 
 
-### -field pfnUnlock
+#### - pfnUnlock
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a> function that unlocks a resource or a surface within the resource that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function previously locked.
 
 
-### -field pfnCreateResource
+#### - pfnCreateResource
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function that creates a resource.
 
 
-### -field pfnDestroyResource
+#### - pfnDestroyResource
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyresource.md">DestroyResource</a> function that releases the resource that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function created.
 
 
-### -field pfnSetDisplayMode
+#### - pfnSetDisplayMode
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymode.md">SetDisplayMode</a> function that sets a surface for displaying.
 
 
-### -field pfnPresent
+#### - pfnPresent
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a> function that requests that the source surface be displayed by either copying or flipping. 
 
 
-### -field pfnFlush
+#### - pfnFlush
 
 A pointer to the user-mode display driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a> function that submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
 
 
-### -field pfnCreateVertexShaderFunc
+#### - pfnCreateVertexShaderFunc
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderfunc.md">CreateVertexShaderFunc</a> function that converts the vertex shader code into a hardware-specific format and associates this code with the given shader handle.
 
 
-### -field pfnDeleteVertexShaderFunc
+#### - pfnDeleteVertexShaderFunc
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deletevertexshaderfunc.md">DeleteVertexShaderFunc</a> function that cleans up driver-side resources that are associated with vertex shader code.
 
 
-### -field pfnSetVertexShaderFunc
+#### - pfnSetVertexShaderFunc
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderfunc.md">SetVertexShaderFunc</a> function that sets the vertex shader code so that all of the subsequent drawing operations use that code.
 
 
-### -field pfnCreateVertexShaderDecl
+#### - pfnCreateVertexShaderDecl
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a> function that converts the vertex shader declaration into a hardware-specific format and associates this declaration with the given shader handle.
 
 
-### -field pfnDeleteVertexShaderDecl
+#### - pfnDeleteVertexShaderDecl
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deletevertexshaderdecl.md">DeleteVertexShaderDecl</a> function that cleans up driver-side resources that are associated with the vertex shader declaration.
 
 
-### -field pfnSetVertexShaderDecl
+#### - pfnSetVertexShaderDecl
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderdecl.md">SetVertexShaderDecl</a> function that sets the vertex shader declaration so that all of the subsequent drawing operations use that declaration.
 
 
-### -field pfnSetVertexShaderConstI
+#### - pfnSetVertexShaderConstI
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConstI</a> function that sets one or more vertex shader constant registers with integer values.
 
 
-### -field pfnSetVertexShaderConstB
+#### - pfnSetVertexShaderConstB
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconstb.md">SetVertexShaderConstB</a> function that sets one or more vertex shader constant registers with Boolean values.
 
 
-### -field pfnSetScissorRect
+#### - pfnSetScissorRect
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setscissorrect.md">SetScissorRect</a> function that marks a portion of a render target to which rendering is restricted.
 
 
-### -field pfnSetStreamSource
+#### - pfnSetStreamSource
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a> function that binds a portion of a vertex stream source to a vertex buffer.
 
 
-### -field pfnSetStreamSourceFreq
+#### - pfnSetStreamSourceFreq
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourcefreq.md">SetStreamSourceFreq</a> function that sets the frequency divisor of a stream source that is bound to a vertex buffer.
 
 
-### -field pfnSetConvolutionKernelMono
+#### - pfnSetConvolutionKernelMono
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setconvolutionkernelmono.md">SetConvolutionKernelMono</a> function that sets the monochrome convolution kernel.
 
 
-### -field pfnComposeRects
+#### - pfnComposeRects
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a> function that composes rectangular areas.
 
 
-### -field pfnBlt
+#### - pfnBlt
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a> function that copies the contents of a source surface to a destination surface.
 
 
-### -field pfnColorFill
+#### - pfnColorFill
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a> function that fills a rectangular area on a surface with a particular A8R8G8B8 color.
 
 
-### -field pfnDepthFill
+#### - pfnDepthFill
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_depthfill.md">DepthFill</a> function that fills a depth buffer with a pixel value that is specified in native format.
 
 
-### -field pfnCreateQuery
+#### - pfnCreateQuery
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function that creates driver-side resources for a query that the Direct3D runtime subsequently issues for processing.
 
 
-### -field pfnDestroyQuery
+#### - pfnDestroyQuery
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a> function that releases resources for the query that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function created.
 
 
-### -field pfnIssueQuery
+#### - pfnIssueQuery
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a> function that processes the query that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function created.
 
 
-### -field pfnGetQueryData
+#### - pfnGetQueryData
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a> function that retrieves information about a query.
 
 
-### -field pfnSetRenderTarget
+#### - pfnSetRenderTarget
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setrendertarget.md">SetRenderTarget</a> function that sets the render target surface in the driver's context.
 
 
-### -field pfnSetDepthStencil
+#### - pfnSetDepthStencil
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdepthstencil.md">SetDepthStencil</a> function that sets the depth buffer in the driver's context.
 
 
-### -field pfnGenerateMipSubLevels
+#### - pfnGenerateMipSubLevels
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_generatemipsublevels.md">GenerateMipSubLevels</a> function that regenerates the sublevels of a MIP-map texture.
 
 
-### -field pfnSetPixelShaderConstI
+#### - pfnSetPixelShaderConstI
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconsti.md">SetPixelShaderConstI</a> function that sets one or more pixel shader constant registers with integer values.
 
 
-### -field pfnSetPixelShaderConstB
+#### - pfnSetPixelShaderConstB
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a> function that sets one or more pixel shader constant registers with Boolean values.
 
 
-### -field pfnCreatePixelShader
+#### - pfnCreatePixelShader
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a> function that converts the pixel shader code into a hardware-specific format and associates this code with a shader handle.
 
 
-### -field pfnDeletePixelShader
+#### - pfnDeletePixelShader
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deletepixelshader.md">DeletePixelShader</a> function that cleans up driver-side resources that are associated with pixel shader code.
 
 
-### -field pfnCreateDecodeDevice
+#### - pfnCreateDecodeDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a> function that creates a representation of a Microsoft DirectX Video Acceleration (VA) decode device from supplied parameters.
 
 
-### -field pfnDestroyDecodeDevice
+#### - pfnDestroyDecodeDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydecodedevice.md">DestroyDecodeDevice</a> function that releases resources for a DirectX VA decode device.
 
 
-### -field pfnSetDecodeRenderTarget
+#### - pfnSetDecodeRenderTarget
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdecoderendertarget.md">SetDecodeRenderTarget</a> function that sets the render target for decoding. <i>SetDecodeRenderTarget</i> can be called only outside of a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>/<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a> block.
 
 
-### -field pfnDecodeBeginFrame
+#### - pfnDecodeBeginFrame
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a> function that indicates that decoding of a frame can begin.
 
 
-### -field pfnDecodeEndFrame
+#### - pfnDecodeEndFrame
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a> function that indicates that frame decoding operations must be completed.
 
 
-### -field pfnDecodeExecute
+#### - pfnDecodeExecute
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeexecute.md">DecodeExecute</a> function that performs a DirectX VA decode operation. <i>DecodeExecute</i> must be called inside a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>/<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a> block.
 
 
-### -field pfnDecodeExtensionExecute
+#### - pfnDecodeExtensionExecute
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeextensionexecute.md">DecodeExtensionExecute</a> function that performs a nonstandard DirectX VA decode operation. <i>DecodeExtensionExecute</i> must be called inside a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>/<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a> block.
 
 
-### -field pfnCreateVideoProcessDevice
+#### - pfnCreateVideoProcessDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function that creates a representation of a DirectX VA video processing device from supplied parameters.
 
 
-### -field pfnDestroyVideoProcessDevice
+#### - pfnDestroyVideoProcessDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyvideoprocessdevice.md">DestroyVideoProcessDevice</a> function that releases resources for a DirectX VA video processing device.
 
 
-### -field pfnVideoProcessBeginFrame
+#### - pfnVideoProcessBeginFrame
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessbeginframe.md">VideoProcessBeginFrame</a> function that indicates that video processing of a frame can begin.
 
 
-### -field pfnVideoProcessEndFrame
+#### - pfnVideoProcessEndFrame
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessendframe.md">VideoProcessEndFrame</a> function that indicates that video processing operations must be completed.
 
 
-### -field pfnSetVideoProcessRenderTarget
+#### - pfnSetVideoProcessRenderTarget
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvideoprocessrendertarget.md">SetVideoProcessRenderTarget</a> function that sets the render target for video processing. <i>SetVideoProcessRenderTarget</i> can be called only outside of a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessbeginframe.md">VideoProcessBeginFrame</a>/<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessendframe.md">VideoProcessEndFrame</a> block.
 
 
-### -field pfnVideoProcessBlt
+#### - pfnVideoProcessBlt
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a> function that processes DirectX VA video. <i>VideoProcessBlt</i> must be called inside a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessbeginframe.md">VideoProcessBeginFrame</a>/<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessendframe.md">VideoProcessEndFrame</a> block.
 
 
-### -field pfnCreateExtensionDevice
+#### - pfnCreateExtensionDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a> function that creates a representation of a DirectX VA extension device from supplied parameters.
 
 
-### -field pfnDestroyExtensionDevice
+#### - pfnDestroyExtensionDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyextensiondevice.md">DestroyExtensionDevice</a> function that releases resources for a DirectX VA extension device.
 
 
-### -field pfnExtensionExecute
+#### - pfnExtensionExecute
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a> function that performs an operation that is specific to the given DirectX VA extension device.
 
 
-### -field pfnCreateOverlay
+#### - pfnCreateOverlay
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a> function that allocates overlay hardware and makes the overlay visible.
 
 
-### -field pfnUpdateOverlay
+#### - pfnUpdateOverlay
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a> function that reconfigures or moves an overlay that is being displayed.
 
 
-### -field pfnFlipOverlay
+#### - pfnFlipOverlay
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlay.md">FlipOverlay</a> function that causes the overlay hardware to start displaying the new allocation.
 
 
-### -field pfnGetOverlayColorControls
+#### - pfnGetOverlayColorControls
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md">GetOverlayColorControls</a> function that retrieves color-control settings for an overlay.
 
 
-### -field pfnSetOverlayColorControls
+#### - pfnSetOverlayColorControls
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md">SetOverlayColorControls</a> function that changes color-control settings for an overlay.
 
 
-### -field pfnDestroyOverlay
+#### - pfnDestroyOverlay
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlay.md">DestroyOverlay</a> function that disables the overlay hardware and frees the overlay handle.
 
 
-### -field pfnDestroyDevice
+#### - pfnDestroyDevice
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a> function that releases resources for the display device.
 
 
-### -field pfnQueryResourceResidency
+#### - pfnQueryResourceResidency
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a> function that determines the residency of resources.
 
 
-### -field pfnOpenResource
+#### - pfnOpenResource
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a> function that informs the driver that a shared resource is opened.
 
 
-### -field pfnGetCaptureAllocationHandle
+#### - pfnGetCaptureAllocationHandle
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle.md">GetCaptureAllocationHandle</a> function that maps the given capture resource to an allocation.
 
 
-### -field pfnCaptureToSysMem
+#### - pfnCaptureToSysMem
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_capturetosysmem.md">CaptureToSysMem</a> function that copies a capture buffer to a video memory surface.
 
 
-### -field pfnLockAsync
+#### - pfnLockAsync
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function that locks a resource or a surface within the resource.
 
 
-### -field pfnUnlockAsync
+#### - pfnUnlockAsync
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockasync.md">UnlockAsync</a> function that unlocks a resource or a surface within the resource that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function previously locked.
 
 
-### -field pfnRename
+#### - pfnRename
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a> function that renames, with a new allocation, a resource or a surface within the resource.
 
 
-### -field pfnCreateVideoProcessor
+#### - pfnCreateVideoProcessor
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> function that creates a video processor.
 
 
-### -field pfnSetVideoProcessBltState
+#### - pfnSetVideoProcessBltState
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a> function that sets the state of a bitblt for a video processor. 
 
 
-### -field pfnGetVideoProcessBltStatePrivate
+#### - pfnGetVideoProcessBltStatePrivate
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a> function that retrieves the state data of a private bitblt for a video processor. 
 
 
-### -field pfnSetVideoProcessStreamState
+#### - pfnSetVideoProcessStreamState
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a> function that sets the state of a stream for a video processor. 
 
 
-### -field pfnGetVideoProcessStreamStatePrivate
+#### - pfnGetVideoProcessStreamStatePrivate
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessstreamstateprivate.md">GetVideoProcessStreamStatePrivate</a> function that retrieves the private stream-state data for a video processor. 
 
 
-### -field pfnVideoProcessBltHD
+#### - pfnVideoProcessBltHD
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a> function that processes video input streams and composes to an output surface. 
 
 
-### -field pfnDestroyVideoProcessor
+#### - pfnDestroyVideoProcessor
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_destroyvideoprocessor.md">DestroyVideoProcessor</a> function that releases resources for a previously created video processor. 
 
 
-### -field pfnCreateAuthenticatedChannel
+#### - pfnCreateAuthenticatedChannel
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a> function that creates a channel that the Direct3D runtime and the driver can use to set and query protections. 
 
 
-### -field pfnAuthenticatedChannelKeyExchange
+#### - pfnAuthenticatedChannelKeyExchange
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_authenticatedchannelkeyexchange.md">AuthenticatedChannelKeyExchange</a> function that negotiates the session key. 
 
 
-### -field pfnQueryAuthenticatedChannel
+#### - pfnQueryAuthenticatedChannel
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a> function that queries an authenticated channel for capability and state information. 
 
 
-### -field pfnConfigureAuthenticatedChannel
+#### - pfnConfigureAuthenticatedChannel
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function that sets the state within an authenticated channel. 
 
 
-### -field pfnDestroyAuthenticatedChannel
+#### - pfnDestroyAuthenticatedChannel
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyauthenticatedchannel.md">DestroyAuthenticatedChannel</a> function that releases resources for an authenticated channel. 
 
 
-### -field pfnCreateCryptoSession
+#### - pfnCreateCryptoSession
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function that creates an encryption session. 
 
 
-### -field pfnCryptoSessionKeyExchange
+#### - pfnCryptoSessionKeyExchange
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_cryptosessionkeyexchange.md">CryptoSessionKeyExchange</a> function that performs a key exchange during an encryption session. 
 
 
-### -field pfnDestroyCryptoSession
+#### - pfnDestroyCryptoSession
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycryptosession.md">DestroyCryptoSession</a> function that releases resources for an encryption session. 
 
 
-### -field pfnEncryptionBlt
+#### - pfnEncryptionBlt
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a> function that performs an encrypted bitblt operation. 
 
 
-### -field pfnGetPitch
+#### - pfnGetPitch
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getpitch.md">GetPitch</a> function that retrieves the pitch of an encrypted surface. 
 
 
-### -field pfnStartSessionKeyRefresh
+#### - pfnStartSessionKeyRefresh
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a> function that sets the current video session to protected mode. 
 
 
-### -field pfnFinishSessionKeyRefresh
+#### - pfnFinishSessionKeyRefresh
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a> function that sets the current video session to unprotected mode. 
 
 
-### -field pfnGetEncryptionBltKey
+#### - pfnGetEncryptionBltKey
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a> function that retrieves the key of an encrypted bitblt session. 
 
 
-### -field pfnDecryptionBlt
+#### - pfnDecryptionBlt
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a> function that writes data to a protected surface. 
 
 
-### -field pfnResolveSharedResource
+#### - pfnResolveSharedResource
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_resolvesharedresource.md">ResolveSharedResource</a> function that resolves a shared resource. 
 
 
-### -field pfnVolBlt1
+#### - pfnVolBlt1
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_volblt1.md">VolBlt1</a> function that performs a volume bit-block transfer (bitblt) operation.
 
 Supported starting with Windows 8.
 
 
-### -field pfnBufBlt1
+#### - pfnBufBlt1
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_bufblt1.md">BufBlt1</a> function that performs a bit-block transfer (bitblt) operation.
 
 Supported starting with Windows 8.
 
 
-### -field pfnTexBlt1
+#### - pfnTexBlt1
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt1.md">TexBlt1</a> function that performs a texture bit-block transfer (bitblt) operation.
 
 Supported starting with Windows 8.
 
 
-### -field pfnDiscard
+#### - pfnDiscard
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a>  function that discards (evicts) a set of subresources from video display memory.
 
 Supported starting with Windows 8.
 
 
-### -field pfnOfferResources
+#### - pfnOfferResources
 
 A pointer to the driver  <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerresources.md">OfferResources</a> function that requests that the user-mode display driver offer video memory resources for reuse.
 
 Supported starting with Windows 8.
 
 
-### -field pfnReclaimResources
+#### - pfnReclaimResources
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a> function that's called by the Direct3D runtime to reclaim video memory resources that it previously offered for reuse.
 
 Supported starting with Windows 8.
 
 
-### -field pfnCheckDirectFlipSupport
+#### - pfnCheckDirectFlipSupport
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a> function that's called by the DWM to verify that the user-mode driver supports Direct Flip operations.
 
 Supported starting with Windows 8.
 
 
-### -field pfnCreateResource2
+#### - pfnCreateResource2
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a> function that creates a resource.
 
 Supported starting with Windows 8.
 
 
-### -field pfnCheckMultiPlaneOverlaySupport
+#### - pfnCheckMultiPlaneOverlaySupport
 
 A pointer to the driver <a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a> function that's called by the Direct3D runtime to check the details on hardware support for multiplane overlays.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnPresentMultiPlaneOverlay
+#### - pfnPresentMultiPlaneOverlay
 
 A pointer to the driver <a href="https://msdn.microsoft.com/3AC47977-A5F3-44A6-8F89-A1EA5E0BB6E4">pfnPresentMultiplaneOverlay (D3D)</a> function that's called by the Direct3D runtime to notify the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnReserved1
+#### - pfnReserved1
 
 Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnFlush1
+#### - pfnFlush1
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush1.md">pfnFlush1</a>  function that's called by the Direct3D runtime to submit outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnCheckCounterInfo
+#### - pfnCheckCounterInfo
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkcounterinfo.md">pfnCheckCounterInfo</a>  function that's called by the Direct3D runtime to determine global information that's related to manipulating counters.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnCheckCounter
+#### - pfnCheckCounter
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkcounter.md">pfnCheckCounter</a>  function that's called by the Direct3D runtime to retrieve info that describes a counter.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnUpdateSubresourceUP
+#### - pfnUpdateSubresourceUP
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a>  function that's called by the Direct3D runtime to update a destination subresource region from a source system-memory region.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnPresent1
+#### - pfnPresent1
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present1.md">pfnPresent1(D3D)</a>  function that notifies the user-mode display driver that an application finished rendering and  that all ownership of the shared resource is released, and that  requests that the driver display to the destination surface.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnCheckPresentDurationSupport
+#### - pfnCheckPresentDurationSupport
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkpresentdurationsupport.md">CheckPresentDurationSupport</a> function that's called by the Direct3D runtime to request that the user-mode display driver get hardware device capabilities for seamlessly switching to a new monitor refresh rate.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnSetMarker
+#### - pfnSetMarker
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a> function that notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to <i>pfnSetMarker</i>.
 
 Supported starting with Windows 8.1.
 
 
-### -field pfnSetMarkerMode
+#### - pfnSetMarkerMode
 
 A pointer to the driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a> function that notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event.
 

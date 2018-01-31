@@ -75,12 +75,12 @@ void AVStrMiniFrameReturn(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin on which the frame was injected.
 
 
-### -param Data [in, optional]
+#### - Data [in, optional]
 
 Pointer to the buffer originally specified in the call to <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>.
 
@@ -89,17 +89,17 @@ Pointer to the buffer originally specified in the call to <a href="..\ks\nf-ks-k
 
 
 
-### -param Mdl [in, optional]
+#### - Mdl [in, optional]
 
 Pointer to a memory descriptor list describing the injected frame as in the call to <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a><b>.</b>
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Pointer to the minidriver-supplied context buffer attached to the frame when the frame was injected into the circuit.
 
 
-### -param Status [in]
+#### - Status [in]
 
 Contains a copy of <i>Irp-&gt;IoStatus.Status</i> for the IRP to which the requested frame was attached.
 
@@ -125,9 +125,9 @@ The minidriver specifies this routine's address in the <i>FrameReturn</i> parame
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
-
 <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
+
+<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
 
  
 

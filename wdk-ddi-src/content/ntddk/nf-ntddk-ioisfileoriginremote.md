@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46655cbe-0483-4897-bd12-ce108af326c6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoIsFileOriginRemote routine [Installable File System Drivers], IoIsFileOriginRemote, ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ifsk.ioisfileoriginremote, ntddk/IoIsFileOriginRemote
+ms.keywords: ifsk.ioisfileoriginremote, IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers], ntddk/IoIsFileOriginRemote, ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN IoIsFileOriginRemote(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the file. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0043DC3F-E8EE-448F-B381-C67C199CE7A7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndk_listener, ndkpi/PNDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER, NDK_LISTENER, ndkpi/NDK_LISTENER, PNDK_LISTENER
+ms.keywords: "_NDK_LISTENER, PNDK_LISTENER, NDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], ndkpi/NDK_LISTENER, ndkpi/PNDK_LISTENER, netvista.ndk_listener"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _NDK_LISTENER {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure for the <b>NDK_LISTENER</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeListener</b>.
 
 
-### -field Dispatch
+#### - Dispatch
 
 A pointer to an <a href="..\ndkpi\ns-ndkpi-_ndk_listener_dispatch.md">NDK_LISTENER_DISPATCH</a> structure that defines dispatch functions for the NDK listener object.
 
@@ -87,7 +87,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener_dispatch.md">NDK_LISTENER_DISPATCH</a>
 
 <a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
 
@@ -95,11 +95,11 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener_dispatch.md">NDK_LISTENER_DISPATCH</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
  
 

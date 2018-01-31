@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53657c26-5007-4c8e-aadf-5d464f1222d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, wiauStrW2C function [Imaging Devices], wiautil/wiauStrW2C, wiauStrW2C, image.wiaustrw2c
+ms.keywords: wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, image.wiaustrw2c, wiauStrW2C, wiauStrW2C function [Imaging Devices], wiautil/wiauStrW2C
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT _stdcall wiauStrW2C(
 
 
 
-### -param pwszSrc [in]
+#### - pwszSrc [in]
 
 Points to the Unicode string to be converted.
 
 
-### -param pszDst [out]
+#### - pszDst [out]
 
 Pointer to a memory location that receives the converted ANSI string.
 
 
-### -param iSize
+#### - iSize
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pszDst</i>.
 
@@ -94,11 +94,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
-
 <a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
 
 <a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
+
+<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
 
  
 

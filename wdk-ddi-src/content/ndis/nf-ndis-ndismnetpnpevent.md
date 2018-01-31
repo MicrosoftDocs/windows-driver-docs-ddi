@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismnetpnpevent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisMNetPnPEvent, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, NdisMNetPnPEvent
+ms.keywords: miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, NdisMNetPnPEvent, netvista.ndismnetpnpevent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisMNetPnPEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NDIS_STATUS NdisMNetPnPEvent(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 An NDIS handle which NDIS provided at the 
      <i>MiniportAdapterHandle</i> parameter of the 
@@ -277,13 +277,13 @@ For all other propagated events, the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

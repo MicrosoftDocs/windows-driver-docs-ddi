@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b916114-85aa-4ab7-acaa-6b19d0a4d776
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinAttemptProcessing function [Streaming Media Devices], KsPinAttemptProcessing, stream.kspinattemptprocessing, ks/KsPinAttemptProcessing, avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml
+ms.keywords: stream.kspinattemptprocessing, KsPinAttemptProcessing, KsPinAttemptProcessing function [Streaming Media Devices], ks/KsPinAttemptProcessing, avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ void KsPinAttemptProcessing(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that represents the AVStream pin object on which to attempt processing.
 
@@ -79,7 +79,7 @@ A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that represen
 
 
 
-### -param Asynchronous [in]
+#### - Asynchronous [in]
 
 This parameter indicates the minidriver's preference whether the processing should occur synchronously or asynchronously. If <b>TRUE</b>, processing is always asynchronous. However, synchronous processing only happens under certain circumstances. For more information, see the Remarks section below.
 
@@ -102,13 +102,13 @@ The processing dispatch occurs either synchronously or asynchronously, and <i>on
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
-
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
 
 <b>KSGATE</b>
+
+<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
  
 

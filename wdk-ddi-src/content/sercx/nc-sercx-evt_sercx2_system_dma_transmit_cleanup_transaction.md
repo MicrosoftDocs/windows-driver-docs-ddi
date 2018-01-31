@@ -71,7 +71,7 @@ VOID EvtSerCx2SystemDmaTransmitCleanupTransaction(
 
 
 
-### -param SystemDmaTransmit [in]
+#### - SystemDmaTransmit [in]
 
 A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
@@ -96,11 +96,11 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcleanuptransactioncomplete.md">SerCx2SystemDmaTransmitCleanupTransactionComplete</a>
 
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcleanuptransactioncomplete.md">SerCx2SystemDmaTransmitCleanupTransactionComplete</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
  
 

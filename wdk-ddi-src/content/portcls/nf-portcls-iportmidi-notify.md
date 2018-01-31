@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eeec5e45-4db2-4a81-b773-0f9cbf86f593
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Notify method [Audio Devices], IPortMidi interface, IPortMidi::Notify, Notify, IPortMidi interface [Audio Devices], Notify method, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, audio.iportmidi_notify, Notify method [Audio Devices], portcls/IPortMidi::Notify, IPortMidi
+ms.keywords: IPortMidi, IPortMidi::Notify, portcls/IPortMidi::Notify, IPortMidi interface [Audio Devices], Notify method, audio.iportmidi_notify, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, Notify method [Audio Devices], IPortMidi interface, Notify, Notify method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortMidi.Notify
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortMidi::Notify method
@@ -67,7 +67,7 @@ void Notify(
 
 
 
-### -param ServiceGroup [in, optional]
+#### - ServiceGroup [in, optional]
 
 Pointer to the miniport driver's <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object.
 
@@ -92,9 +92,9 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 
  
 

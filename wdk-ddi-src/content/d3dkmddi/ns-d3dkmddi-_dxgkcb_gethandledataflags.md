@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, _DXGKCB_GETHANDLEDATAFLAGS, display.dxgkcb_gethandledataflags, DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], DXGKCB_GETHANDLEDATAFLAGS
+ms.keywords: display.dxgkcb_gethandledataflags, d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], DXGKCB_GETHANDLEDATAFLAGS, _DXGKCB_GETHANDLEDATAFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,19 +73,19 @@ typedef struct _DXGKCB_GETHANDLEDATAFLAGS {
 
 
 
-### -field DeviceSpecific
+#### - DeviceSpecific
 
 A UINT value that specifies whether allocations belong to a resource. If this member is set, the allocations belong to a resource. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that DXGKCB_GETHANDLEDATAFLAGS contains that can hold a 32-bit value that indicates if allocations belong to a resource.
 

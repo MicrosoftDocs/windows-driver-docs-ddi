@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_SendRNIDV2, storage.hba_sendrnidv2, HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml
+ms.keywords: storage.hba_sendrnidv2, HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml, hbaapi/HBA_SendRNIDV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,12 +93,12 @@ TBD
 TBD
 
 
-### -param NodeIdDataFormat [in]
+#### - NodeIdDataFormat [in]
 
 Contains a number that indicates the node identification format. For a complete description of the allowed formats and the numbers that identify each format, see the <i>Fibre Channel Generic Services - 4 (FC-GS-4)</i> specification published by the ANSI committee.
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that contains the payload data, in big-endian (wire) format, from the reply to the node identification request.  
 
@@ -152,11 +152,11 @@ The <b>HBA_SendRNIDV2</b> library routine serves a purpose very similar to the <
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

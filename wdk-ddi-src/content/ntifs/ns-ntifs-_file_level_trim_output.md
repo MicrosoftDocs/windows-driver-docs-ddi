@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 28CCE967-E752-4E0E-94D9-3A4243266684
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_LEVEL_TRIM_RANGE_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT, ntifs/PFILE_LEVEL_TRIM_RANGE_OUTPUT, FILE_LEVEL_TRIM_RANGE_OUTPUT structure [Installable File System Drivers], _FILE_LEVEL_TRIM_OUTPUT, ntifs/FILE_LEVEL_TRIM_RANGE, ifsk.file_level_trim_output, FILE_LEVEL_TRIM_OUTPUT structure [Installable File System Drivers], FILE_LEVEL_TRIM_OUTPUT, PFILE_LEVEL_TRIM_RANGE_OUTPUT structure pointer [Installable File System Drivers], FILE_LEVEL_TRIM_RANGE_OUTPUT
+ms.keywords: FILE_LEVEL_TRIM_RANGE_OUTPUT, PFILE_LEVEL_TRIM_RANGE_OUTPUT structure pointer [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT, ifsk.file_level_trim_output, FILE_LEVEL_TRIM_RANGE_OUTPUT structure [Installable File System Drivers], ntifs/PFILE_LEVEL_TRIM_RANGE_OUTPUT, ntifs/FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT structure [Installable File System Drivers], _FILE_LEVEL_TRIM_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _FILE_LEVEL_TRIM_OUTPUT {
 
 
 
-### -field NumRangesProcessed
+#### - NumRangesProcessed
 
 The number or trim ranges processed.
 

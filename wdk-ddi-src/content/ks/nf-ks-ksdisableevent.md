@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4af94bc4-9df3-4b37-a810-303748cc4b75
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDisableEvent, stream.ksdisableevent, ks/KsDisableEvent, KsDisableEvent function [Streaming Media Devices], ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml
+ms.keywords: KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml, ks/KsDisableEvent, stream.ksdisableevent, KsDisableEvent function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsDisableEvent(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP passed to the removal function, which uses the IRP to obtain context information. The file object associated with the IRP is used to compare against the file object originally specified when enabling the event. This allows a single event list to be used for multiple clients differentiated by file objects.
 
 
-### -param EventsList [in, out]
+#### - EventsList [in, out]
 
 Points to the head of the list of <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> items on which the event may be found. If a client uses multiple event lists and does not know what list this event is on, the client can call this function multiple times. An event not found will return STATUS_UNSUCCESSFUL.
 
 
-### -param EventsFlags [in]
+#### - EventsFlags [in]
 
 Specifies a <a href="..\ks\ne-ks-ksevents_locktype.md">KSEVENTS_LOCKTYPE</a> flag specifying the type of exclusion lock to be used in accessing the event list. If no flag is set, then no lock is taken.
 
 
-### -param EventsLock [in]
+#### - EventsLock [in]
 
 Used to synchronize access to an element on the list. After the element has been accessed, it is marked as being deleted so that subsequent removal requests fail. The lock is then released after calling the removal function, if any. The removal function must synchronize with event generation before actually removing the element from the list.
 

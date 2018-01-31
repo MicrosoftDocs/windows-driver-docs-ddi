@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILPOSITIONINFOUMTS, netvista.rilpositioninfoumts, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPOSITIONINFOUMTS"
+ms.keywords: RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts, RILPOSITIONINFOUMTS, rilapitypes/RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPOSITIONINFOUMTS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS"
+req.typenames: RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
 req.product: Windows 10 or later.
 ---
 
@@ -80,67 +80,67 @@ struct RILPOSITIONINFOUMTS {
 
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfoumtsparammask.md">RILPOSITIONINFOUMTSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwMobileCountryCode
+#### - dwMobileCountryCode
 
 Mobile country code (0...999).
 
 
-### -field dwMobileNetworkCode
+#### - dwMobileNetworkCode
 
 Mobile Network Code (0...999).
 
 
-### -field dwLocationAreaCode
+#### - dwLocationAreaCode
 
 Location Area Code (0...65535).
 
 
-### -field dwCellID
+#### - dwCellID
 
 Cell ID (0...268435455)).
 
 
-### -field dwFrequencyInfoUL
+#### - dwFrequencyInfoUL
 
 Channel number for serving cell (0...16383).
 
 
-### -field dwFrequencyInfoDL
+#### - dwFrequencyInfoDL
 
 Frequency Info Downlink (0...16383)
 
 
-### -field dwFrequencyInfoNT
+#### - dwFrequencyInfoNT
 
 Frequency Info for TDD (0...16383)
 
 
-### -field dwUARFCN
+#### - dwUARFCN
 
 UTRA Absolute Radio Frequency Channel Number for serving cell (0...16383)
 
 
-### -field dwPrimaryScramblingCode
+#### - dwPrimaryScramblingCode
 
 Primary scrambling code of serving cell (0...511)
 
 
-### -field dwRSCP
+#### - dwRSCP
 
 Received signal code power of serving cell. Range (-1200 ... -250) in units of .1dBm, i.e., -250 represents -25dBm.
 
 
-### -field dwECNO
+#### - dwECNO
 
 Signal to noise ratio of serving cell; the ratio of the received energy per PN chip for the CPICH to the total received power spectral density at the antenna. Range (-500…0) in units of 0.1dBm.
 
 
-### -field dwPathLoss
+#### - dwPathLoss
 
 Path loss of serving cell (46...173)
 

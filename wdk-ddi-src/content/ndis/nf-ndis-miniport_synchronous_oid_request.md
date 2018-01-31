@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0DDF9CF8-91F6-4D7C-A8E8-FC425BF155CB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request, MiniportSynchronousOidRequest, MINIPORT_SYNCHRONOUS_OID_REQUEST, MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista]
+ms.keywords: MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista], MINIPORT_SYNCHRONOUS_OID_REQUEST, ndis/MiniportSynchronousOidRequest, MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,14 +68,14 @@ NDIS_STATUS MiniportSynchronousOidRequest(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
-### -param OidRequest [in]
+#### - OidRequest [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that contains
@@ -228,28 +228,28 @@ Miniport drivers that implement NDIS Selective Suspend are incompatible with Syn
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>
 
 <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
        MiniportDevicePnPEventNotify</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetDriver method, wdf.iwdfdevice_getdriver, IWDFDevice interface, GetDriver method, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, IWDFDevice::GetDriver, GetDriver, IWDFDevice, umdf.iwdfdevice_getdriver, GetDriver method, IWDFDevice interface, wudfddi/IWDFDevice::GetDriver
+ms.keywords: wdf.iwdfdevice_getdriver, IWDFDevice, IWDFDevice::GetDriver, GetDriver method, IWDFDevice interface, umdf.iwdfdevice_getdriver, IWDFDevice interface, GetDriver method, GetDriver method, GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, wudfddi/IWDFDevice::GetDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.GetDriver
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetDriver(
 
 
 
-### -param ppWdfDriver [out]
+#### - ppWdfDriver [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the parent driver object.
 
@@ -91,9 +91,9 @@ For a code example of how to use the GetDriver method, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
  
 

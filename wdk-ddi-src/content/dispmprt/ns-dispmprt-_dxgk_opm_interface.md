@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6ae1d9a8-db9a-460d-b258-222a2bd96265
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/DXGK_OPM_INTERFACE, _DXGK_OPM_INTERFACE, *PDXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE structure [Display Devices], dispmprt/PDXGK_OPM_INTERFACE, DmStructs_e1644da8-220d-470a-b9b9-f23ba7e1c4f6.xml, PDXGK_OPM_INTERFACE, display.dxgk_opm_interface, PDXGK_OPM_INTERFACE structure pointer [Display Devices]
+ms.keywords: "_DXGK_OPM_INTERFACE, dispmprt/DXGK_OPM_INTERFACE, dispmprt/PDXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE, PDXGK_OPM_INTERFACE, PDXGK_OPM_INTERFACE structure pointer [Display Devices], *PDXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE structure [Display Devices], display.dxgk_opm_interface, DmStructs_e1644da8-220d-470a-b9b9-f23ba7e1c4f6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_OPM_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_OPM_INTERFACE, *PDXGK_OPM_INTERFACE
+req.typenames: "*PDXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE"
 ---
 
 # _DXGK_OPM_INTERFACE structure
@@ -80,72 +80,72 @@ typedef struct _DXGK_OPM_INTERFACE {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Version
+#### - Version
 
 A positive integer that indicates the version number of the OPM interface that is implemented by the display miniport driver. The <b>Version</b> member must be set to DXGK_OPM_INTERFACE_VERSION_1, which is defined in Dispmprt.h.
 
 
-### -field Context
+#### - Context
 
 A pointer to a private context block. <b>Context</b> must be set to <b>NULL</b>.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display miniport driver. For more information about the operation of an interface reference function, see the Remarks section of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display miniport driver. For more information about the operation of an interface dereference function, see the Remarks section of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
-### -field DxgkDdiOPMGetCertificateSize
+#### - DxgkDdiOPMGetCertificateSize
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a> function.
 
 
-### -field DxgkDdiOPMGetCertificate
+#### - DxgkDdiOPMGetCertificate
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a> function.
 
 
-### -field DxgkDdiOPMCreateProtectedOutput
+#### - DxgkDdiOPMCreateProtectedOutput
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a> function.
 
 
-### -field DxgkDdiOPMGetRandomNumber
+#### - DxgkDdiOPMGetRandomNumber
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a> function.
 
 
-### -field DxgkDdiOPMSetSigningKeyAndSequenceNumbers
+#### - DxgkDdiOPMSetSigningKeyAndSequenceNumbers
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a> function.
 
 
-### -field DxgkDdiOPMGetInformation
+#### - DxgkDdiOPMGetInformation
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> function.
 
 
-### -field DxgkDdiOPMGetCOPPCompatibleInformation
+#### - DxgkDdiOPMGetCOPPCompatibleInformation
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> function.
 
 
-### -field DxgkDdiOPMConfigureProtectedOutput
+#### - DxgkDdiOPMConfigureProtectedOutput
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a> function.
 
 
-### -field DxgkDdiOPMDestroyProtectedOutput
+#### - DxgkDdiOPMDestroyProtectedOutput
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMDestroyProtectedOutput</a> function.
 
@@ -163,25 +163,25 @@ For more information on how to use this structure with the OPM interface, see <a
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMDestroyProtectedOutput</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMDestroyProtectedOutput</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
  
 

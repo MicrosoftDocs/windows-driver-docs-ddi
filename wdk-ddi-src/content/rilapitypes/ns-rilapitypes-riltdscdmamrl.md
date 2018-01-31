@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26399c62-c17a-40ad-964e-144badc55614
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILTDSCDMAMRL, netvista.riltdscdmamrl, rilapitypes/RILTDSCDMAMRL, *LPRILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista], netvista.riltdscdmamrl, rilapitypes/RILTDSCDMAMRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILTDSCDMAMRL
 product: Windows
 targetos: Windows
-req.typenames: RILTDSCDMAMRL, *LPRILTDSCDMAMRL
+req.typenames: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL"
 req.product: Windows 10 or later.
 ---
 
@@ -76,47 +76,47 @@ struct RILTDSCDMAMRL {
 
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riltdscdmamrlparammask.md">RILTDSCDMAMRLPARAMMASK</a> that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwMobileCountryCode
+#### - dwMobileCountryCode
 
 (Reserved for future use) Mobile country code (0...999).
 
 
-### -field dwMobileNetworkCode
+#### - dwMobileNetworkCode
 
 (Reserved for future use) Mobile Network Code (0...999).
 
 
-### -field dwLocationAreaCode
+#### - dwLocationAreaCode
 
 (Reserved for future use) Location Area Code (0...65535).
 
 
-### -field dwCellID
+#### - dwCellID
 
 (Reserved for future use) Cell identity 28 bits (0...268435455). 
 
 
-### -field dwUARFCN
+#### - dwUARFCN
 
 Channel number (0...16383).
 
 
-### -field dwCellParameterID
+#### - dwCellParameterID
 
 Cell parameter ID (0...127).
 
 
-### -field dwRSCP
+#### - dwRSCP
 
 Received signal code power of serving cell. Range −128...−25 in units of 1dBm in Q8 L3 filtered.
 
 
-### -field dwPathLoss
+#### - dwPathLoss
 
 Path loss of serving cell (46...173)
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b2d54ee9-78aa-4799-a06d-6c79000d3e32
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.isynthsinkdmus_sampletoreftime, dmusicks/ISynthSinkDMus::SampleToRefTime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, SampleToRefTime method [Audio Devices], ISynthSinkDMus::SampleToRefTime, ISynthSinkDMus interface [Audio Devices], SampleToRefTime method, SampleToRefTime method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus, SampleToRefTime
+ms.keywords: ISynthSinkDMus interface [Audio Devices], SampleToRefTime method, SampleToRefTime, SampleToRefTime method [Audio Devices], audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, ISynthSinkDMus, audio.isynthsinkdmus_sampletoreftime, SampleToRefTime method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus::SampleToRefTime, dmusicks/ISynthSinkDMus::SampleToRefTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ NTSTATUS SampleToRefTime(
 
 
 
-### -param llSampleTime [in]
+#### - llSampleTime [in]
 
 Specifies the sample time being passed in.
 
@@ -102,9 +102,9 @@ The calculation of reference time from sample time to reference time depends on 
 
 ## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536526">IDirectMusicSynthSink::SampleToRefTime</a>
+
+<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
 
  
 

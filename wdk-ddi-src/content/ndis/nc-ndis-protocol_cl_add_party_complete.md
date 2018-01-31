@@ -80,7 +80,7 @@ VOID ProtocolClAddPartyComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies final status of the client-initiated add-party operation, which can be one of the
      following:
@@ -113,13 +113,13 @@ The call manager's
        returned a CM-determined value to indicate why it could not add the party to the VC.
 
 
-### -param ProtocolPartyContext [in]
+#### - ProtocolPartyContext [in]
 
 Specifies the client-supplied handle originally passed to 
      <b>NdisClAddParty</b>.
 
 
-### -param NdisPartyHandle [in]
+#### - NdisPartyHandle [in]
 
 If 
      <i>Status</i> is NDIS_STATUS_SUCCESS, this NDIS-supplied handle represents the association between the
@@ -127,7 +127,7 @@ If
      client should consider this parameter an invalid handle.
 
 
-### -param CallParameters [in]
+#### - CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>, originally set up by
@@ -222,21 +222,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
 
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
-
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
 
  
 

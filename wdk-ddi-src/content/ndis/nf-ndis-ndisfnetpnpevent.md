@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 383f9dcb-68ba-4323-b25f-668169043f35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfnetpnpevent, NdisFNetPnPEvent, filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, ndis/NdisFNetPnPEvent, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista]
+ms.keywords: filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisFNetPnPEvent, NdisFNetPnPEvent, netvista.ndisfnetpnpevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,9 +149,9 @@ Filter drivers can forward these notifications to overlying drivers. To forward 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
 <a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 

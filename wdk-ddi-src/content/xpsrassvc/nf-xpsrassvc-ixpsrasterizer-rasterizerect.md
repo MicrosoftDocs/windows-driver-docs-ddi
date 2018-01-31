@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IXpsRasterizer interface [Print Devices], RasterizeRect method, xpsrassvc/IXpsRasterizer::RasterizeRect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, RasterizeRect, IXpsRasterizer::RasterizeRect, IXpsRasterizer, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices], IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect
+ms.keywords: print.ixpsrasterizer_rasterizerect, RasterizeRect, IXpsRasterizer interface [Print Devices], RasterizeRect method, IXpsRasterizer::RasterizeRect, xpsrassvc/IXpsRasterizer::RasterizeRect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, IXpsRasterizer, RasterizeRect method [Print Devices], IXpsRasterizer interface, RasterizeRect method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT RasterizeRect(
 
 
 
-### -param x [in]
+#### - x [in]
 
 The x coordinate, in pixels, at the left edge of the output bitmap.
 
 
-### -param y [in]
+#### - y [in]
 
 The y coordinate, in pixels, at the top edge of the output bitmap.
 
 
-### -param width [in]
+#### - width [in]
 
 The width, in pixels, of the output bitmap.
 
 
-### -param height [in]
+#### - height [in]
 
 The height, in pixels, of the output bitmap.
 
 
-### -param notificationCallback [in, optional]
+#### - notificationCallback [in, optional]
 
 Pointer to the <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
 
 
-### -param bitmap [out, optional]
+#### - bitmap [out, optional]
 
 Pointer to a location into which the method writes a pointer to the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface of the newly created bitmap object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
@@ -164,13 +164,13 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
-
 <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
  
 

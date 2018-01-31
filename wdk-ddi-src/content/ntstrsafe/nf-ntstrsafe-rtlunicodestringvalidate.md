@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c4f452e-df7b-401b-a62e-20e0b2164172
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml, ntstrsafe/RtlUnicodeStringValidate, kernel.rtlunicodestringvalidate, RtlUnicodeStringValidate, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture]
+ms.keywords: ntstrsafe/RtlUnicodeStringValidate, kernel.rtlunicodestringvalidate, RtlUnicodeStringValidate, safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS RtlUnicodeStringValidate(
 
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 A pointer to a <b>UNICODE_STRING</b> structure to be validated. 
 

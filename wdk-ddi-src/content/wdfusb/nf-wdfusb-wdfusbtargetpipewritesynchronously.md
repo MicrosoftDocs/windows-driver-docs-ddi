@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5513a245-0417-42f7-9c01-99b8bd5745eb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetpipewritesynchronously, PFN_WDFUSBTARGETPIPEWRITESYNCHRONOUSLY, wdf.wdfusbtargetpipewritesynchronously, wdfusb/WdfUsbTargetPipeWriteSynchronously, WdfUsbTargetPipeWriteSynchronously, DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, WdfUsbTargetPipeWriteSynchronously method
+ms.keywords: WdfUsbTargetPipeWriteSynchronously, PFN_WDFUSBTARGETPIPEWRITESYNCHRONOUSLY, kmdf.wdfusbtargetpipewritesynchronously, wdfusb/WdfUsbTargetPipeWriteSynchronously, DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, wdf.wdfusbtargetpipewritesynchronously, WdfUsbTargetPipeWriteSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfUsbTargetPipeWriteSynchronously(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 
-### -param Request [in, optional]
+#### - Request [in, optional]
 
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param RequestOptions [in, optional]
+#### - RequestOptions [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param MemoryDescriptor [in, optional]
+#### - MemoryDescriptor [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure that describes the buffer that contains data that will be written to the device. For more information about this buffer, see the following Remarks section. 
 
 
-### -param BytesWritten [out, optional]
+#### - BytesWritten [out, optional]
 
 A pointer to a location that receives the number of bytes written, if the operation succeeds. This parameter is optional and can be <b>NULL</b>.
 
@@ -300,15 +300,15 @@ For more information about the <b>WdfUsbTargetPipeWriteSynchronously</b> method 
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipereadsynchronously.md">WdfUsbTargetPipeReadSynchronously</a>
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
+<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prntfont/OEMFONTINSTPARAM, *POEMFONTINSTPARAM, POEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM, _OEMFONTINSTPARAM, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, POEMFONTINSTPARAM structure pointer [Print Devices]
+ms.keywords: "_OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], prntfont/POEMFONTINSTPARAM, prntfont/OEMFONTINSTPARAM, OEMFONTINSTPARAM, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, *POEMFONTINSTPARAM, print.oemfontinstparam, POEMFONTINSTPARAM structure pointer [Print Devices], POEMFONTINSTPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OEMFONTINSTPARAM
 product: Windows
 targetos: Windows
-req.typenames: "*POEMFONTINSTPARAM, OEMFONTINSTPARAM"
+req.typenames: OEMFONTINSTPARAM, *POEMFONTINSTPARAM
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ typedef struct _OEMFONTINSTPARAM {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Size, in bytes, of the OEMFONTINSTPARAM structure.
 
 
-### -field hPrinter
+#### - hPrinter
 
 Unidrv-supplied printer handle.
 
 
-### -field hModule
+#### - hModule
 
 Unidrv-supplied handle to the user interface plug-in.
 
 
-### -field hHeap
+#### - hHeap
 
 Unidrv-supplied handle to a heap from which space can be allocated by calling the <b>HeapAlloc</b> function (described in the Microsoft Windows SDK documentation).
 
 
-### -field dwFlags
+#### - dwFlags
 
 Unidrv-supplied flags. The only defined flag is FG_CANCHANGE which, if set, indicates the user interface should allow the user to change the installed fonts. Otherwise the user interface should be displayed in read-only mode.
 
 
-### -field pFontInstallerName
+#### - pFontInstallerName
 
 Pointer to a string representing the font installer's name. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a> method must supply this string if the received message is WM_USER+WM_FI_NAME. The string must be placed in memory allocated using <b>hHeap</b>.
 

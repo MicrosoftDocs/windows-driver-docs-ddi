@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 623f58f6-db82-4a4a-bac3-cc821babfe99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/PHDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT structure [Audio Devices], HDAUDIO_CONVERTER_FORMAT, hdaudio/HDAUDIO_CONVERTER_FORMAT, audio.hdaudio_converter_format, PHDAUDIO_CONVERTER_FORMAT, *PHDAUDIO_CONVERTER_FORMAT, aud-prop2_fbc3cdcb-94a1-43ef-bf23-4b1cca37e99d.xml, _HDAUDIO_CONVERTER_FORMAT, PHDAUDIO_CONVERTER_FORMAT structure pointer [Audio Devices]
+ms.keywords: PHDAUDIO_CONVERTER_FORMAT, audio.hdaudio_converter_format, hdaudio/HDAUDIO_CONVERTER_FORMAT, _HDAUDIO_CONVERTER_FORMAT, aud-prop2_fbc3cdcb-94a1-43ef-bf23-4b1cca37e99d.xml, PHDAUDIO_CONVERTER_FORMAT structure pointer [Audio Devices], HDAUDIO_CONVERTER_FORMAT structure [Audio Devices], hdaudio/PHDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT, *PHDAUDIO_CONVERTER_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,7 +96,7 @@ typedef struct _HDAUDIO_CONVERTER_FORMAT {
  
 
 
-### -field ConverterFormat
+#### - ConverterFormat
 
 Specifies the stream's data format as an encoded 16-bit value. For more information, see the following Remarks section.
 
@@ -141,13 +141,13 @@ Each valid HDAUDIO_CONVERTER_FORMAT encoding has a one-to-one correspondence to 
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 <a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
  
 

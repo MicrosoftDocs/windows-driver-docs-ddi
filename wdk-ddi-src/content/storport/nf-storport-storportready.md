@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 37c19ee9-4741-448c-bcbe-12437f4f3b4d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml, storage.storportready, StorPortReady, storport/StorPortReady, StorPortReady routine [Storage Devices]
+ms.keywords: storport/StorPortReady, StorPortReady, StorPortReady routine [Storage Devices], storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml, storage.storportready
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ STORPORT_API BOOLEAN StorPortReady(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 

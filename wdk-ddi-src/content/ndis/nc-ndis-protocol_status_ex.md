@@ -74,7 +74,7 @@ VOID ProtocolStatusEx(
 
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 A handle to a context area that the protocol driver allocated. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
@@ -82,7 +82,7 @@ A handle to a context area that the protocol driver allocated. The protocol driv
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-### -param StatusIndication [in]
+#### - StatusIndication [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure
@@ -158,11 +158,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567420">NDIS_STATUS_RESET_START</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567419">NDIS_STATUS_RESET_END</a>
 
 <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567420">NDIS_STATUS_RESET_START</a>
 
  
 

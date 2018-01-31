@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAUDIOMODULE_NOTIFICATION, ksmedia/KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], PKSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, _KSAUDIOMODULE_NOTIFICATION
+ms.keywords: PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], *PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], PKSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION, ksmedia/KSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIOMODULE_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION
+req.typenames: "*PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION"
 ---
 
 # _KSAUDIOMODULE_NOTIFICATION structure
@@ -75,9 +75,29 @@ typedef struct _KSAUDIOMODULE_NOTIFICATION {
 
 
 
-### -field ProviderId
+#### - ProviderId
 
 A structure that specifies the ProviderId of the audio module notification.
+
+
+#### DeviceId
+
+Specifies the DeviceId of the audio module notification. The DeviceId matches the value returned in <a href="https://msdn.microsoft.com/CD9C5FCD-FB2A-4B21-A15E-BA520C3311A7">KSPROPERTY_AUDIOMODULE_NOTIFICATION_DEVICE_ID</a>.
+
+
+#### ClassId
+
+The ClassId of the audio module. The ClassId is an identifier that establishes what type of module this is. The value and mapping is established by the ISV and IHV. 
+
+
+#### InstanceId
+
+The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of an module. 
+
+
+#### Reserved
+
+This member is reserved.
 
 
 ### -field ProviderId.DeviceId
@@ -100,7 +120,7 @@ The InstanceId of the audio module.  The InstanceId is a unique identifier that 
 This member is reserved.
 
 
-### -field Alignment
+#### - Alignment
 
 Specifies the value that is used for alignment. 
 

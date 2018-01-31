@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 224c8483-56b8-4341-8347-fa119ec04024
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortUnmapMemory, display.videoportunmapmemory, VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, video/VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices]
+ms.keywords: VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, video/VideoPortUnmapMemory, VideoPortUnmapMemory, display.videoportunmapmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VP_STATUS VideoPortUnmapMemory(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VirtualAddress
+#### - VirtualAddress
 
 Pointer to a virtual address within the mapped range to be released.
 
 
-### -param ProcessHandle
+#### - ProcessHandle
 
 Should be set to zero, or to the process handle specified when the miniport driver called <b>VideoPortMapMemory</b>.
 

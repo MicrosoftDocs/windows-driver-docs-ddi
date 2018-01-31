@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d240f2cc-18a6-4c2d-889f-e25a9486d5fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, netvista.ndisinitializenpagedlookasidelist, NdisInitializeNPagedLookasideList, ndis/NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, ndis/NdisInitializeNPagedLookasideList, netvista.ndisinitializenpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ VOID NdisInitializeNPagedLookasideList(
 
 
 
-### -param Lookaside [in]
+#### - Lookaside [in]
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a> structure that
@@ -83,7 +83,7 @@ A pointer to an
      that is resident—that is, in nonpaged system space. 
 
 
-### -param Allocate [in, optional]
+#### - Allocate [in, optional]
 
 A function entry point that is either <b>NULL</b> or specifies the entry point of a caller-supplied 
      <i>Allocate</i> function that will allocate an entry of the size that is specified in the 
@@ -96,7 +96,7 @@ A function entry point that is either <b>NULL</b> or specifies the entry point o
      <i>Free</i> function.
 
 
-### -param Free [in, optional]
+#### - Free [in, optional]
 
 A function entry point that is either <b>NULL</b> or specifies the entry point of a caller-supplied 
      <i>Free</i> function that will free an entry of the size that is specified in the 
@@ -106,17 +106,17 @@ A function entry point that is either <b>NULL</b> or specifies the entry point o
      NdisFreeToNPagedLookasideList</b></mshelp:link> function subsequently frees entries on behalf of the caller.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Must be zero. This parameter is reserved.
 
 
-### -param Size [in]
+#### - Size [in]
 
 The size, in bytes, of each entry to be subsequently allocated from the lookaside list.
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 A caller-supplied pool tag for lookaside list entries. The 
      <i>Tag</i> is a string of four characters that is delimited by single quote marks (for example, 'derF').
@@ -124,7 +124,7 @@ A caller-supplied pool tag for lookaside list entries. The
      tracking pool usage in the debugger.
 
 
-### -param Depth [in]
+#### - Depth [in]
 
 Must be zero. This parameter is also reserved.
 
@@ -181,20 +181,20 @@ Callers of
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisdeletenpagedlookasidelist" tabindex="0"><b>
-   NdisDeleteNPagedLookasideList</b></mshelp:link>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
    NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
+   NdisFreeToNPagedLookasideList</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisdeletenpagedlookasidelist" tabindex="0"><b>
+   NdisDeleteNPagedLookasideList</b></mshelp:link>
 
  
 

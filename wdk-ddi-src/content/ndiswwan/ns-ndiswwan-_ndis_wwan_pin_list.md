@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1d3c1084-8f51-4c8a-813e-6700d60c3dab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_pin_list, ndiswwan/NDIS_WWAN_PIN_LIST, _NDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, ndiswwan/NDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST, WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, netvista.ndis_wwan_pin_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_PIN_LIST {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_PIN_LIST structure. The
      MB Service sets the header with the values that are shown in the following table when it sends the data
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of the PIN list operation. The following table shows the possible values for this.
      
@@ -193,7 +193,7 @@ The operation failed because a bad SIM card was detected.
 </table> 
 
 
-### -field PinList
+#### - PinList
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a> object that represents a list
@@ -202,9 +202,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
 
  
 

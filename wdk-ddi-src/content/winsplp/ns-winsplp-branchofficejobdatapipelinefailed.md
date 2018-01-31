@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PBranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed, print.branchofficejobdatapipelinefailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], BranchOfficeJobDataPipelineFailed structure [Print Devices], BranchOfficeJobDataPipelineFailed, winsplp/BranchOfficeJobDataPipelineFailed"
+ms.keywords: "*PBranchOfficeJobDataPipelineFailed, print.branchofficejobdatapipelinefailed, winsplp/PBranchOfficeJobDataPipelineFailed, winsplp/BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BranchOfficeJobDataPipelineFailed
 product: Windows
 targetos: Windows
-req.typenames: BranchOfficeJobDataPipelineFailed, *PBranchOfficeJobDataPipelineFailed
+req.typenames: "*PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct {
 
 
 
-### -field pDocumentName
+#### - pDocumentName
 
 Specifies the name of the print document.
 
 
-### -field pPrinterName
+#### - pPrinterName
 
 Specifies the print connection.
 
 
-### -field pExtraErrorInfo
+#### - pExtraErrorInfo
 
 Specifies the name of the client machine printing the job.
 

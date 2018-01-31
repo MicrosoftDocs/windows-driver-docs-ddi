@@ -72,7 +72,7 @@ VOID BthFreeBrb(
 
 
 
-### -param pBrb [in]
+#### - pBrb [in]
 
 Pointer to the BRB to free.
 

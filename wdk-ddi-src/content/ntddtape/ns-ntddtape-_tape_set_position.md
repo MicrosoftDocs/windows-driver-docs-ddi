@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PTAPE_SET_POSITION structure pointer [Storage Devices], ntddtape/TAPE_SET_POSITION, PTAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml, *PTAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, TAPE_SET_POSITION
+ms.keywords: TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml, _TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], PTAPE_SET_POSITION structure pointer [Storage Devices], *PTAPE_SET_POSITION, PTAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TAPE_SET_POSITION
 product: Windows
 targetos: Windows
-req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
+req.typenames: "*PTAPE_SET_POSITION, TAPE_SET_POSITION"
 ---
 
 # _TAPE_SET_POSITION structure
@@ -70,7 +70,7 @@ typedef struct _TAPE_SET_POSITION {
 
 
 
-### -field Method
+#### - Method
 
 Indicates the type of positioning to perform. This member must have one of the following values:
 
@@ -127,7 +127,7 @@ Starting from the current position, positions the tape immediately after the num
 Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
 
 
-### -field Partition
+#### - Partition
 
 Indicates the partition in which to set the tape's position. This member must have one of the following values:
 
@@ -142,12 +142,12 @@ Indicates the partition in which to set the tape's position. This member must ha
 If the media is not partitioned, this member is zero. 
 
 
-### -field Offset
+#### - Offset
 
 Specifies an offset whose type depends on the value in <b>Method</b>. If the specified method positions the tape to a block address, <b>Offset</b> specifies the byte offset into the specified partition. If the specified method is to skip blocks, filemarks, or setmarks, <b>Offset</b> specifies the number to skip. If <b>Offset</b> is zero, the tape is positioned at the beginning of the partition. 
 
 
-### -field Immediate
+#### - Immediate
 
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete. 
 
@@ -165,9 +165,9 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
-
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
 
  
 

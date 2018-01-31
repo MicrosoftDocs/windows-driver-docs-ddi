@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetServerSiloActiveConsoleId, kernel.psgetserversiloactiveconsoleid, PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture]
+ms.keywords: PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], kernel.psgetserversiloactiveconsoleid, ntddk/PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ ULONG  PsGetServerSiloActiveConsoleId(
 
 
 
-### -param Silo
+#### - Silo
 
 A pointer to the silo of the job. 
 

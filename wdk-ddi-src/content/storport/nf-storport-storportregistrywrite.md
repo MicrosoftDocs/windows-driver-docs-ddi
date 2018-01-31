@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f149e86-7855-4a10-8e0c-8b1aff261946
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportregistrywrite, StorPortRegistryWrite, StorPortRegistryWrite routine [Storage Devices], storport/StorPortRegistryWrite, storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml
+ms.keywords: storport/StorPortRegistryWrite, StorPortRegistryWrite routine [Storage Devices], StorPortRegistryWrite, storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml, storage.storportregistrywrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ STORPORT_API BOOLEAN StorPortRegistryWrite(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Pointer to a string that specifies the value name.
 
 
-### -param Global [in]
+#### - Global [in]
 
 Indicates whether the operation is to be adapter specific or to relate to all adapters.
 
 
-### -param Type [in]
+#### - Type [in]
 
 One of the following registry data types.
 <table>
@@ -230,12 +230,12 @@ REG_QWORD_LITTLE_ENDIAN
 </table> 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer that contains the registry data to be written.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Specifies the size of the buffer pointed to by <i>Buffer</i>.
 

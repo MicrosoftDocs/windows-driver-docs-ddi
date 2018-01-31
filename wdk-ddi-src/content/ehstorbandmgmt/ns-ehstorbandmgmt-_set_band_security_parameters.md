@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1703D6F-A453-4E3E-8705-344469D61412
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/PSET_BAND_SECURITY_PARAMETERS, SETBANDSEC_AUTHKEY_CACHING_ENABLED, PSET_BAND_SECURITY_PARAMETERS structure pointer [Storage Devices], PSET_BAND_SECURITY_PARAMETERS, *PSET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS structure [Storage Devices], storage.set_band_security_parameters, SET_BAND_SECURITY_PARAMETERS"
+ms.keywords: storage.set_band_security_parameters, ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS structure [Storage Devices], SETBANDSEC_AUTHKEY_CACHING_ENABLED, _SET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS structure pointer [Storage Devices], *PSET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/PSET_BAND_SECURITY_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_BAND_SECURITY_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PSET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS"
+req.typenames: SET_BAND_SECURITY_PARAMETERS, *PSET_BAND_SECURITY_PARAMETERS
 ---
 
 # _SET_BAND_SECURITY_PARAMETERS structure
@@ -73,12 +73,12 @@ typedef struct _SET_BAND_SECURITY_PARAMETERS {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(SET_BAND_SECURITY_PARAMETERS).
 
 
-### -field Flags
+#### - Flags
 
 Security parameter flags. This value is a bitwise OR combination of the following.
 <table>
@@ -104,17 +104,17 @@ The new authentication key can be cached to automate some band operations.
  
 
 
-### -field BandId
+#### - BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
 
-### -field BandStart
+#### - BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
 
-### -field CurrentAuthKeyOffset
+#### - CurrentAuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the current authentication key for the band. This authentication key is required and must be present following this structure. The offset is from the beginning of <b>SET_BAND_SECURITY_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>
@@ -145,7 +145,7 @@ The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> 
 A variable-length byte array containing the key data.
 
 
-### -field NewAuthKeyOffset
+#### - NewAuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new authentication key for the band.  The offset is from the beginning of <b>SET_BAND_SECURITY_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>
@@ -176,7 +176,7 @@ The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> 
 A variable-length byte array that contains the key data.
 
 
-### -field BandSecurityInfoOffset
+#### - BandSecurityInfoOffset
 
 The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a> structure. The offset is from the beginning of <b>SET_BAND_SECURITY_PARAMETERS</b>.
 
@@ -198,9 +198,9 @@ The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a hre
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
 
  
 

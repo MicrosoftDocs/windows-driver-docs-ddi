@@ -71,16 +71,14 @@ NTSTATUS KStrQueryReferenceString(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a device extension of the device's PDO.
 
 
-### -param *String
+#### - *String [in, out]
 
-
-
-
+Pointer to a string containing the reference string associated with the PDO.
 
 
 #### - String [in, out]

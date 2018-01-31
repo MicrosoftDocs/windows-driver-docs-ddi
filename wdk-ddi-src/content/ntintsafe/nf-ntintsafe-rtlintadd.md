@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF556961-D5BA-4A50-9E6A-DACE96D13B50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlIntAdd, kernel.rtlintadd, RtlIntAdd function [Kernel-Mode Driver Architecture], RtlIntAdd
+ms.keywords: ntintsafe/RtlIntAdd, RtlIntAdd, RtlIntAdd function [Kernel-Mode Driver Architecture], kernel.rtlintadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlIntAdd(
 
 
 
-### -param iAugend [in]
+#### - iAugend [in]
 
 The first value in the equation.
 
 
-### -param iAddend [in]
+#### - iAddend [in]
 
 The value to add to <i>iAugend</i>.
 
 
-### -param piResult [out]
+#### - piResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

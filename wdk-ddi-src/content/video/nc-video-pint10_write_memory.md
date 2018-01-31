@@ -75,27 +75,27 @@ VP_STATUS Int10WriteMemory(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> returns.
 
 
-### -param Seg [in]
+#### - Seg [in]
 
 Specifies the segment address of the buffer to be written.
 
 
-### -param Off [in]
+#### - Off [in]
 
 Specifies the offset within the segment indicated by the <i>Seg</i> parameter.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the memory location that marks the beginning of the input buffer.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Is the length, in bytes, of the input buffer specified by the <i>Buffer</i> parameter.
 

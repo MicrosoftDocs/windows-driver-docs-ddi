@@ -71,22 +71,22 @@ ULONG RtlFindClearRuns(
 
 
 
-### -param BitMapHeader [in]
+#### - BitMapHeader [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine. 
 
 
-### -param RunArray [out]
+#### - RunArray [out]
 
 Pointer to the first element in a caller-allocated array for the bit position and length of each clear run found in the given bitmap variable. 
 
 
-### -param SizeOfRunArray [in]
+#### - SizeOfRunArray [in]
 
 Specifies the maximum number of clear runs to satisfy this request.
 
 
-### -param LocateLongestRuns [in]
+#### - LocateLongestRuns [in]
 
 If <b>TRUE</b>, specifies that the routine is to search the entire bitmap for the longest clear runs it can find. Otherwise, the routine stops searching when it has found the number of clear runs specified by <i>SizeOfRunArray</i>. 
 
@@ -111,17 +111,17 @@ Callers of <b>RtlFindClearRuns</b> must be running at IRQL &lt;= APC_LEVEL if th
 
 <a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+
+<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
 
 <a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
-<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 <a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
-
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 <a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 

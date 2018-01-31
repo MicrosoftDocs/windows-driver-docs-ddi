@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportmidistream_setstate, SetState method [Audio Devices], SetState method [Audio Devices], IMiniportMidiStream interface, SetState, IMiniportMidiStream::SetState, portcls/IMiniportMidiStream::SetState, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, IMiniportMidiStream interface [Audio Devices], SetState method, IMiniportMidiStream
+ms.keywords: audio.iminiportmidistream_setstate, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, IMiniportMidiStream, IMiniportMidiStream::SetState, portcls/IMiniportMidiStream::SetState, SetState, SetState method [Audio Devices], IMiniportMidiStream interface, SetState method [Audio Devices], IMiniportMidiStream interface [Audio Devices], SetState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportMidiStream.SetState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportMidiStream::SetState method
@@ -133,11 +133,11 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
 
  
 

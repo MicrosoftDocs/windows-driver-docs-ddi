@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c10e46a5-62e4-4d78-a672-34fc218800eb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltSetStreamContext, FltSetStreamContext routine [Installable File System Drivers], FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext, ifsk.fltsetstreamcontext
+ms.keywords: FltSetStreamContext routine [Installable File System Drivers], ifsk.fltsetstreamcontext, fltkernel/FltSetStreamContext, FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS FltSetStreamContext(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 An opaque instance pointer for the minifilter driver instance whose context is to be inserted into, removed from, or replaced in the list of contexts attached to the file stream. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a file object for the file stream. 
 
 
-### -param Operation [in]
+#### - Operation [in]
 
 A flag that specifies details of the operation to be performed. This parameter must be one of the following: 
 
@@ -98,12 +98,12 @@ If a context is already set for this <i>Instance</i>, replace it with <i>NewCont
 If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the file stream. 
 
 
-### -param NewContext [in]
+#### - NewContext [in]
 
 A pointer to the new context to be set for the file stream. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out]
+#### - OldContext [out]
 
 A pointer to a caller-allocated variable that receives the address of the existing stream context pointed to by the <i>Instance</i>parameter. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
@@ -213,15 +213,15 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
  
 

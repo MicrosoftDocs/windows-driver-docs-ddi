@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 354b1854-2b3b-4fcf-81cb-fd24595cd9bb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.readpointer, WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, ReadPointer, ReadPointer function [Windows Debugging], wdbgexts/ReadPointer
+ms.keywords: debugger.readpointer, WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, wdbgexts/ReadPointer, ReadPointer function [Windows Debugging], ReadPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ __inline ULONG ReadPointer(
 
 
 
-### -param Address
+#### - Address
 
 Specifies the address of the pointer to read.
 
 
-### -param Pointer
+#### - Pointer
 
 Receives the value of the pointer.  If the target uses 32-bit pointers, the pointer is sign-extended to 64 bits.
 

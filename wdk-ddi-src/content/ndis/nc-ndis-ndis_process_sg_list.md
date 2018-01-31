@@ -75,24 +75,24 @@ VOID NetProcessSGList(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-### -param Reserved [in]
+#### - Reserved [in]
 
 Reserved for NDIS.
 
 
-### -param ScatterGatherListBuffer [in]
+#### - ScatterGatherListBuffer [in]
 
 A pointer to a 
      <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure.
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a block of driver-allocated context information that contains information about the
      scatter gather list. The driver provided this context information in the 
@@ -128,12 +128,12 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
    NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
 
  
 

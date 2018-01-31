@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 13eb4c17-2cb5-4773-b2e3-e8e624473c97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NdisTerminateOffload, NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml, netvista.ndisterminateoffload
+ms.keywords: NdisTerminateOffload function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml, ndischimney/NdisTerminateOffload, netvista.ndisterminateoffload, NdisTerminateOffload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisTerminateOffload(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
@@ -81,7 +81,7 @@ The handle that NDIS provided at the
      target.
 
 
-### -param OffloadBlockList [in, out]
+#### - OffloadBlockList [in, out]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
@@ -122,19 +122,19 @@ From the
 
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
+<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<mshelp:link keywords="netvista.protocolterminateoffloadcomplete" tabindex="0"><i>
+   ProtocolTerminateOffloadComplete</i></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
-
 <mshelp:link keywords="netvista.ndismterminateoffloadcomplete" tabindex="0"><b>
    NdisMTerminateOffloadComplete</b></mshelp:link>
-
-<mshelp:link keywords="netvista.protocolterminateoffloadcomplete" tabindex="0"><i>
-   ProtocolTerminateOffloadComplete</i></mshelp:link>
 
  
 

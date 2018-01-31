@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GdiPlayPageEMF function [Print Devices], winppi/GdiPlayPageEMF, print.gdiplaypageemf, gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, GdiPlayPageEMF
+ms.keywords: winppi/GdiPlayPageEMF, print.gdiplaypageemf, GdiPlayPageEMF function [Print Devices], gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, GdiPlayPageEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ BOOL GdiPlayPageEMF(
 
 
 
-### -param SpoolFileHandle
+#### - SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 
 
-### -param hemf
+#### - hemf
 
 Caller-supplied page handle, obtained by calling <a href="..\winppi\nf-winppi-gdigetpagehandle.md">GdiGetPageHandle</a>, identifying the page for which records are to be played.
 
 
-### -param prectDocument
+#### - prectDocument
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure specifying the rectangle into which the page is to be drawn.
 
 
-### -param prectBorder
+#### - prectBorder
 
 Caller-supplied pointer to a RECT structure specifying the page's border rectangle (if any). Can be <b>NULL</b>.
 
 
-### -param prectClip
+#### - prectClip
 
 Caller-supplied pointer to a RECT structure specifying the coordinates of the page's clip region (if any). Can be <b>NULL</b>.
 

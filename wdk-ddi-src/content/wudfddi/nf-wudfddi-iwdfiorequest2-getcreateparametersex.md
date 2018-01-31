@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bc34d86b-fa0e-419e-9342-61df12a8e484
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, wudfddi/IWDFIoRequest2::GetCreateParametersEx, GetCreateParametersEx, GetCreateParametersEx method, IWDFIoRequest2 interface, wdf.iwdfiorequest2_getcreateparametersex, IWDFIoRequest2::GetCreateParametersEx, umdf.iwdfiorequest2_getcreateparametersex, GetCreateParametersEx method, IWDFIoRequest2 interface, GetCreateParametersEx method, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml
+ms.keywords: wudfddi/IWDFIoRequest2::GetCreateParametersEx, wdf.iwdfiorequest2_getcreateparametersex, GetCreateParametersEx method, IWDFIoRequest2 interface, GetCreateParametersEx method, IWDFIoRequest2 interface, GetCreateParametersEx method, umdf.iwdfiorequest2_getcreateparametersex, IWDFIoRequest2::GetCreateParametersEx, IWDFIoRequest2, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml, GetCreateParametersEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.GetCreateParametersEx
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ void GetCreateParametersEx(
 
 
 
-### -param pOptions [out, optional]
+#### - pOptions [out, optional]
 
 A pointer to a caller-allocated variable that receives bit flags that indicate file creation options. These FILE_XXXX-named bit flags are defined in Wdm.h. 
 
@@ -84,21 +84,21 @@ The high eight bits of the variable indicate actions to perform if the file does
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pFileAttributes [out, optional]
+#### - pFileAttributes [out, optional]
 
 A pointer to a caller-allocated variable that receives bit flags that indicate file attributes. These FILE_ATTRIBUTE_XXXX-named bit flags are defined in Wdm.h. For more information about these bit flags, see the description of the <i>FileAttributes</i> parameter of <b>ZwCreateFile</b>.
 
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pShareAccess [out, optional]
+#### - pShareAccess [out, optional]
 
 A pointer to a caller-allocated variable that receives bit flags that indicate file sharing options. These FILE_SHARE_XXXX-named bit flags are defined in Wdm.h. For more information about these bit flags, see the description of the <i>ShareAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
 
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pDesiredAccess [out, optional]
+#### - pDesiredAccess [out, optional]
 
 A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure that specifies the requested access to the file. For more information about this parameter, see the <i>DesiredAccess</i> parameter of <b>ZwCreateFile</b>. 
 
@@ -125,9 +125,9 @@ For more information, see <a href="https://msdn.microsoft.com/1ba1fdcf-99bd-44e3
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8bad169a-3a89-460d-9e6e-e8c1994970a8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest interface, GetRequestorProcessId method, GetRequestorProcessId, GetRequestorProcessId method, wudfddi/IWDFIoRequest::GetRequestorProcessId, GetRequestorProcessId method, IWDFIoRequest interface, umdf.iwdfiorequest_getrequestorprocessid, wdf.iwdfiorequest_getrequestorprocessid, UMDFRequestObjectRef_9464f328-c7a7-4126-896c-69bc4ab0b5ba.xml, IWDFIoRequest, IWDFIoRequest::GetRequestorProcessId
+ms.keywords: IWDFIoRequest, GetRequestorProcessId method, IWDFIoRequest::GetRequestorProcessId, UMDFRequestObjectRef_9464f328-c7a7-4126-896c-69bc4ab0b5ba.xml, umdf.iwdfiorequest_getrequestorprocessid, wudfddi/IWDFIoRequest::GetRequestorProcessId, GetRequestorProcessId method, IWDFIoRequest interface, wdf.iwdfiorequest_getrequestorprocessid, IWDFIoRequest interface, GetRequestorProcessId method, GetRequestorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetRequestorProcessId
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

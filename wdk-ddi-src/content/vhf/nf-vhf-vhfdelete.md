@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.vhfdelete, VhfDelete, VhfDelete method [Human Input Devices], vhf/VhfDelete
+ms.keywords: hid.vhfdelete, VhfDelete method [Human Input Devices], vhf/VhfDelete, VhfDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ void VhfDelete(
 
 
 
-### -param VhfHandle [in]
+#### - VhfHandle [in]
 
 A handle to a virtual HID device that your HID source driver received in the previous call to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a>.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 TRUE to return synchronously after deleting a device. In this case, Virtual HID Framework (VHF) does not return until the device is reported as missing to PnP Manager and <a href="..\vhf\nc-vhf-evt_vhf_cleanup.md">EvtVhfCleanup</a> callback function returns. 
 

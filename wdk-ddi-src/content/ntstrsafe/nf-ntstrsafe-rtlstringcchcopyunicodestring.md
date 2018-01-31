@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: acc4051f-dcd4-443d-ad6b-02e6b0c1cad4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchCopyUnicodeString function [Kernel-Mode Driver Architecture], RtlStringCchCopyUnicodeString, ntstrsafe/RtlStringCchCopyUnicodeString, kernel.rtlstringcchcopyunicodestring, safestrings_99b6e156-5c40-41e1-a02b-400a20cbd74d.xml
+ms.keywords: safestrings_99b6e156-5c40-41e1-a02b-400a20cbd74d.xml, kernel.rtlstringcchcopyunicodestring, RtlStringCchCopyUnicodeString function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCopyUnicodeString, RtlStringCchCopyUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlStringCchCopyUnicodeString(
 
 
 
-### -param pszDest [out]
+#### - pszDest [out]
 
 A pointer to a buffer that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer at <i>pszDest</i> and terminated with a null character. 
 
 
-### -param cchDest [in]
+#### - cchDest [in]
 
 The size, in characters, of the destination buffer. The buffer must be large enough for the string and the terminating null character. The maximum number of characters is NTSTRSAFE_MAX_CCH.
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 

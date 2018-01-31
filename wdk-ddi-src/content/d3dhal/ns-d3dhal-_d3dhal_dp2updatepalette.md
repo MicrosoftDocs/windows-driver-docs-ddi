@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ab2e4da-1107-4a5b-99e4-9c9ea864f95e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2UPDATEPALETTE, display.d3dhal_dp2updatepalette, D3DHAL_DP2UPDATEPALETTE structure [Display Devices], d3dhal/LPD3DHAL_DP2UPDATEPALETTE, *LPD3DHAL_DP2UPDATEPALETTE, d3dstrct_93a9e991-e818-4dd0-a101-779baa0a873d.xml, D3DHAL_DP2UPDATEPALETTE, LPD3DHAL_DP2UPDATEPALETTE structure pointer [Display Devices], _D3DHAL_DP2UPDATEPALETTE, d3dhal/D3DHAL_DP2UPDATEPALETTE
+ms.keywords: d3dhal/LPD3DHAL_DP2UPDATEPALETTE, d3dstrct_93a9e991-e818-4dd0-a101-779baa0a873d.xml, _D3DHAL_DP2UPDATEPALETTE, D3DHAL_DP2UPDATEPALETTE structure [Display Devices], LPD3DHAL_DP2UPDATEPALETTE structure pointer [Display Devices], *LPD3DHAL_DP2UPDATEPALETTE, d3dhal/D3DHAL_DP2UPDATEPALETTE, D3DHAL_DP2UPDATEPALETTE, display.d3dhal_dp2updatepalette, LPD3DHAL_DP2UPDATEPALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DHAL_DP2UPDATEPALETTE {
 
 
 
-### -field dwPaletteHandle
+#### - dwPaletteHandle
 
 Specifies a handle to the palette to be altered.
 
 
-### -field wStartIndex
+#### - wStartIndex
 
 Specifies the index in the palette beyond which data is updated. 
 
 
-### -field wNumEntries
+#### - wNumEntries
 
 Specifies the number of PALETTEENTRYs being updated.
 
@@ -99,9 +99,9 @@ After the D3DHAL_DP2UPDATEPALETTE structure in the command stream, the actual pa
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
 D3DDP2OP_UPDATEPALETTE
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
  
 

@@ -76,31 +76,32 @@ NTSTATUS UsbcStartDeviceCallback(
 
 
 
-### -param DeviceDescriptor [in]
+#### - DeviceDescriptor [in]
 
 The device descriptor of the device.
 
 
-### -param ConfigurationDescriptor [in]
+#### - ConfigurationDescriptor [in]
 
 The configuration of the device.
 
 
-### -param *FunctionDescriptorBuffer
+#### - *FunctionDescriptorBuffer [out]
+
+Pointer to a buffer that contains an array of function descriptors (<a href="..\usbbusif\ns-usbbusif-_usbc_function_descriptor.md">USBC_FUNCTION_DESCRIPTOR</a>).
 
 
-
-### -param FunctionDescriptorBufferLength [out]
+#### - FunctionDescriptorBufferLength [out]
 
 The length in bytes of the buffer that <i>FunctionDescriptorBuffer</i> points to.
 
 
-### -param FdoDeviceObject [in]
+#### - FdoDeviceObject [in]
 
 The function device object for the device.
 
 
-### -param PdoDeviceObject [in]
+#### - PdoDeviceObject [in]
 
 The physical device object for the device.
 

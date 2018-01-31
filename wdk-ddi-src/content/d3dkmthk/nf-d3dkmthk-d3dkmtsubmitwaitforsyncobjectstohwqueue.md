@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E068ECD0-059A-46E1-9D9E-64EA81B73BD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSubmitWaitForSyncObjectsToHwQueue, d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices], display.d3dkmtsubmitwaitforsyncobjectstohwqueue
+ms.keywords: display.d3dkmtsubmitwaitforsyncobjectstohwqueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices], D3DKMTSubmitWaitForSyncObjectsToHwQueue, d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

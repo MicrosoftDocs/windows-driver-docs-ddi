@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fe8dc704-3baf-4955-85fe-bba19181dbbf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_2335c373-d2b6-49bf-b329-92ab442ccade.xml, kernel.kedelayexecutionthread, KeDelayExecutionThread routine [Kernel-Mode Driver Architecture], KeDelayExecutionThread, wdm/KeDelayExecutionThread
+ms.keywords: KeDelayExecutionThread, KeDelayExecutionThread routine [Kernel-Mode Driver Architecture], k105_2335c373-d2b6-49bf-b329-92ab442ccade.xml, wdm/KeDelayExecutionThread, kernel.kedelayexecutionthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KeDelayExecutionThread(
 
 
 
-### -param WaitMode [in]
+#### - WaitMode [in]
 
 Specifies the processor mode in which the caller is waiting, which can be either <b>KernelMode</b> or <b>UserMode</b>. Lower-level drivers should specify <b>KernelMode</b>.
 
 
-### -param Alertable [in]
+#### - Alertable [in]
 
 Specifies <b>TRUE</b> if the wait is alertable. Lower-level drivers should specify <b>FALSE</b>.
 
 
-### -param Interval [in]
+#### - Interval [in]
 
 Specifies the absolute or relative time, in units of 100 nanoseconds, for which the wait is to occur. A negative value indicates relative time. Absolute expiration times track any changes in system time; relative expiration times are not affected by system time changes.
 

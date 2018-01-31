@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 687eb573-ea7c-4e8a-80df-65339521ec18
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS structure [Display Devices], display.d3d11_1ddi_authenticated_protection_flags, D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
+ms.keywords: D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS structure [Display Devices], display.d3d11_1ddi_authenticated_protection_flags, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS, D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,24 +74,24 @@ typedef struct D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS {
 
 
 
-### -field ProtectionEnabled
+#### - ProtectionEnabled
 
 If 1, video content protection is enabled.
 
 
-### -field OverlayOrFullscreenRequired
+#### - OverlayOrFullscreenRequired
 
 If 1, the application requires video to be displayed using either a hardware overlay or full-screen exclusive mode.
 
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Set all bits to zero.
 
 
-### -field Value
+#### - Value
 
 Use this member to access all of the bits in the union.
 

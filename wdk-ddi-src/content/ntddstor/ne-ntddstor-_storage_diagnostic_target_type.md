@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8BC338FB-7C76-49D3-96E5-0F20C4A250CE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], StorageDiagnosticTargetTypeMiniport, ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypePort, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeMax, ntddstor/StorageDiagnosticTargetTypeHbaFirmware, PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeUndefined, STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], StorageDiagnosticTargetTypeHbaFirmware, STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypePort, StorageDiagnosticTargetTypeMax, _STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeUndefined, storage.storage_diagnostic_target_type, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE
+ms.keywords: PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], ntddstor/StorageDiagnosticTargetTypeUndefined, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMiniport, ntddstor/StorageDiagnosticTargetTypePort, STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], StorageDiagnosticTargetTypeUndefined, StorageDiagnosticTargetTypePort, ntddstor/StorageDiagnosticTargetTypeHbaFirmware, ntddstor/StorageDiagnosticTargetTypeMax, STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeHbaFirmware, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypeMax, storage.storage_diagnostic_target_type, PSTORAGE_DIAGNOSTIC_TARGET_TYPE, _STORAGE_DIAGNOSTIC_TARGET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DIAGNOSTIC_TARGET_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: "*PSTORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE"
 ---
 
 # _STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration
@@ -71,27 +71,27 @@ typedef enum _STORAGE_DIAGNOSTIC_TARGET_TYPE {
 
 
 
-### -field StorageDiagnosticTargetTypeUndefined
+#### - StorageDiagnosticTargetTypeUndefined
 
 Specifies the target type is undefined.
 
 
-### -field StorageDiagnosticTargetTypePort
+#### - StorageDiagnosticTargetTypePort
 
 Specifies the target type is a port driver.
 
 
-### -field StorageDiagnosticTargetTypeMiniport
+#### - StorageDiagnosticTargetTypeMiniport
 
 Specifies the target type is a Miniport driver.
 
 
-### -field StorageDiagnosticTargetTypeHbaFirmware
+#### - StorageDiagnosticTargetTypeHbaFirmware
 
 Specifies the target type is a Hba Firmware driver.
 
 
-### -field StorageDiagnosticTargetTypeMax
+#### - StorageDiagnosticTargetTypeMax
 
 Specifies the target type is a Max driver.
 

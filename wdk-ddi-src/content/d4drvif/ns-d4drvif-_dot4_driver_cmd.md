@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7F099F7E-6E1F-499A-AF09-80B20429B892
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT4_DRIVER_CMD structure [Print Devices], print.dot4_driver_cmd, PDOT4_DRIVER_CMD, _DOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], d4drvif/DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD
+ms.keywords: PDOT4_DRIVER_CMD structure pointer [Print Devices], PDOT4_DRIVER_CMD, _DOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, print.dot4_driver_cmd, d4drvif/DOT4_DRIVER_CMD, DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DOT4_DRIVER_CMD {
 
 
 
-### -field hChannelHandle
+#### - hChannelHandle
 
 Specifies the handle to the channel.
 
 
-### -field ulSize
+#### - ulSize
 
 Specifies the length of the request.
 
 
-### -field ulOffset
+#### - ulOffset
 
 Specifies the offset into the  buffer.
 
 
-### -field ulTimeout
+#### - ulTimeout
 
 Specifies the timeout of the operation. Can be INFINITE.
 

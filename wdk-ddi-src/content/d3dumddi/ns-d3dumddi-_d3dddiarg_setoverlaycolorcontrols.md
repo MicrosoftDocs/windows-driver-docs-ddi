@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8f04d2e-4c8c-4d1e-92e8-0f8722dbee5a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETOVERLAYCOLORCONTROLS, display.d3dddiarg_setoverlaycolorcontrols, _D3DDDIARG_SETOVERLAYCOLORCONTROLS, UMDisplayDriver_param_Structs_f6504b3e-8129-4936-add8-5bbf6ba8ee54.xml, D3DDDIARG_SETOVERLAYCOLORCONTROLS structure [Display Devices], d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS
+ms.keywords: UMDisplayDriver_param_Structs_f6504b3e-8129-4936-add8-5bbf6ba8ee54.xml, D3DDDIARG_SETOVERLAYCOLORCONTROLS, D3DDDIARG_SETOVERLAYCOLORCONTROLS structure [Display Devices], _D3DDDIARG_SETOVERLAYCOLORCONTROLS, d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS, display.d3dddiarg_setoverlaycolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,26 +69,26 @@ typedef struct _D3DDDIARG_SETOVERLAYCOLORCONTROLS {
 
 
 
-### -field hOverlay
+#### - hOverlay
 
 [in] A handle to the overlay that <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md">SetOverlayColorControls</a> changes color-control settings for.
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to the resource that is associated with the overlay that <b>hOverlay</b> specifies.
 
 
-### -field ColorControls
+#### - ColorControls
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that contains color-control settings.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md">SetOverlayColorControls</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
 
  
 

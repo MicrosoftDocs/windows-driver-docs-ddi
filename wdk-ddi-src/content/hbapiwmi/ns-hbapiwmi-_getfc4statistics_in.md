@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e3c823-97e3-47e9-8545-94cd186e5b59
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetFC4Statistics_IN, PGetFC4Statistics_IN structure pointer [Storage Devices], hbapiwmi/GetFC4Statistics_IN, *PGetFC4Statistics_IN, _GetFC4Statistics_IN, storage.getfc4statistics_in, GetFC4Statistics_IN structure [Storage Devices], hbapiwmi/PGetFC4Statistics_IN, structs-Fibre_17ea3e0e-1cf9-4cf8-9128-1152e610847c.xml, GetFC4Statistics_IN
+ms.keywords: hbapiwmi/GetFC4Statistics_IN, PGetFC4Statistics_IN, PGetFC4Statistics_IN structure pointer [Storage Devices], GetFC4Statistics_IN structure [Storage Devices], structs-Fibre_17ea3e0e-1cf9-4cf8-9128-1152e610847c.xml, _GetFC4Statistics_IN, *PGetFC4Statistics_IN, hbapiwmi/PGetFC4Statistics_IN, storage.getfc4statistics_in, GetFC4Statistics_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetFC4Statistics_IN
 product: Windows
 targetos: Windows
-req.typenames: GetFC4Statistics_IN, *PGetFC4Statistics_IN
+req.typenames: "*PGetFC4Statistics_IN, GetFC4Statistics_IN"
 ---
 
 # _GetFC4Statistics_IN structure
@@ -68,12 +68,12 @@ typedef struct _GetFC4Statistics_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains the worldwide name for the local port of type Nx_Port whose traffic statistics are to be reported. 
 
 
-### -field FC4Type
+#### - FC4Type
 
 Contains a value that indicates the type FC-4 protocol. For an explanation of FC4 types, see the T11 committee's <i>Fibre Channel Generic Services - 4 </i>specification. 
 

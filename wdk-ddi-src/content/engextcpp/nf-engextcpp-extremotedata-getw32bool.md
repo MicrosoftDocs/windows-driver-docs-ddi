@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a17812f5-4e20-4793-9352-3cabed25a6da
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetW32Bool method [Windows Debugging], ExtRemoteData class, GetW32Bool method [Windows Debugging], ExtRemoteData, GetW32Bool, EngExtCpp_Ref_367ee79b-5fdf-41ca-b43c-f9f29b3a872c.xml, ExtRemoteData class [Windows Debugging], GetW32Bool method, debugger.extremotedata_getw32bool, ExtRemoteData::GetW32Bool
+ms.keywords: ExtRemoteData::GetW32Bool, debugger.extremotedata_getw32bool, GetW32Bool method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetW32Bool method, GetW32Bool method [Windows Debugging], ExtRemoteData, EngExtCpp_Ref_367ee79b-5fdf-41ca-b43c-f9f29b3a872c.xml, GetW32Bool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetW32Bool
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteData::GetW32Bool method
@@ -82,11 +82,11 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544013">ExtRemoteData::GetBoolean</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544050">ExtRemoteData::GetStdBool</a>
 

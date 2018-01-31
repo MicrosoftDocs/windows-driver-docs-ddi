@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E1F0BB4A-17FB-4C35-9373-CD648553A738
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], SerCx2SystemDmaTransmitPurgeFifoComplete, serports.sercx2systemdmatransmitpurgefifocomplete
+ms.keywords: serports.sercx2systemdmatransmitpurgefifocomplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], SerCx2SystemDmaTransmitPurgeFifoComplete, 2/SerCx2SystemDmaTransmitPurgeFifoComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID SerCx2SystemDmaTransmitPurgeFifoComplete(
 
 
 
-### -param SystemDmaTransmit [in]
+#### - SystemDmaTransmit [in]
 
 A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
-### -param BytesPurged [in]
+#### - BytesPurged [in]
 
 The number of bytes of unsent data that the serial controller driver purged from the transmit FIFO.
 
@@ -103,15 +103,15 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
-
 <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_purge_fifo.md">EvtSerCx2SystemDmaTransmitPurgeFifo</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
 
  
 

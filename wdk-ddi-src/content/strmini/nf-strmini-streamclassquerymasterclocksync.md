@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db58103d-8862-4be1-bca2-9d59d392591c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclassquerymasterclocksync, StreamClassQueryMasterClockSync, StreamClassQueryMasterClockSync routine [Streaming Media Devices], strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml, strmini/StreamClassQueryMasterClockSync
+ms.keywords: stream.streamclassquerymasterclocksync, strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml, strmini/StreamClassQueryMasterClockSync, StreamClassQueryMasterClockSync routine [Streaming Media Devices], StreamClassQueryMasterClockSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID StreamClassQueryMasterClockSync(
 
 
 
-### -param MasterClockHandle [in]
+#### - MasterClockHandle [in]
 
 Specifies the handle for the master clock that is being queried. The class driver passes this in the SRB_INDICATE_MASTER_CLOCK request to the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a> routine.
 
 
-### -param TimeContext [in, out]
+#### - TimeContext [in, out]
 
 Specifies the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure that the class driver passes to the master clock's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a> routine. Before calling this routine, the minidriver must fill in the <b>HwDeviceExtension</b>, <b>HwStreamObject</b>, and <b>Function</b> members of <i>TimeContext</i>. <b>StreamClassQueryMasterClockSync</b> completes the <b>Time</b> and <b>SystemTime</b> members.
 
@@ -100,11 +100,11 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
-
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
 
 <a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>
 

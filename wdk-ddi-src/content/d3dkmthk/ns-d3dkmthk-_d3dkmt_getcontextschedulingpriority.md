@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef60ba1c-6fff-4553-ba1c-97abbe48fed9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_getcontextschedulingpriority, _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, OpenGL_Structs_076cf4c2-d805-473f-a035-1e0ec357ca1e.xml, d3dkmthk/D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
+ms.keywords: D3DKMT_GETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_getcontextschedulingpriority, _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, OpenGL_Structs_076cf4c2-d805-473f-a035-1e0ec357ca1e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY {
 
 
 
-### -field hContext
+#### - hContext
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context to retrieve scheduling priority for.
 
 
-### -field Priority
+#### - Priority
 
 [out] The priority level that is retrieved for the device context.
 

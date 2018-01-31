@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5004fb3c-f2e3-4663-9b95-7fb7bb38364d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_713fc415-f52e-4e0f-8806-02f44fb9b3f4.xml, FsRtlFastUnlockAll routine [Installable File System Drivers], ifsk.fsrtlfastunlockall, ntifs/FsRtlFastUnlockAll, FsRtlFastUnlockAll
+ms.keywords: FsRtlFastUnlockAll routine [Installable File System Drivers], ntifs/FsRtlFastUnlockAll, ifsk.fsrtlfastunlockall, fsrtlref_713fc415-f52e-4e0f-8806-02f44fb9b3f4.xml, FsRtlFastUnlockAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FsRtlFastUnlockAll(
 
 
 
-### -param FileLock [in]
+#### - FileLock [in]
 
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to the file object for the file.
 
 
-### -param ProcessId [in]
+#### - ProcessId [in]
 
 Pointer to the process ID for the process.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Optional context pointer to be used when completing IRPs. 
 
@@ -106,9 +106,9 @@ After releasing the byte-range locks, <b>FsRtlFastUnlockAll</b> completes any cu
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
  
 

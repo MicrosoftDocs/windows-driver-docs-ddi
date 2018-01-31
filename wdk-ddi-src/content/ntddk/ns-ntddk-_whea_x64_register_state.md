@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 690c900f-fba8-4712-9a05-bfbe633dd9cf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications], _WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE, whea.whea_x64_register_state, ntddk/WHEA_X64_REGISTER_STATE
+ms.keywords: ntddk/WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications], WHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], whea.whea_x64_register_state, PWHEA_X64_REGISTER_STATE, _WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE, ntddk/PWHEA_X64_REGISTER_STATE, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_X64_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE
+req.typenames: "*PWHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE"
 ---
 
 # _WHEA_X64_REGISTER_STATE structure
@@ -101,162 +101,162 @@ typedef struct _WHEA_X64_REGISTER_STATE {
 
 
 
-### -field Rax
+#### - Rax
 
 The accumulator register.
 
 
-### -field Rbx
+#### - Rbx
 
 The base register.
 
 
-### -field Rcx
+#### - Rcx
 
 The count register.
 
 
-### -field Rdx
+#### - Rdx
 
 The data register.
 
 
-### -field Rsi
+#### - Rsi
 
 The source index register.
 
 
-### -field Rdi
+#### - Rdi
 
 The destination index register.
 
 
-### -field Rbp
+#### - Rbp
 
 The base pointer register.
 
 
-### -field Rsp
+#### - Rsp
 
 The stack pointer register.
 
 
-### -field R8
+#### - R8
 
 The general purpose register R8.
 
 
-### -field R9
+#### - R9
 
 The general purpose register R9.
 
 
-### -field R10
+#### - R10
 
 The general purpose register R10.
 
 
-### -field R11
+#### - R11
 
 The general purpose register R11.
 
 
-### -field R12
+#### - R12
 
 The general purpose register R12.
 
 
-### -field R13
+#### - R13
 
 The general purpose register R13.
 
 
-### -field R14
+#### - R14
 
 The general purpose register R14.
 
 
-### -field R15
+#### - R15
 
 The general purpose register R15.
 
 
-### -field Cs
+#### - Cs
 
 The code segment register.
 
 
-### -field Ds
+#### - Ds
 
 The data segment register.
 
 
-### -field Ss
+#### - Ss
 
 The stack segment register.
 
 
-### -field Es
+#### - Es
 
 The extra segment register.
 
 
-### -field Fs
+#### - Fs
 
 The general purpose segment register FS.
 
 
-### -field Gs
+#### - Gs
 
 The general purpose segment register GS.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field Rflags
+#### - Rflags
 
 The flags register.
 
 
-### -field Eip
+#### - Eip
 
 The instruction pointer register.
 
 
-### -field Cr0
+#### - Cr0
 
 The control register 0.
 
 
-### -field Cr1
+#### - Cr1
 
 The control register 1.
 
 
-### -field Cr2
+#### - Cr2
 
 The control register 2.
 
 
-### -field Cr3
+#### - Cr3
 
 The control register 3.
 
 
-### -field Cr4
+#### - Cr4
 
 The control register 4.
 
 
-### -field Cr8
+#### - Cr8
 
 The control register 8.
 
 
-### -field Gdtr
+#### - Gdtr
 
 A WHEA128A structure that contains the state of the global descriptor table register. The WHEA128A structure describes a 128-bit value and is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -284,17 +284,17 @@ The low order 64 bits of the 128-bit value.
 The high order 64 bits of the 128-bit value.
 
 
-### -field Idtr
+#### - Idtr
 
 A WHEA128A structure that contains the state of the interrupt descriptor table register. For a description of the WHEA128A structure, see the description for the <b>Gdtr</b> member.
 
 
-### -field Ldtr
+#### - Ldtr
 
 The local descriptor table register.
 
 
-### -field Tr
+#### - Tr
 
 The task register.
 

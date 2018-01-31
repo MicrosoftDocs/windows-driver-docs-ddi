@@ -74,21 +74,21 @@ typedef EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES PFN_IDD_CX_MONITOR_QUERY_TARGET_MO
 
 
 
-### -param MonitorObject [in]
+#### - MonitorObject [in]
 
 
                     
                 A handle by the OS to identify the monitor to generate a list of target modes for.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 
                     
                 Input arguments used by <b>EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES</b>.
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 
                     

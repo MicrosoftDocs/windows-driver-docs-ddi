@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 27816655-1FE9-44A0-81BB-59808FE6F064
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxusbdeviceplugoutanddelete, UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], udecxusbdevice/UdecxUsbDevicePlugOutAndDelete
+ms.keywords: UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDevicePlugOutAndDelete
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ NTSTATUS UdecxUsbDevicePlugOutAndDelete(
 
 
 
-### -param UdecxUsbDevice [in]
+#### - UdecxUsbDevice [in]
 
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 

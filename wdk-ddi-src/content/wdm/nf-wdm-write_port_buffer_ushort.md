@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e715c0b5-8f72-4642-9a48-2066df0a2650
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml, kernel.write_port_buffer_ushort, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], wdm/WRITE_PORT_BUFFER_USHORT, WRITE_PORT_BUFFER_USHORT
+ms.keywords: WRITE_PORT_BUFFER_USHORT, kernel.write_port_buffer_ushort, k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml, wdm/WRITE_PORT_BUFFER_USHORT, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ The <b>WRITE_PORT_BUFFER_USHORT</b> routine writes a number of USHORT values fro
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer from which an array of USHORT values is to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to be written to the port. 
 

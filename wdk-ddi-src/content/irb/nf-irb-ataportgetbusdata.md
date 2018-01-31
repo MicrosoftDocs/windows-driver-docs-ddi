@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bfff10ab-7e15-4db3-b808-947d61844bc0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortGetBusData, storage.ataportgetbusdata, AtaPortGetBusData routine [Storage Devices], irb/AtaPortGetBusData, atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml
+ms.keywords: irb/AtaPortGetBusData, AtaPortGetBusData, atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, storage.ataportgetbusdata, AtaPortGetBusData routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG AtaPortGetBusData(
 
 
 
-### -param ControllerExtension [in]
+#### - ControllerExtension [in]
 
 A pointer to the HBA controller extension.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the buffer where the retrieved data is returned. 
 
 
-### -param ConfigDataOffset [in]
+#### - ConfigDataOffset [in]
 
 Specifies an offset into the device's PCI bus configuration space where the return value is found.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Specifies the length, in bytes, of the buffer.
 

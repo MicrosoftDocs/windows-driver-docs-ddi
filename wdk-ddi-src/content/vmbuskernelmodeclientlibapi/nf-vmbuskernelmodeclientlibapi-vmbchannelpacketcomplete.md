@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1DC215DF-1F53-4910-84D5-17E13BE6202A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelPacketComplete, VmbChannelPacketComplete function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelPacketComplete, netvista.vmbchannelpacketcomplete
+ms.keywords: VmbChannelPacketComplete function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelPacketComplete, netvista.vmbchannelpacketcomplete, VmbChannelPacketComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelPacketComplete
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -75,19 +75,19 @@ VOID VmbChannelPacketComplete(
 
 
 
-### -param PacketCompletionContext [in]
+#### - PacketCompletionContext [in]
 
 A  handle that identifies the incoming packet and is used to refer to the packet
 once processing is finished.  
 
 
-### -param PacketCompletionBuffer [in]
+#### - PacketCompletionBuffer [in]
 
 A buffer of completion data to be sent back to the originating endpoint.  Although this usually contains just a status value, the contents are up to the client driver.
 
 
 
-### -param BufSize [in]
+#### - BufSize [in]
 
 The size, in bytes, of the completion buffer.
 

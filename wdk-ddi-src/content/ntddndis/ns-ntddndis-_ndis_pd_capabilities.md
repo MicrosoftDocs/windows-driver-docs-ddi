@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, NDIS_PD_CAPABILITIES, ntddndis/NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], netvista.ndis_pd_capabilities, NDIS_PD_CAPABILITIES, _NDIS_PD_CAPABILITIES, ntddndis/NDIS_PD_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,7 +85,7 @@ typedef struct _NDIS_PD_CAPABILITIES {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CAPABILITIES</b> structure. Set the members of this structure as follows:
 <ul>
@@ -94,27 +94,27 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_CAPABILITIES_REVISION_1</b></li>
 </ul>
 
-### -field Flags
+#### - Flags
 
 This member is reserved and must be set to 0.
 
 
-### -field MaximumTxPartialBufferCount
+#### - MaximumTxPartialBufferCount
 
 The maximum partial transmit <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> chain lengths supported by the provider.
 
 
-### -field MaximumRxPartialBufferCount
+#### - MaximumRxPartialBufferCount
 
 The maximum partial receive <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> chain lengths supported by the provider.
 
 
-### -field RxFilterContextWidth
+#### - RxFilterContextWidth
 
 The filter context width that the provider supports. A provider can support up to 64-bits in width.
 
 
-### -field CapabilityFlags
+#### - CapabilityFlags
 
 Flags that contain additional capabilities that the provider supports.
 <table>
@@ -129,64 +129,64 @@ Flags that contain additional capabilities that the provider supports.
 </table> 
 
 
-### -field MaxNumberOfRxQueues
+#### - MaxNumberOfRxQueues
 
 The maximum number of receive queues the provider supports. This is only relevant to queues created by the  <a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a> routine, therefore this number is not accurate for the client because additional pre-existing RSS queues (that the client can request PD-mode access to using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>) are not accounted for in the <i>NdisPDAllocateQueue</i> routine.
 
 It is possible for providers to set this value to 0, if it only supports clients to put pre-existing RSS queues into PD-mode using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a> routine.
 
 
-### -field MaxNumberOfTxQueues
+#### - MaxNumberOfTxQueues
 
 The maximum number of transmit queues the provider can create using the <a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a> routine. The provider must not set this value to 0.
 
 
-### -field MaxNumberOfRxQueuesForDefaultVport
+#### - MaxNumberOfRxQueuesForDefaultVport
 
 The maximum number of receive queues that the provider supports for the default virtual port.
 
 
-### -field MaxNumberOfTxQueuesForDefaultVport
+#### - MaxNumberOfTxQueuesForDefaultVport
 
 The maximum number of transmit queues that the provider supports for the default virtual port.
 
 
-### -field MaxNumberOfRxQueuesPerNonDefaultVport
+#### - MaxNumberOfRxQueuesPerNonDefaultVport
 
 The maximum number of receive queues that the provider supports for non-default virtual ports.
 
 
-### -field MaxNumberOfTxQueuesPerNonDefaultVport
+#### - MaxNumberOfTxQueuesPerNonDefaultVport
 
 The maximum number of transmit queues that the provider supports for non-default virtual ports.
 
 
-### -field ExactMatchProfileArrayOffset
+#### - ExactMatchProfileArrayOffset
 
 The array offset for an array of NDIS_GFP_EXACT_MATCH_PROFILE structures.
 
 
-### -field ExactMatchProfileArrayNumElements
+#### - ExactMatchProfileArrayNumElements
 
 The number of elements for an array of NDIS_GFP_EXACT_MATCH_PROFILE structures.
 
 
-### -field ExactMatchProfileArrayElementSize
+#### - ExactMatchProfileArrayElementSize
 
 The number of elements for an array of NDIS_GFP_EXACT_MATCH_PROFILE structures.
 
 
-### -field WildcardMatchProfileArrayOffset
+#### - WildcardMatchProfileArrayOffset
 
 The array offset for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structures.
 
 
-### -field WildcardMatchProfileArrayNumElements
+#### - WildcardMatchProfileArrayNumElements
 
 The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structures.
 
 
-### -field WildcardMatchProfileArrayElementSize
+#### - WildcardMatchProfileArrayElementSize
 
 The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structures.
 

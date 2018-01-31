@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfStringGetUnicodeString, PFN_WDFSTRINGGETUNICODESTRING, wdf.wdfstringgetunicodestring, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, kmdf.wdfstringgetunicodestring, WdfStringGetUnicodeString method, wdfstring/WdfStringGetUnicodeString
+ms.keywords: wdfstring/WdfStringGetUnicodeString, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, kmdf.wdfstringgetunicodestring, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, PFN_WDFSTRINGGETUNICODESTRING, wdf.wdfstringgetunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfStringGetUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ VOID WdfStringGetUnicodeString(
 
 
 
-### -param String [in]
+#### - String [in]
 
 A handle to a framework string object.
 
 
-### -param UnicodeString [out]
+#### - UnicodeString [out]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: D4239E72-C57A-45BC-881C-08FF6263874E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN, tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_DAYLIGHT, ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_CLOUDY, KSCAMERA_EXTENDEDPROP_WBPRESET_FLASH, KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, stream.kscamera_extendedprop_videoprocsetting, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_WBPRESET_FLUORESCENT
+ms.keywords: KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_FLASH, KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_DAYLIGHT, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure pointer [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_CLOUDY, KSCAMERA_EXTENDEDPROP_WBPRESET_FLUORESCENT, stream.kscamera_extendedprop_videoprocsetting, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+req.typenames: "*PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING"
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure
@@ -72,7 +72,7 @@ typedef struct _KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING {
 
 
 
-### -field Mode
+#### - Mode
 
 The video processing mode type. Currently, this member is used to control white balance. The possible values for <b>Mode</b> are the following.
 <table>
@@ -105,17 +105,17 @@ The white balance setting is a preset value specified in <b>VideoProc</b>.
 This member is not used for <a href="https://msdn.microsoft.com/library/windows/hardware/dn567573">KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>. In these cases it must be set to 0.
 
 
-### -field Min
+#### - Min
 
 The minum range value for the setting in <b>VideoProc</b>.
 
 
-### -field Max
+#### - Max
 
 The maximum range value for the setting in <b>VideoProc</b>.
 
 
-### -field Step
+#### - Step
 
 The maximum range value for the setting in <b>VideoProc</b>.
 
@@ -126,7 +126,7 @@ The increment in value, when applicable, for the setting in <b>VideoProc</b> whe
 The increment in value, when applicable, for the setting in <b>VideoProc</b> when setting exposure is set manually with KSCAMERA_EXTENDEDPROP_VIDEOPROCFLAG_MANUAL.
 
 
-### -field VideoProc
+#### - VideoProc
 
 Using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a> property, when <b>Mode</b> is set to KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, the <b>VideoProc.Value.ul</b> value is one of the following.
 <table>
@@ -203,16 +203,16 @@ Using the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn567573
 Using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a> property, this member contains the focal length value for manual focus mode,  KSCAMERA_EXTENDEDPROP_VIDEOPROCFLAG_MANUAL.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567573">KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE</a>
 

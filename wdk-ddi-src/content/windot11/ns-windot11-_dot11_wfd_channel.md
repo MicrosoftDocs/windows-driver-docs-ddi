@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FE05F3D9-B1F0-4DC3-9265-22A76209A3E1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_CHANNEL structure [Network Drivers Starting with Windows Vista], *PDOT11_WFD_CHANNEL, PDOT11_WFD_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_CHANNEL, windot11/DOT11_WFD_CHANNEL, PDOT11_WFD_CHANNEL, netvista.dot11_wfd_channel, DOT11_WFD_CHANNEL, _DOT11_WFD_CHANNEL
+ms.keywords: DOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL structure [Network Drivers Starting with Windows Vista], _DOT11_WFD_CHANNEL, PDOT11_WFD_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_CHANNEL, *PDOT11_WFD_CHANNEL, netvista.dot11_wfd_channel, windot11/DOT11_WFD_CHANNEL, windot11/PDOT11_WFD_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _DOT11_WFD_CHANNEL {
 
 
 
-### -field CountryRegionString
+#### - CountryRegionString
 
 The country or region code where <b>OperatingClass</b> and <b>ChannelNumber</b> are valid.
 
 
-### -field OperatingClass
+#### - OperatingClass
 
 The frequency band for <b>ChannelNumber</b>.
 
 
-### -field ChannelNumber
+#### - ChannelNumber
 
 The channel number for the P2P group.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba82c6f1-f310-4258-8867-8309845320cc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ScsiInquiryV2 routine [Storage Devices], hbaapi/HBA_ScsiInquiryV2, HBA_ScsiInquiryV2, storage.hba_scsiinquiryv2, fibreHBA_rtns_eb1e2682-5317-4ea3-a3e2-2d1db00c5f9b.xml
+ms.keywords: hbaapi/HBA_ScsiInquiryV2, HBA_ScsiInquiryV2, HBA_ScsiInquiryV2 routine [Storage Devices], storage.hba_scsiinquiryv2, fibreHBA_rtns_eb1e2682-5317-4ea3-a3e2-2d1db00c5f9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,12 +77,12 @@ HBA_STATUS HBA_API HBA_ScsiInquiryV2(
 
 
 
-### -param HbaHandle [in]
+#### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI inquiry command is sent.
 
 
-### -param HbaPortWWN [in]
+#### - HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the SCSI inquiry command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
@@ -97,7 +97,7 @@ TBD
 TBD
 
 
-### -param CDB_Byte1 [in]
+#### - CDB_Byte1 [in]
 
 Contains the value to insert in the first byte of the command descriptor block (CDB) of the SCSI inquiry command. This member must have one of the following values:
 <table>
@@ -138,7 +138,7 @@ Indicates that the SCSI inquiry command should request command support data (Cmd
 </table> 
 
 
-### -param CDB_Byte2 [in]
+#### - CDB_Byte2 [in]
 
 Contains the value to insert in the third byte of the command descriptor block (CDB) of the SCSI inquiry command. This member must have one of the following values:
 <table>
@@ -169,27 +169,27 @@ Indicates that <i>CDB_Byte2 </i>contains the operation code of the command suppo
 </table> 
 
 
-### -param pRespBuffer [out]
+#### - pRespBuffer [out]
 
 Pointer to a buffer that receives the output data of the SCSI inquiry command.
 
 
-### -param pRespBufferSize [in, out]
+#### - pRespBufferSize [in, out]
 
 Indicates the size, in bytes, of the buffer at <i>pRespBuffer</i>.
 
 
-### -param pScsiStatus [out]
+#### - pScsiStatus [out]
 
 Pointer to a buffer that receives the SCSI status data. 
 
 
-### -param pSenseBuffer [out]
+#### - pSenseBuffer [out]
 
 Pointer to a buffer that receives the SCSI sense data.
 
 
-### -param pSenseBufferSize [in, out]
+#### - pSenseBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned.
 
@@ -285,9 +285,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

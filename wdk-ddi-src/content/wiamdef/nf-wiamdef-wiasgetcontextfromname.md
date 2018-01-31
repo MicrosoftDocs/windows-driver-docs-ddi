@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: d15bf48e-132d-4f89-8f19-64f57deed500
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, wiasGetContextFromName, image.wiasgetcontextfromname, wiasGetContextFromName function [Imaging Devices]
+ms.keywords: wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, image.wiasgetcontextfromname, wiamdef/wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetContextFromName
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasGetContextFromName(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param lFlags
+#### - lFlags
 
 Reserved for system use and should be set to 0.
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 Specifies the name of the context that is being searched for.
 
 
-### -param ppWiasContext [out]
+#### - ppWiasContext [out]
 
 Pointer to a memory location that receives the address of the WIA item context.
 

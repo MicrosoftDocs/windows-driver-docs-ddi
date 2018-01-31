@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/HostActionStart, HostActionStop, nfccx/HostActionRestart, HostActionUnload, HostActionRestart, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], nfpdrivers.nfc_cx_host_action, NFC_CX_HOST_ACTION, nfccx/NFC_CX_HOST_ACTION, _NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION, nfccx/HostActionUnload, nfccx/HostActionStop, HostActionStart
+ms.keywords: nfccx/NFC_CX_HOST_ACTION, nfccx/HostActionStop, nfccx/HostActionUnload, nfccx/HostActionRestart, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], *PNFC_CX_HOST_ACTION, HostActionUnload, HostActionStop, HostActionRestart, nfccx/HostActionStart, HostActionStart, _NFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION, nfpdrivers.nfc_cx_host_action
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_HOST_ACTION
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
+req.typenames: "*PNFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION"
 ---
 
 # _NFC_CX_HOST_ACTION enumeration
@@ -70,31 +70,31 @@ typedef enum _NFC_CX_HOST_ACTION {
 
 
 
-### -field HostActionStart
+#### - HostActionStart
 
 Specifies full initialization.
 
 
-### -field HostActionStop
+#### - HostActionStop
 
 Specifies de-initialization.
 
 
-### -field HostActionRestart
+#### - HostActionRestart
 
 Specifies a full driver restart.
 
 
-### -field HostActionUnload
+#### - HostActionUnload
 
 Specifies to unload the driver.
 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

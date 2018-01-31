@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe::GetInformation, wdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe interface, GetInformation method, GetInformation method, IWDFUsbTargetPipe interface, GetInformation, wudfusb/IWDFUsbTargetPipe::GetInformation, umdf.iwdfusbtargetpipe_getinformation, GetInformation method, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, IWDFUsbTargetPipe
+ms.keywords: wudfusb/IWDFUsbTargetPipe::GetInformation, umdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe interface, GetInformation method, IWDFUsbTargetPipe::GetInformation, IWDFUsbTargetPipe, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, GetInformation, GetInformation method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_getinformation, GetInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetInformation(
 
 
 
-### -param pInfo [out]
+#### - pInfo [out]
 
 A pointer to a variable that receives USB pipe information.
 
@@ -91,9 +91,9 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560339">IWDFUsbInterface::RetrieveUsbPipeObject</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
  
 

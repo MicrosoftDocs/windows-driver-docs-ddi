@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 79cf94e4-c362-4ed4-882e-771cd4f6ed48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeFormatRequestForAbort method, kmdf.wdfusbtargetpipeformatrequestforabort, wdfusb/WdfUsbTargetPipeFormatRequestForAbort, wdf.wdfusbtargetpipeformatrequestforabort, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORABORT, DFUsbRef_d99442d6-818c-4c46-8df2-dd5e2346aa5f.xml, WdfUsbTargetPipeFormatRequestForAbort
+ms.keywords: wdf.wdfusbtargetpipeformatrequestforabort, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORABORT, WdfUsbTargetPipeFormatRequestForAbort method, DFUsbRef_d99442d6-818c-4c46-8df2-dd5e2346aa5f.xml, WdfUsbTargetPipeFormatRequestForAbort, wdfusb/WdfUsbTargetPipeFormatRequestForAbort, kmdf.wdfusbtargetpipeformatrequestforabort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfUsbTargetPipeFormatRequestForAbort(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. For more information, see the following Remarks section.
 

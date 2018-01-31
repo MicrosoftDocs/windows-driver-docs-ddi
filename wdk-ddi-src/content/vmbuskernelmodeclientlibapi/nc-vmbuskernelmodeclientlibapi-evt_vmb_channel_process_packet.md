@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_CHANNEL_PROCESS_PACKET
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -80,29 +80,29 @@ typedef EVT_VMB_CHANNEL_PROCESS_PACKET PFN_VMB_CHANNEL_PROCESS_PACKET;
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The channel on which the packet arrives.
 
 
-### -param Packet [in]
+#### - Packet [in]
 
 The completion context, which identifies this packet to Kernel Mode Client Library (KMCL) when the transaction can be retired.
 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 The packet which was sent by the opposite endpoint.  This value does not contain the VMBus and KMCL headers.
 
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The length of the <i>Buffer</i> parameter, in bytes.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags. Possible values include the following: 
 <table>
@@ -148,9 +148,9 @@ has been configured to defer packet processing to a worker thread.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">VmbChannelInitSetProcessPacketCallbacks</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata.md">VmbChannelPacketGetExternalData</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">VmbChannelInitSetProcessPacketCallbacks</a>
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a>
 

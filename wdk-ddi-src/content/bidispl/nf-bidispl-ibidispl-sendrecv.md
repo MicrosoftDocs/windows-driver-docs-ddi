@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: gdi.ibidispl_ibidispl__sendrecv, IBidiSpl, bidispl/IBidiSpl::IBidiSpl::SendRecv, _win32_IBidiSpl_SendRecv, IBidiSpl interface [Print Devices], IBidiSpl::SendRecv method, IBidiSpl::IBidiSpl::SendRecv, print.ibidispl_ibidispl__sendrecv, IBidiSpl::SendRecv method [Print Devices], IBidiSpl::SendRecv method [Print Devices], IBidiSpl interface, SendRecv, IBidiSpl::SendRecv
+ms.keywords: IBidiSpl::IBidiSpl::SendRecv, print.ibidispl_ibidispl__sendrecv, IBidiSpl interface [Print Devices], IBidiSpl::SendRecv method, IBidiSpl::SendRecv method [Print Devices], IBidiSpl interface, IBidiSpl::SendRecv method [Print Devices], IBidiSpl::SendRecv, IBidiSpl, gdi.ibidispl_ibidispl__sendrecv, _win32_IBidiSpl_SendRecv, bidispl/IBidiSpl::IBidiSpl::SendRecv, SendRecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT IBidiSpl::SendRecv(
 
 
 
-### -param pszAction [in]
+#### - pszAction [in]
 
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
 <table>
@@ -105,7 +105,7 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
 </table> 
 
 
-### -param pRequest [in]
+#### - pRequest [in]
 
 A pointer to a single bidi request.
 
@@ -169,9 +169,9 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
  
 

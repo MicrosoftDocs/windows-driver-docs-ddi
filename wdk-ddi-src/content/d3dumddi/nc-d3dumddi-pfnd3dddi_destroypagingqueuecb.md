@@ -71,7 +71,7 @@ HRESULT APIENTRY CALLBACK* pfnDestroyPagingQueueCb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device.
 

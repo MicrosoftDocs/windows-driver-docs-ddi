@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c17a5e2-dcf2-493a-9851-11d47adbfc82
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitAssignWdmIrpPreprocessCallback method, wdf.wdfdeviceinitassignwdmirppreprocesscallback, WdfDeviceInitAssignWdmIrpPreprocessCallback, DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback, PFN_WDFDEVICEINITASSIGNWDMIRPPREPROCESSCALLBACK
+ms.keywords: wdf.wdfdeviceinitassignwdmirppreprocesscallback, DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, WdfDeviceInitAssignWdmIrpPreprocessCallback, PFN_WDFDEVICEINITASSIGNWDMIRPPREPROCESSCALLBACK, WdfDeviceInitAssignWdmIrpPreprocessCallback method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NTSTATUS WdfDeviceInitAssignWdmIrpPreprocessCallback(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param EvtDeviceWdmIrpPreprocess [in]
+#### - EvtDeviceWdmIrpPreprocess [in]
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a> callback function.
 
 
-### -param MajorFunction [in]
+#### - MajorFunction [in]
 
 One of the IRP major function codes that are defined in <i>wdm.h</i>. 
 
 
-### -param MinorFunctions [in, optional]
+#### - MinorFunctions [in, optional]
 
 A pointer to an array of one or more IRP minor function codes that are associated with the specified major function code. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param NumMinorFunctions [in]
+#### - NumMinorFunctions [in]
 
 The number of minor function codes that are contained in the <i>MinorFunctions</i> array.
 

@@ -69,17 +69,17 @@ NTSTATUS FltGetVolumeContext(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Volume [in]
+#### - Volume [in]
 
 Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Context [out]
+#### - Context [out]
 
 Pointer to a caller-allocated variable that receives the address of the requested context. 
 
@@ -125,13 +125,13 @@ To delete a volume context, call <a href="..\fltkernel\nf-fltkernel-fltdeletevol
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletevolumecontext.md">FltDeleteVolumeContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltsetvolumecontext.md">FltSetVolumeContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
  
 

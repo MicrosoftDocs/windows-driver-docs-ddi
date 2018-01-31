@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], KeRestoreFloatingPointState, wdm/KeRestoreFloatingPointState, k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, kernel.kerestorefloatingpointstate
+ms.keywords: kernel.kerestorefloatingpointstate, KeRestoreFloatingPointState, k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], wdm/KeRestoreFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KeRestoreFloatingPointState(
 
 
 
-### -param FloatSave [in]
+#### - FloatSave [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a> structure that was passed in the preceding call to <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1eddb631-db85-4243-89a4-a4ab042cee28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, IServiceGroup interface [Audio Devices], AddMember method, AddMember method [Audio Devices], portcls/IServiceGroup::AddMember, audio.iservicegroup_addmember, IServiceGroup, AddMember, AddMember method [Audio Devices], IServiceGroup interface, IServiceGroup::AddMember
+ms.keywords: audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, AddMember method [Audio Devices], IServiceGroup interface, IServiceGroup interface [Audio Devices], AddMember method, AddMember method [Audio Devices], AddMember, IServiceGroup::AddMember, IServiceGroup, audio.iservicegroup_addmember, portcls/IServiceGroup::AddMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IServiceGroup.AddMember
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IServiceGroup::AddMember method
@@ -67,7 +67,7 @@ NTSTATUS AddMember(
 
 
 
-### -param pServiceSink [in]
+#### - pServiceSink [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a> interface of the new member of the service group
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PHY_ATTRIBUTES, netvista.dot11_phy_attributes, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_PHY_ATTRIBUTES, Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, windot11/PDOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES, windot11/DOT11_PHY_ATTRIBUTES
+ms.keywords: windot11/DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES, Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, windot11/PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_attributes, DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,7 +146,7 @@ typedef struct DOT11_PHY_ATTRIBUTES {
  
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_PHY_ATTRIBUTES structure. This member is formatted as an 
       <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -176,13 +176,13 @@ This member must be set to
         sizeof(DOT11_PHY_ATTRIBUTES).
 
 
-### -field PhyType
+#### - PhyType
 
 The type of the PHY as specified by a 
      <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a> enumerator value.
 
 
-### -field bHardwarePhyState
+#### - bHardwarePhyState
 
 A Boolean value that specifies the hardware power state of the PHY. If <b>TRUE</b>, the hardware power
       state is enabled. If <b>FALSE</b>, the hardware power state is disabled.
@@ -194,7 +194,7 @@ For more information about the PHY's hardware power state, see
       <mshelp:link keywords="netvista.ndis_status_dot11_phy_state_changed" tabindex="0">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</mshelp:link> media-specific status indication.</div><div> </div>
 
-### -field bSoftwarePhyState
+#### - bSoftwarePhyState
 
 A Boolean value that specifies the software power state of the PHY. If <b>TRUE</b>, the software power
       state is enabled. If <b>FALSE</b>, the software power state is disabled.
@@ -205,7 +205,7 @@ For more information about the PHY's software power state, see
       <mshelp:link keywords="netvista.ndis_status_dot11_phy_state_changed" tabindex="0">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</mshelp:link> media-specific status indication.</div><div> </div>
 
-### -field bCFPollable
+#### - bCFPollable
 
 A Boolean value that, if set to <b>TRUE</b>, indicates that the 802.11 station supports CF-Poll frames. For
       more information about CF-Poll frames, refer to Clause 9.4 of the IEEE 802.11-2012 standard.
@@ -214,7 +214,7 @@ This member is not applicable to the Extensible Access Point (ExtAP) operation m
       when the NIC is in the ExtAP mode.
 
 
-### -field uMPDUMaxLength
+#### - uMPDUMaxLength
 
 The maximum length, in bytes, of a media access control (MAC) protocol data unit (MPDU) frame that
       the PHY can transmit or receive. For more information, see 
@@ -222,13 +222,13 @@ The maximum length, in bytes, of a media access control (MAC) protocol data unit
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
       NDIS_STATUS_DOT11_MPDU_MAX_LENGTH_CHANGED media-specific status indication.</div><div> </div>
 
-### -field TempType
+#### - TempType
 
 The PHY's operating temperature range, defined through a 
       <a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a> enumeration value.
 
 
-### -field DiversitySupport
+#### - DiversitySupport
 
 The PHY's type of antenna diversity, defined through a 
       <a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a> enumeration
@@ -315,33 +315,33 @@ The
 
 ## -see-also
 
-<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
-
-<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
 
 <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
+<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+
+<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
+
+<a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
 
 <mshelp:link keywords="netvista.dot11_supported_data_rates_value_v2" tabindex="0"><b>
    DOT11_SUPPORTED_DATA_RATES_VALUE_V2</b></mshelp:link>
 
 <a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
 
-<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
-
-<a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
+<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
 
  
 

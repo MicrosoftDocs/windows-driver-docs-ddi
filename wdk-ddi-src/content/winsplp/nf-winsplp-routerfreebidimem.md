@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 946b1630-844a-43ac-8c26-fdfa2ee7866a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RouterFreeBidiMem, winsplp/RouterFreeBidiMem, RouterFreeBidiMem function [Print Devices], print.routerfreebidimem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml
+ms.keywords: print.routerfreebidimem, RouterFreeBidiMem function [Print Devices], RouterFreeBidiMem, winsplp/RouterFreeBidiMem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID RouterFreeBidiMem(
 
 
 
-### -param pMemPointer [in]
+#### - pMemPointer [in]
 
 Pointer to the memory to be freed.
 

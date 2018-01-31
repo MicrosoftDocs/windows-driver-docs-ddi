@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfremotetarget_getstate, IWDFRemoteTarget::GetState, IWDFRemoteTarget interface, GetState method, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, umdf.iwdfremotetarget_getstate, GetState method, GetState, wudfddi/IWDFRemoteTarget::GetState, IWDFRemoteTarget, GetState method, IWDFRemoteTarget interface
+ms.keywords: wdf.iwdfremotetarget_getstate, umdf.iwdfremotetarget_getstate, GetState method, IWDFRemoteTarget interface, IWDFRemoteTarget, IWDFRemoteTarget::GetState, IWDFRemoteTarget interface, GetState method, GetState, wudfddi/IWDFRemoteTarget::GetState, GetState method, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteTarget.GetState
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -85,9 +85,9 @@ For more information about remote I/O target states, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
  
 

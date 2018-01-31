@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade, storage.storportiscurrentosinstallationupgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices]
+ms.keywords: storport/StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortIsCurrentOsInstallationUpgrade(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Upgraded [out]
+#### - Upgraded [out]
 
 The value pointed to by <i>Upgraded</i> is set to <b>TRUE</b> if the current operating system installation was upgraded from a previous version. Otherwise, it is set to <b>FALSE</b>.
 

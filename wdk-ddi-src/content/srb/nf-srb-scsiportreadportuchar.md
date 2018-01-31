@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aaf7e821-4f60-4018-b0ee-d0f3995482c4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportreadportuchar, scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, srb/ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], ScsiPortReadPortUchar
+ms.keywords: srb/ScsiPortReadPortUchar, scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], storage.scsiportreadportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadPortUchar
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ UCHAR ScsiPortReadPortUchar(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 

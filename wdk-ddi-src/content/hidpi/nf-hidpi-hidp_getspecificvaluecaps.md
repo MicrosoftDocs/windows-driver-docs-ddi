@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 0860733c-d28c-4916-a743-d5f6256cfca0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetSpecificValueCaps, hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, HidP_GetSpecificValueCaps routine [Human Input Devices], hidpi/HidP_GetSpecificValueCaps, hid.hidp_getspecificvaluecaps
+ms.keywords: HidP_GetSpecificValueCaps, hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, HidP_GetSpecificValueCaps routine [Human Input Devices], hid.hidp_getspecificvaluecaps, hidpi/HidP_GetSpecificValueCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ NTSTATUS __stdcall HidP_GetSpecificValueCaps(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param UsagePage [in]
+#### - UsagePage [in]
 
 Specifies a usage page as a search criteria. If <i>UsagePage</i> is nonzero, only values that specify this usage page are returned.
 
 
-### -param LinkCollection [in]
+#### - LinkCollection [in]
 
 Specifies a <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> as a search criteria. If <i>LinkCollection</i> is nonzero, only values that are part of this link collection are returned.
 
 
-### -param Usage [in]
+#### - Usage [in]
 
 Specifies a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usage</a> as a search criteria. If <i>Usage</i> is nonzero, only values that specify this usage will be returned.
 
 
-### -param ValueCaps [out]
+#### - ValueCaps [out]
 
 Pointer to a caller-allocated buffer in which the routine returns a value capability array for the specified report type.
 
 
-### -param ValueCapsLength [in, out]
+#### - ValueCapsLength [in, out]
 
 Specifies the length on input, in array elements, of the buffer provided at <i>ValueCaps</i>. On output, this parameter is set to the number of elements that routine actually returns.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
@@ -159,15 +159,15 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
+
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
  
 

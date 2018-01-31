@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44CA5D9D-EF6E-4681-93EB-B803638896F9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], KSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], _tagKSTELEPHONY_CALLCONTROL, ksmedia/KSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/PKSTELEPHONY_CALLCONTROL
+ms.keywords: "*PKSTELEPHONY_CALLCONTROL, _tagKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], KSTELEPHONY_CALLCONTROL structure [Audio Devices], ksmedia/KSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/PKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _tagKSTELEPHONY_CALLCONTROL {
 
 
 
-### -field CallType
+#### - CallType
 
 Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN packet-switched).
 
 
-### -field CallControlOp
+#### - CallControlOp
 
 Specifies the call control operation (enable or disable).
 

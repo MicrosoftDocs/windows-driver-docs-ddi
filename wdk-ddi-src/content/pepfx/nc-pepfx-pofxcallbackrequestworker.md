@@ -40,7 +40,7 @@ apiname:
 -	RequestWorker
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKREQUESTWORKER callback
@@ -70,7 +70,7 @@ VOID RequestWorker(
 
 
 
-### -param PluginHandle [in]
+#### - PluginHandle [in]
 
 A POHANDLE value that represents the registration of the device with PoFx. The PEP previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 

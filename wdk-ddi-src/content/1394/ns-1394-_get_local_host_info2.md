@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 39cb4015-7745-4d13-bb31-76378b217cfd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2 structure pointer [Buses], _GET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2 structure [Buses], *PGET_LOCAL_HOST_INFO2, IEEE.get_local_host_info2, 1394stct_06c8c818-409c-41eb-b501-6e55b0cf50ff.xml, 1394/GET_LOCAL_HOST_INFO2, 1394/PGET_LOCAL_HOST_INFO2
+ms.keywords: GET_LOCAL_HOST_INFO2 structure [Buses], PGET_LOCAL_HOST_INFO2 structure pointer [Buses], 1394/GET_LOCAL_HOST_INFO2, IEEE.get_local_host_info2, 1394stct_06c8c818-409c-41eb-b501-6e55b0cf50ff.xml, _GET_LOCAL_HOST_INFO2, *PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2, 1394/PGET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_LOCAL_HOST_INFO2
 product: Windows
 targetos: Windows
-req.typenames: GET_LOCAL_HOST_INFO2, *PGET_LOCAL_HOST_INFO2
+req.typenames: "*PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2"
 ---
 
 # _GET_LOCAL_HOST_INFO2 structure
@@ -69,7 +69,7 @@ typedef struct _GET_LOCAL_HOST_INFO2 {
 
 
 
-### -field HostCapabilities
+#### - HostCapabilities
 
 Indicates the host capabilities. The following table lists the values that can be assigned to th is member:
 
@@ -120,12 +120,12 @@ Indicates the host capabilities. The following table lists the values that can b
 </table> 
 
 
-### -field MaxAsyncReadRequest
+#### - MaxAsyncReadRequest
 
 The bus driver fills in this member with the maximum size asynchronous read request that the host controller supports.
 
 
-### -field MaxAsyncWriteRequest
+#### - MaxAsyncWriteRequest
 
 The bus driver fills in this member with the maximum size asynchronous write request that the host controller supports.
 
@@ -145,11 +145,11 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537157">GET_LOCAL_HOST_INFO7</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537157">GET_LOCAL_HOST_INFO7</a>
 
  
 

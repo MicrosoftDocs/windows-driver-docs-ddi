@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 05DA619B-B36A-4E14-9F63-E12E90E0BDCD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume, SetDeviceChannelVolume, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelVolume method, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode::SetDeviceChannelVolume, audio.iminiportaudioenginenode_setdevicechannelvolume
+ms.keywords: portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume, audio.iminiportaudioenginenode_setdevicechannelvolume, IMiniportAudioEngineNode, SetDeviceChannelVolume, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode::SetDeviceChannelVolume, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelVolume method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.SetDeviceChannelVolume
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::SetDeviceChannelVolume method
@@ -69,17 +69,17 @@ NTSTATUS SetDeviceChannelVolume(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-### -param ulChannel [in]
+#### - ulChannel [in]
 
 The audio device channel.
 
 
-### -param lVolume [in]
+#### - lVolume [in]
 
 The volume level to which the channel will be set.
 

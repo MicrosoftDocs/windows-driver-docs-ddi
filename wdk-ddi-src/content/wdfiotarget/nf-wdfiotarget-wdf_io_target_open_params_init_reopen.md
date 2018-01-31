@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00f1e870-4c74-44d3-9ee9-c8b9e63e5f3b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function, wdf.wdf_io_target_open_params_init_reopen, DFIOTargetRef_f0c123bb-3ecc-401f-ad91-4ed1b359454d.xml, kmdf.wdf_io_target_open_params_init_reopen, WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN
+ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN, kmdf.wdf_io_target_open_params_init_reopen, wdf.wdf_io_target_open_params_init_reopen, WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN, DFIOTargetRef_f0c123bb-3ecc-401f-ad91-4ed1b359454d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN(
 
 
 
-### -param Params [out]
+#### - Params [out]
 
 A pointer to a driver-allocated <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure, which the function initializes.
 
@@ -95,11 +95,11 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_canceled.md">EvtIoTargetRemoveCanceled</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md">WdfIoTargetOpenReopen</a>
+
+<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_canceled.md">EvtIoTargetRemoveCanceled</a>
 
 <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 

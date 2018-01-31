@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Flush, IWDFWorkItem interface, Flush method, wdf.iwdfworkitem_flush, Flush method, IWDFWorkItem interface, IWDFWorkItem, wudfddi/IWDFWorkItem::Flush, Flush method, IWDFWorkItem::Flush, umdf.iwdfworkitem_flush
+ms.keywords: Flush method, IWDFWorkItem interface, Flush method, wudfddi/IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, Flush, IWDFWorkItem, IWDFWorkItem interface, Flush method, wdf.iwdfworkitem_flush, IWDFWorkItem::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFWorkItem.Flush
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

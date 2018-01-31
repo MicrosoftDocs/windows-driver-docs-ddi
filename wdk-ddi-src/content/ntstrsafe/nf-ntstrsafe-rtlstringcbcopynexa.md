@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCopyNExW, ntstrsafe/RtlStringCbCopyNExA, RtlStringCbCopyNExA, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], RtlStringCbCopyNExW, STRSAFE_FILL_ON_FAILURE, kernel.rtlstringcbcopynex, STRSAFE_NULL_ON_FAILURE, RtlStringCbCopyNEx, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml
+ms.keywords: STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopynex, RtlStringCbCopyNEx, ntstrsafe/RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExW, RtlStringCbCopyNExA, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], RtlStringCbCopyNExW, STRSAFE_IGNORE_NULLS, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml, STRSAFE_FILL_BEHIND_NULL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,12 +76,12 @@ NTSTATUS RtlStringCbCopyNExW(
 
 
 
-### -param pszDest [out, optional]
+#### - pszDest [out, optional]
 
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbDest [in]
+#### - cbDest [in]
 
 The size, in bytes, of the destination buffer. The buffer must be large enough for the string and the terminating null character.
 
@@ -92,7 +92,7 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
 
-### -param pszSrc [in, optional]
+#### - pszSrc [in, optional]
 
 A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
@@ -102,17 +102,17 @@ A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointe
 TBD
 
 
-### -param ppszDestEnd [out, optional]
+#### - ppszDestEnd [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer then, after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
 
 
-### -param pcbRemaining [out, optional]
+#### - pcbRemaining [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including those bytes used for the terminating null character.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 <table>
@@ -290,9 +290,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 67c85eaa-bb47-4384-8e37-fdbbc879b352
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IRequestCallbackCancel::OnCancel, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, OnCancel method, IRequestCallbackCancel interface, OnCancel method, IRequestCallbackCancel::OnCancel, OnCancel, IRequestCallbackCancel interface, OnCancel method, IRequestCallbackCancel, wdf.irequestcallbackcancel_oncancel, umdf.irequestcallbackcancel_oncancel
+ms.keywords: wdf.irequestcallbackcancel_oncancel, OnCancel method, IRequestCallbackCancel interface, IRequestCallbackCancel, wudfddi/IRequestCallbackCancel::OnCancel, OnCancel, umdf.irequestcallbackcancel_oncancel, IRequestCallbackCancel::OnCancel, OnCancel method, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, IRequestCallbackCancel interface, OnCancel method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRequestCallbackCancel.OnCancel
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void OnCancel(
 
 
 
-### -param pWdfRequest [in]
+#### - pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object to cancel. 
 
@@ -97,13 +97,13 @@ The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
  
 

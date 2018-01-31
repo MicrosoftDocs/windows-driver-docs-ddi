@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryActiveGroupCount, KeQueryActiveGroupCount, k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, kernel.kequeryactivegroupcount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeQueryActiveGroupCount, KeQueryActiveGroupCount, kernel.kequeryactivegroupcount, k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

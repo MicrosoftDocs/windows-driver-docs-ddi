@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 771e5761-beea-4a31-9ebe-d65e9157f1f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista], NdisDirectOidRequest, netvista.ndisdirectoidrequest, ndis/NdisDirectOidRequest
+ms.keywords: ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, ndis/NdisDirectOidRequest, netvista.ndisdirectoidrequest, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista], NdisDirectOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ NDIS_STATUS NdisDirectOidRequest(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 The handle that the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function returns that
      identifies the target miniport adapter on the binding.
 
 
-### -param OidRequest [in]
+#### - OidRequest [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
@@ -295,17 +295,17 @@ The direct OID request interface is similar to the general OID request interface
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-   ProtocolDirectOidRequestComplete</i></mshelp:link>
-
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</mshelp:link>
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
+<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</mshelp:link>
+
 <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
+<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
+   ProtocolDirectOidRequestComplete</i></mshelp:link>
 
 <mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8d7f85d4-af10-4ae5-a891-18dd41192c6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PMSR_UPDATE_KEY, _MSR_UPDATE_KEY, pos.msr_update_key, *PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, PMSR_UPDATE_KEY, MSR_UPDATE_KEY structure, pointofservicedriverinterface/MSR_UPDATE_KEY, MSR_UPDATE_KEY
+ms.keywords: pointofservicedriverinterface/PMSR_UPDATE_KEY, MSR_UPDATE_KEY structure, pointofservicedriverinterface/MSR_UPDATE_KEY, _MSR_UPDATE_KEY, *PMSR_UPDATE_KEY, MSR_UPDATE_KEY, pos.msr_update_key, PMSR_UPDATE_KEY structure pointer, PMSR_UPDATE_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSR_UPDATE_KEY
 product: Windows
 targetos: Windows
-req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
+req.typenames: "*PMSR_UPDATE_KEY, MSR_UPDATE_KEY"
 ---
 
 # _MSR_UPDATE_KEY structure
@@ -70,17 +70,17 @@ typedef struct _MSR_UPDATE_KEY {
 
 
 
-### -field KeyLength
+#### - KeyLength
 
 Length, in bytes, of the key stored in <b>Key[MSR_KEY_SIZE]</b>.
 
 
-### -field KeyNameLength
+#### - KeyNameLength
 
 Length, in bytes, of the key name stored in <b>KeyName[MSR_KEY_SIZE]</b>.
 
 
-### -field Key
+#### - Key
 
 The new encryption key.
 

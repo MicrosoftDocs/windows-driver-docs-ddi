@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9d4a317d-bb0c-47d4-b9f2-e668adc4d0d4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_DMM_ESCAPE, D3DKMT_DMM_ESCAPE structure [Display Devices], _D3DKMT_DMM_ESCAPE, display.d3dkmt_dmm_escape, OpenGL_Structs_670cf3b6-6c85-4ddc-af88-8891e3f8f6ce.xml, D3DKMT_DMM_ESCAPE
+ms.keywords: display.d3dkmt_dmm_escape, d3dkmthk/D3DKMT_DMM_ESCAPE, OpenGL_Structs_670cf3b6-6c85-4ddc-af88-8891e3f8f6ce.xml, D3DKMT_DMM_ESCAPE, _D3DKMT_DMM_ESCAPE, D3DKMT_DMM_ESCAPE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,21 +74,21 @@ typedef struct _D3DKMT_DMM_ESCAPE {
 
 
 
-### -field Type
+#### - Type
 
 
 
-### -field ProvidedBufferSize
+#### - ProvidedBufferSize
 
 actual size of Data[] array, in bytes.
 
 
-### -field MinRequiredBufferSize
+#### - MinRequiredBufferSize
 
 minimum required size of Data[] array to contain requested data.
 
 
-### -field Data
+#### - Data
 
 
 

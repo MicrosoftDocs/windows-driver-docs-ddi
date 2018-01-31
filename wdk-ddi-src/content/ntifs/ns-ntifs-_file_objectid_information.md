@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bbbaf48b-78c3-4a4b-801b-2fe3c0112a68
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PFILE_OBJECTID_INFORMATION, _FILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION, ntifs/FILE_OBJECTID_INFORMATION, ifsk.file_objectid_information, ntifs/PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers]"
+ms.keywords: FILE_OBJECTID_INFORMATION, _FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], *PFILE_OBJECTID_INFORMATION, ifsk.file_objectid_information, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], ntifs/FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_OBJECTID_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION"
+req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
 ---
 
 # _FILE_OBJECTID_INFORMATION structure
@@ -106,12 +106,12 @@ typedef struct _FILE_OBJECTID_INFORMATION {
  
 
 
-### -field FileReference
+#### - FileReference
 
 The 8-byte file reference number for the file. NTFS generates this number and assigns it to the file automatically when the file is created. 
 
 
-### -field ObjectId
+#### - ObjectId
 
 The 16-byte file object ID for the file. NTFS generates this number and assigns it to the file at the request of a driver or application. File object IDs are guaranteed to be unique only within the volume where the file resides. 
 
@@ -166,9 +166,9 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
 <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 

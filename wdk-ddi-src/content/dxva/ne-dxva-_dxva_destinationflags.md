@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 842c6ece-5304-428c-afbe-2990d239f38a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlags enumeration [Display Devices], dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml, DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlags, DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlag_ColorData_Changed, _DXVA_DestinationFlags, DXVA_DestinationFlags, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_TargetRect_Changed, display.dxva_destinationflags, dxva/DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlagMask
+ms.keywords: DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlag_Alpha_Changed, _DXVA_DestinationFlags, dxva/DXVA_DestinationFlags, DXVA_DestinationFlags, dxva/DXVA_DestinationFlag_Background_Changed, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlags enumeration [Display Devices], DXVA_DestinationFlag_Background_Changed, display.dxva_destinationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,28 +71,28 @@ typedef enum _DXVA_DestinationFlags {
 
 
 
-### -field DXVA_DestinationFlagMask
+#### - DXVA_DestinationFlagMask
 
 Specifies the destination-flag mask, which consists of the first 4 bits of a DWORD.
 
 
-### -field DXVA_DestinationFlag_Background_Changed
+#### - DXVA_DestinationFlag_Background_Changed
 
 Indicates that the background color of the destination surface changed. 
 
 
-### -field DXVA_DestinationFlag_TargetRect_Changed
+#### - DXVA_DestinationFlag_TargetRect_Changed
 
 Indicates that the target rectangle of the destination surface changed. 
 
 
-### -field DXVA_DestinationFlag_ColorData_Changed
+#### - DXVA_DestinationFlag_ColorData_Changed
 
 Indicates that format information for the destination surface changed. 
 
 
 
-### -field DXVA_DestinationFlag_Alpha_Changed
+#### - DXVA_DestinationFlag_Alpha_Changed
 
 Indicates that the planar alpha value for the destination surface changed.
 

@@ -75,14 +75,14 @@ NDIS_STATUS MiniportCoActivateVc(
 
 
 
-### -param MiniportVcContext [in]
+#### - MiniportVcContext [in]
 
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 
      <i>MiniportCoCreateVc</i> function.
 
 
-### -param CallParameters [in, out]
+#### - CallParameters [in, out]
 
 Specifies the call parameters, as specified by the call manager, to be established for this VC. On
      output, the miniport driver returns altered call parameters if certain flags are set in the 
@@ -215,11 +215,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcoactivatevccomplete.md">NdisMCoActivateVcComplete</a>
-
 <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+
+<a href="..\ndis\nf-ndis-ndismcoactivatevccomplete.md">NdisMCoActivateVcComplete</a>
 
  
 

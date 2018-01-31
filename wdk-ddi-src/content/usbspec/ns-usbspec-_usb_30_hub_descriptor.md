@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5B910D0B-0D1D-45D8-B418-13DC00B3398A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUSB_30_HUB_DESCRIPTOR, usbspec/PUSB_30_HUB_DESCRIPTOR, _USB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], USB_30_HUB_DESCRIPTOR structure [Buses], USB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR"
+ms.keywords: usbspec/PUSB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR structure [Buses], PUSB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], *PUSB_30_HUB_DESCRIPTOR, _USB_30_HUB_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_30_HUB_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR
+req.typenames: "*PUSB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -76,58 +76,58 @@ typedef struct _USB_30_HUB_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 The length, in bytes, of the descriptor.
 
 
-### -field bDescriptorType
+#### - bDescriptorType
 
     The descriptor type. For SuperSpeed hub descriptors, the value must be USB_30_HUB_DESCRIPTOR_TYPE (0x2A).
 
 
 
 
-### -field bNumberOfPorts
+#### - bNumberOfPorts
 
     The number of ports on the hub.
 
 
-### -field wHubCharacteristics
+#### - wHubCharacteristics
 
     The hub characteristics. 
 
 
-### -field bPowerOnToPowerGood
+#### - bPowerOnToPowerGood
 
     The time, in 2-millisecond intervals, that it takes the device to turn on completely.
 
 
-### -field bHubControlCurrent
+#### - bHubControlCurrent
 
 The maximum current requirements, in milliamperes, of the controller component of the hub.
 
 
-### -field bHubHdrDecLat
+#### - bHubHdrDecLat
 
 The    hub packet header decode latency.
 
 
-### -field wHubDelay
+#### - wHubDelay
 
     The average delay, in nanoseconds, that is introduced by the hub.
 
 
-### -field DeviceRemovable
+#### - DeviceRemovable
 
     Indicates whether a removable device is attached to each port.
 
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
 
  
 

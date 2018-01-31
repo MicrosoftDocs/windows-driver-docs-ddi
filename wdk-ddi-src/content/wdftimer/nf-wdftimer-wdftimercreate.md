@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 577b7629-13ff-4a2d-9f9f-a140d8442bd3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdftimercreate, wdftimer/WdfTimerCreate, WdfTimerCreate, WdfTimerCreate method, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, kmdf.wdftimercreate, PFN_WDFTIMERCREATE
+ms.keywords: wdf.wdftimercreate, WdfTimerCreate, WdfTimerCreate method, kmdf.wdftimercreate, wdftimer/WdfTimerCreate, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, PFN_WDFTIMERCREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfTimerCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -75,17 +75,17 @@ NTSTATUS WdfTimerCreate(
 
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure.
 
 
-### -param Attributes [in]
+#### - Attributes [in]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new timer object. 
 
 
-### -param Timer [out]
+#### - Timer [out]
 
 A pointer to a location that receives a handle to the new framework timer object.
 
@@ -179,13 +179,13 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
-<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
-
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
 
  
 

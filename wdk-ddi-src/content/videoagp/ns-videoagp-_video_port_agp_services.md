@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e7d8f8e-a213-48ca-8a90-5d861271f6a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: videoagp/VIDEO_PORT_AGP_SERVICES, Video_Structs_a667f879-7c09-4f48-9b23-920bb68a08cb.xml, VIDEO_PORT_AGP_SERVICES structure [Display Devices], *PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES structure pointer [Display Devices], videoagp/PVIDEO_PORT_AGP_SERVICES, display.video_port_agp_services, _VIDEO_PORT_AGP_SERVICES
+ms.keywords: VIDEO_PORT_AGP_SERVICES, videoagp/PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES, videoagp/VIDEO_PORT_AGP_SERVICES, _VIDEO_PORT_AGP_SERVICES, display.video_port_agp_services, *PVIDEO_PORT_AGP_SERVICES, Video_Structs_a667f879-7c09-4f48-9b23-920bb68a08cb.xml, VIDEO_PORT_AGP_SERVICES structure [Display Devices], PVIDEO_PORT_AGP_SERVICES structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_PORT_AGP_SERVICES
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -78,38 +78,38 @@ typedef struct _VIDEO_PORT_AGP_SERVICES {
 
 
 
-### -field AgpReservePhysical
+#### - AgpReservePhysical
 
 
 
-### -field AgpReleasePhysical
+#### - AgpReleasePhysical
 
 
 
-### -field AgpCommitPhysical
+#### - AgpCommitPhysical
 
 
 
-### -field AgpFreePhysical
+#### - AgpFreePhysical
 
 
 
-### -field AgpReserveVirtual
+#### - AgpReserveVirtual
 
 
 
-### -field AgpReleaseVirtual
+#### - AgpReleaseVirtual
 
 
 
-### -field AgpCommitVirtual
+#### - AgpCommitVirtual
 
 
 
-### -field AgpFreeVirtual
+#### - AgpFreeVirtual
 
 
 
-### -field AllocationLimit
+#### - AllocationLimit
 
 

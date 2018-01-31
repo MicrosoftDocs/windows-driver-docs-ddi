@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency, kernel.pofxsetcomponentlatency, PoFxSetComponentLatency
+ms.keywords: PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency, kernel.pofxsetcomponentlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID PoFxSetComponentLatency(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-### -param Component [in]
+#### - Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Latency [in]
+#### - Latency [in]
 
 The maximum latency, in 100-nanosecond units, that can be tolerated in the specified component. For more information, see Remarks.
 

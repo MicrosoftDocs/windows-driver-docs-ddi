@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIBOX, _D3DDDIBOX, display.d3dddibox, D3DDDIBOX, D3DDDIBOX structure [Display Devices]
+ms.keywords: D3DDDIBOX structure [Display Devices], display.d3dddibox, d3dumddi/D3DDDIBOX, D3DDDIBOX, _D3DDDIBOX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,33 +72,33 @@ typedef struct _D3DDDIBOX {
 
 
 
-### -field Left
+#### - Left
 
 [in] The position of the left side of the box on the x-axis.
 
 
-### -field Top
+#### - Top
 
 [in] The position of the top of the box on the y-axis.
 
 
-### -field Right
+#### - Right
 
 [in] The position of the right side of the box on the x-axis.
 
 
-### -field Bottom
+#### - Bottom
 
 [in] The position of the bottom of the box on the y-axis.
 
 
-### -field Front
+#### - Front
 
 
       [in] The position of the front of the box on the z-axis.
 
 
-### -field Back
+#### - Back
 
 [in] The position of the back of the box on the z-axis.
 

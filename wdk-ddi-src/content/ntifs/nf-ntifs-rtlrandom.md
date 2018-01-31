@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3975ad7-8eb8-4f46-8024-6a1decc21c77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlRandom, RtlRandom routine [Installable File System Drivers], RtlRandom, ifsk.rtlrandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml
+ms.keywords: ntifs/RtlRandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml, ifsk.rtlrandom, RtlRandom routine [Installable File System Drivers], RtlRandom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG RtlRandom(
 
 
 
-### -param Seed [in, out]
+#### - Seed [in, out]
 
 Unsigned long value from which to generate a random number. 
 

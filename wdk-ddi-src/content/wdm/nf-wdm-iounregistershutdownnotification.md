@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b48a38ff-60b9-4c01-ac71-4ae07010db1f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUnregisterShutdownNotification, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], wdm/IoUnregisterShutdownNotification, k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, kernel.iounregistershutdownnotification
+ms.keywords: IoUnregisterShutdownNotification, wdm/IoUnregisterShutdownNotification, k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], kernel.iounregistershutdownnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoUnregisterShutdownNotification(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the driver's device object.
 
@@ -91,9 +91,9 @@ Calling <b>IoUnregisterShutdownNotification</b> cancels all shutdown notificatio
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
-
 <a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
+
+<a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
 
  
 

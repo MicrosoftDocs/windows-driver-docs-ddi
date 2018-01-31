@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: dccf1bca-6ea5-4cf0-b768-b569898c90e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMQueryFontData function [Print Devices], OEMQueryFontData, print.oemqueryfontdata, printoem/OEMQueryFontData, print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml
+ms.keywords: print.oemqueryfontdata, printoem/OEMQueryFontData, OEMQueryFontData function [Print Devices], print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml, OEMQueryFontData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,30 +74,30 @@ LONG APIENTRY OEMQueryFontData(
 
 
 
-### -param dhpdev
+#### - dhpdev
 
 
 
-### -param pfo
+#### - pfo
 
 
 
-### -param iMode
+#### - iMode
 
 
 
-### -param hg
+#### - hg
 
 
 
-### -param pgd
+#### - pgd
 
 
 
-### -param pv [out]
+#### - pv [out]
 
 
 
-### -param cjSize
+#### - cjSize
 
 

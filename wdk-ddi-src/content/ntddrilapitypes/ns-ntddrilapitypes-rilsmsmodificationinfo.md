@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8fed32a2-f0a7-4462-b8bb-b01c9cccf6b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], *LPRILSMSMODIFICATIONINFO, netvista.rilsmsmodificationinfo, ntddrilapitypes/RILSMSMODIFICATIONINFO
+ms.keywords: netvista.rilsmsmodificationinfo, ntddrilapitypes/RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], *LPRILSMSMODIFICATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,26 +72,26 @@ typedef struct _RILSMSMODIFICATIONINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwModificationType
+#### - dwModificationType
 
 
 
-### -field raAddress
+#### - raAddress
 
 
 
-### -field aiIdentifier
+#### - aiIdentifier
 
 

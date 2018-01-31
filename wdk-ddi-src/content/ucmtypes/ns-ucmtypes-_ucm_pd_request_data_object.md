@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtypes/UCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], PUCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, *PUCM_PD_REQUEST_DATA_OBJECT, _UCM_PD_REQUEST_DATA_OBJECT, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], UCM_PD_REQUEST_DATA_OBJECT
+ms.keywords: PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], ucmtypes/UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], _UCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCM_PD_REQUEST_DATA_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+req.typenames: "*PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -95,8 +95,23 @@ typedef union _UCM_PD_REQUEST_DATA_OBJECT {
 
 
 
-### -field Common
+#### - Common
 
+
+
+#### Reserved1
+
+Reserved.
+
+
+#### ObjectPosition
+
+Object position.
+
+
+#### Reserved2
+
+Reserved.
 
 
 ### -field Common.Reserved1
@@ -114,8 +129,55 @@ Object position.
 Reserved.
 
 
-### -field FixedAndVariableRdo
+#### - FixedAndVariableRdo
 
+
+
+#### MaximumOperatingCurrentIn10mA
+
+Maximum current in 10 mA units.
+
+
+#### OperatingCurrentIn10mA
+
+Operating current in 10mA units.
+
+
+#### Reserved1
+
+Reserved.
+
+
+#### NoUsbSuspend
+
+Indicates support for USB suspend.
+
+
+
+
+#### UsbCommunicationCapable
+
+USB communication capable. 
+
+
+#### CapabilityMismatch
+
+Capability Mismatch 
+
+
+#### GiveBackFlag
+
+GiveBack Flag.
+
+
+#### ObjectPosition
+
+Object Position.
+
+
+#### Reserved2
+
+Reserved for future use.
 
 
 ### -field FixedAndVariableRdo.MaximumOperatingCurrentIn10mA
@@ -165,8 +227,53 @@ Object Position.
 Reserved for future use.
 
 
-### -field BatteryRdo
+#### - BatteryRdo
 
+
+
+#### MaximumOperatingPowerIn250mW
+
+Maximum Operating Power in 250mW units. 
+
+
+#### OperatingPowerIn250mW
+
+Operating Power in 250mW units.
+
+
+#### Reserved1
+
+Reserved for future use.
+
+
+#### NoUsbSuspend
+
+ USB Suspend. 
+
+
+#### UsbCommunicationCapable
+
+USB Communications Capable.
+
+
+#### CapabilityMismatch
+
+Capability Mismatch. 
+
+
+#### GiveBackFlag
+
+GiveBack Flag. 
+
+
+#### ObjectPosition
+
+Object Position.
+
+
+#### Reserved2
+
+Reserved.
 
 
 ### -field BatteryRdo.MaximumOperatingPowerIn250mW
@@ -214,7 +321,7 @@ Object Position.
 Reserved.
 
 
-### -field Ul
+#### - Ul
 
 Size of the structure.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6aa00a36-f7a2-4e49-bbd9-1a1ae3592951
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_POWER_COMPONENT_MAPPING, _DXGK_POWER_COMPONENT_MAPPING, display.dxgk_power_component_mapping, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices]
+ms.keywords: display.dxgk_power_component_mapping, _DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,8 +78,13 @@ typedef struct _DXGK_POWER_COMPONENT_MAPPING {
 
 
 
-### -field EngineDesc
+#### - EngineDesc
 
+
+
+#### NodeIndex
+
+The index of the engine (node).
 
 
 ### -field EngineDesc.NodeIndex
@@ -87,8 +92,13 @@ typedef struct _DXGK_POWER_COMPONENT_MAPPING {
 The index of the engine (node).
 
 
-### -field MonitorRefreshDesc
+#### - MonitorRefreshDesc
 
+
+
+#### VidPnSourceID
+
+An identifier of one of the video present sources associated with the video present network object.
 
 
 ### -field MonitorRefreshDesc.VidPnSourceID
@@ -96,8 +106,13 @@ The index of the engine (node).
 An identifier of one of the video present sources associated with the video present network object.
 
 
-### -field MonitorDesc
+#### - MonitorDesc
 
+
+
+#### VidPnTargetID
+
+An identifier of one of the video present targets associated with the VidPN object.
 
 
 ### -field MonitorDesc.VidPnTargetID
@@ -115,16 +130,16 @@ An identifier of one of the video present targets associated with the VidPN obje
  
 
 
-### -field ComponentType
+#### - ComponentType
 
 A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>-typed value that indicates the power component type that is reported by the display miniport driver to the DirectX graphics kernel subsystem.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
 
  
 

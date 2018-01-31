@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4ec36054-ba61-4862-b185-7473a6806804
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_receive_filter_global_parameters, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, *PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, virtual_machine_queue_ref_b51ed6bf-8c3c-41f5-a9ef-a5ec3a720ef2.xml, ntddndis/PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
+ms.keywords: ntddndis/NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, *PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, netvista.ndis_receive_filter_global_parameters, ntddndis/PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, virtual_machine_queue_ref_b51ed6bf-8c3c-41f5-a9ef-a5ec3a720ef2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,7 +89,7 @@ typedef struct _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -111,12 +111,12 @@ The driver sets the
         <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_GLOBAL_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR of flags. This member is reserved for NDIS.
 
 
-### -field EnabledFilterTypes
+#### - EnabledFilterTypes
 
 A  bitwise OR of flags for types of enabled receive filters. The
      following filter type flag is valid.
@@ -135,7 +135,7 @@ Specifies that VMQ filters are enabled.
 Specifies that NDIS packet coalescing receive filters are enabled.
 
 
-### -field EnabledQueueTypes
+#### - EnabledQueueTypes
 
 A  bitwise OR of flags for types of enabled receive queues. The
      following queue type flag is valid.
@@ -161,10 +161,10 @@ The <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure is used in the
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <mshelp:link keywords="netvista.oid_receive_filter_global_parameters" tabindex="0">
    OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4A911BFF-5515-4E51-953D-86CECA123DA0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, windot11/DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, netvista.dot11_offload_network_status_parameters, windot11/PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
+ms.keywords: PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, netvista.dot11_offload_network_status_parameters, _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, *PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS"
+req.typenames: DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, *PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ typedef struct _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -92,7 +92,7 @@ The type, revision, and size of the DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS stru
 </table> 
 
 
-### -field Status
+#### - Status
 
 This must be STATUS_SUCCESS.
 

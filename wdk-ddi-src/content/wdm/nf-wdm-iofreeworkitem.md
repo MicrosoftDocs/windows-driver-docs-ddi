@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e0b0a4a3-6003-4b48-a3cf-570e5405fa5b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iofreeworkitem, wdm/IoFreeWorkItem, k104_7db57e08-0786-4f20-96d8-ecb7980a479c.xml, IoFreeWorkItem, IoFreeWorkItem routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoFreeWorkItem, k104_7db57e08-0786-4f20-96d8-ecb7980a479c.xml, IoFreeWorkItem, IoFreeWorkItem routine [Kernel-Mode Driver Architecture], kernel.iofreeworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoFreeWorkItem(
 
 
 
-### -param IoWorkItem [in]
+#### - IoWorkItem [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure that was returned by a previous call to <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>.
 

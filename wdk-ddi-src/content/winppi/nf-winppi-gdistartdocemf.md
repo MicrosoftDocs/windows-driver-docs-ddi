@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aca4534a-871e-4d86-b329-cb4f84611a29
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winppi/GdiStartDocEMF, GdiStartDocEMF function [Print Devices], gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml, GdiStartDocEMF, print.gdistartdocemf
+ms.keywords: GdiStartDocEMF function [Print Devices], gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml, GdiStartDocEMF, print.gdistartdocemf, winppi/GdiStartDocEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ BOOL GdiStartDocEMF(
 
 
 
-### -param SpoolFileHandle
+#### - SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 
 
-### -param pDocInfo
+#### - pDocInfo
 
 Caller-supplied pointer to a DOCINFOW structure (described in the Microsoft Window SDK documentation).
 

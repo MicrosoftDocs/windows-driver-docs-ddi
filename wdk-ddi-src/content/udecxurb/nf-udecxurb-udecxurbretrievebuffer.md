@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxurb/UdecxUrbRetrieveBuffer, buses.udecxurbretrievebuffer, UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses]
+ms.keywords: UdecxUrbRetrieveBuffer function [Buses], UdecxUrbRetrieveBuffer, udecxurb/UdecxUrbRetrieveBuffer, buses.udecxurbretrievebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUrbRetrieveBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH"
+req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ FORCEINLINE NTSTATUS UdecxUrbRetrieveBuffer(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
 
 
-### -param TransferBuffer [out]
+#### - TransferBuffer [out]
 
 A pointer to a buffer that receives the transfer buffer of an <a href="..\usb\ns-usb-_urb.md">URB</a>.
 
 
-### -param Length [out]
+#### - Length [out]
 
 A ULONG variable that receives  the length of the buffer pointer to by <i>TransferBuffer</i>.
 
@@ -124,11 +124,11 @@ The transfer buffer MDL was not valid.
 
 ## -see-also
 
+<a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-<a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
 
  
 

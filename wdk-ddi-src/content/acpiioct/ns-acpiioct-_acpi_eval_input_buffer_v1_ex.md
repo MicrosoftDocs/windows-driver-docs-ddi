@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3a5d4572-0455-4fd0-aeff-fc99d72433b6
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_EX, _ACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, acpi.acpi_eval_input_buffer_ex, ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX
+ms.keywords: PACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, ACPI_EVAL_INPUT_BUFFER_EX, _ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], acpi.acpi_eval_input_buffer_ex, ACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_INPUT_BUFFER_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_EX
+req.typenames: "*PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX"
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_V1_EX structure
@@ -68,12 +68,12 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_V1_EX {
 
 
 
-### -field Signature
+#### - Signature
 
 The signature of an input buffer that does not include an argument, which must be set to ACPI_EVAL_INPUT_BUFFER_SIGNATURE_EX.
 
 
-### -field MethodName
+#### - MethodName
 
 A NULL-terminated ASCII string that contains the path and name of a control method in an ACPI namespace. The maximum number of characters that the string can contain, including a NULL-terminator, is 256. For more information about how to supply the path and name of a control method, see the Remarks section later in this topic.
 

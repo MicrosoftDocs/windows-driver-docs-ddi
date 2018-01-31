@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50b85fc0-b84a-4c1d-9d7b-4b91150f8e76
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state, wwan/PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateInProgress, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, wwan/WwanVoiceCallStateNone, WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanVoiceCallStateMaximum, wwan/WWAN_VOICE_CALL_STATE, WwanVoiceCallStateHangUp, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateHangUp, WwanVoiceCallStateNone, WWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE"
+ms.keywords: wwan/PWWAN_VOICE_CALL_STATE, WwanVoiceCallStateInProgress, _WWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateNone, wwan/WwanVoiceCallStateMaximum, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanVoiceCallStateNone, WwanVoiceCallStateHangUp, wwan/WWAN_VOICE_CALL_STATE, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state, *PWWAN_VOICE_CALL_STATE, WwanVoiceCallStateMaximum, PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateInProgress, wwan/WwanVoiceCallStateHangUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,24 +72,24 @@ typedef enum _WWAN_VOICE_CALL_STATE {
 
 
 
-### -field WwanVoiceCallStateNone
+#### - WwanVoiceCallStateNone
 
 The device does not support voice calls, or there is no voice call currently in progress.
 
 
-### -field WwanVoiceCallStateInProgress
+#### - WwanVoiceCallStateInProgress
 
 A voice call is currently in progress. This value applies only to devices whose voice class is 
      <b>WwanVoiceClassSeparateVoiceData</b>.
 
 
-### -field WwanVoiceCallStateHangUp
+#### - WwanVoiceCallStateHangUp
 
 A voice call is completed. This value applies only to devices whose voice class is 
      <b>WwanVoiceClassSeparateVoiceData</b>.
 
 
-### -field WwanVoiceCallStateMaximum
+#### - WwanVoiceCallStateMaximum
 
 The total number of supported voice call states.
 

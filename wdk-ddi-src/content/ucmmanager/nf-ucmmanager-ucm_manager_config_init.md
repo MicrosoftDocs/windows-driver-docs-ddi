@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5247D5F0-8422-48C1-81AF-98C8A3537FAD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_MANAGER_CONFIG_INIT function [Buses], UCM_MANAGER_CONFIG_INIT, buses.ucm_manager_config_init, ucmmanager/UCM_MANAGER_CONFIG_INIT
+ms.keywords: UCM_MANAGER_CONFIG_INIT function [Buses], UCM_MANAGER_CONFIG_INIT, ucmmanager/UCM_MANAGER_CONFIG_INIT, buses.ucm_manager_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ FORCEINLINE void UCM_MANAGER_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a> structure to initialize.
 

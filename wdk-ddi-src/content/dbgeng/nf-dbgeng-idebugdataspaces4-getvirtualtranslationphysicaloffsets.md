@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 40438ee7-2e58-4048-8739-75f21179c22c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4, IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces_661959c5-a514-4651-8eaa-fd4c4fb94bd7.xml, dbgeng/IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets, debugger.getvirtualtranslationphysicaloffsets, dbgeng/IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces2 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces4 interface
+ms.keywords: GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces3 interface, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces2 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, debugger.getvirtualtranslationphysicaloffsets, IDebugDataSpaces4 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces3 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces4, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, dbgeng/IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces_661959c5-a514-4651-8eaa-fd4c4fb94bd7.xml, IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, dbgeng/IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetVirtualTranslationPhysicalOffsets(
 
 
 
-### -param Virtual [in]
+#### - Virtual [in]
 
 Specifies the location in the target's virtual address space to translate.
 
 
-### -param Offsets [out, optional]
+#### - Offsets [out, optional]
 
 Receives the physical addresses for the system paging structures.  If it is set to <b>NULL</b>, this information is not returned.
 
 
-### -param OffsetsSize [in]
+#### - OffsetsSize [in]
 
 Specifies the number of elements the array <i>Offsets</i> holds.  This is the maximum number of addresses that will be returned.
 
 
-### -param Levels [out, optional]
+#### - Levels [out, optional]
 
 Receives the number of levels in the paging hierarchy for the specified address.  If this is <b>NULL</b>, this information is not returned.
 

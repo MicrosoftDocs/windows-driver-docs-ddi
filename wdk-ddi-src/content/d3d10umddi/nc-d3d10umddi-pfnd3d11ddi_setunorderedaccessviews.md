@@ -40,7 +40,7 @@ apiname:
 -	CsSetUnorderedAccessViews
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11DDI_SETUNORDEREDACCESSVIEWS callback
@@ -82,7 +82,7 @@ VOID APIENTRY CsSetUnorderedAccessViews(
 
 
 
-### -param NumViews [in]
+#### - NumViews [in]
 
  The total number of views to set. 
 

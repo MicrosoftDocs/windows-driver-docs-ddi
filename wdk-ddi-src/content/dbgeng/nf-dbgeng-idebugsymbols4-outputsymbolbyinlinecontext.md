@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 55BA214C-7161-4B2C-8107-11EE22D63CD6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols4_outputsymbolbyinlinecontext, OutputSymbolByInlineContext, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4::OutputSymbolByInlineContext, IDebugSymbols4
+ms.keywords: OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, debugger.idebugsymbols4_outputsymbolbyinlinecontext, IDebugSymbols4, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT OutputSymbolByInlineContext(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 An output control.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 An offset.
 
 
-### -param InlineContext [in]
+#### - InlineContext [in]
 
 An inline context.
 

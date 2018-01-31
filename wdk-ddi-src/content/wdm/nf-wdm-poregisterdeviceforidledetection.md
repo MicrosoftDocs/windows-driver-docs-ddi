@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f786fa36-1faa-4e12-aec1-872b44c01a85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], kernel.poregisterdeviceforidledetection, PoRegisterDeviceForIdleDetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection
+ms.keywords: PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], kernel.poregisterdeviceforidledetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ PULONG PoRegisterDeviceForIdleDetection(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the driver-created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for the device. On Windows 2000 and later systems, this parameter can point to a physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>) or a functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>). On Windows 98/Me, this parameter must point to the PDO of the underlying device.
 
 
-### -param ConservationIdleTime [in]
+#### - ConservationIdleTime [in]
 
 Sets the time-out value (in seconds) to apply when the system power policy optimizes for energy conservation. Specify zero to disable idle detection when conservation policy is in effect.
 
 
-### -param PerformanceIdleTime [in]
+#### - PerformanceIdleTime [in]
 
 Sets the time-out value (in seconds) to apply when the system power policy optimizes for performance. Specify zero to disable idle detection when performance policy is in effect.
 
 
-### -param State [in]
+#### - State [in]
 
 Specifies the <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> to be requested in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request when either <i>ConservationIdleTime</i> or <i>PerformanceIdleTime</i> has been met. Possible values are the <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> values.
 

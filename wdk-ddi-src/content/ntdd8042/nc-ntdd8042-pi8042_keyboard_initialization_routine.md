@@ -40,7 +40,7 @@ apiname:
 -	KeyboardInitializationRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback
@@ -74,27 +74,27 @@ NTSTATUS KeyboardInitializationRoutine(
 
 
 
-### -param InitializationContext [in]
+#### - InitializationContext [in]
 
 Pointer to the filter device object of the driver that supplies the callback.
 
 
-### -param SynchFuncContext [in]
+#### - SynchFuncContext [in]
 
 Pointer to the context for the callbacks that are pointed to by <i>ReadPort</i> and <i>Writeport.</i>
 
 
-### -param ReadPort [in]
+#### - ReadPort [in]
 
 Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a> callback that reads from the port.
 
 
-### -param WritePort [in]
+#### - WritePort [in]
 
 Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a> callback that writes to the port.
 
 
-### -param TurnTranslationOn [out]
+#### - TurnTranslationOn [out]
 
 Specifies whether to turn translation on or off. If <i>TranslationOn</i> is <b>TRUE</b>, translation is turned on; otherwise, translation is turned off.
 
@@ -117,9 +117,9 @@ If an upper-level keyboard filter driver supplies an initialization callback, I8
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
-
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a>
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
 
  
 

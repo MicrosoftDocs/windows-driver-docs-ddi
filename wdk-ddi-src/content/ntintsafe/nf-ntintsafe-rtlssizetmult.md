@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43FFE47F-C8A3-49B4-B61A-3EAF3841037D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlSSIZETMult, kernel.rtlssizetmult, RtlSSIZETMult, RtlSSIZETMult function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlSSIZETMult function [Kernel-Mode Driver Architecture], RtlSSIZETMult, kernel.rtlssizetmult, ntintsafe/RtlSSIZETMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlSSIZETMult(
 
 
 
-### -param Multiplicand [in]
+#### - Multiplicand [in]
 
 The value to be multiplied by <i>Multiplier</i>.
 
 
-### -param Multiplier [in]
+#### - Multiplier [in]
 
 The value by which to multiply <i>Multiplicand</i>.
 
 
-### -param pResult [out]
+#### - pResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

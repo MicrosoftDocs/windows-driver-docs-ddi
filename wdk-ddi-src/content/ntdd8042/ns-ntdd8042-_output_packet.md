@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*POUTPUT_PACKET, ntdd8042/POUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices], POUTPUT_PACKET structure pointer [Human Input Devices], _OUTPUT_PACKET, POUTPUT_PACKET, ntdd8042/OUTPUT_PACKET, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, hid.output_packet, OUTPUT_PACKET"
+ms.keywords: ntdd8042/POUTPUT_PACKET, *POUTPUT_PACKET, OUTPUT_PACKET, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, hid.output_packet, _OUTPUT_PACKET, POUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], ntdd8042/OUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _OUTPUT_PACKET {
 
 
 
-### -field Bytes
+#### - Bytes
 
 Pointer to an array of bytes being written to an i8042 port device.
 
 
-### -field CurrentByte
+#### - CurrentByte
 
 Specifies the index of the next byte to write.
 
 
-### -field ByteCount
+#### - ByteCount
 
 Specifies the number of bytes in the array of bytes located at <b>Bytes</b>.
 
 
-### -field State
+#### - State
 
 Specifies one of the following write states:
 <div class="code"><span codelanguage=""><table>
@@ -124,11 +124,11 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 <a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
 
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
+
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
 
  
 

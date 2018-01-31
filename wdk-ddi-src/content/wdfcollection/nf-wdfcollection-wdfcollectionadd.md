@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCollectionAdd method, wdfcollection/WdfCollectionAdd, DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, wdf.wdfcollectionadd, kmdf.wdfcollectionadd, WdfCollectionAdd, PFN_WDFCOLLECTIONADD
+ms.keywords: PFN_WDFCOLLECTIONADD, wdf.wdfcollectionadd, WdfCollectionAdd, WdfCollectionAdd method, kmdf.wdfcollectionadd, DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, wdfcollection/WdfCollectionAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfCollectionAdd(
 
 
 
-### -param Collection [in]
+#### - Collection [in]
 
 A handle to a collection object.
 
 
-### -param Object [in]
+#### - Object [in]
 
 A handle to the framework object that will be added to the collection.
 
@@ -123,9 +123,9 @@ For more information about object collections, see <a href="https://docs.microso
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md">WdfCollectionRemoveItem</a>
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md">WdfCollectionCreate</a>
 

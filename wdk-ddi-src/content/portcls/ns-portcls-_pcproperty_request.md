@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3683735d-ce00-4615-9782-dee9f4753cc7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcproperty_request, portcls/PCPROPERTY_REQUEST, portcls/PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST, audpc-struct_f153c6fb-8b21-4a81-ab9b-d7b7fef9f9db.xml, PCPROPERTY_REQUEST structure [Audio Devices], *PPCPROPERTY_REQUEST, PPCPROPERTY_REQUEST, PPCPROPERTY_REQUEST structure pointer [Audio Devices], _PCPROPERTY_REQUEST
+ms.keywords: audpc-struct_f153c6fb-8b21-4a81-ab9b-d7b7fef9f9db.xml, portcls/PPCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST, portcls/PCPROPERTY_REQUEST, PCPROPERTY_REQUEST structure [Audio Devices], _PCPROPERTY_REQUEST, audio.pcproperty_request, PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST, PPCPROPERTY_REQUEST structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCPROPERTY_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: PCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST
+req.typenames: "*PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST"
 ---
 
 # _PCPROPERTY_REQUEST structure
@@ -76,29 +76,29 @@ typedef struct _PCPROPERTY_REQUEST {
 
 
 
-### -field MajorTarget
+#### - MajorTarget
 
 
 <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer to the main miniport object. This member contains the <i>UnknownMiniport</i> parameter value that the adapter driver previously passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a> method.
 
 
-### -field MinorTarget
+#### - MinorTarget
 
 
 <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer to a stream object that is associated with the <b>MajorTarget</b> miniport object. If the target for the property request is a pin instance, this member contains the stream-object pointer that the IMiniport <i>Xxx</i>::NewStream method previously output to the port driver (for example, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a> method's <i>Stream</i> parameter). Otherwise (if the target for the property request is a filter instance), this member is <b>NULL</b>.
 
 
-### -field Node
+#### - Node
 
 Specifies a node ID. This member identifies the target node for the request. If the target is not a node, this member is set to ULONG(-1).
 
 
-### -field PropertyItem
+#### - PropertyItem
 
 Pointer to the property item, which is a structure of type <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a>.
 
 
-### -field Verb
+#### - Verb
 
 Specifies the type of property request. <b>Verb</b> is set to the bitwise OR of one or more of the following flag bits from header file ks.h:
 <ul>
@@ -153,27 +153,27 @@ KSPROPERTY_TYPE_TOPOLOGY
 </ul>These flags are described in <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
 
 
-### -field InstanceSize
+#### - InstanceSize
 
 Specifies the size in bytes of the property-instance buffer.
 
 
-### -field Instance
+#### - Instance
 
 Pointer to the property-instance buffer
 
 
-### -field ValueSize
+#### - ValueSize
 
 Specifies the size in bytes of the property-value buffer.
 
 
-### -field Value
+#### - Value
 
 Pointer to the property-value buffer
 
 
-### -field Irp
+#### - Irp
 
 Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> containing the client's original property request
 
@@ -205,13 +205,13 @@ The handler can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a>
-
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty_audio_channel.md">KSNODEPROPERTY_AUDIO_CHANNEL</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a>
+
 <a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksnodeproperty_audio_channel.md">KSNODEPROPERTY_AUDIO_CHANNEL</a>
 
  
 

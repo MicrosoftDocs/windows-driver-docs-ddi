@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D172D39-0D28-4950-B428-330D5B4D0654
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress, PFN_WDFDEVICEGETHARDWAREREGISTERMAPPEDADDRESS, wdf.wdfdevicegethardwareregistermappedaddress, WdfDeviceGetHardwareRegisterMappedAddress function
+ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress function, wdf.wdfdevicegethardwareregistermappedaddress, WdfDeviceGetHardwareRegisterMappedAddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress, PFN_WDFDEVICEGETHARDWAREREGISTERMAPPEDADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ PVOID WdfDeviceGetHardwareRegisterMappedAddress(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PseudoBaseAddress [in]
+#### - PseudoBaseAddress [in]
 
 The address of a location that receives a pointer to the pseudo base address.
 
@@ -106,9 +106,9 @@ If you do use <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, you must set the
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
-
 <a href="https://msdn.microsoft.com/94852404-301F-4C09-81D2-CEDEECFCD6BD">IWDFDevice3::GetHardwareRegisterMappedAddress</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
 
  
 

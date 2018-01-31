@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRT, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, Init method [Audio Devices], IMiniportWaveRT interface, portcls/IMiniportWaveRT::Init, IMiniportWaveRT interface [Audio Devices], Init method, IMiniportWaveRT::Init, audio.iminiportwavert_init, Init method [Audio Devices], Init
+ms.keywords: IMiniportWaveRT interface [Audio Devices], Init method, IMiniportWaveRT, Init method [Audio Devices], Init, audio.iminiportwavert_init, IMiniportWaveRT::Init, portcls/IMiniportWaveRT::Init, Init method [Audio Devices], IMiniportWaveRT interface, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRT.Init
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRT::Init method
@@ -69,17 +69,17 @@ NTSTATUS Init(
 
 
 
-### -param UnknownAdapter [in]
+#### - UnknownAdapter [in]
 
 Pointer to the <b>IUnknown</b> interface of the adapter driver object whose miniport driver object is being initialized.
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> interface of a resource-list object. This object specifies the list of hardware resources that the adapter driver has allocated to the miniport driver. The WaveRT port driver can examine the contents of the resource list, but it does not modify the list.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a> interface of the WaveRT port driver. The caller specifies a valid, non-NULL pointer value for this parameter.
 

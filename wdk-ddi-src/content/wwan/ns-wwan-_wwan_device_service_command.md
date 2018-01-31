@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 475D7ECF-B8A8-445D-8ED7-029BD57C8C48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_DEVICE_SERVICE_COMMAND, _WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_COMMAND, *PWWAN_DEVICE_SERVICE_COMMAND, netvista.wwan_device_service_command, WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_DEVICE_SERVICE_COMMAND, _WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SERVICE_COMMAND, wwan/PWWAN_DEVICE_SERVICE_COMMAND, wwan/WWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_device_service_command, WWAN_DEVICE_SERVICE_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND"
+req.typenames: WWAN_DEVICE_SERVICE_COMMAND, *PWWAN_DEVICE_SERVICE_COMMAND
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _WWAN_DEVICE_SERVICE_COMMAND {
 
 
 
-### -field DeviceServiceGuid
+#### - DeviceServiceGuid
 
 The GUID of the device service that the command targets.
 
 
-### -field CommandID
+#### - CommandID
 
 The ID for the command.
 
 
-### -field uDataSize
+#### - uDataSize
 
 The size, in bytes, of the device service command data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxCommandDataSize</b> member of the <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
 

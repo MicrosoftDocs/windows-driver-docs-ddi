@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a7db6bd2-7c04-4bfc-b4b4-db1f99520e56
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_MULTI_READ, ntddmmc/FEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ, PFEATURE_DATA_MULTI_READ structure pointer [Storage Devices], structs-CD-ROM_687fe1cb-1667-4650-97c5-d6e4af7df2af.xml, ntddmmc/PFEATURE_DATA_MULTI_READ, storage.feature_data_multi_read, FEATURE_DATA_MULTI_READ structure [Storage Devices], *PFEATURE_DATA_MULTI_READ, PFEATURE_DATA_MULTI_READ"
+ms.keywords: FEATURE_DATA_MULTI_READ structure [Storage Devices], PFEATURE_DATA_MULTI_READ structure pointer [Storage Devices], storage.feature_data_multi_read, ntddmmc/FEATURE_DATA_MULTI_READ, _FEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ, structs-CD-ROM_687fe1cb-1667-4650-97c5-d6e4af7df2af.xml, ntddmmc/PFEATURE_DATA_MULTI_READ, PFEATURE_DATA_MULTI_READ, *PFEATURE_DATA_MULTI_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_MULTI_READ
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_DATA_MULTI_READ, *PFEATURE_DATA_MULTI_READ
+req.typenames: "*PFEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ"
 ---
 
 # _FEATURE_DATA_MULTI_READ structure
@@ -67,7 +67,7 @@ typedef struct _FEATURE_DATA_MULTI_READ {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 

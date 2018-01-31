@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D5C9EF42-B6FE-4472-8188-2B23F87FA475
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_PERF_STATE, PEP_PERF_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_perf_state, PPEP_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_PERF_STATE, PPEP_PERF_STATE, *PPEP_PERF_STATE, pepfx/PEP_PERF_STATE, _PEP_PERF_STATE
+ms.keywords: pepfx/PPEP_PERF_STATE, *PPEP_PERF_STATE, PPEP_PERF_STATE, kernel.pep_perf_state, pepfx/PEP_PERF_STATE, PEP_PERF_STATE structure [Kernel-Mode Driver Architecture], PEP_PERF_STATE, PPEP_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PEP_PERF_STATE {
 
 
 
-### -field Value
+#### - Value
 
 The discrete value represented by this P-state. For more information, see Remarks.
 
 
-### -field Context
+#### - Context
 
 A pointer to PEP-defined context data. The PEP uses this context to contain additional information about the discrete performance level that cannot be expressed in the <b>Value</b> member. This context is opaque to the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The <b>Context</b> member is optional and can be set to NULL.
 

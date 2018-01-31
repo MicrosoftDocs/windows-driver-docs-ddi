@@ -73,7 +73,7 @@ VOID WINAPI BluetoothPortIndicationCallbackEnhanced(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 For
      changes to existing L2CAP connections, this is the 
@@ -81,14 +81,14 @@ For
      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_enhanced_channel.md">_BRB_L2CA_OPEN_ENHANCED_CHANNEL</a> structure.
 
 
-### -param Indication [in]
+#### - Indication [in]
 
 An 
      <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a> value that indicates the type
      of L2CAP event.
 
 
-### -param Parameters [in]
+#### - Parameters [in]
 
 An 
      <a href="..\bthddi\ns-bthddi-_indication_parameters_enhanced.md">INDICATION_PARAMETERS_ENHANCED</a> structure that

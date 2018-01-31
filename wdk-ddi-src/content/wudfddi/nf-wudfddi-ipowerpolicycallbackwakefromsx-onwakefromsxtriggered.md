@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2379f2d-61a0-4741-a375-c17b95b0faf6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx interface, OnWakeFromSxTriggered method, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered
+ms.keywords: IPowerPolicyCallbackWakeFromSx interface, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx interface, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, OnWakeFromSxTriggered, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void OnWakeFromSxTriggered(
 
 
 
-### -param pWdfDevice [in]
+#### - pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 

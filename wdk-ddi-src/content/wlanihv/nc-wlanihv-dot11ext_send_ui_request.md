@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSendUIRequest
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ DWORD WINAPI * Dot11ExtSendUIRequest(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -81,7 +81,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-### -param pIhvUIRequest [in]
+#### - pIhvUIRequest [in]
 
 A pointer to a caller-allocated buffer, formatted as a 
      <mshelp:link keywords="netvista.dot11ext_ihv_ui_request" tabindex="0"><b>
@@ -133,17 +133,17 @@ The operating system can query the completion status of the request through a ca
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
-   Dot11ExtIhvProcessUIResponse</i></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
 <mshelp:link keywords="netvista.dot11extihvisuirequestpending" tabindex="0"><i>
    Dot11ExtIhvIsUIRequestPending</i></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
+<mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
+   Dot11ExtIhvProcessUIResponse</i></mshelp:link>
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
  
 

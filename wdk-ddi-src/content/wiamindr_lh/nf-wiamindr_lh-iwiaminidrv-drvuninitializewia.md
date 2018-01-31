@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 974de3b5-c129-42ee-a522-071c26726cf1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, image.iwiaminidrv_drvuninitializewia, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia, drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml
+ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, IWiaMiniDrv, IWiaMiniDrv::drvUnInitializeWia, image.iwiaminidrv_drvuninitializewia, drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvUnInitializeWia method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia, drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvUnInitializeWia
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 905BA306-29A5-4AAB-BA30-6B459E0062F6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ursdevice/UrsSetHardwareEventSupport, UrsSetHardwareEventSupport, buses.urssethardwareeventsupport, UrsSetHardwareEventSupport function [Buses]
+ms.keywords: UrsSetHardwareEventSupport, ursdevice/UrsSetHardwareEventSupport, buses.urssethardwareeventsupport, UrsSetHardwareEventSupport function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE void UrsSetHardwareEventSupport(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-### -param HardwareEventReportingSupported [in]
+#### - HardwareEventReportingSupported [in]
 
 A boolean value that indicates support for  reporting hardware events. 
 

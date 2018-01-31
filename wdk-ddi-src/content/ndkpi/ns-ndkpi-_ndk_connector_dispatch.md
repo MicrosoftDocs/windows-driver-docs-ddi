@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BBC24A32-4CB6-47AB-BD1D-298159EC9919
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH, ndkpi/PNDK_CONNECTOR_DISPATCH, netvista.ndk_connector_dispatch, _NDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndk_connector_dispatch, ndkpi/PNDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH, _NDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_CONNECTOR_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _NDK_CONNECTOR_DISPATCH {
 
 
 
-### -field NdkCloseConnector
+#### - NdkCloseConnector
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a> dispatch function.
 
 
-### -field NdkQueryExtension
+#### - NdkQueryExtension
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
-### -field NdkConnect
+#### - NdkConnect
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a> dispatch function.
 
 
-### -field NdkConnectWithSharedEndpoint
+#### - NdkConnectWithSharedEndpoint
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_with_shared_endpoint.md">NDK_FN_CONNECT_WITH_SHARED_ENDPOINT</a> dispatch function.
 
 
-### -field NdkCompleteConnect
+#### - NdkCompleteConnect
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a> dispatch function.
 
 
-### -field NdkAccept
+#### - NdkAccept
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a> dispatch function.
 
 
-### -field NdkReject
+#### - NdkReject
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_reject.md">NDK_FN_REJECT</a> dispatch function.
 
 
-### -field NdkGetConnectionData
+#### - NdkGetConnectionData
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a> dispatch function.
 
 
-### -field NdkGetLocalAddress
+#### - NdkGetLocalAddress
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_address.md">NDK_FN_GET_LOCAL_ADDRESS</a> dispatch function.
 
 
-### -field NdkGetPeerAddress
+#### - NdkGetPeerAddress
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_peer_address.md">NDK_FN_GET_PEER_ADDRESS</a> dispatch function.
 
 
-### -field NdkDisconnect
+#### - NdkDisconnect
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a> dispatch function.
 
@@ -141,29 +141,29 @@ The <b>NDK_CONNECTOR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_with_shared_endpoint.md">NDK_FN_CONNECT_WITH_SHARED_ENDPOINT</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_reject.md">NDK_FN_REJECT</a>
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_peer_address.md">NDK_FN_GET_PEER_ADDRESS</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_address.md">NDK_FN_GET_LOCAL_ADDRESS</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a>
 
  
 

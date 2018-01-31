@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 571ed880-a4c6-4eb1-a254-c1faf2a589d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY, display.d3d11_1ddiarg_signature_entry, D3D11_1DDIARG_SIGNATURE_ENTRY
+ms.keywords: D3D11_1DDIARG_SIGNATURE_ENTRY, d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY, D3D11_1DDIARG_SIGNATURE_ENTRY structure [Display Devices], display.d3d11_1ddiarg_signature_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct D3D11_1DDIARG_SIGNATURE_ENTRY {
 
 
 
-### -field SystemValue
+#### - SystemValue
 
 [in] The <b>D3D10_SB_NAME</b>-typed value that indicates the system name of the signature entry. The <b>D3D10_SB_NAME</b> enumeration is defined in the D3d10tokenizedprogramformat.hpp header file. One of the following values can be set.
 <table>
@@ -182,24 +182,24 @@ Is front face.
 </table> 
 
 
-### -field Register
+#### - Register
 
 [in] The number of the register for the signature entry.
 
 
-### -field Mask
+#### - Mask
 
 [in] The xyzw mask for the signature entry. The four least significant bits (LSBs) of the mask represent xyzw respectively.
 
 
-### -field RegisterComponentType
+#### - RegisterComponentType
 
 A  <b>D3D10_SB_REGISTER_COMPONENT_TYPE</b> type that indicates the register component type.
 
 The <b>D3D10_SB_REGISTER_COMPONENT_TYPE</b> enumeration is defined in the D3d10tokenizedprogramformat.hpp header file.
 
 
-### -field MinPrecision
+#### - MinPrecision
 
 A <b>D3D11_SB_OPERAND_MIN_PRECISION</b> type that indicates a minimum precision of source and destination operands.
 

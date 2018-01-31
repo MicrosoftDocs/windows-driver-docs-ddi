@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D5FC1963-4D68-4138-957B-3F39207C6D57
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmtcpci_port_controller_displayport_pin_assignment, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerPinAssignmentInvalid, UcmTcpciPortControllerDFPDPinAssignmentA, UcmTcpciPortControllerUFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentE, UcmTcpciPortControllerDFPDPinAssignmentF, UcmTcpciPortControllerDFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentB, UcmTcpciPortControllerDFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentA, UcmTcpciPortControllerDFPDPinAssignmentC, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentD, UcmTcpciPortControllerPinAssignmentInvalid, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UcmTcpciPortControllerDFPDPinAssignmentB, UcmTcpciPortControllerUFPDPinAssignmentC, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentF, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentC, UcmTcpciPortControllerUFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentB, UcmTcpciPortControllerUFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentA, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration [Buses], UcmTcpciPortControllerUFPDPinAssignmentB
+ms.keywords: ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentC, UcmTcpciPortControllerDFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentB, UcmTcpciPortControllerDFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentF, UcmTcpciPortControllerDFPDPinAssignmentD, UcmTcpciPortControllerUFPDPinAssignmentB, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentC, UcmTcpciPortControllerUFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentD, UcmTcpciPortControllerUFPDPinAssignmentE, UcmTcpciPortControllerUFPDPinAssignmentA, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration [Buses], buses.ucmtcpci_port_controller_displayport_pin_assignment, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerPinAssignmentInvalid, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentB, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UcmTcpciPortControllerDFPDPinAssignmentB, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentA, UcmTcpciPortControllerDFPDPinAssignmentE, UcmTcpciPortControllerUFPDPinAssignmentC, UcmTcpciPortControllerDFPDPinAssignmentF, UcmTcpciPortControllerPinAssignmentInvalid, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentE, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,62 +78,62 @@ typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT {
 
 
 
-### -field UcmTcpciPortControllerPinAssignmentInvalid
+#### - UcmTcpciPortControllerPinAssignmentInvalid
 
 Invalid pin assignment.
 
 
-### -field UcmTcpciPortControllerDFPDPinAssignmentA
+#### - UcmTcpciPortControllerDFPDPinAssignmentA
 
 TBD
 
 
-### -field UcmTcpciPortControllerDFPDPinAssignmentB
+#### - UcmTcpciPortControllerDFPDPinAssignmentB
 
 TBD
 
 
-### -field UcmTcpciPortControllerDFPDPinAssignmentC
+#### - UcmTcpciPortControllerDFPDPinAssignmentC
 
 TBD
 
 
-### -field UcmTcpciPortControllerDFPDPinAssignmentD
+#### - UcmTcpciPortControllerDFPDPinAssignmentD
 
 TBD
 
 
-### -field UcmTcpciPortControllerDFPDPinAssignmentE
+#### - UcmTcpciPortControllerDFPDPinAssignmentE
 
 TBD
 
 
-### -field UcmTcpciPortControllerDFPDPinAssignmentF
+#### - UcmTcpciPortControllerDFPDPinAssignmentF
 
 TBD
 
 
-### -field UcmTcpciPortControllerUFPDPinAssignmentA
+#### - UcmTcpciPortControllerUFPDPinAssignmentA
 
 TBD
 
 
-### -field UcmTcpciPortControllerUFPDPinAssignmentB
+#### - UcmTcpciPortControllerUFPDPinAssignmentB
 
 TBD
 
 
-### -field UcmTcpciPortControllerUFPDPinAssignmentC
+#### - UcmTcpciPortControllerUFPDPinAssignmentC
 
 TBD
 
 
-### -field UcmTcpciPortControllerUFPDPinAssignmentD
+#### - UcmTcpciPortControllerUFPDPinAssignmentD
 
 TBD
 
 
-### -field UcmTcpciPortControllerUFPDPinAssignmentE
+#### - UcmTcpciPortControllerUFPDPinAssignmentE
 
 TBD
 

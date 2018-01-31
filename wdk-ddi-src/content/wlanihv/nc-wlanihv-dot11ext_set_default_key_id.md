@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetDefaultKeyId
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ DWORD WINAPI * Dot11ExtSetDefaultKeyId(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -80,7 +80,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-### -param uDefaultKeyId [in]
+#### - uDefaultKeyId [in]
 
 The index value of the key within the adapter's default or per-station cipher key tables.
      

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6eb56c5b-d198-4542-a239-c54b49561196
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDpcCancel, kmdf.wdfdpccancel, wdf.wdfdpccancel, DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, wdfdpc/WdfDpcCancel, WdfDpcCancel method
+ms.keywords: kmdf.wdfdpccancel, wdfdpc/WdfDpcCancel, WdfDpcCancel, wdf.wdfdpccancel, WdfDpcCancel method, DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ BOOLEAN WdfDpcCancel(
 
 
 
-### -param Dpc [in]
+#### - Dpc [in]
 
 A handle to a framework DPC object.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 A Boolean value that, if <b>TRUE</b>, indicates that the <b>WdfDpcCancel</b> method will not return until the DPC object's <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function is either canceled or finishes executing. If <b>FALSE</b>, the <b>WdfDpcCancel</b> method returns immediately.
 

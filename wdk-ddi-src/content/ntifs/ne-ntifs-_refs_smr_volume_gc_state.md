@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9E75F65A-6E9C-485F-9437-30CB01A5F317
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SmrGcStateActive, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers], PREFS_SMR_VOLUME_GC_STATE, SmrGcStateInactive, ntifs/SmrGcStateInactive, ntifs/SmrGcStatePaused, SmrGcStateActiveFullSpeed, REFS_SMR_VOLUME_GC_STATE, *PREFS_SMR_VOLUME_GC_STATE, ntifs/REFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActiveFullSpeed, SmrGcStateActive, SmrGcStatePaused, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], ntifs/PREFS_SMR_VOLUME_GC_STATE, ifsk.refs_smr_volume_gc_state, _REFS_SMR_VOLUME_GC_STATE
+ms.keywords: ntifs/REFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActiveFullSpeed, ifsk.refs_smr_volume_gc_state, ntifs/PREFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStatePaused, SmrGcStateActiveFullSpeed, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers], _REFS_SMR_VOLUME_GC_STATE, *PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActive, ntifs/SmrGcStateInactive, SmrGcStateInactive, REFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], SmrGcStatePaused, SmrGcStateActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	REFS_SMR_VOLUME_GC_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PREFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE"
+req.typenames: REFS_SMR_VOLUME_GC_STATE, *PREFS_SMR_VOLUME_GC_STATE
 ---
 
 # _REFS_SMR_VOLUME_GC_STATE enumeration
@@ -70,22 +70,22 @@ typedef enum _REFS_SMR_VOLUME_GC_STATE {
 
 
 
-### -field SmrGcStateInactive
+#### - SmrGcStateInactive
 
 Specifies the garbage collection is inactive.
 
 
-### -field SmrGcStatePaused
+#### - SmrGcStatePaused
 
  Specifies the garbage collection has been paused.
 
 
-### -field SmrGcStateActive
+#### - SmrGcStateActive
 
 Specifies the garbage collection is running.
 
 
-### -field SmrGcStateActiveFullSpeed
+#### - SmrGcStateActiveFullSpeed
 
 Specifies the garbage collection is running at full speed.
 

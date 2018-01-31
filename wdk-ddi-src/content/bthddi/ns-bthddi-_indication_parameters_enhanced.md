@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, _INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, bthddi/INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices]"
+ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], bthddi/INDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED, _INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], bthddi/PINDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,8 +104,49 @@ typedef struct _INDICATION_PARAMETERS_ENHANCED {
 
 
 
-### -field Parameters
+#### - Parameters
 
+
+
+#### Connect
+
+The structure that contains parameters for the 
+      <i>IndicationRemoteConnect</i> callback function.
+
+
+#### ConfigRequest
+
+The structure that contains parameters for the 
+      <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
+
+
+#### ConfigResponse
+
+The structure that contains parameters for the 
+      <i>IndicationRemoteConfigResponse</i> INDICATION_CODE value.
+
+
+#### FreeExtraOptions
+
+The structure that contains parameters for the 
+      <i>IndicationFreeExtraOptions</i> INDICATION_CODE value.
+
+
+#### Disconnect
+
+The structure that contains the parameters for the 
+      <i>IndicationRemoteDisconnect</i> INDICATION_CODE value.
+
+
+#### RecvPacket
+
+The structure that contains the parameters for the 
+      <i>IndicationRecvPacket</i> INDICATION_CODE value.
+
+
+#### Reserved
+
+Reserved member. Do not use.
 
 
 ### -field Parameters.Connect
@@ -114,9 +155,21 @@ The structure that contains parameters for the
       <i>IndicationRemoteConnect</i> callback function.
 
 
+#### Connect.Request
+
+The structure that contains the parameters for a connection request.
+
+
 ### -field Parameters.Connect.Request
 
 The structure that contains the parameters for a connection request.
+
+
+#### Connect.Request.PSM
+
+The Protocol/Service Multiplexer (PSM) that is passed to the calling function when the 
+        <i>IndicationRemoteConnect</i> INDICATION_CODE value is specified in the enhanced callback function's 
+        <i>Indication</i> parameter.
 
 
 ### -field Parameters.Connect.Request.PSM
@@ -130,6 +183,93 @@ The Protocol/Service Multiplexer (PSM) that is passed to the calling function wh
 
 The structure that contains parameters for the 
       <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
+
+
+#### ConfigRequest.CurrentParams
+
+A 
+       <a href="..\bthddi\ns-bthddi-_channel_config_parameters_enhanced.md">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       value is only valid if the channel was previously open and is now in the process of being configured.
+       This member is used when the callback function specifies the 
+       <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
+
+
+#### ConfigRequest.RequestedParams
+
+A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameters that are passed from the
+       remote host for configuration requests. This member is used when the callback function specifies the 
+       <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
+
+
+#### ConfigRequest.ResponseParams
+
+A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameters that the profile driver
+       responds to the configuration request with.
+
+
+#### ConfigRequest.Response
+
+A flag that indicates the status of the configuration request. Valid flag values are listed in
+       the following table.
+       
+<table>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_SUCCESS
+
+</td>
+<td>
+The configuration request was successful.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_DISCONNECT
+
+</td>
+<td>
+The configuration request failed because the enhanced L2CAP connection was disconnected.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_INVALID_PARAMETER
+
+</td>
+<td>
+The configuration request failed because an invalid parameter was passed to the profile
+          driver.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_REJECT
+
+</td>
+<td>
+The profile driver rejected the configuration request.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_UNKNOWN_OPTION
+
+</td>
+<td>
+The configuration request failed because one of the specified configuration options was not
+          recognized by the profile driver.
+
+</td>
+</tr>
+</table> 
 
 
 ### -field Parameters.ConfigRequest.CurrentParams
@@ -223,6 +363,110 @@ The configuration request failed because one of the specified configuration opti
 
 The structure that contains parameters for the 
       <i>IndicationRemoteConfigResponse</i> INDICATION_CODE value.
+
+
+#### ConfigResponse.CurrentParams
+
+A 
+       <a href="..\bthddi\ns-bthddi-_channel_config_parameters_enhanced.md">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       value is only valid if the channel was previously open and is now in the process of being configured.
+       This member is used when the callback function specifies the 
+       <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
+
+
+#### ConfigResponse.RequestedParams
+
+A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameters that are passed from the
+       remote host for configuration requests. This member is used when the callback function specifies the 
+       <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
+
+
+#### ConfigResponse.RejectedParams
+
+A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the configuration parameter settings that
+       were rejected by the remote device.
+
+
+#### ConfigResponse.UnknownTypes
+
+An array of types that were not recognized by the responding device.
+
+
+#### ConfigResponse.NumUnknownTypes
+
+The number of unrecognized types in the 
+       <b>UnknownTypes</b> member.
+
+
+#### ConfigResponse.NewRequestParams
+
+A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameter settings for the enhanced callback
+       function to resubmit after the response has returned from the remote device.
+
+
+#### ConfigResponse.Response
+
+A flag that indicates the status of the configuration request. Valid flag values are listed in
+       the following table.
+       
+<table>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_SUCCESS
+
+</td>
+<td>
+The configuration request was successful.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_DISCONNECT
+
+</td>
+<td>
+The configuration request failed because the enhanced L2CAP connection was disconnected.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_INVALID_PARAMETER
+
+</td>
+<td>
+The configuration request failed because an invalid parameter was passed to the profile
+          driver.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_REJECT
+
+</td>
+<td>
+The profile driver rejected the configuration request.
+
+</td>
+</tr>
+<tr>
+<td>
+CONFIG_STATUS_UNKNOWN_OPTION
+
+</td>
+<td>
+The configuration request failed because one of the specified configuration options was not
+          recognized by the profile driver.
+
+</td>
+</tr>
+</table> 
 
 
 ### -field Parameters.ConfigResponse.CurrentParams
@@ -335,6 +579,17 @@ The structure that contains parameters for the
       <i>IndicationFreeExtraOptions</i> INDICATION_CODE value.
 
 
+#### FreeExtraOptions.NumExtraOptions
+
+The number of extra options contained in the 
+       <b>ExtraOptions</b> member.
+
+
+#### FreeExtraOptions.ExtraOptions
+
+Extra options.
+
+
 ### -field Parameters.FreeExtraOptions.NumExtraOptions
 
 The number of extra options contained in the 
@@ -350,6 +605,20 @@ Extra options.
 
 The structure that contains the parameters for the 
       <i>IndicationRemoteDisconnect</i> INDICATION_CODE value.
+
+
+#### Disconnect.Reason
+
+An 
+       <a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a> value that
+       indicates why the L2CAP connection to the remote device was terminated.
+
+
+#### Disconnect.CloseNow
+
+A Boolean value that a profile driver uses to notify the Bluetooth driver stack to close the
+       L2CAP connection. Set this member to <b>TRUE</b> to notify the Bluetooth driver stack to close the
+       connection. Otherwise, set it to <b>FALSE</b> to keep the connection open.
 
 
 ### -field Parameters.Disconnect.Reason
@@ -372,6 +641,17 @@ The structure that contains the parameters for the
       <i>IndicationRecvPacket</i> INDICATION_CODE value.
 
 
+#### RecvPacket.PacketLength
+
+The size, in bytes, of the packet that the callback function sent over the L2CAP
+       connection.
+
+
+#### RecvPacket.TotalQueueLength
+
+The number of packets to be processed over the L2CAP connection.
+
+
 ### -field Parameters.RecvPacket.PacketLength
 
 The size, in bytes, of the packet that the callback function sent over the L2CAP
@@ -388,13 +668,13 @@ The number of packets to be processed over the L2CAP connection.
 Reserved member. Do not use.
 
 
-### -field ConnectionHandle
+#### - ConnectionHandle
 
 The L2CAP connection handle to the remote device. This handle is only valid for notifications that
      arrive over an established L2CAP connection.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The Bluetooth address of the remote device.
 

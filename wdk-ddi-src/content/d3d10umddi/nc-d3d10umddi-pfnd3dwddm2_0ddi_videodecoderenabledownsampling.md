@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoDecoderEnableDownsampling
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING callback
@@ -75,31 +75,34 @@ HRESULT APIENTRY* pfnVideoDecoderEnableDownsampling(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param hDecoder [in]
+#### - hDecoder [in]
 
 A handle to the decoder object.
 
 
-### -param InputColorSpace [in]
+#### - InputColorSpace [in]
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the reference frame data.
 
 
-### -param *pOutputDesc
+#### - *pOutputDesc [in]
+
+Indicates the resolution and the format of the output/display frames.  This is the destination resolution and format of the down-sample operation.
 
 
+<div class="alert"><b>Note</b>  The decode profile member (<b>Guid</b>) of <b>pOutputDesc</b> can be ignored.</div><div> </div>
 
-### -param OutputColorSpace [in]
+#### - OutputColorSpace [in]
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the output/display frames.
 
 
-### -param ReferenceFrameCount [in]
+#### - ReferenceFrameCount [in]
 
 Indicates the number of reference frame used.
 
@@ -130,9 +133,9 @@ This function can only be called once, prior to the first <a href="..\d3d10umddi
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a>
 
  
 

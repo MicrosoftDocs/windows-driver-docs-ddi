@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4779E943-5C13-4DE2-AF8F-37657F0F99C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTypeCPartnerStatePoweredCableNoUfp, ucmtypes/UcmTypeCPartnerStateAudioAccessory, UcmTypeCPartnerStateDfp, UcmTypeCPartnerStatePoweredCableWithUfp, ucmtypes/UcmTypeCPartnerStateDfp, ucmtypes/UcmTypeCPartnerStateInvalid, ucmtypes/UcmTypeCPartnerStateUfp, UcmTypeCPartnerStateInvalid, ucmtypes/UCM_TYPEC_PARTNER, UcmTypeCPartnerStateUfp, buses.ucm_type_c_port_state, _UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStateDebugAccessory, UCM_TYPEC_PARTNER, UCM_TYPEC_PARTNER enumeration [Buses], ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp
+ms.keywords: UcmTypeCPartnerStatePoweredCableWithUfp, ucmtypes/UcmTypeCPartnerStateInvalid, ucmtypes/UcmTypeCPartnerStateDfp, UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStateDfp, UcmTypeCPartnerStateDebugAccessory, ucmtypes/UcmTypeCPartnerStateDebugAccessory, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStateInvalid, buses.ucm_type_c_port_state, ucmtypes/UCM_TYPEC_PARTNER, UcmTypeCPartnerStateUfp, _UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateUfp, ucmtypes/UcmTypeCPartnerStateAudioAccessory, UCM_TYPEC_PARTNER, UCM_TYPEC_PARTNER enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

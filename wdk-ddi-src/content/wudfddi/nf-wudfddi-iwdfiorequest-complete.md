@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2fa389f8-8277-4795-a89e-ac5d92004310
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_complete, Complete method, IWDFIoRequest interface, IWDFIoRequest::Complete, IWDFIoRequest interface, Complete method, IWDFIoRequest, Complete method, umdf.iwdfiorequest_complete, Complete, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, wudfddi/IWDFIoRequest::Complete
+ms.keywords: wdf.iwdfiorequest_complete, wudfddi/IWDFIoRequest::Complete, IWDFIoRequest, IWDFIoRequest::Complete, umdf.iwdfiorequest_complete, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, IWDFIoRequest interface, Complete method, Complete method, IWDFIoRequest interface, Complete, Complete method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.Complete
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void Complete(
 
 
 
-### -param CompletionStatus [in]
+#### - CompletionStatus [in]
 
 A status value to complete the request with. 
 
@@ -93,9 +93,9 @@ For more information about completing an I/O request, see <a href="https://docs.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7dd6da58-0105-4374-be01-58729f095d01
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, display.d3d11_1ddi_authenticated_query_output_id_input
+ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure [Display Devices], display.d3d11_1ddi_authenticated_query_output_id_input, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT {
 
 
 
-### -field Input
+#### - Input
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_input.md">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> structure that contains the GUID for the query and other data.
 
 
-### -field DeviceHandle
+#### - DeviceHandle
 
 A handle to the device.
 
 
 
 
-### -field CryptoSessionHandle
+#### - CryptoSessionHandle
 
 A handle to the cryptographic session.
 
 
-### -field OutputIDIndex
+#### - OutputIDIndex
 
 The index of the output ID.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsSetPoHandle, buses.urssetpohandle, ursdevice/UrsSetPoHandle, UrsSetPoHandle function [Buses]
+ms.keywords: buses.urssetpohandle, ursdevice/UrsSetPoHandle, UrsSetPoHandle function [Buses], UrsSetPoHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE void UrsSetPoHandle(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-### -param PoHandle [in]
+#### - PoHandle [in]
 
 A handle that represents the registration of the device with PoFx. The client driver receives this handle from WDF in  <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>  and <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a> callback functions.
 

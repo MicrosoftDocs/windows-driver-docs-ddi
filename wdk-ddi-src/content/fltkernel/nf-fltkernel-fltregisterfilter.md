@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46e96f85-d368-40cd-9530-81959d20b750
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltRegisterFilter, FltRegisterFilter function [Installable File System Drivers], FltApiRef_p_to_z_41e3002c-d720-4e0f-81cb-36cbc215cdba.xml, fltkernel/FltRegisterFilter, ifsk.fltregisterfilter
+ms.keywords: ifsk.fltregisterfilter, FltRegisterFilter function [Installable File System Drivers], FltApiRef_p_to_z_41e3002c-d720-4e0f-81cb-36cbc215cdba.xml, FltRegisterFilter, fltkernel/FltRegisterFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltRegisterFilter(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 A pointer to the driver object for the minifilter driver. This should be the same driver object pointer that was passed as input to the minifilter driver's <b>DriverEntry</b> routine. 
 
 
-### -param Registration [in]
+#### - Registration [in]
 
 A pointer to a caller-allocated minifilter driver registration structure (<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>). 
 
 
-### -param RetFilter [out]
+#### - RetFilter [out]
 
 A pointer to a caller-allocated variable that receives an opaque filter pointer for the caller. 
 
@@ -174,9 +174,9 @@ To unregister itself, a minifilter driver calls <a href="..\fltkernel\nf-fltkern
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
 

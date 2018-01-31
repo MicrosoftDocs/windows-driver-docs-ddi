@@ -76,12 +76,12 @@ NDIS_STATUS MiniportWdiPostAdapterRestart(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 The handle to the context area that the miniport driver allocated.
 
 
-### -param RestartParameters [in]
+#### - RestartParameters [in]
 
 A pointer to an <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">NDIS_MINIPORT_RESTART_PARAMETERS</a> structure that defines the restart parameters for the miniport adapter.
 
@@ -134,13 +134,13 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">NDIS_MINIPORT_RESTART_PARAMETERS</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
 <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">NDIS_MINIPORT_RESTART_PARAMETERS</a>
 
  
 

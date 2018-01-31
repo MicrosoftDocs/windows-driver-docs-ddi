@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3585a06-fdb0-4fe9-8d5c-63680039a789
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, display.d3d11ddiarg_bufferex_shaderresourceview, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW
+ms.keywords: d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, display.d3d11ddiarg_bufferex_shaderresourceview, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,38 +75,38 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 
 
 
-### -field FirstElement
+#### - FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-### -field ElementOffset
+#### - ElementOffset
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-### -field NumElements
+#### - NumElements
 
 [in] The number of elements in the buffer. 
 
 
-### -field ElementWidth
+#### - ElementWidth
 
 [in] The width, in elements, in the buffer. 
 
 
-### -field Flags
+#### - Flags
 
 [in] A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
 
  
 

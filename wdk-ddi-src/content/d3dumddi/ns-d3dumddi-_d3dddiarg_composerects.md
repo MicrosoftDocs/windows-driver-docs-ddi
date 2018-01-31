@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9360f9c4-e30e-4fc0-ade7-1d98ff8b1d1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects, _D3DDDIARG_COMPOSERECTS, UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml
+ms.keywords: d3dumddi/D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects, D3DDDIARG_COMPOSERECTS, UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, D3DDDIARG_COMPOSERECTS structure [Display Devices], _D3DDDIARG_COMPOSERECTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,42 +76,42 @@ typedef struct _D3DDDIARG_COMPOSERECTS {
 
 
 
-### -field hSrcResource
+#### - hSrcResource
 
 [in] A handle to the source resource that contains the source surface. When the surface is created, the user-mode display driver receives the D3DDDIFMT_A1 (one bit per pixel) value in the <b>Format</b> member and the <b>TextApi</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function. The surface must be created as part of a texture.
 
 
-### -field SrcSubResourceIndex
+#### - SrcSubResourceIndex
 
 [in] The index to the source surface within the source resource. 
 
 
-### -field hDstResource
+#### - hDstResource
 
 [in] A handle to the destination resource that contains the destination surface. When the surface is created, the user-mode display driver receives the D3DDDIFMT_A1 (one bit per pixel) value in the <b>Format</b> member of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>. The surface must be created as part of a texture. The surface might have been created with the <b>TextApi</b> bit-field flag. 
 
 
-### -field DstSubResourceIndex
+#### - DstSubResourceIndex
 
 [in] The index to the destination surface within the destination resource. 
 
 
-### -field hSrcRectDescsVB
+#### - hSrcRectDescsVB
 
 [in] A handle to a vertex buffer that contains an array of D3DCOMPOSERECTSRCDESC structures. Each element in the array defines a rectangle on the source surface. When the vertex buffer is created, the user-mode display driver receives the <b>TextApi</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function. 
 
 
-### -field NumRects
+#### - NumRects
 
 [in] The number of rectangular areas to copy, which is the number of D3DCOMPOSERECTDSTDESC structures in the vertex buffer that is identified by the <b>hDstRectDescsVB</b> member. Drivers should ignore calls to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a> with <b>NumRects</b> set to greater than 0xFFFF.
 
 
-### -field hDstRectDescsVB
+#### - hDstRectDescsVB
 
 [in] A handle to a vertex buffer that contains an array of D3DCOMPOSERECTDSTDESC structures. Each element in the array defines where to copy a source rectangle on the destination surface. For more information, see the following Remarks section. When the vertex buffer is created, the user-mode display driver receives the <b>TextApi</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function. 
 
 
-### -field Operation
+#### - Operation
 
 [in] A D3DDDI_COMPOSERECTSOP value that describes how to compose the rectangular areas. This member can be one of the following values.
 <table>
@@ -162,12 +162,12 @@ Combine the negative of the source bits with the destination bits and copy to th
 </table> 
 
 
-### -field XOffset
+#### - XOffset
 
 [in] An offset to add to the <i>x</i>-coordinates of all of the destination rectangular areas. The offset can be negative, which might cause the resultant rectangles to be rejected or clipped. 
 
 
-### -field YOffset
+#### - YOffset
 
 [in] An offset to add to the <i>y</i>-coordinates of all of the destination rectangular areas. The offset can be negative, which might cause the resultant rectangles to be rejected or clipped. 
 
@@ -206,9 +206,9 @@ SHORT X, Y;            // Position in bits in the destination surface
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a>
 
  
 

@@ -80,7 +80,7 @@ VOID ProtocolClModifyCallQoSComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the client's asynchronous request to modify the call parameters for
      this VC as one of the following:
@@ -118,7 +118,7 @@ The call manager failed to change the QoS, and NDIS propagated the CM-determined
        to the client.
 
 
-### -param ProtocolVcContext [in]
+#### - ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
      NDIS when it called 
@@ -127,7 +127,7 @@ Specifies the handle to the client's per-VC context area, which the client origi
      <i>ProtocolCoCreateVc</i> function if the client accepted an incoming call on this VC.
 
 
-### -param CallParameters [in]
+#### - CallParameters [in]
 
 Pointer to a buffered CO_CALL_PARAMETERS structure containing the client-specified QoS change it
      requested, or, possibly, the original QoS for this VC established when the connection was activated,
@@ -197,19 +197,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
-
 <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+
 <a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQoSComplete</a>
+
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
  
 

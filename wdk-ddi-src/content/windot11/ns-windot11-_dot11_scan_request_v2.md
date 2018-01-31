@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, _DOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, windot11/PDOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, netvista.dot11_scan_request_v2
+ms.keywords: windot11/PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2, _DOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SCAN_REQUEST_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2"
+req.typenames: DOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2
 req.product: Windows 10 or later.
 ---
 
@@ -83,20 +83,20 @@ typedef struct _DOT11_SCAN_REQUEST_V2 {
 
 
 
-### -field dot11BSSType
+#### - dot11BSSType
 
 The type of basic service set (BSS) networks for which the 802.11 station scans. The data type for
      this member is the 
      <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
 
 
-### -field dot11BSSID
+#### - dot11BSSID
 
 The BSS identifier (BSSID) of a BSS network for which the 802.11 station scans. If this member is
      set to the wildcard BSSID (0xFFFFFFFFFFFF), the station scans for all BSSIDs.
 
 
-### -field dot11ScanType
+#### - dot11ScanType
 
 The type of scan that the 802.11 station performs. The data type for this member is the
      DOT11_SCAN_TYPE enumeration, which declares the following values:
@@ -144,7 +144,7 @@ The station can perform active or passive scans, or it can use a combination of 
        types.
 
 
-### -field bRestrictedScan
+#### - bRestrictedScan
 
 If this member is <b>TRUE</b>, the 802.11 station performs a scan restricted to the channel and PHY
      configuration used to connect to a BSS network.
@@ -162,7 +162,7 @@ The 802.11 station is not connected to a BSS network.
 </li>
 </ul>
 
-### -field udot11SSIDsOffset
+#### - udot11SSIDsOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the service set identifier (SSID) list begins. Each entry in the SSID list is
@@ -176,7 +176,7 @@ The 802.11 station scans for each SSID in the list. For example, if
      list while scanning on a channel.
 
 
-### -field uNumOfdot11SSIDs
+#### - uNumOfdot11SSIDs
 
 The number of entries in the SSID list.
      
@@ -186,7 +186,7 @@ If
      zero-length SSID.
 
 
-### -field bUseRequestIE
+#### - bUseRequestIE
 
 If this member is <b>TRUE</b>, the 802.11 station must include the list of request IDs (defined through
      the 
@@ -220,19 +220,19 @@ The
 </li>
 </ul>
 
-### -field uRequestIDsOffset
+#### - uRequestIDsOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the Request IDs list begins. Each entry in the request IDs list is formatted
      as a UCHAR data type.
 
 
-### -field uNumOfRequestIDs
+#### - uNumOfRequestIDs
 
 The number of entries in the request IDs list.
 
 
-### -field uPhyTypeInfosOffset
+#### - uPhyTypeInfosOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the list of PHY types begins. Each entry in the list of PHY types is
@@ -248,7 +248,7 @@ The miniport driver must ignore this member (along with the
      <b>bRestrictedScan</b> is set to <b>TRUE</b>.
 
 
-### -field uNumOfPhyTypeInfos
+#### - uNumOfPhyTypeInfos
 
 The number of entries in the list of PHY types.
      
@@ -258,7 +258,7 @@ If
      PHYs.
 
 
-### -field uIEsOffset
+#### - uIEsOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the list of variable-length information elements (IEs) begins. The 802.11
@@ -272,12 +272,12 @@ The miniport driver must ignore this member (along with the
      <b>dot11_scan_type_passive</b>.
 
 
-### -field uIEsLength
+#### - uIEsLength
 
 The length, in bytes, of the list of IEs.
 
 
-### -field ucBuffer
+#### - ucBuffer
 
 The buffer containing optional data as specified through other members of this structure.
 

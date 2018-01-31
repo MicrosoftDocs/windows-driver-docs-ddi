@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c0539f0-116e-4344-9584-db7416d258e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwps_stream_callout_io_packet0, FWPS_STREAM_CALLOUT_IO_PACKET0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, FWPS_STREAM_CALLOUT_IO_PACKET0_, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0
+ms.keywords: FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_CALLOUT_IO_PACKET0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, FWPS_STREAM_CALLOUT_IO_PACKET0_, netvista.fwps_stream_callout_io_packet0, fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct FWPS_STREAM_CALLOUT_IO_PACKET0_ {
 
 
 
-### -field streamData
+#### - streamData
 
 A pointer to an 
      <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure that
@@ -82,7 +82,7 @@ A pointer to an
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for processing.
 
 
-### -field missedBytes
+#### - missedBytes
 
 The number of bytes in the data stream that are missing since the last time the callout driver's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function was called. This
@@ -91,7 +91,7 @@ The number of bytes in the data stream that are missing since the last time the 
      portion of the data stream.
 
 
-### -field countBytesRequired
+#### - countBytesRequired
 
 A value set by a callout's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. This value
@@ -107,7 +107,7 @@ If a callout's
      this member to zero.
 
 
-### -field countBytesEnforced
+#### - countBytesEnforced
 
 A value set by a callout's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. This value
@@ -119,7 +119,7 @@ A value set by a callout's
      classifyFn callout function.
 
 
-### -field streamAction
+#### - streamAction
 
 An <b>FWPS_STREAM_ACTION_TYPE</b> value set by a callout's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function that specifies
@@ -193,13 +193,13 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
-
-<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+
+<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
 
  
 

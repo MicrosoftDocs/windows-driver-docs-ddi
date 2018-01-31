@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 168AC5F4-652B-405C-BE41-CD416A66FB74
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], SRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16, storage.srbex_data_scsi_cdb16, *PSRBEX_DATA_SCSI_CDB16, storport/SRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], _SRBEX_DATA_SCSI_CDB16, storport/PSRBEX_DATA_SCSI_CDB16
+ms.keywords: storport/SRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], _SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], PSRBEX_DATA_SCSI_CDB16, storage.srbex_data_scsi_cdb16, storport/PSRBEX_DATA_SCSI_CDB16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_SCSI_CDB16
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16"
+req.typenames: SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16
 req.product: Windows 10 or later.
 ---
 
@@ -76,47 +76,47 @@ typedef struct _SRBEX_DATA_SCSI_CDB16 {
 
 
 
-### -field Type
+#### - Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypeScsiCdb16</b>.
 
 
-### -field Length
+#### - Length
 
 Length of the data in this structure, in bytes, starting with the <b>ScsiStatus</b> member. Set to SRBEX_DATA_SCSI_CDB16_LENGTH.
 
 
-### -field ScsiStatus
+#### - ScsiStatus
 
 The SCSI status code returned for the submitted SRB.
 
 
-### -field SenseInfoBufferLength
+#### - SenseInfoBufferLength
 
 The length of the sense information returned in the buffer pointed to by <b>SenseInfoBuffer</b>.
 
 
-### -field CdbLength
+#### - CdbLength
 
 The length of the CDB data, in bytes, of the <b>Cdb</b> array.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved. Set to 0.
 
 
-### -field Reserved1
+#### - Reserved1
 
 This member is reserved. Set to 0.
 
 
-### -field SenseInfoBuffer
+#### - SenseInfoBuffer
 
 A pointer to a buffer containing any returned sense information.
 
 
-### -field Cdb
+#### - Cdb
 
 The 16-byte CDB buffer.
 
@@ -130,9 +130,9 @@ This structure is used to submit an extended SRB data for a CDB of 16 bytes or l
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
 
  
 

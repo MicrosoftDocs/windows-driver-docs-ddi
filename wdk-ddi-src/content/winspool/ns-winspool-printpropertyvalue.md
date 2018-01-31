@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B442AE8E-A4CE-481A-A69C-496CBF3E4722
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue, PrintPropertyValue
+ms.keywords: winspool/PrintPropertyValue, PrintPropertyValue, print.printpropertyvalue, PrintPropertyValue structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,12 +78,21 @@ typedef struct {
 
 
 
-### -field value
+#### - value
+
+
+
+#### propertyBlob
 
 
 
 ### -field value.propertyBlob
 
+
+
+#### propertyBlob.pBuf
+
+TD
 
 
 ### -field value.propertyBlob.cbBuf
@@ -116,6 +125,6 @@ TD
  
 
 
-### -field ePropertyType
+#### - ePropertyType
 
 

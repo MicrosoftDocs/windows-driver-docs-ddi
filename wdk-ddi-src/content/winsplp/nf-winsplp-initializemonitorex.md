@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: InitializeMonitorEx, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, winsplp/InitializeMonitorEx, InitializeMonitorEx function [Print Devices], print.initializemonitorex
+ms.keywords: winsplp/InitializeMonitorEx, InitializeMonitorEx function [Print Devices], print.initializemonitorex, InitializeMonitorEx, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,10 +69,10 @@ BOOL WINAPI InitializeMonitorEx(
 
 
 
-### -param pRegistryRoot [in]
+#### - pRegistryRoot [in]
 
 
 
-### -param pMonitor [out]
+#### - pMonitor [out]
 
 

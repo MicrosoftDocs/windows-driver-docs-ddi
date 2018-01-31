@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b4c0cca8-6277-4458-b1f1-894848987074
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], *PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices], KSDATAFORMAT_WAVEFORMATEX, ksmedia/KSDATAFORMAT_WAVEFORMATEX, ksmedia/PKSDATAFORMAT_WAVEFORMATEX, aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, PKSDATAFORMAT_WAVEFORMATEX, audio.ksdataformat_waveformatex
+ms.keywords: ksmedia/PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX, ksmedia/KSDATAFORMAT_WAVEFORMATEX, audio.ksdataformat_waveformatex, PKSDATAFORMAT_WAVEFORMATEX, aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], *PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDATAFORMAT_WAVEFORMATEX
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX"
+req.typenames: KSDATAFORMAT_WAVEFORMATEX, *PKSDATAFORMAT_WAVEFORMATEX
 ---
 
 # KSDATAFORMAT_WAVEFORMATEX structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field DataFormat
+#### - DataFormat
 
 Specifies the general features of the stream's data format. This member is a structure of type <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff561656(v=vs.85).aspx">KSDATAFORMAT</a>.
 
 
-### -field WaveFormatEx
+#### - WaveFormatEx
 
 Describes the wave-specific details of the audio stream's data format. This member contains an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure.
 

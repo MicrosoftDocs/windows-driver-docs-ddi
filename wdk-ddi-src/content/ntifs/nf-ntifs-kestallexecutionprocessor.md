@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeStallExecutionProcessor, kernel.kestallexecutionprocessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], wdm/KeStallExecutionProcessor, k105_47405815-7368-4100-b39d-43f5a242f5c1.xml
+ms.keywords: kernel.kestallexecutionprocessor, KeStallExecutionProcessor, k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, wdm/KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ The <b>KeStallExecutionProcessor</b> routine stalls the caller on the current pr
 
 
 
-### -param MicroSeconds [in]
+#### - MicroSeconds [in]
 
 Specifies the number of microseconds to stall.
 
@@ -90,11 +90,11 @@ This routine is for use by device drivers and other software that must wait for 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kedelayexecutionthread.md">KeDelayExecutionThread</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-<a href="..\wdm\nf-wdm-kedelayexecutionthread.md">KeDelayExecutionThread</a>
 
  
 

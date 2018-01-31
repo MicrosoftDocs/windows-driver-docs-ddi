@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/IoPagingPriorityNormal, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved1, IoPagingPriorityHigh, wdm/IO_PAGING_PRIORITY, wdm/IoPagingPriorityReserved2, _IO_PAGING_PRIORITY, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, wdm/IoPagingPriorityInvalid, IO_PAGING_PRIORITY, IoPagingPriorityReserved2, IoPagingPriorityInvalid, IoPagingPriorityNormal, IoPagingPriorityReserved1, kernel.io_paging_priority
+ms.keywords: IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/IoPagingPriorityNormal, IoPagingPriorityReserved2, IO_PAGING_PRIORITY, IoPagingPriorityReserved1, IoPagingPriorityInvalid, wdm/IO_PAGING_PRIORITY, wdm/IoPagingPriorityReserved2, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, _IO_PAGING_PRIORITY, kernel.io_paging_priority, IoPagingPriorityNormal, IoPagingPriorityHigh, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved1, wdm/IoPagingPriorityInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _IO_PAGING_PRIORITY {
 
 
 
-### -field IoPagingPriorityInvalid
+#### - IoPagingPriorityInvalid
 
 The IRP is not a paging I/O IRP.
 
 
-### -field IoPagingPriorityNormal
+#### - IoPagingPriorityNormal
 
 The associated IRP has a normal priority level for paging I/O. 
 
 
-### -field IoPagingPriorityHigh
+#### - IoPagingPriorityHigh
 
 The associated IRP has a high priority level for paging I/O. 
 
 
-### -field IoPagingPriorityReserved1
+#### - IoPagingPriorityReserved1
 
 Reserved for system use.
 
 
-### -field IoPagingPriorityReserved2
+#### - IoPagingPriorityReserved2
 
 Reserved for system use. 
 

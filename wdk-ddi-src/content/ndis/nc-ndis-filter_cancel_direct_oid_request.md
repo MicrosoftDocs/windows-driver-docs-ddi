@@ -73,14 +73,14 @@ VOID FilterCancelDirectOidRequest(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-### -param RequestId [in]
+#### - RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the direct OID requests that
      match this value in the 
@@ -165,16 +165,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfcanceldirectoidrequest.md">NdisFCancelDirectOidRequest</a>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 <mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
    NdisFDirectOidRequestComplete</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisfcanceldirectoidrequest.md">NdisFCancelDirectOidRequest</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05d37fbd-9bdc-478a-8772-6f63d1363c1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, stream.ksstreampointergetmdl, KsStreamPointerGetMdl, ks/KsStreamPointerGetMdl, KsStreamPointerGetMdl function [Streaming Media Devices]
+ms.keywords: KsStreamPointerGetMdl function [Streaming Media Devices], avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, ks/KsStreamPointerGetMdl, KsStreamPointerGetMdl, stream.ksstreampointergetmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PMDL KsStreamPointerGetMdl(
 
 
 
-### -param StreamPointer [in]
+#### - StreamPointer [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
 

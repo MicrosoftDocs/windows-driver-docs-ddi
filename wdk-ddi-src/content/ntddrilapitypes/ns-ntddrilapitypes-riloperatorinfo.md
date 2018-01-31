@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 213a4d4e-d19a-40c4-9bc4-8cf6f8aa2d07
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILOPERATORINFO, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], *LPRILOPERATORINFO, RILOPERATORINFO, netvista.riloperatorinfo
+ms.keywords: RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], RILOPERATORINFO, *LPRILOPERATORINFO, netvista.riloperatorinfo, ntddrilapitypes/RILOPERATORINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILOPERATORINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwIndex
+#### - dwIndex
 
 
 
-### -field dwStatus
+#### - dwStatus
 
 
 
-### -field ronNames
+#### - ronNames
 
 

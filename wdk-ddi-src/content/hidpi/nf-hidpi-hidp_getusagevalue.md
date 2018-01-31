@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 5f2d1536-4676-4afe-aa5c-08e7c74d1dd2
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetUsageValue, hid.hidp_getusagevalue, HidP_GetUsageValue routine [Human Input Devices], hidfunc_d046d7e6-bd4c-4d80-80a8-f8e2d000eeee.xml, hidpi/HidP_GetUsageValue
+ms.keywords: HidP_GetUsageValue routine [Human Input Devices], HidP_GetUsageValue, hidfunc_d046d7e6-bd4c-4d80-80a8-f8e2d000eeee.xml, hid.hidp_getusagevalue, hidpi/HidP_GetUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ NTSTATUS __stdcall HidP_GetUsageValue(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param UsagePage [in]
+#### - UsagePage [in]
 
 Specifies the value's <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a>.
 
 
-### -param LinkCollection [in]
+#### - LinkCollection [in]
 
 Specifies the <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> that contains the value. If <i>LinkCollection</i> is nonzero, the routine only searches for the usage in this link collection; otherwise, if <i>LinkCollection</i> is zero, the routine searches for the usage in the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> associated with <i>PreparsedData</i>.
 
 
-### -param Usage [in]
+#### - Usage [in]
 
 Specifies the usage of the value.
 
 
-### -param UsageValue [out]
+#### - UsageValue [out]
 
 Pointer to a buffer in which the routine returns the value data.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a top-level collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
-### -param Report [in]
+#### - Report [in]
 
 Pointer to a report that contains values.
 
 
-### -param ReportLength [in]
+#### - ReportLength [in]
 
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
@@ -209,21 +209,21 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
+<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539712">HidP_GetButtonsEx</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
 <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
 
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getscaledusagevalue.md">HidP_GetScaledUsageValue</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
  
 

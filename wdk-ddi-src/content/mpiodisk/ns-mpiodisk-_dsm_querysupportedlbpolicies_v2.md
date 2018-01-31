@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b62f60e2-9a5c-4346-8a77-985873a7ae20
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDSM_QuerySupportedLBPolicies_V2, mpiodisk/PDSM_QuerySupportedLBPolicies_V2, storage.dsm_querysupportedlbpolicies_v2, DSM_QuerySupportedLBPolicies_V2 structure [Storage Devices], _DSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2, structs-scsibus_33717938-d010-4155-a87b-4fb94831315e.xml, *PDSM_QuerySupportedLBPolicies_V2, PDSM_QuerySupportedLBPolicies_V2 structure pointer [Storage Devices], mpiodisk/DSM_QuerySupportedLBPolicies_V2
+ms.keywords: PDSM_QuerySupportedLBPolicies_V2, storage.dsm_querysupportedlbpolicies_v2, PDSM_QuerySupportedLBPolicies_V2 structure pointer [Storage Devices], DSM_QuerySupportedLBPolicies_V2, mpiodisk/PDSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2 structure [Storage Devices], *PDSM_QuerySupportedLBPolicies_V2, structs-scsibus_33717938-d010-4155-a87b-4fb94831315e.xml, _DSM_QuerySupportedLBPolicies_V2, mpiodisk/DSM_QuerySupportedLBPolicies_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DSM_QuerySupportedLBPolicies_V2 {
 
 
 
-### -field SupportedLBPoliciesCount
+#### - SupportedLBPoliciesCount
 
 An unsigned 32-bitfield that returns the number of load balance policies that are supported for the LUN by the controlling DSM.
 
 
-### -field Reserved
+#### - Reserved
 
 Should be zero.
 
 
-### -field Supported_LB_Policies
+#### - Supported_LB_Policies
 
 An array of DSM_Load_Balance_Policy_V2 structures, one for each of the supported load balance policies. The number of array elements will be the same as <i>SupportedLBPoliciesCount</i>. Each element of the array lists the supported load balance policy type. It is not expected that the element return path specifics.
 

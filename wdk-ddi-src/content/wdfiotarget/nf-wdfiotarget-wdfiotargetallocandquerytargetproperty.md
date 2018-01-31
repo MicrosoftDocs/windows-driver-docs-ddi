@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b66ba25-7723-4805-aa7c-7091a18d749b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty, WdfIoTargetAllocAndQueryTargetProperty method, PFN_WDFIOTARGETALLOCANDQUERYTARGETPROPERTY, WdfIoTargetAllocAndQueryTargetProperty, wdf.wdfiotargetallocandquerytargetproperty, kmdf.wdfiotargetallocandquerytargetproperty
+ms.keywords: PFN_WDFIOTARGETALLOCANDQUERYTARGETPROPERTY, WdfIoTargetAllocAndQueryTargetProperty, WdfIoTargetAllocAndQueryTargetProperty method, DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty, kmdf.wdfiotargetallocandquerytargetproperty, wdf.wdfiotargetallocandquerytargetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NTSTATUS WdfIoTargetAllocAndQueryTargetProperty(
 
 
 
-### -param IoTarget [in]
+#### - IoTarget [in]
 
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a> or <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a> or from a method that a specialized I/O target supplies.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>-typed value that identifies the device property to be retrieved.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated.
 
 
-### -param PropertyMemoryAttributes [in, optional]
+#### - PropertyMemoryAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the memory object that the function will allocate. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param PropertyMemory [out]
+#### - PropertyMemory [out]
 
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object. 
 
@@ -156,19 +156,19 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetquerytargetproperty.md">WdfIoTargetQueryTargetProperty</a>
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
 
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
 <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetquerytargetproperty.md">WdfIoTargetQueryTargetProperty</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9a6998d-f340-47ad-a9be-ff7ef76c627e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltDeviceIoControlFile function [Installable File System Drivers], FltDeviceIoControlFile, ifsk.fltdeviceiocontrolfile, FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, fltkernel/FltDeviceIoControlFile
+ms.keywords: fltkernel/FltDeviceIoControlFile, ifsk.fltdeviceiocontrolfile, FltDeviceIoControlFile function [Installable File System Drivers], FltDeviceIoControlFile, FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ NTSTATUS FltDeviceIoControlFile(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 File object pointer for the file or device that is the target of this request. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param IoControlCode [in]
+#### - IoControlCode [in]
 
 IOCTL_<i>XXX</i> code that indicates which device I/O operation is to be carried out. The value of this parameter determines the formats and required lengths of the <i>InputBuffer</i> and <i>OutputBuffer</i>, and it determines which of the following parameter pairs (<i>InputBuffer</i> and <i>InputBufferLength</i>, or <i>OutputBuffer</i> and <i>OutputBufferLength</i>) is required. 
 
 
-### -param InputBuffer [in, optional]
+#### - InputBuffer [in, optional]
 
 Pointer to a caller-allocated input buffer that contains device-specific information to be given to the target driver. If the <i>IoControlCode</i> parameter specifies an operation that does not require input data, this parameter is optional and can be <b>NULL</b>. 
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 Size, in bytes, of the buffer at <i>InputBuffer</i>. This value is ignored if <i>InputBuffer</i> is <b>NULL</b>. 
 
 
-### -param OutputBuffer [out]
+#### - OutputBuffer [out]
 
 Pointer to a caller-allocated output buffer in which information is returned from the target driver. If the <i>IoControlCode</i> parameter specifies an operation that does not require output data, this parameter is optional and can be <b>NULL</b>. 
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 Size, in bytes, of the buffer at <i>OutputBuffer</i>. This value is ignored if <i>OutputBuffer</i> is <b>NULL</b>. 
 
 
-### -param LengthReturned [out, optional]
+#### - LengthReturned [out, optional]
 
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the buffer at <i>OutputBuffer</i>. This parameter is optional and can be <b>NULL</b>. 
 

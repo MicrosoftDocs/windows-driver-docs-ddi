@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 724e3143-4994-4785-9bbf-afb928e8b166
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRemoveLink_OUT structure pointer [Storage Devices], RemoveLink_OUT, *PRemoveLink_OUT, storage.removelink_out, PRemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], _RemoveLink_OUT, hbapiwmi/PRemoveLink_OUT, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml, hbapiwmi/RemoveLink_OUT
+ms.keywords: hbapiwmi/RemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], *PRemoveLink_OUT, PRemoveLink_OUT structure pointer [Storage Devices], _RemoveLink_OUT, PRemoveLink_OUT, RemoveLink_OUT, storage.removelink_out, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml, hbapiwmi/PRemoveLink_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _RemoveLink_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 

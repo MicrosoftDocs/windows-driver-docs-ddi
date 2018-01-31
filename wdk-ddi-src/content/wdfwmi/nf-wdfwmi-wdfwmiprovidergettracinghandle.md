@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44ab1cf3-abd3-4100-a6ad-51f2322881b1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFWMIPROVIDERGETTRACINGHANDLE, kmdf.wdfwmiprovidergettracinghandle, wdf.wdfwmiprovidergettracinghandle, wdfwmi/WdfWmiProviderGetTracingHandle, DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, WdfWmiProviderGetTracingHandle, WdfWmiProviderGetTracingHandle method
+ms.keywords: WdfWmiProviderGetTracingHandle, kmdf.wdfwmiprovidergettracinghandle, WdfWmiProviderGetTracingHandle method, PFN_WDFWMIPROVIDERGETTRACINGHANDLE, wdf.wdfwmiprovidergettracinghandle, DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, wdfwmi/WdfWmiProviderGetTracingHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ ULONGLONG WdfWmiProviderGetTracingHandle(
 
 
 
-### -param WmiProvider [in]
+#### - WmiProvider [in]
 
 A handle to a WMI provider object that the driver obtained by calling <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a> or <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>.
 

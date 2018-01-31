@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor method, wdfresource/WdfIoResourceListAppendDescriptor, kmdf.wdfioresourcelistappenddescriptor, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, PFN_WDFIORESOURCELISTAPPENDDESCRIPTOR, wdf.wdfioresourcelistappenddescriptor
+ms.keywords: WdfIoResourceListAppendDescriptor method, kmdf.wdfioresourcelistappenddescriptor, wdf.wdfioresourcelistappenddescriptor, WdfIoResourceListAppendDescriptor, PFN_WDFIORESOURCELISTAPPENDDESCRIPTOR, wdfresource/WdfIoResourceListAppendDescriptor, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceListAppendDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ NTSTATUS WdfIoResourceListAppendDescriptor(
 
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
@@ -141,11 +141,11 @@ For more information about resource requirements lists and logical configuration
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
 
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistinsertdescriptor.md">WdfIoResourceListInsertDescriptor</a>
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
  
 

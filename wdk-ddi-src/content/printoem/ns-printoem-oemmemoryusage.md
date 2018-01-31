@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMMEMORYUSAGE, POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], OEMMEMORYUSAGE structure [Print Devices], print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, print.oemmemoryusage, *POEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE
+ms.keywords: print.oemmemoryusage, OEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], OEMMEMORYUSAGE structure [Print Devices], print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, *POEMMEMORYUSAGE, printoem/OEMMEMORYUSAGE, POEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OEMMEMORYUSAGE
 product: Windows
 targetos: Windows
-req.typenames: OEMMEMORYUSAGE, *POEMMEMORYUSAGE
+req.typenames: "*POEMMEMORYUSAGE, OEMMEMORYUSAGE"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct {
 
 
 
-### -field dwFixedMemoryUsage
+#### - dwFixedMemoryUsage
 
 Specifies the amount, in bytes, of fixed-sized memory required by the <b>IPrintOemUni::MemoryUsage</b> method. Supplied by the rendering plug-in.
 
 
-### -field dwPercentMemoryUsage
+#### - dwPercentMemoryUsage
 
 Specifies the amount of variably-sized memory required by the <b>IPrintOemUni::MemoryUsage</b> method, expressed as a percentage of the size of the source bitmap received by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>. Supplied by the rendering plug-in.
 
 
-### -field dwMaxBandSize
+#### - dwMaxBandSize
 
 Specifies the maximum size, in bytes, that can be used for source bitmaps. This is the value that Unidrv uses to subtract from when applying the plug-in supplied values contained in <b>dwFixedMemoryUsage</b> and <b>dwPercentMemoryUsage</b>. Supplied by Unidrv.
 
@@ -94,9 +94,9 @@ The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPerc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
  
 

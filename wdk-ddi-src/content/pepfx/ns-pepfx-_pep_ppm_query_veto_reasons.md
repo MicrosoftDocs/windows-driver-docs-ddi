@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59D0D139-00E4-4EEE-A326-0A2979B2085B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_QUERY_VETO_REASONS structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_QUERY_VETO_REASONS, PPEP_PPM_QUERY_VETO_REASONS structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_VETO_REASONS, pepfx/PPEP_PPM_QUERY_VETO_REASONS, _PEP_PPM_QUERY_VETO_REASONS, kernel.pep_ppm_query_veto_reasons, PPEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS
+ms.keywords: pepfx/PPEP_PPM_QUERY_VETO_REASONS, kernel.pep_ppm_query_veto_reasons, PEP_PPM_QUERY_VETO_REASONS, *PPEP_PPM_QUERY_VETO_REASONS, PPEP_PPM_QUERY_VETO_REASONS, PPEP_PPM_QUERY_VETO_REASONS structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_VETO_REASONS structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASONS, pepfx/PEP_PPM_QUERY_VETO_REASONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PEP_PPM_QUERY_VETO_REASONS {
 
 
 
-### -field VetoReasonCount
+#### - VetoReasonCount
 
 [out] The number of veto codes used by the PEP.
 

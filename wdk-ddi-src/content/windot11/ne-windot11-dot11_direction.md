@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83a83af9-314a-49c1-b241-a0ef0716f83a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_DIRECTION, DOT11_DIR_INBOUND, windot11/DOT11_DIR_INBOUND, DOT11_DIR_OUTBOUND, *PDOT11_DIRECTION, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, PDOT11_DIRECTION, windot11/DOT11_DIR_BOTH, DOT11_DIR_BOTH, PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], netvista.dot11_direction, windot11/DOT11_DIR_OUTBOUND, windot11/DOT11_DIRECTION, windot11/PDOT11_DIRECTION
+ms.keywords: DOT11_DIR_INBOUND, netvista.dot11_direction, DOT11_DIR_BOTH, windot11/PDOT11_DIRECTION, Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, windot11/DOT11_DIRECTION, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_DIR_BOTH, PDOT11_DIRECTION, DOT11_DIR_OUTBOUND, windot11/DOT11_DIR_OUTBOUND, *PDOT11_DIRECTION, PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_DIR_INBOUND, DOT11_DIRECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,19 +71,19 @@ typedef enum DOT11_DIRECTION {
 
 
 
-### -field DOT11_DIR_INBOUND
+#### - DOT11_DIR_INBOUND
 
 The 802.11 station uses the cipher key to decrypt packets received from the access point (AP) or
      peer station.
 
 
-### -field DOT11_DIR_OUTBOUND
+#### - DOT11_DIR_OUTBOUND
 
 The 802.11 station uses the cipher key to encrypt packets transmitted to the AP or peer
      station.
 
 
-### -field DOT11_DIR_BOTH
+#### - DOT11_DIR_BOTH
 
 The 802.11 station uses the cipher key for packets received from or transmitted to the AP or peer
      station.

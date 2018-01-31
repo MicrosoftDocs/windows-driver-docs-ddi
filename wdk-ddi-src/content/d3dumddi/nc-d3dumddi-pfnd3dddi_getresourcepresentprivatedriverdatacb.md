@@ -72,7 +72,7 @@ HRESULT APIENTRY CALLBACK* pfnGetResourcePresentPrivateDriverDataCb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device.
 

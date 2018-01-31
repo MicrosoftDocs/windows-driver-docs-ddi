@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetPnpState, wdf.iwdfdevice_setpnpstate, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, wudfddi/IWDFDevice::SetPnpState, SetPnpState method, IWDFDevice::SetPnpState, SetPnpState method, IWDFDevice interface, IWDFDevice, umdf.iwdfdevice_setpnpstate, IWDFDevice interface, SetPnpState method
+ms.keywords: wdf.iwdfdevice_setpnpstate, IWDFDevice::SetPnpState, SetPnpState, IWDFDevice, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, IWDFDevice interface, SetPnpState method, SetPnpState method, wudfddi/IWDFDevice::SetPnpState, SetPnpState method, IWDFDevice interface, umdf.iwdfdevice_setpnpstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.SetPnpState
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ void SetPnpState(
 
 
 
-### -param State [in]
+#### - State [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
 
 
-### -param Value [in]
+#### - Value [in]
 
 A WDF_TRI_STATE-typed value that identifies how to set the PnP property that <i>State</i> specifies. The following table shows the possible values for <i>Value</i>.
 <table>
@@ -133,13 +133,13 @@ Before the state of the PnP property that <b>SetPnpState</b> set can take effect
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557010">IWDFDevice::CommitPnpState</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557010">IWDFDevice::CommitPnpState</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
 
  
 

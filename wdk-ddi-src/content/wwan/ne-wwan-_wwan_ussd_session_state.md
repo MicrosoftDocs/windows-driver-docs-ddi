@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5111A10F-F66F-4667-A77E-63691CCD282D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_USSD_SESSION_STATE, WwanUssdSessionStateNew, netvista.wwan_ussd_session_state, wwan/WwanUssdSessionStateExisting, WWAN_USSD_SESSION_STATE, *PWWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateNew, WwanUssdSessionStateExisting"
+ms.keywords: netvista.wwan_ussd_session_state, wwan/WwanUssdSessionStateNew, WwanUssdSessionStateNew, WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateExisting, *PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_USSD_SESSION_STATE, _WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _WWAN_USSD_SESSION_STATE {
 
 
 
-### -field WwanUssdSessionStateNew
+#### - WwanUssdSessionStateNew
 
 The USSD string is the first message of a USSD session.
 
 
-### -field WwanUssdSessionStateExisting
+#### - WwanUssdSessionStateExisting
 
 The USSD string is not the first message of a USSD session.
 

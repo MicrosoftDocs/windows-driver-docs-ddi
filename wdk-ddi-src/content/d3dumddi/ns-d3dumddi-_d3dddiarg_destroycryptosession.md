@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ae8bfd7-da94-41b0-8995-34194b2ad8a7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DESTROYCRYPTOSESSION, display.d3dddiarg_destroycryptosession, _D3DDDIARG_DESTROYCRYPTOSESSION, d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION, UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices]
+ms.keywords: "_D3DDDIARG_DESTROYCRYPTOSESSION, D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices], display.d3dddiarg_destroycryptosession, UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, D3DDDIARG_DESTROYCRYPTOSESSION, d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDIARG_DESTROYCRYPTOSESSION {
 
 
 
-### -field hCryptoSession
+#### - hCryptoSession
 
 [in] The handle to the encryption session that the driver destroys.
 

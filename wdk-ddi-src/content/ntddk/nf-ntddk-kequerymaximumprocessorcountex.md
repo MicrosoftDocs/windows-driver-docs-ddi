@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6ccc0f8c-d7b7-4043-8580-d35345d884cc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kequerymaximumprocessorcountex, wdm/KeQueryMaximumProcessorCountEx, k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], KeQueryMaximumProcessorCountEx
+ms.keywords: wdm/KeQueryMaximumProcessorCountEx, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], KeQueryMaximumProcessorCountEx, k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, kernel.kequerymaximumprocessorcountex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG KeQueryMaximumProcessorCountEx(
 
 
 
-### -param GroupNumber [in]
+#### - GroupNumber [in]
 
 Specifies a group number. If a multiprocessor system contains <i>n</i> groups, the groups are numbered from 0 to <i>n</i>-1. To obtain the maximum number of processors in the system, set this parameter to ALL_PROCESSOR_GROUPS, which is defined in the Winnt.h and Ntdef.h header files.
 
@@ -92,9 +92,9 @@ A related routine, <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQue
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
-
 <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+<a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 407237E2-2CDB-40D5-867C-1EA8E1D80065
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIntToChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntToChar, kernel.rtlinttochar, RtlIntToChar
+ms.keywords: RtlIntToChar function [Kernel-Mode Driver Architecture], RtlIntToChar, kernel.rtlinttochar, ntintsafe/RtlIntToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlIntToChar(
 
 
 
-### -param iOperand [in]
+#### - iOperand [in]
 
 The value to be converted.
 
 
-### -param pch [out]
+#### - pch [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

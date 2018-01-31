@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmPrefetchPages routine [Installable File System Drivers], mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages, ifsk.mmprefetchpages, MmPrefetchPages
+ms.keywords: mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ifsk.mmprefetchpages, MmPrefetchPages routine [Installable File System Drivers], MmPrefetchPages, ntifs/MmPrefetchPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS MmPrefetchPages(
 
 
 
-### -param NumberOfLists [in]
+#### - NumberOfLists [in]
 
 The number of read-lists in the array passed in the <i>ReadLists</i> parameter.
 
 
-### -param ReadLists [in]
+#### - ReadLists [in]
 
 A pointer to an array of read-lists to be prefetched.
 

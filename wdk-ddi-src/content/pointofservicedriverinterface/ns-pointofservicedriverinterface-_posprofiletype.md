@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b0ef1592-f3f3-4ca1-83f8-dc7cb76cda36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosProfileType, pos.posprofiletype, PosProfileType structure, PosProfileType, _PosProfileType
+ms.keywords: "_PosProfileType, pos.posprofiletype, PosProfileType, pointofservicedriverinterface/PosProfileType, PosProfileType structure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

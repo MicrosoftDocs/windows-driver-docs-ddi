@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure [Display Devices], display.d3dkmt-queryprotectedsessioninfofromnthandle, _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
+ms.keywords: d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure [Display Devices], display.d3dkmt-queryprotectedsessioninfofromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE {
 
 
 
-### -field hNtHandle
+#### - hNtHandle
 
 The protected NT session handle.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 The private driver data.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 The size of the private driver data.
 
 
-### -field pPrivateRuntimeData
+#### - pPrivateRuntimeData
 
 The private runtime data.
 
 
-### -field PrivateRuntimeDataSize
+#### - PrivateRuntimeDataSize
 
 The size of the private runtime data.
 

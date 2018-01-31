@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7ffb818d-7c58-4c84-997b-1703f480aaf0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCOMMONBUFFERGETLENGTH, wdfcommonbuffer/WdfCommonBufferGetLength, wdf.wdfcommonbuffergetlength, kmdf.wdfcommonbuffergetlength, WdfCommonBufferGetLength, DFCommonBufferObjectRef_cf0ad31e-c159-4cac-846c-52bb280b3d52.xml, WdfCommonBufferGetLength method
+ms.keywords: WdfCommonBufferGetLength method, wdf.wdfcommonbuffergetlength, WdfCommonBufferGetLength, DFCommonBufferObjectRef_cf0ad31e-c159-4cac-846c-52bb280b3d52.xml, PFN_WDFCOMMONBUFFERGETLENGTH, kmdf.wdfcommonbuffergetlength, wdfcommonbuffer/WdfCommonBufferGetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ size_t WdfCommonBufferGetLength(
 
 
 
-### -param CommonBuffer [in]
+#### - CommonBuffer [in]
 
 A handle to a common buffer object that the driver obtained by a previous call to <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>.  
 

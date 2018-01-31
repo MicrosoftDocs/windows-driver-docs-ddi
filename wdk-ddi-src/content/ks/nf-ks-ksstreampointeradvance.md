@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 98d0b8ce-5485-4584-b164-a1bc698b08ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamPointerAdvance, avfunc_1c66466d-2144-4d67-ac1f-31156bc3b07d.xml, ks/KsStreamPointerAdvance, stream.ksstreampointeradvance, KsStreamPointerAdvance function [Streaming Media Devices]
+ms.keywords: avfunc_1c66466d-2144-4d67-ac1f-31156bc3b07d.xml, KsStreamPointerAdvance, ks/KsStreamPointerAdvance, stream.ksstreampointeradvance, KsStreamPointerAdvance function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KsStreamPointerAdvance(
 
 
 
-### -param StreamPointer [in]
+#### - StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer to advance to reference the next available data frame.
 
@@ -93,15 +93,15 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
 
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
-
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 <a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
 
  
 

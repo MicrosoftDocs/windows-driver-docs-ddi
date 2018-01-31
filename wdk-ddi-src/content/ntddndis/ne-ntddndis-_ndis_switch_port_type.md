@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4FCE88BC-6FA1-44D0-9BC1-3065A5EEE1A0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeEmulated, PNDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeExternal, NdisSwitchPortTypeInternal, ntddndis/PNDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeSynthetic, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeExternal, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortTypeSynthetic, _NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeEmulated, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisSwitchPortTypeGeneric, ntddndis/PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeInternal, _NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeExternal, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeExternal, NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeSynthetic, ntddndis/NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NdisSwitchPortTypeEmulated, NdisSwitchPortTypeEmulated, ntddndis/NdisSwitchPortTypeSynthetic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,29 +74,29 @@ typedef enum _NDIS_SWITCH_PORT_TYPE {
 
 
 
-### -field NdisSwitchPortTypeGeneric
+#### - NdisSwitchPortTypeGeneric
 
 This value specifies a generic port type that was created with an earlier version of the extensible switch WMI management platform.
 
 
-### -field NdisSwitchPortTypeExternal
+#### - NdisSwitchPortTypeExternal
 
 This value specifies a port that is connected to an external network adapter. This  adapter is exposed in the management operating system that runs in the Hyper-V parent partition. 
 
 The external network adapter provides the connection to the  physical network interface that is available on the host. This allows processes that run in either the management or guest operating systems to send or receive packets over the extensible switch.
 <div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div><div> </div>
 
-### -field NdisSwitchPortTypeSynthetic
+#### - NdisSwitchPortTypeSynthetic
 
 This value specifies a port that is connected to a synthetic network adapter. This adapter is exposed in a guest operating system that runs in a Hyper-V child partition.
 <div class="alert"><b>Note</b>  A synthetic network adapter is a type of virtual machine (VM) network adapter. This adapter is exposed in a guest operating system that is running Windows Vista or a later version of Windows.</div><div> </div>
 
-### -field NdisSwitchPortTypeEmulated
+#### - NdisSwitchPortTypeEmulated
 
 This value specifies a port that is connected to an emulated network adapter. This adapter is exposed in a guest operating system.
 <div class="alert"><b>Note</b>  An emulated network adapter is a type of VM network adapter. This adapter can be exposed in a guest operating system that is running Windows XP or a non-Windows operating system.</div><div> </div>
 
-### -field NdisSwitchPortTypeInternal
+#### - NdisSwitchPortTypeInternal
 
 This value specifies a port that is connected to an internal network adapter. This adapter is exposed in the management operating system that runs in the Hyper-V parent partition. 
 

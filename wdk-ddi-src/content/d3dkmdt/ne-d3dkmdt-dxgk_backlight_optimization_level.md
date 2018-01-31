@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ad096bb-0012-40fc-a038-2f25d6a59b43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], d3dkmdt/DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationEDR, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationDesktop, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDimmed
+ms.keywords: d3dkmdt/DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationDesktop, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationEDR, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDynamic, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level, d3dkmdt/DxgkBacklightOptimizationDesktop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,21 +71,21 @@ typedef enum  {
 
 
 
-### -field DxgkBacklightOptimizationDisable
+#### - DxgkBacklightOptimizationDisable
 
 The display miniport driver must completely disable adaptive brightness control.
 
 The operating system always sets this value if the system is on AC power.
 
 
-### -field DxgkBacklightOptimizationDesktop
+#### - DxgkBacklightOptimizationDesktop
 
 The display miniport driver should optimize backlight settings for desktop presentation when the system is on DC power and the other possible scenarios (disabled, dynamic, and dimmed) are not active. This type of optimization is appropriate for displaying photos, internet browsers, common document types, and video playback controls.
 
 This is the default adaptive brightness setting when the system is on DC power.
 
 
-### -field DxgkBacklightOptimizationDynamic
+#### - DxgkBacklightOptimizationDynamic
 
 The display miniport driver should optimize backlight settings for presentation of full-screen video. Typical playback scenarios include playing movies and full-screen video. 
 
@@ -94,14 +94,14 @@ The operating system sets this value if a full-screen Windows App is using the H
 The operating system sets this value only when only full-screen video content is displayed on the screen. This value is not set if playback controls or charms are displayed during video playback; in this case, adaptive brightness will not be enabled.
 
 
-### -field DxgkBacklightOptimizationDimmed
+#### - DxgkBacklightOptimizationDimmed
 
 The display miniport driver should optimize backlight settings to display at a low light level that is still visible even if it is not easily readable. In this scenario the display is typically set to a 30 percent brightness level.
 
 After a defined period of no user input, the operating system sets this value to dim the display.
 
 
-### -field DxgkBacklightOptimizationEDR
+#### - DxgkBacklightOptimizationEDR
 
 Optimization level which informs the driver that the display is being driven with either High Dynamic Range or Enhanced Dynamic Range content so any backlight optimizations can be tailored to the scenario.                                                                                                                                                                                                                                                                                                         
 

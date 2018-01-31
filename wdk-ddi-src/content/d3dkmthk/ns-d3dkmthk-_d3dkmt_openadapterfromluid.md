@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93f5c1d1-e1df-4536-8b52-db3b4942488c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENADAPTERFROMLUID structure [Display Devices], D3DKMT_OPENADAPTERFROMLUID, d3dkmthk/D3DKMT_OPENADAPTERFROMLUID, _D3DKMT_OPENADAPTERFROMLUID, display.d3dkmt_openadapterfromluid
+ms.keywords: D3DKMT_OPENADAPTERFROMLUID, _D3DKMT_OPENADAPTERFROMLUID, display.d3dkmt_openadapterfromluid, d3dkmthk/D3DKMT_OPENADAPTERFROMLUID, D3DKMT_OPENADAPTERFROMLUID structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_OPENADAPTERFROMLUID {
 
 
 
-### -field AdapterLuid
+#### - AdapterLuid
 
  [in] A LUID that serves as an identifier for the device. <b>LUID</b> is defined in Dxgi.h.
 
 
-### -field hAdapter
+#### - hAdapter
 
 [out] A handle to the graphics adapter for the device that the <b>AdapterLuid</b> member specifies. The adapter handle is returned from a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromluid.md">D3DKMTOpenAdapterFromLuid</a> function.
 

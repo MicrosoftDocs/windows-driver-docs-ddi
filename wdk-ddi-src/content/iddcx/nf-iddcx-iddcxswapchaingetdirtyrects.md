@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ffe3c46-f729-4088-b69e-f39bc00f40a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects, display.iddcxswapchaingetdirtyrects, IddCxSwapChainGetDirtyRects method [Display Devices]
+ms.keywords: display.iddcxswapchaingetdirtyrects, IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects method [Display Devices], iddcx/IddCxSwapChainGetDirtyRects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ HRESULT IddCxSwapChainGetDirtyRects(
 
 
 
-### -param SwapChainObject [in]
+#### - SwapChainObject [in]
 
 The swap-chain object whose current frame is being queried.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments of the function
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 Output  arguments of the function
 

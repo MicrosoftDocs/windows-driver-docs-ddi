@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 75c0f546-1a58-45e8-a3eb-3075f07c426b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], HID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, hidport/HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], hid.hid_minidriver_registration, _HID_MINIDRIVER_REGISTRATION
+ms.keywords: PHID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION, _HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], *PHID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, hid.hid_minidriver_registration, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], hidport/HID_MINIDRIVER_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _HID_MINIDRIVER_REGISTRATION {
 
 
 
-### -field Revision
+#### - Revision
 
 Specifies the HID version that this minidriver supports.
 
 
-### -field DriverObject
+#### - DriverObject
 
 Pointer to the minidriver's <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>.
 
 
-### -field RegistryPath
+#### - RegistryPath
 
 Pointer to the minidriver's registry path.
 
 
-### -field DeviceExtensionSize
+#### - DeviceExtensionSize
 
 Specifies the length, in bytes, that the minidriver requests for a device extension.
 
 
-### -field DevicesArePolled
+#### - DevicesArePolled
 
 Specifies that the devices on the bus that this minidriver supports must be polled in order to obtain data from the device.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for internal system use.
 
@@ -111,9 +111,9 @@ When a HID minidriver calls <a href="..\hidport\nf-hidport-hidregisterminidriver
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
  
 

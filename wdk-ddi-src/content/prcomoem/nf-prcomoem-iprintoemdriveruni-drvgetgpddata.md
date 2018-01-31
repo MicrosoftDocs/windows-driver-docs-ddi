@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method, print.iprintoemdriveruni_drvgetgpddata, DrvGetGPDData method [Print Devices], print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml
+ms.keywords: IPrintOemDriverUni, DrvGetGPDData method [Print Devices], prcomoem/IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml, IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method, DrvGetGPDData, IPrintOemDriverUni::DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,12 +73,12 @@ HRESULT DrvGetGPDData(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param dwType
+#### - dwType
 
 Caller-supplied flag indicating the type of GPD data being requested. Currently, the following flag is the only one defined:
 <table>
@@ -99,22 +99,22 @@ The method returns the string associated with a GPD file's *<b>OEMCustomData</b>
 </table> 
 
 
-### -param pInputData
+#### - pInputData
 
 Reserved. Must be zero.
 
 
-### -param pBuffer
+#### - pBuffer
 
 Caller-supplied pointer to a buffer to receive the requested information.
 
 
-### -param cbSize
+#### - cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded
+#### - pcbNeeded
 
 Receives the driver-supplied minimum buffer size, in bytes, required to contain the requested information.
 

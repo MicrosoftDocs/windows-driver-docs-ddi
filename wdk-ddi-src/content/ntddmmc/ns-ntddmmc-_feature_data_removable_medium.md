@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b25feb68-75bb-4a9d-b842-e15f619a18c4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], *PFEATURE_DATA_REMOVABLE_MEDIUM, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml, _FEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], PFEATURE_DATA_REMOVABLE_MEDIUM
+ms.keywords: PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], storage.feature_data_removable_medium, FEATURE_DATA_REMOVABLE_MEDIUM, _FEATURE_DATA_REMOVABLE_MEDIUM, *PFEATURE_DATA_REMOVABLE_MEDIUM, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_REMOVABLE_MEDIUM
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM"
+req.typenames: FEATURE_DATA_REMOVABLE_MEDIUM, *PFEATURE_DATA_REMOVABLE_MEDIUM
 ---
 
 # _FEATURE_DATA_REMOVABLE_MEDIUM structure
@@ -74,12 +74,12 @@ typedef struct _FEATURE_DATA_REMOVABLE_MEDIUM {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field Lockable
+#### - Lockable
 
 Indicates, when set to 1, that the initiator can lock the medium into the device. When set to zero, this bit indicates that the medium cannot be locked into the device. 
 
@@ -89,12 +89,12 @@ Indicates, when set to 1, that the initiator can lock the medium into the device
  
 
 
-### -field DefaultToPrevent
+#### - DefaultToPrevent
 
 Indicates, when set to zero, that the prevent jumper is present. This overrides the lock command, so that locking the device shall not prevent the insertion of media.
 
 
-### -field Eject
+#### - Eject
 
 Indicates, when set to 1, that the device can eject the medium or magazine. When set to zero, this bit indicates that the device cannot eject the medium or magazine by means of the normal start/stop command sequence. 
 
@@ -104,12 +104,12 @@ Indicates, when set to 1, that the device can eject the medium or magazine. When
  
 
 
-### -field LoadingMechanism
+#### - LoadingMechanism
 
 Indicates the type of loading mechanism. See the <i>SCSI Multimedia - 4 (MMC-4)</i> specification for the list of values that this member can take. 
 
 
-### -field Reserved3
+#### - Reserved3
 
 Reserved. 
 

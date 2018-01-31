@@ -74,7 +74,7 @@ NDIS_STATUS MiniportRestart(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
@@ -314,37 +314,37 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+<mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
+   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link>
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_restart_parameters" tabindex="0"><b>
    NDIS_MINIPORT_RESTART_PARAMETERS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
-   NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndismrestartcomplete.md">NdisMRestartComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
-
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
-
-<mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
-   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
+   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
+<mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
+   NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
 
  
 

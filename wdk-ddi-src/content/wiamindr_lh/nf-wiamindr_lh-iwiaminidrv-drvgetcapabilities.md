@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 946a6ea7-5818-4959-adf2-3568c1b64b1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvGetCapabilities method, drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv, IWiaMiniDrv::drvGetCapabilities, drvGetCapabilities, image.iwiaminidrv_drvgetcapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetCapabilities method, drvGetCapabilities method [Imaging Devices], image.iwiaminidrv_drvgetcapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities, IWiaMiniDrv::drvGetCapabilities, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities, drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvGetCapabilities
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -169,11 +169,11 @@ The <i>Wiadef.h</i> header lists several predefined commands and events.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_dev_cap_drv.md">WIA_DEV_CAP_DRV</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
  
 

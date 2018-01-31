@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CAD_DISABLE_CHARGING
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
+req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---
 
 # IOCTL_CAD_DISABLE_CHARGING IOCTL

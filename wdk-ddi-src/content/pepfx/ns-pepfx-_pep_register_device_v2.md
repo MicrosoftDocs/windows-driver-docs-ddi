@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A1363B34-CC5C-482E-8E8D-62D7263545E3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_REGISTER_DEVICE, PPEP_REGISTER_DEVICE_V2 structure pointer [Kernel-Mode Driver Architecture], kernel.pep_register_device_v2, _PEP_REGISTER_DEVICE_V2, pepfx/PEP_REGISTER_DEVICE_V2, PPEP_REGISTER_DEVICE_V2, pepfx/PPEP_REGISTER_DEVICE_V2, *PPEP_REGISTER_DEVICE, *PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2 structure [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE, PPEP_REGISTER_DEVICE_V2 structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2 structure [Kernel-Mode Driver Architecture], kernel.pep_register_device_v2, _PEP_REGISTER_DEVICE_V2, *PPEP_REGISTER_DEVICE, PEP_REGISTER_DEVICE_V2, *PPEP_REGISTER_DEVICE_V2, PPEP_REGISTER_DEVICE_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_REGISTER_DEVICE_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2"
+req.typenames: PEP_REGISTER_DEVICE_V2, *PPEP_REGISTER_DEVICE_V2
 ---
 
 # _PEP_REGISTER_DEVICE_V2 structure
@@ -71,27 +71,27 @@ typedef struct _PEP_REGISTER_DEVICE_V2 {
 
 
 
-### -field DeviceId
+#### - DeviceId
 
 [in] A string that uniquely identifies the device. This member is a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
-### -field KernelHandle
+#### - KernelHandle
 
 [in] A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
 
-### -field Register
+#### - Register
 
 [in] A pointer to a <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that describes the power management attributes of all the components in the device. For more information, see Remarks.
 
 
-### -field DeviceHandle
+#### - DeviceHandle
 
 [out] A PEPHANDLE value that the PEP creates to identify this device.  PoFx will use this handle to identify the device in future <a href="https://msdn.microsoft.com/library/windows/hardware/mt186631">device power management (DPM) notifications</a>.
 
 
-### -field DeviceAccepted
+#### - DeviceAccepted
 
 [out] A <a href="..\pepfx\ne-pepfx-_pep_device_acceptance_type.md">PEP_DEVICE_ACCEPTANCE_TYPE</a> enumeration value that indicates whether the PEP claims ownership of the device. The PEP that claims ownership is responsible for handling DPM notifications for the device.
 
@@ -109,9 +109,9 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
 <a href="..\pepfx\ne-pepfx-_pep_device_acceptance_type.md">PEP_DEVICE_ACCEPTANCE_TYPE</a>
 

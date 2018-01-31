@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bfccd901-9ce7-4873-ba9a-0e4718fd7d19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCancelDirectOidRequest, ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], netvista.ndiscanceldirectoidrequest, NdisCancelDirectOidRequest
+ms.keywords: NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], NdisCancelDirectOidRequest, ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, ndis/NdisCancelDirectOidRequest, netvista.ndiscanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ VOID NdisCancelDirectOidRequest(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 The handle that the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function returned
      that identifies the target miniport adapter on the binding.
 
 
-### -param RequestId [in]
+#### - RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structures that are being
@@ -109,9 +109,9 @@ Protocol drivers call the
 
 <a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
  
 

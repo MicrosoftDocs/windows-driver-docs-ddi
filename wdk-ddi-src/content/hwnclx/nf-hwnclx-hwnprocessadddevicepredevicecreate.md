@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: c7bbba08-e9d0-4f78-93d8-e451e4dc2573
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HwNProcessAddDevicePreDeviceCreate, gpiobtn.hwnprocessadddevicepredevicecreate, hwnclx/HwNProcessAddDevicePreDeviceCreate, HwNProcessAddDevicePreDeviceCreate function
+ms.keywords: HwNProcessAddDevicePreDeviceCreate function, HwNProcessAddDevicePreDeviceCreate, hwnclx/HwNProcessAddDevicePreDeviceCreate, gpiobtn.hwnprocessadddevicepredevicecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	HwNProcessAddDevicePreDeviceCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
+req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---
 
 # HwNProcessAddDevicePreDeviceCreate function
@@ -70,17 +70,17 @@ FORCEINLINE NTSTATUS  HwNProcessAddDevicePreDeviceCreate(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 Handle to the client drivers framework driver object. 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. 
 
 
-### -param FdoAttributes [out]
+#### - FdoAttributes [out]
 
 Pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes the attributes of the client driver’s device object when it’s created. 
 
@@ -94,9 +94,9 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
  
 

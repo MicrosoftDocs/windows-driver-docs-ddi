@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxceinitiatevcdisconnect, rxce/RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml
+ms.keywords: RxCeInitiateVCDisconnect function [Installable File System Drivers], ifsk.rxceinitiatevcdisconnect, rxce/RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeInitiateVCDisconnect
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ NTSTATUS RxCeInitiateVCDisconnect(
 
 
 
-### -param pVc [in]
+#### - pVc [in]
 
 A pointer to the virtual circuit structure to be disconnected. 
 

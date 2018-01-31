@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RouterGetPrintClassObject function [Print Devices], prnasntp/RouterGetPrintClassObject, print.routergetprintclassobject, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml, RouterGetPrintClassObject
+ms.keywords: prnasntp/RouterGetPrintClassObject, print.routergetprintclassobject, RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT RouterGetPrintClassObject(
 
 
 
-### -param pPrinter [in]
+#### - pPrinter [in]
 
 A pointer to a null-terminated string that contains the name of the printer or print server.
 
 
-### -param riid [in]
+#### - riid [in]
 
 The identifier of the requested COM interface.
 
 
-### -param ppv [out]
+#### - ppv [out]
 
 A pointer to a variable that supplies the address of the COM interface requested in the <i>iid</i> parameter.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 29735ea8-6125-4958-8d78-12d1f13b16ea
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml, storport/StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache, storage.storportfreecontiguousmemoryspecifycache
+ms.keywords: storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml, StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storage.storportfreecontiguousmemoryspecifycache, storport/StorPortFreeContiguousMemorySpecifyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortFreeContiguousMemorySpecifyCache(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param BaseAddress [in]
+#### - BaseAddress [in]
 
 The base virtual address to free.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the <a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine was previously called.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 The cache type that is used in the call to the <a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine.
 

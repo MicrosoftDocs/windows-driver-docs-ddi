@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7B5DD97C-2E3D-4FF7-BF04-36F016B0C6B3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortQueueWorkItem routine [Storage Devices], StorPortQueueWorkItem, storport/StorPortQueueWorkItem, storage.storportqueueworkitem
+ms.keywords: storport/StorPortQueueWorkItem, storage.storportqueueworkitem, StorPortQueueWorkItem routine [Storage Devices], StorPortQueueWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortQueueWorkItem(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param WorkItemCallback [in]
+#### - WorkItemCallback [in]
 
 A pointer to a work item callback routine supplied by the miniport. This routine is called in context of the system thread to process the scheduled <i>WorkItem</i>.
 
 
-### -param Worker [in]
+#### - Worker [in]
 
 A pointer to an opaque buffer for the worker returned by <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Optional context for the <i>WorkItem</i> that is processed by the callback routine in <i>WorkItemCallback</i>.
 
@@ -150,11 +150,11 @@ The work item was successfully queued.
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+
 <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 <a href="..\storport\nc-storport-hw_workitem.md">HwStorWorkItem</a>
-
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
  
 

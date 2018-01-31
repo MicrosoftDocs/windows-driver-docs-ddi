@@ -40,7 +40,7 @@ apiname:
 -	TranslateBusAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,27 +75,27 @@ BOOLEAN TranslateBusAddress(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a> structure for the interface.
 
 
-### -param BusAddress [in]
+#### - BusAddress [in]
 
 The bus-relative address to be translated.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the input memory that <i>BusAddress</i> points to.
 
 
-### -param AddressSpace [in, out]
+#### - AddressSpace [in, out]
 
 On input, the address space in which the device's hardware address resides. A value of 0x0 signifies memory space, and a value of 0x1 signifies port I/O space. On output, <i>AddressSpace</i> indicates the address space in which the <i>TranslatedAddress</i> resides.
 
 
-### -param TranslatedAddress [out]
+#### - TranslatedAddress [out]
 
 The translated (logical) address that corresponds to the bus-relative address that the caller provides in <i>BusAddress</i>.
 

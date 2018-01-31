@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PWDF_FILEOBJECT_CONFIG, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, wdfdevice/WDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, wdf.wdf_fileobject_config, wdfdevice/PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, PWDF_FILEOBJECT_CONFIG, _WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer"
+ms.keywords: WDF_FILEOBJECT_CONFIG structure, kmdf.wdf_fileobject_config, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, wdf.wdf_fileobject_config, *PWDF_FILEOBJECT_CONFIG, wdfdevice/WDF_FILEOBJECT_CONFIG, wdfdevice/PWDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, _WDF_FILEOBJECT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_FILEOBJECT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG"
+req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -75,32 +75,32 @@ typedef struct _WDF_FILEOBJECT_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field EvtDeviceFileCreate
+#### - EvtDeviceFileCreate
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtFileClose
+#### - EvtFileClose
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a> callback function, or <b>NULL</b>.
 
 
-### -field EvtFileCleanup
+#### - EvtFileCleanup
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a> callback function, or <b>NULL</b>.
 
 
-### -field AutoForwardCleanupClose
+#### - AutoForwardCleanupClose
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
 
 
-### -field FileObjectClass
+#### - FileObjectClass
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a>-typed value that identifies whether the driver requires a framework file object to represent each file that an application or another driver creates or opens. Additionally, this value specifies where the framework can store the object's handle. 
 

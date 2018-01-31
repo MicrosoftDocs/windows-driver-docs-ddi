@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b0f03d83-61d3-4aa1-ae4e-a8bdc9f13a9f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddchgr/CHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml, _CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], PCHANGER_EXCHANGE_MEDIUM, *PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], storage.changer_exchange_medium
+ms.keywords: CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], *PCHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], storage.changer_exchange_medium, CHANGER_EXCHANGE_MEDIUM, _CHANGER_EXCHANGE_MEDIUM, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml, ntddchgr/CHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,43 +72,43 @@ typedef struct _CHANGER_EXCHANGE_MEDIUM {
 
 
 
-### -field Transport
+#### - Transport
 
 Indicates which transport element to use for the exchange operation. This member contains a structure of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>. The <b>ElementType</b> member of the CHANGER_ELEMENT structure must be assigned a value of <b>ChangerTransport</b>. 
 
 
-### -field Source
+#### - Source
 
 Indicates the element that contains the piece of media to be moved. 
 
 
-### -field Destination1
+#### - Destination1
 
 Indicates the destination of the piece of media originally at <b>Source</b>. 
 
 
-### -field Destination2
+#### - Destination2
 
 Indicates the destination of the piece of media originally at <b>Destination1</b>. 
 
 
-### -field Flip1
+#### - Flip1
 
 Indicates, when <b>TRUE</b>, that the piece of media moved to <b>Destination1</b> should be flipped. This member is valid only if the <b>Features0</b> member of the <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a> structure is set to CHANGER_MEDIUM_FLIP. When <b>FALSE</b>, this member indicates that the media does not ready to be flipped. 
 
 
-### -field Flip2
+#### - Flip2
 
 Indicates, when <b>TRUE</b>, that the medium moved to <b>Destination2</b> should be flipped. This member is valid only if the <b>Features0</b> member of the GET_CHANGER_PARAMETERS structure is set to CHANGER_MEDIUM_FLIP. When <b>FALSE</b>, this member indicates that the media does not ready to be flipped.  
 
 
 ## -see-also
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
-
 <a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
 
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
 
  
 

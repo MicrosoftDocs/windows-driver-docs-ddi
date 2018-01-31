@@ -76,7 +76,7 @@ typedef IF_QUERY_OBJECT *IFP_QUERY_OBJECT;
 
 
 
-### -param ProviderIfContext [in]
+#### - ProviderIfContext [in]
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
@@ -84,7 +84,7 @@ A handle that identifies the interface provider's context area for the interface
      NdisIfRegisterInterface</b></mshelp:link> function.
 
 
-### -param ObjectId [in]
+#### - ObjectId [in]
 
 An identifier for the object that is the target of the query request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
@@ -92,13 +92,13 @@ An identifier for the object that is the target of the query request. For a list
      OIDs</mshelp:link>.
 
 
-### -param pOutputBufferLength [in, out]
+#### - pOutputBufferLength [in, out]
 
 A pointer to an NDIS-supplied variable in which NDIS provides the length of the output buffer. 
      <i>ProviderQueryObject</i> writes the length of the data that it put in the output buffer.
 
 
-### -param pOutputBuffer [out]
+#### - pOutputBuffer [out]
 
 A pointer to an NDIS-supplied output buffer in which 
      <i>ProviderQueryObject</i> writes the response to the query request.

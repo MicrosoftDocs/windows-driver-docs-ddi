@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetpipe_isoutendpoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, IsOutEndPoint method, IWDFUsbTargetPipe, IsOutEndPoint, IWDFUsbTargetPipe interface, IsOutEndPoint method, umdf.iwdfusbtargetpipe_isoutendpoint, IsOutEndPoint method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe::IsOutEndPoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint
+ms.keywords: IsOutEndPoint method, wdf.iwdfusbtargetpipe_isoutendpoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IWDFUsbTargetPipe interface, IsOutEndPoint method, IsOutEndPoint, IWDFUsbTargetPipe, IsOutEndPoint method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_isoutendpoint, IWDFUsbTargetPipe::IsOutEndPoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,9 +85,9 @@ If the USB pipe is an OUT pipe, a UMDF driver can call the <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
  
 

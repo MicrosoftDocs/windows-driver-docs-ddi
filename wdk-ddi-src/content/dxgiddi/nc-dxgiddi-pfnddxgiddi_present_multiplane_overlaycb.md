@@ -40,7 +40,7 @@ apiname:
 -	pfnPresentMultiPlaneOverlayCb
 product: Windows
 targetos: Windows
-req.typenames: DRMRIGHTS, *PDRMRIGHTS
+req.typenames: "*PDRMRIGHTS, DRMRIGHTS"
 ---
 
 # PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8862ba3-c871-4d9b-9ee4-99ec9d0bcda9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_AVAILABLE_FREQUENCY_LIST, netvista.dot11_available_frequency_list, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], PDOT11_AVAILABLE_FREQUENCY_LIST, Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, _DOT11_AVAILABLE_FREQUENCY_LIST, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, *PDOT11_AVAILABLE_FREQUENCY_LIST
+ms.keywords: DOT11_AVAILABLE_FREQUENCY_LIST, netvista.dot11_available_frequency_list, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST, *PDOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _DOT11_AVAILABLE_FREQUENCY_LIST {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_AVAILABLE_FREQUENCY_LIST structure. This member is
      formatted as an 
@@ -104,19 +104,19 @@ This member must be set to
        <b>sizeof</b>(DOT11_AVAILABLE_FREQUENCY_LIST).
 
 
-### -field uNumOfEntries
+#### - uNumOfEntries
 
 The number of entries in the 
      <b>uFrequencyValue</b> array.
 
 
-### -field uTotalNumOfEntries
+#### - uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>uFrequencyValue</b> array can contain.
 
 
-### -field uFrequencyValue
+#### - uFrequencyValue
 
 An array that specifies the list of available frequencies that the NIC can operate with.
 

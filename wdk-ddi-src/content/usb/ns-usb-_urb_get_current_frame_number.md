@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4c6e5064-83b4-4d3c-ab08-041070128f3c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._urb_get_current_frame_number, _URB_GET_CURRENT_FRAME_NUMBER, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml, usb/_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses]
+ms.keywords: usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml, buses._urb_get_current_frame_number, usb/_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ struct _URB_GET_CURRENT_FRAME_NUMBER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_CURRENT_FRAME_NUMBER, and <b>Hdr.Length</b> must be <code>sizeof(_URB_GET_CURRENT_FRAME_NUMBER)</code>.
 
@@ -79,18 +79,18 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-### -field FrameNumber
+#### - FrameNumber
 
 Contains the current 32-bit frame number, on the USB bus, on return from the host controller driver.
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

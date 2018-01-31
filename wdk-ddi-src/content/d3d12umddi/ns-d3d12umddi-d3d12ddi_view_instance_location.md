@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b31ac34-233b-4246-a1c3-d0aac0f35db6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], display.d3d12ddi-view-instance-location, d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION
+ms.keywords: d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION, display.d3d12ddi-view-instance-location, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], D3D12DDI_VIEW_INSTANCE_LOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3D12DDI_VIEW_INSTANCE_LOCATION {
 
 
 
-### -field ViewportArrayIndex
+#### - ViewportArrayIndex
 
 Viewport array index.
 
 
-### -field RenderTargetArrayIndex
+#### - RenderTargetArrayIndex
 
 Render target array index.
 

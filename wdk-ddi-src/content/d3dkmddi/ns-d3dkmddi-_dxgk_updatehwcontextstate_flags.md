@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags"
+ms.keywords: d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags, DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], _DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,22 +74,22 @@ typedef struct _DXGK_UPDATEHWCONTEXTSTATE_FLAGS {
 
 
 
-### -field Suspended
+#### - Suspended
 
 Used to suspend the context. Otherwise, the context is runnable.
 
 
-### -field InterruptOnSwitchCompletion
+#### - InterruptOnSwitchCompletion
 
 Used when the context state update is effective on the GPU.
 
 
-### -field Reserved
+#### - Reserved
 
 This value is reserved for system use.
 
 
-### -field Value
+#### - Value
 
 Used to operate over the rest of values.
 

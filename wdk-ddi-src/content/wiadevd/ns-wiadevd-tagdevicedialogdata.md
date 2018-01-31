@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/DEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], DEVICEDIALOGDATA structure [Imaging Devices], *LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], wiadevd/LPDEVICEDIALOGDATA, DEVICEDIALOGDATA"
+ms.keywords: LPDEVICEDIALOGDATA structure pointer [Imaging Devices], wiadevd/DEVICEDIALOGDATA, LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], wiadevd/LPDEVICEDIALOGDATA, UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, DEVICEDIALOGDATA structure [Imaging Devices], *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, PDEVICEDIALOGDATA, DEVICEDIALOGDATA, image.devicedialogdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICEDIALOGDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA, DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA"
+req.typenames: DEVICEDIALOGDATA, *PDEVICEDIALOGDATA, *LPDEVICEDIALOGDATA
 req.product: Windows 10 or later.
 ---
 
@@ -74,37 +74,37 @@ typedef struct tagDEVICEDIALOGDATA {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Specifies the size of this structure in bytes.
 
 
-### -field hwndParent
+#### - hwndParent
 
 Specifies the handle to the parent window of the dialog.
 
 
-### -field pIWiaItemRoot
+#### - pIWiaItemRoot
 
 Points to an <b>IWiaItem</b> interface that represents the valid root item in the application item tree. For more information about this interface, see the Windows SDK documentation.
 
 
-### -field dwFlags
+#### - dwFlags
 
 Specifies the flags passed to <b>IWiaItem::DeviceDlg</b> and <b>IWiaDevMgr::GetImageDlg</b> by the calling program. These methods are described in the Windows SDK documentation. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in <i>Wiadef.h</i>).
 
 
-### -field lIntent
+#### - lIntent
 
 Specifies the intents passed to <b>IWiaItem::DeviceDlg</b> and <b>IWiaDevMgr::GetImageDlg</b> by the calling program (see the Windows SDK documentation).
 
 
-### -field lItemCount
+#### - lItemCount
 
 Specifies the number of items in the array to which <b>ppIWiaItems</b> points.
 
 
-### -field ppWiaItems
+#### - ppWiaItems
 
 Array of IWiaItem interface pointers. Array must
 

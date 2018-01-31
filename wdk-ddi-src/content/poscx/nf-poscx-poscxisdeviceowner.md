@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxIsDeviceOwner, poscx/PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner
+ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN PosCxIsDeviceOwner(
 
 
 
-### -param device [in]
+#### - device [in]
 
 A handle to a framework device object that represents the device.
 
 
-### -param fileObject [in]
+#### - fileObject [in]
 
       A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetbusdata, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, StorPortGetBusData routine [Storage Devices], storport/StorPortGetBusData, StorPortGetBusData
+ms.keywords: storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, storage.storportgetbusdata, StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storport/StorPortGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,34 +74,34 @@ ULONG StorPortGetBusData(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param BusDataType [in]
+#### - BusDataType [in]
 
 Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: <b>Cmos</b>, <b>EisaConfiguration</b>, <b>Pos</b>, or <b>PCIConfiguration</b>. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always <b>MaximumBusDataType</b>.
 
 
-### -param SystemIoBusNumber [in]
+#### - SystemIoBusNumber [in]
 
 Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains this value from the <b>SystemIoBusNumber</b> member initially set in <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
 
 
-### -param SlotNumber [in]
+#### - SlotNumber [in]
 
 Specifies the logical slot number or location of the device.
 
 If <b>PCIConfiguration</b> is specified as the <i>BusDataType</i>, this parameter must be specified as a PCI_SLOT_NUMBER-type value.
 
 
-### -param Buffer [in, out]
+#### - Buffer [in, out]
 
 Pointer to a buffer or area to which the configuration data is returned or, if the given <i>Length</i> is zero, points to a location to which the OS-specific port driver returns a pointer to a buffer that it allocates.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the maximum number of bytes to return at <i>Buffer</i>, or zero if the caller requires the OS-specific port driver to allocate a buffer to contain the data.
 
@@ -152,9 +152,9 @@ Configuration data returned by <b>StorPortGetBusData</b> is valid only until the
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
  
 

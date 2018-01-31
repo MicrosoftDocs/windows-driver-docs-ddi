@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9C21732B-0AB1-4F3E-8F3D-F0B12007920A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: d4drvif/DOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA, d4drvif/PDOT4_DC_CREATE_DATA, print.dot4_dc_create_data, _DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA structure [Print Devices], PDOT4_DC_CREATE_DATA structure pointer [Print Devices], *PDOT4_DC_CREATE_DATA
+ms.keywords: DOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA structure pointer [Print Devices], PDOT4_DC_CREATE_DATA, *PDOT4_DC_CREATE_DATA, d4drvif/DOT4_DC_CREATE_DATA, print.dot4_dc_create_data, d4drvif/PDOT4_DC_CREATE_DATA, _DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _DOT4_DC_CREATE_DATA {
 
 
 
-### -field bPsid
+#### - bPsid
 
 Specifies this or the service name sent.
 
 
-### -field pServiceName
+#### - pServiceName
 
 Describes the <b>CHAR</b>  member <b>pServiceName</b>.
 
 
-### -field bType
+#### - bType
 
 Specifies the type, stream or packet, of channels on the socket.
 
 
-### -field ulBufferSize
+#### - ulBufferSize
 
 Specifies the size of the read buffer for channels on socket.
 
 
-### -field usMaxHtoPPacketSize
+#### - usMaxHtoPPacketSize
 
 Describes the <b>USHORT</b> member <b>usMaxHtoPPacketSize</b>.
 
 
-### -field usMaxPtoHPacketSize
+#### - usMaxPtoHPacketSize
 
 Describes the <b>USHORT</b> member <b>usMaxPtoHPacketSize</b>.
 
 
-### -field bHsid
+#### - bHsid
 
 Specifies the host socket ID returned.
 

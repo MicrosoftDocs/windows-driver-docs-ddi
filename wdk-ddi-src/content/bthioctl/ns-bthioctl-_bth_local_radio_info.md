@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 288863ca-1a11-456f-8d6b-b429668c2bf2
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, bthioctl/PBTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], _BTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO, bthioctl/BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO, bltooth.bth_local_radio_info
+ms.keywords: BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], bthioctl/PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], bltooth.bth_local_radio_info, _BTH_LOCAL_RADIO_INFO, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, bthioctl/BTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,14 +72,14 @@ typedef struct _BTH_LOCAL_RADIO_INFO {
 
 
 
-### -field localInfo
+#### - localInfo
 
 A 
      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that contains
      information about the local radio.
 
 
-### -field flags
+#### - flags
 
 A flag that indicates the state of the local radio. Both flags can be set at the same time.
      Possible values include:
@@ -94,17 +94,17 @@ LOCAL_RADIO_DISCOVERABLE
 LOCAL_RADIO_CONNECTABLE
 
 
-### -field hciRevision
+#### - hciRevision
 
 The minor version of the host controller interface (HCI).
 
 
-### -field hciVersion
+#### - hciVersion
 
 The major version of the HCI.
 
 
-### -field radioInfo
+#### - radioInfo
 
 A 
      <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a> structure that contains
@@ -122,11 +122,11 @@ The
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
-
 <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
  
 

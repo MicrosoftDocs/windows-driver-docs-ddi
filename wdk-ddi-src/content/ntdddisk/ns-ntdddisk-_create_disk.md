@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCREATE_DISK, storage.create_disk, PCREATE_DISK, ntdddisk/CREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], _CREATE_DISK, CREATE_DISK structure [Storage Devices], CREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, ntdddisk/PCREATE_DISK"
+ms.keywords: CREATE_DISK structure [Storage Devices], CREATE_DISK, PCREATE_DISK, _CREATE_DISK, ntdddisk/CREATE_DISK, ntdddisk/PCREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, PCREATE_DISK structure pointer [Storage Devices], storage.create_disk, *PCREATE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CREATE_DISK
 product: Windows
 targetos: Windows
-req.typenames: "*PCREATE_DISK, CREATE_DISK"
+req.typenames: CREATE_DISK, *PCREATE_DISK
 ---
 
 # _CREATE_DISK structure
@@ -86,7 +86,7 @@ typedef struct _CREATE_DISK {
  
 
 
-### -field PartitionStyle
+#### - PartitionStyle
 
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table to use when formatting the disk.
 
@@ -103,13 +103,13 @@ Contains data used to initialize a GPT-style disk partition for the first time. 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
  
 

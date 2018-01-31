@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b81dbad8-0e03-4183-a7b3-32c75a656575
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfchildlistbeginiteration, WdfChildListBeginIteration, wdfchildlist/WdfChildListBeginIteration, DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, PFN_WDFCHILDLISTBEGINITERATION, WdfChildListBeginIteration method, wdf.wdfchildlistbeginiteration
+ms.keywords: WdfChildListBeginIteration method, kmdf.wdfchildlistbeginiteration, PFN_WDFCHILDLISTBEGINITERATION, DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, wdf.wdfchildlistbeginiteration, wdfchildlist/WdfChildListBeginIteration, WdfChildListBeginIteration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfChildListBeginIteration(
 
 
 
-### -param ChildList [in]
+#### - ChildList [in]
 
 A handle to a framework child list object.
 
 
-### -param Iterator [in]
+#### - Iterator [in]
 
 A pointer to a caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a> structure that indicates the type of child devices to be retrieved.
 
@@ -108,15 +108,15 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a>
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_iterator_init.md">WDF_CHILD_LIST_ITERATOR_INIT</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
 
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a>
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_iterator_init.md">WDF_CHILD_LIST_ITERATOR_INIT</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 

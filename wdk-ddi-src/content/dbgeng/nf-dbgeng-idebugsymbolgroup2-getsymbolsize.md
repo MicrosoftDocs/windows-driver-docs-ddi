@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f35bbbeb-585b-47b0-ae36-bd37fe9e1bbc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolSize, IDebugSymbolGroup2::GetSymbolSize, GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface, ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, debugger.getsymbolsize, dbgeng/IDebugSymbolGroup2::GetSymbolSize
+ms.keywords: debugger.getsymbolsize, IDebugSymbolGroup2::GetSymbolSize, IDebugSymbolGroup2, GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolSize method [Windows Debugging], ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, GetSymbolSize, dbgeng/IDebugSymbolGroup2::GetSymbolSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetSymbolSize(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the symbol to remove. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Size [out]
+#### - Size [out]
 
 The size, in bytes, of the symbol's value. This information might not be available. If this information is not available, <i>Size</i> is set to zero.  For some symbols (for example, a function's code), the data might be split over multiple regions. In this situation, <i>Size</i> is not meaningful.
 
@@ -123,11 +123,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
 <a href="https://msdn.microsoft.com/b6f03eb5-e386-4e88-a729-db08f1fa460c">IDebugSymbols::GetTypeSize</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

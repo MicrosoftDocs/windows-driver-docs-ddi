@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d3479656-310f-4e2d-a671-296bc3e2f1ab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.dsmsetloadbalancepolicy_out, *PDsmSetLoadBalancePolicy_OUT, _DsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], mpiodisk/DsmSetLoadBalancePolicy_OUT
+ms.keywords: "_DsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT, structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml, storage.dsmsetloadbalancepolicy_out, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], mpiodisk/DsmSetLoadBalancePolicy_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DsmSetLoadBalancePolicy_OUT {
 
 
 
-### -field Status
+#### - Status
 
 The status of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552670">DsmSetLoadBalancePolicy</a> operation.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D68B2071-D32B-4A6A-ACB8-001865CABD92
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, *PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, netvista.ndis_wwan_set_device_service_session, PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION
+ms.keywords: NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, netvista.ndis_wwan_set_device_service_session, ndiswwan/PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, ndiswwan/NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_SET_DEVICE_SERVICE_SESSION {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_DEVICE_SERVICE_SESSION
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field Session
+#### - Session
 
 The requested session state set operation.
 

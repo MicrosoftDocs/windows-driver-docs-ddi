@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5e06ff3-98ba-4443-8ea6-c32b063cd478
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortLockPages, display.videoportlockpages, VideoPortLockPages function [Display Devices], VideoPort_Functions_47b202e0-2a8b-4fb0-9cf2-b4ef3ddb9ff4.xml, VideoPortLockPages
+ms.keywords: VideoPortLockPages function [Display Devices], VideoPortLockPages, VideoPort_Functions_47b202e0-2a8b-4fb0-9cf2-b4ef3ddb9ff4.xml, display.videoportlockpages, video/VideoPortLockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ BOOLEAN VideoPortLockPages(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pVrp [in, out]
+#### - pVrp [in, out]
 
 Pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a> structure. The miniport driver must have set <b>InputBuffer</b> and <b>InputBufferLength</b> to contain the virtual address and the size in bytes, respectively, of the memory to be locked for the transfer. This memory was allocated by the display driver and passed to the miniport driver through an IOCTL. The video port returns a pointer to and the size in bytes of the scatter/gather list in <b>OutputBuffer</b> and <b>OutputBufferLength</b>, respectively.
 
 
-### -param pUEvent [in]
+#### - pUEvent [in]
 
 Pointer to a mapped user event that is to be set by the miniport driver, or <b>NULL</b>. The user event was mapped by the display driver and passed to the miniport driver through an IOCTL.
 
 
-### -param pDisplayEvent [in]
+#### - pDisplayEvent [in]
 
 Pointer to an event that is to be set by the miniport driver, or <b>NULL</b>. This event was created by and received from the display driver through an IOCTL.
 
 
-### -param DmaFlags [in]
+#### - DmaFlags [in]
 
 Specifies the action to be performed. This parameter must be one of the following values:
 <table>

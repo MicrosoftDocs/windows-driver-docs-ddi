@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess
+ms.keywords: PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], wdm/PsQueryTotalCycleTimeProcess, kernel.psquerytotalcycletimeprocess, PsQueryTotalCycleTimeProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ ULONG64 PsQueryTotalCycleTimeProcess(
 
 
 
-### -param Process [in, out]
+#### - Process [in, out]
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544273">EPROCESS</a> structure that serves as the kernel object for the process.
 
 
-### -param CycleTimeStamp [out]
+#### - CycleTimeStamp [out]
 
 A pointer to a ULONG64 variable to which the routine writes the current cycle counter value for the process.
 

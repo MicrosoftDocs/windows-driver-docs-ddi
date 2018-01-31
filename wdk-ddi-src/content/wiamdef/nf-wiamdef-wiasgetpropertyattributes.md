@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b12ff158-73e7-4fdf-b7b1-2969d161ed93
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetPropertyAttributes, wiamdef/wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices], wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, image.wiasgetpropertyattributes
+ms.keywords: image.wiasgetpropertyattributes, wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiasGetPropertyAttributes, wiamdef/wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetPropertyAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasGetPropertyAttributes(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param cPropSpec
+#### - cPropSpec
 
 Specifies the number of properties.
 
 
-### -param pPropSpec [in]
+#### - pPropSpec [in]
 
 Pointer to a PROPSPEC structure (defined in the Microsoft Windows SDK documentation) indicating the properties for which to get valid values and access flags.
 
 
-### -param pulAccessFlags
+#### - pulAccessFlags
 
 Pointer to an array that contains the access flags for the properties.
 
 
-### -param pPropVar [out]
+#### - pPropVar [out]
 
 Pointer to an array of PROPVARIANT structures (defined in the Microsoft Windows SDK documentation) that contains the valid values for the properties.
 

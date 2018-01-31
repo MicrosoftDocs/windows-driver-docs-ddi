@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.track_data, *PTRACK_DATA, ntddcdrm/TRACK_DATA, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, TRACK_DATA structure [Storage Devices], TRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], ntddcdrm/PTRACK_DATA, _TRACK_DATA, PTRACK_DATA
+ms.keywords: ntddcdrm/TRACK_DATA, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, PTRACK_DATA, storage.track_data, TRACK_DATA structure [Storage Devices], *PTRACK_DATA, TRACK_DATA, _TRACK_DATA, ntddcdrm/PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRACK_DATA
 product: Windows
 targetos: Windows
-req.typenames: TRACK_DATA, *PTRACK_DATA
+req.typenames: "*PTRACK_DATA, TRACK_DATA"
 ---
 
 # _TRACK_DATA structure
@@ -72,32 +72,32 @@ typedef struct _TRACK_DATA {
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. 
 
 
-### -field Control
+#### - Control
 
 Indicates the attributes of the track. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
 
 
-### -field Adr
+#### - Adr
 
 Indicates the type of information encoded in the Q subchannel of the track where this table of contents entry was found. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
 
 
-### -field TrackNumber
+#### - TrackNumber
 
 Indicates the number of the track. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 
 
-### -field Address
+#### - Address
 
 Indicates the starting address of the track. 
 
@@ -111,9 +111,9 @@ This structure contains table of contents information for a track.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
 
  
 

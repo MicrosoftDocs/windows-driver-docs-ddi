@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 08344cf3-7724-4c11-8855-ba061a0284f8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, structs-CD-ROM_5e32d5eb-6a1d-412d-9efe-dba88f85c730.xml, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure pointer [Storage Devices], PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, *PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, storage.feature_data_disc_control_blocks_ex, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure [Storage Devices]"
+ms.keywords: "*PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, storage.feature_data_disc_control_blocks_ex, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure pointer [Storage Devices], FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, structs-CD-ROM_5e32d5eb-6a1d-412d-9efe-dba88f85c730.xml, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX {
 
 
 
-### -field ContentDescriptor
+#### - ContentDescriptor
 
 Contains the first of one or more control blocks. The bytes in this array are arranged in big-endian order. <b>ContentDescriptor</b>[0] contains the most significant byte, and <b>ContentDescriptor</b>[3] contains the least significant byte.
 

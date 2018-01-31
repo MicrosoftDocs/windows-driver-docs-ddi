@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_SCO_REGISTER_SERVER, bthddi/_BRB_SCO_REGISTER_SERVER, bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices]"
+ms.keywords: "_BRB_SCO_REGISTER_SERVER, bltooth._brb_sco_register_server, bthddi/_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,24 +75,24 @@ struct _BRB_SCO_REGISTER_SERVER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The address of the remote Bluetooth device for which to receive notifications.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use. Do not use.
 
 
-### -field IndicationFlags
+#### - IndicationFlags
 
 A flag that indicates when the callback function that is specified in the 
      <b>IndicationCallback</b> member should be called. The following flags are defined.
@@ -131,7 +131,7 @@ Notify the profile driver if there are any incoming eSCO connections.
 </table> 
 
 
-### -field IndicationCallback
+#### - IndicationCallback
 
 A 
      <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>, implemented
@@ -139,13 +139,13 @@ A
      incoming SCO connections.
 
 
-### -field IndicationCallbackContext
+#### - IndicationCallbackContext
 
 The context passed to the function that is defined in the 
      <b>IndicationCallback</b> member.
 
 
-### -field ReferenceObject
+#### - ReferenceObject
 
 A pointer to an object to pass to the 
      <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
@@ -160,7 +160,7 @@ A pointer to an object to pass to the
      BRB_SCO_UNREGISTER_SERVER</b></mshelp:link> request.
 
 
-### -field ServerHandle
+#### - ServerHandle
 
 Handle to the SCO server, if successfully returned. When the profile driver should no longer
      receive remote connect indications it should pass this handle to 
@@ -205,15 +205,15 @@ To stop receiving remote connection notifications, a profile driver should
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

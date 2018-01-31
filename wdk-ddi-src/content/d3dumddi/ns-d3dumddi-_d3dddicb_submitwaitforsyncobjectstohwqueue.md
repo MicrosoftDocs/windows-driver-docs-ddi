@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9890EB61-2CED-41AB-9A87-76D5020D84A0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_submitwaitforsyncobjectstohwqueue, d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices]
+ms.keywords: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], display.d3dddicb_submitwaitforsyncobjectstohwqueue, d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,25 +70,25 @@ typedef struct _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE {
 
 
 
-### -field hHwQueue
+#### - hHwQueue
 
 Hardware queue to queue the wait on.
 
 
 
-### -field ObjectCount
+#### - ObjectCount
 
 Number of objects to wait on.
 
 
 
-### -field ObjectHandleArray
+#### - ObjectHandleArray
 
 Handles to monitored fence synchronization objects to wait on.
 
 
 
-### -field FenceValueArray
+#### - FenceValueArray
 
 Monitored fence values to be waited on.
 

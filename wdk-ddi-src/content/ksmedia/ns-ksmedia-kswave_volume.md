@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bf3a0b49-ecec-4e96-bf09-b269e8852422
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSWAVE_VOLUME, ksmedia/KSWAVE_VOLUME, KSWAVE_VOLUME structure [Streaming Media Devices], PKSWAVE_VOLUME structure pointer [Streaming Media Devices], stream.kswave_volume, *PKSWAVE_VOLUME, KSWAVE_VOLUME, dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, PKSWAVE_VOLUME
+ms.keywords: PKSWAVE_VOLUME structure pointer [Streaming Media Devices], ksmedia/KSWAVE_VOLUME, PKSWAVE_VOLUME, *PKSWAVE_VOLUME, dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, KSWAVE_VOLUME structure [Streaming Media Devices], KSWAVE_VOLUME, stream.kswave_volume, ksmedia/PKSWAVE_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSWAVE_VOLUME
 product: Windows
 targetos: Windows
-req.typenames: KSWAVE_VOLUME, *PKSWAVE_VOLUME
+req.typenames: "*PKSWAVE_VOLUME, KSWAVE_VOLUME"
 ---
 
 # KSWAVE_VOLUME structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field LeftAttenuation
+#### - LeftAttenuation
 
 Specifies the amount of left attenuation.
 
 
-### -field RightAttenuation
+#### - RightAttenuation
 
 Specifies the amount of right attenuation.
 

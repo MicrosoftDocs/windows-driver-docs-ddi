@@ -75,7 +75,7 @@ UINT APIENTRY* pfnGetDecodeProfileCount(
 
 
 
-### -param NodeIndex
+#### - NodeIndex
 
 The physical adapter of the device to which this operation applies.
 
@@ -101,9 +101,9 @@ This function is called to retrieve the number of supported profiles.  The calle
 
 ## -see-also
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a>
-
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a>
+
+<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a>
 
  
 

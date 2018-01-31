@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b5b0a540-2730-40ef-8f65-135a19b9a732
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UntranslatedList method [Audio Devices], IResourceList interface, IResourceList interface [Audio Devices], UntranslatedList method, IResourceList::UntranslatedList, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, UntranslatedList method [Audio Devices], UntranslatedList, IResourceList, portcls/IResourceList::UntranslatedList, audio.iresourcelist_untranslatedlist
+ms.keywords: UntranslatedList method [Audio Devices], IResourceList interface, UntranslatedList method [Audio Devices], UntranslatedList, audio.iresourcelist_untranslatedlist, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, portcls/IResourceList::UntranslatedList, IResourceList, IResourceList::UntranslatedList, IResourceList interface [Audio Devices], UntranslatedList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.UntranslatedList
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IResourceList::UntranslatedList method
@@ -81,9 +81,9 @@ PCM_RESOURCE_LIST UntranslatedList(
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

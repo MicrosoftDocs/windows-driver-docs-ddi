@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6bc23364-07c9-4a01-b475-e4620f62a674
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], stream.ksremoveirpfromcancelablequeue
+ms.keywords: ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, stream.ksremoveirpfromcancelablequeue, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ PIRP KsRemoveIrpFromCancelableQueue(
 
 
 
-### -param QueueHead [in, out]
+#### - QueueHead [in, out]
 
 Points to the head of the queue from which to remove the IRP.
 
 
-### -param SpinLock [in]
+#### - SpinLock [in]
 
 Points to driver's spin lock for queue access.
 
 
-### -param ListLocation [in]
+#### - ListLocation [in]
 
 Indicates whether this IRP should come from the beginning or end of the queue.
 
 
-### -param RemovalOperation [in]
+#### - RemovalOperation [in]
 
 Specifies whether the IRP is removed from the list or just acquired by setting the cancel function to <b>NULL</b>. If it is only acquired, the IRP must be later released with <b>KsReleaseIrpOnCancelableQueue</b> or completely removed with <b>KsRemoveSpecificIrpFromCancelableQueue</b>.
 
@@ -125,9 +125,9 @@ typedef enum {
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleaseirponcancelablequeue.md">KsReleaseIrpOnCancelableQueue</a>
-
 <a href="..\ks\nf-ks-ksremovespecificirpfromcancelablequeue.md">KsRemoveSpecificIrpFromCancelableQueue</a>
+
+<a href="..\ks\nf-ks-ksreleaseirponcancelablequeue.md">KsReleaseIrpOnCancelableQueue</a>
 
  
 

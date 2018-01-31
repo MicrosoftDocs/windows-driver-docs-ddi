@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 1 - Consumer/producer mode, *PPEP_ACPI_SPB_RESOURCE, 2 to 7 - Reserved, _PEP_ACPI_SPB_RESOURCE, kernel.pep_acpi_spb_resource, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE, pepfx/PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_RESOURCE, 0 - Slave mode
+ms.keywords: PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_SPB_RESOURCE, pepfx/PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE, 1 - Consumer/producer mode, _PEP_ACPI_SPB_RESOURCE, 0 - Slave mode, 2 to 7 - Reserved, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], kernel.pep_acpi_spb_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_SPB_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE"
+req.typenames: PEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE
 ---
 
 # _PEP_ACPI_SPB_RESOURCE structure
@@ -73,17 +73,17 @@ typedef struct _PEP_ACPI_SPB_RESOURCE {
 
 
 
-### -field Type
+#### - Type
 
 A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
 
 
-### -field Flags
+#### - Flags
 
 A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
 
 
-### -field TypeSpecificFlags
+#### - TypeSpecificFlags
 
 Specifies the bit flags that are common to all serial bus connection types.
 <table>
@@ -128,11 +128,11 @@ These bits are reserved and must be set to zero.
 </table> 
 
 
-### -field ResourceSourceIndex
+#### - ResourceSourceIndex
 
 
 
-### -field ResourceSourceName
+#### - ResourceSourceName
 
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
@@ -140,12 +140,12 @@ qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
 
-### -field VendorData
+#### - VendorData
 
 A pointer to optional data that is specific to the serial bus connection type.
 
 
-### -field VendorDataLength
+#### - VendorDataLength
 
 The length of the buffer pointed to by <b>VendorData</b>.
 

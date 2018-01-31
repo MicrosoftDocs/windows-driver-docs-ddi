@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7762bf83-82cc-4eef-9699-d093a8c2b986
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/NetworkOpenLocationAny, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], ntifs/NetworkOpenLocationLoopback, NetworkOpenLocationAny, NetworkOpenLocationRemote, ifsk.network_open_location_qualifier, NetworkOpenLocationLoopback, ntifs/NetworkOpenLocationRemote, NETWORK_OPEN_LOCATION_QUALIFIER, ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml
+ms.keywords: NetworkOpenLocationLoopback, ntifs/NetworkOpenLocationLoopback, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], ntifs/NetworkOpenLocationAny, NETWORK_OPEN_LOCATION_QUALIFIER, ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, ntifs/NetworkOpenLocationRemote, ifsk.network_open_location_qualifier, NetworkOpenLocationAny, NetworkOpenLocationRemote
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-### -field NetworkOpenLocationAny
+#### - NetworkOpenLocationAny
 
 Indicates that the file has no location restrictions. That is, a caller can open the file whether it resides remotely or locally. 
 
 
-### -field NetworkOpenLocationRemote
+#### - NetworkOpenLocationRemote
 
 Indicates that the file is restricted to only opening remotely. That is, a caller can only open the file if it resides on a different computer from the computer that the caller resides on. 
 
 
-### -field NetworkOpenLocationLoopback
+#### - NetworkOpenLocationLoopback
 
 Indicates that the file is restricted to only opening locally. That is, a caller can only open the file if it resides on the same computer as the caller. 
 

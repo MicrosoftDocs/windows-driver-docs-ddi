@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2afec522-5a40-4db2-9f37-ee7a9b64e823
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportmidi_init, IMiniportMidi interface [Audio Devices], Init method, IMiniportMidi::Init, IMiniportMidi, Init method [Audio Devices], IMiniportMidi interface, portcls/IMiniportMidi::Init, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, Init method [Audio Devices], Init
+ms.keywords: audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, IMiniportMidi::Init, IMiniportMidi, Init method [Audio Devices], Init method [Audio Devices], IMiniportMidi interface, Init, audio.iminiportmidi_init, portcls/IMiniportMidi::Init, IMiniportMidi interface [Audio Devices], Init method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportMidi.Init
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportMidi::Init method
@@ -70,22 +70,22 @@ NTSTATUS Init(
 
 
 
-### -param UnknownAdapter [in]
+#### - UnknownAdapter [in]
 
 Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 Pointer to <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> interface of the resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a> object that is bound to this miniport object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param ServiceGroup [out]
+#### - ServiceGroup [out]
 
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> interface of the miniport driver's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
@@ -120,19 +120,19 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
 
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 
  
 

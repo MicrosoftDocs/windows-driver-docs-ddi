@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 32cd29c3-e8da-4119-84a4-3ce4daed528e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iadapterpowermanagement_querypowerchangestate, IAdapterPowerManagement, QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface, portcls/IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, IAdapterPowerManagement::QueryPowerChangeState, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml
+ms.keywords: portcls/IAdapterPowerManagement::QueryPowerChangeState, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement, QueryPowerChangeState method [Audio Devices], audio.iadapterpowermanagement_querypowerchangestate, QueryPowerChangeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IAdapterPowerManagement.QueryPowerChangeState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IAdapterPowerManagement::QueryPowerChangeState method
@@ -67,7 +67,7 @@ NTSTATUS QueryPowerChangeState(
 
 
 
-### -param NewStateQuery [in]
+#### - NewStateQuery [in]
 
 Specifies the new power state that is being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewStateQuery</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>.
 
@@ -90,11 +90,11 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
-
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
 
  
 

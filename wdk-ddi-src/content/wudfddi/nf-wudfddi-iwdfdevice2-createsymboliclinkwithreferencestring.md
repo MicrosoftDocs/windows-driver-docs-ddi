@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, CreateSymbolicLinkWithReferenceString, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString, CreateSymbolicLinkWithReferenceString method, IWDFDevice2, IWDFDevice2::CreateSymbolicLinkWithReferenceString
+ms.keywords: umdf.iwdfdevice2_createsymboliclinkwithreferencestring, CreateSymbolicLinkWithReferenceString, CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, IWDFDevice2, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, CreateSymbolicLinkWithReferenceString method, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.CreateSymbolicLinkWithReferenceString
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT CreateSymbolicLinkWithReferenceString(
 
 
 
-### -param pSymbolicLink [in]
+#### - pSymbolicLink [in]
 
 A pointer to a <b>NULL</b>-terminated character string that becomes the user-visible name of the device. The symbolic link name must be in the global <b>DosDevices</b> namespace.
 
 
-### -param pReferenceString [in, optional]
+#### - pReferenceString [in, optional]
 
 A pointer to a <b>NULL</b>-terminated character string that Windows appends to the device name when an application uses the symbolic name that the <i>pSymbolicLink</i> parameter specifies. For more information, see the following Remarks section. This parameter is optional and can be <b>NULL</b>.
 
@@ -135,9 +135,9 @@ If you do not need to add a reference string to your device's symbolic link name
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
 
  
 

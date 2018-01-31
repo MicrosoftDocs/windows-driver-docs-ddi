@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2810D8B3-DDB7-4B55-839B-B2D079BDC0FC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::GetLfxState, IMiniportStreamAudioEngineNode, GetLfxState method [Audio Devices], audio.iminiportstreamaudioenginenode_getlfxstate, portcls/IMiniportStreamAudioEngineNode::GetLfxState, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, GetLfxState
+ms.keywords: IMiniportStreamAudioEngineNode, GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::GetLfxState, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, IMiniportStreamAudioEngineNode::GetLfxState, GetLfxState, GetLfxState method [Audio Devices], audio.iminiportstreamaudioenginenode_getlfxstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.GetLfxState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::GetLfxState method
@@ -67,7 +67,7 @@ NTSTATUS GetLfxState(
 
 
 
-### -param pbEnable [out]
+#### - pbEnable [out]
 
 The current state of the LFX node.
 

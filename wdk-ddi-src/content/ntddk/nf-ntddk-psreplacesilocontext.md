@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C2A8F7FF-7DBA-4725-A64C-7F694C8001C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], ntddk/PsReplaceSiloContext, PsReplaceSiloContext, kernel.psreplacesilocontext
+ms.keywords: PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext, PsReplaceSiloContext, ntddk/PsReplaceSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS PsReplaceSiloContext(
 
 
 
-### -param Silo [in]
+#### - Silo [in]
 
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
 
-### -param ContextSlot [in]
+#### - ContextSlot [in]
 
 A slot allocated by the <a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> routine. 
 
 
-### -param NewSiloContext [in]
+#### - NewSiloContext [in]
 
 A pointer to the object created by the <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>. 
 
 
-### -param OldSiloContext [optional]
+#### - OldSiloContext [optional]
 
 A pointer to a caller-allocated variable that receives the address of the existing object. This parameter is optional and can be <b>NULL</b>. The address that the parameter receives can be <b>NULL</b>. 
 

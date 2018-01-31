@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 953e2f00-2275-49a2-b1e5-def7763a8ab7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PBMP_IMAGE_INFO, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, BMP_IMAGE_INFO, wiautil/BMP_IMAGE_INFO, _BMP_IMAGE_INFO, wiautil/PBMP_IMAGE_INFO, PBMP_IMAGE_INFO, BMP_IMAGE_INFO structure [Imaging Devices], PBMP_IMAGE_INFO structure pointer [Imaging Devices], image.bmp_image_info"
+ms.keywords: image.bmp_image_info, wiautil/BMP_IMAGE_INFO, *PBMP_IMAGE_INFO, BMP_IMAGE_INFO, wiautil/PBMP_IMAGE_INFO, PBMP_IMAGE_INFO, _BMP_IMAGE_INFO, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, PBMP_IMAGE_INFO structure pointer [Imaging Devices], BMP_IMAGE_INFO structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _BMP_IMAGE_INFO {
 
 
 
-### -field Width
+#### - Width
 
 Specifies the width of the image, in pixels.
 
 
-### -field Height
+#### - Height
 
 Specifies the height of the image, in lines.
 
 
-### -field ByteWidth
+#### - ByteWidth
 
 Specifies the width of the image, in bytes.
 
 
-### -field Size
+#### - Size
 
 Specifies the total size of the image, including headers, in bytes.
 

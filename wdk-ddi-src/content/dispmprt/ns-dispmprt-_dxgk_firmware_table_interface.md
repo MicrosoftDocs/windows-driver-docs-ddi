@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22ba50eb-e428-433f-aca0-1d61f31fcd0c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE structure [Display Devices], PDXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE, *PDXGK_FIRMWARE_TABLE_INTERFACE, dispmprt/DXGK_FIRMWARE_TABLE_INTERFACE, _DXGK_FIRMWARE_TABLE_INTERFACE, PDXGK_FIRMWARE_TABLE_INTERFACE structure pointer [Display Devices], display.dxgk_firmware_table_interface
+ms.keywords: "*PDXGK_FIRMWARE_TABLE_INTERFACE, dispmprt/DXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE structure [Display Devices], DXGK_FIRMWARE_TABLE_INTERFACE, _DXGK_FIRMWARE_TABLE_INTERFACE, dispmprt/PDXGK_FIRMWARE_TABLE_INTERFACE, display.dxgk_firmware_table_interface, PDXGK_FIRMWARE_TABLE_INTERFACE, PDXGK_FIRMWARE_TABLE_INTERFACE structure pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,46 +84,46 @@ typedef struct _DXGK_FIRMWARE_TABLE_INTERFACE {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Version
+#### - Version
 
 The version number of the System Firmware Table interface. Version number constants are defined in Dispmprt.h (for example, <b>DXGK_FIRMWARE_TABLE_INTERFACE_VERSION_1</b>).
 
 
-### -field Context
+#### - Context
 
 A pointer to a context that is provided by the display port driver.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display port driver.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display port driver.
 
 
-### -field EnumSystemFirmwareTables
+#### - EnumSystemFirmwareTables
 
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a> function. 
 
 
-### -field ReadSystemFirmwareTable
+#### - ReadSystemFirmwareTable
 
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh802471">ReadSystemFirmwareTable</a> function. 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh802471">ReadSystemFirmwareTable</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh802471">ReadSystemFirmwareTable</a>
 
  
 

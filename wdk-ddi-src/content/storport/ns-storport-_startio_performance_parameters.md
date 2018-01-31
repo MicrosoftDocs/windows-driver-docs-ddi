@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 984a8584-ebdd-4e93-868b-1537a3615c1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STARTIO_PERFORMANCE_PARAMETERS structure [Storage Devices], storport/PSTARTIO_PERFORMANCE_PARAMETERS, _STARTIO_PERFORMANCE_PARAMETERS, *PSTARTIO_PERFORMANCE_PARAMETERS, STARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS, storport/STARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS structure pointer [Storage Devices], structs-storport_6f0f3ae8-51e3-4c3e-91e1-4603b04b6f08.xml, storage.startio_performance_parameters
+ms.keywords: "_STARTIO_PERFORMANCE_PARAMETERS, storage.startio_performance_parameters, STARTIO_PERFORMANCE_PARAMETERS, STARTIO_PERFORMANCE_PARAMETERS structure [Storage Devices], structs-storport_6f0f3ae8-51e3-4c3e-91e1-4603b04b6f08.xml, storport/STARTIO_PERFORMANCE_PARAMETERS, storport/PSTARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS, *PSTARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _STARTIO_PERFORMANCE_PARAMETERS {
 
 
 
-### -field Version
+#### - Version
 
 The version number of the structure. This member is valid starting with Windows 8.
 
 
-### -field Size
+#### - Size
 
 The size of the structure.
 
 
-### -field MessageNumber
+#### - MessageNumber
 
 The offset in the device's MSI-X table for the optimal MSI-X message with which to interrupt. If the device does not support MSI-X messages, this member will be zero.
 
 
-### -field ChannelNumber
+#### - ChannelNumber
 
 Denotes the concurrent channel in which Storport is passing the I/O. If the miniport driver did not set up concurrent channels, this member will be zero.
 

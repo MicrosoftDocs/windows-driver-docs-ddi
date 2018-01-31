@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72D0BEC2-F5D5-4045-AD63-F263993817B0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceNotAccepted, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepDeviceAcceptedReserved, PepDeviceAcceptedMax, kernel.pep_device_acceptance_type, pepfx/PepDeviceAccepted, PepDeviceNotAccepted, PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAccepted, pepfx/PepDeviceAcceptedMax, _PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAcceptedReserved"
+ms.keywords: "*PPEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAcceptedReserved, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceNotAccepted, PepDeviceAccepted, PEP_DEVICE_ACCEPTANCE_TYPE, _PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceAcceptedReserved, kernel.pep_device_acceptance_type, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepDeviceAcceptedMax, PepDeviceAcceptedMax, pepfx/PepDeviceAccepted, PepDeviceNotAccepted"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,12 +70,12 @@ typedef enum _PEP_DEVICE_ACCEPTANCE_TYPE {
 
 
 
-### -field PepDeviceNotAccepted
+#### - PepDeviceNotAccepted
 
 The PEP does not claim ownership of this device.
 
 
-### -field PepDeviceAccepted
+#### - PepDeviceAccepted
 
 The PEP claims ownership of this device.
 

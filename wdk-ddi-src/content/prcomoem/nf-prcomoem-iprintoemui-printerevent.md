@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], PrinterEvent method, PrinterEvent method [Print Devices], IPrintOemUI interface, PrinterEvent, prcomoem/IPrintOemUI::PrinterEvent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, PrinterEvent method [Print Devices]
+ms.keywords: print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, prcomoem/IPrintOemUI::PrinterEvent, PrinterEvent, IPrintOemUI::PrinterEvent, IPrintOemUI, print.iprintoemui_printerevent, IPrintOemUI interface [Print Devices], PrinterEvent method, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices], IPrintOemUI interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT PrinterEvent(
 
 
 
-### -param pPrinterName
+#### - pPrinterName
 
 Caller-supplied pointer to a NULL-terminated printer name string. The string can identify a local printer ("<i>PrinterName</i>") or remote printer ("\\<i>Machine</i>\<i>PrinterName</i>").
 
 
-### -param iDriverEvent
+#### - iDriverEvent
 
 Caller-supplied value identifying the event that has occurred. For a list of valid values, see <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>.
 
 
-### -param dwFlags
+#### - dwFlags
 
 Caller-supplied flags. For a list of valid flags, see <b>DrvPrinterEvent</b>.
 
 
-### -param lParam
+#### - lParam
 
 Caller-supplied event-specific parameter. For more information, see <b>DrvPrinterEvent</b>.
 

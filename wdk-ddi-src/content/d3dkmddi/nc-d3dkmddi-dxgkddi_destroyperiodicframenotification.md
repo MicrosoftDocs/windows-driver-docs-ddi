@@ -67,7 +67,7 @@ NTSTATUS APIENTRY DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION(
 
 
 
-### -param pDestroyPeriodicFrameNotification [in]
+#### - pDestroyPeriodicFrameNotification [in]
 
 A structure of type <i>PDXGKARG_DESTROYPERIODICFRAMENOTIFICATION</i> containing the arguments needed to destroy a periodic frame notification.
 

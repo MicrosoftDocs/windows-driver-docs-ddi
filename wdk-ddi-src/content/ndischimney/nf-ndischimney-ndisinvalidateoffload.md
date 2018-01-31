@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d9cb2724-cf14-4814-8a19-1237e0862b1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisinvalidateoffload, tcp_chim_ndis_func_f9049fdc-87ff-467c-9427-d42876e16aa3.xml, NdisInvalidateOffload function [Network Drivers Starting with Windows Vista], NdisInvalidateOffload, ndischimney/NdisInvalidateOffload
+ms.keywords: NdisInvalidateOffload, ndischimney/NdisInvalidateOffload, NdisInvalidateOffload function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_f9049fdc-87ff-467c-9427-d42876e16aa3.xml, netvista.ndisinvalidateoffload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisInvalidateOffload(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
@@ -81,7 +81,7 @@ The handle that NDIS provided at the
      target.
 
 
-### -param OffloadBlockList [in]
+#### - OffloadBlockList [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
@@ -124,18 +124,18 @@ From the
 <mshelp:link keywords="netvista.protocolinvalidateoffloadcomplete" tabindex="0"><i>
    ProtocolInvalidateOffloadComplete</i></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndisminvalidateoffloadcomplete" tabindex="0"><b>
-   NdisMInvalidateOffloadComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
-
 <a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
+
+<mshelp:link keywords="netvista.ndisminvalidateoffloadcomplete" tabindex="0"><b>
+   NdisMInvalidateOffloadComplete</b></mshelp:link>
 
  
 

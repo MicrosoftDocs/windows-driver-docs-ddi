@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2c46419-644b-4ad4-aa50-7c6e541638aa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisimassociateminiport, NdisIMAssociateMiniport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, ndis/NdisIMAssociateMiniport
+ms.keywords: netvista.ndisimassociateminiport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], ndis/NdisIMAssociateMiniport, intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, NdisIMAssociateMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ VOID NdisIMAssociateMiniport(
 
 
 
-### -param DriverHandle [in]
+#### - DriverHandle [in]
 
 The handle to the miniport driver interface that the 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
      NdisMRegisterMiniportDriver</b></mshelp:link> function returns.
 
 
-### -param ProtocolHandle [in]
+#### - ProtocolHandle [in]
 
 The handle to the protocol interface that the 
      <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>

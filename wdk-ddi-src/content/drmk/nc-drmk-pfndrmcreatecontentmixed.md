@@ -40,7 +40,7 @@ apiname:
 -	DRMCreateContentMixed
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMCREATECONTENTMIXED callback
@@ -74,17 +74,17 @@ typedef PFNDRMCREATECONTENTMIXED DRMCreateContentMixed;
 
 
 
-### -param paContentId [in]
+#### - paContentId [in]
 
 This parameter is reserved for system use.
 
 
-### -param cContentId [in]
+#### - cContentId [in]
 
 This parameter is reserved for system use.
 
 
-### -param pMixedContentId [out]
+#### - pMixedContentId [out]
 
 This parameter is reserved for system use.
 

@@ -76,27 +76,29 @@ VOID SdpGetNextElement(
 
 
 
-### -param Stream
+#### - Stream
 
 Pointer to the SDP record stream to iterate through.
 
 
-### -param StreamSize
+#### - StreamSize
 
 An unsigned long integer that indicates the size of the SDP stream.
 
 
-### -param CurrentElement
+#### - CurrentElement
 
 A pointer to the currently selected entry in the SDP stream. This parameter can take a <b>NULL</b>
      value.
 
 
-### -param *NextElement
+#### - *NextElement
+
+A pointer to an unsigned character variable that receives the address of the next entry in the SDP
+     container stream.
 
 
-
-### -param NextElementSize
+#### - NextElementSize
 
 A pointer to an unsigned long integer variable that receives the size of the next entry in the SDP
      container stream.

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 2939F01A-2F1C-4434-BAE1-59F1F320BD44
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_FIXDATA, gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA, sensors.gnss_fixdata, PGNSS_FIXDATA structure pointer [Sensor Devices], *PGNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices], PGNSS_FIXDATA
+ms.keywords: PGNSS_FIXDATA structure pointer [Sensor Devices], gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA, *PGNSS_FIXDATA, PGNSS_FIXDATA, sensors.gnss_fixdata, GNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_FIXDATA
 product: Windows
 targetos: Windows
-req.typenames: GNSS_FIXDATA, *PGNSS_FIXDATA
+req.typenames: "*PGNSS_FIXDATA, GNSS_FIXDATA"
 ---
 
 # GNSS_FIXDATA structure
@@ -76,62 +76,62 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field FixSessionID
+#### - FixSessionID
 
 ID of the fix session that generated this fix.
 
 The GNSS driver populates this field so that the GNSS adapter can correlate the fix data with the original start fix request.
 
 
-### -field FixTimeStamp
+#### - FixTimeStamp
 
 Timestamp when the fix is generated.
 
 This should be the time obtained from the satellites measurements.
 
 
-### -field IsFinalFix
+#### - IsFinalFix
 
 Boolean value indicating whether this is a final fix or not.
 
 A value of FALSE implies this is an intermediate fix and a final fix is forthcoming.
 
 
-### -field FixStatus
+#### - FixStatus
 
 An NTSTATUS value indicating whether this fix contains a valid fix, or if the GNSS engine/driver encountered any error in getting the fix.
 
 Unless this value indicates success, the basic fix data element of this structure should not be relied on. Satellite and mode data elements may still be valid.
 
 
-### -field FixLevelOfDetails
+#### - FixLevelOfDetails
 
 A bitmask containing the GNSS_FIXDETAIL_* bits that determine which members of this structure are populated by the GNSS driver. 
 
 
-### -field BasicData
+#### - BasicData
 
 This element contains the basic fix data fix when FixLevelofDetails field has GNSS_FIXDETAIL_BASIC bit set.
 
 Unless explicitly indicated in the fix session parameter, the GNSS driver is recommended to always populate this element.
 
 
-### -field AccuracyData
+#### - AccuracyData
 
 This element contains the accuracy-related data when FixLevelofDetails field has GNSS_FIXDETAIL_ACCURACY bit set.
 
 
-### -field SatelliteData
+#### - SatelliteData
 
 This element contains the satellite-related data when FixLevelofDetails field has GNSS_FIXDETAIL_SATELLITE bit set.
 

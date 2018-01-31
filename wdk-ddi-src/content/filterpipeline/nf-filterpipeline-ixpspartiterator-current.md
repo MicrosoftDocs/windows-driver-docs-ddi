@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Current method [Print Devices], IXpsPartIterator interface, IXpsPartIterator interface [Print Devices], Current method, print.ixpspartiterator_current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, Current, Current method [Print Devices], filterpipeline/IXpsPartIterator::Current, IXpsPartIterator::Current, IXpsPartIterator
+ms.keywords: Current method [Print Devices], IXpsPartIterator interface, IXpsPartIterator, IXpsPartIterator interface [Print Devices], Current method, print.ixpspartiterator_current, IXpsPartIterator::Current, Current, Current method [Print Devices], filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, filterpipeline/IXpsPartIterator::Current
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT Current(
 
 
 
-### -param pUri [out]
+#### - pUri [out]
 
 A pointer to the URI of the part. If <b>NULL</b>, the <i>ppXpsPartparameter</i> might still be valid.
 
 
-### -param ppXpsPart [out]
+#### - ppXpsPart [out]
 
 The current part in the iterator. If <b>NULL</b>, the <i>pUri</i> parameter might still be valid.
 

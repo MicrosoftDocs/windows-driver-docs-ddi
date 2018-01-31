@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bbe3da6-f069-4965-ae60-2d755d7557c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetdeviceselectsettingtype, WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeUrb, _WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType enumeration, WdfUsbInterfaceSelectSettingTypeSetting, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, wdfusb/WdfUsbTargetDeviceSelectSettingType, WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, wdf.wdfusbtargetdeviceselectsettingtype
+ms.keywords: DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, kmdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbTargetDeviceSelectSettingType, wdf.wdfusbtargetdeviceselectsettingtype, WdfUsbInterfaceSelectSettingTypeDescriptor, _WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbTargetDeviceSelectSettingType enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _WdfUsbTargetDeviceSelectSettingType {
 
 
 
-### -field WdfUsbInterfaceSelectSettingTypeDescriptor
+#### - WdfUsbInterfaceSelectSettingTypeDescriptor
 
 Specify an interface's alternate setting by providing a <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure.
 
 
-### -field WdfUsbInterfaceSelectSettingTypeSetting
+#### - WdfUsbInterfaceSelectSettingTypeSetting
 
 Specify an interface's alternate setting by providing a setting index value.
 
 
-### -field WdfUsbInterfaceSelectSettingTypeUrb
+#### - WdfUsbInterfaceSelectSettingTypeUrb
 
 Specify an interface's alternate setting by providing a <a href="..\usb\ns-usb-_urb.md">URB</a>.
 
@@ -98,9 +98,9 @@ The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration is used in the <a hre
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
  
 

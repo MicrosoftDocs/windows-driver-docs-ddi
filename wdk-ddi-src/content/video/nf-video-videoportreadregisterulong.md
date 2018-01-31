@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f63f6f55-ceec-4105-9002-f81874e0ac49
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortReadRegisterUlong, VideoPortReadRegisterUlong, display.videoportreadregisterulong, VideoPort_Functions_d9150c11-0135-48c2-920e-9d5bcbbdd416.xml, VideoPortReadRegisterUlong function [Display Devices]
+ms.keywords: display.videoportreadregisterulong, VideoPort_Functions_d9150c11-0135-48c2-920e-9d5bcbbdd416.xml, VideoPortReadRegisterUlong, video/VideoPortReadRegisterUlong, VideoPortReadRegisterUlong function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG VideoPortReadRegisterUlong(
 
 
 
-### -param Register
+#### - Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
@@ -91,11 +91,11 @@ Callers of <b>VideoPortReadRegisterUlong</b> can be running at any IRQL, provide
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

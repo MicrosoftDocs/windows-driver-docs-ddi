@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: CC199F5C-BF05-4F1F-BEE4-8693F9156D8A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl
+ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl, buses.udecxwdfdevicetryhandleuserioctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ FORCEINLINE BOOLEAN UdecxWdfDeviceTryHandleUserIoctl(
 TBD
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that represents the IOCTL request. 
 

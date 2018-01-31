@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40b6596b-7ab8-4336-8c38-21b9f32d8558
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, netvista.ndisallocatefragmentnetbufferlist, NdisAllocateFragmentNetBufferList, ndis/NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisallocatefragmentnetbufferlist, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, NdisAllocateFragmentNetBufferList, ndis/NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,7 +78,7 @@ PNET_BUFFER_LIST NdisAllocateFragmentNetBufferList(
 
 
 
-### -param OriginalNetBufferList [in]
+#### - OriginalNetBufferList [in]
 
 A pointer to an existing NET_BUFFER_LIST structure.
 
@@ -93,7 +93,7 @@ TBD
 TBD
 
 
-### -param StartOffset [in]
+#### - StartOffset [in]
 
 An additional byte offset from the start of the data in each 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. This offset is in addition
@@ -101,19 +101,19 @@ An additional byte offset from the start of the data in each
      <b>DataOffset</b> member specified in each NET_BUFFER structure.
 
 
-### -param MaximumLength [in]
+#### - MaximumLength [in]
 
 The maximum length, in bytes, for each fragment in the new NET_BUFFER_LIST structure. Each
      fragment is described by a NET_BUFFER structure.
 
 
-### -param DataOffsetDelta [in]
+#### - DataOffsetDelta [in]
 
 The additional amount of 
      <i>used data space</i> that NDIS should make available in the new NET_BUFFER structures.
 
 
-### -param DataBackFill [in]
+#### - DataBackFill [in]
 
 The amount of data space in addition to the value of the 
      <i>DataOffsetDelta</i> parameter to allocate if allocation is necessary. If NDIS must allocate memory to
@@ -122,7 +122,7 @@ The amount of data space in addition to the value of the
      <i>DataBackFill</i> specifies.
 
 
-### -param AllocateFragmentFlags [in]
+#### - AllocateFragmentFlags [in]
 
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
@@ -219,19 +219,19 @@ Call the
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
    NdisAllocateNetBufferListPool</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisfreefragmentnetbufferlist" tabindex="0"><b>
    NdisFreeFragmentNetBufferList</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

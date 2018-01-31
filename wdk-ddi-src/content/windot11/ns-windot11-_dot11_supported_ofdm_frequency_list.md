@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0c967358-821b-4f78-acbc-dacee24dcd57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml
+ms.keywords: DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_supported_ofdm_frequency_list, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST"
+req.typenames: DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -71,19 +71,19 @@ typedef struct _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST {
 
 
 
-### -field uNumOfEntries
+#### - uNumOfEntries
 
 The number of entries in the 
      <b>dot11SupportedOFDMFrequency</b> array.
 
 
-### -field uTotalNumOfEntries
+#### - uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>dot11SupportedOFDMFrequency</b> array can contain.
 
 
-### -field dot11SupportedOFDMFrequency
+#### - dot11SupportedOFDMFrequency
 
 An array that specifies the list of supported channel center frequencies that the NIC can operate
      with. Each element in this list is formatted as a 

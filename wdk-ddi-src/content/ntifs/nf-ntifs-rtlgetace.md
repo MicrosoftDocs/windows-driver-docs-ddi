@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f528d20a-16f8-401f-a6e6-ab165a40e18a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlGetAce routine [Installable File System Drivers], RtlGetAce, rtlref_e018acc3-f776-4d15-9e0b-9e34d286a746.xml, ifsk.rtlgetace, ntifs/RtlGetAce
+ms.keywords: ntifs/RtlGetAce, ifsk.rtlgetace, rtlref_e018acc3-f776-4d15-9e0b-9e34d286a746.xml, RtlGetAce routine [Installable File System Drivers], RtlGetAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlGetAce(
 
 
 
-### -param Acl [in]
+#### - Acl [in]
 
 Pointer to an ACL containing the ACE to be retrieved. 
 
 
-### -param AceIndex [in]
+#### - AceIndex [in]
 
 Specifies the ACE to which a pointer is retrieved. A value of zero corresponds to the first ACE in the ACL, 1 to the second ACE, and so on. 
 
 
-### -param Ace [out]
+#### - Ace [out]
 
 Pointer to a caller-allocated variable to receive the address of the ACE within the ACL. 
 
@@ -101,11 +101,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
  
 

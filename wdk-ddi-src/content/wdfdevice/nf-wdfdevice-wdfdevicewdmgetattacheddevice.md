@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 216fe649-18c0-4782-8040-21ce87fbd888
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceWdmGetAttachedDevice method, PFN_WDFDEVICEWDMGETATTACHEDDEVICE, kmdf.wdfdevicewdmgetattacheddevice, wdf.wdfdevicewdmgetattacheddevice, DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, wdfdevice/WdfDeviceWdmGetAttachedDevice, WdfDeviceWdmGetAttachedDevice
+ms.keywords: PFN_WDFDEVICEWDMGETATTACHEDDEVICE, WdfDeviceWdmGetAttachedDevice, kmdf.wdfdevicewdmgetattacheddevice, wdfdevice/WdfDeviceWdmGetAttachedDevice, wdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice method, DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PDEVICE_OBJECT WdfDeviceWdmGetAttachedDevice(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 

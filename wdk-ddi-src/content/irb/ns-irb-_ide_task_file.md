@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f18b46c0-975b-49ba-b398-45f2a44d6d3b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml, IDE_TASK_FILE, irb/PIDE_TASK_FILE, *PIDE_TASK_FILE, _IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices], irb/IDE_TASK_FILE, PIDE_TASK_FILE, PIDE_TASK_FILE structure pointer [Storage Devices]
+ms.keywords: irb/PIDE_TASK_FILE, _IDE_TASK_FILE, *PIDE_TASK_FILE, storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml, irb/IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices], PIDE_TASK_FILE structure pointer [Storage Devices], IDE_TASK_FILE, PIDE_TASK_FILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _IDE_TASK_FILE {
 
 
 
-### -field Current
+#### - Current
 
 Contains a structure of type <a href="..\irb\ns-irb-_ideregisters.md">IDEREGISTERS</a> that holds the current contents of the ATA task file registers.
 
 
-### -field Previous
+#### - Previous
 
 Contains a structure of type <a href="..\irb\ns-irb-_ideregisters.md">IDEREGISTERS</a> that holds the previous contents of the ATA task file registers in the case of a 48-bit LBA command.
 

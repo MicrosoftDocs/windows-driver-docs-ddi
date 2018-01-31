@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b3eb40ad-cda9-4a2f-a794-670bd2ee9102
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture], NtOpenTransactionManager, wdm/NtOpenTransactionManager, kernel.zwopentransactionmanager, wdm/ZwOpenTransactionManager, ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, ZwOpenTransactionManager
+ms.keywords: ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture], wdm/NtOpenTransactionManager, NtOpenTransactionManager, kernel.zwopentransactionmanager, ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, ZwOpenTransactionManager, wdm/ZwOpenTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,32 +74,32 @@ NTSTATUS ZwOpenTransactionManager(
 
 
 
-### -param TmHandle [out]
+#### - TmHandle [out]
 
 A pointer to a caller-allocated variable that receives a handle to the <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> if <b>ZwOpenTransactionManager</b> returns STATUS_SUCCESS.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction manager object. For information about how to specify this parameter, see the <i>DesiredAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>. 
 
 
-### -param ObjectAttributes [in, optional]
+#### - ObjectAttributes [in, optional]
 
 A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param LogFileName [in, optional]
+#### - LogFileName [in, optional]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path and file name of the <a href="https://msdn.microsoft.com/d7ad0e16-d1f2-4c41-b647-95b5445c2708">log file stream</a> that was created when the transaction manager object was created. For more information, see the <i>LogFileName</i> parameter of <b>ZwCreateTransactionManager</b>. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param TmIdentity [in, optional]
+#### - TmIdentity [in, optional]
 
 A pointer to a GUID that identifies the transaction manager object.  This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param OpenOptions [in, optional]
+#### - OpenOptions [in, optional]
 
 This parameter is not used and must be zero.
 
@@ -207,19 +207,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

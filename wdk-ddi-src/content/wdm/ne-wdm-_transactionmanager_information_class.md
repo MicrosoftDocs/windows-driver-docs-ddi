@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71d6db29-0a93-4793-92f4-3e85615e1b61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TransactionManagerBasicInformation, TransactionManagerLogInformation, TransactionManagerLogPathInformation, _TRANSACTIONMANAGER_INFORMATION_CLASS, wdm/TransactionManagerRecoveryInformation, ktm_ref_55fd8dd4-e88d-40df-9091-1aecc4de38a7.xml, kernel.transactionmanager_information_class, wdm/TransactionManagerBasicInformation, wdm/TransactionManagerLogPathInformation, TRANSACTIONMANAGER_INFORMATION_CLASS, TransactionManagerRecoveryInformation, wdm/TRANSACTIONMANAGER_INFORMATION_CLASS, TRANSACTIONMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/TransactionManagerLogInformation
+ms.keywords: wdm/TransactionManagerLogInformation, wdm/TransactionManagerLogPathInformation, ktm_ref_55fd8dd4-e88d-40df-9091-1aecc4de38a7.xml, TransactionManagerLogInformation, wdm/TransactionManagerRecoveryInformation, TRANSACTIONMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_INFORMATION_CLASS, TransactionManagerBasicInformation, kernel.transactionmanager_information_class, wdm/TRANSACTIONMANAGER_INFORMATION_CLASS, wdm/TransactionManagerBasicInformation, TransactionManagerLogPathInformation, TransactionManagerRecoveryInformation, _TRANSACTIONMANAGER_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _TRANSACTIONMANAGER_INFORMATION_CLASS {
 
 
 
-### -field TransactionManagerBasicInformation
+#### - TransactionManagerBasicInformation
 
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transactionmanager_basic_information.md">TRANSACTIONMANAGER_BASIC_INFORMATION</a> structure. 
 
 
-### -field TransactionManagerLogInformation
+#### - TransactionManagerLogInformation
 
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transactionmanager_log_information.md">TRANSACTIONMANAGER_LOG_INFORMATION</a> structure. 
 
 
-### -field TransactionManagerLogPathInformation
+#### - TransactionManagerLogPathInformation
 
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transactionmanager_logpath_information.md">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a> structure. 
 
 
-### -field TransactionManagerRecoveryInformation
+#### - TransactionManagerRecoveryInformation
 
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transactionmanager_recovery_information.md">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a> structure.
 
@@ -95,9 +95,9 @@ Information about a transaction manager object is stored in a <a href="..\wdm\ns
 
 <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
 
-<a href="..\wdm\ns-wdm-_transactionmanager_basic_information.md">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
-
 <a href="..\wdm\ns-wdm-_transactionmanager_log_information.md">TRANSACTIONMANAGER_LOG_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_transactionmanager_basic_information.md">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_transactionmanager_logpath_information.md">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>
 

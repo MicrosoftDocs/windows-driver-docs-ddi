@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.devcaps, ksmedia/PDEVCAPS, tagDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml, DEVCAPS, PDEVCAPS, DEVCAPS structure [Streaming Media Devices], *PDEVCAPS
+ms.keywords: DEVCAPS structure [Streaming Media Devices], DEVCAPS, *PDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml, ksmedia/DEVCAPS, ksmedia/PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], tagDEVCAPS, stream.devcaps, PDEVCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVCAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVCAPS, DEVCAPS"
+req.typenames: DEVCAPS, *PDEVCAPS
 ---
 
 # tagDEVCAPS structure
@@ -89,37 +89,37 @@ typedef struct tagDEVCAPS {
 
 
 
-### -field CanRecord
+#### - CanRecord
 
 Specifies if the external device can record.
 
 
-### -field CanRecordStrobe
+#### - CanRecordStrobe
 
 For multitrack devices. Specifies if the external device can record. Switches currently recording tracks off and selected nonrecording track into record.
 
 
-### -field HasAudio
+#### - HasAudio
 
 Specifies if the external device has audio capabilities.
 
 
-### -field HasVideo
+#### - HasVideo
 
 Specifies if the external device has video capabilities.
 
 
-### -field UsesFiles
+#### - UsesFiles
 
 Specifies if the external device uses files.
 
 
-### -field CanSave
+#### - CanSave
 
 Specifies if the external device can save.
 
 
-### -field DeviceType
+#### - DeviceType
 
 Specifies the type of the external device. See Remarks.
 <table>
@@ -190,77 +190,77 @@ Unknown type
 </table> 
 
 
-### -field TCRead
+#### - TCRead
 
 Specifies if the external device can read timecodes.
 
 
-### -field TCWrite
+#### - TCWrite
 
 Specifies if the external device can write timecodes.
 
 
-### -field CTLRead
+#### - CTLRead
 
 Specifies if the external device can read to a control track (nontimecode) target value.
 
 
-### -field IndexRead
+#### - IndexRead
 
 Specifies if the external device can read to an index (nontimecode) target value.
 
 
-### -field Preroll
+#### - Preroll
 
 Specifies the external device's preroll time in the current time format.
 
 
-### -field Postroll
+#### - Postroll
 
 Specifies the external device's postroll time in the current time format.
 
 
-### -field SyncAcc
+#### - SyncAcc
 
 Indicates the external device's synchronization accuracy.
 
 
-### -field NormRate
+#### - NormRate
 
 Specifies the external device's normal frame rate.
 
 
-### -field CanPreview
+#### - CanPreview
 
 Specifies if the external device can preview.
 
 
-### -field CanMonitorSrc
+#### - CanMonitorSrc
 
 Specifies if the external device can monitor source.
 
 
-### -field CanTest
+#### - CanTest
 
 Indicates the implementation of the external device allows testing of methods/parameters by setting the high bit of a parameter that makes sense. This is not implemented an always returns FALSE.
 
 
-### -field VideoIn
+#### - VideoIn
 
 Indicates the external device accepts video as an input.
 
 
-### -field AudioIn
+#### - AudioIn
 
 Indicates the external device accepts audio as an input.
 
 
-### -field Calibrate
+#### - Calibrate
 
 Indicates if the external device requires calibrating.
 
 
-### -field SeekType
+#### - SeekType
 
 Specifies the type of seeking the external device is capable of. For example:
 <table>
@@ -301,7 +301,7 @@ Indicates slow seeking (like a tape transport).
 </table> 
 
 
-### -field SimulatedHardware
+#### - SimulatedHardware
 
 Must be set to zero.
 
@@ -319,9 +319,9 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
+
+<a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
  
 

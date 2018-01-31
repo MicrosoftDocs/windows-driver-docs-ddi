@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 30c3fc44-e94a-47ca-a25b-33857b485817
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml, kernel.read_register_buffer_ushort, wdm/READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT
+ms.keywords: kernel.read_register_buffer_ushort, READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], wdm/READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT, k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID READ_REGISTER_BUFFER_USHORT(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer into which an array of USHORT values is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to be read into the buffer. 
 

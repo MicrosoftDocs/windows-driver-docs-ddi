@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 07ed6417-1cdc-4a56-88c3-c2171c54e77c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EnumOptions, IPrintCoreHelperUni::EnumOptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml, IPrintCoreHelperUni, prcomoem/IPrintCoreHelperUni::EnumOptions, IPrintCoreHelperUni interface [Print Devices], EnumOptions method, print.iprintcorehelperuni_enumoptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCoreHelperUni interface
+ms.keywords: IPrintCoreHelperUni::EnumOptions, EnumOptions method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], EnumOptions method, prcomoem/IPrintCoreHelperUni::EnumOptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml, EnumOptions, print.iprintcorehelperuni_enumoptions, EnumOptions method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ STDMETHOD EnumOptions(
 
 
 
-### -param pszFeatureKeyword [in]
+#### - pszFeatureKeyword [in]
 
 An ANSI character string that contains the feature whose options are requested. 
 
@@ -80,7 +80,7 @@ An ANSI character string that contains the feature whose options are requested.
 
 
 
-### -param pdwNumOptions [out]
+#### - pdwNumOptions [out]
 
 A pointer to a variable that receives the number of options in the option array that is pointed to by the <i>pOptionList</i> parameter.
 
@@ -106,9 +106,9 @@ When <code>IPrintCoreHelperUni::EnumOptions</code> returns, the option list cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552929">IPrintCoreHelperUni::EnumConstrainedOptions</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552931">IPrintCoreHelperUni::EnumFeatures</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552929">IPrintCoreHelperUni::EnumConstrainedOptions</a>
 
  
 

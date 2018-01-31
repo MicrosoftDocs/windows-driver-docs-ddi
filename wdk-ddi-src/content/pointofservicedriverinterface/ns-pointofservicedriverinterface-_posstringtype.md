@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 26cf79d7-1df3-40a3-8536-b672f9bf13a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosStringType, pointofservicedriverinterface/PosStringType, _PosStringType, pos.posstringtype, PosStringType structure
+ms.keywords: "_PosStringType, PosStringType structure, PosStringType, pos.posstringtype, pointofservicedriverinterface/PosStringType"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PosStringType {
 
 
 
-### -field DataLengthInBytes
+#### - DataLengthInBytes
 
 The length of the string in bytes.
 

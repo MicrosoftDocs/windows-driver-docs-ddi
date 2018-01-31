@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8576a20b-bdb8-47d9-a21e-689a315c6886
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, ControlledOutputVaListWide method [Windows Debugging], ControlledOutputVaListWide, IDebugControl4::ControlledOutputVaListWide, dbgeng/IDebugControl4::ControlledOutputVaListWide, IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, IDebugControl4, debugger.controlledoutputvalistwide
+ms.keywords: ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ControlledOutputVaListWide, debugger.controlledoutputvalistwide, ControlledOutputVaListWide, IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, IDebugControl4, ControlledOutputVaListWide method [Windows Debugging], IDebugControl4::ControlledOutputVaListWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT ControlledOutputVaListWide(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies an output control that determines which client's output callbacks will receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-### -param Format [in]
+#### - Format [in]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -419,7 +419,7 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </table></span></div>
 
 
-### -param Args [in]
+#### - Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
@@ -462,11 +462,11 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
  
 

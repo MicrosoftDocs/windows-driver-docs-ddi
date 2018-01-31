@@ -74,32 +74,32 @@ NTSTATUS ClfsMgmtSetLogFileSizeAsClient (
 
 
 
-### -param LogFile [in]
+#### - LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> routine.
 
 
-### -param ClientCookie [in, optional]
+#### - ClientCookie [in, optional]
 
 A pointer to a client-supplied cookie. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a> routine.
 
 
-### -param NewSizeInContainers [in]
+#### - NewSizeInContainers [in]
 
 The desired size of the log, expressed in the number of containers. There can be at most 1,024 containers for a log file.
 
 
-### -param ResultingSizeInContainers [out, optional]
+#### - ResultingSizeInContainers [out, optional]
 
 The actual size of the log, expressed in the number of containers.
 
 
-### -param CompletionRoutine [in, optional]
+#### - CompletionRoutine [in, optional]
 
  Not used.
 
 
-### -param CompletionRoutineData [in, optional]
+#### - CompletionRoutineData [in, optional]
 
  Not used. 
 

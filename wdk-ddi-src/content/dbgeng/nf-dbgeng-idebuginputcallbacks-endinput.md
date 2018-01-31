@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e22b616c-51f6-4687-95b0-eb833ceb9ec3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugInputCallbacks interface [Windows Debugging], EndInput method, EndInput method [Windows Debugging], IDebugInputCallbacks, debugger.idebuginputcallbacks_endinput, EndInput, dbgeng/IDebugInputCallbacks::EndInput, EndInput method [Windows Debugging], IDebugInputCallbacks interface, IDebugInputCallbacks::EndInput, ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml
+ms.keywords: IDebugInputCallbacks::EndInput, IDebugInputCallbacks, ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput method [Windows Debugging], EndInput method [Windows Debugging], IDebugInputCallbacks interface, EndInput, debugger.idebuginputcallbacks_endinput, dbgeng/IDebugInputCallbacks::EndInput, IDebugInputCallbacks interface [Windows Debugging], EndInput method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

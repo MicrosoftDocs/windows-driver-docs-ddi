@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7655b6a1-2ed4-4e57-b8b5-e7b8ff2dd1e5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml, storport/StorPortWritePortUshort, StorPortWritePortUshort, StorPortWritePortUshort routine [Storage Devices], storage.storportwriteportushort
+ms.keywords: storage.storportwriteportushort, storport/StorPortWritePortUshort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml, StorPortWritePortUshort, StorPortWritePortUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ STORPORT_API VOID StorPortWritePortUshort(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Contains the address of the port to be written to. 
 
 
-### -param Value [in]
+#### - Value [in]
 
 Contains the value to be written. 
 

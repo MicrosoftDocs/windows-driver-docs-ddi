@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F566E078-9446-49E1-9325-AF65F3ABB6B9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, kernel.pep_acpi_initialize_extended_memory_resource, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_extended_memory_resource, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function
@@ -82,29 +82,29 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE(
 
 
 
-### -param ResourceUsage [in]
+#### - ResourceUsage [in]
 
 This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
-### -param Decode [in]
+#### - Decode [in]
 
 When set, indicates that this bridge subtractively decodes the address. This applies to top level bridges only. 
 
 When not set, indicates that this bridge positively decodes this address.
 
 
-### -param IsMinFixed [in]
+#### - IsMinFixed [in]
 
 When set, indicates that the minimum address is fixed.
 
 
-### -param IsMaxFixed [in]
+#### - IsMaxFixed [in]
 
 When set, indicates that the maximum address is fixed.
 
 
-### -param Cacheable [in]
+#### - Cacheable [in]
 
 The caching flag for the resource.
 <table>
@@ -159,48 +159,48 @@ The memory is cacheable and prefetchable.
 </table> 
 
 
-### -param ReadWrite [in]
+#### - ReadWrite [in]
 
 When true, indicates that the resource is available for read/write access. Otherwise, it's read-only.
 
 
-### -param AddressGranularity [in]
+#### - AddressGranularity [in]
 
 A bit mask indicating which bits have been decoded.
 
 
-### -param AddressMinimum [in]
+#### - AddressMinimum [in]
 
 For bridges that translate addresses, this indicates the minimum starting address on the secondary side of the bridge.
 
 
-### -param AddressMaximum [in]
+#### - AddressMaximum [in]
 
 For bridges that translate addresses, this indicates the maximum starting address on the secondary side of the bridge.
 
 
-### -param AddressTranslation [in]
+#### - AddressTranslation [in]
 
 For bridges that translate addresses across the bridge, this is the
 address on the primary side. 
 
 
-### -param RangeLength [in]
+#### - RangeLength [in]
 
 The length of the address range. 
 
 
-### -param TypeSpecificAttributes [in]
+#### - TypeSpecificAttributes [in]
 
 The type-specific attributes for this resource.
 
 
-### -param DescriptorName [in]
+#### - DescriptorName [in]
 
 The name of the resource descriptor.
 
 
-### -param MemoryRangeType [in]
+#### - MemoryRangeType [in]
 
 This parameter identifies the type of memory range provided by this resource.
 <table>
@@ -266,7 +266,7 @@ an NVS sleep.
 TBD
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 This is cast to *<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>.
 

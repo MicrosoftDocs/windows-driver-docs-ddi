@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 5a5acd4a-ad99-4b8c-b8ea-490a7b467e14
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_PHY_CONFIGURATION_PACKET, IEEE.phy_configuration_packet, PHY_CONFIGURATION_PACKET structure [Buses], PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses], 1394/PPHY_CONFIGURATION_PACKET, 1394/PHY_CONFIGURATION_PACKET"
+ms.keywords: PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PHY_CONFIGURATION_PACKET structure [Buses], 1394/PHY_CONFIGURATION_PACKET, IEEE.phy_configuration_packet, *PPHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET, _PHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _PHY_CONFIGURATION_PACKET {
 
 
 
-### -field PCP_Phys_ID
+#### - PCP_Phys_ID
 
 Specifies the node address of the root. This member contains bits 0-5 of byte 0 of the packet. 
 
 
-### -field PCP_Packet_ID
+#### - PCP_Packet_ID
 
 This member must be PHY_PACKET_ID_CONFIGURATION to indicate it is a PHY configuration packet. This member contains bits 6-7 of byte 0 of the packet. 
 
 
-### -field PCP_Gap_Count
+#### - PCP_Gap_Count
 
 If the <b>PCP_Set_Gap_Count</b> bit is set, the PHY register gap_count field is set to this value. This member contains bits 0-5 of byte 1 of the packet. 
 
 
-### -field PCP_Set_Gap_Count
+#### - PCP_Set_Gap_Count
 
 If this bit is set, the PHY register gap_count field is set to <b>PCP_Gap_Count</b>. This member contains bit 6 of byte 1 of the packet. 
 
 
-### -field PCP_Force_Root
+#### - PCP_Force_Root
 
 If set, the caller becomes the root node. This member contains bit 7 of byte 1 of the packet. 
 
 
-### -field PCP_Reserved1
+#### - PCP_Reserved1
 
 Reserved. This member contains bits 0-7 of byte 2 of the packet. 
 
 
-### -field PCP_Reserved2
+#### - PCP_Reserved2
 
 Reserved. This member contains bits 0-7 of byte 3 of the packet. 
 
 
-### -field PCP_Inverse
+#### - PCP_Inverse
 
 Specifies the logical inverse of the first quadlet of the packet. 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1597f27d-8d1e-445e-bc68-b7c151fd19d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwPrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwprepareenlistment, wdm/NtPrepareEnlistment, NtPrepareEnlistment, ZwPrepareEnlistment, ktm_ref_2da2ab5a-1353-4598-9413-35f6bfc8ee31.xml, wdm/ZwPrepareEnlistment
+ms.keywords: ZwPrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_2da2ab5a-1353-4598-9413-35f6bfc8ee31.xml, ZwPrepareEnlistment, kernel.zwprepareenlistment, NtPrepareEnlistment, wdm/ZwPrepareEnlistment, wdm/NtPrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwPrepareEnlistment(
 
 
 
-### -param EnlistmentHandle [in]
+#### - EnlistmentHandle [in]
 
 A handle to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>. The object must represent a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior enlistment</a> and the handle must have ENLISTMENT_SUPERIOR_RIGHTS access to the object.
 
 
-### -param TmVirtualClock [in, optional]
+#### - TmVirtualClock [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
@@ -182,11 +182,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 <a href="..\wdm\nf-wdm-tmprepareenlistment.md">TmPrepareEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
  
 

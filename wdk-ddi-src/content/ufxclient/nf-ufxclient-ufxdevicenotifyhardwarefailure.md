@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2EEA262C-5186-4450-A01D-212278ED710B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDeviceNotifyHardwareFailure method [Buses], ufxclient/UfxDeviceNotifyHardwareFailure, buses.ufxdevicenotifyhardwarefailure, UfxDeviceNotifyHardwareFailure
+ms.keywords: UfxDeviceNotifyHardwareFailure method [Buses], UfxDeviceNotifyHardwareFailure, buses.ufxdevicenotifyhardwarefailure, ufxclient/UfxDeviceNotifyHardwareFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceNotifyHardwareFailure
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ VOID UfxDeviceNotifyHardwareFailure(
 
 
 
-### -param UfxDevice [in]
+#### - UfxDevice [in]
 
 A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-### -param HardwareFailureContext [in, optional]
+#### - HardwareFailureContext [in, optional]
 
 Optional pointer to a client driver-defined <a href="..\ufxbase\ns-ufxbase-_ufx_hardware_failure_context.md">UFX_HARDWARE_FAILURE_CONTEXT</a> structure containing controller-specific information about the hardware failure.  
 

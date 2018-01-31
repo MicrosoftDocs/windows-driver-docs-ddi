@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fa5555df-4ada-40f3-9878-e6ba3dac2345
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetGlobalAttribute method [Print Devices], prcomoem/IPrintCoreUI2::GetGlobalAttribute, IPrintCoreUI2, IPrintCoreUI2::GetGlobalAttribute, GetGlobalAttribute, print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml, print.iprintcoreui2_getglobalattribute, GetGlobalAttribute method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], GetGlobalAttribute method
+ms.keywords: GetGlobalAttribute, prcomoem/IPrintCoreUI2::GetGlobalAttribute, IPrintCoreUI2, IPrintCoreUI2::GetGlobalAttribute, print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml, GetGlobalAttribute method [Print Devices], IPrintCoreUI2 interface, print.iprintcoreui2_getglobalattribute, IPrintCoreUI2 interface [Print Devices], GetGlobalAttribute method, GetGlobalAttribute method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,37 +74,37 @@ HRESULT GetGlobalAttribute(
 
 
 
-### -param poemuiobj [in]
+#### - poemuiobj [in]
 
 Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-### -param pszAttribute [in]
+#### - pszAttribute [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported global attribute names, as opposed to specifying a specific global attribute name.
 
 
-### -param pdwDataType [out]
+#### - pdwDataType [out]
 
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
 
-### -param pbData [out]
+#### - pbData [out]
 
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
 
-### -param pcbNeeded [out]
+#### - pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
@@ -185,11 +185,11 @@ For more information, see <a href="https://msdn.microsoft.com/0e23ecba-7d89-44f5
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
-
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
 
  
 

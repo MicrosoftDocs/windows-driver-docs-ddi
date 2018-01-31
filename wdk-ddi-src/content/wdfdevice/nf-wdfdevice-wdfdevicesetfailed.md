@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 87fbceab-d08c-4da7-a257-1454f84c04b7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml, WdfDeviceSetFailed method, PFN_WDFDEVICESETFAILED, kmdf.wdfdevicesetfailed, wdfdevice/WdfDeviceSetFailed, WdfDeviceSetFailed, wdf.wdfdevicesetfailed
+ms.keywords: kmdf.wdfdevicesetfailed, WdfDeviceSetFailed, wdf.wdfdevicesetfailed, WdfDeviceSetFailed method, DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml, PFN_WDFDEVICESETFAILED, wdfdevice/WdfDeviceSetFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfDeviceSetFailed(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param FailedAction [in]
+#### - FailedAction [in]
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_failed_action.md">WDF_DEVICE_FAILED_ACTION</a>-typed enumerator that indicates whether the framework should attempt to reload the specified device's drivers.
 

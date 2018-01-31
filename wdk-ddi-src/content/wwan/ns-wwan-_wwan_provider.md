@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], netvista.wwan_provider, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_PROVIDER, PWWAN_PROVIDER, WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, _WWAN_PROVIDER, wwan/PWWAN_PROVIDER, wwan/WWAN_PROVIDER
+ms.keywords: "*PWWAN_PROVIDER, wwan/PWWAN_PROVIDER, WWAN_PROVIDER, _WWAN_PROVIDER, netvista.wwan_provider, WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, PWWAN_PROVIDER, wwan/WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _WWAN_PROVIDER {
 
 
 
-### -field ProviderId
+#### - ProviderId
 
 A NULL-terminated numeric (0-9) string that represents the network provider identity.
      
@@ -88,7 +88,7 @@ For CDMA-based networks, this string is a five-digit System ID (SID). Generally 
      WWAN_CDMA_DEFAULT_PROVIDER_ID if this information is not available.
 
 
-### -field ProviderState
+#### - ProviderState
 
 A value that represents the various states that the network provider's entry can be tagged with.
      The following table shows the possible values that miniport drivers should specify (one or more values
@@ -217,7 +217,7 @@ WWAN_PROVIDER_STATE_FORBIDDEN
 </table> 
 
 
-### -field ProviderName
+#### - ProviderName
 
 A NULL-terminated string that represents the network provider's name. This member is limited to,
      at most, WWAN_PROVIDERNAME_LEN characters.
@@ -233,7 +233,7 @@ Miniport drivers should specify a <b>NULL</b> string for devices that do not hav
      information.
 
 
-### -field WwanDataClass
+#### - WwanDataClass
 
 A bitmap that represents the data-class(es) that the device supports. For a detailed list of
      values, see the 
@@ -246,9 +246,9 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 

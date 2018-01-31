@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b377ba5-cd3b-433e-bd9c-315203c3bc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_TIMED_OPERATION structure [Display Devices], _DXGK_TIMED_OPERATION, DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, *PDXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION, dispmprt/DXGK_TIMED_OPERATION, display.dxgk_timed_operation, PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], DXGK_TIMED_OPERATION
+ms.keywords: display.dxgk_timed_operation, _DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION, dispmprt/DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_TIMED_OPERATION
 product: Windows
 targetos: Windows
-req.typenames: DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION
+req.typenames: "*PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION"
 ---
 
 # _DXGK_TIMED_OPERATION structure
@@ -72,32 +72,32 @@ typedef struct _DXGK_TIMED_OPERATION {
 
 
 
-### -field Size
+#### - Size
 
 [in] The size, in bytes, of this structure.
 
 
-### -field OwnerTag
+#### - OwnerTag
 
 [system] A pointer to the place in the code that started the timed operation.
 
 
-### -field OsHandled
+#### - OsHandled
 
 [system] For system use only. 
 
 
-### -field TimeoutTriggered
+#### - TimeoutTriggered
 
 [out] A Boolean value that specifies whether the time-out was triggered. 
 
 
-### -field Timeout
+#### - Timeout
 
 [system] For system use only. 
 
 
-### -field StartTick
+#### - StartTick
 
 [system] For system use only. 
 

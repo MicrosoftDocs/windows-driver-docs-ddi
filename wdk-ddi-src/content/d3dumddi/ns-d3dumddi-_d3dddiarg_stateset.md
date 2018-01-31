@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e2d7e78-bdf1-4582-a95c-1cbdd498c200
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_STATESET, display.d3dddiarg_stateset, d3dumddi/D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices], UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, _D3DDDIARG_STATESET
+ms.keywords: UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, D3DDDIARG_STATESET, _D3DDDIARG_STATESET, d3dumddi/D3DDDIARG_STATESET, display.d3dddiarg_stateset, D3DDDIARG_STATESET structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _D3DDDIARG_STATESET {
 
 
 
-### -field Operation
+#### - Operation
 
 [in] The operation to perform, which can be one of the following values.
 <table>
@@ -140,7 +140,7 @@ Run the state block that is referenced by the handle in <b>hStateSet</b>.
 </table> 
 
 
-### -field StateBlockType
+#### - StateBlockType
 
 [in] A D3DSTATEBLOCKTYPE-typed value that indicates the type of state that the driver should record. This member can be one of the following values.
 <table>
@@ -407,7 +407,7 @@ No predefined state group is specified.
 </table> 
 
 
-### -field hStateSet
+#### - hStateSet
 
 [in/out] A handle to the state block that is manipulated by the operation that is specified in the <b>Operation</b> member.
 

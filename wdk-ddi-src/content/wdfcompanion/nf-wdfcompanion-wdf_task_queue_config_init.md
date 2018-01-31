@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 51c43509-074c-4118-afe5-2e568d733751
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_task_queue_config_init, wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT method, WDF_TASK_QUEUE_CONFIG_INIT
+ms.keywords: wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT, wdf.wdf_task_queue_config_init, WDF_TASK_QUEUE_CONFIG_INIT method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,15 +71,15 @@ FORCEINLINE VOID WDF_TASK_QUEUE_CONFIG_INIT(
 
 
 
-### -param Config [out]
+#### - Config [out]
 
 
 
-### -param TaskQueueId [in]
+#### - TaskQueueId [in]
 
 
 
-### -param DispatchType [in]
+#### - DispatchType [in]
 
 
 

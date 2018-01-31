@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e38880f-b242-400a-babf-531c8daf7a19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE, ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_registration_state, NDIS_WWAN_REGISTRATION_STATE, _NDIS_WWAN_REGISTRATION_STATE
+ms.keywords: netvista.ndis_wwan_registration_state, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE, ndiswwan/NDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE, WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_REGISTRATION_STATE {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_REGISTRATION_STATE
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 A miniport driver must set this to WWAN_STATUS_SUCCESS for unsolicited events
      (NDIS_STATUS_INDICATION::RequestId = 0). WWAN_STATUS_SUCCESS is also set for successful execution of the
@@ -261,7 +261,7 @@ The device is busy and unable to change the registration mode. This scenario can
 </table> 
 
 
-### -field RegistrationState
+#### - RegistrationState
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a> object that

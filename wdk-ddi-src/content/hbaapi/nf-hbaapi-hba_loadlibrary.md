@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f71be39c-4b0c-47fc-a9d5-dfe69d8b11f2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_LoadLibrary, fibreHBA_rtns_59c2bca3-3df2-4a3a-aa0b-90afcbdd26da.xml, HBA_LoadLibrary, storage.hba_loadlibrary, HBA_LoadLibrary routine [Storage Devices]
+ms.keywords: fibreHBA_rtns_59c2bca3-3df2-4a3a-aa0b-90afcbdd26da.xml, HBA_LoadLibrary, storage.hba_loadlibrary, hbaapi/HBA_LoadLibrary, HBA_LoadLibrary routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

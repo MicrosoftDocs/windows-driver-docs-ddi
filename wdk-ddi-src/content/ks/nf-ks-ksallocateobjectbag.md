@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2fc5689f-e1d6-481d-b137-301f10b386e8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateObjectBag function [Streaming Media Devices], stream.ksallocateobjectbag, ks/KsAllocateObjectBag, avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, KsAllocateObjectBag
+ms.keywords: ks/KsAllocateObjectBag, avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, KsAllocateObjectBag function [Streaming Media Devices], stream.ksallocateobjectbag, KsAllocateObjectBag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsAllocateObjectBag(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> representing the device object associated with the newly created object bag.
 
 
-### -param ObjectBag [out]
+#### - ObjectBag [out]
 
 A pointer to a KSOBJECT_BAG (the KSOBJECT_BAG structure is equivalent to type PVOID) where the newly allocated object bag is deposited.
 
@@ -97,15 +97,15 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-
 <a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
-
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
  
 

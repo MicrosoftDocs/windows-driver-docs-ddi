@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e206ed8b-89c3-4503-a4c7-57d29c9c00ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCCARDINFOPARAMMASK, netvista.riluicccardinfoparammask, RIL_PARAM_CARDINFO_ALL, ntddrilapitypes/RIL_PARAM_CARDINFO_ALL, ntddrilapitypes/RIL_PARAM_CARDINFO_APPINFO, ntddrilapitypes/RIL_PARAM_CARDINFO_NUMAPPS, ntddrilapitypes/RILUICCCARDINFOPARAMMASK, RIL_PARAM_CARDINFO_APPINFO, RIL_PARAM_CARDINFO_NUMAPPS, RIL_PARAM_CARDINFO_ICCID, ntddrilapitypes/RIL_PARAM_CARDINFO_ICCID, RILUICCCARDINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.riluicccardinfoparammask, RILUICCCARDINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDINFO_APPINFO, RIL_PARAM_CARDINFO_ALL, ntddrilapitypes/RIL_PARAM_CARDINFO_APPINFO, RIL_PARAM_CARDINFO_NUMAPPS, ntddrilapitypes/RIL_PARAM_CARDINFO_ICCID, ntddrilapitypes/RILUICCCARDINFOPARAMMASK, RILUICCCARDINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDINFO_NUMAPPS, RIL_PARAM_CARDINFO_ICCID, ntddrilapitypes/RIL_PARAM_CARDINFO_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,18 +74,18 @@ typedef enum _RILUICCCARDINFOPARAMMASK {
 
 
 
-### -field RIL_PARAM_CARDINFO_ICCID
+#### - RIL_PARAM_CARDINFO_ICCID
 
 
 
-### -field RIL_PARAM_CARDINFO_NUMAPPS
+#### - RIL_PARAM_CARDINFO_NUMAPPS
 
 
 
-### -field RIL_PARAM_CARDINFO_APPINFO
+#### - RIL_PARAM_CARDINFO_APPINFO
 
 
 
-### -field RIL_PARAM_CARDINFO_ALL
+#### - RIL_PARAM_CARDINFO_ALL
 
 

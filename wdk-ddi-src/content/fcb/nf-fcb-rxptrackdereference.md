@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fcb/RxpTrackDereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml, RxpTrackDereference function [Installable File System Drivers], RxpTrackDereference, ifsk.rxptrackdereference
+ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml, fcb/RxpTrackDereference, ifsk.rxptrackdereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ BOOLEAN RxpTrackDereference(
 
 
 
-### -param TraceType [in]
+#### - TraceType [in]
 
 The value that determines which dereference request type is tracked. This value can be one of the following macros defined in <i>fcb.h</i>:
 
@@ -107,12 +107,12 @@ A dereference request on an FCB structure.
 A dereference request on a SRV_OPEN structure.
 
 
-### -param FileName [in]
+#### - FileName [in]
 
 The name of the source file where this routine was called.
 
 
-### -param Line [in]
+#### - Line [in]
 
 The line number in the source file where this routine was called.
 
@@ -150,17 +150,17 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
 
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
+<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
 
  
 

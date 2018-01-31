@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4E06AFD0-42D3-479F-B285-34919826F750
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, GetCurrentSystemServerName, debugger.idebugsystemobjects3_getcurrentsystemservername, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method, IDebugSystemObjects3::GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging]
+ms.keywords: IDebugSystemObjects3::GetCurrentSystemServerName, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method, debugger.idebugsystemobjects3_getcurrentsystemservername, GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, IDebugSystemObjects3, GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetCurrentSystemServerName(
 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to an output buffer.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size of the buffer.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 A pointer to the name size. 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b7038bcf-2469-4d5f-ac73-0c7835da23c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::WaitForEvent, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl2::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, IDebugControl3, WaitForEvent method [Windows Debugging], IDebugControl3 interface, WaitForEvent method [Windows Debugging], IDebugControl2 interface, debugger.waitforevent, WaitForEvent method [Windows Debugging], IDebugControl3 interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, WaitForEvent, IDebugControl interface [Windows Debugging], WaitForEvent method, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, dbgeng/IDebugControl2::WaitForEvent, WaitForEvent method [Windows Debugging], IDebugControl interface
+ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], WaitForEvent method, IDebugControl interface [Windows Debugging], WaitForEvent method, WaitForEvent method [Windows Debugging], IDebugControl interface, WaitForEvent method [Windows Debugging], IDebugControl3 interface, WaitForEvent method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::WaitForEvent, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl2::WaitForEvent, WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, debugger.waitforevent, dbgeng/IDebugControl::WaitForEvent, WaitForEvent method [Windows Debugging], IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT WaitForEvent(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Set to zero.  There are currently no flags that can be used in this parameter.
 
 
-### -param Timeout [in]
+#### - Timeout [in]
 
 Specifies how many milliseconds to wait before this method will return.  If <i>Timeout</i> is INFINITE, this method will not return until an event that breaks into the debugger engine application occurs or an exit interrupt is issued.  If the current session has a live kernel target, <i>Timeout</i> must be set to INFINITE.
 
@@ -167,11 +167,11 @@ For more information about using <b>WaitForEvent</b> to control the execution fl
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d2a355e2-e5ff-4d20-ae8c-cdee3f5ddb76
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PAVC_UNIQUE_ID, AVC_UNIQUE_ID, _AVC_UNIQUE_ID, avcref_c7dadbdc-3227-4462-b2e3-5064e8f96e1a.xml, avc/AVC_UNIQUE_ID, PAVC_UNIQUE_ID, avc/PAVC_UNIQUE_ID, PAVC_UNIQUE_ID structure pointer [Streaming Media Devices], stream.avc_unique_id, AVC_UNIQUE_ID structure [Streaming Media Devices]"
+ms.keywords: "*PAVC_UNIQUE_ID, AVC_UNIQUE_ID structure [Streaming Media Devices], avc/PAVC_UNIQUE_ID, PAVC_UNIQUE_ID structure pointer [Streaming Media Devices], PAVC_UNIQUE_ID, avc/AVC_UNIQUE_ID, stream.avc_unique_id, _AVC_UNIQUE_ID, AVC_UNIQUE_ID, avcref_c7dadbdc-3227-4462-b2e3-5064e8f96e1a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_UNIQUE_ID
 product: Windows
 targetos: Windows
-req.typenames: AVC_UNIQUE_ID, *PAVC_UNIQUE_ID
+req.typenames: "*PAVC_UNIQUE_ID, AVC_UNIQUE_ID"
 ---
 
 # _AVC_UNIQUE_ID structure
@@ -67,7 +67,7 @@ typedef struct _AVC_UNIQUE_ID {
 
 
 
-### -field DeviceID
+#### - DeviceID
 
 A GUID representing the unit as a whole. All subunits within the same unit share the same GUID. No two units share the same GUID.
 
@@ -85,11 +85,11 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554166">AVC_FUNCTION_GET_UNIQUE_ID</a>
-
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554166">AVC_FUNCTION_GET_UNIQUE_ID</a>
 
  
 

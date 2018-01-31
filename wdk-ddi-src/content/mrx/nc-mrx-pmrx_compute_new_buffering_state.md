@@ -40,7 +40,7 @@ apiname:
 -	MRxComputeNewBufferingState
 product: Windows
 targetos: Windows
-req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
+req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_COMPUTE_NEW_BUFFERING_STATE callback
@@ -72,17 +72,17 @@ NTSTATUS MRxComputeNewBufferingState(
 
 
 
-### -param SrvOpen [in, out]
+#### - SrvOpen [in, out]
 
 A pointer to the SRV_OPEN structure and the associated FCB structure.
 
 
-### -param MRxContext [in]
+#### - MRxContext [in]
 
 A pointer to a context parameter for use by the network mini-redirector callback.
 
 
-### -param NewBufferingState [out]
+#### - NewBufferingState [out]
 
 A pointer to where the new buffering state is stored when the routine returns. 
 
@@ -122,9 +122,9 @@ The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549850">MRxCompleteBufferingStateChangeRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549850">MRxCompleteBufferingStateChangeRequest</a>
 
  
 

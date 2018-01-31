@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9ac8f93e-4eac-47ec-bc1d-090abb339626
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRESETMODEMCONFIGITEM structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRESETMODEMCONFIGITEM, *LPRILRESETMODEMCONFIGITEM, netvista.rilresetmodemconfigitem_2, RILRESETMODEMCONFIGITEM
+ms.keywords: RILRESETMODEMCONFIGITEM structure [Network Drivers Starting with Windows Vista], *LPRILRESETMODEMCONFIGITEM, netvista.rilresetmodemconfigitem_2, RILRESETMODEMCONFIGITEM, rilapitypes/RILRESETMODEMCONFIGITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILRESETMODEMCONFIGITEM {
 
 
 
-### -field dwModemConfigItem
+#### - dwModemConfigItem
 
 
 
-### -field rrmcValue
+#### - rrmcValue
 
 

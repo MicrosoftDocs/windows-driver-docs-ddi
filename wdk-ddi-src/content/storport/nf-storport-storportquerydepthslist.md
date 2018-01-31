@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5E1CE999-8173-49B6-8CF7-F3A5B193A230
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortQueryDepthSList routine [Storage Devices], storage.storportquerydepthslist, StorPortQueryDepthSList, storport/StorPortQueryDepthSList
+ms.keywords: StorPortQueryDepthSList, storport/StorPortQueryDepthSList, storage.storportquerydepthslist, StorPortQueryDepthSList routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortQueryDepthSList(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param SListHead [in, out]
+#### - SListHead [in, out]
 
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
 
-### -param Result [out]
+#### - Result [out]
 
 A pointer to a <b>SHORT</b> value which receives the  list depth count.
 
@@ -144,9 +144,9 @@ Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value p
 
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
-
 <a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
+
+<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
  
 

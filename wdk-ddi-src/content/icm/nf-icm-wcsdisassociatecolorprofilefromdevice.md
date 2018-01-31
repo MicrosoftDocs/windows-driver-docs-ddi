@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice, colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices]
+ms.keywords: WcsDisassociateColorProfileFromDevice function [Print Devices], WcsDisassociateColorProfileFromDevice, icm/WcsDisassociateColorProfileFromDevice, colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, print.wcsdisassociatecolorprofilefromdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ BOOL WcsDisassociateColorProfileFromDevice(
 TBD
 
 
-### -param pProfileName [in]
+#### - pProfileName [in]
 
 A pointer to the file name of the profile to disassociate.
 
 
-### -param pDeviceName [in]
+#### - pDeviceName [in]
 
 A pointer to the name of the device from which the profile is to be disassociated.
 

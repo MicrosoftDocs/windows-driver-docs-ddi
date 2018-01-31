@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7B974255-2FCB-4EFE-B33F-9856E0A09FC4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], print.callrouterfindfirstprinterchangenotification
+ms.keywords: CallRouterFindFirstPrinterChangeNotification, print.callrouterfindfirstprinterchangenotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], winsplp/CallRouterFindFirstPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ DWORD WINAPI CallRouterFindFirstPrinterChangeNotification(
 
 
 
-### -param hPrinterRPC [in]
+#### - hPrinterRPC [in]
 
 
 
-### -param fdwFilterFlags
+#### - fdwFilterFlags
 
 
 
-### -param fdwOptions
+#### - fdwOptions
 
 
 
-### -param hNotify [in]
+#### - hNotify [in]
 
 
 
-### -param pPrinterNotifyOptions [in]
+#### - pPrinterNotifyOptions [in]
 
 

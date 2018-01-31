@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: EBEEF2C7-AD2E-4BE5-B20C-D4E148F1454C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: TerminatePlmPackageWide method [Windows Debugging], debugger.idebugplmclient3_terminateplmpackagewide, TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, IDebugPlmClient3::TerminatePlmPackageWide, IDebugPlmClient3 interface [Windows Debugging], TerminatePlmPackageWide method, IDebugPlmClient3
+ms.keywords: IDebugPlmClient3 interface [Windows Debugging], TerminatePlmPackageWide method, debugger.idebugplmclient3_terminateplmpackagewide, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, IDebugPlmClient3, IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT TerminatePlmPackageWide(
 
 
 
-### -param Server [in]
+#### - Server [in]
 
 The server of the package.
 
 
-### -param PackageFullName [in]
+#### - PackageFullName [in]
 
 A pointer to the package name.
 

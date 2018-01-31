@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTDestroyKeyedMutex, display.d3dkmtdestroykeyedmutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, D3DKMTDestroyKeyedMutex
+ms.keywords: OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, D3DKMTDestroyKeyedMutex, d3dkmthk/D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], display.d3dkmtdestroykeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

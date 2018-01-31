@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], storage.device_lb_provisioning_descriptor, _DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR
+ms.keywords: PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, _DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, storage.device_lb_provisioning_descriptor, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], *PDEVICE_LB_PROVISIONING_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_LB_PROVISIONING_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR"
+req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
 ---
 
 # _DEVICE_LB_PROVISIONING_DESCRIPTOR structure
@@ -78,17 +78,17 @@ typedef struct _DEVICE_LB_PROVISIONING_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 The version of this structure.
 
 
-### -field Size
+#### - Size
 
 The size of this structure. This is set to <b>sizeof</b>(DEVICE_LB_PROVISIONING_DESCRIPTOR).
 
 
-### -field ThinProvisioningEnabled
+#### - ThinProvisioningEnabled
 
 The thin provisioning–enabled status.
 <table>
@@ -121,7 +121,7 @@ Thin provisioning is enabled.
 </table> 
 
 
-### -field ThinProvisioningReadZeros
+#### - ThinProvisioningReadZeros
 
 Reads to unmapped regions return zeros.
 <table>
@@ -154,7 +154,7 @@ Reads return zeros.
 </table> 
 
 
-### -field AnchorSupported
+#### - AnchorSupported
 
 Support for the anchored LBA mapping state.
 <table>
@@ -187,7 +187,7 @@ The anchored LBA mapping state is supported.
 </table> 
 
 
-### -field UnmapGranularityAlignmentValid
+#### - UnmapGranularityAlignmentValid
 
 The validity of unmap granularity alignment for the device.
 <table>
@@ -230,22 +230,22 @@ Unmap granularity alignment is valid.
  
 
 
-### -field OptimalUnmapGranularity
+#### - OptimalUnmapGranularity
 
 The optimal number of blocks for unmap granularity for the device.
 
 
-### -field UnmapGranularityAlignment
+#### - UnmapGranularityAlignment
 
 The current value, in blocks, set for unmap granularity alignment on the device.   The value <b>UnmapGranularityAlignmentValid</b> indicates the validity of this member.
 
 
-### -field MaxUnmapLbaCount
+#### - MaxUnmapLbaCount
 
 Maximum amount of LBAs that can be unmapped in a single UNMAP command, in units of logical blocks. This is valid only in Windows 10 and above.
 
 
-### -field MaxUnmapBlockDescriptorCount
+#### - MaxUnmapBlockDescriptorCount
 
 Maximum number of descriptors allowed in a single UNMAP command. This is valid only in Windows 10 and above.
 

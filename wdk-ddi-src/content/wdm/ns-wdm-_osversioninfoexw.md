@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PRTL_OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, *POSVERSIONINFOEXW, _OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, wdm/PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOEXW"
+ms.keywords: RTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, PRTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEX, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], *LPOSVERSIONINFOEXW, _OSVERSIONINFOEXW, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RTL_OSVERSIONINFOEXW
 product: Windows
 targetos: Windows
-req.typenames: OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
+req.typenames: "*LPOSVERSIONINFOEXW, OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW"
 req.product: Windows 10 or later.
 ---
 
@@ -78,47 +78,47 @@ typedef struct _OSVERSIONINFOEXW {
 
 
 
-### -field dwOSVersionInfoSize
+#### - dwOSVersionInfoSize
 
 The size, in bytes, of an <b>RTL_OSVERSIONINFOEXW</b> structure. This member must be set before the structure is used with <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>.
 
 
-### -field dwMajorVersion
+#### - dwMajorVersion
 
 The major version number of the operating system. For example, for Windows 2000, the major version number is five. For more information, see the table in Remarks.
 
 
-### -field dwMinorVersion
+#### - dwMinorVersion
 
 The minor version number of the operating system. For example, for Windows 2000, the minor version number is zero. For more information, see the table in Remarks.
 
 
-### -field dwBuildNumber
+#### - dwBuildNumber
 
 The build number of the operating system.
 
 
-### -field dwPlatformId
+#### - dwPlatformId
 
 The operating system platform. For Win32 on NT-based operating systems, <b>RtlGetVersion</b> returns the value VER_PLATFORM_WIN32_NT.
 
 
-### -field szCSDVersion
+#### - szCSDVersion
 
 The service-pack version string. This member contains a null-terminated string, such as "Service Pack 3", which indicates the latest service pack installed on the system. If no service pack is installed, <b>RtlGetVersion</b> might not initialize this string. Initialize <i>szCSDVersion</i> to zero (empty string) before the call to <b>RtlGetVersion</b>.
 
 
-### -field wServicePackMajor
+#### - wServicePackMajor
 
 The major version number of the latest service pack installed on the system. For example, for Service Pack 3, the major version number is three. If no service pack has been installed, the value is zero.
 
 
-### -field wServicePackMinor
+#### - wServicePackMinor
 
 The minor version number of the latest service pack installed on the system. For example, for Service Pack 3, the minor version number is zero.
 
 
-### -field wSuiteMask
+#### - wSuiteMask
 
 The product suites available on the system. This member is set to zero or to the bitwise OR of one or more of the following values.
 <table>
@@ -261,7 +261,7 @@ Windows Home Server is installed.
 </table> 
 <div class="alert"><b>Note</b>    You should not rely solely on the VER_SUITE_SMALLBUSINESS flag to determine whether Small Business Server is currently installed. Both this flag and the VER_SUITE_SMALLBUSINESS_RESTRICTED flag are set when this product suite is installed. If you upgrade this installation to Windows Server, Standard Edition, the VER_SUITE_SMALLBUSINESS_RESTRICTED flag is cleared, but the VER_SUITE_SMALLBUSINESS flag remains set, which, in this case, indicates that Small Business Server was previously installed on this system. If this installation is further upgraded to Windows Server, Enterprise Edition, the VER_SUITE_SMALLBUSINESS flag remains set.</div><div> </div>
 
-### -field wProductType
+#### - wProductType
 
 The product type. This member contains additional information about the system. This member can be one of the following values: 
 <table>
@@ -302,7 +302,7 @@ Windows 2000 or later server
 </table> 
 
 
-### -field wReserved
+#### - wReserved
 
 Reserved for future use.
 
@@ -595,11 +595,11 @@ Not applicable
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
-
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1a249c0e-1b8d-4c50-9b01-03bfe84e0937
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiodisk/DsmSetLoadBalancePolicy_IN, *PDsmSetLoadBalancePolicy_IN, storage.dsmsetloadbalancepolicy_in, mpiodisk/PDsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN structure [Storage Devices], PDsmSetLoadBalancePolicy_IN, _DsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN, PDsmSetLoadBalancePolicy_IN structure pointer [Storage Devices], structs-scsibus_f8d1e2b3-b630-45df-91f7-d564910f83d0.xml
+ms.keywords: structs-scsibus_f8d1e2b3-b630-45df-91f7-d564910f83d0.xml, _DsmSetLoadBalancePolicy_IN, mpiodisk/PDsmSetLoadBalancePolicy_IN, storage.dsmsetloadbalancepolicy_in, PDsmSetLoadBalancePolicy_IN structure pointer [Storage Devices], mpiodisk/DsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN, *PDsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN structure [Storage Devices], PDsmSetLoadBalancePolicy_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DsmSetLoadBalancePolicy_IN {
 
 
 
-### -field LoadBalancePolicy
+#### - LoadBalancePolicy
 
 A structure of type DSM_Load_Balance_Policy.
 

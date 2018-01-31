@@ -40,7 +40,7 @@ apiname:
 -	CmpNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
+req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
 
 # PCMP_NOTIFY_ROUTINE callback
@@ -72,7 +72,7 @@ typedef PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
 
 
 
-### -param NotifyInfo [in]
+#### - NotifyInfo [in]
 
 Specifies the notification information.
 

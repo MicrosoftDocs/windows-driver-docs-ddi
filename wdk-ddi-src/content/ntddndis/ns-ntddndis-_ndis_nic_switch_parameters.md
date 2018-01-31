@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BC43A7DF-51B4-4571-86C5-12B332B13084
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_NIC_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_PARAMETERS, _NDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS, ntddndis/NDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_PARAMETERS, netvista.ndis_nic_switch_parameters, ntddndis/PNDIS_NIC_SWITCH_PARAMETERS
+ms.keywords: PNDIS_NIC_SWITCH_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_PARAMETERS, _NDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS, netvista.ndis_nic_switch_parameters, PNDIS_NIC_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct _NDIS_NIC_SWITCH_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_NIC_SWITCH_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -91,7 +91,7 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
  A ULONG value that contains a bitwise OR of flags. The following flags are defined for this member. 
 
@@ -104,41 +104,41 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_PARAMETERS_REVISION_1.
 This flag specifies that the field that has been updated in the <b>NDIS_NIC_SWITCH_PARAMETERS</b> structure is the <b>SwitchName</b> member.
 <div class="alert"><b>Note</b>  This flag is valid only when this structure is used in an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451823">OID_NIC_SWITCH_PARAMETERS</a>. </div><div> </div>
 
-### -field SwitchType
+#### - SwitchType
 
 An 
      <a href="..\ntddndis\ne-ntddndis-_ndis_nic_switch_type.md">NDIS_NIC_SWITCH_TYPE</a> enumeration value that
      specifies the type of the network adapter switch.
 <div class="alert"><b>Note</b>   Starting with Windows Server 2012, Windows only supports a switch type of <b>NdisNicSwitchTypeExternal</b>.  An external switch specifies that the ports connected to this type of switch can access the external network through the physical port on the network adapter. The default virtual port (VPort) on the external switch provides external network connectivity to the virtualization stack that runs in the management operating system of the Hyper-V parent partition.</div><div> </div>
 
-### -field SwitchId
+#### - SwitchId
 
 An NDIS_NIC_SWITCH_ID value that contains a switch identifier. The switch identifier is an integer between zero and the number of switches that the network adapter supports. An NDIS_DEFAULT_SWITCH_ID value indicates the default network adapter switch.
 
 
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
 
-### -field SwitchFriendlyName
+#### - SwitchFriendlyName
 
 An NDIS_NIC_SWITCH_FRIENDLY_NAME value that contains a description for the switch.
 
 
-### -field NumVFs
+#### - NumVFs
 
 A ULONG value that specifies the number of PCI Express (PCIe) Virtual Functions (VFs) that are enabled on the network adapter. VFs are enabled on the adapter when virtualization is enabled through a call to <a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>.
 <div class="alert"><b>Note</b>  Before a VF can be attached to a Hyper-V child partition, resources must be allocated for it through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>.</div><div> </div>
 
-### -field NdisReserved1
+#### - NdisReserved1
 
 Reserved for NDIS.
 
 
-### -field NdisReserved2
+#### - NdisReserved2
 
 Reserved for NDIS.
 
 
-### -field NdisReserved3
+#### - NdisReserved3
 
 Reserved for NDIS.
 
@@ -160,15 +160,15 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451823">OID_NIC_SWITCH_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451823">OID_NIC_SWITCH_PARAMETERS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 <b></b>
 

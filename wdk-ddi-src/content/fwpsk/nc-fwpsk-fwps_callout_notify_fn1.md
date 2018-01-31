@@ -40,7 +40,7 @@ apiname:
 -	notifyFn1
 product: Windows
 targetos: Windows
-req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
+req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
 
 # FWPS_CALLOUT_NOTIFY_FN1 callback
@@ -74,7 +74,7 @@ NTSTATUS NTAPI notifyFn1(
 
 
 
-### -param notifyType [in]
+#### - notifyType [in]
 
 A value that indicates the type of notification that the filter engine is sending to the callout.
      Valid values for this parameter are:
@@ -100,15 +100,33 @@ A filter is being deleted from the filter engine that specifies the callout for 
 A maximum value for testing purposes.
 
 
-### -param *filterKey
+#### - *filterKey [in]
+
+A pointer to the management identifier for the filter, as specified by the application or driver
+     that is adding or deleting the filter. Must be <b>NULL</b> if the 
+     <i>notifyType</i> parameter is set to FWPS_CALLOUT_NOTIFY_DELETE_FILTER. For more information, see Remarks.
 
 
+#### - *filter [in]
 
-### -param *filter
+A pointer to an 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a> structure. This structure
+     describes the filter that is being added to or deleted from the filter engine.
+     
 
+A callout driver's 
+     <i>notifyFn1</i> function can set the 
+     <b>Context</b> member of this structure to point to a callout driver-supplied context structure when the
+     filter is added to the filter engine. This context structure is opaque to the filter engine, and can be
+     used by the callout driver's 
+     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a> callout function to preserve
+     any driver-specific data or state information between calls by the filter engine to the callout driver's
+     
+     <i>classifyFn1</i> callout function.
 
-
-
+A callout driver's 
+     <i>notifyFn1</i> function can clean up any context associated with the filter when the filter is deleted
+     from the filter engine.
 
 
 #### - filterKey [in]
@@ -221,17 +239,17 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a>
 
  
 

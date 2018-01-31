@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 31229c78-0bea-44eb-9f1a-d1bce8a16a3e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WritePort, WritePort function [Print Devices], spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml, winsplp/WritePort, print.writeport
+ms.keywords: winsplp/WritePort, WritePort function [Print Devices], WritePort, print.writeport, spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ BOOL WritePort(
 
 
 
-### -param hPort [in]
+#### - hPort [in]
 
 Caller-supplied port handle.
 
 
-### -param pBuffer [in]
+#### - pBuffer [in]
 
 Caller-supplied pointer to a buffer containing data to be written to the port.
 
 
-### -param cbBuf
+#### - cbBuf
 
 Caller-supplied size, in bytes, of <i>pBuffer</i>.
 
 
-### -param pcbWritten [out]
+#### - pcbWritten [out]
 
 Caller-supplied pointer to a location to receive the number of bytes successfully written to the port.
 
@@ -124,15 +124,15 @@ It is acceptable for a language monitor to call a port monitor's <code>WritePort
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
 
 <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
-
-<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
  
 

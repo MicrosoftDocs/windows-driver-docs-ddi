@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 397d2ab0-89a0-42a8-a665-ca7e1ed5d8f3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_UNLOCK, display.d3dkmt_unlock, D3DKMT_UNLOCK, D3DKMT_UNLOCK structure [Display Devices], OpenGL_Structs_d4f3b3e8-fddd-41d2-8a7e-ee43f25a1f2d.xml, _D3DKMT_UNLOCK
+ms.keywords: d3dkmthk/D3DKMT_UNLOCK, _D3DKMT_UNLOCK, D3DKMT_UNLOCK, display.d3dkmt_unlock, D3DKMT_UNLOCK structure [Display Devices], OpenGL_Structs_d4f3b3e8-fddd-41d2-8a7e-ee43f25a1f2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_UNLOCK {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the allocation is associated with.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] The number of allocations in the array that <b>phAllocations</b> specifies. 
 
 
-### -field phAllocations
+#### - phAllocations
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations to unlock.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c20b757-c27c-446c-a138-066fc57ec1bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DDEVINFO_VCACHE structure pointer [Display Devices], LPD3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, display.d3ddevinfo_vcache, D3DDEVINFO_VCACHE structure [Display Devices], d3d9types/LPD3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml
+ms.keywords: d3d9types/LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE structure [Display Devices], D3DDEVINFO_VCACHE, _D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE, display.d3ddevinfo_vcache, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, d3d9types/D3DDEVINFO_VCACHE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DDEVINFO_VCACHE
 product: Windows
 targetos: Windows
-req.typenames: D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE
+req.typenames: "*LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE"
 ---
 
 # _D3DDEVINFO_VCACHE structure
@@ -74,7 +74,7 @@ typedef struct _D3DDEVINFO_VCACHE {
 
 
 
-### -field Pattern
+#### - Pattern
 
 Specifies the bit pattern. The driver must specify the bit pattern as the CACH four-character code (FOURCC) value. The driver can use the MAKEFOURCC macro as follows to specify the FOURCC value as CACH:
 <div class="code"><span codelanguage=""><table>
@@ -88,7 +88,7 @@ Specifies the bit pattern. The driver must specify the bit pattern as the CACH f
 </tr>
 </table></span></div>
 
-### -field OptMethod
+#### - OptMethod
 
 Specifies the method of mesh optimization. The driver can use one of the following values to specify the mesh optimization that it uses: 
 <table>
@@ -119,12 +119,12 @@ Vertex-cache based optimization
 </table> 
 
 
-### -field CacheSize
+#### - CacheSize
 
 Specifies the effective size, in entries, for which the driver optimizes the vertex cache. The actual cache size is not required to be the size specified in <b>CacheSize</b> because in most cases the actual cache size turns out to be larger. The driver only specifies an optimized size in <b>CacheSize</b> if it also specifies D3DXMESHOPT_VCACHE in the <b>OptMethod</b> member.
 
 
-### -field MagicNumber
+#### - MagicNumber
 
 Specifies the number that should be used as part of a trial-and-error procedure when determining when to restart the strips list. This number can be set from 1 to the value in the <b>CacheSize</b> member. Typically, the best values are near <b>CacheSize</b>/2. 
 
@@ -142,19 +142,19 @@ When the driver completes a vertex-cache query, the driver sets the total size o
 
 ## -see-also
 
-D3DDP2OP_ISSUEQUERY
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
-
 <a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 D3DDP2OP_CREATEQUERY
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
+
+D3DDP2OP_ISSUEQUERY
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
  
 

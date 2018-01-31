@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
 product: Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
+req.typenames: "*PSTREAM_INFO, STREAM_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE PEVT_UCX_USBDEVICE_ENDPOINTS_CONFI
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param Request [in]
+#### - Request [in]
 
 Contains a structure of type <a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a> structure.
 

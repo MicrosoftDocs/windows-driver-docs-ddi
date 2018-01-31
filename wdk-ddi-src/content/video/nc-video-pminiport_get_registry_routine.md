@@ -75,27 +75,27 @@ VP_STATUS HwVidQueryNamedValueCallback(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-### -param Context
+#### - Context
 
 Pointer to a driver-determined context specified as input to the <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a> function.
 
 
-### -param ValueName
+#### - ValueName
 
 Pointer to a NULL-terminated Unicode string naming the entry.
 
 
-### -param ValueData
+#### - ValueData
 
 Pointer to the buffered data associated with <i>ValueName</i>, supplied by <b>VideoPortGetRegistryParameters</b>.
 
 
-### -param ValueLength
+#### - ValueLength
 
 Specifies the size in bytes of the buffer at <i>ValueData</i>.
 
@@ -130,15 +130,15 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
 <a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
 
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
  
 

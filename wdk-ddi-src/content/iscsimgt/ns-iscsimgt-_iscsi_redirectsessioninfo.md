@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.iscsi_redirectsessioninfo, iscsimgt/ISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices], iscsimgt/PISCSI_RedirectSessionInfo, _ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices], PISCSI_RedirectSessionInfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, ISCSI_RedirectSessionInfo
+ms.keywords: iscsimgt/ISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices], _ISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, iscsimgt/PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _ISCSI_RedirectSessionInfo {
 
 
 
-### -field UniqueSessionId
+#### - UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in their UniqueSessionId parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 
-### -field TargetPortalGroupTag
+#### - TargetPortalGroupTag
 
 Target portal group tag for this session Id.
 
 
-### -field ConnectionCount
+#### - ConnectionCount
 
 Number of connections for each session.
 
 
-### -field RedirectPortalList
+#### - RedirectPortalList
 
 This provides the redirection information, and it has as many entries as the number of connections for each session.
 

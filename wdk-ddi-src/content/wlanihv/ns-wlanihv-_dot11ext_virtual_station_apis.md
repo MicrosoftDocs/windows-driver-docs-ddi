@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5487375a-7d50-4ddd-a666-8727f45b85dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11EXT_VIRTUAL_STATION_APIS structure [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_VIRTUAL_STATION_APIS, _DOT11EXT_VIRTUAL_STATION_APIS, DOT11EXT_VIRTUAL_STATION_APIS, wlanihv/PDOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS, Native_802.11_data_types_0b2dadd3-7d60-4836-9171-c2c11b56010d.xml, netvista.dot11ext_virtual_station_apis, *PDOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11EXT_VIRTUAL_STATION_APIS, DOT11EXT_VIRTUAL_STATION_APIS, _DOT11EXT_VIRTUAL_STATION_APIS, wlanihv/PDOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11ext_virtual_station_apis, DOT11EXT_VIRTUAL_STATION_APIS structure [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_VIRTUAL_STATION_APIS, Native_802.11_data_types_0b2dadd3-7d60-4836-9171-c2c11b56010d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,8 +120,11 @@ The IHV Extensibility virtual station functions are not statically or dynamicall
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvinitvirtualstation" tabindex="0"><i>
-   Dot11ExtIhvInitVirtualStation</i></mshelp:link>
+<mshelp:link keywords="netvista.dot11extqueryvirtualstationproperties" tabindex="0"><b>
+   Dot11ExtQueryVirtualStationProperties</b></mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extsetvirtualstationapproperties" tabindex="0"><b>
+   Dot11ExtSetVirtualStationAPProperties</b></mshelp:link>
 
 <mshelp:link keywords="netvista.dot11extrequestvirtualstation" tabindex="0"><b>
    Dot11ExtRequestVirtualStation</b></mshelp:link>
@@ -129,11 +132,8 @@ The IHV Extensibility virtual station functions are not statically or dynamicall
 <mshelp:link keywords="netvista.dot11extreleasevirtualstation" tabindex="0"><b>
    Dot11ExtReleaseVirtualStation</b></mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extqueryvirtualstationproperties" tabindex="0"><b>
-   Dot11ExtQueryVirtualStationProperties</b></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extsetvirtualstationapproperties" tabindex="0"><b>
-   Dot11ExtSetVirtualStationAPProperties</b></mshelp:link>
+<mshelp:link keywords="netvista.dot11extihvinitvirtualstation" tabindex="0"><i>
+   Dot11ExtIhvInitVirtualStation</i></mshelp:link>
 
  
 

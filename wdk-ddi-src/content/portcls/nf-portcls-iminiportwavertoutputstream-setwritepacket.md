@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTOutputStream::SetWritePacket, audio.iminiportwavertoutputstream_setwritepacket, IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, IMiniportWaveRTOutputStream, SetWritePacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface
+ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, SetWritePacket method [Audio Devices], SetWritePacket, IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream::SetWritePacket, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRTOutputStream.SetWritePacket
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTOutputStream::SetWritePacket method
@@ -69,19 +69,19 @@ NTSTATUS SetWritePacket(
 
 
 
-### -param PacketNumber [in]
+#### - PacketNumber [in]
 
 The number of the packet written by the OS to the WaveRT buffer. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Additional attributes related to the packet or stream.
 
 KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM - This flag indicates that this packet represents the end of the data stream.
 
 
-### -param EosPacketLength [in]
+#### - EosPacketLength [in]
 
 The length of the EOS packet if KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is specified in Flags. Zero is a valid value. If KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is not specified in Flags, this parameter is ignored.
 

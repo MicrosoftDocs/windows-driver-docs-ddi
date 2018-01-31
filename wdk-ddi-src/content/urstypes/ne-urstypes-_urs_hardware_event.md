@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 985A7725-1EE1-4419-B8BE-FEE2306E93A7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsHardwareEventDetach, UrsHardwareEventIdFloat, urstypes/UrsHardwareEventNone, UrsHardwareEventPortTypeUfp, urstypes/UrsHardwareEventPortTypeUfp, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, _URS_HARDWARE_EVENT, buses.urs_hardware_event, urstypes/UrsHardwareEventIdGround, UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventDetach, UrsHardwareEventNone, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT enumeration [Buses], *PURS_HARDWARE_EVENT, urstypes/UrsHardwareEventPortTypeDfp, URS_HARDWARE_EVENT, UrsHardwareEventIdGround, urstypes/URS_HARDWARE_EVENT, URS_HARDWARE_EVENT enumeration [Buses], urstypes/UrsHardwareEventIdFloat
+ms.keywords: urstypes/UrsHardwareEventIdFloat, urstypes/UrsHardwareEventNone, urstypes/UrsHardwareEventPortTypeDfp, urstypes/URS_HARDWARE_EVENT, urstypes/UrsHardwareEventDetach, UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventPortTypeUfp, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT enumeration [Buses], URS_HARDWARE_EVENT enumeration [Buses], urstypes/UrsHardwareEventIdGround, _URS_HARDWARE_EVENT, UrsHardwareEventDetach, buses.urs_hardware_event, UrsHardwareEventPortTypeUfp, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, UrsHardwareEventIdFloat, URS_HARDWARE_EVENT, UrsHardwareEventIdGround, UrsHardwareEventNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
 product: Windows
 targetos: Windows
-req.typenames: URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
+req.typenames: "*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT"
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ typedef enum _URS_HARDWARE_EVENT {
 
 
 
-### -field UrsHardwareEventNone
+#### - UrsHardwareEventNone
 
 Internal use only. 
 
 
-### -field UrsHardwareEventDetach
+#### - UrsHardwareEventDetach
 
 A detach event occurred on a port of a USB Type-C system. 
 
 
-### -field UrsHardwareEventIdGround
+#### - UrsHardwareEventIdGround
 
 This event indicates that the ID pin is grounded.
 
 
-### -field UrsHardwareEventIdFloat
+#### - UrsHardwareEventIdFloat
 
 This event indicates that the ID pin is floating.
 
 
-### -field UrsHardwareEventPortTypeDfp
+#### - UrsHardwareEventPortTypeDfp
 
 The Type-C connector has resolved to DFP. Not to be used directly by the URS client driver.
 
 
-### -field UrsHardwareEventPortTypeUfp
+#### - UrsHardwareEventPortTypeUfp
 
 The Type-C connector has resolved to UFP. Not to be used directly by the URS client driver.
 

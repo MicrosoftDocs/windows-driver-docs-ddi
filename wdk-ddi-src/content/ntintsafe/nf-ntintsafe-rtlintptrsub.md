@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72352FD3-4855-4630-AF42-368FF3A6B2BB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlintptrsub, RtlIntPtrSub, ntintsafe/RtlIntPtrSub, RtlIntPtrSub function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlIntPtrSub function [Kernel-Mode Driver Architecture], RtlIntPtrSub, kernel.rtlintptrsub, ntintsafe/RtlIntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlIntPtrSub(
 
 
 
-### -param iMinuend [in]
+#### - iMinuend [in]
 
 The value from which <i>iSubtrahend</i> is subtracted.
 
 
-### -param iSubtrahend [in]
+#### - iSubtrahend [in]
 
 The value to subtract from <i>iMinuend</i>.
 
 
-### -param piResult [out]
+#### - piResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

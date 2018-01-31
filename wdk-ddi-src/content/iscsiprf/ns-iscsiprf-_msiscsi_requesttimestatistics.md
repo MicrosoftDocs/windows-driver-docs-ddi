@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fb884cff-dedb-44cf-b9ea-306bfa66b06f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_RequestTimeStatistics structure [Storage Devices], *PMSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], iscsiprf/MSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, _MSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics, MSiSCSI_RequestTimeStatistics, structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml
+ms.keywords: iscsiprf/PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics structure [Storage Devices], structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml, *PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics, _MSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], iscsiprf/MSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics, PMSiSCSI_RequestTimeStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _MSiSCSI_RequestTimeStatistics {
 
 
 
-### -field iSCSIName
+#### - iSCSIName
 
 The iSCSI target name.
 
 
-### -field CID
+#### - CID
 
 The iSCSI connection identifier (ID) for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the connection. Do not use this ID. Application software should use the connection identifier that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods return in the UniqueConnectionId parameter.
 
 
-### -field USID
+#### - USID
 
 The iSCSI session ID for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the session. Do not use this ID. Application software should use the session identifier that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods return in the UniqueSessionId parameter.
 
 
-### -field UniqueAdapterId
+#### - UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the UniqueAdapterId member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
 
 
-### -field MaximumProcessingTime
+#### - MaximumProcessingTime
 
 The maximum time taken to process a request over this connection.
 
 
-### -field AverageProcessingTime
+#### - AverageProcessingTime
 
 The average time taken to process a request over this connection.
 

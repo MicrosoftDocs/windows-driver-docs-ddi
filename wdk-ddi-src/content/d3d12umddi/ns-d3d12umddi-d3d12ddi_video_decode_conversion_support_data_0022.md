@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E9FA4CEB-84D3-42A6-B36A-B411922F19AE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_decode_conversion_support_data, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, display.d3d12ddi_video_decode_conversion_support_data, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 {
 
 
 
-### -field NodeIndex
+#### - NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 
-### -field Configuration
+#### - Configuration
 
 The decode profile and bitstream encryption.  For more information, see the  <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
 
 
-### -field DecodeSample
+#### - DecodeSample
 
 The source decoded as sample description.  For more information, see the  <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_sample_description_0020.md">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a> structure.
 
 
-### -field OutputFormat
+#### - OutputFormat
 
 The output sample description.  For more information, see the  <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a> structure.
 
 
-### -field FrameRate
+#### - FrameRate
 
 The frame rate of the video content. This is used by the driver to determine whether the video can be decoded in real time.
 
 
-### -field BitRate
+#### - BitRate
 
 The average bits per second data compression rate for the compressed video stream.  This is used by the driver to determine whether the video can be decoded in real time.
 
 
-### -field SupportFlags
+#### - SupportFlags
 
 The returned supported flags. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a> enumeration.
 
 
-### -field ScaleSupport
+#### - ScaleSupport
 
 The returned supported output size range for decode conversion.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a> structure.
 
@@ -127,17 +127,17 @@ Callers should check the <i>ScaleSupport</i> parameter to understand if the scal
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a>
-
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_sample_description_0020.md">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a>
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a>
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
 
  
 

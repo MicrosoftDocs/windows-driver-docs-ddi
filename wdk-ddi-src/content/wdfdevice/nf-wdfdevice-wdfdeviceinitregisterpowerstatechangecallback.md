@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f3c09dfb-d327-488b-8e5d-77a579d1e1f0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitregisterpowerstatechangecallback, WdfDeviceInitRegisterPowerStateChangeCallback method, DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, kmdf.wdfdeviceinitregisterpowerstatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback, WdfDeviceInitRegisterPowerStateChangeCallback, PFN_WDFDEVICEINITREGISTERPOWERSTATECHANGECALLBACK
+ms.keywords: WdfDeviceInitRegisterPowerStateChangeCallback method, kmdf.wdfdeviceinitregisterpowerstatechangecallback, DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback, wdf.wdfdeviceinitregisterpowerstatechangecallback, PFN_WDFDEVICEINITREGISTERPOWERSTATECHANGECALLBACK, WdfDeviceInitRegisterPowerStateChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfDeviceInitRegisterPowerStateChangeCallback(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param PowerState [in]
+#### - PowerState [in]
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a> enumerator that identifies the power machine state for which the driver is requesting notification.
 
 
-### -param EvtDevicePowerStateChange [in]
+#### - EvtDevicePowerStateChange [in]
 
 A caller-supplied pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_power_state_change_notification.md">EvtDevicePowerStateChange</a> event callback function.
 
 
-### -param CallbackTypes [in]
+#### - CallbackTypes [in]
 
 An ORed combination of <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
 

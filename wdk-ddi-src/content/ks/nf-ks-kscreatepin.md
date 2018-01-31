@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0dae335a-bcc1-4f6a-8926-e2ecc4112dc5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreatePin, KsCreatePin function [Streaming Media Devices], ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, stream.kscreatepin, ks/KsCreatePin
+ms.keywords: KsCreatePin, ks/KsCreatePin, stream.kscreatepin, KsCreatePin function [Streaming Media Devices], ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS KsCreatePin(
 
 
 
-### -param FilterHandle [in]
+#### - FilterHandle [in]
 
 Specifies the handle of the filter initiating the create request and where the connection will occur. 
 
 
-### -param Connect [in]
+#### - Connect [in]
 
 Pointer to a <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a> structure that contains parameters for the requested connection. This should be followed in memory by a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> data structure, describing the data format requested for the connection.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies the access desired to the pin. This is typically <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b>. For data flowing into the pin this value should be set to <b>GENERIC_WRITE</b>, and for data flowing out of the pin this should be set to <b>GENERIC_READ</b> regardless of the communication method.
 
 
-### -param ConnectionHandle [out]
+#### - ConnectionHandle [out]
 
 Specifies the connection handle passed. The routine fills this in with a handle to the file object of the created connection. This value can then be used to disconnect with the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function.
 

@@ -40,7 +40,7 @@ apiname:
 -	WinDbgExtensionDllInit
 product: Windows
 targetos: Windows
-req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
+req.typenames: "*PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT"
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ VOID WinDbgExtensionDllInit(
 
 
 
-### -param lpExtensionApis
+#### - lpExtensionApis
 
 A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to functions that you can use for standard operations. Copy the entire structure to a global variable in your DLL. For example, you could create a  global variable named ExtensionApis as shown in the following example.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -84,12 +84,12 @@ A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to fu
 </tr>
 </table></span></div>
 
-### -param MajorVersion
+#### - MajorVersion
 
 Specifies the Microsoft Windows build type. A value of 0xC indicates the checked build of Windows. A value of 0xF indicates the free build of Windows.   Save this value in a global variable in your DLL. For example, you could create a global variable named SavedMajorVersion.
 
 
-### -param MinorVersion
+#### - MinorVersion
 
 Specifies the Windows build number (for example 2600) of the target system. Save this value in a global variable in your DLL. For example, you could create a global variable named SavedMinorVersion.
 

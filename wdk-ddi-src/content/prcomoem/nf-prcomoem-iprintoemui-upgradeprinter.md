@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 405f0000-c239-4f2c-83ad-5d35441a5df2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UpgradePrinter method [Print Devices], IPrintOemUI interface, UpgradePrinter method [Print Devices], IPrintOemUI, IPrintOemUI::UpgradePrinter, prcomoem/IPrintOemUI::UpgradePrinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml, print.iprintoemui_upgradeprinter, UpgradePrinter, IPrintOemUI interface [Print Devices], UpgradePrinter method
+ms.keywords: UpgradePrinter method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], UpgradePrinter method, IPrintOemUI, UpgradePrinter method [Print Devices], print.iprintoemui_upgradeprinter, prcomoem/IPrintOemUI::UpgradePrinter, IPrintOemUI::UpgradePrinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml, UpgradePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT UpgradePrinter(
 
 
 
-### -param dwLevel
+#### - dwLevel
 
 Caller-supplied version number of the structure pointed to by <i>pDriverUpgradeInfo</i>. Current valid value is 1.
 
 
-### -param pDriverUpgradeInfo
+#### - pDriverUpgradeInfo
 
 Caller-supplied pointer to a <a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a> structure.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d9dbfc8-7563-4c47-9b34-27cce2b847b2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue::RetrieveNextRequest, umdf.iwdfioqueue_retrievenextrequest, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, RetrieveNextRequest, wudfddi/IWDFIoQueue::RetrieveNextRequest, wdf.iwdfioqueue_retrievenextrequest, RetrieveNextRequest method, IWDFIoQueue interface, IWDFIoQueue interface, RetrieveNextRequest method, RetrieveNextRequest method
+ms.keywords: RetrieveNextRequest method, IWDFIoQueue interface, umdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest, IWDFIoQueue::RetrieveNextRequest, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, IWDFIoQueue interface, RetrieveNextRequest method, RetrieveNextRequest, RetrieveNextRequest method, IWDFIoQueue, wdf.iwdfioqueue_retrievenextrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.RetrieveNextRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT  RetrieveNextRequest(
 
 
 
-### -param ppRequest [out]
+#### - ppRequest [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the next request object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
@@ -145,11 +145,11 @@ If a driver configures an I/O queue for sequential dispatching of I/O requests, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 210e20a5-c101-4005-97fb-e549ff97e7ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisZeroMappedMemory, netvista.ndiszeromappedmemory, miniport_memory_mapped_ref_41b91ff3-a113-4a69-bb38-ec3ba89cc0d7.xml, NdisZeroMappedMemory function [Network Drivers Starting with Windows Vista], NdisZeroMappedMemory
+ms.keywords: miniport_memory_mapped_ref_41b91ff3-a113-4a69-bb38-ec3ba89cc0d7.xml, NdisZeroMappedMemory, NdisZeroMappedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisZeroMappedMemory, netvista.ndiszeromappedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID NdisZeroMappedMemory(
 
 
 
-### -param Destination [in]
+#### - Destination [in]
 
 Specifies the base virtual address of a block of mapped memory.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes to be filled with zeros.
 
@@ -102,9 +102,9 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiszeromemory.md">NdisZeroMemory</a>
-
 <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+
+<a href="..\ndis\nf-ndis-ndiszeromemory.md">NdisZeroMemory</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 

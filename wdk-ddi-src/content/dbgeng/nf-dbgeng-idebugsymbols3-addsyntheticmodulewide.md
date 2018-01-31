@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc5dc9f4-53a6-468a-907c-9b271fed83aa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, IDebugSymbols3::AddSyntheticModuleWide, debugger.addsyntheticmodulewide, AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModuleWide method
+ms.keywords: AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3::AddSyntheticModuleWide, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3 interface, debugger.addsyntheticmodulewide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModuleWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT AddSyntheticModuleWide(
 
 
 
-### -param Base [in]
+#### - Base [in]
 
 Specifies the location in the process's virtual address space of the base of the synthetic module.
 
 
-### -param Size [in]
+#### - Size [in]
 
 Specifies the size in bytes of the synthetic module.
 
 
-### -param ImagePath [in]
+#### - ImagePath [in]
 
 Specifies the image name of the synthetic module.  This is the name that will be returned as the name of the executable file for the synthetic module.  The full path should be included if known.
 
 
-### -param ModuleName [in]
+#### - ModuleName [in]
 
 Specifies the module name for the synthetic module.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Set to DEBUG_ADDSYNTHMOD_DEFAULT.
 
@@ -134,9 +134,9 @@ For more information about synthetic modules, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

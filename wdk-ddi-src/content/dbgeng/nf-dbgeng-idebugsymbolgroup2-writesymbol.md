@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c0c23778-767a-4304-9ecf-c76337261e27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, WriteSymbol method [Windows Debugging], dbgeng/IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup::WriteSymbol, IDebugSymbolGroup2, IDebugSymbolGroup2::WriteSymbol, WriteSymbol, debugger.writesymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method
+ms.keywords: IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup::WriteSymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup2, WriteSymbol, dbgeng/IDebugSymbolGroup2::WriteSymbol, debugger.writesymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT WriteSymbol(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the symbol whose value will be changed. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Value [in]
+#### - Value [in]
 
 A C++ expression that is evaluated to give the symbol's new value.
 
@@ -115,13 +115,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelGetPointer, vmbuskernelmodeclientlibapi/VmbChannelGetPointer, netvista.vmbchannelgetpointer, VmbChannelGetPointer function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelGetPointer, VmbChannelGetPointer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelGetPointer, netvista.vmbchannelgetpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelGetPointer
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ PVOID VmbChannelGetPointer(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel.  
 

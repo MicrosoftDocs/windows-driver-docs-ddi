@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C54750A9-EE64-4FE7-9ED6-EC9709A82C43
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtypes/PUCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, PUCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT, _UCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT union [Buses], PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], UCM_PD_POWER_DATA_OBJECT
+ms.keywords: "_UCM_PD_POWER_DATA_OBJECT, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], UCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, *PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT union [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,8 +96,18 @@ typedef union _UCM_PD_POWER_DATA_OBJECT {
 
 
 
-### -field Common
+#### - Common
 
+
+
+#### Reserved
+
+Reserved.
+
+
+#### Type
+
+Type of Power Data Object.
 
 
 ### -field Common.Reserved
@@ -110,9 +120,61 @@ Reserved.
 Type of Power Data Object.
 
 
-### -field FixedSupplyPdo
+#### - FixedSupplyPdo
 
 Describing a Fixed Supply type Power Data Object.
+
+
+#### MaximumCurrentIn10mA
+
+Maximum current in multiples of 10 mA.
+
+
+#### VoltageIn50mV
+
+Voltage in multiples of 50 mV.
+
+
+#### PeakCurrent
+
+Peak current.
+
+
+#### Reserved
+
+Reserved for future use.
+
+
+#### DataRoleSwap
+
+If set, indicates the Power Data Object can perform a data role swap.
+
+
+#### UsbCommunicationCapable
+
+If set, indicates the Power Data Object is USB communication capable. 
+
+
+#### ExternallyPowered
+
+If set, indicates the Power Data Object is externally powered.
+
+
+#### UsbSuspendSupported
+
+Indicates support for USB suspend.
+
+
+
+
+#### DualRolePower
+
+Dual role power
+
+
+#### FixedSupply
+
+fixed supply
 
 
 ### -field FixedSupplyPdo.MaximumCurrentIn10mA
@@ -167,9 +229,29 @@ Dual role power
 fixed supply
 
 
-### -field VariableSupplyNonBatteryPdo
+#### - VariableSupplyNonBatteryPdo
 
 Contains bitfields describing a variable-supply non-battery PD object.
+
+
+#### MaximumCurrentIn10mA
+
+Describes the maximum current in multiples of 10 mA.
+
+
+#### MinimumVoltageIn50mV
+
+Desribes the minimum voltage in multiples of 50 mV.
+
+
+#### MaximumVoltageIn50mV
+
+Describes the maximum voltage in multiples of 50 mV.
+
+
+#### VariableSupportNonBattery
+
+Variable Support Non Battery type.
 
 
 ### -field VariableSupplyNonBatteryPdo.MaximumCurrentIn10mA
@@ -192,9 +274,29 @@ Describes the maximum voltage in multiples of 50 mV.
 Variable Support Non Battery type.
 
 
-### -field BatterySupplyPdo
+#### - BatterySupplyPdo
 
 Contains bitfields describing a battery supply PD object.
+
+
+#### MaximumAllowablePowerIn250mW
+
+Describes the maximum allowable power in multiples of 250 mW.
+
+
+#### MinimumVoltageIn50mV
+
+Describes the minimum voltage in multiples of 50 mV.
+
+
+#### MaximumVoltageIn50mV
+
+Describes the maximum voltage in multiples of 50 mV.
+
+
+#### Battery
+
+Battery type.
 
 
 ### -field BatterySupplyPdo.MaximumAllowablePowerIn250mW
@@ -217,7 +319,7 @@ Describes the maximum voltage in multiples of 50 mV.
 Battery type.
 
 
-### -field Ul
+#### - Ul
 
 Size of the structure.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55b2d603-f3ac-4a7a-91f5-83d908d1e14b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, video/VideoPortRegisterBugcheckCallback, VideoPortRegisterBugcheckCallback function [Display Devices], display.videoportregisterbugcheckcallback, VideoPortRegisterBugcheckCallback
+ms.keywords: display.videoportregisterbugcheckcallback, video/VideoPortRegisterBugcheckCallback, VideoPortRegisterBugcheckCallback function [Display Devices], VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, VideoPortRegisterBugcheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VP_STATUS VideoPortRegisterBugcheckCallback(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param BugcheckCode [in]
+#### - BugcheckCode [in]
 
 Indicates the bug check code for which to be called back. Currently, the miniport driver can register only for bug check code 0xEA.
 
 
-### -param Callback [in]
+#### - Callback [in]
 
 Pointer to the miniport driver's <a href="..\video\nc-video-pvideo_bugcheck_callback.md">HwVidBugcheckCallback</a> function. This function must be nonpaged, and must not reference pageable code or data. The miniport driver can set this parameter to <b>NULL</b> to indicate that the bug check callback should be unhooked. 
 
 
-### -param BugcheckDataSize [in]
+#### - BugcheckDataSize [in]
 
 Indicates the sum of BUGCHECK_DATA_SIZE_RESERVED and the number of bytes of data the miniport driver will provide for inclusion in the dump file. The value of this parameter must be less than or equal to 4000. The miniport driver can set this parameter to zero to indicate that the bug check callback should be unhooked.
 

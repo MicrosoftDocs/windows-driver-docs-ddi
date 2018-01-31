@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], *PKS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, stream.ks_am_exactratechange, dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, ksmedia/KS_AM_ExactRateChange, KS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices]
+ms.keywords: KS_AM_ExactRateChange structure [Streaming Media Devices], ksmedia/KS_AM_ExactRateChange, *PKS_AM_ExactRateChange, dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, KS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], stream.ks_am_exactratechange, PKS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field OutputZeroTime
+#### - OutputZeroTime
 
 Indicates an "input" time stamp that maps to a zero output time stamp.
 
 
-### -field Rate
+#### - Rate
 
 Specifies the new rate. This value is multiplied by 10000 (decimal).
 

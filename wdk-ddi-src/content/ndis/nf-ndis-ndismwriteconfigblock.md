@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], NdisMWriteConfigBlock, ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock
+ms.keywords: ndis/NdisMWriteConfigBlock, NdisMWriteConfigBlock, netvista.ndismwriteconfigblock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,25 +71,25 @@ NDIS_STATUS NdisMWriteConfigBlock(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param BlockId [in]
+#### - BlockId [in]
 
 A ULONG value that specifies the identifier of the configuration block to be written to. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the miniport drivers for the PF and VF on the network adapter.
 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a caller-allocated buffer that contains the configuration data to be written.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes to write to the configuration block.
 
@@ -146,9 +146,9 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a>
 
 <b></b>
 

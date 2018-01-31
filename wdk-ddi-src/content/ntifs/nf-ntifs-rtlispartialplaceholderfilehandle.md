@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A80C5714-525F-4E07-851D-2E203DD9387A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsPartialPlaceholderFileHandle, ntifs/RtlIsPartialPlaceholderFileHandle, ifsk.rtlispartialplaceholderfilehandle, RtlIsPartialPlaceholderFileHandle routine [Installable File System Drivers]
+ms.keywords: RtlIsPartialPlaceholderFileHandle, ifsk.rtlispartialplaceholderfilehandle, RtlIsPartialPlaceholderFileHandle routine [Installable File System Drivers], ntifs/RtlIsPartialPlaceholderFileHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RtlIsPartialPlaceholderFileHandle(
 
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 <b>FileHandle</b> is a handle to the placeholder file whose partial state is to be queried. The file handle must have at least <b>FILE_READ_ATTRIBUTES</b> access.
 
 
-### -param IsPartialPlaceholder [out]
+#### - IsPartialPlaceholder [out]
 
 <b>IsPartialPlaceholder</b> is a pointer to a boolean which is <b>TRUE</b> if the file or directory is a placeholder. It  returns <b>FALSE</b> if either the
         file or directory is not a placeholder or is a full placeholder; undefined on failure.

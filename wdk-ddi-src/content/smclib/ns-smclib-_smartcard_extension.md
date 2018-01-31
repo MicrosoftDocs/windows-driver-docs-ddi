@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smartcrd.smartcard_extension, smclib/SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, _SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, *PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], SMARTCARD_EXTENSION, smclib/PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices]
+ms.keywords: PSMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], SMARTCARD_EXTENSION, smclib/PSMARTCARD_EXTENSION, smartcrd.smartcard_extension, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, _SMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SMARTCARD_EXTENSION
 product: Windows
 targetos: Windows
-req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
+req.typenames: SMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION
 req.product: Windows 10 or later.
 ---
 
@@ -89,12 +89,37 @@ typedef struct _SMARTCARD_EXTENSION {
 
 
 
-### -field IoRequest
+#### - IoRequest
 
 
       A structure with the following members:
       
      
+
+
+#### Information
+
+Contains the number of bytes returned. 
+
+
+#### RequestBuffer
+
+A pointer to the data in the user's I/O request to be sent to the card. 
+
+
+#### RequestBufferLength
+
+Indicates the number of bytes to send to the card. 
+
+
+#### ReplyBuffer
+
+A pointer to the buffer that holds the data that is returned by the I/O request. 
+
+
+#### ReplyBufferLength
+
+Indicates the number of bytes of the data that are returned by the I/O request. 
 
 
 ### -field IoRequest.Information
@@ -122,72 +147,72 @@ A pointer to the buffer that holds the data that is returned by the I/O request.
 Indicates the number of bytes of the data that are returned by the I/O request. 
 
 
-### -field Version
+#### - Version
 
 Indicates the version of this structure. 
 
 
-### -field VendorAttr
+#### - VendorAttr
 
 Contains information that identifies the reader driver, such as the vendor name, unit number, and serial number. 
 
 
-### -field ReaderFunction
+#### - ReaderFunction
 
 A pointer to an array of callback functions for readers.
 
 
-### -field CardCapabilities
+#### - CardCapabilities
 
 Contains capabilities of the inserted smart card. 
 
 
-### -field LastError
+#### - LastError
 
 Not used.
 
 
-### -field MajorIoControlCode
+#### - MajorIoControlCode
 
 Contains the major I/O control code. 
 
 
-### -field MinorIoControlCode
+#### - MinorIoControlCode
 
 Contains the minor I/O control code. 
 
 
-### -field OsData
+#### - OsData
 
 Contains information that is specific to the operating system and the driver type. 
 
 
-### -field ReaderCapabilities
+#### - ReaderCapabilities
 
 Contains the capabilities of the keyboard reader. 
 
 
-### -field ReaderExtension
+#### - ReaderExtension
 
 Contains data that is specifc to the smart card reader. 
 
 
-### -field SmartcardReply
+#### - SmartcardReply
 
 Contains data that comes from the reader. 
 
 
-### -field SmartcardRequest
+#### - SmartcardRequest
 
 Contains the current command and the data that is sent to the smart card. 
 
 
-### -field T0
+#### - T0
 
 Contains the data for use with the T=0 protocol. 
 
 
-### -field T1
+#### - T1
 
 Contains the data that is used with the T=1 protocol. 
 
@@ -197,7 +222,7 @@ Contains the data that is used with the T=1 protocol.
  
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 

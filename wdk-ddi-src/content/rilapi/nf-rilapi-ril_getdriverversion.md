@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7cf55a17-fbb9-4edc-ae12-23dce450a628
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], netvista.ril_getdriverversion, rilapi/RIL_GetDriverVersion, RIL_GetDriverVersion
+ms.keywords: RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetDriverVersion, RIL_GetDriverVersion, netvista.ril_getdriverversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_GetDriverVersion(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwMinVersion
+#### - dwMinVersion
 
 
 
-### -param dwMaxVersion
+#### - dwMaxVersion
 
 
 

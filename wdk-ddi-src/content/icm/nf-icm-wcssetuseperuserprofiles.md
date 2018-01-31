@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e14f944f-67fe-4eb8-85b2-9ba262e2e549
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, WcsSetUsePerUserProfiles function [Print Devices], icm/WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles, print.wcssetuseperuserprofiles
+ms.keywords: colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, print.wcssetuseperuserprofiles, WcsSetUsePerUserProfiles function [Print Devices], icm/WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOL WcsSetUsePerUserProfiles(
 
 
 
-### -param pDeviceName [in]
+#### - pDeviceName [in]
 
 A pointer to a string that contains the friendly name of the device.
 
 
-### -param dwDeviceClass [in]
+#### - dwDeviceClass [in]
 
 A flag value that specifies the class of the device. This parameter must take one of the following values:
 
@@ -96,7 +96,7 @@ Specifies a printer.
 Specifies an image capture device.
 
 
-### -param usePerUserProfiles [in]
+#### - usePerUserProfiles [in]
 
 A Boolean value that is <b>TRUE</b> if the user wants to use a per-user profile association list for the specified device; otherwise <b>FALSE</b>.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7DCAFA7C-6F13-4020-BCB6-D36EE164BDAA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxcompletedevicepowernotrequired, PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], wdm/PoFxCompleteDevicePowerNotRequired
+ms.keywords: PoFxCompleteDevicePowerNotRequired, kernel.pofxcompletedevicepowernotrequired, wdm/PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID PoFxCompleteDevicePowerNotRequired(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
@@ -91,9 +91,9 @@ PoFx calls the driver's <i>DevicePowerNotRequiredCallback</i> routine to inform 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
-
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bc5f98da-1e2e-421b-9c76-97359e51b526
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddvdeo/PVIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], VIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES structure [Display Devices], PVIDEO_POINTER_CAPABILITIES, _VIDEO_POINTER_CAPABILITIES, Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, display.video_pointer_capabilities
+ms.keywords: Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, PVIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES, _VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, *PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES, ntddvdeo/PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], VIDEO_POINTER_CAPABILITIES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _VIDEO_POINTER_CAPABILITIES {
 
 
 
-### -field Flags
+#### - Flags
 
 A set of flags that specify certain capabilities of the pointer. Flags can be a combination of the following values.
 <table>
@@ -132,22 +132,22 @@ The current pointer has the same hotspot as the previous pointer.
 </table> 
 
 
-### -field MaxWidth
+#### - MaxWidth
 
 Specifies the maximum width of the pointer, in pixels.
 
 
-### -field MaxHeight
+#### - MaxHeight
 
 Specifies the maximum height of the pointer, in pixels.
 
 
-### -field HWPtrBitmapStart
+#### - HWPtrBitmapStart
 
 Specifies the first offset, in CPU-addressable units, in the memory bitmap that is used to store the hardware pointer bitmap. A value of –1 is not valid.
 
 
-### -field HWPtrBitmapEnd
+#### - HWPtrBitmapEnd
 
 Specifies the last offset, in CPU-addressable units, in the memory bitmap that is used to store the hardware pointer bitmap. A value of –1 is not valid.
 

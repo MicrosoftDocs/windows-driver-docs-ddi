@@ -71,7 +71,7 @@ VOID EvtSerCxFileClose(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3f79cda-349a-4a42-a2a9-d9be3a695c1c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.tmenablecallbacks, TmEnableCallbacks, wdm/TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml
+ms.keywords: ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml, TmEnableCallbacks, kernel.tmenablecallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], wdm/TmEnableCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS TmEnableCallbacks(
 
 
 
-### -param ResourceManager [in]
+#### - ResourceManager [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a>. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a> or <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a> provided.
 
 
-### -param CallbackRoutine [in]
+#### - CallbackRoutine [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> routine.
 
 
-### -param RMKey [in, optional]
+#### - RMKey [in, optional]
 
 A caller-defined context value that uniquely identifies the resource manager. The caller's <i>ResourceManagerNotification</i> routine receives this value as input.
 
@@ -128,11 +128,11 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
 
 <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
-
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 

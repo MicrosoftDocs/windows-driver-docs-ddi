@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f071569f-fa99-4614-96a7-edf73a85d96a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_2b5d6225-cfe9-4ed0-8a4b-02135f4b37c8.xml, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, netvista.ndis_receive_queue_allocation_complete_array, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
+ms.keywords: NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, virtual_machine_queue_ref_2b5d6225-cfe9-4ed0-8a4b-02135f4b37c8.xml, netvista.ndis_receive_queue_allocation_complete_array, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,12 +83,12 @@ The
      <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY_REVISION_1</b>.
 
 
-### -field Flags
+#### - Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-### -field FirstElementOffset
+#### - FirstElementOffset
 
 A ULONG value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <mshelp:link keywords="netvista.ndis_receive_queue_allocation_complete_parameters" tabindex="0"><b>
      NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b></mshelp:link> structure.
@@ -96,13 +96,13 @@ A ULONG value that specifies the offset, in bytes, to the first element in an ar
 
 <div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div><div> </div>
 
-### -field NumElements
+#### - NumElements
 
 A <b>ULONG</b> value for the number of elements in the list of elements that follow the
      <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</b> structure.
 
 
-### -field ElementSize
+#### - ElementSize
 
 A <b>ULONG</b> value that specifies the size, in bytes, of each element in the array.
 
@@ -122,13 +122,13 @@ Each element in the array that follows this structure is an
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
-   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
-
 <mshelp:link keywords="netvista.ndis_receive_queue_allocation_complete_parameters" tabindex="0"><b>
    NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b></mshelp:link>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
+   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
 
  
 

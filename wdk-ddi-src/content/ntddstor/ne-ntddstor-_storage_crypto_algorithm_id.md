@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D1CCF3D-D677-47B0-9C7B-7E35C649A7D5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmUnknown, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmXTSAES, ntddstor/StorageCryptoAlgorithmAESECB, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, _STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], ntddstor/StorageCryptoAlgorithmXTSAES, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmESSIVAESCBC, STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, storage.storage_crypto_algorithm_id, StorageCryptoAlgorithmBitlockerAESCBC, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmMax, StorageCryptoAlgorithmAESECB, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices]
+ms.keywords: StorageCryptoAlgorithmMax, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmAESECB, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmAESECB, STORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], ntddstor/StorageCryptoAlgorithmXTSAES, ntddstor/StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmMax, StorageCryptoAlgorithmXTSAES, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, _STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, storage.storage_crypto_algorithm_id, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID"
+req.typenames: STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID
 ---
 
 # _STORAGE_CRYPTO_ALGORITHM_ID enumeration
@@ -72,32 +72,32 @@ typedef enum _STORAGE_CRYPTO_ALGORITHM_ID {
 
 
 
-### -field StorageCryptoAlgorithmUnknown
+#### - StorageCryptoAlgorithmUnknown
 
 Reserved for system use.
 
 
-### -field StorageCryptoAlgorithmXTSAES
+#### - StorageCryptoAlgorithmXTSAES
 
 Reserved for system use.
 
 
-### -field StorageCryptoAlgorithmBitlockerAESCBC
+#### - StorageCryptoAlgorithmBitlockerAESCBC
 
 Reserved for system use.
 
 
-### -field StorageCryptoAlgorithmAESECB
+#### - StorageCryptoAlgorithmAESECB
 
 Reserved for system use.
 
 
-### -field StorageCryptoAlgorithmESSIVAESCBC
+#### - StorageCryptoAlgorithmESSIVAESCBC
 
 Reserved for system use.
 
 
-### -field StorageCryptoAlgorithmMax
+#### - StorageCryptoAlgorithmMax
 
 Reserved for system use.
 

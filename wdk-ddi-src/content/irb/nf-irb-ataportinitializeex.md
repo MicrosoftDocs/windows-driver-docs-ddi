@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortInitializeEx routine [Storage Devices], irb/AtaPortInitializeEx, AtaPortInitializeEx, storage.ataportinitializeex, atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml
+ms.keywords: AtaPortInitializeEx, irb/AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], storage.ataportinitializeex, atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG AtaPortInitializeEx(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 A pointer to the miniport driver object.
 
 
-### -param RegistryPath [in]
+#### - RegistryPath [in]
 
 Contains a Unicode string that indicates the location in the registry where the miniport driver configuration information is stored.
 
 
-### -param ControllerInterface [in]
+#### - ControllerInterface [in]
 
 Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChannelInitRoutine</i></b>, <b><i>AtaControllerChannelEnabled</i></b>, and <b><i>AtaControllerTransferModeSelect</i></b> routines.
 
@@ -125,11 +125,11 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 <a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
 

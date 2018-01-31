@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 7C5981A5-6156-459E-8405-B178E2D3B487
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplayHorizontalBitmapAlignment, LineDisplayHorizontalBitmapAlignment enumeration, pos.linedisplayhorizontalbitmapalignment, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayHorizontalBitmapAlignment
+ms.keywords: pointofservicecommontypes/LineDisplayHorizontalBitmapAlignment, LineDisplayHorizontalBitmapAlignment, pointofservicecommontypes/, pos.linedisplayhorizontalbitmapalignment, LineDisplayHorizontalBitmapAlignment enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

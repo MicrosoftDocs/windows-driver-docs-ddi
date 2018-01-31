@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4b780fb7-f6d4-4248-882c-d0cc96106724
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_adapterinfo, D3DKMT_ADAPTERINFO structure [Display Devices], D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, _D3DKMT_ADAPTERINFO
+ms.keywords: D3DKMT_ADAPTERINFO, _D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo, D3DKMT_ADAPTERINFO structure [Display Devices], d3dkmthk/D3DKMT_ADAPTERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_ADAPTERINFO {
 
 
 
-### -field hAdapter
+#### - hAdapter
 
 A handle to the adapter.
 
 
-### -field AdapterLuid
+#### - AdapterLuid
 
 A LUID that serves as an identifier for the adapter.
 
 
-### -field NumOfSources
+#### - NumOfSources
 
 The number of video present sources supported by the adapter.
 
 
-### -field bPresentMoveRegionsPreferred
+#### - bPresentMoveRegionsPreferred
 
 If <b>TRUE</b>, the adapter prefers move regions.
 

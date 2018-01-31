@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2c1f849-daf0-479c-9f1d-906149ac550e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmMakeCallComplete, condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], netvista.ndiscmmakecallcomplete
+ms.keywords: NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ VOID NdisCmMakeCallComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
      any CM-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle to the client-created VC, which the call manager originally obtained as an
      input parameter to its 
@@ -90,7 +90,7 @@ Specifies the handle to the client-created VC, which the call manager originally
      <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function.
 
 
-### -param NdisPartyHandle [in, optional]
+#### - NdisPartyHandle [in, optional]
 
 Specifies the handle to the initial party on the client-created multipoint VC, which the call
      manager obtained as an input parameter to its 
@@ -98,7 +98,7 @@ Specifies the handle to the initial party on the client-created multipoint VC, w
      <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
 
 
-### -param CallMgrPartyContext [in, optional]
+#### - CallMgrPartyContext [in, optional]
 
 Specifies the CM-supplied handle to a caller-allocated resident context area, in which the CM will
      maintain per-party state information, or <b>NULL</b> if 
@@ -106,7 +106,7 @@ Specifies the CM-supplied handle to a caller-allocated resident context area, in
      <i>CallManagerPartyContext</i> handle in all subsequent calls to the ProtocolCm<i>Xxx</i> functions that concern this party. Otherwise, NDIS ignores this parameter.
 
 
-### -param CallParameters [in]
+#### - CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
@@ -178,18 +178,18 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="..\ndis\nf-ndis-ndismcmmakecallcomplete.md">NdisMCmMakeCallComplete</a>
 
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
 <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
  
 

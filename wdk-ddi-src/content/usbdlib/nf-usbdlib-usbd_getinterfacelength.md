@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: bcfc2b11-d89c-40f8-95ce-07a599e2a2bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml, USBD_GetInterfaceLength routine [Buses], USBD_GetInterfaceLength, buses.usbd_getinterfacelength, usbdlib/USBD_GetInterfaceLength
+ms.keywords: USBD_GetInterfaceLength routine [Buses], usbdlib/USBD_GetInterfaceLength, buses.usbd_getinterfacelength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml, USBD_GetInterfaceLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_GetInterfaceLength
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ __declspec USBD_GetInterfaceLength(
 
 
 
-### -param InterfaceDescriptor [in]
+#### - InterfaceDescriptor [in]
 
 Pointer to a interface descriptor for which to obtain the length.
 
 
-### -param BufferEnd [in]
+#### - BufferEnd [in]
 
 Pointer to the position within a buffer at which to stop searching for the length of the interface and associated endpoints.
 

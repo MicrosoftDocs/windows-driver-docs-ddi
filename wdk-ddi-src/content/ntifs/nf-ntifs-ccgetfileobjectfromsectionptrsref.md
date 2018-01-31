@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8afbd8df-95fc-453f-a1d8-400a993c286a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/CcGetFileObjectFromSectionPtrsRef, ccref_e38ddec7-5501-40b4-a2a3-0a13c1c0fb4d.xml, ifsk.ccgetfileobjectfromsectionptrsref, CcGetFileObjectFromSectionPtrsRef routine [Installable File System Drivers], CcGetFileObjectFromSectionPtrsRef
+ms.keywords: CcGetFileObjectFromSectionPtrsRef routine [Installable File System Drivers], ccref_e38ddec7-5501-40b4-a2a3-0a13c1c0fb4d.xml, ntifs/CcGetFileObjectFromSectionPtrsRef, ifsk.ccgetfileobjectfromsectionptrsref, CcGetFileObjectFromSectionPtrsRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PFILE_OBJECT CcGetFileObjectFromSectionPtrsRef(
 
 
 
-### -param SectionObjectPointer [in]
+#### - SectionObjectPointer [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
 
@@ -88,9 +88,9 @@ The file object is returned with a reference.  The caller is responsible for cal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
 <a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
 

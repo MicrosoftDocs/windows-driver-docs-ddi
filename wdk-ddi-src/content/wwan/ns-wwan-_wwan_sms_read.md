@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 920ca041-7fc8-4c6b-bc1a-7bf41dffcf7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_SMS_READ, WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_read, *PWWAN_SMS_READ, WWAN_SMS_READ, _WWAN_SMS_READ, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, PWWAN_SMS_READ, wwan/WWAN_SMS_READ
+ms.keywords: PWWAN_SMS_READ, _WWAN_SMS_READ, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_READ, *PWWAN_SMS_READ, WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_read, WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, wwan/PWWAN_SMS_READ, WWAN_SMS_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _WWAN_SMS_READ {
 
 
 
-### -field SmsFormat
+#### - SmsFormat
 
 The format in which the miniport driver should return messages for 
      <i>query</i> requests. The MB Service specifies this value.
@@ -79,7 +79,7 @@ The format in which the miniport driver should return messages for
      <b>WwanSmsFormatCdma</b> format.
 
 
-### -field ReadFilter
+#### - ReadFilter
 
 Represents the filter upon which the miniport driver should retrieve the messages. For example,
      the filter could indicate to return all messages in the index based on the message store, or all

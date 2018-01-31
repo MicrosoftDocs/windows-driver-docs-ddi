@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0f64288b-5100-4529-af2f-3e867375da39
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver, sensors.isensordriver_onclientconnect, OnClientConnect method [Sensor Devices], OnClientConnect, ISensorDriver::OnClientConnect
+ms.keywords: ISensorDriver, sensors.isensordriver_onclientconnect, OnClientConnect method [Sensor Devices], ISensorDriver::OnClientConnect, OnClientConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT OnClientConnect(
 
 
 
-### -param pClientFile
+#### - pClientFile
 
 Pointer to an IWDFFile interface that represents the file object for the application requesting the connection.
 
 
-### -param pwszSensorID
+#### - pwszSensorID
 
 LPWSTR that contains the ID for the sensor to which the client application is connecting.
 

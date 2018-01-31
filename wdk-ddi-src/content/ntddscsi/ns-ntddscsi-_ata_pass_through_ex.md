@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 76d8f5be-0011-4a7c-ac21-7115ad7e1155
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], ATA_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/ATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, _ATA_PASS_THROUGH_EX, ntddscsi/PATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX
+ms.keywords: "_ATA_PASS_THROUGH_EX, ntddscsi/ATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX, ntddscsi/PATA_PASS_THROUGH_EX, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX structure [Storage Devices], storage.ata_pass_through_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ATA_PASS_THROUGH_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX"
+req.typenames: ATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX
 ---
 
 # _ATA_PASS_THROUGH_EX structure
@@ -78,12 +78,12 @@ typedef struct _ATA_PASS_THROUGH_EX {
 
 
 
-### -field Length
+#### - Length
 
 Specifies the length in bytes of the ATA_PASS_THROUGH_EX structure.
 
 
-### -field AtaFlags
+#### - AtaFlags
 
 Indicates the direction of data transfer and specifies the kind of operation to be performed. The value of this member must be some combination of the following flags:
 <table>
@@ -154,52 +154,52 @@ Read single sector only.
 </table> 
 
 
-### -field PathId
+#### - PathId
 
 Contains an integer that indicates the IDE port or bus for the request. This value is set by the port driver.
 
 
-### -field TargetId
+#### - TargetId
 
 Contains an integer that indicates the target device on the bus. This value is set by the port driver.
 
 
-### -field Lun
+#### - Lun
 
 Indicates the logical unit number of the device. This value is set by the port driver.
 
 
-### -field ReservedAsUchar
+#### - ReservedAsUchar
 
 Reserved for future use. 
 
 
-### -field DataTransferLength
+#### - DataTransferLength
 
 Indicates the size, in bytes, of the data buffer. If an underrun occurs, the miniport driver must update this member to the number of bytes that were actually transferred. 
 
 
-### -field TimeOutValue
+#### - TimeOutValue
 
 Indicates the number of seconds that are allowed for the request to execute before the OS-specific port driver determines that the request has timed out. 
 
 
-### -field ReservedAsUlong
+#### - ReservedAsUlong
 
 Reserved for future use. 
 
 
-### -field DataBufferOffset
+#### - DataBufferOffset
 
 Specifies the offset, in bytes, from the beginning of this structure to the data buffer. 
 
 
-### -field PreviousTaskFile
+#### - PreviousTaskFile
 
 Specifies the contents of the task file input registers prior to the current pass-through command. This member is not used when the ATA_FLAGS_48BIT_COMMAND flag is not set. 
 
 
-### -field CurrentTaskFile
+#### - CurrentTaskFile
 
 Specifies the content of the task file register on both input and output. On input, the array values in <b>CurrentTaskFile</b> map to the task file input registers in the following manner.
 <table>
@@ -388,11 +388,11 @@ Reserved
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
-
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
 
  
 

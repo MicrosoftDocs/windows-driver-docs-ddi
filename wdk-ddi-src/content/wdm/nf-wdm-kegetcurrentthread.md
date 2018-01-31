@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0fbc9f6d-698b-4fa5-86c4-3f6ef0cc50fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeGetCurrentThread routine [Kernel-Mode Driver Architecture], wdm/KeGetCurrentThread, KeGetCurrentThread, kernel.kegetcurrentthread, k105_fa2d3ae9-9ac8-4c50-bf51-5d6751a2b81e.xml
+ms.keywords: k105_fa2d3ae9-9ac8-4c50-bf51-5d6751a2b81e.xml, KeGetCurrentThread, wdm/KeGetCurrentThread, kernel.kegetcurrentthread, KeGetCurrentThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,13 @@ A caller of <b>KeGetCurrentThread</b> can use the returned pointer as an input p
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
-
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-
 <a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
+
+<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
+
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
 
  
 

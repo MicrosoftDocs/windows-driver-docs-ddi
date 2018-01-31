@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3e0fca7-d5ab-4d52-9702-dae83c540a71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PowerChangeState, portcls/IAdapterPowerManagement::PowerChangeState, IAdapterPowerManagement, audio.iadapterpowermanagement_powerchangestate, IAdapterPowerManagement interface [Audio Devices], PowerChangeState method, IAdapterPowerManagement::PowerChangeState, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, PowerChangeState method [Audio Devices], PowerChangeState method [Audio Devices], IAdapterPowerManagement interface
+ms.keywords: audio.iadapterpowermanagement_powerchangestate, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, IAdapterPowerManagement, portcls/IAdapterPowerManagement::PowerChangeState, PowerChangeState, IAdapterPowerManagement::PowerChangeState, PowerChangeState method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement interface [Audio Devices], PowerChangeState method, PowerChangeState method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IAdapterPowerManagement.PowerChangeState
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IAdapterPowerManagement::PowerChangeState method
@@ -67,7 +67,7 @@ void PowerChangeState(
 
 
 
-### -param NewState [in]
+#### - NewState [in]
 
 Specifies the new power state being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewState</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values shown in the following table.
 <table>

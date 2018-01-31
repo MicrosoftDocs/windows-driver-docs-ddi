@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1977828d-61bb-4649-bfa6-e5e82775258e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetCompletedRequestType, GetCompletedRequestType method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams, wudfddi/IWDFRequestCompletionParams::GetCompletedRequestType, GetCompletedRequestType method, IWDFRequestCompletionParams::GetCompletedRequestType, umdf.iwdfrequestcompletionparams_getcompletedrequesttype, wdf.iwdfrequestcompletionparams_getcompletedrequesttype, UMDFRequestObjectRef_97c61d1b-059f-44d7-9d3a-7c031099d669.xml, IWDFRequestCompletionParams interface, GetCompletedRequestType method
+ms.keywords: wdf.iwdfrequestcompletionparams_getcompletedrequesttype, UMDFRequestObjectRef_97c61d1b-059f-44d7-9d3a-7c031099d669.xml, IWDFRequestCompletionParams interface, GetCompletedRequestType method, umdf.iwdfrequestcompletionparams_getcompletedrequesttype, IWDFRequestCompletionParams, IWDFRequestCompletionParams::GetCompletedRequestType, wudfddi/IWDFRequestCompletionParams::GetCompletedRequestType, GetCompletedRequestType method, GetCompletedRequestType method, IWDFRequestCompletionParams interface, GetCompletedRequestType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRequestCompletionParams.GetCompletedRequestType
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -78,9 +78,9 @@ WDF_REQUEST_TYPE  GetCompletedRequestType();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 493E6C55-DC3B-4160-9642-BDABADD575B8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetReadStream method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getreadstream, IPrinterScriptablePropertyBag::GetReadStream, IPrinterScriptablePropertyBag, GetReadStream method [Print Devices], GetReadStream, printerextension/IPrinterScriptablePropertyBag::GetReadStream, IPrinterScriptablePropertyBag interface [Print Devices], GetReadStream method
+ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::GetReadStream, printerextension/IPrinterScriptablePropertyBag::GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getreadstream, IPrinterScriptablePropertyBag interface [Print Devices], GetReadStream method, GetReadStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetReadStream(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The property to read.
 
 
-### -param ppStream [out, retval]
+#### - ppStream [out, retval]
 
         The returned stream.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bde26b75-9eae-494b-b943-f1e9534c5f7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], kernel.mmfreepagesfrommdl, MmFreePagesFromMdl, k106_4263f517-edab-4378-b316-ce344676d7e6.xml, wdm/MmFreePagesFromMdl
+ms.keywords: MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], wdm/MmFreePagesFromMdl, MmFreePagesFromMdl, k106_4263f517-edab-4378-b316-ce344676d7e6.xml, kernel.mmfreepagesfrommdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID MmFreePagesFromMdl(
 
 
 
-### -param MemoryDescriptorList [in]
+#### - MemoryDescriptorList [in]
 
 Pointer to an MDL that was created by <b>MmAllocatePagesForMdl</b>.
 

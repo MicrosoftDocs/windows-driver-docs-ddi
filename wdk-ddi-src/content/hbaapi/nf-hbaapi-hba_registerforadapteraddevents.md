@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7395ccb8-2608-46ae-a378-987bd757761b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_RegisterForAdapterAddEvents, storage.hba_registerforadapteraddevents, HBA_RegisterForAdapterAddEvents routine [Storage Devices], fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, HBA_RegisterForAdapterAddEvents
+ms.keywords: HBA_RegisterForAdapterAddEvents, HBA_RegisterForAdapterAddEvents routine [Storage Devices], hbaapi/HBA_RegisterForAdapterAddEvents, fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, storage.hba_registerforadapteraddevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ HBA_STATUS HBA_API HBA_RegisterForAdapterAddEvents(
 
 
 
-### -param callback [in]
+#### - callback [in]
 
 Pointer to a callback routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a> that is called when an adapter is added to the system.
 

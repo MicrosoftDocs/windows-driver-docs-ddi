@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff387b49-fecb-41d0-aac5-0a83eb8835d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsreferencenetbufferlist0, FwpsReferenceNetBufferList0, FwpsReferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_R-Z_87b01939-7e75-4049-ae3a-07db074a3e62.xml, fwpsk/FwpsReferenceNetBufferList0
+ms.keywords: FwpsReferenceNetBufferList0, wfp_ref_2_funct_3_fwps_R-Z_87b01939-7e75-4049-ae3a-07db074a3e62.xml, netvista.fwpsreferencenetbufferlist0, fwpsk/FwpsReferenceNetBufferList0, FwpsReferenceNetBufferList0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ void NTAPI FwpsReferenceNetBufferList0(
 
 
 
-### -param netBufferList [in, out]
+#### - netBufferList [in, out]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure for which the
      reference count is being incremented.
 
 
-### -param intendToModify [in]
+#### - intendToModify [in]
 
 A value that indicates whether a callout intends to modify the cloned network buffer list, whose
      parent is pointed to by the 

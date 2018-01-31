@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], *PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, _MSiSCSI_SecurityCapabilities
+ms.keywords: iscsicfg/PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], *PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], MSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, iscsicfg/MSiSCSI_SecurityCapabilities, _MSiSCSI_SecurityCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _MSiSCSI_SecurityCapabilities {
 
 
 
-### -field ProtectiScsiTraffic
+#### - ProtectiScsiTraffic
 
 A Boolean value that indicates whether the initiator can use IPsec to protect iSCSI traffic. If this member is <b>TRUE</b>, the initiator can use IPsec to protect iSCSI traffic. If <b>FALSE</b>, the initiator cannot use IPsec.
 
 
-### -field ProtectiSNSTraffic
+#### - ProtectiSNSTraffic
 
 A Boolean value that indicates whether the initiator can use IPsec to protect iSNS traffic. If this member is <b>TRUE</b>, the initiator can use IPsec to protect iSNS traffic. If <b>FALSE</b>, the initiator cannot use IPsec.
 
 
-### -field CertificatesSupported
+#### - CertificatesSupported
 
 A Boolean value that indicates whether the initiator supports certificates. If this member is <b>TRUE</b>, the initiator supports certificates. If this member is <b>FALSE</b>, the initiatiator does not support certificates.
 
 
-### -field EncryptionAvailableCount
+#### - EncryptionAvailableCount
 
 The number of encryption types that the initiator supports. 
 
 
-### -field EncryptionAvailable
+#### - EncryptionAvailable
 
 A variable length array of <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
 

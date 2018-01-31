@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CE6D2C98-C4C3-4D76-B49E-1B9344B88666
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.cdrom_simple_opc_info, CDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO, ntddcdrm/PCDROM_SIMPLE_OPC_INFO, *PCDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO structure [Storage Devices], ntddcdrm/CDROM_SIMPLE_OPC_INFO, _CDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO structure pointer [Storage Devices]
+ms.keywords: "_CDROM_SIMPLE_OPC_INFO, *PCDROM_SIMPLE_OPC_INFO, storage.cdrom_simple_opc_info, CDROM_SIMPLE_OPC_INFO, ntddcdrm/PCDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO structure [Storage Devices], PCDROM_SIMPLE_OPC_INFO structure pointer [Storage Devices], ntddcdrm/CDROM_SIMPLE_OPC_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_SIMPLE_OPC_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO"
+req.typenames: CDROM_SIMPLE_OPC_INFO, *PCDROM_SIMPLE_OPC_INFO
 ---
 
 # _CDROM_SIMPLE_OPC_INFO structure
@@ -69,17 +69,17 @@ typedef struct _CDROM_SIMPLE_OPC_INFO {
 
 
 
-### -field RequestType
+#### - RequestType
 
 The request type defined in the <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_opc_info_type.md">CDROM_OPC_INFO_TYPE</a> enumeration.
 
 
-### -field Exclude0
+#### - Exclude0
 
 Exclude layer 0 from OPC.
 
 
-### -field Exclude1
+#### - Exclude1
 
 Exclude layer 1 from OPC.
 
@@ -93,11 +93,11 @@ The  <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_opc_info_type.md">CDROM_OPC_INFO_TYPE</a>
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
+
+<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_opc_info_type.md">CDROM_OPC_INFO_TYPE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, IStiDevice interface [Imaging Devices], GetLastNotificationData method, sti/IStiDevice::GetLastNotificationData, GetLastNotificationData method [Imaging Devices], GetLastNotificationData, GetLastNotificationData method [Imaging Devices], IStiDevice interface, IStiDevice, image.istidevice_getlastnotificationdata, IStiDevice::GetLastNotificationData
+ms.keywords: GetLastNotificationData method [Imaging Devices], IStiDevice interface, image.istidevice_getlastnotificationdata, GetLastNotificationData method [Imaging Devices], stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, sti/IStiDevice::GetLastNotificationData, GetLastNotificationData, IStiDevice interface [Imaging Devices], GetLastNotificationData method, IStiDevice::GetLastNotificationData, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetLastNotificationData(
 
 
 
-### -param lpNotify [out]
+#### - lpNotify [out]
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_stinotify.md">STINOTIFY</a> structure to receive event information.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6f73582-5eaf-452f-ad5a-cdf5ab99d809
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], storage.sm_gettargetmapping_in, structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml, _SM_GetTargetMapping_IN, hbapiwmi/SM_GetTargetMapping_IN, PSM_GetTargetMapping_IN structure pointer [Storage Devices], PSM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN, hbapiwmi/PSM_GetTargetMapping_IN
+ms.keywords: hbapiwmi/PSM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], PSM_GetTargetMapping_IN structure pointer [Storage Devices], storage.sm_gettargetmapping_in, structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml, _SM_GetTargetMapping_IN, PSM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN, SM_GetTargetMapping_IN, hbapiwmi/SM_GetTargetMapping_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _SM_GetTargetMapping_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 The worldwide name (WWN) of the local port whose events the WMI client will receive.
 
 
-### -field DomainPortWWN
+#### - DomainPortWWN
 
 A worldwide name (WWN) that specifies the SAS domain worldwide name of the local port.
 
 
-### -field InEntryCount
+#### - InEntryCount
 
 The number of persistent bindings that are associated with the HBA.
 

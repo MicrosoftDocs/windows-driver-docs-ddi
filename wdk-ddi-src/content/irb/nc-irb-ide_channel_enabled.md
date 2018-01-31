@@ -71,7 +71,7 @@ ATA_CHANNEL_STATE AtaControllerChannelEnabled(
 
 
 
-### -param ControllerExtension [in]
+#### - ControllerExtension [in]
 
 A pointer to the controller extension.
 

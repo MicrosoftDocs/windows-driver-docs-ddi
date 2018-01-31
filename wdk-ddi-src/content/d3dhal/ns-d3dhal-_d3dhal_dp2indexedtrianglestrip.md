@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 542f89f1-f562-4293-9ca1-96e7a0512772
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2indexedtrianglestrip, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP structure pointer [Display Devices], d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dstrct_72ed98e7-63f2-42ec-bcc4-4c4e6184cae5.xml, D3DHAL_DP2INDEXEDTRIANGLESTRIP structure [Display Devices], D3DHAL_DP2INDEXEDTRIANGLESTRIP, *LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, _D3DHAL_DP2INDEXEDTRIANGLESTRIP, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
+ms.keywords: d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dstrct_72ed98e7-63f2-42ec-bcc4-4c4e6184cae5.xml, D3DHAL_DP2INDEXEDTRIANGLESTRIP structure [Display Devices], d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP, _D3DHAL_DP2INDEXEDTRIANGLESTRIP, display.d3dhal_dp2indexedtrianglestrip, D3DHAL_DP2INDEXEDTRIANGLESTRIP, *LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DHAL_DP2INDEXEDTRIANGLESTRIP
 product: Windows
 targetos: Windows
-req.typenames: "*LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP"
+req.typenames: D3DHAL_DP2INDEXEDTRIANGLESTRIP, *LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
 ---
 
 # _D3DHAL_DP2INDEXEDTRIANGLESTRIP structure
@@ -67,7 +67,7 @@ typedef struct _D3DHAL_DP2INDEXEDTRIANGLESTRIP {
 
 
 
-### -field wV
+#### - wV
 
 Specifies the index into the vertex buffer containing coordinate data for the first vertex of the triangle strip.
 
@@ -104,11 +104,11 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 D3DDP2OP_INDEXEDTRIANGLESTRIP
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
  
 

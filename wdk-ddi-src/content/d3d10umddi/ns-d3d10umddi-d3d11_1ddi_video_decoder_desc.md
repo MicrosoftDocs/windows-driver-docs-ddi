@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 35fe914b-13e8-4658-9ea6-af1eb9068f6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_DECODER_DESC structure [Display Devices], display.d3d11_1ddi_video_decoder_desc, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC, D3D11_1DDI_VIDEO_DECODER_DESC
+ms.keywords: D3D11_1DDI_VIDEO_DECODER_DESC, D3D11_1DDI_VIDEO_DECODER_DESC structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC, display.d3d11_1ddi_video_decoder_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_DESC {
 
 
 
-### -field Guid
+#### - Guid
 
 The DXVA decoding profile. To get the list of profiles supported by the device, call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile.md">GetVideoDecoderProfile</a> function.
 
 
 
 
-### -field SampleWidth
+#### - SampleWidth
 
 The width of the video frame, in pixels.
 
 
-### -field SampleHeight
+#### - SampleHeight
 
 The height of the video frame, in pixels.
 
 
-### -field OutputFormat
+#### - OutputFormat
 
 The output surface format, specified as a <b>DXGI_FORMAT</b> value. The <b>DXGI_FORMAT</b> enumeration is defined in Dxgiformat.h.
 

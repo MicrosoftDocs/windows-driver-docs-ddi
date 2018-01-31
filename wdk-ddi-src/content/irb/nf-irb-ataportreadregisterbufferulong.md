@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50baeaa1-5671-4f6d-83cd-f03cca18b18b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReadRegisterBufferUlong, irb/AtaPortReadRegisterBufferUlong, atartns_2e57cb04-ad9c-47fd-b4a5-9f9aa433c8ad.xml, AtaPortReadRegisterBufferUlong routine [Storage Devices], storage.ataportreadregisterbufferulong
+ms.keywords: atartns_2e57cb04-ad9c-47fd-b4a5-9f9aa433c8ad.xml, AtaPortReadRegisterBufferUlong, irb/AtaPortReadRegisterBufferUlong, AtaPortReadRegisterBufferUlong routine [Storage Devices], storage.ataportreadregisterbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID AtaPortReadRegisterBufferUlong(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Contains the register address where the transfer should begin. This address value must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the destination buffer.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG values to read from the HBA.
 
@@ -96,9 +96,9 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadregisterbufferuchar.md">AtaPortReadRegisterBufferUchar</a>
-
 <a href="..\irb\nf-irb-ataportreadregisterbufferushort.md">AtaPortReadRegisterBufferUshort</a>
+
+<a href="..\irb\nf-irb-ataportreadregisterbufferuchar.md">AtaPortReadRegisterBufferUchar</a>
 
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 

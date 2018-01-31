@@ -77,12 +77,12 @@ NTSTATUS EvtPosCxDeviceRemoteClaim(
 
 
 
-### -param device [in]
+#### - device [in]
 
 A handle to a framework device object that represents the device.
 
 
-### -param deviceInterfaceTag [in]
+#### - deviceInterfaceTag [in]
 
 An identifier used to specify which interface is being claimed in a multi-function device.  For a single-interface device, this value should be 0.
 

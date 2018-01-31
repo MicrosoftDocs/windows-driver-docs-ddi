@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cbf688b4-a174-4ab0-af98-2c0db1b2ab3a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::OutputVersionInformation, IDebugControl2::OutputVersionInformation, IDebugControl3::OutputVersionInformation, IDebugControl3, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, OutputVersionInformation, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, IDebugControl interface [Windows Debugging], OutputVersionInformation method, OutputVersionInformation method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, dbgeng/IDebugControl3::OutputVersionInformation, debugger.outputversioninformation, OutputVersionInformation method [Windows Debugging], dbgeng/IDebugControl2::OutputVersionInformation, IDebugControl::OutputVersionInformation, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface
+ms.keywords: IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, dbgeng/IDebugControl2::OutputVersionInformation, IDebugControl3::OutputVersionInformation, IDebugControl3, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], OutputVersionInformation method, dbgeng/IDebugControl::OutputVersionInformation, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, OutputVersionInformation method [Windows Debugging], IDebugControl interface, IDebugControl::OutputVersionInformation, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface, IDebugControl2::OutputVersionInformation, dbgeng/IDebugControl3::OutputVersionInformation, OutputVersionInformation, debugger.outputversioninformation, OutputVersionInformation method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT OutputVersionInformation(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies where to send the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 

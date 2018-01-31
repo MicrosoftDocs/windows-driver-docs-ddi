@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a605fb6-484a-442f-9bf4-673f00a64a36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetCurrentRegStatus, netvista.ril_getcurrentregstatus, RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetCurrentRegStatus
+ms.keywords: rilapi/RIL_GetCurrentRegStatus, netvista.ril_getcurrentregstatus, RIL_GetCurrentRegStatus, RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetCurrentRegStatus(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwExecutor
+#### - dwExecutor
 
 
 

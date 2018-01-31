@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 993c4913-1613-4ffb-86dd-fd8846139a46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_d3006e08-ed2e-471d-b9c1-326a35aaf8bf.xml, _DDC_CONTROL, DDC_CONTROL structure [Display Devices], video/DDC_CONTROL, PDDC_CONTROL structure pointer [Display Devices], video/PDDC_CONTROL, DDC_CONTROL, *PDDC_CONTROL, PDDC_CONTROL, display.ddc_control
+ms.keywords: DDC_CONTROL structure [Display Devices], video/PDDC_CONTROL, PDDC_CONTROL, *PDDC_CONTROL, DDC_CONTROL, Video_Structs_d3006e08-ed2e-471d-b9c1-326a35aaf8bf.xml, _DDC_CONTROL, video/DDC_CONTROL, display.ddc_control, PDDC_CONTROL structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,30 +70,30 @@ typedef struct _DDC_CONTROL {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size, in bytes, of this DDC_CONTROL structure.
 
 
-### -field I2CCallbacks
+#### - I2CCallbacks
 
 Is an <a href="..\video\ns-video-_i2c_callbacks.md">I2C_CALLBACKS</a> structure that contains pointers to functions, implemented by the video miniport driver, that read and write individual data bits to the I2C serial clock and data lines.
 
 
-### -field EdidSegment
+#### - EdidSegment
 
 Specifies the particular EDID segment. Currently, this member is meaningful only for EEDID (EDID Version 1.3); for other EDID versions, this member should always be set to 0. For EEDID (EDID Version 1.3), segment numbers can range from 0 through 127, where each segment is 256 bytes in length. Since the EDID version number is in segment 0, this member must be set to 0 the first time  the video miniport driver calls <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a> regarding a particular monitor.
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
-
 <a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
 
 <a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
 

@@ -70,28 +70,28 @@ typedef struct IDDCX_MONITOR_DESCRIPTION {
 
 
 
-### -field Size
+#### - Size
 
 
                      Total size of the structure.
                  
 
 
-### -field Type
+#### - Type
 
 
                      Type of this monitor description.
                  
 
 
-### -field DataSize
+#### - DataSize
 
 
                      The size of the monitor description data.
                  
 
 
-### -field pData
+#### - pData
 
 
                      Pointer to the monitor description data.

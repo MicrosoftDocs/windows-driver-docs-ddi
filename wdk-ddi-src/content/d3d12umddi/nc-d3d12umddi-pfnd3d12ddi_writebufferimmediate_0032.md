@@ -74,20 +74,19 @@ VOID APIENTRY* PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032(
 
 
 
-### -param Count
+#### - Count
 
 The count.
 
 
-### -param *pParams
+#### - *pParams [in]
+
+The parameters for the write buffer.
 
 
+#### - *pModes [in]
 
-### -param *pModes
-
-
-
-
+The modes for the write buffer.
 
 
 #### - hDrvCommandList

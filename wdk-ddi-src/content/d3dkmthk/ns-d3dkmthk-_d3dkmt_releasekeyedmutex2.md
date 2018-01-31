@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2, display.d3dkmt_releasekeyedmutex2, D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], _D3DKMT_RELEASEKEYEDMUTEX2
+ms.keywords: display.d3dkmt_releasekeyedmutex2, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2, _D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
 
 
 
-### -field hKeyedMutex
+#### - hKeyedMutex
 
 [in] A value of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode handle to the keyed mutex object to release.
 
 
-### -field Key
+#### - Key
 
 [in] A 64-bit value that specifies the key value to release the mutex to.
 
 
-### -field FenceValue
+#### - FenceValue
 
 [in] A 64-bit value that specifies the current fence value of the GPU synchronization object.
 
 
-### -field pPrivateRuntimeData
+#### - pPrivateRuntimeData
 
 [in] A pointer to a caller-supplied buffer where the runtime private data associated with the resource is stored.
 
 
-### -field PrivateRuntimeDataSize
+#### - PrivateRuntimeDataSize
 
 [in] The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
 

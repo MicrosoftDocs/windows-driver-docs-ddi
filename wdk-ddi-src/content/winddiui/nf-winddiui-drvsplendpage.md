@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 09c3db82-7890-48c8-a91f-3d1f3f01ef84
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winddiui/DrvSplEndPage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, DrvSplEndPage, DrvSplEndPage function [Print Devices], print.drvsplendpage
+ms.keywords: print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, DrvSplEndPage function [Print Devices], DrvSplEndPage, winddiui/DrvSplEndPage, print.drvsplendpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvSplEndPage
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -68,6 +68,6 @@ BOOL WINAPI DrvSplEndPage(
 
 
 
-### -param hDriver
+#### - hDriver
 
 

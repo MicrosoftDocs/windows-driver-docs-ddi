@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2d332cd-d744-444c-b616-d8400ad30d43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdriverregistertraceinfo, kmdf.wdfdriverregistertraceinfo, wdfdriver/WdfDriverRegisterTraceInfo, DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml, PFN_WDFDRIVERREGISTERTRACEINFO, WdfDriverRegisterTraceInfo, WdfDriverRegisterTraceInfo method
+ms.keywords: WdfDriverRegisterTraceInfo method, PFN_WDFDRIVERREGISTERTRACEINFO, WdfDriverRegisterTraceInfo, kmdf.wdfdriverregistertraceinfo, wdfdriver/WdfDriverRegisterTraceInfo, wdf.wdfdriverregistertraceinfo, DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,14 +72,14 @@ NTSTATUS WdfDriverRegisterTraceInfo(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 
 
-### -param EvtTraceCallback [in]
+#### - EvtTraceCallback [in]
 
 
 
-### -param ControlBlock [in]
+#### - ControlBlock [in]
 
 

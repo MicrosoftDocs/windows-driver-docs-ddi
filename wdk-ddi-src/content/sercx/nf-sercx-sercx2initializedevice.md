@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C0D20E2D-5895-4FD1-9F03-9E5D1C783992
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2initializedevice, SerCx2InitializeDevice, 2/SerCx2InitializeDevice, SerCx2InitializeDevice method [Serial Ports]
+ms.keywords: 2/SerCx2InitializeDevice, serports.sercx2initializedevice, SerCx2InitializeDevice, SerCx2InitializeDevice method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS SerCx2InitializeDevice(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller. For more information, see Remarks.
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a> structure that contains pointers to a set of event callback functions that are implemented by the serial controller driver. Version 2 of the serial framework controller (SerCx2) calls these functions to configure the serial controller and to perform basic operations that are independent of the I/O transaction types (PIO, system DMA, or custom) that the driver  supports.
 
@@ -153,15 +153,15 @@ If the driver calls the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreque
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
-
 <a href="..\sercx\nf-sercx-sercx2initializedeviceinit.md">SerCx2InitializeDeviceInit</a>
 
-<a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6e7f0995-14d0-4dd3-b598-2f988a2ec4fd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], ReturnInputWide method, debugger.returninputwide, ReturnInputWide method [Windows Debugging], IDebugControl4::ReturnInputWide, dbgeng/IDebugControl4::ReturnInputWide, IDebugControl4, ReturnInputWide, ReturnInputWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging], IDebugControl4 interface, debugger.returninputwide, dbgeng/IDebugControl4::ReturnInputWide, IDebugControl4, ReturnInputWide, IDebugControl4::ReturnInputWide, IDebugControl4 interface [Windows Debugging], ReturnInputWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT ReturnInputWide(
 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Specifies the input string being sent to the engine.
 

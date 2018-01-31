@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetDevice method, IWDFFile interface, IWDFFile::GetDevice, wdf.iwdffile_getdevice, GetDevice method, umdf.iwdffile_getdevice, wudfddi/IWDFFile::GetDevice, IWDFFile, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, IWDFFile interface, GetDevice method, GetDevice
+ms.keywords: wdf.iwdffile_getdevice, umdf.iwdffile_getdevice, IWDFFile interface, GetDevice method, GetDevice method, IWDFFile interface, wudfddi/IWDFFile::GetDevice, IWDFFile, IWDFFile::GetDevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, GetDevice method, GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFFile.GetDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetDevice(
 
 
 
-### -param ppWdfDevice [out]
+#### - ppWdfDevice [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object that is associated with the file object.
 
@@ -84,9 +84,9 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a655bcde-c627-4c90-8579-348ab0174c27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccdeferwrite, ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, CcDeferWrite, CcDeferWrite routine [Installable File System Drivers], ntifs/CcDeferWrite
+ms.keywords: ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, ifsk.ccdeferwrite, ntifs/CcDeferWrite, CcDeferWrite, CcDeferWrite routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID CcDeferWrite(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param PostRoutine [in]
+#### - PostRoutine [in]
 
 Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a> has just returned <b>FALSE</b> .
 
@@ -97,22 +97,22 @@ VOID (*PCC_POST_DEFERRED_WRITE) (
 </tr>
 </table></span></div>
 
-### -param Context1 [in]
+#### - Context1 [in]
 
 First parameter for the post routine at <i>PostRoutine</i>.
 
 
-### -param Context2 [in]
+#### - Context2 [in]
 
 Second parameter for the post routine at <i>PostRoutine</i>.
 
 
-### -param BytesToWrite [in]
+#### - BytesToWrite [in]
 
 Number of bytes of data to be written.
 
 
-### -param Retrying [in]
+#### - Retrying [in]
 
 Set to <b>FALSE</b> if the request is being posted for the first time, <b>TRUE</b> otherwise.
 
@@ -137,11 +137,11 @@ The context parameters passed to <i>PostRoutine</i> are typically the I/O reques
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
-
 <a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
  
 

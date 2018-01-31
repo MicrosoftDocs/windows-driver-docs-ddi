@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f3cfe07-5026-40fb-b832-da5ae048843e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, netvista.dot11_incoming_assoc_completion_parameters, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, netvista.dot11_incoming_assoc_completion_parameters, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS"
+req.typenames: DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -86,7 +86,7 @@ typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure. This
      member is formatted as an 
@@ -118,19 +118,19 @@ This member must be set to
        <b>sizeof</b>(DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS).
 
 
-### -field PeerMacAddr
+#### - PeerMacAddr
 
 The media access control (MAC) address of the peer station that sent an association
      request.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of the association with the peer station. If zero, the association succeeds. If
      nonzero, the association fails.
 
 
-### -field ucErrorSource
+#### - ucErrorSource
 
 For nonzero values of 
      <b>uStatus</b>, this member indicates the source of the error that prevents association. The NIC must
@@ -164,43 +164,43 @@ The association failed for an IHV-specific reason. In this case,
        <b>uStatus</b> contains a nonzero value specified by the IHV.
 
 
-### -field bReAssocReq
+#### - bReAssocReq
 
 A Boolean value that indicates whether the request from the peer station is a re-association
      request.
 
 
-### -field bReAssocResp
+#### - bReAssocResp
 
 A Boolean value that indicates whether the response from the NIC is a re-association
      request.
 
 
-### -field uAssocReqOffset
+#### - uAssocReqOffset
 
 The offset of the request frame that is used in the association operation. The frame includes
      information elements (IEs) but does not include the 802.11 MAC header.
 
 
-### -field uAssocReqSize
+#### - uAssocReqSize
 
 The length, in bytes, of the request frame that is used in the association operation. The frame
      includes information elements (IEs) but does not include the 802.11 MAC header.
 
 
-### -field uAssocRespOffset
+#### - uAssocRespOffset
 
 The offset of the response frame that is used in the association operation. The frame includes
      information elements (IEs) but does not include the 802.11 MAC header.
 
 
-### -field uAssocRespSize
+#### - uAssocRespSize
 
 The length of the response frame, in bytes, that is used in the association operation. The frame
      includes information elements (IEs) but does not include the 802.11 MAC header.
 
 
-### -field AuthAlgo
+#### - AuthAlgo
 
 The authentication algorithm that the 802.11 station resolved with the peer station during the
       association operation. For more information about the data type for the 
@@ -209,7 +209,7 @@ The authentication algorithm that the 802.11 station resolved with the peer stat
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div><div> </div>
 
-### -field UnicastCipher
+#### - UnicastCipher
 
 The unicast cipher algorithm that the 802.11 station resolved with the peer station during the
       association operation. For more information about the data type for the 
@@ -218,7 +218,7 @@ The unicast cipher algorithm that the 802.11 station resolved with the peer stat
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div><div> </div>
 
-### -field MulticastCipher
+#### - MulticastCipher
 
 The multicast cipher algorithm that the 802.11 station resolved with the AP or peer station during
       the association operation. For more information about the data type for the 
@@ -227,7 +227,7 @@ The multicast cipher algorithm that the 802.11 station resolved with the AP or p
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div><div> </div>
 
-### -field uActivePhyListOffset
+#### - uActivePhyListOffset
 
 The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive
       packets on the BSS network connection. Each entry is a ULONG value.
@@ -260,7 +260,7 @@ A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div><div> </div>
 
-### -field uActivePhyListSize
+#### - uActivePhyListSize
 
 The length, in bytes, of the active PHY list. The 
      <b>uActivePhyListSize</b> member must be a multiple of 
@@ -269,7 +269,7 @@ The length, in bytes, of the active PHY list. The
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div><div> </div>
 
-### -field uBeaconOffset
+#### - uBeaconOffset
 
 The offset, in bytes, of the last transmitted 802.11 Beacon frame.
      
@@ -283,7 +283,7 @@ The Beacon frame should be the latest frame used by the driver, except that real
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div><div> </div>
 
-### -field uBeaconSize
+#### - uBeaconSize
 
 The length, in bytes, of the last transmitted 802.11 Beacon frame.
      
@@ -321,10 +321,10 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <mshelp:link keywords="netvista.ndis_status_dot11_incoming_assoc_completion" tabindex="0">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

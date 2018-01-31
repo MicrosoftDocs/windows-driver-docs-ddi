@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8ccf24a4-f087-4d61-8a9e-4bc05d7ec7bf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterReleaseProcessingMutex, KsFilterReleaseProcessingMutex, avfunc_35026563-e7aa-4305-a4fc-2558c1b21aa7.xml, KsFilterReleaseProcessingMutex function [Streaming Media Devices], stream.ksfilterreleaseprocessingmutex
+ms.keywords: avfunc_35026563-e7aa-4305-a4fc-2558c1b21aa7.xml, KsFilterReleaseProcessingMutex, KsFilterReleaseProcessingMutex function [Streaming Media Devices], stream.ksfilterreleaseprocessingmutex, ks/KsFilterReleaseProcessingMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void KsFilterReleaseProcessingMutex(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure representing the AVStream filter for which to release the processing mutex.
 

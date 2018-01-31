@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 767ea5d2-4c11-4ba8-bb1f-c5f6038244f5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_VIDEOPROCAMP_NODE_S2 structure pointer [Streaming Media Devices], vidcapstruct_1876d4f4-15ae-4bcb-9f57-ed08ddf15411.xml, stream.ksproperty_videoprocamp_node_s2, KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2, *PKSPROPERTY_VIDEOPROCAMP_NODE_S2
+ms.keywords: KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S2 structure pointer [Streaming Media Devices], stream.ksproperty_videoprocamp_node_s2, *PKSPROPERTY_VIDEOPROCAMP_NODE_S2, PKSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2, vidcapstruct_1876d4f4-15ae-4bcb-9f57-ed08ddf15411.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct {
 
 
 
-### -field NodeProperty
+#### - NodeProperty
 
 Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 
-### -field Value1
+#### - Value1
 
 Specifies the first value of a request. For set requests, the minidriver should set the property specified in <b>Property</b> to this value. For get requests, the minidriver should return the value of the property specified in <b>Property</b>.
 
 
-### -field Flags
+#### - Flags
 
 Specifies the flags of a request. For set requests, this value indicates the desired setting. For get requests, this value contains the current setting. This member can be set to one of the values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -112,7 +112,7 @@ Indicates that the property is to be adjusted automatically
 </table> 
 
 
-### -field Capabilities
+#### - Capabilities
 
 Specifies the capabilities of a property. This member has meaning only for get requests. The minidriver should return the capabilities of the video processing amplifier with respect to the property specified in <b>Property</b>. This member should be set to one of the following values:
 <table>
@@ -143,7 +143,7 @@ The device supports automatic setting of the specified property
 </table> 
 
 
-### -field Value2
+#### - Value2
 
 Specifies the second value of a request. For set requests, the minidriver should set the property specified in <b>Property</b> to this value. For get requests, the minidriver should return the value of the property specified in <b>Property</b>.
 

@@ -40,7 +40,7 @@ apiname:
 -	DXGKDDI_EXCHANGEPRESTARTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_EXCHANGEPRESTARTINFO callback
@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_EXCHANGEPRESTARTINFO(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 [in] Identifies the adapter.
 
 
-### -param pPreStartInfo [in, out]
+#### - pPreStartInfo [in, out]
 
 [in] Pointer to a DXGK_PRE_START_INFO structure which contains both fields for the OS to pass info and fields for the driver to return info.  Only SupportPreserveBootDisplay is defined initially.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DCAB0482-C0E3-4F75-B5A7-FB8DFFA89D6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ProcessorInformationEx, wdm/BatteryDeviceState, ProcessorStateHandler, wdm/ScreenOff, wdm/ProcessorPowerPolicyAc, CsDeviceNotification, wdm/ProcessorPerfStates, SessionDisplayState, wdm/ProcessorIdleStatesHv, EnergyTrackerQuery, ScreenOff, SetShutdownSelectedTime, ProcessorIdleVeto, ProcessorPowerPolicyCurrent, wdm/ProcessorSetIdle, PowerSettingNotificationName, IdleResiliency, wdm/PowerRequestActionInternal, wdm/ProcessorCap, POWER_INFORMATION_LEVEL, wdm/SystemHiberbootState, FirmwareTableInformationRegistered, PlatformInformation, ProcessorStateHandler2, SystemVideoState, wdm/CsDeviceNotification, SessionRITState, AdministratorPowerPolicy, SetPowerSettingValue, wdm/PhysicalPowerButtonPress, wdm/ProcessorLoad, wdm/ThermalStandby, PowerShutdownNotification, UpdateBlackBoxRecorder, VerifyProcessorPowerPolicyDc, wdm/SetPowerSettingValue, wdm/SessionRITState, wdm/RegisterSpmPowerSettings, SystemPowerStateLogging, wdm/ProcessorPowerPolicyCurrent, SystemHiberbootState, wdm/SystemPowerPolicyDc, PowerRequestAction, wdm/UserPresence, wdm/PlatformInformation, PlmPowerRequestCreate, wdm/ExitLatencySamplingPercentage, SystemPowerCapabilities, PlatformIdleVeto, wdm/SystemHiberFileInformation, SessionLockState, wdm/FirmwareTableInformationRegistered, wdm/SystemPowerLoggingEntry, wdm/SystemBatteryState, wdm/SetShutdownSelectedTime, SystemReserveHiberFile, LogicalProcessorIdling, wdm/ProcessorStateHandler, SystemPowerPolicyAc, wdm/VerifyProcessorPowerPolicyAc, TraceApplicationPowerMessageEnd, wdm/SystemVideoState, wdm/SessionLockState, wdm/VerifySystemPolicyDc, wdm/SystemPowerInformation, wdm/LastSleepTime, wdm/LastWakeTime, ProcessorPerfStatesHv, SystemPowerPolicyCurrent, wdm/PlmPowerRequestCreate, SuspendResumeInvocation, wdm/SystemMonitorHiberBootPowerOff, wdm/MonitorCapabilities, ProcessorIdleDomains, wdm/PlatformIdleStates, POWER_INFORMATION_LEVEL enumeration [Kernel-Mode Driver Architecture], ProcessorCap, NotifyUserPowerSetting, wdm/SystemExecutionState, QueryPotentialDripsConstraint, wdm/SystemBatteryStatePrecise, wdm/TraceServicePowerMessage, wdm/IdleResiliency, GetPowerRequestList, wdm/SessionPowerCleanup, PowerInformationLevelMaximum, wdm/GetPowerRequestList, SystemExecutionState, PowerRequestActionInternal, wdm/PdcInvocation, wdm/SuspendResumeInvocation, wdm/SystemPowerStateNotifyHandler, SystemBatteryState, SystemHiberFileSize, MonitorCapabilities, wdm/PowerSettingNotificationName, SystemHiberFileType, wdm/ProcessorStateHandler2, EnergyTrackerCreate, wdm/LastResumePerformance, LastSleepTime, VerifySystemPolicyAc, wdm/PowerRequestCreate, wdm/EnergyTrackerCreate, wdm/NotifyUserPowerSetting, SystemWakeSource, NotifyUserModeLegacyPowerEvent, wdm/WakeTimerList, wdm/ProcessorPerfCapHv, PdcInvocation, ExitLatencySamplingPercentage, GetPowerSettingValue, GroupPark, wdm/AdministratorPowerPolicy, UserPresence, PowerRequestCreate, SessionPowerInit, ThermalEvent, wdm/LogicalProcessorIdling, wdm/NotifyUserModeLegacyPowerEvent, LastResumePerformance, LastWakeTime, wdm/ProcessorInformation, wdm/SystemWakeSource, BatteryDeviceState, SystemPowerStateNotifyHandler, wdm/SystemPowerStateLogging, wdm/GetPowerSettingValue, SystemPowerStateHandler, wdm/SessionDisplayState, PlatformRole, wdm/SystemHiberFileType, wdm/SystemPowerPolicyCurrent, WakeTimerList, wdm/SystemPowerCapabilities, wdm/SystemPowerStateHandler, wdm/TraceApplicationPowerMessage, wdm/VerifyProcessorPowerPolicyDc, ProcessorPerfStates, ProcessorPerfCapHv, VerifyProcessorPowerPolicyAc, wdm/SystemPowerPolicyAc, wdm/ProcessorIdleDomains, wdm/ProcessorIdleVeto, wdm/PowerRequestAction, RegisterSpmPowerSettings, wdm/QueryPotentialDripsConstraint, SystemPowerLoggingEntry, SystemMonitorHiberBootPowerOff, SessionConnectNotification, ProcessorIdleStates, SessionPowerCleanup, ProcessorInformation, PowerInformationInternal, wdm/ProcessorPerfStatesHv, wdm/MonitorInvocation, ThermalStandby, wdm/GroupPark, PowerInformationLevelUnused0, wdm/POWER_INFORMATION_LEVEL, wdm/SystemHiberFileSize, TraceApplicationPowerMessage, PlatformIdleStates, wdm/EnergyTrackerQuery, wdm/ProcessorPowerPolicyDc, SystemPowerPolicyDc, wdm/SystemReserveHiberFile, wdm/ProcessorIdleStates, wdm/ThermalEvent, PhysicalPowerButtonPress, wdm/UpdateBlackBoxRecorder, VerifySystemPolicyDc, ProcessorPowerPolicyDc, ProcessorInformationEx, wdm/PowerInformationInternal, SystemHiberFileInformation, SystemPowerInformation, wdm/VerifySystemPolicyAc, wdm/PlatformIdleVeto, wdm/PlatformRole, ProcessorPowerPolicyAc, kernel.power_information_level, wdm/PowerInformationLevelMaximum, wdm/PowerInformationLevelUnused0, wdm/SessionConnectNotification, ProcessorSetIdle, ProcessorLoad, DisplayBurst, wdm/SessionPowerInit, wdm/PowerShutdownNotification, TraceServicePowerMessage, MonitorInvocation, wdm/TraceApplicationPowerMessageEnd, SystemBatteryStatePrecise, ProcessorIdleStatesHv, wdm/DisplayBurst
+ms.keywords: wdm/SystemBatteryState, wdm/ProcessorIdleStatesHv, wdm/PlatformIdleVeto, SystemPowerCapabilities, wdm/SessionLockState, wdm/ProcessorPerfCapHv, SystemBatteryStatePrecise, wdm/PowerRequestAction, VerifyProcessorPowerPolicyDc, wdm/SuspendResumeInvocation, SystemWakeSource, PowerRequestActionInternal, SystemPowerInformation, wdm/PlatformInformation, wdm/GroupPark, PowerSettingNotificationName, PlatformIdleStates, GroupPark, ScreenOff, wdm/ExitLatencySamplingPercentage, LastWakeTime, SystemPowerStateNotifyHandler, WakeTimerList, MonitorCapabilities, wdm/AdministratorPowerPolicy, wdm/ProcessorSetIdle, ProcessorInformation, SessionRITState, NotifyUserPowerSetting, wdm/NotifyUserModeLegacyPowerEvent, POWER_INFORMATION_LEVEL enumeration [Kernel-Mode Driver Architecture], wdm/EnergyTrackerQuery, wdm/ProcessorPerfStatesHv, wdm/LastResumePerformance, GetPowerRequestList, wdm/SystemMonitorHiberBootPowerOff, wdm/SessionDisplayState, wdm/SessionPowerCleanup, ProcessorIdleDomains, wdm/ProcessorInformation, PowerShutdownNotification, BatteryDeviceState, kernel.power_information_level, wdm/RegisterSpmPowerSettings, wdm/ThermalEvent, SystemHiberbootState, wdm/VerifyProcessorPowerPolicyAc, ProcessorStateHandler, wdm/MonitorInvocation, wdm/SystemPowerCapabilities, PlmPowerRequestCreate, wdm/GetPowerSettingValue, wdm/SystemPowerStateLogging, VerifySystemPolicyAc, wdm/TraceServicePowerMessage, SystemPowerPolicyDc, ProcessorPowerPolicyDc, PowerRequestAction, ProcessorPowerPolicyAc, SystemHiberFileSize, PlatformRole, SystemPowerPolicyAc, wdm/ProcessorPerfStates, SystemPowerStateLogging, TraceApplicationPowerMessage, UpdateBlackBoxRecorder, SetShutdownSelectedTime, SystemHiberFileType, wdm/UpdateBlackBoxRecorder, wdm/ScreenOff, wdm/PowerShutdownNotification, ThermalStandby, wdm/GetPowerRequestList, SystemPowerLoggingEntry, wdm/PlatformRole, ProcessorIdleVeto, wdm/LogicalProcessorIdling, SystemExecutionState, ProcessorIdleStatesHv, wdm/DisplayBurst, SessionPowerCleanup, wdm/PowerInformationLevelUnused0, SystemHiberFileInformation, wdm/ThermalStandby, wdm/SystemHiberFileInformation, ProcessorSetIdle, SystemBatteryState, VerifySystemPolicyDc, ProcessorCap, wdm/PowerRequestCreate, SystemPowerPolicyCurrent, PowerInformationLevelUnused0, wdm/WakeTimerList, wdm/ProcessorPowerPolicyAc, wdm/ProcessorLoad, PdcInvocation, PhysicalPowerButtonPress, wdm/SystemPowerPolicyDc, wdm/SetShutdownSelectedTime, wdm/SetPowerSettingValue, wdm/SystemHiberFileType, AdministratorPowerPolicy, PlatformInformation, wdm/ProcessorStateHandler2, MonitorInvocation, wdm/SessionPowerInit, wdm/ProcessorIdleVeto, wdm/ProcessorCap, LastSleepTime, wdm/PlmPowerRequestCreate, TraceApplicationPowerMessageEnd, NotifyUserModeLegacyPowerEvent, SessionLockState, wdm/PowerSettingNotificationName, wdm/POWER_INFORMATION_LEVEL, wdm/SystemPowerLoggingEntry, QueryPotentialDripsConstraint, wdm/QueryPotentialDripsConstraint, POWER_INFORMATION_LEVEL, SuspendResumeInvocation, ProcessorPerfStates, wdm/EnergyTrackerCreate, PlatformIdleVeto, wdm/PowerInformationInternal, PowerInformationLevelMaximum, ProcessorPerfCapHv, LogicalProcessorIdling, ProcessorIdleStates, wdm/ProcessorInformationEx, wdm/SessionConnectNotification, wdm/TraceApplicationPowerMessageEnd, wdm/ProcessorIdleDomains, EnergyTrackerCreate, wdm/LastWakeTime, wdm/ProcessorStateHandler, wdm/VerifySystemPolicyAc, wdm/FirmwareTableInformationRegistered, wdm/PowerRequestActionInternal, LastResumePerformance, wdm/ProcessorIdleStates, ProcessorLoad, GetPowerSettingValue, wdm/LastSleepTime, PowerInformationInternal, wdm/VerifyProcessorPowerPolicyDc, wdm/UserPresence, ExitLatencySamplingPercentage, ProcessorPowerPolicyCurrent, wdm/ProcessorPowerPolicyCurrent, SystemMonitorHiberBootPowerOff, RegisterSpmPowerSettings, DisplayBurst, wdm/PlatformIdleStates, wdm/SystemBatteryStatePrecise, wdm/BatteryDeviceState, ProcessorPerfStatesHv, wdm/SystemPowerPolicyAc, wdm/SystemVideoState, CsDeviceNotification, EnergyTrackerQuery, SetPowerSettingValue, ThermalEvent, SystemVideoState, UserPresence, wdm/SystemWakeSource, wdm/ProcessorPowerPolicyDc, wdm/SystemPowerStateNotifyHandler, wdm/IdleResiliency, wdm/PhysicalPowerButtonPress, wdm/SystemPowerPolicyCurrent, PowerRequestCreate, SessionDisplayState, wdm/PdcInvocation, VerifyProcessorPowerPolicyAc, ProcessorInformationEx, SessionConnectNotification, FirmwareTableInformationRegistered, wdm/CsDeviceNotification, wdm/MonitorCapabilities, wdm/SystemExecutionState, wdm/VerifySystemPolicyDc, TraceServicePowerMessage, SystemPowerStateHandler, wdm/SystemPowerInformation, ProcessorStateHandler2, wdm/SystemPowerStateHandler, wdm/TraceApplicationPowerMessage, wdm/SystemHiberbootState, wdm/NotifyUserPowerSetting, wdm/SystemHiberFileSize, IdleResiliency, wdm/SystemReserveHiberFile, SystemReserveHiberFile, wdm/PowerInformationLevelMaximum, SessionPowerInit, wdm/SessionRITState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -163,482 +163,482 @@ typedef enum _POWER_INFORMATION_LEVEL {
 
 
 
-### -field SystemPowerPolicyAc
+#### - SystemPowerPolicyAc
 
 Indicates SystemPowerPolicyAc.
 
 
-### -field SystemPowerPolicyDc
+#### - SystemPowerPolicyDc
 
 Indicates SystemPowerPolicyDc.
 
 
-### -field VerifySystemPolicyAc
+#### - VerifySystemPolicyAc
 
 Indicates VerifySystemPolicyAc.
 
 
-### -field VerifySystemPolicyDc
+#### - VerifySystemPolicyDc
 
 Indicates VerifySystemPolicyDc.
 
 
-### -field SystemPowerCapabilities
+#### - SystemPowerCapabilities
 
 Indicates the power capabilities of the system.
 
 
-### -field SystemBatteryState
+#### - SystemBatteryState
 
 Indicates the system's battery state.
 
 
-### -field SystemPowerStateHandler
+#### - SystemPowerStateHandler
 
 Indicates the system's power state handler.
 
 
-### -field ProcessorStateHandler
+#### - ProcessorStateHandler
 
 Indicates the processor state handler.
 
 
-### -field SystemPowerPolicyCurrent
+#### - SystemPowerPolicyCurrent
 
 Indicates the system's current power policy.
 
 
-### -field AdministratorPowerPolicy
+#### - AdministratorPowerPolicy
 
 Indicates the administrator's power policy.
 
 
-### -field SystemReserveHiberFile
+#### - SystemReserveHiberFile
 
 Indicates the SystemReserveHiberFile.
 
 
-### -field ProcessorInformation
+#### - ProcessorInformation
 
 Indicates the processor information.
 
 
-### -field SystemPowerInformation
+#### - SystemPowerInformation
 
 Indicates the system power information.
 
 
-### -field ProcessorStateHandler2
+#### - ProcessorStateHandler2
 
 Indicates the processor state handler.
 
 
-### -field LastWakeTime
+#### - LastWakeTime
 
 Indicates the last wake time.
 
 
-### -field LastSleepTime
+#### - LastSleepTime
 
 Indicates the last sleep time.
 
 
-### -field SystemExecutionState
+#### - SystemExecutionState
 
 Indicates the system execution state.
 
 
-### -field SystemPowerStateNotifyHandler
+#### - SystemPowerStateNotifyHandler
 
 Indicates the system power state notify handler.
 
 
-### -field ProcessorPowerPolicyAc
+#### - ProcessorPowerPolicyAc
 
 Indicates ProcessorPowerPolicyAc.
 
 
-### -field ProcessorPowerPolicyDc
+#### - ProcessorPowerPolicyDc
 
 Indicates ProcessorPowerPolicyDc.
 
 
-### -field VerifyProcessorPowerPolicyAc
+#### - VerifyProcessorPowerPolicyAc
 
 Indicates VerifyProcessorPowerPolicyAc.
 
 
-### -field VerifyProcessorPowerPolicyDc
+#### - VerifyProcessorPowerPolicyDc
 
 Indicates VerifyProcessorPowerPolicyDc.
 
 
-### -field ProcessorPowerPolicyCurrent
+#### - ProcessorPowerPolicyCurrent
 
 Indicates the current processor power policy.
 
 
-### -field SystemPowerStateLogging
+#### - SystemPowerStateLogging
 
 Indicates SystemPowerStateLogging.
 
 
-### -field SystemPowerLoggingEntry
+#### - SystemPowerLoggingEntry
 
 Indicates SystemPowerLoggingEntry.
 
 
-### -field SetPowerSettingValue
+#### - SetPowerSettingValue
 
 Indicates that the power setting value is set.
 
 
-### -field NotifyUserPowerSetting
+#### - NotifyUserPowerSetting
 
 Indicates that the user should be notified of the power setting.
 
 
-### -field PowerInformationLevelUnused0
+#### - PowerInformationLevelUnused0
 
 Indicates that the power information level is unused.
 
 
-### -field SystemMonitorHiberBootPowerOff
+#### - SystemMonitorHiberBootPowerOff
 
 Indicates that the system monitor boot power is off.
 
 
-### -field SystemVideoState
+#### - SystemVideoState
 
 Indicates the system video state.
 
 
-### -field TraceApplicationPowerMessage
+#### - TraceApplicationPowerMessage
 
 Indicates the trace application power message.
 
 
-### -field TraceApplicationPowerMessageEnd
+#### - TraceApplicationPowerMessageEnd
 
 Indicates the end of the trace application power message.
 
 
-### -field ProcessorPerfStates
+#### - ProcessorPerfStates
 
 Indicates the processor performance states.
 
 
-### -field ProcessorIdleStates
+#### - ProcessorIdleStates
 
 Indicates the processor idle states.
 
 
-### -field ProcessorCap
+#### - ProcessorCap
 
 Indicates the processor cap.
 
 
-### -field SystemWakeSource
+#### - SystemWakeSource
 
 Indicates the system wake source.
 
 
-### -field SystemHiberFileInformation
+#### - SystemHiberFileInformation
 
 Indicates the system's hibernation file information.
 
 
-### -field TraceServicePowerMessage
+#### - TraceServicePowerMessage
 
 Indicates the trace service power message.
 
 
-### -field ProcessorLoad
+#### - ProcessorLoad
 
 Indicates the processor load.
 
 
-### -field PowerShutdownNotification
+#### - PowerShutdownNotification
 
 Indicates the power shutdown notification.
 
 
-### -field MonitorCapabilities
+#### - MonitorCapabilities
 
 Indicates the monitor's capabilities.
 
 
-### -field SessionPowerInit
+#### - SessionPowerInit
 
 Indicates the session power has been initialized.
 
 
-### -field SessionDisplayState
+#### - SessionDisplayState
 
 Indicates the session display state.
 
 
-### -field PowerRequestCreate
+#### - PowerRequestCreate
 
 Indicates that a power request has been created.
 
 
-### -field PowerRequestAction
+#### - PowerRequestAction
 
 Indicates the action of the power request.
 
 
-### -field GetPowerRequestList
+#### - GetPowerRequestList
 
 Indicates that the power request list should be queued. 
 
 
-### -field ProcessorInformationEx
+#### - ProcessorInformationEx
 
 Indicates ProcessorInformationEx.
 
 
-### -field NotifyUserModeLegacyPowerEvent
+#### - NotifyUserModeLegacyPowerEvent
 
 Indicates that a notification should be created for the user mode legacy power event.
 
 
-### -field GroupPark
+#### - GroupPark
 
 Indicates the group park.
 
 
-### -field ProcessorIdleDomains
+#### - ProcessorIdleDomains
 
 Indicates the processor's idle domains.
 
 
-### -field WakeTimerList
+#### - WakeTimerList
 
 Indicates the wake timer list.
 
 
-### -field SystemHiberFileSize
+#### - SystemHiberFileSize
 
 Indicates the system's hibernation file size.
 
 
-### -field ProcessorIdleStatesHv
+#### - ProcessorIdleStatesHv
 
 Indicates the processor's idle states.
 
 
-### -field ProcessorPerfStatesHv
+#### - ProcessorPerfStatesHv
 
 Indicates the processor's performance states.
 
 
-### -field ProcessorPerfCapHv
+#### - ProcessorPerfCapHv
 
 Indicates the processor's performance capabilities.
 
 
-### -field ProcessorSetIdle
+#### - ProcessorSetIdle
 
 Indicates that the processor has been set to idle.
 
 
-### -field LogicalProcessorIdling
+#### - LogicalProcessorIdling
 
 Indicates that the processor is idling.
 
 
-### -field UserPresence
+#### - UserPresence
 
 Indicates the user presence.
 
 
-### -field PowerSettingNotificationName
+#### - PowerSettingNotificationName
 
 Indicates the power setting notification name.
 
 
-### -field GetPowerSettingValue
+#### - GetPowerSettingValue
 
 Indicates that the power setting value should be queued.
 
 
-### -field IdleResiliency
+#### - IdleResiliency
 
 Indicates the idle resiliency.
 
 
-### -field SessionRITState
+#### - SessionRITState
 
 Indicates the session's RIT state.
 
 
-### -field SessionConnectNotification
+#### - SessionConnectNotification
 
 Indicates the session's connect notification.
 
 
-### -field SessionPowerCleanup
+#### - SessionPowerCleanup
 
 Indicates the session's power cleanup.
 
 
-### -field SessionLockState
+#### - SessionLockState
 
 Indicates the session's lock state.
 
 
-### -field SystemHiberbootState
+#### - SystemHiberbootState
 
 Indicates the system's hibernation boot state.
 
 
-### -field PlatformInformation
+#### - PlatformInformation
 
 Indicates the platform information.
 
 
-### -field PdcInvocation
+#### - PdcInvocation
 
 Indicates the pdc invocation.
 
 
-### -field MonitorInvocation
+#### - MonitorInvocation
 
 Indicates the monitor invocation.
 
 
-### -field FirmwareTableInformationRegistered
+#### - FirmwareTableInformationRegistered
 
 Indicates the registered firmware table information.
 
 
-### -field SetShutdownSelectedTime
+#### - SetShutdownSelectedTime
 
 Indicates that the shutdown time should be set.
 
 
-### -field SuspendResumeInvocation
+#### - SuspendResumeInvocation
 
 Indicates SuspendResumeInvocation.
 
 
-### -field PlmPowerRequestCreate
+#### - PlmPowerRequestCreate
 
 Indicates that the power request has been created.
 
 
-### -field ScreenOff
+#### - ScreenOff
 
 Indicates that the screen is off.
 
 
-### -field CsDeviceNotification
+#### - CsDeviceNotification
 
 Indicates the device notification.
 
 
-### -field PlatformRole
+#### - PlatformRole
 
 Indicates the platform role.
 
 
-### -field LastResumePerformance
+#### - LastResumePerformance
 
 Indicates the last time performance was resumed.
 
 
-### -field DisplayBurst
+#### - DisplayBurst
 
 Indicates display burst.
 
 
-### -field ExitLatencySamplingPercentage
+#### - ExitLatencySamplingPercentage
 
 Indicates the latency sampling percentage.
 
 
-### -field RegisterSpmPowerSettings
+#### - RegisterSpmPowerSettings
 
 Indicates that the power settings are registered.
 
 
-### -field PlatformIdleStates
+#### - PlatformIdleStates
 
 Indicates the platform's idle states.
 
 
-### -field ProcessorIdleVeto
+#### - ProcessorIdleVeto
 
 Indicates the processor's idle veto.
 
 
-### -field PlatformIdleVeto
+#### - PlatformIdleVeto
 
 Indicates the platform's idle veto.
 
 
-### -field SystemBatteryStatePrecise
+#### - SystemBatteryStatePrecise
 
 Indicates the system's battery state.
 
 
-### -field ThermalEvent
+#### - ThermalEvent
 
 Indicates the thermal event.
 
 
-### -field PowerRequestActionInternal
+#### - PowerRequestActionInternal
 
 Indicates the internal power request action.
 
 
-### -field BatteryDeviceState
+#### - BatteryDeviceState
 
 Indicates the battery's device state.	
 
 
-### -field PowerInformationInternal
+#### - PowerInformationInternal
 
 Indicates the internal power information.
 
 
-### -field ThermalStandby
+#### - ThermalStandby
 
 Indicates thermal standby.
 
 
-### -field SystemHiberFileType
+#### - SystemHiberFileType
 
 Indicates the system's hibernation file type.
 
 
-### -field PhysicalPowerButtonPress
+#### - PhysicalPowerButtonPress
 
 Indicates a physical power button press.
 
 
-### -field QueryPotentialDripsConstraint
+#### - QueryPotentialDripsConstraint
 
 Indicates the potential drips constraint.
 
 
-### -field EnergyTrackerCreate
+#### - EnergyTrackerCreate
 
 Indicates that the energy tracker is created.
 
 
-### -field EnergyTrackerQuery
+#### - EnergyTrackerQuery
 
 Indicates that the energy tracker is queried.
 
 
-### -field UpdateBlackBoxRecorder
+#### - UpdateBlackBoxRecorder
 
 Indicates that the black box recorder is updated.
 
 
-### -field PowerInformationLevelMaximum
+#### - PowerInformationLevelMaximum
 
 Indicates the maximum power level.
 

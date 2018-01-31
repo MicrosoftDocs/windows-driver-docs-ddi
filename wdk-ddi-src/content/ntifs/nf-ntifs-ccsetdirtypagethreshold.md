@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetDirtyPageThreshold routine [Installable File System Drivers], ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, ifsk.ccsetdirtypagethreshold, CcSetDirtyPageThreshold, ntifs/CcSetDirtyPageThreshold
+ms.keywords: ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, CcSetDirtyPageThreshold routine [Installable File System Drivers], CcSetDirtyPageThreshold, ntifs/CcSetDirtyPageThreshold, ifsk.ccsetdirtypagethreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID CcSetDirtyPageThreshold(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file on which the dirty page threshold is to be set.
 
 
-### -param DirtyPageThreshold [in]
+#### - DirtyPageThreshold [in]
 
 Specifies, as a number of pages, the dirty page threshold value. To remove a per-file dirty page threshold value that was set previously, set <i>DirtyPageThreshold</i> to zero.
 
@@ -98,9 +98,9 @@ Note that the <i>per-file</i> dirty page threshold is not the same as the <i>glo
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
-
 <a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+
+<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
  
 

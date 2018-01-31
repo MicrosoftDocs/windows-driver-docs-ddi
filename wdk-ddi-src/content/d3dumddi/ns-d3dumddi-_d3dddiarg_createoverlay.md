@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74252431-5250-408a-91cc-cc529396f720
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATEOVERLAY, _D3DDDIARG_CREATEOVERLAY, d3dumddi/D3DDDIARG_CREATEOVERLAY, display.d3dddiarg_createoverlay, D3DDDIARG_CREATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_3261a00d-4b26-4c64-a5e0-abd453aee84c.xml
+ms.keywords: display.d3dddiarg_createoverlay, D3DDDIARG_CREATEOVERLAY structure [Display Devices], _D3DDDIARG_CREATEOVERLAY, UMDisplayDriver_param_Structs_3261a00d-4b26-4c64-a5e0-abd453aee84c.xml, D3DDDIARG_CREATEOVERLAY, d3dumddi/D3DDDIARG_CREATEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_CREATEOVERLAY {
 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to overlay on (that is, the identifier of the primary surface to overlay on).
 
 
-### -field OverlayInfo
+#### - OverlayInfo
 
 [in] A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a> structure that describes information about the overlay. 
 
 
-### -field hOverlay
+#### - hOverlay
 
 [out] A handle to the overlay. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the overlay hardware in subsequent calls.
 

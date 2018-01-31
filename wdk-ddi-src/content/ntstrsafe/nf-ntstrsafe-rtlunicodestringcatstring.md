@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8e96d49-e4f5-468c-bdce-fbfaa8428eb7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringCatString, kernel.rtlunicodestringcatstring, RtlUnicodeStringCatString, RtlUnicodeStringCatString function [Kernel-Mode Driver Architecture], safestrings_28fc9345-6d09-492c-bda5-94216a260965.xml
+ms.keywords: ntstrsafe/RtlUnicodeStringCatString, safestrings_28fc9345-6d09-492c-bda5-94216a260965.xml, RtlUnicodeStringCatString function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatstring, RtlUnicodeStringCatString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RtlUnicodeStringCatString(
 
 
 
-### -param DestinationString [in, out]
+#### - DestinationString [in, out]
 
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer that the <b>UNICODE_STRING</b> structure points to.
 

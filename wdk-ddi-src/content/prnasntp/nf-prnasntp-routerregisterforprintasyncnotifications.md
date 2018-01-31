@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87966827-72b2-4be7-859a-628c1accca48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RouterRegisterForPrintAsyncNotifications, prnasntp/RouterRegisterForPrintAsyncNotifications, RouterRegisterForPrintAsyncNotifications function [Print Devices], spoolfnc_c39b58f9-b714-437d-86c0-89f2d922c920.xml, print.routerregisterforprintasyncnotifications
+ms.keywords: spoolfnc_c39b58f9-b714-437d-86c0-89f2d922c920.xml, RouterRegisterForPrintAsyncNotifications function [Print Devices], prnasntp/RouterRegisterForPrintAsyncNotifications, print.routerregisterforprintasyncnotifications, RouterRegisterForPrintAsyncNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ HRESULT RouterRegisterForPrintAsyncNotifications(
 
 
 
-### -param pName [in]
+#### - pName [in]
 
 A pointer to a null-terminated string that specifies the name of the printer or print server.
 
 
-### -param pNotificationType [in]
+#### - pNotificationType [in]
 
 A pointer to the GUID that represents the type of notifications of interest to the caller.
 
 
-### -param eNotifyFilter [in]
+#### - eNotifyFilter [in]
 
 The filter for the session or user of interest to the caller when receiving notifications.
 
 
-### -param eConversationStyle [in]
+#### - eConversationStyle [in]
 
 The type of communication: unidirectional or bidirectional.
 
 
-### -param pCallback [in]
+#### - pCallback [in]
 
 A pointer to the callback that is used deliver the notifications.
 
 
-### -param phNotify [out]
+#### - phNotify [out]
 
 A pointer to an opaque handle. The caller can use this handle to discontinue receiving notifications.
 

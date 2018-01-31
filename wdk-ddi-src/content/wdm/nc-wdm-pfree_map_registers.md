@@ -40,7 +40,7 @@ apiname:
 -	FreeMapRegisters
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -73,17 +73,17 @@ VOID FreeMapRegisters(
 
 
 
-### -param DmaAdapter [in]
+#### - DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-### -param MapRegisterBase [in]
+#### - MapRegisterBase [in]
 
 Specifies the map registers allocated for the DMA operation.  The system passes this value  to the driver's <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a> routine.
 
 
-### -param NumberOfMapRegisters [in]
+#### - NumberOfMapRegisters [in]
 
 Specifies the number of map registers to be released. This value must match the number specified in an earlier call to <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>.
 
@@ -111,13 +111,13 @@ When the driver of a bus-master device has completed the current packet-based DM
 
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
 <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
 
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
  
 

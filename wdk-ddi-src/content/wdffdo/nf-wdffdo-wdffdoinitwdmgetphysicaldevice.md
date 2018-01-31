@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: eba64244-50ff-4c59-a30f-46874c683e63
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFFDOINITWDMGETPHYSICALDEVICE, kmdf.wdffdoinitwdmgetphysicaldevice, WdfFdoInitWdmGetPhysicalDevice method, DFDeviceObjectFdoPdoRef_49386e60-3427-449c-8c36-fe2e8bc7fabb.xml, wdffdo/WdfFdoInitWdmGetPhysicalDevice, wdf.wdffdoinitwdmgetphysicaldevice, WdfFdoInitWdmGetPhysicalDevice
+ms.keywords: WdfFdoInitWdmGetPhysicalDevice, DFDeviceObjectFdoPdoRef_49386e60-3427-449c-8c36-fe2e8bc7fabb.xml, WdfFdoInitWdmGetPhysicalDevice method, PFN_WDFFDOINITWDMGETPHYSICALDEVICE, wdf.wdffdoinitwdmgetphysicaldevice, wdffdo/WdfFdoInitWdmGetPhysicalDevice, kmdf.wdffdoinitwdmgetphysicaldevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoInitWdmGetPhysicalDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ PDEVICE_OBJECT WdfFdoInitWdmGetPhysicalDevice(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 

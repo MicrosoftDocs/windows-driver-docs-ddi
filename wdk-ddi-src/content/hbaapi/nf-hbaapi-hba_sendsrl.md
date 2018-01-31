@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 455ff9c9-89d5-4c79-8b01-f0d731ac8d5a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml, hbaapi/HBA_SendSRL, storage.hba_sendsrl, HBA_SendSRL, HBA_SendSRL routine [Storage Devices]
+ms.keywords: HBA_SendSRL, fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml, HBA_SendSRL routine [Storage Devices], storage.hba_sendsrl, hbaapi/HBA_SendSRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,12 +92,12 @@ TBD
 TBD
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that receives the output data of the SRL request. 
 
 
-### -param pRspBufferSize [in, out]
+#### - pRspBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member contains the number of bytes of data retrieved in <i>pRspBuffer</i>. If the buffer is not large enough to receive all of the response data, the data is truncated to the size of the buffer. Eight bytes is sufficient buffer space for any response. 
 
@@ -181,9 +181,9 @@ Returned if an unspecified error occurred that prevented the execution of the SR
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3d387fe9-a7cc-4034-b31e-ba1359db2ae1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_1, ntddndis/PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_2, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_deaf4f73-294d-4e7b-8c94-65d05b461cfe.xml, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, netvista.ndis_receive_filter_field_parameters, _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO, *PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, ntddndis/NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
+ms.keywords: PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_deaf4f73-294d-4e7b-8c94-65d05b461cfe.xml, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_2, netvista.ndis_receive_filter_field_parameters, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, *PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, ntddndis/NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_1, NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO, ntddndis/PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS"
+req.typenames: NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, *PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure
@@ -110,7 +110,7 @@ typedef struct _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS {
 
 
 
-### -field HeaderField
+#### - HeaderField
 
 The type of field in a header. The field type (for example,
      <a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>) corresponds to the type of header that is specified in the 
@@ -118,6 +118,36 @@ The type of field in a header. The field type (for example,
      
 
 This union contains the following members:
+
+
+#### MacHeaderField
+
+The type of field in a MAC header.
+
+
+#### ArpHeaderField
+
+The type of field in an Address Resolution Protocol (ARP) header.
+
+
+#### IPv4HeaderField
+
+An 
+       <a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a> enumeration
+       value that specifies the type of field in an IP version 4 (IPv4) header.
+
+
+#### IPv6HeaderField
+
+An 
+       <a href="..\ntddndis\ne-ntddndis-_ndis_ipv6_header_field.md">NDIS_IPV6_HEADER_FIELD</a> enumeration
+       value that specifies the type of field in an IP version 6 (IPv6) header.
+
+
+#### UdpHeaderField
+
+The type of field in a User Datagram Protocol
+(UDP) header.
 
 
 ### -field HeaderField.MacHeaderField
@@ -155,7 +185,7 @@ The type of field in a User Datagram Protocol
  
 
 
-### -field FieldValue
+#### - FieldValue
 
 
 
@@ -164,6 +194,31 @@ The value that the miniport adapter compares to the corresponding header field v
 For more information, see the Remarks section.
 
 This union contains the following members:
+
+
+#### FieldByteValue
+
+A <b>UCHAR</b> value to compare with a field in a network packet.
+<div class="alert"><b>Note</b>  If the <b>MacHeaderField</b> member specifies an <b>NdisMacHeaderFieldPacketType</b> enumeration value, this member contains an <a href="..\ntddndis\ne-ntddndis-_ndis_mac_packet_type.md">NDIS_MAC_PACKET_TYPE</a> enumeration value.</div><div> </div>
+
+#### FieldShortValue
+
+A <b>USHORT</b> value to compare with a field in a network packet.
+
+
+#### FieldLongValue
+
+A <b>ULONG</b> value to compare with a field in a network packet.
+
+
+#### FieldLong64Value
+
+A <b>ULONG64</b> value to compare with a field in a network packet.
+
+
+#### FieldByteArrayValue
+
+A <b>UCHAR</b> array to compare with a field in a network packet.
 
 
 ### -field FieldValue.FieldByteValue
@@ -196,7 +251,7 @@ A <b>UCHAR</b> array to compare with a field in a network packet.
  
 
 
-### -field ResultValue
+#### - ResultValue
 
 A union that contains a test result value. 
 
@@ -205,6 +260,31 @@ If the <b>ReceiveFilterTest</b> member is set to  <b>NdisReceiveFilterTestMaskEq
 For more information, see the Remarks section.
 
 This union contains the following members:
+
+
+#### ResultByteValue
+
+A <b>UCHAR</b> value to compare with a test result.
+
+
+#### ResultShortValue
+
+A <b>USHORT</b> value to compare with a test result.
+
+
+#### ResultLongValue
+
+A <b>ULONG</b> value to compare with a test result.
+
+
+#### ResultLong64Value
+
+A <b>ULONG64</b> value to compare with a test result.
+
+
+#### ResultByteArrayValue
+
+A <b>UCHAR</b> array to compare with a test result.
 
 
 ### -field ResultValue.ResultByteValue
@@ -237,7 +317,7 @@ A <b>UCHAR</b> array to compare with a test result.
  
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -283,7 +363,7 @@ The driver sets the
 </table> 
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR of flags. The following flags are valid for the 
      <mshelp:link keywords="netvista.oid_receive_filter_set_filter" tabindex="0">
@@ -326,12 +406,12 @@ For more information about this flag, see the Remarks section.
 </table> 
 
 
-### -field FrameHeader
+#### - FrameHeader
 
 The type of header in the network data frame.
 
 
-### -field ReceiveFilterTest
+#### - ReceiveFilterTest
 
 The type of test to perform for the receive filter.
 
@@ -402,26 +482,26 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_filter_test.md">NDIS_RECEIVE_FILTER_TEST</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_arp_header_field.md">NDIS_ARP_HEADER_FIELD</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_udp_header_field.md">NDIS_UDP_HEADER_FIELD</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_mac_packet_type.md">NDIS_MAC_PACKET_TYPE</a>
 
 <mshelp:link keywords="netvista.ndis_receive_filter_parameters" tabindex="0"><b>
    NDIS_RECEIVE_FILTER_PARAMETERS</b></mshelp:link>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_arp_header_field.md">NDIS_ARP_HEADER_FIELD</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a>
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_udp_header_field.md">NDIS_UDP_HEADER_FIELD</a>
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_frame_header.md">NDIS_FRAME_HEADER</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_ipv6_header_field.md">NDIS_IPV6_HEADER_FIELD</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_ipv6_header_field.md">NDIS_IPV6_HEADER_FIELD</a>
 
  
 

@@ -68,16 +68,14 @@ SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032(
 
 
 
-### -param hDrvDevice
+#### - hDrvDevice
 
 The hardware device being processed.
 
 
-### -param *pArgs
+#### - *pArgs [in]
 
-
-
-
+The arguments used to create a video decoder.
 
 
 #### - pArgs [in]

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_SPHLI, stream.ksproperty_sphli, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, _KSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], *PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices]
+ms.keywords: ksmedia/PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, ksmedia/KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], PKSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, _KSPROPERTY_SPHLI, stream.ksproperty_sphli, *PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_SPHLI
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI"
+req.typenames: KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI
 ---
 
 # _KSPROPERTY_SPHLI structure
@@ -75,47 +75,47 @@ typedef struct _KSPROPERTY_SPHLI {
 
 
 
-### -field HLISS
+#### - HLISS
 
 Indicates the highlight status of the current selection. A value of zero indicates that all highlights are invalid and the decoder should disable all highlights.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Do not use.
 
 
-### -field StartPTM
+#### - StartPTM
 
 Indicates the start of presentation time.
 
 
-### -field EndPTM
+#### - EndPTM
 
 Indicates the end of presentation time.
 
 
-### -field StartX
+#### - StartX
 
 Indicates the start x-coordinate pixel of the current highlight button.
 
 
-### -field StartY
+#### - StartY
 
 Indicates the start y-coordinate pixel of the current highlight button.
 
 
-### -field StopX
+#### - StopX
 
 Indicates the ending x-coordinate pixel of the current highlight button.
 
 
-### -field StopY
+#### - StopY
 
 Indicates the ending y-coordinate pixel of the current highlight button.
 
 
-### -field ColCon
+#### - ColCon
 
 Specifies the color/contrast of the highlight rectangle.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni3, GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, GetPDEVAdjustment method [Print Devices], prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment
+ms.keywords: prcomoem/IPrintOemUni3::GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, IPrintOemUni3, GetPDEVAdjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, GetPDEVAdjustment method [Print Devices], print.iprintoemuni3_getpdevadjustment, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,12 +72,12 @@ HRESULT GetPDEVAdjustment(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param dwAdjustType
+#### - dwAdjustType
 
 Specifies the type of adjustment asked for. The following flags are currently supported.
 <table>
@@ -118,17 +118,17 @@ Adjust the physical paper size that is reported in the PDEV structure. For more 
 </table> 
 
 
-### -param pBuf
+#### - pBuf
 
 Pointer to a structure that contains the planned settings that are used if there is no change. These structures are listed in the preceding table. The plug-in can overwrite the settings in the relevant structure.
 
 
-### -param cbBuffer
+#### - cbBuffer
 
 Specifies the size, in bytes, of the structure pointed to by <i>pBuf</i>.
 
 
-### -param pbAdjustmentDone [out]
+#### - pbAdjustmentDone [out]
 
 Pointer to a memory location that the plug-in sets to <b>TRUE</b> when it actually changes a value in the buffer. This may be used by the driver for optimizations.
 
@@ -151,7 +151,7 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
 
 <a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
 
@@ -159,9 +159,9 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 <a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
-
 <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+
+<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 155604e9-45f6-4dd2-9373-90f689713c1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], NdisInterlockedPushEntrySList, netvista.ndisinterlockedpushentryslist, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, ndis/NdisInterlockedPushEntrySList
+ms.keywords: ndis/NdisInterlockedPushEntrySList, netvista.ndisinterlockedpushentryslist, NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -81,7 +81,7 @@ TBD
 TBD
 
 
-### -param Lock [in]
+#### - Lock [in]
 
 A pointer to a caller-supplied spin lock, not currently held by the caller.
 
@@ -133,17 +133,17 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
-
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
-
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
 
 <a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
 
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+
+<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
+
+<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, IPrintOemUI, UpdateExternalFonts method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts method [Print Devices]
+ms.keywords: IPrintOemUI interface [Print Devices], UpdateExternalFonts method, IPrintOemUI, print.iprintoemui_updateexternalfonts, UpdateExternalFonts method [Print Devices], prcomoem/IPrintOemUI::UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, UpdateExternalFonts, UpdateExternalFonts method [Print Devices], IPrintOemUI interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT UpdateExternalFonts(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 Caller-supplied printer handle.
 
 
-### -param hHeap
+#### - hHeap
 
 Caller-supplied handle to heap memory the method can use for local storage.
 
 
-### -param pwstrCartridges
+#### - pwstrCartridges
 
 Caller-supplied pointer to an array of strings representing the names of all cartridges currently installed on the printer.
 

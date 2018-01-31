@@ -40,7 +40,7 @@ apiname:
 -	pfnPresentCbDXGI
 product: Windows
 targetos: Windows
-req.typenames: DRMRIGHTS, *PDRMRIGHTS
+req.typenames: "*PDRMRIGHTS, DRMRIGHTS"
 ---
 
 # PFNDDXGIDDI_PRESENTCB callback
@@ -71,7 +71,7 @@ HRESULT pfnPresentCbDXGI(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to a display device (graphics context). 
 
@@ -145,17 +145,17 @@ The Direct3D runtime restricts the set of formats that can be presented through 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present.md">DXGIDDICB_PRESENT</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_callbacks.md">DXGI_DDI_BASE_CALLBACKS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_callbacks.md">DXGI_DDI_BASE_CALLBACKS</a>
 
  
 

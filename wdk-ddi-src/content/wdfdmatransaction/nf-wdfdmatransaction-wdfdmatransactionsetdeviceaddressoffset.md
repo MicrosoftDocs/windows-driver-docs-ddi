@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMATRANSACTIONSETDEVICEADDRESSOFFSET, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, wdf.wdfdmatransactionsetdeviceaddressoffset, WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method
+ms.keywords: wdf.wdfdmatransactionsetdeviceaddressoffset, WdfDmaTransactionSetDeviceAddressOffset, kmdf.wdfdmatransactionsetdeviceaddressoffset, WdfDmaTransactionSetDeviceAddressOffset method, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, PFN_WDFDMATRANSACTIONSETDEVICEADDRESSOFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ void WdfDmaTransactionSetDeviceAddressOffset(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to a DMA transaction object that specifies the transaction to modify.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The offset of the register, from the <b>DeviceAddress</b> specified in <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>, to or from which DMA should be performed.
 

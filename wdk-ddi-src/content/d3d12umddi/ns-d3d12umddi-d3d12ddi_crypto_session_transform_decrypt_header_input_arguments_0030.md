@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 49367166-11bd-4a4e-aa47-e91dbe9a3df8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-crypto-session-transform-decrypt-header-input-arguments-0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030 structure [Display Devices]
+ms.keywords: display.d3d12ddi-crypto-session-transform-decrypt-header-input-arguments-0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030 structure [Display Devices], D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS
 
 
 
-### -field Enable
+#### - Enable
 
 Enable.
 
 
-### -field pSliceHeaders
+#### - pSliceHeaders
 
 Slice headers.
 
 
-### -field SliceHeadersSize
+#### - SliceHeadersSize
 
 Slice header size.
 
 
-### -field pSliceHeadersOffsets
+#### - pSliceHeadersOffsets
 
 Slice header offsets.
 
 
-### -field SliceHeaderCount
+#### - SliceHeaderCount
 
 Slice header count.
 
 
-### -field pContext
+#### - pContext
 
 Context.
 
 
-### -field ContextSize
+#### - ContextSize
 
 Context size.
 

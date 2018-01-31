@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2167504e-ca92-4427-9101-04a2c2bf66df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml, wdfwmi/WdfWmiInstanceDeregister, WdfWmiInstanceDeregister method, wdf.wdfwmiinstancederegister, kmdf.wdfwmiinstancederegister, WdfWmiInstanceDeregister, PFN_WDFWMIINSTANCEDEREGISTER
+ms.keywords: kmdf.wdfwmiinstancederegister, WdfWmiInstanceDeregister method, PFN_WDFWMIINSTANCEDEREGISTER, WdfWmiInstanceDeregister, wdfwmi/WdfWmiInstanceDeregister, wdf.wdfwmiinstancederegister, DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfWmiInstanceDeregister(
 
 
 
-### -param WmiInstance [in]
+#### - WmiInstance [in]
 
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
 

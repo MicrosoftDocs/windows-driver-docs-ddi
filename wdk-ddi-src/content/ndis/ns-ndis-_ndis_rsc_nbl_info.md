@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba9c18ba-8940-4aef-9d58-3105ee1420ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_RSC_NBL_INFO, netvista.ndis_rsc_nbl_info, PNDIS_RSC_NBL_INFO, ndis/PNDIS_RSC_NBL_INFO, _NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO union [Network Drivers Starting with Windows Vista], PNDIS_RSC_NBL_INFO union pointer [Network Drivers Starting with Windows Vista], *PNDIS_RSC_NBL_INFO
+ms.keywords: NDIS_RSC_NBL_INFO, ndis/NDIS_RSC_NBL_INFO, *PNDIS_RSC_NBL_INFO, _NDIS_RSC_NBL_INFO, netvista.ndis_rsc_nbl_info, PNDIS_RSC_NBL_INFO union pointer [Network Drivers Starting with Windows Vista], PNDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO union [Network Drivers Starting with Windows Vista], ndis/PNDIS_RSC_NBL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RSC_NBL_INFO
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RSC_NBL_INFO, *PNDIS_RSC_NBL_INFO
+req.typenames: "*PNDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO"
 ---
 
 # _NDIS_RSC_NBL_INFO structure
@@ -73,12 +73,27 @@ typedef union _NDIS_RSC_NBL_INFO {
 
 
 
-### -field Info
+#### - Info
 
  
 A member in the union that is contained in <b>NDIS_RSC_NBL_INFO</b>.  Drivers use <b>Info</b> to access RSC information. <b>Info</b> is a structure with the following members:
 
 
+
+
+#### CoalescedSegCount
+
+The number of coalesced segments in the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. For non-RSC packets this member must be set to zero.
+Drivers can access this member with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439944">NET_BUFFER_LIST_COALESCED_SEG_COUNT</a>
+macro. 
+<div class="alert"><b>Note</b>  The <b>RscTcpTimestampDelta</b> information  and the <b>DupAckCount</b> member should be non-zero only if <b>CoalescedSegCount</b> is not zero.
+See the remarks section for more information about <b>RscTcpTimestampDelta</b>.</div><div> </div>
+
+#### DupAckCount
+
+The number of duplicate ACKs that were encountered while forming the  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. <b>DupAckCount</b> should be non-zero only if <b>CoalescedSegCount</b> is not zero.
+Drivers can access this member with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439945">NET_BUFFER_LIST_DUP_ACK_COUNT</a>
+macro.
 
 
 ### -field Info.CoalescedSegCount
@@ -96,7 +111,7 @@ Drivers can access this member with the <a href="https://msdn.microsoft.com/libr
 macro.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in <b>NDIS_RSC_NBL_INFO</b>.  Drivers use <b>Value</b> to access the RSC information as a single <b>PVOID</b>.  
 

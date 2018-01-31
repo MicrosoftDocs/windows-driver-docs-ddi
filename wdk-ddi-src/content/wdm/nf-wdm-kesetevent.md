@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetEvent routine [Kernel-Mode Driver Architecture], kernel.kesetevent, k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, KeSetEvent, wdm/KeSetEvent
+ms.keywords: KeSetEvent routine [Kernel-Mode Driver Architecture], wdm/KeSetEvent, kernel.kesetevent, k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, KeSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ LONG KeSetEvent(
 
 
 
-### -param Event [in, out]
+#### - Event [in, out]
 
 A pointer to an initialized event object for which the caller provides the storage.
 
 
-### -param Increment [in]
+#### - Increment [in]
 
 Specifies the priority increment to be applied if setting the event causes a wait to be satisfied.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Specifies whether the call to <b>KeSetEvent</b> is to be followed immediately by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeSetEvent</b> call must be followed by a call to <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
 
@@ -111,19 +111,19 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+<a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 

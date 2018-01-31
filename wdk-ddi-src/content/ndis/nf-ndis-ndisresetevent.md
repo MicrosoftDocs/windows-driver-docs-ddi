@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba29b92-5735-4050-b690-3c25e4f57cd1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisResetEvent, NdisResetEvent function [Network Drivers Starting with Windows Vista], ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml, netvista.ndisresetevent, NdisResetEvent
+ms.keywords: ndis/NdisResetEvent, NdisResetEvent, netvista.ndisresetevent, NdisResetEvent function [Network Drivers Starting with Windows Vista], ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID NdisResetEvent(
 
 
 
-### -param Event [in]
+#### - Event [in]
 
 A pointer to an initialized event object for which the caller provided the storage.
 
@@ -100,9 +100,9 @@ When an event is set to the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
-
 <a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+
+<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
 
 <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 

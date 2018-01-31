@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8aa6ba31-aec0-4a92-ad0e-6c19b796e398
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_VideoPrimariesShift, dxva/DXVA_VideoPrimaries_BT709, dxva/DXVA_VideoPrimaries_SMPTE240M, dxva/DXVA_VideoPrimaries_SMPTE170M, DXVA_VideoPrimaries, display.dxva_videoprimaries, DXVA_VideoPrimaries_Unknown, dxva/DXVA_VideoPrimaries_BT470_2_SysBG, dxva/DXVA_VideoPrimaries_EBU3213, DXVA_VideoPrimaries_BT470_2_SysM, dxva/DXVA_VideoPrimaries_BT470_2_SysM, DXVA_VideoPrimaries_SMPTE170M, dxva/DXVA_VideoPrimaries_Unknown, DXVA_VideoPrimaries_EBU3213, DXVA_VideoPrimaries_SMPTE240M, DXVA_VideoPrimaries_reserved, dxva/DXVA_VideoPrimaries, DXVA_VideoPrimaries_BT470_2_SysBG, dxva/DXVA_VideoPrimaries_SMPTE_C, dxva/DXVA_VideoPrimariesMask, DXVA_VideoPrimaries enumeration [Display Devices], DXVA_VideoPrimaries_SMPTE_C, DXVA_VideoPrimaries_BT709, dxvaref_c0e5c7be-4039-438c-a883-30bb242a5c50.xml, dxva/DXVA_VideoPrimaries_reserved, _DXVA_VideoPrimaries, DXVA_VideoPrimariesMask, dxva/DXVA_VideoPrimariesShift
+ms.keywords: dxva/DXVA_VideoPrimaries_EBU3213, dxva/DXVA_VideoPrimaries_SMPTE240M, dxva/DXVA_VideoPrimariesMask, dxva/DXVA_VideoPrimaries_reserved, dxva/DXVA_VideoPrimaries_BT470_2_SysM, DXVA_VideoPrimaries_Unknown, DXVA_VideoPrimaries_BT470_2_SysM, dxvaref_c0e5c7be-4039-438c-a883-30bb242a5c50.xml, dxva/DXVA_VideoPrimaries_Unknown, DXVA_VideoPrimaries enumeration [Display Devices], DXVA_VideoPrimaries_reserved, dxva/DXVA_VideoPrimariesShift, dxva/DXVA_VideoPrimaries_BT470_2_SysBG, DXVA_VideoPrimariesShift, DXVA_VideoPrimariesMask, DXVA_VideoPrimaries_SMPTE240M, DXVA_VideoPrimaries_BT709, dxva/DXVA_VideoPrimaries_BT709, dxva/DXVA_VideoPrimaries_SMPTE170M, dxva/DXVA_VideoPrimaries_SMPTE_C, DXVA_VideoPrimaries_SMPTE_C, dxva/DXVA_VideoPrimaries, DXVA_VideoPrimaries_EBU3213, DXVA_VideoPrimaries_SMPTE170M, _DXVA_VideoPrimaries, DXVA_VideoPrimaries, DXVA_VideoPrimaries_BT470_2_SysBG, display.dxva_videoprimaries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,57 +77,57 @@ typedef enum _DXVA_VideoPrimaries {
 
 
 
-### -field DXVA_VideoPrimariesShift
+#### - DXVA_VideoPrimariesShift
 
 Specifies to shift bits by 22 positions (DXVA_ExtColorData_ShiftBase + 14, or 8 + 14).
 
 
-### -field DXVA_VideoPrimariesMask
+#### - DXVA_VideoPrimariesMask
 
 Specifies the color primaries mask. 5 (0x07C00000) bits of a DWORD can be used to specify color primaries.
 
 
-### -field DXVA_VideoPrimaries_Unknown
+#### - DXVA_VideoPrimaries_Unknown
 
 Specifies that color primaries are not specified. The default is BT709.
 
 
-### -field DXVA_VideoPrimaries_reserved
+#### - DXVA_VideoPrimaries_reserved
 
 Reserved.
 
 
-### -field DXVA_VideoPrimaries_BT709
+#### - DXVA_VideoPrimaries_BT709
 
 Specifies BT709 primaries (including sRGB, scRGB).
 
 
-### -field DXVA_VideoPrimaries_BT470_2_SysM
+#### - DXVA_VideoPrimaries_BT470_2_SysM
 
 Specifies BT470-2 SysM primaries, which are the original NTSC primaries. 
 
 
-### -field DXVA_VideoPrimaries_BT470_2_SysBG
+#### - DXVA_VideoPrimaries_BT470_2_SysBG
 
 Specifies BT470-2 SysBG primaries. 
 
 
-### -field DXVA_VideoPrimaries_SMPTE170M
+#### - DXVA_VideoPrimaries_SMPTE170M
 
 Specifies SMPTE170M primaries, which are rarely used analog NTSC primaries (also known as SMPTE RP 145).
 
 
-### -field DXVA_VideoPrimaries_SMPTE240M
+#### - DXVA_VideoPrimaries_SMPTE240M
 
 Specifies SMPTE240M primaries. 
 
 
-### -field DXVA_VideoPrimaries_EBU3213
+#### - DXVA_VideoPrimaries_EBU3213
 
 Specifies EBU3213 primaries. 
 
 
-### -field DXVA_VideoPrimaries_SMPTE_C
+#### - DXVA_VideoPrimaries_SMPTE_C
 
 Specifies SMPTE_C primaries, which are analog '79 NTSC primaries.
 

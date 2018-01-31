@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97461adf-053b-484b-9425-b23ac6deb1bd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, audio.pcregistersubdevice, PcRegisterSubdevice function [Audio Devices], portcls/PcRegisterSubdevice, PcRegisterSubdevice
+ms.keywords: audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, audio.pcregistersubdevice, PcRegisterSubdevice function [Audio Devices], PcRegisterSubdevice, portcls/PcRegisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcRegisterSubdevice
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcRegisterSubdevice function
@@ -70,17 +70,17 @@ NTSTATUS PcRegisterSubdevice(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the adapter driver's device object. This is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-### -param Name [in]
+#### - Name [in]
 
 Pointer to a null-terminated Unicode string that specifies the name of the subdevice. The string buffer that the <i>Name</i> parameter points to must remain valid for the lifetime of the device object. The string contains a short name that distinguishes the subdevice from any other subdevices registered on the same device. Each of the device's subdevices must have a unique name.
 
 
-### -param Unknown [in]
+#### - Unknown [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of the port driver object that is bound to the subdevice.
 
@@ -105,13 +105,13 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537032">IUnregisterSubdevice::UnregisterSubdevice</a>
 
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 684a0b26-0e25-44fb-bca9-c86ac029b3b8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdamedia/KSP_BDA_NODE_PIN, PKSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN, _KSP_BDA_NODE_PIN, bdaref_5e3a84db-906c-4d12-863d-9a77b2f7d78c.xml, PKSP_BDA_NODE_PIN structure pointer [Streaming Media Devices], KSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN structure [Streaming Media Devices], bdamedia/PKSP_BDA_NODE_PIN, stream.ksp_bda_node_pin
+ms.keywords: bdamedia/PKSP_BDA_NODE_PIN, bdamedia/KSP_BDA_NODE_PIN, _KSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN structure [Streaming Media Devices], PKSP_BDA_NODE_PIN, bdaref_5e3a84db-906c-4d12-863d-9a77b2f7d78c.xml, KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN, stream.ksp_bda_node_pin, PKSP_BDA_NODE_PIN structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _KSP_BDA_NODE_PIN {
 
 
 
-### -field Property
+#### - Property
 
 KSPROPERTY structure that describes the property and request type of the property request.
 
 
-### -field ulNodeType
+#### - ulNodeType
 
 Index of the element in the zero-based array of internal node types (KSNODE_DESCRIPTOR array) that specifies the node type for which to retrieve the controlling pin. 
 
 
-### -field ulInputPinId
+#### - ulInputPinId
 
 Identifier of an input pin of the filter.
 
 
-### -field ulOutputPinId
+#### - ulOutputPinId
 
 Identifier of an output pin of the filter.
 
@@ -96,9 +96,9 @@ Identifier of an output pin of the filter.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
 <a href="..\bdasup\nf-bdasup-bdapropertygetcontrollingpinid.md">BdaPropertyGetControllingPinId</a>
+
+<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
 
  
 

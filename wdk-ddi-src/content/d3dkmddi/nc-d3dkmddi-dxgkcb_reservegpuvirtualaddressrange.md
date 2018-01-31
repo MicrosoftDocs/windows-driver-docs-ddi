@@ -79,12 +79,12 @@ NTSTATUS APIENTRY CALLBACK* DxgkCbReserveGpuVirtualAddressRange(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle to the display adapter.
 
 
-### -param pArgs [in, out]
+#### - pArgs [in, out]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a> structure that describes the operation.
 

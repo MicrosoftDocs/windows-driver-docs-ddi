@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3879570f-e083-4eaf-aa5b-9b78d8f826c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, wdfdevice/WdfSpecialFileHibernation, *PWDF_SPECIAL_FILE_TYPE, WdfSpecialFileUndefined, WdfSpecialFileMax, WdfSpecialFileHibernation, wdfdevice/WdfSpecialFileDump, wdfdevice/WdfSpecialFileBoot, wdfdevice/WdfSpecialFileMax, WDF_SPECIAL_FILE_TYPE enumeration, wdfdevice/WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileUndefined, wdfdevice/WdfSpecialFilePaging, WdfSpecialFileBoot, WdfSpecialFileDump, wdf.wdf_special_file_type, _WDF_SPECIAL_FILE_TYPE, WdfSpecialFilePaging, kmdf.wdf_special_file_type
+ms.keywords: WdfSpecialFileBoot, wdfdevice/WdfSpecialFileUndefined, wdfdevice/WdfSpecialFileDump, WDF_SPECIAL_FILE_TYPE enumeration, _WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, PWDF_SPECIAL_FILE_TYPE, WdfSpecialFileDump, WdfSpecialFilePaging, wdf.wdf_special_file_type, WdfSpecialFileMax, wdfdevice/WdfSpecialFileHibernation, wdfdevice/WDF_SPECIAL_FILE_TYPE, kmdf.wdf_special_file_type, wdfdevice/WdfSpecialFileBoot, WdfSpecialFileHibernation, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileMax, WDF_SPECIAL_FILE_TYPE, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, *PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFilePaging, WdfSpecialFileUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_SPECIAL_FILE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE"
+req.typenames: WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -75,32 +75,32 @@ typedef enum _WDF_SPECIAL_FILE_TYPE {
 
 
 
-### -field WdfSpecialFileUndefined
+#### - WdfSpecialFileUndefined
 
 For internal use only.
 
 
-### -field WdfSpecialFilePaging
+#### - WdfSpecialFilePaging
 
 The device supports paging files.
 
 
-### -field WdfSpecialFileHibernation
+#### - WdfSpecialFileHibernation
 
 The device supports hibernation files.
 
 
-### -field WdfSpecialFileDump
+#### - WdfSpecialFileDump
 
 The device supports dump files.
 
 
-### -field WdfSpecialFileBoot
+#### - WdfSpecialFileBoot
 
 The device supports boot files. This constant is available in version 1.11 and later versions of KMDF.
 
 
-### -field WdfSpecialFileMax
+#### - WdfSpecialFileMax
 
 For internal use only.
 

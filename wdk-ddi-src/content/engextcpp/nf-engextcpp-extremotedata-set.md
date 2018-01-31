@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData interface [Windows Debugging], Set method, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData, ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData interface, Set
+ms.keywords: ExtRemoteData interface [Windows Debugging], Set method, debugger.extremotedata_set_offset_bytes, ExtRemoteData::Set, Set, engextcpp/ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData, Set method [Windows Debugging], ExtRemoteData interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.Set
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteData::Set method
@@ -68,12 +68,12 @@ void Set(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Location of the beginning of the memory region in the target's virtual address space.
 
 
-### -param Bytes [in]
+#### - Bytes [in]
 
 Number of bytes in the memory region.
 
@@ -94,13 +94,13 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+
+<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
 
  
 

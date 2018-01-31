@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9acb3b65-46c7-4b29-8d7a-c5d8fcd4563d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Installable File System Drivers], _REPARSE_GUID_DATA_BUFFER, *PREPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER, fileinformationstructures_d020fad8-2a4b-4fe6-a1ca-bbf7575418b5.xml, ntifs/REPARSE_GUID_DATA_BUFFER, ntifs/PREPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER structure [Installable File System Drivers], ifsk.reparse_guid_data_buffer
+ms.keywords: "_REPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, ifsk.reparse_guid_data_buffer, REPARSE_GUID_DATA_BUFFER structure [Installable File System Drivers], REPARSE_GUID_DATA_BUFFER, ntifs/REPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Installable File System Drivers], *PREPARSE_GUID_DATA_BUFFER, ntifs/PREPARSE_GUID_DATA_BUFFER, fileinformationstructures_d020fad8-2a4b-4fe6-a1ca-bbf7575418b5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,8 +73,13 @@ typedef struct _REPARSE_GUID_DATA_BUFFER {
 
 
 
-### -field GenericReparseBuffer
+#### - GenericReparseBuffer
 
+
+
+#### DataBuffer
+
+User-defined data for the reparse point. The format of this data is defined by the owner of the reparse point. 
 
 
 ### -field GenericReparseBuffer.DataBuffer
@@ -82,22 +87,22 @@ typedef struct _REPARSE_GUID_DATA_BUFFER {
 User-defined data for the reparse point. The format of this data is defined by the owner of the reparse point. 
 
 
-### -field ReparseTag
+#### - ReparseTag
 
 Reparse point tag that uniquely identifies the owner of the reparse point. (See the following <b>Remarks</b> section.) 
 
 
-### -field ReparseDataLength
+#### - ReparseDataLength
 
 Size, in bytes, of the reparse data in the <b>DataBuffer</b> member. 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved; do not use. 
 
 
-### -field ReparseGuid
+#### - ReparseGuid
 
 GUID that uniquely identifies the owner of the reparse point. (See the following <b>Remarks</b> section.) 
 
@@ -123,31 +128,31 @@ For more information about reparse points and reparse point tags, see the Window
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
 
-<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
-<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
 
 <a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
 <a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
+<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
+
+<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
+<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
 
  
 

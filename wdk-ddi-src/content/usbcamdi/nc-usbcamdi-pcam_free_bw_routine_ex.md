@@ -73,12 +73,12 @@ NTSTATUS CamFreeBandwidthEx(
 
 
 
-### -param BusDeviceObject
+#### - BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Pointer to the camera minidriver's device context.
 

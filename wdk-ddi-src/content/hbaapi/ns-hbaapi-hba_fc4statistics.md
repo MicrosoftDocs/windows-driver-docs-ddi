@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1e37d2c-5688-4528-9cc5-62e70a7561fe
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FC4Statistics, hbaapi/PHBA_FC4STATISTICS, PHBA_FC4STATISTICS structure pointer [Storage Devices], PHBA_FC4STATISTICS, storage.hba_fc4statistics, structs-Fibre_1ab7a8f5-1b91-44ea-82b7-9c9ee92ce0e5.xml, *PHBA_FC4STATISTICS, hbaapi/HBA_FC4Statistics, HBA_FC4STATISTICS structure [Storage Devices], HBA_FC4Statistics structure [Storage Devices], HBA_FC4STATISTICS
+ms.keywords: HBA_FC4STATISTICS structure [Storage Devices], HBA_FC4STATISTICS, HBA_FC4Statistics, hbaapi/HBA_FC4Statistics, *PHBA_FC4STATISTICS, hbaapi/PHBA_FC4STATISTICS, storage.hba_fc4statistics, HBA_FC4Statistics structure [Storage Devices], PHBA_FC4STATISTICS, PHBA_FC4STATISTICS structure pointer [Storage Devices], structs-Fibre_1ab7a8f5-1b91-44ea-82b7-9c9ee92ce0e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FC4STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: HBA_FC4STATISTICS, *PHBA_FC4STATISTICS
+req.typenames: "*PHBA_FC4STATISTICS, HBA_FC4STATISTICS"
 ---
 
 # HBA_FC4Statistics structure
@@ -71,27 +71,27 @@ typedef struct HBA_FC4Statistics {
 
 
 
-### -field InputRequests
+#### - InputRequests
 
 Contains the number of input requests that a port has received.
 
 
-### -field OutputRequests
+#### - OutputRequests
 
 Contains the number of output requests that a port has received.
 
 
-### -field ControlRequests
+#### - ControlRequests
 
 Contains the number of control requests that a port has received.
 
 
-### -field InputMegabytes
+#### - InputMegabytes
 
 Contains the number of megabytes of input data that a port has received.
 
 
-### -field OutputMegabytes
+#### - OutputMegabytes
 
 Contains the number of megabytes of output data that a port has transmitted.
 

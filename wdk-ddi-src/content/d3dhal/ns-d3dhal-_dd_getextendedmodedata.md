@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50b2a1fd-4214-4ad8-b087-f48c14dbe587
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], _DD_GETEXTENDEDMODEDATA, display.dd_getextendedmodedata, DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml
+ms.keywords: d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, display.dd_getextendedmodedata, d3dhal/DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], _DD_GETEXTENDEDMODEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _DD_GETEXTENDEDMODEDATA {
 
 
 
-### -field gdi2
+#### - gdi2
 
 Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
-### -field dwModeIndex
+#### - dwModeIndex
 
 Specifies the index of the display mode to return.
 
 
-### -field mode
+#### - mode
 
 Receives a D3DDISPLAYMODE structure that specifies the actual display mode.
 
@@ -101,11 +101,11 @@ For more information about D3DDISPLAYMODE, see the DirectX SDK documentation.
 
 ## -see-also
 
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 <a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
 
  
 

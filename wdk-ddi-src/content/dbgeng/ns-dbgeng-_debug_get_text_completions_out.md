@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09F3A720-C039-4C8D-84A4-8AF071E1FFB0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_get_text_completions_out, DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL, PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, _DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND
+ms.keywords: "*PDEBUG_GET_TEXT_COMPLETIONS_OUT, PDEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, _DEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, debugger.debug_get_text_completions_out, DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL, DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND, PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_GET_TEXT_COMPLETIONS_OUT
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT
+req.typenames: "*PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT"
 ---
 
 # _DEBUG_GET_TEXT_COMPLETIONS_OUT structure
@@ -71,7 +71,7 @@ typedef struct _DEBUG_GET_TEXT_COMPLETIONS_OUT {
 
 
 
-### -field Flags
+#### - Flags
 
 Flags. Valid flag values include the following:
 <table>
@@ -115,22 +115,22 @@ Is symbol.
 </table> 
 
 
-### -field ReplaceIndex
+#### - ReplaceIndex
 
 The index of the replace location.
 
 
-### -field MatchCount
+#### - MatchCount
 
 Count value of matches.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved.
 

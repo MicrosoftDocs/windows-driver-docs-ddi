@@ -40,7 +40,7 @@ apiname:
 -	DpWmiExecuteMethod
 product: Windows
 targetos: Windows
-req.typenames: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR"
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -78,42 +78,42 @@ NTSTATUS DpWmiExecuteMethod(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the driver's WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP.
 
 
-### -param GuidIndex [in]
+#### - GuidIndex [in]
 
 Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure it passed to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. 
 
 
-### -param InstanceIndex [in]
+#### - InstanceIndex [in]
 
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> specifies a zero-based index value that identifies the instance.
 
 
-### -param MethodId [in]
+#### - MethodId [in]
 
 Specifies the ID of the method to execute. The driver defines the method ID as an item in a data block.
 
 
-### -param InBufferSize [in]
+#### - InBufferSize [in]
 
 Indicates the size in bytes of the input data. If there is no input data, <i>InBufferSize</i> is zero. 
 
 
-### -param OutBufferSize [in]
+#### - OutBufferSize [in]
 
 Indicates the number of bytes available in the buffer for output data.
 
 
-### -param Buffer [in, out]
+#### - Buffer [in, out]
 
 Pointer to a buffer that holds input data, if any, and receives output data, if any, for the method. If the buffer is too small to receive all of the output data, the driver returns STATUS_BUFFER_TOO_SMALL and calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> with the size required.
 
@@ -172,13 +172,13 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
 
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
  
 

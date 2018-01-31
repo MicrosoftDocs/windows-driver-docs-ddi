@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66365126-d7c3-4886-b14f-a94dc12c1626
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_multiplane_overlay_caps, D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS
+ms.keywords: d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS, display.d3dddi_multiplane_overlay_caps, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,14 +68,14 @@ typedef struct D3DDDI_MULTIPLANE_OVERLAY_CAPS {
 
 
 
-### -field MaxPlanes
+#### - MaxPlanes
 
 The maximum number of inputs, including the primary surface, to the display hardware that can be supported in the current mode. This value can change if the mode changes.
 
 For example, if the hardware allows one overlay plane and one normal primary surface, the driver should set <b>MaxPlanes</b> to 2.
 
 
-### -field NumCapabilityGroups
+#### - NumCapabilityGroups
 
 The number of different types of overlay planes that can be supported.
 

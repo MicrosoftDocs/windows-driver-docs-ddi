@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faa5cc0f-a99c-42fb-ab8f-a37c31bc4dde
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::GetExitCode, GetExitCode method [Windows Debugging], IDebugClient2 interface, IDebugClient3::GetExitCode, IDebugClient::GetExitCode, IDebugClient_c0198b4c-b627-42c9-80eb-15db22156293.xml, IDebugClient interface [Windows Debugging], GetExitCode method, GetExitCode method [Windows Debugging], IDebugClient3 interface, IDebugClient4::GetExitCode, GetExitCode method [Windows Debugging], dbgeng/IDebugClient3::GetExitCode, IDebugClient2::GetExitCode, IDebugClient4 interface [Windows Debugging], GetExitCode method, IDebugClient5::GetExitCode, IDebugClient3 interface [Windows Debugging], GetExitCode method, GetExitCode method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], GetExitCode method, GetExitCode method [Windows Debugging], IDebugClient interface, debugger.getexitcode, GetExitCode method [Windows Debugging], IDebugClient5 interface, GetExitCode, IDebugClient2 interface [Windows Debugging], GetExitCode method, dbgeng/IDebugClient2::GetExitCode, dbgeng/IDebugClient::GetExitCode, dbgeng/IDebugClient4::GetExitCode, IDebugClient5
+ms.keywords: IDebugClient4::GetExitCode, IDebugClient2::GetExitCode, GetExitCode method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], GetExitCode method, IDebugClient5 interface [Windows Debugging], GetExitCode method, GetExitCode method [Windows Debugging], IDebugClient3 interface, debugger.getexitcode, dbgeng/IDebugClient::GetExitCode, GetExitCode, IDebugClient5, dbgeng/IDebugClient2::GetExitCode, IDebugClient_c0198b4c-b627-42c9-80eb-15db22156293.xml, GetExitCode method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient3::GetExitCode, GetExitCode method [Windows Debugging], IDebugClient5::GetExitCode, GetExitCode method [Windows Debugging], IDebugClient2 interface, IDebugClient3 interface [Windows Debugging], GetExitCode method, IDebugClient2 interface [Windows Debugging], GetExitCode method, IDebugClient::GetExitCode, IDebugClient interface [Windows Debugging], GetExitCode method, GetExitCode method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetExitCode, IDebugClient3::GetExitCode, dbgeng/IDebugClient4::GetExitCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT GetExitCode(
 
 
 
-### -param Code [out]
+#### - Code [out]
 
 Receives the exit code of the process.  If the process is still running, <i>Code</i> will be set to STILL_ACTIVE.
 

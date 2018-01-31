@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6581a309-1a6d-4795-a55c-327215ea18ee
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceindicatewakestatus, WdfDeviceIndicateWakeStatus method, wdfdevice/WdfDeviceIndicateWakeStatus, DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml, wdf.wdfdeviceindicatewakestatus, PFN_WDFDEVICEINDICATEWAKESTATUS, WdfDeviceIndicateWakeStatus
+ms.keywords: kmdf.wdfdeviceindicatewakestatus, PFN_WDFDEVICEINDICATEWAKESTATUS, wdf.wdfdeviceindicatewakestatus, wdfdevice/WdfDeviceIndicateWakeStatus, WdfDeviceIndicateWakeStatus method, WdfDeviceIndicateWakeStatus, DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfDeviceIndicateWakeStatus(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object. 
 
 
-### -param WaitWakeStatus [in]
+#### - WaitWakeStatus [in]
 
 An NTSTATUS status value. If the device triggered a wake signal, the caller must set this value to STATUS_SUCCESS or another status value for which <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS</a>(<i>WaitWakeStatus</i>) equals <b>TRUE</b>. If the device did not trigger a wake signal or if an error was detected, the caller must provide a status value for which NT_SUCCESS(<i>WaitWakeStatus</i>) equals <b>FALSE</b>. For more information, see the following Remarks section. 
 

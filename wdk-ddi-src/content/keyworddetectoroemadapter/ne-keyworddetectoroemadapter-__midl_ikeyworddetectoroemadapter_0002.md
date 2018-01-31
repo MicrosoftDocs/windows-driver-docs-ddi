@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 88D85EB1-11BC-42B9-B22E-5FB58F409C75
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KEYWORDID enumeration [Audio Devices], KwSelection, KwVoiceAssistant, KEYWORDID, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/KwInvalid, __MIDL_IKeywordDetectorOemAdapter_0002, KwInvalid, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/ KwVoiceAssistant, audio.keywordid
+ms.keywords: audio.keywordid, KwVoiceAssistant, keyworddetectoroemadapter/ KwVoiceAssistant, KwSelection, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/KwInvalid, KEYWORDID enumeration [Audio Devices], __MIDL_IKeywordDetectorOemAdapter_0002, keyworddetectoroemadapter/KEYWORDID, KEYWORDID, KwInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-### -field KwInvalid
+#### - KwInvalid
 
 Indicates that the keyword was invalid.
 
 
-### -field KwVoiceAssistant
+#### - KwVoiceAssistant
 
 Indicates that the "hey Cortana" keyword was used.
 
 
-### -field KwSelection
+#### - KwSelection
 
 Indicates the "select" keyword was used.
 

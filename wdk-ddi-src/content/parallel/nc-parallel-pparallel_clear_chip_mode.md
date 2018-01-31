@@ -68,12 +68,12 @@ typedef NTSTATUS (*PPARALLEL_CLEAR_CHIP_MODE)(
 
 
 
-### -param ClearChipContext [in]
+#### - ClearChipContext [in]
 
 Pointer to the device extension of a parallel port's functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>).
 
 
-### -param ChipMode [in]
+#### - ChipMode [in]
 
 Specifies the current operating mode of the parallel port. 
 
@@ -129,11 +129,11 @@ For more information, see <a href="https://msdn.microsoft.com/a22cdeef-4ae7-49f8
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
-
 <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_clear_chip_mode.md">IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24f703c5-d025-4233-a32d-7cb8bcb5c6b7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_2dregion, D3DKMDT_2DOFFSET, D3DKMDT_2DREGION structure [Display Devices], DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, D3DKMDT_2DREGION, d3dkmdt/D3DKMDT_2DREGION, _D3DKMDT_2DREGION
+ms.keywords: D3DKMDT_2DOFFSET, d3dkmdt/D3DKMDT_2DREGION, D3DKMDT_2DREGION, D3DKMDT_2DREGION structure [Display Devices], DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, _D3DKMDT_2DREGION, display.d3dkmdt_2dregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMDT_2DREGION {
 
 
 
-### -field cx
+#### - cx
 
 The horizontal component of the point or offset.
 
 
-### -field cy
+#### - cy
 
 The vertical component of the point or offset.
 

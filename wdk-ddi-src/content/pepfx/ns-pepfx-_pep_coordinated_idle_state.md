@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0B3B53F8-2D1E-430B-9C51-E35465899811
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], PEP_COORDINATED_IDLE_STATE, pepfx/PEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_COORDINATED_IDLE_STATE, pepfx/PPEP_COORDINATED_IDLE_STATE, kernel.pep_coordinated_idle_state
+ms.keywords: kernel.pep_coordinated_idle_state, pepfx/PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE, _PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_COORDINATED_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_COORDINATED_IDLE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE"
+req.typenames: PEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE
 ---
 
 # _PEP_COORDINATED_IDLE_STATE structure
@@ -70,22 +70,22 @@ typedef struct _PEP_COORDINATED_IDLE_STATE {
 
 
 
-### -field Latency
+#### - Latency
 
 The latency of waking from this idle state, in 100ns units.
 
 
-### -field BreakEvenDuration
+#### - BreakEvenDuration
 
 Supplies the minimum time the state must be entered to amortize the cost of entering/exiting the state. Idle durations longer than this period should save power when compared to entering a lighter state for the same period.
 
 
-### -field DependencyCount
+#### - DependencyCount
 
 Supplies the number of dependencies this coordinated state has on other coordinated states or on processors.
 
 
-### -field MaximumDependencySize
+#### - MaximumDependencySize
 
 Supplies the maximum size of a single dependency.
 

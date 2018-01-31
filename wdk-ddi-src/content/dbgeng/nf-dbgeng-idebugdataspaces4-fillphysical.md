@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9fd2cc6d-c891-4566-896b-80d56d143e8d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces4, IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml, IDebugDataSpaces2 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces3::FillPhysical, FillPhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::FillPhysical, FillPhysical, debugger.fillphysical, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces4::FillPhysical, dbgeng/IDebugDataSpaces2::FillPhysical, FillPhysical method [Windows Debugging], FillPhysical method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::FillPhysical, IDebugDataSpaces2::FillPhysical
+ms.keywords: IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml, IDebugDataSpaces2 interface [Windows Debugging], FillPhysical method, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces3::FillPhysical, FillPhysical method [Windows Debugging], IDebugDataSpaces2 interface, debugger.fillphysical, dbgeng/IDebugDataSpaces3::FillPhysical, IDebugDataSpaces4 interface [Windows Debugging], FillPhysical method, FillPhysical, IDebugDataSpaces4, IDebugDataSpaces4::FillPhysical, dbgeng/IDebugDataSpaces4::FillPhysical, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface, FillPhysical method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::FillPhysical, IDebugDataSpaces2::FillPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,27 +73,27 @@ HRESULT FillPhysical(
 
 
 
-### -param Start [in]
+#### - Start [in]
 
 Specifies the location in the target's physical memory at which to start writing the pattern.
 
 
-### -param Size [in]
+#### - Size [in]
 
 Specifies how many bytes to write to the target's memory.
 
 
-### -param Pattern [in]
+#### - Pattern [in]
 
 Specifies the pattern to write.
 
 
-### -param PatternSize [in]
+#### - PatternSize [in]
 
 Specifies the size in bytes of the pattern.
 
 
-### -param Filled [out, optional]
+#### - Filled [out, optional]
 
 Receives the number of bytes written.  If it is set to <b>NULL</b>, this information isn't returned.
 
@@ -133,13 +133,13 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
  
 

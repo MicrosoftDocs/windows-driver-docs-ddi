@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 865349bd-400d-4acf-a2f7-33da128702be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtRollbackTransaction, ktm_ref_c29e1cd7-ffe0-4dab-be7f-a50a1d430ae3.xml, wdm/NtRollbackTransaction, ZwRollbackTransaction, wdm/ZwRollbackTransaction, kernel.zwrollbacktransaction, ZwRollbackTransaction routine [Kernel-Mode Driver Architecture]
+ms.keywords: NtRollbackTransaction, wdm/NtRollbackTransaction, kernel.zwrollbacktransaction, ktm_ref_c29e1cd7-ffe0-4dab-be7f-a50a1d430ae3.xml, ZwRollbackTransaction routine [Kernel-Mode Driver Architecture], wdm/ZwRollbackTransaction, ZwRollbackTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwRollbackTransaction(
 
 
 
-### -param TransactionHandle [in]
+#### - TransactionHandle [in]
 
 A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>. The handle must have TRANSACTION_ROLLBACK access to the object.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 A Boolean value that the caller sets to <b>TRUE</b> for synchronous operation or <b>FALSE</b> for asynchronous operation. If this parameter is set to <b>TRUE</b>, the call does not return until the rollback operation is complete.
 
@@ -174,15 +174,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
 
 <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
  
 

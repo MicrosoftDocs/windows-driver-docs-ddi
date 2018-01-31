@@ -40,7 +40,7 @@ apiname:
 -	IpiGenericCall
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ ULONG_PTR IpiGenericCall(
 
 
 
-### -param Argument [in]
+#### - Argument [in]
 
 Supplies the value that was passed to the <a href="..\wdm\nf-wdm-keipigenericcall.md">KeIpiGenericCall</a> routine that called <i>IpiGenericCall</i>.
 

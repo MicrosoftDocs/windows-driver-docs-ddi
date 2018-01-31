@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 960186a4-09ca-4636-b704-166137da6113
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PWHEA_NMI_ERROR_SECTION, whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml, WHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], whea.whea_nmi_error_section, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], PWHEA_NMI_ERROR_SECTION, _WHEA_NMI_ERROR_SECTION, ntddk/PWHEA_NMI_ERROR_SECTION, ntddk/WHEA_NMI_ERROR_SECTION"
+ms.keywords: PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], ntddk/PWHEA_NMI_ERROR_SECTION, whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml, _WHEA_NMI_ERROR_SECTION, whea.whea_nmi_error_section, ntddk/WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_NMI_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION"
+req.typenames: WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION
 ---
 
 # _WHEA_NMI_ERROR_SECTION structure
@@ -68,12 +68,12 @@ typedef struct _WHEA_NMI_ERROR_SECTION {
 
 
 
-### -field Data
+#### - Data
 
 An 8-byte data buffer that contains the data that was read from the NMI I/O ports by the NMI low-level hardware error handler (LLHEH).
 
 
-### -field Flags
+#### - Flags
 
 A WHEA_NMI_ERROR__SECTION_FLAGS union that describes the source of the NMI error. The WHEA_NMI_ERROR_FLAGS union is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -118,9 +118,9 @@ The WHEA_NMI_ERROR_SECTION structure describes the error data contained in a non
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
  
 

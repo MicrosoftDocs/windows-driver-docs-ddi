@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/InitializePrintMonitor, InitializePrintMonitor function [Print Devices], spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, print.initializeprintmonitor, InitializePrintMonitor
+ms.keywords: print.initializeprintmonitor, spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, InitializePrintMonitor, winsplp/InitializePrintMonitor, InitializePrintMonitor function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ LPMONITOREX InitializePrintMonitor(
 
 
 
-### -param pRegistryRoot [in]
+#### - pRegistryRoot [in]
 
 Caller-supplied pointer to a string identifying a registry path that the print monitor can use to store monitor-specific values.
 
@@ -93,9 +93,9 @@ The <i>pRegistryRoot</i> parameter supplies a pointer a string representing the 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
-
 <a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a>
+
+<a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
 
  
 

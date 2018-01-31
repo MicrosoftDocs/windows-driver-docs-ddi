@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a82dfe6-8844-4b18-8f54-7bf143fcd2ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismenablevirtualization, ndis/NdisMEnableVirtualization, NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismenablevirtualization, NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,29 +72,29 @@ NDIS_STATUS NdisMEnableVirtualization(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-### -param NumVFs [in]
+#### - NumVFs [in]
 
 A USHORT value that contains the number of  Virtual Functions (VFs) that are to be enabled for the network adapter.  <b>NdisMEnableVirtualization</b> sets the <b>NumVFs</b> member of the SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter. 
 <div class="alert"><b>Note</b>  If the <i>EnableVirtualization</i> parameter is FALSE, <i>NumVFs</i> must be set to zero.</div><div> </div>
 
-### -param EnableVFMigration [in]
+#### - EnableVFMigration [in]
 
  This parameter is reserved for NDIS and must be set to FALSE.
 
 
-### -param EnableMigrationInterrupt [in]
+#### - EnableMigrationInterrupt [in]
 
  This parameter is reserved for NDIS and must be set to FALSE.
 
 
-### -param EnableVirtualization [in]
+#### - EnableVirtualization [in]
 
 A BOOLEAN value that specifies whether  virtualization should be enabled in the PCI configuration space of the network adapter.  If <i>EnableVirtualization</i> is TRUE, <b>NdisMEnableVirtualization</b> sets the <b>VF Enable</b> bit  of the SR-IOV Control member. <b>NdisMEnableVirtualization</b> clears this bit if <i>EnableVirtualization</i> is FALSE.
 
@@ -234,13 +234,13 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451817">OID_NIC_SWITCH_DELETE_SWITCH</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 <b></b>
 

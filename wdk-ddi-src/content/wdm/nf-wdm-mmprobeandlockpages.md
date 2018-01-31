@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], wdm/MmProbeAndLockPages, MmProbeAndLockPages, kernel.mmprobeandlockpages
+ms.keywords: MmProbeAndLockPages, kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages, k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID MmProbeAndLockPages(
 
 
 
-### -param MemoryDescriptorList [in, out]
+#### - MemoryDescriptorList [in, out]
 
 A pointer to an MDL that specifies a virtual memory buffer. If the routine successfully locks the pages in memory, the MDL is updated to describe the underlying physical pages.
 
 
-### -param AccessMode [in]
+#### - AccessMode [in]
 
 The access mode in which to probe the arguments, either <b>KernelMode</b> or <b>UserMode</b>.
 
 
-### -param Operation [in]
+#### - Operation [in]
 
 The type of operation for which the caller wants the access rights probed and the pages locked. Set this parameter to <b>IoReadAccess</b>, <b>IoWriteAccess</b>, or <b>IoModifyAccess</b>. <b>IoReadAccess</b> indicates that the driver can examine the contents of the buffer but cannot change the contents. <b>IoWriteAccess</b> and <b>IoModifyAccess</b>, which are equivalent, indicate that the driver has both read and write access to the buffer.
 
@@ -131,9 +131,9 @@ This routine does not provide any guarantees about the virtual address that desc
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
 <a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 

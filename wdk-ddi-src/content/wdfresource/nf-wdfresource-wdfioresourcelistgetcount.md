@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8f3d743-acc1-4884-b0ec-a6cea5d8e437
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfioresourcelistgetcount, DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml, wdf.wdfioresourcelistgetcount, WdfIoResourceListGetCount, WdfIoResourceListGetCount method, wdfresource/WdfIoResourceListGetCount, PFN_WDFIORESOURCELISTGETCOUNT
+ms.keywords: kmdf.wdfioresourcelistgetcount, PFN_WDFIORESOURCELISTGETCOUNT, WdfIoResourceListGetCount, DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml, wdfresource/WdfIoResourceListGetCount, wdf.wdfioresourcelistgetcount, WdfIoResourceListGetCount method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceListGetCount
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ ULONG WdfIoResourceListGetCount(
 
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 

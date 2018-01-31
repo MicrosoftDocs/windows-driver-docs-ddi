@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd3a5f87-21a9-4186-bb74-a49e6751622e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlMapGenericMask, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, RtlMapGenericMask, kernel.rtlmapgenericmask
+ms.keywords: RtlMapGenericMask routine [Kernel-Mode Driver Architecture], ntddk/RtlMapGenericMask, k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, RtlMapGenericMask, kernel.rtlmapgenericmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID RtlMapGenericMask(
 
 
 
-### -param AccessMask [in, out]
+#### - AccessMask [in, out]
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> variable. The routine updates this to contain only those access rights that are not also granted by any GENERIC_<i>XXX</i> access rights originally specified the variable. The routine also clears any GENERIC_<i>XXX</i> bits that are set. 
 
 
-### -param GenericMapping [in]
+#### - GenericMapping [in]
 
 Pointer to a <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a> structure that describes the specific access rights that correspond to each generic access right. 
 

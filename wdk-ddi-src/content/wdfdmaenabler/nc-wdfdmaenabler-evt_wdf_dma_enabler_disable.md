@@ -40,7 +40,7 @@ apiname:
 -	EvtDmaEnablerDisable
 product: Windows
 targetos: Windows
-req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
+req.typenames: "*PWDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ NTSTATUS EvtDmaEnablerDisable(
 
 
 
-### -param DmaEnabler [in]
+#### - DmaEnabler [in]
 
 A handle to a DMA enabler object.  
 
@@ -98,9 +98,9 @@ For more information about the <i>EvtDmaEnablerDisable</i> callback function, se
 
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
-
 <a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_enable.md">EvtDmaEnablerEnable</a>
+
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 
  
 

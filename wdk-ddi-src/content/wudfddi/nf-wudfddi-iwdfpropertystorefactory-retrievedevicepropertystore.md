@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23a4c968-b1d1-48f4-9ea9-b97c4b5b4208
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml
+ms.keywords: wdf.iwdfpropertystorefactory_retrievedevicepropertystore, IWDFPropertyStoreFactory, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFPropertyStoreFactory.RetrieveDevicePropertyStore
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -75,32 +75,32 @@ HRESULT RetrieveDevicePropertyStore(
 
 
 
-### -param RootSpecifier [in]
+#### - RootSpecifier [in]
 
 The address of a driver-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a> structure. The driver fills in this structure to identify the property store that <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> retrieves.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed flag that specifies whether UMDF should create a specified registry entry if it does not exist, and whether the new entry should be deleted when Windows restarts.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 A REGSAM-typed bit mask that specifies the types of access to the registry that you want your driver to have. The REGSAM type is defined in Winreg.h, and is described in the Windows SDK at <a href="http://go.microsoft.com/fwlink/p/?linkid=138045">REGSAM</a>. The bit mask must not specify GENERIC_WRITE, KEY_CREATE_SUB_KEY, or WRITE_DAC access. (Although the driver cannot specify KEY_CREATE_SUB_KEY, its call to <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> can create a subkey.)
 
 
-### -param SubkeyPath [in]
+#### - SubkeyPath [in]
 
 A pointer to a caller-supplied character string that represents the name of a subkey located under the registry key that the <i>RootSpecifier</i> parameter specifies. This parameter is optional and can be <b>NULL</b>. See more information in Remarks.
 
 
-### -param PropertyStore [out]
+#### - PropertyStore [out]
 
 The address of a location that receives a pointer to an <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a> interface. The driver uses this interface to access values in the registry.
 
 
-### -param Disposition [out]
+#### - Disposition [out]
 
 The address of a location that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value. 
 
@@ -158,11 +158,11 @@ For more information about using <a href="https://msdn.microsoft.com/be47a1f0-03
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
  
 

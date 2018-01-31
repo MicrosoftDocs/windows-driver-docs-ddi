@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57fbe32d-ffc8-449e-be7f-2d2a8f2a7a66
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcScheduleReadAhead, ccref_ae4b3e52-9f23-499f-86f1-81e813484007.xml, ntifs/CcScheduleReadAhead, ifsk.ccschedulereadahead, CcScheduleReadAhead routine [Installable File System Drivers]
+ms.keywords: CcScheduleReadAhead, ccref_ae4b3e52-9f23-499f-86f1-81e813484007.xml, CcScheduleReadAhead routine [Installable File System Drivers], ntifs/CcScheduleReadAhead, ifsk.ccschedulereadahead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID CcScheduleReadAhead(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the file on which read-ahead is to be performed.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the cached file where the last read occurred.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length in bytes of the range that was last read.
 
@@ -102,17 +102,17 @@ The <b>CcReadAhead</b> macro is a wrapper for <b>CcScheduleReadAhead</b>. It cal
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
 <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
-
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
 
 <a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
+<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
 
  
 

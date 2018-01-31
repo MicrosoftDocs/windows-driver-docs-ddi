@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b03f010-cc3c-48a1-b86c-df470a832c94
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.removesymbolbyname, ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, RemoveSymbolByName, IDebugSymbolGroup2, IDebugSymbolGroup::RemoveSymbolByName, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup2::RemoveSymbolByName, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method, RemoveSymbolByName method [Windows Debugging], RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method, IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup2, RemoveSymbolByName method [Windows Debugging], debugger.removesymbolbyname, RemoveSymbolByName, IDebugSymbolGroup::RemoveSymbolByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT RemoveSymbolByName(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 The name of the symbol to remove from the symbol group.
 
@@ -110,15 +110,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
 
  
 

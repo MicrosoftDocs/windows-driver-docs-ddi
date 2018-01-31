@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db034863-f5fa-42bb-81c8-23d4784e0abe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE, netvista.dot11_additional_ie, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_ADDITIONAL_IE, *PDOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], DOT11_ADDITIONAL_IE"
+ms.keywords: Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, windot11/PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, _DOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_additional_ie, *PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ADDITIONAL_IE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE"
+req.typenames: DOT11_ADDITIONAL_IE, *PDOT11_ADDITIONAL_IE
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ typedef struct _DOT11_ADDITIONAL_IE {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_ADDITIONAL_IE structure. This member is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -104,27 +104,27 @@ This member must be set to
        <b>sizeof</b>(DOT11_ADDITIONAL_IE).
 
 
-### -field uBeaconIEsOffset
+#### - uBeaconIEsOffset
 
 The offset of the additional IEs, in bytes, in the beacon frame sent by the NIC. This offset is
      relative to the start of the buffer that contains the DOT11_ADDITIONAL_IE structure. The default value
      is 0.
 
 
-### -field uBeaconIEsLength
+#### - uBeaconIEsLength
 
 The length of the additional IEs, in bytes, in the beacon frame sent by the NIC. The default value
      is 0.
 
 
-### -field uResponseIEsOffset
+#### - uResponseIEsOffset
 
 The offset of the additional IEs, in bytes, in the probe response frame sent by the NIC. This
      offset is relative to the start of the buffer that contains the DOT11_ADDITIONAL_IE structure. The
      default value is 0.
 
 
-### -field uResponseIEsLength
+#### - uResponseIEsLength
 
 The length of the additional IEs, in bytes, in the probe response frame sent by the NIC. The
      default value is 0.
@@ -146,9 +146,9 @@ The miniport driver should reset the members of the DOT11_ADDITIONAL_IE structur
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569103">OID_DOT11_ADDITIONAL_IE</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569103">OID_DOT11_ADDITIONAL_IE</a>
 
  
 

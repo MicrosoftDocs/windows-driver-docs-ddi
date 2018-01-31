@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 8f794681-afa9-474b-a3b9-bc7c21c7c423
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: ntddsd/SdBusSubmitRequest, SdBusSubmitRequest function [Buses], SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml, SD.sdbussubmitrequest
+ms.keywords: SdBusSubmitRequest function [Buses], SD.sdbussubmitrequest, ntddsd/SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml, SdBusSubmitRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS SdBusSubmitRequest(
 
 
 
-### -param InterfaceContext [in]
+#### - InterfaceContext [in]
 
 Contains the context information returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a> routine in the <b>Context</b> member of the <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a> structure.
 
@@ -104,13 +104,13 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
-<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
+<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68819fe9-fd90-4391-a129-5aa0cae1558b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamPointerDelete, ks/KsStreamPointerDelete, stream.ksstreampointerdelete, KsStreamPointerDelete function [Streaming Media Devices], avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml
+ms.keywords: KsStreamPointerDelete function [Streaming Media Devices], avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml, KsStreamPointerDelete, ks/KsStreamPointerDelete, stream.ksstreampointerdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void KsStreamPointerDelete(
 
 
 
-### -param StreamPointer [in]
+#### - StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the clone stream pointer to delete. Must be a clone stream pointer; cannot be the leading or trailing edge stream pointer.
 
@@ -93,9 +93,9 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
-
 <a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
+
+<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
 
 <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 

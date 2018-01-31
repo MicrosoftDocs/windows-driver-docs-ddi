@@ -40,7 +40,7 @@ apiname:
 -	GetVirtualFunctionProbedBars
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ NTSTATUS GetVirtualFunctionProbedBars(
 
 
 
-### -param Context [in, out]
+#### - Context [in, out]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param BaseRegisterValues [out]
+#### - BaseRegisterValues [out]
 
 A pointer to an array of ULONG values. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a> routine returns a value for each BAR of the device.
 <div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a> returns a maximum of <b>PCI_TYPE0_ADDRESSES</b> values within this array.

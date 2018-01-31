@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9348c338-9fb4-4eee-a50f-f709748da56b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_miniport_co_characteristics, ndis/NDIS_MINIPORT_CO_CHARACTERISTICS, *PNDIS_MINIPORT_CO_CHARACTERISTICS, PNDIS_MINIPORT_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_CO_CHARACTERISTICS, condis_structures_ref_148c0384-32c9-4d21-bab8-66b839ee75a6.xml, _NDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS
+ms.keywords: netvista.ndis_miniport_co_characteristics, ndis/NDIS_MINIPORT_CO_CHARACTERISTICS, ndis/PNDIS_MINIPORT_CO_CHARACTERISTICS, PNDIS_MINIPORT_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_CO_CHARACTERISTICS, PNDIS_MINIPORT_CO_CHARACTERISTICS, condis_structures_ref_148c0384-32c9-4d21-bab8-66b839ee75a6.xml, NDIS_MINIPORT_CO_CHARACTERISTICS, *PNDIS_MINIPORT_CO_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MINIPORT_CO_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS"
+req.typenames: NDIS_MINIPORT_CO_CHARACTERISTICS, *PNDIS_MINIPORT_CO_CHARACTERISTICS
 ---
 
 # _NDIS_MINIPORT_CO_CHARACTERISTICS structure
@@ -75,7 +75,7 @@ typedef struct _NDIS_MINIPORT_CO_CHARACTERISTICS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -87,12 +87,12 @@ The
      <b>Size</b> member to NDIS_SIZEOF_MINIPORT_CO_CHARACTERISTICS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 Reserved for NDIS.
 
 
-### -field CoCreateVcHandler
+#### - CoCreateVcHandler
 
 The entry point of the driver's 
      <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function. If
@@ -105,7 +105,7 @@ The entry point of the driver's
      NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>.
 
 
-### -field CoDeleteVcHandler
+#### - CoDeleteVcHandler
 
 The entry point of the driver's 
      <a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a> function. If
@@ -118,28 +118,28 @@ The entry point of the driver's
      NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>.
 
 
-### -field CoActivateVcHandler
+#### - CoActivateVcHandler
 
 The entry point of the driver's 
      <mshelp:link keywords="netvista.miniportcoactivatevc" tabindex="0"><i>
      MiniportCoActivateVc</i></mshelp:link> function.
 
 
-### -field CoDeactivateVcHandler
+#### - CoDeactivateVcHandler
 
 The entry point of the driver's 
      <mshelp:link keywords="netvista.miniportcodeactivatevc" tabindex="0"><i>
      MiniportCoDeactivateVc</i></mshelp:link> function.
 
 
-### -field CoSendNetBufferListsHandler
+#### - CoSendNetBufferListsHandler
 
 The entry point of the driver's 
      <mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
      MiniportCoSendNetBufferLists</i></mshelp:link> function.
 
 
-### -field CoOidRequestHandler
+#### - CoOidRequestHandler
 
 The entry point of the driver's 
      <mshelp:link keywords="netvista.miniportcooidrequest" tabindex="0"><i>
@@ -162,31 +162,31 @@ The miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-
-<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
 <mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
    MiniportCoSendNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
 
 <mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
 
  
 

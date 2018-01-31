@@ -40,7 +40,7 @@ apiname:
 -	VmbChannelMapGpadl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -73,12 +73,12 @@ NTSTATUS VmbChannelMapGpadl(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for a channel.  
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags.  The possible flag values are:
 <table>
@@ -106,13 +106,13 @@ and snapshotting.
 
 
 
-### -param GpadlHandle [in]
+#### - GpadlHandle [in]
 
 The GPADL handle of the GPADL to map.
 
 
 
-### -param Mdl [out]
+#### - Mdl [out]
 
  A pointer to a MDL describing the client buffer. This
 buffer is only mapped into physical address space. The caller must take

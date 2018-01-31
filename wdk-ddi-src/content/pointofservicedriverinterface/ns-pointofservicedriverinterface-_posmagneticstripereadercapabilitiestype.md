@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8f5ad241-a145-468d-bd69-7956985152b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype, _PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure
+ms.keywords: pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, _PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure, pos.posmagneticstripereadercapabilitiestype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _PosMagneticStripeReaderCapabilitiesType {
 
 
 
-### -field PowerReportingType
+#### - PowerReportingType
 
 Indicates the type of power reporting that is supported by the device.
 
 
-### -field IsStatisticsReportingSupported
+#### - IsStatisticsReportingSupported
 
 Indicates whether the device supports <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics.md">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a>.
 
 
-### -field IsStatisticsUpdatingSupported
+#### - IsStatisticsUpdatingSupported
 
 Indicates whether the device supports <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics.md">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a>.
 
 
-### -field CardAuthenticationLength
+#### - CardAuthenticationLength
 
 The length, in bytes, of the name of the type of authentication that the device uses.
 
 
-### -field SupportedEncryptionAlgorithms
+#### - SupportedEncryptionAlgorithms
 
 The supported encryption algorithm. See <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrdataencryption.md">MsrDataEncryption</a>.
 
 
-### -field AuthenticationLevel
+#### - AuthenticationLevel
 
 The authentication level that the device supports.
 
 
-### -field IsIsoSupported
+#### - IsIsoSupported
 
 Indicates whether the device supports ISO cards.
 
 
-### -field IsJisOneSupported
+#### - IsJisOneSupported
 
 Indicates whether device supports JIS Type-I cards.
 
 
-### -field IsJisTwoSupported
+#### - IsJisTwoSupported
 
 Indicates whether device supports JIS Type-II cards.
 
 
-### -field IsTrackDataMaskingSupported
+#### - IsTrackDataMaskingSupported
 
 Indicates whether the device is capable of masking track data.
 
 
-### -field IsTransmitSentinelsSupported
+#### - IsTransmitSentinelsSupported
 
 Indicates whether the devices is able to transmit start and end sentinels.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b148e684-18bd-4ab3-b772-6bc103b9f436
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], ExAcquireSharedStarveExclusive, wdm/ExAcquireSharedStarveExclusive, k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, kernel.exacquiresharedstarveexclusive
+ms.keywords: k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], ExAcquireSharedStarveExclusive, kernel.exacquiresharedstarveexclusive, wdm/ExAcquireSharedStarveExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN ExAcquireSharedStarveExclusive(
 
 
 
-### -param Resource [in, out]
+#### - Resource [in, out]
 
 A pointer to the resource to be acquired for shared access.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired.
 
@@ -117,17 +117,17 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
-
-<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
-
 <a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
 
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
+
+<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
 
 <a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
 
-<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
 
  
 

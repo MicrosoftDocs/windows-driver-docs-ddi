@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExQueryTimerResolution, kernel.exquerytimerresolution, ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ExQueryTimerResolution, kernel.exquerytimerresolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], ExQueryTimerResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ExQueryTimerResolution(
 
 
 
-### -param MaximumTime [out]
+#### - MaximumTime [out]
 
 A pointer to a location to which the routine writes the maximum time interval, in 100-nanosecond units, between successive ticks of the system clock. A <i>tick</i> is an interrupt caused by the system clock timer.
 
 
-### -param MinimumTime [out]
+#### - MinimumTime [out]
 
 A pointer to a location to which the routine writes the minimum time interval, in 100-nanosecond units, between successive ticks of the system clock.
 
 
-### -param CurrentTime [out]
+#### - CurrentTime [out]
 
 A pointer to a location to which the routine writes the current time interval, in 100-nanosecond units, between successive ticks of the system clock.
 

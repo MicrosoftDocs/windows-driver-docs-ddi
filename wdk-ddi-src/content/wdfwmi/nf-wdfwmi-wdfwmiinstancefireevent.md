@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7bef79ab-78d6-47b6-a3f4-d9733ffcb53d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WdfWmiInstanceFireEvent, kmdf.wdfwmiinstancefireevent, DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent method, wdf.wdfwmiinstancefireevent, PFN_WDFWMIINSTANCEFIREEVENT
+ms.keywords: kmdf.wdfwmiinstancefireevent, WdfWmiInstanceFireEvent, wdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent, PFN_WDFWMIINSTANCEFIREEVENT, WdfWmiInstanceFireEvent method, DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS WdfWmiInstanceFireEvent(
 
 
 
-### -param WmiInstance [in]
+#### - WmiInstance [in]
 
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
 
 
-### -param EventDataSize [in, optional]
+#### - EventDataSize [in, optional]
 
 The size, in bytes, of the event data that <i>EventData</i> points to.
 
 
-### -param EventData [in, optional]
+#### - EventData [in, optional]
 
 A pointer to the event data, or <b>NULL</b> if there is no event data.
 
@@ -153,11 +153,11 @@ For more information about the <b>WdfWmiInstanceFireEvent</b> method, see <a hre
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
  
 

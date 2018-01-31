@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eebc3e2e-41fe-4087-8916-7c8a71929913
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsimgt/PISCSI_Path, PISCSI_Path, ISCSI_Path, PISCSI_Path structure pointer [Storage Devices], ISCSI_Path structure [Storage Devices], structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml, *PISCSI_Path, _ISCSI_Path, iscsimgt/ISCSI_Path, storage.iscsi_path
+ms.keywords: ISCSI_Path structure [Storage Devices], *PISCSI_Path, ISCSI_Path, PISCSI_Path, _ISCSI_Path, PISCSI_Path structure pointer [Storage Devices], structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml, storage.iscsi_path, iscsimgt/PISCSI_Path, iscsimgt/ISCSI_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _ISCSI_Path {
 
 
 
-### -field UniqueConnectionId
+#### - UniqueConnectionId
 
 This is a unique connection identifier that the initiator uses to identify a connection. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter.  This value is not to be confused with the connection ID (CID).
 
 
-### -field EstimatedLinkSpeed
+#### - EstimatedLinkSpeed
 
 This specifies the connection speed in megabits per second (Mbps).
 
 
-### -field PathWeight
+#### - PathWeight
 
 This specifies the weight assigned to this path. The value can be any 32-bit number, with a higher number that signifies a higher priority. If more than one path is available, this path weight value is compared against each other path weight and will be prioritized accordingly. For example, if a value of 1 is used for path1 and a value of 2 for path2, path2 has higher priority.
 
 
-### -field PrimaryPath
+#### - PrimaryPath
 
 This specifies the state of the path: primary or secondary. If the value is 1, it means the path is the primary path, and if it is 0, it is a secondary path.
 
 
-### -field ConnectionStatus
+#### - ConnectionStatus
 
 This indicates the status of the connection.
 <table>
@@ -133,7 +133,7 @@ The path is reconnecting.
 </table> 
 
 
-### -field TCPOffLoadAvailable
+#### - TCPOffLoadAvailable
 
 This indicates whether the connection supports TCP offload or not.
 

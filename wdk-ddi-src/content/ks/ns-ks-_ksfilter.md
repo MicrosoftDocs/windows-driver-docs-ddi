@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9233f69-1ddf-4133-afd3-150aef5fc4a0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfilter, PKSFILTER structure pointer [Streaming Media Devices], KSFILTER, KSFILTER structure [Streaming Media Devices], *PKSFILTER, avstruct_6662a03a-c6de-4f5e-b86a-a3685dba320e.xml, ks/PKSFILTER, _KSFILTER, ks/KSFILTER, PKSFILTER
+ms.keywords: PKSFILTER structure pointer [Streaming Media Devices], ks/PKSFILTER, KSFILTER, _KSFILTER, KSFILTER structure [Streaming Media Devices], ks/KSFILTER, PKSFILTER, avstruct_6662a03a-c6de-4f5e-b86a-a3685dba320e.xml, stream.ksfilter, *PKSFILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,11 +100,11 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
+<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
+
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-
-<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
  
 

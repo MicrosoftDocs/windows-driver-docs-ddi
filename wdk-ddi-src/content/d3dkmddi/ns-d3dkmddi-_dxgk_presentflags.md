@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ff1fe315-7824-4e61-83f5-6d75aba2a941
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_PRESENTFLAGS, d3dkmddi/DXGK_PRESENTFLAGS, DXGK_PRESENTFLAGS structure [Display Devices], DmStructs_b8913202-bee3-4584-b323-6c6fb47a5c8d.xml, DXGK_PRESENTFLAGS, display.dxgk_presentflags"
+ms.keywords: DmStructs_b8913202-bee3-4584-b323-6c6fb47a5c8d.xml, d3dkmddi/DXGK_PRESENTFLAGS, display.dxgk_presentflags, _DXGK_PRESENTFLAGS, DXGK_PRESENTFLAGS structure [Display Devices], DXGK_PRESENTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,28 +89,28 @@ typedef struct _DXGK_PRESENTFLAGS {
 
 
 
-### -field Blt
+#### - Blt
 
 [in] A UINT value that specifies whether a copy operation, instead of a flip operation, occurs between source and destination surfaces.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field ColorFill
+#### - ColorFill
 
 [in] A UINT value that specifies whether a source exists to present from. If this member is set, no source exists, and the driver should fill the destination rectangle on the destination surface with the A8R8G8B8 color that the <b>Color</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a> structure specifies.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field Flip
+#### - Flip
 
 [in] A UINT value that specifies whether a flip operation occurs between back and primary surfaces. If this member is set, the driver should perform the present operation by pointing the video scan output to the source rather than copying from the source to the destination. This type of present operation is tear-free.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field FlipWithNoWait
+#### - FlipWithNoWait
 
 [in] A UINT value that specifies whether tear-free flip operations should not stall the graphics pipeline. If a tear-free flip stalls the graphics pipeline, the graphics processing unit (GPU) must wait for the tear-free flip to take effect before it runs the subsequent command. 
 
@@ -119,28 +119,28 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field SrcColorKey
+#### - SrcColorKey
 
 [in] A UINT value that specifies whether to perform source color-keying by using the value in the <b>Color</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a> structure. That is, any pixel in the source surface that matches the color key should not be copied to the destination surface, and all of the source pixels that do not match the color key should be copied.
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
 
-### -field DstColorKey
+#### - DstColorKey
 
 [in] A UINT value that specifies whether to perform destination color-keying by using the value in the <b>Color</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a> structure. That is, any pixel in the destination surface that matches the color key should be replaced with the corresponding pixel from the source surface, and all destination pixels that do not match the color key should not be replaced.
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
 
-### -field LinearToSrgb
+#### - LinearToSrgb
 
 [in] A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the copy operation. sRGB format is gamma corrected. For more information about the sRGB format, visit the <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 
-### -field Rotate
+#### - Rotate
 
 [in] A UINT value that specifies whether to rotate the presentation data to match the current orientation of the screen during the presentation bit-block transfer (bitblt). The current orientation of the screen is set in the <b>Rotation</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure, which is set in the <b>ContentTransformation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure for the video present path.
 
@@ -149,7 +149,7 @@ The display miniport driver should rotate the data only if the <b>Rotate</b> bit
 Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
 
 
-### -field FlipStereo
+#### - FlipStereo
 
 [in] Specifies whether the driver should flip both left and right images of a stereo allocation.
 
@@ -166,7 +166,7 @@ Setting this member is equivalent to setting the    ninth bit of the 32-bit <b>V
 Supported starting with Windows 8.
 
 
-### -field FlipStereoTemporaryMono
+#### - FlipStereoTemporaryMono
 
 [in] Specifies whether the driver should use the left image of a stereo allocation for the right and left portions of a stereo frame. The driver performs the same present operation as with <b>FlipStereo</b>, except that it should scan out only from the left image to produce both images of a stereo frame.
 
@@ -183,7 +183,7 @@ Setting this member is equivalent to setting the    tenth bit of the 32-bit <b>V
 Supported starting with Windows 8.
 
 
-### -field FlipStereoPreferRight
+#### - FlipStereoPreferRight
 
 [in] Specifies that when the driver clones a stereo primary allocation to a mono monitor, it should use the right image.
 
@@ -196,7 +196,7 @@ Setting this member is equivalent to setting the    eleventh bit of the 32-bit <
 Supported starting with Windows 8.
 
 
-### -field BltStereoUseRight
+#### - BltStereoUseRight
 
 [in] Specifies that when the driver presents from a stereo allocation to a mono allocation, it should use the right image. If not set, the driver should use the left image.
 
@@ -205,7 +205,7 @@ Setting this member is equivalent to setting the    twelfth bit of the 32-bit <b
 Supported starting with Windows 8.
 
 
-### -field FlipWithMultiPlaneOverlay
+#### - FlipWithMultiPlaneOverlay
 
 [in] Specifies whether a flip operation occurs between an overlay plane and the primary surface. If this member is set, the driver should perform the present operation by pointing the video scan output to the source plane rather than copying from the source plane to the destination.
 
@@ -219,7 +219,7 @@ Supported starting with Windows 8.1.
  
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero.
 
@@ -232,7 +232,7 @@ Supported starting with Windows 8.
 Setting this member to zero is equivalent to setting the remaining 24 bits (0xFFFFFF00) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that DXGK_PRESENTFLAGS contains that can hold a 32-bit value that identifies the type of present operation to perform.
 
@@ -253,25 +253,25 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
  
 

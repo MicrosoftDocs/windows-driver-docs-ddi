@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68372562-9af0-431d-90ae-c82678d9103e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PPNP_BUS_INFORMATION, PPNP_BUS_INFORMATION, _PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, kernel.pnp_bus_information, wdm/PNP_BUS_INFORMATION, PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PPNP_BUS_INFORMATION, wdm/PPNP_BUS_INFORMATION, PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], _PNP_BUS_INFORMATION, PNP_BUS_INFORMATION, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, kernel.pnp_bus_information, wdm/PNP_BUS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PNP_BUS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION"
+req.typenames: PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -71,15 +71,15 @@ typedef struct _PNP_BUS_INFORMATION {
 
 
 
-### -field BusTypeGuid
+#### - BusTypeGuid
 
 
 
-### -field LegacyBusType
+#### - LegacyBusType
 
 
 
-### -field BusNumber
+#### - BusNumber
 
 
 

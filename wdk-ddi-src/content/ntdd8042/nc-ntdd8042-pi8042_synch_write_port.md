@@ -40,7 +40,7 @@ apiname:
 -	SynchWritePort
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_SYNCH_WRITE_PORT callback
@@ -72,17 +72,17 @@ NTSTATUS SynchWritePort(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to a context supplied by I8042prt. 
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the UCHAR value to write to an i8042 port.
 
 
-### -param WaitForACK [in]
+#### - WaitForACK [in]
 
 Specifies, if <b>TRUE</b>, that the routine waits until the write is acknowledged by the i8042 port. Otherwise, the routine returns without waiting for an acknowledgment from the port.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetParentSilo, kernel.psgetparentsilo, ntddk/PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture]
+ms.keywords: PsGetParentSilo function [Kernel-Mode Driver Architecture], PsGetParentSilo, ntddk/PsGetParentSilo, kernel.psgetparentsilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ PESILO  PsGetParentSilo(
 
 
 
-### -param Job [in, optional]
+#### - Job [in, optional]
 
 A pointer to an <b>EJOB</b> structure that represents the job object. 
 

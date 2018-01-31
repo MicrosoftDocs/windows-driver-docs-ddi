@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e8b0a1c0-c018-4556-b43c-fae4f7cf43de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsQueryInterfaces method, KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, KsQueryInterfaces method [Streaming Media Devices], IKsPin interface, KsQueryInterfaces method [Streaming Media Devices], IKsPin::KsQueryInterfaces, stream.ikspin_ksqueryinterfaces, ksproxy/IKsPin::KsQueryInterfaces
+ms.keywords: KsQueryInterfaces method [Streaming Media Devices], IKsPin, KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, IKsPin interface [Streaming Media Devices], KsQueryInterfaces method, KsQueryInterfaces method [Streaming Media Devices], IKsPin interface, stream.ikspin_ksqueryinterfaces, IKsPin::KsQueryInterfaces, ksproxy/IKsPin::KsQueryInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsQueryInterfaces(
 
 
 
-### -param InterfaceList [out]
+#### - InterfaceList [out]
 
 Pointer to a buffer that receives a pointer to a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> structures that describe interface types. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
@@ -88,9 +88,9 @@ The returned interfaces are ordered by preference.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
-
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+
+<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
  
 

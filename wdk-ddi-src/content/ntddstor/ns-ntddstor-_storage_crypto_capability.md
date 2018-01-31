@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9DFAB3C6-F833-487D-87FC-292B3AFAD767
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_CRYPTO_CAPABILITY structure [Storage Devices], PSTORAGE_CRYPTO_CAPABILITY structure pointer [Storage Devices], PSTORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY, ntddstor/PSTORAGE_CRYPTO_CAPABILITY, ntddstor/STORAGE_CRYPTO_CAPABILITY, storage.storage_crypto_capability, _STORAGE_CRYPTO_CAPABILITY, *PSTORAGE_CRYPTO_CAPABILITY
+ms.keywords: "*PSTORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY structure [Storage Devices], _STORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY structure pointer [Storage Devices], STORAGE_CRYPTO_CAPABILITY, storage.storage_crypto_capability, ntddstor/STORAGE_CRYPTO_CAPABILITY, ntddstor/PSTORAGE_CRYPTO_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_CRYPTO_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY"
+req.typenames: STORAGE_CRYPTO_CAPABILITY, *PSTORAGE_CRYPTO_CAPABILITY
 ---
 
 # _STORAGE_CRYPTO_CAPABILITY structure
@@ -72,32 +72,32 @@ typedef struct _STORAGE_CRYPTO_CAPABILITY {
 
 
 
-### -field Version
+#### - Version
 
 Reserved for system use.
 
 
-### -field Size
+#### - Size
 
 Reserved for system use.
 
 
-### -field CryptoCapabilityIndex
+#### - CryptoCapabilityIndex
 
 Reserved for system use.
 
 
-### -field AlgorithmId
+#### - AlgorithmId
 
 Reserved for system use.
 
 
-### -field KeySize
+#### - KeySize
 
 Reserved for system use.
 
 
-### -field DataUnitSizeBitmask
+#### - DataUnitSizeBitmask
 
 Reserved for system use.
 

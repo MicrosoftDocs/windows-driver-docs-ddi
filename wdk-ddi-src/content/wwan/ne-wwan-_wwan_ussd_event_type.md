@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CEBC8A75-03E9-4E2A-9092-2FA3005371FE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_USSD_EVENT_TYPE, *PWWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventNetworkTimeOut, wwan/WWAN_USSD_EVENT_TYPE, WwanUssdEventActionRequired, WwanUssdEventTerminated, WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventActionRequired, _WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOtherLocalClient, WwanUssdEventOperationNotSupported, netvista.wwan_ussd_event_type, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventOtherLocalClient, wwan/WwanUssdEventOperationNotSupported, wwan/WwanUssdEventTerminated, WwanUssdEventNoActionRequired
+ms.keywords: WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventNoActionRequired, wwan/WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventTerminated, WwanUssdEventOperationNotSupported, WwanUssdEventNetworkTimeOut, _WWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE, WwanUssdEventTerminated, WwanUssdEventActionRequired, *PWWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventOtherLocalClient, netvista.wwan_ussd_event_type, wwan/WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventActionRequired, wwan/WwanUssdEventOperationNotSupported, WwanUssdEventOtherLocalClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_USSD_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE"
+req.typenames: WWAN_USSD_EVENT_TYPE, *PWWAN_USSD_EVENT_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ typedef enum _WWAN_USSD_EVENT_TYPE {
 
 
 
-### -field WwanUssdEventNoActionRequired
+#### - WwanUssdEventNoActionRequired
 
 Indicates no further action is required or information needed.
 
 
-### -field WwanUssdEventActionRequired
+#### - WwanUssdEventActionRequired
 
 Indicates the USSD session is still open and further information is needed, such as additional USSD strings.
 
 
-### -field WwanUssdEventTerminated
+#### - WwanUssdEventTerminated
 
 Indicates the USSD session has been terminated.
 
 
-### -field WwanUssdEventOtherLocalClient
+#### - WwanUssdEventOtherLocalClient
 
 Indicates an active USSD session already exists and that a new session cannot be established until the active session terminates. This includes sessions that are invisible to the MB stack such as a USSD session termination in the Subscriber Identity Module (SIM).
 
 
-### -field WwanUssdEventOperationNotSupported
+#### - WwanUssdEventOperationNotSupported
 
 Indicates that the previous request is not supported by the miniport driver or MB device.
 
 
-### -field WwanUssdEventNetworkTimeOut
+#### - WwanUssdEventNetworkTimeOut
 
 Indicates that the USSD session was closed due to a session time-out either locally or by the network. The miniport driver or MB device is responsible for timing out an inactive USSD session after an implementation-specific time-out.
 

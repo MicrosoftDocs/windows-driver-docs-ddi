@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 60cce78f-1025-41a7-861d-150ef28376cb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PFEATURE_PROFILE_TYPE, ntddmmc/ProfileDvdDashRDualLayer, PFEATURE_PROFILE_TYPE enumeration pointer [Storage Devices], ProfileBDRRandomWritable, FEATURE_PROFILE_TYPE, ntddmmc/ProfileDvdRam, ProfileNonRemovableDisk, ntddmmc/ProfileDvdRWSequential, ProfileDvdPlusR, ProfileHDDVDRWDualLayer, ProfileDvdPlusRW, ntddmmc/ProfileHDDVDRewritable, ProfileHDDVDRom, ProfileHDDVDRewritable, ProfileDvdRecordable, ProfileAS_MO, ntddmmc/ProfileHDDVDRam, FEATURE_PROFILE_TYPE enumeration [Storage Devices], ntddmmc/ProfileCdRecordable, ProfileDvdDashRLayerJump, ProfileDvdPlusRDualLayer, ProfileHDDVDRecordable, ProfileRemovableDisk, ProfileBDRom, ProfileDDCdRecordable, ProfileMOErasable, ntddmmc/ProfileDvdRewritable, ProfileDDCdrom, ntddmmc/ProfileDvdPlusRWDualLayer, ntddmmc/ProfileRemovableDisk, ntddmmc/ProfileDvdDashRLayerJump, ntddmmc/ProfileDvdPlusR, PFEATURE_PROFILE_TYPE, ntddmmc/ProfileHDDVDRDualLayer, ntddmmc/ProfileBDRRandomWritable, ntddmmc/ProfileBDRewritable, ntddmmc/ProfileNonRemovableDisk, ProfileInvalid, ntddmmc/ProfileMOErasable, ntddmmc/ProfileDDCdRecordable, ProfileDvdPlusRWDualLayer, ntddmmc/ProfileDvdPlusRDualLayer, ProfileNonStandard, ProfileDvdRewritable, ntddmmc/PFEATURE_PROFILE_TYPE, ProfileCdRewritable, ntddmmc/ProfileDvdRom, ProfileDvdRom, ProfileDDCdRewritable, ProfileBDRSequentialWritable, ntddmmc/ProfileDvdPlusRW, ntddmmc/ProfileHDDVDRecordable, ntddmmc/ProfileHDDVDRom, ntddmmc/ProfileNonStandard, ProfileCdRecordable, ntddmmc/ProfileDvdRecordable, ntddmmc/ProfileHDDVDRWDualLayer, ProfileMOWriteOnce, ntddmmc/ProfileMOWriteOnce, ntddmmc/ProfileBDRSequentialWritable, ntddmmc/ProfileCdRewritable, ProfileBDRewritable, ProfileHDDVDRDualLayer, ntddmmc/ProfileInvalid, ntddmmc/ProfileBDRom, ntddmmc/ProfileDDCdRewritable, structs-CD-ROM_89bf20da-a096-4f37-ab24-219533578d34.xml, ProfileHDDVDRam, ntddmmc/FEATURE_PROFILE_TYPE, storage.feature_profile_type, ProfileCdrom, ProfileDvdRam, ntddmmc/ProfileDDCdrom, ntddmmc/ProfileCdrom, ntddmmc/ProfileAS_MO, ProfileDvdRWSequential, _FEATURE_PROFILE_TYPE, ProfileDvdDashRDualLayer"
+ms.keywords: ntddmmc/ProfileDDCdRewritable, ProfileDvdPlusRWDualLayer, ProfileHDDVDRWDualLayer, ntddmmc/ProfileHDDVDRDualLayer, ntddmmc/ProfileDvdDashRLayerJump, ntddmmc/ProfileCdrom, ProfileBDRom, ProfileAS_MO, ProfileNonStandard, storage.feature_profile_type, ProfileInvalid, ProfileMOErasable, ProfileHDDVDRecordable, ProfileBDRRandomWritable, ntddmmc/ProfileDvdRam, ntddmmc/ProfileHDDVDRewritable, ntddmmc/ProfileHDDVDRom, ntddmmc/ProfileDvdPlusRW, ntddmmc/ProfileBDRewritable, *PFEATURE_PROFILE_TYPE, ntddmmc/ProfileDvdDashRDualLayer, ntddmmc/ProfileCdRecordable, ProfileDvdPlusRW, ProfileDDCdrom, ProfileDvdPlusRDualLayer, ntddmmc/ProfileHDDVDRam, ntddmmc/ProfileDvdRom, ntddmmc/ProfileDvdPlusRWDualLayer, ProfileCdRewritable, ProfileDvdRecordable, ntddmmc/ProfileBDRSequentialWritable, PFEATURE_PROFILE_TYPE, ProfileHDDVDRDualLayer, ProfileDvdDashRLayerJump, FEATURE_PROFILE_TYPE, PFEATURE_PROFILE_TYPE enumeration pointer [Storage Devices], ProfileCdrom, ProfileCdRecordable, ntddmmc/ProfileNonRemovableDisk, structs-CD-ROM_89bf20da-a096-4f37-ab24-219533578d34.xml, ProfileDvdRom, ProfileNonRemovableDisk, ProfileDvdRam, ntddmmc/ProfileBDRom, ProfileDDCdRecordable, ProfileDvdRewritable, ProfileHDDVDRom, ProfileRemovableDisk, ntddmmc/ProfileAS_MO, ProfileDvdDashRDualLayer, ntddmmc/ProfileMOWriteOnce, ProfileDDCdRewritable, ProfileBDRSequentialWritable, ProfileHDDVDRam, ntddmmc/PFEATURE_PROFILE_TYPE, ntddmmc/ProfileDvdPlusR, ntddmmc/ProfileDvdPlusRDualLayer, ProfileBDRewritable, ntddmmc/ProfileMOErasable, ntddmmc/FEATURE_PROFILE_TYPE, _FEATURE_PROFILE_TYPE, ntddmmc/ProfileBDRRandomWritable, ntddmmc/ProfileDDCdRecordable, ntddmmc/ProfileInvalid, ProfileDvdRWSequential, ntddmmc/ProfileHDDVDRecordable, ProfileHDDVDRewritable, ProfileMOWriteOnce, ntddmmc/ProfileDDCdrom, ntddmmc/ProfileRemovableDisk, ntddmmc/ProfileDvdRWSequential, FEATURE_PROFILE_TYPE enumeration [Storage Devices], ProfileDvdPlusR, ntddmmc/ProfileHDDVDRWDualLayer, ntddmmc/ProfileCdRewritable, ntddmmc/ProfileDvdRecordable, ntddmmc/ProfileDvdRewritable, ntddmmc/ProfileNonStandard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_PROFILE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_PROFILE_TYPE, *PFEATURE_PROFILE_TYPE
+req.typenames: "*PFEATURE_PROFILE_TYPE, FEATURE_PROFILE_TYPE"
 ---
 
 # _FEATURE_PROFILE_TYPE enumeration
@@ -100,166 +100,166 @@ typedef enum _FEATURE_PROFILE_TYPE {
 
 
 
-### -field ProfileInvalid
+#### - ProfileInvalid
 
 Does not indicate a valid profile. 
 
 
-### -field ProfileNonRemovableDisk
+#### - ProfileNonRemovableDisk
 
 Indicates the profile named "Nonremovable disk" by the <i>SCSI-3 Multimedia (MMC-3)</i> specification. This profile is used with devices that manage rewritable media and are capable of changing behavior. 
 
 
-### -field ProfileRemovableDisk
+#### - ProfileRemovableDisk
 
 Indicates the profile named "Removable disk" by the <i>MMC-3</i> specification. This profile is used with devices that manage rewritable, removable media. 
 
 
-### -field ProfileMOErasable
+#### - ProfileMOErasable
 
 Indicates the profile named "MO Erasable" by the <i>MMC-3</i> specification. This profile is used with devices that manage magneto-optical media and that have a sector-erase capability. 
 
 
-### -field ProfileMOWriteOnce
+#### - ProfileMOWriteOnce
 
 Indicates the profile named "MO Write Once" by the <i>MMC-3</i> specification. This profile is used with devices that manage magneto-optical write-once media.
 
 
-### -field ProfileAS_MO
+#### - ProfileAS_MO
 
 Indicates the profile named "AS-MO" by the <i>MMC-3</i> specification. This profile is used with devices that implement Advance Storage technology and manage magneto-optical media. 
 
 
-### -field ProfileCdrom
+#### - ProfileCdrom
 
 Indicates the profile named "CD-ROM" by the <i>MMC-3</i> specification. This profile is used with devices that manage read-only compact disc media.
 
 
-### -field ProfileCdRecordable
+#### - ProfileCdRecordable
 
 Indicates the profile named "CD-R" by the <i>MMC-3</i> specification. This profile is used with devices that manage write-once compact disc media. 
 
 
-### -field ProfileCdRewritable
+#### - ProfileCdRewritable
 
 Indicates the profile named "CD-RW" by the <i>MMC-3</i> specification. This profile is used with devices that manage rewritable compact disc media. 
 
 
-### -field ProfileDvdRom
+#### - ProfileDvdRom
 
 Indicates the profile named "DVD-ROM" by the <i>MMC-3</i> specification. This profile is used with devices that manage read-only DVD media. 
 
 
-### -field ProfileDvdRecordable
+#### - ProfileDvdRecordable
 
 Indicates the profile named "DVD-R" by the <i>MMC-3</i> specification. This profile is used with devices that manage write-once DVD media and operate in sequential recording mode. 
 
 
-### -field ProfileDvdRam
+#### - ProfileDvdRam
 
 Indicates the profile named "DVD-RAM or DVD+RW" by the <i>MMC-3</i> specification. This profile is used with devices that manage rewritable DVD media. 
 
 
-### -field ProfileDvdRewritable
+#### - ProfileDvdRewritable
 
 Indicates the profile named "DVD-RW Restricted Overwrite" by the <i>MMC-3</i> specification. This profile is used with devices that manage rerecordable DVD media and operate in packet-writing mode. 
 
 
-### -field ProfileDvdRWSequential
+#### - ProfileDvdRWSequential
 
 Indicates the profile named "DVD-RW Sequential Recording" by the <i>MMC-3</i> specification. This profile is used with devices that implement a series of features associated with sequential recording, such as the features "Incremental Streaming Writable" and "Real-Time Streaming". For a full list of the features supported with this profile, see the <i>MMC-3</i> specification. 
 
 
-### -field ProfileDvdDashRDualLayer
+#### - ProfileDvdDashRDualLayer
 
 
 
-### -field ProfileDvdDashRLayerJump
+#### - ProfileDvdDashRLayerJump
 
 Reserved 0x0017 - 0x0019
 
 
-### -field ProfileDvdPlusRW
+#### - ProfileDvdPlusRW
 
 Indicates the profile named "DVD+RW" by the <i>MMC-3</i> specification. This profile is used with devices that implement a series of features required to manage DVD media that is both readable and writable. For a full list of the features supported with this profile, see the <i>MMC-3</i> specification. 
 
 
-### -field ProfileDvdPlusR
+#### - ProfileDvdPlusR
 
 Reserved 0x001C - 001F
 
 
-### -field ProfileDDCdrom
+#### - ProfileDDCdrom
 
 Indicates the profile named "DDCD-ROM" by the <i>MMC-3</i> specification. This profile is used with devices that can read "DDCD specific structure." For a full list of the features supported with this profile, see the <i>MMC-3</i> specification. 
 
 
-### -field ProfileDDCdRecordable
+#### - ProfileDDCdRecordable
 
 Indicates the profile named "DDCD-R" by the <i>MMC-3</i> specification. This profile is used with devices that can read "DDCD-R specific structure." For a full list of the features supported with this profile, see the <i>MMC-3</i> specification. 
 
 
-### -field ProfileDDCdRewritable
+#### - ProfileDDCdRewritable
 
 Indicates the profile named "DDCD-RW" by the <i>MMC-3</i> specification. This profile is used with devices that can read "DDCD-RW specific structure." For a full list of the features supported with this profile, see the <i>MMC-3</i> specification. 
 
 
-### -field ProfileDvdPlusRWDualLayer
+#### - ProfileDvdPlusRWDualLayer
 
 
 
-### -field ProfileDvdPlusRDualLayer
+#### - ProfileDvdPlusRDualLayer
 
 Reserved 0x002C - 0x003F
 
 
-### -field ProfileBDRom
+#### - ProfileBDRom
 
 
 
-### -field ProfileBDRSequentialWritable
+#### - ProfileBDRSequentialWritable
 
 BD-R 'SRM'
 
 
-### -field ProfileBDRRandomWritable
+#### - ProfileBDRRandomWritable
 
 BD-R 'RRM'
 
 
-### -field ProfileBDRewritable
+#### - ProfileBDRewritable
 
 Reserved 0x0044 - 0x004F
 
 
-### -field ProfileHDDVDRom
+#### - ProfileHDDVDRom
 
 
 
-### -field ProfileHDDVDRecordable
+#### - ProfileHDDVDRecordable
 
 
 
-### -field ProfileHDDVDRam
+#### - ProfileHDDVDRam
 
 
 
-### -field ProfileHDDVDRewritable
+#### - ProfileHDDVDRewritable
 
 Reserved 0x0054 - 0x0057
 
 
-### -field ProfileHDDVDRDualLayer
+#### - ProfileHDDVDRDualLayer
 
 Reserved 0x0059 - 0x0059
 
 
-### -field ProfileHDDVDRWDualLayer
+#### - ProfileHDDVDRWDualLayer
 
 Reserved 0x005B - 0xfffe
 
 
-### -field ProfileNonStandard
+#### - ProfileNonStandard
 
 Indicates that the device does not conform to any profile. 
 

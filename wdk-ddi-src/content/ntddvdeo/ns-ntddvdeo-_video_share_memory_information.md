@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 004ecb65-a462-45e5-a647-9655727b202b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PVIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], _VIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION, Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices]"
+ms.keywords: VIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], PVIDEO_SHARE_MEMORY_INFORMATION, Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, *PVIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices], _VIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _VIDEO_SHARE_MEMORY_INFORMATION {
 
 
 
-### -field SharedViewOffset
+#### - SharedViewOffset
 
 Indicates the offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">frame buffer</a>.
 
 
-### -field SharedViewSize
+#### - SharedViewSize
 
 Indicates the size, in bytes, of the frame buffer. The value of this member will always be a multiple of 64 KB.
 
 
-### -field VirtualAddress
+#### - VirtualAddress
 
 Indicates the address in virtual memory at which the requested memory was mapped.
 

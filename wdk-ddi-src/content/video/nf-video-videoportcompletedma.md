@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8af5a397-7945-4f72-a253-04d227bf3ca1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortCompleteDma, VideoPort_Functions_1ee3a02f-e0bb-4230-8161-957ceba37206.xml, VideoPortCompleteDma, VideoPortCompleteDma function [Display Devices], display.videoportcompletedma
+ms.keywords: VideoPortCompleteDma, video/VideoPortCompleteDma, VideoPort_Functions_1ee3a02f-e0bb-4230-8161-957ceba37206.xml, VideoPortCompleteDma function [Display Devices], display.videoportcompletedma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VP_STATUS VideoPortCompleteDma(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VpDmaAdapter [in]
+#### - VpDmaAdapter [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a call to <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>.
 
 
-### -param VpScatterGather [in]
+#### - VpScatterGather [in]
 
 Pointer to the <a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a> structure previously passed to the miniport driver callback routine, <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>.
 
 
-### -param WriteToDevice [in]
+#### - WriteToDevice [in]
 
 Specifies the direction of the DMA transfer. A value of <b>TRUE</b> denotes a transfer from the buffer to the device, and a value of <b>FALSE</b> denotes a transfer from the device to the buffer.
 
@@ -109,13 +109,13 @@ It is important to note that the scatter/gather list built by <b>VideoPortStartD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
-
-<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
+<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
 
 <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
-<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+
+<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
 
  
 

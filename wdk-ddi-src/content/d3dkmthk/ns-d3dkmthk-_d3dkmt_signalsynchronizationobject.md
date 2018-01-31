@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 13368ea2-dd2e-48af-b528-097104dffb60
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, display.d3dkmt_signalsynchronizationobject, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
+ms.keywords: d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dkmt_signalsynchronizationobject, OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT {
 
 
 
-### -field hContext
+#### - hContext
 
 [in] A kernel-mode handle to a context that signals the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies.
 
 
-### -field ObjectCount
+#### - ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array. 
 
 
-### -field ObjectHandleArray
+#### - ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member signals. The D3DDDI_MAX_OBJECT_SIGNALED constant, which is defined as 32, indicates the maximum number of synchronization events that the context can signal. 
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject.md">D3DKMTSignalSynchronizationObject</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject.md">D3DKMTSignalSynchronizationObject</a>
 
  
 

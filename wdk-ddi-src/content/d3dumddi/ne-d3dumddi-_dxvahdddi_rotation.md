@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 667f1c5e-c342-40b2-b215-2538669288cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_ROTATION_180, d3dumddi/DXVAHDDDI_ROTATION_270, _DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION_180, DXVAHDDDI_ROTATION enumeration [Display Devices], DXVAHDDDI_ROTATION_90, d3dumddi/DXVAHDDDI_ROTATION_90, DXVAHDDDI_ROTATION_IDENTITY, d3dumddi/DXVAHDDDI_ROTATION_IDENTITY, DXVAHDDDI_ROTATION_270, d3dumddi/DXVAHDDDI_ROTATION, DXVAHDDDI_ROTATION, display.dxvahdddi_rotation
+ms.keywords: DXVAHDDDI_ROTATION enumeration [Display Devices], _DXVAHDDDI_ROTATION, DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION_IDENTITY, d3dumddi/DXVAHDDDI_ROTATION_90, d3dumddi/DXVAHDDDI_ROTATION_270, display.dxvahdddi_rotation, d3dumddi/DXVAHDDDI_ROTATION_180, d3dumddi/DXVAHDDDI_ROTATION, DXVAHDDDI_ROTATION_180, DXVAHDDDI_ROTATION_IDENTITY, DXVAHDDDI_ROTATION_90, DXVAHDDDI_ROTATION_270
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _DXVAHDDDI_ROTATION {
 
 
 
-### -field DXVAHDDDI_ROTATION_IDENTITY
+#### - DXVAHDDDI_ROTATION_IDENTITY
 
 Indicates that rotation is 0 degrees—landscape mode.
 
 
-### -field DXVAHDDDI_ROTATION_90
+#### - DXVAHDDDI_ROTATION_90
 
 Indicates that rotation is 90 degrees clockwise—portrait mode.
 
 
-### -field DXVAHDDDI_ROTATION_180
+#### - DXVAHDDDI_ROTATION_180
 
 Indicates that rotation is 180 degrees clockwise—inverted landscape mode.
 
 
-### -field DXVAHDDDI_ROTATION_270
+#### - DXVAHDDDI_ROTATION_270
 
 Indicates that rotation is 270 degrees clockwise—inverted portrait mode.
 

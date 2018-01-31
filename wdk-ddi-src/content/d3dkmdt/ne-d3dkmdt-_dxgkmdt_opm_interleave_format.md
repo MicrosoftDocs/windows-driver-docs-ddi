@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: beaee817-5a91-40df-8b29-4750e3c1600e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, _DXGKMDT_OPM_INTERLEAVE_FORMAT, display.dxgkmdt_opm_interleave_format, DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, DmEnums_7b247abd-613b-495b-aea0-d53d9b519525.xml, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, DXGKMDT_OPM_INTERLEAVE_FORMAT, DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT, DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE
+ms.keywords: d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, DXGKMDT_OPM_INTERLEAVE_FORMAT, DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT, _DXGKMDT_OPM_INTERLEAVE_FORMAT, DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, display.dxgkmdt_opm_interleave_format, DmEnums_7b247abd-613b-495b-aea0-d53d9b519525.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _DXGKMDT_OPM_INTERLEAVE_FORMAT {
 
 
 
-### -field DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER
+#### - DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER
 
 Indicates that the video frame has a scan line ordering other than those given in the following constants of this enumeration.
 
 
-### -field DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE
+#### - DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE
 
 Indicates that each video frame has a scan line ordering that is progressive (that is, not interlaced).
 
 
-### -field DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST
+#### - DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST
 
 Indicates that each video frame has a scan line ordering that is interlaced, each field contains half of a frame, and the even scan lines are displayed first. 
 
 
-### -field DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST
+#### - DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST
 
 Indicates that each video frame has a scan line ordering that is interlaced, each field contains half of a frame, and the odd scan lines are displayed first. 
 
 
-### -field DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG
+#### - DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 

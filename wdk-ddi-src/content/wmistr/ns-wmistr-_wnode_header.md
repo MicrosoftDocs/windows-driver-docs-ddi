@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a895f048-b111-4ccc-8466-fe9b169a2f95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_WNODE_HEADER, kernel.wnode_header, WNODE_HEADER structure [Kernel-Mode Driver Architecture], *PWNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], WNODE_HEADER, PWNODE_HEADER, wmistr/WNODE_HEADER, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, wmistr/PWNODE_HEADER"
+ms.keywords: PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], PWNODE_HEADER, kernel.wnode_header, wmistr/WNODE_HEADER, wmistr/PWNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, _WNODE_HEADER, *PWNODE_HEADER, WNODE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WNODE_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -129,22 +129,22 @@ typedef struct _WNODE_HEADER {
  
 
 
-### -field BufferSize
+#### - BufferSize
 
 This member specifies the size, in bytes, of the nonpaged buffer to receive any <b>WNODE_<i>XXX</i></b> data to be returned, including this <b>WNODE_HEADER</b> structure, additional members of a <b>WNODE_<i>XXX</i></b> structure of the type indicated by <b>Flags</b>, and any WMI- or driver-determined data that accompanies that structure.
 
 
-### -field ProviderId
+#### - ProviderId
 
 If <b>Flags</b> is set to WNODE_FLAG_EVENT_ITEM or WNODE_FLAG_EVENT_REFERENCE, <b>ProviderId</b> should contain the ID of the WMI provider associated with the device object. You can obtain the <b>ProviderId</b> value by calling <a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>. If <b>Flags</b> is set to any other value, this member is reserved.
 
 
-### -field Guid
+#### - Guid
 
 This member indicates the GUID that represents the data block associated with the <b>WNODE_<i>XXX</i></b> to be returned. 
 
 
-### -field ClientContext
+#### - ClientContext
 
 This member stores the clock type for the session. Possible values are included in the following table. 
 <table>
@@ -185,7 +185,7 @@ CPU cycle
 </table> 
 
 
-### -field Flags
+#### - Flags
 
 This member indicates the type of <b>WNODE_<i>XXX</i></b> structure that contains the WNODE_HEADER structure:
 
@@ -350,7 +350,7 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
 
@@ -358,17 +358,17 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 <a href="..\wmistr\ns-wmistr-tagwnode_method_item.md">WNODE_METHOD_ITEM</a>
 
 <a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
-
-<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
 
  
 

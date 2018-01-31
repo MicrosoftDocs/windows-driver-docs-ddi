@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 402f292c-14f8-4ff3-b1b3-b992578cbcc8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], ksmedia/PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER, stream.ks_videoinfoheader, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml, tagKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER structure [Streaming Media Devices], PKS_VIDEOINFOHEADER, ksmedia/KS_VIDEOINFOHEADER
+ms.keywords: ksmedia/KS_VIDEOINFOHEADER, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml, tagKS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER, stream.ks_videoinfoheader, KS_VIDEOINFOHEADER structure [Streaming Media Devices], PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, ksmedia/PKS_VIDEOINFOHEADER, PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct tagKS_VIDEOINFOHEADER {
 
 
 
-### -field rcSource
+#### - rcSource
 
 Specifies a clipping rectangle that selects the portion of the active video signal to use. 
 
 
-### -field rcTarget
+#### - rcTarget
 
 Specifies a rectangle that defines the target destination video window.
 
 
-### -field dwBitRate
+#### - dwBitRate
 
 Specifies a value that indicates the video stream's approximate data rate, in bits per second.
 
 
-### -field dwBitErrorRate
+#### - dwBitErrorRate
 
 Specifies a value that indicates the video stream's data error rate, in bit errors per second.
 
 
-### -field AvgTimePerFrame
+#### - AvgTimePerFrame
 
 Specifies the average time per frame, in 100-nanosecond units.
 
 
-### -field bmiHeader
+#### - bmiHeader
 
 Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvSendPacketCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ DWORD APIENTRY Dot11ExtIhvSendPacketCompletion(
 
 
 
-### -param hSendCompletion [in, optional]
+#### - hSendCompletion [in, optional]
 
 The handle value that the IHV Extensions DLL used to identify the packet when it called the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a> function.

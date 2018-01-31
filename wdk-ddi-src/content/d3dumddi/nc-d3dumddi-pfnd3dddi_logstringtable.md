@@ -71,12 +71,12 @@ _Check_return_ HRESULT APIENTRY* LogMarkerStringTable(
 
 
 
-### -param hLog
+#### - hLog
 
 A handle to the Event Tracing for Windows (ETW) log that is to be written to.
 
 
-### -param pfnLogStringTableEntryCb
+#### - pfnLogStringTableEntryCb
 
 A function pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddicb_logstringtableentry.md">LogMarkerStringTableEntry</a> function that locates a string table entry.
 

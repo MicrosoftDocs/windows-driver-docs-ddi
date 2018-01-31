@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.appendtaillist, wdm/AppendTailList, AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], AppendTailList, kernel.appendtaillist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID AppendTailList(
 
 
 
-### -param ListHead [in, out]
+#### - ListHead [in, out]
 
 A pointer to the head of the list to which the list pointed to by <i>ListToAppend</i> is to be appended. This parameter must be a valid, non-NULL pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that is the head of a list. This list can be empty.
 
 
-### -param ListToAppend [in, out]
+#### - ListToAppend [in, out]
 
 A pointer to the first entry in the list to append to the list pointed to by <i>ListHead</i>. This parameter must be a valid, non-NULL pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that is the first entry in a headless list. For more information, see Remarks.
 

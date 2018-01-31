@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f87c74c3-fcb1-4358-ade6-6c0afc0020e2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IoReadPartitionTable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, ntddk/IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices], storage.ioreadpartitiontable
+ms.keywords: IoReadPartitionTable routine [Storage Devices], storage.ioreadpartitiontable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, IoReadPartitionTable, ntddk/IoReadPartitionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FASTCALL IoReadPartitionTable(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for the disk whose partitions are to be read.
 
 
-### -param SectorSize [in]
+#### - SectorSize [in]
 
 Specifies the size of the sectors on the disk.
 
 
-### -param ReturnRecognizedPartitions [in]
+#### - ReturnRecognizedPartitions [in]
 
 Indicates whether only recognized partitions or all partition entries should be returned.
 
 
-### -param PartitionBuffer [out]
+#### - PartitionBuffer [out]
 
 Pointer to an uninitialized address. If successful, <b>IoReadPartitionTable</b> allocates the memory for this buffer from nonpaged pool and returns the drive layout information in it.
 
@@ -118,15 +118,15 @@ Read each partition table and, for each valid and recognized partition found, fi
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info.md">IOCTL_DISK_GET_PARTITION_INFO</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout.md">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info.md">IOCTL_DISK_GET_PARTITION_INFO</a>
 
  
 

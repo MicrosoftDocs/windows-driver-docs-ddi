@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a556ec29-9149-4185-b4b3-9aae803e62f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pfnDeletePortUI, print.deleteportui, winsplp/pfnDeletePortUI, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml, pfnDeletePortUI function [Print Devices], DeletePortUI
+ms.keywords: winsplp/pfnDeletePortUI, print.deleteportui, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml, pfnDeletePortUI, DeletePortUI, pfnDeletePortUI function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOL WINAPI pfnDeletePortUI(
 
 
 
-### -param pszServer [in, optional]
+#### - pszServer [in, optional]
 
 Caller-supplied pointer to a string representing a server name, or <b>NULL</b> if the printer is local. (The port monitor can ignore this parameter.)
 
 
-### -param hWnd [in]
+#### - hWnd [in]
 
 Caller-supplied handle of the window that should be used as the parent for dialog boxes. If <b>NULL</b>, no dialog boxes should be displayed.
 
 
-### -param pszPortName [in]
+#### - pszPortName [in]
 
 Caller-supplied pointer to a string representing the name of the port to be deleted.
 
@@ -142,9 +142,9 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
 <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
  
 

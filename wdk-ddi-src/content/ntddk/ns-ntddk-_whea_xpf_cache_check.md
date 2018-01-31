@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 61dd30b9-5290-4c72-b053-586066c58108
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_CACHE_CHECK, ntddk/PWHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml, whea.whea_xpf_cache_check, WHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, ntddk/WHEA_XPF_CACHE_CHECK
+ms.keywords: ntddk/WHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml, WHEA_XPF_CACHE_CHECK, ntddk/PWHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK, whea.whea_xpf_cache_check, _WHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -182,7 +182,7 @@ typedef union _WHEA_XPF_CACHE_CHECK {
  
 
 
-### -field XpfCacheCheck
+#### - XpfCacheCheck
 
 A ULONGLONG representation of the contents of the WHEA_XPF_CACHE_CHECK union.
 

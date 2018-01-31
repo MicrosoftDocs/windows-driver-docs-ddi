@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a0d59215-5201-4e1a-9cb2-d9ff6109c3bb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveCyclicStream, GetPosition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, IMiniportWaveCyclicStream interface [Audio Devices], GetPosition method, GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface, GetPosition method [Audio Devices], portcls/IMiniportWaveCyclicStream::GetPosition, IMiniportWaveCyclicStream::GetPosition, audio.iminiportwavecyclicstream_getposition
+ms.keywords: audio.iminiportwavecyclicstream_getposition, portcls/IMiniportWaveCyclicStream::GetPosition, GetPosition, GetPosition method [Audio Devices], IMiniportWaveCyclicStream::GetPosition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], GetPosition method, GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveCyclicStream.GetPosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveCyclicStream::GetPosition method
@@ -67,7 +67,7 @@ NTSTATUS GetPosition(
 
 
 
-### -param Position [out]
+#### - Position [out]
 
 Output pointer for the position value. This parameter points to a caller-allocated variable into which the method writes the current byte position of the stream.
 
@@ -110,11 +110,11 @@ The WaveCyclic port driver implements a property handler for <a href="https://ms
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
 
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
  
 

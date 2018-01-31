@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 689b4abc-13ee-4d4a-8b2e-bb0be7cc6672
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, *LPRILMESSAGEINFO, RILMESSAGEINFO
+ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, ntddrilapitypes/RILMESSAGEINFO, RILMESSAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,26 +72,26 @@ typedef struct _RILMESSAGEINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field hUiccApp
+#### - hUiccApp
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwIndex
+#### - dwIndex
 
 
 
-### -field dwStatus
+#### - dwStatus
 
 
 
-### -field rmMessage
+#### - rmMessage
 
 

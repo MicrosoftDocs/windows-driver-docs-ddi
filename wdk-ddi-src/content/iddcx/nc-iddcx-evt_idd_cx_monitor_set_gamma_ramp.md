@@ -73,14 +73,14 @@ typedef EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP;
 
 
 
-### -param MonitorObject [in]
+#### - MonitorObject [in]
 
 
                     
                 A handle by the OS to identify the monitor to set a gamma ramp for.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 
                     

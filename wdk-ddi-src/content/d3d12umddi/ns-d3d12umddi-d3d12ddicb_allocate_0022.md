@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C39262BA-D1CE-4634-974A-ACCE8D321830
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddicb_allocate_0022, d3d12umddi/D3D12DDICB_ALLOCATE_0022, D3D12DDICB_ALLOCATE_0022 structure [Display Devices], D3D12DDICB_ALLOCATE_0022
+ms.keywords: d3d12umddi/D3D12DDICB_ALLOCATE_0022, display.d3d12ddicb_allocate_0022, D3D12DDICB_ALLOCATE_0022, D3D12DDICB_ALLOCATE_0022 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct D3D12DDICB_ALLOCATE_0022 {
 
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 A pointer to a buffer that contains optional private driver data.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Size of the private driver data.
 
 
-### -field hResource
+#### - hResource
 
 The handle of a resource. 
 
 
-### -field hKMResource
+#### - hKMResource
 
 A handle of a kernel resource. 
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 The number of allocations.
 
 
-### -field pAllocationInfo
+#### - pAllocationInfo
 
 Allocation as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_allocation_info_0022.md">D3D12DDI_ALLOCATION_INFO_0022</a> structure. 
 

@@ -74,37 +74,37 @@ BOOLEAN HwScsiWmiSetDataItem(
 
 
 
-### -param DeviceContext [in]
+#### - DeviceContext [in]
 
 Points to the miniport driver-defined context value passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-### -param RequestContext [in]
+#### - RequestContext [in]
 
 Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-### -param GuidIndex [in]
+#### - GuidIndex [in]
 
 Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-### -param InstanceIndex [in]
+#### - InstanceIndex [in]
 
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> specifies the instance.
 
 
-### -param DataItemId [in]
+#### - DataItemId [in]
 
 Specifies the ID of the data item to set.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Points to a buffer that contains the new value for the data item.
 
@@ -133,9 +133,9 @@ If the item is read-only, the miniport driver calls <a href="..\scsiwmi\nf-scsiw
 
 <a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d5531ac-afa1-4928-8ea6-8be4663cf06a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTextReplacement method [Windows Debugging], IDebugControl3 interface, GetTextReplacement method [Windows Debugging], IDebugControl2 interface, IDebugControl3, dbgeng/IDebugControl3::GetTextReplacement, debugger.gettextreplacement, GetTextReplacement method [Windows Debugging], IDebugControl3::GetTextReplacement, GetTextReplacement, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, IDebugControl3 interface [Windows Debugging], GetTextReplacement method, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, dbgeng/IDebugControl2::GetTextReplacement, IDebugControl2::GetTextReplacement
+ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], GetTextReplacement method, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, IDebugControl3::GetTextReplacement, GetTextReplacement method [Windows Debugging], IDebugControl2::GetTextReplacement, GetTextReplacement method [Windows Debugging], IDebugControl3 interface, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, dbgeng/IDebugControl2::GetTextReplacement, dbgeng/IDebugControl3::GetTextReplacement, debugger.gettextreplacement, GetTextReplacement method [Windows Debugging], IDebugControl2 interface, GetTextReplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,42 +75,42 @@ HRESULT GetTextReplacement(
 
 
 
-### -param SrcText [in, optional]
+#### - SrcText [in, optional]
 
 Specifies the name of the alias.  The engine first searches the user-named aliases for one with this name. Then, if no match is found, the automatic aliases are searched.  If <i>SrcText</i> is <b>NULL</b>, <i>Index</i> is used to specify the alias.
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of an alias.  The indexes of the user-named aliases come before the indexes of the automatic aliases.  <i>Index</i> is only used if <i>SrcText</i> is <b>NULL</b>.  <i>Index</i> can be used along with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a> to iterate over all the user-named and automatic aliases.
 
 
-### -param SrcBuffer [out, optional]
+#### - SrcBuffer [out, optional]
 
 Receives the name of the alias.  This is the name specified in <i>SrcText</i>, if <i>SrcText</i> is not <b>NULL</b>.  If <i>SrcBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param SrcBufferSize [in]
+#### - SrcBufferSize [in]
 
 Specifies the size, in characters, of the <i>SrcBuffer</i> buffer.
 
 
-### -param SrcSize [out, optional]
+#### - SrcSize [out, optional]
 
 Receives the size, in characters, of the name of the alias.  If <i>SrcSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param DstBuffer [out, optional]
+#### - DstBuffer [out, optional]
 
 Receives the value of the alias specified by <i>SrcText</i> and <i>Index</i>.  If <i>DstBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param DstBufferSize [in]
+#### - DstBufferSize [in]
 
 Specifies the size, in characters, of the <i>DstBuffer</i> buffer.
 
 
-### -param DstSize [out, optional]
+#### - DstSize [out, optional]
 
 Receives the size, in characters, of the value of the alias.  If <i>DstSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -150,19 +150,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
  
 

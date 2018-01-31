@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d64fb3e6-fba1-4383-bdb0-a63dc7c16033
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbCopyN, RtlStringCbCopyNA, ntstrsafe/RtlStringCbCopyNA, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyn, safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, RtlStringCbCopyNW, ntstrsafe/RtlStringCbCopyNW
+ms.keywords: ntstrsafe/RtlStringCbCopyNA, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyn, RtlStringCbCopyN, RtlStringCbCopyNA, safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, RtlStringCbCopyNW, ntstrsafe/RtlStringCbCopyNW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS RtlStringCbCopyNW(
 
 
 
-### -param pszDest [out]
+#### - pszDest [out]
 
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i>, up to <i>cbSrc</i> bytes, is copied to the buffer at <i>pszDest</i> and terminated with a null character. 
 
 
-### -param cbDest [in]
+#### - cbDest [in]
 
 The size, in bytes, of the destination buffer. The buffer must be large enough for both the string and the terminating null character.
 
@@ -87,7 +87,7 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * <b>sizeo
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * <b>sizeof</b>(<b>char</b>). 
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 A pointer to a caller-supplied, null-terminated string. 
 
@@ -211,11 +211,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynexw.md">RtlStringCbCopyNEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynexw.md">RtlStringCbCopyNEx</a>
 
  
 

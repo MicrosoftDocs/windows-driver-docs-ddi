@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecMakeSPNEx function [Installable File System Drivers], SecMakeSPNEx, ifsk.secmakespnex, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ntifs/SecMakeSPNEx
+ms.keywords: SecMakeSPNEx, ntifs/SecMakeSPNEx, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ifsk.secmakespnex, SecMakeSPNEx function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,12 +76,12 @@ NTSTATUS SecMakeSPNEx(
 
 
 
-### -param ServiceClass [in]
+#### - ServiceClass [in]
 
 A pointer to a Unicode string specifying the service class for the security service provider. 
 
 
-### -param ServiceName [in]
+#### - ServiceName [in]
 
 A pointer to a Unicode string specifying the service name for the security service provider. 
 
@@ -91,12 +91,12 @@ A pointer to a Unicode string specifying the service name for the security servi
 TBD
 
 
-### -param Spn [in, out]
+#### - Spn [in, out]
 
 A pointer to a Unicode string for storing the security service provider name string created by this function.
 
 
-### -param Allocate [in]
+#### - Allocate [in]
 
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 

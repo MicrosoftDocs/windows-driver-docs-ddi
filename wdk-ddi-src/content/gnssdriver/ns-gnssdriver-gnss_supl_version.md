@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D004DAEF-F25F-442D-9A6D-91FB8A18E0DB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, gnssdriver/GNSS_SUPL_VERSION, PGNSS_SUPL_VERSION structure pointer [Sensor Devices], sensors.gnss_supl_version, *PGNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION structure [Sensor Devices]
+ms.keywords: "*PGNSS_SUPL_VERSION, gnssdriver/GNSS_SUPL_VERSION, PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, sensors.gnss_supl_version, GNSS_SUPL_VERSION structure [Sensor Devices], PGNSS_SUPL_VERSION structure pointer [Sensor Devices], gnssdriver/PGNSS_SUPL_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct {
 
 
 
-### -field MajorVersion
+#### - MajorVersion
 
 Major version number.
 
 
-### -field MinorVersion
+#### - MinorVersion
 
 Minor version number.
 

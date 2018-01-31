@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: HalAllocateHardwareCounters, k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, ntddk/HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], kernel.halallocatehardwarecounters
+ms.keywords: kernel.halallocatehardwarecounters, k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, ntddk/HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], HalAllocateHardwareCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS HalAllocateHardwareCounters(
 TBD
 
 
-### -param GroupCount [in]
+#### - GroupCount [in]
 
 Reserved for future use. Set this parameter to zero.
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 Reserved for future use. Set this parameter to <b>NULL</b>.
 
 
-### -param CounterSetHandle [out]
+#### - CounterSetHandle [out]
 
 A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, <b>HalAllocateHardwareCounters</b> sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
 

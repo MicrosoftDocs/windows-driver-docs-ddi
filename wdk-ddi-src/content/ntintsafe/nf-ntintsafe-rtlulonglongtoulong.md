@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 322A17F1-E767-44EF-837D-F9162C2D5237
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongLongToULong function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoulong, ntintsafe/RtlULongLongToULong, RtlULongLongToULong
+ms.keywords: kernel.rtlulonglongtoulong, RtlULongLongToULong function [Kernel-Mode Driver Architecture], RtlULongLongToULong, ntintsafe/RtlULongLongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS RtlULongLongToULong(
 
 
 
-### -param ullOperand [in]
+#### - ullOperand [in]
 
 The value to be converted.
 

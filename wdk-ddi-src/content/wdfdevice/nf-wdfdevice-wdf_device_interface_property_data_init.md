@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8B3D6F59-BA76-4B14-9570-57263D204BFE
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function, wdf.wdf_device_interface_property_data_init, WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
+ms.keywords: WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT, wdf.wdf_device_interface_property_data_init, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT, WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ void WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT(
 
 
 
-### -param PropertyData [in]
+#### - PropertyData [in]
 
 A pointer to <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
 
-### -param InterfaceClassGUID [in]
+#### - InterfaceClassGUID [in]
 
 A pointer to a GUID that identifies the device interface class.
 
 
-### -param PropertyKey [in]
+#### - PropertyKey [in]
 
 A pointer to a <b>DEVPROPKEY</b> structure that specifies the device property key.
 
@@ -116,11 +116,11 @@ For a code example that uses <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</b>, see
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
 

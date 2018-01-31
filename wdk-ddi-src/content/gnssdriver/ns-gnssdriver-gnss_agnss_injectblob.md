@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_agnss_injectblob, gnssdriver/PGNSS_AGNSS_INJECTBLOB, gnssdriver/GNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB
+ms.keywords: gnssdriver/PGNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], gnssdriver/GNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, sensors.gnss_agnss_injectblob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_AGNSS_INJECTBLOB
 product: Windows
 targetos: Windows
-req.typenames: GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB
+req.typenames: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB"
 ---
 
 # GNSS_AGNSS_INJECTBLOB structure
@@ -73,34 +73,34 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field BlobOui
+#### - BlobOui
 
 This field indicates the 3-byte OUI of silicon vendor or device maker.
 
 
-### -field BlobVersion
+#### - BlobVersion
 
 Version of the blob from the same vendor.
 
 
-### -field AgnssFormat
+#### - AgnssFormat
 
 Data format of the blob.
 
 The formats are defined as macros (GNSS_AGNSSFORMAT_*).
 
 
-### -field BlobSize
+#### - BlobSize
 
 Size of the blob data in bytes.
 

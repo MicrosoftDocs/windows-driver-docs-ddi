@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 69860DFE-DDA6-4889-B796-CEAEE59A10CC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, GetStreamChannelPeakMeter method [Audio Devices], IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelPeakMeter method, GetStreamChannelPeakMeter method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, IMiniportStreamAudioEngineNode
+ms.keywords: portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, GetStreamChannelPeakMeter, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelPeakMeter method, GetStreamChannelPeakMeter method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamChannelPeakMeter method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter method
@@ -68,12 +68,12 @@ NTSTATUS GetStreamChannelPeakMeter(
 
 
 
-### -param ulChannel [in]
+#### - ulChannel [in]
 
 The channel of the audio stream.
 
 
-### -param plPeakMeter [out]
+#### - plPeakMeter [out]
 
 The PeakMeter value.
 

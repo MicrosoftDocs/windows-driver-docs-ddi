@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 007c6b45-0bec-4fcf-984a-675aa5336993
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_RMCV_TYPE_STRING, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_STRING, ntddrilapitypes/RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_DWORD, netvista.rilrmcvtype, RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_BOOLEAN
+ms.keywords: ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, netvista.rilrmcvtype, ntddrilapitypes/RIL_RMCV_TYPE_STRING, RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_BOOLEAN, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_DWORD, ntddrilapitypes/RILRMCVTYPE, RIL_RMCV_TYPE_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILRMCVTYPE {
 
 
 
-### -field RIL_RMCV_TYPE_BOOLEAN
+#### - RIL_RMCV_TYPE_BOOLEAN
 
 
 
-### -field RIL_RMCV_TYPE_DWORD
+#### - RIL_RMCV_TYPE_DWORD
 
 
 
-### -field RIL_RMCV_TYPE_STRING
+#### - RIL_RMCV_TYPE_STRING
 
 

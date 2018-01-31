@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b721b79b-93f3-4dc8-853d-543222464341
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler
+ms.keywords: KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, ks/KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], stream.kspinpropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS KsPinPropertyHandler(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP handling the connection request.
 
 
-### -param Property [in]
+#### - Property [in]
 
 Specifies the specific property information.
 
 
-### -param Data [in, out]
+#### - Data [in, out]
 
 Specifies the data parameter mapped to a system address. This is the same parameter passed to a property handler through a <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a> callback.
 
 
-### -param DescriptorsCount [in]
+#### - DescriptorsCount [in]
 
 Specifies the number of pin descriptors being passed.
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 Specifies the pointer to the list of pin descriptors.
 

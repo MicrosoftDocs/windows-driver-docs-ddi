@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6EB52227-8685-4096-882F-64550A84DE4F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/INLINE_FRAME_CONTEXT, _INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT, debugger.inline_frame_context, INLINE_FRAME_CONTEXT union [Windows Debugging]
+ms.keywords: INLINE_FRAME_CONTEXT, dbgeng/INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging], _INLINE_FRAME_CONTEXT, debugger.inline_frame_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,7 +87,7 @@ typedef union _INLINE_FRAME_CONTEXT {
  
 
 
-### -field ContextValue
+#### - ContextValue
 
 A context value. 
 

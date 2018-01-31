@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 210e69e7-b3b8-43b5-a0d3-f023c7256438
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiasSetPropertyAttributes function [Imaging Devices], image.wiassetpropertyattributes, wiasSetPropertyAttributes, wiamdef/wiasSetPropertyAttributes
+ms.keywords: wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiamdef/wiasSetPropertyAttributes, image.wiassetpropertyattributes, wiasSetPropertyAttributes function [Imaging Devices], wiasSetPropertyAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasSetPropertyAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasSetPropertyAttributes(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param cPropSpec
+#### - cPropSpec
 
 Specifies the number of properties.
 
 
-### -param pPropSpec [in]
+#### - pPropSpec [in]
 
 Pointer to a PROPSPEC structure indicating the properties for which to set valid values and access flags.
 
 
-### -param pulAccessFlags [in]
+#### - pulAccessFlags [in]
 
 Pointer to an array that contains the access flags to be written.
 
 
-### -param pPropVar [out]
+#### - pPropVar [out]
 
 Pointer to an array of PROPVARIANT structures that contains the valid values to be written.
 

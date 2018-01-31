@@ -90,12 +90,12 @@ VOID APIENTRY* pfnCheckResourceAllocationInfo(
 
 
 
-### -param AlignmentRestriction
+#### - AlignmentRestriction
 
 An alignment restriction value.
 
 
-### -param VisibleNodeMask
+#### - VisibleNodeMask
 
 A visible node mask.
 

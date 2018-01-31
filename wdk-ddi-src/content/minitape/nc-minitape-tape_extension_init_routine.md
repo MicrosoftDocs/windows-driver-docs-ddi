@@ -72,17 +72,17 @@ VOID (*TAPE_EXTENSION_INIT_ROUTINE)(
 
 
 
-### -param MinitapeExtension [in]
+#### - MinitapeExtension [in]
 
 Pointer to a buffer of the size requested by the tape miniclass driver when it initialized.
 
 
-### -param InquiryData [in]
+#### - InquiryData [in]
 
 Pointer to the SCSI inquiry data for the tape device.
 
 
-### -param ModeCapabilitiesPage [in]
+#### - ModeCapabilitiesPage [in]
 
 Pointer to a buffer that contains low-level information for the tape device. The format of this page is defined by the QIC 157 standard and is subject to change. This is <b>NULL</b> if the device does not support a mode capabilities page. 
 
@@ -107,13 +107,13 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
-
 <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 <a href="..\minitape\nc-minitape-tape_error_routine.md">TapeMiniTapeError</a>
 

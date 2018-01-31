@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28974c00-9225-4458-a198-beb4538e3a45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcx_moveregion, IDDCX_MOVEREGION, IDDCX_MOVEREGION structure [Display Devices], iddcx/IDDCX_MOVEREGION
+ms.keywords: iddcx/IDDCX_MOVEREGION, IDDCX_MOVEREGION, IDDCX_MOVEREGION structure [Display Devices], display.iddcx_moveregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct IDDCX_MOVEREGION {
 
 
 
-### -field Size
+#### - Size
 
 
                      Total size of the structure.
                  
 
 
-### -field SourcePoint
+#### - SourcePoint
 
 
                      The location within the surface of the top left of the source rect. The source rect size is the same as the
@@ -85,7 +85,7 @@ typedef struct IDDCX_MOVEREGION {
                  
 
 
-### -field DestRect
+#### - DestRect
 
 
                      Defines the destination rect of the move.

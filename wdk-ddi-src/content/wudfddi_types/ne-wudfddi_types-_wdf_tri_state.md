@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ea6e373-225d-4fcd-abcf-c19b07f9f5d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_TRI_STATE, WdfTrue, _WDF_TRI_STATE, wdftypes/PWDF_TRI_STATE, WDF_TRI_STATE enumeration, wudfddi_types/WDF_TRI_STATE, WDF_TRI_STATE, wudfddi_types/PWDF_TRI_STATE, wdftypes/WDF_TRI_STATE, WdfUseDefault, wudfddi_types/WdfUseDefault, PWDF_TRI_STATE enumeration pointer, wudfddi_types/WdfTrue, wdftypes/WdfTrue, kmdf.wdf_tri_state, wdftypes/WdfUseDefault, wdftypes/WdfFalse, wdf.wdf_tri_state, WdfFalse, *PWDF_TRI_STATE, wudfddi_types/WdfFalse, DFGenObjectRef_83855649-9d84-4f8c-9685-5e5321209b4d.xml
+ms.keywords: PWDF_TRI_STATE enumeration pointer, wdftypes/WdfFalse, wudfddi_types/PWDF_TRI_STATE, wdftypes/WdfUseDefault, wdftypes/WDF_TRI_STATE, kmdf.wdf_tri_state, wdftypes/PWDF_TRI_STATE, wdftypes/WdfTrue, _WDF_TRI_STATE, wudfddi_types/WDF_TRI_STATE, DFGenObjectRef_83855649-9d84-4f8c-9685-5e5321209b4d.xml, WdfFalse, WDF_TRI_STATE, WdfUseDefault, WdfTrue, wudfddi_types/WdfUseDefault, WDF_TRI_STATE enumeration, PWDF_TRI_STATE, wdf.wdf_tri_state, wudfddi_types/WdfTrue, wudfddi_types/WdfFalse, *PWDF_TRI_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -41,7 +41,7 @@ apiname:
 -	WDF_TRI_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
+req.typenames: "*PWDF_TRI_STATE, WDF_TRI_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -73,17 +73,17 @@ typedef enum _WDF_TRI_STATE {
 
 
 
-### -field WdfUseDefault
+#### - WdfUseDefault
 
 The meaning of this enumerator is specific to its use as a structure member or function parameter.
 
 
-### -field WdfFalse
+#### - WdfFalse
 
 The meaning of this enumerator is specific to its use as a structure member or function parameter.
 
 
-### -field WdfTrue
+#### - WdfTrue
 
 The meaning of this enumerator is specific to its use as a structure member or function parameter.
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: beec5516-6191-4b70-8c80-ddbaedbad5c0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, bltooth.sdpappendnodetocontainernode, sdplib/SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode function [Bluetooth Devices]
+ms.keywords: bltooth.sdpappendnodetocontainernode, sdplib/SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode, bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, SdpAppendNodeToContainerNode function [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS SdpAppendNodeToContainerNode(
 
 
 
-### -param Parent [in]
+#### - Parent [in]
 
 The SDP sequence or alternative node to which the 
      <b>SdpAppendNodeToContainerNode</b> function adds the child node.

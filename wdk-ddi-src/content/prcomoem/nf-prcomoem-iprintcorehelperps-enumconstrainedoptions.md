@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 106119cd-80ed-4d26-a7c1-fda5a49b080c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintCoreHelperPS::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, IPrintCoreHelperPS::EnumConstrainedOptions, print.iprintcorehelperps_enumconstrainedoptions, print_unidrv-pscript_allplugins_28f1a9b6-ab12-4cdc-8682-b411cc920996.xml, IPrintCoreHelperPS interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions
+ms.keywords: EnumConstrainedOptions, IPrintCoreHelperPS interface [Print Devices], EnumConstrainedOptions method, print.iprintcorehelperps_enumconstrainedoptions, print_unidrv-pscript_allplugins_28f1a9b6-ab12-4cdc-8682-b411cc920996.xml, IPrintCoreHelperPS::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], IPrintCoreHelperPS, EnumConstrainedOptions method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::EnumConstrainedOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ STDMETHOD EnumConstrainedOptions(
 
 
 
-### -param pDevmode [in, optional]
+#### - pDevmode [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter.
 
 
-### -param pszFeatureKeyword [in]
+#### - pszFeatureKeyword [in]
 
 A string of ANSI characters that contains the feature name.
 
@@ -92,7 +92,7 @@ A string of ANSI characters that contains the feature name.
 
 
 
-### -param pdwNumOptions [out]
+#### - pdwNumOptions [out]
 
 A pointer to a variable that receives the number of constrained options in the array that is pointed to by the <i>pConstrainedOptionList</i> parameter.
 

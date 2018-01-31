@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8ed5406-3b76-49a7-961c-0be737b1dda9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_compute_preemption_granularity, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY enumeration [Display Devices], D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_NONE, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_NONE
+ms.keywords: d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_NONE, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY enumeration [Display Devices], D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_NONE, display.d3dkmdt_compute_preemption_granularity, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY {
 
 
 
-### -field D3DKMDT_COMPUTE_PREEMPTION_NONE
+#### - D3DKMDT_COMPUTE_PREEMPTION_NONE
 
 The driver does not support the preemption of GPU compute shader operations.
 <div class="alert"><b>Note</b>  This value also specifies that the driver cannot stop currently running DMA buffers of a specified type and cannot prevent all pending DMA buffers in the hardware queue from running.</div><div> </div>
 
-### -field D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY
+#### - D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY
 
 The driver cannot stop currently running DMA buffers of a specified type but can prevent all pending DMA buffers in the hardware queue from running.
 
 
-### -field D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY
+#### - D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY
 
 The driver cannot stop currently executing compute shader commands that were dispatched from a thread group but can prevent all pending commands from being dispatched.
 
 
-### -field D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY
+#### - D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY
 
 The driver cannot stop currently executing compute shader commands that were dispatched from a thread group but can prevent a thread group from dispatching other commands.
 
 
-### -field D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY
+#### - D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY
 
 The driver cannot stop currently executing compute shader commands that were dispatched from a thread in a thread group but can prevent a thread from dispatching other commands.
 
 
-### -field D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY
+#### - D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY
 
 The driver cannot stop currently running shader commands of a specified type but can prevent all shader commands in the hardware queue from running.
 

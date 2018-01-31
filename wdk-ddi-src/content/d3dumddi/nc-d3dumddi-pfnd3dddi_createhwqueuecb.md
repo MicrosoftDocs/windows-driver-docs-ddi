@@ -68,7 +68,7 @@ _Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_CREATEHWQUEUECB(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the device.
 

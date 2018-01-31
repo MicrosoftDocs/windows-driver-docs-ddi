@@ -40,7 +40,7 @@ apiname:
 -	NdkControlConnectEvents
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_CONTROL_CONNECT_EVENTS callback
@@ -71,11 +71,12 @@ VOID NdkControlConnectEvents(
 
 
 
-### -param *pNdkListener
+#### - *pNdkListener [in]
+
+A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
 
 
-
-### -param Pause [in]
+#### - Pause [in]
 
 A BOOLEAN value that specifies if a connection is paused or restarted. If <i>Pause</i> is TRUE the connection is paused. If <i>Pause</i> is FALSE the connection is restarted.
 

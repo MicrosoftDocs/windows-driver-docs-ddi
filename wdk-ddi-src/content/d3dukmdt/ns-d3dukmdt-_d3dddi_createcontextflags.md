@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e450f85c-4c73-44a8-9d0a-da2c212c87c9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_CREATECONTEXTFLAGS, D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, _D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags
+ms.keywords: d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], _D3DDDI_CREATECONTEXTFLAGS, D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, D3DDDI_CREATECONTEXTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,14 +74,14 @@ typedef struct _D3DDDI_CREATECONTEXTFLAGS {
 
 
 
-### -field NullRendering
+#### - NullRendering
 
 A UINT value that specifies whether the graphics processing unit (GPU) should process any commands that are sent by the context that is created. The <b>NullRendering</b> bit-field flag is set to inform the GPU not to process any commands that are sent by the context. The <b>NullRendering</b> bit-field flag is set only during performance investigating and debugging to simulate an infinitely fast rendering engine that still must perform the overhead of DMA buffer submission and signaling. <b>NullRendering</b> is never set during typical operations.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field InitialData
+#### - InitialData
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
@@ -101,21 +101,21 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFD) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in D3DDDI_CREATECONTEXTFLAGS that can hold one 32-bit value that identifies how to create the context.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontext.md">D3DDDICB_CREATECONTEXT</a>
+
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
  
 

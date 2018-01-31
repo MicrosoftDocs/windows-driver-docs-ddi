@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56b6b8e6-529d-4480-bce8-ae94d09d1643
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SCP_PARAM1, rilapitypes/RIL_PARAM_SCP_ALL, RILUICCCMDPARAMETERSPARAMMASK, netvista.riluicccmdparametersparammask_2, rilapitypes/RIL_PARAM_SCP_PARAM2, rilapitypes/RILUICCCMDPARAMETERSPARAMMASK, RIL_PARAM_SCP_PARAM3, rilapitypes/RIL_PARAM_SCP_PARAM3, RIL_PARAM_SCP_PARAM1, RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM2
+ms.keywords: RIL_PARAM_SCP_PARAM1, RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM2, netvista.riluicccmdparametersparammask_2, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SCP_PARAM3, rilapitypes/RIL_PARAM_SCP_PARAM2, rilapitypes/RILUICCCMDPARAMETERSPARAMMASK, rilapitypes/RIL_PARAM_SCP_PARAM3, rilapitypes/RIL_PARAM_SCP_PARAM1, RILUICCCMDPARAMETERSPARAMMASK, rilapitypes/RIL_PARAM_SCP_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILUICCCMDPARAMETERSPARAMMASK {
 
 
 
-### -field RIL_PARAM_SCP_PARAM1
+#### - RIL_PARAM_SCP_PARAM1
 
 
 
-### -field RIL_PARAM_SCP_PARAM2
+#### - RIL_PARAM_SCP_PARAM2
 
 
 
-### -field RIL_PARAM_SCP_PARAM3
+#### - RIL_PARAM_SCP_PARAM3
 
 
 
-### -field RIL_PARAM_SCP_ALL
+#### - RIL_PARAM_SCP_ALL
 
 

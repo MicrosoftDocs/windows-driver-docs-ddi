@@ -40,7 +40,7 @@ apiname:
 -	CompletionRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -76,22 +76,22 @@ void CompletionRoutine(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that represents the completed I/O request.
 
 
-### -param Target [in]
+#### - Target [in]
 
 A handle to an I/O target object that represents the I/O target that completed the request.
 
 
-### -param Params [in]
+#### - Params [in]
 
 A pointer to a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure that contains information about the completed request.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Driver-supplied context information, which the driver specified in a previous call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>.
 
@@ -116,9 +116,9 @@ A KMDF driver's <i>CompletionRoutine</i> can run at IRQL &lt;= DISPATCH_LEVEL re
 
 ## -see-also
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
  
 

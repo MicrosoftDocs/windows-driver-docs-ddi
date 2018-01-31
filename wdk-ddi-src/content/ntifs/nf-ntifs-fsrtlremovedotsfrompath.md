@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af6ecdb7-8713-460d-8fd9-ef027ac15b39
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlRemoveDotsFromPath, ntifs/FsRtlRemoveDotsFromPath, ifsk.fsrtlremovedotsfrompath, FsRtlRemoveDotsFromPath routine [Installable File System Drivers], fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml
+ms.keywords: ntifs/FsRtlRemoveDotsFromPath, fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml, FsRtlRemoveDotsFromPath, ifsk.fsrtlremovedotsfrompath, FsRtlRemoveDotsFromPath routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FsRtlRemoveDotsFromPath(
 
 
 
-### -param OriginalString [in, out]
+#### - OriginalString [in, out]
 
 A pointer to the buffer to be processed.
 
 
-### -param PathLength [in]
+#### - PathLength [in]
 
 The length of buffer (in bytes).
 
 
-### -param NewLength [out]
+#### - NewLength [out]
 
 A pointer to the new length of the buffer, after processing.
 

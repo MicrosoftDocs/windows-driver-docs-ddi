@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06FFECB3-0883-41CA-9BD3-A6A1D95D5F8C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchNicStateConnected, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchNicStateDisconnected, NdisSwitchNicStateDeleted, netvista.ndis_switch_nic_state, ntddndis/NdisSwitchNicStateCreated, ntddndis/NdisSwitchNicStateUnknown, NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateCreated, ntddndis/NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateDisconnected, NdisSwitchNicStateUnknown, ntddndis/NdisSwitchNicStateDeleted, _NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateConnected
+ms.keywords: ntddndis/NdisSwitchNicStateUnknown, NdisSwitchNicStateDeleted, NdisSwitchNicStateDisconnected, NdisSwitchNicStateCreated, ntddndis/NdisSwitchNicStateDisconnected, ntddndis/NdisSwitchNicStateConnected, netvista.ndis_switch_nic_state, NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateUnknown, ntddndis/NdisSwitchNicStateCreated, NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateDeleted, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_STATE, ntddndis/NDIS_SWITCH_NIC_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _NDIS_SWITCH_NIC_STATE {
 
 
 
-### -field NdisSwitchNicStateUnknown
+#### - NdisSwitchNicStateUnknown
 
        This value specifies an undefined NIC state. This value is unused. 
 
 
-### -field NdisSwitchNicStateCreated
+#### - NdisSwitchNicStateCreated
 
 This value specifies that the NIC is in the created state. 
 
 
-### -field NdisSwitchNicStateConnected
+#### - NdisSwitchNicStateConnected
 
 This value specifies that the NIC is connected.
 
 
-### -field NdisSwitchNicStateDisconnected
+#### - NdisSwitchNicStateDisconnected
 
 This value specifies that the NIC is disconnected.
 
 
-### -field NdisSwitchNicStateDeleted
+#### - NdisSwitchNicStateDeleted
 
 This value specifies that the NIC is deleted.
 

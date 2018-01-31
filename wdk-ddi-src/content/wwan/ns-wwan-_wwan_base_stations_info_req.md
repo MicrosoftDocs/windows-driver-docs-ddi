@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_BASE_STATIONS_INFO_REQ structure [Network Drivers Starting with Windows Vista], WWAN_BASE_STATIONS_INFO_REQ, *PWWAN_BASE_STATIONS_INFO_REQ, netvista.wwan_base_stations_info_req, _WWAN_BASE_STATIONS_INFO_REQ, PWWAN_BASE_STATIONS_INFO_REQ, wwan/WWAN_BASE_STATIONS_INFO_REQ, wwan/PWWAN_BASE_STATIONS_INFO_REQ, PWWAN_BASE_STATIONS_INFO_REQ structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "_WWAN_BASE_STATIONS_INFO_REQ, WWAN_BASE_STATIONS_INFO_REQ, netvista.wwan_base_stations_info_req, PWWAN_BASE_STATIONS_INFO_REQ structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_BASE_STATIONS_INFO_REQ, PWWAN_BASE_STATIONS_INFO_REQ, WWAN_BASE_STATIONS_INFO_REQ structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_BASE_STATIONS_INFO_REQ, wwan/WWAN_BASE_STATIONS_INFO_REQ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,46 +72,46 @@ typedef struct _WWAN_BASE_STATIONS_INFO_REQ {
 
 
 
-### -field MaxGSMCount
+#### - MaxGSMCount
 
 The maximum number of entries of GSM neighboring cells returned in the GSM network measurement reports of <a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>.
 
 
-### -field MaxUMTSCount
+#### - MaxUMTSCount
 
 The maximum number of entries of UMTS neighboring cells returned in the UMTS measured results list in <a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>.
 
 
-### -field MaxTDSCDMACount
+#### - MaxTDSCDMACount
 
 The maximum number of entries of TDSCDMA neighboring cells returned in the TDSCDMA measured results list in <a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>.
 
 
-### -field MaxLTECount
+#### - MaxLTECount
 
 The maximum number of entries of LTE neighboring cells returned in the LTE measured results list in <a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>.
 
 
-### -field MaxCDMACount
+#### - MaxCDMACount
 
 The maximum number of entries of CDMA cells returned in the CDMA measured results list in <a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>. This list includes both serving and neighboring cells.
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info_req.md">NDIS_WWAN_BASE_STATIONS_INFO_REQ</a>
+
+<a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
 
 <a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
-
 <a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info_req.md">NDIS_WWAN_BASE_STATIONS_INFO_REQ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
 
-<a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
 
  
 

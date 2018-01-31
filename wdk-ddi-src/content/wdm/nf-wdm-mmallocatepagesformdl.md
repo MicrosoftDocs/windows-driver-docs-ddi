@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06b52af0-c2d3-444e-8714-4fce4181dddc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], wdm/MmAllocatePagesForMdl, kernel.mmallocatepagesformdl, k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, MmAllocatePagesForMdl
+ms.keywords: k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, MmAllocatePagesForMdl, wdm/MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], kernel.mmallocatepagesformdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ PMDL MmAllocatePagesForMdl(
 
 
 
-### -param LowAddress [in]
+#### - LowAddress [in]
 
 Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdl</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdl</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
 
 
-### -param HighAddress [in]
+#### - HighAddress [in]
 
 Specifies the physical address of the end of the first address range from which the allocated pages can come. 
 
 
-### -param SkipBytes [in]
+#### - SkipBytes [in]
 
 Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes. 
 
 
-### -param TotalBytes [in]
+#### - TotalBytes [in]
 
 Specifies the total number of bytes to allocate for the MDL. 
 
@@ -147,11 +147,11 @@ In Windows 2000 and later versions of Windows, the maximum amount of memory that
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
 <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
 

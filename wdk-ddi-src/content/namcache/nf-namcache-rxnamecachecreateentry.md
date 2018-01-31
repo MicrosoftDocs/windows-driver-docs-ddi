@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1cfe2d2d-99fa-4dc2-b517-5026fd72d5d4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxNameCacheCreateEntry function [Installable File System Drivers], RxNameCacheCreateEntry, namcache/RxNameCacheCreateEntry, ifsk.rxnamecachecreateentry, rxref_a1245999-8aba-4012-a143-609517c2686b.xml
+ms.keywords: rxref_a1245999-8aba-4012-a143-609517c2686b.xml, namcache/RxNameCacheCreateEntry, RxNameCacheCreateEntry, ifsk.rxnamecachecreateentry, RxNameCacheCreateEntry function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PNAME_CACHE RxNameCacheCreateEntry(
 
 
 
-### -param NameCacheCtl [in]
+#### - NameCacheCtl [in]
 
 A pointer to the NAME_CACHE_CONTROL structure from which to allocate the entry.
 
 
-### -param Name [in]
+#### - Name [in]
 
 A pointer to the Unicode name string with which to initialize the name cache entry.
 
 
-### -param CaseInsensitive [in]
+#### - CaseInsensitive [in]
 
 A Boolean value that indicates if case insensitive comparions should be used when comparing the <i>Name</i> parameter. 
 
@@ -102,21 +102,21 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 ## -see-also
 
-<a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
-
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
-
-<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
 
 <a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
 
-<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
 
 <a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
 
 <a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
+
+<a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
+
+<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
 
  
 

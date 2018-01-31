@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: DB41648B-8812-4358-BECE-8029016E5631
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smclib/PSMARTCARD_REPLY, smartcrd.smartcard_reply, smclib/SMARTCARD_REPLY, SMARTCARD_REPLY structure [Smart Card Reader Devices], _SMARTCARD_REPLY, SMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], *PSMARTCARD_REPLY, PSMARTCARD_REPLY
+ms.keywords: PSMARTCARD_REPLY, smclib/SMARTCARD_REPLY, smclib/PSMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], _SMARTCARD_REPLY, SMARTCARD_REPLY, SMARTCARD_REPLY structure [Smart Card Reader Devices], *PSMARTCARD_REPLY, smartcrd.smartcard_reply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SMARTCARD_REPLY
 product: Windows
 targetos: Windows
-req.typenames: "*PSMARTCARD_REPLY, SMARTCARD_REPLY"
+req.typenames: SMARTCARD_REPLY, *PSMARTCARD_REPLY
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _SMARTCARD_REPLY {
 
 
 
-### -field Buffer
+#### - Buffer
 
 Pointer to a buffer that  receives smart card data.
 
 
-### -field BufferSize
+#### - BufferSize
 
 Size of the buffer pointed to by <i>Buffer</i>.
 
 
-### -field BufferLength
+#### - BufferLength
 
 Number of bytes received from the card.
 

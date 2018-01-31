@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf9e2d58-9379-4b88-9043-580a97ec7cd9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], storage.msfc_portevent, MSFC_PortEvent, _MSFC_PortEvent, hbapiwmi/PMSFC_PortEvent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, MSFC_PortEvent structure [Storage Devices], *PMSFC_PortEvent, hbapiwmi/MSFC_PortEvent
+ms.keywords: PMSFC_PortEvent structure pointer [Storage Devices], storage.msfc_portevent, MSFC_PortEvent structure [Storage Devices], PMSFC_PortEvent, _MSFC_PortEvent, MSFC_PortEvent, hbapiwmi/MSFC_PortEvent, *PMSFC_PortEvent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, hbapiwmi/PMSFC_PortEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_PortEvent
 product: Windows
 targetos: Windows
-req.typenames: MSFC_PortEvent, *PMSFC_PortEvent
+req.typenames: "*PMSFC_PortEvent, MSFC_PortEvent"
 ---
 
 # _MSFC_PortEvent structure
@@ -69,17 +69,17 @@ typedef struct _MSFC_PortEvent {
 
 
 
-### -field EventType
+#### - EventType
 
 Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 
-### -field FabricPortId
+#### - FabricPortId
 
 Contains the fabric port ID. 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains the worldwide name that indicates the port for which the event occurred. 
 

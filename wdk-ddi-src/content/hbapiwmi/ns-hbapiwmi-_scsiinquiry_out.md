@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea1d6f35-1dc5-4c65-9158-7f85464c5cd7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiinquiry_out2, ScsiInquiry_OUT, structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml, hbapiwmi/ScsiInquiry_OUT, _ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], *PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], PScsiInquiry_OUT, hbapiwmi/PScsiInquiry_OUT
+ms.keywords: ScsiInquiry_OUT, hbapiwmi/ScsiInquiry_OUT, hbapiwmi/PScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml, _ScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], PScsiInquiry_OUT, *PScsiInquiry_OUT, storage.scsiinquiry_out2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiInquiry_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiInquiry_OUT, ScsiInquiry_OUT"
+req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
 ---
 
 # _ScsiInquiry_OUT structure
@@ -72,27 +72,27 @@ typedef struct _ScsiInquiry_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation. 
 
 
-### -field ResponseBufferSize
+#### - ResponseBufferSize
 
 Indicates the size in bytes of the buffer that will hold the results of the inquiry command. 
 
 
-### -field SenseBufferSize
+#### - SenseBufferSize
 
 Indicates the size in bytes of the buffer that will hold the SCSI sense data that results from the inquiry command. 
 
 
-### -field ScsiStatus
+#### - ScsiStatus
 
 Contains the status of the SCSI inquiry command. 
 
 
-### -field ResponseBuffer
+#### - ResponseBuffer
 
 Contains the results of the SCSI inquiry command. 
 
@@ -111,9 +111,9 @@ The WMI tool suite generates a declaration of the ScsiInquiry_OUT structure in <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
 
  
 

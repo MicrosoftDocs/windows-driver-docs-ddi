@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 990b3df6-5ef7-4201-a09d-d94822d0a8bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, CRYPTO_TUNNEL_AH_AUTH_FAILED, CRYPTO_TRANSPORT_AH_AUTH_FAILED, CRYPTO_GENERIC_ERROR, CRYPTO_TUNNEL_ESP_AUTH_FAILED, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], CRYPTO_INVALID_PACKET_SYNTAX, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_INVALID_PROTOCOL, _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, CRYPTO_SUCCESS, tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ms.keywords: CRYPTO_TRANSPORT_AH_AUTH_FAILED, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_INVALID_PACKET_SYNTAX, CRYPTO_GENERIC_ERROR, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, CRYPTO_SUCCESS, CRYPTO_INVALID_PROTOCOL, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], CRYPTO_TUNNEL_AH_AUTH_FAILED, tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_TUNNEL_ESP_AUTH_FAILED, ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,9 +79,16 @@ typedef struct _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO {
 
 
 
-### -field Transmit
+#### - Transmit
 
 A structure that contains the following members:
+
+
+#### OffloadHandle
+
+A handle to the outbound security association (SA) for a packet that has just one IPsec payload,
+       regardless of whether that payload is for a transport (end-to-end) connection or a tunnel
+       connection.
 
 
 ### -field Transmit.OffloadHandle
@@ -91,9 +98,145 @@ A handle to the outbound security association (SA) for a packet that has just on
        connection.
 
 
-### -field Receive
+#### - Receive
 
 A structure that contains the following members:
+
+
+#### SaDeleteReq
+
+A USHORT value that, when set, indicates that the TCP/IP transport should issue the 
+       <mshelp:link keywords="netvista.oid_tcp_task_ipsec_delete_sa" tabindex="0">
+       OID_TCP_TASK_IPSEC_DELETE_SA</mshelp:link> OID once to delete the inbound SA that the packet was received over
+       and once again to delete the outbound SA that corresponds to the deleted inbound SA. The network
+       interface card (NIC) must not remove either of these SAs before it receives the corresponding
+       OID_TCP_TASK_IPSEC_DELETE_SA request.
+
+
+#### CryptoDone
+
+A USHORT value that, when set, indicates that a NIC performed IPsec checking on at least one
+       IPsec payload in the receive packet. When this value is cleared, it indicates that the NIC did not
+       perform IPsec checking on the packet.
+
+
+#### NextCryptoDone
+
+A USHORT value that, when set, indicates that a NIC performed IPsec checking on both the tunnel
+       and transport portions of the receive packet. 
+       <b>CryptoDone</b> must also be set in this case. 
+       <b>NextCryptoDone</b> is set only if a packet has both tunnel and transport IPsec payloads; otherwise, 
+       <b>NextCryptoDone</b> is set to zero.
+
+
+#### Pad
+
+Reserved for NDIS.
+
+
+#### CryptoStatus
+
+The result of IPsec checking that a NIC performed on a receive packet. This result can be
+       described as one of the following values:
+       
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_SUCCESS"></a><a id="___________crypto_success"></a><dl>
+<dt><b>
+          CRYPTO_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The packet was successfully decrypted, if necessary, and the authentication header (AH)
+         checksums, encapsulating security payload (ESP) checksums, or both checksums in the packet were
+         validated.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_GENERIC_ERROR"></a><a id="___________crypto_generic_error"></a><dl>
+<dt><b>
+          CRYPTO_GENERIC_ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The packet failed the IPsec check for an unspecified reason.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_TRANSPORT_AH_AUTH_FAILED"></a><a id="___________crypto_transport_ah_auth_failed"></a><dl>
+<dt><b>
+          CRYPTO_TRANSPORT_AH_AUTH_FAILED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The AH checksum for the transport portion of the packet was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_TRANSPORT_ESP_AUTH_FAILED"></a><a id="___________crypto_transport_esp_auth_failed"></a><dl>
+<dt><b>
+          CRYPTO_TRANSPORT_ESP_AUTH_FAILED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The ESP checksum for the transport portion of the packet was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_TUNNEL_AH_AUTH_FAILED"></a><a id="___________crypto_tunnel_ah_auth_failed"></a><dl>
+<dt><b>
+          CRYPTO_TUNNEL_AH_AUTH_FAILED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The AH checksum for the tunnel portion of the packet was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_TUNNEL_ESP_AUTH_FAILED"></a><a id="___________crypto_tunnel_esp_auth_failed"></a><dl>
+<dt><b>
+          CRYPTO_TUNNEL_ESP_AUTH_FAILED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The ESP checksum for the tunnel portion of the packet was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_INVALID_PACKET_SYNTAX"></a><a id="___________crypto_invalid_packet_syntax"></a><dl>
+<dt><b>
+          CRYPTO_INVALID_PACKET_SYNTAX</b></dt>
+</dl>
+</td>
+<td width="60%">
+The receive packet's length is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="___________CRYPTO_INVALID_PROTOCOL"></a><a id="___________crypto_invalid_protocol"></a><dl>
+<dt><b>
+          CRYPTO_INVALID_PROTOCOL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The IPsec protocols that were specified in the SA that the packet was received on do not match
+         the IPsec protocols that were found in the packet. For example, this error occurs if the SA that the
+         packet was received on specifies the AH protocol but the packet contained only an ESP header.
+
+</td>
+</tr>
+</table> 
 
 
 ### -field Receive.SaDeleteReq
@@ -297,15 +440,15 @@ To set and get the IPsec information, use the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 <a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
  
 

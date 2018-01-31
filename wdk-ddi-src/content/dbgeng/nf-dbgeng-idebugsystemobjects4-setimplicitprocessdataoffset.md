@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2a09341d-a580-4817-9103-29d8c36b81e3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects3::SetImplicitProcessDataOffset, SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, SetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects4::SetImplicitProcessDataOffset, debugger.setimplicitprocessdataoffset, SetImplicitProcessDataOffset method [Windows Debugging], SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4, dbgeng/IDebugSystemObjects2::SetImplicitProcessDataOffset, IDebugSystemObjects2::SetImplicitProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects4::SetImplicitProcessDataOffset, IDebugSystemObjects2 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects3 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects3::SetImplicitProcessDataOffset, IDebugSystemObjects_10effa04-b87c-4555-9860-c2d5057a2529.xml
+ms.keywords: debugger.setimplicitprocessdataoffset, IDebugSystemObjects3 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects4 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects3::SetImplicitProcessDataOffset, IDebugSystemObjects4, SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2::SetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects2::SetImplicitProcessDataOffset, IDebugSystemObjects4::SetImplicitProcessDataOffset, SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2 interface [Windows Debugging], SetImplicitProcessDataOffset method, IDebugSystemObjects_10effa04-b87c-4555-9860-c2d5057a2529.xml, dbgeng/IDebugSystemObjects3::SetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects4::SetImplicitProcessDataOffset, SetImplicitProcessDataOffset, SetImplicitProcessDataOffset method [Windows Debugging], SetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT SetImplicitProcessDataOffset(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's memory address space of the data structure of the system process that is to become the implicit process for the current target.  If this is zero, the implicit process for the current target is set to the default implicit process.
 

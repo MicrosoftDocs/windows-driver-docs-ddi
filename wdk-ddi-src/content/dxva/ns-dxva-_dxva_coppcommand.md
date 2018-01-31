@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 08c87f1f-ea50-4521-80a2-67369fc6598a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_COPPCommand structure pointer [Display Devices], display.dxva_coppcommand, LPDXVA_COPPCommand, _DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], DXVA_COPPCommand, *LPDXVA_COPPCommand, dxva/LPDXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml, dxva/DXVA_COPPCommand
+ms.keywords: DXVA_COPPCommand, LPDXVA_COPPCommand, display.dxva_coppcommand, dxva/LPDXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], LPDXVA_COPPCommand structure pointer [Display Devices], *LPDXVA_COPPCommand, dxva/DXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml, _DXVA_COPPCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_COPPCommand
 product: Windows
 targetos: Windows
-req.typenames: DXVA_COPPCommand, *LPDXVA_COPPCommand
+req.typenames: "*LPDXVA_COPPCommand, DXVA_COPPCommand"
 ---
 
 # _DXVA_COPPCommand structure
@@ -71,12 +71,12 @@ typedef struct _DXVA_COPPCommand {
 
 
 
-### -field macKDI
+#### - macKDI
 
 Specifies a message authentication code (MAC) GUID for the command at <b>CommandData</b>. The display driver can use the MAC to verify that the transmission of the command was secure (that is, it was not tampered with in transit to the driver). 
 
 
-### -field guidCommandID
+#### - guidCommandID
 
 Specifies the GUID that identifies the command. The following GUIDs are supported:
 
@@ -117,17 +117,17 @@ The DXVA_COPPSetSignaling GUID is defined as follows:
 </tr>
 </table></span></div>
 
-### -field dwSequence
+#### - dwSequence
 
 Specifies a sequence number. For the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a> function to process the command, the value in <b>dwSequence</b> must match the 32-bit random starting status sequence number that was passed in the <a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a> structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a> function.
 
 
-### -field cbSizeData
+#### - cbSizeData
 
 Specifies the size, in bytes, of the command data at <b>CommandData</b>.
 
 
-### -field CommandData
+#### - CommandData
 
 Specifies an array that comprises the command data. 
 
@@ -143,15 +143,15 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppsetsignalingcmddata.md">DXVA_COPPSetSignalingCmdData</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
 
  
 

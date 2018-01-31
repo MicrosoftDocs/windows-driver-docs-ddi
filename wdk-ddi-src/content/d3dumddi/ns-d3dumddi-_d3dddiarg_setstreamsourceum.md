@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1406f6d7-7da9-4c1a-93c5-384b13fa5e81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETSTREAMSOURCEUM, _D3DDDIARG_SETSTREAMSOURCEUM, UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml, display.d3dddiarg_setstreamsourceum, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM
+ms.keywords: display.d3dddiarg_setstreamsourceum, _D3DDDIARG_SETSTREAMSOURCEUM, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], D3DDDIARG_SETSTREAMSOURCEUM, d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM, UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_SETSTREAMSOURCEUM {
 
 
 
-### -field Stream
+#### - Stream
 
 [in] The index, starting from zero, for the vertex stream to bind to a user-memory buffer.
 
 
-### -field Stride
+#### - Stride
 
 [in] The size, in bytes, from one vertex to the next vertex in the stream. In contrast to the call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a> function, <b>Stride</b> cannot be set to zero. Because only one stream can be bound to a user memory buffer, each vertex in the stream must receive different data for processing.
 

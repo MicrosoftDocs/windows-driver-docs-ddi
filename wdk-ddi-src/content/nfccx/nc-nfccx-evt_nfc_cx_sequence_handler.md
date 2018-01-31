@@ -73,22 +73,22 @@ VOID  EvtNfcCxSequenceHandler(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Sequence [in]
+#### - Sequence [in]
 
 An <a href="..\nfccx\ne-nfccx-_nfc_cx_sequence.md">NFC_CX_SEQUENCE</a> enumeration.
 
 
-### -param CompletionRoutine [in]
+#### - CompletionRoutine [in]
 
 A pointer to a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function.
 
 
-### -param CompletionContext [in, optional]
+#### - CompletionContext [in, optional]
 
 Driver-defined context information that the driver specified when it registered the <i>EvtNfcCxSequenceHandler</i> callback function.
 
@@ -109,9 +109,9 @@ On completion of handling the sequence, the client driver notifies the NFC CX th
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

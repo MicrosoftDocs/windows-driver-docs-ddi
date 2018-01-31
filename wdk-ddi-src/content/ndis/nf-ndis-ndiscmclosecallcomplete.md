@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: caf248e0-ec9a-4c85-86f7-f35c715c6e39
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmCloseCallComplete, NdisCmCloseCallComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmCloseCallComplete, netvista.ndiscmclosecallcomplete, condis_call_manager_ref_9380a315-f44c-4f6d-914f-480408c8d804.xml
+ms.keywords: ndis/NdisCmCloseCallComplete, NdisCmCloseCallComplete, condis_call_manager_ref_9380a315-f44c-4f6d-914f-480408c8d804.xml, NdisCmCloseCallComplete function [Network Drivers Starting with Windows Vista], netvista.ndiscmclosecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,13 +71,13 @@ VOID NdisCmCloseCallComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the client's request that the CM close the connection, either
      NDIS_STATUS_SUCCESS or any CM-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle to the VC for the call. This handle was supplied by NDIS when the VC was
      originally created, whether by the call manager or client, with 
@@ -88,7 +88,7 @@ Specifies the handle to the VC for the call. This handle was supplied by NDIS wh
      ProtocolCmCloseCall</i></mshelp:link> function.
 
 
-### -param NdisPartyHandle [in, optional]
+#### - NdisPartyHandle [in, optional]
 
 Specifies either <b>NULL</b> if the 
      <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
@@ -141,11 +141,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
 
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
 <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
  
 

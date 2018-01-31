@@ -72,21 +72,19 @@ NTSTATUS AVStrMiniInitializeAllocator(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure describing the pin with which the allocator is to be associated.
 
 
-### -param AllocatorFraming [in]
+#### - AllocatorFraming [in]
 
 Pointer to a <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure describing the framing requirements that the allocator should use.
 
 
-### -param *Context
+#### - *Context [out]
 
-
-
-
+Pointer to a context for the allocator that will be passed as a parameter to the other routines for this structure. For example, the driver could store pin or allocator framing structures for later reference by the other callback routines. Note that other routines for <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> must have at least an indirect way of referencing <i>Pin</i>. (For instance, <a href="..\ks\nc-ks-pfnksdefaultallocate.md">AVStrMiniAllocate</a> will need to be able to access the <i>AllocatorFraming</i> information for <i>Pin</i>, and <i>Context</i> is the only parameter that AVStream will pass it.)
 
 
 #### - Context [out]
@@ -116,13 +114,13 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
 <a href="..\ks\nc-ks-pfnksdeleteallocator.md">AVStrMiniDeleteAllocator</a>
 
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
 

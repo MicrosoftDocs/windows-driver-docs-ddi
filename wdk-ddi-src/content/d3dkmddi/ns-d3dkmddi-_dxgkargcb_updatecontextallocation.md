@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07BFCA6C-4E75-4BB5-9F6A-22E1FFAFFF6F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], display.dxgkargcb_updatecontextallocation, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, _DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION
+ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION, _DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKARGCB_UPDATECONTEXTALLOCATION {
 
 
 
-### -field hAllocation
+#### - hAllocation
 
 Handle to the context allocation being updated. The allocation defines a physical adapter in a linked display adapter link.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 Pointer to a private driver data buffer to be passed to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a> paging operation.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Specify the size of the driver private data.
 

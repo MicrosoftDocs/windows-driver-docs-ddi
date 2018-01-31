@@ -74,7 +74,7 @@ NDIS_STATUS MiniportAddDevice(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 An NDIS handle that identifies the miniport adapter that the Plug and Play (PnP) manager is
      adding. NDIS also passes this handle to the 
@@ -82,7 +82,7 @@ An NDIS handle that identifies the miniport adapter that the Plug and Play (PnP)
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param MiniportDriverContext [in]
+#### - MiniportDriverContext [in]
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The miniport driver passed this context area to the 
@@ -230,29 +230,29 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
+   MiniportFilterResourceRequirements</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-   MiniportFilterResourceRequirements</i></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_add_device_registration_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
  
 

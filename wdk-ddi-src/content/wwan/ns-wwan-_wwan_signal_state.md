@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba5632bb-c1d7-47b1-b6b4-88c67710149f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE, _WWAN_SIGNAL_STATE, WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, netvista.wwan_signal_state, wwan/WWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SIGNAL_STATE
+ms.keywords: WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], PWWAN_SIGNAL_STATE, _WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE, WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, *PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE, netvista.wwan_signal_state, wwan/PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SIGNAL_STATE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SIGNAL_STATE, *PWWAN_SIGNAL_STATE
+req.typenames: "*PWWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ typedef struct _WWAN_SIGNAL_STATE {
 
 
 
-### -field Rssi
+#### - Rssi
 
 A value that represents the strength of the wireless signal. Miniport drivers that report their
      WWAN_CELLULAR_CLASS to be 
@@ -149,7 +149,7 @@ CDMA-based devices must report signal strength based on compensated RSSI (accoun
      based on raw RSSI.
 
 
-### -field ErrorRate
+#### - ErrorRate
 
 A coded value that represents a percentage range of error rates. For GSM-based devices, use the
      values from the Channel bit error rate column in the following table. For CDMA-based devices, use the
@@ -287,7 +287,7 @@ WWAN_ERROR_RATE_UNKNOWN
 </table> 
 
 
-### -field RssiInterval
+#### - RssiInterval
 
 The current interval, in seconds, at which the miniport driver has been set to (or the default
      interval, if one has not been set), that the miniport driver will provide updates about the signal
@@ -296,7 +296,7 @@ The current interval, in seconds, at which the miniport driver has been set to (
      request from the MB Service for WWAN_RSSI_DEFAULT.
 
 
-### -field RssiThreshold
+#### - RssiThreshold
 
 The current threshold, in threshold units, at which the miniport driver has been set to (or the
      default interval, if one has not been set), that the miniport driver will provide updates about the

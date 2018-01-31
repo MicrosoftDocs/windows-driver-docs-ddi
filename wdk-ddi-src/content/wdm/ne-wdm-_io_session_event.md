@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_SESSION_EVENT, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/PIO_SESSION_EVENT, IoSessionEventLogon, IoSessionEventCreated, kernel.io_session_event, _IO_SESSION_EVENT, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], wdm/IoSessionEventTerminated, IoSessionEventMax, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionEventConnected, PIO_SESSION_EVENT, wdm/IoSessionEventLogon, wdm/IO_SESSION_EVENT, IoSessionEventTerminated, wdm/IoSessionEventMax, wdm/IoSessionEventDisconnected, IoSessionEventLogoff, wdm/IoSessionEventLogoff, IoSessionEventConnected, IoSessionEventDisconnected, *PIO_SESSION_EVENT, wdm/IoSessionEventCreated
+ms.keywords: IoSessionEventConnected, wdm/IoSessionEventConnected, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], IoSessionEventLogon, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], kernel.io_session_event, wdm/IoSessionEventLogon, wdm/IoSessionEventDisconnected, wdm/IoSessionEventLogoff, wdm/IO_SESSION_EVENT, wdm/IoSessionEventTerminated, IoSessionEventMax, IoSessionEventCreated, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, IO_SESSION_EVENT, wdm/IoSessionEventCreated, IoSessionEventDisconnected, wdm/IoSessionEventMax, _IO_SESSION_EVENT, *PIO_SESSION_EVENT, PIO_SESSION_EVENT, IoSessionEventTerminated, IoSessionEventLogoff, wdm/PIO_SESSION_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,37 +78,37 @@ typedef enum _IO_SESSION_EVENT {
 
 
 
-### -field IoSessionEventCreated
+#### - IoSessionEventCreated
 
 The user session was created.
 
 
-### -field IoSessionEventTerminated
+#### - IoSessionEventTerminated
 
 The user session terminated.
 
 
-### -field IoSessionEventConnected
+#### - IoSessionEventConnected
 
 The user session was connected.
 
 
-### -field IoSessionEventDisconnected
+#### - IoSessionEventDisconnected
 
 The user session was disconnected.
 
 
-### -field IoSessionEventLogon
+#### - IoSessionEventLogon
 
 The user logged on to the session.
 
 
-### -field IoSessionEventLogoff
+#### - IoSessionEventLogoff
 
 The user logged off of the session.
 
 
-### -field IoSessionEventMax
+#### - IoSessionEventMax
 
 Specifies the maximum value in this enumeration type.
 

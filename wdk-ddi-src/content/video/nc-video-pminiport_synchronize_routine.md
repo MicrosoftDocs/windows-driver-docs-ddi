@@ -71,7 +71,7 @@ BOOLEAN HwVidSynchronizeExecutionCallback(
 
 
 
-### -param Context
+#### - Context
 
 Pointer to context data passed to the callback routine through <b>VideoPortSynchronizeExecution</b>. Usually, this is a pointer to the device extension or an offset within the device extension.
 
@@ -96,11 +96,11 @@ The miniport driver of an adapter that does not generate interrupts also can hav
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
-
 <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
 
  
 

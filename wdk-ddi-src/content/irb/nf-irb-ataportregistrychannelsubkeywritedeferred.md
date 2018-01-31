@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 332f6921-1ad2-42ae-9728-001f243b8cff
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred, atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], storage.ataportregistrychannelsubkeywritedeferred
+ms.keywords: storage.ataportregistrychannelsubkeywritedeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], AtaPortRegistryChannelSubkeyWriteDeferred, atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, irb/AtaPortRegistryChannelSubkeyWriteDeferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN __inline AtaPortRegistryChannelSubkeyWriteDeferred(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-### -param ControllerNumber [in]
+#### - ControllerNumber [in]
 
 Contains the controller number. 
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Contains the name of the registry value to write to. 
 
 
-### -param ValueType [in]
+#### - ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
 <table>
@@ -128,7 +128,7 @@ A null-terminated. Unicode string.
 </table> 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the source buffer that contains the data to be written to the registry. 
 
@@ -166,9 +166,9 @@ The miniport driver must not reuse the buffer that is pointed to by <i>Buffer</i
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
-
 <a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a>
+
+<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
 
  
 

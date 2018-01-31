@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a765829-3558-48ea-b788-7cce6c4b64c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE, *PNDIS_FILTER_INTERFACE, _NDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], filter_structures_ref_ec1f81f5-4aac-4e69-a8e1-96bc0c5f9958.xml, NDIS_FILTER_INTERFACE structure [Network Drivers Starting with Windows Vista], netvista.ndis_filter_interface, ndis/NDIS_FILTER_INTERFACE
+ms.keywords: "_NDIS_FILTER_INTERFACE, ndis/PNDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], filter_structures_ref_ec1f81f5-4aac-4e69-a8e1-96bc0c5f9958.xml, *PNDIS_FILTER_INTERFACE, ndis/NDIS_FILTER_INTERFACE, netvista.ndis_filter_interface, NDIS_FILTER_INTERFACE structure [Network Drivers Starting with Windows Vista], NDIS_FILTER_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _NDIS_FILTER_INTERFACE {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -89,7 +89,7 @@ If the handle passed to <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">
 If the handle passed to <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a> belongs to an NDIS 6.20 or earlier object, then NDIS sets <b>Revision</b> to NDIS_FILTER_INTERFACE_REVISION_1 and <b>Size</b> to NDIS_SIZEOF_FILTER_INTERFACE_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A bit field that defines the type of NDIS driver that implements the filter. This member must be
      set to one of the following driver types:
@@ -119,7 +119,7 @@ The filter is currently not attached to the receive path.  This flag is only set
 
 
 
-### -field FilterType
+#### - FilterType
 
 The behavior type for the filter. This type must be one of the following values:
      
@@ -137,7 +137,7 @@ A monitoring filter.
 A modifying filter.
 
 
-### -field FilterRunType
+#### - FilterRunType
 
 The runtime attachment priority type for the filter. This type must be one of the following
      values:
@@ -158,12 +158,12 @@ An optional filter. If the filter does not attach to the driver stack, NDIS will
        rest of the stack.
 
 
-### -field IfIndex
+#### - IfIndex
 
 The NDIS interface index of the filter module.
 
 
-### -field NetLuid
+#### - NetLuid
 
 The 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value that is assigned to the filter
@@ -171,13 +171,13 @@ The
      RFC 2863).
 
 
-### -field FilterClass
+#### - FilterClass
 
 A UNICODE string that specifies the filter class. This string is the same as the 
      <b>FilterClass</b> INF file entry.
 
 
-### -field FilterInstanceName
+#### - FilterInstanceName
 
 The filter instance name.
 
@@ -200,9 +200,9 @@ A light-weight filter may dynamically insert or remove itself from the send or r
 
 <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
  
 

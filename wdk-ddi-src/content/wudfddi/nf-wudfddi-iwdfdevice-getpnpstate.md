@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetPnpState method, IWDFDevice interface, GetPnpState method, umdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState, IWDFDevice, GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, GetPnpState method, IWDFDevice interface, wdf.iwdfdevice_getpnpstate, IWDFDevice::GetPnpState
+ms.keywords: wdf.iwdfdevice_getpnpstate, IWDFDevice interface, GetPnpState method, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, GetPnpState, GetPnpState method, IWDFDevice interface, IWDFDevice, IWDFDevice::GetPnpState, wudfddi/IWDFDevice::GetPnpState, GetPnpState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.GetPnpState
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ WDF_TRI_STATE GetPnpState(
 
 
 
-### -param State [in]
+#### - State [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>-typed value that identifies the PnP property to retrieve status about. 
 
@@ -123,11 +123,11 @@ The PnP property is turned on.
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

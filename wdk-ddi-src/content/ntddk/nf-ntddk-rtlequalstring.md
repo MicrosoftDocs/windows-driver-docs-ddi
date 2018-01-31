@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8244276-0cf6-4315-9f4a-85890194dad8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlEqualString routine [Kernel-Mode Driver Architecture], kernel.rtlequalstring, ntddk/RtlEqualString, RtlEqualString, k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml
+ms.keywords: kernel.rtlequalstring, k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml, RtlEqualString routine [Kernel-Mode Driver Architecture], ntddk/RtlEqualString, RtlEqualString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOLEAN RtlEqualString(
 
 
 
-### -param String1 [in]
+#### - String1 [in]
 
 Pointer to the first string.
 
 
-### -param String2 [in]
+#### - String2 [in]
 
 Pointer to the second string.
 
 
-### -param CaseInSensitive [in]
+#### - CaseInSensitive [in]
 
 If <b>TRUE</b>, case should be ignored when doing the comparison. 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8E52A10E-5666-41B5-B342-491E5AF9DD38
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetOutputStreamPresentationPosition, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, IMiniportWaveRTOutputStream interface [Audio Devices], GetOutputStreamPresentationPosition method, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices], IMiniportWaveRTOutputStream interface
+ms.keywords: audio.iminiportwavertoutputstream_getoutputstreampresentationposition, IMiniportWaveRTOutputStream, GetOutputStreamPresentationPosition method [Audio Devices], IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices], GetOutputStreamPresentationPosition method, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition method
@@ -67,7 +67,7 @@ NTSTATUS GetOutputStreamPresentationPosition(
 
 
 
-### -param pPresentationPosition [out]
+#### - pPresentationPosition [out]
 
  pPresentationPosition returns a <a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a> structure that represents a recent presentation position in the audio data stream. For more information, see <a href="https://msdn.microsoft.com/872A4445-8E0B-4804-ADDC-8CD9608E3EBF">IMiniportStreamAudioEngineNode::GetStreamPresentationPosition</a>.
 

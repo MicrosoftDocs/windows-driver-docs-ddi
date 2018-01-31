@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2edf2104-ad17-4c84-b991-57e64565029f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], d3dukmdt/D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2, _D3DDDI_RESOURCEFLAGS2
+ms.keywords: d3dukmdt/D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2, _D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ typedef struct _D3DDDI_RESOURCEFLAGS2 {
 
 
 
-### -field VideoEncoder
+#### - VideoEncoder
 
 If set, indicates that the resource can be used as a capture buffer and/or a video encoder input resource.
 
@@ -89,14 +89,14 @@ If this member is set, the driver must set  either the <b>FORMATOP_CAPTURE</b> o
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field UserMemory
+#### - UserMemory
 
 If set, indicates that the memory for this surface was allocated by the application, not by the Direct3D runtime.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field CrossAdapter
+#### - CrossAdapter
 
 If set, indicates that the resource is  a shared cross-adapter resource.
 
@@ -110,7 +110,7 @@ Supported starting with Windows 8.1.
  
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
@@ -119,16 +119,16 @@ Supported starting with Windows 8.1.
 Reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies the type of resource to create.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_formatop.md">FORMATOP</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_formatop.md">FORMATOP</a>
 
  
 

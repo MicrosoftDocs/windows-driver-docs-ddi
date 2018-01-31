@@ -72,12 +72,12 @@ VOID HwStorInitializeTracing(
 
 
 
-### -param Arg1
+#### - Arg1
 
 The first parameter that is passed to <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>.
 
 
-### -param Arg2
+#### - Arg2
 
 The second parameter that is passed to <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>.
 

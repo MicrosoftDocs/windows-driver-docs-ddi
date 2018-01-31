@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b2f51d54-3fda-4cbf-a148-0572122ed9fa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlioencodememioresource, k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml, wdm/RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], RtlIoEncodeMemIoResource
+ms.keywords: kernel.rtlioencodememioresource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], RtlIoEncodeMemIoResource, wdm/RtlIoEncodeMemIoResource, k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS RtlIoEncodeMemIoResource(
 
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to update.
 
 
-### -param Type [in]
+#### - Type [in]
 
 The resource type of the address range. This parameter can be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the range of assignable addresses. 
 
 
-### -param Alignment [in]
+#### - Alignment [in]
 
 The alignment, in bytes, of the starting address of address range.
 
 
-### -param MinimumAddress [in]
+#### - MinimumAddress [in]
 
 The minimum address that can be assigned to the device. 
 
 
-### -param MaximumAddress [in]
+#### - MaximumAddress [in]
 
 The maximum address that can be assigned to the device.
 

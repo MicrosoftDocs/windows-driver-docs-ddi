@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a2672bca-5c2e-423d-9ba0-fad610170e88
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfilePacket64, WdfDmaProfilePacket, WDF_DMA_PROFILE enumeration, WdfDmaProfileScatterGather, wdfdmaenabler/WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfileSystemDuplex, WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileSystem, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, WdfDmaProfileSystem, WdfDmaProfilePacket64, wdfdmaenabler/WdfDmaProfileScatterGather64, wdfdmaenabler/WDF_DMA_PROFILE, _WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfilePacket, WdfDmaProfileScatterGather64Duplex, WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileScatterGather, kmdf.wdf_dma_profile, wdf.wdf_dma_profile, WdfDmaProfileScatterGather64, WdfDmaProfileSystemDuplex, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml
+ms.keywords: wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileScatterGather, WdfDmaProfileInvalid, WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfilePacket, wdfdmaenabler/WdfDmaProfileScatterGather64, WDF_DMA_PROFILE enumeration, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WdfDmaProfileSystemDuplex, WDF_DMA_PROFILE, kmdf.wdf_dma_profile, _WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileInvalid, WdfDmaProfileScatterGather64, WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileSystem, WdfDmaProfileScatterGather, wdfdmaenabler/WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileSystemDuplex, WdfDmaProfilePacket64, WdfDmaProfilePacket, wdfdmaenabler/WdfDmaProfilePacket64, wdf.wdf_dma_profile, WdfDmaProfileSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,47 +78,47 @@ typedef enum _WDF_DMA_PROFILE {
 
 
 
-### -field WdfDmaProfileInvalid
+#### - WdfDmaProfileInvalid
 
 For internal use only.
 
 
-### -field WdfDmaProfilePacket
+#### - WdfDmaProfilePacket
 
 The device supports single-packet DMA operations, using 32-bit addressing.
 
 
-### -field WdfDmaProfileScatterGather
+#### - WdfDmaProfileScatterGather
 
 The device supports packet-based, scatter/gather DMA operations, using 32-bit addressing.
 
 
-### -field WdfDmaProfilePacket64
+#### - WdfDmaProfilePacket64
 
 The device supports single-packet DMA operations, using 64-bit addressing.
 
 
-### -field WdfDmaProfileScatterGather64
+#### - WdfDmaProfileScatterGather64
 
 The device supports packet-based, scatter/gather DMA operations, using 64-bit addressing.
 
 
-### -field WdfDmaProfileScatterGatherDuplex
+#### - WdfDmaProfileScatterGatherDuplex
 
 The device supports packet-based, scatter/gather DMA operations, using 32-bit addressing. The device also supports duplex operation.
 
 
-### -field WdfDmaProfileScatterGather64Duplex
+#### - WdfDmaProfileScatterGather64Duplex
 
 The device supports packet-based, scatter/gather DMA operations, using 64-bit addressing. The device also supports duplex operation.
 
 
-### -field WdfDmaProfileSystem
+#### - WdfDmaProfileSystem
 
 The device supports system-mode DMA operations. This value is available in version 1.11 and later versions of KMDF running on Windows 8 or later versions of Windows.
 
 
-### -field WdfDmaProfileSystemDuplex
+#### - WdfDmaProfileSystemDuplex
 
 The device supports system-mode DMA operations. The device also supports duplex operation. This value is available in version 1.11 and later versions of KMDF running on Windows 8 or later versions of Windows.
 

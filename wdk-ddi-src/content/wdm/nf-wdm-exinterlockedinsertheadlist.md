@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 91640a96-abad-424e-b9bd-301dad2b6aac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exinterlockedinsertheadlist, wdm/ExInterlockedInsertHeadList, ExInterlockedInsertHeadList, k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exinterlockedinsertheadlist, wdm/ExInterlockedInsertHeadList, k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture], ExInterlockedInsertHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ PLIST_ENTRY ExInterlockedInsertHeadList(
 
 
 
-### -param ListHead [in, out]
+#### - ListHead [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that serves as the list header.
 
 
-### -param ListEntry [in, out]
+#### - ListEntry [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that represents the entry to be inserted into the list.
 
 
-### -param Lock [in, out]
+#### - Lock [in, out]
 
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
@@ -105,13 +105,13 @@ The <b>ExInterlockedInsertHeadList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 <a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
 

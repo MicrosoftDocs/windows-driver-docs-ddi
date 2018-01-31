@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aeee9194-2824-43ff-8225-4c0ef666e44f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11ddiarg_tex1d_unorderedaccessview, D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW structure [Display Devices], d3d10umddi/D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW, D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW, UMDisplayDriver_Dx11param_Structs_46a7f507-bfcb-4d1d-a905-ea60655785d6.xml
+ms.keywords: d3d10umddi/D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW, display.d3d11ddiarg_tex1d_unorderedaccessview, D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_46a7f507-bfcb-4d1d-a905-ea60655785d6.xml, D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW {
 
 
 
-### -field MipSlice
+#### - MipSlice
 
 [in] The identifier of the MIP-map slice. 
 
 
-### -field FirstArraySlice
+#### - FirstArraySlice
 
 [in] The identifier of the first array slice. 
 
 
-### -field ArraySize
+#### - ArraySize
 
 [in] The number of array slices for the texture. 
 

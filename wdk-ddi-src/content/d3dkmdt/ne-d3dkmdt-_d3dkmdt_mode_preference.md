@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5d18431d-ca35-4757-8bbe-9397abd31568
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_MP_PREFERRED, display.d3dkmdt_mode_preference, D3DKMDT_MP_UNINITIALIZED, d3dkmdt/D3DKMDT_MP_NOTPREFERRED, d3dkmdt/D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MP_PREFERRED, D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MP_UNINITIALIZED, _D3DKMDT_MODE_PREFERENCE, D3DKMDT_MODE_PREFERENCE enumeration [Display Devices], D3DKMDT_MP_NOTPREFERRED, DmEnums_b5bdbc2e-4abe-4db7-8700-e34fc0125472.xml
+ms.keywords: D3DKMDT_MP_NOTPREFERRED, display.d3dkmdt_mode_preference, d3dkmdt/D3DKMDT_MP_NOTPREFERRED, D3DKMDT_MP_UNINITIALIZED, D3DKMDT_MODE_PREFERENCE enumeration [Display Devices], d3dkmdt/D3DKMDT_MODE_PREFERENCE, D3DKMDT_MP_PREFERRED, DmEnums_b5bdbc2e-4abe-4db7-8700-e34fc0125472.xml, D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MP_PREFERRED, _D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MP_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _D3DKMDT_MODE_PREFERENCE {
 
 
 
-### -field D3DKMDT_MP_UNINITIALIZED
+#### - D3DKMDT_MP_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_MODE_PREFERENCE has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_MP_PREFERRED
+#### - D3DKMDT_MP_PREFERRED
 
 Indicates that the mode is preferred by the monitor.
 
 
-### -field D3DKMDT_MP_NOTPREFERRED
+#### - D3DKMDT_MP_NOTPREFERRED
 
 Indicates that the mode is not preferred by the monitor.
 

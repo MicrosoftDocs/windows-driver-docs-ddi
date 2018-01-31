@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_SERIAL_STATUS, *PSERIAL_STATUS, PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], serports.serial_status, SERIAL_STATUS structure [Serial Ports], ntddser/PSERIAL_STATUS, ntddser/SERIAL_STATUS, SERIAL_STATUS"
+ms.keywords: ntddser/PSERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], PSERIAL_STATUS structure pointer [Serial Ports], _SERIAL_STATUS, ntddser/SERIAL_STATUS, *PSERIAL_STATUS, serports.serial_status, PSERIAL_STATUS, SERIAL_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _SERIAL_STATUS {
 
 
 
-### -field Errors
+#### - Errors
 
 A set of flags to indicate the receive errors that have occurred in the input stream. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
 <table>
@@ -105,7 +105,7 @@ A set of flags to indicate the receive errors that have occurred in the input st
 After the serial controller driver supplies the accumulated SERIAL_ERROR_<i>XXX</i> flags to satisfy an <a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a> request, the driver resets the flags to zero.
 
 
-### -field HoldReasons
+#### - HoldReasons
 
 A set of flags to indicate the reasons that the serial port is currently waiting to transmit bytes to the output stream. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
 <table>
@@ -142,22 +142,22 @@ A set of flags to indicate the reasons that the serial port is currently waiting
 <b>HoldReasons</b> is zero if the serial port has no reason to stop transmitting bytes.
 
 
-### -field AmountInInQueue
+#### - AmountInInQueue
 
 The number of bytes of data received from the serial port that are currently available to be read from the input buffer.
 
 
-### -field AmountInOutQueue
+#### - AmountInOutQueue
 
 The number of bytes of transmit data that are currently waiting to be written from the output buffer to the serial port.
 
 
-### -field EofReceived
+#### - EofReceived
 
 Whether an EOF (end of file) character has been received. This member is <b>TRUE</b> if an EOF has been received. Otherwise, it is <b>FALSE</b>. The EOF character marks the end of the input stream.
 
 
-### -field WaitForImmediate
+#### - WaitForImmediate
 
 Whether the serial port is waiting to transmit an immediate character. This member is <b>TRUE</b> if the serial port is waiting to transmit an immediate character. Otherwise, it is <b>FALSE</b>. Transmission of an immediate character might be delayed if any flag bit other than SERIAL_TX_WAITING_FOR_XON is set in the <b>HoldReasons</b> member. For more information about immediate characters, see <a href="..\ntddser\ni-ntddser-ioctl_serial_immediate_char.md">IOCTL_SERIAL_IMMEDIATE_CHAR</a>.
 

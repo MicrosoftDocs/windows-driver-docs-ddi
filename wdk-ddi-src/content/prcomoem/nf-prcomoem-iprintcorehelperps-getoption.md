@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fa212b86-89ae-4d22-a3ff-ebcc6100874b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintcorehelperps_getoption, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetOption method, GetOption, GetOption method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS::GetOption, prcomoem/IPrintCoreHelperPS::GetOption, GetOption method [Print Devices], print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml
+ms.keywords: IPrintCoreHelperPS interface [Print Devices], GetOption method, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml, GetOption, IPrintCoreHelperPS, IPrintCoreHelperPS::GetOption, GetOption method [Print Devices], prcomoem/IPrintCoreHelperPS::GetOption, print.iprintcorehelperps_getoption, GetOption method [Print Devices], IPrintCoreHelperPS interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ STDMETHOD GetOption(
 
 
 
-### -param pDevmode [in, optional]
+#### - pDevmode [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>structure. If this pointer is provided, <b>IPrintCoreHelperPS::GetOption</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter.
 
 
-### -param pszFeatureRequested [in]
+#### - pszFeatureRequested [in]
 
 A pointer to the ANSI string that contains the name of the feature as it appears in the PPD file.
 
 
-### -param ppszOption [out]
+#### - ppszOption [out]
 
 A pointer to a variable that contains the address of an ANSI string. When <b>IPrintCoreHelperPS::GetOption</b> returns, the string should contain the keyword for the currently selected option as it appears in the configuration file. The caller should not modify this string and should not free the memory that is associated with this string.
 

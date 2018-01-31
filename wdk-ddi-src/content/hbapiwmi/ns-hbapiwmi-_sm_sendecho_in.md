@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0fce2e27-8705-4916-8c75-ecc2845c255c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_SendECHO_IN structure [Storage Devices], _SM_SendECHO_IN, *PSM_SendECHO_IN, PSM_SendECHO_IN, hbapiwmi/SM_SendECHO_IN, structs-Fibre_b5bcd1e0-9847-4425-8091-6b6dcf7581a0.xml, SM_SendECHO_IN, hbapiwmi/PSM_SendECHO_IN, PSM_SendECHO_IN structure pointer [Storage Devices], storage.sm_sendecho_in
+ms.keywords: structs-Fibre_b5bcd1e0-9847-4425-8091-6b6dcf7581a0.xml, PSM_SendECHO_IN, SM_SendECHO_IN, SM_SendECHO_IN structure [Storage Devices], hbapiwmi/SM_SendECHO_IN, _SM_SendECHO_IN, hbapiwmi/PSM_SendECHO_IN, *PSM_SendECHO_IN, PSM_SendECHO_IN structure pointer [Storage Devices], storage.sm_sendecho_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendECHO_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendECHO_IN, SM_SendECHO_IN"
+req.typenames: SM_SendECHO_IN, *PSM_SendECHO_IN
 ---
 
 # _SM_SendECHO_IN structure
@@ -72,32 +72,32 @@ typedef struct _SM_SendECHO_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 The local HBA port worldwide name (WWN).
 
 
-### -field DestWWN
+#### - DestWWN
 
 The remote HBA port worldwide name (WWN) to which the command will be sent.
 
 
-### -field DestFCID
+#### - DestFCID
 
 The address identifier of the remote port.
 
 
-### -field InRespBufferMaxSize
+#### - InRespBufferMaxSize
 
 The maximum response buffer size.
 
 
-### -field ReqBufferSize
+#### - ReqBufferSize
 
 The request buffer size.
 
 
-### -field ReqBuffer
+#### - ReqBuffer
 
 The request buffer data.
 

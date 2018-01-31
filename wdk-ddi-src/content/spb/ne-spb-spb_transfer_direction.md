@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 617450AB-6AC8-485A-BD88-377F903EEE15
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/SpbTransferDirectionMax, *PSPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionToDevice, SpbTransferDirectionToDevice, SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionMax, spb/SPB_TRANSFER_DIRECTION, SPB.spb_transfer_direction, SpbTransferDirectionFromDevice, SpbTransferDirectionNone, spb/SpbTransferDirectionNone, spb/SpbTransferDirectionFromDevice
+ms.keywords: SpbTransferDirectionToDevice, spb/SpbTransferDirectionMax, spb/SpbTransferDirectionNone, spb/SpbTransferDirectionToDevice, SpbTransferDirectionNone, SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION, spb/SPB_TRANSFER_DIRECTION, SPB.spb_transfer_direction, spb/SpbTransferDirectionFromDevice, SpbTransferDirectionMax, SpbTransferDirectionFromDevice, SPB_TRANSFER_DIRECTION enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SPB_TRANSFER_DIRECTION
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION"
+req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef enum  {
 
 
 
-### -field SpbTransferDirectionNone
+#### - SpbTransferDirectionNone
 
 The data transfer direction is undefined.
 
 
-### -field SpbTransferDirectionFromDevice
+#### - SpbTransferDirectionFromDevice
 
 The data transfer direction is from the device to system memory (read from device).
 
 
-### -field SpbTransferDirectionToDevice
+#### - SpbTransferDirectionToDevice
 
 The data transfer direction is from system memory to the device (write to device).
 
 
-### -field SpbTransferDirectionMax
+#### - SpbTransferDirectionMax
 
 Reserved for use by the operating system.
 
@@ -106,23 +106,23 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
  
 

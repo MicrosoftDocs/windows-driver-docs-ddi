@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c00b8f19-6708-4ec2-928b-610158850247
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.bthhfp_audio_device_capabilties_init, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices]
+ms.keywords: audio.bthhfp_audio_device_capabilties_init, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ FORCEINLINE VOID  BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT(
 
 
 
-### -param caps [out]
+#### - caps [out]
 
 A pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43d4-9202-c8925575e44d">BTHHFP_AUDIO_DEVICE_CAPABILTIES</a> data structure.
 

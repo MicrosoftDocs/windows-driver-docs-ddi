@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_RENDERKM_OPERATION, DXGK_GDIOP_COLORFILL, display.dxgk_renderkm_operation, d3dkmddi/DXGK_GDIOP_STRETCHBLT, DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_ESCAPE, d3dkmddi/DXGK_GDIOP_ESCAPE, DXGK_RENDERKM_OPERATION enumeration [Display Devices], _DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_COLORFILL, DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, d3dkmddi/DXGK_GDIOP_BITBLT, DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml
+ms.keywords: display.dxgk_renderkm_operation, d3dkmddi/DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, DXGK_RENDERKM_OPERATION enumeration [Display Devices], DXGK_GDIOP_ESCAPE, DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_GDIOP_ESCAPE, d3dkmddi/DXGK_GDIOP_ALPHABLEND, DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml, DXGK_RENDERKM_OPERATION, DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_ALPHABLEND, _DXGK_RENDERKM_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,37 +73,37 @@ typedef enum _DXGK_RENDERKM_OPERATION {
 
 
 
-### -field DXGK_GDIOP_BITBLT
+#### - DXGK_GDIOP_BITBLT
 
 Indicates a bit-block transfer (bitblt).
 
 
-### -field DXGK_GDIOP_COLORFILL
+#### - DXGK_GDIOP_COLORFILL
 
 Indicates a color fill.
 
 
-### -field DXGK_GDIOP_ALPHABLEND
+#### - DXGK_GDIOP_ALPHABLEND
 
 Indicates an alpha blend.
 
 
-### -field DXGK_GDIOP_STRETCHBLT
+#### - DXGK_GDIOP_STRETCHBLT
 
 Indicates a stretch blt.
 
 
-### -field DXGK_GDIOP_ESCAPE
+#### - DXGK_GDIOP_ESCAPE
 
 Reserved for future use. The driver should skip this command when setting the value of the <b>CommandSize</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a> structure.
 
 
-### -field DXGK_GDIOP_TRANSPARENTBLT
+#### - DXGK_GDIOP_TRANSPARENTBLT
 
 Indicates a blt with transparency.
 
 
-### -field DXGK_GDIOP_CLEARTYPEBLEND
+#### - DXGK_GDIOP_CLEARTYPEBLEND
 
 Indicates a ClearType blend.
 

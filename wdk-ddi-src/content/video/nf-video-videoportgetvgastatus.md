@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a2bb69c-b10a-41bb-a92a-de7add3ca2c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportgetvgastatus, VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, video/VideoPortGetVgaStatus, VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices]
+ms.keywords: display.videoportgetvgastatus, VideoPortGetVgaStatus function [Display Devices], VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, video/VideoPortGetVgaStatus, VideoPortGetVgaStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VP_STATUS VideoPortGetVgaStatus(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VgaStatus [out]
+#### - VgaStatus [out]
 
 Pointer to the resulting VGA status. A value of zero (0) indicates that VGA is not enabled; a value of one (1) indicates that VGA is enabled.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b93c6420-b981-4bfe-b841-921cbe76f643
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFMemoryObjectRef_2b1a76a0-3de8-4cfd-8a87-83a883a6fa95.xml, wdfcore/WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN function, wdf.wdf_align_size_down, kmdf.wdf_align_size_down, WDF_ALIGN_SIZE_DOWN
+ms.keywords: DFMemoryObjectRef_2b1a76a0-3de8-4cfd-8a87-83a883a6fa95.xml, wdfcore/WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN function, kmdf.wdf_align_size_down, wdf.wdf_align_size_down
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ size_t WDF_ALIGN_SIZE_DOWN(
 
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-memory-buffers">memory buffer</a>.
 
 
-### -param AlignTo [in]
+#### - AlignTo [in]
 
 The alignment offset, in bytes. This value must be a power of 2, such as 2, 4, 8, 16, and so on.
 

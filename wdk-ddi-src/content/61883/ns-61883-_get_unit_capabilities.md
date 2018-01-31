@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7fe180c2-cf0b-4658-86e3-fed5e270db8c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PGET_UNIT_CAPABILITIES, 61883_structures_d0aac9e5-5600-4552-b06a-7526e6c87336.xml, _GET_UNIT_CAPABILITIES, PGET_UNIT_CAPABILITIES, 61883/GET_UNIT_CAPABILITIES, GET_UNIT_CAPABILITIES structure [Buses], GET_UNIT_CAPABILITIES, IEEE.get_unit_capabilities, PGET_UNIT_CAPABILITIES structure pointer [Buses], *PGET_UNIT_CAPABILITIES
+ms.keywords: GET_UNIT_CAPABILITIES structure [Buses], 61883_structures_d0aac9e5-5600-4552-b06a-7526e6c87336.xml, 61883/PGET_UNIT_CAPABILITIES, IEEE.get_unit_capabilities, GET_UNIT_CAPABILITIES, PGET_UNIT_CAPABILITIES structure pointer [Buses], PGET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES, 61883/GET_UNIT_CAPABILITIES, _GET_UNIT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct _GET_UNIT_CAPABILITIES {
 
 
 
-### -field NumOutputPlugs
+#### - NumOutputPlugs
 
 The number of output plugs supported by the device.
 
 
-### -field NumInputPlugs
+#### - NumInputPlugs
 
 The number of input plugs supported by the device.
 
 
-### -field MaxDataRate
+#### - MaxDataRate
 
 The maximum data rate of the device. Can be one of the following:
 
@@ -92,12 +92,12 @@ CMP_SPEED_S200
 CMP_SPEED_S400
 
 
-### -field CTSFlags
+#### - CTSFlags
 
 A bitmask that identifies the command and transaction sets supported by the device. For example, if <b>CTSFlags</b> is 0001, the device supports Audio Video Control (AV/C). If <b>CTSFlags</b> is 4000, the device supports a vendor-unique CTS. Most devices that support multiple command and transaction sets report each CTS value in a separate Configuration ROM unit directory entry, so typically only one bit is set at a time.
 
 
-### -field HardwareFlags
+#### - HardwareFlags
 
 If the AV_HOST_DMA_DOUBLE_BUFFERING_ENABLED flag is set, and the request level is SET_UNIT_INFO_ISOCH_PARAMS, then a size limit is imposed on members <b>RX_NumPackets</b> and <b>TX_NumPackets</b> of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538921">UNIT_ISOCH_PARAMS</a> structure. These members, when multiplied by the packet size, must be less than or equal to 64 KB. For example, <b>Rx_NumPackets * PacketSize </b>must be less than or equal to 64 KB. 
 

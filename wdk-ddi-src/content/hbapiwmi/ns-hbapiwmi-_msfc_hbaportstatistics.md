@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0274b3c7-c17e-45bf-867f-2b0f741b2ecb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msfc_hbaportstatistics, hbapiwmi/PMSFC_HBAPortStatistics, PMSFC_HBAPortStatistics, _MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics structure [Storage Devices], MSFC_HBAPortStatistics, hbapiwmi/MSFC_HBAPortStatistics, PMSFC_HBAPortStatistics structure pointer [Storage Devices], structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml
+ms.keywords: MSFC_HBAPortStatistics structure [Storage Devices], *PMSFC_HBAPortStatistics, PMSFC_HBAPortStatistics structure pointer [Storage Devices], hbapiwmi/PMSFC_HBAPortStatistics, storage.msfc_hbaportstatistics, _MSFC_HBAPortStatistics, structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml, hbapiwmi/MSFC_HBAPortStatistics, PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_HBAPortStatistics
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics"
+req.typenames: MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics
 ---
 
 # _MSFC_HBAPortStatistics structure
@@ -81,77 +81,77 @@ typedef struct _MSFC_HBAPortStatistics {
 
 
 
-### -field SecondsSinceLastReset
+#### - SecondsSinceLastReset
 
 Contains the number of seconds since the statistics were last reset.
 
 
-### -field TxFrames
+#### - TxFrames
 
 Contains the number of total transmitted fibre channel frames across all protocols and classes.
 
 
-### -field TxWords
+#### - TxWords
 
 Contains the number of total transmitted fibre channel words across all protocols and classes.
 
 
-### -field RxFrames
+#### - RxFrames
 
 Contains the number of received fibre channel frames across all protocols and classes.
 
 
-### -field RxWords
+#### - RxWords
 
 Contains the number of received fibre channel words across all protocols and classes.
 
 
-### -field LIPCount
+#### - LIPCount
 
 Contains the number of loop initialization primitive sequence (LIP) events that have occurred on a arbitrated loop.
 
 
-### -field NOSCount
+#### - NOSCount
 
 Contains the number of nonoperational state primitive sequence (NOS) events that have occurred on the switched fabric.
 
 
-### -field ErrorFrames
+#### - ErrorFrames
 
 Contains the number of frames that have been received in error.
 
 
-### -field DumpedFrames
+#### - DumpedFrames
 
 Contains the number of frames that were lost due to a lack of host buffers available.
 
 
-### -field LinkFailureCount
+#### - LinkFailureCount
 
 Contains the link failure count. 
 
 
-### -field LossOfSyncCount
+#### - LossOfSyncCount
 
 Contains the loss of synchronization count. 
 
 
-### -field LossOfSignalCount
+#### - LossOfSignalCount
 
 Contains the loss of signal count. 
 
 
-### -field PrimitiveSeqProtocolErrCount
+#### - PrimitiveSeqProtocolErrCount
 
 Contains the primitive sequence protocol error count. 
 
 
-### -field InvalidTxWordCount
+#### - InvalidTxWordCount
 
 Contains a count of the number of invalid transmissions. 
 
 
-### -field InvalidCRCCount
+#### - InvalidCRCCount
 
 Contains a count of the number frames with invalid cyclic redundancy checksums. 
 

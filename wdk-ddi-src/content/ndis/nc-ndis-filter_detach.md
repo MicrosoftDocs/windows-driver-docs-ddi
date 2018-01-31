@@ -72,7 +72,7 @@ VOID FilterDetach(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 A handle to the context area for the filter module that NDIS will remove from the driver stack.
      The filter driver created and initialized this context area in the 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cddaa92c-c43b-4875-a52e-a28ecc30962d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_get_local_bd_addr, bthddi/_BRB_GET_LOCAL_BD_ADDR, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], _BRB_GET_LOCAL_BD_ADDR
+ms.keywords: bltooth._brb_get_local_bd_addr, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], bthddi/_BRB_GET_LOCAL_BD_ADDR, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, _BRB_GET_LOCAL_BD_ADDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,14 +68,14 @@ struct _BRB_GET_LOCAL_BD_ADDR {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 An output member that receives the address of the local radio.
 

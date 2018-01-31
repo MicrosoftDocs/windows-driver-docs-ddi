@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a339c4fc-87e9-485e-914e-a26e8fac527e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSENDSUPSERVICEDATARESPONSEPARAMS, netvista.rilsendsupservicedataresponseparams"
+ms.keywords: netvista.rilsendsupservicedataresponseparams, *LPRILSENDSUPSERVICEDATARESPONSEPARAMS, ntddrilapitypes/RILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSENDSUPSERVICEDATARESPONSEPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS"
+req.typenames: RILSENDSUPSERVICEDATARESPONSEPARAMS, *LPRILSENDSUPSERVICEDATARESPONSEPARAMS
 ---
 
 # RILSENDSUPSERVICEDATARESPONSEPARAMS structure
@@ -69,14 +69,14 @@ typedef struct _RILSENDSUPSERVICEDATARESPONSEPARAMS {
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwDataSize
+#### - dwDataSize
 
 
 
-### -field wszData
+#### - wszData
 
 

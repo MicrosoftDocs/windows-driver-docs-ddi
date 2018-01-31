@@ -75,17 +75,17 @@ NTSTATUS EvtDeviceArmWakeFromSxWithReason(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param DeviceWakeEnabled [in]
+#### - DeviceWakeEnabled [in]
 
 A Boolean value that, if <b>TRUE</b>, indicates that the device's ability to wake the system is enabled. 
 
 
-### -param ChildrenArmedForWake [in]
+#### - ChildrenArmedForWake [in]
 
 A Boolean value that, if <b>TRUE</b>, indicates that the ability of one or more child devices to wake the system is enabled.
 
@@ -136,11 +136,11 @@ Both the device and one or more of its child devices are enabled to wake the sys
 
 ## -see-also
 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md">EvtDeviceArmWakeFromS0</a>
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_disarm_wake_from_sx.md">EvtDeviceDisarmWakeFromSx</a>
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
 
  
 

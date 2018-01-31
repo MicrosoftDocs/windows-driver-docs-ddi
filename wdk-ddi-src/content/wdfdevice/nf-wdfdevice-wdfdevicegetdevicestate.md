@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 510197cf-8eab-4e1a-8b51-c1c08c58532b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicegetdevicestate, DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, kmdf.wdfdevicegetdevicestate, PFN_WDFDEVICEGETDEVICESTATE, wdfdevice/WdfDeviceGetDeviceState, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method
+ms.keywords: PFN_WDFDEVICEGETDEVICESTATE, WdfDeviceGetDeviceState method, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState, DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, WdfDeviceGetDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfDeviceGetDeviceState(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param DeviceState [out]
+#### - DeviceState [out]
 
 A pointer to a caller-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_state.md">WDF_DEVICE_STATE</a> structure that receives the device's state information.
 

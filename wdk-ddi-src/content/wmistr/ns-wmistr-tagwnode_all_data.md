@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15582270-6cc4-43d4-b9e6-dceab3bc092d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wmistr/WNODE_ALL_DATA, PWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_all_data, wmistr/PWNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], WNODE_ALL_DATA, tagWNODE_ALL_DATA, *PWNODE_ALL_DATA, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml
+ms.keywords: PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], wmistr/PWNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], kernel.wnode_all_data, tagWNODE_ALL_DATA, *PWNODE_ALL_DATA, PWNODE_ALL_DATA, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, wmistr/WNODE_ALL_DATA, WNODE_ALL_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct tagWNODE_ALL_DATA {
 
 
 
-### -field WnodeHeader
+#### - WnodeHeader
 
 Specifies a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
@@ -100,17 +100,17 @@ Specifies a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> stru
  
 
 
-### -field DataBlockOffset
+#### - DataBlockOffset
 
 Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> structure to the beginning of data for the first instance. 
 
 
-### -field InstanceCount
+#### - InstanceCount
 
 Indicates the number of instances whose data follows the fixed members of the <b>WNODE_ALL_DATA</b> in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. 
 
 
-### -field OffsetInstanceNameOffsets
+#### - OffsetInstanceNameOffsets
 
 Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to an array of offsets to dynamic instance names. Each instance name must be aligned on a USHORT boundary. If all instances to be returned have static instance names, WMI ignores <b>OffsetInstanceNameOffsets</b>.
 
@@ -165,9 +165,9 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
  
 

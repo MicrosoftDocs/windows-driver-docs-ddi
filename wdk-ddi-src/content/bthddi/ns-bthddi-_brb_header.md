@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.brb_header, BRB_HEADER structure [Bluetooth Devices], bthddi/BRB_HEADER, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, BRB_HEADER, _BRB_HEADER
+ms.keywords: bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bltooth.brb_header, bthddi/BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, BRB_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,12 +78,12 @@ typedef struct _BRB_HEADER {
 
 
 
-### -field ListEntry
+#### - ListEntry
 
 A LIST_ENTRY structure used by the current owner of the BRB to place the BRB in a queue.
 
 
-### -field Length
+#### - Length
 
 The size, in bytes, of the BRB, including the BRB_HEADER structure. The 
      <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>, 
@@ -92,12 +92,12 @@ The size, in bytes, of the BRB, including the BRB_HEADER structure. The
      member.
 
 
-### -field Version
+#### - Version
 
 For internal use only. Do not use.
 
 
-### -field Type
+#### - Type
 
 The Bluetooth request block type. The 
      <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>, 
@@ -131,17 +131,17 @@ The Bluetooth request block type. The
 <li>BRB_GET_DEVICE_INTERFACE_STRING</li>
 </ul>
 
-### -field BthportFlags
+#### - BthportFlags
 
 For internal use only. Do not use.
 
 
-### -field Status
+#### - Status
 
 The NTSTATUS code that is passed when the BRB call completes.
 
 
-### -field BtStatus
+#### - BtStatus
 
 The Bluetooth status code (BTSTATUS) that corresponds to the NTSTATUS code that is passed in the 
      <b>Status</b> member. Possible values include:
@@ -191,18 +191,18 @@ The Bluetooth status code (BTSTATUS) that corresponds to the NTSTATUS code that 
 <li>BTH_ERROR_UNSUPPORTED_REMOTE_FEATURE</li>
 </ul>
 
-### -field Context
+#### - Context
 
 For internal use only. Do not use.
 
 
-### -field ClientContext
+#### - ClientContext
 
 The client context that is associated with the BRB call. The caller can use this member to store a
      pointer or other information.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use. Do not use.
 
@@ -222,11 +222,11 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 <a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 
  
 

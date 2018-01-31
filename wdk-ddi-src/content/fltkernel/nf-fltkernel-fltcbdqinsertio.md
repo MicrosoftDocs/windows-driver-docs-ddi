@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d20d2626-89fb-4bc5-9309-88977b921078
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltCbdqInsertIo, FltCbdqInsertIo, ifsk.fltcbdqinsertio, FltApiRef_a_to_d_d2635baa-958a-437b-88ca-9ee84df26d64.xml, FltCbdqInsertIo function [Installable File System Drivers]
+ms.keywords: FltCbdqInsertIo function [Installable File System Drivers], FltApiRef_a_to_d_d2635baa-958a-437b-88ca-9ee84df26d64.xml, ifsk.fltcbdqinsertio, fltkernel/FltCbdqInsertIo, FltCbdqInsertIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FltCbdqInsertIo(
 
 
 
-### -param Cbdq [in, out]
+#### - Cbdq [in, out]
 
 Pointer to the caller's cancel-safe callback data queue. This queue must have been initialized by calling <a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>. 
 
 
-### -param Cbd [in]
+#### - Cbd [in]
 
 Pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure for the I/O operation to be queued. The operation must be an IRP-based I/O operation. 
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Caller-supplied variable that receives an opaque context pointer for the I/O request. Minifilter drivers can use this pointer to identify a specific item in the queue so that it can be removed by calling <a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>. If the minifilter driver is not required to remove particular I/O requests from the queue, this parameter can be <b>NULL</b>. 
 
 
-### -param InsertContext [in, optional]
+#### - InsertContext [in, optional]
 
 Context pointer to be passed to the minifilter driver's <i>CbdqInsertIo</i> callback routine. 
 
@@ -144,19 +144,19 @@ If the queue is protected by a <a href="https://msdn.microsoft.com/0585fc2a-0d0b
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 

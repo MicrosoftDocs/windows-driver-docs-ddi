@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5756bb06-8fd3-4124-b3c8-35d5ed0bd57b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/PMPEG2_TRANSPORT_STRIDE, PMPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE, stream.mpeg2_transport_stride, bdatypes/MPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE structure [Streaming Media Devices], MPEG2_TRANSPORT_STRIDE, _MPEG2_TRANSPORT_STRIDE, bdaref_66678748-2c73-4bb6-b4ba-fc1c28fe567b.xml, PMPEG2_TRANSPORT_STRIDE structure pointer [Streaming Media Devices]
+ms.keywords: "*PMPEG2_TRANSPORT_STRIDE, bdatypes/PMPEG2_TRANSPORT_STRIDE, PMPEG2_TRANSPORT_STRIDE, bdatypes/MPEG2_TRANSPORT_STRIDE, stream.mpeg2_transport_stride, PMPEG2_TRANSPORT_STRIDE structure pointer [Streaming Media Devices], _MPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE structure [Streaming Media Devices], MPEG2_TRANSPORT_STRIDE, bdaref_66678748-2c73-4bb6-b4ba-fc1c28fe567b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MPEG2_TRANSPORT_STRIDE {
 
 
 
-### -field dwOffset
+#### - dwOffset
 
 Offset in bytes into a packet.
 
 
-### -field dwPacketLength
+#### - dwPacketLength
 
 Size in bytes of a packet.
 
 
-### -field dwStride
+#### - dwStride
 
 Stride of data in a packet. 
 

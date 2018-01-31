@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5f05b24b-cf46-4302-a445-a9df029661cd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSPROPERTY_TUNER_SCAN_CAPS_S, ksmedia/KSPROPERTY_TUNER_SCAN_CAPS_S, PKSPROPERTY_TUNER_SCAN_CAPS_S, stream.ksproperty_tuner_scan_caps_s, vidcapstruct_fbbea2b1-4a4d-40f0-b988-4ffab19155f5.xml, *PKSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S, PKSPROPERTY_TUNER_SCAN_CAPS_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_SCAN_CAPS_S structure [Streaming Media Devices]
+ms.keywords: PKSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S, PKSPROPERTY_TUNER_SCAN_CAPS_S structure pointer [Streaming Media Devices], vidcapstruct_fbbea2b1-4a4d-40f0-b988-4ffab19155f5.xml, ksmedia/KSPROPERTY_TUNER_SCAN_CAPS_S, stream.ksproperty_tuner_scan_caps_s, ksmedia/PKSPROPERTY_TUNER_SCAN_CAPS_S, *PKSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,42 +71,42 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-### -field fSupportsHardwareAssistedScanning
+#### - fSupportsHardwareAssistedScanning
 
 A Boolean value that indicates whether the driver or firmware for a tuner supports hardware-assisted scanning operations. <b>TRUE</b> indicates that the driver or firmware for a tuner supports hardware-assisted scanning operations. <b>FALSE</b> indicates that the driver or firmware does not support hardware-assisted scanning operations. 
 
 
-### -field SupportedBroadcastStandards
+#### - SupportedBroadcastStandards
 
 The number of broadcast video standard types that the tuning device can support. A hybrid tuner can support multiple types. 
 
 
-### -field GUIDBucket
+#### - GUIDBucket
 
 An array of GUIDs for the network types that the tuning device supports. 
 
 Based on the supported number in <b>SupportedBroadcastStandards</b> that is returned in the initial call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a> property, the analog or digital tuner filter then allocates an array of GUIDs. The driver uses this allocated user buffer to return all the supported GUIDs in the next call to KSPROPERTY_TUNER_SCAN_CAPS. The driver must call the <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a> function to validate this user buffer and must ensure that the length of the buffer is valid. Although unlikely, if the driver will access this buffer in an arbitrary thread, it should map the buffer into kernel space. Currently, scanning capabilities are defined for supporting the analog standard. If the driver supports analog and the application intends to start a scanning session for analog, the corresponding capabilities are defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a> property. Other scanning capabilities to support other broadcast standards (for example, DVB-S) are not yet supported. 
 
 
-### -field lengthofBucket
+#### - lengthofBucket
 
 The number of GUIDs in the <b>GUIDBucket</b> array. 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
 
  
 

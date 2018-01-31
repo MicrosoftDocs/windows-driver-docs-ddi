@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanUssdRequestContinue, wwan/WWAN_USSD_REQUEST_TYPE, _WWAN_USSD_REQUEST_TYPE, WwanUssdRequestContinue, *PWWAN_USSD_REQUEST_TYPE, WwanUssdRequestCancel, WWAN_USSD_REQUEST_TYPE, WwanUssdRequestInitiate, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestInitiate, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_ussd_request_type
+ms.keywords: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE, WwanUssdRequestInitiate, WwanUssdRequestContinue, WwanUssdRequestCancel, wwan/WwanUssdRequestCancel, wwan/WWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], _WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestContinue, netvista.wwan_ussd_request_type, wwan/WwanUssdRequestInitiate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WWAN_USSD_REQUEST_TYPE {
 
 
 
-### -field WwanUssdRequestInitiate
+#### - WwanUssdRequestInitiate
 
 Indicates a request to create a new USSD session and to transmit the accompanying USSD string.
 
 
-### -field WwanUssdRequestContinue
+#### - WwanUssdRequestContinue
 
 Indicates a request to send the accompanying USSD string using the existing USSD session.
 
 
-### -field WwanUssdRequestCancel
+#### - WwanUssdRequestCancel
 
 Indicates a request to terminate the existing USSD session.
 

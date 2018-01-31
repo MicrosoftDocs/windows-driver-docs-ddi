@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14d03e6f-d02c-4b39-8f21-b339c65fb036
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryExtendedSize method [Streaming Media Devices], KsQueryExtendedSize, IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler::KsQueryExtendedSize, stream.iksdatatypehandler_ksqueryextendedsize, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler
+ms.keywords: KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, KsQueryExtendedSize, IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler, stream.iksdatatypehandler_ksqueryextendedsize, KsQueryExtendedSize method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsQueryExtendedSize(
 
 
 
-### -param ExtendedSize [out]
+#### - ExtendedSize [out]
 
 Pointer to a variable that receives the extended header size in bytes.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94239501-2eeb-479a-851a-14ae665c5887
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, _DXGKARG_CREATECONTEXT, display.dxgkarg_createcontext, d3dkmddi/DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices], DXGKARG_CREATECONTEXT, *INOUT_PDXGKARG_CREATECONTEXT
+ms.keywords: DXGKARG_CREATECONTEXT structure [Display Devices], *INOUT_PDXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT, DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, _DXGKARG_CREATECONTEXT, display.dxgkarg_createcontext, d3dkmddi/DXGKARG_CREATECONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,54 +73,54 @@ typedef struct _DXGKARG_CREATECONTEXT {
 
 
 
-### -field hContext
+#### - hContext
 
 [out] A handle to the context that a display miniport driver returns from a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function. This handle represents the context in subsequent calls to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>, and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a> functions.
 
 
-### -field NodeOrdinal
+#### - NodeOrdinal
 
 [in] The node that the context is created for.
 
 
-### -field EngineAffinity
+#### - EngineAffinity
 
 [in] The engine within the node that <b>NodeOrdinal</b> specifies that the context is created for. 
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextflags.md">DXGK_CREATECONTEXTFLAGS</a> structure that identifies how to create the context.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver. 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
 
 
-### -field ContextInfo
+#### - ContextInfo
 
 [out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a> structure that the display miniport driver populates to describe the device context.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextflags.md">DXGK_CREATECONTEXTFLAGS</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextflags.md">DXGK_CREATECONTEXTFLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
 
  
 

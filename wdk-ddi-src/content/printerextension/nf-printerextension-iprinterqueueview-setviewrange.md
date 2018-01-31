@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetViewRange method [Print Devices], IPrinterQueueView interface, print.iprinterqueueview_setviewrange, SetViewRange, SetViewRange method [Print Devices], printerextension/IPrinterQueueView::SetViewRange, IPrinterQueueView interface [Print Devices], SetViewRange method, IPrinterQueueView::SetViewRange, IPrinterQueueView
+ms.keywords: IPrinterQueueView, SetViewRange, IPrinterQueueView::SetViewRange, print.iprinterqueueview_setviewrange, IPrinterQueueView interface [Print Devices], SetViewRange method, SetViewRange method [Print Devices], SetViewRange method [Print Devices], IPrinterQueueView interface, printerextension/IPrinterQueueView::SetViewRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetViewRange(
 
 
 
-### -param ulViewOffset [in]
+#### - ulViewOffset [in]
 
 The start of the range of jobs being monitored. Note that the offset value uses a zero-based index.
 
 
-### -param ulViewSize [in]
+#### - ulViewSize [in]
 
 The  size of the range of jobs being monitored.
 
@@ -97,9 +97,9 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 <a href="https://msdn.microsoft.com/C565288C-B014-4A92-9F50-1641EAA30D22">IPrinterQueue2::GetPrinterQueueView</a>
 
-<a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
+
+<a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
 
  
 

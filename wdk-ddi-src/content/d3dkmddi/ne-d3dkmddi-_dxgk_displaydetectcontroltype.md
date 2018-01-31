@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D777342E-439E-4BEF-9DCC-7962B1AF8EAB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_DDCT_ENABLEHPD, DXGK_DISPLAYDETECTCONTROLTYPE enumeration [Display Devices], d3dkmddi/DXGK_DISPLAYDETECTCONTROLTYPE, _DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DDCT_UNINITIALIZED, d3dkmddi/DXGK_DDCT_POLLALL, d3dkmddi/DXGK_DDCT_DISABLEHPD, DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DDCT_POLLONE, DXGK_DDCT_DISABLEHPD, DXGK_DDCT_POLLALL, DXGK_DDCT_ENABLEHPD, d3dkmddi/DXGK_DDCT_UNINITIALIZED, DXGK_DDCT_POLLONE, display.dxgk_displaydetectcontroltype
+ms.keywords: DXGK_DDCT_POLLONE, d3dkmddi/DXGK_DDCT_DISABLEHPD, DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DISPLAYDETECTCONTROLTYPE enumeration [Display Devices], d3dkmddi/DXGK_DDCT_POLLONE, DXGK_DDCT_ENABLEHPD, _DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DDCT_POLLALL, display.dxgk_displaydetectcontroltype, d3dkmddi/DXGK_DDCT_ENABLEHPD, DXGK_DDCT_DISABLEHPD, DXGK_DDCT_UNINITIALIZED, d3dkmddi/DXGK_DDCT_UNINITIALIZED, DXGK_DDCT_POLLALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,29 +71,29 @@ typedef enum _DXGK_DISPLAYDETECTCONTROLTYPE {
 
 
 
-### -field DXGK_DDCT_UNINITIALIZED
+#### - DXGK_DDCT_UNINITIALIZED
 
 Indicates that a variable of type DXGK_DISPLAYDETECTCONTROLTYPE has not yet been assigned a meaningful value.
 
 
-### -field DXGK_DDCT_POLLONE
+#### - DXGK_DDCT_POLLONE
 
 Requests a poll of the target specified in the TargetId field.  The driver should initiate polling the target if the current status is not known.  If the status is not the same as the last reported status for the target, an updated status should be reported using DxgkCbIndicateConnectorChange.
 
 
-### -field DXGK_DDCT_POLLALL
+#### - DXGK_DDCT_POLLALL
 
 Request to initiate polls for all targets where the driver does not have current status before completing the call but the driver should not wait for the results of polling before returning.
 As status of each target is discovered, if it is not the same as the previously updated status should be reported using DxgkCbIndicateConnectorChange.
 
 
 
-### -field DXGK_DDCT_ENABLEHPD
+#### - DXGK_DDCT_ENABLEHPD
 
 Applies to all targets and requires that the driver enables new notifications and indicates any pending notifications using DxgkCbIndicateConnectorChange before completing the call.  It must also initiate polls for all targets where the driver does not have current status before completing the call but it should not wait for the results of polling before returning. For the POST adapter, it is important that the display which was initialized by firmware be included in the set of displays which is reported before returning from the call made during boot so that the OS is aware of the monitor before it requests the boot functional VidPn.  Since firmware has already detected and initialized the boot display and the driver has been able to query for the frame buffer state, the connection status should naturally be known by the driver and pending notification to the OS.
 
 
-### -field DXGK_DDCT_DISABLEHPD
+#### - DXGK_DDCT_DISABLEHPD
 
 Applies to all targets and requires that the driver disables new notifications. It is understood that, this does not prevent an in-flight notification from being reported after the driver has returned.
 

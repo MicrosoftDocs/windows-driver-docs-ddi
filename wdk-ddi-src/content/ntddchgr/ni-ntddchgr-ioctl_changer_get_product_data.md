@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CHANGER_GET_PRODUCT_DATA
 product: Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
 ---
 
 # IOCTL_CHANGER_GET_PRODUCT_DATA IOCTL

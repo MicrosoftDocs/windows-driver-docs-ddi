@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b264fac0-61d9-4789-b60b-c0b309eb25f1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfworkitemenqueue, PFN_WDFWORKITEMENQUEUE, WdfWorkItemEnqueue method, WdfWorkItemEnqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue, DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml
+ms.keywords: PFN_WDFWORKITEMENQUEUE, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, WdfWorkItemEnqueue method, WdfWorkItemEnqueue, wdfworkitem/WdfWorkItemEnqueue, DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfWorkItemEnqueue(
 
 
 
-### -param WorkItem [in]
+#### - WorkItem [in]
 
 A handle to a framework work-item object that is obtained from a previous call to <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
 
@@ -108,13 +108,13 @@ For more information about work items, see <a href="https://docs.microsoft.com/e
 
 ## -see-also
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
-
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
 <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
 
-<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+
+<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
  
 

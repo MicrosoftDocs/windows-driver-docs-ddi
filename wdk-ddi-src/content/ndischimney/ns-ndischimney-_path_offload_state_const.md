@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a71f70f6-7731-457b-bd6d-b4a649f76f8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/PATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST, tcp_chim_struct_4412519c-3610-4f0a-a4c6-400ff661d205.xml, _PATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PATH_OFFLOAD_STATE_CONST, *PPATH_OFFLOAD_STATE_CONST, netvista.path_offload_state_const, ndischimney/PPATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PPATH_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], _PATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], *PPATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST, ndischimney/PATH_OFFLOAD_STATE_CONST, netvista.path_offload_state_const, tcp_chim_struct_4412519c-3610-4f0a-a4c6-400ff661d205.xml, ndischimney/PPATH_OFFLOAD_STATE_CONST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _PATH_OFFLOAD_STATE_CONST {
 
 
 
-### -field Header
+#### - Header
 
 An 
      <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
@@ -82,14 +82,14 @@ An
      <b>Header</b> is reserved.
 
 
-### -field SourceAddress
+#### - SourceAddress
 
 A pointer to the source IP address of a TCP connection. If the TCP connection is over IPv4, the
      address is a 4-byte IPv4 address. If the TCP connection is over IPv6, the address is a 16-byte IPv6
      address. The source address bytes are always in network byte order.
 
 
-### -field DestinationAddress
+#### - DestinationAddress
 
 A pointer to the destination IP address of a TCP connection. If the TCP connection is over IPv4,
      the address is a 4-byte IPv4 address. If the TCP connection is over IPv6, the address is a 16-byte IPv6
@@ -117,15 +117,15 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CONST structure is associ
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
-
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 <a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
 
  
 

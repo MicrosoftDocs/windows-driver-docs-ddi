@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3b1b54cc-52a5-48ce-a637-70e289c1944e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/FEATURE_DATA_REAL_TIME_STREAMING, ntddmmc/PFEATURE_DATA_REAL_TIME_STREAMING, PFEATURE_DATA_REAL_TIME_STREAMING, _FEATURE_DATA_REAL_TIME_STREAMING, PFEATURE_DATA_REAL_TIME_STREAMING structure pointer [Storage Devices], *PFEATURE_DATA_REAL_TIME_STREAMING, storage.feature_data_real_time_streaming, FEATURE_DATA_REAL_TIME_STREAMING, structs-CD-ROM_2bd0a42c-a5b8-4a5b-958e-56e1a47a6499.xml, FEATURE_DATA_REAL_TIME_STREAMING structure [Storage Devices]
+ms.keywords: FEATURE_DATA_REAL_TIME_STREAMING structure [Storage Devices], FEATURE_DATA_REAL_TIME_STREAMING, _FEATURE_DATA_REAL_TIME_STREAMING, ntddmmc/PFEATURE_DATA_REAL_TIME_STREAMING, storage.feature_data_real_time_streaming, PFEATURE_DATA_REAL_TIME_STREAMING, PFEATURE_DATA_REAL_TIME_STREAMING structure pointer [Storage Devices], *PFEATURE_DATA_REAL_TIME_STREAMING, ntddmmc/FEATURE_DATA_REAL_TIME_STREAMING, structs-CD-ROM_2bd0a42c-a5b8-4a5b-958e-56e1a47a6499.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _FEATURE_DATA_REAL_TIME_STREAMING {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field StreamRecording
+#### - StreamRecording
 
 Indicates, when set to 1, that the device supports the stream recording operation. When set to zero, this bit indicates that the device might not support the stream recording operation. 
 
 
-### -field WriteSpeedInGetPerf
+#### - WriteSpeedInGetPerf
 
 Indicates, when set to 1, that the device supports the write speed data of the GET PERFORMANCE command and the WRC field of the SETSTREAMING command. 
 
 
-### -field WriteSpeedInMP2A
+#### - WriteSpeedInMP2A
 
 Indicates, when set to 1, that the device supports CD/DVD capabilities &amp; mechanical status mode page.
 
 
-### -field SetCDSpeed
+#### - SetCDSpeed
 
 Indicates, when set to 1, that the device supports the SET CD SPEED command. When set to zero, it indicates that the device does not support the SET CD SPEED command.
 
 
-### -field ReadBufferCapacityBlock
+#### - ReadBufferCapacityBlock
 
 Indicates, when set to 1, that the device supports the READ BUFFERCAPACITY command.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved. 
 

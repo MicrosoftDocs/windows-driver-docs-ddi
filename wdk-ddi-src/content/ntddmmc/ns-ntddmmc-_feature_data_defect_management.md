@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff032dbd-8c84-4442-bbd5-a27b61617d47
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], storage.feature_data_defect_management, structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml, PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT, _FEATURE_DATA_DEFECT_MANAGEMENT
+ms.keywords: FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], storage.feature_data_defect_management, PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices], FEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, _FEATURE_DATA_DEFECT_MANAGEMENT, structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml, PFEATURE_DATA_DEFECT_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_DEFECT_MANAGEMENT
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT
+req.typenames: "*PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT"
 ---
 
 # _FEATURE_DATA_DEFECT_MANAGEMENT structure
@@ -70,22 +70,22 @@ typedef struct _FEATURE_DATA_DEFECT_MANAGEMENT {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field SupplimentalSpareArea
+#### - SupplimentalSpareArea
 
 Indicates, when set to 1, that the logical unit supports the READ DVD STRUCTURE command with a format code of 0Ah. See the <i>SCSI Multimedia - 4 (MMC-4)</i> specification for more information.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved. 
 

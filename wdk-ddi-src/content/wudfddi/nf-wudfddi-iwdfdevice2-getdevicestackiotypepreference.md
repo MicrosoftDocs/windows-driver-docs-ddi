@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetDeviceStackIoTypePreference method, IWDFDevice2 interface, GetDeviceStackIoTypePreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2::GetDeviceStackIoTypePreference, wdf.iwdfdevice2_getdevicestackiotypepreference, umdf.iwdfdevice2_getdevicestackiotypepreference, IWDFDevice2, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml
+ms.keywords: GetDeviceStackIoTypePreference method, IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, umdf.iwdfdevice2_getdevicestackiotypepreference, GetDeviceStackIoTypePreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, wdf.iwdfdevice2_getdevicestackiotypepreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.GetDeviceStackIoTypePreference
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ void GetDeviceStackIoTypePreference(
 
 
 
-### -param ReadWritePreference [out]
+#### - ReadWritePreference [out]
 
 A pointer to a driver-allocated location that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed value. This value identifies the buffer access method that the framework is using for a device's read and write requests.
 
 
-### -param IoControlPreference [out]
+#### - IoControlPreference [out]
 
 A pointer to a driver-allocated location that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed value. This value that identifies the buffer access method that the framework is using for a device's I/O control requests.
 

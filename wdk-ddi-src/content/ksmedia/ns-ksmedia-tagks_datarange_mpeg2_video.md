@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed29c80a-7a42-46e3-8a18-d66dfddb9659
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_DATARANGE_MPEG2_VIDEO, vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml, *PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], stream.ks_datarange_mpeg2_video, ksmedia/PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices]
+ms.keywords: PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], *PKS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, ksmedia/KS_DATARANGE_MPEG2_VIDEO, ksmedia/PKS_DATARANGE_MPEG2_VIDEO, stream.ks_datarange_mpeg2_video, KS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO, vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml, KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_MPEG2_VIDEO
 product: Windows
 targetos: Windows
-req.typenames: KS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO
+req.typenames: "*PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO"
 ---
 
 # tagKS_DATARANGE_MPEG2_VIDEO structure
@@ -73,46 +73,46 @@ typedef struct tagKS_DATARANGE_MPEG2_VIDEO {
 
 
 
-### -field DataRange
+#### - DataRange
 
 Specifies the major identifier for the format.
 
 
-### -field bFixedSizeSamples
+#### - bFixedSizeSamples
 
 Specifies that all the samples are the same size if set to <b>TRUE</b>.
 
 
-### -field bTemporalCompression
+#### - bTemporalCompression
 
 Specifies whether each sample can stand independently on its own, without relying on previous or future samples.
 
 
-### -field StreamDescriptionFlags
+#### - StreamDescriptionFlags
 
 Unused and should be set to zero.
 
 
-### -field MemoryAllocationFlags
+#### - MemoryAllocationFlags
 
 Unused and should be set to zero.
 
 
-### -field ConfigCaps
+#### - ConfigCaps
 
 Specifies the configuration of the stream, including scaling, cropping, and frame and data rates.
 
 
-### -field VideoInfoHeader
+#### - VideoInfoHeader
 
 Specifies the details of the video stream.
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
-
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 

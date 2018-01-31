@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 98257b56-e586-41e7-80c3-f9f96d471125
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisgetroutineaddress, ndis/NdisGetRoutineAddress, NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisGetRoutineAddress, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], netvista.ndisgetroutineaddress, NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ PVOID NdisGetRoutineAddress(
 
 
 
-### -param NdisRoutineName [in]
+#### - NdisRoutineName [in]
 
 A pointer to a 
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that specifies the

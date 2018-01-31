@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 701c53d5-bb1e-4003-9505-19b9c46689c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetPrintTicket, print.ifixeddocument_setprintticket, filterpipeline_96d89fc9-899f-4ede-8da5-898471f6b769.xml, SetPrintTicket method [Print Devices], IFixedDocument::SetPrintTicket, IFixedDocument interface [Print Devices], SetPrintTicket method, SetPrintTicket method [Print Devices], IFixedDocument interface, filterpipeline/IFixedDocument::SetPrintTicket, IFixedDocument
+ms.keywords: print.ifixeddocument_setprintticket, filterpipeline/IFixedDocument::SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices], IFixedDocument interface, IFixedDocument interface [Print Devices], SetPrintTicket method, IFixedDocument, IFixedDocument::SetPrintTicket, filterpipeline_96d89fc9-899f-4ede-8da5-898471f6b769.xml, SetPrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetPrintTicket(
 
 
 
-### -param pPrintTicket [in]
+#### - pPrintTicket [in]
 
 A pointer to the print ticket to be inserted.
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtPostAssociateCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ DWORD WINAPI * Dot11ExtPostAssociateCompletion(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -84,14 +84,14 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-### -param hSecuritySessionID [in, optional]
+#### - hSecuritySessionID [in, optional]
 
 The handle of the security session identifier (ID) returned through a previous call to the 
      <mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
      Dot11ExtIhvPerformPostAssociate</i></mshelp:link> IHV Handler function.
 
 
-### -param pPeer [in, optional]
+#### - pPeer [in, optional]
 
 The media access control (MAC) address of the access point (AP) with which the IHV Extensions DLL
      performed a security operation. This parameter is formatted as a 
@@ -100,7 +100,7 @@ The media access control (MAC) address of the access point (AP) with which the I
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div><div> </div>
 
-### -param dwReasonCode [in]
+#### - dwReasonCode [in]
 
 A value that provides additional information for the completion status of the post-association
      operation. The IHV Extensions DLL must set 
@@ -115,7 +115,7 @@ The IHV Extensions DLL returns the general completion status of the post-associa
      L2_REASON_CODE_GROUP_SIZE-1).
 
 
-### -param dwWin32Error [in]
+#### - dwWin32Error [in]
 
 The completion status of the post-association operation as defined by an error code within 
      Winerror.h. If the operation completes successfully, the IHV Extensions DLL must set 
@@ -223,21 +223,21 @@ The IHV Extensions DLL must call
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
    Functions</mshelp:link>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
 
 <mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8d68231-017a-42fc-ad09-8e7f5cc743d3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_READ_BLOCK_INPUT, _VPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], kernel.vpci_read_block_input, *PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT, vpci/PVPCI_READ_BLOCK_INPUT
+ms.keywords: VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT, vpci/PVPCI_READ_BLOCK_INPUT, _VPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], kernel.vpci_read_block_input, vpci/VPCI_READ_BLOCK_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VPCI_READ_BLOCK_INPUT
 product: Windows
 targetos: Windows
-req.typenames: VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT
+req.typenames: "*PVPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT"
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ typedef struct _VPCI_READ_BLOCK_INPUT {
 
 
 
-### -field BlockId
+#### - BlockId
 
 A <b>ULONG</b> value that specifies the VF configuration block to be read.  This value is defined by the driver for the PCIe physical function (PF) of the device.
 
 
-### -field BytesRequested
+#### - BytesRequested
 
 The size, in bytes, of the buffer that receives the block.
 

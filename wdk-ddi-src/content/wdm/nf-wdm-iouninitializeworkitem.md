@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8e7713a5-534d-42b4-a719-7b7ce911245a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoUninitializeWorkItem, IoUninitializeWorkItem, k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml, IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], kernel.iouninitializeworkitem
+ms.keywords: IoUninitializeWorkItem, kernel.iouninitializeworkitem, IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml, wdm/IoUninitializeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoUninitializeWorkItem(
 
 
 
-### -param IoWorkItem [in]
+#### - IoWorkItem [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure to uninitialize. 
 

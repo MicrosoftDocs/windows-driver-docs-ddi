@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6af4161c-7caa-4d80-8938-303380ee3058
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: usbscan/USBSCAN_PIPE_ISOCHRONOUS, USBSCAN_PIPE_INTERRUPT, _RAW_PIPE_TYPE, USBSCAN_PIPE_CONTROL, usbscan/RAW_PIPE_TYPE, USBSCAN_PIPE_ISOCHRONOUS, USBSCAN_PIPE_BULK, RAW_PIPE_TYPE, usbscan/USBSCAN_PIPE_CONTROL, usbscan/USBSCAN_PIPE_BULK, usbscan/USBSCAN_PIPE_INTERRUPT, image.raw_pipe_type, stifnc_6f079c69-737d-4653-9e83-202418853f75.xml, RAW_PIPE_TYPE enumeration [Imaging Devices]
+ms.keywords: USBSCAN_PIPE_CONTROL, USBSCAN_PIPE_BULK, usbscan/USBSCAN_PIPE_ISOCHRONOUS, RAW_PIPE_TYPE, USBSCAN_PIPE_ISOCHRONOUS, usbscan/USBSCAN_PIPE_BULK, image.raw_pipe_type, RAW_PIPE_TYPE enumeration [Imaging Devices], USBSCAN_PIPE_INTERRUPT, usbscan/USBSCAN_PIPE_CONTROL, stifnc_6f079c69-737d-4653-9e83-202418853f75.xml, _RAW_PIPE_TYPE, usbscan/RAW_PIPE_TYPE, usbscan/USBSCAN_PIPE_INTERRUPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _RAW_PIPE_TYPE {
 
 
 
-### -field USBSCAN_PIPE_CONTROL
+#### - USBSCAN_PIPE_CONTROL
 
 Identifies the control pipe.
 
 
-### -field USBSCAN_PIPE_ISOCHRONOUS
+#### - USBSCAN_PIPE_ISOCHRONOUS
 
 Identifies an isochronous pipe.
 
 
-### -field USBSCAN_PIPE_BULK
+#### - USBSCAN_PIPE_BULK
 
 Identifies a bulk IN or bulk OUT pipe.
 
 
-### -field USBSCAN_PIPE_INTERRUPT
+#### - USBSCAN_PIPE_INTERRUPT
 
 Identifies an interrupt pipe.
 

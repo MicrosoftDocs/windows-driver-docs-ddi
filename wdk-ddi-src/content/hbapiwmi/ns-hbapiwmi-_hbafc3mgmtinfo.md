@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBAFC3MgmtInfo structure [Storage Devices], hbapiwmi/PHBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], hbapiwmi/HBAFC3MgmtInfo, *PHBAFC3MgmtInfo, HBAFC3MgmtInfo, _HBAFC3MgmtInfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml, PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo
+ms.keywords: HBAFC3MgmtInfo structure [Storage Devices], hbapiwmi/PHBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], *PHBAFC3MgmtInfo, PHBAFC3MgmtInfo, _HBAFC3MgmtInfo, HBAFC3MgmtInfo, storage.hbafc3mgmtinfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _HBAFC3MgmtInfo {
 
 
 
-### -field UniqueAdapterId
+#### - UniqueAdapterId
 
 Contains a unique identifier for the adapter. 
 
 
-### -field wwn
+#### - wwn
 
 Contains a worldwide name for the adapter, as described in the T11 committee's <i>Fibre Channel HBA API </i>specification. 
 
 
-### -field unittype
+#### - unittype
 
 Describes the type of HBA, as described in the T11 committee's <i>Fibre Channel HBA API </i>specification.
 
 
-### -field PortId
+#### - PortId
 
 Contains a value corresponding to the physical port number field of the specific identification data as described in the T11 committee's <i>Fibre Channel HBA API </i>specification.
 
 
-### -field NumberOfAttachedNodes
+#### - NumberOfAttachedNodes
 
 Contains the number of nodes attached to the topology as described in the T11 committee's <i>Fibre Channel HBA API </i>specification.
 
 
-### -field IPVersion
+#### - IPVersion
 
 Contains the concatenated node management and IP version fields of the specific identification data as described in the T11 committee's <i>Fibre Channel HBA API </i>specification.
 
 
-### -field UDPPort
+#### - UDPPort
 
 Indicates the value of the UDP/TCP port number field of the specific identification data as described in the T11 committee's <i>Fibre Channel HBA API </i>specification.
 
 
-### -field IPAddress
+#### - IPAddress
 
 Indicates the value of the IP address field of the specific identification data as described in the T11 committee's <i>Fibre Channel HBA API </i>specification.
 
 
-### -field reserved
+#### - reserved
 
 Reserved.
 
 
-### -field TopologyDiscoveryFlags
+#### - TopologyDiscoveryFlags
 
 Indicates the value of the vendor specific field in word 12 of the specific identification data as described in the T11 committee's <i>Fibre Channel HBA API </i>specification.
 
 
-### -field reserved1
+#### - reserved1
 
 Reserved.
 

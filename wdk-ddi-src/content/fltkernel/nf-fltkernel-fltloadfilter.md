@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], ifsk.fltloadfilter, FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, fltkernel/FltLoadFilter
+ms.keywords: FltLoadFilter, fltkernel/FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, ifsk.fltloadfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS FltLoadFilter(
 
 
 
-### -param FilterName [in]
+#### - FilterName [in]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the service name for the minifilter driver. 
 

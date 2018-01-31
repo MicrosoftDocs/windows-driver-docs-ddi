@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47512360-60fe-43f2-8052-58ca78e36d86
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PVOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, VOLUME_CONTROL structure [Storage Devices], ntddcdrm/VOLUME_CONTROL, storage.volume_control, _VOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL, VOLUME_CONTROL, PVOLUME_CONTROL"
+ms.keywords: storage.volume_control, ntddcdrm/PVOLUME_CONTROL, *PVOLUME_CONTROL, structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, VOLUME_CONTROL structure [Storage Devices], ntddcdrm/VOLUME_CONTROL, VOLUME_CONTROL, PVOLUME_CONTROL, _VOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VOLUME_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: "*PVOLUME_CONTROL, VOLUME_CONTROL"
+req.typenames: VOLUME_CONTROL, *PVOLUME_CONTROL
 ---
 
 # _VOLUME_CONTROL structure
@@ -67,7 +67,7 @@ typedef struct _VOLUME_CONTROL {
 
 
 
-### -field PortVolume
+#### - PortVolume
 
 Pointer to an array of volume values, one for each of the ports, with a maximum of four ports. 
 

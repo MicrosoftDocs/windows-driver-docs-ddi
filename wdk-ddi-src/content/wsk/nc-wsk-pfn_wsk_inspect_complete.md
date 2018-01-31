@@ -40,7 +40,7 @@ apiname:
 -	WskInspectComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ NTSTATUS WSKAPI * WskInspectComplete(
 
 
 
-### -param ListenSocket [in]
+#### - ListenSocket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure. This pointer specifies the
@@ -84,14 +84,14 @@ A pointer to a
      inspecting.
 
 
-### -param InspectID [in]
+#### - InspectID [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure. The contents of
      the structure identify the specific connection request that the WSK application is inspecting.
 
 
-### -param Action [in]
+#### - Action [in]
 
 A value that specifies whether the WSK application accepts or rejects the incoming connection
      request. A WSK application must specify either 
@@ -99,7 +99,7 @@ A value that specifies whether the WSK application accepts or rejects the incomi
      <b>WskInspectReject</b> for this parameter.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the resume operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -232,21 +232,21 @@ If the WSK application calls the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
 
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
  
 

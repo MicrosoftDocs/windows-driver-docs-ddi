@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 77b2eae8-1fa5-4f87-97e4-713bfca627b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_STATUS_INDICATION, DOT11_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], netvista.dot11_status_indication, windot11/DOT11_STATUS_INDICATION, PDOT11_STATUS_INDICATION, Native_802.11_data_types_4bd90807-e039-426f-a5d9-daa7bca20bad.xml, *PDOT11_STATUS_INDICATION, windot11/PDOT11_STATUS_INDICATION, PDOT11_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _DOT11_STATUS_INDICATION
+ms.keywords: DOT11_STATUS_INDICATION, _DOT11_STATUS_INDICATION, netvista.dot11_status_indication, Native_802.11_data_types_4bd90807-e039-426f-a5d9-daa7bca20bad.xml, DOT11_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], PDOT11_STATUS_INDICATION, PDOT11_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_STATUS_INDICATION, *PDOT11_STATUS_INDICATION, windot11/DOT11_STATUS_INDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_STATUS_INDICATION
 product: Windows
 targetos: Windows
-req.typenames: DOT11_STATUS_INDICATION, *PDOT11_STATUS_INDICATION
+req.typenames: "*PDOT11_STATUS_INDICATION, DOT11_STATUS_INDICATION"
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ typedef struct _DOT11_STATUS_INDICATION {
 
 
 
-### -field uStatusType
+#### - uStatusType
 
 The type of status indication that is made by the miniport driver.
      
@@ -80,7 +80,7 @@ For more information about the value that is used for the
      DOT11_STATUS_INDICATION structure.
 
 
-### -field ndisStatus
+#### - ndisStatus
 
 An NDIS_STATUS value that indicates the result of the operation.
      

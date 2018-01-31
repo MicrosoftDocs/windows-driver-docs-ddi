@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 697fbf86-5c99-4e35-bcb4-a6f5272cc987
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PAV_61883_REQUEST, AV_61883_REQUEST, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, *PAV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], 61883/PAV_61883_REQUEST, 61883/AV_61883_REQUEST, IEEE.av_61883_request, _AV_61883_REQUEST, AV_61883_REQUEST structure [Buses]
+ms.keywords: "*PAV_61883_REQUEST, PAV_61883_REQUEST, 61883/AV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], AV_61883_REQUEST structure [Buses], 61883/PAV_61883_REQUEST, _AV_61883_REQUEST, IEEE.av_61883_request, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, AV_61883_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,137 +95,137 @@ typedef struct _AV_61883_REQUEST {
 
 
 
-### -field GetUnitInfo
+#### - GetUnitInfo
 
 A <a href="..\61883\ns-61883-_get_unit_info.md">GET_UNIT_INFO</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>.
 
 
-### -field SetUnitInfo
+#### - SetUnitInfo
 
 A <a href="..\61883\ns-61883-_set_unit_info.md">SET_UNIT_INFO</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a>.
 
 
-### -field GetPlugHandle
+#### - GetPlugHandle
 
 A <a href="..\61883\ns-61883-_cmp_get_plug_handle.md">CMP_GET_PLUG_HANDLE</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536979">Av61883_GetPlugHandle</a>.
 
 
-### -field GetPlugState
+#### - GetPlugState
 
 A <a href="..\61883\ns-61883-_cmp_get_plug_state.md">CMP_GET_PLUG_STATE</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536980">Av61883_GetPlugState</a>.
 
 
-### -field Connect
+#### - Connect
 
 A CMP_CONNECT structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536958">Av61883_Connect</a>.
 
 
-### -field Disconnect
+#### - Disconnect
 
 A <a href="..\61883\ns-61883-_cmp_disconnect.md">CMP_DISCONNECT</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536966">Av61883_Disconnect</a>.
 
 
-### -field AttachFrame
+#### - AttachFrame
 
 A <a href="..\61883\ns-61883-_cip_attach_frame.md">CIP_ATTACH_FRAME</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>.
 
 
-### -field CancelFrame
+#### - CancelFrame
 
 A <a href="..\61883\ns-61883-_cip_cancel_frame.md">CIP_CANCEL_FRAME</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>.
 
 
-### -field Talk
+#### - Talk
 
 A <a href="..\61883\ns-61883-_cip_talk.md">CIP_TALK</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff537007">Av61883_Talk</a>.
 
 
-### -field Listen
+#### - Listen
 
 A <a href="..\61883\ns-61883-_cip_listen.md">CIP_LISTEN</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536985">Av61883_Listen</a>.
 
 
-### -field Stop
+#### - Stop
 
 A <a href="..\61883\ns-61883-_cip_stop.md">CIP_STOP</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff537005">Av61883_Stop</a>.
 
 
-### -field Request
+#### - Request
 
 An <a href="..\61883\ns-61883-_fcp_send_request.md">FCP_SEND_REQUEST</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>.
 
 
-### -field Response
+#### - Response
 
 An <a href="..\61883\ns-61883-_fcp_get_response.md">FCP_GET_RESPONSE</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536977">Av61883_GetFcpResponse</a>.
 
 
-### -field SendRequest
+#### - SendRequest
 
 An <a href="..\61883\ns-61883-_fcp_send_request.md">FCP_SEND_REQUEST</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>.
 
 
-### -field GetResponse
+#### - GetResponse
 
 An <a href="..\61883\ns-61883-_fcp_get_response.md">FCP_GET_RESPONSE</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536977">Av61883_GetFcpResponse</a>.
 
 
-### -field GetRequest
+#### - GetRequest
 
 An <a href="..\61883\ns-61883-_fcp_get_request.md">FCP_GET_REQUEST</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536974">Av61883_GetFcpRequest</a>.
 
 
-### -field SendResponse
+#### - SendResponse
 
 An <a href="..\61883\ns-61883-_fcp_send_response.md">FCP_SEND_RESPONSE</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>.
 
 
-### -field SetFcpNotify
+#### - SetFcpNotify
 
 A <a href="..\61883\ns-61883-_set_fcp_notify.md">SET_FCP_NOTIFY</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536993">Av61883_SetFcpNotify</a>.
 
 
-### -field CreatePlug
+#### - CreatePlug
 
 A <a href="..\61883\ns-61883-_cmp_create_plug.md">CMP_CREATE_PLUG</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>.
 
 
-### -field DeletePlug
+#### - DeletePlug
 
 A <a href="..\61883\ns-61883-_cmp_delete_plug.md">CMP_DELETE_PLUG</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536964">Av61883_DeletePlug</a>.
 
 
-### -field SetPlug
+#### - SetPlug
 
 A <a href="..\61883\ns-61883-_cmp_set_plug.md">CMP_SET_PLUG</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536995">Av61883_SetPlug</a>.
 
 
-### -field BusResetNotify
+#### - BusResetNotify
 
 A <a href="..\61883\ns-61883-_bus_reset_notify.md">BUS_RESET_NOTIFY</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536955">Av61883_BusResetNotify</a>.
 
 
-### -field SetUnitDirectory
+#### - SetUnitDirectory
 
 A <a href="..\61883\ns-61883-_set_unit_directory.md">SET_UNIT_DIRECTORY</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536998">Av61883_SetUnitDirectory</a>.
 
 
-### -field MonitorPlugs
+#### - MonitorPlugs
 
 A <a href="..\61883\ns-61883-_cmp_monitor_plugs.md">CMP_MONITOR_PLUGS</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536987">Av61883_MonitorPlugs</a>.
 
 
-### -field Function
+#### - Function
 
 Determines the type of request. Each request type is documented under the value of <b>Function</b> in <a href="https://msdn.microsoft.com/library/windows/hardware/ff537195">IEC-61883 Protocol I/O Requests</a>.
 
 
-### -field Version
+#### - Version
 
 The device driver interface (DDI) version for the request. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537219">INIT_61883_HEADER</a> macro initializes <b>Version</b> to CURRENT_61883_DDI_VERSION.
 
 
-### -field Flags
+#### - Flags
 
 Flags specific to the request. For details, see the reference page for the request. Drivers must set this member to zero for requests that do not use flags.
 
@@ -239,9 +239,9 @@ The <b>Parameters-&gt;</b><b>Others.Arguments1</b> member of an <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537234">IOCTL_61883_CLASS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537219">INIT_61883_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537234">IOCTL_61883_CLASS</a>
 
  
 

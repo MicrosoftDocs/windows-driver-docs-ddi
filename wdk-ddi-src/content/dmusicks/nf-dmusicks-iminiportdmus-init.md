@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 08111f70-d0cc-4abc-8bcd-86683af3eb32
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], Init method, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, Init method [Audio Devices], IMiniportDMus interface, dmusicks/IMiniportDMus::Init, IMiniportDMus::Init, audio.iminiportdmus_init, Init method [Audio Devices], Init
+ms.keywords: IMiniportDMus interface [Audio Devices], Init method, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, audio.iminiportdmus_init, IMiniportDMus, Init method [Audio Devices], IMiniportDMus::Init, Init, dmusicks/IMiniportDMus::Init, Init method [Audio Devices], IMiniportDMus interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,21 +141,21 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
-
 <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
 
 <a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
  
 

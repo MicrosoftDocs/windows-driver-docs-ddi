@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fbff721a-fdd9-4343-b9a9-92f41fb21ba2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setnexteventindex, IDebugControl3, dbgeng/IDebugControl3::SetNextEventIndex, IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, SetNextEventIndex method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], SetNextEventIndex method, IDebugControl3::SetNextEventIndex, SetNextEventIndex method [Windows Debugging], SetNextEventIndex
+ms.keywords: IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, SetNextEventIndex method [Windows Debugging], IDebugControl3 interface, debugger.setnexteventindex, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetNextEventIndex method, IDebugControl3::SetNextEventIndex, SetNextEventIndex, SetNextEventIndex method [Windows Debugging], dbgeng/IDebugControl3::SetNextEventIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetNextEventIndex(
 
 
 
-### -param Relation [in]
+#### - Relation [in]
 
 Specifies how to interpret <i>Value</i> when setting the index of the next event.  Possible values are: DEBUG_EINDEX_FROM_START, DEBUG_EINDEX_FROM_END, and DEBUG_EINDEX_FROM_CURRENT.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the index of the next event relative to the first, last, or current event.  The interpretation of <i>Value</i> depends on the value of <i>Relation</i>, as follows.
 <table>
@@ -117,7 +117,7 @@ The current event index plus <i>Value</i>.
 The resulting index must be greater than zero and one less than the number of events returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>.
 
 
-### -param NextIndex [out]
+#### - NextIndex [out]
 
 Receives the index of the next event.  If <i>NextIndex</i> is <b>NULL</b>, this information is not returned.
 
@@ -157,9 +157,9 @@ This method is only useful if the target offers a list of events.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5CD8E422-8CEE-43E8-9703-520FDBE6BF5E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/HYBRID_INFORMATION, NvCacheStatusDisabled, PHYBRID_INFORMATION structure pointer [Storage Devices], NvCacheTypeWriteThrough, NvCacheTypeWriteBack, PHYBRID_INFORMATION, *PHYBRID_INFORMATION, _HYBRID_INFORMATION, storage.hybrid_information, NvCacheTypeUnknown, ntddscsi/PHYBRID_INFORMATION, HYBRID_INFORMATION, NvCacheStatusEnabled, NvCacheStatusDisabling, NvCacheStatusUnknown, HYBRID_INFORMATION structure [Storage Devices], NvCacheNone
+ms.keywords: "_HYBRID_INFORMATION, PHYBRID_INFORMATION, NvCacheStatusEnabled, HYBRID_INFORMATION, ntddscsi/PHYBRID_INFORMATION, NvCacheTypeWriteThrough, storage.hybrid_information, ntddscsi/HYBRID_INFORMATION, NvCacheStatusUnknown, NvCacheStatusDisabled, NvCacheNone, NvCacheTypeUnknown, NvCacheTypeWriteBack, *PHYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], NvCacheStatusDisabling, HYBRID_INFORMATION structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,9 +99,34 @@ typedef struct _HYBRID_INFORMATION {
 
 
 
-### -field Attributes
+#### - Attributes
 
 The hybrid disk attributes.
+
+
+#### WriteCacheChangeable
+
+Support for changes in write caching policy. The value is 1 policy changes are allowed. Otherwise, changes are ignored.
+
+
+#### WriteThroughIoSupported
+
+Support for individual write operations when write-through caching is used. The value is 1 if individual writes are supported. Otherwise, the values is 0.
+
+
+#### FlushCacheSupported
+
+Support for non-volatile cache flush. The value is 1 if flushes are supported. Otherwise, the value is 0.
+
+
+#### Removable
+
+Support of removal of the non-volatile cache from the disk. The value is 1 if the cache is removable. Otherwise, the value is 0.
+
+
+#### ReservedBits
+
+Reserved.
 
 
 ### -field Attributes.WriteCacheChangeable
@@ -129,14 +154,89 @@ Support of removal of the non-volatile cache from the disk. The value is 1 if th
 Reserved.
 
 
-### -field Priorities
+#### - Priorities
 
 Priority settings for the hybrid disk.
+
+
+#### PriorityLevelCount
+
+The number of priority levels supported by the cache. Currently, a non-zero value indicates support for all priorities.
+
+
+#### MaxPriorityBehavior
+
+If <b>TRUE</b>, the disk I/O can fail at maximum priority if the cache is full.  Otherwise, if <b>FALSE</b>, the operation will complete to disk.
+
+
+#### DirtyThresholdLow
+
+The low threshold for a cache flush. This value is ratio in the range of <b>FractionBase</b>.
+
+
+#### DirtyThresholdHigh
+
+The low threshold for a cache flush. This value is ratio in the range of <b>FractionBase</b>.
+
+
+#### SupportedCommands
+
+Support for non-volatile cache specific commands to the hybrid disk.
+
+
+#### Priority
+
+An array of priority level descriptors. The number of descriptors present in the array is set in <b>PriorityLevelCount</b>.
 
 
 ### -field Priorities.SupportedCommands
 
 Support for non-volatile cache specific commands to the hybrid disk.
+
+
+#### SupportedCommands.CacheDisable
+
+Support for changes in write caching policy. The value is 1 policy changes are allowed. Otherwise, changes are ignored.
+
+
+#### SupportedCommands.SetDirtyThreshold
+
+Support for individual write operations when write-through caching is used. The value is 1 if individual writes are supported. Otherwise, the values is 0.
+
+
+#### SupportedCommands.PriorityDemoteBySize
+
+Support for non-volatile cache flush. The value is 1 if flushes are supported. Otherwise, the value is 0.
+
+
+#### SupportedCommands.PriorityChangeByLbaRange
+
+Support for LBA range priority changes. The value is 1 if priority changes  are supported. Otherwise, the value is 0.
+
+
+#### SupportedCommands.Evict
+
+Support of removal of the non-volatile cache from the disk. The value is 1 if the cache is removable. Otherwise, the value is 0.
+
+
+#### SupportedCommands.ReservedBits
+
+Reserved.
+
+
+#### SupportedCommands.MaxEvictCommands
+
+The maximum concurrent Evict commands allowed that are outstanding. This value is valid when <b>Evict</b> is set to 1.
+
+
+#### SupportedCommands.MaxLbaRangeCountForEvict
+
+The maximum number of LBA ranges possible to associate with an Evict command. This value is valid when <b>Evict</b> is set to 1.
+
+
+#### SupportedCommands.MaxLbaRangeCountForChangeLba
+
+The maximum number of LBA ranges possible to associate with a Priority Change command. This value is valid when <b>PriorityChangeByLbaRange</b> is set to 1.
 
 
 ### -field Priorities.SupportedCommands.CacheDisable
@@ -219,22 +319,22 @@ The low threshold for a cache flush. This value is ratio in the range of <b>Frac
 An array of priority level descriptors. The number of descriptors present in the array is set in <b>PriorityLevelCount</b>.
 
 
-### -field Version
+#### - Version
 
 The version of this structure. Set to HYBRID_REQUEST_INFO_STRUCTURE_VERSION.
 
 
-### -field Size
+#### - Size
 
 The size of this structure. Set to <b>sizeof</b>(HYBRID_INFORMATION).
 
 
-### -field HybridSupported
+#### - HybridSupported
 
 Miniport supports for hybrid disks. Set to <b>TRUE</b> if hybrid disks are supported. Otherwise, <b>FALSE</b>.
 
 
-### -field Status
+#### - Status
 
 The status of the hybrid disk cache. This contains one of the following values.
 <table>
@@ -285,7 +385,7 @@ The cache on the hybrid disk is enabled.
 </table> 
 
 
-### -field CacheTypeEffective
+#### - CacheTypeEffective
 
 The non-volatile caching type currently set for hybrid disk. The effective cache type is one of the following values.
 <table>
@@ -336,17 +436,17 @@ Write-through caching is supported by hybrid disk.
 </table> 
 
 
-### -field CacheTypeDefault
+#### - CacheTypeDefault
 
 The default caching type used by the hybrid disk. The possible values are the same as for <b>CacheTypeEffective</b>.
 
 
-### -field FractionBase
+#### - FractionBase
 
 The base value for fractional fields in this structure. This value is set to 255.
 
 
-### -field CacheSize
+#### - CacheSize
 
 The size, in LBAs, of the non-volatile on the hybrid disk.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BB5C69FF-166A-4A38-BF5E-FD644FCD1285
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], P_UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, *PUCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION
+ms.keywords: P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], *PUCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCX_CONTROLLER_ACPI_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION"
+req.typenames: UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -70,26 +70,26 @@ typedef struct _UCX_CONTROLLER_ACPI_INFORMATION {
 
 
 
-### -field VendorId
+#### - VendorId
 
 The vendor ID of the ACPI USB controller.
 
 
-### -field DeviceId
+#### - DeviceId
 
 The device ID of the ACPI USB controller.
 
 
-### -field RevisionId
+#### - RevisionId
 
 The revision ID of the ACPI USB controller.
 
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-
 <a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_acpi_info.md">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
+
+<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
 
  
 

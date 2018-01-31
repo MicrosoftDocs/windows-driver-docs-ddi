@@ -74,27 +74,27 @@ The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="htt
 
 
 
-### -param Client [in]
+#### - Client [in]
 
 A client to use if the extension needs DbgEng functions.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Provides behavioral flags. This parameter is currently reserved.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A string buffer that the caller provides, to be filled with the set of value names that the client wants to expose.
 
 
-### -param BufferChars [in]
+#### - BufferChars [in]
 
 The count of wide characters in <i>Buffer</i>.
 
 
-### -param BufferNeeded [out]
+#### - BufferNeeded [out]
 
 The number of wide characters that this function needs to complete successfully.
 
@@ -149,13 +149,13 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 <i>KnownStructOutput</i>
 
-<i>DebugExtensionNotify</i>
-
 <i>DebugExtensionProvideValue</i>
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 <i>DebugExtensionUninitialize</i>
+
+<i>DebugExtensionNotify</i>
 
  
 

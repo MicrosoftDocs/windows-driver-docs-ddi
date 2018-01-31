@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8cb63fe6-61da-4c37-975d-d82430195863
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces3::ReadProcessorSystemData, IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces2 interface [Windows Debugging], ReadProcessorSystemData method, dbgeng/IDebugDataSpaces3::ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces3 interface [Windows Debugging], ReadProcessorSystemData method, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4::ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::ReadProcessorSystemData, IDebugDataSpaces interface [Windows Debugging], ReadProcessorSystemData method, ReadProcessorSystemData, IDebugDataSpaces4, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces interface, debugger.readprocessorsystemdata, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadProcessorSystemData, IDebugDataSpaces::ReadProcessorSystemData, IDebugDataSpaces_a2ffd54a-03f2-4b74-928c-b043bfdac073.xml
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], ReadProcessorSystemData method, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4 interface [Windows Debugging], ReadProcessorSystemData method, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces4::ReadProcessorSystemData, IDebugDataSpaces4, dbgeng/IDebugDataSpaces3::ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces4 interface, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces2 interface, ReadProcessorSystemData, dbgeng/IDebugDataSpaces4::ReadProcessorSystemData, IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces3::ReadProcessorSystemData, dbgeng/IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces3 interface [Windows Debugging], ReadProcessorSystemData method, debugger.readprocessorsystemdata, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::ReadProcessorSystemData, IDebugDataSpaces::ReadProcessorSystemData, IDebugDataSpaces_a2ffd54a-03f2-4b74-928c-b043bfdac073.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,12 +74,12 @@ HRESULT ReadProcessorSystemData(
 
 
 
-### -param Processor [in]
+#### - Processor [in]
 
 Specifies the processor whose data is to be read.
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the data type to read.  The following table contains the valid values.  After successful completion, the data returned in the buffer <i>Buffer</i> has the type specified by the middle column.
 <table>
@@ -162,17 +162,17 @@ In this case, the argument <i>Buffer</i> can be considered to have type PULONG.
 </table> 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the processor data.  Upon successful completion of the method, the contents of this buffer may be accessed by casting <i>Buffer</i> to the type specified in the above table.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be returned.
 
 
-### -param DataSize [out, optional]
+#### - DataSize [out, optional]
 
 Receives the size of the data in bytes.  If <i>DataSize</i> is <b>NULL</b>, this information is not returned.
 

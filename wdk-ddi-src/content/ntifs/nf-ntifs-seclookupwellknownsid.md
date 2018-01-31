@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbf06a28-d6f8-424c-95e0-ce24653cac64
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ifsk.seclookupwellknownsid, SecLookupWellKnownSid function [Installable File System Drivers], ntifs/SecLookupWellKnownSid, SecLookupWellKnownSid
+ms.keywords: SecLookupWellKnownSid function [Installable File System Drivers], ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ifsk.seclookupwellknownsid, ntifs/SecLookupWellKnownSid, SecLookupWellKnownSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS SecLookupWellKnownSid(
 
 
 
-### -param SidType [in]
+#### - SidType [in]
 
 An enumerated type that indicates the type of security identifier (SID) the function returns. This parameter can be one of the following enumerations for WELL_KNOWN_SID_TYPE:
 
@@ -388,14 +388,14 @@ This value indicates a SID is present in a server that can issue Terminal Server
 This value indicates a SID that matches the DCOM users group.
 
 
-### -param Sid [out]
+#### - Sid [out]
 
 
       A pointer to a buffer that receives the SID structure that corresponds to the <i>SidType</i> parameter. If this parameter is <b>NULL</b>, <i>SidBufferSize</i> must be zero. 
      
 
 
-### -param SidBufferSize [in]
+#### - SidBufferSize [in]
 
 A variable that specifies the size of the <i>Sid</i> buffer in bytes.
 
@@ -494,9 +494,9 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+
+<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 

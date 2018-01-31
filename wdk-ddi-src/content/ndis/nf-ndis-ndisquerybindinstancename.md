@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbba8be8-aa7e-455f-a591-e9d915f137f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml, netvista.ndisquerybindinstancename, NdisQueryBindInstanceName, ndis/NdisQueryBindInstanceName
+ms.keywords: protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml, ndis/NdisQueryBindInstanceName, NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndisquerybindinstancename, NdisQueryBindInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NDIS_STATUS NdisQueryBindInstanceName(
 
 
 
-### -param pAdapterInstanceName [out]
+#### - pAdapterInstanceName [out]
 
 A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
      string specifies the friendly name of the interface to which the binding refers. This interface is
@@ -80,7 +80,7 @@ A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode 
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 
-### -param BindingContext [in]
+#### - BindingContext [in]
 
 A handle that identifies the NDIS context area for the bind operation. NDIS passed this handle to
      the 
@@ -126,9 +126,9 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
  
 

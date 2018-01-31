@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, display.d3dkmt_currentdisplaymode, D3DKMT_CURRENTDISPLAYMODE, _D3DKMT_CURRENTDISPLAYMODE, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE
+ms.keywords: D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], display.d3dkmt_currentdisplaymode, OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_CURRENTDISPLAYMODE {
 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display mode applies to.
 
 
-### -field DisplayMode
+#### - DisplayMode
 
 [out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
 

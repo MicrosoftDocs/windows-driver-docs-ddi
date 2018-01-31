@@ -77,30 +77,29 @@ NDIS_STATUS MiniportWdiAdapterHangDiagnose(
 
 
 
-### -param MiniportDriverContext [in]
+#### - MiniportDriverContext [in]
 
 The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="..\dot11wdi\nf-dot11wdi-ndismregisterwdiminiportdriver.md">NdisMRegisterWdiMiniportDriver</a> function.
 
 
-### -param DiagnoseLevel [in]
+#### - DiagnoseLevel [in]
 
 The diagnose level, as defined in the <a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a> enumeration. The default level is <b>DiagnoseLevelHardwareRegisters</b>, 1KB maximum in the output buffer.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size of <b>FirmwareBlob</b>, in bytes.
 
 
-### -param *FirmwareBlob
+#### - *FirmwareBlob [out]
+
+A pointer to the buffer that  will contain the hardware control registry states, and optionally full firmware state.
 
 
+#### - *pOutputSize [out]
 
-### -param *pOutputSize
-
-
-
-
+A pointer to the number of bytes written to <b>FirmwareBlob</b>.
 
 
 #### - FirmwareBlob [out]
@@ -123,11 +122,11 @@ The return value is ignored.
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
+
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
 <a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
 
  
 

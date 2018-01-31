@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2cd5afcd-1d69-475f-95ea-165a405d8ee8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_MDCS_MSGCLASS, RILMSGDCSPARAMMASK, RIL_PARAM_MDCS_MSGCLASS, RIL_PARAM_MDCS_ALL, ntddrilapitypes/RIL_PARAM_MDCS_FLAGS, RIL_PARAM_MDCS_ALPHABET, ntddrilapitypes/RIL_PARAM_MDCS_ALL, ntddrilapitypes/RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_INDICATION, netvista.rilmsgdcsparammask, ntddrilapitypes/RILMSGDCSPARAMMASK, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_FLAGS, ntddrilapitypes/RIL_PARAM_MDCS_ALPHABET, RIL_PARAM_MDCS_LANGUAGE
+ms.keywords: ntddrilapitypes/RIL_PARAM_MDCS_ALL, ntddrilapitypes/RIL_PARAM_MDCS_LANGUAGE, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_MDCS_MSGCLASS, ntddrilapitypes/RIL_PARAM_MDCS_ALPHABET, netvista.rilmsgdcsparammask, ntddrilapitypes/RIL_PARAM_MDCS_FLAGS, ntddrilapitypes/RILMSGDCSPARAMMASK, RIL_PARAM_MDCS_ALPHABET, ntddrilapitypes/RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_FLAGS, RILMSGDCSPARAMMASK, RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_MSGCLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,26 +76,26 @@ typedef enum _RILMSGDCSPARAMMASK {
 
 
 
-### -field RIL_PARAM_MDCS_FLAGS
+#### - RIL_PARAM_MDCS_FLAGS
 
 
 
-### -field RIL_PARAM_MDCS_MSGCLASS
+#### - RIL_PARAM_MDCS_MSGCLASS
 
 
 
-### -field RIL_PARAM_MDCS_ALPHABET
+#### - RIL_PARAM_MDCS_ALPHABET
 
 
 
-### -field RIL_PARAM_MDCS_INDICATION
+#### - RIL_PARAM_MDCS_INDICATION
 
 
 
-### -field RIL_PARAM_MDCS_LANGUAGE
+#### - RIL_PARAM_MDCS_LANGUAGE
 
 
 
-### -field RIL_PARAM_MDCS_ALL
+#### - RIL_PARAM_MDCS_ALL
 
 

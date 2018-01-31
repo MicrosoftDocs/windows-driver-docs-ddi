@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D77D1542-2730-456A-BC99-3507C4377C77
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure [Display Devices], display.d3d12ddi_video_process_filter_range
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, display.d3d12ddi_video_process_filter_range, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 {
 
 
 
-### -field Minimum
+#### - Minimum
 
 The minimum value of the filter. 
 
 
-### -field Maximum
+#### - Maximum
 
 The maximum value of the filter. 
 
 
-### -field Default
+#### - Default
 
 The default value of the filter. 
 
 
-### -field Multiplier
+#### - Multiplier
 
 A multiplier. 
 

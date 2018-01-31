@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e051d49-57ae-43c8-a894-a6c2c277dce9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DOCKING_STATE, DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, display.docking_state, dispmprt/DockStateUnDocked, dispmprt/DockStateDocked, DockStateUnknown, dispmprt/DockStateUnknown, DOCKING_STATE enumeration [Display Devices], DockStateUnsupported, dispmprt/DockStateUnsupported, DockStateDocked, dispmprt/DOCKING_STATE, DockStateUnDocked
+ms.keywords: DockStateUnDocked, dispmprt/DockStateDocked, DOCKING_STATE enumeration [Display Devices], DockStateDocked, dispmprt/DockStateUnDocked, DockStateUnknown, dispmprt/DockStateUnknown, DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, dispmprt/DOCKING_STATE, display.docking_state, DOCKING_STATE, DockStateUnsupported, dispmprt/DockStateUnsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum  {
 
 
 
-### -field DockStateUnsupported
+#### - DockStateUnsupported
 
 Indicates that the portable computer does not support docking.
 
 
-### -field DockStateUnDocked
+#### - DockStateUnDocked
 
 Indicates that the portable computer is not docked.
 
 
-### -field DockStateDocked
+#### - DockStateDocked
 
 Indicates that the portable computer is docked.
 
 
-### -field DockStateUnknown
+#### - DockStateUnknown
 
 Indicates that the docking state of the portable computer is not known.
 

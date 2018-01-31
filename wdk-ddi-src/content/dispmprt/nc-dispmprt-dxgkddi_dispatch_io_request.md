@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiDispatchIoRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_DISPATCH_IO_REQUEST callback
@@ -72,17 +72,17 @@ NTSTATUS DxgkDdiDispatchIoRequest(
 
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param VidPnSourceId [in]
+#### - VidPnSourceId [in]
 
 An integer that identifies the video present source associated with the I/O request.
 
 
-### -param VideoRequestPacket [in]
+#### - VideoRequestPacket [in]
 
 A pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a> structure that describes the I/O request.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9ee3d748-f9aa-43d6-b472-7b55d2034fc7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestwdmformatusingstacklocation, WdfRequestWdmFormatUsingStackLocation method, kmdf.wdfrequestwdmformatusingstacklocation, DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, wdfrequest/WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation, PFN_WDFREQUESTWDMFORMATUSINGSTACKLOCATION
+ms.keywords: kmdf.wdfrequestwdmformatusingstacklocation, wdf.wdfrequestwdmformatusingstacklocation, WdfRequestWdmFormatUsingStackLocation, DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, WdfRequestWdmFormatUsingStackLocation method, PFN_WDFREQUESTWDMFORMATUSINGSTACKLOCATION, wdfrequest/WdfRequestWdmFormatUsingStackLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfRequestWdmFormatUsingStackLocation(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param Stack [in]
+#### - Stack [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure that contains driver-supplied information. 
 

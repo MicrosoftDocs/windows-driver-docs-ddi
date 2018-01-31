@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 451D1CE2-A50D-4E42-BD93-879503EDE4B5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], D3DDDICB_CREATECONTEXTVIRTUAL, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL"
+ms.keywords: D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DDDICB_CREATECONTEXTVIRTUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDICB_CREATECONTEXTVIRTUAL {
 
 
 
-### -field NodeOrdinal
+#### - NodeOrdinal
 
 [in] The zero-based index for the node that the context is scheduled on.
 
 
-### -field EngineAffinity
+#### - EngineAffinity
 
 [in] The zero-based index for the engine, within the node that <b>NodeOrdinal</b> specifies, that the context can run in.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to private data that is passed to a display miniport driver. 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
 
 
-### -field hContext
+#### - hContext
 
 [out] A handle to the context that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcontextvirtualcb.md">pfnCreateContextVirtualCb</a> function creates. 
 

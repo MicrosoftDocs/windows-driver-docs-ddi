@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608AD247-19C8-40E8-B2FF-D49818AE4AD7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_KEY_ALGO_BIP, netvista.dot11_key_algo_bip, PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP
+ms.keywords: "*PDOT11_KEY_ALGO_BIP, windot11/PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], windot11/DOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP, netvista.dot11_key_algo_bip, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_KEY_ALGO_BIP
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP"
+req.typenames: DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ typedef struct _DOT11_KEY_ALGO_BIP {
  
 
 
-### -field ulBIPKeyLength
+#### - ulBIPKeyLength
 
 The length, in bytes, of the BIP key material in <b>ucBIPKey</b> array.
 

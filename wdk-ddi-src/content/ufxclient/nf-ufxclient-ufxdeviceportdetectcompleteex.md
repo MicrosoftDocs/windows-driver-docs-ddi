@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDevicePortDetectCompleteEx method [Buses], ufxclient/UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx, buses.ufxdeviceportdetectcompleteex
+ms.keywords: UfxDevicePortDetectCompleteEx method [Buses], UfxDevicePortDetectCompleteEx, buses.ufxdeviceportdetectcompleteex, ufxclient/UfxDevicePortDetectCompleteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDevicePortDetectCompleteEx
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ VOID UfxDevicePortDetectCompleteEx(
 
 
 
-### -param UfxDevice [in]
+#### - UfxDevice [in]
 
 A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-### -param PortType [in]
+#### - PortType [in]
 
 Contains an enumeration value of type <a href="..\usbfnbase\ne-usbfnbase-_usbfn_port_type.md">USBFN_PORT_TYPE</a>.
 
 
-### -param Action [in]
+#### - Action [in]
 
 Contains an enumeration value of type <a href="..\ufxbase\ne-ufxbase-_usbfn_action.md">USBFN_ACTION</a>.
 

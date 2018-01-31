@@ -69,12 +69,12 @@ UCXSSTREAMS UcxEndpointGetStaticStreamsReferenced(
 
 
 
-### -param Endpoint [in]
+#### - Endpoint [in]
 
 A handle to the endpoint object for which the static streams object is requested. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 A driver-defined value that the framework stores as an identification tag for the object reference.
 

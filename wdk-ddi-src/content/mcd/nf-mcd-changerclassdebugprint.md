@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 452377f1-a926-4f43-8168-bea11622902e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerClassDebugPrint, mcd/ChangerClassDebugPrint, storage.changerclassdebugprint, ChangerClassDebugPrint function [Storage Devices], chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml
+ms.keywords: storage.changerclassdebugprint, ChangerClassDebugPrint, chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, mcd/ChangerClassDebugPrint, ChangerClassDebugPrint function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID ChangerClassDebugPrint(
 
 
 
-### -param DebugPrintLevel
+#### - DebugPrintLevel
 
 Indicates how verbose debug information should be. Caller must assign this parameter an integer value between zero and three, where three specifies the highest level of verbosity and zero the lowest. 
 
 
-### -param DebugMessage
+#### - DebugMessage
 
 Caller can specify a message to be included with the debugging information that is printed by assigning a printable ASCII character string to this parameter.
 

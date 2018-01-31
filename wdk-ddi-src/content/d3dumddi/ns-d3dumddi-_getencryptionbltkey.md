@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f481646-b665-46cb-b551-10515b8603c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_GETENCRYPTIONBLTKEY structure [Display Devices], UMDisplayDriver_param_Structs_ecaf1a03-2c4a-450e-a17a-2cc309e7c2e4.xml, display.d3dddiarg_getencryptionbltkey, _GETENCRYPTIONBLTKEY structure [Display Devices], d3dumddi/_GETENCRYPTIONBLTKEY, D3DDDIARG_GETENCRYPTIONBLTKEY, _GETENCRYPTIONBLTKEY
+ms.keywords: D3DDDIARG_GETENCRYPTIONBLTKEY structure [Display Devices], UMDisplayDriver_param_Structs_ecaf1a03-2c4a-450e-a17a-2cc309e7c2e4.xml, display.d3dddiarg_getencryptionbltkey, _GETENCRYPTIONBLTKEY structure [Display Devices], _GETENCRYPTIONBLTKEY, D3DDDIARG_GETENCRYPTIONBLTKEY, d3dumddi/_GETENCRYPTIONBLTKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _GETENCRYPTIONBLTKEY {
 
 
 
-### -field hCryptoSession
+#### - hCryptoSession
 
 [in] A handle to the encryption session that is created in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function. 
 
 
-### -field pReadBackKey
+#### - pReadBackKey
 
 [in] A pointer to a buffer that contains the encryption key. 
 
 
-### -field KeySize
+#### - KeySize
 
 [in] The size, in bytes, of the encryption key that the <b>pReadBackKey</b> member points to. 
 

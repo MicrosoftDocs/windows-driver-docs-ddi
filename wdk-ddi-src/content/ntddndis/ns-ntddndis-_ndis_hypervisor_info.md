@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 847987d4-f67b-4e88-9a8d-9be4ad9be80d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_HYPERVISOR_INFO, ntddndis/NDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_c0f9611a-2d20-4757-ba59-16bf6a83549c.xml, NDIS_HYPERVISOR_INFO, PNDIS_HYPERVISOR_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_hypervisor_info, *PNDIS_HYPERVISOR_INFO, _NDIS_HYPERVISOR_INFO, ntddndis/PNDIS_HYPERVISOR_INFO
+ms.keywords: netvista.ndis_hypervisor_info, NDIS_HYPERVISOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_HYPERVISOR_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_HYPERVISOR_INFO, virtual_machine_queue_ref_c0f9611a-2d20-4757-ba59-16bf6a83549c.xml, ntddndis/PNDIS_HYPERVISOR_INFO, PNDIS_HYPERVISOR_INFO, ntddndis/NDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO, _NDIS_HYPERVISOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _NDIS_HYPERVISOR_INFO {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_HYPERVISOR_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -90,7 +90,7 @@ Original version for NDIS 6.20.
 Set the <b>Size</b> member to NDIS_SIZEOF_HYPERVISOR_INFO_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A ULONG value that contains a bitwise OR of the following flag.
      
@@ -103,7 +103,7 @@ A ULONG value that contains a bitwise OR of the following flag.
 Specifies that a hypervisor is present on the system.
 
 
-### -field PartitionType
+#### - PartitionType
 
 An 
      <mshelp:link keywords="netvista.ndis_hypervisor_partition_type" tabindex="0"><b>
@@ -126,9 +126,9 @@ NDIS drivers pass this structure to the
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_hypervisor_partition_type.md">NDIS_HYPERVISOR_PARTITION_TYPE</a>
 
-<a href="..\ndis\nf-ndis-ndisgethypervisorinfo.md">NdisGetHypervisorInfo Function</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nf-ndis-ndisgethypervisorinfo.md">NdisGetHypervisorInfo Function</a>
 
  
 

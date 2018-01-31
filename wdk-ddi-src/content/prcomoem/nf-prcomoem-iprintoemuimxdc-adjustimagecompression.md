@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d9606c9b-4a47-4e83-ad8a-ef82e2c70de3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemuimxdc_adjustimagecompression, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, AdjustImageCompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, IPrintOemUIMXDC::AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, AdjustImageCompression method [Print Devices]
+ms.keywords: AdjustImageCompression, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, print.iprintoemuimxdc_adjustimagecompression, IPrintOemUIMXDC, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC::AdjustImageCompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT AdjustImageCompression(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 A handle to the printer that is currently being queried.
 
 
-### -param cbDevMode
+#### - cbDevMode
 
 The size of the <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODE</a> structure, including appended data.
 
 
-### -param pDevMode
+#### - pDevMode
 
 A pointer to the DEVMODE structure that contains the current device settings.
 
 
-### -param cbOEMDM
+#### - cbOEMDM
 
 The number of bytes in the vendor-provided section of the DEVMODE structure.
 
 
-### -param pOEMDM
+#### - pOEMDM
 
 A pointer to the data that is contained in the vendor portion of the DEVMODE structure that <i>pDevMode</i> points to.
 
 
-### -param pCompressionMode
+#### - pCompressionMode
 
 A pointer to the current compression level. <i>pCompressionMode</i> is an enum type specified in Mxdc.h.
 

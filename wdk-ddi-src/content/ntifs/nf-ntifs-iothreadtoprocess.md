@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fcb51574-d966-4cd5-a946-c38dd2798b7f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoThreadToProcess, ifsk.iothreadtoprocess, ioref_59269b9a-0a64-410d-aafa-b070b2eacfd7.xml, IoThreadToProcess routine [Installable File System Drivers], ntifs/IoThreadToProcess
+ms.keywords: IoThreadToProcess, ntifs/IoThreadToProcess, IoThreadToProcess routine [Installable File System Drivers], ioref_59269b9a-0a64-410d-aafa-b070b2eacfd7.xml, ifsk.iothreadtoprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PEPROCESS IoThreadToProcess(
 
 
 
-### -param Thread [in]
+#### - Thread [in]
 
 Thread whose process is to be returned.
 

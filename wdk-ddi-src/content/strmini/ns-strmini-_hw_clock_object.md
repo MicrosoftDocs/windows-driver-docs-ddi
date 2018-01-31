@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d6afe946-90cb-4b17-94ed-2e7c508985a3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PHW_CLOCK_OBJECT, PHW_CLOCK_OBJECT, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], _HW_CLOCK_OBJECT, HW_CLOCK_OBJECT, stream.hw_clock_object, strmini/HW_CLOCK_OBJECT, HW_CLOCK_OBJECT structure [Streaming Media Devices], strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml, strmini/PHW_CLOCK_OBJECT"
+ms.keywords: strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml, strmini/HW_CLOCK_OBJECT, _HW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT, stream.hw_clock_object, HW_CLOCK_OBJECT, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], HW_CLOCK_OBJECT structure [Streaming Media Devices], PHW_CLOCK_OBJECT, *PHW_CLOCK_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HW_CLOCK_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT"
+req.typenames: HW_CLOCK_OBJECT, *PHW_CLOCK_OBJECT
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ typedef struct _HW_CLOCK_OBJECT {
 
 
 
-### -field HwClockFunction
+#### - HwClockFunction
 
 Pointer to the stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a> routine.
 
 
-### -field ClockSupportFlags
+#### - ClockSupportFlags
 
 Specifies which options the <i>StrMiniClock</i> routine supports.
 
@@ -92,18 +92,18 @@ The <i>StrMiniClock</i> routine can return the current clock value for the strea
 The <i>StrMiniClock</i> routine can return the current presentation time stamp for the stream. The <i>StrMiniClock</i> routine must be able to handle a <b>Function</b> setting of TIME_GET_STREAM_TIME in the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure passed as a parameter.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Do not use.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
-
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
 
  
 

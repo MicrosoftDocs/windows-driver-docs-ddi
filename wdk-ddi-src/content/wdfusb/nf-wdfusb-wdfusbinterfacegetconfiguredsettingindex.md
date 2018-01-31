@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ca8f1fae-1655-4e0d-baa4-133f11cf246f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex, DFUsbRef_720a2078-a35c-491b-a8d1-7a2b3d5c88f1.xml, wdf.wdfusbinterfacegetconfiguredsettingindex, WdfUsbInterfaceGetConfiguredSettingIndex method, kmdf.wdfusbinterfacegetconfiguredsettingindex, WdfUsbInterfaceGetConfiguredSettingIndex, PFN_WDFUSBINTERFACEGETCONFIGUREDSETTINGINDEX
+ms.keywords: wdf.wdfusbinterfacegetconfiguredsettingindex, wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex, kmdf.wdfusbinterfacegetconfiguredsettingindex, PFN_WDFUSBINTERFACEGETCONFIGUREDSETTINGINDEX, WdfUsbInterfaceGetConfiguredSettingIndex method, WdfUsbInterfaceGetConfiguredSettingIndex, DFUsbRef_720a2078-a35c-491b-a8d1-7a2b3d5c88f1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BYTE WdfUsbInterfaceGetConfiguredSettingIndex(
 
 
 
-### -param Interface [in]
+#### - Interface [in]
 
 A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
 

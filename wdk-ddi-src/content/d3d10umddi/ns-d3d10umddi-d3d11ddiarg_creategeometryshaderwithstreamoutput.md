@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07ad9fdb-16f0-4752-9b35-e69d6a7b8815
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, display.d3d11ddiarg_creategeometryshaderwithstreamoutput, D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure [Display Devices], UMDisplayDriver_Dx11param_Structs_6b81cccd-92f9-4135-8bcc-d523b514c45c.xml, d3d10umddi/D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
+ms.keywords: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure [Display Devices], d3d10umddi/D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, UMDisplayDriver_Dx11param_Structs_6b81cccd-92f9-4135-8bcc-d523b514c45c.xml, D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, display.d3d11ddiarg_creategeometryshaderwithstreamoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,43 +72,43 @@ typedef struct D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT {
 
 
 
-### -field pShaderCode
+#### - pShaderCode
 
 [in] An array of CONST UINT tokens that make up the geometry shader code. 
 
 
-### -field pOutputStreamDecl
+#### - pOutputStreamDecl
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_stream_output_declaration_entry.md">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a> structures that describes the stream output for the geometry shader. 
 
 
-### -field NumEntries
+#### - NumEntries
 
 [in] The number of elements in that array that the <b>pOutputStreamDecl</b> member specifies. 
 
 
-### -field BufferStridesInBytes
+#### - BufferStridesInBytes
 
 [in] An array of strides (bytes from one vertex to the next vertex). 
 
 
-### -field NumStrides
+#### - NumStrides
 
 [in] The number of strides in the array that the <b>BufferStridesInBytes</b> member specifies. 
 
 
-### -field RasterizedStream
+#### - RasterizedStream
 
 [in] A value that identifies the rasterized stream. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_creategeometryshaderwithstreamoutput.md">CreateGeometryShaderWithStreamOutput</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivategeometryshaderwithstreamoutput.md">CalcPrivateGeometryShaderWithStreamOutput</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_stream_output_declaration_entry.md">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_creategeometryshaderwithstreamoutput.md">CreateGeometryShaderWithStreamOutput</a>
 
  
 

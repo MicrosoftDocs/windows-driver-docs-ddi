@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b7aac38-ab29-4cac-a7f0-896423b17400
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetMediaType, ksproxy/KsGetMediaType, stream.ksgetmediatype, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, KsGetMediaType function [Streaming Media Devices]
+ms.keywords: KsGetMediaType, KsGetMediaType function [Streaming Media Devices], stream.ksgetmediatype, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, ksproxy/KsGetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ HRESULT KsGetMediaType(
 
 
 
-### -param Position [in]
+#### - Position [in]
 
 Offset into the data range item that <b>KsGetMediaType</b> fills. Note that the data type of <i>Position</i> is <b>int</b> to conform to underlying calls.
 
 
-### -param AmMediaType [out]
+#### - AmMediaType [out]
 
 Pointer to a variable that receives information in a AM_MEDIA_TYPE structure.
 
 
-### -param FilterHandle [in]
+#### - FilterHandle [in]
 
 Handle to the filter that contains the pin factory to query.
 
 
-### -param PinFactoryId [in]
+#### - PinFactoryId [in]
 
 Identifier of the pin factory against which the information for a media type is being returned.
 

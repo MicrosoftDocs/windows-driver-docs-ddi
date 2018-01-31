@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7019ee37-2080-4ba3-ba39-977e575ec04e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml, RemovePersistentEntry_IN structure [Storage Devices], _RemovePersistentEntry_IN, storage.removepersistententry_in, hbapiwmi/PRemovePersistentEntry_IN, RemovePersistentEntry_IN, *PRemovePersistentEntry_IN, PRemovePersistentEntry_IN, hbapiwmi/RemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices]
+ms.keywords: storage.removepersistententry_in, hbapiwmi/PRemovePersistentEntry_IN, PRemovePersistentEntry_IN, structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml, _RemovePersistentEntry_IN, RemovePersistentEntry_IN structure [Storage Devices], *PRemovePersistentEntry_IN, hbapiwmi/RemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices], RemovePersistentEntry_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemovePersistentEntry_IN
 product: Windows
 targetos: Windows
-req.typenames: RemovePersistentEntry_IN, *PRemovePersistentEntry_IN
+req.typenames: "*PRemovePersistentEntry_IN, RemovePersistentEntry_IN"
 ---
 
 # _RemovePersistentEntry_IN structure
@@ -68,12 +68,12 @@ typedef struct _RemovePersistentEntry_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a worldwide name that indicates the port for which a persistent binding will be removed. 
 
 
-### -field Binding
+#### - Binding
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
 

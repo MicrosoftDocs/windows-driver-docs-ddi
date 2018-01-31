@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e288b050-0875-4c9b-aa72-47845861755a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], wdm/POB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION, *POB_CALLBACK_REGISTRATION, kernel.ob_callback_registration, OB_CALLBACK_REGISTRATION, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], wdm/OB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION
+ms.keywords: kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, wdm/OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _OB_CALLBACK_REGISTRATION, wdm/POB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], kernel.ob_callback_registration, *POB_CALLBACK_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _OB_CALLBACK_REGISTRATION {
 
 
 
-### -field Version
+#### - Version
 
 The version of object callback registration that is requested. Drivers should specify OB_FLT_REGISTRATION_VERSION.
 
 
-### -field OperationRegistrationCount
+#### - OperationRegistrationCount
 
 The number of entries in the <b>OperationRegistration</b> array.
 
 
-### -field Altitude
+#### - Altitude
 
 A Unicode string that specifies the altitude of the driver. For more information about altitude, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/load-order-groups-and-altitudes-for-minifilter-drivers">Load Order Groups and Altitudes for Minifilter Drivers</a>.
 
 
-### -field RegistrationContext
+#### - RegistrationContext
 
 The system passes the <b>RegistrationContext</b> value to the callback routine when the callback routine is run. The meaning of this value is driver-defined.
 
 
-### -field OperationRegistration
+#### - OperationRegistration
 
 A pointer to an array of <a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a> structures. Each structure specifies <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a> and <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a> callback routines and the types of operations that the routines are called for. 
 
@@ -106,13 +106,13 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
-<a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a>
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+<a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a>
 
  
 

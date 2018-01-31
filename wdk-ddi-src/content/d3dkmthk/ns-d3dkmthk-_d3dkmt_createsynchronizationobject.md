@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e4e1fd7-9a36-4c35-8d9d-932a0d2e60a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATESYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT, _D3DKMT_CREATESYNCHRONIZATIONOBJECT, display.d3dkmt_createsynchronizationobject, D3DKMT_CREATESYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_918a7c9b-3dba-4af3-aa2c-334861301304.xml
+ms.keywords: display.d3dkmt_createsynchronizationobject, OpenGL_Structs_918a7c9b-3dba-4af3-aa2c-334861301304.xml, _D3DKMT_CREATESYNCHRONIZATIONOBJECT, D3DKMT_CREATESYNCHRONIZATIONOBJECT, D3DKMT_CREATESYNCHRONIZATIONOBJECT structure [Display Devices], d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A handle to the device that the synchronization object is associated with.
 
 
-### -field Info
+#### - Info
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a> structure that describes information about the kernel-mode synchronization object.
 
 
-### -field hSyncObject
+#### - hSyncObject
 
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the kernel-mode synchronization object. 
 

@@ -73,12 +73,12 @@ SCSI_ADAPTER_CONTROL_STATUS HwStorAdapterControl(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 A pointer to the miniport driver's per-HBA storage area. 
 
 
-### -param ControlType [in]
+#### - ControlType [in]
 
 Specifies  an adapter-control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings. Also  listed, are the current IRQL and the spinlock acquired when the control type issued.
 <table>
@@ -367,7 +367,7 @@ None
 </table> 
 
 
-### -param Parameters [in]
+#### - Parameters [in]
 
 Contains information related to the <i>ControlType</i>.  
 <table>
@@ -957,13 +957,13 @@ HW_ADAPTER_CONTROL (
 
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
-<a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
+<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
 
 <a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
 
-<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
  
 

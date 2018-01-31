@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2089ae9-e872-4bbb-8e7b-fe11082d2b46
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices], SetPersistentEntry_OUT structure [Storage Devices], structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml, _SetPersistentEntry_OUT, storage.setpersistententry_out, *PSetPersistentEntry_OUT, PSetPersistentEntry_OUT, hbapiwmi/SetPersistentEntry_OUT, SetPersistentEntry_OUT
+ms.keywords: structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml, PSetPersistentEntry_OUT structure pointer [Storage Devices], PSetPersistentEntry_OUT, *PSetPersistentEntry_OUT, storage.setpersistententry_out, hbapiwmi/SetPersistentEntry_OUT, hbapiwmi/PSetPersistentEntry_OUT, _SetPersistentEntry_OUT, SetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetPersistentEntry_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 

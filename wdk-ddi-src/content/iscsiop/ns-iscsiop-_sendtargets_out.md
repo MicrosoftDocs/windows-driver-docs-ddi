@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82efeeb9-1167-4114-9d88-7ef66f613f80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSendTargets_OUT, _SendTargets_OUT, SendTargets_OUT, structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml, PSendTargets_OUT, SendTargets_OUT structure [Storage Devices], storage.sendtargets_out, PSendTargets_OUT structure pointer [Storage Devices], iscsiop/PSendTargets_OUT, iscsiop/SendTargets_OUT"
+ms.keywords: iscsiop/SendTargets_OUT, _SendTargets_OUT, *PSendTargets_OUT, SendTargets_OUT, iscsiop/PSendTargets_OUT, storage.sendtargets_out, PSendTargets_OUT structure pointer [Storage Devices], structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml, SendTargets_OUT structure [Storage Devices], PSendTargets_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendTargets_OUT
 product: Windows
 targetos: Windows
-req.typenames: SendTargets_OUT, *PSendTargets_OUT
+req.typenames: "*PSendTargets_OUT, SendTargets_OUT"
 ---
 
 # _SendTargets_OUT structure
@@ -69,17 +69,17 @@ typedef struct _SendTargets_OUT {
 
 
 
-### -field Status
+#### - Status
 
 The status of the <b>SendTargets</b> method. This member will contain 0 if the SEND TARGETS operation succeeds and ISDSC_SCSI_REQUEST_FAILED if the operation fails. If the SEND TARGETS operation fails, <b>ScsiStatus</b> will contain the SCSI status of the SCSI command. SCSI status qualifiers are documented in the <i>SCSI Primary Commands</i> specification. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.  
 
 
-### -field ResponseSize
+#### - ResponseSize
 
 The size, in bytes, of the buffer at Response.
 
 
-### -field Response
+#### - Response
 
 A buffer that holds the response data that the target returns. Response to SendTargets in UTF8 characters. NOTE: This field is a variable length array.
 
@@ -93,11 +93,11 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 <a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
  
 

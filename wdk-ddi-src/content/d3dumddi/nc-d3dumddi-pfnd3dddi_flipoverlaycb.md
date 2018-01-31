@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY CALLBACK pfnFlipOverlayCb(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
@@ -138,9 +138,9 @@ This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_flipoverlay.md">D3DDDICB_FLIPOVERLAY</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_flipoverlay.md">D3DDDICB_FLIPOVERLAY</a>
 
  
 

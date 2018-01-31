@@ -72,12 +72,12 @@ VOID BthReuseBrb(
 
 
 
-### -param pBrb [in, out]
+#### - pBrb [in, out]
 
 Pointer to the BRB to reuse.
 
 
-### -param brbType [in]
+#### - brbType [in]
 
 Specifies a value from the 
      <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB

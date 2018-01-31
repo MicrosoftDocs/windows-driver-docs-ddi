@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107cd468-bc39-4672-9356-e5329b36277b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage function [Imaging Devices], image.wiassendendofpage, wiasSendEndOfPage, wiamdef/wiasSendEndOfPage
+ms.keywords: wiasSendEndOfPage function [Imaging Devices], image.wiassendendofpage, wiamdef/wiasSendEndOfPage, wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasSendEndOfPage
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ HRESULT _stdcall wiasSendEndOfPage(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param lPageCount
+#### - lPageCount
 
 Specifies the total page count. 
 
 
-### -param pmdtc [in, out]
+#### - pmdtc [in, out]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure.
 

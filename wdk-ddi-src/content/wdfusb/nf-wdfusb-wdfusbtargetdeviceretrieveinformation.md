@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68fc8d8b-3ba2-4f22-8a7e-29971a38544b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceRetrieveInformation, kmdf.wdfusbtargetdeviceretrieveinformation, PFN_WDFUSBTARGETDEVICERETRIEVEINFORMATION, wdf.wdfusbtargetdeviceretrieveinformation, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, WdfUsbTargetDeviceRetrieveInformation method, wdfusb/WdfUsbTargetDeviceRetrieveInformation
+ms.keywords: wdfusb/WdfUsbTargetDeviceRetrieveInformation, WdfUsbTargetDeviceRetrieveInformation method, WdfUsbTargetDeviceRetrieveInformation, PFN_WDFUSBTARGETDEVICERETRIEVEINFORMATION, kmdf.wdfusbtargetdeviceretrieveinformation, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, wdf.wdfusbtargetdeviceretrieveinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfUsbTargetDeviceRetrieveInformation(
 
 
 
-### -param UsbDevice [in]
+#### - UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param Information [out]
+#### - Information [out]
 
 A pointer to a caller-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a> structure that receives USB device information.
 
@@ -125,11 +125,11 @@ In framework versions 1.11 and later, the driver  can call <a href="..\wdfusb\nf
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequeryusbcapability.md">WdfUsbTargetDeviceQueryUsbCapability</a>
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
  
 

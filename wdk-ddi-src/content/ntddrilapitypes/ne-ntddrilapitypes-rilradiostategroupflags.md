@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b44debf9-4f44-44fc-9857-e4725edc888f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, RILRADIOSTATEGROUPFLAGS, ntddrilapitypes/RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, RILRADIOSTATEGROUPFLAGS enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostategroupflags, ntddrilapitypes/RILRADIOSTATEGROUPFLAGS
+ms.keywords: RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, RILRADIOSTATEGROUPFLAGS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRADIOSTATEGROUPFLAGS, RILRADIOSTATEGROUPFLAGS, ntddrilapitypes/RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, netvista.rilradiostategroupflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,6 +71,6 @@ typedef enum _RILRADIOSTATEGROUPFLAGS {
 
 
 
-### -field RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
+#### - RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4e10afc0-b9c4-4495-83a1-11f9b82143fc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_18a53f5a-49f9-40ba-bf85-d2fea7d6fbfb.xml, ifsk.iounregisterfsregistrationchange, IoUnregisterFsRegistrationChange routine [Installable File System Drivers], IoUnregisterFsRegistrationChange, ntifs/IoUnregisterFsRegistrationChange
+ms.keywords: ioref_18a53f5a-49f9-40ba-bf85-d2fea7d6fbfb.xml, IoUnregisterFsRegistrationChange, IoUnregisterFsRegistrationChange routine [Installable File System Drivers], ifsk.iounregisterfsregistrationchange, ntifs/IoUnregisterFsRegistrationChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID IoUnregisterFsRegistrationChange(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 Pointer to the driver object for the filter driver.
 
 
-### -param DriverNotificationRoutine [in]
+#### - DriverNotificationRoutine [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551037">PDRIVER_FS_NOTIFICATION</a> routine, which the file system calls when it registers or unregisters itself.
 
@@ -94,9 +94,9 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
-
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
 <a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
 

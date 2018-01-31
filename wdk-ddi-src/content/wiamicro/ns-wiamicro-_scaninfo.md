@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, SCANINFO structure [Imaging Devices], *PSCANINFO, _SCANINFO, PSCANINFO structure pointer [Imaging Devices], wiamicro/PSCANINFO, SCANINFO, wiamicro/SCANINFO, PSCANINFO, image.scaninfo
+ms.keywords: wiamicro/PSCANINFO, _SCANINFO, PSCANINFO structure pointer [Imaging Devices], SCANINFO, PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, image.scaninfo, SCANINFO structure [Imaging Devices], wiamicro/SCANINFO, *PSCANINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,7 @@ typedef struct _SCANINFO {
 
 
 
-### -field ADF
+#### - ADF
 
 Indicates whether the scanner supports an automatic document feeder (ADF). This member can be one of the following values:
 <table>
@@ -144,7 +144,7 @@ The scanner supports an ADF with duplex capability.
 </table> 
 
 
-### -field TPA
+#### - TPA
 
 Indicates whether the scanner supports TPA (TransParency Adapter). The value can be:
 
@@ -153,7 +153,7 @@ Indicates whether the scanner supports TPA (TransParency Adapter). The value can
 1 - supported
 
 
-### -field Endorser
+#### - Endorser
 
 Indicates whether the scanner has endorser capabilities. The value can be:
 
@@ -162,42 +162,42 @@ Indicates whether the scanner has endorser capabilities. The value can be:
 1 - supported
 
 
-### -field OpticalXResolution
+#### - OpticalXResolution
 
 Specifies the horizontal dpi setting of the scanner optics.
 
 
-### -field OpticalYResolution
+#### - OpticalYResolution
 
 Specifies the vertical dpi setting of the scanner optics.
 
 
-### -field BedWidth
+#### - BedWidth
 
 Specifies the bed width of the scanner in thousandths of an inch.
 
 
-### -field BedHeight
+#### - BedHeight
 
 Specifies the bed height of the scanner in thousandths of an inch.
 
 
-### -field IntensityRange
+#### - IntensityRange
 
 Specifies the intensity/brightness range values of the scanner.
 
 
-### -field ContrastRange
+#### - ContrastRange
 
 Specifies the contrast range values of the scanner.
 
 
-### -field SupportedCompressionType
+#### - SupportedCompressionType
 
 Specifies a mask value of supported compression types. A value of zero indicates that no compression types are supported.
 
 
-### -field SupportedDataTypes
+#### - SupportedDataTypes
 
 Specifies a mask value of supported data types. A value of zero indicates that no data types are supported. This member can be the bitwise OR of the following.
 <table>
@@ -238,22 +238,22 @@ The image is 8 bits-per-pixel grayscale.
 </table> 
 
 
-### -field WidthPixels
+#### - WidthPixels
 
 Specifies the width of the current image in pixels.
 
 
-### -field WidthBytes
+#### - WidthBytes
 
 Specifies the width of the current image in bytes.
 
 
-### -field Lines
+#### - Lines
 
 Specifies the height of the current image in pixels.
 
 
-### -field DataType
+#### - DataType
 
 Specifies the current data type set of the current image. This member can be set to one of the following.
 <table>
@@ -324,42 +324,42 @@ The driver supports 1 bit-per-pixel black and white.
 </table> 
 
 
-### -field PixelBits
+#### - PixelBits
 
 Specifies the current bit depth setting of the current image.
 
 
-### -field Intensity
+#### - Intensity
 
 Specifies the current intensity/brightness setting of the scanner.
 
 
-### -field Contrast
+#### - Contrast
 
 Specifies the current contrast setting of the scanner.
 
 
-### -field Xresolution
+#### - Xresolution
 
 Specifies the horizontal dpi setting of the scanner optics.
 
 
-### -field Yresolution
+#### - Yresolution
 
 Specifies the vertical dpi setting of the scanner optics.
 
 
-### -field Window
+#### - Window
 
 Specifies the current scanner window settings.
 
 
-### -field DitherPattern
+#### - DitherPattern
 
 Specifies the dither pattern of the scanner.
 
 
-### -field Negative
+#### - Negative
 
 Specifies whether negative is on or off. The value can be:
 
@@ -368,7 +368,7 @@ Specifies whether negative is on or off. The value can be:
 1 - on
 
 
-### -field Mirror
+#### - Mirror
 
 Specifies whether mirror is on or off. The value can be:
 
@@ -377,7 +377,7 @@ Specifies whether mirror is on or off. The value can be:
 1 - on
 
 
-### -field AutoBack
+#### - AutoBack
 
 Specifies whether AutoBack is on or off. The value can be:
 
@@ -386,17 +386,17 @@ Specifies whether AutoBack is on or off. The value can be:
 1 - on
 
 
-### -field ColorDitherPattern
+#### - ColorDitherPattern
 
 Reserved. Set to zero.
 
 
-### -field ToneMap
+#### - ToneMap
 
 Reserved. Set to zero.
 
 
-### -field Compression
+#### - Compression
 
 Specifies whether compression is on or off for the scanner. The value can be:
 
@@ -405,7 +405,7 @@ Specifies whether compression is on or off for the scanner. The value can be:
 1 - on
 
 
-### -field RawDataFormat
+#### - RawDataFormat
 
 Specifies the raw data format for the scanner. The value can be:
 
@@ -414,7 +414,7 @@ Specifies the raw data format for the scanner. The value can be:
 1 - planar data
 
 
-### -field RawPixelOrder
+#### - RawPixelOrder
 
 Specifies the pixel order for the scanner. The value can be:
 
@@ -423,7 +423,7 @@ Specifies the pixel order for the scanner. The value can be:
 1 - BGR
 
 
-### -field bNeedDataAlignment
+#### - bNeedDataAlignment
 
 Specifies whether data alignment is needed for the scanner. The value can be:
 
@@ -432,27 +432,27 @@ Specifies whether data alignment is needed for the scanner. The value can be:
 1 - true
 
 
-### -field DelayBetweenRead
+#### - DelayBetweenRead
 
 Specifies the time delay in milliseconds between <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a> function calls that the scanner can support.
 
 
-### -field MaxBufferSize
+#### - MaxBufferSize
 
 Specifies the maximum buffer size in the scanner.
 
 
-### -field DeviceIOHandles
+#### - DeviceIOHandles
 
 Specifies an array of device I/O handles needed for device communication.
 
 
-### -field lReserved
+#### - lReserved
 
 Specifies an array of reserved bits.
 
 
-### -field pMicroDriverContext
+#### - pMicroDriverContext
 
 Points to the microdriver's context. <i>This member is defined only for Microsoft Windows XP and later</i>. The microdriver allocates the buffer pointed to by this member. The buffer should be allocated in CMD_INITIALIZE, and freed in CMD_UNINITIALIZE. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff547067">Required Commands</a>.) The WIA Flatbed driver knows nothing of this pointer, and hence will not alter the memory pointed to by this member.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7154c32-bca6-482d-b1f9-7c090a7ce432
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_VOICE_DOMAIN_MAX, ntddrilapitypes/RILVOICEDOMAIN, RIL_VOICE_DOMAIN_3GPP2, RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_3GPP, netvista.rilvoicedomain, RIL_VOICE_DOMAIN_MAX, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP, RILVOICEDOMAIN, ntddrilapitypes/RIL_VOICE_DOMAIN_IMS, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP2
+ms.keywords: RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_3GPP, ntddrilapitypes/RILVOICEDOMAIN, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP, ntddrilapitypes/RIL_VOICE_DOMAIN_MAX, ntddrilapitypes/RIL_VOICE_DOMAIN_IMS, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP2, RIL_VOICE_DOMAIN_MAX, RILVOICEDOMAIN, RIL_VOICE_DOMAIN_3GPP2, netvista.rilvoicedomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,18 +74,18 @@ typedef enum _RILVOICEDOMAIN {
 
 
 
-### -field RIL_VOICE_DOMAIN_3GPP
+#### - RIL_VOICE_DOMAIN_3GPP
 
 
 
-### -field RIL_VOICE_DOMAIN_3GPP2
+#### - RIL_VOICE_DOMAIN_3GPP2
 
 
 
-### -field RIL_VOICE_DOMAIN_IMS
+#### - RIL_VOICE_DOMAIN_IMS
 
 
 
-### -field RIL_VOICE_DOMAIN_MAX
+#### - RIL_VOICE_DOMAIN_MAX
 
 

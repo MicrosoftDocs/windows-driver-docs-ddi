@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 406044A5-D1C0-4771-8CDB-CCBC0B801281
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUESTOPANDPURGESYNCHRONOUSLY, wdfio/WdfIoQueueStopAndPurgeSynchronously, WdfIoQueueStopAndPurgeSynchronously method, WdfIoQueueStopAndPurgeSynchronously, wdf.wdfioqueuestopandpurgesynchronously, kmdf.wdfioqueuestopandpurgesynchronously
+ms.keywords: wdfio/WdfIoQueueStopAndPurgeSynchronously, kmdf.wdfioqueuestopandpurgesynchronously, PFN_WDFIOQUEUESTOPANDPURGESYNCHRONOUSLY, WdfIoQueueStopAndPurgeSynchronously, wdf.wdfioqueuestopandpurgesynchronously, WdfIoQueueStopAndPurgeSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ void WdfIoQueueStopAndPurgeSynchronously(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to a framework queue object.
 

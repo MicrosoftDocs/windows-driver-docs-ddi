@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FE699F78-99AC-46E0-9C51-6F69A5C4932C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX, _SCSI_PASS_THROUGH_DIRECT_EX, *PSCSI_PASS_THROUGH_DIRECT_EX, storage.scsi_pass_through_direct_ex, SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX
+ms.keywords: PSCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX, storage.scsi_pass_through_direct_ex, ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, _SCSI_PASS_THROUGH_DIRECT_EX, *PSCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_PASS_THROUGH_DIRECT_EX
 product: Windows
 targetos: Windows
-req.typenames: SCSI_PASS_THROUGH_DIRECT_EX, *PSCSI_PASS_THROUGH_DIRECT_EX
+req.typenames: "*PSCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX"
 ---
 
 # _SCSI_PASS_THROUGH_DIRECT_EX structure
@@ -82,37 +82,37 @@ typedef struct _SCSI_PASS_THROUGH_DIRECT_EX {
 
 
 
-### -field Version
+#### - Version
 
 The version of this structure. Set to 0.
 
 
-### -field Length
+#### - Length
 
 The size of the this structure. Set to <b>sizeof</b>(SCSI_PASS_THROUGH_DIRECT_EX).
 
 
-### -field CdbLength
+#### - CdbLength
 
 Indicates the size in bytes of the SCSI command descriptor block in <b>Cdb</b>.
 
 
-### -field StorAddressLength
+#### - StorAddressLength
 
 The length of the storage device address structure at the offset of <b>StorAddressOffset</b> after this structure. This is set to <b>sizeof</b>(STOR_ADDR_BTL8).
 
 
-### -field ScsiStatus
+#### - ScsiStatus
 
 Reports the SCSI status that was returned by the HBA or the target device.
 
 
-### -field SenseInfoLength
+#### - SenseInfoLength
 
 Indicates the size in bytes of the request-sense buffer. This member is optional and can be set to 0.
 
 
-### -field DataDirection
+#### - DataDirection
 
 
 
@@ -124,47 +124,47 @@ Indicates the size in bytes of the request-sense buffer. This member is optional
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Set to 0.
 
 
-### -field TimeOutValue
+#### - TimeOutValue
 
 Indicates the interval in seconds that the request can execute before the port driver considers it timed out.
 
 
-### -field StorAddressOffset
+#### - StorAddressOffset
 
-The location of the target device's <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a> address structure, in bytes, from the beginning of this structure.
+The location of the target device's <a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a> address structure, in bytes, from the beginning of this structure.
 
 
-### -field SenseInfoOffset
+#### - SenseInfoOffset
 
 Offset from the beginning of this structure to the request-sense buffer. Set to 0 if no request-sense buffer is present.
 
 
-### -field DataOutTransferLength
+#### - DataOutTransferLength
 
 Indicates the size in bytes of the output data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataOutTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred. If no output data buffer is present, this member is set to 0.
 
 
-### -field DataInTransferLength
+#### - DataInTransferLength
 
 Indicates the size in bytes of the input data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataInTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred. If no input data buffer is present, this member is set to 0.
 
 
-### -field DataOutBuffer
+#### - DataOutBuffer
 
 A pointer to a output data buffer.
 
 
-### -field DataInBuffer
+#### - DataInBuffer
 
 A pointer to a input data buffer.
 
 
-### -field Cdb
+#### - Cdb
 
 Specifies the SCSI command descriptor block to be sent to the target device.
 
@@ -178,13 +178,13 @@ The <b>SCSI_PASS_THROUGH_DIRECT_EX</b> structure is used with <a href="..\ntddsc
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
+
+<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
  
 

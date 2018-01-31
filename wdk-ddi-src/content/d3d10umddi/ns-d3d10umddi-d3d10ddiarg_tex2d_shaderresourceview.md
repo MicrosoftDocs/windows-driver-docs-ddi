@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2282d08e-e192-4a0f-972b-1441cea1fe7d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_ebe6122b-f1bb-4f9d-b677-c721643fe227.xml, display.d3d10ddiarg_tex2d_shaderresourceview, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure [Display Devices]
+ms.keywords: d3d10umddi/D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure [Display Devices], display.d3d10ddiarg_tex2d_shaderresourceview, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_ebe6122b-f1bb-4f9d-b677-c721643fe227.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW {
 
 
 
-### -field MostDetailedMip
+#### - MostDetailedMip
 
 [in] The identifier of the most detailed MIP-map. 
 
 
-### -field FirstArraySlice
+#### - FirstArraySlice
 
 [in] The identifier of the first array slice. 
 
 
-### -field MipLevels
+#### - MipLevels
 
 [in] The number of MIP-map levels for the texture. 
 
 
-### -field ArraySize
+#### - ArraySize
 
 [in] The number of array slices for the texture. 
 
@@ -101,11 +101,11 @@ If the <b>ArraySize</b> member is set to -1, the array slices in the texture sta
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
 
  
 

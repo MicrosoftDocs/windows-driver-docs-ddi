@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c60f3dd5-2a74-4d7c-8804-35b9dd91dce4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, wdf.wdfrequestsetcompletionroutine, PFN_WDFREQUESTSETCOMPLETIONROUTINE, WdfRequestSetCompletionRoutine method, WdfRequestSetCompletionRoutine, kmdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine
+ms.keywords: PFN_WDFREQUESTSETCOMPLETIONROUTINE, DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, kmdf.wdfrequestsetcompletionroutine, WdfRequestSetCompletionRoutine method, wdfrequest/WdfRequestSetCompletionRoutine, wdf.wdfrequestsetcompletionroutine, WdfRequestSetCompletionRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ VOID WdfRequestSetCompletionRoutine(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param CompletionRoutine [in, optional]
+#### - CompletionRoutine [in, optional]
 
 A pointer to a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, if the driver is registering a completion routine, or <b>NULL</b> of the driver is deregistering a previously registered completion routine.
 
 
-### -param CompletionContext [in, optional]
+#### - CompletionContext [in, optional]
 
 An untyped pointer to driver-defined context information that the framework passes to the <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function. This parameter is optional and can be <b>NULL</b>.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceEnqueueRequest, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, PFN_WDFDEVICEENQUEUEREQUEST, WdfDeviceEnqueueRequest, kmdf.wdfdeviceenqueuerequest, WdfDeviceEnqueueRequest method, wdf.wdfdeviceenqueuerequest
+ms.keywords: wdfdevice/WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method, WdfDeviceEnqueueRequest, kmdf.wdfdeviceenqueuerequest, wdf.wdfdeviceenqueuerequest, PFN_WDFDEVICEENQUEUEREQUEST, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfDeviceEnqueueRequest(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
@@ -164,11 +164,11 @@ For versions 1.0 and 1.5 of KMDF, <b>WdfDeviceEnqueueRequest</b> must be called 
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C248B20E-A9A1-4C79-9053-16AC2059205E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dwddm2_0ddi_video_capability_decoder_caps, d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure [Display Devices], D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
+ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS, display.d3dwddm2_0ddi_video_capability_decoder_caps, D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS {
 
 
 
-### -field DecodeProfile
+#### - DecodeProfile
 
 Indicates the decode profile for which the capabilities are queried.
 
 
-### -field SampleWidth
+#### - SampleWidth
 
 Indicates the video width for which the capabilities are queried.
 
 
-### -field SampleHeight
+#### - SampleHeight
 
 Indicates the video height for which the capabilities are queried.
 
 
-### -field FrameRate
+#### - FrameRate
 
 Indicates the frame rate of the video content.
 
@@ -101,7 +101,7 @@ Indicates the frame rate of the video content.
  
 
 
-### -field Caps
+#### - Caps
 
 Returns a combination of <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_video_decoder_caps.md">D3DWDDM2_0DDI_VIDEO_DECODER_CAPS</a> enumeration values combined together using a bitwise <i>OR</i> operation.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a066d78b-f6c7-484a-9d62-3578bbd063a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlLookupPerFileObjectContext function [Installable File System Drivers], ntifs/FsRtlLookupPerFileObjectContext, fsrtlref_1b9542db-9037-400a-97e2-1bcfddcd1957.xml, FsRtlLookupPerFileObjectContext, ifsk.fsrtllookupperfileobjectcontext
+ms.keywords: FsRtlLookupPerFileObjectContext, fsrtlref_1b9542db-9037-400a-97e2-1bcfddcd1957.xml, FsRtlLookupPerFileObjectContext function [Installable File System Drivers], ntifs/FsRtlLookupPerFileObjectContext, ifsk.fsrtllookupperfileobjectcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PFSRTL_PER_FILEOBJECT_CONTEXT FsRtlLookupPerFileObjectContext(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a file object for which to query context information.
 
 
-### -param OwnerId [in, optional]
+#### - OwnerId [in, optional]
 
 A pointer to a caller-allocated variable that uniquely identifies the owning filter of the per-file-object context structure. The format of this variable is filter-driver-specific.
 
 
-### -param InstanceId [in, optional]
+#### - InstanceId [in, optional]
 
 A pointer to a caller-allocated variable that can be used to distinguish among per-file-object context structures created by the same filter driver. The format of this variable is filter-driver-specific. This parameter is optional and can be <b>NULL</b>.
 
@@ -108,13 +108,13 @@ To remove a per-file-object context structure that is associated with a file obj
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
  
 

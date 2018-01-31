@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: EFF55B5C-55E2-4E03-9D96-FDB1BC550A53
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterScriptablePropertyBag::GetWriteStream, GetWriteStream method [Print Devices], print.iprinterscriptablepropertybag_getwritestream, IPrinterScriptablePropertyBag interface [Print Devices], GetWriteStream method, GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag interface, GetWriteStream, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::GetWriteStream
+ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices], GetWriteStream method, GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::GetWriteStream, GetWriteStream, GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetWriteStream(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The property to write.
 
 
-### -param ppStream [out, retval]
+#### - ppStream [out, retval]
 
 The retrieved stream.
 

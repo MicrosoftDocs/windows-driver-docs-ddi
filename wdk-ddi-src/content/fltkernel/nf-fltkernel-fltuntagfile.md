@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 728a9879-681b-4244-b931-7945a05e3d40
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltUntagFile function [Installable File System Drivers], FltUntagFile, ifsk.fltuntagfile, fltkernel/FltUntagFile, FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml
+ms.keywords: fltkernel/FltUntagFile, FltUntagFile, FltUntagFile function [Installable File System Drivers], ifsk.fltuntagfile, FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FltUntagFile(
 
 
 
-### -param InitiatingInstance [in]
+#### - InitiatingInstance [in]
 
 Opaque instance pointer for the minifilter driver instance that initiated this I/O request. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the file or directory from which the reparse point is to be removed. The file object must be opened for FILE_WRITE_DATA access. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileTag [in]
+#### - FileTag [in]
 
 Reparse point tag. The tag specified in this parameter must match the tag of the reparse point to be removed. 
 
 
-### -param Guid [in, optional]
+#### - Guid [in, optional]
 
 Globally unique identifier (GUID) that uniquely identifies the type of reparse point. If <i>FileTag</i> is not a Microsoft tag, this parameter is required and cannot be <b>NULL</b>. The GUID specified in this parameter must match the GUID of the reparse point to be removed. 
 
@@ -138,19 +138,19 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
 
 <a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
 <a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
+
+<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
 
  
 

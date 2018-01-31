@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8cd94502-c11a-4e6a-87f6-0c6034b6ac09
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers], ntifs/RtlAppendStringToString, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml, ifsk.rtlappendstringtostring
+ms.keywords: rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml, RtlAppendStringToString, ntifs/RtlAppendStringToString, ifsk.rtlappendstringtostring, RtlAppendStringToString routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlAppendStringToString(
 
 
 
-### -param Destination [in, out]
+#### - Destination [in, out]
 
 A pointer to a counted string to which the string at <i>Source</i> should be appended. 
 
 
-### -param Source [in]
+#### - Source [in]
 
 A pointer to a counted string to be appended to the string at <i>Destination</i>. 
 

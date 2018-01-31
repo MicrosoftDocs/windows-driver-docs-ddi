@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7918ee03-c1cb-4a38-8773-4a01832357d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_CONTEXT_STATE, netvista.ndis_wwan_context_state, WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml, ndiswwan/PNDIS_WWAN_CONTEXT_STATE, _NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_CONTEXT_STATE
+ms.keywords: WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml, NDIS_WWAN_CONTEXT_STATE, *PNDIS_WWAN_CONTEXT_STATE, netvista.ndis_wwan_context_state, ndiswwan/NDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE, _NDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_CONTEXT_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE"
+req.typenames: NDIS_WWAN_CONTEXT_STATE, *PNDIS_WWAN_CONTEXT_STATE
 ---
 
 # _NDIS_WWAN_CONTEXT_STATE structure
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_CONTEXT_STATE {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_CONTEXT_STATE structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of context activation or deactivation operation. The following table shows the possible
      values for this member.
@@ -316,7 +316,7 @@ The operation failed because the context identified by
 </table> 
 
 
-### -field ContextState
+#### - ContextState
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a> object that
@@ -325,9 +325,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
 
  
 

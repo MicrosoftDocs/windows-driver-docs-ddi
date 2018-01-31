@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00987914-9fe2-4245-b463-ef362e31679d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, WdfIoTargetQueryTargetProperty method, wdfiotarget/WdfIoTargetQueryTargetProperty, wdf.wdfiotargetquerytargetproperty, PFN_WDFIOTARGETQUERYTARGETPROPERTY, kmdf.wdfiotargetquerytargetproperty, WdfIoTargetQueryTargetProperty
+ms.keywords: WdfIoTargetQueryTargetProperty, DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, kmdf.wdfiotargetquerytargetproperty, wdfiotarget/WdfIoTargetQueryTargetProperty, wdf.wdfiotargetquerytargetproperty, PFN_WDFIOTARGETQUERYTARGETPROPERTY, WdfIoTargetQueryTargetProperty method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NTSTATUS WdfIoTargetQueryTargetProperty(
 
 
 
-### -param IoTarget [in]
+#### - IoTarget [in]
 
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a> or <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>-typed value that identifies the device property to be retrieved.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The size, in bytes, of the buffer that <i>PropertyBuffer</i> points to.
 
 
-### -param PropertyBuffer [out, optional]
+#### - PropertyBuffer [out, optional]
 
 A pointer to a caller-allocated buffer that receives the requested device property information. This pointer can be <b>NULL</b> if <i>BufferLength</i> is zero.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 A pointer to a location that, on return, contains the size, in bytes, of the information that <b>WdfIoTargetQueryTargetProperty</b> stored in the buffer that <i>PropertyBuffer</i> points to. If <b>WdfIoTargetQueryTargetProperty</b> returns STATUS_BUFFER_TOO_SMALL, this location receives the required buffer size.
 
@@ -167,13 +167,13 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a>
 
 <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
 

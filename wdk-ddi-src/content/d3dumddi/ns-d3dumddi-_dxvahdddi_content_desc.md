@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 635a4a47-11b8-4d78-871e-21ee438880df
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC structure [Display Devices], display.dxvahdddi_content_desc, _DXVAHDDDI_CONTENT_DESC, DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml, d3dumddi/DXVAHDDDI_CONTENT_DESC
+ms.keywords: d3dumddi/DXVAHDDDI_CONTENT_DESC, _DXVAHDDDI_CONTENT_DESC, DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml, DXVAHDDDI_CONTENT_DESC structure [Display Devices], DXVAHDDDI_CONTENT_DESC, display.dxvahdddi_content_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,41 +73,41 @@ typedef struct _DXVAHDDDI_CONTENT_DESC {
 
 
 
-### -field InputFrameFormat
+#### - InputFrameFormat
 
 [in] A <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>-typed value that indicates the frame format of the input video stream. 
 
 
-### -field InputFrameRate
+#### - InputFrameRate
 
 
       [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the input video stream. 
      
 
 
-### -field InputWidth
+#### - InputWidth
 
 [in] The width, in pixels, of the input video stream. 
 
 
-### -field InputHeight
+#### - InputHeight
 
 [in] The height, in pixels, of the input video stream. 
 
 
-### -field OutputFrameRate
+#### - OutputFrameRate
 
 
       [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the output. 
      
 
 
-### -field OutputWidth
+#### - OutputWidth
 
 [in] The width, in pixels, of the output video stream. 
 
 
-### -field OutputHeight
+#### - OutputHeight
 
 [in] The height, in pixels, of the output video stream. 
 
@@ -121,9 +121,9 @@ The driver can use the information in the members of DXVAHDDDI_CONTENT_DESC to o
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
-
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
 
  
 

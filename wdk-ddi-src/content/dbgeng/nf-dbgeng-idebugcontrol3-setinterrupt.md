@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d67119c7-ecbe-446c-8a4f-38d33e92a277
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setinterrupt, IDebugControl3::SetInterrupt, SetInterrupt method [Windows Debugging], IDebugControl interface, IDebugControl3, IDebugControl2 interface [Windows Debugging], SetInterrupt method, IDebugControl interface [Windows Debugging], SetInterrupt method, dbgeng/IDebugControl3::SetInterrupt, SetInterrupt, dbgeng/IDebugControl::SetInterrupt, SetInterrupt method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::SetInterrupt, SetInterrupt method [Windows Debugging], IDebugControl3 interface, IDebugControl_dd73562c-6f15-4101-8ab3-3f432de5a002.xml, IDebugControl3 interface [Windows Debugging], SetInterrupt method, IDebugControl::SetInterrupt, IDebugControl2::SetInterrupt, SetInterrupt method [Windows Debugging]
+ms.keywords: dbgeng/IDebugControl::SetInterrupt, IDebugControl3, IDebugControl3::SetInterrupt, IDebugControl interface [Windows Debugging], SetInterrupt method, IDebugControl2::SetInterrupt, dbgeng/IDebugControl2::SetInterrupt, SetInterrupt, IDebugControl2 interface [Windows Debugging], SetInterrupt method, IDebugControl::SetInterrupt, SetInterrupt method [Windows Debugging], SetInterrupt method [Windows Debugging], IDebugControl interface, SetInterrupt method [Windows Debugging], IDebugControl3 interface, SetInterrupt method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::SetInterrupt, IDebugControl_dd73562c-6f15-4101-8ab3-3f432de5a002.xml, debugger.setinterrupt, IDebugControl3 interface [Windows Debugging], SetInterrupt method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT SetInterrupt(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the type of interrupt to register.  <i>Flags</i> can take one of the values listed in the following table.
 <table>
@@ -151,15 +151,15 @@ If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engi
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546944">GetInterrupt</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556725">SetInterruptTimeout</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546944">GetInterrupt</a>
 
  
 

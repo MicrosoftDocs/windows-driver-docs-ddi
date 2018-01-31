@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32320f33-2fa8-410b-9aa8-312c2e0da693
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_TRANSPORT_SEND_PARAMS0_, FWPS_TRANSPORT_SEND_PARAMS0, fwpsk/FWPS_TRANSPORT_SEND_PARAMS0, FWPS_TRANSPORT_SEND_PARAMS0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_P-Z_31508fdc-7a5c-4b77-9f71-3fe5d8b99c69.xml, netvista.fwps_transport_send_params0
+ms.keywords: FWPS_TRANSPORT_SEND_PARAMS0, FWPS_TRANSPORT_SEND_PARAMS0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_TRANSPORT_SEND_PARAMS0, FWPS_TRANSPORT_SEND_PARAMS0_, netvista.fwps_transport_send_params0, wfp_ref_3_struct_3_fwps_P-Z_31508fdc-7a5c-4b77-9f71-3fe5d8b99c69.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct FWPS_TRANSPORT_SEND_PARAMS0_ {
 
 
 
-### -field remoteAddress
+#### - remoteAddress
 
 A pointer to a buffer that specifies the remote IP address to which to send the socket. The remote
      address specified by this member can be different than the one passed as one of the incoming data values
@@ -88,7 +88,7 @@ The buffer can contain an IPv4 address (4 bytes) or an IPv6 address (16 bytes), 
 The buffer must remain valid until the injection completion function is called.
 
 
-### -field remoteScopeId
+#### - remoteScopeId
 
 A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP address. The scope
      identifier is provided to a callout through the 
@@ -150,19 +150,19 @@ The length, in bytes, of the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
+   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
 
 <a href="..\fwpsk\ns-fwpsk-fwps_transport_send_params1_.md">FWPS_TRANSPORT_SEND_PARAMS1</a>
-
-<a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
 
 <mshelp:link keywords="netvista.fwpsinjecttransportsendasync0" tabindex="0"><b>
    FwpsInjectTransportSendAsync0</b></mshelp:link>
 
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+<a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
  
 

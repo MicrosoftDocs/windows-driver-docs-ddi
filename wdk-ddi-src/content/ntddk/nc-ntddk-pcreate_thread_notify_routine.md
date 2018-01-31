@@ -72,17 +72,17 @@ void SetCreateThreadNotifyRoutine(
 
 
 
-### -param ProcessId [in]
+#### - ProcessId [in]
 
 The process ID of the process.
 
 
-### -param ThreadId [in]
+#### - ThreadId [in]
 
 The thread ID of the thread.
 
 
-### -param Create [in]
+#### - Create [in]
 
 Indicates whether the thread was created (<b>TRUE</b>) or deleted (<b>FALSE</b>).
 
@@ -105,9 +105,9 @@ The driver's thread-notify routine runs at IRQL = PASSIVE_LEVEL or APC_LEVEL. Wh
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
-
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
+
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
  
 

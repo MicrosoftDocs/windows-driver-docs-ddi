@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, video/VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], display.videoportgetdevicebase, VideoPortGetDeviceBase
+ms.keywords: VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, VideoPortGetDeviceBase, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,24 +71,24 @@ PVOID VideoPortGetDeviceBase(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param IoAddress
+#### - IoAddress
 
 The base physical address of the range to map. You get this bus-relative value by calling <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>, <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>, or <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>. Otherwise, this value is a driver-supplied, default base address for the device memory or I/O ports.
 
 You must have successfully claimed the range described by <i>IoAddress</i> and <i>NumberOfUchars</i> in the registry through a preceding call to <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a> or <b>VideoPortGetAccessRanges</b>.
 
 
-### -param NumberOfUchars
+#### - NumberOfUchars
 
 The number of bytes, starting at <i>IoAddress</i>, to map.
 
 
-### -param InIoSpace
+#### - InIoSpace
 
 The location of the <i>IoAddress</i> range. This parameter can be one of the following flags or an ORed, compatible combination of these flags.
 <table>
@@ -181,29 +181,29 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
 <a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
 
 <a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
-
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
-
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F05DAD5F-C0A4-46E0-8069-7CEF5B6C5707
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wditypes/PWDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY structure [Device and Driver Installation], PWDI_CHANNEL_MAPPING_ENTRY structure pointer [Device and Driver Installation], PWDI_CHANNEL_MAPPING_ENTRY, *PWDI_CHANNEL_MAPPING_ENTRY, _WDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY, netvista.wdi_channel_mapping_entry, netvista.wifi_channel_mapping_entry, wditypes/WDI_CHANNEL_MAPPING_ENTRY
+ms.keywords: PWDI_CHANNEL_MAPPING_ENTRY structure pointer [Device and Driver Installation], wditypes/WDI_CHANNEL_MAPPING_ENTRY, wditypes/PWDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY, _WDI_CHANNEL_MAPPING_ENTRY, *PWDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY structure [Device and Driver Installation], netvista.wdi_channel_mapping_entry, netvista.wifi_channel_mapping_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _WDI_CHANNEL_MAPPING_ENTRY {
 
 
 
-### -field ChannelNumber
+#### - ChannelNumber
 
 Specifies the logical channel number.
 
 
-### -field ChannelCenterFrequency
+#### - ChannelCenterFrequency
 
 Specifies the center frequency for the channel in MHz.
 

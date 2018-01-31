@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2ca1fdbe-efd3-4607-aab1-751e6d5d025b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, PNDIS_PM_WOL_PATTERN, ntddndis/NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], *PNDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_wol_pattern, _NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN
+ms.keywords: "_NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], *PNDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN, netvista.ndis_pm_wol_pattern, NDIS_PM_WOL_PATTERN, ntddndis/NDIS_PM_WOL_PATTERN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WOL_PATTERN
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN"
+req.typenames: NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN
 ---
 
 # _NDIS_PM_WOL_PATTERN structure
@@ -99,15 +99,64 @@ typedef struct _NDIS_PM_WOL_PATTERN {
 
 
 
-### -field WoLPattern
+#### - WoLPattern
 
 A union that contains the following member structures.
+
+
+#### IPv4TcpSynParameters
+
+A structure that contains IPv4 TCP SYN information. This structure contains the following
+      members:
+
+
+#### IPv6TcpSynParameters
+
+A structure that contains IPv6 TCP SYN information. This structure contains the following
+      members:
+
+
+#### EapolRequestIdMessageParameters
+
+A structure that contains 802.1X EAPOL request identity message parameters. This structure
+      contains the following members:
+
+
+#### WoLBitMapPattern
+
+A structure that specifies a WOL bitmap pattern. For more information about bitmap patterns, see
+      the Remarks section. The structure has the following members:
 
 
 ### -field WoLPattern.IPv4TcpSynParameters
 
 A structure that contains IPv4 TCP SYN information. This structure contains the following
       members:
+
+
+#### IPv4TcpSynParameters.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+#### IPv4TcpSynParameters.IPv4SourceAddress
+
+The IPv4 source address in the TCP SYN packet.
+
+
+#### IPv4TcpSynParameters.IPv4DestAddress
+
+The IPv4 destination address in the TCP SYN packet.
+
+
+#### IPv4TcpSynParameters.TCPSourcePortNumber
+
+The TCP source port number in the TCP SYN packet.
+
+
+#### IPv4TcpSynParameters.TCPDestPortNumber
+
+The TCP destination port number in the TCP SYN packet.
 
 
 ### -field WoLPattern.IPv4TcpSynParameters.Flags
@@ -141,6 +190,31 @@ A structure that contains IPv6 TCP SYN information. This structure contains the 
       members:
 
 
+#### IPv6TcpSynParameters.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+#### IPv6TcpSynParameters.IPv6SourceAddress
+
+The IPv6 source address in the TCP SYN packet.
+
+
+#### IPv6TcpSynParameters.IPv6DestAddress
+
+The IPv6 destination address in the TCP SYN packet.
+
+
+#### IPv6TcpSynParameters.TCPSourcePortNumber
+
+The TCP source port in the TCP SYN packet.
+
+
+#### IPv6TcpSynParameters.TCPDestPortNumber
+
+The TCP destination port in the TCP SYN packet.
+
+
 ### -field WoLPattern.IPv6TcpSynParameters.Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
@@ -172,6 +246,11 @@ A structure that contains 802.1X EAPOL request identity message parameters. This
       contains the following members:
 
 
+#### EapolRequestIdMessageParameters.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
 ### -field WoLPattern.EapolRequestIdMessageParameters.Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
@@ -181,6 +260,38 @@ A ULONG value that contains a bitwise OR of flags. This member is reserved for N
 
 A structure that specifies a WOL bitmap pattern. For more information about bitmap patterns, see
       the Remarks section. The structure has the following members:
+
+
+#### WoLBitMapPattern.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+#### WoLBitMapPattern.MaskOffset
+
+The offset, in bytes, for a mask buffer from the beginning of the NDIS_PM_WOL_PATTERN
+        structure.
+
+The mask specifies which bytes in incoming packets should be matched against the bitmap pattern.
+        Each bit in the bitmask corresponds to a byte in the pattern. If a bit is zero, the corresponding
+        byte in the incoming packet should not be pattern-matched. If the bit is one, the network adapter compares the
+        byte to the incoming packet with the byte specified in the pattern.
+
+
+#### WoLBitMapPattern.MaskSize
+
+The size, in bytes, of the mask.
+
+
+#### WoLBitMapPattern.PatternOffset
+
+The offset, in bytes, for a pattern buffer from the beginning of the NDIS_PM_WOL_PATTERN
+       structure.
+
+
+#### WoLBitMapPattern.PatternSize
+
+The size, in bytes, of the pattern.
 
 
 ### -field WoLPattern.WoLBitMapPattern.Flags
@@ -220,7 +331,7 @@ The size, in bytes, of the pattern.
  
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_PM_WOL_PATTERN</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -243,12 +354,12 @@ Original version for NDIS 6.20.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
 
 
-### -field Priority
+#### - Priority
 
 A ULONG value that contains the priority of the WOL pattern. If an overlying driver adds a higher
      priority WOL pattern when there are no resources that are available for more WOL patterns, NDIS might remove a
@@ -275,21 +386,21 @@ Specifies a normal priority WOL pattern.
 Specifies the highest priority WOL pattern.
 
 
-### -field WoLPacketType
+#### - WoLPacketType
 
 An 
      <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a> enumeration value that
      specifies the type of the WOL packet.
 
 
-### -field FriendlyName
+#### - FriendlyName
 
 An 
      <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a> structure
      that contains the user-readable description of the WOL packet.
 
 
-### -field PatternId
+#### - PatternId
 
 A ULONG value that contains an NDIS-provided value that identifies the WOL pattern. Before NDIS
      sends the 
@@ -298,7 +409,7 @@ A ULONG value that contains an NDIS-provided value that identifies the WOL patte
      <b>PatternId</b> to a value that is unique among the WOL patterns on a network adapter.
 
 
-### -field NextWoLPatternOffset
+#### - NextWoLPatternOffset
 
 A ULONG value that contains an offset, in bytes. The 
      <b>NextWoLPatternOffset</b> member of each NDIS_PM_WOL_PATTERN structure in a list is set to the offset
@@ -346,15 +457,15 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569764">OID_PM_ADD_WOL_PATTERN</a>
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569764">OID_PM_ADD_WOL_PATTERN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
 
  
 

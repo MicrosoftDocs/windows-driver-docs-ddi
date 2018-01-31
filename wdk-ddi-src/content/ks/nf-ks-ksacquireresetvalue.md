@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 80a990e3-3637-4837-8800-42d5848e01cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAcquireResetValue function [Streaming Media Devices], KsAcquireResetValue, stream.ksacquireresetvalue, ks/KsAcquireResetValue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml
+ms.keywords: ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, KsAcquireResetValue, ks/KsAcquireResetValue, stream.ksacquireresetvalue, KsAcquireResetValue function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsAcquireResetValue(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Points to the IRP from which to retrieve the reset state.
 
 
-### -param ResetValue [out]
+#### - ResetValue [out]
 
 Points to a caller-allocated buffer, that on successful completion contains the reset value (KSRESET_BEGIN, KSRESET_END) associated with the IRP.
 

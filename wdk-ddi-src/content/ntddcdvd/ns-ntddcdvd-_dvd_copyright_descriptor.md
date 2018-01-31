@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3478867-394b-466c-ad9a-259bedd66669
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor, PDVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR, structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, _DVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices]
+ms.keywords: PDVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor, DVD_COPYRIGHT_DESCRIPTOR, structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml, ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices], ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, _DVD_COPYRIGHT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVD_COPYRIGHT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR
+req.typenames: "*PDVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR"
 ---
 
 # _DVD_COPYRIGHT_DESCRIPTOR structure
@@ -69,17 +69,17 @@ typedef struct _DVD_COPYRIGHT_DESCRIPTOR {
 
 
 
-### -field CopyrightProtectionType
+#### - CopyrightProtectionType
 
 Indicates, when set to 1, the presence of data specific to a copyright protection system. A value of zero indicates there is no such data. All other values are reserved.
 
 
-### -field RegionManagementInformation
+#### - RegionManagementInformation
 
 Indicates in which regions of the world the disc can be played. Each bit represents one of eight regions. If a bit is set, the disc cannot be played in the corresponding region. If a bit is not set, the disc can be played in the corresponding region. 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. 
 

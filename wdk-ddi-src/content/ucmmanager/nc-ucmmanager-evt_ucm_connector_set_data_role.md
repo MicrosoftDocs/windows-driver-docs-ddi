@@ -74,12 +74,12 @@ typedef EVT_UCM_CONNECTOR_SET_DATA_ROLE PFN_UCM_CONNECTOR_SET_DATA_ROLE;
 
 
 
-### -param Connector [in]
+#### - Connector [in]
 
 Handle to the connector that the client driver received in a previous call to  the <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a> method.
 
 
-### -param DataRole [in]
+#### - DataRole [in]
 
 A <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_partner.md">UCM_TYPEC_PARTNER</a>-typed flag that specifies the role to set.
 

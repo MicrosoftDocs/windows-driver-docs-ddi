@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50661fc9-2f1f-4c9a-bc15-1cdf7c1f6d01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_BSS_ENTRY, windot11/PDOT11_BSS_ENTRY, PDOT11_BSS_ENTRY, DOT11_BSS_ENTRY structure [Network Drivers Starting with Windows Vista], netvista.dot11_bss_entry, DOT11_BSS_ENTRY, windot11/DOT11_BSS_ENTRY, Native_802.11_data_types_f884f12d-d267-4ae3-b632-6c318b515880.xml, PDOT11_BSS_ENTRY structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: "*PDOT11_BSS_ENTRY, netvista.dot11_bss_entry, Native_802.11_data_types_f884f12d-d267-4ae3-b632-6c318b515880.xml, DOT11_BSS_ENTRY structure [Network Drivers Starting with Windows Vista], DOT11_BSS_ENTRY, windot11/PDOT11_BSS_ENTRY, windot11/DOT11_BSS_ENTRY, PDOT11_BSS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], PDOT11_BSS_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_BSS_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_BSS_ENTRY, DOT11_BSS_ENTRY"
+req.typenames: DOT11_BSS_ENTRY, *PDOT11_BSS_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -81,7 +81,7 @@ typedef struct DOT11_BSS_ENTRY {
 
 
 
-### -field uPhyId
+#### - uPhyId
 
 The identifier (ID) of the PHY that the 802.11 station used to detect the BSS network. The PHY ID
      is the index within the list of supported PHYs returned by the driver through a query of 
@@ -91,7 +91,7 @@ The identifier (ID) of the PHY that the 802.11 station used to detect the BSS ne
 This ID must not be DOT11_PHY_ID_ANY.
 
 
-### -field PhySpecificInfo
+#### - PhySpecificInfo
 
 The attributes of the PHY referenced by the 
      <b>uPhyId</b> member. 
@@ -100,7 +100,7 @@ The attributes of the PHY referenced by the
      DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</b></mshelp:link> union.
 
 
-### -field dot11BSSID
+#### - dot11BSSID
 
 The media access control (MAC) address of the access point (AP) (for infrastructure BSS networks)
      or peer station (for independent BSS networks) that sent the 802.11 Beacon or Probe Response frame
@@ -108,7 +108,7 @@ The media access control (MAC) address of the access point (AP) (for infrastruct
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> structure.
 
 
-### -field dot11BSSType
+#### - dot11BSSType
 
 The BSS network type. 
      
@@ -119,20 +119,20 @@ The data type for this member is the
      <b>dot11_BSS_type_any</b> value.
 
 
-### -field lRSSI
+#### - lRSSI
 
 The received signal strength indicator (RSSI) value, in units of decibels referenced to 1.0
      milliwatts (dBm), as detected by the 802.11 station for the AP or peer station.
 
 
-### -field uLinkQuality
+#### - uLinkQuality
 
 The link quality value ranging from 0 through 100. A value of 100 specifies the highest link
      quality. For more information about determining the link quality, see 
      <a href="https://msdn.microsoft.com/a649114f-39d9-4cb1-9190-985dc7967268">Link Quality Operations</a>.
 
 
-### -field bInRegDomain
+#### - bInRegDomain
 
 This member specifies whether the AP or peer station is operating within the regulatory domain as
      identified by the input country string. To set this member, the miniport driver must use the following
@@ -175,30 +175,30 @@ Set the member to <b>TRUE</b> in all other cases.
 </li>
 </ul>
 
-### -field usBeaconPeriod
+#### - usBeaconPeriod
 
 The value of the Beacon Interval field from the 802.11 Beacon or Probe Response frame.
 
 
-### -field ullTimestamp
+#### - ullTimestamp
 
 The value of the Timestamp field from the 802.11 Beacon or Probe Response frame.
 
 
-### -field ullHostTimestamp
+#### - ullHostTimestamp
 
 The timestamp, resolved through a call to 
      <a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>, which
      records when the 802.11 station received the 802.11 Beacon or Probe Response frame.
 
 
-### -field usCapabilityInformation
+#### - usCapabilityInformation
 
 The value of the Capability Information field from the 802.11 Beacon or Probe Response
      frame.
 
 
-### -field uBufferLength
+#### - uBufferLength
 
 The length, in bytes, of the 
      <b>ucBuffer</b> array in the DOT11_BSS_ENTRY structure. 
@@ -206,7 +206,7 @@ The length, in bytes, of the
      <b>ucBuffer</b> array and must not contain any padding for alignment.
 
 
-### -field ucBuffer
+#### - ucBuffer
 
 The variable-length information elements (IEs) from the 802.11 Beacon or Probe Response frames.
      For each BSS, the IEs must be from the last Beacon or Probe Response frame received from that BSS
@@ -238,23 +238,23 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
-
-<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 <mshelp:link keywords="netvista.dot11_bss_entry_phy_specific_info" tabindex="0"><b>
    DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</b></mshelp:link>
 
-<mshelp:link keywords="netvista.oid_dot11_multi_domain_capability_implemented" tabindex="0">
-   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+<mshelp:link keywords="netvista.oid_dot11_multi_domain_capability_implemented" tabindex="0">
+   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</mshelp:link>
 
  
 

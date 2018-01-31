@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fdfcb8bc-bc42-4c34-ae19-b40401bea41e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements, wdf.wdfdmaenablersetmaximumscattergatherelements, PFN_WDFDMAENABLERSETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablersetmaximumscattergatherelements, WdfDmaEnablerSetMaximumScatterGatherElements method, DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, WdfDmaEnablerSetMaximumScatterGatherElements
+ms.keywords: WdfDmaEnablerSetMaximumScatterGatherElements method, kmdf.wdfdmaenablersetmaximumscattergatherelements, WdfDmaEnablerSetMaximumScatterGatherElements, wdf.wdfdmaenablersetmaximumscattergatherelements, PFN_WDFDMAENABLERSETMAXIMUMSCATTERGATHERELEMENTS, wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements, DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfDmaEnablerSetMaximumScatterGatherElements(
 
 
 
-### -param DmaEnabler [in]
+#### - DmaEnabler [in]
 
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>. 
 
 
-### -param MaximumFragments [in]
+#### - MaximumFragments [in]
 
 The maximum number of scatter/gather elements that the driver and device can support.   
 

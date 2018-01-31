@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05771d81-d2e1-4787-a190-e7ef4d9ebcc9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: ReleaseLock method, IWDFObject interface, wdf.iwdfobject_releaselock, ReleaseLock, IWDFObject interface, ReleaseLock method, umdf.iwdfobject_releaselock, IWDFObject::ReleaseLock, IWDFObject, wudfddi/IWDFObject::ReleaseLock, ReleaseLock method, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml
+ms.keywords: IWDFObject, IWDFObject interface, ReleaseLock method, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, ReleaseLock method, IWDFObject interface, ReleaseLock method, wdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock, IWDFObject::ReleaseLock, umdf.iwdfobject_releaselock, ReleaseLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.ReleaseLock
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

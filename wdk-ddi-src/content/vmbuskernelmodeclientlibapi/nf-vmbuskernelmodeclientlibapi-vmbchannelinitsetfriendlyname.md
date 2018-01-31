@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelInitSetFriendlyName
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -74,13 +74,13 @@ NTSTATUS
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for the channel to name.
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 The new friendly name of the channel.
 

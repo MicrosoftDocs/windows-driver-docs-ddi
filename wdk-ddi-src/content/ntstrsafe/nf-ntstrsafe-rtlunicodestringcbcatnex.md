@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c8b0428-98ce-452d-bdfa-212965962250
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringCbCatNEx, RtlUnicodeStringCbCatNEx function [Kernel-Mode Driver Architecture], safestrings_63518e2a-e301-4b39-ae83-39d72cbe75b6.xml, RtlUnicodeStringCbCatNEx, kernel.rtlunicodestringcbcatnex
+ms.keywords: kernel.rtlunicodestringcbcatnex, RtlUnicodeStringCbCatNEx, ntstrsafe/RtlUnicodeStringCbCatNEx, safestrings_63518e2a-e301-4b39-ae83-39d72cbe75b6.xml, RtlUnicodeStringCbCatNEx function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUnicodeStringCbCatNEx(
 
 
 
-### -param DestinationString [in, out]
+#### - DestinationString [in, out]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that contains the source string. This string will be added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>SourceString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbToAppend [in]
+#### - cbToAppend [in]
 
 The maximum number of bytes to append to the string that the <i>DestinationString</i> parameter describes.
 
 
-### -param RemainingString [out, optional]
+#### - RemainingString [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 

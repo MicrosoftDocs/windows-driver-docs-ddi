@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, wdf.wdfdeviceinitsetpowerinrush, WdfDeviceInitSetPowerInrush method, PFN_WDFDEVICEINITSETPOWERINRUSH, wdfdevice/WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush, kmdf.wdfdeviceinitsetpowerinrush
+ms.keywords: WdfDeviceInitSetPowerInrush method, DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, wdfdevice/WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush, PFN_WDFDEVICEINITSETPOWERINRUSH, wdf.wdfdeviceinitsetpowerinrush, kmdf.wdfdeviceinitsetpowerinrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfDeviceInitSetPowerInrush(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
@@ -98,9 +98,9 @@ Calling <b>WdfDeviceInitSetPowerInrush</b> from a filter driver has no effect. F
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
  
 

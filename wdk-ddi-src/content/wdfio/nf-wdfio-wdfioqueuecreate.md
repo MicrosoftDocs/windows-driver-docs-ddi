@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cd7e993e-1381-4b0c-b046-716e839dbb62
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueCreate, DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, kmdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate, wdf.wdfioqueuecreate, WdfIoQueueCreate method, PFN_WDFIOQUEUECREATE
+ms.keywords: WdfIoQueueCreate, wdfio/WdfIoQueueCreate, wdf.wdfioqueuecreate, kmdf.wdfioqueuecreate, PFN_WDFIOQUEUECREATE, WdfIoQueueCreate method, DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfIoQueueCreate(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object that the queue will be associated with. 
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a caller-allocated <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a> structure.
 
 
-### -param QueueAttributes [in, optional]
+#### - QueueAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
-### -param Queue [out, optional]
+#### - Queue [out, optional]
 
 A pointer to a location that receives a handle to a framework queue object.
 
@@ -198,15 +198,15 @@ For more information about <b>WdfIoQueueCreate</b>, see <a href="https://docs.mi
 
 ## -see-also
 
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a>
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
+<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
-
-<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6dacd330-45f1-46f8-b2bf-2006c89f664f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11EXT_IHV_HANDLERS, _DOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS structure [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_HANDLERS, PDOT11EXT_IHV_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11EXT_IHV_HANDLERS, netvista.dot11ext_ihv_handlers, wlanihv/PDOT11EXT_IHV_HANDLERS, Native_802.11_data_types_e072dcd6-e41c-4c08-b958-9302f62f02c1.xml, wlanihv/DOT11EXT_IHV_HANDLERS
+ms.keywords: "_DOT11EXT_IHV_HANDLERS, wlanihv/DOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS structure [Network Drivers Starting with Windows Vista], *PDOT11EXT_IHV_HANDLERS, wlanihv/PDOT11EXT_IHV_HANDLERS, Native_802.11_data_types_e072dcd6-e41c-4c08-b958-9302f62f02c1.xml, PDOT11EXT_IHV_HANDLERS, PDOT11EXT_IHV_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_handlers, DOT11EXT_IHV_HANDLERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -241,64 +241,64 @@ The IHV handler functions are a set of callback functions supported by the IHV E
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
-
-<mshelp:link keywords="netvista.dot11extihvperformcapabilitymatch" tabindex="0"><i>
-   Dot11ExtIhvPerformCapabilityMatch</i></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_control.md">Dot11ExtIhvControl Function</a>
 
 <mshelp:link keywords="netvista.dot11extihvisuirequestpending" tabindex="0"><i>
    Dot11ExtIhvIsUIRequestPending</i></mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extihvcreatediscoveryprofiles" tabindex="0"><i>
-   Dot11ExtIhvCreateDiscoveryProfiles</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+<mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
+   Dot11ExtIhvProcessUIResponse</i></mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extihvsendpacketcompletion" tabindex="0"><i>
+   Dot11ExtIhvSendPacketCompletion</i></mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
+   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+
+<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
+   Extensibility Functions</mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extihvstoppostassociate" tabindex="0"><i>
+   Dot11ExtIhvStopPostAssociate</i></mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
+   Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
 
 <mshelp:link keywords="netvista.dot11extihvprocesssessionchange" tabindex="0"><i>
    Dot11ExtIhvProcessSessionChange</i></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_service.md">Dot11ExtIhvDeinitService</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
+<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
+   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvsendpacketcompletion" tabindex="0"><i>
-   Dot11ExtIhvSendPacketCompletion</i></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
-   Dot11ExtIhvProcessUIResponse</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
 
 <mshelp:link keywords="netvista.dot11extihvreceiveindication" tabindex="0"><i>
    Dot11ExtIhvReceiveIndication</i></mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
-
-<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
-   Extensibility Functions</mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_control.md">Dot11ExtIhvControl Function</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
 
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
    Functions</mshelp:link>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
-<mshelp:link keywords="netvista.dot11extihvstoppostassociate" tabindex="0"><i>
-   Dot11ExtIhvStopPostAssociate</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
 
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+<mshelp:link keywords="netvista.dot11extihvcreatediscoveryprofiles" tabindex="0"><i>
+   Dot11ExtIhvCreateDiscoveryProfiles</i></mshelp:link>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+<mshelp:link keywords="netvista.dot11extihvperformcapabilitymatch" tabindex="0"><i>
+   Dot11ExtIhvPerformCapabilityMatch</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
 
  
 

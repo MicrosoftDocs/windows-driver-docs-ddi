@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b0ca123-8847-4dc3-b0f5-9788104381ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/PVP_SCATTER_GATHER_ELEMENT, _VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT structure [Display Devices], Video_Structs_eacc94d7-8de2-4847-b843-3ae56bbca6d5.xml, video/VP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT structure pointer [Display Devices], display.vp_scatter_gather_element, VP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT
+ms.keywords: video/PVP_SCATTER_GATHER_ELEMENT, Video_Structs_eacc94d7-8de2-4847-b843-3ae56bbca6d5.xml, PVP_SCATTER_GATHER_ELEMENT, video/VP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT structure pointer [Display Devices], _VP_SCATTER_GATHER_ELEMENT, display.vp_scatter_gather_element, VP_SCATTER_GATHER_ELEMENT structure [Display Devices], *PVP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VP_SCATTER_GATHER_ELEMENT
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT"
+req.typenames: VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _VP_SCATTER_GATHER_ELEMENT {
 
 
 
-### -field Address
+#### - Address
 
 Specifies the logical address of one scatter/gather element.
 
 
-### -field Length
+#### - Length
 
 Specifies the length, in bytes, of the scatter/gather element.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 

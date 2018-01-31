@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: d3c164a6-4830-4f1f-9fa5-5cd61e796e31
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSELF_ID_MORE, 1394/SELF_ID_MORE, SELF_ID_MORE structure [Buses], 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, IEEE.self_id_more, 1394/PSELF_ID_MORE, SELF_ID_MORE, *PSELF_ID_MORE, _SELF_ID_MORE, PSELF_ID_MORE structure pointer [Buses]
+ms.keywords: "_SELF_ID_MORE, PSELF_ID_MORE structure pointer [Buses], PSELF_ID_MORE, *PSELF_ID_MORE, 1394/SELF_ID_MORE, 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, 1394/PSELF_ID_MORE, SELF_ID_MORE structure [Buses], SELF_ID_MORE, IEEE.self_id_more"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SELF_ID_MORE
 product: Windows
 targetos: Windows
-req.typenames: "*PSELF_ID_MORE, SELF_ID_MORE"
+req.typenames: SELF_ID_MORE, *PSELF_ID_MORE
 ---
 
 # _SELF_ID_MORE structure
@@ -81,17 +81,17 @@ typedef struct _SELF_ID_MORE {
 
 
 
-### -field SID_Phys_ID
+#### - SID_Phys_ID
 
 Specifies the device node number. This member specifies bits 0-10 of the node address. This member contains bits 0-5 of byte 0 of the self ID packet. 
 
 
-### -field SID_Packet_ID
+#### - SID_Packet_ID
 
 Must be PHY_PACKET_ID_SELF_ID. This member specifies bits 0-10 of the node address. This member contains bits 6-7 of byte 0 of the self ID packet. 
 
 
-### -field SID_PortA
+#### - SID_PortA
 
 Specifies port status. Possible values are:
 
@@ -106,22 +106,22 @@ SELF_ID_NOT_PRESENT
 This member contains bits 0-1 of byte 1 of the self ID packet. 
 
 
-### -field SID_Reserved2
+#### - SID_Reserved2
 
 Reserved. This member contains bits 2-3 of byte 1 of the self ID packet. 
 
 
-### -field SID_Sequence
+#### - SID_Sequence
 
 Specifies the packet number in sequence (the first SELF_ID_MORE packet is packet zero). This member contains bits 4-5 of byte 1 of the self ID packet. 
 
 
-### -field SID_One
+#### - SID_One
 
 Always a 1. This member contains bit 6 of byte 1 of the self ID packet. 
 
 
-### -field SID_PortE
+#### - SID_PortE
 
 Specifies port status. Possible values are:
 
@@ -136,7 +136,7 @@ SELF_ID_NOT_PRESENT
 This member specifies bits 0-1 of byte 2 of the self ID packet. 
 
 
-### -field SID_PortD
+#### - SID_PortD
 
 Specifies port status. Possible values are:
 
@@ -151,7 +151,7 @@ SELF_ID_NOT_PRESENT
 This member specifies bits 2-3 of byte 2 of the self ID packet. 
 
 
-### -field SID_PortC
+#### - SID_PortC
 
 Specifies port status. Possible values are:
 
@@ -166,7 +166,7 @@ SELF_ID_NOT_PRESENT
 This member contains bits 4-5 of byte 2 of the self ID packet. 
 
 
-### -field SID_PortB
+#### - SID_PortB
 
 Specifies port status. Possible values are:
 
@@ -181,17 +181,17 @@ SELF_ID_NOT_PRESENT
 This member contains bits 6-7 of byte 2 of the self ID packet. 
 
 
-### -field SID_More_Packets
+#### - SID_More_Packets
 
 One if this packet will be followed by more SELF_ID_MORE packets, zero otherwise. This member contains bit 0 of byte 3 of the self ID packet. 
 
 
-### -field SID_Reserved3
+#### - SID_Reserved3
 
 Reserved. This member contains bit 1 of byte 3 of the self ID packet.
 
 
-### -field SID_PortH
+#### - SID_PortH
 
 Specifies port status. Possible values are:
 
@@ -206,7 +206,7 @@ SELF_ID_NOT_PRESENT
 This member contains bits 2-3 of byte 3 of the self ID packet. 
 
 
-### -field SID_PortG
+#### - SID_PortG
 
 Specifies port status. Possible values are:
 
@@ -221,7 +221,7 @@ SELF_ID_NOT_PRESENT
 This member contains bits 4-5 of byte 3 of the self ID packet. 
 
 
-### -field SID_PortF
+#### - SID_PortF
 
 Specifies port status. Possible values are:
 

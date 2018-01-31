@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7ebe58d-8e87-437f-b556-408610fa654e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, WWAN_SMS_STATUS, wwan/WWAN_SMS_STATUS, PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SMS_STATUS, netvista.wwan_sms_status, wwan/PWWAN_SMS_STATUS, PWWAN_SMS_STATUS, *PWWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WWAN_SMS_STATUS, *PWWAN_SMS_STATUS, WWAN_SMS_STATUS, PWWAN_SMS_STATUS, wwan/PWWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], _WWAN_SMS_STATUS, WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, netvista.wwan_sms_status, PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _WWAN_SMS_STATUS {
 
 
 
-### -field uFlag
+#### - uFlag
 
 A bitmap of flags that represent the status of the message store on the MB device. The values for 
      <b>uFlag</b> are defined in the following table.
@@ -121,7 +121,7 @@ Miniport drivers must send an unsolicited event to the MB Service whenever a fla
      drivers do not need to send an unsolicited event when a flag is cleared (reset).
 
 
-### -field MessageIndex
+#### - MessageIndex
 
 This is the index of the newly arrived message or the recently arrived message in case of a 
      <i>query</i> response.

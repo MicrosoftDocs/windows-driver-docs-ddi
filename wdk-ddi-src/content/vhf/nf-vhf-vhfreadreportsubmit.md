@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: DCC4EB4C-B9A0-4E25-B3BD-4CAB07022A7B
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.vhfreadreportsubmit, VhfReadReportSubmit method [Human Input Devices], vhf/VhfReadReportSubmit, VhfReadReportSubmit
+ms.keywords: VhfReadReportSubmit, hid.vhfreadreportsubmit, VhfReadReportSubmit method [Human Input Devices], vhf/VhfReadReportSubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS VhfReadReportSubmit(
 
 
 
-### -param VhfHandle [in]
+#### - VhfHandle [in]
 
 A handle to a virtual HID device that your HID source driver received in the previous call to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a>.
 
 
-### -param HidTransferPacket [in]
+#### - HidTransferPacket [in]
 
 A pointer to a <a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure that describes the HID report.
 

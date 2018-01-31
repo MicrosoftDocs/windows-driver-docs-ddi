@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: d0c66bde-cd66-4141-b985-8eb28af70a3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: TfIata, Codabar, pointofservicecommontypes/IssnAdd5, Gs1DatabarType2, pointofservicecommontypes/MicroQr, pointofservicecommontypes/InfoMail, Us4StateFics, IsmnAdd2, Ean13Add2, Ean99Add5, pointofservicecommontypes/Ismn, pointofservicecommontypes/Code32, Ccc, pointofservicecommontypes/Eanv, pointofservicecommontypes/UpceAdd5, pointofservicecommontypes/AusPost, pointofservicecommontypes/UpcaAdd5, Tlc39, pointofservicecommontypes/UpcCoupon, ItalianPost39, SwedenPost, Micr, pointofservicecommontypes/UpceAdd2, pointofservicecommontypes/Plessey, pointofservicecommontypes/TfInd, Code128, UpceAdd2, Code32, Pdf417, pointofservicecommontypes/Ean99, pointofservicecommontypes/Issn, Eanv, Gs1DWCode, pointofservicecommontypes/Code128, pointofservicecommontypes/ChinaPost, pointofservicecommontypes/Ean13Add2, UsPlanet, TfDis, pointofservicecommontypes/CodablockA, pointofservicecommontypes/UpcaAdd2, pointofservicecommontypes/IssnAdd2, pointofservicecommontypes/ItalianPost25, pointofservicecommontypes/DataCode, KoreanPost, TfMat, pointofservicecommontypes/IsmnAdd5, Issn, Msi, pointofservicecommontypes/Upca, Pzn, Ccab, pointofservicecommontypes/Tlc39, Ean8Add5, pointofservicecommontypes/Telepen, pointofservicecommontypes/Ean8Add5, Maxicode, pointofservicecommontypes/EanvAdd2, UsIntelligentPkg, TfStd, CanPost, JapanPost, pointofservicecommontypes/OcrA, pointofservicecommontypes/Isbn, pointofservicecommontypes/Trioptic39, pointofservicecommontypes/Sisac, pointofservicecommontypes/DutchKix, pointofservicecommontypes/Ean99Add5, pointofservicecommontypes/Pdf417, UsIntelligent, pointofservicecommontypes/Qr, pointofservicecommontypes/HanXin, pointofservicecommontypes/IsmnAdd2, Ean13Add5, pointofservicecommontypes/TfIata, _BarcodeSymbology, Isbn, pointofservicecommontypes/Code39Ex, pointofservicecommontypes/Isbt, Code93, Code11, EanvAdd2, pointofservicecommontypes/KoreanPost, pointofservicecommontypes/UkPost, PosUnknown, HanXin, Gs1DatabarType3, pointofservicecommontypes/IsbnAdd5, UpcaAdd5, pointofservicecommontypes/BarcodeSymbology, Code16k, pointofservicecommontypes/Ean13, pointofservicecommontypes/Ean13Add5, pointofservicecommontypes/Msi, pointofservicecommontypes/Aztec, pointofservicecommontypes/Ean8, Isbt, pointofservicecommontypes/ExtendedBase, pointofservicecommontypes/Codablock128, pointofservicecommontypes/TfMat, Ean99Add2, pointofservicecommontypes/Ccc, Ean13, pointofservicecommontypes/EanvAdd5, pointofservicecommontypes/Gs1DatabarType2, ChinaPost, Sisac, Upce, Code93Ex, DataMatrix, pointofservicecommontypes/CodablockF, pointofservicecommontypes/Gs1128, Telepen, pointofservicecommontypes/OcrB, pointofservicecommontypes/Ean8Add2, Code49, pointofservicecommontypes/UsPostNet, pointofservicecommontypes/CanPost, pointofservicecommontypes/Code11, pointofservicecommontypes/SwedenPost, pointofservicecommontypes/TfDis, Gs1128, OcrB, UkPost, MicroQr, Plessey, EanvAdd5, BarcodeSymbology, IssnAdd5, TfInd, Gs1128Coupon, pointofservicecommontypes/UccEan128, Aztec, pointofservicecommontypes/MicroPdf417, pointofservicecommontypes/MsTag, pointofservicecommontypes/Code93, pointofservicecommontypes/Ean99Add2, pointofservicecommontypes/PosUnknown, pointofservicecommontypes/UsIntelligent, Code39, DataCode, pointofservicecommontypes/Gs1DatabarType3, pointofservicecommontypes/Codabar, pointofservicecommontypes/UsIntelligentPkg, InfoMail, Ismn, pointofservicecommontypes/Gs1128Coupon, pointofservicecommontypes/Gs1DatabarType1, Ean99, Ean8, UsPostNet, pointofservicecommontypes/Upce, MicroPdf417, Upca, IsmnAdd5, pointofservicecommontypes/ItalianPost39, pointofservicecommontypes/UsPlanet, ItalianPost25, UpcCoupon, pointofservicecommontypes/Code49, Trioptic39, pointofservicecommontypes/DataMatrix, Code39Ex, pointofservicecommontypes/Maxicode, Ean8Add2, pointofservicecommontypes/TfStd, CodablockA, OcrA, pointofservicecommontypes/Code93Ex, UpcaAdd2, pointofservicecommontypes/Ccab, pointofservicecommontypes/Gs1DWCode, pointofservicecommontypes/Code16k, AusPost, UpceAdd5, pointofservicecommontypes/Pzn, Gs1DatabarType1, IsbnAdd5, DutchKix, pointofservicecommontypes/TfInt, pointofservicecommontypes/Micr, Codablock128, pointofservicecommontypes/Code39, MsTag, BarcodeSymbology enumeration, Qr, IssnAdd2, pointofservicecommontypes/JapanPost, CodablockF, pointofservicecommontypes/Us4StateFics, ExtendedBase, UccEan128, TfInt, pos.barcodesymbology
+ms.keywords: SwedenPost, pointofservicecommontypes/Us4StateFics, Ean13Add5, BarcodeSymbology, Sisac, MsTag, Tlc39, pointofservicecommontypes/UsPlanet, Codabar, Gs1128, pos.barcodesymbology, IsbnAdd5, pointofservicecommontypes/TfInd, pointofservicecommontypes/Gs1DatabarType3, pointofservicecommontypes/UccEan128, pointofservicecommontypes/Msi, Eanv, pointofservicecommontypes/Isbn, pointofservicecommontypes/IssnAdd5, pointofservicecommontypes/EanvAdd5, Ean13, pointofservicecommontypes/Sisac, pointofservicecommontypes/UpceAdd2, pointofservicecommontypes/Code39, pointofservicecommontypes/Codablock128, _BarcodeSymbology, pointofservicecommontypes/MicroQr, UsPostNet, pointofservicecommontypes/UsIntelligent, pointofservicecommontypes/Micr, pointofservicecommontypes/BarcodeSymbology, Msi, pointofservicecommontypes/Code16k, UsIntelligentPkg, pointofservicecommontypes/Ean13Add5, UpceAdd2, pointofservicecommontypes/InfoMail, ItalianPost25, pointofservicecommontypes/IssnAdd2, pointofservicecommontypes/IsmnAdd2, Code39Ex, UsPlanet, pointofservicecommontypes/Ean99Add2, pointofservicecommontypes/CanPost, pointofservicecommontypes/Ean99Add5, Ean13Add2, Plessey, Aztec, IssnAdd2, TfMat, pointofservicecommontypes/Gs1128Coupon, pointofservicecommontypes/Gs1DatabarType1, pointofservicecommontypes/Code32, Ean8Add2, pointofservicecommontypes/Code49, MicroQr, pointofservicecommontypes/IsbnAdd5, Pdf417, pointofservicecommontypes/UpcaAdd5, OcrA, UpcaAdd5, pointofservicecommontypes/Ccab, pointofservicecommontypes/Code93, pointofservicecommontypes/TfIata, pointofservicecommontypes/Codabar, HanXin, Gs1DWCode, OcrB, pointofservicecommontypes/Gs1128, UccEan128, Ccc, pointofservicecommontypes/UpcaAdd2, pointofservicecommontypes/Isbt, Code16k, pointofservicecommontypes/OcrB, Upca, Ean99Add5, pointofservicecommontypes/DutchKix, pointofservicecommontypes/Eanv, pointofservicecommontypes/CodablockF, Ean8, Maxicode, pointofservicecommontypes/Maxicode, ChinaPost, pointofservicecommontypes/Ean8, pointofservicecommontypes/UkPost, IsmnAdd2, pointofservicecommontypes/ExtendedBase, pointofservicecommontypes/Ean8Add5, pointofservicecommontypes/ItalianPost25, pointofservicecommontypes/Ean13, CodablockA, pointofservicecommontypes/Qr, pointofservicecommontypes/UpceAdd5, pointofservicecommontypes/TfInt, pointofservicecommontypes/DataCode, UpceAdd5, Isbt, DutchKix, IsmnAdd5, pointofservicecommontypes/JapanPost, Issn, DataMatrix, pointofservicecommontypes/EanvAdd2, pointofservicecommontypes/Ccc, AusPost, pointofservicecommontypes/CodablockA, pointofservicecommontypes/OcrA, MicroPdf417, pointofservicecommontypes/Code39Ex, Upce, CanPost, Ismn, Gs1DatabarType3, pointofservicecommontypes/SwedenPost, BarcodeSymbology enumeration, pointofservicecommontypes/PosUnknown, Code39, pointofservicecommontypes/Ean13Add2, pointofservicecommontypes/UpcCoupon, pointofservicecommontypes/Ismn, pointofservicecommontypes/KoreanPost, ItalianPost39, pointofservicecommontypes/HanXin, pointofservicecommontypes/Upca, pointofservicecommontypes/Ean99, Gs1DatabarType1, Code93, IssnAdd5, pointofservicecommontypes/Ean8Add2, Gs1DatabarType2, TfStd, pointofservicecommontypes/UsIntelligentPkg, UpcaAdd2, pointofservicecommontypes/MsTag, UsIntelligent, InfoMail, Code128, pointofservicecommontypes/ChinaPost, pointofservicecommontypes/UsPostNet, PosUnknown, TfInt, pointofservicecommontypes/Aztec, Code93Ex, Qr, Code32, pointofservicecommontypes/Plessey, pointofservicecommontypes/MicroPdf417, Gs1128Coupon, pointofservicecommontypes/Tlc39, pointofservicecommontypes/Upce, TfDis, Code11, Ean8Add5, Ean99, pointofservicecommontypes/TfDis, Trioptic39, pointofservicecommontypes/AusPost, pointofservicecommontypes/Issn, TfIata, pointofservicecommontypes/TfStd, EanvAdd2, pointofservicecommontypes/Telepen, Micr, Isbn, Ean99Add2, pointofservicecommontypes/Trioptic39, pointofservicecommontypes/Code128, pointofservicecommontypes/TfMat, UpcCoupon, pointofservicecommontypes/IsmnAdd5, KoreanPost, EanvAdd5, pointofservicecommontypes/Gs1DatabarType2, pointofservicecommontypes/DataMatrix, TfInd, Pzn, pointofservicecommontypes/ItalianPost39, pointofservicecommontypes/Pzn, JapanPost, pointofservicecommontypes/Code93Ex, Ccab, Telepen, Us4StateFics, UkPost, Codablock128, DataCode, Code49, ExtendedBase, pointofservicecommontypes/Code11, CodablockF, pointofservicecommontypes/Gs1DWCode, pointofservicecommontypes/Pdf417
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -160,472 +160,472 @@ typedef enum _BarcodeSymbology {
 
 
 
-### -field PosUnknown
+#### - PosUnknown
 
 Unknown symbology.
 
 
-### -field Ean8
+#### - Ean8
 
 The European Article Number (EAN) 8-digit symbology. Used on very small retail items, most commonly used in Europe and Australia. 
 
 
-### -field Ean8Add2
+#### - Ean8Add2
 
 The EAN 8 with 2-digit supplement symbology.
 
 
-### -field Ean8Add5
+#### - Ean8Add5
 
 The EAN 8 with 2-digit supplement symbology. 
 
 
-### -field Eanv
+#### - Eanv
 
 The EAN Velocity symbology. 
 
 
-### -field EanvAdd2
+#### - EanvAdd2
 
 The EAN Velocity with 2-digit supplement symbology. 
 
 
-### -field EanvAdd5
+#### - EanvAdd5
 
 The EAN Velocity with 5-digit supplement symbology. 
 
 
-### -field Ean13
+#### - Ean13
 
 The EAN 13 symbology most commonly used in Europe and Australia for numbering retail products. 
 
 
-### -field Ean13Add2
+#### - Ean13Add2
 
 The EAN with 2-digit supplement symbology. 
 
 
-### -field Ean13Add5
+#### - Ean13Add5
 
 The EAN with 5-digit supplement symbology. 
 
 
-### -field Isbn
+#### - Isbn
 
 The International Standard Book Number (ISBN), also known as Bookland or Bookland EAN, symbology. 
 
 
-### -field IsbnAdd5
+#### - IsbnAdd5
 
 The ISBN with 5_digit supplement symbology. 
 
 
-### -field Ismn
+#### - Ismn
 
 The International Standard Music Number (ISMN) symbology. 
 
 
-### -field IsmnAdd2
+#### - IsmnAdd2
 
 The ISMN with 2_digit supplement symbology. 
 
 
-### -field IsmnAdd5
+#### - IsmnAdd5
 
 The ISMN with 5_digit supplement symbology. 
 
 
-### -field Issn
+#### - Issn
 
 The International Standard Serial Number (ISSN) symbology. 
 
 
-### -field IssnAdd2
+#### - IssnAdd2
 
 The ISSN with 2_digit supplement symbology. 
 
 
-### -field IssnAdd5
+#### - IssnAdd5
 
 The ISSN with 5_digit supplement symbology. 
 
 
-### -field Ean99
+#### - Ean99
 
 The EAN99 symbology, a variation of EAN13 with country code 99 used for store coupons. 
 
 
-### -field Ean99Add2
+#### - Ean99Add2
 
 The EAN99 with 2_digit supplement symbology. 
 
 
-### -field Ean99Add5
+#### - Ean99Add5
 
 The EAN99 with 5_digit supplement symbology. 
 
 
-### -field Upca
+#### - Upca
 
 The Universal Product Code (UPC) version A symbology, a 12-digit universal product code used on most retail items sold in the United States of America and Canada. 
 
 
-### -field UpcaAdd2
+#### - UpcaAdd2
 
 The UPCA with 2-digit supplemental symbology. 
 
 
-### -field UpcaAdd5
+#### - UpcaAdd5
 
 The UPCA with 5-digit supplemental symbology. 
 
 
-### -field Upce
+#### - Upce
 
 The UPC version E symbology, a smaller version of the UPC-A code for use on small products. 
 
 
-### -field UpceAdd2
+#### - UpceAdd2
 
 The UPC-E with 2-digit supplement symbology. 
 
 
-### -field UpceAdd5
+#### - UpceAdd5
 
 The UPC-E with 5-digit supplemental symbology. 
 
 
-### -field UpcCoupon
+#### - UpcCoupon
 
 The UPC Coupon with supplemental symbology. 
 
 
-### -field TfStd
+#### - TfStd
 
 The Standard 2 of 5 symbology. 
 
 
-### -field TfDis
+#### - TfDis
 
 The Discreet 2 of 5 symbology. 
 
 
-### -field TfInt
+#### - TfInt
 
 The Interleaved 2 of 5 (ITF) symbology, developed for the use on outer cartons or cases containing a number of identical retail products. 
 
 
-### -field TfInd
+#### - TfInd
 
 The Industrial 2 of 5 symbology. 
 
 
-### -field TfMat
+#### - TfMat
 
 The 2 of 5 Matrix symbology. 
 
 
-### -field TfIata
+#### - TfIata
 
 The 2 of 5 International Air Transportation Association (IATA) symbology. 
 
 
-### -field Gs1DatabarType1
+#### - Gs1DatabarType1
 
 The GS1 Databar Omnidirectional, GS1 Databar Stacked Omnidirectional, GS1 Databar Stacked, or GS1 Databar Truncated symbology. 
 
 
-### -field Gs1DatabarType2
+#### - Gs1DatabarType2
 
 The GS1 DataBar Limited or RSS Limited symbology. 
 
 
-### -field Gs1DatabarType3
+#### - Gs1DatabarType3
 
 The GS1 Databar Expanded, GS1 Databar Expanded Stacked, or RSS Expanded symbology. 
 
 
-### -field Code39
+#### - Code39
 
 Symbology used worldwide, for instance by the United States Department of Defense and the Health Industry Bar Code Council (also known as Code 3 of 9, LOGMARS, USS Code 39, USS 39, USD-3, and 3 of 9). 
 
 
-### -field Code39Ex
+#### - Code39Ex
 
 The Code 39 Extended symbology. Adds full ASCII support. 
 
 
-### -field Trioptic39
+#### - Trioptic39
 
 The Trioptic39 symbology is used for Tri-Optic media storage devices. 
 
 
-### -field Code32
+#### - Code32
 
 The Italian pharmacy code symbology; a variant of Code32. 
 
 
-### -field Pzn
+#### - Pzn
 
 The Pharma-Zentral-Nummer symbology. 
 
 
-### -field Code93
+#### - Code93
 
 The Code93 symbology. 
 
 
-### -field Code93Ex
+#### - Code93Ex
 
 The Code93 extended symbology. 
 
 
-### -field Code128
+#### - Code128
 
 The Code128 symbology is one of the most commonly used world-wide because of its high capability and reliability. 
 
 
-### -field Gs1128
+#### - Gs1128
 
 These symbologies are of the most complex type, and are utilized for internal rather than retail use. They are intended to include both identification and supplementary information within one symbology. The EAN-128 is used to represent Serial Shipping Container Codes (AI=00). 
 
 
-### -field Gs1128Coupon
+#### - Gs1128Coupon
 
 The Gs128Coupon symbology. 
 
 
-### -field UccEan128
+#### - UccEan128
 
 Duplicate of GS1 128 (UCC/EAN is the old Name for GS1 128). 
 
 
-### -field Sisac
+#### - Sisac
 
 The Serials Industry Systems Advisory Committee (SISAC) symbology. 
 
 
-### -field Isbt
+#### - Isbt
 
 The International Society of Blood Transfusion symbology. 
 
 
-### -field Codabar
+#### - Codabar
 
 This is an older type of barcode most often seen in libraries, blood banks, photo labs and FedEx air bills. 
 
 
-### -field Code11
+#### - Code11
 
 This symbology is used for labeling telecommunications equipment. 
 
 
-### -field Msi
+#### - Msi
 
 This symbology was developed by MSI Data Corporation, also known as Modified Plessey. Used to mark retail shelves for inventory control. 
 
 
-### -field Plessey
+#### - Plessey
 
 The Plessey symbology, a continuous, arbitrary length barcode symbology for encoding hexadecimal data. 
 
 
-### -field Telepen
+#### - Telepen
 
 The Telepen symbology. 
 
 
-### -field Code16k
+#### - Code16k
 
 The Code16k symbology. 
 
 
-### -field CodablockA
+#### - CodablockA
 
 The CodablockA symbology. For more information, see the Association for Automatic Identification and Mobility(AIM) specification(http://www.aimglobal.org/).
 
 
-### -field CodablockF
+#### - CodablockF
 
 The CodablockF symbology. 
 
 
-### -field Codablock128
+#### - Codablock128
 
 The Codablock128 symbology. 
 
 
-### -field Code49
+#### - Code49
 
 The Code49 symbology contains between 2 and 8 rows, each separated by a separator bar. Each row contains 16 wordsand a start and stop character. The last row also contains the number of rows in the symbol and the check digit characters. 
 
 
-### -field Aztec
+#### - Aztec
 
 The Aztec symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317296">ISO Spec 24778</a>. 
 
 
-### -field DataCode
+#### - DataCode
 
 The DataCode symbology. 
 
 
-### -field DataMatrix
+#### - DataMatrix
 
 This symbology is good for small codes and will store large amounts of data. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkID=317298">ISO Spec 16022</a>. 
 
 
-### -field HanXin
+#### - HanXin
 
 The HanXin symbology. For more information, see the Association for Automatic Identification and Mobility (AIM) specification (http://www.aimglobal.org/).
 
 
-### -field Maxicode
+#### - Maxicode
 
 This symbology is used for the United States Postal Service and is fixed length for automatic package sorting. 
 
 
-### -field MicroPdf417
+#### - MicroPdf417
 
 The MicroPdf417 symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317299">ISO Spec 24728</a>. 
 
 
-### -field MicroQr
+#### - MicroQr
 
 The MicroQr symbology, a subset of the QR symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317300">ISO Spec 18004</a>. 
 
 
-### -field Pdf417
+#### - Pdf417
 
 The Pdf417 symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317299">ISO Spec 24728</a>. 
 
 
-### -field Qr
+#### - Qr
 
 The Qr symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317300">ISO Spec 18004</a>. 
 
 
-### -field MsTag
+#### - MsTag
 
 The Microsoft symbology. 
 
 
-### -field Ccab
+#### - Ccab
 
 The Composite A / Composite B symbology. 
 
 
-### -field Ccc
+#### - Ccc
 
 The Composite C symbology. 
 
 
-### -field Tlc39
+#### - Tlc39
 
 The Telecommunications Industry Forum linked symbology. 
 
 
-### -field AusPost
+#### - AusPost
 
 The Australian Post symbology. 
 
 
-### -field CanPost
+#### - CanPost
 
 The Canadian Postal Service symbology. 
 
 
-### -field ChinaPost
+#### - ChinaPost
 
 The Chinese Postal Service symbology. 
 
 
-### -field DutchKix
+#### - DutchKix
 
 The Dutch Postal Service symbology. 
 
 
-### -field InfoMail
+#### - InfoMail
 
 The InfoMail symbology. 
 
 
-### -field ItalianPost25
+#### - ItalianPost25
 
 The Italian Postal Service 2 of 5 symbology. 
 
 
-### -field ItalianPost39
+#### - ItalianPost39
 
 The Italian Postal Service 3 of 9 symbology. 
 
 
-### -field JapanPost
+#### - JapanPost
 
 The Japanese Postal Service symbology. 
 
 
-### -field KoreanPost
+#### - KoreanPost
 
 The Korean Postal Service symbology. 
 
 
-### -field SwedenPost
+#### - SwedenPost
 
 The Swedish Postal Service symbology. 
 
 
-### -field UkPost
+#### - UkPost
 
 The British Post Office symbology. Also known as UK Postal, BPO4, Royal Mail Code. 
 
 
-### -field UsIntelligent
+#### - UsIntelligent
 
 The United States Postal Service (USPS) Intelligent Mail symbology. 
 
 
-### -field UsIntelligentPkg
+#### - UsIntelligentPkg
 
 The United States Postal Service (USPS) Intelligent Package symbology. 
 
 
-### -field UsPlanet
+#### - UsPlanet
 
 The US Postal Alpha Numeric Encoding Technique, used by the USPS). 
 
 
-### -field UsPostNet
+#### - UsPostNet
 
 The United States Postal Service symbology used to automatically sort mail. 
 
 
-### -field Us4StateFics
+#### - Us4StateFics
 
 The US 4-State Flat Identification Code Sort symbology. 
 
 
-### -field OcrA
+#### - OcrA
 
 The OCR-A symbology. OCR-A is a widely used font in a variety of industries. The characters appear more block-like than other OCR fonts. The characters are printed in a format that can be read by both machines and humans and can be directly marked on parts. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?LinkId=317306">ISO 1073-1 specification</a>. 
 
 
-### -field OcrB
+#### - OcrB
 
 The OCR-B symbology is a widely used font in conjunction with UPC/EAN symbology. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?LinkId=317306">ISO 1073-1 specification</a>. 
 
 
-### -field Micr
+#### - Micr
 
 The Micr symbology, a font commonly used in high speed document processing applications, such as check processing. 
 
 
-### -field Gs1DWCode
+#### - Gs1DWCode
 
 The Gs1DWCode symbology, an invisible  digital watermark that  covers the entire product packaging and can be detected by a special algorithm using an image from a suitable camera lens.
 
 
-### -field ExtendedBase
+#### - ExtendedBase
 
 If greater than or equal to this type, the device has returned an OEM or undefined symbology. 
 

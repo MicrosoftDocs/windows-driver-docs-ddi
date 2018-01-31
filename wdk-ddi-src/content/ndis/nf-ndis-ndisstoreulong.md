@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4fb0b803-1fe2-409b-8543-dddc5df67fe4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, NdisStoreUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisstoreulong, ndis/NdisStoreUlong
+ms.keywords: ndis/NdisStoreUlong, NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -75,7 +75,7 @@ VOID NdisStoreUlong(
 TBD
 
 
-### -param Value [in]
+#### - Value [in]
 
 The value to be stored.
 

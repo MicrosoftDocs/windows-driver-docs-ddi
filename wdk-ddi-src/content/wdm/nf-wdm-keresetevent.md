@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 90be986b-e63e-4ae3-a0f3-87f6f58583dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeResetEvent routine [Kernel-Mode Driver Architecture], wdm/KeResetEvent, kernel.keresetevent, KeResetEvent, k105_d2a27b37-56af-46a4-8a48-da507261f77a.xml
+ms.keywords: KeResetEvent routine [Kernel-Mode Driver Architecture], KeResetEvent, k105_d2a27b37-56af-46a4-8a48-da507261f77a.xml, wdm/KeResetEvent, kernel.keresetevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ LONG KeResetEvent(
 
 
 
-### -param Event [in, out]
+#### - Event [in, out]
 
 A pointer to an initialized dispatcher object of type event for which the caller provides the storage. 
 
@@ -93,15 +93,15 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 

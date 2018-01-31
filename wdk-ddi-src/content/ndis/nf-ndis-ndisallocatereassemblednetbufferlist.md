@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6a7fcb43-93bf-4351-8198-1d788b1bcc8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_functions_ref_20c58532-de90-4594-9bd8-5393a70c6b80.xml, NdisAllocateReassembledNetBufferList, netvista.ndisallocatereassemblednetbufferlist, ndis/NdisAllocateReassembledNetBufferList, NdisAllocateReassembledNetBufferList function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisAllocateReassembledNetBufferList, NdisAllocateReassembledNetBufferList, ndis_netbuf_functions_ref_20c58532-de90-4594-9bd8-5393a70c6b80.xml, netvista.ndisallocatereassemblednetbufferlist, NdisAllocateReassembledNetBufferList function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,7 +80,7 @@ PNET_BUFFER_LIST NdisAllocateReassembledNetBufferList(
 TBD
 
 
-### -param NetBufferAndNetBufferListPoolHandle [in, optional]
+#### - NetBufferAndNetBufferListPoolHandle [in, optional]
 
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
      <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
@@ -91,7 +91,7 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
      <b>DataSize</b> member set to zero. If this parameter is <b>NULL</b>, NDIS uses an internal pool.
 
 
-### -param StartOffset [in]
+#### - StartOffset [in]
 
 The amount of data to skip at the beginning of each source 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. This amount is in addition
@@ -99,13 +99,13 @@ The amount of data to skip at the beginning of each source
      <b>DataOffset</b> member of the NET_BUFFER structure.
 
 
-### -param DataOffsetDelta [in]
+#### - DataOffsetDelta [in]
 
 The number of bytes of 
      <i>used data space</i> to add to in the reassembled NET_BUFFER structure.
 
 
-### -param DataBackFill [in]
+#### - DataBackFill [in]
 
 If allocation of 
      <i>unused data space</i> (backfill space) is required, this parameter specifies the number of bytes of 
@@ -113,7 +113,7 @@ If allocation of
      <i>DataOffsetDelta</i> to allocate.
 
 
-### -param AllocateReassembleFlags [in]
+#### - AllocateReassembleFlags [in]
 
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
@@ -157,19 +157,19 @@ Call the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <mshelp:link keywords="netvista.ndisfreereassemblednetbufferlist" tabindex="0"><b>
    NdisFreeReassembledNetBufferList</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
 
  
 

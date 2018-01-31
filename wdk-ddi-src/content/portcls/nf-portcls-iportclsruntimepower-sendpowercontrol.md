@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 04B8EE71-59F9-4DE4-AD36-846632D3EBB4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsRuntimePower, SendPowerControl method [Audio Devices], IPortClsRuntimePower interface, portcls/IPortClsRuntimePower::SendPowerControl, IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, SendPowerControl method [Audio Devices], audio.iportclsruntimepower_sendpowercontrol, SendPowerControl, IPortClsRuntimePower::SendPowerControl
+ms.keywords: IPortClsRuntimePower::SendPowerControl, portcls/IPortClsRuntimePower::SendPowerControl, IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, SendPowerControl method [Audio Devices], IPortClsRuntimePower interface, SendPowerControl, SendPowerControl method [Audio Devices], audio.iportclsruntimepower_sendpowercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsRuntimePower.SendPowerControl
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsRuntimePower::SendPowerControl method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cddb85c7-137c-4ceb-b53c-170ce020cea1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_OPENALLOCATION, DXGKARG_OPENALLOCATION, display.dxgkarg_openallocation, _DXGKARG_OPENALLOCATION, DmStructs_442924a2-c130-487c-acdb-62a2b6e9f219.xml, DXGKARG_OPENALLOCATION structure [Display Devices]
+ms.keywords: d3dkmddi/DXGKARG_OPENALLOCATION, DmStructs_442924a2-c130-487c-acdb-62a2b6e9f219.xml, display.dxgkarg_openallocation, _DXGKARG_OPENALLOCATION, DXGKARG_OPENALLOCATION structure [Display Devices], DXGKARG_OPENALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,32 +76,32 @@ typedef struct _DXGKARG_OPENALLOCATION {
 
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] The number of elements in the array that the <b>pOpenAllocation</b> member specifies, which represents the number of device-specific allocations to open.
 
 
-### -field pOpenAllocation
+#### - pOpenAllocation
 
 [in/out] An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a> structures for the allocations to open.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver. This block of private data is the same resource-specific data that is passed in the <b>pPrivateDriverData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure in the call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. The display miniport driver cannot modify this block of private data.
 
 
-### -field PrivateDriverSize
+#### - PrivateDriverSize
 
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationflags.md">DXGK_OPENALLOCATIONFLAGS</a> structure that identifies the operation to perform for allocations.
 
 
-### -field SubresourceIndex
+#### - SubresourceIndex
 
 [in] Supported beginning with Windows 8.
 
@@ -112,14 +112,14 @@ The operating system specifies this member only if the display miniport driver s
 If the value of <b>SubresourceIndex</b> is greater than the number of subresources in the allocation, the display miniport driver should return an error.
 
 
-### -field SubresourceOffset
+#### - SubresourceOffset
 
 [out] Supported beginning with Windows 8.
 
 The offset, in bytes, from the start of the allocation to the start of the subresource.
 
 
-### -field Pitch
+#### - Pitch
 
 [out] Supported beginning with Windows 8.
 
@@ -128,15 +128,15 @@ The pitch, in bytes, of the allocation—that is, the distance, in bytes, to the
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationflags.md">DXGK_OPENALLOCATIONFLAGS</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationflags.md">DXGK_OPENALLOCATIONFLAGS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a>
 
  
 

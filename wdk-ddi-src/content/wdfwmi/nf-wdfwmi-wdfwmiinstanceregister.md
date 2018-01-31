@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 95f97b95-fdb1-43f2-b733-4054adda4c41
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfwmiinstanceregister, WdfWmiInstanceRegister, wdfwmi/WdfWmiInstanceRegister, DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, wdf.wdfwmiinstanceregister, WdfWmiInstanceRegister method, PFN_WDFWMIINSTANCEREGISTER
+ms.keywords: PFN_WDFWMIINSTANCEREGISTER, wdf.wdfwmiinstanceregister, WdfWmiInstanceRegister, WdfWmiInstanceRegister method, wdfwmi/WdfWmiInstanceRegister, DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, kmdf.wdfwmiinstanceregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS WdfWmiInstanceRegister(
 
 
 
-### -param WmiInstance [in]
+#### - WmiInstance [in]
 
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
 
@@ -119,11 +119,11 @@ For more information about the <b>WdfWmiInstanceRegister</b> method, see <a href
 
 ## -see-also
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancederegister.md">WdfWmiInstanceDeregister</a>
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
  
 

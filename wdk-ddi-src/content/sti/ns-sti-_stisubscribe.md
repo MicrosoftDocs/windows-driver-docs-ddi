@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 68859180-274d-44f8-9ccf-1cae0348f902
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPSTISUBSCRIBE structure pointer [Imaging Devices], LPSTISUBSCRIBE, sti/STISUBSCRIBE, *LPSTISUBSCRIBE, STISUBSCRIBE, STISUBSCRIBE structure [Imaging Devices], _STISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml, image.stisubscribe, sti/LPSTISUBSCRIBE
+ms.keywords: STISUBSCRIBE structure [Imaging Devices], LPSTISUBSCRIBE, sti/STISUBSCRIBE, _STISUBSCRIBE, *LPSTISUBSCRIBE, STISUBSCRIBE, LPSTISUBSCRIBE structure pointer [Imaging Devices], sti/LPSTISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml, image.stisubscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STISUBSCRIBE
 product: Windows
 targetos: Windows
-req.typenames: "*LPSTISUBSCRIBE, STISUBSCRIBE"
+req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
 req.product: Windows 10 or later.
 ---
 
@@ -73,12 +73,12 @@ typedef struct _STISUBSCRIBE {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Caller-supplied size, in bytes, of the STISUBSCRIBE structure.
 
 
-### -field dwFlags
+#### - dwFlags
 
 One of the following bit flags, defined in <i>Sti.h</i>.
 
@@ -101,22 +101,22 @@ Event notifications should be delivered to the application using window messages
 This bit flag is obsolete. It is not available on Windows XP or later operating system versions.
 
 
-### -field dwFilter
+#### - dwFilter
 
 Reserved for system use.
 
 
-### -field hWndNotify
+#### - hWndNotify
 
 Handle to an application window that should receive the message specified by <b>uiNotificationMessage</b> when an event occurs. Used only if STI_SUBSCRIBE_FLAG_WINDOW is set in <b>dwFlags</b>.
 
 
-### -field hEvent
+#### - hEvent
 
 Handle to a Win32 event created with <b>CreateEvent</b>, which the event monitor will use with <b>SetEvent</b> when an event occurs and for which the application can wait. Used only if STI_SUBSCRIBE_FLAG_WINDOW is set in <b>dwFlags</b>.
 
 
-### -field uiNotificationMessage
+#### - uiNotificationMessage
 
 Window message that should be passed to the <b>dwWndNotify</b> window when an event occurs.
 

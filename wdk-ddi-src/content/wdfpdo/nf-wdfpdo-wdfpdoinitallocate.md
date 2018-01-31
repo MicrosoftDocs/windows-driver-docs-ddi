@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoInitAllocate, wdf.wdfpdoinitallocate, PFN_WDFPDOINITALLOCATE, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, WdfPdoInitAllocate method, WdfPdoInitAllocate, kmdf.wdfpdoinitallocate
+ms.keywords: wdf.wdfpdoinitallocate, WdfPdoInitAllocate, kmdf.wdfpdoinitallocate, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, wdfpdo/WdfPdoInitAllocate, WdfPdoInitAllocate method, PFN_WDFPDOINITALLOCATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitAllocate
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ PWDFDEVICE_INIT WdfPdoInitAllocate(
 
 
 
-### -param ParentDevice [in]
+#### - ParentDevice [in]
 
 A handle to a framework device object that represents the parent device of the new device. The framework device object must represent a functional device object (FDO).
 

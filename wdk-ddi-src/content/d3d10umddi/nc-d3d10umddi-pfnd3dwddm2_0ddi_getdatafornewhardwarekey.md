@@ -40,7 +40,7 @@ apiname:
 -	pfnGetDataForNewHardwareKey
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY callback
@@ -74,30 +74,29 @@ typedef HRESULT APIENTRY* pfnGetDataForNewHardwareKey(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param hCryptoSession [in]
+#### - hCryptoSession [in]
 
 A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
-### -param PrivateInputSize [in]
+#### - PrivateInputSize [in]
 
 The size of the  buffer pointed to by <b>pPrivatInputData</b>, in bytes.
 
 
-### -param *pPrivatInputData
+#### - *pPrivatInputData [in]
+
+A pointer to a buffer that receives private input data for the driver.
 
 
+#### - *pPrivateOutputData [out]
 
-### -param *pPrivateOutputData
-
-
-
-
+A pointer to a UINT64 value that receives private driver output data that could be used later by the secure DRM component when initializing the key.
 
 
 #### - pPrivatInputData [in]
@@ -150,9 +149,9 @@ Private driver data was successfully returned.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
  
 

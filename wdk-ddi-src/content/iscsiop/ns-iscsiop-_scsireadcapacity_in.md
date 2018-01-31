@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a9d6f43-88f7-490e-9446-e707b6497a38
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml, _ScsiReadCapacity_IN, storage.scsireadcapacity_in, PScsiReadCapacity_IN structure pointer [Storage Devices], iscsiop/PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, ScsiReadCapacity_IN, PScsiReadCapacity_IN"
+ms.keywords: iscsiop/PScsiReadCapacity_IN, storage.scsireadcapacity_in, ScsiReadCapacity_IN structure [Storage Devices], ScsiReadCapacity_IN, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml, iscsiop/ScsiReadCapacity_IN, *PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], PScsiReadCapacity_IN, _ScsiReadCapacity_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReadCapacity_IN
 product: Windows
 targetos: Windows
-req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
+req.typenames: "*PScsiReadCapacity_IN, ScsiReadCapacity_IN"
 ---
 
 # _ScsiReadCapacity_IN structure
@@ -68,12 +68,12 @@ typedef struct _ScsiReadCapacity_IN {
 
 
 
-### -field UniqueSessionId
+#### - UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in the <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 
-### -field Lun
+#### - Lun
 
 A 64-bit number that, together with the name of the target, uniquely identifies the logical unit.
 
@@ -89,11 +89,11 @@ You must implement this method.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
  
 

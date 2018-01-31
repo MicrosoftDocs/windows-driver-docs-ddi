@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D4427E44-204F-490C-9EE7-BBC4906E5920
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, display.dxgk_buildpagingbuffer_transfervirtual, d3dkmddi/DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
+ms.keywords: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL structure [Display Devices], DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, display.dxgk_buildpagingbuffer_transfervirtual, d3dkmddi/DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,60 +75,60 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL {
 
 
 
-### -field hAllocation
+#### - hAllocation
 
 Kernel mode driver handle of the transferred allocation content. The handle is returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>. The allocation properties are needed to perform special transfers (as swizzle, de-swizzle, etc.).
 
 
-### -field AllocationOffsetInBytes
+#### - AllocationOffsetInBytes
 
 The offset in bytes from the start of the allocation being transferred. The offset should not be added to <b>SourceVirtualAddress</b> or <b>DesinationVirtualAddress</b>.
 
 
-### -field TransferSizeInBytes
+#### - TransferSizeInBytes
 
 The number of bytes to transfer.
 
 
-### -field SourceVirtualAddress
+#### - SourceVirtualAddress
 
 The virtual address of the source in the context of the paging process. 
 
 
-### -field DestinationVirtualAddress
+#### - DestinationVirtualAddress
 
 The virtual address of the destination in the context of the paging process.
 
 
-### -field SourcePageTable
+#### - SourcePageTable
 
 The GPU virtual address of the page table that is used to map the <b>SourceVirtualAddress</b> address. 
 <div class="alert"><b>Note</b>  The address is valid only when the <b>DXGK_GPUMMUCAPS.LegacyBehaviors.SourcePageTableVaInTransfer</b> cap is set.</div><div> </div>
 
-### -field TransferDirection
+#### - TransferDirection
 
 The <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_memory_transfer_direction.md">DXGK_MEMORY_TRANSFER_DIRECTION</a> structure describing the operation.
 
 
-### -field Flags
+#### - Flags
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transfervirtualflags.md">DXGK_TRANSFERVIRTUALFLAGS</a> structure describing the operation.
 
 
-### -field DestinationPageTable
+#### - DestinationPageTable
 
 The GPU virtual address of the page table that  is used to map the <b>DestinationVirtualAddress</b> address. The address is valid only when the <b>DXGK_GPUMMUCAPS.LegacyBehaviors.SourcePageTableVaInTransfer</b> cap is set.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_memory_transfer_direction.md">DXGK_MEMORY_TRANSFER_DIRECTION</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transfervirtualflags.md">DXGK_TRANSFERVIRTUALFLAGS</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_memory_transfer_direction.md">DXGK_MEMORY_TRANSFER_DIRECTION</a>
 
  
 

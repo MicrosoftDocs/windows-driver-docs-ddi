@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: AF462D58-1854-4A56-8DC6-63F373439842
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfDeviceHwAccessTargetTypeRegisterBuffer, WdfDeviceHwAccessTargetTypeMaximum, wudfddi_types/WdfDeviceHwAccessTargetTypeInvalid, wdfdevice/WdfDeviceHwAccessTargetTypePortBuffer, wudfddi_types/WdfDeviceHwAccessTargetTypePortBuffer, WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration, wdfdevice/WDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetTypeMaximum, WdfDeviceHwAccessTargetTypeRegister, wdfdevice/WdfDeviceHwAccessTargetTypeRegister, wdfdevice/WdfDeviceHwAccessTargetTypeRegisterBuffer, wdfdevice/WdfDeviceHwAccessTargetTypeInvalid, WdfDeviceHwAccessTargetTypeRegisterBuffer, WdfDeviceHwAccessTargetTypePortBuffer, wdfdevice/WdfDeviceHwAccessTargetTypePort, _WDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetTypeRegister, WdfDeviceHwAccessTargetTypeInvalid, wdfdevice/PWDF_DEVICE_HWACCESS_TARGET_TYPE, PWDF_DEVICE_HWACCESS_TARGET_TYPE enumeration pointer, *PWDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetTypePort, WDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/PWDF_DEVICE_HWACCESS_TARGET_TYPE, PWDF_DEVICE_HWACCESS_TARGET_TYPE, WdfDeviceHwAccessTargetTypePort, umdf.wdf_device_hwaccess_target_type, wdf.wdf_device_hwaccess_target_type, wdfdevice/WdfDeviceHwAccessTargetTypeMaximum, wudfddi_types/WDF_DEVICE_HWACCESS_TARGET_TYPE
+ms.keywords: "*PWDF_DEVICE_HWACCESS_TARGET_TYPE, wdfdevice/WdfDeviceHwAccessTargetTypeMaximum, WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration, wudfddi_types/WdfDeviceHwAccessTargetTypePortBuffer, wdfdevice/WdfDeviceHwAccessTargetTypePortBuffer, wdfdevice/WdfDeviceHwAccessTargetTypeRegisterBuffer, wdfdevice/WdfDeviceHwAccessTargetTypeInvalid, WdfDeviceHwAccessTargetTypePort, wudfddi_types/PWDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetTypePort, WdfDeviceHwAccessTargetTypeMaximum, WDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetTypeInvalid, wudfddi_types/WdfDeviceHwAccessTargetTypeRegister, wdfdevice/PWDF_DEVICE_HWACCESS_TARGET_TYPE, umdf.wdf_device_hwaccess_target_type, WdfDeviceHwAccessTargetTypePortBuffer, wudfddi_types/WdfDeviceHwAccessTargetTypeRegisterBuffer, wdfdevice/WdfDeviceHwAccessTargetTypePort, _WDF_DEVICE_HWACCESS_TARGET_TYPE, PWDF_DEVICE_HWACCESS_TARGET_TYPE enumeration pointer, wudfddi_types/WdfDeviceHwAccessTargetTypeMaximum, wdfdevice/WDF_DEVICE_HWACCESS_TARGET_TYPE, wdf.wdf_device_hwaccess_target_type, wdfdevice/WdfDeviceHwAccessTargetTypeRegister, WdfDeviceHwAccessTargetTypeRegisterBuffer, PWDF_DEVICE_HWACCESS_TARGET_TYPE, WdfDeviceHwAccessTargetTypeInvalid, wudfddi_types/WDF_DEVICE_HWACCESS_TARGET_TYPE, WdfDeviceHwAccessTargetTypeRegister"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,27 +76,27 @@ typedef enum __WDF_IO_TARGET_STATE {
 
 
 
-### -field WdfDeviceHwAccessTargetTypeInvalid
+#### - WdfDeviceHwAccessTargetTypeInvalid
 
 
 
-### -field WdfDeviceHwAccessTargetTypeRegister
+#### - WdfDeviceHwAccessTargetTypeRegister
 
 
 
-### -field WdfDeviceHwAccessTargetTypeRegisterBuffer
+#### - WdfDeviceHwAccessTargetTypeRegisterBuffer
 
 
 
-### -field WdfDeviceHwAccessTargetTypePort
+#### - WdfDeviceHwAccessTargetTypePort
 
 
 
-### -field WdfDeviceHwAccessTargetTypePortBuffer
+#### - WdfDeviceHwAccessTargetTypePortBuffer
 
 
 
-### -field WdfDeviceHwAccessTargetTypeMaximum
+#### - WdfDeviceHwAccessTargetTypeMaximum
 
 
 

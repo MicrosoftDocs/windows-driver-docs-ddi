@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bbd3fbc0-6dbe-4200-8fe8-e7ca9e4c9478
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetTextReplacementWide method [Windows Debugging], debugger.settextreplacementwide, IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, IDebugControl4::SetTextReplacementWide, IDebugControl4, dbgeng/IDebugControl4::SetTextReplacementWide, SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: dbgeng/IDebugControl4::SetTextReplacementWide, IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, IDebugControl4::SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], debugger.settextreplacementwide, SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, SetTextReplacementWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SetTextReplacementWide(
 
 
 
-### -param SrcText [in]
+#### - SrcText [in]
 
 Specifies the name of the user-named alias.  The <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> makes a copy of this string.  If <i>SrcText</i> is the same as the name of an automatic alias, the automatic alias is hidden by the new user-named alias.
 
 
-### -param DstText [in, optional]
+#### - DstText [in, optional]
 
 Specifies the value of the user-named alias.  The debugger engine makes a copy of this string.  If <i>DstText</i> is <b>NULL</b>, the user-named alias is removed.
 
@@ -117,9 +117,9 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 <a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
 
@@ -127,9 +127,9 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
  
 

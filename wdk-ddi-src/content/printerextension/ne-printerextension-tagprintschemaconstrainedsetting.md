@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting_Admin, tagPrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Admin, print.printschemaconstrainedsetting, PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices]
+ms.keywords: printerextension/PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting enumeration [Print Devices], printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_PrintTicket, print.printschemaconstrainedsetting, PrintSchemaConstrainedSetting_Admin, tagPrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum tagPrintSchemaConstrainedSetting {
 
 
 
-### -field PrintSchemaConstrainedSetting_None
+#### - PrintSchemaConstrainedSetting_None
 
 The Option is not constrained.
 
 
-### -field PrintSchemaConstrainedSetting_PrintTicket
+#### - PrintSchemaConstrainedSetting_PrintTicket
 
 The Option is constrained by the PrintTicket settings. Changing the PrintTicket document settings should be able to remove the constraint.
 
 
-### -field PrintSchemaConstrainedSetting_Admin
+#### - PrintSchemaConstrainedSetting_Admin
 
 The Option is constrained by the administrator's settings. The Option constraint should not be removable by a user without administrator privileges.
 
 
-### -field PrintSchemaConstrainedSetting_Device
+#### - PrintSchemaConstrainedSetting_Device
 
 The Option is constrained by the device configuration. The Option should not be removable by either a user or administrator without changing the device configuration.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e644fce4-2367-4851-8252-47a25faf0b6d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong, srb/ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml
+ms.keywords: ScsiPortReadRegisterUlong, srb/ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], storage.scsiportreadregisterulong, scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadRegisterUlong
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ ULONG ScsiPortReadRegisterUlong(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 

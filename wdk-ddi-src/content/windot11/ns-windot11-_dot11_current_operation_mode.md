@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 085ee8f4-7e96-416a-a59f-f35c8ad0dbf4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_current_operation_mode, windot11/PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE, _DOT11_CURRENT_OPERATION_MODE, Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, PDOT11_CURRENT_OPERATION_MODE, windot11/DOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_CURRENT_OPERATION_MODE, windot11/DOT11_CURRENT_OPERATION_MODE, Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, netvista.dot11_current_operation_mode, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista], PDOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE, _DOT11_CURRENT_OPERATION_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_CURRENT_OPERATION_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE"
+req.typenames: DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ typedef struct _DOT11_CURRENT_OPERATION_MODE {
 
 
 
-### -field uReserved
+#### - uReserved
 
 This member is reserved. The miniport driver must not modify the value of this member.
 
 
-### -field uCurrentOpMode
+#### - uCurrentOpMode
 
 A bitmask of the miniport driver's current operation modes. This bitmask is defined through the
       following:
@@ -135,12 +135,12 @@ For more information about Native 802.11 operation modes, see
 
 ## -see-also
 
+<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 <mshelp:link keywords="netvista.oid_dot11_current_operation_mode" tabindex="0">
    OID_DOT11_CURRENT_OPERATION_MODE</mshelp:link>
-
-<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
 
  
 

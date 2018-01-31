@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d3550c3-4a06-410e-9ec9-fed8b2786092
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsRemoveSpecificIrpFromCancelableQueue, ksfunc_db7aeb28-a39d-4ab6-9df5-6eef83453c85.xml, ks/KsRemoveSpecificIrpFromCancelableQueue, stream.ksremovespecificirpfromcancelablequeue, KsRemoveSpecificIrpFromCancelableQueue function [Streaming Media Devices]
+ms.keywords: ks/KsRemoveSpecificIrpFromCancelableQueue, ksfunc_db7aeb28-a39d-4ab6-9df5-6eef83453c85.xml, KsRemoveSpecificIrpFromCancelableQueue, stream.ksremovespecificirpfromcancelablequeue, KsRemoveSpecificIrpFromCancelableQueue function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KsRemoveSpecificIrpFromCancelableQueue(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Points to I/O request packet.
 

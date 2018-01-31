@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortFreeRegistryBuffer, storage.storportfreeregistrybuffer, StorPortFreeRegistryBuffer routine [Storage Devices], StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml
+ms.keywords: storage.storportfreeregistrybuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml, storport/StorPortFreeRegistryBuffer, StorPortFreeRegistryBuffer routine [Storage Devices], StorPortFreeRegistryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ STORPORT_API VOID StorPortFreeRegistryBuffer(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer to be freed. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbfeace3-6492-4011-9ca8-c40ba4f47d22
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_7761c811-0068-48d5-8b46-da550a008a9c.xml, wlanihv/DOT11EXT_IHV_SECURITY_PROFILE, DOT11EXT_IHV_SECURITY_PROFILE structure [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_SECURITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_SECURITY_PROFILE, PDOT11EXT_IHV_SECURITY_PROFILE, *PDOT11EXT_IHV_SECURITY_PROFILE, netvista.dot11ext_ihv_security_profile, _DOT11EXT_IHV_SECURITY_PROFILE, wlanihv/PDOT11EXT_IHV_SECURITY_PROFILE
+ms.keywords: PDOT11EXT_IHV_SECURITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_SECURITY_PROFILE, netvista.dot11ext_ihv_security_profile, wlanihv/DOT11EXT_IHV_SECURITY_PROFILE, Native_802.11_data_types_7761c811-0068-48d5-8b46-da550a008a9c.xml, DOT11EXT_IHV_SECURITY_PROFILE structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_SECURITY_PROFILE, *PDOT11EXT_IHV_SECURITY_PROFILE, wlanihv/PDOT11EXT_IHV_SECURITY_PROFILE, PDOT11EXT_IHV_SECURITY_PROFILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11EXT_IHV_SECURITY_PROFILE
 product: Windows
 targetos: Windows
-req.typenames: DOT11EXT_IHV_SECURITY_PROFILE, *PDOT11EXT_IHV_SECURITY_PROFILE
+req.typenames: "*PDOT11EXT_IHV_SECURITY_PROFILE, DOT11EXT_IHV_SECURITY_PROFILE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ typedef struct _DOT11EXT_IHV_SECURITY_PROFILE {
 
 
 
-### -field pszXmlFragmentIhvSecurity
+#### - pszXmlFragmentIhvSecurity
 
 A pointer to the string that defines the IHV security profile.
 
@@ -79,7 +79,7 @@ A pointer to the string that defines the IHV security profile.
  
 
 
-### -field bUseMSOnex
+#### - bUseMSOnex
 
 A flag that indicates whether the IHV security profile is using the Microsoft 802.1X
      implementation. If <b>TRUE</b>, the profile uses the Microsoft 802.1X implementation.

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0720635c-77a2-4391-ba75-b276c0d457d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2surfaceblt, d3dhal/D3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], LPD3DHAL_DP2SURFACEBLT, d3dhal/LPD3DHAL_DP2SURFACEBLT, d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, D3DHAL_DP2SURFACEBLT structure [Display Devices], *LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT, _D3DHAL_DP2SURFACEBLT
+ms.keywords: D3DHAL_DP2SURFACEBLT structure [Display Devices], display.d3dhal_dp2surfaceblt, d3dhal/LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT, _D3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, LPD3DHAL_DP2SURFACEBLT, *LPD3DHAL_DP2SURFACEBLT, d3dhal/D3DHAL_DP2SURFACEBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,37 +77,37 @@ typedef struct _D3DHAL_DP2SURFACEBLT {
 
 
 
-### -field dwSource
+#### - dwSource
 
 Specifies the handle to the source surface.
 
 
-### -field rSource
+#### - rSource
 
 Specifies a RECTL structure that specifies the upper left and lower right points of a rectangle on the source surface. These points define the area of the source blit data and its position on the source surface.
 
 
-### -field dwSourceMipLevel
+#### - dwSourceMipLevel
 
 Specifies the sublevel of a MIP-map texture that is the source of the blt.
 
 
-### -field dwDest
+#### - dwDest
 
 Specifies the handle to the destination surface.
 
 
-### -field rDest
+#### - rDest
 
 Specifies a RECTL structure that specifies the upper left and lower right points of a rectangle on the destination surface. These points define the area in which the blit should occur and its position on the destination surface.
 
 
-### -field dwDestMipLevel
+#### - dwDestMipLevel
 
 Specifies the sublevel of a MIP-map texture that is the destination for the blt.
 
 
-### -field Flags
+#### - Flags
 
 Unused
 
@@ -127,9 +127,9 @@ D3DDP2OP_BLT
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
 D3DDP2OP_SURFACEBLT
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
  
 

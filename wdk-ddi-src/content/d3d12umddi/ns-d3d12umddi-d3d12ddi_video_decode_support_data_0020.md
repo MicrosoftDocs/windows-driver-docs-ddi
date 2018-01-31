@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 05274F4B-0473-42BA-A382-B348A85DBFA5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, display.d3d12ddi_video_decode_support_data, D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
+ms.keywords: display.d3d12ddi_video_decode_support_data, D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 {
 
 
 
-### -field NodeIndex
+#### - NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 
-### -field Configuration
+#### - Configuration
 
 The decode profile and bitstream encryption.  For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>.
 
 
-### -field Width
+#### - Width
 
 The decode width of the source stream. 
 
 
-### -field Height
+#### - Height
 
 The decode height of the source stream. 
 
 
-### -field DecodeFormat
+#### - DecodeFormat
 
 The DirectX resource data format to use as the decode format.  If no decoder conversion is specified, this format is the output format.
 
 
-### -field FrameRate
+#### - FrameRate
 
 The frame rate of the video format.  Used to help return performance hints in the <b>SupportFlags</b> member. A value of zero (0) means unknown.
 
 
-### -field BitRate
+#### - BitRate
 
 The average bits per second data compression rate for the compressed video stream.  This is used by the driver to determine whether the video can be decoded in real time. A value of zero (0) means unknown.
 
 
-### -field SupportFlags
+#### - SupportFlags
 
 Supported flags. For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>.
 
 
-### -field ConfigurationFlags
+#### - ConfigurationFlags
 
 Configuration flags. For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</a>.
 
 
-### -field DecodeTier
+#### - DecodeTier
 
 The tier supported by this configuration.  For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_tier_0020.md">D3D12DDI_VIDEO_DECODE_TIER</a>.
 
@@ -137,11 +137,11 @@ This structure is retrieved through the <a href="..\d3d12umddi\nc-d3d12umddi-pfn
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>
 
+<b>D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</b>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_tier_0020.md">D3D12DDI_VIDEO_DECODE_TIER</a>
-
-<b>D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</b>
 
  
 

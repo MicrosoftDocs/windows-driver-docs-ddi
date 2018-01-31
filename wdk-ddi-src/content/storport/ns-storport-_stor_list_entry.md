@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTOR_LIST_ENTRY, STOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], storport/STOR_LIST_ENTRY, PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], storport/PSTOR_LIST_ENTRY, storage.stor_list_entry, _STOR_LIST_ENTRY"
+ms.keywords: "*PSTOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], storport/STOR_LIST_ENTRY, storage.stor_list_entry, PSTOR_LIST_ENTRY, _STOR_LIST_ENTRY, STOR_LIST_ENTRY, storport/PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _STOR_LIST_ENTRY {
 
 
 
-### -field Flink
+#### - Flink
 
 For a <b>LIST_ENTRY</b> structure that serves as a list entry, the <b>Flink</b> member points to the next entry in the list or to the list header if there is no next entry in the list. 
 
@@ -83,7 +83,7 @@ For a <b>LIST_ENTRY</b> structure that serves as the list header, the <b>Flink</
  
 
 
-### -field Blink
+#### - Blink
 
 For a <b>LIST_ENTRY</b> structure that serves as a list entry, the <b>Blink</b> member points to the previous entry in the list or to the list header if there is no previous entry in the list.
 
@@ -104,25 +104,25 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
-
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
 <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
-
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
-
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
 <a href="..\storport\nf-storport-storportinterlockedinsertheadlist.md">StorPortInterlockedInsertHeadList</a>
 
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+
 <a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
  
 

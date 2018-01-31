@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b0902b79-25ee-45e6-944e-de9e69ce43ec
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_SetBindingSupport_OUT structure pointer [Storage Devices], SM_SetBindingSupport_OUT structure [Storage Devices], *PSM_SetBindingSupport_OUT, PSM_SetBindingSupport_OUT, SM_SetBindingSupport_OUT, hbapiwmi/PSM_SetBindingSupport_OUT, structs-Fibre_b14ee92a-9c2c-4f8a-be35-b189b0d5e97f.xml, hbapiwmi/SM_SetBindingSupport_OUT, storage.sm_setbindingsupport_out, _SM_SetBindingSupport_OUT
+ms.keywords: storage.sm_setbindingsupport_out, hbapiwmi/SM_SetBindingSupport_OUT, hbapiwmi/PSM_SetBindingSupport_OUT, _SM_SetBindingSupport_OUT, *PSM_SetBindingSupport_OUT, structs-Fibre_b14ee92a-9c2c-4f8a-be35-b189b0d5e97f.xml, PSM_SetBindingSupport_OUT structure pointer [Storage Devices], SM_SetBindingSupport_OUT, SM_SetBindingSupport_OUT structure [Storage Devices], PSM_SetBindingSupport_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SM_SetBindingSupport_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 

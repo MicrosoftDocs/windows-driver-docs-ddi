@@ -77,42 +77,42 @@ NTSTATUS AVStrMiniIntersectHandlerEx(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the <b>Context</b> member of the corresponding <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> containing the intersection request.
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Pointer to a structure of type <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a> that was passed in the intersection property request.
 
 
-### -param DataRange [in]
+#### - DataRange [in]
 
 Pointer to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures.
 
 
-### -param MatchingDataRange [in]
+#### - MatchingDataRange [in]
 
 Pointer to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures to match to <i>DataRange</i>.
 
 
-### -param DataBufferSize [in]
+#### - DataBufferSize [in]
 
 Specifies a value of type ULONG that contains the size of the data buffer.
 
 
-### -param Data [out]
+#### - Data [out]
 
 Pointer to an optional data buffer in which the minidriver outputs the intersection.
 
 
-### -param DataSize [out]
+#### - DataSize [out]
 
 Pointer to a value of type ULONG specifying the size of the data buffer.
 
@@ -133,17 +133,17 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
  
 

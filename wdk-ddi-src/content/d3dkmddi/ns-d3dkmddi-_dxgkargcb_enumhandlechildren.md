@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da97b175-a24c-406d-9747-c84122781f79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, _DXGKARGCB_ENUMHANDLECHILDREN, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN, display.dxgkargcb_enumhandlechildren, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices], DXGKARGCB_ENUMHANDLECHILDREN
+ms.keywords: DXGKARGCB_ENUMHANDLECHILDREN, _DXGKARGCB_ENUMHANDLECHILDREN, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN, display.dxgkargcb_enumhandlechildren, DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKARGCB_ENUMHANDLECHILDREN {
 
 
 
-### -field hObject
+#### - hObject
 
 [in] A handle to the parent resource of a group of child allocations. This handle is the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) assigned for the parent resource.
 
 
-### -field Index
+#### - Index
 
 [in] The index into the array of allocations that belongs to the resource that <b>hObject</b> specifies.
 

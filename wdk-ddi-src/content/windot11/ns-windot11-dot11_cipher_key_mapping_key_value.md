@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ab5239d-422e-483e-a633-4efab47311fc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, netvista.dot11_cipher_key_mapping_key_value, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, netvista.dot11_cipher_key_mapping_key_value, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE"
+req.typenames: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ typedef struct DOT11_CIPHER_KEY_MAPPING_KEY_VALUE {
 
 
 
-### -field PeerMacAddr
+#### - PeerMacAddr
 
 MAC address of the peer. The peer is either an access point (AP) (for infrastructure BSS networks)
      or peer station (for independent BSS networks) with which the 802.11 station is associated.
@@ -92,21 +92,21 @@ When the NIC is in the Extensible Access Point (ExtAP) OP mode,
      <b>PeerMacAddr</b> must have a unique value.
 
 
-### -field AlgorithmId
+#### - AlgorithmId
 
 The value of the cipher algorithm that uses this key. For more information about enumerator values
      for cipher algorithms, see 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
 
 
-### -field Direction
+#### - Direction
 
 This member specifies whether the 802.11 station uses the key for receive or transmit packets. The
      data type for this member is the 
      <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a> enumeration.
 
 
-### -field bDelete
+#### - bDelete
 
 If set to <b>TRUE</b>, the miniport driver must delete the key referenced by 
      <b>PeerMacAddr</b> and 
@@ -115,7 +115,7 @@ If set to <b>TRUE</b>, the miniport driver must delete the key referenced by
      <b>Direction</b> .
 
 
-### -field bStatic
+#### - bStatic
 
 A Boolean value that specifies whether the miniport driver should delete the default key following
      a connection or roaming operation.
@@ -152,7 +152,7 @@ Implicitly deleted through a method request of
 </li>
 </ul>
 
-### -field usKeyLength
+#### - usKeyLength
 
 The length, in bytes, of the key material in the 
      <b>ucKey</b> array.
@@ -173,7 +173,7 @@ The length, in bytes, of the key material in the
  
 
 
-### -field ucKey
+#### - ucKey
 
 The key material.
      
@@ -225,20 +225,20 @@ If the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
 
 <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
-
-<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
 
  
 

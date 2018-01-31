@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9581e3af-f7f8-4365-8bb2-daedcb7a3280
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetNamedValue method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface, GetNamedValue method, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, IWDFNamedPropertyStore, IWDFNamedPropertyStore::GetNamedValue, wdf.iwdfnamedpropertystore_getnamedvalue, wudfddi/IWDFNamedPropertyStore::GetNamedValue, umdf.iwdfnamedpropertystore_getnamedvalue, GetNamedValue, GetNamedValue method
+ms.keywords: IWDFNamedPropertyStore interface, GetNamedValue method, GetNamedValue method, GetNamedValue, GetNamedValue method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::GetNamedValue, wudfddi/IWDFNamedPropertyStore::GetNamedValue, umdf.iwdfnamedpropertystore_getnamedvalue, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, IWDFNamedPropertyStore, wdf.iwdfnamedpropertystore_getnamedvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore.GetNamedValue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT GetNamedValue(
 
 
 
-### -param pszName [in]
+#### - pszName [in]
 
 A pointer to a null-terminated string that contains the name of the property.
 
 
-### -param pv [out]
+#### - pv [out]
 
 A pointer to a variable that receives the value for the property. 
 

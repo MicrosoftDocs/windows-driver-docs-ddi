@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b6e6fbc0-a35b-4086-9d7a-98dab516a816
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlGetVersion routine [Kernel-Mode Driver Architecture], kernel.rtlgetversion, wdm/RtlGetVersion, RtlGetVersion, k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml
+ms.keywords: RtlGetVersion routine [Kernel-Mode Driver Architecture], k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, kernel.rtlgetversion, RtlGetVersion, wdm/RtlGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS RtlGetVersion(
 
 
 
-### -param lpVersionInformation [out]
+#### - lpVersionInformation [out]
 
 Pointer to either a <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a> structure or a <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a> structure that contains the version information about the currently running operating system. A caller specifies which input structure is used by setting the <b>dwOSVersionInfoSize</b> member of the structure to the size in bytes of the structure that is used. 
 

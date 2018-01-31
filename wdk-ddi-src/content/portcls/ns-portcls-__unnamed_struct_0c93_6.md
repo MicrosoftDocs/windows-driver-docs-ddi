@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_0c93_6
-title: PCAUTOMATION_TABLE
+title: "*PPCAUTOMATION_TABLE"
 author: windows-driver-content
 description: The PCAUTOMATION_TABLE structure contains a miniport driver's master table of properties, methods, and events.
 old-location: audio\pcautomation_table.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9761a967-063d-4194-8b67-eec476d3372e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCAUTOMATION_TABLE structure [Audio Devices], portcls/PCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, PPCAUTOMATION_TABLE structure pointer [Audio Devices], audio.pcautomation_table, *PPCAUTOMATION_TABLE, PPCAUTOMATION_TABLE
+ms.keywords: audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, *PPCAUTOMATION_TABLE, audio.pcautomation_table, PPCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, portcls/PCAUTOMATION_TABLE, PPCAUTOMATION_TABLE structure pointer [Audio Devices], PCAUTOMATION_TABLE structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,10 +40,10 @@ apiname:
 -	PCAUTOMATION_TABLE
 product: Windows
 targetos: Windows
-req.typenames: PCAUTOMATION_TABLE, *PPCAUTOMATION_TABLE
+req.typenames: "*PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE"
 ---
 
-# PCAUTOMATION_TABLE structure
+# *PPCAUTOMATION_TABLE structure
 
 
 ## -description
@@ -188,15 +188,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMini
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_4.md">PCMETHOD_ITEM</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a>
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
  
 

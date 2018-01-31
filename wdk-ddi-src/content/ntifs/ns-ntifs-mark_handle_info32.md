@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BAC97D72-23C4-49A6-A13D-0F011113DB32
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PMARK_HANDLE_INFO32, ntifs/MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 structure [Installable File System Drivers], ifsk.mark_handle_info32, MARK_HANDLE_INFO32, MARK_HANDLE_TXF_SYSTEM_LOG, ntifs/PMARK_HANDLE_INFO32, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_NOT_REALTIME, USN_SOURCE_REPLICATION_MANAGEMENT, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], USN_SOURCE_DATA_MANAGEMENT, MARK_HANDLE_PROTECT_CLUSTERS, USN_SOURCE_AUXILIARY_DATA, MARK_HANDLE_REALTIME"
+ms.keywords: PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], PMARK_HANDLE_INFO32, MARK_HANDLE_REALTIME, MARK_HANDLE_INFO32, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, USN_SOURCE_REPLICATION_MANAGEMENT, MARK_HANDLE_TXF_SYSTEM_LOG, ifsk.mark_handle_info32, ntifs/PMARK_HANDLE_INFO32, MARK_HANDLE_PROTECT_CLUSTERS, *PMARK_HANDLE_INFO32, USN_SOURCE_AUXILIARY_DATA, MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_INFO32 structure [Installable File System Drivers], ntifs/MARK_HANDLE_INFO32, USN_SOURCE_DATA_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ typedef struct {
  
 
 
-### -field UsnSourceInfo
+#### - UsnSourceInfo
 
 The type of changes being made.
 
@@ -228,7 +228,7 @@ For example, the file replication service sets this flag when it creates or upda
 </table> 
 
 
-### -field VolumeHandle
+#### - VolumeHandle
 
 The volume handle to the volume where the file or directory resides. For more information on obtaining a 
         volume handle, see the Remarks section.
@@ -239,7 +239,7 @@ The caller must have the <b>SE_MANAGE_VOLUME_NAME</b> privilege. For more inform
         see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">Privileges</a>.
 
 
-### -field HandleInfo
+#### - HandleInfo
 
 The flag that specifies additional information about the file or directory identified by the handle value 
        in the <b>VolumeHandle</b> member.

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e581fd34-4564-4882-b91d-94801e579bde
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.io_resource_requirements_list, IO_RESOURCE_REQUIREMENTS_LIST, _IO_RESOURCE_REQUIREMENTS_LIST, wdm/PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], wdm/IO_RESOURCE_REQUIREMENTS_LIST, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture], *PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST
+ms.keywords: kernel.io_resource_requirements_list, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture], IO_RESOURCE_REQUIREMENTS_LIST, wdm/IO_RESOURCE_REQUIREMENTS_LIST, wdm/PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, *PIO_RESOURCE_REQUIREMENTS_LIST, _IO_RESOURCE_REQUIREMENTS_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_RESOURCE_REQUIREMENTS_LIST
 product: Windows
 targetos: Windows
-req.typenames: IO_RESOURCE_REQUIREMENTS_LIST, *PIO_RESOURCE_REQUIREMENTS_LIST
+req.typenames: "*PIO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -74,38 +74,38 @@ typedef struct _IO_RESOURCE_REQUIREMENTS_LIST {
 
 
 
-### -field ListSize
+#### - ListSize
 
 The total number of bytes that constitute the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure, its <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a> array, and the latter's <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> array.
 
 
-### -field InterfaceType
+#### - InterfaceType
 
 Specifies an interface type. This must be one of the types defined by <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
 
 
-### -field BusNumber
+#### - BusNumber
 
 A system-assigned, zero-based bus number. (Not used by WDM drivers.)
 
 
-### -field SlotNumber
+#### - SlotNumber
 
 A system slot number. (Not used by WDM drivers.)
 
 
-### -field Reserved
+#### - Reserved
 
 Not used.
                     
 
 
-### -field AlternativeLists
+#### - AlternativeLists
 
 The number of alternative lists (or configurations) of hardware resources that are described by this <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure. The <b>List</b> member is the header for the first alternative list.
 
 
-### -field List
+#### - List
 
 The <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a> structure that serves as the header for the first alternative list of hardware resources. If the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> array that it contains. For more information, see the following Remarks section.
 
@@ -133,13 +133,13 @@ Each alternative list begins with an <b>IO_RESOURCE_LIST</b> structure, which se
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-<a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551715">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
+
+<a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
  
 

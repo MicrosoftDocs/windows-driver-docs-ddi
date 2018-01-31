@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21833980-0098-43c2-822c-9d8292f7120a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWDI_TX_METADATA, WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], netvista.wifi_tx_metadata, dot11wdi/WDI_TX_METADATA, dot11wdi/PWDI_TX_METADATA, netvista.wdi_tx_metadata, _WDI_TX_METADATA, PWDI_TX_METADATA, WDI_TX_METADATA, PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: PWDI_TX_METADATA, *PWDI_TX_METADATA, dot11wdi/PWDI_TX_METADATA, WDI_TX_METADATA, _WDI_TX_METADATA, dot11wdi/WDI_TX_METADATA, netvista.wifi_tx_metadata, PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], netvista.wdi_tx_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDI_TX_METADATA
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # _WDI_TX_METADATA structure
@@ -82,77 +82,77 @@ typedef struct _WDI_TX_METADATA {
 
 
 
-### -field PortID
+#### - PortID
 
 Port ID of the frame.
 
 
-### -field PeerID
+#### - PeerID
 
 Peer ID of the frame (only if <b>TargetPriorityQueueing</b> is false).
 
 
-### -field ExTID
+#### - ExTID
 
 Extended TID of the frame (only if <b>TargetPriorityQueueing</b> is false).
 
 
-### -field IsUnicast
+#### - IsUnicast
 
 Specifies if the frame is for a unicast recipient address.
 
 
-### -field bAllowLegacyRates
+#### - bAllowLegacyRates
 
 Specifies if legacy rates should be used for transmitting the frame.
 
 
-### -field Ethertype
+#### - Ethertype
 
 Specifies the Ethertype of the frame.
 
 
-### -field bTxCompleteRequired
+#### - bTxCompleteRequired
 
 Specifies if an <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_complete_ind.md">NdisWdiTxSendCompleteIndication</a> is required for this frame.
 
 
-### -field PnLength
+#### - PnLength
 
 Specifies the PnLength for the frame. This is only applicable to Requeued/Replayed TX frames.  Otherwise, set to zero.
 
 
-### -field TxCost
+#### - TxCost
 
 Specifies the number of credits required to dequeue the frame.
 
 
-### -field ExemptionAction
+#### - ExemptionAction
 
 Specifies the <a href="..\dot11wdi\ne-dot11wdi-_wdi_exemption_action_type.md">WDI_EXEMPTION_ACTION_TYPE</a> value for this frame.
 
 
-### -field MpduPn
+#### - MpduPn
 
 Specifies the MpduPn for the frame. This is only applicable to Requeued/Replayed TX frames.  Otherwise, set to zero.
 
 
-### -field ReplayIHVReserved0
+#### - ReplayIHVReserved0
 
 Reserved for use by the IHV miniport for Requeued/Replayed TX frames. This is only applicable to Requeued/Replayed TX frames.  Otherwise, set to zero.  
 
 
-### -field ReplayIHVReserved1
+#### - ReplayIHVReserved1
 
 Reserved for use by the IHV miniport for Requeued/Replayed TX frames. This is only applicable to Requeued/Replayed TX frames.  Otherwise, set to zero.  
 
 
-### -field SeqCtl
+#### - SeqCtl
 
 Specifies the SeqCtl (if necessary). This is only applicable to Requeued/Replayed TX frames.  Otherwise, set to zero.
 
 
-### -field wPad
+#### - wPad
 
 Reserved.
 

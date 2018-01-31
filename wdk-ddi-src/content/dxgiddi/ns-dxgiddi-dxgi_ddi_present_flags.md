@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87f3b66a-0fcb-4325-ae23-7f89d6b389e6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, dxgiddi/DXGI_DDI_PRESENT_FLAGS, display.dxgi_ddi_present_flags, DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices]
+ms.keywords: DXGI_DDI_PRESENT_FLAGS structure [Display Devices], DXGI_DDI_PRESENT_FLAGS, UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, display.dxgi_ddi_present_flags, dxgiddi/DXGI_DDI_PRESENT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,21 +76,21 @@ typedef struct DXGI_DDI_PRESENT_FLAGS {
 
 
 
-### -field Blt
+#### - Blt
 
 Specifies whether to perform a bit-block transfer (bitblt) data to the primary surface. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Flip
+#### - Flip
 
 Specifies whether to flip to a new surface. 
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field PreferRight
+#### - PreferRight
 
 Supported in Windows 8 and later versions.
 
@@ -101,7 +101,7 @@ If this member is not set, the default mono present operation shows the view fro
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field TemporaryMono
+#### - TemporaryMono
 
 Supported in Windows 8 and later versions.
 
@@ -120,21 +120,21 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in DXGI_DDI_PRESENT_FLAGS that can hold one 32-bit value that identifies how to perform a present operation.
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
 
  
 

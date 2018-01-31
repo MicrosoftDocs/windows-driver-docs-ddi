@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b008fc7-35fe-40f9-8475-1a2ac04edb58
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPCLS_WRITE_ENTRY, kstruct_a_331b7685-f256-4071-8edf-e517afc2b8cc.xml, PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], _CLS_WRITE_ENTRY, PPCLFS_WRITE_ENTRY, CLS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], wdm/CLFS_WRITE_ENTRY, wdm/PPCLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], *PCLFS_WRITE_ENTRY, wdm/CLS_WRITE_ENTRY, PCLS_WRITE_ENTRY, CLS_WRITE_ENTRY, PPCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY, PPCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_write_entry, wdm/PCLS_WRITE_ENTRY, wdm/PPCLS_WRITE_ENTRY, PCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], *PCLS_WRITE_ENTRY
+ms.keywords: PPCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_write_entry, *PCLS_WRITE_ENTRY, wdm/CLFS_WRITE_ENTRY, wdm/PCLFS_WRITE_ENTRY, wdm/PPCLS_WRITE_ENTRY, PPCLFS_WRITE_ENTRY, _CLS_WRITE_ENTRY, CLS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], wdm/PPCLFS_WRITE_ENTRY, wdm/CLS_WRITE_ENTRY, CLS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], PPCLS_WRITE_ENTRY, PCLS_WRITE_ENTRY, PCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PCLFS_WRITE_ENTRY, kstruct_a_331b7685-f256-4071-8edf-e517afc2b8cc.xml, wdm/PCLS_WRITE_ENTRY, *PCLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLS_WRITE_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY, CLS_WRITE_ENTRY"
+req.typenames: PPCLS_WRITE_ENTRY, CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _CLS_WRITE_ENTRY {
 
 
 
-### -field Buffer
+#### - Buffer
 
 A pointer to the buffer that holds the data. 
 
 
-### -field ByteLength
+#### - ByteLength
 
 The size, in bytes, of the buffer pointed to by <b>Buffer</b>. 
 

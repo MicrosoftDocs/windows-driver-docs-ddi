@@ -40,7 +40,7 @@ apiname:
 -	PowerOnDumpDeviceCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # PEPCALLBACKPOWERONCRASHDUMPDEVICE callback
@@ -70,7 +70,7 @@ BOOLEAN PowerOnDumpDeviceCallback(
 
 
 
-### -param CrashdumpInformation [in]
+#### - CrashdumpInformation [in]
 
 A pointer to a <a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
 

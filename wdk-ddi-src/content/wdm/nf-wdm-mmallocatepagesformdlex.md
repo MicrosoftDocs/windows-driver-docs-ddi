@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_DONT_ZERO_ALLOCATION, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MmAllocatePagesForMdlEx, MM_ALLOCATE_FULLY_REQUIRED, wdm/MmAllocatePagesForMdlEx, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], MM_ALLOCATE_NO_WAIT, kernel.mmallocatepagesformdlex
+ms.keywords: MmAllocatePagesForMdlEx, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatepagesformdlex, MM_ALLOCATE_NO_WAIT, wdm/MmAllocatePagesForMdlEx, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_ALLOCATE_FULLY_REQUIRED, MM_DONT_ZERO_ALLOCATION, MM_ALLOCATE_FROM_LOCAL_NODE_ONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ PMDL MmAllocatePagesForMdlEx(
 
 
 
-### -param LowAddress [in]
+#### - LowAddress [in]
 
 Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdlEx</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdlEx</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
 
 
-### -param HighAddress [in]
+#### - HighAddress [in]
 
 Specifies the physical address of the end of the first address range that the allocated pages can come from.
 
 
-### -param SkipBytes [in]
+#### - SkipBytes [in]
 
 Specifies the number of bytes to skip from the start of the previous address range that the allocated pages can come from. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes.
 
 
-### -param TotalBytes [in]
+#### - TotalBytes [in]
 
 Specifies the total number of bytes to allocate for the MDL.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies flags for this operation. Set this parameter to zero or to the bitwise OR of one or more of the following <b>MM_ALLOCATE_<i>XXX</i></b> flag bits:
 
@@ -232,7 +232,7 @@ By default, <b>MmAllocatePagesForMdlEx</b> fills the pages that it allocates wit
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
@@ -240,7 +240,7 @@ By default, <b>MmAllocatePagesForMdlEx</b> fills the pages that it allocates wit
 
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
 
  
 

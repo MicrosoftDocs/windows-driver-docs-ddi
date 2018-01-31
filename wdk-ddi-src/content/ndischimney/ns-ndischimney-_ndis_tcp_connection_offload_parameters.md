@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8d3f971-2abc-425d-9929-518f093262a7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,7 +84,7 @@ typedef struct _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -98,7 +98,7 @@ The
      <code>sizeof(NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS)</code>.
 
 
-### -field Encapsulation
+#### - Encapsulation
 
 An 
      <mshelp:link keywords="netvista.ndis_offload_encapsulation" tabindex="0"><b>
@@ -106,21 +106,21 @@ An
      offload.
 
 
-### -field TicksPerSecond
+#### - TicksPerSecond
 
 A ULONG value that the TCP/IP driver stack sets to specify how many ticks of the host's clock
      equal one second. The default value is 1000 (that is, 1 tick = 1 millisecond). An offload target must
      support this member.
 
 
-### -field TcpAckFrequency
+#### - TcpAckFrequency
 
 A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of segments that the
      offload target can receive before the target sends an ACK. An offload target must support this
      member.
 
 
-### -field TcpDelayedAckTicks
+#### - TcpDelayedAckTicks
 
 A UCHAR value that the TCP/IP driver stack sets to specify how many ticks, starting from the
      reception of a segment, that the offload target should wait for additional receive segments before the
@@ -128,7 +128,7 @@ A UCHAR value that the TCP/IP driver stack sets to specify how many ticks, start
      target must support this member.
 
 
-### -field TcpMaximumRetransmissions
+#### - TcpMaximumRetransmissions
 
 A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of times that the
      offload target should retransmit a segment on a TCP connection. When the retransmit counter for a TCP
@@ -140,7 +140,7 @@ A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of
      offload of the connection. An offload target must support this member.
 
 
-### -field TcpDoubtReachabilityRetransmissions
+#### - TcpDoubtReachabilityRetransmissions
 
 A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of times that the
      offload target should retransmit a segment before the target indicates to the TCP/IP driver stack that
@@ -149,7 +149,7 @@ A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of
      offload target should support this member.
 
 
-### -field TcpSwsPreventionTicks
+#### - TcpSwsPreventionTicks
 
 A ULONG value that the TCP/IP driver stack sets to specify the number of ticks for the offload
      target's silly window syndrome (SWS) send and receive timers. When the SWS send timer times out, the
@@ -157,14 +157,14 @@ A ULONG value that the TCP/IP driver stack sets to specify the number of ticks f
      window update. An offload target should support this member.
 
 
-### -field TcpDuplicateAckThreshold
+#### - TcpDuplicateAckThreshold
 
 A ULONG value that the TCP/IP driver stack sets to specify the number of duplicate acknowledgments
      that the offload target must receive before the target performs a fast retransmission. An offload target
      must support this member.
 
 
-### -field TcpPushTicks
+#### - TcpPushTicks
 
 A ULONG value that the TCP/IP driver stack sets to specify the number of ticks that an offload
      target must wait before the target completes a pre-posted receive buffer. This interval starts
@@ -172,13 +172,13 @@ A ULONG value that the TCP/IP driver stack sets to specify the number of ticks t
      target uses this value to initialize its push timer. An offload target must support this member.
 
 
-### -field NceStaleTicks
+#### - NceStaleTicks
 
 A ULONG value that the TCP/IP driver stack sets to indicate the number of ticks of inactivity that
      make a neighbor state object stale. An offload target must support this member.
 
 
-### -field CongestionAlgorithm
+#### - CongestionAlgorithm
 
 Reserved for future use.
      
@@ -213,18 +213,18 @@ The
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_offload_encapsulation.md">NDIS_OFFLOAD_ENCAPSULATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
 
-<mshelp:link keywords="netvista.oid_tcp_connection_offload_parameters" tabindex="0">
-   OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</mshelp:link>
-
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
+
+<a href="..\ndis\ns-ndis-_ndis_offload_encapsulation.md">NDIS_OFFLOAD_ENCAPSULATION</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<mshelp:link keywords="netvista.oid_tcp_connection_offload_parameters" tabindex="0">
+   OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</mshelp:link>
 
  
 

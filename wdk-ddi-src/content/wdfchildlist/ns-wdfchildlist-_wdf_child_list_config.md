@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0a392f4-c7c3-4b61-960c-b94f9605f5a4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, _WDF_CHILD_LIST_CONFIG, wdfchildlist/PWDF_CHILD_LIST_CONFIG, wdfchildlist/WDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, WDF_CHILD_LIST_CONFIG, wdf.wdf_child_list_config, *PWDF_CHILD_LIST_CONFIG, kmdf.wdf_child_list_config
+ms.keywords: kmdf.wdf_child_list_config, wdfchildlist/PWDF_CHILD_LIST_CONFIG, *PWDF_CHILD_LIST_CONFIG, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, WDF_CHILD_LIST_CONFIG structure, wdf.wdf_child_list_config, wdfchildlist/WDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, WDF_CHILD_LIST_CONFIG, _WDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_CHILD_LIST_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG"
+req.typenames: WDF_CHILD_LIST_CONFIG, *PWDF_CHILD_LIST_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -82,67 +82,67 @@ typedef struct _WDF_CHILD_LIST_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field IdentificationDescriptionSize
+#### - IdentificationDescriptionSize
 
 The size, in bytes, of each child's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>. For more information, see <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>.
 
 
-### -field AddressDescriptionSize
+#### - AddressDescriptionSize
 
 The size, in bytes, of each child's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>. For more information, see <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>.
 
 
-### -field EvtChildListCreateDevice
+#### - EvtChildListCreateDevice
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a> event callback function. This callback function is required.
 
 
-### -field EvtChildListScanForChildren
+#### - EvtChildListScanForChildren
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_scan_for_children.md">EvtChildListScanForChildren</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListIdentificationDescriptionCopy
+#### - EvtChildListIdentificationDescriptionCopy
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_copy.md">EvtChildListIdentificationDescriptionCopy</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListIdentificationDescriptionDuplicate
+#### - EvtChildListIdentificationDescriptionDuplicate
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_duplicate.md">EvtChildListIdentificationDescriptionDuplicate</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListIdentificationDescriptionCleanup
+#### - EvtChildListIdentificationDescriptionCleanup
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_cleanup.md">EvtChildListIdentificationDescriptionCleanup</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListIdentificationDescriptionCompare
+#### - EvtChildListIdentificationDescriptionCompare
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListAddressDescriptionCopy
+#### - EvtChildListAddressDescriptionCopy
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_copy.md">EvtChildListAddressDescriptionCopy</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListAddressDescriptionDuplicate
+#### - EvtChildListAddressDescriptionDuplicate
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_duplicate.md">EvtChildListAddressDescriptionDuplicate</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListAddressDescriptionCleanup
+#### - EvtChildListAddressDescriptionCleanup
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_cleanup.md">EvtChildListAddressDescriptionCleanup</a> event callback function. This callback function is optional.
 
 
-### -field EvtChildListDeviceReenumerated
+#### - EvtChildListDeviceReenumerated
 
 A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_device_reenumerated.md">EvtChildListDeviceReenumerated</a> event callback function. This callback function is optional.
 
@@ -160,13 +160,13 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
 

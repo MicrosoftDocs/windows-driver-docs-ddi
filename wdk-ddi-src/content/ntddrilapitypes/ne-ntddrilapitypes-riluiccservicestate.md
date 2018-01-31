@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 01d64333-3f49-45e1-bd2b-dda0aeb6a083
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_UICCSERVICESTATE_DISABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_MAX, RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista], RILUICCSERVICESTATE, ntddrilapitypes/RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_ENABLED, ntddrilapitypes/RILUICCSERVICESTATE, netvista.riluiccservicestate, RIL_UICCSERVICESTATE_MAX, ntddrilapitypes/RIL_UICCSERVICESTATE_DISABLED
+ms.keywords: netvista.riluiccservicestate, RIL_UICCSERVICESTATE_MAX, RIL_UICCSERVICESTATE_ENABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_MAX, RILUICCSERVICESTATE, RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCSERVICESTATE, RIL_UICCSERVICESTATE_DISABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_DISABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILUICCSERVICESTATE {
 
 
 
-### -field RIL_UICCSERVICESTATE_DISABLED
+#### - RIL_UICCSERVICESTATE_DISABLED
 
 
 
-### -field RIL_UICCSERVICESTATE_ENABLED
+#### - RIL_UICCSERVICESTATE_ENABLED
 
 
 
-### -field RIL_UICCSERVICESTATE_MAX
+#### - RIL_UICCSERVICESTATE_MAX
 
 

@@ -71,7 +71,7 @@ PMDL NetAllocateMdl(
 
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size of the memory block, in bytes. When calling 
      <i>NetAllocateMdl</i>, NDIS passes in the requested size.

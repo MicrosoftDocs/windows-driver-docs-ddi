@@ -79,47 +79,47 @@ NTSTATUS CamProcessRawVideoFrame(
 
 
 
-### -param BusDeviceObject
+#### - BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param FrameContext
+#### - FrameContext
 
 Pointer to the camera minidriver's frame context.
 
 
-### -param FrameBuffer
+#### - FrameBuffer
 
 Pointer to the buffer that receives the final processed video frame. See the Remarks section for more information about how USBCAMD uses this parameter.
 
 
-### -param FrameLength
+#### - FrameLength
 
 Specifies the length of the frame buffer (from the original read request) in bytes.
 
 
-### -param RawFrameBuffer
+#### - RawFrameBuffer
 
 Pointer to the buffer containing the received USB packets. See the Remarks section for more information about how USBCAMD uses this parameter.
 
 
-### -param RawFrameLength
+#### - RawFrameLength
 
 Specifies the length of <i>RawFrameBuffer</i> in bytes.
 
 
-### -param NumberOfPackets
+#### - NumberOfPackets
 
 Specifies the number of USB packets received into <i>RawFrameBuffer</i>.
 
 
-### -param BytesReturned
+#### - BytesReturned
 
 Pointer to the number of bytes transferred. The minidriver must set this to zero if it encounters any errors during processing, as described in <a href="https://msdn.microsoft.com/a66f4191-53ce-4ca2-aae7-8fb24a1a9a16">Data Flow Using Isochronous Pipes</a>. See the Remarks section for more information about how USBCAMD uses this parameter.
 

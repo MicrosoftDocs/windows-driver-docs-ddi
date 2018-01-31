@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43d30c99-9f9e-4516-8c50-e096f760a774
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortGetBusData routine [Storage Devices], srb/ScsiPortGetBusData, storage.scsiportgetbusdata, scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, ScsiPortGetBusData
+ms.keywords: scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, ScsiPortGetBusData routine [Storage Devices], ScsiPortGetBusData, storage.scsiportgetbusdata, srb/ScsiPortGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortGetBusData
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -74,34 +74,34 @@ ULONG ScsiPortGetBusData(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param BusDataType [in]
+#### - BusDataType [in]
 
 Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: <b>Cmos</b>, <b>EisaConfiguration</b>, <b>Pos</b>, or <b>PCIConfiguration</b>. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always <b>MaximumBusDataType</b>.
 
 
-### -param SystemIoBusNumber [in]
+#### - SystemIoBusNumber [in]
 
 Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine obtains this value from the input PORT_CONFIGURATION_INFORMATION <b>SystemIoBusNumber</b> member.
 
 
-### -param SlotNumber [in]
+#### - SlotNumber [in]
 
 Specifies the logical slot number or location of the device.
 
 If <b>PCIConfiguration</b> is specified as the <i>BusDataType</i>, this parameter must be specified as a PCI_SLOT_NUMBER-type value.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer or area to which the configuration data is returned or, if the given <i>Length</i> is zero, points to a location to which the operating system-specific port driver returns a pointer to a buffer that it allocates.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the maximum number of bytes to return at <i>Buffer</i>, or zero if the caller requires the operating system-specific port driver to allocate a buffer to contain the data.
 
@@ -152,13 +152,13 @@ Configuration data returned by <b>ScsiPortGetBusData</b> is valid only until the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
 <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a83220e8-496c-4b83-b774-88ab1f017e8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], netioddk/NPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NPI_PROVIDER_CHARACTERISTICS, netioddk/PNPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml, _NPI_PROVIDER_CHARACTERISTICS, netvista.npi_provider_characteristics
+ms.keywords: PNPI_PROVIDER_CHARACTERISTICS, NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NPI_PROVIDER_CHARACTERISTICS, netvista.npi_provider_characteristics, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml, NPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netioddk/NPI_PROVIDER_CHARACTERISTICS, netioddk/PNPI_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _NPI_PROVIDER_CHARACTERISTICS {
 
 
 
-### -field Version
+#### - Version
 
 The version of the NMR with which the provider is registering. A provider module should set this
      member to zero.
 
 
-### -field Length
+#### - Length
 
 The size, in bytes, of the NPI_PROVIDER_CHARACTERISTICS structure.
 
 
-### -field ProviderAttachClient
+#### - ProviderAttachClient
 
 A pointer to the provider module's 
      <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a> callback
      function.
 
 
-### -field ProviderDetachClient
+#### - ProviderDetachClient
 
 A pointer to the provider module's 
      <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a> callback
      function.
 
 
-### -field ProviderCleanupBindingContext
+#### - ProviderCleanupBindingContext
 
 A pointer to the provider module's 
      <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
@@ -110,7 +110,7 @@ A pointer to the provider module's
      ProviderCleanupBindingContext</i> callback function, then this member must be set to <b>NULL</b>.
 
 
-### -field ProviderRegistrationInstance
+#### - ProviderRegistrationInstance
 
 An 
      <mshelp:link keywords="netvista.npi_registration_instance" tabindex="0"><b>
@@ -135,9 +135,9 @@ A provider module must make sure that this structure remains valid and resident 
 
 <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
 <a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
    ProviderCleanupBindingContext</i></mshelp:link>

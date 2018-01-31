@@ -40,7 +40,7 @@ apiname:
 -	ClfsLogGrowthCompleteCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -74,22 +74,22 @@ VOID ClfsLogGrowthCompleteCallback(
 
 
 
-### -param LogFile [in]
+#### - LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose log has finished growing.
 
 
-### -param OperationStatus [in]
+#### - OperationStatus [in]
 
 The status of the client's earlier request to handle a log file full condition. This will be either STATUS_SUCCESS or an error status that indicates the reason that the request could not be completed successfully.
 
 
-### -param LogIsPinned [in]
+#### - LogIsPinned [in]
 
 If <b>TRUE</b>, specifies that the log tail is currently pinned;  <b>FALSE</b> if the log tail is not pinned.
 
 
-### -param ClientData [in]
+#### - ClientData [in]
 
 A pointer to client-supplied information.
 
@@ -124,9 +124,9 @@ If the value of the <i>OperationStatus</i> parameter is STATUS_SUCCESS, create a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmthandlelogfilefull.md">ClfsMgmtHandleLogFileFull</a>
-
 <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a>
+
+<a href="..\wdm\nf-wdm-clfsmgmthandlelogfilefull.md">ClfsMgmtHandleLogFileFull</a>
 
  
 

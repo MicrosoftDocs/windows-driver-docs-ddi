@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], stream.ksmoveirpsoncancelablequeue, ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, KsMoveIrpsOnCancelableQueue
+ms.keywords: ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, stream.ksmoveirpsoncancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ NTSTATUS KsMoveIrpsOnCancelableQueue(
 
 
 
-### -param SourceList [in, out]
+#### - SourceList [in, out]
 
 Specifies the head of the queue from which to remove the IRPs.
 
 
-### -param SourceLock [in]
+#### - SourceLock [in]
 
 Pointer to the driver's spin lock for source queue access.
 
 
-### -param DestinationList [in, out]
+#### - DestinationList [in, out]
 
 Specifies the head of the queue on which to add the IRPs.
 
 
-### -param DestinationLock [in, optional]
+#### - DestinationLock [in, optional]
 
 Optionally contains a pointer to driver's spin lock for destination queue access. If this is not provided, the <i>SourceLock</i> parameter is assumed to control both queues. If provided, this lock is always acquired after the <i>SourceLock</i> parameter. If the destination list has a separate spin lock, the system-wide Cancel Spin Lock is first acquired in order to move IRPs and allow the KSQUEUE_SPINLOCK_IRP_STORAGE() spin lock to be updated.
 
 
-### -param ListLocation [in]
+#### - ListLocation [in]
 
 Indicates whether the IRPs should be enumerated from the head or the tail of the source queue. Any IRPs that are moved are placed on the destination queue's opposite end so that ordering is maintained.
 
 
-### -param ListCallback [in]
+#### - ListCallback [in]
 
 Specifies the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a> function to call to indicate whether a specific IRP should be moved from <i>SourceList</i> to <i>DestinationList</i>, or if enumeration should be terminated.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Context passed to <i>ListCallback</i>.
 

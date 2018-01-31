@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2d629905-49aa-4b66-83f3-0aecb72b73ea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BINARY_DATA, ndis/BINARY_DATA, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, netvista.binary_data, BINARY_DATA structure [Network Drivers Starting with Windows Vista]
+ms.keywords: BINARY_DATA, netvista.binary_data, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,13 +68,13 @@ typedef struct {
 
 
 
-### -field Length
+#### - Length
 
 The length, in bytes, of the data that the 
      <b>Buffer</b> member points to.
 
 
-### -field Buffer
+#### - Buffer
 
 Pointer to a buffer containing the binary data.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e0d406e-748c-4b37-90fb-c7b9dfc28362
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisRegisterDeviceEx, netvista.ndisregisterdeviceex, ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml, NdisRegisterDeviceEx, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisRegisterDeviceEx, netvista.ndisregisterdeviceex, NdisRegisterDeviceEx, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NDIS_STATUS NdisRegisterDeviceEx(
 
 
 
-### -param NdisHandle [in]
+#### - NdisHandle [in]
 
 A miniport driver handle or filter driver handle that the caller obtained by calling the 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
@@ -82,14 +82,14 @@ A miniport driver handle or filter driver handle that the caller obtained by cal
      NdisFRegisterFilterDriver</b></mshelp:link> function respectively.
 
 
-### -param DeviceObjectAttributes [in]
+#### - DeviceObjectAttributes [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_device_object_attributes" tabindex="0"><b>
      NDIS_DEVICE_OBJECT_ATTRIBUTES</b></mshelp:link> structure that contains the attributes for the new device.
 
 
-### -param pDeviceObject [out]
+#### - pDeviceObject [out]
 
 A pointer that points to a pointer to a newly created 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure, if the call succeeds.
@@ -97,7 +97,7 @@ A pointer that points to a pointer to a newly created
      <i>pDeviceObject</i> is set to point to <b>NULL</b>.
 
 
-### -param NdisDeviceHandle [out]
+#### - NdisDeviceHandle [out]
 
 A pointer to a caller-supplied variable in which this function, if it succeeds, returns a handle
      to the device object. This handle is a required parameter to the 
@@ -181,18 +181,18 @@ The driver must subsequently call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
 <mshelp:link keywords="netvista.ndisgetdevicereservedextension" tabindex="0"><b>
    NdisGetDeviceReservedExtension</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a>
 
-<a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">NDIS_DEVICE_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">NDIS_DEVICE_OBJECT_ATTRIBUTES</a>
 
  
 

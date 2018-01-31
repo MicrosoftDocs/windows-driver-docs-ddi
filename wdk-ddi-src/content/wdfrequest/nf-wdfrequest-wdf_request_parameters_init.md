@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c4e83638-4931-460f-848b-ceb0f7a00afb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_PARAMETERS_INIT, DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml, wdf.wdf_request_parameters_init, wdfrequest/WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT function, kmdf.wdf_request_parameters_init
+ms.keywords: wdfrequest/WDF_REQUEST_PARAMETERS_INIT, DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml, WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT function, kmdf.wdf_request_parameters_init, wdf.wdf_request_parameters_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID WDF_REQUEST_PARAMETERS_INIT(
 
 
 
-### -param Parameters [out]
+#### - Parameters [out]
 
 A pointer to a caller-supplied <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a> structure.
 
@@ -93,9 +93,9 @@ The <b>WDF_REQUEST_PARAMETERS_INIT</b> function zeros the specified <a href="..\
 
 ## -see-also
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
 
  
 

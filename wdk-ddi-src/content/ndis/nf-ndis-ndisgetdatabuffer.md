@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGetDataBuffer, NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], netvista.ndisgetdatabuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml
+ms.keywords: ndis/NdisGetDataBuffer, netvista.ndisgetdatabuffer, NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ PVOID NdisGetDataBuffer(
 
 
 
-### -param NetBuffer [in]
+#### - NetBuffer [in]
 
 A pointer to a NET_BUFFER structure.
 
 
-### -param BytesNeeded [in]
+#### - BytesNeeded [in]
 
 The number of contiguous bytes of data requested.
 
 
-### -param Storage [in, optional]
+#### - Storage [in, optional]
 
 A pointer to a buffer, or <b>NULL</b> if no buffer is provided by the caller. The buffer must be greater
      than or equal in size to the number of bytes specified in 
@@ -93,13 +93,13 @@ A pointer to a buffer, or <b>NULL</b> if no buffer is provided by the caller. Th
      <i>Storage</i> .
 
 
-### -param AlignMultiple [in]
+#### - AlignMultiple [in]
 
 The alignment multiple expressed in power of two. For example, 2, 4, 8, 16, and so forth. If 
      <i>AlignMultiple</i> is 1, then there is no alignment requirement.
 
 
-### -param AlignOffset [in]
+#### - AlignOffset [in]
 
 The offset, in bytes, from the alignment multiple.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5ff1158-539f-4b25-8b65-72d077108c46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, UMDisplayDriver_Dx11param_Structs_c097052f-b667-43a9-8133-172770d9ab70.xml, display.d3d11ddiarg_buffer_unorderedaccessview, d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure [Display Devices]
+ms.keywords: display.d3d11ddiarg_buffer_unorderedaccessview, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure [Display Devices], d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, UMDisplayDriver_Dx11param_Structs_c097052f-b667-43a9-8133-172770d9ab70.xml, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW {
 
 
 
-### -field FirstElement
+#### - FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-### -field NumElements
+#### - NumElements
 
 [in] The number of elements in the buffer. 
 
 
-### -field Flags
+#### - Flags
 
 [in] A valid bitwise OR of flag values that describe the buffer. The Direct3D runtime supports the following values.
 <table>

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff2ebd1c-d0ac-47a7-90d4-0b49259784c1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename, scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, ScsiPortWmiGetInstanceName routine [Storage Devices], scsiwmi/ScsiPortWmiGetInstanceName
+ms.keywords: ScsiPortWmiGetInstanceName routine [Storage Devices], scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, ScsiPortWmiGetInstanceName, scsiwmi/ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PWCHAR ScsiPortWmiGetInstanceName(
 
 
 
-### -param RequestContext [in]
+#### - RequestContext [in]
 
 Pointer to a structure of type <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a> that contains the request context for a WMI SRB. 
 
@@ -93,11 +93,11 @@ The memory allocated for the request context must remain valid until after the m
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 <a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
  
 

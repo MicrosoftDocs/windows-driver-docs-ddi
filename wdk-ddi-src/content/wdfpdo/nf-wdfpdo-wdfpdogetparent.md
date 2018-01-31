@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 62a2a316-afb4-4133-b256-933ea04c0994
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdogetparent, WdfPdoGetParent, wdf.wdfpdogetparent, WdfPdoGetParent method, PFN_WDFPDOGETPARENT, DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, wdfpdo/WdfPdoGetParent
+ms.keywords: wdfpdo/WdfPdoGetParent, DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, kmdf.wdfpdogetparent, PFN_WDFPDOGETPARENT, WdfPdoGetParent method, WdfPdoGetParent, wdf.wdfpdogetparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoGetParent
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ WDFDEVICE WdfPdoGetParent(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object that represents the device's physical device object (PDO).
 

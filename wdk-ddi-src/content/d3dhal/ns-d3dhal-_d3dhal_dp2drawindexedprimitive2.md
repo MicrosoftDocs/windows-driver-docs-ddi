@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0376a2ce-2f1f-4515-b80a-2ecf0941d7d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, display.d3dhal_dp2drawindexedprimitive2, _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dstrct_43a90135-93f4-4304-9967-b4d7b6616198.xml, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure [Display Devices]
+ms.keywords: D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, display.d3dhal_dp2drawindexedprimitive2, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure pointer [Display Devices], D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dstrct_43a90135-93f4-4304-9967-b4d7b6616198.xml, _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,32 +76,32 @@ typedef struct _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 {
 
 
 
-### -field primType
+#### - primType
 
 Specifies the type of primitive to draw (one of D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP or D3DPT_TRIANGLEFAN).
 
 
-### -field BaseVertexOffset
+#### - BaseVertexOffset
 
 Specifies the offset that should be added to each vertex in vertex stream 0 by the various primitives to determine the actual vertex in vertex stream 0. This offset could be negative, but when an index is added to the offset the result is positive.
 
 
-### -field MinIndex
+#### - MinIndex
 
 Specifies the minimum index of a range of vertices that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
 
-### -field NumVertices
+#### - NumVertices
 
 Specifies the number of vertices in a range that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
 
-### -field StartIndexOffset
+#### - StartIndexOffset
 
 Specifies the offset of the first index in the index buffer from which indices are read to draw the primitives.
 
 
-### -field PrimitiveCount
+#### - PrimitiveCount
 
 Specifies the number of triangles, lines or points to draw for the given primitive.
 
@@ -117,11 +117,11 @@ As with vertices, the actual indices to use are not passed with the token data, 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawindexedprimitive2.md">D3DHAL_DP2DRAWINDEXEDPRIMITIVE2</a>
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 D3DDP2OP_DRAWINDEXEDPRIMITIVE2
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawindexedprimitive2.md">D3DHAL_DP2DRAWINDEXEDPRIMITIVE2</a>
 
  
 

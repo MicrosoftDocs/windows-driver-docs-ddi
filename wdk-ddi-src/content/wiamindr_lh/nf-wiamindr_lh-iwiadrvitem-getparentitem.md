@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e6197993-b998-424e-ab5d-a91a57c7398c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaDrvItem interface [Imaging Devices], GetParentItem method, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, image.iwiadrvitem_getparentitem, GetParentItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetParentItem, IWiaDrvItem, GetParentItem, wiamindr_lh/IWiaDrvItem::GetParentItem, GetParentItem method [Imaging Devices]
+ms.keywords: GetParentItem method [Imaging Devices], image.iwiadrvitem_getparentitem, IWiaDrvItem interface [Imaging Devices], GetParentItem method, wiamindr_lh/IWiaDrvItem::GetParentItem, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetParentItem, GetParentItem, IWiaDrvItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaDrvItem.GetParentItem
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 

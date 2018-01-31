@@ -40,7 +40,7 @@ apiname:
 -	EvtDeviceDisableWakeAtBus
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ VOID EvtDeviceDisableWakeAtBus(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 

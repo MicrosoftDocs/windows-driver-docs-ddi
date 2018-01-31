@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: aux_klib/AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
+ms.keywords: aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], AuxKlibGetSystemFirmwareTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ NTSTATUS AuxKlibGetSystemFirmwareTable(
 
 
 
-### -param FirmwareTableProviderSignature [in]
+#### - FirmwareTableProviderSignature [in]
 
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
 <table>
@@ -113,7 +113,7 @@ The raw SMBIOS firmware table provider.
 </table> 
 
 
-### -param FirmwareTableID [in]
+#### - FirmwareTableID [in]
 
 The identifier of the firmware table. The characters in the identifier are in little-endian order.
 
@@ -124,17 +124,17 @@ For example, FACP is the name of a table provided by ACPI. The FACP table is ide
 In this example, <code>pBuffer</code> points to the caller-allocated buffer, <code>BUFSIZE</code> is the size in bytes of this buffer, and <code>dataSize</code> is a variable to which the routine writes the number of bytes written to the buffer. For more information about the <b>DESCRIPTION_HEADER</b> structure, see the Advanced Configuration and Power Interface Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
 
 
-### -param FirmwareTableBuffer [out, optional]
+#### - FirmwareTableBuffer [out, optional]
 
 A pointer to a caller-allocated buffer that receives the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The size, in bytes, of the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
 
-### -param ReturnLength [out, optional]
+#### - ReturnLength [out, optional]
 
 A pointer to a location to which the routine writes the number of bytes of data written to the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
@@ -211,11 +211,11 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 ## -see-also
 
-<a href="..\aux_klib\nf-aux_klib-auxklibenumeratesystemfirmwaretables.md">AuxKlibEnumerateSystemFirmwareTables</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 <a href="https://msdn.microsoft.com/3bfe81ca-6d04-4da1-9579-6b0b48faa4a2">GetSystemFirmwareTable</a>
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibenumeratesystemfirmwaretables.md">AuxKlibEnumerateSystemFirmwareTables</a>
 
  
 

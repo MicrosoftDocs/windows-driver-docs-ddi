@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 08a9dccf-53bc-4b96-a794-14ead08a7b0b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMPauseComplete, NdisMPauseComplete function [Network Drivers Starting with Windows Vista], netvista.ndismpausecomplete, ndis/NdisMPauseComplete, miniport_ndis_functions_ref_1e76f7bc-a042-4a7a-8dc6-0f4cc6f7617f.xml
+ms.keywords: miniport_ndis_functions_ref_1e76f7bc-a042-4a7a-8dc6-0f4cc6f7617f.xml, netvista.ndismpausecomplete, NdisMPauseComplete function [Network Drivers Starting with Windows Vista], NdisMPauseComplete, ndis/NdisMPauseComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisMPauseComplete(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
@@ -109,9 +109,9 @@ NDIS calls the
 
 <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376579c6-545d-4f5a-8ba4-0046c0b2b755
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, WdfIoQueueDrain, PFN_WDFIOQUEUEDRAIN, WdfIoQueueDrain method, wdf.wdfioqueuedrain, wdfio/WdfIoQueueDrain, kmdf.wdfioqueuedrain
+ms.keywords: kmdf.wdfioqueuedrain, PFN_WDFIOQUEUEDRAIN, WdfIoQueueDrain method, WdfIoQueueDrain, DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, wdfio/WdfIoQueueDrain, wdf.wdfioqueuedrain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ VOID WdfIoQueueDrain(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to a framework queue object.
 
 
-### -param DrainComplete [in, optional]
+#### - DrainComplete [in, optional]
 
 A pointer to a driver-supplied <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
@@ -120,9 +120,9 @@ After a driver has drained an I/O queue, it can restart the queue by calling <a 
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuedrainsynchronously.md">WdfIoQueueDrainSynchronously</a>
-
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuedrainsynchronously.md">WdfIoQueueDrainSynchronously</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
 

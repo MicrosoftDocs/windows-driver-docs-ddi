@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 93b155eb-0254-441f-b01f-3da8eb7376a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvInitializeWia, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, IWiaMiniDrv, image.iwiaminidrv_drvinitializewia, drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvInitializeWia method [Imaging Devices], drvInitializeWia, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method
+ms.keywords: drvInitializeWia, IWiaMiniDrv, drvInitializeWia method [Imaging Devices], IWiaMiniDrv::drvInitializeWia, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, image.iwiaminidrv_drvinitializewia, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvInitializeWia
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -189,13 +189,13 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 

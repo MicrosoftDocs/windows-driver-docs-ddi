@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57cf980c-4477-4c12-8d82-7a8df8b2922f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES, PNDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES structure [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_capabilities, PNDIS_SRIOV_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SRIOV_CAPABILITIES, *PNDIS_SRIOV_CAPABILITIES, ntddndis/NDIS_SRIOV_CAPABILITIES"
+ms.keywords: ntddndis/NDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_capabilities, *PNDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES, _NDIS_SRIOV_CAPABILITIES, ntddndis/PNDIS_SRIOV_CAPABILITIES, PNDIS_SRIOV_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_SRIOV_CAPABILITIES {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_SRIOV_CAPABILITIES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -85,12 +85,12 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_CAPABILITIES _REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS
 
 
-### -field SriovCapabilities
+#### - SriovCapabilities
 
 A ULONG value that contains a bitwise OR of the following flags:
 
@@ -140,21 +140,21 @@ When NDIS calls an overlying protocol driver's <a href="..\ndis\nc-ndis-protocol
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559389">MiniportInitializeEx</a>
-
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451862">OID_SRIOV_HARDWARE_CAPABILITIES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451859">OID_SRIOV_CURRENT_CAPABILITIES</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559389">MiniportInitializeEx</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451862">OID_SRIOV_HARDWARE_CAPABILITIES</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <b></b>
 

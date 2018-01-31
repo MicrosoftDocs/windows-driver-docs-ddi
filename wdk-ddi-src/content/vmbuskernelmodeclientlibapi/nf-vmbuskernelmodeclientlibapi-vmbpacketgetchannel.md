@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BE5BB8CD-6B2F-4CFE-8A1E-B13BD9D7DBE7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketGetChannel function [Network Drivers Starting with Windows Vista], netvista.vmbpacketgetchannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel, VmbPacketGetChannel
+ms.keywords: VmbPacketGetChannel function [Network Drivers Starting with Windows Vista], VmbPacketGetChannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel, netvista.vmbpacketgetchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbPacketGetChannel
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ VMBCHANNEL VmbPacketGetChannel(
 
 
 
-### -param PacketObject [in]
+#### - PacketObject [in]
 
 The packet object.
 

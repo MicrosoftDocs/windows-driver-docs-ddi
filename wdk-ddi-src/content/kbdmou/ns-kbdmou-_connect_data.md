@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8fdb5b1d-bbdb-4774-875a-7cdd047286f5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml, kbdmou/CONNECT_DATA, PCONNECT_DATA, kbdmou/PCONNECT_DATA, hid.connect_data__kbdclass_, *PCONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], _CONNECT_DATA, CONNECT_DATA structure [Human Input Devices], CONNECT_DATA
+ms.keywords: kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml, PCONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], hid.connect_data__kbdclass_, *PCONNECT_DATA, kbdmou/CONNECT_DATA, CONNECT_DATA, _CONNECT_DATA, kbdmou/PCONNECT_DATA, CONNECT_DATA structure [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _CONNECT_DATA {
 
 
 
-### -field ClassDeviceObject
+#### - ClassDeviceObject
 
 Pointer to an upper-level class <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">filter device object</a> (filter DO).
 
 
-### -field ClassService
+#### - ClassService
 
 Specifies the class service routine. See  <a href="..\kbdmou\nc-kbdmou-pservice_callback_routine.md">PSERVICE_CALLBACK_ROUTINE</a>.
 

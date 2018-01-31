@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C9F2331F-0C16-47F3-9FDE-2719E179513F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_USBDEVICE_DISABLE structure pointer [Buses], P_USBDEVICE_DISABLE, ucxusbdevice/P_USBDEVICE_DISABLE, USBDEVICE_DISABLE structure [Buses], *PUSBDEVICE_DISABLE, _USBDEVICE_DISABLE, ucxusbdevice/_USBDEVICE_DISABLE, buses._usbdevice_disable, USBDEVICE_DISABLE
+ms.keywords: ucxusbdevice/_USBDEVICE_DISABLE, buses._usbdevice_disable, _USBDEVICE_DISABLE, USBDEVICE_DISABLE, USBDEVICE_DISABLE structure [Buses], ucxusbdevice/P_USBDEVICE_DISABLE, P_USBDEVICE_DISABLE, *PUSBDEVICE_DISABLE, P_USBDEVICE_DISABLE structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,23 +73,23 @@ typedef struct _USBDEVICE_DISABLE {
 
 
 
-### -field Header
+#### - Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
-### -field DefaultEndpoint
+#### - DefaultEndpoint
 
 A handle to the default endpoint of the USB device or hub to disable.
 
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_enable.md">USBDEVICE_ENABLE</a>
-
 <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_disable.md">EVT_UCX_USBDEVICE_DISABLE</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_enable.md">USBDEVICE_ENABLE</a>
 
  
 

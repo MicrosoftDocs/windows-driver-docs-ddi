@@ -73,14 +73,14 @@ typedef EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT PFN_IDD_CX_MONITOR_OPM
 
 
 
-### -param OpmCxtObject [in]
+#### - OpmCxtObject [in]
 
 
                     
                 A context used by the OS to identify the OPM context to configure output for.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 
                     

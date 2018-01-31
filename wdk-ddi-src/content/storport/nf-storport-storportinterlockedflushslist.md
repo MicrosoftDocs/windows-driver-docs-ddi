@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C686ABA7-BC44-45CE-A35B-63E76961A032
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInterlockedFlushSList, storport/StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist
+ms.keywords: StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist, StorPortInterlockedFlushSList, storport/StorPortInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortInterlockedFlushSList(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param SListHead [in, out]
+#### - SListHead [in, out]
 
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
 
-### -param Result [out]
+#### - Result [out]
 
 A pointer to a list entry pointer. The value returned is a pointer to  the items removed from the list. If the list is empty, then <b>NULL</b> is returned in value pointed to by <i>Result</i>.
 

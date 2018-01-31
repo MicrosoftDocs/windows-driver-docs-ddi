@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61e268aa-782a-42d5-8965-b935156033cb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_FDO_EVENT_CALLBACKS structure pointer, kmdf.wdf_fdo_event_callbacks, *PWDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS, wdf.wdf_fdo_event_callbacks, DFDeviceObjectFdoPdoRef_ed4f99d4-cc25-4275-b523-36cd439cac86.xml, WDF_FDO_EVENT_CALLBACKS structure, wdffdo/PWDF_FDO_EVENT_CALLBACKS, PWDF_FDO_EVENT_CALLBACKS, _WDF_FDO_EVENT_CALLBACKS, wdffdo/WDF_FDO_EVENT_CALLBACKS
+ms.keywords: wdffdo/WDF_FDO_EVENT_CALLBACKS, wdf.wdf_fdo_event_callbacks, WDF_FDO_EVENT_CALLBACKS structure, PWDF_FDO_EVENT_CALLBACKS, wdffdo/PWDF_FDO_EVENT_CALLBACKS, _WDF_FDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_ed4f99d4-cc25-4275-b523-36cd439cac86.xml, PWDF_FDO_EVENT_CALLBACKS structure pointer, *PWDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS, kmdf.wdf_fdo_event_callbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_FDO_EVENT_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS"
+req.typenames: WDF_FDO_EVENT_CALLBACKS, *PWDF_FDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ typedef struct _WDF_FDO_EVENT_CALLBACKS {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field EvtDeviceFilterAddResourceRequirements
+#### - EvtDeviceFilterAddResourceRequirements
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540870">EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> event callback function, or <b>NULL</b>.
 
 
-### -field EvtDeviceFilterRemoveResourceRequirements
+#### - EvtDeviceFilterRemoveResourceRequirements
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540870">EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> event callback function, or <b>NULL</b>.
 
 
-### -field EvtDeviceRemoveAddedResources
+#### - EvtDeviceRemoveAddedResources
 
 A pointer to the driver's <a href="..\wdffdo\nc-wdffdo-evt_wdf_device_remove_added_resources.md">EvtDeviceRemoveAddedResources</a> event callback function, or <b>NULL</b>.
 
@@ -106,13 +106,13 @@ A driver that specifies an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+<a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">WDF_FDO_EVENT_CALLBACKS_INIT</a>
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
 
 <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
 
-<a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">WDF_FDO_EVENT_CALLBACKS_INIT</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
 
  
 

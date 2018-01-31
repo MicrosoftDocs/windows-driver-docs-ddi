@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0EA209B7-20B9-418F-AD29-83520ED27DAB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ntifs/RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode, ifsk.rtlsetthreadplaceholdercompatibilitymode
+ms.keywords: ntifs/RtlSetThreadPlaceholderCompatibilityMode, ifsk.rtlsetthreadplaceholdercompatibilitymode, RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ CHAR RtlSetThreadPlaceholderCompatibilityMode(
 
 
 
-### -param Mode [in]
+#### - Mode [in]
 
 Specifies the placeholder compatibility mode to set.
 

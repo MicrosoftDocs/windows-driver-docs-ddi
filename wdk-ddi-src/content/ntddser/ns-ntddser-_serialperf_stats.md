@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERIALPERF_STATS, *PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], _SERIALPERF_STATS, ntddser/PSERIALPERF_STATS, serports.serialperf_stats, SERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports]
+ms.keywords: SERIALPERF_STATS, PSERIALPERF_STATS, *PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, _SERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], ntddser/PSERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], serports.serialperf_stats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _SERIALPERF_STATS {
 
 
 
-### -field ReceivedCount
+#### - ReceivedCount
 
 The number of characters received since either the serial port was opened or the last <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request was processed.
 
 
-### -field TransmittedCount
+#### - TransmittedCount
 
 The number of characters transmitted since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-### -field FrameErrorCount
+#### - FrameErrorCount
 
 The number of frame errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-### -field SerialOverrunErrorCount
+#### - SerialOverrunErrorCount
 
 The number of serial overrun errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-### -field BufferOverrunErrorCount
+#### - BufferOverrunErrorCount
 
 The number of buffer overrun errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-### -field ParityErrorCount
+#### - ParityErrorCount
 
 The number of parity errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 

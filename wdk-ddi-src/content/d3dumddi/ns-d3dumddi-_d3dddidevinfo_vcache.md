@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 06635207-39fd-4ef9-b388-25513f8194fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIDEVINFO_VCACHE, d3dumddi/D3DDDIDEVINFO_VCACHE, _D3DDDIDEVINFO_VCACHE, D3D_other_Structs_e212d960-07ba-4887-8b31-76ad54a7ae03.xml, D3DDDIDEVINFO_VCACHE structure [Display Devices], display.d3dddidevinfo_vcache
+ms.keywords: D3DDDIDEVINFO_VCACHE structure [Display Devices], d3dumddi/D3DDDIDEVINFO_VCACHE, _D3DDDIDEVINFO_VCACHE, D3DDDIDEVINFO_VCACHE, D3D_other_Structs_e212d960-07ba-4887-8b31-76ad54a7ae03.xml, display.d3dddidevinfo_vcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _D3DDDIDEVINFO_VCACHE {
 
 
 
-### -field Pattern
+#### - Pattern
 
 [out] The bit pattern. The driver must specify the bit pattern as a CACH four-character code (FOURCC) value. The driver can use the following MAKEFOURCC macro to specify the FOURCC value as CACH:
 <div class="code"><span codelanguage=""><table>
@@ -84,7 +84,7 @@ typedef struct _D3DDDIDEVINFO_VCACHE {
 </tr>
 </table></span></div>
 
-### -field OptMethod
+#### - OptMethod
 
 [out] The method of mesh optimization. The driver can use one of the following values to specify the mesh optimization that it uses.
 <table>
@@ -115,12 +115,12 @@ Vertex-cache-based optimization
 </table> 
 
 
-### -field CacheSize
+#### - CacheSize
 
 [out] The effective size, in entries, that the driver optimizes the vertex cache for. The actual cache size is not required to be the size that is specified in <b>CacheSize</b> because the actual cache size is larger in most situations. The driver specifies an optimized size in <b>CacheSize</b> only if it also specifies D3DXMESHOPT_VCACHE in the <b>OptMethod</b> member.
 
 
-### -field MagicNumber
+#### - MagicNumber
 
 [out] The number that should be used as part of a trial-and-error procedure when determining when to restart the strips list. This number can be from 1 to the value that is specified in the <b>CacheSize</b> member. Typically, the best values are near <b>CacheSize</b>/2. The driver specifies a number in <b>MagicNumber</b> only if it also specifies D3DXMESHOPT_VCACHE in the <b>OptMethod</b> member. 
 
@@ -136,17 +136,17 @@ Vertex-cache-based optimization
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIARG_CREATEQUERY</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getquerydata.md">D3DDDIARG_GETQUERYDATA</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getinfo.md">GetInfo</a>
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getquerydata.md">D3DDDIARG_GETQUERYDATA</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIARG_CREATEQUERY</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BDB8179A-4A97-4E83-B4A4-7B8358B3510C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.symbol_info_ex, PSYMBOL_INFO_EX structure pointer [Windows Debugging], dbgeng/PSYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], SYMBOL_INFO_EX, _SYMBOL_INFO_EX, PSYMBOL_INFO_EX, *PSYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX
+ms.keywords: "_SYMBOL_INFO_EX, SYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], debugger.symbol_info_ex, *PSYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], PSYMBOL_INFO_EX, dbgeng/PSYMBOL_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYMBOL_INFO_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # _SYMBOL_INFO_EX structure
@@ -72,27 +72,27 @@ typedef struct _SYMBOL_INFO_EX {
 
 
 
-### -field SizeOfStruct
+#### - SizeOfStruct
 
 Set to sizeof(SYMBOL_INFO_EX).
 
 
-### -field TypeOfInfo
+#### - TypeOfInfo
 
 Type of the symbol information stored.  DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE is the only supported type.
 
 
-### -field Offset
+#### - Offset
 
 Address of the first line that does not correspond to compiler added glue line.
 
 
-### -field Line
+#### - Line
 
 First line number that does not correspond to a compiler added glue line.
 
 
-### -field Displacement
+#### - Displacement
 
 Line displacement: Offset between given address and the first instruction of the line.
 

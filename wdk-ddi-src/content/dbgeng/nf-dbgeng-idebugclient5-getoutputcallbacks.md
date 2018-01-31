@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 43f27e56-a6aa-4548-9c96-000e53a7eb9a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient_693aaf2a-8408-48c4-b7c0-66e7064a6f35.xml, IDebugClient5 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient2 interface [Windows Debugging], GetOutputCallbacks method, dbgeng/IDebugClient::GetOutputCallbacks, dbgeng/IDebugClient5::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], debugger.getoutputcallbacks, IDebugClient5::GetOutputCallbacks, GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], GetOutputCallbacks method, GetOutputCallbacks method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient4::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient4::GetOutputCallbacks, IDebugClient5, dbgeng/IDebugClient3::GetOutputCallbacks, IDebugClient interface [Windows Debugging], GetOutputCallbacks method, GetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient2::GetOutputCallbacks, dbgeng/IDebugClient2::GetOutputCallbacks, IDebugClient::GetOutputCallbacks, IDebugClient3::GetOutputCallbacks, IDebugClient3 interface [Windows Debugging], GetOutputCallbacks method
+ms.keywords: GetOutputCallbacks method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], GetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient2::GetOutputCallbacks, IDebugClient4::GetOutputCallbacks, IDebugClient3 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient::GetOutputCallbacks, IDebugClient_693aaf2a-8408-48c4-b7c0-66e7064a6f35.xml, debugger.getoutputcallbacks, dbgeng/IDebugClient2::GetOutputCallbacks, IDebugClient3::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient5, GetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, GetOutputCallbacks, dbgeng/IDebugClient4::GetOutputCallbacks, IDebugClient5::GetOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient interface [Windows Debugging], GetOutputCallbacks method, dbgeng/IDebugClient::GetOutputCallbacks, dbgeng/IDebugClient3::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], GetOutputCallbacks method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT GetOutputCallbacks(
 
 
 
-### -param Callbacks [out]
+#### - Callbacks [out]
 
 Receives an interface pointer to the <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> object registered with the client.
 
@@ -115,17 +115,17 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 

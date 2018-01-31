@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PM_CAPABILITIES, ntddndis/NDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, _NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES
+ms.keywords: NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PM_CAPABILITIES, _NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES, netvista.ndis_pm_capabilities, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,7 @@ typedef struct _NDIS_PM_CAPABILITIES {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_PM_CAPABILITIES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -106,7 +106,7 @@ Original version for NDIS 6.20.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. For NDIS 6.20, this member is reserved for NDIS.
 
@@ -143,7 +143,7 @@ If this flag is set, the miniport driver supports NDIS selective suspend for net
 For more information about this power management capability, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451659">NDIS Selective Suspend</a>.
 
 
-### -field SupportedWoLPacketPatterns
+#### - SupportedWoLPacketPatterns
 
 A ULONG value that contains a bitwise OR of flags that specify the wake-on-LAN (WOL) patterns that
      a network adapter supports. Miniport drivers use these flags to advertise packet based WOL patterns that a network adapter
@@ -248,7 +248,7 @@ The network adapter can generate a wake-up event when it receives an EAPOL reque
        message.
 
 
-### -field NumTotalWoLPatterns
+#### - NumTotalWoLPatterns
 
 A <b>ULONG</b> value that contains the total number of WOL patterns that a network adapter supports. This is the sum of "number of
       supported WOL protocol patterns" and "number of supported WOL bitmap patterns."
@@ -260,25 +260,25 @@ For example, if  your driver supports 8 flexible bitmap patterns, IPv4 TCP SYN (
      <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>.
 
 
-### -field MaxWoLPatternSize
+#### - MaxWoLPatternSize
 
 A ULONG value that contains the maximum number of bytes that can be compared with a
      pattern.
 
 
-### -field MaxWoLPatternOffset
+#### - MaxWoLPatternOffset
 
 A ULONG value that contains the number of bytes in a packet that can be examined, starting at
      the beginning of the MAC header.
 
 
-### -field MaxWoLPacketSaveBuffer
+#### - MaxWoLPacketSaveBuffer
 
 A ULONG value that contains the number of bytes of a WOL packet that a miniport driver can save to
      a buffer and indicate up the driver stack. This value must be less than or equal to the size, in bytes, of the maximum transmission unit (MTU)  for the network media. The driver reports the MTU size through OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>.
 <div class="alert"><b>Note</b>  This member is ignored in NDIS 6.20 and earlier versions of NDIS. Starting with NDIS 6.30, this member must contain a nonzero value if the NDIS_PM_WAKE_PACKET_INDICATION_SUPPORTED flag is set in the <b>Flags</b> member.</div><div> </div>
 
-### -field SupportedProtocolOffloads
+#### - SupportedProtocolOffloads
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the protocol offload features that
      a network adapter supports. Miniport drivers use these flags to report the low power protocol offload capabilities
@@ -312,18 +312,18 @@ The network adapter can respond to IEEE 802.11i Robust Security Network (RSN) re
        while it is in a low power state.
 
 
-### -field NumArpOffloadIPv4Addresses
+#### - NumArpOffloadIPv4Addresses
 
 A <b>ULONG</b> value that contains the number of IPv4 addresses that the adapter supports for ARP
      offload.
 
 
-### -field NumNSOffloadIPv6Addresses
+#### - NumNSOffloadIPv6Addresses
 
 A <b>ULONG</b> value that contains the number of IPv6 NS offload requests that the adapter supports. This should be at least 2.
 <div class="alert"><b>Note</b>  Despite its name, the <b>NumNSOffloadIPv6Addresses</b> contains the number of supported requests, not addresses.</div><div> </div>
 
-### -field MinMagicPacketWakeUp
+#### - MinMagicPacketWakeUp
 
 Specifies the lowest device power state from which a network adapter can signal a wake-up event on receipt of
      a magic packet. A 
@@ -361,7 +361,7 @@ The network adapter can signal a magic packet wake-up from a device state of D2.
 The network adapter can signal a magic packet wake-up from a device power state  of D3.
 
 
-### -field MinPatternWakeUp
+#### - MinPatternWakeUp
 
 Specifies the lowest device power state from which a network adapter can signal a wake-up event on receipt of
      a network frame that contains a pattern that is specified by the protocol driver. The power state is
@@ -397,7 +397,7 @@ The network adapter can signal a pattern-match wake-up from a device power state
 The network adapter can signal a pattern-match wake-up from a device power state of D3.
 
 
-### -field MinLinkChangeWakeUp
+#### - MinLinkChangeWakeUp
 
 Starting with NDIS 6.20, this member specifies the lowest device power state from which a network adapter can signal a wake-up event when the link
      state changes from media disconnected to media connected. 
@@ -437,7 +437,7 @@ The network adapter can signal a link change wake-up from a device power state o
 The network adapter can signal a link change wake-up from a device power state of D3.
 
 
-### -field SupportedWakeUpEvents
+#### - SupportedWakeUpEvents
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. These flags specify the   media-independent wake-up events that a network adapter supports. 
      These events are not specific to media type.
@@ -457,7 +457,7 @@ If this flag is set, the network adapter can generate a wake-up event when it be
 If this flag is set, the network adapter can generate a wake-up event when it becomes disconnected to the networking interface.
 
 
-### -field MediaSpecificWakeUpEvents
+#### - MediaSpecificWakeUpEvents
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. These flags specify the media-specific wake-up events that a network adapter supports. 
      
@@ -538,23 +538,23 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
-
-<mshelp:link keywords="netvista.ndis_status_pm_capabilities_change" tabindex="0"><b>
-   NDIS_STATUS_PM_CAPABILITIES_CHANGE</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
+
+<mshelp:link keywords="netvista.ndis_status_pm_capabilities_change" tabindex="0"><b>
+   NDIS_STATUS_PM_CAPABILITIES_CHANGE</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
 
  
 

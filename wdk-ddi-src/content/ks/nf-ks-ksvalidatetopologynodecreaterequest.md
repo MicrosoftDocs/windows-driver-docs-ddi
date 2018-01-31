@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a7d69bf8-7aa8-46c2-98f9-769ee174757b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, stream.ksvalidatetopologynodecreaterequest
+ms.keywords: ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, stream.ksvalidatetopologynodecreaterequest, KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ks/KsValidateTopologyNodeCreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsValidateTopologyNodeCreateRequest(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP with the node create request being handled.
 
 
-### -param Topology [in]
+#### - Topology [in]
 
 Specifies the topology structure associated with the parent object. This is used to validate the create request.
 
 
-### -param NodeCreate [out]
+#### - NodeCreate [out]
 
 Location for the node create structure pointer passed to the create request.
 

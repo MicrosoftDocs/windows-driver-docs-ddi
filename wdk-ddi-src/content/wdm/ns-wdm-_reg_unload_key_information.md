@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 171d712d-89e0-44f4-aa52-b9048c20abf2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PREG_UNLOAD_KEY_INFORMATION, kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, wdm/REG_UNLOAD_KEY_INFORMATION, _REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information, PREG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "_REG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, *PREG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION, wdm/REG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_UNLOAD_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION"
+req.typenames: REG_UNLOAD_KEY_INFORMATION, *PREG_UNLOAD_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef struct _REG_UNLOAD_KEY_INFORMATION {
 
 
 
-### -field Object
+#### - Object
 
 A pointer to a registry key object. This object represents the root key of the hive that is being unloaded.
 
 
-### -field UserEvent
+#### - UserEvent
 
 A pointer to an event object.
 
 
-### -field CallContext
+#### - CallContext
 
 Optional driver-defined context information that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can supply. This member is defined starting with Windows Vista.
 
 
-### -field ObjectContext
+#### - ObjectContext
 
 A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved for future use. This member is defined starting with Windows Vista.
 

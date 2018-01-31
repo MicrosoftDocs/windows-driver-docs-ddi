@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f00ff32-5ecf-40ca-91bb-aacc542bb7f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo, D3D10DDI_MIPINFO structure [Display Devices], d3d10umddi/D3D10DDI_MIPINFO
+ms.keywords: UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, d3d10umddi/D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo, D3D10DDI_MIPINFO, D3D10DDI_MIPINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct D3D10DDI_MIPINFO {
 
 
 
-### -field TexelWidth
+#### - TexelWidth
 
 [in] The width, in texels, of the surface or volume, or the length, in texels, of the linear resource.
 
 
-### -field TexelHeight
+#### - TexelHeight
 
 [in] The height, in texels, of the surface or volume.
 
 
-### -field TexelDepth
+#### - TexelDepth
 
 [in] The depth, in texels, of the volume.
 
 
-### -field PhysicalWidth
+#### - PhysicalWidth
 
 [in] The width, in pixels, of the surface or volume, or the length, in pixels, of the linear resource.
 
 
-### -field PhysicalHeight
+#### - PhysicalHeight
 
 [in] The height, in pixels, of the surface or volume.
 
 
-### -field PhysicalDepth
+#### - PhysicalDepth
 
 [in] The depth, in pixels, of the volume.
 

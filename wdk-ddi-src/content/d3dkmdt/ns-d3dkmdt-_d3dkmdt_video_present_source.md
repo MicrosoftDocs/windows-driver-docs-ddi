@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 907df90c-dfea-40bf-9d08-5f5d87571ed8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices], DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml, display.d3dkmdt_video_present_source, _D3DKMDT_VIDEO_PRESENT_SOURCE, D3DKMDT_VIDEO_PRESENT_SOURCE, d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE
+ms.keywords: D3DKMDT_VIDEO_PRESENT_SOURCE, d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE, display.d3dkmdt_video_present_source, D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices], _D3DKMDT_VIDEO_PRESENT_SOURCE, DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMDT_VIDEO_PRESENT_SOURCE {
 
 
 
-### -field Id
+#### - Id
 
 The identifier of a video present source.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved for future use.
 
@@ -91,11 +91,11 @@ For more information about video present sources, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_target.md">D3DKMDT_VIDEO_PRESENT_TARGET</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
  
 

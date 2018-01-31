@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5738654A-83B1-44B4-BA45-52E2B60C852D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_UCHAR, wdf.wdf_write_register_uchar, WDF_WRITE_REGISTER_UCHAR function, WDF_WRITE_REGISTER_UCHAR
+ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_UCHAR, WDF_WRITE_REGISTER_UCHAR, wdf.wdf_write_register_uchar, WDF_WRITE_REGISTER_UCHAR function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ void WDF_WRITE_REGISTER_UCHAR(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a byte to write to the register.
 

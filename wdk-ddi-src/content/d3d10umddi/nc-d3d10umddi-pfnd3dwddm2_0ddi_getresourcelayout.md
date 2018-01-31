@@ -40,7 +40,7 @@ apiname:
 -	pfnGetResourceLayout
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback
@@ -84,7 +84,7 @@ VOID APIENTRY* pfnGetResourceLayout(
 
 
 
-### -param SubresourceCount
+#### - SubresourceCount
 
 The subresource count.
 
@@ -96,8 +96,9 @@ The subresource count.
 
 
 
-### -param *pMipLevelSwizzleTransition
+#### - *pMipLevelSwizzleTransition [out]
 
+A pointer to a MIP level swizzle transition. 
 
 
 #### - hDevice

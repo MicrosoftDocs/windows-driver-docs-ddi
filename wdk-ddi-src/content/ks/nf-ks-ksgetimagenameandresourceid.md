@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetImageNameAndResourceId function [Streaming Media Devices], KsGetImageNameAndResourceId, stream.ksgetimagenameandresourceid, ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml
+ms.keywords: KsGetImageNameAndResourceId, ks/KsGetImageNameAndResourceId, stream.ksgetimagenameandresourceid, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, KsGetImageNameAndResourceId function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsGetImageNameAndResourceId(
 
 
 
-### -param RegKey [in]
+#### - RegKey [in]
 
 Specifies a handle for which to return the image name and resource identifier.
 
 
-### -param ImageName [out]
+#### - ImageName [out]
 
 A caller-allocated buffer that receives the image name for the specified resource.
 
 
-### -param ResourceId [out]
+#### - ResourceId [out]
 
 Pointer to a caller-supplied variable that receives the resource identifier.
 
 
-### -param ValueType [out]
+#### - ValueType [out]
 
 Pointer to a location into which the function returns the value type of the specified resource.
 

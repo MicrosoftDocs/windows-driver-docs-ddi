@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 46e38460-9284-4305-997d-bf72b308f301
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaPropertyNodeDescriptors, bdasup/BdaPropertyNodeDescriptors, bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, BdaPropertyNodeDescriptors function [Streaming Media Devices], stream.bdapropertynodedescriptors
+ms.keywords: bdasup/BdaPropertyNodeDescriptors, BdaPropertyNodeDescriptors, stream.bdapropertynodedescriptors, bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, BdaPropertyNodeDescriptors function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ NTSTATUS BdaPropertyNodeDescriptors(
 TBD
 
 
-### -param pKSProperty [in]
+#### - pKSProperty [in]
 
 Points to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
@@ -116,9 +116,9 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564324">KSPROPERTY_BDA_NODE_DESCRIPTORS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetEtherTypeHandling
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,7 @@ DWORD WINAPI * Dot11ExtSetEtherTypeHandling(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -96,7 +96,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-### -param uMaxBackLog [in]
+#### - uMaxBackLog [in]
 
 The maximum number of received packets that the operating system queues if the IHV Extensions DLL
      has not returned from a call to the 
@@ -105,20 +105,20 @@ The maximum number of received packets that the operating system queues if the I
      <i>uMaxBackLog</i> is reached, the operating system discards the oldest packet in the queue.
 
 
-### -param uNumOfExemption [in]
+#### - uNumOfExemption [in]
 
 The number of entries within the privacy exemptions array referenced by the 
      <i>pExemption</i> parameter. A value of zero disables privacy exemptions on the WLAN adapter.
 
 
-### -param pExemption [in, optional]
+#### - pExemption [in, optional]
 
 A pointer to an array of privacy exemptions. Each entry in the array is formatted as a 
      <mshelp:link keywords="netvista.dot11_privacy_exemption" tabindex="0"><b>
      DOT11_PRIVACY_EXEMPTION</b></mshelp:link> structure.
 
 
-### -param uNumOfRegistration [in]
+#### - uNumOfRegistration [in]
 
 Number of entries within the IEEE EtherType registrations array referenced by the 
      <i>pusRegistration</i> parameter. A value of zero disables the ability of the IHV Extensions DLL to
@@ -127,11 +127,10 @@ Number of entries within the IEEE EtherType registrations array referenced by th
      Handler function.
 
 
-### -param *pusRegistration
+#### - *pusRegistration [in, optional]
 
-
-
-
+A pointer to an array of IEEE EtherType registrations. Each entry has the EtherType value in
+     big-endian format.
 
 
 #### - pusRegistration [in, optional]
@@ -183,18 +182,18 @@ The IHV Extensions DLL must not call
 
 <a href="..\windot11\ns-windot11-dot11_privacy_exemption.md">DOT11_PRIVACY_EXEMPTION</a>
 
-<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-   Dot11ExtPreAssociateCompletion</b></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
    Functions</mshelp:link>
 
+<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
+   Dot11ExtPreAssociateCompletion</b></mshelp:link>
+
 <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
  
 

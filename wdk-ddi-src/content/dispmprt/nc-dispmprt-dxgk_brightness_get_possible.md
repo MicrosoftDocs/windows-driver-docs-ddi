@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiGetPossibleBrightness
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_GET_POSSIBLE callback
@@ -73,22 +73,22 @@ NTSTATUS* DxgkDdiGetPossibleBrightness(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 [in] The size, in bytes, of the buffer that is passed in the <i>BrightnessLevels</i> parameter. 
 
 
-### -param LevelCount [out]
+#### - LevelCount [out]
 
 [out] A pointer to a variable that receives the number of brightness levels that the driver returns in the buffer that the <i>BrightnessLevels</i> parameter points to. 
 
 
-### -param BrightnessLevels [out]
+#### - BrightnessLevels [out]
 
 [in/out] A pointer to a buffer that receives the brightness levels that an integrated display panel supports.
 

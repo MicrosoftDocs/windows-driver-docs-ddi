@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 17ee1a71-2aaf-421d-9ae9-019fe0d2f595
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_SCO_FLUSH_CHANNEL, bltooth._brb_sco_flush_channel, _BRB_SCO_FLUSH_CHANNEL structure [Bluetooth Devices], bth_structs_d2a9941d-7091-402d-87bc-a5da139dfc1f.xml, _BRB_SCO_FLUSH_CHANNEL
+ms.keywords: bltooth._brb_sco_flush_channel, _BRB_SCO_FLUSH_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_SCO_FLUSH_CHANNEL, bth_structs_d2a9941d-7091-402d-87bc-a5da139dfc1f.xml, _BRB_SCO_FLUSH_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ struct _BRB_SCO_FLUSH_CHANNEL {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The Bluetooth address of the remote device.
 
 
-### -field ChannelHandle
+#### - ChannelHandle
 
 The handle to the SCO channel to flush.
 
 
-### -field FlushFlags
+#### - FlushFlags
 
 
 
@@ -123,9 +123,9 @@ All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536623">BRB_SCO_FLUSH_CHANNEL</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536623">BRB_SCO_FLUSH_CHANNEL</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B5B2051E-C62F-4E3D-9C52-DE46145A2C24
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PD_BUFFER_8021Q_INFO, ndis/PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], PPD_BUFFER_8021Q_INFO, ndis/PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista], netvista.pd_buffer_8021q_info, _PD_BUFFER_8021Q_INFO
+ms.keywords: PD_BUFFER_8021Q_INFO, ndis/PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista], netvista.pd_buffer_8021q_info, _PD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/PPD_BUFFER_8021Q_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _PD_BUFFER_8021Q_INFO {
 
 
 
-### -field UserPriority
+#### - UserPriority
 
 The user priority.
 
 
-### -field CanonicalFormatId
+#### - CanonicalFormatId
 
 The canonical format ID.
 
 
-### -field VlanId
+#### - VlanId
 
 The virtual LAN ID.
 

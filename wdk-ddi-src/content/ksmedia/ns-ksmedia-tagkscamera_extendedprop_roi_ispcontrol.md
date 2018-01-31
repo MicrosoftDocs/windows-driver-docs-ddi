@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 49EAB8F3-35B9-4F99-A7B8-66B582B228B1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, stream.kscamera_extendedprop_roi_ispcontrol, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+ms.keywords: tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, stream.kscamera_extendedprop_roi_ispcontrol, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+req.typenames: "*PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL"
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure
@@ -70,7 +70,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL {
 
 
 
-### -field ControlId
+#### - ControlId
 
 The ISP control ID. The following are valid values for this field. These values are defined in ksmedia.h.
 <ul>
@@ -88,17 +88,17 @@ KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE
 </li>
 </ul>
 
-### -field ROICount
+#### - ROICount
 
 The number of ROIs associated with this ISP control.
 
 
-### -field Result
+#### - Result
 
 The error results of the last SET operation for this ISP control.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 

@@ -40,7 +40,7 @@ apiname:
 -	EnumerateInterruptSource
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback
@@ -71,12 +71,12 @@ BOOLEAN EnumerateInterruptSource(
 
 
 
-### -param CallbackContext [in]
+#### - CallbackContext [in]
 
 A pointer to a callback context. The PEP specified this pointer value as a parameter in the <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a> call that initiated the enumeration of interrupt sources.
 
 
-### -param InterruptInformation [in]
+#### - InterruptInformation [in]
 
 A pointer to a <a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure that contains information about the interrupt source.
 

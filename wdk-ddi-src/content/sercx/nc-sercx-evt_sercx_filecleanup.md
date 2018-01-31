@@ -71,7 +71,7 @@ VOID EvtSerCxFileCleanup(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
@@ -106,9 +106,9 @@ For more information, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx_fileclose.md">EvtSerCxFileClose</a>
-
 <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_fileclose.md">EvtSerCxFileClose</a>
 
  
 

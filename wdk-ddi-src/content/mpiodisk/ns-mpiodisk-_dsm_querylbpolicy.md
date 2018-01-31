@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2ac985a-8fcb-48ad-b100-4137b5b1a777
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDSM_QueryLBPolicy, *PDSM_QueryLBPolicy, PDSM_QueryLBPolicy structure pointer [Storage Devices], storage.dsm_querylbpolicy, _DSM_QueryLBPolicy, mpiodisk/PDSM_QueryLBPolicy, DSM_QueryLBPolicy, mpiodisk/DSM_QueryLBPolicy, DSM_QueryLBPolicy structure [Storage Devices], structs-scsibus_f1a0bedd-e5ba-474d-9a45-ae6a2863cfb3.xml
+ms.keywords: "_DSM_QueryLBPolicy, DSM_QueryLBPolicy structure [Storage Devices], DSM_QueryLBPolicy, structs-scsibus_f1a0bedd-e5ba-474d-9a45-ae6a2863cfb3.xml, storage.dsm_querylbpolicy, PDSM_QueryLBPolicy, mpiodisk/DSM_QueryLBPolicy, mpiodisk/PDSM_QueryLBPolicy, *PDSM_QueryLBPolicy, PDSM_QueryLBPolicy structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DSM_QueryLBPolicy
 product: Windows
 targetos: Windows
-req.typenames: "*PDSM_QueryLBPolicy, DSM_QueryLBPolicy"
+req.typenames: DSM_QueryLBPolicy, *PDSM_QueryLBPolicy
 ---
 
 # _DSM_QueryLBPolicy structure
@@ -67,7 +67,7 @@ typedef struct _DSM_QueryLBPolicy {
 
 
 
-### -field LoadBalancePolicy
+#### - LoadBalancePolicy
 
 An instance of a DSM_Load_Balance_Policy structure that has information about the current load balance policy that is being applied by the DSM on the targeted pseudo-LUN.
 

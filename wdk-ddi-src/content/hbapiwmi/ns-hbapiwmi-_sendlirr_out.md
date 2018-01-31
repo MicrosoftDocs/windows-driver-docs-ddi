@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, PSendLIRR_OUT structure pointer [Storage Devices], PSendLIRR_OUT, _SendLIRR_OUT, SendLIRR_OUT structure [Storage Devices], structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, storage.sendlirr_out, SendLIRR_OUT, hbapiwmi/SendLIRR_OUT"
+ms.keywords: hbapiwmi/SendLIRR_OUT, SendLIRR_OUT, _SendLIRR_OUT, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, PSendLIRR_OUT structure pointer [Storage Devices], *PSendLIRR_OUT, PSendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, SendLIRR_OUT structure [Storage Devices], storage.sendlirr_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendLIRR_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-### -field TotalRspBufferSize
+#### - TotalRspBufferSize
 
 Contains the size in bytes of the results of the LIRR command. 
 
 
-### -field ActualRspBufferSize
+#### - ActualRspBufferSize
 
 Contains the size in bytes of the data that was actually retrieved. 
 
 
-### -field RspBuffer
+#### - RspBuffer
 
 Contains the results of the LIRR command. 
 

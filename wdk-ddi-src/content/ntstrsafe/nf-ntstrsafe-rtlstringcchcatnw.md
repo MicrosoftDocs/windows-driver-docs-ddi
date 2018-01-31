@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, ntstrsafe/RtlStringCchCatNA, RtlStringCchCatN, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], RtlStringCchCatNW, ntstrsafe/RtlStringCchCatNW, kernel.rtlstringcchcatn, RtlStringCchCatNA
+ms.keywords: RtlStringCchCatNW, ntstrsafe/RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNW, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], RtlStringCchCatNA, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, kernel.rtlstringcchcatn, RtlStringCchCatN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS RtlStringCchCatNW(
 
 
 
-### -param pszDest [in, out]
+#### - pszDest [in, out]
 
 A pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cchMaxAppend</i> characters, is added to the end of the string at <i>pszDest</i> and terminated with a null character.
 
 
-### -param cchDest [in]
+#### - cchDest [in]
 
 The size of the destination buffer, in characters. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. 
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>. 
 
@@ -216,11 +216,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnw.md">RtlStringCbCatN</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatw.md">RtlStringCchCat</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnw.md">RtlStringCbCatN</a>
 
  
 

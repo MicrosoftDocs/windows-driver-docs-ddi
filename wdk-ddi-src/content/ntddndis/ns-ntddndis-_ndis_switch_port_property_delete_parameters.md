@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 92ef7d1a-2ede-4bbb-87bd-dcad53c25ea7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, ntddndis/NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, _NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, netvista.ndis_switch_port_property_delete_parameters, *PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, *PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, netvista.ndis_switch_port_property_delete_parameters, PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, *PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS
+req.typenames: "*PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS"
 ---
 
 # _NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure
@@ -72,7 +72,7 @@ typedef struct _NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -88,29 +88,29 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-### -field PortId
+#### - PortId
 
  An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensible switch port to which the property is assigned.
 
 
-### -field PropertyType
+#### - PropertyType
 
  An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_property_type.md">NDIS_SWITCH_PORT_PROPERTY_TYPE</a> enumeration value that specifies the type of port property that will be deleted.
 
 
-### -field PropertyId
+#### - PropertyId
 
 A GUID value that identifies the property for the extensible switch port.
 
 
 
 
-### -field PropertyInstanceId
+#### - PropertyInstanceId
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that specifies the instance identifier for the extensible switch port property.
 

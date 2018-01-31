@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dd2bf12-741b-4f3a-9c80-367b5d5036b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_BUFFERBLT1, _D3DDDIARG_BUFFERBLT1, D3DDDIARG_BUFFERBLT1 structure [Display Devices], d3dumddi/D3DDDIARG_BUFFERBLT1, display.d3dddiarg_bufferblt1
+ms.keywords: display.d3dddiarg_bufferblt1, D3DDDIARG_BUFFERBLT1 structure [Display Devices], D3DDDIARG_BUFFERBLT1, d3dumddi/D3DDDIARG_BUFFERBLT1, _D3DDDIARG_BUFFERBLT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DDDIARG_BUFFERBLT1 {
 
 
 
-### -field hDstResource
+#### - hDstResource
 
 A handle to the destination resource.
 
 
-### -field hSrcResource
+#### - hSrcResource
 
 A handle to the source resource.
 
 
-### -field Offset
+#### - Offset
 
 The offset in the destination surface, in bytes.
 
 
-### -field SrcRange
+#### - SrcRange
 
 The source range.
 
 
-### -field CopyFlags
+#### - CopyFlags
 
 A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
 

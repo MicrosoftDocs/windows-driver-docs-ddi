@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, audio.iportclspower_setidlepowermanagement, SetIdlePowerManagement method [Audio Devices], audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, IPortClsPower::SetIdlePowerManagement, portcls/IPortClsPower::SetIdlePowerManagement, IPortClsPower
+ms.keywords: audio.iportclspower_setidlepowermanagement, portcls/IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement, IPortClsPower, SetIdlePowerManagement method [Audio Devices], IPortClsPower::SetIdlePowerManagement, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, SetIdlePowerManagement method [Audio Devices], IPortClsPower interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsPower.SetIdlePowerManagement
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsPower::SetIdlePowerManagement method
@@ -105,11 +105,11 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
+
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
 
  
 

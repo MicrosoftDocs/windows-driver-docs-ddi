@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, ntdddisk/FORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], ntdddisk/PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, _FORMAT_EX_PARAMETERS, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml, FORMAT_EX_PARAMETERS structure [Storage Devices]
+ms.keywords: storage.format_ex_parameters, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], _FORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, ntdddisk/FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _FORMAT_EX_PARAMETERS {
 
 
 
-### -field MediaType
+#### - MediaType
 
 Indicates format information, such as the disk size and the number of bytes per sector. For a list of the values that can be assigned to this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>. 
 
 
-### -field StartCylinderNumber
+#### - StartCylinderNumber
 
 Indicates the number of the cylinder where the formatting should begin. 
 
 
-### -field EndCylinderNumber
+#### - EndCylinderNumber
 
 Indicates the number of the cylinder where the formatting should end. 
 
 
-### -field StartHeadNumber
+#### - StartHeadNumber
 
 Indicates the number of the head where the formatting should begin. 
 
 
-### -field EndHeadNumber
+#### - EndHeadNumber
 
 Indicates the number of the head where the formatting should end. 
 
 
-### -field FormatGapLength
+#### - FormatGapLength
 
 Indicates the length in bytes of a format gap. 
 
 
-### -field SectorsPerTrack
+#### - SectorsPerTrack
 
 Indicates the number of sectors per track. 
 
 
-### -field SectorNumber
+#### - SectorNumber
 
 Contains an array whose first element indicates the number of the sector where the formatting should begin. 
 

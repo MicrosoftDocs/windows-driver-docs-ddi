@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 07928837-321C-4501-BDFF-4611BF6912F6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.kstelephony_providerchange, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], ksmedia/KSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE
+ms.keywords: audio.kstelephony_providerchange, KSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], *PKSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE, _tagKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE, ksmedia/KSTELEPHONY_PROVIDERCHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSTELEPHONY_PROVIDERCHANGE
 product: Windows
 targetos: Windows
-req.typenames: "*PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE"
+req.typenames: KSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE
 ---
 
 # _tagKSTELEPHONY_PROVIDERCHANGE structure
@@ -68,12 +68,12 @@ typedef struct _tagKSTELEPHONY_PROVIDERCHANGE {
 
 
 
-### -field CallType
+#### - CallType
 
 Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN packet-switched).
 
 
-### -field ProviderChangeOp
+#### - ProviderChangeOp
 
 Specifies the change operation requested by the provider (begin, end, or cancel).
 

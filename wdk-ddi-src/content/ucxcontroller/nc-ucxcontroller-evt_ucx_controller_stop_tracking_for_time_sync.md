@@ -40,7 +40,7 @@ apiname:
 -	EvUcxControllerStopTrackingForTimeSync
 product: Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+req.typenames: "*PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -74,23 +74,23 @@ void EvUcxControllerStopTrackingForTimeSync(
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param WdfRequest [in]
+#### - WdfRequest [in]
 
 A framework request object that contains the request to stop time tracking.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer
         is available. This value is the size of the <a href="..\usbioctl\ns-usbioctl-_usb_stop_tracking_for_time_sync_information.md">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. 
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer
         is available. This value is the size of the <a href="..\usbioctl\ns-usbioctl-_usb_stop_tracking_for_time_sync_information.md">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.

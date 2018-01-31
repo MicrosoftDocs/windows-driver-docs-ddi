@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7791969-027e-4df7-b720-1eb612597c56
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ketrytoacquirespinlockatdpclevel, k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, KeTryToAcquireSpinLockAtDpcLevel, wdm/KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.ketrytoacquirespinlockatdpclevel, k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], wdm/KeTryToAcquireSpinLockAtDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN KeTryToAcquireSpinLockAtDpcLevel(
 
 
 
-### -param SpinLock [in, out]
+#### - SpinLock [in, out]
 
 Specifies the spin lock to acquire. The spin lock must have already been initialized by <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>.
 
@@ -95,13 +95,13 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
  
 

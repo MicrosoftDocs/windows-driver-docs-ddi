@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43529BA7-1F5A-4B9B-9792-2D6050F0480D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, *PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], _KSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices]
+ms.keywords: KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE, *PKSCAMERA_EXTENDEDPROP_PROFILE, _KSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,19 +69,19 @@ typedef struct _KSCAMERA_EXTENDEDPROP_PROFILE {
 
 
 
-### -field ProfileId
+#### - ProfileId
 
 A GUID representing the selected profile.  If this is KSCAMERAPROFILE_Legacy, no profile was selected, the camera driver must expose the Reduced Set Media Type.
 
 If this field is GUID_NULL, no profile was selected, but the application is profile aware so the camera driver must expose the full range of media types.
 
 
-### -field Index
+#### - Index
 
 An index value associated with the identified profile.
 
 
-### -field Reserved
+#### - Reserved
 
 Unused.  Must be 0.
 

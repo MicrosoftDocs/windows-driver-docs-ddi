@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49dc5866-d793-41a7-9d9e-e89eea6f2f28
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetVolumeFromDeviceObject, FltApiRef_e_to_o_fcc59f13-4385-478e-ba1b-c539f13930af.xml, ifsk.fltgetvolumefromdeviceobject, FltGetVolumeFromDeviceObject, FltGetVolumeFromDeviceObject routine [Installable File System Drivers]
+ms.keywords: FltGetVolumeFromDeviceObject routine [Installable File System Drivers], ifsk.fltgetvolumefromdeviceobject, FltApiRef_e_to_o_fcc59f13-4385-478e-ba1b-c539f13930af.xml, fltkernel/FltGetVolumeFromDeviceObject, FltGetVolumeFromDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltGetVolumeFromDeviceObject(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the volume device object. 
 
 
-### -param RetVolume [out]
+#### - RetVolume [out]
 
 Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
 

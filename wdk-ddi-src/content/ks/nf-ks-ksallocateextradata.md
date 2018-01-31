@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dfeaca74-d34d-4128-bd76-3a1bf1b3f5d6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateExtraData, ks/KsAllocateExtraData, stream.ksallocateextradata, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, KsAllocateExtraData function [Streaming Media Devices]
+ms.keywords: stream.ksallocateextradata, KsAllocateExtraData, ks/KsAllocateExtraData, KsAllocateExtraData function [Streaming Media Devices], ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsAllocateExtraData(
 
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 Specifies the IRP containing the stream headers. The IRP must have been previously passed to <b>KsProbeStreamIrp</b> to buffer the headers.
 
 
-### -param ExtraSize [in]
+#### - ExtraSize [in]
 
 Specifies the size, in bytes, of additional memory to allocate between each stream header. This value <i>must</i> be alignable on an eight-byte boundary. A copy of the headers is placed in the returned buffer, with the extra data size inserted between each header. This must be freed by the caller.
 
 
-### -param ExtraBuffer [out]
+#### - ExtraBuffer [out]
 
 Points to a caller-allocated pointer that, on successful completion, points to a system-allocated buffer containing the stream headers and the requested padding between them. This must be freed by the caller.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 563fe6c9-868e-4b84-b14b-baee8ab00a2d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2trianglefan, LPD3DHAL_DP2TRIANGLEFAN structure pointer [Display Devices], d3dstrct_6726a70e-3ff1-4a9f-ac1e-46acf9be04e9.xml, d3dhal/D3DHAL_DP2TRIANGLEFAN, *LPD3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN, LPD3DHAL_DP2TRIANGLEFAN, _D3DHAL_DP2TRIANGLEFAN, d3dhal/LPD3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN structure [Display Devices]
+ms.keywords: display.d3dhal_dp2trianglefan, D3DHAL_DP2TRIANGLEFAN structure [Display Devices], d3dhal/LPD3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN, LPD3DHAL_DP2TRIANGLEFAN structure pointer [Display Devices], _D3DHAL_DP2TRIANGLEFAN, d3dhal/D3DHAL_DP2TRIANGLEFAN, d3dstrct_6726a70e-3ff1-4a9f-ac1e-46acf9be04e9.xml, *LPD3DHAL_DP2TRIANGLEFAN, LPD3DHAL_DP2TRIANGLEFAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DHAL_DP2TRIANGLEFAN {
 
 
 
-### -field wVStart
+#### - wVStart
 
 Specifies the index into the vertex buffer containing coordinate data for the initial vertex of the triangle fan.
 

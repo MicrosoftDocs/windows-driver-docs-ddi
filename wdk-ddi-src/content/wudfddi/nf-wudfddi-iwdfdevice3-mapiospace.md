@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, MapIoSpace method, IWDFDevice3 interface, IWDFDevice3 interface, MapIoSpace method, MapIoSpace, MapIoSpace method, IWDFDevice3::MapIoSpace, wudfddi/IWDFDevice3::\_MapIoSpace, IWDFDevice3::\_MapIoSpace
+ms.keywords: IWDFDevice3::\_MapIoSpace, umdf.iwdfdevice3_mapiospace, MapIoSpace method, IWDFDevice3 interface, MapIoSpace, MapIoSpace method, wudfddi/IWDFDevice3::\_MapIoSpace, IWDFDevice3::MapIoSpace, IWDFDevice3, IWDFDevice3 interface, MapIoSpace method, wdf.iwdfdevice3_mapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.MapIoSpace
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ HRESULT  MapIoSpace(
 
 
 
-### -param PhysicalAddress [in]
+#### - PhysicalAddress [in]
 
 Specifies the starting 64-bit physical address of the I/O range to be mapped.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wudfwdm.h.
 
 
-### -param pPseudoBaseAddress [out]
+#### - pPseudoBaseAddress [out]
 
 The address of a location that receives a pointer to the pseudo base address.
 

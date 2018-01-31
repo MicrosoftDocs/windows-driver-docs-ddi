@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.partialreplyprinterchangenotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, PartialReplyPrinterChangeNotification function [Print Devices], winsplp/PartialReplyPrinterChangeNotification, PartialReplyPrinterChangeNotification
+ms.keywords: spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, print.partialreplyprinterchangenotification, PartialReplyPrinterChangeNotification function [Print Devices], PartialReplyPrinterChangeNotification, winsplp/PartialReplyPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,9 +112,9 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>
-
 <a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a>
+
+<a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>
 
  
 

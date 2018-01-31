@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PoFxRegisterCoreDevice, PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice
+ms.keywords: kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], PoFxRegisterCoreDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PoFxRegisterCoreDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PoFxRegisterCoreDevice function
@@ -70,17 +70,17 @@ NTSTATUS PoFxRegisterCoreDevice(
 
 
 
-### -param Id [in]
+#### - Id [in]
 
 A string that uniquely identifies the core system resource. This member is a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
-### -param Device [in]
+#### - Device [in]
 
 A pointer to a <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
 
 
-### -param Handle [out]
+#### - Handle [out]
 
 A pointer to a location to which the routine writes a POHANDLE value. This handle represents the registration of the core system resource with PoFx.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval method, IPnpCallback interface, OnSurpriseRemoval method, wdf.ipnpcallback_onsurpriseremoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, wudfddi/IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval, IPnpCallback, IPnpCallback::OnSurpriseRemoval, IPnpCallback interface, OnSurpriseRemoval method
+ms.keywords: wdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval method, wudfddi/IPnpCallback::OnSurpriseRemoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, OnSurpriseRemoval, umdf.ipnpcallback_onsurpriseremoval, IPnpCallback interface, OnSurpriseRemoval method, IPnpCallback, OnSurpriseRemoval method, IPnpCallback interface, IPnpCallback::OnSurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallback.OnSurpriseRemoval
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void OnSurpriseRemoval(
 
 
 
-### -param pWdfDevice [in]
+#### - pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that is removed unexpectedly.
 
@@ -95,11 +95,11 @@ For more information about when the framework calls this callback function, and 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
  
 

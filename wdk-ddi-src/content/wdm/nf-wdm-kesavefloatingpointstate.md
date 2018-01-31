@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ab1b2dd-4848-4eb0-9836-e3be987535a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSaveFloatingPointState, k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, kernel.kesavefloatingpointstate, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], wdm/KeSaveFloatingPointState
+ms.keywords: k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, KeSaveFloatingPointState, kernel.kesavefloatingpointstate, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], wdm/KeSaveFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KeSaveFloatingPointState(
 
 
 
-### -param FloatSave [out]
+#### - FloatSave [out]
 
 Pointer to a caller-allocated resident buffer, which must be at least <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a>).
 
@@ -123,13 +123,13 @@ For performance reasons, drivers should avoid doing any floating-point operation
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-
-<a href="..\ntddk\nf-ntddk-keenterguardedregion.md">KeEnterGuardedRegion</a>
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 <a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+<a href="..\ntddk\nf-ntddk-keenterguardedregion.md">KeEnterGuardedRegion</a>
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 
 <a href="..\ntddk\nf-ntddk-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
 

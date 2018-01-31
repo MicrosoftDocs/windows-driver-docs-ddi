@@ -40,7 +40,7 @@ apiname:
 -	EvtIoAllocateRequestResources
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ NTSTATUS EvtIoAllocateRequestResources(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to an I/O queue object.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a request object that the framework has created. The framework has not yet added the request object to the I/O queue that the <i>Queue</i> parameter's handle specifies.
 

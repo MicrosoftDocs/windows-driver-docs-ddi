@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2664aec-dc96-4cf6-921b-ccd4ee6cf04e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddiarg_videodecoderbeginframe, D3D11_1DDIARG_VIDEODECODERBEGINFRAME structure [Display Devices], D3D11_1DDIARG_VIDEODECODERBEGINFRAME, d3d10umddi/D3D11_1DDIARG_VIDEODECODERBEGINFRAME
+ms.keywords: d3d10umddi/D3D11_1DDIARG_VIDEODECODERBEGINFRAME, D3D11_1DDIARG_VIDEODECODERBEGINFRAME structure [Display Devices], D3D11_1DDIARG_VIDEODECODERBEGINFRAME, display.d3d11_1ddiarg_videodecoderbeginframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,28 +69,28 @@ typedef struct D3D11_1DDIARG_VIDEODECODERBEGINFRAME {
 
 
 
-### -field hOutputView
+#### - hOutputView
 
 A handle to the driver's private data for the video decoder output view. This handle was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessoroutputview.md">CreateVideoProcessorOutputView</a> function.
 
 
-### -field pContentKey
+#### - pContentKey
 
 A pointer to a content key that was used to encrypt the video frame data. If no content key was used, set this member to <b>NULL</b>. If the caller provides a content key, the caller must use the session key to encrypt the content key.
 
 For more information, see the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a> function.
 
 
-### -field ContentKeySize
+#### - ContentKeySize
 
 The size, in bytes, of the content key that is specified in the <b>pContentKey</b> member.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessoroutputview.md">CreateVideoProcessorOutputView</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cabcb39c-1f8d-41dc-a6ec-78f3fb3911cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_INSTANCE_PARTIAL_INFORMATION, ifsk.instance_partial_information, fltuserstructures/PINSTANCE_PARTIAL_INFORMATION, FltSystemStructures_10279757-e7e1-49a9-aa12-184a830e1db7.xml, fltuserstructures/INSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION structure [Installable File System Drivers], PINSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION structure pointer [Installable File System Drivers]"
+ms.keywords: "_INSTANCE_PARTIAL_INFORMATION, FltSystemStructures_10279757-e7e1-49a9-aa12-184a830e1db7.xml, INSTANCE_PARTIAL_INFORMATION structure [Installable File System Drivers], PINSTANCE_PARTIAL_INFORMATION, fltuserstructures/PINSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION structure pointer [Installable File System Drivers], INSTANCE_PARTIAL_INFORMATION, ifsk.instance_partial_information, fltuserstructures/INSTANCE_PARTIAL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INSTANCE_PARTIAL_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
+req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
 
 # _INSTANCE_PARTIAL_INFORMATION structure
@@ -71,27 +71,27 @@ typedef struct _INSTANCE_PARTIAL_INFORMATION {
 
 
 
-### -field NextEntryOffset
+#### - NextEntryOffset
 
 Byte offset of the next INSTANCE_PARTIAL_INFORMATION entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one. 
 
 
-### -field InstanceNameLength
+#### - InstanceNameLength
 
 Length, in bytes, of the instance name. 
 
 
-### -field InstanceNameBufferOffset
+#### - InstanceNameBufferOffset
 
 Byte offset of the first character of the instance name string. This character is followed in memory by the remainder of the string. 
 
 
-### -field AltitudeLength
+#### - AltitudeLength
 
 Length, in bytes, of the altitude string for the instance. 
 
 
-### -field AltitudeBufferOffset
+#### - AltitudeBufferOffset
 
 Byte offset of the first character of the altitude string. This character is followed in memory by the remainder of the string. 
 
@@ -105,27 +105,27 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
 
  
 

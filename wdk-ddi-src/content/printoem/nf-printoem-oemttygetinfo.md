@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9b6fcd4e-6472-4e46-b0b7-dd1279e534d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemttygetinfo, printoem/OEMTTYGetInfo, OEMTTYGetInfo, print_obsoletefunctions_7da21ed3-626e-454f-9357-0ab0a0640a27.xml, OEMTTYGetInfo function [Print Devices]
+ms.keywords: printoem/OEMTTYGetInfo, print_obsoletefunctions_7da21ed3-626e-454f-9357-0ab0a0640a27.xml, print.oemttygetinfo, OEMTTYGetInfo function [Print Devices], OEMTTYGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ INT APIENTRY OEMTTYGetInfo(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 
 
-### -param dwInfoIndex
+#### - dwInfoIndex
 
 
 
-### -param pOutputBuf [out]
+#### - pOutputBuf [out]
 
 
 
-### -param dwSize
+#### - dwSize
 
 
 
-### -param pcbcNeeded [out]
+#### - pcbcNeeded [out]
 
 

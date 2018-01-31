@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 77a42d5e-92ff-4e64-9bd3-b713286d3db0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbCopyA, ntstrsafe/RtlStringCbCopyA, RtlStringCbCopy, safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml, RtlStringCbCopyW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCopyW, RtlStringCbCopyW, kernel.rtlstringcbcopy
+ms.keywords: safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml, RtlStringCbCopyW, kernel.rtlstringcbcopy, ntstrsafe/RtlStringCbCopyW, RtlStringCbCopyA, ntstrsafe/RtlStringCbCopyA, RtlStringCbCopy, RtlStringCbCopyW function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS RtlStringCbCopyW(
 
 
 
-### -param pszDest [out]
+#### - pszDest [out]
 
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character.
 
 
-### -param cbDest [in]
+#### - cbDest [in]
 
 The size, in bytes, of the destination buffer. The buffer must be large enough for the string and the terminating null character.
 
@@ -86,7 +86,7 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(W
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 A pointer to a caller-supplied, null-terminated string. 
 

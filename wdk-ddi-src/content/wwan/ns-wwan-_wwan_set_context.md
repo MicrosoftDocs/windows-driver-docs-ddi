@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00772a37-ef1b-446b-b7bd-1a6aa27d1dad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SET_CONTEXT, WWAN_SET_CONTEXT, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SET_CONTEXT, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, wwan/PWWAN_SET_CONTEXT, netvista.wwan_set_context, *PWWAN_SET_CONTEXT, wwan/WWAN_SET_CONTEXT
+ms.keywords: PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT, netvista.wwan_set_context, wwan/PWWAN_SET_CONTEXT, _WWAN_SET_CONTEXT, PWWAN_SET_CONTEXT, wwan/WWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT, WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SET_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT
+req.typenames: "*PWWAN_SET_CONTEXT, WWAN_SET_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ typedef struct _WWAN_SET_CONTEXT {
 
 
 
-### -field ContextId
+#### - ContextId
 
 A unique ID for this context.
      
@@ -88,14 +88,14 @@ For
      <i>query</i> OID_WWAN_PROVISIONED_CONTEXT requests.
 
 
-### -field ContextType
+#### - ContextType
 
 Specifies the type of context being represented, for example, Internet connectivity, VPN (a
      connection to a corporate network), or Voice-over-IP (VOIP). Miniport drivers should specify 
      <b>WwanContextTypeNone</b> for empty or unprovisioned contexts.
 
 
-### -field AccessString
+#### - AccessString
 
 A NULL-terminated string to access the network. For GSM-based networks, this would be an Access
      Point Name (APN) string such as "data.thephone-company.com". For CDMA-based networks, this might be a
@@ -106,29 +106,29 @@ A NULL-terminated string to access the network. For GSM-based networks, this wou
 The size of the string should not exceed 100 bytes.
 
 
-### -field UserName
+#### - UserName
 
 The username to use for authentication. This member can be <b>NULL</b>.
 
 
-### -field Password
+#### - Password
 
 The password to use for authentication. This member can be <b>NULL</b>.
 
 
-### -field Compression
+#### - Compression
 
 Specifies the compression to be used in the data connection for header and data. This member
      applies only to GSM-based devices. The MB Service sets this member to 
      <b>WwanCompressionNone</b> for CDMA-based devices.
 
 
-### -field AuthType
+#### - AuthType
 
 Authentication type to use for the PDP activation.
 
 
-### -field ProviderId
+#### - ProviderId
 
 A NULL-terminated string that represents the network provider identification for which the
      provisioned context should be stored in 

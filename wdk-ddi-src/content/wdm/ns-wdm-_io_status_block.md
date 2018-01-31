@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PIO_STATUS_BLOCK, kernel.io_status_block, IO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], *PIO_STATUS_BLOCK, wdm/IO_STATUS_BLOCK, PIO_STATUS_BLOCK, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK
+ms.keywords: kernel.io_status_block, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], IO_STATUS_BLOCK, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/PIO_STATUS_BLOCK, PIO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK, wdm/IO_STATUS_BLOCK, *PIO_STATUS_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_STATUS_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: IO_STATUS_BLOCK, *PIO_STATUS_BLOCK
+req.typenames: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK"
 req.product: Windows 10 or later.
 ---
 
@@ -87,7 +87,7 @@ typedef struct _IO_STATUS_BLOCK {
  
 
 
-### -field Information
+#### - Information
 
 This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
 
@@ -117,13 +117,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
  
 

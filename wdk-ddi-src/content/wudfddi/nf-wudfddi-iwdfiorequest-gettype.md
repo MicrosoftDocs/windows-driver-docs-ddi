@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3be2ef6c-391e-4d1c-a1a6-e3228f5cc67d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest interface, GetType method, wdf.iwdfiorequest_gettype, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, IWDFIoRequest::GetType, GetType, GetType method, IWDFIoRequest interface, IWDFIoRequest, wudfddi/IWDFIoRequest::GetType, umdf.iwdfiorequest_gettype, GetType method
+ms.keywords: UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, wudfddi/IWDFIoRequest::GetType, IWDFIoRequest, GetType, GetType method, umdf.iwdfiorequest_gettype, IWDFIoRequest::GetType, GetType method, IWDFIoRequest interface, wdf.iwdfiorequest_gettype, IWDFIoRequest interface, GetType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetType
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F4571085-19C2-46FD-B754-D4937BE5A500
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_QUERY_SOC_SUBSYSTEM, pepfx/PPEP_QUERY_SOC_SUBSYSTEM, PPEP_QUERY_SOC_SUBSYSTEM, *PPEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM structure pointer [Kernel-Mode Driver Architecture], PEP_QUERY_SOC_SUBSYSTEM, kernel.pep_query_soc_subsystem, _PEP_QUERY_SOC_SUBSYSTEM
+ms.keywords: kernel.pep_query_soc_subsystem, PPEP_QUERY_SOC_SUBSYSTEM structure pointer [Kernel-Mode Driver Architecture], *PPEP_QUERY_SOC_SUBSYSTEM, PPEP_QUERY_SOC_SUBSYSTEM, _PEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM, pepfx/PPEP_QUERY_SOC_SUBSYSTEM, pepfx/PEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _PEP_QUERY_SOC_SUBSYSTEM {
 
 
 
-### -field PlatformIdleStateIndex
+#### - PlatformIdleStateIndex
 
 [in] The platform idle state index that is being queried by the kernel.
 
 
-### -field SubsystemIndex
+#### - SubsystemIndex
 
 [in] The subsystem index, which is a unique index assigned by the OS to each subsystem within the context of a given <b>PlatformIdleStateIndex</b>. 
 
@@ -87,7 +87,7 @@ The kernel initializes this value to zero and increments it for each subsequent 
 The  PEP can ignore this value.  
 
 
-### -field SubsystemHandle
+#### - SubsystemHandle
 
 [out] A context pointer that the PEP can optionally assign a value to. It will receive the pointer on subsequent notifications for this particular subsystem.  In subsequent notifications, a PEP uses <b>PlatformIdleStateIndex</b> along with <b>SubsystemName</b> and/or <b>SubsystemHandle</b> to look up a particular subsystemâ€™s accounting data. 
 
@@ -96,7 +96,7 @@ By default the value if this member is zero.  This value is ignored by the OS an
 The PEP is not required to fill  this member.
 
 
-### -field ParentName
+#### - ParentName
 
 [in/out]  A buffer for holding the parent name of the corresponding subsystem.  Each  subsystem has a parent and subsystems with the same value for <b>ParentName</b> are considered siblings.  Subsystem sibling hierarchies are optional.  In the absence of any hierarchy, all subsystems are top level subsystems and specify a common value for <b>ParentName</b>.  To indicate a hierarchy, top level subsystems specify a common <b>ParentName</b> while each non-top-level subsystem specifies its parent subsystemâ€™s <b>SubsystemName</b> for <b>ParentName</b>.  
 
@@ -114,7 +114,7 @@ The PEP must use the allocated memory that is pointed to by the address in <b>Pa
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the parent name, if necessary, so that it does not exceed the length specified in <b>ParentName.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
 
 
-### -field SubsystemName
+#### - SubsystemName
 
 [in/out] A buffer for holding this subsystem's name.  Every subsystem has a subsystem name and <b>SubsystemName</b> must be unique among all subsystems within the context of a given platform idle state.  A subsystemâ€™s <b>SubsystemName</b> cannot be the same as <b>ParentName</b>.
 
@@ -132,14 +132,14 @@ The PEP must use the allocated memory that is pointed to by the address in <b>Su
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the subsystem name, if necessary, so that it does not exceed the length specified in <b>SubsystemName.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
 
 
-### -field MetadataCount
+#### - MetadataCount
 
 [out] The number of metadata key/value string pairs tallied by this SoC subsystem.  
 
 Metadata is optional.  The PEP returns zero if it does not report any metadata for this SoC subsystem.
 
 
-### -field Flags
+#### - Flags
 
 This member is reserved and should be set to zero.
 

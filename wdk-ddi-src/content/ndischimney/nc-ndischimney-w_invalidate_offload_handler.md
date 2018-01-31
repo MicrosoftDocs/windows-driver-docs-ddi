@@ -74,7 +74,7 @@ VOID MiniportInvalidateOffload(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
@@ -85,7 +85,7 @@ The handle to an offload-target allocated context area in which the offload targ
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param OffloadBlockList [in]
+#### - OffloadBlockList [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
@@ -142,12 +142,12 @@ Eventually, the host stack will
 <mshelp:link keywords="netvista.ndisminvalidateoffloadcomplete" tabindex="0"><b>
    NdisMInvalidateOffloadComplete</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

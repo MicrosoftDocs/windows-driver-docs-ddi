@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f61be32a-2537-4b7f-8f22-4149b00a15a4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml, buses.usbd_getpdoregistryparameter, USBD_GetPdoRegistryParameter routine [Buses], usbdlib/USBD_GetPdoRegistryParameter
+ms.keywords: USBD_GetPdoRegistryParameter routine [Buses], buses.usbd_getpdoregistryparameter, usbdlib/USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml, USBD_GetPdoRegistryParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_GetPdoRegistryParameter
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -73,27 +73,27 @@ NTSTATUS USBD_GetPdoRegistryParameter(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 Specifies the device object for the USB device.
 
 
-### -param ParameterLength [in]
+#### - ParameterLength [in]
 
 Size, in bytes, of the buffer that is pointed to by <i>Parameter</i>.
 
 
-### -param KeyName [in]
+#### - KeyName [in]
 
 Pointer to a string containing the name of the registry key.
 
 
-### -param KeyNameLength [in]
+#### - KeyNameLength [in]
 
 Size, in bytes, of the buffer that is pointed to by <i>KeyName</i>.
 
 
-### -param Parameter [in, out]
+#### - Parameter [in, out]
 
 Pointer to a caller-allocated buffer that receives the registry value.
 

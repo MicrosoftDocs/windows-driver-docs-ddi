@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], PPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], winsplp/PPRINTPROCESSOROPENDATA, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, _PRINTPROCESSOROPENDATA, winsplp/LPPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], *PPRINTPROCESSOROPENDATA, print.printprocessoropendata, winsplp/PRINTPROCESSOROPENDATA
+ms.keywords: LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], LPPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA, winsplp/PRINTPROCESSOROPENDATA, winsplp/LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, _PRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, print.printprocessoropendata, PPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRINTPROCESSOROPENDATA
 product: Windows
 targetos: Windows
-req.typenames: PRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA
+req.typenames: "*PPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA"
 req.product: Windows 10 or later.
 ---
 
@@ -74,37 +74,37 @@ typedef struct _PRINTPROCESSOROPENDATA {
 
 
 
-### -field pDevMode
+#### - pDevMode
 
 Spooler-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-### -field pDatatype
+#### - pDatatype
 
 Spooler-supplied pointer to a string representing the print job's data type.
 
 
-### -field pParameters
+#### - pParameters
 
 Spooler-supplied pointer to a parameter string, as specified in a JOB_INFO_2 structure supplied to a call to the <b>SetJob</b> function, described in the Microsoft Windows SDK documentation.
 
 
-### -field pDocumentName
+#### - pDocumentName
 
 Spooler-supplied pointer to a string representing the name of the input document associated with the print job. 
 
 
-### -field JobId
+#### - JobId
 
 Spooler-supplied value identifying the print job.
 
 
-### -field pOutputFile
+#### - pOutputFile
 
 Spooler-supplied pointer to a string representing the name of the output spool file.
 
 
-### -field pPrinterName
+#### - pPrinterName
 
 Spooler-supplied pointer to a string representing the name of the printer to be used.
 

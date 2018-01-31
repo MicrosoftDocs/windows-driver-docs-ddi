@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2cc24024-75ec-45ba-867c-efc8e7da7587
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_RegisterHcFilter routine [Buses], usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml, USBD_RegisterHcFilter, buses.usbd_registerhcfilter, usbdlib/USBD_RegisterHcFilter
+ms.keywords: usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml, buses.usbd_registerhcfilter, USBD_RegisterHcFilter routine [Buses], usbdlib/USBD_RegisterHcFilter, USBD_RegisterHcFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_RegisterHcFilter
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ VOID USBD_RegisterHcFilter(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that is the current top of the stack as reported by <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>.
 
 
-### -param FilterDeviceObject [in]
+#### - FilterDeviceObject [in]
 
 Pointer to the filter device object created by the filter driver for its operations.
 

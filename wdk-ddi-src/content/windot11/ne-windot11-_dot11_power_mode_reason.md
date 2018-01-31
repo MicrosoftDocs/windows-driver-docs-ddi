@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0B8402B5-CFDA-402F-BA7A-A44478333C04
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_POWER_MODE_REASON enumeration [Network Drivers Starting with Windows Vista], dot11_power_mode_reason_compliant_WFD_device, windot11/dot11_power_mode_reason_compliant_WFD_device, _DOT11_POWER_MODE_REASON, dot11_power_mode_reason_compliant_AP, windot11/dot11_power_mode_reason_noncompliant_AP, DOT11_POWER_MODE_REASON, dot11_power_mode_reason_others, windot11/dot11_power_mode_reason_others, netvista.dot11_power_mode_reason, dot11_power_mode_reason_legacy_WFD_device, windot11/DOT11_POWER_MODE_REASON, dot11_power_mode_reason_no_change, dot11_power_mode_reason_noncompliant_AP, windot11/dot11_power_mode_reason_legacy_WFD_device, windot11/dot11_power_mode_reason_compliant_AP, windot11/dot11_power_mode_reason_no_change
+ms.keywords: windot11/dot11_power_mode_reason_noncompliant_AP, windot11/dot11_power_mode_reason_legacy_WFD_device, netvista.dot11_power_mode_reason, windot11/dot11_power_mode_reason_compliant_AP, windot11/dot11_power_mode_reason_compliant_WFD_device, DOT11_POWER_MODE_REASON enumeration [Network Drivers Starting with Windows Vista], dot11_power_mode_reason_no_change, DOT11_POWER_MODE_REASON, dot11_power_mode_reason_noncompliant_AP, _DOT11_POWER_MODE_REASON, windot11/dot11_power_mode_reason_others, dot11_power_mode_reason_compliant_AP, dot11_power_mode_reason_compliant_WFD_device, dot11_power_mode_reason_others, dot11_power_mode_reason_legacy_WFD_device, windot11/DOT11_POWER_MODE_REASON, windot11/dot11_power_mode_reason_no_change
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _DOT11_POWER_MODE_REASON {
 
 
 
-### -field dot11_power_mode_reason_no_change
+#### - dot11_power_mode_reason_no_change
 
 Device is initially in this state and has not changed since.
 
 
-### -field dot11_power_mode_reason_noncompliant_AP
+#### - dot11_power_mode_reason_noncompliant_AP
 
 AP is not compliant. As to be in CAM.
 
 
-### -field dot11_power_mode_reason_legacy_WFD_device
+#### - dot11_power_mode_reason_legacy_WFD_device
 
 WFD device is legacy.
 
 
-### -field dot11_power_mode_reason_compliant_AP
+#### - dot11_power_mode_reason_compliant_AP
 
 AP is compliant.
 
 
-### -field dot11_power_mode_reason_compliant_WFD_device
+#### - dot11_power_mode_reason_compliant_WFD_device
 
 All connected WFD device can do PSM.
 
 
-### -field dot11_power_mode_reason_others
+#### - dot11_power_mode_reason_others
 
 Other reason.
 

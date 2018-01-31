@@ -71,7 +71,7 @@ ULONGLONG SdpByteSwapUint64(
 
 
 
-### -param uint64
+#### - uint64
 
 The unsigned 64-bit integer for which to reverse the byte order.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 070fc2b0-045e-4778-82d4-0850cd2064a5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WRITE_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT, kernel.write_register_buffer_ushort, k103_31475540-7ba8-44b6-ad54-e794ffddf8ee.xml
+ms.keywords: WRITE_REGISTER_BUFFER_USHORT, wdm/WRITE_REGISTER_BUFFER_USHORT, k103_31475540-7ba8-44b6-ad54-e794ffddf8ee.xml, kernel.write_register_buffer_ushort, WRITE_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID WRITE_REGISTER_BUFFER_USHORT(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer from which an array of USHORT values is to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to be written to the register. 
 

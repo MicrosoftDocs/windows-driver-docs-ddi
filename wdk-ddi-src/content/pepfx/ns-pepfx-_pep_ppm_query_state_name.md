@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CE0C4DAA-0B14-4CC3-B75A-66329A5830E7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_PPM_QUERY_STATE_NAME, _PEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME structure [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_STATE_NAME, PPEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME, pepfx/PEP_PPM_QUERY_STATE_NAME, kernel.pep_ppm_query_state_name, PPEP_PPM_QUERY_STATE_NAME structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PPEP_PPM_QUERY_STATE_NAME, PPEP_PPM_QUERY_STATE_NAME structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_STATE_NAME, _PEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_state_name, PPEP_PPM_QUERY_STATE_NAME, pepfx/PEP_PPM_QUERY_STATE_NAME, pepfx/PPEP_PPM_QUERY_STATE_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,19 +69,19 @@ typedef struct _PEP_PPM_QUERY_STATE_NAME {
 
 
 
-### -field StateIndex
+#### - StateIndex
 
 [in] The index of the state that the OS is querying about.
 
 
-### -field NameSize
+#### - NameSize
 
 [in/out] If <b>Name</b> is <b>NULL</b>, returns the size of the buffer required to hold <b>Name</b> (including the trailing <b>UNICODE_NULL</b> character), in WCHARs.
 If <b>Name</b> is not <b>NULL</b>, supplies the size of the <b>Name</b> buffer, in WCHARs.   
 
 
 
-### -field Name
+#### - Name
 
 [in] A pointer to a buffer to copy the name of the state to, or <b>NULL</b>. 
 

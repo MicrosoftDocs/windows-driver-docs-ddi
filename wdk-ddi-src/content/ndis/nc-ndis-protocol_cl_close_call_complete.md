@@ -78,7 +78,7 @@ VOID ProtocolClCloseCallComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the client's request to close this call, which can be one of the
      following:
@@ -101,7 +101,7 @@ The call manager failed the request to close the call for some CM-determined rea
        the client.
 
 
-### -param ProtocolVcContext [in]
+#### - ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area This is the handle that the client
      originally passed to NDIS with 
@@ -110,7 +110,7 @@ Specifies the handle to the client's per-VC context area This is the handle that
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-### -param ProtocolPartyContext [in, optional]
+#### - ProtocolPartyContext [in, optional]
 
 Specifies the handle to the client's per-party context area for the last remaining party on the
      client-created VC representing a multipoint connection. Otherwise, this parameter is <b>NULL</b>.
@@ -189,21 +189,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+
+<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
 
 <a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
 
  
 

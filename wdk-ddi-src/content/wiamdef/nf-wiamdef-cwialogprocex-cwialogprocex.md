@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProcEx, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], wiamdef/CWiaLogProcEx::CWiaLogProcEx
+ms.keywords: CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method, wiamdef/CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx, CWiaLogProcEx method [Imaging Devices], image.cwialogprocex_cwialogprocex, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	CWiaLogProcEx.CWiaLogProcEx
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -77,12 +77,12 @@ void CWiaLogProcEx(
 
 
 
-### -param ResourceID
+#### - ResourceID
 
 Defines the <b>INT</b> parameter <i>ResourceID</i>.
 
 
-### -param DetailLevel
+#### - DetailLevel
 
 Defines the <b>INT</b> parameter <i>DetailLevel</i>.
 

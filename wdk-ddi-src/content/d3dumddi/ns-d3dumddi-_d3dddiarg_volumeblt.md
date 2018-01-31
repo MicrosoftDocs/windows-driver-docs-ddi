@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 564afe6c-7a2e-4657-a481-24015c0be637
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_21157114-7596-4031-8531-019e7acc3dbe.xml, display.d3dddiarg_volumeblt, d3dumddi/D3DDDIARG_VOLUMEBLT, D3DDDIARG_VOLUMEBLT, D3DDDIARG_VOLUMEBLT structure [Display Devices], _D3DDDIARG_VOLUMEBLT
+ms.keywords: UMDisplayDriver_param_Structs_21157114-7596-4031-8531-019e7acc3dbe.xml, D3DDDIARG_VOLUMEBLT, _D3DDDIARG_VOLUMEBLT, D3DDDIARG_VOLUMEBLT structure [Display Devices], display.d3dddiarg_volumeblt, d3dumddi/D3DDDIARG_VOLUMEBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDIARG_VOLUMEBLT {
 
 
 
-### -field hDstResource
+#### - hDstResource
 
 [in] A handle to the destination surface.
 
 
-### -field hSrcResource
+#### - hSrcResource
 
 [in] A handle to the source surface.
 
 
-### -field DstX
+#### - DstX
 
 [in] The width, in screen coordinates, of the destination volume in which the source volume is copied.
 
 
-### -field DstY
+#### - DstY
 
 [in] The height, in screen coordinates, of the destination volume in which the source volume is copied.
 
 
-### -field DstZ
+#### - DstZ
 
 [in] The depth, in screen coordinates, of the destination volume in which the source volume is copied.
 
 
-### -field SrcBox
+#### - SrcBox
 
 [in] A D3DDDIBOX structure that describes the source volume texture to copy to the destination.
 

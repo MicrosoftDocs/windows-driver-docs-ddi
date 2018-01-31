@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1DE3F065-6F8E-402F-87EF-F9582E31BFFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksaudiomodule_property, PKSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], _KSAUDIOMODULE_PROPERTY, ksmedia/KSAUDIOMODULE_PROPERTY
+ms.keywords: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], ksmedia/PKSAUDIOMODULE_PROPERTY, ksmedia/KSAUDIOMODULE_PROPERTY, _KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], audio.ksaudiomodule_property"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIOMODULE_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY
+req.typenames: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY"
 ---
 
 # _KSAUDIOMODULE_PROPERTY structure
@@ -69,17 +69,17 @@ typedef struct _KSAUDIOMODULE_PROPERTY {
 
 
 
-### -field Property
+#### - Property
 
 The KSPROPERTY of the audio module is defined as follows.
 
 
-### -field ClassId
+#### - ClassId
 
 The ClassId of the audio module. The ClassId is an identifier that establishes what type of module this is. The value and mapping is established by the ISV and IHV.
 
 
-### -field InstanceId
+#### - InstanceId
 
 The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of an module. 
 

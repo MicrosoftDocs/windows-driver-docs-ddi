@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a10d54a2-39e4-4c90-ac91-28d31b3ebfb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], wdm/KeRegisterProcessorChangeCallback, k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback
+ms.keywords: kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ PVOID KeRegisterProcessorChangeCallback(
 
 
 
-### -param CallbackFunction [in]
+#### - CallbackFunction [in]
 
 A pointer to a driver-supplied processor change callback function that is to be called by the operating system whenever a new processor is added to the hardware partition. A processor change callback function is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -107,12 +107,12 @@ A pointer to a <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE
 A pointer to a variable that contains an NTSTATUS code. A device driver must not change the value of this variable except if an error occurs during the processing of the callback function when the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>.
 
 
-### -param CallbackContext [in, optional]
+#### - CallbackContext [in, optional]
 
 A driver-supplied context that is passed to the callback function. This parameter can be <b>NULL</b>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Optional flags that modify the behavior of the <b>KeRegisterProcessorChangeCallback</b> routine. The following is one possible flag:
 

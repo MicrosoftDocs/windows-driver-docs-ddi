@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ntifs/MemoryBasicInformation, MemoryBasicInformation, kernel.memory_information_class, ntifs/MEMORY_INFORMATION_CLASS, _MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS
+ms.keywords: MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], kernel.memory_information_class, ntifs/MemoryBasicInformation, _MEMORY_INFORMATION_CLASS, ntifs/MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS, MemoryBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum _MEMORY_INFORMATION_CLASS {
 
 
 
-### -field MemoryBasicInformation
+#### - MemoryBasicInformation
 
 Memory information described in the <a href="..\ntifs\ns-ntifs-_memory_basic_information.md">MEMORY_BASIC_INFORMATION</a> structure will be retrieved.
 

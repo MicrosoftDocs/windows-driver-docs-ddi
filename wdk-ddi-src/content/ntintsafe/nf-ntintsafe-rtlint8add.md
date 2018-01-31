@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E97C3EA9-2244-458E-BE5E-6312023118A3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlInt8Add, RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], kernel.rtlint8add
+ms.keywords: ntintsafe/RtlInt8Add, kernel.rtlint8add, RtlInt8Add function [Kernel-Mode Driver Architecture], RtlInt8Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlInt8Add(
 
 
 
-### -param i8Augend [in]
+#### - i8Augend [in]
 
 The first value in the equation.
 
 
-### -param i8Addend [in]
+#### - i8Addend [in]
 
 The value to add to <i>i8Augend</i>.
 
 
-### -param pi8Result [out]
+#### - pi8Result [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

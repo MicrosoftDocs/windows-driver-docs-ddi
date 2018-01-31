@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6009d11b-4f44-4591-bcb8-66e0c42d5689
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PACCESS_RANGE, _ACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], PACCESS_RANGE, ACCESS_RANGE, srb/ACCESS_RANGE, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml, storage.access_range, srb/PACCESS_RANGE, ACCESS_RANGE structure [Storage Devices]"
+ms.keywords: storage.access_range, *PACCESS_RANGE, srb/ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml, PACCESS_RANGE, ACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], srb/PACCESS_RANGE, _ACCESS_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACCESS_RANGE
 product: Windows
 targetos: Windows
-req.typenames: "*PACCESS_RANGE, ACCESS_RANGE"
+req.typenames: ACCESS_RANGE, *PACCESS_RANGE
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _ACCESS_RANGE {
 
 
 
-### -field RangeStart
+#### - RangeStart
 
 Contains an address of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565350">SCSI_PHYSICAL_ADDRESS</a> that specifies the bus-relative base address of the range. This is an address that can be passed into <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>.
 
 
-### -field RangeLength
+#### - RangeLength
 
 Specifies the size, in bytes, or number of ports in the range. A miniport driver must ensure that this value matches the range actually decoded by the adapter. For example, if the HBA uses seven registers but responds to eight, this member should be set to 8.
 
 
-### -field RangeInMemory
+#### - RangeInMemory
 
 Indicates the range is in memory when <b>TRUE</b>, rather than in I/O space. When <b>FALSE</b>, the range is in I/O space. 
 
@@ -108,13 +108,13 @@ The corresponding base logical address returned by <b>ScsiPortGetDeviceBase</b> 
 
 <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
 <a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
 <a href="..\srb\nf-srb-scsiportconvertulongtophysicaladdress.md">ScsiPortConvertUlongToPhysicalAddress</a>
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
  
 

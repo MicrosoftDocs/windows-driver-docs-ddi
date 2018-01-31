@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0A151425-C22F-4201-855F-FF6FECE611D7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PBDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist, BDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], _BDA_WMDRM_KEYINFOLIST, PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices], bdatypes/PBDA_WMDRM_KEYINFOLIST"
+ms.keywords: BDA_WMDRM_KEYINFOLIST, bdatypes/PBDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices], PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], PBDA_WMDRM_KEYINFOLIST, _BDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, *PBDA_WMDRM_KEYINFOLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_WMDRM_KEYINFOLIST
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST"
+req.typenames: BDA_WMDRM_KEYINFOLIST, *PBDA_WMDRM_KEYINFOLIST
 ---
 
 # _BDA_WMDRM_KEYINFOLIST structure
@@ -69,14 +69,14 @@ typedef struct _BDA_WMDRM_KEYINFOLIST {
 
 
 
-### -field lResult
+#### - lResult
 
 
 
-### -field ulKeyuuidBufferLen
+#### - ulKeyuuidBufferLen
 
 
 
-### -field argKeyuuidBuffer
+#### - argKeyuuidBuffer
 
 

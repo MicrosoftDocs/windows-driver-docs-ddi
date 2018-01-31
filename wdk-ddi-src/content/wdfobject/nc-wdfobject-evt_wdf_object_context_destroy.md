@@ -40,7 +40,7 @@ apiname:
 -	EvtDestroyCallback
 product: Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
+req.typenames: "*PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ VOID EvtDestroyCallback(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 A handle to a framework object.
 

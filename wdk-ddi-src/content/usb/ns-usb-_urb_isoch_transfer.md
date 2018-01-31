@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b021211a-3f72-47ff-9e69-bbf3807f4ec4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_TRANSFER_DIRECTION_IN, _URB_ISOCH_TRANSFER, _URB_ISOCH_TRANSFER structure [Buses], buses._urb_isoch_transfer, usb/_URB_ISOCH_TRANSFER, USBD_SHORT_TRANSFER_OK, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml, USBD_START_ISO_TRANSFER_ASAP
+ms.keywords: buses._urb_isoch_transfer, _URB_ISOCH_TRANSFER structure [Buses], usb/_URB_ISOCH_TRANSFER, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml, USBD_TRANSFER_DIRECTION_IN, _URB_ISOCH_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_START_ISO_TRANSFER_ASAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ struct _URB_ISOCH_TRANSFER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_ISOCH_TRANSFER, and <b>Hdr.Length</b> must be the size of this variable-length data structure.
 
@@ -94,12 +94,12 @@ A pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure 
  
 
 
-### -field UrbLink
+#### - UrbLink
 
 Reserved. Do not use.
 
 
-### -field hca
+#### - hca
 
 Reserved. Do not use.
 
@@ -109,12 +109,12 @@ Reserved. Do not use.
  
 
 
-### -field PipeHandle
+#### - PipeHandle
 
 Specifies an opaque handle to the isochronous pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.   
 
 
-### -field TransferFlags
+#### - TransferFlags
 
 
 Specifies zero, one, or a combination of the following flags:
@@ -158,39 +158,39 @@ Causes the transfer to begin on the next frame, if no transfers have been submit
 </table> 
 
 
-### -field TransferBufferLength
+#### - TransferBufferLength
 
 Specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes that are sent to or read from the pipe in this member.
 
 
-### -field TransferBuffer
+#### - TransferBuffer
 
 A pointer to a resident buffer for the transfer is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>. The contents of this buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, this buffer will contain data that is read from the device on return from the host controller driver. Otherwise, this buffer contains driver-supplied data for transfer to the device.
 
 
-### -field TransferBufferMDL
+#### - TransferBufferMDL
 
 A pointer to an MDL that describes a resident buffer is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data that is read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
 
 
-### -field StartFrame
+#### - StartFrame
 
 Specifies the frame number that the transfer should begin on. This variable must be within a system-defined range of the current frame. The range is specified by the constant USBD_ISO_START_FRAME_RANGE.
 
 If START_ISO_TRANSFER_ASAP is set in <b>TransferFlags</b>, this member contains the frame number that the transfer began on, when the request is returned by the host controller driver. Otherwise, this member must contain the frame number that this transfer begins on.
 
 
-### -field NumberOfPackets
+#### - NumberOfPackets
 
 Specifies the number of packets that are described by the variable-length array member <b>IsoPacket</b>.
 
 
-### -field ErrorCount
+#### - ErrorCount
 
 Contains the number of packets that completed with an error condition on return from the host controller driver.
 
 
-### -field IsoPacket
+#### - IsoPacket
 
 Contains a variable-length array of <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structures that describe the isochronous transfer packets to be transferred on the USB bus.  For more information about this member see the Remarks section.
 
@@ -301,17 +301,17 @@ Treat other members that are part of this structure but not described here as op
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
  
 

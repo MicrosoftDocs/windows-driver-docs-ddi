@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8cde623d-a255-45ff-ab1e-bdd0c14a02a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPreDeviceRemove, wdf.wdfpredeviceremove, wdfinstaller/WdfPreDeviceRemove, WdfPreDeviceRemove function, PFN_WDFPREDEVICEREMOVE, DFCoinstallerRef_6eeb3b62-08ef-4d17-a6af-9945a3737f0d.xml, kmdf.wdfpredeviceremove
+ms.keywords: kmdf.wdfpredeviceremove, DFCoinstallerRef_6eeb3b62-08ef-4d17-a6af-9945a3737f0d.xml, WdfPreDeviceRemove, PFN_WDFPREDEVICEREMOVE, WdfPreDeviceRemove function, wdfinstaller/WdfPreDeviceRemove, wdf.wdfpredeviceremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ ULONG WdfPreDeviceRemove(
 
 
 
-### -param InfPath [in]
+#### - InfPath [in]
 
 A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <a href="https://msdn.microsoft.com/1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd">GetCurrentDirectory</a>, which is described in the Microsoft Windows SDK.
 
 
-### -param InfSectionName [in, optional]
+#### - InfSectionName [in, optional]
 
 A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 

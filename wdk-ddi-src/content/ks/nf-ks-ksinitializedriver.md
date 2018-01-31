@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a77e59f-ce64-4ff2-ac95-c9062cef20d2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsInitializeDriver, stream.ksinitializedriver, KsInitializeDriver function [Streaming Media Devices], avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, ks/KsInitializeDriver
+ms.keywords: KsInitializeDriver, avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, KsInitializeDriver function [Streaming Media Devices], ks/KsInitializeDriver, stream.ksinitializedriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NTSTATUS KsInitializeDriver(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure for the AVStream driver being initialized. Minidrivers that call <b>KsInitializeDriver</b> should use the driver object passed to <b>DriverEntry</b> by the operating system.
 
@@ -80,7 +80,7 @@ A pointer to the <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> str
 TBD
 
 
-### -param Descriptor [in, optional]
+#### - Descriptor [in, optional]
 
 A pointer to a <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> structure that specifies the characteristics of the device being initialized. If this pointer is <b>NULL</b>, a device is created with default characteristics and no associated filter factories.
 
@@ -106,21 +106,21 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558721">DriverEntry of AVStream</a>
-
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558721">DriverEntry of AVStream</a>
 
  
 

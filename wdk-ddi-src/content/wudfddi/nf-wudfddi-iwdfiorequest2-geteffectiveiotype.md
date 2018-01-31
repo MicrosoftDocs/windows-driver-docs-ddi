@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2 interface, GetEffectiveIoType method, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, wudfddi/IWDFIoRequest2::GetEffectiveIoType, IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType, GetEffectiveIoType method, IWDFIoRequest2 interface, wdf.iwdfiorequest2_geteffectiveiotype
+ms.keywords: IWDFIoRequest2::GetEffectiveIoType, wudfddi/IWDFIoRequest2::GetEffectiveIoType, umdf.iwdfiorequest2_geteffectiveiotype, GetEffectiveIoType, GetEffectiveIoType method, IWDFIoRequest2 interface, GetEffectiveIoType method, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, IWDFIoRequest2, wdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2 interface, GetEffectiveIoType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.GetEffectiveIoType
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

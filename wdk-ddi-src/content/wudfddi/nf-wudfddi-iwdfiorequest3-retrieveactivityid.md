@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3, IWDFIoRequest3::RetrieveActivityId, wdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId method, umdf.iwdfiorequest3_retrieveactivityid, IWDFIoRequest3 interface, RetrieveActivityId method, RetrieveActivityId
+ms.keywords: RetrieveActivityId, IWDFIoRequest3 interface, RetrieveActivityId method, umdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId, IWDFIoRequest3, wdf.iwdfiorequest3_retrieveactivityid, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId method, RetrieveActivityId method, IWDFIoRequest3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest3.RetrieveActivityId
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ HRESULT RetrieveActivityId(
 
 
 
-### -param ActivityId [out]
+#### - ActivityId [out]
 
 A pointer to a location to store the retrieved GUID.
 
@@ -118,9 +118,9 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
 <a href="https://msdn.microsoft.com/57CB3CED-FE46-4A74-9E23-82640B7EF1DC">IWDFIoRequest3::SetActivityId</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
 
  
 

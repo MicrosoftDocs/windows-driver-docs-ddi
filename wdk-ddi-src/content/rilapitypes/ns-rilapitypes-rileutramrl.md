@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dd695c4-ed3e-4278-b82e-6643aaded890
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl, RILEUTRAMRL, *LPRILEUTRAMRL
+ms.keywords: RILEUTRAMRL, netvista.rileutramrl, rilapitypes/RILEUTRAMRL, *LPRILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ struct RILEUTRAMRL {
 
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rileutramrlparammask.md">RILEUTRAMRLPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwMobileCountryCode
+#### - dwMobileCountryCode
 
 Mobile country code (0...999)
 
 
-### -field dwMobileNetworkCode
+#### - dwMobileNetworkCode
 
 Mobile Network Code (0...999)
 
 
-### -field dwCellID
+#### - dwCellID
 
 Cell identity (28 bits). 
 
 
-### -field dwEARFCN
+#### - dwEARFCN
 
 EUTRA absolute radio frequency channel number (0...65535).
 
 
-### -field dwPhysCellID
+#### - dwPhysCellID
 
 Physical cell ID (0...503).
 
 
-### -field dwTAC
+#### - dwTAC
 
 Tracking area code (0...65535).
 
 
-### -field dwRSRP
+#### - dwRSRP
 
 Average reference signal received power (–1400 ... –440) in units of 0.1dBm.
 
 
-### -field dwRSRQ
+#### - dwRSRQ
 
 Average reference signal received quality (–200 ... –30) in units of 0.1dBm.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 911d8b07-1313-4c4b-8d16-188857943327
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname, FltGetVolumeGuidName, FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname, FltGetVolumeGuidName routine [Installable File System Drivers], FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltGetVolumeGuidName(
 
 
 
-### -param Volume [in]
+#### - Volume [in]
 
 Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param VolumeGuidName [out]
+#### - VolumeGuidName [out]
 
 Pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that receives the volume's GUID name. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param BufferSizeNeeded [out, optional]
+#### - BufferSizeNeeded [out, optional]
 
 Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. If <b>FltGetVolumeGuidName</b> returns STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required size for the structure that the <i>VolumeGuidName</i> parameter points to. This parameter is optional and can be <b>NULL</b>. 
 
@@ -172,9 +172,9 @@ To get the volume object ID for a volume, call <a href="..\ntifs\nf-ntifs-zwquer
 
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
 <a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
 
  
 

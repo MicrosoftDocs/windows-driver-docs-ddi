@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3c1e2d5-8bb8-486c-a78a-3ddde6ab64bd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlConvertUlongToLuid, k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], kernel.rtlconvertulongtoluid, RtlConvertUlongToLuid
+ms.keywords: ntddk/RtlConvertUlongToLuid, kernel.rtlconvertulongtoluid, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, RtlConvertUlongToLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ LUID RtlConvertUlongToLuid(
 
 
 
-### -param Ulong [in]
+#### - Ulong [in]
 
 Specifies the unsigned long integer to convert. 
 
@@ -88,13 +88,13 @@ Specifies the unsigned long integer to convert.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
-
-<a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+
 <a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
+
+<a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
 
  
 

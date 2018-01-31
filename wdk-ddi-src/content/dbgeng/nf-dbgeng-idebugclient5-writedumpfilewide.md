@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b089499f-4f15-400e-bf88-53d0507200b9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writedumpfilewide, dbgeng/IDebugClient5::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient4::WriteDumpFileWide, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, WriteDumpFileWide, IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method, dbgeng/IDebugClient4::WriteDumpFileWide, IDebugClient5::WriteDumpFileWide, IDebugClient5
+ms.keywords: dbgeng/IDebugClient4::WriteDumpFileWide, IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, debugger.writedumpfilewide, WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient5, IDebugClient4::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient5::WriteDumpFileWide, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, dbgeng/IDebugClient5::WriteDumpFileWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT WriteDumpFileWide(
 
 
 
-### -param FileName [in, optional]
+#### - FileName [in, optional]
 
 Specifies the name of the dump file to create.  <i>FileName</i> must include the file name extension. <i>FileName</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger was started.  If <i>FileHandle</i> is not <b>NULL</b>, <i>FileName</i> is ignored (except when writing status messages to the debugger console).
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 Specifies the file handle of the file to write the crash dump to.  If <i>FileHandle</i> is <b>NULL</b>, the file specified in <i>FileName</i> is used instead.
 
 
-### -param Qualifier [in]
+#### - Qualifier [in]
 
 Specifies the type of dump to create.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541472">DEBUG_DUMP_XXX</a>.
 
 
-### -param FormatFlags [in]
+#### - FormatFlags [in]
 
 Specifies flags that determine the format of the dump file and--for user-mode minidumps--what information to include in the file.  For details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541497">DEBUG_FORMAT_XXX</a>.
 
 
-### -param Comment [in, optional]
+#### - Comment [in, optional]
 
 Specifies a comment string to be included in the crash dump file.  This string is displayed in the debugger console when the dump file is loaded.
 
@@ -132,9 +132,9 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 1EAD5B17-B662-4D97-B045-ED09E4AF6E99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM, sensors.gnss_breadcrumbing_param, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], GNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
+ms.keywords: GNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], *PGNSS_BREADCRUMBING_PARAM, gnssdriver/GNSS_BREADCRUMBING_PARAM, gnssdriver/PGNSS_BREADCRUMBING_PARAM, sensors.gnss_breadcrumbing_param
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 
 
-### -field MaximumHorizontalUncertainty
+#### - MaximumHorizontalUncertainty
 
 Contains the maximum horizontal uncertainty value. Any fix with an error radius larger than this value shall not be recorded.
 
 
-### -field MinDistanceBetweenFixes
+#### - MinDistanceBetweenFixes
 
 Contains the minimum distance between fixes. Only record a fix if the center of it is at least as  far apart as this value from center of the last fix, using a Haversine distance calculation.
 
 
-### -field MaximumErrorTimeoutMs
+#### - MaximumErrorTimeoutMs
 
 Contains the maximum error timeout in milliseconds. If the location of the device is unknown for this duration, an error must be recorded in the breadcrumb data. Errors can be recorded earlier if they were already known.
 

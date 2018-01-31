@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1946245d-d661-41c9-8f5a-37534bf71890
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAddPort_OUT structure pointer [Storage Devices], *PAddPort_OUT, AddPort_OUT structure [Storage Devices], storage.addport_out, structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml, _AddPort_OUT, AddPort_OUT, hbapiwmi/AddPort_OUT, PAddPort_OUT, hbapiwmi/PAddPort_OUT
+ms.keywords: structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml, PAddPort_OUT structure pointer [Storage Devices], AddPort_OUT, PAddPort_OUT, hbapiwmi/PAddPort_OUT, AddPort_OUT structure [Storage Devices], *PAddPort_OUT, hbapiwmi/AddPort_OUT, storage.addport_out, _AddPort_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddPort_OUT
 product: Windows
 targetos: Windows
-req.typenames: AddPort_OUT, *PAddPort_OUT
+req.typenames: "*PAddPort_OUT, AddPort_OUT"
 ---
 
 # _AddPort_OUT structure
@@ -67,7 +67,7 @@ typedef struct _AddPort_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 

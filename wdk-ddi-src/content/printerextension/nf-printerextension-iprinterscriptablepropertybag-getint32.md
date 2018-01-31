@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0E1089E4-5FE4-4769-A244-3E1979E4DE46
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterScriptablePropertyBag::GetInt32, GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices], GetInt32 method, GetInt32, IPrinterScriptablePropertyBag::GetInt32, print.iprinterscriptablepropertybag_getint32, IPrinterScriptablePropertyBag, GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface
+ms.keywords: IPrinterScriptablePropertyBag, print.iprinterscriptablepropertybag_getint32, GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, GetInt32, IPrinterScriptablePropertyBag interface [Print Devices], GetInt32 method, GetInt32 method [Print Devices], IPrinterScriptablePropertyBag::GetInt32, printerextension/IPrinterScriptablePropertyBag::GetInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetInt32(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The property to read.
 
 
-### -param pnValue [out, retval]
+#### - pnValue [out, retval]
 
 The value read.
 

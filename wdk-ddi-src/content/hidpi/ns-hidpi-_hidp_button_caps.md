@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: d3d77679-6749-4ef5-a8f2-91639587144a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PHIDP_BUTTON_CAPS structure pointer [Human Input Devices], HIDP_BUTTON_CAPS, hidpi/HIDP_BUTTON_CAPS, hidpi/PHIDP_BUTTON_CAPS, PHIDP_BUTTON_CAPS, _HIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS structure [Human Input Devices], *PHIDP_BUTTON_CAPS, hid.hidp_button_caps, hidstrct_0fa7f0ef-afc7-482a-bcf0-c8c78c3d18f7.xml
+ms.keywords: "*PHIDP_BUTTON_CAPS, PHIDP_BUTTON_CAPS structure pointer [Human Input Devices], hidpi/PHIDP_BUTTON_CAPS, hidpi/HIDP_BUTTON_CAPS, _HIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS structure [Human Input Devices], hidstrct_0fa7f0ef-afc7-482a-bcf0-c8c78c3d18f7.xml, PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS, hid.hidp_button_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_BUTTON_CAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS"
+req.typenames: HIDP_BUTTON_CAPS, *PHIDP_BUTTON_CAPS
 ---
 
 # _HIDP_BUTTON_CAPS structure
@@ -100,10 +100,51 @@ typedef struct _HIDP_BUTTON_CAPS {
 
 
 
-### -field Range
+#### - Range
 
 Specifies, if <b>IsRange</b> is <b>TRUE</b>, information about a usage range. Otherwise, if <b>IsRange</b> is <b>FALSE</b>, <b>NotRange</b> contains information about a single usage. 
 
+
+
+#### UsageMin
+
+Indicates the inclusive lower bound of usage range whose inclusive upper bound is specified by <b>Range.UsageMax</b>.
+
+
+#### UsageMax
+
+Indicates the inclusive upper bound of a usage range whose inclusive lower bound is indicated by <b>Range.UsageMin</b>.
+
+
+#### StringMin
+
+Indicates the inclusive lower bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive upper bound is indicated by <b>Range.StringMax</b>.
+
+
+
+#### StringMax
+
+Indicates the inclusive upper bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive lower bound is indicated by <b>Range.StringMin</b>.
+
+
+#### DesignatorMin
+
+Indicates the inclusive lower bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMax</b>.
+
+
+#### DesignatorMax
+
+Indicates the inclusive upper bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMin</b>.
+
+
+#### DataIndexMin
+
+Indicates the inclusive lower bound of a sequential range of <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data indices</a> that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
+
+
+#### DataIndexMax
+
+Indicates the inclusive upper bound of a sequential range of data indices that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
 
 
 ### -field Range.UsageMin
@@ -147,9 +188,49 @@ Indicates the inclusive lower bound of a sequential range of <a href="https://ms
 Indicates the inclusive upper bound of a sequential range of data indices that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
 
 
-### -field NotRange
+#### - NotRange
 
 Specifies, if <b>IsRange</b> is <b>FALSE</b>, information about a single usage. Otherwise, if <b>IsRange</b> is <b>TRUE</b>, <b>Range</b> contains information about a usage range.
+
+
+#### Usage
+
+Indicates a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage ID</a>.
+
+
+#### Reserved1
+
+Reserved for internal system use.
+
+
+#### StringIndex
+
+Indicates a string descriptor ID for the usage specified by <b>NotRange.Usage</b>.
+
+
+#### Reserved2
+
+Reserved for internal system use.
+
+
+#### DesignatorIndex
+
+Indicates a designator ID for the usage specified by <b>NotRange.Usage</b>.
+
+
+#### Reserved3
+
+Reserved for internal system use.
+
+
+#### DataIndex
+
+Indicates the data index of the usage specified by <b>NotRange.Usage</b>.
+
+
+#### Reserved4
+
+Reserved for internal system use.
 
 
 ### -field NotRange.Reserved1
@@ -192,62 +273,62 @@ Indicates the data index of the usage specified by <b>NotRange.Usage</b>.
 Reserved for internal system use.
 
 
-### -field UsagePage
+#### - UsagePage
 
 Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> for a usage or usage range.
 
 
-### -field ReportID
+#### - ReportID
 
 Specifies the report ID of the HID report that contains the usage or usage range.
 
 
-### -field IsAlias
+#### - IsAlias
 
 Indicates, if <b>TRUE</b>, that a button has a set of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">aliased usages</a>. Otherwise, if <b>IsAlias</b> is <b>FALSE</b>, the button has only one usage.
 
 
-### -field BitField
+#### - BitField
 
 Contains the data fields (one or two bytes) associated with an input, output, or feature main item.
 
 
-### -field LinkCollection
+#### - LinkCollection
 
 Specifies the index of the <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> in a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection array</a> that contains the usage or usage range. If <b>LinkCollection</b> is zero, the usage or usage range is contained in the top-level collection.
 
 
-### -field LinkUsage
+#### - LinkUsage
 
 Specifies the usage of the link collection that contains the usage or usage range. If <b>LinkCollection</b> is zero, <b>LinkUsage</b> specifies the usage of the top-level collection.
 
 
-### -field LinkUsagePage
+#### - LinkUsagePage
 
 Specifies the usage page of the link collection that contains the usage or usage range. If <b>LinkCollection</b> is zero, <b>LinkUsagePage</b> specifies the usage page of the top-level collection.
 
 
-### -field IsRange
+#### - IsRange
 
 Specifies, if <b>TRUE</b>, that the structure describes a usage range. Otherwise, if <b>IsRange</b> is <b>FALSE</b>, the structure describes a single usage.
 
 
-### -field IsStringRange
+#### - IsStringRange
 
 Specifies, if <b>TRUE</b>, that the usage or usage range has a set of string descriptors. Otherwise, if <b>IsStringRange</b> is <b>FALSE</b>, the usage or usage range has zero or one string descriptor.
 
 
-### -field IsDesignatorRange
+#### - IsDesignatorRange
 
 Specifies, if <b>TRUE</b>, that the usage or usage range has a set of designators. Otherwise, if <b>IsDesignatorRange</b> is <b>FALSE</b>, the usage or usage range has zero or one designator.
 
 
-### -field IsAbsolute
+#### - IsAbsolute
 
 Specifies, if <b>TRUE</b>, that the button usage or usage range provides absolute data. Otherwise, if <b>IsAbsolute</b> is <b>FALSE</b>, the button data is the change in state from the previous value.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for internal system use.
 
@@ -263,19 +344,19 @@ For information about the capabilities of HID control values, see <a href="https
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
 
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eae478e1-f70c-4344-a6e0-982a668c1f5d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::GetRadix, IDebugControl3, IDebugControl::GetRadix, GetRadix method [Windows Debugging], IDebugControl interface, IDebugControl2::GetRadix, dbgeng/IDebugControl2::GetRadix, IDebugControl3::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, IDebugControl3 interface [Windows Debugging], GetRadix method, dbgeng/IDebugControl3::GetRadix, IDebugControl interface [Windows Debugging], GetRadix method, debugger.getradix, GetRadix method [Windows Debugging], GetRadix method [Windows Debugging], IDebugControl3 interface, GetRadix, IDebugControl2 interface [Windows Debugging], GetRadix method, GetRadix method [Windows Debugging], IDebugControl2 interface
+ms.keywords: debugger.getradix, GetRadix method [Windows Debugging], IDebugControl2 interface, GetRadix method [Windows Debugging], IDebugControl3, IDebugControl interface [Windows Debugging], GetRadix method, GetRadix method [Windows Debugging], IDebugControl3 interface, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, dbgeng/IDebugControl2::GetRadix, GetRadix, GetRadix method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetRadix method, IDebugControl3::GetRadix, dbgeng/IDebugControl3::GetRadix, dbgeng/IDebugControl::GetRadix, IDebugControl::GetRadix, IDebugControl3 interface [Windows Debugging], GetRadix method, IDebugControl2::GetRadix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetRadix(
 
 
 
-### -param Radix [out]
+#### - Radix [out]
 
 Receives the default radix.
 
@@ -109,11 +109,11 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556770">SetRadix</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

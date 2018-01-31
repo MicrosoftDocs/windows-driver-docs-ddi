@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 509eb91d-7f34-4ebb-bc37-56889c15a1b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, ifsk.iosetdevicetoverify, IoSetDeviceToVerify routine [Installable File System Drivers], ntifs/IoSetDeviceToVerify, IoSetDeviceToVerify
+ms.keywords: ifsk.iosetdevicetoverify, ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, IoSetDeviceToVerify, ntifs/IoSetDeviceToVerify, IoSetDeviceToVerify routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID IoSetDeviceToVerify(
 
 
 
-### -param Thread [in]
+#### - Thread [in]
 
 A pointer to the thread.
 
 
-### -param DeviceObject [in, optional]
+#### - DeviceObject [in, optional]
 
 A pointer to the device object for a removable-media device. Can be <b>NULL</b>.
 
@@ -100,13 +100,13 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
 <a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 <a href="..\ntifs\nf-ntifs-iogetdevicetoverify.md">IoGetDeviceToVerify</a>
+
+<a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
  
 

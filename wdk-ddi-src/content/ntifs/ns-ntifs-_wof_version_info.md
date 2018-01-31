@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 953F34FC-2E8F-4569-89B8-2F9541456F3B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_WOF_VERSION_INFO, PWOF_VERSION_INFO structure pointer [Installable File System Drivers], WOF_VERSION_INFO structure [Installable File System Drivers], ntifs/WOF_VERSION_INFO, ifsk.wof_version_info, WOF_VERSION_INFO, ntifs/PWOF_VERSION_INFO, PWOF_VERSION_INFO, *PWOF_VERSION_INFO"
+ms.keywords: "_WOF_VERSION_INFO, PWOF_VERSION_INFO structure pointer [Installable File System Drivers], ntifs/WOF_VERSION_INFO, PWOF_VERSION_INFO, WOF_VERSION_INFO, *PWOF_VERSION_INFO, ifsk.wof_version_info, ntifs/PWOF_VERSION_INFO, WOF_VERSION_INFO structure [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,16 +67,16 @@ typedef struct _WOF_VERSION_INFO {
 
 
 
-### -field WofVersion
+#### - WofVersion
 
 The version of the WOF driver. This value includes the major and minor version numbers of the operating system in the high-order word, and the build number of the operating system in the low-order word. The major version can be extracted with HIBYTE(HIWORD(<i>WofVersion</i>)); the minor version can be extracted with LOBYTE(HIWORD(<i>WofVersion</i>)); the build number can be extracted with LOWORD(<i>WofVersion</i>). 
 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt426734">FSCTL_GET_WOF_VERSION</a>
+
+<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
 
 <a href="..\ntifs\ns-ntifs-_wof_external_file_id.md">WOF_EXTERNAL_FILE_ID</a>
 

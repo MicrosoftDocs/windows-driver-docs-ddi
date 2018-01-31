@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba87baa2-7d96-4418-bfbc-411bb4cda3fb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILMSGIS637INSTATUS, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGIS637INSTATUS, RILMSGIS637INSTATUS, netvista.rilmsgis637instatus"
+ms.keywords: "*LPRILMSGIS637INSTATUS, ntddrilapitypes/RILMSGIS637INSTATUS, netvista.rilmsgis637instatus, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista], RILMSGIS637INSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,50 +78,50 @@ typedef struct _RILMSGIS637INSTATUS {
 
 
 
-### -field raOrigAddress
+#### - raOrigAddress
 
 
 
-### -field rsaOrigSubaddr
+#### - rsaOrigSubaddr
 
 
 
-### -field stSCReceiveTime
+#### - stSCReceiveTime
 
 
 
-### -field dwCauseCode
+#### - dwCauseCode
 
 
 
-### -field dwReplySeqNumber
+#### - dwReplySeqNumber
 
 
 
-### -field dwUserResponseCode
+#### - dwUserResponseCode
 
 
 
-### -field dwMsgStatusType
+#### - dwMsgStatusType
 
 
 
-### -field dwMsgID
+#### - dwMsgID
 
 
 
-### -field dwMsgLang
+#### - dwMsgLang
 
 
 
-### -field dwMsgEncoding
+#### - dwMsgEncoding
 
 
 
-### -field cchMsgLength
+#### - cchMsgLength
 
 
 
-### -field rgbMsg
+#### - rgbMsg
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1820e11c-0888-4d6d-aa75-b895c863eb43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent, _D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT
+ms.keywords: D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], display.d3dkmt_outputduplpresent, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT, _D3DKMT_OUTPUTDUPLPRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _D3DKMT_OUTPUTDUPLPRESENT {
 
 
 
-### -field hContext
+#### - hContext
 
 [in] A D3DKMT_HANDLE data type that represents a handle to the context.
 
 
-### -field hSource
+#### - hSource
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 The zero-based identification number of a video present source in a path of a video present network (VidPN) topology.
 
 
-### -field BroadcastContextCount
+#### - BroadcastContextCount
 
 [in] Specifies the number of contexts.
 
 
-### -field BroadcastContext
+#### - BroadcastContext
 
 [in] A D3DKMT_HANDLE data type that represents the broadcast context.
 
 
-### -field PresentRegions
+#### - PresentRegions
 
 [in] Dirty and move regions, of type <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>.
 
 
-### -field Flags
+#### - Flags
 
 [in] A bitwise-OR combination of values from the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresentflags.md">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a> enumeration that describe options for the present operation.
 
@@ -116,9 +116,9 @@ The zero-based identification number of a video present source in a path of a vi
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresentflags.md">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresentflags.md">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
 
  
 

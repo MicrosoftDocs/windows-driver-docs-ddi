@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 7, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 3, 6, 5, kernel.pep_acpi_initialize_spb_uart_resource, 0, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 1, 4, 2
+ms.keywords: 3, kernel.pep_acpi_initialize_spb_uart_resource, 6, 5, 1, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 4, 7, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 0, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
@@ -82,22 +82,22 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE(
 
 
 
-### -param BaudRate [in]
+#### - BaudRate [in]
 
 Specifies the baud rate of the connection.
 
 
-### -param BitsPerByte [in]
+#### - BitsPerByte [in]
 
 Specifies the number of bits per byte of data.
 
 
-### -param StopBits [in]
+#### - StopBits [in]
 
 Specifies the stop bits used in the connection.
 
 
-### -param LinesInUse [in]
+#### - LinesInUse [in]
 
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
 <table>
@@ -188,12 +188,12 @@ Request to Send (RTS)
 </table> 
 
 
-### -param IsBigEndian [in]
+#### - IsBigEndian [in]
 
 Indicates if the most significant bits of data are in the lowest address. 
 
 
-### -param Parity [in]
+#### - Parity [in]
 
 Specifies the parity of the connection.
 <table>
@@ -259,22 +259,22 @@ Space
 </table> 
 
 
-### -param FlowControl [in]
+#### - FlowControl [in]
 
 Specifies the type of flow control used by the connection.
 
 
-### -param RxSize [in]
+#### - RxSize [in]
 
 Specifies the maximum receive buffer size, in bytes, that is supported by this connection.
 
 
-### -param TxSize [in]
+#### - TxSize [in]
 
 Specifies the maximum transmit buffer size, in bytes, that is supported by this connection.
 
 
-### -param ResourceSource [in]
+#### - ResourceSource [in]
 
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
@@ -282,32 +282,32 @@ qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
 
-### -param ResourceSourceIndex [in]
+#### - ResourceSourceIndex [in]
 
 This parameter should always be zero.
 
 
-### -param ResourceUsage [in]
+#### - ResourceUsage [in]
 
 Indicates if this resource is in use.
 
 
-### -param SharedMode [in]
+#### - SharedMode [in]
 
 Indicates if this resource is shared.
 
 
-### -param VendorData [in]
+#### - VendorData [in]
 
 A pointer to optional data that is specific to the serial bus connection type.
 
 
-### -param VendorDataLength [in]
+#### - VendorDataLength [in]
 
 The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>.
 

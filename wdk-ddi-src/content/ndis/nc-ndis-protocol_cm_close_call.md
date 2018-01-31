@@ -76,28 +76,28 @@ NDIS_STATUS ProtocolCmCloseCall(
 
 
 
-### -param CallMgrVcContext [in]
+#### - CallMgrVcContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. This handle was provided to NDIS from the call managers 
      <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function.
 
 
-### -param CallMgrPartyContext [in, optional]
+#### - CallMgrPartyContext [in, optional]
 
 Specifies the handle, if any, to a call manager-allocated context area in which the call manager
      maintain information about a party on a multipoint VC. This handle is <b>NULL</b> if the call being closed is
      not a multipoint call.
 
 
-### -param CloseData [in, optional]
+#### - CloseData [in, optional]
 
 Pointer to a buffer containing connection-oriented client-specified data that should be sent
      across the connection before the call is terminated. This parameter is <b>NULL</b> if the underlying network
      medium does not support transfers of data when closing a connection.
 
 
-### -param Size [in, optional]
+#### - Size [in, optional]
 
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
@@ -242,13 +242,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
 <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
  
 

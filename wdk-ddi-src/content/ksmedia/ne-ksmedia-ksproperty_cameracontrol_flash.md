@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7d5de6db-70a1-4d4a-b563-4a281cd0d68d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH, stream.ksproperty_cameracontrol_flash, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID
+ms.keywords: ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_FLASH, stream.ksproperty_cameracontrol_flash, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum  {
 
 
 
-### -field KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID
+#### - KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a> property is used to specify flash control.
 

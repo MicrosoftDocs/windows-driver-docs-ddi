@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/CWiauPropertyList::SetAccessSubType, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, SetAccessSubType, CWiauPropertyList::SetAccessSubType, image.cwiaupropertylist_setaccesssubtype, CWiauPropertyList
+ms.keywords: CWiauPropertyList, wiautil/CWiauPropertyList::SetAccessSubType, CWiauPropertyList::SetAccessSubType, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_setaccesssubtype, SetAccessSubType, CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, SetAccessSubType method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ void SetAccessSubType(
 
 
 
-### -param index
+#### - index
 
 Specifies the property's index in the property list.
 
 
-### -param Access
+#### - Access
 
 Specifies the type of access for the property, usually either WIA_PROP_READ (read-only) or WIA_PROP_RW (read/write).
 
 
-### -param SubType
+#### - SubType
 
 Specifies the property subtype, one of WIA_PROP_FLAG, WIA_PROP_LIST, WIA_PROP_RANGE, or WIA_PROP_NONE. The first three constants indicate, respectively, that a property is a set of flag values, a list of values, or a range of values. The fourth constant indicates that a property is none of these.
 

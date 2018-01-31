@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetExcludeUnencrypted
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ DWORD WINAPI * Dot11ExtSetExcludeUnencrypted(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -80,7 +80,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-### -param bExcludeUnencrypted [in]
+#### - bExcludeUnencrypted [in]
 
 A Boolean value that, if set to <b>TRUE</b>, configures the WLAN adapter to exclude unencrypted
      packets.
@@ -114,11 +114,11 @@ A call to the
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

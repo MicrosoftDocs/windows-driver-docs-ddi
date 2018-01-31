@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb68ee38-1726-4493-9c3b-71a1352dd9f2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FLT_SET_CONTEXT_KEEP_IF_EXISTS, FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml, FltSetTransactionContext routine [Installable File System Drivers], FltSetTransactionContext, ifsk.fltsettransactioncontext, FLT_SET_CONTEXT_REPLACE_IF_EXISTS, fltkernel/FltSetTransactionContext
+ms.keywords: ifsk.fltsettransactioncontext, FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml, FltSetTransactionContext, FLT_SET_CONTEXT_KEEP_IF_EXISTS, FLT_SET_CONTEXT_REPLACE_IF_EXISTS, FltSetTransactionContext routine [Installable File System Drivers], fltkernel/FltSetTransactionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS FltSetTransactionContext(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the caller. 
 
 
-### -param Transaction [in]
+#### - Transaction [in]
 
 Opaque transaction pointer for the transaction on which the context is being set. 
 
 
-### -param Operation [in]
+#### - Operation [in]
 
 Flag that specifies the details of the operation to be performed. This parameter must be one of the following: 
 <table>
@@ -112,12 +112,12 @@ If a context is already set for the transaction pointed to by the <i>Transaction
 </table> 
 
 
-### -param NewContext [in]
+#### - NewContext [in]
 
 Pointer to the new context to be set for the instance. The context must have been allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out, optional]
+#### - OldContext [out, optional]
 
 Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
@@ -212,25 +212,25 @@ For more information about context reference counting, see <a href="https://msdn
 
 <a href="..\fltkernel\nf-fltkernel-fltgettransactioncontext.md">FltGetTransactionContext</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltenlistintransaction.md">FltEnlistInTransaction</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcommitcomplete.md">FltCommitComplete</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltenlistintransaction.md">FltEnlistInTransaction</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
 
  
 

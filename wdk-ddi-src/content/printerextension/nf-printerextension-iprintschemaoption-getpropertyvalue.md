@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaOption, GetPropertyValue method [Print Devices], IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices], GetPropertyValue method, IPrintSchemaOption::GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue, printerextension/IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue
+ms.keywords: GetPropertyValue, IPrintSchemaOption, GetPropertyValue method [Print Devices], IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices], GetPropertyValue method, printerextension/IPrintSchemaOption::GetPropertyValue, GetPropertyValue method [Print Devices], IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT GetPropertyValue(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The base value of the "name" attribute of the "Property" or the "ScoredProperty" element.
 
 
-### -param bstrNamespaceUri [in]
+#### - bstrNamespaceUri [in]
 
 The namespace URI value of the "name" attribute of the "Property" or the "ScoredProperty" element.
 
@@ -109,11 +109,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
  
 

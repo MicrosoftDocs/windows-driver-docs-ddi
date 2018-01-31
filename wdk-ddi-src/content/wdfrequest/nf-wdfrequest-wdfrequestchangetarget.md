@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 562e92b4-fe68-4301-af40-f535cc408b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestChangeTarget, DFRequestObjectRef_3d1f75eb-de12-4a8e-8cb8-d5ebe941e70f.xml, wdf.wdfrequestchangetarget, kmdf.wdfrequestchangetarget, WdfRequestChangeTarget method, PFN_WDFREQUESTCHANGETARGET, WdfRequestChangeTarget
+ms.keywords: WdfRequestChangeTarget method, wdf.wdfrequestchangetarget, PFN_WDFREQUESTCHANGETARGET, wdfrequest/WdfRequestChangeTarget, DFRequestObjectRef_3d1f75eb-de12-4a8e-8cb8-d5ebe941e70f.xml, kmdf.wdfrequestchangetarget, WdfRequestChangeTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfRequestChangeTarget(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 
 
-### -param IoTarget [in]
+#### - IoTarget [in]
 
 A handle to a framework I/O target object. 
 

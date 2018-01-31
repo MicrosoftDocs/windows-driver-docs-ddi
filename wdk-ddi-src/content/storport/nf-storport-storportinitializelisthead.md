@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E37C54C1-209F-4944-940B-2247E86C8130
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeListHead routine [Storage Devices], storage.storportinitializelisthead, storport/StorPortInitializeListHead, StorPortInitializeListHead
+ms.keywords: storport/StorPortInitializeListHead, storage.storportinitializelisthead, StorPortInitializeListHead routine [Storage Devices], StorPortInitializeListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID StorPortInitializeListHead(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param ListHead [out]
+#### - ListHead [out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the head of the list.
 
@@ -90,13 +90,13 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
-
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
+<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
+
 <a href="..\storport\nf-storport-storportinterlockedinsertheadlist.md">StorPortInterlockedInsertHeadList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
 
  
 

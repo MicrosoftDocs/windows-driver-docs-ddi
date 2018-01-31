@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION, _KS_DVDCOPY_REGION, stream.ks_dvdcopy_region, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], PKS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, ksmedia/PKS_DVDCOPY_REGION, ksmedia/KS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices]"
+ms.keywords: ksmedia/KS_DVDCOPY_REGION, _KS_DVDCOPY_REGION, PKS_DVDCOPY_REGION, stream.ks_dvdcopy_region, KS_DVDCOPY_REGION structure [Streaming Media Devices], KS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], *PKS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _KS_DVDCOPY_REGION {
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Do not use.
 
 
-### -field RegionData
+#### - RegionData
 
 Specifies the region code for the nationality or language, as described in the following table:
 <table>
@@ -145,7 +145,7 @@ China
 </table> 
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved. Do not use.
 

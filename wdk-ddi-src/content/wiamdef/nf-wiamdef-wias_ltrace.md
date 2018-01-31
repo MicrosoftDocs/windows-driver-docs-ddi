@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_LTRACE macro [Imaging Devices], IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, image.wias_ltrace, wiamdef/WIAS_LTRACE, WIAS_LTRACE
+ms.keywords: wiamdef/WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, WIAS_LTRACE, IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_LTRACE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -193,11 +193,11 @@ The following is an example of how the macro can be used:
 
 <a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
-<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
-
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
 
 <a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
  
 

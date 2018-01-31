@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: aa542c6f-24f9-4ef4-a425-93905cca976a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PTS_DATA, PPTS_DATA, *PPTS_DATA, scstruct_8540d432-b29a-4227-a305-da7aba23a26d.xml, smclib/PPTS_DATA, smclib/PTS_DATA, _PTS_DATA, PTS_DATA structure [Smart Card Reader Devices], PPTS_DATA structure pointer [Smart Card Reader Devices], smartcrd.pts_data
+ms.keywords: "*PPTS_DATA, scstruct_8540d432-b29a-4227-a305-da7aba23a26d.xml, PPTS_DATA, PTS_DATA structure [Smart Card Reader Devices], smartcrd.pts_data, _PTS_DATA, PPTS_DATA structure pointer [Smart Card Reader Devices], smclib/PPTS_DATA, smclib/PTS_DATA, PTS_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PTS_DATA
 product: Windows
 targetos: Windows
-req.typenames: PTS_DATA, *PPTS_DATA
+req.typenames: "*PPTS_DATA, PTS_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ typedef struct _PTS_DATA {
 
 
 
-### -field Type
+#### - Type
 
 Controls how the remaining members of this structure are calculated. This member can have one of the following values:
 
@@ -97,27 +97,27 @@ Calculates user-defined parameters for PTS.
 The smart card driver library populates the remaining members of this structure when the reader driver calls its <a href="https://msdn.microsoft.com/library/windows/hardware/ff548972">SmartcardUpdateCardCapabilities (WDM)</a> routine. However, in some cases, the reader driver might be responsible for setting these parameters. For example, if a PTS request that specifies optimal parameters fails, the reader driver can set the parameters in a callback function that specifies the protocol. To specify the protocol, the callback function should set the type to PTS_TYPE_DEFAULT and call <b>SmartcardUpdateCardCapabilities</b> again. 
 
 
-### -field Fl
+#### - Fl
 
 The Fl value to use as part of PTS1 for the PTS request.
 
 
-### -field Dl
+#### - Dl
 
 The Dl value to use as part of PTS1 for the PTS request.
 
 
-### -field CLKFrequency
+#### - CLKFrequency
 
 Contains the clock frequency. Some smart card readers must be programmed by using the new clock frequency to use after the PTS request.
 
 
-### -field DataRate
+#### - DataRate
 
 Contains the new data rate. Some smart card readers (for example, serial readers) must be set to the new data rate to use after a PTS request.
 
 
-### -field StopBits
+#### - StopBits
 
 Contains the number of stop bits to use with the inserted card.
 

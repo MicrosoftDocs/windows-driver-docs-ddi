@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal, ifsk.fsrtlishpfsdbcslegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml
+ms.keywords: ntifs/FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], FsRtlIsHpfsDbcsLegal, fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ BOOLEAN FsRtlIsHpfsDbcsLegal(
 
 
 
-### -param DbcsName [in]
+#### - DbcsName [in]
 
 A pointer to the string to be tested.
 
 
-### -param WildCardsPermissible [in]
+#### - WildCardsPermissible [in]
 
 Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
-### -param PathNamePermissible [in]
+#### - PathNamePermissible [in]
 
 Set to <b>TRUE</b> if <i>DbcsName</i> can be a full pathname containing backslash characters, <b>FALSE</b> if it can only be a file name.
 
 
-### -param LeadingBackslashPermissible [in]
+#### - LeadingBackslashPermissible [in]
 
 Set to <b>TRUE</b> if a single leading backslash is permissible in the file or pathname, <b>FALSE</b> otherwise.
 

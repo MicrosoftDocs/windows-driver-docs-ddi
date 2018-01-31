@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0fce82e9-0932-4838-b247-af0b2b8642d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, d3dumddi/DXVADDI_AYUVSAMPLE8, _DXVADDI_AYUVSAMPLE8, DXVADDI_AYUVSAMPLE8 structure [Display Devices], display.dxvaddi_ayuvsample8, DXVADDI_AYUVSAMPLE8
+ms.keywords: display.dxvaddi_ayuvsample8, DXVADDI_AYUVSAMPLE8, d3dumddi/DXVADDI_AYUVSAMPLE8, _DXVADDI_AYUVSAMPLE8, DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXVADDI_AYUVSAMPLE8 {
 
 
 
-### -field Cr
+#### - Cr
 
 [in] An 8-bit chrominance (V) sample value.
 
 
-### -field Cb
+#### - Cb
 
 [in] An 8-bit chrominance (U) sample value.
 
 
-### -field Y
+#### - Y
 
 [in] An 8-bit luminance (Y) sample value.
 
 
-### -field Alpha
+#### - Alpha
 
 [in] The 8-bit opacity of the pixel when it is used as a source graphic for blending with another picture. 
 

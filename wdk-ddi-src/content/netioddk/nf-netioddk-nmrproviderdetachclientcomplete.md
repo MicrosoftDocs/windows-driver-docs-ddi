@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a52b3cfc-d6bd-4569-8b09-36dce65d017f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netioddk/NmrProviderDetachClientComplete, NmrProviderDetachClientComplete, NmrProviderDetachClientComplete function [Network Drivers Starting with Windows Vista], nmrref_c86f4d4f-b54f-4e31-b683-f692ff7ed1ba.xml, netvista.nmrproviderdetachclientcomplete
+ms.keywords: nmrref_c86f4d4f-b54f-4e31-b683-f692ff7ed1ba.xml, netioddk/NmrProviderDetachClientComplete, NmrProviderDetachClientComplete, netvista.nmrproviderdetachclientcomplete, NmrProviderDetachClientComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID NmrProviderDetachClientComplete(
 
 
 
-### -param NmrBindingHandle [in]
+#### - NmrBindingHandle [in]
 
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the provider module when it calls the provider module's 

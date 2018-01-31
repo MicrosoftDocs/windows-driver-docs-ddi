@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58fa1312-eb21-405d-85de-59ea69d9447f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeRange, ntddk/ResourceTypeOverflow, ntddk/ResourceTypeMax, ntddk/ResourceTypeSingle, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeExtendedCounterConfiguration, ntddk/ResourceTypeRange, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml, ntddk/ResourceTypeExtendedCounterConfiguration, ResourceTypeOverflow, kernel.physical_counter_resource_descriptor_type, ResourceTypeMax, ResourceTypeSingle
+ms.keywords: ResourceTypeExtendedCounterConfiguration, ResourceTypeRange, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ntddk/ResourceTypeSingle, ResourceTypeMax, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml, ntddk/ResourceTypeRange, ResourceTypeSingle, ntddk/ResourceTypeMax, kernel.physical_counter_resource_descriptor_type, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeOverflow, ntddk/ResourceTypeExtendedCounterConfiguration, ntddk/ResourceTypeOverflow, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE {
 
 
 
-### -field ResourceTypeSingle
+#### - ResourceTypeSingle
 
 A single hardware counter. The counter is described by the <b>u.CounterIndex</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
 
 
-### -field ResourceTypeRange
+#### - ResourceTypeRange
 
 A range of counter indexes. The counter indexes are described by the <b>u.Range</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
 
 
-### -field ResourceTypeExtendedCounterConfiguration
+#### - ResourceTypeExtendedCounterConfiguration
 
 An extended counter configuration register address. The register address is contained in the <b>u.ExtendedRegisterAddress</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure. This value is used only on Intel NetBurst systems.
 
 
-### -field ResourceTypeOverflow
+#### - ResourceTypeOverflow
 
 A counter overflow interrupt. The <b>u</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure is not used for this counter resource type.
 
 
-### -field ResourceTypeMax
+#### - ResourceTypeMax
 
 The maximum value in this enumeration type. 
 

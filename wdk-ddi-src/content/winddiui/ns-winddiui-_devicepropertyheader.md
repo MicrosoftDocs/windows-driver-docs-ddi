@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f1b9cd2f-fa5b-4f34-a237-06d00badf1d1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DEVICEPROPERTYHEADER, _DEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, print.devicepropertyheader, *PDEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], winddiui/PDEVICEPROPERTYHEADER, winddiui/DEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER
+ms.keywords: DEVICEPROPERTYHEADER structure [Print Devices], print.devicepropertyheader, print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, DEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], winddiui/PDEVICEPROPERTYHEADER, winddiui/DEVICEPROPERTYHEADER, _DEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _DEVICEPROPERTYHEADER {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Size, in bytes, of the DEVICEPROPERTYHEADER structure.
 
 
-### -field Flags
+#### - Flags
 
 Is a set of flags that can be set to the following value: 
 <table>
@@ -97,12 +97,12 @@ If set, the user is not permitted to update device settings.
 </table> 
 
 
-### -field hPrinter
+#### - hPrinter
 
 Printer handle.
 
 
-### -field pszPrinterName
+#### - pszPrinterName
 
 Pointer to a NULL-terminated string representing a printer name.
 

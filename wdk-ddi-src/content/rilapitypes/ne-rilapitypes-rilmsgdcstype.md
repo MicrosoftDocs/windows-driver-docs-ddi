@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5eabc972-f372-4d70-ab38-8830f7907a7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_DCSTYPE_MAX, netvista.rilmsgdcstype_2, RIL_DCSTYPE_MSGWAIT, RILMSGDCSTYPE, RIL_DCSTYPE_MSGCLASS, RIL_DCSTYPE_LANGUAGE, rilapitypes/RIL_DCSTYPE_LANGUAGE, RIL_DCSTYPE_MAX, rilapitypes/RIL_DCSTYPE_MSGWAIT, RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGDCSTYPE, rilapitypes/RIL_DCSTYPE_MSGCLASS
+ms.keywords: RILMSGDCSTYPE, rilapitypes/RIL_DCSTYPE_MAX, RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DCSTYPE_MSGCLASS, rilapitypes/RIL_DCSTYPE_MSGWAIT, netvista.rilmsgdcstype_2, rilapitypes/RILMSGDCSTYPE, rilapitypes/RIL_DCSTYPE_MSGCLASS, rilapitypes/RIL_DCSTYPE_LANGUAGE, RIL_DCSTYPE_MSGWAIT, RIL_DCSTYPE_LANGUAGE, RIL_DCSTYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILMSGDCSTYPE {
 
 
 
-### -field RIL_DCSTYPE_MSGWAIT
+#### - RIL_DCSTYPE_MSGWAIT
 
 
 
-### -field RIL_DCSTYPE_MSGCLASS
+#### - RIL_DCSTYPE_MSGCLASS
 
 
 
-### -field RIL_DCSTYPE_LANGUAGE
+#### - RIL_DCSTYPE_LANGUAGE
 
 
 
-### -field RIL_DCSTYPE_MAX
+#### - RIL_DCSTYPE_MAX
 
 

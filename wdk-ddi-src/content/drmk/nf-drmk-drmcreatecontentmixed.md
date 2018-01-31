@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: cec501d9-17e3-46a1-929e-4f9ba35ba721
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: DrmCreateContentMixed, drmk/DrmCreateContentMixed, audio.drmcreatecontentmixed, DrmCreateContentMixed function [Audio Devices], aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml
+ms.keywords: drmk/DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices], aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, DrmCreateContentMixed, audio.drmcreatecontentmixed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmCreateContentMixed
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # DrmCreateContentMixed function
@@ -70,17 +70,17 @@ NTSTATUS DrmCreateContentMixed(
 
 
 
-### -param paContentId [in]
+#### - paContentId [in]
 
 Pointer to an array of DRM content IDs. Each array element is of type ULONG and contains a content ID that represents a protected KS audio stream. If <i>cContentId</i> is zero, <i>paContentID</i> can be <b>NULL</b>. A content ID of zero is a special value that represents an audio stream with default DRM content rights (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536254">DEFINE_DRMRIGHTS_DEFAULT</a>).
 
 
-### -param cContentId [in]
+#### - cContentId [in]
 
 Specifies the number of DRM content IDs in the <i>paContentId</i> array. The array can hold zero or more content IDs.
 
 
-### -param pMixedContentId [out]
+#### - pMixedContentId [out]
 
 Output pointer for the composite content ID. This parameter points to a caller-allocated ULONG variable into which the function writes the new content ID for the composite KS audio stream. If <i>cContentId</i> is zero, the function assigns default DRM content rights to the new content ID.
 
@@ -111,19 +111,19 @@ After a KS audio filter finishes using a content ID that it created using <code>
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-
-<a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536254">DEFINE_DRMRIGHTS_DEFAULT</a>
-
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>
 
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536254">DEFINE_DRMRIGHTS_DEFAULT</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+
+<a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
 
  
 

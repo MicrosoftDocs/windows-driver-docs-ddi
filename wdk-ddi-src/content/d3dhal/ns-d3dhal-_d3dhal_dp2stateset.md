@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2stateset, *LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], _D3DHAL_DP2STATESET, d3dhal/LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, d3dhal/D3DHAL_DP2STATESET
+ms.keywords: LPD3DHAL_DP2STATESET structure pointer [Display Devices], display.d3dhal_dp2stateset, *LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, _D3DHAL_DP2STATESET, D3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], d3dhal/D3DHAL_DP2STATESET, d3dhal/LPD3DHAL_DP2STATESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _D3DHAL_DP2STATESET {
 
 
 
-### -field dwOperation
+#### - dwOperation
 
 Specifies the operation to perform. The value of this member can be one of the following:
 <table>
@@ -142,12 +142,12 @@ Specifies that the stateset referenced by <b>dwParam</b> should be executed.
 </table> 
 
 
-### -field dwParam
+#### - dwParam
 
 Specifies the stateset handle that references the state block being manipulated with the current <b>dwOperation</b>.
 
 
-### -field sbType
+#### - sbType
 
 Specifies the state block type. The driver should ignore this member unless it implements render state extensions, or implements support for <a href="https://msdn.microsoft.com/6ad3412c-fd80-41c0-9abc-117aacc5ddae">pure devices</a> (DirectX 8.0 and later versions only).
 

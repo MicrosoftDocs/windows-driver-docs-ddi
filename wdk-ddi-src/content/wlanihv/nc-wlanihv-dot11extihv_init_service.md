@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvInitService
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ DWORD APIENTRY Dot11ExtIhvInitService(
 
 
 
-### -param dwVerNumUsed [in]
+#### - dwVerNumUsed [in]
 
 The interface version used by the operating system. The value of this parameter must be between
      the ranges of version numbers returned in the 
@@ -85,7 +85,7 @@ The interface version used by the operating system. The value of this parameter 
      Dot11ExtIhvGetVersionInfo</i></mshelp:link> IHV Handler function.
 
 
-### -param pDot11ExtAPI [in]
+#### - pDot11ExtAPI [in]
 
 A pointer to a 
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a> structure, which contains the
@@ -94,12 +94,12 @@ A pointer to a
      <i>Dot11ExtIhvInitService</i> function.
 
 
-### -param pvReserved
+#### - pvReserved
 
 This parameter is reserved for use by the operating system.
 
 
-### -param pDot11IHVHandlers [out]
+#### - pDot11IHVHandlers [out]
 
 A pointer to a 
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a> structure,
@@ -153,9 +153,9 @@ The
 
 ## -see-also
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a>
 

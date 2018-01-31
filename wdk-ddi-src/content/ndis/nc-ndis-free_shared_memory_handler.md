@@ -73,7 +73,7 @@ VOID NetFreeSharedMemory(
 
 
 
-### -param ProviderContext [in]
+#### - ProviderContext [in]
 
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
@@ -82,7 +82,7 @@ An NDIS_HANDLE to a block of driver-allocated context information that identifie
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
 
 
-### -param SharedMemoryProviderContext [in]
+#### - SharedMemoryProviderContext [in]
 
 A handle for a context area that identifies the shared memory block. This is the handle that the
      shared memory provider supplied at the 
@@ -114,12 +114,12 @@ The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+<a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a>
 
 <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a>
+<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
 
  
 

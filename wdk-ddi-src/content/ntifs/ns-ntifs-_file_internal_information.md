@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b82bc943-d9f0-451f-a8ac-f89936e866eb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_INTERNAL_INFORMATION, PFILE_INTERNAL_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_internal_information, _FILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION structure [Installable File System Drivers], fileinformationstructures_7be724e0-06ec-4555-bcce-14926b7d92df.xml, ntifs/FILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION, *PFILE_INTERNAL_INFORMATION, ntifs/PFILE_INTERNAL_INFORMATION
+ms.keywords: FILE_INTERNAL_INFORMATION, ntifs/PFILE_INTERNAL_INFORMATION, PFILE_INTERNAL_INFORMATION, ntifs/FILE_INTERNAL_INFORMATION, *PFILE_INTERNAL_INFORMATION, fileinformationstructures_7be724e0-06ec-4555-bcce-14926b7d92df.xml, PFILE_INTERNAL_INFORMATION structure pointer [Installable File System Drivers], _FILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION structure [Installable File System Drivers], ifsk.file_internal_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _FILE_INTERNAL_INFORMATION {
 
 
 
-### -field IndexNumber
+#### - IndexNumber
 
 The 8-byte file reference number for the file. This number is assigned by the file system and is file-system-specific. (Note that this is not the same as the 16-byte "file object ID" that was added to NTFS for Microsoft Windows 2000.) 
 
@@ -101,13 +101,13 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 <a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
-
 <a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
 
  
 

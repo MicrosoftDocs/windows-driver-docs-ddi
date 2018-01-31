@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55cbef36-dea7-4f7c-ac43-fb819b61a858
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW, ntddmmc/FEATURE_DATA_DVD_PLUS_RW, structs-CD-ROM_8b49bf86-5e1a-42a3-9bb6-ba6afca60375.xml, PFEATURE_DATA_DVD_PLUS_RW, storage.feature_data_dvd_plus_rw, ntddmmc/PFEATURE_DATA_DVD_PLUS_RW, PFEATURE_DATA_DVD_PLUS_RW structure pointer [Storage Devices], *PFEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW structure [Storage Devices]"
+ms.keywords: ntddmmc/FEATURE_DATA_DVD_PLUS_RW, PFEATURE_DATA_DVD_PLUS_RW, *PFEATURE_DATA_DVD_PLUS_RW, ntddmmc/PFEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW structure [Storage Devices], PFEATURE_DATA_DVD_PLUS_RW structure pointer [Storage Devices], _FEATURE_DATA_DVD_PLUS_RW, structs-CD-ROM_8b49bf86-5e1a-42a3-9bb6-ba6afca60375.xml, storage.feature_data_dvd_plus_rw, FEATURE_DATA_DVD_PLUS_RW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,35 +73,35 @@ typedef struct _FEATURE_DATA_DVD_PLUS_RW {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field Write
+#### - Write
 
 Indicates, when set to 1, that the device can do background formatting of DVD+RW discs according to <i>DVD+RW 4.7 Gbytes Basic Format Specifications</i>, and can write to discs that have been formatted in this manner. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 
 
-### -field CloseOnly
+#### - CloseOnly
 
 Indicates, when set to 1, then the device supports only read compatibility stops. When set to 0, the device supports both forms of background format stop. For more information about background format stops, see the <i>SCSI Multimedia Commands - 4 (MMC-4)</i> specification published by the American National Standards Institute (ANSI).
 
 
-### -field QuickStart
+#### - QuickStart
 
 
 
-### -field Reserved02
+#### - Reserved02
 
 
 
-### -field Reserved03
+#### - Reserved03
 
 
 

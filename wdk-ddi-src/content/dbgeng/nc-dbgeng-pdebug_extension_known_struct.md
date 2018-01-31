@@ -90,7 +90,7 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 <b>When getting a list of names:</b>  Receives a list of the names of the structures that the extension can format for printing.  One null character must appear between each pair of names.  The list must be terminated with two null characters. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f96e4305-ec07-4df8-8fdf-f840598dd938
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_DEVICE_QUALIFIER_DESCRIPTOR structure pointer [Buses], usbspec/USB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR, buses.usb_device_qualifier_descriptor, PUSB_DEVICE_QUALIFIER_DESCRIPTOR, _USB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR structure [Buses], usbstrct_af615085-b822-4342-b1dd-950a0ff61d99.xml, usbspec/PUSB_DEVICE_QUALIFIER_DESCRIPTOR
+ms.keywords: PUSB_DEVICE_QUALIFIER_DESCRIPTOR structure pointer [Buses], usbstrct_af615085-b822-4342-b1dd-950a0ff61d99.xml, _USB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR, buses.usb_device_qualifier_descriptor, USB_DEVICE_QUALIFIER_DESCRIPTOR structure [Buses], usbspec/USB_DEVICE_QUALIFIER_DESCRIPTOR, usbspec/PUSB_DEVICE_QUALIFIER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_DEVICE_QUALIFIER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR
+req.typenames: "*PUSB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -76,47 +76,47 @@ typedef struct _USB_DEVICE_QUALIFIER_DESCRIPTOR {
 
 
 
-### -field bLength
+#### - bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-### -field bDescriptorType
+#### - bDescriptorType
 
 Specifies the descriptor type. Must be set to <b>USB_DEVICE_QUALIFIER_DESCRIPTOR_TYPE</b>.
 
 
-### -field bcdUSB
+#### - bcdUSB
 
 Identifies the version of the USB specification that this descriptor structure complies with. This value is a binary-coded decimal number.
 
 
-### -field bDeviceClass
+#### - bDeviceClass
 
 Specifies the class code of the device as assigned by the USB specification group.
 
 
-### -field bDeviceSubClass
+#### - bDeviceSubClass
 
 Specifies the subclass code of the device as assigned by the USB specification group.
 
 
-### -field bDeviceProtocol
+#### - bDeviceProtocol
 
 Specifies the protocol code of the device as assigned by the USB specification group.
 
 
-### -field bMaxPacketSize0
+#### - bMaxPacketSize0
 
 Specifies the maximum packet size, in bytes, for endpoint zero of the device. The value must be set to 8, 16, 32, or 64.
 
 
-### -field bNumConfigurations
+#### - bNumConfigurations
 
 Specifies the total number of possible configurations for the device.
 
 
-### -field bReserved
+#### - bReserved
 
 Reserved.
 

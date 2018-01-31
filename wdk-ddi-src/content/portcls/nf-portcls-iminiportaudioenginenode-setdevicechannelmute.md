@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 272B83D4-AACE-419D-9DD7-A1AE1C8A931A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceChannelMute method [Audio Devices], SetDeviceChannelMute, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelMute method, IMiniportAudioEngineNode::SetDeviceChannelMute, audio.iminiportaudioenginenode_setdevicechannelmute
+ms.keywords: SetDeviceChannelMute, portcls/IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelMute method, audio.iminiportaudioenginenode_setdevicechannelmute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.SetDeviceChannelMute
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::SetDeviceChannelMute method
@@ -69,17 +69,17 @@ NTSTATUS SetDeviceChannelMute(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-### -param ulChannel [in]
+#### - ulChannel [in]
 
 The audio device channel.
 
 
-### -param bMute [in]
+#### - bMute [in]
 
 The state to which the Mute node for the audio device channel will be set.
 

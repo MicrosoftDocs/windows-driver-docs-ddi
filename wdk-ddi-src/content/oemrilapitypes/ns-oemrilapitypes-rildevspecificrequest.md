@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 36e2ae4b-cc2f-4980-95fe-25a38a1c07b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPRILDEVSPECIFICREQUEST, netvista.rildevspecificrequest, oemrilapitypes/LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST structure pointer [Network Drivers Starting with Windows Vista], oemrilapitypes/RILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST structure [Network Drivers Starting with Windows Vista], *LPRILDEVSPECIFICREQUEST
+ms.keywords: netvista.rildevspecificrequest, oemrilapitypes/RILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST structure pointer [Network Drivers Starting with Windows Vista], oemrilapitypes/LPRILDEVSPECIFICREQUEST, *LPRILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST structure [Network Drivers Starting with Windows Vista], RILDEVSPECIFICREQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILDEVSPECIFICREQUEST {
 
 
 
-### -field dwCmdId
+#### - dwCmdId
 
 
 
-### -field dwSize
+#### - dwSize
 
 
 
-### -field params
+#### - params
 
 

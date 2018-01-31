@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f10f1c28-0bfd-44c5-a0aa-9f9227f775d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/wiauDbgWarning, wiauDbgWarning function [Imaging Devices], wiauDbgWarning, wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml, image.wiaudbgwarning
+ms.keywords: wiautil/wiauDbgWarning, image.wiaudbgwarning, wiauDbgWarning function [Imaging Devices], wiauDbgWarning, wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ inline void __stdcall wiauDbgWarning(
 
 
 
-### -param fname
+#### - fname
 
 Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgWarning</b> is inserted.
 
@@ -99,13 +99,13 @@ None
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
-
 <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+
+<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
  
 

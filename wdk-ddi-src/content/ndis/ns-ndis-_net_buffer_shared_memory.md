@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 492bb1cd-fc3e-4e85-9074-32ebbf1fb837
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], ndis/PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY, _NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER_SHARED_MEMORY, netvista.net_buffer_shared_memory"
+ms.keywords: PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], netvista.net_buffer_shared_memory, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, ndis/PNET_BUFFER_SHARED_MEMORY, _NET_BUFFER_SHARED_MEMORY, ndis/NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_BUFFER_SHARED_MEMORY
 product: Windows
 targetos: Windows
-req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY
+req.typenames: "*PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY"
 ---
 
 # _NET_BUFFER_SHARED_MEMORY structure
@@ -72,28 +72,28 @@ typedef struct _NET_BUFFER_SHARED_MEMORY {
 
 
 
-### -field NextSharedMemorySegment
+#### - NextSharedMemorySegment
 
 A pointer to the next NET_BUFFER_SHARED_MEMORY structure in a NULL-terminated linked list of such
      structures.
 
 
-### -field SharedMemoryFlags
+#### - SharedMemoryFlags
 
 A ULONG value that contains shared memory flags. This member is reserved for future use.
 
 
-### -field SharedMemoryHandle
+#### - SharedMemoryHandle
 
 An NDIS_HANDLE that contains an NDIS shared memory handle.
 
 
-### -field SharedMemoryOffset
+#### - SharedMemoryOffset
 
 A ULONG value that contains the offset, in bytes, of the shared memory.
 
 
-### -field SharedMemoryLength
+#### - SharedMemoryLength
 
 A ULONG value for the length, in bytes, of the shared memory segment.
 
@@ -123,18 +123,18 @@ Use the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
 
 <mshelp:link keywords="netvista.net_buffer_shared_mem_next_segment" tabindex="0"><b>
    NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
 
  
 

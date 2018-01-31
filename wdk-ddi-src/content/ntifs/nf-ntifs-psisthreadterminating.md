@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2b82b060-79ea-4add-b559-af37c954537e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml, ntifs/PsIsThreadTerminating, PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], ifsk.psisthreadterminating
+ms.keywords: ifsk.psisthreadterminating, ntifs/PsIsThreadTerminating, PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN PsIsThreadTerminating(
 
 
 
-### -param Thread [in]
+#### - Thread [in]
 
 A pointer to the thread to be checked for termination.
 

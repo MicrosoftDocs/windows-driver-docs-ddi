@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B821AF54-AF2C-4E19-BC70-2E0A8F172D93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxPowerControl, kernel.pofxpowercontrol, wdm/PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PoFxPowerControl, kernel.pofxpowercontrol, PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ NTSTATUS PoFxPowerControl(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-### -param PowerControlCode [in]
+#### - PowerControlCode [in]
 
 A pointer to the power control code. This code is a GUID value that specifies the requested operation.
 
 
-### -param InBuffer [in, optional]
+#### - InBuffer [in, optional]
 
 A pointer to a caller-allocated buffer that contains the input data for the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>InBuffer</i> parameter is optional and can be specified as NULL if the specified operation requires no input data.
 
 
-### -param InBufferSize [in]
+#### - InBufferSize [in]
 
 The size, in bytes, of the input buffer that is pointed to by the <i>InBuffer</i> parameter. If <i>InBuffer</i> is NULL, set <i>InBufferSize</i> to zero.
 
 
-### -param OutBuffer [out, optional]
+#### - OutBuffer [out, optional]
 
 A pointer to a caller-allocated buffer that is to contain the output data from the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>OutBuffer</i> parameter is optional and can be specified as NULL if the specified operation produces no output data.
 
 
-### -param OutBufferSize [in]
+#### - OutBufferSize [in]
 
 The size, in bytes, of the output buffer that is pointed to by the <i>OutBuffer</i> parameter. If <i>OutBuffer</i> is NULL, set <i>OutBufferSize</i> to zero.
 
 
-### -param BytesReturned [out, optional]
+#### - BytesReturned [out, optional]
 
 A pointer to a location into which the routine writes the number of bytes of data that were written to the buffer that is pointed to by <i>OutBuffer</i>. The number of bytes written will be less than or equal to <i>OutBufferSize</i>. This parameter is optional and can be specified as <b>NULL</b> if the caller does not need to know how many bytes were written to the output buffer.
 

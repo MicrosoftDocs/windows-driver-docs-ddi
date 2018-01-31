@@ -75,7 +75,7 @@ BOOLEAN MiniportMessageInterrupt(
 
 
 
-### -param MiniportInterruptContext [in]
+#### - MiniportInterruptContext [in]
 
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
@@ -84,7 +84,7 @@ A handle to a block of interrupt context information. The miniport driver suppli
      NdisMRegisterInterruptEx</b></mshelp:link> function.
 
 
-### -param MessageId [in]
+#### - MessageId [in]
 
 A message-signaled interrupt (MSI) message identifier. 
      <i>MessageId</i> is an index to an 
@@ -97,7 +97,7 @@ A message-signaled interrupt (MSI) message identifier.
      <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a> function.
 
 
-### -param QueueDefaultInterruptDpc [out]
+#### - QueueDefaultInterruptDpc [out]
 
 A pointer to a Boolean variable that the miniport driver sets before returning from this call. A
      miniport driver sets this value to <b>TRUE</b> to indicate that the driver requires a DPC on the default
@@ -106,7 +106,7 @@ A pointer to a Boolean variable that the miniport driver sets before returning f
      <i>TargetProcessors</i> parameter to schedule DPCs.
 
 
-### -param TargetProcessors [out]
+#### - TargetProcessors [out]
 
 A bitmask that indicates the target processors for which NDIS should schedule a DPC. This bitmask represents the first 32 processors in processor group 0. Each bit in 
      the bitmask identifies a CPU. If the caller sets bit 0, NDIS schedules a DPC for CPU 0. If the caller sets bit 1, NDIS
@@ -247,38 +247,38 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
-
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559454">MiniportSynchronizeMessageInterrupt</a>
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
 
+<mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
    NdisMSynchronizeWithInterruptEx</b></mshelp:link>
 
-<mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
 <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
 <mshelp:link keywords="kernel.io_interrupt_message_info_entry" tabindex="0"><b>
    IO_INTERRUPT_MESSAGE_INFO_ENTRY</b></mshelp:link>
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
  
 

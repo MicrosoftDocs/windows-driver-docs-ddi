@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a512c846-6896-48ca-a234-b9a30a3bff06
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Disassemble method [Windows Debugging], IDebugControl2 interface, IDebugControl2::Disassemble, IDebugControl3::Disassemble, debugger.disassemble, IDebugControl3, Disassemble, IDebugControl2 interface [Windows Debugging], Disassemble method, Disassemble method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::Disassemble, IDebugControl interface [Windows Debugging], Disassemble method, Disassemble method [Windows Debugging], IDebugControl3 interface, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, IDebugControl::Disassemble, dbgeng/IDebugControl2::Disassemble, Disassemble method [Windows Debugging], IDebugControl3 interface [Windows Debugging], Disassemble method, dbgeng/IDebugControl3::Disassemble
+ms.keywords: Disassemble method [Windows Debugging], IDebugControl3, Disassemble method [Windows Debugging], IDebugControl3 interface, Disassemble method [Windows Debugging], IDebugControl interface, debugger.disassemble, IDebugControl2::Disassemble, Disassemble, dbgeng/IDebugControl3::Disassemble, dbgeng/IDebugControl2::Disassemble, IDebugControl3 interface [Windows Debugging], Disassemble method, IDebugControl2 interface [Windows Debugging], Disassemble method, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, Disassemble method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], Disassemble method, dbgeng/IDebugControl::Disassemble, IDebugControl3::Disassemble, IDebugControl::Disassemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,32 +74,32 @@ HRESULT Disassemble(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's memory of the instruction to disassemble.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the bit-flags that affect the behavior of this method.  Currently the only flag that can be set is DEBUG_DISASM_EFFECTIVE_ADDRESS; when set, the engine will compute the effective address from the current register information and display it.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the disassembled instruction.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param DisassemblySize [out, optional]
+#### - DisassemblySize [out, optional]
 
 Receives the size, in characters, of the disassembled instruction.  If <i>DisassemblySize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param EndOffset [out]
+#### - EndOffset [out]
 
 Receives the location in the target's memory of the instruction following the disassembled instruction.
 
@@ -152,15 +152,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: EC5FB722-F182-44A5-944C-ED81E43492AE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_NI_NotifyOnly, GNSS_NI_NotifyVerifyDefaultAllow, gnssdriver/GNSS_NI_NotifyVerifyDefaultNotAllow, GNSS_NI_NOTIFICATION_TYPE enumeration [Sensor Devices], GNSS_NI_NotifyOnly, gnssdriver/GNSS_NI_NOTIFICATION_TYPE, gnssdriver/GNSS_NI_NotifyVerifyDefaultAllow, GNSS_NI_PrivacyOverride, GNSS_NI_NOTIFICATION_TYPE, GNSS_NI_NoNotifyNoVerify, sensors.gnss_ni_notification_type, gnssdriver/GNSS_NI_PrivacyOverride, GNSS_NI_NotifyVerifyDefaultNotAllow, gnssdriver/GNSS_NI_NoNotifyNoVerify
+ms.keywords: GNSS_NI_NotifyOnly, GNSS_NI_NOTIFICATION_TYPE, gnssdriver/GNSS_NI_NotifyOnly, gnssdriver/GNSS_NI_PrivacyOverride, GNSS_NI_PrivacyOverride, GNSS_NI_NoNotifyNoVerify, gnssdriver/GNSS_NI_NotifyVerifyDefaultAllow, GNSS_NI_NOTIFICATION_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_NI_NOTIFICATION_TYPE, GNSS_NI_NotifyVerifyDefaultNotAllow, sensors.gnss_ni_notification_type, GNSS_NI_NotifyVerifyDefaultAllow, gnssdriver/GNSS_NI_NoNotifyNoVerify, gnssdriver/GNSS_NI_NotifyVerifyDefaultNotAllow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum  {
 
 
 
-### -field GNSS_NI_NoNotifyNoVerify
+#### - GNSS_NI_NoNotifyNoVerify
 
 No notification and no verification.
 
 
-### -field GNSS_NI_NotifyOnly
+#### - GNSS_NI_NotifyOnly
 
 Notification only.
 
 
-### -field GNSS_NI_NotifyVerifyDefaultAllow
+#### - GNSS_NI_NotifyVerifyDefaultAllow
 
 Notification and verification allowed on no answer.
 
 
-### -field GNSS_NI_NotifyVerifyDefaultNotAllow
+#### - GNSS_NI_NotifyVerifyDefaultNotAllow
 
 Notification and verification denied on no answer.
 
 
-### -field GNSS_NI_PrivacyOverride
+#### - GNSS_NI_PrivacyOverride
 
 Privacy override.
 

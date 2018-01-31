@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C859CB06-3F71-4F6D-9949-0E9AE75CEC20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_deallocate2, D3DDDICB_DEALLOCATE2 structure [Display Devices], d3dumddi/D3DDDICB_DEALLOCATE2, _D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2
+ms.keywords: D3DDDICB_DEALLOCATE2 structure [Display Devices], D3DDDICB_DEALLOCATE2, display.d3dddicb_deallocate2, d3dumddi/D3DDDICB_DEALLOCATE2, _D3DDDICB_DEALLOCATE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,33 +71,33 @@ typedef struct _D3DDDICB_DEALLOCATE2 {
 
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to a resource whose associated allocations must be released. If the user-mode display driver uses the array that is specified by <b>HandleList</b> to specify the allocations to release, it sets <b>hResource</b> to <b>NULL</b>.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] The number of allocations in the <b>HandleList</b> array. If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, <b>NumAllocations</b> is ignored by the Direct3D runtime.
 
 
-### -field HandleList
+#### - HandleList
 
 [in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations. The Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to release the allocations.
 
 If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, <b>HandleList</b> is ignored by the Direct3D runtime. 
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_destroyallocation2flags.md">D3DDDICB_DESTROYALLOCATION2FLAGS</a> structure that contains additional details about the operation.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocate2cb.md">pfnDeallocate2Cb</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_destroyallocation2flags.md">D3DDDICB_DESTROYALLOCATION2FLAGS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocate2cb.md">pfnDeallocate2Cb</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C96CF49-A7B2-4A99-8C7A-FC1C8C389C18
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PDELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], ehstorbandmgmt/DELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], _DELETE_BAND_PARAMETERS, storage.delete_band_parameters, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, DELBAND_ERASE_BEFORE_DELETE, DELETE_BAND_PARAMETERS"
+ms.keywords: PDELETE_BAND_PARAMETERS, storage.delete_band_parameters, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], _DELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], *PDELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS, DELBAND_ERASE_BEFORE_DELETE, ehstorbandmgmt/DELETE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DELETE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS"
+req.typenames: DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
 ---
 
 # _DELETE_BAND_PARAMETERS structure
@@ -72,12 +72,12 @@ typedef struct _DELETE_BAND_PARAMETERS {
 
 
 
-### -field StructSize
+#### - StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(DELETE_BAND_PARAMETERS).
 
 
-### -field Flags
+#### - Flags
 
 Delete operation flags. This value is a bitwise OR combination of the following.
 <table>
@@ -98,22 +98,22 @@ Perform a cryptographic erase of the band property data before delete.
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 
 
-### -field BandId
+#### - BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId</b>. To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
 
-### -field BandStart
+#### - BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
 
-### -field AuthKeyOffset
+#### - AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authorization key for the band. The offset is from the beginning of <b>DELETE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>

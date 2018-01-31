@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6d61c6-40e5-46fd-8c18-1f9d89c58515
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortUlong, storprt_4f568f62-adb7-4176-9229-e2af5d4453cb.xml, StorPortWritePortUlong routine [Storage Devices], storport/StorPortWritePortUlong, storage.storportwriteportulong
+ms.keywords: storage.storportwriteportulong, storprt_4f568f62-adb7-4176-9229-e2af5d4453cb.xml, StorPortWritePortUlong routine [Storage Devices], StorPortWritePortUlong, storport/StorPortWritePortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ STORPORT_API VOID StorPortWritePortUlong(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Contains the address of the port to be written to. 
 
 
-### -param Value [in]
+#### - Value [in]
 
 Contains the value to be written. 
 
@@ -102,9 +102,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportulong.md">Scsi
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteportulong.md">ScsiPortWritePortUlong</a>
-
 <a href="..\storport\nf-storport-storportwriteportbufferulong.md">StorPortWritePortBufferUlong</a>
+
+<a href="..\srb\nf-srb-scsiportwriteportulong.md">ScsiPortWritePortUlong</a>
 
  
 

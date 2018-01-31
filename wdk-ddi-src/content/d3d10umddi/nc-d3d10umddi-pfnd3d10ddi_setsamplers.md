@@ -40,7 +40,7 @@ apiname:
 -	CsSetSamplers
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETSAMPLERS callback
@@ -81,7 +81,7 @@ VOID APIENTRY CsSetSamplers(
 
 
 
-### -param NumSamplers [in]
+#### - NumSamplers [in]
 
  The total number of samplers to set. 
 

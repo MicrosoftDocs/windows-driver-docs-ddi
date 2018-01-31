@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIOpenBlock, kernel.iowmiopenblock, k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], wdm/IoWMIOpenBlock
+ms.keywords: k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, wdm/IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], IoWMIOpenBlock, kernel.iowmiopenblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ NTSTATUS IoWMIOpenBlock(
 TBD
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies the desired access rights to the data block object. The caller must have particular access rights to perform certain operations. 
 
@@ -104,7 +104,7 @@ The data block object can be used to query WMI class properties. This flag must 
 The data block object can be used to set WMI class properties. This flag must be set to use any of the <b>IoWMISet<i>Xxx</i></b> routines on the data block object. 
 
 
-### -param DataBlockObject [out]
+#### - DataBlockObject [out]
 
 Pointer to a memory location where the routine returns a pointer to the data block object.
 
@@ -134,23 +134,23 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
-
-<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
+<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
 <a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
 <a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
+
+<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
+
+<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
+
+<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
 
 <a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
-
-<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
-
-<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
  
 

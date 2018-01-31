@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cb47545-177f-46ef-aff6-33ad8c9a6974
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscogettapicallid, NdisCoGetTapiCallId, ndis/NdisCoGetTapiCallId, NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml
+ms.keywords: condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml, ndis/NdisCoGetTapiCallId, NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], netvista.ndiscogettapicallid, NdisCoGetTapiCallId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ NDIS_STATUS NdisCoGetTapiCallId(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the NDIS handle to the VC. This handle was supplied by NDIS when the VC was originally
      created with the 
      <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> function.
 
 
-### -param TapiCallId [in, out]
+#### - TapiCallId [in, out]
 
 Pointer to a caller-allocated buffer that receives a data structure of type VAR_STRING. Upon
      successful return, this structure describes a string that TAPI applications can use to identify the
@@ -160,10 +160,10 @@ For more information about the VAR_STRING structure, see
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
 <mshelp:link keywords="netvista.ndisclgetprotocolvccontextfromtapicallid" tabindex="0"><b>
    NdisClGetProtocolVcContextFromTapiCallId</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
  
 

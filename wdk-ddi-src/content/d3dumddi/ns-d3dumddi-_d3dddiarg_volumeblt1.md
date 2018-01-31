@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 685aad54-03f5-4e3c-83a7-a44745acc4fb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_VOLUMEBLT1 structure [Display Devices], d3dumddi/D3DDDIARG_VOLUMEBLT1, D3DDDIARG_VOLUMEBLT1, _D3DDDIARG_VOLUMEBLT1, display.d3dddiarg_volumeblt1
+ms.keywords: D3DDDIARG_VOLUMEBLT1 structure [Display Devices], display.d3dddiarg_volumeblt1, d3dumddi/D3DDDIARG_VOLUMEBLT1, D3DDDIARG_VOLUMEBLT1, _D3DDDIARG_VOLUMEBLT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,46 +73,46 @@ typedef struct _D3DDDIARG_VOLUMEBLT1 {
 
 
 
-### -field hDstResource
+#### - hDstResource
 
 [in] A handle to the destination surface.
 
 
-### -field hSrcResource
+#### - hSrcResource
 
 [in] A handle to the source surface.
 
 
-### -field DstX
+#### - DstX
 
 [in] The width, in screen coordinates, of the destination volume in which the source volume is copied.
 
 
-### -field DstY
+#### - DstY
 
 [in] The height, in screen coordinates, of the destination volume in which the source volume is copied.
 
 
-### -field DstZ
+#### - DstZ
 
 [in] The depth, in screen coordinates, of the destination volume in which the source volume is copied.
 
 
-### -field SrcBox
+#### - SrcBox
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a> structure that describes the source volume texture to copy to the destination.
 
 
-### -field CopyFlags
+#### - CopyFlags
 
 A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
-
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
 
  
 

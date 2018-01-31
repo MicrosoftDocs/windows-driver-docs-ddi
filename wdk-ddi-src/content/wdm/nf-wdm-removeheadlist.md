@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8748451c-3e57-4acf-b1e6-b80fe7f461d8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RemoveHeadList routine [Kernel-Mode Driver Architecture], wdm/RemoveHeadList, RemoveHeadList, kernel.removeheadlist, k109_f16481a9-4fd3-4b81-9fd3-aa77b20f9873.xml
+ms.keywords: kernel.removeheadlist, RemoveHeadList, wdm/RemoveHeadList, RemoveHeadList routine [Kernel-Mode Driver Architecture], k109_f16481a9-4fd3-4b81-9fd3-aa77b20f9873.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PLIST_ENTRY RemoveHeadList(
 
 
 
-### -param ListHead [in, out]
+#### - ListHead [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that serves as the list header.
 
@@ -93,15 +93,15 @@ Callers of <b>RemoveHeadList</b> can be running at any IRQL. If <b>RemoveHeadLis
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
 <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
-
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
  
 

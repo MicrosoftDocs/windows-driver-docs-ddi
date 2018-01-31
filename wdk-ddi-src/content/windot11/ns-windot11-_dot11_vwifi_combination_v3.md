@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 65A397AE-B835-4043-9A81-24055901310B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_VWIFI_COMBINATION_V3 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION_V3, windot11/PDOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3 structure [Network Drivers Starting with Windows Vista], windot11/DOT11_VWIFI_COMBINATION_V3, PDOT11_VWIFI_COMBINATION_V3, *PDOT11_VWIFI_COMBINATION_V3, netvista.dot11_vwifi_combination_v3, DOT11_VWIFI_COMBINATION_V3
+ms.keywords: DOT11_VWIFI_COMBINATION_V3, windot11/PDOT11_VWIFI_COMBINATION_V3, PDOT11_VWIFI_COMBINATION_V3, windot11/DOT11_VWIFI_COMBINATION_V3, _DOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3 structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_COMBINATION_V3 structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_vwifi_combination_v3, *PDOT11_VWIFI_COMBINATION_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DOT11_VWIFI_COMBINATION_V3 {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>DOT11_VWIFI_COMBINATION_V3</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -96,27 +96,27 @@ The type, revision, and size of the <b>DOT11_VWIFI_COMBINATION_V3</b> structure.
 </table> 
 
 
-### -field uNumInfrastructure
+#### - uNumInfrastructure
 
 The number of 802.11 infrastructure stations supported.
 
 
-### -field uNumAdhoc
+#### - uNumAdhoc
 
 The number of adhoc stations supported.
 
 
-### -field uNumSoftAP
+#### - uNumSoftAP
 
 The number of soft access point stations supported.
 
 
-### -field uNumVirtualStation
+#### - uNumVirtualStation
 
 The number of virtual stations supported.
 
 
-### -field uNumWFDGroup
+#### - uNumWFDGroup
 
 The number of simultaneous operational Wi-Fi Direct (WFD) groups supported.
 

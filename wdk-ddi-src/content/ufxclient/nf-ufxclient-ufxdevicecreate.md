@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ufxdevicecreate, UfxDeviceCreate method [Buses], UfxDeviceCreate, ufxclient/UfxDeviceCreate
+ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], ufxclient/UfxDeviceCreate, buses.ufxdevicecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceCreate
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -77,22 +77,22 @@ NTSTATUS UfxDeviceCreate(
 TBD
 
 
-### -param Callbacks [in]
+#### - Callbacks [in]
 
 A structure of type <a href="..\ufxclient\ns-ufxclient-_ufx_device_callbacks.md">UFX_DEVICE_CALLBACKS</a> that contains pointers to driver-supplied callback routines to be associated with the UFX device object.
 
 
-### -param Capabilities [in]
+#### - Capabilities [in]
 
 A pointer to a <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
-### -param Attributes [in, optional]
+#### - Attributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
 
-### -param UfxDevice [out]
+#### - UfxDevice [out]
 
 A pointer to a location that receives a handle to the new UFX device object.
 

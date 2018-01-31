@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A84BE3D6-7D2A-4123-979B-F6E1CA8C8B23
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_tagKSTOPOLOGY_ENDPOINTID, ksmedia/KSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], *PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], ksmedia/PKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, KSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID"
+ms.keywords: ksmedia/KSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], ksmedia/PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, _tagKSTOPOLOGY_ENDPOINTID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _tagKSTOPOLOGY_ENDPOINTID {
 
 
 
-### -field TopologyName
+#### - TopologyName
 
 The name of the topology endpoint.
 
 
-### -field PinId
+#### - PinId
 
 The pin ID of the topology endpoint.
 

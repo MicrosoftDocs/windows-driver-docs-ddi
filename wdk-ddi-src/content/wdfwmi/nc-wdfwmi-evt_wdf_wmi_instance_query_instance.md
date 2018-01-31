@@ -40,7 +40,7 @@ apiname:
 -	EvtWmiInstanceQueryInstance
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
+req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -76,22 +76,22 @@ NTSTATUS EvtWmiInstanceQueryInstance(
 
 
 
-### -param WmiInstance [in]
+#### - WmiInstance [in]
 
 A handle to a WMI instance object.
 
 
-### -param OutBufferSize [in]
+#### - OutBufferSize [in]
 
 The size, in bytes, of the output buffer that <i>OutBuffer</i> points to.
 
 
-### -param OutBuffer [in]
+#### - OutBuffer [in]
 
 A pointer to the output buffer.
 
 
-### -param BufferUsed [out]
+#### - BufferUsed [out]
 
 A pointer to a location that receives the number of bytes that the driver places in the output buffer. If the output buffer size that the <i>OutBufferSize</i> parameter specifies is too small, the driver sets this location to the required buffer size.  
 
@@ -124,19 +124,19 @@ For more information about WMI, see <a href="https://docs.microsoft.com/en-us/wi
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
-
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_buffer_append_string.md">WDF_WMI_BUFFER_APPEND_STRING</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_buffer_append_string.md">WDF_WMI_BUFFER_APPEND_STRING</a>
 
  
 

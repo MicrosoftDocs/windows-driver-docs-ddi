@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82b1fe8e-054c-4710-9a32-d620a62a070e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_EXECUTION_LEVEL, WdfExecutionLevelDispatch, WdfExecutionLevelPassive, wdfobject/WDF_EXECUTION_LEVEL, WDF_EXECUTION_LEVEL enumeration, wdf.wdf_execution_level, kmdf.wdf_execution_level, wdfobject/WdfExecutionLevelInvalid, DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelPassive, WDF_EXECUTION_LEVEL, wdfobject/WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelInheritFromParent"
+ms.keywords: wdfobject/WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelInheritFromParent, kmdf.wdf_execution_level, DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, _WDF_EXECUTION_LEVEL, wdfobject/WDF_EXECUTION_LEVEL, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelPassive, WdfExecutionLevelDispatch, WDF_EXECUTION_LEVEL, wdf.wdf_execution_level, WDF_EXECUTION_LEVEL enumeration, WdfExecutionLevelPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_EXECUTION_LEVEL {
 
 
 
-### -field WdfExecutionLevelInvalid
+#### - WdfExecutionLevelInvalid
 
 Reserved for system use.
 
 
-### -field WdfExecutionLevelInheritFromParent
+#### - WdfExecutionLevelInheritFromParent
 
 The framework uses the maximum IRQL value of the object's parent, unless the object is one that requires IRQL = DISPATCH_LEVEL (such as a DPC object). This value is the default if a driver does not specify a WDF_EXECUTION_LEVEL-typed value.
 
 
-### -field WdfExecutionLevelPassive
+#### - WdfExecutionLevelPassive
 
 The framework always calls the object's callback functions at IRQL = PASSIVE_LEVEL.
 
 
-### -field WdfExecutionLevelDispatch
+#### - WdfExecutionLevelDispatch
 
 The framework calls the object's callback functions at IRQL &lt;= DISPATCH_LEVEL. Not available in UMDF.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PullDefault, pepfx/PullUp, kernel.gpio_pin_config_type, PullUp, pepfx/GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE, PullDefault, PullDown, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], _GPIO_PIN_CONFIG_TYPE, pepfx/PullNone, pepfx/PullDown, PullNone
+ms.keywords: PullDefault, pepfx/GPIO_PIN_CONFIG_TYPE, PullUp, pepfx/PullUp, kernel.gpio_pin_config_type, pepfx/PullNone, _GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PullDefault, PullNone, PullDown, pepfx/PullDown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _GPIO_PIN_CONFIG_TYPE {
 
 
 
-### -field PullDefault
+#### - PullDefault
 
 Indicates that no configuration is applied to this pin.
 
 
-### -field PullUp
+#### - PullUp
 
 Indicates that this pin is configured to use a pull-up resistor.
 
 
-### -field PullDown
+#### - PullDown
 
 Indicates that this pin is configured to use a pull-down resistor.
 
 
-### -field PullNone
+#### - PullNone
 
 Indicates that this pin is not configured to use a pull-up or pull-down resistor.
 

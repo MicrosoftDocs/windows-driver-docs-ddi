@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbExcludeAdapterAccess
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_EXCLUDE_ADAPTER_ACCESS callback
@@ -73,12 +73,12 @@ NTSTATUS DxgkCbExcludeAdapterAccess(
 
 
 
-### -param DeviceHandle [in]
+#### - DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-### -param Attributes [in]
+#### - Attributes [in]
 
 A value that specifies video memory operations. This parameter can be any combination of the following bit flag values, except that DXGK_EXCLUDE_EVICT_ALL and DXGK_EXCLUDE_CALL_SYNCHRONOUS are mutually exclusive. These values are defined in <i>Dispmprt.h</i>.
 
@@ -100,12 +100,12 @@ Executes the protected <a href="..\dispmprt\nc-dispmprt-dxgkddi_protected_callba
 Protects access to the PCI Express (PCIe) root port when the driver needs to access the root port configuration space. Set the <i>Attributes</i> parameter to this value before calling <a href="..\dispmprt\nc-dispmprt-dxgkcb_read_device_space.md">DxgkCbReadDeviceSpace</a> or <a href="..\dispmprt\nc-dispmprt-dxgkcb_write_device_space.md">DxgkCbWriteDeviceSpace</a> functions with the <i>DataType</i> parameter set to DXGK_WHICHSPACE_BRIDGE.
 
 
-### -param DxgkProtectedCallback [in]
+#### - DxgkProtectedCallback [in]
 
 The callback routine to be called back when all access to the adapter has been halted.
 
 
-### -param ProtectedCallbackContext [in]
+#### - ProtectedCallbackContext [in]
 
 A pointer to the value to pass to the <i>ProtectedCallbackContext</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_protected_callback.md">DxgkProtectedCallback</a> callback routine.
 

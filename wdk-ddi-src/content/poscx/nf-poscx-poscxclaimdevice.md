@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 16EB583C-FB61-4811-A691-3FBD159F8FD0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxClaimDevice, pos.poscxclaimdevice, PosCxClaimDevice function, PosCxClaimDevice
+ms.keywords: poscx/PosCxClaimDevice, pos.poscxclaimdevice, PosCxClaimDevice, PosCxClaimDevice function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS PosCxClaimDevice(
 
 
 
-### -param device [in]
+#### - device [in]
 
 A handle to a framework device object that represents the device.
 
 
-### -param request [in]
+#### - request [in]
 
 A handle to a framework request object that represents the request. This request must come from a WDF IO queue.
 

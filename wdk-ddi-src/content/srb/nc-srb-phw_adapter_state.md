@@ -40,7 +40,7 @@ apiname:
 -	(*PHW_ADAPTER_STATE)
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef BOOLEAN (*PHW_ADAPTER_STATE)(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Reserved for system use.
 
 
-### -param SaveState [in]
+#### - SaveState [in]
 
 Indicates, when <b>TRUE</b>, that the miniport driver should save the current state of the HBA until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557278">HwScsiAdapterState</a> routine is called again with <i>SaveState</i> set to <b>FALSE</b> to restore the saved state.
 

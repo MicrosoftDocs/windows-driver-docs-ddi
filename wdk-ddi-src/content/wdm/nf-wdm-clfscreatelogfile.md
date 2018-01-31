@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 297f7b03-efd0-4e9c-a758-1a3b5b89511d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], wdm/ClfsCreateLogFile, kernel.clfscreatelogfile, Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, ClfsCreateLogFile
+ms.keywords: kernel.clfscreatelogfile, Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], wdm/ClfsCreateLogFile, ClfsCreateLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,12 +79,12 @@ NTSTATUS ClfsCreateLogFile(
 
 
 
-### -param pplfoLog [out]
+#### - pplfoLog [out]
 
 A pointer to a variable that receives a pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream.
 
 
-### -param puszLogFileName [in]
+#### - puszLogFileName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the name of the stream or the underlying physical log. 
 
@@ -112,7 +112,7 @@ The following list gives some examples of valid names.
 </li>
 </ul>
 
-### -param fDesiredAccess [in]
+#### - fDesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> that supplies the type of access the client will have (by using the pointer returned in <i>pplfoLog</i>) to the stream. If this parameter is zero, clients can query the stream for its attributes, but cannot read from or write to the stream. This parameter can be zero or any combination of the following flags:
 <table>
@@ -153,7 +153,7 @@ The client can mark the stream for deletion.
 </table> 
 
 
-### -param dwShareMode [in]
+#### - dwShareMode [in]
 
 The sharing mode of the stream, which can be zero (not shared) or any combination of the following flags:
 <table>
@@ -194,12 +194,12 @@ Subsequent requests to open the stream with write access will succeed.
 </table> 
 
 
-### -param psdLogFile [in, optional]
+#### - psdLogFile [in, optional]
 
 A pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure that supplies security attributes for the stream. This parameter can be <b>NULL</b>. 
 
 
-### -param fCreateDisposition [in]
+#### - fCreateDisposition [in]
 
 The action to take that depends on whether the stream already exists. This parameter must be set to one of the following values:
 <table>
@@ -240,7 +240,7 @@ Open an existing stream. Create the stream if it does not already exist.
 </table> 
 
 
-### -param fCreateOptions [in]
+#### - fCreateOptions [in]
 
 A set of flags that specify options to apply when creating or opening the stream. This parameter can be zero or a compatible combination of the following flags:
 <table>
@@ -281,14 +281,14 @@ All operations on the stream are performed synchronously. Waits in the system th
 </table> 
 
 
-### -param fFlagsAndAttributes [in]
+#### - fFlagsAndAttributes [in]
 
 A value that specifies whether the stream is opened for normal or read-only access. This parameter must be set to either 
 
 FILE_ATTRIBUTE_NORMAL or FILE_ATTRIBUTE_READONLY.
 
 
-### -param fLogOptionFlag [in]
+#### - fLogOptionFlag [in]
 
 A hint about the relationship between CLFS and the component creating or opening the stream. This parameter must be set to one of the following values:
 	 
@@ -350,12 +350,12 @@ The creating component is a file system minifilter driver that sends all of its 
 </table> 
 
 
-### -param pvContext [in, optional]
+#### - pvContext [in, optional]
 
 A pointer to a context. The way the context is interpreted depends on the value passed to <i>fLogOptionsFlag</i>. 
 
 
-### -param cbContext [in]
+#### - cbContext [in]
 
 The size, in bytes, of the context pointed to by <i>pvContext</i>. If <i>pvContext</i> is not <b>NULL</b>, this parameter must be greater than zero. 
 
@@ -380,9 +380,9 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
-
 <a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
+
+<a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
 
 <a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
 

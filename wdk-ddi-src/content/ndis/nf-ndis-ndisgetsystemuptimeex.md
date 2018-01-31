@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a52087b5-81de-4945-9d1e-bea67915ced4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisgetsystemuptimeex, NdisGetSystemUpTimeEx function [Network Drivers Starting with Windows Vista], NdisGetSystemUpTimeEx, ndis/NdisGetSystemUpTimeEx, ndis_timer_ref_d487ece6-5ab0-4386-bd6e-1eaecbabf903.xml
+ms.keywords: ndis/NdisGetSystemUpTimeEx, NdisGetSystemUpTimeEx, ndis_timer_ref_d487ece6-5ab0-4386-bd6e-1eaecbabf903.xml, NdisGetSystemUpTimeEx function [Network Drivers Starting with Windows Vista], netvista.ndisgetsystemuptimeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID NdisGetSystemUpTimeEx(
 
 
 
-### -param pSystemUpTime [out]
+#### - pSystemUpTime [out]
 
 A pointer to a caller-supplied LARGE_INTEGER variable in which this function returns the time, in
      milliseconds, since the computer was last restarted.

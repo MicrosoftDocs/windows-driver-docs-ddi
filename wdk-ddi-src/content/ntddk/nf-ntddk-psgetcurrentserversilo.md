@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4E30CD53-C078-40D7-BEF8-A39F57D71D42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentserversilo, PsGetCurrentServerSilo, ntddk/PsGetCurrentServerSilo
+ms.keywords: ntddk/PsGetCurrentServerSilo, kernel.psgetcurrentserversilo, PsGetCurrentServerSilo, PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

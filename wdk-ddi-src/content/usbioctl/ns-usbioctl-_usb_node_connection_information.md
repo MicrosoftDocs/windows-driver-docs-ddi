@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1ed92343-c830-4e5e-a2f8-30b20057b1f0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_NODE_CONNECTION_INFORMATION, buses.usb_node_connection_information, PUSB_NODE_CONNECTION_INFORMATION structure pointer [Buses], _USB_NODE_CONNECTION_INFORMATION, usbstrct_3c58e495-9552-4e38-81ac-45c23d964825.xml, *PUSB_NODE_CONNECTION_INFORMATION, usbioctl/PUSB_NODE_CONNECTION_INFORMATION, PUSB_NODE_CONNECTION_INFORMATION, USB_NODE_CONNECTION_INFORMATION structure [Buses], usbioctl/USB_NODE_CONNECTION_INFORMATION
+ms.keywords: USB_NODE_CONNECTION_INFORMATION, usbioctl/PUSB_NODE_CONNECTION_INFORMATION, usbstrct_3c58e495-9552-4e38-81ac-45c23d964825.xml, *PUSB_NODE_CONNECTION_INFORMATION, PUSB_NODE_CONNECTION_INFORMATION structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION structure [Buses], usbioctl/USB_NODE_CONNECTION_INFORMATION, PUSB_NODE_CONNECTION_INFORMATION, buses.usb_node_connection_information, _USB_NODE_CONNECTION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _USB_NODE_CONNECTION_INFORMATION {
 
 
 
-### -field ConnectionIndex
+#### - ConnectionIndex
 
 A value that is greater than or equal to 1 that specifies the number of the port.
 
 
-### -field DeviceDescriptor
+#### - DeviceDescriptor
 
 A <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure that reports the USB device descriptor that is returned by the attached device during enumeration.
 
 
-### -field CurrentConfigurationValue
+#### - CurrentConfigurationValue
 
 The value that is used with the SetConfiguration request to specify that current configuration of the device that is connected to the indicated port. For more information about this member, see Universal Serial Bus Specification.
 
 
-### -field LowSpeed
+#### - LowSpeed
 
 A Boolean value that indicates whether the port and its connected device are operating at low speed. <b>TRUE</b> indicates that the port and its connected device are currently operating at a low speed. <b>FALSE</b> indicates otherwise.
 
 
-### -field DeviceIsHub
+#### - DeviceIsHub
 
 A Boolean value that indicates if the device that is attached to the port is a hub. If <b>TRUE</b>, the device that is attached to the port is a hub. If <b>FALSE</b>, the device is not a hub.
 
 
-### -field DeviceAddress
+#### - DeviceAddress
 
 The USB-assigned, bus-relative address of the device that is attached to the port.
 
 
-### -field NumberOfOpenPipes
+#### - NumberOfOpenPipes
 
 The number of open USB pipes that are associated with the port.
 
 
-### -field ConnectionStatus
+#### - ConnectionStatus
 
 A <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>-typed enumerator that indicates the connection status.
 
 
-### -field PipeList
+#### - PipeList
 
 An array of <a href="..\usbioctl\ns-usbioctl-_usb_pipe_info.md">USB_PIPE_INFO</a> structures  that describes the open pipes that are associated with the port. Pipe descriptions include the schedule offset of the pipe and the associated endpoint descriptor. This information can be used to calculate bandwidth usage.
 
@@ -134,21 +134,21 @@ The <b>Speed</b> member of the <a href="..\usbioctl\ns-usbioctl-_usb_node_connec
 
 ## -see-also
 
-<a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</a>
-
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\usbspec\ne-usbspec-_usb_device_speed.md">USB_DEVICE_SPEED</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
 <a href="..\usbioctl\ns-usbioctl-_usb_pipe_info.md">USB_PIPE_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</a>
+
+<a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
+
+<a href="..\usbspec\ne-usbspec-_usb_device_speed.md">USB_DEVICE_SPEED</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtNicSpecificExtension
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ DWORD WINAPI * Dot11ExtNicSpecificExtension(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -82,23 +82,29 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-### -param dwInBufferSize [in]
+#### - dwInBufferSize [in]
 
 The size, in bytes, of the caller-allocated data buffer referenced by the 
      <i>pvInBuffer</i> parameter.
 
 
-### -param pvInBuffer [in]
+#### - pvInBuffer [in]
 
 A pointer to a caller-allocated input buffer that contains the data required to perform the
      operation. The format of this data is defined by the IHV.
 
 
-### -param *pdwOutBufferSize
+#### - *pdwOutBufferSize [in, out]
+
+A pointer to a caller-allocated DWORD variable. When the 
+     <b>Dot11ExtNicSpecificExtension</b> function is called, the IHV Extensions DLL
+     must set this variable to the size, in bytes, of the caller-allocated data buffer referenced by the 
+     <i>pvOutBuffer</i> parameter. When the function returns, the operating system sets the variable to the
+     actual number of bytes returned in the data buffer referenced by the 
+     <i>pvOutBuffer</i> parameter.
 
 
-
-### -param pvOutBuffer [out]
+#### - pvOutBuffer [out]
 
 A pointer to a caller-allocated buffer that contains data returned from the Native 802.11 miniport
      driver for the specified request. The format of this data is defined by the IHV. This parameter can be
@@ -141,10 +147,10 @@ The
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
 <mshelp:link keywords="netvista.oid_dot11_nic_specific_extension" tabindex="0">
    OID_DOT11_NIC_SPECIFIC_EXTENSION</mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

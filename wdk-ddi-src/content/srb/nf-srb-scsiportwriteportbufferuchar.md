@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 83b6425f-52fa-4c57-aac5-698d3a586248
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWritePortBufferUchar routine [Storage Devices], ScsiPortWritePortBufferUchar, scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, srb/ScsiPortWritePortBufferUchar, storage.scsiportwriteportbufferuchar
+ms.keywords: ScsiPortWritePortBufferUchar, storage.scsiportwriteportbufferuchar, srb/ScsiPortWritePortBufferUchar, scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, ScsiPortWritePortBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortWritePortBufferUchar
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ VOID ScsiPortWritePortBufferUchar(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of bytes to be written to the HBA.
 

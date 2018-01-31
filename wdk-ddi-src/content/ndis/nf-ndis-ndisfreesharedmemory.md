@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d0a1790-cec0-4c28-85dd-5f4d7d518d63
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, ndis/NdisFreeSharedMemory, netvista.ndisfreesharedmemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], NdisFreeSharedMemory
+ms.keywords: NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], netvista.ndisfreesharedmemory, ndis/NdisFreeSharedMemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, NdisFreeSharedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisFreeSharedMemory(
 
 
 
-### -param NdisHandle [in]
+#### - NdisHandle [in]
 
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that was passed to the 
@@ -80,7 +80,7 @@ An NDIS driver or instance handle that was obtained during caller initialization
      NdisAllocateSharedMemory</b></mshelp:link> function when the shared memory was allocated.
 
 
-### -param AllocationHandle [in]
+#### - AllocationHandle [in]
 
 A handle for a context area that identifies the shared memory block. This is the handle that NDIS
      supplied at the 
@@ -113,9 +113,9 @@ NDIS calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
-
 <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
+
+<a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
 
  
 

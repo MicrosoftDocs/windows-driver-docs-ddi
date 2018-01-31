@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d8b3b45-90d9-4e64-a52d-253c9cb86588
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddvdeo/PVIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], display.video_memory, PVIDEO_MEMORY structure pointer [Display Devices], PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY, VIDEO_MEMORY, Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, *PVIDEO_MEMORY, _VIDEO_MEMORY
+ms.keywords: VIDEO_MEMORY structure [Display Devices], ntddvdeo/PVIDEO_MEMORY, Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, _VIDEO_MEMORY, PVIDEO_MEMORY structure pointer [Display Devices], ntddvdeo/VIDEO_MEMORY, display.video_memory, PVIDEO_MEMORY, *PVIDEO_MEMORY, VIDEO_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _VIDEO_MEMORY {
 
 
 
-### -field RequestedVirtualAddress
+#### - RequestedVirtualAddress
 
 Pointer to the requested virtual address for either the video memory, or the base of video memory, depending on whether <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a> or <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unmap_video_memory.md">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a> is using this structure.
 
@@ -89,9 +89,9 @@ For structures used in mapping into user-mode video memory, see <a href="..\ntdd
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unmap_video_memory.md">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a>
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unmap_video_memory.md">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a>
 
  
 

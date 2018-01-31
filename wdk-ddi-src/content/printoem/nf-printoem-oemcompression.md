@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e5246411-aa43-436f-b5e7-d7305ce659c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemcompression, printoem/OEMCompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, OEMCompression function [Print Devices], OEMCompression
+ms.keywords: print.oemcompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, OEMCompression function [Print Devices], OEMCompression, printoem/OEMCompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ INT APIENTRY OEMCompression(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 
 
-### -param pInBuf [in]
+#### - pInBuf [in]
 
 
 
-### -param pOutBuf [out]
+#### - pOutBuf [out]
 
 
 
-### -param dwInLen
+#### - dwInLen
 
 
 
-### -param dwOutLen
+#### - dwOutLen
 
 

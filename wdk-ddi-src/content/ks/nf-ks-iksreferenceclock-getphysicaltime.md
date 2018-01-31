@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96c8d5ef-e9ab-40a6-88e1-56efdb7157b7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/IKsReferenceClock::GetPhysicalTime, IKsReferenceClock, GetPhysicalTime method [Streaming Media Devices], stream.iksreferenceclock_getphysicaltime, IKsReferenceClock::GetPhysicalTime, GetPhysicalTime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, IKsReferenceClock interface [Streaming Media Devices], GetPhysicalTime method, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface
+ms.keywords: GetPhysicalTime, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock::GetPhysicalTime, IKsReferenceClock interface [Streaming Media Devices], GetPhysicalTime method, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, stream.iksreferenceclock_getphysicaltime, ks/IKsReferenceClock::GetPhysicalTime, IKsReferenceClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

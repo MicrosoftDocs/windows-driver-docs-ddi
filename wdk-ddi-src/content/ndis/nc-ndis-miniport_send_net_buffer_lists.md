@@ -76,14 +76,14 @@ VOID MiniportSendNetBufferLists(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information about an adapter.
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to the first 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure in a linked list
@@ -92,7 +92,7 @@ A pointer to the first
      in the list maps to a chain of MDLs. The MDLs contain the network data.
 
 
-### -param PortNumber [in]
+#### - PortNumber [in]
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
@@ -100,7 +100,7 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      value identifies the default port of a miniport adapter.
 
 
-### -param SendFlags [in]
+#### - SendFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
@@ -248,20 +248,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
 
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
+   NdisMSendNetBufferListsComplete</b></mshelp:link>
 
  
 

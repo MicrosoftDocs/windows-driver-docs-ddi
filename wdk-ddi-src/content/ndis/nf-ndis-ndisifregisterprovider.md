@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisifregisterprovider, ndis/NdisIfRegisterProvider, NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisIfRegisterProvider, NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], netvista.ndisifregisterprovider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NDIS_STATUS NdisIfRegisterProvider(
 
 
 
-### -param ProviderCharacteristics [in]
+#### - ProviderCharacteristics [in]
 
 A pointer to a caller-provided 
      <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
@@ -79,7 +79,7 @@ A pointer to a caller-provided
      provider, including the entry points for its provider callback functions.
 
 
-### -param IfProviderContext [in]
+#### - IfProviderContext [in]
 
 A handle to a caller-provided context area for this network interface provider. Set this parameter
      to <b>NULL</b> if there is no context area.
@@ -200,12 +200,12 @@ A component that is no longer an interface provider can call the
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
+<a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
+
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
    NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
 
  
 

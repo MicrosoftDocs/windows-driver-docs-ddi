@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiMiracastCreateContext
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_MIRACAST_CREATE_CONTEXT callback
@@ -73,24 +73,24 @@ NTSTATUS* DxgkDdiMiracastCreateContext(
 
 
 
-### -param DriverContext [in]
+#### - DriverContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param *MiracastCallbacks
+#### - *MiracastCallbacks [in]
+
+A pointer to an operating system-provided buffer that holds a <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a> structure that has pointers to callback functions that the driver can call.
 
 
+#### - *MiracastContext [out]
 
-### -param *MiracastContext
-
-
-
-### -param *TargetId
+A pointer to an operating system-provided buffer that holds the address of the context that the driver allocated for this Miracast device instance.
 
 
+#### - *TargetId [out]
 
-
+A pointer to an operating system-provided buffer that holds the  ID of the VidPN target that the Miracast device is connected to. The driver should report this target as type <b>D3DKMDT_VOT_MIRACAST</b> when the operating system calls the <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function during device initialization.
 
 
 #### - MiracastCallbacks [in]
@@ -142,11 +142,11 @@ When this function is called, the display miniport driver should prepare all ker
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
  
 

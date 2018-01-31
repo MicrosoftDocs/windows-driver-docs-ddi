@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_power_device_state, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceInvalid, WdfPowerDeviceD2, wudfddi_types/WdfPowerDeviceD3, WdfPowerDeviceD0, wdf.wdf_power_device_state_umdf, WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceD2, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, WdfPowerDeviceD3, WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDeviceMaximum, WdfPowerDevicePrepareForHibernation, wudfddi_types/WdfPowerDevicePrepareForHibernation, wudfddi_types/WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDeviceD1, WdfPowerDeviceD1, wudfddi_types/WDF_POWER_DEVICE_STATE
+ms.keywords: wudfddi_types/WdfPowerDeviceD3, wudfddi_types/WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDevicePrepareForHibernation, WdfPowerDeviceD0, wdf.wdf_power_device_state_umdf, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDevicePrepareForHibernation, wudfddi_types/WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceMaximum, WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceD2, WdfPowerDeviceD3Final, WdfPowerDeviceMaximum, *PWDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD1, umdf.wdf_power_device_state, WDF_POWER_DEVICE_STATE, WdfPowerDeviceD2, wudfddi_types/WdfPowerDeviceD0, WdfPowerDeviceD1, _WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD3Final, WdfPowerDeviceD3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,42 +78,42 @@ typedef enum _WDF_POWER_DEVICE_STATE {
 
 
 
-### -field WdfPowerDeviceInvalid
+#### - WdfPowerDeviceInvalid
 
 The device power state is invalid or unknown.
 
 
-### -field WdfPowerDeviceD0
+#### - WdfPowerDeviceD0
 
 The device supports the D0 device power state.
 
 
-### -field WdfPowerDeviceD1
+#### - WdfPowerDeviceD1
 
 The device supports the D1 device power state.
 
 
-### -field WdfPowerDeviceD2
+#### - WdfPowerDeviceD2
 
 The device supports the D2 device power state.
 
 
-### -field WdfPowerDeviceD3
+#### - WdfPowerDeviceD3
 
 The device supports the D3 device power state.
 
 
-### -field WdfPowerDeviceD3Final
+#### - WdfPowerDeviceD3Final
 
 The final time that the device enters the D3 device power state. Typically, this value means that the computer's power is being turned off or the device is being removed from the computer. The device might have been already removed.
 
 
-### -field WdfPowerDevicePrepareForHibernation
+#### - WdfPowerDevicePrepareForHibernation
 
 The device supports hibernation files, and the computer is ready to hibernate by entering system state S4. The driver must not turn off the device.
 
 
-### -field WdfPowerDeviceMaximum
+#### - WdfPowerDeviceMaximum
 
 Valid enumeration values were exceeded.
 

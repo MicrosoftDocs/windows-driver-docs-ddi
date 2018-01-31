@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f257c861-036b-44d1-9f99-dc5c0ab6e715
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RemoveMember, IServiceGroup::RemoveMember, IServiceGroup interface [Audio Devices], RemoveMember method, audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, IServiceGroup, RemoveMember method [Audio Devices], IServiceGroup interface, audio.iservicegroup_removemember, portcls/IServiceGroup::RemoveMember, RemoveMember method [Audio Devices]
+ms.keywords: IServiceGroup::RemoveMember, RemoveMember, portcls/IServiceGroup::RemoveMember, RemoveMember method [Audio Devices], audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, IServiceGroup, audio.iservicegroup_removemember, IServiceGroup interface [Audio Devices], RemoveMember method, RemoveMember method [Audio Devices], IServiceGroup interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IServiceGroup.RemoveMember
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IServiceGroup::RemoveMember method
@@ -67,7 +67,7 @@ void RemoveMember(
 
 
 
-### -param pServiceSink [in]
+#### - pServiceSink [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a> interface of the member that is to be removed
 

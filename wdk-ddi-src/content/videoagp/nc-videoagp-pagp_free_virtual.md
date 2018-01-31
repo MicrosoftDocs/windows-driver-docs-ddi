@@ -40,7 +40,7 @@ apiname:
 -	AgpFreeVirtual
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -74,22 +74,22 @@ VOID APIENTRY AgpFreeVirtual(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VirtualReserveContext [in]
+#### - VirtualReserveContext [in]
 
 Identifies a reserved virtual address range. This context handle was obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>.
 
 
-### -param Pages [in]
+#### - Pages [in]
 
 Specifies the number of pages of virtual memory that the video port driver should unmap.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the page offset into the reserved virtual address range identified by <b>VirtualReserveContext</b> that indicates the actual base address at which to unmap virtual memory.
 

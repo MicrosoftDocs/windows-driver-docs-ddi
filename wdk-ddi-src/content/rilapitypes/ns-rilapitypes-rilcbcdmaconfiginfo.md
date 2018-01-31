@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a12254b0-fb4d-49ff-a046-cae99c12f535
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcbcdmaconfiginfo_2, RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO
+ms.keywords: netvista.rilcbcdmaconfiginfo_2, RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCBCDMACONFIGINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCBCDMACONFIGINFO
 product: Windows
 targetos: Windows
-req.typenames: RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO
+req.typenames: "*LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -70,14 +70,14 @@ typedef struct _RILCBCDMACONFIGINFO {
 
 
 
-### -field fAccept
+#### - fAccept
 
 
 
-### -field dwBroadcastMsgLang
+#### - dwBroadcastMsgLang
 
 
 
-### -field dwBroadcastServiceCategory
+#### - dwBroadcastServiceCategory
 
 

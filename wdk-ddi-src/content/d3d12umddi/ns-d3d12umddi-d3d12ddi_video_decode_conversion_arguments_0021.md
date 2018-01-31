@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01288B0F-4095-4642-9DA9-4E14B0BCBB18
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, display.d3d12ddi_video_decode_conversion_arguments, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
+ms.keywords: display.d3d12ddi_video_decode_conversion_arguments, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure [Display Devices], D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 {
 
 
 
-### -field Enable
+#### - Enable
 
 Indicates whether decode conversion should be used.
 
 
-### -field hDrvReferenceTexture2D
+#### - hDrvReferenceTexture2D
 
 If down sampling is enabled, the output at decode resolution, color space, and format may be required for future decode submissions.  If it is not needed, specify null.  
 
 
-### -field ReferenceSubresource
+#### - ReferenceSubresource
 
 The subresource index to use of the <i>hDrvReferenceTexture2D</i> argument.
 
 
-### -field OutputColorSpace
+#### - OutputColorSpace
 
 The target color space of the output.
 
 
-### -field DecodeColorSpace
+#### - DecodeColorSpace
 
 The source decoded color space before conversion.
 

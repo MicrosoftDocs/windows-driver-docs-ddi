@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e646426-00c8-4a8c-8256-13a27ecea158
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bdapropertynodeevents, BdaPropertyNodeEvents, BdaPropertyNodeEvents function [Streaming Media Devices], bdasup/BdaPropertyNodeEvents, bdaref_2c17ed4f-8a4c-41bc-b543-9b2e5b82834b.xml
+ms.keywords: bdaref_2c17ed4f-8a4c-41bc-b543-9b2e5b82834b.xml, BdaPropertyNodeEvents, bdasup/BdaPropertyNodeEvents, stream.bdapropertynodeevents, BdaPropertyNodeEvents function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS BdaPropertyNodeEvents(
 TBD
 
 
-### -param pKSProperty [in]
+#### - pKSProperty [in]
 
 Points to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
-### -param pguidProperty [out, optional]
+#### - pguidProperty [out, optional]
 
 Points to an array that receives the list of GUIDs for the events supported by a node.
 
@@ -106,9 +106,9 @@ A BDA minidriver calls the <b>BdaPropertyNodeEvents</b> function to retrieve the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564326">KSPROPERTY_BDA_NODE_EVENTS</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564326">KSPROPERTY_BDA_NODE_EVENTS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 

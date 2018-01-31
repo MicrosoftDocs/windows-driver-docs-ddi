@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2b7b9b7-a76f-4bd9-bf25-edb5c103a578
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], RIL_SetCellBroadcastMsgConfig, netvista.ril_setcellbroadcastmsgconfig, rilapi/RIL_SetCellBroadcastMsgConfig
+ms.keywords: rilapi/RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], RIL_SetCellBroadcastMsgConfig, netvista.ril_setcellbroadcastmsgconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_SetCellBroadcastMsgConfig(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param hUiccApp
+#### - hUiccApp
 
 
 
-### -param lpCbMsgConfigInfo
+#### - lpCbMsgConfigInfo
 
 
 

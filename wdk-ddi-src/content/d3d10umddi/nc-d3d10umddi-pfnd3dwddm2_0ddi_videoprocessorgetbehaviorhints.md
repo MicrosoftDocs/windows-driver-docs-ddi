@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorGetBehaviorHints
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS callback
@@ -77,45 +77,44 @@ HRESULT APIENTRY* pfnVideoProcessorGetBehaviorHints(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param hVideoProcessor [in]
+#### - hVideoProcessor [in]
 
 Handle to the video processor object.
 
 
-### -param OutputWidth [in]
+#### - OutputWidth [in]
 
 Indicates the width of the output surface.
 
 
-### -param OutputHeight [in]
+#### - OutputHeight [in]
 
 Indicates the height of the output surface.
 
 
-### -param OutputFormat [in]
+#### - OutputFormat [in]
 
 Indicates the output format of the video processor. 
 
 
-### -param StreamCount [in]
+#### - StreamCount [in]
 
 The number of input streams to process. 
 
 
-### -param *pStreams
+#### - *pStreams [in]
+
+An array of structures indicating the format and status of each stream.
 
 
+#### - *pBehaviorHints [out]
 
-### -param *pBehaviorHints
-
-
-
-
+Receives a combination of <b>D3DWDDM2_0DDI_VIDEO_PROCESSOR_MULTIPLANE_BEHAVIOR_HINTS</b> values indicting which of the operations would best be performed using multi-plane overlay hardware rather than with <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>. 
 
 
 #### - pStreams [in]

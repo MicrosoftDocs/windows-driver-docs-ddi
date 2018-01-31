@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48C481EF-F3A1-48BF-B251-86D06AC125CC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, display.dxgk_multiplane_overlay_attributes2"
+ms.keywords: d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, display.dxgk_multiplane_overlay_attributes2, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,22 +81,22 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 {
 
 
 
-### -field Flags
+#### - Flags
 
 Specifies a combination of flip operations by performing a bitwise OR operation on the values in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_flags.md">DXGK_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
 
 
-### -field SrcRect
+#### - SrcRect
 
 Specifies the source rectangle relative to the source resource.
 
 
-### -field DstRect
+#### - DstRect
 
 Specifies the destination rectangle relative to the monitor resolution.
 
 
-### -field ClipRect
+#### - ClipRect
 
 Specifies any additional clipping region relative to <b>DstRect</b> 
                                                             after the data has been stretched according to the values of <b>SrcRect</b> and <b>DstRect</b>.
@@ -105,47 +105,47 @@ The driver and hardware can use the <b>ClipRect</b> member to apply a common str
                                                             as the clipping changes when an application occludes part of the <b>DstRect</b> destination rectangle.
 
 
-### -field Rotation
+#### - Rotation
 
 Specifies the clockwise rotation of the overlay plane, given as a value from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a> enumeration.
 
 
-### -field Blend
+#### - Blend
 
 Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_blend.md">DXGK_MULTIPLANE_OVERLAY_BLEND</a> enumeration.
 
 
-### -field VideoFrameFormat
+#### - VideoFrameFormat
 
 Specifies the overlay plane's video frame format, given as a value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_video_frame_format.md">DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
 
 
-### -field ColorSpaceType
+#### - ColorSpaceType
 
 Specifies the colorspace configuration, given as a value from the <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> enumeration.
 
 
-### -field StereoFormat
+#### - StereoFormat
 
 Specifies the overlay plane's video frame format, given as a value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_format.md">DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT</a> enumeration.
 
 
-### -field StereoLeftViewFrame0
+#### - StereoLeftViewFrame0
 
 Reserved for system use. Must always be <b>FALSE</b>.
 
 
-### -field StereoBaseViewFrame0
+#### - StereoBaseViewFrame0
 
 Reserved for system use. Must always be <b>FALSE</b>.
 
 
-### -field StereoFlipMode
+#### - StereoFlipMode
 
 Specifies the overlay plane's stereo flip mode, given as a value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_flip_mode.md">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a> enumeration.
 
 
-### -field StretchQuality
+#### - StretchQuality
 
 Specifies the overlay plane's stretch quality, given as a value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stretch_quality.md">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a> enumeration.
 
@@ -165,9 +165,11 @@ Specifies the color key value used when color key blending is enabled for legacy
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_blend.md">DXGK_MULTIPLANE_OVERLAY_BLEND</a>
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stretch_quality.md">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a>
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_flip_mode.md">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stretch_quality.md">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_flags.md">DXGK_MULTIPLANE_OVERLAY_FLAGS</a>
 
@@ -176,8 +178,6 @@ Specifies the color key value used when color key blending is enabled for legacy
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_video_frame_format.md">DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_flip_mode.md">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
 
  
 

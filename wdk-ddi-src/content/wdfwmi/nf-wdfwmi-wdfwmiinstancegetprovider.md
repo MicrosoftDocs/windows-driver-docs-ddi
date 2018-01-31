@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0371aeb-fcc0-4749-b70e-26b05b4f12b2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiInstanceGetProvider, WdfWmiInstanceGetProvider method, kmdf.wdfwmiinstancegetprovider, DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, wdf.wdfwmiinstancegetprovider, wdfwmi/WdfWmiInstanceGetProvider, PFN_WDFWMIINSTANCEGETPROVIDER
+ms.keywords: WdfWmiInstanceGetProvider, WdfWmiInstanceGetProvider method, DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, wdfwmi/WdfWmiInstanceGetProvider, wdf.wdfwmiinstancegetprovider, PFN_WDFWMIINSTANCEGETPROVIDER, kmdf.wdfwmiinstancegetprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDFWMIPROVIDER WdfWmiInstanceGetProvider(
 
 
 
-### -param WmiInstance [in]
+#### - WmiInstance [in]
 
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
 

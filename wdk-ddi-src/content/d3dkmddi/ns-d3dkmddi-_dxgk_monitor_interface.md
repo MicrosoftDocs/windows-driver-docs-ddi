@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edb6df63-7354-4da3-b641-2ce7f28ca7e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml, DXGK_MONITOR_INTERFACE structure [Display Devices], d3dkmddi/DXGK_MONITOR_INTERFACE, DXGK_MONITOR_INTERFACE, _DXGK_MONITOR_INTERFACE, display.dxgk_monitor_interface
+ms.keywords: DXGK_MONITOR_INTERFACE structure [Display Devices], DXGK_MONITOR_INTERFACE, d3dkmddi/DXGK_MONITOR_INTERFACE, display.dxgk_monitor_interface, _DXGK_MONITOR_INTERFACE, DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGK_MONITOR_INTERFACE {
 
 
 
-### -field Version
+#### - Version
 
 A value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_monitor_interface_version.md">DXGK_MONITOR_INTERFACE_VERSION</a> enumeration that indicates the monitor interface version. Must be set to 1.
 
 
-### -field pfnAcquireMonitorSourceModeSet
+#### - pfnAcquireMonitorSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a> function.
 
 
-### -field pfnReleaseMonitorSourceModeSet
+#### - pfnReleaseMonitorSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releasemonitorsourcemodeset.md">pfnReleaseMonitorSourceModeSet</a> function.
 
 
-### -field pfnGetMonitorFrequencyRangeSet
+#### - pfnGetMonitorFrequencyRangeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset.md">pfnGetMonitorFrequencyRangeSet</a> function.
 
 
-### -field pfnGetMonitorDescriptorSet
+#### - pfnGetMonitorDescriptorSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset.md">pfnGetMonitorDescriptorSet</a> function.
 

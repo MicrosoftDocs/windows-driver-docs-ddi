@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8c3fe52-2e5f-4212-9b52-10240d1abb86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SUPPORTED_DSSS_CHANNEL structure [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_DSSS_CHANNEL, Native_802.11_data_types_2c13b1f6-0b6e-4bc7-a51f-d9c49db8d3df.xml, PDOT11_SUPPORTED_DSSS_CHANNEL, windot11/DOT11_SUPPORTED_DSSS_CHANNEL, netvista.dot11_supported_dsss_channel, DOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_DSSS_CHANNEL, windot11/PDOT11_SUPPORTED_DSSS_CHANNEL
+ms.keywords: windot11/PDOT11_SUPPORTED_DSSS_CHANNEL, DOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL, DOT11_SUPPORTED_DSSS_CHANNEL structure [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_DSSS_CHANNEL, netvista.dot11_supported_dsss_channel, Native_802.11_data_types_2c13b1f6-0b6e-4bc7-a51f-d9c49db8d3df.xml, windot11/DOT11_SUPPORTED_DSSS_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DOT11_SUPPORTED_DSSS_CHANNEL {
 
 
 
-### -field uChannel
+#### - uChannel
 
 A ULONG value, which represents a frequency channel that the 802.11 station can operate with.
      Valid channel numbers are as defined in 15.4.6.2 of 

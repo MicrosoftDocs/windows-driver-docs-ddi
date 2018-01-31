@@ -40,7 +40,7 @@ apiname:
 -	WskReceiveFrom
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -80,27 +80,27 @@ NTSTATUS WSKAPI * WskReceiveFrom(
 
 
 
-### -param Socket [in]
+#### - Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket from which to receive the datagram.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to an initialized 
      <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that describes the data buffer
      that receives the datagram from the socket.
 
 
-### -param Flags
+#### - Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
 
-### -param RemoteAddress [out, optional]
+#### - RemoteAddress [out, optional]
 
 A pointer to a caller-allocated buffer that receives the remote transport address from which the
      received datagram originated. The buffer must be located in non-paged memory. The buffer must also be
@@ -113,7 +113,7 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
 
 
 
-### -param ControlInfo [out, optional]
+#### - ControlInfo [out, optional]
 
 A pointer to a caller-allocated buffer that receives the control information that is associated
      with the received datagram. The control information data that is associated with a datagram is made up
@@ -125,7 +125,7 @@ A pointer to a caller-allocated buffer that receives the control information tha
      <i>ControlInfo</i> parameter should be <b>NULL</b>.
 
 
-### -param ControlFlags [out, optional]
+#### - ControlFlags [out, optional]
 
 A pointer to a ULONG-typed variable that receives the bitwise OR of a combination of the following
      flags:
@@ -162,7 +162,7 @@ The control information data was truncated because the number of bytes of contro
        <i>ControlInfo</i> parameter.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -293,26 +293,26 @@ If the
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
 
 <mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
    WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
  
 

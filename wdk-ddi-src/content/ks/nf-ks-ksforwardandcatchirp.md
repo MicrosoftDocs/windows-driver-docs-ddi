@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 87a873c2-07d3-4f76-bc26-5fcae4b960e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksforwardandcatchirp, KsForwardAndCatchIrp function [Streaming Media Devices], ksfunc_db5ae1e5-b0c8-4703-866f-a3f060e5ffb3.xml, ks/KsForwardAndCatchIrp, KsForwardAndCatchIrp
+ms.keywords: stream.ksforwardandcatchirp, ksfunc_db5ae1e5-b0c8-4703-866f-a3f060e5ffb3.xml, KsForwardAndCatchIrp function [Streaming Media Devices], ks/KsForwardAndCatchIrp, KsForwardAndCatchIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ NTSTATUS KsForwardAndCatchIrp(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Specifies the device to forward the IRP to.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP that is being forwarded to the specified driver.
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Specifies a file object value to copy to the next stack location. This can be <b>NULL</b> in order to set no file object, but the value is always copied to the next stack location. If the current file object is to be preserved, it must be passed in this parameter. 
 
 
-### -param StackUse [in]
+#### - StackUse [in]
 
 Specifies a value enumerated by KSSTACK_USE. If the value is <i>KsStackCopyToNewLocation</i>, the parameters are copied to the next stack location. If the value is <i>KsStackReuseCurrentLocation</i>, the current stack location is reused when the IRP is forwarded and the stack location is returned to the current location. If the value is <i>KsStackUseNewLocation</i>, the new stack location is used as is.
 

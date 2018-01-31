@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3b86cf8-0e0c-4ed1-9d8c-6f2fef00b9cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], RILSUPSVCINFO, netvista.rilsupsvcinfo_2, *LPRILSUPSVCINFO
+ms.keywords: "*LPRILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], RILSUPSVCINFO, netvista.rilsupsvcinfo_2, rilapitypes/RILSUPSVCINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSUPSVCINFO
 product: Windows
 targetos: Windows
-req.typenames: RILSUPSVCINFO, *LPRILSUPSVCINFO
+req.typenames: "*LPRILSUPSVCINFO, RILSUPSVCINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -86,78 +86,78 @@ typedef struct _RILSUPSVCINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field fFromNetwork
+#### - fFromNetwork
 
 
 
-### -field dwFailureReason
+#### - dwFailureReason
 
 
 
-### -field dwSupSvcAction
+#### - dwSupSvcAction
 
 
 
-### -field dwCallForwardingReason
+#### - dwCallForwardingReason
 
 
 
-### -field dwCallBarringType
+#### - dwCallBarringType
 
 
 
-### -field dwSupSvcType
+#### - dwSupSvcType
 
 
 
-### -field dwInfoClasses
+#### - dwInfoClasses
 
 
 
-### -field aiIdentifier
+#### - aiIdentifier
 
 
 
-### -field szCallBarringPassword
+#### - szCallBarringPassword
 
 
 
-### -field szNewCallBarringPassword
+#### - szNewCallBarringPassword
 
 
 
-### -field callForwardSettings
+#### - callForwardSettings
 
 
 
-### -field callerIdSettings
+#### - callerIdSettings
 
 
 
-### -field dialedIdSettings
+#### - dialedIdSettings
 
 
 
-### -field hideIdSettings
+#### - hideIdSettings
 
 
 
-### -field hideConnectedIdSettings
+#### - hideConnectedIdSettings
 
 
 
-### -field supServiceData
+#### - supServiceData
 
 

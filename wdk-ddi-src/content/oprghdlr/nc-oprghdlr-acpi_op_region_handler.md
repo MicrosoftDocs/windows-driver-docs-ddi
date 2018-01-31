@@ -77,7 +77,7 @@ NTSTATUS EXPORT AcpiOpRegionHandler(
 
 
 
-### -param AccessType
+#### - AccessType
 
 Specifies one of the following access types.
 <table>
@@ -108,37 +108,37 @@ Read from the operation region memory buffer.
 </table> 
 
 
-### -param OperationRegionObject
+#### - OperationRegionObject
 
 Specifies the operation region object returned by <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a> for the operation region handler.
 
 
-### -param Address
+#### - Address
 
 Specifies a byte offset in the operation region memory buffer. Depending on the access type, data is transferred to or from this memory location. 
 
 
-### -param Size
+#### - Size
 
 Specifies the number of bytes to access.
 
 
-### -param Data
+#### - Data
 
 Pointer to the data buffer supplied by the ACPI driver that is associated with the access. For a read access, bytes are transferred from the operation region memory buffer to the data buffer. For a write access, bytes are transferred from the data buffer to the operation region memory buffer.
 
 
-### -param Context
+#### - Context
 
 Pointer to the same operation region context that the function driver specified when it registered the operation region handler.
 
 
-### -param CompletionHandler
+#### - CompletionHandler
 
 Reserved for internal use.
 
 
-### -param CompletionContext
+#### - CompletionContext
 
 Reserved for internal use.
 

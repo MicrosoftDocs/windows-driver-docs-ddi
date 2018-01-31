@@ -74,14 +74,14 @@ NTSTATUS EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE(
 
 
 
-### -param Companion [in]
+#### - Companion [in]
 
 
 
-### -param ResourcesRaw [in]
+#### - ResourcesRaw [in]
 
 
 
-### -param ResourcesTranslated [in]
+#### - ResourcesTranslated [in]
 
 

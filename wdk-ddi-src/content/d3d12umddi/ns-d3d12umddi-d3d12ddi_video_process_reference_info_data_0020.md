@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3711ACBD-482E-4BB8-8530-C92DA610CA5B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 structure [Display Devices], display.d3d12ddi_video_process_reference_info_data
+ms.keywords: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 structure [Display Devices], display.d3d12ddi_video_process_reference_info_data, D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,22 +75,22 @@ typedef struct D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 {
 
 
 
-### -field NodeIndex
+#### - NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 
-### -field DeinterlaceMode
+#### - DeinterlaceMode
 
 The deinterlacing mode for which to retrieve the number of past and future frames.  Only a single mode may be queried at once.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
 
 
-### -field Filters
+#### - Filters
 
 The filters for which to retrieve the number of past and future frames.  You can specify multiple filters may be specified.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
 
 
-### -field FeatureSupport
+#### - FeatureSupport
 
 The features for which to retrieve the number of past and future frames.  For more information, see the  <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a> enumeration. 
 
@@ -105,17 +105,17 @@ The features for which to retrieve the number of past and future frames.  For mo
  
 
 
-### -field EnableAutoProcessing
+#### - EnableAutoProcessing
 
 Whether automatic processing is used. 
 
 
-### -field PastFrames
+#### - PastFrames
 
 The number of past reference frames required to support this processing. 
 
 
-### -field FutureFrames
+#### - FutureFrames
 
 The number of future reference frames required to support this processing.
 
@@ -132,9 +132,9 @@ The output rate of the stream.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
-
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
 

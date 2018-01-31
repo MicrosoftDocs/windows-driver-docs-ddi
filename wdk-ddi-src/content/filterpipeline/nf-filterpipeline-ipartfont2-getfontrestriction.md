@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C6289E38-281A-46A2-8E28-138A20BF6684
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPartFont2, print.ipartfont2_getfontrestriction, GetFontRestriction method [Print Devices], IPartFont2 interface, GetFontRestriction method [Print Devices], GetFontRestriction, IPartFont2::GetFontRestriction, IPartFont2 interface [Print Devices], GetFontRestriction method, filterpipeline/IPartFont2::GetFontRestriction
+ms.keywords: GetFontRestriction method [Print Devices], IPartFont2 interface, IPartFont2::GetFontRestriction, print.ipartfont2_getfontrestriction, GetFontRestriction method [Print Devices], filterpipeline/IPartFont2::GetFontRestriction, IPartFont2, GetFontRestriction, IPartFont2 interface [Print Devices], GetFontRestriction method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetFontRestriction(
 
 
 
-### -param pRestriction [out]
+#### - pRestriction [out]
 
 
 

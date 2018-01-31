@@ -40,7 +40,7 @@ apiname:
 -	CsSetShaderResources
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETSHADERRESOURCES callback
@@ -81,7 +81,7 @@ VOID APIENTRY CsSetShaderResources(
 
 
 
-### -param NumViews [in]
+#### - NumViews [in]
 
  The total number of views to set. 
 

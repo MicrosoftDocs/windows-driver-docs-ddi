@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY GenerateMipSubLevels(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -104,9 +104,9 @@ After the user-mode display driver performs an operation that accesses only the 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_generatemipsublevels.md">D3DDDIARG_GENERATEMIPSUBLEVELS</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_generatemipsublevels.md">D3DDDIARG_GENERATEMIPSUBLEVELS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], *PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, _DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], ntddcdvd/PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR
+ms.keywords: PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], ntddcdvd/PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR, _DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], *PDVD_LAYER_DESCRIPTOR, ntddcdvd/DVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, PDVD_LAYER_DESCRIPTOR, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVD_LAYER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR
+req.typenames: "*PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR"
 ---
 
 # _DVD_LAYER_DESCRIPTOR structure
@@ -81,12 +81,12 @@ typedef struct _DVD_LAYER_DESCRIPTOR {
 
 
 
-### -field BookVersion
+#### - BookVersion
 
 Specifies the version of the specified book that this media complies with.
 
 
-### -field BookType
+#### - BookType
 
 Specifies the DVD book this media complies with. This member can have one of the following values:
 <table>
@@ -147,7 +147,7 @@ DVD+RW
 </table> 
 
 
-### -field MinimumRate
+#### - MinimumRate
 
 Specifies the read rate to use for the media. This member can have one of the following values:
 <table>
@@ -208,12 +208,12 @@ DVD+RW
 </table> 
 
 
-### -field DiskSize
+#### - DiskSize
 
 Specifies the physical size of the media. A value of zero indicates 120 mm. A value of 1 indicates a size of 80 mm.
 
 
-### -field LayerType
+#### - LayerType
 
 Indicates the type of layer. This member can have one of the following values:
 <table>
@@ -254,22 +254,22 @@ Rewritable layer
 </table> 
 
 
-### -field TrackPath
+#### - TrackPath
 
 Specifies the direction of the layers when more than one layer is used. If the <b>TrackPath</b> member is zero, this media uses a parallel track path (PTP). With PTP, each layer is independent and has its own lead-in and lead-out areas. If <b>TrackPath</b> is 1, the media uses opposite track path (OTP). With opposite track path, the two layers are united, and there is only one lead-in and lead-out area. For further details, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification. 
 
 
-### -field NumberOfLayers
+#### - NumberOfLayers
 
 Specifies the number of layers present on the side of the media being read. A value of zero indicates that the media has one layer. A value of 1 indicates that the media has two layers. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. 
 
 
-### -field TrackDensity
+#### - TrackDensity
 
 Indicates the track width used for this media in units of micrometers per track. This member can have one of the following values:
 <table>
@@ -310,7 +310,7 @@ Indicates the track width used for this media in units of micrometers per track.
 </table> 
 
 
-### -field LinearDensity
+#### - LinearDensity
 
 Indicates the minimum/maximum pit length used for this layer in units of micrometers per bit. This member can have one of the following values:
 <table>
@@ -371,7 +371,7 @@ Indicates the minimum/maximum pit length used for this layer in units of microme
 </table> 
 
 
-### -field StartingDataSector
+#### - StartingDataSector
 
 Specifies the first block that contains user data. This member can have one of the following values:
 <table>
@@ -402,22 +402,22 @@ An initial block value of 0x30000 indicates that the media type is DVD-RAM or DV
 </table> 
 
 
-### -field EndDataSector
+#### - EndDataSector
 
 Specifies the last sector of the user data in the last layer of the media. 
 
 
-### -field EndLayerZeroSector
+#### - EndLayerZeroSector
 
 Specifies the last sector of the user data in layer zero. If this media does not use the opposite track path method and contains multiple layers, this value is set to zero.
 
 
-### -field Reserved5
+#### - Reserved5
 
 Reserved. 
 
 
-### -field BCAFlag
+#### - BCAFlag
 
 Indicates, if set to 1, the presence of data in the burst cutting area (BCA). If set to zero, it indicates that there is no BCA data.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2abab6d-d9c5-4342-8436-fd05a2a298ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v1_2, RILIMSSTATUS_V1, rilapitypes/RILIMSSTATUS_V1"
+ms.keywords: rilapitypes/RILIMSSTATUS_V1, RILIMSSTATUS_V1, netvista.rilimsstatus_v1_2, *LPRILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,26 +73,26 @@ typedef struct _RILIMSSTATUS_V1 {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field hUiccApp
+#### - hUiccApp
 
 
 
-### -field dwAvailableServices
+#### - dwAvailableServices
 
 
 
-### -field dwSMSSupportedFormat
+#### - dwSMSSupportedFormat
 
 

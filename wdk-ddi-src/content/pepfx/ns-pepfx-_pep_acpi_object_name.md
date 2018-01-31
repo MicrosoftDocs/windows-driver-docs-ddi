@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55D8A977-DA91-4CB5-8549-E1CB1731256C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_OBJECT_NAME, _PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, kernel.pep_acpi_object_name, *PPEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture], kernel.pep_acpi_object_name, pepfx/PEP_ACPI_OBJECT_NAME, *PPEP_ACPI_OBJECT_NAME, _PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,9 +98,9 @@ The <i>Name</i> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_w
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
 
  
 

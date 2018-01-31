@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend, DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices]"
+ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, _DXGK_GDIARG_CLEARTYPEBLEND, DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,91 +79,91 @@ typedef struct _DXGK_GDIARG_CLEARTYPEBLEND {
 
 
 
-### -field DstRect
+#### - DstRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
 
 The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the destination surface, but sub-rectangles cannot. Additionally, all sub-rectangles are guaranteed to fit inside the destination surface. Sub-rectangles can be constrained further by a bounding rectangle that is smaller than the destination rectangle.
 
 
-### -field TmpSurfAllocationIndex
+#### - TmpSurfAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies a temporary surface. This surface can be used to read the destination before executing a pixel shader.
      
 
 
-### -field GammaSurfAllocationIndex
+#### - GammaSurfAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies a gamma table of type <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>. The format of the gamma lookup allocation is 8 bits per pixel, and the resolution is 512 x 16 pixels. Each row of the allocation contains two tables: gamma and inverse gamma. Each table has 256 entries.
      
 
 
-### -field AlphaSurfAllocationIndex
+#### - AlphaSurfAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies alpha values of a surface. The alpha surface is in the same coordinate space as the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field DstAllocationIndex
+#### - DstAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field DstToAlphaOffsetX
+#### - DstToAlphaOffsetX
 
 
       [in] An offset in the x direction that transforms the destination rectangle coordinate space to the alpha surface coordinate space.
      
 
 
-### -field DstToAlphaOffsetY
+#### - DstToAlphaOffsetY
 
 
       [in] An offset in the y direction that transforms the destination rectangle coordinate space to the alpha surface coordinate space.
      
 
 
-### -field Color
+#### - Color
 
 
       [in] The foreground color, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration), corrected for gamma.
      
 
 
-### -field Gamma
+#### - Gamma
 
 
       [in] An index of the element in the allocation list that specifies the gamma lookup table. Gamma values are in the range of [0, 15], otherwise gamma is 0xFFFFFFFF (the value of D3DKM_INVALID_GAMMA_INDEX). See Remarks for more information on how gamma is used in ClearType blending.
      
 
 
-### -field NumSubRects
+#### - NumSubRects
 
 
       The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field pSubRects
+#### - pSubRects
 
 
       A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field AlphaSurfPitch
+#### - AlphaSurfPitch
 
 
       The pitch, in bytes, of the alpha surface referenced by <b>AlphaSurfAllocationIndex</b>.
      
 
 
-### -field Color2
+#### - Color2
 
 
       [in] The foreground color, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration), not corrected for gamma.
@@ -240,11 +240,11 @@ The driver must also ensure that when a component of A is 0xFF, the correspondin
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
 
  
 

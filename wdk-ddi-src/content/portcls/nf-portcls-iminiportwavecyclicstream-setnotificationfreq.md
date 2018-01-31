@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b909c11c-de56-43e8-b339-b92249bc7e1c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveCyclicStream, portcls/IMiniportWaveCyclicStream::SetNotificationFreq, audio.iminiportwavecyclicstream_setnotificationfreq, SetNotificationFreq, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream::SetNotificationFreq, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream interface [Audio Devices], SetNotificationFreq method, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml
+ms.keywords: audio.iminiportwavecyclicstream_setnotificationfreq, IMiniportWaveCyclicStream::SetNotificationFreq, portcls/IMiniportWaveCyclicStream::SetNotificationFreq, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface [Audio Devices], SetNotificationFreq method, SetNotificationFreq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveCyclicStream.SetNotificationFreq
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveCyclicStream::SetNotificationFreq method
@@ -68,12 +68,12 @@ ULONG SetNotificationFreq(
 
 
 
-### -param Interval [in]
+#### - Interval [in]
 
 Specifies the interval between notification interrupts. This parameter value is expressed in milliseconds.
 
 
-### -param FrameSize [out]
+#### - FrameSize [out]
 
 Output pointer for the frame size. This parameter points to a caller-allocated variable into which the method writes the maximum number of bytes that can be transferred in <i>Interval</i> milliseconds. This byte count determines the size of the buffer that needs to be allocated for the input or output stream.
 
@@ -96,11 +96,11 @@ In all current Windows releases, the WaveCyclic port driver specifies an <i>Inte
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
-
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 

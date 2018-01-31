@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2a42c8b5-acc0-463e-8ecd-179724be27d9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bltooth._brb_acl_enter_active_mode, bthddi/_BRB_ACL_ENTER_ACTIVE_MODE, _BRB_ACL_ENTER_ACTIVE_MODE, bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml"
+ms.keywords: "_BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml, _BRB_ACL_ENTER_ACTIVE_MODE, bthddi/_BRB_ACL_ENTER_ACTIVE_MODE, bltooth._brb_acl_enter_active_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ struct _BRB_ACL_ENTER_ACTIVE_MODE {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The address of the remote device.
 
@@ -93,9 +93,9 @@ To place a remote device into active mode, profile drivers should
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536854">BRB_ACL_ENTER_ACTIVE_MODE</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536854">BRB_ACL_ENTER_ACTIVE_MODE</a>
 
  
 

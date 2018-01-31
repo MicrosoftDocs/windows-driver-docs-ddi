@@ -75,7 +75,7 @@ VOID ProtocolCoStatusEx(
 
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 A handle to a protocol driver-allocated context area. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
@@ -83,7 +83,7 @@ A handle to a protocol driver-allocated context area. The protocol driver mainta
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-### -param ProtocolVcContext [in]
+#### - ProtocolVcContext [in]
 
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      virtual connection (VC) run-time state information. If the status indication is 
@@ -93,7 +93,7 @@ A handle to a protocol driver-allocated context area in which the protocol drive
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-### -param StatusIndication [in]
+#### - StatusIndication [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure
@@ -160,13 +160,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
  
 

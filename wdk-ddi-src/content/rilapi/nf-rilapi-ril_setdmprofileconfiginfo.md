@@ -74,23 +74,23 @@ HRESULT  RIL_SetDMProfileConfigInfo(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwExecutor
+#### - dwExecutor
 
 
 
-### -param dwConfigItem
+#### - dwConfigItem
 
 
 
-### -param rciValue
+#### - rciValue
 
 
 

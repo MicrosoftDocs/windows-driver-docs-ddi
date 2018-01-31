@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93c9e4f4-7b36-4815-b762-3ac528ac96ba
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], video/VideoPortSynchronizeExecution, display.videoportsynchronizeexecution
+ms.keywords: VideoPortSynchronizeExecution, VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, video/VideoPortSynchronizeExecution, display.videoportsynchronizeexecution, VideoPortSynchronizeExecution function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ BOOLEAN VideoPortSynchronizeExecution(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param Priority
+#### - Priority
 
 Specifies the type of priority at which the given <i>SynchronizeRoutine</i> must be run, as one of the following:
 <ul>
@@ -94,12 +94,12 @@ If <i>Priority</i> is set to <b>VpMediumPriority</b> and the miniport driver has
 </li>
 </ul>
 
-### -param SynchronizeRoutine
+#### - SynchronizeRoutine
 
 Pointer to the miniport driver's <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function.
 
 
-### -param Context
+#### - Context
 
 Pointer to a caller-supplied context to be passed to the miniport driver's <i>HwVidSynchronizeExecutionCallback</i> function. This pointer can be <b>NULL</b>.
 

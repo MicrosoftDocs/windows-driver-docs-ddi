@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DEA417E7-FA4B-4F72-A03A-ECE921FC725C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBFN_CLASS_INTERFACE_EX, _USBFN_CLASS_INTERFACE_EX, buses.usbfn_class_interface_ex, USBFN_CLASS_INTERFACE_EX structure [Buses], *PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX structure pointer [Buses], usbfnbase/PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX, usbfnbase/USBFN_CLASS_INTERFACE_EX
+ms.keywords: "*PUSBFN_CLASS_INTERFACE_EX, usbfnbase/USBFN_CLASS_INTERFACE_EX, usbfnbase/PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX structure pointer [Buses], USBFN_CLASS_INTERFACE_EX structure [Buses], USBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX, buses.usbfn_class_interface_ex, _USBFN_CLASS_INTERFACE_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _USBFN_CLASS_INTERFACE_EX {
 
 
 
-### -field BaseInterfaceNumber
+#### - BaseInterfaceNumber
 
 The index number of the interface.
 
 
-### -field InterfaceCount
+#### - InterfaceCount
 
 The number of USB interfaces contained in  the selected function.
 
 
-### -field PipeCount
+#### - PipeCount
 
 The number of endpoints contained in  the interface.
 
 
-### -field PipeArr
+#### - PipeArr
 
 An array of <a href="..\usbfnbase\ns-usbfnbase-_usbfn_pipe_information.md">USBFN_PIPE_INFORMATION</a> structures that describes the endpoints in the interface.
 

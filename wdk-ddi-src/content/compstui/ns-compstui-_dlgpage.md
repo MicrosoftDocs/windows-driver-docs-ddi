@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DLGPAGE, DLGPAGE structure [Print Devices], cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage, *PDLGPAGE, PDLGPAGE, compstui/DLGPAGE, PDLGPAGE structure pointer [Print Devices], compstui/PDLGPAGE, DLGPAGE"
+ms.keywords: compstui/DLGPAGE, DLGPAGE, PDLGPAGE structure pointer [Print Devices], PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, DLGPAGE structure [Print Devices], *PDLGPAGE, print.dlgpage, compstui/PDLGPAGE, _DLGPAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,12 +90,12 @@ typedef struct _DLGPAGE {
  
 
 
-### -field cbSize
+#### - cbSize
 
 Caller-supplied size, in bytes, of the DLGPAGE structure.
 
 
-### -field Flags
+#### - Flags
 
 Caller-supplied bit flags, as described in the following table.
 <table>
@@ -130,17 +130,17 @@ If not set, <b>DlgTemplateID</b> contains a template resource identifier.
 </table> 
 
 
-### -field DlgProc
+#### - DlgProc
 
 Optional, caller-supplied DLGPROC-typed pointer to a dialog box procedure, used to process messages sent by the system when user events occur. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) If <b>NULL</b>, CPSUI supplies a dialog box procedure. For more information, see the following Remarks section.
 
 
-### -field pTabName
+#### - pTabName
 
 Caller-supplied pointer to a NULL-terminated string to be displayed on the page tab.
 
 
-### -field IconID
+#### - IconID
 
 Caller-supplied, can be one of the following:
 <ul>

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_RADIO, wwan/WwanRadioOn, WwanRadioOn, WwanRadioOff, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, wwan/WwanRadioOff, _WWAN_RADIO, *PWWAN_RADIO, netvista.wwan_radio, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], PWWAN_RADIO, wwan/PWWAN_RADIO, WWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_RADIO, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], WWAN_RADIO, wwan/PWWAN_RADIO, WwanRadioOff, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_radio, wwan/WWAN_RADIO, *PWWAN_RADIO, WwanRadioOn, wwan/WwanRadioOff, wwan/WwanRadioOn, _WWAN_RADIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_RADIO
 product: Windows
 targetos: Windows
-req.typenames: WWAN_RADIO, *PWWAN_RADIO
+req.typenames: "*PWWAN_RADIO, WWAN_RADIO"
 req.product: Windows 10 or later.
 ---
 
@@ -70,21 +70,21 @@ typedef enum _WWAN_RADIO {
 
 
 
-### -field WwanRadioOff
+#### - WwanRadioOff
 
 The radio power is turned off.
 
 
-### -field WwanRadioOn
+#### - WwanRadioOn
 
 The radio power is turned on.
 
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_radio_state.md">NDIS_WWAN_SET_RADIO_STATE</a>
-
 <a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_radio_state.md">NDIS_WWAN_SET_RADIO_STATE</a>
 
  
 

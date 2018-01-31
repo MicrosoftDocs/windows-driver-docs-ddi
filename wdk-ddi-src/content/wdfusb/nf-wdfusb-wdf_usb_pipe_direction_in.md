@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3fca6d50-ac38-4edf-b24a-ea4fe5d8a4fd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_PIPE_DIRECTION_IN, DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, kmdf.wdf_usb_pipe_direction_in, wdfusb/WDF_USB_PIPE_DIRECTION_IN, WDF_USB_PIPE_DIRECTION_IN function, wdf.wdf_usb_pipe_direction_in
+ms.keywords: wdfusb/WDF_USB_PIPE_DIRECTION_IN, WDF_USB_PIPE_DIRECTION_IN, DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, kmdf.wdf_usb_pipe_direction_in, WDF_USB_PIPE_DIRECTION_IN function, wdf.wdf_usb_pipe_direction_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ BOOLEAN WDF_USB_PIPE_DIRECTION_IN(
 
 
 
-### -param EndpointAddress [in]
+#### - EndpointAddress [in]
 
 A USB endpoint address.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee872d01-4bc6-46ce-80b7-3f73dd1a89ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_present, d3dumddi/D3DDDIARG_PRESENT, UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml, _D3DDDIARG_PRESENT, D3DDDIARG_PRESENT structure [Display Devices], D3DDDIARG_PRESENT
+ms.keywords: UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml, display.d3dddiarg_present, d3dumddi/D3DDDIARG_PRESENT, D3DDDIARG_PRESENT, D3DDDIARG_PRESENT structure [Display Devices], _D3DDDIARG_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ typedef struct _D3DDDIARG_PRESENT {
 
 
 
-### -field hSrcResource
+#### - hSrcResource
 
 [in] A handle to the source resource to display. <b>hSrcResource</b> can be <b>NULL</b> if the user-mode display driver should perform a color-fill operation to the screen.
 
 
-### -field SrcSubResourceIndex
+#### - SrcSubResourceIndex
 
 [in] The zero-based index into the source resource, which is specified by the handle in the <b>hSrcResource</b> member. This index indicates the subresource or surface to display.
 
 
-### -field hDstResource
+#### - hDstResource
 
 [in] A handle to the destination resource to display to. If <b>NULL</b>, the user-mode display driver is informed that a color-fill operation will occur, but the user-mode driver is not expected to perform the operation. The display miniport driver does the actual color-fill operation and will be informed of the color value at that time.
 
 
-### -field DstSubResourceIndex
+#### - DstSubResourceIndex
 
 
       [in] The zero-based index into the destination resource, which is specified by the handle in the <b>hDstResource</b> member. This index indicates the subresource or surface to display to.
      
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display. 
 
 
-### -field FlipInterval
+#### - FlipInterval
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a58dd106-dec8-4444-9783-eb16e969ea42
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_task_queue_config, PWDF_TASK_QUEUE_CONFIG, *PWDF_TASK_QUEUE_CONFIG, WDF_TASK_QUEUE_CONFIG, wdfcompanion/WDF_TASK_QUEUE_CONFIG, wdfcompanion/PWDF_TASK_QUEUE_CONFIG, WDF_TASK_QUEUE_CONFIG structure, PWDF_TASK_QUEUE_CONFIG structure pointer, _WDF_TASK_QUEUE_CONFIG
+ms.keywords: WDF_TASK_QUEUE_CONFIG structure, PWDF_TASK_QUEUE_CONFIG, wdfcompanion/WDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG structure pointer, _WDF_TASK_QUEUE_CONFIG, wdfcompanion/PWDF_TASK_QUEUE_CONFIG, WDF_TASK_QUEUE_CONFIG, wdf.wdf_task_queue_config, *PWDF_TASK_QUEUE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,18 @@ typedef struct _WDF_TASK_QUEUE_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 
 
-### -field TaskQueueId
+#### - TaskQueueId
 
 
 
-### -field DispatchType
+#### - DispatchType
 
 
 
-### -field EvtTaskExecuteSync
+#### - EvtTaskExecuteSync
 
 

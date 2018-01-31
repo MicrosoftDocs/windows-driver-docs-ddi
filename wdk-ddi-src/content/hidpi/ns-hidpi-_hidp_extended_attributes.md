@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 03be8b22-2108-4a13-be1e-642373095ab5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HIDP_EXTENDED_ATTRIBUTES structure [Human Input Devices], hidpi/HIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES, _HIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], hidpi/PHIDP_EXTENDED_ATTRIBUTES, hidstrct_7f0e134c-f292-4558-b805-02861407032f.xml, *PHIDP_EXTENDED_ATTRIBUTES, hid.hidp_extended_attributes
+ms.keywords: hid.hidp_extended_attributes, hidstrct_7f0e134c-f292-4558-b805-02861407032f.xml, _HIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], hidpi/PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES, hidpi/HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES structure [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _HIDP_EXTENDED_ATTRIBUTES {
 
 
 
-### -field NumGlobalUnknowns
+#### - NumGlobalUnknowns
 
 Specifies the number of <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a> structures in the list specified by <b>Data</b>.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for internal system use only.
 
 
-### -field GlobalUnknowns
+#### - GlobalUnknowns
 
 Reserved for internal system use only.
 
 
-### -field Data
+#### - Data
 
 Specifies the memory location where <a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a> returns a variable length array of <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a> structures.
 

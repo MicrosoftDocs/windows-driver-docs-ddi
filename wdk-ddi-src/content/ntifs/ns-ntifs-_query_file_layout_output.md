@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_QUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], *PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_SINGLE_INSTANCED"
+ms.keywords: "_QUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/QUERY_FILE_LAYOUT_OUTPUT, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_SINGLE_INSTANCED, *PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	QUERY_FILE_LAYOUT_OUTPUT
 product: Windows
 targetos: Windows
-req.typenames: "*PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT"
+req.typenames: QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT
 ---
 
 # _QUERY_FILE_LAYOUT_OUTPUT structure
@@ -70,17 +70,17 @@ typedef struct _QUERY_FILE_LAYOUT_OUTPUT {
 
 
 
-### -field FileEntryCount
+#### - FileEntryCount
 
 The number of file entries that follow this structure.
 
 
-### -field FirstFileOffset
+#### - FirstFileOffset
 
 The offset in the user buffer for the first file entry.
 
 
-### -field Flags
+#### - Flags
 
 Indicates the format of layout entries returned. Can be 0 or the following:
 <table>
@@ -101,7 +101,7 @@ Single instances of stream and file layout entries are returned. When set, only 
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 

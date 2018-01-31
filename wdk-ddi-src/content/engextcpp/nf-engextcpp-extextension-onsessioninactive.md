@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6f9b7636-8808-4783-bba7-70b31ae08238
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OnSessionInactive, ExtExtension class [Windows Debugging], OnSessionInactive method, OnSessionInactive method [Windows Debugging], ExtExtension::OnSessionInactive, EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, debugger.onsessioninactive, ExtExtension, OnSessionInactive method [Windows Debugging], ExtExtension class
+ms.keywords: debugger.onsessioninactive, ExtExtension, ExtExtension class [Windows Debugging], OnSessionInactive method, OnSessionInactive, OnSessionInactive method [Windows Debugging], OnSessionInactive method [Windows Debugging], ExtExtension class, EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, ExtExtension::OnSessionInactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.OnSessionInactive
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtExtension::OnSessionInactive method
@@ -67,7 +67,7 @@ virtual void OnSessionInactive(
 
 
 
-### -param Argument [in]
+#### - Argument [in]
 
 Set to zero. (Reserved for future use).
 

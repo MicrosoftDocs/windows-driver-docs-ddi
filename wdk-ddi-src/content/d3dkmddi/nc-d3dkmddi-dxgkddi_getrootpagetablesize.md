@@ -75,12 +75,12 @@ SIZE_T APIENTRY DxgkDdiGetRootPageTableSize(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle to the display adapter.
 
 
-### -param pArgs [in, out]
+#### - pArgs [in, out]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getrootpagetablesize.md">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
 

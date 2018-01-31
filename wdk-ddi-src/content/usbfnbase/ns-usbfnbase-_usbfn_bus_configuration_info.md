@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 26F11BC8-0F43-4E52-B2E1-2C3C6B327CF0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USBFN_BUS_CONFIGURATION_INFO, *PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO structure [Buses], PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], buses.usbfn_bus_configuration_info, USBFN_BUS_CONFIGURATION_INFO"
+ms.keywords: usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], USBFN_BUS_CONFIGURATION_INFO structure [Buses], *PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info, _USBFN_BUS_CONFIGURATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,18 @@ typedef struct _USBFN_BUS_CONFIGURATION_INFO {
 
 
 
-### -field ConfigurationName
+#### - ConfigurationName
 
 A NULL-terminated string that indicates the name of a configuration.
 
 
-### -field IsCurrent
+#### - IsCurrent
 
 Indicates whether this configuration is the 
     current configuration.
 
 
-### -field IsActive
+#### - IsActive
 
     Indicates whether the configuration is active. This is a read-only information that is returned by USB function class extension (UFX) and is ignored in requests sent to UFX.
 

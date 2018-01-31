@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4e8aee0-d3ac-4086-99a3-a0339b198372
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcgetcontentrights, PcGetContentRights, portcls/PcGetContentRights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, PcGetContentRights function [Audio Devices]
+ms.keywords: PcGetContentRights function [Audio Devices], audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights, PcGetContentRights, audio.pcgetcontentrights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcGetContentRights
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcGetContentRights function

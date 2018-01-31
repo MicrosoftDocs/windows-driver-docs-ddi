@@ -80,7 +80,7 @@ HRESULT APIENTRY* pfnCreateVideoDecoder(
 
 
 
-### -param hDrvVideoDecoder
+#### - hDrvVideoDecoder
 
 The handle of a driver video decoder.
 

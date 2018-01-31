@@ -71,27 +71,27 @@ typedef NTSTATUS ( *PPARALLEL_WRITE)(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a caller-allocated write buffer.
 
 
-### -param NumBytesToWrite [in]
+#### - NumBytesToWrite [in]
 
 Specifies the number of bytes to copy from the write buffer to the parallel device. Must be less than or equal to the number of bytes in the caller-allocated write buffer.
 
 
-### -param NumBytesWritten [out]
+#### - NumBytesWritten [out]
 
 Specifies the number of bytes that were actually copied from the caller-allocated write buffer to the parallel device.
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 Not used.
 

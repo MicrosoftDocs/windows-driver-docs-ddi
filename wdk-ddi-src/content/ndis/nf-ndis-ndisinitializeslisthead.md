@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], netvista.ndisinitializeslisthead, ndis/NdisInitializeSListHead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, NdisInitializeSListHead
+ms.keywords: NdisInitializeSListHead, ndis/NdisInitializeSListHead, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], netvista.ndisinitializeslisthead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,7 +69,7 @@ VOID NdisInitializeSListHead(
 
 
 
-### -param SListHead [in]
+#### - SListHead [in]
 
 A pointer to the caller-supplied list head to be initialized, which must be in resident
      memory. The structure must be 16-byte aligned on 64-bit platforms.
@@ -111,17 +111,17 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
-
 <a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
+
+<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
 
 <mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
    NdisInitializeNPagedLookasideList</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
-
 <mshelp:link keywords="netvista.ndisinterlockedpushentryslist" tabindex="0"><b>
    NdisInterlockedPushEntrySList</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
 
  
 

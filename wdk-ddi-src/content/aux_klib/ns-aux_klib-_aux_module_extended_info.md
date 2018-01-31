@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9733b17d-c990-4eda-87e2-906f2f78c5d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], _AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, AUX_MODULE_EXTENDED_INFO, *PAUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, kernel.aux_module_extended_info
+ms.keywords: "_AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO, kernel.aux_module_extended_info, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, *PAUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AUX_MODULE_EXTENDED_INFO
 product: Windows
 targetos: Windows
-req.typenames: AUX_MODULE_EXTENDED_INFO, *PAUX_MODULE_EXTENDED_INFO
+req.typenames: "*PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO"
 ---
 
 # _AUX_MODULE_EXTENDED_INFO structure
@@ -70,22 +70,22 @@ typedef struct _AUX_MODULE_EXTENDED_INFO {
 
 
 
-### -field BasicInfo
+#### - BasicInfo
 
 An <a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a> structure.
 
 
-### -field ImageSize
+#### - ImageSize
 
 The size, in bytes, of the loaded image.
 
 
-### -field FileNameOffset
+#### - FileNameOffset
 
 The offset, in bytes, from the beginning of the full path name to the file name of the module's image file.
 
 
-### -field FullPathName
+#### - FullPathName
 
 The full path name of the module's image file.
 

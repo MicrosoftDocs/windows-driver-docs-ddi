@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 073feb91-48ae-4ad5-9061-117e6541021c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_string_ref_a25a98b2-f88b-4a56-9bb7-77a4e6dc10a6.xml, NdisInitUnicodeString macro [Network Drivers Starting with Windows Vista], netvista.ndisinitunicodestring, NdisInitUnicodeString, ndis/NdisInitUnicodeString
+ms.keywords: netvista.ndisinitunicodestring, NdisInitUnicodeString macro [Network Drivers Starting with Windows Vista], ndis_string_ref_a25a98b2-f88b-4a56-9bb7-77a4e6dc10a6.xml, NdisInitUnicodeString, ndis/NdisInitUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -116,24 +116,24 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
 
 <mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
    NdisAnsiStringToUnicodeString</b></mshelp:link>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<mshelp:link keywords="netvista.ndisunicodestringtoansistring" tabindex="0"><b>
-   NdisUnicodeStringToAnsiString</b></mshelp:link>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
    Drivers</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisunicodestringtoansistring" tabindex="0"><b>
+   NdisUnicodeStringToAnsiString</b></mshelp:link>
 
  
 

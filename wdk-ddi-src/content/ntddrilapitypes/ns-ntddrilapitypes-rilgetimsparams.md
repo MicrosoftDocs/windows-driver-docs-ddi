@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4e8f01af-9279-483a-90f9-d0391122ba5b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgetimsparams, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETIMSPARAMS, *LPRILGETIMSPARAMS, ntddrilapitypes/RILGETIMSPARAMS
+ms.keywords: "*LPRILGETIMSPARAMS, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETIMSPARAMS, ntddrilapitypes/RILGETIMSPARAMS, netvista.rilgetimsparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETIMSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGETIMSPARAMS, RILGETIMSPARAMS"
+req.typenames: RILGETIMSPARAMS, *LPRILGETIMSPARAMS
 ---
 
 # RILGETIMSPARAMS structure
@@ -68,10 +68,10 @@ typedef struct _RILGETIMSPARAMS {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 

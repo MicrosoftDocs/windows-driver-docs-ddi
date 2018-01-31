@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMIndicateReceiveNetBufferLists, ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, netvista.ndismindicatereceivenetbufferlists, NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateReceiveNetBufferLists
+ms.keywords: ndis/NdisMIndicateReceiveNetBufferLists, netvista.ndismindicatereceivenetbufferlists, ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], NdisMIndicateReceiveNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisMIndicateReceiveNetBufferLists(
 
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 The miniport handle that NDIS passed to the 
      <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
@@ -85,7 +85,7 @@ The miniport handle that NDIS passed to the
 TBD
 
 
-### -param PortNumber [in]
+#### - PortNumber [in]
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
@@ -94,13 +94,13 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      not allocated ports for the specified adapter.
 
 
-### -param NumberOfNetBufferLists [in]
+#### - NumberOfNetBufferLists [in]
 
 The number of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are in the linked list of structures at 
      <i>NetBufferLists</i> .
 
 
-### -param ReceiveFlags [in]
+#### - ReceiveFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
@@ -237,21 +237,21 @@ The caller of
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
 <mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><b>
    ProtocolReceiveNetBufferLists</b></mshelp:link>
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
 <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
    MiniportReturnNetBufferLists</i></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

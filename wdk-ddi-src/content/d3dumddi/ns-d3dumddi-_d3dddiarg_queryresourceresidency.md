@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14c0cb12-3ed0-4c78-befa-6da9e8cd7dbc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_QUERYRESOURCERESIDENCY, UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices], D3DDDIARG_QUERYRESOURCERESIDENCY, display.d3dddiarg_queryresourceresidency, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY"
+ms.keywords: D3DDDIARG_QUERYRESOURCERESIDENCY, UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, _D3DDDIARG_QUERYRESOURCERESIDENCY, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY, display.d3dddiarg_queryresourceresidency, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_QUERYRESOURCERESIDENCY {
 
 
 
-### -field pHandleList
+#### - pHandleList
 
 [in] An array of handles to resources whose residency is queried. <b>pHandleList</b> cannot be <b>NULL</b>. A resource can be an object, which is derived from the <b>IDirect3DResource9</b> interface for a texture, volume texture, cube texture, vertex buffer, index buffer, or surface. For more information about <b>IDirect3DResource9</b>, see the DirectX SDK documentation.
 
 
-### -field NumResources
+#### - NumResources
 
 [in] The number of resources in the array in the <b>pHandleList</b> member. The range is from 1 through 0xFFFFF.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportfreetimer, StorPortFreeTimer, storport/StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices]
+ms.keywords: StorPortFreeTimer routine [Storage Devices], storage.storportfreetimer, StorPortFreeTimer, storport/StorPortFreeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortFreeTimer(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param TimerHandle [in]
+#### - TimerHandle [in]
 
 A pointer to an opaque buffer for the timer context returned by <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>.
 
@@ -156,11 +156,11 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
  
 

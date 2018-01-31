@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportunlockpages, video/VideoPortUnlockPages, VideoPortUnlockPages function [Display Devices], VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, VideoPortUnlockPages
+ms.keywords: VideoPortUnlockPages, VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, display.videoportunlockpages, VideoPortUnlockPages function [Display Devices], video/VideoPortUnlockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ BOOLEAN VideoPortUnlockPages(
 
 
 
-### -param hwDeviceExtension
+#### - hwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pDma
+#### - pDma
 
 Specifies a non-<b>NULL</b> DMA handle. 
 

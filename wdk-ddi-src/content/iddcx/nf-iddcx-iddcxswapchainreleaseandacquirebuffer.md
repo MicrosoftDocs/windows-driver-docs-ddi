@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9b0cf3f-cbb6-4b44-81c1-b60ae525ec17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxSwapChainReleaseAndAcquireBuffer, display.iddcxswapchainreleaseandacquirebuffer, IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices]
+ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], iddcx/IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer, display.iddcxswapchainreleaseandacquirebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ HRESULT IddCxSwapChainReleaseAndAcquireBuffer(
 
 
 
-### -param SwapChainObject [in]
+#### - SwapChainObject [in]
 
 The swap-chain object passed to the <a href="..\iddcx\nc-iddcx-evt_idd_cx_monitor_assign_swapchain.md">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 Output arguments of function
 

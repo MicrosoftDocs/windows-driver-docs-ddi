@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestcompletewithinformation, kmdf.wdfrequestcompletewithinformation, PFN_WDFREQUESTCOMPLETEWITHINFORMATION, DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, wdfrequest/WdfRequestCompleteWithInformation
+ms.keywords: wdf.wdfrequestcompletewithinformation, kmdf.wdfrequestcompletewithinformation, wdfrequest/WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, PFN_WDFREQUESTCOMPLETEWITHINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ VOID WdfRequestCompleteWithInformation(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to the request object.
 
 
-### -param Status [in]
+#### - Status [in]
 
 An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS value</a> that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
@@ -102,7 +102,7 @@ The driver canceled the request.
 The driver encountered an error while processing the request.
 
 
-### -param Information [in]
+#### - Information [in]
 
 Driver-defined completion status information for the request, such as the number of bytes that were transferred.
 
@@ -133,19 +133,19 @@ For more information about calling <b>WdfRequestCompleteWithInformation</b>, see
 
 ## -see-also
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
  
 

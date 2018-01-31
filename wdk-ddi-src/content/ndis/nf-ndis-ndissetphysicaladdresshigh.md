@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbe58583-ea65-4920-9056-ab46bd881618
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], netvista.ndissetphysicaladdresshigh, miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, NdisSetPhysicalAddressHigh, ndis/NdisSetPhysicalAddressHigh
+ms.keywords: NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], ndis/NdisSetPhysicalAddressHigh, miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,9 +95,9 @@ Specifies the value to be written into the high-order part of the address.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
 
-<a href="..\ndis\nf-ndis-ndisgetphysicaladdresshigh.md">NdisGetPhysicalAddressHigh</a>
-
 <a href="..\ndis\nf-ndis-ndissetphysicaladdresslow.md">NdisSetPhysicalAddressLow</a>
+
+<a href="..\ndis\nf-ndis-ndisgetphysicaladdresshigh.md">NdisGetPhysicalAddressHigh</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: af06c31e-0c4f-4e2a-8d19-84c1c63d6bd0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, _D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE, display.d3dkmt_getscanline, d3dkmthk/D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE structure [Display Devices]
+ms.keywords: d3dkmthk/D3DKMT_GETSCANLINE, _D3DKMT_GETSCANLINE, OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, display.d3dkmt_getscanline, D3DKMT_GETSCANLINE structure [Display Devices], D3DKMT_GETSCANLINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_GETSCANLINE {
 
 
 
-### -field hAdapter
+#### - hAdapter
 
 [in] A handle to a graphics adapter.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The identifier of a graphics adapter's video present source.
 
 
-### -field InVerticalBlank
+#### - InVerticalBlank
 
 [out] A Boolean variable that receives <b>TRUE</b> if the video present source is in vertical blanking mode and <b>FALSE</b> if the video present source is not in vertical blanking mode.
 
 
-### -field ScanLine
+#### - ScanLine
 
 [out] The video present source's current scan line.
 

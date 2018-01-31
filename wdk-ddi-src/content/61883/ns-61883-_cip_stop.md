@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FE396C2C-B099-47F4-9C27-93D420D54103
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PCIP_STOP, _CIP_STOP, IEEE.cip_stop, CIP_STOP structure [Buses], CIP_STOP, 61883/PCIP_STOP, 61883/CIP_STOP, PCIP_STOP structure pointer [Buses], PCIP_STOP"
+ms.keywords: "_CIP_STOP, 61883/CIP_STOP, *PCIP_STOP, PCIP_STOP structure pointer [Buses], PCIP_STOP, IEEE.cip_stop, CIP_STOP structure [Buses], 61883/PCIP_STOP, CIP_STOP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_STOP
 product: Windows
 targetos: Windows
-req.typenames: CIP_STOP, *PCIP_STOP
+req.typenames: "*PCIP_STOP, CIP_STOP"
 ---
 
 # _CIP_STOP structure
@@ -67,7 +67,7 @@ typedef struct _CIP_STOP {
 
 
 
-### -field hConnect
+#### - hConnect
 
 On input, a handle to the connection on which to stop isochronous transmission or reception.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ba994342-c203-443e-a9fd-60fd29721dae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintPipelinePropertyBag::AddProperty, AddProperty method [Print Devices], IPrintPipelinePropertyBag interface [Print Devices], AddProperty method, AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, print.iprintpipelinepropertybag_addproperty, AddProperty, IPrintPipelinePropertyBag, filterpipeline/IPrintPipelinePropertyBag::AddProperty
+ms.keywords: AddProperty, filterpipeline/IPrintPipelinePropertyBag::AddProperty, AddProperty method [Print Devices], IPrintPipelinePropertyBag interface [Print Devices], AddProperty method, IPrintPipelinePropertyBag, print.iprintpipelinepropertybag_addproperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag::AddProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT AddProperty(
 
 
 
-### -param pszName [in]
+#### - pszName [in]
 
 The name of the property that you want to add to the property bag. You should uniquely identify this property so that it does not collide with others. For example, use a name like <i>MyCompanyName-MySetting</i>.
 
 
-### -param pVar [in]
+#### - pVar [in]
 
 The <b>VARIANT</b> value to add to the property bag.
 

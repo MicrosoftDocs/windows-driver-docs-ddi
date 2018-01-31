@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 507d41ae-31b9-4807-99af-9ec48eb2b5aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet, KsGetResolution method [Streaming Media Devices], stream.iksclockpropertyset_ksgetresolution, IKsClockPropertySet::KsGetResolution, KsGetResolution, ksproxy/IKsClockPropertySet::KsGetResolution, ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, KsGetResolution method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsGetResolution method
+ms.keywords: ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, IKsClockPropertySet, KsGetResolution method [Streaming Media Devices], KsGetResolution method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsGetResolution method, ksproxy/IKsClockPropertySet::KsGetResolution, IKsClockPropertySet::KsGetResolution, KsGetResolution, stream.iksclockpropertyset_ksgetresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsGetResolution(
 
 
 
-### -param Resolution [out]
+#### - Resolution [out]
 
 Pointer to a variable that receives a <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
 

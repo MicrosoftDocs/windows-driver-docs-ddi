@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bec6a398-34e8-4c03-ac15-c3f00645eac7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_outputdupl_snapshot, D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, _D3DKMT_OUTPUTDUPL_SNAPSHOT
+ms.keywords: D3DKMT_OUTPUTDUPL_SNAPSHOT, _D3DKMT_OUTPUTDUPL_SNAPSHOT, d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], display.d3dkmt_outputdupl_snapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DKMT_OUTPUTDUPL_SNAPSHOT {
 
 
 
-### -field Size
+#### - Size
 
 [in/out] The size, in bytes, of the entire structure.
 
 
-### -field SessionProcessCount
+#### - SessionProcessCount
 
 [out] The number of processes in this session that are currently duplicating output. The value of <b>NumOutputDuplContexts</b> specifies the maximum possible number of processes.
 
 
-### -field SessionActiveConnectionsCount
+#### - SessionActiveConnectionsCount
 
 [out] The total number of active contexts in this session. The value may be more than the number of active contexts in the 2-D array, which are per adapter.
 
 
-### -field NumVidPnSources
+#### - NumVidPnSources
 
 [out] The number of video present network (VidPN) sources.
 
 
-### -field NumOutputDuplContexts
+#### - NumOutputDuplContexts
 
 [out] The number of contexts in which output duplication is occurring.
 
 
-### -field OutputDuplDebugInfos
+#### - OutputDuplDebugInfos
 
 Reserved for system use. Set to zero.
 

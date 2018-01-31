@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5f4743f6-42b7-4cc0-8dd8-16230b30bb8a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, netvista.ndiscmdroppartycomplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmDropPartyComplete, NdisCmDropPartyComplete
+ms.keywords: netvista.ndiscmdroppartycomplete, NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, ndis/NdisCmDropPartyComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ VOID NdisCmDropPartyComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
      CM-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-### -param NdisPartyHandle [in]
+#### - NdisPartyHandle [in]
 
 Specifies the handle to the party that the client requested to be dropped. The call manager
      obtained this handle from the state area designated by 

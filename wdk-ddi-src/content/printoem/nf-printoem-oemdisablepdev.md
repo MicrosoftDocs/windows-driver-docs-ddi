@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a58d333f-f092-4f7a-b6ae-ebba4f894678
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/OEMDisablePDEV, print.oemdisablepdev, OEMDisablePDEV function [Print Devices], OEMDisablePDEV, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml
+ms.keywords: printoem/OEMDisablePDEV, OEMDisablePDEV, print.oemdisablepdev, OEMDisablePDEV function [Print Devices], print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID APIENTRY OEMDisablePDEV(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 
 

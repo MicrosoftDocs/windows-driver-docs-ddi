@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorscx/SensorsCxSensorCreate, sensors.sensorscxsensorcreate, SensorsCxSensorCreate function [Sensor Devices], SensorsCxSensorCreate
+ms.keywords: SensorsCxSensorCreate function [Sensor Devices], SensorsCxSensorCreate, sensorscx/SensorsCxSensorCreate, sensors.sensorscxsensorcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ FORCEINLINE NTSTATUS SensorsCxSensorCreate(
 
 
 
-### -param FxDevice [in]
+#### - FxDevice [in]
 
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
 
-### -param pSensorAttributes [in]
+#### - pSensorAttributes [in]
 
 A reference to <a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>.
 
 
-### -param pSensor [out]
+#### - pSensor [out]
 
 A reference to a sensor object that is used within the class extension.
 

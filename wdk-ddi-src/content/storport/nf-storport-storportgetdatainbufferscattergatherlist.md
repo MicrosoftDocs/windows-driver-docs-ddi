@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList
+ms.keywords: storport/StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, StorPortGetDataInBufferScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ ULONG StorPortGetDataInBufferScatterGatherList(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 The request block to containing the input data buffer for the scatter-gather list.
 
 
-### -param SgList [out]
+#### - SgList [out]
 
 A pointer to  an scatter-gather list structure address to receive the scatter-gather list for the input data buffer in <i>Srb</i>.
 

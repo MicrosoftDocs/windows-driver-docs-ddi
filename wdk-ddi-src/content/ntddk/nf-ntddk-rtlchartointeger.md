@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a08cb12a-c574-4871-9bba-f8f3a766f377
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlCharToInteger, k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, kernel.rtlchartointeger, RtlCharToInteger routine [Kernel-Mode Driver Architecture], RtlCharToInteger
+ms.keywords: RtlCharToInteger, kernel.rtlchartointeger, k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, ntddk/RtlCharToInteger, RtlCharToInteger routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlCharToInteger(
 
 
 
-### -param String [in]
+#### - String [in]
 
 Pointer to a null-terminated, single-byte character string. 
 
 
-### -param Base [in, optional]
+#### - Base [in, optional]
 
 Specifies decimal, binary, octal, or hexadecimal base. If this parameter is not given, the routine will look for 0x, 0o, and 0b prefixes in the input string to determine if the base should be decimal (default), binary, octal, or hexadecimal.
 
 
-### -param Value [out]
+#### - Value [out]
 
 Pointer to a location to which the converted value is returned. 
 
@@ -100,9 +100,9 @@ Pointer to a location to which the converted value is returned.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
-
 <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+
+<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
  
 

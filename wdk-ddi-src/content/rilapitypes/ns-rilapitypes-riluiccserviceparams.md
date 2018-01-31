@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56fba38d-6c5f-4b75-98b6-213a42f47bbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCSERVICEPARAMS, netvista.riluiccserviceparams_2, RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS
+ms.keywords: "*LPRILUICCSERVICEPARAMS, netvista.riluiccserviceparams_2, RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCSERVICEPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS"
+req.typenames: RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -71,18 +71,18 @@ typedef struct _RILUICCSERVICEPARAMS {
 
 
 
-### -field service
+#### - service
 
 
 
-### -field fHasLockVerification
+#### - fHasLockVerification
 
 
 
-### -field lockCredential
+#### - lockCredential
 
 
 
-### -field fEnable
+#### - fEnable
 
 

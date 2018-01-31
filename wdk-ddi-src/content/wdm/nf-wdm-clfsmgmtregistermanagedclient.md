@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, kernel.clfsmgmtregistermanagedclient
+ms.keywords: Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, ClfsMgmtRegisterManagedClient, wdm/ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtregistermanagedclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS ClfsMgmtRegisterManagedClient(
 
 
 
-### -param LogFile [in]
+#### - LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream that the client created by <b>ClfsMgmtRegisterManagedClient</b> will manage.
 
 
-### -param RegistrationData [in]
+#### - RegistrationData [in]
 
 An instance of the <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a> structure that contains the functions that will be used to manage the log.
 

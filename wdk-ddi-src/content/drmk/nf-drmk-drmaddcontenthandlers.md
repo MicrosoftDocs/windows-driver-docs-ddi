@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: da2ec371-052a-4ea1-9336-9e32df936227
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, DrmAddContentHandlers function [Audio Devices], drmk/DrmAddContentHandlers, DrmAddContentHandlers, audio.drmaddcontenthandlers
+ms.keywords: aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, DrmAddContentHandlers, drmk/DrmAddContentHandlers, audio.drmaddcontenthandlers, DrmAddContentHandlers function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmAddContentHandlers
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # DrmAddContentHandlers function
@@ -70,17 +70,17 @@ NTSTATUS DrmAddContentHandlers(
 
 
 
-### -param ContentId [in]
+#### - ContentId [in]
 
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
 
-### -param paHandlers [in]
+#### - paHandlers [in]
 
 Pointer to an array of function pointers. Each array element points to a content handler.
 
 
-### -param NumHandlers [in]
+#### - NumHandlers [in]
 
 Specifies the number of function pointers in the <i>paHandlers</i> array.
 
@@ -109,15 +109,15 @@ The upstream module can pass both the content ID and content rights to the downs
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcaddcontenthandlers.md">PcAddContentHandlers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="..\portcls\nf-portcls-pcaddcontenthandlers.md">PcAddContentHandlers</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
  
 

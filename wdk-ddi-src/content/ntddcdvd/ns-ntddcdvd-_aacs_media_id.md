@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 56be82fc-c438-4cd1-8fcc-1184699f03e6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAACS_MEDIA_ID structure pointer [Storage Devices], AACS_MEDIA_ID structure [Storage Devices], AACS_MEDIA_ID, *PAACS_MEDIA_ID, storage.aacs_media_id, PAACS_MEDIA_ID, structs-DVD_413a14c6-75e0-444f-b325-8dfeb9c0c074.xml, _AACS_MEDIA_ID, ntddcdvd/PAACS_MEDIA_ID, ntddcdvd/AACS_MEDIA_ID
+ms.keywords: "*PAACS_MEDIA_ID, structs-DVD_413a14c6-75e0-444f-b325-8dfeb9c0c074.xml, ntddcdvd/PAACS_MEDIA_ID, ntddcdvd/AACS_MEDIA_ID, PAACS_MEDIA_ID structure pointer [Storage Devices], AACS_MEDIA_ID structure [Storage Devices], _AACS_MEDIA_ID, PAACS_MEDIA_ID, storage.aacs_media_id, AACS_MEDIA_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AACS_MEDIA_ID {
 
 
 
-### -field MediaID
+#### - MediaID
 
 The media identifier.
 
 
-### -field MAC
+#### - MAC
 
 The message authentication code (MAC) that the client uses to verify that the MediaID is for the current AACS authentication sequence.
 

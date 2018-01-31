@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 95224198-e86e-4005-b50f-6775e6b8b749
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetFilterFromName routine [Installable File System Drivers], FltGetFilterFromName, fltkernel/FltGetFilterFromName, FltApiRef_e_to_o_f0bda010-8549-4e0d-b86a-ce200745ac5a.xml, ifsk.fltgetfilterfromname
+ms.keywords: fltkernel/FltGetFilterFromName, FltGetFilterFromName, FltGetFilterFromName routine [Installable File System Drivers], ifsk.fltgetfilterfromname, FltApiRef_e_to_o_f0bda010-8549-4e0d-b86a-ce200745ac5a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetFilterFromName(
 
 
 
-### -param FilterName [in]
+#### - FilterName [in]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the minifilter driver name. (The name comparison is case-insensitive.) 
 
 
-### -param RetFilter [out]
+#### - RetFilter [out]
 
 Pointer to a caller-allocated variable that receives an opaque filter pointer for the minifilter driver whose name matches the name in the <i>FilterName</i> parameter. This parameter is required and cannot be <b>NULL</b>. 
 

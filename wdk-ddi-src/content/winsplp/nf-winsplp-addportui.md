@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/pfnAddPortUI, AddPortUI, pfnAddPortUI, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, print.addportui, pfnAddPortUI function [Print Devices]
+ms.keywords: print.addportui, winsplp/pfnAddPortUI, pfnAddPortUI, AddPortUI, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, pfnAddPortUI function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ BOOL WINAPI pfnAddPortUI(
 
 
 
-### -param pszServer [in, optional]
+#### - pszServer [in, optional]
 
 Caller-supplied pointer to a string representing a server name, or <b>NULL</b> if the printer is local.
 
 
-### -param hWnd [in]
+#### - hWnd [in]
 
 Caller-supplied handle of the window that should be used as the parent for dialog boxes. If <b>NULL</b>, no dialog boxes should be displayed.
 
@@ -86,7 +86,7 @@ Caller-supplied handle of the window that should be used as the parent for dialo
 TBD
 
 
-### -param ppszPortNameOut [out, optional]
+#### - ppszPortNameOut [out, optional]
 
 Caller-supplied pointer to a location to receive a port name string. Can be <b>NULL</b>, in which case a name is not returned.
 
@@ -168,15 +168,15 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
-
-<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
+<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
 
 <a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
 
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
-<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
+<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
  
 

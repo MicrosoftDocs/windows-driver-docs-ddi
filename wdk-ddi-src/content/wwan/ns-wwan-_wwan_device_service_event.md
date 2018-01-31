@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7E02DDE0-7D55-4FBD-879E-EFBA6A517D86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_device_service_event, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_EVENT, wwan/PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT, wwan/WWAN_DEVICE_SERVICE_EVENT
+ms.keywords: wwan/PWWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], netvista.wwan_device_service_event, wwan/WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WWAN_DEVICE_SERVICE_EVENT {
 
 
 
-### -field DeviceServiceGuid
+#### - DeviceServiceGuid
 
 The GUID of the device service that the event originated from.
 
 
-### -field EventID
+#### - EventID
 
 The ID for the event.
 
 
-### -field uDataSize
+#### - uDataSize
 
 The size, in bytes, of the device service event data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxCommandDataSize</b> member of the <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanPcoTypeComplete, wwan/WwanPcoTypeComplete, wwan/WWAN_PCO_TYPE, _WWAN_PCO_TYPE, *PWWAN_PCO_TYPE, WWAN_PCO_TYPE, wwan/WwanPcoTypePartial, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_pco_type, WwanPcoTypePartial
+ms.keywords: WwanPcoTypePartial, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], _WWAN_PCO_TYPE, *PWWAN_PCO_TYPE, netvista.wwan_pco_type, wwan/WwanPcoTypeComplete, WWAN_PCO_TYPE, WwanPcoTypeComplete, wwan/WwanPcoTypePartial, wwan/WWAN_PCO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _WWAN_PCO_TYPE {
 
 
 
-### -field WwanPcoTypeComplete
+#### - WwanPcoTypeComplete
 
 Specifies that the complete PCO structure will be passed up as received from the network and the header realistically reflects the protocol in octet 3 of the PCO structure, defined in the 3GPP TS24.008 spec. To see the full PCO structure, see <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>.
 
 
-### -field WwanPcoTypePartial
+#### - WwanPcoTypePartial
 
 Specifies that the modem will only be passing up a subset of PCO structures that it received from the network. The header matches the 3GPP TS24.008 specification for the PCO structure, as shown on <b>WWAN_PCO_VALUE</b>, but the “Configuration protocol” of octet 3 may not be valid.
 

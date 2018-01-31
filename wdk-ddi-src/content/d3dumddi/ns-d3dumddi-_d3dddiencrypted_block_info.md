@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a02f782f-6918-479a-b3de-9443df2e9ffe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_ca22516f-415c-47ff-9ba5-b837171cf77e.xml, D3DDDIENCRYPTED_BLOCK_INFO structure [Display Devices], _D3DDDIENCRYPTED_BLOCK_INFO, d3dumddi/D3DDDIENCRYPTED_BLOCK_INFO, display.d3dddiencrypted_block_info, D3DDDIENCRYPTED_BLOCK_INFO
+ms.keywords: "_D3DDDIENCRYPTED_BLOCK_INFO, d3dumddi/D3DDDIENCRYPTED_BLOCK_INFO, D3DDDIENCRYPTED_BLOCK_INFO structure [Display Devices], D3D_other_Structs_ca22516f-415c-47ff-9ba5-b837171cf77e.xml, display.d3dddiencrypted_block_info, D3DDDIENCRYPTED_BLOCK_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIENCRYPTED_BLOCK_INFO {
 
 
 
-### -field NumEncryptedBytesAtBeginning
+#### - NumEncryptedBytesAtBeginning
 
 [in] The number of bytes at the beginning of the buffer that are encrypted. 
 
 
-### -field NumBytesInSkipPattern
+#### - NumBytesInSkipPattern
 
 [in] The number of bytes in the buffer that are skipped from encryption before encryption starts again. 
 
 
-### -field NumBytesInEncryptPattern
+#### - NumBytesInEncryptPattern
 
 [in] The number of bytes in the buffer that are encrypted after the skip pattern, which the <b>NumBytesInSkipPattern</b> member specifies. The skip and encrypt pattern is then repeated until the buffer ends. For more information about the skip-encrypt pattern, see the Remarks section. 
 

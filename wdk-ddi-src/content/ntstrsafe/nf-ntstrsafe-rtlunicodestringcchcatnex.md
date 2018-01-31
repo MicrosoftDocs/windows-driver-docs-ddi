@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 190d5133-c0f4-40f9-9005-7612881b3530
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_31ae2a1e-4ec4-4cd3-b5d4-f966860fa50a.xml, RtlUnicodeStringCchCatNEx, ntstrsafe/RtlUnicodeStringCchCatNEx, kernel.rtlunicodestringcchcatnex, RtlUnicodeStringCchCatNEx function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUnicodeStringCchCatNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatnex, safestrings_31ae2a1e-4ec4-4cd3-b5d4-f966860fa50a.xml, RtlUnicodeStringCchCatNEx, ntstrsafe/RtlUnicodeStringCchCatNEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUnicodeStringCchCatNEx(
 
 
 
-### -param DestinationString [in, out]
+#### - DestinationString [in, out]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string is added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param SourceString [in]
+#### - SourceString [in]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that contains the source string. This string will be added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>SourceString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cchToAppend [in]
+#### - cchToAppend [in]
 
 The maximum number of characters to append to the string that the <i>DestinationString</i> parameter describes.
 
 
-### -param RemainingString [out, optional]
+#### - RemainingString [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
@@ -205,9 +205,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatnex.md">RtlUnicodeStringCbCatNEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatn.md">RtlUnicodeStringCchCatN</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatnex.md">RtlUnicodeStringCbCatNEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c676588e-348b-4840-9873-6b1bb2454987
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnInitialize, wdf.idriverentry_oninitialize, OnInitialize method, IDriverEntry interface, wudfddi/IDriverEntry::OnInitialize, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, IDriverEntry, IDriverEntry::OnInitialize, OnInitialize method, IDriverEntry interface, OnInitialize method, umdf.idriverentry_oninitialize
+ms.keywords: OnInitialize, umdf.idriverentry_oninitialize, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, OnInitialize method, IDriverEntry interface, wudfddi/IDriverEntry::OnInitialize, IDriverEntry::OnInitialize, OnInitialize method, IDriverEntry, wdf.idriverentry_oninitialize, IDriverEntry interface, OnInitialize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDriverEntry.OnInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT OnInitialize(
 
 
 
-### -param pWdfDriver [in]
+#### - pWdfDriver [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the framework driver object that represents the driver that is loaded in the host process.
 

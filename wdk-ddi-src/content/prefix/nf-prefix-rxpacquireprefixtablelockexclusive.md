@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 62f0bfd3-b8d9-4b29-a811-91a6c66dc24f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxpAcquirePrefixTableLockExclusive, rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml, ifsk.rxpacquireprefixtablelockexclusive, prefix/RxpAcquirePrefixTableLockExclusive, RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers]
+ms.keywords: prefix/RxpAcquirePrefixTableLockExclusive, RxpAcquirePrefixTableLockExclusive, RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers], rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml, ifsk.rxpacquireprefixtablelockexclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxpAcquirePrefixTableLockExclusive
 product: Windows
 targetos: Windows
-req.typenames: "*PSHIMOPTS, SHIMOPTS"
+req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ BOOLEAN RxpAcquirePrefixTableLockExclusive(
 
 
 
-### -param pTable
+#### - pTable
 
 A pointer to the RX_PREFIX_TABLE where the lock will be acquired.
 
 
-### -param Wait
+#### - Wait
 
 A Boolean value that specifies the behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, whether the resource can be acquired. 
 
@@ -115,17 +115,17 @@ Normal kernel APC delivery should be disabled before calling this routine. Disab
 
 ## -see-also
 
+<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
+
 <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
+
+<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
 
 <a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
 <a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
-
-<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
-
-<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
 

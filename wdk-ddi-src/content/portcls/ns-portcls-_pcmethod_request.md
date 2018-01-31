@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPCMETHOD_REQUEST structure pointer [Audio Devices], _PCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], portcls/PPCMETHOD_REQUEST, audio.pcmethod_request, portcls/PCMETHOD_REQUEST, *PPCMETHOD_REQUEST, PPCMETHOD_REQUEST, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, PCMETHOD_REQUEST
+ms.keywords: PCMETHOD_REQUEST structure [Audio Devices], PPCMETHOD_REQUEST structure pointer [Audio Devices], audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, PPCMETHOD_REQUEST, _PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST, portcls/PCMETHOD_REQUEST, PCMETHOD_REQUEST, *PPCMETHOD_REQUEST, audio.pcmethod_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _PCMETHOD_REQUEST {
 
 
 
-### -field MajorTarget
+#### - MajorTarget
 
 Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of a miniport object that supports the method set and method specified by <b>MethodItem</b>.
 
 
-### -field MinorTarget
+#### - MinorTarget
 
 Pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of a stream object associated with <b>MajorTarget</b>. If the request does not specify a minor target, set this member to <b>NULL</b>.
 
 
-### -field Node
+#### - Node
 
 Specifies the node ID of the target node for the request. If the target is not a node, this member is set to ULONG(-1).
 
 
-### -field MethodItem
+#### - MethodItem
 
 Pointer to a <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_4.md">PCMETHOD_ITEM</a> structure that describes a method supported by a filter, pin, or node.
 
 
-### -field Verb
+#### - Verb
 
 Specifies the type of method request. This member can be set to the bitwise OR of one or more of the flag bits in the following table.
 <table>

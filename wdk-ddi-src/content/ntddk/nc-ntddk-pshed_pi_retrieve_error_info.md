@@ -73,22 +73,22 @@ NTSTATUS RetrieveErrorInfo(
 
 
 
-### -param PluginContext [in, out, optional]
+#### - PluginContext [in, out, optional]
 
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
 
-### -param ErrorSource [in]
+#### - ErrorSource [in]
 
 A pointer to a <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes the error source that reported the hardware error.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The size, in bytes, of the buffer pointed to by the <i>Packet</i> parameter.
 
 
-### -param Packet [in, out]
+#### - Packet [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure that describes the hardware error packet for the hardware error.
 
@@ -176,9 +176,9 @@ An important task of a PSHED plug-in's <i>RetrieveErrorInfo</i> callback functio
 
 <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
  
 

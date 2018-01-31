@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df36008a-2ee4-4e3e-8bad-7da1f27a695d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dd_deferred_agp_aware_data, _DD_DEFERRED_AGP_AWARE_DATA, DD_DEFERRED_AGP_AWARE_DATA structure [Display Devices], d3dstrct_f07b3180-3442-4c3f-974b-eaf58a3a03df.xml, DD_DEFERRED_AGP_AWARE_DATA, d3dhal/DD_DEFERRED_AGP_AWARE_DATA
+ms.keywords: d3dhal/DD_DEFERRED_AGP_AWARE_DATA, display.dd_deferred_agp_aware_data, DD_DEFERRED_AGP_AWARE_DATA structure [Display Devices], DD_DEFERRED_AGP_AWARE_DATA, d3dstrct_f07b3180-3442-4c3f-974b-eaf58a3a03df.xml, _DD_DEFERRED_AGP_AWARE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DD_DEFERRED_AGP_AWARE_DATA {
 
 
 
-### -field gdi2
+#### - gdi2
 
 Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
@@ -85,9 +85,9 @@ Whenever a display device is created, the driver receives a <b>GetDriverInfo2</b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
  
 

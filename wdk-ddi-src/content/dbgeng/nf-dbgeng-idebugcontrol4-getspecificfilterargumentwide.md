@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 61537680-0453-4484-b07a-e0d90b45c412
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSpecificFilterArgumentWide, GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4::GetSpecificFilterArgumentWide, IDebugControl4, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide, IDebugControl4 interface [Windows Debugging], GetSpecificFilterArgumentWide method
+ms.keywords: GetSpecificFilterArgumentWide, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, IDebugControl4 interface [Windows Debugging], GetSpecificFilterArgumentWide method, GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4, IDebugControl4::GetSpecificFilterArgumentWide, GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, debugger.getspecificfilterargumentwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetSpecificFilterArgumentWide(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the specific filter whose argument will be returned.  <i>Index</i> must be the index of a specific filter that has an argument.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the argument for the specific filter.  The interpretation of the argument depends on the specific filter.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-### -param ArgumentSize [out, optional]
+#### - ArgumentSize [out, optional]
 
 Receives the size, in characters, of the argument for the specific filter.
 
@@ -134,9 +134,9 @@ For a list of specific filters that have argument and the interpretation of thos
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 

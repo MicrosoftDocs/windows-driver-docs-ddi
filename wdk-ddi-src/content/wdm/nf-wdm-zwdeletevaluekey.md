@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e7fc9290-8f24-4b9f-822a-0bdce50dafb9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, NtDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], wdm/ZwDeleteValueKey, wdm/NtDeleteValueKey, ZwDeleteValueKey, kernel.zwdeletevaluekey
+ms.keywords: wdm/NtDeleteValueKey, k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, kernel.zwdeletevaluekey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], ZwDeleteValueKey, NtDeleteValueKey, wdm/ZwDeleteValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwDeleteValueKey(
 
 
 
-### -param KeyHandle [in]
+#### - KeyHandle [in]
 
 The handle to the registry key containing the value entry of interest. This key must have been opened with KEY_SET_VALUE set for the desired access. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>. 
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the value entry to delete. This parameter can be an empty string if the value entry has no name. 
 
@@ -151,19 +151,19 @@ Device drivers should not attempt to call <b>ZwDeleteValueKey</b> directly to de
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
-
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
  
 

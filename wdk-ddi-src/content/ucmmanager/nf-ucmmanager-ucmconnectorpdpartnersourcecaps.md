@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 282E12E2-F16F-4399-BC8C-78BD64F05F13
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], buses.ucmconnectorpdportpartnersourcecaps, UcmConnectorPdPartnerSourceCaps
+ms.keywords: buses.ucmconnectorpdportpartnersourcecaps, UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], ucmmanager/UcmConnectorPdPartnerSourceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS UcmConnectorPdPartnerSourceCaps(
 
 
 
-### -param Connector [in]
+#### - Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 
@@ -81,7 +81,7 @@ Handle to the connector object that the client driver received in the previous c
 TBD
 
 
-### -param PdoCount [in]
+#### - PdoCount [in]
 
 Number of elements in the array specified by   <i>Pdos[]</i>.
 

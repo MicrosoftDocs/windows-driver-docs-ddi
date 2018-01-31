@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a91311e-c8b9-4f28-b72e-9f93d459aac2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgi_gamma_control_capabiliites, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES, UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES
+ms.keywords: display.dxgi_gamma_control_capabiliites, UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILIITES, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct DXGI_GAMMA_CONTROL_CAPABILIITES {
 
 
 
-### -field ScaleAndOffsetSupported
+#### - ScaleAndOffsetSupported
 
 [out] A BOOL value that indicates whether the device supports scale and offset. <b>TRUE</b> indicates that the device supports scale and offset; <b>FALSE</b> indicates that the device does not support scale and offset. 
 
 
-### -field MaxConvertedValue
+#### - MaxConvertedValue
 
 [out] A single-precision float vector for the maximum converted value for the gamma control. 
 
 
-### -field MinConvertedValue
+#### - MinConvertedValue
 
 [out] A single-precision float vector for the minimum converted value for the gamma control. 
 
 
-### -field NumGammaControlPoints
+#### - NumGammaControlPoints
 
 [out] The number of elements in the array that the <b>ControlPointPositions</b> member specifies. 
 
 
-### -field ControlPointPositions
+#### - ControlPointPositions
 
 [out] An array of single-precision float vectors that describe the gamma control point positions. 
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_get_gamma_control_caps.md">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_get_gamma_control_caps.md">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a>
 
  
 

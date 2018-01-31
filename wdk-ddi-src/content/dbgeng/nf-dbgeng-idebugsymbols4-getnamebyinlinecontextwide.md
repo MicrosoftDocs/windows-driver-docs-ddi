@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: D77F5755-75B0-48E6-BC5C-565022F884E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContextWide method, GetNameByInlineContextWide method [Windows Debugging], debugger.idebugsymbols4_getnamebyinlinecontextwide, IDebugSymbols4, IDebugSymbols4::GetNameByInlineContextWide, dbgeng/IDebugSymbols4::GetNameByInlineContextWide, GetNameByInlineContextWide, GetNameByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface
+ms.keywords: IDebugSymbols4, dbgeng/IDebugSymbols4::GetNameByInlineContextWide, GetNameByInlineContextWide, IDebugSymbols4::GetNameByInlineContextWide, GetNameByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface, debugger.idebugsymbols4_getnamebyinlinecontextwide, GetNameByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContextWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetNameByInlineContextWide(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 An offset for the inline context.
 
 
-### -param InlineContext [in]
+#### - InlineContext [in]
 
 The inline context.
 
 
-### -param NameBuffer [out]
+#### - NameBuffer [out]
 
 A pointer an output buffer for a Unicode character string.
 
 
-### -param NameBufferSize [in]
+#### - NameBufferSize [in]
 
 The size of the name buffer.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 A pointer to the length of the name.
 
 
-### -param Displacement [out, optional]
+#### - Displacement [out, optional]
 
 A pointer to the displacement value of the name.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e99ebbe8-8605-4bf2-9ec0-d7cde25058f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.netdmaproviderstart, NetDmaProviderStart, netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, NetDmaProviderStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netdma/NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], NetDmaProviderStart, netvista.netdmaproviderstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaProviderStart
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaProviderStart function
@@ -72,7 +72,7 @@ VOID NetDmaProviderStart(
 
 
 
-### -param NetDmaProviderHandle [in]
+#### - NetDmaProviderHandle [in]
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
@@ -80,7 +80,7 @@ A handle that identifies a DMA provider. The DMA provider driver received this h
      NetDmaRegisterProvider</b></mshelp:link> function.
 
 
-### -param ProviderAttributes [in]
+#### - ProviderAttributes [in]
 
 A pointer to a 
      <mshelp:link keywords="netvista.net_dma_provider_attributes" tabindex="0"><b>

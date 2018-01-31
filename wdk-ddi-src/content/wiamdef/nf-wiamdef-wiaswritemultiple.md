@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiamdef/wiasWriteMultiple, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices], image.wiaswritemultiple
+ms.keywords: wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple function [Imaging Devices], wiasWriteMultiple, wiamdef/wiasWriteMultiple, image.wiaswritemultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWriteMultiple
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasWriteMultiple(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param ulCount
+#### - ulCount
 
 Specifies the total number of properties to write.
 
 
-### -param ps [in]
+#### - ps [in]
 
 Pointer to the first element of an array of PROPSPEC structures that indicate the properties to write.
 
 
-### -param pv
+#### - pv
 
 Pointer to the first element of an array of PROPVARIANT structures that contain the values to write to the item.
 

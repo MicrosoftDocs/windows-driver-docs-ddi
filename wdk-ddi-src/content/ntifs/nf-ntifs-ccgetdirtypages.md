@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, CcGetDirtyPages routine [Installable File System Drivers], CcGetDirtyPages, ifsk.ccgetdirtypages, ntifs/CcGetDirtyPages
+ms.keywords: ifsk.ccgetdirtypages, ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, CcGetDirtyPages routine [Installable File System Drivers], CcGetDirtyPages, ntifs/CcGetDirtyPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ LARGE_INTEGER CcGetDirtyPages(
 
 
 
-### -param LogHandle [in]
+#### - LogHandle [in]
 
 Log handle stored by a previous call to <b>CcSetLogHandleForFile</b>. 
 
 
-### -param DirtyPageRoutine [in]
+#### - DirtyPageRoutine [in]
 
 Pointer to a callback routine that builds up a dirty page table from the pages found. This routine, which is called for each dirty page found, is declared as follows: 
 <div class="code"><span codelanguage=""><table>
@@ -134,12 +134,12 @@ First context parameter.
 Second context parameter. 
 
 
-### -param Context1 [in]
+#### - Context1 [in]
 
 First context parameter to be passed to the <i>DirtyPageRoutine</i>. 
 
 
-### -param Context2 [in]
+#### - Context2 [in]
 
 Second context parameter to be passed to the <i>DirtyPageRoutine</i>. 
 
@@ -162,9 +162,9 @@ To set a log handle for a file, use <a href="..\ntifs\nf-ntifs-ccsetloghandlefor
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>
-
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>
 
  
 

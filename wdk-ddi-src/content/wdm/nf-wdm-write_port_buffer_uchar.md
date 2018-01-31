@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59a7b11a-c6b6-4452-9518-1e5c7c07ec18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WRITE_PORT_BUFFER_UCHAR, wdm/WRITE_PORT_BUFFER_UCHAR, k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml, kernel.write_port_buffer_uchar, WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture]
+ms.keywords: WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_PORT_BUFFER_UCHAR, wdm/WRITE_PORT_BUFFER_UCHAR, kernel.write_port_buffer_uchar, k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID WRITE_PORT_BUFFER_UCHAR(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer from which an array of UCHAR values is to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of bytes to be written to the port. 
 

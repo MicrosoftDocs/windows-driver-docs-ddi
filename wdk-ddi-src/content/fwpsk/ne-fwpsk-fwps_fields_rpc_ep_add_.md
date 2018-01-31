@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9062fe5f-4384-4466-a15f-c62f2f429699
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_FIELD_RPC_EP_ADD_EP_VALUE, FWPS_FIELD_RPC_EP_ADD_EP_FLAGS, fwpsk/FWPS_FIELDS_RPC_EP_ADD, fwpsk/FWPS_FIELD_RPC_EP_ADD_MAX, fwpsk/FWPS_FIELD_RPC_EP_ADD_PROTOCOL, wfp_ref_5_const_3_data_fields_427e308c-dcc3-4e3b-a569-9838623abff6.xml, FWPS_FIELDS_RPC_EP_ADD_, FWPS_FIELD_RPC_EP_ADD_EP_VALUE, fwpsk/FWPS_FIELD_RPC_EP_ADD_PROCESS_WITH_RPC_IF_UUID, fwpsk/FWPS_FIELD_RPC_EP_ADD_EP_FLAGS, netvista.fwps_fields_rpc_ep_add, FWPS_FIELDS_RPC_EP_ADD enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_RPC_EP_ADD_PROTOCOL, FWPS_FIELD_RPC_EP_ADD_MAX, FWPS_FIELD_RPC_EP_ADD_PROCESS_WITH_RPC_IF_UUID, FWPS_FIELDS_RPC_EP_ADD
+ms.keywords: fwpsk/FWPS_FIELDS_RPC_EP_ADD, FWPS_FIELD_RPC_EP_ADD_PROCESS_WITH_RPC_IF_UUID, wfp_ref_5_const_3_data_fields_427e308c-dcc3-4e3b-a569-9838623abff6.xml, FWPS_FIELDS_RPC_EP_ADD_, fwpsk/FWPS_FIELD_RPC_EP_ADD_MAX, fwpsk/FWPS_FIELD_RPC_EP_ADD_EP_VALUE, FWPS_FIELD_RPC_EP_ADD_PROTOCOL, FWPS_FIELDS_RPC_EP_ADD, netvista.fwps_fields_rpc_ep_add, FWPS_FIELD_RPC_EP_ADD_MAX, FWPS_FIELD_RPC_EP_ADD_EP_FLAGS, FWPS_FIELDS_RPC_EP_ADD enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_RPC_EP_ADD_PROCESS_WITH_RPC_IF_UUID, fwpsk/FWPS_FIELD_RPC_EP_ADD_EP_FLAGS, fwpsk/FWPS_FIELD_RPC_EP_ADD_PROTOCOL, FWPS_FIELD_RPC_EP_ADD_EP_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,12 +73,12 @@ typedef enum FWPS_FIELDS_RPC_EP_ADD_ {
 
 
 
-### -field FWPS_FIELD_RPC_EP_ADD_PROCESS_WITH_RPC_IF_UUID
+#### - FWPS_FIELD_RPC_EP_ADD_PROCESS_WITH_RPC_IF_UUID
 
 The UUID of the process with the RPC interface.
 
 
-### -field FWPS_FIELD_RPC_EP_ADD_PROTOCOL
+#### - FWPS_FIELD_RPC_EP_ADD_PROTOCOL
 
 
 
@@ -98,17 +98,17 @@ The UUID of the process with the RPC interface.
 
 
 
-### -field FWPS_FIELD_RPC_EP_ADD_EP_VALUE
+#### - FWPS_FIELD_RPC_EP_ADD_EP_VALUE
 
 Reserved for internal use.
 
 
-### -field FWPS_FIELD_RPC_EP_ADD_EP_FLAGS
+#### - FWPS_FIELD_RPC_EP_ADD_EP_FLAGS
 
 Reserved for internal use.
 
 
-### -field FWPS_FIELD_RPC_EP_ADD_MAX
+#### - FWPS_FIELD_RPC_EP_ADD_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

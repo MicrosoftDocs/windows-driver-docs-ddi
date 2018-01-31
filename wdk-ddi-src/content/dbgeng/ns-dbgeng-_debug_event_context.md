@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3748675F-8187-4072-A0D0-3764B4D20288
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "*PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], _DEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT, dbgeng/DEBUG_EVENT_CONTEXT, debugger.debug_event_context, PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging], dbgeng/PDEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT"
+ms.keywords: DEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT, dbgeng/PDEBUG_EVENT_CONTEXT, dbgeng/DEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging], *PDEBUG_EVENT_CONTEXT, _DEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], debugger.debug_event_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_EVENT_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT
+req.typenames: "*PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT"
 ---
 
 # _DEBUG_EVENT_CONTEXT structure
@@ -70,22 +70,22 @@ typedef struct _DEBUG_EVENT_CONTEXT {
 
 
 
-### -field Size
+#### - Size
 
 The size of the event.
 
 
-### -field ProcessEngineId
+#### - ProcessEngineId
 
 The process engine ID of the event.
 
 
-### -field ThreadEngineId
+#### - ThreadEngineId
 
 The process thread ID of the event.
 
 
-### -field FrameEngineId
+#### - FrameEngineId
 
 The frame engine ID of the event.
 

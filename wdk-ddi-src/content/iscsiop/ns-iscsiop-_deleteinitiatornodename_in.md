@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10b6660c-7f48-4717-89d4-d6a5eb6594c8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DeleteInitiatorNodeName_IN structure [Storage Devices], _DeleteInitiatorNodeName_IN, storage.deleteinitiatornodename_in, structs-iSCSI_2b687a5a-17af-4eda-b48f-8e7ca06024f2.xml, PDeleteInitiatorNodeName_IN structure pointer [Storage Devices], DeleteInitiatorNodeName_IN, iscsiop/PDeleteInitiatorNodeName_IN, iscsiop/DeleteInitiatorNodeName_IN, PDeleteInitiatorNodeName_IN, *PDeleteInitiatorNodeName_IN
+ms.keywords: structs-iSCSI_2b687a5a-17af-4eda-b48f-8e7ca06024f2.xml, PDeleteInitiatorNodeName_IN structure pointer [Storage Devices], DeleteInitiatorNodeName_IN, DeleteInitiatorNodeName_IN structure [Storage Devices], iscsiop/DeleteInitiatorNodeName_IN, *PDeleteInitiatorNodeName_IN, storage.deleteinitiatornodename_in, iscsiop/PDeleteInitiatorNodeName_IN, PDeleteInitiatorNodeName_IN, _DeleteInitiatorNodeName_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DeleteInitiatorNodeName_IN
 product: Windows
 targetos: Windows
-req.typenames: DeleteInitiatorNodeName_IN, *PDeleteInitiatorNodeName_IN
+req.typenames: "*PDeleteInitiatorNodeName_IN, DeleteInitiatorNodeName_IN"
 ---
 
 # _DeleteInitiatorNodeName_IN structure
@@ -67,7 +67,7 @@ typedef struct _DeleteInitiatorNodeName_IN {
 
 
 
-### -field DeletedInitiatorName
+#### - DeletedInitiatorName
 
 The iSCSI initiator node name that is to be deleted.
 

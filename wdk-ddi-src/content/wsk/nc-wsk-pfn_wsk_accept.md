@@ -40,7 +40,7 @@ apiname:
 -	WskAccept
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -78,20 +78,20 @@ NTSTATUS WSKAPI * WskAccept(
 
 
 
-### -param ListenSocket [in]
+#### - ListenSocket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the listening or stream socket that is being checked for an incoming connection.
 
 
-### -param Flags
+#### - Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
 
-### -param AcceptSocketContext [in, optional]
+#### - AcceptSocketContext [in, optional]
 
 A pointer to a caller-supplied context for the socket that is being accepted. The WSK subsystem
      passes this pointer to the accepted socket's event callback functions. The context information is opaque
@@ -100,11 +100,19 @@ A pointer to a caller-supplied context for the socket that is being accepted. Th
      <b>NULL</b>.
 
 
-### -param *AcceptSocketDispatch
+#### - *AcceptSocketDispatch [in, optional]
+
+A pointer to a constant 
+     <mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+     WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link> structure. This structure is a dispatch table that contains
+     pointers to the event callback functions for the accepted socket. If the WSK application will not be
+     enabling all of the event callback functions for the accepted socket, it should set the pointers in the
+     dispatch table to <b>NULL</b> for those event callback functions that it does not enable. If the WSK
+     application will not be enabling any event callback functions on the accepted socket, it should set this
+     pointer to <b>NULL</b>.
 
 
-
-### -param LocalAddress [out, optional]
+#### - LocalAddress [out, optional]
 
 A pointer to a caller-allocated buffer that receives the local transport address on which the
      incoming connection arrived. The buffer must be located in non-paged memory. The buffer must also be
@@ -113,7 +121,7 @@ A pointer to a caller-allocated buffer that receives the local transport address
      <b>NULL</b>.
 
 
-### -param RemoteAddress [out, optional]
+#### - RemoteAddress [out, optional]
 
 A pointer to a caller-allocated buffer that receives the remote transport address from which the
      incoming connection originated. The buffer must be located in non-paged memory. The buffer must also be
@@ -122,7 +130,7 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
      <b>NULL</b>.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the accept operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -277,24 +285,24 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 ## -see-also
 
+<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
  
 

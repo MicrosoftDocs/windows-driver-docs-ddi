@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA0_, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, fwpsk/FWPS_STREAM_DATA0, netvista.fwps_stream_data0, FWPS_STREAM_DATA0
+ms.keywords: FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_DATA0, FWPS_STREAM_DATA0_, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, netvista.fwps_stream_data0, FWPS_STREAM_DATA0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct FWPS_STREAM_DATA0_ {
 
 
 
-### -field flags
+#### - flags
 
 A variable containing flags that specify the characteristics of the data stream.
      
@@ -143,19 +143,19 @@ Specifies that the stream is to be reset after the data in the outbound data str
        
 <div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div><div> </div>
 
-### -field dataOffset
+#### - dataOffset
 
 An 
      <a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a> structure
      that specifies the offset into the data stream where the portion of the data stream begins.
 
 
-### -field dataLength
+#### - dataLength
 
 The number of bytes in the portion of the data stream.
 
 
-### -field netBufferListChain
+#### - netBufferListChain
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
@@ -176,16 +176,16 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
-
 <mshelp:link keywords="netvista.fwps_stream_callout_io_packet0" tabindex="0"><b>
    FWPS_STREAM_CALLOUT_IO_PACKET0</b></mshelp:link>
 
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
  
 

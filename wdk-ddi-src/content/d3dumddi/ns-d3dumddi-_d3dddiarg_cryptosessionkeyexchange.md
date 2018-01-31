@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45ff38bf-7640-4b7c-ab26-ae758c9b4696
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure [Display Devices], display.d3dddiarg_cryptosessionkeyexchange, UMDisplayDriver_param_Structs_80a0e3f6-7fa5-444f-9eeb-505a6632af8d.xml, _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, d3dumddi/D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
+ms.keywords: UMDisplayDriver_param_Structs_80a0e3f6-7fa5-444f-9eeb-505a6632af8d.xml, d3dumddi/D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure [Display Devices], _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, display.d3dddiarg_cryptosessionkeyexchange, D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE {
 
 
 
-### -field hCryptoSession
+#### - hCryptoSession
 
 [in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function. 
 
 
-### -field DataSize
+#### - DataSize
 
 [in/out] The size, in bytes, of the data that the <b>pData</b> member points to. 
 
 
-### -field pData
+#### - pData
 
 [in/out] A pointer to a buffer that contains the session key. 
 

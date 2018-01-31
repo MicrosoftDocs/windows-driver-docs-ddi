@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e1f397f6-2f33-4352-9bbc-2b2a49dcd067
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_CreateConfigurationRequest routine [Buses], usbdlib/USBD_CreateConfigurationRequest, buses.usbd_createconfigurationrequest, USBD_CreateConfigurationRequest, usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml
+ms.keywords: usbdlib/USBD_CreateConfigurationRequest, USBD_CreateConfigurationRequest routine [Buses], USBD_CreateConfigurationRequest, buses.usbd_createconfigurationrequest, usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_CreateConfigurationRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ PURB USBD_CreateConfigurationRequest(
 
 
 
-### -param ConfigurationDescriptor [in]
+#### - ConfigurationDescriptor [in]
 
 Pointer to a caller-allocated <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> structure that contains the configuration descriptor for the configuration to be selected.
 
 
-### -param Siz [in, out]
+#### - Siz [in, out]
 
 Size of the <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 

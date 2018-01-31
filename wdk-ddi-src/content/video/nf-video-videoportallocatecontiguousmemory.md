@@ -72,17 +72,17 @@ PVOID VideoPortAllocateContiguousMemory(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies the size in bytes of the block of contiguous memory to be allocated. 
 
 
-### -param HighestAcceptableAddress [in]
+#### - HighestAcceptableAddress [in]
 
 Specifies the highest valid physical address the miniport driver can use. For example, if a device can only reference physical memory in the lower 16MB, this value would be set to 0x00000000FFFFFF.
 

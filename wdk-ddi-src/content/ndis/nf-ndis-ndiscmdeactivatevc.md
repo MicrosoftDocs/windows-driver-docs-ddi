@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 141830de-e113-4f42-91f8-8f1cdbf3e32c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_call_manager_ref_3d365bcf-91cc-4724-a4af-77e9bea6fe0c.xml, NdisCmDeactivateVc, ndis/NdisCmDeactivateVc, NdisCmDeactivateVc function [Network Drivers Starting with Windows Vista], netvista.ndiscmdeactivatevc
+ms.keywords: NdisCmDeactivateVc, netvista.ndiscmdeactivatevc, ndis/NdisCmDeactivateVc, condis_call_manager_ref_3d365bcf-91cc-4724-a4af-77e9bea6fe0c.xml, NdisCmDeactivateVc function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NDIS_STATUS NdisCmDeactivateVc(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle identifying the VC. This handle was supplied by NDIS to the call manager
      either when it called 
@@ -137,20 +137,20 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
 
-<mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-   ProtocolCmDeactivateVcComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
+   ProtocolCmDeactivateVcComplete</i></mshelp:link>
 
  
 

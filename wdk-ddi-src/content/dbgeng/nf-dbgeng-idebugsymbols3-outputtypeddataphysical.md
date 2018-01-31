@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c2ae1ff-bbf1-462f-b9ab-49f74cf12fae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::OutputTypedDataPhysical, debugger.outputtypeddataphysical, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols3::OutputTypedDataPhysical, OutputTypedDataPhysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method
+ms.keywords: IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols::OutputTypedDataPhysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, debugger.outputtypeddataphysical, IDebugSymbols3::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, IDebugSymbols3, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, OutputTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,27 +73,27 @@ HRESULT OutputTypedDataPhysical(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies the output control used to determine which output callbacks can receive the output.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a> for possible values.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the physical address in the target computer's memory of the variable.
 
 
-### -param Module [in]
+#### - Module [in]
 
 Specifies the base address of the module containing the type of the variable.
 
 
-### -param TypeId [in]
+#### - TypeId [in]
 
 Specifies the type ID of the type of the variable.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the bit-set containing the formatting options.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541712">DEBUG_TYPEOPTS_XXX</a> for possible values.
 

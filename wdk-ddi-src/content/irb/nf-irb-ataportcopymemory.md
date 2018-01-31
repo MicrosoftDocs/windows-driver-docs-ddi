@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5e449f8-9ff9-4d3d-9a62-3e985b57bd50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortCopyMemory, storage.ataportcopymemory, atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, AtaPortCopyMemory routine [Storage Devices], irb/AtaPortCopyMemory
+ms.keywords: storage.ataportcopymemory, irb/AtaPortCopyMemory, atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, AtaPortCopyMemory, AtaPortCopyMemory routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID AtaPortCopyMemory(
 
 
 
-### -param WriteBuffer [out]
+#### - WriteBuffer [out]
 
 A pointer to the destination buffer.
 
 
-### -param ReadBuffer [in]
+#### - ReadBuffer [in]
 
 A pointer to the source buffer.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>.
 

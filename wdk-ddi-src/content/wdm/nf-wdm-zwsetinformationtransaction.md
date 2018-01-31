@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 47e729d8-241e-47f0-a595-d95c5ac516a4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwsetinformationtransaction, wdm/ZwSetInformationTransaction, ktm_ref_575490bd-1003-43b3-8e41-676c4b0e4f25.xml, wdm/NtSetInformationTransaction, NtSetInformationTransaction, ZwSetInformationTransaction routine [Kernel-Mode Driver Architecture], ZwSetInformationTransaction
+ms.keywords: ZwSetInformationTransaction, wdm/NtSetInformationTransaction, ZwSetInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationtransaction, NtSetInformationTransaction, wdm/ZwSetInformationTransaction, ktm_ref_575490bd-1003-43b3-8e41-676c4b0e4f25.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS ZwSetInformationTransaction(
 
 
 
-### -param TransactionHandle [in]
+#### - TransactionHandle [in]
 
 A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>. The handle must have TRANSACTION_SET_INFORMATION access to the object.
 
 
-### -param TransactionInformationClass [in]
+#### - TransactionInformationClass [in]
 
 A <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>-typed value that specifies the type of information to set. The value must be <b>TransactionPropertiesInformation</b>.
 
 
-### -param TransactionInformation [in]
+#### - TransactionInformation [in]
 
 A pointer to a caller-allocated buffer that contains the information to set. The buffer's structure type must be <a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>.
 
 
-### -param TransactionInformationLength [in]
+#### - TransactionInformationLength [in]
 
 The length, in bytes, of the buffer that the <i>TransactionInformation</i> parameter points to.
 
@@ -186,17 +186,17 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
-
 <a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
  
 

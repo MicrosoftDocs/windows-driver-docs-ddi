@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4ae4dc8d-3502-40c1-8109-6935990a7091
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavepcistream_normalizephysicalposition, NormalizePhysicalPosition method [Audio Devices], portcls/IMiniportWavePciStream::NormalizePhysicalPosition, IMiniportWavePciStream, IMiniportWavePciStream::NormalizePhysicalPosition, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices], NormalizePhysicalPosition method
+ms.keywords: portcls/IMiniportWavePciStream::NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream::NormalizePhysicalPosition, IMiniportWavePciStream, audio.iminiportwavepcistream_normalizephysicalposition, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, IMiniportWavePciStream interface [Audio Devices], NormalizePhysicalPosition method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWavePciStream.NormalizePhysicalPosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWavePciStream::NormalizePhysicalPosition method
@@ -67,7 +67,7 @@ NTSTATUS NormalizePhysicalPosition(
 
 
 
-### -param PhysicalPosition [in, out]
+#### - PhysicalPosition [in, out]
 
 Pointer to a caller-allocated buffer that contains either the physical position or time-based value. On entry, this buffer contains the physical-position value that is to be converted. On return, the buffer contains the converted value, which is time-based.
 

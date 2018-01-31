@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 61645c17-9278-49e0-a0bf-24a8c52e964d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: NumberOfEntriesOfType method [Audio Devices], NumberOfEntriesOfType, audio.iresourcelist_numberofentriesoftype, IResourceList, portcls/IResourceList::NumberOfEntriesOfType, IResourceList interface [Audio Devices], NumberOfEntriesOfType method, audmp-routines_eb0c6999-a901-4087-b7bc-12057f91be90.xml, IResourceList::NumberOfEntriesOfType, NumberOfEntriesOfType method [Audio Devices], IResourceList interface
+ms.keywords: NumberOfEntriesOfType method [Audio Devices], audmp-routines_eb0c6999-a901-4087-b7bc-12057f91be90.xml, NumberOfEntriesOfType, IResourceList, IResourceList interface [Audio Devices], NumberOfEntriesOfType method, IResourceList::NumberOfEntriesOfType, portcls/IResourceList::NumberOfEntriesOfType, audio.iresourcelist_numberofentriesoftype, NumberOfEntriesOfType method [Audio Devices], IResourceList interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.NumberOfEntriesOfType
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IResourceList::NumberOfEntriesOfType method
@@ -67,7 +67,7 @@ ULONG NumberOfEntriesOfType(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 Identifies the resource type of the entries that are to be counted. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
@@ -88,9 +88,9 @@ For each resource type, a macro is defined to call this method. See <a href="..\
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

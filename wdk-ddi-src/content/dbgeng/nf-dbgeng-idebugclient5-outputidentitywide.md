@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e8f91713-ea1d-4262-bc0b-dd4e39d1c2c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], OutputIdentityWide method, OutputIdentityWide method [Windows Debugging], OutputIdentityWide, IDebugClient5::OutputIdentityWide, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::OutputIdentityWide, debugger.outputidentitywide, IDebugClient5
+ms.keywords: OutputIdentityWide, debugger.outputidentitywide, IDebugClient5::OutputIdentityWide, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, dbgeng/IDebugClient5::OutputIdentityWide, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], OutputIdentityWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT OutputIdentityWide(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies where to send the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Set to zero.
 
 
-### -param Format [in]
+#### - Format [in]
 
 Specifies a format string similar to the <b>printf</b> format string.  However, this format string must only contain one formatting directive, <b>%s</b>, which will be replaced by a description of the computer and user this client represents.
 
@@ -119,9 +119,9 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546831">GetIdentity</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
  
 

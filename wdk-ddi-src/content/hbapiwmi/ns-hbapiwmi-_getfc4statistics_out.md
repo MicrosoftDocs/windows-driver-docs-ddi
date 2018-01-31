@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc747ff1-cc84-4863-a66a-ae172f45f2bd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: GetFC4Statistics_OUT structure [Storage Devices], hbapiwmi/PGetFC4Statistics_OUT, storage.getfc4statistics_out, GetFC4Statistics_OUT, _GetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], hbapiwmi/GetFC4Statistics_OUT, PGetFC4Statistics_OUT, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, *PGetFC4Statistics_OUT
+ms.keywords: GetFC4Statistics_OUT structure [Storage Devices], _GetFC4Statistics_OUT, hbapiwmi/PGetFC4Statistics_OUT, storage.getfc4statistics_out, GetFC4Statistics_OUT, *PGetFC4Statistics_OUT, hbapiwmi/GetFC4Statistics_OUT, PGetFC4Statistics_OUT, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, PGetFC4Statistics_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetFC4Statistics_OUT
 product: Windows
 targetos: Windows
-req.typenames: GetFC4Statistics_OUT, *PGetFC4Statistics_OUT
+req.typenames: "*PGetFC4Statistics_OUT, GetFC4Statistics_OUT"
 ---
 
 # _GetFC4Statistics_OUT structure
@@ -68,12 +68,12 @@ typedef struct _GetFC4Statistics_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation.
 
 
-### -field FC4Statistics
+#### - FC4Statistics
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_fc4statistics.md">MSFC_FC4STATISTICS</a> that holds statistics for the specified FC-4 protocol. 
 

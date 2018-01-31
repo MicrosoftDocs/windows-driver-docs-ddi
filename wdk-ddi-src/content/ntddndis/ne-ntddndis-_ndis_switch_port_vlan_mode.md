@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 87828768-BE97-4549-AC5B-7CB27D0A9720
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeUnknown, NdisSwitchPortVlanModeAccess, ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE, PNDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeMax, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModePrivate, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_VLAN_MODE, netvista.ndis_switch_port_vlan_mode, ntddndis/NdisSwitchPortVlanModeAccess, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModeUnknown, NdisSwitchPortVlanModePrivate, NdisSwitchPortVlanModeMax, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeTrunk"
+ms.keywords: NdisSwitchPortVlanModePrivate, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortVlanModeUnknown, NdisSwitchPortVlanModeMax, ntddndis/NdisSwitchPortVlanModeMax, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModePrivate, netvista.ndis_switch_port_vlan_mode, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeAccess, ntddndis/NdisSwitchPortVlanModeAccess, NdisSwitchPortVlanModeTrunk, NdisSwitchPortVlanModeUnknown, *PNDIS_SWITCH_PORT_VLAN_MODE, _NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_VLAN_MODE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_PORT_VLAN_MODE, *PNDIS_SWITCH_PORT_VLAN_MODE
+req.typenames: "*PNDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE"
 ---
 
 # _NDIS_SWITCH_PORT_VLAN_MODE enumeration
@@ -74,27 +74,27 @@ typedef enum  {
 
 
 
-### -field NdisSwitchPortVlanModeUnknown
+#### - NdisSwitchPortVlanModeUnknown
 
 This value specifies an undefined VLAN operation mode.
 
 
-### -field NdisSwitchPortVlanModeAccess
+#### - NdisSwitchPortVlanModeAccess
 
 This value specifies an operation mode in which packets from a single VLAN can be sent or received over the port. These packets can be forwarded from other ports on the extensible switch.
 
 
-### -field NdisSwitchPortVlanModeTrunk
+#### - NdisSwitchPortVlanModeTrunk
 
 This value specifies an operation mode where the port acts as a VLAN trunk. In this mode, packets from multiple VLANs as well as non-VLAN packets can be sent or received over the port. These packets can be forwarded from other ports on the extensible switch.
 
 
-### -field NdisSwitchPortVlanModePrivate
+#### - NdisSwitchPortVlanModePrivate
 
 This value specifies an operation mode where packets from a single VLAN can be sent or received over the port. These packets cannot be forwarded from other ports on the extensible switch.
 
 
-### -field NdisSwitchPortVlanModeMax
+#### - NdisSwitchPortVlanModeMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E0749F52-CC7C-484D-8350-1986154957C1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, FilterSynchronousOidRequestComplete, ndis/FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete
+ms.keywords: FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], FilterSynchronousOidRequestComplete, ndis/FilterSynchronousOidRequestComplete, FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, netvista.filter_synchronous_oid_request_complete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID FilterSynchronousOidRequestComplete(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 Reserved.
 
 
-### -param OidRequest [in, out]
+#### - OidRequest [in, out]
 
 Reserved.
 
 
-### -param Status [in, out]
+#### - Status [in, out]
 
 Reserved.
 
 
-### -param CallContext [in]
+#### - CallContext [in]
 
 Reserved.
 

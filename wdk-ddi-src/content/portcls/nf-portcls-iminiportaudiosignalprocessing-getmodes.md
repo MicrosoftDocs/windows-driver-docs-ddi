@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioSignalProcessing::GetModes, IMiniportAudioSignalProcessing, GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface, GetModes, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, portcls/IMiniportAudioSignalProcessing::GetModes, GetModes method [Audio Devices], audio.iminiportaudiosignalprocessing_getmodes
+ms.keywords: portcls/IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, GetModes, GetModes method [Audio Devices], IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, IMiniportAudioSignalProcessing::GetModes, GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioSignalProcessing.GetModes
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioSignalProcessing::GetModes method
@@ -69,17 +69,17 @@ NTSTATUS GetModes(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 The index of the audio pin.
 
 
-### -param SignalProcessingModes [out, optional]
+#### - SignalProcessingModes [out, optional]
 
 This parameter is optional. It returns an array of GUIDs that identify the  signal processing modes supported by the  <i>Pin</i> parameter.
 
 
-### -param NumSignalProcessingModes [in, out]
+#### - NumSignalProcessingModes [in, out]
 
 When used as an input, it specifies the number of elements that can be written to the buffer that is specified in <i>SignalProcessingModes</i>. When used as an output, it returns the number of elements that were written to the buffer.
 

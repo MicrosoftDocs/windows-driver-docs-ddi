@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5c08b988-2cc0-46e1-a8b5-66de840650e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, DXGK_MONITOR_INTERFACE_V2 structure [Display Devices], _DXGK_MONITOR_INTERFACE_V2, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2, display.dxgk_monitor_interface_v2
+ms.keywords: display.dxgk_monitor_interface_v2, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2, _DXGK_MONITOR_INTERFACE_V2, DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, DXGK_MONITOR_INTERFACE_V2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _DXGK_MONITOR_INTERFACE_V2 {
 
 
 
-### -field Version
+#### - Version
 
 A value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_monitor_interface_version.md">DXGK_MONITOR_INTERFACE_VERSION</a> enumeration that indicates the monitor interface version. Must be set to 2.
 
 
-### -field pfnAcquireMonitorSourceModeSet
+#### - pfnAcquireMonitorSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a> function.
 
 
-### -field pfnReleaseMonitorSourceModeSet
+#### - pfnReleaseMonitorSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releasemonitorsourcemodeset.md">pfnReleaseMonitorSourceModeSet</a> function.
 
 
-### -field pfnGetMonitorFrequencyRangeSet
+#### - pfnGetMonitorFrequencyRangeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset.md">pfnGetMonitorFrequencyRangeSet</a> function.
 
 
-### -field pfnGetMonitorDescriptorSet
+#### - pfnGetMonitorDescriptorSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset.md">pfnGetMonitorDescriptorSet</a> function.
 
 
-### -field pfnGetAdditionalMonitorModeSet
+#### - pfnGetAdditionalMonitorModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset.md">pfnGetAdditionalMonitorModeSet</a> function.
 
 
-### -field pfnReleaseAdditionalMonitorModeSet
+#### - pfnReleaseAdditionalMonitorModeSet
 
 
       A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset.md">pfnReleaseAdditionalMonitorModeSet</a> function.

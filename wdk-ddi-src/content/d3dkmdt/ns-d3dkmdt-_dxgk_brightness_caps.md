@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e01ef4c9-1374-4d60-9307-32d878759c72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_BRIGHTNESS_CAPS, d3dkmdt/DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS structure [Display Devices], display.dxgk_brightness_caps, DXGK_BRIGHTNESS_CAPS"
+ms.keywords: "_DXGK_BRIGHTNESS_CAPS, d3dkmdt/DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps, DXGK_BRIGHTNESS_CAPS structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,27 +74,27 @@ typedef struct _DXGK_BRIGHTNESS_CAPS {
 
 
 
-### -field SmoothBrightness
+#### - SmoothBrightness
 
 [in] If set, the integrated display panel supports smooth brightness control.
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
 
-### -field AdaptiveBrightness
+#### - AdaptiveBrightness
 
 [in] If set, the integrated display panel supports adaptive brightness control.
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero.
 Setting this member is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of a 32-bit value to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that <b>DXGK_BRIGHTNESS_CAPS</b> contains that can hold one 32-bit value that identifies information about the display miniport driver's brightness control capabilities.
 

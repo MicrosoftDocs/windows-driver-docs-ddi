@@ -40,7 +40,7 @@ apiname:
 -	*PMM_MDL_ROUTINE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ typedef MM_MDL_ROUTINE *PMM_MDL_ROUTINE;
 
 
 
-### -param DriverContext [in, optional]
+#### - DriverContext [in, optional]
 
 A pointer to a driver-defined context. The driver's callback function can store any status information  in the driver context and then examine the value, when the callback is invoked. 
 
 
-### -param MappedVa [in]
+#### - MappedVa [in]
 
 A pointer to a buffer that contains the system virtual address of the
         mapping.

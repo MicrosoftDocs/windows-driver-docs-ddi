@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9cc76bf7-a744-46f9-89d5-5277744221e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsInjectNetworkSendAsync0, FwpsInjectNetworkSendAsync0, netvista.fwpsinjectnetworksendasync0, FwpsInjectNetworkSendAsync0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_I_33cd70a5-56b6-4cb7-bebf-621e180aaa9b.xml
+ms.keywords: wfp_ref_2_funct_3_fwps_I_33cd70a5-56b6-4cb7-bebf-621e180aaa9b.xml, FwpsInjectNetworkSendAsync0 function [Network Drivers Starting with Windows Vista], FwpsInjectNetworkSendAsync0, netvista.fwpsinjectnetworksendasync0, fwpsk/FwpsInjectNetworkSendAsync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,14 +75,14 @@ NTSTATUS NTAPI FwpsInjectNetworkSendAsync0(
 
 
 
-### -param injectionHandle [in]
+#### - injectionHandle [in]
 
 An injection handle that was previously created by a call to the 
      <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a> function with the 
      <i>flags</i> parameter set to FWPS_INJECTION_TYPE_NETWORK.
 
 
-### -param injectionContext [in, optional]
+#### - injectionContext [in, optional]
 
 An optional handle to the injection context. If specified, it can be obtained by calling the 
      <a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a> function when the packet injection state 
@@ -90,12 +90,12 @@ An optional handle to the injection context. If specified, it can be obtained by
      <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>.
 
 
-### -param flags [in]
+#### - flags [in]
 
 Reserved. Callout drivers must set this parameter to zero.
 
 
-### -param compartmentId [in]
+#### - compartmentId [in]
 
 The identifier of the routing compartment into which the packet data is injected, specified as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff542009">COMPARTMENT_ID</a> type. This identifier is provided
@@ -109,7 +109,7 @@ The identifier of the routing compartment into which the packet data is injected
      <b>currentMetadataValues</b> member. Otherwise, set this parameter to UNSPECIFIED_COMPARTMENT_ID.
 
 
-### -param netBufferList [in, out]
+#### - netBufferList [in, out]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
@@ -120,7 +120,7 @@ A pointer to a
      IP header.
 
 
-### -param completionFn [in]
+#### - completionFn [in]
 
 A pointer to a 
      <a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a> callout function provided by
@@ -128,7 +128,7 @@ A pointer to a
      <i>NetBufferList</i> parameter, has been injected into the network stack.
 
 
-### -param completionContext [in, optional]
+#### - completionContext [in, optional]
 
 A pointer to a callout driver-provided context that is passed to the callout function pointed to
      by the 
@@ -242,29 +242,29 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 <a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
 <mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
    FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
-   FwpsAllocateCloneNetBufferList0</b></mshelp:link>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
-
-<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
-   FwpsQueryPacketInjectionState0</b></mshelp:link>
 
 <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
    FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
 
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
+   FwpsQueryPacketInjectionState0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
+   FwpsAllocateCloneNetBufferList0</b></mshelp:link>
 
  
 

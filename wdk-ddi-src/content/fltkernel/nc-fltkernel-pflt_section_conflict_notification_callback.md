@@ -72,17 +72,17 @@ NTSTATUS SectionNotificationCallback(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 An opaque instance pointer to the minifilter driver instance that is initiating the I/O operation.
 
 
-### -param SectionContext [in]
+#### - SectionContext [in]
 
 A pointer to the section context that incurred a data scan section conflict.
 
 
-### -param Data [in]
+#### - Data [in]
 
 A pointer to a caller-allocated structure that contains the callback data.
 
@@ -105,11 +105,11 @@ Certain situations can occur where holding a section open is incompatible with c
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 

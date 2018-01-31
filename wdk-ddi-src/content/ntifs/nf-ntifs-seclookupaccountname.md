@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SecLookupAccountName, SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ifsk.seclookupaccountname
+ms.keywords: ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ntifs/SecLookupAccountName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ NTSTATUS SecLookupAccountName(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 A pointer to a Unicode string that specifies the account name. Use a fully qualified string in the domain_name\user_name format to ensure that <b>SecLookupAccountName</b> finds the account in the desired domain. 
 
 
-### -param SidSize [in, out]
+#### - SidSize [in, out]
 
 A pointer to a variable that specifies the size of the <i>Sid</i> buffer. On input, this value specifies the size in bytes of the input <i>Sid</i> buffer. If the function fails because the buffer is too small or if <i>SidSize</i> is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>Sid</i>.
 
 
-### -param Sid [out]
+#### - Sid [out]
 
 A pointer to a buffer that receives the SID structure that corresponds to the account name pointed to by the <i>Name</i> parameter. If this parameter is <b>NULL</b>, <i>SidSize</i> must be zero. 
 
 
-### -param NameUse [out]
+#### - NameUse [out]
 
 A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
 

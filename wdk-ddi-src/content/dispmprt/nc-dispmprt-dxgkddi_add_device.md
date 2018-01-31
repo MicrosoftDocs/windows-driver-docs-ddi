@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiAddDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_ADD_DEVICE callback
@@ -71,12 +71,12 @@ NTSTATUS DxgkDdiAddDevice(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
 
-### -param MiniportDeviceContext [out]
+#### - MiniportDeviceContext [out]
 
 A pointer to a variable that receives a handle, created by the display miniport driver, that will represent the display adapter identified by <i>PhysicalDeviceObject</i>. The display miniport driver can return <b>NULL</b> in this parameter to indicate that it will not support the display adapter identified by <i>PhysicalDeviceObject</i>. 
 
@@ -117,9 +117,9 @@ The <i>DxgkDdiAddDevice</i> function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_remove_device.md">DxgkDdiRemoveDevice</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
  
 

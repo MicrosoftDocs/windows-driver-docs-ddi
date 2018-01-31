@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea8ba463-e8dd-4952-bcad-6fe565fe3292
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dcaps/D3DLIGHTINGCAPS, _D3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], *LPD3DLIGHTINGCAPS, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, LPD3DLIGHTINGCAPS structure pointer [Display Devices], D3DLIGHTINGCAPS, d3dcaps/LPD3DLIGHTINGCAPS, LPD3DLIGHTINGCAPS, display.d3dlightingcaps
+ms.keywords: d3dcaps/D3DLIGHTINGCAPS, _D3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], d3dcaps/LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, display.d3dlightingcaps, *LPD3DLIGHTINGCAPS, LPD3DLIGHTINGCAPS structure pointer [Display Devices], LPD3DLIGHTINGCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _D3DLIGHTINGCAPS {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure. 
 
 
-### -field dwCaps
+#### - dwCaps
 
  Specifies flags describing the capabilities of the lighting module. The following flags are defined:   
   
@@ -115,7 +115,7 @@ Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure.
 </table> 
 
 
-### -field dwLightingModel
+#### - dwLightingModel
 
  Specifies flags indicating whether the lighting model is RGB or monochrome. The following flags are defined: 
 <table>
@@ -136,7 +136,7 @@ Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure.
 </table> 
 
 
-### -field dwNumLights
+#### - dwNumLights
 
 Specifies the number of lights that can be handled.
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_SERVICE, ENUMERATOR_TYPE_MAX, ENUMERATOR_TYPE_PROTOCOL, bthddi/ENUMERATOR_TYPE_SERVICE, bthddi/PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_MAX, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], bltooth.enumerator_type, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE, *PENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], PENUMERATOR_TYPE"
+ms.keywords: bltooth.enumerator_type, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE_SERVICE, ENUMERATOR_TYPE_MAX, bthddi/PENUMERATOR_TYPE, PENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], *PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, _ENUMERATOR_TYPE, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_SERVICE, bthddi/ENUMERATOR_TYPE_MAX, ENUMERATOR_TYPE_PROTOCOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,12 +71,12 @@ typedef enum _ENUMERATOR_TYPE {
 
 
 
-### -field ENUMERATOR_TYPE_PROTOCOL
+#### - ENUMERATOR_TYPE_PROTOCOL
 
 For internal use only. Do not use.
 
 
-### -field ENUMERATOR_TYPE_SERVICE
+#### - ENUMERATOR_TYPE_SERVICE
 
 This value should be specified for profile drivers. For more information about how this value is
      used, see 
@@ -87,7 +87,7 @@ This value should be specified for profile drivers. For more information about h
 
 
 
-### -field ENUMERATOR_TYPE_MAX
+#### - ENUMERATOR_TYPE_MAX
 
 For internal use only. Do not use.
 
@@ -105,10 +105,10 @@ A value from this enumeration is returned as the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
-
 <mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link>
+
+<a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
 
  
 

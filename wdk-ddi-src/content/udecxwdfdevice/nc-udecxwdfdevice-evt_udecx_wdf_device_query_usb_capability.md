@@ -40,7 +40,7 @@ apiname:
 -	EvtUdecxWdfDeviceQueryUsbCapability
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
+req.typenames: "*PUDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ NTSTATUS EvtUdecxWdfDeviceQueryUsbCapability(
 
 
 
-### -param UdecxWdfDevice [in]
+#### - UdecxWdfDevice [in]
 
 A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
-### -param CapabilityType [in]
+#### - CapabilityType [in]
 
 Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i>  values are  as follows:
 <ul>
@@ -94,18 +94,18 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
 </ul>   For information about the capabilities, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 A pointer to a location that receives the buffer's address. Certain capabilities may need to provide additional information
         to the USB device emulation  class extension (UdeCx)  in this buffer.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 A location that, on return, contains the size, in bytes, of the information that the callback function stored in <i>OutputBuffer.</i>
 

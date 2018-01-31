@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9D5787B8-CEF4-49AA-B7C6-C200AC95A280
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_feedback_read, pepfx/PPEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture], PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ, _PEP_PPM_FEEDBACK_READ
+ms.keywords: pepfx/PEP_PPM_FEEDBACK_READ, _PEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ, kernel.pep_ppm_feedback_read, PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_FEEDBACK_READ
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ"
+req.typenames: PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ
 ---
 
 # _PEP_PPM_FEEDBACK_READ structure
@@ -89,7 +89,7 @@ typedef struct _PEP_PPM_FEEDBACK_READ {
  
 
 
-### -field CounterIndex
+#### - CounterIndex
 
 [in] The index that identifies which processor performance feedback counter to read. If the platform extension plug-in (PEP) supports N counters for this processor, counter indexes range from 0 to N-1. The PEP previously supplied the number of supported counters in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
 
@@ -130,11 +130,11 @@ Both an instantaneous counter and a relative counter are reset to zero when powe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186802">PEP_NOTIFY_PPM_FEEDBACK_READ</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186802">PEP_NOTIFY_PPM_FEEDBACK_READ</a>
 
  
 

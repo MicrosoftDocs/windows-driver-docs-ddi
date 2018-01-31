@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1951a2e8-c2f0-42bc-9deb-8d2a049817c4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CancelSentRequest method, umdf.iwdfiorequest_cancelsentrequest, CancelSentRequest, CancelSentRequest method, IWDFIoRequest interface, IWDFIoRequest::CancelSentRequest, IWDFIoRequest, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, wdf.iwdfiorequest_cancelsentrequest, wudfddi/IWDFIoRequest::CancelSentRequest, IWDFIoRequest interface, CancelSentRequest method
+ms.keywords: IWDFIoRequest interface, CancelSentRequest method, IWDFIoRequest, wdf.iwdfiorequest_cancelsentrequest, CancelSentRequest method, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, CancelSentRequest, wudfddi/IWDFIoRequest::CancelSentRequest, umdf.iwdfiorequest_cancelsentrequest, CancelSentRequest method, IWDFIoRequest interface, IWDFIoRequest::CancelSentRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.CancelSentRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -89,15 +89,15 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
  
 

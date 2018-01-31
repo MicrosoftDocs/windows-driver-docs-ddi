@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b339d6aa-71e1-4835-8ef2-a84594166bb1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], *PIO_STACK_LOCATION, kernel.io_stack_location, wdm/IO_STACK_LOCATION, IO_STACK_LOCATION, _IO_STACK_LOCATION, PIO_STACK_LOCATION, wdm/PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml
+ms.keywords: kernel.io_stack_location, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], *PIO_STACK_LOCATION, _IO_STACK_LOCATION, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_STACK_LOCATION
 product: Windows
 targetos: Windows
-req.typenames: "*PIO_STACK_LOCATION, IO_STACK_LOCATION"
+req.typenames: IO_STACK_LOCATION, *PIO_STACK_LOCATION
 req.product: Windows 10 or later.
 ---
 
@@ -274,7 +274,7 @@ typedef struct _IO_STACK_LOCATION {
 
 
 
-### -field Parameters
+#### - Parameters
 
 A union that depends on the major and minor IRP function code values contained in <b>MajorFunction</b> and <b>MinorFunction</b>. The following table shows which IRPs use the individual members of the <b>Parameters</b> union.
 <table>
@@ -428,6 +428,158 @@ A union that depends on the major and minor IRP function code values contained i
 </table> 
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550710">IRP Major Function Codes</a>.
+
+
+#### Create
+
+
+
+#### CreatePipe
+
+
+
+#### CreateMailslot
+
+
+
+#### Read
+
+
+
+#### Write
+
+
+
+#### QueryDirectory
+
+
+
+#### NotifyDirectory
+
+
+
+#### QueryFile
+
+
+
+#### SetFile
+
+
+
+#### QueryEa
+
+
+
+#### SetEa
+
+
+
+#### QueryVolume
+
+
+
+#### SetVolume
+
+
+
+#### FileSystemControl
+
+
+
+#### LockControl
+
+
+
+#### DeviceIoControl
+
+
+
+#### QuerySecurity
+
+
+
+#### SetSecurity
+
+
+
+#### MountVolume
+
+
+
+#### VerifyVolume
+
+
+
+#### Scsi
+
+
+
+#### QueryQuota
+
+
+
+#### SetQuota
+
+
+
+#### QueryDeviceRelations
+
+
+
+#### QueryInterface
+
+
+
+#### DeviceCapabilities
+
+
+
+#### FilterResourceRequirements
+
+
+
+#### ReadWriteConfig
+
+
+
+#### SetLock
+
+
+
+#### QueryId
+
+
+
+#### QueryDeviceText
+
+
+
+#### UsageNotification
+
+
+
+#### WaitWake
+
+
+
+#### PowerSequence
+
+
+
+#### Power
+
+
+
+#### StartDevice
+
+
+
+#### WMI
+
+
+
+#### Others
+
 
 
 ### -field Parameters.Create
@@ -628,6 +780,22 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetFile
+
+
+
+#### SetFile.ReplaceIfExists
+
+
+
+#### SetFile.AdvanceOnly
+
+
+
+#### SetFile.ClusterCount
+
+
+
+#### SetFile.DeleteHandle
 
 
 
@@ -1050,6 +1218,14 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+#### Power.SystemContext
+
+
+
+#### Power.SystemPowerStateContext
+
+
+
 ### -field Parameters.Power.SystemContext
 
 
@@ -1131,17 +1307,17 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
  
 
 
-### -field MajorFunction
+#### - MajorFunction
 
 The <a href="https://msdn.microsoft.com/11c5b1a9-74c0-47fb-8cce-a008ece9efae">IRP major function code</a> indicating the type of I/O operation to be performed.
 
 
-### -field MinorFunction
+#### - MinorFunction
 
 A subfunction code for <b>MajorFunction</b>. The PnP manager, the power manager, file system drivers, and SCSI class drivers set this member for some requests.
 
 
-### -field Flags
+#### - Flags
 
 Request-type-specific values used almost exclusively by file system drivers. Removable-media device drivers check whether this member is set with SL_OVERRIDE_VERIFY_VOLUME for read requests to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. Intermediate drivers layered over a removable-media device driver must copy this member into the I/O stack location of the next-lower driver in all incoming <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> requests.
 
@@ -1215,26 +1391,26 @@ than welcome to provide sector atomicity as long as there is no remapping.</div>
 
 
 
-### -field Control
+#### - Control
 
 Drivers can check this member to determine whether it is set with SL_PENDING_RETURNED. Drivers have read-only access to this member.
 
 
-### -field DeviceObject
+#### - DeviceObject
 
 A pointer to the driver-created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure representing the target physical, logical, or virtual device for which this driver is to handle the IRP.
 
 
-### -field FileObject
+#### - FileObject
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure that represents the file object, if any, that is associated with <b>DeviceObject</b> pointer. 
 
 
-### -field CompletionRoutine
+#### - CompletionRoutine
 
 
 
-### -field Context
+#### - Context
 
 
 
@@ -1257,23 +1433,23 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
-
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
 
 <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
+
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+
+<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
  
 

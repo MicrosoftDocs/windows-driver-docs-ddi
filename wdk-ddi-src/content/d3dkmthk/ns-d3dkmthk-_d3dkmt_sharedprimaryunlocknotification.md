@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 294fe805-4dce-4d0e-b0dd-9279a1ef9514
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, display.d3dkmt_sharedprimaryunlocknotification, _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml
+ms.keywords: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], display.d3dkmt_sharedprimaryunlocknotification, d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
 
 
 
-### -field AdapterLuid
+#### - AdapterLuid
 
 [in] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which the GDI shared primary surface exists.
 

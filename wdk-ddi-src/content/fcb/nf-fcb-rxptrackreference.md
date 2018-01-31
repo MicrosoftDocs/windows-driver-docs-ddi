@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxptrackreference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, fcb/RxpTrackReference, RxpTrackReference function [Installable File System Drivers], RxpTrackReference
+ms.keywords: fcb/RxpTrackReference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, ifsk.rxptrackreference, RxpTrackReference, RxpTrackReference function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID RxpTrackReference(
 
 
 
-### -param TraceType [in]
+#### - TraceType [in]
 
 The value that determines which reference request type is tracked. This value can be one of the following macros defined in <i>fcb.h</i>:
 
@@ -107,12 +107,12 @@ A reference request on an FCB structure.
 A reference request on a SRV_OPEN structure.
 
 
-### -param FileName [in]
+#### - FileName [in]
 
 The name of the source file where this routine was called.
 
 
-### -param Line [in]
+#### - Line [in]
 
 The line number in the source file where this routine was called.
 
@@ -152,17 +152,17 @@ For retail builds, this function does nothing.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
 
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
+<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
 
  
 

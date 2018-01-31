@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 29423933-c3cf-4fe4-b79c-f82718163a23
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPC_GRAPHICS, DmEnums_000ba351-38c5-4ab5-981c-15e4f44b3765.xml, D3DKMDT_VPPC_UNINITIALIZED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, display.d3dkmdt_vidpn_present_path_content, _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, D3DKMDT_VPPC_VIDEO, D3DKMDT_VPPC_NOTSPECIFIED, D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration [Display Devices], D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, d3dkmdt/D3DKMDT_VPPC_VIDEO, d3dkmdt/D3DKMDT_VPPC_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPC_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPC_GRAPHICS
+ms.keywords: D3DKMDT_VPPC_VIDEO, d3dkmdt/D3DKMDT_VPPC_VIDEO, _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration [Display Devices], D3DKMDT_VPPC_NOTSPECIFIED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, d3dkmdt/D3DKMDT_VPPC_NOTSPECIFIED, display.d3dkmdt_vidpn_present_path_content, d3dkmdt/D3DKMDT_VPPC_GRAPHICS, DmEnums_000ba351-38c5-4ab5-981c-15e4f44b3765.xml, D3DKMDT_VPPC_GRAPHICS, D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, D3DKMDT_VPPC_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPC_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT {
 
 
 
-### -field D3DKMDT_VPPC_UNINITIALIZED
+#### - D3DKMDT_VPPC_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_VIDPN_PRESENT_PATH_CONTENT has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_VPPC_GRAPHICS
+#### - D3DKMDT_VPPC_GRAPHICS
 
 Indicates that the path displays graphics content.
 
 
-### -field D3DKMDT_VPPC_VIDEO
+#### - D3DKMDT_VPPC_VIDEO
 
 Indicates that the path displays video content.
 
 
-### -field D3DKMDT_VPPC_NOTSPECIFIED
+#### - D3DKMDT_VPPC_NOTSPECIFIED
 
 Indicates that no content type has been specified.
 

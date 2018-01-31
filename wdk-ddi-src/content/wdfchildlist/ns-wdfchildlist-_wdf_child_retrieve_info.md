@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c48e7cd-e9aa-4ae7-bd44-fe16e1b0d619
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_CHILD_RETRIEVE_INFO, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, PWDF_CHILD_RETRIEVE_INFO structure pointer, wdf.wdf_child_retrieve_info, WDF_CHILD_RETRIEVE_INFO structure, PWDF_CHILD_RETRIEVE_INFO, wdfchildlist/WDF_CHILD_RETRIEVE_INFO, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml, kmdf.wdf_child_retrieve_info, *PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
+ms.keywords: wdf.wdf_child_retrieve_info, wdfchildlist/WDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO structure, PWDF_CHILD_RETRIEVE_INFO structure pointer, kmdf.wdf_child_retrieve_info, WDF_CHILD_RETRIEVE_INFO, PWDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, _WDF_CHILD_RETRIEVE_INFO, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _WDF_CHILD_RETRIEVE_INFO {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field IdentificationDescription
+#### - IdentificationDescription
 
 A pointer to a driver-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure. The driver must supply a value for this structure's <b>IdentificationDescriptionSize</b> member. 
 
@@ -88,17 +88,17 @@ If the driver is calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistre
 If the driver is calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md">WdfChildListRetrievePdo</a>, the driver must fill in the entire identification description.
 
 
-### -field AddressDescription
+#### - AddressDescription
 
 A pointer to a driver-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure. The driver must supply a value for this structure's <b>AddressDescriptionSize</b> member. The framework fills in the rest of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> when it retrieves a child from the child list. If the value of <b>AddressDescriptionSize</b> is <b>NULL</b>, address description information is not retrieved.
 
 
-### -field Status
+#### - Status
 
 A <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_child_list_retrieve_device_status.md">WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS</a>-typed value that the framework provides.
 
 
-### -field EvtChildListIdentificationDescriptionCompare
+#### - EvtChildListIdentificationDescriptionCompare
 
 A driver-supplied pointer to an <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a> callback function. 
 
@@ -118,17 +118,17 @@ To initialize a WDF_CHILD_RETRIEVE_INFO structure, the driver must call <a href=
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
 
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md">WdfChildListRetrievePdo</a>
 
 <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_child_list_retrieve_device_status.md">WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md">WdfChildListRetrievePdo</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
  
 

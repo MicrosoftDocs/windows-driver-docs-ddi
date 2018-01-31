@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cdc4aec6-45d4-4a5b-aa52-7830494a12b6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS, DmStructs_45e34e9d-e410-44f4-a41a-aad748f01688.xml, DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_FLAGS, display.dxgk_setvidpnsourceaddress_flags
+ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_FLAGS, display.dxgk_setvidpnsourceaddress_flags, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS, DmStructs_45e34e9d-e410-44f4-a41a-aad748f01688.xml, DXGK_SETVIDPNSOURCEADDRESS_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,28 +81,28 @@ typedef struct _DXGK_SETVIDPNSOURCEADDRESS_FLAGS {
 
 
 
-### -field ModeChange
+#### - ModeChange
 
 A UINT value that specifies for the driver to switch the display mode. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field FlipImmediate
+#### - FlipImmediate
 
 A UINT value that specifies for the driver to perform a flip operation that occurs without vertical sync.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field FlipOnNextVSync
+#### - FlipOnNextVSync
 
 A UINT value that specifies for the driver to perform a flip operation that occurs on the next vertical sync.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field FlipStereo
+#### - FlipStereo
 
 [in] Supported beginning with Windows 8.
 
@@ -119,7 +119,7 @@ For more requirements, see the Remarks section.
 Setting this member is equivalent to setting the    fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field FlipStereoTemporaryMono
+#### - FlipStereoTemporaryMono
 
 [in] Supported beginning with Windows 8.
 
@@ -136,7 +136,7 @@ For more requirements, see the Remarks section.
 Setting this member is equivalent to setting the    fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
 
-### -field FlipStereoPreferRight
+#### - FlipStereoPreferRight
 
 [in] Supported beginning with Windows 8.
 
@@ -149,7 +149,7 @@ For more requirements, see the Remarks section.
 Setting this member is equivalent to setting the    sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
 
-### -field SharedPrimaryTransition
+#### - SharedPrimaryTransition
 
 [in] Supported beginning with Windows 8.
 
@@ -164,7 +164,7 @@ This member is set if either of the following transitions occurs:
 Setting this member is equivalent to setting the    seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 
-### -field IndependentFlipExclusive
+#### - IndependentFlipExclusive
 
 [in] Supported beginning with Windows 10.
 
@@ -172,19 +172,19 @@ When <b>IndependentFlipExlusive</b> is set, the flip is done in the independent 
 
 
 
-### -field MoveFlip
+#### - MoveFlip
 
 [in] Supported beginning with Windows 10.
 
 When <b>MoveFlip</b> is set, the  driver is notified to use any state that has been saved from the previous flip to configure the new scanout request.
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 23 bits (0xFFFFFF00) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that DXGK_SETVIDPNSOURCEADDRESS_FLAGS contains that can hold a 32-bit value that identifies operation type. 
 
@@ -203,11 +203,11 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>
 

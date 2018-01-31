@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6765d7d5-528f-42c5-98c3-0484608a020b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changerclasssendsrbsynchronous, mcd/ChangerClassSendSrbSynchronous, ChangerClassSendSrbSynchronous, chgrclas_ad6fe2cb-20f1-404d-ad08-5bf9798de6bd.xml, ChangerClassSendSrbSynchronous routine [Storage Devices]
+ms.keywords: ChangerClassSendSrbSynchronous routine [Storage Devices], storage.changerclasssendsrbsynchronous, chgrclas_ad6fe2cb-20f1-404d-ad08-5bf9798de6bd.xml, mcd/ChangerClassSendSrbSynchronous, ChangerClassSendSrbSynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS ChangerClassSendSrbSynchronous(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the functional device object of the target device. 
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 Pointer to a partially initialized SCSI request block (SRB) to be sent to the target device. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Specifies address of the buffer that <i>Srb-&gt;</i><b>DataBuffer</b> should point to. <b>ChangerClassSendSrbSynchronous</b> creates an MDL for this buffer and passes it to the target device driver in the SRB IRP.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies length, in bytes, of the buffer. 
 
 
-### -param WriteToDevice [in]
+#### - WriteToDevice [in]
 
 Indicates a write operation when <b>TRUE</b> and read operation when <b>FALSE</b>. 
 

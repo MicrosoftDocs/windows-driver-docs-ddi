@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fd86250-a495-4628-a07b-f5c44df69c0e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeSetTargetProcessorDpc, kernel.kesettargetprocessordpc, KeSetTargetProcessorDpc, k105_a7931e50-ba41-47a0-9056-e9479ac46808.xml, KeSetTargetProcessorDpc routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeSetTargetProcessorDpc, KeSetTargetProcessorDpc routine [Kernel-Mode Driver Architecture], k105_a7931e50-ba41-47a0-9056-e9479ac46808.xml, kernel.kesettargetprocessordpc, KeSetTargetProcessorDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID KeSetTargetProcessorDpc(
 
 
 
-### -param Dpc [in, out]
+#### - Dpc [in, out]
 
 Pointer to the caller's DPC object, which <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a> already initialized.
 
 
-### -param Number [in]
+#### - Number [in]
 
 Specifies the zero-based number of the target processor on which the DPC should be queued and executed.
 
@@ -102,13 +102,13 @@ Windows 7 and later versions of Windows support processor groups. Drivers that 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
-
-<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
-
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
+
+<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
 
 <a href="..\ntddk\nf-ntddk-kesetimportancedpc.md">KeSetImportanceDpc</a>
 

@@ -40,7 +40,7 @@ apiname:
 -	pfnStartSessionKeyRefresh
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback
@@ -75,30 +75,29 @@ VOID APIENTRY* pfnStartSessionKeyRefresh(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hCryptoSession [in]
+#### - hCryptoSession [in]
 
 A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
 
 
-### -param RandomNumberSize [in, out]
+#### - RandomNumberSize [in, out]
 
 The size, in bytes, of the number in the buffer that is referenced by the <i>pRandomNumber</i> parameter.
 
 
 
-### -param *pRandomNumber
+#### - *pRandomNumber [in]
 
-
-
+A pointer to a buffer that contains the status sequence number for the random start.
 
 
 

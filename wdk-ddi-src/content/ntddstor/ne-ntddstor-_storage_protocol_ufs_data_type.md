@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A4324FAD-A925-4D65-9697-9CC2878DBE0B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_protocol_ufs_data_type, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, STORAGE_PROTOCOL_UFS_DATA_TYPE, _STORAGE_PROTOCOL_UFS_DATA_TYPE, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax, ntddstor/UfsDataTypeUnknown, ntddstor/ UfsDataTypeQueryDescriptor, UfsDataTypeMax
+ms.keywords: ntddstor/UfsDataTypeUnknown, UfsDataTypeQueryDescriptor, STORAGE_PROTOCOL_UFS_DATA_TYPE, UfsDataTypeMax, UfsDataTypeUnknown, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_UFS_DATA_TYPE, storage.storage_protocol_ufs_data_type, ntddstor/ UfsDataTypeMax, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PROTOCOL_UFS_DATA_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_PROTOCOL_UFS_DATA_TYPE, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE
+req.typenames: "*PSTORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE"
 ---
 
 # _STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration
@@ -69,17 +69,17 @@ typedef enum _STORAGE_PROTOCOL_UFS_DATA_TYPE {
 
 
 
-### -field UfsDataTypeUnknown
+#### - UfsDataTypeUnknown
 
 Unknown data type.
 
 
-### -field UfsDataTypeQueryDescriptor
+#### - UfsDataTypeQueryDescriptor
 
 Query Descriptor data type. Retrieved by command UfsSrbQueryProtocolQueryDescriptor.
 
 
-### -field UfsDataTypeMax
+#### - UfsDataTypeMax
 
 Max size of data type.
 

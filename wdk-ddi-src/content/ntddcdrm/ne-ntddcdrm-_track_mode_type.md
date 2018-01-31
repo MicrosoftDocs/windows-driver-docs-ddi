@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDDA, ntddcdrm/RawWithSubCode, YellowMode2, RawWithC2, ntddcdrm/TRACK_MODE_TYPE, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, PTRACK_MODE_TYPE, TRACK_MODE_TYPE, RawWithSubCode, _TRACK_MODE_TYPE, ntddcdrm/RawWithC2AndSubCode, *PTRACK_MODE_TYPE, XAForm2, TRACK_MODE_TYPE enumeration [Storage Devices], ntddcdrm/RawWithC2, ntddcdrm/YellowMode2, storage.track_mode_type, ntddcdrm/XAForm2, ntddcdrm/PTRACK_MODE_TYPE, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], RawWithC2AndSubCode, CDDA
+ms.keywords: ntddcdrm/RawWithSubCode, XAForm2, RawWithC2, ntddcdrm/RawWithC2AndSubCode, ntddcdrm/YellowMode2, *PTRACK_MODE_TYPE, ntddcdrm/XAForm2, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/RawWithC2, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, RawWithC2AndSubCode, _TRACK_MODE_TYPE, ntddcdrm/PTRACK_MODE_TYPE, TRACK_MODE_TYPE, RawWithSubCode, TRACK_MODE_TYPE enumeration [Storage Devices], ntddcdrm/CDDA, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], CDDA, PTRACK_MODE_TYPE, storage.track_mode_type, YellowMode2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	TRACK_MODE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: TRACK_MODE_TYPE, *PTRACK_MODE_TYPE
+req.typenames: "*PTRACK_MODE_TYPE, TRACK_MODE_TYPE"
 ---
 
 # _TRACK_MODE_TYPE enumeration
@@ -72,32 +72,32 @@ typedef enum _TRACK_MODE_TYPE {
 
 
 
-### -field YellowMode2
+#### - YellowMode2
 
 Indicates that CD-ROM mode should be used. This mode is used with read-only 120 mm Optical Data Discs (CD-ROM). For more information, see the ISO/IEC 10149 specification.
 
 
-### -field XAForm2
+#### - XAForm2
 
 Indicates that compact disc read-only memory extended architecture mode should be used. For more information see the specification for CD-ROM XA published by NV Philips and Sony Corporation.
 
 
-### -field CDDA
+#### - CDDA
 
 Indicates that digital audio information mode should be used. For more information, see the IEC 908:1987 specification.
 
 
-### -field RawWithC2AndSubCode
+#### - RawWithC2AndSubCode
 
 CD_RAW_SECTOR_WITH_C2_AND_SUBCODE_SIZE per sector
 
 
-### -field RawWithC2
+#### - RawWithC2
 
 CD_RAW_SECTOR_WITH_C2_SIZE per sector
 
 
-### -field RawWithSubCode
+#### - RawWithSubCode
 
 CD_RAW_SECTOR_WITH_SUBCODE_SIZE per sector
 

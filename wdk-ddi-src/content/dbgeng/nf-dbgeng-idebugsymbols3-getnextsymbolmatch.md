@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0de394a0-9ae8-4ac9-970b-8575bb7dcc99
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNextSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols2 interface [Windows Debugging], GetNextSymbolMatch method, GetNextSymbolMatch method [Windows Debugging], dbgeng/IDebugSymbols::GetNextSymbolMatch, IDebugSymbols interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols2::GetNextSymbolMatch, debugger.getnextsymbolmatch, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatch method, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface, GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, dbgeng/IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, IDebugSymbols3::GetNextSymbolMatch
+ms.keywords: debugger.getnextsymbolmatch, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatch method, GetNextSymbolMatch method [Windows Debugging], dbgeng/IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols2 interface [Windows Debugging], GetNextSymbolMatch method, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, IDebugSymbols::GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols3, IDebugSymbols2::GetNextSymbolMatch, GetNextSymbolMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,27 +73,27 @@ HRESULT GetNextSymbolMatch(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Specifies the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a> when the search was initialized.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, the same symbol will be returned again next time one of these methods are called (with the same handle); this can be used to determine the size of the name of the symbol.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in characters of the buffer.
 
 
-### -param MatchSize [out, optional]
+#### - MatchSize [out, optional]
 
 Receives the size in characters of the name of the symbol.  If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Offset [out, optional]
+#### - Offset [out, optional]
 
 Receives the location in the target's virtual address space of the symbol.  If <i>Offset</i> is <b>NULL</b>, this information is not returned.
 
@@ -155,15 +155,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fafb1b1f-409d-4eab-a5dd-22fd1ab830d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, display.d3dddiarg_dxvahd_createvideoprocessor, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure [Display Devices], _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, UMDisplayDriver_param_Structs_c2d925e2-646c-46dc-9795-1a885aa64a02.xml
+ms.keywords: display.d3dddiarg_dxvahd_createvideoprocessor, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, UMDisplayDriver_param_Structs_c2d925e2-646c-46dc-9795-1a885aa64a02.xml, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure [Display Devices], _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR {
 
 
 
-### -field pVPGuid
+#### - pVPGuid
 
 [in] A pointer to the GUID that represents a DirectX VA video processor to create. The Microsoft Direct3D runtime can call the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function to query (D3DDDICAPS_DXVAHD_GETVPCAPS) for the capabilities of the video processors that the driver supports. Each <b>VPGuid</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a> structure in the array that the driver's <b>GetCaps</b> returns specifies a video processor that the driver supports.  
 
 
-### -field hVideoProcessor
+#### - hVideoProcessor
 
 [out] A handle to the video processor. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the video processor in subsequent calls. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
 
  
 

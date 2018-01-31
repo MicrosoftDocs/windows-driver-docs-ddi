@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8534d6bd-c959-4088-8227-51710fe721cf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idarg_in_getmoveregions, IDARG_IN_GETMOVEREGIONS, IDARG_IN_GETMOVEREGIONS structure [Display Devices], iddcx/IDARG_IN_GETMOVEREGIONS
+ms.keywords: iddcx/IDARG_IN_GETMOVEREGIONS, IDARG_IN_GETMOVEREGIONS, display.idarg_in_getmoveregions, IDARG_IN_GETMOVEREGIONS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct IDARG_IN_GETMOVEREGIONS {
 
 
 
-### -field MoveRegionInCount
+#### - MoveRegionInCount
 
 
                      [in] Number of move regions in the <b>pMoveRegions</b> array
                  
 
 
-### -field pMoveRegions
+#### - pMoveRegions
 
 
                      [out] Pointer to the buffer where the OS can copy the move regions.

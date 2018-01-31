@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8d49d61-f15e-4972-bcd2-d20f1be5786c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR, _TRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], wdm/TRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR, *PTRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml
+ms.keywords: TRANSACTION_ENLISTMENT_PAIR, *PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_ENLISTMENT_PAIR, wdm/TRANSACTION_ENLISTMENT_PAIR, _TRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _TRANSACTION_ENLISTMENT_PAIR {
 
 
 
-### -field EnlistmentId
+#### - EnlistmentId
 
 A GUID that KTM has assigned to the enlistment.
 
 
-### -field ResourceManagerId
+#### - ResourceManagerId
 
 A GUID that KTM has assigned to the resource manager that created the enlistment.
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 627DA82C-CD51-4FA0-80C2-03F7FA26C0CF
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX structure pointer [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, acpi.acpi_eval_input_buffer_simple_string_v2_ex, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX structure [ACPI Devices], acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX
+ms.keywords: acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, acpi.acpi_eval_input_buffer_simple_string_v2_ex, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX structure [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX structure pointer [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX"
+req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX structure
@@ -71,7 +71,7 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX {
 
 
 
-### -field Signature
+#### - Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 
@@ -81,7 +81,7 @@ Defines the <b>ULONG</b> member <b>Signature</b>.
  
 
 
-### -field StringLength
+#### - StringLength
 
 Defines the <b>ULONG</b> member <b>StringLength</b>.
 

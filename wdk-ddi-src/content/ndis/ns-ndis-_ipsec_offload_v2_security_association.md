@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2c5611e-930d-41a5-a07e-7de8f8584283
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ipsec_offload_v2_security_association, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml, ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ms.keywords: ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, netvista.ipsec_offload_v2_security_association
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 product: Windows
 targetos: Windows
-req.typenames: "*PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION"
+req.typenames: IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 ---
 
 # _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure
@@ -75,7 +75,7 @@ typedef struct _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION {
 
 
 
-### -field Flags
+#### - Flags
 
 A set of flags that can be combined with a bitwise OR operation. Otherwise, set this member to
      zero. The following values are valid:
@@ -89,26 +89,26 @@ A set of flags that can be combined with a bitwise OR operation. Otherwise, set 
 Specifies ESN SA.
 
 
-### -field Operation
+#### - Operation
 
 The IPsec operation for which the SA is to be used. The 
      <mshelp:link keywords="netvista.ipsec_offload_v2_operation" tabindex="0"><b>
      IPSEC_OFFLOAD_V2_OPERATION</b></mshelp:link> enumeration defines the supported operations.
 
 
-### -field Spi
+#### - Spi
 
 A 32 bit security parameters index (SPI) for the SA.
 
 
-### -field AuthenticationAlgorithm
+#### - AuthenticationAlgorithm
 
 The integrity (authentication) algorithm for the SA, formatted as an 
      <mshelp:link keywords="netvista.ipsec_offload_v2_algorithm_info" tabindex="0"><b>
      IPSEC_OFFLOAD_V2_ALGORITHM_INFO</b></mshelp:link> structure.
 
 
-### -field EncryptionAlgorithm
+#### - EncryptionAlgorithm
 
 The confidentiality (encryption/decryption) algorithm for the SA, formatted as an
      IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure. 
@@ -118,7 +118,7 @@ The confidentiality (encryption/decryption) algorithm for the SA, formatted as a
      <b>AuthenticationAlgorithm</b> member of IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, and the key length and
      offset in IPSEC_OFFLOAD_V2_ALGORITHM_INFO, should not be used.</div><div> </div>
 
-### -field SequenceNumberHighOrder
+#### - SequenceNumberHighOrder
 
 The sequence number high-order extension. This sequence number high-order extension is defined in
      RFC 4304. This member represents the high-order portion of the sequence number that is not included in
@@ -157,12 +157,12 @@ A
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
-
 <a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
 
 <mshelp:link keywords="netvista.ipsec_offload_v2_algorithm_info" tabindex="0"><b>
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
  
 

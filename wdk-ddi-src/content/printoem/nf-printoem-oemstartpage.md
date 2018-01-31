@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 86cee994-2dfe-4eaf-906b-ce6d9051399e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMStartPage, printoem/OEMStartPage, OEMStartPage function [Print Devices], print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, print.oemstartpage
+ms.keywords: OEMStartPage function [Print Devices], print.oemstartpage, print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, printoem/OEMStartPage, OEMStartPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,6 +68,6 @@ BOOL APIENTRY OEMStartPage(
 
 
 
-### -param pso
+#### - pso
 
 

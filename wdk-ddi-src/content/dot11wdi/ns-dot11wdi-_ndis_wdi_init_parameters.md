@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 871D266C-55DF-4113-9714-92AB129303E5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_WDI_INIT_PARAMETERS, netvista.ndis_wdi_init_parameters, PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS, dot11wdi/PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS"
+ms.keywords: NDIS_WDI_INIT_PARAMETERS, PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], dot11wdi/PNDIS_WDI_INIT_PARAMETERS, _NDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, PNDIS_WDI_INIT_PARAMETERS, netvista.ndis_wdi_init_parameters, *PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_WDI_INIT_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -93,7 +93,7 @@ Set the
         <b>Size</b> member to NDIS_SIZEOF_WDI_INIT_PARAMETERS_REVISION_1.
 
 
-### -field WdiVersion
+#### - WdiVersion
 
 The version of WDI used by the driver. Set this member to one of the following values:
 
@@ -105,22 +105,22 @@ The version of WDI used by the driver. Set this member to one of the following v
 WDI version 1.0
 
 
-### -field OpenAdapterCompleteHandler
+#### - OpenAdapterCompleteHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_open_adapter_complete.md">NdisWdiOpenAdapterComplete</a> callback function.
 
 
-### -field CloseAdapterCompleteHandler
+#### - CloseAdapterCompleteHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">NdisWdiCloseAdapterComplete</a> callback function.
 
 
-### -field UeIdleNotificationConfirm
+#### - UeIdleNotificationConfirm
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_idle_notification_confirm.md">NdisWdiIdleNotificationConfirm</a> callback function.
 
 
-### -field UeIdleNotificationComplete
+#### - UeIdleNotificationComplete
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_idle_notification_complete.md">NdisWdiIdleNotificationComplete</a> callback function.
 

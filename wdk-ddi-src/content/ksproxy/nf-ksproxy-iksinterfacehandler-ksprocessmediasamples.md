@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, stream.iksinterfacehandler_ksprocessmediasamples, IKsInterfaceHandler::KsProcessMediaSamples, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method, KsProcessMediaSamples
+ms.keywords: KsProcessMediaSamples, stream.iksinterfacehandler_ksprocessmediasamples, IKsInterfaceHandler, IKsInterfaceHandler::KsProcessMediaSamples, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method, KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, KsProcessMediaSamples method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT KsProcessMediaSamples(
 
 
 
-### -param KsDataTypeHandler [in]
+#### - KsDataTypeHandler [in]
 
 Pointer to the <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a> interface for the data type handler that handles the type of media listed at <i>SampleList</i>. This data type handler has specific information about the media type being streamed.
 
 
-### -param SampleList [in]
+#### - SampleList [in]
 
 Pointer to a buffer that contains an array of pointers to the <b>IMediaSample</b> interfaces for the list of media samples to process. 
 
 
-### -param SampleCount [in, out]
+#### - SampleCount [in, out]
 
 Pointer to a variable that initially contains the number of samples in the list at <i>SampleList</i> and, on return, receives the actual number of samples processed.
 
 
-### -param IoOperation [in]
+#### - IoOperation [in]
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 <table>
@@ -117,7 +117,7 @@ Read data from stream.
 </table> 
 
 
-### -param StreamSegment [out]
+#### - StreamSegment [out]
 
 Pointer to a buffer that receives a pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment that is sent to the kernel-mode pin. 
 
@@ -144,9 +144,9 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-
 <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue, KeRemoveQueue
+ms.keywords: ntifs/KeRemoveQueue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, KeRemoveQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PLIST_ENTRY KeRemoveQueue(
 
 
 
-### -param Queue [in, out]
+#### - Queue [in, out]
 
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
 
-### -param WaitMode [in]
+#### - WaitMode [in]
 
 The processor mode in which the caller is waiting, which can be either <b>KernelMode</b> or <b>UserMode</b>. If anything on its stack might be accessed at IRQL &gt;= DISPATCH_LEVEL, the caller must specify <b>KernelMode</b>. 
 
 
-### -param Timeout [in, optional]
+#### - Timeout [in, optional]
 
 Pointer to a variable that specifies the absolute or relative time, in units of 100 nanoseconds, at which the wait is to expire. If the value of <i>Timeout</i> is negative, the expiration time is relative to the current system time; otherwise, it is absolute. Absolute expiration times track any changes in system time; relative expiration times are not affected by system time changes. This pointer can be <b>NULL</b>. 
 

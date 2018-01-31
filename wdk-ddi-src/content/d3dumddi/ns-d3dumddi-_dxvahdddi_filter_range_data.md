@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 46f5ee68-ed1a-4da4-b761-60157efb3252
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, _DXVAHDDDI_FILTER_RANGE_DATA, display.dxvahdddi_filter_range_data, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], DXVAHDDDI_FILTER_RANGE_DATA
+ms.keywords: "_DXVAHDDDI_FILTER_RANGE_DATA, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, display.dxvahdddi_filter_range_data, DXVAHDDDI_FILTER_RANGE_DATA, DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct _DXVAHDDDI_FILTER_RANGE_DATA {
 
 
 
-### -field Minimum
+#### - Minimum
 
 
       [in] An <b>INT</b> that specifies the minimum value in the filter range. 
      
 
 
-### -field Maximum
+#### - Maximum
 
 [in] An <b>INT</b> that specifies the maximum value in the filter range. 
 
 
-### -field Default
+#### - Default
 
 [in] An <b>INT</b> that specifies the default value for the filter range. 
 
 
-### -field Multiplier
+#### - Multiplier
 
 [in] A <b>FLOAT</b> value that specifies a multiplier to calculate the actual filter value. 
 

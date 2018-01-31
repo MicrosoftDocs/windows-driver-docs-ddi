@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.unifontobj, PUNIFONTOBJ structure pointer [Print Devices], print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, *PUNIFONTOBJ, PUNIFONTOBJ, printoem/UNIFONTOBJ, _UNIFONTOBJ, UNIFONTOBJ, printoem/PUNIFONTOBJ, UNIFONTOBJ structure [Print Devices]
+ms.keywords: "_UNIFONTOBJ, printoem/PUNIFONTOBJ, printoem/UNIFONTOBJ, UNIFONTOBJ, PUNIFONTOBJ, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, *PUNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], UNIFONTOBJ structure [Print Devices], print.unifontobj"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UNIFONTOBJ
 product: Windows
 targetos: Windows
-req.typenames: UNIFONTOBJ, *PUNIFONTOBJ
+req.typenames: "*PUNIFONTOBJ, UNIFONTOBJ"
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ typedef struct _UNIFONTOBJ {
 
 
 
-### -field ulFontID
+#### - ulFontID
 
 Specifies a resource identifier for an RC_UFM resource contained in a Unidrv minidriver's resource DLL. Supplied by Unidrv.
 
 
-### -field dwFlags
+#### - dwFlags
 
 Is a set of Unidrv-supplied bit flags. Flag definitions are as follows:
 <table>
@@ -161,12 +161,12 @@ If set, the device font is a font substituted for the TrueType font. In the font
 </table> 
 
 
-### -field pIFIMetrics
+#### - pIFIMetrics
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a> structure. Supplied by Unidrv.
 
 
-### -field pfnGetInfo
+#### - pfnGetInfo
 
 Pointer to Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function. Supplied by Unidrv.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 576193fc-756f-40fb-abdd-65c088687cb5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide, GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, IDebugSymbols3, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide, IDebugSymbols3::GetOffsetByNameWide
+ms.keywords: debugger.getoffsetbynamewide, GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide, GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, dbgeng/IDebugSymbols3::GetOffsetByNameWide, IDebugSymbols3, IDebugSymbols3::GetOffsetByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetOffsetByNameWide(
 
 
 
-### -param Symbol [in]
+#### - Symbol [in]
 
 Specifies the name of the symbol to locate.  The name may be qualified by a module name (for example, <b>mymodule!main</b>).
 
 
-### -param Offset [out]
+#### - Offset [out]
 
 Receives the location in the target's memory address space of the base of the symbol's memory allocation.
 

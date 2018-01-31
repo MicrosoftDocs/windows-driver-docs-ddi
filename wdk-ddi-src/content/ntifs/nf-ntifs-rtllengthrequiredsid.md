@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d6aa888-8e61-4a0e-88ea-13842fc2fff2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlLengthRequiredSid, ifsk.rtllengthrequiredsid, ntifs/RtlLengthRequiredSid, rtlref_78e8a660-8510-40bc-b221-747538423488.xml, RtlLengthRequiredSid routine [Installable File System Drivers]
+ms.keywords: ifsk.rtllengthrequiredsid, ntifs/RtlLengthRequiredSid, RtlLengthRequiredSid, RtlLengthRequiredSid routine [Installable File System Drivers], rtlref_78e8a660-8510-40bc-b221-747538423488.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG RtlLengthRequiredSid(
 
 
 
-### -param SubAuthorityCount [in]
+#### - SubAuthorityCount [in]
 
 The number of subauthorities to be stored in the SID. 
 
@@ -89,19 +89,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+
 <a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
 <a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
 
+<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+
 <a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
-
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
 
  
 

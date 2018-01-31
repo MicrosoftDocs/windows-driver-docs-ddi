@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C549B9C7-221D-4DD8-9D8D-24BC729099C7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbconvertvmbushandletokernelhandle, VmbConvertVmbusHandleToKernelHandle function [Network Drivers Starting with Windows Vista], VmbConvertVmbusHandleToKernelHandle, vmbuskernelmodeclientlibapi/VmbConvertVmbusHandleToKernelHandle
+ms.keywords: VmbConvertVmbusHandleToKernelHandle function [Network Drivers Starting with Windows Vista], VmbConvertVmbusHandleToKernelHandle, vmbuskernelmodeclientlibapi/VmbConvertVmbusHandleToKernelHandle, netvista.vmbconvertvmbushandletokernelhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbConvertVmbusHandleToKernelHandle
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -71,13 +71,13 @@ NTSTATUS VmbConvertVmbusHandleToKernelHandle(
 
 
 
-### -param VmbusHandle [in]
+#### - VmbusHandle [in]
 
 The user-mode handle to convert. This must have been was opened in the virtual machine worker process.
 
 
 
-### -param KernelHandle [out]
+#### - KernelHandle [out]
 
 The kernel handle that references the same object as the <i>VmbusHandle</i> value.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1ad13196-a133-4168-9a36-1f7e4ed5c4f1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadBuffer method [Windows Debugging], ReadBuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method, ExtRemoteData, debugger.extremotedata_readbuffer, ReadBuffer method [Windows Debugging], ExtRemoteData class, ExtRemoteData::ReadBuffer, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml
+ms.keywords: ReadBuffer method [Windows Debugging], ExtRemoteData class, ExtRemoteData::ReadBuffer, debugger.extremotedata_readbuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method, ReadBuffer, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ReadBuffer method [Windows Debugging], ExtRemoteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.ReadBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteData::ReadBuffer method
@@ -69,17 +69,17 @@ ULONG ReadBuffer(
 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer that receives the data read from the target.
 
 
-### -param Bytes [in]
+#### - Bytes [in]
 
 Specifies the number of bytes to read.  The <i>Buffer</i> buffer must be at least this size.
 
 
-### -param MustReadAll [in]
+#### - MustReadAll [in]
 
 Specifies what happens if the debugger engine is unable to read all the data from the target.  If <i>MustReadAll</i> is <code>true</code> and the debugger engine is unable to read <i>Bytes</i> bytes from the target, an <b>ExtRemoteException</b> will be thrown.  If <i>MustReadAll</i>  is <code>false</code>, no exception will be thrown if the engine is unable to read the requested number of bytes from the target.
 

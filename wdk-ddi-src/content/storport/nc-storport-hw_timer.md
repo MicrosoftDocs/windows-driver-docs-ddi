@@ -71,7 +71,7 @@ VOID HwStorTimer(
 
 
 
-### -param DeviceExtension
+#### - DeviceExtension
 
 A pointer to the miniport driver's per HBA storage area.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ab095bc4-b896-4c8b-a778-714952fd41d4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyRead, CcCopyRead routine [Installable File System Drivers], ifsk.cccopyread, ntifs/CcCopyRead, ccref_76dde6ff-ccd7-4d90-a744-9d2c05624b00.xml
+ms.keywords: ccref_76dde6ff-ccd7-4d90-a744-9d2c05624b00.xml, CcCopyRead routine [Installable File System Drivers], CcCopyRead, ifsk.cccopyread, ntifs/CcCopyRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,32 +72,32 @@ BOOLEAN CcCopyRead(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a file object for the cached file from which the data is to be read.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length in bytes of the data to be read.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a buffer into which the data is to be copied. 
 
 
-### -param IoStatus [out]
+#### - IoStatus [out]
 
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
@@ -126,17 +126,17 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
 
 <a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
+<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e202a292-df26-4829-be51-b8427d2dee20
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_SendRPS_OUT, SM_SendRPS_OUT, storage.sm_sendrps_out, SM_SendRPS_OUT structure [Storage Devices], structs-Fibre_6aad3070-5819-4742-87c6-f5c3b50b4f9b.xml, hbapiwmi/PSM_SendRPS_OUT, *PSM_SendRPS_OUT, PSM_SendRPS_OUT structure pointer [Storage Devices], _SM_SendRPS_OUT, PSM_SendRPS_OUT
+ms.keywords: storage.sm_sendrps_out, PSM_SendRPS_OUT structure pointer [Storage Devices], _SM_SendRPS_OUT, SM_SendRPS_OUT structure [Storage Devices], SM_SendRPS_OUT, hbapiwmi/SM_SendRPS_OUT, *PSM_SendRPS_OUT, hbapiwmi/PSM_SendRPS_OUT, PSM_SendRPS_OUT, structs-Fibre_6aad3070-5819-4742-87c6-f5c3b50b4f9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendRPS_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendRPS_OUT, SM_SendRPS_OUT"
+req.typenames: SM_SendRPS_OUT, *PSM_SendRPS_OUT
 ---
 
 # _SM_SendRPS_OUT structure
@@ -70,22 +70,22 @@ typedef struct _SM_SendRPS_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-### -field TotalRespBufferSize
+#### - TotalRespBufferSize
 
 The size, in bytes, of the results common transport (CT) command.
 
 
-### -field OutRespBufferSize
+#### - OutRespBufferSize
 
 The size, in bytes, of the data that was actually retrieved.
 
 
-### -field RespBuffer
+#### - RespBuffer
 
 The results of the common transport command.
 

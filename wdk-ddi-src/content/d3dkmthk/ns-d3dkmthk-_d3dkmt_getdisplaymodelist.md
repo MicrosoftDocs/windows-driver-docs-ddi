@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETDISPLAYMODELIST structure [Display Devices], _D3DKMT_GETDISPLAYMODELIST, D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, display.d3dkmt_getdisplaymodelist, OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml
+ms.keywords: OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, _D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, display.d3dkmt_getdisplaymodelist, D3DKMT_GETDISPLAYMODELIST structure [Display Devices], D3DKMT_GETDISPLAYMODELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_GETDISPLAYMODELIST {
 
 
 
-### -field hAdapter
+#### - hAdapter
 
 [in] A handle to the graphics adapter.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display modes apply to.
 
 
-### -field pModeList
+#### - pModeList
 
 [out] An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
 
 
-### -field ModeCount
+#### - ModeCount
 
 [in/out] The number of display modes in the array that <b>pModeList</b> specifies.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: efc9eb0e-0e83-46db-a450-79b9472fedff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmMapIoSpace, MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmmapiospace, k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml
+ms.keywords: MmMapIoSpace, kernel.mmmapiospace, k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, MmMapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmMapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ PVOID MmMapIoSpace(
 
 
 
-### -param PhysicalAddress [in]
+#### - PhysicalAddress [in]
 
 Specifies the starting physical address of the I/O range to be mapped.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range.
 
@@ -105,13 +105,13 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
-
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
-<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
+<a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
 
  
 

@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_DISPLAYDETECTCONTROL(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 A handle that identifies the adapter.
 
 
-### -param pDisplayDetectControl [in]
+#### - pDisplayDetectControl [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_displaydetectcontrol.md">DXGKARG_DISPLAYDETECTCONTROL</a> structure that describes the detection action which is requested.
 

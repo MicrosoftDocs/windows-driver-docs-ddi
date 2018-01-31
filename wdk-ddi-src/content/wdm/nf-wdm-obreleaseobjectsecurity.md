@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.obreleaseobjectsecurity, k107_b43166d5-3dac-420a-803e-053b272d3405.xml, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], wdm/ObReleaseObjectSecurity, ObReleaseObjectSecurity
+ms.keywords: kernel.obreleaseobjectsecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], wdm/ObReleaseObjectSecurity, ObReleaseObjectSecurity, k107_b43166d5-3dac-420a-803e-053b272d3405.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID ObReleaseObjectSecurity(
 
 
 
-### -param SecurityDescriptor [in]
+#### - SecurityDescriptor [in]
 
 Pointer to the buffered <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> to be released. The caller obtained this parameter from <b>ObGetObjectSecurity</b>
 
 
-### -param MemoryAllocated [in]
+#### - MemoryAllocated [in]
 
 Specifies the value also obtained from <b>ObGetObjectSecurity</b>. 
 

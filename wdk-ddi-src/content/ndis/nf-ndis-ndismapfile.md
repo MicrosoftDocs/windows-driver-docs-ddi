@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 965bb4c7-826d-425b-b10d-2d5a29ca0f91
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista], ndis/NdisMapFile, VOID, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, netvista.ndismapfile
+ms.keywords: ndis/NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, NdisMapFile, netvista.ndismapfile, VOID, NdisMapFile function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisMapFile(
 
 
 
-### -param Status [out]
+#### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the mapping
      operation, which can be one of the following:
@@ -92,13 +92,13 @@ The caller has exclusive access to the file contents until the
 The caller cannot access the file contents at this time.
 
 
-### -param MappedBuffer [out]
+#### - MappedBuffer [out]
 
 A pointer to a caller-supplied variable in which this function returns the base virtual address of
      the mapped file contents or <b>NULL</b>.
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 The handle that was returned by a preceding call to the 
      <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
@@ -136,11 +136,11 @@ A miniport driver can call
 
 <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
 
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

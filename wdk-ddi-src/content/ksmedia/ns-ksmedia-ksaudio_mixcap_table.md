@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 508d73f6-1660-4663-87f5-8dbd1dff153a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAUDIO_MIXCAP_TABLE, audio.ksaudio_mixcap_table, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], ksmedia/KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE, aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, *PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE
+ms.keywords: PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, *PKSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE, audio.ksaudio_mixcap_table, KSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE, ksmedia/KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field InputChannels
+#### - InputChannels
 
 Specifies the number of input channels.
 
 
-### -field OutputChannels
+#### - OutputChannels
 
 Specifies the number of output channels.
 
 
-### -field Capabilities
+#### - Capabilities
 
 Contains the first entry in a two-dimensional array of <a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a> structures. Given a supermixer node with <i>m</i> input channels and <i>n</i> output channels, the array contains <i>m</i>*<i></i> elements. Each element describes the mix-level capabilities of the path from a particular input channel to a particular output channel.
 
@@ -187,13 +187,13 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: be1eb547-f824-4d6d-818f-8ac1740d1d24
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemui_getinfo, GetInfo, IPrintOemUI, prcomoem/IPrintOemUI::GetInfo, IPrintOemUI interface [Print Devices], GetInfo method, print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml, GetInfo method [Print Devices], IPrintOemUI interface, GetInfo method [Print Devices], IPrintOemUI::GetInfo
+ms.keywords: print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml, IPrintOemUI, GetInfo, GetInfo method [Print Devices], IPrintOemUI interface, IPrintOemUI::GetInfo, prcomoem/IPrintOemUI::GetInfo, print.iprintoemui_getinfo, IPrintOemUI interface [Print Devices], GetInfo method, GetInfo method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ STDMETHOD GetInfo(
 
 
 
-### -param dwMode
+#### - dwMode
 
 Contains one of the following caller-supplied integer constants.
 
@@ -97,17 +97,17 @@ The method must return a unique four-byte identification signature. The plug-in 
 The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
 
 
-### -param pBuffer
+#### - pBuffer
 
 Caller-supplied pointer to memory allocated to receive the information specified by <i>dwMode</i>.
 
 
-### -param cbSize
+#### - cbSize
 
 Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded
+#### - pcbNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pBuffer</i>.
 

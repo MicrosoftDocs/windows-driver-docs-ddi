@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: A1287386-E831-474A-858C-89787741FD57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.pos_cx_attributes_init, poscx/POS_CX_ATTRIBUTES_INIT, POS_CX_ATTRIBUTES_INIT, POS_CX_ATTRIBUTES_INIT function
+ms.keywords: POS_CX_ATTRIBUTES_INIT function, pos.pos_cx_attributes_init, poscx/POS_CX_ATTRIBUTES_INIT, POS_CX_ATTRIBUTES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID POS_CX_ATTRIBUTES_INIT(
 
 
 
-### -param PosCxAttrPtr [out]
+#### - PosCxAttrPtr [out]
 
 A pointer to the caller-allocated <a href="..\poscx\ns-poscx-_pos_cx_attributes.md">POS_CX_ATTRIBUTE</a> structure to initialize.
 
@@ -82,9 +82,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\poscx\ns-poscx-_pos_cx_attributes.md">POS_CX_ATTRIBUTE</a>
-
 <a href="..\poscx\nf-poscx-poscxinit.md">PosCxInit</a>
+
+<a href="..\poscx\ns-poscx-_pos_cx_attributes.md">POS_CX_ATTRIBUTE</a>
 
  
 

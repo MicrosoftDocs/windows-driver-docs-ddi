@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b697241-6411-4fb0-b633-502233f2d155
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSetGenerationalGuid_OUT, SetGenerationalGuid_OUT structure [Storage Devices], _SetGenerationalGuid_OUT, storage.setgenerationalguid_out, structs-iSCSI_80d71c4a-f542-4b19-9bbe-b1e8e7cc21cd.xml, iscsiop/PSetGenerationalGuid_OUT, PSetGenerationalGuid_OUT structure pointer [Storage Devices], PSetGenerationalGuid_OUT, SetGenerationalGuid_OUT, iscsiop/SetGenerationalGuid_OUT"
+ms.keywords: PSetGenerationalGuid_OUT structure pointer [Storage Devices], structs-iSCSI_80d71c4a-f542-4b19-9bbe-b1e8e7cc21cd.xml, PSetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT, SetGenerationalGuid_OUT structure [Storage Devices], SetGenerationalGuid_OUT, storage.setgenerationalguid_out, _SetGenerationalGuid_OUT, iscsiop/PSetGenerationalGuid_OUT, iscsiop/SetGenerationalGuid_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetGenerationalGuid_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSetGenerationalGuid_OUT, SetGenerationalGuid_OUT"
+req.typenames: SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT
 ---
 
 # _SetGenerationalGuid_OUT structure
@@ -67,7 +67,7 @@ typedef struct _SetGenerationalGuid_OUT {
 
 
 
-### -field Status
+#### - Status
 
 On output, the status of the <b>SetGenerationalGuid</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 
@@ -83,9 +83,9 @@ You must implement this method.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
 
-<a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_in.md">SetGenerationalGuid_IN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_in.md">SetGenerationalGuid_IN</a>
 
  
 

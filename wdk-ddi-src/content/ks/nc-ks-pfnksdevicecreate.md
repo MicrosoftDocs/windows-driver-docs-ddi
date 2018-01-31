@@ -70,7 +70,7 @@ NTSTATUS AVStrMiniDeviceAdd(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 Pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure describing the functional device object (FDO) that has just been created.
 

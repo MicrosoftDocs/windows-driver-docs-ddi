@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D7EF9B82-5156-4F27-AA52-94C113C81D3A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxusbdeviceinitsetspeed, UdecxUsbDeviceInitSetSpeed function [Buses], UdecxUsbDeviceInitSetSpeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed
+ms.keywords: udecxusbdevice/UdecxUsbDeviceInitSetSpeed, UdecxUsbDeviceInitSetSpeed function [Buses], UdecxUsbDeviceInitSetSpeed, buses.udecxusbdeviceinitsetspeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceInitSetSpeed
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ FORCEINLINE void UdecxUsbDeviceInitSetSpeed(
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
+#### - UdecxUsbDeviceInit [in, out]
 
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param UsbDeviceSpeed [in]
+#### - UsbDeviceSpeed [in]
 
 A <a href="..\udecxusbdevice\ne-udecxusbdevice-_udecx_usb_device_speed.md">UDECX_USB_DEVICE_SPEED</a>-type value that indicates the USB speed to set.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PLogoutFromTarget_IN, _LogoutFromTarget_IN, storage.logoutfromtarget_in, iscsiop/LogoutFromTarget_IN, PLogoutFromTarget_IN structure pointer [Storage Devices], structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, *PLogoutFromTarget_IN, LogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], iscsiop/PLogoutFromTarget_IN
+ms.keywords: PLogoutFromTarget_IN structure pointer [Storage Devices], _LogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, *PLogoutFromTarget_IN, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, storage.logoutfromtarget_in, iscsiop/LogoutFromTarget_IN, PLogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], LogoutFromTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LogoutFromTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: LogoutFromTarget_IN, *PLogoutFromTarget_IN
+req.typenames: "*PLogoutFromTarget_IN, LogoutFromTarget_IN"
 ---
 
 # _LogoutFromTarget_IN structure
@@ -67,7 +67,7 @@ typedef struct _LogoutFromTarget_IN {
 
 
 
-### -field UniqueSessionId
+#### - UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in the <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
 
@@ -81,13 +81,13 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 <a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_out.md">LogoutFromTarget_OUT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
  
 

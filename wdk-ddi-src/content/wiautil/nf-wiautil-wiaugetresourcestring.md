@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b042702a-46ff-4ec9-8a92-af8516802e64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/wiauGetResourceString, wiauGetResourceString, wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml, image.wiaugetresourcestring, wiauGetResourceString function [Imaging Devices]
+ms.keywords: wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml, wiauGetResourceString function [Imaging Devices], wiauGetResourceString, image.wiaugetresourcestring, wiautil/wiauGetResourceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT _stdcall wiauGetResourceString(
 
 
 
-### -param hInst
+#### - hInst
 
 Specifies the handle of the module instance.
 
 
-### -param lResourceID
+#### - lResourceID
 
 Specifies the resource ID of the target BSTR value.
 
 
-### -param pbstrStr [out]
+#### - pbstrStr [out]
 
 Points to the memory location that receives the retrieved string. The caller of this function must free this string by calling <b>SysFreeString</b> (described in the Microsoft Windows SDK documentation).
 

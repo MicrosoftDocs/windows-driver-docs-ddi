@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], 1394/IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet"
+ms.keywords: IEEE.irb_req_send_phy_packet, 1394/IRB_REQ_SEND_PHY_PACKET, _IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], IRB_REQ_SEND_PHY_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _IRB_REQ_SEND_PHY_PACKET {
 
 
 
-### -field Flags
+#### - Flags
 
 Specifies any nondefault settings for this operation. Set to ASYNC_FLAGS_NO_STATUS to always return success from the send PHY packet operation, regardless of whether the send PHY packet succeeds or fails.
 
 
-### -field GenerationCount
+#### - GenerationCount
 
 Specifies the bus reset generation as known by the device driver that submits this request. If the specified generation count does not match the actual generation of the bus, this request is returned with a status of STATUS_INVALID_GENERATION.
 
 
-### -field PhyPacket
+#### - PhyPacket
 
 Specifies the 64-bit PHY packet that is sent to the 1394 bus.
 

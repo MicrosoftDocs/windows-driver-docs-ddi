@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38BE4F80-DEF2-486B-8A37-BCFD7626325D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtllongtoint8, RtlLongToInt8 function [Kernel-Mode Driver Architecture], RtlLongToInt8, ntintsafe/RtlLongToInt8
+ms.keywords: RtlLongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongtoint8, RtlLongToInt8, ntintsafe/RtlLongToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlLongToInt8(
 
 
 
-### -param lOperand [in]
+#### - lOperand [in]
 
 The value to be converted.
 
 
-### -param pi8Result [out]
+#### - pi8Result [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

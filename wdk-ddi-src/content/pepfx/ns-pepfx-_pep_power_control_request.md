@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E6665E96-5C58-4533-906A-D9525BA6824C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], pepfx/PPEP_POWER_CONTROL_REQUEST, pepfx/PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], PEP_POWER_CONTROL_REQUEST, _PEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST, kernel.pep_power_control_request
+ms.keywords: kernel.pep_power_control_request, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_REQUEST, pepfx/PEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _PEP_POWER_CONTROL_REQUEST {
 
 
 
-### -field DeviceHandle
+#### - DeviceHandle
 
 [in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
-### -field PowerControlCode
+#### - PowerControlCode
 
 [in] A pointer to a <a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform. This is the same value that the requesting driver supplied as the <i>PowerControlCode</i> parameter to the <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a> routine.
 
 
-### -field InBuffer
+#### - InBuffer
 
 [in] A pointer to a driver-allocated input buffer that contains the input parameters for this power control operation. This is the same value that the requesting driver supplied as the <i>InBuffer</i> parameter to the <b>PoFxPowerControl</b> routine.
 
 
-### -field InBufferSize
+#### - InBufferSize
 
 [in] The size in bytes of the buffer pointed to by <b>InBuffer</b>. This is the same value that the requesting driver supplied as the <i>InBufferSize</i> parameter to the <b>PoFxPowerControl</b> routine.
 
 
-### -field OutBuffer
+#### - OutBuffer
 
 [in] A pointer to a driver-allocated output buffer to which the PEP writes the results of this power control operation. This is the same value that the requesting driver supplied as the <i>OutBuffer</i> parameter to the <b>PoFxPowerControl</b> routine.
 
 
-### -field OutBufferSize
+#### - OutBufferSize
 
 [in] The size in bytes of the buffer pointed to by <b>OutBuffer</b>.
 
 
-### -field BytesReturned
+#### - BytesReturned
 
 [out] The number of bytes that the PEP wrote to the output buffer pointed to by <b>OutBuffer</b>.
 
 
-### -field Status
+#### - Status
 
 [out] The status of the requested power control operation. If the operation is successful, the PEP sets this member to STATUS_SUCCESS. Otherwise, the PEP sets this member to an appropriate error status code.
 
@@ -129,9 +129,9 @@ The driver for a device can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md"
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186797">PEP_DPM_POWER_CONTROL_REQUEST</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
 <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
  
 

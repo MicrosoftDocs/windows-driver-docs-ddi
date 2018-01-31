@@ -40,7 +40,7 @@ apiname:
 -	NdkQueryAdapterInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_QUERY_ADAPTER_INFO callback
@@ -72,18 +72,19 @@ NTSTATUS NdkQueryAdapterInfo(
 
 
 
-### -param *pNdkAdapter
+#### - *pNdkAdapter [in]
+
+A pointer to an NDK adapter (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER)</a> instance.
 
 
+#### - *pInfo
 
-### -param *pInfo
-
-
-
-### -param *pBufferSize
+A pointer to a buffer that contains an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure. If the request completes with STATUS_SUCCESS, the NDK provider  fills  the structure with adapter information. 
 
 
+#### - *pBufferSize
 
+On input, this parameter is a pointer to a variable that holds the size, in bytes, of the buffer that the  <i>pInfo</i> parameter  points to. On output, the variable receives the size, in bytes,  of the adapter information that was written into the buffer.
 
 
 
@@ -164,11 +165,11 @@ An error occurred.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
  
 

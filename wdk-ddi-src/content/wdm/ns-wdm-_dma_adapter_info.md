@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 181C3421-85D1-457E-85A5-42C84AE41BD6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], DMA_ADAPTER_INFO, wdm/PDMA_ADAPTER_INFO, wdm/DMA_ADAPTER_INFO, _DMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO, kernel.dma_adapter_info, *PDMA_ADAPTER_INFO
+ms.keywords: "_DMA_ADAPTER_INFO, *PDMA_ADAPTER_INFO, wdm/PDMA_ADAPTER_INFO, wdm/DMA_ADAPTER_INFO, DMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], kernel.dma_adapter_info, DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _DMA_ADAPTER_INFO {
 
 
 
-### -field V1
+#### - V1
 
 The capabilities of the bus-master DMA device or the system DMA controller. For more information, see <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>.
 
 
-### -field Version
+#### - Version
 
 The version number of the <b>DMA_ADAPTER_INFO_</b><i>XXX</i> structure that follows this member. For a <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a> structure, set this member to DMA_ADAPTER_INFO_VERSION1 before calling the <a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a> routine.
 

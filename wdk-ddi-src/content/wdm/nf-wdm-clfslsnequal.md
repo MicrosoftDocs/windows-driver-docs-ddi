@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e154c9d5-a131-47db-b0fa-d51154637c56
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsLsnEqual, Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml, ClfsLsnEqual, ClfsLsnEqual routine [Kernel-Mode Driver Architecture], kernel.clfslsnequal
+ms.keywords: kernel.clfslsnequal, wdm/ClfsLsnEqual, ClfsLsnEqual, ClfsLsnEqual routine [Kernel-Mode Driver Architecture], Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ BOOLEAN ClfsLsnEqual(
 
 
 
-### -param plsn1 [in]
+#### - plsn1 [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
 
 
-### -param plsn2 [in]
+#### - plsn2 [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the other LSN to be compared.
 

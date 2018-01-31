@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], storport/StorPortGetDataInBufferMdl, storage.storportgetdatainbuffermdl
+ms.keywords: StorPortGetDataInBufferMdl, storport/StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], storage.storportgetdatainbuffermdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ ULONG StorPortGetDataInBufferMdl(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 The request block to containing the data described by the MDL pointed to by <i>Mdl</i>.
 
 
-### -param Mdl [out]
+#### - Mdl [out]
 
 A pointer to  an MDL address to receive the MDL for <i>Srb</i>.
 
@@ -123,9 +123,9 @@ The pointer value in <i>Mdl</i> is NULL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
-
 <a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
+
+<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
 
  
 

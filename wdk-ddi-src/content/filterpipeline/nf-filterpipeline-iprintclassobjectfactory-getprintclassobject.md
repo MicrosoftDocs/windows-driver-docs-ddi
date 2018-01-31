@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 96ba0c27-d512-4bca-9053-a753434e461d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetPrintClassObject method [Print Devices], filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, IPrintClassObjectFactory interface [Print Devices], GetPrintClassObject method, print.iprintclassobjectfactory_getprintclassobject, GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, GetPrintClassObject, IPrintClassObjectFactory, IPrintClassObjectFactory::GetPrintClassObject
+ms.keywords: IPrintClassObjectFactory, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface, IPrintClassObjectFactory interface [Print Devices], GetPrintClassObject method, GetPrintClassObject, IPrintClassObjectFactory::GetPrintClassObject, GetPrintClassObject method [Print Devices], print.iprintclassobjectfactory_getprintclassobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetPrintClassObject(
 
 
 
-### -param pszPrinterName [in]
+#### - pszPrinterName [in]
 
 The printer name.
 
 
-### -param riid [in]
+#### - riid [in]
 
 The IID of the interface to create. Filters should use IID_IPrintAsyncNotify to create notification channels.
 
 
-### -param ppNewObject [out]
+#### - ppNewObject [out]
 
 The new object that this method creates.
 

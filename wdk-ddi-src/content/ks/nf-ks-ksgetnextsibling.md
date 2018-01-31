@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 509cf778-2b0c-4dd2-982d-0c7be95ad407
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetNextSibling function [Streaming Media Devices], avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml, ks/KsGetNextSibling, stream.ksgetnextsibling, KsGetNextSibling
+ms.keywords: stream.ksgetnextsibling, KsGetNextSibling, KsGetNextSibling function [Streaming Media Devices], ks/KsGetNextSibling, avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PVOID KsGetNextSibling(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 The object for which to find the next sibling.
 

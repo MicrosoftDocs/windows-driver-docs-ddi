@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FFD7979B-48E9-433C-86A9-255F4F422BBA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, buses.usb_stop_tracking_for_time_sync_information, usbioctl/PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ms.keywords: USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], usbioctl/PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], buses.usb_stop_tracking_for_time_sync_information, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION"
+req.typenames: USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION {
 
 
 
-### -field TimeTrackingHandle
+#### - TimeTrackingHandle
 
 The time racking handle received in the previous <a href="..\usbioctl\ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync.md">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ce6cec58-2122-49c3-8c5c-172df2c4dd04
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, IoEnumerateDeviceObjectList, ntifs/IoEnumerateDeviceObjectList, ifsk.ioenumeratedeviceobjectlist, IoEnumerateDeviceObjectList routine [Installable File System Drivers]
+ms.keywords: ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ifsk.ioenumeratedeviceobjectlist, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ntifs/IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS IoEnumerateDeviceObjectList(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 A pointer to the driver object for the driver. 
 
 
-### -param DeviceObjectList [out]
+#### - DeviceObjectList [out]
 
 A pointer to a caller-allocated array that receives the device object pointers. This parameter can be <b>NULL</b>. 
 
 
-### -param DeviceObjectListSize [in]
+#### - DeviceObjectListSize [in]
 
 Size, in bytes, of the <i>DeviceObjectList</i> array. Can be zero. 
 
 
-### -param ActualNumberDeviceObjects [out]
+#### - ActualNumberDeviceObjects [out]
 
 Actual number of device objects found in the driver object's device object list. Note that if the array at <i>DeviceObjectList</i> is too small, the number of device object pointers that are copied into the array will be less than <i>ActualNumberDeviceObjects</i>. 
 
@@ -148,15 +148,15 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+
 <a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
 
 <a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
  
 

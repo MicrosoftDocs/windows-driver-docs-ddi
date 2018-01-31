@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32896b46-1143-4598-ad15-2eb4dbdea6e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY, _NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml, netvista.ndis_receive_filter_info_array, NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml, netvista.ndis_receive_filter_info_array, NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, *PNDIS_RECEIVE_FILTER_INFO_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,7 +96,7 @@ typedef struct _NDIS_RECEIVE_FILTER_INFO_ARRAY {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -119,31 +119,31 @@ Original version for NDIS 6.20.
 Set the <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_1.
 
 
-### -field QueueId
+#### - QueueId
 
 A receive queue identifier. This identifier is an
      integer between zero and the number of queues that the network adapter supports. A value of NDIS_DEFAULT_RECEIVE_QUEUE_ID specifies
      the default receive queue.
 <div class="alert"><b>Note</b>  Miniport drivers that support <a href="https://msdn.microsoft.com/500FBF0F-54D9-4675-8E2D-447387DA8798">NDIS packet coalescing</a> or SR-IOV interface must set the <b>QueueId</b> member to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div><div> </div>
 
-### -field FirstElementOffset
+#### - FirstElementOffset
 
 The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a> structure.
 
 
 <div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div><div> </div>
 
-### -field NumElements
+#### - NumElements
 
 The number of elements in the array.
 
 
-### -field ElementSize
+#### - ElementSize
 
 The size, in bytes, of each element in the array.
 
 
-### -field Flags
+#### - Flags
 
 A  bitwise OR of the following flags: 
 
@@ -155,7 +155,7 @@ A  bitwise OR of the following flags:
 If this flag is set, information is requested about receive filters that are configured on the virtual port (VPort) specified by the <b>VPortId</b> member.
 <div class="alert"><b>Note</b>  This flag is only valid for the SR-IOV interface.</div><div> </div>
 
-### -field VPortId
+#### - VPortId
 
 The virtual port (VPort) identifier on which receive filters are being queried. The VPort identifier must be one of the following values:
 <ul>

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f435a52-f087-4d36-bf95-e82f5ab061e4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, wdm/ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], ProbeForWrite, kernel.probeforwrite
+ms.keywords: ProbeForWrite, kernel.probeforwrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], wdm/ProbeForWrite, k102_62889c29-62cb-43c2-ac19-e8b933783443.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID ProbeForWrite(
 
 
 
-### -param Address [in, out]
+#### - Address [in, out]
 
 Specifies the beginning of the user-mode buffer.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the length, in bytes, of the user-mode buffer.
 
 
-### -param Alignment [in]
+#### - Alignment [in]
 
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 

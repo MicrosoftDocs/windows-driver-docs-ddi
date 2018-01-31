@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, netvista.vmbpacketsendwithexternalmdl, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], VmbPacketSendWithExternalMdl
+ms.keywords: VmbPacketSendWithExternalMdl, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, netvista.vmbpacketsendwithexternalmdl, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbPacketSendWithExternalMdl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -79,43 +79,43 @@ NTSTATUS
 
 
 
-### -param PacketObject [in]
+#### - PacketObject [in]
 
 A handle to the VMBus packet object.
 
 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A buffer that contains the command packet that is sent
 through the VMBus ring buffer.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The length, in bytes, of the buffer in the <i>Buffer</i> parameter. 
 
 
-### -param ExternalDataMdl [in]
+#### - ExternalDataMdl [in]
 
  An MDL that describes a data buffer associated with     the packet. 
 
 
-### -param MdlOffset [in]
+#### - MdlOffset [in]
 
 The offset from the buffer described by the MDL where the
 data starts.
 
 
 
-### -param MdlLength [in]
+#### - MdlLength [in]
 
 The length of the sub-buffer to send. Use 0 for the entire     MDL.
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
   Flags. The following are pertinent flags:
 

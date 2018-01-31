@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b6955a5-ca03-418d-9eba-fdbe48599922
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, wdbgexts/ReadControlSpace, ReadControlSpace, debugger.readcontrolspace
+ms.keywords: debugger.readcontrolspace, ReadControlSpace, ReadControlSpace function [Windows Debugging], wdbgexts/ReadControlSpace, WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ __inline VOID ReadControlSpace(
 
 
 
-### -param processor
+#### - processor
 
 Specifies the number of the processor whose control space is to be read.
 
 
-### -param address
+#### - address
 
 Specifies the address of the control space.
 
 
-### -param buf
+#### - buf
 
 Specifies the address of an array of bytes to hold the control space data.
 
 
-### -param size
+#### - size
 
 Specifies the number of bytes in the array pointed to by <i>buf</i>.
 

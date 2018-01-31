@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3d1dc600-f7cb-488e-9f92-678e0a6a58f8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksrtaudio_hwregister, *PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, PKSRTAUDIO_HWREGISTER, ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices]
+ms.keywords: "*PKSRTAUDIO_HWREGISTER, aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, audio.ksrtaudio_hwregister, ksmedia/PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, ksmedia/KSRTAUDIO_HWREGISTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct {
 
 
 
-### -field Register
+#### - Register
 
 Pointer to the register. This member specifies the virtual address into which the register is mapped.
 
 
-### -field Width
+#### - Width
 
 Specifies the width, in bits, of the register. The value of this member can be 32 or 64.
 
 
-### -field Numerator
+#### - Numerator
 
 Specifies the numerator of the frequency at which the clock register increments. See the following Remarks. section.
 
 
-### -field Denominator
+#### - Denominator
 
 Specifies the denominator of the frequency at which the clock register increments. See the following Remarks. section.
 
 
-### -field Accuracy
+#### - Accuracy
 
 Specifies the accuracy of the clock or position register. See the following Remarks section.
 

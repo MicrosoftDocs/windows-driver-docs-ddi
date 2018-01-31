@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46e29607-ee09-4db4-a501-68a3bc678e16
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoVerifyVolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, IoVerifyVolume routine [Installable File System Drivers], IoVerifyVolume, ifsk.ioverifyvolume
+ms.keywords: ntifs/IoVerifyVolume, ifsk.ioverifyvolume, IoVerifyVolume routine [Installable File System Drivers], ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, IoVerifyVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoVerifyVolume(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for the device on which the volume is to be verified. 
 
 
-### -param AllowRawMount [in]
+#### - AllowRawMount [in]
 
 Set to <b>TRUE</b> if this verify request is being issued on behalf of a DASD open request and a raw mount should be performed if the verify request fails.
 
@@ -138,9 +138,9 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
-
 <a href="..\ntifs\nf-ntifs-iogetdevicetoverify.md">IoGetDeviceToVerify</a>
+
+<a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
 
  
 

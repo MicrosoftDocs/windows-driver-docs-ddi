@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 7886a796-2755-4367-bbbd-2017e7900bf4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], ntddk/WHEA_XPF_BUS_CHECK, *PWHEA_XPF_BUS_CHECK, ntddk/PWHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml, whea.whea_xpf_bus_check, PWHEA_XPF_BUS_CHECK, _WHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK
+ms.keywords: ntddk/WHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], PWHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK, whea.whea_xpf_bus_check, whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml, PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_BUS_CHECK, *PWHEA_XPF_BUS_CHECK, _WHEA_XPF_BUS_CHECK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -218,7 +218,7 @@ typedef union _WHEA_XPF_BUS_CHECK {
  
 
 
-### -field XpfBusCheck
+#### - XpfBusCheck
 
 A ULONGLONG representation of the contents of the WHEA_XPF_BUS_CHECK union.
 

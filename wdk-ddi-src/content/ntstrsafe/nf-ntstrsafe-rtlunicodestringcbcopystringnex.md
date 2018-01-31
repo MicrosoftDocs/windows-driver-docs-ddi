@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67c364a7-5cf7-424a-8ba3-ba9a11276f5d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_3b90a87b-c560-40e4-809a-c3d1dd1671e8.xml, kernel.rtlunicodestringcbcopystringnex, ntstrsafe/RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx function [Kernel-Mode Driver Architecture]
+ms.keywords: safestrings_3b90a87b-c560-40e4-809a-c3d1dd1671e8.xml, RtlUnicodeStringCbCopyStringNEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx, kernel.rtlunicodestringcbcopystringnex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUnicodeStringCbCopyStringNEx(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>pszSrc </i>parameter points to (excluding the terminating null) is copied into the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of bytes in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param pszSrc [in]
+#### - pszSrc [in]
 
 Optional. A pointer to the string to be copied. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbToCopy [in]
+#### - cbToCopy [in]
 
 The number of bytes to be copied from the source to the destination. 
 
 
-### -param RemainingString [out, optional]
+#### - RemainingString [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 

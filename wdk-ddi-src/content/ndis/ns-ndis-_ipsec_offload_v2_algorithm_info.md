@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 787e5a98-ba77-42d4-8624-abcc02fccf53
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml
+ms.keywords: "_IPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml, IPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IPSEC_OFFLOAD_V2_ALGORITHM_INFO
 product: Windows
 targetos: Windows
-req.typenames: IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO
+req.typenames: "*PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO"
 ---
 
 # _IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure
@@ -73,7 +73,7 @@ typedef struct _IPSEC_OFFLOAD_V2_ALGORITHM_INFO {
 
 
 
-### -field Identifier
+#### - Identifier
 
 The encryption or authentication algorithm that is used for the SA. 
      
@@ -177,7 +177,7 @@ Specifies the AES- GMAC 256 algorithm for computing or validating a cryptographi
        checksum.
 
 
-### -field KeyLength
+#### - KeyLength
 
 The length, in bytes, of the key for the algorithm. The key is contained in the array at the 
      <b>KeyData</b> member in the 
@@ -195,7 +195,7 @@ If both algorithms (
      <b>KeyOffsetBytes</b> .
 
 
-### -field KeyOffsetBytes
+#### - KeyOffsetBytes
 
 The offset, in bytes, into in the array at the 
      <b>KeyData</b> member in the 
@@ -203,7 +203,7 @@ The offset, in bytes, into in the array at the
      IPSEC_OFFLOAD_V2_ADD_SA</b></mshelp:link> structure.
 
 
-### -field AdditionalInfo
+#### - AdditionalInfo
 
 Additional information that should be interpreted differently based on the algorithm. For AES-GCM,
      

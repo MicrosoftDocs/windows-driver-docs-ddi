@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6adca68-e016-4725-bd8e-691c71d1d471
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortInitialize, scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, ScsiPortInitialize routine [Storage Devices], srb/ScsiPortInitialize, storage.scsiportinitialize
+ms.keywords: ScsiPortInitialize routine [Storage Devices], srb/ScsiPortInitialize, scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, ScsiPortInitialize, storage.scsiportinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -72,22 +72,22 @@ ULONG ScsiPortInitialize(
 
 
 
-### -param Argument1 [in]
+#### - Argument1 [in]
 
 Pointer to the driver object that the operating system passed to the miniport driver in the first argument of its <b>DriverEntry</b> routine.
 
 
-### -param Argument2 [in]
+#### - Argument2 [in]
 
 Pointer to some context information that the operating system passed to the miniport driver in the second argument of its <b>DriverEntry</b>.
 
 
-### -param HwInitializationData [in]
+#### - HwInitializationData [in]
 
 Pointer to the initialization and configuration information supplied by <b>DriverEntry</b>.
 
 
-### -param HwContext [in]
+#### - HwContext [in]
 
 Specifies the address of a context value to be passed to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <i>HwScsiFindAdapter</i>.
 
@@ -112,11 +112,11 @@ A miniport driver that calls <b>ScsiPortInitialize</b> more than once should che
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
  
 

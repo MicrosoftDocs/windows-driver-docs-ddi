@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea88d1de-70c1-424a-a3a0-cce46cc3fe39
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::GetEventFilterCommand, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetEventFilterCommand method, dbgeng/IDebugControl::GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetEventFilterCommand method, IDebugControl3::GetEventFilterCommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, IDebugControl interface [Windows Debugging], GetEventFilterCommand method, GetEventFilterCommand method [Windows Debugging], IDebugControl interface, debugger.geteventfiltercommand, GetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, GetEventFilterCommand, dbgeng/IDebugControl2::GetEventFilterCommand
+ms.keywords: IDebugControl2::GetEventFilterCommand, IDebugControl3, IDebugControl interface [Windows Debugging], GetEventFilterCommand method, dbgeng/IDebugControl::GetEventFilterCommand, IDebugControl3::GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, GetEventFilterCommand method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetEventFilterCommand method, GetEventFilterCommand, IDebugControl::GetEventFilterCommand, dbgeng/IDebugControl3::GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, debugger.geteventfiltercommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetEventFilterCommand method, dbgeng/IDebugControl2::GetEventFilterCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetEventFilterCommand(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the event filter.  <i>Index</i> can take any value between zero and one less than the total number of event filters returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547899">GetNumberEventFilters</a> (inclusive).  For more information about the index of the filters, see Index and Exception Code.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the debugger command that the engine will execute when the event occurs.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-### -param CommandSize [out, optional]
+#### - CommandSize [out, optional]
 
 Receives the size in characters of the command.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -125,15 +125,15 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

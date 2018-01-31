@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 47358d69-ef45-4cac-8187-72c354912c4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetItemFlags method [Imaging Devices], IWiaDrvItem interface [Imaging Devices], GetItemFlags method, image.iwiadrvitem_getitemflags, IWiaDrvItem::GetItemFlags, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], IWiaDrvItem interface, GetItemFlags, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml
+ms.keywords: GetItemFlags method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], wiamindr_lh/IWiaDrvItem::GetItemFlags, GetItemFlags, IWiaDrvItem interface [Imaging Devices], GetItemFlags method, image.iwiadrvitem_getitemflags, IWiaDrvItem, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaDrvItem.GetItemFlags
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -95,9 +95,9 @@ The method places the current <b>IWiaDrvItem</b> item's flag values in the locat
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FCDD6B04-339D-4BBA-9D19-AE74CCB27666
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_PD_POWER_DATA_OBJECT_TYPE, buses.ucm_pd_power_data_object_type, UcmPdPdoTypeFixedSupply, UcmPdPdoTypeVariableSupplyNonBattery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeBatterySupply, _UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery, ucmtypes/UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeFixedSupply
+ms.keywords: ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeVariableSupplyNonBattery, UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], buses.ucm_pd_power_data_object_type, UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery, ucmtypes/UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeFixedSupply, _UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeBatterySupply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _UCM_PD_POWER_DATA_OBJECT_TYPE {
 
 
 
-### -field UcmPdPdoTypeFixedSupply
+#### - UcmPdPdoTypeFixedSupply
 
 Indicates the PD data object type is a fixed supply.
 
 
-### -field UcmPdPdoTypeBatterySupply
+#### - UcmPdPdoTypeBatterySupply
 
 Indicates the PD data object type is a battery supply.
 
 
-### -field UcmPdPdoTypeVariableSupplyNonBattery
+#### - UcmPdPdoTypeVariableSupplyNonBattery
 
 Indicates the PD data object type is a non-battery variable supply.
 

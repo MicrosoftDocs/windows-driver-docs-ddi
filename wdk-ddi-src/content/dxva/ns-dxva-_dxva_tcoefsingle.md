@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 665a9819-d319-414d-9a31-ee565b293197
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_TCoefSingle structure pointer [Display Devices], *LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, DXVA_TCoefSingle, display.dxva_tcoefsingle, _DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], dxva/DXVA_TCoefSingle, LPDXVA_TCoefSingle
+ms.keywords: LPDXVA_TCoefSingle structure pointer [Display Devices], _DXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, display.dxva_tcoefsingle, DXVA_TCoefSingle structure [Display Devices], dxva/DXVA_TCoefSingle, *LPDXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, DXVA_TCoefSingle, LPDXVA_TCoefSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _DXVA_TCoefSingle {
 
 
 
-### -field wIndexWithEOB
+#### - wIndexWithEOB
 
 This member contains two fields: <i>TCoefIDX </i>and <i>TCoefEOB</i>.
 
@@ -97,7 +97,7 @@ Arbitrary ordering: When <b>bConfigHostInverseScan</b> is 1, the <i>MBscanMethod
 Indicates whether the current coefficient is the last one associated with the current block of transform coefficients. A value of 1 indicates that the current coefficient is the last one for the block and a value of zero indicates that it is not. This field is in the least significant bit of the <b>wIndexWithEOB</b> member. 
 
 
-### -field TCoefValue
+#### - TCoefValue
 
 Indicates the value of the coefficient in the block. <b>TCoefValue</b> must be clipped to the appropriate range as specified in <a href="https://msdn.microsoft.com/7736a226-1122-4380-b09f-a8560c0cd609">Low-Level IDCT Processing Elements</a> by the host prior to passing the coefficient value to the accelerator for <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> operation. MPEG-2 mismatch control, if necessary, is also the responsibility of the host, not the accelerator. (This might require the creation of extra "phantom" nonzero coefficients.)
 

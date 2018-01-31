@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSALLOCATOR_FRAMING structure [Streaming Media Devices], ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, *PKSALLOCATOR_FRAMING, ks/KSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], ks/PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING, stream.ksallocator_framing, KSALLOCATOR_FRAMING
+ms.keywords: ks/PKSALLOCATOR_FRAMING, ks/KSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], stream.ksallocator_framing, ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, KSALLOCATOR_FRAMING structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct {
 
 
 
-### -field OptionsFlags
+#### - OptionsFlags
 
 Specifies the allocator option flags specified during allocator creation for the connection point. The <b>OptionsFlags</b> member can contain one of the following values.
 <table>
@@ -106,7 +106,7 @@ Indicates that system memory should be used for allocations. When specified, the
 </table> 
 
 
-### -field RequirementsFlags
+#### - RequirementsFlags
 
 A value of type ULONG that describes the allocator requirements for this connection point for query operations. The <b>RequirementsFlags</b> member can contain the following values.
 <table>
@@ -167,7 +167,7 @@ Indicates that the Requirements flags are preferences only and the connection po
 </table> 
 
 
-### -field FileAlignment
+#### - FileAlignment
 
 A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
 <table>
@@ -233,22 +233,22 @@ FILE_64_BYTE_ALIGNMENT
  
 
 
-### -field PoolType
+#### - PoolType
 
 A structure of type <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
 
 
-### -field Frames
+#### - Frames
 
 Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
 
 
-### -field FrameSize
+#### - FrameSize
 
 Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Set to zero.
 

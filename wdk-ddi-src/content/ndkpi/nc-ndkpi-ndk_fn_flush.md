@@ -40,7 +40,7 @@ apiname:
 -	NdkFlush
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_FLUSH callback
@@ -70,11 +70,9 @@ VOID NdkFlush(
 
 
 
-### -param *pNdkQp
+#### - *pNdkQp [in]
 
-
-
-
+A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
 
 
 #### - pNdkQp [in]

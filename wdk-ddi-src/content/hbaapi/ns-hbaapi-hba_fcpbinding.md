@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e06b82f7-2b48-47e8-b6fa-c86b790e8019
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PHBA_FCPBINDING structure pointer [Storage Devices], hbaapi/HBA_FCPBinding, *PHBA_FCPBINDING, HBA_FCPBINDING structure [Storage Devices], HBA_FCPBINDING, PHBA_FCPBINDING, HBA_FCPBinding, hbaapi/PHBA_FCPBINDING, structs-Fibre_c02a809a-3b65-4e19-93e0-c72a0aead81c.xml, storage.hba_fcpbinding, HBA_FCPBinding structure [Storage Devices]
+ms.keywords: HBA_FCPBinding structure [Storage Devices], structs-Fibre_c02a809a-3b65-4e19-93e0-c72a0aead81c.xml, HBA_FCPBINDING structure [Storage Devices], *PHBA_FCPBINDING, hbaapi/HBA_FCPBinding, HBA_FCPBinding, PHBA_FCPBINDING structure pointer [Storage Devices], PHBA_FCPBINDING, HBA_FCPBINDING, hbaapi/PHBA_FCPBINDING, storage.hba_fcpbinding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FCPBINDING
 product: Windows
 targetos: Windows
-req.typenames: HBA_FCPBINDING, *PHBA_FCPBINDING
+req.typenames: "*PHBA_FCPBINDING, HBA_FCPBINDING"
 ---
 
 # HBA_FCPBinding structure
@@ -68,12 +68,12 @@ typedef struct HBA_FCPBinding {
 
 
 
-### -field NumberOfEntries
+#### - NumberOfEntries
 
 Indicates the number of bindings.
 
 
-### -field entry
+#### - entry
 
 Contains a variable length array of structures of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a> each of which defines a binding between a pair of operating system and fibre channel protocol (FCP) identifiers for a logical unit. 
 

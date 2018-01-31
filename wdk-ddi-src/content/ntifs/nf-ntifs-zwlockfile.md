@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, ntifs/ZwLockFile, NtLockFile, kernel.zwlockfile, ZwLockFile
+ms.keywords: ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, ntifs/NtLockFile, ntifs/ZwLockFile, kernel.zwlockfile, ZwLockFile, NtLockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,52 +77,52 @@ NTSTATUS ZwLockFile(
 
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 A handle for the file on which a byte-range lock is requested.
 
 
-### -param Event [in, optional]
+#### - Event [in, optional]
 
 A handle to a caller-created event. If not <b>NULL</b>, the caller is placed into a wait state until the operation succeeds, at which time the event is set into the Signaled state.
 
 
-### -param ApcRoutine [in, optional]
+#### - ApcRoutine [in, optional]
 
 A pointer to a caller-supplied APC routine that is executed after the operation completes. Can be <b>NULL</b>.
 
 
-### -param ApcContext [in, optional]
+#### - ApcContext [in, optional]
 
 A pointer to a caller-specified context for the APC routine. This value is passed to the APC routine when it is executed. Can be <b>NULL</b>.
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains the final status.
 
 
-### -param ByteOffset [in]
+#### - ByteOffset [in]
 
 A pointer to a variable that specifies the starting byte offset of the range to lock.
 
 
-### -param Length [in]
+#### - Length [in]
 
 A pointer to a variable that specifies the length in bytes of the range to lock.
 
 
-### -param Key [in]
+#### - Key [in]
 
 A caller-assigned value used to describe groups of related locks. This value should be set to zero.
 
 
-### -param FailImmediately [in]
+#### - FailImmediately [in]
 
 If <b>TRUE</b>, immediately return if the file cannot be locked. If <b>FALSE</b>, wait for the lock request to be granted.
 
 
-### -param ExclusiveLock [in]
+#### - ExclusiveLock [in]
 
 If <b>TRUE</b>, byte-range lock is exclusive; otherwise, shared lock.
 

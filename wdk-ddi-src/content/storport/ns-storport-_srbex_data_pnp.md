@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SRBEX_DATA_PNP structure [Storage Devices], storage.srbex_data_pnp, StorQueryCapabilities, StorRemoveDevice, StorFilterResourceRequirements, StorStartDevice, StorSupriseRemoval, storport/SRBEX_DATA_PNP, SRBEX_DATA_PNP, storport/PSRBEX_DATA_PNP, StorQueryResourceRequirements, StorStopDevice, *PSRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], PSRBEX_DATA_PNP, _SRBEX_DATA_PNP
+ms.keywords: PSRBEX_DATA_PNP structure pointer [Storage Devices], storport/PSRBEX_DATA_PNP, storage.srbex_data_pnp, StorStopDevice, StorQueryResourceRequirements, *PSRBEX_DATA_PNP, PSRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorRemoveDevice, _SRBEX_DATA_PNP, storport/SRBEX_DATA_PNP, StorQueryCapabilities, StorFilterResourceRequirements, StorSupriseRemoval, SRBEX_DATA_PNP, StorStartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_PNP
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_PNP, SRBEX_DATA_PNP"
+req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
 req.product: Windows 10 or later.
 ---
 
@@ -74,27 +74,27 @@ typedef struct _SRBEX_DATA_PNP {
 
 
 
-### -field Type
+#### - Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypePnp</b>.
 
 
-### -field Length
+#### - Length
 
 Length of the data in this structure starting with the <b>PnPSubFunction</b> member. Set to SRBEX_DATA_PNP_LENGTH.
 
 
-### -field PnPSubFunction
+#### - PnPSubFunction
 
 This member is not currently used. Set to 0.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved. Set to 0.
 
 
-### -field PnPAction
+#### - PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
 <table>
@@ -182,19 +182,19 @@ Surprise Removal of the device. This value is available starting with Windows 7
 </table> 
 
 
-### -field SrbPnPFlags
+#### - SrbPnPFlags
 
-Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
-### -field Reserved1
+#### - Reserved1
 
 This member is reserved. Set to 0.
 
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
  
 

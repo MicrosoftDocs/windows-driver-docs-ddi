@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 83733c17-1f1f-4be6-ae14-aa921e481a73
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IResourceList::AddEntryFromParent, IResourceList::AddEntryFromParent, AddEntryFromParent method [Audio Devices], AddEntryFromParent, IResourceList interface [Audio Devices], AddEntryFromParent method, AddEntryFromParent method [Audio Devices], IResourceList interface, IResourceList, audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, audio.iresourcelist_addentryfromparent
+ms.keywords: audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, AddEntryFromParent, AddEntryFromParent method [Audio Devices], portcls/IResourceList::AddEntryFromParent, IResourceList::AddEntryFromParent, AddEntryFromParent method [Audio Devices], IResourceList interface, IResourceList, audio.iresourcelist_addentryfromparent, IResourceList interface [Audio Devices], AddEntryFromParent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.AddEntryFromParent
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IResourceList::AddEntryFromParent method
@@ -69,17 +69,17 @@ NTSTATUS AddEntryFromParent(
 
 
 
-### -param Parent [in]
+#### - Parent [in]
 
 Pointer to parent <b>IResourceList</b> object from which the entry is to be taken.
 
 
-### -param Type [in]
+#### - Type [in]
 
 Identifies the resource type of the entry that is to be added. For a list of valid resource-type values, see the description of the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index in the parent list of the entry to add. If the parent's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a> method returns a value <i>n</i> for the number of entries of type <i>Type</i>, valid indices range from 0 to <i>n</i>-1. If <i>Index</i> is zero, for example, the method adds the first occurrence of an entry of the specified type from the parent list.
 
@@ -130,11 +130,11 @@ The <i>Parent</i> parameter follows the <a href="https://msdn.microsoft.com/e6b1
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

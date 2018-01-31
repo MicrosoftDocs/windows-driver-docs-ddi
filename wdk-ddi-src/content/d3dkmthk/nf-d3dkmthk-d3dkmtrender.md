@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8720db3f-aafc-4657-a0cd-3068760855a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, d3dkmthk/D3DKMTRender, D3DKMTRender function [Display Devices], D3DKMTRender, display.d3dkmtrender
+ms.keywords: D3DKMTRender function [Display Devices], OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, D3DKMTRender, display.d3dkmtrender, d3dkmthk/D3DKMTRender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

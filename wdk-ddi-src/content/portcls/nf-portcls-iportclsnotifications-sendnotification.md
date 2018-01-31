@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SendNotification method [Audio Devices], IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices], SendNotification method, SendNotification, audio.iportclsnotifications_sendnotification, IPortClsNotifications, IPortClsNotifications::SendNotification, portcls/IPortClsNotifications::SendNotification, SendNotification method [Audio Devices]
+ms.keywords: audio.iportclsnotifications_sendnotification, IPortClsNotifications, SendNotification, IPortClsNotifications interface [Audio Devices], SendNotification method, SendNotification method [Audio Devices], IPortClsNotifications interface, SendNotification method [Audio Devices], IPortClsNotifications::SendNotification, portcls/IPortClsNotifications::SendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IPortClsNotifications.SendNotification
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsNotifications::SendNotification method
@@ -69,7 +69,7 @@ NTSTATUS  SendNotification(
 
 
 
-### -param NotificationId [in]
+#### - NotificationId [in]
 
 KSNOTIFICATIONID_AudioModule
 

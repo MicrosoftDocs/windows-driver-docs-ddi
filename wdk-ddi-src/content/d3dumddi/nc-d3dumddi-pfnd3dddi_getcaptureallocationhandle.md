@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY GetCaptureAllocationHandle(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -125,9 +125,9 @@ The given resource is in GPU-accessible memory.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaptureallocationhandle.md">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaptureallocationhandle.md">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b1b196f-f012-4136-983e-8c8192bdbd2f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml, _TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], storage.tape_get_drive_parameters, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS, ntddtape/TAPE_GET_DRIVE_PARAMETERS, ntddtape/PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS
+ms.keywords: PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], ntddtape/TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS, _TAPE_GET_DRIVE_PARAMETERS, ntddtape/PTAPE_GET_DRIVE_PARAMETERS, structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml, TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], storage.tape_get_drive_parameters, PTAPE_GET_DRIVE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,47 +77,47 @@ typedef struct _TAPE_GET_DRIVE_PARAMETERS {
 
 
 
-### -field ECC
+#### - ECC
 
 When set to <b>TRUE</b>, indicates that the device uses hardware error correction.
 
 
-### -field Compression
+#### - Compression
 
 When set to <b>TRUE</b>, indicates that compression is enabled on a device that supports it. When compression is enabled, the device compresses data prior to writing it. When set to <b>FALSE</b>, compression is not enabled on the device. 
 
 
-### -field DataPadding
+#### - DataPadding
 
 When set to <b>TRUE</b>, indicates that data padding is enabled on a device that supports it. When padding is enabled, the device pads data with zeros to keep the tape streaming until data is ready. When set to <b>FALSE</b>, data padding is not enabled. 
 
 
-### -field ReportSetmarks
+#### - ReportSetmarks
 
 When set to <b>TRUE</b>, indicates that reporting setmarks is enabled on a device that supports it. The device reports setmarks encountered during read or space operations. When set to <b>FALSE</b>, reporting setmarks is not enabled. 
 
 
-### -field DefaultBlockSize
+#### - DefaultBlockSize
 
 Indicates the default block size, in bytes. 
 
 
-### -field MaximumBlockSize
+#### - MaximumBlockSize
 
 Indicates the maximum block size, in bytes, of either the tape device or the underlying host bus adapter (HBA), whichever is smaller. 
 
 
-### -field MinimumBlockSize
+#### - MinimumBlockSize
 
 Indicates the minimum block size, in bytes. 
 
 
-### -field MaximumPartitionCount
+#### - MaximumPartitionCount
 
 Indicates the maximum number of partitions the device supports. 
 
 
-### -field FeaturesLow
+#### - FeaturesLow
 
 Indicates the features supported by this drive. The miniport driver sets TAPE_DRIVE_<i>XXX</i> flags for features supported by the drive and clears flags for features not supported. Callers can use the TAPE_DRIVE_<i>XXX</i> masks defined in <i>minitape.h</i> to determine whether a drive supports a particular feature. The masks available are as follows:
 <table>
@@ -368,7 +368,7 @@ The device returns an error if the tape is write-enabled or write-protected.
 </table> 
 
 
-### -field FeaturesHigh
+#### - FeaturesHigh
 
 Indicates the additional features supported by this drive if TAPE_DRIVE_HIGH_FEATURES is set in <b>FeaturesLow</b>. The miniport driver sets TAPE_DRIVE_<i>XXX</i> flags for features supported by the drive and clears flags for features not supported. Callers can use the TAPE_DRIVE_<i>XXX</i> masks defined in <i>minitape.h </i>to determine whether a drive supports a particular feature. 
 <table>
@@ -699,16 +699,16 @@ The device writes short filemarks.
 </table> 
 
 
-### -field EOTWarningZoneSize
+#### - EOTWarningZoneSize
 
 Indicates the size in bytes of the early warning zone toward the end of the tape. The device returns a check condition when it enters the zone. 
 
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
+
+<a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
 
  
 

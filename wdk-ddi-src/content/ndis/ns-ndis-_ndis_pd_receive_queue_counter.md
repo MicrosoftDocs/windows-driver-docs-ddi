@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E42705A4-D018-435E-BA98-3EE5BA5EDE66
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PD_RECEIVE_QUEUE_COUNTER structure pointer [Network Drivers Starting with Windows Vista], NDIS_PD_RECEIVE_QUEUE_COUNTER structure [Network Drivers Starting with Windows Vista], _NDIS_PD_RECEIVE_QUEUE_COUNTER, PNDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/NDIS_PD_RECEIVE_QUEUE_COUNTER, NDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/PNDIS_PD_RECEIVE_QUEUE_COUNTER, netvista.ndis_pd_receive_queue_counter
+ms.keywords: NDIS_PD_RECEIVE_QUEUE_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/NDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/PNDIS_PD_RECEIVE_QUEUE_COUNTER, NDIS_PD_RECEIVE_QUEUE_COUNTER, netvista.ndis_pd_receive_queue_counter, PNDIS_PD_RECEIVE_QUEUE_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_RECEIVE_QUEUE_COUNTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _NDIS_PD_RECEIVE_QUEUE_COUNTER {
 
 
 
-### -field PacketsReceived
+#### - PacketsReceived
 
 The amount of packets received.
 
 
-### -field BytesReceived
+#### - BytesReceived
 
 The amount of bytes received.
 
 
-### -field PacketsDropped
+#### - PacketsDropped
 
 The amount of packets dropped.
 

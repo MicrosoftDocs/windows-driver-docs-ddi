@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0CA07C11-7E46-4225-AC61-5183C322604E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/READ_REGISTER_BUFFER_USHORT, umdf.read_register_buffer_ushort, READ_REGISTER_BUFFER_USHORT function, wdf.read_register_buffer_ushort, READ_REGISTER_BUFFER_USHORT
+ms.keywords: umdf.read_register_buffer_ushort, READ_REGISTER_BUFFER_USHORT function, READ_REGISTER_BUFFER_USHORT, wdf.read_register_buffer_ushort, wudfddi_hwaccess/READ_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_REGISTER_BUFFER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ void READ_REGISTER_BUFFER_USHORT(
 
 
 
-### -param pDevice [in]
+#### - pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a buffer into which an array of USHORT values is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to be read into the buffer.
 

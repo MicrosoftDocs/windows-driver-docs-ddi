@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bc403fc7-7862-4c4c-8a82-bd5c740b270e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoAttachDeviceToDeviceStackSafe, ntddk/IoAttachDeviceToDeviceStackSafe, ifsk.ioattachdevicetodevicestacksafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml
+ms.keywords: ifsk.ioattachdevicetodevicestacksafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ntddk/IoAttachDeviceToDeviceStackSafe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoAttachDeviceToDeviceStackSafe(
 
 
 
-### -param SourceDevice [in]
+#### - SourceDevice [in]
 
 Pointer to a caller-created device object. 
 
 
-### -param TargetDevice [in]
+#### - TargetDevice [in]
 
 Pointer to the device object in the stack to which the <i>SourceDevice</i> object is to be attached. 
 
 
-### -param AttachedToDeviceObject [out]
+#### - AttachedToDeviceObject [out]
 
 On input, this parameter specifies the address of <i>SourceDevice-&gt;DeviceExtension-&gt;AttachedToDeviceObject</i>, which must contain a <b>NULL</b> pointer. On output, this parameter receives a pointer to the device object to which the <i>SourceDevice</i> was attached. 
 
@@ -110,9 +110,9 @@ At the moment immediately after it is attached to the top of the stack, the <i>S
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
  
 

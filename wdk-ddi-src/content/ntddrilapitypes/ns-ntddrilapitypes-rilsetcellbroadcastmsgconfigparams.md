@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bfaad47a-44eb-471d-9ed9-e1adf845ab9c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], RILSETCELLBROADCASTMSGCONFIGPARAMS, netvista.rilsetcellbroadcastmsgconfigparams, *LPRILSETCELLBROADCASTMSGCONFIGPARAMS
+ms.keywords: ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS, netvista.rilsetcellbroadcastmsgconfigparams, *LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], RILSETCELLBROADCASTMSGCONFIGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETCELLBROADCASTMSGCONFIGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSETCELLBROADCASTMSGCONFIGPARAMS, *LPRILSETCELLBROADCASTMSGCONFIGPARAMS
+req.typenames: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS"
 ---
 
 # RILSETCELLBROADCASTMSGCONFIGPARAMS structure
@@ -68,10 +68,10 @@ typedef struct _RILSETCELLBROADCASTMSGCONFIGPARAMS {
 
 
 
-### -field hUiccApp
+#### - hUiccApp
 
 
 
-### -field rmCBConfig
+#### - rmCBConfig
 
 

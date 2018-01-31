@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdriveropenparametersregistrykey, WdfDriverOpenParametersRegistryKey method, DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, wdf.wdfdriveropenparametersregistrykey, WdfDriverOpenParametersRegistryKey, wdfdriver/WdfDriverOpenParametersRegistryKey
+ms.keywords: WdfDriverOpenParametersRegistryKey, wdfdriver/WdfDriverOpenParametersRegistryKey, DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, WdfDriverOpenParametersRegistryKey method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,12 +76,12 @@ NTSTATUS WdfDriverOpenParametersRegistryKey(
 
 
 
-### -param Driver [in]
+#### - Driver [in]
 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>-typed value that specifies an access mask for the <b>Parameters</b> registry key.
 
@@ -92,12 +92,12 @@ If you are writing a UMDF driver, use <b>KEY_READ</b> or <b>KEY_READ | KEY_SET_V
 As a best practice, ask for only the types of access that your driver needs.
 
 
-### -param KeyAttributes [in, optional]
+#### - KeyAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the framework registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Key [out]
+#### - Key [out]
 
 A pointer to a location that receives a handle to a framework registry-key object.
 
@@ -152,17 +152,17 @@ For more information about the registry, see <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
 
  
 

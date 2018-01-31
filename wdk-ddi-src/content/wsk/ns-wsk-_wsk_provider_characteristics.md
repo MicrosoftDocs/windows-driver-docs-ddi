@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25371620-23bb-4a98-9554-14057742b0ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, _WSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics
+ms.keywords: wsk/WSK_PROVIDER_CHARACTERISTICS, _WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics, wsk/PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_PROVIDER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS"
+req.typenames: WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,14 @@ typedef struct _WSK_PROVIDER_CHARACTERISTICS {
 
 
 
-### -field HighestVersion
+#### - HighestVersion
 
 The highest version of the WSK 
      <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
      (NPI)</mshelp:link> that is supported by the WSK subsystem.
 
 
-### -field LowestVersion
+#### - LowestVersion
 
 The lowest version of the WSK NPI that is supported by the WSK subsystem.
 
@@ -140,16 +140,16 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<mshelp:link keywords="netvista.wskqueryprovidercharacteristics" tabindex="0"><b>
+   WskQueryProviderCharacteristics</b></mshelp:link>
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-<mshelp:link keywords="netvista.wskqueryprovidercharacteristics" tabindex="0"><b>
-   WskQueryProviderCharacteristics</b></mshelp:link>
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
  
 

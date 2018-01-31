@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 489d3edc-4966-481e-b5c8-6979173e9341
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_DVD_READ structure pointer [Storage Devices], *PFEATURE_DATA_DVD_READ, storage.feature_data_dvd_read, PFEATURE_DATA_DVD_READ, FEATURE_DATA_DVD_READ structure [Storage Devices], _FEATURE_DATA_DVD_READ, structs-CD-ROM_94af17d0-72ec-4248-9035-4050f6e3c275.xml, ntddmmc/FEATURE_DATA_DVD_READ, FEATURE_DATA_DVD_READ, ntddmmc/PFEATURE_DATA_DVD_READ
+ms.keywords: PFEATURE_DATA_DVD_READ structure pointer [Storage Devices], storage.feature_data_dvd_read, *PFEATURE_DATA_DVD_READ, FEATURE_DATA_DVD_READ structure [Storage Devices], PFEATURE_DATA_DVD_READ, ntddmmc/PFEATURE_DATA_DVD_READ, ntddmmc/FEATURE_DATA_DVD_READ, FEATURE_DATA_DVD_READ, _FEATURE_DATA_DVD_READ, structs-CD-ROM_94af17d0-72ec-4248-9035-4050f6e3c275.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _FEATURE_DATA_DVD_READ {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field Multi110
+#### - Multi110
 
 
 
-### -field Reserved1
+#### - Reserved1
 
 
 
-### -field Reserved2
+#### - Reserved2
 
 
 
-### -field DualDashR
+#### - DualDashR
 
 
 
-### -field Reserved3
+#### - Reserved3
 
 
 
-### -field Reserved4
+#### - Reserved4
 
 
 

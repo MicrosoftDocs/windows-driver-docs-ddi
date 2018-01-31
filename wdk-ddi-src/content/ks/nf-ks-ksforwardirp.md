@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6db0c232-d90b-4187-94c0-a840f87cf999
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_cc7908b4-a6f2-40b1-990f-22c7b5e2bda2.xml, KsForwardIrp function [Streaming Media Devices], stream.ksforwardirp, KsForwardIrp, ks/KsForwardIrp
+ms.keywords: KsForwardIrp, ksfunc_cc7908b4-a6f2-40b1-990f-22c7b5e2bda2.xml, KsForwardIrp function [Streaming Media Devices], ks/KsForwardIrp, stream.ksforwardirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsForwardIrp(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP that is being forwarded to the specified driver.
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Specifies the file object to initialize the next stack with.
 
 
-### -param ReuseStackLocation [in]
+#### - ReuseStackLocation [in]
 
 Specifies the new stack location.
 

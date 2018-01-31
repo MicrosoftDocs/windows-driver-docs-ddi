@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PLPIT, PLPIT structure pointer [ACPI Devices], *PLPIT, acpi.lpit, acpitabl/PLPIT, _LPIT, acpitabl/LPIT, LPIT, LPIT structure [ACPI Devices]
+ms.keywords: PLPIT, *PLPIT, acpi.lpit, LPIT structure [ACPI Devices], acpitabl/LPIT, PLPIT structure pointer [ACPI Devices], LPIT, _LPIT, acpitabl/PLPIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _LPIT {
 
 
 
-### -field Header
+#### - Header
 
 A header.
 
 
-### -field LpiStates
+#### - LpiStates
 
 An array of states.
 

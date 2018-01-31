@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 954DE5B5-F08F-4805-8CA0-8C42CB1750FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_network_idle_hint, wwan/WWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT
+ms.keywords: WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], netvista.wwan_network_idle_hint, WWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT, wwan/PWWAN_NETWORK_IDLE_HINT, wwan/WWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_NETWORK_IDLE_HINT
 product: Windows
 targetos: Windows
-req.typenames: WWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT
+req.typenames: "*PWWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT"
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct _WWAN_NETWORK_IDLE_HINT {
 
 
 
-### -field IsEnabled
+#### - IsEnabled
 
 If TRUE, this is a hint that the network interface should utilize mechanisms for entering lower power modes faster. If FALSE, it is a hint that the network interface not utilize mechanisms for entering lower power modes faster.
 

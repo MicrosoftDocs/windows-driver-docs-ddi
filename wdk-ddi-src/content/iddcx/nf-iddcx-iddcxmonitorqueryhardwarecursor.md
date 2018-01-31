@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e954b7e7-9e4a-47ae-9b0f-8c7e051cc00e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorQueryHardwareCursor method [Display Devices], iddcx/IddCxMonitorQueryHardwareCursor, display.iddcxmonitorqueryhardwarecursor, IddCxMonitorQueryHardwareCursor
+ms.keywords: iddcx/IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], display.iddcxmonitorqueryhardwarecursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS IddCxMonitorQueryHardwareCursor(
 
 
 
-### -param MonitorObject [in]
+#### - MonitorObject [in]
 
 This is the OS context handle for this monitor returned by the <a href="..\iddcx\nf-iddcx-iddcxmonitorarrival.md">IddCxMonitorArrival</a> call
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 Input arguments of the function
 
 
-### -param pOutArgs [out]
+#### - pOutArgs [out]
 
 Output arguments of the function
 

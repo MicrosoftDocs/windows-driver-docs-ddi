@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 34DAA236-ACD0-4C25-BB45-00A81D2F131D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/DeviceRequestComplete, SignalMultipleDeviceEvents, strmini/DeleteDeviceEvent, DeviceRequestComplete, SignalDeviceEvent, strmini/SignalDeviceEvent, strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], strmini/SignalMultipleDeviceInstanceEvents, SignalMultipleDeviceInstanceEvents, strmini/DeviceNotificationMaximum, strmini/SignalMultipleDeviceEvents, stream.stream_minidriver_device_notification_type, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, ReadyForNextDeviceRequest, DeleteDeviceEvent, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, DeviceNotificationMaximum, _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration [Streaming Media Devices], strmini/ReadyForNextDeviceRequest
+ms.keywords: SignalMultipleDeviceEvents, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, stream.stream_minidriver_device_notification_type, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/DeviceNotificationMaximum, strmini/PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/DeleteDeviceEvent, strmini/SignalMultipleDeviceEvents, SignalDeviceEvent, strmini/SignalDeviceEvent, DeleteDeviceEvent, DeviceNotificationMaximum, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration [Streaming Media Devices], SignalMultipleDeviceInstanceEvents, DeviceRequestComplete, strmini/SignalMultipleDeviceInstanceEvents, strmini/ReadyForNextDeviceRequest, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], strmini/DeviceRequestComplete, ReadyForNextDeviceRequest, _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE"
+req.typenames: STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -76,32 +76,32 @@ typedef enum _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE {
 
 
 
-### -field ReadyForNextDeviceRequest
+#### - ReadyForNextDeviceRequest
 
 Indicates that the minidriver is ready for the next device request.
 
 
-### -field DeviceRequestComplete
+#### - DeviceRequestComplete
 
 Indicates that the specified device SRB has completed.
 
 
-### -field SignalMultipleDeviceEvents
+#### - SignalMultipleDeviceEvents
 
 
 
-### -field SignalDeviceEvent
+#### - SignalDeviceEvent
 
 
 
-### -field DeleteDeviceEvent
+#### - DeleteDeviceEvent
 
 
 
-### -field SignalMultipleDeviceInstanceEvents
+#### - SignalMultipleDeviceInstanceEvents
 
 
 
-### -field DeviceNotificationMaximum
+#### - DeviceNotificationMaximum
 
 

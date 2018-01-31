@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 95ef6c1e-c2b7-49ca-9aaf-caeb2dca7c3a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSSTREAMALLOCATOR_STATUS, stream.ksstreamallocator_status, ks-struct_e9071d70-ee9c-4ef9-828e-81d9abf6cc68.xml, ks/PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS structure [Streaming Media Devices], PKSSTREAMALLOCATOR_STATUS structure pointer [Streaming Media Devices], *PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS, ks/KSSTREAMALLOCATOR_STATUS
+ms.keywords: stream.ksstreamallocator_status, ks-struct_e9071d70-ee9c-4ef9-828e-81d9abf6cc68.xml, *PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS structure [Streaming Media Devices], KSSTREAMALLOCATOR_STATUS, PKSSTREAMALLOCATOR_STATUS, ks/PKSSTREAMALLOCATOR_STATUS, ks/KSSTREAMALLOCATOR_STATUS, PKSSTREAMALLOCATOR_STATUS structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-### -field Framing
+#### - Framing
 
 A <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure that contains the framing specified when the allocator was created.
 
 
-### -field AllocatedFrames
+#### - AllocatedFrames
 
 Contains the current number of allocated frames. This value changes on an extremely frequent basis.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved and set to zero.
 
@@ -93,9 +93,9 @@ Clients can query allocator status by providing a KSSTREAMALLOCATOR_STATUS struc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
-
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d0969f-bc30-4235-93a5-dda51e15b4fc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeAbortSynchronously, PFN_WDFUSBTARGETPIPEABORTSYNCHRONOUSLY, WdfUsbTargetPipeAbortSynchronously method, DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, kmdf.wdfusbtargetpipeabortsynchronously, WdfUsbTargetPipeAbortSynchronously, wdf.wdfusbtargetpipeabortsynchronously
+ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, wdf.wdfusbtargetpipeabortsynchronously, kmdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, PFN_WDFUSBTARGETPIPEABORTSYNCHRONOUSLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfUsbTargetPipeAbortSynchronously(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-### -param Request [in, optional]
+#### - Request [in, optional]
 
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param RequestOptions [in, optional]
+#### - RequestOptions [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
@@ -197,9 +197,9 @@ For more information about the <b>WdfUsbTargetPipeAbortSynchronously</b> method 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpiperesetsynchronously.md">WdfUsbTargetPipeResetSynchronously</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
  
 

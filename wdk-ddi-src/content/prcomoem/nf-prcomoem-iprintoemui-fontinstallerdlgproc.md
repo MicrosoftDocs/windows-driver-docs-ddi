@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemUI::FontInstallerDlgProc, IPrintOemUI::FontInstallerDlgProc, IPrintOemUI, FontInstallerDlgProc method [Print Devices], print.iprintoemui_fontinstallerdlgproc, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, FontInstallerDlgProc, IPrintOemUI interface [Print Devices], FontInstallerDlgProc method
+ms.keywords: print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, IPrintOemUI interface [Print Devices], FontInstallerDlgProc method, FontInstallerDlgProc, IPrintOemUI::FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface, IPrintOemUI, prcomoem/IPrintOemUI::FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], print.iprintoemui_fontinstallerdlgproc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT FontInstallerDlgProc(
 
 
 
-### -param hWnd
+#### - hWnd
 
 Window handle.
 
 
-### -param usMsg
+#### - usMsg
 
 Message identifier.
 
 
-### -param wParam
+#### - wParam
 
 First message parameter.
 
 
-### -param lParam
+#### - lParam
 
 Second message parameter.
 

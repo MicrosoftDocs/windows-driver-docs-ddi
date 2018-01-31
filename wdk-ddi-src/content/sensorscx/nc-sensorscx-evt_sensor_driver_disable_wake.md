@@ -68,7 +68,7 @@ NTSTATUS CALLBACK EVT_SENSOR_DRIVER_DISABLE_WAKE(
 
 
 
-### -param Sensor [in]
+#### - Sensor [in]
 
 A reference to the sensor object
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 147CE46A-315D-4B75-B345-A7C0B01B2078
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxEndpointNotifySetup, UfxEndpointNotifySetup, buses.ufxendpointnotifysetup, UfxEndpointNotifySetup method [Buses]
+ms.keywords: buses.ufxendpointnotifysetup, UfxEndpointNotifySetup method [Buses], ufxclient/UfxEndpointNotifySetup, UfxEndpointNotifySetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxEndpointNotifySetup
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ VOID UfxEndpointNotifySetup(
 TBD
 
 
-### -param SetupInfo [in]
+#### - SetupInfo [in]
 
 A pointer to a USB setup packet described in a <b>USB_DEFAULT_PIPE_SETUP_PACKET</b> structure (defined in Usbspec.h).
 

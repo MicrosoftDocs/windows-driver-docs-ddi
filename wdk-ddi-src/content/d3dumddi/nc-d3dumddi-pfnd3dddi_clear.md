@@ -73,7 +73,7 @@ __checkReturn HRESULT APIENTRY Clear(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 

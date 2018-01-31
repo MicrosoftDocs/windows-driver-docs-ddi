@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C0B1A72D-713B-48FF-8D1A-E9752569C10E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SET_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER, _NDIS_WWAN_SET_HOME_PROVIDER, netvista.ndis_wwan_set_home_provider, PNDIS_WWAN_SET_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER, *PNDIS_WWAN_SET_HOME_PROVIDER, PNDIS_WWAN_SET_HOME_PROVIDER
+ms.keywords: "*PNDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_HOME_PROVIDER, netvista.ndis_wwan_set_home_provider, PNDIS_WWAN_SET_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_SET_HOME_PROVIDER {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_HOME_PROVIDER structure. The MB
      Service sets the header with the values that are shown in the following table when it sends the data
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field HomeProvider
+#### - HomeProvider
 
 A formatted WWAN_PROVIDER2 object that represents the details of the home provider to be set.
 

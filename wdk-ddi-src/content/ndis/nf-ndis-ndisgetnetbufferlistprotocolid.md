@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], ndis/NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId, netvista.ndisgetnetbufferlistprotocolid, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml
+ms.keywords: NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], netvista.ndisgetnetbufferlistprotocolid, ndis/NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ UCHAR NdisGetNetBufferListProtocolId(
 
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.

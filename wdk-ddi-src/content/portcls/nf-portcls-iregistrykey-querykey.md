@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1b2642da-1b04-49a8-942e-6eb93afd12f2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], QueryKey method, QueryKey method [Audio Devices], IRegistryKey interface, audio.iregistrykey_querykey, QueryKey method [Audio Devices], QueryKey, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, IRegistryKey::QueryKey, portcls/IRegistryKey::QueryKey
+ms.keywords: IRegistryKey::QueryKey, audio.iregistrykey_querykey, portcls/IRegistryKey::QueryKey, QueryKey, IRegistryKey interface [Audio Devices], QueryKey method, QueryKey method [Audio Devices], IRegistryKey interface, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, IRegistryKey, QueryKey method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRegistryKey.QueryKey
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IRegistryKey::QueryKey method
@@ -70,7 +70,7 @@ NTSTATUS QueryKey(
 
 
 
-### -param KeyInformationClass [in]
+#### - KeyInformationClass [in]
 
 Specifies the type of information to be returned in the buffer. Set this parameter to one of the following KEY_INFORMATION_CLASS enumeration values:
 <ul>
@@ -88,17 +88,17 @@ Specifies the type of information to be returned in the buffer. Set this paramet
 </li>
 </ul>
 
-### -param KeyInformation [out]
+#### - KeyInformation [out]
 
 Pointer to a caller-allocated buffer into which the method writes the requested data. The buffer holds a structure of type <a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>, <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>, or <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>, depending on the value of <i>KeyInformationClass</i>. The structure is followed by a string of Unicode characters whose size depends on the type of information being requested about the key and the length of the key's name or class string.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Size in bytes of the <i>KeyInformation</i> buffer, which the caller must set according to the given <i>KeyInformationClass</i>. To receive all the requested data, the buffer must be at least as large as the size of the requested data.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 Output pointer for the length of the resulting data. This parameter points to a caller-allocated ULONG variable into which the method writes a count specifying the number of bytes actually written into the <i>KeyInformation</i> buffer. If the specified buffer length is too small to contain the information, however, the method instead outputs the required buffer size and returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL. For more information, see the following Remarks section.
 
@@ -136,15 +136,15 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: b10dbb47-394c-42f0-9471-6e5deb73a7b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXDevice, WheaErrTypeMemory, _WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIExpress, WheaErrTypePCIXBus, WheaErrTypeNMI, ntddk/WheaErrTypePCIXBus, ntddk/WheaErrTypeNMI, WheaErrTypeGeneric, WHEA_ERROR_TYPE, whea.whea_error_type, WheaErrTypeProcessor, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], WheaErrTypePCIXDevice, *PWHEA_ERROR_TYPE, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, ntddk/WheaErrTypeProcessor, ntddk/WheaErrTypeMemory, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], ntddk/WheaErrTypeGeneric, ntddk/WHEA_ERROR_TYPE, WheaErrTypePCIExpress, ntddk/PWHEA_ERROR_TYPE
+ms.keywords: WheaErrTypePCIXBus, _WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE, ntddk/WheaErrTypeGeneric, ntddk/PWHEA_ERROR_TYPE, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, WHEA_ERROR_TYPE, WheaErrTypePCIXDevice, WheaErrTypeNMI, ntddk/WheaErrTypePCIXDevice, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], ntddk/WheaErrTypeProcessor, ntddk/WheaErrTypeMemory, WheaErrTypeMemory, WheaErrTypePCIExpress, ntddk/WheaErrTypePCIExpress, WheaErrTypeGeneric, whea.whea_error_type, WheaErrTypeProcessor, ntddk/WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXBus, PWHEA_ERROR_TYPE, ntddk/WheaErrTypeNMI, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE
+req.typenames: "*PWHEA_ERROR_TYPE, WHEA_ERROR_TYPE"
 ---
 
 # _WHEA_ERROR_TYPE enumeration
@@ -73,37 +73,37 @@ typedef enum _WHEA_ERROR_TYPE {
 
 
 
-### -field WheaErrTypeProcessor
+#### - WheaErrTypeProcessor
 
 A processor reported the hardware error.
 
 
-### -field WheaErrTypeMemory
+#### - WheaErrTypeMemory
 
 The memory hierarchy reported the hardware error.
 
 
-### -field WheaErrTypePCIExpress
+#### - WheaErrTypePCIExpress
 
 A PCI Express root port reported the hardware error.
 
 
-### -field WheaErrTypeNMI
+#### - WheaErrTypeNMI
 
 A nonmaskable interrupt (NMI) was signaled.
 
 
-### -field WheaErrTypePCIXBus
+#### - WheaErrTypePCIXBus
 
 A PCI or PCI-X bus reported the hardware error.
 
 
-### -field WheaErrTypePCIXDevice
+#### - WheaErrTypePCIXDevice
 
 A PCI or PCI-X device reported the hardware error.
 
 
-### -field WheaErrTypeGeneric
+#### - WheaErrTypeGeneric
 
 A hardware component that does not conform to any of the other WHEA_ERROR_TYPE enumeration values reported the hardware error.
 

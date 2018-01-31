@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66f62a55-0bed-48ed-ae79-042bffe75b70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, ks/KsFreeObjectCreateItem, stream.ksfreeobjectcreateitem, KsFreeObjectCreateItem, KsFreeObjectCreateItem function [Streaming Media Devices]
+ms.keywords: KsFreeObjectCreateItem, stream.ksfreeobjectcreateitem, ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, KsFreeObjectCreateItem function [Streaming Media Devices], ks/KsFreeObjectCreateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsFreeObjectCreateItem(
 
 
 
-### -param Header [in]
+#### - Header [in]
 
 Points to the device header on which the create item is attached.
 
 
-### -param CreateItem [in]
+#### - CreateItem [in]
 
 Contains the name of the create item to free.
 

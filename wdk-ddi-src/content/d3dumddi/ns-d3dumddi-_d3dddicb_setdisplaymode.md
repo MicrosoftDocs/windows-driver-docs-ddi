@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d2f6d53b-2dd7-46ed-8d1e-dea264da4046
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_4aeee940-b195-4020-ad42-b69a2f34f93e.xml, display.d3dddicb_setdisplaymode, d3dumddi/D3DDDICB_SETDISPLAYMODE, D3DDDICB_SETDISPLAYMODE, D3DDDICB_SETDISPLAYMODE structure [Display Devices], _D3DDDICB_SETDISPLAYMODE
+ms.keywords: D3DDDICB_SETDISPLAYMODE, display.d3dddicb_setdisplaymode, d3dumddi/D3DDDICB_SETDISPLAYMODE, D3D_param_Structs_4aeee940-b195-4020-ad42-b69a2f34f93e.xml, _D3DDDICB_SETDISPLAYMODE, D3DDDICB_SETDISPLAYMODE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDICB_SETDISPLAYMODE {
 
 
 
-### -field hPrimaryAllocation
+#### - hPrimaryAllocation
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the primary allocation for scanning out. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns this handle. 
 
 
-### -field PrivateDriverFormatAttribute
+#### - PrivateDriverFormatAttribute
 
 [out] A private format attribute that the user-mode display driver should use to convert the current primary surface if the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a> callback function returned D3DDDIERR_INCOMPATIBLEPRIVATEFORMAT. 
 
@@ -87,11 +87,11 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member in the
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 436cd161-6984-4101-931a-221a829f40d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxreference, rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml, RxReference function [Installable File System Drivers], rxprocs/RxReference, RxReference
+ms.keywords: RxReference, RxReference function [Installable File System Drivers], rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml, ifsk.rxreference, rxprocs/RxReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID RxReference(
 
 
 
-### -param Instance [in, out]
+#### - Instance [in, out]
 
 A pointer to the reference-counted data structure to be referenced (incremented). 
 

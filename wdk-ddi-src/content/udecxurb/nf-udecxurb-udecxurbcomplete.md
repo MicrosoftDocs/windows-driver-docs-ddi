@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F0B014F3-AE40-466B-BD9A-0D01DF70DCFF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxurbcomplete, UdecxUrbComplete, UdecxUrbComplete function [Buses], udecxurb/UdecxUrbComplete
+ms.keywords: udecxurb/UdecxUrbComplete, UdecxUrbComplete function [Buses], UdecxUrbComplete, buses.udecxurbcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUrbComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH"
+req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ FORCEINLINE void UdecxUrbComplete(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
 
 
-### -param UsbdStatus [in]
+#### - UsbdStatus [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_STATUS</a>-typed value that indicates the success or failure of the completed URB request. 
 

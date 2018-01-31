@@ -74,7 +74,7 @@ NDIS_STATUS NdisTcpOffloadReceiveHandler(
 
 
 
-### -param NdisOffloadHandle [in]
+#### - NdisOffloadHandle [in]
 
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
@@ -83,7 +83,7 @@ A handle that identifies the offloaded TCP connection on which the indication is
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that was associated with the connection state.
 
 
-### -param NetBufferList [in]
+#### - NetBufferList [in]
 
 A pointer to a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Each 
@@ -107,7 +107,7 @@ The
       indication.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The offload target must supply the following status value:
      
@@ -123,7 +123,7 @@ This indicates that the host stack can retain ownership of the NET_BUFFER_LIST s
        MiniportTcpOffloadReceiveReturn</i></mshelp:link> function of the offload target.
 
 
-### -param BytesConsumed [out]
+#### - BytesConsumed [out]
 
 A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
      client application.
@@ -289,18 +289,18 @@ In the
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
    MiniportTcpOffloadReceiveReturn</i></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 

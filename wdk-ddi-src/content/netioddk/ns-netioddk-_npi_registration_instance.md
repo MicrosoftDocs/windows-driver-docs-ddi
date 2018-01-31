@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a368f9d9-a7e0-4b35-ba14-b0919f74029d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NPI_REGISTRATION_INSTANCE, nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml, PNPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], netioddk/NPI_REGISTRATION_INSTANCE, netvista.npi_registration_instance, netioddk/PNPI_REGISTRATION_INSTANCE"
+ms.keywords: PNPI_REGISTRATION_INSTANCE, _NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], netioddk/NPI_REGISTRATION_INSTANCE, netioddk/PNPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], netvista.npi_registration_instance, nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml, NPI_REGISTRATION_INSTANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,18 +73,18 @@ typedef struct _NPI_REGISTRATION_INSTANCE {
 
 
 
-### -field Version
+#### - Version
 
 The version of the NMR with which the network module is registering. A network module should set
      this member to zero.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the NPI_REGISTRATION_INSTANCE structure.
 
 
-### -field NpiId
+#### - NpiId
 
 A pointer to the 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> identifier for the specific 
@@ -103,14 +103,14 @@ typedef CONST NPIID *PNPIID;</pre>
 </tr>
 </table></span></div>
 
-### -field ModuleId
+#### - ModuleId
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a> structure that uniquely
      identifies the network module.
 
 
-### -field Number
+#### - Number
 
 The implementation number of the 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the network module
@@ -170,15 +170,15 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
-
 <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a>
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
 <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a>
+
+<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
  
 

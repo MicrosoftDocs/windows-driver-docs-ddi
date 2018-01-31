@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1113e917-3273-4ba7-8702-fe90a22fb024
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml, *PFILTER_EXTENSION, FILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], ntdddump/FILTER_EXTENSION, PFILTER_EXTENSION, _FILTER_EXTENSION, FILTER_EXTENSION structure [Storage Devices], storage.filter_extension, ntdddump/PFILTER_EXTENSION
+ms.keywords: FILTER_EXTENSION structure [Storage Devices], storage.filter_extension, structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml, ntdddump/FILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], ntdddump/PFILTER_EXTENSION, _FILTER_EXTENSION, *PFILTER_EXTENSION, FILTER_EXTENSION, PFILTER_EXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILTER_EXTENSION
 product: Windows
 targetos: Windows
-req.typenames: FILTER_EXTENSION, *PFILTER_EXTENSION
+req.typenames: "*PFILTER_EXTENSION, FILTER_EXTENSION"
 ---
 
 # _FILTER_EXTENSION structure
@@ -72,32 +72,32 @@ typedef struct _FILTER_EXTENSION {
 
 
 
-### -field DumpType
+#### - DumpType
 
 This parameter indicates the type of dump that this instance of the filter driver is loaded on.
 
 
-### -field DeviceObject
+#### - DeviceObject
 
 A pointer to the device object of the dump volume. This pointer points to the top of the dump volume stack.
 
 
-### -field Geometry
+#### - Geometry
 
 The disk geometry of the dump device in <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a> format.
 
 
-### -field DiskSize
+#### - DiskSize
 
 Size of the disk.
 
 
-### -field PartitionInfo
+#### - PartitionInfo
 
 The partition information in <a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a> format.
 
 
-### -field DumpData
+#### - DumpData
 
 A pointer to the context data that is provided by the filter driver in <a href="..\ntdddump\ns-ntdddump-_filter_initialization_data.md">FILTER_INITIALIZATION_DATA</a>.
 

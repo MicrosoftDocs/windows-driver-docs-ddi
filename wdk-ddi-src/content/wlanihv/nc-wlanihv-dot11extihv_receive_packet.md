@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvReceivePacket
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ DWORD APIENTRY Dot11ExtIhvReceivePacket(
 
 
 
-### -param hIhvExtAdapter [in, optional]
+#### - hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -83,13 +83,13 @@ The handle used by the IHV Extensions DLL to reference the WLAN adapter. This ha
      Handler function.
 
 
-### -param dwInBufferSize [in]
+#### - dwInBufferSize [in]
 
 The length, in bytes, of the received packet referenced by the 
      <i>pvInBuffer</i> parameter.
 
 
-### -param pvInBuffer [in]
+#### - pvInBuffer [in]
 
 A pointer to a buffer, allocated by the operating system, which contains the packet data, as
      described in the Remarks section.
@@ -145,9 +145,9 @@ Payload
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

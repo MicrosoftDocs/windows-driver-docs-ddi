@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 95150a1f-e323-4c29-8a4e-12ab4f231bc6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICESENDCONTROLTRANSFERSYNCHRONOUSLY, wdfusb/WdfUsbTargetDeviceSendControlTransferSynchronously, wdf.wdfusbtargetdevicesendcontroltransfersynchronously, WdfUsbTargetDeviceSendControlTransferSynchronously method, WdfUsbTargetDeviceSendControlTransferSynchronously, kmdf.wdfusbtargetdevicesendcontroltransfersynchronously, DFUsbRef_fe154a84-e5b4-4997-ad1f-6eb7f6829553.xml
+ms.keywords: PFN_WDFUSBTARGETDEVICESENDCONTROLTRANSFERSYNCHRONOUSLY, wdf.wdfusbtargetdevicesendcontroltransfersynchronously, kmdf.wdfusbtargetdevicesendcontroltransfersynchronously, wdfusb/WdfUsbTargetDeviceSendControlTransferSynchronously, DFUsbRef_fe154a84-e5b4-4997-ad1f-6eb7f6829553.xml, WdfUsbTargetDeviceSendControlTransferSynchronously, WdfUsbTargetDeviceSendControlTransferSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,32 +78,32 @@ NTSTATUS WdfUsbTargetDeviceSendControlTransferSynchronously(
 
 
 
-### -param UsbDevice [in]
+#### - UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param Request [in, optional]
+#### - Request [in, optional]
 
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param RequestOptions [in, optional]
+#### - RequestOptions [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param SetupPacket [in]
+#### - SetupPacket [in]
 
 A pointer to a caller-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure that describes the control transfer.
 
 
-### -param MemoryDescriptor [in, optional]
+#### - MemoryDescriptor [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure that describes either an input or an output buffer, depending on the device-specific command. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param BytesTransferred [out, optional]
+#### - BytesTransferred [out, optional]
 
 A pointer to a location that receives the number of bytes that are transferred. This parameter is optional and can be <b>NULL</b>.
 
@@ -280,13 +280,13 @@ For more information about the <b>WdfUsbTargetDeviceSendControlTransferSynchrono
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>
-
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md">WdfUsbTargetDeviceSendUrbSynchronously</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 

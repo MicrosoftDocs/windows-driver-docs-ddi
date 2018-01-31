@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f312afec-10b3-4049-a4c1-154c11b4a869
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], wdm/IoInvalidateDeviceRelations, IoInvalidateDeviceRelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, kernel.ioinvalidatedevicerelations
+ms.keywords: IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], kernel.ioinvalidatedevicerelations, wdm/IoInvalidateDeviceRelations, IoInvalidateDeviceRelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID IoInvalidateDeviceRelations(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the PDO for the device.
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies a <b>DEVICE_RELATION_TYPE</b> enumeration value that describes the type of relations that have changed. Possible values include <b>BusRelations</b>, <b>EjectionRelations</b>, <b>RemovalRelations</b>, and <b>TargetDeviceRelation</b>. Starting with Windows 7, the <b>PowerRelations</b> value is also supported.
 

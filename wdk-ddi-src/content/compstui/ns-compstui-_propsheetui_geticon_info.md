@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 23c06f1c-0c8f-4055-a997-1ff94c4a541e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PPROPSHEETUI_GETICON_INFO structure pointer [Print Devices], _PROPSHEETUI_GETICON_INFO, PROPSHEETUI_GETICON_INFO, compstui/PROPSHEETUI_GETICON_INFO, compstui/PPROPSHEETUI_GETICON_INFO, cpsuifnc_da228e66-0d1b-4d35-af1e-e1b99e56ad08.xml, PPROPSHEETUI_GETICON_INFO, print.propsheetui_geticon_info, *PPROPSHEETUI_GETICON_INFO, PROPSHEETUI_GETICON_INFO structure [Print Devices]
+ms.keywords: print.propsheetui_geticon_info, *PPROPSHEETUI_GETICON_INFO, PROPSHEETUI_GETICON_INFO, PROPSHEETUI_GETICON_INFO structure [Print Devices], PPROPSHEETUI_GETICON_INFO structure pointer [Print Devices], PPROPSHEETUI_GETICON_INFO, _PROPSHEETUI_GETICON_INFO, cpsuifnc_da228e66-0d1b-4d35-af1e-e1b99e56ad08.xml, compstui/PPROPSHEETUI_GETICON_INFO, compstui/PROPSHEETUI_GETICON_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _PROPSHEETUI_GETICON_INFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 CPSUI-supplied size, in bytes, of the PROPSHEETUI_GETICON_INFO structure.
 
 
-### -field Flags
+#### - Flags
 
 Reserved.
 
 
-### -field cxIcon
+#### - cxIcon
 
 CPSUI-supplied icon width, in pixels.
 
 
-### -field cyIcon
+#### - cyIcon
 
 CPSUI-supplied icon height, in pixels.
 
 
-### -field hIcon
+#### - hIcon
 
 Receives an application-supplied icon handle. If the icon is not loaded, the member must be set to zero.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PEP_PERF_STATE_TYPE, PepPerfStateTypeMax, pepfx/PepPerfStateTypeRange, pepfx/PepPerfStateTypeMax, PepPerfStateTypeRange, _PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE, PepPerfStateTypeDiscrete, pepfx/PepPerfStateTypeDiscrete, *PPEP_PERF_STATE_TYPE, kernel.pep_perf_state_type
+ms.keywords: PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, _PEP_PERF_STATE_TYPE, kernel.pep_perf_state_type, PepPerfStateTypeMax, PepPerfStateTypeRange, pepfx/PepPerfStateTypeRange, pepfx/PepPerfStateTypeMax, pepfx/PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE, PepPerfStateTypeDiscrete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _PEP_PERF_STATE_TYPE {
 
 
 
-### -field PepPerfStateTypeDiscrete
+#### - PepPerfStateTypeDiscrete
 
 The performance information is specified as a set of discrete values.
 
 
-### -field PepPerfStateTypeRange
+#### - PepPerfStateTypeRange
 
 The performance information is specified as a range of values.
 
 
-### -field PepPerfStateTypeMax
+#### - PepPerfStateTypeMax
 
 Reserved for use by operating system.
 

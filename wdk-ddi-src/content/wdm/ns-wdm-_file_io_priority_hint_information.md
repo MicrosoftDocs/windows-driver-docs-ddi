@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55f88d42-8411-49f0-bc40-7ccc268b3cc5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_FILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml, *PFILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION, kernel.file_io_priority_hint_information, FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PFILE_IO_PRIORITY_HINT_INFORMATION, wdm/FILE_IO_PRIORITY_HINT_INFORMATION"
+ms.keywords: PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PFILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION, kernel.file_io_priority_hint_information, FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION, kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml, _FILE_IO_PRIORITY_HINT_INFORMATION, wdm/FILE_IO_PRIORITY_HINT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_IO_PRIORITY_HINT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION"
+req.typenames: FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct _FILE_IO_PRIORITY_HINT_INFORMATION {
 
 
 
-### -field PriorityHint
+#### - PriorityHint
 
 Specifies the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> value that indicates the priority hint for a file handle.
 
@@ -82,11 +82,11 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IFileCallbackCleanup::OnCleanupFile, IFileCallbackCleanup interface, OnCleanupFile method, wdf.ifilecallbackcleanup_oncleanupfile, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, OnCleanupFile method, IFileCallbackCleanup interface, OnCleanupFile, OnCleanupFile method, IFileCallbackCleanup, IFileCallbackCleanup::OnCleanupFile
+ms.keywords: IFileCallbackCleanup, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, wudfddi/IFileCallbackCleanup::OnCleanupFile, wdf.ifilecallbackcleanup_oncleanupfile, OnCleanupFile method, OnCleanupFile method, IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, IFileCallbackCleanup interface, OnCleanupFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IFileCallbackCleanup.OnCleanupFile
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void OnCleanupFile(
 
 
 
-### -param pWdfFileObject [in]
+#### - pWdfFileObject [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is associated with the device. 
 

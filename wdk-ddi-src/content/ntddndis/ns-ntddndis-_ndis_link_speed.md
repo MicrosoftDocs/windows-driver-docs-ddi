@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d11155a3-b455-4c6e-83b8-7a86d8fd2aa1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_LINK_SPEED, ntddndis/PNDIS_LINK_SPEED, PNDIS_LINK_SPEED, oid_structures_ref_c610b58c-eead-4483-96ab-c3fd62c1e846.xml, _NDIS_LINK_SPEED, NDIS_LINK_SPEED structure [Network Drivers Starting with Windows Vista], NDIS_LINK_SPEED, netvista.ndis_link_speed, PNDIS_LINK_SPEED structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_LINK_SPEED
+ms.keywords: NDIS_LINK_SPEED, PNDIS_LINK_SPEED, *PNDIS_LINK_SPEED, oid_structures_ref_c610b58c-eead-4483-96ab-c3fd62c1e846.xml, _NDIS_LINK_SPEED, ntddndis/PNDIS_LINK_SPEED, ntddndis/NDIS_LINK_SPEED, PNDIS_LINK_SPEED structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_link_speed, NDIS_LINK_SPEED structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,13 +70,13 @@ typedef struct _NDIS_LINK_SPEED {
 
 
 
-### -field XmitLinkSpeed
+#### - XmitLinkSpeed
 
 The transmit link speed in bits per second. A value of -1 in this member indicates that the
      transmit link speed is unknown.
 
 
-### -field RcvLinkSpeed
+#### - RcvLinkSpeed
 
 The receive link speed in bits per second. A value of -1 in this member indicates that the receive
      link speed is unknown.

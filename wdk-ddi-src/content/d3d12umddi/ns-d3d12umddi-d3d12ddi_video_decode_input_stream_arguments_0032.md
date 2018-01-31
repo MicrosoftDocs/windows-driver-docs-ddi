@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ca647cd3-357b-4cd6-aa1c-6a03d5a77f10
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], display.d3d12ddi-video-decode-input-stream-arguments-0032, d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
+ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], display.d3d12ddi-video-decode-input-stream-arguments-0032, d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 {
 
 
 
-### -field FrameArguments
+#### - FrameArguments
 
 Frame arguments.
 
 
-### -field NumFrameArguments
+#### - NumFrameArguments
 
 The number of frame arguments.
 
 
-### -field ReferenceFrames
+#### - ReferenceFrames
 
 Reference frames.
 
 
-### -field CompressedBitstream
+#### - CompressedBitstream
 
 Compressed bitstream.
 
 
-### -field DecryptionParameters
+#### - DecryptionParameters
 
 Decryption parameters.
 
 
-### -field hDrvVideoDecoderHeap
+#### - hDrvVideoDecoderHeap
 
 Video decoder heap.
 

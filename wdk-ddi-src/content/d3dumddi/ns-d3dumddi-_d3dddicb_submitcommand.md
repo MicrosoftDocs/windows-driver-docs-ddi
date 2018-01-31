@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand
+ms.keywords: "_D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], display.d3dddicb_submitcommand, D3DDDICB_SUBMITCOMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,117 +89,117 @@ typedef struct _D3DDDICB_SUBMITCOMMAND {
 
 
 
-### -field Commands
+#### - Commands
 
 GPU virtual address to the commands being submitted to the context for execution. This information is provided to the kernel mode driver during command submission and is also used for debugging purposes.
 
 
-### -field CommandLength
+#### - CommandLength
 
 Specifies the length, in bytes, of the commands being submitted to the GPU. This information is provided to the kernel  mode driver during command submission and is also used for debugging purposes.
 
 
-### -field Flags
+#### - Flags
 
 An instance of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommandflags.md">D3DDDICB_SUBMITCOMMANDFLAGS</a> structure.
 
 
-### -field BroadcastContextCount
+#### - BroadcastContextCount
 
 Specifies the number of context these command should be submitted to. This count must be at least 1.
 
 
-### -field BroadcastContext
+#### - BroadcastContext
 
 Specifies the handle of the context to execute the specified commands.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 Pointer to driver private data to be passed to the kernel mode driver as part of this submission.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Size of the private driver data information being passed. This size must be smaller than the size requested by the kernel mode driver for submission private driver data.
 
 
-### -field NumPrimaries
+#### - NumPrimaries
 
 Specifies the number of primaries and swapchain back buffers being written to by the submitted commands. This is equal to the number of allocations in the <b>WrittenPrimaries</b> array.
 
 
-### -field WrittenPrimaries
+#### - WrittenPrimaries
 
 Arrays of handle to the primaries and swapchain back buffers being written to by the submitted commands.
 
 
-### -field MarkerLogType
+#### - MarkerLogType
 
 A <a href="..\d3dumddi\ne-d3dumddi-d3dddi_markerlogtype.md">D3DDDI_MARKERLOGTYPE</a> enumeration that indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
 
 
-### -field RenderCBSequence
+#### - RenderCBSequence
 
 A unique identifier for each <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function call. Starts at a value of 1 for contexts associated with single-threaded user-mode DDIs and ranges to a value of 0x80000001 for contexts associated with free-threaded user mode DDIs. The user-mode display driver must increment the value for each <i>pfnRenderCb</i> call it makes on any engine.
 
 
-### -field FirstAPISequenceNumberHigh
+#### - FirstAPISequenceNumberHigh
 
 Used by the driver to pass the context's API sequence number.
 
 
-### -field CompletedAPISequenceNumberLow0Size
+#### - CompletedAPISequenceNumberLow0Size
 
 Used by the driver to pass the context's API sequence number.
 
 
-### -field CompletedAPISequenceNumberLow1Size
+#### - CompletedAPISequenceNumberLow1Size
 
 Used by the driver to pass the context's API sequence number.
 
 
-### -field BegunAPISequenceNumberLow0Size
+#### - BegunAPISequenceNumberLow0Size
 
 Used by the driver to pass the context's API sequence number.
 
 
-### -field BegunAPISequenceNumberLow1Size
+#### - BegunAPISequenceNumberLow1Size
 
 Used by the driver to pass the context's API sequence number.
 
 
-### -field pCompletedAPISequenceNumberLow0
+#### - pCompletedAPISequenceNumberLow0
 
 A pointer used by the driver to pass the context's API sequence number.
 
 
-### -field pCompletedAPISequenceNumberLow1
+#### - pCompletedAPISequenceNumberLow1
 
 A pointer used by the driver to pass the context's API sequence number.
 
 
-### -field pBegunAPISequenceNumberLow0
+#### - pBegunAPISequenceNumberLow0
 
 A pointer used by the driver to pass the context's API sequence number.
 
 
-### -field pBegunAPISequenceNumberLow1
+#### - pBegunAPISequenceNumberLow1
 
 A pointer used by the driver to pass the context's API sequence number.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
 
-### -field NumHistoryBuffers
+#### - NumHistoryBuffers
 
 The number of history buffers.
 
 
-### -field HistoryBufferArray
+#### - HistoryBufferArray
 
 A pointer to the array of history buffers.
 
@@ -230,11 +230,11 @@ If the driver receives a call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_crea
 
 ## -see-also
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
 
  
 

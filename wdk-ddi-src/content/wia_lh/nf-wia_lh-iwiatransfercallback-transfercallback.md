@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: TransferCallback, TransferCallback method [Imaging Devices], IWiaTransferCallback interface [Imaging Devices], TransferCallback method, TransferCallback method [Imaging Devices], IWiaTransferCallback interface, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, wia_lh/IWiaTransferCallback::TransferCallback, IWiaTransferCallback::TransferCallback, IWiaTransferCallback, image.iwiatransfercallback_transfercallback
+ms.keywords: IWiaTransferCallback::TransferCallback, IWiaTransferCallback, image.iwiatransfercallback_transfercallback, IWiaTransferCallback interface [Imaging Devices], TransferCallback method, TransferCallback method [Imaging Devices], TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, TransferCallback method [Imaging Devices], IWiaTransferCallback interface, wia_lh/IWiaTransferCallback::TransferCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT TransferCallback(
 
 
 
-### -param lFlags [in]
+#### - lFlags [in]
 
 Currently unused. Should be set to zero.
 

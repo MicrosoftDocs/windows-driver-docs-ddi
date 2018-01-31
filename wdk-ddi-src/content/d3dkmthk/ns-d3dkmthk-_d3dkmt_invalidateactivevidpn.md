@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_invalidateactivevidpn, OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], D3DKMT_INVALIDATEACTIVEVIDPN
+ms.keywords: D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], display.d3dkmt_invalidateactivevidpn, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
 
 
 
-### -field hAdapter
+#### - hAdapter
 
 [in] A handle to the graphics adapter that the VidPN exists on.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to a buffer that contains the display mode (for example, clone-view mode) that the OpenGL installable client driver (ICD) requests for the new VidPN.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 

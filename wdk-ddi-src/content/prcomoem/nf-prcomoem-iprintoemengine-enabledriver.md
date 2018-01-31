@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EnableDriver method [Print Devices], IPrintOemEngine interface, IPrintOemEngine::EnableDriver, EnableDriver method [Print Devices], EnableDriver, IPrintOemEngine interface [Print Devices], EnableDriver method, prcomoem/IPrintOemEngine::EnableDriver, IPrintOemEngine, print.iprintoemengine_enabledriver
+ms.keywords: IPrintOemEngine::EnableDriver, EnableDriver, EnableDriver method [Print Devices], IPrintOemEngine, print.iprintoemengine_enabledriver, IPrintOemEngine interface [Print Devices], EnableDriver method, EnableDriver method [Print Devices], IPrintOemEngine interface, prcomoem/IPrintOemEngine::EnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,15 +70,15 @@ HRESULT EnableDriver(
 
 
 
-### -param DriverVersion
+#### - DriverVersion
 
 
 
-### -param cbSize
+#### - cbSize
 
 
 
-### -param pded
+#### - pded
 
 
 

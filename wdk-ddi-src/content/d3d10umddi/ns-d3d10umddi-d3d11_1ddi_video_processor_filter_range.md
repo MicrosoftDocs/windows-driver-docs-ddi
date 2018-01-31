@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9dc93d92-ccdc-488b-a5dd-a2efe783cbb3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, display.d3d11_1ddi_video_processor_filter_range
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure [Display Devices], display.d3d11_1ddi_video_processor_filter_range, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE {
 
 
 
-### -field Minimum
+#### - Minimum
 
 The minimum value of the filter.
 
 
-### -field Maximum
+#### - Maximum
 
 The maximum value of the filter.
 
 
-### -field Default
+#### - Default
 
 The default value of the filter.
 
 
-### -field Multiplier
+#### - Multiplier
 
 A multiplier. Use the following formula to translate the filter setting into the actual filter value: <i>Actual Value</i> = <i>Set Value</i> Ã— <i>Multiplier</i>.
 

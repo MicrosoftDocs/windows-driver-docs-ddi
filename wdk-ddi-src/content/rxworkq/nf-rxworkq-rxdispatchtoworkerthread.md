@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 426d28fa-abfe-44d9-9b15-119f92367b40
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxDispatchToWorkerThread routine [Installable File System Drivers], rxworkq/RxDispatchToWorkerThread, RxDispatchToWorkerThread, ifsk.rxdispatchtoworkerthread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml
+ms.keywords: rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, RxDispatchToWorkerThread, rxworkq/RxDispatchToWorkerThread, RxDispatchToWorkerThread routine [Installable File System Drivers], ifsk.rxdispatchtoworkerthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS RxDispatchToWorkerThread(
 
 
 
-### -param pMRxDeviceObject [in]
+#### - pMRxDeviceObject [in]
 
 A pointer to the device object of the corresponding network mini-redirector driver.
 
 
-### -param WorkQueueType [in]
+#### - WorkQueueType [in]
 
 The type of the work queue representing the priority of the task. The <i>WorkQueueType</i> parameter can be one of can be one of the following enumerations for WORK_QUEUE_TYPE:
 
@@ -98,12 +98,12 @@ Insert the WORK_QUEUE_ITEM into the queue from which a system thread with a vari
 Insert the WORK_QUEUE_ITEM into the queue from which a system thread will process the work item so that the routine to be invoked is not blocked.
 
 
-### -param Routine [in]
+#### - Routine [in]
 
 A pointer to the routine to be invoked.
 
 
-### -param pContext [in]
+#### - pContext [in]
 
 A pointer to a context parameter associated with the work item to complete that is passed to the driver.
 
@@ -157,9 +157,9 @@ If the <b>RxDispatchToWorkerThread </b>routine fails on a debug build, the <b>_R
 
 ## -see-also
 
-<a href="..\rxworkq\nf-rxworkq-rxspindownmrxdispatcher.md">RxSpinDownMRxDispatcher</a>
-
 <a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a>
+
+<a href="..\rxworkq\nf-rxworkq-rxspindownmrxdispatcher.md">RxSpinDownMRxDispatcher</a>
 
  
 

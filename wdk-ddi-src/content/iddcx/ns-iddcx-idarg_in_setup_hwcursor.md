@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e2c959c-0ebd-4464-ad47-96f432cb5c6b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_SETUP_HWCURSOR structure [Display Devices], iddcx/IDARG_IN_SETUP_HWCURSOR, display.idarg_in_setup_hwcursor, IDARG_IN_SETUP_HWCURSOR
+ms.keywords: iddcx/IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR structure [Display Devices], display.idarg_in_setup_hwcursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct IDARG_IN_SETUP_HWCURSOR {
 
 
 
-### -field CursorInfo
+#### - CursorInfo
 
 
                      [in] Cursor information for this path.
                  
 
 
-### -field hNewCursorDataAvailable
+#### - hNewCursorDataAvailable
 
 
                      [in] An event handle that will be triggered when new cursor data is available.

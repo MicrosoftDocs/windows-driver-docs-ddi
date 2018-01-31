@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 87ad817a-4a62-4061-949c-fe45bdfb44d5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WDF_FILEOBJECT_CONFIG_INIT, WDF_FILEOBJECT_CONFIG_INIT, WDF_FILEOBJECT_CONFIG_INIT function, kmdf.wdf_fileobject_config_init, DFDeviceObjectGeneralRef_ad75f4c0-79f7-42d6-8798-947cdcbfd8f1.xml, wdf.wdf_fileobject_config_init
+ms.keywords: wdfdevice/WDF_FILEOBJECT_CONFIG_INIT, wdf.wdf_fileobject_config_init, WDF_FILEOBJECT_CONFIG_INIT function, DFDeviceObjectGeneralRef_ad75f4c0-79f7-42d6-8798-947cdcbfd8f1.xml, WDF_FILEOBJECT_CONFIG_INIT, kmdf.wdf_fileobject_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ VOID WDF_FILEOBJECT_CONFIG_INIT(
 
 
 
-### -param FileEventCallbacks [out]
+#### - FileEventCallbacks [out]
 
 A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
 
 
-### -param EvtDeviceFileCreate [in, optional]
+#### - EvtDeviceFileCreate [in, optional]
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a> event callback function.
 
 
-### -param EvtFileClose [in, optional]
+#### - EvtFileClose [in, optional]
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a> event callback function.
 
 
-### -param EvtFileCleanup [in, optional]
+#### - EvtFileCleanup [in, optional]
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a> event callback function.
 

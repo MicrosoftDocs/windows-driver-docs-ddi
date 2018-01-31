@@ -40,7 +40,7 @@ apiname:
 -	EvtDeviceResourceRequirementsQuery
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ NTSTATUS EvtDeviceResourceRequirementsQuery(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param IoResourceRequirementsList [in]
+#### - IoResourceRequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents an empty resource requirements list.
 

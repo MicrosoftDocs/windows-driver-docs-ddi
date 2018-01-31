@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml, NdisGeneratePartialCancelId, ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid
+ms.keywords: protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml, netvista.ndisgeneratepartialcancelid, ndis/NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], NdisGeneratePartialCancelId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,14 +106,14 @@ Typically, an overlying driver calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
 
 <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
 
  
 

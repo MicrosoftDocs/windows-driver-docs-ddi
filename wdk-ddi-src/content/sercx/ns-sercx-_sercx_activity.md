@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 743AA179-3FD1-4528-9A78-5ECC53642D55
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], 1/PSERCX_ACTIVITY, serports.sercx_activity, SERCX_ACTIVITY, 1/SERCX_ACTIVITY, *PSERCX_ACTIVITY, _SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports]
+ms.keywords: 1/PSERCX_ACTIVITY, _SERCX_ACTIVITY, serports.sercx_activity, *PSERCX_ACTIVITY, SERCX_ACTIVITY, PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], 1/SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_ACTIVITY
 product: Windows
 targetos: Windows
-req.typenames: SERCX_ACTIVITY, *PSERCX_ACTIVITY
+req.typenames: "*PSERCX_ACTIVITY, SERCX_ACTIVITY"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _SERCX_ACTIVITY {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure. The <a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
-### -field Transmitting
+#### - Transmitting
 
 Whether a transmit (write) operation is in progress. This member is TRUE if a transmit operation is in progress. Otherwise, it is FALSE.
 
 
-### -field Receiving
+#### - Receiving
 
 Whether a receive (read) operation is in progress. This member is TRUE if a receive operation is in progress. Otherwise, it is FALSE.
 
@@ -100,13 +100,13 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 <a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
 
-<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
+<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 <a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e298f51b-58b7-4f04-85d3-3ee809deb489
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortAllocateQueueTag, AtaPortAllocateQueueTag routine [Storage Devices], storage.ataportallocatequeuetag, irb/AtaPortAllocateQueueTag, atartns_bae1e6d8-6ae5-4428-88a6-334a63fcefae.xml
+ms.keywords: irb/AtaPortAllocateQueueTag, AtaPortAllocateQueueTag routine [Storage Devices], AtaPortAllocateQueueTag, atartns_bae1e6d8-6ae5-4428-88a6-334a63fcefae.xml, storage.ataportallocatequeuetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ UCHAR AtaPortAllocateQueueTag(
 TBD
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Specifies the logical unit number (LUN) of the device.
 

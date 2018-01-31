@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fb952527-a8df-41e7-8194-b4a82b7f550f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_request_type_umdf, wudfusb/WdfUsbRequestTypeInvalid, wudfusb/PWDF_USB_REQUEST_TYPE, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, wudfusb/WdfUsbRequestTypePipeRead, umdf.wdf_usb_request_type, wudfusb/WDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypeNoFormat, _WDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE enumeration pointer, WdfUsbRequestTypeInvalid, WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeWrite, *PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeRead, WDF_USB_REQUEST_TYPE enumeration, wudfusb/WdfUsbRequestTypePipeWrite
+ms.keywords: wudfusb/WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeInvalid, WDF_USB_REQUEST_TYPE, umdf.wdf_usb_request_type, wdf.wdf_usb_request_type_umdf, wudfusb/WdfUsbRequestTypeInvalid, WdfUsbRequestTypePipeWrite, WdfUsbRequestTypeNoFormat, wudfusb/WdfUsbRequestTypePipeWrite, *PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceControlTransfer, PWDF_USB_REQUEST_TYPE, _WDF_USB_REQUEST_TYPE, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, WDF_USB_REQUEST_TYPE enumeration, PWDF_USB_REQUEST_TYPE enumeration pointer, wudfusb/WdfUsbRequestTypePipeRead, wudfusb/WDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeRead, wudfusb/PWDF_USB_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,27 +75,27 @@ typedef enum _WDF_USB_REQUEST_TYPE {
 
 
 
-### -field WdfUsbRequestTypeInvalid
+#### - WdfUsbRequestTypeInvalid
 
 The type of the request object is invalid. 
 
 
-### -field WdfUsbRequestTypeNoFormat
+#### - WdfUsbRequestTypeNoFormat
 
 The request object is not formatted.
 
 
-### -field WdfUsbRequestTypeDeviceControlTransfer
+#### - WdfUsbRequestTypeDeviceControlTransfer
 
 The request object is sent when the application calls the Win32 <b>DeviceIoControl</b> function on the file object that is associated with the target device. 
 
 
-### -field WdfUsbRequestTypePipeWrite
+#### - WdfUsbRequestTypePipeWrite
 
 The request object is sent when the application calls the Win32 <b>WriteFile</b> or <b>WriteFileEx</b> function on the file object that is associated with the target device. 
 
 
-### -field WdfUsbRequestTypePipeRead
+#### - WdfUsbRequestTypePipeRead
 
 The request object is sent when the application calls the Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function on the file object that is associated with the target device. 
 

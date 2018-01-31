@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2AC9E23B-928E-480F-A208-5A2DE92AEF4B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdfdevice/PWDF_DEVICE_INTERFACE_PROPERTY_DATA, wdf.wdf_device_interface_property_data, PWDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA structure, WDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA structure pointer"
+ms.keywords: wdf.wdf_device_interface_property_data, *PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA structure pointer, _WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdfdevice/PWDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA structure, WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_INTERFACE_PROPERTY_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA"
+req.typenames: WDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPERTY_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -75,35 +75,35 @@ typedef struct _WDF_DEVICE_INTERFACE_PROPERTY_DATA {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field InterfaceClassGUID
+#### - InterfaceClassGUID
 
 A pointer to a GUID that identifies the device interface class.
 
 
-### -field ReferenceString
+#### - ReferenceString
 
 A pointer to a <b>UNICODE_STRING</b> structure that describes a reference
     string for the device interface. This parameter is optional and can
     be NULL.
 
 
-### -field PropertyKey
+#### - PropertyKey
 
 A pointer to a <b>DEVPROPKEY</b> structure that specifies the device 
     property key.
 
 
-### -field Lcid
+#### - Lcid
 
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
-### -field Flags
+#### - Flags
 
 Not currently used. Set this member to zero.
 
@@ -128,13 +128,13 @@ The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure is used as input to the 
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
 
  
 

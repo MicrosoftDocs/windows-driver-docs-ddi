@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5d02c019-9a4a-458a-8361-7597bb1fe1a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_FLASH_ON, KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_FLASH_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_FLASH_S, *PKSPROPERTY_CAMERACONTROL_FLASH_S, PKSPROPERTY_CAMERACONTROL_FLASH_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_OFF, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_S, KSPROPERTY_CAMERACONTROL_FLASH_S, KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_MANUAL, ksmedia/PKSPROPERTY_CAMERACONTROL_FLASH_S, stream.ksproperty_cameracontrol_flash_s, KSPROPERTY_CAMERACONTROL_FLASH_AUTO
+ms.keywords: PKSPROPERTY_CAMERACONTROL_FLASH_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_AUTO, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_S, KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_FLASH_S, PKSPROPERTY_CAMERACONTROL_FLASH_S, ksmedia/PKSPROPERTY_CAMERACONTROL_FLASH_S, *PKSPROPERTY_CAMERACONTROL_FLASH_S, KSPROPERTY_CAMERACONTROL_FLASH_OFF, KSPROPERTY_CAMERACONTROL_FLASH_S structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_AUTO, KSPROPERTY_CAMERACONTROL_FLASH_ON, stream.ksproperty_cameracontrol_flash_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_CAMERACONTROL_FLASH_S
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_CAMERACONTROL_FLASH_S, KSPROPERTY_CAMERACONTROL_FLASH_S"
+req.typenames: KSPROPERTY_CAMERACONTROL_FLASH_S, *PKSPROPERTY_CAMERACONTROL_FLASH_S
 ---
 
 # KSPROPERTY_CAMERACONTROL_FLASH_S structure
@@ -68,7 +68,7 @@ typedef struct {
 
 
 
-### -field Flash
+#### - Flash
 
 Indicates requested flash settings. This value must be one of these possible values:
 <table>
@@ -109,7 +109,7 @@ The flash should be controlled by the device and driver based on lighting condit
 </table> 
 
 
-### -field Capabilities
+#### - Capabilities
 
 Indicates the flash modes that the device supports. This value is a bitwise <b>OR</b> of these possible values:
 <table>

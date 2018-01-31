@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b68a5f89-1623-4cab-84bf-3cc6e4031d9b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsymboltypeidwide, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeIdWide method, IDebugSymbols3::GetSymbolTypeIdWide, dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, GetSymbolTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolTypeIdWide, IDebugSymbols3, GetSymbolTypeIdWide method [Windows Debugging]
+ms.keywords: debugger.getsymboltypeidwide, GetSymbolTypeIdWide, IDebugSymbols3::GetSymbolTypeIdWide, GetSymbolTypeIdWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, GetSymbolTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeIdWide method, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetSymbolTypeIdWide(
 
 
 
-### -param Symbol [in]
+#### - Symbol [in]
 
 Specifies the expression whose type ID is requested.  See the Remarks section for details on the syntax of this expression.
 
 
-### -param TypeId [out]
+#### - TypeId [out]
 
 Receives the type ID.
 
 
-### -param Module [out, optional]
+#### - Module [out, optional]
 
 Receives the base address of the module containing the symbol.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.  If <i>Module</i> is <b>NULL</b>, this information is not returned.
 

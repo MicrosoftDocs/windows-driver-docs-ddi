@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSCLOCK_FUNCTIONTABLE, ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, ks/PKSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable, PKSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices]
+ms.keywords: stream.ksclock_functiontable, ks/PKSCLOCK_FUNCTIONTABLE, ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], *PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, ks/KSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCLOCK_FUNCTIONTABLE
 product: Windows
 targetos: Windows
-req.typenames: KSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE
+req.typenames: "*PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE"
 ---
 
 # KSCLOCK_FUNCTIONTABLE structure
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-### -field GetTime
+#### - GetTime
 
 Pointer to a driver-allocated <a href="..\ks\nc-ks-pfnksclock_gettime.md">KStrClockGetTime</a> routine.
 
 
-### -field GetPhysicalTime
+#### - GetPhysicalTime
 
 Pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567160">KStrClockGetPhysicalTime</a> routine.
 
 
-### -field GetCorrelatedTime
+#### - GetCorrelatedTime
 
 Pointer to a driver-allocated <a href="..\ks\nc-ks-pfnksclock_correlatedtime.md">KStrClockGetCorrelatedTime</a> routine.
 
 
-### -field GetCorrelatedPhysicalTime
+#### - GetCorrelatedPhysicalTime
 
 Pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567157">KStrClockGetCorrelatedPhysicalTime</a> routine. 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4bbd50a8-1f1f-45d9-9b63-6c1576fe7b98
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlisansicharacterlegalfat, ntifs/FsRtlIsAnsiCharacterLegalFat, fsrtlref_9d13203c-5fc4-4f4f-9372-09459f053bbc.xml, FsRtlIsAnsiCharacterLegalFat function [Installable File System Drivers], FsRtlIsAnsiCharacterLegalFat
+ms.keywords: ifsk.fsrtlisansicharacterlegalfat, ntifs/FsRtlIsAnsiCharacterLegalFat, FsRtlIsAnsiCharacterLegalFat, FsRtlIsAnsiCharacterLegalFat function [Installable File System Drivers], fsrtlref_9d13203c-5fc4-4f4f-9372-09459f053bbc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

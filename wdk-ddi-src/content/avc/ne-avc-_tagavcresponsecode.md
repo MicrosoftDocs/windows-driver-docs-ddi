@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 81a0ff7f-60a0-437e-8db2-ac364000d580
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, avc/AVC_RESPONSE_IN_TRANSITION, avc/AVC_RESPONSE_ACCEPTED, avc/AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_REJECTED, avc/AvcResponseCode, avc/AVC_RESPONSE_STABLE, AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_IMPLEMENTED, AvcResponseCode enumeration [Streaming Media Devices], AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_INTERIM, AVC_RESPONSE_IN_TRANSITION, stream.avcresponsecode, AVC_RESPONSE_STABLE, AVC_RESPONSE_REJECTED, AvcResponseCode, _tagAvcResponseCode, AVC_RESPONSE_NOTIMPL, AVC_RESPONSE_ACCEPTED, avc/AVC_RESPONSE_INTERIM, avc/AVC_RESPONSE_CHANGED
+ms.keywords: avc/AvcResponseCode, avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_REJECTED, _tagAvcResponseCode, avc/AVC_RESPONSE_REJECTED, stream.avcresponsecode, AVC_RESPONSE_INTERIM, AVC_RESPONSE_ACCEPTED, AVC_RESPONSE_STABLE, AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_IMPLEMENTED, avc/AVC_RESPONSE_NOTIMPL, AVC_RESPONSE_IN_TRANSITION, avc/AVC_RESPONSE_ACCEPTED, AvcResponseCode enumeration [Streaming Media Devices], avc/AVC_RESPONSE_IN_TRANSITION, AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_STABLE, avc/AVC_RESPONSE_INTERIM, AvcResponseCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _tagAvcResponseCode {
 
 
 
-### -field AVC_RESPONSE_NOTIMPL
+#### - AVC_RESPONSE_NOTIMPL
 
 Indicates the subunit does not support the specified control command.
 
 
-### -field AVC_RESPONSE_ACCEPTED
+#### - AVC_RESPONSE_ACCEPTED
 
 Indicates the subunit does implement the specified control command and that subunit state permits execution of the command. Note: Command execution may not have completed by the time the <b>AVC_RESPONSE_ACCEPTED</b> has been returned.
 
 
-### -field AVC_RESPONSE_REJECTED
+#### - AVC_RESPONSE_REJECTED
 
 Specifies a response indicating the command or request was rejected.
 
 
-### -field AVC_RESPONSE_IN_TRANSITION
+#### - AVC_RESPONSE_IN_TRANSITION
 
 Specifies a response indicating the command or request was accepted.
 
 
-### -field AVC_RESPONSE_STABLE
+#### - AVC_RESPONSE_STABLE
 
 Indicates the subunit implements the command. Same meaning as AVC_RESPONSE_IMPLMENTED.
 
 
-### -field AVC_RESPONSE_IMPLEMENTED
+#### - AVC_RESPONSE_IMPLEMENTED
 
 Indicates the subunit implements the command. Same meaning as AVC_RESPONSE_STABLE.
 
 
-### -field AVC_RESPONSE_CHANGED
+#### - AVC_RESPONSE_CHANGED
 
 Indicates the subunit state has changed.
 
 
-### -field AVC_RESPONSE_INTERIM
+#### - AVC_RESPONSE_INTERIM
 
 Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED</b> or <b>AVC_RESPONSE_REJECTED</b> within the 100 millisecond timeframe for responses. The subunit will ultimately return a response frame with either a <b>AVC_RESPONSE_ACCEPTED</b> or <b>AVC_RESPONSE_REJECTED</b> code.
 

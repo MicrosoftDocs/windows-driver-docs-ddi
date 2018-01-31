@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 97757CBA-8291-40A3-B247-D41E7FEB1D7C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, USBD_CreateHandle
+ms.keywords: USBD_CreateHandle, USBD_CreateHandle routine [Buses], usbdlib/USBD_CreateHandle, buses.usbd_register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	USBD_CreateHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,27 @@ NTSTATUS USBD_CreateHandle(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object for the client driver.
 
 
-### -param TargetDeviceObject [in]
+#### - TargetDeviceObject [in]
 
 Pointer to the next lower device object in the device stack. The client driver receives a pointer to that device object in a previous call to <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>.
 
 
-### -param USBDClientContractVersion [in]
+#### - USBDClientContractVersion [in]
 
 The contract version that the client driver supports. <i>USBDClientContractVersion</i> must be  USBD_CLIENT_CONTRACT_VERSION_602. For more information, see Remarks.
 
 
-### -param PoolTag [in]
+#### - PoolTag [in]
 
 The pool tag used for memory allocations.
 
 
-### -param USBDHandle [out]
+#### - USBDHandle [out]
 
 Opaque handle that indicates that the client driver was registered with the USB driver stack. For more information, see Remarks.
 
@@ -175,11 +175,11 @@ After the client driver is finished using the USBD handle, the driver must close
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
 <a href="..\usbdlib\nf-usbdlib-usbd_closehandle.md">USBD_CloseHandle</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>
 
  
 

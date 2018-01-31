@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4338e496-99e8-47d2-ba97-ce661c9cb025
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-scsibus_f6e03429-a591-41f0-9890-e513479f8896.xml, DSM_Load_Balance_Policy structure [Storage Devices], mpiodisk/PDSM_Load_Balance_Policy, storage.dsm_load_balance_policy, _DSM_Load_Balance_Policy, PDSM_Load_Balance_Policy, DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy, mpiodisk/DSM_Load_Balance_Policy, PDSM_Load_Balance_Policy structure pointer [Storage Devices]
+ms.keywords: PDSM_Load_Balance_Policy structure pointer [Storage Devices], mpiodisk/DSM_Load_Balance_Policy, PDSM_Load_Balance_Policy, _DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy, structs-scsibus_f6e03429-a591-41f0-9890-e513479f8896.xml, mpiodisk/PDSM_Load_Balance_Policy, storage.dsm_load_balance_policy, DSM_Load_Balance_Policy, DSM_Load_Balance_Policy structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DSM_Load_Balance_Policy {
 
 
 
-### -field Version
+#### - Version
 
 The version of WMI class supported. Set to 1.
 
 
-### -field LoadBalancePolicy
+#### - LoadBalancePolicy
 
 An unsigned 32-bitfield that represents the load balance policy type that is currently being applied to the LUN if the LUN is queried, or the new policy to apply to the LUN if the LUN is being set.
 
 
-### -field DSMPathCount
+#### - DSMPathCount
 
 An unsigned 32-bitfield that represents the number of paths that expose the LUN's instances.
 
 
-### -field Reserved
+#### - Reserved
 
 Should be zero.
 
 
-### -field DSM_Paths
+#### - DSM_Paths
 
 An array of MPIO_DSM_Path structures that represent path attributes for each of the LUN's instances.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: afd1aad4-d4cd-420f-bd3f-f171dc818a3e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_FENCE, D3DDDI_FENCE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SYNCHRONIZATION_MUTEX, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, DmEnums_b63edb60-f53f-4779-ad85-b9ad8a889508.xml, display.d3dddi_synchronizationobject_type, d3dukmdt/D3DDDI_SYNCHRONIZATION_MUTEX, D3DDDI_SEMAPHORE, d3dukmdt/, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration [Display Devices], d3dukmdt/D3DDDI_MONITORED_FENCE, D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_SEMAPHORE, D3DDDI_MONITORED_FENCE
+ms.keywords: d3dukmdt/D3DDDI_SYNCHRONIZATION_MUTEX, D3DDDI_FENCE, d3dukmdt/, d3dukmdt/D3DDDI_MONITORED_FENCE, D3DDDI_SYNCHRONIZATION_MUTEX, D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/D3DDDI_FENCE, D3DDDI_MONITORED_FENCE, DmEnums_b63edb60-f53f-4779-ad85-b9ad8a889508.xml, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration [Display Devices], display.d3dddi_synchronizationobject_type, _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/D3DDDI_SEMAPHORE, D3DDDI_SEMAPHORE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -79,35 +79,35 @@ typedef enum _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE {
 
 
 
-### -field D3DDDI_SYNCHRONIZATION_MUTEX
+#### - D3DDDI_SYNCHRONIZATION_MUTEX
 
 The synchronization object is a synchronization mutex.
 
 Supported starting with Windows Vista.
 
 
-### -field D3DDDI_SEMAPHORE
+#### - D3DDDI_SEMAPHORE
 
 The synchronization object is a semaphore.
 
 Supported starting with Windows Vista.
 
 
-### -field D3DDDI_FENCE
+#### - D3DDDI_FENCE
 
 The synchronization object is a fence. 
 
 Supported starting with Windows 7.
 
 
-### -field D3DDDI_CPU_NOTIFICATION
+#### - D3DDDI_CPU_NOTIFICATION
 
 The synchronization object is a CPU notification.
 
 Supported starting with Windows 7.
 
 
-### -field D3DDDI_MONITORED_FENCE
+#### - D3DDDI_MONITORED_FENCE
 
 The synchronization object is a monitored fence.
 

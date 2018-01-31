@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: be67b423-32a1-4f30-9f2c-fa6347cc960f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_MBctrl_P_HostResidDiff_1, dxva/DXVA_MBctrl_P_HostResidDiff_1, display.dxva_mbctrl_p_hostresiddiff_1, *LPDXVA_MBctrl_P_HostResidDiff_1, _DXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1 structure [Display Devices], dxvaref_a97c973f-9673-4049-badd-648b1d0cc39c.xml
+ms.keywords: DXVA_MBctrl_P_HostResidDiff_1, dxvaref_a97c973f-9673-4049-badd-648b1d0cc39c.xml, dxva/DXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1 structure [Display Devices], *LPDXVA_MBctrl_P_HostResidDiff_1, display.dxva_mbctrl_p_hostresiddiff_1, _DXVA_MBctrl_P_HostResidDiff_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _DXVA_MBctrl_P_HostResidDiff_1 {
 
 
 
-### -field wMBaddress
+#### - wMBaddress
 
 Specifies the macroblock address of the current macroblock in raster scan order. For examples of macroblock addresses see <a href="https://msdn.microsoft.com/f04c5462-db7c-4917-b8ef-22a630c82994">macroblock addresses</a>.
 
 
-### -field wMBtype
+#### - wMBtype
 
 Specifies the type of macroblock being processed. The following bits define the contents of <b>wMBtype</b>.
 <table>
@@ -225,12 +225,12 @@ Indicates that the macroblock is coded as intra, and no motion vectors are used 
 </table> 
 
 
-### -field dwMB_SNL
+#### - dwMB_SNL
 
 Specifies the number of skipped macroblocks to be generated following the current macroblock and indicates the location of the residual difference data for the blocks of the current macroblock. This member contains two variables: <i>MBskipsFollowing</i> in the most significant 8 bits, and <i>MBdataLocation</i> in the least significant 24 bits. <i>MBskipsFollowing</i> indicates the number of skipped macroblocks to be generated following the current macroblock. <i>MBdataLocation</i> is an index into the residual difference block data buffer. This index indicates the location of the residual difference data for the blocks of the current macroblock, expressed as a multiple of 32 bits.
 
 
-### -field wPatternCode
+#### - wPatternCode
 
 Indicates whether <a href="https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e">residual difference data</a> is sent for each block in the current macroblock. 
 
@@ -239,7 +239,7 @@ Bit (11-<i>i</i>) of <b>wPatternCode</b> (where bit zero is the least significan
 If the <b>bConfigSpatialResidInterleaved </b>member of DXVA_ConfigPictureDecode is 1, host-based residual differences are sent in a chroma-interleaved form matching that of the YUV pixel format in use. In this case, each Cb and spatially corresponding Cr pair of blocks is treated as a single residual difference structure unit. This does not alter the value or meaning of <b>wPatternCode</b>, but it implies that both members of each pair of Cb and Cr data blocks are sent whenever either of these data blocks has the corresponding bit set in <b>wPatternCode</b>. If the bit in <b>wPatternCode</b> for a particular data block is zero, the corresponding residual difference data values must be sent as zero whenever this pairing necessitates sending a residual difference data block for a block with a <b>wPatternCode</b> bit equal to zero.
 
 
-### -field wPC_Overflow
+#### - wPC_Overflow
 
 Specifies which blocks of the macroblock use overflow residual difference data.
 
@@ -248,12 +248,12 @@ When using host-based residual difference decoding with the <b>bPicOverflowBlock
  
 
 
-### -field dwReservedBits2
+#### - dwReservedBits2
 
 Reserved bits used for packing and alignment. Must be zero.
 
 
-### -field MVector
+#### - MVector
 
 An array containing the value of the motion vector(s) for the macroblock, each motion vector is represented by a <a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a> structure.
 
@@ -275,13 +275,13 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
+<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
 
  
 

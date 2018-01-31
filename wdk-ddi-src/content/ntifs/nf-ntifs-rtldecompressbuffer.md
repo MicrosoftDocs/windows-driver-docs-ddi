@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4f82d094-e6be-4367-9146-1fa3f200ffa0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlDecompressBuffer, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, RtlDecompressBuffer function [Installable File System Drivers], RtlDecompressBuffer, COMPRESSION_FORMAT_DEFAULT, ifsk.rtldecompressbuffer
+ms.keywords: COMPRESSION_FORMAT_LZNT1, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml, ifsk.rtldecompressbuffer, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_NONE, RtlDecompressBuffer function [Installable File System Drivers], COMPRESSION_FORMAT_DEFAULT, RtlDecompressBuffer, ntifs/RtlDecompressBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ NTSTATUS RtlDecompressBuffer(
 
 
 
-### -param CompressionFormat [in]
+#### - CompressionFormat [in]
 
 A bitmask that specifies the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows.
 <table>
@@ -123,27 +123,27 @@ The function will perform Xpress decompression.
 </table> 
 
 
-### -param UncompressedBuffer [out]
+#### - UncompressedBuffer [out]
 
 A pointer to a caller-allocated buffer (allocated from paged or non-paged pool) that receives the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param UncompressedBufferSize [in]
+#### - UncompressedBufferSize [in]
 
 The size, in bytes, of the <i>UncompressedBuffer</i>  buffer.
 
 
-### -param CompressedBuffer [in]
+#### - CompressedBuffer [in]
 
 A pointer to the buffer that contains the data to decompress. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param CompressedBufferSize [in]
+#### - CompressedBufferSize [in]
 
 The size, in bytes, of the <i>CompressedBuffer</i>  buffer.
 
 
-### -param FinalUncompressedSize [out]
+#### - FinalUncompressedSize [out]
 
 A pointer to a caller-allocated variable that receives the size, in bytes, of the decompressed data stored in <i>UncompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
@@ -236,15 +236,15 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
-
-<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
-
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
 <a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+
+<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 

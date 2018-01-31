@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55674946-A2DA-4695-8673-6BF3123FB5FC
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactionstopsystemtransfer, WdfDmaTransactionStopSystemTransfer method, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer, PFN_WDFDMATRANSACTIONSTOPSYSTEMTRANSFER, wdf.wdfdmatransactionstopsystemtransfer, WdfDmaTransactionStopSystemTransfer
+ms.keywords: WdfDmaTransactionStopSystemTransfer, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer, kmdf.wdfdmatransactionstopsystemtransfer, PFN_WDFDMATRANSACTIONSTOPSYSTEMTRANSFER, wdf.wdfdmatransactionstopsystemtransfer, WdfDmaTransactionStopSystemTransfer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ void WdfDmaTransactionStopSystemTransfer(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to an initialized DMA transaction object.
 
@@ -106,9 +106,9 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncancel.md">WdfDmaTransactionCancel</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncancel.md">WdfDmaTransactionCancel</a>
 
  
 

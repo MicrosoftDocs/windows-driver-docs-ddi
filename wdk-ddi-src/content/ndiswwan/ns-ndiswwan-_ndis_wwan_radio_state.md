@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61173af4-5b6f-47e9-b236-6b45bcd83a9f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, NDIS_WWAN_RADIO_STATE, *PNDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_radio_state, PNDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_RADIO_STATE, ndiswwan/PNDIS_WWAN_RADIO_STATE, ndiswwan/NDIS_WWAN_RADIO_STATE
+ms.keywords: ndiswwan/NDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE, WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, netvista.ndis_wwan_radio_state, NDIS_WWAN_RADIO_STATE, ndiswwan/PNDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_RADIO_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_RADIO_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_RADIO_STATE, *PNDIS_WWAN_RADIO_STATE
+req.typenames: "*PNDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE"
 ---
 
 # _NDIS_WWAN_RADIO_STATE structure
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_RADIO_STATE {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_RADIO_STATE structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of the radio state operation. The following table shows the possible values for this
      member.
@@ -174,7 +174,7 @@ The operation failed because the device is in the process of initializing. Retry
 </table> 
 
 
-### -field RadioState
+#### - RadioState
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a> object that represents

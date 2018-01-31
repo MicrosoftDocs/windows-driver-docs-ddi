@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DRIVER_INITIALIZATION_DATA structure [Display Devices], _DRIVER_INITIALIZATION_DATA, dispmprt/DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/PDRIVER_INITIALIZATION_DATA, DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, PDRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices]
+ms.keywords: PDRIVER_INITIALIZATION_DATA, _DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, dispmprt/DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, DRIVER_INITIALIZATION_DATA structure [Display Devices], dispmprt/PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVER_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA"
+req.typenames: DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
 ---
 
 # _DRIVER_INITIALIZATION_DATA structure
@@ -161,317 +161,317 @@ typedef struct _DRIVER_INITIALIZATION_DATA {
 
 
 
-### -field Version
+#### - Version
 
 A positive integer that indicates the version of the functional interface implemented by the display miniport driver. The display miniport driver must set this member to <b>DXGKDDI_INTERFACE_VERSION</b>, which is defined in Dispmprt.h.
 
 
-### -field DxgkDdiAddDevice
+#### - DxgkDdiAddDevice
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-### -field DxgkDdiStartDevice
+#### - DxgkDdiStartDevice
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
 
 
-### -field DxgkDdiStopDevice
+#### - DxgkDdiStopDevice
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a> function.
 
 
-### -field DxgkDdiRemoveDevice
+#### - DxgkDdiRemoveDevice
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_remove_device.md">DxgkDdiRemoveDevice</a> function.
 
 
-### -field DxgkDdiDispatchIoRequest
+#### - DxgkDdiDispatchIoRequest
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_dispatch_io_request.md">DxgkDdiDispatchIoRequest</a> function.
 
 
-### -field DxgkDdiInterruptRoutine
+#### - DxgkDdiInterruptRoutine
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function.
 
 
-### -field DxgkDdiDpcRoutine
+#### - DxgkDdiDpcRoutine
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_dpc_routine.md">DxgkDdiDpcRoutine</a> function.
 
 
-### -field DxgkDdiQueryChildRelations
+#### - DxgkDdiQueryChildRelations
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function.
 
 
-### -field DxgkDdiQueryChildStatus
+#### - DxgkDdiQueryChildStatus
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a> function.
 
 
-### -field DxgkDdiQueryDeviceDescriptor
+#### - DxgkDdiQueryDeviceDescriptor
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a> function.
 
 
-### -field DxgkDdiSetPowerState
+#### - DxgkDdiSetPowerState
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a> function.
 
 
-### -field DxgkDdiNotifyAcpiEvent
+#### - DxgkDdiNotifyAcpiEvent
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a> function.
 
 
-### -field DxgkDdiResetDevice
+#### - DxgkDdiResetDevice
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_reset_device.md">DxgkDdiResetDevice</a> function.
 
 
-### -field DxgkDdiUnload
+#### - DxgkDdiUnload
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_unload.md">DxgkDdiUnload</a> function.
 
 
-### -field DxgkDdiQueryInterface
+#### - DxgkDdiQueryInterface
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a> function.
 
 
-### -field DxgkDdiControlEtwLogging
+#### - DxgkDdiControlEtwLogging
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_control_etw_logging.md">DxgkDdiControlEtwLogging</a> function.
 
 
-### -field DxgkDdiQueryAdapterInfo
+#### - DxgkDdiQueryAdapterInfo
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
 
 
-### -field DxgkDdiCreateDevice
+#### - DxgkDdiCreateDevice
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function.
 
 
-### -field DxgkDdiCreateAllocation
+#### - DxgkDdiCreateAllocation
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. 
 
 
-### -field DxgkDdiDestroyAllocation
+#### - DxgkDdiDestroyAllocation
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a> function.
 
 
-### -field DxgkDdiDescribeAllocation
+#### - DxgkDdiDescribeAllocation
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_describeallocation.md">DxgkDdiDescribeAllocation</a> function. 
 
 
-### -field DxgkDdiGetStandardAllocationDriverData
+#### - DxgkDdiGetStandardAllocationDriverData
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a> function. 
 
 
-### -field DxgkDdiAcquireSwizzlingRange
+#### - DxgkDdiAcquireSwizzlingRange
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function.
 
 
-### -field DxgkDdiReleaseSwizzlingRange
+#### - DxgkDdiReleaseSwizzlingRange
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a> function.
 
 
-### -field DxgkDdiPatch
+#### - DxgkDdiPatch
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function.
 
 
-### -field DxgkDdiSubmitCommand
+#### - DxgkDdiSubmitCommand
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a> function.
 
 
-### -field DxgkDdiPreemptCommand
+#### - DxgkDdiPreemptCommand
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_preemptcommand.md">DxgkDdiPreemptCommand</a> function.
 
 
-### -field DxgkDdiBuildPagingBuffer
+#### - DxgkDdiBuildPagingBuffer
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function.
 
 
-### -field DxgkDdiSetPalette
+#### - DxgkDdiSetPalette
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a> function that sets the palette for the display.
 
 
-### -field DxgkDdiSetPointerPosition
+#### - DxgkDdiSetPointerPosition
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a> function.
 
 
-### -field DxgkDdiSetPointerShape
+#### - DxgkDdiSetPointerShape
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a> function.
 
 
-### -field DxgkDdiResetFromTimeout
+#### - DxgkDdiResetFromTimeout
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetfromtimeout.md">DxgkDdiResetFromTimeout</a> function.
 
 
-### -field DxgkDdiRestartFromTimeout
+#### - DxgkDdiRestartFromTimeout
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_restartfromtimeout.md">DxgkDdiRestartFromTimeout</a> function.
 
 
-### -field DxgkDdiEscape
+#### - DxgkDdiEscape
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a> function.
 
 
-### -field DxgkDdiCollectDbgInfo
+#### - DxgkDdiCollectDbgInfo
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a> function.
 
 
-### -field DxgkDdiQueryCurrentFence
+#### - DxgkDdiQueryCurrentFence
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querycurrentfence.md">DxgkDdiQueryCurrentFence</a> function.
 
 
-### -field DxgkDdiIsSupportedVidPn
+#### - DxgkDdiIsSupportedVidPn
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a> function.
 
 
-### -field DxgkDdiRecommendFunctionalVidPn
+#### - DxgkDdiRecommendFunctionalVidPn
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a> function.
 
 
-### -field DxgkDdiEnumVidPnCofuncModality
+#### - DxgkDdiEnumVidPnCofuncModality
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a> function.
 
 
-### -field DxgkDdiSetVidPnSourceAddress
+#### - DxgkDdiSetVidPnSourceAddress
 
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a> function.
 
 
-### -field DxgkDdiSetVidPnSourceVisibility
+#### - DxgkDdiSetVidPnSourceVisibility
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility.md">DxgkDdiSetVidPnSourceVisibility</a> function.
 
 
-### -field DxgkDdiCommitVidPn
+#### - DxgkDdiCommitVidPn
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>  function.
 
 
-### -field DxgkDdiUpdateActiveVidPnPresentPath
+#### - DxgkDdiUpdateActiveVidPnPresentPath
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a> function.
 
 
-### -field DxgkDdiRecommendMonitorModes
+#### - DxgkDdiRecommendMonitorModes
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonitormodes.md">DxgkDdiRecommendMonitorModes</a> function.
 
 
-### -field DxgkDdiRecommendVidPnTopology
+#### - DxgkDdiRecommendVidPnTopology
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendvidpntopology.md">DxgkDdiRecommendVidPnTopology</a> function.
 
 
-### -field DxgkDdiGetScanLine
+#### - DxgkDdiGetScanLine
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md">DxgkDdiGetScanLine</a> function.
 
 
-### -field DxgkDdiStopCapture
+#### - DxgkDdiStopCapture
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_stopcapture.md">DxgkDdiStopCapture</a> function.
 
 
-### -field DxgkDdiControlInterrupt
+#### - DxgkDdiControlInterrupt
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a> function.
 
 
-### -field DxgkDdiCreateOverlay
+#### - DxgkDdiCreateOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function.
 <div class="alert"><b>Note</b>  The following 5 functions are specific to the graphics context device that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>:</div><div> </div>
 
-### -field DxgkDdiDestroyDevice
+#### - DxgkDdiDestroyDevice
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroydevice.md">DxgkDdiDestroyDevice</a> function.
 
 
-### -field DxgkDdiOpenAllocation
+#### - DxgkDdiOpenAllocation
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a> function.
 
 
-### -field DxgkDdiCloseAllocation
+#### - DxgkDdiCloseAllocation
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_closeallocation.md">DxgkDdiCloseAllocation</a> function. 
 
 
-### -field DxgkDdiRender
+#### - DxgkDdiRender
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> function.
 
 
-### -field DxgkDdiPresent
+#### - DxgkDdiPresent
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function.
 <div class="alert"><b>Note</b>  The following 3 functions are specific to the overlay that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>:</div><div> </div>
 
-### -field DxgkDdiUpdateOverlay
+#### - DxgkDdiUpdateOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a> function.
 
 
-### -field DxgkDdiFlipOverlay
+#### - DxgkDdiFlipOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_flipoverlay.md">DxgkDdiFlipOverlay</a> function.
 
 
-### -field DxgkDdiDestroyOverlay
+#### - DxgkDdiDestroyOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyoverlay.md">DxgkDdiDestroyOverlay</a> function.
 <div class="alert"><b>Note</b>  The following 2 functions are specific to supporting contexts:</div><div> </div>
 
-### -field DxgkDdiCreateContext
+#### - DxgkDdiCreateContext
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function.
 
 
-### -field DxgkDdiDestroyContext
+#### - DxgkDdiDestroyContext
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a> function.
 
 
-### -field DxgkDdiLinkDevice
+#### - DxgkDdiLinkDevice
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a> function. Be aware that this function is specific to supporting linked graphics adapters.
 
 
-### -field DxgkDdiSetDisplayPrivateDriverFormat
+#### - DxgkDdiSetDisplayPrivateDriverFormat
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat.md">DxgkDdiSetDisplayPrivateDriverFormat</a> function.
 <div class="alert"><b>Note</b>  The following 6 <a href="https://msdn.microsoft.com/F92F15A7-439D-4D45-84EE-A92D1E6AD779">reserved functions</a> declared in Dispmrt.h are available beginning with Windows 7:</div><div> </div>
 
-### -field DxgkDdiDescribePageTable
+#### - DxgkDdiDescribePageTable
 
 
       This member is reserved and should be set to zero.
@@ -480,7 +480,7 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field DxgkDdiUpdatePageTable
+#### - DxgkDdiUpdatePageTable
 
 
       This member is reserved and should be set to zero.
@@ -489,7 +489,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field DxgkDdiUpdatePageDirectory
+#### - DxgkDdiUpdatePageDirectory
 
 
       This member is reserved and should be set to zero.
@@ -498,7 +498,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field DxgkDdiMovePageDirectory
+#### - DxgkDdiMovePageDirectory
 
 
       This member is reserved and should be set to zero.
@@ -507,7 +507,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field DxgkDdiSubmitRender
+#### - DxgkDdiSubmitRender
 
 
       This member is reserved and should be set to zero.
@@ -516,7 +516,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field DxgkDdiCreateAllocation2
+#### - DxgkDdiCreateAllocation2
 
 
       This member is reserved and should be set to zero.
@@ -525,7 +525,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 <div class="alert"><b>Note</b>  The following 3 functions are available beginning with Windows 7:</div><div> </div>
 
-### -field DxgkDdiRenderKm
+#### - DxgkDdiRenderKm
 
 
       A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a> function.
@@ -534,7 +534,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field Reserved
+#### - Reserved
 
 
       This member is reserved and should be set to zero.
@@ -543,7 +543,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field DxgkDdiQueryVidPnHWCapability
+#### - DxgkDdiQueryVidPnHWCapability
 
 
       A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a> function.
@@ -552,126 +552,126 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 <div class="alert"><b>Note</b>  The following 12 functions, including one reserved function, are available beginning with Windows 8:</div><div> </div>
 
-### -field DxgkDdiSetPowerComponentFState
+#### - DxgkDdiSetPowerComponentFState
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md">DxgkDdiSetPowerComponentFState</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiQueryDependentEngineGroup
+#### - DxgkDdiQueryDependentEngineGroup
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md">DxgkDdiQueryDependentEngineGroup</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiQueryEngineStatus
+#### - DxgkDdiQueryEngineStatus
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiResetEngine
+#### - DxgkDdiResetEngine
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiStopDeviceAndReleasePostDisplayOwnership
+#### - DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiSystemDisplayEnable
+#### - DxgkDdiSystemDisplayEnable
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_enable.md">DxgkDdiSystemDisplayEnable</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiSystemDisplayWrite
+#### - DxgkDdiSystemDisplayWrite
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_write.md">DxgkDdiSystemDisplayWrite</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiCancelCommand
+#### - DxgkDdiCancelCommand
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_cancelcommand.md">DxgkDdiCancelCommand</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiGetChildContainerId
+#### - DxgkDdiGetChildContainerId
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_get_child_container_id.md">DxgkDdiGetChildContainerId</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiPowerRuntimeControlRequest
+#### - DxgkDdiPowerRuntimeControlRequest
 
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/56535128-3107-4fb5-b0e1-2e913c386cc2">DxgkDdiPowerRuntimeControlRequest</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay
+#### - DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a> function.
 
 Supported starting with Windows 8.1.
 
 
-### -field DxgkDdiNotifySurpriseRemoval
+#### - DxgkDdiNotifySurpriseRemoval
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_surprise_removal.md">DxgkDdiNotifySurpriseRemoval</a> function.
 
 Supported starting with Windows 8.
 
 
-### -field DxgkDdiGetNodeMetadata
+#### - DxgkDdiGetNodeMetadata
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getnodemetadata.md">DxgkDdiGetNodeMetadata</a> function.
 
 Supported starting with Windows 8.1.
 
 
-### -field DxgkDdiSetPowerPState
+#### - DxgkDdiSetPowerPState
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.1.
 
 
-### -field DxgkDdiControlInterrupt2
+#### - DxgkDdiControlInterrupt2
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdiControlInterrupt2</a> function.
 
 Supported starting with Windows 10
 
 
-### -field DxgkDdiCheckMultiPlaneOverlaySupport
+#### - DxgkDdiCheckMultiPlaneOverlaySupport
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport.md">DxgkDdiCheckMultiPlaneOverlaySupport</a> function.
 
 Supported starting with Windows 8.1.
 
 
-### -field DxgkDdiCalibrateGpuClock
+#### - DxgkDdiCalibrateGpuClock
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_calibrategpuclock.md">DxgkDdiCalibrateGpuClock</a> function.
 
 Supported starting with Windows 8.1.
 
 
-### -field DxgkDdiFormatHistoryBuffer
+#### - DxgkDdiFormatHistoryBuffer
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_formathistorybuffer.md">DxgkDdiFormatHistoryBuffer</a> function.
 

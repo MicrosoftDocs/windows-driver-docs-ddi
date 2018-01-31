@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9b97deb9-7e64-49a1-8278-08084c8b7c84
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSAC3_ALTERNATE_AUDIO, ksmedia/PKSAC3_ALTERNATE_AUDIO, ksmedia/KSAC3_ALTERNATE_AUDIO, *PKSAC3_ALTERNATE_AUDIO, KSAC3_ALTERNATE_AUDIO structure [Audio Devices], KSAC3_ALTERNATE_AUDIO, PKSAC3_ALTERNATE_AUDIO structure pointer [Audio Devices], audio.ksac3_alternate_audio, aud-prop_172c7e1b-4c53-4836-82c2-37590cf87744.xml
+ms.keywords: aud-prop_172c7e1b-4c53-4836-82c2-37590cf87744.xml, ksmedia/PKSAC3_ALTERNATE_AUDIO, *PKSAC3_ALTERNATE_AUDIO, KSAC3_ALTERNATE_AUDIO structure [Audio Devices], KSAC3_ALTERNATE_AUDIO, PKSAC3_ALTERNATE_AUDIO structure pointer [Audio Devices], ksmedia/KSAC3_ALTERNATE_AUDIO, PKSAC3_ALTERNATE_AUDIO, audio.ksac3_alternate_audio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAC3_ALTERNATE_AUDIO
 product: Windows
 targetos: Windows
-req.typenames: KSAC3_ALTERNATE_AUDIO, *PKSAC3_ALTERNATE_AUDIO
+req.typenames: "*PKSAC3_ALTERNATE_AUDIO, KSAC3_ALTERNATE_AUDIO"
 ---
 
 # KSAC3_ALTERNATE_AUDIO structure
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field fStereo
+#### - fStereo
 
 Specifies whether the two mono channels should be interpreted as a stereo pair. If <b>TRUE</b>, the two mono channels are treated as a stereo pair. If <b>FALSE</b>, <b>DualMode</b>=0x03 causes the two mono channels to be mixed before being output by the decoder.
 
 
-### -field DualMode
+#### - DualMode
 
 When two independent channels of audio are encoded in the stream, this member specifies whether to use the audio track in channel 1, channel 2, or both. A value of 0x01 selects channel 1, 0x02 selects channel 2, and 0x03 selects both. Specify the value of this member as one of the following constants:
 <table>

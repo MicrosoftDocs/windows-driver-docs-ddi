@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 692d3336-d9cd-438b-a52c-ae4c55070227
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForSynchronizationObject2 function [Display Devices], D3DKMTWaitForSynchronizationObject2, display.d3dkmtwaitforsynchronizationobject2, OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject2
+ms.keywords: display.d3dkmtwaitforsynchronizationobject2, D3DKMTWaitForSynchronizationObject2, OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml, D3DKMTWaitForSynchronizationObject2 function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

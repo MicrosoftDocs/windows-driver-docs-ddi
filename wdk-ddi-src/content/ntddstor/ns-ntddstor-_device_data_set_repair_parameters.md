@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BBA834D0-4D21-42EF-98B0-9AF3FF28E6E2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS, _DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/DEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer [Storage Devices], ntddstor/PDEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS structure [Storage Devices], storage.device_data_set_repair_parameters"
+ms.keywords: "*PDEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS, storage.device_data_set_repair_parameters, DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/PDEVICE_DATA_SET_REPAIR_PARAMETERS, _DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/DEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS structure [Storage Devices], PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_DATA_SET_REPAIR_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS"
+req.typenames: DEVICE_DATA_SET_REPAIR_PARAMETERS, *PDEVICE_DATA_SET_REPAIR_PARAMETERS
 ---
 
 # _DEVICE_DATA_SET_REPAIR_PARAMETERS structure
@@ -71,17 +71,17 @@ typedef struct _DEVICE_DATA_SET_REPAIR_PARAMETERS {
 
 
 
-### -field NumberOfRepairCopies
+#### - NumberOfRepairCopies
 
 The total  number of copies to repair.
 
 
-### -field SourceCopy
+#### - SourceCopy
 
 The source copy number.
 
 
-### -field RepairCopies
+#### - RepairCopies
 
 An array of copy numbers for the copies to repair.
 

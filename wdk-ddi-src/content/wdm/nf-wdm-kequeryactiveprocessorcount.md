@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4369ad33-ba4a-45db-9a41-e77d6c55da53
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kequeryactiveprocessorcount, wdm/KeQueryActiveProcessorCount, KeQueryActiveProcessorCount routine [Kernel-Mode Driver Architecture], KeQueryActiveProcessorCount, k105_23574ace-ab66-43bb-976f-ca7310cece9a.xml
+ms.keywords: kernel.kequeryactiveprocessorcount, k105_23574ace-ab66-43bb-976f-ca7310cece9a.xml, KeQueryActiveProcessorCount routine [Kernel-Mode Driver Architecture], KeQueryActiveProcessorCount, wdm/KeQueryActiveProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG KeQueryActiveProcessorCount(
 
 
 
-### -param ActiveProcessors [out, optional]
+#### - ActiveProcessors [out, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed variable into which the routine writes a bitmask that represents the set of currently active processors. In a hot-add environment, this mask may change during runtime. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require the mask of active processors. 
 
@@ -111,11 +111,11 @@ Kernel routines that use the KAFFINITY type include <a href="..\wdm\nf-wdm-iocon
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
-
 <a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
 
 <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
+ms.keywords: WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskCaptureProviderNPI
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ NTSTATUS WskCaptureProviderNPI(
 
 
 
-### -param WskRegistration [in]
+#### - WskRegistration [in]
 
 A pointer to the memory location initialized by 
      <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK
@@ -82,7 +82,7 @@ A pointer to the memory location initialized by
      <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>.
 
 
-### -param WaitTimeout [in]
+#### - WaitTimeout [in]
 
 The time, in milliseconds, that the 
      <b>WskCaptureProviderNPI</b> function can wait until the WSK provider NPI becomes available. Alternately,
@@ -106,7 +106,7 @@ Return from this function immediately if the provider NPI is not available.
 Wait until the provider NPI is available from the WSK subsystem.
 
 
-### -param WskProviderNpi [out]
+#### - WskProviderNpi [out]
 
 A pointer to the NPI returned by the WSK provider. This 
      <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a> structure contains a
@@ -202,11 +202,11 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
-<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
+<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
 
  
 

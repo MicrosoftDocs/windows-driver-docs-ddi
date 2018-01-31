@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY ExtensionExecute(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 

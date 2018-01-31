@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d1a7451-8c0f-4df8-85c5-14aaaa9afd94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClCloseCall, condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, ndis/NdisClCloseCall, NdisClCloseCall function [Network Drivers Starting with Windows Vista], netvista.ndisclclosecall
+ms.keywords: netvista.ndisclclosecall, ndis/NdisClCloseCall, condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, NdisClCloseCall, NdisClCloseCall function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NDIS_STATUS NdisClCloseCall(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Handle to the VC of the call being closed or disconnected. This handle was supplied by NDIS when
      the VC was originally created with 
@@ -80,7 +80,7 @@ Handle to the VC of the call being closed or disconnected. This handle was suppl
      incoming call to the client.
 
 
-### -param NdisPartyHandle [in, optional]
+#### - NdisPartyHandle [in, optional]
 
 Handle to the last party to be dropped on a multipoint VC or <b>NULL</b>. If this is a multipoint VC, the
      client obtained this handle either from a preceding call to 
@@ -88,14 +88,14 @@ Handle to the last party to be dropped on a multipoint VC or <b>NULL</b>. If thi
      <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>.
 
 
-### -param Buffer [in, optional]
+#### - Buffer [in, optional]
 
 Pointer to a caller-allocated buffer containing any data to be transmitted to the party on the
      remote node when the connection is closed. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
 
-### -param Size [in]
+#### - Size [in]
 
 Specifies the size, in bytes, at 
      <i>Buffer</i>, zero if 
@@ -227,31 +227,31 @@ After the client releases an
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<mshelp:link keywords="netvista.protocolclincomingcallqoschange" tabindex="0"><i>
+   ProtocolClIncomingCallQoSChange</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
-<mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
-   ProtocolClModifyCallQoSComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
 <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
-<mshelp:link keywords="netvista.protocolclincomingcallqoschange" tabindex="0"><i>
-   ProtocolClIncomingCallQoSChange</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
+   ProtocolClModifyCallQoSComplete</i></mshelp:link>
 
 <mshelp:link keywords="netvista.protocolcosendnetbufferlistscomplete" tabindex="0"><i>
    ProtocolCoSendNetBufferListsComplete</i></mshelp:link>

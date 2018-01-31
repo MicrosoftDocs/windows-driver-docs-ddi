@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f8184ae1-878f-46fc-bddc-66c065bc9e75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasUpdateScanRect function [Imaging Devices], wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, image.wiasupdatescanrect, wiamdef/wiasUpdateScanRect, wiasUpdateScanRect
+ms.keywords: wiamdef/wiasUpdateScanRect, image.wiasupdatescanrect, wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, wiasUpdateScanRect, wiasUpdateScanRect function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasUpdateScanRect
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasUpdateScanRect(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param pContext [in]
+#### - pContext [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure containing the property context, created by a prior call to <a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>.
 
 
-### -param lWidth
+#### - lWidth
 
 Specifies the horizontal width of the scanning area of the scanning device, in units of thousandths of an inch. Normally, this is the horizontal bed size.
 
 
-### -param lHeight
+#### - lHeight
 
 Specifies the vertical height of the scanning area of the scanning device, in units of thousandths of an inch. Normally, this is the vertical bed size.
 
@@ -107,9 +107,9 @@ This helper method is called to update the properties making up the scan rectang
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 
  
 

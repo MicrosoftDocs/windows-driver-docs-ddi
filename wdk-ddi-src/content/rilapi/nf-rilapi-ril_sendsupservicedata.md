@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d5bf5fa0-12c0-4971-91bc-775c59d45d60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendSupServiceData, RIL_SendSupServiceData, netvista.ril_sendsupservicedata
+ms.keywords: RIL_SendSupServiceData, RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendSupServiceData, netvista.ril_sendsupservicedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_SendSupServiceData(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param dwExecutor
+#### - dwExecutor
 
 
 
-### -param lpwszData
+#### - lpwszData
 
 
 

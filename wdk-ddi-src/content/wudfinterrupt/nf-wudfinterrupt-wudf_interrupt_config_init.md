@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71011FDF-547E-4FF0-9015-E8E09FDF950E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wudf_interrupt_config_init, WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT function, umdf.wudf_interrupt_config_init, wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT
+ms.keywords: WUDF_INTERRUPT_CONFIG_INIT, wdf.wudf_interrupt_config_init, WUDF_INTERRUPT_CONFIG_INIT function, wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT, umdf.wudf_interrupt_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ void WUDF_INTERRUPT_CONFIG_INIT(
 
 
 
-### -param Configuration [out]
+#### - Configuration [out]
 
 A pointer to a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure.
 
 
-### -param OnInterruptIsr [in]
+#### - OnInterruptIsr [in]
 
 A pointer to the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_isr.md">OnInterruptIsr</a> event callback function.
 
 
-### -param OnInterruptWorkItem [in, optional]
+#### - OnInterruptWorkItem [in, optional]
 
 A pointer to the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a> event callback function, or NULL.
 

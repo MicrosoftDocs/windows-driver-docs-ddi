@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: baec1e38-360e-4f4f-82bd-bc89e3f8483d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetCapabilities method [Imaging Devices], IStiUSD interface, image.istiusd_getcapabilities, GetCapabilities, IStiUSD, IStiUSD::GetCapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, GetCapabilities method [Imaging Devices], stiusd/IStiUSD::GetCapabilities, IStiUSD interface [Imaging Devices], GetCapabilities method
+ms.keywords: image.istiusd_getcapabilities, GetCapabilities method [Imaging Devices], GetCapabilities, stiusd/IStiUSD::GetCapabilities, GetCapabilities method [Imaging Devices], IStiUSD interface, IStiUSD::GetCapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, IStiUSD, IStiUSD interface [Imaging Devices], GetCapabilities method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.GetCapabilities
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e7f6a8b9-22f1-4c5b-a0b7-b87ceb2c0b1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER, _PCI_EXPRESS_ROOT_STATUS_REGISTER, pci_struct_ff3a211f-421b-41f3-9250-d658636bfe49.xml, ntddk/PPCI_EXPRESS_ROOT_STATUS_REGISTER, PPCI_EXPRESS_ROOT_STATUS_REGISTER union pointer [Buses], PCI_EXPRESS_ROOT_STATUS_REGISTER union [Buses], ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER, PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI.pci_express_root_status_register"
+ms.keywords: PPCI_EXPRESS_ROOT_STATUS_REGISTER union pointer [Buses], PCI.pci_express_root_status_register, PCI_EXPRESS_ROOT_STATUS_REGISTER, *PPCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER, _PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER union [Buses], pci_struct_ff3a211f-421b-41f3-9250-d658636bfe49.xml, PPCI_EXPRESS_ROOT_STATUS_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_ROOT_STATUS_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_ROOT_STATUS_REGISTER, *PPCI_EXPRESS_ROOT_STATUS_REGISTER
+req.typenames: "*PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER"
 ---
 
 # _PCI_EXPRESS_ROOT_STATUS_REGISTER structure
@@ -98,7 +98,7 @@ typedef union _PCI_EXPRESS_ROOT_STATUS_REGISTER {
  
 
 
-### -field AsULONG
+#### - AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_STATUS_REGISTER structure.
 
@@ -134,9 +134,9 @@ A PCI_EXPRESS_ROOT_STATUS_REGISTER structure is contained in the <a href="https:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXPRESS_PME_REQUESTOR_ID</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXPRESS_PME_REQUESTOR_ID</a>
 
  
 

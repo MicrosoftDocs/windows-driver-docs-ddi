@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dd33f88a-91f6-4ea4-bb6b-6fb505676684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames, dbgeng/IDebugSymbols3::GetModuleNames, GetModuleNames method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols2::GetModuleNames, IDebugSymbols interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, GetModuleNames, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method
+ms.keywords: debugger.getmodulenames, IDebugSymbols interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::GetModuleNames, IDebugSymbols2::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, IDebugSymbols3::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, dbgeng/IDebugSymbols2::GetModuleNames, GetModuleNames, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, IDebugSymbols3, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,57 +79,57 @@ HRESULT GetModuleNames(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the module whose names are requested.  If it is set to DEBUG_ANY_ID, the module is specified by <i>Base</i>.
 
 
-### -param Base [in]
+#### - Base [in]
 
 Specifies the base address of the module whose names are requested.  This parameter is only used if <i>Index</i> is set to DEBUG_ANY_ID.
 
 
-### -param ImageNameBuffer [out, optional]
+#### - ImageNameBuffer [out, optional]
 
 Receives the image name of the module.  If <i>ImageNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ImageNameBufferSize [in]
+#### - ImageNameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>ImageNameBuffer</i> in characters.
 
 
-### -param ImageNameSize [out, optional]
+#### - ImageNameSize [out, optional]
 
 Receives the size in characters of the image name.  If <i>ImageNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ModuleNameBuffer [out, optional]
+#### - ModuleNameBuffer [out, optional]
 
 Receives the module name of the module.  If <i>ModuleNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ModuleNameBufferSize [in]
+#### - ModuleNameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>ModuleNameBuffer</i>.
 
 
-### -param ModuleNameSize [out, optional]
+#### - ModuleNameSize [out, optional]
 
 Receives the size in characters of the module name.  If <i>ModuleNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param LoadedImageNameBuffer [out, optional]
+#### - LoadedImageNameBuffer [out, optional]
 
 Receives the loaded image name of the module.  If <i>LoadedImageNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param LoadedImageNameBufferSize [in]
+#### - LoadedImageNameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>LoadedImageNameBuffer</i>.
 
 
-### -param LoadedImageNameSize [out, optional]
+#### - LoadedImageNameSize [out, optional]
 
 Receives the size in characters of the loaded image name.  If <i>LoadedImageNameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -189,13 +189,13 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547149">GetModuleNameString</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547149">GetModuleNameString</a>
 
  
 

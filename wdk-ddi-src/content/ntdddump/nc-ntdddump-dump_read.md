@@ -40,7 +40,7 @@ apiname:
 -	Dump_Read
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_READ callback
@@ -72,17 +72,17 @@ NTSTATUS Dump_Read(
 
 
 
-### -param FilterExtension [in]
+#### - FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 
 
-### -param DiskByteOffset [in]
+#### - DiskByteOffset [in]
 
 The value, in bytes, relative to the source partition for the crash dump or hibernation. Filter drivers should not modify this field.
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the data buffer containing the dump data. Filter drivers should not modify this field.
 
@@ -105,9 +105,9 @@ Filter drivers can modify the contents of the data buffer contained in <b>Mdl</b
 
 ## -see-also
 
-<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
-
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
+
+<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
 
  
 

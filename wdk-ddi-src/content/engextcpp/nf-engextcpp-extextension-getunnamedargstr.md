@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aaaee0d-eabe-4615-b888-8239f2791d80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension, GetUnnamedArgStr, EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, debugger.getunnamedargstr, GetUnnamedArgStr method [Windows Debugging], ExtExtension::GetUnnamedArgStr, ExtExtension class [Windows Debugging], GetUnnamedArgStr method, GetUnnamedArgStr method [Windows Debugging], ExtExtension class
+ms.keywords: debugger.getunnamedargstr, GetUnnamedArgStr method [Windows Debugging], ExtExtension class, ExtExtension, GetUnnamedArgStr method [Windows Debugging], EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, ExtExtension::GetUnnamedArgStr, GetUnnamedArgStr, ExtExtension class [Windows Debugging], GetUnnamedArgStr method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.GetUnnamedArgStr
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtExtension::GetUnnamedArgStr method
@@ -67,7 +67,7 @@ PCSTR GetUnnamedArgStr(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the argument.  The command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a> must specify that the type of this argument is string.  The value of <i>Index</i> should be between zero and the number of unnamed arguments returned by <a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a> minus one (unnamed arguments - 1).
 

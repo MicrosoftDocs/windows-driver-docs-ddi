@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 73348405-0cc1-412a-b9b1-cfcc300190d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: InitializePrintMonitor2, spoolfnc_34b0ce7d-8bb5-4cb1-9539-cd3b1b0113f4.xml, winsplp/InitializePrintMonitor2, print.initializeprintmonitor2, InitializePrintMonitor2 function [Print Devices]
+ms.keywords: InitializePrintMonitor2, print.initializeprintmonitor2, spoolfnc_34b0ce7d-8bb5-4cb1-9539-cd3b1b0113f4.xml, winsplp/InitializePrintMonitor2, InitializePrintMonitor2 function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ LPMONITOR2 InitializePrintMonitor2(
 
 
 
-### -param pMonitorInit [in]
+#### - pMonitorInit [in]
 
 Caller-supplied pointer to a <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a> structure.
 
 
-### -param phMonitor [out]
+#### - phMonitor [out]
 
 Caller-supplied location in which the function returns a monitor handle.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5d70be6-daa5-4d2e-94fd-5739edd8821e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, netvista.net_buffer_list_context, _NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, *PNET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], ndis/PNET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, _NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT, netvista.net_buffer_list_context, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_BUFFER_LIST_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT"
+req.typenames: NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT
 ---
 
 # _NET_BUFFER_LIST_CONTEXT structure
@@ -71,19 +71,19 @@ typedef struct _NET_BUFFER_LIST_CONTEXT {
 
 
 
-### -field Next
+#### - Next
 
 A pointer to the next NET_BUFFER_LIST_CONTEXT structure in a linked list of
      NET_BUFFER_LIST_CONTEXT structures.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the entire context space in the NET_BUFFER_LIST_CONTEXT structure,
      including the used and unused context space.
 
 
-### -field Offset
+#### - Offset
 
 The offset, in bytes, from the beginning of the context data buffer to the start of the context
      data in the NET_BUFFER_LIST_CONTEXT structure. The 
@@ -91,7 +91,7 @@ The offset, in bytes, from the beginning of the context data buffer to the start
      NET_BUFFER_LIST_CONTEXT structure.
 
 
-### -field ContextData
+#### - ContextData
 
 The context data buffer. The context data can include any information that a driver
      requires.
@@ -179,18 +179,18 @@ For more information on how to use net buffers, see
 
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
 
-<mshelp:link keywords="netvista.net_buffer_list_context_data_start" tabindex="0"><b>
-   NET_BUFFER_LIST_CONTEXT_DATA_START</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
-
 <mshelp:link keywords="netvista.net_buffer_list_context_data_size" tabindex="0"><b>
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<mshelp:link keywords="netvista.net_buffer_list_context_data_start" tabindex="0"><b>
+   NET_BUFFER_LIST_CONTEXT_DATA_START</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
 
  
 

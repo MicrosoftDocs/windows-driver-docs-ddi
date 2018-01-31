@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5D084A9F-B0B1-4DB6-91CF-8185063A1D65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_received_provision_discovery_response_parameters, _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
+ms.keywords: DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, netvista.dot11_received_provision_discovery_response_parameters, PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS"
+req.typenames: DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ typedef struct _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -96,27 +96,27 @@ The type, revision, and size of the <b>DOT11_RECEIVED_PROVISION_DISCOVERY_RESPON
 </table> 
 
 
-### -field TransmitterDeviceAddress
+#### - TransmitterDeviceAddress
 
 The address of the device that transmitted the provision discovery response packet.
 
 
-### -field BSSID
+#### - BSSID
 
 The BSSID from the received provision discovery response packet.
 
 
-### -field DialogToken
+#### - DialogToken
 
 The dialog token from the received provision discovery response packet.
 
 
-### -field uIEsOffset
+#### - uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) received in the provision discovery response packet. This offset is from the start of the buffer that contains this structure.
 
 
-### -field uIEsLength
+#### - uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 

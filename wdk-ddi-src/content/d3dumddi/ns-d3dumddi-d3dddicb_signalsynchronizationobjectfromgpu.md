@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FF098E63-842F-4D88-A184-BE886E0ED507
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_signalsynchronizationobjectfromgpu, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices]
+ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], display.d3dddicb_signalsynchronizationobjectfromgpu, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,28 +73,28 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
 
 
 
-### -field MonitoredFenceValueArray
+#### - MonitoredFenceValueArray
 
 [in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
 
 
-### -field hContext
+#### - hContext
 
 [in] A kernel-mode handle to the context stream.
 
 
-### -field ObjectCount
+#### - ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array and fence values in <b>MonitoredFenceValueArray</b> arrays.
 
 
-### -field ObjectHandleArray
+#### - ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 

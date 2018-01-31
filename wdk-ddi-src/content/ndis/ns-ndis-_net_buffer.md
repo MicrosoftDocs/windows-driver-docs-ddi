@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66a725f9-ae72-41b4-8840-63c9ff89ace7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER, NET_BUFFER, ndis/NET_BUFFER, ndis/PNET_BUFFER, *PNET_BUFFER, netvista.net_buffer, NET_BUFFER structure [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, PNET_BUFFER
+ms.keywords: netvista.net_buffer, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], *PNET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, NET_BUFFER, PNET_BUFFER, _NET_BUFFER, ndis/PNET_BUFFER, ndis/NET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: NET_BUFFER, *PNET_BUFFER
+req.typenames: "*PNET_BUFFER, NET_BUFFER"
 ---
 
 # _NET_BUFFER structure
@@ -120,60 +120,60 @@ typedef struct _NET_BUFFER {
  
 
 
-### -field NetBufferHeader
+#### - NetBufferHeader
 
 A 
      <a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a> structure.
 
 
-### -field SharedMemoryInfo
+#### - SharedMemoryInfo
 
 A pointer to an 
       <mshelp:link keywords="netvista.net_buffer_shared_memory" tabindex="0"><b>
       NET_BUFFER_SHARED_MEMORY</b></mshelp:link> structure.
 
 
-### -field ScatterGatherList
+#### - ScatterGatherList
 
 The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
 
 
-### -field ChecksumBias
+#### - ChecksumBias
 
 The number of bytes to skip over from the beginning of the data buffer when computing a checksum.
      This member is used by the TCP/IP protocol.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 
 
-### -field NdisPoolHandle
+#### - NdisPoolHandle
 
 A pool handle that identifies the NET_BUFFER pool from which the NET_BUFFER structure was
      allocated.
 
 
-### -field NdisReserved
+#### - NdisReserved
 
 Reserved for NDIS.
 
 
-### -field ProtocolReserved
+#### - ProtocolReserved
 
 Reserved for use by protocol drivers. Protocol drivers and NDIS intermediate drivers can use this
      area for their own purposes. Intermediate drivers can use this member only if it is not already in
      use.
 
 
-### -field MiniportReserved
+#### - MiniportReserved
 
 Reserved for use by miniport drivers. Miniport drivers and NDIS intermediate drivers can use this
      area for their own purposes.
 
 
-### -field DataPhysicalAddress
+#### - DataPhysicalAddress
 
 <div class="alert"><b>Note</b>  The name of this member is 
       <b>NdisReserved1</b> for NDIS 6.0 drivers and is 
@@ -294,50 +294,50 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
 
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
 
-<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-   NdisRetreatNetBufferDataStart</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndisgetpoolfromnetbuffer.md">NdisGetPoolFromNetBuffer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
+   NdisRetreatNetBufferDataStart</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
-
 <mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
    NdisRetreatNetBufferListDataStart</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
+   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
+   NdisMSendNetBufferListsComplete</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
  
 

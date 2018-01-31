@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 523b904c-c833-40f2-8173-7ec1c6687b26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idarg_in_opm_configure_protected_output, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices], iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
+ms.keywords: iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices], display.idarg_in_opm_configure_protected_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,21 +71,21 @@ typedef struct IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT {
 
 
 
-### -field ConfigParameters
+#### - ConfigParameters
 
 
                      [in] Configuration parameters
                  
 
 
-### -field AdditionalParametersSizeInBytes
+#### - AdditionalParametersSizeInBytes
 
 
                      [in] Size of additional parameter buffer
                  
 
 
-### -field pAdditionalParameters
+#### - pAdditionalParameters
 
 
                      [in] A pointer to a buffer that the driver copies the configuration info to.

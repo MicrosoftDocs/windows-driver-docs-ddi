@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlfreeansistring, RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, wdm/RtlFreeAnsiString
+ms.keywords: RtlFreeAnsiString, k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID RtlFreeAnsiString(
 
 
 
-### -param AnsiString [in, out]
+#### - AnsiString [in, out]
 
 Pointer to the ANSI string buffer previously allocated by <b>RtlUnicodeStringToAnsiString</b>. 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f5bb3af4-c687-47ad-88ce-d56067c78d6d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfworkitemcreate, wdfworkitem/WdfWorkItemCreate, WdfWorkItemCreate method, WdfWorkItemCreate, PFN_WDFWORKITEMCREATE, DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml, kmdf.wdfworkitemcreate
+ms.keywords: WdfWorkItemCreate method, wdfworkitem/WdfWorkItemCreate, wdf.wdfworkitemcreate, DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml, WdfWorkItemCreate, PFN_WDFWORKITEMCREATE, kmdf.wdfworkitemcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfWorkItemCreate(
 
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a caller-allocated <a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a> structure that the driver must have already initialized by calling <a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>.
 
 
-### -param Attributes [in]
+#### - Attributes [in]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the work-item object. 
 
 
-### -param WorkItem [out]
+#### - WorkItem [out]
 
 A pointer to a variable that receives a handle to the new work-item object.
 

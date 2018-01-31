@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d444e1c-cbcf-47ab-9c5a-10af1f1915cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE, WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, netvista.wwan_packet_service, PWWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE, _WWAN_PACKET_SERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PACKET_SERVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE"
+req.typenames: WWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE
 req.product: Windows 10 or later.
 ---
 
@@ -72,19 +72,19 @@ typedef struct _WWAN_PACKET_SERVICE {
 
 
 
-### -field uNwError
+#### - uNwError
 
 A network specific error, in the event of a packet-attach or packet-detach failure. For more
      information about this member, see the following 
      "Remarks" section.
 
 
-### -field PacketServiceState
+#### - PacketServiceState
 
 The packet service state of the device.
 
 
-### -field AvailableDataClass
+#### - AvailableDataClass
 
 A bitmap that represents which data-classes are available to the device in the current network.
      For a detailed list of values, see the 
@@ -97,7 +97,7 @@ Miniport drivers must set this member to WWAN_DATA_CLASS_NONE when the device is
      drivers must set this member with a valid value when the device is registered to a network.
 
 
-### -field CurrentDataClass
+#### - CurrentDataClass
 
 A single value from the 
      <b>WwanDataClass</b> member in 
@@ -186,10 +186,10 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
+
 <mshelp:link keywords="netvista.ndis_wwan_packet_service_state" tabindex="0"><b>
    NDIS_WWAN_PACKET_SERVICE_STATE</b></mshelp:link>
-
-<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
 
  
 

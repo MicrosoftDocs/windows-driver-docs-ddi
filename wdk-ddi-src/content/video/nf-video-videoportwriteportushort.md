@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0431b2a-c075-48e4-9476-42c42a86f8ed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportwriteportushort, video/VideoPortWritePortUshort, VideoPortWritePortUshort function [Display Devices], VideoPortWritePortUshort, VideoPort_Functions_919dd8ab-f319-4071-b375-b269823adb31.xml
+ms.keywords: display.videoportwriteportushort, VideoPortWritePortUshort, video/VideoPortWritePortUshort, VideoPort_Functions_919dd8ab-f319-4071-b375-b269823adb31.xml, VideoPortWritePortUshort function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID VideoPortWritePortUshort(
 
 
 
-### -param Port
+#### - Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Value
+#### - Value
 
 Specifies a USHORT value to be transferred to the adapter.
 

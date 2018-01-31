@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 84661E3C-9AC7-4852-BABF-BFC0A793E83D
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl::GetWindbgExtensionApis32, dbgeng/IDebugControl::GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis32 method, IDebugControl2::GetWindbgExtensionApis32, debugger.idebugcontrol_getwindbgextensionapis32, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis32 method, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis32 method, GetWindbgExtensionApis32, dbgeng/IDebugControl2::GetWindbgExtensionApis32, IDebugControl3::GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], dbgeng/IDebugControl3::GetWindbgExtensionApis32
+ms.keywords: GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetWindbgExtensionApis32, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis32 method, IDebugControl3::GetWindbgExtensionApis32, debugger.idebugcontrol_getwindbgextensionapis32, dbgeng/IDebugControl::GetWindbgExtensionApis32, IDebugControl::GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl2 interface, IDebugControl3, GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], dbgeng/IDebugControl2::GetWindbgExtensionApis32, dbgeng/IDebugControl3::GetWindbgExtensionApis32, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis32 method, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis32 method, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetWindbgExtensionApis32(
 
 
 
-### -param Api [in, out]
+#### - Api [in, out]
 
 Receives a WINDBG_EXTENSION_APIS32 structure.  This structure contains the functions used by the WdbgExts API.  The <b>nSize</b> member of this structure must be set to the size of the structure before it is passed to this method.
 
@@ -124,11 +124,11 @@ For a list of the functions provided by the WdbgExts API, see <a href="https://m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561258">WdbgExts Functions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

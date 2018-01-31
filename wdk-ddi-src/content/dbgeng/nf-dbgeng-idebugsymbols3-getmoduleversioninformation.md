@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, dbgeng/IDebugSymbols3::GetModuleVersionInformation, GetModuleVersionInformation, IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, debugger.getmoduleversioninformation, IDebugSymbols3, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml
+ms.keywords: IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, dbgeng/IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.getmoduleversioninformation, GetModuleVersionInformation method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleVersionInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT GetModuleVersionInformation(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
 
-### -param Base [in]
+#### - Base [in]
 
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
 
-### -param Item [in]
+#### - Item [in]
 
 Specifies the version information being requested.  This string corresponds to the <i>lpSubBlock</i> parameter of the function <b>VerQueryValue</b>.  For details on the <b>VerQueryValue</b> function, see the Platform SDK.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the requested version information.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param VerInfoSize [out, optional]
+#### - VerInfoSize [out, optional]
 
 Receives the size in characters of the version information.  If <i>VerInfoSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -160,15 +160,15 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE9910F7-A3B8-4C13-A5DC-7B9600C8C873
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_ONLY, WDI_P2P_DISCOVER_TYPE_AUTO, WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS, _WDI_P2P_DISCOVER_TYPE, WDI_P2P_DISCOVER_TYPE_FIND_ONLY, netvista.wifi_p2p_discover_type, WDI_P2P_DISCOVER_TYPE, wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS, WDI_P2P_DISCOVER_TYPE enumeration [Device and Driver Installation], wditypes/WDI_P2P_DISCOVER_TYPE_FIND_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE, wditypes/WDI_P2P_DISCOVER_TYPE_AUTO, netvista.wdi_p2p_discover_type, WDI_P2P_DISCOVER_TYPE_SCAN_ONLY
+ms.keywords: WDI_P2P_DISCOVER_TYPE enumeration [Device and Driver Installation], wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE_FIND_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE, WDI_P2P_DISCOVER_TYPE, wditypes/WDI_P2P_DISCOVER_TYPE_AUTO, WDI_P2P_DISCOVER_TYPE_FIND_ONLY, WDI_P2P_DISCOVER_TYPE_AUTO, WDI_P2P_DISCOVER_TYPE_SCAN_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS, netvista.wdi_p2p_discover_type, WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS, netvista.wifi_p2p_discover_type, _WDI_P2P_DISCOVER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _WDI_P2P_DISCOVER_TYPE {
 
 
 
-### -field WDI_P2P_DISCOVER_TYPE_SCAN_ONLY
+#### - WDI_P2P_DISCOVER_TYPE_SCAN_ONLY
 
 Device discovery occurs only during the scan phase. Adapter should scan each channel at least once every 250 milliseconds.
 
 
-### -field WDI_P2P_DISCOVER_TYPE_FIND_ONLY
+#### - WDI_P2P_DISCOVER_TYPE_FIND_ONLY
 
 Device discovery occurs only during the find phase.
 
 
-### -field WDI_P2P_DISCOVER_TYPE_AUTO
+#### - WDI_P2P_DISCOVER_TYPE_AUTO
 
 Device discovery is determined by the port.
 
 
-### -field WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS
+#### - WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS
 
 Port must perform device discovery by scanning only Wi-Fi Direct social channels. In this setting, the adapter should scan each social channel at least once every 250 milliseconds.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, wdm/IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], IoWMISetSingleInstance
+ms.keywords: wdm/IoWMISetSingleInstance, kernel.iowmisetsingleinstance, IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS IoWMISetSingleInstance(
 
 
 
-### -param DataBlockObject [in]
+#### - DataBlockObject [in]
 
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_SET access right. 
 
 
-### -param InstanceName [in]
+#### - InstanceName [in]
 
 Specifies the name of the instance of the data block. This value corresponds to the value of the <b>InstanceName</b> property for the block.
 
 
-### -param Version [in]
+#### - Version [in]
 
 Reserved for future use. Callers must set this parameter to zero.
 
 
-### -param ValueBufferSize [in]
+#### - ValueBufferSize [in]
 
 Specifies the size, in bytes, of the buffer passed in the <i>ValueBuffer</i> parameter.
 
 
-### -param ValueBuffer [in]
+#### - ValueBuffer [in]
 
 Pointer to the buffer that contains the new values for the properties within the data block.
 
@@ -178,11 +178,11 @@ Drivers can also use the <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetS
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
+<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
+
 <a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
-
-<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
  
 

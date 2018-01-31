@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 442FD107-04D4-4194-B64A-21699A70B4B6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExReleaseRundownProtection routine [Kernel-Mode Driver Architecture], ExReleaseRundownProtection, kernel.exreleaserundownprotection, wdm/ExReleaseRundownProtection
+ms.keywords: kernel.exreleaserundownprotection, ExReleaseRundownProtection, wdm/ExReleaseRundownProtection, ExReleaseRundownProtection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExReleaseRundownProtection(
 
 
 
-### -param RunRef [in, out]
+#### - RunRef [in, out]
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a> structure that was initialized by a previous call to the  <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
 
@@ -91,11 +91,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
 
 <a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
 
  
 

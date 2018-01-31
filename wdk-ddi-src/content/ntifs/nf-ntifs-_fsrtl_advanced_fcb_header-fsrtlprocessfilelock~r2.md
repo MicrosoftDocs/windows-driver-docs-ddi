@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 370e9dfd-ef2f-4bba-a0ec-5ebc6fbecb7a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlProcessFileLock, fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlProcessFileLock, FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], ifsk.fsrtlprocessfilelock, fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FsRtlProcessFileLock(
 
 
 
-### -param FileLock [in]
+#### - FileLock [in]
 
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP. Must be an IRP for a file-lock operation.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Optional context pointer to be used when completing IRPs. 
 
@@ -108,13 +108,13 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
 
  
 

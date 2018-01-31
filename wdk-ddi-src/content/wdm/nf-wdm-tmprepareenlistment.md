@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bd0dd4a-be27-4398-9bbd-129955ce310f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, wdm/TmPrepareEnlistment, kernel.tmprepareenlistment, TmPrepareEnlistment
+ms.keywords: wdm/TmPrepareEnlistment, TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, TmPrepareEnlistment, kernel.tmprepareenlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS TmPrepareEnlistment(
 
 
 
-### -param Enlistment [in]
+#### - Enlistment [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>, <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>, or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a> provided.
 
 
-### -param TmVirtualClock [in]
+#### - TmVirtualClock [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
@@ -153,17 +153,17 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 <a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
  
 

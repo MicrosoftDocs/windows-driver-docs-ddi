@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9da5508a-7397-4260-b5d8-16b0d624b98b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CALLAUDIOSOURCE_MAX, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, RILCALLAUDIOSOURCE, RIL_CALLAUDIOSOURCE_MAX, RIL_CALLAUDIOSOURCE_PKT_MODEM, RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLAUDIOSOURCE_PKT_APP, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM, rilapitypes/RILCALLAUDIOSOURCE, netvista.rilcallaudiosource_2
+ms.keywords: RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallaudiosource_2, RIL_CALLAUDIOSOURCE_PKT_MODEM, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, RIL_CALLAUDIOSOURCE_MAX, RIL_CALLAUDIOSOURCE_PKT_APP, rilapitypes/RIL_CALLAUDIOSOURCE_MAX, rilapitypes/RILCALLAUDIOSOURCE, RILCALLAUDIOSOURCE, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,14 +74,14 @@ typedef enum _RILCALLAUDIOSOURCE {
 
 
 
-### -field RIL_CALLAUDIOSOURCE_PKT_MODEM
+#### - RIL_CALLAUDIOSOURCE_PKT_MODEM
 
 
 
-### -field RIL_CALLAUDIOSOURCE_PKT_APP
+#### - RIL_CALLAUDIOSOURCE_PKT_APP
 
 
 
-### -field RIL_CALLAUDIOSOURCE_MAX
+#### - RIL_CALLAUDIOSOURCE_MAX
 
 

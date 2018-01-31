@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: edfd5b49-f658-46c7-a3f3-221afb35abb7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], biometric.winbio_sensor_attributes, biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES, _WINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices]
+ms.keywords: biometric.winbio_sensor_attributes, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, *PWINBIO_SENSOR_ATTRIBUTES, _WINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,12 +79,12 @@ typedef struct _WINBIO_SENSOR_ATTRIBUTES {
 
 
 
-### -field PayloadSize
+#### - PayloadSize
 
 A DWORD value that indicates the total size of the payload, including the fixed length structure and any variable data at the end.
 
 
-### -field WinBioHresult
+#### - WinBioHresult
 
 An HRESULT value that indicates containing status detail of the I/O operation.   The following table includes possible values.
 <table>
@@ -115,17 +115,17 @@ The driver could not gather the necessary information from the device.
 </table> 
 
 
-### -field WinBioVersion
+#### - WinBioVersion
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_version.md">WINBIO_VERSION</a> that contains a WinBio WBDI version that is supported by the driver. To be compatible with the WinBio service, <b>WinBioVersion</b> must contain the same major version as the current major version of the WinBio service, in addition to a minor version that is less than or equal to the current minor version of the WinBio service. 
 
 
-### -field SensorType
+#### - SensorType
 
 A DWORD bitmask of type WINBIO_BIOMETRIC_TYPE that contains biometric data that is collected by the sensor. In Windows 7, only WINBIO_TYPE_FINGERPRINT is supported.
 
 
-### -field SensorSubType
+#### - SensorSubType
 
 A WINBIO_BIOMETRIC_SENSOR_SUBTYPE subtype that contains additional information about the sensor.  For example, this member could specify whether the sensor requires the user to simply touch the sensor or swipe a finger over the sensor.
 
@@ -166,7 +166,7 @@ The device requires the user to place their entire fingerprint on a sensor pad.
 </table> 
 
 
-### -field Capabilities
+#### - Capabilities
 
 A WINBIO_CAPABILITIES subtype, which indicates which capabilities are supported by the device. 
 
@@ -301,32 +301,32 @@ The device supports security methods available in the WinBio engine adapter inte
 </table> 
 
 
-### -field ManufacturerName
+#### - ManufacturerName
 
  A structure of type WINBIO_STRING that contains the name of the device manufacturer.
 
 
-### -field ModelName
+#### - ModelName
 
  A structure of type WINBIO_STRING that contains the name of the device model.
 
 
-### -field SerialNumber
+#### - SerialNumber
 
 A structure of type WINBIO_STRING that contains the serial number of the device, if one exists.
 
 
-### -field FirmwareVersion
+#### - FirmwareVersion
 
  A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_version.md">WINBIO_VERSION</a> that contains the version of the firmware that is loaded on the device.
 
 
-### -field SupportedFormatEntries
+#### - SupportedFormatEntries
 
  The number of formats that are supported by the driver and device.  There must be at least one, which is the Windows standard format.
 
 
-### -field SupportedFormat
+#### - SupportedFormat
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> that contains a list of the formats supported by the driver and device. 
 

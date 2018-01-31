@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22074e51-9032-4ef9-94b9-217daefcab03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMQueueDpcEx, netvista.ndismqueuedpcex, ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, NdisMQueueDpcEx, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismqueuedpcex, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista], NdisMQueueDpcEx, ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, ndis/NdisMQueueDpcEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,14 +72,14 @@ KAFFINITY NdisMQueueDpcEx(
 
 
 
-### -param NdisInterruptHandle [in]
+#### - NdisInterruptHandle [in]
 
 An interrupt handle that the miniport driver obtained in a previous call to the 
      <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
      NdisMRegisterInterruptEx</b></mshelp:link> function.
 
 
-### -param MessageId [in]
+#### - MessageId [in]
 
 An MSI message ID for the DPC. If the DPC is for a line-based interrupt, this parameter is not
      used and it should be set to zero. Otherwise, 
@@ -93,7 +93,7 @@ An MSI message ID for the DPC. If the DPC is for a line-based interrupt, this pa
      <b>NdisMRegisterInterruptEx</b> function.
 
 
-### -param TargetProcessors [in]
+#### - TargetProcessors [in]
 
 A bitmap that indicates target processors. NDIS should schedule a DPC for each target processor
      that is indicated in the bitmap. Each bit in 
@@ -101,7 +101,7 @@ A bitmap that indicates target processors. NDIS should schedule a DPC for each t
      schedules a DPC for CPU 1, and so on.
 
 
-### -param MiniportDpcContext [in]
+#### - MiniportDpcContext [in]
 
 A pointer to a caller-specified context area. NDIS passes this pointer to the 
      <i>MiniportDpcContext</i> parameter of the 
@@ -152,17 +152,17 @@ NDIS 6.20 and later miniport drivers call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
-
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
 <a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
+
+<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
  
 

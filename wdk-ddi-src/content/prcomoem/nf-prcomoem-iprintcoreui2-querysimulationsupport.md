@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, print.iprintcoreui2_querysimulationsupport, QuerySimulationSupport method [Print Devices]
+ms.keywords: print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2, prcomoem/IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], print.iprintcoreui2_querysimulationsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,12 +72,12 @@ HRESULT QuerySimulationSupport(
 
 
 
-### -param hPrinter [in]
+#### - hPrinter [in]
 
 Specifies a handle to the printer.
 
 
-### -param dwLevel [in]
+#### - dwLevel [in]
 
 Specifies the spooler simulation capability structure returned in the buffer pointed to by <i>pCaps</i>. Currently, only level 1 of spooler simulation support is provided.
 <table>
@@ -99,17 +99,17 @@ Specifies the spooler simulation capability structure returned in the buffer poi
 </table> 
 
 
-### -param pCaps [out]
+#### - pCaps [out]
 
 Pointer to the output buffer, which contains a structure of the type indicated by the value in the <i>dwLevel</i> parameter.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 Specifies the size, in bytes, of the output buffer, which is pointed to by <i>pCaps</i>.
 
 
-### -param pcbNeeded [out]
+#### - pcbNeeded [out]
 
 Specifies the size, in bytes, of the memory needed to store a structure of the type indicated by <i>dwLevel</i>.
 

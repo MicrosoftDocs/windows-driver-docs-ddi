@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 594614ee-0d30-4574-81ad-a523e7fadc2c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetConnectedPinInterface, stream.kspingetconnectedpininterface, KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml
+ms.keywords: ks/KsPinGetConnectedPinInterface, stream.kspingetconnectedpininterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], KsPinGetConnectedPinInterface, avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsPinGetConnectedPinInterface(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure. AVStream queries the pin connected to <i>Pin</i> for the requested interface.
 
 
-### -param InterfaceId [in]
+#### - InterfaceId [in]
 
 A pointer to the GUID specifying the interface type to be obtained. A <b>QueryInterface</b> call is automatically performed for this interface.
 
 
-### -param Interface [out]
+#### - Interface [out]
 
 A pointer to a pointer that AVStream sets to the location of the COM interface.
 
@@ -119,19 +119,19 @@ The connection is intra-AVStream (<i>Pin</i>'s connected pin is an AVStream pin)
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
+
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
 
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
-
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1a7eb79c-5a3e-4977-ba1f-682bbebb0494
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_sco_get_channel_info, bthddi/_BRB_SCO_GET_CHANNEL_INFO, _BRB_SCO_GET_CHANNEL_INFO structure [Bluetooth Devices], _BRB_SCO_GET_CHANNEL_INFO, bth_structs_cf7da00a-9c32-432d-a8a2-7bac58fe17e0.xml
+ms.keywords: bltooth._brb_sco_get_channel_info, _BRB_SCO_GET_CHANNEL_INFO, bthddi/_BRB_SCO_GET_CHANNEL_INFO, _BRB_SCO_GET_CHANNEL_INFO structure [Bluetooth Devices], bth_structs_cf7da00a-9c32-432d-a8a2-7bac58fe17e0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,24 +82,24 @@ struct _BRB_SCO_GET_CHANNEL_INFO {
 
 
 
-### -field Hdr
+#### - Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-### -field BtAddress
+#### - BtAddress
 
 The Bluetooth address of the remote device.
 
 
-### -field ChannelHandle
+#### - ChannelHandle
 
 The handle to the SCO channel to query.
 
 
-### -field InfoFlags
+#### - InfoFlags
 
 A flag that determines if baseband information is available for the SCO channel. The following
      flag is defined:
@@ -123,17 +123,17 @@ If set, baseband settings are available for the SCO channel.
 </table> 
 
 
-### -field TransmitBandwidth
+#### - TransmitBandwidth
 
 The transmission bandwidth of the channel, in bytes per second.
 
 
-### -field ReceiveBandwidth
+#### - ReceiveBandwidth
 
 The reception bandwidth of the channel, in bytes per second.
 
 
-### -field MaxLatency
+#### - MaxLatency
 
 A value that represents the upper limit of the sum of the synchronous interval and the size of the
      SCO window, in milliseconds. Possible values are listed in the following table.
@@ -178,7 +178,7 @@ The channel doesn't have a preferred
 </table> 
 
 
-### -field PacketType
+#### - PacketType
 
 A flag or combination of flags that indicates the type of data packets that the SCO channel
      supports. These SCO packet types are defined by the Bluetooth SIG. See the Bluetooth specification for
@@ -202,7 +202,7 @@ A flag or combination of flags that indicates the type of data packets that the 
 
 
 
-### -field ContentFormat
+#### - ContentFormat
 
 The audio voice setting for the channel. Use the following definitions to decode this member:
      
@@ -250,19 +250,19 @@ The audio voice setting for the channel. Use the following definitions to decode
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use. Do not use.
 
 
-### -field RetransmissionEffort
+#### - RetransmissionEffort
 
 A 
      <a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a> value that
      determines the channel's retransmission policies.
 
 
-### -field ChannelFlags
+#### - ChannelFlags
 
 Flags that specify how the channel was opened. Valid flag values are listed in the following
      table.
@@ -305,19 +305,19 @@ The profile driver indicates its preference that users not be prompted for a PIN
 </table> 
 
 
-### -field HciConnectionHandle
+#### - HciConnectionHandle
 
 The host controller interface's connection handle for the SCO connection.
 
 
-### -field LinkType
+#### - LinkType
 
 The 
      <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> that is associated with the host
      controller interface.
 
 
-### -field BasebandInfo
+#### - BasebandInfo
 
 A 
      <a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a> structure that
@@ -337,15 +337,15 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
-
-<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536868">BRB_SCO_GET_CHANNEL_INFO</a>
 
 <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a>
+
+<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+
+<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
 
  
 

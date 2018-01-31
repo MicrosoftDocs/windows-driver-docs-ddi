@@ -73,12 +73,12 @@ NTSTATUS InstanceSetupCallback(
 
 
 
-### -param FltObjects [in]
+#### - FltObjects [in]
 
 Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Bitmask of flags that indicate why the instance is being attached. One or more of the following: 
 <table>
@@ -129,7 +129,7 @@ The instance is being attached to a detached volume. It is possible, on some fil
 </table> 
 
 
-### -param VolumeDeviceType [in]
+#### - VolumeDeviceType [in]
 
 Device type of the file system volume. Must be one of the following: 
 
@@ -140,7 +140,7 @@ FILE_DEVICE_DISK_FILE_SYSTEM
 FILE_DEVICE_NETWORK_FILE_SYSTEM
 
 
-### -param VolumeFilesystemType [in]
+#### - VolumeFilesystemType [in]
 
 File system type of the volume.   The possible values are listed in <a href="..\fltuserstructures\ne-fltuserstructures-_flt_filesystem_type.md">FLT_FILESYSTEM_TYPE</a>.
 
@@ -184,23 +184,23 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
  
 

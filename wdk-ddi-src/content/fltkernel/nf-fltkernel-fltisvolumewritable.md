@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9347bc8d-e8fb-440c-8ceb-ce5e8cb1429e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, FltIsVolumeWritable, ifsk.fltisvolumewritable, fltkernel/FltIsVolumeWritable, FltIsVolumeWritable routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltIsVolumeWritable, FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, ifsk.fltisvolumewritable, FltIsVolumeWritable, FltIsVolumeWritable routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltIsVolumeWritable(
 
 
 
-### -param FltObject [in]
+#### - FltObject [in]
 
 An opaque pointer for the volume or instance. Be aware that the associated volume must be a local file system volume. 
 
 
-### -param IsWritable [out]
+#### - IsWritable [out]
 
 A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if the volume is writable; <b>FALSE</b> otherwise. 
 

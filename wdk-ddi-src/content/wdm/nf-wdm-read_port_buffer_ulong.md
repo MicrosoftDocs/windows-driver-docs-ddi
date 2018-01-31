@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a63028d8-f90e-4f86-81f5-27bc727ecad7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], wdm/READ_PORT_BUFFER_ULONG, kernel.read_port_buffer_ulong, k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml
+ms.keywords: k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], wdm/READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG, kernel.read_port_buffer_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID READ_PORT_BUFFER_ULONG(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer into which an array of ULONG values is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG values to be read into the buffer. 
 

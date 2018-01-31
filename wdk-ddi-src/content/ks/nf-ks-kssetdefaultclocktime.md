@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c8b4fef4-cfbb-4cdd-b762-062b8ae4a423
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetDefaultClockTime function [Streaming Media Devices], ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, ks/KsSetDefaultClockTime, KsSetDefaultClockTime, stream.kssetdefaultclocktime
+ms.keywords: stream.kssetdefaultclocktime, ks/KsSetDefaultClockTime, ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID KsSetDefaultClockTime(
 
 
 
-### -param DefaultClock [in]
+#### - DefaultClock [in]
 
 Specifies an initialize default clock structure that is shared among instances of the default clock for the parent. 
 
 
-### -param Time [in]
+#### - Time [in]
 
 Specifies the new time to set the clock. 
 

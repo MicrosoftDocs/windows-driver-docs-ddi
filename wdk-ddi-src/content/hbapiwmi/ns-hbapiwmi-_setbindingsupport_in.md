@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bdcd6f76-9a45-4687-b3ab-ece3e9419c44
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetBindingSupport_IN, SetBindingSupport_IN structure [Storage Devices], structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml, PSetBindingSupport_IN, storage.setbindingsupport_in, hbapiwmi/SetBindingSupport_IN, hbapiwmi/PSetBindingSupport_IN, _SetBindingSupport_IN, *PSetBindingSupport_IN, PSetBindingSupport_IN structure pointer [Storage Devices]
+ms.keywords: "*PSetBindingSupport_IN, hbapiwmi/SetBindingSupport_IN, storage.setbindingsupport_in, structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml, PSetBindingSupport_IN, hbapiwmi/PSetBindingSupport_IN, SetBindingSupport_IN structure [Storage Devices], _SetBindingSupport_IN, PSetBindingSupport_IN structure pointer [Storage Devices], SetBindingSupport_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SetBindingSupport_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a worldwide name that indicates the port whose persistent bindings are to be retrieved. 
 
 
-### -field BindType
+#### - BindType
 
 Contains a bitmap that indicates the ability of an HBA and its miniport driver to provide a specific set of features related to persistent binding. For a list of values that this parameter can have, see the description of the HBA_BIND_TYPE WMI class qualifier.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 90F4CE6D-F51A-4B18-B328-63AF4D71A690
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], wdm/KeConvertAuxiliaryCounterToPerformanceCounter, kernel.keconvertauxiliarycountertoperformancecounter
+ms.keywords: KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], wdm/KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter, kernel.keconvertauxiliarycountertoperformancecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS KeConvertAuxiliaryCounterToPerformanceCounter(
 
 
 
-### -param AuxiliaryCounterValue [in]
+#### - AuxiliaryCounterValue [in]
 
 The auxiliary counter value to convert.
 
 
-### -param PerformanceCounterValue [out]
+#### - PerformanceCounterValue [out]
 
 A pointer to the variable that contains the converted performance counter value.
 
 
-### -param ConversionError [out, optional]
+#### - ConversionError [out, optional]
 
 A pointer to a variable that contains the estimated conversion error in units of nanosecond.
 

@@ -79,32 +79,32 @@ BOOLEAN EvtDmaTransactionConfigureDmaChannel(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to a DMA transaction object representing the transaction that is being executed.
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to the framework device object that the driver specified when it called <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 
 
-### -param Context [in]
+#### - Context [in]
 
 The context pointer that the driver specified in a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md">WdfDmaTransactionSetChannelConfigurationCallback</a>.
 
 
-### -param Mdl [in, optional]
+#### - Mdl [in, optional]
 
 A pointer to a single memory descriptor list (MDL) or MDL chain that describes the buffer associated with the current transfer, or NULL if the last transfer has been completed and the adapter is being freed.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 A byte offset into the buffer specified in the <i>Mdl</i> parameter where the current transfer starts.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes being transferred in the current transfer.
 
@@ -133,9 +133,9 @@ If the driver experiences an error while configuring the channel, it can stop th
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md">WdfDmaTransactionDmaCompletedFinal</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md">WdfDmaTransactionSetChannelConfigurationCallback</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md">WdfDmaTransactionDmaCompletedFinal</a>
 
  
 

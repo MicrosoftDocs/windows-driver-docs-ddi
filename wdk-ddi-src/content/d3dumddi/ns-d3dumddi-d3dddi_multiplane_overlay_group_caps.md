@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6909579F-5387-4A35-B65B-EF77CC50DCC4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, display.d3dddi_multiplane_overlay_group_caps, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices]
+ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], display.d3dddi_multiplane_overlay_group_caps, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS {
 
 
 
-### -field NumPlanes
+#### - NumPlanes
 
 Specifies the number of overlay planes that are supported by the overlay planes within the capability group.
 
 
-### -field MaxStretchFactor
+#### - MaxStretchFactor
 
 Specifies the maximum stretch factor that is supported by the overlay planes within the capability group.
 
@@ -84,7 +84,7 @@ The stretch factor is the ratio of the final, stretched overlay plane size to th
 It's not guaranteed that this stretch factor can be applied in all scenarios. For example, it might be possible to stretch only one overlay plane out of several using this factor.
 
 
-### -field MaxShrinkFactor
+#### - MaxShrinkFactor
 
 Specifies the maximum shrink factor that is supported by the overlay planes within the capability group.
 
@@ -93,7 +93,7 @@ The shrink factor is the ratio of the final, shrunk overlay plane size to the or
 It's not guaranteed that this shrink factor can be applied in all scenarios. For example, it might be possible to shrink only one overlay plane out of several using this factor.
 
 
-### -field OverlayCaps
+#### - OverlayCaps
 
 The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps.md">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
 

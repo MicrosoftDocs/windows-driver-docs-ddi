@@ -70,17 +70,17 @@ ULONG StorPortPutScatterGatherList(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param ScatterGatherList [in]
+#### - ScatterGatherList [in]
 
 A pointer to a buffer that contains a scatter/gather list that was previously created by a call to the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> routine.
 
 
-### -param WriteToDevice [in]
+#### - WriteToDevice [in]
 
 A value that indicates the direction of the DMA transfer that has completed. A value of <b>TRUE</b> indicates a transfer from the data buffer to the device, and <b>FALSE</b> indicates a transfer from the device to the data buffer.
 

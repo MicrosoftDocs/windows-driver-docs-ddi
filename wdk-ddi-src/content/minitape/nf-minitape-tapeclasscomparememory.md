@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dfff350c-ff76-49d3-b4ba-a5a51fabd419
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml, minitape/TapeClassCompareMemory, TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices]
+ms.keywords: TapeClassCompareMemory routine [Storage Devices], tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml, storage.tapeclasscomparememory, TapeClassCompareMemory, minitape/TapeClassCompareMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	TapeClassCompareMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
+req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeClassCompareMemory function
@@ -70,17 +70,17 @@ ULONG TapeClassCompareMemory(
 
 
 
-### -param Source1 [in, out]
+#### - Source1 [in, out]
 
 Pointer to the first buffer to be compared.
 
 
-### -param Source2 [in, out]
+#### - Source2 [in, out]
 
 Pointer to the second buffer to be compared.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the number of bytes to be compared.
 

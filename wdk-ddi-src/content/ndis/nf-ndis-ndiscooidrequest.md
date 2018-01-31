@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d46f2c1-7b54-4510-968a-2e35e33cf849
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCoOidRequest, condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, NdisCoOidRequest function [Network Drivers Starting with Windows Vista], NdisCoOidRequest, netvista.ndiscooidrequest
+ms.keywords: NdisCoOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCoOidRequest, NdisCoOidRequest, condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, netvista.ndiscooidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ NDIS_STATUS NdisCoOidRequest(
 
 
 
-### -param NdisBindingHandle [in]
+#### - NdisBindingHandle [in]
 
 A handle that the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function returned
      that identifies the target adapter for the binding.
 
 
-### -param NdisAfHandle [in, optional]
+#### - NdisAfHandle [in, optional]
 
 A handle that identifies the address family (AF) that is shared among the client, call manager,
      and NDIS. This handle was obtained as follows:
@@ -104,7 +104,7 @@ If the caller is a stand-alone call manager or miniport call manager (MCM) that 
      this parameter must be <b>NULL</b>.
 
 
-### -param NdisVcHandle [in, optional]
+#### - NdisVcHandle [in, optional]
 
 A handle that identifies the virtual connection (VC) the caller is requesting or setting
      information for, if the request is VC-specific. Otherwise, if this parameter is <b>NULL</b>, the request is not
@@ -119,7 +119,7 @@ A handle that identifies the virtual connection (VC) the caller is requesting or
      <i>NdisPartyHandle</i> are <b>NULL</b>.
 
 
-### -param NdisPartyHandle [in, optional]
+#### - NdisPartyHandle [in, optional]
 
 A handle that identifies the party on a multipoint VC the caller is requesting or setting
      information for, if the request is party-specific. Otherwise, if this parameter is <b>NULL</b>, the request is
@@ -133,7 +133,7 @@ A handle that identifies the party on a multipoint VC the caller is requesting o
      <i>NdisPartyHandle</i> also is <b>NULL</b>.
 
 
-### -param OidRequest [in, out]
+#### - OidRequest [in, out]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
@@ -407,38 +407,38 @@ Only clients and stand-alone call managers, which are protocol drivers, can call
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569562">OID_GEN_CO_RCV_CRC_ERROR</a>
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
 <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
-
-<a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
+   ProtocolCoOidRequestComplete</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569562">OID_GEN_CO_RCV_CRC_ERROR</a>
+
+<a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>
 

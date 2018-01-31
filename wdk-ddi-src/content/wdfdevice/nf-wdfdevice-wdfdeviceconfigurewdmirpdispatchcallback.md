@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 594E0FF1-A965-4CE4-A2EA-C9098685FCED
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback method, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, WdfDeviceConfigureWdmIrpDispatchCallback, PFN_WDFDEVICECONFIGUREWDMIRPDISPATCHCALLBACK, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
+ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback method, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback, WdfDeviceConfigureWdmIrpDispatchCallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, PFN_WDFDEVICECONFIGUREWDMIRPDISPATCHCALLBACK, kmdf.wdfdeviceconfigurewdmirpdispatchcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,17 +77,17 @@ NTSTATUS WdfDeviceConfigureWdmIrpDispatchCallback(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Driver [in, optional]
+#### - Driver [in, optional]
 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.  This parameter is optional.
 
 
-### -param MajorFunction [in]
+#### - MajorFunction [in]
 
 One of the following IRP major function codes: IRP_MJ_DEVICE_CONTROL, IRP_MJ_INTERNAL_DEVICE_CONTROL, IRP_MJ_READ, IRP_MJ_WRITE.
 
@@ -97,7 +97,7 @@ One of the following IRP major function codes: IRP_MJ_DEVICE_CONTROL, IRP_MJ_INT
 TBD
 
 
-### -param DriverContext [in, optional]
+#### - DriverContext [in, optional]
 
 An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a> callback function. This parameter is optional and can be NULL.
 
@@ -165,9 +165,9 @@ A driver might call the <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method f
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
 
  
 

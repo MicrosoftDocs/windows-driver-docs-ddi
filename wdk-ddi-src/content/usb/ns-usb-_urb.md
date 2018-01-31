@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f28b2c97-61ee-4843-b3c5-b3a55f172c50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/URB, URB structure [Buses], buses.urb, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml, PURB structure pointer [Buses], usb/PURB, PURB, URB, _URB
+ms.keywords: PURB structure pointer [Buses], usb/PURB, URB structure [Buses], URB, usb/URB, PURB, buses.urb, _URB, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	URB
 product: Windows
 targetos: Windows
-req.typenames: PURB, URB
+req.typenames: URB, PURB
 req.product: Windows 10 or later.
 ---
 
@@ -91,109 +91,109 @@ typedef struct _URB {
 
 
 
-### -field UrbHeader
+#### - UrbHeader
 
 Provides basic information about the request being sent to the host controller driver. For more information, see <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>.
 
 
-### -field UrbSelectInterface
+#### - UrbSelectInterface
 
 Defines the format of a select interface command for a USB device. For more information, see <a href="..\usb\ns-usb-_urb_select_interface.md">_URB_SELECT_INTERFACE</a>.
 
 
-### -field UrbSelectConfiguration
+#### - UrbSelectConfiguration
 
 Defines the format of a select configuration command for a USB device. For more information, see <a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>.
 
 
-### -field UrbPipeRequest
+#### - UrbPipeRequest
 
 Defines the format for a command for a  pipe in a USB endpoint. For more information, see <a href="..\usb\ns-usb-_urb_pipe_request.md">_URB_PIPE_REQUEST</a>.
 
 
-### -field UrbFrameLengthControl
+#### - UrbFrameLengthControl
 
 Deprecated in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use. 
 
 
-### -field UrbGetFrameLength
+#### - UrbGetFrameLength
 
 Deprecated in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use. 
 
 
-### -field UrbSetFrameLength
+#### - UrbSetFrameLength
 
 Deprecated in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use. 
 
 
-### -field UrbGetCurrentFrameNumber
+#### - UrbGetCurrentFrameNumber
 
 Defines the format for a command to get the current frame number on a USB bus. For more information, see <a href="..\usb\ns-usb-_urb_get_current_frame_number.md">_URB_GET_CURRENT_FRAME_NUMBER</a>.
 
 
-### -field UrbControlTransfer
+#### - UrbControlTransfer
 
 Defines the format for a command to transmit or receive data on a control pipe. For more information, see <a href="..\usb\ns-usb-_urb_control_transfer.md">_URB_CONTROL_TRANSFER</a>.
 
 
-### -field UrbControlTransferEx
+#### - UrbControlTransferEx
 
 Defines the format for a command to transmit or receive data on a control pipe. For more information, see <a href="..\usb\ns-usb-_urb_control_transfer_ex.md">_URB_CONTROL_TRANSFER_EX</a>.
 
 Defines the format for a command to transmit or receive data on a control pipe. 
 
 
-### -field UrbBulkOrInterruptTransfer
+#### - UrbBulkOrInterruptTransfer
 
 Defines the format for a command to transmit or receive data on a bulk pipe, or to receive data from an interrupt pipe. For more information, see <a href="..\usb\ns-usb-_urb_bulk_or_interrupt_transfer.md">_URB_BULK_OR_INTERRUPT_TRANSFER</a>.
 
 
-### -field UrbIsochronousTransfer
+#### - UrbIsochronousTransfer
 
 Defines the format of an isochronous transfer to a USB device. For more information, see <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>.
 
 
-### -field UrbControlDescriptorRequest
+#### - UrbControlDescriptorRequest
 
 Defines the format for a command to retrieve or set descriptor(s) on a USB device. For more information, see <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>.
 
 
-### -field UrbControlGetStatusRequest
+#### - UrbControlGetStatusRequest
 
 Defines the format for a command to get status from a device, interface, or endpoint. For more information, see <a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>.
 
 
-### -field UrbControlFeatureRequest
+#### - UrbControlFeatureRequest
 
 Defines the format for a command to set or clear USB-defined features on an device, interface, or endpoint. For more information, see <a href="..\usb\ns-usb-_urb_control_feature_request.md">_URB_CONTROL_FEATURE_REQUEST</a>.
 
 
-### -field UrbControlVendorClassRequest
+#### - UrbControlVendorClassRequest
 
 Defines the format for a command to send or receive a vendor or class-specific request on a device, interface, endpoint, or other device-defined target. For more information, see <a href="..\usb\ns-usb-_urb_control_vendor_or_class_request.md">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a>.
 
 
-### -field UrbControlGetInterfaceRequest
+#### - UrbControlGetInterfaceRequest
 
 Defines the format for a command to get the current alternate interface setting for a selected interface. For more information, see <a href="..\usb\ns-usb-_urb_control_get_interface_request.md">_URB_CONTROL_GET_INTERFACE_REQUEST</a>.
 
 
-### -field UrbControlGetConfigurationRequest
+#### - UrbControlGetConfigurationRequest
 
 Defines the format for a command to get the current configuration for a device. For more information, see <a href="..\usb\ns-usb-_urb_control_get_configuration_request.md">_URB_CONTROL_GET_CONFIGURATION_REQUEST</a>.
 
 
-### -field UrbOSFeatureDescriptorRequest
+#### - UrbOSFeatureDescriptorRequest
 
 Defines the format for a command to request a Microsoft OS Descriptor. For more information, see <a href="..\usb\ns-usb-_urb_os_feature_descriptor_request.md">_URB_OS_FEATURE_DESCRIPTOR_REQUEST</a>.
 
 
-### -field UrbOpenStaticStreams
+#### - UrbOpenStaticStreams
 
 Defines the format for a command to open streams in a bulk endpoint of a USB 3.0 device. For more information, see <a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
 
-### -field UrbGetIsochPipeTransferPathDelays
+#### - UrbGetIsochPipeTransferPathDelays
 
 Defines the format for a command to retrieve delays associated with isochronous transfer programming in the host controller and transfer completion so that the client driver can ensure that the device gets the isochronous packets in time. 
 For more information, see <a href="..\usb\ns-usb-_urb_get_isoch_pipe_transfer_path_delays.md">_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS</a>.
@@ -208,9 +208,9 @@ For information about the function codes to set in each structure, see <a href="
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_urb.md">IOCTL_INTERNAL_USB_SUBMIT_URB</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_urb.md">IOCTL_INTERNAL_USB_SUBMIT_URB</a>
 
  
 

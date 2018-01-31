@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b986c7a9-8daa-4957-ad64-2a1f59ed3c68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExFreeToPagedLookasideList, ExFreeToPagedLookasideList routine [Kernel-Mode Driver Architecture], kernel.exfreetopagedlookasidelist, ExFreeToPagedLookasideList, k102_2d09255c-391a-4937-a991-99d88adf4233.xml
+ms.keywords: wdm/ExFreeToPagedLookasideList, kernel.exfreetopagedlookasidelist, ExFreeToPagedLookasideList, k102_2d09255c-391a-4937-a991-99d88adf4233.xml, ExFreeToPagedLookasideList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID ExFreeToPagedLookasideList(
 
 
 
-### -param Lookaside [in, out]
+#### - Lookaside [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>, which the caller already initialized with <b>ExInitializePagedLookasideList</b>.
 
 
-### -param Entry [in]
+#### - Entry [in]
 
 A pointer to the entry to be freed. The caller obtained this pointer from a preceding call to <a href="..\wdm\nf-wdm-exallocatefrompagedlookasidelist.md">ExAllocateFromPagedLookasideList</a>. 
 
@@ -105,11 +105,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
+<a href="..\wdm\nf-wdm-exallocatefrompagedlookasidelist.md">ExAllocateFromPagedLookasideList</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
 
 <a href="..\wdm\nf-wdm-exdeletepagedlookasidelist.md">ExDeletePagedLookasideList</a>
-
-<a href="..\wdm\nf-wdm-exallocatefrompagedlookasidelist.md">ExAllocateFromPagedLookasideList</a>
 
  
 

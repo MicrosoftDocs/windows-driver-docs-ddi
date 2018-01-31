@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81c05f47-e75a-4d67-8e77-33ebe1750c67
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], PMS_SM_AdapterInformationQuery, storage.ms_sm_adapterinformationquery, hbapiwmi/MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery, structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml, hbapiwmi/PMS_SM_AdapterInformationQuery, _MS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery structure [Storage Devices], MS_SM_AdapterInformationQuery
+ms.keywords: storage.ms_sm_adapterinformationquery, hbapiwmi/MS_SM_AdapterInformationQuery, hbapiwmi/PMS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery, _MS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery structure [Storage Devices], PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml, *PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MS_SM_AdapterInformationQuery
 product: Windows
 targetos: Windows
-req.typenames: "*PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery"
+req.typenames: MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery
 ---
 
 # _MS_SM_AdapterInformationQuery structure
@@ -83,87 +83,87 @@ typedef struct _MS_SM_AdapterInformationQuery {
 
 
 
-### -field UniqueAdapterId
+#### - UniqueAdapterId
 
 The unique adapter ID.
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 The status of the operation.
 
 
-### -field NumberOfPorts
+#### - NumberOfPorts
 
 The number of ports on the HBA.
 
 
-### -field VendorSpecificID
+#### - VendorSpecificID
 
 A vendor-specific ID.
 
 
-### -field Manufacturer
+#### - Manufacturer
 
 An ASCII string that is 64 bytes or fewer in length and that identifies the name of the manufacturer of the HBA.
 
 
-### -field SerialNumber
+#### - SerialNumber
 
 An ASCII string that is 64 bytes or fewer in length and that identifies the serial number of the HBA.
 
 
-### -field Model
+#### - Model
 
 An ASCII string that is 256 bytes or fewer in length and that identifies the vendor-specific name of the HBA model.
 
 
-### -field ModelDescription
+#### - ModelDescription
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the model description.
 
 
-### -field HardwareVersion
+#### - HardwareVersion
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific hardware revision level of the HBA.
 
 
-### -field DriverVersion
+#### - DriverVersion
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific version of the HBA miniport driver.
 
 
-### -field OptionROMVersion
+#### - OptionROMVersion
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific option ROM or BIOS version of the HBA.
 
 
-### -field FirmwareVersion
+#### - FirmwareVersion
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific firmware version of the HBA.
 
 
-### -field DriverName
+#### - DriverName
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the file name for the driver binary file.
 
 
-### -field HBASymbolicName
+#### - HBASymbolicName
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the symbolic name for the fibre channel node.
 
 
-### -field RedundantOptionROMVersion
+#### - RedundantOptionROMVersion
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific option ROM or BIOS version of the HBA.
 
 
-### -field RedundantFirmwareVersion
+#### - RedundantFirmwareVersion
 
 An ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific firmware version of the HBA.
 
 
-### -field MfgDomain
+#### - MfgDomain
 
 The name of the HBA manufacturer.
 

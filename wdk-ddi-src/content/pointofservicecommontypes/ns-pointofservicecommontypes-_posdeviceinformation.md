@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosDeviceInformation structure, _PosDeviceInformation, pointofservicecommontypes/PosDeviceInformation, PosDeviceInformation, pos.posdeviceinformation
+ms.keywords: pos.posdeviceinformation, PosDeviceInformation structure, _PosDeviceInformation, PosDeviceInformation, pointofservicecommontypes/PosDeviceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct _PosDeviceInformation {
 
 
 
-### -field UnifiedPOSVersion
+#### - UnifiedPOSVersion
 
 Indicates the version of the UPOS specification supported.
 
 
-### -field DeviceCategory
+#### - DeviceCategory
 
 Indicates the device category (for example, POSPrinter or CashDrawer).
 
 
-### -field ManufacturerName
+#### - ManufacturerName
 
 Indicates the name of the device manufacturer.
 
 
-### -field ModelName
+#### - ModelName
 
 Indicates the model name of the device.
 
 
-### -field SerialNumber
+#### - SerialNumber
 
 Indicates the serial number of the device.
 
 
-### -field ManufactureDate
+#### - ManufactureDate
 
 Indicates the date the device was manufactured.
 
 
-### -field MechanicalRevision
+#### - MechanicalRevision
 
 Indicates the device hardware revision.
 
 
-### -field FirmwareRevision
+#### - FirmwareRevision
 
 Indicates the device firmware revision.
 
 
-### -field Interface
+#### - Interface
 
 Indicates the device hardware interface (for example, serial or USB).
 
 
-### -field InstallationDate
+#### - InstallationDate
 
 Indicates the device installation date.
 

@@ -73,12 +73,12 @@ NTSTATUS WriteErrorRecord(
 
 
 
-### -param PluginContext [in, out, optional]
+#### - PluginContext [in, out, optional]
 
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bit-wise OR'ed combination of flags that affect the write operation. A possible flag is:
 
@@ -90,12 +90,12 @@ A bit-wise OR'ed combination of flags that affect the write operation. A possibl
 The write operation is a dummy write operation. No data is to be written to the system's persistent data storage.
 
 
-### -param RecordLength [in]
+#### - RecordLength [in]
 
 The size, in bytes, of the error record pointed to by the <i>ErrorRecord</i> parameter.
 
 
-### -param ErrorRecord [in]
+#### - ErrorRecord [in]
 
 A pointer to a <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure that describes the error record that is being written to the system's persistent data storage.
 
@@ -150,13 +150,13 @@ The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at I
 
 <a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
-
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
 
  
 

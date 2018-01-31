@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 32b6fc14-dbaa-41d7-a1a7-a805b9a8795a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMdlWriteAbort routine [Installable File System Drivers], CcMdlWriteAbort, ifsk.ccmdlwriteabort, ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml, ntifs/CcMdlWriteAbort
+ms.keywords: ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml, CcMdlWriteAbort, ifsk.ccmdlwriteabort, CcMdlWriteAbort routine [Installable File System Drivers], ntifs/CcMdlWriteAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID CcMdlWriteAbort(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 File object pointer that was passed to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>. 
 
 
-### -param MdlChain [in]
+#### - MdlChain [in]
 
 Address of the MDL chain returned by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>. 
 

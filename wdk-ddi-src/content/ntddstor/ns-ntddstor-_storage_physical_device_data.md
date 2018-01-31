@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9D8E67D1-EB7C-4EED-8BDD-43D5E012B99C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Storage Devices], PSTORAGE_PHYSICAL_DEVICE_DATA, storage.storage_physical_device_data, ntddstor/PSTORAGE_PHYSICAL_DEVICE_DATA, ntddstor/STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Storage Devices], _STORAGE_PHYSICAL_DEVICE_DATA
+ms.keywords: PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Storage Devices], storage.storage_physical_device_data, PSTORAGE_PHYSICAL_DEVICE_DATA, _STORAGE_PHYSICAL_DEVICE_DATA, ntddstor/PSTORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA, ntddstor/STORAGE_PHYSICAL_DEVICE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PHYSICAL_DEVICE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA"
+req.typenames: STORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA
 ---
 
 # _STORAGE_PHYSICAL_DEVICE_DATA structure
@@ -78,32 +78,32 @@ typedef struct _STORAGE_PHYSICAL_DEVICE_DATA {
 
 
 
-### -field DeviceId
+#### - DeviceId
 
 The hardware ID of the storage device.
 
 
-### -field Role
+#### - Role
 
 The role of the storage device. A bitmask can be use to specify multiple roles, including <b>STORAGE_COMPONENT_ROLE_CACHE</b> (0x00000001), <b>STORAGE_COMPONENT_ROLE_TIERING</b> (0x00000002), and <b>STORAGE_COMPONENT_ROLE_DATA</b> (0x00000004).
 
 
-### -field HealthStatus
+#### - HealthStatus
 
 Indicates the health status of a storage device, of type <a href="..\ntddstor\ne-ntddstor-_storage_component_health_status.md">STORAGE_COMPONENT_HEALTH_STATUS</a>.
 
 
-### -field CommandProtocol
+#### - CommandProtocol
 
 Specifies the storage command protocols that are used between software and hardware, of type <a href="..\ntddstor\ne-ntddstor-_storage_protocol_type.md">STORAGE_PROTOCOL_TYPE</a>.
 
 
-### -field SpecVersion
+#### - SpecVersion
 
 Indicates the specification of the storage device, of type <a href="..\ntddstor\ns-ntddstor-_storage_spec_version.md">STORAGE_SPEC_VERSION</a>.
 
 
-### -field FormFactor
+#### - FormFactor
 
 Indicates the form factor of a storage device, of type <a href="..\ntddstor\ne-ntddstor-_storage_device_form_factor.md">STORAGE_DEVICE_FORM_FACTOR</a>.
 
@@ -123,7 +123,7 @@ Indicates the form factor of a storage device, of type <a href="..\ntddstor\ne-n
  
 
 
-### -field Capacity
+#### - Capacity
 
 The capacity of the storage device in units of kilobytes (1024 bytes).
 

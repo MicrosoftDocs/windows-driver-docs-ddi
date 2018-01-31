@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kereverttouseraffinitythreadex, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], wdm/KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx, k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml
+ms.keywords: wdm/KeRevertToUserAffinityThreadEx, kernel.kereverttouseraffinitythreadex, KeRevertToUserAffinityThreadEx, k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KeRevertToUserAffinityThreadEx(
 
 
 
-### -param Affinity [in]
+#### - Affinity [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed variable that specifies the new system affinity of the current thread. Set this parameter to the value that was returned by a previous call to the <a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a> routine.
 
@@ -107,9 +107,9 @@ If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
 
 <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
 

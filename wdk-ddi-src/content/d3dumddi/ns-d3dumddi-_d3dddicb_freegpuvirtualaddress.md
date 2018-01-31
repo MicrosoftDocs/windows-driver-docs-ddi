@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5E11C1BB-7E9E-4D9C-A15A-B9CCB29622C3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], display.d3dddicb_freegpuvirtualaddress, d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS"
+ms.keywords: D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS, display.d3dddicb_freegpuvirtualaddress, _D3DDDICB_FREEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDICB_FREEGPUVIRTUALADDRESS {
 
 
 
-### -field BaseAddress
+#### - BaseAddress
 
 Specifies the base virtual address, in bytes, of the range to free. Must be aligned to 4 KB.
 
 
-### -field Size
+#### - Size
 
 Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 25AA9012-64A1-4E61-956F-7F30CE0639EA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_PALETTE_0020, display.d3d12ddi_video_process_palette, D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020
+ms.keywords: display.d3d12ddi_video_process_palette, D3D12DDI_VIDEO_PROCESS_PALETTE_0020, D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D12DDI_VIDEO_PROCESS_PALETTE_0020 {
 
 
 
-### -field Enable
+#### - Enable
 
 Whether palette is enabled.
 
 
-### -field NumEntries
+#### - NumEntries
 
 The number of elements in the <b>pEntries</b> array.
 
 
-### -field pEntries
+#### - pEntries
 
 A pointer to an array of palette entries. For RGB streams, the palette entries use the <b>DXGI_FORMAT_B8G8R8A8</b> representation. For YCbCr streams, the palette entries use the <b>DXGI_FORMAT_AYUV</b> representation. For more information, see the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> enumeration. The caller allocates the array.
 

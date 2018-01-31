@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4c02da7e-2d93-4e0c-9666-acb380c6d39a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: LPSENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, _SENDCMDINPARAMS, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml, *PSENDCMDINPARAMS, *LPSENDCMDINPARAMS, storage.sendcmdinparams, PSENDCMDINPARAMS, ntdddisk/SENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], PSENDCMDINPARAMS structure pointer [Storage Devices], ntdddisk/LPSENDCMDINPARAMS, SENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices]
+ms.keywords: SENDCMDINPARAMS structure [Storage Devices], ntdddisk/LPSENDCMDINPARAMS, storage.sendcmdinparams, PSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml, *LPSENDCMDINPARAMS, PSENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], _SENDCMDINPARAMS, LPSENDCMDINPARAMS, ntdddisk/SENDCMDINPARAMS, *PSENDCMDINPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SENDCMDINPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PSENDCMDINPARAMS, *LPSENDCMDINPARAMS, SENDCMDINPARAMS"
+req.typenames: SENDCMDINPARAMS, *LPSENDCMDINPARAMS, *PSENDCMDINPARAMS
 ---
 
 # _SENDCMDINPARAMS structure
@@ -72,32 +72,32 @@ typedef struct _SENDCMDINPARAMS {
 
 
 
-### -field cBufferSize
+#### - cBufferSize
 
 Contains the buffer size, in bytes.
 
 
-### -field irDriveRegs
+#### - irDriveRegs
 
 Contains a <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a> structure used to report the contents of the IDE controller registers.
 
 
-### -field bDriveNumber
+#### - bDriveNumber
 
 The <b>bDriveNumber</b> member is opaque. Do not use it. The operating system ignores this member, because the physical drive that receives the request depends on the handle that the caller uses when making the request.
 
 
-### -field bReserved
+#### - bReserved
 
 Reserved. 
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved. 
 
 
-### -field bBuffer
+#### - bBuffer
 
 Pointer to the input buffer. 
 
@@ -115,9 +115,9 @@ The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.micros
 
 <a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
 
  
 

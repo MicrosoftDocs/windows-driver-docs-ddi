@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c6a6f98f-a4e3-47ed-b9e9-7303c824612d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_74b5ec6e-0c62-419f-beb2-676d993c7496.xml, d3dkmddi/DXGK_MAPAPERTUREFLAGS, DXGK_MAPAPERTUREFLAGS, display.dxgk_mapapertureflags, _DXGK_MAPAPERTUREFLAGS, DXGK_MAPAPERTUREFLAGS structure [Display Devices]
+ms.keywords: DmStructs_74b5ec6e-0c62-419f-beb2-676d993c7496.xml, DXGK_MAPAPERTUREFLAGS, _DXGK_MAPAPERTUREFLAGS, display.dxgk_mapapertureflags, d3dkmddi/DXGK_MAPAPERTUREFLAGS, DXGK_MAPAPERTUREFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,28 +73,28 @@ typedef struct _DXGK_MAPAPERTUREFLAGS {
 
 
 
-### -field CacheCoherent
+#### - CacheCoherent
 
 [in] A UINT value that specifies whether cache coherency is required for pages that are mapped in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>. If this member is set, the driver must ensure that cache coherency is enforced on the pages that are mapped. If this member is not set, cache coherency is not required for the pages that are mapped. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that DXGK_MAPAPERTUREFLAGS contains that can hold a 32-bit value that identifies the type of map-aperture-segment-operation.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
  
 

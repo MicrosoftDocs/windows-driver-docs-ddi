@@ -77,46 +77,44 @@ NTSTATUS NormalizeNameComponentCallback(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the minifilter driver instance that this callback routine is registered for. 
 
 
-### -param ParentDirectory [in]
+#### - ParentDirectory [in]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the parent directory for this name component. 
 
 
-### -param VolumeNameLength [in]
+#### - VolumeNameLength [in]
 
 Length, in bytes, of the parent directory name stored in the structure that the <i>ParentDirectory</i> parameter points to. 
 
 
-### -param Component [in]
+#### - Component [in]
 
 Pointer to a UNICODE_STRING structure that contains the name component to be expanded. 
 
 
-### -param ExpandComponentName [out]
+#### - ExpandComponentName [out]
 
 Pointer to a <a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a> structure that receives the expanded (normalized) file name information for the name component. 
 
 
-### -param ExpandComponentNameLength [in]
+#### - ExpandComponentNameLength [in]
 
 Length, in bytes, of the buffer that the <i>ExpandComponentName</i> parameter points to. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Name normalization flags.  FLTFL_NORMALIZE_NAME_CASE_SENSITIVE specifies that the name to be normalized is case-sensitive.  FLTFL_NORMALIZE_NAME_DESTINATION_FILE_NAME specifies that the callback routine has been called to service a <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a> routine call.
 
 
-### -param *NormalizationContext
+#### - *NormalizationContext [in, out]
 
-
-
-
+Pointer to minifilter driver-provided context information to be passed in any subsequent calls to this callback routine that are made to normalize the remaining components in the same file name path. 
 
 
 #### - NormalizationContext [in, out]
@@ -146,19 +144,19 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
 
 <a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
  
 

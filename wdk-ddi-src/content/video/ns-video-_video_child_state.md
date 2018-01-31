@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69a2eebb-9294-4fc1-871a-587792f84f35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_CHILD_STATE, Video_Structs_330b2d6d-13da-4949-9827-73e7829931b6.xml, VIDEO_CHILD_STATE structure [Display Devices], PVIDEO_CHILD_STATE structure pointer [Display Devices], _VIDEO_CHILD_STATE, *PVIDEO_CHILD_STATE, VIDEO_CHILD_STATE, video/PVIDEO_CHILD_STATE, video/VIDEO_CHILD_STATE, display.video_child_state
+ms.keywords: Video_Structs_330b2d6d-13da-4949-9827-73e7829931b6.xml, PVIDEO_CHILD_STATE, VIDEO_CHILD_STATE structure [Display Devices], VIDEO_CHILD_STATE, video/PVIDEO_CHILD_STATE, *PVIDEO_CHILD_STATE, display.video_child_state, _VIDEO_CHILD_STATE, video/VIDEO_CHILD_STATE, PVIDEO_CHILD_STATE structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_CHILD_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_CHILD_STATE, VIDEO_CHILD_STATE"
+req.typenames: VIDEO_CHILD_STATE, *PVIDEO_CHILD_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _VIDEO_CHILD_STATE {
 
 
 
-### -field Id
+#### - Id
 
 Specifies the ID for a particular child device, as given to it by the miniport driver. This value is the same as that returned in the <i>UId</i> parameter of the <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a> function.
 
 
-### -field State
+#### - State
 
 Specifies the new state, on or off, for the child device. A value of one (1) indicates that the child device should be turned on; a value of zero (0) indicates that it should be turned off. One possible use for <b>State</b> is in hotkey switching from one display device to another.
 
@@ -88,9 +88,9 @@ One member of the <a href="..\video\ns-video-_video_child_state_configuration.md
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-
 <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
  
 

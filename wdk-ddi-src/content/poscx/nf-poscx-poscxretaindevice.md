@@ -69,12 +69,12 @@ NTSTATUS PosCxRetainDevice(
 
 
 
-### -param device [in]
+#### - device [in]
 
 A handle to a framework device object that represents the device.
 
 
-### -param request [in]
+#### - request [in]
 
 A handle to a framework request object that represents the request. This request must come from a WDF IO queue. The caller must always complete the request.
 

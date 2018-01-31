@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 419BCBB6-634A-421D-A940-8690BCCF1AC6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetBytes, IPrinterScriptablePropertyBag interface [Print Devices], GetBytes method, GetBytes method [Print Devices], IPrinterScriptablePropertyBag::GetBytes, GetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, printerextension/IPrinterScriptablePropertyBag::GetBytes, print.iprinterscriptablepropertybag_getbytes, IPrinterScriptablePropertyBag
+ms.keywords: IPrinterScriptablePropertyBag, GetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, printerextension/IPrinterScriptablePropertyBag::GetBytes, GetBytes, GetBytes method [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices], GetBytes method, print.iprinterscriptablepropertybag_getbytes, IPrinterScriptablePropertyBag::GetBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetBytes(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The property to read.
 

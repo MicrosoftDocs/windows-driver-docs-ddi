@@ -76,7 +76,7 @@ VOID HwStorTracingEnabled(
 
 
 
-### -param Enabled [in]
+#### - Enabled [in]
 
 True to enable tracing in the miniport. Otherwise, false.
 

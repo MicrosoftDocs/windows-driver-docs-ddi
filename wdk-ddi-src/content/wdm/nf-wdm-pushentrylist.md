@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pushentrylist, k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, wdm/PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], PushEntryList
+ms.keywords: k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, PushEntryList routine [Kernel-Mode Driver Architecture], PushEntryList, wdm/PushEntryList, kernel.pushentrylist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID PushEntryList(
 
 
 
-### -param ListHead [in, out]
+#### - ListHead [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
 
 
-### -param Entry [in, out]
+#### - Entry [in, out]
 
 Pointer to SINGLE_LIST_ENTRY structure that represents the entry to be inserted on the list.
 
@@ -99,9 +99,9 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
-
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
+
+<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
 
  
 

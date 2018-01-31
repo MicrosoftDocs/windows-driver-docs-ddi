@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86e9662e-d308-4e3a-98c1-4134186f1bad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsnetbufferlistassociatecontext1, fwpsk/FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsNetBufferListAssociateContext1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListAssociateContext1, netvista.fwpsnetbufferlistassociatecontext1, FwpsNetBufferListAssociateContext1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,18 +79,18 @@ NTSTATUS NTAPI FwpsNetBufferListAssociateContext1(
 
 
 
-### -param netBufferList [in, out]
+#### - netBufferList [in, out]
 
 A network buffer list that indicates one or more packets of interest to the callout driver.
 
 
-### -param layerId [in]
+#### - layerId [in]
 
 The identifier of the layer in which the context is being associated. When calling this function
      from the NDIS receive path, set this parameter to <b>FWPS_LAYER_NON_WFP</b>.
 
 
-### -param context [in]
+#### - context [in]
 
 Arbitrary context information set by the callout driver. The filter engine will pass this context
      to the callout driver's 
@@ -98,7 +98,7 @@ Arbitrary context information set by the callout driver. The filter engine will 
      <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn1.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a> function.
 
 
-### -param contextTag [in]
+#### - contextTag [in]
 
 A locally unique identifier obtained by calling the 
      <mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
@@ -110,19 +110,19 @@ A locally unique identifier obtained by calling the
 TBD
 
 
-### -param deviceObject [in, out]
+#### - deviceObject [in, out]
 
 A pointer to the callout driver's device object.
 
 
-### -param notifyFn [in]
+#### - notifyFn [in]
 
 A pointer to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn1.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a> function. The filter engine will send status notifications to this
      function.
 
 
-### -param flags [in]
+#### - flags [in]
 
 This parameter is reserved for future use and is set to zero.
 
@@ -188,20 +188,20 @@ This function is essentially identical to the previous version,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
-
-<mshelp:link keywords="netvista.fwpsnetbufferlistretrievecontext0" tabindex="0"><b>
-   FwpsNetBufferListRetrieveContext0</b></mshelp:link>
+<mshelp:link keywords="netvista.fwpsnetbufferlistremovecontext0" tabindex="0"><b>
+   FwpsNetBufferListRemoveContext0</b></mshelp:link>
 
 <mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
    FwpsNetBufferListGetTagForContext0</b></mshelp:link>
 
+<mshelp:link keywords="netvista.fwpsnetbufferlistretrievecontext0" tabindex="0"><b>
+   FwpsNetBufferListRetrieveContext0</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">FwpsNetBufferListAssociateContext0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<mshelp:link keywords="netvista.fwpsnetbufferlistremovecontext0" tabindex="0"><b>
-   FwpsNetBufferListRemoveContext0</b></mshelp:link>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn1.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a>
 

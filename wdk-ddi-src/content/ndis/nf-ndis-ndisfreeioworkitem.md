@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ddc2f96b-fa2c-43c1-960f-7f8e06a5b22d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeIoWorkItem, netvista.ndisfreeioworkitem, NdisFreeIoWorkItem, ndis_work_items_ref_50b3859f-f34b-4cae-b7ef-935f1aae82cb.xml, NdisFreeIoWorkItem function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_work_items_ref_50b3859f-f34b-4cae-b7ef-935f1aae82cb.xml, ndis/NdisFreeIoWorkItem, NdisFreeIoWorkItem, NdisFreeIoWorkItem function [Network Drivers Starting with Windows Vista], netvista.ndisfreeioworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID NdisFreeIoWorkItem(
 
 
 
-### -param NdisIoWorkItemHandle [in]
+#### - NdisIoWorkItemHandle [in]
 
 A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a previous call to the 
      <mshelp:link keywords="netvista.ndisallocateioworkitem" tabindex="0"><b>
@@ -95,13 +95,13 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
-
 <a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
+
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
 
 <a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
 
  
 

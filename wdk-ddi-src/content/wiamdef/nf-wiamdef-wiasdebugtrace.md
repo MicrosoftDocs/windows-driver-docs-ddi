@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
+ms.keywords: wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml, wiamdef/wiasDebugTrace, image.wiasdebugtrace, wiasDebugTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasDebugTrace
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ VOID __cdecl wiasDebugTrace(
 
 
 
-### -param hInstance
+#### - hInstance
 
 Is the module handle of calling module.
 
@@ -108,9 +108,9 @@ To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Trac
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
-
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
  
 

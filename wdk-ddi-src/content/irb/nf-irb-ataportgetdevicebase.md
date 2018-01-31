@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cad43c7-00f0-4590-997c-f956afe07e55
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortGetDeviceBase routine [Storage Devices], storage.ataportgetdevicebase, irb/AtaPortGetDeviceBase, AtaPortGetDeviceBase, atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml
+ms.keywords: AtaPortGetDeviceBase routine [Storage Devices], atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, AtaPortGetDeviceBase, storage.ataportgetdevicebase, irb/AtaPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ PVOID AtaPortGetDeviceBase(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-### -param IoAddress [in]
+#### - IoAddress [in]
 
 Specifies the base address to map.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="..\irb\ns-irb-_ide_miniport_resources.md">IDE_MINIPORT_RESOURCES</a> structure.
 

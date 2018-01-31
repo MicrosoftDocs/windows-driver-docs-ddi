@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4930661-fb88-458b-9460-129ab057e0f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortGetRomImage, display.videoportgetromimage, VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, VideoPortGetRomImage function [Display Devices], VideoPortGetRomImage
+ms.keywords: display.videoportgetromimage, VideoPortGetRomImage, VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, VideoPortGetRomImage function [Display Devices], video/VideoPortGetRomImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ PVOID VideoPortGetRomImage(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the miniport driver's device extension.
 
 
-### -param Unused1 [in]
+#### - Unused1 [in]
 
 Currently ignored by the video port driver; should be set to <b>NULL</b>.
 
 
-### -param Unused2 [in]
+#### - Unused2 [in]
 
 Currently ignored by the video port driver; should be set to zero.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Either the number of bytes of ROM data that the video port driver should read and return, or zero.
 

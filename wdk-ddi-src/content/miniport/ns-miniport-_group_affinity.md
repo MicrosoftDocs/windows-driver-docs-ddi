@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: miniport/GROUP_AFFINITY, kernel.group_affinity, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], GROUP_AFFINITY, miniport/PGROUP_AFFINITY, PGROUP_AFFINITY, *PGROUP_AFFINITY, _GROUP_AFFINITY
+ms.keywords: GROUP_AFFINITY, miniport/PGROUP_AFFINITY, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, _GROUP_AFFINITY, kernel.group_affinity, *PGROUP_AFFINITY, PGROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], miniport/GROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GROUP_AFFINITY
 product: Windows
 targetos: Windows
-req.typenames: "*PGROUP_AFFINITY, GROUP_AFFINITY"
+req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 ---
 
 # _GROUP_AFFINITY structure
@@ -69,17 +69,17 @@ typedef struct _GROUP_AFFINITY {
 
 
 
-### -field Mask
+#### - Mask
 
 Specifies the affinity mask. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value. The bits in the affinity mask identify a set of processors within the group identified by <b>Group</b>.
 
 
-### -field Group
+#### - Group
 
 Specifies the group number. In Windows 7, the group number must be in the range from 0 to 3.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use. Set all three <b>Reserved</b> array elements to zero. 
 
@@ -99,11 +99,11 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
+<a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
 
 <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
 
-<a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
+<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	NdkGetConnectionData
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_GET_CONNECTION_DATA callback
@@ -74,31 +74,32 @@ NTSTATUS NdkGetConnectionData(
 
 
 
-### -param *pNdkConnector
+#### - *pNdkConnector [in]
+
+A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
 
 
+#### - *pInboundReadLimit [out, optional]
 
-### -param *pInboundReadLimit
-
-
-
-### -param *pOutboundReadLimit
+The maximum number of incoming in-progress read operations to allow on the QP is returned in this location.
 
 
+#### - *pOutboundReadLimit [out, optional]
 
-### -param pPrivateData
+The maximum number of outgoing in-progress read operations to allow on the QP is returned in this location.
+
+
+#### - pPrivateData
 
 A pointer to private data that is returned.
 
 
 
 
-### -param *pPrivateDataLength
+#### - *pPrivateDataLength
 
-
-
-
-
+The length, in bytes, of the private data that is provided in the <i>pPrivateData</i> parameter.
+<div class="alert"><b>Note</b>  The output value does not indicate the actual length of private data stored in the buffer. NDK consumers must negotiate the format and length of the actual private data. For more information about private data, see the Remarks section.</div><div> </div>
 
 #### - pNdkConnector [in]
 
@@ -190,9 +191,9 @@ If <i>*pPrivateDataLength</i> is greater than or equal to <i>RDS</i>, the provid
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
  
 

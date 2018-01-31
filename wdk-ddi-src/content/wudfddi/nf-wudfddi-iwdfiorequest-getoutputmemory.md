@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12862fb2-4cdb-4446-aa20-ec911c9cd65f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetOutputMemory method, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest::GetOutputMemory, umdf.iwdfiorequest_getoutputmemory, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest, GetOutputMemory, wudfddi/IWDFIoRequest::GetOutputMemory, wdf.iwdfiorequest_getoutputmemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml
+ms.keywords: IWDFIoRequest, GetOutputMemory method, wudfddi/IWDFIoRequest::GetOutputMemory, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, GetOutputMemory, wdf.iwdfiorequest_getoutputmemory, IWDFIoRequest interface, GetOutputMemory method, umdf.iwdfiorequest_getoutputmemory, GetOutputMemory method, IWDFIoRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetOutputMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetOutputMemory(
 
 
 
-### -param ppWdfMemory [out]
+#### - ppWdfMemory [out]
 
 A pointer to a variable that receives a pointer to the reference-counted <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for the memory object. Note that returning <b>NULL</b> is valid; in this situation, no output memory is associated with the I/O request.
 
@@ -99,13 +99,13 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
  
 

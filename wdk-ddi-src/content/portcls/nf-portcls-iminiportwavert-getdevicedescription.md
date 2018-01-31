@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c6c0da06-c304-4d2d-907c-ccbb141c385b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRT, IMiniportWaveRT::GetDeviceDescription, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, GetDeviceDescription method [Audio Devices], audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, GetDeviceDescription, GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface
+ms.keywords: GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface, GetDeviceDescription, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, GetDeviceDescription method [Audio Devices], portcls/IMiniportWaveRT::GetDeviceDescription, IMiniportWaveRT::GetDeviceDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRT.GetDeviceDescription
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRT::GetDeviceDescription method
@@ -67,7 +67,7 @@ NTSTATUS GetDeviceDescription(
 
 
 
-### -param DeviceDescription [out]
+#### - DeviceDescription [out]
 
 Pointer to a DEVICE_DESCRIPTION structure to be filled in by the miniport. The caller specifies a valid, non-NULL pointer value for this parameter.
 
@@ -88,9 +88,9 @@ The <i>DeviceDescription</i> parameter contains a pointer to a DEVICE_DESCRIPTIO
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-
 <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 <a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
 

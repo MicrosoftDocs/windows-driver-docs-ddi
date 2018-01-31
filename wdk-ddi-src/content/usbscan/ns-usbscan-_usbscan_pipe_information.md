@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a13bec15-67e1-45f9-be90-dee5c555ad64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_USBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], usbscan/USBSCAN_PIPE_INFORMATION, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, *PUSBSCAN_PIPE_INFORMATION, usbscan/PUSBSCAN_PIPE_INFORMATION, image.usbscan_pipe_information, PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices]"
+ms.keywords: "_USBSCAN_PIPE_INFORMATION, usbscan/USBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION, usbscan/PUSBSCAN_PIPE_INFORMATION, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, USBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices], image.usbscan_pipe_information, PUSBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _USBSCAN_PIPE_INFORMATION {
 
 
 
-### -field MaximumPacketSize
+#### - MaximumPacketSize
 
 Maximum packet size for the transfer pipe.
 
 
-### -field EndpointAddress
+#### - EndpointAddress
 
 The address of the pipe's endpoint. The address is encoded as follows:
 <table>
@@ -123,21 +123,21 @@ Direction, ignored for control endpoints:
 For more information, see the <i>Universal Serial Bus Specification</i>.
 
 
-### -field Interval
+#### - Interval
 
 Polling interval, in milliseconds, for interrupt pipes. For more information, see the <i>Universal Serial Bus Specification</i>.
 
 
-### -field PipeType
+#### - PipeType
 
 A <a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>-typed value identifying the pipe type.
 
 
 ## -see-also
 
-<a href="..\usbscan\ns-usbscan-_usbscan_pipe_configuration.md">USBSCAN_PIPE_CONFIGURATION</a>
-
 <a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>
+
+<a href="..\usbscan\ns-usbscan-_usbscan_pipe_configuration.md">USBSCAN_PIPE_CONFIGURATION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Send method, Send method, IWDFIoRequest interface, umdf.iwdfiorequest_send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, IWDFIoRequest interface, Send method, IWDFIoRequest, wudfddi/IWDFIoRequest::Send, Send, IWDFIoRequest::Send, wdf.iwdfiorequest_send
+ms.keywords: IWDFIoRequest interface, Send method, IWDFIoRequest::Send, wudfddi/IWDFIoRequest::Send, umdf.iwdfiorequest_send, IWDFIoRequest, Send, wdf.iwdfiorequest_send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, Send method, Send method, IWDFIoRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.Send
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ HRESULT Send(
 
 
 
-### -param pIoTarget [in]
+#### - pIoTarget [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface for the I/O target object, which typically represents a lower driver in the stack. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A valid bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags.
 
 
-### -param Timeout [in]
+#### - Timeout [in]
 
 The amount of time, in system time units (100-nanosecond intervals), that can elapse before the framework automatically cancels the I/O request.
 <ul>
@@ -125,13 +125,13 @@ A driver cannot call <b>Send</b> to send an I/O request to a USB pipe, if the dr
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>
 

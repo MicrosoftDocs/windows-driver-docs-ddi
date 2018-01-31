@@ -71,7 +71,7 @@ BOOLEAN HwStorInterrupt(
 
 
 
-### -param DeviceExtension
+#### - DeviceExtension
 
 A pointer to the miniport driver's per HBA storage area. 
 
@@ -99,9 +99,9 @@ The port driver calls the <b>HwStorInterrupt</b> routine at DIRQL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
-
 <a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
+
+<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], *PMSiSCSI_MMIPSECStats, _MSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], iscsiprf/PMSiSCSI_MMIPSECStats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml
+ms.keywords: "*PMSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats, iscsiprf/PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml, _MSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], storage.msiscsi_mmipsecstats, MSiSCSI_MMIPSECStats"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_MMIPSECStats
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats"
+req.typenames: MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats
 ---
 
 # _MSiSCSI_MMIPSECStats structure
@@ -87,107 +87,107 @@ typedef struct _MSiSCSI_MMIPSECStats {
 
 
 
-### -field ActiveAcquire
+#### - ActiveAcquire
 
 The number of active require requests that the IPsec driver has sent to the Internet Key Exchange (IKE) service. Typically, the number of active acquire requests is 1. Under a heavy load, the number of active acquire requests is 1 plus the number of requests that are waiting in the queue of the IKE service. 
 
 
-### -field ActiveReceive
+#### - ActiveReceive
 
 The number of IKE messages (that is, active receive requests) that are queued for processing.
 
 
-### -field AcquireFailures
+#### - AcquireFailures
 
 The number of active acquire requests that have failed.
 
 
-### -field ReceiveFailures
+#### - ReceiveFailures
 
 The number of failures that have occurred while drivers in the TCP stack are receiving IKE messages.
 
 
-### -field SendFailures
+#### - SendFailures
 
 The number of failures that have occurred while drivers in the TCP stack are sending IKE messages.
 
 
-### -field AcquireHeapSize
+#### - AcquireHeapSize
 
 The number of IKE messages that the acquire heap can hold. This number increases under a heavy load and then gradually decreases over time, as the acquire heap is emptied.
 
 
-### -field ReceiveHeapSize
+#### - ReceiveHeapSize
 
 The number of incoming IKE messages that the IKE receive buffers can hold.
 
 
-### -field NegotiationFailures
+#### - NegotiationFailures
 
 The total number of negotiation failures that occurred during main mode (also known as <i>phase 1</i>) negotiation or during quick mode (also known as <i>phase 2</i>) negotiation.
 
 
-### -field AuthenticationFailures
+#### - AuthenticationFailures
 
 The number of identity authentication failures that occurred during main mode negotiation. This number includes kerberos failures, certificate failures, and preshared key failures.
 
 
-### -field InvalidCookiesReceived
+#### - InvalidCookiesReceived
 
 The number of invalid cookies that the initiator has received in IKE messages. Cookies are invalid if the cookie state does not correspond to the state of an active main mode security association (SA).
 
 
-### -field TotalGetSPI
+#### - TotalGetSPI
 
 The number of requests that the IKE service submitted to obtain a unique security parameters index (SPI).
 
 
-### -field KeyAdditions
+#### - KeyAdditions
 
 The number of outbound quick mode SAs that the IKE service has added.
 
 
-### -field KeyUpdates
+#### - KeyUpdates
 
 The number of inbound quick mode SAs that the IKE service has added.
 
 
-### -field GetSPIFailures
+#### - GetSPIFailures
 
 The total number of unsuccessful attempts that the IKE service has made to obtain a unique SPI. 
 
 
-### -field KeyAdditionFailures
+#### - KeyAdditionFailures
 
 The number of outbound quick-mode SAs that the IKE service has submitted unsuccessfully.
 
 
-### -field KeyUpdateFailures
+#### - KeyUpdateFailures
 
 The number of inbound quick-mode SAs that the IKE service has added.
 
 
-### -field ConnectionListSize
+#### - ConnectionListSize
 
 The number of quick-mode state entries.
 
 
-### -field OakleyMainMode
+#### - OakleyMainMode
 
 The number of successful SAs that are created during main mode negotiations.
 
 
-### -field OakleyQuickMode
+#### - OakleyQuickMode
 
 The number of successful SAs that are created during quick-mode negotiations.
 
 
-### -field InvalidPackets
+#### - InvalidPackets
 
 The number of received IKE messages that are invalid, including IKE messages with invalid header fields, incorrect payload lengths, or incorrect (nonzero) responder cookies that should be 0.
 
 
-### -field SoftAssociations
+#### - SoftAssociations
 
 The number of negotiations that resulted in the use of plaintext SAs (also known as <i>soft SAs</i>). This value typically reflects the number of associations that the initiator established with computers that did not respond to main mode negotiation attempts. Computers that do not respond might not support IPSec, or they might support IPSec but not have an IPSec policy with which to negotiate security with an IPSec peer.
 

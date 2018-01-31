@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], pepfx/PoFxRegisterPlugin, PoFxRegisterPlugin, kernel.pofxregisterplugin
+ms.keywords: PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, PoFxRegisterPlugin, pepfx/PoFxRegisterPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PoFxRegisterPlugin
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PoFxRegisterPlugin function
@@ -69,12 +69,12 @@ NTSTATUS PoFxRegisterPlugin(
 
 
 
-### -param PepInformation [in]
+#### - PepInformation [in]
 
 A pointer to a <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a> structure.
 
 
-### -param KernelInformation [in, out]
+#### - KernelInformation [in, out]
 
 A pointer to a <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure.
 

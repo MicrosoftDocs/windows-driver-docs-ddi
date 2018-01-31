@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03e922af-f42a-4801-adc5-fc7a0b90f4a7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PWNODE_SINGLE_INSTANCE structure pointer [Kernel-Mode Driver Architecture], wmistr/WNODE_SINGLE_INSTANCE, kstruct_d_c6ae2ea3-5e64-466d-b479-02a9eea71b20.xml, WNODE_SINGLE_INSTANCE structure [Kernel-Mode Driver Architecture], tagWNODE_SINGLE_INSTANCE, wmistr/PWNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE, kernel.wnode_single_instance
+ms.keywords: wmistr/PWNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE, kernel.wnode_single_instance, tagWNODE_SINGLE_INSTANCE, wmistr/WNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE structure [Kernel-Mode Driver Architecture], PWNODE_SINGLE_INSTANCE structure pointer [Kernel-Mode Driver Architecture], kstruct_d_c6ae2ea3-5e64-466d-b479-02a9eea71b20.xml, WNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct tagWNODE_SINGLE_INSTANCE {
 
 
 
-### -field WnodeHeader
+#### - WnodeHeader
 
 Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
@@ -83,27 +83,27 @@ Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure t
  
 
 
-### -field OffsetInstanceName
+#### - OffsetInstanceName
 
 Indicates the offset from the beginning of this structure to the dynamic instance name of this instance, aligned on a USHORT boundary. This member is valid only if WNODE_FLAG_STATIC_INSTANCE_NAMES is clear in <b>WnodeHeader.Flags</b>. If the data block was registered with static instance names, WMI ignores <b>OffsetInstanceName</b>.
 
 
-### -field InstanceIndex
+#### - InstanceIndex
 
 Indicates the index of an instance registered with static instance names. This member is valid only if WNODE_FLAG_STATIC_INSTANCE_NAMES is set in <b>WnodeHeader.Flags</b>. If the data block was registered with dynamic instance names, WMI ignores <b>InstanceIndex</b>.
 
 
-### -field DataBlockOffset
+#### - DataBlockOffset
 
 Indicates the offset from the beginning of this structure to the beginning of the instance. 
 
 
-### -field SizeDataBlock
+#### - SizeDataBlock
 
 Indicates the size of the data block for this instance.
 
 
-### -field VariableData
+#### - VariableData
 
 Contains additional data, including the dynamic instance name if any, padding so the instance begins on an 8-byte boundary, and the instance of the data block to be returned. 
 
@@ -119,9 +119,9 @@ A driver fills in a <b>WNODE_SINGLE_INSTANCE</b> in response to an <a href="http
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
  
 

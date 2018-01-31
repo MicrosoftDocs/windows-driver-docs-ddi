@@ -74,12 +74,12 @@ NDIS_STATUS MiniportWdiIdleNotification(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 The handle to the context area that the miniport driver allocated.
 
 
-### -param ForceIdle [in]
+#### - ForceIdle [in]
 
 A BOOLEAN value that, when set to TRUE, specifies that the miniport driver must not veto the idle notification and must continue with the low-power state transition.
 

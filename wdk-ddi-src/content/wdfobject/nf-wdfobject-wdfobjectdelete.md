@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09eceeb4-8501-48c4-84f5-aa747914f9dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfobject/WdfObjectDelete, kmdf.wdfobjectdelete, WdfObjectDelete, wdf.wdfobjectdelete, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, PFN_WDFOBJECTDELETE, WdfObjectDelete method
+ms.keywords: WdfObjectDelete, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, wdf.wdfobjectdelete, WdfObjectDelete method, kmdf.wdfobjectdelete, wdfobject/WdfObjectDelete, PFN_WDFOBJECTDELETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfObjectDelete(
 
 
 
-### -param Object [in]
+#### - Object [in]
 
 A handle to framework object.
 
@@ -157,9 +157,9 @@ The <b>WdfObjectDelete</b> method must be called at IRQL &lt;= DISPATCH_LEVEL. I
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectcreate.md">WdfObjectCreate</a>
-
 <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectcreate.md">WdfObjectCreate</a>
 
  
 

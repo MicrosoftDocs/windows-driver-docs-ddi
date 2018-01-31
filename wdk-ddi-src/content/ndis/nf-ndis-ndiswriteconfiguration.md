@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63c94f4d-1c8c-43c2-ae58-993da42a80a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisWriteConfiguration, NdisWriteConfiguration, netvista.ndiswriteconfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], netvista.ndiswriteconfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, ndis/NdisWriteConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisWriteConfiguration(
 
 
 
-### -param Status [out]
+#### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following:
@@ -106,7 +106,7 @@ NDIS could not allocate resources, usually enough memory, to transfer the reques
 The requested information could not be written.
 
 
-### -param ConfigurationHandle [in]
+#### - ConfigurationHandle [in]
 
 The handle to a registry key that was returned by the 
      <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>, 
@@ -116,7 +116,7 @@ The handle to a registry key that was returned by the
      NdisOpenConfigurationKeyByName</b></mshelp:link> function.
 
 
-### -param Keyword [in]
+#### - Keyword [in]
 
 A pointer to an NDIS_STRING type describing a caller-supplied counted string, in the
      system-default character set, specifying the name of an entry for which to write the value. For
@@ -125,7 +125,7 @@ A pointer to an NDIS_STRING type describing a caller-supplied counted string, in
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 
-### -param ParameterValue [in]
+#### - ParameterValue [in]
 
 Pointer to a caller-supplied 
      <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
@@ -176,41 +176,41 @@ For more information about setup and installation files for Windows 2000 and lat
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
-<mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
-   NdisAnsiStringToUnicodeString</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 <mshelp:link keywords="netvista.ndisunicodestringtoansistring" tabindex="0"><b>
    NdisUnicodeStringToAnsiString</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
 <a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+
+<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
+   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
+   NdisAnsiStringToUnicodeString</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
    NdisOpenConfigurationKeyByName</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

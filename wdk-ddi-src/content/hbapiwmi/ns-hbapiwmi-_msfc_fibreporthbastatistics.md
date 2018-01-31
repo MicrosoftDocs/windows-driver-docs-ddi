@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PMSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], hbapiwmi/MSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, _MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices]
+ms.keywords: structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, hbapiwmi/PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices], MSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, *PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], _MSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, hbapiwmi/MSFC_FibrePortHBAStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FibrePortHBAStatistics
 product: Windows
 targetos: Windows
-req.typenames: MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics
+req.typenames: "*PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics"
 ---
 
 # _MSFC_FibrePortHBAStatistics structure
@@ -69,17 +69,17 @@ typedef struct _MSFC_FibrePortHBAStatistics {
 
 
 
-### -field UniquePortId
+#### - UniquePortId
 
 Contains a unique identifier for the port. 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-### -field Statistics
+#### - Statistics
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportstatistics.md">MSFC_HBAPortStatistics</a> with statistical information about the port. 
 

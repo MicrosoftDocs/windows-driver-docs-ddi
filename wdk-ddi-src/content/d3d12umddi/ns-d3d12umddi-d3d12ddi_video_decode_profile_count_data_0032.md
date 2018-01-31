@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8398579d-e8cf-4c58-ac74-eeddf2dca23b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, display.d3d12ddi-video-decode-profile-count-data-0032
+ms.keywords: display.d3d12ddi-video-decode-profile-count-data-0032, D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032 structure [Display Devices], D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032 {
 
 
 
-### -field NodeIndex
+#### - NodeIndex
 
 Node index.
 
 
-### -field ProfileCount
+#### - ProfileCount
 
 Profile count.
 

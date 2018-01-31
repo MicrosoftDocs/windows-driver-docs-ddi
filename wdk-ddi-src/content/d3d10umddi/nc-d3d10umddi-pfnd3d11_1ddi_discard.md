@@ -40,7 +40,7 @@ apiname:
 -	Discard(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DISCARD callback
@@ -78,20 +78,21 @@ VOID APIENTRY* Discard(D3D11_1)(
 
 
 
-### -param HandleType
+#### - HandleType
 
 A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>, that identifies the context handle type.
 
 
-### -param *hResourceOrView
+#### - *hResourceOrView
 
+A pointer to a handle to the resource or to the view that is to be discarded.
 
 
 ### -param *
 
 
 
-### -param NumRects
+#### - NumRects
 
 The number of rectangles in the array that the  <i>pRects</i> parameter specifies.
 

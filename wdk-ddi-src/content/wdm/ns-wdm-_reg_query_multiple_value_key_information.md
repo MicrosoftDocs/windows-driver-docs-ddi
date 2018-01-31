@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 764045c0-9057-4abc-a1bd-8713797082c6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, wdm/PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_query_multiple_value_key_information, kstruct_d_b61ed5ad-3ac8-4db4-abe9-5670b4c8d997.xml, wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
+ms.keywords: kernel.reg_query_multiple_value_key_information, wdm/PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_b61ed5ad-3ac8-4db4-abe9-5670b4c8d997.xml, wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
+req.typenames: REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -76,47 +76,47 @@ typedef struct _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION {
 
 
 
-### -field Object
+#### - Object
 
 A pointer to the registry key object for the key whose value entries are being retrieved.
 
 
-### -field ValueEntries
+#### - ValueEntries
 
 A pointer to an array of <a href="..\wdm\ns-wdm-_key_value_entry.md">KEY_VALUE_ENTRY</a> structures, one for each value entry that is retrieved.
 
 
-### -field EntryCount
+#### - EntryCount
 
 The number of entries in the <b>ValueEntries</b> array.
 
 
-### -field ValueBuffer
+#### - ValueBuffer
 
 A pointer to a buffer that receives (from the system) the data for all the value entries specified by the <b>ValueEntries</b> array.
 
 
-### -field BufferLength
+#### - BufferLength
 
 A pointer to a variable that contains the length, in bytes, of the <b>ValueBuffer</b> buffer.
 
 
-### -field RequiredBufferLength
+#### - RequiredBufferLength
 
 A pointer to a variable that receives (from the system) the number of bytes required to hold the data for all the value entries that the <b>ValueEntries</b> array specifies. This member can be <b>NULL</b>.
 
 
-### -field CallContext
+#### - CallContext
 
 Optional driver-defined context information that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
-### -field ObjectContext
+#### - ObjectContext
 
 A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved for future use. This member is defined for Windows Vista and later versions of the Windows operating system.
 

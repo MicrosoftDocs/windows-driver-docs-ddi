@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 37bf1cbe-9200-4d3e-b5e6-746f18293c1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMTextOutAsBitmap function [Print Devices], OEMTextOutAsBitmap, printoem/OEMTextOutAsBitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, print.oemtextoutasbitmap
+ms.keywords: print.oemtextoutasbitmap, OEMTextOutAsBitmap, OEMTextOutAsBitmap function [Print Devices], printoem/OEMTextOutAsBitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,42 +76,42 @@ BOOL APIENTRY OEMTextOutAsBitmap(
 
 
 
-### -param pso
+#### - pso
 
 
 
-### -param pstro
+#### - pstro
 
 
 
-### -param pfo
+#### - pfo
 
 
 
-### -param pco
+#### - pco
 
 
 
-### -param prclExtra
+#### - prclExtra
 
 
 
-### -param prclOpaque
+#### - prclOpaque
 
 
 
-### -param pboFore
+#### - pboFore
 
 
 
-### -param pboOpaque
+#### - pboOpaque
 
 
 
-### -param pptlOrg
+#### - pptlOrg
 
 
 
-### -param mix
+#### - mix
 
 

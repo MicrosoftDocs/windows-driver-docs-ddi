@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsallocatenetbufferandnetbufferlist0, FwpsAllocateNetBufferAndNetBufferList0, fwpsk/FwpsAllocateNetBufferAndNetBufferList0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml
+ms.keywords: fwpsk/FwpsAllocateNetBufferAndNetBufferList0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml, netvista.fwpsallocatenetbufferandnetbufferlist0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], FwpsAllocateNetBufferAndNetBufferList0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NTSTATUS NTAPI FwpsAllocateNetBufferAndNetBufferList0(
 
 
 
-### -param poolHandle [in]
+#### - poolHandle [in]
 
 A 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool handle that was
@@ -84,7 +84,7 @@ A
      <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a> function.
 
 
-### -param contextSize [in]
+#### - contextSize [in]
 
 The size, in bytes, of used data space in the 
      <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure
@@ -92,7 +92,7 @@ The size, in bytes, of used data space in the
      by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
 
-### -param contextBackFill [in]
+#### - contextBackFill [in]
 
 The size, in bytes, of 
      unused data space (backfill space) that the callout driver requires. The 
@@ -101,13 +101,13 @@ The size, in bytes, of
      multiple of the value defined by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
 
-### -param mdlChain [in, optional]
+#### - mdlChain [in, optional]
 
 A pointer to an MDL chain that is used to initialize the preallocated NET_BUFFER structure. This
      parameter is optional and can be <b>NULL</b>.
 
 
-### -param dataOffset [in]
+#### - dataOffset [in]
 
 The initial offset, in bytes, from the start of the buffer to the start of the 
      used data space in the MDL chain. Data space ahead of this offset is 
@@ -115,13 +115,13 @@ The initial offset, in bytes, from the start of the buffer to the start of the
      space in the MDL chain.
 
 
-### -param dataLength [in]
+#### - dataLength [in]
 
 The length, in bytes, of the 
      used data space in the MDL chain.
 
 
-### -param netBufferList [out]
+#### - netBufferList [out]
 
 A pointer to a variable that receives a pointer to the new 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
@@ -187,19 +187,19 @@ After the data described by the new <a href="..\ndis\ns-ndis-_net_buffer_list.md
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 
 <mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
    NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	EvtInterruptWorkItem
 product: Windows
 targetos: Windows
-req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
+req.typenames: "*PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ VOID EvtInterruptWorkItem(
 
 
 
-### -param Interrupt [in]
+#### - Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
-### -param AssociatedObject [in]
+#### - AssociatedObject [in]
 
 A handle to the framework device object that the driver passed to <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>.
 

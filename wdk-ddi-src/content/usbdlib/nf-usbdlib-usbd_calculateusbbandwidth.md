@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a54f3fb4-032a-4538-8b6d-20d6834d08c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml, buses.usbd_calculateusbbandwidth, USBD_CalculateUsbBandwidth routine [Buses]
+ms.keywords: usbdlib/USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth routine [Buses], USBD_CalculateUsbBandwidth, buses.usbd_calculateusbbandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_CalculateUsbBandwidth
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ ULONG USBD_CalculateUsbBandwidth(
 
 
 
-### -param MaxPacketSize [in]
+#### - MaxPacketSize [in]
 
 Specifies the maximum packet size. 
 
 
-### -param EndpointType [in]
+#### - EndpointType [in]
 
 Contains a value of type <a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a> that specifies the pipe type.
 
 
-### -param LowSpeed [in]
+#### - LowSpeed [in]
 
 Indicates, when <b>TRUE</b>, that the device is a low speed device. When <b>FALSE</b>, this member indicates that the device is a hi-speed device. 
 

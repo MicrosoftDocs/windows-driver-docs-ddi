@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D530355F-5824-4F7C-84C4-57D3D03A7116
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_Reserved2, UFS_Reserved1, UFS_fPurgeEnable, UFS_fBackgroundOpsEn, ufs/UFS_fDeviceInit, ufs/UFS_Reserved4, UFS_FLAGS_DESCRIPTOR, ufs/UFS_Reserved2, UFS_fPhyResourceRemoval, ufs/UFS_fPhyResourceRemoval, ufs/UFS_fPowerOnWPEn, ufs/UFS_fPurgeEnable, UFS_fBusyRTC, ufs/UFS_Reserved3, UFS_Reserved3, UFS_Reserved4, ufs/UFS_fDeviceLifeSpanModeEn, storage.ufs_flags_descriptor, UFS_fPowerOnWPEn, UFS_fPermanentWPEn, ufs/UFS_Reserved1, ufs/UFS_FLAGS_DESCRIPTOR, UFS_fDeviceInit, UFS_FLAGS_DESCRIPTOR enumeration [Storage Devices], ufs/UFS_Reserved5, ufs/UFS_fBusyRTC, ufs/UFS_fBackgroundOpsEn, UFS_fDeviceLifeSpanModeEn, UFS_Reserved5, UFS_fPermanentlyDisableFwUpdate, ufs/UFS_fPermanentWPEn, ufs/UFS_fPermanentlyDisableFwUpdate
+ms.keywords: ufs/UFS_fPurgeEnable, UFS_fBackgroundOpsEn, UFS_fPurgeEnable, UFS_Reserved2, ufs/UFS_fPowerOnWPEn, ufs/UFS_fBackgroundOpsEn, ufs/UFS_fPhyResourceRemoval, UFS_fPowerOnWPEn, UFS_Reserved5, ufs/UFS_fPermanentlyDisableFwUpdate, ufs/UFS_Reserved4, storage.ufs_flags_descriptor, UFS_Reserved3, UFS_fBusyRTC, ufs/UFS_FLAGS_DESCRIPTOR, UFS_fPhyResourceRemoval, ufs/UFS_fPermanentWPEn, ufs/UFS_Reserved1, UFS_FLAGS_DESCRIPTOR enumeration [Storage Devices], ufs/UFS_fBusyRTC, ufs/UFS_fDeviceInit, UFS_fDeviceLifeSpanModeEn, ufs/UFS_Reserved3, UFS_Reserved4, UFS_FLAGS_DESCRIPTOR, ufs/UFS_fDeviceLifeSpanModeEn, UFS_Reserved1, ufs/UFS_Reserved5, UFS_fDeviceInit, ufs/UFS_Reserved2, UFS_fPermanentlyDisableFwUpdate, UFS_fPermanentWPEn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,78 +81,78 @@ typedef enum _UFS_FLAGS_DESCRIPTOR {
 
 
 
-### -field UFS_Reserved1
+#### - UFS_Reserved1
 
 Reserved for future use.
 
 
-### -field UFS_fDeviceInit
+#### - UFS_fDeviceInit
 
 Indicates the device initialization is in progress.
 
 
-### -field UFS_fPermanentWPEn
+#### - UFS_fPermanentWPEn
 
 Indicates permanent write protection is enabled.
 
 
-### -field UFS_fPowerOnWPEn
+#### - UFS_fPowerOnWPEn
 
 Indicates power on write protection is enabled.
 
 
-### -field UFS_fBackgroundOpsEn
+#### - UFS_fBackgroundOpsEn
 
 Indicates the device is permitted to run
 background operations.
 
 
-### -field UFS_fDeviceLifeSpanModeEn
+#### - UFS_fDeviceLifeSpanModeEn
 
 Indicates Device Life Span Mode is enabled.
 
 
-### -field UFS_fPurgeEnable
+#### - UFS_fPurgeEnable
 
 Indicates Purge Operation is enabled.
 
 
-### -field UFS_Reserved2
+#### - UFS_Reserved2
 
 Reserved for future use.
 
 
-### -field UFS_fPhyResourceRemoval
+#### - UFS_fPhyResourceRemoval
 
 Indicates
 that the dynamic capacity operation occurs on the device's EndPointReset or
 a hardware reset. The host cannot reset this flag.
 
 
-### -field UFS_fBusyRTC
+#### - UFS_fBusyRTC
 
 Indicates the device is executing internal
 operation related to Real Time Clock.
 
 
-### -field UFS_Reserved3
+#### - UFS_Reserved3
 
 Reserved for the Unified Memory Extension standard..
 
 
-### -field UFS_fPermanentlyDisableFwUpdate
+#### - UFS_fPermanentlyDisableFwUpdate
 
 Indicates the UFS device will permanently
 disallow future firmware updates to
 the Universal Flash Storage (UFS) device.
 
 
-### -field UFS_Reserved4
+#### - UFS_Reserved4
 
 Reserved for the Unified Memory Extension standard.
 
 
-### -field UFS_Reserved5
+#### - UFS_Reserved5
 
 Reserved for the Unified Memory Extension standard.
 

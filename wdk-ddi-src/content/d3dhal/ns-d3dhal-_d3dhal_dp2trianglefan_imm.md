@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a2f6f184-1178-4578-aafa-0bd088d42634
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], D3DHAL_DP2TRIANGLEFAN_IMM, d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, _D3DHAL_DP2TRIANGLEFAN_IMM, display.d3dhal_dp2trianglefan_imm, LPD3DHAL_DP2TRIANGLEFAN_IMM"
+ms.keywords: d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], *LPD3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM, d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, _D3DHAL_DP2TRIANGLEFAN_IMM, display.d3dhal_dp2trianglefan_imm, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DHAL_DP2TRIANGLEFAN_IMM {
 
 
 
-### -field dwEdgeFlags
+#### - dwEdgeFlags
 
 Specifies a bitmask that identifies which of the fan's outside edges should be rendered when the fill mode is D3DFILL_WIREFRAME. A set bit indicates that its corresponding edge should be rendered. For more information about this bitmask, see the Remarks section.
 
@@ -90,9 +90,9 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
 D3DDP2OP_TRIANGLEFAN_IMM
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
  
 

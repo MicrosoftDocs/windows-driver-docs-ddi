@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6BD3E98A-A2A5-4285-8F41-1445F90DD8EB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices], FILE_64_BYTE_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, FILE_128_BYTE_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_32_BYTE_ALIGNMENT, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS, _KSAUDIO_PACKETSIZE_CONSTRAINTS, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS, PKSAUDIO_PACKETSIZE_CONSTRAINTS, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], FILE_BYTE_ALIGNMENT, FILE_WORD_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, audio.ksaudio_packetsize_constraints, FILE_LONG_ALIGNMENT, FILE_OCTA_ALIGNMENT
+ms.keywords: PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_BYTE_ALIGNMENT, FILE_LONG_ALIGNMENT, FILE_WORD_ALIGNMENT, _KSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_32_BYTE_ALIGNMENT, audio.ksaudio_packetsize_constraints, FILE_OCTA_ALIGNMENT, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_64_BYTE_ALIGNMENT, FILE_128_BYTE_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], KSAUDIO_PACKETSIZE_CONSTRAINTS, KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices], ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _KSAUDIO_PACKETSIZE_CONSTRAINTS {
 
 
 
-### -field MinPacketPeriodInHns
+#### - MinPacketPeriodInHns
 
 The absolute minimum processing period supported by the driver expressed in hundred-nanosecond (HNS) units. This value can be 0 if the driver has no specific minimum processing period.
 
 
-### -field PacketSizeFileAlignment
+#### - PacketSizeFileAlignment
 
 The byte size alignment requirement. Use one of these defined file alignment values:
 <a id="FILE_BYTE_ALIGNMENT"></a><a id="file_byte_alignment"></a>
@@ -122,17 +122,17 @@ The byte size alignment requirement. Use one of these defined file alignment val
 
 
 
-### -field Reserved
+#### - Reserved
 
 Unused.
 
 
-### -field NumProcessingModeConstraints
+#### - NumProcessingModeConstraints
 
 The number of additional constraints for specific processing modes. This value can be 0.
 
 
-### -field ProcessingModeConstraints
+#### - ProcessingModeConstraints
 
 An array of 0 or more processing mode constraints. 
 

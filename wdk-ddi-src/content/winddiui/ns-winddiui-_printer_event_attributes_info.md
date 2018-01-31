@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3c39a515-f4f4-4309-8d4e-461b8835295b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PPRINTER_EVENT_ATTRIBUTES_INFO, winddiui/PRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], _PRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, PRINTER_EVENT_ATTRIBUTES_INFO"
+ms.keywords: PRINTER_EVENT_ATTRIBUTES_INFO, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], winddiui/PRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], _PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _PRINTER_EVENT_ATTRIBUTES_INFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 Specifies the size of this structure.
 
 
-### -field dwOldAttributes
+#### - dwOldAttributes
 
 A set of bits describing the current printer attributes.
 
 
-### -field dwNewAttributes
+#### - dwNewAttributes
 
 A set of bits describing the new printer attributes to be applied to the printer.
 

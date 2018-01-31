@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, storage.msiscsi_targetmappings, iscsiop/PMSiSCSI_TargetMappings, iscsiop/MSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], *PMSiSCSI_TargetMappings, _MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], MSiSCSI_TargetMappings
+ms.keywords: MSiSCSI_TargetMappings structure [Storage Devices], _MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], storage.msiscsi_targetmappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, iscsiop/MSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings, PMSiSCSI_TargetMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _MSiSCSI_TargetMappings {
 
 
 
-### -field UniqueAdapterId
+#### - UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
 
 
-### -field TargetMappingCount
+#### - TargetMappingCount
 
 The number of mappings in the <b>TargetMappings</b> member.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for Microsoft use only.
 
 
-### -field TargetMappings
+#### - TargetMappings
 
 A variable-length array of <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a> structures, each of which provides a list of LUN mappings that are associated with a particular iSCSI session that is associated with the adapter ID.
 
@@ -101,9 +101,9 @@ You must implement this class.
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563147">MSiSCSI_TargetMappings WMI Class</a>
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563147">MSiSCSI_TargetMappings WMI Class</a>
 
  
 

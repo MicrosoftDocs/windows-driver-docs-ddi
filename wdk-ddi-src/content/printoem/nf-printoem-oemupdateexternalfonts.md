@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 04b0a34f-0aec-4f42-8a2e-a29168a699e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMUpdateExternalFonts function [Print Devices], printoem/OEMUpdateExternalFonts, print.oemupdateexternalfonts, OEMUpdateExternalFonts, print_obsoletefunctions_f42779e4-8a2d-45eb-801c-67e7e69cb96a.xml
+ms.keywords: OEMUpdateExternalFonts function [Print Devices], printoem/OEMUpdateExternalFonts, OEMUpdateExternalFonts, print.oemupdateexternalfonts, print_obsoletefunctions_f42779e4-8a2d-45eb-801c-67e7e69cb96a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,14 +69,14 @@ BOOL APIENTRY OEMUpdateExternalFonts(
 
 
 
-### -param hPrinter
+#### - hPrinter
 
 
 
-### -param hHeap
+#### - hHeap
 
 
 
-### -param pwstrCartridges
+#### - pwstrCartridges
 
 

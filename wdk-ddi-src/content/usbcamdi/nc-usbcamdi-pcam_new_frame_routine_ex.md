@@ -74,22 +74,22 @@ VOID CamNewVideoFrameEx(
 
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Specifies the minidriver device context.
 
 
-### -param FrameContext
+#### - FrameContext
 
 Specifies the frame context to be initialized.
 
 
-### -param StreamNumber
+#### - StreamNumber
 
 Indicates the stream associated with this new frame.
 
 
-### -param FrameLength
+#### - FrameLength
 
 Pointer to the raw frame buffer length. The length is expressed in bytes. The camera minidriver may decrease this value if it does not require a buffer transfer on the USB bus of the specified size. The camera minidriver should not increase this value.
 

@@ -74,12 +74,12 @@ VOID EvtDevicePnpStateChange(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param NotificationData [in]
+#### - NotificationData [in]
 
 A pointer to a framework-supplied <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a> structure that identifies the state machine's old and new states.
 

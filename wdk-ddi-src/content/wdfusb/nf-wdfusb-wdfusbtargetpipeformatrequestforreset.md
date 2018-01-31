@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10f5296c-6be2-4f88-952b-b23e518b844a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORRESET, kmdf.wdfusbtargetpipeformatrequestforreset, WdfUsbTargetPipeFormatRequestForReset, wdfusb/WdfUsbTargetPipeFormatRequestForReset, wdf.wdfusbtargetpipeformatrequestforreset, WdfUsbTargetPipeFormatRequestForReset method
+ms.keywords: WdfUsbTargetPipeFormatRequestForReset, WdfUsbTargetPipeFormatRequestForReset method, wdfusb/WdfUsbTargetPipeFormatRequestForReset, wdf.wdfusbtargetpipeformatrequestforreset, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORRESET, kmdf.wdfusbtargetpipeformatrequestforreset, DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfUsbTargetPipeFormatRequestForReset(
 
 
 
-### -param Pipe [in]
+#### - Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. For more information, see the following Remarks section.
 

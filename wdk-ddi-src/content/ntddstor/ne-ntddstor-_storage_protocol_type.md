@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ProtocolTypeSd, ProtocolTypeMaxReserved, ntddstor/ProtocolTypeAta, ProtocolTypeNvme, ProtocolTypeAta, ntddstor/ProtocolTypeNvme, *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeUfs, ntddstor/STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeSd, storage.storage_protocol_type, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], STORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ntddstor/ProtocolTypeProprietary, ntddstor/ProtocolTypeMaxReserved, _STORAGE_PROTOCOL_TYPE, ProtocolTypeUfs, ntddstor/ProtocolTypeScsi, ProtocolTypeScsi, ProtocolTypeProprietary
+ms.keywords: ntddstor/ProtocolTypeUnknown, ProtocolTypeNvme, ProtocolTypeProprietary, ntddstor/ProtocolTypeAta, ProtocolTypeUfs, ntddstor/ProtocolTypeProprietary, ntddstor/ProtocolTypeUfs, STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, ntddstor/ProtocolTypeScsi, *PSTORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeMaxReserved, ProtocolTypeAta, ntddstor/ProtocolTypeSd, ntddstor/STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ProtocolTypeScsi, ProtocolTypeSd, storage.storage_protocol_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _STORAGE_PROTOCOL_TYPE {
 
 
 
-### -field ProtocolTypeUnknown
+#### - ProtocolTypeUnknown
 
 Unknown protocol type.
 
 
-### -field ProtocolTypeScsi
+#### - ProtocolTypeScsi
 
 SCSI protocol type.
 
 
-### -field ProtocolTypeAta
+#### - ProtocolTypeAta
 
 ATA protocol type.
 
 
-### -field ProtocolTypeNvme
+#### - ProtocolTypeNvme
 
 NVMe protocol type.
 
 
-### -field ProtocolTypeSd
+#### - ProtocolTypeSd
 
 SD protocol type.
 
 
-### -field ProtocolTypeUfs
+#### - ProtocolTypeUfs
 
 UFS protocol type.
 
 
-### -field ProtocolTypeProprietary
+#### - ProtocolTypeProprietary
 
  Vendor-specific protocol type.
 
 
-### -field ProtocolTypeMaxReserved
+#### - ProtocolTypeMaxReserved
 
 Reserved.
 

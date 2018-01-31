@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 923693a2-cb46-4f74-bb1b-cd7bb07014e8
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetSpecificButtonCaps, hidpi/HidP_GetSpecificButtonCaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hid.hidp_getspecificbuttoncaps, HidP_GetSpecificButtonCaps routine [Human Input Devices]
+ms.keywords: hid.hidp_getspecificbuttoncaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, HidP_GetSpecificButtonCaps routine [Human Input Devices], hidpi/HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ NTSTATUS __stdcall HidP_GetSpecificButtonCaps(
 
 
 
-### -param ReportType [in]
+#### - ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param UsagePage [in]
+#### - UsagePage [in]
 
 Specifies a usage page as a search criteria. If <i>UsagePage</i> is nonzero, only buttons that specify this usage page are returned.
 
 
-### -param LinkCollection [in]
+#### - LinkCollection [in]
 
 Specifies a <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> as a search criteria. If <i>LinkCollection</i> is nonzero, only buttons that are part of this link collection are returned.
 
 
-### -param Usage [in]
+#### - Usage [in]
 
 Specifies a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usage</a> as a search criteria. If <i>Usage</i> is nonzero, only buttons that specify this usage will be returned.
 
 
-### -param ButtonCaps [out]
+#### - ButtonCaps [out]
 
 Pointer to a caller-allocated buffer in which the routine returns a button capability array for the specified report type.
 
 
-### -param ButtonCapsLength [in, out]
+#### - ButtonCapsLength [in, out]
 
 Specifies the length on input, in array elements, of the buffer provided at <i>ButtonCaps</i>. On output, this parameter is set to the number of elements that the routine actually returned.
 
 
-### -param PreparsedData [in]
+#### - PreparsedData [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 

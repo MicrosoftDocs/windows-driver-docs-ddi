@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b9bbb6a-2dfb-4f3f-8083-62b51a62dec6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.file_full_ea_information, *PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_FULL_EA_INFORMATION, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_FULL_EA_INFORMATION, wdm/FILE_FULL_EA_INFORMATION, wdm/PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION
+ms.keywords: PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, _FILE_FULL_EA_INFORMATION, wdm/FILE_FULL_EA_INFORMATION, kernel.file_full_ea_information, *PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FULL_EA_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION"
+req.typenames: FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef struct _FILE_FULL_EA_INFORMATION {
 
 
 
-### -field NextEntryOffset
+#### - NextEntryOffset
 
 The offset of the next <b>FILE_FULL_EA_INFORMATION</b>-type entry. This member is zero if no other entries follow this one. 
 
 
-### -field Flags
+#### - Flags
 
 Can be zero or can be set with FILE_NEED_EA, indicating that the file to which the EA belongs cannot be interpreted without understanding the associated extended attributes.
 
 
-### -field EaNameLength
+#### - EaNameLength
 
 The length in bytes of the <b>EaName</b> array. This value does not include a null-terminator to <b>EaName</b>. 
 
 
-### -field EaValueLength
+#### - EaValueLength
 
 The length in bytes of each EA value in the array.
 
 
-### -field EaName
+#### - EaName
 
 An array of characters naming the EA for this entry.
 

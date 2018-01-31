@@ -76,17 +76,17 @@ VOID MiniportWdiTalTxRxPeerDeleteConfirm(
 
 
 
-### -param MiniportTalTxRxContext [in]
+#### - MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
+#### - PortId [in]
 
 Port ID associated with the peer.
 
 
-### -param PeerId [in]
+#### - PeerId [in]
 
 Peer ID for the peer.
 
@@ -100,23 +100,23 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">TxAbortConfirm</a>
-
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a>
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_create_ind.md">PeerCreateIndication</a>
-
 <a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">PeerDeleteIndication</a>
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">TxAbortConfirm</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">PeerDeleteIndication</a>
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_create_ind.md">PeerCreateIndication</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0B5C1BF9-59C3-4AC9-B545-FD7260B75E90
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetSectionContext routine [Installable File System Drivers], ifsk.fltgetsectioncontext, fltkernel/FltGetSectionContext, FltGetSectionContext
+ms.keywords: fltkernel/FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], FltGetSectionContext, ifsk.fltgetsectioncontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltGetSectionContext(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 An opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A pointer to a file object for the stream. 
 
 
-### -param Context [out]
+#### - Context [out]
 
 A pointer to a caller-allocated variable that receives the address of the context. 
 

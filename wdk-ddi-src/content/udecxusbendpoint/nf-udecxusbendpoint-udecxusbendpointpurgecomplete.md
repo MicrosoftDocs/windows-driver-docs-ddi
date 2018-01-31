@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 91257BC3-C469-44D5-96E2-D1FA599963F1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbEndpointPurgeComplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete
+ms.keywords: buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], UdecxUsbEndpointPurgeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ FORCEINLINE void UdecxUsbEndpointPurgeComplete(
 
 
 
-### -param UdecxUsbEndpoint [in]
+#### - UdecxUsbEndpoint [in]
 
 A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>.
 
@@ -85,9 +85,9 @@ This function does not return a value.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_udecx_usb_endpoint_purge.md">EVT_UDECX_USB_ENDPOINT_PURGE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
  
 

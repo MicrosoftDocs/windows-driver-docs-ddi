@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e3bfde85-e8a0-41df-9248-f48ceb8b5304
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_STATUS_LINK_LOST, d3dkmdt/DXGKMDT_OPM_STATUS_NORMAL, _DXGKMDT_OPM_STATUS, d3dkmdt/DXGKMDT_OPM_STATUS_LINK_LOST, DmEnums_77faebe8-d3a4-461f-9f03-daa2d81da828.xml, d3dkmdt/DXGKMDT_OPM_STATUS, d3dkmdt/DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, display.dxgkmdt_opm_status, DXGKMDT_OPM_STATUS_NORMAL, d3dkmdt/DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DXGKMDT_OPM_STATUS enumeration [Display Devices], DXGKMDT_OPM_STATUS, d3dkmdt/DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED
+ms.keywords: DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DXGKMDT_OPM_STATUS, DXGKMDT_OPM_STATUS enumeration [Display Devices], DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, DmEnums_77faebe8-d3a4-461f-9f03-daa2d81da828.xml, d3dkmdt/DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, d3dkmdt/DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, DXGKMDT_OPM_STATUS_LINK_LOST, DXGKMDT_OPM_STATUS_NORMAL, d3dkmdt/DXGKMDT_OPM_STATUS_NORMAL, d3dkmdt/DXGKMDT_OPM_STATUS_LINK_LOST, display.dxgkmdt_opm_status, _DXGKMDT_OPM_STATUS, d3dkmdt/DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, d3dkmdt/DXGKMDT_OPM_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,29 +71,29 @@ typedef enum _DXGKMDT_OPM_STATUS {
 
 
 
-### -field DXGKMDT_OPM_STATUS_NORMAL
+#### - DXGKMDT_OPM_STATUS_NORMAL
 
 Indicates that the protected output is working correctly. 
 
 
-### -field DXGKMDT_OPM_STATUS_LINK_LOST
+#### - DXGKMDT_OPM_STATUS_LINK_LOST
 
 Indicates that although the protected output detected no tampering, an output protection technology unexpectedly stopped working. 
 
 This status bit must be set if DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED is also set. 
 
 
-### -field DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED
+#### - DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED
 
 Indicates that the end user caused the configuration of the physical connector to change. Therefore, a renegotiation is required. 
 
 
-### -field DXGKMDT_OPM_STATUS_TAMPERING_DETECTED
+#### - DXGKMDT_OPM_STATUS_TAMPERING_DETECTED
 
 Indicates that tampering with the graphics adapter or the adapter's display miniport driver has occurred. 
 
 
-### -field DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED
+#### - DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED
 
 Indicates that a revoked High-bandwidth Digital Content Protection (HDCP) device is directly or indirectly attached to a protected output. If HDCP is not enabled, the protected output is not required to detect revoked devices. If HDCP is enabled, the protected output must detect revoked devices. The driver sets this status value only from a call to its <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> function to determine if HDCP is enabled. 
 
@@ -107,15 +107,15 @@ The display miniport driver returns status about a protected output whenever the
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_actual_output_format.md">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_acp_and_cgmsa_signaling.md">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_acp_and_cgmsa_signaling.md">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_actual_output_format.md">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 

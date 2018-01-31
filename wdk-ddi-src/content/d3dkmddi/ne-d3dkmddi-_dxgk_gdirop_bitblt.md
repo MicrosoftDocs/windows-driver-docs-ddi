@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5f337dd-ab7a-4a9f-af3c-2d29dbdffe7b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GDIROP_SRCINVERT, DXGK_GDIROP_ROP3, d3dkmddi/DXGK_GDIROP_ROP3, d3dkmddi/DXGK_GDIROP_INVALID, DXGK_GDIROP_BITBLT, DXGK_GDIROP_SRCCOPY, DXGK_GDIROP_INVALID, d3dkmddi/DXGK_GDIROP_SRCAND, DmEnums_ac0fe82c-71cb-4756-a580-37d138873b2d.xml, DXGK_GDIROP_SRCOR, DXGK_GDIROP_SRCINVERT, DXGK_GDIROP_SRCAND, d3dkmddi/DXGK_GDIROP_SRCCOPY, d3dkmddi/DXGK_GDIROP_SRCOR, DXGK_GDIROP_BITBLT enumeration [Display Devices], display.dxgk_gdirop_bitblt, d3dkmddi/DXGK_GDIROP_BITBLT, _DXGK_GDIROP_BITBLT
+ms.keywords: d3dkmddi/DXGK_GDIROP_SRCAND, d3dkmddi/DXGK_GDIROP_ROP3, d3dkmddi/DXGK_GDIROP_SRCCOPY, d3dkmddi/DXGK_GDIROP_BITBLT, DXGK_GDIROP_SRCAND, DXGK_GDIROP_SRCOR, DmEnums_ac0fe82c-71cb-4756-a580-37d138873b2d.xml, DXGK_GDIROP_INVALID, DXGK_GDIROP_SRCCOPY, d3dkmddi/DXGK_GDIROP_SRCINVERT, d3dkmddi/DXGK_GDIROP_INVALID, display.dxgk_gdirop_bitblt, _DXGK_GDIROP_BITBLT, DXGK_GDIROP_BITBLT, d3dkmddi/DXGK_GDIROP_SRCOR, DXGK_GDIROP_BITBLT enumeration [Display Devices], DXGK_GDIROP_SRCINVERT, DXGK_GDIROP_ROP3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _DXGK_GDIROP_BITBLT {
 
 
 
-### -field DXGK_GDIROP_INVALID
+#### - DXGK_GDIROP_INVALID
 
 Indicates that the GDI raster operation is invalid.
 
 
-### -field DXGK_GDIROP_SRCCOPY
+#### - DXGK_GDIROP_SRCCOPY
 
 Indicates that the source rectangle is copied to the destination rectangle.
 
 
-### -field DXGK_GDIROP_SRCINVERT
+#### - DXGK_GDIROP_SRCINVERT
 
 Indicates that the color of each pixel of the source rectangle is combined with the color of the respective pixel of the destination rectangle by using the Boolean <b>XOR</b> operator.
 
 
-### -field DXGK_GDIROP_SRCAND
+#### - DXGK_GDIROP_SRCAND
 
 Indicates that the color of each pixel of the source rectangle is combined with the color of the respective pixel of the destination rectangle by using the Boolean <b>AND</b> operator.
 
 
-### -field DXGK_GDIROP_SRCOR
+#### - DXGK_GDIROP_SRCOR
 
 Indicates that the color of each pixel of the source rectangle is combined with the color of the respective pixel of the destination rectangle by using the Boolean <b>OR</b> operator.
 
 
-### -field DXGK_GDIROP_ROP3
+#### - DXGK_GDIROP_ROP3
 
 Indicates that a ternary GDI raster operation (ROP3) will be applied.
 

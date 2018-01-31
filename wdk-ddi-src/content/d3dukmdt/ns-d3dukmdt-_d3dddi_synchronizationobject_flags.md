@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 57e5ea18-ccdd-40a7-9ff5-4d6b94908e7c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, D3D_other_Structs_3d266c5b-53c9-47d1-abe9-f492d05660a4.xml, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, display.d3dddi_synchronizationobject_flags, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure [Display Devices], _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
+ms.keywords: D3D_other_Structs_3d266c5b-53c9-47d1-abe9-f492d05660a4.xml, display.d3dddi_synchronizationobject_flags, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure [Display Devices], D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,7 +90,7 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS {
 
 
 
-### -field Shared
+#### - Shared
 
 A UINT value that specifies whether the synchronization object is shared.
 
@@ -99,7 +99,7 @@ If <b>Shared</b> is set to 1 (<b>TRUE</b>), the synchronization object is shared
 For more information, see the Remarks section.
 
 
-### -field NtSecuritySharing
+#### - NtSecuritySharing
 
 A UINT value that specifies whether the synchronization object is shared with an NT handle, meaning that it  does not have a global <b>D3DKMT_HANDLE</b> kernel-mode handle to the resource.
 
@@ -109,7 +109,7 @@ If <b>NtSecuritySharing</b> is set to 1 (<b>TRUE</b>), the synchronization objec
 Supported starting with Windows 8.
 
 
-### -field CrossAdapter
+#### - CrossAdapter
 
 A UINT value that specifies whether the synchronization object is a shared cross-adapter object on a <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">hybrid system</a>.
 
@@ -118,7 +118,7 @@ If <b>CrossAdapter</b> is set to 1 (<b>TRUE</b>), the synchronization object is 
 For more information, see <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">Using cross-adapter resources in a hybrid system</a>.
 
 
-### -field TopOfPipeline
+#### - TopOfPipeline
 
 <table>
 <tr>
@@ -154,7 +154,7 @@ This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronizatio
 Supported starting with Windows 10.
 
 
-### -field NoSignal
+#### - NoSignal
 
 <table>
 <tr>
@@ -190,7 +190,7 @@ This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronizatio
 Supported starting with Windows 10.
 
 
-### -field NoWait
+#### - NoWait
 
 <table>
 <tr>
@@ -230,7 +230,7 @@ This flag cannot be set simultaneously with <b>NoSignal</b> flag.
 Supported starting with Windows 10.
 
 
-### -field NoSignalMaxValueOnTdr
+#### - NoSignalMaxValueOnTdr
 
 <table>
 <tr>
@@ -269,7 +269,7 @@ Supported starting with Windows 10.
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
@@ -278,14 +278,14 @@ This member is reserved and should be set to zero.
 This member is reserved and should be set to zero.
 
 
-### -field D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS_RESERVED0
+#### - D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS_RESERVED0
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that is contained in <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> that can hold one 32-bit value that identifies attributes of a synchronization object.
 
@@ -307,13 +307,13 @@ Drivers should follow these guidelines on <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS<
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
  
 

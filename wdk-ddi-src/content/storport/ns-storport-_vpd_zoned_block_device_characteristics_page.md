@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b1f83fd-e367-4b0d-8f93-24f35d9a5fd8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices], storage.vpd_zoned_block_device_characteristics_page, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
+ms.keywords: "*PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices], VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, storage.vpd_zoned_block_device_characteristics_page, _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,57 +81,57 @@ typedef struct _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE {
 
 
 
-### -field DeviceType
+#### - DeviceType
 
 N/A
 
 
-### -field DeviceTypeQualifier
+#### - DeviceTypeQualifier
 
 N/A
 
 
-### -field PageCode
+#### - PageCode
 
 N/A
 
 
-### -field PageLength
+#### - PageLength
 
 N/A
 
 
-### -field URSWRZ
+#### - URSWRZ
 
 N/A
 
 
-### -field Reserved1
+#### - Reserved1
 
 N/A
 
 
-### -field Reserved2
+#### - Reserved2
 
 N/A
 
 
-### -field OptimalNumberOfOpenSequentialWritePreferredZone
+#### - OptimalNumberOfOpenSequentialWritePreferredZone
 
 N/A
 
 
-### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZone
+#### - OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZone
 
 N/A
 
 
-### -field MaxNumberOfOpenSequentialWriteRequiredZone
+#### - MaxNumberOfOpenSequentialWriteRequiredZone
 
 N/A
 
 
-### -field Reserved3
+#### - Reserved3
 
 N/A
 

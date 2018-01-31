@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a4e1f579-8056-4e2b-9b90-735c3414abbd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::RemoveSymbolOptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::RemoveSymbolOptions, RemoveSymbolOptions, IDebugSymbols3 interface [Windows Debugging], RemoveSymbolOptions method, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::RemoveSymbolOptions, dbgeng/IDebugSymbols3::RemoveSymbolOptions, debugger.removesymboloptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, IDebugSymbols3, dbgeng/IDebugSymbols::RemoveSymbolOptions, IDebugSymbols2 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols interface [Windows Debugging], RemoveSymbolOptions method
+ms.keywords: dbgeng/IDebugSymbols3::RemoveSymbolOptions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, IDebugSymbols3::RemoveSymbolOptions, dbgeng/IDebugSymbols2::RemoveSymbolOptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], RemoveSymbolOptions method, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, RemoveSymbolOptions, IDebugSymbols2::RemoveSymbolOptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols::RemoveSymbolOptions, dbgeng/IDebugSymbols::RemoveSymbolOptions, IDebugSymbols interface [Windows Debugging], RemoveSymbolOptions method, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols interface, debugger.removesymboloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT RemoveSymbolOptions(
 
 
 
-### -param Options [in]
+#### - Options [in]
 
 Specifies the symbol options to turn off.  <i>Options</i> is a bit-set; the new value of the symbol options will equal the old value AND NOT the value of <i>Options</i>.  For a description of the bit flags, see <a href="https://msdn.microsoft.com/4a501ea3-431c-4c11-8826-154eb8799a64">Setting Symbol Options</a>.
 
@@ -110,17 +110,17 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
 
  
 

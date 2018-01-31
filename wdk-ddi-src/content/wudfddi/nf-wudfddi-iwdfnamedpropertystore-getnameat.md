@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetNameAt method, GetNameAt method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, IWDFNamedPropertyStore::GetNameAt, wudfddi/IWDFNamedPropertyStore::GetNameAt, wdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore interface, GetNameAt method, GetNameAt, umdf.iwdfnamedpropertystore_getnameat
+ms.keywords: wudfddi/IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, wdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, GetNameAt, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt method, umdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore::GetNameAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore.GetNameAt
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT GetNameAt(
 
 
 
-### -param iProp [in]
+#### - iProp [in]
 
 The zero-based index of the property that <b>GetNameAt</b> retrieves the name from.
 
 
-### -param ppwszName [out]
+#### - ppwszName [out]
 
 A pointer to a variable that receives a pointer to a <b>NULL</b>-terminated string that contains the name of the property. 
 

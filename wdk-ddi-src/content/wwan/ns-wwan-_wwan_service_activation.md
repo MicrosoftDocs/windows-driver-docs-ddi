@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1893a929-c9e6-446e-a840-3825f4992c18
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], wwan/WWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation, wwan/PWWAN_SERVICE_ACTIVATION, WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION, *PWWAN_SERVICE_ACTIVATION, _WWAN_SERVICE_ACTIVATION
+ms.keywords: "*PWWAN_SERVICE_ACTIVATION, wwan/PWWAN_SERVICE_ACTIVATION, wwan/WWAN_SERVICE_ACTIVATION, _WWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation, WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _WWAN_SERVICE_ACTIVATION {
 
 
 
-### -field uVendorSpecificBufferSize
+#### - uVendorSpecificBufferSize
 
 The size, in bytes, of the vendor-specific buffer that follows the structure instance in
      memory.

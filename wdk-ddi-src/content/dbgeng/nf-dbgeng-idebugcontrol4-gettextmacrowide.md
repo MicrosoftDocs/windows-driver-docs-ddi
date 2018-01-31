@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5b125041-969e-49bb-96d5-b40cc7285315
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.gettextmacrowide, IDebugControl4, dbgeng/IDebugControl4::GetTextMacroWide, IDebugControl4::GetTextMacroWide, GetTextMacroWide method [Windows Debugging], GetTextMacroWide, GetTextMacroWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetTextMacroWide method
+ms.keywords: GetTextMacroWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetTextMacroWide method, IDebugControl4::GetTextMacroWide, dbgeng/IDebugControl4::GetTextMacroWide, GetTextMacroWide, IDebugControl4, GetTextMacroWide method [Windows Debugging], IDebugControl4 interface, debugger.gettextmacrowide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetTextMacroWide(
 
 
 
-### -param Slot [in]
+#### - Slot [in]
 
 Specifies the number of the fixed-name alias.  <i>Slot</i> can take the values 0, 1, ..., 9, that represent the fixed-name aliases <b>$u0</b>, <b>$u1</b>, ..., <b>$u9</b>.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the value of the alias specified by <i>Slot</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param MacroSize [out, optional]
+#### - MacroSize [out, optional]
 
 Receives the size, in characters, of the value of the alias.
 
@@ -125,15 +125,15 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
  
 

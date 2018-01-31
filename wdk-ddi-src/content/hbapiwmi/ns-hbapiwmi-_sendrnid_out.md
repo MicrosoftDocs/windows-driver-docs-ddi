@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 80f264f6-51cb-4125-832b-603ed8417d32
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_fb365ea2-b9ff-4108-af6c-48c2d812eac3.xml, hbapiwmi/SendRNID_OUT, PSendRNID_OUT structure pointer [Storage Devices], storage.sendrnid_out, hbapiwmi/PSendRNID_OUT, _SendRNID_OUT, *PSendRNID_OUT, PSendRNID_OUT, SendRNID_OUT structure [Storage Devices], SendRNID_OUT
+ms.keywords: storage.sendrnid_out, hbapiwmi/SendRNID_OUT, PSendRNID_OUT structure pointer [Storage Devices], _SendRNID_OUT, PSendRNID_OUT, structs-Fibre_fb365ea2-b9ff-4108-af6c-48c2d812eac3.xml, hbapiwmi/PSendRNID_OUT, SendRNID_OUT, *PSendRNID_OUT, SendRNID_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendRNID_OUT
 product: Windows
 targetos: Windows
-req.typenames: SendRNID_OUT, *PSendRNID_OUT
+req.typenames: "*PSendRNID_OUT, SendRNID_OUT"
 ---
 
 # _SendRNID_OUT structure
@@ -69,17 +69,17 @@ typedef struct _SendRNID_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-### -field ResponseBufferCount
+#### - ResponseBufferCount
 
 Contains the size in bytes of the results of the request node identification data (RNID) command. 
 
 
-### -field ResponseBuffer
+#### - ResponseBuffer
 
 Contains the results of the RNID command. 
 

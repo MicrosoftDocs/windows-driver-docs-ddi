@@ -70,7 +70,7 @@ NTSTATUS FilterUnloadCallback(
 
 
 
-### -param Flags
+#### - Flags
 
 Bitmask of flags describing the unload request. This parameter can be <b>NULL</b> or the following: 
 <table>

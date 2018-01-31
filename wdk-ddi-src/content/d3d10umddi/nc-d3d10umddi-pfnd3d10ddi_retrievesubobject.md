@@ -40,7 +40,7 @@ apiname:
 -	RetrieveSubObject(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_RETRIEVESUBOBJECT callback
@@ -79,7 +79,7 @@ HRESULT APIENTRY* RetrieveSubObject(D3D11_1)(
 
 
 
-### -param SubDeviceID [in]
+#### - SubDeviceID [in]
 
 The function table being retrieved, with the following possible values.
 <table>
@@ -114,25 +114,24 @@ Supported starting with WDDM 2.0.
 </table> 
 
 
-### -param ParamSize [in]
+#### - ParamSize [in]
 
 The size, in bytes, of an input parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
-### -param *pParams
+#### - *pParams [in]
+
+A pointer to an input parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
-
-### -param OutputParamSize [in]
+#### - OutputParamSize [in]
 
 The size, in bytes, of an output parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
-### -param *pOutputParamsBuffer
+#### - *pOutputParamsBuffer [out]
 
-
-
-
+A pointer to an output parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
 #### - hDevice
@@ -173,9 +172,9 @@ This function is free-threaded.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs.md">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs.md">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md">D3D11_1DDI_VIDEODEVICEFUNCS</a>
 

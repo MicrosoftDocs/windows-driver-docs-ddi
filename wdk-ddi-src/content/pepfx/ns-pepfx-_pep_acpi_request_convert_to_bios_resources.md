@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF9FD748-88E8-4E32-B698-0E8A3BE319DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_request_convert_to_bios_resources, PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, pepfx/PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, *PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure [Kernel-Mode Driver Architecture], PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, pepfx/PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
+ms.keywords: PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, pepfx/PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, pepfx/PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure [Kernel-Mode Driver Architecture], *PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_request_convert_to_bios_resources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES"
+req.typenames: PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, *PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
 ---
 
 # _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure
@@ -72,32 +72,32 @@ typedef struct _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES {
 
 
 
-### -field TranslationStatus
+#### - TranslationStatus
 
 The result code from the resource translation call.
 
 
-### -field InputBuffer
+#### - InputBuffer
 
 A pointer to a <a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a> containing the input buffer.
 
 
-### -field InputBufferSize
+#### - InputBufferSize
 
 The size of the input buffer.
 
 
-### -field OutputBuffer
+#### - OutputBuffer
 
 A pointer to the output buffer containing the translated structure.
 
 
-### -field OutputBufferSize
+#### - OutputBufferSize
 
 The size of the output buffer.
 
 
-### -field Flags
+#### - Flags
 
 The value contained in the <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure.
 
@@ -106,9 +106,9 @@ The value contained in the <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.m
 
 <a href="https://msdn.microsoft.com/1FBF406C-22C7-4D46-840C-9966C3515B63">PEP initialization functions</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
 
  
 

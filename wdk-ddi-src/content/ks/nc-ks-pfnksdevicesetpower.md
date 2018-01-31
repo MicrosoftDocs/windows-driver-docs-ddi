@@ -73,22 +73,22 @@ void AVStrMiniDeviceSetPower(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure that received the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> issued by <i>Device</i>.
 
 
-### -param To [in]
+#### - To [in]
 
 The target device power state.
 
 
-### -param From [in]
+#### - From [in]
 
 The current device power state.
 
@@ -113,9 +113,9 @@ This routine is optional.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
  
 

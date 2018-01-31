@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1BB4933B-2707-4350-8D9C-E0E25A85F5CB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS, pepfx/PPEP_ACPI_RESOURCE_FLAGS, pepfx/PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, _PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_resource_flags"
+ms.keywords: kernel.pep_acpi_resource_flags, _PEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_RESOURCE_FLAGS, pepfx/PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_RESOURCE_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS
+req.typenames: "*PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS"
 ---
 
 # _PEP_ACPI_RESOURCE_FLAGS structure
@@ -76,9 +76,44 @@ typedef union _PEP_ACPI_RESOURCE_FLAGS {
 
 
 
-### -field DUMMYSTRUCTNAME
+#### - DUMMYSTRUCTNAME
 
  A structure containing ACPI resource flags.
+
+
+#### Shared
+
+When set, indicates that this is a shared device.
+
+
+#### Wake
+
+When set, indicates that this device can be woken from a low-power state.
+
+
+#### ResourceUsage
+
+When set, indicates that this device is in use.
+
+
+#### SlaveMode
+
+When set, indicates that this device is in slave mode.
+
+
+#### AddressingMode
+
+When set, indicates that this device is in addressing mode.
+
+
+#### SharedMode
+
+When set, indicates that this device is in shared mode.
+
+
+#### Reserved
+
+This member is reserved and should be set to zero.
 
 
 ### -field DUMMYSTRUCTNAME.Shared
@@ -116,7 +151,7 @@ When set, indicates that this device is in shared mode.
 This member is reserved and should be set to zero.
 
 
-### -field AsULong
+#### - AsULong
 
 The consolidated values of the flags in <b>DUMMYSTRUCTNAME</b>.
 

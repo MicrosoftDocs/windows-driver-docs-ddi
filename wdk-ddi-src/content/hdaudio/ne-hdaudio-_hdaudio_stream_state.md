@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A1029A2D-980F-44F5-B7D6-1C37F97D0368
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: StopState, ResetState, hdaudio/RunState, hdaudio/HDAUDIO_STREAM_STATE, hdaudio/PauseState, HDAUDIO_STREAM_STATE enumeration [Audio Devices], audio.hdaudio_stream_state, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], HDAUDIO_STREAM_STATE, PHDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE, hdaudio/ResetState, _HDAUDIO_STREAM_STATE, hdaudio/StopState, RunState, hdaudio/PHDAUDIO_STREAM_STATE, PauseState
+ms.keywords: ResetState, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], audio.hdaudio_stream_state, HDAUDIO_STREAM_STATE enumeration [Audio Devices], PauseState, hdaudio/PauseState, hdaudio/RunState, _HDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE, StopState, RunState, PHDAUDIO_STREAM_STATE, hdaudio/ResetState, hdaudio/HDAUDIO_STREAM_STATE, hdaudio/PHDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE, hdaudio/StopState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _HDAUDIO_STREAM_STATE {
 
 
 
-### -field ResetState
+#### - ResetState
 
 The reset state.
 
 
-### -field StopState
+#### - StopState
 
 The stop state.
 
 
-### -field PauseState
+#### - PauseState
 
 The pause state.
 
 
-### -field RunState
+#### - RunState
 
 The run state.
 

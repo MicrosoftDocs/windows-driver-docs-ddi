@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 99cfa1eb-3d0f-4e27-9884-f5789ee328c3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltOpenVolume, FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], ifsk.fltopenvolume, FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml
+ms.keywords: FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], ifsk.fltopenvolume, fltkernel/FltOpenVolume, FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltOpenVolume(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the instance. This instance must be attached to a local volume. 
 
 
-### -param VolumeHandle [out]
+#### - VolumeHandle [out]
 
 Handle for the file system volume. 
 
 
-### -param VolumeFileObject [out]
+#### - VolumeFileObject [out]
 
 Pointer to a caller-allocated variable that receives a file object pointer for the root directory of the volume. This parameter is optional and can be <b>NULL</b>. 
 
@@ -136,17 +136,17 @@ To get detailed information about the volume that a given instance is attached t
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
  
 

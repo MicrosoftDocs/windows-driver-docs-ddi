@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fa9a5078-d254-4b4a-bbfb-256491beff5f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetById0, netvista.fwpsaleendpointgetbyid0, FwpsAleEndpointGetById0
+ms.keywords: fwpsk/FwpsAleEndpointGetById0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], netvista.fwpsaleendpointgetbyid0, FwpsAleEndpointGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,19 +72,19 @@ NTSTATUS NTAPI FwpsAleEndpointGetById0(
 
 
 
-### -param engineHandle [in]
+#### - engineHandle [in]
 
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
 
 
-### -param endpointId [in]
+#### - endpointId [in]
 
 The unique endpoint identifier.
 
 
-### -param properties [out]
+#### - properties [out]
 
 A pointer to an 
      <mshelp:link keywords="netvista.fwps_ale_endpoint_properties0" tabindex="0"><b>
@@ -129,13 +129,13 @@ An error occurred.
 
 ## -see-also
 
+<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
+   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
+
 <mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
    FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
-
-<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
 
  
 

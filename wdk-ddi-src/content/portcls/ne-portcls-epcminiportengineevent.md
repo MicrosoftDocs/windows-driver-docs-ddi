@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6B282CA4-2EE8-48BB-99E2-1A16A92E57A5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: eMINIPORT_IHV_DEFINED, eMINIPORT_PROCESSING_MODE, portcls/eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_PROGRAM_DMA, eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_PROCESSING_MODE, eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_IHV_DEFINED, eMINIPORT_PROGRAM_DMA, eMINIPORT_FX_CLSID, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, EPcMiniportEngineEvent, EPcMiniportEngineEvent enumeration [Audio Devices], portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_BUFFER_COMPLETE, eMINIPORT_PIN_STATE, eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_BUFFER_COMPLETE, eMINIPORT_GET_PRESENTATION_POS, portcls/eMINIPORT_FX_CLSID, portcls/eMINIPORT_GLITCH_REPORT, portcls/EPcMiniportEngineEvent, audio.epcminiportengineevent, eMINIPORT_MaxValue, portcls/eMINIPORT_GET_PRESENTATION_POS
+ms.keywords: portcls/eMINIPORT_GLITCH_REPORT, eMINIPORT_BUFFER_COMPLETE, eMINIPORT_MaxValue, portcls/eMINIPORT_GET_PRESENTATION_POS, eMINIPORT_PROCESSING_MODE, eMINIPORT_PROGRAM_DMA, eMINIPORT_PIN_STATE, portcls/eMINIPORT_LAST_BUFFER_RENDERED, EPcMiniportEngineEvent enumeration [Audio Devices], eMINIPORT_GLITCH_REPORT, eMINIPORT_GET_STREAM_POS, eMINIPORT_GET_PRESENTATION_POS, portcls/eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_PROGRAM_DMA, eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_PROCESSING_MODE, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_IHV_DEFINED, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_GET_STREAM_POS, EPcMiniportEngineEvent, portcls/eMINIPORT_FX_CLSID, audio.epcminiportengineevent, eMINIPORT_FX_CLSID, portcls/eMINIPORT_MaxValue, portcls/EPcMiniportEngineEvent, eMINIPORT_IHV_DEFINED, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,17 +80,17 @@ typedef enum _EPcMiniportEngineEvent {
 
 
 
-### -field eMINIPORT_IHV_DEFINED
+#### - eMINIPORT_IHV_DEFINED
 
 Specifies the ID for an IHV-defined event.
 
 
-### -field eMINIPORT_BUFFER_COMPLETE
+#### - eMINIPORT_BUFFER_COMPLETE
 
 Specifies the ID for the buffer complete event.
 
 
-### -field eMINIPORT_PIN_STATE
+#### - eMINIPORT_PIN_STATE
 
 Specifies the ID for the event related to a change in pin state.
 
@@ -107,32 +107,32 @@ Specifies the ID for the event related to a change in pin state.
 
 
 
-### -field eMINIPORT_PROGRAM_DMA
+#### - eMINIPORT_PROGRAM_DMA
 
 Specifies the ID for a "program DMA" event.
 
 
-### -field eMINIPORT_GLITCH_REPORT
+#### - eMINIPORT_GLITCH_REPORT
 
 Specifies the ID for a "glitch report" event.
 
 
-### -field eMINIPORT_LAST_BUFFER_RENDERED
+#### - eMINIPORT_LAST_BUFFER_RENDERED
 
 Specifies the ID for the last buffer that was rendered.
 
 
-### -field eMINIPORT_PROCESSING_MODE
+#### - eMINIPORT_PROCESSING_MODE
 
 Specifies the ID for the processing mode that was in effect when the glitch happened.
 
 
-### -field eMINIPORT_FX_CLSID
+#### - eMINIPORT_FX_CLSID
 
 Specifies the class ID for the audio processing effect (FX) that was in effect when the glitch happened.
 
 
-### -field eMINIPORT_MaxValue
+#### - eMINIPORT_MaxValue
 
 Specifies the ID for the highest enumerated value that was used to report the glitch.
 

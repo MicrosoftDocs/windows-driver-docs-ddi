@@ -40,7 +40,7 @@ apiname:
 -	EvtUdecxWdfDeviceReset
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
+req.typenames: "*PUDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ void EvtUdecxWdfDeviceReset(
 
 
 
-### -param UdecxWdfDevice [in]
+#### - UdecxWdfDevice [in]
 
 A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 

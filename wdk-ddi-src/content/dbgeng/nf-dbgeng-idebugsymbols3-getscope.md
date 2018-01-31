@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 59eb490e-66d5-4108-8d00-5503fa56665d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getscope, IDebugSymbols3::GetScope, IDebugSymbols2::GetScope, dbgeng/IDebugSymbols2::GetScope, dbgeng/IDebugSymbols3::GetScope, dbgeng/IDebugSymbols::GetScope, GetScope, GetScope method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetScope method, IDebugSymbols::GetScope, GetScope method [Windows Debugging], IDebugSymbols interface, GetScope method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], GetScope method, IDebugSymbols3 interface [Windows Debugging], GetScope method, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, GetScope method [Windows Debugging]
+ms.keywords: GetScope, IDebugSymbols3::GetScope, IDebugSymbols2 interface [Windows Debugging], GetScope method, IDebugSymbols::GetScope, GetScope method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, GetScope method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetScope method, IDebugSymbols2::GetScope, dbgeng/IDebugSymbols2::GetScope, GetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, debugger.getscope, IDebugSymbols interface [Windows Debugging], GetScope method, GetScope method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetScope(
 
 
 
-### -param InstructionOffset [out, optional]
+#### - InstructionOffset [out, optional]
 
 Receives the location in the process's virtual address space of the current scope's current instruction.
 
 
-### -param ScopeFrame [out, optional]
+#### - ScopeFrame [out, optional]
 
 Receives the <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame.md">DEBUG_STACK_FRAME</a> structure representing the current scope's stack frame.
 
 
-### -param ScopeContext [out, optional]
+#### - ScopeContext [out, optional]
 
 Receives the current scope's <a href="https://msdn.microsoft.com/f14b6361-9962-4fa3-bb1a-dfde066754b9">thread context</a>.  The type of the thread context is the CONTEXT structure for the target's effective processor.  The buffer <i>ScopeContext</i> must be large enough to hold this structure.
 
 
-### -param ScopeContextSize [in]
+#### - ScopeContextSize [in]
 
 Specifies the size of the buffer <i>ScopeContext</i>.
 
@@ -136,17 +136,17 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
-<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
  
 

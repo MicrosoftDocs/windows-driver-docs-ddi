@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NET_DMA_NULL_TRANSFER, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_OP_TYPE_MASK, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], netvista.net_dma_descriptor, PNET_DMA_DESCRIPTOR, NET_DMA_SERIALIZE_TRANSFER, netdma/NET_DMA_DESCRIPTOR, _NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_STATUS_UPDATE_ON_COMPLETION, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_RESERVED_MASK, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, netdma/PNET_DMA_DESCRIPTOR, NET_DMA_SOURCE_PAGE_BREAK, *PNET_DMA_DESCRIPTOR
+ms.keywords: "*PNET_DMA_DESCRIPTOR, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_DESCRIPTOR, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION, _NET_DMA_DESCRIPTOR, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_RESERVED_MASK, NET_DMA_SOURCE_NO_SNOOP, netdma/NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_NULL_TRANSFER, NET_DMA_DESTINATION_NO_SNOOP, PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, netdma/PNET_DMA_DESCRIPTOR, NET_DMA_OP_TYPE_MASK, netvista.net_dma_descriptor, NET_DMA_DESTINATION_PAGE_BREAK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,9 +95,14 @@ typedef struct _NET_DMA_DESCRIPTOR {
 
 
 
-### -field DCAContext32
+#### - DCAContext32
 
 A 32 bit DCA context.
+
+
+#### DCAContext
+
+A DCA context.
 
 
 ### -field DCAContext32.DCAContext
@@ -105,9 +110,19 @@ A 32 bit DCA context.
 A DCA context.
 
 
-### -field DCAContext16
+#### - DCAContext16
 
 A 16 bit DCA context.
+
+
+#### DCAContext
+
+A DCA context.
+
+
+#### Reserved
+
+Reserved bits.
 
 
 ### -field DCAContext16.DCAContext
@@ -120,9 +135,19 @@ A DCA context.
 Reserved bits.
 
 
-### -field DCAContext8
+#### - DCAContext8
 
 An 8 bit DCA context.
+
+
+#### DCAContext
+
+A DCA context.
+
+
+#### Reserved
+
+Reserved bits.
 
 
 ### -field DCAContext8.DCAContext
@@ -135,7 +160,7 @@ A DCA context.
 Reserved bits.
 
 
-### -field TransferSize
+#### - TransferSize
 
 The size, in bytes, of the memory block that is associated with this DMA descriptor. 
       
@@ -149,7 +174,7 @@ NetDMA 2.0 and later provider drivers use the
       (DCA)</mshelp:link>.
 
 
-### -field Reserved1
+#### - Reserved1
 
 A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
       and later provider drivers use the 
@@ -159,13 +184,13 @@ A ULONG64 value that is reserved for the DMA engine or the DMA provider driver t
       Break</mshelp:link>.
 
 
-### -field NextSourceAddress
+#### - NextSourceAddress
 
 The physical address of the second page of source address that is used in source page
       break.
 
 
-### -field Reserved2
+#### - Reserved2
 
 A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
       2.0 and later provider drivers use the 
@@ -175,13 +200,13 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       Break</mshelp:link>.
 
 
-### -field NextDestinationAddress
+#### - NextDestinationAddress
 
 The physical address of the second page of destination address that is used in destination page
       break.
 
 
-### -field ControlFlags
+#### - ControlFlags
 
 A set of flags that specify the operations that the DMA engine should perform for this DMA
      descriptor. This member must contain one or more of the following values (combined with a bitwise OR
@@ -402,29 +427,29 @@ A bit mask that specifies bits that are reserved for future applications. The Ne
 </table> 
 
 
-### -field SourceAddress
+#### - SourceAddress
 
 The physical address of a memory block that is a source for the DMA transfer.
 
 
-### -field DestinationAddress
+#### - DestinationAddress
 
 The physical address of a memory block that is a destination for the DMA transfer.
 
 
-### -field NextDescriptor
+#### - NextDescriptor
 
 The physical address of the next NET_DMA_DESCRIPTOR structure in the linked list of descriptors.
      If this descriptor is the last descriptor in the list, 
      <b>NextDescriptor</b> is <b>NULL</b>.
 
 
-### -field UserContext1
+#### - UserContext1
 
 A ULONG64 value that is reserved for the NetDMA interface to use.
 
 
-### -field UserContext2
+#### - UserContext2
 
 A ULONG64 value that is reserved for the NetDMA interface to use.
 
@@ -453,11 +478,11 @@ The NetDMA interface calls a DMA provider driver's
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
  
 

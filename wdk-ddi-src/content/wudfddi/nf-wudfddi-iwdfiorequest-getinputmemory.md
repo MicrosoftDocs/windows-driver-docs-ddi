@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be3f965b-69fe-4d5e-b1b6-3a370603cd7b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoRequest::GetInputMemory, UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml, GetInputMemory method, IWDFIoRequest interface, IWDFIoRequest interface, GetInputMemory method, wdf.iwdfiorequest_getinputmemory, IWDFIoRequest::GetInputMemory, GetInputMemory, IWDFIoRequest, GetInputMemory method, umdf.iwdfiorequest_getinputmemory
+ms.keywords: UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml, GetInputMemory method, IWDFIoRequest interface, GetInputMemory method, IWDFIoRequest, umdf.iwdfiorequest_getinputmemory, wudfddi/IWDFIoRequest::GetInputMemory, GetInputMemory, wdf.iwdfiorequest_getinputmemory, IWDFIoRequest interface, GetInputMemory method, IWDFIoRequest::GetInputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetInputMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetInputMemory(
 
 
 
-### -param ppWdfMemory [out]
+#### - ppWdfMemory [out]
 
 A pointer to a variable that receives a pointer to the reference-counted <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for the memory object. Note that returning <b>NULL</b> is valid; in this situation, no input memory is associated with the I/O request.
 
@@ -101,11 +101,11 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
  
 

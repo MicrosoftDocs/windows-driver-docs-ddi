@@ -40,7 +40,7 @@ apiname:
 -	(*PHW_ADAPTER_CONTROL)
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef SCSI_ADAPTER_CONTROL_STATUS (*PHW_ADAPTER_CONTROL)(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-### -param ControlType [in]
+#### - ControlType [in]
 
 Specifies an adapter-control operation. For a list of the allowed operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>. 
 
 
-### -param Parameters [in]
+#### - Parameters [in]
 
 Contains information related to the <i>ControlType</i>. For an explanation of the meaning of these values, see the discussion accompanying the <i>Parameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>.   
 
@@ -105,9 +105,9 @@ For more information about the adapter control routine that is used with the Sto
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>
-
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>
 
  
 

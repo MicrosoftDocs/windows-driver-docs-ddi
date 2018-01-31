@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d09a9e9-06c5-4026-9053-ac74a59509cc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaTransferStatusActive, NET_DMA_CHANNEL_PARAMETERS structure [Network Drivers Starting with Windows Vista], netdma/NET_DMA_CHANNEL_PARAMETERS, netvista.net_dma_channel_parameters, NetDmaTransferStatusIdle, *PNET_DMA_CHANNEL_PARAMETERS, netdma_ref_021ebc64-529e-4588-b5ff-83ed04aa9478.xml, NET_DMA_CHANNEL_PARAMETERS, netdma/PNET_DMA_CHANNEL_PARAMETERS, NetDmaTransferStatusHalted, _NET_DMA_CHANNEL_PARAMETERS, PNET_DMA_CHANNEL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NetDmaTransferStatusSuspend, NetDmaTransferStatusArmed, PNET_DMA_CHANNEL_PARAMETERS
+ms.keywords: netdma/PNET_DMA_CHANNEL_PARAMETERS, netdma_ref_021ebc64-529e-4588-b5ff-83ed04aa9478.xml, NET_DMA_CHANNEL_PARAMETERS, netvista.net_dma_channel_parameters, NetDmaTransferStatusSuspend, PNET_DMA_CHANNEL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_PARAMETERS, NetDmaTransferStatusIdle, NetDmaTransferStatusArmed, NetDmaTransferStatusHalted, NetDmaTransferStatusActive, *PNET_DMA_CHANNEL_PARAMETERS, _NET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS structure [Network Drivers Starting with Windows Vista], netdma/NET_DMA_CHANNEL_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_DMA_CHANNEL_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS"
+req.typenames: NET_DMA_CHANNEL_PARAMETERS, *PNET_DMA_CHANNEL_PARAMETERS
 ---
 
 # _NET_DMA_CHANNEL_PARAMETERS structure
@@ -78,7 +78,7 @@ typedef struct _NET_DMA_CHANNEL_PARAMETERS {
 
 
 
-### -field Revision
+#### - Revision
 
 The revision number of this structure. 
 
@@ -89,19 +89,19 @@ For Windows Vista and Windows Server 2008, set this member to
      <b>NET_DMA_CHANNEL_PARAMETERS_REVISION_1</b>.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure. Set this member to 
      sizeof(<b>NET_DMA_CHANNEL_PARAMETERS</b>).
 
 
-### -field Flags
+#### - Flags
 
 A set of bits for flags that define DMA channel attributes. Set this member to zero. There are
      currently no flags defined.
 
 
-### -field CompletionVirtualAddress
+#### - CompletionVirtualAddress
 
 The virtual address of the memory location where the DMA engine can write the DMA transfer
      completion status. This virtual address is associated with the physical address that is specified in the
@@ -109,7 +109,7 @@ The virtual address of the memory location where the DMA engine can write the DM
      <b>CompletionPhysicalAddress</b> member.
 
 
-### -field CompletionPhysicalAddress
+#### - CompletionPhysicalAddress
 
 The physical address of the memory location where the DMA engine can write the DMA transfer
      completion status. If the <b>NET_DMA_STATUS_UPDATE_ON_COMPLETION</b> flag is not set in the 
@@ -190,14 +190,14 @@ The DMA transfer for the first descriptor has not completed and the completed de
 </table> 
 
 
-### -field ProcessorAffinityMask
+#### - ProcessorAffinityMask
 
 A bitmap that indicates CPUs that are available for use with this DMA channel. Each bit in 
      <b>ProcessorAffinityMask</b> identifies a CPU. For example, setting bit 0 indicates CPU 0 can be used,
      setting bit 1 indicates CPU 1 can be used, and so on.
 
 
-### -field ChannelPriority
+#### - ChannelPriority
 
 A DMA channel priority value that represents the priority for the DMA channel relative to other
      DMA channels on the same DMA engine. A lower priority setting indicates a lower priority DMA channel. If
@@ -205,7 +205,7 @@ A DMA channel priority value that represents the priority for the DMA channel re
      supports should be used. The Windows Vista NetDMA interface sets this member to zero.
 
 
-### -field CpuNumber
+#### - CpuNumber
 
 The CPU number that is associated with the DMA channel. The DMA provider driver sets the value
      before it returns from the 
@@ -216,7 +216,7 @@ The CPU number that is associated with the DMA channel. The DMA provider driver 
      available for the indicated CPU.
 
 
-### -field ProcessorAffinityMaskEx
+#### - ProcessorAffinityMaskEx
 
 The group number and a bitmap of the CPUs that this DMA channel could be associated with.
 
@@ -237,7 +237,7 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
+<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
@@ -245,7 +245,7 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
 
  
 

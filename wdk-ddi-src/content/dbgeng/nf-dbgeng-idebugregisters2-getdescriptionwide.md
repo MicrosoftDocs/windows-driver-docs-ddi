@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e599d960-aefb-4b68-8149-7e93150d90d5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, GetDescriptionWide method [Windows Debugging], IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, GetDescriptionWide, IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method, IDebugRegisters2, debugger.getdescriptionwide
+ms.keywords: dbgeng/IDebugRegisters2::GetDescriptionWide, GetDescriptionWide method [Windows Debugging], IDebugRegisters2, GetDescriptionWide, debugger.getdescriptionwide, GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetDescriptionWide, IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetDescriptionWide(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Specifies the index of the register for which the description is requested.
 
 
-### -param NameBuffer [out, optional]
+#### - NameBuffer [out, optional]
 
 Specifies the buffer in which to store the name of the register.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param NameBufferSize [in]
+#### - NameBufferSize [in]
 
 Specifies the size, in characters, of the buffer that  <i>NameBuffer</i> specifies.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 Receives the size, in characters, of the register's name in <i>NameBuffer</i> buffer.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Desc [out, optional]
+#### - Desc [out, optional]
 
 Receives the description of the register.  See <a href="..\dbgeng\ns-dbgeng-_debug_register_description.md">DEBUG_REGISTER_DESCRIPTION</a> for more details.
 

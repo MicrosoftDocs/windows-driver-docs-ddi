@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7d0da54d-54a2-4440-910f-d99716660506
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PTRANSACTIONMANAGER_LOG_INFORMATION, _TRANSACTIONMANAGER_LOG_INFORMATION, TRANSACTIONMANAGER_LOG_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/TRANSACTIONMANAGER_LOG_INFORMATION, TRANSACTIONMANAGER_LOG_INFORMATION, wdm/PTRANSACTIONMANAGER_LOG_INFORMATION, PTRANSACTIONMANAGER_LOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ktm_ref_3cdc0767-5078-43dc-8a25-3e90a4a1483a.xml, *PTRANSACTIONMANAGER_LOG_INFORMATION, kernel.transactionmanager_log_information
+ms.keywords: kernel.transactionmanager_log_information, TRANSACTIONMANAGER_LOG_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/TRANSACTIONMANAGER_LOG_INFORMATION, *PTRANSACTIONMANAGER_LOG_INFORMATION, _TRANSACTIONMANAGER_LOG_INFORMATION, TRANSACTIONMANAGER_LOG_INFORMATION, ktm_ref_3cdc0767-5078-43dc-8a25-3e90a4a1483a.xml, wdm/PTRANSACTIONMANAGER_LOG_INFORMATION, PTRANSACTIONMANAGER_LOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PTRANSACTIONMANAGER_LOG_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _TRANSACTIONMANAGER_LOG_INFORMATION {
 
 
 
-### -field LogIdentity
+#### - LogIdentity
 
 A GUID that KTM uses to identify restart records in a transaction manager object's log stream. For more information about restart records, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566409">Writing Restart Records to a CLFS Stream</a>.
 

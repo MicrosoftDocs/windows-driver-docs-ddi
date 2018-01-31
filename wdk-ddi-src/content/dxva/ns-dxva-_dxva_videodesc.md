@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5623ed85-e78a-48f2-ab21-e6364da86b2a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_VideoDesc structure [Display Devices], LPDXVA_VideoDesc structure pointer [Display Devices], _DXVA_VideoDesc, display.dxva_videodesc, LPDXVA_VideoDesc, dxva/LPDXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml, dxva/DXVA_VideoDesc, *LPDXVA_VideoDesc, DXVA_VideoDesc
+ms.keywords: dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml, dxva/DXVA_VideoDesc, LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], *LPDXVA_VideoDesc, display.dxva_videodesc, DXVA_VideoDesc, dxva/LPDXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], _DXVA_VideoDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _DXVA_VideoDesc {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size of this structure, in bytes.
 
 
-### -field SampleWidth
+#### - SampleWidth
 
 Specifies the width of the sample, in pixels.
 
 
-### -field SampleHeight
+#### - SampleHeight
 
 Specifies the height of the sample, in pixels.
 
 
-### -field SampleFormat
+#### - SampleFormat
 
 Specifies the format of the sample defined by the <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a> structure.
 
 
-### -field d3dFormat
+#### - d3dFormat
 
 Specifies the Direct3D surface format of the sample.
 
 
-### -field InputSampleFreq
+#### - InputSampleFreq
 
 Specifies the frequency of incoming video defined by the <a href="..\dxva\ns-dxva-_dxva_frequency.md">DXVA_Frequency</a> structure.
 
 
-### -field OutputFrameFreq
+#### - OutputFrameFreq
 
 Specifies the desired frame rate of output video as defined by <a href="..\dxva\ns-dxva-_dxva_frequency.md">DXVA_Frequency</a>.
 

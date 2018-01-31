@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDependecyLoad, ntddk/BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload, *PBDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForUnload"
+ms.keywords: BdCbStatusPrepareForDependecyLoad, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, *PBDCB_STATUS_UPDATE_TYPE, ntddk/BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForUnload, kernel.bdcb_status_update_type, BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	BDCB_STATUS_UPDATE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: BDCB_STATUS_UPDATE_TYPE, *PBDCB_STATUS_UPDATE_TYPE
+req.typenames: "*PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE"
 ---
 
 # _BDCB_STATUS_UPDATE_TYPE enumeration
@@ -73,12 +73,12 @@ typedef enum _BDCB_STATUS_UPDATE_TYPE {
 
 
 
-### -field BdCbStatusPrepareForDriverLoad
+#### - BdCbStatusPrepareForDriverLoad
 
 Windows has completed loading driver dependencies and will start loading boot-start drivers.
 
 
-### -field BdCbStatusPrepareForUnload
+#### - BdCbStatusPrepareForUnload
 
 Windows has completed the initialization of all boot-start drivers. After the completion of this callback, the Boot Driver Callback Facility will be torn down and no more callbacks will be received. During this callback, Early Launch AM drivers must clean up and prepare to be unloaded.
 

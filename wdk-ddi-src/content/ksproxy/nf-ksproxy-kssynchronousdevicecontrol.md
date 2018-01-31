@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 82c8f0c0-d9df-4f0d-8a45-dda8fa8a132a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, KsSynchronousDeviceControl function [Streaming Media Devices], stream.kssynchronousdevicecontrol, ksproxy/KsSynchronousDeviceControl
+ms.keywords: stream.kssynchronousdevicecontrol, ksproxy/KsSynchronousDeviceControl, KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ HRESULT KsSynchronousDeviceControl(
 
 
 
-### -param Handle [in]
+#### - Handle [in]
 
 Handle to the KS object on which to perform the operation.
 
 
-### -param IoControl [in]
+#### - IoControl [in]
 
 Control code that identifies a specific type of operation to perform on a KS object. 
 
 
-### -param InBuffer [in, optional]
+#### - InBuffer [in, optional]
 
 Pointer to a buffer that contains data that specifies the operation to perform. 
 
 
-### -param InLength [in]
+#### - InLength [in]
 
 Size, in bytes, of the buffer at <i>InBuffer</i>.
 
 
-### -param OutBuffer [out, optional]
+#### - OutBuffer [out, optional]
 
 Pointer to a buffer that contains either data for the operation or buffer space that receives data for the operation. 
 
 
-### -param OutLength [in]
+#### - OutLength [in]
 
 Size, in bytes, of the buffer at <i>OutBuffer</i>.
 
 
-### -param BytesReturned [in, out]
+#### - BytesReturned [in, out]
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsSynchronousDeviceControl</b> stores in the buffer at <i>OutBuffer</i>. 
 
@@ -147,23 +147,23 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a>
-
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
 <a href="..\ks\ni-ks-ioctl_ks_method.md">IOCTL_KS_METHOD</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
 
 <a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a>
 
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+<a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a>
 
  
 

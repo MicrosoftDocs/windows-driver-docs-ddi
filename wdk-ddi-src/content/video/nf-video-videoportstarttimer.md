@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d06ae137-d7e8-4e17-82fb-37e5c5e8ad1e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportstarttimer, VideoPortStartTimer, VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, VideoPortStartTimer function [Display Devices], video/VideoPortStartTimer
+ms.keywords: VideoPortStartTimer, VideoPortStartTimer function [Display Devices], display.videoportstarttimer, VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, video/VideoPortStartTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID VideoPortStartTimer(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension. This pointer is the input parameter to the <i>HwVidTimer</i> function.
 
@@ -91,11 +91,11 @@ A miniport driver cannot call <b>VideoPortStartTimer</b> or <b>VideoPortStopTime
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
 
 <a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+<a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
 
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 

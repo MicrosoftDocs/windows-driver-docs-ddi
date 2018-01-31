@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb21d8ef-4ad5-48b3-8619-3ed5040652b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadPortUshort routine [Storage Devices], srb/ScsiPortReadPortUshort, ScsiPortReadPortUshort, scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, storage.scsiportreadportushort
+ms.keywords: ScsiPortReadPortUshort, scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, storage.scsiportreadportushort, ScsiPortReadPortUshort routine [Storage Devices], srb/ScsiPortReadPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadPortUshort
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ USHORT ScsiPortReadPortUshort(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 

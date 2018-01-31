@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5baa7fd0-e806-4da8-9c87-c86ebc003e60
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_TAPE_WRITE_MARKS, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Storage Devices], ntddtape/PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], storage.tape_write_marks, PTAPE_WRITE_MARKS, ntddtape/TAPE_WRITE_MARKS, TAPE_WRITE_MARKS"
+ms.keywords: PTAPE_WRITE_MARKS structure pointer [Storage Devices], ntddtape/TAPE_WRITE_MARKS, TAPE_WRITE_MARKS, _TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, storage.tape_write_marks, TAPE_WRITE_MARKS structure [Storage Devices], PTAPE_WRITE_MARKS, ntddtape/PTAPE_WRITE_MARKS, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _TAPE_WRITE_MARKS {
 
 
 
-### -field Type
+#### - Type
 
 Indicates the type of mark to write. This member can have one of the following values: 
 <table>
@@ -120,12 +120,12 @@ Writes the number of long filemarks specified by <b>Count</b>.
 </table> 
 
 
-### -field Count
+#### - Count
 
 Indicates the number of marks to write. 
 
 
-### -field Immediate
+#### - Immediate
 
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 25534f3b-5da8-47e0-a956-6d1849c40a3d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA structure pointer [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dhal/D3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dhal/LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, D3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dstrct_1f23a380-4c92-44c1-a2ae-7e0558fad221.xml, display.d3dhal_validatetexturestagestatedata, D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure [Display Devices], _D3DHAL_VALIDATETEXTURESTAGESTATEDATA"
+ms.keywords: D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, *LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, D3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dhal/LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dhal/D3DHAL_VALIDATETEXTURESTAGESTATEDATA, d3dstrct_1f23a380-4c92-44c1-a2ae-7e0558fad221.xml, _D3DHAL_VALIDATETEXTURESTAGESTATEDATA, LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA structure pointer [Display Devices], display.d3dhal_validatetexturestagestatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DHAL_VALIDATETEXTURESTAGESTATEDATA {
 
 
 
-### -field dwhContext
+#### - dwhContext
 
 Specifies the context ID of the Direct3D device.
 
 
-### -field dwFlags
+#### - dwFlags
 
 Currently set to zero and should be ignored by the driver.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved for system use and should be ignored by the driver.
 
 
-### -field dwNumPasses
+#### - dwNumPasses
 
 Specifies the location where the driver should write the number of passes required by the hardware to perform the blending operations.
 
 
-### -field ddrval
+#### - ddrval
 
 Specifies the location where the driver writes the return value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a> function. A return code of D3D_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
 

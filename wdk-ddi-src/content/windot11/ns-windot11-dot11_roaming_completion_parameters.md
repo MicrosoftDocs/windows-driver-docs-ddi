@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 535857c5-dd71-4575-8475-ff6c7c934dbe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS, Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, netvista.dot11_roaming_completion_parameters
+ms.keywords: Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS, netvista.dot11_roaming_completion_parameters, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ROAMING_COMPLETION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS"
+req.typenames: DOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ typedef struct DOT11_ROAMING_COMPLETION_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_ROAMING_COMPLETION_PARAMETERS structure. This member is
      formatted as an 
@@ -105,7 +105,7 @@ This member must be set to
        <code>sizeof(DOT11_ROAMING_COMPLETION_PARAMETERS)</code>.
 
 
-### -field uStatus
+#### - uStatus
 
 The completion status of the roaming operation formatted as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> value.
@@ -121,10 +121,10 @@ For more information about the roaming operation, see
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
+
 <mshelp:link keywords="netvista.ndis_status_dot11_roaming_completion" tabindex="0">
    NDIS_STATUS_DOT11_ROAMING_COMPLETION</mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
  
 

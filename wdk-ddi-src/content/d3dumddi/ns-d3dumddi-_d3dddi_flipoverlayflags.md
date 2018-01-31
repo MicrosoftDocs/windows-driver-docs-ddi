@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09146e6b-3ac0-422a-addb-831394a15c08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDI_FLIPOVERLAYFLAGS, _D3DDDI_FLIPOVERLAYFLAGS, display.d3dddi_flipoverlayflags, D3DDDI_FLIPOVERLAYFLAGS, D3DDDI_FLIPOVERLAYFLAGS structure [Display Devices], D3D_other_Structs_a62b399d-d553-4325-9f5a-ceb08287d4f4.xml
+ms.keywords: D3DDDI_FLIPOVERLAYFLAGS, D3DDDI_FLIPOVERLAYFLAGS structure [Display Devices], d3dumddi/D3DDDI_FLIPOVERLAYFLAGS, _D3DDDI_FLIPOVERLAYFLAGS, D3D_other_Structs_a62b399d-d553-4325-9f5a-ceb08287d4f4.xml, display.d3dddi_flipoverlayflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,26 +74,26 @@ typedef struct _D3DDDI_FLIPOVERLAYFLAGS {
 
 
 
-### -field Even
+#### - Even
 
 A UINT value that specifies whether the interleaved field to be displayed is even. The <b>Even</b> bit-field is set when the overlay is requested to deinterlace the data.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field Odd
+#### - Odd
 
 A UINT value that specifies whether the interleaved field to be displayed is odd. The <b>Odd</b> bit-field is set when the overlay is requested to deinterlace the data.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in D3DDDI_FLIPOVERLAYFLAGS that can hold one 32-bit value that identifies how to flip a resource on an overlay.
 

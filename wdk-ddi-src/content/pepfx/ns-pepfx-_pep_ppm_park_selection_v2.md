@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D1EFB30D-E8E2-4585-AB0E-B7903F4D6656
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PEP_PPM_PARK_SELECTION_V2, PROCESSOR_PARK_TYPE_INTERRUPT_STEERING, PROCESSOR_PARK_TYPE_CORE_PARKING, PEP_PPM_PARK_SELECTION_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION_V2 structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION_V2, *PPEP_PPM_PARK_SELECTION_V2, pepfx/PEP_PPM_PARK_SELECTION_V2, kernel.pep_ppm_park_selection_v2, PEP_PPM_PARK_SELECTION_V2, pepfx/PPEP_PPM_PARK_SELECTION_V2"
+ms.keywords: pepfx/PEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2 structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_park_selection_v2, _PEP_PPM_PARK_SELECTION_V2, PROCESSOR_PARK_TYPE_CORE_PARKING, PEP_PPM_PARK_SELECTION_V2, PPEP_PPM_PARK_SELECTION_V2, pepfx/PPEP_PPM_PARK_SELECTION_V2, *PPEP_PPM_PARK_SELECTION_V2, PROCESSOR_PARK_TYPE_INTERRUPT_STEERING, PPEP_PPM_PARK_SELECTION_V2 structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_PARK_SELECTION_V2
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_PARK_SELECTION_V2, *PPEP_PPM_PARK_SELECTION_V2
+req.typenames: "*PPEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2"
 ---
 
 # _PEP_PPM_PARK_SELECTION_V2 structure
@@ -71,7 +71,7 @@ typedef struct _PEP_PPM_PARK_SELECTION_V2 {
 
 
 
-### -field AdditionalUnparkedProcessors
+#### - AdditionalUnparkedProcessors
 
 [in] The number of additional processors that need to be unparked.
 
@@ -80,22 +80,22 @@ This number includes all processors in the <b>Processors</b> array for which the
 This number does not include processors in the <b>Processors</b> array for which the operating system sets the <b>PoPreference</b> value to PROCESSOR_PARK_PREFERENCE_PARKED.
 
 
-### -field Count
+#### - Count
 
 [in] The number of elements in the array pointed to by the <b>Processors</b> member.
 
 
-### -field Processors
+#### - Processors
 
 [in/out] A pointer to an array of <a href="..\pepfx\ns-pepfx-_pep_processor_park_preference.md">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. Each array element indicates the parking preferences for a particular processor. The <b>Count</b> member specifies the number of elements in the array.
 
 
-### -field EvaluationTime
+#### - EvaluationTime
 
 The interrupt time of the performance check evaluation that initiated this notification.
 
 
-### -field EvaluationType
+#### - EvaluationType
 
 The type of evaluation being performed. This can be one of the following values:
 <table>

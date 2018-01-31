@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6db96d3b-721f-40d5-8f8d-54cdd33f85c8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlequalprefixsid, RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml, ntifs/RtlEqualPrefixSid
+ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml, ifsk.rtlequalprefixsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN RtlEqualPrefixSid(
 
 
 
-### -param Sid1 [in]
+#### - Sid1 [in]
 
 Pointer to the first SID structure to compare. Must point to a valid SID. 
 
 
-### -param Sid2 [in]
+#### - Sid2 [in]
 
 Pointer to the second SID structure to compare. Must point to a valid SID. 
 

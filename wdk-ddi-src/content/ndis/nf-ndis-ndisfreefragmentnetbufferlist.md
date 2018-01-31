@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2bbf85ee-8541-4d3d-87e5-0633bc35670b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeFragmentNetBufferList, ndis_netbuf_functions_ref_e88011a7-4c83-4736-8a3f-3a2d1c3b2e6f.xml, NdisFreeFragmentNetBufferList function [Network Drivers Starting with Windows Vista], NdisFreeFragmentNetBufferList, netvista.ndisfreefragmentnetbufferlist
+ms.keywords: ndis_netbuf_functions_ref_e88011a7-4c83-4736-8a3f-3a2d1c3b2e6f.xml, NdisFreeFragmentNetBufferList, netvista.ndisfreefragmentnetbufferlist, NdisFreeFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeFragmentNetBufferList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,13 @@ VOID NdisFreeFragmentNetBufferList(
 
 
 
-### -param FragmentNetBufferList [in]
+#### - FragmentNetBufferList [in]
 
 A pointer to a NET_BUFFER_LIST structure that was allocated by calling 
      <b>NdisAllocateFragmentNetBufferList</b>.
 
 
-### -param DataOffsetDelta [in]
+#### - DataOffsetDelta [in]
 
 The amount, in bytes, to advance (add to the data offset) the fragment NET_BUFFER structures
      before freeing them. This value should match the value of the 
@@ -90,7 +90,7 @@ The amount, in bytes, to advance (add to the data offset) the fragment NET_BUFFE
      <b>NdisAllocateFragmentNetBufferList</b> when the NET_BUFFER_LIST structure was created.
 
 
-### -param FreeFragmentFlags [in]
+#### - FreeFragmentFlags [in]
 
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
@@ -105,10 +105,10 @@ None
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 <mshelp:link keywords="netvista.ndisallocatefragmentnetbufferlist" tabindex="0"><b>
    NdisAllocateFragmentNetBufferList</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

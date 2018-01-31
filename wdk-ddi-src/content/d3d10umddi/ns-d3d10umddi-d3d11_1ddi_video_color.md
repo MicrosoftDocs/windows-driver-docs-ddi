@@ -70,12 +70,12 @@ typedef struct D3D11_1DDI_VIDEO_COLOR {
 
 
 
-### -field YCbCr
+#### - YCbCr
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
 
 
-### -field RGBA
+#### - RGBA
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_rgba.md">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
 
@@ -89,9 +89,9 @@ The anonymous union can represent both RGB and YCbCr colors. The interpretation 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_rgba.md">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>
 
  
 

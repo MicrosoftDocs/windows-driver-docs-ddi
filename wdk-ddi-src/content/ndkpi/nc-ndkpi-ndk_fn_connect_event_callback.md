@@ -40,7 +40,7 @@ apiname:
 -	NdkConnectEventCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_CONNECT_EVENT_CALLBACK callback
@@ -72,16 +72,14 @@ VOID NdkConnectEventCallback(
 
 
 
-### -param ConnectEventContext [in, optional]
+#### - ConnectEventContext [in, optional]
 
 A context area that was specified in the <i>ConnectEventContext</i> parameter of the <i>NdkCreateListener</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>) function when the listener object was created.
 
 
-### -param *pNdkConnector
+#### - *pNdkConnector [in]
 
-
-
-
+A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>) that represents a new incoming connection request.
 
 
 #### - pNdkConnector [in]
@@ -105,9 +103,9 @@ None
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dc32dd7-e15b-4c93-92d1-5b7206ed98c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue::DrainSynchronously, IWDFIoQueue, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, DrainSynchronously method, umdf.iwdfioqueue_drainsynchronously, wudfddi/IWDFIoQueue::DrainSynchronously, DrainSynchronously method, IWDFIoQueue interface, DrainSynchronously, wdf.iwdfioqueue_drainsynchronously, IWDFIoQueue interface, DrainSynchronously method
+ms.keywords: wdf.iwdfioqueue_drainsynchronously, DrainSynchronously, wudfddi/IWDFIoQueue::DrainSynchronously, IWDFIoQueue interface, DrainSynchronously method, DrainSynchronously method, IWDFIoQueue interface, IWDFIoQueue::DrainSynchronously, DrainSynchronously method, umdf.iwdfioqueue_drainsynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, IWDFIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.DrainSynchronously
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

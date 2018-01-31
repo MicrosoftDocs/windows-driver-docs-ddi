@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 41b159b6-f365-4ade-b5d4-e7662c75e866
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock, StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices]
+ms.keywords: StreamClassQueryMasterClock, strmini/StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices], stream.streamclassquerymasterclock, strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ VOID StreamClassQueryMasterClock(
 
 
 
-### -param HwStreamObject [in]
+#### - HwStreamObject [in]
 
 Pointer to a <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a> indicating the stream that is querying its master clock. The stream may only have one query pending at a time. The class driver passes this value to the callback in the <b>HwStreamObject</b> member of the callback's <i>TimeContext</i> parameter.
 
 
-### -param MasterClockHandle [in]
+#### - MasterClockHandle [in]
 
 Specifies the handle for the master clock that is being queried. The class driver passes this in the SRB_INDICATE_MASTER_CLOCK request to the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a> routine.
 
 
-### -param TimeFunction [in]
+#### - TimeFunction [in]
 
 Specifies what time function to query the master clock for. See <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> for the possible values. The class driver passes this value to the callback in the <b>Function</b> member of the <i>TimeContext</i> parameter.
 
 
-### -param ClockCallbackRoutine [in]
+#### - ClockCallbackRoutine [in]
 
 Specifies the routine to which the class driver passes the results. The function prototype must be:
 <div class="code"><span codelanguage=""><table>
@@ -121,11 +121,11 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
+
 <a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
 
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
 
  
 

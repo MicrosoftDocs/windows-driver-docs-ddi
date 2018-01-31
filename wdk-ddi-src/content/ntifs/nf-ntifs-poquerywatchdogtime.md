@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, wdm/PoQueryWatchdogTime, PoQueryWatchdogTime
+ms.keywords: wdm/PoQueryWatchdogTime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime, PoQueryWatchdogTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN PoQueryWatchdogTime(
 
 
 
-### -param Pdo [in]
+#### - Pdo [in]
 
 A pointer to a physical device object (PDO). This parameter points to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents a physical device.
 
 
-### -param SecondsRemaining [out]
+#### - SecondsRemaining [out]
 
 A pointer to a location into which the routine writes the time, in seconds, that remains before the next power watchdog time-out is set to occur.
 

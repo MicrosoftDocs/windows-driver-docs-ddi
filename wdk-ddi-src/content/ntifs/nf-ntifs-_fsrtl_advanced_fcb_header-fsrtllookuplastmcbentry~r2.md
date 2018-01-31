@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f0e36d06-c5c2-42d6-ac43-c3d72dd789c8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry function [Installable File System Drivers], fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, ifsk.fsrtllookuplastmcbentry
+ms.keywords: ntifs/FsRtlLookupLastMcbEntry, fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, ifsk.fsrtllookuplastmcbentry, FsRtlLookupLastMcbEntry function [Installable File System Drivers], FsRtlLookupLastMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

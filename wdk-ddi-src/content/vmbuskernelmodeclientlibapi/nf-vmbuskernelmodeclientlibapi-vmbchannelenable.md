@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0256B3F-C35C-45AB-A825-0A82189F08DC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelEnable function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelEnable, netvista.vmbchannelenable, VmbChannelEnable
+ms.keywords: netvista.vmbchannelenable, vmbuskernelmodeclientlibapi/VmbChannelEnable, VmbChannelEnable function [Network Drivers Starting with Windows Vista], VmbChannelEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelEnable
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ NTSTATUS
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The handle of a channel to enable.
 

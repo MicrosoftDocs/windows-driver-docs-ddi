@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f942e448-94b8-400b-927b-fb5f2b1f544e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_INTERRUPT_TYPE, d3dkmddi/DXGK_INTERRUPT_DMA_PREEMPTED, DXGK_INTERRUPT_DMA_PREEMPTED, d3dkmddi/DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, DXGK_INTERRUPT_DMA_FAULTED, DXGK_INTERRUPT_DMA_PAGE_FAULTED, DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, d3dkmddi/DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, display.dxgk_interrupt_type, DmEnums_5ed0a892-5813-43ff-aae9-25b03aa3ea5f.xml, DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, d3dkmddi/DXGK_INTERRUPT_DMA_COMPLETED, DXGK_INTERRUPT_DMA_COMPLETED, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, d3dkmddi/DXGK_INTERRUPT_TYPE, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC, DXGK_INTERRUPT_CRTC_VSYNC, d3dkmddi/DXGK_INTERRUPT_DMA_PAGE_FAULTED, DXGK_INTERRUPT_DISPLAYONLY_VSYNC, d3dkmddi/DXGK_INTERRUPT_DMA_FAULTED, DXGK_INTERRUPT_TYPE enumeration [Display Devices], DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_VSYNC, DXGK_INTERRUPT_TYPE"
+ms.keywords: d3dkmddi/DXGK_INTERRUPT_DMA_FAULTED, _DXGK_INTERRUPT_TYPE, display.dxgk_interrupt_type, DXGK_INTERRUPT_DMA_PREEMPTED, d3dkmddi/DXGK_INTERRUPT_DMA_COMPLETED, DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, d3dkmddi/DXGK_INTERRUPT_DMA_PAGE_FAULTED, DXGK_INTERRUPT_DISPLAYONLY_VSYNC, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_VSYNC, DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, DXGK_INTERRUPT_CRTC_VSYNC, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, DXGK_INTERRUPT_DMA_COMPLETED, d3dkmddi/DXGK_INTERRUPT_DMA_PREEMPTED, d3dkmddi/DXGK_INTERRUPT_TYPE, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC, d3dkmddi/DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, DXGK_INTERRUPT_DMA_FAULTED, DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, DXGK_INTERRUPT_TYPE, DmEnums_5ed0a892-5813-43ff-aae9-25b03aa3ea5f.xml, DXGK_INTERRUPT_TYPE enumeration [Display Devices], d3dkmddi/DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, DXGK_INTERRUPT_DMA_PAGE_FAULTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,45 +83,45 @@ typedef enum _DXGK_INTERRUPT_TYPE {
 
 
 
-### -field DXGK_INTERRUPT_DMA_COMPLETED
+#### - DXGK_INTERRUPT_DMA_COMPLETED
 
 A direct memory access (DMA) buffer is completed by using a fence identifier. The driver must supply the DMA buffer fence identifier in the <b>SubmissionFenceId</b> member of the <b>DmaCompleted</b> structure in the union that is contained in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function. This DMA buffer fence identifier was assigned during a call to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a> function for the latest completed DMA buffer.
 
 
-### -field DXGK_INTERRUPT_DMA_PREEMPTED
+#### - DXGK_INTERRUPT_DMA_PREEMPTED
 
 A preemption request is completed. The driver must supply the preemption fence identifier in the <b>PreemptionFenceId</b> member and the latest fence identifier that hardware completed (not preempted) in the <b>LastCompletedFenceId</b> member of the <b>DmaPreempted</b> structure in the union that is contained in the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function.
 
 The GPU scheduler determines that the graphics hardware preempted all of the commands between the preemption request and the submission with the latest fence identifier. 
 
 
-### -field DXGK_INTERRUPT_CRTC_VSYNC
+#### - DXGK_INTERRUPT_CRTC_VSYNC
 
 A scan out is completed. The driver must supply information in the <b>CrtcVsync</b> structure in the union that is contained in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function. 
 
 The display miniport driver notifies with this interrupt type after video hardware entered into the vertical retrace period, and the pending flip address was latched into the DAC and scanned out. The display miniport driver is not required to report this interrupt after the operating system calls the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a> function to disable the interrupt type; however, the driver must resume reporting after the operating system calls the driver's <i>DxgkDdiControlInterrupt</i> function again to enable the interrupt type. 
 
 
-### -field DXGK_INTERRUPT_DMA_FAULTED
+#### - DXGK_INTERRUPT_DMA_FAULTED
 
 Reserved for system use. Do not use in your driver.
 
 
-### -field DXGK_INTERRUPT_DISPLAYONLY_VSYNC
+#### - DXGK_INTERRUPT_DISPLAYONLY_VSYNC
 
 In a kernel mode display-only driver, a VSync has completed.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS
+#### - DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS
 
 In a kernel mode display-only driver, a present operation has completed or has failed.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY
+#### - DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY
 
 A Vsync has completed in a display miniport driver that supports multiplane overlays.
 
@@ -132,7 +132,7 @@ Supported starting with Windows 8.1.
 
 
 
-### -field DXGK_INTERRUPT_DMA_PAGE_FAULTED
+#### - DXGK_INTERRUPT_DMA_PAGE_FAULTED
 
 This interrupt type should be raised when a GPU encounters an error condition that requires OS to perform a recovery action, such as putting the running packet device in error or resetting the GPU.
 
@@ -158,7 +158,7 @@ Supported starting with Windows 10.
 
 
 
-### -field DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED
+#### - DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED
 
 This interrupt type should be raised when the periodic monitored fence is signaled. 
 
@@ -176,15 +176,15 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a>
 
  
 

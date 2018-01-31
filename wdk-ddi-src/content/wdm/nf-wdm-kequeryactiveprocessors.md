@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a7e50e9-0aeb-46e8-a1d2-7267df4921ad
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], KeQueryActiveProcessors, wdm/KeQueryActiveProcessors, kernel.kequeryactiveprocessors, k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml
+ms.keywords: kernel.kequeryactiveprocessors, KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml, wdm/KeQueryActiveProcessors, KeQueryActiveProcessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

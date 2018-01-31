@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 943a9139-f3b8-468e-9357-26b7b6bfed32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffsetWide method, GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3::GetNearNameByOffsetWide, IDebugSymbols3, debugger.getnearnamebyoffsetwide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffsetWide method, GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetNearNameByOffsetWide, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging], debugger.getnearnamebyoffsetwide, GetNearNameByOffsetWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetNearNameByOffsetWide(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's virtual address space of the symbol from which the desired symbol is determined.
 
 
-### -param Delta [in]
+#### - Delta [in]
 
 Specifies the relationship between the desired symbol and the symbol located at <i>Offset</i>.  If positive, the engine will return the symbol that is <i>Delta</i> symbols after the symbol located at <i>Offset</i>.  If negative, the engine will return the symbol that is <i>Delta</i> symbols before the symbol located at <i>Offset</i>.
 
 
-### -param NameBuffer [out, optional]
+#### - NameBuffer [out, optional]
 
 Receives the symbol's name.  The name is qualified by the module to which the symbol belongs (for example, <b>mymodule!main</b>).  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param NameBufferSize [in]
+#### - NameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 Receives the size in characters of the symbol's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Displacement [out, optional]
+#### - Displacement [out, optional]
 
 Receives the difference between the value of <i>Offset</i> and the location in the target's memory address space of the symbol.  If <i>Displacement</i> is <b>NULL</b>, this information is not returned.
 
@@ -161,9 +161,9 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

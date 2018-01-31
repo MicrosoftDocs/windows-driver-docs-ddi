@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a4e6f0aa-bf96-4274-9a1d-f37dc7bd96fd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_8a3643bf-a6b6-4e22-baa8-bfb8a5716af6.xml, wdf.wdfrequestprobeandlockuserbufferforwrite, WdfRequestProbeAndLockUserBufferForWrite method, wdfrequest/WdfRequestProbeAndLockUserBufferForWrite, kmdf.wdfrequestprobeandlockuserbufferforwrite, PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORWRITE, WdfRequestProbeAndLockUserBufferForWrite
+ms.keywords: PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORWRITE, WdfRequestProbeAndLockUserBufferForWrite method, wdf.wdfrequestprobeandlockuserbufferforwrite, wdfrequest/WdfRequestProbeAndLockUserBufferForWrite, WdfRequestProbeAndLockUserBufferForWrite, DFRequestObjectRef_8a3643bf-a6b6-4e22-baa8-bfb8a5716af6.xml, kmdf.wdfrequestprobeandlockuserbufferforwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfRequestProbeAndLockUserBufferForWrite(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the request's output buffer. For more information, see the following Remarks section.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the request's output buffer.
 
 
-### -param MemoryObject [out]
+#### - MemoryObject [out]
 
 A pointer to a location that receives a handle to a framework memory object that represents the user output buffer.
 
@@ -188,11 +188,11 @@ For more information about <b>WdfRequestProbeAndLockUserBufferForWrite</b>, see 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
 
  
 

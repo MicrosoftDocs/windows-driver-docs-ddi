@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cc65ef9-7447-4775-bf5d-6dadd78f166c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortSetBusData, irb/AtaPortSetBusData, AtaPortSetBusData routine [Storage Devices], atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, storage.ataportsetbusdata
+ms.keywords: AtaPortSetBusData, atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, storage.ataportsetbusdata, irb/AtaPortSetBusData, AtaPortSetBusData routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ ULONG AtaPortSetBusData(
 
 
 
-### -param ControllerExtension
+#### - ControllerExtension
 
 A pointer to the controller extension.
 
 
-### -param Buffer
+#### - Buffer
 
 A pointer to the buffer that contains the data to write to the device's PCI bus configuration space.
 
 
-### -param ConfigDataOffset
+#### - ConfigDataOffset
 
 Specifies an offset into the device's PCI bus configuration data space where the data is updated.
 
 
-### -param BufferLength
+#### - BufferLength
 
 Specifies the length, in bytes, of the buffer.
 

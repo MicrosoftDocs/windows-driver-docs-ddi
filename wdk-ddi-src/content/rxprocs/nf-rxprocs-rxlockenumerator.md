@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8d14604f-c9e5-4a2d-bb51-ef1925b39118
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxLockEnumerator, RxLockEnumerator function [Installable File System Drivers], ifsk.rxlockenumerator, rxprocs/RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml
+ms.keywords: RxLockEnumerator, rxprocs/RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml, ifsk.rxlockenumerator, RxLockEnumerator function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ BOOLEAN RxLockEnumerator(
 
 
 
-### -param SrvOpen [in, out]
+#### - SrvOpen [in, out]
 
 A pointer to the SRV_OPEN structure on the FCB to be enumerated.
 
 
-### -param ContinuationHandle [in, out]
+#### - ContinuationHandle [in, out]
 
 A pointer to a handle passed back and forth representing the state of the enumeration. If this parameter is a <b>NULL</b> pointer, then this is the start of an lock enumeration.
 
 
-### -param FileOffset [out]
+#### - FileOffset [out]
 
 A pointer to the file offset of the returned lock.
 
 
-### -param LockRange [out]
+#### - LockRange [out]
 
 A pointer to the lock range of the returned lock.
 
 
-### -param IsLockExclusive [out]
+#### - IsLockExclusive [out]
 
 A pointer to a BOOLEAN indicating if the returned lock is an exclusive lock.
 

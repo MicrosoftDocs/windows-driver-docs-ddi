@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c40b8f20-65e9-4e43-a402-14bd30f15975
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetWrapperLibraryAttributes routine [Storage Devices], fibreHBA_rtns_98e62721-8cee-4799-b25f-bf01b52d966c.xml, HBA_GetWrapperLibraryAttributes, hbaapi/HBA_GetWrapperLibraryAttributes, storage.hba_getwrapperlibraryattributes
+ms.keywords: hbaapi/HBA_GetWrapperLibraryAttributes, HBA_GetWrapperLibraryAttributes routine [Storage Devices], HBA_GetWrapperLibraryAttributes, fibreHBA_rtns_98e62721-8cee-4799-b25f-bf01b52d966c.xml, storage.hba_getwrapperlibraryattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ HBA_UINT32 HBA_API HBA_GetWrapperLibraryAttributes(
 
 
 
-### -param Attributes [out]
+#### - Attributes [out]
 
 Pointer, on return, to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a> that holds the attributes of the wrapper library.
 
@@ -92,9 +92,9 @@ Microsoft supplies both libraries, so currently they return the same information
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a>
 
  
 

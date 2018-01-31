@@ -70,17 +70,17 @@ NTSTATUS RtlInitializeSidEx(
 
 
 
-### -param Sid [out]
+#### - Sid [out]
 
 Pointer to a caller-allocated SID structure to be initialized. 
 
 
-### -param IdentifierAuthority [in]
+#### - IdentifierAuthority [in]
 
 Pointer to an <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a> structure to set in the SID structure. 
 
 
-### -param SubAuthorityCount [in]
+#### - SubAuthorityCount [in]
 
 Number of sub-authorities to set in the SID.
 
@@ -140,9 +140,9 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-
 <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
+
+<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 

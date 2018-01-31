@@ -40,7 +40,7 @@ apiname:
 -	AdapterListControl
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -74,22 +74,22 @@ VOID AdapterListControl(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Caller-supplied pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that describes the I/O operation, if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine. Otherwise, not used.
 
 
-### -param ScatterGather [in]
+#### - ScatterGather [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure describing scatter/gather regions.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>. 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptReportInactive, WdfInterruptReportInactive, wdf.wdfinterruptreportinactive, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, PFN_WDFINTERRUPTREPORTINACTIVE, WdfInterruptReportInactive method
+ms.keywords: PFN_WDFINTERRUPTREPORTINACTIVE, wdfinterrupt/WdfInterruptReportInactive, kmdf.wdfinterruptreportinactive, WdfInterruptReportInactive, kmdf._wdfinterruptreportinactive, WdfInterruptReportInactive method, wdf.wdfinterruptreportinactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ void WdfInterruptReportInactive(
 
 
 
-### -param Interrupt [in]
+#### - Interrupt [in]
 
 A handle to a framework interrupt object.
 

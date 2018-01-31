@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a0b8706-91ba-42a5-aaa2-0381931d64f0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETINDICES, d3dumddi/D3DDDIARG_SETINDICES, display.d3dddiarg_setindices, D3DDDIARG_SETINDICES structure [Display Devices], _D3DDDIARG_SETINDICES, UMDisplayDriver_param_Structs_68458ee2-76c8-41c5-b610-47ef40874c1e.xml
+ms.keywords: D3DDDIARG_SETINDICES, d3dumddi/D3DDDIARG_SETINDICES, UMDisplayDriver_param_Structs_68458ee2-76c8-41c5-b610-47ef40874c1e.xml, _D3DDDIARG_SETINDICES, display.d3dddiarg_setindices, D3DDDIARG_SETINDICES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct _D3DDDIARG_SETINDICES {
 
 
 
-### -field hIndexBuffer
+#### - hIndexBuffer
 
 [in] A handle to the surface that is associated with the index buffer.
 
 
-### -field Stride
+#### - Stride
 
 [in] The size, in bytes, of the indices that are contained in the index buffer. The value of this member is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setindices.md">SetIndices</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
 
  
 

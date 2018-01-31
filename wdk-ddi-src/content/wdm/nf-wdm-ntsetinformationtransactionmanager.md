@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a1e2f40f-5aea-4c8b-8692-95721ad4bc9d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtSetInformationTransactionManager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntsetinformationtransactionmanager
+ms.keywords: wdm/NtSetInformationTransactionManager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], NtSetInformationTransactionManager, kernel.ntsetinformationtransactionmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ NTSTATUS NtSetInformationTransactionManager(
 
 
 
-### -param TmHandle [in, optional]
+#### - TmHandle [in, optional]
 
 
 
-### -param TransactionManagerInformationClass [in]
+#### - TransactionManagerInformationClass [in]
 
 
 
-### -param TransactionManagerInformation [in]
+#### - TransactionManagerInformation [in]
 
 
 
-### -param TransactionManagerInformationLength [in]
+#### - TransactionManagerInformationLength [in]
 
 
 

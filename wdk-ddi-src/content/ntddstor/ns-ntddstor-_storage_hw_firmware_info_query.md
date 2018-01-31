@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7B58F050-2AF4-4BD5-95AB-254BCAA865F6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query, *PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO_QUERY, _STORAGE_HW_FIRMWARE_INFO_QUERY
+ms.keywords: STORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], *PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], _STORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _STORAGE_HW_FIRMWARE_INFO_QUERY {
 
 
 
-### -field Version
+#### - Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_INFO_QUERY)
 
 
-### -field Size
+#### - Size
 
 The size of this structure as a buffer.
 
 
-### -field Flags
+#### - Flags
 
 The flags associated with the query. The following are flags that can be set in this member.
 <table>
@@ -95,7 +95,7 @@ The flags associated with the query. The following are flags that can be set in 
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 

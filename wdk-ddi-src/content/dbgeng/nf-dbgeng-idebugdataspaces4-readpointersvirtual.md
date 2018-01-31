@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 003fd20c-12d6-40b0-8e43-a7d730199846
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces2::ReadPointersVirtual, IDebugDataSpaces2::ReadPointersVirtual, dbgeng/IDebugDataSpaces3::ReadPointersVirtual, ReadPointersVirtual, IDebugDataSpaces::ReadPointersVirtual, IDebugDataSpaces4 interface [Windows Debugging], ReadPointersVirtual method, IDebugDataSpaces4::ReadPointersVirtual, IDebugDataSpaces2 interface [Windows Debugging], ReadPointersVirtual method, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], ReadPointersVirtual method, dbgeng/IDebugDataSpaces4::ReadPointersVirtual, IDebugDataSpaces3 interface [Windows Debugging], ReadPointersVirtual method, debugger.readpointersvirtual, IDebugDataSpaces3::ReadPointersVirtual, IDebugDataSpaces_d3857a69-3e22-4d7a-97ef-d6cb7bf8613a.xml, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces2 interface, ReadPointersVirtual method [Windows Debugging], dbgeng/IDebugDataSpaces::ReadPointersVirtual
+ms.keywords: dbgeng/IDebugDataSpaces3::ReadPointersVirtual, IDebugDataSpaces interface [Windows Debugging], ReadPointersVirtual method, ReadPointersVirtual, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPointersVirtual, IDebugDataSpaces3::ReadPointersVirtual, IDebugDataSpaces4, IDebugDataSpaces2::ReadPointersVirtual, ReadPointersVirtual method [Windows Debugging], ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::ReadPointersVirtual, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::ReadPointersVirtual, IDebugDataSpaces3 interface [Windows Debugging], ReadPointersVirtual method, IDebugDataSpaces::ReadPointersVirtual, IDebugDataSpaces4 interface [Windows Debugging], ReadPointersVirtual method, debugger.readpointersvirtual, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadPointersVirtual method, dbgeng/IDebugDataSpaces::ReadPointersVirtual, IDebugDataSpaces_d3857a69-3e22-4d7a-97ef-d6cb7bf8613a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT ReadPointersVirtual(
 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of pointers to read.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's virtual address space to start reading the pointers.
 
 
-### -param Ptrs [out]
+#### - Ptrs [out]
 
 Specifies the array to store the pointers.  The number of elements this array holds is <i>Count</i>.
 
@@ -121,15 +121,15 @@ This method reads from the memory from the target's virtual address space.  The 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561451">WritePointersVirtual</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561451">WritePointersVirtual</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: aa446b31-ac53-4623-bacd-72ab72e94618
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_MS_CHECK union pointer [WHEA Drivers and Applications], PWHEA_XPF_MS_CHECK, *PWHEA_XPF_MS_CHECK, ntddk/WHEA_XPF_MS_CHECK, ntddk/PWHEA_XPF_MS_CHECK, _WHEA_XPF_MS_CHECK, whea.whea_xpf_ms_check, WHEA_XPF_MS_CHECK, whearef_ebbe0f28-499b-41ad-9e2b-c533c391c154.xml, WHEA_XPF_MS_CHECK union [WHEA Drivers and Applications]
+ms.keywords: WHEA_XPF_MS_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK union pointer [WHEA Drivers and Applications], whea.whea_xpf_ms_check, _WHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK, whearef_ebbe0f28-499b-41ad-9e2b-c533c391c154.xml, PWHEA_XPF_MS_CHECK, ntddk/WHEA_XPF_MS_CHECK, *PWHEA_XPF_MS_CHECK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -158,7 +158,7 @@ typedef union _WHEA_XPF_MS_CHECK {
  
 
 
-### -field XpfMsCheck
+#### - XpfMsCheck
 
 A ULONGLONG representation of the contents of the WHEA_XPF_MS_CHECK union.
 

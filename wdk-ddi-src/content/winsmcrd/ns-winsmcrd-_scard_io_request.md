@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: DE670712-2F11-4BB0-ADC7-B68C94EF0759
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers], nfpdrivers.scard_io_request_structure, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, winsmcrd/PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, _SCARD_IO_REQUEST, winsmcrd/SCARD_IO_REQUEST, SCARD_IO_REQUEST structure [Near-Field Proximity Drivers]
+ms.keywords: PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers], *LPSCARD_IO_REQUEST, *PSCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, SCARD_IO_REQUEST, winsmcrd/PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, _SCARD_IO_REQUEST, winsmcrd/SCARD_IO_REQUEST, nfpdrivers.scard_io_request_structure, SCARD_IO_REQUEST structure [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCARD_IO_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: "*PSCARD_IO_REQUEST, SCARD_IO_REQUEST, *LPSCARD_IO_REQUEST"
+req.typenames: SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _SCARD_IO_REQUEST {
 
 
 
-### -field dwProtocol
+#### - dwProtocol
 
 Specifies the protocol ID.
 
 
-### -field cbPciLength
+#### - cbPciLength
 
 Specifies the protocol control information length.
 

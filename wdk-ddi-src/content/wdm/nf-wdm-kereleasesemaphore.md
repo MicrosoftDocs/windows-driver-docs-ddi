@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 357a97e6-cb19-43df-9b90-db199c712878
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kereleasesemaphore, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], wdm/KeReleaseSemaphore, KeReleaseSemaphore, k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml
+ms.keywords: wdm/KeReleaseSemaphore, kernel.kereleasesemaphore, k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], KeReleaseSemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ LONG KeReleaseSemaphore(
 
 
 
-### -param Semaphore [in, out]
+#### - Semaphore [in, out]
 
 A pointer to an initialized semaphore object for which the caller provides the storage.
 
 
-### -param Increment [in]
+#### - Increment [in]
 
 Specifies the priority increment to be applied if releasing the semaphore causes a wait to be satisfied.
 
 
-### -param Adjustment [in]
+#### - Adjustment [in]
 
 Specifies a value to be added to the current semaphore count. This value must be positive.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Specifies whether the call to <b>KeReleaseSemaphore</b> is to be followed <u>immediately</u> by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseSemaphore</b> call must be followed by a call to <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
 
@@ -121,15 +121,15 @@ Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
 <a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f602b68-7170-4e76-8875-0a0c0634caa2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_gdimodel_presenthistorytoken, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml
+ms.keywords: "_D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml, display.d3dkmt_gdimodel_presenthistorytoken, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,40 +73,40 @@ typedef struct _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN {
 
 
 
-### -field hLogicalSurface
+#### - hLogicalSurface
 
 [in] A 64-bit value that specifies the handle to a logical surface to copy from. 
 
 
-### -field hPhysicalSurface
+#### - hPhysicalSurface
 
 [in] A 64-bit value that specifies the handle to a physical surface to copy to. 
 
 
-### -field ScrollRect
+#### - ScrollRect
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field ScrollOffset
+#### - ScrollOffset
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DirtyRegions
+#### - DirtyRegions
 
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the GDI surface. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
 
  
 

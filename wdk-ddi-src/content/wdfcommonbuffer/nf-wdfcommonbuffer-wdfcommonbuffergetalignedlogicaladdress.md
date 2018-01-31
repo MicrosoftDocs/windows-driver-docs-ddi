@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6222db07-5aba-467c-94a5-18493dfb1524
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCommonBufferGetAlignedLogicalAddress, PFN_WDFCOMMONBUFFERGETALIGNEDLOGICALADDRESS, WdfCommonBufferGetAlignedLogicalAddress method, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress, wdf.wdfcommonbuffergetalignedlogicaladdress, kmdf.wdfcommonbuffergetalignedlogicaladdress, DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml
+ms.keywords: wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress, PFN_WDFCOMMONBUFFERGETALIGNEDLOGICALADDRESS, DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, kmdf.wdfcommonbuffergetalignedlogicaladdress, wdf.wdfcommonbuffergetalignedlogicaladdress, WdfCommonBufferGetAlignedLogicalAddress method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PHYSICAL_ADDRESS WdfCommonBufferGetAlignedLogicalAddress(
 
 
 
-### -param CommonBuffer [in]
+#### - CommonBuffer [in]
 
 A handle to a common buffer object that the driver obtained by a previous call to <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>.  
 
@@ -101,9 +101,9 @@ For more information about common buffers, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
-
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
 
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5643cb45-daa0-490e-aa0c-9e3b54c6dbef
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorsclassextension/SENSOR_STATE_MIN, sensorsclassextension/SENSOR_STATE_READY, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001, sensorsclassextension/SENSOR_STATE_ERROR, SensorState enumeration [Sensor Devices], sensorsclassextension/SENSOR_STATE_NO_DATA, SENSOR_STATE_ERROR, sensors.sensorstate, sensorsclassextension/SENSOR_STATE_MAX, sensorsclassextension/SensorState, sensorsclassextension/SENSOR_STATE_NOT_AVAILABLE, sensorsclassextension/SENSOR_STATE_INITIALIZING, Sensor_Enums_caba27ac-659e-4b9a-a466-7a7d202c6f62.xml, SENSOR_STATE_MAX, SENSOR_STATE_NO_DATA, SENSOR_STATE_INITIALIZING, SENSOR_STATE_READY, SENSOR_STATE_ACCESS_DENIED, sensorsclassextension/SENSOR_STATE_ACCESS_DENIED, SensorState, SENSOR_STATE_MIN, SENSOR_STATE_NOT_AVAILABLE
+ms.keywords: sensorsclassextension/SensorState, sensorsclassextension/SENSOR_STATE_INITIALIZING, sensorsclassextension/SENSOR_STATE_MAX, SENSOR_STATE_ERROR, sensorsclassextension/SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_NOT_AVAILABLE, SensorState enumeration [Sensor Devices], SENSOR_STATE_NO_DATA, sensorsclassextension/SENSOR_STATE_NOT_AVAILABLE, SENSOR_STATE_ACCESS_DENIED, sensorsclassextension/SENSOR_STATE_MIN, SensorState, sensorsclassextension/SENSOR_STATE_READY, SENSOR_STATE_INITIALIZING, sensors.sensorstate, SENSOR_STATE_MIN, sensorsclassextension/SENSOR_STATE_ERROR, sensorsclassextension/SENSOR_STATE_NO_DATA, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001, Sensor_Enums_caba27ac-659e-4b9a-a466-7a7d202c6f62.xml, SENSOR_STATE_MAX, SENSOR_STATE_READY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,42 +76,42 @@ enum SensorState {
 
 
 
-### -field SENSOR_STATE_MIN
+#### - SENSOR_STATE_MIN
 
 Reserved.
 
 
-### -field SENSOR_STATE_READY
+#### - SENSOR_STATE_READY
 
 Indicates that the sensor is ready.
 
 
-### -field SENSOR_STATE_NOT_AVAILABLE
+#### - SENSOR_STATE_NOT_AVAILABLE
 
 Indicates that the sensor is not currently available for use.
 
 
-### -field SENSOR_STATE_NO_DATA
+#### - SENSOR_STATE_NO_DATA
 
 Indicates that no data available.
 
 
-### -field SENSOR_STATE_INITIALIZING
+#### - SENSOR_STATE_INITIALIZING
 
 Indicates that the sensor is not yet ready for use. Try again.
 
 
-### -field SENSOR_STATE_ACCESS_DENIED
+#### - SENSOR_STATE_ACCESS_DENIED
 
 Reserved. Do not use in driver code.
 
 
-### -field SENSOR_STATE_ERROR
+#### - SENSOR_STATE_ERROR
 
 Indicates that an unspecified error occurred.
 
 
-### -field SENSOR_STATE_MAX
+#### - SENSOR_STATE_MAX
 
 Reserved.
 

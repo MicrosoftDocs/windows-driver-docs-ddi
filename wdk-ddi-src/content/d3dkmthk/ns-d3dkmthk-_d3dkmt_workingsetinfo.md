@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1a5b75e4-abdd-4916-b2b5-4dbb53a525ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_a3992911-10eb-48fe-a755-fe14e68fbaa8.xml, _D3DKMT_WORKINGSETINFO, D3DKMT_WORKINGSETINFO structure [Display Devices], D3DKMT_WORKINGSETINFO, d3dkmthk/D3DKMT_WORKINGSETINFO, display.d3dkmt_workingsetinfo
+ms.keywords: d3dkmthk/D3DKMT_WORKINGSETINFO, display.d3dkmt_workingsetinfo, _D3DKMT_WORKINGSETINFO, D3DKMT_WORKINGSETINFO, D3DKMT_WORKINGSETINFO structure [Display Devices], OpenGL_Structs_a3992911-10eb-48fe-a755-fe14e68fbaa8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_WORKINGSETINFO {
 
 
 
-### -field Flags
+#### - Flags
 
 [out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetflags.md">D3DKMT_WORKINGSETFLAGS</a> structure that indicates, in bit-field flags, working-set properties.
 
 
-### -field MinimumWorkingSetPercentile
+#### - MinimumWorkingSetPercentile
 
 [out] The minimum working-set percentile. 
 
 
-### -field MaximumWorkingSetPercentile
+#### - MaximumWorkingSetPercentile
 
 [out] The maximum working-set percentile. 
 
@@ -88,9 +88,9 @@ typedef struct _D3DKMT_WORKINGSETINFO {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetflags.md">D3DKMT_WORKINGSETFLAGS</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetflags.md">D3DKMT_WORKINGSETFLAGS</a>
 
  
 

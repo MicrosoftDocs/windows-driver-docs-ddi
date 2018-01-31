@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ccc8c97-4c8c-4278-8eef-a612ce85439e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.video_request_packet, video/VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET, Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, VIDEO_REQUEST_PACKET, video/PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET structure pointer [Display Devices], _VIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET structure [Display Devices], PVIDEO_REQUEST_PACKET
+ms.keywords: VIDEO_REQUEST_PACKET, video/PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET structure pointer [Display Devices], PVIDEO_REQUEST_PACKET, _VIDEO_REQUEST_PACKET, display.video_request_packet, Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, *PVIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET structure [Display Devices], video/VIDEO_REQUEST_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_REQUEST_PACKET
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET
+req.typenames: "*PVIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET"
 req.product: Windows 10 or later.
 ---
 
@@ -73,41 +73,41 @@ typedef struct _VIDEO_REQUEST_PACKET {
 
 
 
-### -field IoControlCode
+#### - IoControlCode
 
 Specifies an IOCTL_VIDEO_<i>XXX</i> value passed to the <b>EngDeviceIoControl</b> function by the caller and sent to the video port driver in an IRP code. For more information about the set of system-defined IOCTL_VIDEO_<i>XXX</i> that miniport drivers must support, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>.
 
 
-### -field StatusBlock
+#### - StatusBlock
 
 Pointer to a STATUS_BLOCK structure in the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a>. <b>StatusBlock</b> is filled in by the miniport driver with return information upon completion of each VRP.
 
 
-### -field InputBuffer
+#### - InputBuffer
 
 Pointer to an input buffer that contains information passed in by the caller. The structure for the data depends on the value of <b>IoControlCode</b>. This member actually points to the same buffer as that indicated by <b>OutputBuffer</b>.
 
 
-### -field InputBufferLength
+#### - InputBufferLength
 
 Specifies the size in bytes of the input buffer.
 
 
-### -field OutputBuffer
+#### - OutputBuffer
 
 Pointer to an output buffer into which the miniport driver transfers data to be returned to the caller. The structure for the data depends on the value of <b>IoControlCode.</b> Because this member points to the same buffer as <b>InputBuffer</b>, a miniport driver must not write output in the <b>OutputBuffer</b> before it has consumed all input data from the <b>InputBuffer</b>.
 
 
-### -field OutputBufferLength
+#### - OutputBufferLength
 
 Specifies the size in bytes of the output buffer. A miniport driver cannot enlarge this buffer. A miniport driver should set the <b>Status</b> member of the <b>StatusBlock</b> with ERROR_INSUFFICIENT_BUFFER or ERROR_MORE_DATA if the given <b>OutputBuffer</b> is too small to contain all the returned information.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
 
 <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
 

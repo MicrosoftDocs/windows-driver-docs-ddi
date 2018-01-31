@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 823713de-16d4-45cd-936e-1af4a8425c94
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/PAVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO, _AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO, stream.avc_preconnect_info, AVC_PRECONNECT_INFO structure [Streaming Media Devices], PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], AVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, avc/AVC_PRECONNECT_INFO
+ms.keywords: PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], AVC_PRECONNECT_INFO structure [Streaming Media Devices], avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, _AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO, avc/AVC_PRECONNECT_INFO, avc/PAVC_PRECONNECT_INFO, stream.avc_preconnect_info, AVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AVC_PRECONNECT_INFO {
 
 
 
-### -field PinId
+#### - PinId
 
 Specifies the offset (or ID) of the pin for which information is to be retrieved.
 
 
-### -field ConnectInfo
+#### - ConnectInfo
 
 The AVCPRECONNECTINFO values for the specified pin.
 

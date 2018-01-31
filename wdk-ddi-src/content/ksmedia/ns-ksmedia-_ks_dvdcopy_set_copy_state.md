@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4f637b7-52ce-4ec8-8348-0b65a7f788ad
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices], KS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state, dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, _KS_DVDCOPY_SET_COPY_STATE, *PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], ksmedia/KS_DVDCOPY_SET_COPY_STATE
+ms.keywords: dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, ksmedia/KS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], _KS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE, *PKS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _KS_DVDCOPY_SET_COPY_STATE {
 
 
 
-### -field DVDCopyState
+#### - DVDCopyState
 
 Indicates the progress of the copyright protection initialization, authentication and key negotiation sequence. This must be one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_dvdcopystate.md">KS_DVDCOPYSTATE</a> enumeration.
 

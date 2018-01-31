@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 74784405-8435-4305-A630-255D7BB24157
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_PORT_BUFFER_USHORT, wdf.wdf_read_port_buffer_ushort, wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT, WDF_READ_PORT_BUFFER_USHORT function
+ms.keywords: wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT, wdf.wdf_read_port_buffer_ushort, WDF_READ_PORT_BUFFER_USHORT, WDF_READ_PORT_BUFFER_USHORT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WDF_READ_PORT_BUFFER_USHORT(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a buffer into which an array of USHORT values is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to be read into the buffer.
 

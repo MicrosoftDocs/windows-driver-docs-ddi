@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], _DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS
+ms.keywords: DXGK_ALLOCATIONINFOFLAGS, _DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags, DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONINFOFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,7 +106,7 @@ typedef struct _DXGK_ALLOCATIONINFOFLAGS {
 
 
 
-### -field CpuVisible
+#### - CpuVisible
 
 [out] A UINT value that specifies whether the allocation is directly accessible by the CPU. The display miniport driver must set this flag for the user-mode display driver to successfully call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function on the allocation. If this flag is not set on the allocation, <b>pfnLockCb</b> returns an error.
 
@@ -115,7 +115,7 @@ Note that only the process that created a shared allocation can lock that alloca
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field PermanentSysMem
+#### - PermanentSysMem
 
 [out] A UINT value that specifies whether a copy of the allocation should be kept in system memory even when the content is located in a memory segment. By default, a surface system memory backing store is lost when transferring an allocation to a memory segment. When the <b>PermanentSysMem</b> flag is specified and the allocation is evicted from a memory segment, the content of the allocation is discarded and not paged out if the allocation is not dirty (that is, the allocation was not the target of a write operation since it was paged in). 
 
@@ -124,7 +124,7 @@ A call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> on
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field Cached
+#### - Cached
 
 [out] A UINT value that specifies whether the allocation backing store should be allocated as cached memory; by default, the allocation backing store is stored as write-combined memory. When a cached-memory allocation is used in a segment that is not cache coherent (for example, a memory segment or AGP segment), the video memory manager ensures coherency for the content of the allocation by flushing it from the processor's cache at the appropriate time. 
 
@@ -135,14 +135,14 @@ When the driver sets this member, the driver must also set the <b>CpuVisible</b>
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field Protected
+#### - Protected
 
 [out] A UINT value that specifies whether the allocation backing store should be allocated in kernel memory instead of user address space to protect the allocation from potential direct CPU access by an application. The driver cannot set this member in combination with the <b>PermanentSysMem</b>, <b>ExistingSysMem</b>, or <b>ExistingKernelSysMem</b> member. The driver must not set <b>Protected</b> on the primary surface.
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field ExistingSysMem
+#### - ExistingSysMem
 
 [out] A UINT value that specifies whether the video memory manager should use the existing system memory range as a backing store for the allocation. The system memory range must be a valid user-mode address for the current process for the size of the allocation. The system memory range must also be page aligned and must be a page multiple in size. 
 
@@ -155,7 +155,7 @@ The driver cannot set <b>ExistingSysMem</b> in combination with the <b>Permanent
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
 
-### -field ExistingKernelSysMem
+#### - ExistingKernelSysMem
 
 [out] A UINT value that specifies whether the video memory manager should use the existing system memory range as a backing store for the allocation. The system memory range must be a valid kernel-mode address that is aligned on a page and a page multiple in size. 
 
@@ -168,42 +168,42 @@ The driver cannot set <b>ExistingKernelSysMem</b> in combination with the <b>Per
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
 
-### -field FromEndOfSegment
+#### - FromEndOfSegment
 
 [out] A UINT value that specifies whether the allocation should be allocated from the end of a segment during paging. The video memory manager scans a segment address space and looks for room for the allocation from the end of the segment instead of scanning from the start of the segment (which is the default behavior). However, the hinted and preferred segment information takes precedent over this flag.
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 
-### -field Swizzled
+#### - Swizzled
 
 [out] A UINT value that specifies whether the allocation is swizzled and requires special support by the video memory manager to lock the allocation. For more information about swizzled allocations, see <a href="https://msdn.microsoft.com/c9be52d9-36b2-4a0f-9629-01b31293af38">Locking Swizzled Allocations</a>.
 
 Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
 
 
-### -field Overlay
+#### - Overlay
 
 [out] A UINT value that specifies whether the allocation is for an overlay operation. Overlay allocations are pinned in memory, and the video memory manager cannot evict them unless the Timeout Detection and Recovery (TDR) process, Plug and Play (PnP) stop, or <a href="https://msdn.microsoft.com/780d37d9-40c6-4737-9042-473810868227">level three synchronization</a> occurs. Note that before level three synchronization occurs, overlays are typically destroyed. By default, overlay allocations are limited and cannot occupy more than the last 20 percent of a segment. If an overlay allocation is allocated in an aperture segment, the display miniport driver should limit the size of any other allocation that uses that aperture segment as an eviction segment to 80 percent of the segment size. The display miniport driver indicates that an allocation can use a segment for eviction by specifying the appropriate bit for the segment in the <b>EvictionSegmentSet</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure for the allocation. If the display miniport driver does not limit the size of another allocation, the video memory manager cannot evict that allocation through the segment because the pinned allocation (that is, the overlay allocation) occupies the area that is required for eviction. In this case, the content of the other allocation that is being evicted is lost, and the application that owns the lost allocation can no longer render with that allocation. 
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
 
 
-### -field Capture
+#### - Capture
 
 [out] A UINT value that specifies whether the allocation is used for a capture operation. Capture allocations are pinned in memory similarly to overlay allocations. Therefore, the issues that apply to overlay allocations also apply to capture allocations. For more information about these issues, see the description of the <b>Overlay</b> flag. Note that before <a href="https://msdn.microsoft.com/780d37d9-40c6-4737-9042-473810868227">level three synchronization</a> occurs, captures are typically stopped. 
 
 Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
 
 
-### -field UseAlternateVA
+#### - UseAlternateVA
 
 [out] A UINT value that specifies whether the primary allocation can be locked. <b>UseAlternateVA</b> is valid only for the primary allocation. If <b>UseAlternateVA</b> is specified for any other allocation, the allocation is not created. When a primary allocation is created by using <b>UseAlternateVA</b>, a swizzling range for the primary allocation is set up when the allocation is created. 
 
 Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>Value</b> member (0x00000400).
 
 
-### -field SynchronousPaging
+#### - SynchronousPaging
 
 [out] A UINT value that specifies whether the allocation should be paged in synchronously. If the display miniport driver sets this bit for an allocation, the video memory manager will wait until the allocation is no longer busy (that is, the video memory manager will wait until the graphics processing unit (GPU) reports all of the fences that reference the allocation) before the video memory manager submits a paging buffer that references the allocation. 
 
@@ -212,21 +212,21 @@ Similarly, the video memory manager will wait for a paging operation on a synchr
 Setting this member is equivalent to setting the twelfth bit of the 32-bit <b>Value</b> member (0x00000800).
 
 
-### -field LinkMirrored
+#### - LinkMirrored
 
 [out] A UINT value that specifies whether a single instance of an allocation should be replicated across all physical adapters in a logical adapter (that is, a link). The video memory manager calls the driver to page in and evict the allocation on all physical adapters with a single shared backing store in system memory.
 
 Setting this member is equivalent to setting the thirteenth bit of the 32-bit <b>Value</b> member (0x00001000).
 
 
-### -field LinkInstanced
+#### - LinkInstanced
 
 [out] A UINT value that specifies whether different instances of an allocation will be paged in and evicted from all physical adapters in a logical adapter (that is, a link). One system memory backing store exists per physical adapter in a logical adapter.
 
 Setting this member is equivalent to setting the fourteenth bit of the 32-bit <b>Value</b> member (0x00002000).
 
 
-### -field HistoryBuffer
+#### - HistoryBuffer
 
 [out] A UINT value that specifies whether the  user-mode display driver allocates a history buffer. The display miniport driver must set this flag to indicate that the user-mode driver can manage the creation and destruction of history buffers.
 
@@ -237,7 +237,7 @@ Setting this member is equivalent to setting the fifteenth bit of the 32-bit <b>
 Supported starting with Windows 8.1.
 
 
-### -field AccessedPhysically
+#### - AccessedPhysically
 
 The kernel mode driver sets the flag on allocations, which are accessed by their physical address. Such allocation will be allocated contiguously from GPU memory segments. The allocations will not be contiguous when allocated from system memory.
 
@@ -246,7 +246,7 @@ Setting this member is equivalent to setting the sixteenth bit of the 32-bit <b>
 Supported starting with Windows 10.
 
 
-### -field ExplicitResidencyNotification
+#### - ExplicitResidencyNotification
 
 When this flags is specified, the driver receives a <b>NotifyResidency</b> paging buffer operation when the allocation residency is changed (evicted, commited). The flag can only be set when the <b>AccessedPhysically</b> flag is set.
 
@@ -265,105 +265,105 @@ Supported starting with Windows 10.
  
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero. 
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting 4 bits, from the sixteenth bit to the nineteenth bit (0x00078000), of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field DXGK_ALLOC_RESERVED16
+#### - DXGK_ALLOC_RESERVED16
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED15
+#### - DXGK_ALLOC_RESERVED15
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED14
+#### - DXGK_ALLOC_RESERVED14
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED13
+#### - DXGK_ALLOC_RESERVED13
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED12
+#### - DXGK_ALLOC_RESERVED12
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED11
+#### - DXGK_ALLOC_RESERVED11
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED10
+#### - DXGK_ALLOC_RESERVED10
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED9
+#### - DXGK_ALLOC_RESERVED9
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED4
+#### - DXGK_ALLOC_RESERVED4
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED3
+#### - DXGK_ALLOC_RESERVED3
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED2
+#### - DXGK_ALLOC_RESERVED2
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED1
+#### - DXGK_ALLOC_RESERVED1
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field DXGK_ALLOC_RESERVED0
+#### - DXGK_ALLOC_RESERVED0
 
 [in] This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field Value
+#### - Value
 
 [out] A member in the union that <b>DXGK_ALLOCATIONINFOFLAGS</b> contains that can hold a 32-bit value that identifies properties of the allocation. 
 

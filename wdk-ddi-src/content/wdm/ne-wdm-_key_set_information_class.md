@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95a8f683-642c-4f33-9536-08f497567f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeySetHandleTagsInformation, kernel.key_set_information_class, wdm/KeyControlFlagsInformation, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KeyWriteTimeInformation, _KEY_SET_INFORMATION_CLASS, KeyWow64FlagsInformation, KeySetDebugInformation, KeySetHandleTagsInformation, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeySetVirtualizationInformation, KEY_SET_INFORMATION_CLASS, wdm/KeySetDebugInformation, wdm/KeySetVirtualizationInformation, wdm/KeyWow64FlagsInformation, wdm/MaxKeySetInfoClass, MaxKeySetInfoClass, KeyWriteTimeInformation, wdm/KEY_SET_INFORMATION_CLASS, KeyControlFlagsInformation
+ms.keywords: wdm/KeyControlFlagsInformation, KeySetVirtualizationInformation, KeySetHandleTagsInformation, _KEY_SET_INFORMATION_CLASS, wdm/KeySetHandleTagsInformation, wdm/KeyWriteTimeInformation, KeyControlFlagsInformation, KeyWriteTimeInformation, kernel.key_set_information_class, KeyWow64FlagsInformation, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KeySetVirtualizationInformation, wdm/MaxKeySetInfoClass, wdm/KEY_SET_INFORMATION_CLASS, KeySetDebugInformation, wdm/KeySetDebugInformation, wdm/KeyWow64FlagsInformation, MaxKeySetInfoClass, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KEY_SET_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,32 +74,32 @@ typedef enum _KEY_SET_INFORMATION_CLASS {
 
 
 
-### -field KeyWriteTimeInformation
+#### - KeyWriteTimeInformation
 
 Indicates that a <a href="..\wdm\ns-wdm-_key_write_time_information.md">KEY_WRITE_TIME_INFORMATION</a> structure is supplied.
 
 
-### -field KeyWow64FlagsInformation
+#### - KeyWow64FlagsInformation
 
 Reserved for system use.
 
 
-### -field KeyControlFlagsInformation
+#### - KeyControlFlagsInformation
 
 Reserved for system use.
 
 
-### -field KeySetVirtualizationInformation
+#### - KeySetVirtualizationInformation
 
 Reserved for system use.
 
 
-### -field KeySetDebugInformation
+#### - KeySetDebugInformation
 
 Reserved for system use.
 
 
-### -field KeySetHandleTagsInformation
+#### - KeySetHandleTagsInformation
 
 Reserved for system use.
 
@@ -108,7 +108,7 @@ Reserved for system use.
 
 
 
-### -field MaxKeySetInfoClass
+#### - MaxKeySetInfoClass
 
 This member constant is always the maximum value in the enumeration.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cecef33a-a192-41f4-8006-b5d8b8c73e8d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PReportDiscoveredTargets_OUT structure pointer [Storage Devices], ReportDiscoveredTargets_OUT, *PReportDiscoveredTargets_OUT, ReportDiscoveredTargets_OUT structure [Storage Devices], structs-iSCSI_77e4d614-2993-45b7-8716-cc6eea197e22.xml, iscsifnd/ReportDiscoveredTargets_OUT, iscsifnd/PReportDiscoveredTargets_OUT, storage.reportdiscoveredtargets_out, _ReportDiscoveredTargets_OUT, PReportDiscoveredTargets_OUT
+ms.keywords: PReportDiscoveredTargets_OUT structure pointer [Storage Devices], ReportDiscoveredTargets_OUT structure [Storage Devices], _ReportDiscoveredTargets_OUT, *PReportDiscoveredTargets_OUT, iscsifnd/ReportDiscoveredTargets_OUT, PReportDiscoveredTargets_OUT, structs-iSCSI_77e4d614-2993-45b7-8716-cc6eea197e22.xml, ReportDiscoveredTargets_OUT, storage.reportdiscoveredtargets_out, iscsifnd/PReportDiscoveredTargets_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ReportDiscoveredTargets_OUT
 product: Windows
 targetos: Windows
-req.typenames: ReportDiscoveredTargets_OUT, *PReportDiscoveredTargets_OUT
+req.typenames: "*PReportDiscoveredTargets_OUT, ReportDiscoveredTargets_OUT"
 ---
 
 # _ReportDiscoveredTargets_OUT structure
@@ -69,17 +69,17 @@ typedef struct _ReportDiscoveredTargets_OUT {
 
 
 
-### -field Status
+#### - Status
 
 On output, the status of the <b>ReportDiscoveredTargets</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
-### -field TargetCount
+#### - TargetCount
 
 On output, the number of targets that are discovered. 
 
 
-### -field Targets
+#### - Targets
 
 On output, an array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a> structures, which provide information that is related to discovered targets. 
 
@@ -93,11 +93,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564046">ReportDiscoveredTargets</a>
-
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
 
 <a href="..\iscsifnd\ns-iscsifnd-_reportdiscoveredtargets2_out.md">ReportDiscoveredTargets2_OUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564046">ReportDiscoveredTargets</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 

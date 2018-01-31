@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SCATTER_GATHER_LIST_PARAMETERS, _NDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/PNDIS_SCATTER_GATHER_LIST_PARAMETERS, netvista.ndis_scatter_gather_list_parameters, ndis/NDIS_SCATTER_GATHER_LIST_PARAMETERS, PNDIS_SCATTER_GATHER_LIST_PARAMETERS, NDIS_SCATTER_GATHER_LIST_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_SCATTER_GATHER_LIST_PARAMETERS, PNDIS_SCATTER_GATHER_LIST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_b74a7da6-25c0-4ede-8540-d8fd5ee88ca2.xml
+ms.keywords: "_NDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/PNDIS_SCATTER_GATHER_LIST_PARAMETERS, PNDIS_SCATTER_GATHER_LIST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/NDIS_SCATTER_GATHER_LIST_PARAMETERS, *PNDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis_shared_memory_ref_b74a7da6-25c0-4ede-8540-d8fd5ee88ca2.xml, NDIS_SCATTER_GATHER_LIST_PARAMETERS, netvista.ndis_scatter_gather_list_parameters, NDIS_SCATTER_GATHER_LIST_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ typedef struct _NDIS_SCATTER_GATHER_LIST_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -90,48 +90,48 @@ The
      <b>Size</b> member to NDIS_SIZEOF_SCATTER_GATHER_LIST_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 Reserved for NDIS.
 
 
-### -field QueueId
+#### - QueueId
 
 An NDIS_RECEIVE_QUEUE_ID type value that contains a queue identifier. The queue identifier is an
      integer between zero and the number of queues that the miniport adapter supports. A zero value indicates
      the default queue.
 
 
-### -field SharedMemoryUsage
+#### - SharedMemoryUsage
 
 An 
      <a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a> enumeration
      value that specifies the purpose of the shared memory.
 
 
-### -field Mdl
+#### - Mdl
 
 A pointer to a memory descriptor list (MDL) that describes the shared memory buffer.
 
 
-### -field CurrentVa
+#### - CurrentVa
 
 A ULONG value for the current virtual address.
 
 
-### -field Length
+#### - Length
 
 A ULONG value that contains the length, in bytes, of the shared memory buffer.
 
 
-### -field ProcessSGListHandler
+#### - ProcessSGListHandler
 
 A pointer to a 
      <a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a> function
      (NDIS_PROCESS_SG_LIST_HANDLER entry point).
 
 
-### -field Context
+#### - Context
 
 A pointer to a block of driver-allocated context information that stores information about the
      scatter/gather list. NDIS passes the context information in calls to 
@@ -139,18 +139,18 @@ A pointer to a block of driver-allocated context information that stores informa
      <i>Context</i> parameter.
 
 
-### -field ScatterGatherListBuffer
+#### - ScatterGatherListBuffer
 
 A pointer to a 
      <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure.
 
 
-### -field ScatterGatherListBufferSize
+#### - ScatterGatherListBufferSize
 
 A ULONG value that contains the length, in bytes, of the scatter/gather list.
 
 
-### -field ScatterGatherListBufferSizeNeeded
+#### - ScatterGatherListBufferSizeNeeded
 
 A ULONG value where NDIS writes the total number of bytes that NDIS requires to build the
      scatter/gather list successfully.
@@ -170,13 +170,13 @@ To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LI
 
 <a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a>
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
-
 <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
  
 

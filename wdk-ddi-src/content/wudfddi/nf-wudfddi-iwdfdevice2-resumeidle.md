@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e821f738-3712-49c2-9026-ff6ddc0381a6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice2_resumeidle, ResumeIdle method, IWDFDevice2 interface, wudfddi/IWDFDevice2::ResumeIdle, IWDFDevice2::ResumeIdle, ResumeIdle, wdf.iwdfdevice2_resumeidle, IWDFDevice2 interface, ResumeIdle method, IWDFDevice2, ResumeIdle method, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml
+ms.keywords: IWDFDevice2 interface, ResumeIdle method, ResumeIdle, wudfddi/IWDFDevice2::ResumeIdle, ResumeIdle method, IWDFDevice2 interface, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, ResumeIdle method, wdf.iwdfdevice2_resumeidle, IWDFDevice2, IWDFDevice2::ResumeIdle, umdf.iwdfdevice2_resumeidle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.ResumeIdle
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

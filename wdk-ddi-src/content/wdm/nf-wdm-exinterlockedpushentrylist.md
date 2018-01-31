@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exinterlockedpushentrylist, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], ExInterlockedPushEntryList, wdm/ExInterlockedPushEntryList
+ms.keywords: wdm/ExInterlockedPushEntryList, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, kernel.exinterlockedpushentrylist, ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ PSINGLE_LIST_ENTRY ExInterlockedPushEntryList(
 
 
 
-### -param ListHead [in, out]
+#### - ListHead [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
 
 
-### -param ListEntry [in, out]
+#### - ListEntry [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
 
 
-### -param Lock [in, out]
+#### - Lock [in, out]
 
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
@@ -105,17 +105,17 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
-
 <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
-
 <a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
 
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 20ad609d-454a-4d43-a58e-184cbb8e8da7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::GetLastError, stifnc_9c8050a1-8e9a-4b24-a461-bc567602900d.xml, image.istidevice_getlasterror, IStiDevice, IStiDevice interface [Imaging Devices], GetLastError method, GetLastError, GetLastError method [Imaging Devices], IStiDevice interface, GetLastError method [Imaging Devices], sti/IStiDevice::GetLastError
+ms.keywords: GetLastError method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetLastError, IStiDevice::GetLastError, image.istidevice_getlasterror, IStiDevice, GetLastError, IStiDevice interface [Imaging Devices], GetLastError method, stifnc_9c8050a1-8e9a-4b24-a461-bc567602900d.xml, GetLastError method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetLastError(
 
 
 
-### -param pdwLastDeviceError [out]
+#### - pdwLastDeviceError [out]
 
 Caller-supplied pointer to a buffer in which the error code will be stored.
 

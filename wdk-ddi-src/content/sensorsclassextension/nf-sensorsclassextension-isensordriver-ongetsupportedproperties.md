@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 8712fe85-0af1-4552-9351-aca4fe5430d1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.isensordriver_ongetsupportedproperties, ISensorDriver, OnGetSupportedProperties method [Sensor Devices], ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties
+ms.keywords: ISensorDriver, sensors.isensordriver_ongetsupportedproperties, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT OnGetSupportedProperties(
 
 
 
-### -param pwszSensorID
+#### - pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting the properties list.
 
 
-### -param ppSupportedProperties
+#### - ppSupportedProperties
 
  Address of an IPortableDeviceKeyCollection pointer that receives the list of PROPERTYKEY values that represent the supported properties.
 

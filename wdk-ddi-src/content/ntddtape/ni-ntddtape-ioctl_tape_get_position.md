@@ -108,9 +108,9 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567946">TapeMiniGetPosition</a>
-
 <a href="..\ntddtape\ns-ntddtape-_tape_get_position.md">TAPE_GET_POSITION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567946">TapeMiniGetPosition</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel, dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista]
+ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], NdisMRegisterDmaChannel, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,32 +75,32 @@ NDIS_STATUS NdisMRegisterDmaChannel(
 
 
 
-### -param MiniportDmaHandle [out]
+#### - MiniportDmaHandle [out]
 
 A pointer to a caller-supplied variable in which this function returns a handle the miniport
      driver uses in subsequent calls to the 
      <b>NdisM<i>Xxx</i></b> system DMA functions.
 
 
-### -param MiniportAdapterHandle [in]
+#### - MiniportAdapterHandle [in]
 
 The miniport adapter handle input to the 
      <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param DmaChannel [in]
+#### - DmaChannel [in]
 
 Ignored. Set the DMA channel, if any, at 
      <i>DmaDescription</i> .
 
 
-### -param Dma32BitAddresses [in]
+#### - Dma32BitAddresses [in]
 
 A boolean value that is <b>TRUE</b> if the NIC has 32 address lines. Otherwise, it is <b>FALSE</b>.
 
 
-### -param DmaDescription [in]
+#### - DmaDescription [in]
 
 A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This structure is defined
      as follows: 
@@ -174,7 +174,7 @@ This member refers to the MCA bus, which is no longer supported. This member mus
 The bus-relative number of the system DMA controller channel used by the NIC.
 
 
-### -param MaximumLength [in]
+#### - MaximumLength [in]
 
 The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
      unlimited transfer capacity, set this parameter to -1.
@@ -275,9 +275,9 @@ If the driver successfully registers the DMA channel, it must later call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
-
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
+<a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 

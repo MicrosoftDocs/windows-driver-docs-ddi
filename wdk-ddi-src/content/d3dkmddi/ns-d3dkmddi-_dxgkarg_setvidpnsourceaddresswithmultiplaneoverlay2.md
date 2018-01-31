@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6138BAF5-F953-47E7-A572-BE4673CF7046
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, display.dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2, DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 structure [Display Devices]"
+ms.keywords: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, display.dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 structure [Display Devices], _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,37 +76,37 @@ typedef struct _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 {
 
 
 
-### -field ContextCount
+#### - ContextCount
 
 The number of contexts in the array that the <b>Context</b> member specifies.
 
 
-### -field Context
+#### - Context
 
 An array of handles to the contexts that contributed to a display operation.
 
 
-### -field Flags
+#### - Flags
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 An integer that identifies a video present source on the display adapter.
 
 
-### -field PlaneCount
+#### - PlaneCount
 
 The number of overlay planes in the <b>pPlanes</b> list.
 
 
-### -field pPlanes
+#### - pPlanes
 
 An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane2.md">DXGK_MULTIPLANE_OVERLAY_PLANE2</a> structures that specify the overlay planes to display.
 
 
-### -field Duration
+#### - Duration
 
 The length of time, in 100 nanoseconds units, between when the current present operation flips to the screen and the next vertical blanking interrupt occurs.
 
@@ -115,11 +115,11 @@ If zero, the refresh rate should be the default rate based on the current mode.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane2.md">DXGK_MULTIPLANE_OVERLAY_PLANE2</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane2.md">DXGK_MULTIPLANE_OVERLAY_PLANE2</a>
 
  
 

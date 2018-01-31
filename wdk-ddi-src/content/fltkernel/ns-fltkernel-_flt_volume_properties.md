@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e7be6cb6-a59d-4244-ba36-e7d5b36b1416
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml, FLT_VOLUME_PROPERTIES, fltkernel/PFLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES, _FLT_VOLUME_PROPERTIES, VOL_PROP_FL_DAX_VOLUME, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers], fltkernel/FLT_VOLUME_PROPERTIES, PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], ifsk.flt_volume_properties, PFLT_VOLUME_PROPERTIES
+ms.keywords: PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], fltkernel/FLT_VOLUME_PROPERTIES, _FLT_VOLUME_PROPERTIES, ifsk.flt_volume_properties, FLT_VOLUME_PROPERTIES, VOL_PROP_FL_DAX_VOLUME, PFLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers], fltkernel/PFLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES, FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_VOLUME_PROPERTIES
 product: Windows
 targetos: Windows
-req.typenames: FLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES
+req.typenames: "*PFLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES"
 ---
 
 # _FLT_VOLUME_PROPERTIES structure
@@ -75,7 +75,7 @@ typedef struct _FLT_VOLUME_PROPERTIES {
 
 
 
-### -field DeviceType
+#### - DeviceType
 
 Receives the device type of the volume. Must be a valid storage device type, such as one of the following values defined in ntifs.h: 
 
@@ -94,27 +94,27 @@ FILE_DEVICE_VIRTUAL_DISK
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. 
 
 
-### -field DeviceCharacteristics
+#### - DeviceCharacteristics
 
 Receives the device characteristics of the volume. For more information, see the reference entry for <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>. 
 
 
-### -field DeviceObjectFlags
+#### - DeviceObjectFlags
 
 Receives the device object flags for the volume. For more information about these flags, see the reference entries for <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a> and <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. 
 
 
-### -field AlignmentRequirement
+#### - AlignmentRequirement
 
 Receives the buffer alignment required by the underlying device. The value must be one of the FILE_<i>xxxx</i>_ALIGNMENT values defined in ntifs.h. For more information, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a>. 
 
 
-### -field SectorSize
+#### - SectorSize
 
 Receives the volume sector size, in bytes. 
 
 
-### -field Flags
+#### - Flags
 
 Provides additional description of the volume. This member can be zero or one of the following flags. In versions prior to Windows 10, version 1607, this member was named <b>Reserved0</b> and reserved for system use.
 <table>
@@ -135,18 +135,18 @@ This flag indicates that the volume is a direct access (DAX) volume.
 </table> 
 
 
-### -field FileSystemDriverName
+#### - FileSystemDriverName
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that receives the service name of the file system that is mounted on this volume. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>. 
 
 
-### -field FileSystemDeviceName
+#### - FileSystemDeviceName
 
 UNICODE_STRING structure that receives the name of the file system device object associated with this volume. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>. 
 
 
-### -field RealDeviceName
+#### - RealDeviceName
 
 UNICODE_STRING structure that receives the name of the storage device object associated with this volume. This structure is empty for network file systems. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>. 
 
@@ -164,17 +164,17 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
 <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<b>FltGetVolumeName</b>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<b>FltGetVolumeName</b>
 
  
 

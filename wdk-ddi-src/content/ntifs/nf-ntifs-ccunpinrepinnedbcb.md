@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 96a35574-87dc-4a2f-aaef-616096839f3f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcUnpinRepinnedBcb routine [Installable File System Drivers], ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, ntifs/CcUnpinRepinnedBcb, ifsk.ccunpinrepinnedbcb, CcUnpinRepinnedBcb
+ms.keywords: ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, CcUnpinRepinnedBcb routine [Installable File System Drivers], ntifs/CcUnpinRepinnedBcb, CcUnpinRepinnedBcb, ifsk.ccunpinrepinnedbcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID CcUnpinRepinnedBcb(
 
 
 
-### -param Bcb [in]
+#### - Bcb [in]
 
 Pointer to the repinned BCB.
 
 
-### -param WriteThrough [in]
+#### - WriteThrough [in]
 
 Set to <b>TRUE</b> if the BCB should be written through.
 
 
-### -param IoStatus [out]
+#### - IoStatus [out]
 
 Pointer to an IO_STATUS_BLOCK structure. If the call to <b>CcUnpinRepinnedBcb</b> succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that were successfully flushed to disk.
 

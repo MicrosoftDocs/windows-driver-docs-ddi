@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 09a7d452-efa1-4846-8077-1f6ce60515e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxLogEventWithBufferDirect function [Installable File System Drivers], rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml, rxprocs/RxLogEventWithBufferDirect, RxLogEventWithBufferDirect, ifsk.rxlogeventwithbufferdirect
+ms.keywords: rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml, rxprocs/RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], ifsk.rxlogeventwithbufferdirect, RxLogEventWithBufferDirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,32 +79,32 @@ VOID RxLogEventWithBufferDirect(
 TBD
 
 
-### -param OriginatorId [in]
+#### - OriginatorId [in]
 
 The string indicating the caller generating the error.
 
 
-### -param EventId [in]
+#### - EventId [in]
 
 The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
 
 
-### -param Status [in]
+#### - Status [in]
 
 The value indicating the status code of a routine indicating a failure.
 
 
-### -param DataBuffer [in]
+#### - DataBuffer [in]
 
 A pointer to a data buffer to be added to the I/O error log structure.
 
 
-### -param DataBufferLength [in]
+#### - DataBufferLength [in]
 
 The length of the data buffer to be added to the I/O error log structure.
 
 
-### -param LineNumber [in]
+#### - LineNumber [in]
 
 The line number in the source code file where this failure occurred.
 

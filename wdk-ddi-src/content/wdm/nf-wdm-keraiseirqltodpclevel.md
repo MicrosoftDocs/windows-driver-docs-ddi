@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ac82e003-ec05-4b8b-a4fb-64498fb17f9b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRaiseIrqlToDpcLevel, kernel.keraiseirqltodpclevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture], wdm/KeRaiseIrqlToDpcLevel, k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml
+ms.keywords: wdm/KeRaiseIrqlToDpcLevel, KeRaiseIrqlToDpcLevel, k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml, kernel.keraiseirqltodpclevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,9 +88,9 @@ Callers of <b>KeRaiseIrqlToDpcLevel</b> must be running at IRQL &lt;= DISPATCH_L
 
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
-<a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
-
 <a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
+
+<a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
 
  
 

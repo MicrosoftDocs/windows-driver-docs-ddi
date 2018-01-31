@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84a7c49b-d079-4d14-b371-5cfb75c1331c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_QUERYCURRENTFENCE structure [Display Devices], _DXGKARG_QUERYCURRENTFENCE, d3dkmddi/DXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE, DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, display.dxgkarg_querycurrentfence, *INOUT_PDXGKARG_QUERYCURRENTFENCE
+ms.keywords: DXGKARG_QUERYCURRENTFENCE structure [Display Devices], _DXGKARG_QUERYCURRENTFENCE, d3dkmddi/DXGKARG_QUERYCURRENTFENCE, *INOUT_PDXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE, DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, display.dxgkarg_querycurrentfence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKARG_QUERYCURRENTFENCE {
 
 
 
-### -field CurrentFence
+#### - CurrentFence
 
 [out] The current fence data.
 
 
-### -field NodeOrdinal
+#### - NodeOrdinal
 
 [in] The zero-based index of the node for the current fence.
 
 
-### -field EngineOrdinal
+#### - EngineOrdinal
 
 [in] The zero-based index of the engine, within the node that <b>NodeOrdinal</b> specifies, for the current fence.
 

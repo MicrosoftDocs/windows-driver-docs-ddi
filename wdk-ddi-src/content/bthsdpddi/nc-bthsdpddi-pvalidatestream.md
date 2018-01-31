@@ -71,17 +71,17 @@ NTSTATUS SdpValidateStream(
 
 
 
-### -param Stream
+#### - Stream
 
 A pointer to the raw SDP stream to be validated.
 
 
-### -param Size
+#### - Size
 
 An unsigned long integer that indicates the size of the SDP stream to be validated.
 
 
-### -param ErrorByte
+#### - ErrorByte
 
 A pointer to a variable that receives the address of the first byte in the SDP record that
      contains an error. The address is absolute.

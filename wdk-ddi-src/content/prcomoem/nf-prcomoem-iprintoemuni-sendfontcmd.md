@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b90a94d1-c6f3-483c-b5fc-edfee27094ab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml, SendFontCmd, print.iprintoemuni_sendfontcmd, SendFontCmd method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::SendFontCmd, SendFontCmd method [Print Devices], IPrintOemUni::SendFontCmd, IPrintOemUni, IPrintOemUni interface [Print Devices], SendFontCmd method
+ms.keywords: IPrintOemUni interface [Print Devices], SendFontCmd method, print.iprintoemuni_sendfontcmd, SendFontCmd, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml, IPrintOemUni, SendFontCmd method [Print Devices], IPrintOemUni::SendFontCmd, SendFontCmd method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::SendFontCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT SendFontCmd(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param pUFObj
+#### - pUFObj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
 
 
-### -param pFInv
+#### - pFInv
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a> structure.
 
@@ -158,17 +158,17 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
-
 <a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
+<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
+
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 932953c3-828f-4dcd-918e-5b3b5d8def1c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportreleasedevicelock, VideoPortReleaseDeviceLock function [Display Devices], VideoPortReleaseDeviceLock, video/VideoPortReleaseDeviceLock, VideoPort_Functions_509d905b-a70f-4932-975f-62d4c90c77b9.xml
+ms.keywords: VideoPortReleaseDeviceLock, VideoPort_Functions_509d905b-a70f-4932-975f-62d4c90c77b9.xml, VideoPortReleaseDeviceLock function [Display Devices], display.videoportreleasedevicelock, video/VideoPortReleaseDeviceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID VideoPortReleaseDeviceLock(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 

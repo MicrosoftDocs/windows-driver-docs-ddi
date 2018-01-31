@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 17f5d8bf-a3e7-4ff5-9019-24c66875b786
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PSIMULATE_CAPS_1 structure pointer [Print Devices], print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, SIMULATE_CAPS_1 structure [Print Devices], SIMULATE_CAPS_1, *PSIMULATE_CAPS_1, PSIMULATE_CAPS_1, _SIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1, printoem/PSIMULATE_CAPS_1, print.simulate_caps_1
+ms.keywords: printoem/PSIMULATE_CAPS_1, print.simulate_caps_1, SIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], *PSIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1, PSIMULATE_CAPS_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, _SIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SIMULATE_CAPS_1
 product: Windows
 targetos: Windows
-req.typenames: SIMULATE_CAPS_1, *PSIMULATE_CAPS_1
+req.typenames: "*PSIMULATE_CAPS_1, SIMULATE_CAPS_1"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ typedef struct _SIMULATE_CAPS_1 {
 
 
 
-### -field dwLevel
+#### - dwLevel
 
 Specifies the version of this structure. This value must be 1.
 
 
-### -field dwPageOrderFlags
+#### - dwPageOrderFlags
 
 Specifies the order in which pages will be printed. This member can be set to one of the following values:
 <table>
@@ -118,17 +118,17 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 </table> 
 
 
-### -field dwNumberOfCopies
+#### - dwNumberOfCopies
 
 Specifies the maximum number of copies the spooler can handle.
 
 
-### -field dwCollate
+#### - dwCollate
 
 Specifies whether the spooler supports collation. A value of 1 indicates that the spooler supports collation, and a value of 0 indicates that it does not.
 
 
-### -field dwNupOptions
+#### - dwNupOptions
 
 Is a bitmask representing the various numbers of document pages the printer can print on a physical page. The least significant bit represents 1 document page per page, the next bit represents 2 document pages per page, the next bit represents 3 document pages per physical page, and so on. For example, 0x0000810B indicates that the spooler supports 1, 2, 4, 9, and 16 document pages per physical page.
 

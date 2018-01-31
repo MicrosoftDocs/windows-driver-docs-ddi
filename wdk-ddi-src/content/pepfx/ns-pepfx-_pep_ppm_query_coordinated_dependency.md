@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B7E857ED-66FF-4A4D-849B-A15663106507
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, kernel.pep_ppm_query_coordinated_dependency, _PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PPEP_PPM_QUERY_COORDINATED_DEPENDENCY structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_COORDINATED_DEPENDENCY"
+ms.keywords: PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PPEP_PPM_QUERY_COORDINATED_DEPENDENCY structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_coordinated_dependency, pepfx/PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, _PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, pepfx/PEP_PPM_QUERY_COORDINATED_DEPENDENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,41 +72,41 @@ typedef struct _PEP_PPM_QUERY_COORDINATED_DEPENDENCY {
 
 
 
-### -field StateIndex
+#### - StateIndex
 
 [in] The index of the coordinated idle state which is having its dependencies queried.
 
 
-### -field DependencyIndex
+#### - DependencyIndex
 
 [in] The index of the dependency being queried.
 
 
-### -field DependencySize
+#### - DependencySize
 
 [in] The size of the <b>Dependencies</b> array.
 
 
-### -field DependencySizeUsed
+#### - DependencySizeUsed
 
 [out] The number of elements of the <b>Dependencies</b> array filled in by the PEP.
 
 
-### -field TargetProcessor
+#### - TargetProcessor
 
 [out] The <b>POHANDLE</b> corresponding to the processor being targeted by this dependency, or <b>NULL</b> if this is a coordinated state dependency.
 
 
-### -field Options
+#### - Options
 
 [out] A list of <a href="..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
-
 <a href="..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md">PEP_COORDINATED_DEPENDENCY_OPTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_PACKET_COMPLETION_ROUTINE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -79,24 +79,24 @@ typedef EVT_VMB_PACKET_COMPLETION_ROUTINE PFN_VMB_PACKET_COMPLETION_ROUTINE;
 
 
 
-### -param Packet [in]
+#### - Packet [in]
 
 The packet that is completed.
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 A status code.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A buffer that contains the completion response from the opposite endpoint, if any.
 
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 Length of the <i>Buffer</i> parameter, in bytes.
 

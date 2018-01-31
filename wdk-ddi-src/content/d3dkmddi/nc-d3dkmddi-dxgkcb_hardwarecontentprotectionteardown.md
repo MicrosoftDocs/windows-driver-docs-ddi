@@ -71,12 +71,12 @@ VOID APIENTRY CALLBACK* DxgkCbHardwareContentProtectionTeardown(
 
 
 
-### -param hAdapter
+#### - hAdapter
 
 A handle to the graphics adapter where the tear-down event is occurring.
 
 
-### -param Flags
+#### - Flags
 
 Additional flags defined by <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
 

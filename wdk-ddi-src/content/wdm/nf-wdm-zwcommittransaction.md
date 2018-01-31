@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 145646f3-ff90-41d6-bf76-947cdf93b489
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtCommitTransaction, ktm_ref_bb49aa00-dbb3-4533-83c1-1cfc56073d8a.xml, ZwCommitTransaction, kernel.zwcommittransaction, NtCommitTransaction, wdm/ZwCommitTransaction, ZwCommitTransaction routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.zwcommittransaction, wdm/ZwCommitTransaction, wdm/NtCommitTransaction, ZwCommitTransaction routine [Kernel-Mode Driver Architecture], ktm_ref_bb49aa00-dbb3-4533-83c1-1cfc56073d8a.xml, ZwCommitTransaction, NtCommitTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwCommitTransaction(
 
 
 
-### -param TransactionHandle [in]
+#### - TransactionHandle [in]
 
 A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. Your component receives this handle from <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>. The handle must have TRANSACTION_COMMIT access to the object.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 A Boolean value that the caller sets to <b>TRUE</b> for synchronous operation or <b>FALSE</b> for asynchronous operation. If this parameter is <b>TRUE</b>, the call returns after the commit operation is complete.
 
@@ -198,13 +198,13 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
-<a href="..\wdm\nf-wdm-tmcommittransaction.md">TmCommitTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+<a href="..\wdm\nf-wdm-tmcommittransaction.md">TmCommitTransaction</a>
 
  
 

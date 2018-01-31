@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24A1D8C7-E432-45CB-8DEA-C1137159E319
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, display.d3d12ddi_video_decode_compressed_bitstream, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020 structure [Display Devices]
+ms.keywords: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, display.d3d12ddi_video_decode_compressed_bitstream, d3d12umddi/D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020 {
 
 
 
-### -field hDrvBuffer
+#### - hDrvBuffer
 
 The source buffer that contains the compressed bitstream to decode.
 
 
-### -field Offset
+#### - Offset
 
 The offset to the beginning of the first slice.  This offset has alignment requirements based on the tier value.
 

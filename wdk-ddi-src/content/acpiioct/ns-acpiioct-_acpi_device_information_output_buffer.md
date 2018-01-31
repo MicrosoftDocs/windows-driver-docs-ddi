@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 15AA7E06-DD7F-46B4-B2C2-604EA5150F7D
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices], ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], acpi.acpi_device_information_output_buffer, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_get_device_information_output_buffer, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ms.keywords: acpi.acpi_device_information_output_buffer, _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_get_device_information_output_buffer, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,87 +83,87 @@ typedef struct _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER {
 
 
 
-### -field Signature
+#### - Signature
 
 A unique identifier for the IOCTL that returns this buffer. Used for verification.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure.
 
 
-### -field Revision
+#### - Revision
 
 Revision of the ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure.
 
 
-### -field Reserved0
+#### - Reserved0
 
 Reserved. Do not use.
 
 
-### -field VendorIdStringOffset
+#### - VendorIdStringOffset
 
 The offset from the beginning of this structure to the beginning of the <b>VendorIDString</b> member. This string uniquely identifies The manufacturer and the device itself.
 
 
-### -field VendorStringLength
+#### - VendorStringLength
 
 The length of the <b>VendorIDString</b> member.
 
 
-### -field DeviceIdStringOffset
+#### - DeviceIdStringOffset
 
 The offset from the beginning of this structure to the beginning of the <b>DeviceIDString</b> member. This string uniquely identifies the device.
 
 
-### -field SubSystemIdStringOffset
+#### - SubSystemIdStringOffset
 
 The offset from the beginning of this structure to the beginning of the <b>SubSystemIDString</b> member. This string uniquely identifies the manufacturer and the subsystem (chip or board) into which the device is integrated.
 
 
-### -field SubSystemStringLength
+#### - SubSystemStringLength
 
 The length of the <b>SubSystemIDString</b> member.
 
 
-### -field SubDeviceIdStringOffset
+#### - SubDeviceIdStringOffset
 
 The offset from the beginning of this structure to the beginning of the <b>DeviceIDString</b> member. This string uniquely identifies the subsystem.
 
 
-### -field InstanceIdLength
+#### - InstanceIdLength
 
 The length of the <b>InstanceIDString</b> member.
 
 
-### -field InstanceIdOffset
+#### - InstanceIdOffset
 
 The offset from the beginning of this structure to the beginning of the <b>InstanceIDString</b> member. This string uniquely identifies the device amongst all such devices on the platform.
 
 
-### -field BaseClassCode
+#### - BaseClassCode
 
 A number identifying the class of the device. See http://pcisig.org for baseclass code definitions.
 
 
-### -field HardwareRevision
+#### - HardwareRevision
 
 A number identifying the hardware revision of the device.
 
 
-### -field ProgrammingInterface
+#### - ProgrammingInterface
 
 A number identifying the programming interface of the device. See http://pcisig.org for class programming interface definitions.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved. Do not use.
 
 
-### -field SubClassCode
+#### - SubClassCode
 
 A number identifying the subclass of the device. See http://pcisig.org for subclass code definitions.
 

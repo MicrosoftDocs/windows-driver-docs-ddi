@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioreportresourcefordetection, IoReportResourceForDetection, ntddk/IoReportResourceForDetection, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml
+ms.keywords: IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], IoReportResourceForDetection, kernel.ioreportresourcefordetection, ntddk/IoReportResourceForDetection, k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,37 +73,37 @@ NTSTATUS IoReportResourceForDetection(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 Pointer to the driver object that was input to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 
-### -param DriverList [in, optional]
+#### - DriverList [in, optional]
 
 Optionally points to a caller-supplied buffer that contains the driver's resource list, if the driver claims the same resources for all its devices. If the caller specifies a <i>DeviceList</i>, this parameter is ignored.
 
 
-### -param DriverListSize [in, optional]
+#### - DriverListSize [in, optional]
 
 Specifies the size in bytes of an optional <i>DriverList</i>. If <i>DriverList</i> is <b>NULL</b>, this parameter should be zero.
 
 
-### -param DeviceObject [in, optional]
+#### - DeviceObject [in, optional]
 
 Optionally points to the device object representing device for which the driver is attempting to claim resources. 
 
 
-### -param DeviceList [in, optional]
+#### - DeviceList [in, optional]
 
 Optionally points to a caller-supplied buffer containing the device's resource list. If the driver claims the same resources for all its devices, the caller can specify a <i>DriverList</i> instead. 
 
 
-### -param DeviceListSize [in, optional]
+#### - DeviceListSize [in, optional]
 
 Specifies the size in bytes of an optional <i>DeviceList</i>. If <i>DeviceList</i> is <b>NULL</b>, this parameter should be zero. 
 
 
-### -param ConflictDetected [out]
+#### - ConflictDetected [out]
 
 Pointer to a caller-supplied Boolean value that is set to <b>TRUE</b> on return if the resources are not available. 
 
@@ -178,9 +178,9 @@ Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
 <a href="..\ntddk\nf-ntddk-ioreportdetecteddevice.md">IoReportDetectedDevice</a>
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
  
 

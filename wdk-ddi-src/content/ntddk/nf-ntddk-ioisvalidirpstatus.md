@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0A995357-A578-41C6-A1B8-ABD251C16C83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioisvalidirpstatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], ntddk/IoIsValidIrpStatus, IoIsValidIrpStatus
+ms.keywords: ntddk/IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], kernel.ioisvalidirpstatus, IoIsValidIrpStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ LOGICAL IoIsValidIrpStatus(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 The status code to be validated.
 

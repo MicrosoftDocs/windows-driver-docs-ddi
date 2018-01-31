@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8ca2c47-e3b6-4ead-8d8e-2b2a4fe97658
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringVPrintf, RtlUnicodeStringVPrintf function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringVPrintf, kernel.rtlunicodestringvprintf, safestrings_45fb9433-8fea-42ec-83fc-772e943a3169.xml
+ms.keywords: ntstrsafe/RtlUnicodeStringVPrintf, safestrings_45fb9433-8fea-42ec-83fc-772e943a3169.xml, RtlUnicodeStringVPrintf function [Kernel-Mode Driver Architecture], RtlUnicodeStringVPrintf, kernel.rtlunicodestringvprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlUnicodeStringVPrintf(
 
 
 
-### -param DestinationString [out]
+#### - DestinationString [out]
 
 A pointer to a <b>UNICODE_STRING</b> structure that receives a formatted string. <b>RtlUnicodeStringVPrintf</b> creates this string from the formatting string that <i>pszFormat</i> specifies and the function's argument list. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 
-### -param pszFormat [in]
+#### - pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives.
 
 
-### -param argList [in]
+#### - argList [in]
 
 A <b>va_list</b>-typed argument list. Arguments in this argument list will be interpreted by using the formatting string that <i>pszFormat</i> specifies. 
 
@@ -154,11 +154,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintfex.md">RtlUnicodeStringPrintfEx</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintf.md">RtlUnicodeStringPrintf</a>
 

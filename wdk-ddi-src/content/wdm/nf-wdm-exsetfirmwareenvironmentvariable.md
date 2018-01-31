@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04447D92-EB9E-400B-A018-E70B186EA3DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exsetfirmwareenvironmentvariable, wdm/ExSetFirmwareEnvironmentVariable
+ms.keywords: wdm/ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable, kernel.exsetfirmwareenvironmentvariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS ExSetFirmwareEnvironmentVariable(
 
 
 
-### -param VariableName [in]
+#### - VariableName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
 
 
-### -param VendorGuid [in]
+#### - VendorGuid [in]
 
 A pointer to a GUID that identifies the vendor associated with the specified environment variable. Environment variables are grouped into namespaces based on their vendor GUIDs. Some hardware platforms might not support vendor GUIDs. On these platforms, all variables are grouped into one, common namespace, and the <i>VendorGuid</i> parameter is ignored.
 
 
-### -param Value [in]
+#### - Value [in]
 
 A pointer to a caller-allocated buffer that contains the data value to write to the specified environment variable.
 
 
-### -param ValueLength [in]
+#### - ValueLength [in]
 
 The size, in bytes, of the data value contained in the <i>Value</i> buffer.
 
 
-### -param Attributes [in]
+#### - Attributes [in]
 
 The attributes to assign to the specified environment variable. The VARIABLE_ATTRIBUTE_NON_VOLATILE attribute bit must be set or this call will fail. For more information about the attribute bits that are defined for this parameter, see Remarks in <a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>.
 
@@ -171,9 +171,9 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
-
 <a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a>
+
+<a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
 
  
 

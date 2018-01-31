@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_0c93_8
-title: PCNODE_DESCRIPTOR
+title: "*PPCNODE_DESCRIPTOR"
 author: windows-driver-content
 description: The PCNODE_DESCRIPTOR structure describes a node in the filter that a topology miniport driver implements.
 old-location: audio\pcnode_descriptor.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e83051ca-07fa-439d-8b0f-cbe6d84679a7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, *PPCNODE_DESCRIPTOR, portcls/PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], PCNODE_DESCRIPTOR, audio.pcnode_descriptor, PPCNODE_DESCRIPTOR, portcls/PCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR structure [Audio Devices]
+ms.keywords: portcls/PCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR structure [Audio Devices], PPCNODE_DESCRIPTOR, audio.pcnode_descriptor, *PPCNODE_DESCRIPTOR, portcls/PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, PCNODE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,10 +40,10 @@ apiname:
 -	PCNODE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: PCNODE_DESCRIPTOR, *PPCNODE_DESCRIPTOR
+req.typenames: "*PPCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR"
 ---
 
-# PCNODE_DESCRIPTOR structure
+# *PPCNODE_DESCRIPTOR structure
 
 
 ## -description
@@ -128,9 +128,9 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a>
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a>
 
  
 

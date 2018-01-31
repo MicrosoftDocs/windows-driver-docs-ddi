@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3f7b704f-be73-459a-bb5a-bbe649751900
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCommand method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, IDebugBreakpoint2, ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, IDebugBreakpoint interface [Windows Debugging], GetCommand method, dbgeng/IDebugBreakpoint::GetCommand, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, GetCommand method [Windows Debugging], debugger.getcommand, GetCommand, IDebugBreakpoint::GetCommand
+ms.keywords: IDebugBreakpoint2, GetCommand method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, IDebugBreakpoint::GetCommand, IDebugBreakpoint interface [Windows Debugging], GetCommand method, dbgeng/IDebugBreakpoint::GetCommand, ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetCommand, GetCommand method [Windows Debugging], debugger.getcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetCommand(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 The command string that is executed when the breakpoint is triggered.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size, in characters, of the buffer that <i>Buffer</i> points to.
 
 
-### -param CommandSize [out, optional]
+#### - CommandSize [out, optional]
 
 The size of the command string.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 

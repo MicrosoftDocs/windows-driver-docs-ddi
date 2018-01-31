@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 797e0821-2354-4dd5-b2ee-428d654feb40
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ks/KsReleaseIrpOnCancelableQueue, KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, stream.ksreleaseirponcancelablequeue
+ms.keywords: KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, KsReleaseIrpOnCancelableQueue, stream.ksreleaseirponcancelablequeue, ks/KsReleaseIrpOnCancelableQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID KsReleaseIrpOnCancelableQueue(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP to release.
 
 
-### -param DriverCancel [in, optional]
+#### - DriverCancel [in, optional]
 
 Optional parameter that specifies the cancel routine to use. If this is <b>NULL</b>, the standard <b>KsCancelRoutine</b> is used.
 

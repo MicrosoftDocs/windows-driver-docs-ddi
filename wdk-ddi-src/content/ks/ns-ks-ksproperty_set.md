@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18eda28d-f1dc-4b49-8c1a-07e11ea4b288
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SET structure [Streaming Media Devices], KSPROPERTY_SET, PKSPROPERTY_SET, ks-struct_2c865d90-5142-4cda-bbd2-af67ac716c87.xml, *PKSPROPERTY_SET, PKSPROPERTY_SET structure pointer [Streaming Media Devices], stream.ksproperty_set, ks/PKSPROPERTY_SET, ks/KSPROPERTY_SET
+ms.keywords: PKSPROPERTY_SET structure pointer [Streaming Media Devices], ks-struct_2c865d90-5142-4cda-bbd2-af67ac716c87.xml, KSPROPERTY_SET structure [Streaming Media Devices], KSPROPERTY_SET, PKSPROPERTY_SET, *PKSPROPERTY_SET, stream.ksproperty_set, ks/KSPROPERTY_SET, ks/PKSPROPERTY_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_SET
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_SET, KSPROPERTY_SET"
+req.typenames: KSPROPERTY_SET, *PKSPROPERTY_SET
 ---
 
 # KSPROPERTY_SET structure
@@ -71,27 +71,27 @@ typedef struct {
 
 
 
-### -field Set
+#### - Set
 
 Specifies the GUID that identifies the property set.
 
 
-### -field PropertiesCount
+#### - PropertiesCount
 
 Specifies the size of the array pointed to by the <b>PropertyItem</b> member.
 
 
-### -field PropertyItem
+#### - PropertyItem
 
 Points to the beginning of an array of <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a> structures that describe how the driver or pin supports each property in the set.
 
 
-### -field FastIoCount
+#### - FastIoCount
 
 Reserved for system use.
 
 
-### -field FastIoTable
+#### - FastIoTable
 
 A pointer to a <a href="..\ks\ns-ks-ksfastproperty_item.md">KSFASTPROPERTY_ITEM</a> structure. This member is reserved for system use.
 

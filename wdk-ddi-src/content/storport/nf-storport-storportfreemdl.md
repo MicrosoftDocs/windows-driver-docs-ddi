@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cbdda76-c02d-4fd4-8fa9-a783375ea292
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportfreemdl, StorPortFreeMdl routine [Storage Devices], StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml, storport/StorPortFreeMdl
+ms.keywords: StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml, storport/StorPortFreeMdl, storage.storportfreemdl, StorPortFreeMdl routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortFreeMdl(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
 A pointer to the MDL to be freed.
 

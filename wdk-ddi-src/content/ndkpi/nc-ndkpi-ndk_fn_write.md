@@ -40,7 +40,7 @@ apiname:
 -	NdkWrite
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_WRITE callback
@@ -76,11 +76,12 @@ NTSTATUS NdkWrite(
 
 
 
-### -param *pNdkQp
+#### - *pNdkQp [in]
+
+A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
 
 
-
-### -param RequestContext [in, optional]
+#### - RequestContext [in, optional]
 
 A context value to be returned in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for this request.
 
@@ -90,23 +91,23 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 
 
-### -param nSge [in]
+#### - nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
 
-### -param RemoteAddress [in]
+#### - RemoteAddress [in]
 
 The remote address to write to, provided in the local host's byte order. The NDK consumer might have added an offset to the remotely-provided value.
 
 
-### -param RemoteToken [in]
+#### - RemoteToken [in]
 
 The remotely-provided memory token, an opaque array of bytes from the NDK consumer. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 <table>
@@ -219,15 +220,15 @@ An error occurred.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
  
 

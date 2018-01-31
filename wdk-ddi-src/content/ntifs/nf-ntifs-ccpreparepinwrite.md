@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1645c7e9-5ae7-41d1-92db-1f069f79ac81
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccpreparepinwrite, CcPreparePinWrite, ntifs/CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers], ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml
+ms.keywords: ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml, CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers], ifsk.ccpreparepinwrite, ntifs/CcPreparePinWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ BOOLEAN CcPreparePinWrite(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the file where the data is to be written.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length of desired data in bytes.
 
 
-### -param Zero [in]
+#### - Zero [in]
 
 Set to <b>TRUE</b> if the buffer is to be zeroed on return. This parameter is ignored if the PIN_CALLER_TRACKS_DIRTY_DATA flag is set in the <i>Flags</i> parameter.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
 <table>
@@ -154,12 +154,12 @@ The caller is responsible for  keeping track of dirty pages. If this flag is set
 </table> 
 
 
-### -param Bcb [out]
+#### - Bcb [out]
 
 Opaque pointer to a pinned buffer control block (BCB). This pointer must be supplied as input on any subsequent calls to <b>CcPreparePinWrite</b> or <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a> for this buffer.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Returns pointer to desired data, valid until the buffer is unpinned or freed.
 
@@ -198,17 +198,17 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 <a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a>
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
  
 

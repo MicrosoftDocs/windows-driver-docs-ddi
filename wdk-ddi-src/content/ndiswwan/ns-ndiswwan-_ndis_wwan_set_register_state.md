@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c8d9c2aa-2eb7-43da-ae13-f7209e68e2fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE, netvista.ndis_wwan_set_register_state, _NDIS_WWAN_SET_REGISTER_STATE, WwanRef_272f8215-ddf9-45b0-b47c-13e12a5a22a8.xml, ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE, ndiswwan/NDIS_WWAN_SET_REGISTER_STATE, PNDIS_WWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_REGISTER_STATE"
+ms.keywords: ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE, PNDIS_WWAN_SET_REGISTER_STATE, netvista.ndis_wwan_set_register_state, WwanRef_272f8215-ddf9-45b0-b47c-13e12a5a22a8.xml, PNDIS_WWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_REGISTER_STATE, *PNDIS_WWAN_SET_REGISTER_STATE, _NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/NDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SET_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE"
+req.typenames: NDIS_WWAN_SET_REGISTER_STATE, *PNDIS_WWAN_SET_REGISTER_STATE
 ---
 
 # _NDIS_WWAN_SET_REGISTER_STATE structure
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SET_REGISTER_STATE {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_REGISTER_STATE
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field SetRegisterState
+#### - SetRegisterState
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a> object that
@@ -127,9 +127,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
 
  
 

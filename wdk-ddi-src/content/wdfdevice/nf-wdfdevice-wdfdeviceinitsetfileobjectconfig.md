@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e309a741-1f61-4668-8176-baf0c8e26dff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitsetfileobjectconfig, WdfDeviceInitSetFileObjectConfig method, WdfDeviceInitSetFileObjectConfig, DFDeviceObjectGeneralRef_97ec0f62-e8d2-46f9-b37a-13a632425a77.xml, wdfdevice/WdfDeviceInitSetFileObjectConfig, PFN_WDFDEVICEINITSETFILEOBJECTCONFIG, kmdf.wdfdeviceinitsetfileobjectconfig
+ms.keywords: WdfDeviceInitSetFileObjectConfig method, DFDeviceObjectGeneralRef_97ec0f62-e8d2-46f9-b37a-13a632425a77.xml, wdfdevice/WdfDeviceInitSetFileObjectConfig, WdfDeviceInitSetFileObjectConfig, wdf.wdfdeviceinitsetfileobjectconfig, kmdf.wdfdeviceinitsetfileobjectconfig, PFN_WDFDEVICEINITSETFILEOBJECTCONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ VOID WdfDeviceInitSetFileObjectConfig(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param FileObjectConfig [in]
+#### - FileObjectConfig [in]
 
 A pointer to a caller-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
 
 
-### -param FileObjectAttributes [in, optional]
+#### - FileObjectAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the driver's framework file objects. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
@@ -113,13 +113,13 @@ For more information about framework file objects, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdf_fileobject_config_init.md">WDF_FILEOBJECT_CONFIG_INIT</a>
 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
 
  
 

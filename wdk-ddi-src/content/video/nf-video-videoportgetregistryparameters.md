@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: beca2e83-df56-4ed0-8ea8-b0090e574cd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortGetRegistryParameters, display.videoportgetregistryparameters, VideoPortGetRegistryParameters, VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, VideoPortGetRegistryParameters function [Display Devices]
+ms.keywords: VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, VideoPortGetRegistryParameters, VideoPortGetRegistryParameters function [Display Devices], display.videoportgetregistryparameters, video/VideoPortGetRegistryParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VP_STATUS VideoPortGetRegistryParameters(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param ParameterName [in]
+#### - ParameterName [in]
 
 Pointer to a NULL-terminated Unicode string that names the value entry to be retrieved from the registry. See the <b>Remarks</b> section for more information.
 
 
-### -param IsParameterFileName
+#### - IsParameterFileName
 
 If the value is <b>TRUE</b>, the data value normally returned is treated as a file name. In that case, the buffered contents of that file are returned, rather than the parameter itself.
 
@@ -92,7 +92,7 @@ If the value is <b>TRUE</b>, the data value normally returned is treated as a fi
 TBD
 
 
-### -param Context
+#### - Context
 
 Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>, typically the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> buffer.
 
@@ -124,21 +124,21 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
 <a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
 <a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-
-<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
-
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
  
 

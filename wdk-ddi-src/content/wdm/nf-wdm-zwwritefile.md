@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwWriteFile, ZwWriteFile, kernel.zwwritefile, NtWriteFile, k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, wdm/NtWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, NtWriteFile, kernel.zwwritefile, wdm/ZwWriteFile, ZwWriteFile, wdm/NtWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,42 +77,42 @@ NTSTATUS ZwWriteFile(
 
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 Handle to the file object. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>. 
 
 
-### -param Event [in, optional]
+#### - Event [in, optional]
 
 Optionally, a handle to an event object to set to the signaled state after the write operation completes. Device and intermediate drivers should set this parameter to <b>NULL</b>.
 
 
-### -param ApcRoutine [in, optional]
+#### - ApcRoutine [in, optional]
 
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-### -param ApcContext [in, optional]
+#### - ApcContext [in, optional]
 
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member receives the number of bytes actually written to the file.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a caller-allocated buffer that contains the data to write to the file.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
 
-### -param ByteOffset [in, optional]
+#### - ByteOffset [in, optional]
 
 Pointer to a variable that specifies the starting byte offset in the file for beginning the write operation. If <i>Length</i> and <i>ByteOffset</i> specify a write operation past the current end-of-file mark, <b>ZwWriteFile</b> automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
 
@@ -135,7 +135,7 @@ Even when the I/O Manager is maintaining the current file position, the caller c
 It is also possible to cause a write operation to start at the current end of file by specifying for <i>ByteOffset</i> a pointer to a LARGE_INTEGER value with <b>HighPart</b> set to -1 and <b>LowPart</b> set to FILE_WRITE_TO_END_OF_FILE. This works regardless of whether the I/O Manager is maintaining the current file position.
 
 
-### -param Key [in, optional]
+#### - Key [in, optional]
 
 Device and intermediate drivers should set this pointer to <b>NULL</b>. 
 
@@ -185,13 +185,13 @@ Callers of <b>ZwWriteFile</b> must be running at IRQL = PASSIVE_LEVEL and <a hre
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
 
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 

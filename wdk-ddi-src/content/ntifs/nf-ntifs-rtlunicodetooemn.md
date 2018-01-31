@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb9ec3d9-89cd-4c56-8020-f8f97c2ce69b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml, RtlUnicodeToOemN routine [Installable File System Drivers], ntifs/RtlUnicodeToOemN, RtlUnicodeToOemN, ifsk.rtlunicodetooemn
+ms.keywords: rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml, ntifs/RtlUnicodeToOemN, RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlunicodetooemn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS RtlUnicodeToOemN(
 
 
 
-### -param OemString [out]
+#### - OemString [out]
 
 Pointer to a caller-allocated buffer to receive the translated string. 
 
 
-### -param MaxBytesInOemString [in]
+#### - MaxBytesInOemString [in]
 
 Maximum number of bytes to be written to <i>OemString</i>. 
 
 
-### -param BytesInOemString [out, optional]
+#### - BytesInOemString [out, optional]
 
 Pointer to a caller-allocated variable that receives the number of bytes in the translated string. This parameter can be <b>NULL</b>. 
 
 
-### -param UnicodeString [in]
+#### - UnicodeString [in]
 
 Pointer to the Unicode source string to be translated. 
 
 
-### -param BytesInUnicodeString [in]
+#### - BytesInUnicodeString [in]
 
 Size, in bytes, of the string at <i>UnicodeString</i>. 
 
@@ -118,11 +118,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
 
 <a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
 
  
 

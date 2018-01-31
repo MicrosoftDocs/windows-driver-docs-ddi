@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dca3023b-99d5-471a-a5a2-8453c367ce9b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwunlockfile, NtUnlockFile, ZwUnlockFile, ntifs/NtUnlockFile, ntifs/ZwUnlockFile, k111_a77fe0ba-5252-4441-aaad-67d2bbae01cb.xml, ZwUnlockFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntifs/NtUnlockFile, k111_a77fe0ba-5252-4441-aaad-67d2bbae01cb.xml, ZwUnlockFile routine [Kernel-Mode Driver Architecture], ntifs/ZwUnlockFile, ZwUnlockFile, NtUnlockFile, kernel.zwunlockfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS ZwUnlockFile(
 
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 A handle for the file object that represents the file whose byte range is to be unlocked.
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains the final status.
 
 
-### -param ByteOffset [in]
+#### - ByteOffset [in]
 
 A pointer to a variable that specifies the starting byte offset for the byte range to be unlocked.
 
 
-### -param Length [in]
+#### - Length [in]
 
 A pointer to a variable that specifies the length, in bytes, of the byte range to unlock.
 
 
-### -param Key [in]
+#### - Key [in]
 
 The caller-assigned value used to describe groups of related locks. This value should be set to zero.
 

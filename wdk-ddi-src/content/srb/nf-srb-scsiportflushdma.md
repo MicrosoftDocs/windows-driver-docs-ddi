@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortFlushDma
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ VOID ScsiPortFlushDma(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area.
 
@@ -94,9 +94,9 @@ Only miniport drivers of subordinate HBAs that use a system DMA controller call 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportiomaptransfer.md">ScsiPortIoMapTransfer</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a>
+
+<a href="..\srb\nf-srb-scsiportiomaptransfer.md">ScsiPortIoMapTransfer</a>
 
  
 

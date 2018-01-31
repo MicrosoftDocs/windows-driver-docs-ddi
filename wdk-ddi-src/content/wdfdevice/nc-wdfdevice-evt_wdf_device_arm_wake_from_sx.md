@@ -73,7 +73,7 @@ NTSTATUS EvtDeviceArmWakeFromSx(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 

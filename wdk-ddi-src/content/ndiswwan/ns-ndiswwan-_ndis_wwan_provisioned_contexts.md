@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee4ba781-9adf-4eb0-8c3d-b11aac86c943
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/PNDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS, _NDIS_WWAN_PROVISIONED_CONTEXTS, netvista.ndis_wwan_provisioned_contexts, WwanRef_ad7bfe2b-eb11-45f9-a49d-a602df06b97f.xml, *PNDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PROVISIONED_CONTEXTS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_WWAN_PROVISIONED_CONTEXTS, netvista.ndis_wwan_provisioned_contexts, PNDIS_WWAN_PROVISIONED_CONTEXTS, WwanRef_ad7bfe2b-eb11-45f9-a49d-a602df06b97f.xml, NDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/PNDIS_WWAN_PROVISIONED_CONTEXTS, PNDIS_WWAN_PROVISIONED_CONTEXTS structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_PROVISIONED_CONTEXTS {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_PROVISIONED_CONTEXTS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of the provisioned context query or set operation. The following table shows the possible values for
      this member.
@@ -254,7 +254,7 @@ The operation failed because the update request was unsuccessful.
 </table> 
 
 
-### -field ContextListHeader
+#### - ContextListHeader
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents a

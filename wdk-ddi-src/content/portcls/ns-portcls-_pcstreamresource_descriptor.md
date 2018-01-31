@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 978D06FC-B5CC-409C-BE5D-CA4B53005D8C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_PCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR structure pointer [Audio Devices], portcls/PPCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR, portcls/PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR structure [Audio Devices], *PPCSTREAMRESOURCE_DESCRIPTOR, audio.pcstreamresource_descriptor"
+ms.keywords: portcls/PPCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR structure pointer [Audio Devices], *PPCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR structure [Audio Devices], _PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR, portcls/PCSTREAMRESOURCE_DESCRIPTOR, audio.pcstreamresource_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCSTREAMRESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: PCSTREAMRESOURCE_DESCRIPTOR, *PPCSTREAMRESOURCE_DESCRIPTOR
+req.typenames: "*PPCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR"
 ---
 
 # _PCSTREAMRESOURCE_DESCRIPTOR structure
@@ -78,8 +78,18 @@ typedef struct _PCSTREAMRESOURCE_DESCRIPTOR {
 
 
 
-### -field Resource
+#### - Resource
 
+
+
+#### Thread
+
+Thread.
+
+
+#### ResourceSet
+
+Reserved for future use, set to NULL. Only device-scoped resources are supported at this time.
 
 
 ### -field Resource.Interrupt
@@ -107,23 +117,23 @@ Thread.
 Reserved for future use, set to NULL. Only device-scoped resources are supported at this time.
 
 
-### -field Size
+#### - Size
 
  This field is init to the size of the struct.
 
 
-### -field Flags
+#### - Flags
 
 Reserved for future use. Set to zero. 
 
 
 
-### -field Pdo
+#### - Pdo
 
 The physical device object of the stack that created this resource. 
 
 
-### -field Type
+#### - Type
 
 The union of the different stream resource types.
 

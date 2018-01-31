@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], storage.device_manage_data_set_attributes, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ms.keywords: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DeviceDsmActionFlag_NonDestructive, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,14 +81,14 @@ typedef struct _DEVICE_MANAGE_DATA_SET_ATTRIBUTES {
 
 
 
-### -field Size
+#### - Size
 
 Contains the size of the structure 
       <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b>. 
       The value of this member will change as members are added to the structure.
 
 
-### -field Action
+#### - Action
 
 The action to be performed as specified by a 
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> 
@@ -121,7 +121,7 @@ The specified action is non-destructive. If this flag is set, the driver can saf
 </table> 
 
 
-### -field Flags
+#### - Flags
 
 These flags are global to all control actions. The following flags can be set in the 
        <b>Flags</b> member:
@@ -145,7 +145,7 @@ Specifies that the control action is specified for the entire block of data set 
 </table> 
 
 
-### -field ParameterBlockOffset
+#### - ParameterBlockOffset
 
 Specifies the start of the parameter block within the system buffer of the 
        <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
@@ -156,7 +156,7 @@ Specifies the start of the parameter block within the system buffer of the
       structure.</div><div> </div>If set to zero, then the parameter block does not exist.
 
 
-### -field ParameterBlockLength
+#### - ParameterBlockLength
 
 Specifies the length, in bytes, of the parameter block within the payload of the 
        <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
@@ -165,7 +165,7 @@ Specifies the length, in bytes, of the parameter block within the payload of the
 If set to zero, then the parameter block does not exist.
 
 
-### -field DataSetRangesOffset
+#### - DataSetRangesOffset
 
 Specifies the start of the block of data set ranges within the system buffer of the 
        <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
@@ -175,7 +175,7 @@ Specifies the start of the block of data set ranges within the system buffer of 
        <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structure.</div><div> </div>If set to zero, then the block of data set ranges does not exist. 
 
 
-### -field DataSetRangesLength
+#### - DataSetRangesLength
 
 Specifies the length, in bytes, of the block of data set ranges within the payload of the 
        <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 

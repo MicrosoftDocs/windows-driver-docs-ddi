@@ -76,7 +76,7 @@ VOID ProtocolClOpenAfCompleteEx(
 
 
 
-### -param ProtocolAfContext [in]
+#### - ProtocolAfContext [in]
 
 A client-supplied handle to its context area for an address AF. The client allocated this context
      area and passed this handle to NDIS in its call to the 
@@ -84,7 +84,7 @@ A client-supplied handle to its context area for an address AF. The client alloc
      NdisClOpenAddressFamilyEx</b></mshelp:link> function.
 
 
-### -param NdisAfHandle [in]
+#### - NdisAfHandle [in]
 
 An NDIS-supplied handle to an AF, if 
      <i>Status</i> is NDIS_STATUS_SUCCESS. Otherwise, this parameter is <b>NULL</b>. This handle represents an
@@ -95,7 +95,7 @@ An NDIS-supplied handle to an AF, if
      <b>NdisCo<i>Xxx</i></b> functions.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the client's call to 
      <b>NdisClOpenAddressFamilyEx</b>, which can be any of the following: 
@@ -237,17 +237,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
  
 

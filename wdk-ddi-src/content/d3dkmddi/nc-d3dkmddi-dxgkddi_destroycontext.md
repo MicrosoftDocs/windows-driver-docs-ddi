@@ -70,7 +70,7 @@ NTSTATUS APIENTRY DxgkDdiDestroyContext(
 
 
 
-### -param hContext [in]
+#### - hContext [in]
 
 [in] A handle to the context to destroy. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function previously returned this handle in the <b>hContext</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a> structure that the <i>pCreateContext</i> parameter of <i>DxgkDdiCreateContext </i>points to. 
 

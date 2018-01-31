@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 37dc9f4a-1e9c-42f2-8894-4972562f5898
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_SELECTOR_NODE_S, PKSPROPERTY_SELECTOR_NODE_S structure pointer [Streaming Media Devices], *PKSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S structure [Streaming Media Devices], PKSPROPERTY_SELECTOR_NODE_S, stream.ksproperty_selector_node_s, ksmedia/PKSPROPERTY_SELECTOR_NODE_S, vidcapstruct_f7f566f9-2eea-44f5-8a4b-33769d99576f.xml
+ms.keywords: PKSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S structure [Streaming Media Devices], *PKSPROPERTY_SELECTOR_NODE_S, ksmedia/KSPROPERTY_SELECTOR_NODE_S, vidcapstruct_f7f566f9-2eea-44f5-8a4b-33769d99576f.xml, KSPROPERTY_SELECTOR_NODE_S, PKSPROPERTY_SELECTOR_NODE_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_SELECTOR_NODE_S, stream.ksproperty_selector_node_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-### -field NodeProperty
+#### - NodeProperty
 
 Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 
-### -field Value
+#### - Value
 
 Specifies the value of a request. For Set requests, the minidriver should set the property specified in <b>Property</b> to this value. For Get requests, the minidriver should return the value of the property specified in <b>Property</b>.
 
 
-### -field Flags
+#### - Flags
 
 Specifies the flags of a request. For Set requests, this value indicates the desired setting. For Get requests, this value contains the current setting.
 
 
-### -field Capabilities
+#### - Capabilities
 
 Specifies the capabilities of a property. This member has meaning only for Get requests. The minidriver should return the capabilities of the Selector with respect to the property specified in <b>Property</b>.
 

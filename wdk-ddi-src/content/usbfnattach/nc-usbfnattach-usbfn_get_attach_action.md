@@ -40,7 +40,7 @@ apiname:
 -	PFN_USBFN_GET_ATTACH_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY"
+req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef USBFN_GET_ATTACH_ACTION PFN_USBFN_GET_ATTACH_ACTION;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
     A pointer to a driver-defined context.
 
 
-### -param OnAttach [out]
+#### - OnAttach [out]
 
 A pointer to a caller-allocated <a href="..\usbfnattach\ns-usbfnattach-_usbfn_on_attach.md">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
 

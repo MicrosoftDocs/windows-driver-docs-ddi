@@ -71,7 +71,7 @@ BOOLEAN AtaControllerTransferModeSelect(
 
 
 
-### -param ControllerExtension [in]
+#### - ControllerExtension [in]
 
 A pointer to the controller extension.
 

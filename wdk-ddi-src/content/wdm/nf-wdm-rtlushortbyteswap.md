@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlushortbyteswap, k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, wdm/RtlUshortByteSwap, RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], RtlUshortByteSwap, k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ USHORT RtlUshortByteSwap(
 
 
 
-### -param Source [in]
+#### - Source [in]
 
 A USHORT value to convert to a byte-swapped version.
 

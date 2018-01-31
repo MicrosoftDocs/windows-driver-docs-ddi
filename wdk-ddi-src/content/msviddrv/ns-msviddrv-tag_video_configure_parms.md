@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58FE3B56-AFC6-46DE-BBE1-CCFA8FF1390A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: LPVIDEOCONFIGPARMS, VIDEOCONFIGPARMS, msviddrv/LPVIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], tag_video_configure_parms, VIDEOCONFIGPARMS structure [Streaming Media Devices], stream.videoconfigparms, msviddrv/VIDEOCONFIGPARMS
+ms.keywords: VIDEOCONFIGPARMS, VIDEOCONFIGPARMS structure [Streaming Media Devices], msviddrv/LPVIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS, tag_video_configure_parms, stream.videoconfigparms, LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct tag_video_configure_parms {
 
 
 
-### -field lpdwReturn
+#### - lpdwReturn
 
 Specifies the return parameter from the configure MSG.
 
 
-### -field lpData1
+#### - lpData1
 
 Specifies a pointer to data 1.
 
 
-### -field dwSize1
+#### - dwSize1
 
 Specifies the size of data buffer 1.
 
 
-### -field lpData2
+#### - lpData2
 
 Specifies a pointer to data 2.
 
 
-### -field dwSize2
+#### - dwSize2
 
 Specifies the size of data buffer 2.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dc49d01-54d2-48d3-8649-96262b890fc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_GEOSCOPE_PLMN, ntddrilapitypes/RIL_GEOSCOPE_CELL, ntddrilapitypes/RIL_GEOSCOPE_MAX, RIL_GEOSCOPE_CELL, RIL_GEOSCOPE_LOCATIONAREA, netvista.rilgeoscope, RIL_GEOSCOPE_MAX, RILGEOSCOPE, ntddrilapitypes/RIL_GEOSCOPE_LOCATIONAREA, ntddrilapitypes/RIL_GEOSCOPE_CELL_IMMEDIATE, ntddrilapitypes/RILGEOSCOPE, RILGEOSCOPE enumeration [Network Drivers Starting with Windows Vista], RIL_GEOSCOPE_PLMN, RIL_GEOSCOPE_CELL_IMMEDIATE
+ms.keywords: RILGEOSCOPE, RIL_GEOSCOPE_PLMN, ntddrilapitypes/RILGEOSCOPE, RIL_GEOSCOPE_LOCATIONAREA, ntddrilapitypes/RIL_GEOSCOPE_PLMN, ntddrilapitypes/RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_MAX, RILGEOSCOPE enumeration [Network Drivers Starting with Windows Vista], RIL_GEOSCOPE_CELL, ntddrilapitypes/RIL_GEOSCOPE_CELL_IMMEDIATE, ntddrilapitypes/RIL_GEOSCOPE_CELL, ntddrilapitypes/RIL_GEOSCOPE_MAX, netvista.rilgeoscope, RIL_GEOSCOPE_CELL_IMMEDIATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,22 +75,22 @@ typedef enum _RILGEOSCOPE {
 
 
 
-### -field RIL_GEOSCOPE_CELL_IMMEDIATE
+#### - RIL_GEOSCOPE_CELL_IMMEDIATE
 
 
 
-### -field RIL_GEOSCOPE_LOCATIONAREA
+#### - RIL_GEOSCOPE_LOCATIONAREA
 
 
 
-### -field RIL_GEOSCOPE_PLMN
+#### - RIL_GEOSCOPE_PLMN
 
 
 
-### -field RIL_GEOSCOPE_CELL
+#### - RIL_GEOSCOPE_CELL
 
 
 
-### -field RIL_GEOSCOPE_MAX
+#### - RIL_GEOSCOPE_MAX
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5958dd7-b287-4f0d-8677-75d850885262
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], wdm/MmFreeContiguousMemorySpecifyCache, kernel.mmfreecontiguousmemoryspecifycache, MmFreeContiguousMemorySpecifyCache
+ms.keywords: k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, kernel.mmfreecontiguousmemoryspecifycache, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], MmFreeContiguousMemorySpecifyCache, wdm/MmFreeContiguousMemorySpecifyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID MmFreeContiguousMemorySpecifyCache(
 
 
 
-### -param BaseAddress [in]
+#### - BaseAddress [in]
 
 Specifies the base address of the buffer to be freed. Must match the address returned by the <b>MmAllocateContiguousMemorySpecifyCache<i>Xxx</i></b> call that allocated the buffer.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies the size in bytes of the buffer to be freed. Must match the size requested when the buffer was allocated by the <b>MmAllocateContiguousMemorySpecifyCache<i>Xxx</i></b> routine.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 Specifies the cache type of the buffer to be freed. Must match the cache type requested when the buffer was allocated by the <b>MmAllocateContiguousMemorySpecifyCache<i>Xxx</i></b> routine.
 
@@ -103,9 +103,9 @@ The <b>MmFreeContiguousMemorySpecifyCache</b> routine frees a block of physicall
 
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
-
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a>
+
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
 
  
 

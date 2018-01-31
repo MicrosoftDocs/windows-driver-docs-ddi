@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 48df787b-f9f6-45d1-872c-ceeda3087af6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BATTERY_STATUS structure [Battery Devices], PBATTERY_STATUS, battery.battery_status, _BATTERY_STATUS, BATTERY_STATUS, poclass/BATTERY_STATUS, *PBATTERY_STATUS, PBATTERY_STATUS structure pointer [Battery Devices], bat-struct_11dfaf25-0f90-4c5b-8017-15fb2124423b.xml, poclass/PBATTERY_STATUS
+ms.keywords: poclass/PBATTERY_STATUS, BATTERY_STATUS, *PBATTERY_STATUS, battery.battery_status, BATTERY_STATUS structure [Battery Devices], _BATTERY_STATUS, PBATTERY_STATUS structure pointer [Battery Devices], PBATTERY_STATUS, bat-struct_11dfaf25-0f90-4c5b-8017-15fb2124423b.xml, poclass/BATTERY_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_STATUS, BATTERY_STATUS"
+req.typenames: BATTERY_STATUS, *PBATTERY_STATUS
 ---
 
 # _BATTERY_STATUS structure
@@ -70,22 +70,22 @@ typedef struct _BATTERY_STATUS {
 
 
 
-### -field PowerState
+#### - PowerState
 
 Specifies a battery power state as one or more of the following flags, ORed together: BATTERY_POWER_ON_LINE, BATTERY_DISCHARGING, BATTERY_CHARGING, and BATTERY_CRITICAL. 
 
 
-### -field Capacity
+#### - Capacity
 
 Specifies the capacity of the given battery, in milliwatt-hours, or BATTERY_UNKNOWN_CAPACITY if the capacity cannot be determined.
 
 
-### -field Voltage
+#### - Voltage
 
 Specifies the voltage, in millivolts, across the terminals of the given battery, or BATTERY_UNKNOWN_VOLTAGE if the voltage cannot be determined.
 
 
-### -field Rate
+#### - Rate
 
 Specifies the current rate of battery usage in milliwatts or, if the driver reports relative capacity, in units per hour. A positive value means that the battery is charging; a negative value means the battery is discharging. If the driver cannot determine the rate, it should return BATTERY_UNKNOWN_RATE.
 

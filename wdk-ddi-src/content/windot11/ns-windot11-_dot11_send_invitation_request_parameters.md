@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A1177154-4674-425C-A83B-A4A8FCD1729C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/DOT11_SEND_INVITATION_REQUEST_PARAMETERS, *PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, netvista.dot11_send_invitation_request_parameters, DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_REQUEST_PARAMETERS"
+ms.keywords: PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, netvista.dot11_send_invitation_request_parameters, DOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, _DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/DOT11_SEND_INVITATION_REQUEST_PARAMETERS, PDOT11_SEND_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_SEND_INVITATION_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _DOT11_SEND_INVITATION_REQUEST_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>DOT11_SEND_INVITATION_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -104,67 +104,67 @@ The type, revision, and size of the <b>DOT11_SEND_INVITATION_REQUEST_PARAMETERS<
 </table> 
 
 
-### -field DialogToken
+#### - DialogToken
 
 The dialog token to send  in the invitation request packet.
 
 
-### -field PeerDeviceAddress
+#### - PeerDeviceAddress
 
 The destination address of the WFD device receiving the invitation request packet.
 
 
-### -field uSendTimeout
+#### - uSendTimeout
 
 The maximum time, in milliseconds, allowed to send the invitation request. If the time-out expires before the miniport has successfully transmitted the invitation request, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439779">NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE</a> with a failure status.
 
 
-### -field MinimumConfigTimeout
+#### - MinimumConfigTimeout
 
 The configuration time-out required by the system  to change its mode of operation to a Peer-to-Peer (P2P) Group Owner or a P2P Client. The miniport driver can set this with a larger value if necessary.
 
 
-### -field InvitationFlags
+#### - InvitationFlags
 
 The operation flags for the P2P invitation procedure.
 
 
-### -field GroupBSSID
+#### - GroupBSSID
 
 The BSSID used by the P2P Group Owner for its P2P Group.
 
 
-### -field bUseGroupBSSID
+#### - bUseGroupBSSID
 
 If TRUE, the BSSID in <b>GroupBSSID</b> is included in the invitation request. Otherwise, <b>GroupBSSID</b> is not valid.
 
 
-### -field OperatingChannel
+#### - OperatingChannel
 
 The channel information to include in the Operating Channel attribute of the invitation request.
 
 
-### -field bUseSpecifiedOperatingChannel
+#### - bUseSpecifiedOperatingChannel
 
 If TRUE, the operating channel specified in <b>OperatingChannel</b> is included in the invitation request. Otherwise, the miniport driver can choose its own operating channel.
 
 
-### -field GroupID
+#### - GroupID
 
 The P2P group identifier.
 
 
-### -field bLocalGO
+#### - bLocalGO
 
 The device with the source address in the group owner.
 
 
-### -field uIEsOffset
+#### - uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) the Wi-Fi Direct (WFD) port must add to the invitation request packet. This offset is from the start of the buffer that contains this structure.
 
 
-### -field uIEsLength
+#### - uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 

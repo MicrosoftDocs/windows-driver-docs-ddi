@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4bf25ae0-30fa-49a6-a5a8-c807e14d9857
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_DXGI_RGB, D3DDDI_DXGI_RGB structure [Display Devices], D3DDDI_DXGI_RGB, DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, display.d3dddi_dxgi_rgb
+ms.keywords: D3DDDI_DXGI_RGB, D3DDDI_DXGI_RGB structure [Display Devices], d3dukmdt/D3DDDI_DXGI_RGB, DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, display.d3dddi_dxgi_rgb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3DDDI_DXGI_RGB {
 
 
 
-### -field Red
+#### - Red
 
 A FLOAT value that is used to describe the gamma function for the red color channel.
 
 
-### -field Green
+#### - Green
 
 A FLOAT value that is used to describe the gamma function for the green color channel.
 
 
-### -field Blue
+#### - Blue
 
 A FLOAT value that is used to describe the gamma function for the blue color channel.
 

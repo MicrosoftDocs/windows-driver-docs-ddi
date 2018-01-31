@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47b1a263-f630-4348-893c-388cac4e511d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PPRI_REGISTRATION_LIST, PPRI_REGISTRATION_LIST structure pointer [Storage Devices], PPRI_REGISTRATION_LIST, structs-general_ad5a83a3-3ac6-4579-be4f-c24181e9d59e.xml, PRI_REGISTRATION_LIST structure [Storage Devices], storport/PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST, storage.pri_registration_list
+ms.keywords: storage.pri_registration_list, storport/PPRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST, structs-general_ad5a83a3-3ac6-4579-be4f-c24181e9d59e.xml, PPRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST structure [Storage Devices], *PPRI_REGISTRATION_LIST, PPRI_REGISTRATION_LIST structure pointer [Storage Devices], storport/PRI_REGISTRATION_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRI_REGISTRATION_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PPRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST"
+req.typenames: PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -70,14 +70,14 @@ typedef struct {
 
 
 
-### -field Generation
+#### - Generation
 
 The Generation field contains a 32-bit counter that is maintained by the device server, which is incremented every time a Persistent Reserve Out command requests a REGISTER, REGISTER AND IGNORE
 
 EXISTING KEY, CLEAR, PREEMPT, or PREEMPT AND ABORT service action.
 
 
-### -field AdditionalLength
+#### - AdditionalLength
 
 The AdditionalLength field contains a count of the number of bytes in the reservation key list.
 

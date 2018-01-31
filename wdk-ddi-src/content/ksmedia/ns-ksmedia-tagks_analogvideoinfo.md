@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a3562a08-c567-4bb5-9de2-aaa561687b88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_analogvideoinfo, PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO, ksmedia/KS_ANALOGVIDEOINFO, ksmedia/PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], *PKS_ANALOGVIDEOINFO, vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml, tagKS_AnalogVideoInfo, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices]
+ms.keywords: ksmedia/KS_ANALOGVIDEOINFO, ksmedia/PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], KS_ANALOGVIDEOINFO, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices], PKS_ANALOGVIDEOINFO, tagKS_AnalogVideoInfo, *PKS_ANALOGVIDEOINFO, vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml, stream.ks_analogvideoinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct tagKS_AnalogVideoInfo {
 
 
 
-### -field rcSource
+#### - rcSource
 
 Specifies a clipping rectangle that selects the portion of the active video signal to use. 
 
 
-### -field rcTarget
+#### - rcTarget
 
 Specifies a rectangle that indicates which part of the target buffer to use.
 
 
-### -field dwActiveWidth
+#### - dwActiveWidth
 
 Specifies the width of the active incoming video signal. For example, the value for ITUR-601 could be set to 720 active samples per line.
 
 
-### -field dwActiveHeight
+#### - dwActiveHeight
 
 Specifies the height of the active incoming video signal. For example, the value for NTSC could be set to 483. For PAL/SECAM, the value could be set to 575.
 
 
-### -field AvgTimePerFrame
+#### - AvgTimePerFrame
 
 Specifies the average time per frame, in 100-nanosecond units.
 

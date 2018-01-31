@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, NtPowerInformation, wdm/NtPowerInformation, wdm/ZwPowerInformation, PlatformInformation, ZwPowerInformation
+ms.keywords: ZwPowerInformation, NtPowerInformation, wdm/ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], wdm/NtPowerInformation, PlatformInformation, kernel.zwpowerinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS ZwPowerInformation(
 
 
 
-### -param InformationLevel [in]
+#### - InformationLevel [in]
 
 Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported <i>POWER_INFORMATION_LEVEL</i> value is <b>PlatformInformation</b>.
 <table>
@@ -94,22 +94,22 @@ Information represents the currently supported power capabilities of the system.
 </table> 
 
 
-### -param InputBuffer [in, optional]
+#### - InputBuffer [in, optional]
 
 Pointer to a caller-allocated input buffer. This parameter must be <b>NULL</b>, otherwise <b>ERROR_INVALID_PARAMETER</b> is returned. 
 
 
-### -param InputBufferLength [in]
+#### - InputBufferLength [in]
 
 Size, in bytes, of the buffer at <i>InputBuffer</i>. The parameter must be set to zero.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 A pointer to an output buffer. The data type of this buffer depends on the information level requested in the <i>InformationLevel</i> parameter. For the <b>PlatformInformation</b> level, the only currently supported value, the <i>OutputBuffer </i> parameter is required and should be of the <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a> type.
 
 
-### -param OutputBufferLength [in]
+#### - OutputBufferLength [in]
 
 Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. <i>PlatformInformation</i>, the only currently supported value, requires a buffer that is the size of a <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a> structure.
 
@@ -172,9 +172,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

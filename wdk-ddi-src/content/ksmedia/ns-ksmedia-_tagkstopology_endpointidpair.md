@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 556B56A6-1EF4-406B-A9FB-901C0CF24BC0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_tagKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR, audio.kstopology_endpointidpair, *PKSTOPOLOGY_ENDPOINTIDPAIR, PKSTOPOLOGY_ENDPOINTIDPAIR structure pointer [Audio Devices], ksmedia/KSTOPOLOGY_ENDPOINTIDPAIR, PKSTOPOLOGY_ENDPOINTIDPAIR, ksmedia/PKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR structure [Audio Devices]"
+ms.keywords: ksmedia/KSTOPOLOGY_ENDPOINTIDPAIR, PKSTOPOLOGY_ENDPOINTIDPAIR structure pointer [Audio Devices], *PKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR structure [Audio Devices], ksmedia/PKSTOPOLOGY_ENDPOINTIDPAIR, audio.kstopology_endpointidpair, KSTOPOLOGY_ENDPOINTIDPAIR, _tagKSTOPOLOGY_ENDPOINTIDPAIR, PKSTOPOLOGY_ENDPOINTIDPAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _tagKSTOPOLOGY_ENDPOINTIDPAIR {
 
 
 
-### -field RenderEndpoint
+#### - RenderEndpoint
 
 Specifies the render endpoint ID.
 
 
-### -field CaptureEndpoint
+#### - CaptureEndpoint
 
 Specifies the capture endpoint ID. 
 

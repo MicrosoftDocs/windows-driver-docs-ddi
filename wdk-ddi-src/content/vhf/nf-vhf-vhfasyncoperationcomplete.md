@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F28E6FC0-C2FE-4119-82D9-C38289340D3D
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid._vhfasyncoperationcomplete, VhfAsyncOperationComplete method [Human Input Devices], VhfAsyncOperationComplete, vhf/VhfAsyncOperationComplete
+ms.keywords: VhfAsyncOperationComplete method [Human Input Devices], VhfAsyncOperationComplete, hid._vhfasyncoperationcomplete, vhf/VhfAsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS VhfAsyncOperationComplete(
 
 
 
-### -param VhfOperationHandle [in]
+#### - VhfOperationHandle [in]
 
 The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="..\vhf\nc-vhf-evt_vhf_async_operation.md">EvtVhfAsyncOperation</a>.
 
 
-### -param CompletionStatus [in]
+#### - CompletionStatus [in]
 
 If the operation succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
 

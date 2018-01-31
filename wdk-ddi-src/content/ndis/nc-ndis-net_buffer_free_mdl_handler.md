@@ -72,7 +72,7 @@ VOID NetFreeMdl(
 
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
 A pointer to the MDL that is to be freed.
 
@@ -108,10 +108,10 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
-
 <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
    NdisAdvanceNetBufferDataStart</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
 
  
 

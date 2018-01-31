@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f921fee7-e2c0-4e0f-a78b-d2dff8af97a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEALLOCANDQUERYPROPERTY, WdfDeviceAllocAndQueryProperty, DFDeviceObjectGeneralRef_d093b9da-de6b-467d-a6bd-c25d7a4145f8.xml, kmdf.wdfdeviceallocandqueryproperty, wdfdevice/WdfDeviceAllocAndQueryProperty, WdfDeviceAllocAndQueryProperty method, wdf.wdfdeviceallocandqueryproperty
+ms.keywords: wdf.wdfdeviceallocandqueryproperty, PFN_WDFDEVICEALLOCANDQUERYPROPERTY, kmdf.wdfdeviceallocandqueryproperty, WdfDeviceAllocAndQueryProperty method, WdfDeviceAllocAndQueryProperty, DFDeviceObjectGeneralRef_d093b9da-de6b-467d-a6bd-c25d7a4145f8.xml, wdfdevice/WdfDeviceAllocAndQueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfDeviceAllocAndQueryProperty(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator that identifies the device property to be retrieved.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed enumerator that specifies the type of memory to be allocated.
 
 
-### -param PropertyMemoryAttributes [in, optional]
+#### - PropertyMemoryAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the memory object that the function will allocate. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param PropertyMemory [out]
+#### - PropertyMemory [out]
 
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object. 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ee6b4a41-e4a7-41b8-9ca9-77b9052724a3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers], FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, ifsk.fltsetvolumeinformation, FltSetVolumeInformation
+ms.keywords: FltSetVolumeInformation, ifsk.fltsetvolumeinformation, fltkernel/FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers], FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS FltSetVolumeInformation(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for a minifilter driver instance that is attached to the volume. 
 
 
-### -param Iosb [out]
+#### - Iosb [out]
 
 Pointer to an IO_STATUS_BLOCK structure that receives the final completion status and information about the operation. 
 
 
-### -param FsInformation [out]
+#### - FsInformation [out]
 
 Pointer to a caller-allocated buffer containing the values to be set for the volume. The structure of the information contained in the buffer is defined by the <i>FsInformationClass</i> parameter. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Size in bytes of the buffer that <i>FsInformation </i>points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof(</b>FILE_FS_CONTROL_INFORMATION<b>)</b>. 
 
 
-### -param FsInformationClass [in]
+#### - FsInformationClass [in]
 
 Type of information to be set for the volume. One of the following. 
 <table>
@@ -198,11 +198,11 @@ To query information about a volume, call <a href="..\fltkernel\nf-fltkernel-flt
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
 <a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 <a href="..\ntddk\ns-ntddk-_file_fs_label_information.md">FILE_FS_LABEL_INFORMATION</a>
 

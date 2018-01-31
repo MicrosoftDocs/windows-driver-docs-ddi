@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57ed4f33-6ce6-41ae-b424-147318ba7656
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, KeInitializeTimerEx, wdm/KeInitializeTimerEx, kernel.keinitializetimerex
+ms.keywords: k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, kernel.keinitializetimerex, wdm/KeInitializeTimerEx, KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID KeInitializeTimerEx(
 
 
 
-### -param Timer [out]
+#### - Timer [out]
 
 Pointer to a timer object, for which the caller provides the storage.
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies the type of the timer object, either <b>NotificationTimer</b> or <b>SynchronizationTimer</b>.
 
@@ -105,17 +105,17 @@ Use <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a> or <a href="..\wdm\nf-w
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 <a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
  
 

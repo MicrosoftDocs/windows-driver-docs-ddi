@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 340b304c-5484-4d98-9ef4-8814c68443a0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxinferfiletype, rxref_e020604c-fa08-40f3-895d-425347c73307.xml, RxInferFileType function [Installable File System Drivers], fcb/RxInferFileType, RxInferFileType
+ms.keywords: rxref_e020604c-fa08-40f3-895d-425347c73307.xml, fcb/RxInferFileType, RxInferFileType, ifsk.rxinferfiletype, RxInferFileType function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ RX_FILE_TYPE RxInferFileType(
 
 
 
-### -param RxContext [in]
+#### - RxContext [in]
 
 A pointer to the RX_CONTEXT structure.
 

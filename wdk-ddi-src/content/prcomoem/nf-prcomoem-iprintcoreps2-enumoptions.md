@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCorePS2::EnumOptions, EnumOptions, EnumOptions method [Print Devices], IPrintCorePS2 interface, prcomoem/IPrintCorePS2::EnumOptions, print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, IPrintCorePS2 interface [Print Devices], EnumOptions method, print.iprintcoreps2_enumoptions, IPrintCorePS2, EnumOptions method [Print Devices]
+ms.keywords: print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, IPrintCorePS2 interface [Print Devices], EnumOptions method, print.iprintcoreps2_enumoptions, IPrintCorePS2, IPrintCorePS2::EnumOptions, EnumOptions, prcomoem/IPrintCorePS2::EnumOptions, EnumOptions method [Print Devices], IPrintCorePS2 interface, EnumOptions method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,34 +73,34 @@ HRESULT EnumOptions(
 
 
 
-### -param pdevobj [in]
+#### - pdevobj [in]
 
 Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-### -param pszFeatureKeyword [in]
+#### - pszFeatureKeyword [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string, specifying a feature keyword whose options are requested.
 
 
-### -param pmszOptionList [out]
+#### - pmszOptionList [out]
 
 Pointer to a caller-supplied buffer that receives a null-delimited list, in MULTI_SZ format, containing the option keywords for the feature keyword pointed to by <i>pszFeatureKeyword</i>. This list is terminated with two null characters. 
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the option list without having the list filled in.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszOptionList</i>.
 
 
-### -param pcbNeeded [out]
+#### - pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
@@ -194,9 +194,9 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
 
  
 

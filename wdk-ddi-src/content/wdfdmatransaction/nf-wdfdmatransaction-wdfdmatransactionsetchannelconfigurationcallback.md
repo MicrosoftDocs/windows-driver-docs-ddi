@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B38BD937-5027-4EED-9ECA-3333F56DFFA8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdmatransactionsetchannelconfigurationcallback, WdfDmaTransactionSetChannelConfigurationCallback method, PFN_WDFDMATRANSACTIONSETCHANNELCONFIGURATIONCALLBACK, wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback, kmdf.wdfdmatransactionsetchannelconfigurationcallback, WdfDmaTransactionSetChannelConfigurationCallback
+ms.keywords: WdfDmaTransactionSetChannelConfigurationCallback, WdfDmaTransactionSetChannelConfigurationCallback method, wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback, kmdf.wdfdmatransactionsetchannelconfigurationcallback, wdf.wdfdmatransactionsetchannelconfigurationcallback, PFN_WDFDMATRANSACTIONSETCHANNELCONFIGURATIONCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,19 +74,19 @@ void WdfDmaTransactionSetChannelConfigurationCallback(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to an initialized DMA transaction object for which to set or clear the channel configuration callback.
 
 
-### -param ConfigureRoutine [in, optional]
+#### - ConfigureRoutine [in, optional]
 
 A pointer to the driver's <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel.md">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL to clear it.
 
 
 
 
-### -param ConfigureContext [in, optional]
+#### - ConfigureContext [in, optional]
 
 A pointer to a buffer containing the context to be provided to the driver's <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel.md">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL.
 

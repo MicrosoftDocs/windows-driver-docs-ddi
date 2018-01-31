@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c46102dd-26ea-459b-8cc2-f7e2d2e2f2ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSharedMemoryUsageReceiveData, ndis/NdisSharedMemoryUsageMax, netvista.ndis_shared_memory_usage, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], NdisSharedMemoryUsageReceive, ndis/NdisSharedMemoryUsageReceiveHeader, NdisSharedMemoryUsageXmitHeader, ndis/NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageUndefined, NdisSharedMemoryUsageUndefined, _NDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageXmit, ndis/NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageMax, NdisSharedMemoryUsageReceivePostLookahead, ndis/NdisSharedMemoryUsageReceive, ndis/NdisSharedMemoryUsageOther, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSharedMemoryUsageOther, NdisSharedMemoryUsageReceiveHeader, PNDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageXmit, ndis/NdisSharedMemoryUsageXmitHeader, ndis/PNDIS_SHARED_MEMORY_USAGE, ndis/NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageReceivePostLookahead, ndis/NdisSharedMemoryUsageReceiveData, NdisSharedMemoryUsageReceiveLookahead, *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, NdisSharedMemoryUsageXmitData
+ms.keywords: ndis/NdisSharedMemoryUsageXmitHeader, ndis/NdisSharedMemoryUsageReceiveData, NdisSharedMemoryUsageXmit, netvista.ndis_shared_memory_usage, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], ndis/NdisSharedMemoryUsageXmit, NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageReceiveHeader, NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageXmitData, ndis/NdisSharedMemoryUsageReceivePostLookahead, ndis/NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageReceiveLookahead, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, ndis/NdisSharedMemoryUsageReceive, NdisSharedMemoryUsageOther, NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageUndefined, NdisSharedMemoryUsageUndefined, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], NdisSharedMemoryUsageXmitHeader, _NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageMax, NdisSharedMemoryUsageXmitData, ndis/PNDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageReceiveHeader, PNDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageMax, NdisSharedMemoryUsageReceive, ndis/NdisSharedMemoryUsageOther, NdisSharedMemoryUsageReceiveData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,57 +77,57 @@ typedef enum _NDIS_SHARED_MEMORY_USAGE {
 
 
 
-### -field NdisSharedMemoryUsageUndefined
+#### - NdisSharedMemoryUsageUndefined
 
 The shared memory application is not defined.
 
 
-### -field NdisSharedMemoryUsageXmit
+#### - NdisSharedMemoryUsageXmit
 
 The shared memory contains transmit data buffers.
 
 
-### -field NdisSharedMemoryUsageXmitHeader
+#### - NdisSharedMemoryUsageXmitHeader
 
 The shared memory contains transmit header buffers.
 
 
-### -field NdisSharedMemoryUsageXmitData
+#### - NdisSharedMemoryUsageXmitData
 
 The shared memory contains transmit data.
 
 
-### -field NdisSharedMemoryUsageReceive
+#### - NdisSharedMemoryUsageReceive
 
 The shared memory contains receive data buffers.
 
 
-### -field NdisSharedMemoryUsageReceiveLookahead
+#### - NdisSharedMemoryUsageReceiveLookahead
 
 The shared memory contains receive lookahead buffers.
 
 
-### -field NdisSharedMemoryUsageReceivePostLookahead
+#### - NdisSharedMemoryUsageReceivePostLookahead
 
 The shared memory contains received post lookahead information.
 
 
-### -field NdisSharedMemoryUsageReceiveHeader
+#### - NdisSharedMemoryUsageReceiveHeader
 
 The shared memory contains receive header information.
 
 
-### -field NdisSharedMemoryUsageReceiveData
+#### - NdisSharedMemoryUsageReceiveData
 
 The shared memory contains receive data.
 
 
-### -field NdisSharedMemoryUsageOther
+#### - NdisSharedMemoryUsageOther
 
 The shared memory application is not specified.
 
 
-### -field NdisSharedMemoryUsageMax
+#### - NdisSharedMemoryUsageMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

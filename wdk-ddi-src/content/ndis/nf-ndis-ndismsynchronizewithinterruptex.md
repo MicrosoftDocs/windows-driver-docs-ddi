@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dca9258-a3ae-43f4-a5aa-d591165d72ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMSynchronizeWithInterruptEx, BOOLEAN, NdisMSynchronizeWithInterruptEx, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, netvista.ndismsynchronizewithinterruptex, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismsynchronizewithinterruptex, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMSynchronizeWithInterruptEx, NdisMSynchronizeWithInterruptEx, BOOLEAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ BOOLEAN NdisMSynchronizeWithInterruptEx(
 
 
 
-### -param NdisInterruptHandle [in]
+#### - NdisInterruptHandle [in]
 
 An interrupt handle that the miniport driver obtained in a previous call to the 
      <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
      NdisMRegisterInterruptEx</b></mshelp:link> function.
 
 
-### -param MessageId [in]
+#### - MessageId [in]
 
 A message-signaled interrupt with which the driver must synchronize. If NDIS did not grant message
      signaled interrupts for the driver, NDIS ignores this parameter. 
@@ -95,14 +95,14 @@ A message-signaled interrupt with which the driver must synchronize. If NDIS did
      <b>NdisMRegisterInterruptEx</b> function.
 
 
-### -param SynchronizeFunction [in]
+#### - SynchronizeFunction [in]
 
 The entry point of the driver's 
      <mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
      MiniportSynchronizeInterrupt</i></mshelp:link> function.
 
 
-### -param SynchronizeContext [in]
+#### - SynchronizeContext [in]
 
 A pointer to a miniport-driver-determined context area that is passed to the 
      <i>MiniportSynchronizeInterrupt</i> function at 
@@ -145,17 +145,17 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
 <mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
    MiniportSynchronizeInterrupt</i></mshelp:link>
+
+<mshelp:link keywords="kernel.io_interrupt_message_info_entry" tabindex="0"><b>
+   IO_INTERRUPT_MESSAGE_INFO_ENTRY</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<mshelp:link keywords="kernel.io_interrupt_message_info_entry" tabindex="0"><b>
-   IO_INTERRUPT_MESSAGE_INFO_ENTRY</b></mshelp:link>
 
  
 

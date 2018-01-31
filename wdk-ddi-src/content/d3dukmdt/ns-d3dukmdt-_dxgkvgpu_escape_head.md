@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB9D12EB-A1B1-4D7B-A1E4-40A932F62C88
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_HEAD, display.dxgkvgpu_escape_head_"
+ms.keywords: d3dukmdt/DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD, display.dxgkvgpu_escape_head_, _DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKVGPU_ESCAPE_HEAD  {
 
 
 
-### -field Luid
+#### - Luid
 
 The ID of the escape input.
 
 
-### -field Type
+#### - Type
 
 The escape type.
 

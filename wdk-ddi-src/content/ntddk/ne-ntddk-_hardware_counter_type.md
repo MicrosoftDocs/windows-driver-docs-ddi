@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 837f5a55-ca07-4462-85d7-203d02df168c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.hardware_counter_type, ntddk/HARDWARE_COUNTER_TYPE, ntddk/PMCCounter, MaxHardwareCounterType, ntddk/MaxHardwareCounterType, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml, *PHARDWARE_COUNTER_TYPE, _HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER_TYPE, ntddk/PHARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], HARDWARE_COUNTER_TYPE, PMCCounter
+ms.keywords: "*PHARDWARE_COUNTER_TYPE, PMCCounter, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml, ntddk/PMCCounter, ntddk/MaxHardwareCounterType, HARDWARE_COUNTER_TYPE, ntddk/HARDWARE_COUNTER_TYPE, _HARDWARE_COUNTER_TYPE, MaxHardwareCounterType, ntddk/PHARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], kernel.hardware_counter_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	HARDWARE_COUNTER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE"
+req.typenames: HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE
 ---
 
 # _HARDWARE_COUNTER_TYPE enumeration
@@ -68,12 +68,12 @@ typedef enum _HARDWARE_COUNTER_TYPE {
 
 
 
-### -field PMCCounter
+#### - PMCCounter
 
 Performance monitor counter. This type of counter is used by thread-profiling applications. 
 
 
-### -field MaxHardwareCounterType
+#### - MaxHardwareCounterType
 
 The maximum value in this enumeration type.
 

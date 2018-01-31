@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0104e8b-9a2f-4f52-a431-bec7de3be968
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceInitSetIoInCallerContextCallback, DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml, WdfDeviceInitSetIoInCallerContextCallback method, wdf.wdfdeviceinitsetioincallercontextcallback, PFN_WDFDEVICEINITSETIOINCALLERCONTEXTCALLBACK, WdfDeviceInitSetIoInCallerContextCallback, kmdf.wdfdeviceinitsetioincallercontextcallback
+ms.keywords: wdfdevice/WdfDeviceInitSetIoInCallerContextCallback, WdfDeviceInitSetIoInCallerContextCallback method, WdfDeviceInitSetIoInCallerContextCallback, wdf.wdfdeviceinitsetioincallercontextcallback, kmdf.wdfdeviceinitsetioincallercontextcallback, DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml, PFN_WDFDEVICEINITSETIOINCALLERCONTEXTCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfDeviceInitSetIoInCallerContextCallback(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param EvtIoInCallerContext [in]
+#### - EvtIoInCallerContext [in]
 
 A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function.
 

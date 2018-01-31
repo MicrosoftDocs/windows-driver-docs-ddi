@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmDispatchIncomingDropParty, ndis/NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], netvista.ndismcmdispatchincomingdropparty, condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml
+ms.keywords: ndis/NdisMCmDispatchIncomingDropParty, condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -155,17 +155,17 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
 <mshelp:link keywords="netvista.ndiscmdispatchincomingdropparty" tabindex="0"><b>
    NdisCmDispatchIncomingDropParty</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
+   NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
-<mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
-   NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
  
 

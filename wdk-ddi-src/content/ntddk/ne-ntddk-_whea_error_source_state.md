@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 7be90712-9f6f-4998-a8ca-148ff900c82c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], whea.whea_error_source_state, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, WHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStarted, PWHEA_ERROR_SOURCE_STATE, ntddk/WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE, _WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStarted, ntddk/PWHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStopped, ntddk/WheaErrSrcStateStopped
+ms.keywords: PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, ntddk/WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE, ntddk/PWHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStarted, whea.whea_error_source_state, _WHEA_ERROR_SOURCE_STATE, PWHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStarted, WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], WheaErrSrcStateStopped, ntddk/WheaErrSrcStateStopped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _WHEA_ERROR_SOURCE_STATE {
 
 
 
-### -field WheaErrSrcStateStopped
+#### - WheaErrSrcStateStopped
 
 The error source is stopped.
 
 
-### -field WheaErrSrcStateStarted
+#### - WheaErrSrcStateStarted
 
 The error source is started.
 

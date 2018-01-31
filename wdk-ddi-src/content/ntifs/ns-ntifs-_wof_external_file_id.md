@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5C208DF7-C6CB-419D-B775-74E09DC4D448
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], _WOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id, ntifs/PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], ntifs/WOF_EXTERNAL_FILE_ID
+ms.keywords: WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], WOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, ntifs/PWOF_EXTERNAL_FILE_ID, _WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], ifsk.wof_external_file_id, ntifs/WOF_EXTERNAL_FILE_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WOF_EXTERNAL_FILE_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PWOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID"
+req.typenames: WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID
 ---
 
 # _WOF_EXTERNAL_FILE_ID structure
@@ -67,7 +67,7 @@ typedef struct _WOF_EXTERNAL_FILE_ID {
 
 
 
-### -field FileId
+#### - FileId
 
 The file ID used with the <b>FILE_OPEN_BY_FILE_ID</b> flag to open a file with the <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> functions.
 
@@ -81,9 +81,9 @@ Use the <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> f
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
-
 <a href="..\ntifs\ns-ntifs-_wof_version_info.md">WOF_VERSION_INFO</a>
+
+<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
 
  
 

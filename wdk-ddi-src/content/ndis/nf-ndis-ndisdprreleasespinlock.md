@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6a7af70-6a1e-471b-919f-80a704d25446
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisDprReleaseSpinLock, netvista.ndisdprreleasespinlock, ndis/NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml
+ms.keywords: ndis/NdisDprReleaseSpinLock, NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], netvista.ndisdprreleasespinlock, ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

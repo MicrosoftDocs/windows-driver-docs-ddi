@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlDWordPtrMult function [Kernel-Mode Driver Architecture], kernel.rtldwordptrmult, RtlDWordPtrMult, ntintsafe/RtlDWordPtrMult
+ms.keywords: RtlDWordPtrMult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], kernel.rtldwordptrmult, ntintsafe/RtlDWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlDWordPtrMult(
 
 
 
-### -param dwMultiplicand [in]
+#### - dwMultiplicand [in]
 
 The value to be multiplied by <i>dwMultiplier</i>.
 
 
-### -param dwMultiplier [in]
+#### - dwMultiplier [in]
 
 The value by which to multiply <i>dwMultiplicand</i>.
 
 
-### -param pdwResult [out]
+#### - pdwResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 37cf1552-2cbe-4b80-b220-cfa853674e1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange
+ms.keywords: irb/AtaPortRequestPowerStateChange, AtaPortRequestPowerStateChange routine [Storage Devices], AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID AtaPortRequestPowerStateChange(
 
 
 
-### -param ChannelExtension
+#### - ChannelExtension
 
 A pointer to the channel extension. 
 
 
-### -param TargetId
+#### - TargetId
 
 Specifies the target identifier of the device. 
 
 
-### -param Lun
+#### - Lun
 
 Specifies the logical unit number (LUN). 
 
 
-### -param DesiredPowerState
+#### - DesiredPowerState
 
 Contains an enumerator value of type <a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a> that indicates the power state to which the indicated device should be changed. 
 

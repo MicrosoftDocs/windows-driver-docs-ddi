@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/PTEXTUAL_LEAF, 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, PTEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], IEEE.textual_leaf, *PTEXTUAL_LEAF, _TEXTUAL_LEAF, 1394/TEXTUAL_LEAF, TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses]
+ms.keywords: 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, TEXTUAL_LEAF structure [Buses], 1394/TEXTUAL_LEAF, _TEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], *PTEXTUAL_LEAF, PTEXTUAL_LEAF, IEEE.textual_leaf, TEXTUAL_LEAF, 1394/PTEXTUAL_LEAF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TEXTUAL_LEAF
 product: Windows
 targetos: Windows
-req.typenames: "*PTEXTUAL_LEAF, TEXTUAL_LEAF"
+req.typenames: TEXTUAL_LEAF, *PTEXTUAL_LEAF
 ---
 
 # _TEXTUAL_LEAF structure
@@ -71,27 +71,27 @@ typedef struct _TEXTUAL_LEAF {
 
 
 
-### -field TL_CRC
+#### - TL_CRC
 
 Specifies the CRC of the text string.
 
 
-### -field TL_Length
+#### - TL_Length
 
 Specifies the length of the text string, in bytes.
 
 
-### -field TL_Spec_Id
+#### - TL_Spec_Id
 
 Specifies which specification describes the meaning of the <b>TL_Language_ID</b> member.
 
 
-### -field TL_Language_Id
+#### - TL_Language_Id
 
 Specifies the language of the <b>TL_Data</b> member.
 
 
-### -field TL_Data
+#### - TL_Data
 
 Specifies a vendor-specified textual description of the device.
 

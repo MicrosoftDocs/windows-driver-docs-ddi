@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C4218B83-6D6D-4F3B-A90F-B92D08D80E24
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusicks/DMUS_STREAM_WAVE_SINK, DMUS_STREAM_MIDI_INVALID, DMUS_STREAM_WAVE_SINK, audio.dmus_stream_type, dmusicks/DMUS_STREAM_TYPE, DMUS_STREAM_TYPE enumeration [Audio Devices], dmusicks/DMUS_STREAM_MIDI_RENDER, dmusicks/DMUS_STREAM_MIDI_INVALID, dmusicks/DMUS_STREAM_MIDI_CAPTURE, DMUS_STREAM_TYPE, DMUS_STREAM_MIDI_RENDER, DMUS_STREAM_MIDI_CAPTURE
+ms.keywords: dmusicks/DMUS_STREAM_WAVE_SINK, DMUS_STREAM_MIDI_INVALID, dmusicks/DMUS_STREAM_MIDI_RENDER, DMUS_STREAM_MIDI_RENDER, dmusicks/DMUS_STREAM_MIDI_CAPTURE, DMUS_STREAM_TYPE, audio.dmus_stream_type, DMUS_STREAM_TYPE enumeration [Audio Devices], dmusicks/DMUS_STREAM_MIDI_INVALID, DMUS_STREAM_MIDI_CAPTURE, dmusicks/DMUS_STREAM_TYPE, DMUS_STREAM_WAVE_SINK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,18 +70,18 @@ typedef enum  {
 
 
 
-### -field DMUS_STREAM_MIDI_INVALID
+#### - DMUS_STREAM_MIDI_INVALID
 
 
 
-### -field DMUS_STREAM_MIDI_RENDER
+#### - DMUS_STREAM_MIDI_RENDER
 
 
 
-### -field DMUS_STREAM_MIDI_CAPTURE
+#### - DMUS_STREAM_MIDI_CAPTURE
 
 
 
-### -field DMUS_STREAM_WAVE_SINK
+#### - DMUS_STREAM_WAVE_SINK
 
 

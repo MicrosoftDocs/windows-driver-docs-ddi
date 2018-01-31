@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, wiamindr_lh/IWiaMiniDrv::drvDeleteItem, IWiaMiniDrv, IWiaMiniDrv::drvDeleteItem, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, drvDeleteItem, drvDeleteItem method [Imaging Devices], image.iwiaminidrv_drvdeleteitem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv::drvDeleteItem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvdeleteitem, drvDeleteItem method [Imaging Devices], drvDeleteItem, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvDeleteItem
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -133,9 +133,9 @@ The item's access rights allow deletion.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
  
 

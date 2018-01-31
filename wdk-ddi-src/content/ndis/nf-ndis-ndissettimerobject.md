@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 75f8fa1b-5b79-4bc2-8b7b-aa1101c9c331
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml, netvista.ndissettimerobject, NdisSetTimerObject, NdisSetTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetTimerObject
+ms.keywords: NdisSetTimerObject function [Network Drivers Starting with Windows Vista], NdisSetTimerObject, netvista.ndissettimerobject, ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml, ndis/NdisSetTimerObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ BOOLEAN NdisSetTimerObject(
 
 
 
-### -param TimerObject [in]
+#### - TimerObject [in]
 
 A handle to a timer object that NDIS provides when a driver calls the 
      <mshelp:link keywords="netvista.ndisallocatetimerobject" tabindex="0"><b>
      NdisAllocateTimerObject</b></mshelp:link> function.
 
 
-### -param DueTime [in]
+#### - DueTime [in]
 
 The absolute or relative time at which the timer is to expire. If the value of the 
      <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time.
@@ -89,7 +89,7 @@ The absolute or relative time at which the timer is to expire. If the value of t
      expiration times are not affected by system time changes.
 
 
-### -param MillisecondsPeriod [in, optional]
+#### - MillisecondsPeriod [in, optional]
 
 The periodic time interval, in milliseconds, that elapses between each time the timer fires and
      the next call to the 
@@ -97,7 +97,7 @@ The periodic time interval, in milliseconds, that elapses between each time the 
      than or equal to MAXLONG.
 
 
-### -param FunctionContext [in, optional]
+#### - FunctionContext [in, optional]
 
 A pointer to a caller-supplied context area that NDIS passes to the associated 
      <i>NetTimerCallback</i> function when a timer fires. If this parameter is <b>NULL</b>, NDIS uses the default
@@ -144,18 +144,18 @@ To cancel a timer, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+<mshelp:link keywords="netvista.ndissetcoalescabletimerobject" tabindex="0"><b>
+   NdisSetCoalescableTimerObject</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
-
-<mshelp:link keywords="netvista.ndissetcoalescabletimerobject" tabindex="0"><b>
-   NdisSetCoalescableTimerObject</b></mshelp:link>
-
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
  
 

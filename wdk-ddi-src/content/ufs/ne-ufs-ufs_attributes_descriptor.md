@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ufs/UFS_bOutOfOrderDataEn, UFS_bRefClkFreq, UFS_Obsolete, UFS_dPSADataSize, UFS_bBootLunEn, UFS_bMaxDataOutSize, UFS_bMaxNumOfRTT, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bPSAState, ufs/UFS_Reserved01, UFS_bCurrentPowerMode, ufs/UFS_Reserved02, ufs/UFS_Reserved03, ufs/UFS_bPurgeStatus, UFS_bDeviceFFUStatus, ufs/UFS_wExceptionEventControl, UFS_dDynCapNeeded, ufs/UFS_bBootLunEn, UFS_wContextConf, ufs/UFS_bRefClkFreq, UFS_bBackgroundOpStatus, UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bMaxNumOfRTT, UFS_Reserved03, UFS_Reserved02, ufs/UFS_dPSADataSize, ufs/UFS_bBackgroundOpStatus, UFS_wExceptionEventStatus, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bActiveICCLevel, UFS_bActiveICCLevel, UFS_bPurgeStatus, UFS_bMaxDataInSize, UFS_bPSAState, UFS_bConfigDescrLock, ufs/UFS_bCurrentPowerMode, ufs/UFS_dSecondsPassed, UFS_dSecondsPassed, ufs/UFS_Obsolete, UFS_bOutOfOrderDataEn, ufs/UFS_wExceptionEventStatus, ufs/UFS_bMaxDataOutSize, ufs/UFS_dDynCapNeeded, ufs/UFS_bMaxDataInSize, UFS_wExceptionEventControl, ufs/UFS_bConfigDescrLock, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], storage.ufs_attributes_descriptor, ufs/UFS_wContextConf, UFS_Reserved01
+ms.keywords: ufs/UFS_wContextConf, ufs/UFS_bCurrentPowerMode, UFS_Reserved02, ufs/UFS_bBackgroundOpStatus, ufs/UFS_bBootLunEn, ufs/UFS_wExceptionEventStatus, ufs/UFS_bConfigDescrLock, ufs/UFS_Reserved03, ufs/UFS_wExceptionEventControl, ufs/UFS_bPurgeStatus, UFS_bMaxDataInSize, UFS_bPurgeStatus, ufs/UFS_dPSADataSize, ufs/UFS_Reserved02, UFS_wContextConf, ufs/UFS_dSecondsPassed, UFS_bMaxNumOfRTT, UFS_dSecondsPassed, UFS_bCurrentPowerMode, ufs/UFS_bMaxDataOutSize, UFS_bPSAState, ufs/UFS_Reserved01, ufs/UFS_bMaxNumOfRTT, UFS_bBackgroundOpStatus, ufs/UFS_bRefClkFreq, UFS_bOutOfOrderDataEn, UFS_bDeviceFFUStatus, UFS_bConfigDescrLock, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_bBootLunEn, UFS_dDynCapNeeded, UFS_bActiveICCLevel, ufs/UFS_bActiveICCLevel, ufs/UFS_bMaxDataInSize, UFS_wExceptionEventStatus, UFS_bRefClkFreq, storage.ufs_attributes_descriptor, ufs/UFS_bDeviceFFUStatus, ufs/UFS_ATTRIBUTES_DESCRIPTOR, UFS_Reserved03, UFS_Reserved01, ufs/UFS_bOutOfOrderDataEn, ufs/UFS_Obsolete, UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bPSAState, ufs/UFS_dDynCapNeeded, UFS_wExceptionEventControl, UFS_Obsolete, UFS_dPSADataSize, UFS_bMaxDataOutSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,17 +90,17 @@ typedef enum _UFS_ATTRIBUTES_DESCRIPTOR {
 
 
 
-### -field UFS_bBootLunEn
+#### - UFS_bBootLunEn
 
 Indicates if the Boot Logical Unit Number(LUN) is enabled.
 
 
-### -field UFS_Reserved01
+#### - UFS_Reserved01
 
 Reserved for future use.
 
 
-### -field UFS_bCurrentPowerMode
+#### - UFS_bCurrentPowerMode
 
 Indicates the current power mode. Contains one of the following values:
 <table>
@@ -143,20 +143,20 @@ Indicates the current power mode. Contains one of the following values:
 </table> 
 
 
-### -field UFS_bActiveICCLevel
+#### - UFS_bActiveICCLevel
 
 Specifies the maximum
 current consumption allowed during
 Active Mode. Value ranges from 0x00 to 0x0F.
 
 
-### -field UFS_bOutOfOrderDataEn
+#### - UFS_bOutOfOrderDataEn
 
 Specifies if out-of-order data transfer is
 enabled
 
 
-### -field UFS_bBackgroundOpStatus
+#### - UFS_bBackgroundOpStatus
 
 Specifies if the device has a need for background operations. Contains one of the following values:
 <table>
@@ -183,31 +183,31 @@ Specifies if the device has a need for background operations. Contains one of th
 </table> 
 
 
-### -field UFS_bPurgeStatus
+#### - UFS_bPurgeStatus
 
 Specifies the current purge operation's status.
 
 
-### -field UFS_bMaxDataInSize
+#### - UFS_bMaxDataInSize
 
 Specifies the maximum data size in a DATA IN UFS Protocol Information Units (UPIU). This parameter can be written by the
 host only when all logical unit task queues are
 empty.
 
 
-### -field UFS_bMaxDataOutSize
+#### - UFS_bMaxDataOutSize
 
 Specifies the maximum data-out size. This parameter can be written by the
 host only when all logical unit task queues are
 empty.
 
 
-### -field UFS_dDynCapNeeded
+#### - UFS_dDynCapNeeded
 
 Specifies the dynamic capacity need.
 
 
-### -field UFS_bRefClkFreq
+#### - UFS_bRefClkFreq
 
 Specifies the reference clock frequency value.
 <table>
@@ -234,18 +234,18 @@ Specifies the reference clock frequency value.
 </table> 
 
 
-### -field UFS_bConfigDescrLock
+#### - UFS_bConfigDescrLock
 
 Specifies if the configuration descriptor is locked.
 
 
-### -field UFS_bMaxNumOfRTT
+#### - UFS_bMaxNumOfRTT
 
 Defines the current maximum number of outstanding READY TO TRANSFER UPIU’s (RTT's) that are
 allowed. This value can be set by the host.
 
 
-### -field UFS_wExceptionEventControl
+#### - UFS_wExceptionEventControl
 
 Specifies the Exception Event Controller. <b>UFS_wExceptionEventControl</b> enables the setting of the
 <b>EVENT_ALERT</b> bit in the Device
@@ -253,7 +253,7 @@ Information field, which is contained in
 the RESPONSE UPIU.
 
 
-### -field UFS_wExceptionEventStatus
+#### - UFS_wExceptionEventStatus
 
 Specifies a bitmap of each exception event status.A bit will be set only if the
 relevant event has occurred
@@ -283,32 +283,32 @@ relevant event has occurred
 </table> 
 
 
-### -field UFS_dSecondsPassed
+#### - UFS_dSecondsPassed
 
 Specifies the time passed in seconds.
 
 
-### -field UFS_wContextConf
+#### - UFS_wContextConf
 
 Specifies the context attribute.
 
 
-### -field UFS_Obsolete
+#### - UFS_Obsolete
 
 Obselete
 
 
-### -field UFS_Reserved02
+#### - UFS_Reserved02
 
 Reserved for future use.
 
 
-### -field UFS_Reserved03
+#### - UFS_Reserved03
 
 Reserved for future use.
 
 
-### -field UFS_bDeviceFFUStatus
+#### - UFS_bDeviceFFUStatus
 
 Specifies the Device Field Firmware Update (FFU) status.
 <table>
@@ -347,7 +347,7 @@ Specifies the Device Field Firmware Update (FFU) status.
 </table> 
 
 
-### -field UFS_bPSAState
+#### - UFS_bPSAState
 
 Specifies the current Product State Awareness (PSA) State.
 <table>
@@ -387,7 +387,7 @@ is locked after it is in
 </table> 
 
 
-### -field UFS_dPSADataSize
+#### - UFS_dPSADataSize
 
 Specifies the amount of data that the host plans
 to load to all logical units with
@@ -409,25 +409,25 @@ microcode activation event occurs.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
 
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
 <a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
 
  
 

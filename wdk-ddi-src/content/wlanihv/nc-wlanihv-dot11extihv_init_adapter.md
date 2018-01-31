@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvInitAdapter
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -75,14 +75,14 @@ DWORD APIENTRY Dot11ExtIhvInitAdapter(
 
 
 
-### -param pDot11Adapter [in]
+#### - pDot11Adapter [in]
 
 A pointer to a 
      <a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a> structure, which identifies the
      adapter to be initialized.
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 A handle assigned by the operating system for the adapter. The IHV Extensions DLL must use this
      handle value when calling any IHV Extensibility function that declares an 
@@ -91,7 +91,7 @@ A handle assigned by the operating system for the adapter. The IHV Extensions DL
      Dot11ExtPreAssociateCompletion</b></mshelp:link>.
 
 
-### -param phIhvExtAdapter [out]
+#### - phIhvExtAdapter [out]
 
 A pointer to a handle variable. The IHV Extensions DLL must assign a unique handle value for the
      adapter and set *
@@ -129,9 +129,6 @@ For more information about WLAN adapter initialization, see
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-   Dot11ExtPreAssociateCompletion</b></mshelp:link>
-
 <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
 
@@ -139,6 +136,9 @@ For more information about WLAN adapter initialization, see
    Extensibility Functions</mshelp:link>
 
 <a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
+
+<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
+   Dot11ExtPreAssociateCompletion</b></mshelp:link>
 
  
 

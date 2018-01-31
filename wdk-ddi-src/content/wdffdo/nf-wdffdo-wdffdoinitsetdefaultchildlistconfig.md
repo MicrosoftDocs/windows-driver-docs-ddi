@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 656a0c58-dd12-4417-a781-464d1670592c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdffdoinitsetdefaultchildlistconfig, DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, kmdf.wdffdoinitsetdefaultchildlistconfig, PFN_WDFFDOINITSETDEFAULTCHILDLISTCONFIG, wdffdo/WdfFdoInitSetDefaultChildListConfig, WdfFdoInitSetDefaultChildListConfig, WdfFdoInitSetDefaultChildListConfig method
+ms.keywords: WdfFdoInitSetDefaultChildListConfig, wdf.wdffdoinitsetdefaultchildlistconfig, WdfFdoInitSetDefaultChildListConfig method, DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, PFN_WDFFDOINITSETDEFAULTCHILDLISTCONFIG, kmdf.wdffdoinitsetdefaultchildlistconfig, wdffdo/WdfFdoInitSetDefaultChildListConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoInitSetDefaultChildListConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,17 +73,17 @@ VOID WdfFdoInitSetDefaultChildListConfig(
 
 
 
-### -param DeviceInit [in, out]
+#### - DeviceInit [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a driver-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure.
 
 
-### -param DefaultChildListAttributes [in, optional]
+#### - DefaultChildListAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the child-list object that represents the driver's default child list. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 

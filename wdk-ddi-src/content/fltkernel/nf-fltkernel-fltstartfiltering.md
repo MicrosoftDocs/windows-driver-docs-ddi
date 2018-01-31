@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fc24e764-d584-4927-942f-3b8b4b83af79
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltStartFiltering, fltkernel/FltStartFiltering, FltStartFiltering function [Installable File System Drivers], FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, ifsk.fltstartfiltering
+ms.keywords: FltStartFiltering, FltStartFiltering function [Installable File System Drivers], FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, ifsk.fltstartfiltering, fltkernel/FltStartFiltering
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS FltStartFiltering(
 
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 Opaque filter pointer returned by <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>. 
 

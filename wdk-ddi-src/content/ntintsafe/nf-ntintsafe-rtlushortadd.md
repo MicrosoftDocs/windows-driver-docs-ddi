@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 07167C7E-E8EB-41E3-B2E3-7B9E9CCC5465
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUShortAdd, RtlUShortAdd, kernel.rtlushortadd, RtlUShortAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlushortadd, ntintsafe/RtlUShortAdd, RtlUShortAdd function [Kernel-Mode Driver Architecture], RtlUShortAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlUShortAdd(
 
 
 
-### -param usAugend [in]
+#### - usAugend [in]
 
 The first value in the equation.
 
 
-### -param usAddend [in]
+#### - usAddend [in]
 
 The value to add to <i>usAugend</i>.
 
 
-### -param pusResult [out]
+#### - pusResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

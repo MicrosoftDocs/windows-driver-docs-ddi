@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers], ifsk.rxcesenddatagram, RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml
+ms.keywords: RxCeSendDatagram function [Installable File System Drivers], rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, RxCeSendDatagram, rxce/RxCeSendDatagram, ifsk.rxcesenddatagram
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeSendDatagram
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -79,7 +79,7 @@ NTSTATUS RxCeSendDatagram(
 TBD
 
 
-### -param pConnectionInformation [in]
+#### - pConnectionInformation [in]
 
 A pointer to connection information that contains the remote address.
 
@@ -89,17 +89,17 @@ A pointer to connection information that contains the remote address.
 TBD
 
 
-### -param pMdl [in]
+#### - pMdl [in]
 
 A pointer to the buffer to be sent.
 
 
-### -param SendLength [in]
+#### - SendLength [in]
 
 The length of data to be sent.
 
 
-### -param pCompletionContext [in]
+#### - pCompletionContext [in]
 
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
 

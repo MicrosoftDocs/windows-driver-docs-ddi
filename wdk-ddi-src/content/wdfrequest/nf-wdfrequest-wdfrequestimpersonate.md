@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestImpersonate method, wdfrequest/WdfRequestImpersonate, PFN_WDFREQUESTIMPERSONATE, wdf.wdfrequestimpersonate, WdfRequestImpersonate
+ms.keywords: wdfrequest/WdfRequestImpersonate, WdfRequestImpersonate, WdfRequestImpersonate method, wdf.wdfrequestimpersonate, PFN_WDFREQUESTIMPERSONATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ NTSTATUS WdfRequestImpersonate(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to the framework request object that represents the I/O request that is being completed.
 
 
-### -param ImpersonationLevel [in]
+#### - ImpersonationLevel [in]
 
 A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
 
-### -param EvtRequestImpersonate [in]
+#### - EvtRequestImpersonate [in]
 
 A pointer to the driver's <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a> event callback function.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a> event callback function. This parameter is optional and can be <b>NULL</b>
 

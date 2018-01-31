@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2c0f2eb-cb35-4f23-beb6-7f0eaeda845a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: WMI_CHANGER_PROBLEM_DEVICE_ERROR, _WMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR structure pointer [Storage Devices], PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR structure [Storage Devices], *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR, storage.wmi_changer_problem_device_error, wmidata/PWMI_CHANGER_PROBLEM_DEVICE_ERROR, structs-changer_0d8bac8e-b24c-4ff8-948e-0dd55b5624f0.xml
+ms.keywords: wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR structure pointer [Storage Devices], _WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR structure [Storage Devices], wmidata/PWMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR, structs-changer_0d8bac8e-b24c-4ff8-948e-0dd55b5624f0.xml, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, storage.wmi_changer_problem_device_error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WMI_CHANGER_PROBLEM_DEVICE_ERROR
 product: Windows
 targetos: Windows
-req.typenames: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR"
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct _WMI_CHANGER_PROBLEM_DEVICE_ERROR {
 
 
 
-### -field ChangerProblemType
+#### - ChangerProblemType
 
 Contains one of the enumeration values defined for the <a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a> enumeration data type. The minidriver sets <b>ChangerProblemType</b> to the appropriate enumerator value. 
 

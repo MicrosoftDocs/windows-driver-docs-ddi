@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cab12c57-dd2b-4453-90ed-7f8954e0fe5d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrmini_28455ca6-3f1f-40ac-a756-c1f026f35f87.xml, storage.changersetposition, mcd/ChangerSetPosition, ChangerSetPosition, ChangerSetPosition function [Storage Devices]
+ms.keywords: ChangerSetPosition function [Storage Devices], ChangerSetPosition, chgrmini_28455ca6-3f1f-40ac-a756-c1f026f35f87.xml, mcd/ChangerSetPosition, storage.changersetposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS ChangerSetPosition(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that represents the changer. 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP. 
 
@@ -115,11 +115,11 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
 
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">, IOCTL_CHANGER_SET_POSITION</a>
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
  
 

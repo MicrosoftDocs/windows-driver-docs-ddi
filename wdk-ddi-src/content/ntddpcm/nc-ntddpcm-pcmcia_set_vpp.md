@@ -71,12 +71,12 @@ BOOLEAN SetVpp(
 
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Pointer to the context for the interface routine.
 
 
-### -param VppLevel [in]
+#### - VppLevel [in]
 
 Specifies the voltage level to set on the Vpp pin. <i>VppLevel</i> must be one of the following values:
 

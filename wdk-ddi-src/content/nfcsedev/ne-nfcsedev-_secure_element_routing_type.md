@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1420D957-546E-4795-A545-B098C411CCA5
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: "_SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], RoutingTypeProtocol, RoutingTypeTech, _SECURE_ELEMENT_ROUTING_TYPE, SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeProtocol, RoutingTypeAid, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeAid, nfcsedev/RoutingTypeTech, *PSECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type"
+ms.keywords: nfpdrivers._secure_element_routing_type, SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeTech, nfcsedev/RoutingTypeAid, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeProtocol, RoutingTypeTech, _SECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid, *PSECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], RoutingTypeProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SECURE_ELEMENT_ROUTING_TYPE
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_ROUTING_TYPE, *PSECURE_ELEMENT_ROUTING_TYPE
+req.typenames: "*PSECURE_ELEMENT_ROUTING_TYPE, SECURE_ELEMENT_ROUTING_TYPE"
 ---
 
 # _SECURE_ELEMENT_ROUTING_TYPE enumeration
@@ -70,19 +70,19 @@ typedef enum _SECURE_ELEMENT_ROUTING_TYPE {
 
 
 
-### -field RoutingTypeTech
+#### - RoutingTypeTech
 
 NFC Forum technology-based routing type.
 
 
 
-### -field RoutingTypeProtocol
+#### - RoutingTypeProtocol
 
 NFC Forum protocol-based routing type.
 
 
 
-### -field RoutingTypeAid
+#### - RoutingTypeAid
 
 NFC Forum AID-based routing type.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, wdm/IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], IoAcquireRemoveLock, kernel.ioacquireremovelock
+ms.keywords: IoAcquireRemoveLock, k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], wdm/IoAcquireRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,14 +70,14 @@ NTSTATUS IoAcquireRemoveLock(
 
 
 
-### -param RemoveLock [in]
+#### - RemoveLock [in]
 
 Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller initialized with a 
       previous call to 
       <a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>.
 
 
-### -param Tag [in, optional]
+#### - Tag [in, optional]
 
 Optionally points to a caller-supplied tag that identifies this instance of acquiring the remove lock. For 
        example, a driver Dispatch routine typically sets this parameter to a pointer to the IRP the routine is 

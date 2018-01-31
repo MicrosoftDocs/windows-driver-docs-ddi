@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice3_readfromhardware, IWDFDevice3::ReadFromHardware, IWDFDevice3, ReadFromHardware method, IWDFDevice3 interface, ReadFromHardware method, ReadFromHardware method, IWDFDevice3 interface, ReadFromHardware, wudfddi/IWDFDevice3::ReadFromHardware, umdf.iwdfdevice3_readfromhardware
+ms.keywords: IWDFDevice3 interface, ReadFromHardware method, wudfddi/IWDFDevice3::ReadFromHardware, wdf.iwdfdevice3_readfromhardware, ReadFromHardware method, umdf.iwdfdevice3_readfromhardware, ReadFromHardware, IWDFDevice3, ReadFromHardware method, IWDFDevice3 interface, IWDFDevice3::ReadFromHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.ReadFromHardware
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -74,23 +74,23 @@ SIZE_T ReadFromHardware(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 
 
-### -param Size [in]
+#### - Size [in]
 
 
 
-### -param Address [in]
+#### - Address [in]
 
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 
 
-### -param Count [in, optional]
+#### - Count [in, optional]
 
 
 

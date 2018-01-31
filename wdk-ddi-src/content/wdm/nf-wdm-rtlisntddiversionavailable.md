@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, RtlIsNtDdiVersionAvailable
+ms.keywords: RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], wdm/RtlIsNtDdiVersionAvailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, RtlIsNtDdiVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ BOOLEAN RtlIsNtDdiVersionAvailable(
 
 
 
-### -param Version [in]
+#### - Version [in]
 
 The version of the Windows DDI that is available. The following table lists the possible values for the <i>Version</i> parameter.
 <table>

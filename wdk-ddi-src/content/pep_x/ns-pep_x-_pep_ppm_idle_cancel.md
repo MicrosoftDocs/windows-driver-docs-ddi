@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29B16A23-A3C1-4994-8F72-403BE32ABBD2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture], pep_x/PPEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL, _PEP_PPM_IDLE_CANCEL, *PPEP_PPM_IDLE_CANCEL, pep_x/PEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_cancel
+ms.keywords: PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture], pep_x/PPEP_PPM_IDLE_CANCEL, pep_x/PEP_PPM_IDLE_CANCEL, _PEP_PPM_IDLE_CANCEL, *PPEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_CANCEL, kernel.pep_ppm_idle_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PEP_PPM_IDLE_CANCEL {
 
 
 
-### -field CancelCode
+#### - CancelCode
 
 [in] A <a href="..\pep_x\ne-pep_x-ppep_processor_idle_cancel_code.md">PEP_PROCESSOR_IDLE_CANCEL_CODE</a> enumeration value that indicates why the processor could not enter the idle state selected by the platform extension plug-in (PEP).
 

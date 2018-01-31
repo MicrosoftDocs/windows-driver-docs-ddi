@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap routine [Installable File System Drivers], CcInitializeCacheMap, ntifs/CcInitializeCacheMap, ifsk.ccinitializecachemap
+ms.keywords: ifsk.ccinitializecachemap, ntifs/CcInitializeCacheMap, ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID CcInitializeCacheMap(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the file.
 
 
-### -param FileSizes [in]
+#### - FileSizes [in]
 
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b>, and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -130,12 +130,12 @@ New valid data length for the file.
 </table> 
 
 
-### -param PinAccess [in]
+#### - PinAccess [in]
 
 Set to <b>TRUE</b> if <b>CcPin</b><i>Xxx</i> routines will be used on the file.
 
 
-### -param Callbacks [in]
+#### - Callbacks [in]
 
 Pointer to a structure allocated from nonpaged pool, containing entry points of caller-supplied read-ahead and write-behind callback routines.This structure and its members are defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -172,7 +172,7 @@ VOID (*PRELEASE_FROM_READ_AHEAD) (
 </tr>
 </table></span></div>
 
-### -param LazyWriteContext [in]
+#### - LazyWriteContext [in]
 
 Pointer to context information to be passed to the callback routines specified in <i>Callbacks</i>.
 

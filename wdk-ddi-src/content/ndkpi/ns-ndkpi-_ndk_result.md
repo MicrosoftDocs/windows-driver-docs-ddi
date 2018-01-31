@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndk_result, _NDK_RESULT, ndkpi/NDK_RESULT, NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDK_RESULT, netvista.ndk_result, NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_RESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _NDK_RESULT {
 
 
 
-### -field Status
+#### - Status
 
 The NDK request completion status.
 
 
-### -field BytesTransferred
+#### - BytesTransferred
 
 The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
 
 
-### -field QPContext
+#### - QPContext
 
 A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>) function to create the <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a> object.
 
 
-### -field RequestContext
+#### - RequestContext
 
 A request context value specified by the NDK consumer when  a request is posted.
 
@@ -101,9 +101,9 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
 

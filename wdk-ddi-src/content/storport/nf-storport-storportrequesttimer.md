@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportrequesttimer, storport/StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], StorPortRequestTimer
+ms.keywords: StorPortRequestTimer routine [Storage Devices], storport/StorPortRequestTimer, storage.storportrequesttimer, StorPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ ULONG StorPortRequestTimer(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param TimerHandle [in]
+#### - TimerHandle [in]
 
 A pointer to an opaque buffer for the timer context returned by <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>.
 
 
-### -param TimerCallback [in]
+#### - TimerCallback [in]
 
 A pointer to a timer callback routine supplied by the miniport. The following is the prototype defined for <b>PHW_TIMER_EX</b>:
 <div class="code"><span codelanguage=""><table>
@@ -102,17 +102,17 @@ VOID
 </tr>
 </table></span></div>
 
-### -param CallbackContext [in, optional]
+#### - CallbackContext [in, optional]
 
 A pointer to a miniport provided context for the timer callback.
 
 
-### -param TimerValue [in]
+#### - TimerValue [in]
 
 The timeout value for the timer, in microseconds. Setting <i>TimerValue</i> to 0 will cancel the timer.
 
 
-### -param TolerableDelay [in]
+#### - TolerableDelay [in]
 
 The allowable delay for the timer in microseconds. Values less than 32 microseconds are ignored and <i>TolerableDelay</i> defaults to 0.
 
@@ -185,13 +185,13 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
 <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
 <a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
 
 <a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
  
 

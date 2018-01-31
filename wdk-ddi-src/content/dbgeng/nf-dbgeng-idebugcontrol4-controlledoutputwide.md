@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb9a89b8-02de-4617-a2f8-f67509ab8987
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::ControlledOutputWide, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, ControlledOutputWide method [Windows Debugging], debugger.controlledoutputwide, dbgeng/IDebugControl4::ControlledOutputWide, IDebugControl4, ControlledOutputWide
+ms.keywords: debugger.controlledoutputwide, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, dbgeng/IDebugControl4::ControlledOutputWide, IDebugControl4, ControlledOutputWide, IDebugControl4::ControlledOutputWide, ControlledOutputWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT ControlledOutputWide(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies an output control that determines which of the clients' output callbacks will receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-### -param Format [in]
+#### - Format [in]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -465,15 +465,15 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
  
 

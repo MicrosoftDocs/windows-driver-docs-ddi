@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d24577e3-3124-4ce7-a6ea-bed75ff18a1e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeWdmGetPipeHandle, DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, kmdf.wdfusbtargetpipewdmgetpipehandle, wdf.wdfusbtargetpipewdmgetpipehandle, PFN_WDFUSBTARGETPIPEWDMGETPIPEHANDLE, WdfUsbTargetPipeWdmGetPipeHandle, WdfUsbTargetPipeWdmGetPipeHandle method
+ms.keywords: wdf.wdfusbtargetpipewdmgetpipehandle, kmdf.wdfusbtargetpipewdmgetpipehandle, WdfUsbTargetPipeWdmGetPipeHandle, PFN_WDFUSBTARGETPIPEWDMGETPIPEHANDLE, DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, WdfUsbTargetPipeWdmGetPipeHandle method, wdfusb/WdfUsbTargetPipeWdmGetPipeHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ USBD_PIPE_HANDLE WdfUsbTargetPipeWdmGetPipeHandle(
 
 
 
-### -param UsbPipe [in]
+#### - UsbPipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>.
 
@@ -102,9 +102,9 @@ For more information about the <b>WdfUsbTargetPipeWdmGetPipeHandle</b> method an
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
  
 

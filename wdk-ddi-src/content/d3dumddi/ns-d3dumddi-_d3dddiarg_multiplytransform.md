@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f14532f-8937-4715-aa9f-e38f18179af7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, _D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform
+ms.keywords: "_D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], D3DDDIARG_MULTIPLYTRANSFORM, d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform, UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _D3DDDIARG_MULTIPLYTRANSFORM {
 
 
 
-### -field TransformType
+#### - TransformType
 
 [in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of the transform that is being modified. This member can be one of the following values.
 <table>
@@ -109,7 +109,7 @@ World transformation
 </table> 
 
 
-### -field Matrix
+#### - Matrix
 
 [in] A D3DMATRIX structure that describes the matrix that is used to modify the current transform. For more information about D3DMATRIX, see the Microsoft Windows SDK documentation.
 

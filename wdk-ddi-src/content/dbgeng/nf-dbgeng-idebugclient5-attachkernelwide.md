@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.attachkernelwide, IDebugClient5, dbgeng/IDebugClient5::AttachKernelWide, IDebugClient5::AttachKernelWide, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, AttachKernelWide, AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide method [Windows Debugging]
+ms.keywords: debugger.attachkernelwide, AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide method [Windows Debugging], IDebugClient5, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, IDebugClient5::AttachKernelWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT AttachKernelWide(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the flags that control how the debugger attaches to the kernel target.  The possible values are:
 <table>
@@ -99,7 +99,7 @@ Attach to a kernel by using an eXDI driver.
 </table> 
 
 
-### -param ConnectOptions [in, optional]
+#### - ConnectOptions [in, optional]
 
 Specifies the connection settings for communicating with the computer running the kernel target.  The interpretation of <i>ConnectOptions</i> depends on the value of <i>Flags</i>.
 
@@ -149,13 +149,13 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
 
  
 

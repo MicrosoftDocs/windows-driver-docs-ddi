@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CF75EBC8-D756-49B5-BC1F-1DBE8DC04137
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicaps_simple_instancing_support, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
+ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], display.d3dddicaps_simple_instancing_support, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT {
 
 
 
-### -field SimpleInstancingSupported
+#### - SimpleInstancingSupported
 
 Specifies whether the hardware and the user-mode driver support simple instancing. The Direct3D runtime sets this member to <b>TRUE</b> if the hardware and driver support simple instancing and the driver is a Direct3D Level 9 driver and supports Windows Display Driver Model (WDDM) 1.3 and later. Otherwise this member is <b>FALSE</b>.
 

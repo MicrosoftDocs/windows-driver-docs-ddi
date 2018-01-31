@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IBidiRequest interface [Print Devices], IBidiRequest::SetSchema method, gdi.ibidirequest_ibidirequest__setschema, SetSchema, IBidiRequest::IBidiRequest::SetSchema, IBidiRequest, _win32_IBidiRequest_SetSchema, print.ibidirequest_ibidirequest__setschema, IBidiRequest::SetSchema method [Print Devices], bidispl/IBidiRequest::IBidiRequest::SetSchema, IBidiRequest::SetSchema, IBidiRequest::SetSchema method [Print Devices], IBidiRequest interface
+ms.keywords: "_win32_IBidiRequest_SetSchema, gdi.ibidirequest_ibidirequest__setschema, IBidiRequest::IBidiRequest::SetSchema, IBidiRequest::SetSchema method [Print Devices], IBidiRequest interface [Print Devices], IBidiRequest::SetSchema method, bidispl/IBidiRequest::IBidiRequest::SetSchema, IBidiRequest, SetSchema, print.ibidirequest_ibidirequest__setschema, IBidiRequest::SetSchema, IBidiRequest::SetSchema method [Print Devices], IBidiRequest interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT IBidiRequest::SetSchema(
 
 
 
-### -param pszSchema [in]
+#### - pszSchema [in]
 
 Pointer to a schema string.
 
@@ -120,11 +120,11 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
  
 

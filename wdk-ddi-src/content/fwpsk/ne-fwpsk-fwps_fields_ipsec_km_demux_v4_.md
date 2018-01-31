@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8b95aad-7c55-475a-85d9-6a64434d8a5f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwps_fields_ipsec_km_demux_v4, FWPS_FIELDS_IPSEC_KM_DEMUX_V4_, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4, FWPS_FIELDS_IPSEC_KM_DEMUX_V4, FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, wfp_ref_5_const_3_data_fields_78a7198a-9122-420b-a45d-9b82cbfb16fb.xml, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE
+ms.keywords: fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, FWPS_FIELDS_IPSEC_KM_DEMUX_V4, fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4, FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, netvista.fwps_fields_ipsec_km_demux_v4, FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, wfp_ref_5_const_3_data_fields_78a7198a-9122-420b-a45d-9b82cbfb16fb.xml, FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IPSEC_KM_DEMUX_V4_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,29 +76,29 @@ typedef enum FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ {
 
 
 
-### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS
+#### - FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS
 
 The local IP address.
 
 
-### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS
+#### - FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS
 
 The remote IP address.
 
 
-### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE
+#### - FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE
 
 The quick mode (QM) mode.
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE
+#### - FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE
 
 The IP local interface.
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID
+#### - FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID
 
 The profile identifier (network category) of the network interface. The possible network category values are: public (1), private (2), or domain (3). 
 
@@ -109,7 +109,7 @@ The profile identifier (network category) of the network interface. The possible
 
 
 
-### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX
+#### - FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

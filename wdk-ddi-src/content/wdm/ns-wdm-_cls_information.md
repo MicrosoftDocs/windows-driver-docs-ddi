@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PCLS_INFORMATION, kernel.clfs_information, PCLS_INFORMATION, CLS_INFORMATION, PPCLS_INFORMATION, *PCLFS_INFORMATION, wdm/PCLS_INFORMATION, *PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, _CLS_INFORMATION, wdm/PPCLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, CLFS_INFORMATION, wdm/CLS_INFORMATION, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_INFORMATION
+ms.keywords: "*PCLFS_INFORMATION, wdm/CLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PPCLFS_INFORMATION, _CLS_INFORMATION, wdm/PPCLS_INFORMATION, wdm/PCLS_INFORMATION, CLS_INFORMATION, *PCLS_INFORMATION, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, PPCLFS_INFORMATION, wdm/PCLFS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION, kernel.clfs_information, CLFS_INFORMATION, *PPCLS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPCLS_INFORMATION, CLS_INFORMATION, *PCLS_INFORMATION"
+req.typenames: "*PCLS_INFORMATION, *PPCLS_INFORMATION, CLS_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,87 +84,87 @@ typedef struct _CLS_INFORMATION {
 
 
 
-### -field TotalAvailable
+#### - TotalAvailable
 
 The total available space allocated to the log. This is calculated as the sum of the sizes of all containers in the log. 
 
 
-### -field CurrentAvailable
+#### - CurrentAvailable
 
 The amount of space available in the log for new records and reservation allocations. This space is the total available space minus the undo commitment space and space used for storing owner pages in a multiplexed log.
 
 
-### -field TotalReservation
+#### - TotalReservation
 
 The amount of space reserved in the stream (or physical log) for undo operations.
 
 
-### -field BaseFileSize
+#### - BaseFileSize
 
 The size, in bytes, of the base log file.
 
 
-### -field ContainerSize
+#### - ContainerSize
 
 The size, in bytes, of an individual container in the log. Note that all containers in the log are the same size.
 
 
-### -field TotalContainers
+#### - TotalContainers
 
 The number of containers in the log.
 
 
-### -field FreeContainers
+#### - FreeContainers
 
 The number of containers in the log that are not active. 
 
 
-### -field TotalClients
+#### - TotalClients
 
 The number of streams that share the log. 
 
 
-### -field Attributes
+#### - Attributes
 
 A set of flags that specify stream (or physical log) attributes. See the <i>fFlagsAndAttributes</i> parameter of the <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> function.
 
 
-### -field FlushThreshold
+#### - FlushThreshold
 
 The number of bytes of data (including headers) that are allowed to remain pending on the internal flush queue before CLFS automatically schedules a thread to write the flush queue to stable storage. 
 
 
-### -field SectorSize
+#### - SectorSize
 
 The sector size, in bytes, of the underlying disk geometry. The sector size is assumed to be a multiple of 512 and consistent across containers.
 
 
-### -field MinArchiveTailLsn
+#### - MinArchiveTailLsn
 
 The LSN of the oldest record in the log for which archiving has not taken place. The minimum of this and the base LSN determines the last container that can be reused when containers are recycled.
 
 
-### -field BaseLsn
+#### - BaseLsn
 
 The LSN of the oldest record in the stream (or physical log) that is still needed by the stream (or log) clients.
 
 
-### -field LastFlushedLsn
+#### - LastFlushedLsn
 
 The LSN of the last record that was flushed to stable storage.
 
 
-### -field LastLsn
+#### - LastLsn
 
 The LSN of the youngest record in the stream (or physical log) that is still needed by the stream (or log) clients. 
 
 
-### -field RestartLsn
+#### - RestartLsn
 
 The LSN of the last restart record written to the stream (or physical log). If there are no restart records, this member is equal to CLFS_LSN_INVALID.
 
 
-### -field Identity
+#### - Identity
 
 A GUID that serves as a unique identifier for the log.
 
@@ -203,11 +203,11 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 <a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
 
  
 

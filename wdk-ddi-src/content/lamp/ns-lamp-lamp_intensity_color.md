@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: lamp/LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], LAMP_INTENSITY_COLOR, stream.lamp_intensity_color
+ms.keywords: lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color, LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct LAMP_INTENSITY_COLOR {
 
 
 
-### -field Red
+#### - Red
 
 Red light intensity in percentage (0-100).
 
 
-### -field Green
+#### - Green
 
 Green light intensity in percentage (0-100).
 
 
-### -field Blue
+#### - Blue
 
 Blue light intensity in percentage (0-100).
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4FAE15C7-7B2F-47A5-B429-B7FF7D3D018C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA, kernel.pep_soc_subsystem_metadata, PEP_SOC_SUBSYSTEM_METADATA, _PEP_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_SOC_SUBSYSTEM_METADATA, PPEP_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], PEP_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_SOC_SUBSYSTEM_METADATA
+ms.keywords: pepfx/PPEP_SOC_SUBSYSTEM_METADATA, PPEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA, _PEP_SOC_SUBSYSTEM_METADATA, pepfx/PEP_SOC_SUBSYSTEM_METADATA, kernel.pep_soc_subsystem_metadata, PEP_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_SOC_SUBSYSTEM_METADATA
 product: Windows
 targetos: Windows
-req.typenames: PEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA
+req.typenames: "*PPEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA"
 ---
 
 # _PEP_SOC_SUBSYSTEM_METADATA structure
@@ -68,7 +68,7 @@ typedef struct _PEP_SOC_SUBSYSTEM_METADATA {
 
 
 
-### -field Key
+#### - Key
 
 [in/out]  A buffer for the PEP to write the key portion of the metadata string-pair.  <b>Key</b> must be unique among all <b>Key</b> values reported by this subsystem.  
 
@@ -86,7 +86,7 @@ The PEP must use the allocated memory that is pointed to by the address in <b>Ke
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the key string, if necessary, so that it does not exceed the length specified in <b>Key.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
 
 
-### -field Value
+#### - Value
 
 [in/out] A buffer for the PEP to write the value portion of the metadata string-pair.  
 

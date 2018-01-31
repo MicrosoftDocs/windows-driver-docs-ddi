@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4db198f5-9472-476d-bb0c-4858a3f98672
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceInitSetPowerPolicyOwnership, wdf.wdfdeviceinitsetpowerpolicyownership, kmdf.wdfdeviceinitsetpowerpolicyownership, DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, WdfDeviceInitSetPowerPolicyOwnership method, WdfDeviceInitSetPowerPolicyOwnership, PFN_WDFDEVICEINITSETPOWERPOLICYOWNERSHIP
+ms.keywords: WdfDeviceInitSetPowerPolicyOwnership method, DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, kmdf.wdfdeviceinitsetpowerpolicyownership, wdfdevice/WdfDeviceInitSetPowerPolicyOwnership, wdf.wdfdeviceinitsetpowerpolicyownership, WdfDeviceInitSetPowerPolicyOwnership, PFN_WDFDEVICEINITSETPOWERPOLICYOWNERSHIP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfDeviceInitSetPowerPolicyOwnership(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param IsPowerPolicyOwner [in]
+#### - IsPowerPolicyOwner [in]
 
 A Boolean value that indicates whether the calling driver is the power policy owner. If <b>TRUE</b>, the calling driver is the power policy owner. If <b>FALSE</b>, it is not the power policy owner.
 

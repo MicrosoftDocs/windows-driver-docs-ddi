@@ -40,7 +40,7 @@ apiname:
 -	*PFN_UCX_USBDEVICE_SUSPEND
 product: Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
+req.typenames: "*PSTREAM_INFO, STREAM_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef EVT_UCX_USBDEVICE_SUSPEND *PFN_UCX_USBDEVICE_SUSPEND;
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param UcxUsbDevice [in]
+#### - UcxUsbDevice [in]
 
 A handle to a UCX object that represents the USB device that the client driver received in a previous call to the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
 

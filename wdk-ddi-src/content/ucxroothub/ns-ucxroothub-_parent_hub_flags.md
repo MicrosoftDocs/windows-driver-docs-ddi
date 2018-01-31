@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS, _PARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses]"
+ms.keywords: PARENT_HUB_FLAGS union [Buses], ucxroothub/_PARENT_HUB_FLAGS, buses._parent_hub_flags, PARENT_HUB_FLAGS, _PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,17 +87,17 @@ typedef union _PARENT_HUB_FLAGS {
  
 
 
-### -field DisableLpmForAllDownstreamDevices
+#### - DisableLpmForAllDownstreamDevices
 
 Indicates that all devices behind the hub must be disabled.
 
 
-### -field HubIsHighSpeedCapable
+#### - HubIsHighSpeedCapable
 
 Indicates that the hub is high-speed capable.
 
 
-### -field AsUlong32
+#### - AsUlong32
 
 The size of structure represented as a LONG (32-bit) value.
 

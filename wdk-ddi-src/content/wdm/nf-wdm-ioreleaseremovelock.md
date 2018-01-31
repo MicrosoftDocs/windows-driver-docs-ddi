@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 75cf8262-8cb4-428e-b18e-b80121c6390e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, kernel.ioreleaseremovelock, wdm/IoReleaseRemoveLock, IoReleaseRemoveLock, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], kernel.ioreleaseremovelock, IoReleaseRemoveLock, wdm/IoReleaseRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,12 +69,12 @@ VOID IoReleaseRemoveLock(
 
 
 
-### -param RemoveLock [in]
+#### - RemoveLock [in]
 
 Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller passed to a previous call to <b>IoAcquireRemoveLock</b>. 
 
 
-### -param Tag [in]
+#### - Tag [in]
 
 Pointer to a caller-supplied tag that was passed to a previous call to <b>IoAcquireRemoveLock</b>. 
 

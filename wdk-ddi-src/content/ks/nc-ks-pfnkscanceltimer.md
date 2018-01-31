@@ -71,12 +71,12 @@ BOOLEAN KStrCancelTimer(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
 
-### -param Timer [in]
+#### - Timer [in]
 
 Pointer to the minidriver's custom timer object to cancel.
 
@@ -101,9 +101,9 @@ If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidri
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-
 <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
 

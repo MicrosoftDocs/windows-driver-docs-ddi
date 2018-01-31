@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtllogccflusherror, FsRtlLogCcFlushError routine [Installable File System Drivers], ntifs/FsRtlLogCcFlushError, FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml
+ms.keywords: ntifs/FsRtlLogCcFlushError, FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, FsRtlLogCcFlushError routine [Installable File System Drivers], ifsk.fsrtllogccflusherror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS FsRtlLogCcFlushError(
 
 
 
-### -param FileName [in]
+#### - FileName [in]
 
 The name of the file that could not be flushed.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the device object that this log entry should be filed against.
 
 
-### -param SectionObjectPointer [in]
+#### - SectionObjectPointer [in]
 
 A pointer to the section object for the file on which the flush failed.
 
 
-### -param FlushError [in]
+#### - FlushError [in]
 
 The error returned by the call to <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A value of 0 or a bitwise combination of one or more of the following flags:
 <table>
@@ -132,7 +132,7 @@ The <b>FsRtlLogCcFlushError</b> routine returns STATUS_SUCCESS on success or ano
 ## -remarks
 
 
-Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> logs the error. 
+Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> logs the error. 
 
 If the entire <i>FileName</i> cannot fit within the log buffer, the routine inserts an ellipsis into the file name.
 
@@ -144,11 +144,11 @@ If the error is fatal, the routine increments the lost delayed write counter in 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
-
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
 
  
 

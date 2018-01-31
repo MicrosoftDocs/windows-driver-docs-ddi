@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], hbapiwmi/PScsiReportLuns_IN, ScsiReportLuns_IN, PScsiReportLuns_IN, *PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml, storage.scsireportluns_in2, hbapiwmi/ScsiReportLuns_IN"
+ms.keywords: PScsiReportLuns_IN, ScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, _ScsiReportLuns_IN, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml, hbapiwmi/PScsiReportLuns_IN, *PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], storage.scsireportluns_in2, ScsiReportLuns_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _ScsiReportLuns_IN {
 
 
 
-### -field Cdb
+#### - Cdb
 
 Contains the command descriptor block that holds the SCSI report LUNs command to be sent to the target device. 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 Contains a worldwise name for the HBA through which the target is accessed. 
 
 
-### -field DiscoveredPortWWN
+#### - DiscoveredPortWWN
 
 Contains a worldwide name for the port through which the target device is accessed. 
 

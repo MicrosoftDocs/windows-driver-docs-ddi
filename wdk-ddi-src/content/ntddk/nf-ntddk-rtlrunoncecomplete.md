@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1cdc4fde-2370-4e58-9e67-dec731cdb935
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlRunOnceComplete, RtlRunOnceComplete, kernel.rtlrunoncecomplete, k109_00290091-7130-4217-8098-0baa7309223c.xml, RtlRunOnceComplete routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlrunoncecomplete, RtlRunOnceComplete, RtlRunOnceComplete routine [Kernel-Mode Driver Architecture], k109_00290091-7130-4217-8098-0baa7309223c.xml, ntddk/RtlRunOnceComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RtlRunOnceComplete(
 
 
 
-### -param RunOnce [in, out]
+#### - RunOnce [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a> one-time initialization structure.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Drivers can optionally specify one or more of the following flags:
 
@@ -91,7 +91,7 @@ Operate in asynchronous mode. This mode enables multiple completion attempts to 
 The initialization attempt failed. 
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 Specifies the initialized data. 
 
@@ -142,15 +142,15 @@ If the caller specified RTL_RUN_ONCE_ASYNC in the <i>Flags</i> parameter and <b>
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
-
-<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
 
 <a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
+
+<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
+
+<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
 
  
 

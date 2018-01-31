@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe033614-b1a0-490b-b45b-a8d8de650dbf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kstopologypropertyhandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, ks/KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], KsTopologyPropertyHandler
+ms.keywords: KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], stream.kstopologypropertyhandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, ks/KsTopologyPropertyHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsTopologyPropertyHandler(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP handling the property request.
 
 
-### -param Property [in]
+#### - Property [in]
 
 Specifies the specific property being queried.
 
 
-### -param Data [in, out]
+#### - Data [in, out]
 
 Specifies the topology property-specific data.
 
 
-### -param Topology [in]
+#### - Topology [in]
 
 Points to a <a href="..\ks\ns-ks-kstopology.md">KSTOPOLOGY</a> structure containing the topology information.
 

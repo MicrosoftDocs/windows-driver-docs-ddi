@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64fff189-392e-42c3-8d9a-0d6daa07d2f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrDeregisterClient function [Network Drivers Starting with Windows Vista], nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml, NmrDeregisterClient, netioddk/NmrDeregisterClient, netvista.nmrderegisterclient
+ms.keywords: netvista.nmrderegisterclient, NmrDeregisterClient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml, netioddk/NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS NmrDeregisterClient(
 
 
 
-### -param NmrClientHandle [in]
+#### - NmrClientHandle [in]
 
 A handle used by the NMR to represent the registration of the client module. The NMR returns this
      handle to the client module when the client module calls the 
@@ -154,18 +154,18 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
+<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 <mshelp:link keywords="netvista.nmrwaitforclientderegistercomplete" tabindex="0"><b>
    NmrWaitForClientDeregisterComplete</b></mshelp:link>
 
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
-
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
 
  
 

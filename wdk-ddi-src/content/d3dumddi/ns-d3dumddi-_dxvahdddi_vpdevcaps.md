@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 25b15c20-e23a-438f-a02e-aedc26498828
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_FILTER_CAPS, _DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_DEVICE_CAPS, DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps, d3dumddi/DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_INPUT_FORMAT_CAPS, DXVAHDDDI_FEATURE_CAPS, DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_VPDEVCAPS structure [Display Devices]
+ms.keywords: "_DXVAHDDDI_VPDEVCAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], DXVAHDDDI_INPUT_FORMAT_CAPS, DXVAHDDDI_FEATURE_CAPS, DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_DEVICE_CAPS, DXVAHDDDI_FILTER_CAPS, DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, display.dxvahdddi_vpdevcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,12 +77,12 @@ typedef struct _DXVAHDDDI_VPDEVCAPS {
 
 
 
-### -field Reserved
+#### - Reserved
 
 [in] Reserved. Must be zero. 
 
 
-### -field DeviceCaps
+#### - DeviceCaps
 
 [out] A bitwise OR of the following values from the DXVAHDDDI_DEVICE_CAPS enumeration to indicate device-specific capabilities.
 
@@ -120,7 +120,7 @@ For more information on luminance range, see <a href="https://msdn.microsoft.com
 Supported starting with Windows 8.1.
 
 
-### -field FeatureCaps
+#### - FeatureCaps
 
 [out] A bitwise OR of the following values from the DXVAHDDDI_FEATURE_CAPS enumeration to indicate feature-specific capabilities.
 
@@ -154,7 +154,7 @@ The driver can apply discrete display rotation values to the display output surf
 Supported starting with Windows 8.
 
 
-### -field FilterCaps
+#### - FilterCaps
 
 [out] A bitwise OR of the following values from the DXVAHDDDI_FILTER_CAPS enumeration to indicate filter-specific capabilities.
 
@@ -196,7 +196,7 @@ The driver supports edge-enhancement filter.
 The driver can scale from the source rectangle to the destination rectangle linearly or nonlinearly. If the driver has this capability, it can stretch 4:3 standard video content to 16:9 widescreen.
 
 
-### -field InputFormatCaps
+#### - InputFormatCaps
 
 [out] A bitwise OR of the following values from the DXVAHDDDI_INPUT_FORMAT_CAPS enumeration to indicate input-format-specific capabilities.
 
@@ -229,32 +229,32 @@ The driver can luma-key the input stream with RGB format type.
 The driver can deinterlace the input stream with palettized format type.
 
 
-### -field InputPool
+#### - InputPool
 
 [out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the input surfaces should be allocated. 
 
 
-### -field OutputFormatCount
+#### - OutputFormatCount
 
 [out] The number of supported output formats. The driver returns an array of <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration types for the output formats that the decode device supports when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPOUTPUTFORMATS value set. 
 
 
-### -field InputFormatCount
+#### - InputFormatCount
 
 [out] The number of supported input formats. The driver returns an array of <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration types for the input formats that the decode device supports when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPINPUTFORMATS value set. 
 
 
-### -field VideoProcessorCount
+#### - VideoProcessorCount
 
 [out] The number of supported video processors. The driver returns an array of <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a> structures for the capabilities for each video processor that the decode device supports when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCAPS value set. 
 
 
-### -field MaxInputStreams
+#### - MaxInputStreams
 
 [out] The driver can enable the maximum number of input streams at a time. 
 
 
-### -field MaxStreamStates
+#### - MaxStreamStates
 
 [out] The maximum number of stream states. 
 
@@ -272,11 +272,11 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAP
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
 
  
 

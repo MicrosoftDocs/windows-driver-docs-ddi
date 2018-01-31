@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_OPTITEM, print.optitem, compstui/OPTITEM, compstui/POPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, OPTITEM, *POPTITEM, POPTITEM structure pointer [Print Devices], POPTITEM, OPTITEM structure [Print Devices]"
+ms.keywords: compstui/POPTITEM, *POPTITEM, OPTITEM, compstui/OPTITEM, print.optitem, _OPTITEM, OPTITEM structure [Print Devices], cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, POPTITEM, POPTITEM structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,24 +117,24 @@ typedef struct _OPTITEM {
  
 
 
-### -field cbSize
+#### - cbSize
 
 Size, in bytes, of the OPTITEM structure.
 
 
-### -field Level
+#### - Level
 
 Specifies the level of this option in the treeview. For more information, see the following Remarks section.
 
 
-### -field DlgPageIdx
+#### - DlgPageIdx
 
 Identifies the dialog to which the option belongs. Specifies an array index into the DLGPAGE array pointed to by the <b>pDlgPage</b> member of the <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 If <b>pDlgPage</b> points to a CPSUI-supplied, predefined DLGPAGE structure, CPSUI supplies this index.
 
 
-### -field Flags
+#### - Flags
 
 Optional bit flags that modify the option's characteristics. The OPTIF_CHANGEONCE flag is set by CPSUI; all other flags are set by the caller. Any combination of the following flags can be set.
 
@@ -266,29 +266,29 @@ If not set, the <b>Sel</b> member contains an icon resource identifier.
 This flag can only be used when <b>pOptType</b> contains <b>NULL</b>.
 
 
-### -field UserData
+#### - UserData
 
 Optional 32-bit value that can be set and used by the caller.
 
 (Printer interface DLLs for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> and <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> use this member to supply a pointer to a <a href="..\printoem\ns-printoem-_userdata.md">USERDATA</a> structure. <a href="https://msdn.microsoft.com/22ac2af6-37d8-4913-95af-9c3dc8576d40">User interface plug-ins</a> can reference this structure.)
 
 
-### -field pName
+#### - pName
 
 String identifier representing a localized, displayable option name. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier, with HIWORD set to zero. (Also see the description of <b>DMPubID</b>, below.)
 
 
-### -field pOptType
+#### - pOptType
 
 Pointer to an <a href="..\compstui\ns-compstui-_opttype.md">OPTTYPE</a> structure that describes the option's display type. If <b>NULL</b>, the option has no parameters and is used as a parent to options with a higher <b>Level</b> value. The child options must immediately follow the parent in the OPTITEM array. (See the following Remarks section.)
 
 
-### -field HelpIndex
+#### - HelpIndex
 
 Help file index, which identifies help text to be associated with the option. If zero, help file text does not exist for this option. Note that the <b>pOIExt</b> member of this structure must be set with the address of an <a href="..\compstui\ns-compstui-_oiext.md">OIEXT</a> structure in order for help text functionality to exist.
 
 
-### -field DMPubID
+#### - DMPubID
 
 This member is meant for use by printer interface DLLs, when creating a <b>Document Properties</b> property sheet (see <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>). It is a constant value specifying which, if any, public member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for <b>pName</b> for each constant.
 <table>
@@ -569,22 +569,22 @@ CPSUI does not maintain a DEVMODE structure. The application is responsible for 
 For additional information about using the <b>DMPubID</b> member, see the following Remarks section.
 
 
-### -field UserItemID
+#### - UserItemID
 
 Optional application-supplied value that can be used for option identification purposes. Not referenced by CPSUI.
 
 
-### -field wReserved
+#### - wReserved
 
 Reserved, must be initialized to zero.
 
 
-### -field pOIExt
+#### - pOIExt
 
 Pointer to an optional <a href="..\compstui\ns-compstui-_oiext.md">OIEXT</a> structure. The caller is responsible for allocating storage for this structure.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Reserved, must be initialized to zero.
 

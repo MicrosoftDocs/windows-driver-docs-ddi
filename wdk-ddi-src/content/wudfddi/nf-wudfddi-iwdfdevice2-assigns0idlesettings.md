@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ffe91b9a-3b74-4dd9-b23d-096f1992485e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AssignS0IdleSettings, AssignS0IdleSettings method, IWDFDevice2 interface, wudfddi/IWDFDevice2::AssignS0IdleSettings, AssignS0IdleSettings method, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, IWDFDevice2 interface, AssignS0IdleSettings method, umdf.iwdfdevice2_assigns0idlesettings, IWDFDevice2::AssignS0IdleSettings, IWDFDevice2, wdf.iwdfdevice2_assigns0idlesettings
+ms.keywords: AssignS0IdleSettings method, IWDFDevice2 interface, AssignS0IdleSettings, IWDFDevice2::AssignS0IdleSettings, AssignS0IdleSettings method, umdf.iwdfdevice2_assigns0idlesettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, IWDFDevice2, wudfddi/IWDFDevice2::AssignS0IdleSettings, wdf.iwdfdevice2_assigns0idlesettings, IWDFDevice2 interface, AssignS0IdleSettings method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.AssignS0IdleSettings
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -74,27 +74,27 @@ HRESULT AssignS0IdleSettings(
 
 
 
-### -param IdleCaps [in]
+#### - IdleCaps [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
 
 
-### -param DxState [in]
+#### - DxState [in]
 
 A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-typed enumerator that identifies the low <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> that the device will enter after the idle timeout period ends. DEVICE_POWER_STATE values are defined in wdm.h.
 
 
-### -param IdleTimeout [in]
+#### - IdleTimeout [in]
 
 The amount of time, in milliseconds, that the device will remain idle before the framework places it in the <i>DxState</i>-supplied low-power state. To use the framework's default idle timeout value, specify <b>IdleTimeoutDefaultValue</b> For more information, see the Remarks section.
 
 
-### -param UserControlOfIdleSettings [in]
+#### - UserControlOfIdleSettings [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
 
 
-### -param Enabled [in]
+#### - Enabled [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will be powered down if it remains idle and while the system power is at S0. This member can have one of the following values:
 
@@ -211,9 +211,9 @@ For more information about supporting a device's idle capabilities, see <a href=
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
 <a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
 

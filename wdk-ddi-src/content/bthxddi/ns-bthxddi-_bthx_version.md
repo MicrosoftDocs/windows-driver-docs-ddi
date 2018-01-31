@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2C5CC5B1-52F1-4DF5-9397-E8FD4983BA25
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, *PBTHX_VERSION, bthxddi/_BTHX_VERSION, BTHX_VERSION, bltooth.bthx_version
+ms.keywords: bthxddi/_BTHX_VERSION, BTHX_VERSION, bltooth.bthx_version, BTHX_VERSION structure [Bluetooth Devices], *PBTHX_VERSION, _BTHX_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ struct _BTHX_VERSION {
 
 
 
-### -field Version
+#### - Version
 
 Bitmask of supported versions. Currently, BTHX_DDI_VERSION_1   is the only supported version.
 

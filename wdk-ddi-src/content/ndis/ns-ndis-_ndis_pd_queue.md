@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5405A9A6-243B-4E80-85D7-46C6FCC8339F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PD_QUEUE, netvista.ndis_pd_queue, NDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE, ndis/NDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_QUEUE
+ms.keywords: NDIS_PD_QUEUE, _NDIS_PD_QUEUE, netvista.ndis_pd_queue, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_QUEUE, ndis/PNDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], PNDIS_PD_QUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _NDIS_PD_QUEUE {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_QUEUE</b> structure. Set the members of this structure as follows:
 <ul>
@@ -80,22 +80,22 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_QUEUE_REVISION_1</b></li>
 </ul>
 
-### -field Flags
+#### - Flags
 
 This member is reserved and must be set to 0.
 
 
-### -field Dispatch
+#### - Dispatch
 
 See <a href="..\ndis\ns-ndis-_ndis_pd_queue_dispatch.md">NDIS_PD_QUEUE_DISPATCH</a>.
 
 
-### -field PDPlatformReserved
+#### - PDPlatformReserved
 
 Reserved for the platform.
 
 
-### -field PDClientReserved
+#### - PDClientReserved
 
 Reserved for the client.
 

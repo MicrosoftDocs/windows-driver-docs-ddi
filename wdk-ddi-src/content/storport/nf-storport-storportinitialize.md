@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportinitialize, StorPortInitialize routine [Storage Devices], storport/StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, StorPortInitialize
+ms.keywords: StorPortInitialize routine [Storage Devices], storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, storage.storportinitialize, StorPortInitialize, storport/StorPortInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API ULONG StorPortInitialize(
 
 
 
-### -param Argument1 [in]
+#### - Argument1 [in]
 
 The first pointer with which the operating system called the miniport's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
-### -param Argument2 [in]
+#### - Argument2 [in]
 
 The second pointer with which the operating system called the miniports's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
-### -param HwInitializationData [in]
+#### - HwInitializationData [in]
 
 Pointer to the initialization and configuration information set by the miniport driver in it's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
-### -param HwContext [in, optional]
+#### - HwContext [in, optional]
 
 Is the address of a context value to be passed to the miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <b>HwStorFindAdapter</b>. 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Write method [Windows Debugging], IDebugOutputStream interface, debugger.idebugoutputstream_write, dbgeng/IDebugOutputStream::Write, IDebugOutputStream::Write, Write, IDebugOutputStream interface [Windows Debugging], Write method, Write method [Windows Debugging], IDebugOutputStream
+ms.keywords: Write, dbgeng/IDebugOutputStream::Write, Write method [Windows Debugging], IDebugOutputStream interface [Windows Debugging], Write method, Write method [Windows Debugging], IDebugOutputStream interface, debugger.idebugoutputstream_write, IDebugOutputStream::Write, IDebugOutputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT Write(
 
 
 
-### -param psz [in]
+#### - psz [in]
 
 A pointer to a Unicode character string of content to write.
 

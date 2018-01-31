@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide, GetDumpFileWide method [Windows Debugging], dbgeng/IDebugClient4::GetDumpFileWide, IDebugClient4::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5::GetDumpFileWide, IDebugClient5
+ms.keywords: IDebugClient4::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, debugger.getdumpfilewide, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetDumpFileWide, GetDumpFileWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT GetDumpFileWide(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies which file to describe.  <i>Index</i> can take values between zero and the number of files minus one; the number of files can be found by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the file name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 Receives the size of the file name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Handle [out, optional]
+#### - Handle [out, optional]
 
 Receives the file handle of the file.  If <i>Handle</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Type [out]
+#### - Type [out]
 
 Receives the type of the file.
 
@@ -136,15 +136,15 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_0c93_7
-title: PCPIN_DESCRIPTOR
+title: "*PPCPIN_DESCRIPTOR"
 author: windows-driver-content
 description: The PCPIN_DESCRIPTOR structure describes a pin factory.
 old-location: audio\pcpin_descriptor.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1eeee706-b7f4-4b4d-93c8-969eac7c56d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, portcls/PPCPIN_DESCRIPTOR, portcls/PCPIN_DESCRIPTOR, audio.pcpin_descriptor, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], PCPIN_DESCRIPTOR structure [Audio Devices], PCPIN_DESCRIPTOR, *PPCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR
+ms.keywords: portcls/PPCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], PPCPIN_DESCRIPTOR, audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, *PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR, audio.pcpin_descriptor, PCPIN_DESCRIPTOR structure [Audio Devices], portcls/PCPIN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,10 +40,10 @@ apiname:
 -	PCPIN_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: PCPIN_DESCRIPTOR, *PPCPIN_DESCRIPTOR
+req.typenames: "*PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR"
 ---
 
-# PCPIN_DESCRIPTOR structure
+# *PPCPIN_DESCRIPTOR structure
 
 
 ## -description
@@ -169,7 +169,9 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
 
@@ -177,9 +179,7 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
 
  
 

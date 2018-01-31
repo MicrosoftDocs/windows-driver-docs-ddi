@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E8A53836-95D1-4CE4-AF55-5AD732211A55
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfcsedev/EmulationOff, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, *PSECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOnPowerDependent, nfpdrivers.secure_element_set_card_emulation_mode, _SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], EmulationOnPowerDependent, nfcsedev/EmulationOnPowerIndependent, EmulationOff, SECURE_ELEMENT_CARD_EMULATION_MODE, EmulationOnPowerIndependent
+ms.keywords: "*PSECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, nfpdrivers.secure_element_set_card_emulation_mode, nfcsedev/EmulationOff, _SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], EmulationOff, EmulationOnPowerIndependent, nfcsedev/EmulationOnPowerDependent, EmulationOnPowerDependent, SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOnPowerIndependent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _SECURE_ELEMENT_SET_CARD_EMULATION_MODE {
 
 
 
-### -field EmulationOff
+#### - EmulationOff
 
 The secure element is not exposed.
 
 
-### -field EmulationOnPowerIndependent
+#### - EmulationOnPowerIndependent
 
 The eSE secure element is exposed regardless of the power state of the device/battery and is the only secure element exposed. If the battery is removed, the device is powered off or otherwise power is not available. The secure element must remain exposed to the external reader.
 
 
-### -field EmulationOnPowerDependent
+#### - EmulationOnPowerDependent
 
 The secure element is exposed only as long as the device is powered on, and is the only secure element exposed. If the battery is removed, the device is powered off, or if power is not available, the secure element must no longer be exposed to the external reader.
 

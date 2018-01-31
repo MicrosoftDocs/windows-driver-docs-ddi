@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 050a4243-6ad8-4aa4-8ffb-40fe9fc07b51
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, debugger.getcommandwide, IDebugBreakpoint2 interface [Windows Debugging], GetCommandWide method, GetCommandWide, IDebugBreakpoint2::GetCommandWide, dbgeng/IDebugBreakpoint2::GetCommandWide
+ms.keywords: IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetCommandWide, GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetCommandWide method, IDebugBreakpoint2::GetCommandWide, debugger.getcommandwide, GetCommandWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetCommandWide(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 The command string that is executed when the breakpoint is triggered.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size, in characters, of the buffer that <i>Buffer</i> points to.
 
 
-### -param CommandSize [out, optional]
+#### - CommandSize [out, optional]
 
 The size of the command string.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 

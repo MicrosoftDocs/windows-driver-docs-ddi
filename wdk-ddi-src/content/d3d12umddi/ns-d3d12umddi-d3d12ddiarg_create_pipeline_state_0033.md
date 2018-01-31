@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2a9108ab-5852-4053-9a7a-266ae1b1dced
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure [Display Devices], display.d3d12ddiarg-create-pipeline-state-0033, d3d12umddi/D3D12DDIARG_CREATE_PIPELINE_STATE_0033, D3D12DDIARG_CREATE_PIPELINE_STATE_0033
+ms.keywords: D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_PIPELINE_STATE_0033, display.d3d12ddiarg-create-pipeline-state-0033, D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,107 +89,107 @@ typedef struct _D3D12DDIARG_CREATE_PIPELINE_STATE_0033 {
 
 
 
-### -field hComputeShader
+#### - hComputeShader
 
 The compute shader.
 
 
-### -field hVertexShader
+#### - hVertexShader
 
 The vertex shader.
 
 
-### -field hPixelShader
+#### - hPixelShader
 
 The pixel shader.
 
 
-### -field hDomainShader
+#### - hDomainShader
 
 The domain shader.
 
 
-### -field hHullShader
+#### - hHullShader
 
 The hull shader.
 
 
-### -field hGeometryShader
+#### - hGeometryShader
 
 The geometry shader.
 
 
-### -field hRootSignature
+#### - hRootSignature
 
 The root signature.
 
 
-### -field hBlendState
+#### - hBlendState
 
 The blend state.
 
 
-### -field SampleMask
+#### - SampleMask
 
 The sample mask.
 
 
-### -field hRasterizerState
+#### - hRasterizerState
 
 The rasterizer state.
 
 
-### -field hDepthStencilState
+#### - hDepthStencilState
 
 The depth stencil state.
 
 
-### -field hElementLayout
+#### - hElementLayout
 
 The element layout.
 
 
-### -field IBStripCutValue
+#### - IBStripCutValue
 
 The index buffer strip cut value.
 
 
-### -field PrimitiveTopologyType
+#### - PrimitiveTopologyType
 
 The primitive topology type.
 
 
-### -field NumRenderTargets
+#### - NumRenderTargets
 
 The number of render targets.
 
 
-### -field RTVFormats
+#### - RTVFormats
 
 The RTV formats.
 
 
-### -field DSVFormat
+#### - DSVFormat
 
 The DSV format.
 
 
-### -field SampleDesc
+#### - SampleDesc
 
 The sample description.
 
 
-### -field NodeMask
+#### - NodeMask
 
 Represents the set of nodes.
 
 
-### -field LibraryReference
+#### - LibraryReference
 
 The library reference.
 
 
-### -field ViewInstancingDesc
+#### - ViewInstancingDesc
 
 The view instancing description.
 

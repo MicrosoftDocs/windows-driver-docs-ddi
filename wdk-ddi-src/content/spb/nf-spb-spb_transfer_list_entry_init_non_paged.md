@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 5ED8DC18-75B8-40EB-B7D2-6F8597BCEBF9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses], SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB.spb_transfer_list_entry_init_non_paged
+ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses], SPB.spb_transfer_list_entry_init_non_paged, spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION"
+req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ SPB_TRANSFER_LIST_ENTRY SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED(
 
 
 
-### -param Direction [in]
+#### - Direction [in]
 
 The direction of the transfer. The function writes this value to the <b>Direction</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
-### -param DelayInUs [in]
+#### - DelayInUs [in]
 
 An optional delay in microseconds. The function writes this value to the <b>DelayInUs</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a data buffer. The function writes this value to the <b>Buffer.Simple.Buffer</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure. For more information, see the description of the <b>Buffer</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>.
 
 
-### -param BufferCb [in]
+#### - BufferCb [in]
 
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>. The function writes this value to the <b>Buffer.Simple.BufferCb</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure. For more information, see the description of the <b>BufferCb</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>.
 
@@ -111,9 +111,9 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
 
  
 

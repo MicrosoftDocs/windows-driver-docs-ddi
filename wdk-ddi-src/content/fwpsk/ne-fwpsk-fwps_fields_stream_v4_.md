@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1225f28d-3b89-4b14-82c3-5162de9fe8fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_FIELDS_STREAM_V4, FWPS_FIELDS_STREAM_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_STREAM_V4_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELDS_STREAM_V4, FWPS_FIELD_STREAM_V4_FLAGS, FWPS_FIELD_STREAM_V4_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_STREAM_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_STREAM_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V4_FLAGS, fwpsk/FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_STREAM_V4_MAX, fwpsk/FWPS_FIELD_STREAM_V4_MAX, netvista.fwps_fields_stream_v4, fwpsk/FWPS_FIELD_STREAM_V4_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V4_DIRECTION, fwpsk/FWPS_FIELD_STREAM_V4_DIRECTION, wfp_ref_5_const_3_data_fields_767d81c5-f927-4512-812d-396966457b7a.xml, FWPS_FIELDS_STREAM_V4_, fwpsk/FWPS_FIELD_STREAM_V4_IP_LOCAL_PORT
+ms.keywords: FWPS_FIELD_STREAM_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V4_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_STREAM_V4_FLAGS, wfp_ref_5_const_3_data_fields_767d81c5-f927-4512-812d-396966457b7a.xml, FWPS_FIELD_STREAM_V4_FLAGS, FWPS_FIELDS_STREAM_V4 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_STREAM_V4_IP_LOCAL_PORT, FWPS_FIELD_STREAM_V4_DIRECTION, fwpsk/FWPS_FIELDS_STREAM_V4, fwpsk/FWPS_FIELD_STREAM_V4_MAX, FWPS_FIELDS_STREAM_V4_, FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V4_DIRECTION, netvista.fwps_fields_stream_v4, fwpsk/FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_STREAM_V4_IP_LOCAL_PORT, FWPS_FIELD_STREAM_V4_MAX, FWPS_FIELD_STREAM_V4_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS, FWPS_FIELDS_STREAM_V4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,33 +78,33 @@ typedef enum FWPS_FIELDS_STREAM_V4_ {
 
 
 
-### -field FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS
+#### - FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS
 
 The local IP address.
 
 
-### -field FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS_TYPE
+#### - FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a> enumeration.
 
 
-### -field FWPS_FIELD_STREAM_V4_IP_REMOTE_ADDRESS
+#### - FWPS_FIELD_STREAM_V4_IP_REMOTE_ADDRESS
 
 The remote IP address.
 
 
-### -field FWPS_FIELD_STREAM_V4_IP_LOCAL_PORT
+#### - FWPS_FIELD_STREAM_V4_IP_LOCAL_PORT
 
 The local transport protocol port number.
 
 
-### -field FWPS_FIELD_STREAM_V4_IP_REMOTE_PORT
+#### - FWPS_FIELD_STREAM_V4_IP_REMOTE_PORT
 
 The remote transport protocol port number.
 
 
-### -field FWPS_FIELD_STREAM_V4_DIRECTION
+#### - FWPS_FIELD_STREAM_V4_DIRECTION
 
 
 
@@ -120,7 +120,7 @@ The remote transport protocol port number.
 
 
 
-### -field FWPS_FIELD_STREAM_V4_FLAGS
+#### - FWPS_FIELD_STREAM_V4_FLAGS
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
@@ -133,7 +133,7 @@ A bitwise OR of a combination of filtering condition flags. For information abou
 
 
 
-### -field FWPS_FIELD_STREAM_V4_MAX
+#### - FWPS_FIELD_STREAM_V4_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

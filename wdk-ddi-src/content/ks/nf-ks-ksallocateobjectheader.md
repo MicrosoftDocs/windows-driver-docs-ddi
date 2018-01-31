@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18f5ea44-3f70-4c26-beb3-2f03568df03b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateObjectHeader, ks/KsAllocateObjectHeader, ksfunc_0ab53e6c-a934-4c4a-9377-c81ec37833f6.xml, stream.ksallocateobjectheader, KsAllocateObjectHeader function [Streaming Media Devices]
+ms.keywords: ksfunc_0ab53e6c-a934-4c4a-9377-c81ec37833f6.xml, stream.ksallocateobjectheader, KsAllocateObjectHeader, ks/KsAllocateObjectHeader, KsAllocateObjectHeader function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,33 +73,33 @@ NTSTATUS KsAllocateObjectHeader(
 
 
 
-### -param Header [out]
+#### - Header [out]
 
 Points to the caller-allocated location in which to return a pointer to the initialized 
       <b>KSOBJECT_HEADER</b> if successful. 
 
 
-### -param ItemsCount [in]
+#### - ItemsCount [in]
 
 Specifies the number of object create items in the <i>ItemsList</i> to be added to the 
       object header once the header is allocated. This value should be zero if <i>ItemsList</i> is 
       <b>NULL</b>.
 
 
-### -param ItemsList [in, optional]
+#### - ItemsList [in, optional]
 
 Optionally specifies a pointer to a caller-allocated buffer containing a series of 
       <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> structures to be added to 
       the object header. Must be set to <b>NULL</b> if there are no object create items.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Points to the IRP, of major function <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>, 
       that contains the necessary information to complete the creation of the object header.
 
 
-### -param Table [in]
+#### - Table [in]
 
 Points to an initialized dispatch table for this file object.
 
@@ -157,9 +157,9 @@ createBuffer = (PKSOBJECT_CREATE_ITEM)
 
 <a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
-
 <a href="..\ks\nf-ks-ksfreeobjectheader.md">KsFreeObjectHeader</a>
+
+<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
 
  
 

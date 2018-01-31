@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3fc5f220-09ae-4f8e-8616-549a5371e2f0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGCDMAMSGPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIORITY_MAX, netvista.rilmsgcdmamsgpriority_2, RIL_MSGPRIORITY_URGENT, rilapitypes/RIL_MSGPRIORITY_EMERGENCY, RIL_MSGPRIORITY_HIGH, RILMSGCDMAMSGPRIORITY, rilapitypes/RIL_MSGPRIORITY_URGENT, rilapitypes/RILMSGCDMAMSGPRIORITY, rilapitypes/RIL_MSGPRIORITY_HIGH, RIL_MSGPRIORITY_EMERGENCY, rilapitypes/RIL_MSGPRIORITY_MAX
+ms.keywords: rilapitypes/RILMSGCDMAMSGPRIORITY, rilapitypes/RIL_MSGPRIORITY_HIGH, rilapitypes/RIL_MSGPRIORITY_URGENT, RIL_MSGPRIORITY_URGENT, RILMSGCDMAMSGPRIORITY, RIL_MSGPRIORITY_HIGH, rilapitypes/RIL_MSGPRIORITY_EMERGENCY, RIL_MSGPRIORITY_EMERGENCY, netvista.rilmsgcdmamsgpriority_2, rilapitypes/RIL_MSGPRIORITY_MAX, RIL_MSGPRIORITY_MAX, RILMSGCDMAMSGPRIORITY enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILMSGCDMAMSGPRIORITY {
 
 
 
-### -field RIL_MSGPRIORITY_HIGH
+#### - RIL_MSGPRIORITY_HIGH
 
 
 
-### -field RIL_MSGPRIORITY_URGENT
+#### - RIL_MSGPRIORITY_URGENT
 
 
 
-### -field RIL_MSGPRIORITY_EMERGENCY
+#### - RIL_MSGPRIORITY_EMERGENCY
 
 
 
-### -field RIL_MSGPRIORITY_MAX
+#### - RIL_MSGPRIORITY_MAX
 
 

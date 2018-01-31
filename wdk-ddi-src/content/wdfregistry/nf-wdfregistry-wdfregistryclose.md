@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97fe47d-bd6b-45d7-936b-3b46554e5093
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryClose, PFN_WDFREGISTRYCLOSE, WdfRegistryClose method, wdfregistry/WdfRegistryClose, wdf.wdfregistryclose, DFRegKeyObjectRef_31a198b2-e149-4fd4-951a-5fd03cf06555.xml, kmdf.wdfregistryclose
+ms.keywords: WdfRegistryClose, wdfregistry/WdfRegistryClose, kmdf.wdfregistryclose, PFN_WDFREGISTRYCLOSE, WdfRegistryClose method, DFRegKeyObjectRef_31a198b2-e149-4fd4-951a-5fd03cf06555.xml, wdf.wdfregistryclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryClose
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ VOID WdfRegistryClose(
 
 
 
-### -param Key [in]
+#### - Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 

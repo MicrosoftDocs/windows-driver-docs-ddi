@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f62c35dd-791d-4c21-9836-308cc5fb102b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/PSCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, _SCSI_INQUIRY_DATA, storage.scsi_inquiry_data, SCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA structure [Storage Devices], PSCSI_INQUIRY_DATA, ntddscsi/SCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA structure pointer [Storage Devices]
+ms.keywords: PSCSI_INQUIRY_DATA, ntddscsi/PSCSI_INQUIRY_DATA, _SCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA structure [Storage Devices], PSCSI_INQUIRY_DATA structure pointer [Storage Devices], storage.scsi_inquiry_data, *PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, ntddscsi/SCSI_INQUIRY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_INQUIRY_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA"
+req.typenames: SCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA
 ---
 
 # _SCSI_INQUIRY_DATA structure
@@ -73,37 +73,37 @@ typedef struct _SCSI_INQUIRY_DATA {
 
 
 
-### -field PathId
+#### - PathId
 
 Indicates the number of the bus the device is located on.
 
 
-### -field TargetId
+#### - TargetId
 
 Indicates the number of the device on the bus. 
 
 
-### -field Lun
+#### - Lun
 
 Indicates the logical unit number of the logical unit on the target device. 
 
 
-### -field DeviceClaimed
+#### - DeviceClaimed
 
 When <b>TRUE</b>, indicates that the device has been claimed by a class driver. 
 
 
-### -field InquiryDataLength
+#### - InquiryDataLength
 
 Indicates the length in bytes of inquiry data. 
 
 
-### -field NextInquiryDataOffset
+#### - NextInquiryDataOffset
 
 Contains an offset to the inquiry data for the next logical unit on the target device. 
 
 
-### -field InquiryData
+#### - InquiryData
 
 Pointer to buffer containing the inquiry data for the logical unit. 
 
@@ -119,9 +119,9 @@ The <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a>
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32c40be2-dee0-4ac7-9f78-a64b9f985f51
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdftimerstart, wdftimer/WdfTimerStart, kmdf.wdftimerstart, DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, WdfTimerStart, WdfTimerStart method
+ms.keywords: WdfTimerStart method, wdf.wdftimerstart, DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, wdftimer/WdfTimerStart, kmdf.wdftimerstart, WdfTimerStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfTimerStart
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ BOOLEAN WdfTimerStart(
 
 
 
-### -param Timer [in]
+#### - Timer [in]
 
 A handle to a framework timer object that was obtained by calling <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>.
 
 
-### -param DueTime [in]
+#### - DueTime [in]
 
 A time period, in system time units (100-nanosecond intervals). The framework calls the driver's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function when the specified time period elapses. The time period value can be negative or positive as follows:
 <ul>
@@ -129,13 +129,13 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
-
 <a href="..\wdftimer\nf-wdftimer-wdftimerstop.md">WdfTimerStop</a>
 
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
 
 <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+
+<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
  
 

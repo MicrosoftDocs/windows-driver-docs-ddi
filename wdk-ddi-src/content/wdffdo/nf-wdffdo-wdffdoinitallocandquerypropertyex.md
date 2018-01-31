@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8F338F5B-2F18-4D7D-AF96-7F80A48D37FB
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffdo/WdfFdoInitAllocAndQueryPropertyEx, WdfFdoInitAllocAndQueryPropertyEx method, PFN_WDFFDOINITALLOCANDQUERYPROPERTYEX, wdf.wdffdoinitallocandquerypropertyex, WdfFdoInitAllocAndQueryPropertyEx
+ms.keywords: WdfFdoInitAllocAndQueryPropertyEx method, WdfFdoInitAllocAndQueryPropertyEx, wdf.wdffdoinitallocandquerypropertyex, wdffdo/WdfFdoInitAllocAndQueryPropertyEx, PFN_WDFFDOINITALLOCANDQUERYPROPERTYEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitAllocAndQueryPropertyEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -78,32 +78,32 @@ NTSTATUS WdfFdoInitAllocAndQueryPropertyEx(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to be retrieved.
 
 
-### -param PoolType [in]
+#### - PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed enumerator that specifies the type of memory to be allocated.
 
 
-### -param PropertyMemoryAttributes [in, optional]
+#### - PropertyMemoryAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the memory object that the function will allocate. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param PropertyMemory [out]
+#### - PropertyMemory [out]
 
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object. 
 
 
-### -param Type [out]
+#### - Type [out]
 
 A pointer to a <b>DEVPROPTYPE</b> variable. If the method is successful, upon return this parameter contains the property type value
                   of the property 

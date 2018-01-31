@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: CA0268F3-44F0-4F64-A88D-9A2BBDE768EA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ufxbase/PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT structure pointer [Buses], ufxbase/UFX_HARDWARE_FAILURE_CONTEXT, buses.ufx_hardware_failure_context, UFX_HARDWARE_FAILURE_CONTEXT, _UFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT structure [Buses]
+ms.keywords: ufxbase/UFX_HARDWARE_FAILURE_CONTEXT, buses.ufx_hardware_failure_context, PUFX_HARDWARE_FAILURE_CONTEXT structure pointer [Buses], UFX_HARDWARE_FAILURE_CONTEXT, _UFX_HARDWARE_FAILURE_CONTEXT, ufxbase/PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT structure [Buses], *PUFX_HARDWARE_FAILURE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFX_HARDWARE_FAILURE_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _UFX_HARDWARE_FAILURE_CONTEXT {
 
 
 
-### -field Size
+#### - Size
 
 The size of the <b>UFX_HARDWARE_FAILURE_CONTEXT</b> structure.
 
 
-### -field ExceptionCode
+#### - ExceptionCode
 
 The controller-specific hardware failure code.
 
 
-### -field Data
+#### - Data
 
 A variable-length array of data associated with the hardware failure.
 

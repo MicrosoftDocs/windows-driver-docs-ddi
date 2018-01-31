@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_device_power_cap_units, StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], ntddstor/StorageDevicePowerCapUnitsPercent, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS, _STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts
+ms.keywords: STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, StorageDevicePowerCapUnitsMilliwatts, ntddstor/StorageDevicePowerCapUnitsPercent, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], *PSTORAGE_DEVICE_POWER_CAP_UNITS, storage.storage_device_power_cap_units, _STORAGE_DEVICE_POWER_CAP_UNITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _STORAGE_DEVICE_POWER_CAP_UNITS {
 
 
 
-### -field StorageDevicePowerCapUnitsPercent
+#### - StorageDevicePowerCapUnitsPercent
 
 Units in percent.
 
 
-### -field StorageDevicePowerCapUnitsMilliwatts
+#### - StorageDevicePowerCapUnitsMilliwatts
 
 Units in milliwatts.
 

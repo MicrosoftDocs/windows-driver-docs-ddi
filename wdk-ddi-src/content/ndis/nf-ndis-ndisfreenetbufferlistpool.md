@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 811df5ea-f5e6-4986-adc0-c5fa95e5f072
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeNetBufferListPool, NdisFreeNetBufferListPool, NdisFreeNetBufferListPool function [Network Drivers Starting with Windows Vista], netvista.ndisfreenetbufferlistpool, ndis_netbuf_functions_ref_c2efb4b4-41de-4493-92a2-42e3fa78628b.xml
+ms.keywords: NdisFreeNetBufferListPool function [Network Drivers Starting with Windows Vista], netvista.ndisfreenetbufferlistpool, ndis/NdisFreeNetBufferListPool, NdisFreeNetBufferListPool, ndis_netbuf_functions_ref_c2efb4b4-41de-4493-92a2-42e3fa78628b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID NdisFreeNetBufferListPool(
 
 
 
-### -param PoolHandle [in]
+#### - PoolHandle [in]
 
 A handle that was obtained from a call to the 
      <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>

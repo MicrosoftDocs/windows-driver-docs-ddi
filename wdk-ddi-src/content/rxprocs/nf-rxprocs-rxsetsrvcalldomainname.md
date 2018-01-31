@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 876b3932-780f-4d00-8afc-40960f8fcaaf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxprocs/RxSetSrvCallDomainName, RxSetSrvCallDomainName, rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml, ifsk.rxsetsrvcalldomainname, RxSetSrvCallDomainName function [Installable File System Drivers]
+ms.keywords: RxSetSrvCallDomainName function [Installable File System Drivers], ifsk.rxsetsrvcalldomainname, rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml, rxprocs/RxSetSrvCallDomainName, RxSetSrvCallDomainName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RxSetSrvCallDomainName(
 
 
 
-### -param SrvCall [in]
+#### - SrvCall [in]
 
 A pointer to the SRV_CALL structure. 
 
 
-### -param DomainName [in]
+#### - DomainName [in]
 
 A pointer to a buffer containing a zero-terminated Unicode string that names the domain to which this server belongs. 
 
@@ -116,9 +116,9 @@ If the <i>DomainName</i> parameter is not a <b>NULL</b> pointer, and the <i>Doma
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
-
 <a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	I8042IsrWritePort
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_ISR_WRITE_PORT callback
@@ -71,12 +71,12 @@ VOID I8042IsrWritePort(
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Pointer to the function device object that represents a keyboard or mouse device.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies the data to write to an i8042 port.
 
@@ -103,9 +103,9 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
 ## -see-also
 
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
-
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
+
+<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
 
 <b>IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</b>
 

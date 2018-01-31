@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipnpcallbackhardware2_onpreparehardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware method, IPnpCallbackHardware2 interface, OnPrepareHardware method, wdf.ipnpcallbackhardware2_onpreparehardware, OnPrepareHardware, IPnpCallbackHardware2, OnPrepareHardware method, IPnpCallbackHardware2 interface, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
+ms.keywords: IPnpCallbackHardware2, wudfddi/IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware method, IPnpCallbackHardware2 interface, OnPrepareHardware method, wdf.ipnpcallbackhardware2_onpreparehardware, OnPrepareHardware, umdf.ipnpcallbackhardware2_onpreparehardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware method, IPnpCallbackHardware2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallbackHardware2.OnPrepareHardware
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -74,17 +74,17 @@ HRESULT OnPrepareHardware(
 
 
 
-### -param pWdfDevice [in]
+#### - pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the framework device object.
 
 
-### -param pWdfResourcesRaw [in]
+#### - pWdfResourcesRaw [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
 
-### -param pWdfResourcesTranslated [in]
+#### - pWdfResourcesTranslated [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
@@ -110,9 +110,9 @@ For information about parsing hardware resources, see <a href="https://docs.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
-
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
 
  
 

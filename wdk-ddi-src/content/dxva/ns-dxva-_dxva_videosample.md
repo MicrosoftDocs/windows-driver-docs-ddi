@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_videosample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, dxva/LPDXVA_VideoSample, dxva/DXVA_VideoSample, _DXVA_VideoSample, LPDXVA_VideoSample, *LPDXVA_VideoSample, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample structure pointer [Display Devices]
+ms.keywords: dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, DXVA_VideoSample, dxva/LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], *LPDXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample, _DXVA_VideoSample, display.dxva_videosample, dxva/DXVA_VideoSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,33 +70,33 @@ typedef struct _DXVA_VideoSample {
 
 
 
-### -field rtStart
+#### - rtStart
 
 Specifies the start time of the sample.
 
 
-### -field rtEnd
+#### - rtEnd
 
 Specifies the end time of the sample.
 
 
-### -field SampleFormat
+#### - SampleFormat
 
 Specifies the format of the sample as defined by a <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a> structure.
 
 
-### -field lpDDSSrcSurface
+#### - lpDDSSrcSurface
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure.
 
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-
-<a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
 
  
 

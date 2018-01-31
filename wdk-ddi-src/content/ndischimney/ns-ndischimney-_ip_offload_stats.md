@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f40c5734-2546-40c3-a6fb-58f728c3cc5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ip_offload_stats, ndischimney/PIP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml, PIP_OFFLOAD_STATS, _IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], IP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS
+ms.keywords: IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml, ndischimney/IP_OFFLOAD_STATS, IP_OFFLOAD_STATS, netvista.ip_offload_stats, PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PIP_OFFLOAD_STATS, _IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IP_OFFLOAD_STATS
 product: Windows
 targetos: Windows
-req.typenames: IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
+req.typenames: "*PIP_OFFLOAD_STATS, IP_OFFLOAD_STATS"
 ---
 
 # _IP_OFFLOAD_STATS structure
@@ -81,14 +81,14 @@ typedef struct _IP_OFFLOAD_STATS {
 
 
 
-### -field InReceives
+#### - InReceives
 
 The total number of input IP datagrams that have been received from the interface on offloaded TCP
      connections, including IP datagrams received in error. See 
      "ipInReceives" in RFC 2011.
 
 
-### -field InOctets
+#### - InOctets
 
 The total number of octets (bytes) in input IP datagrams that have been received from the
      interface on offloaded TCP connections. Octets from datagrams counted in 
@@ -96,21 +96,21 @@ The total number of octets (bytes) in input IP datagrams that have been received
      <b>InOctets</b> must include the number of bytes in the IP header and payload.
 
 
-### -field InDelivers
+#### - InDelivers
 
 The number of input IP datagrams that were successfully delivered to offloaded TCP connections.
      See 
      "ipInDelivers" in RFC 2011.
 
 
-### -field OutRequests
+#### - OutRequests
 
 The number of IP datagrams that the offload target supplied to its IP layer in requests for
      transmission on offloaded TCP connections. See 
      "ipOutRequests" in RFC 2011.
 
 
-### -field OutOctets
+#### - OutOctets
 
 The total number of octets (bytes) in IP datagrams that the offload target supplied to its IP
      layer in requests for transmission on offloaded TCP connections. Octets from datagrams counted in 
@@ -118,7 +118,7 @@ The total number of octets (bytes) in IP datagrams that the offload target suppl
      <b>OutOctets</b> must include the number of bytes in the IP header and payload.
 
 
-### -field InHeaderErrors
+#### - InHeaderErrors
 
 The number of input IP datagrams received on offloaded TCP connections that were discarded because
      of errors in their IP headers. Such errors include bad checksums, version number mismatch, other format
@@ -128,7 +128,7 @@ The number of input IP datagrams received on offloaded TCP connections that were
      "ipInHdrErrors" in RFC 2011.
 
 
-### -field InTruncatedPackets
+#### - InTruncatedPackets
 
 The number of input IP datagrams discarded because the datagram frame didn't carry enough data. 
      <b>InTruncatedPackets</b> should only be incremented if the frame contained a valid header but was
@@ -137,7 +137,7 @@ The number of input IP datagrams discarded because the datagram frame didn't car
      <b>InHeaderErrors</b> .
 
 
-### -field InDiscards
+#### - InDiscards
 
 The number of input IP datagrams received on offloaded TCP connections that contained nothing to
      prevent their further processing but that were discarded for run-time reasons, such as a lack of
@@ -145,7 +145,7 @@ The number of input IP datagrams received on offloaded TCP connections that cont
      "ipInDiscards" in RFC 2011.
 
 
-### -field OutDiscards
+#### - OutDiscards
 
 The number of output IP datagrams that the offload target supplied to its IP layer for which no
      problem was encountered to prevent their transmission but that were discarded for run-time reasons, such
@@ -153,7 +153,7 @@ The number of output IP datagrams that the offload target supplied to its IP lay
      "ipOutDiscards" in RFC 2011.
 
 
-### -field OutNoRoutes
+#### - OutNoRoutes
 
 The number of output IP datagrams that the offload target supplied to its IP layer that were
      discarded because no route (such as an offloaded path state object) could be found to transmit them to
@@ -208,14 +208,14 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
 
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
 
  
 

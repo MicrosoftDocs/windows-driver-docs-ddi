@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D965D8D3-B78C-4126-A675-D6D8A85AA158
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetParentObject method, IWDFWorkItem::GetParentObject, GetParentObject, wudfddi/IWDFWorkItem::GetParentObject, IWDFWorkItem, GetParentObject method, IWDFWorkItem interface, wdf.iwdfworkitem_getparentobject, umdf.iwdfworkitem_getparentobject, IWDFWorkItem interface, GetParentObject method
+ms.keywords: wudfddi/IWDFWorkItem::GetParentObject, GetParentObject, IWDFWorkItem interface, GetParentObject method, IWDFWorkItem::GetParentObject, wdf.iwdfworkitem_getparentobject, GetParentObject method, IWDFWorkItem interface, umdf.iwdfworkitem_getparentobject, IWDFWorkItem, GetParentObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFWorkItem.GetParentObject
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

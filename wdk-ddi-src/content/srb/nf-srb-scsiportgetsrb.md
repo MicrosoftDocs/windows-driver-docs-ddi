@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8f0e47c-4d06-445f-a6dd-9bd80fc490bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortGetSrb, scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml, storage.scsiportgetsrb, ScsiPortGetSrb routine [Storage Devices], ScsiPortGetSrb
+ms.keywords: ScsiPortGetSrb, srb/ScsiPortGetSrb, ScsiPortGetSrb routine [Storage Devices], scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml, storage.scsiportgetsrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortGetSrb
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -73,27 +73,27 @@ PSCSI_REQUEST_BLOCK ScsiPortGetSrb(
 
 
 
-### -param DeviceExtension [in]
+#### - DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param PathId [in]
+#### - PathId [in]
 
 Identifies the SCSI bus.
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Identifies the target controller or device on the bus.
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Identifies the logical unit number of the target device.
 
 
-### -param QueueTag [in]
+#### - QueueTag [in]
 
 Specifies the queue tag if the miniport driver handles tagged requests; SP_UNTAGGED indicates that the request is not tagged.
 

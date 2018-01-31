@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 75DDFC2A-EF7F-4652-B0D0-8BF1583B3679
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.read_register_ushort, READ_REGISTER_USHORT, wudfddi_hwaccess/READ_REGISTER_USHORT, umdf.read_register_ushort, READ_REGISTER_USHORT function
+ms.keywords: wudfddi_hwaccess/READ_REGISTER_USHORT, READ_REGISTER_USHORT function, umdf.read_register_ushort, READ_REGISTER_USHORT, wdf.read_register_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ USHORT READ_REGISTER_USHORT(
 
 
 
-### -param pDevice [in]
+#### - pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register address, which must be a mapped range in memory space.
 

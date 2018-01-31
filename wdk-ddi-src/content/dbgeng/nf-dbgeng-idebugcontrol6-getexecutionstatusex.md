@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C14A3106-AEF7-4BA2-9E21-32D8B2D5BD7E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl6::GetExecutionStatusEx, debugger.idebugcontrol6_getexecutionstatusex, GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, IDebugControl6, dbgeng/IDebugControl6::GetExecutionStatusEx, GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method
+ms.keywords: debugger.idebugcontrol6_getexecutionstatusex, dbgeng/IDebugControl6::GetExecutionStatusEx, GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, IDebugControl6, IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method, IDebugControl6::GetExecutionStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetExecutionStatusEx(
 
 
 
-### -param Status [out]
+#### - Status [out]
 
 Receives the extended execution status.  This will be set to values described in  <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a>.
 

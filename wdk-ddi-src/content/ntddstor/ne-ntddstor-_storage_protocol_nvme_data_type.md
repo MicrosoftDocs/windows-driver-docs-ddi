@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02DB004B-F5B9-4CA2-9CA8-9C7BFB9BA5CD
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Storage Devices], NVMeDataTypeLogPage, NVMeDataTypeIdentify, NVMeDataTypeFeature, STORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeUnknown, storage.storage_protocol_nvme_data_type, ntddstor/STORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeIdentify, ntddstor/NVMeDataTypeLogPage, *PSTORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/PSTORAGE_PROTOCOL_NVME_DATA_TYPE, _STORAGE_PROTOCOL_NVME_DATA_TYPE, PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Storage Devices], ntddstor/NVMeDataTypeFeature, PSTORAGE_PROTOCOL_NVME_DATA_TYPE, NVMeDataTypeUnknown
+ms.keywords: ntddstor/PSTORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeIdentify, NVMeDataTypeFeature, ntddstor/NVMeDataTypeLogPage, _STORAGE_PROTOCOL_NVME_DATA_TYPE, *PSTORAGE_PROTOCOL_NVME_DATA_TYPE, NVMeDataTypeIdentify, PSTORAGE_PROTOCOL_NVME_DATA_TYPE, storage.storage_protocol_nvme_data_type, STORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeFeature, STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Storage Devices], ntddstor/NVMeDataTypeUnknown, NVMeDataTypeUnknown, NVMeDataTypeLogPage, PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _STORAGE_PROTOCOL_NVME_DATA_TYPE {
 
 
 
-### -field NVMeDataTypeUnknown
+#### - NVMeDataTypeUnknown
 
 Unknown data type.
 
 
-### -field NVMeDataTypeIdentify
+#### - NVMeDataTypeIdentify
 
 Identify data type. This can be either Identify Controller data or Identify Namespace data. When this type of data is being queried, the ProtocolDataRequestValue field of <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> will have a value of <b>NVME_IDENTIFY_CNS_CONTROLLER</b> for adapter or <b>NVME_IDENTIFY_CNS_SPECIFIC_NAMESPACE</b> for namespace. If the ProtocolDataRequestValue is <b>NVME_IDENTIFY_CNS_SPECIFIC_NAMESPACE</b>, the ProtocolDataRequestSubValue field from the <b>STORAGE_PROTOCOL_SPECIFIC_DATA</b> structure will have a value of the namespace ID.
 
 
-### -field NVMeDataTypeLogPage
+#### - NVMeDataTypeLogPage
 
 Log page data type.
 
 
-### -field NVMeDataTypeFeature
+#### - NVMeDataTypeFeature
 
 Feature data type.
 
@@ -131,13 +131,13 @@ Set the <b>DataType</b>  field to an enumeration value defined by <b>STORAGE_PRO
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
  
 

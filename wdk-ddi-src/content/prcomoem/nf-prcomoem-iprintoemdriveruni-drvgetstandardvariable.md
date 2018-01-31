@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d55d3130-14e7-438f-bfb5-18927466bd60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, print.iprintoemdriveruni_drvgetstandardvariable, prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, IPrintOemDriverUni::DrvGetStandardVariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml
+ms.keywords: print.iprintoemdriveruni_drvgetstandardvariable, DrvGetStandardVariable, prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method, DrvGetStandardVariable method [Print Devices], DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni::DrvGetStandardVariable, IPrintOemDriverUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT DrvGetStandardVariable(
 
 
 
-### -param pdevobj
+#### - pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param dwIndex
+#### - dwIndex
 
 Caller-supplied, SVI_-prefixed index into the list of Unidrv's standard variables. The SVI_-prefixed index values are defined in printoem.h.
 
 
-### -param pBuffer
+#### - pBuffer
 
 Caller-supplied pointer to a DWORD to receive the standard variable's current value.
 
 
-### -param cbSize
+#### - cbSize
 
 Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded
+#### - pcbNeeded
 
 Caller-supplied pointer to a location to receive the minimum buffer size required to contain the requested information.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acd1a957-9a1f-48a5-849b-e0cb9f8e05b6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_OPENRESOURCE structure [Display Devices], D3D10DDIARG_OPENRESOURCE, display.d3d10ddiarg_openresource, UMDisplayDriver_Dx10param_Structs_bb0f1769-190c-4500-8efa-9ed3eab771f7.xml, d3d10umddi/D3D10DDIARG_OPENRESOURCE
+ms.keywords: UMDisplayDriver_Dx10param_Structs_bb0f1769-190c-4500-8efa-9ed3eab771f7.xml, D3D10DDIARG_OPENRESOURCE structure [Display Devices], d3d10umddi/D3D10DDIARG_OPENRESOURCE, display.d3d10ddiarg_openresource, D3D10DDIARG_OPENRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,26 +78,26 @@ typedef struct D3D10DDIARG_OPENRESOURCE {
 
 
 
-### -field pOpenAllocationInfo2
+#### - pOpenAllocationInfo2
 
 This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] The number of elements in the array that the <b>pOpenAllocationInfo</b> member specifies. <b>NumAllocations</b> represents the number of allocations to open.
 
 
-### -field pOpenAllocationInfo
+#### - pOpenAllocationInfo
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
 
 
-### -field hKMResource
+#### - hKMResource
 
 [in] A D3D10DDI_HKMRESOURCE data type that represents a kernel-mode handle to the resource that is associated with the allocations. 
 
@@ -106,21 +106,21 @@ This kernel-mode handle represents an existing shared resource that was previous
 The user-mode display driver can insert the kernel-mode resource handle in the command stream for subsequent use by the display miniport driver.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to private data that was passed to the display miniport driver when the resource was created. This data is per resource and not per allocation like the private data in each allocation's <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structure. 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
 
  
 

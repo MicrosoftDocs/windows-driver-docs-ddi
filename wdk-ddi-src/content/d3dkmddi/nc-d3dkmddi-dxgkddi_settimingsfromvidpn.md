@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_SETTIMINGSFROMVIDPN(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
 Identifies the adapter upon which the display timings should be set.
 
 
-### -param pSetTimings [in, out]
+#### - pSetTimings [in, out]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settimingsfromvidpn.md">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
 

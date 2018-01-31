@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa0b36bf-0628-4136-9ca7-1d20823969ff
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcCompleteIrp function [Audio Devices], PcCompleteIrp, portcls/PcCompleteIrp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, audio.pccompleteirp
+ms.keywords: portcls/PcCompleteIrp, audio.pccompleteirp, PcCompleteIrp function [Audio Devices], PcCompleteIrp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcCompleteIrp
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcCompleteIrp function
@@ -119,9 +119,9 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
-
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d89ed38b-f2ab-495f-b7e6-7f58b9adc958
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::ControlledOutputWide, debugger.outputwide, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::OutputWide, ControlledOutputWide method [Windows Debugging], dbgeng/IDebugControl4::ControlledOutputWide, OutputWide, IDebugControl4
+ms.keywords: debugger.outputwide, OutputWide, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, IDebugControl4::OutputWide, dbgeng/IDebugControl4::ControlledOutputWide, IDebugControl4, IDebugControl4::ControlledOutputWide, ControlledOutputWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT ControlledOutputWide(
 
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-### -param Format [in]
+#### - Format [in]
 
 Specifies the format string, as in <b>printf</b>.  In general, conversion characters work exactly as in C. For the floating-point conversion characters the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -295,15 +295,15 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
  
 

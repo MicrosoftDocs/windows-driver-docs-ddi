@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4787da-2813-4a7a-820a-5c078175aba5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.irequestcallbackrequestcompletion_oncompletion, wdf.irequestcallbackrequestcompletion_oncompletion, OnCompletion method, IRequestCallbackRequestCompletion interface, UMDFRequestObjectRef_b3ec1892-f32f-4c52-80f6-8699a358ea8d.xml, OnCompletion, IRequestCallbackRequestCompletion::OnCompletion, wudfddi/IRequestCallbackRequestCompletion::OnCompletion, IRequestCallbackRequestCompletion interface, OnCompletion method, IRequestCallbackRequestCompletion, OnCompletion method
+ms.keywords: OnCompletion method, IRequestCallbackRequestCompletion interface, wdf.irequestcallbackrequestcompletion_oncompletion, OnCompletion method, IRequestCallbackRequestCompletion interface, OnCompletion method, IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion::OnCompletion, wudfddi/IRequestCallbackRequestCompletion::OnCompletion, UMDFRequestObjectRef_b3ec1892-f32f-4c52-80f6-8699a358ea8d.xml, OnCompletion, umdf.irequestcallbackrequestcompletion_oncompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRequestCallbackRequestCompletion.OnCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ void OnCompletion(
 
 
 
-### -param pWdfRequest [in]
+#### - pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object. 
 
 
-### -param pIoTarget [in]
+#### - pIoTarget [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface for the I/O target object that represents the lower driver in the stack where the request was previously sent. 
 
 
-### -param pParams [in]
+#### - pParams [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a> interface for the parameters object for the completion request. 
 
 
-### -param pContext [in]
+#### - pContext [in]
 
 A pointer to a buffer that contains context information that is related to the completion request.
 
@@ -113,11 +113,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcom
 
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
  
 

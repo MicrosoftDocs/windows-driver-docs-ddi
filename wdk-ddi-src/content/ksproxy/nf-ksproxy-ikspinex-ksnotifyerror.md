@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2526734-c0bf-4f6b-b91e-2f6891c46c69
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPinEx interface [Streaming Media Devices], KsNotifyError method, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices], IKsPinEx interface, ksproxy/IKsPinEx::KsNotifyError, IKsPinEx::KsNotifyError, KsNotifyError, stream.ikspinex_ksnotifyerror, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, IKsPinEx
+ms.keywords: IKsPinEx::KsNotifyError, IKsPinEx, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, KsNotifyError method [Streaming Media Devices], ksproxy/IKsPinEx::KsNotifyError, IKsPinEx interface [Streaming Media Devices], KsNotifyError method, KsNotifyError method [Streaming Media Devices], IKsPinEx interface, KsNotifyError, stream.ikspinex_ksnotifyerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ VOID KsNotifyError(
 
 
 
-### -param Sample [in]
+#### - Sample [in]
 
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
 
-### -param hr [in]
+#### - hr [in]
 
 Error value for notification. If ERROR_OPERATION_ABORTED (that is, the I/O was purposefully canceled), the filter graph is not notified. 
 

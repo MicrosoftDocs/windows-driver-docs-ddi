@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB3CEC0E-5635-410D-B8D2-031FDB0557C1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TYPE_CONFIG structure, WDF_IO_TYPE_CONFIG, _WDF_IO_TYPE_CONFIG, wdfdevice/PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG structure pointer, PWDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config
+ms.keywords: PWDF_IO_TYPE_CONFIG structure pointer, *PWDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config, wdfdevice/PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG, _WDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_IO_TYPE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG"
+req.typenames: WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -73,12 +73,12 @@ typedef struct _WDF_IO_TYPE_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 Size of this structure in bytes.
 
 
-### -field ReadWriteIoType
+#### - ReadWriteIoType
 
 <b>KMDF </b>A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed enumerator that identifies the method that the driver will use to access data buffers 
     that it receives for read and write requests.
@@ -87,7 +87,7 @@ Size of this structure in bytes.
 <b>UMDF </b>A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed enumerator that identifies the method that you prefer the driver use to access data buffers of read and write requests. Valid values include <b>WdfDeviceIoBuffered</b>           and <b>WdfDeviceIoDirect</b>.
 
 
-### -field DeviceControlIoType
+#### - DeviceControlIoType
 
 This member does not apply to KMDF.
 
@@ -95,7 +95,7 @@ This member does not apply to KMDF.
     buffers of IOCTL requests. Valid values include <b>WdfDeviceIoBuffered</b>           and <b>WdfDeviceIoDirect</b>.
 
 
-### -field DirectTransferThreshold
+#### - DirectTransferThreshold
 
 This member does not apply to KMDF.
 

@@ -68,12 +68,12 @@ PVOID IoRegisterBootDriverCallback(
 
 
 
-### -param CallbackFunction [in]
+#### - CallbackFunction [in]
 
 A pointer to the <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine to be called when initializing a boot-start driver or DLL.
 
 
-### -param CallbackContext [in, optional]
+#### - CallbackContext [in, optional]
 
 A driver-defined context to be passed to the <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine pointed to by <i>CallbackFunction</i>.
 
@@ -125,11 +125,11 @@ To be notified of boot-start driver initialization operations, an <i>early launc
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_bdcb_callback_type.md">BDCB_CALLBACK_TYPE</a>
+<a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
 
 <a href="..\ntddk\nf-ntddk-iounregisterbootdrivercallback.md">IoUnRegisterBootDriverCallback</a>
 
-<a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
+<a href="..\ntddk\ne-ntddk-_bdcb_callback_type.md">BDCB_CALLBACK_TYPE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1e58be94-7a10-4708-a658-9de28e26a465
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmRequestOutcomeEnlistment, wdm/TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, kernel.tmrequestoutcomeenlistment
+ms.keywords: ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], wdm/TmRequestOutcomeEnlistment, kernel.tmrequestoutcomeenlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS TmRequestOutcomeEnlistment(
 
 
 
-### -param Enlistment [in]
+#### - Enlistment [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>, <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>, or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a> provided.
 
 
-### -param TmVirtualClock [in]
+#### - TmVirtualClock [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
@@ -120,19 +120,19 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
-
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 <a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+
+<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
 
  
 

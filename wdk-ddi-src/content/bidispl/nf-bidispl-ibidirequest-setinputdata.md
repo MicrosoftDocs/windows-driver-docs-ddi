@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_FLOAT, BIDI_NULL, gdi.ibidirequest_ibidirequest__setinputdata, BIDI_BLOB, IBidiRequest::IBidiRequest::SetInputData, _win32_IBidiRequest_SetInputData, SetInputData, BIDI_ENUM, print.ibidirequest_ibidirequest__setinputdata, bidispl/IBidiRequest::IBidiRequest::SetInputData, IBidiRequest::SetInputData method [Print Devices], IBidiRequest, IBidiRequest::SetInputData method [Print Devices], IBidiRequest interface, BIDI_STRING, IBidiRequest::SetInputData, IBidiRequest interface [Print Devices], IBidiRequest::SetInputData method, BIDI_TEXT, BIDI_BOOL, BIDI_INT
+ms.keywords: print.ibidirequest_ibidirequest__setinputdata, IBidiRequest::IBidiRequest::SetInputData, BIDI_BLOB, BIDI_INT, IBidiRequest::SetInputData, SetInputData, gdi.ibidirequest_ibidirequest__setinputdata, BIDI_FLOAT, IBidiRequest, IBidiRequest::SetInputData method [Print Devices], IBidiRequest interface, bidispl/IBidiRequest::IBidiRequest::SetInputData, BIDI_ENUM, BIDI_BOOL, _win32_IBidiRequest_SetInputData, BIDI_NULL, IBidiRequest::SetInputData method [Print Devices], BIDI_STRING, IBidiRequest interface [Print Devices], IBidiRequest::SetInputData method, BIDI_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT IBidiRequest::SetInputData(
 
 
 
-### -param dwType [in]
+#### - dwType [in]
 
 The type of data to be sent. This parameter can be one of the following values.
 <table>
@@ -160,12 +160,12 @@ Binary data.
 </table> 
 
 
-### -param pData [in]
+#### - pData [in]
 
 A pointer to the byte array that contains the data. For example, if <i>dwType</i> is BIDI_BOOL, <i>pData</i> points to a buffer that contains a Boolean value and if <i>dwType</i> is BIDI_BLOB, <i>pData</i> points to a buffer that contains the binary data.
 
 
-### -param uSize [in]
+#### - uSize [in]
 
 Size, in bytes, of the byte array specified by <i>pData</i>.
 
@@ -247,11 +247,11 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
  
 

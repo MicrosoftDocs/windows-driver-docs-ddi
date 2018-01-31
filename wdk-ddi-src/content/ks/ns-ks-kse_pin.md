@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6936F732-ECAA-4CA7-B2AF-CA22A5C93FC9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSE_PIN, ks/PKSE_PIN, KSE_PIN structure [Streaming Media Devices], KSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], stream.kse_pin, PKSE_PIN, ks/KSE_PIN"
+ms.keywords: ks/KSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], ks/PKSE_PIN, KSE_PIN, stream.kse_pin, PKSE_PIN, *PKSE_PIN, KSE_PIN structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSE_PIN
 product: Windows
 targetos: Windows
-req.typenames: "*PKSE_PIN, KSE_PIN"
+req.typenames: KSE_PIN, *PKSE_PIN
 ---
 
 # KSE_PIN structure
@@ -69,14 +69,14 @@ typedef struct {
 
 
 
-### -field Event
+#### - Event
 
 
 
-### -field PinId
+#### - PinId
 
 
 
-### -field Reserved
+#### - Reserved
 
 

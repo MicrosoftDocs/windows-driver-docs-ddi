@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject, RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices]
+ms.keywords: winsplp/RemovePrintDeviceObject, RemovePrintDeviceObject, print.removeprintdeviceobject, RemovePrintDeviceObject function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ HRESULT WINAPI RemovePrintDeviceObject(
 
 
 
-### -param hDeviceObject [in]
+#### - hDeviceObject [in]
 
 The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>.
 

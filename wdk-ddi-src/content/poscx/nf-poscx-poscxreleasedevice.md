@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxreleasedevice, poscx/PosCxReleaseDevice, PosCxReleaseDevice, PosCxReleaseDevice function
+ms.keywords: PosCxReleaseDevice, poscx/PosCxReleaseDevice, PosCxReleaseDevice function, pos.poscxreleasedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS PosCxReleaseDevice(
 
 
 
-### -param device [in]
+#### - device [in]
 
 A handle to a framework device object that represents the device.
 
 
-### -param fileObject [in]
+#### - fileObject [in]
 
       A handle to a framework file object that identifies the caller.
 

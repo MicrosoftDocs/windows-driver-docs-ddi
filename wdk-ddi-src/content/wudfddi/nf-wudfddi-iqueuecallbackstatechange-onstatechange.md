@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 69a422a1-b878-496e-b1b9-e04b7c3db121
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iqueuecallbackstatechange_onstatechange, umdf.iqueuecallbackstatechange_onstatechange, OnStateChange, wudfddi/IQueueCallbackStateChange::OnStateChange, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, OnStateChange method, IQueueCallbackStateChange, OnStateChange method, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, OnStateChange method, IQueueCallbackStateChange::OnStateChange
+ms.keywords: OnStateChange method, IQueueCallbackStateChange interface, wudfddi/IQueueCallbackStateChange::OnStateChange, OnStateChange method, wdf.iqueuecallbackstatechange_onstatechange, IQueueCallbackStateChange interface, OnStateChange method, umdf.iqueuecallbackstatechange_onstatechange, IQueueCallbackStateChange, OnStateChange, IQueueCallbackStateChange::OnStateChange, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackStateChange.OnStateChange
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ void OnStateChange(
 
 
 
-### -param pWdfQueue [in]
+#### - pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object whose state changes. 
 
 
-### -param QueueState [in]
+#### - QueueState [in]
 
 A valid bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed values that indicates status for the queue.
 
@@ -97,13 +97,13 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
 
  
 

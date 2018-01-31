@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E602F16A-AFD8-4698-AC90-1686887FFEA6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorsdef/ActivityState_Walking, sensorsdef/ACTIVITY_STATE, sensorsdef/ActivityState_Stationary, sensorsdef/ActivityState_Idle, sensorsdef/ActivityState_Force_Dword, ACTIVITY_STATE, ActivityState_Biking, sensorsdef/ActivityState_Fidgeting, ActivityState_InVehicle, sensorsdef/ActivityState_InVehicle, ACTIVITY_STATE enumeration [Sensor Devices], ActivityState_Idle, ActivityState_Max, ActivityState_Unknown, sensorsdef/ActivityState_Unknown, ActivityState_Running, sensors.activity_states, ActivityState_Force_Dword, ActivityState_Walking, sensorsdef/ActivityState_Biking, sensorsdef/ActivityState_Max, sensorsdef/ActivityState_Running, ActivityState_Fidgeting, ActivityState_Stationary
+ms.keywords: sensorsdef/ActivityState_Stationary, sensorsdef/ActivityState_Running, sensorsdef/ACTIVITY_STATE, sensorsdef/ActivityState_Walking, sensorsdef/ActivityState_Max, ActivityState_Unknown, ActivityState_Walking, sensorsdef/ActivityState_Force_Dword, ActivityState_InVehicle, ActivityState_Running, sensorsdef/ActivityState_Biking, sensorsdef/ActivityState_InVehicle, ACTIVITY_STATE, ActivityState_Biking, sensors.activity_states, sensorsdef/ActivityState_Idle, sensorsdef/ActivityState_Fidgeting, ACTIVITY_STATE enumeration [Sensor Devices], sensorsdef/ActivityState_Unknown, ActivityState_Idle, ActivityState_Stationary, ActivityState_Force_Dword, ActivityState_Max, ActivityState_Fidgeting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,52 +77,52 @@ typedef enum _ACTIVITY_STATES {
 
 
 
-### -field ActivityState_Unknown
+#### - ActivityState_Unknown
 
 The sensor cannot accurately determine the current activity.
 
 
-### -field ActivityState_Stationary
+#### - ActivityState_Stationary
 
 Indicates that the sensor is currently stationary.
 
 
-### -field ActivityState_Fidgeting
+#### - ActivityState_Fidgeting
 
 Describes the current activity as "fidgeting."
 
 
-### -field ActivityState_Walking
+#### - ActivityState_Walking
 
 Describes the current activity as "walking."
 
 
-### -field ActivityState_Running
+#### - ActivityState_Running
 
 Describes the current activity as "running."
 
 
-### -field ActivityState_InVehicle
+#### - ActivityState_InVehicle
 
 Describes the current activity as "traveling in a vehicle."
 
 
-### -field ActivityState_Biking
+#### - ActivityState_Biking
 
 Describes the current activity as "biking."
 
 
-### -field ActivityState_Idle
+#### - ActivityState_Idle
 
 Describes the current activity as "idle."
 
 
-### -field ActivityState_Max
+#### - ActivityState_Max
 
 Indicates that the current activity state is generating maximum sensor values. In this scenario the sensor doesn't indicate what the activity is.
 
 
-### -field ActivityState_Force_Dword
+#### - ActivityState_Force_Dword
 
 Used to force the ACTIVITY_STATE enum to a 32-bit data type (a DWORD).
 

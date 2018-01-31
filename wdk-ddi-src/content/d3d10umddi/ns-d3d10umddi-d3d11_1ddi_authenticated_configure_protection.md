@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2932fd35-54dc-4054-99e5-9b33aac77413
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION, display.d3d11_1ddi_authenticated_configure_protection, D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION structure [Display Devices], D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION
+ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION structure [Display Devices], D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION, display.d3d11_1ddi_authenticated_configure_protection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION {
 
 
 
-### -field Parameters
+#### - Parameters
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data. 
 
 
-### -field Protections
+#### - Protections
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_protection_flags.md">D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS</a> structure that specifies the protection level.
 

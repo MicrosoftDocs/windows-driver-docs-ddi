@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b16ba776-a6b2-46d0-9b6f-18ea17cf4fce
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: TypeOther, PDXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE, dispmprt/TypeUninitialized, TypeIntegratedDisplay, DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, TypeVideoOutput, dispmprt/TypeOther, *PDXGK_CHILD_DEVICE_TYPE, dispmprt/TypeVideoOutput, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], display.dxgk_child_device_type, TypeUninitialized, dispmprt/TypeIntegratedDisplay, _DXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], dispmprt/PDXGK_CHILD_DEVICE_TYPE, dispmprt/DXGK_CHILD_DEVICE_TYPE
+ms.keywords: DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], display.dxgk_child_device_type, dispmprt/PDXGK_CHILD_DEVICE_TYPE, dispmprt/TypeOther, _DXGK_CHILD_DEVICE_TYPE, TypeOther, *PDXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE, dispmprt/TypeVideoOutput, TypeIntegratedDisplay, TypeVideoOutput, dispmprt/DXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], PDXGK_CHILD_DEVICE_TYPE, TypeUninitialized, dispmprt/TypeIntegratedDisplay, dispmprt/TypeUninitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _DXGK_CHILD_DEVICE_TYPE {
 
 
 
-### -field TypeUninitialized
+#### - TypeUninitialized
 
 Indicates that a variable of type DXGK_CHILD_DEVICE_TYPE has not yet been assigned a meaningful value.
 
 
-### -field TypeVideoOutput
+#### - TypeVideoOutput
 
 Indicates that the child device is a video output. A video output is the circuitry on the display adapter that supplies a video signal to an external or integrated monitor (or other display device). Note that monitors, integrated LCD panels, and other devices that actually display an image are not considered child devices of the display adapter. 
 
 
-### -field TypeOther
+#### - TypeOther
 
 Indicates that the child device is not a video output. TV tuners, crossbar switches, and MPEG2 codecs are examples of child devices that are not video outputs.
 
 
-### -field TypeIntegratedDisplay
+#### - TypeIntegratedDisplay
 
 Type indicating that this target is permanently connected to an integrated display.
 
@@ -101,9 +101,9 @@ For more information about child devices of display adapters, see <a href="https
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
  
 

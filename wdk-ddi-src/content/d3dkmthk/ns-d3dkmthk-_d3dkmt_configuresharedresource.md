@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, display.d3dkmt_configuresharedresource, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE
+ms.keywords: display.d3dkmt_configuresharedresource, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], D3DKMT_CONFIGURESHAREDRESOURCE, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMT_CONFIGURESHAREDRESOURCE {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A handle to the device that the resource is associated with. 
 
 
-### -field hResource
+#### - hResource
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the shared resource to configure. 
 
 
-### -field IsDwm
+#### - IsDwm
 
 [in] A Boolean value that specifies whether the current process is the Desktop Windows Manager (DWM). <b>TRUE</b> indicates DWM; <b>FALSE</b> indicates that the current process is non-DWM and is specified by the <b>hProcess</b> member. 
 
 
-### -field hProcess
+#### - hProcess
 
 [in] A handle to the process for the non-DWM situation. 
 
 
-### -field AllowAccess
+#### - AllowAccess
 
 [in] A Boolean value that specifies whether the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> function should allow the process to access the resource. <b>TRUE</b> indicates to allow access; <b>FALSE</b> indicates to not allow access. 
 

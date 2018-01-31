@@ -40,7 +40,7 @@ apiname:
 -	Dump_Unload
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_UNLOAD callback
@@ -70,7 +70,7 @@ NTSTATUS Dump_Unload(
 
 
 
-### -param FilterExtension [in]
+#### - FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 

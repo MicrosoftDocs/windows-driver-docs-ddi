@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], IDebugControl4 interface, debugger.executewide, IDebugControl4, ExecuteWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide
+ms.keywords: IDebugControl4 interface [Windows Debugging], ExecuteWide method, ExecuteWide method [Windows Debugging], IDebugControl4::ExecuteWide, ExecuteWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, debugger.executewide, dbgeng/IDebugControl4::ExecuteWide, ExecuteWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT ExecuteWide(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies the output control to use while executing the command.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-### -param Command [in]
+#### - Command [in]
 
 Specifies the command string to execute.  The command is interpreted like those typed into a debugger command window.  This command string can contain multiple commands for the engine to execute.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff540507">Debugger Commands</a> for the command reference.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies a bit field of execution options for the command.  The default options are to log the command but to not send it to the output.  The following table lists the bits that can be set.
 <table>

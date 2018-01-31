@@ -40,7 +40,7 @@ apiname:
 -	EvtDeviceEnableWakeAtBus
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ NTSTATUS EvtDeviceEnableWakeAtBus(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PowerState [in]
+#### - PowerState [in]
 
 A SYSTEM_POWER_STATE-typed enumerator that identifies the system power state that the system or device will wake from.
 

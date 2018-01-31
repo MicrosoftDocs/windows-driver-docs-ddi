@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 54578dc5-a88f-4649-adbd-6a5e1e31e7b3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, wsk/WSK_INSPECT_ID, PWSK_INSPECT_ID, *PWSK_INSPECT_ID, wsk/PWSK_INSPECT_ID, PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_inspect_id"
+ms.keywords: wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml, wsk/WSK_INSPECT_ID, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, netvista.wsk_inspect_id, wsk/PWSK_INSPECT_ID, PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], *PWSK_INSPECT_ID, PWSK_INSPECT_ID, _WSK_INSPECT_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_INSPECT_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_INSPECT_ID, WSK_INSPECT_ID"
+req.typenames: WSK_INSPECT_ID, *PWSK_INSPECT_ID
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ typedef struct _WSK_INSPECT_ID {
 
 
 
-### -field Key
+#### - Key
 
 A key that is assigned to the incoming connection request.
 
 
-### -field SerialNumber
+#### - SerialNumber
 
 A serial number that is assigned to the incoming connection request.
 
@@ -116,9 +116,9 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
 

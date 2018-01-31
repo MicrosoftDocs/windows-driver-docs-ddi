@@ -40,7 +40,7 @@ apiname:
 -	WskControlSocket
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -81,14 +81,14 @@ NTSTATUS WSKAPI * WskControlSocket(
 
 
 
-### -param Socket [in]
+#### - Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the socket on which the control operation is being performed.
 
 
-### -param RequestType [in]
+#### - RequestType [in]
 
 A value that specifies the type of control operation that is being performed. A WSK application
      sets this parameter to one of the following values:
@@ -112,7 +112,7 @@ Get the state or value of a socket option.
 Perform an I/O control operation.
 
 
-### -param ControlCode [in]
+#### - ControlCode [in]
 
 If the 
      <i>RequestType</i> parameter is set to 
@@ -133,7 +133,7 @@ If the
      underlying network protocol might support additional socket I/O control operations.
 
 
-### -param Level [in]
+#### - Level [in]
 
 The level in the network stack at which the value for a socket option is being either set or
      retrieved. For WSK subsystem level socket options, the WSK application should set this parameter to
@@ -147,13 +147,13 @@ If the
      <i>Level</i> parameter is ignored.
 
 
-### -param InputSize [in]
+#### - InputSize [in]
 
 The number of bytes of data in the buffer that is pointed to by the 
      <i>InputBuffer</i> parameter.
 
 
-### -param InputBuffer [in, optional]
+#### - InputBuffer [in, optional]
 
 A caller-allocated buffer that supplies any input data that is required to perform the specified
      control operation. If no input data is required for the specified control operation, the WSK application
@@ -161,13 +161,13 @@ A caller-allocated buffer that supplies any input data that is required to perfo
      <i>InputSize</i> parameter to zero.
 
 
-### -param OutputSize [in]
+#### - OutputSize [in]
 
 The size of the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter.
 
 
-### -param OutputBuffer [out, optional]
+#### - OutputBuffer [out, optional]
 
 A caller-allocated buffer that receives any output data that is returned by the specified control
      operation. If no output data is returned by the specified control operation, the WSK application should
@@ -175,11 +175,32 @@ A caller-allocated buffer that receives any output data that is returned by the 
      <i>OutputSize</i> parameter to zero.
 
 
-### -param *OutputSizeReturned
+#### - *OutputSizeReturned [out, optional]
 
+A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
+     the buffer that is pointed to by the 
+     <i>OutputBuffer</i> parameter. A WSK application should set the 
+     <i>OutputSizeReturned</i> parameter to <b>NULL</b> except when all of the following are true:
+     
+<ul>
+<li>
+The 
+       <i>Irp</i> parameter is set to <b>NULL</b>.
 
+</li>
+<li>
+The operation that is being performed returns output data in the buffer that is pointed to by the 
+       <i>OutputBuffer</i> parameter.
 
-### -param Irp [in, out]
+</li>
+<li>
+The number of bytes of output data that is returned by the operation that is being performed is
+       unknown.
+
+</li>
+</ul>
+
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -358,20 +379,20 @@ Callers of the
 <mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
    WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 <mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
    WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
  
 

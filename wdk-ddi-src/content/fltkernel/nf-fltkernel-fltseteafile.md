@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 06427ef2-43e9-46c1-92e5-ab1b6146cc43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltSetEaFile, FltSetEaFile, ifsk.fltseteafile, FltApiRef_p_to_z_7e886e7f-a5f4-4a87-9322-7818e31c84af.xml, FltSetEaFile function [Installable File System Drivers]
+ms.keywords: ifsk.fltseteafile, fltkernel/FltSetEaFile, FltSetEaFile, FltApiRef_p_to_z_7e886e7f-a5f4-4a87-9322-7818e31c84af.xml, FltSetEaFile function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FltSetEaFile(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for the minifilter driver instance that the SetEa operation is to be sent to. The instance must be attached to the volume where the file resides. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 File object pointer for the file. 
 
 
-### -param EaBuffer [in]
+#### - EaBuffer [in]
 
 Pointer to a caller-supplied, <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set. 
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length, in bytes, of the buffer that the <i>EaBuffer</i> parameter points to. 
 

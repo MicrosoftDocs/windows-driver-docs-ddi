@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c39a9438-d3be-4f01-96d5-01c7339a666a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], NDIS_WMI_METHOD_HEADER, ntddndis/NDIS_WMI_METHOD_HEADER, netvista.ndis_wmi_method_header, PNDIS_WMI_METHOD_HEADER, _NDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER, ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, ntddndis/PNDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], *PNDIS_WMI_METHOD_HEADER, netvista.ndis_wmi_method_header, ntddndis/NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER, _NDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_WMI_METHOD_HEADER, ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WMI_METHOD_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER"
+req.typenames: NDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER
 ---
 
 # _NDIS_WMI_METHOD_HEADER structure
@@ -73,7 +73,7 @@ typedef struct _NDIS_WMI_METHOD_HEADER {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for this
@@ -84,7 +84,7 @@ The
      sizeof(NDIS_WMI_METHOD_HEADER).
 
 
-### -field PortNumber
+#### - PortNumber
 
 The miniport adapter port, if any. If the GUID is not specific to a port, 
      <b>PortNumber</b> is zero. WMI clients can use the 
@@ -93,7 +93,7 @@ The miniport adapter port, if any. If the GUID is not specific to a port,
      adapter.
 
 
-### -field NetLuid
+#### - NetLuid
 
 The NDIS network interface name of the miniport adapter. WMI clients can use the 
      <mshelp:link keywords="netvista.guid_ndis_enumerate_adapters_ex" tabindex="0">
@@ -101,7 +101,7 @@ The NDIS network interface name of the miniport adapter. WMI clients can use the
      <b>NetLuid</b> value.
 
 
-### -field RequestId
+#### - RequestId
 
 An identifier for the request. If a miniport driver must complete a request immediately and it
      completes the request with a status of NDIS_STATUS_INDICATION_REQUIRED, the miniport driver uses this 
@@ -120,7 +120,7 @@ For more information about this member, see
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
 
 
-### -field Timeout
+#### - Timeout
 
 A time-out, in seconds, for the request. NDIS can reset the driver or cancel the request if the
       time-out expires before the driver completes the request.
@@ -129,7 +129,7 @@ For more information about this member, see
       <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
 
 
-### -field Padding
+#### - Padding
 
 This member is reserved.
 
@@ -147,9 +147,9 @@ WMI method GUID requests that are specific to NDIS 6.0 and later versions includ
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
 

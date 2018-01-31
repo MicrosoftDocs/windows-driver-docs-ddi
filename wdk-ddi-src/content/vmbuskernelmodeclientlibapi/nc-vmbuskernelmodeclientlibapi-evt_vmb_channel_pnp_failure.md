@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_CHANNEL_PNP_FAILURE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -78,12 +78,12 @@ typedef EVT_VMB_CHANNEL_PNP_FAILURE PFN_VMB_CHANNEL_PNP_FAILURE;
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The channel of the client endpoint.
 
 
-### -param FailureStatus [in]
+#### - FailureStatus [in]
 
 A failure code.
 

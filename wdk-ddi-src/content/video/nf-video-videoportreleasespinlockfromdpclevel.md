@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 375158e7-3fb5-4e49-a7cf-ee9a1e5c07ca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReleaseSpinLockFromDpcLevel, display.videoportreleasespinlockfromdpclevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, video/VideoPortReleaseSpinLockFromDpcLevel
+ms.keywords: VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, video/VideoPortReleaseSpinLockFromDpcLevel, display.videoportreleasespinlockfromdpclevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID VideoPortReleaseSpinLockFromDpcLevel(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3bcb9a6f-aacc-4b42-ba8e-1a1a4898f96d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_9e525f5b-c264-46e5-84f3-3a7845b61200.xml, ksmedia/PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION structure [Audio Devices], PKSDS3D_LISTENER_ORIENTATION, ksmedia/KSDS3D_LISTENER_ORIENTATION, *PKSDS3D_LISTENER_ORIENTATION, PKSDS3D_LISTENER_ORIENTATION structure pointer [Audio Devices], audio.ksds3d_listener_orientation, KSDS3D_LISTENER_ORIENTATION
+ms.keywords: ksmedia/KSDS3D_LISTENER_ORIENTATION, *PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION, PKSDS3D_LISTENER_ORIENTATION structure pointer [Audio Devices], audio.ksds3d_listener_orientation, ksmedia/PKSDS3D_LISTENER_ORIENTATION, PKSDS3D_LISTENER_ORIENTATION, aud-prop_9e525f5b-c264-46e5-84f3-3a7845b61200.xml, KSDS3D_LISTENER_ORIENTATION structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Front
+#### - Front
 
 Specifies the front orientation vector of the 3D listener. This member is a structure of type <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>.
 
 
-### -field Top
+#### - Top
 
 Specifies the top orientation vector of the 3D listener. This member is a structure of type DS3DVECTOR.
 
@@ -87,9 +87,9 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetOr
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537343">KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION</a>
+
+<a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
 
  
 

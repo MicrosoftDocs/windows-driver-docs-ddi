@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5aa6aa90-ef41-467e-a096-5ab660b3f357
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcForwardContentToInterface function [Audio Devices], portcls/PcForwardContentToInterface, audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, PcForwardContentToInterface, audio.pcforwardcontenttointerface
+ms.keywords: portcls/PcForwardContentToInterface, audio.pcforwardcontenttointerface, audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, PcForwardContentToInterface function [Audio Devices], PcForwardContentToInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcForwardContentToInterface
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcForwardContentToInterface function

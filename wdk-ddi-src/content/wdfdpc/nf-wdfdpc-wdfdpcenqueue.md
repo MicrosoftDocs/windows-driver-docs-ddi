@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08bc78de-ba04-4845-9d22-c06cd5684f7f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, wdfdpc/WdfDpcEnqueue, WdfDpcEnqueue method, PFN_WDFDPCENQUEUE, kmdf.wdfdpcenqueue, wdf.wdfdpcenqueue, WdfDpcEnqueue
+ms.keywords: PFN_WDFDPCENQUEUE, wdf.wdfdpcenqueue, WdfDpcEnqueue method, kmdf.wdfdpcenqueue, WdfDpcEnqueue, wdfdpc/WdfDpcEnqueue, DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ BOOLEAN WdfDpcEnqueue(
 
 
 
-### -param Dpc [in]
+#### - Dpc [in]
 
 A handle to a framework DPC object.
 
@@ -100,9 +100,9 @@ For more information about using DPC objects, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
+
+<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
  
 

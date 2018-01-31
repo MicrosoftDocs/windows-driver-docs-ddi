@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiControlEtwLogging
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_CONTROL_ETW_LOGGING callback
@@ -72,17 +72,17 @@ VOID DxgkDdiControlEtwLogging(
 
 
 
-### -param Enable [in]
+#### - Enable [in]
 
 A Boolean value that indicates whether <i>DxgkDdiControlEtwLogging </i>enables or disables ETW event logging. <b>TRUE</b> indicates that it enables and <b>FALSE</b> indicates that it disables.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A valid bitwise OR of values. Currently, no flags are defined.
 
 
-### -param Level [in]
+#### - Level [in]
 
 A value that indicates the level of event logging.
 

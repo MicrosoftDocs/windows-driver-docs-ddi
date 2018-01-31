@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4069ded7-95d7-46c2-a4a7-a360482c7b7d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmodemresetstate, RIL_MODEMRESETSTATE_FAILED, ntddrilapitypes/RIL_MODEMRESETSTATE_MAX, RILMODEMRESETSTATE, RIL_MODEMRESETSTATE_RECOVERED, ntddrilapitypes/RIL_MODEMRESETSTATE_RECOVERED, ntddrilapitypes/RILMODEMRESETSTATE, RILMODEMRESETSTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MODEMRESETSTATE_FAILED, RIL_MODEMRESETSTATE_MAX
+ms.keywords: RILMODEMRESETSTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MODEMRESETSTATE_FAILED, ntddrilapitypes/RIL_MODEMRESETSTATE_MAX, ntddrilapitypes/RIL_MODEMRESETSTATE_RECOVERED, RIL_MODEMRESETSTATE_MAX, RIL_MODEMRESETSTATE_FAILED, ntddrilapitypes/RILMODEMRESETSTATE, RIL_MODEMRESETSTATE_RECOVERED, RILMODEMRESETSTATE, netvista.rilmodemresetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILMODEMRESETSTATE {
 
 
 
-### -field RIL_MODEMRESETSTATE_RECOVERED
+#### - RIL_MODEMRESETSTATE_RECOVERED
 
 
 
-### -field RIL_MODEMRESETSTATE_FAILED
+#### - RIL_MODEMRESETSTATE_FAILED
 
 
 
-### -field RIL_MODEMRESETSTATE_MAX
+#### - RIL_MODEMRESETSTATE_MAX
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a1e5ae2e-b183-4ccc-8413-1359c4e8a6bc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, ntddndis/OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, ntddndis/POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], 216offload_de874753-3127-47fb-8768-a5e2bd6eb96d.xml, netvista.offload_ipsec_udpesp_encaptype_entry, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: ntddndis/OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, netvista.offload_ipsec_udpesp_encaptype_entry, 216offload_de874753-3127-47fb-8768-a5e2bd6eb96d.xml, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, ntddndis/POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY {
 
 
 
-### -field UdpEncapType
+#### - UdpEncapType
 
 The UDP-ESP encapsulation type for packets protected by the security associations (SAs) that are
      being offloaded:
@@ -90,7 +90,7 @@ UDP encapsulation for packets on port 4500. For more information, see
        Types</mshelp:link>.
 
 
-### -field DstEncapPort
+#### - DstEncapPort
 
 For an inbound SA (Flags = OFFLOAD_INBOUND_SA), specifies the destination port that the NIC should
      look for in the UDP header of inbound packets that it processes on the SAs being offloaded. The NIC

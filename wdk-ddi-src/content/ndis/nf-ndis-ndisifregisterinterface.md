@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface
+ms.keywords: NdisIfRegisterInterface, ndis/NdisIfRegisterInterface, netvista.ndisifregisterinterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NDIS_STATUS NdisIfRegisterInterface(
 
 
 
-### -param NdisProviderHandle [in]
+#### - NdisProviderHandle [in]
 
 A handle that identifies the network interface provider that is registering the interface. The
      caller obtained this handle from a previous call to the 
@@ -81,7 +81,7 @@ A handle that identifies the network interface provider that is registering the 
      NdisIfRegisterProvider</b></mshelp:link> function.
 
 
-### -param NetLuid [in]
+#### - NetLuid [in]
 
 The caller-supplied 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value that is associated with the
@@ -92,14 +92,14 @@ The caller-supplied
      interface.
 
 
-### -param ProviderIfContext [in]
+#### - ProviderIfContext [in]
 
 A handle to a caller-allocated context area that is associated with the interface. NDIS passes
      this handle to the callback functions that the caller registered with 
      <b>NdisIfRegisterProvider</b>.
 
 
-### -param pIfInfo [in]
+#### - pIfInfo [in]
 
 A pointer to a caller-allocated 
      <a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a> structure that
@@ -228,17 +228,17 @@ To indicate that an interface should be removed from the list of known interface
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
 
 <a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
  
 

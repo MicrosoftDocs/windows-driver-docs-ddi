@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2, GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], GetOptions method, IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, GetOptions, print.iprintcoreui2_getoptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml
+ms.keywords: GetOptions, GetOptions method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::GetOptions, IPrintCoreUI2, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml, GetOptions method [Print Devices], IPrintCoreUI2 interface [Print Devices], GetOptions method, IPrintCoreUI2::GetOptions, print.iprintcoreui2_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,37 +74,37 @@ HRESULT GetOptions(
 
 
 
-### -param poemuiobj [in]
+#### - poemuiobj [in]
 
 Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-### -param pmszFeaturesRequested [in]
+#### - pmszFeaturesRequested [in]
 
 Pointer to caller-supplied buffer containing a list of feature keywords (in MULTI_SZ format) whose settings are requested. Set this parameter to <b>NULL</b> to obtain settings for all features.
 
 
-### -param cbIn [in]
+#### - cbIn [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeaturesRequested</i>. The size includes the last MULTI_SZ null character.
 
 
-### -param pmszFeatureOptionBuf [out]
+#### - pmszFeatureOptionBuf [out]
 
 Pointer to a caller-supplied buffer that receives a list of feature/option keyword pairs (in MULTI_SZ format) obtained from the driver settings. Each feature/option keyword pair contains the feature keyword name, a null character, the option keyword name, and another null character. The list is terminated by two null characters.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureOptionBuf</i>.
 
 
-### -param pcbNeeded [out]
+#### - pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the feature/option keyword pairs.
 
@@ -196,13 +196,13 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553081">IPrintCoreUI2::SetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553081">IPrintCoreUI2::SetOptions</a>
 
  
 

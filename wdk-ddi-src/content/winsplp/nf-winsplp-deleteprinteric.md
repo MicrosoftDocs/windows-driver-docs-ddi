@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DeletePrinterIC function [Print Devices], winsplp/DeletePrinterIC, print.deleteprinteric, DeletePrinterIC
+ms.keywords: print.deleteprinteric, DeletePrinterIC, DeletePrinterIC function [Print Devices], winsplp/DeletePrinterIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,6 +68,6 @@ BOOL WINAPI DeletePrinterIC(
 
 
 
-### -param hPrinterIC [in]
+#### - hPrinterIC [in]
 
 

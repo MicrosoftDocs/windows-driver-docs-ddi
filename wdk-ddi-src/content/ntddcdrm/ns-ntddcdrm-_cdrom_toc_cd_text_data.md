@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 92e87c1d-17c4-4ac8-af9d-08863ce84c9e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA, storage.cdrom_toc_cd_text_data, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA, _CDROM_TOC_CD_TEXT_DATA, structs-CD-ROM_7c78a819-dd2b-45bf-ba44-b8115fe1b998.xml, CDROM_TOC_CD_TEXT_DATA structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA structure pointer [Storage Devices], ntddcdrm/CDROM_TOC_CD_TEXT_DATA, PCDROM_TOC_CD_TEXT_DATA"
+ms.keywords: storage.cdrom_toc_cd_text_data, *PCDROM_TOC_CD_TEXT_DATA, PCDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA structure pointer [Storage Devices], _CDROM_TOC_CD_TEXT_DATA, structs-CD-ROM_7c78a819-dd2b-45bf-ba44-b8115fe1b998.xml, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA, ntddcdrm/CDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_TOC_CD_TEXT_DATA
 product: Windows
 targetos: Windows
-req.typenames: CDROM_TOC_CD_TEXT_DATA, *PCDROM_TOC_CD_TEXT_DATA
+req.typenames: "*PCDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA"
 ---
 
 # _CDROM_TOC_CD_TEXT_DATA structure
@@ -70,33 +70,33 @@ typedef struct _CDROM_TOC_CD_TEXT_DATA {
 
 
 
-### -field Length
+#### - Length
 
 Indicates the number of bytes to be transferred in response to the IOCTL_CDROM_READ_TOC_EX IOCTL. This length value does not include the length of the <b>Length </b>member itself. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved.
 
 
-### -field Descriptors
+#### - Descriptors
 
 Contains zero or more text data block descriptors of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>. 
 
 
 ## -see-also
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
 
  
 

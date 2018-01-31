@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 09c2746f-cfe4-41dc-82ce-0b7e0c348897
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: Download microcode with offsets, save, and defer activate, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Download microcode with offsets, save, and activate, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices], Reserved, Activate deferred microcode
+ms.keywords: "*PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Activate deferred microcode, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Reserved, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], Download microcode with offsets, save, and defer activate, Download microcode with offsets, save, and activate, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 product: Windows
 targetos: Windows
-req.typenames: "*PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
+req.typenames: SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 req.product: Windows 10 or later.
 ---
 
@@ -79,30 +79,30 @@ typedef struct _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE {
 
 
 
-### -field PageCode
+#### - PageCode
 
 Specifies the diagnostic page being sent or requested based on the value. For a Microcode Control diagnostic page, the value should be 0x0E.
 
 
-### -field SubEnclosureId
+#### - SubEnclosureId
 
 Specifies the sub enclosure to which the application client is
-sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\minitape\ns-minitape-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
+sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\scsi\ns-scsi-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
 process shall abort the download microcode operation with a status of 0x80.
 
 
-### -field PageLength
+#### - PageLength
 
 Specifies the number of bytes that follow in the diagnostic page.
 
 
-### -field ExpectedGenerationCode
+#### - ExpectedGenerationCode
 
 Specifies the expected value of the generation code. If this parameter is not set to the current generation code, then the enclosure services
 process shall abort the download microcode operation with a status of 0x80. 
 
 
-### -field Mode
+#### - Mode
 
 Specifies which mode to download the microcode with. 
 <table>
@@ -202,12 +202,12 @@ Reserved for future use.
 </table> 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for future use.
 
 
-### -field BufferID
+#### - BufferID
 
 Specifies a specific buffer within the enclosure services process to receive the microcode
 image. The enclosure services process assigns vendor specific buffer ID codes to buffers (e.g., the main
@@ -218,23 +218,23 @@ enclosure services process receives an unsupported buffer ID code, then it shall
 microcode operation and set the <i>Status</i> field in <a href="https://msdn.microsoft.com/af686e7a-9426-4151-8ac4-d95ae1689b4c">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a>  to 0x80 in the <a href="https://msdn.microsoft.com/4572040b-c234-4281-b9d7-14d7f2bb7506">SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE</a> structure.
 
 
-### -field BufferOffset
+#### - BufferOffset
 
 Specifies the offset in bytes within the buffer to which the microcode data is written in multiples of four. The enclosure services process may require that this  field be contiguously increasing in consecutive SEND DIAGNOSTIC commands. 
 
 
-### -field ImageLength
+#### - ImageLength
 
 specifies the total number of bytes in the microcode image the application
 intends to send to the specified <i>BufferID</i>.
 
 
-### -field DataLength
+#### - DataLength
 
 Specifies the length of <i>Data</i>, in bytes.
 
 
-### -field Data
+#### - Data
 
 Contains part of the vendor specific microcode image.
 

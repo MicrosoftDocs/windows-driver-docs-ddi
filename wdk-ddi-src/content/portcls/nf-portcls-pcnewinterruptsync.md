@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2455d09a-608e-4529-9c27-ed760c7da675
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewInterruptSync, portcls/PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, audio.pcnewinterruptsync
+ms.keywords: audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, PcNewInterruptSync function [Audio Devices], portcls/PcNewInterruptSync, audio.pcnewinterruptsync, PcNewInterruptSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcNewInterruptSync
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcNewInterruptSync function
@@ -72,27 +72,27 @@ NTSTATUS PcNewInterruptSync(
 
 
 
-### -param OutInterruptSync [out]
+#### - OutInterruptSync [out]
 
 Output pointer for the interrupt-synchronization object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in, optional]
+#### - OuterUnknown [in, optional]
 
 Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
-### -param ResourceList [in]
+#### - ResourceList [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object that was provided to the miniport driver during initialization. The port driver will examine this resource list but will not modify it.
 
 
-### -param ResourceIndex [in]
+#### - ResourceIndex [in]
 
 Specifies the index of the interrupt resource in the resource list. If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a> method returns a count of N for type CmResourceTypeInterrupt, <i>ResourceIndex</i> must be a value in the range 0 to N-1.
 
 
-### -param Mode [in]
+#### - Mode [in]
 
 Specifies the way that multiple ISRs are handled. Set this parameter to one of the INTERRUPTSYNCMODE enumeration values. For more information, see the following Remarks section.
 
@@ -153,11 +153,11 @@ The <i>OutInterruptSync</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parame
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

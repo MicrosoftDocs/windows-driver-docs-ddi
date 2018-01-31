@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetpfns, StorPortGetPfns, storport/StorPortGetPfns, StorPortGetPfns routine [Storage Devices]
+ms.keywords: StorPortGetPfns, storage.storportgetpfns, StorPortGetPfns routine [Storage Devices], storport/StorPortGetPfns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,34 +76,34 @@ ULONG StorPortGetPfns(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver.
 
 
-### -param Srb [in]
+#### - Srb [in]
 
 A pointer to the source SCSI request block (SRB). 
 
 
-### -param Mdl [in]
+#### - Mdl [in]
 
 A pointer to the MDL for which Pfns are requested. Only MDLs obtained 
             using <b>StorPortGetOriginalMdl</b> or <b>StorPortGetDataInBufferMdl</b> are supported.
 
 
-### -param Pfns [out]
+#### - Pfns [out]
 
  A pointer to the beginning of the array of physical page numbers that are associated with the MDL.
               Callers must NOT modify or update or free the list.
 
 
-### -param PfnCount [out]
+#### - PfnCount [out]
 
 Specifies the number of PFNs in the array.
 
 
-### -param StartingOffset [out]
+#### - StartingOffset [out]
 
 Specifies the byte offset within the initial page of the buffer described by the given MDL.
 
@@ -159,7 +159,7 @@ A pointer to one of the parameters  is <b>NULL</b>.
 
  Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the device object for the HBA immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>.
 
 
 

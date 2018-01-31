@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E92F181A-DBD7-44A3-A49D-DDF07E03ADB1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetReadIntervalTimeout method [Serial Ports], 1/SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout, serports.sercxgetreadintervaltimeout
+ms.keywords: SerCxGetReadIntervalTimeout method [Serial Ports], serports.sercxgetreadintervaltimeout, 1/SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG SerCxGetReadIntervalTimeout(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
@@ -91,9 +91,9 @@ A read (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">I
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
 
  
 

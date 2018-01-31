@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwdeletekey, ZwDeleteKey, k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, NtDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], wdm/NtDeleteKey, wdm/ZwDeleteKey
+ms.keywords: NtDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, ZwDeleteKey, kernel.zwdeletekey, wdm/ZwDeleteKey, wdm/NtDeleteKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ZwDeleteKey(
 
 
 
-### -param KeyHandle [in]
+#### - KeyHandle [in]
 
 Handle to the registry key to be deleted. The handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>. 
 

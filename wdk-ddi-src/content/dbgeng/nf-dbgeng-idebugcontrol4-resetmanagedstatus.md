@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6A9F8963-54F2-4AD7-AB98-C3215E1F7839
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::ResetManagedStatus, IDebugControl4 interface [Windows Debugging], ResetManagedStatus method, dbgeng/IDebugControl4::ResetManagedStatus, ResetManagedStatus, debugger.idebugcontrol4_resetmanagedstatus, IDebugControl4, ResetManagedStatus method [Windows Debugging], IDebugControl4 interface, ResetManagedStatus method [Windows Debugging]
+ms.keywords: ResetManagedStatus, IDebugControl4::ResetManagedStatus, ResetManagedStatus method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ResetManagedStatus method, ResetManagedStatus method [Windows Debugging], IDebugControl4 interface, IDebugControl4, debugger.idebugcontrol4_resetmanagedstatus, dbgeng/IDebugControl4::ResetManagedStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ResetManagedStatus(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Flags for the debugging API.
 

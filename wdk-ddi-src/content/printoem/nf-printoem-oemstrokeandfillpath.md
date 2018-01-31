@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f8a2df5d-426f-4872-8d54-55895c4fe6e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMStrokeAndFillPath, printoem/OEMStrokeAndFillPath, print_unidrv-pscript_rendering_e370d4e7-4593-46c7-87dd-93c963400290.xml, print.oemstrokeandfillpath, OEMStrokeAndFillPath function [Print Devices]
+ms.keywords: OEMStrokeAndFillPath, OEMStrokeAndFillPath function [Print Devices], print_unidrv-pscript_rendering_e370d4e7-4593-46c7-87dd-93c963400290.xml, printoem/OEMStrokeAndFillPath, print.oemstrokeandfillpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,42 +77,42 @@ BOOL APIENTRY OEMStrokeAndFillPath(
 
 
 
-### -param pso
+#### - pso
 
 
 
-### -param ppo
+#### - ppo
 
 
 
-### -param pco
+#### - pco
 
 
 
-### -param pxo
+#### - pxo
 
 
 
-### -param pboStroke
+#### - pboStroke
 
 
 
-### -param plineattrs
+#### - plineattrs
 
 
 
-### -param pboFill
+#### - pboFill
 
 
 
-### -param pptlBrushOrg
+#### - pptlBrushOrg
 
 
 
-### -param mixFill
+#### - mixFill
 
 
 
-### -param flOptions
+#### - flOptions
 
 

@@ -75,24 +75,24 @@ typedef SRIOV_GET_RESOURCE_FOR_BAR *PSRIOV_GET_RESOURCE_FOR_BAR;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
 A pointer to a driver-defined context.
                     
                 
 
 
-### -param VfIndex [in]
+#### - VfIndex [in]
 
 A zero-based index of the VF that is being queried. 
 
 
-### -param BarIndex [in]
+#### - BarIndex [in]
 
 The index of the BAR (between 0 and 5).
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 
                     

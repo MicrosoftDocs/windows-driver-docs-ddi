@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c70137b2-1926-4d45-a473-8eb7195ba23d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchPortPropertyTypeRoutingDomain, ntddndis/NdisSwitchPortPropertyTypeSecurity, ntddndis/NdisSwitchPortPropertyTypeVlan, PNDIS_SWITCH_PORT_PROPERTY_TYPE, _NDIS_SWITCH_PORT_PROPERTY_TYPE, NdisSwitchPortPropertyTypeSecurity, NdisSwitchPortPropertyTypeUndefined, PNDIS_SWITCH_PORT_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortPropertyTypeIsolation, NdisSwitchPortPropertyTypeIsolation, ntddndis/NdisSwitchPortPropertyTypeMaximum, NdisSwitchPortPropertyTypeMaximum, NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_PROPERTY_TYPE, NDIS_SWITCH_PORT_PROPERTY_TYPE, *PNDIS_SWITCH_PORT_PROPERTY_TYPE, ntddndis/NdisSwitchPortPropertyTypeProfile, NdisSwitchPortPropertyTypeProfile, ntddndis/NDIS_SWITCH_PORT_PROPERTY_TYPE, NdisSwitchPortPropertyTypeCustom, ntddndis/NdisSwitchPortPropertyTypeUndefined, netvista.ndis_switch_port_property_type, ntddndis/NdisSwitchPortPropertyTypeCustom, ntddndis/NdisSwitchPortPropertyTypeRoutingDomain, NdisSwitchPortPropertyTypeVlan
+ms.keywords: ntddndis/NdisSwitchPortPropertyTypeRoutingDomain, NDIS_SWITCH_PORT_PROPERTY_TYPE, NdisSwitchPortPropertyTypeUndefined, NdisSwitchPortPropertyTypeProfile, NdisSwitchPortPropertyTypeRoutingDomain, ntddndis/NdisSwitchPortPropertyTypeVlan, ntddndis/NdisSwitchPortPropertyTypeUndefined, NdisSwitchPortPropertyTypeCustom, _NDIS_SWITCH_PORT_PROPERTY_TYPE, ntddndis/NdisSwitchPortPropertyTypeProfile, PNDIS_SWITCH_PORT_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_port_property_type, ntddndis/NdisSwitchPortPropertyTypeMaximum, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_TYPE, ntddndis/NDIS_SWITCH_PORT_PROPERTY_TYPE, NdisSwitchPortPropertyTypeVlan, ntddndis/NdisSwitchPortPropertyTypeIsolation, ntddndis/NdisSwitchPortPropertyTypeSecurity, NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPropertyTypeSecurity, PNDIS_SWITCH_PORT_PROPERTY_TYPE, NdisSwitchPortPropertyTypeMaximum, ntddndis/NdisSwitchPortPropertyTypeCustom, *PNDIS_SWITCH_PORT_PROPERTY_TYPE, NdisSwitchPortPropertyTypeIsolation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,46 +74,46 @@ typedef enum _NDIS_SWITCH_PORT_PROPERTY_TYPE {
 
 
 
-### -field NdisSwitchPortPropertyTypeUndefined
+#### - NdisSwitchPortPropertyTypeUndefined
 
 The port property type is not defined.
 
 
-### -field NdisSwitchPortPropertyTypeCustom
+#### - NdisSwitchPortPropertyTypeCustom
 
 This value specifies a custom port property that is defined  by an independent software vendor (ISV). Custom port properties are defined by using the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_custom.md">NDIS_SWITCH_PORT_PROPERTY_CUSTOM</a> structure.
 
 
-### -field NdisSwitchPortPropertyTypeSecurity
+#### - NdisSwitchPortPropertyTypeSecurity
 
 This value specifies a security port property. Security port properties are defined by using the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_security.md">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a> structure.
 
 
-### -field NdisSwitchPortPropertyTypeVlan
+#### - NdisSwitchPortPropertyTypeVlan
 
 This value specifies a virtual local area network (VLAN) port property. VLAN port properties are defined by using the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a> structure.
 
 
-### -field NdisSwitchPortPropertyTypeProfile
+#### - NdisSwitchPortPropertyTypeProfile
 
 This value specifies a profile port property. Profile port properties are defined by using the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_profile.md">NDIS_SWITCH_PORT_PROPERTY_PROFILE</a> structure.
 
 
-### -field NdisSwitchPortPropertyTypeIsolation
+#### - NdisSwitchPortPropertyTypeIsolation
 
 This value specifies an isolation port property. Isolation port properties are defined by using the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a> structure.<div class="alert"><b>Note</b>  This value is supported in NDIS 6.40 and later.</div>
 <div> </div>
 
 
 
-### -field NdisSwitchPortPropertyTypeRoutingDomain
+#### - NdisSwitchPortPropertyTypeRoutingDomain
 
 This value specifies a routing domain port property. Routing domain port properties are defined by using the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_routing_domain.md">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a> structure.<div class="alert"><b>Note</b>  This value is supported in NDIS 6.40 and later.</div>
 <div> </div>
 
 
 
-### -field NdisSwitchPortPropertyTypeMaximum
+#### - NdisSwitchPortPropertyTypeMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 
@@ -161,19 +161,19 @@ The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_profile.md">NDIS_SWITCH_PORT_PROPERTY_PROFILE</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_security.md">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_enum_parameters.md">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_delete_parameters.md">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_custom.md">NDIS_SWITCH_PORT_PROPERTY_CUSTOM</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_parameters.md">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_enum_parameters.md">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_delete_parameters.md">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_profile.md">NDIS_SWITCH_PORT_PROPERTY_PROFILE</a>
 
 <b></b>
 

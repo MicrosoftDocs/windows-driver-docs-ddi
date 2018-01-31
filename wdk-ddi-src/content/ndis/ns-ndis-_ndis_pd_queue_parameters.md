@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE9110D8-FB13-43DA-8BAA-8DD88CA3492A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS, _NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters
+ms.keywords: ndis/NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters, _NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct _NDIS_PD_QUEUE_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_config.md">NDIS_PD_CONFIG</a> structure. Set the members of this structure as follows:
 <ul>
@@ -84,27 +84,27 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_QUEUE_PARAMETERS_REVISION_1</b></li>
 </ul>
 
-### -field Flags
+#### - Flags
 
 This member is reserved and must be set to 0 by the provider.
 
 
-### -field QueueType
+#### - QueueType
 
 The type of the queue. For more information see, <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE_TYPE</a>.
 
 
-### -field QueueSize
+#### - QueueSize
 
 The maximum amount of <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures this queue can hold and is always equal to a number of the form (2^k)-1 (63, 127, 255, 511, 1023, etc.). This lends itself to efficient circular index arithmetic.
 
 
-### -field ReceiveDataLength
+#### - ReceiveDataLength
 
 The minimum <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> data length.
 
 
-### -field Affinity
+#### - Affinity
 
 The processor affinity is a hint to the provider for performance optimization. The platform will primarily be processing the queue on processors indicated by this mask. The provider must set this value to the processor core derived from the indirection table configured from <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
@@ -115,14 +115,14 @@ The processor affinity is a hint to the provider for performance optimization. T
  
 
 
-### -field MaximumPartialBufferCount
+#### - MaximumPartialBufferCount
 
 For transmit queues, this is the maximum number of partial <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures that the client is allowed to chain together to form a single L2 packet. This value must be equal to the MaximumTxPartialBufferCount value in the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure.
 
 For receive queues, this is the maximum number of partial <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures that the provider is allowed to chain together to form a single large L2 packet with RSC. This must be less than or equal to the MaximumRxPartialBufferCount value in the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure.
 <div class="alert"><b>Note</b>  The client never posts <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures with the partial flag to the receive queue. The client is always required to post <b>PD_BUFFER</b> structures with at least MTU-size space, starting from the data start position. The provider performs chaining only in the case of RSC. Some providers may not be able to support RSC chaining, these providers set a value of 1 to the MaximumRxPartialBufferCount member in the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure.</div><div> </div>
 
-### -field CounterHandle
+#### - CounterHandle
 
 This is a handle to the transmit queue counter for transmit queues and a receive queue counter for receive queues.During queue creation, a client can optionally provide a counter handle. In this case and depending on the queue type, the provider must update the counter values as activity occurs on the queue. The client is responsible for closing the counter handle only after the queue is closed.
 

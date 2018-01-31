@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CreateRasterizer method [Print Devices], IXpsRasterizationFactory2, CreateRasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, IXpsRasterizationFactory2::CreateRasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface
+ms.keywords: CreateRasterizer method [Print Devices], IXpsRasterizationFactory2, CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, IXpsRasterizationFactory2::CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,7 +91,7 @@ HRESULT CreateRasterizer(
 
 
 
-### -param nonTextRenderingMode [in]
+#### - nonTextRenderingMode [in]
 
 Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a> enumeration values:
 <ul>
@@ -105,7 +105,7 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param textRenderingMode [in]
+#### - textRenderingMode [in]
 
 Rendering mode for text in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following XPSRAS_RENDERING_MODE enumeration values:
 <ul>
@@ -119,7 +119,7 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param pixelFormat [in]
+#### - pixelFormat [in]
 
 Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001.md">XPSRAS_PIXEL_FORMAT</a> enumeration values:
 <ul>
@@ -137,7 +137,7 @@ XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB
 </li>
 </ul>
 
-### -param backgroundColor [in]
+#### - backgroundColor [in]
 
 Allows a caller to select background color. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001.md">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
 <ul>

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/NVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK structure [Storage Devices], ntddscsi/PNVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, _NVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml, NVCACHE_REQUEST_BLOCK
+ms.keywords: storage.nvcache_request_block, ntddscsi/PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK, ntddscsi/NVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], NVCACHE_REQUEST_BLOCK structure [Storage Devices], PNVCACHE_REQUEST_BLOCK, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml, _NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NVCACHE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK"
+req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 ---
 
 # _NVCACHE_REQUEST_BLOCK structure
@@ -75,12 +75,12 @@ typedef struct _NVCACHE_REQUEST_BLOCK {
 
 
 
-### -field NRBSize
+#### - NRBSize
 
 The <b>sizeof</b>(NVCACHE_REQUEST_BLOCK).
 
 
-### -field Function
+#### - Function
 
 Specifies the operation to be performed, which can be one of the following values:
 
@@ -142,12 +142,12 @@ Reserved for future use.
 Pass IO hints to a SATA device.
 
 
-### -field NRBFlags
+#### - NRBFlags
 
 Reserved for future use.
 
 
-### -field NRBStatus
+#### - NRBStatus
 
 Indicates the NV Cache Manager function request status from the driver. There are seven possible values for this field:
 
@@ -189,27 +189,27 @@ Too much data returned from the port driver.
 Not enough data returned from the port driver.
 
 
-### -field Count
+#### - Count
 
 Number of 512-byte blocks to be transferred with the specified function.
 
 
-### -field LBA
+#### - LBA
 
 Starting LBA of the device for the specified function.
 
 
-### -field DataBufSize
+#### - DataBufSize
 
 Size of the data buffer, in bytes.
 
 
-### -field NVCacheStatus
+#### - NVCacheStatus
 
 Status returned from the device. For an ATA device, this value is the contents of the Status Register in its Task File. For a SCSI device, this value is the Sense Code returned from the device.
 
 
-### -field NVCacheSubStatus
+#### - NVCacheSubStatus
 
 The error code returned from the device. For an ATA device, this value is the contents of the Error Register in its Task File. For a SCSI device, this value is the Sense key returned from the device.
 

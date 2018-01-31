@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E5323A30-5BBE-4084-9F99-91FBDD680C12
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, _DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags
+ms.keywords: display.dxgk_transfervirtualflags, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS, _DXGK_TRANSFERVIRTUALFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,22 +74,22 @@ typedef struct _DXGK_TRANSFERVIRTUALFLAGS {
 
 
 
-### -field Src64KBPages
+#### - Src64KBPages
 
 When set, the source page tables are mapped to  64KB pages.
 
 
-### -field Dst64KBPages
+#### - Dst64KBPages
 
 When set, the destination page tables are mapped to  64KB pages.
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero.
 
 
-### -field Flags
+#### - Flags
 
 The consolidated value of the structure flags.
 

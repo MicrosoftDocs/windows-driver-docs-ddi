@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3d05263-5e6b-4875-afff-1166928778db
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportunmapdmamemory, video/VideoPortUnmapDmaMemory, VideoPortUnmapDmaMemory, VideoPort_Functions_f2162fff-c7a8-4dde-aa17-94377f0cf716.xml, VideoPortUnmapDmaMemory function [Display Devices]
+ms.keywords: video/VideoPortUnmapDmaMemory, VideoPortUnmapDmaMemory function [Display Devices], VideoPort_Functions_f2162fff-c7a8-4dde-aa17-94377f0cf716.xml, display.videoportunmapdmamemory, VideoPortUnmapDmaMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ BOOLEAN VideoPortUnmapDmaMemory(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VirtualAddress
+#### - VirtualAddress
 
 Pointer to a virtual address within the mapped range to be released.
 
 
-### -param ProcessHandle
+#### - ProcessHandle
 
 Is the handle to the current process.
 
 
-### -param BoardMemoryHandle
+#### - BoardMemoryHandle
 
 Is the handle to adapter's memory.
 

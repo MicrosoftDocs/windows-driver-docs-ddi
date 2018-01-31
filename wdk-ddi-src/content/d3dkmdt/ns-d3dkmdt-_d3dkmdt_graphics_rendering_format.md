@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 954cc3f6-731f-4c55-bf61-63b5d48248c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_graphics_rendering_format, D3DKMDT_GRAPHICS_RENDERING_FORMAT structure [Display Devices], D3DKMDT_GRAPHICS_RENDERING_FORMAT, _D3DKMDT_GRAPHICS_RENDERING_FORMAT, DmStructs_c51e5886-bbd0-48a2-8be7-98d10b13fc2d.xml, d3dkmdt/D3DKMDT_GRAPHICS_RENDERING_FORMAT
+ms.keywords: DmStructs_c51e5886-bbd0-48a2-8be7-98d10b13fc2d.xml, _D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT structure [Display Devices], d3dkmdt/D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT, display.d3dkmdt_graphics_rendering_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DKMDT_GRAPHICS_RENDERING_FORMAT {
 
 
 
-### -field PrimSurfSize
+#### - PrimSurfSize
 
 A D3DKMDT_2DREGION structure that holds the size (number of pixels, both horizontal and vertical) of the surface.
 
 
-### -field VisibleRegionSize
+#### - VisibleRegionSize
 
 A D3DKMDT_2DREGION structure that holds the size of the visible portion of the surface.
 
 
-### -field Stride
+#### - Stride
 
 The offset, in bytes, between one scan line and the next scan line in the surface.
 
 
-### -field PixelFormat
+#### - PixelFormat
 
 A value from the D3DDDIFORMAT enumeration that indicates the pixel format of the surface.
 
 
-### -field ColorBasis
+#### - ColorBasis
 
 A value from the D3DKMDT_COLOR_BASIS enumeration that indicates the color basis used to encode the content of the surface.
 
 
-### -field PixelValueAccessMode
+#### - PixelValueAccessMode
 
 A value from the D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration that indicates the type of data (for example, direct color values or palette indexes) that are stored in the surface.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, GetParameterDefinition, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, GetParameterDefinition method [Print Devices]
+ms.keywords: IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, print.iprintschemacapabilities2_getparameterdefinition, GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, IPrintSchemaCapabilities2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetParameterDefinition(
 
 
 
-### -param bstrName [in]
+#### - bstrName [in]
 
 The keyword name.
 
 
-### -param bstrNamespaceUri [in]
+#### - bstrNamespaceUri [in]
 
 The keyword namespace URI.
 
 
-### -param ppParameterDefinition [out, retval]
+#### - ppParameterDefinition [out, retval]
 
 The <b>IPrintSchemaParameterDefinition</b> object.
 
@@ -107,11 +107,11 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
 
  
 

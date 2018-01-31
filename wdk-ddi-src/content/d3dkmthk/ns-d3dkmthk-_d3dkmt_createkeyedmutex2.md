@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6c4c07ff-5e37-4094-9dc3-57082dec8edf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEKEYEDMUTEX2, _D3DKMT_CREATEKEYEDMUTEX2, D3DKMT_CREATEKEYEDMUTEX2 structure [Display Devices], display.d3dkmt_createkeyedmutex2, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2
+ms.keywords: D3DKMT_CREATEKEYEDMUTEX2 structure [Display Devices], d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2, _D3DKMT_CREATEKEYEDMUTEX2, D3DKMT_CREATEKEYEDMUTEX2, display.d3dkmt_createkeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX2 {
 
 
 
-### -field InitialValue
+#### - InitialValue
 
 [in] A 64-bit value that specifies the initial value to create the keyed mutex for.
 
 
-### -field hSharedHandle
+#### - hSharedHandle
 
 [out] A value of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode shared global handle to the keyed mutex object.
 
 
-### -field hKeyedMutex
+#### - hKeyedMutex
 
 [out] A value of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode handle to the keyed mutex object in the current process.
 
 
-### -field pPrivateRuntimeData
+#### - pPrivateRuntimeData
 
 [in] A pointer to a caller-supplied buffer where the runtime private data associated with the resource is stored.
 
 
-### -field PrivateRuntimeDataSize
+#### - PrivateRuntimeDataSize
 
 [in] The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a> structure that indicates how to specify a handle to a keyed mutex object.
 

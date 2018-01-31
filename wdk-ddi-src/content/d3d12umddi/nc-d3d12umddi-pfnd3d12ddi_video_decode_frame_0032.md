@@ -71,25 +71,24 @@ VOID APIENTRY* PFND3D12DDI_VIDEO_DECODE_FRAME_0030(
 
 
 
-### -param hDrvCommandList
+#### - hDrvCommandList
 
 The command list.
 
 
-### -param hDrvDecoder
+#### - hDrvDecoder
 
 The video decoder.
 
 
-### -param *pOutputStreamParameters
+#### - *pOutputStreamParameters
+
+The output arguments for the video decode.
 
 
+#### - *pInputStreamParameters
 
-### -param *pInputStreamParameters
-
-
-
-
+The input arguments for the video decode.
 
 
 #### - SubmissionID

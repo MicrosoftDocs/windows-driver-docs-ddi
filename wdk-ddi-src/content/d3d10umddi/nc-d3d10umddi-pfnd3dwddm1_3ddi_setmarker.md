@@ -40,7 +40,7 @@ apiname:
 -	SetMarker
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM1_3DDI_SETMARKER callback
@@ -70,7 +70,7 @@ _Check_return_ HRESULT APIENTRY* SetMarker(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 

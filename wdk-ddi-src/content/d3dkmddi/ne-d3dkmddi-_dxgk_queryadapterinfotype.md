@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5cceffb1-853c-4635-b855-d0e3f107c23d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKQAITYPE_PREFERREDGPUNODE, DXGKQAITYPE_SEGMENTMEMORYSTATE, DmEnums_c4637ac2-b8e0-4c30-a709-5a8ff1ee3fdc.xml, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTINFO, DXGKQAITYPE_POWERCOMPONENTINFO, DXGKQAITYPE_PREFERREDGPUNODE, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT2, DXGKQAITYPE_QUERYSEGMENT4, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGKQAITYPE_PAGETABLELEVELDESC, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT3, d3dkmddi/DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, d3dkmddi/DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_ALLOCATIONGROUP, DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, d3dkmddi/DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_DRIVERCAPS, DXGKQAITYPE_QUERYSEGMENT2, d3dkmddi/DXGKQAITYPE_GPUMMUCAPS, DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGKQAITYPE_SEGMENTMEMORYSTATE, DXGKQAITYPE_PHYSICALADAPTERCAPS, d3dkmddi/DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, DXGKQAITYPE_UMDRIVERPRIVATE, d3dkmddi/DXGKQAITYPE_PHYSICALADAPTERCAPS, DXGK_QUERYADAPTERINFOTYPE, DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, d3dkmddi/DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT4, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, DXGK_QUERYADAPTERINFOTYPE enumeration [Display Devices], DXGKQAITYPE_PAGETABLELEVELDESC, DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, d3dkmddi/DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, DXGKQAITYPE_GPUMMUCAPS, d3dkmddi/DXGKQAITYPE_UMDRIVERPRIVATE, DXGKQAITYPE_QUERYSEGMENT3, DXGKQAITYPE_ALLOCATIONGROUP, DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, _DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_DRIVERCAPS, d3dkmddi/DXGKQAITYPE_NUMPOWERCOMPONENTS, display.dxgk_queryadapterinfotype
+ms.keywords: DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGKQAITYPE_PREFERREDGPUNODE, d3dkmddi/DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, d3dkmddi/DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT2, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGKQAITYPE_PREFERREDGPUNODE, DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, d3dkmddi/DXGKQAITYPE_SEGMENTMEMORYSTATE, display.dxgk_queryadapterinfotype, DXGK_QUERYADAPTERINFOTYPE, DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, d3dkmddi/DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, d3dkmddi/DXGKQAITYPE_PHYSICALADAPTERCAPS, DXGKQAITYPE_UMDRIVERPRIVATE, DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGKQAITYPE_QUERYSEGMENT3, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT4, d3dkmddi/DXGKQAITYPE_GPUMMUCAPS, DXGKQAITYPE_POWERCOMPONENTINFO, d3dkmddi/DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, DXGKQAITYPE_DRIVERCAPS, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT3, DXGKQAITYPE_QUERYSEGMENT4, DXGKQAITYPE_GPUMMUCAPS, DXGKQAITYPE_SEGMENTMEMORYSTATE, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTINFO, d3dkmddi/DXGKQAITYPE_ALLOCATIONGROUP, d3dkmddi/DXGKQAITYPE_UMDRIVERPRIVATE, DXGKQAITYPE_PAGETABLELEVELDESC, DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, DXGKQAITYPE_ALLOCATIONGROUP, _DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_PAGETABLELEVELDESC, d3dkmddi/DXGKQAITYPE_DRIVERCAPS, d3dkmddi/DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_PHYSICALADAPTERCAPS, DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, DXGK_QUERYADAPTERINFOTYPE enumeration [Display Devices], d3dkmddi/DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, DmEnums_c4637ac2-b8e0-4c30-a709-5a8ff1ee3fdc.xml, DXGKQAITYPE_QUERYSEGMENT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,17 +95,17 @@ typedef enum _DXGK_QUERYADAPTERINFOTYPE {
 
 
 
-### -field DXGKQAITYPE_UMDRIVERPRIVATE
+#### - DXGKQAITYPE_UMDRIVERPRIVATE
 
 Indicates private data for the user-mode display driver.
 
 
-### -field DXGKQAITYPE_DRIVERCAPS
+#### - DXGKQAITYPE_DRIVERCAPS
 
 Indicates the driver capabilities in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure.
 
 
-### -field DXGKQAITYPE_QUERYSEGMENT
+#### - DXGKQAITYPE_QUERYSEGMENT
 
 
       Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a> structure.
@@ -116,91 +116,91 @@ Indicates the driver capabilities in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_dr
 
 
 
-### -field DXGKQAITYPE_QUERYSEGMENT2
+#### - DXGKQAITYPE_QUERYSEGMENT2
 
 Reserved for system use. Do not use in your driver.
      Note that this constant occurs starting with Windows 7.
 
 
-### -field DXGKQAITYPE_QUERYSEGMENT3
+#### - DXGKQAITYPE_QUERYSEGMENT3
 
 Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a> structure.
 
 Supported starting with Windows 8.
 
 
-### -field DXGKQAITYPE_NUMPOWERCOMPONENTS
+#### - DXGKQAITYPE_NUMPOWERCOMPONENTS
 
 Indicates the number of power components used by the display miniport driver.  For more information, see Remarks.
 
 Supported starting with Windows 8.
 
 
-### -field DXGKQAITYPE_POWERCOMPONENTINFO
+#### - DXGKQAITYPE_POWERCOMPONENTINFO
 
 Indicates information about power components used by the display miniport driver. For more information, see Remarks.
 
 Supported starting with Windows 8.
 
 
-### -field DXGKQAITYPE_PREFERREDGPUNODE
+#### - DXGKQAITYPE_PREFERREDGPUNODE
 
 Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.
 
 
-### -field DXGKQAITYPE_POWERCOMPONENTPSTATEINFO
+#### - DXGKQAITYPE_POWERCOMPONENTPSTATEINFO
 
 Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.1.
 
 
-### -field DXGKQAITYPE_HISTORYBUFFERPRECISION
+#### - DXGKQAITYPE_HISTORYBUFFERPRECISION
 
 Indicates info about the precision of history buffer data used by the display miniport driver. For more information, see Remarks.
 
 Supported starting with Windows 8.1.
 
 
-### -field DXGKQAITYPE_QUERYSEGMENT4
+#### - DXGKQAITYPE_QUERYSEGMENT4
 
 Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout4.md">DXGK_QUERYSEGMENTOUT4</a> structure.
 
 Supported starting with Windows 10.
 
 
-### -field DXGKQAITYPE_SEGMENTMEMORYSTATE
+#### - DXGKQAITYPE_SEGMENTMEMORYSTATE
 
 Indicates bad memory ranges in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a> structure. 
 
 Supported starting with Windows 10.
 
 
-### -field DXGKQAITYPE_GPUMMUCAPS
+#### - DXGKQAITYPE_GPUMMUCAPS
 
 Indicates physical adapter GPU capabilities.
 
 Supported starting with Windows 10.
 
 
-### -field DXGKQAITYPE_PAGETABLELEVELDESC
+#### - DXGKQAITYPE_PAGETABLELEVELDESC
 
 Reserved for system use. Do not use in your driver.
 
 
-### -field DXGKQAITYPE_PHYSICALADAPTERCAPS
+#### - DXGKQAITYPE_PHYSICALADAPTERCAPS
 
 Reserved for system use. Do not use in your driver.
 
 
-### -field DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION
+#### - DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION
 
 Reserved for system use. Do not use in your driver.
 
 
-### -field DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR
+#### - DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR
 
 Indicates a request for an integrated panel descriptor where the input buffer to the query will be a DXGK_QUERYINTEGRATEDDISPLAYIN structure and the output buffer is a DXGK_QUERYINTEGRATEDDISPLAYOUT structure.
 
@@ -209,12 +209,12 @@ Although this function addresses a target, only DxgKrnl adapter locks are taken 
 DescriptorLength + FIELD_OFFSET( DXGK_QUERYINTEGRATEDDISPLAYOUT, Descriptor )
 </div><div> </div>
 
-### -field DXGKQAITYPE_UEFIFRAMEBUFFERRANGES
+#### - DXGKQAITYPE_UEFIFRAMEBUFFERRANGES
 
 Indicates request for the UEFI frame buffer ranges.
 
 
-### -field DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES
+#### - DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES
 
 Indicates a request for colorimetry overrides for an external display where the input buffer to the query will be a DXGK_QUERYCOLORIMETRYOVERRIDESIN structure, containing only the target id being addressed and the output buffer is a DXGK_COLORIMETRY structure into which the driver writes overrides for the monitor attached to the target.
 
@@ -277,19 +277,19 @@ The display miniport driver must fill the buffer pointed to by the <b>pOutputDat
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2585c7ce-6dba-491a-86c1-5ee69f28136f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PTP_VENDOR_DATA_OUT, ptpusd/PTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices], _PTP_VENDOR_DATA_OUT, ptpusd/PPTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT structure [Imaging Devices], wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml, image.ptp_vendor_data_out
+ms.keywords: "*PPTP_VENDOR_DATA_OUT, _PTP_VENDOR_DATA_OUT, wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices], PPTP_VENDOR_DATA_OUT, image.ptp_vendor_data_out, ptpusd/PTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT structure [Imaging Devices], ptpusd/PPTP_VENDOR_DATA_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PTP_VENDOR_DATA_OUT
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
+req.typenames: "*PPTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT"
 req.product: Windows 10 or later.
 ---
 
@@ -72,27 +72,27 @@ typedef struct _PTP_VENDOR_DATA_OUT {
 
 
 
-### -field ResponseCode
+#### - ResponseCode
 
 Specifies the response code. These codes are defined in the PIMA 15740:2000 standard.
 
 
-### -field SessionId
+#### - SessionId
 
 Specifies the session ID. This member is not currently used by the PTP driver and should be set to 0.
 
 
-### -field TransactionId
+#### - TransactionId
 
 Specifies the transaction ID. This member is not currently used by the PTP driver and should be set to 0.
 
 
-### -field Params
+#### - Params
 
 Is an array consisting of PTP_MAX_PARAMS (defined in <i>Ptpusd.h</i>) elements, representing the parameters of the response.
 
 
-### -field VendorReadData
+#### - VendorReadData
 
 Is an array containing an (optional) first byte to read from the device.
 

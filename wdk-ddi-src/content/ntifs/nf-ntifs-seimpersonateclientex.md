@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, SeImpersonateClientEx
+ms.keywords: SeImpersonateClientEx routine [Installable File System Drivers], ntifs/SeImpersonateClientEx, ifsk.seimpersonateclientex, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml, SeImpersonateClientEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS SeImpersonateClientEx(
 
 
 
-### -param ClientContext [in]
+#### - ClientContext [in]
 
 Pointer to the user's security client context.
 
 
-### -param ServerThread [in, optional]
+#### - ServerThread [in, optional]
 
 Pointer to the thread that is to impersonate the user. If not specified, the calling thread is used.
 
@@ -143,13 +143,13 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
 
 <a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
 
 <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
+<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
 
  
 

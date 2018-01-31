@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93de54dc-8826-4b1c-acf7-1861f337318a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, _DXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, DXVA_ProcAmpControlCaps structure [Display Devices], LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], dxva/LPDXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps
+ms.keywords: LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, _DXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, DXVA_ProcAmpControlCaps structure [Display Devices], dxva/LPDXVA_ProcAmpControlCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _DXVA_ProcAmpControlCaps {
 
 
 
-### -field Size
+#### - Size
 
 Specifies the size of this structure in bytes.
 
 
-### -field InputPool
+#### - InputPool
 
 Indicates the memory pool from which the ProcAmp control source surfaces should be allocated. For more information, see the D3DPOOL enumeration in the Microsoft Window SDK documentation.
 
 
-### -field d3dOutputFormat
+#### - d3dOutputFormat
 
 Indicates the Direct3D surface format of the output frames. Usually the ProcAmp device outputs frames in a surface format that matches the input surface format. This member ensures that the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VMR</a> or other video renderer is able to supply the correct format for the output frame surfaces to the ProcAmp control hardware. If the <b>DXVA_VideoProcess_YUV2RGB</b> flag is returned in the <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a> structure, the VMR assumes that valid output formats are specified by this member as well as the RGB32 format.
 
 
-### -field ProcAmpControlProps
+#### - ProcAmpControlProps
 
 Identifies the ProcAmp operations that the hardware supports. The driver should return a logical combination of the following ProcAmp operations.
 <table>
@@ -147,7 +147,7 @@ Saturation adjustments to the video image are allowed.
 </table> 
 
 
-### -field VideoProcessingCaps
+#### - VideoProcessingCaps
 
 Identifies the operations that can be performed by the ProcAmp control hardware concurrently with the requested ProcAmp adjustment. The driver should return a logical combination of one of the following ProcAmp operations.
 <table>
@@ -210,9 +210,9 @@ Indicates that the VMR will not perform a buffer copy when an alpha value is cha
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
-
 <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
+
+<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
 
  
 

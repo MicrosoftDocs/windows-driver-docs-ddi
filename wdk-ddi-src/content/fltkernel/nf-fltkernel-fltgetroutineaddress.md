@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2b74e79-5840-41a0-8af3-3d13e209aea7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetRoutineAddress routine [Installable File System Drivers], FltGetRoutineAddress, ifsk.fltgetroutineaddress, FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, fltkernel/FltGetRoutineAddress
+ms.keywords: FltGetRoutineAddress, fltkernel/FltGetRoutineAddress, FltGetRoutineAddress routine [Installable File System Drivers], ifsk.fltgetroutineaddress, FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PVOID FltGetRoutineAddress(
 
 
 
-### -param FltMgrRoutineName [in]
+#### - FltMgrRoutineName [in]
 
 Name of the filter manager routine to resolve. 
 

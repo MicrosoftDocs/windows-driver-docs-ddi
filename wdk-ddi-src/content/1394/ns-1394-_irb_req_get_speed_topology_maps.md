@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 3238BDA7-9C85-405B-B731-DD230B0975F9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IEEE.irb_req_get_speed_topology_maps, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses]"
+ms.keywords: 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IEEE.irb_req_get_speed_topology_maps, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses], _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS {
 
 
 
-### -field SpeedMap
+#### - SpeedMap
 
 Points to the SPEED_MAP structure of the bus. This member is filled on completion.
 
 
-### -field TopologyMap
+#### - TopologyMap
 
 Points to the TOPOLOGY_MAP structure of the bus. The topology map will be in big-endian, irrespective of the byte order of the local node. This member is filled on completion.
 

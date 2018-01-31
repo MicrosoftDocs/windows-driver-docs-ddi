@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 60638048-9009-4943-ba61-b724612852df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryWdmGetHandle, DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle method, wdf.wdfregistrywdmgethandle, kmdf.wdfregistrywdmgethandle, wdfregistry/WdfRegistryWdmGetHandle
+ms.keywords: DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle, wdf.wdfregistrywdmgethandle, WdfRegistryWdmGetHandle method, kmdf.wdfregistrywdmgethandle, wdfregistry/WdfRegistryWdmGetHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryWdmGetHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ HANDLE WdfRegistryWdmGetHandle(
 
 
 
-### -param Key [in]
+#### - Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 

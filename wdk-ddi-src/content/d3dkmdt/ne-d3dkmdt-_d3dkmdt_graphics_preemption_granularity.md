@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 589b0eac-235a-4403-a917-ae3241313c8e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_NONE, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_NONE, _D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, display.d3dkmdt_graphics_preemption_granularity, D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY enumeration [Display Devices], D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY
+ms.keywords: D3DKMDT_GRAPHICS_PREEMPTION_NONE, D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, _D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, display.d3dkmdt_graphics_preemption_granularity, D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY enumeration [Display Devices], D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY {
 
 
 
-### -field D3DKMDT_GRAPHICS_PREEMPTION_NONE
+#### - D3DKMDT_GRAPHICS_PREEMPTION_NONE
 
 The driver does not support the preemption of GPU graphics operations.
 <div class="alert"><b>Note</b>  This value also specifies that the driver cannot stop currently running DMA buffers of a specified type and cannot prevent all pending DMA buffers in the hardware queue from running.</div><div> </div>
 
-### -field D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY
+#### - D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY
 
 The driver cannot stop currently running DMA buffers of a specified type but can prevent all pending DMA buffers in the hardware queue from running.
 
 
-### -field D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY
+#### - D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY
 
 The driver cannot stop currently running primitive buffers of a specified type but can prevent all pending primitive buffers in the hardware queue from running.
 
 
-### -field D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY
+#### - D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY
 
 The driver cannot stop currently running triangle buffers of a specified type but can prevent all pending triangle buffers in the hardware queue from running.
 
 
-### -field D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY
+#### - D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY
 
 The driver cannot stop currently running pixel buffers of a specified type but can prevent all pending pixel buffers in the hardware queue from running.
 
 
-### -field D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY
+#### - D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY
 
 The driver cannot stop currently running shader instruction buffers of a specified type but can prevent all pending shader instruction buffers in the hardware queue from running.
 

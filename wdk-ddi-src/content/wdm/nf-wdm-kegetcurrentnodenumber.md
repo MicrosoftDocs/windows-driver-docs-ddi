@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b8601ad-5605-46a3-9dbe-47dc8ed5906c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeGetCurrentNodeNumber routine [Kernel-Mode Driver Architecture], k105_08763d94-700c-4662-aebe-a8aa15a7ed4f.xml, kernel.kegetcurrentnodenumber, KeGetCurrentNodeNumber, wdm/KeGetCurrentNodeNumber
+ms.keywords: wdm/KeGetCurrentNodeNumber, kernel.kegetcurrentnodenumber, KeGetCurrentNodeNumber routine [Kernel-Mode Driver Architecture], KeGetCurrentNodeNumber, k105_08763d94-700c-4662-aebe-a8aa15a7ed4f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

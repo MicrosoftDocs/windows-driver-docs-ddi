@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2AC0B5CF-67FB-462F-9118-E30FEDE9A019
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_INVALID, d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_EDID, d3dkmdt/DXGK_DDT_EDID, display.dxgk_display_descriptor_type, DXGK_DDT_INVALID, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], _DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices]"
+ms.keywords: DXGK_DDT_EDID, DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], _DXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type, PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], d3dkmdt/DXGK_DDT_INVALID, DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_INVALID, d3dkmdt/DXGK_DDT_EDID, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, *PDXGK_DISPLAY_DESCRIPTOR_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_DISPLAY_DESCRIPTOR_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE"
+req.typenames: DXGK_DISPLAY_DESCRIPTOR_TYPE, *PDXGK_DISPLAY_DESCRIPTOR_TYPE
 ---
 
 # _DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration
@@ -68,12 +68,12 @@ typedef enum _DXGK_DISPLAY_DESCRIPTOR_TYPE {
 
 
 
-### -field DXGK_DDT_INVALID
+#### - DXGK_DDT_INVALID
 
 Invalid type.
 
 
-### -field DXGK_DDT_EDID
+#### - DXGK_DDT_EDID
 
 A VESA EDID descriptor.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], storport/PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], storport/SCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, PSCSI_POWER_REQUEST_BLOCK
+ms.keywords: storport/PSCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], PSCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], _SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_POWER_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK
+req.typenames: "*PSCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK"
 req.product: Windows 10 or later.
 ---
 
@@ -93,99 +93,99 @@ typedef struct _SCSI_POWER_REQUEST_BLOCK {
  
 
 
-### -field NextSrb
+#### - NextSrb
 
 Miniport driver should ignore this member.
 
 
-### -field Length
+#### - Length
 
 The size, in bytes, of the <b>SCSI_POWER_REQUEST_BLOCK</b> structure.
 
 
-### -field Function
+#### - Function
 
 The operation to perform. For the <b>SCSI_POWER_REQUEST_BLOCK</b> structure, this member is always set to SRB_FUNCTION_POWER.
 
 
-### -field SrbStatus
+#### - SrbStatus
 
 The status of the completed request. This member should be set by the miniport driver before it notifies the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> function with the <a href="https://msdn.microsoft.com/abceaf2c-3512-409c-9274-096eab810ab2">RequestComplete</a> notification type.
 
 See <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> in the WDK documentation for a list of possible values for this member.
 
 
-### -field SrbPowerFlags
+#### - SrbPowerFlags
 
 The power management flags. Currently, the only flag allowed is SRB_POWER_FLAGS_ADAPTER_REQUEST, which indicates that the power management request is for the adapter. If this flag is set, the miniport driver should ignore the values in the <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>.  
 
 
-### -field PathId
+#### - PathId
 
 The SCSI port or bus identifier for the request. This value is zero based.
 
 
-### -field TargetId
+#### - TargetId
 
 The target controller or device identifier on the bus.
 
 
-### -field Lun
+#### - Lun
 
 The logical unit number (LUN) of the device.
 
 
-### -field DevicePowerState
+#### - DevicePowerState
 
 An enumerator value of type <a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device.
 
 
-### -field SrbFlags
+#### - SrbFlags
 
 Miniport driver should ignore this member.
 
 
-### -field DataTransferLength
+#### - DataTransferLength
 
 Miniport driver should ignore this member.
 
 
-### -field TimeOutValue
+#### - TimeOutValue
 
 The interval, in seconds, that the request can execute before the Storport driver determines that the request has timed out.
 
 
-### -field DataBuffer
+#### - DataBuffer
 
 Miniport driver should ignore this member.
 
 
-### -field SenseInfoBuffer
+#### - SenseInfoBuffer
 
 Miniport driver should ignore this member.
 
 
-### -field OriginalRequest
+#### - OriginalRequest
 
 Miniport driver should ignore this member.
 
 
-### -field SrbExtension
+#### - SrbExtension
 
 A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> routine. 
 
 
-### -field PowerAction
+#### - PowerAction
 
 An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member. 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field Reserved5
+#### - Reserved5
 
 Reserved for system use.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1224f634-b349-4098-a6ad-cbf18742ffb7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], d3dhal/D3DHAL_CONTEXTDESTROYDATA, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, LPD3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], *LPD3DHAL_CONTEXTDESTROYDATA, display.d3dhal_contextdestroydata, D3DHAL_CONTEXTDESTROYDATA, d3dhal/LPD3DHAL_CONTEXTDESTROYDATA"
+ms.keywords: display.d3dhal_contextdestroydata, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, d3dhal/LPD3DHAL_CONTEXTDESTROYDATA, *LPD3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], _D3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], d3dhal/D3DHAL_CONTEXTDESTROYDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DHAL_CONTEXTDESTROYDATA {
 
 
 
-### -field dwhContext
+#### - dwhContext
 
 Specifies the handle to the context to be destroyed.
 
 
-### -field ddrval
+#### - ddrval
 
 Specifies the location where the driver writes the return code for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>. D3D_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
 

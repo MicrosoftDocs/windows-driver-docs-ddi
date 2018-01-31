@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a82816d8-2516-4bba-a5aa-0154cd079d5b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbd_parseconfigurationdescriptor, USBD_ParseConfigurationDescriptor routine [Buses], USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml, usbdlib/USBD_ParseConfigurationDescriptor
+ms.keywords: USBD_ParseConfigurationDescriptor routine [Buses], usbdlib/USBD_ParseConfigurationDescriptor, buses.usbd_parseconfigurationdescriptor, USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_ParseConfigurationDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptor(
 
 
 
-### -param ConfigurationDescriptor [in]
+#### - ConfigurationDescriptor [in]
 
 Pointer to a USB configuration descriptor that contains the interface for which to search.
 
 
-### -param InterfaceNumber [in]
+#### - InterfaceNumber [in]
 
 Specifies the device-defined index of the interface to be retrieved. This should be set to -1 if it should not be a search criterion.
 
 
-### -param AlternateSetting [in]
+#### - AlternateSetting [in]
 
 Specifies the device-defined alternate-setting index of the interface to be retrieved. If the caller does not wish the alternate setting value to be a search criterion, this parameter should be set to -1.
 
@@ -95,9 +95,9 @@ Specifies the device-defined alternate-setting index of the interface to be retr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
 <a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
  
 

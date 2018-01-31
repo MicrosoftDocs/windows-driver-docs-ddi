@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93f94a42-bffb-4e4d-a560-b0da5d7d0019
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismconfigmsixtableentry, ndis/NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, NdisMConfigMSIXTableEntry
+ms.keywords: ndis/NdisMConfigMSIXTableEntry, netvista.ndismconfigmsixtableentry, NdisMConfigMSIXTableEntry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ NDIS_STATUS NdisMConfigMSIXTableEntry(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 An NDIS miniport adapter handle that NDIS supplied to the 
      <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
      MiniportInitializeEx</i></mshelp:link> function.
 
 
-### -param MSIXConfigParameters [in]
+#### - MSIXConfigParameters [in]
 
 A pointer to a caller-allocated 
      <mshelp:link keywords="netvista.ndis_msix_config_parameters" tabindex="0"><b>
@@ -163,11 +163,11 @@ For the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

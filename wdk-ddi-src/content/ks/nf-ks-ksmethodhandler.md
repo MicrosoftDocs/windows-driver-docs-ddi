@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 730b5fae-3536-44ed-8f92-e4563a137be9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMethodHandler function [Streaming Media Devices], stream.ksmethodhandler, ks/KsMethodHandler, KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml
+ms.keywords: ks/KsMethodHandler, KsMethodHandler, KsMethodHandler function [Streaming Media Devices], stream.ksmethodhandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsMethodHandler(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP with the method request being handled.
 
 
-### -param MethodSetsCount [in]
+#### - MethodSetsCount [in]
 
 Indicates the number of method set structures being passed.
 
 
-### -param MethodSet [in]
+#### - MethodSet [in]
 
 Specifies the pointer to the list of method set information.
 

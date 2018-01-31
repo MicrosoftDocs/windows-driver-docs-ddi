@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aa2c549c-eb16-4d59-9280-1913c8c0266a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismupdateoffloadcomplete, tcp_chim_ndis_func_c525f7d7-2a4d-47ef-8337-85551fb1f7ab.xml, NdisMUpdateOffloadComplete function [Network Drivers Starting with Windows Vista], NdisMUpdateOffloadComplete, ndischimney/NdisMUpdateOffloadComplete
+ms.keywords: NdisMUpdateOffloadComplete, NdisMUpdateOffloadComplete function [Network Drivers Starting with Windows Vista], netvista.ndismupdateoffloadcomplete, tcp_chim_ndis_func_c525f7d7-2a4d-47ef-8337-85551fb1f7ab.xml, ndischimney/NdisMUpdateOffloadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ VOID NdisMUpdateOffloadComplete(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
      NdisMRegisterMiniportDriver</b></mshelp:link>.
 
 
-### -param OffloadBlockList [in]
+#### - OffloadBlockList [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>

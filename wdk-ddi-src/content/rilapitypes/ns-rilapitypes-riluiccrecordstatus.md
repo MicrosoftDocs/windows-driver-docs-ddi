@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, netvista.riluiccrecordstatus, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS, netvista.riluiccrecordstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCRECORDSTATUS
 product: Windows
 targetos: Windows
-req.typenames: RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS
+req.typenames: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ struct RILUICCRECORDSTATUS {
 
 
 
-### -field cbSize
+#### - cbSize
 
 The size of the structure in bytes.
 
 
-### -field dwParams
+#### - dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riluiccrecordstatusparammask.md">RILUICCRECORDSTATUSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-### -field dwRecordType
+#### - dwRecordType
 
 Specifies the UICC file type, one of <a href="..\rilapitypes\ne-rilapitypes-riluiccrecordtype.md">RILUICCRECORDTYPE</a>.
 
 
-### -field dwItemCount
+#### - dwItemCount
 
 Specifies the number of items in the UICC file.
 
 
-### -field dwSize
+#### - dwSize
 
 Specifies the size of each item in bytes.
 
 
-### -field fileLockStatus
+#### - fileLockStatus
 
 An array of type <a href="..\rilapitypes\ns-rilapitypes-riluiccfilelockstatus.md">RILUICCFILELOCKSTATUS</a> that describes the access condition and a list of key references for each operation (READ, UPDATE, ACTIVATE, and DEACTIVATE in that order) on that file. 
 

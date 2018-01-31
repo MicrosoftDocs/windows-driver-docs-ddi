@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d0dea63-de0d-4421-b123-ce31ac6af1d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsfreeclonenetbufferlist0, fwpsk/FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0
+ms.keywords: FwpsFreeCloneNetBufferList0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml, fwpsk/FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsfreeclonenetbufferlist0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ void NTAPI FwpsFreeCloneNetBufferList0(
 
 
 
-### -param netBufferList [in, out]
+#### - netBufferList [in, out]
 
 A pointer to the clone 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is being
      freed.
 
 
-### -param freeCloneFlags [in]
+#### - freeCloneFlags [in]
 
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
@@ -107,10 +107,10 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
    FwpsAllocateCloneNetBufferList0</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

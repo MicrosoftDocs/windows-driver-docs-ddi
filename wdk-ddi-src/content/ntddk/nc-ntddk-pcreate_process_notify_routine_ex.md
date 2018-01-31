@@ -76,12 +76,12 @@ void SetCreateProcessNotifyRoutineEx(
 
 
 
-### -param ProcessId [in]
+#### - ProcessId [in]
 
 The process ID of the process.
 
 
-### -param CreateInfo [in, out, optional]
+#### - CreateInfo [in, out, optional]
 
 A pointer to a <a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a> structure that contains information about the new process. 
 
@@ -107,9 +107,9 @@ Highest-level drivers call <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyro
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
-
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
+
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
 
  
 

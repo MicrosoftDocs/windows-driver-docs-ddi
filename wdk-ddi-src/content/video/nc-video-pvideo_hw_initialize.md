@@ -71,7 +71,7 @@ BOOLEAN HwVidInitialize(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
@@ -98,11 +98,11 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
 
  
 

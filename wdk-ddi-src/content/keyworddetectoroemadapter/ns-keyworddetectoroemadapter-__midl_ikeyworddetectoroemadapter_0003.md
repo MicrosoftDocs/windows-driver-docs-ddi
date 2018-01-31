@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 762A7E36-E0F8-475C-B201-217D8FD8EBD6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR, KEYWORDSELECTOR, __MIDL_IKeywordDetectorOemAdapter_0003, KEYWORDSELECTOR structure [Audio Devices]
+ms.keywords: KEYWORDSELECTOR, keyworddetectoroemadapter/KEYWORDSELECTOR, __MIDL_IKeywordDetectorOemAdapter_0003, KEYWORDSELECTOR structure [Audio Devices], audio.keywordselector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field KeywordId
+#### - KeywordId
 
 Identifies a keyword function.
 
 
-### -field LangId
+#### - LangId
 
 Identifies a language.
 

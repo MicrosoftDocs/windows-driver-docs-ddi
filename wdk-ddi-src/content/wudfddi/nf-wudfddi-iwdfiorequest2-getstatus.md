@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 20b10edb-3294-4cc7-91bc-07df565a9cf2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2::GetStatus, IWDFIoRequest2, umdf.iwdfiorequest2_getstatus, GetStatus method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, GetStatus method, wudfddi/IWDFIoRequest2::GetStatus, GetStatus method, wdf.iwdfiorequest2_getstatus, GetStatus, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml
+ms.keywords: umdf.iwdfiorequest2_getstatus, GetStatus method, IWDFIoRequest2 interface, wdf.iwdfiorequest2_getstatus, wudfddi/IWDFIoRequest2::GetStatus, IWDFIoRequest2 interface, GetStatus method, IWDFIoRequest2, IWDFIoRequest2::GetStatus, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml, GetStatus method, GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.GetStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -99,15 +99,15 @@ If a driver's call to <a href="https://msdn.microsoft.com/f916b414-9cd9-4745-a02
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
  
 

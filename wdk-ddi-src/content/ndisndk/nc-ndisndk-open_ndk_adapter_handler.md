@@ -72,14 +72,14 @@ NDIS_STATUS OpenNdkAdapterHandler(
 
 
 
-### -param MiniportAdapterContext [in]
+#### - MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for an NDIS miniport adapter.
 
 
 
 
-### -param Parameters [in]
+#### - Parameters [in]
 
 A pointer to an <a href="..\ndisndk\ns-ndisndk-_ndis_open_ndk_adapter_parameters.md">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a> structure that defines the input parameters to open an <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a> instance.
 
@@ -94,11 +94,9 @@ If the provider supports the consumer-specified major version and the specified 
 <div class="alert"><b>Note</b>  Higher minor versions at the provider are always fully backward-compatible with (that is, a superset of) lower minor versions. </div><div> </div>If the provider supports the consumer-specified major version and the specified minor version is greater than the highest minor version that the provider supports, the provider must fail the request with NDIS_STATUS_BAD_VERSION.
 
 
-### -param **ppNdkAdapter
+#### - **ppNdkAdapter
 
-
-
-
+A pointer to a variable that holds the pointer to an <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a> structure. On return from  <i>OPEN_NDK_ADAPTER_HANDLER</i>, the <b>NDK_ADAPTER</b> structure referenced by  <i>ppNdkAdapter</i> identifies the newly opened NDK adapter instance. 
 
 
 #### - ppNdkAdapter
@@ -174,15 +172,15 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 ## -see-also
 
-<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
-<a href="..\ndisndk\ns-ndisndk-_ndis_open_ndk_adapter_parameters.md">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
+
+<a href="..\ndisndk\ns-ndisndk-_ndis_open_ndk_adapter_parameters.md">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b7b9f3b-df33-4886-bd22-23429cb05ea7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AddRADIUSServer_IN, _AddRADIUSServer_IN, *PAddRADIUSServer_IN, AddRADIUSServer_IN structure [Storage Devices], structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, iscsiop/AddRADIUSServer_IN, PAddRADIUSServer_IN structure pointer [Storage Devices], storage.addradiusserver_in, PAddRADIUSServer_IN, iscsiop/PAddRADIUSServer_IN
+ms.keywords: iscsiop/PAddRADIUSServer_IN, storage.addradiusserver_in, _AddRADIUSServer_IN, iscsiop/AddRADIUSServer_IN, AddRADIUSServer_IN, AddRADIUSServer_IN structure [Storage Devices], PAddRADIUSServer_IN structure pointer [Storage Devices], structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, *PAddRADIUSServer_IN, PAddRADIUSServer_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _AddRADIUSServer_IN {
 
 
 
-### -field RADIUSIPAddress
+#### - RADIUSIPAddress
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that contains an IP version-independent address of the RADIUS server.
 
@@ -81,13 +81,13 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_addradiusserver_out.md">AddRADIUSServer_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
+<a href="..\iscsiop\ns-iscsiop-_addradiusserver_out.md">AddRADIUSServer_OUT</a>
 
  
 

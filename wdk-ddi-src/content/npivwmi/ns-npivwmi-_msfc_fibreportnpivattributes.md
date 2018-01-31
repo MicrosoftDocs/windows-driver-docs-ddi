@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: npivwmi/PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes, _MSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], MSFC_FibrePortNPIVAttributes structure [Storage Devices], *PMSFC_FibrePortNPIVAttributes
+ms.keywords: storage.msfc_fibreportnpivattributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], npivwmi/PMSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], npivwmi/MSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes, _MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FibrePortNPIVAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes"
+req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 ---
 
 # _MSFC_FibrePortNPIVAttributes structure
@@ -70,22 +70,22 @@ typedef struct _MSFC_FibrePortNPIVAttributes {
 
 
 
-### -field WWPN
+#### - WWPN
 
 The world wide port name of the physical port.
 
 
-### -field WWNN
+#### - WWNN
 
 The world wide node name of the physical port.
 
 
-### -field NumberVirtualPorts
+#### - NumberVirtualPorts
 
 The number of virtual ports on the adapter.
 
 
-### -field VirtualPorts
+#### - VirtualPorts
 
 An array of virtual ports. The array length is specified in the <b>NumberVirtualPorts</b> member.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 77162a25-b5aa-45d0-ac4d-6500df9782de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpciportcontroller/UcmTcpciPortControllerAlertRxBufferOverflow, UcmTcpciPortControllerAlertVbusVoltageAlarmLo, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageFailed, UcmTcpciPortControllerAlertPowerStatus, UcmTcpciPortControllerAlertReceiveSOPMessageStatus, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, UcmTcpciPortControllerAlertCCStatus, UcmTcpciPortControllerAlertInvalid, UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, UcmTcpciPortControllerAlertFault, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, ucmtcpciportcontroller/UcmTcpciPortControllerAlertPowerStatus, UcmTcpciPortControllerAlertTransmitSOPMessageFailed, ucmtcpciportcontroller/UcmTcpciPortControllerAlertCCStatus, _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceivedHardReset, UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE enumeration [Buses], UcmTcpciPortControllerAlertVbusVoltageAlarmHi, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceiveSOPMessageStatus, buses.ucmtcpci_port_controller_alert_type, UcmTcpciPortControllerAlertReceivedHardReset, ucmtcpciportcontroller/UcmTcpciPortControllerAlertInvalid, ucmtcpciportcontroller/UcmTcpciPortControllerAlertFault, UcmTcpciPortControllerAlertRxBufferOverflow, UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmHi, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmLo
+ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, ucmtcpciportcontroller/UcmTcpciPortControllerAlertCCStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertFault, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, UcmTcpciPortControllerAlertReceiveSOPMessageStatus, UcmTcpciPortControllerAlertInvalid, UcmTcpciPortControllerAlertReceivedHardReset, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmLo, UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, ucmtcpciportcontroller/UcmTcpciPortControllerAlertPowerStatus, UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceivedHardReset, UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, UcmTcpciPortControllerAlertVbusVoltageAlarmLo, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, ucmtcpciportcontroller/UcmTcpciPortControllerAlertRxBufferOverflow, buses.ucmtcpci_port_controller_alert_type, UcmTcpciPortControllerAlertTransmitSOPMessageFailed, UcmTcpciPortControllerAlertFault, UcmTcpciPortControllerAlertPowerStatus, UcmTcpciPortControllerAlertCCStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, UcmTcpciPortControllerAlertVbusVoltageAlarmHi, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceiveSOPMessageStatus, UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE enumeration [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerAlertInvalid, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageFailed, UcmTcpciPortControllerAlertRxBufferOverflow, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmHi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -82,21 +82,21 @@ typedef enum _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE {
 
 
 
-### -field UcmTcpciPortControllerAlertInvalid
+#### - UcmTcpciPortControllerAlertInvalid
 
 
                         
                     The alert is invalid.
 
 
-### -field UcmTcpciPortControllerAlertCCStatus
+#### - UcmTcpciPortControllerAlertCCStatus
 
 Indicates a
                         
                     CC status change alert.
 
 
-### -field UcmTcpciPortControllerAlertPowerStatus
+#### - UcmTcpciPortControllerAlertPowerStatus
 
 Indicates a
                         
@@ -105,70 +105,70 @@ Indicates a
                     
 
 
-### -field UcmTcpciPortControllerAlertReceiveSOPMessageStatus
+#### - UcmTcpciPortControllerAlertReceiveSOPMessageStatus
 
 
                         
                     Indicates an SOP message alert.
 
 
-### -field UcmTcpciPortControllerAlertReceivedHardReset
+#### - UcmTcpciPortControllerAlertReceivedHardReset
 
 
                         
                     Indicates a hard Reset alert.
 
 
-### -field UcmTcpciPortControllerAlertTransmitSOPMessageFailed
+#### - UcmTcpciPortControllerAlertTransmitSOPMessageFailed
 
 
                         
                     Indicates that the SOP message transmission was not successful.
 
 
-### -field UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded
+#### - UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded
 
 Indicates that the
                         
                     SOP message transmission was not sent due to an incoming receive message. 
 
 
-### -field UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful
+#### - UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful
 
 
                         
                     Indicates that the SOP message transmission was successful.
 
 
-### -field UcmTcpciPortControllerAlertVbusVoltageAlarmHi
+#### - UcmTcpciPortControllerAlertVbusVoltageAlarmHi
 
 
                         
                     Indicates a high-voltage alarm.
 
 
-### -field UcmTcpciPortControllerAlertVbusVoltageAlarmLo
+#### - UcmTcpciPortControllerAlertVbusVoltageAlarmLo
 
 
                         
                     Indicates a low-voltage alarm.
 
 
-### -field UcmTcpciPortControllerAlertFault
+#### - UcmTcpciPortControllerAlertFault
 
 
                         
                     Indicates that a Fault has occurred. 
 
 
-### -field UcmTcpciPortControllerAlertRxBufferOverflow
+#### - UcmTcpciPortControllerAlertRxBufferOverflow
 
 Indicates that the
                         
                      TCPC Rx buffer has overflowed.
 
 
-### -field UcmTcpciPortControllerAlertVbusSinkDisconnectDetected
+#### - UcmTcpciPortControllerAlertVbusSinkDisconnectDetected
 
 
                         

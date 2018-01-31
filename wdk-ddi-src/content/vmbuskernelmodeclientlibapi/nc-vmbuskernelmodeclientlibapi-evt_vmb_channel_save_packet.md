@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_CHANNEL_SAVE_PACKET
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -79,30 +79,30 @@ typedef EVT_VMB_CHANNEL_SAVE_PACKET PFN_VMB_CHANNEL_SAVE_PACKET;
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 The channel on which the packet arrives.
 
 
-### -param Packet [in]
+#### - Packet [in]
 
 The packet for which VSP saves state.
 
 
-### -param SaveBuf [out]
+#### - SaveBuf [out]
 
 The buffer into which to save the state.
 
 
 
-### -param SaveBufSize [in]
+#### - SaveBufSize [in]
 
 Size of the <i>SaveBuf</i> parameter, in bytes.
 
 
 
 
-### -param BytesNeeded [out]
+#### - BytesNeeded [out]
 
 Size necessary to save the state of the transaction, in bytes.
 

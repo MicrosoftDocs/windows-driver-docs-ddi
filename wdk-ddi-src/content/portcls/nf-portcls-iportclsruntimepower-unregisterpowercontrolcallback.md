@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsRuntimePower, UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, UnregisterPowerControlCallback, audio.iportclsruntimepower_unregisterpowercontrolcallback
+ms.keywords: UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower, audio.iportclsruntimepower_unregisterpowercontrolcallback, UnregisterPowerControlCallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, IPortClsRuntimePower::UnregisterPowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortClsRuntimePower.UnregisterPowerControlCallback
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsRuntimePower::UnregisterPowerControlCallback method

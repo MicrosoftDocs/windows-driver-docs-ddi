@@ -74,17 +74,17 @@ VP_STATUS SvgaHwIoPortUshort(
 
 
 
-### -param Context
+#### - Context
 
 Specifies the miniport driver-determined context value that was set in the <b>EmulatorAccessEntriesContext</b> member of VIDEO_PORT_CONFIG_INFO.
 
 
-### -param Port
+#### - Port
 
 Specifies the mapped I/O port to be trapped.
 
 
-### -param AccessMode
+#### - AccessMode
 
 Specifies the type of access allowed, which can be one or a combination (ORed) of the following values:
 
@@ -96,7 +96,7 @@ Specifies the type of access allowed, which can be one or a combination (ORed) o
 
 
 
-### -param Data
+#### - Data
 
 Pointer to the USHORT data to be transferred.
 
@@ -127,19 +127,19 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
-<a href="..\video\nc-video-pdriver_io_port_ushort_string.md">SvgaHwIoPortUshortString</a>
-
 <a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\video\nc-video-pdriver_io_port_ushort_string.md">SvgaHwIoPortUshortString</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
 
  
 

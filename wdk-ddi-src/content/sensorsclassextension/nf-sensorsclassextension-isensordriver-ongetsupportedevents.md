@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: b323f803-56fb-44db-9b88-be25062c08ff
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.isensordriver_ongetsupportedevents, ISensorDriver::OnGetSupportedEvents, ISensorDriver, OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices]
+ms.keywords: ISensorDriver, sensors.isensordriver_ongetsupportedevents, OnGetSupportedEvents, ISensorDriver::OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT OnGetSupportedEvents(
 
 
 
-### -param pwszSensorID
+#### - pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting the events list.
 
 
-### -param ppSupportedEvents
+#### - ppSupportedEvents
 
 Address of a GUID pointer that receives the array of supported event IDs. If the driver does not support events, return a buffer containing a single GUID that has its value set to GUID_NULL.
 
 
-### -param pulEventCount
+#### - pulEventCount
 
 Address of a ULONG that receives the count of event IDs in the buffer returned through ppSupportedEvents. If the driver does not support events, set this value to zero.
 

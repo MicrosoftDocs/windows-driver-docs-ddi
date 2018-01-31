@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 354d09c3-8db4-4af9-b077-8e3bcda7a6f2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasSetItemPropAttribs, wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, image.wiassetitempropattribs, wiasSetItemPropAttribs, wiasSetItemPropAttribs function [Imaging Devices]
+ms.keywords: wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs function [Imaging Devices], image.wiassetitempropattribs, wiamdef/wiasSetItemPropAttribs, wiasSetItemPropAttribs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasSetItemPropAttribs
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasSetItemPropAttribs(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param cPropSpec
+#### - cPropSpec
 
 Specifies the number of properties.
 
 
-### -param pPropSpec [in]
+#### - pPropSpec [in]
 
 Pointer to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation) indicating the properties for which to set valid values and access flags.
 
 
-### -param pwpi [in]
+#### - pwpi [in]
 
 Pointer to the first element of an array of <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
 
@@ -155,9 +155,9 @@ Reboot the system and repeat the steps necessary to produce this error. There wi
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiassetpropertyattributes.md">wiasSetPropertyAttributes</a>
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
 

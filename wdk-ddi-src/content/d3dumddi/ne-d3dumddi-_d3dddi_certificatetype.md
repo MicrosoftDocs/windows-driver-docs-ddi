@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e3835af-0ccf-4f41-96e3-beff5fdecd36
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, display.d3dddi_certificatetype, D3D_other_Structs_88de08de-61df-4401-9a7c-8cace88a545a.xml, _D3DDDI_CERTIFICATETYPE, D3DDDI_CERTIFICATETYPE enumeration [Display Devices], D3DDDI_CERTTYPE_CRYPTOSESSION, d3dumddi/D3DDDI_CERTIFICATETYPE, D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTTYPE_CRYPTOSESSION, d3dumddi/D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL
+ms.keywords: D3D_other_Structs_88de08de-61df-4401-9a7c-8cace88a545a.xml, D3DDDI_CERTIFICATETYPE enumeration [Display Devices], _D3DDDI_CERTIFICATETYPE, D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, D3DDDI_CERTTYPE_CRYPTOSESSION, D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTTYPE_CRYPTOSESSION, d3dumddi/D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, display.d3dddi_certificatetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _D3DDDI_CERTIFICATETYPE {
 
 
 
-### -field D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL
+#### - D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL
 
 The value specifies that the certificate type is an authenticated channel. 
 
 
-### -field D3DDDI_CERTTYPE_CRYPTOSESSION
+#### - D3DDDI_CERTTYPE_CRYPTOSESSION
 
 The value specifies that the certificate type is an encryption session. 
 
@@ -87,11 +87,11 @@ The user-mode display driver receives a D3DDDI_CERTIFICATETYPE-typed value in th
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df28ae8f-01f7-42c5-99df-2a3fc7401173
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxgkPowerStateEvent, dispmprt/DxgkPowerStateEvent, *PDXGK_EVENT_TYPE, PDXGK_EVENT_TYPE, dispmprt/PDXGK_EVENT_TYPE, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, IN_DXGK_EVENT_TYPE, DxgkDockingEvent, display.dxgk_event_type, DXGK_EVENT_TYPE enumeration [Display Devices], DxgkUndefinedEvent, dispmprt/DxgkUndefinedEvent, DxgkAcpiEvent, _DXGK_EVENT_TYPE, dispmprt/DxgkAcpiEvent, dispmprt/DxgkDockingEvent, DXGK_EVENT_TYPE, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], dispmprt/DXGK_EVENT_TYPE
+ms.keywords: dispmprt/DxgkAcpiEvent, dispmprt/DxgkPowerStateEvent, dispmprt/DxgkUndefinedEvent, dispmprt/DXGK_EVENT_TYPE, DxgkPowerStateEvent, DXGK_EVENT_TYPE enumeration [Display Devices], DXGK_EVENT_TYPE, dispmprt/PDXGK_EVENT_TYPE, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], PDXGK_EVENT_TYPE, DxgkAcpiEvent, _DXGK_EVENT_TYPE, IN_DXGK_EVENT_TYPE, DxgkDockingEvent, DxgkUndefinedEvent, dispmprt/DxgkDockingEvent, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, *PDXGK_EVENT_TYPE, display.dxgk_event_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE
+req.typenames: "*PDXGK_EVENT_TYPE, DXGK_EVENT_TYPE"
 ---
 
 # _DXGK_EVENT_TYPE enumeration
@@ -70,22 +70,22 @@ typedef enum _DXGK_EVENT_TYPE {
 
 
 
-### -field DxgkUndefinedEvent
+#### - DxgkUndefinedEvent
 
 Indicates that a variable of type DXGK_EVENT_TYPE has not yet been assigned a meaningful value.
 
 
-### -field DxgkAcpiEvent
+#### - DxgkAcpiEvent
 
 Indicates that the event is an ACPI event.
 
 
-### -field DxgkPowerStateEvent
+#### - DxgkPowerStateEvent
 
 Indicates that the event is a power state event.
 
 
-### -field DxgkDockingEvent
+#### - DxgkDockingEvent
 
 Indicates that the event is a docking event.
 

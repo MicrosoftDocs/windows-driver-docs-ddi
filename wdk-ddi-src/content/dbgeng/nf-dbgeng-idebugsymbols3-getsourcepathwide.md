@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6c9c8270-78c4-4bc2-a0e4-5c5e245326ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourcePathWide method, GetSourcePathWide, debugger.getsourcepathwide, GetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, GetSourcePathWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3::GetSourcePathWide, dbgeng/IDebugSymbols3::GetSourcePathWide
+ms.keywords: dbgeng/IDebugSymbols3::GetSourcePathWide, IDebugSymbols3::GetSourcePathWide, GetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getsourcepathwide, GetSourcePathWide, GetSourcePathWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourcePathWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetSourcePathWide(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the source path.  This is a string that contains source path elements separated by semicolons (<b>;</b>).  Each source path element can specify either a directory or a source server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param PathSize [out, optional]
+#### - PathSize [out, optional]
 
 Receives the size, in characters, of the source path.
 
@@ -130,11 +130,11 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

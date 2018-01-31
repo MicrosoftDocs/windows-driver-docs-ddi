@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b6fd9c92-ac36-46ac-b996-d76afaf6b906
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.synthdownload, dmusprop/PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], SYNTHDOWNLOAD structure [Audio Devices], *PSYNTHDOWNLOAD, _SYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, SYNTHDOWNLOAD, dmusprop/SYNTHDOWNLOAD, PSYNTHDOWNLOAD
+ms.keywords: "_SYNTHDOWNLOAD, SYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, SYNTHDOWNLOAD structure [Audio Devices], dmusprop/SYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], PSYNTHDOWNLOAD, *PSYNTHDOWNLOAD, dmusprop/PSYNTHDOWNLOAD, audio.synthdownload"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SYNTHDOWNLOAD {
 
 
 
-### -field DownloadHandle
+#### - DownloadHandle
 
 Handle to the downloaded DLS data buffer, which the miniport driver generates to uniquely identify the DLS data so that it can be unloaded later.
 
 
-### -field Free
+#### - Free
 
 Specifies whether the client can free the data buffer as soon as the DLS download completes. If <b>TRUE</b>, the client can free the buffer when the download completes. If <b>FALSE</b>, the client must not free the buffer until it is unloaded. For more information, see the following Remarks section.
 

@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelInitSetProcessPacketCallbacks
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -74,17 +74,17 @@ The <b>VmbChannelInitSetProcessPacketCallbacks</b>  function sets callback funct
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for the channel.  
 
 
-### -param ProcessPacketCallback [in]
+#### - ProcessPacketCallback [in]
 
 A callback function to call when a packet is     ready for processing.
 
 
-### -param ProcessingCompleteCallback [in, optional]
+#### - ProcessingCompleteCallback [in, optional]
 
 
 A callback function to call     when processing of a batch of packets has been completed.

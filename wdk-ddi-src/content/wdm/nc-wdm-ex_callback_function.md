@@ -40,7 +40,7 @@ apiname:
 -	RegistryCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -73,17 +73,17 @@ NTSTATUS RegistryCallback(
 
 
 
-### -param CallbackContext [in]
+#### - CallbackContext [in]
 
 The value that the driver passed as the <i>Context</i> parameter to <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a> or <a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a> when it registered this <i>RegistryCallback</i> routine.
 
 
-### -param Argument1 [in, optional]
+#### - Argument1 [in, optional]
 
 A <a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>-typed value that identifies the type of registry operation that is being performed and whether the <i>RegistryCallback</i> routine is being called before or after the registry operation is performed.
 
 
-### -param Argument2 [in, optional]
+#### - Argument2 [in, optional]
 
 A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for <i>Argument1</i>, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see <a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>.
 <table>
@@ -537,13 +537,13 @@ A <i>RegistryCallback</i> executes at IRQL = PASSIVE_LEVEL and in the context of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
-
 <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
 <a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
+
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>
 

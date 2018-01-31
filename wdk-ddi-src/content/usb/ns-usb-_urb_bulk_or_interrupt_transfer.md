@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 398f50ad-4c58-4585-8fb8-c523b74793e9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, USBD_SHORT_TRANSFER_OK, _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses], _URB_BULK_OR_INTERRUPT_TRANSFER, buses._urb_bulk_or_interrupt_transfer, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml, usb/_URB_BULK_OR_INTERRUPT_TRANSFER
+ms.keywords: buses._urb_bulk_or_interrupt_transfer, usb/_URB_BULK_OR_INTERRUPT_TRANSFER, _URB_BULK_OR_INTERRUPT_TRANSFER, USBD_TRANSFER_DIRECTION_IN, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml, USBD_TRANSFER_DIRECTION_OUT, USBD_SHORT_TRANSFER_OK, _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ struct _URB_BULK_OR_INTERRUPT_TRANSFER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, and <b>Hdr.Length</b> must be set to <code>sizeof(_URB_BULK_OR_INTERRUPT_TRANSFER)</code>.
 
@@ -90,12 +90,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-### -field UrbLink
+#### - UrbLink
 
 Reserved. Do not use.
 
 
-### -field hca
+#### - hca
 
 Reserved. Do not use.
 
@@ -105,12 +105,12 @@ Reserved. Do not use.
  
 
 
-### -field PipeHandle
+#### - PipeHandle
 
 Specifies an opaque handle to the bulk or interrupt pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.  
 
 
-### -field TransferFlags
+#### - TransferFlags
 
 
 Specifies zero, one, or a combination of the following flags:
@@ -160,17 +160,17 @@ This flag should not be set unless USBD_TRANSFER_DIRECTION_IN is also set. <b>No
 </table> 
 
 
-### -field TransferBufferLength
+#### - TransferBufferLength
 
 Specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes sent to or read from the pipe in this member.
 
 
-### -field TransferBuffer
+#### - TransferBuffer
 
 Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>. The contents of this buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified this buffer will contain data read from the device on return from the host controller driver. Otherwise, this buffer contains driver-supplied data for transfer to the device.
 
 
-### -field TransferBufferMDL
+#### - TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
 
@@ -190,11 +190,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

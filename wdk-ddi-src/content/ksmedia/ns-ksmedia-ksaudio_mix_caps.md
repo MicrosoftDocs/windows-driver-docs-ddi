@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d201fdce-ae56-4ba5-a947-e3e0cecc6e17
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSAUDIO_MIX_CAPS, audio.ksaudio_mix_caps, aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, *PKSAUDIO_MIX_CAPS, ksmedia/PKSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS structure [Audio Devices], PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], KSAUDIO_MIX_CAPS, ksmedia/KSAUDIO_MIX_CAPS
+ms.keywords: PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], KSAUDIO_MIX_CAPS, *PKSAUDIO_MIX_CAPS, PKSAUDIO_MIX_CAPS, audio.ksaudio_mix_caps, aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, ksmedia/PKSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS structure [Audio Devices], ksmedia/KSAUDIO_MIX_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,26 +73,26 @@ typedef struct {
 
 
 
-### -field Reset
+#### - Reset
 
 <b>Reset</b> is a misnomer. This member should have been called Resolution instead. It specifies the resolution of the mix level for the data path from the input channel to the output channel. Resolution values use the following scale: a range from 0 to +2147483647, where 0 is no control and any other number is the number of steps between actual hardware settings in the range between <b>Minimum</b> and <b>Maximum</b>.
 
 
-### -field Resolution
+#### - Resolution
 
 
 
-### -field Mute
+#### - Mute
 
 Specifies whether the data path from the input channel to the output channel is muted (not mixed). A value of <b>TRUE</b> indicates that the data path is muted.
 
 
-### -field Minimum
+#### - Minimum
 
 Specifies the minimum mix level for the data path from the input channel to the output channel. For more information, see the following Remarks section.
 
 
-### -field Maximum
+#### - Maximum
 
 Specifies the maximum mix level for the data path from the input channel to the output channel. For more information, see the following Remarks section.
 
@@ -116,13 +116,13 @@ This scale has a resolution of 1/65536 decibel.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_mixcap_table.md">KSAUDIO_MIXCAP_TABLE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+<a href="..\ksmedia\ns-ksmedia-ksaudio_mixcap_table.md">KSAUDIO_MIXCAP_TABLE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
 
  
 

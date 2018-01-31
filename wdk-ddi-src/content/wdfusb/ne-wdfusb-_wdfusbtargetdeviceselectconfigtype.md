@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d3637f5e-d4c1-430c-8511-8aac18fceee2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetdeviceselectconfigtype, wdfusb/WdfUsbTargetDeviceSelectConfigTypeDeconfig, wdfusb/WdfUsbTargetDeviceSelectConfigTypeMultiInterface, WdfUsbTargetDeviceSelectConfigTypeInvalid, WdfUsbTargetDeviceSelectConfigType, WdfUsbTargetDeviceSelectConfigTypeMultiInterface, WdfUsbTargetDeviceSelectConfigType enumeration, WdfUsbTargetDeviceSelectConfigTypeUrb, DFUsbRef_e4ab4d2c-dbca-4d6e-a690-4b362331e53e.xml, WdfUsbTargetDeviceSelectConfigTypeSingleInterface, WdfUsbTargetDeviceSelectConfigTypeDeconfig, wdfusb/WdfUsbTargetDeviceSelectConfigTypeUrb, WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInvalid, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, wdfusb/WdfUsbTargetDeviceSelectConfigTypeSingleInterface, wdf.wdfusbtargetdeviceselectconfigtype, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, _WdfUsbTargetDeviceSelectConfigType, wdfusb/WdfUsbTargetDeviceSelectConfigType
+ms.keywords: DFUsbRef_e4ab4d2c-dbca-4d6e-a690-4b362331e53e.xml, WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, _WdfUsbTargetDeviceSelectConfigType, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, wdfusb/WdfUsbTargetDeviceSelectConfigType, WdfUsbTargetDeviceSelectConfigTypeUrb, wdfusb/WdfUsbTargetDeviceSelectConfigTypeSingleInterface, wdfusb/WdfUsbTargetDeviceSelectConfigTypeMultiInterface, wdfusb/WdfUsbTargetDeviceSelectConfigTypeUrb, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, WdfUsbTargetDeviceSelectConfigTypeSingleInterface, kmdf.wdfusbtargetdeviceselectconfigtype, wdf.wdfusbtargetdeviceselectconfigtype, WdfUsbTargetDeviceSelectConfigTypeInvalid, WdfUsbTargetDeviceSelectConfigType enumeration, wdfusb/WdfUsbTargetDeviceSelectConfigTypeDeconfig, WdfUsbTargetDeviceSelectConfigType, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInvalid, WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, WdfUsbTargetDeviceSelectConfigTypeDeconfig, WdfUsbTargetDeviceSelectConfigTypeMultiInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,37 +76,37 @@ typedef enum _WdfUsbTargetDeviceSelectConfigType {
 
 
 
-### -field WdfUsbTargetDeviceSelectConfigTypeInvalid
+#### - WdfUsbTargetDeviceSelectConfigTypeInvalid
 
 For internal use only.
 
 
-### -field WdfUsbTargetDeviceSelectConfigTypeDeconfig
+#### - WdfUsbTargetDeviceSelectConfigTypeDeconfig
 
 Deconfigure the device. This value applies to KMDF only.
 
 
-### -field WdfUsbTargetDeviceSelectConfigTypeSingleInterface
+#### - WdfUsbTargetDeviceSelectConfigTypeSingleInterface
 
 Configure the device to use a single, specified interface. This value applies to KMDF and UMDF.
 
 
-### -field WdfUsbTargetDeviceSelectConfigTypeMultiInterface
+#### - WdfUsbTargetDeviceSelectConfigTypeMultiInterface
 
 Configure the device to use multiple interfaces. This value applies to KMDF and UMDF.
 
 
-### -field WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs
+#### - WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs
 
 Configure the device to use multiple interfaces, possibly with alternate settings. Alternate settings are described in the USB specification.  This value applies to KMDF and UMDF.
 
 
-### -field WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor
+#### - WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor
 
 Configure the device by using configuration parameters that are contained in USB descriptors. This value applies to KMDF only.
 
 
-### -field WdfUsbTargetDeviceSelectConfigTypeUrb
+#### - WdfUsbTargetDeviceSelectConfigTypeUrb
 
 Configure the device by using configuration parameters that are contained in a driver-supplied URB structure. This value applies to KMDF only.
 
@@ -120,11 +120,11 @@ The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration is used to specify the
 
 ## -see-also
 
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
 
  
 

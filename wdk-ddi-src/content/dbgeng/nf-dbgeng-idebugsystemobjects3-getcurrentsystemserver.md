@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7956E4F6-7FB5-4349-81D2-4953108557D2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentSystemServer method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::GetCurrentSystemServer, GetCurrentSystemServer, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServer method, GetCurrentSystemServer method [Windows Debugging], debugger.idebugsystemobjects3_getcurrentsystemserver
+ms.keywords: IDebugSystemObjects3::GetCurrentSystemServer, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServer method, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], debugger.idebugsystemobjects3_getcurrentsystemserver, IDebugSystemObjects3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetCurrentSystemServer(
 
 
 
-### -param Server [out]
+#### - Server [out]
 
 A pointer to the returned server value. 
 

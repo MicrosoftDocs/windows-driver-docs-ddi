@@ -72,17 +72,17 @@ NTSTATUS AVStrMiniPinSetDeviceState(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which state is changing.
 
 
-### -param ToState [in]
+#### - ToState [in]
 
 The target <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> after receipt of the IOCTL.
 
 
-### -param FromState [in]
+#### - FromState [in]
 
 The previous <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>.
 

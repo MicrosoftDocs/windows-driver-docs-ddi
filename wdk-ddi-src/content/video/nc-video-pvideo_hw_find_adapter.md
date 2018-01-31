@@ -75,27 +75,27 @@ VP_STATUS HwVidFindAdapter(
 
 
 
-### -param HwDeviceExtension
+#### - HwDeviceExtension
 
 Pointer to the driver's per-device storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-### -param HwContext
+#### - HwContext
 
 Is <b>NULL</b> and should be ignored by the miniport driver.
 
 
-### -param ArgumentString
+#### - ArgumentString
 
 Pointer to a null-terminated ASCII string that originates with the user. This pointer can be <b>NULL</b>.
 
 
-### -param ConfigInfo
+#### - ConfigInfo
 
 Pointer to a <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure. The video port driver allocates memory for and initializes this structure with any known configuration information, such as the system IO bus number and values that the miniport driver set in the <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a> structure.
 
 
-### -param Again
+#### - Again
 
 Should be ignored by the miniport driver.
 
@@ -233,33 +233,33 @@ Depending on the adapter and the <b>AdapterInterfaceType</b> value in <a href=".
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
 <a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
 
 <a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
 
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
-
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
  
 

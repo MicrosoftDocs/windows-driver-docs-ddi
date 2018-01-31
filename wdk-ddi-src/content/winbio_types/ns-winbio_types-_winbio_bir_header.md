@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 5053b027-61a9-463a-967c-9e9ff1673b1c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_BIR_HEADER, _WINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], biometric.winbio_bir_header, winbio_types/PWINBIO_BIR_HEADER, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, winbio_types/WINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], *PWINBIO_BIR_HEADER
+ms.keywords: winbio_types/PWINBIO_BIR_HEADER, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, biometric.winbio_bir_header, PWINBIO_BIR_HEADER, winbio_types/WINBIO_BIR_HEADER, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], WINBIO_BIR_HEADER, _WINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], *PWINBIO_BIR_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,7 @@ typedef struct _WINBIO_BIR_HEADER {
 
 
 
-### -field ValidityPeriod
+#### - ValidityPeriod
 
 Specifies the validity period of this BIR by using the format described in <i>CreationDate</i>.
 
@@ -97,12 +97,12 @@ Specifies the validity period of this BIR by using the format described in <i>Cr
  
 
 
-### -field ValidFields
+#### - ValidFields
 
 A Patron Format A bitmask that indicates which CBEFF optional fields are present in the BIR. For more information about all members of WINBIO_BIR_HEADER, follow the link in the Remarks section to the <i>NISTIR 6529-A Specification</i>. 
 
 
-### -field HeaderVersion
+#### - HeaderVersion
 
 A structure of type WINBIO_BIR_VERSION that specifies the CBEFF header version.
 
@@ -118,32 +118,32 @@ Versions are represented as 8-bit values of the form: 0x<i>NM</i>, where <i>N</i
 </tr>
 </table></span></div>
 
-### -field PatronHeaderVersion
+#### - PatronHeaderVersion
 
 A structure of type WINBIO_BIR_VERSION that specifies PATRON_HEADER_VERSION.
 
 
-### -field DataFlags
+#### - DataFlags
 
 A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536461">WINBIO_BIR_DATA_FLAGS</a> that specifies the level of processing expected for a data capture.
 
 
-### -field Type
+#### - Type
 
 A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536458">WINBIO_BIOMETRIC_TYPE</a> that specifies the biometric type.
 
 
-### -field Subtype
+#### - Subtype
 
 A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536457">WINBIO_BIOMETRIC_SENSOR_SUBTYPE</a> that specifies the biometric subtype.
 
 
-### -field Purpose
+#### - Purpose
 
 A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536463">WINBIO_BIR_PURPOSE</a> that specifies the intended use of the data.
 
 
-### -field DataQuality
+#### - DataQuality
 
 A structure of type WINBIO_BIR_QUALITY that specifies the biometric data quality. Quality measurements are represented as signed integers in the range 0-100, except:
 
@@ -161,17 +161,17 @@ A structure of type WINBIO_BIR_QUALITY that specifies the biometric data quality
 </tr>
 </table></span></div>
 
-### -field CreationDate
+#### - CreationDate
 
 Specifies the creation date and time of this BIR in UTC by using the format YYYYMMDDhhmmss.
 
 
-### -field BiometricDataFormat
+#### - BiometricDataFormat
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> that specifies the data format of the <b>StandardDataBlock</b> for this <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>.
 
 
-### -field ProductId
+#### - ProductId
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> that specifies the product identifier for the component that generated the <b>StandardDataBlock</b> for this WINBIO_BIR.
 

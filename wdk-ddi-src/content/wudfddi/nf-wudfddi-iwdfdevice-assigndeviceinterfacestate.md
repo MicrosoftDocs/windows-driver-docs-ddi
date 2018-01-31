@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, IWDFDevice::AssignDeviceInterfaceState, IWDFDevice, AssignDeviceInterfaceState, wdf.iwdfdevice_assigndeviceinterfacestate, IWDFDevice interface, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method, IWDFDevice interface, wudfddi/IWDFDevice::AssignDeviceInterfaceState, umdf.iwdfdevice_assigndeviceinterfacestate, AssignDeviceInterfaceState method
+ms.keywords: wdf.iwdfdevice_assigndeviceinterfacestate, umdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, IWDFDevice, AssignDeviceInterfaceState method, IWDFDevice interface, IWDFDevice interface, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method, IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.AssignDeviceInterfaceState
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ HRESULT AssignDeviceInterfaceState(
 
 
 
-### -param pDeviceInterfaceGuid [in]
+#### - pDeviceInterfaceGuid [in]
 
 A pointer to the GUID for a device interface class.
 
 
-### -param pReferenceString [in, optional]
+#### - pReferenceString [in, optional]
 
 A pointer to a <b>NULL</b>-terminated string that contains the name of the instance of the device interface. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a name. If the driver must supply a name, the string that the driver passes must not contain any path separator characters ("/" or "\"). 
 
 
-### -param Enable [in]
+#### - Enable [in]
 
 A BOOL value that specifies whether the device interface instance should be enabled or disabled. <b>TRUE</b> indicates to enable; <b>FALSE</b> indicates to disable.
 
@@ -109,9 +109,9 @@ For more information about device interfaces, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>
 
  
 

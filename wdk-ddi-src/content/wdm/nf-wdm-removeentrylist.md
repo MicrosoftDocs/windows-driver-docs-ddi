@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 84c3937f-8042-4b15-b5bb-884d14a97a8c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.removeentrylist, wdm/RemoveEntryList, k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture]
+ms.keywords: RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], wdm/RemoveEntryList, kernel.removeentrylist, k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN RemoveEntryList(
 
 
 
-### -param Entry [in]
+#### - Entry [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that represents the entry to be removed.
 
@@ -98,11 +98,11 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
-
 <a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
 <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
  
 

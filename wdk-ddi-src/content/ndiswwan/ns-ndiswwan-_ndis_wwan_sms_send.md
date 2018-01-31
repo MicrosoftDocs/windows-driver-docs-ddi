@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d92c0ebe-4a11-49d9-95aa-182e99ca8dcf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, netvista.ndis_wwan_sms_send, PNDIS_WWAN_SMS_SEND, _NDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, *PNDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_WWAN_SMS_SEND, WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SMS_SEND, netvista.ndis_wwan_sms_send, ndiswwan/NDIS_WWAN_SMS_SEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_SMS_SEND {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SMS_SEND structure. The
      MB Service sets the header with the values that are shown in the following table when it sends the data
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field SmsSend
+#### - SmsSend
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a> object that represents a SMS
@@ -126,9 +126,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
  
 

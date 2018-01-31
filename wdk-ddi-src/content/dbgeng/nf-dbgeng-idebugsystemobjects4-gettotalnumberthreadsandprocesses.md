@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 452dc67b-1938-4757-99bd-507a32d9a71a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses
+ms.keywords: debugger.gettotalnumberthreadsandprocesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4, GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT GetTotalNumberThreadsAndProcesses(
 
 
 
-### -param TotalThreads [out]
+#### - TotalThreads [out]
 
 Receives the total number of threads in all processes in all targets.
 
 
-### -param TotalProcesses [out]
+#### - TotalProcesses [out]
 
 Receives the total number of processes in all targets.
 
 
-### -param LargestProcessThreads [out]
+#### - LargestProcessThreads [out]
 
 Receives the largest number of threads in any process on any target.
 
 
-### -param LargestSystemThreads [out]
+#### - LargestSystemThreads [out]
 
 Receives the largest number of threads in any target.
 
 
-### -param LargestSystemProcesses [out]
+#### - LargestSystemProcesses [out]
 
 Receives the largest number of processes in any target.
 
@@ -130,11 +130,11 @@ If no target is found, all the values are set to zero.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
  
 

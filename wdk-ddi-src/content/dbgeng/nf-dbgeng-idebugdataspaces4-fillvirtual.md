@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d55ccd38-00c7-491b-aadf-8b42b5e89600
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces3::FillVirtual, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], FillVirtual method, FillVirtual method [Windows Debugging], IDebugDataSpaces2 interface, debugger.fillvirtual, IDebugDataSpaces2 interface [Windows Debugging], FillVirtual method, FillVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, IDebugDataSpaces2::FillVirtual, IDebugDataSpaces4 interface [Windows Debugging], FillVirtual method, FillVirtual, IDebugDataSpaces3::FillVirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::FillVirtual, dbgeng/IDebugDataSpaces4::FillVirtual, dbgeng/IDebugDataSpaces2::FillVirtual, FillVirtual method [Windows Debugging]
+ms.keywords: IDebugDataSpaces3::FillVirtual, IDebugDataSpaces4::FillVirtual, dbgeng/IDebugDataSpaces2::FillVirtual, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, IDebugDataSpaces2::FillVirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4, FillVirtual, debugger.fillvirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::FillVirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::FillVirtual, IDebugDataSpaces4 interface [Windows Debugging], FillVirtual method, IDebugDataSpaces3 interface [Windows Debugging], FillVirtual method, FillVirtual method [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging], FillVirtual method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,27 +73,27 @@ HRESULT FillVirtual(
 
 
 
-### -param Start [in]
+#### - Start [in]
 
 Specifies the location in the target's virtual address space at which to start writing the pattern.
 
 
-### -param Size [in]
+#### - Size [in]
 
 Specifies how many bytes to write to the target's memory.
 
 
-### -param Pattern [in]
+#### - Pattern [in]
 
 Specifies the memory location of the pattern.
 
 
-### -param PatternSize [in]
+#### - PatternSize [in]
 
 Specifies the size in bytes of the pattern.
 
 
-### -param Filled [out, optional]
+#### - Filled [out, optional]
 
 Receives the number of bytes written.  If it is set to <b>NULL</b>, this information isn't returned.
 
@@ -133,13 +133,13 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
  
 

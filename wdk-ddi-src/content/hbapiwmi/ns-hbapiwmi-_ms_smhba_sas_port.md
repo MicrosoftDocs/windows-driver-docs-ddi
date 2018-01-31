@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d294d97a-e6b2-4ab3-bebf-e545aa2f862d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ms_smhba_sas_port, hbapiwmi/MS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port structure pointer [Storage Devices], PMS_SMHBA_SAS_Port, _MS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port structure [Storage Devices], hbapiwmi/PMS_SMHBA_SAS_Port, *PMS_SMHBA_SAS_Port, structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml, MS_SMHBA_SAS_Port
+ms.keywords: hbapiwmi/MS_SMHBA_SAS_Port, storage.ms_smhba_sas_port, _MS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port structure pointer [Storage Devices], MS_SMHBA_SAS_Port, hbapiwmi/PMS_SMHBA_SAS_Port, structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml, MS_SMHBA_SAS_Port structure [Storage Devices], PMS_SMHBA_SAS_Port, *PMS_SMHBA_SAS_Port
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _MS_SMHBA_SAS_Port {
 
 
 
-### -field PortProtocol
+#### - PortProtocol
 
 The protocols that are supported by this SAS port.
 
 
-### -field LocalSASAddress
+#### - LocalSASAddress
 
 The Port_Identifier of this SAS port
 
 
-### -field AttachedSASAddress
+#### - AttachedSASAddress
 
 The SAS address of the entity that is at the opposite end of the SAS link from this local SAS port.
 
 
-### -field NumberofDiscoveredPorts
+#### - NumberofDiscoveredPorts
 
 The number of end ports that are visible to the local SAS port. The discovered ports might also include SMP ports that are contained within SAS expander devices.
 
 
-### -field NumberofPhys
+#### - NumberofPhys
 
 The number of physical ports that are associated with this SAS port. If the value is more than one, this SAS port is considered to be a wide port.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig, StreamClassReadWriteConfig, strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, StreamClassReadWriteConfig routine [Streaming Media Devices]
+ms.keywords: StreamClassReadWriteConfig, stream.streamclassreadwriteconfig, strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, StreamClassReadWriteConfig routine [Streaming Media Devices], strmini/StreamClassReadWriteConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ BOOLEAN StreamClassReadWriteConfig(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
-### -param Read [in]
+#### - Read [in]
 
 Specifies whether to read or write the configuration information. A value of <b>TRUE</b> indicates that a read is requested. A value of <b>FALSE</b> indicates that a write should be performed.
 
 
-### -param Buffer [in, out]
+#### - Buffer [in, out]
 
 Points to the buffer to use to read/write the configuration information.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the offset within the configuration information to begin the read/write operation.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the length of the data to read or write.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5e49e21c-57b8-4864-b4e5-a9baa8df129d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-command-list-funcs-video-decode-0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032 structure [Display Devices], D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032
+ms.keywords: d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032, display.d3d12ddi-command-list-funcs-video-decode-0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032 structure [Display Devices], D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,62 +78,62 @@ typedef struct _D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032 {
 
 
 
-### -field pfnCloseCommandList
+#### - pfnCloseCommandList
 
 Close command list.
 
 
-### -field pfnResetCommandList
+#### - pfnResetCommandList
 
 Reset command list.
 
 
-### -field pfnDiscardResource
+#### - pfnDiscardResource
 
 Discard resource.
 
 
-### -field pfnSetMarker
+#### - pfnSetMarker
 
 Set marker.
 
 
-### -field pfnSetPredication
+#### - pfnSetPredication
 
 Set predication.
 
 
-### -field pfnBeginQuery
+#### - pfnBeginQuery
 
 Begin query.
 
 
-### -field pfnEndQuery
+#### - pfnEndQuery
 
 End query.
 
 
-### -field pfnResolveQueryData
+#### - pfnResolveQueryData
 
 Resolve query data.
 
 
-### -field pfnResourceBarrier
+#### - pfnResourceBarrier
 
 Resource barrier.
 
 
-### -field pfnDecodeFrame
+#### - pfnDecodeFrame
 
 Decode frame.
 
 
-### -field pfnSetProtectedResourceSession
+#### - pfnSetProtectedResourceSession
 
 Set protected resource session.
 
 
-### -field pfnWriteBufferImmediate
+#### - pfnWriteBufferImmediate
 
 Write buffer immediate.
 

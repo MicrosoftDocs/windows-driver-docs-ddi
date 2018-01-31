@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ab429d1b-0b4d-4897-b5f0-73113d16758e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.whea_persistence_info, WHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications], WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml, PWHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, _WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO, ntddk/PWHEA_PERSISTENCE_INFO
+ms.keywords: PWHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml, ntddk/PWHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO, whea.whea_persistence_info, _WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,7 +110,7 @@ typedef union _WHEA_PERSISTENCE_INFO {
  
 
 
-### -field AsULONGLONG
+#### - AsULONGLONG
 
 A ULONGLONG representation of the contents of the WHEA_PERSISTENCE_INFO union.
 

@@ -76,22 +76,23 @@ NTSTATUS SdpConvertTreeToStream(
 
 
 
-### -param Root
+#### - Root
 
 The root node of the tree-based representation of the SDP record to convert into a stream-based
      representation.
 
 
-### -param *Stream
+#### - *Stream
+
+A pointer to the buffer that receives the converted SDP stream.
 
 
-
-### -param Size
+#### - Size
 
 The address of an unsigned long integer to receive the length of the converted SDP stream.
 
 
-### -param tag
+#### - tag
 
 Specifies a 4-byte 
      <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
@@ -142,9 +143,9 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
-
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 

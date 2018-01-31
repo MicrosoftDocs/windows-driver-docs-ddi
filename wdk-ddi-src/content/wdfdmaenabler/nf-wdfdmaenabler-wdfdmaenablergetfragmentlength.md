@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f7481655-4413-4937-8a0a-99ca07d5b7b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdmaenablergetfragmentlength, wdfdmaenabler/WdfDmaEnablerGetFragmentLength, DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, WdfDmaEnablerGetFragmentLength method, kmdf.wdfdmaenablergetfragmentlength, PFN_WDFDMAENABLERGETFRAGMENTLENGTH, WdfDmaEnablerGetFragmentLength
+ms.keywords: PFN_WDFDMAENABLERGETFRAGMENTLENGTH, WdfDmaEnablerGetFragmentLength method, WdfDmaEnablerGetFragmentLength, wdfdmaenabler/WdfDmaEnablerGetFragmentLength, DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, wdf.wdfdmaenablergetfragmentlength, kmdf.wdfdmaenablergetfragmentlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ size_t WdfDmaEnablerGetFragmentLength(
 
 
 
-### -param DmaEnabler [in]
+#### - DmaEnabler [in]
 
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>. 
 
 
-### -param DmaDirection [in]
+#### - DmaDirection [in]
 
 A <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the DMA transfer operation. For more information, see the following Remarks section.
 
@@ -118,9 +118,9 @@ Note that if your driver's device supports duplex operation, <b>WdfDmaEnablerGet
 
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
-
 <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
 
  
 

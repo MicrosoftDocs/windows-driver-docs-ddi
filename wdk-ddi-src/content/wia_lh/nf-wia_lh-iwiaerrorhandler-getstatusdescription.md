@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, wia_lh/IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, GetStatusDescription, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler::GetStatusDescription, GetStatusDescription method [Imaging Devices], IWiaErrorHandler, image.iwiaerrorhandler_getstatusdescription
+ms.keywords: IWiaErrorHandler::GetStatusDescription, image.iwiaerrorhandler_getstatusdescription, IWiaErrorHandler, GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, wia_lh/IWiaErrorHandler::GetStatusDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT GetStatusDescription(
 
 
 
-### -param lFlags [in]
+#### - lFlags [in]
 
 Currently unused. Should be set to zero. 
 
 
-### -param pWiaItem2 [in]
+#### - pWiaItem2 [in]
 
 Pointer to the <b>IWiaItem2</b> item being transferred. <b>IWiaItem2</b> is described in the Microsoft Windows SDK documentation.
 
 
-### -param hrStatus [in]
+#### - hrStatus [in]
 
 HRESULT variable that contains the status code received by the WIA transfer method, for example the <b>IWiaDataCallback::BandedDataCallback</b> method (described in the Windows SDK documentation).
 
 
-### -param pbstrDescription [out]
+#### - pbstrDescription [out]
 
 Pointer to a BSTR that receives a description of the status or error encountered during the transfer. This parameter cannot be <b>NULL</b>. The driver must allocate the string using the <b>SysAllocString</b> function and the caller must free the string using the <b>SysFreeString</b> function. The <b>SysFreeString</b> and <b>SysAllocString </b>functions are described in the Windows SDK documentation.
 
@@ -137,9 +137,9 @@ The implementation of <b>IWiaErrorHandler::GetStatusDescription</b> should retur
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543909">IWiaErrorHandler::ReportStatus</a>
-
 <a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543909">IWiaErrorHandler::ReportStatus</a>
 
  
 

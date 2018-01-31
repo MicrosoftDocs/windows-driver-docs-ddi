@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4dcc198f-5e42-4c60-bfec-19702c9ab674
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGINSTATUS, rilapitypes/RILMSGINSTATUS, netvista.rilmsginstatus_2, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], *LPRILMSGINSTATUS
+ms.keywords: RILMSGINSTATUS, netvista.rilmsginstatus_2, *LPRILMSGINSTATUS, rilapitypes/RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,50 +79,50 @@ typedef struct _RILMSGINSTATUS {
 
 
 
-### -field dwMsgID
+#### - dwMsgID
 
 
 
-### -field raTgtRecipAddress
+#### - raTgtRecipAddress
 
 
 
-### -field stTgtSCReceiveTime
+#### - stTgtSCReceiveTime
 
 
 
-### -field stTgtDischargeTime
+#### - stTgtDischargeTime
 
 
 
-### -field dwReserved
+#### - dwReserved
 
 
 
-### -field dwTgtDlvStatus
+#### - dwTgtDlvStatus
 
 
 
-### -field dwProtocolID
+#### - dwProtocolID
 
 
 
-### -field rmdDataCoding
+#### - rmdDataCoding
 
 
 
-### -field cbHdrLength
+#### - cbHdrLength
 
 
 
-### -field cchMsgLength
+#### - cchMsgLength
 
 
 
-### -field rgbHdr
+#### - rgbHdr
 
 
 
-### -field rgbMsg
+#### - rgbMsg
 
 

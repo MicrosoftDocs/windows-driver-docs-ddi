@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fbbea7d7-2bd7-4dd0-bcb8-3fc93c7474a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_MCO_DEFAULTMONITORPROFILE, _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, DmEnums_fc03a227-b0c7-4152-a4f0-c8badee981e5.xml, D3DKMDT_MCO_DRIVER, D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration [Display Devices], display.d3dkmdt_monitor_capabilities_origin, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, D3DKMDT_MCO_DEFAULTMONITORPROFILE, d3dkmdt/D3DKMDT_MCO_DRIVER, D3DKMDT_MCO_UNINITIALIZED, D3DKMDT_MCO_MONITORDESCRIPTOR, d3dkmdt/D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, d3dkmdt/D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_UNINITIALIZED
+ms.keywords: D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, display.d3dkmdt_monitor_capabilities_origin, d3dkmdt/D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_UNINITIALIZED, _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, d3dkmdt/D3DKMDT_MCO_DEFAULTMONITORPROFILE, D3DKMDT_MCO_DRIVER, d3dkmdt/D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration [Display Devices], D3DKMDT_MCO_DEFAULTMONITORPROFILE, D3DKMDT_MCO_MONITORDESCRIPTOR, D3DKMDT_MCO_UNINITIALIZED, d3dkmdt/D3DKMDT_MCO_DRIVER, DmEnums_fc03a227-b0c7-4152-a4f0-c8badee981e5.xml, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN {
 
 
 
-### -field D3DKMDT_MCO_UNINITIALIZED
+#### - D3DKMDT_MCO_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_MONITOR_CAPABILITIES_ORIGIN has not yet been assigned a meaningful value.
 
 
-### -field D3DKMDT_MCO_DEFAULTMONITORPROFILE
+#### - D3DKMDT_MCO_DEFAULTMONITORPROFILE
 
 Indicates that the capability information was obtained from the default monitor profile.
 
 
-### -field D3DKMDT_MCO_MONITORDESCRIPTOR
+#### - D3DKMDT_MCO_MONITORDESCRIPTOR
 
 Indicates that the capability information was obtained from an Extended Display Information Data (EDID) descriptor.
 
 
-### -field D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE
+#### - D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE
 
 Indicates that the capability information was obtained from an INF file section that overrides the monitor's EDID descriptor.
 
 
-### -field D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE
+#### - D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE
 
 Indicates that the capability information was obtained from an INF file section that overrides a single capability.
 
 
-### -field D3DKMDT_MCO_DRIVER
+#### - D3DKMDT_MCO_DRIVER
 
 Indicates that the capability information was obtained by a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonitormodes.md">DxgkDdiRecommendMonitorModes</a> function.
 

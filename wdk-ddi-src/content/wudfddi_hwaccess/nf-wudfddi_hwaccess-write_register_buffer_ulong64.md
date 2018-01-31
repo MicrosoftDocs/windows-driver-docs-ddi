@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18858A87-D7D8-4387-AD84-6717EC3DAC25
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_REGISTER_BUFFER_ULONG64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64, wdf.write_register_buffer_ulong64, umdf.write_register_buffer_ulong64, WRITE_REGISTER_BUFFER_ULONG64 function
+ms.keywords: wdf.write_register_buffer_ulong64, WRITE_REGISTER_BUFFER_ULONG64 function, umdf.write_register_buffer_ulong64, WRITE_REGISTER_BUFFER_ULONG64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_REGISTER_BUFFER_ULONG64
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,22 +73,22 @@ void WRITE_REGISTER_BUFFER_ULONG64(
 
 
 
-### -param pDevice [in]
+#### - pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Register [in]
+#### - Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a buffer into which an array of ULONG64 values is to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG64 values to write to the register.
 

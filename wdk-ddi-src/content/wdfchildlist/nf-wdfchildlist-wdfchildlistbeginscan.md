@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08951cde-d9d2-4de6-bb63-7c3e7cf1f92f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan method, wdf.wdfchildlistbeginscan, PFN_WDFCHILDLISTBEGINSCAN, wdfchildlist/WdfChildListBeginScan, WdfChildListBeginScan, kmdf.wdfchildlistbeginscan
+ms.keywords: kmdf.wdfchildlistbeginscan, wdf.wdfchildlistbeginscan, wdfchildlist/WdfChildListBeginScan, PFN_WDFCHILDLISTBEGINSCAN, WdfChildListBeginScan, DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfChildListBeginScan(
 
 
 
-### -param ChildList [in]
+#### - ChildList [in]
 
 A handle to a framework child list object.
 

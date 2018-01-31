@@ -71,12 +71,12 @@ void AVStrMiniPinIrpCompletion(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 Points to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which the callback is registered.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Points to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> which originated from the circuit to which <i>Pin</i> belongs.
 

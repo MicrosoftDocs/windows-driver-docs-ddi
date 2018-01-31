@@ -75,7 +75,7 @@ NTSTATUS RtlDecompressFragmentEx(
 
 
 
-### -param CompressionFormat [in]
+#### - CompressionFormat [in]
 
 Bitmask specifying the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows:
 <table>
@@ -116,42 +116,42 @@ Specifies that compression should be performed. This value is required.
 </table> 
 
 
-### -param UncompressedFragment [out]
+#### - UncompressedFragment [out]
 
 Pointer to a caller-allocated buffer (allocated from paged or non-paged pool) receiving the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param UncompressedFragmentSize [in]
+#### - UncompressedFragmentSize [in]
 
 The size, in bytes, of the <i>UncompressedFragment</i> buffer.
 
 
-### -param CompressedBuffer [in]
+#### - CompressedBuffer [in]
 
 A pointer to the buffer containing the data to decompress. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param CompressedBufferSize [in]
+#### - CompressedBufferSize [in]
 
 The size, in bytes, of the <i>CompressedBuffer</i> buffer.
 
 
-### -param FragmentOffset [in]
+#### - FragmentOffset [in]
 
 The zero-based offset, in bytes, where the uncompressed fragment is being extract from. This offset value is the position within the original uncompressed buffer.
 
 
-### -param UncompressedChunkSize [in]
+#### - UncompressedChunkSize [in]
 
 The size, in bytes, of each chunk within the compression buffer.  Valid values are 512, 1024, 2048 and 4096.
 
 
-### -param FinalUncompressedSize [out]
+#### - FinalUncompressedSize [out]
 
 A pointer to a caller-allocated variable which receives the size, in bytes, of the decompressed data stored in <i>UncompressedFragment</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param WorkSpace [in]
+#### - WorkSpace [in]
 
 A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressFragmentEx</b> function during decompression. Use the <a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
@@ -221,15 +221,15 @@ An invalid compression format was specified via the <i>CompressionFormat</i> par
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
 
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 

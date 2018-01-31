@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFFile2::RetrieveCountedFileName, wdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName method, IWDFFile2 interface, RetrieveCountedFileName, umdf.iwdffile2_retrievecountedfilename, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, RetrieveCountedFileName method, IWDFFile2, wudfddi/IWDFFile2::RetrieveCountedFileName, IWDFFile2 interface, RetrieveCountedFileName method
+ms.keywords: IWDFFile2::RetrieveCountedFileName, wdf.iwdffile2_retrievecountedfilename, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, umdf.iwdffile2_retrievecountedfilename, IWDFFile2, RetrieveCountedFileName method, IWDFFile2 interface, wudfddi/IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName, RetrieveCountedFileName method, IWDFFile2 interface, RetrieveCountedFileName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFFile2.RetrieveCountedFileName
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ HRESULT RetrieveCountedFileName(
 
 
 
-### -param pCountedFileName [out]
+#### - pCountedFileName [out]
 
 A pointer to a caller-allocated buffer. This buffer receives a <b>NULL</b>-terminated character string that represents the full name of the file that is associated with the device. If the pointer is <b>NULL</b>, <b>RetrieveCountedFileName</b> retrieves only the string length. 
 

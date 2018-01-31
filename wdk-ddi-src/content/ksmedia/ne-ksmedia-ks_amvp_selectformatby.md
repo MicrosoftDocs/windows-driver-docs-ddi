@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7fb6752-9711-4922-a806-915c362bcffe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_AMVP_DO_NOT_CARE, KS_AMVP_DO_NOT_CARE, vidcapstruct_98fc9313-4177-46c2-8740-f0dc2857b447.xml, KS_AMVP_SELECTFORMATBY enumeration [Streaming Media Devices], KS_AMVP_SELECTFORMATBY, ksmedia/KS_AMVP_BEST_BANDWIDTH, ksmedia/KS_AMVP_SELECTFORMATBY, ksmedia/KS_AMVP_INPUT_SAME_AS_OUTPUT, KS_AMVP_BEST_BANDWIDTH, KS_AMVP_INPUT_SAME_AS_OUTPUT, stream.ks_amvp_selectformatby
+ms.keywords: stream.ks_amvp_selectformatby, ksmedia/KS_AMVP_BEST_BANDWIDTH, ksmedia/KS_AMVP_DO_NOT_CARE, vidcapstruct_98fc9313-4177-46c2-8740-f0dc2857b447.xml, KS_AMVP_INPUT_SAME_AS_OUTPUT, ksmedia/KS_AMVP_SELECTFORMATBY, KS_AMVP_DO_NOT_CARE, KS_AMVP_BEST_BANDWIDTH, KS_AMVP_SELECTFORMATBY, KS_AMVP_SELECTFORMATBY enumeration [Streaming Media Devices], ksmedia/KS_AMVP_INPUT_SAME_AS_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-### -field KS_AMVP_DO_NOT_CARE
+#### - KS_AMVP_DO_NOT_CARE
 
 The format does not matter.
 
 
-### -field KS_AMVP_BEST_BANDWIDTH
+#### - KS_AMVP_BEST_BANDWIDTH
 
 Use the largest available bandwidth.
 
 
-### -field KS_AMVP_INPUT_SAME_AS_OUTPUT
+#### - KS_AMVP_INPUT_SAME_AS_OUTPUT
 
 Use the same format for output as input.
 

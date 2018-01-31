@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.serial_timeouts, SERIAL_TIMEOUTS structure [Serial Ports], PSERIAL_TIMEOUTS structure pointer [Serial Ports], PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS, _SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS
+ms.keywords: PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS, serports.serial_timeouts, *PSERIAL_TIMEOUTS, _SERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS structure [Serial Ports], ntddser/PSERIAL_TIMEOUTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIAL_TIMEOUTS
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS"
+req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
 ---
 
 # _SERIAL_TIMEOUTS structure
@@ -71,27 +71,27 @@ typedef struct _SERIAL_TIMEOUTS {
 
 
 
-### -field ReadIntervalTimeout
+#### - ReadIntervalTimeout
 
 The maximum amount of time, in milliseconds, that is allowed between two consecutive bytes in a read operation. A read operation that exceeds this maximum times out. This maximum does not apply to the time interval that precedes the reading of the first byte. A value of zero indicates that interval time-outs are not used. For more information, see Remarks.
 
 
-### -field ReadTotalTimeoutMultiplier
+#### - ReadTotalTimeoutMultiplier
 
 The maximum amount of time, in milliseconds, that is allowed per byte in a read operation. A read operation that exceeds this maximum times out. For more information, see Remarks.
 
 
-### -field ReadTotalTimeoutConstant
+#### - ReadTotalTimeoutConstant
 
 The maximum amount of additional time, in milliseconds, that is allowed per read operation. A read operation that exceeds this maximum times out. For more information, see Remarks.
 
 
-### -field WriteTotalTimeoutMultiplier
+#### - WriteTotalTimeoutMultiplier
 
 The maximum total time, in milliseconds, that is allowed per byte in a write operation. A write operation that exceeds this maximum times out. For more information, see Remarks.
 
 
-### -field WriteTotalTimeoutConstant
+#### - WriteTotalTimeoutConstant
 
 The maximum amount of additional time, in milliseconds, that is allowed per write operation. A write operation that exceeds this maximum times out. For more information, see Remarks.
 
@@ -157,17 +157,17 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\sercx\nf-sercx-sercxgetreadintervaltimeout.md">SerCxGetReadIntervalTimeout</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
-
-<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
-
 <a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
-
-<a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
+
+<a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
 
  
 

@@ -75,7 +75,7 @@ typedef EVT_UCX_ENDPOINT_RESET PEVT_UCX_ENDPOINT_RESET;
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
@@ -84,7 +84,7 @@ typedef EVT_UCX_ENDPOINT_RESET PEVT_UCX_ENDPOINT_RESET;
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object that the client driver completes when the reset operation is finished.
 

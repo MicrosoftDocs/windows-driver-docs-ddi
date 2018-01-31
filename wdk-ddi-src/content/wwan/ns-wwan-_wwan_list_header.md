@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ef5c94e9-641c-41ea-baf1-343b876c92a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_LIST_HEADER structure pointer [Network Drivers Starting with Windows Vista], PWWAN_LIST_HEADER, WwanRef_78070f1a-5913-41b6-9be2-0b26c19dd149.xml, wwan/WWAN_LIST_HEADER, WWAN_LIST_HEADER structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_LIST_HEADER, netvista.wwan_list_header, WWAN_LIST_HEADER, *PWWAN_LIST_HEADER, _WWAN_LIST_HEADER
+ms.keywords: PWWAN_LIST_HEADER, netvista.wwan_list_header, WwanRef_78070f1a-5913-41b6-9be2-0b26c19dd149.xml, WWAN_LIST_HEADER structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_LIST_HEADER, PWWAN_LIST_HEADER structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_LIST_HEADER, _WWAN_LIST_HEADER, WWAN_LIST_HEADER, *PWWAN_LIST_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct _WWAN_LIST_HEADER {
 
 
 
-### -field ElementType
+#### - ElementType
 
 A value from the 
      <a href="..\wwan\ne-wwan-_wwan_struct_type.md">WWAN_STRUCT_TYPE</a> enumeration that represents
      the type of objects in the list.
 
 
-### -field ElementCount
+#### - ElementCount
 
 The number of elements in the list. The MB Service uses this information to allocate and
      reallocate memory for the list.
@@ -93,19 +93,19 @@ You can assume that the list of elements is stored in memory immediately followi
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_receive.md">NDIS_WWAN_SMS_RECEIVE</a>
-
-<a href="..\wwan\ne-wwan-_wwan_struct_type.md">WWAN_STRUCT_TYPE</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 <mshelp:link keywords="netvista.ndis_wwan_set_preferred_providers" tabindex="0"><b>
    NDIS_WWAN_SET_PREFERRED_PROVIDERS</b></mshelp:link>
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_receive.md">NDIS_WWAN_SMS_RECEIVE</a>
+
+<a href="..\wwan\ne-wwan-_wwan_struct_type.md">WWAN_STRUCT_TYPE</a>
+
 <mshelp:link keywords="netvista.ndis_wwan_provisioned_contexts" tabindex="0"><b>
    NDIS_WWAN_PROVISIONED_CONTEXTS</b></mshelp:link>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
  
 

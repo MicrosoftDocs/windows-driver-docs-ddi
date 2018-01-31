@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], DVD_COPY_PROTECT_KEY structure [Storage Devices], PDVD_COPY_PROTECT_KEY, _DVD_COPY_PROTECT_KEY, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml, storage.dvd_copy_protect_key, ntddcdvd/DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY
+ms.keywords: DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY structure [Storage Devices], storage.dvd_copy_protect_key, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], *PDVD_COPY_PROTECT_KEY, ntddcdvd/DVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY, _DVD_COPY_PROTECT_KEY, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml, PDVD_COPY_PROTECT_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,8 +75,20 @@ typedef struct _DVD_COPY_PROTECT_KEY {
 
 
 
-### -field Parameters
+#### - Parameters
 
+
+
+#### FileHandle
+
+Pointer to the file handle for the physical device that the copy protection is being negotiated on.
+
+
+#### TitleOffset
+
+Contains the logical block address on the media of the title.
+
+The upper layers of the operating system use the <b>FileHandle</b> member. The file system converts the value in <b>FileHandle</b> into a logical block address and stores the result in the <b>TitleOffset</b> member. Kernel-mode drivers use the <b>TitleOffset</b> member.
 
 
 ### -field Parameters.FileHandle
@@ -91,22 +103,22 @@ Contains the logical block address on the media of the title.
 The upper layers of the operating system use the <b>FileHandle</b> member. The file system converts the value in <b>FileHandle</b> into a logical block address and stores the result in the <b>TitleOffset</b> member. Kernel-mode drivers use the <b>TitleOffset</b> member.
 
 
-### -field KeyLength
+#### - KeyLength
 
 Indicates the length of the key data to be retrieved. 
 
 
-### -field SessionId
+#### - SessionId
 
 Indicates the DVD session ID. 
 
 
-### -field KeyType
+#### - KeyType
 
 Indicates the key type. The DVD device driver uses this information to determine the key format in a report key command, as defined by the <i>SCSI Multimedia Commands - 3 (MMC-3)</i> specification. A report key command either reports key data for a specified key (challenge key, bus key, title key, RPC key, or disk key), reports the state of the authentication success flag (ASF), or invalidates an authentication grant ID (AGID). See the <i>MMC-3</i> specification for further information. 
 
 
-### -field KeyFlags
+#### - KeyFlags
 
 
 
@@ -118,16 +130,16 @@ Indicates the key type. The DVD device driver uses this information to determine
 
 
 
-### -field KeyData
+#### - KeyData
 
 Contains the key data that was returned. 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_key_type.md">DVD_KEY_TYPE</a>
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
+
+<a href="..\ntddcdvd\ne-ntddcdvd-dvd_key_type.md">DVD_KEY_TYPE</a>
 
  
 

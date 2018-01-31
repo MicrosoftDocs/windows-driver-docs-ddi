@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10af500f-bb3b-427f-86b1-ee075ffc7ac6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWSK_DATA_INDICATION, wsk/PWSK_DATA_INDICATION, wsk/WSK_DATA_INDICATION, _WSK_DATA_INDICATION, PWSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml, netvista.wsk_data_indication, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: wsk/WSK_DATA_INDICATION, WSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], netvista.wsk_data_indication, _WSK_DATA_INDICATION, *PWSK_DATA_INDICATION, wsk/PWSK_DATA_INDICATION, PWSK_DATA_INDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_DATA_INDICATION
 product: Windows
 targetos: Windows
-req.typenames: WSK_DATA_INDICATION, *PWSK_DATA_INDICATION
+req.typenames: "*PWSK_DATA_INDICATION, WSK_DATA_INDICATION"
 req.product: Windows 10 or later.
 ---
 
@@ -75,14 +75,14 @@ typedef struct _WSK_DATA_INDICATION {
  
 
 
-### -field Next
+#### - Next
 
 A pointer to the next WSK_DATA_INDICATION structure in a linked list of WSK_DATA_INDICATION
      structures. If this member is <b>NULL</b>, this structure is the last WSK_DATA_INDICATION structure in the
      linked list.
 
 
-### -field Buffer
+#### - Buffer
 
 A WSK_BUF structure that describes the data that has been received on the socket.
 
@@ -101,9 +101,9 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
  
 

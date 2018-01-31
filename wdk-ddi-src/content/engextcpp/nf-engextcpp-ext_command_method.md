@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 30962127-a46f-43f5-a58e-891c5b8a867d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EXT_COMMAND_METHOD, debugger.ext_command_method, EngExtCpp_Ref_a4a0b264-50e1-457b-a962-ca691509ea36.xml, engextcpp/EXT_COMMAND_METHOD, EXT_COMMAND_METHOD function [Windows Debugging]
+ms.keywords: EngExtCpp_Ref_a4a0b264-50e1-457b-a962-ca691509ea36.xml, EXT_COMMAND_METHOD function [Windows Debugging], engextcpp/EXT_COMMAND_METHOD, EXT_COMMAND_METHOD, debugger.ext_command_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	EXT_COMMAND_METHOD
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # EXT_COMMAND_METHOD macro
@@ -67,7 +67,7 @@ The EXT_COMMAND_METHOD macro declares an extension command from inside the defin
 
 
 
-### -param _Name
+#### - _Name
 
 The name of the extension command.  As with all extension commands, the name must consist entirely of lowercase letters.
 

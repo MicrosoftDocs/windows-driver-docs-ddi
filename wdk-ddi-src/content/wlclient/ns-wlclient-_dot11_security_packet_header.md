@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a880137-58a6-4b89-8384-a92c37f289a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], netvista.dot11_security_packet_header, PDOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER, _DOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], DOT11_SECURITY_PACKET_HEADER, wlclient/DOT11_SECURITY_PACKET_HEADER
+ms.keywords: PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], _DOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER, Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, wlclient/DOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, DOT11_SECURITY_PACKET_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,21 +71,21 @@ typedef struct _DOT11_SECURITY_PACKET_HEADER {
 
 
 
-### -field PeerMac
+#### - PeerMac
 
 A 
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> type that defines the
      MAC address of the peer node.
 
 
-### -field usEtherType
+#### - usEtherType
 
 The value of the 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ieee-ethertype-handling">IEEE EtherType</a> in big-endian byte
      order.
 
 
-### -field Data
+#### - Data
 
 The contents of the security packet, excluding the 801.11 MAC header.
 

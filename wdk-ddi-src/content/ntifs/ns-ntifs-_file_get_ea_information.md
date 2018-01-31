@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2abaf505-b890-43b6-a277-d930417bdcb8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PFILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION structure [Installable File System Drivers], ifsk.file_get_ea_information, ntifs/FILE_GET_EA_INFORMATION, _FILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml
+ms.keywords: FILE_GET_EA_INFORMATION structure [Installable File System Drivers], ifsk.file_get_ea_information, _FILE_GET_EA_INFORMATION, fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml, FILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION, ntifs/FILE_GET_EA_INFORMATION, ntifs/PFILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _FILE_GET_EA_INFORMATION {
 
 
 
-### -field NextEntryOffset
+#### - NextEntryOffset
 
 Offset, in bytes, of the next FILE_GET_EA_INFORMATION-typed entry. This member is zero if no other entries follow this one. 
 
 
-### -field EaNameLength
+#### - EaNameLength
 
 Length, in bytes, of the <b>EaName</b> array. This value does not include a NULL terminator. 
 
 
-### -field EaName
+#### - EaName
 
 Specifies the first character of the name of the extended attribute to be queried. This is followed in memory by the remainder of the string. 
 

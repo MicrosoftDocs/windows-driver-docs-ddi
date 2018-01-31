@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 261d7676-9ce7-4e15-a58f-0439434f202b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwopenprocess, k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, ZwOpenProcess, NtOpenProcess, ntddk/NtOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], ntddk/ZwOpenProcess
+ms.keywords: ZwOpenProcess routine [Kernel-Mode Driver Architecture], k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, ZwOpenProcess, ntddk/NtOpenProcess, kernel.zwopenprocess, NtOpenProcess, ntddk/ZwOpenProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS ZwOpenProcess(
 
 
 
-### -param ProcessHandle [out]
+#### - ProcessHandle [out]
 
 A pointer to a variable of type HANDLE. The <b>ZwOpenProcess</b> routine writes the process handle to the variable that this parameter points to.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that contains the access rights that the caller has requested to the process object.
 
 
-### -param ObjectAttributes [in]
+#### - ObjectAttributes [in]
 
 A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the attributes to apply to the process object handle. In Windows Vista and later versions of Windows, the <b>ObjectName</b> field of this structure must be set to <b>NULL</b>. In Windows Server 2003, Windows XP, and Windows 2000, this field can, as an option, point to an object name. For more information, see the following Remarks section.
 
 
-### -param ClientId [in, optional]
+#### - ClientId [in, optional]
 
 A pointer to a client ID that identifies the thread whose process is to be opened. In Windows Vista and later versions of Windows, this parameter must be a non-<b>NULL</b> pointer to a valid client ID. In Windows Server 2003, Windows XP, and Windows 2000, this parameter is optional and can be set to <b>NULL</b> if the <b>OBJECT_ATTRIBUTES</b> structure that <i>ObjectAttributes</i> points to specifies an object name. For more information, see the following Remarks section.
 
@@ -160,11 +160,11 @@ In Windows Server 2003, Windows XP, and Windows 2000, the caller has the option 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
  
 

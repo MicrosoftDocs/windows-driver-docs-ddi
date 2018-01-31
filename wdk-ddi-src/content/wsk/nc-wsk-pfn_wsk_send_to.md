@@ -40,7 +40,7 @@ apiname:
 -	WskSendTo
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -78,27 +78,27 @@ NTSTATUS WSKAPI * WskSendTo(
 
 
 
-### -param Socket [in]
+#### - Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket over which to send the datagram.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to an initialized 
      <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that describes the data buffer
      that contains the datagram that is being sent over the socket.
 
 
-### -param Flags
+#### - Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
 
-### -param RemoteAddress [in, optional]
+#### - RemoteAddress [in, optional]
 
 A pointer to a structure that specifies the remote transport address to which to send the
      datagram. This pointer must be a pointer to the specific SOCKADDR structure type that corresponds to the
@@ -119,14 +119,14 @@ For more information about setting a fixed destination transport address for a d
      SIO_WSK_SET_SENDTO_ADDRESS</b></mshelp:link>.
 
 
-### -param ControlInfoLength [in]
+#### - ControlInfoLength [in]
 
 The number of bytes of data in the buffer that is pointed to by the 
      <i>ControlInfo</i> parameter. If there is no control information associated with the datagram, the 
      <i>ControlInfoLength</i> parameter must be zero.
 
 
-### -param ControlInfo [in, optional]
+#### - ControlInfo [in, optional]
 
 A pointer to a buffer that contains control information that is associated with the datagram that
      is being sent. The control information data consists of one or more control data objects, each of which
@@ -135,7 +135,7 @@ A pointer to a buffer that contains control information that is associated with 
      information that is associated with the datagram, this parameter should be <b>NULL</b>.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -233,24 +233,24 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 <mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
    WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
 
  
 

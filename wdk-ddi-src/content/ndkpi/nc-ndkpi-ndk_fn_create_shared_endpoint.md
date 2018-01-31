@@ -40,7 +40,7 @@ apiname:
 -	NdkCreateSharedEndpoint
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_CREATE_SHARED_ENDPOINT callback
@@ -75,36 +75,35 @@ NTSTATUS NdkCreateSharedEndpoint(
 
 
 
-### -param *pNdkAdapter
+#### - *pNdkAdapter [in]
 
+A pointer to an NDK adapter object (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>).
 
 
 ### -param PSOCKADDR
 
 
 
-### -param AddressLength [in]
+#### - AddressLength [in]
 
 The size, in bytes, of local address data at the <i>pAddress</i> parameter.
 
 
 
 
-### -param CreateCompletion [in]
+#### - CreateCompletion [in]
 
 A pointer to an <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
-### -param RequestContext [in, optional]
+#### - RequestContext [in, optional]
 
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 
-### -param **ppNdkSharedEndpoint
+#### - **ppNdkSharedEndpoint
 
-
-
-
+A pointer to a created shared endpoint object (<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 #### - pNdkAdapter [in]
@@ -233,9 +232,9 @@ The <i>NdkCreateSharedEndpoint</i> function creates an NDK shared endpoint to us
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
 

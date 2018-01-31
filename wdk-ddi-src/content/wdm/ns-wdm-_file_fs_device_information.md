@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0849bbc2-cfc7-4437-896d-3f46e8f6461a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PFILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_FS_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/FILE_FS_DEVICE_INFORMATION, kstruct_b_86acb464-7e57-467f-998e-896b0a7cebc4.xml, _FILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION, kernel.file_fs_device_information, FILE_FS_DEVICE_INFORMATION, wdm/PFILE_FS_DEVICE_INFORMATION"
+ms.keywords: "*PFILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION, kernel.file_fs_device_information, wdm/FILE_FS_DEVICE_INFORMATION, wdm/PFILE_FS_DEVICE_INFORMATION, kstruct_b_86acb464-7e57-467f-998e-896b0a7cebc4.xml, PFILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FS_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_FS_DEVICE_INFORMATION, *PFILE_FS_DEVICE_INFORMATION
+req.typenames: "*PFILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ typedef struct _FILE_FS_DEVICE_INFORMATION {
 
 
 
-### -field DeviceType
+#### - DeviceType
 
 Set when a driver calls <b>IoCreateDevice</b> as appropriate for the type of underlying device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>.
 
 
-### -field Characteristics
+#### - Characteristics
 
 The device characteristics. For a description of relevant values, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 

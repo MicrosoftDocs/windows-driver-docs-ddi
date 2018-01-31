@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ea36895-4728-45ad-84f7-3517afd2327d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcodeactivatevccomplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete, condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml
+ms.keywords: NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], netvista.ndismcodeactivatevccomplete, condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, ndis/NdisMCoDeactivateVcComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ VOID NdisMCoDeactivateVcComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the final status of the deactivate-VC operation, which can be NDIS_STATUS_SUCCESS or any
      NDIS_STATUS_
      <i>XXX except</i> NDIS_STATUS_PENDING.
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
@@ -123,14 +123,14 @@ A call to
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-   ProtocolCmDeactivateVcComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
 <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+<mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
+   ProtocolCmDeactivateVcComplete</i></mshelp:link>
 
  
 

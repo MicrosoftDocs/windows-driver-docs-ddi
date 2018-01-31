@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68128d39-2490-4c6b-8780-e5aa542a4e3d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], storage.iscsi_discoveredtargetportal2, _ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], iscsifnd/ISCSI_DiscoveredTargetPortal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml, ISCSI_DiscoveredTargetPortal2
+ms.keywords: PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], ISCSI_DiscoveredTargetPortal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml, PISCSI_DiscoveredTargetPortal2, iscsifnd/ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2, storage.iscsi_discoveredtargetportal2, iscsifnd/PISCSI_DiscoveredTargetPortal2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct _ISCSI_DiscoveredTargetPortal2 {
 
 
 
-### -field Socket
+#### - Socket
 
 The socket number of the portal. 
 
 
-### -field Address
+#### - Address
 
 The network address of the portal. 
 
 
-### -field SecurityBitmap
+#### - SecurityBitmap
 
 A bitmap, which is defined in the <i>iSNS specification</i>, that indicates the security characteristics of logon connections that are made to this target portal. The following table describes possible security flag values. 
 <table>
@@ -164,12 +164,12 @@ The other mask values are valid. If this bit is not set security flags are not s
 For more information about how to configure the default security characteristics that are assigned of the target portal in the registry, see the Remarks section.
 
 
-### -field KeySize
+#### - KeySize
 
 The size, in bytes, of the encryption key in the <b>Key</b> member.
 
 
-### -field Key
+#### - Key
 
 A variable-length array of characters that contains the encryption key that is associated with the portal address.
 

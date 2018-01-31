@@ -40,7 +40,7 @@ apiname:
 -	pfnShaderCacheAddRefCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback
@@ -70,7 +70,7 @@ VOID APIENTRY CALLBACK * pfnShaderCacheAddRefCb(
 
 
 
-### -param hCacheSession [in]
+#### - hCacheSession [in]
 
 The handler of a cache session.
 

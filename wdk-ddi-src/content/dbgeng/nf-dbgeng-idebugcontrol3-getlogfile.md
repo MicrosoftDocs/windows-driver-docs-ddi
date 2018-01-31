@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9d71a817-55b5-4042-8de8-15b23e51dffd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, IDebugControl3, IDebugControl2::GetLogFile, dbgeng/IDebugControl::GetLogFile, debugger.getlogfile, GetLogFile method [Windows Debugging], IDebugControl interface [Windows Debugging], GetLogFile method, GetLogFile method [Windows Debugging], IDebugControl interface, IDebugControl::GetLogFile, GetLogFile method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetLogFile, IDebugControl3 interface [Windows Debugging], GetLogFile method, IDebugControl3::GetLogFile, dbgeng/IDebugControl3::GetLogFile, IDebugControl2 interface [Windows Debugging], GetLogFile method, GetLogFile method [Windows Debugging], IDebugControl2 interface, GetLogFile
+ms.keywords: GetLogFile method [Windows Debugging], IDebugControl3 interface, GetLogFile method [Windows Debugging], IDebugControl interface, IDebugControl3, dbgeng/IDebugControl::GetLogFile, IDebugControl2::GetLogFile, IDebugControl::GetLogFile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, GetLogFile, GetLogFile method [Windows Debugging], dbgeng/IDebugControl2::GetLogFile, IDebugControl3 interface [Windows Debugging], GetLogFile method, IDebugControl3::GetLogFile, IDebugControl interface [Windows Debugging], GetLogFile method, IDebugControl2 interface [Windows Debugging], GetLogFile method, GetLogFile method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetLogFile, debugger.getlogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetLogFile(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the name of the currently open log file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param FileSize [out, optional]
+#### - FileSize [out, optional]
 
 Receives the size, in characters, of the name of the log file.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Append [out]
+#### - Append [out]
 
 Receives <b>TRUE</b> if log messages are appended to the log file, or <b>FALSE</b> if the contents of the log file were discarded when the file was opened.
 
@@ -149,19 +149,19 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
  
 

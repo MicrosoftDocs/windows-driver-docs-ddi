@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetJobServerSilo, ntddk/PsGetJobServerSilo, kernel.psgetjobserversilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, PsGetJobServerSilo, ntddk/PsGetJobServerSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS PsGetJobServerSilo(
 
 
 
-### -param Job [in, optional]
+#### - Job [in, optional]
 
 A job object.
 
 
-### -param ServerSilo [out]
+#### - ServerSilo [out]
 
  A pointer that receives the server silo for the job.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 235300a1-3941-4f9c-8327-4ce174493f3e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/MSFC_AdapterEvent, *PMSFC_AdapterEvent, PMSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], storage.msfc_adapterevent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml, _MSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], hbapiwmi/PMSFC_AdapterEvent, MSFC_AdapterEvent
+ms.keywords: MSFC_AdapterEvent structure [Storage Devices], structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml, MSFC_AdapterEvent, *PMSFC_AdapterEvent, storage.msfc_adapterevent, PMSFC_AdapterEvent structure pointer [Storage Devices], hbapiwmi/PMSFC_AdapterEvent, PMSFC_AdapterEvent, _MSFC_AdapterEvent, hbapiwmi/MSFC_AdapterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_AdapterEvent
 product: Windows
 targetos: Windows
-req.typenames: MSFC_AdapterEvent, *PMSFC_AdapterEvent
+req.typenames: "*PMSFC_AdapterEvent, MSFC_AdapterEvent"
 ---
 
 # _MSFC_AdapterEvent structure
@@ -68,12 +68,12 @@ typedef struct _MSFC_AdapterEvent {
 
 
 
-### -field EventType
+#### - EventType
 
 Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier. 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains the worldwide name of the port that generated the event. 
 
@@ -89,9 +89,9 @@ For more information about event types and worldwide names, see the T11 committe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562477">MSFC_AdapterEvent WMI Class</a>
-
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562477">MSFC_AdapterEvent WMI Class</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicequeryproperty, WdfDeviceQueryProperty, wdfdevice/WdfDeviceQueryProperty, DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, PFN_WDFDEVICEQUERYPROPERTY, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty
+ms.keywords: wdf.wdfdevicequeryproperty, WdfDeviceQueryProperty, DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty method, PFN_WDFDEVICEQUERYPROPERTY, wdfdevice/WdfDeviceQueryProperty, kmdf.wdfdevicequeryproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfDeviceQueryProperty(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param DeviceProperty [in]
+#### - DeviceProperty [in]
 
 A <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator that identifies the device property to be retrieved.
 
 
-### -param BufferLength [in]
+#### - BufferLength [in]
 
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer</i>.
 
 
-### -param PropertyBuffer [out]
+#### - PropertyBuffer [out]
 
 A caller-supplied pointer to a caller-allocated buffer that receives the requested information. The pointer can be <b>NULL</b> if the <i>BufferLength</i> parameter is zero.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 A caller-supplied location that, on return, contains the size, in bytes, of the information that the method stored in <i>PropertyBuffer</i>. If the function's return value is STATUS_BUFFER_TOO_SMALL, this location receives the required buffer size.
 

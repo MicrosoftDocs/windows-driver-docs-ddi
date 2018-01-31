@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fef7c63b-ca9e-47f4-96cb-4dafa080ddcf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_interface-graphics_eb7333cb-f073-4c0b-ade4-20a477d28f67.xml, PDRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1, winddiui/DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1, PDRIVER_UPGRADE_INFO_1 structure pointer [Print Devices], print.driver_upgrade_info_1, winddiui/PDRIVER_UPGRADE_INFO_1, _DRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1 structure [Print Devices]
+ms.keywords: "_DRIVER_UPGRADE_INFO_1, print_interface-graphics_eb7333cb-f073-4c0b-ade4-20a477d28f67.xml, PDRIVER_UPGRADE_INFO_1 structure pointer [Print Devices], PDRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1 structure [Print Devices], DRIVER_UPGRADE_INFO_1, winddiui/DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1, winddiui/PDRIVER_UPGRADE_INFO_1, print.driver_upgrade_info_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVER_UPGRADE_INFO_1
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1
+req.typenames: "*PDRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1"
 req.product: Windows 10 or later.
 ---
 
@@ -69,21 +69,21 @@ typedef struct _DRIVER_UPGRADE_INFO_1 {
 
 
 
-### -field pPrinterName
+#### - pPrinterName
 
 Pointer to a NULL-terminated string that specifies the name of the printer.
 
 
-### -field pOldDriverDirectory
+#### - pOldDriverDirectory
 
 Pointer to a NULL-terminated string that specifies the local directory in which the old printer driver files can be found.
 
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
-
 <a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
+
+<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
 
  
 

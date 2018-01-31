@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2eb99f42-3639-4327-a880-47e18d1da71d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_DISPLAYMODELIST, D3DKMT_DISPLAYMODELIST, D3DKMT_DISPLAYMODELIST structure [Display Devices], _D3DKMT_DISPLAYMODELIST, display.d3dkmt_displaymodelist
+ms.keywords: "_D3DKMT_DISPLAYMODELIST, D3DKMT_DISPLAYMODELIST, D3DKMT_DISPLAYMODELIST structure [Display Devices], display.d3dkmt_displaymodelist, d3dkmthk/D3DKMT_DISPLAYMODELIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_DISPLAYMODELIST {
 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display modes apply to.
 
 
-### -field ModeCount
+#### - ModeCount
 
 [in/out] The number of display modes in the array that <b>pModeList</b> specifies.
 
 
-### -field pModeList
+#### - pModeList
 
 [out] An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
 

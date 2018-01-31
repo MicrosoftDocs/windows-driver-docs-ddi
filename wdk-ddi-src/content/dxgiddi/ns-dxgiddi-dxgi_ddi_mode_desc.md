@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9924f914-2812-4953-85d1-9c777404418b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MODE_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3687fd3c-7423-47bf-a376-a13b820ee787.xml, display.dxgi_ddi_mode_desc, dxgiddi/DXGI_DDI_MODE_DESC, DXGI_DDI_MODE_DESC
+ms.keywords: UMDisplayDriver_Dx10param_Structs_3687fd3c-7423-47bf-a376-a13b820ee787.xml, DXGI_DDI_MODE_DESC structure [Display Devices], dxgiddi/DXGI_DDI_MODE_DESC, DXGI_DDI_MODE_DESC, display.dxgi_ddi_mode_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,52 +73,52 @@ typedef struct DXGI_DDI_MODE_DESC {
 
 
 
-### -field Width
+#### - Width
 
 [out] The screen width of the display mode, in pixels.
 
 
-### -field Height
+#### - Height
 
 [out] The screen height of the display mode, in pixels.
 
 
-### -field Format
+#### - Format
 
 [out] A DXGI_FORMAT-typed value that indicates the pixel format of the display mode.
 
 
-### -field RefreshRate
+#### - RefreshRate
 
 [out] A <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_rational.md">DXGI_DDI_RATIONAL</a> structure that indicates the refresh rate of the display mode.
 
 
-### -field ScanlineOrdering
+#### - ScanlineOrdering
 
 [out] A <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_scanline_order.md">DXGI_DDI_MODE_SCANLINE_ORDER</a>-typed value that indicates how scan lines are ordered in the display mode.
 
 
-### -field Rotation
+#### - Rotation
 
 [out] A <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>-typed value that identifies the orientation of the display mode.
 
 
-### -field Scaling
+#### - Scaling
 
 [out] A <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_scaling.md">DXGI_DDI_MODE_SCALING</a>-typed value that identifies the scaling of the display mode.
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_scanline_order.md">DXGI_DDI_MODE_SCANLINE_ORDER</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_rational.md">DXGI_DDI_RATIONAL</a>
 
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_scaling.md">DXGI_DDI_MODE_SCALING</a>
 
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_scanline_order.md">DXGI_DDI_MODE_SCANLINE_ORDER</a>
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_rational.md">DXGI_DDI_RATIONAL</a>
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
 
  
 

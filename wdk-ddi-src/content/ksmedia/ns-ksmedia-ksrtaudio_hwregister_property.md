@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 200577b9-44de-45ca-8b4f-904eabb1a4ce
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSRTAUDIO_HWREGISTER_PROPERTY, PKSRTAUDIO_HWREGISTER_PROPERTY structure pointer [Audio Devices], ksmedia/KSRTAUDIO_HWREGISTER_PROPERTY, *PKSRTAUDIO_HWREGISTER_PROPERTY, PKSRTAUDIO_HWREGISTER_PROPERTY, audio.ksrtaudio_hwregister_property, KSRTAUDIO_HWREGISTER_PROPERTY structure [Audio Devices], aud-prop_d554442a-4677-4fc6-a305-ef02d5caffef.xml, ksmedia/PKSRTAUDIO_HWREGISTER_PROPERTY
+ms.keywords: KSRTAUDIO_HWREGISTER_PROPERTY, aud-prop_d554442a-4677-4fc6-a305-ef02d5caffef.xml, KSRTAUDIO_HWREGISTER_PROPERTY structure [Audio Devices], ksmedia/PKSRTAUDIO_HWREGISTER_PROPERTY, PKSRTAUDIO_HWREGISTER_PROPERTY structure pointer [Audio Devices], PKSRTAUDIO_HWREGISTER_PROPERTY, audio.ksrtaudio_hwregister_property, *PKSRTAUDIO_HWREGISTER_PROPERTY, ksmedia/KSRTAUDIO_HWREGISTER_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Property
+#### - Property
 
 A <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that the client initializes appropriately prior to calling KSPROPERTY_RTAUDIO_POSITIONREGISTER or KSPROPERTY_RTAUDIO_CLOCKREGISTER.
 
 
-### -field BaseAddress
+#### - BaseAddress
 
 Specifies the buffer base address.  Unless the client specifies a base address, this parameter is set to <b>NULL</b>.
 
@@ -87,9 +87,9 @@ The client uses the KSRTAUDIO_HWREGISTER_PROPERTY structure to request the hardw
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister.md">KSRTAUDIO_HWREGISTER</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
 

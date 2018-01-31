@@ -70,7 +70,7 @@ NTSTATUS EventHandler(
 
 
 
-### -param EventRequest [in]
+#### - EventRequest [in]
 
 Pointer to an initialized <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a> structure
 
@@ -109,19 +109,19 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
 
 <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
  
 

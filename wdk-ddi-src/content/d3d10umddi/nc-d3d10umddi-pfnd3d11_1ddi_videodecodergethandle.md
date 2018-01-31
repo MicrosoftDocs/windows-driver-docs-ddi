@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoDecoderGetHandle
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEODECODERGETHANDLE callback
@@ -72,7 +72,7 @@ HRESULT APIENTRY* pfnVideoDecoderGetHandle(
 
 
 
-### -param hDevice [in]
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
@@ -83,11 +83,9 @@ A handle to the display device (graphics context).
 
 
 
-### -param *pContentProtectionHandle
+#### - *pContentProtectionHandle [out]
 
-
-
-
+A pointer to the handle.
 
 
 #### - hDecoder [in]
@@ -161,9 +159,9 @@ This function allows the driver to define its own handle to its state data for t
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_videodecoderextension.md">D3D11_1DDIARG_VIDEODECODEREXTENSION</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_videodecoderextension.md">D3D11_1DDIARG_VIDEODECODEREXTENSION</a>
 
  
 

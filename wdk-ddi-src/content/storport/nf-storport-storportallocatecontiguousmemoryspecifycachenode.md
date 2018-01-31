@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml, storage.storportallocatecontiguousmemoryspecifycachenode, StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storport/StorPortAllocateContiguousMemorySpecifyCacheNode
+ms.keywords: storage.storportallocatecontiguousmemoryspecifycachenode, StorPortAllocateContiguousMemorySpecifyCacheNode, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ ULONG StorPortAllocateContiguousMemorySpecifyCacheNode(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 The number of bytes to allocate.
 
 
-### -param LowestAcceptableAddress [in]
+#### - LowestAcceptableAddress [in]
 
 The lowest physical address that is valid for the allocation. For example, if the device can only reference physical memory in the 8 MB to 16 MB range, this value would be set to 0x800000 (8 MB).
 
 
-### -param HighestAcceptableAddress [in]
+#### - HighestAcceptableAddress [in]
 
 The highest physical address that is valid for the allocation. For example, if the device can only reference physical memory below 16 MB, this value would be set to 0xFFFFFF (16 MB - 1).
 
 
-### -param BoundaryAddressMultiple [in, optional]
+#### - BoundaryAddressMultiple [in, optional]
 
 The physical address multiple that this allocation must not cross.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 The desired cache type for the mapping.
 
 
-### -param PreferredNode [in]
+#### - PreferredNode [in]
 
 The preferred node from which the allocation should be made if pages are available on that node.
 
 
-### -param BufferPointer [out]
+#### - BufferPointer [out]
 
 The variable that receives the starting address of the allocated memory block. Upon return from this routine, if this variable is zero, a contiguous range could not be found to satisfy the request. If this variable is not <b>NULL</b>, it contains a pointer (for example, a virtual address in the nonpaged portion of the system) to the allocated physically contiguous memory.
 

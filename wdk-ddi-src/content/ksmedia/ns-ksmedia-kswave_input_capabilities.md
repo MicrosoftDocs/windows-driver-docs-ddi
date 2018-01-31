@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES, ksmedia/KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, stream.kswave_input_capabilities, KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices]
+ms.keywords: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES, ksmedia/KSWAVE_INPUT_CAPABILITIES, dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, stream.kswave_input_capabilities, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], ksmedia/PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct {
 
 
 
-### -field MaximumChannelsPerConnection
+#### - MaximumChannelsPerConnection
 
 Specifies the maximum channels per connection.
 
 
-### -field MinimumBitsPerSample
+#### - MinimumBitsPerSample
 
 Specifies the minimum bits per sample.
 
 
-### -field MaximumBitsPerSample
+#### - MaximumBitsPerSample
 
 Specifies the maximum bits per sample.
 
 
-### -field MinimumSampleFrequency
+#### - MinimumSampleFrequency
 
 Specifies the minimum sampling frequency.
 
 
-### -field MaximumSampleFrequency
+#### - MaximumSampleFrequency
 
 Specifies the maximum sampling frequency.
 
 
-### -field TotalConnections
+#### - TotalConnections
 
 Indicates the total number of connections.
 
 
-### -field ActiveConnections
+#### - ActiveConnections
 
 Indicates the number of active connections.
 

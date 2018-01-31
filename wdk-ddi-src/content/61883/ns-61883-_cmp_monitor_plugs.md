@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: D281BCBB-CDC6-442C-9A47-DF07D1BE1B28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCMP_MONITOR_PLUGS structure pointer [Buses], 61883/CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS, _CMP_MONITOR_PLUGS, IEEE.cmp_monitor_plugs, 61883/PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses]
+ms.keywords: "_CMP_MONITOR_PLUGS, 61883/PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS, 61883/CMP_MONITOR_PLUGS, IEEE.cmp_monitor_plugs, PCMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses], PCMP_MONITOR_PLUGS structure pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_MONITOR_PLUGS
 product: Windows
 targetos: Windows
-req.typenames: "*PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS"
+req.typenames: CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS
 ---
 
 # _CMP_MONITOR_PLUGS structure
@@ -69,12 +69,12 @@ typedef struct _CMP_MONITOR_PLUGS {
 
 
 
-### -field Flags
+#### - Flags
 
 On input, the caller sets this member to REGISTER_MONITOR_PLUG_NOTIFY to register to monitor all local plug access. This member can also be set to DEREGISTER_MONITOR_PLUG_NOTIFY to stop monitoring local plug access.
 
 
-### -field pfnNotify
+#### - pfnNotify
 
 On input, aointer to a caller-supplied function to be called by the protocol driver when a local plug is accessed. 
 
@@ -99,7 +99,7 @@ This function uses the following prototype:
 On input, a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
 
 
-### -field Context
+#### - Context
 
 On input, a pointer to a caller-defined context for the function at <b>pfnNotify</b>.
 

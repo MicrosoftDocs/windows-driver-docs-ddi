@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 27bba553-2d46-4892-864a-52e44caf6d56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, wlantypes/DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_WPA_NONE, Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml, DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_WPA, DOT11_AUTH_ALGO_80211_SHARED_KEY, _DOT11_AUTH_ALGORITHM, netvista.dot11_auth_algorithm, wlantypes/DOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_IHV_START, wlantypes/DOT11_AUTH_ALGO_WPA_PSK, DOT11_AUTH_ALGO_WPA_PSK, DOT11_AUTH_ALGO_80211_OPEN, wlantypes/DOT11_AUTH_ALGO_IHV_END, wlantypes/PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_ALGO_WPA, DOT11_AUTH_ALGO_RSNA_PSK, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGO_RSNA, *PDOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_RSNA_PSK
+ms.keywords: DOT11_AUTH_ALGO_WPA_NONE, wlantypes/DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], netvista.dot11_auth_algorithm, wlantypes/DOT11_AUTH_ALGO_WPA, DOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_WPA_PSK, _DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_80211_OPEN, wlantypes/DOT11_AUTH_ALGO_RSNA_PSK, PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, wlantypes/PDOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_RSNA_PSK, wlantypes/DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGO_80211_SHARED_KEY, DOT11_AUTH_ALGO_WPA_PSK, DOT11_AUTH_ALGO_WPA, PDOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,20 +76,20 @@ typedef enum _DOT11_AUTH_ALGORITHM {
 
 
 
-### -field DOT11_AUTH_ALGO_80211_OPEN
+#### - DOT11_AUTH_ALGO_80211_OPEN
 
 
       Specifies an IEEE 802.11 Open System authentication algorithm.
      
 
 
-### -field DOT11_AUTH_ALGO_80211_SHARED_KEY
+#### - DOT11_AUTH_ALGO_80211_SHARED_KEY
 
 Specifies an IEEE 802.11 Shared Key authentication algorithm that requires the use of a pre-shared
      Wired Equivalent Privacy (WEP) key for the 802.11 authentication.
 
 
-### -field DOT11_AUTH_ALGO_WPA
+#### - DOT11_AUTH_ALGO_WPA
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm. IEEE 802.1X port authorization is performed by
      the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through
@@ -104,7 +104,7 @@ When the WPA algorithm is enabled, the 802.11 station associates only with an ac
      element (IE).
 
 
-### -field DOT11_AUTH_ALGO_WPA_PSK
+#### - DOT11_AUTH_ALGO_WPA_PSK
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm that uses preshared keys (PSK). IEEE 802.1X
      port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived
@@ -119,12 +119,12 @@ When the WPA PSK algorithm is enabled, the 802.11 station will associate only wi
      WPA IE.
 
 
-### -field DOT11_AUTH_ALGO_WPA_NONE
+#### - DOT11_AUTH_ALGO_WPA_NONE
 
 This value is not supported.
 
 
-### -field DOT11_AUTH_ALGO_RSNA
+#### - DOT11_AUTH_ALGO_RSNA
 
 Specifies an IEEE 802.11i Robust Security Network Association (RSNA) algorithm. IEEE 802.1X port
      authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are
@@ -139,7 +139,7 @@ When the RSNA algorithm is enabled, the 802.11 station will associate only with 
      Network (RSN) IE.
 
 
-### -field DOT11_AUTH_ALGO_RSNA_PSK
+#### - DOT11_AUTH_ALGO_RSNA_PSK
 
 Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authorization is
      performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared
@@ -151,7 +151,7 @@ When the RSNA PSK algorithm is enabled, the 802.11 station will associate only w
      RSN IE.
 
 
-### -field DOT11_AUTH_ALGO_IHV_START
+#### - DOT11_AUTH_ALGO_IHV_START
 
 Specifies the start of the range that specifies proprietary authentication algorithms that are
      developed by an IHV.
@@ -162,7 +162,7 @@ The
      Extensible Station (ExtSTA) mode.
 
 
-### -field DOT11_AUTH_ALGO_IHV_END
+#### - DOT11_AUTH_ALGO_IHV_END
 
 Specifies the end of the range that specifies proprietary authentication algorithms that are
      developed by an IHV.
@@ -212,15 +212,15 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
-
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
+
+<mshelp:link keywords="netvista.oid_dot11_enabled_authentication_algorithm" tabindex="0">
+   OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</mshelp:link>
 
 <mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.oid_dot11_enabled_authentication_algorithm" tabindex="0">
-   OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</mshelp:link>
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
  
 

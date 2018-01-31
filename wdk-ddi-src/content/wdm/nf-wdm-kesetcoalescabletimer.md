@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, kernel.kesetcoalescabletimer, KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], wdm/KeSetCoalescableTimer
+ms.keywords: kernel.kesetcoalescabletimer, k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], wdm/KeSetCoalescableTimer, KeSetCoalescableTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ BOOLEAN KeSetCoalescableTimer(
 
 
 
-### -param Timer [in, out]
+#### - Timer [in, out]
 
 A pointer to a timer object. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a> structure, which is an opaque, system structure that represents the timer object. This object must have been previously initialized by the <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a> or <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a> routine.
 
 
-### -param DueTime [in]
+#### - DueTime [in]
 
 Specifies an absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units, which are 100-nanosecond intervals. Absolute expiration times track any changes that are made to the system clock. Relative expiration times are not affected by system clock changes.
 
 
-### -param Period [in]
+#### - Period [in]
 
 Specifies the interval between periodic timer expirations in milliseconds. The value of this parameter must not exceed MAXLONG. This parameter is optional and can be set to zero to indicate that the timer is nonperiodic.
 
 
-### -param TolerableDelay [in]
+#### - TolerableDelay [in]
 
 Specifies a tolerance, in milliseconds, for the timer period that <i>Period</i> specifies and for the initial time interval that <i>DueTime</i> specifies. For a periodic timer, the time interval between two successive timer expirations will be in the range from (<i>Period</i> - <i>TolerableDelay</i>) to (<i>Period</i> + <i>TolerableDelay</i>). The initial expiration time will be in the range from <i>DueTime</i> to (<i>DueTime</i> + <i>TolerableDelay</i>). The <i>TolerableDelay</i> value cannot be negative.
 
 
-### -param Dpc [in, optional]
+#### - Dpc [in, optional]
 
 A pointer to a DPC object. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure, which is an opaque, system structure that represents the DPC object. This object must have been previously initialized by the <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a> routine. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require a DPC.
 
@@ -157,29 +157,29 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
 <a href="..\ntddk\nf-ntddk-kesetimportancedpc.md">KeSetImportanceDpc</a>
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 <a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
  
 

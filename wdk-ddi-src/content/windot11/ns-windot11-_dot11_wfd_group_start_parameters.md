@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA17F7DB-E6E7-4934-8AAF-73800ABF1432
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_WFD_GROUP_START_PARAMETERS, PDOT11_WFD_GROUP_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_WFD_GROUP_START_PARAMETERS, PDOT11_WFD_GROUP_START_PARAMETERS, windot11/PDOT11_WFD_GROUP_START_PARAMETERS, netvista.dot11_wfd_group_start_parameters, windot11/DOT11_WFD_GROUP_START_PARAMETERS
+ms.keywords: DOT11_WFD_GROUP_START_PARAMETERS, _DOT11_WFD_GROUP_START_PARAMETERS, *PDOT11_WFD_GROUP_START_PARAMETERS, netvista.dot11_wfd_group_start_parameters, PDOT11_WFD_GROUP_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GROUP_START_PARAMETERS, windot11/DOT11_WFD_GROUP_START_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_GROUP_START_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_GROUP_START_PARAMETERS, *PDOT11_WFD_GROUP_START_PARAMETERS
+req.typenames: "*PDOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ typedef struct _DOT11_WFD_GROUP_START_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>DOT11_WFD_GROUP_START_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -92,7 +92,7 @@ The type, revision, and size of the <b>DOT11_WFD_GROUP_START_PARAMETERS</b> stru
 </table> 
 
 
-### -field AdvertisedOperatingChannel
+#### - AdvertisedOperatingChannel
 
 The channel information originally sent to the Client in a GO Negotiation or Invitation exchange. This is the preferred channel for starting the group. The miniport must ensure regulatory compliance when starting the Group Owner.
 

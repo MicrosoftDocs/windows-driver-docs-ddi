@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 74d9b770-c2b6-483d-a6d7-070ac2a55133
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: hResult, hResult method [Imaging Devices], IWiaLog interface, IWiaLog, IWiaLog interface [Imaging Devices], hResult method, image.iwialog_hresult, IWiaLog::hResult, wia_lh/IWiaLog::hResult, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, hResult method [Imaging Devices]
+ms.keywords: image.iwialog_hresult, hResult, IWiaLog, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, IWiaLog::hResult, hResult method [Imaging Devices], IWiaLog interface, hResult method [Imaging Devices], wia_lh/IWiaLog::hResult, IWiaLog interface [Imaging Devices], hResult method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT hResult(
 
 
 
-### -param hResult [in]
+#### - hResult [in]
 
 Specifies the HRESULT value to translate into a string.
 

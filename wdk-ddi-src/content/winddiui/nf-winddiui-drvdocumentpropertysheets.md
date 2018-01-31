@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fc7e98ba-5c49-4c2d-af2e-b6c13757f6e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvDocumentPropertySheets, print.drvdocumentpropertysheets, winddiui/DrvDocumentPropertySheets, print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml, DrvDocumentPropertySheets function [Print Devices]
+ms.keywords: DrvDocumentPropertySheets, print.drvdocumentpropertysheets, print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml, winddiui/DrvDocumentPropertySheets, DrvDocumentPropertySheets function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvDocumentPropertySheets
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -69,12 +69,12 @@ LONG DrvDocumentPropertySheets(
 
 
 
-### -param pPSUIInfo [in, optional]
+#### - pPSUIInfo [in, optional]
 
 Caller-supplied pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure. Can be <b>NULL</b> (see the following Remarks section).
 
 
-### -param lParam
+#### - lParam
 
 Caller-supplied integer value that is dependent on the contents of the <b>Reason</b> member of the PROPSHEETUI_INFO structure, as listed in the following table.
 <table>
@@ -144,11 +144,11 @@ If the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is not zero, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
 <a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a>
 
 <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
  
 

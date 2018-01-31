@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 237463EC-3C57-4DCA-9757-870B5F55C584
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_BDA_RATING_PINRESET, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices], *PBDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], PBDA_RATING_PINRESET, stream.bda_rating_pinreset, bdatypes/PBDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET, BDA_RATING_PINRESET"
+ms.keywords: bdatypes/PBDA_RATING_PINRESET, *PBDA_RATING_PINRESET, PBDA_RATING_PINRESET, _BDA_RATING_PINRESET, stream.bda_rating_pinreset, bdatypes/BDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], BDA_RATING_PINRESET, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _BDA_RATING_PINRESET {
 
 
 
-### -field bPinLength
+#### - bPinLength
 
 Specifies the buffer size including a null termination.
 
 
-### -field argbNewPin
+#### - argbNewPin
 
 Specifies null-terminated UTF8. Use an empty string if the pin is disabled.
 

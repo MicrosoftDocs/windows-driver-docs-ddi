@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AE58D20E-25A0-4D45-9E60-38EF2F1D1EF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongLongAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongLongAdd, kernel.rtlulonglongadd, RtlULongLongAdd
+ms.keywords: ntintsafe/RtlULongLongAdd, RtlULongLongAdd, kernel.rtlulonglongadd, RtlULongLongAdd function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RtlULongLongAdd(
 
 
 
-### -param ullAugend [in]
+#### - ullAugend [in]
 
 The first value in the equation.
 
 
-### -param ullAddend [in]
+#### - ullAddend [in]
 
 The value to add to <i>ullAugend</i>.
 

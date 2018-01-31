@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f48bbf84-027f-4579-b83c-7dfb1cbe6b65
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_data, _HIDP_DATA, *PHIDP_DATA, PHIDP_DATA, hidpi/PHIDP_DATA, hidstrct_690e0e92-9de7-44e0-8550-4f84d7bb768e.xml, hidpi/HIDP_DATA, HIDP_DATA structure [Human Input Devices], PHIDP_DATA structure pointer [Human Input Devices], HIDP_DATA
+ms.keywords: hidpi/HIDP_DATA, PHIDP_DATA, hidpi/PHIDP_DATA, hidstrct_690e0e92-9de7-44e0-8550-4f84d7bb768e.xml, HIDP_DATA, *PHIDP_DATA, PHIDP_DATA structure pointer [Human Input Devices], _HIDP_DATA, HIDP_DATA structure [Human Input Devices], hid.hidp_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_DATA
 product: Windows
 targetos: Windows
-req.typenames: HIDP_DATA, *PHIDP_DATA
+req.typenames: "*PHIDP_DATA, HIDP_DATA"
 ---
 
 # _HIDP_DATA structure
@@ -72,22 +72,22 @@ typedef struct _HIDP_DATA {
 
 
 
-### -field RawValue
+#### - RawValue
 
 Contains the binary data extracted from a report if the control is a value.
 
 
-### -field On
+#### - On
 
 Specifies, if <b>TRUE</b> and the control is a button, that the button is set to ON (1). Otherwise, if <b>On</b> is <b>FALSE</b> and the control is a button, the button is set to OFF (zero).
 
 
-### -field DataIndex
+#### - DataIndex
 
 Specifies the data index of a control.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for internal system use only.
 

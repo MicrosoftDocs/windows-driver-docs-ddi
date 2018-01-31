@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cf6578d1-e455-4bbe-a89f-bc0292e24a4a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_SMART, PFEATURE_DATA_SMART, ntddmmc/FEATURE_DATA_SMART, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, ntddmmc/PFEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], *PFEATURE_DATA_SMART, FEATURE_DATA_SMART, storage.feature_data_smart, PFEATURE_DATA_SMART structure pointer [Storage Devices]"
+ms.keywords: PFEATURE_DATA_SMART structure pointer [Storage Devices], FEATURE_DATA_SMART, storage.feature_data_smart, *PFEATURE_DATA_SMART, ntddmmc/PFEATURE_DATA_SMART, ntddmmc/FEATURE_DATA_SMART, PFEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, _FEATURE_DATA_SMART
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _FEATURE_DATA_SMART {
 
 
 
-### -field Header
+#### - Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 
-### -field FaultFailureReportingPagePresent
+#### - FaultFailureReportingPagePresent
 
 Indicates, when set to 1, that the device supports the Fault / Failure Reporting Mode. If set to zero, the device does not support this mode. 
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field Reserved02
+#### - Reserved02
 
 Reserved.
 

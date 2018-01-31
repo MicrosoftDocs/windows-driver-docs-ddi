@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf7951de-3368-4faf-9bae-272c6d76d1a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWDI_TX_COMPLETE_DATA structure pointer [Network Drivers Starting with Windows Vista], netvista.wdi_tx_complete_data, *PWDI_TX_COMPLETE_DATA, netvista.wifi_tx_complete_data, WDI_TX_COMPLETE_DATA structure [Network Drivers Starting with Windows Vista], dot11wdi/WDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA, _WDI_TX_COMPLETE_DATA, dot11wdi/PWDI_TX_COMPLETE_DATA
+ms.keywords: WDI_TX_COMPLETE_DATA structure [Network Drivers Starting with Windows Vista], PWDI_TX_COMPLETE_DATA structure pointer [Network Drivers Starting with Windows Vista], *PWDI_TX_COMPLETE_DATA, netvista.wifi_tx_complete_data, WDI_TX_COMPLETE_DATA, dot11wdi/PWDI_TX_COMPLETE_DATA, _WDI_TX_COMPLETE_DATA, netvista.wdi_tx_complete_data, dot11wdi/WDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDI_TX_COMPLETE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA"
+req.typenames: WDI_TX_COMPLETE_DATA, *PWDI_TX_COMPLETE_DATA
 ---
 
 # _WDI_TX_COMPLETE_DATA structure
@@ -73,37 +73,37 @@ typedef struct _WDI_TX_COMPLETE_DATA {
 
 
 
-### -field SeqCtl
+#### - SeqCtl
 
 The value of the sequence control field from the frame transmission.
 
 
-### -field PnLength
+#### - PnLength
 
 The MPDU PN length for the transmitted frame.
 
 
-### -field RetryCount
+#### - RetryCount
 
 The number of attempts to transmit the frame.
 
 
-### -field wPad
+#### - wPad
 
 This member is reserved.
 
 
-### -field MpduPN
+#### - MpduPN
 
 The MPDU PN.
 
 
-### -field ReplayIHVReserved0
+#### - ReplayIHVReserved0
 
 Reserved for IHV use.
 
 
-### -field ReplayIHVReserved1
+#### - ReplayIHVReserved1
 
 Reserved for IHV use.
 

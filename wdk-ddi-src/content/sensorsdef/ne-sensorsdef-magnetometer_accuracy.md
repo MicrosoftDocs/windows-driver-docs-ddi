@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BC8D4FB1-69F4-4FAE-BA90-7CCB57D4A6C4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.magnetometer_accuracy, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, MagnetometerAccuracy_Unknown, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], MAGNETOMETER_ACCURACY, MagnetometerAccuracy_Unreliable, sensorsdef/MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Approximate, MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unreliable
+ms.keywords: sensorsdef/MagnetometerAccuracy_High, MagnetometerAccuracy_High, MagnetometerAccuracy_Approximate, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, MagnetometerAccuracy_Unknown, sensorsdef/MagnetometerAccuracy_Unknown, sensorsdef/MagnetometerAccuracy_Unreliable, MagnetometerAccuracy_Unreliable, sensors.magnetometer_accuracy, MAGNETOMETER_ACCURACY, MAGNETOMETER_ACCURACY enumeration [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _MAGNETOMETER_ACCURACY {
 
 
 
-### -field MagnetometerAccuracy_Unknown
+#### - MagnetometerAccuracy_Unknown
 
 Indicates that the magnetometer's accuracy cannot be determined.
 
 
-### -field MagnetometerAccuracy_Unreliable
+#### - MagnetometerAccuracy_Unreliable
 
 Indicates that the magnetometer readings are unreliable. The application can choose to prompt the user to calibrate the compass, to improve accuracy.
 
 
-### -field MagnetometerAccuracy_Approximate
+#### - MagnetometerAccuracy_Approximate
 
 Indicates that the magnetometer readings are approximate values.
 
 
-### -field MagnetometerAccuracy_High
+#### - MagnetometerAccuracy_High
 
 Indicates that the magnetometer accuracy is set to high.
 

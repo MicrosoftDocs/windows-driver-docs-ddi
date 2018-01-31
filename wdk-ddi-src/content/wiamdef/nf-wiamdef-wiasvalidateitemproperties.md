@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: d7858b1b-88cf-4e75-a466-40afdcb01d9b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml, image.wiasvalidateitemproperties, wiasValidateItemProperties, wiamdef/wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices]
+ms.keywords: wiamdef/wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices], wiasValidateItemProperties, image.wiasvalidateitemproperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasValidateItemProperties
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ HRESULT _stdcall wiasValidateItemProperties(
 
 
 
-### -param pWiasContext [in]
+#### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-### -param nPropSpec
+#### - nPropSpec
 
 Specifies the number of properties to validate.
 
 
-### -param pPropSpec [in]
+#### - pPropSpec [in]
 
 Pointer to the first element of an array of PROPSPEC structures indicating the properties to validate.
 

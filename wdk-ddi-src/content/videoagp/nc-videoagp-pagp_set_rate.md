@@ -40,7 +40,7 @@ apiname:
 -	AgpSetRate
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ BOOLEAN APIENTRY AgpSetRate(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param AgpRate [in]
+#### - AgpRate [in]
 
 Specifies the transfer rate to be set. This value can be one of the following:
 <table>

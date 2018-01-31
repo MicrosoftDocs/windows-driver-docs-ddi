@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f544ae60-b9c4-497c-8cb5-a2f9500a0cde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_MAP_WRITE_NOOVERWRITE, display.d3d10_ddi_map, D3D10_DDI_MAP_WRITE_NOOVERWRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP_READ, d3d10umddi/D3D10_DDI_MAP, D3D10_DDI_MAP_READWRITE, D3D10_DDI_MAP_WRITE_DISCARD, UMDisplayDriver_Dx10param_Structs_7bf6d24a-def5-4d66-9b15-fee9a619597b.xml, d3d10umddi/D3D10_DDI_MAP_WRITE, D3D10_DDI_MAP enumeration [Display Devices], D3D10_DDI_MAP, d3d10umddi/D3D10_DDI_MAP_READWRITE, D3D10_DDI_MAP_WRITE, d3d10umddi/D3D10_DDI_MAP_READ
+ms.keywords: display.d3d10_ddi_map, D3D10_DDI_MAP_READWRITE, D3D10_DDI_MAP_WRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP_READ, D3D10_DDI_MAP enumeration [Display Devices], d3d10umddi/D3D10_DDI_MAP_READ, D3D10_DDI_MAP_WRITE_DISCARD, d3d10umddi/D3D10_DDI_MAP_WRITE_NOOVERWRITE, UMDisplayDriver_Dx10param_Structs_7bf6d24a-def5-4d66-9b15-fee9a619597b.xml, D3D10_DDI_MAP, d3d10umddi/D3D10_DDI_MAP_READWRITE, d3d10umddi/D3D10_DDI_MAP, D3D10_DDI_MAP_WRITE_NOOVERWRITE, d3d10umddi/D3D10_DDI_MAP_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum D3D10_DDI_MAP {
 
 
 
-### -field D3D10_DDI_MAP_READ
+#### - D3D10_DDI_MAP_READ
 
 Read access is requested for the CPU to the subresource.
 
 
-### -field D3D10_DDI_MAP_WRITE
+#### - D3D10_DDI_MAP_WRITE
 
 Write access is requested for the CPU to the subresource.
 
 
-### -field D3D10_DDI_MAP_READWRITE
+#### - D3D10_DDI_MAP_READWRITE
 
 Read and write access is requested for the CPU to the subresource.
 
 
-### -field D3D10_DDI_MAP_WRITE_DISCARD
+#### - D3D10_DDI_MAP_WRITE_DISCARD
 
 Write access is requested for the CPU to the subresource. However, the contents of the subresource become undefined during this operation because the requesting application might completely write over the entire region of memory. You can use this access level only with dynamic resources. 
 
 
-### -field D3D10_DDI_MAP_WRITE_NOOVERWRITE
+#### - D3D10_DDI_MAP_WRITE_NOOVERWRITE
 
 Write access is requested for the CPU to the subresource. However, the requesting application will not overwrite any data that was previously used by the GPU. You can use this access level only with dynamic vertex and index buffers. 
 

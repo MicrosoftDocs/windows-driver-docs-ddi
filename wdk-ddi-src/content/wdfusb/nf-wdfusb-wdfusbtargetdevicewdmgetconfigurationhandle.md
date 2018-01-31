@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f501e5c-13dd-418d-9b9f-f984aed45cc0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetdevicewdmgetconfigurationhandle, WdfUsbTargetDeviceWdmGetConfigurationHandle, DFUsbRef_503d3873-7148-4084-b56e-199b7437511b.xml, PFN_WDFUSBTARGETDEVICEWDMGETCONFIGURATIONHANDLE, WdfUsbTargetDeviceWdmGetConfigurationHandle method, kmdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle
+ms.keywords: DFUsbRef_503d3873-7148-4084-b56e-199b7437511b.xml, wdf.wdfusbtargetdevicewdmgetconfigurationhandle, kmdf.wdfusbtargetdevicewdmgetconfigurationhandle, PFN_WDFUSBTARGETDEVICEWDMGETCONFIGURATIONHANDLE, wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle, WdfUsbTargetDeviceWdmGetConfigurationHandle, WdfUsbTargetDeviceWdmGetConfigurationHandle method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ USBD_CONFIGURATION_HANDLE WdfUsbTargetDeviceWdmGetConfigurationHandle(
 
 
 
-### -param UsbDevice [in]
+#### - UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 

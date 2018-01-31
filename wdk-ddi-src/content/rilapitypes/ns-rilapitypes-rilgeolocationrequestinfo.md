@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c9e2bcb8-cd74-4256-9854-bc898fc8cf74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgeolocationrequestinfo_2, *LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO
+ms.keywords: RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestinfo_2, rilapitypes/RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGEOLOCATIONREQUESTINFO
 product: Windows
 targetos: Windows
-req.typenames: RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
+req.typenames: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,18 +71,18 @@ typedef struct _RILGEOLOCATIONREQUESTINFO {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwLatitude
+#### - dwLatitude
 
 
 
-### -field dwLongitude
+#### - dwLongitude
 
 
 
-### -field dwAltitude
+#### - dwAltitude
 
 

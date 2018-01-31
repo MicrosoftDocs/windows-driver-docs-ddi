@@ -71,12 +71,12 @@ VOID KStrFreeFrame(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure for which this frame has been allocated.
 
 
-### -param Frame [in]
+#### - Frame [in]
 
 A pointer to a buffer containing the frame to release.
 

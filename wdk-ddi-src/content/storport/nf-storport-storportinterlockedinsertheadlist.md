@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInterlockedInsertHeadList, storage.storportinterlockedinsertheadlist, StorPortInterlockedInsertHeadList routine [Storage Devices], storport/StorPortInterlockedInsertHeadList
+ms.keywords: storage.storportinterlockedinsertheadlist, StorPortInterlockedInsertHeadList, storport/StorPortInterlockedInsertHeadList, StorPortInterlockedInsertHeadList routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ ULONG StorPortInterlockedInsertHeadList(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param ListHead [in, out]
+#### - ListHead [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the head of the list.
 
 
-### -param ListEntry [in, out]
+#### - ListEntry [in, out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
 
@@ -94,7 +94,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt7904
 TBD
 
 
-### -param Lock [in, out]
+#### - Lock [in, out]
 
 A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>. 
 
@@ -154,9 +154,9 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 

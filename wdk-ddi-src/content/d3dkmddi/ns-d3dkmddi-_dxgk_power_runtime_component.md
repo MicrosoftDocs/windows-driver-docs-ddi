@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_power_runtime_component, DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, _DXGK_POWER_RUNTIME_COMPONENT
+ms.keywords: "_DXGK_POWER_RUNTIME_COMPONENT, d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], display.dxgk_power_runtime_component"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,44 +74,44 @@ typedef struct _DXGK_POWER_RUNTIME_COMPONENT {
 
 
 
-### -field StateCount
+#### - StateCount
 
 Defines the number of idle states (F-states) for the power component.
 
 
-### -field States
+#### - States
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a> structure that defines information about every idle state. 
 
 <b>DXGK_MAX_F_STATES</b> is the maximum number of F-states that a power component can have. In Windows 8, <b>DXGK_MAX_F_STATES</b> is defined to have a value of 8.
 
 
-### -field ComponentMapping
+#### - ComponentMapping
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a> structure that defines the standard component types of the DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
 
 
-### -field Flags
+#### - Flags
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a> structure that specifies power state transition information.
 
 
-### -field ComponentGuid
+#### - ComponentGuid
 
 A GUID that identifies the power component. This GUID is used by the Power Engine Plug-in (PEP).
 
 
-### -field ComponentName
+#### - ComponentName
 
 A name for the power component. This name is used by GPU profiling tools and is not passed to the PEP.
 
 
-### -field ProviderCount
+#### - ProviderCount
 
 Defines the number of other power components that need to be active before this power component becomes active.
 
 
-### -field Providers
+#### - Providers
 
 Specifies the indices of other power components that need to be active before this power component becomes active. Each index value must be less than the total number of power components.
 
@@ -126,9 +126,9 @@ Each power component must be mapped to an engine, a display, a memory segment, o
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a>
 

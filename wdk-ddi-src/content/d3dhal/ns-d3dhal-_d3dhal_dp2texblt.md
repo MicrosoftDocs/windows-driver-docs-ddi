@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], display.d3dhal_dp2texblt, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], *LPD3DHAL_DP2TEXBLT"
+ms.keywords: d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, _D3DHAL_DP2TEXBLT, display.d3dhal_dp2texblt, d3dhal/LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT, *LPD3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DHAL_DP2TEXBLT {
 
 
 
-### -field dwDDDestSurface
+#### - dwDDDestSurface
 
 Specifies the handle to the destination texture.
 
 
-### -field dwDDSrcSurface
+#### - dwDDSrcSurface
 
 Specifies the handle to the source texture.
 
 
-### -field pDest
+#### - pDest
 
 Specifies the destination point where the blt should be performed, that is, the point in the destination surface (<b>dwDDDestSurface</b>) to begin the blt. These <i>x</i> and <i>y</i> members of the POINT structure are specified in screen coordinates.
 
 
-### -field rSrc
+#### - rSrc
 
 Specifies the rectangle to be blitted in the source texture, that is, the source rectangle in the source surface (<b>dwDDSrcSurface</b>) to blt from.
 
 
-### -field dwFlags
+#### - dwFlags
 
 Reserved for system use.
 
@@ -137,11 +137,11 @@ rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 D3DDP2OP_TEXBLT
+
+<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
  
 

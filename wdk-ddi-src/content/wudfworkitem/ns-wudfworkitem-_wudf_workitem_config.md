@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 877C6641-30F9-44BC-9286-3B1D880482C9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfworkitem/WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, umdf.wudf_workitem_config, PWUDF_WORKITEM_CONFIG structure pointer, _WUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG, wudfworkitem/PWUDF_WORKITEM_CONFIG, wdf.wudf_workitem_config, WUDF_WORKITEM_CONFIG
+ms.keywords: PWUDF_WORKITEM_CONFIG, wudfworkitem/PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, *PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG structure pointer, wdf.wudf_workitem_config, umdf.wudf_workitem_config, wudfworkitem/WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG, _WUDF_WORKITEM_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WUDF_WORKITEM_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG
+req.typenames: "*PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -74,17 +74,17 @@ typedef struct _WUDF_WORKITEM_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field OnWorkItemFunc
+#### - OnWorkItemFunc
 
 The address of an <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function.
 
 
-### -field AutomaticSerialization
+#### - AutomaticSerialization
 
 A Boolean value that, if TRUE, indicates that the framework will synchronize execution of the <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function with callback functions from other objects that are underneath the work-item object's parent object. If FALSE, the framework does not synchronize execution of the <i>OnWorkItem</i> callback function.
 
@@ -102,11 +102,11 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+
 <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
 <a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
-
-<a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
 
  
 

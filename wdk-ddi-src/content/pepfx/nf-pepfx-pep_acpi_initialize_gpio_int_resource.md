@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EF8E3D1D-9C87-4083-A022-FD888D370B20
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, kernel.pep_acpi_initialize_gpio_int_resource, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
+ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_int_resource, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function
@@ -80,72 +80,72 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE(
 
 
 
-### -param InterruptType [in]
+#### - InterruptType [in]
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
-### -param LevelType [in]
+#### - LevelType [in]
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
 
-### -param Shareable [in]
+#### - Shareable [in]
 
 Indicates if the device can be shared.
 
 
-### -param CanWake [in]
+#### - CanWake [in]
 
 Indicates if the device can be woken from a low-power state.
 
 
-### -param PinConfig [in]
+#### - PinConfig [in]
 
 A <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
-### -param DebounceTimeout [in]
+#### - DebounceTimeout [in]
 
 Specifies the hardware debounce wait time, in hundredths of milliseconds.
 
 
-### -param ResourceSourceIndex [in]
+#### - ResourceSourceIndex [in]
 
 This parameter should always be zero.
 
 
-### -param ResourceSourceName [in]
+#### - ResourceSourceName [in]
 
 This parameter should always be "ResourceConsumer."
 
 
-### -param ResourceUsage [in]
+#### - ResourceUsage [in]
 
 Indicates if this device is in use.
 
 
-### -param VendorData [in]
+#### - VendorData [in]
 
 A pointer to a raw data buffer containing vendor-defined byte data to be decoded by the OS driver. 
 
 
-### -param VendorDataLength [in]
+#### - VendorDataLength [in]
 
 The size of the buffer in the <i>VendorData</i> partameter.
 
 
-### -param PinTable [in]
+#### - PinTable [in]
 
 A list of pin numbers on the resource. 
 
 
-### -param PinCount [in]
+#### - PinCount [in]
 
 The number of pins described by the <i>PinTable</i> parameter.
 
 
-### -param Resource [out]
+#### - Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>. 
 
@@ -159,13 +159,13 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
 
 <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
  
 

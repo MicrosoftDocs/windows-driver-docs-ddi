@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5d04730-a7eb-4670-9b47-f8c52267aea8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClDropParty, condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml, NdisClDropParty function [Network Drivers Starting with Windows Vista], netvista.ndiscldropparty, ndis/NdisClDropParty
+ms.keywords: NdisClDropParty function [Network Drivers Starting with Windows Vista], netvista.ndiscldropparty, NdisClDropParty, ndis/NdisClDropParty, condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NDIS_STATUS NdisClDropParty(
 
 
 
-### -param NdisPartyHandle [in]
+#### - NdisPartyHandle [in]
 
 Specifies the handle identifying the party to be dropped on the multipoint connection. The client
      obtained this handle from a preceding call to 
@@ -78,14 +78,14 @@ Specifies the handle identifying the party to be dropped on the multipoint conne
      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
 
 
-### -param Buffer [in, optional]
+#### - Buffer [in, optional]
 
 Pointer to a caller-allocated buffer containing any data to be transmitted to close the multipoint
      connection of the party on the remote node. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
 
-### -param Size [in, optional]
+#### - Size [in, optional]
 
 Specifies the size in bytes at 
      <i>Buffer</i>, zero if 
@@ -179,7 +179,11 @@ The caller of
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
 
@@ -188,10 +192,6 @@ The caller of
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
  
 

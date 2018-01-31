@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 195AAD37-6993-4F0A-BEF7-848122402742
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelVolume method, audio.iminiportaudioenginenode_getdevicechannelvolume, GetDeviceChannelVolume, GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode::GetDeviceChannelVolume, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume, IMiniportAudioEngineNode
+ms.keywords: GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode, audio.iminiportaudioenginenode_getdevicechannelvolume, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelVolume method, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume, GetDeviceChannelVolume, IMiniportAudioEngineNode::GetDeviceChannelVolume, GetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.GetDeviceChannelVolume
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::GetDeviceChannelVolume method
@@ -69,17 +69,17 @@ NTSTATUS GetDeviceChannelVolume(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-### -param ulChannel [in]
+#### - ulChannel [in]
 
 The audio device channel.
 
 
-### -param plVolume [out]
+#### - plVolume [out]
 
 The current volume level for the audio device channel.
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a69216f4-1272-488f-8d06-8dc3b6a88452
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetChildrenContexts function [Imaging Devices], wiamdef/wiasGetChildrenContexts, wiasGetChildrenContexts, image.wiasgetchildrencontexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml
+ms.keywords: wiamdef/wiasGetChildrenContexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, image.wiasgetchildrencontexts, wiasGetChildrenContexts function [Imaging Devices], wiasGetChildrenContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetChildrenContexts
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ HRESULT _stdcall wiasGetChildrenContexts(
 
 
 
-### -param pParentContext [in]
+#### - pParentContext [in]
 
 Pointer to the parent item.
 
 
-### -param pulNumChildren [out]
+#### - pulNumChildren [out]
 
 Pointer to a memory location that receives the number of children contexts.
 
 
-### -param pppChildren [out]
+#### - pppChildren [out]
 
 Pointer to a memory location that points to an array whose elements are addresses of <b>IWiaItem</b> objects (described in the Microsoft Windows SDK documentation). Each <b>IWiaItem</b> object represents one child context.
 

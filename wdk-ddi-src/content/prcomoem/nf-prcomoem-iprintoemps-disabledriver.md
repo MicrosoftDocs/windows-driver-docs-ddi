@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemPS::DisableDriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, DisableDriver method [Print Devices], IPrintOemPS interface, DisableDriver method [Print Devices], IPrintOemPS::DisableDriver, DisableDriver, IPrintOemPS, print.iprintoemps_disabledriver, IPrintOemPS interface [Print Devices], DisableDriver method
+ms.keywords: DisableDriver method [Print Devices], IPrintOemPS interface, prcomoem/IPrintOemPS::DisableDriver, IPrintOemPS::DisableDriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, DisableDriver, IPrintOemPS, print.iprintoemps_disabledriver, DisableDriver method [Print Devices], IPrintOemPS interface [Print Devices], DisableDriver method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

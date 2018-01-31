@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver::OnClientUnsubscribeFromEvents, ISensorDriver, OnClientUnsubscribeFromEvents, sensors.isensordriver_onclientunsubscribefromevents, OnClientUnsubscribeFromEvents method [Sensor Devices]
+ms.keywords: ISensorDriver::OnClientUnsubscribeFromEvents, ISensorDriver, OnClientUnsubscribeFromEvents method [Sensor Devices], sensors.isensordriver_onclientunsubscribefromevents, OnClientUnsubscribeFromEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT OnClientUnsubscribeFromEvents(
 
 
 
-### -param pClientFile
+#### - pClientFile
 
  Pointer to an IWDFFile interface that represents the file object for the application requesting cancellation of event notifications.
 
 
-### -param pwszSensorID
+#### - pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting cancellation of event notifications.
 

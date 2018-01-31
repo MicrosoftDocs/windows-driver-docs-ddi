@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9537801f-568a-4fb6-b4f8-e901cf9146f6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_542468b2-b74d-4146-b745-65727ecd9510.xml, display.d3d10ddiarg_tex2d_rendertargetview, D3D10DDIARG_TEX2D_RENDERTARGETVIEW, d3d10umddi/D3D10DDIARG_TEX2D_RENDERTARGETVIEW, D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure [Display Devices]
+ms.keywords: D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure [Display Devices], display.d3d10ddiarg_tex2d_rendertargetview, UMDisplayDriver_Dx10param_Structs_542468b2-b74d-4146-b745-65727ecd9510.xml, D3D10DDIARG_TEX2D_RENDERTARGETVIEW, d3d10umddi/D3D10DDIARG_TEX2D_RENDERTARGETVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,26 +69,26 @@ typedef struct D3D10DDIARG_TEX2D_RENDERTARGETVIEW {
 
 
 
-### -field MipSlice
+#### - MipSlice
 
 [in] The identifier of the MIP-map slice. 
 
 
-### -field FirstArraySlice
+#### - FirstArraySlice
 
 [in] The identifier of the first array slice. 
 
 
-### -field ArraySize
+#### - ArraySize
 
 [in] The number of array slices for the texture. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
 

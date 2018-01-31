@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f1c7785e-e135-4060-8cf7-5c985b37ff83
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_BACKED_BY_WIM, PERSISTENT_VOLUME_STATE_VOLUME_SCRUB_DISABLED, PERSISTENT_VOLUME_STATE_GLOBAL_METADATA_NO_SEEK_PENALTY, PFILE_FS_PERSISTENT_VOLUME_INFORMATION structure pointer [Installable File System Drivers], PERSISTENT_VOLUME_STATE_NO_HEAT_GATHERING, _FILE_FS_PERSISTENT_VOLUME_INFORMATION, PFILE_FS_PERSISTENT_VOLUME_INFORMATION, FILE_FS_PERSISTENT_VOLUME_INFORMATION structure [Installable File System Drivers], fileinformationstructures_81dcbc8f-6b7e-455e-b1b2-b99e6fd4084d.xml, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION, ifsk.file_fs_persistent_volume_information, PERSISTENT_VOLUME_STATE_LOCAL_METADATA_NO_SEEK_PENALTY, ntifs/PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_CONTAINS_BACKING_WIM, FILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_SHORT_NAME_CREATION_DISABLED
+ms.keywords: ifsk.file_fs_persistent_volume_information, PFILE_FS_PERSISTENT_VOLUME_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_GLOBAL_METADATA_NO_SEEK_PENALTY, FILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_SHORT_NAME_CREATION_DISABLED, FILE_FS_PERSISTENT_VOLUME_INFORMATION structure [Installable File System Drivers], PERSISTENT_VOLUME_STATE_VOLUME_SCRUB_DISABLED, PERSISTENT_VOLUME_STATE_LOCAL_METADATA_NO_SEEK_PENALTY, fileinformationstructures_81dcbc8f-6b7e-455e-b1b2-b99e6fd4084d.xml, ntifs/FILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_BACKED_BY_WIM, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_NO_HEAT_GATHERING, ntifs/PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_CONTAINS_BACKING_WIM, PFILE_FS_PERSISTENT_VOLUME_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FS_PERSISTENT_VOLUME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_FS_PERSISTENT_VOLUME_INFORMATION, FILE_FS_PERSISTENT_VOLUME_INFORMATION"
+req.typenames: FILE_FS_PERSISTENT_VOLUME_INFORMATION, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION
 ---
 
 # _FILE_FS_PERSISTENT_VOLUME_INFORMATION structure
@@ -70,7 +70,7 @@ typedef struct _FILE_FS_PERSISTENT_VOLUME_INFORMATION {
 
 
 
-### -field VolumeFlags
+#### - VolumeFlags
 
 The persistent state settings for a file system volume. This value is a bitwise OR combination of the following.
 <table>
@@ -170,17 +170,17 @@ This flag is valid starting with Windows 8.1 Update.
 </table> 
 
 
-### -field FlagMask
+#### - FlagMask
 
 A mask value for the valid flags that can appear in <b>VolumeFlags</b>. This is a bitwise OR combination of the desired flags described for <b>VolumeFlags</b>.
 
 
-### -field Version
+#### - Version
 
 The version number of this structure. Set to 1.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Set to 0;
 

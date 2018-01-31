@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a708949-3d4e-49b2-bef2-7151aec2b84b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFCollectionObjectRef_ec848e8e-f64b-4f17-997a-0d9b6c509eb0.xml, kmdf.wdfcollectionremove, WdfCollectionRemove method, WdfCollectionRemove, PFN_WDFCOLLECTIONREMOVE, wdfcollection/WdfCollectionRemove, wdf.wdfcollectionremove
+ms.keywords: wdf.wdfcollectionremove, kmdf.wdfcollectionremove, WdfCollectionRemove method, WdfCollectionRemove, wdfcollection/WdfCollectionRemove, PFN_WDFCOLLECTIONREMOVE, DFCollectionObjectRef_ec848e8e-f64b-4f17-997a-0d9b6c509eb0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfCollectionRemove(
 
 
 
-### -param Collection [in]
+#### - Collection [in]
 
 A handle to a collection object.
 
 
-### -param Item [in]
+#### - Item [in]
 
 A handle to the framework object that will be removed from the collection.
 

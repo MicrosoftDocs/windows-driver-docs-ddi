@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6631aa7-e3ba-4768-a55a-6a66d1ee84c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGroupActiveProcessorCount, NdisGroupActiveProcessorCount, netvista.ndisgroupactiveprocessorcount, NdisGroupActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_43adb4cc-e1a6-4a67-ada7-47b38078e357.xml
+ms.keywords: netvista.ndisgroupactiveprocessorcount, NdisGroupActiveProcessorCount function [Network Drivers Starting with Windows Vista], NdisGroupActiveProcessorCount, ndis_processor_group_ref_43adb4cc-e1a6-4a67-ada7-47b38078e357.xml, ndis/NdisGroupActiveProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ ULONG NdisGroupActiveProcessorCount(
 
 
 
-### -param Group
+#### - Group
 
 A USHORT value that identifies a processor group in the local computer system.
 
@@ -116,12 +116,12 @@ To obtain the maximum number of processors in a group, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
-
 <mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
    NdisSystemActiveProcessorCount</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+
+<a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
 
 <a href="..\ndis\nf-ndis-ndisgroupactiveprocessormask.md">NdisGroupActiveProcessorMask</a>
 

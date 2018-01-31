@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, _D3DDDI_EXECUTIONSTATEESCAPE
+ms.keywords: display.d3dddi_executionstateescape, _D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDI_EXECUTIONSTATEESCAPE {
 
 
 
-### -field State
+#### - State
 
 [Out] A value of type <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_deviceexecution_state.md">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
 

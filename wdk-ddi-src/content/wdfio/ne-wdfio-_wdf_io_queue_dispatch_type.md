@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 90f2f490-ee29-4e20-94b2-65a9bba3e831
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueDispatchManual, WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchInvalid, wdfio/WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchManual, WdfIoQueueDispatchParallel, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, _WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchMax, DFQueueObjectRef_dd3d1037-0355-4f02-b0ec-4bd988df33d2.xml, wdf.wdf_io_queue_dispatch_type, WdfIoQueueDispatchSequential, wdfio/WdfIoQueueDispatchParallel, WdfIoQueueDispatchInvalid, wdfio/WdfIoQueueDispatchSequential, kmdf.wdf_io_queue_dispatch_type, WdfIoQueueDispatchMax
+ms.keywords: WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchSequential, wdfio/WdfIoQueueDispatchManual, DFQueueObjectRef_dd3d1037-0355-4f02-b0ec-4bd988df33d2.xml, _WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchParallel, wdfio/WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchMax, WdfIoQueueDispatchInvalid, WdfIoQueueDispatchSequential, WdfIoQueueDispatchParallel, WdfIoQueueDispatchMax, wdf.wdf_io_queue_dispatch_type, wdfio/WdfIoQueueDispatchInvalid, WdfIoQueueDispatchManual, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, kmdf.wdf_io_queue_dispatch_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,27 +74,27 @@ typedef enum _WDF_IO_QUEUE_DISPATCH_TYPE {
 
 
 
-### -field WdfIoQueueDispatchInvalid
+#### - WdfIoQueueDispatchInvalid
 
 Reserved for internal use.
 
 
-### -field WdfIoQueueDispatchSequential
+#### - WdfIoQueueDispatchSequential
 
 The I/O queue's requests are presented to the driver's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handlers</a> one at a time. The framework does not deliver the next request until a driver has called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> to complete the current request.
 
 
-### -field WdfIoQueueDispatchParallel
+#### - WdfIoQueueDispatchParallel
 
 The framework presents requests to the driver's request handlers as soon as the requests are available. 
 
 
-### -field WdfIoQueueDispatchManual
+#### - WdfIoQueueDispatchManual
 
 The framework places requests into the queue but does not deliver them to the driver. The driver must retrieve requests from the queue by calling <a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>.
 
 
-### -field WdfIoQueueDispatchMax
+#### - WdfIoQueueDispatchMax
 
 Reserved for internal use only.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f76f5552-725b-4d8c-ab29-1f2de7bdc81f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL, PKSNODEPROPERTY_AUDIO_CHANNEL structure pointer [Audio Devices], ksmedia/PKSNODEPROPERTY_AUDIO_CHANNEL, aud-prop_a804d95b-c793-43c0-9579-af759c3c007f.xml, KSNODEPROPERTY_AUDIO_CHANNEL, audio.ksnodeproperty_audio_channel, KSNODEPROPERTY_AUDIO_CHANNEL structure [Audio Devices], PKSNODEPROPERTY_AUDIO_CHANNEL
+ms.keywords: ksmedia/PKSNODEPROPERTY_AUDIO_CHANNEL, PKSNODEPROPERTY_AUDIO_CHANNEL structure pointer [Audio Devices], aud-prop_a804d95b-c793-43c0-9579-af759c3c007f.xml, ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL, audio.ksnodeproperty_audio_channel, PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSNODEPROPERTY_AUDIO_CHANNEL
 product: Windows
 targetos: Windows
-req.typenames: "*PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL"
+req.typenames: KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL
 ---
 
 # KSNODEPROPERTY_AUDIO_CHANNEL structure
@@ -69,19 +69,19 @@ typedef struct {
 
 
 
-### -field NodeProperty
+#### - NodeProperty
 
 Specifies both the target node and the property to get or set. This member is a structure of type <a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>.
 
 
-### -field Channel
+#### - Channel
 
 Specifies a channel number. This member identifies the channel that is to be controlled. Given a stream with <i>n</i> channels, the channels are numbered 0 to <i>n</i>-1. When a channel number of -1 (0xFFFFFFFF) is specified, the level applies to the entire stream.
 
 It is important  to note that the standard USB audio specification provides a mechanism that allows audio drivers that support the master channel control feature, to apply channel-specific information to an entire stream. To implement this mechanism, the USB audio driver must set the channel number to zero (0). Therefore, when a USB audio driver sets the channel number to -1, there is no guarantee that the property information will be applied to the entire stream.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for internal use by operating system. Do not use.
 

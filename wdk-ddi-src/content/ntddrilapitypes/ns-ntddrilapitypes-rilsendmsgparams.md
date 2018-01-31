@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de1049a8-e089-4d15-baca-2c760f895894
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSENDMSGPARAMS, ntddrilapitypes/RILSENDMSGPARAMS, netvista.rilsendmsgparams, *LPRILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILSENDMSGPARAMS, netvista.rilsendmsgparams, ntddrilapitypes/RILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista], RILSENDMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,18 +70,18 @@ typedef struct _RILSENDMSGPARAMS {
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field hUiccApp
+#### - hUiccApp
 
 
 
-### -field rmMessage
+#### - rmMessage
 
 
 
-### -field dwOptions
+#### - dwOptions
 
 

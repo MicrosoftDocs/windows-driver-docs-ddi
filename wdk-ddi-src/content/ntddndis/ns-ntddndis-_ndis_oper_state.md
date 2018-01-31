@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c08f8bcd-23fc-445c-9c42-e5c4edc75d78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_OPER_STATE, ntddndis/NDIS_OPER_STATE, *PNDIS_OPER_STATE, _NDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_OPER_STATE, NDIS_OPER_STATE, netvista.ndis_oper_state
+ms.keywords: NDIS_OPER_STATE, _NDIS_OPER_STATE, netvista.ndis_oper_state, PNDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, ntddndis/NDIS_OPER_STATE, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_OPER_STATE, *PNDIS_OPER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_OPER_STATE {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -81,14 +81,14 @@ The
      <b>Size</b> member to NDIS_SIZEOF_OPER_STATE_REVISION_1.
 
 
-### -field OperationalStatus
+#### - OperationalStatus
 
 The 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a> operational status
      type.
 
 
-### -field OperationalStatusFlags
+#### - OperationalStatusFlags
 
 This member provides the reason why the 
      <b>OperationalStatus</b> member is set to <b>NET_IF_OPER_STATUS_DOWN</b> or NET_IF_OPER_STATUS_DORMANT. This
@@ -138,13 +138,13 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
-
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
+
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
  
 

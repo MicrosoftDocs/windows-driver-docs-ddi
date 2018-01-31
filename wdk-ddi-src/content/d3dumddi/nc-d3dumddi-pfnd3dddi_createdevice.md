@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY CreateDevice(
 
 
 
-### -param hAdapter [in]
+#### - hAdapter [in]
 
  A handle that identifies the graphics adapter. 
 

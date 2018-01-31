@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BC43B6AB-E34C-45A9-B666-1B323104FC48
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceInitAddDescriptor, udecxusbdevice/UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], buses.udecxusbdeviceinitadddescriptor
+ms.keywords: udecxusbdevice/UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor, buses.udecxusbdeviceinitadddescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceInitAddDescriptor
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ FORCEINLINE NTSTATUS UdecxUsbDeviceInitAddDescriptor(
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
+#### - UdecxUsbDeviceInit [in, out]
 
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param Descriptor [in]
+#### - Descriptor [in]
 
 A caller-allocated buffer that contains the USB descriptor to add to the device.
 
 
-### -param DescriptorLength [in]
+#### - DescriptorLength [in]
 
 The length of the descriptor buffer.
 
@@ -95,13 +95,13 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn303349">Standard USB descriptors</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
  
 

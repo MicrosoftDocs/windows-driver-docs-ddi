@@ -40,7 +40,7 @@ apiname:
 -	WskGetAddressInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,7 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
 
 
 
-### -param Client [in]
+#### - Client [in]
 
 [in] A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
@@ -92,7 +92,7 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
      WskCaptureProviderNPI</b></mshelp:link> function.
 
 
-### -param NodeName [in, optional]
+#### - NodeName [in, optional]
 
 [in] An optional pointer to a 
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
@@ -101,24 +101,25 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
      address.
 
 
-### -param ServiceName [in, optional]
+#### - ServiceName [in, optional]
 
 [in] An optional pointer to a 
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name or a port number.
 
 
-### -param NameSpace [in, optional]
+#### - NameSpace [in, optional]
 
 [in] An optional namespace identifier that specifies the namespace providers that are queried.
      Only namespace providers that support the specified namespace can be queried successfully.
 
 
-### -param *Provider
+#### - *Provider [in, optional]
+
+[in] An optional pointer to a GUID of a specific namespace provider to be queried.
 
 
-
-### -param Hints [in, optional]
+#### - Hints [in, optional]
 
 [in] An optional pointer to an <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structure that provides hints about the type of socket
      that the caller supports.
@@ -132,11 +133,22 @@ The <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">AD
      Wsk.h. Do not use 
      Ws2def.h directly.</div><div> </div>
 
-### -param *Result
+#### - *Result [out]
 
+[out] A pointer to a caller-allocated buffer that receives a linked list of one or more
+     <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structures that represent response information about the host.
+     
+<div class="alert"><b>Note</b>  The caller must call the 
+     <a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a> function to free
+     this pointer.</div><div> </div>The <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structure is defined in the 
+     Ws2def.h header. It is identical to the 
+     <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure.
+<div class="alert"><b>Important</b>  The 
+     Ws2def.h header file is automatically included in 
+     Wsk.h. Do not use 
+     Ws2def.h directly.</div><div> </div>
 
-
-### -param OwningProcess [in, optional]
+#### - OwningProcess [in, optional]
 
 [in] An optional pointer to the process from which the function retrieves the security context.
      This security context indicates the user account context in which the function processes the name
@@ -150,7 +162,7 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param OwningThread [in, optional]
+#### - OwningThread [in, optional]
 
 [in] An optional pointer to the thread from which the function retrieves the security context.
      This parameter can be non-<b>NULL</b> only if 
@@ -161,7 +173,7 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 [in/out] A pointer to an I/O request packet (IRP) to use to complete the request asynchronously.
      Upon completion of the request, 
@@ -275,11 +287,11 @@ The process to which the
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 

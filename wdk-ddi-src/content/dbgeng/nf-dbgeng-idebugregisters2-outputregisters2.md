@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 444f7264-6072-4ee2-b3fd-030affa502b7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputRegisters2, OutputRegisters2 method [Windows Debugging], IDebugRegisters_ecc2b40a-622b-4f1f-867b-2eb6b575559d.xml, dbgeng/IDebugRegisters2::OutputRegisters2, IDebugRegisters2 interface [Windows Debugging], OutputRegisters2 method, debugger.outputregisters2, IDebugRegisters2::OutputRegisters2, IDebugRegisters2, OutputRegisters2 method [Windows Debugging], IDebugRegisters2 interface
+ms.keywords: dbgeng/IDebugRegisters2::OutputRegisters2, debugger.outputregisters2, IDebugRegisters2, IDebugRegisters2::OutputRegisters2, OutputRegisters2, IDebugRegisters2 interface [Windows Debugging], OutputRegisters2 method, IDebugRegisters_ecc2b40a-622b-4f1f-867b-2eb6b575559d.xml, OutputRegisters2 method [Windows Debugging], IDebugRegisters2 interface, OutputRegisters2 method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OutputRegisters2(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies which clients should be sent the output of the formatted registers.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a> for possible values.
 
 
-### -param Source [in]
+#### - Source [in]
 
 Specifies the register source to query.
 
@@ -119,7 +119,7 @@ Fetch register information from the current scope's register context.
 </table> 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies which register sets to print.  This can either be DEBUG_REGISTERS_DEFAULT to print commonly used registers, DEBUG_REGISTERS_ALL to print all of the register sets, or a combination of the values listed in the following table.
 <table>

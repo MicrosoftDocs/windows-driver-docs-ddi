@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78b9eccf-34ef-40ae-b7fc-6fa8400f8c2a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcompanioncreate, wdfcompanion/WdfCompanionCreate, WdfCompanionCreate, WdfCompanionCreate method
+ms.keywords: WdfCompanionCreate method, wdfcompanion/WdfCompanionCreate, wdf.wdfcompanioncreate, WdfCompanionCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ NTSTATUS WdfCompanionCreate(
 
 
 
-### -param DeviceInit [in, out]
+#### - DeviceInit [in, out]
 
 
 
-### -param DeviceAttributes [in, optional]
+#### - DeviceAttributes [in, optional]
 
 
 
-### -param Companion [out]
+#### - Companion [out]
 
 

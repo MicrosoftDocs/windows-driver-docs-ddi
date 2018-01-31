@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice interface, RetrieveDescriptor method, RetrieveDescriptor method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor method, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor, IWDFUsbTargetDevice, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml
+ms.keywords: IWDFUsbTargetDevice, RetrieveDescriptor method, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, RetrieveDescriptor, IWDFUsbTargetDevice interface, RetrieveDescriptor method, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor method, IWDFUsbTargetDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ HRESULT RetrieveDescriptor(
 
 
 
-### -param DescriptorType [in]
+#### - DescriptorType [in]
 
 A value that specifies the type of descriptor to return. This parameter corresponds to the <b>bDescriptorType</b> field of a standard device descriptor, whose values are described in the <i>Universal Serial Bus</i> specification. (This resource may not be available in some languages 
 
@@ -82,24 +82,24 @@ and countries.) Some of these values are listed in the description of the Descri
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the descriptor, according to the <i>Universal Serial Bus</i> specification. (This resource may not be available in some languages 
 
 and countries.)
 
 
-### -param LanguageID [in]
+#### - LanguageID [in]
 
 The identifier of the language, if the UMDF driver requests a string descriptor; otherwise, this parameter is zero. 
 
 
-### -param BufferLength [in, out]
+#### - BufferLength [in, out]
 
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that the <i>Buffer</i> points to. If the operation succeeds, the variable receives the number of bytes that the framework copied into the buffer.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a caller-supplied buffer that receives the USB descriptor. The type of buffer should match the value specified in <i>DescriptorType</i>.
 

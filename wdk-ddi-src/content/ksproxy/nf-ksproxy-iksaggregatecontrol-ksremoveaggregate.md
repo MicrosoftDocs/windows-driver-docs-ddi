@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f625b1ed-ccab-4072-9eb9-c4ebbddb1199
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_8498ef2d-5e1e-4f04-b311-2552bd713032.xml, IKsAggregateControl, KsRemoveAggregate method [Streaming Media Devices], KsRemoveAggregate, ksproxy/IKsAggregateControl::KsRemoveAggregate, stream.iksaggregatecontrol_ksremoveaggregate, IKsAggregateControl interface [Streaming Media Devices], KsRemoveAggregate method, IKsAggregateControl::KsRemoveAggregate, KsRemoveAggregate method [Streaming Media Devices], IKsAggregateControl interface
+ms.keywords: IKsAggregateControl interface [Streaming Media Devices], KsRemoveAggregate method, stream.iksaggregatecontrol_ksremoveaggregate, KsRemoveAggregate method [Streaming Media Devices], ksproxy/IKsAggregateControl::KsRemoveAggregate, KsRemoveAggregate method [Streaming Media Devices], IKsAggregateControl interface, KsRemoveAggregate, IKsAggregateControl::KsRemoveAggregate, IKsAggregateControl, ksproxy_8498ef2d-5e1e-4f04-b311-2552bd713032.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsRemoveAggregate(
 
 
 
-### -param AggregateClass [in]
+#### - AggregateClass [in]
 
 Identifies the COM server to remove.
 

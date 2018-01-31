@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxClose, pos.poscxclose, poscx/PosCxClose, PosCxClose function
+ms.keywords: PosCxClose function, pos.poscxclose, poscx/PosCxClose, PosCxClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS PosCxClose(
 
 
 
-### -param device [in]
+#### - device [in]
 
 A handle to a framework device object that represents the device.
 
 
-### -param fileObject [in]
+#### - fileObject [in]
 
       A handle to a framework file object that identifies the caller associated with the open instance.
 

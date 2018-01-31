@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41518F04-4AD1-4057-8988-5934F3875B8E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, display.d3d12ddi_video_process_max_input_streams_data, d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 structure [Display Devices]
+ms.keywords: display.d3d12ddi_video_process_max_input_streams_data, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 {
 
 
 
-### -field NodeIndex
+#### - NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 
-### -field MaxInputStreams
+#### - MaxInputStreams
 
 The maximum number of streams that can be enabled for the video processor at the same time.
 

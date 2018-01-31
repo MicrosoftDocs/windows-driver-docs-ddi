@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21716141-487B-4950-A55D-C9EE3B8C8612
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PPM_QUERY_VETO_REASON, pepfx/PPEP_PPM_QUERY_VETO_REASON, pepfx/PEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_veto_reason, PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, _PEP_PPM_QUERY_VETO_REASON"
+ms.keywords: pepfx/PEP_PPM_QUERY_VETO_REASON, kernel.pep_ppm_query_veto_reason, PEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_VETO_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_QUERY_VETO_REASON
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON
+req.typenames: "*PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON"
 ---
 
 # _PEP_PPM_QUERY_VETO_REASON structure
@@ -69,17 +69,17 @@ typedef struct _PEP_PPM_QUERY_VETO_REASON {
 
 
 
-### -field VetoReason
+#### - VetoReason
 
 [in] The index that identifies this veto reason. If the platform extension plug-in (PEP) supports N veto reasons, valid veto reason indexes range from 1 to N. The PEP previously specified the number of supported veto reasons in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a> notification.
 
 
-### -field NameSize
+#### - NameSize
 
 [out] The size, in bytes, of the string buffer pointed to by the <b>Name</b> member. This string size includes the storage space for the null character that terminates the wide-character string.
 
 
-### -field Name
+#### - Name
 
 [in] A pointer to a PoFx-allocated string buffer. If this buffer pointer is non-<b>NULL</b>, the PEP writes a wide-character, null-terminated string to the buffer (and writes nothing to the <b>NameSize</b> member). Otherwise, the PEP writes nothing to this buffer and instead writes the required string size to the <b>NameSize</b> member.
 
@@ -93,9 +93,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASON</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
 
  
 

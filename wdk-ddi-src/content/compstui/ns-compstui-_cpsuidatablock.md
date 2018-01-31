@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, compstui/CPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, print.cpsuidatablock, _CPSUIDATABLOCK, *PCPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], PCPSUIDATABLOCK structure pointer [Print Devices], PCPSUIDATABLOCK
+ms.keywords: "_CPSUIDATABLOCK, *PCPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, compstui/PCPSUIDATABLOCK, PCPSUIDATABLOCK structure pointer [Print Devices], compstui/CPSUIDATABLOCK, CPSUIDATABLOCK, print.cpsuidatablock, PCPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CPSUIDATABLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PCPSUIDATABLOCK, CPSUIDATABLOCK"
+req.typenames: CPSUIDATABLOCK, *PCPSUIDATABLOCK
 ---
 
 # _CPSUIDATABLOCK structure
@@ -68,12 +68,12 @@ typedef struct _CPSUIDATABLOCK {
 
 
 
-### -field cbData
+#### - cbData
 
 Size, in bytes of the buffer pointed to by <b>pbData</b>.
 
 
-### -field pbData
+#### - pbData
 
 Pointer to a caller-allocated buffer.
 

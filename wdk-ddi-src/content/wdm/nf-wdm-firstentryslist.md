@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 80444a10-91f3-44b5-ad20-3d3d8f49ca60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, kernel.firstentryslist, FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], wdm/FirstEntrySList
+ms.keywords: FirstEntrySList routine [Kernel-Mode Driver Architecture], wdm/FirstEntrySList, FirstEntrySList, kernel.firstentryslist, k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PSLIST_ENTRY FirstEntrySList(
 
 
 
-### -param SListHead [in]
+#### - SListHead [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
 
@@ -89,9 +89,9 @@ Unlike other sequenced singly linked list routines, the <b>FirstEntrySList</b> r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a>
-
 <a href="..\wdm\ns-wdm-_slist_entry.md">SLIST_ENTRY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a>
 
  
 

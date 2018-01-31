@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3223a1bb-ab6c-45d7-9f9a-367a3aa7d465
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsMapModuleName, ksfunc_76aec7fa-5e31-46d7-b94d-d7bccac7c3cd.xml, KsMapModuleName function [Streaming Media Devices], KsMapModuleName, stream.ksmapmodulename
+ms.keywords: ks/KsMapModuleName, KsMapModuleName function [Streaming Media Devices], stream.ksmapmodulename, ksfunc_76aec7fa-5e31-46d7-b94d-d7bccac7c3cd.xml, KsMapModuleName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS KsMapModuleName(
 
 
 
-### -param PhysicalDeviceObject [in]
+#### - PhysicalDeviceObject [in]
 
 Pointer to a DEVICE_OBJECT for which to return the requested information.
 
 
-### -param ModuleName [in]
+#### - ModuleName [in]
 
 Pointer to a buffer that contains the module name for which to return the requested information.
 
 
-### -param ImageName [out]
+#### - ImageName [out]
 
 A caller-allocated buffer that receives the image name for the specified resource.
 
 
-### -param ResourceId [out]
+#### - ResourceId [out]
 
 Pointer to a caller-supplied variable that receives the resource identifier.
 
 
-### -param ValueType [out]
+#### - ValueType [out]
 
 Pointer to a location into which the function returns the value type of the specified resource.
 

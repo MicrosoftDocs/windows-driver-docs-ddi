@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 2c82db4c-70b1-4601-a0b0-23b1f53e3503
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: sddef/SD_COMMAND_CLASS, SD_COMMAND_CLASS, SD.sd_command_class, sddef/SDCC_STANDARD, sddef/SDCC_APP_CMD, SDCC_APP_CMD, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, SD_COMMAND_CLASS enumeration [Buses], SDCC_STANDARD
+ms.keywords: SD_COMMAND_CLASS enumeration [Buses], SDCC_STANDARD, SDCC_APP_CMD, sddef/SDCC_APP_CMD, SD_COMMAND_CLASS, SD.sd_command_class, sddef/SD_COMMAND_CLASS, sddef/SDCC_STANDARD, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum  {
 
 
 
-### -field SDCC_STANDARD
+#### - SDCC_STANDARD
 
 Indicates an SD card command from the standard command set. This command set includes command codes 0 to 63.
 
 
-### -field SDCC_APP_CMD
+#### - SDCC_APP_CMD
 
 Indicates an SD command from the application command set. This command set includes command codes 0 to 63, preceded by the application command escape code 55.
 

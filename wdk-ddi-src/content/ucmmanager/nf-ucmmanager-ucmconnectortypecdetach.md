@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorTypeCDetach, buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses]
+ms.keywords: UcmConnectorTypeCDetach, ucmmanager/UcmConnectorTypeCDetach, buses.ucmconnectortypecdetach, UcmConnectorTypeCDetach method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS UcmConnectorTypeCDetach(
 
 
 
-### -param Connector [in]
+#### - Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 

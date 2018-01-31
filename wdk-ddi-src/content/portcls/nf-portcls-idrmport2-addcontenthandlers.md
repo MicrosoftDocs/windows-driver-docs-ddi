@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b65608f4-de9a-4bed-a966-586e50c50e45
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, IDrmPort2::AddContentHandlers, audio.idrmport2_addcontenthandlers, portcls/IDrmPort2::AddContentHandlers, IDrmPort2 interface [Audio Devices], AddContentHandlers method, AddContentHandlers method [Audio Devices], IDrmPort2, AddContentHandlers, AddContentHandlers method [Audio Devices], IDrmPort2 interface
+ms.keywords: audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, audio.idrmport2_addcontenthandlers, IDrmPort2 interface [Audio Devices], AddContentHandlers method, IDrmPort2, AddContentHandlers method [Audio Devices], AddContentHandlers method [Audio Devices], IDrmPort2 interface, portcls/IDrmPort2::AddContentHandlers, AddContentHandlers, IDrmPort2::AddContentHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDrmPort2.AddContentHandlers
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IDrmPort2::AddContentHandlers method

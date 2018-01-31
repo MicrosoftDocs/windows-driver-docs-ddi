@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d1a4bb6-5db8-48b0-9be3-7468360951a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMSIXTableConfigMaskTableEntry, ndis/NdisMSIXTableConfigSetTableEntry, NdisMSIXTableConfigMax, _NDIS_MSIX_TABLE_CONFIG, NdisMSIXTableConfigSetTableEntry, ndis/NdisMSIXTableConfigUnmaskTableEntry, NdisMSIXTableConfigUnmaskTableEntry, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, PNDIS_MSIX_TABLE_OPERATION, netvista.ndis_msix_table_operation, ndis/PNDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMax, ndis/NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMaskTableEntry, *PNDIS_MSIX_TABLE_OPERATION
+ms.keywords: ndis/NDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigSetTableEntry, netvista.ndis_msix_table_operation, ndis/NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigMaskTableEntry, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], ndis/NdisMSIXTableConfigSetTableEntry, NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigUnmaskTableEntry, _NDIS_MSIX_TABLE_CONFIG, NdisMSIXTableConfigMax, NdisMSIXTableConfigUnmaskTableEntry, ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], PNDIS_MSIX_TABLE_OPERATION, ndis/PNDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMax, *PNDIS_MSIX_TABLE_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,23 +71,23 @@ typedef enum _NDIS_MSIX_TABLE_CONFIG {
 
 
 
-### -field NdisMSIXTableConfigSetTableEntry
+#### - NdisMSIXTableConfigSetTableEntry
 
 The MSI-X table entry should be mapped to an MSI-X message that the bus driver allocated to the
      device.
 
 
-### -field NdisMSIXTableConfigMaskTableEntry
+#### - NdisMSIXTableConfigMaskTableEntry
 
 The interrupts from an MSI-X table entry source should be masked.
 
 
-### -field NdisMSIXTableConfigUnmaskTableEntry
+#### - NdisMSIXTableConfigUnmaskTableEntry
 
 The interrupts from an MSI-X table entry source should be unmasked.
 
 
-### -field NdisMSIXTableConfigMax
+#### - NdisMSIXTableConfigMax
 
 The number of enumeration values in NDIS_MSIX_TABLE_OPERATION.
 

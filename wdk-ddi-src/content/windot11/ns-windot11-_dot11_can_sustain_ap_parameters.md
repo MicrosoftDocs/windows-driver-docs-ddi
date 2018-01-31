@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d7995f3-6cc1-4f3c-a016-b31dc69ddd7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, netvista.dot11_can_sustain_ap_parameters, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, _DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS, netvista.dot11_can_sustain_ap_parameters, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _DOT11_CAN_SUSTAIN_AP_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_CAN_SUSTAIN_AP_PARAMETERS structure. This member is
      formatted as an 
@@ -102,7 +102,7 @@ This member must be set to
        <b>sizeof</b>(DOT11_CAN_SUSTAIN_AP_PARAMETERS).
 
 
-### -field ulReason
+#### - ulReason
 
 A ULONG value that specifies the reason why the NIC can sustain the AP. An IHV can supply the
      following range of values:
@@ -137,10 +137,10 @@ The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS str
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <mshelp:link keywords="netvista.ndis_status_dot11_can_sustain_ap" tabindex="0">
    NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

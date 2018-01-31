@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, display.dxgk_preemptcommandflags, _DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DXGK_PREEMPTCOMMANDFLAGS, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS
+ms.keywords: DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS, DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, DXGK_PREEMPTCOMMANDFLAGS, display.dxgk_preemptcommandflags, _DXGK_PREEMPTCOMMANDFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _DXGK_PREEMPTCOMMANDFLAGS {
 
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting all 32 bits (0xFFFFFFFF) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that DXGK_PREEMPTCOMMANDFLAGS contains that can hold a 32-bit value.
 

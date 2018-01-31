@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 65fd2c27-7d9e-4dad-adef-8cb2bea9d9f2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function, kmdf.wdf_coinstaller_install_options_init, DFCoinstallerRef_7a993590-87f2-4613-93d4-ffbc76672d8e.xml, wdf.wdf_coinstaller_install_options_init, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS_INIT, WDF_COINSTALLER_INSTALL_OPTIONS_INIT
+ms.keywords: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS_INIT, WDF_COINSTALLER_INSTALL_OPTIONS_INIT, kmdf.wdf_coinstaller_install_options_init, DFCoinstallerRef_7a993590-87f2-4613-93d4-ffbc76672d8e.xml, wdf.wdf_coinstaller_install_options_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID WDF_COINSTALLER_INSTALL_OPTIONS_INIT(
 
 
 
-### -param ClientOptions [out]
+#### - ClientOptions [out]
 
 A pointer to a <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
 

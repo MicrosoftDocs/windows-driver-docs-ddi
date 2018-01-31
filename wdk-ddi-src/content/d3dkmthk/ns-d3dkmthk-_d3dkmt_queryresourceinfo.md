@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14078b2b-8951-48df-912a-e053bc997dde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_queryresourceinfo, D3DKMT_QUERYRESOURCEINFO, _D3DKMT_QUERYRESOURCEINFO, d3dkmthk/D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml
+ms.keywords: display.d3dkmt_queryresourceinfo, _D3DKMT_QUERYRESOURCEINFO, d3dkmthk/D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, D3DKMT_QUERYRESOURCEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,46 +73,46 @@ typedef struct _D3DKMT_QUERYRESOURCEINFO {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A handle to the device that the resource and allocations are associated with.
 
 
-### -field hGlobalShare
+#### - hGlobalShare
 
 [in] A handle to the shared resource to open.
 
 
-### -field pPrivateRuntimeData
+#### - pPrivateRuntimeData
 
 [in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer. 
 
 
-### -field PrivateRuntimeDataSize
+#### - PrivateRuntimeDataSize
 
 [in/out] The size, in bytes, of the buffer that <b>pPrivateRuntimeData</b> points to. If <b>pPrivateRuntimeData</b> is <b>NULL</b>, <b>PrivateRuntimeDataSize</b> is set to the size, in bytes, that is required for the buffer to store the runtime-private data.
 
 
-### -field TotalPrivateDriverDataSize
+#### - TotalPrivateDriverDataSize
 
 [out] The size, in bytes, of the buffer that is required to hold the private driver data for all of the allocations that are associated with the resource.
 
 
-### -field ResourcePrivateDriverDataSize
+#### - ResourcePrivateDriverDataSize
 
 [out] The size, in bytes, of the buffer that is required to hold the private driver data for the resource.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [out] The number of allocations that are associated with the resource.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
 
  
 

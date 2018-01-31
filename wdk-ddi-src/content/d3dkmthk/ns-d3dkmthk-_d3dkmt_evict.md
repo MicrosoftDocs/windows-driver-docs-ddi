@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_evict, d3dkmthk/D3DKMT_EVICT, D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], _D3DKMT_EVICT
+ms.keywords: display.d3dkmt_evict, D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, _D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,36 +74,36 @@ typedef struct _D3DKMT_EVICT {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] Device that created the allocations passed to this call.
 
 
-### -field NumAllocations
+#### - NumAllocations
 
 [in] Number of allocation handles in the <b>AllocationList</b> array.
 
 
-### -field AllocationList
+#### - AllocationList
 
 [in] An array of <b>NumAllocations</b> allocation handles to mark for eviction. All allocations must be created on <b>hDevice</b>.
 
 
-### -field Flags
+#### - Flags
 
 [in] Specifies eviction behavior as documented in <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>. 
 
 
-### -field NumBytesToTrim
+#### - NumBytesToTrim
 
 [out] When non-zero, specifies how much the application should evict in order to meet its current memory budget.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
 
  
 

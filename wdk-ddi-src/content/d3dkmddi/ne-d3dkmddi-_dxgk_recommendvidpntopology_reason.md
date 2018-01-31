@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2a67a119-863b-4cde-9308-e4862823bad1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_RVT_INITIALIZATION_NOLKG, d3dkmddi/DXGK_RVT_AUGMENTATION_NOLKG, DXGK_RVT_AUGMENTATION_NOLKG, display.dxgk_recommendvidpntopology_reason, DXGK_RVT_AUGMENTATION_LKGOVERRIDE, DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, DXGK_RVT_UNINITIALIZED, DXGK_RVT_INITIALIZATION_LKGOVERRIDE, d3dkmddi/DXGK_RVT_UNINITIALIZED, d3dkmddi/DXGK_RVT_AUGMENTATION_LKGOVERRIDE, d3dkmddi/DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, DXGK_RECOMMENDVIDPNTOPOLOGY_REASON enumeration [Display Devices], d3dkmddi/DXGK_RVT_INITIALIZATION_LKGOVERRIDE, DmEnums_b03f6fe2-5501-45ef-b841-48c6c3cc729a.xml, _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, d3dkmddi/DXGK_RVT_INITIALIZATION_NOLKG
+ms.keywords: d3dkmddi/DXGK_RVT_AUGMENTATION_NOLKG, d3dkmddi/DXGK_RVT_INITIALIZATION_NOLKG, display.dxgk_recommendvidpntopology_reason, DXGK_RECOMMENDVIDPNTOPOLOGY_REASON enumeration [Display Devices], d3dkmddi/DXGK_RVT_UNINITIALIZED, DXGK_RVT_AUGMENTATION_LKGOVERRIDE, DXGK_RVT_INITIALIZATION_LKGOVERRIDE, d3dkmddi/DXGK_RVT_INITIALIZATION_LKGOVERRIDE, DmEnums_b03f6fe2-5501-45ef-b841-48c6c3cc729a.xml, DXGK_RVT_UNINITIALIZED, DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, DXGK_RVT_INITIALIZATION_NOLKG, DXGK_RVT_AUGMENTATION_NOLKG, d3dkmddi/DXGK_RVT_AUGMENTATION_LKGOVERRIDE, d3dkmddi/DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,29 +71,29 @@ typedef enum _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON {
 
 
 
-### -field DXGK_RVT_UNINITIALIZED
+#### - DXGK_RVT_UNINITIALIZED
 
 Indicates that a variable of type <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_recommendvidpntopology_reason.md">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a> has not yet been assigned a meaningful value.
 
 
-### -field DXGK_RVT_INITIALIZATION_NOLKG
+#### - DXGK_RVT_INITIALIZATION_NOLKG
 
 Indicates that the call is being made during the initialization of the display adapter after an attempt to use the last known good VidPN topology failed.
 
 
-### -field DXGK_RVT_AUGMENTATION_NOLKG
+#### - DXGK_RVT_AUGMENTATION_NOLKG
 
 
       Indicates that the call is being made during the VidPN topology augmentation by the display mode manager (DMM) after an attempt to use the last known good VidPN topology failed.
      
 
 
-### -field DXGK_RVT_AUGMENTATION_LKGOVERRIDE
+#### - DXGK_RVT_AUGMENTATION_LKGOVERRIDE
 
 Indicates that the call is being made during the VidPN topology augmentation by the display mode manager (DMM), giving the display miniport driver a chance to override the last known good VidPN topology.
 
 
-### -field DXGK_RVT_INITIALIZATION_LKGOVERRIDE
+#### - DXGK_RVT_INITIALIZATION_LKGOVERRIDE
 
 Indicates that the call is being made during the initialization of the display adapter, giving the display miniport driver a chance to override the last known good VidPN topology.
 

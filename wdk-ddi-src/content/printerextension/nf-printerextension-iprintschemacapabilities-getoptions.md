@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetOptions method [Print Devices], IPrintSchemaCapabilities interface, GetOptions method [Print Devices], print.iprintschemacapabilities_getoptions, IPrintSchemaCapabilities, GetOptions, printerextension/IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities interface [Print Devices], GetOptions method
+ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetOptions method, GetOptions, GetOptions method [Print Devices], IPrintSchemaCapabilities interface, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, IPrintSchemaCapabilities, GetOptions method [Print Devices], printerextension/IPrintSchemaCapabilities::GetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetOptions(
 
 
 
-### -param pFeature [in]
+#### - pFeature [in]
 
 The specified feature.
 

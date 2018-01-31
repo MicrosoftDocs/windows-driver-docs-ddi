@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 412a77c8-eb10-43c5-bc45-2c61858463a7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList::HasNode, HasNode method [Windows Debugging], HasNode method [Windows Debugging], ExtRemoteList class, ExtRemoteList class [Windows Debugging], HasNode method, debugger.extremotelist_hasnode, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList, HasNode
+ms.keywords: HasNode method [Windows Debugging], ExtRemoteList class, ExtRemoteList, ExtRemoteList::HasNode, HasNode, ExtRemoteList class [Windows Debugging], HasNode method, debugger.extremotelist_hasnode, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, HasNode method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteList.HasNode
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteList::HasNode method

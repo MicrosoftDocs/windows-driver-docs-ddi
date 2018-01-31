@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprinterscriptablesequentialstream_write, Write method [Print Devices], IPrinterScriptableSequentialStream interface [Print Devices], Write method, Write, IPrinterScriptableSequentialStream, printerextension/IPrinterScriptableSequentialStream::Write, IPrinterScriptableSequentialStream::Write, Write method [Print Devices], IPrinterScriptableSequentialStream interface
+ms.keywords: IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, Write method [Print Devices], printerextension/IPrinterScriptableSequentialStream::Write, IPrinterScriptableSequentialStream interface [Print Devices], Write method, IPrinterScriptableSequentialStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ HRESULT Write(
 
 
 
-### -param pcbWritten [out, retval]
+#### - pcbWritten [out, retval]
 
 The number of bytes written.
 

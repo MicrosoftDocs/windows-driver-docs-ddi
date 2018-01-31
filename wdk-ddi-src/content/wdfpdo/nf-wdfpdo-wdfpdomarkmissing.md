@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFPDOMARKMISSING, kmdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing, WdfPdoMarkMissing, wdf.wdfpdomarkmissing, DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing method
+ms.keywords: PFN_WDFPDOMARKMISSING, WdfPdoMarkMissing, wdf.wdfpdomarkmissing, kmdf.wdfpdomarkmissing, WdfPdoMarkMissing method, wdfpdo/WdfPdoMarkMissing, DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoMarkMissing
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ NTSTATUS WdfPdoMarkMissing(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object that represents the device's physical device object (PDO).
 
@@ -124,11 +124,11 @@ For more information about <b>WdfPdoMarkMissing</b>, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
+
 <a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
 
 <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
-
-<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
 
  
 

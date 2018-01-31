@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcf844e3-3346-485e-8965-c8cb824e2c78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_flipmodel_presenthistorytoken, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
+ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml, display.d3dkmt_flipmodel_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,26 +85,26 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 
 
 
-### -field ScatterBlts
+#### - ScatterBlts
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field hSyncObject
+#### - hSyncObject
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field FenceValue
+#### - FenceValue
 
 [in] A 64-bit value that specifies the fence value that is used for the flip.
 
 
-### -field hLogicalSurface
+#### - hLogicalSurface
 
 [in] A 64-bit value that specifies the handle to a logical surface.
 
@@ -119,27 +119,27 @@ Supported starting with Windows 8.
  
 
 
-### -field SwapChainIndex
+#### - SwapChainIndex
 
 [in] The index of the surface in the swap chain that is used for the flip.
 
 
-### -field PresentLimitSemaphoreId
+#### - PresentLimitSemaphoreId
 
 [in] A 64-bit value that identifies the present-limit semaphore.
 
 
-### -field FlipInterval
+#### - FlipInterval
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a> structure that identifies, in bit-field flags, attributes of a flip present-history operation.
 
 
-### -field hCompSurf
+#### - hCompSurf
 
 This member is reserved and should be set to zero.
 
@@ -156,49 +156,49 @@ Supported starting with Windows 8.
  
 
 
-### -field CompositionSyncKey
+#### - CompositionSyncKey
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field RemainingTokens
+#### - RemainingTokens
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field ScrollRect
+#### - ScrollRect
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field ScrollOffset
+#### - ScrollOffset
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field PresentCount
+#### - PresentCount
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field RevealColor
+#### - RevealColor
 
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
 
-### -field Rotation
+#### - Rotation
 
 This member is reserved and should be set to zero.
 
@@ -255,18 +255,18 @@ Supported starting with Windows 8.
  
 
 
-### -field DirtyRegions
+#### - DirtyRegions
 
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the flip surface.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a>
 

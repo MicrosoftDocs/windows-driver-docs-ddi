@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62b4318a-b883-44fc-a2a5-86a7a884f039
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeString macro [Network Drivers Starting with Windows Vista], netvista.ndisfreestring, ndis_string_ref_fbe6ac9f-c6a6-457e-a427-71e9739f3809.xml, NdisFreeString, ndis/NdisFreeString
+ms.keywords: NdisFreeString macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeString, netvista.ndisfreestring, NdisFreeString, ndis_string_ref_fbe6ac9f-c6a6-457e-a427-71e9739f3809.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,7 +70,7 @@ VOID NdisFreeString(
 
 
 
-### -param String [in]
+#### - String [in]
 
 An NDIS_STRING type value that describes the string to free. For Windows 2000 and later, NDIS
      defines the NDIS_STRING type as a 
@@ -96,26 +96,26 @@ An NDIS driver typically calls the
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
    Drivers</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
  
 

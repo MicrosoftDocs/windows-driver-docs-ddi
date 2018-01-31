@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3F4C444E-8DFC-478A-B3A9-D9E7D97CF3C4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprinterextensionmanager_disableevents, IPrinterExtensionManager::DisableEvents, DisableEvents method [Print Devices], printerextension/IPrinterExtensionManager::DisableEvents, DisableEvents, IPrinterExtensionManager interface [Print Devices], DisableEvents method, DisableEvents method [Print Devices], IPrinterExtensionManager interface, IPrinterExtensionManager
+ms.keywords: IPrinterExtensionManager interface [Print Devices], DisableEvents method, DisableEvents method [Print Devices], IPrinterExtensionManager::DisableEvents, DisableEvents, DisableEvents method [Print Devices], IPrinterExtensionManager interface, print.iprinterextensionmanager_disableevents, printerextension/IPrinterExtensionManager::DisableEvents, IPrinterExtensionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

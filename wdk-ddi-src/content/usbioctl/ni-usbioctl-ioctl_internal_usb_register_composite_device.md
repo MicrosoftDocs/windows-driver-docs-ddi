@@ -132,9 +132,9 @@ In order to remove the composite driver's association with the USB driver stack 
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_unregister_composite_device.md">IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_unregister_composite_device.md">IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE</a>
 
  
 

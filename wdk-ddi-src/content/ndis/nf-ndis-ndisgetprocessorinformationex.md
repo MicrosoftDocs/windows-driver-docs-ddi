@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9af21f56-d93d-4130-888c-c7009dc2854d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisgetprocessorinformationex, NdisGetProcessorInformationEx, ndis/NdisGetProcessorInformationEx, ndis_processor_group_ref_f387710b-fb49-4202-9ff5-496021972695.xml, NdisGetProcessorInformationEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisGetProcessorInformationEx function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformationEx, ndis_processor_group_ref_f387710b-fb49-4202-9ff5-496021972695.xml, NdisGetProcessorInformationEx, netvista.ndisgetprocessorinformationex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ NDIS_STATUS NdisGetProcessorInformationEx(
 
 
 
-### -param NdisHandle [in, optional]
+#### - NdisHandle [in, optional]
 
 An NDIS driver or instance handle that was obtained during caller initialization. For example, a
      miniport driver can use the NDIS handle that it obtained from the 
@@ -99,7 +99,7 @@ An NDIS driver or instance handle that was obtained during caller initialization
 
 
 
-### -param SystemProcessorInfo [out, optional]
+#### - SystemProcessorInfo [out, optional]
 
 A pointer to a caller-allocated buffer where NDIS puts the 
      <mshelp:link keywords="netvista.ndis_system_processor_info_ex" tabindex="0"><b>
@@ -110,7 +110,7 @@ A pointer to a caller-allocated buffer where NDIS puts the
      <i>Size</i> parameter.
 
 
-### -param Size [in, out]
+#### - Size [in, out]
 
 A pointer to a value that is the size, in bytes, of the buffer that the caller provided. When the
      function returns, this value contains either the amount of data that NDIS put in the buffer or the
@@ -165,19 +165,19 @@ NDIS drivers call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
  
 

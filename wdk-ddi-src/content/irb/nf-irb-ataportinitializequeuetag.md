@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6d40f3e-4bc9-4b30-97ac-600a33280305
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortInitializeQueueTag routine [Storage Devices], irb/AtaPortInitializeQueueTag, AtaPortInitializeQueueTag, atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml, storage.ataportinitializequeuetag
+ms.keywords: irb/AtaPortInitializeQueueTag, AtaPortInitializeQueueTag routine [Storage Devices], atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml, AtaPortInitializeQueueTag, storage.ataportinitializequeuetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,17 +78,17 @@ BOOLEAN AtaPortInitializeQueueTag(
 TBD
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Specifies the logical unit number (LUN) of the device.
 
 
-### -param MaxQueueTag [in]
+#### - MaxQueueTag [in]
 
 Specifies the maximum allowed value for the queue tag.
 

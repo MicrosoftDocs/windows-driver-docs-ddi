@@ -40,7 +40,7 @@ apiname:
 -	GetLocation
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -75,31 +75,31 @@ NTSTATUS GetLocation(
 
 
 
-### -param Context [in, out]
+#### - Context [in, out]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param VirtualFunction [in]
+#### - VirtualFunction [in]
 
 A zero-based value that specifies the VF on the device for  which the device location is returned
 
 
-### -param SegmentNumber [out]
+#### - SegmentNumber [out]
 
 A pointer to a caller-supplied variable in which this routine returns a UINT16 value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
 
 
 
-### -param BusNumber [out]
+#### - BusNumber [out]
 
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the current PCI bus number on which the device is attached.
 
 
 
 
-### -param FunctionNumber [out]
+#### - FunctionNumber [out]
 
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value.  This value contains the function number for the specified VF on the PCI bus.
 

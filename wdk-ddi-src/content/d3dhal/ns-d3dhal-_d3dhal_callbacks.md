@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b045732-a41f-47e7-9835-41e3ef54f14c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_CALLBACKS, D3DHAL_CALLBACKS structure [Display Devices], LPD3DHAL_CALLBACKS structure pointer [Display Devices], LPD3DHAL_CALLBACKS, d3dhal/LPD3DHAL_CALLBACKS, *LPD3DHAL_CALLBACKS, d3dstrct_2dc02d2c-6ae9-4f2e-9cb3-470926980537.xml, D3DHAL_CALLBACKS, _D3DHAL_CALLBACKS, display.d3dhal_callbacks
+ms.keywords: LPD3DHAL_CALLBACKS structure pointer [Display Devices], display.d3dhal_callbacks, _D3DHAL_CALLBACKS, *LPD3DHAL_CALLBACKS, d3dhal/D3DHAL_CALLBACKS, D3DHAL_CALLBACKS, d3dhal/LPD3DHAL_CALLBACKS, LPD3DHAL_CALLBACKS, D3DHAL_CALLBACKS structure [Display Devices], d3dstrct_2dc02d2c-6ae9-4f2e-9cb3-470926980537.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DHAL_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: "*LPD3DHAL_CALLBACKS, D3DHAL_CALLBACKS"
+req.typenames: D3DHAL_CALLBACKS, *LPD3DHAL_CALLBACKS
 ---
 
 # _D3DHAL_CALLBACKS structure
@@ -101,177 +101,177 @@ typedef struct _D3DHAL_CALLBACKS {
 
 
 
-### -field dwSize
+#### - dwSize
 
 Specifies the size in bytes of this D3DHAL_CALLBACKS structure.
 
 
-### -field ContextCreate
+#### - ContextCreate
 
 Points to the driver-supplied <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a> callback. A driver must implement the callback that this member points to.
 
 
-### -field ContextDestroy
+#### - ContextDestroy
 
 Points to the driver-supplied <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a> callback. A driver must implement the callback that this member points to.
 
 
-### -field ContextDestroyAll
+#### - ContextDestroyAll
 
 Must be set to <b>NULL</b> in a Windows 2000 and later driver.
 
 
-### -field SceneCapture
+#### - SceneCapture
 
 Must be set to <b>NULL</b> in a Windows 2000 and later driver. For DirectX 6.0, this was a pointer to the driver-supplied <b>D3dSceneCapture</b> callback. For DirectX 7.0 and later, this callback was replaced by the handling of the D3DRENDERSTATE_SCENECAPTURE render state in the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> function.
 
 
-### -field lpReserved10
+#### - lpReserved10
 
 Must be zero.
 
 
-### -field lpReserved11
+#### - lpReserved11
 
 Must be zero.
 
 
-### -field RenderState
+#### - RenderState
 
 Points to the driver-supplied D3DHAL_RENDERSTATEDATA callback. A driver must implement the callback that this member points to.
 
 
-### -field RenderPrimitive
+#### - RenderPrimitive
 
 Points to the driver-supplied D3DHAL_RENDERPRIMITIVEDATA callback. A driver must implement the callback that this member points to.
 
 
-### -field dwReserved
+#### - dwReserved
 
 Specifies reserved fields and must be set to zero.
 
 
-### -field TextureCreate
+#### - TextureCreate
 
 Must be set to <b>NULL</b> in a Windows 2000 and later driver. For DirectX 6.0, this was a pointer to the driver-supplied <b>D3dTextureCreate</b> callback, or <b>NULL</b>. 
 
 
-### -field TextureDestroy
+#### - TextureDestroy
 
 Must be set to <b>NULL</b> in a Windows 2000 and later driver. For DirectX 6.0, this was a pointer to the driver-supplied <b>D3dTextureDestroy</b> callback, or <b>NULL</b>.
 
 
-### -field TextureSwap
+#### - TextureSwap
 
 Must be set to <b>NULL</b> in a Windows 2000 and later driver. For DirectX 6.0, this was a pointer to the driver-supplied <b>D3dTextureSwap</b> callback, or <b>NULL</b>.
 
 
-### -field TextureGetSurf
+#### - TextureGetSurf
 
 Must be set to <b>NULL</b> in a Windows 2000 and later driver. For DirectX 6.0, this was a pointer to the driver-supplied <b>D3dTextureGetSurf</b> callback, or <b>NULL</b>.
 
 
-### -field lpReserved12
+#### - lpReserved12
 
 Must be zero.
 
 
-### -field lpReserved13
+#### - lpReserved13
 
 Must be zero.
 
 
-### -field lpReserved14
+#### - lpReserved14
 
 Must be zero.
 
 
-### -field lpReserved15
+#### - lpReserved15
 
 Must be zero.
 
 
-### -field lpReserved16
+#### - lpReserved16
 
 Must be zero.
 
 
-### -field lpReserved17
+#### - lpReserved17
 
 Must be zero.
 
 
-### -field lpReserved18
+#### - lpReserved18
 
 Must be zero.
 
 
-### -field lpReserved19
+#### - lpReserved19
 
 Must be zero.
 
 
-### -field lpReserved20
+#### - lpReserved20
 
 Must be zero.
 
 
-### -field lpReserved21
+#### - lpReserved21
 
 Must be zero.
 
 
-### -field GetState
+#### - GetState
 
 Points to the driver-supplied D3DHAL_GETSTATEDATA callback. A driver must implement the callback that this member points to.
 
 
-### -field dwReserved0
+#### - dwReserved0
 
 Must be zero.
 
 
-### -field dwReserved1
+#### - dwReserved1
 
 Must be zero.
 
 
-### -field dwReserved2
+#### - dwReserved2
 
 Must be zero.
 
 
-### -field dwReserved3
+#### - dwReserved3
 
 Must be zero.
 
 
-### -field dwReserved4
+#### - dwReserved4
 
 Must be zero.
 
 
-### -field dwReserved5
+#### - dwReserved5
 
 Must be zero.
 
 
-### -field dwReserved6
+#### - dwReserved6
 
 Must be zero.
 
 
-### -field dwReserved7
+#### - dwReserved7
 
 Must be zero.
 
 
-### -field dwReserved8
+#### - dwReserved8
 
 Must be zero
 
 
-### -field dwReserved9
+#### - dwReserved9
 
 Must be zero.
 
@@ -289,13 +289,13 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks3.md">D3DHAL_CALLBACKS3</a>
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
 

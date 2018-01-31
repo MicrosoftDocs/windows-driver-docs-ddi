@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 00F015F4-708F-4272-A903-56C44DC6646E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/VT_SAFEARRAY, ks/VT_R4, ks/VT_USERDEFINED, VT_BLOB_OBJECT, ks/VT_TYPEMASK, VT_DECIMAL, VT_BYREF, VT_DATE, VT_NULL, ks/VT_UNKNOWN, ks/VT_ERROR, ks/VT_DISPATCH, VT_UI1, ks/ VT_VECTOR, VT_BOOL, ks/VT_PTR, stream.varenum, ks/VT_NULL, VARENUM enumeration [Streaming Media Devices], ks/VT_STREAMED_OBJECT, VT_I1, ks/VT_CY, VT_DISPATCH, ks/VT_VOID, VT_UI2, VT_LPSTR, VT_CF, VT_FILETIME, ks/VT_I1, VT_UI8, VT_HRESULT, VT_UNKNOWN, VT_ILLEGAL, ks/VT_DATE, VT_VOID, VT_STREAMED_OBJECT, ks/VT_CARRAY, ks/VT_BOOL, ks/VT_ILLEGALMASKED, VT_PTR, ks/VT_UI4, VT_USERDEFINED, VT_ILLEGALMASKED, ks/VT_UI8, ks/VT_STORED_OBJECT, VT_STORED_OBJECT, VT_STREAM, VT_I2, VT_STORAGE, VT_RESERVED, VT_I8, VT_I4, VT_LPWSTR, ks/VT_ARRAY, VT_VECTOR, ks/ VT_RESERVED, ks/VT_DECIMAL, ks/VT_BLOB_OBJECT, VT_EMPTY, VT_INT, VT_ERROR, ks/VT_UINT, ks/VT_INT, ks/VT_VARIANT, ks/VT_I2, ks/VT_UI1, VT_UI4, ks/VT_I8, ks/VT_UI2, ks/VT_FILETIME, VT_CARRAY, VT_UINT, ks/VARENUM, ks/VT_ILLEGAL, VT_SAFEARRAY, VT_R8, VT_TYPEMASK, ks/VT_STORAGE, ks/VT_STREAM, ks/VT_R8, VT_CY, ks/VT_HRESULT, VT_BLOB, ks/VT_BLOB, ks/VT_CF, ks/VT_LPSTR, VT_ARRAY, VT_VARIANT, ks/VT_EMPTY, VT_CLSID, VARENUM, VT_R4, ks/VT_BSTR, ks/VT_BYREF, VT_BSTR, ks/VT_LPWSTR, ks/VT_CLSID, ks/VT_I4
+ms.keywords: ks/VT_STREAM, VT_I4, ks/VT_I4, ks/ VT_VECTOR, VT_UI1, VT_ERROR, ks/VT_CF, VT_CF, VT_TYPEMASK, ks/ VT_RESERVED, ks/VT_ARRAY, VT_ILLEGALMASKED, VT_STORED_OBJECT, VT_I8, VT_UI8, ks/VT_UI1, ks/VT_BLOB, ks/VT_R4, ks/VT_LPSTR, VT_FILETIME, VT_UINT, ks/VT_ILLEGALMASKED, VT_HRESULT, VT_SAFEARRAY, VT_INT, VT_USERDEFINED, ks/VARENUM, ks/VT_VARIANT, VT_DISPATCH, ks/VT_UI2, VT_STREAM, VT_PTR, ks/VT_STORAGE, ks/VT_DISPATCH, VT_RESERVED, ks/VT_FILETIME, VT_BOOL, ks/VT_CY, VT_UI4, ks/VT_HRESULT, VT_R4, ks/VT_R8, ks/VT_TYPEMASK, ks/VT_BSTR, ks/VT_PTR, ks/VT_STORED_OBJECT, ks/VT_ILLEGAL, VT_BSTR, VT_I1, ks/VT_I8, VARENUM enumeration [Streaming Media Devices], VT_DATE, VT_CLSID, VARENUM, ks/VT_UI4, ks/VT_DATE, VT_NULL, stream.varenum, VT_STORAGE, ks/VT_ERROR, ks/VT_UI8, VT_VECTOR, VT_UI2, ks/VT_UINT, ks/VT_EMPTY, ks/VT_VOID, ks/VT_CARRAY, VT_R8, VT_ILLEGAL, VT_LPSTR, VT_DECIMAL, ks/VT_NULL, VT_STREAMED_OBJECT, VT_I2, VT_VARIANT, VT_BLOB_OBJECT, ks/VT_UNKNOWN, VT_EMPTY, ks/VT_BOOL, ks/VT_STREAMED_OBJECT, ks/VT_USERDEFINED, VT_LPWSTR, ks/VT_DECIMAL, ks/VT_INT, VT_CARRAY, VT_BYREF, ks/VT_I1, ks/VT_CLSID, ks/VT_SAFEARRAY, VT_VOID, ks/VT_BYREF, VT_ARRAY, VT_CY, ks/VT_LPWSTR, VT_UNKNOWN, ks/VT_I2, VT_BLOB, ks/VT_BLOB_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -114,190 +114,190 @@ enum VARENUM {
 
 
 
-### -field VT_EMPTY
+#### - VT_EMPTY
 
 
 
-### -field VT_NULL
+#### - VT_NULL
 
 
 
-### -field VT_I2
+#### - VT_I2
 
 
 
-### -field VT_I4
+#### - VT_I4
 
 
 
-### -field VT_R4
+#### - VT_R4
 
 
 
-### -field VT_R8
+#### - VT_R8
 
 
 
-### -field VT_CY
+#### - VT_CY
 
 
 
-### -field VT_DATE
+#### - VT_DATE
 
 
 
-### -field VT_BSTR
+#### - VT_BSTR
 
 
 
-### -field VT_DISPATCH
+#### - VT_DISPATCH
 
 
 
-### -field VT_ERROR
+#### - VT_ERROR
 
 
 
-### -field VT_BOOL
+#### - VT_BOOL
 
 
 
-### -field VT_VARIANT
+#### - VT_VARIANT
 
 
 
-### -field VT_UNKNOWN
+#### - VT_UNKNOWN
 
 
 
-### -field VT_DECIMAL
+#### - VT_DECIMAL
 
 
 
-### -field VT_I1
+#### - VT_I1
 
 
 
-### -field VT_UI1
+#### - VT_UI1
 
 
 
-### -field VT_UI2
+#### - VT_UI2
 
 
 
-### -field VT_UI4
+#### - VT_UI4
 
 
 
-### -field VT_I8
+#### - VT_I8
 
 
 
-### -field VT_UI8
+#### - VT_UI8
 
 
 
-### -field VT_INT
+#### - VT_INT
 
 
 
-### -field VT_UINT
+#### - VT_UINT
 
 
 
-### -field VT_VOID
+#### - VT_VOID
 
 
 
-### -field VT_HRESULT
+#### - VT_HRESULT
 
 
 
-### -field VT_PTR
+#### - VT_PTR
 
 
 
-### -field VT_SAFEARRAY
+#### - VT_SAFEARRAY
 
 
 
-### -field VT_CARRAY
+#### - VT_CARRAY
 
 
 
-### -field VT_USERDEFINED
+#### - VT_USERDEFINED
 
 
 
-### -field VT_LPSTR
+#### - VT_LPSTR
 
 
 
-### -field VT_LPWSTR
+#### - VT_LPWSTR
 
 
 
-### -field VT_FILETIME
+#### - VT_FILETIME
 
 
 
-### -field VT_BLOB
+#### - VT_BLOB
 
 
 
-### -field VT_STREAM
+#### - VT_STREAM
 
 
 
-### -field VT_STORAGE
+#### - VT_STORAGE
 
 
 
-### -field VT_STREAMED_OBJECT
+#### - VT_STREAMED_OBJECT
 
 
 
-### -field VT_STORED_OBJECT
+#### - VT_STORED_OBJECT
 
 
 
-### -field VT_BLOB_OBJECT
+#### - VT_BLOB_OBJECT
 
 
 
-### -field VT_CF
+#### - VT_CF
 
 
 
-### -field VT_CLSID
+#### - VT_CLSID
 
 
 
-### -field VT_VECTOR
+#### - VT_VECTOR
 
 
 
-### -field VT_ARRAY
+#### - VT_ARRAY
 
 
 
-### -field VT_BYREF
+#### - VT_BYREF
 
 
 
-### -field VT_RESERVED
+#### - VT_RESERVED
 
 
 
-### -field VT_ILLEGAL
+#### - VT_ILLEGAL
 
 
 
-### -field VT_ILLEGALMASKED
+#### - VT_ILLEGALMASKED
 
 
 
-### -field VT_TYPEMASK
+#### - VT_TYPEMASK
 
 

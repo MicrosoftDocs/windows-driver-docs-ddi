@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetTechnology method [Audio Devices], portcls/IMusicTechnology::SetTechnology, SetTechnology, IMusicTechnology::SetTechnology, IMusicTechnology, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, IMusicTechnology interface [Audio Devices], SetTechnology method, SetTechnology method [Audio Devices], IMusicTechnology interface
+ms.keywords: SetTechnology, audio.imusictechnology_settechnology, IMusicTechnology interface [Audio Devices], SetTechnology method, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology, IMusicTechnology, IMusicTechnology::SetTechnology, SetTechnology method [Audio Devices], IMusicTechnology interface, SetTechnology method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMusicTechnology.SetTechnology
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMusicTechnology::SetTechnology method
@@ -67,7 +67,7 @@ NTSTATUS SetTechnology(
 
 
 
-### -param Technology [in]
+#### - Technology [in]
 
 Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a> structure.
 

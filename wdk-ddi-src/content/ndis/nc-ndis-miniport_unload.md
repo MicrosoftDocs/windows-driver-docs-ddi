@@ -73,7 +73,7 @@ VOID MiniportDriverUnload(
 
 
 
-### -param DriverObject [in]
+#### - DriverObject [in]
 
 A pointer to a 
      <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure that is the driver's
@@ -163,18 +163,18 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
+
 <mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
    NdisMDeregisterMiniportDriver</b></mshelp:link>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
  
 

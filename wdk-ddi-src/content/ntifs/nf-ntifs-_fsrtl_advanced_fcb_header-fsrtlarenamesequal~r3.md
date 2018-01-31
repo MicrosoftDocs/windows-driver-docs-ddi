@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlarenamesequal, FsRtlAreNamesEqual, ntifs/FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml
+ms.keywords: FsRtlAreNamesEqual, fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, ntifs/FsRtlAreNamesEqual, ifsk.fsrtlarenamesequal, FsRtlAreNamesEqual routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ BOOLEAN FsRtlAreNamesEqual(
 
 
 
-### -param ConstantNameA [in]
+#### - ConstantNameA [in]
 
 A pointer to first string. Cannot contain wildcard characters.
 
 
-### -param ConstantNameB [in]
+#### - ConstantNameB [in]
 
 A pointer to second string. Cannot contain wildcard characters.
 
 
-### -param IgnoreCase [in]
+#### - IgnoreCase [in]
 
 Set to <b>TRUE</b> for case-insensitive matching, <b>FALSE</b> otherwise.
 
 
-### -param UpcaseTable [in, optional]
+#### - UpcaseTable [in, optional]
 
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 

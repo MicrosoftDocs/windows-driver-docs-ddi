@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 8cc223be-a692-4141-81f6-4cca9e2fccf1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smclib/PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], *PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, SCARD_CARD_CAPABILITIES, _SCARD_CARD_CAPABILITIES, smartcrd.scard_card_capabilities, smclib/SCARD_CARD_CAPABILITIES
+ms.keywords: SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, PSCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES, smclib/PSCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES, smclib/SCARD_CARD_CAPABILITIES, _SCARD_CARD_CAPABILITIES, smartcrd.scard_card_capabilities, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,10 +104,20 @@ typedef struct _SCARD_CARD_CAPABILITIES {
 
 
 
-### -field ATR
+#### - ATR
 
 
       A structure with the following members:
+
+
+#### Buffer
+
+A pointer to the buffer that receives the answer-to-reset (ATR) information that the smart card provides to the smart card reader after a warm or cold reset. 
+
+
+#### Length
+
+Contains the length, in bytes, of the ATR. 
 
 
 ### -field ATR.Buffer
@@ -120,12 +130,24 @@ A pointer to the buffer that receives the answer-to-reset (ATR) information that
 Contains the length, in bytes, of the ATR. 
 
 
-### -field HistoricalChars
+#### - HistoricalChars
 
 
       A structure with the following members:
       
      
+
+
+#### Buffer
+
+Contains the historical characters. Historical characters designate general information, such as the smart card manufacturer, the chip inserted in the smart card, the masked ROM in the chip, and the life cycle of the smart card. For more information about historical characters, see the <i>ISO 7816-3 Specification</i> and part 4 of the <i>ISO 7816 Specification</i>. (This resource may not be available in some languages 
+
+and countries.)
+
+
+#### Length
+
+Indicates the length, in bytes, of the historical character information. 
 
 
 ### -field HistoricalChars.Buffer
@@ -140,12 +162,22 @@ and countries.)
 Indicates the length, in bytes, of the historical character information. 
 
 
-### -field Protocol
+#### - Protocol
 
 
       A structure with the following members:
       
      
+
+
+#### Supported
+
+Contains a bitmask of the supported protocols. 
+
+
+#### Selected
+
+Contains the protocol that is selected. 
 
 
 ### -field Protocol.Supported
@@ -158,12 +190,22 @@ Contains a bitmask of the supported protocols.
 Contains the protocol that is selected. 
 
 
-### -field T0
+#### - T0
 
 
       A structure with the following members:
       
      
+
+
+#### WI
+
+Contains the work-waiting integer for the T=0 protocol. 
+
+
+#### WT
+
+Contains the work-waiting time, in microseconds, for the T=0 protocol, which is the maximum delay allowed between two consecutive characters. 
 
 
 ### -field T0.WI
@@ -176,12 +218,47 @@ Contains the work-waiting integer for the T=0 protocol.
 Contains the work-waiting time, in microseconds, for the T=0 protocol, which is the maximum delay allowed between two consecutive characters. 
 
 
-### -field T1
+#### - T1
 
 
       A structure with the following members:
       
      
+
+
+#### IFSC
+
+Contains the size, in bytes, of the card's information field.
+
+
+#### CWI
+
+Contains the character-waiting integer. 
+
+
+#### BWI
+
+Contains the block-waiting integer. 
+
+
+#### EDC
+
+Contains the error detection code. 
+
+
+#### CWT
+
+Contains the character-waiting time, in microseconds, for the T=1 protocol, which is the maximum delay that is allowed between two consecutive characters.s. 
+
+
+#### BWT
+
+Contains the block-waiting time, in microseconds, for the T=1 protocol. This is the maximum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
+
+
+#### BGT
+
+Contains the block-guarding time, in microseconds, for the T=1 protocol. This is the minimum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
 
 
 ### -field T1.IFSC
@@ -219,66 +296,66 @@ Contains the block-waiting time, in microseconds, for the T=1 protocol. This is 
 Contains the block-guarding time, in microseconds, for the T=1 protocol. This is the minimum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
 
 
-### -field InversConvention
+#### - InversConvention
 
 Contains a flag to indicate that the current smart card uses the inverse convention. 
 
 
-### -field etu
+#### - etu
 
 Contains the elementary time unit (ETU). The ETU indicates the space of transmission time occupied by a single bit of data.  
 
 
-### -field ClockRateConversion
+#### - ClockRateConversion
 
 Contains the clock conversion rate table. Using the clock rate conversion factor, F1, as an index in this array yields the maximum frequency that is allowed. For more information about clock conversion rate, see the <i>ISO 7816-3 specification</i>. (This resource may not be available in some languages 
 
 and countries.)
 
 
-### -field BitRateAdjustment
+#### - BitRateAdjustment
 
 Contains the bit rate adjustment table. Using the bit rate adjustment factor, D1, as an index into this array yields the maximum bit rate that is allowed. t rate. For more information about the bit rate adjustment factor, see the <i>ISO 7816-3 specification</i>.  (This resource may not be available in some languages 
 
 and countries.)
 
 
-### -field Fl
+#### - Fl
 
 Contains the clock rate conversion. This factor is used as an index into a table of maximum operating frequencies. When the smart card is reset, the smart card driver library uses this value to calculate a new clock frequency. 
 
 
-### -field Dl
+#### - Dl
 
 Contains the bit rate adjustment. When the smart card is reset, the smart card driver library uses this value to calculate a new data bit rate. 
 
 
-### -field II
+#### - II
 
 Contains the maximum programming current. 
 
 
-### -field P
+#### - P
 
 Contains the programming voltage in units of 0.1 volts. 
 
 
-### -field N
+#### - N
 
 Contains the extra guard time in units of the ETU. The ETU indicates the space of transmission time occupied by a single bit of data. The guard time is the minimum space of transmission time that separates two consecutive characters.
 
 
-### -field GT
+#### - GT
 
 Contains the guard time, in units of microseconds (including the extra guard time), which is the minimum delay between two consecutive characters.
 
 
-### -field PtsData
+#### - PtsData
 
 Contains a PTS_DATA structure that holds all the information that is required to perform a protocol type selection (PTS) request for the inserted smart card.art card.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 

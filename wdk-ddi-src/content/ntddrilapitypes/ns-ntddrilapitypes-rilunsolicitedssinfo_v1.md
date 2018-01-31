@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c9681207-6cdd-40b6-8878-7ea37f383e4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILUNSOLICITEDSSINFO_V1, netvista.rilunsolicitedssinfo_v1, ntddrilapitypes/RILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista], RILUNSOLICITEDSSINFO_V1"
+ms.keywords: RILUNSOLICITEDSSINFO_V1, *LPRILUNSOLICITEDSSINFO_V1, netvista.rilunsolicitedssinfo_v1, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUNSOLICITEDSSINFO_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUNSOLICITEDSSINFO_V1
 product: Windows
 targetos: Windows
-req.typenames: RILUNSOLICITEDSSINFO_V1, *LPRILUNSOLICITEDSSINFO_V1
+req.typenames: "*LPRILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1"
 ---
 
 # RILUNSOLICITEDSSINFO_V1 structure
@@ -74,34 +74,34 @@ typedef struct _RILUNSOLICITEDSSINFO_V1 {
 
 
 
-### -field cbSize
+#### - cbSize
 
 
 
-### -field dwParams
+#### - dwParams
 
 
 
-### -field dwExecutor
+#### - dwExecutor
 
 
 
-### -field dwID
+#### - dwID
 
 
 
-### -field dwNotificationCode
+#### - dwNotificationCode
 
 
 
-### -field raAddress
+#### - raAddress
 
 
 
-### -field rsaSubAddress
+#### - rsaSubAddress
 
 
 
-### -field dwCUGIndex
+#### - dwCUGIndex
 
 

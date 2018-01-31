@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ntddk/IoGetSiloParameters, ifsk.iogetsiloparameters, IoGetSiloParameters
+ms.keywords: IoGetSiloParameters function [Installable File System Drivers], ntddk/IoGetSiloParameters, IoGetSiloParameters, ifsk.iogetsiloparameters, PIO_FOEXT_SILO_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PIO_FOEXT_SILO_PARAMETERS IoGetSiloParameters(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 The file in question.
 

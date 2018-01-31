@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 526bebd8-95af-4f6f-a381-eb60273d1af5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, ReadTypedDataVirtual, IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, debugger.readtypeddatavirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::ReadTypedDataVirtual
+ms.keywords: ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, ReadTypedDataVirtual, IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols2::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, debugger.readtypeddatavirtual, IDebugSymbols3::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, IDebugSymbols3, ReadTypedDataVirtual method [Windows Debugging], dbgeng/IDebugSymbols::ReadTypedDataVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,32 +74,32 @@ HRESULT ReadTypedDataVirtual(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's virtual address space of the variable to read.
 
 
-### -param Module [in]
+#### - Module [in]
 
 Specifies the base address of the module containing the type of the variable.
 
 
-### -param TypeId [in]
+#### - TypeId [in]
 
 Specifies the type ID of the type.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the data that is read.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes to be read.
 
 
-### -param BytesRead [out, optional]
+#### - BytesRead [out, optional]
 
 Receives the number of bytes that were read.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 

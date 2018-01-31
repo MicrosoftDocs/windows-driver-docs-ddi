@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4c45be9f-3d07-4150-830a-3aa6d74531ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmOidRequestComplete, netvista.ndismcmoidrequestcomplete, NdisMCmOidRequestComplete
+ms.keywords: NdisMCmOidRequestComplete, ndis/NdisMCmOidRequestComplete, condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista], netvista.ndismcmoidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -162,10 +162,10 @@ For more information about the OIDs defined to use with CONDIS drivers, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
-
 <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
    ProtocolCoOidRequestComplete</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 

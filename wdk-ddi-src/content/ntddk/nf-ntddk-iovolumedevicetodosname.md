@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860d0ad-f971-4ba7-93fb-20fe8831fc90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iovolumedevicetodosname, IoVolumeDeviceToDosName, k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], ntddk/IoVolumeDeviceToDosName
+ms.keywords: ntddk/IoVolumeDeviceToDosName, IoVolumeDeviceToDosName, kernel.iovolumedevicetodosname, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoVolumeDeviceToDosName(
 
 
 
-### -param VolumeDeviceObject [in]
+#### - VolumeDeviceObject [in]
 
 A pointer to a device object that represents a volume device object created by a storage class driver.
 
 
-### -param DosName [out]
+#### - DosName [out]
 
 A pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure. If the call is successful, <b>IoVolumeDeviceToDosName</b> sets the values of the <b>Length</b>, <b>MaximumLength</b>, and <b>Buffer</b> members of this structure. On exit, the <b>Buffer</b> member points to a wide-character, null-terminated string that contains the MS-DOS path of the volume device object specified by <i>VolumeDeviceObject</i>. For more information, see Remarks.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 24DEEDC7-B339-44DD-BF48-3BD59520EB8D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_FS_SECTOR_SIZE_INFORMATION, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_fs_sector_size_information, PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], *PFILE_FS_SECTOR_SIZE_INFORMATION, _FILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_ALIGNED_DEVICE, SSINFO_FLAGS_NO_SEEK_PENALTY, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION
+ms.keywords: SSINFO_FLAGS_ALIGNED_DEVICE, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], _FILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_NO_SEEK_PENALTY, FILE_FS_SECTOR_SIZE_INFORMATION, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], PFILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, ifsk.file_fs_sector_size_information, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION, *PFILE_FS_SECTOR_SIZE_INFORMATION, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,27 +73,27 @@ typedef struct _FILE_FS_SECTOR_SIZE_INFORMATION {
 
 
 
-### -field LogicalBytesPerSector
+#### - LogicalBytesPerSector
 
 Logical bytes per sector  reported by physical storage. This is the same value as the block size for used for Logical Block Addressing (LBA).
 
 
-### -field PhysicalBytesPerSectorForAtomicity
+#### - PhysicalBytesPerSectorForAtomicity
 
 Actual bytes per sector reported by physical storage used for an atomic write.
 
 
-### -field PhysicalBytesPerSectorForPerformance
+#### - PhysicalBytesPerSectorForPerformance
 
 Bytes per sector reported by physical storage for best performance.
 
 
-### -field FileSystemEffectivePhysicalBytesPerSectorForAtomicity
+#### - FileSystemEffectivePhysicalBytesPerSectorForAtomicity
 
 The portion of <b>PhysicalBytesPerSectorForAtomicity</b> considered as the physical sector size by the file system.
 
 
-### -field Flags
+#### - Flags
 
 Flags for sector alignment and performance capabilities. This value is a bitwise OR combination of the following:
 <table>
@@ -144,12 +144,12 @@ The storage device supports the TRIM operation.
 </table> 
 
 
-### -field ByteOffsetForSectorAlignment
+#### - ByteOffsetForSectorAlignment
 
 The offset, in bytes, of the beginning of the first logical sector within the first physical sector. This member is set to <b>SSINFO_OFFSET_UNKNOWN</b> if proper device information is not available to calculate the value.
 
 
-### -field ByteOffsetForPartitionAlignment
+#### - ByteOffsetForPartitionAlignment
 
 The offset value, in bytes, used to align the partition to a physical sector boundary. This member is set to <b>SSINFO_OFFSET_UNKNOWN</b> if proper device information is not available to calculate the value.
 
@@ -185,15 +185,15 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 <a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSectorSizeInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
 
  
 

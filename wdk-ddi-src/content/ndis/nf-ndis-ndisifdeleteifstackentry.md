@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02b4a485-d44b-458c-89f5-1807500b6db8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisifdeleteifstackentry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, NdisIfDeleteIfStackEntry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeleteIfStackEntry
+ms.keywords: NdisIfDeleteIfStackEntry, ndis/NdisIfDeleteIfStackEntry, netvista.ndisifdeleteifstackentry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID NdisIfDeleteIfStackEntry(
 
 
 
-### -param HigherLayerIfIndex [in]
+#### - HigherLayerIfIndex [in]
 
 The network interface index for the interface that was higher in the stack table.
 
 
-### -param LowerLayerIfIndex [in]
+#### - LowerLayerIfIndex [in]
 
 The network interface index for the interface that was lower in the stack table.
 

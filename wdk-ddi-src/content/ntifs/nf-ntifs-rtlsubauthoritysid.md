@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bd3f84ad-d617-4744-b423-1d82da3b05c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSubAuthoritySid routine [Installable File System Drivers], rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml, RtlSubAuthoritySid, ifsk.rtlsubauthoritysid, ntifs/RtlSubAuthoritySid
+ms.keywords: ntifs/RtlSubAuthoritySid, rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml, RtlSubAuthoritySid, ifsk.rtlsubauthoritysid, RtlSubAuthoritySid routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ PULONG RtlSubAuthoritySid(
 
 
 
-### -param Sid [in]
+#### - Sid [in]
 
 Pointer to the SID structure. The SID must have been initialized by calling <b>RtlInitializeSid</b>.
 
@@ -101,9 +101,9 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
  
 

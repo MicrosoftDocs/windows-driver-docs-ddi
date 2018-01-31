@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskDeregister function [Network Drivers Starting with Windows Vista], netvista.wskderegister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, WskDeregister, wsk/WskDeregister
+ms.keywords: wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, netvista.wskderegister, WskDeregister, wsk/WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskDeregister
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ VOID WskDeregister(
 
 
 
-### -param WskRegistration [in]
+#### - WskRegistration [in]
 
 A pointer to the memory location initialized by 
      <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK

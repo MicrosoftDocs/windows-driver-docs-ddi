@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f25b503b-0182-452d-8561-b3c82f595f81
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PLoginToTarget_IN, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml, LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], *PLoginToTarget_IN, _LoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], iscsiop/LoginToTarget_IN, storage.logintotarget_in, PLoginToTarget_IN
+ms.keywords: storage.logintotarget_in, _LoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], *PLoginToTarget_IN, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml, iscsiop/LoginToTarget_IN, LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], PLoginToTarget_IN, iscsiop/PLoginToTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LoginToTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: LoginToTarget_IN, *PLoginToTarget_IN
+req.typenames: "*PLoginToTarget_IN, LoginToTarget_IN"
 ---
 
 # _LoginToTarget_IN structure
@@ -81,77 +81,77 @@ typedef struct _LoginToTarget_IN {
 
 
 
-### -field PortNumber
+#### - PortNumber
 
 The number of the port (initiator portal) that the HBA initiator uses to establish the logon session. This value must match the <b>Index</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a> structure.
 
 
-### -field LoginOptions
+#### - LoginOptions
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a> structure that specifies the characteristics of the logon session.
 
 
-### -field SessionType
+#### - SessionType
 
 A <a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a> enumeration value that specifies the type of logon session. 
 
 
-### -field SecurityFlags
+#### - SecurityFlags
 
 A bitwise OR of security flags that indicate the security requirements that are associated with the authentication key that is used to establish the logon session. For a list of the flags that you can combine to define this member's value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>.
 
 
-### -field TargetPortal
+#### - TargetPortal
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a> structure that indicates which target portal to use to make the connection. 
 
 
-### -field UsernameSize
+#### - UsernameSize
 
 The size, in bytes, of the string in <b>Username</b>.
 
 
-### -field PasswordSize
+#### - PasswordSize
 
 The size, in bytes, of the string in <b>Password</b>.
 
 
-### -field KeySize
+#### - KeySize
 
 The size, in bytes, of the string in <b>Key</b>.
 
 
-### -field UniqueIdForISID
+#### - UniqueIdForISID
 
 A number that the miniport driver that manages the HBA can use to construct a unique session identifier (ISID). 
 
 
-### -field PersistentLogin
+#### - PersistentLogin
 
 A Boolean value that indicates if the logon should be persistent. If this member is <b>TRUE</b>, the logon should be persistent. The HBA's miniport driver should store the characteristics of this logon in non-volatile memory and log on to the target automatically every time the operating system loads the miniport driver. If this member is <b>FALSE</b>, the logon is not persistent.
 
 
-### -field InitiatorNode
+#### - InitiatorNode
 
 The iSCSI name of the initiator node to use for the connection. If this member is empty, the HBA's miniport driver can choose any initiator node name during authentication. The initiator node name is usually an iSCSI qualified name (IQN).
 
 
-### -field InitiatorAlias
+#### - InitiatorAlias
 
 The iSCSI alias of the initiator node. 
 
 
-### -field TargetName
+#### - TargetName
 
 The iSCSI target name with which to establish the logon session. 
 
 
-### -field Mappings
+#### - Mappings
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a> structure that maps a collection of logical unit numbers (LUNs) that are locally defined to a group of 64-bit iSCSI LUNs. If the initiator service does not specify mappings, the HBA's miniport driver can use any mappings for the LUNs. The miniport driver should report unmapped LUNs to the port driver to be enumerated.
 
 
-### -field Key
+#### - Key
 
 A variable-length array of UCHAR values that defines the preshared key that is associated with the target IP address.
 
@@ -165,11 +165,9 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
@@ -177,11 +175,13 @@ You must implement this method.
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
-
-<a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+<a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
 
  
 

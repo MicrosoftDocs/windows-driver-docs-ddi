@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3166685-2aec-4874-a5a9-8cc293a96a2c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PDEVICE_POWER_STATE, DEVICE_POWER_STATE, _DEVICE_POWER_STATE, PowerDeviceD3, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, PowerDeviceD0, wdm/PowerDeviceD3, wdm/PowerDeviceD0, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PowerDeviceD2, PowerDeviceD1, wdm/DEVICE_POWER_STATE, PowerDeviceD2, wdm/PowerDeviceUnspecified, PowerDeviceMaximum, wdm/PowerDeviceD1, kernel.device_power_state, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PowerDeviceUnspecified, wdm/PowerDeviceMaximum, PDEVICE_POWER_STATE, *PDEVICE_POWER_STATE
+ms.keywords: "*PDEVICE_POWER_STATE, wdm/DEVICE_POWER_STATE, DEVICE_POWER_STATE, wdm/PowerDeviceD1, wdm/PowerDeviceD3, PowerDeviceMaximum, PowerDeviceUnspecified, PowerDeviceD1, wdm/PowerDeviceUnspecified, PowerDeviceD3, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, wdm/PowerDeviceD0, PowerDeviceD0, PDEVICE_POWER_STATE, wdm/PowerDeviceD2, kernel.device_power_state, wdm/PowerDeviceMaximum, _DEVICE_POWER_STATE, wdm/PDEVICE_POWER_STATE, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerDeviceD2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
+req.typenames: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -73,32 +73,32 @@ typedef enum _DEVICE_POWER_STATE {
 
 
 
-### -field PowerDeviceUnspecified
+#### - PowerDeviceUnspecified
 
 Indicates an unspecified device power state. 
 
 
-### -field PowerDeviceD0
+#### - PowerDeviceD0
 
 Indicates a maximum device power state, which corresponds to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543210">device working state D0</a>. 
 
 
-### -field PowerDeviceD1
+#### - PowerDeviceD1
 
 Indicates a <a href="https://msdn.microsoft.com/f594a63f-10ce-439d-abe3-d342555d98f0">device sleeping state</a> less than <b>PowerDeviceD0</b> and greater than <b>PowerDeviceD2</b>, which corresponds to device power state D1.
 
 
-### -field PowerDeviceD2
+#### - PowerDeviceD2
 
 Indicates a device sleeping state less than <b>PowerDeviceD1</b> and greater than <b>PowerDeviceD3</b>, which corresponds to device power state D2. 
 
 
-### -field PowerDeviceD3
+#### - PowerDeviceD3
 
 Indicates the lowest-powered device sleeping state, which corresponds to device power state D3.
 
 
-### -field PowerDeviceMaximum
+#### - PowerDeviceMaximum
 
 The number of device power state values for this enumeration type that represent actual power states. The value of the other device power states is less than this value. 
 

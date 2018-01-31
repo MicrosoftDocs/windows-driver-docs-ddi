@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_PROPRIETARY_CHARGER_DETECT
 product: Windows
 targetos: Windows
-req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
+req.typenames: "*PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef UFX_PROPRIETARY_CHARGER_DETECT PFN_UFX_PROPRIETARY_CHARGER_DETECT;
 
 
 
-### -param Context [in]
+#### - Context [in]
 
     A pointer to a driver-defined context.
 
 
-### -param DetectedCharger [out]
+#### - DetectedCharger [out]
 
 A pointer to a     <a href="..\ufxproprietarycharger\ns-ufxproprietarycharger-_ufx_proprietary_charger.md">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information. 
 

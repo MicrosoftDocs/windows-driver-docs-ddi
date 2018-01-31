@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5daa3dd4-e499-4a72-b784-8a0e1ef3e92b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml, netvista.fwpsaleendpointcreateenumhandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointCreateEnumHandle0, fwpsk/FwpsAleEndpointCreateEnumHandle0
+ms.keywords: fwpsk/FwpsAleEndpointCreateEnumHandle0, netvista.fwpsaleendpointcreateenumhandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml, FwpsAleEndpointCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,14 +72,14 @@ NTSTATUS NTAPI FwpsAleEndpointCreateEnumHandle0(
 
 
 
-### -param engineHandle [in]
+#### - engineHandle [in]
 
 Handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
 
 
-### -param enumTemplate [in, optional]
+#### - enumTemplate [in, optional]
 
 A pointer to an 
      <mshelp:link keywords="netvista.fwps_ale_endpoint_enum_template0" tabindex="0"><b>
@@ -87,7 +87,7 @@ A pointer to an
      enumeration results.
 
 
-### -param enumHandle [out]
+#### - enumHandle [out]
 
 The newly created enumeration handle.
 

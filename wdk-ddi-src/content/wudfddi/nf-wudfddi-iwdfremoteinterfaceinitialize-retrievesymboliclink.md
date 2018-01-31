@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, IWDFRemoteInterfaceInitialize, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, RetrieveSymbolicLink method
+ms.keywords: wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize, RetrieveSymbolicLink method, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT RetrieveSymbolicLink(
 
 
 
-### -param pSymbolicLink [out, optional]
+#### - pSymbolicLink [out, optional]
 
 A pointer to a buffer that receives a <b>null</b>-terminated Unicode character string that represents the symbolic link name. Set this pointer to <b>NULL</b> to obtain the required buffer size.
 
 
-### -param pdwSymbolicLinkLengthInChars [in, out]
+#### - pdwSymbolicLinkLengthInChars [in, out]
 
 A pointer to a caller-allocated location. On input, this location must contain the caller-supplied length of the buffer that <i>pSymbolicLink</i> points to. On output, the location receives the length, in characters, of the symbolic link name, including the <b>NULL</b> terminating character.
 

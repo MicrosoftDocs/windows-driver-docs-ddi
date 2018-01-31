@@ -72,21 +72,19 @@ NTSTATUS AVStrMiniAddEvent(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP describing the event add request.
 
 
-### -param EventData [in]
+#### - EventData [in]
 
 Pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure describing the notification method for this event.
 
 
-### -param *EventEntry
+#### - *EventEntry [in]
 
-
-
-
+Pointer to an AVStream-generated <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure describing how the event is triggered.
 
 
 #### - EventEntry [in]
@@ -116,21 +114,21 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 <a href="..\ks\nc-ks-pfnksremoveevent.md">AVStrMiniRemoveEvent</a>
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
 
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 

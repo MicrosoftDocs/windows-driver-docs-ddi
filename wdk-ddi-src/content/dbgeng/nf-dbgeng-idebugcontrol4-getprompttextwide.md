@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPromptTextWide, GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, debugger.getprompttextwide, GetPromptTextWide method [Windows Debugging], IDebugControl4::GetPromptTextWide, dbgeng/IDebugControl4::GetPromptTextWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method
+ms.keywords: GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, GetPromptTextWide method [Windows Debugging], GetPromptTextWide, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, IDebugControl4::GetPromptTextWide, debugger.getprompttextwide, IDebugControl4, dbgeng/IDebugControl4::GetPromptTextWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetPromptTextWide(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Receives the prompt text.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param TextSize [out, optional]
+#### - TextSize [out, optional]
 
 Receives the size, in characters, of the prompt text.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -128,11 +128,11 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
 
  
 

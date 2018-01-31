@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetCPSUIUserData, print.getcpsuiuserdata, GetCPSUIUserData function [Print Devices], cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, compstui/GetCPSUIUserData
+ms.keywords: GetCPSUIUserData, GetCPSUIUserData function [Print Devices], cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, compstui/GetCPSUIUserData, print.getcpsuiuserdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG_PTR GetCPSUIUserData(
 
 
 
-### -param hDlg
+#### - hDlg
 
 Caller-supplied handle to a property sheet dialog box. For more information, see the following Remarks section.
 

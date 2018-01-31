@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2c7e1218-63d3-4fa5-8b02-7bee5920146c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-input-arguments-0030
+ms.keywords: d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-input-arguments-0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030 {
 
 
 
-### -field hDrvCryptoSessionPolicy
+#### - hDrvCryptoSessionPolicy
 
 Crypto session policy.
 
 
-### -field hDrvBuffer
+#### - hDrvBuffer
 
 Resource.
 
 
-### -field Size
+#### - Size
 
 Size.
 
 
-### -field Offset
+#### - Offset
 
 Offset.
 
 
-### -field pIV
+#### - pIV
 
 Initialization vector.
 
 
-### -field IVSize
+#### - IVSize
 
 Initialization vector size.
 
 
-### -field pSubSampleMappingBlock
+#### - pSubSampleMappingBlock
 
 Sub sample mapping block.
 
 
-### -field SubSampleMappingCount
+#### - SubSampleMappingCount
 
 Sub sample mapping count.
 
 
-### -field pContext
+#### - pContext
 
 Context.
 
 
-### -field ContextSize
+#### - ContextSize
 
 Context size.
 
 
-### -field EncryptedHeader
+#### - EncryptedHeader
 
 Encrypted header.
 

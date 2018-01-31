@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_timecode, PTIMECODE union pointer [Streaming Media Devices], ksmedia/PTIMECODE, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, TIMECODE union [Streaming Media Devices], stream.timecode, *PTIMECODE, PTIMECODE, ksmedia/TIMECODE, TIMECODE"
+ms.keywords: "*PTIMECODE, _timecode, stream.timecode, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, PTIMECODE, PTIMECODE union pointer [Streaming Media Devices], TIMECODE union [Streaming Media Devices], ksmedia/TIMECODE, TIMECODE, ksmedia/PTIMECODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef union _timecode {
 
 
 
-### -field wFrameRate
+#### - wFrameRate
 
 Specifies the frame rate.
 
 
-### -field wFrameFract
+#### - wFrameFract
 
 Specifies the fractional frame. The full-scale frame is 0x1000.
 
 
-### -field dwFrames
+#### - dwFrames
 
 Specifies a timecode value as a binary frame count.
 
 
-### -field qw
+#### - qw
 
 Specifies the timecode as a quad-word.
 

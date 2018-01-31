@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_CHIPSETINFO, gnssdriver/GNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, sensors.gnss_chipsetinfo, *PGNSS_CHIPSETINFO
+ms.keywords: PGNSS_CHIPSETINFO, gnssdriver/GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], sensors.gnss_chipsetinfo, GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_CHIPSETINFO
 product: Windows
 targetos: Windows
-req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
+req.typenames: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO"
 ---
 
 # GNSS_CHIPSETINFO structure
@@ -72,12 +72,12 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 Structure size.
 
 
-### -field Version
+#### - Version
 
 Version number.
 

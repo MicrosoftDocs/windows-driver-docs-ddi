@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateShaderSize(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CALCPRIVATESHADERSIZE callback
@@ -76,8 +76,9 @@ SIZE_T APIENTRY* CalcPrivateShaderSize(D3D11_1)(
 
 
 
-### -param *pShaderCode
+#### - *pShaderCode [in]
 
+A pointer to an array of CONST UINT tokens that make up the shader code.
 
 
 ### -param *

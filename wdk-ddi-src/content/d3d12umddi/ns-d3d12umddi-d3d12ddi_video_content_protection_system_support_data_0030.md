@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82096e3b-574d-44f6-85a9-b560749f6472
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-video-content-protection-system-support-data-0030, d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030 structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030 structure [Display Devices], display.d3d12ddi-video-content-protection-system-support-data-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030 {
 
 
 
-### -field NodeIndex
+#### - NodeIndex
 
 Node index.
 
 
-### -field ContentProtectionSystemCount
+#### - ContentProtectionSystemCount
 
 Content protection system count.
 
 
-### -field pContentProtectionSystems
+#### - pContentProtectionSystems
 
 Content protection systems.
 

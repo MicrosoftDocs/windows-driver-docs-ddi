@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58886030-4fb6-432b-9ec1-9eb54350edb4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_cameracontrol_region_of_interest, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID
+ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, stream.ksproperty_cameracontrol_region_of_interest, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum  {
 
 
 
-### -field KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID
+#### - KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156042">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY</a> property is used to specify a region of interest.
 

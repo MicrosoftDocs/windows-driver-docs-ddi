@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1f5dc4e-8069-4e3e-94a0-a9a7c359bdb4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetAdapterPortAttributes, HBA_GetAdapterPortAttributes, storage.hba_getadapterportattributes, fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml, HBA_GetAdapterPortAttributes routine [Storage Devices]
+ms.keywords: HBA_GetAdapterPortAttributes, storage.hba_getadapterportattributes, HBA_GetAdapterPortAttributes routine [Storage Devices], fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml, hbaapi/HBA_GetAdapterPortAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ HBA_STATUS HBA_API HBA_GetAdapterPortAttributes(
 TBD
 
 
-### -param PortIndex [in]
+#### - PortIndex [in]
 
 Indicates which remote port to query on the HBA specified by <i>HbaHandle</i>. 
 
 
-### -param PortAttributes [out]
+#### - PortAttributes [out]
 
 Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a> that, on return, contains the attributes of the remote port with an index of <i>PortIndex </i>on the HBA specified by <i>HbaHandle. </i>
 
@@ -105,11 +105,11 @@ The <b>HBA_GetAdapterPortAttributes</b> routine retrieves attributes for remote 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

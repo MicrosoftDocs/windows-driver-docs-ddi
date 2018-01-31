@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 99a91bb4-4fcd-4b49-bd1e-4551027b5d1f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], RtlInitializeGenericTable
+ms.keywords: RtlInitializeGenericTable routine [Installable File System Drivers], RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, ntddk/RtlInitializeGenericTable, ifsk.rtlinitializegenerictable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID RtlInitializeGenericTable(
 
 
 
-### -param Table [out]
+#### - Table [out]
 
 A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
 
 
-### -param CompareRoutine [in]
+#### - CompareRoutine [in]
 
 An entry point of a comparison callback routine, declared as follows:
 <div class="code"><span codelanguage=""><table>
@@ -117,7 +117,7 @@ A pointer to the first item to be compared.
 A pointer to the second item to be compared.
 
 
-### -param AllocateRoutine [in]
+#### - AllocateRoutine [in]
 
 An entry point of an allocation callback routine, declared as follows:
 <div class="code"><span codelanguage=""><table>
@@ -150,7 +150,7 @@ A pointer to the generic table.
 The number of bytes to allocate.
 
 
-### -param FreeRoutine [in]
+#### - FreeRoutine [in]
 
 An entry point of a deallocation callback routine, declared as follows:
 <div class="code"><span codelanguage=""><table>
@@ -183,7 +183,7 @@ A pointer to the generic table.
 A pointer to the element that is being deleted.
 
 
-### -param TableContext [in, optional]
+#### - TableContext [in, optional]
 
 An optional pointer to a caller-supplied context for the generic table. This parameter can be <b>NULL</b>.
 
@@ -224,21 +224,21 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
-
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
-
 <a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 <a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
 
 <a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
 
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
+
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
 
  
 

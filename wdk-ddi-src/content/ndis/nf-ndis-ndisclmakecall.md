@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69775220-71d8-497c-aaf7-9bc3ec90d00f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClMakeCall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml, ndis/NdisClMakeCall, netvista.ndisclmakecall
+ms.keywords: NdisClMakeCall function [Network Drivers Starting with Windows Vista], NdisClMakeCall, netvista.ndisclmakecall, ndis/NdisClMakeCall, condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,13 +71,13 @@ NDIS_STATUS NdisClMakeCall(
 
 
 
-### -param NdisVcHandle [in]
+#### - NdisVcHandle [in]
 
 Specifies the handle returned by a preceding call to 
      <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>.
 
 
-### -param CallParameters [in, out]
+#### - CallParameters [in, out]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> in which the caller has
@@ -86,7 +86,7 @@ Pointer to a structure of type
      permits QoS specifications.
 
 
-### -param ProtocolPartyContext [in, optional]
+#### - ProtocolPartyContext [in, optional]
 
 Optionally specifies a caller-supplied handle to a resident context area in which the client will
      maintain per-party state for the initial party on its multipoint VC. This parameter is <b>NULL</b> if the given
@@ -94,7 +94,7 @@ Optionally specifies a caller-supplied handle to a resident context area in whic
      client's ProtocolCl<i>Xxx</i> functions in all subsequent calls that affect this particular party.
 
 
-### -param NdisPartyHandle [out, optional]
+#### - NdisPartyHandle [out, optional]
 
 Pointer to a caller-supplied variable, usually in the caller-allocated party context area, in
      which NDIS returns a handle representing the initial party to the multipoint connection if the request
@@ -158,26 +158,26 @@ The client's
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
-
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 <mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
    NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
+<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
+
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 <a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
  
 

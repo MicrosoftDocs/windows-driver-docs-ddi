@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
+ms.keywords: display.d3dkmt_flipmodel_presenthistorytokenflags, OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,28 +85,28 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
 
 
 
-### -field Video
+#### - Video
 
 A UINT value that specifies whether the flip operation is performed with video. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field RestrictedContent
+#### - RestrictedContent
 
 A UINT value that specifies whether the flip operation is performed with restricted content.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field ClipToView
+#### - ClipToView
 
 A UINT value that specifies whether the flip operation is clipped to the view surface.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field StereoPreferRight
+#### - StereoPreferRight
 
 A UINT value that specifies that when the driver clones a stereo primary allocation to a mono monitor, it should use the right image.
 
@@ -115,7 +115,7 @@ Setting this member is equivalent to setting the    fourth bit of the 32-bit <b>
 Supported starting with Windows 8.
 
 
-### -field TemporaryMono
+#### - TemporaryMono
 
 A UINT value that specifies whether the driver should use the left image of a stereo allocation for the right and left portions of a stereo frame.
 
@@ -126,7 +126,7 @@ Setting this member is equivalent to setting the    fifth bit of the 32-bit <b>V
 Supported starting with Windows 8.
 
 
-### -field FlipRestart
+#### - FlipRestart
 
 A UINT value that specifies whether to restart a flip to a new surface.
 
@@ -140,7 +140,7 @@ Supported starting with Windows 8.
  
 
 
-### -field AlphaMode
+#### - AlphaMode
 
 A UINT value that specifies whether the DWM  should use alpha transparency information when it composes swap buffers.
 
@@ -149,7 +149,7 @@ Setting this member is equivalent to setting the    eighth and ninth bits of the
 Supported starting with Windows 8.
 
 
-### -field SignalLimitOnTokenCompletion
+#### - SignalLimitOnTokenCompletion
 
  A UINT value that specifies the limit for the number of present operations that can be queued for the device after the GPU has finished processing the token.
 
@@ -218,7 +218,7 @@ Supported starting with Windows 8.
  
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
 
@@ -227,7 +227,7 @@ Supported starting with Windows 8.
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies the flip present-history operation.
 

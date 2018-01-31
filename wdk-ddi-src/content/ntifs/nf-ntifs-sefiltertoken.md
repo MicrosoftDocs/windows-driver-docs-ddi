@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml, SeFilterToken, ntifs/SeFilterToken, SeFilterToken routine [Installable File System Drivers], ifsk.sefiltertoken
+ms.keywords: seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml, ntifs/SeFilterToken, SeFilterToken routine [Installable File System Drivers], SeFilterToken, ifsk.sefiltertoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS SeFilterToken(
 
 
 
-### -param ExistingToken [in]
+#### - ExistingToken [in]
 
 Pointer to a primary or impersonation token. The token can also be a restricted token. This token must already be open for TOKEN_DUPLICATE access. This pointer can be obtained from an existing token handle by calling <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>, specifying TOKEN_DUPLICATE as the <i>DesiredAccess</i> type. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies additional privilege options. This parameter can be zero or a combination of the following values. 
 <table>
@@ -108,7 +108,7 @@ Stores the TOKEN_SANDBOX_INERT flag in the token.
 </table> 
 
 
-### -param SidsToDisable [in, optional]
+#### - SidsToDisable [in, optional]
 
 Pointer to a TOKEN_GROUPS structure containing an array of SID_AND_ATTRIBUTES structures that specify the deny-only SIDs in the restricted token. The system uses a deny-only SID to deny access to a securable object. The absence of a deny-only SID does not allow access. 
 
@@ -121,7 +121,7 @@ Deny-only attributes apply to any combination of an existing token's SIDs, inclu
 This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param PrivilegesToDelete [in, optional]
+#### - PrivilegesToDelete [in, optional]
 
 Pointer to a TOKEN_PRIVILEGES structure containing an array of LUID_AND_ATTRIBUTES structures that specify the privileges to delete in the restricted token. 
 
@@ -132,7 +132,7 @@ To get the privileges held by the existing token, call <a href="..\ntifs\nf-ntif
 This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param RestrictedSids [in, optional]
+#### - RestrictedSids [in, optional]
 
 Pointer to a TOKEN_GROUPS structure containing an array of SID_AND_ATTRIBUTES structures that specify a list of restricting SIDs for the new token. If the existing token is a restricted token, the list of restricting SIDs for the new token is the intersection of this array and the list of restricting SIDs for the existing token. 
 
@@ -186,27 +186,27 @@ When the token returned in <i>NewToken</i> is no longer needed, free it by calli
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
+
+<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+
 <a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
 
 <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
 
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
 
 <a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
 
 <a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

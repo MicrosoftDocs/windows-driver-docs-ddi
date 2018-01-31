@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A75AE18F-802F-462B-BF96-5C03408F53CA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfworkitem/WUDF_WORKITEM_CONFIG_INIT, wdf.wudf_workitem_config_init, umdf.wudf_workitem_config_init, WUDF_WORKITEM_CONFIG_INIT function, WUDF_WORKITEM_CONFIG_INIT
+ms.keywords: WUDF_WORKITEM_CONFIG_INIT function, wdf.wudf_workitem_config_init, wudfworkitem/WUDF_WORKITEM_CONFIG_INIT, WUDF_WORKITEM_CONFIG_INIT, umdf.wudf_workitem_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ void WUDF_WORKITEM_CONFIG_INIT(
 
 
 
-### -param pConfig [out]
+#### - pConfig [out]
 
 A pointer to the caller-allocated <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure to initialize.
 
 
-### -param OnWorkItemFunc [in]
+#### - OnWorkItemFunc [in]
 
 The address of the driver's <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> event callback function.
 
@@ -100,9 +100,9 @@ The <b>WUDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>OnW
 
 ## -see-also
 
-<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
-
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+
+<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
 
  
 

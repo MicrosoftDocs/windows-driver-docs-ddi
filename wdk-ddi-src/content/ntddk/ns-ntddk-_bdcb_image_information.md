@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9D0A4D67-3284-4BCC-AC81-F0BCCC2DB9B7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.bdcb_image_information, BDCB_IMAGE_INFORMATION, ntddk/PBDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION, _BDCB_IMAGE_INFORMATION
+ms.keywords: PBDCB_IMAGE_INFORMATION, ntddk/BDCB_IMAGE_INFORMATION, kernel.bdcb_image_information, _BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture], ntddk/PBDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,12 +80,12 @@ typedef struct _BDCB_IMAGE_INFORMATION {
 
 
 
-### -field Classification
+#### - Classification
 
 The classification of the boot start image.
 
 
-### -field ImageFlags
+#### - ImageFlags
 
 Bit flags that describe the image. The following values are defined.
       
@@ -127,37 +127,37 @@ Do not use. Reserved.
 </table> 
 
 
-### -field ImageName
+#### - ImageName
 
 The name of the boot-start driver's binary image.
 
 
-### -field RegistryPath
+#### - RegistryPath
 
 The path in the registry where the boot-start driver is registered.
 
 
-### -field CertificatePublisher
+#### - CertificatePublisher
 
 The publisher of the image's certificate. If the image is not signed, the string is empty ("").
 
 
-### -field CertificateIssuer
+#### - CertificateIssuer
 
 The issuer of the image's certificate. If the image is not signed, the string is empty ("").
 
 
-### -field ImageHash
+#### - ImageHash
 
 The Authenticode hash of the image, which can be calculated by  using SignTool.exe (Sign Tool). 
 
 
-### -field CertificateThumbprint
+#### - CertificateThumbprint
 
 The hash of the certificate of the signer to be signed. Run <b>certutil –dump x,cer</b> to view this value as  "Signature Hash".
 
 
-### -field ImageHashAlgorithm
+#### - ImageHashAlgorithm
 
 The algorithm of the image hash. The following values are listed for reference.
       
@@ -240,17 +240,17 @@ CALG_SHA_512
 </table> 
 
 
-### -field ThumbprintHashAlgorithm
+#### - ThumbprintHashAlgorithm
 
 The algorithm of the certificate thumbprint. This member should be ignored if <b>CertificateThumbprint</b> is NULL.
 
 
-### -field ImageHashLength
+#### - ImageHashLength
 
 The length of data pointed to by the <b>ImageHash</b> member.
 
 
-### -field CertificateThumbprintLength
+#### - CertificateThumbprintLength
 
 The length of data pointed to by the <b>CertificateThumbprint</b> member.
 

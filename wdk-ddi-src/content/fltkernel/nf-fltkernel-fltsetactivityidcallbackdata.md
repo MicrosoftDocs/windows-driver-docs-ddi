@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D7CA9DAB-E350-42D5-A008-5CC12D5313D3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltSetActivityIdCallbackData, FltSetActivityIdCallbackData routine [Installable File System Drivers], ifsk.fltsetactivityidcallbackdata, FltSetActivityIdCallbackData
+ms.keywords: FltSetActivityIdCallbackData, ifsk.fltsetactivityidcallbackdata, FltSetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltSetActivityIdCallbackData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltSetActivityIdCallbackData(
 
 
 
-### -param CallbackData [in, out]
+#### - CallbackData [in, out]
 
 A pointer to the callback data containing the request with an associated activity ID.
 
 
-### -param Guid [in, optional]
+#### - Guid [in, optional]
 
 A optional pointer to the <b>GUID</b> structure receiving the activity ID. if <i>Guid</i> is <b>NULL</b>, the system will attempt to assign an ETW activity ID for the request.
 
@@ -130,9 +130,9 @@ An activity ID pointed to by <i>Guid</i> was set for the IRP in <i>CallbackData<
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetactivityidcallbackdata.md">FltGetActivityIdCallbackData</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetactivityidcallbackdata.md">FltGetActivityIdCallbackData</a>
 
  
 

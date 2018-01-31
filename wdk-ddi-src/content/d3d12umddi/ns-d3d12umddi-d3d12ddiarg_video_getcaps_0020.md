@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3C55B67F-043A-4747-A44A-A162D6391003
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddiarg_video_getcaps, d3d12umddi/D3D12DDIARG_VIDEO_GETCAPS_0020, D3D12DDIARG_VIDEO_GETCAPS_0020 structure [Display Devices], D3D12DDIARG_VIDEO_GETCAPS_0020
+ms.keywords: d3d12umddi/D3D12DDIARG_VIDEO_GETCAPS_0020, display.d3d12ddiarg_video_getcaps, D3D12DDIARG_VIDEO_GETCAPS_0020, D3D12DDIARG_VIDEO_GETCAPS_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D12DDIARG_VIDEO_GETCAPS {
 
 
 
-### -field Type
+#### - Type
 
 A type. 
 
 
-### -field pInfo
+#### - pInfo
 
 A pointer to a memory block that contains data that specifies the condition on which to retrieve the capabilities of the type that is specified by the <b>Type</b> member.
 
 
-### -field pData
+#### - pData
 
 A pointer to a memory block that contains capabilities of the type that is specified by the <b>Type</b> member and possibly determined by the condition specified by the <b>pInfo</b> member. 
 
 
-### -field DataSize
+#### - DataSize
 
 The size, in bytes, of the data at <b>pData</b>.
 

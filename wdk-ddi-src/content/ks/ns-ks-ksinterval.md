@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e363bd1-3bfd-48cc-adc1-a14d23868a57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksinterval, ks/KSINTERVAL, ks/PKSINTERVAL, KSINTERVAL, PKSINTERVAL, *PKSINTERVAL, ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, PKSINTERVAL structure pointer [Streaming Media Devices], KSINTERVAL structure [Streaming Media Devices]
+ms.keywords: PKSINTERVAL structure pointer [Streaming Media Devices], KSINTERVAL structure [Streaming Media Devices], ks/KSINTERVAL, PKSINTERVAL, *PKSINTERVAL, ks/PKSINTERVAL, KSINTERVAL, ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, stream.ksinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct {
 
 
 
-### -field TimeBase
+#### - TimeBase
 
 Specifies a 64-bit time base.
 
 
-### -field Interval
+#### - Interval
 
 Specifies a recurrence interval, also 64-bit.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561811">KSEVENT_CLOCK_POSITION_MARK</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561805">KSEVENT_CLOCK_INTERVAL_MARK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561811">KSEVENT_CLOCK_POSITION_MARK</a>
 
  
 

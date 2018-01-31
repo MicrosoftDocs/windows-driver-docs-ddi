@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f8226351-4a40-4c71-9ab4-4609ae7e0470
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoQueryVolumeInformation, ifsk.ioqueryvolumeinformation, ntifs/IoQueryVolumeInformation, IoQueryVolumeInformation function [Installable File System Drivers], ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml
+ms.keywords: IoQueryVolumeInformation function [Installable File System Drivers], IoQueryVolumeInformation, ifsk.ioqueryvolumeinformation, ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml, ntifs/IoQueryVolumeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

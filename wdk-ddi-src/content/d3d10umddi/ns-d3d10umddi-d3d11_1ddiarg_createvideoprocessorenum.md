@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7edcd852-429f-4059-92bb-99c7874a9357
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddiarg_createvideoprocessorenum, D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM structure [Display Devices]
+ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, display.d3d11_1ddiarg_createvideoprocessorenum, d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM {
 
 
 
-### -field Desc
+#### - Desc
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_content_desc.md">D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC</a> structure that describes a video stream for a video processor.
 

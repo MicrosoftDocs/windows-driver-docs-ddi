@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 023e3780-bc88-446b-b235-8853807fb05a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DDRAW_CAPS structure [Display Devices], d3dumddi/DDRAW_CAPS, display.ddraw_caps, DDRAW_CAPS, _DDRAW_CAPS, D3D_other_Structs_5e02fa0c-95ae-4b62-aaa3-7530aec9aee5.xml
+ms.keywords: display.ddraw_caps, _DDRAW_CAPS, DDRAW_CAPS structure [Display Devices], DDRAW_CAPS, d3dumddi/DDRAW_CAPS, D3D_other_Structs_5e02fa0c-95ae-4b62-aaa3-7530aec9aee5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DDRAW_CAPS {
 
 
 
-### -field Caps
+#### - Caps
 
 [out] A valid bitwise OR of the following general capability bits that the driver supports.
 <table>
@@ -112,7 +112,7 @@ Z-buffers can be depth-filled in bitblt operations.
 </table> 
 
 
-### -field Caps2
+#### - Caps2
 
 [out] A valid bitwise OR of more of the following general capability bits that the driver supports.
 <table>
@@ -173,7 +173,7 @@ The driver supports dynamic textures.
 </table> 
 
 
-### -field CKeyCaps
+#### - CKeyCaps
 
 [out] A valid bitwise OR of the following color key capability bits that the driver supports.
 <table>
@@ -204,7 +204,7 @@ Transparent bit-block transfers (bitblts) can be performed with a color key that
 </table> 
 
 
-### -field FxCaps
+#### - FxCaps
 
 [out] A valid bitwise OR of the following stretching and effects capability bits that the driver supports.
 <table>
@@ -235,16 +235,16 @@ Bit-block transfers (bitblts) that flip the contents of the source surface to th
 </table> 
 
 
-### -field MaxVideoPorts
+#### - MaxVideoPorts
 
 [out] The maximum number of video ports that the device supports.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 

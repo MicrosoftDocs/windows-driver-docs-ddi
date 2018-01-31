@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltgetdestinationfilenameinformation, fltkernel/FltGetDestinationFileNameInformation, FltGetDestinationFileNameInformation, FltGetDestinationFileNameInformation routine [Installable File System Drivers], FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml
+ms.keywords: FltGetDestinationFileNameInformation routine [Installable File System Drivers], FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml, fltkernel/FltGetDestinationFileNameInformation, ifsk.fltgetdestinationfilenameinformation, FltGetDestinationFileNameInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,36 +73,36 @@ NTSTATUS FltGetDestinationFileNameInformation(
 
 
 
-### -param Instance [in]
+#### - Instance [in]
 
 Opaque instance pointer for a minifilter driver instance that is attached to the volume where the file resides. 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to the file object for the file. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param RootDirectory [in, optional]
+#### - RootDirectory [in, optional]
 
 <b>Link operations:</b> If the link is to be created in the same directory as the file that is being linked to, or if the <i>FileName</i> parameter contains the full pathname for the link to be created, this parameter is <b>NULL</b>. Otherwise it is a handle for the directory where the link is to be created. 
 
 <b>Rename operations:</b> If the file is not being moved to a different directory, or if the <i>FileName</i> parameter contains the full pathname, this parameter is <b>NULL</b>. Otherwise it is a handle for the directory where the file resides after it is renamed. 
 
 
-### -param FileName [in]
+#### - FileName [in]
 
 <b>Link operations:</b> Pointer to a wide-character string containing the name to be assigned to the newly created link. 
 
 <b>Rename operations:</b> Pointer to a wide-character string containing the new name for the file. 
 
 
-### -param FileNameLength [in]
+#### - FileNameLength [in]
 
 Length, in bytes, of the wide-character string that <i>FileName </i>points to. 
 
 
-### -param NameOptions [in]
+#### - NameOptions [in]
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a> value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. This parameter is required and cannot be <b>NULL</b>. 
@@ -186,7 +186,7 @@ FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP
 </table> 
 
 
-### -param RetFileNameInformation [out]
+#### - RetFileNameInformation [out]
 
 Pointer to a caller-allocated variable that receives the address of a system-allocated <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a> structure containing the file name information. <b>FltGetDestinationFileNameInformation</b> allocates this structure from paged pool. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -300,35 +300,35 @@ rename(<i>name</i>, <i>newname</i>)/rename(<i>source</i>, <i>name</i>)
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
-
-<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
-
-<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
+
+<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
 
  
 

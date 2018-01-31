@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 674e0a65-1763-41b0-896b-2ef9debc32a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, drvLockWiaDevice, image.iwiaminidrv_drvlockwiadevice
+ms.keywords: wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, image.iwiaminidrv_drvlockwiadevice, drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, drvLockWiaDevice method [Imaging Devices], MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrv.drvLockWiaDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -121,9 +121,9 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method is used to lock access to the de
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545012">IWiaMiniDrv::drvUnLockWiaDevice</a>
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545012">IWiaMiniDrv::drvUnLockWiaDevice</a>
 
  
 

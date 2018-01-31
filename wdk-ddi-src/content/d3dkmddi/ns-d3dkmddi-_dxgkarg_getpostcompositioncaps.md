@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, _DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, *IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices]
+ms.keywords: display.dxgkarg_getpostcompositioncaps, *IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, _DXGKARG_GETPOSTCOMPOSITIONCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKARG_GETPOSTCOMPOSITIONCAPS {
 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] Indicates the VidPn source for which post composition capabilities are queried.
 
 
-### -field MaxStretchFactor
+#### - MaxStretchFactor
 
 [out] Indicates the maximum stretch factor that can be applied.
 
 
-### -field MaxShrinkFactor
+#### - MaxShrinkFactor
 
 [out] Indicates the maximum shrink factor that can be applied.
 

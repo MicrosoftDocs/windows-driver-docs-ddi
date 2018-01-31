@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67A5077D-B1AD-49B7-B024-D139E375483F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SRB_STATUS_NO_DEVICE, SRB_FLAGS_DATA_OUT, SRB_STATUS_BAD_SRB_BLOCK_LENGTH, SRB_STATUS_UNEXPECTED_BUS_FREE, SRB_FLAGS_ADAPTER_CACHE_ENABLE, SRB_STATUS_NO_HBA, SRB_FUNCTION_RESET_BUS, SRB_STATUS_PENDING, PSTORAGE_REQUEST_BLOCK, storport/STORAGE_REQUEST_BLOCK, SRB_FUNCTION_QUIESCE_DEVICE, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_FLAGS_NO_DATA_TRANSFER, SRB_FLAGS_IS_ACTIVE, storport/PSTORAGE_REQUEST_BLOCK, SRB_STATUS_ABORT_FAILED, SRB_STATUS_BUS_RESET, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_FUNCTION_RECEIVE_EVENT, SRB_FLAGS_SGLIST_FROM_POOL, SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_STATUS_LINK_DOWN, SRB_FUNCTION_SHUTDOWN, storage.storage_request_block, SRB_STATUS_DATA_OVERRUN, SRB_STATUS_INVALID_REQUEST, STORAGE_REQUEST_BLOCK structure [Storage Devices], SRB_FUNCTION_RESET_DEVICE, SRB_FUNCTION_ABORT_COMMAND, SRB_STATUS_INTERNAL_ERROR, SRB_FUNCTION_WMI, SRB_STATUS_COMMAND_TIMEOUT, SRB_FUNCTION_POWER, SRB_STATUS_PHASE_SEQUENCE_FAILURE, SRB_FUNCTION_EXECUTE_SCSI, SRB_FLAGS_D3_PROCESSING, SRB_STATUS_ERROR_RECOVERY, SRB_STATUS_NOT_POWERED, SRB_STATUS_SELECTION_TIMEOUT, _STORAGE_REQUEST_BLOCK, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_STATUS_BUSY, SRB_FUNCTION_IO_CONTROL, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_FUNCTION_UNLOCK_QUEUE, SRB_FUNCTION_DUMP_POINTERS, SRB_FLAGS_ALLOCATED_FROM_ZONE, SRB_STATUS_QUEUE_FROZEN, SRB_FLAGS_BYPASS_LOCKED_QUEUE, SRB_FUNCTION_RELEASE_RECOVERY, SRB_FUNCTION_LOCK_QUEUE, SRB_STATUS_PARITY_ERROR, STORAGE_REQUEST_BLOCK, SRB_STATUS_REQUEST_FLUSHED, SRB_STATUS_TIMEOUT, SRB_STATUS_INVALID_PATH_ID, SRB_FUNCTION_CRYPTO_OPERATION, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, SRB_FLAGS_NO_QUEUE_FREEZE, SRB_FLAGS_DATA_IN, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_FUNCTION_PNP, SRB_STATUS_SUCCESS, PSTORAGE_REQUEST_BLOCK structure pointer [Storage Devices], SRB_STATUS_BAD_FUNCTION, SRB_STATUS_INVALID_TARGET_ID, SRB_FUNCTION_FLUSH, SRB_FLAGS_FREE_SENSE_BUFFER, SRB_STATUS_ABORTED, SRB_STATUS_MESSAGE_REJECTED, SRB_STATUS_AUTOSENSE_VALID, SRB_FUNCTION_TERMINATE_IO, SRB_FLAGS_DISABLE_DISCONNECT, SRB_STATUS_INVALID_LUN, SRB_STATUS_ERROR, SRB_FLAGS_NO_KEEP_AWAKE
+ms.keywords: SRB_STATUS_SELECTION_TIMEOUT, storport/STORAGE_REQUEST_BLOCK, SRB_STATUS_AUTOSENSE_VALID, SRB_STATUS_LINK_DOWN, SRB_STATUS_ABORT_FAILED, SRB_STATUS_PARITY_ERROR, SRB_STATUS_COMMAND_TIMEOUT, storage.storage_request_block, SRB_STATUS_PHASE_SEQUENCE_FAILURE, SRB_STATUS_REQUEST_FLUSHED, SRB_FLAGS_NO_QUEUE_FREEZE, PSTORAGE_REQUEST_BLOCK, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_STATUS_NO_DEVICE, SRB_STATUS_PENDING, SRB_STATUS_NO_HBA, SRB_FLAGS_DATA_OUT, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, SRB_STATUS_INVALID_TARGET_ID, _STORAGE_REQUEST_BLOCK, SRB_FUNCTION_RECEIVE_EVENT, SRB_STATUS_BUS_RESET, SRB_FUNCTION_IO_CONTROL, SRB_FUNCTION_QUIESCE_DEVICE, SRB_STATUS_UNEXPECTED_BUS_FREE, SRB_FUNCTION_ABORT_COMMAND, STORAGE_REQUEST_BLOCK structure [Storage Devices], SRB_STATUS_DATA_OVERRUN, SRB_FUNCTION_EXECUTE_SCSI, SRB_FLAGS_DATA_IN, SRB_FLAGS_SGLIST_FROM_POOL, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_FUNCTION_SHUTDOWN, SRB_FUNCTION_RESET_DEVICE, SRB_STATUS_BUSY, SRB_FLAGS_D3_PROCESSING, SRB_STATUS_QUEUE_FROZEN, SRB_FUNCTION_TERMINATE_IO, SRB_FUNCTION_FLUSH, SRB_FLAGS_BYPASS_LOCKED_QUEUE, SRB_STATUS_INTERNAL_ERROR, SRB_FLAGS_IS_ACTIVE, SRB_STATUS_ABORTED, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_FUNCTION_RESET_BUS, SRB_FLAGS_NO_KEEP_AWAKE, SRB_FUNCTION_LOCK_QUEUE, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_FUNCTION_POWER, SRB_STATUS_ERROR, SRB_FLAGS_DISABLE_DISCONNECT, SRB_STATUS_SUCCESS, SRB_FLAGS_FREE_SENSE_BUFFER, SRB_STATUS_BAD_SRB_BLOCK_LENGTH, SRB_FUNCTION_UNLOCK_QUEUE, SRB_FUNCTION_DUMP_POINTERS, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_FLAGS_ADAPTER_CACHE_ENABLE, storport/PSTORAGE_REQUEST_BLOCK, SRB_STATUS_ERROR_RECOVERY, SRB_FLAGS_ALLOCATED_FROM_ZONE, PSTORAGE_REQUEST_BLOCK structure pointer [Storage Devices], SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_FUNCTION_PNP, STORAGE_REQUEST_BLOCK, SRB_STATUS_MESSAGE_REJECTED, SRB_STATUS_INVALID_REQUEST, SRB_STATUS_TIMEOUT, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_FUNCTION_CRYPTO_OPERATION, SRB_FUNCTION_RELEASE_RECOVERY, SRB_STATUS_INVALID_LUN, SRB_STATUS_BAD_FUNCTION, SRB_FUNCTION_WMI, SRB_STATUS_INVALID_PATH_ID, SRB_FLAGS_NO_DATA_TRANSFER, SRB_STATUS_NOT_POWERED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: PSTORAGE_REQUEST_BLOCK, STORAGE_REQUEST_BLOCK
+req.typenames: STORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -100,22 +100,22 @@ typedef struct _STORAGE_REQUEST_BLOCK {
  
 
 
-### -field NextSrb
+#### - NextSrb
 
 Indicates the <b>STORAGE_REQUEST_BLOCK</b> to which this request applies. Only a small subset of requests use a second SRB, for example SRB_FUNCTION_ABORT_COMMAND.
 
 
-### -field Length
+#### - Length
 
 Specifies the size of the SRB header for compatibility with the <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. This is equal to the offset of the <b>Signature</b> member of this structure.
 
 
-### -field Function
+#### - Function
 
 Set to <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b> to indicate that this is an extended SRB. Unlike in <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>, the SRB function identifier is in the <b>SrbFunction</b> member instead.
 
 
-### -field SrbStatus
+#### - SrbStatus
 
 Returns the status of the completed request. This member should be set by the miniport driver before it notifies the operating system-specific driver that the request has completed by calling <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> with <b>RequestComplete</b>. The value of this member can be one of the following:
 
@@ -275,27 +275,27 @@ Indicates the request failed because link is down.
 Indicates the request failed because SRB length was invalid.
 
 
-### -field ReservedUchar
+#### - ReservedUchar
 
 Reserved. Set to 0.
 
 
-### -field Signature
+#### - Signature
 
 The signature of the extended SRB format. This is set to SRB_SIGNATURE.
 
 
-### -field Version
+#### - Version
 
 The version of the structure used. The current version is <b>STORAGE_REQUEST_BLOCK_VERSION_1</b>.
 
 
-### -field SrbLength
+#### - SrbLength
 
 The length of this extended SRB, in bytes, including this structure, address and any SRB extended data.
 
 
-### -field SrbFunction
+#### - SrbFunction
 
 Specifies the operation to be performed, which can be one of these values:
 
@@ -303,7 +303,7 @@ Specifies the operation to be performed, which can be one of these values:
 #### SRB_FUNCTION_EXECUTE_SCSI (0x00)
 
 A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> &gt; 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a><a href="..\srb\ns-srb-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a><a href="..\srb\ns-srb-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a><a href="..\srb\ns-srb-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a><b>Cdb</b><a href="..\srb\ns-srb-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a><b>Cdb</b>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a><a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a><a href="..\storport\ns-storport-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a><a href="..\storport\ns-storport-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a><b>Cdb</b><a href="..\storport\ns-storport-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a><b>Cdb</b>
 
 #### SRB_FUNCTION_ABORT_COMMAND (0x10)
 
@@ -400,7 +400,7 @@ The request is a power extended request formatted as a <b>SRBEX_DATA_WMI</b> str
 Reserved for system use.
 
 
-### -field SrbFlags
+#### - SrbFlags
 
 Indicates various parameters and options for the request. <b>SrbFlags</b> is read-only, except when <b>SRB_FLAGS_UNSPECIFIED_DIRECTION</b> is set and miniport drivers of subordinate DMA adapters are required to update <b>SRB_FLAGS_DATA_IN</b> or <b>SRB_FLAGS_DATA_OUT</b>. This member can have one or more of these flags set:
 
@@ -495,87 +495,87 @@ Indicates that the request is part of D3 processing. Miniports that support runt
 Indicates that the adapter can cache data.
 
 
-### -field ReservedUlong
+#### - ReservedUlong
 
 Reserved. Set to 0.
 
 
-### -field RequestTag
+#### - RequestTag
 
 Contains the queue-tag value assigned by the operating system-specific port driver. If this member is used for tagged queuing, the HBA supports internal queuing of requests to logical units (LUs) and the miniport driver set <b>TaggedQueueing</b> to <b>TRUE</b> in the PORT_CONFIGURATION_INFORMATION for this HBA.
 
 
-### -field RequestPriority
+#### - RequestPriority
 
 The priority assignment for the SRB.
 
 
-### -field RequestAttribute
+#### - RequestAttribute
 
 Indicates the tagged-queuing message to be used when the <b>SRB_FLAGS_QUEUE_ACTION_ENABLE</b> flag is set. The value can be one of the following: <b>SRB_SIMPLE_TAG_REQUEST</b>, <b>SRB_HEAD_OF_QUEUE_TAG_REQUEST</b>, or <b>SRB_ORDERED_QUEUE_TAG_REQUEST</b>.
 
 
-### -field TimeOutValue
+#### - TimeOutValue
 
 Indicates the interval, in seconds, that the request can execute before the operating system-specific port driver might consider it timed out. Miniport drivers are not required to time requests because the port driver already does.
 
 
-### -field SystemStatus
+#### - SystemStatus
 
 Used by the Storport driver, instead of <b>SrbStatus</b>, to report the status of the completed request whenever the request cannot be delivered to the miniport driver. In such cases, <b>SrbStatus</b> is set to <b>SRB_STATUS_INTERNAL_ERROR</b>. This member is used exclusively for communication between the Storport and the class driver and should not be used by miniport drivers.
 
 
-### -field ZeroGuard1
+#### - ZeroGuard1
 
 A guard area to protect against drivers that interpret this structure as <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
 
 
-### -field AddressOffset
+#### - AddressOffset
 
-The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
+The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
 
 
-### -field NumSrbExData
+#### - NumSrbExData
 
 The count of extended SRB data blocks for this request.
 
 
-### -field DataTransferLength
+#### - DataTransferLength
 
 Indicates the size, in bytes, of the data buffer. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
 
 
-### -field DataBuffer
+#### - DataBuffer
 
 Points to the data buffer. Miniport drivers should not use this value as a data pointer unless the miniport driver set <b>MapBuffers</b> to <b>TRUE</b> in the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> for the HBA. In the case of SRB_FUNCTION_IO_CONTROL requests, however, miniport drivers can use this value as a data pointer regardless of the value of <b>MapBuffers</b>.
 
 
-### -field ZeroGuard2
+#### - ZeroGuard2
 
 A guard area to protect against drivers that interpret this structure as <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
 
 
-### -field OriginalRequest
+#### - OriginalRequest
 
 Points to the IRP for this request. This member is irrelevant to miniport drivers.
 
 
-### -field ClassContext
+#### - ClassContext
 
 Points to a class driver context data for this request. This member is irrelevant to miniport drivers.
 
 
-### -field PortContext
+#### - PortContext
 
 Points to a port driver context data for this request. This member is irrelevant to miniport drivers.
 
 
-### -field MiniportContext
+#### - MiniportContext
 
 Points to the Srb extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in  <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>. The memory at <b>MiniportContext</b> is not initialized by the operating system-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorportGetPhysicalAddress</a> with the <b>MiniportContext</b> pointer.
 
 
-### -field SrbExDataOffset
+#### - SrbExDataOffset
 
 An array of offsets specifying the location of extended data blocks for the SRB. This array is empty if <b>NumSrbExData</b> = 0.
 
@@ -585,9 +585,9 @@ An array of offsets specifying the location of extended data blocks for the SRB.
 
 Starting in Windows 8, an extended  SRB type is supported with the use of the <b>STORAGE_REQUEST_BLOCK</b> structure. <b>STORAGE_REQUEST_BLOCK</b> extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure will continue.
 
-If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\srb\ns-srb-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
+If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\storport\ns-storport-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
 
-The target device address for the SRB is in a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
+The target device address for the SRB is in a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
 
 
 
@@ -595,7 +595,7 @@ The target device address for the SRB is in a <a href="..\storport\ns-storport-_
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
 
  
 

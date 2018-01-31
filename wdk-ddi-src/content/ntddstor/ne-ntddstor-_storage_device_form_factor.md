@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EE59767B-2504-4E5F-A442-60EEBEE70B59
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], FormFactorUnknown, FormFactor1_8, ntddstor/FormFactormSata, FormFactorMemoryCard, FormFactorEmbedded, ntddstor/FormFactor2_5, ntddstor/FormFactorUnknown, ntddstor/FormFactorEmbedded, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], FormFactor2_5, ntddstor/FormFactorPCIeBoard, FormFactorM_2, PSTORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorM_2, FormFactor1_8Less, FormFactormSata, ntddstor/FormFactor1_8, FormFactorPCIeBoard, _STORAGE_DEVICE_FORM_FACTOR, FormFactor3_5, ntddstor/FormFactor1_8Less, ntddstor/FormFactor3_5, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, storage.storage_device_form_factor, ntddstor/FormFactorDimm, ntddstor/STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorMemoryCard, *PSTORAGE_DEVICE_FORM_FACTOR, FormFactorDimm
+ms.keywords: FormFactor1_8, STORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], ntddstor/FormFactor2_5, ntddstor/FormFactorEmbedded, FormFactorM_2, FormFactorDimm, FormFactorPCIeBoard, FormFactorEmbedded, ntddstor/FormFactor1_8Less, _STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorDimm, ntddstor/FormFactorPCIeBoard, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorMemoryCard, ntddstor/FormFactor1_8, FormFactor1_8Less, FormFactor2_5, ntddstor/STORAGE_DEVICE_FORM_FACTOR, FormFactormSata, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], FormFactorMemoryCard, ntddstor/FormFactorUnknown, ntddstor/FormFactorM_2, PSTORAGE_DEVICE_FORM_FACTOR, FormFactorUnknown, ntddstor/FormFactormSata, *PSTORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactor3_5, FormFactor3_5, storage.storage_device_form_factor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,57 +77,57 @@ typedef enum _STORAGE_DEVICE_FORM_FACTOR {
 
 
 
-### -field FormFactorUnknown
+#### - FormFactorUnknown
 
 Unknown form factor.
 
 
-### -field FormFactor3_5
+#### - FormFactor3_5
 
 3.5 inch nominal form factor.
 
 
-### -field FormFactor2_5
+#### - FormFactor2_5
 
 2.5 inch nominal form factor.
 
 
-### -field FormFactor1_8
+#### - FormFactor1_8
 
 1.8 inch nominal form factor.
 
 
-### -field FormFactor1_8Less
+#### - FormFactor1_8Less
 
 Less than 1.8 inch nominal form factor.
 
 
-### -field FormFactorEmbedded
+#### - FormFactorEmbedded
 
 The storage device is embedded on a board.
 
 
-### -field FormFactorMemoryCard
+#### - FormFactorMemoryCard
 
 A memory card, such as SmartMedia or CompactFlash.
 
 
-### -field FormFactormSata
+#### - FormFactormSata
 
 Mini-SATA (mSATA) form factor.
 
 
-### -field FormFactorM_2
+#### - FormFactorM_2
 
 M.2 form factor.
 
 
-### -field FormFactorPCIeBoard
+#### - FormFactorPCIeBoard
 
 PCI Express (PCIe) card form factor.
 
 
-### -field FormFactorDimm
+#### - FormFactorDimm
 
 Dual in-line memory module (DIMM) slot form factor.
 

@@ -40,7 +40,7 @@ apiname:
 -	RILSENDUICCTOOLKITCMDRESPONSEPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS
+req.typenames: "*LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
 ---
 
 # RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure
@@ -69,14 +69,14 @@ typedef struct _RILSENDUICCTOOLKITCMDRESPONSEPARAMS {
 
 
 
-### -field dwSlotIndex
+#### - dwSlotIndex
 
 
 
-### -field dwDetailsSize
+#### - dwDetailsSize
 
 
 
-### -field bDetails
+#### - bDetails
 
 

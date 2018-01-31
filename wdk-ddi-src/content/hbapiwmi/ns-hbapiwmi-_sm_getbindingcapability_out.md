@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7dfa36be-ab05-478d-b47a-783e599545bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT, structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml, *PSM_GetBindingCapability_OUT, storage.sm_getbindingcapability_out, hbapiwmi/SM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT structure pointer [Storage Devices], _SM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT structure [Storage Devices], SM_GetBindingCapability_OUT
+ms.keywords: PSM_GetBindingCapability_OUT structure pointer [Storage Devices], hbapiwmi/SM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT, structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml, *PSM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT structure [Storage Devices], hbapiwmi/PSM_GetBindingCapability_OUT, storage.sm_getbindingcapability_out, SM_GetBindingCapability_OUT, _SM_GetBindingCapability_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SM_GetBindingCapability_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-### -field Flags
+#### - Flags
 
 The HBA_BIND_CAPABILITY binding capabilities.
 

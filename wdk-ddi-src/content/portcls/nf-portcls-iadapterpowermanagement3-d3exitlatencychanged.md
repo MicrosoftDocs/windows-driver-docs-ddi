@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B62920AB-39B2-4A04-AFB9-9C935A273F9A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iadapterpowermanagement3_d3exitlatencychanged, D3ExitLatencyChanged method [Audio Devices], IAdapterPowerManagement3 interface, IAdapterPowerManagement3, D3ExitLatencyChanged, IAdapterPowerManagement3 interface [Audio Devices], D3ExitLatencyChanged method, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged, IAdapterPowerManagement3::D3ExitLatencyChanged, D3ExitLatencyChanged method [Audio Devices]
+ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3::D3ExitLatencyChanged, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged, D3ExitLatencyChanged, D3ExitLatencyChanged method [Audio Devices], D3ExitLatencyChanged method [Audio Devices], IAdapterPowerManagement3 interface, IAdapterPowerManagement3 interface [Audio Devices], D3ExitLatencyChanged method, audio.iadapterpowermanagement3_d3exitlatencychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IAdapterPowerManagement3.D3ExitLatencyChanged
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IAdapterPowerManagement3::D3ExitLatencyChanged method
@@ -67,7 +67,7 @@ NTSTATUS D3ExitLatencyChanged(
 
 
 
-### -param NewD3ExitLatency [in]
+#### - NewD3ExitLatency [in]
 
 The  <a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a> enumerated value that Portcls has determined for the device.
 
@@ -113,9 +113,9 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
 
-<a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a>
-
 <a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
+
+<a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a>
 
  
 

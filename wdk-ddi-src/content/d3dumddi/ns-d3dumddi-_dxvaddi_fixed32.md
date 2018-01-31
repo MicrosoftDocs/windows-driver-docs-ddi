@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4188c488-fda4-4596-96f5-f740a5cc9ffc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices], _DXVADDI_FIXED32, d3dumddi/DXVADDI_FIXED32, DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, display.dxvaddi_fixed32
+ms.keywords: display.dxvaddi_fixed32, DXVADDI_FIXED32, DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, _DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices], d3dumddi/DXVADDI_FIXED32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _DXVADDI_FIXED32 {
 
 
 
-### -field Fraction
+#### - Fraction
 
 [in] A USHORT value that specifies the 16 bits after the decimal point.
 
 
-### -field Value
+#### - Value
 
 [in] A SHORT value that specifies the 16 bits before the decimal point. 
 
 
-### -field ll
+#### - ll
 
 A 32-bit value that describes the 16.16 fixed-point number.
 

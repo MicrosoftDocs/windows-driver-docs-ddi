@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemUI::CommonUIProp, IPrintOemUI::CommonUIProp, IPrintOemUI, CommonUIProp method [Print Devices], CommonUIProp, print.iprintoemui_commonuiprop, IPrintOemUI interface [Print Devices], CommonUIProp method, CommonUIProp method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml
+ms.keywords: print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml, print.iprintoemui_commonuiprop, prcomoem/IPrintOemUI::CommonUIProp, IPrintOemUI, CommonUIProp, IPrintOemUI::CommonUIProp, CommonUIProp method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], CommonUIProp method, CommonUIProp method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT CommonUIProp(
 
 
 
-### -param dwMode
+#### - dwMode
 
 Caller-supplied integer constant indicating which property sheet page should be modified. The following constants are valid.
 <table>
@@ -100,7 +100,7 @@ The method is being called to modify the Device Settings page of the printer pro
 </table> 
 
 
-### -param pOemCUIPParam
+#### - pOemCUIPParam
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a> structure.
 

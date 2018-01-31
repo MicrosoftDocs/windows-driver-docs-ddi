@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b70d4a57-c687-40b8-bbf2-4a0a2fbf4863
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCreateClock2, KsCreateClock2, stream.kscreateclock2, KsCreateClock2 function [Streaming Media Devices]
+ms.keywords: KsCreateClock2 function [Streaming Media Devices], KsCreateClock2, ks/KsCreateClock2, stream.kscreateclock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ KSDDKAPI HRESULT NTAPI KsCreateClock2(
 
 
 
-### -param ConnectionHandle [in]
+#### - ConnectionHandle [in]
 
 Specifies the handle to the connection on which to create the clock.
 
 
-### -param ClockCreate [in]
+#### - ClockCreate [in]
 
 Specifies clock create parameters. This currently consists of a flag that must be set to zero.
 
 
-### -param ClockHandle [out]
+#### - ClockHandle [out]
 
 Specifies the new clock handle.
 
@@ -102,9 +102,9 @@ This is a new version of the <a href="..\ks\nf-ks-kscreateclock.md">KsCreateCloc
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
-
 <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+
+<a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
 
  
 

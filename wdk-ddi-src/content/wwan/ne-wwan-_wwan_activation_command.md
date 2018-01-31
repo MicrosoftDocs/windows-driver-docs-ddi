@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e9d25ac3-8ffc-4137-8409-731d8caaa730
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanActivationCommandActivate, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND, _WWAN_ACTIVATION_COMMAND, WwanActivationCommandDeactivate, WwanActivationCommandActivate, wwan/WwanActivationCommandMax, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, netvista.wwan_activation_command, wwan/PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandDeactivate, wwan/WWAN_ACTIVATION_COMMAND, WwanActivationCommandMax
+ms.keywords: netvista.wwan_activation_command, wwan/WwanActivationCommandActivate, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandMax, WWAN_ACTIVATION_COMMAND, WwanActivationCommandDeactivate, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandDeactivate, PWWAN_ACTIVATION_COMMAND, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, *PWWAN_ACTIVATION_COMMAND, wwan/PWWAN_ACTIVATION_COMMAND, WwanActivationCommandMax, WwanActivationCommandActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_ACTIVATION_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND
+req.typenames: "*PWWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND"
 req.product: Windows 10 or later.
 ---
 
@@ -71,18 +71,18 @@ typedef enum _WWAN_ACTIVATION_COMMAND {
 
 
 
-### -field WwanActivationCommandDeactivate
+#### - WwanActivationCommandDeactivate
 
 Deactivate a currently activated PDP context identified by 
      <b>ConnectionId</b> .
 
 
-### -field WwanActivationCommandActivate
+#### - WwanActivationCommandActivate
 
 Activate PDP context.
 
 
-### -field WwanActivationCommandMax
+#### - WwanActivationCommandMax
 
 The total number of supported activation commands.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6D214346-8CE6-4E9C-B054-1C72B928ED2B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], ifsk.setokenisnochildprocessrestrictionenforced, SeTokenIsNoChildProcessRestrictionEnforced, ntifs/SeTokenIsNoChildProcessRestrictionEnforced
+ms.keywords: ifsk.setokenisnochildprocessrestrictionenforced, ntifs/SeTokenIsNoChildProcessRestrictionEnforced, SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], SeTokenIsNoChildProcessRestrictionEnforced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN NTKERNELAPI SeTokenIsNoChildProcessRestrictionEnforced(
 
 
 
-### -param Token [in]
+#### - Token [in]
 
 Specifies a pointer to the access token.
 
 
-### -param UnlessSecure [out, optional]
+#### - UnlessSecure [out, optional]
 
 Optionally provides a pointer to the value that will
         be set to TRUE when secure process creation is enabled even if

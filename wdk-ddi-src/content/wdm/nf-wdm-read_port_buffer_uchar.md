@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a32a7c6a-16dd-4d12-aa32-6bdb60990568
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_PORT_BUFFER_UCHAR, k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml, kernel.read_port_buffer_uchar, READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], wdm/READ_PORT_BUFFER_UCHAR
+ms.keywords: READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], wdm/READ_PORT_BUFFER_UCHAR, k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml, kernel.read_port_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID READ_PORT_BUFFER_UCHAR(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer into which an array of UCHAR values is read. 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of bytes to be read into the buffer. 
 

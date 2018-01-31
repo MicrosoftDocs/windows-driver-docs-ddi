@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_THERMAL, pepfx/PPEP_PPM_PERF_CONSTRAINTS, _PEP_PPM_QUERY_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, PEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_POWER, *PPEP_PPM_PERF_CONSTRAINTS, pepfx/PEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY
+ms.keywords: PPEP_PPM_PERF_CONSTRAINTS, _PEP_PPM_QUERY_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PEP_PPM_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, PERFORMANCE_LIMIT_THERMAL, PERFORMANCE_LIMIT_POWER, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_PERF_CONSTRAINTS, pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_PERF_CONSTRAINTS
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_PERF_CONSTRAINTS, *PPEP_PPM_PERF_CONSTRAINTS
+req.typenames: "*PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS"
 ---
 
 # _PEP_PPM_QUERY_PERF_CONSTRAINTS structure
@@ -68,12 +68,12 @@ typedef struct _PEP_PPM_QUERY_PERF_CONSTRAINTS {
 
 
 
-### -field GuaranteedPerformanceLimit
+#### - GuaranteedPerformanceLimit
 
 [out] The guaranteed performance threshold in platform-specific units. If nonzero, this value specifies the maximum sustained performance level of the processor, taking into account all known external constraints (power budgeting, thermal constraints, power source, and so on). All processors are expected to be able to simultaneously sustain their guaranteed performance levels. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>.
 
 
-### -field LimitReasons
+#### - LimitReasons
 
 [out] The reasons for which the processor's performance can be limited. Set this member to zero or to the bitwise-OR of one or more of the following values:
 <table>

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, _DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags
+ms.keywords: display.dxgk_createcontextallocationflags, _DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DXGK_CREATECONTEXTALLOCATIONFLAGS {
 
 
 
-### -field SharedAcrossContexts
+#### - SharedAcrossContexts
 
 [in] A UINT value that specifies the association of the context.
 
@@ -89,13 +89,13 @@ If <b>SharedAcrossContexts</b> is set to zero, the allocation is associated with
  
 
 
-### -field Reserved
+#### - Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the most significant 31 bits (0xFFFFFFFE) to zeros.
 
 
 
-### -field Value
+#### - Value
 
 [in] A 32-bit value that specifies the context allocation flags.
 
@@ -112,9 +112,9 @@ The <b>ContextAllocationFlags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
 
  
 

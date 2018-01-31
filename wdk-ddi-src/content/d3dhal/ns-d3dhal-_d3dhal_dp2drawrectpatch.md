@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 892fe11a-4dfd-43cb-8f9a-b148d81a087f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2drawrectpatch, d3dhal/LPD3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH structure [Display Devices], _D3DHAL_DP2DRAWRECTPATCH, *LPD3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH structure pointer [Display Devices], D3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH, d3dhal/D3DHAL_DP2DRAWRECTPATCH, d3dstrct_beda6033-07b1-4985-8eac-6bb49bcce07e.xml
+ms.keywords: D3DHAL_DP2DRAWRECTPATCH structure [Display Devices], D3DHAL_DP2DRAWRECTPATCH, d3dhal/LPD3DHAL_DP2DRAWRECTPATCH, display.d3dhal_dp2drawrectpatch, d3dhal/D3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH structure pointer [Display Devices], d3dstrct_beda6033-07b1-4985-8eac-6bb49bcce07e.xml, _D3DHAL_DP2DRAWRECTPATCH, *LPD3DHAL_DP2DRAWRECTPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _D3DHAL_DP2DRAWRECTPATCH {
 
 
 
-### -field Handle
+#### - Handle
 
 Specifies the handle associated with the surface.
 
 
-### -field Flags
+#### - Flags
 
 Specifies what, if any, additional information follows the D3DHAL_DP2DRAWRECTPATCH data structure in the DP2 stream.
 
@@ -107,15 +107,15 @@ The driver receives notification that cached patch information is be released vi
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawtripatch.md">D3DHAL_DP2DRAWTRIPATCH</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
 D3DDP2OP_DRAWRECTPATCH
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 D3DRS_DELETERTPATCH
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawtripatch.md">D3DHAL_DP2DRAWTRIPATCH</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
  
 

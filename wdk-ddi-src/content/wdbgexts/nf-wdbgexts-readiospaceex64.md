@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6903a684-e9da-4ff0-b5ea-330b070849c6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, ReadIoSpaceEx64 function [Windows Debugging], debugger.readiospaceex64, wdbgexts/ReadIoSpaceEx64, ReadIoSpaceEx64
+ms.keywords: WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, ReadIoSpaceEx64, wdbgexts/ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], debugger.readiospaceex64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ __inline VOID ReadIoSpaceEx64(
 
 
 
-### -param address
+#### - address
 
 Specifies the I/O address to read from.
 
 
-### -param data
+#### - data
 
 Specifies the address of a variable to hold the data read. This must be at least the number of bytes contained in <i>size</i>.
 
 
-### -param size
+#### - size
 
 Specifies the address of a variable that contains the number of bytes to read. <i>Size</i> must be 1, 2, or 4. After the data is read, <i>size</i> will contain the number of bytes actually read.
 
 
-### -param interfacetype
+#### - interfacetype
 
 Specifies the type of interface on which the extended I/O space exists. Possible values include ISA, EISA, and MCA. For more information, see ntddk.h, which is available as part of Windows Driver Kit.
 
 
-### -param busnumber
+#### - busnumber
 
 Specifies the number of the bus on which the extended I/O space exists. This is typically zero, unless there is more than one bus of a given type.
 
 
-### -param addressspace
+#### - addressspace
 
 This is typically 1.
 

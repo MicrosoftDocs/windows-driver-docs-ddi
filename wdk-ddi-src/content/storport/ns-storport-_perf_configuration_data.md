@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.perf_configuration_data, PERF_CONFIGURATION_DATA, storport/PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml, _PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA, storport/PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA structure [Storage Devices], PPERF_CONFIGURATION_DATA structure pointer [Storage Devices]
+ms.keywords: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA structure [Storage Devices], storage.perf_configuration_data, storport/PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], PPERF_CONFIGURATION_DATA, _PERF_CONFIGURATION_DATA, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml, storport/PERF_CONFIGURATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,17 +76,17 @@ typedef struct _PERF_CONFIGURATION_DATA {
 
 
 
-### -field Version
+#### - Version
 
 The version number of the structure. Set this member when querying and initializing optimizations.
 
 
-### -field Size
+#### - Size
 
 The size of the structure, set to <b>sizeof(PERF_CONFIGURATION_DATA)</b>.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise-OR of supported flags. Currently, the following flags are supported:
 	  
@@ -184,32 +184,32 @@ This flag is valid when <b>Version</b> is set to 5.
 </table> 
 
 
-### -field ConcurrentChannels
+#### - ConcurrentChannels
 
 The number of concurrent calls to the <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine that the miniport driver and the device  support. This member is only accessed when the STOR_PERF_CONCURRENT_CHANNELS flag has been set. Prior to Windows 8, miniports must not set this value.
 
 
-### -field FirstRedirectionMessageNumber
+#### - FirstRedirectionMessageNumber
 
 When the <b>Flags</b> member has the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag set, the miniport driver initializes interrupt redirection to begin with this message number. This member is only accessed when the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag is set.
 
 
-### -field LastRedirectionMessageNumber
+#### - LastRedirectionMessageNumber
 
 When the <b>Flags</b> member has the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag set, the miniport driver initializes interrupt redirection to end with this message number. This member is only accessed when the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag is set.
 
 
-### -field DeviceNode
+#### - DeviceNode
 
 When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Storport initializes this field to contain the NUMA node number in which the miniport driver's device resides.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use.
 
 
-### -field MessageTargets
+#### - MessageTargets
 
 When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Storport initializes the fields of in the structures of a <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> array. These structures correspond to the redirection messages that are currently in use. The array itself is zero-based, but <b>FirstRedirectionMessageNumber</b> is not required to be zero. The miniport allocates this array and sets <b>MessageTargets</b> to point to it. The miniport driver must allocate a <b>GROUP_AFFINITY</b> array large enough to hold all the returned affinity masks.
 

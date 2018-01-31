@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5383bd49-df44-48dd-8385-c782a1b1f80a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbacks_changesymbolstate, ChangeSymbolState, IDebugEventCallbacks, IDebugEventCallbacks::ChangeSymbolState, IDebugEventCallbacks interface [Windows Debugging], ChangeSymbolState method, dbgeng/IDebugEventCallbacks::ChangeSymbolState, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_693f0465-088e-4f3d-a8a4-89e8803d0227.xml, ChangeSymbolState method [Windows Debugging]
+ms.keywords: debugger.idebugeventcallbacks_changesymbolstate, ChangeSymbolState, dbgeng/IDebugEventCallbacks::ChangeSymbolState, ComCallbacks_693f0465-088e-4f3d-a8a4-89e8803d0227.xml, IDebugEventCallbacks interface [Windows Debugging], ChangeSymbolState method, IDebugEventCallbacks, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::ChangeSymbolState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ChangeSymbolState(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies a bit-set indicating the nature of the change to the symbol state.  The following bit flags might be set.
 <table>
@@ -139,7 +139,7 @@ The type options have changed.
 </table> 
 
 
-### -param Argument [in]
+#### - Argument [in]
 
 Provides additional information about the change to the symbol state.   If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 

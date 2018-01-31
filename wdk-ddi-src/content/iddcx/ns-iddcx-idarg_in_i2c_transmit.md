@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1422f1fc-9653-4e6b-a7dd-c224ce7b9ca0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idarg_in_i2c_transmit, IDARG_IN_I2C_TRANSMIT, IDARG_IN_I2C_TRANSMIT structure [Display Devices], iddcx/IDARG_IN_I2C_TRANSMIT
+ms.keywords: IDARG_IN_I2C_TRANSMIT, iddcx/IDARG_IN_I2C_TRANSMIT, IDARG_IN_I2C_TRANSMIT structure [Display Devices], display.idarg_in_i2c_transmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,21 +71,21 @@ typedef struct IDARG_IN_I2C_TRANSMIT {
 
 
 
-### -field SevenBitI2CAddress
+#### - SevenBitI2CAddress
 
 
                      [in] The address of the I2C device to which data will be transmitted
                  
 
 
-### -field DataSizeInBytes
+#### - DataSizeInBytes
 
 
                      [in] The size, in bytes, of the buffer pointed to by <b>pData</b>. This parameter must be between 1 and 64, inclusively.
                  
 
 
-### -field pData
+#### - pData
 
 
                      [in] A pointer to a buffer that holds the data to be transmitted.

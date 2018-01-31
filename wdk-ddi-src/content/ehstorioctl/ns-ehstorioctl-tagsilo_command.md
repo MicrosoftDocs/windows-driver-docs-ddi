@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4d40ac4b-9aca-4be6-8d4f-db94c3daf4e8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorioctl/PSILO_COMMAND, PSILO_COMMAND, tagSILO_COMMAND, SILO_COMMAND structure [Storage Devices], SILO_COMMAND, PSILO_COMMAND structure pointer [Storage Devices], *PSILO_COMMAND, storage.silo_command, ehstorioctl/SILO_COMMAND, structs-silo_6058ee8b-c6ff-4e84-8b20-304bb6646a4f.xml
+ms.keywords: ehstorioctl/SILO_COMMAND, SILO_COMMAND, structs-silo_6058ee8b-c6ff-4e84-8b20-304bb6646a4f.xml, *PSILO_COMMAND, PSILO_COMMAND, SILO_COMMAND structure [Storage Devices], tagSILO_COMMAND, ehstorioctl/PSILO_COMMAND, storage.silo_command, PSILO_COMMAND structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,21 +70,21 @@ typedef struct tagSILO_COMMAND {
 
 
 
-### -field SiloIndex
+#### - SiloIndex
 
 
 
-### -field Command
+#### - Command
 
 This member contains the 1667 command value.
 
 
-### -field cbCommandBuffer
+#### - cbCommandBuffer
 
 This member contains the size of the 1667 command buffer.
 
 
-### -field rgbCommandBuffer
+#### - rgbCommandBuffer
 
 
 

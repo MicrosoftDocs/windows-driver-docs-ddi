@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36ea4547-e9a0-49c9-8b45-903a2de60923
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_FLIPOVERLAY, D3DDDIARG_FLIPOVERLAY structure [Display Devices], D3DDDIARG_FLIPOVERLAY, display.d3dddiarg_flipoverlay, UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, d3dumddi/D3DDDIARG_FLIPOVERLAY"
+ms.keywords: "_D3DDDIARG_FLIPOVERLAY, display.d3dddiarg_flipoverlay, D3DDDIARG_FLIPOVERLAY, d3dumddi/D3DDDIARG_FLIPOVERLAY, UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, D3DDDIARG_FLIPOVERLAY structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DDDIARG_FLIPOVERLAY {
 
 
 
-### -field hOverlay
+#### - hOverlay
 
 [in] A handle to the overlay hardware to be flipped. 
 
 
-### -field hSource
+#### - hSource
 
 [in] A handle to the new resource to be displayed. This resource might be the same as the resource that was previously displayed if deinterlacing interleaved data.
 
 
-### -field SourceIndex
+#### - SourceIndex
 
 [in] The zero-based index of the subresource to be displayed.
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_flipoverlayflags.md">D3DDDI_FLIPOVERLAYFLAGS</a> structure that indicates, in bit-field flags, how to flip the resource.
 

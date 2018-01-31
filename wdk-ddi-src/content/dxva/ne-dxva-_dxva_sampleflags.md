@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24f77f16-e043-4d58-87ef-6c834e61cb5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_SampleFlag_Palette_Changed, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlagsMask, dxva/DXVA_SampleFlagsMask, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_DstRect_Changed, _DXVA_SampleFlags, dxva/DXVA_SampleFlags, DXVA_SampleFlags, display.dxva_sampleflags, dxva/DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlag_ColorData_Changed
+ms.keywords: dxva/DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlag_ColorData_Changed, display.dxva_sampleflags, DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlagsMask, dxva/DXVA_SampleFlags, dxva/DXVA_SampleFlagsMask, dxva/DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlags, dxva/DXVA_SampleFlag_SrcRect_Changed, _DXVA_SampleFlags, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,38 +71,38 @@ typedef enum _DXVA_SampleFlags {
 
 
 
-### -field DXVA_SampleFlagsMask
+#### - DXVA_SampleFlagsMask
 
 Specifies the sample-flag mask, which consists of the first 4 bits of a DWORD. 
 
 
-### -field DXVA_SampleFlag_Palette_Changed
+#### - DXVA_SampleFlag_Palette_Changed
 
 Indicates that the palette of the sample frame changed. 
 
 
-### -field DXVA_SampleFlag_SrcRect_Changed
+#### - DXVA_SampleFlag_SrcRect_Changed
 
 Indicates that the source rectangle of the sample frame changed. 
 
 
-### -field DXVA_SampleFlag_DstRect_Changed
+#### - DXVA_SampleFlag_DstRect_Changed
 
 Indicates that the destination rectangle of the sample frame changed. 
 
 
-### -field DXVA_SampleFlag_ColorData_Changed
+#### - DXVA_SampleFlag_ColorData_Changed
 
 Indicates that the color data of the sample frame changed.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563927">DXVA_DeinterlaceBobDeviceClass::DeinterlaceBltEx</a>
+<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
-<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563927">DXVA_DeinterlaceBobDeviceClass::DeinterlaceBltEx</a>
 
  
 

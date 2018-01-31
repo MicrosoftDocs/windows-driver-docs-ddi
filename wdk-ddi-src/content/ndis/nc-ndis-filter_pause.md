@@ -73,7 +73,7 @@ NDIS_STATUS FilterPause(
 
 
 
-### -param FilterModuleContext [in]
+#### - FilterModuleContext [in]
 
 A handle to the context area for the filter module that the filter driver should pause. The filter
      driver created and initialized this context area in the 
@@ -233,31 +233,31 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-   FilterSendNetBufferListsComplete</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
 <a href="..\ndis\nf-ndis-ndisfpausecomplete.md">NdisFPauseComplete</a>
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
-
-<a href="..\ndis\ns-ndis-_ndis_filter_pause_parameters.md">NDIS_FILTER_PAUSE_PARAMETERS</a>
-
-<a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a>
-
 <mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
    NdisFSendNetBufferListsComplete</b></mshelp:link>
 
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
+   FilterSendNetBufferListsComplete</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+<a href="..\ndis\ns-ndis-_ndis_filter_pause_parameters.md">NDIS_FILTER_PAUSE_PARAMETERS</a>
 
  
 

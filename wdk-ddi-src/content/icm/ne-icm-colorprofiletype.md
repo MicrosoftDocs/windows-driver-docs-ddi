@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 756ba822-ace2-4893-a989-9d355434e57c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, icm/COLORPROFILETYPE, icm/CPT_DMP, *PCOLORPROFILETYPE, COLORPROFILETYPE, icm/CPT_CAMP, CPT_ICC, CPT_DMP, print.colorprofiletype, CPT_CAMP, CPT_GMMP, icm/CPT_GMMP, icm/CPT_ICC, COLORPROFILETYPE enumeration [Print Devices]
+ms.keywords: icm/CPT_GMMP, print.colorprofiletype, COLORPROFILETYPE enumeration [Print Devices], icm/CPT_ICC, CPT_CAMP, colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, CPT_DMP, icm/CPT_DMP, *PCOLORPROFILETYPE, icm/CPT_CAMP, COLORPROFILETYPE, CPT_GMMP, icm/COLORPROFILETYPE, CPT_ICC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum  {
 
 
 
-### -field CPT_ICC
+#### - CPT_ICC
 
 Specifies an ICC profile. If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> are valid.
 
 
-### -field CPT_DMP
+#### - CPT_DMP
 
 Specifies a WCS device model profile (DMP). If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> are valid.
 
 
-### -field CPT_CAMP
+#### - CPT_CAMP
 
 Specifies a WCS color appearance model profile (CAMP). If this value is specified, only the CPST_NONE value of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> is valid.
 
 
-### -field CPT_GMMP
+#### - CPT_GMMP
 
 Specifies a WCS gamut map model profile (GMMP). If this value is specified, only the CPST_PERCEPTUAL, CPST_SATURATION, CPST_RELATIVE_COLORIMETRIC, and CPST_ABSOLUTE_COLORIMETRIC values of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> are valid. Any one of these values may optionally be combined (in a bitwise OR operation) with CPST_DEFAULT.
 

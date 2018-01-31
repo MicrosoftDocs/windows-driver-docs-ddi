@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb69e052-1033-457d-bafb-bf4be4ea5966
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl2 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl2::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], OutputDisassemblyLines method [Windows Debugging], IDebugControl interface, IDebugControl3::OutputDisassemblyLines, dbgeng/IDebugControl3::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl3 interface, OutputDisassemblyLines, dbgeng/IDebugControl::OutputDisassemblyLines, IDebugControl3 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, IDebugControl::OutputDisassemblyLines, dbgeng/IDebugControl2::OutputDisassemblyLines, debugger.outputdisassemblylines, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface
+ms.keywords: OutputDisassemblyLines method [Windows Debugging], IDebugControl3 interface, IDebugControl3, dbgeng/IDebugControl::OutputDisassemblyLines, IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, OutputDisassemblyLines, IDebugControl3 interface [Windows Debugging], OutputDisassemblyLines method, debugger.outputdisassemblylines, OutputDisassemblyLines method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], OutputDisassemblyLines method, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl2::OutputDisassemblyLines, IDebugControl3::OutputDisassemblyLines, dbgeng/IDebugControl2::OutputDisassemblyLines, dbgeng/IDebugControl3::OutputDisassemblyLines, IDebugControl::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,27 +77,27 @@ HRESULT OutputDisassemblyLines(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies the output control that determines which client's output callbacks receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-### -param PreviousLines [in]
+#### - PreviousLines [in]
 
 Specifies the number of lines of instructions before the instruction at <i>Offset</i> to include in the output.  Typically, each instruction is output on a single line.  However, some instructions can take up several lines of output; this can cause the number of lines output before the instruction at <i>Offset</i> to be greater than <i>PreviousLines</i>.
 
 
-### -param TotalLines [in]
+#### - TotalLines [in]
 
 Specifies the total number of lines of instructions to include in the output.  Typically, each instruction is output on a single line.  However, some instructions can take up several lines of output; this can cause the number of lines output to be greater than <i>TotalLines</i>.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the target's memory of the instructions to disassemble.  The disassembly output will start <i>PreviousLines</i> lines before these processor instructions.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Specifies the bit-flags that affect the behavior of this method.  The following table lists the bits that can be set.
 <table>
@@ -148,22 +148,22 @@ Include the source file name in the output.
 </table> 
 
 
-### -param OffsetLine [out, optional]
+#### - OffsetLine [out, optional]
 
 Receives the line number in the output that contains the instruction at <i>Offset</i>.  If <i>OffsetLine</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param StartOffset [out, optional]
+#### - StartOffset [out, optional]
 
 Receives the location in the target's memory of the first instruction included in the output.  If <i>StartOffset</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param EndOffset [out, optional]
+#### - EndOffset [out, optional]
 
 Receives the locaiton in the target's memory of the instruction that follows the last disassembled instruction.
 
 
-### -param LineOffsets [out, optional]
+#### - LineOffsets [out, optional]
 
 Receives the locations in the target's memory of the instructions included in the output starting with the instruction at <i>Offset</i>.  <i>LineOffsets</i> is an array that contains <i>TotalLines</i> elements.
 
@@ -209,15 +209,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553211">OutputDisassembly</a>
+<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553211">OutputDisassembly</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

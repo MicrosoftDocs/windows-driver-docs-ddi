@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e9539565-e13f-42ea-9566-066e2c9ae2ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.istidevice_getstatus, GetStatus method [Imaging Devices], IStiDevice interface, IStiDevice::GetStatus, GetStatus method [Imaging Devices], stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, sti/IStiDevice::GetStatus, GetStatus, IStiDevice interface [Imaging Devices], GetStatus method, IStiDevice
+ms.keywords: IStiDevice::GetStatus, IStiDevice interface [Imaging Devices], GetStatus method, sti/IStiDevice::GetStatus, image.istidevice_getstatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices], IStiDevice interface, GetStatus, stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetStatus(
 
 
 
-### -param pDevStatus [in, out]
+#### - pDevStatus [in, out]
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure. The caller must set the <b>dwSize</b> and <b>StatusMask</b> members.
 

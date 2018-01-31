@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2270dbc-0bc3-4bef-9e11-26006d8f0d71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_INTERRUPT_MODERATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_INTERRUPT_MODERATION_PARAMETERS, PNDIS_INTERRUPT_MODERATION_PARAMETERS, _NDIS_INTERRUPT_MODERATION_PARAMETERS, netvista.ndis_interrupt_moderation_parameters, ntddndis/PNDIS_INTERRUPT_MODERATION_PARAMETERS, oid_structures_ref_448cef08-e024-4e5b-a370-fb6e8d78c9cd.xml, NDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_INTERRUPT_MODERATION_PARAMETERS
+ms.keywords: PNDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS, ntddndis/PNDIS_INTERRUPT_MODERATION_PARAMETERS, oid_structures_ref_448cef08-e024-4e5b-a370-fb6e8d78c9cd.xml, _NDIS_INTERRUPT_MODERATION_PARAMETERS, netvista.ndis_interrupt_moderation_parameters, NDIS_INTERRUPT_MODERATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_INTERRUPT_MODERATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_INTERRUPT_MODERATION_PARAMETERS, *PNDIS_INTERRUPT_MODERATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_INTERRUPT_MODERATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS"
+req.typenames: NDIS_INTERRUPT_MODERATION_PARAMETERS, *PNDIS_INTERRUPT_MODERATION_PARAMETERS
 ---
 
 # _NDIS_INTERRUPT_MODERATION_PARAMETERS structure
@@ -72,7 +72,7 @@ typedef struct _NDIS_INTERRUPT_MODERATION_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,7 +83,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_INTERRUPT_MODERATION_PARAMETERS_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR of the following flags:
      
@@ -103,7 +103,7 @@ A miniport driver must complete a halt and reinitialize cycle to enable or disab
        moderation. If this flag is enabled, there is also a hardware reset.
 
 
-### -field InterruptModeration
+#### - InterruptModeration
 
 An NDIS_INTERRUPT_MODERATION-typed value that indicates or specifies the current interrupt
      moderation status.
@@ -156,9 +156,9 @@ The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569590">OID_GEN_INTERRUPT_MODERATION</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569590">OID_GEN_INTERRUPT_MODERATION</a>
 
  
 

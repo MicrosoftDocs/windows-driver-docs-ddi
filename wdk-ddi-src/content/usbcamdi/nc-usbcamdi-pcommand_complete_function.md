@@ -73,17 +73,17 @@ VOID CommandCompleteFunction(
 
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Specifies the user-supplied value or structure relevant to the stream.
 
 
-### -param CommandContext
+#### - CommandContext
 
 Specifies the context passed to <i>CommandCompleteFunction</i> by certain USBCAMD services.
 
 
-### -param NtStatus
+#### - NtStatus
 
 Specifies the completion status of the called function.
 
@@ -112,9 +112,9 @@ USBCAMD_WaitOnDeviceEvent.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
-
 <a href="..\usbcamdi\nf-usbcamdi-usbcamd_controlvendorcommand.md">USBCAMD_ControlVendorCommand</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	pfnStateIaInputLayoutCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB callback

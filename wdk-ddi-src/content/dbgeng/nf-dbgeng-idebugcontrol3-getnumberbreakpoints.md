@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9faffb72-3559-4db7-a02e-3d93dc751ac3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl2::GetNumberBreakpoints, IDebugControl3::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetNumberBreakpoints, GetNumberBreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, IDebugControl::GetNumberBreakpoints, dbgeng/IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], debugger.getnumberbreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method
+ms.keywords: GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl3, IDebugControl3::GetNumberBreakpoints, GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, dbgeng/IDebugControl2::GetNumberBreakpoints, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, debugger.getnumberbreakpoints, IDebugControl::GetNumberBreakpoints, IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], GetNumberBreakpoints method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetNumberBreakpoints(
 
 
 
-### -param Number [out]
+#### - Number [out]
 
 Receives the number of breakpoints.
 
@@ -100,13 +100,13 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

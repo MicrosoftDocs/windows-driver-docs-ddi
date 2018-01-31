@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c07d250-6287-4dd3-96f9-f301bad8b6f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtOpenFile, kernel.zwopenfile, wdm/ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], ZwOpenFile, k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, NtOpenFile
+ms.keywords: ZwOpenFile, k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, NtOpenFile, wdm/NtOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], kernel.zwopenfile, wdm/ZwOpenFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS ZwOpenFile(
 
 
 
-### -param FileHandle [out]
+#### - FileHandle [out]
 
 Pointer to a HANDLE variable that receives a handle to the file.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. For more information, see the <i>DesiredAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
 
 
-### -param ObjectAttributes [in]
+#### - ObjectAttributes [in]
 
 Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
-### -param IoStatusBlock [out]
+#### - IoStatusBlock [out]
 
 Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation.
 
 
-### -param ShareAccess [in]
+#### - ShareAccess [in]
 
 Specifies the type of share access for the file. For more information, see the <i>ShareAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
 
 
-### -param OpenOptions [in]
+#### - OpenOptions [in]
 
 Specifies the options to apply when opening the file. For more information, see the <i>CreateOptions</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
 
@@ -126,13 +126,13 @@ Callers of <b>ZwOpenFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: icm/WcsEnumColorProfilesSize, WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize, colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, WcsEnumColorProfilesSize function [Print Devices]
+ms.keywords: icm/WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize, WcsEnumColorProfilesSize function [Print Devices], colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, WcsEnumColorProfilesSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ BOOL WcsEnumColorProfilesSize(
 TBD
 
 
-### -param pEnumRecord [in]
+#### - pEnumRecord [in]
 
 A pointer to a structure that specifies the enumeration criteria.
 
 
-### -param pdwSize [out]
+#### - pdwSize [out]
 
 A pointer to a variable that receives the size of the buffer that is required to receive all enumerated profile names. This value is used by the <i>dwSize</i> parameter of the <a href="..\icm\nf-icm-wcsenumcolorprofiles.md">WcsEnumColorProfiles</a> function.
 
@@ -98,9 +98,9 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
-
 <a href="..\icm\nf-icm-wcsenumcolorprofiles.md">WcsEnumColorProfiles</a>
+
+<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
  
 

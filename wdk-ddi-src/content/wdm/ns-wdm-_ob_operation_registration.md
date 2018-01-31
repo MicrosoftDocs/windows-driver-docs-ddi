@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06da3ec0-b8d3-4bd8-8270-ead38b7deada
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ob_operation_registration, PsThreadType, _OB_OPERATION_REGISTRATION, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, POB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, POB_OPERATION_REGISTRATION, PsProcessType, wdm/POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], wdm/OB_OPERATION_REGISTRATION, PsThreadType, *POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], OB_OPERATION_REGISTRATION, _OB_OPERATION_REGISTRATION, kernel.ob_operation_registration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _OB_OPERATION_REGISTRATION {
 
 
 
-### -field ObjectType
+#### - ObjectType
 
 A pointer to the object type that triggers the callback routine. Specify one of the following values:
 <ul>
@@ -82,7 +82,7 @@ A pointer to the object type that triggers the callback routine. Specify one of 
 <li><b>ExDesktopObjectType</b> for desktop handle operations. This value is supported in Windows 10 and not in the earlier versions of the operating system.</li>
 </ul>
 
-### -field Operations
+#### - Operations
 
 Specify one or more of the following flags:
 
@@ -99,12 +99,12 @@ A new process, thread, or desktop handle was or will be opened.
 A process, thread, or desktop handle was or will be duplicated.
 
 
-### -field PreOperation
+#### - PreOperation
 
 A pointer to an <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a> routine. The system calls this routine before the requested operation occurs.
 
 
-### -field PostOperation
+#### - PostOperation
 
 A pointer to an <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a> routine. The system calls this routine after the requested operation occurs.
 
@@ -120,13 +120,13 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
-
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+<a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
 
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
-<a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
+<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
  
 

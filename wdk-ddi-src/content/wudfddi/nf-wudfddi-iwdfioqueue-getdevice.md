@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1c1a67e-a18d-4eef-88ce-cd7edd371f54
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue::GetDevice, IWDFIoQueue interface, GetDevice method, IWDFIoQueue, wdf.iwdfioqueue_getdevice, GetDevice method, GetDevice, umdf.iwdfioqueue_getdevice, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, GetDevice method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::GetDevice
+ms.keywords: wudfddi/IWDFIoQueue::GetDevice, IWDFIoQueue::GetDevice, umdf.iwdfioqueue_getdevice, wdf.iwdfioqueue_getdevice, IWDFIoQueue, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, IWDFIoQueue interface, GetDevice method, GetDevice method, GetDevice, GetDevice method, IWDFIoQueue interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.GetDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ void GetDevice(
 
 
 
-### -param ppWdfDevice [out]
+#### - ppWdfDevice [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object, if the call succeeds; otherwise, this parameter is <b>NULL</b>.
 

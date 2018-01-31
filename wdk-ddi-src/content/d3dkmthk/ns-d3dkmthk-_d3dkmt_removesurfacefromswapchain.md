@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 249a2bfc-7326-480f-bcc0-8d5104a9c890
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices], d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
+ms.keywords: d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain, _D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _D3DKMT_REMOVESURFACEFROMSWAPCHAIN {
 
 
 
-### -field hNtSwapChain
+#### - hNtSwapChain
 
 The NT handle for the swapchain in this process.
 
 
-### -field bProducer
+#### - bProducer
 
 Indicates if the handle is a producer or consumer.
 
 
-### -field hNtSurfaceHandle
+#### - hNtSurfaceHandle
 
 The NT handle of the surface to remove.
 
 
-### -field BufferIdx
+#### - BufferIdx
 
 The buffer index of the surface to remove.
 

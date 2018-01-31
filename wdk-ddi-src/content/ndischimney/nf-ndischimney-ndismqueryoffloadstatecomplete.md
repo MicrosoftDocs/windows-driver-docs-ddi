@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismqueryoffloadstatecomplete, ndischimney/NdisMQueryOffloadStateComplete, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], NdisMQueryOffloadStateComplete
+ms.keywords: tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml, ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ VOID NdisMQueryOffloadStateComplete(
 
 
 
-### -param NdisMiniportHandle [in]
+#### - NdisMiniportHandle [in]
 
 The handle that the offload driver obtained in a previous call to 
      <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
      NdisMRegisterMiniportDriver</b></mshelp:link>.
 
 
-### -param OffloadBlockList [in]
+#### - OffloadBlockList [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>

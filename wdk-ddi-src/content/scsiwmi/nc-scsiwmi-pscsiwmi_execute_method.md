@@ -75,42 +75,42 @@ BOOLEAN HwScsiWmiExecuteMethod(
 
 
 
-### -param DeviceContext [in]
+#### - DeviceContext [in]
 
 Points to the miniport driver-defined context value passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-### -param RequestContext [in]
+#### - RequestContext [in]
 
 Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-### -param GuidIndex [in]
+#### - GuidIndex [in]
 
 Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-### -param InstanceIndex [in]
+#### - InstanceIndex [in]
 
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> specifies the instance.
 
 
-### -param MethodId [in]
+#### - MethodId [in]
 
 Specifies the ID of the method to execute. The miniport driver defines the method ID as an item in a data block.
 
 
-### -param InBufferSize [in]
+#### - InBufferSize [in]
 
 Indicates the size in bytes of the input data. If there is no input data, <i>InBufferSize</i> is zero. 
 
 
-### -param OutBufferSize [in]
+#### - OutBufferSize [in]
 
 Indicates the number of bytes available in the buffer for output data. 
 
 
-### -param Buffer [in, out]
+#### - Buffer [in, out]
 
 Points to a buffer that holds the input data and receives the output data, if any, from the method. If the buffer is too small to receive all of the output, the miniport driver calls <b>ScsiPortWmiPostProcess</b> with SRB_STATUS_DATA_OVERRUN and the size required.
 
@@ -137,13 +137,13 @@ The miniport driver executes the method and writes output, if any, to the buffer
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
-
 <a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
  
 

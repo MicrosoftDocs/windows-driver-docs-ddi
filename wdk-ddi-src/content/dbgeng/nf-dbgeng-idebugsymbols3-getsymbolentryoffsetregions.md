@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 986774F6-5256-4703-990A-EAB4AB09AF55
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method, IDebugSymbols3::GetSymbolEntryOffsetRegions, IDebugSymbols3, GetSymbolEntryOffsetRegions method [Windows Debugging], GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT GetSymbolEntryOffsetRegions(
 
 
 
-### -param Id [in]
+#### - Id [in]
 
 The ID of a module as a pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure. 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param Regions [out]
+#### - Regions [out]
 
 The memory regions associated with the symbol. 
 
 
-### -param RegionsCount [in]
+#### - RegionsCount [in]
 
 The number of regions associated with the symbol.
 
 
-### -param RegionsAvail [out, optional]
+#### - RegionsAvail [out, optional]
 
 A pointer to the number of regions available to the symbol. 
 

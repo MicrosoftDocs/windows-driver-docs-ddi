@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 044af92b-b77c-415c-9ca5-4436bfe497e5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], WHEA_XPF_CONTEXT_INFO, whea.whea_xpf_context_info, ntddk/PWHEA_XPF_CONTEXT_INFO, whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml, _WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, ntddk/WHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications]
+ms.keywords: whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml, _WHEA_XPF_CONTEXT_INFO, ntddk/PWHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO, whea.whea_xpf_context_info, *PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, ntddk/WHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_CONTEXT_INFO
 product: Windows
 targetos: Windows
-req.typenames: WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO
+req.typenames: "*PWHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO"
 ---
 
 # _WHEA_XPF_CONTEXT_INFO structure
@@ -71,7 +71,7 @@ typedef struct _WHEA_XPF_CONTEXT_INFO {
 
 
 
-### -field RegisterContextType
+#### - RegisterContextType
 
 The type of processor context information described by the structure. Possible values are:
 
@@ -118,17 +118,17 @@ Floating point registers as saved by the FXSAVE instruction. For more informatio
 Memory mapped registers.
 
 
-### -field RegisterDataSize
+#### - RegisterDataSize
 
 The size, in bytes, of the register data that is contained in the <b>RegisterData</b> member.
 
 
-### -field MSRAddress
+#### - MSRAddress
 
 The starting address of the machine-specific registers. This member contains valid data only if the <b>RegisterContextType</b> member is set to either XPF_CONTEXT_INFO_UNCLASSIFIEDDATA or XPF_CONTEXT_INFO_MSRREGISTERS. For all other types of processor context information, this member should contain zero.
 
 
-### -field MmRegisterAddress
+#### - MmRegisterAddress
 
 The starting memory address of the memory mapped registers. This member contains valid data only if the <b>RegisterContextType</b> member is set to XPF_CONTEXT_INFO_MMREGISTERS. For all other types of processor context information, this member should contain zero.
 
@@ -196,9 +196,9 @@ The <b>VariableInfo</b> member of the <a href="..\ntddk\ns-ntddk-whea_xpf_proces
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_x86_register_state.md">WHEA_X86_REGISTER_STATE</a>
+
+<a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_x64_register_state.md">WHEA_X64_REGISTER_STATE</a>
 

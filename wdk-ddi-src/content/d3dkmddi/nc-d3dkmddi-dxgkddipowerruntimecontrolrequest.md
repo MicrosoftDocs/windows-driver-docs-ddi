@@ -76,37 +76,37 @@ _Check_return_ NTSTATUS APIENTRY* DxgkDdiPowerRuntimeControlRequest(
 
 
 
-### -param DriverContext [in]
+#### - DriverContext [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param PowerControlCode [in]
+#### - PowerControlCode [in]
 
 A pointer to a GUID that defines the meaning of the PEP's control request. For more information, see Remarks.
 
 
-### -param InBuffer [in, optional]
+#### - InBuffer [in, optional]
 
 An optional pointer to an input buffer.
 
 
-### -param InBufferSize [in]
+#### - InBufferSize [in]
 
 The size, in bytes, of the buffer that <i>InBuffer</i> points to.
 
 
-### -param OutBuffer [out, optional]
+#### - OutBuffer [out, optional]
 
 An optional pointer to an output buffer.
 
 
-### -param OutBufferSize [in]
+#### - OutBufferSize [in]
 
 The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
 
-### -param BytesReturned [out, optional]
+#### - BytesReturned [out, optional]
 
 An optional pointer to a buffer that contains the number of bytes that are written by the display miniport driver to the output buffer.
 
@@ -211,17 +211,17 @@ The operating system guarantees that this function follows the zero level synchr
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentlatency.md">DxgkCbSetPowerComponentLatency</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentresidency.md">DxgkCbSetPowerComponentResidency</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentlatency.md">DxgkCbSetPowerComponentLatency</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
  
 

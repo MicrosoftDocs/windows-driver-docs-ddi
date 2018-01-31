@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c90119a8-c93b-4432-b164-b1f4c562ef2d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetStackOffset2, GetStackOffset2 method [Windows Debugging], dbgeng/IDebugRegisters2::GetStackOffset2, IDebugRegisters2, GetStackOffset2, debugger.getstackoffset2
+ms.keywords: GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetStackOffset2, debugger.getstackoffset2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, IDebugRegisters2, GetStackOffset2 method [Windows Debugging], GetStackOffset2, IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, dbgeng/IDebugRegisters2::GetStackOffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetStackOffset2(
 
 
 
-### -param Source [in]
+#### - Source [in]
 
 Specifies the register source to query.
 
@@ -113,7 +113,7 @@ Fetch register information from the current scope's register context.
 </table> 
 
 
-### -param Offset [out]
+#### - Offset [out]
 
 Receives the location in the process's virtual address space of the current thread's current stack.
 

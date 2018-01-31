@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 246ded7a-4f75-469d-bdba-860ce3cd6b44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisinterlockedincrement, ndis/NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], NdisInterlockedIncrement, ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml
+ms.keywords: NdisInterlockedIncrement, netvista.ndisinterlockedincrement, ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,7 +70,7 @@ LONG NdisInterlockedIncrement(
 
 
 
-### -param Addend [in]
+#### - Addend [in]
 
 A pointer to a variable of type LONG.
 

@@ -71,16 +71,14 @@ SIZE_T  APIENTRY* pfnCalcPrivateVideoProcessorSize(
 
 
 
-### -param hDrvDevice
+#### - hDrvDevice
 
 The handler of a device.
 
 
-### -param *pArgs
+#### - *pArgs [in]
 
-
-
-
+The arguments used to create a video processor.
 
 
 #### - pArgs [in]

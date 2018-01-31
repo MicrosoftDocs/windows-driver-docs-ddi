@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 65cbed1a-35f9-44f7-941a-ffc87cc79649
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortDeviceReady, storage.ataportdeviceready, atartns_28cebf8c-cdda-46f4-9785-184552630769.xml, irb/AtaPortDeviceReady, AtaPortDeviceReady routine [Storage Devices]
+ms.keywords: AtaPortDeviceReady, atartns_28cebf8c-cdda-46f4-9785-184552630769.xml, irb/AtaPortDeviceReady, storage.ataportdeviceready, AtaPortDeviceReady routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID __inline AtaPortDeviceReady(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-### -param TargetId [in]
+#### - TargetId [in]
 
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
+#### - Lun [in]
 
 Specifies the logical unit number (LUN) of the device.
 

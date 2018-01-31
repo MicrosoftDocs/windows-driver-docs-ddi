@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, ntifs/NtCreateEvent, kernel.zwcreateevent, ZwCreateEvent, ntifs/ZwCreateEvent, NtCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture]
+ms.keywords: k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, ntifs/NtCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture], ZwCreateEvent, kernel.zwcreateevent, NtCreateEvent, ntifs/ZwCreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS ZwCreateEvent(
 
 
 
-### -param EventHandle [out]
+#### - EventHandle [out]
 
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
 
 
-### -param DesiredAccess [in]
+#### - DesiredAccess [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
 <table>
@@ -100,17 +100,17 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCES
 </table> 
 
 
-### -param ObjectAttributes [in, optional]
+#### - ObjectAttributes [in, optional]
 
 A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the <b>ObjectName</b> and the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>, for example. This parameter is initialized by calling the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro.
 
 
-### -param EventType [in]
+#### - EventType [in]
 
 The type of the event, which can be <b>SynchronizationEvent</b> or a <b>NotificationEvent</b>. These values belong to the <b>EVENT_TYPE</b> enumeration, which is defined in the Ntdef.h header file.  The event type can be modified with the REALTIME_OBJECT_FLAG modifier to provide priority-ordered queuing of wait requests.
 
 
-### -param InitialState [in]
+#### - InitialState [in]
 
 The initial state of the event object. Set to <b>TRUE</b> to initialize the event object to the Signaled state. Set to <b>FALSE</b> to initialize the event object to the not-Signaled state.
 
@@ -244,29 +244,29 @@ For more information about events, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
 <a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
+
+<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

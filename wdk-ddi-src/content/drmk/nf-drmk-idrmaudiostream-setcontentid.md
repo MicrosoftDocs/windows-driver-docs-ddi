@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0e9d13e8-c351-4730-8f00-6c149f824af0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IDrmAudioStream, IDrmAudioStream::SetContentId, SetContentId method [Audio Devices], IDrmAudioStream interface, SetContentId method [Audio Devices], audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, audio.idrmaudiostream_setcontentid, IDrmAudioStream interface [Audio Devices], SetContentId method, SetContentId, drmk/IDrmAudioStream::SetContentId
+ms.keywords: IDrmAudioStream interface [Audio Devices], SetContentId method, IDrmAudioStream, SetContentId method [Audio Devices], IDrmAudioStream interface, IDrmAudioStream::SetContentId, SetContentId, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, drmk/IDrmAudioStream::SetContentId, SetContentId method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDrmAudioStream.SetContentId
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # IDrmAudioStream::SetContentId method
@@ -68,12 +68,12 @@ NTSTATUS SetContentId(
 
 
 
-### -param ContentId [in]
+#### - ContentId [in]
 
 Specifies the DRM content ID. This parameter is an identifier that the DRM system generates at run time to identify DRM-protected content in this stream.
 
 
-### -param DrmRights [in]
+#### - DrmRights [in]
 
 Pointer to a <a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a> structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
 
@@ -100,19 +100,19 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 <a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
  
 

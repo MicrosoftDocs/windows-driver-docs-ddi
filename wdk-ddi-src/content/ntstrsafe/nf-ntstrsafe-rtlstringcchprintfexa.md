@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b43acd5-9204-41ff-8c63-76769bfa5469
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], RtlStringCchPrintfEx, ntstrsafe/RtlStringCchPrintfExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCchPrintfExA, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml, STRSAFE_FILL_ON_FAILURE, kernel.rtlstringcchprintfex, ntstrsafe/RtlStringCchPrintfExA, RtlStringCchPrintfExW
+ms.keywords: STRSAFE_NULL_ON_FAILURE, RtlStringCchPrintfEx, ntstrsafe/RtlStringCchPrintfExA, kernel.rtlstringcchprintfex, STRSAFE_FILL_ON_FAILURE, RtlStringCchPrintfExA, RtlStringCchPrintfExW, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml, STRSAFE_FILL_BEHIND_NULL, ntstrsafe/RtlStringCchPrintfExW, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,27 +76,27 @@ NTSTATUS RtlStringCchPrintfExW(
 
 
 
-### -param pszDest [out, optional]
+#### - pszDest [out, optional]
 
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cchDest [in]
+#### - cchDest [in]
 
 The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. If <i>pszDest</i> is <b>NULL</b>, <i>cchDest</i> must be zero.
 
 
-### -param ppszDestEnd [out, optional]
+#### - ppszDestEnd [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer then, after the operation completes, the function loads that address with a pointer to the destination buffer's resulting <b>NULL</b> string terminator. 
 
 
-### -param pcchRemaining [out, optional]
+#### - pcchRemaining [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused characters in the buffer pointed to by <i>pszDest</i>, including the terminating null character.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 <table>
@@ -157,7 +157,7 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </table> 
 
 
-### -param pszFormat [in]
+#### - pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 

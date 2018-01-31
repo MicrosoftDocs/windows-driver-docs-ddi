@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1f91c2ef-300d-43f5-8d2c-d4f2fd326915
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, FsRtlAcknowledgeEcp routine [Installable File System Drivers], ifsk.fsrtlacknowledgeecp, FsRtlAcknowledgeEcp, ntifs/FsRtlAcknowledgeEcp
+ms.keywords: FsRtlAcknowledgeEcp, fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, ifsk.fsrtlacknowledgeecp, ntifs/FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID FsRtlAcknowledgeEcp(
 
 
 
-### -param EcpContext [in]
+#### - EcpContext [in]
 
 A pointer to the ECP to mark as acknowledged.
 
@@ -94,17 +94,17 @@ You can use the <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltI
 
 <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltIsEcpAcknowledged</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
  
 

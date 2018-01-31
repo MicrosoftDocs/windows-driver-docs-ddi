@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvPerformCapabilityMatch
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -79,7 +79,7 @@ DWORD APIENTRY Dot11ExtIhvPerformCapabilityMatch(
 
 
 
-### -param hIhvExtAdapter [in, optional]
+#### - hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -87,7 +87,7 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-### -param pIhvProfileParams [in, optional]
+#### - pIhvProfileParams [in, optional]
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11ext_ihv_profile_params" tabindex="0"><b>
@@ -95,7 +95,7 @@ A pointer to a
      set (BSS) network to which the profile extensions will be applied.
 
 
-### -param pIhvConnProfile [in]
+#### - pIhvConnProfile [in]
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
@@ -103,7 +103,7 @@ A pointer to a
      profile.
 
 
-### -param pIhvSecProfile [in]
+#### - pIhvSecProfile [in]
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11ext_ihv_security_profile" tabindex="0"><b>
@@ -111,7 +111,7 @@ A pointer to a
      profile.
 
 
-### -param pConnectableBssid [in, optional]
+#### - pConnectableBssid [in, optional]
 
 A pointer to a 
      <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a> structure, which contains one
@@ -123,7 +123,7 @@ A pointer to a
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div><div> </div>
 
-### -param pdwReasonCode [out]
+#### - pdwReasonCode [out]
 
 A pointer to a DWORD value, which provides additional information for the return value of the 
      <i>Dot11ExtIhvPerformCapabilityMatch</i> function. The IHV Extensions DLL must set *
@@ -201,16 +201,16 @@ In this situation, the
 
 ## -see-also
 
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
    DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
 <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
 
  
 

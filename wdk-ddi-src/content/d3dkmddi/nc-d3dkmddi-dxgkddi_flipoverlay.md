@@ -71,12 +71,12 @@ NTSTATUS APIENTRY DxgkDdiFlipOverlay(
 
 
 
-### -param hOverlay [in]
+#### - hOverlay [in]
 
 [in] A handle to the overlay to be flipped. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a> structure. 
 
 
-### -param pFlipOverlay [in]
+#### - pFlipOverlay [in]
 
 [in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_flipoverlay.md">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 

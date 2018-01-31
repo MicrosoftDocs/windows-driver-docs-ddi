@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, iscsiop/SetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, iscsiop/PSetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], PSetCHAPSharedSecret_IN structure pointer [Storage Devices], _SetCHAPSharedSecret_IN, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml
+ms.keywords: structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml, iscsiop/PSetCHAPSharedSecret_IN, _SetCHAPSharedSecret_IN, iscsiop/SetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], storage.setchapsharedsecret_in, *PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], SetCHAPSharedSecret_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetCHAPSharedSecret_IN
 product: Windows
 targetos: Windows
-req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
+req.typenames: "*PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN"
 ---
 
 # _SetCHAPSharedSecret_IN structure
@@ -68,12 +68,12 @@ typedef struct _SetCHAPSharedSecret_IN {
 
 
 
-### -field SharedSecretSize
+#### - SharedSecretSize
 
 The size, in bytes, of the shared secret.
 
 
-### -field SharedSecret
+#### - SharedSecret
 
 A variable-length array that contains the shared secret.
 
@@ -87,9 +87,9 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
-
 <a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_out.md">SetCHAPSharedSecret_OUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b0610a-dffa-48fb-bc5a-355fa9f05770
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], *PSTORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, STORAGE_IDENTIFIER structure [Storage Devices], storage.storage_identifier, STORAGE_IDENTIFIER, _STORAGE_IDENTIFIER, ntddstor/PSTORAGE_IDENTIFIER
+ms.keywords: PSTORAGE_IDENTIFIER structure pointer [Storage Devices], ntddstor/PSTORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, STORAGE_IDENTIFIER, storage.storage_identifier, PSTORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, _STORAGE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _STORAGE_IDENTIFIER {
 
 
 
-### -field CodeSet
+#### - CodeSet
 
 Specifies the code set used by a SCSI identification descriptor to identify a logical unit.
 
 
-### -field Type
+#### - Type
 
 Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a> that indicates the identifier type.
 
 
-### -field IdentifierSize
+#### - IdentifierSize
 
 Specifies the size in bytes of the identifier.
 
 
-### -field NextOffset
+#### - NextOffset
 
 Specifies the offset in bytes from the current descriptor to the next descriptor.
 
 
-### -field Association
+#### - Association
 
 Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566349">STORAGE_ASSOCIATION_TYPE</a> that indicates whether the descriptor identifies a device or a port.
 
 
-### -field Identifier
+#### - Identifier
 
 Contains the identifier associated with this descriptor.
 

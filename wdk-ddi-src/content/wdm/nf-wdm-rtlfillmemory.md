@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlfillmemory, wdm/RtlFillMemory, RtlFillMemory, k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, RtlFillMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, kernel.rtlfillmemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], RtlFillMemory, wdm/RtlFillMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -72,17 +72,17 @@ VOID RtlFillMemory(
 
 
 
-### -param Destination [out]
+#### - Destination [out]
 
 A pointer to the block of memory to be filled.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The number of bytes in the block of memory to be filled.
 
 
-### -param Fill [in]
+#### - Fill [in]
 
 The value to fill the destination memory block with. This value is copied to every byte in the memory block that is defined by <i>Destination</i> and <i>Length</i>.
 

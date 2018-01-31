@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cf518a6b-275f-4f9c-9aa8-e2e96c468ff9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetUnnamedArg, debugger.setunnamedarg, ExtExtension::SetUnnamedArg, ExtExtension class [Windows Debugging], SetUnnamedArg method, EngExtCpp_Ref_662530e0-caca-43f0-8b46-b21c8a1f00da.xml, SetUnnamedArg method [Windows Debugging], SetUnnamedArg method [Windows Debugging], ExtExtension class, ExtExtension
+ms.keywords: ExtExtension, SetUnnamedArg, EngExtCpp_Ref_662530e0-caca-43f0-8b46-b21c8a1f00da.xml, SetUnnamedArg method [Windows Debugging], SetUnnamedArg method [Windows Debugging], ExtExtension class, debugger.setunnamedarg, ExtExtension::SetUnnamedArg, ExtExtension class [Windows Debugging], SetUnnamedArg method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.SetUnnamedArg
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtExtension::SetUnnamedArg method
@@ -70,12 +70,12 @@ bool SetUnnamedArg(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
 
 
-### -param StrArg [in, optional]
+#### - StrArg [in, optional]
 
 A string that specifies the value of the unnamed argument.
 
@@ -86,12 +86,12 @@ If the argument is of type <b>expression</b>, <i>StrArg</i> is evaluated using t
 If the argument is of type <b>Boolean</b>, <i>StrArg</i> is ignored and can be <b>NULL</b>.
 
 
-### -param NumArg [in]
+#### - NumArg [in]
 
 Specifies the value of an unnamed expression argument.  <i>NumArg</i> is only used if the argument is of type <b>expression</b> and <i>StrArg</i> is <b>NULL</b>.
 
 
-### -param OnlyIfUnset [in]
+#### - OnlyIfUnset [in]
 
 Specifies what happens if the argument is already set.  If <i>OnlyIfUnset</i> is <code>true</code> and the argument has already been set, the argument will not be changed.  If <i>OnlyIfUnset</i> is <code>false</code> and the argument has already been set, the argument will be changed.
 

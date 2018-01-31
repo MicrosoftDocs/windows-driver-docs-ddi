@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6c595f2-a493-453a-a744-7ce6577ae29e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortGetPhysicalAddress routine [Storage Devices], atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml, AtaPortGetPhysicalAddress, storage.ataportgetphysicaladdress, irb/AtaPortGetPhysicalAddress
+ms.keywords: AtaPortGetPhysicalAddress routine [Storage Devices], AtaPortGetPhysicalAddress, irb/AtaPortGetPhysicalAddress, storage.ataportgetphysicaladdress, atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ IDE_PHYSICAL_ADDRESS AtaPortGetPhysicalAddress(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-### -param Irb [in, optional]
+#### - Irb [in, optional]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) for which the address range is converted. 
 
 
-### -param VirtualAddress [in, optional]
+#### - VirtualAddress [in, optional]
 
 A pointer to the base virtual address to convert. 
 
 
-### -param Length [out, optional]
+#### - Length [out, optional]
 
 Returns the number of mapped bytes starting at the returned physical address. 
 

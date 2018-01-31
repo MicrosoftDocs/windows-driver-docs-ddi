@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtPreAssociateCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ DWORD WINAPI * Dot11ExtPreAssociateCompletion(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -83,7 +83,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-### -param hConnectSession [in, optional]
+#### - hConnectSession [in, optional]
 
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the 
@@ -91,7 +91,7 @@ The handle used by the operating system to reference the connection session with
      Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
 
 
-### -param dwReasonCode [in]
+#### - dwReasonCode [in]
 
 A value that provides additional information for the completion status of the pre-association
      operation. The IHV Extensions DLL must set 
@@ -106,7 +106,7 @@ The IHV Extensions DLL returns the general completion status of the pre-associat
      L2_REASON_CODE_GROUP_SIZE-1).
 
 
-### -param dwWin32Error [in]
+#### - dwWin32Error [in]
 
 The completion status of the pre-association operation as defined by an error code within 
      Winerror.h. If the operation completes successfully, the IHV Extensions DLL must set 
@@ -184,8 +184,6 @@ The IHV Extensions DLL must call
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
@@ -195,6 +193,8 @@ The IHV Extensions DLL must call
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
  
 

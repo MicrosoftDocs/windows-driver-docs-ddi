@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e78fa9ba-7573-47db-b4d8-9b7584d5b432
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_VideoPropertyRange, dxva/DXVA_VideoPropertyRange, dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml, display.dxva_videopropertyrange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], _DXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], DXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange, dxva/LPDXVA_VideoPropertyRange
+ms.keywords: display.dxva_videopropertyrange, DXVA_VideoPropertyRange, _DXVA_VideoPropertyRange, dxva/LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml, dxva/DXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXVA_VideoPropertyRange {
 
 
 
-### -field MinValue
+#### - MinValue
 
 Specifies the minimum value allowed for a given property.
 
 
-### -field MaxValue
+#### - MaxValue
 
 Specifies the maximum value allowed for a given property.
 
 
-### -field DefaultValue
+#### - DefaultValue
 
 Specifies the default value for a given property.
 
 
-### -field StepSize
+#### - StepSize
 
 Specifies the step size increment for a given property.
 

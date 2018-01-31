@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f436ac1-1e36-449c-a23f-b5729e5a20c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactiondmacompletedwithlength, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength, DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, PFN_WDFDMATRANSACTIONDMACOMPLETEDWITHLENGTH, wdf.wdfdmatransactiondmacompletedwithlength, WdfDmaTransactionDmaCompletedWithLength, WdfDmaTransactionDmaCompletedWithLength method
+ms.keywords: DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, wdf.wdfdmatransactiondmacompletedwithlength, PFN_WDFDMATRANSACTIONDMACOMPLETEDWITHLENGTH, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength, kmdf.wdfdmatransactiondmacompletedwithlength, WdfDmaTransactionDmaCompletedWithLength method, WdfDmaTransactionDmaCompletedWithLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ BOOLEAN WdfDmaTransactionDmaCompletedWithLength(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 
 
-### -param TransferredLength [in]
+#### - TransferredLength [in]
 
 The number of bytes that the device transferred in the current DMA transfer.
 
 
-### -param Status [out]
+#### - Status [out]
 
 A pointer to a location that receives the status of the DMA transfer. For more information, see the Remarks section for <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>.
 
@@ -112,11 +112,11 @@ For more information about completing DMA transfers, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetcurrentdmatransferlength.md">WdfDmaTransactionGetCurrentDmaTransferLength</a>
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
 
  
 

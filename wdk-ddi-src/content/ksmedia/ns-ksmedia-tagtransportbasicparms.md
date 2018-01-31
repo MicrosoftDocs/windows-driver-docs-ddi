@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], stream.transportbasicparms, PTRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], ksmedia/TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS, tagTRANSPORTBASICPARMS, TRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml, ksmedia/PTRANSPORTBASICPARMS
+ms.keywords: TRANSPORTBASICPARMS structure [Streaming Media Devices], PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml, *PTRANSPORTBASICPARMS, stream.transportbasicparms, ksmedia/TRANSPORTBASICPARMS, TRANSPORTBASICPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSPORTBASICPARMS
 product: Windows
 targetos: Windows
-req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
+req.typenames: "*PTRANSPORTBASICPARMS, TRANSPORTBASICPARMS"
 ---
 
 # tagTRANSPORTBASICPARMS structure
@@ -96,7 +96,7 @@ typedef struct tagTRANSPORTBASICPARMS {
 
 
 
-### -field TimeFormat
+#### - TimeFormat
 
 Indicates the basic time format.
 <table>
@@ -157,7 +157,7 @@ Binary coded decimal, representing tracks, minutes, seconds, and frames
 </table> 
 
 
-### -field TimeReference
+#### - TimeReference
 
 Indicates the basic time reference.
 <table>
@@ -198,12 +198,12 @@ Index
 </table> 
 
 
-### -field Superimpose
+#### - Superimpose
 
 Indicates whether to enable or disable the onscreen display. Specify <b>TRUE</b> to enable, <b>FALSE</b> to disable.
 
 
-### -field EndStopAction
+#### - EndStopAction
 
 Specifies the stop action.
 <table>
@@ -244,7 +244,7 @@ Freeze/pause
 </table> 
 
 
-### -field RecordFormat
+#### - RecordFormat
 
 Indicates the basic record format.
 <table>
@@ -285,62 +285,62 @@ Extended play
 </table> 
 
 
-### -field StepFrames
+#### - StepFrames
 
 Indicates the frame step count.
 
 
-### -field SetpField
+#### - SetpField
 
 Indicates the field step count.
 
 
-### -field Preroll
+#### - Preroll
 
 Indicates the preroll amount.
 
 
-### -field RecPreroll
+#### - RecPreroll
 
 Indicates the record preroll amount.
 
 
-### -field Postroll
+#### - Postroll
 
 Indicates the postroll amount.
 
 
-### -field EditDelay
+#### - EditDelay
 
 Indicates the edit delay amount.
 
 
-### -field PlayTCDelay
+#### - PlayTCDelay
 
 Indicates the play timecode delay amount.
 
 
-### -field RecTCDelay
+#### - RecTCDelay
 
 Indicates the record timecode delay amount.
 
 
-### -field EditField
+#### - EditField
 
 Indicates the edit field.
 
 
-### -field FrameServo
+#### - FrameServo
 
 Specifies the frame servo.
 
 
-### -field ColorFrameServo
+#### - ColorFrameServo
 
 Specifies the color frame servo.
 
 
-### -field ServoRef
+#### - ServoRef
 
 Specifies the servo ref.
 <table>
@@ -391,12 +391,12 @@ Auto
 </table> 
 
 
-### -field WarnGenlock
+#### - WarnGenlock
 
 Indicates the warn genlock.
 
 
-### -field SetTracking
+#### - SetTracking
 
 Specifies the tracking.
 <table>
@@ -437,57 +437,57 @@ Reset
 </table> 
 
 
-### -field VolumeName
+#### - VolumeName
 
 Specifies the volume name.
 
 
-### -field Ballistic
+#### - Ballistic
 
 Specifies any proprietary data.
 
 
-### -field Speed
+#### - Speed
 
 Specifies the speed.
 
 
-### -field CounterFormat
+#### - CounterFormat
 
 Specifies the counter format.
 
 
-### -field TunerChannel
+#### - TunerChannel
 
 Indicates the tuner channel.
 
 
-### -field TunerNumber
+#### - TunerNumber
 
 Indicates the tuner number.
 
 
-### -field TimerEvent
+#### - TimerEvent
 
 Specifies a timer event.
 
 
-### -field TimerStartDay
+#### - TimerStartDay
 
 Indicates the timer start-day.
 
 
-### -field TimerStartTime
+#### - TimerStartTime
 
 Indicates the timer start-time.
 
 
-### -field TimerStopDay
+#### - TimerStopDay
 
 Indicates the timer stop-day.
 
 
-### -field TimerStopTime
+#### - TimerStopTime
 
 Indicates the timer stop-time.
 

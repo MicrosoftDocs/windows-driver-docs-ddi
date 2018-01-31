@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55fa9dd4-370e-4f72-be40-4f14373cee27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_pin_mode, WwanPinModeDisabled, PWWAN_PIN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanPinModeDisabled, wwan/PWWAN_PIN_MODE, WwanRef_43194a1d-461a-4793-bb0b-40354466610c.xml, WwanPinModeNotSupported, WwanPinModeEnabled, wwan/WwanPinModeNotSupported, PWWAN_PIN_MODE, _WWAN_PIN_MODE, wwan/WWAN_PIN_MODE, WwanPinModeMax, *PWWAN_PIN_MODE, wwan/WwanPinModeMax, WWAN_PIN_MODE enumeration [Network Drivers Starting with Windows Vista], WWAN_PIN_MODE, wwan/WwanPinModeEnabled
+ms.keywords: wwan/WwanPinModeDisabled, PWWAN_PIN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_PIN_MODE, WwanRef_43194a1d-461a-4793-bb0b-40354466610c.xml, WwanPinModeDisabled, wwan/PWWAN_PIN_MODE, *PWWAN_PIN_MODE, _WWAN_PIN_MODE, WwanPinModeNotSupported, WwanPinModeEnabled, wwan/WwanPinModeNotSupported, WwanPinModeMax, WWAN_PIN_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPinModeEnabled, netvista.wwan_pin_mode, WWAN_PIN_MODE, wwan/WWAN_PIN_MODE, wwan/WwanPinModeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_MODE, WWAN_PIN_MODE"
+req.typenames: WWAN_PIN_MODE, *PWWAN_PIN_MODE
 req.product: Windows 10 or later.
 ---
 
@@ -72,22 +72,22 @@ typedef enum _WWAN_PIN_MODE {
 
 
 
-### -field WwanPinModeNotSupported
+#### - WwanPinModeNotSupported
 
 The PIN type is not supported.
 
 
-### -field WwanPinModeEnabled
+#### - WwanPinModeEnabled
 
 The PIN type is supported and currently enabled.
 
 
-### -field WwanPinModeDisabled
+#### - WwanPinModeDisabled
 
 The PIN type is supported though currently disabled.
 
 
-### -field WwanPinModeMax
+#### - WwanPinModeMax
 
 The total number of supported PIN type states.
 

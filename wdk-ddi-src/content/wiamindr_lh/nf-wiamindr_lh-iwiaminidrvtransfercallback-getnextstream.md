@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: FF33471A-692B-4568-BF37-1870DEC367D0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices], GetNextStream method, GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback, GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream
+ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], GetNextStream method, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, IWiaMiniDrvTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback interface, GetNextStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaMiniDrvTransferCallback.GetNextStream
 product: Windows
 targetos: Windows
-req.typenames: "*PSCANWINDOW, SCANWINDOW"
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ HRESULT GetNextStream(
 
 
 
-### -param lFlags [in]
+#### - lFlags [in]
 
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
 
-### -param bstrItemName [in]
+#### - bstrItemName [in]
 
 The name of the item that will perform the data transfer. For more information, see  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551590">WIA_IPA_ITEM_NAME</a>.
 
 
-### -param bstrFullItemName [in]
+#### - bstrFullItemName [in]
 
 The full name of the item that will perform the data transfer. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551561">WIA_IPA_FULL_ITEM_NAME</a>.
 
 
-### -param ppIStream [out]
+#### - ppIStream [out]
 
 A pointer to an <b>IStream</b> object.
 
@@ -109,15 +109,15 @@ When the current transfer sequence is cancelled, the <b>GetNextStream</b> method
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551561">WIA_IPA_FULL_ITEM_NAME</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551590">WIA_IPA_ITEM_NAME</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551561">WIA_IPA_FULL_ITEM_NAME</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
 
-<a href="https://msdn.microsoft.com/83817277-3526-4f64-8e7c-7e02c8cd77bd">Data Transfer Between Legacy Application and Windows Vista Driver</a>
-
 <a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
+
+<a href="https://msdn.microsoft.com/83817277-3526-4f64-8e7c-7e02c8cd77bd">Data Transfer Between Legacy Application and Windows Vista Driver</a>
 
  
 

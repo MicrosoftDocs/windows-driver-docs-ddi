@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f8be86e-2729-4aa9-982d-df323f05cf1c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_RADIUSConfig, storage.msiscsi_radiusconfig, PMSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig, iscsicfg/PMSiSCSI_RADIUSConfig, structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml, iscsicfg/MSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], _MSiSCSI_RADIUSConfig
+ms.keywords: storage.msiscsi_radiusconfig, PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], iscsicfg/MSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], MSiSCSI_RADIUSConfig, _MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig, iscsicfg/PMSiSCSI_RADIUSConfig, structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_RADIUSConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig"
+req.typenames: MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
 ---
 
 # _MSiSCSI_RADIUSConfig structure
@@ -72,32 +72,32 @@ typedef struct _MSiSCSI_RADIUSConfig {
 
 
 
-### -field UseRADIUSForCHAP
+#### - UseRADIUSForCHAP
 
 A Boolean value that indicates whether the initiator should use RADIUS for authentication during the challenge handshake of the challenge handshake authentication protocol (CHAP). If this member is <b>TRUE</b>, the initiator should use RADIUS for authentication during the challenge handshake of CHAP. If this member is <b>FALSE</b>, the initiator is not required to use RADIUS.
 
 
-### -field SharedSecretSizeInBytes
+#### - SharedSecretSizeInBytes
 
 The size, in bytes, of shared secret for use with RADIUS servers.
 
 
-### -field RADIUSServer
+#### - RADIUSServer
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that specifies a fixed address for the RADIUS server. The ISCSI_IP_Address structure defines the IP address in a way that is independent of the version of the IP protocol in use. 
 
 
-### -field BackupRADIUSServer
+#### - BackupRADIUSServer
 
 A ISCSI_IP_Address structure that specifies a fixed addresses for a backup RADIUS server. 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for Microsoft use only. Set this member to zero.
 
 
-### -field SharedSecret
+#### - SharedSecret
 
 A variable-length array that contains a shared secret. The initiator uses this shared secret to authenticate primary and backup RADIUS servers.
 

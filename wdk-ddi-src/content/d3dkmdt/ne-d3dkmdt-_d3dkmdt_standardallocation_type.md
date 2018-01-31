@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b86029c5-9d59-4cd0-81bd-cafb8db2fdfd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_STANDARDALLOCATION_TYPE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_GDISURFACE, DmEnums_d1c8e6c1-098d-4c01-9d26-7506ea59f34f.xml, D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE, D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE, _D3DKMDT_STANDARDALLOCATION_TYPE, D3DKMDT_STANDARDALLOCATION_TYPE enumeration [Display Devices], display.d3dkmdt_standardallocation_type, d3dkmdt/D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE, D3DKMDT_STANDARDALLOCATION_TYPE, D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE, D3DKMDT_STANDARDALLOCATION_GDISURFACE
+ms.keywords: display.d3dkmdt_standardallocation_type, d3dkmdt/D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE, D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE, D3DKMDT_STANDARDALLOCATION_TYPE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_TYPE, D3DKMDT_STANDARDALLOCATION_TYPE enumeration [Display Devices], D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_GDISURFACE, DmEnums_d1c8e6c1-098d-4c01-9d26-7506ea59f34f.xml, D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE, D3DKMDT_STANDARDALLOCATION_GDISURFACE, _D3DKMDT_STANDARDALLOCATION_TYPE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _D3DKMDT_STANDARDALLOCATION_TYPE {
 
 
 
-### -field D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE
+#### - D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE
 
 Indicates that the surface is a shared primary surface, which is opened by multiple applications that all require direct central processing unit (CPU) access to it.
 
 
-### -field D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE
+#### - D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE
 
 Indicates that the surface is a shadow surface.
 
 
-### -field D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE
+#### - D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE
 
 Indicates that the surface is a staging surface.
 
 
-### -field D3DKMDT_STANDARDALLOCATION_GDISURFACE
+#### - D3DKMDT_STANDARDALLOCATION_GDISURFACE
 
 Indicates that the surface is used for GDI hardware acceleration and Desktop Windows Manager (DWM) redirection.
 
@@ -99,13 +99,13 @@ This constant value is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md">D3DKMDT_STAGINGSURFACEDATA</a>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_shadowsurfacedata.md">D3DKMDT_SHADOWSURFACEDATA</a>
 

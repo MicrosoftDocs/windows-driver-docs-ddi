@@ -70,12 +70,12 @@ VOID NdisCmDeregisterSapComplete(
 
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies NDIS_STATUS_SUCCESS.
 
 
-### -param NdisSapHandle [in]
+#### - NdisSapHandle [in]
 
 Specifies the handle identifying the SAP.
 
@@ -113,14 +113,14 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
+   ProtocolClDeregisterSapComplete</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
-<mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
-   ProtocolClDeregisterSapComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
  
 

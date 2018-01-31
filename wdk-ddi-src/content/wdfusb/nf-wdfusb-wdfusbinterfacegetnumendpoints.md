@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6041b96e-2364-4592-9bc5-de4fb1b36957
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbinterfacegetnumendpoints, PFN_WDFUSBINTERFACEGETNUMENDPOINTS, wdfusb/WdfUsbInterfaceGetNumEndpoints, WdfUsbInterfaceGetNumEndpoints method, wdf.wdfusbinterfacegetnumendpoints, WdfUsbInterfaceGetNumEndpoints, DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml
+ms.keywords: wdf.wdfusbinterfacegetnumendpoints, PFN_WDFUSBINTERFACEGETNUMENDPOINTS, WdfUsbInterfaceGetNumEndpoints, DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, kmdf.wdfusbinterfacegetnumendpoints, wdfusb/WdfUsbInterfaceGetNumEndpoints, WdfUsbInterfaceGetNumEndpoints method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ BYTE WdfUsbInterfaceGetNumEndpoints(
 
 
 
-### -param UsbInterface [in]
+#### - UsbInterface [in]
 
 A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
 
 
-### -param SettingIndex [in]
+#### - SettingIndex [in]
 
 An index value that identifies an alternate setting for the interface. For more information about alternate settings, see the USB specification.
 

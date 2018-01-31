@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f57fe6ac-87ad-4db8-a715-816885b87d68
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfMemoryAssignBuffer method, WdfMemoryAssignBuffer, wdf.wdfmemoryassignbuffer, DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, kmdf.wdfmemoryassignbuffer, PFN_WDFMEMORYASSIGNBUFFER, wdfmemory/WdfMemoryAssignBuffer
+ms.keywords: DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, wdfmemory/WdfMemoryAssignBuffer, PFN_WDFMEMORYASSIGNBUFFER, WdfMemoryAssignBuffer method, wdf.wdfmemoryassignbuffer, WdfMemoryAssignBuffer, kmdf.wdfmemoryassignbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfMemoryAssignBuffer(
 
 
 
-### -param Memory [in]
+#### - Memory [in]
 
 A handle to a framework memory object that was obtained by calling <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a driver-supplied buffer.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 

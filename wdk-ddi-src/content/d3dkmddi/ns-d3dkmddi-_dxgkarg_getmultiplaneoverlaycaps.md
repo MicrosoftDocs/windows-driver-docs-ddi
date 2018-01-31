@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], display.dxgkarg_getmultiplaneoverlaycaps, DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, _DXGKARG_GETMULTIPLANEOVERLAYCAPS
+ms.keywords: "_DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps, DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DXGKARG_GETMULTIPLANEOVERLAYCAPS {
 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] Indicates the VidPn source for which we are querying multiplane overlay capabilities.
 
@@ -83,27 +83,27 @@ typedef struct _DXGKARG_GETMULTIPLANEOVERLAYCAPS {
  
 
 
-### -field MaxRGBPlanes
+#### - MaxRGBPlanes
 
 [out] Indicates the total number of RGB planes, including the DWM’s primary, that can be supported simultaneously.
 
 
-### -field MaxYUVPlanes
+#### - MaxYUVPlanes
 
 [out] Indicates the total number of YUV planes that can be supported simultaneously.
 
 
-### -field OverlayCaps
+#### - OverlayCaps
 
 [out] A DXGK_MULTIPLANEOVERLAYCAPS structure indicating the plane capabilities.
 
 
-### -field MaxStretchFactor
+#### - MaxStretchFactor
 
 [out] Indicates the maximum stretch factor that can be applied to a plane.
 
 
-### -field MaxShrinkFactor
+#### - MaxShrinkFactor
 
 [out] Indicates the maximum shrink factor that can be applied to a plane.
 

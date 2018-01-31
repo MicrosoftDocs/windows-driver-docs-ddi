@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 72FD2A3B-B246-41BA-BEB6-169C214C32D7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_LEVEL_TRIM, _FILE_LEVEL_TRIM, ntifs/FILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Installable File System Drivers], *PFILE_LEVEL_TRIM, ntifs/PFILE_LEVEL_TRIM, ifsk.file_level_trim, FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Installable File System Drivers]
+ms.keywords: PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Installable File System Drivers], ntifs/PFILE_LEVEL_TRIM, ifsk.file_level_trim, ntifs/FILE_LEVEL_TRIM, _FILE_LEVEL_TRIM, FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_LEVEL_TRIM
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM"
+req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
 ---
 
 # _FILE_LEVEL_TRIM structure
@@ -69,17 +69,17 @@ typedef struct _FILE_LEVEL_TRIM {
 
 
 
-### -field Key
+#### - Key
 
 The key for the byte range locks. Most callers will set this to 0. Remote file systems use <b>Key</b> for tagging a set of range locks.
 
 
-### -field NumRanges
+#### - NumRanges
 
 Total number of range structures in <b>Ranges</b>.
 
 
-### -field Ranges
+#### - Ranges
 
 Array of trim ranges for a file.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ae6ba1c3-0729-41bd-9fd5-62969bf4b70c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_VBI_FRAME_INFO structure [Streaming Media Devices], stream.ks_vbi_frame_info, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml, tagKS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], KS_VBI_FRAME_INFO, ksmedia/KS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO, ksmedia/PKS_VBI_FRAME_INFO
+ms.keywords: ksmedia/PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO structure [Streaming Media Devices], stream.ks_vbi_frame_info, tagKS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml, PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], *PKS_VBI_FRAME_INFO, ksmedia/KS_VBI_FRAME_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_VBI_FRAME_INFO
 product: Windows
 targetos: Windows
-req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
+req.typenames: "*PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO"
 ---
 
 # tagKS_VBI_FRAME_INFO structure
@@ -73,12 +73,12 @@ typedef struct tagKS_VBI_FRAME_INFO {
 
 
 
-### -field ExtendedHeaderSize
+#### - ExtendedHeaderSize
 
 Specifies the size of this structure.
 
 
-### -field dwFrameFlags
+#### - dwFrameFlags
 
 Specifies flags indicating additional information about the frame captured. During capture, the minidriver sets this member to one of the following values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -159,27 +159,27 @@ Indicates that the <b>VBIInfoHeader</b> member structure contains valid data
 </table> 
 
 
-### -field PictureNumber
+#### - PictureNumber
 
 Specifies a count representing the current picture number. Initialize or update this value on transition into KSSTATE_ACQUIRE.
 
 
-### -field DropCount
+#### - DropCount
 
 Specifies the number of pictures that were not captured. When capturing video, the minidriver sets this member. This counter should be incremented whenever a frame should have been captured but was not; this condition usually arises when no buffers were available during capture. Initialize or update this value on transition into KSSTATE_ACQUIRE.
 
 
-### -field dwSamplingFrequency
+#### - dwSamplingFrequency
 
 Specifies the sampling frequency in hertz (Hz).
 
 
-### -field TvTunerChangeInfo
+#### - TvTunerChangeInfo
 
 Specifies information about the current VBI data source, including country/region code, analog video standard, and channel. This member is only valid if <b>dwFrameFlags</b> specifies the KS_VBI_FLAG_TVTUNER_CHANGE flag. 
 
 
-### -field VBIInfoHeader
+#### - VBIInfoHeader
 
 Specifies information about the current VBI data source, including start line, end line, sampling frequency, and video standard. This member is only valid if <b>dwFrameFlags</b> specifies the KS_VBI_FLAG_VBIINFOHEADER_CHANGE flag.
 
@@ -209,9 +209,9 @@ The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but m
 
 <a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
  
 

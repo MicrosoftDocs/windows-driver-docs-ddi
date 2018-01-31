@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 525db78d-b25c-4325-ac71-b992564a19c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlfindunicodeprefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml, ntifs/RtlFindUnicodePrefix, RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers]
+ms.keywords: RtlFindUnicodePrefix, ntifs/RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers], rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml, ifsk.rtlfindunicodeprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PUNICODE_PREFIX_TABLE_ENTRY RtlFindUnicodePrefix(
 
 
 
-### -param PrefixTable [in]
+#### - PrefixTable [in]
 
 Pointer to the prefix table. The table must have been initialized by calling <a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>.
 
 
-### -param FullName [in]
+#### - FullName [in]
 
 Pointer to a Unicode string containing the full pathname for a file. 
 
 
-### -param CaseInsensitiveIndex [in]
+#### - CaseInsensitiveIndex [in]
 
 Position in the file name and prefix strings at which the comparison is to become case-insensitive. The string comparison is case-sensitive for the first <i>CaseInsensitiveIndex</i> characters in each string, case-insensitive for the remainder of the string.
 <table>
@@ -144,15 +144,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
 
 <a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
 
+<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
-
-<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 126741ba-b373-466e-986d-44e33c841eee
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, SetFlags method [Windows Debugging], IDebugBreakpoint2, IDebugBreakpoint interface [Windows Debugging], SetFlags method, IDebugBreakpoint2::SetFlags, debugger.setflags, dbgeng/IDebugBreakpoint::SetFlags, dbgeng/IDebugBreakpoint2::SetFlags, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, IDebugBreakpoint::SetFlags, ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, SetFlags, SetFlags method [Windows Debugging], IDebugBreakpoint interface
+ms.keywords: IDebugBreakpoint::SetFlags, IDebugBreakpoint2, dbgeng/IDebugBreakpoint::SetFlags, dbgeng/IDebugBreakpoint2::SetFlags, SetFlags, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, SetFlags method [Windows Debugging], IDebugBreakpoint interface, SetFlags method [Windows Debugging], IDebugBreakpoint2::SetFlags, debugger.setflags, ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, IDebugBreakpoint interface [Windows Debugging], SetFlags method, SetFlags method [Windows Debugging], IDebugBreakpoint2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT SetFlags(
 
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 The new flags for the breakpoint.  <i>Flags</i> is a bit field. It replaces the existing flag bits.  For more information about the flag bit field and an explanation of each flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.  You cannot change the DEBUG_BREAKPOINT_DEFERRED flag in the engine. This bit in <i>Flags</i> must always be zero.
 

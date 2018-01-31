@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95598654-71dd-41cc-a663-b0bcaee77687
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kelowerirql, KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture], wdm/KeLowerIrql, k105_06c56235-3b9e-4413-aadb-91e86898121d.xml
+ms.keywords: kernel.kelowerirql, k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture], wdm/KeLowerIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its
 
 
 
-### -param NewIrql [in]
+#### - NewIrql [in]
 
 Specifies the IRQL that was returned from <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
 
@@ -90,9 +90,9 @@ It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> tha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
-
 <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
+
+<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
 <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
 

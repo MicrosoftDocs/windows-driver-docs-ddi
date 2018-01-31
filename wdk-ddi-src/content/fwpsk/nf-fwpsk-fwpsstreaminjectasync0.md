@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsStreamInjectAsync0, netvista.fwpsstreaminjectasync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], FwpsStreamInjectAsync0
+ms.keywords: FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsStreamInjectAsync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, netvista.fwpsstreaminjectasync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,24 +79,24 @@ NTSTATUS NTAPI FwpsStreamInjectAsync0(
 
 
 
-### -param injectionHandle [in]
+#### - injectionHandle [in]
 
 An injection handle that was previously created by a call to the 
      <mshelp:link keywords="netvista.fwpsinjectionhandlecreate0" tabindex="0"><b>
      FwpsInjectionHandleCreate0</b></mshelp:link> function.
 
 
-### -param injectionContext [in, optional]
+#### - injectionContext [in, optional]
 
 An optional handle to the injection context.
 
 
-### -param flags [in]
+#### - flags [in]
 
 Reserved. Callout drivers should set this parameter to zero.
 
 
-### -param flowId [in]
+#### - flowId [in]
 
 A run-time identifier that specifies the data flow into which to inject the data. The run-time
      identifier for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE
@@ -104,7 +104,7 @@ A run-time identifier that specifies the data flow into which to inject the data
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
 
 
-### -param calloutId [in]
+#### - calloutId [in]
 
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called either the 
@@ -113,7 +113,7 @@ The run-time identifier for the callout in the filter engine. This identifier wa
      register the callout with the filter engine.
 
 
-### -param layerId [in]
+#### - layerId [in]
 
 The run-time identifier for the filtering layer at which the data stream is being processed. This
      value must be either FWPS_LAYER_STREAM_V4 or FWPS_LAYER_STREAM_V6. The run-time identifier for the layer
@@ -124,7 +124,7 @@ The run-time identifier for the filtering layer at which the data stream is bein
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
 
 
-### -param streamFlags [in]
+#### - streamFlags [in]
 
 Flags that specify characteristics of the data stream into which the data is to be injected.
      
@@ -190,7 +190,7 @@ Specifies that the stream is to be disconnected after the data being injected in
        packet that is sent out.
 <div class="alert"><b>Note</b>  If this flag is set, the <b>FWPS_STREAM_FLAG_SEND</b> flag must also be set, or else <b>STATUS_FWP_INVALID_PARAMETER</b> will be returned.</div><div> </div>
 
-### -param netBufferList [in, out]
+#### - netBufferList [in, out]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
@@ -205,12 +205,12 @@ A pointer to a
      <i>netBufferList</i> can be <b>NULL</b>.
 
 
-### -param dataLength [in]
+#### - dataLength [in]
 
 The number of bytes of data being injected into the data stream.
 
 
-### -param completionFn [in]
+#### - completionFn [in]
 
 A pointer to a 
      <a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a> callout function provided by
@@ -228,7 +228,7 @@ If the
 This parameter is required and cannot be <b>NULL</b>. If it is <b>NULL</b>, <b>STATUS_FWP_NULL_POINTER</b> will be returned.
 
 
-### -param completionContext [in, optional]
+#### - completionContext [in, optional]
 
 A pointer to a callout driver–provided context that is passed to the callout function pointed to
      by the 
@@ -347,30 +347,30 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 <a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
    FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
 
-<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
-   FwpsAllocateCloneNetBufferList0</b></mshelp:link>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
 
 <mshelp:link keywords="netvista.fwps_stream_callout_io_packet0" tabindex="0"><b>
    FWPS_STREAM_CALLOUT_IO_PACKET0</b></mshelp:link>
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
+   FwpsAllocateCloneNetBufferList0</b></mshelp:link>
 
  
 

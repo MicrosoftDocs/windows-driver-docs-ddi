@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 65244091-6089-4d0c-abf4-1178cf0bf1b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, stream.ksfilterfactorygetouterunknown, ks/KsFilterFactoryGetOuterUnknown, KsFilterFactoryGetOuterUnknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices]
+ms.keywords: KsFilterFactoryGetOuterUnknown function [Streaming Media Devices], avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, ks/KsFilterFactoryGetOuterUnknown, stream.ksfilterfactorygetouterunknown, KsFilterFactoryGetOuterUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PUNKNOWN __inline KsFilterFactoryGetOuterUnknown(
 
 
 
-### -param FilterFactory [in]
+#### - FilterFactory [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to return the outer unknown interface.
 
@@ -91,17 +91,17 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
 <a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
 
 <a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
 
 <a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
  
 

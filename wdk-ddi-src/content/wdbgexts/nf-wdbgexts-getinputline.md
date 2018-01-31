@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 18d4aae5-dd11-4c3a-8088-52121f46d208
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, GetInputLine, debugger.getinputline, GetInputLine function [Windows Debugging], wdbgexts/GetInputLine
+ms.keywords: WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, wdbgexts/GetInputLine, GetInputLine function [Windows Debugging], GetInputLine, debugger.getinputline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ __inline ULONG GetInputLine(
 
 
 
-### -param Prompt
+#### - Prompt
 
 Specifies a prompt to indicate what input is being requested.  The prompt is printed to the debugger's output before the input is gathered.  If <i>Prompt</i> is <b>NULL</b>, no prompt is printed.
 
 
-### -param Buffer
+#### - Buffer
 
 Specifies the buffer to receive the input.
 
 
-### -param BufferSize
+#### - BufferSize
 
 Specifies the size, in characters, of the buffer <i>Buffer</i>.
 

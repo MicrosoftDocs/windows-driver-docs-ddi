@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b543d5d-ed6d-4440-b5ad-aefca69dd489
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AssignContext method, AssignContext method, IWDFObject interface, AssignContext, wdf.iwdfobject_assigncontext, umdf.iwdfobject_assigncontext, IWDFObject interface, AssignContext method, IWDFObject::AssignContext, wudfddi/IWDFObject::AssignContext, IWDFObject, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml
+ms.keywords: IWDFObject, IWDFObject::AssignContext, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, IWDFObject interface, AssignContext method, wdf.iwdfobject_assigncontext, AssignContext method, IWDFObject interface, wudfddi/IWDFObject::AssignContext, AssignContext, umdf.iwdfobject_assigncontext, AssignContext method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.AssignContext
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -71,12 +71,12 @@ HRESULT AssignContext(
 
 
 
-### -param pCleanupCallback [in, optional]
+#### - pCleanupCallback [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a> interface that contains the cleanup callback function, which performs cleanup operations for the object if it becomes invalid. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification when the object is cleaned up. 
 
 
-### -param pContext [in, optional]
+#### - pContext [in, optional]
 
 A pointer to the context to register. <b>NULL</b> is a valid context. 
 
@@ -107,9 +107,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFO
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFObject::RetrieveContext</a>
+
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 

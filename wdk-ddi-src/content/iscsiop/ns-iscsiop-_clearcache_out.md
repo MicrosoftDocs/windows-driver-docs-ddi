@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ab97d0b0-00fc-499c-9b1b-83731fe8e935
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.clearcache_out, structs-iSCSI_e96c134a-dfb1-474a-b730-1fb6e8d8f86f.xml, ClearCache_OUT structure [Storage Devices], PClearCache_OUT, iscsiop/PClearCache_OUT, ClearCache_OUT, *PClearCache_OUT, iscsiop/ClearCache_OUT, PClearCache_OUT structure pointer [Storage Devices], _ClearCache_OUT
+ms.keywords: PClearCache_OUT, iscsiop/PClearCache_OUT, *PClearCache_OUT, PClearCache_OUT structure pointer [Storage Devices], storage.clearcache_out, ClearCache_OUT, ClearCache_OUT structure [Storage Devices], _ClearCache_OUT, iscsiop/ClearCache_OUT, structs-iSCSI_e96c134a-dfb1-474a-b730-1fb6e8d8f86f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _ClearCache_OUT {
 
 
 
-### -field Status
+#### - Status
 
 On output from <b>ClearCache</b>, the status of the <b>ClearCache</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
@@ -81,11 +81,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a>
 
  
 

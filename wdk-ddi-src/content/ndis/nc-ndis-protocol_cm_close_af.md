@@ -73,7 +73,7 @@ NDIS_STATUS ProtocolCmCloseAf(
 
 
 
-### -param CallMgrAfContext [in]
+#### - CallMgrAfContext [in]
 
 Specifies the handle to the call manager's per-AF context area, originally supplied to NDIS by the
      call manager's 

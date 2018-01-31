@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc7baff1-7e74-4666-805b-33b524c89c1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER structure [Display Devices], _D3DDDIARG_CREATEPIXELSHADER, display.d3dddiarg_createpixelshader, UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml, D3DDDIARG_CREATEPIXELSHADER
+ms.keywords: "_D3DDDIARG_CREATEPIXELSHADER, UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml, D3DDDIARG_CREATEPIXELSHADER, display.d3dddiarg_createpixelshader, d3dumddi/D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_CREATEPIXELSHADER {
 
 
 
-### -field CodeSize
+#### - CodeSize
 
 [in] The size, in bytes, of the pixel shader code that is passed in the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a> function.
 
 
-### -field ShaderHandle
+#### - ShaderHandle
 
 [out] A handle to the pixel shader code.
 

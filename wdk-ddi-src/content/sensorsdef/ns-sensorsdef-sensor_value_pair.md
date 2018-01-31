@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0D0B06FE-BE88-4FB2-92FC-8B6D396CEFE8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], sensors.sensor_value_pair, PSENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], sensorsdef/PSENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
+ms.keywords: sensors.sensor_value_pair, sensorsdef/PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], sensorsdef/SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _SENSOR_VALUE_PAIR {
 
 
 
-### -field Key
+#### - Key
 
 A property key that is associated with a sensor. For a list of the valid property keys, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>.
 
 
-### -field Value
+#### - Value
 
 A value that is associated with the property key element.
 

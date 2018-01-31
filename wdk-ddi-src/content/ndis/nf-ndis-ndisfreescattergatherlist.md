@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, ndis/NdisFreeScatterGatherList, NdisFreeScatterGatherList, netvista.ndisfreescattergatherlist, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, NdisFreeScatterGatherList, ndis/NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], netvista.ndisfreescattergatherlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisFreeScatterGatherList(
 
 
 
-### -param NdisHandle [in]
+#### - NdisHandle [in]
 
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that was passed to the 
@@ -79,7 +79,7 @@ An NDIS driver or instance handle that was obtained during caller initialization
      NdisBuildScatterGatherList</b></mshelp:link> function when the scatter/gather list was created.
 
 
-### -param ScatterGatherListBuffer [in]
+#### - ScatterGatherListBuffer [in]
 
 A pointer to a caller-provided 
      <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure to free.
@@ -87,7 +87,7 @@ A pointer to a caller-provided
      <b>NdisBuildScatterGatherList</b> function when the scatter/gather list was allocated.
 
 
-### -param WriteToDevice [in]
+#### - WriteToDevice [in]
 
 A BOOLEAN value that is set to <b>TRUE</b> if the scatter/gather list was used for writing to the device.
      Otherwise, it is <b>FALSE</b>.
@@ -112,9 +112,9 @@ NDIS drivers call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
 
  
 

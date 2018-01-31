@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21D9DE55-2A26-467A-B119-8AFD4B47A4FD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO, PNDIS_WWAN_SLOT_INFO, PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SLOT_INFO, ndiswwan/NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_slot_info_status, _NDIS_WWAN_SLOT_INFO
+ms.keywords: "_NDIS_WWAN_SLOT_INFO, ndiswwan/NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SLOT_INFO, PNDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO, ndiswwan/PNDIS_WWAN_SLOT_INFO, netvista.ndis_wwan_slot_info_status, PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SLOT_INFO {
 
 
 
-### -field Header
+#### - Header
 
 The header with type, revision, and size information about the <b>NDIS_WWAN_SLOT_INFO</b> structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
+#### - uStatus
 
 The status of system capability. The following table shows the possible values for
      this member.
@@ -206,11 +206,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a> stru
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
+<a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
 
 <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a>
 
-<a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
+<a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
 
  
 

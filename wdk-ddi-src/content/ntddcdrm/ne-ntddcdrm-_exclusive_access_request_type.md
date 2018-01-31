@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 314dfdeb-1821-444a-84c6-2ee7fa536122
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices], ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/ExclusiveAccessQueryState, ExclusiveAccessLockDevice, ntddcdrm/ExclusiveAccessUnlockDevice, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], PEXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/ExclusiveAccessLockDevice, EXCLUSIVE_ACCESS_REQUEST_TYPE, _EXCLUSIVE_ACCESS_REQUEST_TYPE, ExclusiveAccessUnlockDevice, storage.exclusive_access_request_type, ExclusiveAccessQueryState
+ms.keywords: "_EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, ExclusiveAccessQueryState, EXCLUSIVE_ACCESS_REQUEST_TYPE, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices], ntddcdrm/ExclusiveAccessUnlockDevice, storage.exclusive_access_request_type, ntddcdrm/ExclusiveAccessQueryState, ExclusiveAccessLockDevice, ntddcdrm/ExclusiveAccessLockDevice, PEXCLUSIVE_ACCESS_REQUEST_TYPE, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, ExclusiveAccessUnlockDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	EXCLUSIVE_ACCESS_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE
+req.typenames: "*PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE"
 ---
 
 # _EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration
@@ -69,17 +69,17 @@ typedef enum _EXCLUSIVE_ACCESS_REQUEST_TYPE {
 
 
 
-### -field ExclusiveAccessQueryState
+#### - ExclusiveAccessQueryState
 
 A query for the access state of a CD-ROM device.
 
 
-### -field ExclusiveAccessLockDevice
+#### - ExclusiveAccessLockDevice
 
 A request for the CD-ROM class driver to lock a CD-ROM device for exclusive access by the caller.
 
 
-### -field ExclusiveAccessUnlockDevice
+#### - ExclusiveAccessUnlockDevice
 
 A request for the CD-ROM class driver to unlock a CD-ROM device that was previously locked for exclusive access.
 

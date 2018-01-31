@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, video/VideoPortDoDma, VideoPortDoDma, display.videoportdodma, VideoPortDoDma function [Display Devices]
+ms.keywords: video/VideoPortDoDma, VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, VideoPortDoDma function [Display Devices], VideoPortDoDma, display.videoportdodma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ PDMA VideoPortDoDma(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pDma [in]
+#### - pDma [in]
 
 Specifies a non-<b>NULL</b> DMA handle. This handle was obtained from a prior call to <b>VideoPortDoDma</b> or from the <b>OutputBuffer</b> member of the <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a> returned by <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>.
 
 
-### -param DmaFlags [in]
+#### - DmaFlags [in]
 
 Specifies the action to be performed. This member can be one of the following values:
 <table>
@@ -129,9 +129,9 @@ See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bu
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
-
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+<a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
 
  
 

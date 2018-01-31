@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], wdm/RtlCreateRegistryKey, RtlCreateRegistryKey
+ms.keywords: RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, RtlCreateRegistryKey, wdm/RtlCreateRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS RtlCreateRegistryKey(
 
 
 
-### -param RelativeTo [in]
+#### - RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 <table>
@@ -140,7 +140,7 @@ Path is relative to <b>\Registry\User\CurrentUser</b>. (For a system process, th
 </table> 
 
 
-### -param Path [in]
+#### - Path [in]
 
 Specifies the registry path according to the <i>RelativeTo</i> value. 
 
@@ -161,17 +161,17 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
-
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
 
 <a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
+
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 31fada1c-53eb-4e55-bf5f-bf852a8df3ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_cf956b74-b0e4-43fa-911f-289b01dbf8c8.xml, debugger.getcurrentprocessaddr, GetCurrentProcessAddr function [Windows Debugging], GetCurrentProcessAddr, wdbgexts/GetCurrentProcessAddr
+ms.keywords: wdbgexts/GetCurrentProcessAddr, GetCurrentProcessAddr, GetCurrentProcessAddr function [Windows Debugging], debugger.getcurrentprocessaddr, WdbgExts_Ref_cf956b74-b0e4-43fa-911f-289b01dbf8c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,19 +70,19 @@ __inline VOID GetCurrentProcessAddr(
 
 
 
-### -param Processor
+#### - Processor
 
 Specifies the index of the processor or virtual thread that was running the current thread when the last event occurred.  <i>Processor</i> is only used in kernel-mode debugging; and, only if <i>CurrentThread</i> is <b>NULL</b>.
 
 
-### -param CurrentThread
+#### - CurrentThread
 
 Specifies the location of the system data for the current thread.  This is the location returned by <a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>.
 
 In kernel-mode debugging, <i>CurrentThread</i> can be <b>NULL</b>, in which case <i>Processor</i> is used instead.
 
 
-### -param Address
+#### - Address
 
 Receives the location of the system data that describes the current process.
 

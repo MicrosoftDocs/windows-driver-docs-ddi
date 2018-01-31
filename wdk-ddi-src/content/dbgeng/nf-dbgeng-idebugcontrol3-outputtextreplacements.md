@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea01fa02-8f4b-45c3-9690-30c8a1e6b4e5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], OutputTextReplacements method, IDebugControl3, OutputTextReplacements method [Windows Debugging], IDebugControl3 interface, debugger.outputtextreplacements, dbgeng/IDebugControl2::OutputTextReplacements, IDebugControl3::OutputTextReplacements, dbgeng/IDebugControl3::OutputTextReplacements, OutputTextReplacements method [Windows Debugging], IDebugControl2 interface, OutputTextReplacements method [Windows Debugging], IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml, IDebugControl2::OutputTextReplacements, OutputTextReplacements, IDebugControl2 interface [Windows Debugging], OutputTextReplacements method
+ms.keywords: IDebugControl2 interface [Windows Debugging], OutputTextReplacements method, OutputTextReplacements method [Windows Debugging], IDebugControl3 interface, IDebugControl3, OutputTextReplacements, OutputTextReplacements method [Windows Debugging], dbgeng/IDebugControl2::OutputTextReplacements, IDebugControl3::OutputTextReplacements, IDebugControl3 interface [Windows Debugging], OutputTextReplacements method, OutputTextReplacements method [Windows Debugging], IDebugControl2 interface, IDebugControl2::OutputTextReplacements, debugger.outputtextreplacements, dbgeng/IDebugControl3::OutputTextReplacements, IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OutputTextReplacements(
 
 
 
-### -param OutputControl [in]
+#### - OutputControl [in]
 
 Specifies the output control to use when printing the aliases.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Must be set to DEBUG_OUT_TEXT_REPL_DEFAULT.
 
@@ -112,19 +112,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
  
 

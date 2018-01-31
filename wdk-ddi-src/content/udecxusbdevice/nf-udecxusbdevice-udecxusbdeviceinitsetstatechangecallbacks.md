@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxusbdeviceinitsetstatechangecallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses]
+ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks, buses.udecxusbdeviceinitsetstatechangecallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceInitSetStateChangeCallbacks
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -70,12 +70,12 @@ void UdecxUsbDeviceInitSetStateChangeCallbacks(
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
+#### - UdecxUsbDeviceInit [in, out]
 
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param Callbacks [in]
+#### - Callbacks [in]
 
 A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_state_change_callbacks.md">UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS</a> structure that contains pointers to callback functions implemented by the client driver.
 
@@ -89,11 +89,11 @@ This function does not return a value.
 
 ## -see-also
 
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
  
 

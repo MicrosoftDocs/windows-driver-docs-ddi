@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fad8ca8b-1854-4a71-a0f2-60c211ece022
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure [Buses], ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, buses.ucmtcpci_port_controller_identification"
+ms.keywords: PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure [Buses], ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, buses.ucmtcpci_port_controller_identification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+req.typenames: "*PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"
 req.product: Windows 10 or later.
 ---
 
@@ -77,40 +77,40 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION {
 
 
 
-### -field Size
+#### - Size
 
 Size of this structure.
 
 
-### -field VendorId
+#### - VendorId
 
 Specifies the vendor identifier assigned by the USB specification committee.
                      
                  
 
 
-### -field ProductId
+#### - ProductId
 
 
                      Specifies the product identifier. This value is assigned by the manufacturer.
                  
 
 
-### -field DeviceId
+#### - DeviceId
 
 
                      The device ID for the USB Type-C port  controller.
                  
 
 
-### -field TypeCRevisionInBcd
+#### - TypeCRevisionInBcd
 
 
                      The revision ID for the USB Type-C port  controller.
                  
 
 
-### -field PDRevisionAndVersionInBcd
+#### - PDRevisionAndVersionInBcd
 
 
                      
@@ -118,7 +118,7 @@ Specifies the vendor identifier assigned by the USB specification committee.
                  
 
 
-### -field PDInterfaceRevisionAndVersionInBcd
+#### - PDInterfaceRevisionAndVersionInBcd
 
 
                      

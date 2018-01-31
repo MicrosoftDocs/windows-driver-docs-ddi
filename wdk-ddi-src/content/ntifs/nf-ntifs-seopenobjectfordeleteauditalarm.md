@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c7a5bcce-a19e-4938-9d7b-ce73b3ecdc86
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.seopenobjectfordeleteauditalarm, seref_59133039-b4e5-47d9-941a-df78051d6408.xml, ntifs/SeOpenObjectForDeleteAuditAlarm, SeOpenObjectForDeleteAuditAlarm routine [Installable File System Drivers], SeOpenObjectForDeleteAuditAlarm
+ms.keywords: seref_59133039-b4e5-47d9-941a-df78051d6408.xml, ntifs/SeOpenObjectForDeleteAuditAlarm, ifsk.seopenobjectfordeleteauditalarm, SeOpenObjectForDeleteAuditAlarm, SeOpenObjectForDeleteAuditAlarm routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,47 +75,47 @@ VOID SeOpenObjectForDeleteAuditAlarm(
 
 
 
-### -param ObjectTypeName [in]
+#### - ObjectTypeName [in]
 
 Pointer to a null-terminated string specifying the type of object to which the client is requesting access. This string appears in any audit message that is generated.
 
 
-### -param Object [in, optional]
+#### - Object [in, optional]
 
 Address of the object being opened with intent to delete. This value is needed only to enter into log messages. If the open attempt fails, the value of <i>Object</i> is ignored. Otherwise, it must be provided.
 
 
-### -param AbsoluteObjectName [in, optional]
+#### - AbsoluteObjectName [in, optional]
 
 Pointer to a null-terminated string specifying the name of the object being opened with intent to delete. This string appears in any audit message that is generated.
 
 
-### -param SecurityDescriptor [in]
+#### - SecurityDescriptor [in]
 
 A pointer to the security descriptor structure for the object being opened with intent to delete.
 
 
-### -param AccessState [in]
+#### - AccessState [in]
 
 Pointer to an access state structure containing the object's subject context, remaining desired access types, granted access types, and, optionally, a privilege set to indicate which privileges were used to permit the access.
 
 
-### -param ObjectCreated [in]
+#### - ObjectCreated [in]
 
 Set to <b>TRUE</b> if the open operation causes a new object to be created, or <b>FALSE</b> if an existing object is opened.
 
 
-### -param AccessGranted [in]
+#### - AccessGranted [in]
 
 Set to <b>TRUE</b> if open access was granted based on a previous access check or privilege check, or <b>FALSE</b> if it was denied.
 
 
-### -param AccessMode [in]
+#### - AccessMode [in]
 
 Access mode used for the access check. Either <b>UserMode</b> or <b>KernelMode</b>.
 
 
-### -param GenerateOnClose [out]
+#### - GenerateOnClose [out]
 
 Pointer to a flag set by the audit generation routine when <b>SeOpenObjectAuditAlarm</b> returns.  
 
@@ -140,25 +140,25 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-
-<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
 
 <a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
 
-<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
 
-<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 
 <a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
+
+<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
 
  
 

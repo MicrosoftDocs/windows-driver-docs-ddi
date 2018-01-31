@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3606d5f4-760f-4ba1-84ea-218b6c2a2e20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, display.d3dkmtqueryremotevidpnsourcefromgdidisplayname
+ms.keywords: display.d3dkmtqueryremotevidpnsourcefromgdidisplayname, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,9 +116,9 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplpresent.md">D3DKMTOutputDuplPresent</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplpresent.md">D3DKMTOutputDuplPresent</a>
 
  
 

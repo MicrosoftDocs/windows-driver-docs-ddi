@@ -40,7 +40,7 @@ apiname:
 -	DRMGetContentRights
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMGETCONTENTRIGHTS callback
@@ -73,12 +73,12 @@ typedef PFNDRMGETCONTENTRIGHTS DRMGetContentRights;
 
 
 
-### -param ContentId [in]
+#### - ContentId [in]
 
 This parameter is reserved for system use.
 
 
-### -param DrmRights [out]
+#### - DrmRights [out]
 
 This parameter is reserved for system use.
 

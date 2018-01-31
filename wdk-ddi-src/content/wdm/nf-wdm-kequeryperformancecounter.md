@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee1dbd20-5502-4448-b39a-4629ddc73d01
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], wdm/KeQueryPerformanceCounter, KeQueryPerformanceCounter
+ms.keywords: wdm/KeQueryPerformanceCounter, k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], KeQueryPerformanceCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ LARGE_INTEGER KeQueryPerformanceCounter(
 
 
 
-### -param PerformanceFrequency [out, optional]
+#### - PerformanceFrequency [out, optional]
 
 A pointer to a variable to which <b>KeQueryPerformanceCounter</b> writes the performance counter frequency, in ticks per second. This parameter is optional and can be NULL if the caller does not need the counter frequency value.
 
@@ -95,15 +95,15 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
-
-<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
-
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
 <a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
 
 <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a>
+
+<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
 
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
 

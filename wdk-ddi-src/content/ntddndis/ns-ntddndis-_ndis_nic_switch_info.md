@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0da6927f-c940-4e46-a63a-2127bd7fa63d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_NIC_SWITCH_INFO, *PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_info, ntddndis/NDIS_NIC_SWITCH_INFO, PNDIS_NIC_SWITCH_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO, ntddndis/PNDIS_NIC_SWITCH_INFO"
+ms.keywords: ntddndis/PNDIS_NIC_SWITCH_INFO, PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO structure [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_INFO, netvista.ndis_nic_switch_info, _NDIS_NIC_SWITCH_INFO, ntddndis/NDIS_NIC_SWITCH_INFO, *PNDIS_NIC_SWITCH_INFO, PNDIS_NIC_SWITCH_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_NIC_SWITCH_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO"
+req.typenames: NDIS_NIC_SWITCH_INFO, *PNDIS_NIC_SWITCH_INFO
 ---
 
 # _NDIS_NIC_SWITCH_INFO structure
@@ -81,7 +81,7 @@ typedef struct _NDIS_NIC_SWITCH_INFO {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the <b>NDIS_NIC_SWITCH_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -97,42 +97,42 @@ Original version for NDIS 6.30.
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_INFO_REVISION_1.
 
 
-### -field Flags
+#### - Flags
 
 A ULONG value that contains a bitwise OR of configuration flags that are enabled on the switch.
 <div class="alert"><b>Note</b>  For NDIS 6.30, no configuration flags are defined for the switch. The <b>Flags</b> member must be set to zero.</div><div> </div>
 
-### -field SwitchType
+#### - SwitchType
 
 An <a href="..\ntddndis\ne-ntddndis-_ndis_nic_switch_type.md">NDIS_NIC_SWITCH_TYPE</a> value that specifies the type of the switch.
 
 
-### -field SwitchId
+#### - SwitchId
 
 An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. The switch identifier is an integer between zero and the number of switches that the network adapter supports. An NDIS_DEFAULT_SWITCH_ID value indicates the default network adapter switch.
 
 
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
 
-### -field SwitchFriendlyName
+#### - SwitchFriendlyName
 
 An NDIS_NIC_SWITCH_FRIENDLY_NAME value that contains the user-friendly description of the switch.
 
 
 
 
-### -field NumVFs
+#### - NumVFs
 
 A ULONG value that specifies the number of PCI Express (PCIe) Virtual Functions (VFs) that are enabled on the network adapter. Enabled VFs can be in either an allocated or unallocated state.
 
 
-### -field NumAllocatedVFs
+#### - NumAllocatedVFs
 
 A ULONG value that specifies the number of VFs that have been allocated on the network adapter switch specified by <b>SwitchId</b>. VFs are allocated  through OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>. 
 
 
 
-### -field NumVPorts
+#### - NumVPorts
 
 A ULONG value that specifies the  number of virtual ports (VPorts) that are configured on the network adapter switch specified by <b>SwitchId</b>.
 
@@ -142,41 +142,41 @@ This ULONG value is the sum of the following:
 <li>The default VPort attached to the Physical Function (PF).</li>
 </ul>
 
-### -field NumActiveVPorts
+#### - NumActiveVPorts
 
 A ULONG value that specifies the number of VPorts that have been created on the network adapter switch specified by <b>SwitchId</b>. 
 <div class="alert"><b>Note</b>  This ULONG value includes the default VPort, in addition to the nondefault VPorts created through OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.</div><div> </div>
 
-### -field NumQueuePairsForDefaultVPort
+#### - NumQueuePairsForDefaultVPort
 
 A ULONG value that specifies the number of queue pairs allocated for the default VPort.  The  default VPort is always attached to the PF.
 
 A queue pair consists of a transmit queue and receive queue. The miniport driver associates one or more queue pairs with the default VPort at the time of switch creation through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>. 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, there can only be one queue pair that can be configured for the default VPort.</div><div> </div>
 
-### -field NumQueuePairsForNonDefaultVPorts
+#### - NumQueuePairsForNonDefaultVPorts
 
 A ULONG value that specifies the number of queue pairs allocated for the nondefault VPorts. A nondefault VPort can be attached to either the PF or any VF of the network adapter.
 
 The miniport driver associates one or more queue pairs with a nondefault VPort through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
 
-### -field NumActiveDefaultVPortMacAddresses
+#### - NumActiveDefaultVPortMacAddresses
 
 A ULONG value that specifies the number of unicast MAC address filters that are currently set on the default VPort that is attached to the PF of the network adapter.
 
 
-### -field NumActiveNonDefaultVPortMacAddresses
+#### - NumActiveNonDefaultVPortMacAddresses
 
 A ULONG value that specifies the number of unicast MAC address filters that are currently set on nondefault VPorts.
 
 
-### -field NumActiveDefaultVPortVlanIds
+#### - NumActiveDefaultVPortVlanIds
 
 A ULONG value that specifies the number of virtual local area network (VLAN) identifier filters that are currently set on the default VPort.
 
 
-### -field NumActiveNonDefaultVPortVlanIds
+#### - NumActiveNonDefaultVPortVlanIds
 
 A ULONG value that specifies the number of VLAN identifier filters that are currently set on the nondefault VPorts.
 
@@ -193,13 +193,13 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 <b></b>
 

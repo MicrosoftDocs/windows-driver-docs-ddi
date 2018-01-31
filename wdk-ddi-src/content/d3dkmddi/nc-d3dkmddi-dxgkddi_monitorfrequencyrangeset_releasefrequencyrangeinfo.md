@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnReleaseFrequencyRangeInfo(
 
 
 
-### -param hMonitorFrequencyRangeSet [in]
+#### - hMonitorFrequencyRangeSet [in]
 
 [in] A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset.md">pfnGetMonitorFrequencyRangeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
-### -param pMonitorFrequencyRangeInfo [in]
+#### - pMonitorFrequencyRangeInfo [in]
 
 [in] A pointer to the D3DKMDT_MONITOR_FREQUENCY_RANGE structure that is to be released.
 

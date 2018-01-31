@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 742ee83c-3db4-4d77-a79d-28bcc405746d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, portcls/PcDestroyContent, PcDestroyContent function [Audio Devices], PcDestroyContent, audio.pcdestroycontent
+ms.keywords: PcDestroyContent function [Audio Devices], portcls/PcDestroyContent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, PcDestroyContent, audio.pcdestroycontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcDestroyContent
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # PcDestroyContent function

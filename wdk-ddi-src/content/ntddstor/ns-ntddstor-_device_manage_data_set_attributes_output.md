@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FFC52136-8A1C-48F6-A846-C1C5BFB4570C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, storage.device_manage_data_set_attributes_output
+ms.keywords: "*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], storage.device_manage_data_set_attributes_output, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT {
 
 
 
-### -field Size
+#### - Size
 
 The size of this structure. This is set to <b>sizeof</b>(DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT).
 
 
-### -field Action
+#### - Action
 
 The action related to the instance of this structure. This is a value from the <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> enumeration.
 
 
-### -field Flags
+#### - Flags
 
 Flags for the data set management action. See the <b>Flags</b> member of <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>.
 
 
-### -field OperationStatus
+#### - OperationStatus
 
 An status resulting from the operation a performed for <b>Action</b>.
 
 
-### -field ExtendedError
+#### - ExtendedError
 
 An extended error value originating from Windows or a driver.
 
 
-### -field TargetDetailedError
+#### - TargetDetailedError
 
 An error value resulting from a failure execute the operation for <b>Action</b> at the target.
 
 
-### -field ReservedStatus
+#### - ReservedStatus
 
 Reserved.
 
 
-### -field OutputBlockOffset
+#### - OutputBlockOffset
 
 The position, after the beginning of this structure, where action-specific data is located.
 
 
-### -field OutputBlockLength
+#### - OutputBlockLength
 
 The length of the action-specific data.
 
@@ -131,9 +131,9 @@ Currently, only the <b>DeviceDsmAction_Allocation</b> action uses this structure
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
 <a href="..\ntddstor\ns-ntddstor-_device_data_set_lb_provisioning_state.md">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: A073D570-DF55-424E-8E86-49DE6A31E6FB
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFC_CX_POLL_DEFAULT, nfccx/NFC_CX_POLL_NFC_ACTIVE, NFC_CX_POLL_NFC_F_424, _NFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_NFC_A, nfccx/NFC_CX_POLL_NFC_15693, NFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_POLL_NFC_F_424, nfccx/NFC_CX_POLL_NFC_B, PNFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_NFC_F_212, nfccx/NFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_DEFAULT, NFC_CX_POLL_NFC_15693, nfccx/NFC_CX_POLL_NFC_A, NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_NFC_ACTIVE, nfpdrivers.nfc_cx_poll_mode_config, NFC_CX_POLL_NFC_B, nfccx/NFC_CX_POLL_NFC_F_212, NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG
+ms.keywords: NFC_CX_POLL_MODE_CONFIG, nfccx/NFC_CX_POLL_MODE_CONFIG, nfccx/NFC_CX_POLL_NFC_F_212, NFC_CX_POLL_NFC_F_424, nfccx/NFC_CX_POLL_NFC_F_424, nfccx/NFC_CX_POLL_NFC_ACTIVE, nfccx/NFC_CX_POLL_NFC_15693, _NFC_CX_POLL_MODE_CONFIG, nfccx/NFC_CX_POLL_NFC_B, NFC_CX_POLL_NFC_A, NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_NFC_15693, NFC_CX_POLL_DEFAULT, nfccx/NFC_CX_POLL_DEFAULT, NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG, nfpdrivers.nfc_cx_poll_mode_config, nfccx/NFC_CX_POLL_NFC_A, *PNFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_NFC_B, NFC_CX_POLL_NFC_F_212, NFC_CX_POLL_NFC_ACTIVE, PNFC_CX_POLL_MODE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,29 +73,29 @@ typedef enum _NFC_CX_POLL_MODE_CONFIG {
 
 
 
-### -field NFC_CX_POLL_NFC_A
+#### - NFC_CX_POLL_NFC_A
 
 
 
-### -field NFC_CX_POLL_NFC_B
+#### - NFC_CX_POLL_NFC_B
 
 
 
-### -field NFC_CX_POLL_NFC_F_212
+#### - NFC_CX_POLL_NFC_F_212
 
 NFC-F poll mode (212 kbps)
 
 
-### -field NFC_CX_POLL_NFC_F_424
+#### - NFC_CX_POLL_NFC_F_424
 
 NFC-F poll mode (424 kbps)
 
 
-### -field NFC_CX_POLL_NFC_15693
+#### - NFC_CX_POLL_NFC_15693
 
 
 
-### -field NFC_CX_POLL_NFC_ACTIVE
+#### - NFC_CX_POLL_NFC_ACTIVE
 
 
 
@@ -103,15 +103,15 @@ NFC-F poll mode (424 kbps)
 
 
 
-### -field NFC_CX_POLL_DEFAULT
+#### - NFC_CX_POLL_DEFAULT
 
 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
  
 

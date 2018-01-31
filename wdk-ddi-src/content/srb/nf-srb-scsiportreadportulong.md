@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b45d62f-1e0c-4445-a8ad-e8d263f7d43c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadPortUlong routine [Storage Devices], ScsiPortReadPortUlong, scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml, storage.scsiportreadportulong, srb/ScsiPortReadPortUlong
+ms.keywords: storage.scsiportreadportulong, scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml, ScsiPortReadPortUlong, srb/ScsiPortReadPortUlong, ScsiPortReadPortUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadPortUlong
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -69,7 +69,7 @@ ULONG ScsiPortReadPortUlong(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 

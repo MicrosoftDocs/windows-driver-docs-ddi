@@ -40,7 +40,7 @@ apiname:
 -	Dump_Write
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_WRITE callback
@@ -72,17 +72,17 @@ NTSTATUS Dump_Write(
 
 
 
-### -param FilterExtension [in]
+#### - FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 
 
-### -param DiskByteOffset [in, out]
+#### - DiskByteOffset [in, out]
 
 The value, in bytes, relative to the destination partition for the crash dump or hibernation. Filter drivers should not modify this field.
 
 
-### -param Mdl [in, out]
+#### - Mdl [in, out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the data buffer. If the <b>MDL</b> is modified, the size of the write operation cannot change.
 
@@ -105,9 +105,9 @@ To safely modify the data for the dump write, a filter driver should allocate a 
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
-
 <a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
+
+<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 <a href="..\ntdddump\ns-ntdddump-_filter_initialization_data.md">FILTER_INITIALIZATION_DATA</a>
 

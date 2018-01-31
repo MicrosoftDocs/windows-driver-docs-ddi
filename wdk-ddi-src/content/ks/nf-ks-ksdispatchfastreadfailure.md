@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e0c72ce-0959-4835-ac1a-3f37869cc81f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, stream.ksdispatchfastreadfailure, KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], ks/KsDispatchFastReadFailure
+ms.keywords: ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, KsDispatchFastReadFailure, stream.ksdispatchfastreadfailure, ks/KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ BOOLEAN KsDispatchFastReadFailure(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Not used.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Not used.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Not used.
 
 
-### -param Wait [in]
+#### - Wait [in]
 
 Not used.
 
 
-### -param LockKey [in]
+#### - LockKey [in]
 
 Not used.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Not used.
 
 
-### -param IoStatus [out]
+#### - IoStatus [out]
 
 Not used.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Not used.
 

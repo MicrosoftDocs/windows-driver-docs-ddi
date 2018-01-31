@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8bf8d69a-0c47-48c1-83f5-d436a3ab8323
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_incoming_assoc_started_parameters, _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, Native_802.11_data_types_f09f57cb-9f15-444c-b09f-d97f016e86a2.xml, PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
+ms.keywords: windot11/PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f09f57cb-9f15-444c-b09f-d97f016e86a2.xml, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, netvista.dot11_incoming_assoc_started_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS"
+req.typenames: DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ typedef struct _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The type, revision, and size of the DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure. This member
      is formatted as an 
@@ -123,7 +123,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field PeerMacAddr
+#### - PeerMacAddr
 
 The media access control (MAC) address of the peer station that sent an 802.11 authentication
      request.
@@ -141,10 +141,10 @@ The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_STARTED_PARAME
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <mshelp:link keywords="netvista.ndis_status_dot11_incoming_assoc_started" tabindex="0">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

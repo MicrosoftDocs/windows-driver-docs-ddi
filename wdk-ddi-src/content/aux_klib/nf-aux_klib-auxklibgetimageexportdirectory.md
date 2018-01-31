@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 994ba853-88b6-4456-8fdb-3199979df05e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: aux_klib/AuxKlibGetImageExportDirectory, AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, AuxKlibGetImageExportDirectory, kernel.auxklibgetimageexportdirectory
+ms.keywords: aux_klib/AuxKlibGetImageExportDirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, kernel.auxklibgetimageexportdirectory, AuxKlibGetImageExportDirectory, AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PIMAGE_EXPORT_DIRECTORY AuxKlibGetImageExportDirectory(
 
 
 
-### -param ImageBase [in]
+#### - ImageBase [in]
 
 A pointer to the base of an image, which is obtained by calling <a href="..\aux_klib\nf-aux_klib-auxklibquerymoduleinformation.md">AuxKlibQueryModuleInformation</a>. 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0189a83d-da46-49f1-99b8-8fb920009804
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetStarted, wudfddi_types/WdfIoTargetStopped, wdfiotarget/WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetClosed, PWDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetStarted, wdfiotarget/PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE, wudfddi_types/WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetStopped, wudfddi_types/WdfIoTargetStarted, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, wudfddi_types/WdfIoTargetClosed, wdfiotarget/WdfIoTargetPurged, WDF_IO_TARGET_STATE enumeration, wudfddi_types/WdfIoTargetStateUndefined, kmdf.wdf_io_target_state, wudfddi_types/PWDF_IO_TARGET_STATE, WdfIoTargetClosedForQueryRemove, WdfIoTargetStateUndefined, WdfIoTargetPurged, *PWDF_IO_TARGET_STATE, wdf.wdf_io_target_state, wudfddi_types/WdfIoTargetPurged, wdfiotarget/WdfIoTargetClosedForQueryRemove, wdfiotarget/WdfIoTargetStateUndefined, WdfIoTargetStopped, WdfIoTargetClosed, PWDF_IO_TARGET_STATE enumeration pointer, _WDF_IO_TARGET_STATE, WdfIoTargetDeleted, wudfddi_types/WdfIoTargetDeleted, wudfddi_types/WdfIoTargetClosedForQueryRemove
+ms.keywords: WdfIoTargetClosed, wdfiotarget/WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE, WdfIoTargetStarted, wudfddi_types/WdfIoTargetStarted, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, wdfiotarget/WdfIoTargetClosed, wdfiotarget/WdfIoTargetPurged, wudfddi_types/PWDF_IO_TARGET_STATE, _WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetStateUndefined, wdfiotarget/PWDF_IO_TARGET_STATE, kmdf.wdf_io_target_state, wudfddi_types/WdfIoTargetStopped, wudfddi_types/WdfIoTargetPurged, wudfddi_types/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetStopped, WdfIoTargetClosedForQueryRemove, wudfddi_types/WDF_IO_TARGET_STATE, wdf.wdf_io_target_state, WdfIoTargetDeleted, wudfddi_types/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetStarted, WdfIoTargetStopped, WdfIoTargetPurged, PWDF_IO_TARGET_STATE enumeration pointer, wdfiotarget/WdfIoTargetClosedForQueryRemove, WdfIoTargetStateUndefined, wudfddi_types/WdfIoTargetClosedForQueryRemove, wudfddi_types/WdfIoTargetClosed, PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,37 +77,37 @@ typedef enum _WDF_IO_TARGET_STATE {
 
 
 
-### -field WdfIoTargetStateUndefined
+#### - WdfIoTargetStateUndefined
 
 Reserved for internal use.
 
 
-### -field WdfIoTargetStarted
+#### - WdfIoTargetStarted
 
 The I/O target is started and can process I/O requests.
 
 
-### -field WdfIoTargetStopped
+#### - WdfIoTargetStopped
 
 The I/O target is temporarily stopped and cannot process I/O requests.
 
 
-### -field WdfIoTargetClosedForQueryRemove
+#### - WdfIoTargetClosedForQueryRemove
 
 The I/O target's underlying device might be removed in the near future.
 
 
-### -field WdfIoTargetClosed
+#### - WdfIoTargetClosed
 
 The I/O target is permanently stopped and cannot process I/O requests. 
 
 
-### -field WdfIoTargetDeleted
+#### - WdfIoTargetDeleted
 
 The I/O target's underlying device has been removed.
 
 
-### -field WdfIoTargetPurged
+#### - WdfIoTargetPurged
 
 The I/O target is temporarily purged and cannot receive or process I/O requests. This constant is available starting in KMDF 1.11.
 

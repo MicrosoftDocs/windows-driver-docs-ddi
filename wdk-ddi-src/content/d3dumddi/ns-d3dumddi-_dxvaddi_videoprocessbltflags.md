@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 790a18fa-5481-432a-921b-6310a0ab78d7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS, _DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices], display.dxvaddi_videoprocessbltflags, DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml
+ms.keywords: DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices], DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, _DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags, d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,32 +77,32 @@ typedef struct _DXVADDI_VIDEOPROCESSBLTFLAGS {
 
 
 
-### -field BackgroundChanged
+#### - BackgroundChanged
 
 A UINT value that specifies whether the background color of the destination surface changed. Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-### -field TargetRectChanged
+#### - TargetRectChanged
 
 A UINT value that specifies whether the target rectangle of the destination surface changed. Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-### -field ColorDataChanged
+#### - ColorDataChanged
 
 A UINT value that specifies whether format information for the destination surface changed. Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-### -field AlphaChanged
+#### - AlphaChanged
 
 A UINT value that specifies whether the planar alpha value for the destination surface changed. Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-### -field Reserved
+#### - Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the fifth through sixteenth bits (0x0000FFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field DestData
+#### - DestData
 
 A UINT value that contains video processor sample destination data. Setting this member is equivalent to setting the seventeenth through thirty-second bits (0xFFFF0000) of the 32-bit <b>Value</b> member. The following bits can be set:
 
@@ -113,7 +113,7 @@ DXVADDI_DESTDATA_TFF (0x0002)
 DXVADDI_DESTDATA_RFF_TFF_PRESENT (0x0004) 
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies changes in the current destination surface from the previous destination surface.
 

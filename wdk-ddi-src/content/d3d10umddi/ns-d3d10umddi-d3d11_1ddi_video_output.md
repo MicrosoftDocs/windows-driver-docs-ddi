@@ -67,7 +67,7 @@ typedef struct D3D11_1DDI_VIDEO_OUTPUT {
 
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Do not use in your driver.
 

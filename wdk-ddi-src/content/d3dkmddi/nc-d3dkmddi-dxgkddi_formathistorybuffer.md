@@ -71,12 +71,12 @@ _Check_return NTSTATUS APIENTRY* DxgkDdiFormatHistoryBuffer(
 
 
 
-### -param hContext [in]
+#### - hContext [in]
 
 A handle to the device context for the DMA buffer that contains the unformatted history buffer.
 
 
-### -param pFormatData [in]
+#### - pFormatData [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_formathistorybuffer.md">DXGKARG_FORMATHISTORYBUFFER</a> structure that contains data about how to format the history buffer.
 

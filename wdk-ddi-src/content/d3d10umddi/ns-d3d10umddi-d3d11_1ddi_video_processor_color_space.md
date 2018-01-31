@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2878b36e-3850-4af8-aeca-9c5d2da717f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_video_processor_color_space, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, display.d3d11_1ddi_video_processor_color_space, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE {
 
 
 
-### -field Usage
+#### - Usage
 
 Specifies whether the output is intended for playback or video processing (such as editing or authoring). The device can optimize the processing based on the type. The default state value is 0 (playback). 
 
@@ -107,7 +107,7 @@ Video processing
 </table> 
 
 
-### -field RGB_Range
+#### - RGB_Range
 
 Specifies the RGB color range. The default state value is 0 (full range).
 
@@ -142,7 +142,7 @@ Limited range (16-235)
 </table> 
 
 
-### -field YCbCr_Matrix
+#### - YCbCr_Matrix
 
 Specifies the YCbCr transfer matrix. The default state value is 0 (BT.601).
 
@@ -177,7 +177,7 @@ ITU-R BT.709
 </table> 
 
 
-### -field YCbCr_xvYCC
+#### - YCbCr_xvYCC
 
 Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). The default state value is zero (conventional YCbCr).
 
@@ -212,7 +212,7 @@ Extended YCbCr (xvYCC)
 </table> 
 
 
-### -field Nominal_Range
+#### - Nominal_Range
 
 [in] A UINT value that specifies that the luminance range of YUV data is described by the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range.md">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> enumeration. The default state value is zero, which indicates the studio luminance range of 16 to 235, inclusive [16, 235].
 
@@ -223,7 +223,7 @@ For more information on luminance range, see <a href="https://msdn.microsoft.com
 Supported starting with Windows 8.1.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved for system use. Set to zero.
 

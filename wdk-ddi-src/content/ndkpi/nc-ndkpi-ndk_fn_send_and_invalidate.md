@@ -40,7 +40,7 @@ apiname:
 -	NDK_FN_SEND_AND_INVALIDATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_SEND_AND_INVALIDATE callback
@@ -75,11 +75,13 @@ NTSTATUS NDK_FN_SEND_AND_INVALIDATE(
 
 
 
-### -param *pNdkQp
+#### - *pNdkQp [in]
+
+A pointer to an NDK queue pair (QP) object
+(<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
 
 
-
-### -param RequestContext [in, optional]
+#### - RequestContext [in, optional]
 
 A context value to be returned in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a> structure for this request.
 
@@ -89,13 +91,13 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 
 
-### -param nSge [in]
+#### - nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bitwise OR of flags that specify the operations that are allowed. The following flags are supported:
 <table>
@@ -163,7 +165,7 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 </table> 
 
 
-### -param RemoteToken [in]
+#### - RemoteToken [in]
 
 The remote token to be invalidated at the peer upon receive completion. The NDK provider at the receiving peer must abort the connection, as specified by lower layer transport rules, if an invalid token was specified by the sending peer.
 
@@ -241,19 +243,19 @@ Any <a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a> structure th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
+<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
 
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
-<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
+<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
 
  
 

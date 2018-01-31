@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 208d9dc3-736b-4684-b8d3-802f6df78142
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::LockDevice, sti/IStiDevice::LockDevice, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices], IStiDevice interface, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml, LockDevice, IStiDevice interface [Imaging Devices], LockDevice method, IStiDevice, image.istidevice_lockdevice
+ms.keywords: sti/IStiDevice::LockDevice, LockDevice method [Imaging Devices], stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml, IStiDevice interface [Imaging Devices], LockDevice method, LockDevice method [Imaging Devices], IStiDevice interface, LockDevice, image.istidevice_lockdevice, IStiDevice::LockDevice, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT LockDevice(
 
 
 
-### -param dwTimeOut [in]
+#### - dwTimeOut [in]
 
 Caller-supplied time-out value, in milliseconds. If the lock is not obtained in this time period, an error is returned.
 

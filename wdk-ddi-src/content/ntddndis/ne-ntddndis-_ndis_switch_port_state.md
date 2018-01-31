@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BEF37F32-036D-4381-93B3-C159ABCFC3F9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PORT_STATE, netvista.ndis_switch_port_state, ntddndis/NdisSwitchPortStateCreated, _NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateDeleted, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateUnknown, ntddndis/NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateTeardown, NdisSwitchPortStateCreated, NdisSwitchPortStateTeardown, NdisSwitchPortStateUnknown
+ms.keywords: ntddndis/NdisSwitchPortStateCreated, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortStateTeardown, ntddndis/NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateUnknown, netvista.ndis_switch_port_state, NdisSwitchPortStateCreated, NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateTeardown, _NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _NDIS_SWITCH_PORT_STATE {
 
 
 
-### -field NdisSwitchPortStateUnknown
+#### - NdisSwitchPortStateUnknown
 
 This value specifies an undefined port state. This value is unused.
 
 
-### -field NdisSwitchPortStateCreated
+#### - NdisSwitchPortStateCreated
 
 This value specifies that the port is in the created state. 
 
 
-### -field NdisSwitchPortStateTeardown
+#### - NdisSwitchPortStateTeardown
 
 This value specifies that the port is being torn down.
 
 
-### -field NdisSwitchPortStateDeleted
+#### - NdisSwitchPortStateDeleted
 
 This value specifies that the port has been deleted. 
 

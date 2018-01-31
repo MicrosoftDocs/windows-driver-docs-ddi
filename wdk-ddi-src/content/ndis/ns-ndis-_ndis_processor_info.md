@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55c7044e-20db-4245-a644-93cbeb9cd512
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_PROCESSOR_INFO, *PNDIS_PROCESSOR_INFO, _NDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_processor_info, ndis_sysinfo_ref_87f00f3b-dc88-4f7d-be9e-39a649aa87a6.xml, ndis/NDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROCESSOR_INFO, ndis_sysinfo_ref_87f00f3b-dc88-4f7d-be9e-39a649aa87a6.xml, _NDIS_PROCESSOR_INFO, ndis/PNDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO, netvista.ndis_processor_info, NDIS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_PROCESSOR_INFO, ndis/NDIS_PROCESSOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PROCESSOR_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO"
+req.typenames: NDIS_PROCESSOR_INFO, *PNDIS_PROCESSOR_INFO
 ---
 
 # _NDIS_PROCESSOR_INFO structure
@@ -71,13 +71,13 @@ typedef struct _NDIS_PROCESSOR_INFO {
 
 
 
-### -field CpuNumber
+#### - CpuNumber
 
 The CPU number that is assigned to the processor. The value is in the range from zero through the
      number of active CPUs minus one.
 
 
-### -field PhysicalPackageId
+#### - PhysicalPackageId
 
 The physical package ID of the processor. The value is in the range from zero through the number
      in the 
@@ -86,13 +86,13 @@ The physical package ID of the processor. The value is in the range from zero th
      NDIS_SYSTEM_PROCESSOR_INFO</b></mshelp:link> structure minus one.
 
 
-### -field CoreId
+#### - CoreId
 
 The core ID of the processor. The value is in the range from zero through the number in the 
      <b>NumCoresPerPhysicalPackage</b> member of the NDIS_SYSTEM_PROCESSOR_INFO structure minus one.
 
 
-### -field HyperThreadID
+#### - HyperThreadID
 
 The hyper-threading ID of the processor. The value is in the range from zero through the number in
      the 

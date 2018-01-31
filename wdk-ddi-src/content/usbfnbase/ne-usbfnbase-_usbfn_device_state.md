@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnDeviceStateStateMaximum, *PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE, UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateConfigured, UsbfnDeviceStateDefault, UsbfnDeviceStateConfigured, buses.usbfn_device_state, UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateAttached, usbfnbase/USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateDefault, USBFN_DEVICE_STATE enumeration [Buses], UsbfnDeviceStateAddressed, UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateSuspended, _USBFN_DEVICE_STATE, UsbfnDeviceStateSuspended
+ms.keywords: UsbfnDeviceStateMinimum, UsbfnDeviceStateConfigured, *PUSBFN_DEVICE_STATE, UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateSuspended, usbfnbase/UsbfnDeviceStateAttached, buses.usbfn_device_state, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateDefault, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateStateMaximum, _USBFN_DEVICE_STATE, USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateConfigured, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateAddressed, UsbfnDeviceStateSuspended
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE"
+req.typenames: USBFN_DEVICE_STATE, *PUSBFN_DEVICE_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -75,42 +75,42 @@ typedef enum _USBFN_DEVICE_STATE {
 
 
 
-### -field UsbfnDeviceStateMinimum
+#### - UsbfnDeviceStateMinimum
 
 The minimum value of the enumeration.
 
 
-### -field UsbfnDeviceStateAttached
+#### - UsbfnDeviceStateAttached
 
 Device is attached to an upstream port.
 
 
-### -field UsbfnDeviceStateDefault
+#### - UsbfnDeviceStateDefault
 
 Device is attached and connected to an upstream port but has not been reset.
 
 
-### -field UsbfnDeviceStateDetached
+#### - UsbfnDeviceStateDetached
 
 Device is not attached to an upstream port.
 
 
-### -field UsbfnDeviceStateAddressed
+#### - UsbfnDeviceStateAddressed
 
 Device has been assigned a non-default USB address by the host.
 
 
-### -field UsbfnDeviceStateConfigured
+#### - UsbfnDeviceStateConfigured
 
 Device has been configured by the host.
 
 
-### -field UsbfnDeviceStateSuspended
+#### - UsbfnDeviceStateSuspended
 
 Device has been suspended.
 
 
-### -field UsbfnDeviceStateStateMaximum
+#### - UsbfnDeviceStateStateMaximum
 
 The maximum value of the enumeration.
 

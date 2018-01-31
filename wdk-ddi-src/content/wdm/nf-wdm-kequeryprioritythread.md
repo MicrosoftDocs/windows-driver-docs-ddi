@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69a8ad3f-641d-4aaf-9184-e56dee6ca347
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryPriorityThread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], kernel.kequeryprioritythread, k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, KeQueryPriorityThread
+ms.keywords: k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, KeQueryPriorityThread, wdm/KeQueryPriorityThread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], kernel.kequeryprioritythread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ KPRIORITY KeQueryPriorityThread(
 
 
 
-### -param Thread [in]
+#### - Thread [in]
 
 Pointer to a dispatcher object of type KTHREAD. 
 
@@ -89,11 +89,11 @@ Thread priorities range from 0 to 31, where 0 is the lowest priority and 31 is t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 

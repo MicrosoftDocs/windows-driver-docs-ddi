@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d019a940-5735-4b35-af99-3aac3dc4270b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DESTROYLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_497b7bc8-b2ca-4ead-9c3e-365673b2058f.xml, _D3DDDIARG_DESTROYLIGHT, display.d3dddiarg_destroylight, d3dumddi/D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT
+ms.keywords: display.d3dddiarg_destroylight, _D3DDDIARG_DESTROYLIGHT, UMDisplayDriver_param_Structs_497b7bc8-b2ca-4ead-9c3e-365673b2058f.xml, d3dumddi/D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDIARG_DESTROYLIGHT {
 
 
 
-### -field Index
+#### - Index
 
 [in] The index of the light to destroy.
 

@@ -40,7 +40,7 @@ apiname:
 -	WskSocket
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,7 @@ NTSTATUS WSKAPI * WskSocket(
 
 
 
-### -param Client [in]
+#### - Client [in]
 
 A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
@@ -92,14 +92,14 @@ A pointer to a
      WskCaptureProviderNPI</b></mshelp:link> function.
 
 
-### -param AddressFamily [in]
+#### - AddressFamily [in]
 
 The address family for the socket that is being created. For more information about supported
      address families, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
-### -param SocketType [in]
+#### - SocketType [in]
 
 The type of socket that is being created. The following socket types are supported:
      
@@ -126,14 +126,14 @@ Supports unreliable connectionless datagram communication.
 Supports raw access to the transport protocol.
 
 
-### -param Protocol [in]
+#### - Protocol [in]
 
 The transport protocol for the socket that is being created. For more information about the
      protocols that are supported for each supported address family, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A flag that specifies the WSK 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> for the
@@ -174,7 +174,7 @@ A connection-oriented socket will be created that can be used to send and receiv
 A stream socket will be created that can either be used to listen for incoming connections from remote transport addresses, or send and receive network data over a connection.
 
 
-### -param SocketContext [in, optional]
+#### - SocketContext [in, optional]
 
 A pointer to a caller-supplied context for the socket that is being created. The WSK subsystem
      passes this pointer to the socket's event callback functions. The context information is opaque to the
@@ -183,11 +183,79 @@ A pointer to a caller-supplied context for the socket that is being created. The
      pointer should always be <b>NULL</b>.
 
 
-### -param *Dispatch
+#### - *Dispatch [in, optional]
+
+A pointer to a constant client dispatch structure. This structure is a dispatch table that
+     contains pointers to the event callback functions for the new socket. Depending on the WSK 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the socket
+     (as specified by the 
+     <i>Flags</i> parameter), this parameter is a pointer to one of the following structures.
+     
+<table>
+<tr>
+<th>Flag</th>
+<th>Dispatch table structure</th>
+</tr>
+<tr>
+<td>
+WSK_FLAG_LISTEN_SOCKET
+
+</td>
+<td>
+
+<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
+WSK_FLAG_DATAGRAM_SOCKET
 
-### -param OwningProcess [in, optional]
+</td>
+<td>
+
+<mshelp:link keywords="netvista.wsk_client_datagram_dispatch" tabindex="0"><b>
+         WSK_CLIENT_DATAGRAM_DISPATCH</b></mshelp:link>
+
+
+</td>
+</tr>
+<tr>
+<td>
+WSK_FLAG_CONNECTION_SOCKET
+
+</td>
+<td>
+
+<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+         WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
+
+
+</td>
+</tr>
+<tr>
+<td>
+WSK_FLAG_STREAM_SOCKET
+
+</td>
+<td>
+
+<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
+
+
+</td>
+</tr>
+</table> 
+
+If the WSK application will not be enabling all of the event callback functions for the new socket,
+     it should set the pointers in the dispatch table to <b>NULL</b> for those event callback functions that it does
+     not enable. If the WSK application will not be enabling any event callback functions on the new socket,
+     it should set the 
+     <i>Dispatch</i> pointer to <b>NULL</b>. For a basic socket, this pointer should always be <b>NULL</b>.
+
+
+#### - OwningProcess [in, optional]
 
 A pointer to the process from which the WSK subsystem will retrieve the security context to use
      when it binds the socket. The WSK subsystem uses the security context to determine whether the local
@@ -195,7 +263,7 @@ A pointer to the process from which the WSK subsystem will retrieve the security
      application sets this pointer to <b>NULL</b>.
 
 
-### -param OwningThread [in, optional]
+#### - OwningThread [in, optional]
 
 A pointer to a specific thread from which the WSK subsystem will retrieve the security context to
      use when it binds the socket. The WSK subsystem uses the security context to determine whether the local
@@ -203,7 +271,7 @@ A pointer to a specific thread from which the WSK subsystem will retrieve the se
      specify a specific thread, it sets this pointer to <b>NULL</b>.
 
 
-### -param SecurityDescriptor [in, optional]
+#### - SecurityDescriptor [in, optional]
 
 A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descriptor to apply to
      the socket that is being created. The security descriptor controls the sharing of the local transport
@@ -220,7 +288,7 @@ For more information about the SECURITY_DESCRIPTOR structure, see the reference 
      SECURITY_DESCRIPTOR in the Microsoft Windows SDK documentation.
 
 
-### -param Irp [in, out]
+#### - Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the creation of the
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
@@ -384,30 +452,30 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
 <mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
    WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
 
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
+
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
+<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+
 <a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
  
 

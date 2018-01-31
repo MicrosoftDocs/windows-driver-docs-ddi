@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b67570e5-ea0d-47e6-afe3-41dc3a4a0cdf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, UMDisplayDriver_Dx10param_Structs_95c96af9-bece-4fbe-ab6c-b8184828aa8d.xml, display.d3d10ddiarg_texcube_depthstencilview, D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure [Display Devices], d3d10umddi/D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW
+ms.keywords: UMDisplayDriver_Dx10param_Structs_95c96af9-bece-4fbe-ab6c-b8184828aa8d.xml, display.d3d10ddiarg_texcube_depthstencilview, D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure [Display Devices], D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, d3d10umddi/D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW {
 
 
 
-### -field MipSlice
+#### - MipSlice
 
 [in] The identifier of the MIP-map slice. 
 
 
-### -field FirstArraySlice
+#### - FirstArraySlice
 
 [in] The identifier of the first array slice. 
 
 
-### -field ArraySize
+#### - ArraySize
 
 [in] The number of array slices for the texture. 
 

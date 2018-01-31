@@ -71,7 +71,7 @@ VOID StrMiniEvent(
 
 
 
-### -param EventDescriptor [in]
+#### - EventDescriptor [in]
 
 Describes the event, and whether it should be enabled or disabled.
 

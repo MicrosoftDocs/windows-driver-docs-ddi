@@ -77,7 +77,7 @@ VOID ProtocolCoOidRequestComplete(
 
 
 
-### -param ProtocolAfContext [in]
+#### - ProtocolAfContext [in]
 
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
@@ -87,19 +87,19 @@ A handle that identifies an address family (AF) context area. If the driver is a
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
 
 
-### -param ProtocolVcContext [in]
+#### - ProtocolVcContext [in]
 
 A handle that identifies the active virtual connection (VC) that the driver requested or set
      information for, if the request was VC-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-### -param ProtocolPartyContext [in]
+#### - ProtocolPartyContext [in]
 
 A handle that identifies the party on a multipoint VC that the driver requested or set information
      for, if the request is party-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-### -param OidRequest [in, out]
+#### - OidRequest [in, out]
 
 A pointer to the driver-supplied 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that was
@@ -108,7 +108,7 @@ A pointer to the driver-supplied
      <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> function.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the request. The target driver or NDIS determines this final status. This
      parameter determines what 
@@ -254,29 +254,29 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
 
 <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
 
 <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
+
+<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
 
  
 

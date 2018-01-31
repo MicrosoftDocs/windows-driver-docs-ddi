@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bda_pin_pairing, bdasup/PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], bdasup/BDA_PIN_PAIRING, _BDA_PIN_PAIRING, PBDA_PIN_PAIRING, *PBDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml
+ms.keywords: BDA_PIN_PAIRING structure [Streaming Media Devices], stream.bda_pin_pairing, PBDA_PIN_PAIRING, bdasup/BDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, _BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, *PBDA_PIN_PAIRING, BDA_PIN_PAIRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_PIN_PAIRING
 product: Windows
 targetos: Windows
-req.typenames: BDA_PIN_PAIRING, *PBDA_PIN_PAIRING
+req.typenames: "*PBDA_PIN_PAIRING, BDA_PIN_PAIRING"
 ---
 
 # _BDA_PIN_PAIRING structure
@@ -74,53 +74,53 @@ typedef struct _BDA_PIN_PAIRING {
 
 
 
-### -field ulInputPin
+#### - ulInputPin
 
 Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX array) that indicates the input pin of the pair. 
 
 
-### -field ulOutputPin
+#### - ulOutputPin
 
 Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX array) that indicates the output pin of the pair.
 
 
-### -field ulcMaxInputsPerOutput
+#### - ulcMaxInputsPerOutput
 
 Maximum number of input pins per output pin. The network provider creates duplicates of nodes that are controlled by the input pin depending on the value specified in <b>ulcMaxInputsPerOutput</b>.
 
 
-### -field ulcMinInputsPerOutput
+#### - ulcMinInputsPerOutput
 
 Minimum number of input pins per output pin. The network provider creates duplicates of nodes that are controlled by the input pin depending on the value specified in <b>ulcMinInputsPerOutput</b>.
 
 
-### -field ulcMaxOutputsPerInput
+#### - ulcMaxOutputsPerInput
 
 Maximum number of output pins per input pin. The network provider creates duplicates of nodes that are controlled by the output pin depending on the value specified in <b>ulcMaxOutputsPerInput</b>.
 
 
-### -field ulcMinOutputsPerInput
+#### - ulcMinOutputsPerInput
 
 Minimum number of output pins per input pin. The network provider creates duplicates of nodes that are controlled by the output pin depending on the value specified in <b>ulcMinOutputsPerInput</b>.
 
 
-### -field ulcTopologyJoints
+#### - ulcTopologyJoints
 
 Number of joints in the <b>pTopologyJoints</b> array.
 
 
-### -field pTopologyJoints
+#### - pTopologyJoints
 
 Array of joint values. The value given to a joint corresponds to the index of an element in a array of template connections (KSTOPOLOGY_CONNECTION or BDA_TEMPLATE_CONNECTION array). A topology joint marks the point in the template topology where control of nodes switches from the input pin to the output pin. Those nodes that occur upstream of the topology joint are controlled through the input pin. Those nodes that occur downstream of the topology joint are controlled through the output pin.
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
 <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 <a href="..\bdatypes\ns-bdatypes-_bda_template_connection.md">BDA_TEMPLATE_CONNECTION</a>
 

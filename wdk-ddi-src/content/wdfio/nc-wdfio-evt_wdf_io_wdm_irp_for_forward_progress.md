@@ -40,7 +40,7 @@ apiname:
 -	EvtIoWdmIrpForForwardProgress
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ WDF_IO_FORWARD_PROGRESS_ACTION EvtIoWdmIrpForForwardProgress(
 
 
 
-### -param Queue [in]
+#### - Queue [in]
 
 A handle to an I/O queue object.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 A pointer to an IRP structure.
 

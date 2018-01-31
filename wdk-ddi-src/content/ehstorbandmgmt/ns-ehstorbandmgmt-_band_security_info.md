@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 310F996F-F350-4F25-BC8A-386513908557
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: BAND_SECURITY_INFO structure [Storage Devices], storage.band_security_info, BAND_SECURITY_INFO, BAND_LOCATION_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], BAND_LOCATION_INFO structure [Storage Devices], _BAND_SECURITY_INFO, PBAND_LOCATION_INFO, *PBAND_SECURITY_INFO, ehstorbandmgmt/BAND_SECURITY_INFO
+ms.keywords: storage.band_security_info, PBAND_LOCATION_INFO, BAND_SECURITY_INFO, BAND_LOCATION_INFO, BAND_SECURITY_INFO structure [Storage Devices], ehstorbandmgmt/BAND_SECURITY_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, _BAND_SECURITY_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], BAND_LOCATION_INFO structure [Storage Devices], *PBAND_SECURITY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,9 +78,19 @@ typedef struct _BAND_LOCATION_INFO {
 
 
 
-### -field CryptoAlgoOidString
+#### - CryptoAlgoOidString
 
 The encryption algorithm used to protect the data in the band.
+
+
+#### Offset
+
+The offset from the beginning of this structure where the encryption algorithm OID string begins.
+
+
+#### Length
+
+The length of the OID string identifying the encryption algorithm. This is a byte-length value including a NULL terminator for the OID string.
 
 
 ### -field CryptoAlgoOidString.Offset
@@ -93,32 +103,32 @@ The offset from the beginning of this structure where the encryption algorithm O
 The length of the OID string identifying the encryption algorithm. This is a byte-length value including a NULL terminator for the OID string.
 
 
-### -field CryptoAlgoNumericId
+#### - CryptoAlgoNumericId
 
 Reserved.
 
 
-### -field StructSize
+#### - StructSize
 
 The size of the structure in bytes. Set to <b>sizeof</b>(BAND_SECURITY_INFO).
 
 
-### -field ReadLock
+#### - ReadLock
 
 Whether the band is accessible for reading and how a read lock is affected by a power reset.
 
 
-### -field WriteLock
+#### - WriteLock
 
 Whether the band is accessible for writing and how a write lock is affected by a power reset.
 
 
-### -field CryptoAlgoIdType
+#### - CryptoAlgoIdType
 
 The type of encryption algorithm identifier used. This must be set to <b>AlgoIdTypeOidString</b>.
 
 
-### -field Metadata
+#### - Metadata
 
 A metadata field available for use by a key manager.
 
@@ -204,13 +214,13 @@ When <b>BAND_SECURITY_INFO</b> is used in an input parameter set, <b>CryptoAlgoI
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
-
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a>
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
 
  
 

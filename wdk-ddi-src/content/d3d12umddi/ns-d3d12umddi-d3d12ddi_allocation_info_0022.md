@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A600C402-EB77-4C44-8349-96DAF11B807C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_ALLOCATION_INFO_0022 structure [Display Devices], display.d3d12ddi_allocation_info_0022, D3D12DDI_ALLOCATION_INFO_0022, d3d12umddi/D3D12DDI_ALLOCATION_INFO_0022
+ms.keywords: d3d12umddi/D3D12DDI_ALLOCATION_INFO_0022, D3D12DDI_ALLOCATION_INFO_0022, D3D12DDI_ALLOCATION_INFO_0022 structure [Display Devices], display.d3d12ddi_allocation_info_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct D3D12DDI_ALLOCATION_INFO_0022 {
 
 
 
-### -field hAllocation
+#### - hAllocation
 
 The handle of an allocation.
 
 
-### -field pSystemMem
+#### - pSystemMem
 
 Pointer to a system memory location that is preallocated. If the allocation uses video memory, specify null. 
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 Pointer to a buffer that contains optional private driver data.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Size of the private driver data buffer. 
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 A zero-based ID of the video present source in a path of a video present network topology.
 
 
-### -field Flags
+#### - Flags
 
 Flags that identify the type of the allocation information as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_allocation_info_flags_0022.md">D3D12DDI_ALLOCATION_INFO_FLAGS_0022</a> value.
 
 
-### -field GpuVirtualAddress
+#### - GpuVirtualAddress
 
 A virtual address in the GPU.
 
 
-### -field Priority
+#### - Priority
 
 A priority for the allocation.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved.
 

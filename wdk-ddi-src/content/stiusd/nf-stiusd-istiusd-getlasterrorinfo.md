@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0b393f55-6054-4c45-aa3d-7588139b34e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, IStiUSD, IStiUSD interface [Imaging Devices], GetLastErrorInfo method, IStiUSD::GetLastErrorInfo, stiusd/IStiUSD::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiUSD interface, GetLastErrorInfo method [Imaging Devices], GetLastErrorInfo, image.istiusd_getlasterrorinfo
+ms.keywords: GetLastErrorInfo method [Imaging Devices], IStiUSD interface, image.istiusd_getlasterrorinfo, stiusd/IStiUSD::GetLastErrorInfo, stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, GetLastErrorInfo, IStiUSD::GetLastErrorInfo, IStiUSD, IStiUSD interface [Imaging Devices], GetLastErrorInfo method, GetLastErrorInfo method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.GetLastErrorInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ HRESULT GetLastErrorInfo(
 
 
 
-### -param pLastErrorInfo
+#### - pLastErrorInfo
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a> structure to receive error information.
 

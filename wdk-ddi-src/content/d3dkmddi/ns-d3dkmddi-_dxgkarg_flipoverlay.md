@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_flipoverlay, DXGKARG_FLIPOVERLAY structure [Display Devices], _DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY, DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml
+ms.keywords: DXGKARG_FLIPOVERLAY structure [Display Devices], display.dxgkarg_flipoverlay, d3dkmddi/DXGKARG_FLIPOVERLAY, _DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY, DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGKARG_FLIPOVERLAY {
 
 
 
-### -field hSource
+#### - hSource
 
 [in] A handle to the source allocation to be displayed.
 
 
-### -field SrcPhysicalAddress
+#### - SrcPhysicalAddress
 
 [in] The physical address, within the segment that <b>SrcSegmentId</b> specifies, of the allocation to be displayed.
 
 
-### -field SrcSegmentId
+#### - SrcSegmentId
 
 [in] The identifier of a segment in which the allocation is currently paged.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 [in] A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver. 
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 

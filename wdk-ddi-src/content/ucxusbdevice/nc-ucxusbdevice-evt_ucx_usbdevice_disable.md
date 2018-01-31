@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_USBDEVICE_DISABLE
 product: Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
+req.typenames: "*PSTREAM_INFO, STREAM_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ typedef EVT_UCX_USBDEVICE_DISABLE PEVT_UCX_USBDEVICE_DISABLE;
 
 
 
-### -param UcxController [in]
+#### - UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A structure of type <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_disable.md">USBDEVICE_DISABLE</a>.
 

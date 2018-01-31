@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D7173157-D532-4E71-A4E5-55A3B9626DB8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbfn_class_interface, _USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE structure [Buses], PUSBFN_CLASS_INTERFACE structure pointer [Buses], PUSBFN_CLASS_INTERFACE, usbfnbase/USBFN_CLASS_INTERFACE, usbfnbase/PUSBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE
+ms.keywords: usbfnbase/USBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE structure pointer [Buses], _USBFN_CLASS_INTERFACE, usbfnbase/PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE structure [Buses], buses.usbfn_class_interface, PUSBFN_CLASS_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_CLASS_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE"
+req.typenames: USBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct _USBFN_CLASS_INTERFACE {
 
 
 
-### -field InterfaceNumber
+#### - InterfaceNumber
 
 The index number of the interface.
 
 
-### -field PipeCount
+#### - PipeCount
 
 The number of endpoints contained in  the interface.
 
 
-### -field PipeArr
+#### - PipeArr
 
 An array of <a href="..\usbfnbase\ns-usbfnbase-_usbfn_pipe_information.md">USBFN_PIPE_INFORMATION</a> structures that describes the endpoints in the interface.
 

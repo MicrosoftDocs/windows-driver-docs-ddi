@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PrintJobStatus_Retained, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Deleted, PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_Spooling, PrintJobStatus, printerextension/PrintJobStatus, PrintJobStatus_Spooling, PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Deleted, printerextension/PrintJobStatus_Printed, printerextension/PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Complete, tagPrintJobStatus, PrintJobStatus_Printed, printerextension/PrintJobStatus_Deleting, PrintJobStatus_Offline, PrintJobStatus_Complete, PrintJobStatus_Error, PrintJobStatus enumeration [Print Devices], print.printjobstatus, PrintJobStatus_Printing, printerextension/PrintJobStatus_PaperOut, PrintJobStatus_PaperOut, printerextension/PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Restarted, PrintJobStatus_Deleting, PrintJobStatus_Paused, printerextension/PrintJobStatus_Restarted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Offline
+ms.keywords: PrintJobStatus_Deleted, printerextension/PrintJobStatus_Complete, PrintJobStatus_Retained, printerextension/PrintJobStatus_Offline, printerextension/PrintJobStatus_Paused, PrintJobStatus_Deleting, PrintJobStatus enumeration [Print Devices], printerextension/PrintJobStatus_Printing, PrintJobStatus_Offline, PrintJobStatus_Complete, print.printjobstatus, tagPrintJobStatus, printerextension/PrintJobStatus_Restarted, PrintJobStatus_UserIntervention, PrintJobStatus_PaperOut, PrintJobStatus_Printing, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Error, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Printed, PrintJobStatus_Restarted, PrintJobStatus_Spooling, printerextension/PrintJobStatus, PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Error, PrintJobStatus, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_UserIntervention, PrintJobStatus_Printed, PrintJobStatus_Paused
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,72 +83,72 @@ typedef enum _PrintJobStatus {
 
 
 
-### -field PrintJobStatus_Paused
+#### - PrintJobStatus_Paused
 
 The job is paused.
 
 
-### -field PrintJobStatus_Error
+#### - PrintJobStatus_Error
 
 There is an error associated with the job.
 
 
-### -field PrintJobStatus_Deleting
+#### - PrintJobStatus_Deleting
 
 The job is being deleted.
 
 
-### -field PrintJobStatus_Spooling
+#### - PrintJobStatus_Spooling
 
 The job is spooling.
 
 
-### -field PrintJobStatus_Printing
+#### - PrintJobStatus_Printing
 
 The job is printing.
 
 
-### -field PrintJobStatus_Offline
+#### - PrintJobStatus_Offline
 
 The printer is offline.
 
 
-### -field PrintJobStatus_PaperOut
+#### - PrintJobStatus_PaperOut
 
 The printer is out of paper.
 
 
-### -field PrintJobStatus_Printed
+#### - PrintJobStatus_Printed
 
 The job printing is completed.
 
 
-### -field PrintJobStatus_Deleted
+#### - PrintJobStatus_Deleted
 
 The job has been deleted.
 
 
-### -field PrintJobStatus_BlockedDeviceQueue
+#### - PrintJobStatus_BlockedDeviceQueue
 
 The driver cannot print the job.
 
 
-### -field PrintJobStatus_UserIntervention
+#### - PrintJobStatus_UserIntervention
 
 The printer has an error that requires intervention from the user.
 
 
-### -field PrintJobStatus_Restarted
+#### - PrintJobStatus_Restarted
 
 The job has been restarted.
 
 
-### -field PrintJobStatus_Complete
+#### - PrintJobStatus_Complete
 
 The job data transfer to the printer is complete. Note that  the printing of the job may not yet be complete.
 
 
-### -field PrintJobStatus_Retained
+#### - PrintJobStatus_Retained
 
 The job has been retained in the print queue and cannot be deleted.
 

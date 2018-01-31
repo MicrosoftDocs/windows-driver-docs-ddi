@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B5C6FA66-617E-4DB1-A62A-3F3F41E971B0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG function, wdf.write_port_buffer_ulong, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG, umdf.write_port_buffer_ulong
+ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG function, umdf.write_port_buffer_ulong, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG, wdf.write_port_buffer_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_PORT_BUFFER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -74,23 +74,23 @@ void WRITE_PORT_BUFFER_ULONG(
 
 
 
-### -param pDevice [in]
+#### - pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Port [in]
+#### - Port [in]
 
 A pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to a buffer from which an array of ULONG values is to be written.
 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG values to be written to the buffer.
 

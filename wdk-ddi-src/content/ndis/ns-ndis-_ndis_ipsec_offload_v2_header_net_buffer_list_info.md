@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 657c7941-5475-4351-a429-94003a5c21d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_ipsec_offload_v2_header_net_buffer_list_info, _NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, task_offload_IPsecv2_ref_696f856b-fb77-437d-ba9d-0b00b71d1cab.xml, PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO
+ms.keywords: "_NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_header_net_buffer_list_info, PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, task_offload_IPsecv2_ref_696f856b-fb77-437d-ba9d-0b00b71d1cab.xml, *PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,9 +83,36 @@ typedef struct _NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO {
 
 
 
-### -field Transmit
+#### - Transmit
 
 A structure that contains the following members:
+
+
+#### NextHeader
+
+The next header value that is carried in the ESP trailer.
+
+
+#### PadLength
+
+The amount of padding, in bytes, that is added to the end of the payload for ESP only. 
+       <b>PadLength</b> is specified for IPsec offload packets with and without large send offload (LSO).
+
+
+#### AhHeaderOffset
+
+The offset count from the beginning of the IP header to the AH header. The 
+       <b>AhHeaderOffset</b> value is this offset, in bytes, divided by 4 to reduce the number of bits that
+       are required to represent the offset. Note that the AH header is, at minimum, aligned on 4-byte
+       boundaries.
+
+
+#### EspHeaderOffset
+
+The offset count from the beginning of the IP header to the ESP header. The 
+       <b>EspHeaderOffset</b> value is this offset, in bytes, divided by 4 to reduce the number of bits that
+       are required to represent the offset. Note that the ESP header is, at minimum, aligned on 4-byte
+       boundaries.
 
 
 ### -field Transmit.NextHeader
@@ -115,9 +142,27 @@ The offset count from the beginning of the IP header to the ESP header. The
        boundaries.
 
 
-### -field Receive
+#### - Receive
 
 A structure that contains the following members:
+
+
+#### NextHeader
+
+The next header value that is carried in the ESP trailer.
+
+
+#### PadLength
+
+The amount of padding, in bytes, that is added to the end of the payload for ESP only. 
+       <b>PadLength</b> is specified for IPsec offload packets with and without large send offload (LSO).
+
+
+#### HeaderInfoSet
+
+A ULONG value that, when set, indicates the members of the 
+       <b>Receive</b> structure are valid. If this member is not set, the 
+       <b>Receive</b> structure is ignored.
 
 
 ### -field Receive.NextHeader

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.branchofficelogofflinefilefull, winsplp/PBranchOfficeLogOfflineFileFull, winsplp/BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull structure pointer [Print Devices]
+ms.keywords: BranchOfficeLogOfflineFileFull, winsplp/BranchOfficeLogOfflineFileFull, print.branchofficelogofflinefilefull, PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], *PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], winsplp/PBranchOfficeLogOfflineFileFull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BranchOfficeLogOfflineFileFull
 product: Windows
 targetos: Windows
-req.typenames: BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull
+req.typenames: "*PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull"
 req.product: Windows 10 or later.
 ---
 
@@ -68,7 +68,7 @@ typedef struct {
 
 
 
-### -field pMachineName
+#### - pMachineName
 
 Specifies the name of the print client.
 

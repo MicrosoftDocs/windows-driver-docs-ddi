@@ -74,21 +74,21 @@ NDIS_STATUS FilterAttach(
 
 
 
-### -param NdisFilterHandle [in]
+#### - NdisFilterHandle [in]
 
 An NDIS handle that identifies a filter module. The filter driver must save this handle. The
      handle is required in subsequent calls to 
      <b>NdisF<i>Xxx</i></b> functions.
 
 
-### -param FilterDriverContext [in]
+#### - FilterDriverContext [in]
 
 The handle that the driver passed to the 
      <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
      NdisFRegisterFilterDriver</b></mshelp:link> function that identifies the driver context area.
 
 
-### -param AttachParameters [in]
+#### - AttachParameters [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_filter_attach_parameters" tabindex="0"><b>
@@ -250,17 +250,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
 
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
-<a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
  
 

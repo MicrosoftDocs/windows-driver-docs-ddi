@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c084258-2bd6-47a8-a060-d4ba2734ebed
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_3babb7ed-9d87-4154-b038-8e503750eed4.xml, SendRPL_IN, storage.sendrpl_in, *PSendRPL_IN, hbapiwmi/SendRPL_IN, PSendRPL_IN structure pointer [Storage Devices], PSendRPL_IN, hbapiwmi/PSendRPL_IN, SendRPL_IN structure [Storage Devices], _SendRPL_IN
+ms.keywords: SendRPL_IN, structs-Fibre_3babb7ed-9d87-4154-b038-8e503750eed4.xml, SendRPL_IN structure [Storage Devices], _SendRPL_IN, *PSendRPL_IN, PSendRPL_IN, storage.sendrpl_in, hbapiwmi/SendRPL_IN, PSendRPL_IN structure pointer [Storage Devices], hbapiwmi/PSendRPL_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendRPL_IN {
 
 
 
-### -field PortWWN
+#### - PortWWN
 
 Contains a worldwide name for the local port through which the read port list (RPL) command is sent. 
 
 
-### -field AgentWWN
+#### - AgentWWN
 
 Contains a worldwide name for the port that is to be queried for a list of ports of type FC_Port. For a definition of FC_Port, see the T11 committee's specification for <i>Fibre Channel HBA API</i>. 
 
 
-### -field agent_domain
+#### - agent_domain
 
 Contains the domain number for the domain controller that is to be queried for a list of ports of type FC_Port. For a definition of FC_Port, see the T11 committee's specification for <i>Fibre Channel HBA API</i>. 
 
 
-### -field portIndex
+#### - portIndex
 
 Contains the port index of the first port in the list of ports of type FC_Port to be returned. 
 

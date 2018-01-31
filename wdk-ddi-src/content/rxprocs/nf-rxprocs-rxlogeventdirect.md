@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fc0bf8c4-cc0b-4f1e-bd4e-facf8f0d2a96
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxlogeventdirect, rxprocs/RxLogEventDirect, RxLogEventDirect routine [Installable File System Drivers], RxLogEventDirect, rxref_654ffecc-ea49-44b8-b454-9f66e9519ddd.xml
+ms.keywords: rxref_654ffecc-ea49-44b8-b454-9f66e9519ddd.xml, rxprocs/RxLogEventDirect, RxLogEventDirect routine [Installable File System Drivers], ifsk.rxlogeventdirect, RxLogEventDirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ VOID RxLogEventDirect(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 A pointer to the RDBSS device object.
 
 
-### -param OriginatorId [in]
+#### - OriginatorId [in]
 
 A string indicating the caller generating the error.
 
 
-### -param EventId [in]
+#### - EventId [in]
 
 The value indicating the I/O error log code value which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The value indicating the status code of a routine indicating a failure.
 
 
-### -param Line [in]
+#### - Line [in]
 
 The line number in the source code file where this failure occurred.
 
@@ -119,11 +119,11 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
-
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
 
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
 
  
 

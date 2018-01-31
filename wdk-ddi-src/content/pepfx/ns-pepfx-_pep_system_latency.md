@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY, _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], *PPEP_SYSTEM_LATENCY
+ms.keywords: PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY, _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, pepfx/PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PEP_SYSTEM_LATENCY {
 
 
 
-### -field Latency
+#### - Latency
 
 [in] The overall system latency tolerance, in 100-nanosecond units. This member specifies the maximum latency that the operating system can tolerate in the time required to move a component from a low-power F<i>x</i> state to F0.
 

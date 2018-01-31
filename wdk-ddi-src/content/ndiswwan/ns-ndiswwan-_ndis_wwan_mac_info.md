@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C55DC50B-5A1B-496E-BBB8-8EB94A9CFD2F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info, _NDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO, ndiswwan/NDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_MAC_INFO"
+ms.keywords: ndiswwan/NDIS_WWAN_MAC_INFO, ndiswwan/PNDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info, PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_MAC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_MAC_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO"
+req.typenames: NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO
 ---
 
 # _NDIS_WWAN_MAC_INFO structure
@@ -69,17 +69,17 @@ typedef struct _NDIS_WWAN_MAC_INFO {
 
 
 
-### -field uReserved
+#### - uReserved
 
 Reserved. Do not use.
 
 
-### -field uNdisPortNumber
+#### - uNdisPortNumber
 
 The number of the NDIS port. This value is an NDIS_PORT_NUMBER value, which has a ULONG data type and is valid from zero through 0xffffff, where zero is reserved for the default port.
 
 
-### -field MacAddr
+#### - MacAddr
 
 The NDIS port of the PDP context.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df261323-f372-49e7-990a-03c1c5cb743d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_BDA_FRAME_INFO, bdaref_62fe9ca5-dca5-4287-83e8-59667d70d953.xml, KS_BDA_FRAME_INFO structure [Streaming Media Devices], stream.ks_bda_frame_info, bdatypes/KS_BDA_FRAME_INFO, *PKS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO, PKS_BDA_FRAME_INFO, bdatypes/PKS_BDA_FRAME_INFO, PKS_BDA_FRAME_INFO structure pointer [Streaming Media Devices]
+ms.keywords: tagKS_BDA_FRAME_INFO, PKS_BDA_FRAME_INFO structure pointer [Streaming Media Devices], KS_BDA_FRAME_INFO structure [Streaming Media Devices], bdatypes/PKS_BDA_FRAME_INFO, PKS_BDA_FRAME_INFO, bdatypes/KS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO, stream.ks_bda_frame_info, *PKS_BDA_FRAME_INFO, bdaref_62fe9ca5-dca5-4287-83e8-59667d70d953.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_BDA_FRAME_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO"
+req.typenames: KS_BDA_FRAME_INFO, *PKS_BDA_FRAME_INFO
 ---
 
 # tagKS_BDA_FRAME_INFO structure
@@ -72,32 +72,32 @@ typedef struct tagKS_BDA_FRAME_INFO {
 
 
 
-### -field ExtendedHeaderSize
+#### - ExtendedHeaderSize
 
 Size, in bytes, of the BDA extensions described in this extended header structure.
 
 
-### -field dwFrameFlags
+#### - dwFrameFlags
 
 Flags specific to BDA extensions. 
 
 
-### -field ulEvent
+#### - ulEvent
 
 Identifier of an event.
 
 
-### -field ulChannelNumber
+#### - ulChannelNumber
 
 Channel number of a television program.
 
 
-### -field ulSubchannelNumber
+#### - ulSubchannelNumber
 
 Subchannel number of a television program.
 
 
-### -field ulReason
+#### - ulReason
 
 Identifies the reason the packet was transferred.
 

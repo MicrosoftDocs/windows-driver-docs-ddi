@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd602dd6-c216-413a-a4da-292739774937
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, netvista.ndis_port_characteristics, *PNDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NDIS_PORT_CHARACTERISTICS, ntddndis/NDIS_PORT_CHARACTERISTICS
+ms.keywords: ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, *PNDIS_PORT_CHARACTERISTICS, ntddndis/NDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NDIS_PORT_CHARACTERISTICS, ntddndis/PNDIS_PORT_CHARACTERISTICS, netvista.ndis_port_characteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PORT_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS"
+req.typenames: NDIS_PORT_CHARACTERISTICS, *PNDIS_PORT_CHARACTERISTICS
 ---
 
 # _NDIS_PORT_CHARACTERISTICS structure
@@ -78,7 +78,7 @@ typedef struct _NDIS_PORT_CHARACTERISTICS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -89,14 +89,14 @@ The
      <b>Size</b> member to NDIS_SIZEOF_PORT_CHARACTERISTICS_REVISION_1.
 
 
-### -field PortNumber
+#### - PortNumber
 
 The number of the NDIS port that is associated with this <b>NDIS_PORT_CHARACTERISTICS</b> structure. The 
      <b>PortNumber</b> value is an NDIS_PORT_NUMBER value, which has a ULONG data type and is valid from zero
      through 0xffffff, where zero is reserved for the default port.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR combination of the port characteristics flags, or zero if no flags are set. There is
      currently one flag.
@@ -110,7 +110,7 @@ If the NDIS_PORT_CHAR_USE_DEFAULT_AUTH_SETTINGS flag is set, NDIS ignores authen
      with the default authentication state settings.
 
 
-### -field Type
+#### - Type
 
 The type of NDIS port. For more information, see <a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>. This type can be one of the following values:
      
@@ -143,33 +143,33 @@ A remote wireless station that is associated with an access point on this host c
 Reserved for system use.
 <div class="alert"><b>Note</b>  This value is supported only in NDIS 6.30 and later.</div><div> </div>
 
-### -field MediaConnectState
+#### - MediaConnectState
 
 The media connection state of the port. This state is the same information that the 
      <mshelp:link keywords="netvista.oid_gen_media_connect_status_ex" tabindex="0">
      OID_GEN_MEDIA_CONNECT_STATUS_EX</mshelp:link> OID returns.
 
 
-### -field XmitLinkSpeed
+#### - XmitLinkSpeed
 
 The transmit link speed of the port in bits per second. A value of -1 in this member indicates
      that the transmit link speed is unknown.
 
 
-### -field RcvLinkSpeed
+#### - RcvLinkSpeed
 
 The receive link speed of the port, in bits per second. A value of -1 in this member indicates
      that the receive link speed is unknown.
 
 
-### -field Direction
+#### - Direction
 
 A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
-### -field SendControlState
+#### - SendControlState
 
 The control state of the port for send operations. This member must contain one of the following
      values:
@@ -195,7 +195,7 @@ The port is in an uncontrolled state for send operations. That is, the port does
        authorization.
 
 
-### -field RcvControlState
+#### - RcvControlState
 
 The control state of the port for receive operations. This member must contain one of the
      following values:
@@ -222,7 +222,7 @@ The port is in an uncontrolled state for receive operations. Therefore, authenti
        apply to this port.
 
 
-### -field SendAuthorizationState
+#### - SendAuthorizationState
 
 The authorization state of the port for send operations. Ignore this member if the 
      <b>SendControlState</b> member is set to 
@@ -254,7 +254,7 @@ The port is not authorized for send operations.
 The port is re-authorizing for send operations.
 
 
-### -field RcvAuthorizationState
+#### - RcvAuthorizationState
 
 The authorization state of the port for receive operations. Ignore this member if the 
      <b>RcvControlState</b> member is set to 
@@ -310,7 +310,15 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_array.md">NDIS_PORT_ARRAY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
 
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
@@ -319,14 +327,6 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 <a href="https://msdn.microsoft.com/e65f4af5-c527-4d6d-a38c-56da006b1ef7">NDIS Ports</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_array.md">NDIS_PORT_ARRAY</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

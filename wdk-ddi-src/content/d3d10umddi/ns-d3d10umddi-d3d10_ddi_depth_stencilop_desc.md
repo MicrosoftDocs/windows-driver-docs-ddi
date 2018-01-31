@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f0f3f1d-5b38-4815-9732-3b4079481c58
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_DEPTH_STENCILOP_DESC, D3D10_DDI_DEPTH_STENCILOP_DESC, UMDisplayDriver_Dx10param_Structs_606e4f10-c713-4aae-b1d1-4a3c9ffde205.xml, display.d3d10_ddi_depth_stencilop_desc, D3D10_DDI_DEPTH_STENCILOP_DESC structure [Display Devices]
+ms.keywords: D3D10_DDI_DEPTH_STENCILOP_DESC, display.d3d10_ddi_depth_stencilop_desc, D3D10_DDI_DEPTH_STENCILOP_DESC structure [Display Devices], d3d10umddi/D3D10_DDI_DEPTH_STENCILOP_DESC, UMDisplayDriver_Dx10param_Structs_606e4f10-c713-4aae-b1d1-4a3c9ffde205.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,35 +70,35 @@ typedef struct D3D10_DDI_DEPTH_STENCILOP_DESC {
 
 
 
-### -field StencilFailOp
+#### - StencilFailOp
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if the stencil test fails.
 
 
-### -field StencilDepthFailOp
+#### - StencilDepthFailOp
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if the stencil test passes and the depth test fails.
 
 
-### -field StencilPassOp
+#### - StencilPassOp
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if both stencil and depth tests pass.
 
 
-### -field StencilFunc
+#### - StencilFunc
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the stencil-comparison function to perform.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatedepthstencilstatesize.md">CalcPrivateDepthStencilStateSize</a>
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DC54CC46-6ECC-4D1F-9C8C-5579EE759B6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._usbdevice_enable, USBDEVICE_ENABLE structure [Buses], P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE, _USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE
+ms.keywords: USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], P_USBDEVICE_ENABLE, buses._usbdevice_enable, *PUSBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], _USBDEVICE_ENABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _USBDEVICE_ENABLE {
 
 
 
-### -field Header
+#### - Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
-### -field DefaultEndpoint
+#### - DefaultEndpoint
 
 The default endpoint for the USB hub or device to enable transfers for.
 
 
-### -field FailureFlags
+#### - FailureFlags
 
 The errors, if any, that occurred when attempting to enable the hub or device for transfers.
 

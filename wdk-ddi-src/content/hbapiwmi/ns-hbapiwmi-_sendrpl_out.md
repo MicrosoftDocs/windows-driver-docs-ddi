@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 36ca3d6e-7012-4bbb-a2a0-e19708aa1058
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSendRPL_OUT structure pointer [Storage Devices], SendRPL_OUT, hbapiwmi/SendRPL_OUT, *PSendRPL_OUT, hbapiwmi/PSendRPL_OUT, _SendRPL_OUT, SendRPL_OUT structure [Storage Devices], storage.sendrpl_out, PSendRPL_OUT, structs-Fibre_aef41c84-1718-4e82-aeae-d0280d6cf3b1.xml
+ms.keywords: SendRPL_OUT, hbapiwmi/PSendRPL_OUT, _SendRPL_OUT, structs-Fibre_aef41c84-1718-4e82-aeae-d0280d6cf3b1.xml, storage.sendrpl_out, *PSendRPL_OUT, hbapiwmi/SendRPL_OUT, SendRPL_OUT structure [Storage Devices], PSendRPL_OUT, PSendRPL_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendRPL_OUT {
 
 
 
-### -field HBAStatus
+#### - HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-### -field TotalRspBufferSize
+#### - TotalRspBufferSize
 
 Contains the size in bytes of the results of the read port list (RPL) command. 
 
 
-### -field ActualRspBufferSize
+#### - ActualRspBufferSize
 
 Contains the size in bytes of the data that was actually retrieved. 
 
 
-### -field RspBuffer
+#### - RspBuffer
 
 Contains the results of the read port list (RPL) command. 
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e7c50bac-96ca-446d-a865-4ad87ad5b295
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbspec/UsbSuperSpeed, usbspec/UsbFullSpeed, USB_DEVICE_SPEED, UsbSuperSpeed, usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml, _USB_DEVICE_SPEED, buses.usb_device_speed, UsbHighSpeed, UsbLowSpeed, usbspec/USB_DEVICE_SPEED, USB_DEVICE_SPEED enumeration [Buses], UsbFullSpeed, usbspec/UsbHighSpeed, usbspec/UsbLowSpeed
+ms.keywords: buses.usb_device_speed, USB_DEVICE_SPEED enumeration [Buses], USB_DEVICE_SPEED, usbspec/UsbLowSpeed, _USB_DEVICE_SPEED, UsbFullSpeed, UsbHighSpeed, UsbSuperSpeed, UsbLowSpeed, usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml, usbspec/UsbSuperSpeed, usbspec/USB_DEVICE_SPEED, usbspec/UsbHighSpeed, usbspec/UsbFullSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,24 +71,24 @@ typedef enum  {
 
 
 
-### -field UsbLowSpeed
+#### - UsbLowSpeed
 
 Indicates a low-speed USB 1.1-compliant device.
 
 
-### -field UsbFullSpeed
+#### - UsbFullSpeed
 
 Indicates a full-speed USB 1.1-compliant device.
 
 
-### -field UsbHighSpeed
+#### - UsbHighSpeed
 
 Indicates a high-speed USB 2.0-compliant device. 
 
 
 
 
-### -field UsbSuperSpeed
+#### - UsbSuperSpeed
 
 Indicates a SuperSpeed USB 3.0-compliant device. 
 

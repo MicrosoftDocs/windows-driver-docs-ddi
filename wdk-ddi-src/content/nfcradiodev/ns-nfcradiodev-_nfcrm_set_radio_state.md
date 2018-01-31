@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 22FE29AC-790D-40D2-949F-9C132F67AEAB
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfcradiodev/P_NFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE, nfcradiodev/NFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], nfpdrivers._nfcrm_set_radio_state_, NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], *PNFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE
+ms.keywords: P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], nfcradiodev/NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], P_NFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], NFCRM_SET_RADIO_STATE, *PNFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE, nfcradiodev/P_NFCRM_SET_RADIO_STATE, nfpdrivers._nfcrm_set_radio_state_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _NFCRM_SET_RADIO_STATE  {
 
 
 
-### -field SystemStateUpdate
+#### - SystemStateUpdate
 
 The <b>SystemStateUpdate</b>. If true, indicates that IOCTL_NFCRM_SET_RADIO_STATE is triggered by airplane mode.
 
 
-### -field MediaRadioOn
+#### - MediaRadioOn
 
 The <b>MediaRadioOn</b> flag either enables the system trigger (airplane mode if  <b>SystemStateUpdate</b> is true) or disables it.
 

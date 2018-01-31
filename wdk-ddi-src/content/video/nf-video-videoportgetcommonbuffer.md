@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8329d26-fb6f-46f1-aacd-ba78ee4ea5d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetCommonBuffer, VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, display.videoportgetcommonbuffer, VideoPortGetCommonBuffer function [Display Devices], video/VideoPortGetCommonBuffer
+ms.keywords: VideoPortGetCommonBuffer, VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, VideoPortGetCommonBuffer function [Display Devices], display.videoportgetcommonbuffer, video/VideoPortGetCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,32 +75,32 @@ PVOID VideoPortGetCommonBuffer(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param DesiredLength [in]
+#### - DesiredLength [in]
 
 Specifies the requested number of bytes of memory.
 
 
-### -param Alignment [in]
+#### - Alignment [in]
 
 Specifies the requested alignment of the buffer. The video port driver currently ignores this parameter.
 
 
-### -param LogicalAddress [out]
+#### - LogicalAddress [out]
 
 Pointer to a variable that receives the logical address to be used by the adapter to access the allocated buffer.
 
 
-### -param pActualLength [out]
+#### - pActualLength [out]
 
 Pointer to a variable that receives the actual size, in bytes, of the buffer allocated for this request.
 
 
-### -param CacheEnabled [in]
+#### - CacheEnabled [in]
 
 Specifies whether the allocated memory can be cached.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f16b26f5-1f32-4c2e-83ec-0a0f79a4be85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.cm_partial_resource_list, CM_PARTIAL_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], wdm/PCM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST, *PCM_PARTIAL_RESOURCE_LIST, kstruct_a_26d7ed25-e580-41e2-ae9d-5e06eb263e3d.xml, CM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], wdm/CM_PARTIAL_RESOURCE_LIST, _CM_PARTIAL_RESOURCE_LIST
+ms.keywords: CM_PARTIAL_RESOURCE_LIST, *PCM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST, wdm/PCM_PARTIAL_RESOURCE_LIST, kernel.cm_partial_resource_list, PCM_PARTIAL_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], wdm/CM_PARTIAL_RESOURCE_LIST, kstruct_a_26d7ed25-e580-41e2-ae9d-5e06eb263e3d.xml, _CM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CM_PARTIAL_RESOURCE_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PCM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST"
+req.typenames: CM_PARTIAL_RESOURCE_LIST, *PCM_PARTIAL_RESOURCE_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef struct _CM_PARTIAL_RESOURCE_LIST {
 
 
 
-### -field Version
+#### - Version
 
 The version number of this structure. This value should be 1.
 
 
-### -field Revision
+#### - Revision
 
 The revision of this structure. This value should be 1.
 
 
-### -field Count
+#### - Count
 
 The number of elements contained in the <b>PartialDescriptors</b> array.
 
 
-### -field PartialDescriptors
+#### - PartialDescriptors
 
 The first element in an array of one or more <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structures.
 
@@ -100,9 +100,9 @@ This structure is the header for an array of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

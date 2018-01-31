@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8fef4def-9735-4623-841b-a18995d4d403
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient2::SetOutputMask, dbgeng/IDebugClient2::SetOutputMask, IDebugClient4 interface [Windows Debugging], SetOutputMask method, SetOutputMask method [Windows Debugging], IDebugClient5 interface, SetOutputMask method [Windows Debugging], IDebugClient3 interface, IDebugClient3 interface [Windows Debugging], SetOutputMask method, IDebugClient interface [Windows Debugging], SetOutputMask method, IDebugClient5 interface [Windows Debugging], SetOutputMask method, IDebugClient::SetOutputMask, dbgeng/IDebugClient3::SetOutputMask, SetOutputMask method [Windows Debugging], dbgeng/IDebugClient::SetOutputMask, IDebugClient5::SetOutputMask, SetOutputMask method [Windows Debugging], IDebugClient4 interface, IDebugClient4::SetOutputMask, IDebugClient2 interface [Windows Debugging], SetOutputMask method, IDebugClient3::SetOutputMask, SetOutputMask method [Windows Debugging], IDebugClient interface, SetOutputMask method [Windows Debugging], IDebugClient2 interface, debugger.setoutputmask, IDebugClient_85242101-702d-4c9a-b71a-5eddd76a4fa6.xml, SetOutputMask, dbgeng/IDebugClient4::SetOutputMask, dbgeng/IDebugClient5::SetOutputMask, IDebugClient5
+ms.keywords: SetOutputMask method [Windows Debugging], IDebugClient4 interface, debugger.setoutputmask, IDebugClient2::SetOutputMask, dbgeng/IDebugClient2::SetOutputMask, dbgeng/IDebugClient3::SetOutputMask, IDebugClient4::SetOutputMask, IDebugClient3::SetOutputMask, SetOutputMask method [Windows Debugging], IDebugClient5 interface, SetOutputMask method [Windows Debugging], IDebugClient2 interface, IDebugClient::SetOutputMask, IDebugClient5::SetOutputMask, dbgeng/IDebugClient5::SetOutputMask, SetOutputMask, IDebugClient5, IDebugClient2 interface [Windows Debugging], SetOutputMask method, SetOutputMask method [Windows Debugging], IDebugClient3 interface, IDebugClient5 interface [Windows Debugging], SetOutputMask method, IDebugClient_85242101-702d-4c9a-b71a-5eddd76a4fa6.xml, IDebugClient interface [Windows Debugging], SetOutputMask method, dbgeng/IDebugClient::SetOutputMask, IDebugClient4 interface [Windows Debugging], SetOutputMask method, SetOutputMask method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], SetOutputMask method, dbgeng/IDebugClient4::SetOutputMask, SetOutputMask method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT SetOutputMask(
 
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 Specifies the new output mask for the client.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for a description of the possible values for <i>Mask</i>.
 
@@ -109,19 +109,19 @@ For an overview of output in the debugger engine, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548080">GetOutputMask</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556750">SetOtherOutputMask</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
  
 

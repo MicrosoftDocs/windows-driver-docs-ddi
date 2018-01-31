@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2b183911-0c4d-4b67-834d-e876d22c99af
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfslsncreate, wdm/ClfsLsnCreate, ClfsLsnCreate, Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml, ClfsLsnCreate routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsLsnCreate routine [Kernel-Mode Driver Architecture], ClfsLsnCreate, kernel.clfslsncreate, wdm/ClfsLsnCreate, Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ CLFS_LSN ClfsLsnCreate(
 
 
 
-### -param cidContainer [in]
+#### - cidContainer [in]
 
 An integer in the range 0x0 through 0xFFFFFFFF that supplies the container identifier.
 
 
-### -param offBlock [in]
+#### - offBlock [in]
 
 The block offset. This parameter must be a multiple of 512.
 
 
-### -param cRecord [in]
+#### - cRecord [in]
 
 An integer in the range 0 - 511 that supplies the record sequence number.
 
@@ -104,11 +104,11 @@ systems.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
+<a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
 
 <a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
 
-<a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
+<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
 
  
 

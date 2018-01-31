@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c29d5cbc-ddcc-42e9-ac2d-e442a489adfd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL structure [Audio Devices], audio.ksac3_dialogue_level, *PKSAC3_DIALOGUE_LEVEL, aud-prop_223d9fe5-3b60-46b4-a157-7ddab97a75f8.xml, PKSAC3_DIALOGUE_LEVEL, PKSAC3_DIALOGUE_LEVEL structure pointer [Audio Devices], ksmedia/PKSAC3_DIALOGUE_LEVEL, ksmedia/KSAC3_DIALOGUE_LEVEL
+ms.keywords: KSAC3_DIALOGUE_LEVEL, ksmedia/PKSAC3_DIALOGUE_LEVEL, ksmedia/KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL structure [Audio Devices], PKSAC3_DIALOGUE_LEVEL, audio.ksac3_dialogue_level, PKSAC3_DIALOGUE_LEVEL structure pointer [Audio Devices], aud-prop_223d9fe5-3b60-46b4-a157-7ddab97a75f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-### -field DialogueLevel
+#### - DialogueLevel
 
 Specifies how far the average dialog level is below digital 100 percent. Valid values are 1 through 31. The values 1 through 31 are interpreted as -1 decibels through -31 decibels with respect to digital 100 percent.
 

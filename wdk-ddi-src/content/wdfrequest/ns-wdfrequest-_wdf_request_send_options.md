@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d561e0f-ca7e-44ed-9025-1a6513e4cd28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PWDF_REQUEST_SEND_OPTIONS, PWDF_REQUEST_SEND_OPTIONS structure pointer, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS structure, WDF_REQUEST_SEND_OPTIONS, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, PWDF_REQUEST_SEND_OPTIONS, _WDF_REQUEST_SEND_OPTIONS, wdf.wdf_request_send_options, kmdf.wdf_request_send_options, wdfrequest/WDF_REQUEST_SEND_OPTIONS"
+ms.keywords: WDF_REQUEST_SEND_OPTIONS, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, *PWDF_REQUEST_SEND_OPTIONS, PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS structure, wdfrequest/WDF_REQUEST_SEND_OPTIONS, _WDF_REQUEST_SEND_OPTIONS, kmdf.wdf_request_send_options, wdf.wdf_request_send_options, PWDF_REQUEST_SEND_OPTIONS structure pointer, wdfrequest/PWDF_REQUEST_SEND_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_REQUEST_SEND_OPTIONS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ typedef struct _WDF_REQUEST_SEND_OPTIONS {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags.
 
 
-### -field Timeout
+#### - Timeout
 
 A time-out value, in system time units (100-nanosecond intervals). If the driver has set the WDF_REQUEST_SEND_OPTION_TIMEOUT flag, the framework cancels the associated I/O request if it is not completed within the specified time-out period. The time-out value can be negative, positive, or zero, as follows:
 <ul>
@@ -118,11 +118,11 @@ If the driver is sending the request synchronously, we recommend that the driver
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 

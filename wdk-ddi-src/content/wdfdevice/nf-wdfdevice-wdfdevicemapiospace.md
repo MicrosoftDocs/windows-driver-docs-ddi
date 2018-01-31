@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, WdfDeviceMapIoSpace
+ms.keywords: wdfdevice/WdfDeviceMapIoSpace, WdfDeviceMapIoSpace, wdf.wdfdevicemapiospace, WdfDeviceMapIoSpace function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ NTSTATUS WdfDeviceMapIoSpace(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param PhysicalAddress [in]
+#### - PhysicalAddress [in]
 
 Specifies the starting 64-bit physical address of the I/O range to be mapped.
 
 
-### -param NumberOfBytes [in]
+#### - NumberOfBytes [in]
 
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 
-### -param CacheType [in]
+#### - CacheType [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wdfdevice.h.
 
 
-### -param PseudoBaseAddress [out]
+#### - PseudoBaseAddress [out]
 
 The address of a location that receives a pointer to the pseudo base address.
 

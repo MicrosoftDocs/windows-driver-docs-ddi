@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 61dfdd09-1e2b-4771-a2c2-62454adc7832
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_79641311-568b-472c-9950-2e46472affcf.xml, CcCoherencyFlushAndPurgeCache, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers]
+ms.keywords: CcCoherencyFlushAndPurgeCache, ifsk.cccoherencyflushandpurgecache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ntifs/CcCoherencyFlushAndPurgeCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ VOID CcCoherencyFlushAndPurgeCache(
 
 
 
-### -param SectionObjectPointer [in]
+#### - SectionObjectPointer [in]
 
 A pointer to a structure that contains the section object pointers of the file object.
 
 
-### -param FileOffset [in, optional]
+#### - FileOffset [in, optional]
 
 A pointer to a variable that specifies the starting byte offset to flush, purge, or both.
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes of the data to flush and/or purge starting at <i>FileOffset</i>. This parameter is ignored if a <b>NULL</b> pointer is passed to <i>FileOffset</i>.
 
 
-### -param IoStatus [out]
+#### - IoStatus [out]
 
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation.
 
 
-### -param Flags [in, optional]
+#### - Flags [in, optional]
 
 A bitmask of flags that specify how the operation is to be performed. The one flag is defined in the following table. 
 <table>

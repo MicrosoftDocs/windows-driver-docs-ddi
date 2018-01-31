@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ed652b52-33c9-4961-af29-b5fc54cf29b8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11ddiarg_tessellation_io_signatures, UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices]
+ms.keywords: UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, display.d3d11ddiarg_tessellation_io_signatures, D3D11DDIARG_TESSELLATION_IO_SIGNATURES, d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct D3D11DDIARG_TESSELLATION_IO_SIGNATURES {
 
 
 
-### -field pInputSignature
+#### - pInputSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_signature_entry.md">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature. 
 
 
-### -field NumInputSignatureEntries
+#### - NumInputSignatureEntries
 
 [in] The number of entries in the array that the <b>pInputSignature</b> member specifies. 
 
 
-### -field pOutputSignature
+#### - pOutputSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_signature_entry.md">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature. 
 
 
-### -field NumOutputSignatureEntries
+#### - NumOutputSignatureEntries
 
 [in] The number of entries in the array that the <b>pOutputSignature</b> member specifies. 
 
 
-### -field pPatchConstantSignature
+#### - pPatchConstantSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_signature_entry.md">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the signature patches. 
 
 
-### -field NumPatchConstantSignatureEntries
+#### - NumPatchConstantSignatureEntries
 
 [in] The number of entries in the array that the <b>pPatchConstantSignature</b> member specifies. 
 

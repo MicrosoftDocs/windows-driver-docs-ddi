@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 617e80c2-2823-4393-81eb-b2cbd2b21be8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SET_REGISTER_STATE, wwan/PWWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], netvista.wwan_set_register_state, WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, *PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE
+ms.keywords: wwan/PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE, WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], netvista.wwan_set_register_state, *PWWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE, _WWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SET_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE"
+req.typenames: WWAN_SET_REGISTER_STATE, *PWWAN_SET_REGISTER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -71,7 +71,7 @@ typedef struct _WWAN_SET_REGISTER_STATE {
 
 
 
-### -field ProviderId
+#### - ProviderId
 
 A NULL-terminated numeric (0-9) string that represents the network provider identity.
      
@@ -88,7 +88,7 @@ For CDMA-based networks, this string is a five-digit System ID (SID). Generally,
      WWAN_CDMA_DEFAULT_PROVIDER_ID if this information is not available.
 
 
-### -field RegisterAction
+#### - RegisterAction
 
 The registration action that the miniport driver is requested to perform. If this member is set to
      
@@ -96,7 +96,7 @@ The registration action that the miniport driver is requested to perform. If thi
      <b>ProviderId</b> member should be ignored.
 
 
-### -field WwanDataClass
+#### - WwanDataClass
 
 A bitmap that represents the data access technologies that are preferred for a connection. For a
      detailed list of values, see the 

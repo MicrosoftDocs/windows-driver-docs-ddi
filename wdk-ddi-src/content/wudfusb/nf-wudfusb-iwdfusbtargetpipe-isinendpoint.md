@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, wdf.iwdfusbtargetpipe_isinendpoint, IWDFUsbTargetPipe interface, IsInEndPoint method, IsInEndPoint method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::IsInEndPoint, umdf.iwdfusbtargetpipe_isinendpoint, IsInEndPoint method, IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IWDFUsbTargetPipe
+ms.keywords: IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint method, wdf.iwdfusbtargetpipe_isinendpoint, IsInEndPoint, IWDFUsbTargetPipe, IsInEndPoint method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::IsInEndPoint, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, IWDFUsbTargetPipe interface, IsInEndPoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,9 +85,9 @@ If the USB pipe is an IN pipe, a UMDF driver can call the <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
  
 

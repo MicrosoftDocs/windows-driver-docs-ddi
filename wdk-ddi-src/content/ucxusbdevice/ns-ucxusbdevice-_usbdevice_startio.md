@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6FE2962A-90A3-44C6-9A2E-CCEBCE8C1417
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], buses._usbdevice_startio, USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], ucxusbdevice/P_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO, _USBDEVICE_STARTIO
+ms.keywords: ucxusbdevice/P_USBDEVICE_STARTIO, _USBDEVICE_STARTIO, USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], P_USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO, buses._usbdevice_startio, USBDEVICE_STARTIO structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _USBDEVICE_STARTIO {
 
 
 
-### -field Header
+#### - Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 

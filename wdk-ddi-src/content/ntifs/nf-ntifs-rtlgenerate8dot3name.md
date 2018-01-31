@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml, ntifs/RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers], ifsk.rtlgenerate8dot3name, RtlGenerate8dot3Name
+ms.keywords: RtlGenerate8dot3Name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml, ifsk.rtlgenerate8dot3name, ntifs/RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS RtlGenerate8dot3Name(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 Pointer to a Unicode string containing the long name for the file. Any leading periods in this file name are skipped during generation of a corresponding short name. 
 
 
-### -param AllowExtendedCharacters [in]
+#### - AllowExtendedCharacters [in]
 
 Set to <b>TRUE</b> if the generated short file name can contain extended characters. Set to <b>FALSE</b> if the generated short file name must contain only characters within the current code page's ANSI or OEM range from 0x20 (space) through 0x7f (DEL). 
 
 
-### -param Context [in, out]
+#### - Context [in, out]
 
 Pointer to a caller-allocated buffer for use by <b>RtlGenerate8dot3Name</b>. Before calling <b>RtlGenerate8dot3Name</b> for the first time to translate the given long file name, the caller is responsible for filling the buffer with zeros.
 
 
-### -param Name8dot3 [in, out]
+#### - Name8dot3 [in, out]
 
 Pointer to a caller-allocated buffer to receive the generated short file name. The size of this buffer must be at least 24 bytes (12 Unicode characters). 
 
@@ -134,9 +134,9 @@ Square brackets
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntifs\nf-ntifs-rtlisnamelegaldos8dot3.md">RtlIsNameLegalDOS8Dot3</a>
-
 <a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
+
+<a href="..\ntifs\nf-ntifs-rtlisnamelegaldos8dot3.md">RtlIsNameLegalDOS8Dot3</a>
 
  
 

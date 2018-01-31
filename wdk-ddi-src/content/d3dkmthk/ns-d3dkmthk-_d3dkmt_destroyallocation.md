@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba85b333-9a43-421a-8687-9630e792cadf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DESTROYALLOCATION, display.d3dkmt_destroyallocation, d3dkmthk/D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION structure [Display Devices], _D3DKMT_DESTROYALLOCATION, OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml
+ms.keywords: D3DKMT_DESTROYALLOCATION structure [Display Devices], _D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION, d3dkmthk/D3DKMT_DESTROYALLOCATION, display.d3dkmt_destroyallocation, OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_DESTROYALLOCATION {
 
 
 
-### -field hDevice
+#### - hDevice
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the resource, allocations, or both are associated with.
 
 
-### -field hResource
+#### - hResource
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the resource that is associated with the allocations when releasing a resource. If a resource handle is specified, all of the allocations that are associated with it are automatically released.
 
 
-### -field phAllocationList
+#### - phAllocationList
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. If any allocation in the list is associated with a resource, all of the allocations in the list must also be associated with the same resource. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, the ICD must set <b>phAllocationList</b> to <b>NULL</b>.
 
 
-### -field AllocationCount
+#### - AllocationCount
 
 [in] The number of allocations in the array that <b>phAllocationList</b> specifies. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, the <b>AllocationCount</b> member is ignored by the OpenGL runtime.
 

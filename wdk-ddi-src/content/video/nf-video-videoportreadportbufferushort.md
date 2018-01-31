@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ad19dc0-f301-4367-b867-6bc714fd3d5e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportreadportbufferushort, VideoPortReadPortBufferUshort, VideoPortReadPortBufferUshort function [Display Devices], VideoPort_Functions_598e11ff-25be-4b55-a86f-130100ed0972.xml, video/VideoPortReadPortBufferUshort
+ms.keywords: display.videoportreadportbufferushort, VideoPort_Functions_598e11ff-25be-4b55-a86f-130100ed0972.xml, VideoPortReadPortBufferUshort function [Display Devices], VideoPortReadPortBufferUshort, video/VideoPortReadPortBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortReadPortBufferUshort(
 
 
 
-### -param Port
+#### - Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer into which an array of USHORT values is written.
 
 
-### -param Count
+#### - Count
 
 Specifies the number of USHORT values to be written to the buffer.
 
@@ -105,11 +105,11 @@ Callers of <b>VideoPortReadPortBufferUshort</b> can be running at any IRQL, prov
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

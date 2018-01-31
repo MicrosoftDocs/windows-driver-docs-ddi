@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 32893a68-68ac-4bac-ab0f-1d07a1e873f3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeCancelConnectRequest routine [Installable File System Drivers], rxce/RxCeCancelConnectRequest, ifsk.rxcecancelconnectrequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml, RxCeCancelConnectRequest
+ms.keywords: RxCeCancelConnectRequest routine [Installable File System Drivers], rxce/RxCeCancelConnectRequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml, ifsk.rxcecancelconnectrequest, RxCeCancelConnectRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeCancelConnectRequest
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ NTSTATUS RxCeCancelConnectRequest(
 
 
 
-### -param pLocalAddress [in]
+#### - pLocalAddress [in]
 
 A pointer to the local RDBSS connection engine address on which the previously issued connection request was made.
 
 
-### -param pServerName [in]
+#### - pServerName [in]
 
 A pointer to the name of the server on which the previous connection request was made.
 
 
-### -param pConnectionInformation [in]
+#### - pConnectionInformation [in]
 
 A pointer to the connection information that specifies the remote address. on which the previously issued connection request was made.
 

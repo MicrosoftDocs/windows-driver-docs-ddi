@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e43557ed-3394-47df-9581-fc3f0c314529
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVC_PIN_COUNT, AVC_PIN_COUNT, _AVC_PIN_COUNT, avcref_693c28a9-c746-4116-aee7-0de54ce08565.xml, stream.avc_pin_count, AVC_PIN_COUNT structure [Streaming Media Devices], avc/AVC_PIN_COUNT, PAVC_PIN_COUNT structure pointer [Streaming Media Devices], avc/PAVC_PIN_COUNT, *PAVC_PIN_COUNT
+ms.keywords: avc/PAVC_PIN_COUNT, *PAVC_PIN_COUNT, AVC_PIN_COUNT, avcref_693c28a9-c746-4116-aee7-0de54ce08565.xml, PAVC_PIN_COUNT, PAVC_PIN_COUNT structure pointer [Streaming Media Devices], AVC_PIN_COUNT structure [Streaming Media Devices], _AVC_PIN_COUNT, stream.avc_pin_count, avc/AVC_PIN_COUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_PIN_COUNT
 product: Windows
 targetos: Windows
-req.typenames: "*PAVC_PIN_COUNT, AVC_PIN_COUNT"
+req.typenames: AVC_PIN_COUNT, *PAVC_PIN_COUNT
 ---
 
 # _AVC_PIN_COUNT structure
@@ -67,7 +67,7 @@ typedef struct _AVC_PIN_COUNT {
 
 
 
-### -field PinCount
+#### - PinCount
 
 This value is filled in by <i>avc.sys</i> on return from the <b>AVC_FUNCTION_GET_PIN_COUNT</b> function.
 
@@ -85,9 +85,9 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554158">AVC_FUNCTION_GET_PIN_COUNT</a>
-
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554158">AVC_FUNCTION_GET_PIN_COUNT</a>
 
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 

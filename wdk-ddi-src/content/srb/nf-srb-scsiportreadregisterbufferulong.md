@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6b2d1893-8878-4ccd-bc0c-845e1cb8f6bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadRegisterBufferUlong routine [Storage Devices], ScsiPortReadRegisterBufferUlong, scsiprt_4356902d-5810-4006-acbe-40d41c2d68e4.xml, storage.scsiportreadregisterbufferulong, srb/ScsiPortReadRegisterBufferUlong
+ms.keywords: ScsiPortReadRegisterBufferUlong, srb/ScsiPortReadRegisterBufferUlong, ScsiPortReadRegisterBufferUlong routine [Storage Devices], scsiprt_4356902d-5810-4006-acbe-40d41c2d68e4.xml, storage.scsiportreadregisterbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadRegisterBufferUlong
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,17 @@ VOID ScsiPortReadRegisterBufferUlong(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of ULONG values to be read from the HBA.
 

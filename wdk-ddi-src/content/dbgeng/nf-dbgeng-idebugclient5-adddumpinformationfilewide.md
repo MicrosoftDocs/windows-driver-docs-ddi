@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, debugger.adddumpinformationfilewide, IDebugClient5::AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, dbgeng/IDebugClient4::AddDumpInformationFileWide, AddDumpInformationFileWide, IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, IDebugClient5
+ms.keywords: dbgeng/IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, debugger.adddumpinformationfilewide, IDebugClient5::AddDumpInformationFileWide, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient4::AddDumpInformationFileWide, IDebugClient5, AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFileWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT AddDumpInformationFileWide(
 
 
 
-### -param FileName [in, optional]
+#### - FileName [in, optional]
 
 Specifies the name of the file containing the supporting information.  If <i>FileHandle</i> is not zero, <i>FileName</i> is used only for informational purposes.
 
 
-### -param FileHandle [in]
+#### - FileHandle [in]
 
 Specifies the handle of the file containing the supporting information.  If <i>FileHandle</i> is zero, the file named in <i>FileName</i> is used.
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies the type of the file in <i>FileName</i> or <i>FileHandle</i>.  Currently, only files containing paging file information are supported, and <i>Type</i> must be set to DEBUG_DUMP_FILE_PAGE_FILE_DUMP.
 
@@ -120,19 +120,19 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: CAD08405-698C-4C3A-A03F-827837199CC8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wia_micr, WIA_MICR structure [Imaging Devices], wiadef/WIA_MICR, WIA_MICR, _WIA_MICR
+ms.keywords: wiadef/WIA_MICR, image.wia_micr, _WIA_MICR, WIA_MICR structure [Imaging Devices], WIA_MICR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,22 +73,22 @@ typedef struct _WIA_MICR {
 
 
 
-### -field Tag
+#### - Tag
 
 Must be the literal 'WMIC', 4 single byte ASCII characters. 
 
 
-### -field Version
+#### - Version
 
 Must be the value 0x00010000 (Version 1.0).
 
 
-### -field Size
+#### - Size
 
 The complete size of this <b>WIA_MICR</b> header structure, in bytes, including the complete size of the <a href="..\wiadef\ns-wiadef-_wia_micr_info.md">WIA_MICR_INFO</a> list.
 
 
-### -field Placeholder
+#### - Placeholder
 
 Placeholder for unrecognized characters.
 
@@ -98,12 +98,12 @@ Placeholder for unrecognized characters.
  
 
 
-### -field Count
+#### - Count
 
 Specifies the number of <a href="..\wiadef\ns-wiadef-_wia_micr_info.md">WIA_MICR_INFO</a> elements in the <b>Micr</b> sequence.
 
 
-### -field Micr
+#### - Micr
 
 Placeholder for a sequence of <b>Count</b> contiguous <a href="..\wiadef\ns-wiadef-_wia_micr_info.md">WIA_MICR_INFO</a> structures.
 

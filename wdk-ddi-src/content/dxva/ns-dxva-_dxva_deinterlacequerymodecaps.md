@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4978e4f6-23e3-4381-be4e-550292101013
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_a9b0a8a8-0a11-417c-a356-6b39cb1f7ddb.xml, display.dxva_deinterlacequerymodecaps, DXVA_DeinterlaceQueryModeCaps, DXVA_DeinterlaceQueryModeCaps structure [Display Devices], dxva/DXVA_DeinterlaceQueryModeCaps, _DXVA_DeinterlaceQueryModeCaps
+ms.keywords: DXVA_DeinterlaceQueryModeCaps structure [Display Devices], _DXVA_DeinterlaceQueryModeCaps, DXVA_DeinterlaceQueryModeCaps, dxvaref_a9b0a8a8-0a11-417c-a356-6b39cb1f7ddb.xml, display.dxva_deinterlacequerymodecaps, dxva/DXVA_DeinterlaceQueryModeCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXVA_DeinterlaceQueryModeCaps {
 
 
 
-### -field Size
+#### - Size
 
 Indicates the size of this structure.
 
 
-### -field Guid
+#### - Guid
 
 Specifies for which mode of deinterlacing the driver should return capabilities.
 
 
-### -field VideoDesc
+#### - VideoDesc
 
 Specifies a <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a> structure that describes the type of video that is to be deinterlaced.
 

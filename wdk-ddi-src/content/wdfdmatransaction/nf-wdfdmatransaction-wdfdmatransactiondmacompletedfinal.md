@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de16eaf4-11f0-428b-8833-1d1e6ef78853
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdmatransactiondmacompletedfinal, DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml, WdfDmaTransactionDmaCompletedFinal, kmdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal, PFN_WDFDMATRANSACTIONDMACOMPLETEDFINAL, WdfDmaTransactionDmaCompletedFinal method
+ms.keywords: WdfDmaTransactionDmaCompletedFinal method, wdf.wdfdmatransactiondmacompletedfinal, PFN_WDFDMATRANSACTIONDMACOMPLETEDFINAL, DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml, WdfDmaTransactionDmaCompletedFinal, kmdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ BOOLEAN WdfDmaTransactionDmaCompletedFinal(
 
 
 
-### -param DmaTransaction [in]
+#### - DmaTransaction [in]
 
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 
 
-### -param FinalTransferredLength [in]
+#### - FinalTransferredLength [in]
 
 The number of bytes that the device transferred.
 
 
-### -param Status [out]
+#### - Status [out]
 
 A pointer to a location that receives the status of the DMA transfer. For more information, see the Remarks section for <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>.
 
@@ -116,11 +116,11 @@ For more information about completing DMA transfers, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
  
 

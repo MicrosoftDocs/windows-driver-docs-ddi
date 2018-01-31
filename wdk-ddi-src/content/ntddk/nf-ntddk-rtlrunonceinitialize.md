@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d1a65af-a475-4360-9db3-d5b9e302697d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlRunOnceInitialize routine [Kernel-Mode Driver Architecture], kernel.rtlrunonceinitialize, RtlRunOnceInitialize, k109_7d98d21e-b6f2-4ccd-b447-0c1d612eed5b.xml, ntddk/RtlRunOnceInitialize
+ms.keywords: RtlRunOnceInitialize routine [Kernel-Mode Driver Architecture], k109_7d98d21e-b6f2-4ccd-b447-0c1d612eed5b.xml, ntddk/RtlRunOnceInitialize, RtlRunOnceInitialize, kernel.rtlrunonceinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID RtlRunOnceInitialize(
 
 
 
-### -param RunOnce [out]
+#### - RunOnce [out]
 
 Pointer to the <b>RTL_RUN_ONCE</b> one-time initialization structure.
 
@@ -81,15 +81,15 @@ None
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
 
-<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
+<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
-
 <a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
+
+<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
 
  
 

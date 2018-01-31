@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 99de930a-0d01-4177-b0d9-4692cc570303
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPreDeviceInstallEx function, PFN_WDFPREDEVICEINSTALLEX, WdfPreDeviceInstallEx, wdf.wdfpredeviceinstallex, kmdf.wdfpredeviceinstallex, wdfinstaller/WdfPreDeviceInstallEx, DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml
+ms.keywords: WdfPreDeviceInstallEx, WdfPreDeviceInstallEx function, kmdf.wdfpredeviceinstallex, wdf.wdfpredeviceinstallex, DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml, wdfinstaller/WdfPreDeviceInstallEx, PFN_WDFPREDEVICEINSTALLEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ ULONG WdfPreDeviceInstallEx(
 
 
 
-### -param InfPath [in]
+#### - InfPath [in]
 
 A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <b>GetCurrentDirectory</b>, which is described in the Microsoft Windows SDK.
 
 
-### -param InfSectionName [in, optional]
+#### - InfSectionName [in, optional]
 
 A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 
 
-### -param ClientOptions [in]
+#### - ClientOptions [in]
 
 A pointer to a caller-allocated <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
 

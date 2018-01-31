@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3552042-15e6-4778-8026-a4b615228dc7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCchVPrintfA, RtlStringCchVPrintfW, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, RtlStringCchVPrintfA, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchvprintf, ntstrsafe/RtlStringCchVPrintfW, RtlStringCchVPrintf
+ms.keywords: ntstrsafe/RtlStringCchVPrintfA, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, RtlStringCchVPrintf, RtlStringCchVPrintfW, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchVPrintfW, RtlStringCchVPrintfA, kernel.rtlstringcchvprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ NTSTATUS RtlStringCchVPrintfW(
 
 
 
-### -param pszDest [out]
+#### - pszDest [out]
 
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the arguments supplied by <i>argList</i>.
 
 
-### -param cchDest [in]
+#### - cchDest [in]
 
 The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH.
 
 
-### -param pszFormat [in]
+#### - pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives.
 
 
-### -param argList [in]
+#### - argList [in]
 
 A <b>va_list</b>-typed argument list. Arguments contained in the argument list will be interpreted by using the formatting string that is supplied by <i>pszFormat</i>.
 

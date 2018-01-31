@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5ef00c92-7b32-473a-8401-4c02e864c181
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, GetOffsetInformation method [Windows Debugging], dbgeng/IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces4, GetOffsetInformation, IDebugDataSpaces4::GetOffsetInformation, GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, debugger.getoffsetinformation, IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method
+ms.keywords: GetOffsetInformation method [Windows Debugging], GetOffsetInformation, GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation, IDebugDataSpaces4, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,12 +72,12 @@ HRESULT GetOffsetInformation(
 
 
 
-### -param Space [in]
+#### - Space [in]
 
 Specifies the data space to which the <i>Offset </i>parameter applies.  The allowed values depend on the <i>Which</i> parameter.
 
 
-### -param Which [in]
+#### - Which [in]
 
 Specifies which information about the data is being queried.  This determines the possible values for <i>Space</i> and the type of the data returned in <i>Buffer</i>.  Possible values are:
 
@@ -127,22 +127,22 @@ The debugger engine reads the target's virtual memory at <i>Offset </i>offset fr
 </table> 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the offset in the target's data space for which the information is returned.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 Specifies the buffer to receive the information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size, in bytes, of the <i>Buffer </i>buffer.
 
 
-### -param InfoSize [out, optional]
+#### - InfoSize [out, optional]
 
 Receives the size, in bytes, of the information that is returned.  If <i>InfoSize</i> is <b>NULL</b>, this information is not returned.
 

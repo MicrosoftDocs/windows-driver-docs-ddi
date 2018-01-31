@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: da3784a8-6fc5-47cc-932e-52ec16392e49
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExDeletePagedLookasideList, k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, kernel.exdeletepagedlookasidelist, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], ExDeletePagedLookasideList
+ms.keywords: k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, wdm/ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], ExDeletePagedLookasideList, kernel.exdeletepagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExDeletePagedLookasideList(
 
 
 
-### -param Lookaside [in, out]
+#### - Lookaside [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>, which the caller originally set up with <b>ExInitializePagedLookasideList</b>. 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3161620e-6155-4587-b978-599d526d792c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml, IPrintCoreUI2, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, WhyConstrained method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], WhyConstrained method, WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreUI2::WhyConstrained
+ms.keywords: IPrintCoreUI2, prcomoem/IPrintCoreUI2::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreUI2 interface [Print Devices], WhyConstrained method, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml, WhyConstrained method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::WhyConstrained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,39 +74,39 @@ HRESULT WhyConstrained(
 
 
 
-### -param poemuiobj [in]
+#### - poemuiobj [in]
 
 Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-### -param pszFeatureKeyword [in]
+#### - pszFeatureKeyword [in]
 
 Pointer to a caller-supplied buffer containing the single feature keyword of interest to the caller.
 
 
-### -param pszOptionKeyword [in]
+#### - pszOptionKeyword [in]
 
 Pointer to a caller-supplied buffer containing the option keyword.
 
 
-### -param pmszReasonList [out]
+#### - pmszReasonList [out]
 
 Pointer to a caller-supplied buffer that receives a list of the feature/option keyword pairs that place constraints on the specified feature/option. This list is in MULTI_SZ format with each item in the list separated from the next by a null character. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the reason list without having the list filled in.
 
 
-### -param cbSize [in]
+#### - cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszReasonList</i>.
 
 
-### -param pcbNeeded [out]
+#### - pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the reason list.
 
@@ -198,9 +198,9 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 

@@ -75,7 +75,7 @@ VOID ProtocolOpenAdapterCompleteEx(
 
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
@@ -83,7 +83,7 @@ A handle to a context area allocated by the protocol driver. The protocol driver
      <b>NdisOpenAdapterEx</b>.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The final status of the open operation for the underlying miniport driver. This status value is
      NDIS_STATUS_SUCCESS if the binding was established or any error status that the underlying driver
@@ -170,9 +170,9 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">NdisCompleteBindAdapterEx</a>
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">NdisCompleteBindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 88d554d9-55b7-42d4-b799-f8cb2029b1ae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamPointerSetStatusCode function [Streaming Media Devices], ks/KsStreamPointerSetStatusCode, KsStreamPointerSetStatusCode, stream.ksstreampointersetstatuscode, avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml
+ms.keywords: avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml, ks/KsStreamPointerSetStatusCode, stream.ksstreampointersetstatuscode, KsStreamPointerSetStatusCode function [Streaming Media Devices], KsStreamPointerSetStatusCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsStreamPointerSetStatusCode(
 
 
 
-### -param StreamPointer [in]
+#### - StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure. This pointer points to the frame contained in the IRP.
 
 
-### -param Status [in]
+#### - Status [in]
 
 The error code with which to complete the IRP.
 

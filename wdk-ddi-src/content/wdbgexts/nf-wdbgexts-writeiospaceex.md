@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb0ae4bb-6d6b-4772-9dbd-ae43f7728313
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteIoSpaceEx function [Windows Debugging], wdbgexts/WriteIoSpaceEx, WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, debugger.writeiospaceex, WriteIoSpaceEx
+ms.keywords: WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, wdbgexts/WriteIoSpaceEx, WriteIoSpaceEx function [Windows Debugging], WriteIoSpaceEx, debugger.writeiospaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ VOID  WriteIoSpaceEx(
 
 
 
-### -param address
+#### - address
 
 Specifies the I/O address to write to.
 
 
-### -param data
+#### - data
 
 Specifies the address of a variable that holds the data to write. This must be at least the number of bytes contained in <i>size</i>.
 
 
-### -param size
+#### - size
 
 Specifies the address of a variable that contains the number of bytes to write. <i>Size</i> must be 1, 2, or 4. After the data is written, <i>size</i> will contain the number of bytes actually written.
 
 
-### -param interfacetype
+#### - interfacetype
 
 Specifies the type of interface on which the extended I/O space exists. Possible values include ISA, EISA, and MCA. For more information, see ntddk.h, which is available as part of the Windows Driver Kit.
 
 
-### -param busnumber
+#### - busnumber
 
 Specifies the number of the bus on which the extended I/O space exists. This is typically zero, unless there is more than one bus of a given type.
 
 
-### -param addressspace
+#### - addressspace
 
 This is typically 1.
 

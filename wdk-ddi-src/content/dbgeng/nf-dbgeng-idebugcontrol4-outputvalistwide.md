@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 34d25938-5640-4e32-949f-94605ac38fa0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::OutputVaListWide, OutputVaListWide, dbgeng/IDebugControl4::OutputVaListWide, IDebugControl4 interface [Windows Debugging], OutputVaListWide method, OutputVaListWide method [Windows Debugging], IDebugControl4 interface, debugger.outputvalistwide, IDebugControl4, OutputVaListWide method [Windows Debugging]
+ms.keywords: OutputVaListWide, OutputVaListWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::OutputVaListWide, debugger.outputvalistwide, IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputVaListWide method, OutputVaListWide method [Windows Debugging], IDebugControl4::OutputVaListWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OutputVaListWide(
 
 
 
-### -param Mask [in]
+#### - Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-### -param Format [in]
+#### - Format [in]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -251,7 +251,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 </table> 
 
 
-### -param Args [in]
+#### - Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
@@ -289,13 +289,13 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
  
 

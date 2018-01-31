@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebaa2aba-426f-4f5f-b2bf-a8433cdc9205
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_AGP_INTERFACE structure [Display Devices], dispmprt/DXGK_AGP_INTERFACE, dispmprt/PDXGK_AGP_INTERFACE, DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, PDXGK_AGP_INTERFACE structure pointer [Display Devices], display.dxgk_agp_interface, PDXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE, _DXGK_AGP_INTERFACE, *PDXGK_AGP_INTERFACE
+ms.keywords: DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, *PDXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE structure [Display Devices], DXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE structure pointer [Display Devices], _DXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE, display.dxgk_agp_interface, dispmprt/PDXGK_AGP_INTERFACE, dispmprt/DXGK_AGP_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _DXGK_AGP_INTERFACE {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Version
+#### - Version
 
 The version number of the AGP interface. Version number constants are defined in <i>Dispmprt.h</i> (for example, DXGK_AGP_INTERFACE_VERSION_1).
 
 
-### -field Context
+#### - Context
 
 A pointer to a context that is provided by the display port driver.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display port driver.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display port driver.
 
 
-### -field AgpAllocatePool
+#### - AgpAllocatePool
 
 A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a> function.
 
 
-### -field AgpFreePool
+#### - AgpFreePool
 
 A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a> function.
 
 
-### -field AgpSetCommand
+#### - AgpSetCommand
 
 A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_set_command.md">AgpSetCommand</a> function.
 

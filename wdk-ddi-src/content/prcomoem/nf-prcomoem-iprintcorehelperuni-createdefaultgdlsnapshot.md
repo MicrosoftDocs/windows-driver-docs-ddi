@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CreateDefaultGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, IPrintCoreHelperUni, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, CreateDefaultGDLSnapshot method [Print Devices], CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, IPrintCoreHelperUni::CreateDefaultGDLSnapshot
+ms.keywords: CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, IPrintCoreHelperUni, CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni::CreateDefaultGDLSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT CreateDefaultGDLSnapshot(
 
 
 
-### -param dwFlags [in]
+#### - dwFlags [in]
 
 This parameter is reserved and must be set to zero.
 
 
-### -param ppSnapshotStream [out]
+#### - ppSnapshotStream [out]
 
 A pointer to a stream that supplies the XML version of the GDL snapshot.
 

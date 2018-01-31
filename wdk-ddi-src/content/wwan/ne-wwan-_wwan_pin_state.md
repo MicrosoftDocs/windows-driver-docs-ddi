@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e538f920-bf9e-484b-acea-f979bb952299
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPinStateMax, netvista.wwan_pin_state, wwan/WwanPinStateNone, wwan/WwanPinStateEnter, *PWWAN_PIN_STATE, wwan/PWWAN_PIN_STATE, WwanPinStateNone, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_PIN_STATE, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, _WWAN_PIN_STATE, WWAN_PIN_STATE, WwanPinStateEnter, WwanPinStateMax
+ms.keywords: PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_PIN_STATE, WwanPinStateNone, netvista.wwan_pin_state, _WWAN_PIN_STATE, wwan/WwanPinStateEnter, *PWWAN_PIN_STATE, WWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], PWWAN_PIN_STATE, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, wwan/WWAN_PIN_STATE, WwanPinStateMax, WwanPinStateEnter, wwan/WwanPinStateNone, wwan/WwanPinStateMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_STATE, WWAN_PIN_STATE"
+req.typenames: WWAN_PIN_STATE, *PWWAN_PIN_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,17 @@ typedef enum _WWAN_PIN_STATE {
 
 
 
-### -field WwanPinStateNone
+#### - WwanPinStateNone
 
 The device does not require a PIN.
 
 
-### -field WwanPinStateEnter
+#### - WwanPinStateEnter
 
 The device requires the user to enter a PIN.
 
 
-### -field WwanPinStateMax
+#### - WwanPinStateMax
 
 The total number of supported PIN states.
 

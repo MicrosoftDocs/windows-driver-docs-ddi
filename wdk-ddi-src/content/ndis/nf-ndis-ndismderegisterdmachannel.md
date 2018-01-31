@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1581cbfd-bdab-40ed-9978-f60ec220c17a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel, netvista.ndismderegisterdmachannel, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterDmaChannel
+ms.keywords: NdisMDeregisterDmaChannel, dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterdmachannel, ndis/NdisMDeregisterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID NdisMDeregisterDmaChannel(
 
 
 
-### -param MiniportDmaHandle [in]
+#### - MiniportDmaHandle [in]
 
 The DMA handle returned by the 
      <mshelp:link keywords="netvista.ndismregisterdmachannel" tabindex="0"><b>
@@ -100,11 +100,11 @@ The caller should consider
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

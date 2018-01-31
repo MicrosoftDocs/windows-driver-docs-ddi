@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4d647c59-4e00-46b3-a46f-226e475eb63d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_COLORFILL, _D3DDDIARG_COLORFILL, UMDisplayDriver_param_Structs_1ad82ddb-4070-45be-81c3-c2347170fad0.xml, D3DDDIARG_COLORFILL, D3DDDIARG_COLORFILL structure [Display Devices], display.d3dddiarg_colorfill
+ms.keywords: D3DDDIARG_COLORFILL, display.d3dddiarg_colorfill, _D3DDDIARG_COLORFILL, D3DDDIARG_COLORFILL structure [Display Devices], d3dumddi/D3DDDIARG_COLORFILL, UMDisplayDriver_param_Structs_1ad82ddb-4070-45be-81c3-c2347170fad0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct _D3DDDIARG_COLORFILL {
 
 
 
-### -field hResource
+#### - hResource
 
 [in] A handle to the resource.
 
 
-### -field SubResourceIndex
+#### - SubResourceIndex
 
 [in] The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the subresource, or surface, on which a rectangular area is color-filled.
 
 
-### -field DstRect
+#### - DstRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the surface to color fill. 
 
 
-### -field Color
+#### - Color
 
 A D3DCOLOR data type for the A8R8G8B8 fill color. 
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
 

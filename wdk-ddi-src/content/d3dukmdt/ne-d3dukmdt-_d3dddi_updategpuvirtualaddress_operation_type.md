@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 47B53DDA-E04B-4DA5-BEAB-8515B6683AE4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP, _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE, D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP, display.d3dddi_updategpuvirtualaddress_operation_type, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE enumeration [Display Devices], d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE, D3DDDI_UPDATEGPUVIRTUALADDRESS_COPY, D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP_PROTECT, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_COPY, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_UNMAP, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP_PROTECT, D3DDDI_UPDATEGPUVIRTUALADDRESS_UNMAP
+ms.keywords: D3DDDI_UPDATEGPUVIRTUALADDRESS_UNMAP, D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP_PROTECT, _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE, D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP_PROTECT, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE enumeration [Display Devices], D3DDDI_UPDATEGPUVIRTUALADDRESS_COPY, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_UNMAP, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP, display.d3dddi_updategpuvirtualaddress_operation_type, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_COPY, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE {
 
 
 
-### -field D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP
+#### - D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP
 
 Maps the given virtual address range to the given allocation range. The allocation does not have to be resident at the time of submission or at the time of mapping. The read-write protection is set to the pages. <b>DriverProtection</b> for the pages is set to zero.
 
 
-### -field D3DDDI_UPDATEGPUVIRTUALADDRESS_UNMAP
+#### - D3DDDI_UPDATEGPUVIRTUALADDRESS_UNMAP
 
 Puts the specified virtual address range to the <i>zero</i> state or to the <i>invalid</i> state.
 
 
-### -field D3DDDI_UPDATEGPUVIRTUALADDRESS_COPY
+#### - D3DDDI_UPDATEGPUVIRTUALADDRESS_COPY
 
 The <i>copy</i> operation copies all mappings from source GPU virtual address range to the destination range. The source and destination ranges are allowed to intersect. Both ranges must belong to a reserved (zero) virtual address range.
 
 
-### -field D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP_PROTECT
+#### - D3DDDI_UPDATEGPUVIRTUALADDRESS_MAP_PROTECT
 
 Maps the given virtual address range to the given allocation range. The allocation does not have to be resident at the time of submission or at the time of mapping. The page protection is specified in the operation.
 

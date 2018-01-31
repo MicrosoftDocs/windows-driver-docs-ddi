@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23482cdc-6412-4309-805e-a439d8e81b59
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_SampleSubStream, DXVADDI_SampleProgressiveFrame, d3dumddi/DXVADDI_SAMPLEFORMAT, DXVADDI_SampleFieldInterleavedOddFirst, d3dumddi/DXVADDI_SampleFieldSingleOdd, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldSingleEven, display.dxvaddi_sampleformat, d3dumddi/DXVADDI_SampleProgressiveFrame, DXVADDI_SampleUnknown, DXVADDI_SampleFieldSingleOdd, DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, _DXVADDI_SAMPLEFORMAT, DXVADDI_SampleFormatMask, DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleFormatMask
+ms.keywords: d3dumddi/DXVADDI_SampleSubStream, DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, d3dumddi/DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, DXVADDI_SampleProgressiveFrame, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleFormatMask, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFormatMask, display.dxvaddi_sampleformat, d3dumddi/DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleUnknown, _DXVADDI_SAMPLEFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _DXVADDI_SAMPLEFORMAT {
 
 
 
-### -field DXVADDI_SampleFormatMask
+#### - DXVADDI_SampleFormatMask
 
 The sample format mask. The first 8 (0xFF) bits of a DWORD can be used to specify input sample format.
 
 
-### -field DXVADDI_SampleUnknown
+#### - DXVADDI_SampleUnknown
 
 The sample format is unknown.
 
 
-### -field DXVADDI_SampleProgressiveFrame
+#### - DXVADDI_SampleProgressiveFrame
 
 The sample contains a progressive frame.
 
 
-### -field DXVADDI_SampleFieldInterleavedEvenFirst
+#### - DXVADDI_SampleFieldInterleavedEvenFirst
 
 The sample contains two interleaved fields; the even field is temporally first.
 
 
-### -field DXVADDI_SampleFieldInterleavedOddFirst
+#### - DXVADDI_SampleFieldInterleavedOddFirst
 
 The sample contains two interleaved fields; the odd field is temporally first.
 
 
-### -field DXVADDI_SampleFieldSingleEven
+#### - DXVADDI_SampleFieldSingleEven
 
 The sample contains an even interleaved field.
 
 
-### -field DXVADDI_SampleFieldSingleOdd
+#### - DXVADDI_SampleFieldSingleOdd
 
 The sample contains an odd interleaved field.
 
 
-### -field DXVADDI_SampleSubStream
+#### - DXVADDI_SampleSubStream
 
 The sample contains a video substream.
 

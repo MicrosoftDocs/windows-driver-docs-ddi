@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: DF334754-8027-418D-B329-877492896B82
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE structure [Installable File System Drivers], SYSTEM_PROCESS_TRUST_LABEL_ACE, *PSYSTEM_PROCESS_TRUST_LABEL_ACE, ifsk.system_process_trust_label_ace, _SYSTEM_PROCESS_TRUST_LABEL_ACE
+ms.keywords: SYSTEM_PROCESS_TRUST_LABEL_ACE, *PSYSTEM_PROCESS_TRUST_LABEL_ACE, ntifs/SYSTEM_PROCESS_TRUST_LABEL_ACE, _SYSTEM_PROCESS_TRUST_LABEL_ACE, ifsk.system_process_trust_label_ace, SYSTEM_PROCESS_TRUST_LABEL_ACE structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSTEM_PROCESS_TRUST_LABEL_ACE
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE"
+req.typenames: SYSTEM_PROCESS_TRUST_LABEL_ACE, *PSYSTEM_PROCESS_TRUST_LABEL_ACE
 ---
 
 # _SYSTEM_PROCESS_TRUST_LABEL_ACE structure
@@ -69,14 +69,14 @@ struct SYSTEM_PROCESS_TRUST_LABEL_ACE {
 
 
 
-### -field Header
+#### - Header
 
 
 
-### -field Mask
+#### - Mask
 
 
 
-### -field SidStart
+#### - SidStart
 
 

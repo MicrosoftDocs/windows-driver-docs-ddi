@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fecf57b-e77a-458e-80ce-118eed2d48b4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], kernel.kbugcheck_data, _KBUGCHECK_DATA, KBUGCHECK_DATA, PKBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, *PKBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA
+ms.keywords: kernel.kbugcheck_data, PKBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, _KBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, *PKBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_DATA, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _KBUGCHECK_DATA {
 
 
 
-### -field BugCheckDataSize
+#### - BugCheckDataSize
 
 The size, in bytes, of the <b>KBUGCHECK_DATA</b> structure. Callers of <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a> must supply this value. 
 
 
-### -field BugCheckCode
+#### - BugCheckCode
 
 The bug check code. This value identifies that type of bug check that has occurred.
 
 
-### -field Parameter1
+#### - Parameter1
 
 Bug check parameter 1. For more information about this parameter, see specific <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check codes</a>. 
 
 
-### -field Parameter2
+#### - Parameter2
 
 Bug check parameter 2. For more information about this parameter, see specific <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check codes</a>. 
 
 
-### -field Parameter3
+#### - Parameter3
 
 Bug check parameter 3. For more information about this parameter, see specific <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check codes</a>. 
 
 
-### -field Parameter4
+#### - Parameter4
 
 Bug check parameter 4. For more information about this parameter, see specific <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check codes</a>. 
 

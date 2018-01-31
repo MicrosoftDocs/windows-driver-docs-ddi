@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, wdfchildlist/WdfChildListCreate, kmdf.wdfchildlistcreate, PFN_WDFCHILDLISTCREATE, WdfChildListCreate method, wdf.wdfchildlistcreate
+ms.keywords: WdfChildListCreate, wdfchildlist/WdfChildListCreate, PFN_WDFCHILDLISTCREATE, wdf.wdfchildlistcreate, kmdf.wdfchildlistcreate, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfChildListCreate(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object that represents the parent device.
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure that contains driver-supplied configuration information for the child list.
 
 
-### -param ChildListAttributes [in, optional]
+#### - ChildListAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the framework child-list object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) 
 
 
-### -param ChildList [out]
+#### - ChildList [out]
 
 A pointer to a caller-allocated location that receives a handle to a framework child-list object.
 
@@ -151,9 +151,9 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>
 
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
 

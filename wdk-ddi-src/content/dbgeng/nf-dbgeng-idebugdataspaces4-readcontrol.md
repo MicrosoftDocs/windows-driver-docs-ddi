@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 52f65e2a-97a7-4c1c-a021-208bc2520b7d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.readcontrol, IDebugDataSpaces::ReadControl, dbgeng/IDebugDataSpaces2::ReadControl, IDebugDataSpaces3::ReadControl, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, dbgeng/IDebugDataSpaces3::ReadControl, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, IDebugDataSpaces interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::ReadControl, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, ReadControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::ReadControl, ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2::ReadControl, IDebugDataSpaces4, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, ReadControl method [Windows Debugging], dbgeng/IDebugDataSpaces::ReadControl
+ms.keywords: ReadControl method [Windows Debugging], IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadControl, IDebugDataSpaces3::ReadControl, ReadControl, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, debugger.readcontrol, IDebugDataSpaces::ReadControl, dbgeng/IDebugDataSpaces::ReadControl, IDebugDataSpaces2::ReadControl, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::ReadControl, IDebugDataSpaces4::ReadControl, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, dbgeng/IDebugDataSpaces3::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,27 +74,27 @@ HRESULT ReadControl(
 
 
 
-### -param Processor [in]
+#### - Processor [in]
 
 Specifies the processor whose information is to be read.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the offset in the control space of the memory to read.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Receives the data read from the control-space memory.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.
 
 
-### -param BytesRead [out, optional]
+#### - BytesRead [out, optional]
 
 Receives the number of bytes returned in the buffer <i>Buffer</i>.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, IStiUSD, image.istiusd_rawreaddata, RawReadData method [Imaging Devices], IStiUSD interface, RawReadData, IStiUSD interface [Imaging Devices], RawReadData method, RawReadData method [Imaging Devices], IStiUSD::RawReadData, stiusd/IStiUSD::RawReadData
+ms.keywords: RawReadData method [Imaging Devices], IStiUSD::RawReadData, image.istiusd_rawreaddata, stiusd/IStiUSD::RawReadData, IStiUSD interface [Imaging Devices], RawReadData method, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, RawReadData method [Imaging Devices], IStiUSD interface, RawReadData, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.RawReadData
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ HRESULT RawReadData(
 
 
 
-### -param lpBuffer
+#### - lpBuffer
 
 Caller-supplied pointer to a buffer to receive data read from the device.
 
 
-### -param lpdwNumberOfBytes
+#### - lpdwNumberOfBytes
 
 Caller-supplied pointer to a DWORD. The caller loads the DWORD with the number of bytes in the buffer pointed to by <i>lpBuffer</i>. The driver must replace this value with the number of bytes actually read.
 
 
-### -param lpOverlapped
+#### - lpOverlapped
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 

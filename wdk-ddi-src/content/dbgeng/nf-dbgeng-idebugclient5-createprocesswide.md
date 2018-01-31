@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2a45c971-3dad-47ad-a819-6f2c6e34ad37
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CreateProcessWide method [Windows Debugging], IDebugClient4 interface, CreateProcessWide, IDebugClient4 interface [Windows Debugging], CreateProcessWide method, IDebugClient4::CreateProcessWide, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, dbgeng/IDebugClient4::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide, CreateProcessWide method [Windows Debugging], CreateProcessWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::CreateProcessWide, dbgeng/IDebugClient5::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient3 interface, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, debugger.createprocesswide, IDebugClient3::CreateProcessWide, IDebugClient5
+ms.keywords: CreateProcessWide method [Windows Debugging], IDebugClient5 interface, debugger.createprocesswide, IDebugClient5::CreateProcessWide, dbgeng/IDebugClient5::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient4 interface [Windows Debugging], CreateProcessWide method, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient4 interface, IDebugClient5, IDebugClient4::CreateProcessWide, IDebugClient3::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient4::CreateProcessWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT CreateProcessWide(
 
 
 
-### -param Server [in]
+#### - Server [in]
 
 Specifies the process server to use when attaching to the process.  If <i>Server</i> is zero, the engine will create a local process without using a process server.
 
 
-### -param CommandLine [in]
+#### - CommandLine [in]
 
 Specifies the command line to execute to create the new process. The <b>CreateProcessWide</b> method might modify the contents of the string that you supply in this parameter. Therefore, this parameter cannot be a pointer to read-only memory (such as a const variable or a literal string). Passing a constant string in this parameter can lead to an access violation.
 
 
-### -param CreateFlags [in]
+#### - CreateFlags [in]
 
 Specifies the flags to use when creating the process.  For details on these flags, see the <b>CreateFlags</b> member of the <a href="..\dbgeng\ns-dbgeng-_debug_create_process_options.md">DEBUG_CREATE_PROCESS_OPTIONS</a> structure.
 
@@ -123,19 +123,19 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 

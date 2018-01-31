@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetConnectionParameters, 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
+ms.keywords: SerCxGetConnectionParameters method [Serial Ports], 1/SerCxGetConnectionParameters, serports.sercxgetconnectionparameters, SerCxGetConnectionParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID SerCxGetConnectionParameters(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param ConnectionParameters [out]
+#### - ConnectionParameters [out]
 
 A pointer to a location into which the method writes a pointer to the connection parameters. The caller must cast this pointer to the appropriate pointer type, parse the data structure for the connection parameters, read the configuration settings from this structure, and apply these settings to the serial controller hardware.
 

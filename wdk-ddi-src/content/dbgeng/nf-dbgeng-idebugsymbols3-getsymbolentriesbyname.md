@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90e6c1aa-30d5-40e7-bc35-92b0359485e0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsymbolentriesbyname, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3::GetSymbolEntriesByName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByName method, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols3, debugger.getsymbolentriesbyname, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolEntriesByName, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByName method, GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetSymbolEntriesByName(
 
 
 
-### -param Symbol [in]
+#### - Symbol [in]
 
 Specifies the pattern used to determine which symbols to return.  This method returns the symbols whose name matches the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558819">string wildcard syntax</a> pattern <i>Symbol</i>.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Set to zero.
 
 
-### -param Ids [out, optional]
+#### - Ids [out, optional]
 
 Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param IdsCount [in]
+#### - IdsCount [in]
 
 Specifies the number of entries that the array <i>Ids</i> can hold.
 
 
-### -param Entries [out, optional]
+#### - Entries [out, optional]
 
 Receives the number of symbols whose names match the pattern <i>Symbol</i>.  If <i>entries</i> is <b>NULL</b>, this information is not returned.
 

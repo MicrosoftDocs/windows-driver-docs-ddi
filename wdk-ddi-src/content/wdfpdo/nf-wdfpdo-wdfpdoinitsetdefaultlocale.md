@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d3c068dd-d09c-4b3a-be96-c1c55b3ebfe4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitSetDefaultLocale, wdf.wdfpdoinitsetdefaultlocale, WdfPdoInitSetDefaultLocale method, DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, wdfpdo/WdfPdoInitSetDefaultLocale, PFN_WDFPDOINITSETDEFAULTLOCALE, kmdf.wdfpdoinitsetdefaultlocale
+ms.keywords: kmdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale, WdfPdoInitSetDefaultLocale method, WdfPdoInitSetDefaultLocale, DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, PFN_WDFPDOINITSETDEFAULTLOCALE, wdf.wdfpdoinitsetdefaultlocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitSetDefaultLocale
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ VOID WdfPdoInitSetDefaultLocale(
 
 
 
-### -param DeviceInit [in]
+#### - DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-### -param LocaleId [in]
+#### - LocaleId [in]
 
 A locale identifier (LCID) that represents the default locale. For more information, see <a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fec0">Locale Identifiers</a>.
 

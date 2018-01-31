@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f12ace3a-2bb4-433b-b987-2027a48f4c14
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata, D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], D3D11_1DDI_GETCAPTUREHANDLEDATA, _D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata, _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,33 +71,33 @@ typedef struct _D3D11_1DDI_GETCAPTUREHANDLEDATA {
 
 
 
-### -field hResource
+#### - hResource
 
 [in] The handle to the resource for which the allocation handle is to be obtained.
 
 The Direct3D version 11 and later runtime will have already verified that this resource was created using the <b>D3D11_DDI_BIND_CAPTURE</b> value in the <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a> enumeration.
 
 
-### -field ArrayIndex
+#### - ArrayIndex
 
 [in] The array element from which the data is to be obtained.
 
 If the resource was not created as a texture array, this value is zero. For a texture array, the Direct3D version 11 and later runtime will have already verified that the array is valid.
 
 
-### -field hAllocation
+#### - hAllocation
 
 [out] The driver-provided address of the kernel mode allocation handle associated with this allocation.
 
 
-### -field DataOffset
+#### - DataOffset
 
 [out] The driver-provided offset of the requested data within the allocation.
 
 If the resource was not created as a texture array, this value is typically zero.  For a texture array, this value is the offset of the array element data within the allocation.
 
 
-### -field DataSize
+#### - DataSize
 
 [out] The driver-provided size of the requested data within the allocation.
 
@@ -113,9 +113,9 @@ When the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md"
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md">GetCaptureHandle</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
 
  
 

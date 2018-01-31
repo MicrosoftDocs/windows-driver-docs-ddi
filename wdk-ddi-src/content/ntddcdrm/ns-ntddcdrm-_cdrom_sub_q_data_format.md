@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0eac3cc1-9c1c-4438-ab20-51c65018cea0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT structure [Storage Devices], CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/PCDROM_SUB_Q_DATA_FORMAT, storage.cdrom_sub_q_data_format, _CDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT structure pointer [Storage Devices], structs-CD-ROM_1448747c-8b9c-4ccb-8c91-0f8f567f0373.xml, PCDROM_SUB_Q_DATA_FORMAT, *PCDROM_SUB_Q_DATA_FORMAT
+ms.keywords: PCDROM_SUB_Q_DATA_FORMAT structure pointer [Storage Devices], *PCDROM_SUB_Q_DATA_FORMAT, ntddcdrm/CDROM_SUB_Q_DATA_FORMAT, storage.cdrom_sub_q_data_format, ntddcdrm/PCDROM_SUB_Q_DATA_FORMAT, structs-CD-ROM_1448747c-8b9c-4ccb-8c91-0f8f567f0373.xml, _CDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _CDROM_SUB_Q_DATA_FORMAT {
 
 
 
-### -field Format
+#### - Format
 
 Specifies which subset of the Q data the read operation should return, as follows: 
 
@@ -94,7 +94,7 @@ Indicates that the read operation should return the media catalog number. If the
 Indicates that the read operation should return the ISO/IEC 3901 Track International Standard Recording Code (ISRC). This code gives a unique number to an audio track. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a> member of the <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a> structure.
 
 
-### -field Track
+#### - Track
 
 Indicates the track number where the CD-ROM driver must read the Q subchannel data. If <b>Format</b> is set to IOCTL_CDROM_MEDIA_CATALOG, then the <b>Track</b> member must be set to zero.
 
@@ -108,15 +108,15 @@ The CDROM_SUB_Q_DATA_FORMAT structure indicates the track from which to read the
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a>
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
 
  
 

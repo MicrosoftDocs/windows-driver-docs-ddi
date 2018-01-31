@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d3f554f-2733-4896-827c-14e92e8034ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/POFFLOAD_IPSEC_ADD_UDPESP_SA, ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_IPSEC_ADD_UDPESP_SA structure [Network Drivers Starting with Windows Vista], netvista.offload_ipsec_add_udpesp_sa, _OFFLOAD_IPSEC_ADD_UDPESP_SA, *POFFLOAD_IPSEC_ADD_UDPESP_SA, 216offload_081b17de-1f16-44c7-9888-5d0388c081d9.xml, OFFLOAD_IPSEC_ADD_UDPESP_SA
+ms.keywords: OFFLOAD_IPSEC_ADD_UDPESP_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_UDPESP_SA, OFFLOAD_IPSEC_ADD_UDPESP_SA, 216offload_081b17de-1f16-44c7-9888-5d0388c081d9.xml, netvista.offload_ipsec_add_udpesp_sa, POFFLOAD_IPSEC_ADD_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_ADD_UDPESP_SA, *POFFLOAD_IPSEC_ADD_UDPESP_SA, ntddndis/POFFLOAD_IPSEC_ADD_UDPESP_SA, ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_IPSEC_ADD_UDPESP_SA
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_IPSEC_ADD_UDPESP_SA, *POFFLOAD_IPSEC_ADD_UDPESP_SA
+req.typenames: "*POFFLOAD_IPSEC_ADD_UDPESP_SA, OFFLOAD_IPSEC_ADD_UDPESP_SA"
 ---
 
 # _OFFLOAD_IPSEC_ADD_UDPESP_SA structure
@@ -84,46 +84,46 @@ typedef struct _OFFLOAD_IPSEC_ADD_UDPESP_SA {
 
 
 
-### -field SrcAddr
+#### - SrcAddr
 
 The IP address of the source host (the host sending the packets).
 
 
-### -field SrcMask
+#### - SrcMask
 
 The subnet mask for the source IP address.
 
 
-### -field DstAddr
+#### - DstAddr
 
 The IP address of the destination host (the host receiving the packets).
 
 
-### -field DstMask
+#### - DstMask
 
 The subnet mask for the destination IP address.
 
 
-### -field Protocol
+#### - Protocol
 
 The IP protocol. The encoding of 
      <b>Protocol</b> is identical to that of the Protocol field in an IP header. The
      value should be 11 (hexadecimal), which specifies UDP.
 
 
-### -field SrcPort
+#### - SrcPort
 
 A source TCP or UDP port. If 
      <b>SrcPort</b> is set to zero, the SA applies to any source TCP/UDP port.
 
 
-### -field DstPort
+#### - DstPort
 
 A destination TCP or UDP port. If DestPort is set to zero, the SA applies to any source TCP/UDP
      port.
 
 
-### -field SrcTunnelAddr
+#### - SrcTunnelAddr
 
 The IP address for the source endpoint, such as a connector, of a tunnel. The miniport driver uses
      
@@ -135,7 +135,7 @@ The IP address for the source endpoint, such as a connector, of a tunnel. The mi
      portion of a packet.
 
 
-### -field DstTunnelAddr
+#### - DstTunnelAddr
 
 The IP address for the destination endpoint, such as a connector, of a tunnel. The miniport driver
      uses 
@@ -147,7 +147,7 @@ The IP address for the destination endpoint, such as a connector, of a tunnel. T
      portion of a packet.
 
 
-### -field Flags
+#### - Flags
 
 A bitmask that indicates whether the SA that is being added is an inbound or outbound SA as
      follows:
@@ -166,7 +166,7 @@ Specifies an inbound SA.
 Specifies an outbound SA.
 
 
-### -field NumSAs
+#### - NumSAs
 
 The number of elements in the 
      <b>SecAssoc</b> array. Each element in the array is an 
@@ -174,7 +174,7 @@ The number of elements in the
      OFFLOAD_SECURITY_ASSOCIATION</b></mshelp:link> structure.
 
 
-### -field SecAssoc
+#### - SecAssoc
 
 A variable-length array that contains the information about the Internet Protocol security (IPsec)
      operations (AH or ESP) for the SA. The information for each IPsec operations is formatted as an
@@ -189,7 +189,7 @@ The TCP/IP transport specifies one or two OFFLOAD_SECURITY_ASSOCIATION structure
      is supported: encryption/decryption (ESP) followed by authentication (AH).
 
 
-### -field OffloadHandle
+#### - OffloadHandle
 
 The handle to the newly created SA. The miniport driver supplies this handle before completing the
      
@@ -202,7 +202,7 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      OID_TCP_TASK_IPSEC_DELETE_SA</mshelp:link> request.
 
 
-### -field EncapTypeEntry
+#### - EncapTypeEntry
 
 The UDP-ESP encapsulation type and destination port of a parser entry. This information is
      formatted as an 
@@ -210,7 +210,7 @@ The UDP-ESP encapsulation type and destination port of a parser entry. This info
      OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</b></mshelp:link> structure.
 
 
-### -field EncapTypeEntryOffldHandle
+#### - EncapTypeEntryOffldHandle
 
 When 
      <b>Flags</b>= 
@@ -242,13 +242,13 @@ When
      <b>EncapTypeEntryOffldHandle</b> parameter.
 
 
-### -field KeyLen
+#### - KeyLen
 
 The length, in bytes, of the buffer at 
      <b>KeyMat</b>.
 
 
-### -field KeyMat
+#### - KeyMat
 
 A variable-length array that contains keys for the SAs specified at 
      <b>SecAssoc</b>. If both a confidentiality (encryption/decryption) algorithm and
@@ -288,23 +288,23 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
+
 <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
 
-<mshelp:link keywords="netvista.offload_ipsec_udpesp_encaptype_entry" tabindex="0"><b>
-   OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 <mshelp:link keywords="netvista.oid_tcp_task_ipsec_add_udpesp_sa" tabindex="0">
    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
-
-<a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
+<mshelp:link keywords="netvista.offload_ipsec_udpesp_encaptype_entry" tabindex="0"><b>
+   OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</b></mshelp:link>
 
  
 

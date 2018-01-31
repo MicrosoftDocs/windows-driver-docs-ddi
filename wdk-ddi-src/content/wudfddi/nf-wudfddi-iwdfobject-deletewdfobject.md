@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfobject_deletewdfobject, IWDFObject::DeleteWdfObject, umdf.iwdfobject_deletewdfobject, DeleteWdfObject method, IWDFObject interface, DeleteWdfObject, wudfddi/IWDFObject::DeleteWdfObject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, IWDFObject, IWDFObject interface, DeleteWdfObject method, DeleteWdfObject method
+ms.keywords: IWDFObject, wdf.iwdfobject_deletewdfobject, umdf.iwdfobject_deletewdfobject, IWDFObject::DeleteWdfObject, IWDFObject interface, DeleteWdfObject method, DeleteWdfObject method, IWDFObject interface, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, DeleteWdfObject, wudfddi/IWDFObject::DeleteWdfObject, DeleteWdfObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.DeleteWdfObject
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

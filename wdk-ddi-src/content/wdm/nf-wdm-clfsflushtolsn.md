@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb7d97d2-8c02-44c8-8cf5-e9c3b3b718bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsFlushToLsn routine [Kernel-Mode Driver Architecture], wdm/ClfsFlushToLsn, kernel.clfsflushtolsn, Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, ClfsFlushToLsn
+ms.keywords: ClfsFlushToLsn routine [Kernel-Mode Driver Architecture], kernel.clfsflushtolsn, ClfsFlushToLsn, Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, wdm/ClfsFlushToLsn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS ClfsFlushToLsn(
 
 
 
-### -param pvMarshalContext [in]
+#### - pvMarshalContext [in]
 
 A pointer to an opaque context associated with a marshalling area. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
-### -param plsnFlush [in]
+#### - plsnFlush [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure. All records that have an LSN less than or equal to <i>plsnFlush</i> are guaranteed to be forced to stable storage. If <i>plsnFlush</i> is equal to CLFS_LSN_NULL, then all records in the marshalling area are forced to stable storage.
 
 
-### -param plsnLastFlushed [out, optional]
+#### - plsnLastFlushed [out, optional]
 
 A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the oldest record that was not flushed. This is the LSN of the record immediately following the last record flushed. 
 <div class="alert"><b>Note</b>    On successful return, <i>plsnLastFlushed</i> is greater than the value supplied in <i>plsnFlush</i>. However, <i>plsnLastFlushed</i> does not necessarily point to a record in the stream. For example, if all records in the stream were flushed, <i>plsnLastFlushed</i> is the LSN that will be assigned to the next record written to the stream.</div><div> </div>

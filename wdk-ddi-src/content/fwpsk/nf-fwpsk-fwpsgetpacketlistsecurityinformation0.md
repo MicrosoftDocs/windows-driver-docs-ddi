@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], netvista.fwpsgetpacketlistsecurityinformation0, FwpsGetPacketListSecurityInformation0, fwpsk/FwpsGetPacketListSecurityInformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
+ms.keywords: FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml, netvista.fwpsgetpacketlistsecurityinformation0, FwpsGetPacketListSecurityInformation0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,14 +72,14 @@ NTSTATUS NTAPI FwpsGetPacketListSecurityInformation0(
 
 
 
-### -param packetList [in]
+#### - packetList [in]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure for which the
      associated information is being retrieved.
 
 
-### -param queryFlags [in]
+#### - queryFlags [in]
 
 A UINT32 value that contains a bitwise OR of a combination of the following flags that specify the
      information to be retrieved:
@@ -120,7 +120,7 @@ Retrieve all information associated with an inbound packet list.
 Retrieve all information associated with an outbound packet list.
 
 
-### -param packetInformation [in, out]
+#### - packetInformation [in, out]
 
 A pointer to an 
      <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet

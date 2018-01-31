@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 05c1d6e2-61e1-4bf0-b02e-5ea8ad144a9f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10DDIARG_BUFFER_RENDERTARGETVIEW, D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], D3D10DDIARG_BUFFER_RENDERTARGETVIEW, UMDisplayDriver_Dx10param_Structs_7307c354-c2a6-45e8-a9f6-9cb3d7c7724d.xml, display.d3d10ddiarg_buffer_rendertargetview
+ms.keywords: d3d10umddi/D3D10DDIARG_BUFFER_RENDERTARGETVIEW, D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7307c354-c2a6-45e8-a9f6-9cb3d7c7724d.xml, display.d3d10ddiarg_buffer_rendertargetview, D3D10DDIARG_BUFFER_RENDERTARGETVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,29 +74,29 @@ typedef struct D3D10DDIARG_BUFFER_RENDERTARGETVIEW {
 
 
 
-### -field FirstElement
+#### - FirstElement
 
 
 
-### -field ElementOffset
+#### - ElementOffset
 
 [in] The offset (that is, the number of elements) between the beginning of the buffer and the first element that is to be used in the view, starting at 0. 
 
 
-### -field NumElements
+#### - NumElements
 
 
 
-### -field ElementWidth
+#### - ElementWidth
 
 [in] The number of elements in the view. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
 

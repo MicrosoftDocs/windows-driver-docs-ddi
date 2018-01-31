@@ -73,14 +73,14 @@ typedef EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN;
 
 
 
-### -param MonitorObject [in]
+#### - MonitorObject [in]
 
 
                     
                 A handle provided by the driver used by the OS to identify the monitor that has been affected by the mode change.
 
 
-### -param pInArgs [in]
+#### - pInArgs [in]
 
 
                     

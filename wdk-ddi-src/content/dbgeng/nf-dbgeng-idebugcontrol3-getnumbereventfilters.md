@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6bb80c64-bb2e-4388-b1a8-479bdaa8b635
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberEventFilters, IDebugControl3, IDebugControl2::GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, GetNumberEventFilters, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetNumberEventFilters, dbgeng/IDebugControl::GetNumberEventFilters, debugger.getnumbereventfilters
+ms.keywords: IDebugControl::GetNumberEventFilters, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl3, debugger.getnumbereventfilters, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberEventFilters, IDebugControl3::GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, GetNumberEventFilters, IDebugControl interface [Windows Debugging], GetNumberEventFilters method, IDebugControl2::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetNumberEventFilters, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetNumberEventFilters(
 
 
 
-### -param SpecificEvents [out]
+#### - SpecificEvents [out]
 
 Receives the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">events</a> that can be controlled using the specific event filters.  These events are enumerated using some of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541490">DEBUG_FILTER_XXX</a> constants.
 
 
-### -param SpecificExceptions [out]
+#### - SpecificExceptions [out]
 
 Receives the number of <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exceptions</a> that can be controlled using the specific exception filters.  The first specific exception filter is the default exception filter.  The exceptions controlled by the other specific exception filters will always have their own filter and will not inherit their behavior from the default specific exception filter.  These exception filters are identified by their exception code.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff558784">Specific Exceptions</a> for a list of the specific exception filters.
 
 
-### -param ArbitraryExceptions [out]
+#### - ArbitraryExceptions [out]
 
 Receives the number of arbitrary exception filters currently used by the engine.  These exception filters are identified by their exception code.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LogJobInfoForBranchOffice, winsplp/LogJobInfoForBranchOffice, print.logjobinfoforbranchoffice, LogJobInfoForBranchOffice function [Print Devices]
+ms.keywords: LogJobInfoForBranchOffice function [Print Devices], print.logjobinfoforbranchoffice, winsplp/LogJobInfoForBranchOffice, LogJobInfoForBranchOffice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ HRESULT WINAPI LogJobInfoForBranchOffice(
 
 
 
-### -param hPrinter [in]
+#### - hPrinter [in]
 
 Specifies a handle to the CSR printer.
 
 
-### -param pJobDataContainer [in]
+#### - pJobDataContainer [in]
 
 Specifies a pointer to an array of <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures, containing the events to be logged.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2810be51-4b38-4462-9c16-67a9f28da5c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypePacketCoalescing, ntddndis/NdisReceiveFilterTypeUndefined, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml, NdisReceiveFilterTypeMaximum, ntddndis/NDIS_RECEIVE_FILTER_TYPE, NdisReceiveFilterTypeUndefined, NdisReceiveFilterTypeVMQueue, PNDIS_RECEIVE_FILTER_TYPE, NdisReceiveFilterTypePacketCoalescing, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_FILTER_TYPE, netvista.ndis_receive_filter_type, ntddndis/NdisReceiveFilterTypeVMQueue, ntddndis/NdisReceiveFilterTypeMaximum, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_TYPE
+ms.keywords: NdisReceiveFilterTypeVMQueue, PNDIS_RECEIVE_FILTER_TYPE, _NDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypeMaximum, ntddndis/NdisReceiveFilterTypePacketCoalescing, ntddndis/NdisReceiveFilterTypeUndefined, NDIS_RECEIVE_FILTER_TYPE, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_FILTER_TYPE, NdisReceiveFilterTypeUndefined, ntddndis/PNDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_type, ntddndis/NdisReceiveFilterTypeVMQueue, NdisReceiveFilterTypeMaximum, *PNDIS_RECEIVE_FILTER_TYPE, NdisReceiveFilterTypePacketCoalescing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _NDIS_RECEIVE_FILTER_TYPE {
 
 
 
-### -field NdisReceiveFilterTypeUndefined
+#### - NdisReceiveFilterTypeUndefined
 
 An undefined filter.
 
 
-### -field NdisReceiveFilterTypeVMQueue
+#### - NdisReceiveFilterTypeVMQueue
 
 A filter for a virtual machine (VM) receive queue. This receive queue has been allocated by the miniport driver that supports the virtual machine queue (VMQ) or single root I/O virtualization (SR-IOV) interface.
 
 
-### -field NdisReceiveFilterTypePacketCoalescing
+#### - NdisReceiveFilterTypePacketCoalescing
 
 A packet coalescing filter.
 
 
-### -field NdisReceiveFilterTypeMaximum
+#### - NdisReceiveFilterTypeMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

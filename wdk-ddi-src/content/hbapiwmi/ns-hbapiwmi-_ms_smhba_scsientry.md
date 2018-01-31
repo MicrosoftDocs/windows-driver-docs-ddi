@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 38779458-a561-4048-86d8-905e4e50095f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ms_smhba_scsientry, MS_SMHBA_SCSIENTRY structure [Storage Devices], *PMS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY, structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml, PMS_SMHBA_SCSIENTRY, _MS_SMHBA_SCSIENTRY, hbapiwmi/MS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices]
+ms.keywords: MS_SMHBA_SCSIENTRY structure [Storage Devices], _MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY, structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml, PMS_SMHBA_SCSIENTRY, hbapiwmi/MS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], hbapiwmi/PMS_SMHBA_SCSIENTRY, storage.ms_smhba_scsientry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MS_SMHBA_SCSIENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY"
+req.typenames: MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY
 ---
 
 # _MS_SMHBA_SCSIENTRY structure
@@ -69,17 +69,17 @@ typedef struct _MS_SMHBA_SCSIENTRY {
 
 
 
-### -field PortLun
+#### - PortLun
 
 An array of MS_SMHBA_PORTLUN entries.
 
 
-### -field LUID
+#### - LUID
 
 The logical unit descriptor for the device that the operating system derives from SCSI inquiry data.
 
 
-### -field ScsiId
+#### - ScsiId
 
 A structure of type HBAScsiID that contains information that uniquely identifies a logical unit to the operating system.
 

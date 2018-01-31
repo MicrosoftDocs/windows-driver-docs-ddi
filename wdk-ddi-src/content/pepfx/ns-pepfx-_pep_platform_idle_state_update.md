@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 488DA7B7-FB11-4AEF-902C-E461A281DF68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], kernel.pep_platform_idle_state_update, pepfx/PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE, pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE, _PEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_PLATFORM_IDLE_STATE_UPDATE, _PEP_PLATFORM_IDLE_STATE_UPDATE, kernel.pep_platform_idle_state_update, pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE, pepfx/PPEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PLATFORM_IDLE_STATE_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE
+req.typenames: "*PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE"
 ---
 
 # _PEP_PLATFORM_IDLE_STATE_UPDATE structure
@@ -69,17 +69,17 @@ typedef struct _PEP_PLATFORM_IDLE_STATE_UPDATE {
 
 
 
-### -field Version
+#### - Version
 
 The current version number of this structure. Set this member to PEP_PLATFORM_IDLE_STATE_UPDATE_VERSION.
 
 
-### -field Latency
+#### - Latency
 
 The worst-case latency, in 100-nanosecond units, for the platform to wake from this idle state in response to a wake event.
 
 
-### -field BreakEvenDuration
+#### - BreakEvenDuration
 
 The minimum amount of time, specified in 100-nanosecond units, that the platform must spend in this idle state to make a transition to this state worthwhile. The Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) uses this member value as a hint to avoid switching the platform to an idle state unless the platform is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 362C6F7C-7B92-43A8-9BD0-F647FDD266E4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicewdmdispatchirp, WdfDeviceWdmDispatchIrp method, WdfDeviceWdmDispatchIrp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp
+ms.keywords: wdfdevice/WdfDeviceWdmDispatchIrp, kmdf.wdfdevicewdmdispatchirp, WdfDeviceWdmDispatchIrp, wdf.wdfdevicewdmdispatchirp, WdfDeviceWdmDispatchIrp method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfDeviceWdmDispatchIrp(
 
 
 
-### -param Device [in]
+#### - Device [in]
 
 A handle to a framework device object.
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 A pointer to an IRP structure.
 
 
-### -param DispatchContext [in]
+#### - DispatchContext [in]
 
 The dispatch context parameter the driver received in <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>  callback.
 

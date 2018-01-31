@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f295bea2-20d8-4c71-b78b-77d43840be2a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS, ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_IF_PROVIDER_CHARACTERISTICS, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, netvista.ndis_if_provider_characteristics
+ms.keywords: netvista.ndis_if_provider_characteristics, PNDIS_IF_PROVIDER_CHARACTERISTICS, ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, NDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, _NDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_IF_PROVIDER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS"
+req.typenames: NDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS
 ---
 
 # _NDIS_IF_PROVIDER_CHARACTERISTICS structure
@@ -72,7 +72,7 @@ typedef struct _NDIS_IF_PROVIDER_CHARACTERISTICS {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,25 +83,25 @@ The
      <b>Size</b> member to NDIS_SIZEOF_IF_PROVIDER_CHARACTERISTICS_REVISION_1.
 
 
-### -field QueryObjectHandler
+#### - QueryObjectHandler
 
 The entry point for the 
      <mshelp:link keywords="netvista.providerqueryobject" tabindex="0"><i>
      ProviderQueryObject</i></mshelp:link> function.
 
 
-### -field SetObjectHandler
+#### - SetObjectHandler
 
 The entry point for the 
      <a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a> function.
 
 
-### -field Reserved1
+#### - Reserved1
 
 Reserved for NDIS.
 
 
-### -field Reserved2
+#### - Reserved2
 
 Reserved for NDIS.
 
@@ -122,13 +122,13 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-if_query_object.md">ProviderQueryObject</a>
-
-<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
-
 <a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nc-ndis-if_query_object.md">ProviderQueryObject</a>
+
+<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
 
  
 

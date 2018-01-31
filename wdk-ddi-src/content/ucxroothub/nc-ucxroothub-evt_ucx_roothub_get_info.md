@@ -74,12 +74,12 @@ typedef EVT_UCX_ROOTHUB_GET_INFO PEVT_UCX_ROOTHUB_GET_INFO;
 
 
 
-### -param UcxRootHub [in]
+#### - UcxRootHub [in]
 
 A handle to a UCX object that represents the root hub.
 
 
-### -param Request [in]
+#### - Request [in]
 
 A structure of type <a href="..\ucxroothub\ns-ucxroothub-_roothub_info.md">ROOTHUB_INFO</a>.
 

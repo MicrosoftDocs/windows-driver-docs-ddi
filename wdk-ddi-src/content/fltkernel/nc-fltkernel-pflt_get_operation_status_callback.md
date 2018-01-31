@@ -75,22 +75,22 @@ VOID OperationStatusCallback(
 
 
 
-### -param FltObjects [in]
+#### - FltObjects [in]
 
 A pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
 
 
-### -param IopbSnapshot [in]
+#### - IopbSnapshot [in]
 
 A pointer to the data structure containing parameters from the IO Request Packet for the operation. 
 
 
-### -param OperationStatus [in]
+#### - OperationStatus [in]
 
 The NTSTATUS value of the I/O operation generating the callback. 
 
 
-### -param RequesterContext [in, optional]
+#### - RequesterContext [in, optional]
 
 An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="..\fltkernel\nf-fltkernel-fltrequestoperationstatuscallback.md">FltRequestOperationStatusCallback</a>. 
 
@@ -116,11 +116,11 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 ## -see-also
 
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltrequestoperationstatuscallback.md">FltRequestOperationStatusCallback</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
  
 

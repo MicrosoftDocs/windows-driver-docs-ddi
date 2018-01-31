@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6d1d1f0d-d6da-488d-a120-713b77da86a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmResetDriverPaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, kernel.mmresetdriverpaging, wdm/MmResetDriverPaging
+ms.keywords: MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, kernel.mmresetdriverpaging, MmResetDriverPaging, wdm/MmResetDriverPaging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID MmResetDriverPaging(
 
 
 
-### -param AddressWithinSection [in]
+#### - AddressWithinSection [in]
 
 A pointer to a virtual address in the driver (for example, the address of the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine).
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1a398899-b05d-4853-b68d-ae8be958dd91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_ENTER_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_ENTER_SYSTEM_STATE, PPEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE, *PPEP_PPM_ENTER_SYSTEM_STATE, kernel.pep_ppm_enter_system_state, _PEP_PPM_ENTER_SYSTEM_STATE, PPEP_PPM_ENTER_SYSTEM_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_ENTER_SYSTEM_STATE
+ms.keywords: pepfx/PPEP_PPM_ENTER_SYSTEM_STATE, *PPEP_PPM_ENTER_SYSTEM_STATE, PPEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], _PEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE, pepfx/PEP_PPM_ENTER_SYSTEM_STATE, kernel.pep_ppm_enter_system_state, PPEP_PPM_ENTER_SYSTEM_STATE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_ENTER_SYSTEM_STATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_ENTER_SYSTEM_STATE, *PPEP_PPM_ENTER_SYSTEM_STATE
+req.typenames: "*PPEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE"
 ---
 
 # _PEP_PPM_ENTER_SYSTEM_STATE structure
@@ -67,7 +67,7 @@ typedef struct _PEP_PPM_ENTER_SYSTEM_STATE {
 
 
 
-### -field TargetState
+#### - TargetState
 
 On input, a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A05617FB-5105-4FCA-807F-C49F32BD1399
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PROCESSOR_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_UPDATE, *PPEP_PROCESSOR_IDLE_STATE_UPDATE, pepfx/PPEP_PROCESSOR_IDLE_STATE_UPDATE, pepfx/PEP_PROCESSOR_IDLE_STATE_UPDATE, kernel.pep_processor_idle_state_update, PPEP_PROCESSOR_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], PEP_PROCESSOR_IDLE_STATE_UPDATE, _PEP_PROCESSOR_IDLE_STATE_UPDATE
+ms.keywords: PEP_PROCESSOR_IDLE_STATE_UPDATE, *PPEP_PROCESSOR_IDLE_STATE_UPDATE, pepfx/PEP_PROCESSOR_IDLE_STATE_UPDATE, PEP_PROCESSOR_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], kernel.pep_processor_idle_state_update, pepfx/PPEP_PROCESSOR_IDLE_STATE_UPDATE, _PEP_PROCESSOR_IDLE_STATE_UPDATE, PPEP_PROCESSOR_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PROCESSOR_IDLE_STATE_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_IDLE_STATE_UPDATE, *PPEP_PROCESSOR_IDLE_STATE_UPDATE
+req.typenames: "*PPEP_PROCESSOR_IDLE_STATE_UPDATE, PEP_PROCESSOR_IDLE_STATE_UPDATE"
 ---
 
 # _PEP_PROCESSOR_IDLE_STATE_UPDATE structure
@@ -69,17 +69,17 @@ typedef struct _PEP_PROCESSOR_IDLE_STATE_UPDATE {
 
 
 
-### -field Version
+#### - Version
 
 The version number of this structure. Set this member to PEP_PROCESSOR_IDLE_STATE_UPDATE_VERSION.
 
 
-### -field Latency
+#### - Latency
 
 The worst-case latency, in 100-nanosecond units, that the platform requires to wake from this platform idle state in response to a wake event.
 
 
-### -field BreakEvenDuration
+#### - BreakEvenDuration
 
 The minimum amount of time, specified in 100-nanosecond units, that the platform must spend in this idle state to make a transition to this state worthwhile. PoFx uses this member value as a hint to avoid switching the platform to an idle state unless the platform is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
 

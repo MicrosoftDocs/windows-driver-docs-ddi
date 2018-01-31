@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-### -field Size
+#### - Size
 
 The size of the audio data.
 
 
-### -field PatternType
+#### - PatternType
 
 The keyword pattern format, expressed as a GUID.
 

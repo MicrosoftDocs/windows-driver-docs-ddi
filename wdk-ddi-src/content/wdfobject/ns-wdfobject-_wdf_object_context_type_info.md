@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b56183e-03aa-493a-84ba-03f9bc5daee2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_OBJECT_CONTEXT_TYPE_INFO structure, wdfobject/WDF_OBJECT_CONTEXT_TYPE_INFO, wdf.wdf_object_context_type_info, *PWDF_OBJECT_CONTEXT_TYPE_INFO, _WDF_OBJECT_CONTEXT_TYPE_INFO, DFGenObjectRef_8c3ba75b-eb62-455f-a905-61b715478b5b.xml, WDF_OBJECT_CONTEXT_TYPE_INFO, wdfobject/PWDF_OBJECT_CONTEXT_TYPE_INFO, PWDF_OBJECT_CONTEXT_TYPE_INFO, kmdf.wdf_object_context_type_info, PWDF_OBJECT_CONTEXT_TYPE_INFO structure pointer
+ms.keywords: PWDF_OBJECT_CONTEXT_TYPE_INFO structure pointer, wdf.wdf_object_context_type_info, _WDF_OBJECT_CONTEXT_TYPE_INFO, wdfobject/WDF_OBJECT_CONTEXT_TYPE_INFO, DFGenObjectRef_8c3ba75b-eb62-455f-a905-61b715478b5b.xml, WDF_OBJECT_CONTEXT_TYPE_INFO structure, wdfobject/PWDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO, PWDF_OBJECT_CONTEXT_TYPE_INFO, kmdf.wdf_object_context_type_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_OBJECT_CONTEXT_TYPE_INFO
 product: Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -74,27 +74,27 @@ typedef struct _WDF_OBJECT_CONTEXT_TYPE_INFO {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field ContextName
+#### - ContextName
 
 A quoted string that represents the name of a driver-defined structure that contains an object's context information.
 
 
-### -field ContextSize
+#### - ContextSize
 
 The size, in bytes, of the structure that the <b>ContextName</b> member specifies. The framework allocates space for this structure when it creates an object. If the <b>ContextSizeOverride</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure is nonzero, its value overrides the value in the <b>ContextSize</b> member.
 
 
-### -field UniqueType
+#### - UniqueType
 
 For internal use.
 
 
-### -field EvtDriverGetUniqueContextType
+#### - EvtDriverGetUniqueContextType
 
 For internal use.
 
@@ -114,13 +114,13 @@ For more information about using these macros, see <a href="https://docs.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551250">WDF_DECLARE_CONTEXT_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551252">WDF_DECLARE_CONTEXT_TYPE_WITH_NAME</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551250">WDF_DECLARE_CONTEXT_TYPE</a>
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551252">WDF_DECLARE_CONTEXT_TYPE_WITH_NAME</a>
 
  
 

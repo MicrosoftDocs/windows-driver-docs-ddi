@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 80250799-4263-43c0-85d5-f1c1c1fb0bae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_configuration_parameter, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER, ndis/NDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, NDIS_CONFIGURATION_PARAMETER, _NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER
+ms.keywords: NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], ndis/NDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, *PNDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER, netvista.ndis_configuration_parameter, _NDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_CONFIGURATION_PARAMETER
 product: Windows
 targetos: Windows
-req.typenames: NDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER
+req.typenames: "*PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER"
 ---
 
 # _NDIS_CONFIGURATION_PARAMETER structure
@@ -73,7 +73,7 @@ typedef struct _NDIS_CONFIGURATION_PARAMETER {
 
 
 
-### -field ParameterData
+#### - ParameterData
 
 A union that contains the value of the given named entry. If ParameterType is a string type, this
       member is an NDIS_STRING type describing a counted string in the system-default character set. For
@@ -82,6 +82,30 @@ A union that contains the value of the given named entry. If ParameterType is a 
       <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 This union contains the following members:
+
+
+#### IntegerData
+
+A ULONG value that is used when the 
+      <b>ParameterType</b> member is set to 
+      <b>NdisParameterInteger</b> or 
+      <b>NdisParameterHexInteger</b>.
+
+
+#### StringData
+
+An NDIS_STRING value that is used when the 
+      <b>ParameterType</b> member is set to 
+      <b>NdisParameterString</b> or 
+      <b>NdisParameterMultiString</b>.
+
+
+#### BinaryData
+
+A 
+      <a href="..\ndis\ns-ndis-binary_data.md">BINARY_DATA</a> structure that is used when the 
+      <b>ParameterType</b> member is set to 
+      <b>NdisParameterBinary</b>.
 
 
 ### -field ParameterData.IntegerData
@@ -108,7 +132,7 @@ A
       <b>NdisParameterBinary</b>.
 
 
-### -field ParameterType
+#### - ParameterType
 
 The type of the parameter specified as one of the 
      <a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a> enumeration values. 

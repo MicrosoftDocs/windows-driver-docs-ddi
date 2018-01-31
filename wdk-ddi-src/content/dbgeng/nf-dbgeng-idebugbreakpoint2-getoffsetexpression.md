@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9fbdfa42-7231-4281-ba19-a33e854cd801
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getoffsetexpression, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, dbgeng/IDebugBreakpoint::GetOffsetExpression, IDebugBreakpoint2, IDebugBreakpoint::GetOffsetExpression, IDebugBreakpoint2::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression, GetOffsetExpression method [Windows Debugging], GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: IDebugBreakpoint2, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, dbgeng/IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint::GetOffsetExpression, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression method [Windows Debugging], GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, debugger.getoffsetexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetOffsetExpression(
 
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 The expression string that evaluates to the location on the target that triggers the breakpoint.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size, in characters, of the buffer that <i>Buffer </i>points to.
 
 
-### -param ExpressionSize [out, optional]
+#### - ExpressionSize [out, optional]
 
 The size, in characters, of the expression string.  If <i>ExpressionSize</i> is <b>NULL</b>, this information is not returned.
 

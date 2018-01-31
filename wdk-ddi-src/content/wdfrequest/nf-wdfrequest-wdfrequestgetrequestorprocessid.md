@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F2CE35C8-F3BA-49E3-AE27-2FC5BFEC2D58
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, wdf.wdfrequestgetrequestorprocessid, WdfRequestGetRequestorProcessId
+ms.keywords: WdfRequestGetRequestorProcessId, wdfrequest/WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, wdf.wdfrequestgetrequestorprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ ULONG WdfRequestGetRequestorProcessId(
 
 
 
-### -param Request [in]
+#### - Request [in]
 
 A handle to a framework request object.
 

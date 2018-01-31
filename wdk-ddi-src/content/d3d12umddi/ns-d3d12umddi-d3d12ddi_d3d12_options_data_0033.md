@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d2b90ec1-cc4c-4a2b-8f7e-d46cd39d553b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0033, d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0033, display.d3d12ddi-d3d12-options-data-0033, D3D12DDI_D3D12_OPTIONS_DATA_0033 structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0033, D3D12DDI_D3D12_OPTIONS_DATA_0033 structure [Display Devices], D3D12DDI_D3D12_OPTIONS_DATA_0033, display.d3d12ddi-d3d12-options-data-0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,67 +79,67 @@ typedef struct _D3D12DDI_D3D12_OPTIONS_DATA_0033 {
 
 
 
-### -field ResourceBindingTier
+#### - ResourceBindingTier
 
 Resource binding tier.
 
 
-### -field ConservativeRasterizationTier
+#### - ConservativeRasterizationTier
 
 Conservative rasterization tier.
 
 
-### -field TiledResourcesTier
+#### - TiledResourcesTier
 
 Tiled resource tier.
 
 
-### -field CrossNodeSharingTier
+#### - CrossNodeSharingTier
 
 Cross node sharing tier.
 
 
-### -field VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
+#### - VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
 
 VP and RT array index from any shader feeding rasterizer supported without GS emulation.
 
 
-### -field OutputMergerLogicOp
+#### - OutputMergerLogicOp
 
 Output merger logic option.
 
 
-### -field ResourceHeapTier
+#### - ResourceHeapTier
 
 Resource heap tier.
 
 
-### -field DepthBoundsTestSupported
+#### - DepthBoundsTestSupported
 
 Depth bounds test supported.
 
 
-### -field ProgrammableSamplePositionsTier
+#### - ProgrammableSamplePositionsTier
 
 Programmable sample positions tier.
 
 
-### -field CopyQueueTimestampQueriesSupported
+#### - CopyQueueTimestampQueriesSupported
 
 Copy queue timestamp queries supported.
 
 
-### -field WriteBufferImmediateQueueFlags
+#### - WriteBufferImmediateQueueFlags
 
 Write buffer immediate queue flags.
 
 
-### -field ViewInstancingTier
+#### - ViewInstancingTier
 
 View instancing tier.
 
 
-### -field BarycentricsSupported
+#### - BarycentricsSupported
 
 Barycentrics supported.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6de0bd43-8f19-47f7-adbf-76ea312bd990
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_94b90abc-85db-4439-a20b-9edeb1a69733.xml, D3DKMDT_STAGINGSURFACEDATA structure [Display Devices], D3DKMDT_STAGINGSURFACEDATA, _D3DKMDT_STAGINGSURFACEDATA, display.d3dkmdt_stagingsurfacedata, d3dkmdt/D3DKMDT_STAGINGSURFACEDATA
+ms.keywords: d3dkmdt/D3DKMDT_STAGINGSURFACEDATA, D3DKMDT_STAGINGSURFACEDATA, D3DKMDT_STAGINGSURFACEDATA structure [Display Devices], DmStructs_94b90abc-85db-4439-a20b-9edeb1a69733.xml, display.d3dkmdt_stagingsurfacedata, _D3DKMDT_STAGINGSURFACEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMDT_STAGINGSURFACEDATA {
 
 
 
-### -field Width
+#### - Width
 
 [in] The width of the staging buffer, in pixels.
 
 
-### -field Height
+#### - Height
 
 [in] The height of the staging buffer, in pixels.
 
 
-### -field Pitch
+#### - Pitch
 
 [out] The width of the staging buffer, in bytes. The driver must return the pitch value because the staging buffer is lockable. 
 
@@ -97,21 +97,21 @@ This staging surface is always created as an 8-bits-per-color RGB pixel format (
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
 
  
 

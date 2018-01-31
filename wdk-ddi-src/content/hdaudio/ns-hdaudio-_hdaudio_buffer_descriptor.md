@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: da07d3c2-0bd5-4e61-87b3-6fda8007cf5f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR, _HDAUDIO_BUFFER_DESCRIPTOR, *PHDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices], PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], HDAUDIO_BUFFER_DESCRIPTOR, aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, PHDAUDIO_BUFFER_DESCRIPTOR, audio.hdaudio_buffer_descriptor
+ms.keywords: HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices], PHDAUDIO_BUFFER_DESCRIPTOR, aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, audio.hdaudio_buffer_descriptor, *PHDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], _HDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HDAUDIO_BUFFER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PHDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR"
+req.typenames: HDAUDIO_BUFFER_DESCRIPTOR, *PHDAUDIO_BUFFER_DESCRIPTOR
 ---
 
 # _HDAUDIO_BUFFER_DESCRIPTOR structure
@@ -69,17 +69,17 @@ typedef struct _HDAUDIO_BUFFER_DESCRIPTOR {
 
 
 
-### -field Address
+#### - Address
 
 Specifies the start address of a physically contiguous fragment of the buffer. In the case of a 32-bit address, the address should be right-justified and the 32 most significant bits (MSBs) of the member should be zero.
 
 
-### -field Length
+#### - Length
 
 Specifies the size in bytes of the buffer fragment.
 
 
-### -field InterruptOnCompletion
+#### - InterruptOnCompletion
 
 Specifies whether the DMA engine should generate an interrupt on completing the transfer of the buffer fragment. A value of 1 enables the interrupt. A value of 0 disables it.
 

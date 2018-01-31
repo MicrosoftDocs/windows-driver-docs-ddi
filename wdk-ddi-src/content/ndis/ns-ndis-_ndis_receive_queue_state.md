@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e997fce6-ee3a-433f-b9b7-3e2932093a1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_RECEIVE_QUEUE_STATE, ndis/PNDIS_RECEIVE_QUEUE_STATE, PNDIS_RECEIVE_QUEUE_STATE, virtual_machine_queue_ref_4cbbc25f-cd33-45d7-b279-1661570110f0.xml, *PNDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_STATE, netvista.ndis_receive_queue_state, NDIS_RECEIVE_QUEUE_STATE
+ms.keywords: ndis/NDIS_RECEIVE_QUEUE_STATE, PNDIS_RECEIVE_QUEUE_STATE structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_4cbbc25f-cd33-45d7-b279-1661570110f0.xml, *PNDIS_RECEIVE_QUEUE_STATE, ndis/PNDIS_RECEIVE_QUEUE_STATE, _NDIS_RECEIVE_QUEUE_STATE, netvista.ndis_receive_queue_state, NDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_QUEUE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE"
+req.typenames: NDIS_RECEIVE_QUEUE_STATE, *PNDIS_RECEIVE_QUEUE_STATE
 ---
 
 # _NDIS_RECEIVE_QUEUE_STATE structure
@@ -71,7 +71,7 @@ typedef struct _NDIS_RECEIVE_QUEUE_STATE {
 
 
 
-### -field Header
+#### - Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -82,19 +82,19 @@ The
      <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_RECEIVE_QUEUE_STATE_REVISION_1</b>.
 
 
-### -field Flags
+#### - Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-### -field QueueId
+#### - QueueId
 
 An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a queue identifier. The queue identifier is an
      integer value between zero and the number of queues that the network adapter supports. A value of <b>NDIS_DEFAULT_RECEIVE_QUEUE_ID</b> specifies
      the default receive queue.
 
 
-### -field QueueState
+#### - QueueState
 
 An 
      <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a> enumeration value that specifies the operational state of the
@@ -112,13 +112,13 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_receive_queue_operational_state" tabindex="0"><b>
-   NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</b></mshelp:link>
-
 <mshelp:link keywords="netvista.ndis_status_receive_queue_state" tabindex="0"><b>
    NDIS_STATUS_RECEIVE_QUEUE_STATE</b></mshelp:link>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<mshelp:link keywords="netvista.ndis_receive_queue_operational_state" tabindex="0"><b>
+   NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</b></mshelp:link>
 
  
 

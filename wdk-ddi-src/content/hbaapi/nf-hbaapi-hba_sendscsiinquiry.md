@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6239f9b5-99e9-4ed7-b2a8-863c1784692b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_sendscsiinquiry, HBA_SendScsiInquiry routine [Storage Devices], hbaapi/HBA_SendScsiInquiry, HBA_SendScsiInquiry, fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml
+ms.keywords: fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml, HBA_SendScsiInquiry routine [Storage Devices], hbaapi/HBA_SendScsiInquiry, HBA_SendScsiInquiry, storage.hba_sendscsiinquiry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,17 +90,17 @@ TBD
 TBD
 
 
-### -param EVPD [in]
+#### - EVPD [in]
 
 Indicates, when 0, that the inquiry command retrieves the standard SCSI inquiry data. When this member is set to 1, it indicates the inquiry command retrieves the vital product data (VPD) specified by <i>PageCode</i>.
 
 
-### -param PageCode [in]
+#### - PageCode [in]
 
 Indicates the VPD page code to retrieve when <i>EVPD</i> is set to 1. If <i>EVPD </i>is not set to 1, <i>PageCode </i>is ignored.
 
 
-### -param pRspBuffer [out]
+#### - pRspBuffer [out]
 
 Pointer to a buffer that receives the output data of the SCSI inquiry command.
 
@@ -110,12 +110,12 @@ Pointer to a buffer that receives the output data of the SCSI inquiry command.
 TBD
 
 
-### -param pSenseBuffer [out]
+#### - pSenseBuffer [out]
 
 Pointer to a buffer that receives the SCSI sense data.
 
 
-### -param SenseBufferSize [in]
+#### - SenseBufferSize [in]
 
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
 
@@ -210,9 +210,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

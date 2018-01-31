@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef56da02-52ae-4f85-8820-fc310638bb89
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, IO_SESSION_STATE_INFORMATION, wdm/IO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], PIO_SESSION_STATE_INFORMATION, wdm/PIO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION, _IO_SESSION_STATE_INFORMATION, kernel.io_session_state_information
+ms.keywords: kernel.io_session_state_information, wdm/PIO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION, wdm/IO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], IO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], *PIO_SESSION_STATE_INFORMATION, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, _IO_SESSION_STATE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,13 +70,13 @@ typedef struct _IO_SESSION_STATE_INFORMATION {
 
 
 
-### -field SessionId
+#### - SessionId
 
 
       The session ID. This member contains the <a href="http://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of a user session. The <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a> routine sets this member to the session ID of the session that is represented by the session object that the <i>ContainerObject</i> parameter of <b>IoGetContainerInformation</b> points to.
 
 
-### -field SessionState
+#### - SessionState
 
 The current state of the user session that is identified by <i>SessionId</i>. This member is set to one of the following <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a> enumeration constants:
 <ul>
@@ -90,7 +90,7 @@ The current state of the user session that is identified by <i>SessionId</i>. Th
 <li><b>IoSessionStateTerminated</b></li>
 </ul>
 
-### -field LocalSession
+#### - LocalSession
 
 Indicates whether the user session identified by <i>SessionId</i> is a local session. If <b>TRUE</b>, the user is logged on locally. If <b>FALSE</b>, the user is logged on remotely. This member is valid only if the session is connected. The following <b>IO_SESSION_STATE</b> enumeration constants represent session states in which the session is connected:
 <ul>
@@ -108,9 +108,9 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
-
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
+
+<a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvPerformPostAssociate
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,7 @@ DWORD APIENTRY Dot11ExtIhvPerformPostAssociate(
 
 
 
-### -param hIhvExtAdapter [in, optional]
+#### - hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -85,7 +85,7 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-### -param hSecuritySessionID [in, optional]
+#### - hSecuritySessionID [in, optional]
 
 The handle of the security session. The IHV Extensions DLL must use this handle value when it
      calls 
@@ -93,20 +93,20 @@ The handle of the security session. The IHV Extensions DLL must use this handle 
      Dot11ExtPostAssociateCompletion</b></mshelp:link> to asynchronously complete the post-association operation.
 
 
-### -param pPortState [in]
+#### - pPortState [in]
 
 A pointer to a 
      <a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a> structure, which
      specifies the current port state of the security session.
 
 
-### -param uDot11AssocParamsBytes [in]
+#### - uDot11AssocParamsBytes [in]
 
 The length, in bytes, of the data referenced through the 
      <i>pDot11AssocParams</i> parameter.
 
 
-### -param pDot11AssocParams [in]
+#### - pDot11AssocParams [in]
 
 A pointer to a 
      <mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
@@ -161,17 +161,17 @@ For more information about the post-association operation, see
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 <mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
    Dot11ExtPostAssociateCompletion</b></mshelp:link>
 
-<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
 
 <mshelp:link keywords="netvista.ndis_status_dot11_association_completion" tabindex="0">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</mshelp:link>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
 
  
 

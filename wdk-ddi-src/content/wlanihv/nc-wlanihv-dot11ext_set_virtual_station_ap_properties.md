@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetVirtualStationAPProperties
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,7 @@ DWORD WINAPI * Dot11ExtSetVirtualStationAPProperties(
 
 
 
-### -param hDot11SvcHandle [in, optional]
+#### - hDot11SvcHandle [in, optional]
 
 An optional handle used by the operating system to reference the primary physical wireless LAN
      (WLAN) adapter. This handle value was received as the 
@@ -83,7 +83,7 @@ An optional handle used by the operating system to reference the primary physica
      Handler function.
 
 
-### -param hConnectSession [in, optional]
+#### - hConnectSession [in, optional]
 
 The handle used by the operating system to reference the current connection session with the basic
      service set (BSS) network. This handle value was received as the 
@@ -92,13 +92,13 @@ The handle used by the operating system to reference the current connection sess
      Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
 
 
-### -param dwNumProperties [in]
+#### - dwNumProperties [in]
 
 The number of elements in the array of structures pointed to by the 
      <i>pProperties</i> parameter.
 
 
-### -param pProperties [in]
+#### - pProperties [in]
 
 A pointer to an array of 
      <mshelp:link keywords="netvista.dot11ext_virtual_station_ap_property" tabindex="0"><b>
@@ -106,7 +106,7 @@ A pointer to an array of
      that the virtual 802.11 station is attempting to host in the current connection session.
 
 
-### -param pvReserved
+#### - pvReserved
 
 This parameter is reserved for use by the operating system and should be <b>NULL</b>.
 
@@ -140,13 +140,13 @@ If the IHV Extensions DLL calls
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
 <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
 
 <mshelp:link keywords="netvista.dot11ext_virtual_station_ap_property" tabindex="0"><b>
    DOT11EXT_VIRTUAL_STATION_AP_PROPERTY</b></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

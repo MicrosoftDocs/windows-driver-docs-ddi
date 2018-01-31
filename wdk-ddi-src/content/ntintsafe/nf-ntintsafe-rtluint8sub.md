@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D8BD24AA-64CF-42CB-8AD2-2B6C77D4B195
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUInt8Sub, RtlUInt8Sub function [Kernel-Mode Driver Architecture], RtlUInt8Sub, kernel.rtluint8sub
+ms.keywords: ntintsafe/RtlUInt8Sub, RtlUInt8Sub, kernel.rtluint8sub, RtlUInt8Sub function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlUInt8Sub(
 
 
 
-### -param u8Minuend [in]
+#### - u8Minuend [in]
 
 The value from which <i>u8Subtrahend</i> is subtracted.
 
 
-### -param u8Subtrahend [in]
+#### - u8Subtrahend [in]
 
 The value to subtract from <i>u8Minuend</i>.
 
 
-### -param pu8Result [out]
+#### - pu8Result [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

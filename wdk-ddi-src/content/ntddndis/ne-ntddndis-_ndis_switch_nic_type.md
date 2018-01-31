@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ff7a803-9de4-4b2f-ab5f-3eb5107d5b64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchNicTypeExternal, NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeInternal, ntddndis/NdisSwitchNicTypeExternal, PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeEmulated, NdisSwitchNicTypeInternal, _NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeSynthetic, NdisSwitchNicTypeSynthetic, ntddndis/NDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeEmulated, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_type, ntddndis/PNDIS_SWITCH_NIC_TYPE
+ms.keywords: ntddndis/NdisSwitchNicTypeEmulated, ntddndis/NdisSwitchNicTypeSynthetic, NDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeSynthetic, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_TYPE, PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchNicTypeEmulated, ntddndis/NdisSwitchNicTypeExternal, ntddndis/PNDIS_SWITCH_NIC_TYPE, ntddndis/NDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeExternal, ntddndis/NdisSwitchNicTypeInternal, NdisSwitchNicTypeInternal, netvista.ndis_switch_nic_type, _NDIS_SWITCH_NIC_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,22 +72,22 @@ typedef enum _NDIS_SWITCH_NIC_TYPE {
 
 
 
-### -field NdisSwitchNicTypeExternal
+#### - NdisSwitchNicTypeExternal
 
 This value specifies a virtual network adapter that is exposed in the management operating system that runs in the Hyper-V parent partition. The external network adapter provides the connection to the  physical network interface that is available on the host. This allows processes that run in either the management or guest operating systems to send or receive packets over the extensible switch.
 <div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div><div> </div>
 
-### -field NdisSwitchNicTypeSynthetic
+#### - NdisSwitchNicTypeSynthetic
 
 This value specifies a synthetic network adapter that is exposed in a guest operating system that runs in a Hyper-V child partition.
 <div class="alert"><b>Note</b>  A synthetic network adapter is a type of virtual machine (VM) network adapter. This adapter is exposed in a guest operating system that is Windows Vista or a later version of Windows.</div><div> </div>
 
-### -field NdisSwitchNicTypeEmulated
+#### - NdisSwitchNicTypeEmulated
 
 This value specifies an emulated network adapter that is exposed in a guest operating system.
 <div class="alert"><b>Note</b>  An emulated network adapter is a type of VM network adapter. This adapter is exposed in a guest operating system that is Windows XP, Windows Vista, or a later version of Windows. This adapter is also exposed in a guest operating system that is a non-Windows operating system.</div><div> </div>
 
-### -field NdisSwitchNicTypeInternal
+#### - NdisSwitchNicTypeInternal
 
 This value specifies a virtual network adapter that is exposed in the management operating system that runs in the Hyper-V parent partition. The internal network adapter provides access to an extensible switch for processes that run in the management operating system. This allows these processes to send or receive packets over the extensible switch.
 <div class="alert"><b>Note</b>  An extensible switch supports no more than one internal network adapter. For more information, see <a href="https://msdn.microsoft.com/4E4B0EC9-8E4C-47FC-B608-EC6D18367A79">Internal Network Adapters</a>.</div><div> </div>

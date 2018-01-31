@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_PORT_PROPERTIES union pointer [Buses], *PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], PUSB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES, buses.usb_port_properties, USB_PORT_PROPERTIES
+ms.keywords: USB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES, buses.usb_port_properties, PUSB_PORT_PROPERTIES union pointer [Buses], PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], usbioctl/USB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_PORT_PROPERTIES
 product: Windows
 targetos: Windows
-req.typenames: USB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES
+req.typenames: "*PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES"
 req.product: Windows 10 or later.
 ---
 
@@ -75,12 +75,12 @@ typedef union _USB_PORT_PROPERTIES {
 
 
 
-### -field PortIsUserConnectable
+#### - PortIsUserConnectable
 
 If <b>TRUE</b>, the port is visible to the user and a USB device can be attached to or detached from the port.
 
 
-### -field PortIsDebugCapable
+#### - PortIsDebugCapable
 
 If <b>TRUE</b>, the port supports debugging over a USB connection.
 
@@ -95,12 +95,12 @@ If <b>TRUE</b>, the port supports debugging over a USB connection.
  
 
 
-### -field ReservedMBZ
+#### - ReservedMBZ
 
 Reserved. Do not use.
 
 
-### -field ul
+#### - ul
 
 A bitmask that indicates the properties and capabilities of the port.
 

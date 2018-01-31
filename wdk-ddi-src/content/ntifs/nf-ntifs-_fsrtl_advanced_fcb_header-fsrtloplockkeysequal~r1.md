@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a4adc761-cf0c-466c-b20f-0af2da9ec447
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlOplockKeysEqual routine [Installable File System Drivers], FsRtlOplockKeysEqual, ifsk.fsrtloplockkeysequal, fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, ntifs/FsRtlOplockKeysEqual
+ms.keywords: fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, ifsk.fsrtloplockkeysequal, ntifs/FsRtlOplockKeysEqual, FsRtlOplockKeysEqual, FsRtlOplockKeysEqual routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN FsRtlOplockKeysEqual(
 
 
 
-### -param Fo1 [in, optional]
+#### - Fo1 [in, optional]
 
 A pointer to the first file object for the comparison. 
 
 
-### -param Fo2 [in, optional]
+#### - Fo2 [in, optional]
 
 A pointer to the second file object for the comparison. 
 

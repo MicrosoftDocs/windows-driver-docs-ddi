@@ -72,12 +72,12 @@ VP_STATUS Int10CallBios(
 
 
 
-### -param Context
+#### - Context
 
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> returns.
 
 
-### -param BiosArguments
+#### - BiosArguments
 
 Pointer to a video miniport driver-initialized <a href="..\video\ns-video-_int10_bios_arguments.md">INT10_BIOS_ARGUMENTS</a> structure containing the values of the x86 registers. Any registers that are not needed in the INT10 BIOS call should be set to 0. When the function returns, some members of the INT10_BIOS_ARGUMENTS structures can have different values than before the call.
 

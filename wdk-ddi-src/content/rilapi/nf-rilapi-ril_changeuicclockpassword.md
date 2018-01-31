@@ -73,19 +73,19 @@ HRESULT  RIL_ChangeUiccLockPassword(
 
 
 
-### -param hRil
+#### - hRil
 
 
 
-### -param lpContext
+#### - lpContext
 
 
 
-### -param lpLockCredential
+#### - lpLockCredential
 
 
 
-### -param lpszNewPassword
+#### - lpszNewPassword
 
 
 

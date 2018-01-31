@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb66a17e-2e85-453c-8b39-091f0dc8c29b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeGetCurrentProcessorNumberEx, k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, kernel.kegetcurrentprocessornumberex, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], KeGetCurrentProcessorNumberEx
+ms.keywords: KeGetCurrentProcessorNumberEx, wdm/KeGetCurrentProcessorNumberEx, kernel.kegetcurrentprocessornumberex, k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG KeGetCurrentProcessorNumberEx(
 
 
 
-### -param ProcNumber [out, optional]
+#### - ProcNumber [out, optional]
 
 A pointer to a caller-allocated buffer into which the routine writes a <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the current logical processor. This structure contains the group number and the group-relative processor number. You can set this parameter to <b>NULL</b> if you do not need this information. 
 
@@ -92,11 +92,11 @@ A related routine, <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">Ke
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
-
 <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+
+<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
 
  
 

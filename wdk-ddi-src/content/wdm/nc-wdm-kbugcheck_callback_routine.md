@@ -40,7 +40,7 @@ apiname:
 -	BugCheckCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,12 @@ VOID BugCheckCallback(
 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the buffer that was specified when the callback was registered.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Specifies the length, in bytes, of the buffer that is pointed to by the <i>Buffer</i> parameter.
 

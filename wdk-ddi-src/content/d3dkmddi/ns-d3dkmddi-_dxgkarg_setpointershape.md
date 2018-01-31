@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcb06620-8a30-4980-8733-35d7aabcc872
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE structure [Display Devices], DXGKARG_SETPOINTERSHAPE, d3dkmddi/DXGKARG_SETPOINTERSHAPE, display.dxgkarg_setpointershape, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml"
+ms.keywords: DXGKARG_SETPOINTERSHAPE structure [Display Devices], display.dxgkarg_setpointershape, DXGKARG_SETPOINTERSHAPE, d3dkmddi/DXGKARG_SETPOINTERSHAPE, _DXGKARG_SETPOINTERSHAPE, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,32 +74,32 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 
 
 
-### -field Flags
+#### - Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a> structure that identifies, in bit-field flags, how to display the mouse pointer.
 
 
-### -field Width
+#### - Width
 
 [in] The width of the mouse pointer, in pixels.
 
 
-### -field Height
+#### - Height
 
 [in] The height of the mouse pointer, in scan lines.
 
 
-### -field Pitch
+#### - Pitch
 
 [in] The width of the mouse pointer, in bytes.
 
 
-### -field VidPnSourceId
+#### - VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the mouse pointer is located in. 
 
 
-### -field pPixels
+#### - pPixels
 
 [in] A pointer to the start of the following bitmap depending on the bit-field flag that is set in the <b>Flags</b> member:
 <table>
@@ -155,12 +155,12 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 </table> 
 
 
-### -field XHot
+#### - XHot
 
 [in] The column, in pixels, that the mouse pointer is located on from the top left of the bitmap that <b>pPixels</b> points to. 
 
 
-### -field YHot
+#### - YHot
 
 [in] The row, in pixels, that the mouse pointer is located on from the top left of the bitmap that <b>pPixels</b> points to.
 
@@ -174,9 +174,9 @@ The <b>XHot</b> and <b>YHot</b> members are used by display miniport drivers tha
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a>
 
  
 

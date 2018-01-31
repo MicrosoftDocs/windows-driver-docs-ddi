@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4ecaf9a-1d8d-4a56-afa0-b893eb0c4c62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_MAX, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_VIDEO, rilapitypes/RIL_CALLMEDIATYPE_VIDEO, RIL_CALLMEDIATYPE_CUSTOM, rilapitypes/RILCALLMEDIATYPE, rilapitypes/RIL_CALLMEDIATYPE_AUDIO, netvista.rilcallmediatype_2, rilapitypes/RIL_CALLMEDIATYPE_MAX, RILCALLMEDIATYPE
+ms.keywords: rilapitypes/RIL_CALLMEDIATYPE_AUDIO, RILCALLMEDIATYPE, RIL_CALLMEDIATYPE_CUSTOM, rilapitypes/RIL_CALLMEDIATYPE_VIDEO, rilapitypes/RILCALLMEDIATYPE, RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, netvista.rilcallmediatype_2, rilapitypes/RIL_CALLMEDIATYPE_MAX, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_VIDEO, RIL_CALLMEDIATYPE_AUDIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILCALLMEDIATYPE {
 
 
 
-### -field RIL_CALLMEDIATYPE_AUDIO
+#### - RIL_CALLMEDIATYPE_AUDIO
 
 
 
-### -field RIL_CALLMEDIATYPE_VIDEO
+#### - RIL_CALLMEDIATYPE_VIDEO
 
 
 
-### -field RIL_CALLMEDIATYPE_CUSTOM
+#### - RIL_CALLMEDIATYPE_CUSTOM
 
 
 
-### -field RIL_CALLMEDIATYPE_MAX
+#### - RIL_CALLMEDIATYPE_MAX
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b8e4e8-f144-4469-bedf-18f40be7e649
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WMI_PROVIDER_CONFIG structure, wdfwmi/WDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG, _WDF_WMI_PROVIDER_CONFIG, DFWMIRef_6cf9c574-aa7a-4184-97c7-bd2b2134f5ac.xml, kmdf.wdf_wmi_provider_config, *PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG structure pointer, wdfwmi/PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG, wdf.wdf_wmi_provider_config
+ms.keywords: PWDF_WMI_PROVIDER_CONFIG structure pointer, wdfwmi/WDF_WMI_PROVIDER_CONFIG, wdf.wdf_wmi_provider_config, *PWDF_WMI_PROVIDER_CONFIG, _WDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG structure, WDF_WMI_PROVIDER_CONFIG, wdfwmi/PWDF_WMI_PROVIDER_CONFIG, kmdf.wdf_wmi_provider_config, PWDF_WMI_PROVIDER_CONFIG, DFWMIRef_6cf9c574-aa7a-4184-97c7-bd2b2134f5ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,27 +74,27 @@ typedef struct _WDF_WMI_PROVIDER_CONFIG {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Guid
+#### - Guid
 
 The symbolic name of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> that identifies a WMI data block.
 
 
-### -field Flags
+#### - Flags
 
 A bitwise OR of <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_flags.md">WDF_WMI_PROVIDER_FLAGS</a>-typed values. 
 
 
-### -field MinInstanceBufferSize
+#### - MinInstanceBufferSize
 
 The minimum size, in bytes, of fixed-length buffers that the <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a> and <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a> callback functions will use for provider instances. This member must be zero for variable-length buffers. This member is ignored if <b>WdfWmiProviderEventOnly</b> is set in the <b>Flags</b> member.
 
 
-### -field EvtWmiProviderFunctionControl
+#### - EvtWmiProviderFunctionControl
 
 A pointer to the driver's <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a> callback function, or <b>NULL</b>.
 
@@ -112,6 +112,8 @@ To initialize a <b>WDF_WMI_PROVIDER_CONFIG</b> structure, your driver should cal
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
@@ -119,8 +121,6 @@ To initialize a <b>WDF_WMI_PROVIDER_CONFIG</b> structure, your driver should cal
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_flags.md">WDF_WMI_PROVIDER_FLAGS</a>
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
  
 

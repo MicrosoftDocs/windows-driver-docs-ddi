@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiwmiguidreginfo, PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml, scsiwmi/PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], *PSCSIWMIGUIDREGINFO
+ms.keywords: SCSIWMIGUIDREGINFO structure [Storage Devices], *PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], SCSIWMIGUIDREGINFO, scsiwmi/PSCSIWMIGUIDREGINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSIWMIGUIDREGINFO
 product: Windows
 targetos: Windows
-req.typenames: SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO
+req.typenames: "*PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -70,17 +70,17 @@ typedef struct {
 
 
 
-### -field Guid
+#### - Guid
 
 Points to the GUID that identifies the block. 
 
 
-### -field InstanceCount
+#### - InstanceCount
 
 Specifies the number of instances defined for the block.
 
 
-### -field Flags
+#### - Flags
 
 Indicates characteristics of the block. The SCSI port driver sets all but the following WMIREG_FLAG_<i>XXX</i> on behalf of the miniport driver. A miniport driver might set one or more of the following flags: 
 
@@ -117,9 +117,9 @@ For more information about defining blocks, <a href="https://msdn.microsoft.com/
 
 <a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557344">HwScsiWmiQueryReginfo</a>
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557344">HwScsiWmiQueryReginfo</a>
 
  
 

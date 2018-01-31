@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2FA77D7D-E1CC-44BA-8725-7132682A1BD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, display.d3d12ddiarg_create_video_processor, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices]
+ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices], D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, display.d3d12ddiarg_create_video_processor, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 {
 
 
 
-### -field NodeMask
+#### - NodeMask
 
 A node mask. For single GPU operation, set this value to zero (0). If there are multiple GPU nodes, set a bit to identify the physical adapter of the device to which the command queue applies. Each bit in the mask corresponds to a single node. Only one  bit may be set.
 
 
-### -field Usage
+#### - Usage
 
 Specifies a hint for the intended usage for the video processor. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a> enumeration.
 

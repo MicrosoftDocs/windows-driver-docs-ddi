@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 99869b20-3458-426a-ad64-c2cc54213290
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisQueryNetBufferPhysicalCount, netvista.ndisquerynetbufferphysicalcount, NdisQueryNetBufferPhysicalCount function [Network Drivers Starting with Windows Vista], ndis/NdisQueryNetBufferPhysicalCount, ndis_netbuf_functions_ref_d041f487-3273-402e-8726-d9a252b1dd45.xml
+ms.keywords: NdisQueryNetBufferPhysicalCount function [Network Drivers Starting with Windows Vista], netvista.ndisquerynetbufferphysicalcount, NdisQueryNetBufferPhysicalCount, ndis/NdisQueryNetBufferPhysicalCount, ndis_netbuf_functions_ref_d041f487-3273-402e-8726-d9a252b1dd45.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ ULONG NdisQueryNetBufferPhysicalCount(
 
 
 
-### -param NetBuffer [in]
+#### - NetBuffer [in]
 
 A pointer to a previously allocated 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.

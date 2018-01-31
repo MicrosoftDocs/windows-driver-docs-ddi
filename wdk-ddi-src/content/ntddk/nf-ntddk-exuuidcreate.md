@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e85fe5fa-b11e-41ff-a355-4da0394377d1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExUuidCreate routine [Kernel-Mode Driver Architecture], ntddk/ExUuidCreate, ExUuidCreate, k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, kernel.exuuidcreate
+ms.keywords: ExUuidCreate routine [Kernel-Mode Driver Architecture], ExUuidCreate, k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, ntddk/ExUuidCreate, kernel.exuuidcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS ExUuidCreate(
 
 
 
-### -param Uuid [out]
+#### - Uuid [out]
 
 A pointer to a caller-allocated UUID (GUID) structure that is set to a new UUID value. 
 

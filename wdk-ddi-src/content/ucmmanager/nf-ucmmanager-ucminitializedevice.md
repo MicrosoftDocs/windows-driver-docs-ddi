@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmInitializeDevice method [Buses], buses.ucminitializedevice, UcmInitializeDevice, ucmmanager/UcmInitializeDevice
+ms.keywords: ucmmanager/UcmInitializeDevice, buses.ucminitializedevice, UcmInitializeDevice method [Buses], UcmInitializeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS UcmInitializeDevice(
 
 
 
-### -param WdfDevice [in]
+#### - WdfDevice [in]
 
 A handle to a framework device object that the client driver received in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-### -param Config [in]
+#### - Config [in]
 
 A pointer to a caller-supplied <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a> structure that is initialized by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_manager_config_init.md">UCM_MANAGER_CONFIG_INIT</a>.
 
@@ -96,9 +96,9 @@ This method initializes UcmCx and allocates resources required, registers for Pn
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a>
-
 <a href="..\ucmmanager\nf-ucmmanager-ucm_manager_config_init.md">UCM_MANAGER_CONFIG_INIT</a>
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a>
 
  
 

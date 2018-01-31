@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64febd55-1ab8-4e2e-b738-340167866333
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], *PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, netvista.ndis_protocol_offload_block_list, PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, tcp_chim_struct_77380eae-055d-471e-a94a-67575124981b.xml, ndischimney/PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+ms.keywords: tcp_chim_struct_77380eae-055d-471e-a94a-67575124981b.xml, _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], netvista.ndis_protocol_offload_block_list, PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST {
 
 
 
-### -field NextBlock
+#### - NextBlock
 
 A pointer to the next NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure at the offload state layer
      (neighbor, path, or TCP) indicated by the 
@@ -97,7 +97,7 @@ A pointer to the next NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure at the offload 
  
 
 
-### -field DependentBlockList
+#### - DependentBlockList
 
 A pointer to an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that is at a dependent layer of the
      offload state (a higher layer in the offload state tree). 
@@ -121,7 +121,7 @@ The
        always <b>NULL</b>.
 
 
-### -field Header
+#### - Header
 
 The header of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. The header is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The
@@ -264,7 +264,7 @@ Specifies all of the TCP state, including the constant, cached, and delegated TC
 Reserved for filter drivers.
 
 
-### -field Status
+#### - Status
 
 The completion status of an initiate offload, query offload, update offload, invalidate offload,
      or terminate offload operation that the offload target performed on the state associated with, or
@@ -432,12 +432,12 @@ Initiate offload: The path MTU for the TCP connection is larger than the offload
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
-### -field NdisReserved
+#### - NdisReserved
 
 Reserved for use by NDIS.
 
 
-### -field OffloadHandle
+#### - OffloadHandle
 
 A pointer to an 
      <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure. The
@@ -445,22 +445,22 @@ A pointer to an
      state object.
 
 
-### -field ProtocolReserved
+#### - ProtocolReserved
 
 Reserved for use by protocol drivers, which can use this area for their own purposes.
 
 
-### -field MiniportReserved
+#### - MiniportReserved
 
 Reserved for use by offload targets or the miniport portion of an intermediate driver.
 
 
-### -field ImReserved
+#### - ImReserved
 
 Reserved for use by intermediate drivers, which can use this area for their own purposes.
 
 
-### -field Scratch
+#### - Scratch
 
 The protocol driver or intermediate driver can use this area for internal tracking. The
      information in this area is valid only while the driver has ownership of the 
@@ -468,7 +468,7 @@ The protocol driver or intermediate driver can use this area for internal tracki
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIS</b> T.
 
 
-### -field SourceHandle
+#### - SourceHandle
 
 This member is not significant for a protocol or intermediate driver. A protocol or intermediate
       driver must not modify this member.
@@ -481,7 +481,7 @@ When propagating the completion of a state-manipulation operation, an intermedia
       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that it passes to the NdisMXxxComplete function.
 
 
-### -field PortNumber
+#### - PortNumber
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
@@ -490,7 +490,7 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      not allocated ports for the specified adapter.
 
 
-### -field NetBufferListChain
+#### - NetBufferListChain
 
 When the protocol or intermediate driver specifies a <b>NULL</b> value, 
       <b>NetBufferListChain</b> is not significant and can be ignored by the underlying driver or offload
@@ -546,53 +546,53 @@ An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in mem
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <mshelp:link keywords="netvista.protocolinvalidateoffloadcomplete" tabindex="0"><i>
    ProtocolInvalidateOffloadComplete</i></mshelp:link>
 
 <a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a>
 
-<mshelp:link keywords="netvista.protocolupdateoffloadcomplete" tabindex="0"><i>
-   ProtocolUpdateOffloadComplete</i></mshelp:link>
-
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+<mshelp:link keywords="netvista.protocolterminateoffloadcomplete" tabindex="0"><i>
+   ProtocolTerminateOffloadComplete</i></mshelp:link>
 
 <mshelp:link keywords="netvista.protocolqueryoffloadcomplete" tabindex="0"><i>
    ProtocolQueryOffloadComplete</i></mshelp:link>
 
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndisupdateoffload.md">NdisUpdateOffload</a>
+
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+<mshelp:link keywords="netvista.protocolupdateoffloadcomplete" tabindex="0"><i>
+   ProtocolUpdateOffloadComplete</i></mshelp:link>
+
 <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndisterminateoffload.md">NdisTerminateOffload</a>
 
 <mshelp:link keywords="netvista.protocolinitiateoffloadcomplete" tabindex="0"><i>
    ProtocolInitiateOffloadComplete</i></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
-
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndisupdateoffload.md">NdisUpdateOffload</a>
 
 <a href="..\ndischimney\nf-ndischimney-ndisqueryoffloadstate.md">NdisQueryOffload</a>
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndisinvalidateoffload.md">NdisInvalidateOffload</a>
-
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
-<mshelp:link keywords="netvista.protocolterminateoffloadcomplete" tabindex="0"><i>
-   ProtocolTerminateOffloadComplete</i></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
-<a href="..\ndischimney\nf-ndischimney-ndisterminateoffload.md">NdisTerminateOffload</a>
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+
+<a href="..\ndischimney\nf-ndischimney-ndisinvalidateoffload.md">NdisInvalidateOffload</a>
 
  
 

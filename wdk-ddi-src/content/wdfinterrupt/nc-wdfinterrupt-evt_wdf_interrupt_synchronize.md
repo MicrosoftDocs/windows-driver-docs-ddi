@@ -40,7 +40,7 @@ apiname:
 -	EvtInterruptSynchronize
 product: Windows
 targetos: Windows
-req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
+req.typenames: "*PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ BOOLEAN EvtInterruptSynchronize(
 
 
 
-### -param Interrupt [in]
+#### - Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
-### -param Context [in]
+#### - Context [in]
 
 Driver-supplied information that the driver specifies when it calls <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsynchronize.md">WdfInterruptSynchronize</a>.
 

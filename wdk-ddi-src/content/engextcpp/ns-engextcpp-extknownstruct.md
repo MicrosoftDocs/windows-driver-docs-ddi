@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 95bf9a47-e121-4432-a28f-5476467f1823
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extknownstruct, EngExtCpp_Ref_b59346d2-06da-4112-9bed-ce64de0f2807.xml, ExtKnownStruct structure [Windows Debugging], engextcpp/ExtKnownStruct, ExtKnownStruct
+ms.keywords: ExtKnownStruct structure [Windows Debugging], EngExtCpp_Ref_b59346d2-06da-4112-9bed-ce64de0f2807.xml, ExtKnownStruct, engextcpp/ExtKnownStruct, debugger.extknownstruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ struct ExtKnownStruct {
 
 
 
-### -field TypeName
+#### - TypeName
 
 The name of the structure type.
 
 
-### -field Method
+#### - Method
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff543989">ExtKnownStructMethod</a> callback function that can be called to format an instance of the structure specified in <b>TypeName</b>.
 
 
-### -field SuppressesTypeName
+#### - SuppressesTypeName
 
 A Boolean flag that specifies whether the formatted output includes the name of the structure's type.  If <b>FALSE</b>, the name is included in the formatted output; otherwise, the name is not included.
 

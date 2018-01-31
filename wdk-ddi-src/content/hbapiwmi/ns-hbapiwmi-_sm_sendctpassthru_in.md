@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a6dfb1a2-bfc2-4117-8a4e-f52979818289
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_sendctpassthru_in, SM_SendCTPassThru_IN structure [Storage Devices], _SM_SendCTPassThru_IN, PSM_SendCTPassThru_IN structure pointer [Storage Devices], PSM_SendCTPassThru_IN, structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml, hbapiwmi/PSM_SendCTPassThru_IN, hbapiwmi/SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN, SM_SendCTPassThru_IN
+ms.keywords: PSM_SendCTPassThru_IN structure pointer [Storage Devices], storage.sm_sendctpassthru_in, *PSM_SendCTPassThru_IN, hbapiwmi/PSM_SendCTPassThru_IN, PSM_SendCTPassThru_IN, SM_SendCTPassThru_IN, _SM_SendCTPassThru_IN, structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml, SM_SendCTPassThru_IN structure [Storage Devices], hbapiwmi/SM_SendCTPassThru_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SM_SendCTPassThru_IN {
 
 
 
-### -field HbaPortWWN
+#### - HbaPortWWN
 
 The HBA port worldwide name (WWN) to which pass-through commands will be sent.
 
 
-### -field InRespBufferMaxSize
+#### - InRespBufferMaxSize
 
 The maximum response buffer size.
 
 
-### -field ReqBufferSize
+#### - ReqBufferSize
 
 The size, in bytes, of the buffer that will hold the results of the common transport command.
 
 
-### -field ReqBuffer
+#### - ReqBuffer
 
 
 

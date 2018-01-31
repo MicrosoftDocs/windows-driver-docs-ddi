@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 31cdb264-89a1-48dc-af0c-b18d4f077d0f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSSTREAM_POINTER, *PKSSTREAM_POINTER, PKSSTREAM_POINTER structure pointer [Streaming Media Devices], avstruct_1856dc7a-3351-4a87-97a5-85b06d12ab30.xml, KSSTREAM_POINTER structure [Streaming Media Devices], stream.ksstream_pointer, KSSTREAM_POINTER, PKSSTREAM_POINTER, ks/KSSTREAM_POINTER, _KSSTREAM_POINTER
+ms.keywords: "*PKSSTREAM_POINTER, avstruct_1856dc7a-3351-4a87-97a5-85b06d12ab30.xml, KSSTREAM_POINTER structure [Streaming Media Devices], PKSSTREAM_POINTER structure pointer [Streaming Media Devices], KSSTREAM_POINTER, ks/PKSSTREAM_POINTER, PKSSTREAM_POINTER, ks/KSSTREAM_POINTER, stream.ksstream_pointer, _KSSTREAM_POINTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,23 +114,23 @@ For general information about stream pointers, see <a href="https://msdn.microso
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
 <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
 
 <a href="..\ks\ns-ks-_ksstream_pointer_offset.md">KSSTREAM_POINTER_OFFSET</a>
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 <a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 <a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
 
  
 

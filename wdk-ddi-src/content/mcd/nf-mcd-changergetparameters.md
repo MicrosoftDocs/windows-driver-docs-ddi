@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c1f508a3-6aa8-4fed-af14-6466fcae30da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrmini_d8cfe74e-46ff-4aee-b1a2-2e55be7ed01f.xml, ChangerGetParameters, storage.changergetparameters, mcd/ChangerGetParameters, ChangerGetParameters function [Storage Devices]
+ms.keywords: ChangerGetParameters, mcd/ChangerGetParameters, storage.changergetparameters, chgrmini_d8cfe74e-46ff-4aee-b1a2-2e55be7ed01f.xml, ChangerGetParameters function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS ChangerGetParameters(
 
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Pointer to the device object that represents the changer. 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Pointer to the IRP. 
 
@@ -109,9 +109,9 @@ The changer class driver checks the output buffer length in the I/O stack locati
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">IOCTL_CHANGER_GET_PARAMETERS</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">IOCTL_CHANGER_GET_PARAMETERS</a>
 
  
 

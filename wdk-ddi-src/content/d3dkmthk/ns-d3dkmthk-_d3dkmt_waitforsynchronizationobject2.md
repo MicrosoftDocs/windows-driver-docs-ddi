@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 934bfe32-b54b-477c-a5f8-714caa97f233
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dkmt_waitforsynchronizationobject2
+ms.keywords: display.d3dkmt_waitforsynchronizationobject2, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,9 +75,14 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 {
 
 
 
-### -field Fence
+#### - Fence
 
 A structure that contains information about a fence. The union in D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 can hold a Fence structure, which contains the following member:
+
+
+#### FenceValue
+
+A 64-bit value that specifies the fence value to wait for. 
 
 
 ### -field Fence.FenceValue
@@ -85,22 +90,22 @@ A structure that contains information about a fence. The union in D3DKMT_WAITFOR
 A 64-bit value that specifies the fence value to wait for. 
 
 
-### -field Reserved
+#### - Reserved
 
 An array of 64-bit values that are reserved for future use. The union in D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 can hold this array. 
 
 
-### -field hContext
+#### - hContext
 
 [in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
 
 
-### -field ObjectCount
+#### - ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array. 
 
 
-### -field ObjectHandleArray
+#### - ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for. The D3DDDI_MAX_OBJECT_WAITED_ON constant, which is defined as 32, indicates the maximum number of synchronization events that the context can wait for.
 

@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiOPMDestroyProtectedOutput
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT callback
@@ -71,12 +71,12 @@ NTSTATUS DxgkDdiOPMDestroyProtectedOutput(
 
 
 
-### -param MiniportDeviceContext [in]
+#### - MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param ProtectedOutputHandle [in]
+#### - ProtectedOutputHandle [in]
 
 The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a> function creates the protected output object and returns the handle to the object.
 

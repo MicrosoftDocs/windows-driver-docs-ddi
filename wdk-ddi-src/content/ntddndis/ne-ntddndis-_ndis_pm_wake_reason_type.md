@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7919226a-4d36-4397-bca1-f7338b3e7ade
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisWakeReasonWwanUSSDReceive, ntddndis/NdisWakeReasonWlanNLODiscovery, NdisWakeReasonPacket, ntddndis/NdisWakeReasonMediaConnect, ntddndis/PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonMediaDisconnect, ntddndis/NdisWakeReasonWlanGTKHandshakeError, NdisWakeReasonWwanSMSReceive, ntddndis/NdisWakeReasonWwanUSSDReceive, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, ntddndis/NdisWakeReasonPacket, NdisWakeReasonWlanGTKHandshakeError, PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanSMSReceive, NdisWakeReasonUnspecified, NdisWakeReasonWlanNLODiscovery, ntddndis/NDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisWakeReasonWlanAPAssociationLost, NdisWakeReasonWlan4WayHandshakeRequest, *PNDIS_PM_WAKE_REASON_TYPE, netvista.ndis_pm_wake_reason_type, ntddndis/NdisWakeReasonUnspecified, NdisWakeReasonWwanRegisterState, _NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanRegisterState, NdisWakeReasonMediaConnect, NdisWakeReasonMediaDisconnect, NdisWakeReasonWlanAPAssociationLost
+ms.keywords: NdisWakeReasonPacket, ntddndis/NdisWakeReasonWlanNLODiscovery, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisWakeReasonUnspecified, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonUnspecified, NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWwanSMSReceive, ntddndis/NdisWakeReasonWlanGTKHandshakeError, NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonPacket, NdisWakeReasonWwanRegisterState, NdisWakeReasonWlanGTKHandshakeError, NdisWakeReasonWwanUSSDReceive, *PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonMediaConnect, ntddndis/NdisWakeReasonMediaConnect, ntddndis/NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonMediaDisconnect, PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanUSSDReceive, netvista.ndis_pm_wake_reason_type, NdisWakeReasonMediaDisconnect, NdisWakeReasonWlan4WayHandshakeRequest, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, _NDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE, ntddndis/PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanSMSReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WAKE_REASON_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE"
+req.typenames: NDIS_PM_WAKE_REASON_TYPE, *PNDIS_PM_WAKE_REASON_TYPE
 ---
 
 # _NDIS_PM_WAKE_REASON_TYPE enumeration
@@ -80,59 +80,59 @@ typedef enum _NDIS_PM_WAKE_REASON_TYPE {
 
 
 
-### -field NdisWakeReasonUnspecified
+#### - NdisWakeReasonUnspecified
 
 The type of wake-up event is not specified.
 
 
-### -field NdisWakeReasonPacket
+#### - NdisWakeReasonPacket
 
 The network adapter generated the wake-up event because it received a packet that matched a wake-on-LAN (WOL) pattern.
 
 
-### -field NdisWakeReasonMediaDisconnect
+#### - NdisWakeReasonMediaDisconnect
 
 The network adapter generated the wake-up event because it disconnected from the network media.
 
 
-### -field NdisWakeReasonMediaConnect
+#### - NdisWakeReasonMediaConnect
 
 The network adapter generated the wake-up event because it connected to the network media.
 
 
-### -field NdisWakeReasonWlanNLODiscovery
+#### - NdisWakeReasonWlanNLODiscovery
 
 The 802.11 network adapter generated the wake-up event because it detected a service set identifier (SSID) that was specified through a network list offload (NLO). 
 
 For more information about NLO, see <a href="https://msdn.microsoft.com/528838AA-4002-4923-A71B-37ADEE9B8D07">Wi-Fi Network List Offload</a>.
 
 
-### -field NdisWakeReasonWlanAPAssociationLost
+#### - NdisWakeReasonWlanAPAssociationLost
 
 The 802.11 network adapter generated the wake-up event because it became disassociated with the access point (AP).
 
 
-### -field NdisWakeReasonWlanGTKHandshakeError
+#### - NdisWakeReasonWlanGTKHandshakeError
 
 The 802.11 network adapter generated the wake-up event because it encountered an error during the IEEE 802.11i RSN group transient key (GTK) handshake with the AP.
 
 
-### -field NdisWakeReasonWlan4WayHandshakeRequest
+#### - NdisWakeReasonWlan4WayHandshakeRequest
 
 The 802.11 network adapter generated the wake-up event because it received the first frame of the IEEE 802.11i RSN 4-way handshake with the AP. This handshake is performed when the adapter authenticates with the AP.
 
 
-### -field NdisWakeReasonWwanRegisterState
+#### - NdisWakeReasonWwanRegisterState
 
 The mobile broadband (MB) network adapter generated the wake-up event because its registration state to the MB Service has changed.
 
 
-### -field NdisWakeReasonWwanSMSReceive
+#### - NdisWakeReasonWwanSMSReceive
 
 The mobile broadband (MB) network adapter generated the wake-up event because the MB Service has to be notified about the receipt of a Short Message Service (SMS) message. The adapter generates this wake-up event either after the completion of a previously-issued <a href="https://msdn.microsoft.com/library/windows/hardware/ff569839">OID_WWAN_SMS_READ</a> query request, or the arrival of a new class-0 (flash/alert) message from the network provider as an event notification.
 
 
-### -field NdisWakeReasonWwanUSSDReceive
+#### - NdisWakeReasonWwanUSSDReceive
 
 The mobile broadband (MB) network adapter generated the wake-up event because it received an Unstructured Supplementary Service Data (USSD) message.
 

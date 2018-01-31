@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMethodHandlerWithAllocator function [Streaming Media Devices], KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, ks/KsMethodHandlerWithAllocator, stream.ksmethodhandlerwithallocator
+ms.keywords: KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator, ks/KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS KsMethodHandlerWithAllocator(
 
 
 
-### -param Irp [in]
+#### - Irp [in]
 
 Specifies the IRP with the method request being handled.
 
 
-### -param MethodSetsCount [in]
+#### - MethodSetsCount [in]
 
 Indicates the number of method set structures being passed.
 
 
-### -param MethodSet [in]
+#### - MethodSet [in]
 
 Specifies the pointer to the list of method set information.
 
 
-### -param Allocator [in, optional]
+#### - Allocator [in, optional]
 
 Optionally points to an allocation function that will be used to allocate memory to store the method parameters.
 

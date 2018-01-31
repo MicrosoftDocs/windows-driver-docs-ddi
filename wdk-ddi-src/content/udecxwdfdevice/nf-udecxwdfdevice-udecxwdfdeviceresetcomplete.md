@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B5873B19-17EF-4DF8-A3E7-7E7F6440A2B7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxwdfdeviceresetcomplete, UdecxWdfDeviceResetComplete function [Buses], udecxwdfdevice/UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete
+ms.keywords: UdecxWdfDeviceResetComplete, buses.udecxwdfdeviceresetcomplete, UdecxWdfDeviceResetComplete function [Buses], udecxwdfdevice/UdecxWdfDeviceResetComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ When the class extension calls the  <a href="..\udecxwdfdevice\nc-udecxwdfdevice
 
 ## -see-also
 
+<a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-<a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dc356e6-a2ef-4b43-abe5-7c5058c15cf5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], netvista.ndisopenadapterex, NdisOpenAdapterEx, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
+ms.keywords: ndis/NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml, NdisOpenAdapterEx, netvista.ndisopenadapterex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NDIS_STATUS NdisOpenAdapterEx(
 
 
 
-### -param NdisProtocolHandle [in]
+#### - NdisProtocolHandle [in]
 
 The handle returned by the 
      <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
      NdisRegisterProtocolDriver</b></mshelp:link> function.
 
 
-### -param ProtocolBindingContext [in]
+#### - ProtocolBindingContext [in]
 
 The handle for a caller-supplied context area in which the protocol driver maintains state
      information for this binding.
 
 
-### -param OpenParameters [in]
+#### - OpenParameters [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a> structure that is
      set up by the caller.
 
 
-### -param BindContext [in]
+#### - BindContext [in]
 
 The handle that identifies the NDIS context area for the bind operation. NDIS passed this handle
      to the 
@@ -103,7 +103,7 @@ The handle that identifies the NDIS context area for the bind operation. NDIS pa
      <i>ProtocolBindAdapterEx</i> function.
 
 
-### -param NdisBindingHandle [out]
+#### - NdisBindingHandle [out]
 
 A pointer to a caller-supplied variable. NDIS writes a handle at 
      <i>NdisBindingHandle</i> that identifies the binding between the caller and the miniport adapter
@@ -234,14 +234,14 @@ After the open operation completes successfully, the caller can use the value th
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a>
+
 <mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
    ProtocolOpenAdapterCompleteEx</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-<a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
  
 

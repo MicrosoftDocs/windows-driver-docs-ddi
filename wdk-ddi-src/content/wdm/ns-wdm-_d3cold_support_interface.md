@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], kernel.d3cold_support_interface, D3COLD_SUPPORT_INTERFACE, wdm/D3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE"
+ms.keywords: wdm/PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, *PD3COLD_SUPPORT_INTERFACE, wdm/D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], D3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ typedef struct _D3COLD_SUPPORT_INTERFACE {
 
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of this structure.
 
 
-### -field Version
+#### - Version
 
 The driver-defined interface version. The current version of this interface is D3COLD_SUPPORT_INTERFACE_VERSION.
 
 
-### -field Context
+#### - Context
 
 A pointer to interface-specific context information.
 
 
-### -field InterfaceReference
+#### - InterfaceReference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
-### -field InterfaceDereference
+#### - InterfaceDereference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
-### -field SetD3ColdSupport
+#### - SetD3ColdSupport
 
 A pointer to a <a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a> routine that enables or disables transitions to the D3cold device power state.
 
 
-### -field GetIdleWakeInfo
+#### - GetIdleWakeInfo
 
 A pointer to a <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a> routine that the device driver calls to discover the device power states from which this device can signal wake events to the processor.
 
 
-### -field GetD3ColdCapability
+#### - GetD3ColdCapability
 
 A pointer to a <a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a> routine that reports whether this device is capable of entering the D3cold device power state.
 
 
-### -field GetBusDriverD3ColdSupport
+#### - GetBusDriverD3ColdSupport
 
 A pointer to a <a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a> routine that reports whether the underlying bus driver and ACPI system firmware support D3cold for this device.
 
 
-### -field GetLastTransitionStatus
+#### - GetLastTransitionStatus
 
 A pointer to a <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a> routine that reports whether this device's most recent transition to D3hot was followed by a transition to D3cold.
 
@@ -138,19 +138,19 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
+
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
+
+<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
 
 <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
-
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-
-<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
-
-<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
 
 <a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
 

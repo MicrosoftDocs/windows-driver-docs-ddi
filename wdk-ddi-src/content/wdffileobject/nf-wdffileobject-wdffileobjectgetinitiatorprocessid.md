@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 59E15EAA-4934-48D9-A9E3-7CDEEAE01985
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, wdffileobject/WdfFileObjectGetInitiatorProcessId, wdf.wdffileobjectgetinitiatorprocessid
+ms.keywords: wdf.wdffileobjectgetinitiatorprocessid, wdffileobject/WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, WdfFileObjectGetInitiatorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ ULONG WdfFileObjectGetInitiatorProcessId(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 A handle to a framework file object.
 
@@ -93,9 +93,9 @@ Starting in Windows 8, a system component may issue a create on behalf of an ap
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestorprocessid.md">WdfRequestGetRequestorProcessId</a>
-
 <a href="https://msdn.microsoft.com/4D23A651-7231-40CE-B9C2-4382D4E7F683">IWDFDevice3::GetInitiatorProcessId</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestorprocessid.md">WdfRequestGetRequestorProcessId</a>
 
  
 

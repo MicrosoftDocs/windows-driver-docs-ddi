@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PDEVICE_INSTALL_STATE, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/InstallStateFailedInstall, InstallStateInstalled, _DEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, InstallStateFailedInstall, PDEVICE_INSTALL_STATE, kernel.device_install_state, *PDEVICE_INSTALL_STATE, InstallStateNeedsReinstall, wdm/InstallStateNeedsReinstall, wdm/InstallStateFinishInstall, wdm/DEVICE_INSTALL_STATE, InstallStateFinishInstall, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.device_install_state, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], PDEVICE_INSTALL_STATE, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, InstallStateFinishInstall, *PDEVICE_INSTALL_STATE, wdm/InstallStateNeedsReinstall, InstallStateFailedInstall, wdm/InstallStateFinishInstall, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/DEVICE_INSTALL_STATE, InstallStateNeedsReinstall, wdm/InstallStateFailedInstall, InstallStateInstalled, _DEVICE_INSTALL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_INSTALL_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE"
+req.typenames: DEVICE_INSTALL_STATE, *PDEVICE_INSTALL_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -71,22 +71,22 @@ typedef enum _DEVICE_INSTALL_STATE {
 
 
 
-### -field InstallStateInstalled
+#### - InstallStateInstalled
 
 The device is installed.
 
 
-### -field InstallStateNeedsReinstall
+#### - InstallStateNeedsReinstall
 
 The system will try to reinstall the device on a later enumeration.
 
 
-### -field InstallStateFailedInstall
+#### - InstallStateFailedInstall
 
 The device did not install properly.
 
 
-### -field InstallStateFinishInstall
+#### - InstallStateFinishInstall
 
 The installation of this device is not yet complete. 
 

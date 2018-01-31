@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A6FFC14B-0736-425F-A923-DFF54494887C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdeviceformat, SetDeviceFormat, IMiniportAudioEngineNode, SetDeviceFormat method [Audio Devices], portcls/IMiniportAudioEngineNode::SetDeviceFormat, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method
+ms.keywords: SetDeviceFormat method [Audio Devices], portcls/IMiniportAudioEngineNode::SetDeviceFormat, IMiniportAudioEngineNode, SetDeviceFormat, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, audio.iminiportaudioenginenode_setdeviceformat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::SetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.SetDeviceFormat
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportAudioEngineNode::SetDeviceFormat method
@@ -69,17 +69,17 @@ NTSTATUS SetDeviceFormat(
 
 
 
-### -param ulNodeId [in]
+#### - ulNodeId [in]
 
 The ID of the node that represents the device.
 
 
-### -param pFormat [in]
+#### - pFormat [in]
 
 A structure of type <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format to be set for the device.
 
 
-### -param ulBufferSize [in]
+#### - ulBufferSize [in]
 
 The audio data buffer size.
 
@@ -95,9 +95,9 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
+
+<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
  
 

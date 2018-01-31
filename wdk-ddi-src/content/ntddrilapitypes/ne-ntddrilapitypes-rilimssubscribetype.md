@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 347b42c1-7585-471c-af42-44218da48fa3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilimssubscribetype, RIL_IMSSUBSCRIBETYPE_MWI, ntddrilapitypes/RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RILIMSSUBSCRIBETYPE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MWI, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, RIL_IMSSUBSCRIBETYPE_MAX, RIL_IMSSUBSCRIBETYPE_CONFERENCE
+ms.keywords: ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_CONFERENCE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MWI, RIL_IMSSUBSCRIBETYPE_MAX, netvista.rilimssubscribetype, RIL_IMSSUBSCRIBETYPE_MWI, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, RILIMSSUBSCRIBETYPE, ntddrilapitypes/RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILIMSSUBSCRIBETYPE {
 
 
 
-### -field RIL_IMSSUBSCRIBETYPE_MWI
+#### - RIL_IMSSUBSCRIBETYPE_MWI
 
 
 
-### -field RIL_IMSSUBSCRIBETYPE_CONFERENCE
+#### - RIL_IMSSUBSCRIBETYPE_CONFERENCE
 
 
 
-### -field RIL_IMSSUBSCRIBETYPE_MAX
+#### - RIL_IMSSUBSCRIBETYPE_MAX
 
 

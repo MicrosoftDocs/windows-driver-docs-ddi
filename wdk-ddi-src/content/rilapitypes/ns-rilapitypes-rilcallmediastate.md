@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d3b89502-667c-45dd-af1c-05b7c8613d6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], RILCALLMEDIASTATE, netvista.rilcallmediastate_2, *LPRILCALLMEDIASTATE, rilapitypes/RILCALLMEDIASTATE
+ms.keywords: RILCALLMEDIASTATE, rilapitypes/RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLMEDIASTATE, netvista.rilcallmediastate_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,7 +85,7 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 
-### -field mediaStateUnion
+#### - mediaStateUnion
 
 
 
@@ -109,15 +109,15 @@ typedef struct _RILCALLMEDIASTATE {
  
 
 
-### -field RILCALLMEDIASTATEUNION
+#### - RILCALLMEDIASTATEUNION
 
 
 
-### -field dwDirection
+#### - dwDirection
 
 
 
-### -field dwCallMediaType
+#### - dwCallMediaType
 
 
 

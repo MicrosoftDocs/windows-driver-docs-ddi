@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94e942a4-de66-47a3-89bf-fbec2a408775
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETCLIPPLANE structure [Display Devices], d3dumddi/D3DDDIARG_SETCLIPPLANE, UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, _D3DDDIARG_SETCLIPPLANE, display.d3dddiarg_setclipplane, D3DDDIARG_SETCLIPPLANE
+ms.keywords: display.d3dddiarg_setclipplane, D3DDDIARG_SETCLIPPLANE, _D3DDDIARG_SETCLIPPLANE, d3dumddi/D3DDDIARG_SETCLIPPLANE, UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, D3DDDIARG_SETCLIPPLANE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_SETCLIPPLANE {
 
 
 
-### -field Index
+#### - Index
 
 [in] The index of the clipping plane for which the plane equation coefficients are set.
 
 
-### -field Plane
+#### - Plane
 
 [in] A four-element array of the coefficients A, B, C, and D, in that order, in the general plane equation for the clipping plane. 
 

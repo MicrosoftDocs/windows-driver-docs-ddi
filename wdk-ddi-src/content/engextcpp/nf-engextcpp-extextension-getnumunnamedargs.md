@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc3ea1ba-136b-4257-9aa2-ca9649555869
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumunnamedargs, EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, GetNumUnnamedArgs method [Windows Debugging], ExtExtension::GetNumUnnamedArgs, GetNumUnnamedArgs, GetNumUnnamedArgs method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], GetNumUnnamedArgs method, ExtExtension
+ms.keywords: ExtExtension, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs, ExtExtension::GetNumUnnamedArgs, ExtExtension class [Windows Debugging], GetNumUnnamedArgs method, EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, debugger.getnumunnamedargs, GetNumUnnamedArgs method [Windows Debugging], ExtExtension class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.GetNumUnnamedArgs
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtExtension::GetNumUnnamedArgs method

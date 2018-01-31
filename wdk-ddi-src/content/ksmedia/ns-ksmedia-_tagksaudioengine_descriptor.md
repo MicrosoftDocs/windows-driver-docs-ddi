@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6691AB8B-EC6E-483B-A10A-6F9C5A97FEC9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], PKSAUDIOENGINE_DESCRIPTOR, ksmedia/KSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], *PKSAUDIOENGINE_DESCRIPTOR, ksmedia/PKSAUDIOENGINE_DESCRIPTOR, audio.ksaudioengine_descriptor, _tagKSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR
+ms.keywords: ksmedia/KSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], _tagKSAUDIOENGINE_DESCRIPTOR, *PKSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], audio.ksaudioengine_descriptor, KSAUDIOENGINE_DESCRIPTOR, ksmedia/PKSAUDIOENGINE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIOENGINE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PKSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR"
+req.typenames: KSAUDIOENGINE_DESCRIPTOR, *PKSAUDIOENGINE_DESCRIPTOR
 ---
 
 # _tagKSAUDIOENGINE_DESCRIPTOR structure
@@ -69,26 +69,26 @@ typedef struct _KSAUDIOENGINE_DESCRIPTOR {
 
 
 
-### -field nHostPinId
+#### - nHostPinId
 
 Specifies the ID of the pin factory that is connected to the audio engine node that handles host-processed audio data.  This is the pin factory on which a software audio engine will run.
 
 
-### -field nOffloadPinId
+#### - nOffloadPinId
 
 Specifies the ID of the pin factory that is connected to the audio engine node that handles offloaded streams.
 
 
-### -field nLoopbackPinId
+#### - nLoopbackPinId
 
 Specifies the ID of the pin factory that is connected to the audio engine node that supplies a post-mix loopback or reference stream.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450870">KSPROPERTY_AUDIOENGINE_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265074">GetAudioEngineDescriptor</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450870">KSPROPERTY_AUDIOENGINE_DESCRIPTOR</a>
 
  
 

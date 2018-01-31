@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_I8042_HOOK_MOUSE
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
+req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # IOCTL_INTERNAL_I8042_HOOK_MOUSE IOCTL
@@ -154,9 +154,9 @@ The request completed successfully.
 
 ## -see-also
 
-<a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a>
-
 <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
+
+<a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58962146-a16d-4827-9cef-73b3a438be35
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml, KeAreApcsDisabled, kernel.keareapcsdisabled, wdm/KeAreApcsDisabled
+ms.keywords: KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], wdm/KeAreApcsDisabled, KeAreApcsDisabled, kernel.keareapcsdisabled, k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

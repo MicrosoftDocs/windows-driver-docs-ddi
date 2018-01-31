@@ -40,7 +40,7 @@ apiname:
 -	pfnGetEncryptionBltKey
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETENCRYPTIONBLTKEY callback
@@ -73,28 +73,26 @@ VOID pfnGetEncryptionBltKey(
 
 
 
-### -param hDevice
+#### - hDevice
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hCryptoSession
+#### - hCryptoSession
 
 A handle to the cryptographic session that was created in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function. 
 
 
-### -param KeySize
+#### - KeySize
 
 The size, in bytes, of the encryption key that the <i>pReadBackKey</i> parameter points to.
 
 
-### -param *pReadbackKey
+#### - *pReadbackKey
 
-
-
-
+A pointer to a buffer that contains the encryption key.
 
 
 #### - pReadbackKey
@@ -118,9 +116,9 @@ When the <b>GetEncryptionBltKey</b> function is called, the display miniport dri
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt.md">EncryptionBlt(D3D11_1)</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
  
 

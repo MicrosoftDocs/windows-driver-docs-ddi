@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4f90b553-f652-413f-9723-a5a578de9f8d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRegistryKey interface [Audio Devices], EnumerateValueKey method, EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices], IRegistryKey interface, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, IRegistryKey::EnumerateValueKey, EnumerateValueKey, portcls/IRegistryKey::EnumerateValueKey, audio.iregistrykey_enumeratevaluekey, IRegistryKey
+ms.keywords: portcls/IRegistryKey::EnumerateValueKey, IRegistryKey interface [Audio Devices], EnumerateValueKey method, EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices], IRegistryKey interface, EnumerateValueKey, IRegistryKey::EnumerateValueKey, IRegistryKey, audio.iregistrykey_enumeratevaluekey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRegistryKey.EnumerateValueKey
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IRegistryKey::EnumerateValueKey method
@@ -71,12 +71,12 @@ NTSTATUS EnumerateValueKey(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 Specifies the subkey index. This parameter identifies the subkey whose value is requested. If the key contains <i>n</i> subkeys, valid indices range from 0 to <i>n</i>-1. If the index exceeds this range, the method returns STATUS_NO_MORE_ENTRIES.
 
 
-### -param KeyValueInformationClass [in]
+#### - KeyValueInformationClass [in]
 
 Specifies the type of information to be returned in the buffer. Set this parameter to one of the following KEY_VALUE_INFORMATION_CLASS enumeration values:
 <ul>
@@ -94,17 +94,17 @@ Specifies the type of information to be returned in the buffer. Set this paramet
 </li>
 </ul>
 
-### -param KeyValueInformation [out]
+#### - KeyValueInformation [out]
 
 Output pointer for the key value. This parameter points to a caller-allocated buffer into which the method writes the requested data. The buffer contains a structure of type <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>, <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>, or <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>, depending on the value of <i>KeyValueInformationClass</i>. The structure is followed by additional data whose size depends on the data type of the key value.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Size in bytes of the <i>KeyValueInformation</i> buffer, which the caller must set according to the given <i>KeyValueInformationClass</i>. For the call to succeed, the buffer must be at least as large as the data that the method writes into the buffer.
 
 
-### -param ResultLength [out]
+#### - ResultLength [out]
 
 Output pointer for the length of the resulting data. This parameter points to a caller-allocated ULONG variable into which the method writes a count specifying the number of bytes actually written into the <i>KeyValueInformation</i> buffer. If the specified buffer length is too small to contain the information, however, the method instead outputs the required buffer size and returns STATUS_BUFFER_OVERFLOW.
 
@@ -157,15 +157,15 @@ Indicates that no more value keys are available (the <i>Index</i> parameter is g
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	ProviderAppendDma
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_APPEND_HANDLER callback
@@ -77,7 +77,7 @@ NTSTATUS ProviderAppendDma(
 
 
 
-### -param ProviderChannelContext [in]
+#### - ProviderChannelContext [in]
 
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
@@ -86,7 +86,7 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
      ProviderAllocateDmaChannel</b></mshelp:link> function.
 
 
-### -param DescriptorVirtualAddress [in]
+#### - DescriptorVirtualAddress [in]
 
 A pointer to the virtual address of the first 
      <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure in a linked
@@ -94,14 +94,14 @@ A pointer to the virtual address of the first
      <i>DescriptorPhysicalAddress</i> parameter.
 
 
-### -param DescriptorPhysicalAddress [in]
+#### - DescriptorPhysicalAddress [in]
 
 A pointer to the physical address of the first DMA descriptor in a linked list of DMA descriptors.
      The corresponding virtual address is specified at the 
      <i>DescriptorVirtualAddress</i> parameter.
 
 
-### -param DescriptorCount [in]
+#### - DescriptorCount [in]
 
 The number of DMA descriptors at 
      <i>DescriptorVirtualAddress</i> .
@@ -184,9 +184,9 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
 <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 

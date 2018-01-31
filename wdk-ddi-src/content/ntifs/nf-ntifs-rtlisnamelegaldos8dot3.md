@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 27aa6bd1-c4e2-427e-a9e4-383d66fe2d61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml, ntifs/RtlIsNameLegalDOS8Dot3, ifsk.rtlisnamelegaldos8dot3, RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers]
+ms.keywords: ntifs/RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers], rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml, ifsk.rtlisnamelegaldos8dot3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN RtlIsNameLegalDOS8Dot3(
 
 
 
-### -param Name [in]
+#### - Name [in]
 
 Pointer to a Unicode string containing the file name. 
 
 
-### -param OemName [in, out]
+#### - OemName [in, out]
 
 Pointer to an optional caller-allocated buffer that receives a counted OEM string corresponding to the Unicode string at <i>Name</i>. 
 
 
-### -param NameContainsSpaces [out, optional]
+#### - NameContainsSpaces [out, optional]
 
 Pointer to an optional BOOLEAN value that receives <b>TRUE</b> if the string at <i>Name</i> contains embedded spaces, <b>FALSE</b> otherwise. This value is valid only if <b>RtlIsNameLegalDOS8Dot3</b> returns <b>TRUE</b>. 
 

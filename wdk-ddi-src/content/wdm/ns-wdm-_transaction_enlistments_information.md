@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b33a7ed-6892-4b2d-9d7a-cfc43c9fbf68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TRANSACTION_ENLISTMENTS_INFORMATION, wdm/PTRANSACTION_ENLISTMENTS_INFORMATION, _TRANSACTION_ENLISTMENTS_INFORMATION, kernel.transaction_enlistments_information, ktm_ref_d6790593-2057-4d78-82f2-9d4d64cd800c.xml, *PTRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENTS_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: PTRANSACTION_ENLISTMENTS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ktm_ref_d6790593-2057-4d78-82f2-9d4d64cd800c.xml, wdm/TRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION structure [Kernel-Mode Driver Architecture], PTRANSACTION_ENLISTMENTS_INFORMATION, *PTRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION, kernel.transaction_enlistments_information, _TRANSACTION_ENLISTMENTS_INFORMATION, wdm/PTRANSACTION_ENLISTMENTS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _TRANSACTION_ENLISTMENTS_INFORMATION {
 
 
 
-### -field NumberOfEnlistments
+#### - NumberOfEnlistments
 
 The number of enlistments that are associated with a transaction object. This is also the number of elements in the array that the <b>EnlistmentPair</b> member specifies.
 
 
-### -field EnlistmentPair
+#### - EnlistmentPair
 
 A caller-allocated array of <a href="..\wdm\ns-wdm-_transaction_enlistment_pair.md">TRANSACTION_ENLISTMENT_PAIR</a> structures. 
 
@@ -90,9 +90,9 @@ The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure is used with the <a hre
 
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
-<a href="..\wdm\ns-wdm-_transaction_enlistment_pair.md">TRANSACTION_ENLISTMENT_PAIR</a>
-
 <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+
+<a href="..\wdm\ns-wdm-_transaction_enlistment_pair.md">TRANSACTION_ENLISTMENT_PAIR</a>
 
  
 

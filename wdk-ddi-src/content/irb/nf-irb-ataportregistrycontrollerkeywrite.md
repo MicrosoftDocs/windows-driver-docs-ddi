@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dfe97cce-f349-49a1-9075-c3c3d1a60681
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortRegistryControllerKeyWrite, atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, storage.ataportregistrycontrollerkeywrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices], AtaPortRegistryControllerKeyWrite
+ms.keywords: AtaPortRegistryControllerKeyWrite, atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, irb/AtaPortRegistryControllerKeyWrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices], storage.ataportregistrycontrollerkeywrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN __inline AtaPortRegistryControllerKeyWrite(
 
 
 
-### -param ChannelExtension [in]
+#### - ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-### -param ControllerNumber [in]
+#### - ControllerNumber [in]
 
 Contains the controller number. 
 
 
-### -param ValueName [in]
+#### - ValueName [in]
 
 Contains the name of the registry value to write to. 
 
 
-### -param ValueType [in]
+#### - ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of the values indicated in the following table.
 <table>
@@ -128,7 +128,7 @@ A null-terminated, Unicode string.
 </table> 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 A pointer to the source buffer that contains the data to write to the registry value. 
 
@@ -162,11 +162,11 @@ The miniport driver must call <b>AtaPortRegistryControllerKeyWrite</b> during th
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
  
 

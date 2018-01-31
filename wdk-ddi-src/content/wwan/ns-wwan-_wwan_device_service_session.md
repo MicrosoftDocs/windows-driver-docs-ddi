@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 29EEB068-EFFB-42BF-8D92-D56D010DE46A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION, *PWWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION, wwan/WWAN_DEVICE_SERVICE_SESSION
+ms.keywords: PWWAN_DEVICE_SERVICE_SESSION, wwan/PWWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION, wwan/WWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session, PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION, *PWWAN_DEVICE_SERVICE_SESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WWAN_DEVICE_SERVICE_SESSION {
 
 
 
-### -field DeviceServiceGuid
+#### - DeviceServiceGuid
 
 The GUID of the device service on which to perform the operation.
 
 
-### -field State
+#### - State
 
 The state of, or action, for the device service session.
 
 
-### -field uSessionID
+#### - uSessionID
 
 The session ID for the device service session.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 354dcd2b-fa63-4574-94d8-149e3f199751
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, stream.iksdatatypehandler_ksismediatypeinranges, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface, KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler
+ms.keywords: stream.iksdatatypehandler_ksismediatypeinranges, IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, KsIsMediaTypeInRanges, IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsIsMediaTypeInRanges(
 
 
 
-### -param DataRanges [in]
+#### - DataRanges [in]
 
 Pointer to a buffer that contains a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of extensible <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures, aligned on 64-bit boundaries. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
@@ -88,11 +88,11 @@ A client first calls the <a href="https://msdn.microsoft.com/library/windows/har
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
  
 

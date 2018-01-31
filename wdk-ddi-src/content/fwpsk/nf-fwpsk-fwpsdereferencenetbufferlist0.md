@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e327fe9d-9425-4cc3-9552-88e9c4c3bdbe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsDereferenceNetBufferList0, netvista.fwpsdereferencenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_c55180f3-4575-4279-8481-99b17215fc11.xml, fwpsk/FwpsDereferenceNetBufferList0, FwpsDereferenceNetBufferList0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: wfp_ref_2_funct_3_fwps_D-H_c55180f3-4575-4279-8481-99b17215fc11.xml, FwpsDereferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferenceNetBufferList0, netvista.fwpsdereferencenetbufferlist0, FwpsDereferenceNetBufferList0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ void NTAPI FwpsDereferenceNetBufferList0(
 
 
 
-### -param netBufferList [in, out]
+#### - netBufferList [in, out]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure for which the
      reference count is being decremented.
 
 
-### -param dispatchLevel [in]
+#### - dispatchLevel [in]
 
 A value that indicates that the current IRQL = DISPATCH_LEVEL. A callout driver should set this
      parameter to <b>TRUE</b> only if it is known that it is running at IRQL = DISPATCH_LEVEL. Otherwise a callout

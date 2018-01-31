@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 952625D0-BA82-40C1-8EBF-8CD54C0E4C40
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cip_cancel_frame, PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses], 61883/PCIP_CANCEL_FRAME, 61883/CIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], _CIP_CANCEL_FRAME, CIP_CANCEL_FRAME, *PCIP_CANCEL_FRAME
+ms.keywords: "*PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], CIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses], IEEE.cip_cancel_frame, 61883/CIP_CANCEL_FRAME, 61883/PCIP_CANCEL_FRAME, _CIP_CANCEL_FRAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _CIP_CANCEL_FRAME {
 
 
 
-### -field hConnect
+#### - hConnect
 
 A handle to a connection.
 
 
-### -field Frame
+#### - Frame
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure that contains information about the frame to cancel.
 

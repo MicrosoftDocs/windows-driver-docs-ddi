@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 24787963-98c6-4c32-9ba8-2cd4778f8436
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, GetProcessorTypeNamesWide method [Windows Debugging], debugger.getprocessortypenameswide, IDebugControl4, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, GetProcessorTypeNamesWide, IDebugControl4::GetProcessorTypeNamesWide, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: dbgeng/IDebugControl4::GetProcessorTypeNamesWide, IDebugControl4::GetProcessorTypeNamesWide, GetProcessorTypeNamesWide, IDebugControl4, debugger.getprocessortypenameswide, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT GetProcessorTypeNamesWide(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies the type of the processor whose name is requested.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a> for a list of possible values.
 
 
-### -param FullNameBuffer [out, optional]
+#### - FullNameBuffer [out, optional]
 
 Receives the full name of the processor type.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FullNameBufferSize [in]
+#### - FullNameBufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>FullNameBuffer</i> specifies.
 
 
-### -param FullNameSize [out, optional]
+#### - FullNameSize [out, optional]
 
 Receives the size in characters of the full name of the processor type.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param AbbrevNameBuffer [out, optional]
+#### - AbbrevNameBuffer [out, optional]
 
 Receives the abbreviated name of the processor type.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param AbbrevNameBufferSize [in]
+#### - AbbrevNameBufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>AbbrevNameBuffer</i> specifies.
 
 
-### -param AbbrevNameSize [out, optional]
+#### - AbbrevNameSize [out, optional]
 
 Receives the size in characters of the abbreviated name of the processor type.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 

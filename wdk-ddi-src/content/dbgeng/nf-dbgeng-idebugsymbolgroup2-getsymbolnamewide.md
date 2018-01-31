@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b5de2450-8003-4866-86e8-1fd251e1552c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2::GetSymbolNameWide, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolNameWide method, IDebugSymbolGroup2, debugger.getsymbolnamewide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide
+ms.keywords: debugger.getsymbolnamewide, IDebugSymbolGroup2::GetSymbolNameWide, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolNameWide method, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetSymbolNameWide(
 
 
 
-### -param Index [in]
+#### - Index [in]
 
 The index of the symbol whose name you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Buffer [out, optional]
+#### - Buffer [out, optional]
 
 The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
+#### - BufferSize [in]
 
 The size of the buffer that <i>Buffer </i>points to.
 
 
-### -param NameSize [out, optional]
+#### - NameSize [out, optional]
 
 The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -135,9 +135,9 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

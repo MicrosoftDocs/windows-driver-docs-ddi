@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CA84F931-5EB9-49D0-9EA5-288900A8DE46
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByOffset, IDebugSymbols3::GetSourceEntriesByOffset, debugger.idebugsymbols3_getsourceentriesbyoffset, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, IDebugSymbols3, GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByOffset method
+ms.keywords: debugger.idebugsymbols3_getsourceentriesbyoffset, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByOffset method, IDebugSymbols3::GetSourceEntriesByOffset, GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByOffset method [Windows Debugging], GetSourceEntriesByOffset, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetSourceEntriesByOffset(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The  offset of the entry.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 A bit-set that contains options that affect the behavior of this method.
 
 
-### -param Entries [out]
+#### - Entries [out]
 
 A pointer to a returned entry as a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure.
 
 
-### -param EntriesCount [in]
+#### - EntriesCount [in]
 
 The number of entries.
 
 
-### -param EntriesAvail [out, optional]
+#### - EntriesAvail [out, optional]
 
 A pointer to the number of entries available. 
 
@@ -112,9 +112,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
 
  
 

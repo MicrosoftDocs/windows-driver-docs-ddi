@@ -40,7 +40,7 @@ apiname:
 -	RequestInterrupt
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKREQUESTINTERRUPT callback
@@ -70,7 +70,7 @@ NTSTATUS RequestInterrupt(
 
 
 
-### -param Gsiv [in]
+#### - Gsiv [in]
 
 The global system interrupt vector (GSIV) number that identifies this interrupt. The ACPI firmware assigns GSIV numbers to all primary interrupt lines. For secondary (GPIO) interrupt lines, the GSIV number is dynamically assigned by the operating system.
 

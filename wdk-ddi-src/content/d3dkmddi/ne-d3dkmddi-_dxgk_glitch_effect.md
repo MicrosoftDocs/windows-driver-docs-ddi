@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EACD5B8D-B579-4EB0-93C7-0B356A67CA8F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GLITCH_EFFECT enumeration [Display Devices], DXGK_GLITCH_EFFECT_SEAMLESS, d3dkmddi/DXGK_GLITCH_EFFECT_SEAMLESS, DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_STALE_CONTENT, DXGK_GLITCH_EFFECT_BLACK_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_BLACK_CONTENT, DXGK_GLITCH_EFFECT_STALE_CONTENT, _DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT, DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, DXGK_GLITCH_EFFECT_SYNC_LOSS, d3dkmddi/DXGK_GLITCH_EFFECT_SYNC_LOSS, display.dxgk_glitch_effect
+ms.keywords: DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, DXGK_GLITCH_EFFECT enumeration [Display Devices], d3dkmddi/DXGK_GLITCH_EFFECT_STALE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_BLACK_CONTENT, DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SYNC_LOSS, d3dkmddi/DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SEAMLESS, _DXGK_GLITCH_EFFECT, DXGK_GLITCH_EFFECT_STALE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT, DXGK_GLITCH_EFFECT_BLACK_CONTENT, DXGK_GLITCH_EFFECT_SEAMLESS, DXGK_GLITCH_EFFECT_SYNC_LOSS, d3dkmddi/DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, DXGK_GLITCH_EFFECT, display.dxgk_glitch_effect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,32 +74,32 @@ typedef enum _DXGK_GLITCH_EFFECT {
 
 
 
-### -field DXGK_GLITCH_EFFECT_SYNC_LOSS
+#### - DXGK_GLITCH_EFFECT_SYNC_LOSS
 
 Indicates that the display connected to the target lost sync due to a glitch.  Even a short sync loss will likely lead to the user seeing a black screen while the display device re-syncs.
 
 
-### -field DXGK_GLITCH_EFFECT_GARBAGE_CONTENT
+#### - DXGK_GLITCH_EFFECT_GARBAGE_CONTENT
 
 Indicates that garbage content was sent to the display connected to the target due to a glitch.  Garbage content will be very noticeable to a user.
 
 
-### -field DXGK_GLITCH_EFFECT_STALE_CONTENT
+#### - DXGK_GLITCH_EFFECT_STALE_CONTENT
 
 Indicates that stale content was sent to the display connected to the target due to a glitch.  Display of stale content would cause the affected pixel area to appear frozen.
 
 
-### -field DXGK_GLITCH_EFFECT_BLACK_CONTENT
+#### - DXGK_GLITCH_EFFECT_BLACK_CONTENT
 
 Indicates that black content was sent to the display connected to the target due to a glitch.  If the content was black, as would be the case when initializing the display, this will be imperceptible; otherwise it is likely that black content will be noticeable to a user.
 
 
-### -field DXGK_GLITCH_EFFECT_DEGRADED_CONTENT
+#### - DXGK_GLITCH_EFFECT_DEGRADED_CONTENT
 
 Indicates that degraded content was sent to the display connected to the target due to a glitch.  Degraded content would include pixels which are too bright or too dim or which are displayed using a slightly different color space than intended.  Short durations would likely go unnoticed.
 
 
-### -field DXGK_GLITCH_EFFECT_SEAMLESS
+#### - DXGK_GLITCH_EFFECT_SEAMLESS
 
 Indicates that there was no user visible glitch.
 

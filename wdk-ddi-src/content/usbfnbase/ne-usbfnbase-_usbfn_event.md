@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UsbfnEventAttach, usbfnbase/UsbfnEventSetupPacket, *PUSBFN_EVENT, UsbfnEventSetInterface, USBFN_EVENT, _USBFN_EVENT, usbfnbase/UsbfnEventConfigured, UsbfnEventBusTearDown, usbfnbase/UsbfnEventDetach, UsbfnEventResume, usbfnbase/UsbfnEventSetInterface, UsbfnEventSetupPacket, UsbfnEventReset, UsbfnEventMinimum, UsbfnEventSuspend, usbfnbase/UsbfnEventAttach, UsbfnEventConfigured, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventReset, UsbfnEventDetach, usbfnbase/UsbfnEventMinimum, UsbfnEventPortType, USBFN_EVENT enumeration [Buses], usbfnbase/UsbfnEventPortType, UsbfnEventUnConfigured, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventMaximum, UsbfnEventMaximum, usbfnbase/USBFN_EVENT, buses.usbfn_event, usbfnbase/UsbfnEventResume, usbfnbase/UsbfnEventUnConfigured
+ms.keywords: usbfnbase/UsbfnEventSetInterface, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventUnConfigured, usbfnbase/UsbfnEventMaximum, UsbfnEventReset, UsbfnEventMinimum, *PUSBFN_EVENT, _USBFN_EVENT, usbfnbase/UsbfnEventDetach, UsbfnEventAttach, UsbfnEventBusTearDown, UsbfnEventSetInterface, usbfnbase/UsbfnEventAttach, usbfnbase/UsbfnEventConfigured, UsbfnEventUnConfigured, USBFN_EVENT enumeration [Buses], usbfnbase/UsbfnEventReset, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventResume, UsbfnEventSetupPacket, usbfnbase/UsbfnEventMinimum, usbfnbase/UsbfnEventBusTearDown, buses.usbfn_event, UsbfnEventSuspend, UsbfnEventMaximum, UsbfnEventConfigured, usbfnbase/USBFN_EVENT, usbfnbase/UsbfnEventPortType, UsbfnEventResume, USBFN_EVENT, UsbfnEventPortType, UsbfnEventDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_EVENT, USBFN_EVENT"
+req.typenames: USBFN_EVENT, *PUSBFN_EVENT
 req.product: Windows 10 or later.
 ---
 
@@ -80,22 +80,22 @@ typedef enum _USBFN_EVENT {
 
 
 
-### -field UsbfnEventMinimum
+#### - UsbfnEventMinimum
 
 The minimum value in this enumeration.
 
 
-### -field UsbfnEventAttach
+#### - UsbfnEventAttach
 
 VBUS is powered. No action is required.
 
 
-### -field UsbfnEventReset
+#### - UsbfnEventReset
 
 USBFN has completed a USB Reset. If previously configured, class drivers should reset their state. Transfer requests will be cancelled.
 
 
-### -field UsbfnEventDetach
+#### - UsbfnEventDetach
 
     VBUS is no longer powered.
     If previously configured, class drivers should
@@ -103,19 +103,19 @@ USBFN has completed a USB Reset. If previously configured, class drivers should 
     The <b>BusSpeed</b> field of the notification is set appropriately.
 
 
-### -field UsbfnEventSuspend
+#### - UsbfnEventSuspend
 
     There have been no SOF packets on the bus for 3ms.
     If a class driver wants to issue a remote wake up,
      the driver must use <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_signal_remote_wakeup.md">IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP</a> or <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_transfer_in.md">IOCTL_INTERNAL_USBFN_TRANSFER_IN</a>.
 
 
-### -field UsbfnEventResume
+#### - UsbfnEventResume
 
 USBFN has resumed from suspend to the previous state.
 
 
-### -field UsbfnEventSetupPacket
+#### - UsbfnEventSetupPacket
 
     USBFN has received a setup packet with
     <b>bmRequestType.Type</b> set to BMREQUEST_CLASS and
@@ -133,38 +133,38 @@ USBFN has resumed from suspend to the previous state.
     direction.
 
 
-### -field UsbfnEventConfigured
+#### - UsbfnEventConfigured
 
     USBFN has received a SET_CONFIGURATION setup packet. Transfer
     requests from class drivers are now permitted.
     The <b>ConfigurationValue</b> of the notification is set to <b>wValue.W</b>.
 
 
-### -field UsbfnEventUnConfigured
+#### - UsbfnEventUnConfigured
 
     USBFN has received a SET_CONFIGURATION setup packet with
     <b>wValue.W</b> set to 0. If previously configured, class drivers should
     reset their state. Transfer requests will be cancelled.
 
 
-### -field UsbfnEventPortType
+#### - UsbfnEventPortType
 
 Deprecated.
 
 
-### -field UsbfnEventBusTearDown
+#### - UsbfnEventBusTearDown
 
 Deprecated.
 
 
-### -field UsbfnEventSetInterface
+#### - UsbfnEventSetInterface
 
 USBFN has received a SET_INTERFACE setup packet.  On receiving this
     notification the class driver should query for the new endpoint set
     for the interface.
 
 
-### -field UsbfnEventMaximum
+#### - UsbfnEventMaximum
 
 The minimum value in this enumeration.
 

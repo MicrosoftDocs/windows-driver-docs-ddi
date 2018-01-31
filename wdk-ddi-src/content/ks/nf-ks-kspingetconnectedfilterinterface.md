@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19fb7a3e-d795-4d5a-9f28-cfbf37dbcd96
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetConnectedFilterInterface, stream.kspingetconnectedfilterinterface, avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml, KsPinGetConnectedFilterInterface function [Streaming Media Devices], KsPinGetConnectedFilterInterface
+ms.keywords: ks/KsPinGetConnectedFilterInterface, stream.kspingetconnectedfilterinterface, KsPinGetConnectedFilterInterface, avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml, KsPinGetConnectedFilterInterface function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsPinGetConnectedFilterInterface(
 
 
 
-### -param Pin [in]
+#### - Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure. The filter to which this pin is attached is queried for the requested interface.
 
 
-### -param InterfaceId [in]
+#### - InterfaceId [in]
 
 A pointer to a GUID representing the interface ID for the interface to obtain. A <b>QueryInterface</b> call is automatically performed for this interface.
 
 
-### -param Interface [out]
+#### - Interface [out]
 
 A pointer to a PVOID. As in COM, the resulting interface pointer is deposited into <i>*Interface</i>. This interface has a corresponding reference count and <i>must</i> be released by the caller as in COM.
 
@@ -115,19 +115,19 @@ The connection is intra-AVStream (<i>Pin</i>'s connected pin is an AVStream pin)
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
 
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
-
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
  
 

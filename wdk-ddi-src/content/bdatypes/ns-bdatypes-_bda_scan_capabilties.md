@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: AB97C5AC-E5B8-4C2B-ADA1-73E27E4B81D5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES structure [Streaming Media Devices], bdatypes/PBDA_SCAN_CAPABILTIES, bdatypes/BDA_SCAN_CAPABILTIES, stream.bda_scan_capabilties, PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], PBDA_SCAN_CAPABILTIES, _BDA_SCAN_CAPABILTIES"
+ms.keywords: stream.bda_scan_capabilties, BDA_SCAN_CAPABILTIES, PBDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES, bdatypes/BDA_SCAN_CAPABILTIES, _BDA_SCAN_CAPABILTIES, PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], bdatypes/PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_SCAN_CAPABILTIES
 product: Windows
 targetos: Windows
-req.typenames: BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES
+req.typenames: "*PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES"
 ---
 
 # _BDA_SCAN_CAPABILTIES structure
@@ -68,10 +68,10 @@ typedef struct _BDA_SCAN_CAPABILTIES {
 
 
 
-### -field lResult
+#### - lResult
 
 
 
-### -field ul64AnalogStandardsSupported
+#### - ul64AnalogStandardsSupported
 
 

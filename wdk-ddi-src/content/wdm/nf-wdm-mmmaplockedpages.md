@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f27b7622-614b-4c9e-8253-51f4638e5eb0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmMapLockedPages, k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml, wdm/MmMapLockedPages, MmMapLockedPages routine [Kernel-Mode Driver Architecture], kernel.mmmaplockedpages
+ms.keywords: MmMapLockedPages, MmMapLockedPages routine [Kernel-Mode Driver Architecture], wdm/MmMapLockedPages, k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml, kernel.mmmaplockedpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ PVOID MmMapLockedPages(
 
 
 
-### -param MemoryDescriptorList [in]
+#### - MemoryDescriptorList [in]
 
 Pointer to an MDL that was updated by <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>.
 
 
-### -param AccessMode [in]
+#### - AccessMode [in]
 
 Specifies the access mode in which to map the MDL, either <b>KernelMode</b> or <b>UserMode</b>. Almost all drivers should use <b>KernelMode</b>.
 
@@ -101,15 +101,15 @@ Callers of <b>MmMapLockedPages</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
 <a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 
 <a href="..\wdm\nf-wdm-mmgetsystemaddressformdl.md">MmGetSystemAddressForMdl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: ee557112-ada3-4906-a8f3-e59b59ab2bc1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_URB_CONTROL_TRANSFER, USBD_TRANSFER_DIRECTION_IN, USBD_DEFAULT_PIPE_TRANSFER, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER structure [Buses], usb/_URB_CONTROL_TRANSFER, USBD_SHORT_TRANSFER_OK, buses._urb_control_transfer, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml"
+ms.keywords: USBD_TRANSFER_DIRECTION_IN, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_DEFAULT_PIPE_TRANSFER, buses._urb_control_transfer, usb/_URB_CONTROL_TRANSFER, _URB_CONTROL_TRANSFER structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ struct _URB_CONTROL_TRANSFER {
 
 
 
-### -field Hdr
+#### - Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_CONTROL_TRANSFER, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_TRANSFER)</code>.
 
@@ -91,12 +91,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-### -field UrbLink
+#### - UrbLink
 
 Reserved. Do not use.
 
 
-### -field hca
+#### - hca
 
 Reserved. Do not use.
 
@@ -106,7 +106,7 @@ Reserved. Do not use.
  
 
 
-### -field PipeHandle
+#### - PipeHandle
 
 Handle for the control pipe.
 
@@ -115,7 +115,7 @@ Handle for the control pipe.
 If target is a non-default control endpoint, <b>PipeHandle</b> specifies an opaque handle for the control pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.   
 
 
-### -field TransferFlags
+#### - TransferFlags
 
 
 Specifies zero, one, or a combination of the following flags:
@@ -178,22 +178,22 @@ Is set to direct the host controller to do a control transfer on the default  co
 </table> 
 
 
-### -field TransferBufferLength
+#### - TransferBufferLength
 
 Specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes sent to or read from the pipe in this member.
 
 
-### -field TransferBuffer
+#### - TransferBuffer
 
 Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>. The contents of this buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified this buffer will contain data read from the device on return from the host controller driver. Otherwise, this buffer contains driver-supplied data for transfer to the device.
 
 
-### -field TransferBufferMDL
+#### - TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
 
 
-### -field SetupPacket
+#### - SetupPacket
 
 Specifies a USB-defined request setup packet. The format of a USB request setup packet is found in the USB core specification.
 
@@ -209,13 +209,13 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

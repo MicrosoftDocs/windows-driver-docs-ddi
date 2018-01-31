@@ -40,7 +40,7 @@ apiname:
 -	TiledResourceBarrier
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback
@@ -74,30 +74,31 @@ VOID APIENTRY* TiledResourceBarrier(
 
 
 
-### -param hDevice
+#### - hDevice
 
 A handle to the display device (graphics context).
 
 
-### -param TiledResourceAccessBeforeBarrierHandleType
+#### - TiledResourceAccessBeforeBarrierHandleType
 
 A handle to the tiled resource.
 
 
-### -param *hTiledResourceAccessBeforeBarrier
+#### - *hTiledResourceAccessBeforeBarrier [in, optional]
+
+A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must complete before the access operations on the object that <i>hTiledResourceAccessAfterBarrier</i> specifies.
 
 
 
-### -param TiledResourceAccessAfterBarrierHandleType
+
+#### - TiledResourceAccessAfterBarrierHandleType
 
 The <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a> handle type of the resources pointed to by the <i>hTiledResourceAccessBeforeBarrier</i> and <i>hTiledResourceAccessAfterBarrier</i> parameters.
 
 
-### -param *hTiledResourceAccessAfterBarrier
+#### - *hTiledResourceAccessAfterBarrier [in, optional]
 
-
-
-
+A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must begin after the access operations on the object that <i>hTiledResourceAccessBeforeBarrier</i> specifies.
 
 
 #### - hTiledResourceAccessBeforeBarrier [in, optional]

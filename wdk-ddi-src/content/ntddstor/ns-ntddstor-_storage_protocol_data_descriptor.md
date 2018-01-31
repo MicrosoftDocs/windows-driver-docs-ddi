@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 292EE243-2952-4020-8EB0-C5127DF92318
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], storage.storage_protocol_data_descriptor, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, _STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
+ms.keywords: STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], storage.storage_protocol_data_descriptor, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, _STORAGE_PROTOCOL_DATA_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PROTOCOL_DATA_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
+req.typenames: "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR"
 ---
 
 # _STORAGE_PROTOCOL_DATA_DESCRIPTOR structure
@@ -69,17 +69,17 @@ typedef struct _STORAGE_PROTOCOL_DATA_DESCRIPTOR {
 
 
 
-### -field Version
+#### - Version
 
 The version of this structure.
 
 
-### -field Size
+#### - Size
 
 The total size of the descriptor, including the space for all protocol data.
 
 
-### -field ProtocolSpecificData
+#### - ProtocolSpecificData
 
 The protocol-specific data, of type <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>.
 
@@ -139,13 +139,13 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
  
 

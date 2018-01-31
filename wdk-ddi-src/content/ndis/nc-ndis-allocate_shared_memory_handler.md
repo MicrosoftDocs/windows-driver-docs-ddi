@@ -74,7 +74,7 @@ NDIS_STATUS NetAllocateSharedMemory(
 
 
 
-### -param ProviderContext [in]
+#### - ProviderContext [in]
 
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
@@ -83,7 +83,7 @@ An NDIS_HANDLE to a block of driver-allocated context information that identifie
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
 
 
-### -param SharedMemoryParameters [in]
+#### - SharedMemoryParameters [in]
 
 A pointer to an 
      <mshelp:link keywords="netvista.ndis_shared_memory_parameters" tabindex="0"><b>
@@ -91,7 +91,7 @@ A pointer to an
      memory.
 
 
-### -param pSharedMemoryProviderContext [in, out]
+#### - pSharedMemoryProviderContext [in, out]
 
 A pointer to a handle for a shared memory context area. The shared memory provider provides a
      handle that identifies the shared memory that it allocated.
@@ -173,10 +173,10 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
-
 <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 434CA5F7-24D4-40E7-AE77-C0732D3FBBFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelPause, VmbChannelPause function [Network Drivers Starting with Windows Vista], VmbChannelPause, netvista.vmbchannelpause
+ms.keywords: VmbChannelPause function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelPause, VmbChannelPause, netvista.vmbchannelpause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelPause
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
+req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,7 @@ VOID VmbChannelPause(
 
 
 
-### -param Channel [in]
+#### - Channel [in]
 
 A handle for the channel to pause.
 

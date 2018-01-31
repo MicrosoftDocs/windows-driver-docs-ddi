@@ -69,12 +69,12 @@ VOID VideoPortZeroDeviceMemory(
 
 
 
-### -param Destination [out]
+#### - Destination [out]
 
 Specifies the base address of the adapter memory area. This value must be a mapped logical address returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Length
+#### - Length
 
 Specifies the size, in bytes, to be filled.
 
@@ -99,13 +99,13 @@ Callers of <b>VideoPortZeroDeviceMemory</b> can be running at any IRQL if the me
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

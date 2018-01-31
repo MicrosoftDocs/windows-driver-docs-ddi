@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24ce2918-1d9f-41eb-add1-a50b888f0a99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: FormatRequestForQueryInformation method, IWDFIoTarget2 interface, IWDFIoTarget2::FormatRequestForQueryInformation, FormatRequestForQueryInformation method, IWDFIoTarget2, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, FormatRequestForQueryInformation, umdf.iwdfiotarget2_formatrequestforqueryinformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, wdf.iwdfiotarget2_formatrequestforqueryinformation
+ms.keywords: wdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, umdf.iwdfiotarget2_formatrequestforqueryinformation, IWDFIoTarget2::FormatRequestForQueryInformation, FormatRequestForQueryInformation method, FormatRequestForQueryInformation method, IWDFIoTarget2 interface, IWDFIoTarget2, FormatRequestForQueryInformation, IWDFIoTarget2 interface, FormatRequestForQueryInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTarget2.FormatRequestForQueryInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -74,27 +74,27 @@ HRESULT FormatRequestForQueryInformation(
 
 
 
-### -param pRequest [in]
+#### - pRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface of the request object that represents the I/O request. 
 
 
-### -param InformationClass [in]
+#### - InformationClass [in]
 
-A <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to obtain.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to obtain.
 
 
-### -param pFile [in, optional]
+#### - pFile [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is required for local and remote <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">I/O targets</a>, and is optional (can be <b>NULL</b>) for file handle I/O targets.
 
 
-### -param pInformationMemory [in, optional]
+#### - pInformationMemory [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface of a memory object. This object represents the output buffer, which receives the file information that the <i>InformationClass</i> parameter specifies. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pInformationMemoryOffset [in, optional]
+#### - pInformationMemoryOffset [in, optional]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the output buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the output buffer, and the transfer size is the buffer size.
 

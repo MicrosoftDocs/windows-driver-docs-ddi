@@ -79,12 +79,12 @@ typedef EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
 
 
 
-### -param NumberOfStreams [in]
+#### - NumberOfStreams [in]
 
 The number of non-default streams to create.
 
 
-### -param UcxStaticStreamsInit [in]
+#### - UcxStaticStreamsInit [in]
 
 A pointer to an opaque structure containing
         initialization information.  This structure is managed by UCX.

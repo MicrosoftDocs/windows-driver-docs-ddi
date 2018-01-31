@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da348cf9-5694-4e66-990e-bd07f259d97c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_5a8a1a59-b9a8-4b5b-b6d8-7139ddb9b474.xml, VideoPortSetBytesUsed, VideoPortSetBytesUsed function [Display Devices], display.videoportsetbytesused, video/VideoPortSetBytesUsed
+ms.keywords: display.videoportsetbytesused, video/VideoPortSetBytesUsed, VideoPortSetBytesUsed function [Display Devices], VideoPortSetBytesUsed, VideoPort_Functions_5a8a1a59-b9a8-4b5b-b6d8-7139ddb9b474.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortSetBytesUsed(
 
 
 
-### -param HwDeviceExtension [in]
+#### - HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pDma [in, out]
+#### - pDma [in, out]
 
 Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a> returns. 
 
 
-### -param BytesUsed [in]
+#### - BytesUsed [in]
 
 Specifies the number of bytes written to the buffer.
 
@@ -94,9 +94,9 @@ None
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetbytesused.md">VideoPortGetBytesUsed</a>
-
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+<a href="..\video\nf-video-videoportgetbytesused.md">VideoPortGetBytesUsed</a>
 
  
 

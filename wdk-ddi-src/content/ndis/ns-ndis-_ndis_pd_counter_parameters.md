@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0F2AB5A3-9208-426A-ADC5-C1AD3BADFD83
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PD_COUNTER_PARAMETERS, _NDIS_PD_COUNTER_PARAMETERS, ndis/PNDIS_PD_COUNTER_PARAMETERS, NDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_COUNTER_PARAMETERS, netvista.ndis_pd_counter_parameters, NDIS_PD_COUNTER_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PD_COUNTER_PARAMETERS, netvista.ndis_pd_counter_parameters, NDIS_PD_COUNTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_COUNTER_PARAMETERS, _NDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_PD_COUNTER_PARAMETERS {
 
 
 
-### -field Header
+#### - Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_COUNTER_PARAMETERS</b> structure. Set the members of this structure as follows:
 <ul>
@@ -79,17 +79,17 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_COUNTER_PARAMETERS_REVISION_1</b></li>
 </ul>
 
-### -field Flags
+#### - Flags
 
 This member is reserved and must be set to 0.
 
 
-### -field CounterName
+#### - CounterName
 
 This member  is ignored by the PD provider. It is used by the PD platform for publishing the counter to the Windows Performance Counter subsystem (so that the counter can be viewed using PerfMon and accessed by system APIs programmatically).
 
 
-### -field Type
+#### - Type
 
 An <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a> enumeration value that specifies the counter type.
 

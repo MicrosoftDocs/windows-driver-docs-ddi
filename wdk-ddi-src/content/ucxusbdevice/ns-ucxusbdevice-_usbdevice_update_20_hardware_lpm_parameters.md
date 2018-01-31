@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B02CB10F-18C9-4E2C-9F30-042588800EA5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure [Buses], buses._usbdevice_update_20_hardware_lpm_parameters, ucxusbdevice/P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure pointer [Buses], _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
+ms.keywords: P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure pointer [Buses], buses._usbdevice_update_20_hardware_lpm_parameters, USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, ucxusbdevice/P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure [Buses], ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,48 +74,48 @@ typedef struct _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS {
 
 
 
-### -field HardwareLpmEnable
+#### - HardwareLpmEnable
 
 If set, indicates are request to enable hardware LPM.
 
 
-### -field RemoteWakeEnable
+#### - RemoteWakeEnable
 
 If set, indicates are request to enable remote wake signal.
 
 
-### -field HostInitiatedResumeDurationMode
+#### - HostInitiatedResumeDurationMode
 
 The requested resume period.
 
 
-### -field BestEffortServiceLatency
+#### - BestEffortServiceLatency
 
 The requested best effort service latency.
 
 
-### -field BestEffortServiceLatencyDeep
+#### - BestEffortServiceLatencyDeep
 
 The requested best effort service latency deep.
 
 
-### -field L1Timeout
+#### - L1Timeout
 
 The requested L1 timeout.
 
 
-### -field Reserved
+#### - Reserved
 
 Do not use.
 
 
 ## -see-also
 
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_flags.md">USBDEVICE_UPDATE_FLAGS</a>
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
 
 <a href="..\ucxroothub\ns-ucxroothub-_roothub_20port_info.md">ROOTHUB_20PORT_INFO</a>
-
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_flags.md">USBDEVICE_UPDATE_FLAGS</a>
 
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfwaitlockacquire, WdfWaitLockAcquire method, WdfWaitLockAcquire, DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, wdfsync/WdfWaitLockAcquire, kmdf.wdfwaitlockacquire
+ms.keywords: wdfsync/WdfWaitLockAcquire, WdfWaitLockAcquire, wdf.wdfwaitlockacquire, DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, WdfWaitLockAcquire method, kmdf.wdfwaitlockacquire
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfWaitLockAcquire
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -74,12 +74,12 @@ NTSTATUS WdfWaitLockAcquire(
 
 
 
-### -param Lock [in]
+#### - Lock [in]
 
 A handle to a framework wait-lock object, obtained by a previous call to <a href="..\wdfsync\nf-wdfsync-wdfwaitlockcreate.md">WdfWaitLockCreate</a>.
 
 
-### -param Timeout [in, optional]
+#### - Timeout [in, optional]
 
 An optional pointer to a time-out value. The time-out value is specified in system time units (100-nanosecond intervals).
 
@@ -168,9 +168,9 @@ For more information about wait locks, see <a href="https://docs.microsoft.com/e
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
-
 <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
 
 <a href="..\wdfsync\nf-wdfsync-wdfwaitlockcreate.md">WdfWaitLockCreate</a>
 

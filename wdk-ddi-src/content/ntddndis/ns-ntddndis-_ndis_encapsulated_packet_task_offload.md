@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EA13DADC-ED00-435D-BEA7-B6E52A86031A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_encapsulated_packet_task_offload, _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
+ms.keywords: NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure [Network Drivers Starting with Windows Vista], NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, netvista.ndis_encapsulated_packet_task_offload, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD {
 
 
 
-### -field TransmitChecksumOffloadSupported
+#### - TransmitChecksumOffloadSupported
 
 Task offload settings for transmit checksum.
 
 
-### -field ReceiveChecksumOffloadSupported
+#### - ReceiveChecksumOffloadSupported
 
 Task offload settings for receive checksum.
 
 
-### -field LsoV2Supported
+#### - LsoV2Supported
 
 Task offload settings for large send offload version 2 (LSOv2).
 
 
-### -field RssSupported
+#### - RssSupported
 
 Task offload settings for receive side scaling (RSS).
 
 
-### -field VmqSupported
+#### - VmqSupported
 
 Task offload settings for virtual machine queue (VMQ).
 
 
-### -field MaxHeaderSizeSupported
+#### - MaxHeaderSizeSupported
 
 This member should be set to the maximum header size from the beginning of the packet to the beginning of the inner TCP or UDP payload (the last byte of TCP or UDP inner header) that the NIC must support for all of these task offloads. The protocol driver is expected to not offload processing of a packet whose combined encapsulation headers exceed this size. 
 <div class="alert"><b>Note</b>  256 bytes is a good default value that should cover all possible cases.</div><div> </div>

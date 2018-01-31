@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 846f3a1c-ee0a-42d2-bdf1-7bf09406c955
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.partition_information_mbr, ntdddisk/PPARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml, ntdddisk/PARTITION_INFORMATION_MBR, _PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Storage Devices]
+ms.keywords: "*PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], PPARTITION_INFORMATION_MBR structure pointer [Storage Devices], ntdddisk/PPARTITION_INFORMATION_MBR, ntdddisk/PARTITION_INFORMATION_MBR, _PARTITION_INFORMATION_MBR, structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml, storage.partition_information_mbr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PARTITION_INFORMATION_MBR {
 
 
 
-### -field PartitionType
+#### - PartitionType
 
 Specifies the partition type. See <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a> for a list of system-defined partition types.
 
 
-### -field BootIndicator
+#### - BootIndicator
 
 Indicates, when <b>TRUE</b>, that the partition is bootable. When <b>FALSE</b>, the partition is not bootable.
 
 
-### -field RecognizedPartition
+#### - RecognizedPartition
 
 Indicates, when <b>TRUE</b>, that this is a partition with a recognized partition type. When <b>FALSE</b> this is a not a partition with a recognized partition.
 
 
-### -field HiddenSectors
+#### - HiddenSectors
 
 Contains the number of hidden sectors in the partition.
 

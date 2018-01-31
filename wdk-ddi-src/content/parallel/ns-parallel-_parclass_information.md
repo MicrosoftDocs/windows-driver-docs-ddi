@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: abad8ebd-a9fc-4cfb-8495-aca4e38ee45a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPARCLASS_INFORMATION, PARCLASS_INFORMATION structure [Parallel Ports], parallel/PPARCLASS_INFORMATION, parports.parclass_information, parallel/PARCLASS_INFORMATION, PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, _PARCLASS_INFORMATION, *PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports]
+ms.keywords: parports.parclass_information, PARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports], PPARCLASS_INFORMATION, *PPARCLASS_INFORMATION, parallel/PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, PARCLASS_INFORMATION structure [Parallel Ports], parallel/PPARCLASS_INFORMATION, _PARCLASS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ typedef struct _PARCLASS_INFORMATION {
 
 
 
-### -field Controller
+#### - Controller
 
 Specifies the base I/O address allocated to a parallel port.
 
@@ -89,52 +89,52 @@ Specifies the base I/O address allocated to a parallel port.
  
 
 
-### -field SpanOfController
+#### - SpanOfController
 
 Specifies the range in bytes of I/O address space allocated to a parallel port.
 
 
-### -field DetermineIeeeModes
+#### - DetermineIeeeModes
 
 Pointer to the <a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a> callback routine that determines which IEEE protocols a parallel device supports.
 
 
-### -field NegotiateIeeeMode
+#### - NegotiateIeeeMode
 
 Pointer to the <a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a> callback routine that negotiates the fastest protocol that the system-supplied bus driver for parallel ports supports from among those specified by the caller.
 
 
-### -field TerminateIeeeMode
+#### - TerminateIeeeMode
 
 Pointer to the <a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a> callback routine that terminates the current IEEE mode and sets the mode to IEEE_COMPATIBILITY.
 
 
-### -field IeeeFwdToRevMode
+#### - IeeeFwdToRevMode
 
 Pointer to the <a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a> callback routine that changes the transfer mode from forward to reverse.
 
 
-### -field IeeeRevToFwdMode
+#### - IeeeRevToFwdMode
 
 Pointer to the <a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a> callback routine that changes the transfer mode from reverse to forward.
 
 
-### -field ParallelRead
+#### - ParallelRead
 
 Pointer to the <a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a> callback routine that a client can use to read from a parallel device.
 
 
-### -field ParallelWrite
+#### - ParallelWrite
 
 Pointer to the <a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a> callback routine that a client can use to write to a parallel device.
 
 
-### -field ParclassContext
+#### - ParclassContext
 
 Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
 
 
-### -field HardwareCapabilities
+#### - HardwareCapabilities
 
 Specifies which hardware capabilities are present. <b>HardwareCapabilities</b> is a bitwise OR of one or more of the following flags:
 
@@ -170,12 +170,12 @@ Specifies which hardware capabilities are present. <b>HardwareCapabilities</b> i
 
 
 
-### -field FifoDepth
+#### - FifoDepth
 
 Specifies the size, in words, of the ECP FIFO. The ECP FIFO word size, in bits, is the value of <b>FifoWidth</b>.
 
 
-### -field FifoWidth
+#### - FifoWidth
 
 Specifies the ECP FIFO word size, in bits, which is the number of bits handled in parallel.
 
@@ -204,23 +204,23 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
-
-<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
-
 <a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
+<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
+
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
+
 <a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
+
+<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
 
 <a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
 
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
 
-<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
-
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
-
-<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
+<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Subscribe method [Imaging Devices], stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, Subscribe method [Imaging Devices], IStiDevice interface, IStiDevice::Subscribe, IStiDevice interface [Imaging Devices], Subscribe method, sti/IStiDevice::Subscribe, Subscribe, IStiDevice, image.istidevice_subscribe
+ms.keywords: sti/IStiDevice::Subscribe, IStiDevice interface [Imaging Devices], Subscribe method, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices], IStiDevice interface, Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, IStiDevice::Subscribe, image.istidevice_subscribe, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fa0f20e1-7d63-48e8-8270-8dab566f5947
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PHBAFCPBindingEntry, structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, hbapiwmi/HBAFCPBindingEntry, storage.hbafcpbindingentry, HBAFCPBindingEntry structure [Storage Devices], PHBAFCPBindingEntry structure pointer [Storage Devices], PHBAFCPBindingEntry, *PHBAFCPBindingEntry, _HBAFCPBindingEntry, HBAFCPBindingEntry
+ms.keywords: PHBAFCPBindingEntry structure pointer [Storage Devices], *PHBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices], structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, storage.hbafcpbindingentry, PHBAFCPBindingEntry, HBAFCPBindingEntry, hbapiwmi/PHBAFCPBindingEntry, hbapiwmi/HBAFCPBindingEntry, _HBAFCPBindingEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _HBAFCPBindingEntry {
 
 
 
-### -field Type
+#### - Type
 
 Contains a binding type that indicates how the target is specified in the binding. This member can have any of the following values:  
 <table>
@@ -136,12 +136,12 @@ For a comparable set of values that define how an HBA specifies targets and logi
 For a more detailed description of the values that this member can have, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-### -field FCPId
+#### - FCPId
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpid.md">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
-### -field ScsiId
+#### - ScsiId
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
 

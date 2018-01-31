@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, _DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], dxva/DXVA_COPPSetProtectionLevelCmdData
+ms.keywords: DXVA_COPPSetProtectionLevelCmdData, dxva/DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml, _DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], display.dxva_coppsetprotectionlevelcmddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _DXVA_COPPSetProtectionLevelCmdData {
 
 
 
-### -field ProtType
+#### - ProtType
 
 Specifies one of the following protection types to set on the physical connector associated with a COPP device:
 <ul>
@@ -92,7 +92,7 @@ COPP_ProtectionType_CGMSA (0x04)
 </li>
 </ul>
 
-### -field ProtLevel
+#### - ProtLevel
 
 Specifies the protection level to set for the protection type in <b>ProtType</b> or COPP_NoProtectionLevelAvailable (-1) if no protection level is available.
 <ul>
@@ -120,12 +120,12 @@ Specifies the protection level to set for the protection type in <b>ProtType</b>
 </li>
 </ul>
 
-### -field ExtendedInfoChangeMask
+#### - ExtendedInfoChangeMask
 
 Specifies a value that indicates the valid bitfields in the following <b>ExtendedInfoData</b> member.
 
 
-### -field ExtendedInfoData
+#### - ExtendedInfoData
 
 Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not currently used.
 

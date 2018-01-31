@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acb0fc1d-e360-4cb9-9b3b-7d8d03146cfd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, D3DDDIVERTEXELEMENT structure [Display Devices], D3DDDIVERTEXELEMENT, display.d3dddivertexelement, _D3DDDIVERTEXELEMENT, d3dumddi/D3DDDIVERTEXELEMENT
+ms.keywords: D3DDDIVERTEXELEMENT structure [Display Devices], _D3DDDIVERTEXELEMENT, d3dumddi/D3DDDIVERTEXELEMENT, D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, display.d3dddivertexelement, D3DDDIVERTEXELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDIVERTEXELEMENT {
 
 
 
-### -field Stream
+#### - Stream
 
 [in] The number of the stream.
 
 
-### -field Offset
+#### - Offset
 
 [in] The offset (if any), in bytes, from the beginning of the stream to the start of the data.
 
 
-### -field Type
+#### - Type
 
 [in] One of several predefined data types that define the data size. For more information about these types, see the D3DDECLTYPE enumeration type in the Microsoft Windows SDK documentation.
 
 
-### -field Method
+#### - Method
 
 [in] The tessellator processing method. This method determines how the tessellator interprets and operates on the vertex data. For more information about these methods, see the D3DDECLMETHOD enumeration type in the Windows SDK documentation.
 
 
-### -field Usage
+#### - Usage
 
 [in] The intended use of the vertex data. For more information about the possible uses, see the D3DDECLUSAGE enumeration type in the Windows SDK documentation.
 
 
-### -field UsageIndex
+#### - UsageIndex
 
 [in] A modification to the usage data that is specified in the <b>Usage</b> member. This modification enables multiple usage types to be specified.
 

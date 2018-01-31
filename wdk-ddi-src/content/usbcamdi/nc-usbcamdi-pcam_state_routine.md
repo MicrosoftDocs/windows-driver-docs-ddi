@@ -71,14 +71,14 @@ NTSTATUS MyCamState(
 
 
 
-### -param BusDeviceObject
+#### - BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 For <b>CamSaveState</b>, this value can be NULL.
 
 
-### -param DeviceContext
+#### - DeviceContext
 
 Pointer to the camera minidriver's device context.
 

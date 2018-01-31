@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f29fb48-5145-4b2c-8a0c-3130f4491675
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgateterminateand, KsGateTerminateAnd, avfunc_e8c3af46-fdb4-4e95-8473-12e1fadff072.xml, ks/KsGateTerminateAnd, KsGateTerminateAnd function [Streaming Media Devices]
+ms.keywords: KsGateTerminateAnd function [Streaming Media Devices], ks/KsGateTerminateAnd, KsGateTerminateAnd, avfunc_e8c3af46-fdb4-4e95-8473-12e1fadff072.xml, stream.ksgateterminateand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void __inline KsGateTerminateAnd(
 
 
 
-### -param AndGate [in]
+#### - AndGate [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the AND gate to delete. This gate must be at the beginning of a gate chain.
 
@@ -88,9 +88,9 @@ Logical gates should be deleted in a front to back manner. <b>KsGateTerminateAnd
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
-
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 

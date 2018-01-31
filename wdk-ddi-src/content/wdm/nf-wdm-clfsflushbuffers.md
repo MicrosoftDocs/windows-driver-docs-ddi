@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70e93c8f-a23c-4399-9299-c2743d097ded
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsFlushBuffers, Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, ClfsFlushBuffers routine [Kernel-Mode Driver Architecture], kernel.clfsflushbuffers, wdm/ClfsFlushBuffers
+ms.keywords: ClfsFlushBuffers routine [Kernel-Mode Driver Architecture], ClfsFlushBuffers, Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, wdm/ClfsFlushBuffers, kernel.clfsflushbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ClfsFlushBuffers(
 
 
 
-### -param pvMarshalContext [in]
+#### - pvMarshalContext [in]
 
 A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 

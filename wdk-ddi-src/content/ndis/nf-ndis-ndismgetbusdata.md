@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 495191f4-a5c6-4223-8c5d-e4c0ecb0cc5d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismgetbusdata, ndis/NdisMGetBusData, NdisMGetBusData function [Network Drivers Starting with Windows Vista], NdisMGetBusData, hardware_configuration_ref_e2ffab8c-2dba-4b49-a7dc-246a4792ca43.xml
+ms.keywords: NdisMGetBusData function [Network Drivers Starting with Windows Vista], netvista.ndismgetbusdata, ndis/NdisMGetBusData, NdisMGetBusData, hardware_configuration_ref_e2ffab8c-2dba-4b49-a7dc-246a4792ca43.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,26 +78,26 @@ ULONG NdisMGetBusData(
 TBD
 
 
-### -param WhichSpace [in]
+#### - WhichSpace [in]
 
 The type of bus data to be read. For further information, see the discussion of the 
      <i>WhichSpace</i> parameter on the reference page for 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>.
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 The byte offset in the configuration space, specified by 
      <i>WhichSpace</i>, from which data is read.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 A pointer to a buffer that receives the data read from the bus. Must be at least as large as 
      <i>Length</i> .
 
 
-### -param Length [in]
+#### - Length [in]
 
 The length, in bytes, of the data to read.
 
@@ -127,11 +127,11 @@ This function replaces the NDIS 5.1
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
 
-<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93bc2a07-a6f7-45df-945d-81c6c53adb47
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, IDebugControl3, SetInterruptTimeout, debugger.setinterrupttimeout, IDebugControl2 interface [Windows Debugging], SetInterruptTimeout method, dbgeng/IDebugControl3::SetInterruptTimeout, dbgeng/IDebugControl2::SetInterruptTimeout, IDebugControl3 interface [Windows Debugging], SetInterruptTimeout method, SetInterruptTimeout method [Windows Debugging], IDebugControl interface, IDebugControl_c16219f4-97b7-451d-8f04-30aa262667f6.xml, IDebugControl::SetInterruptTimeout, dbgeng/IDebugControl::SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, IDebugControl2::SetInterruptTimeout, IDebugControl3::SetInterruptTimeout, IDebugControl interface [Windows Debugging], SetInterruptTimeout method, SetInterruptTimeout method [Windows Debugging]
+ms.keywords: IDebugControl2 interface [Windows Debugging], SetInterruptTimeout method, SetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, IDebugControl3, SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], IDebugControl_c16219f4-97b7-451d-8f04-30aa262667f6.xml, debugger.setinterrupttimeout, dbgeng/IDebugControl3::SetInterruptTimeout, IDebugControl::SetInterruptTimeout, dbgeng/IDebugControl::SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, IDebugControl3::SetInterruptTimeout, IDebugControl interface [Windows Debugging], SetInterruptTimeout method, IDebugControl2::SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], SetInterruptTimeout method, dbgeng/IDebugControl2::SetInterruptTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT SetInterruptTimeout(
 
 
 
-### -param Seconds [in]
+#### - Seconds [in]
 
 Specifies the number of seconds that the engine should wait for the target when requesting a break into the debugger.
 
@@ -113,13 +113,13 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

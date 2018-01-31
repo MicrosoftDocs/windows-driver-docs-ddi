@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kesetimportancedpc, KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], wdm/KeSetImportanceDpc, k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml
+ms.keywords: KeSetImportanceDpc, wdm/KeSetImportanceDpc, kernel.kesetimportancedpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID KeSetImportanceDpc(
 
 
 
-### -param Dpc [in, out]
+#### - Dpc [in, out]
 
 Pointer to the caller's DPC object, which <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a> already initialized. 
 
 
-### -param Importance [in]
+#### - Importance [in]
 
 Specifies one of the following system-defined values to determine the behavior of <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> and <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a> when either routine is used to queue the DPC.
 
@@ -153,13 +153,13 @@ For more information about how the system processes the DPC queue, see <a href="
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-
 <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 

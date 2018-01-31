@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4abc44ab-1729-46c3-befd-5f917e10953c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_WRITE_CACHE_PROPERTY, ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY, _STORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], PSTORAGE_WRITE_CACHE_PROPERTY, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], storage.storage_write_cache_property
+ms.keywords: STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], storage.storage_write_cache_property, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml, _STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_WRITE_CACHE_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: PSTORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY
+req.typenames: STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY
 ---
 
 # _STORAGE_WRITE_CACHE_PROPERTY structure
@@ -75,47 +75,47 @@ typedef struct _STORAGE_WRITE_CACHE_PROPERTY {
 
 
 
-### -field Version
+#### - Version
 
 The version number of the write cache property.
 
 
-### -field Size
+#### - Size
 
 The size, in bytes, of the STORAGE_WRITE_CACHE_PROPERTY structure.
 
 
-### -field WriteCacheType
+#### - WriteCacheType
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff568044">WRITE_CACHE_TYPE</a>-typed value that indicates the current write cache type
 
 
-### -field WriteCacheEnabled
+#### - WriteCacheEnabled
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff568042">WRITE_CACHE_ENABLE</a>-typed value that indicates whether the write cache is enabled.
 
 
-### -field WriteCacheChangeable
+#### - WriteCacheChangeable
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff568039">WRITE_CACHE_CHANGE</a>-typed value that indicates whether if the host can change the write cache characteristics.
 
 
-### -field WriteThroughSupported
+#### - WriteThroughSupported
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff568047">WRITE_THROUGH</a>-typed value that indicates whether the device supports write-through caching.
 
 
-### -field FlushCacheSupported
+#### - FlushCacheSupported
 
 A Boolean value that indicates whether the device allows host software to flush the device cache. If <b>TRUE</b>, the device allows host software to flush the device cache. If <b>FALSE</b>, host software cannot flush the device cache.
 
 
-### -field UserDefinedPowerProtection
+#### - UserDefinedPowerProtection
 
 A Boolean value that indicates whether a user can configure the device's power protection characteristics in the registry. If <b>TRUE</b>, a user can configure the device's power protection characteristics in the registry. If <b>FALSE</b>, the user cannot configure the device's power protection characteristics in the registry.
 
 
-### -field NVCacheEnabled
+#### - NVCacheEnabled
 
 A Boolean value that indicates whether the device has a battery backup for the write cache. If <b>TRUE</b>, the device has a battery backup for the write cache. If <b>FALSE</b>, the device does not have a battery backup for the writer cache.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], _DXGK_GDIARG_TRANSPARENTBLT, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml
+ms.keywords: "_DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt, DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,14 +75,14 @@ typedef struct _DXGK_GDIARG_TRANSPARENTBLT {
 
 
 
-### -field SrcRect
+#### - SrcRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
 
 For more information, see the Remarks section.
 
 
-### -field DstRect
+#### - DstRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
 
@@ -91,49 +91,49 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 For more information, see the Remarks section.
 
 
-### -field SrcAllocationIndex
+#### - SrcAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>SrcRect</b> source rectangle.
      
 
 
-### -field DstAllocationIndex
+#### - DstAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field Color
+#### - Color
 
 
       [in] Specifies the physical transparent color in the source surface, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration). Any pixels on the source surface that match the transparent color that is specified by <b>Color</b> are not copied.
      
 
 
-### -field NumSubRects
+#### - NumSubRects
 
 
       [in] The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-### -field pSubRects
+#### - pSubRects
 
 
       [in] A pointer to the sub-rectangles in the destination surface space.
      
 
 
-### -field Flags
+#### - Flags
 
 
       [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_d3dkm_transparentbltflags.md">D3DKM_TRANSPARENTBLTFLAGS</a> structure that specifies the display adapter's hardware-accelerated transparent bit-block transfer capabilities.
      
 
 
-### -field SrcPitch
+#### - SrcPitch
 
 
       [in] The pitch of the source surface, in bytes.

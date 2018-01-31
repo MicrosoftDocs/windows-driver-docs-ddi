@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 287affe1-c5d4-4b36-8017-d1fef6088cf8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.exqueueworkitem, wdm/ExQueueWorkItem, ExQueueWorkItem, exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ExQueueWorkItem routine [Installable File System Drivers]
+ms.keywords: wdm/ExQueueWorkItem, exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ExQueueWorkItem routine [Installable File System Drivers], ExQueueWorkItem, ifsk.exqueueworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID ExQueueWorkItem(
 
 
 
-### -param WorkItem [in, out]
+#### - WorkItem [in, out]
 
 Pointer to the work item. This work item must have been initialized by a preceding call to <a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>. 
 
 
-### -param QueueType [in]
+#### - QueueType [in]
 
 Specifies the queue into which the work item pointed to by <i>WorkItem</i> is to be inserted. <i>QueueType</i> can be either of the following: 
 <table>
@@ -141,17 +141,17 @@ If the callback runs in the system thread with a variable priority attribute, th
 
 <a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
-
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
-
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
 
  
 

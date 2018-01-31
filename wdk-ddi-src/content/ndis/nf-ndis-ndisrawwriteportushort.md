@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8ad7d35-5832-4258-8666-2c0f1f893f10
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisrawwriteportushort, miniport_port_raw_ref_6c164b75-fcfb-4251-803a-ca7cbe623b4d.xml, NdisRawWritePortUshort, NdisRawWritePortUshort macro [Network Drivers Starting with Windows Vista], ndis/NdisRawWritePortUshort
+ms.keywords: NdisRawWritePortUshort, netvista.ndisrawwriteportushort, miniport_port_raw_ref_6c164b75-fcfb-4251-803a-ca7cbe623b4d.xml, ndis/NdisRawWritePortUshort, NdisRawWritePortUshort macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,14 +68,14 @@ VOID NdisRawWritePortUshort(
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <mshelp:link keywords="netvista.ndismregisterioportrange" tabindex="0"><b>
      NdisMRegisterIoPortRange</b></mshelp:link>.
 
 
-### -param Data [in]
+#### - Data [in]
 
 Specifies the USHORT to be written.
 
@@ -90,17 +90,17 @@ Specifies the USHORT to be written.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
-
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
 
  
 

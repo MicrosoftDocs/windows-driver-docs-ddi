@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6C8CA2A8-D39E-4524-A909-102D8310AC72
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, wdf.wdf_io_target_open_params_init_open_by_file, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
+ms.keywords: wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, wdf.wdf_io_target_open_params_init_open_by_file, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ void WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE(
 
 
 
-### -param Params [out]
+#### - Params [out]
 
 A pointer to a driver-allocated <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure, which the function initializes.
 
 
-### -param FileName [in, optional]
+#### - FileName [in, optional]
 
 A value for the <b>FileName</b> member of the <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure. Most drivers specify <b>NULL</b> here unless the lower target supports <a href="https://msdn.microsoft.com/e5312297-849f-4b4e-835d-0ce5295c7ce2">Device Namespace Access</a>.
 

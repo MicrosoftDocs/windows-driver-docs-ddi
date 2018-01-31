@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA1C3976-0261-4FF1-8E49-EDF93D7BED22
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext, _D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], d3dumddi/D3DDDICB_CREATEHWCONTEXT
+ms.keywords: D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], display.d3dddicb_createhwcontext, _D3DDDICB_CREATEHWCONTEXT, d3dumddi/D3DDDICB_CREATEHWCONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDICB_CREATEHWCONTEXT {
 
 
 
-### -field NodeOrdinal
+#### - NodeOrdinal
 
 Specifies the node ordinal this context is targeted to.
 
 
-### -field EngineAffinity
+#### - EngineAffinity
 
 Specifies the engine affinity within the node.
 
 
-### -field Flags
+#### - Flags
 
 Hardware context creation flags.
 
 
-### -field PrivateDriverDataSize
+#### - PrivateDriverDataSize
 
 Size of private driver data.
 
 
-### -field pPrivateDriverData
+#### - pPrivateDriverData
 
 Pointer to private driver data.
 
 
-### -field hHwContext
+#### - hHwContext
 
 Handle to the created context.
 

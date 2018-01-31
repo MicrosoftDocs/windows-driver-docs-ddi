@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39647e7d-d89f-43f4-916a-cbfa5ba28611
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-device-funcs-video-0030, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0030, D3D12DDI_DEVICE_FUNCS_VIDEO_0030 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_VIDEO_0030
+ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0030, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0030, display.d3d12ddi-device-funcs-video-0030, D3D12DDI_DEVICE_FUNCS_VIDEO_0030 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,62 +78,62 @@ typedef struct _D3D12DDI_DEVICE_FUNCS_VIDEO_0030 {
 
 
 
-### -field pfnGetCaps
+#### - pfnGetCaps
 
 Get caps.
 
 
-### -field pfnCalcPrivateVideoDecoderSize
+#### - pfnCalcPrivateVideoDecoderSize
 
 Calculate private video decoder size.
 
 
-### -field pfnCreateVideoDecoder
+#### - pfnCreateVideoDecoder
 
 Create video decoder.
 
 
-### -field pfnDestroyVideoDecoder
+#### - pfnDestroyVideoDecoder
 
 Destroy video decoder.
 
 
-### -field pfnCalcPrivateVideoProcessorSize
+#### - pfnCalcPrivateVideoProcessorSize
 
 Calculate private video processor size.
 
 
-### -field pfnCreateVideoProcessor
+#### - pfnCreateVideoProcessor
 
 Create video processor.
 
 
-### -field pfnDestroyVideoProcessor
+#### - pfnDestroyVideoProcessor
 
 Destroy video processor.
 
 
-### -field pfnGetDecodeProfileCount
+#### - pfnGetDecodeProfileCount
 
 Get decode profile count.
 
 
-### -field pfnGetDecodeFormatCount
+#### - pfnGetDecodeFormatCount
 
 Get decode format count.
 
 
-### -field pfnGetBitstreamEncryptionSchemeCount
+#### - pfnGetBitstreamEncryptionSchemeCount
 
 Get bitstream encryption scheme count.
 
 
-### -field pfnDecoderTrimAllocations
+#### - pfnDecoderTrimAllocations
 
 Decoder trim allocations.
 
 
-### -field pfnProcessorTrimAllocations
+#### - pfnProcessorTrimAllocations
 
 Processor trim allocations.
 

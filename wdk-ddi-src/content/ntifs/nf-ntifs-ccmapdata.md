@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, CcMapData routine [Installable File System Drivers], ntifs/CcMapData, CcMapData
+ms.keywords: ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ntifs/CcMapData, CcMapData, ifsk.ccmapdata, CcMapData routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN CcMapData(
 
 
 
-### -param FileObject [in]
+#### - FileObject [in]
 
 Pointer to a file object for the file whose data is to be mapped for read access.
 
 
-### -param FileOffset [in]
+#### - FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the cached file where the desired data resides.
 
 
-### -param Length [in]
+#### - Length [in]
 
 Length of desired data in bytes.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Bitmask of flags specifying how the mapping operation is to be performed. This is a bitwise OR combination of one or more of the following values: 
 <table>
@@ -124,12 +124,12 @@ Only pages that are already resident in memory are to be mapped.
 Set to <b>TRUE</b> if the caller can be put into a wait state until the data has been mapped, <b>FALSE</b> otherwise.
 
 
-### -param Bcb [out]
+#### - Bcb [out]
 
 On the first call this returns a pointer to a buffer control block (BCB) structure. This pointer must be supplied as input on all subsequent calls, for this buffer.
 
 
-### -param Buffer [out]
+#### - Buffer [out]
 
 Pointer to a buffer containing the mapped data.
 
@@ -164,13 +164,13 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 

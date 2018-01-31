@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PBTH_ENUMERATOR_INFO, _BTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], bltooth.bth_enumerator_info, bthddi/BTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO
+ms.keywords: "*PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], _BTH_ENUMERATOR_INFO, bthddi/BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,17 +82,17 @@ typedef struct _BTH_ENUMERATOR_INFO {
 
 
 
-### -field EnumeratorType
+#### - EnumeratorType
 
 Reserved for use by the Bluetooth driver stack. Do not use.
 
 
-### -field Action
+#### - Action
 
 Reserved for use by the Bluetooth driver stack. Do not use.
 
 
-### -field Port
+#### - Port
 
 If the enumeration was caused by a connection request, this member contains the device's port
      number. Otherwise, this value is undefined. For a L2CAP connection request, the port number also
@@ -100,7 +100,7 @@ If the enumeration was caused by a connection request, this member contains the 
      request, this is an RFCOMM data link connection identifier (DLCI).
 
 
-### -field Flags
+#### - Flags
 
 A flag that indicates the direction of the request. Possible values include:
 <ul>
@@ -109,7 +109,7 @@ A flag that indicates the direction of the request. Possible values include:
 <li>BTH_ENUMERATORFL_REENUM</li>
 </ul>
 
-### -field Guid
+#### - Guid
 
 
       The enumeration protocol or service class GUID. This value is usually obtained from the INF file
@@ -117,58 +117,58 @@ A flag that indicates the direction of the request. Possible values include:
      
 
 
-### -field InstanceId
+#### - InstanceId
 
 
       The instance ID of the protocol or service if the BTH_ENUMERATORFL_INCOMING flag is set.
      
 
 
-### -field InstanceIdStr
+#### - InstanceIdStr
 
 
       The instance ID of the protocol or service if the BTH_ENUMERATORFL_OUTGOING flag is set.
      
 
 
-### -field Vid
+#### - Vid
 
 The vendor ID of the remote device, which is obtained from SDP.
 
 
-### -field Pid
+#### - Pid
 
 The product ID of the remote device, which is obtained from SDP.
 
 
-### -field Mfg
+#### - Mfg
 
 The manufacturer ID of the remote device, which is obtained from SDP.
 
 
-### -field LocalMfg
+#### - LocalMfg
 
 The local radio manufacturer obtained from the HCI.
 
 
-### -field VidType
+#### - VidType
 
 
       The remote device vendor ID type, which is obtained from SDP.
      
 
 
-### -field ServiceName
+#### - ServiceName
 
 The service name that is used for local services.
 
 
-### -field SdpPriLangServiceName
+#### - SdpPriLangServiceName
 
 The identifier used for remote services.
 
 
-### -field DeviceString
+#### - DeviceString
 
 The device string for the remote device.
 

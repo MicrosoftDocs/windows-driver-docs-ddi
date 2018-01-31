@@ -74,7 +74,7 @@ VOID MiniportDisableMessageInterrupt(
 
 
 
-### -param MiniportInterruptContext [in]
+#### - MiniportInterruptContext [in]
 
 A handle to a block of context information. The miniport driver supplied this handle in the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
@@ -82,7 +82,7 @@ A handle to a block of context information. The miniport driver supplied this ha
      NdisMRegisterInterruptEx</b></mshelp:link> function.
 
 
-### -param MessageId [in]
+#### - MessageId [in]
 
 A message-signaled interrupt. 
      <i>MessageId</i> is an index to the 
@@ -160,22 +160,22 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
-
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-<mshelp:link keywords="netvista.miniportenablemessageinterrupt" tabindex="0"><i>
-   MiniportEnableMessageInterrupt</i></mshelp:link>
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
 
+<mshelp:link keywords="netvista.miniportenablemessageinterrupt" tabindex="0"><i>
+   MiniportEnableMessageInterrupt</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
 <mshelp:link keywords="kernel.io_interrupt_message_info_entry" tabindex="0"><b>
    IO_INTERRUPT_MESSAGE_INFO_ENTRY</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
  
 

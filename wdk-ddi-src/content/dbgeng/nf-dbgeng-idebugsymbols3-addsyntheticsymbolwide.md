@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06d4d1f1-8d28-46cc-8c80-8a67cf4ae4c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3::AddSyntheticSymbolWide, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, debugger.addsyntheticsymbolwide, IDebugSymbols3
+ms.keywords: IDebugSymbols3::AddSyntheticSymbolWide, AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, debugger.addsyntheticsymbolwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT AddSyntheticSymbolWide(
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Specifies the location in the process's virtual address space of the synthetic symbol.
 
 
-### -param Size [in]
+#### - Size [in]
 
 Specifies the size in bytes of the synthetic symbol.
 
 
-### -param Name [in]
+#### - Name [in]
 
 Specifies the name of the synthetic symbol.
 
 
-### -param Flags [in]
+#### - Flags [in]
 
 Set to DEBUG_ADDSYNTHSYM_DEFAULT.
 
 
-### -param Id [out, optional]
+#### - Id [out, optional]
 
 Receives the <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
 
@@ -134,9 +134,9 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8c7f3832-3faa-4ece-8434-338f1b150ec1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH structure [Storage Devices], _MPIO_PASS_THROUGH_PATH, structs-scsibus_0a643059-71aa-4dca-92a8-525924a999df.xml, ntddscsi/MPIO_PASS_THROUGH_PATH, storage.mpio_pass_through_path, PMPIO_PASS_THROUGH_PATH, ntddscsi/PMPIO_PASS_THROUGH_PATH, *PMPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH structure pointer [Storage Devices]
+ms.keywords: structs-scsibus_0a643059-71aa-4dca-92a8-525924a999df.xml, ntddscsi/PMPIO_PASS_THROUGH_PATH, ntddscsi/MPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH, _MPIO_PASS_THROUGH_PATH, storage.mpio_pass_through_path, *PMPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH structure [Storage Devices], PMPIO_PASS_THROUGH_PATH structure pointer [Storage Devices], MPIO_PASS_THROUGH_PATH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _MPIO_PASS_THROUGH_PATH {
 
 
 
-### -field PassThrough
+#### - PassThrough
 
 Contains a <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a> structure that is set up in the same way as it is for an <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a> request.
 
 
-### -field Version
+#### - Version
 
 Should be zero.
 
 
-### -field Length
+#### - Length
 
 The size of the <b>MPIO_PASS_THROUGH_PATH</b> structure.
 
 
-### -field Flags
+#### - Flags
 
 
 
@@ -99,12 +99,12 @@ The size of the <b>MPIO_PASS_THROUGH_PATH</b> structure.
 
 
 
-### -field PortNumber
+#### - PortNumber
 
 The port number if MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set. Otherwise, this member is zero. If MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set, the <b>PathId</b> and <b>TargetId</b> values are taken from the embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a> structure.
 
 
-### -field MpioPathId
+#### - MpioPathId
 
 The <b>PathId</b> for the real LUN. This value can be obtained by using a WMI request for the PDO_INFORMATION that is associated with the real LUN. This value is set only if MPIO_IOCTL_FLAG_USE_PATHID is set.
 
@@ -118,17 +118,17 @@ The <b>MPIO_PASS_THROUGH_PATH</b> structure is used for a double-buffered device
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path.md">IOCTL_MPIO_PASS_THROUGH_PATH</a>
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a>
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path.md">IOCTL_MPIO_PASS_THROUGH_PATH</a>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8431fee3-d8c9-4c31-aa74-f5ce55f7fdcd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_927a3360-7000-4cf0-99c7-f02407ae63eb.xml, d3dhal/D3DHAL_DP2SETPIXELSHADERCONST, D3DHAL_DP2SETPIXELSHADERCONST structure [Display Devices], D3DHAL_DP2SETPIXELSHADERCONSTI, *LPD3DHAL_DP2SETPIXELSHADERCONSTB, _D3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONST, display.d3dhal_dp2setpixelshaderconst, D3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONSTI
+ms.keywords: D3DHAL_DP2SETPIXELSHADERCONST structure [Display Devices], d3dhal/D3DHAL_DP2SETPIXELSHADERCONST, D3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONST, display.d3dhal_dp2setpixelshaderconst, *LPD3DHAL_DP2SETPIXELSHADERCONSTB, *LPD3DHAL_DP2SETPIXELSHADERCONSTI, d3dstrct_927a3360-7000-4cf0-99c7-f02407ae63eb.xml, _D3DHAL_DP2SETPIXELSHADERCONST, D3DHAL_DP2SETPIXELSHADERCONSTI, *LPD3DHAL_DP2SETPIXELSHADERCONST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _D3DHAL_DP2SETPIXELSHADERCONST {
 
 
 
-### -field dwRegister
+#### - dwRegister
 
 Specifies the index of the first register to set.
 
 
-### -field dwCount
+#### - dwCount
 
 Specifies the number of registers to set. Immediately following this data structure in the DP2 stream are <b>dwCount</b> vectors of four single precision floating-point numbers. This is the data to copy to the target registers.
 
@@ -93,13 +93,13 @@ The runtime validates that the specified register range lies within the legal ra
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
+D3DDP2OP_SETPIXELSHADERCONST
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-D3DDP2OP_SETPIXELSHADERCONST
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
 
  
 
